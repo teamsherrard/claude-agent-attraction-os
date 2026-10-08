@@ -11,6 +11,7 @@
 - **Market:** [City, Region] · **Sells most:** [e.g., "move-up families in the north suburbs"]
 - **Agent type:** [solo / team leader / on a team / broker-owner] · **Licensed:** [X years, since YYYY]
 - **Before real estate:** [one line — the job or life that shaped how they work]
+- **Outside real estate:** [passions, hobbies, family life they are happy to share — what makes other agents relate; "prefer to keep that private" is a real answer, written as that]
 - **What they are building:** [a downline at a cloud brokerage / a local team / a local brokerage / a mix — and in one line, why that shape]
 - **Attracts in:** [local only / whole state or province / national / listed states — must match compliance.md]
 - **Organization today:** [N agents] *(the roster lives in memory/organization.md)*

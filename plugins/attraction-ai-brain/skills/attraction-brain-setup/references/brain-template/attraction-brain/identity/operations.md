@@ -8,6 +8,9 @@
 **Partner-call block:** [n] slots/week · [days + times — e.g., Tue + Thu afternoons]
 **3-way call partner (upline):** [name · how to loop them in — or "nobody yet"; the person in the upline who explains the model best, not necessarily the sponsor (`02-prospect-targeting/19`)]
 **Weekly model call:** [day/time · link — or "none yet"; the "model explained + my value" call agents' prospects are invited to]
+**Filming window:** [the batch-filming day + time — e.g., Tue 9–11 am; "not set yet" is a real answer — the Short-Form and YouTube plugins read this by name]
+**Friday note time:** [when the Weekly Content Performance note should land — default the last working hour on Friday, e.g., Fri 4 pm; `sf-analytics` reads this by name]
+**Organization list / group address:** [the one email or group address that reaches the whole organization — or "none yet"; the Team Wins newsletter's To field reads this]
 **CRM:** [GoHighLevel / Follow Up Boss / Google Sheets / none] · tags: [e.g., prospect-agent · the type · the source · partner] · exports to 06 · Materials/CRM exports/ · the CRM is the system of record; the Brain's ledgers are the AI's working memory
 
 ## Follow-up rhythm

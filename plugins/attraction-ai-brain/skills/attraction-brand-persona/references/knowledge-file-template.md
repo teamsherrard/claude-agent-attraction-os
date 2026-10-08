@@ -24,6 +24,7 @@ Market: [City, State/Province] · sells mostly [resale homes / new construction 
 Agent type: [solo / team leader / on a team / broker-owner]
 Licensed: [year] ([N] years)
 Before real estate: [one specific line — "former high-school teacher", "nine years selling cars"]
+Outside real estate: [passions, hobbies, family life they are happy to share — "two kids under five, trail runs at dawn"; or "prefers to keep that private"]
 Building: [a downline at a cloud brokerage / a local team / a local brokerage / a mix — see strategy.md]
 Booking link / primary CTA: [URL — or "none yet"]
 Social handles: [Instagram / YouTube / TikTok / LinkedIn / Facebook — as known]

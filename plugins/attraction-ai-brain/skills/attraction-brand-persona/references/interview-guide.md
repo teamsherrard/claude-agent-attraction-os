@@ -36,6 +36,10 @@ that attraction-persona-map asks later. Do not ask it here.*
 cars for nine years", "engineer who quit a day after being named top employee". It is often the most
 relatable line in the whole Brain; keep the specific detail.*
 Follow-up if "I've been a lot of things": "Pick the one that shaped how you work with people."
+*One sub-ask, same breath (the `Outside real estate:` line): "what do you do outside real estate that other
+agents would relate to?" — passions, hobbies, family life they are happy to share, one line; "prefer to keep
+that private" is a real answer and is written as that, never re-asked. It feeds the Personality pillar and
+the mirror principle; it is never a probe into their private life.*
 
 **Q4. What are you building: a downline at a cloud brokerage, a local team, a local brokerage, or a mix?**
 *This is the strategy line. "A mix" is common and fine; capture the mix. "I'm not sure yet" goes in as

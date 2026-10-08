@@ -79,7 +79,7 @@ skippable; a skipped answer becomes a friendly placeholder on the Book's open-it
 ### Stop 1 · The basics
 1. Your name and your brokerage.
 2. Your market (city or region) and what you sell most.
-3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate?
+3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate? (One sub-ask, same breath: what do you do outside real estate that other agents would relate to? "Prefer to keep that private" is a real answer.)
 4. What are you building: a downline at a cloud brokerage, a local team, a local brokerage, or a mix?
 
 *Brokerage-agnostic, always: eXp, REAL, LPT, Epique, another cloud brokerage, a local team, or a local
@@ -170,7 +170,7 @@ The Brain Book renders them later; this skill does not produce a separate docume
 
 | What you captured | File | Notes |
 |---|---|---|
-| Name · brokerage · market and what they sell most · agent type · years licensed · before-story · joined (month/year) · the real reason · the one line out loud | `~/attraction-brain/identity/profile.md` | Human reason only. No compensation mechanics. No former brokerage names. |
+| Name · brokerage · market and what they sell most · agent type · years licensed · before-story · outside real estate (what other agents relate to) · joined (month/year) · the real reason · the one line out loud | `~/attraction-brain/identity/profile.md` | Human reason only. No compensation mechanics. No former brokerage names. |
 | The three beats, each with "Who relates to this:" · the leader moment · the WHY (who it is for, the scenes they replay) | `~/attraction-brain/identity/journey.md` | If a `## Why join me` block already exists (written by **attraction-why-join-me**), keep it byte-for-byte; update only the sections above it. |
 | What they are building (Q4) · what they want to be known for (suggested — confirm) · the vision line | `~/attraction-brain/identity/strategy.md` | Geography and niche belong to **attraction-persona-map**; offer and value stack belong to **attraction-offer** (Week 2). Do not pre-fill them. |
 

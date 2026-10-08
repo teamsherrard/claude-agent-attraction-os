@@ -130,7 +130,7 @@ Week 2" (capture appends); `attraction-rev-share-calculator` owns "The money, ho
 Setup Stop 12 writes `voice.md` first and `attraction-brand-persona`'s update path owns later edits;
 `attraction-voice-print` owns only `voice-print.md`; `attraction-prospect-radar` owns `prospect-intel.md` and
 `memory/intel.md` (the Watcher); `attraction-operations` owns `operations.md` in its locked shape (Stop 16 writes
-the basics: hours, booking link, the 3-way call partner, the weekly model call, CRM, follow-up rhythm);
+the basics: hours, booking link, the 3-way call partner, the weekly model call, the filming window, the Friday note time, CRM, follow-up rhythm);
 `attraction-goals` owns the scorecard's Targets block, the Debrief appends daily rows, the weekly check-in appends
 weekly rows (then `admin-recruiting-scorecard`). **The Top-50 mirror rule:** `attraction-top-50` owns `top-50.md`; once the
 Admin's `## AI Admin` block exists, every run refreshes `Stage` from `pipeline.md`, `Last touch` from the newest

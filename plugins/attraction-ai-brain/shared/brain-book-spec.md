@@ -304,8 +304,8 @@ organization today / 12-month target · booking link · socials · brand colours
 prose line on how to use the Book. No credential line (byline rule).
 
 ### Chapter 2 — THE LEADER
-`profile.md` in prose: the before-story, the path in, the brokerage and the human reason they joined (never
-the mechanics), what they are building and why that shape, the leader moment from `journey.md`, what they want
+`profile.md` in prose: the before-story, what they do outside real estate (when they shared it), the path in,
+the brokerage and the human reason they joined (never the mechanics), what they are building and why that shape, the leader moment from `journey.md`, what they want
 to be known for and the niche from `strategy.md`. Through the brand formula: name which of Authority ·
 Relatability · Aspiration is strongest today (labeled as doctrine, per `brand-doctrine.md` §1).
 

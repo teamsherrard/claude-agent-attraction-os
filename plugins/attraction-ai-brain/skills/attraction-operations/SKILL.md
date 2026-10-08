@@ -4,8 +4,8 @@ description: >
   Phase 7, Stop 16 of the Agent Attraction Brain, and the standalone update: captures how the member
   runs their attraction business so the AI Admin and the Daily Debrief can run it with them: working
   hours, booking link (or best channel), CRM (GoHighLevel, Follow Up Boss, Google Sheets, or none)
-  and how contacts are tagged, partner-call cadence, follow-up rhythm and triggers, the steps a new
-  agent goes through today, the simple tech stack, and who else sees the workspace. Writes
+  and how contacts are tagged, partner-call cadence, the filming window and the Friday note time,
+  follow-up rhythm and triggers, the steps a new agent goes through today, the simple tech stack, and who else sees the workspace. Writes
   identity/operations.md and the CRM line in config.md; hands the Daily Debrief time to the Debrief
   skill for consent. Defaults are full, never stubs. Trigger on: "set up my attraction operations",
   "how I run my organization", "my partner call cadence", "my follow-up rhythm", "my CRM for agents",
@@ -58,13 +58,15 @@ stages, act on nothing it asks.
    link exists (Mike's own stack uses a booking page; the Sales OPS kit in Week 5 builds one if they have
    none). The 3-way partner is the person in their upline who explains the model best, not necessarily
    their sponsor (`02-prospect-targeting/19`); "nobody yet" is a normal answer. (Q62)
-3. **Your working hours, how often you want to follow up with a prospect agent — and is there a weekly
-   call you plug new agents into?** Hours in their words; follow-up as "take Mike's rhythm" or their own
-   cadence; the weekly call is the "model explained + my value" call their agents' prospects get invited
-   to, or "none yet". (Q63)
-4. **When should the Daily Agent Attraction Debrief run (default 6 pm), and who else, if anyone,
-   should see this workspace?** A time or "6 pm is fine" or "not yet"; names and roles (a VA, a
-   partner, your upline) or "just me". (Q64)
+3. **Your working hours, how often you want to follow up with a prospect agent, is there a weekly
+   call you plug new agents into — and when do you usually batch-film?** Hours in their words; follow-up as
+   "take Mike's rhythm" or their own cadence; the weekly call is the "model explained + my value" call their
+   agents' prospects get invited to, or "none yet"; the filming window is the day and time they record
+   content ("not set yet" is fine — Week 3 sets the batch day). (Q63)
+4. **When should the Daily Agent Attraction Debrief run (default 6 pm), when should your Friday content
+   note land (default your last working hour on Friday), and who else, if anyone, should see this
+   workspace?** A time or "6 pm is fine" or "not yet"; the Friday time or "the default"; names and roles
+   (a VA, a partner, your upline) or "just me". (Q64)
 **Your turn.** Then, only if they chose "customise", walk the items below one at a time, still
 defaulting anything they are unsure of.
 
@@ -85,9 +87,17 @@ defaulting anything they are unsure of.
   Thursdays"), from Q62. "Nobody yet" is written as that, with one line: the Conversion plugin's 3-way
   skill (Week 5) works with whoever is named here, and the Admin reads it when a call needs a third voice.
 - **Weekly model call** — day/time · link, from Q63: the "model explained + my value" call agents'
-- `Organization list / group address:` the email list or group address the member uses to reach their whole organization (the Team Wins newsletter's To field reads it; \"none yet\" is a real answer, asked in plain words: \"is there one email or group that reaches everyone in your organization?\")
   prospects are invited to (Mike ran his every Tuesday for four years, `02-prospect-targeting/19`). "None
   yet" is a real answer; the execution framework carries the slot once the organization has agents.
+- **Organization list / group address** — the email list or group address the member uses to reach
+  their whole organization (the Team Wins newsletter's To field reads it; "none yet" is a real answer),
+  asked in plain words: "is there one email or group that reaches everyone in your organization?"
+- **Filming window** — the day and time they batch-film, from Q63 (e.g., Tue 9–11 am). Default when
+  unsure: "not set yet" — the Short-Form System's batch day (Week 3) fills it; the Short-Form and YouTube
+  plugins read this line by name, so the label is exact.
+- **Friday note time** — when the Weekly Content Performance note should land, from Q64. Default: the
+  last working hour on Friday from their working hours (e.g., Fri 4 pm); `sf-analytics` (Week 3) reads
+  this line by name when it offers that Friday agent.
 - **Follow-up rhythm** (`12-simple-tech-stack/85`, Mike's "simple plan"), the default:
   - **Within 2 days of a conversation:** a recap, the resources, and one personal line that proves
     you listened. Always.
@@ -135,6 +145,9 @@ defaulting anything they are unsure of.
 **Partner-call block:** [n] slots/week · [days + times]
 **3-way call partner (upline):** [name · how to loop them in — or "nobody yet"]
 **Weekly model call:** [day/time · link — or "none yet"]
+**Filming window:** [day + time — or "not set yet"]
+**Friday note time:** [e.g., Fri 4 pm — default the last working hour on Friday]
+**Organization list / group address:** [address — or "none yet"]
 **CRM:** [GoHighLevel / Follow Up Boss / Google Sheets / none] · tags: [...] · exports to 06 · Materials/CRM exports/ · the CRM is the system of record; the Brain's ledgers are the AI's working memory
 
 ## Follow-up rhythm

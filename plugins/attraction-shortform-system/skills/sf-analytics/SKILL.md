@@ -129,7 +129,7 @@ what started conversations · what to make more of) and appends a dated block to
 once, at the end of the first dive or when they ask: *"want a short performance note every Friday — which
 Reels and stories started conversations this week, and what to post next week? Say yes and I'll set it up;
 it only writes, never posts."*
-- **On yes:** create the scheduled task for **Friday** (the slot: a `Friday note:` line in `identity/operations.md`
+- **On yes:** create the scheduled task for **Friday** (the slot: a `Friday note time:` line in `identity/operations.md`
   if the member ever set one, otherwise the last working hour of Friday from its `Working hours:` line; timezone
   from `config.md`), with a prompt that: pulls the week from the Step-1 source ladder (live → tool → the log alone)
   — **a scheduled run has nobody to click a permission card, so when the live data or the tool cannot be read

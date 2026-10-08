@@ -10,8 +10,7 @@ description: >
   Scorecard, hands over the Project Seatbelt, and provisions the Daily Debrief with their yes.
   Resumable; never re-interviews a built Brain.
   Trigger on: "set up my attraction brain", "set up my agent attraction brain", "build my agent
-  attraction brain", "launch the agent attraction OS", "open my attraction brain", "load my
-  attraction brain", "onboard me to agent attraction". The plain realtor phrases stay with the Realtor Brain.
+  attraction brain", "launch the agent attraction OS", "open my attraction brain", "onboard me to agent attraction". The plain realtor phrases stay with the Realtor Brain.
 ---
 
 # Agent Attraction Brain — Setup
@@ -309,7 +308,7 @@ Run **attraction-brand-persona**. The size of their business is the size of thei
 **Stop 1 · The basics**
 1. Your name and your brokerage.
 2. Your market (city or region) and what you sell most.
-3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate?
+3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate? (One sub-ask, same breath: what do you do outside real estate that other agents would relate to? "Prefer to keep that private" is a real answer.)
 4. What are you building: a downline at a cloud brokerage, a local team, a local brokerage, or a mix?
 
 **Stop 2 · Your brokerage and why**
@@ -508,11 +507,11 @@ first run unless they explicitly skipped, in which case the Book's open-items pa
 **Stop 16 · Tools and rhythm**
 61. Gmail and Calendar confirmed (shown, not asked — see "Confirm your tools" below). Which CRM do you use, if any? (A Google Sheet is a real answer — `12-simple-tech-stack/83`.)
 62. Your booking link, or your best channel today if none — and who do you 3-way with today, if anyone? (The person in your upline who explains the model best, not necessarily your sponsor — `02-prospect-targeting/19`; "nobody yet" is a normal answer.)
-63. Your working hours and how often you want to follow up with a prospect agent (default: a personal recap within a day of every conversation, then value-driven touches, never a drip — `12-simple-tech-stack/85`) — and is there a weekly call you plug new agents into? (The "model explained + my value" call; "none yet" is a real answer.)
-64. When should the Daily Agent Attraction Debrief run (default 6 pm) and who else, if anyone, should see this workspace?
+63. Your working hours and how often you want to follow up with a prospect agent (default: a personal recap within a day of every conversation, then value-driven touches, never a drip — `12-simple-tech-stack/85`) — and is there a weekly call you plug new agents into? (The "model explained + my value" call; "none yet" is a real answer.) And when do you usually batch-film? (The filming window; "not set yet" is fine — Week 3 sets the batch day.)
+64. When should the Daily Agent Attraction Debrief run (default 6 pm), when should your Friday content note land (default your last working hour on Friday), and who else, if anyone, should see this workspace?
 
-Writes `operations.md` (hours · booking link · the 3-way call partner · the weekly model call · CRM and
-how contacts are tagged · call cadence · follow-up rhythm · the onboarding steps a new agent goes through,
+Writes `operations.md` (hours · booking link · the 3-way call partner · the weekly model call · the filming
+window · the Friday note time · CRM and how contacts are tagged · call cadence · follow-up rhythm · the onboarding steps a new agent goes through,
 if known — in `attraction-operations`' locked shape) and `config.md` →
 `CRM` · `Timezone` · `Debrief time` · `Workspace shared with`. Q64's yes is the member's explicit
 consent for the Debrief; "not yet" is honoured and never re-asked this session. Checkpoint: *"7 of
