@@ -136,7 +136,7 @@ want to join you because there's layers below the iceberg" (`/74`).
 
 Why holding back fails: "information is no longer novel… what are you sharing for free? Share it all"
 (`05-big-picture/36`); "people pay for proximity, intimacy, access, support, accountability" (`/73`) — the
-training is free; the member's time, community, and accountability are what partnering unlocks.
+training is free; the member's time, community, and accountability are what partnering gives them.
 
 **Interactive, always.** Virtual: "I'll ask them to drop something in the chat if they're feeling this way, or if
 they understand this, or if they're experiencing that pain point" (`/75`). Live: "a time at the end for Q&A" and

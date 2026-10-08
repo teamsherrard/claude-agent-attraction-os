@@ -147,4 +147,5 @@ Never bounce them, never make it feel like a wrong door. One line, then Steps 3�
 
 ## Demo mode
 A demo Brain (`Demo brain: yes`) gets a fictional event for a fictional member, "(illustrative — demo)" on every
-number, DEMO in every filename, no scheduled task — same structure as real.
+number, DEMO in every filename, and never a scheduled task (the Post-Event Follow-Up agent is only ever armed by
+`ev-followup` with the member's explicit yes, and never on a demo Brain) — same structure as real.

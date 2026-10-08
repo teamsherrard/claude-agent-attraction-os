@@ -2,15 +2,15 @@
 name: ev-followup
 description: >
   After the event: the attended, no-show, hot, and cold follow-up sequences, drafted in the member's voice —
-  the recap with the resource and replay, the value touch, the warm invite to a conversation, the personal
-  messages to the agents who engaged, the replay window, and the share pack so the member's agents follow up
-  with their own guests. Moves named attendees into the pipeline through the locked stage requests (the AI
-  Admin applies them), hands booked calls to the show-up sequence, and writes the follow-up status to the
-  event's memory. Owns the Post-Event Follow-Up scheduled agent — armed once per event, the morning after,
-  only on the member's explicit yes, draft-only. Documents the sequences as Trigger → Action → Outcome for
-  GoHighLevel. Trigger on: "follow up after my agent event", "my event follow-up", "no-show emails for my
-  workshop", "replay email for my training", "message the agents who came", "turn on my event follow-up",
-  "turn off my event follow-up", "run my event follow-up".
+  the recap with the resource and replay, the value touch, the warm invite to a conversation, personal
+  messages to the agents who engaged, and the share pack so the member's agents follow up with their own
+  guests. Moves named attendees into the pipeline through the locked stage requests (the AI Admin applies
+  them), hands booked calls to the show-up sequence, and writes the follow-up status to the event's memory.
+  Owns the Post-Event Follow-Up scheduled agent — armed per event for the morning after, only on the
+  member's explicit yes, draft-only. Each sequence documented as Trigger → Action → Outcome for GoHighLevel.
+  Trigger on: "follow up after my agent event", "my event follow-up", "no-show emails for my workshop",
+  "replay email for my training", "message the agents who came", "turn on my event follow-up", "turn off my
+  event follow-up", "run my event follow-up".
 ---
 
 # Post-Event Follow-Up — the name of the game
