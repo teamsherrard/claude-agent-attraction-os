@@ -1,29 +1,46 @@
-# [Agent First Name] — Offer & USP
-*identity · what working with this agent gets you, and why they're the choice*
-*Read alongside voice.md and avatars.md.*
+# [Member First Name] — What You Have to Give
+*identity · the value stack an agent gets by joining them · measured against the five pains · features become outcomes*
+*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Phase 4) writes SEEDS only — the first three sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns the "Free vs paid" section. `attraction-capture` appends under "Notes for Week 2" only.*
+*Doctrine: `shared/attraction-doctrine.md` §7b, §10 · `04-value-proposition/28, 31, 32, 33`.*
 
-**Core offer (2–3 sentences):** [what working with this agent gets a client — the plain answer]
+**Status:** [seeds (Week 2 builds the offer) | finalized by member on YYYY-MM-DD | built in Week 2 on YYYY-MM-DD]
+*(When Status is seeds, the Brain Book renders this chapter as "What you have to give (so far)" with one line that the Partner Offer is built in Week 2 — never as a gap.)*
 
-## Buyer offer *(if applicable)*
-- **[Offer item]:** [what it includes and what it means for the buyer]
-- **[Offer item]:** [...]
+## What worked for them (production, not attraction — Setup Stop 8, raw material)
+| Strategy | What it actually involved | Result they can stand behind | Teach it? (yes / partly / not yet) |
+|---|---|---|---|
+| | | | |
+**Edge (what they do that other agents in their market don't):** [ ]
+**Teach first (the first thing they'd show a brand-new agent):** [strategy → the first lesson + the sheet or template they'd hand over — "I'm not sure yet" is a real answer]
 
-## Seller offer *(if applicable)*
-- **[Offer item]:** [...]
-- **[Offer item]:** [...]
+## The three layers (Setup Stop 9, unpolished)
+- **What the brokerage gives every agent (as far as they know):** [rough list — "not sure yet" goes on the open-items list; the Brokerage Model Expert fills it in Week 2]
+- **What the upline provides that they could point an agent to today:** ["nothing I know of" is fine]
+- **What THEY give (today):** [a weekly call · a template · 1:1 onboarding · a group chat of three — real and small beats big and promised]
 
-## Lead magnets *(free guides/checklists the agent gives away — content CTAs point to these)*
-*Each: name · who it's for · the DM keyword (if any). Skills route CTAs here (e.g. DM "BUYER" → the buyer guide).*
-- **[Lead magnet name]** — for [buyers/sellers/relocators/etc.] · keyword: "[KEYWORD]"
-- [e.g. "First-Time Buyer Guide — for first-time buyers · keyword: BUYER"]
-- [e.g. "Seller's Net Sheet — for sellers · keyword: SELLER"]
-- [or "none yet" — if blank, content skills will suggest creating one]
+## Notes for Week 2 (appended by capture — never rewrites the above)
+- [YYYY-MM-DD] [ ]
 
-## Guarantees / risk-reversals
-- [e.g. "Cancel-anytime listing agreement"]
+## The value stack vs the five pains (Week 2 — Mike's framing, `02-prospect-targeting/18` + `04-value-proposition/27`)
+| Pain (Mike's wording · plain alias) | Solved by this member? | What they give | The outcome (not the feature) | Proof |
+|---|---|---|---|---|
+| Financial uncertainty · inconsistent business, no reliable next client | | | | |
+| Lack of support, mentorship, training · the brokerage explains forms, not how to get clients | | | | |
+| Technology gaps · paying for tools and leads that don't move the needle | | | | |
+| Limited growth · no path past "sell more houses", everything resets | | | | |
+| Work-life balance and recognition · the hamster wheel, doing it alone | | | | |
+*Only pains they have genuinely solved go in; the rest is "and everything my brokerage provides — I walk you through that on a call".*
 
-## The USP — why hire this agent over anyone else
-[The sharp, specific reason. What they do that competitors don't, tied to the avatar's real fear.]
+## The Partner Offer (Week 2)
+**UVP one-liner:** "I help [agent type] achieve [outcome] through [mechanism]."
+**Core promise · unique mechanism · proof · support · why now:** [the five parts of an irresistible offer, `04-value-proposition/33`]
+**Offer name:** [plain / outcome-led / branded — the one in use]
+**What's included (real, each one line):** [onboarding · the recurring call · templates handed over · the community as it is today · "and everything [brokerage] provides"]
+**Module 1 / first lesson:** [concrete enough to record tonight]
+**First 30 days as a partner:** [week → what the partner does → what the member does → done when]
 
-## Proof / credibility
-[Track record, testimonials, numbers, signature process — anything that backs the offer.]
+## Free vs paid (owned by `attraction-free-vs-paid`)
+**Rule (`04-value-proposition/31`):** anything evergreen that does not require their time is free to agents who join; anything that requires their time or a team is discounted, and the price is said up front.
+**Free to partners:** [ ] · **Discounted:** [ ] · **The digital product they give agents who join (Value Vault, Week 6):** [ ]
+
+**Compliance line on every public mention:** results are framed as what the member will SHOW, never what a partner will EARN. No splits, caps, stock, or rev-share numbers here — private call only.

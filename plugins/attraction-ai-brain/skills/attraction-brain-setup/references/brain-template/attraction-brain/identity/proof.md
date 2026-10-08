@@ -1,17 +1,24 @@
-# [Agent] — Proof Library
-*identity · testimonials, stats, and wins — reused across listings, lead magnets, bios, and emails*
+# [Member First Name] — Proof Library
+*identity · what they can point to · reused in bios, partner calls, content, the Offer Doc · STRICT no-invent: zero proof = one honest line, never manufactured credibility*
+*Owner: `attraction-voice-proof` (Setup Phase 3, Stop 7). `attraction-capture` appends to the Seeds section only.*
+*Mike's rule: if you have no case studies yet, help agents for free and earn them — `04-value-proposition/33`. Until then, use "we" (your upline's proof), labeled as the upline's — `02-prospect-targeting/21`.*
 
-## Testimonials
-- "[verbatim quote]" — [client first name / type, e.g. "first-time buyer"], [year]
-- "[verbatim quote]" — [client], [year]
+## Production wins (said out loud only with their permission)
+- [deals / volume / years / awards / reviews — exactly as they stated them, with the year; "none I want public yet" is a valid line]
 
-## Stats & track record
-- Homes sold: [X] · Years in business: [X]
-- Average days on market: [X] (vs market average [X])
-- List-to-sale price ratio: [X]%
-- Competitive-offer win rate: [X]%
-- Awards / rankings: [...]
+## Agents already helped (named, with the result)
+| Agent (first name or initials) | What the member did | What happened | When | OK to use publicly? |
+|---|---|---|---|---|
+| | | | | |
 
-## Case studies / signature wins
-- **[Short title]:** [client's starting situation] → [what the agent did] → [the outcome]
-- **[Short title]:** [...]
+## Organization today
+**Agents in the organization:** [N] · **As of:** [YYYY-MM-DD] · **Frontline (personally attracted):** [N] *(the roster lives in memory/organization.md)*
+
+## Reviews and testimonials FROM AGENTS (not clients)
+- "[verbatim]" — [first name, type of agent], [year] · consent: [yes / ask first]
+
+## Upline proof the member may point to (labeled as the upline's, never as theirs)
+- [the group's success stories, the training they can show on a call — "our group has…"]
+
+## Seeds (from capture — flesh out on "refresh my proof")
+- [YYYY-MM-DD] [e.g., "Priya got her first buyer under contract from the open-house routine"]

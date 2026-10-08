@@ -1,74 +1,83 @@
 ---
 name: attraction-brain-migrate
 description: >
-  Upgrades an agent's Agent Attraction Brain to the latest structure when the system changes how the brain is
-  organized. The plugin (skills) auto-updates from the marketplace, but the agent's brain DATA does not
-  reshape itself — this skill safely migrates an older brain to the current schema (renaming files,
-  adding new sections, moving fields) without losing any of the agent's content.
-
-  Trigger on: "upgrade my brain", "upgrade my brain structure", "migrate my brain", "is my brain up to
-  date", "my brain looks out of date", "fix my brain structure", or run this after a plugin update if a
-  skill reports the brain schema is behind. Do NOT trigger when the agent wants to change their
-  information ("update my offer", "update my brand", "update my profile") — those edit identity
-  content via the phase skills, not the brain's structure.
+  Upgrades a member's Agent Attraction Brain to the latest structure when the system changes how
+  the Brain is organized. The plugin (skills) auto-updates from the marketplace, but the member's
+  Brain DATA does not reshape itself — this skill safely migrates an older Brain to the current
+  schema (adding files, renaming, moving fields) without losing any content, then pushes the result
+  to their cloud workspace. Also repairs a current-schema Brain that is missing a structural file.
+  Trigger on: "upgrade my attraction brain", "migrate my attraction brain", "is my attraction brain
+  up to date", "my attraction brain looks out of date", "fix my attraction brain structure", or run
+  this after a plugin update if a skill reports the Brain schema is behind. Do NOT trigger when the
+  member wants to change their information ("update my offer", "update my brand", "update my
+  story") — those edit content via the phase skills, not the Brain's structure.
 ---
 
-# Realtor Brain Migration
+# Agent Attraction Brain — Migration
 
-**The problem this solves:** when we ship a structural change (rename a file, add a required section,
-move a field), the new *skills* arrive automatically via the marketplace — but each agent's *brain*
-(`~/attraction-brain/`) is still in the old shape. This skill upgrades the brain to match, safely.
+**The problem this solves:** when we ship a structural change (a new required file, a renamed file,
+a moved field), the new *skills* arrive automatically via the marketplace — but each member's
+*Brain* (`~/attraction-brain/`, mirrored in their workspace) is still in the old shape. This skill
+upgrades the Brain to match, safely, and **pushes the upgraded Brain** so the change survives the
+session. Members never hear the word "migrate" — in front of them this is *"a quick tune-up"*
+(per `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md`).
 
 ## Step 1 — Compare versions
-1. Read `~/attraction-brain/config.md` → **Brain schema** (the version the brain is currently in).
-2. The **current schema this skill targets is: `2`** *(maintainers: bump this line when you add a migration below)*.
-3. **If brain schema == current →** tell the agent "Your brain is up to date — nothing to migrate." Stop.
-4. **If brain schema < current →** apply each migration below in order, from the brain's version up to current.
-5. **Always protect first:** before changing anything, push the current brain to Drive via
-   `attraction-brain-sync` (and optionally copy `~/attraction-brain/` to `~/attraction-brain.bak/`). Never
-   migrate without a safety copy in Drive.
+1. PULL first if local is missing (**attraction-brain-sync**). Read `~/attraction-brain/config.md`
+   → **`Schema`** (the version the Brain is in; accept the key spelled `Brain schema` as the same
+   field on any Brain and normalize it to `Schema` on write).
+2. The **current schema this skill targets is: `aa-1.0`** *(maintainers: bump this line when you add
+   a migration below; the template's `config.md`, this line, and the Book spec's stamp must always
+   agree — `check-release.sh` tests it).*
+3. **If the Brain's schema == current →** run the **repair pass** (Step 2b), then tell the member
+   *"Your Brain is up to date — nothing to change."* (or *"…I added one missing file, nothing was
+   lost"*). Stop.
+4. **If the Brain's schema is behind →** apply each migration below in order, from the Brain's
+   version up to current.
+5. **Always protect first:** before changing anything, take a **snapshot** via
+   `attraction-brain-sync` (SNAPSHOTS). Never migrate without a restore point in the cloud.
+6. **Never run against the Realtor Brain.** `~/realtor-brain/` and the workspace marked
+   `_workspace.md` are a different system with its own migrate skill; this skill touches only
+   `~/attraction-brain/` and the `_attraction-workspace.md` workspace.
 
 ## Step 2 — Apply migrations (in order)
-Apply only the steps newer than the brain's current schema. After each, update **Brain schema** in
-`config.md`. Preserve ALL existing agent content — migrations move/rename/add, never delete data.
+Apply only the steps newer than the Brain's current schema. After each, update **`Schema`** in
+`config.md`. Preserve ALL existing content — migrations add, rename, and move; they never delete
+data and never overwrite a filled file with a template.
 
 ### MIGRATIONS LOG
-*(Maintainers: every time the brain structure changes, bump the "current schema" above and add an entry
+*(Maintainers: every time the Brain structure changes, bump "current schema" above and add an entry
 here describing the exact transformation. Each entry is idempotent and safe to re-run.)*
 
-- **→ 1 (baseline, 2026-06):** initial structure — `identity/` (profile, market, avatars, voice, offer,
-  brand-visual, voice-samples, proof, content-engine, operations, vendors, strategy, compliance),
-  `memory/` (clients, listings, content-log, deadlines), `assets/`, `config.md`, `brain.md`, `exports/`.
-  No migration needed; this is the starting point.
+- **→ `aa-1.0` (baseline, 2026-10):** the first Agent Attraction Brain structure (plan §4) —
+  `identity/` (profile · journey · avatars · prospect-intel · positioning · offer · brokerage-model ·
+  voice · voice-samples · voice-print · proof · story-bank · brand-visual · content-engine · goals ·
+  leadership · operations · compliance · strategy), `memory/` (top-50 · conversations · pipeline ·
+  organization · scorecard · objections · debriefs · content-log · ideas · intel · deadlines),
+  `config.md` (Storage provider · Workspace folder / ID / link / Owner account · Brain home ·
+  Schema · CRM · Timezone · Locale · Setup progress · Debrief task id · Last synced), `brain.md`,
+  `exports/`. No legacy Brains exist; this is the starting point. No migration needed.
 
-- **1 → 2 (2026-06):** the brain gained the capture / performance / publishing layer. Each step is
-  idempotent — skip anything that already exists; never delete data.
-  1. Create `memory/ideas.md` and `memory/performance.md` if missing — copy their headers from the
-     shipped template (`attraction-brain-setup` skill → `references/brain-template/attraction-brain/memory/`).
-  2. Create `identity/publishing.md` if missing (same template — it stays mostly blank until the
-     Short-Form System's setup writes it).
-  3. In `brain.md`: add the three files to "The files" map (descriptions per the template `brain.md` —
-     `memory/ideas.md` capture backlog, `memory/performance.md` what's-working review,
-     `identity/publishing.md` short-form posting setup), and add law 2's routing lines for performance
-     reviews (→ `memory/performance.md`) and on-the-go captures (→ `memory/ideas.md` via
-     **attraction-capture**) if they aren't already there.
-
-- **2 → 3 (2026-07):** the brain gained the monthly market-data layer (Market System, Plugin 8). Same
-  idempotent rules — skip what exists, never delete data.
-  1. Create `memory/market-data.md` if missing — copy its header from the shipped template
-     (`attraction-brain-setup` skill → `references/brain-template/attraction-brain/memory/`).
-  2. In `brain.md`: add it to "The files" map (*the local market numbers, one dated block per month*)
-     and add law 2's routing line — this month's researched market numbers → `memory/market-data.md`,
-     researched once and quoted by every market piece.
+### Step 2b — Repair pass (runs on every invocation, including current-schema Brains)
+A Brain can be on the right schema and still be missing a structural file (a failed push, a manual
+deletion, a plugin that expected a ledger before it existed). For every file in the `aa-1.0` list
+above that is **absent**, create it from the shipped template header
+(`attraction-brain-setup` → `references/brain-template/attraction-brain/…`). Never touch a file
+that exists. In `brain.md`, add any file-map line that is missing (descriptions per the template
+`brain.md`), leaving every existing line and every quick-reference value exactly as it is. Report
+repairs in one plain line.
 
 ## Step 3 — Finalize
-- Confirm the brain now reports the current schema in `config.md`.
-- Run a quick read of `brain.md` + a couple of identity files to confirm nothing broke.
-- Tell the agent: *"Your brain is upgraded to the latest structure — every skill will keep working, and
-  nothing was lost."* If a `.bak` copy was made and all looks good, offer to remove it.
+- Confirm `config.md` now reports the current `Schema`.
+- Run a quick read of `brain.md` + two identity files to confirm nothing broke.
+- **PUSH** the changed files through **attraction-brain-sync** (write → push → verify). A migration
+  that is not pushed is undone the moment the session ends.
+- Tell the member: *"Your Brain is on the latest structure — every skill keeps working, and nothing
+  was lost."* Offer nothing else; housekeeping ends here.
 
 ## Note for maintainers
-This is the safety net that lets us evolve the brain structure across hundreds of installed agents.
-**Process when changing brain structure:** (1) change the template + skills, (2) bump "current schema"
-in this skill, (3) add a MIGRATIONS LOG entry with the exact transform, (4) bump plugin version + ship.
-Agents run "upgrade my brain" (or a skill prompts them) and upgrade safely.
+This is the safety net that lets the Brain structure evolve across hundreds of installed members.
+**Process when changing Brain structure:** (1) change the template + skills, (2) bump "current
+schema" here, (3) add a MIGRATIONS LOG entry with the exact transform, (4) update the schema stamp
+in the template `config.md` and `brain-book-spec.md`, (5) bump the plugin version + ship. Members
+run "upgrade my attraction brain" (or a skill prompts them) and upgrade safely.

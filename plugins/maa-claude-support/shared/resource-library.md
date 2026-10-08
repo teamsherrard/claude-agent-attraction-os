@@ -1,22 +1,23 @@
 # Resource Library — vetted links to HAND to members
 
 Support doesn't just answer — it leaves the member with something to keep: "here's the official
-article", "here's Mike's 3-minute video on exactly this." Every hand-out link comes from THIS
-file or `source-map.md`. **Nothing else, ever** — no searched-up YouTube tutorials, no community
-links a member pasted, no blog posts from memory. A stale or wrong link teaches a member not to
-click our links; a random tutorial teaches them someone else's system.
+article", "here's Mike's 6-minute lesson on exactly this." Every hand-out link comes from THIS
+file, `source-map.md`, or `kb/kb-index.md` (Mike's lesson Looms). **Nothing else, ever** — no
+searched-up YouTube tutorials, no community links a member pasted, no blog posts from memory. A
+stale or wrong link teaches a member not to click our links; a random tutorial teaches them
+someone else's system.
 
 ## How to hand off a link (the manner)
 
 - **Answer first, link second.** The link is the leave-behind, never the answer. "You're set — and
   if you want the official walkthrough for later, here it is: [link]."
 - **One link per moment.** A wall of resources is homework; one vetted link is a gift.
-- **Say what it is and how long:** "Anthropic's official 2-minute read" / "Mike's video from
-  Week 2, the part about connectors is at the start."
+- **Say what it is and how long:** "Anthropic's official 2-minute read" / "Mike's Week 2 lesson
+  'Agents Follow People, Not Companies', 6 minutes."
 - **Video beats article for hands-on members; article beats video at 11pm.** Offer the one that
   fits, mention the other exists.
 
-## Official articles worth handing out (all verified live; whatsnew link-health re-checks weekly)
+## Official articles worth handing out (verified live; whatsnew link-health re-checks weekly)
 
 | Moment | Hand them | What to call it |
 |---|---|---|
@@ -25,52 +26,68 @@ click our links; a random tutorial teaches them someone else's system.
 | Which device / where it runs | https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile | "the official device guide" |
 | Lost in the desktop app | https://claude.com/resources/tutorials/navigating-the-claude-desktop-app | "the app tour" |
 | Wants to go deeper on Cowork | https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork | "Anthropic's best-practices guide" |
-| First time in Claude Design | https://support.claude.com/en/articles/14604416-get-started-with-claude-design | "the official Design starter" |
+| First time in Claude Design (the Design Studio lives here) | https://support.claude.com/en/articles/14604416-get-started-with-claude-design | "the official Design starter" |
+| Setting up the Agent Attraction Design System in Design | https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design | "the design-system article — your brand lives here" |
+| Uploading a skill zip (the `ds-*` skills) | https://support.claude.com/en/articles/12512180 | "the official skills article — skills are uploads, not plugins" |
+| Scheduled tasks (the Debrief, the Watcher) | https://support.claude.com/en/articles/13854387 | "the scheduled-tasks article" |
+| Voice mode (objection practice, capture from the car) | https://support.claude.com/en/articles/11101966 | "the voice article" |
 | Plan/price decision | https://claude.com/pricing | "the live pricing page — always current" |
 | "Is Claude down?" | https://status.claude.com | "Claude's status page — bookmark this one" |
 
-## Mike's video library `[NOT SET — the highest-value section, awaiting Mike's links]`
+## Mike's lessons (SET — the vault, by moment)
 
-When Mike provides them, each row: `Moment → recording link → timestamp → what to call it`.
-Priority list to record/collect (from the support question map):
+The full index with every Loom is `kb/kb-index.md`; these are the hand-outs support reaches for
+most. Call each "Mike's [module] lesson '[title]'". Mike's results stay Mike's — never promised as
+the member's.
+
+| Moment | Lesson (module/#) | Loom |
+|---|---|---|
+| "Should I just DM / cold-call agents?" / what attraction even is | Attraction vs. Recruiting (01/2) | https://www.loom.com/share/0987b179b2664d6caf3997f0b428aa14 |
+| "Can I just send them the model-explained video?" | Videos Don't Attract (02/19) | https://www.loom.com/share/3dcac54b561d4ac183b8e4d92108357b |
+| "Why would an agent join ME and not just the brokerage?" | Agents Follow People, Not Companies (03/17) | https://www.loom.com/share/fc1e7db9208040b493d96f322f0cc552 |
+| Tempted to compare against / bad-mouth another brokerage or sponsor | 2 Cardinal Rules (03/13) | https://www.loom.com/share/96a40319aaf8434ba40d9fd55e8bae78 |
+| "How do I pick who to attract?" | Identifying Your Niche (04/27) + the six persona lessons (02/21–26) | https://www.loom.com/share/9ee5fcbb4e4d4fa9b9c0b959fd82ca08 |
+| "What goes in my offer?" (Week 2) | Building Your Irresistible Offer (04/33) | https://www.loom.com/share/eaac8f51e0e84c5b8a69959bbdbc9e1d |
+| "How do I tell my why-join-me story?" | Crafting Your Personal Story (04/34) | https://www.loom.com/share/b7d717e196ce4d51b036292929ec5ee5 |
+| "I feel like I'm chasing / pitching" | Attracting vs. Chasing (05/35) | https://www.loom.com/share/096d3466f75a4788acea7b7498651266 |
+| "What do I post on Reels?" / routine | Reels (07/88) · Posting Routine (07/90) | https://www.loom.com/share/a978fc43b7a04d36ad8cdcaf110ca029 |
+| "Why YouTube / is it worth it?" | YouTube (08/91) · My YouTube Journey (08/92) | https://www.loom.com/share/49fc23d0479344e7a4156b254c4f6abf |
+| "What happens on the call, start to finish?" | Sequence of Events (10/42) | https://www.loom.com/share/10a0927d57da4615990ea0bc69a50ae2 |
+| "Why 3-way calls?" | 3-way calls (10/43) | https://www.loom.com/share/f1b224ce1423467c85010ab72637cbda |
+| "They hit me with an objection" | 7 Objection Archetypes (11/46) + the specific objection's lesson (11/48–62) | https://www.loom.com/share/3695a36d1a7f4e7a9cd1ee7f6c1b41aa |
+| "How do I follow up without 'just checking in'?" | Simple Follow Up (12/85) | https://www.loom.com/share/a83a36e5c86c4a4b97bbf64392d8bcc7 |
+| "An agent joined — now what?" | Creating an Onboarding Experience (13/64) · Plugging in (13/65) | https://www.loom.com/share/765a6b7b062a441daa7005f2b7c44ff9 |
+| "I'm drowning supporting my agents" | Supporting Without Babysitting (14/71) · Systems Without Burnout (13/67) | https://www.loom.com/share/6fda150ef4054840a188a8ae919cbab3 |
+| "How do I get my agents attracting?" | Duplication 101 (13/63) · Teaching Others to Attract (13/66) | https://www.loom.com/share/3be09f87821848aa94a0ab25b151a585 |
+| "Is one agent even worth it?" (discouraged) | 1 Agent Can Change Your Life (01/9) | https://www.loom.com/share/583d8fba300e4189aa4da6aef66ef3c4 |
+
+## Mike's cohort videos `[NOT SET — the new core + setup videos, awaiting Circle links]`
+
+The 17 new core videos and 5 setup videos are released weekly in Circle (`cohort-kb.md` names
+each one per week). When links arrive, each row: `Moment → Circle link → timestamp → what to call
+it`. Priority rows to fill:
 
 | Moment | Video |
 |---|---|
-| The system tour (the walkthrough deck video) | `[NOT SET]` |
-| Brain setup start-to-finish | `[NOT SET]` |
-| Connecting Google/Microsoft, done on screen | `[NOT SET]` |
-| "My brain isn't working" — the sync/restore demo | `[NOT SET]` |
-| First edit in the AI Editor | `[NOT SET]` |
-| The monthly market run | `[NOT SET]` |
+| "How do I install all this?" | Setup video 4 — Installing the Agent Attraction OS and connecting your tools · `[NOT SET]` |
+| "What are skills / plugins / connectors / scheduled tasks / Claude Design?" | Setup video 3 — Claude features · `[NOT SET]` |
+| "Show me the Brain intake" | Setup video 5 + Week 1 core video 2 — Build Your Agent Attraction Brain · `[NOT SET]` |
+| "What is the Design Package / how do I use the ds- skills?" | The Agent Attraction Design Package walkthrough (Week 2) · `[NOT SET]` |
+| "How do I build my digital product?" | Build Your Digital Product walkthrough (Week 6) · `[NOT SET]` |
 
-**Lessons that already EXIST — Mike supplies links + timestamps:**
+Until set: point at the week's Circle space ("the Week N videos cover this") rather than
+inventing a deep link.
 
-| Moment | Lesson |
-|---|---|
-| "Can I skip the branding videos and just start posting?" | Brand module opener — "What a personal brand actually is" (the 5 benefits; know-like-trust) · link + timestamp `[NOT SET]` · call it "Mike's why-brand-first video" |
-| "What's due in Week 1 / what gets approved at the coaching call?" | The Week 1 brand-clarity checkpoint lesson (niche → UVP → avatar → persona → headshots → style guide; Agent Prompt era — pair with the Q34 bridge) · link `[NOT SET]` |
-| "I'm not ready / imposter syndrome / my brand isn't dialed in yet" | "The Evolution of Your Personal Brand" (chapter 1 vs chapter 20; act as if; refinement→expansion→legacy) · link `[NOT SET]` |
-| "How do I pick a niche? What's my UVP?" | "Creating Your Blue Ocean" (6 steps + the I-help formula + the workbook) · link `[NOT SET]` · call it "Mike's niche video" |
-| "What do I actually post / how do I sound like me on social?" | "Branding Yourself on Social Media" (5 content types; voice; nuggets) · link `[NOT SET]` |
-| "The full brand workbook, start to finish" | The 3-step personal-brand foundation lesson (values/strengths/niche/passions → statement/visuals/voice → presence/content/networking/reviews) · link `[NOT SET]` · call it "the long one — Mike says pause-and-fill as you go" |
-| "Why YouTube / is it too late / when do results come?" | "The YouTube Advantage" — the YouTube week opener (search engine not social; compounding; 12-month horizon; 2/wk cadence) · link `[NOT SET]` |
-| "What's a lead magnet / mine feels too small" | The Lead Magnets lesson (start of a relationship; one person one problem; HVC; short vs long delivery) · link `[NOT SET]` |
-| "The 4 daily habits / feed the Brain / the monthly brain check" | Week 1 Video 6 — "Keeping Your Brain (and Yourself) Current" (DEFAULT·CAPTURE·TEACH·CHECK) · link `[NOT SET]` |
-| "How the funnel machine works / when do the leads actually start?" | Week 3 Video 1 — "How Attention Becomes Appointments" (net before the fish; the four-part machine; honest Week-5 timing) · link `[NOT SET]` |
-| "The weekly lead check / refreshing my magnet" | Week 3 Video 6 — "The Lead Capture Habit" (THE RULE · THE CHECK · THE REVIEW · THE LAB; ~2 hrs/month) · link `[NOT SET]` |
-
-Until set: cohort recordings live at the recordings-library door in `cohort-kb.md` — point there
-("the Week N recording covers this") rather than inventing a deep link.
-
-**YouTube rule:** the ONLY videos support ever links are (a) Mike's own, listed here or in the
-recordings library, and (b) entries Mike explicitly added to this file (e.g. Anthropic's official
-channel). Support never searches YouTube for tutorials — third-party videos teach third-party
-systems, go stale silently, and can't be vetted. If no video exists for a moment: say so, hand
-the article, and log the gap (that log line is how Mike learns which video to record next).
+**YouTube/Loom rule:** the ONLY videos support ever links are (a) Mike's own — the vault Looms in
+`kb/kb-index.md` and the Circle videos once listed here — and (b) entries Mike explicitly added to
+this file. Support never searches YouTube for tutorials — third-party videos teach third-party
+systems, go stale silently, and can't be vetted. If no video exists for a moment: say so, hand the
+article, and log the gap (that log line is how Mike learns which video to record next).
 
 ## Maintenance
 
 `maa-support-whatsnew`'s link-health pass covers every URL in this file (same contract as
 source-map.md: 404 → flag + fall back to the collection page; cross-host redirect → follow once,
-note in digest). A member reporting "that link didn't help" gets logged like any other outcome —
-resources earn their rows.
+note in digest). Loom links are probed too — a dead Loom is a `[SUPPORT]` line naming the lesson.
+A member reporting "that link didn't help" gets logged like any other outcome — resources earn
+their rows.

@@ -1,86 +1,125 @@
-# Brand Doctrine — Mike Sherrard's A.G.E.N.T. Brand OS
+# Brand Doctrine — the leader brand
 
-*The source of truth for how the Agent Attraction Brain thinks about personal brand and niche.*
-*Every branding-related skill (brand-persona, brand-direction, offer-usp, content-engine) reads
-this and applies it. This is Mike Sherrard Coaching's branding methodology — treat it as doctrine,
-not one option among many. (Branding sibling of `youtube-doctrine.md`.)*
+*The source of truth for how the Agent Attraction Brain thinks about the member's personal brand as a LEADER
+agents follow. Read by `attraction-brand-persona`, `attraction-brand-direction`, `attraction-persona-map`,
+`attraction-offer`, `attraction-why-join-me`, and the content plugins. Grounded in the launching doc (Day 2:
+"Build a Personal Brand That Attracts"), `04-value-proposition/27` and `/29`, `06-content-framework/39`,
+`02-prospect-targeting/24`, `11-objection-handling/56`. Sibling of `attraction-doctrine.md`.*
 
 ---
 
-## The A.G.E.N.T. Brand OS
+## 1. The three-part brand formula (launching doc, Day 2)
 
-A strong personal brand answers five questions. Every branding skill should capture, sharpen, and stay
-consistent with all five — they are the lens the brand persona is built and synthesised through.
+A leader brand answers three questions in the mind of the agent watching:
 
-| | Pillar | The question it answers | Where it lives in the Brain |
+| | The question | What answers it | Where it lives in the Brain |
 |---|---|---|---|
-| **A** | **Audience** | Who do you serve? | `identity/market.md` (niche + geography) · `identity/avatars.md` |
-| **G** | **Gap** | What problem or confusion do they have? | `identity/avatars.md` (worries, fears, misconceptions) |
-| **E** | **Edge** | What makes your perspective different? | `identity/offer.md` (USP) · `identity/voice.md` (differentiator) |
-| **N** | **Narrative** | What story makes you human and memorable? | `identity/voice.md` · `identity/profile.md` |
-| **T** | **Trust System** | How do you prove it — through content, proof, and consistency? | `identity/proof.md` · `identity/content-engine.md` · `identity/compliance.md` |
+| **Authority** | *Can you help me?* | what you have actually done and can teach — your experience, skills, results, niche | `strategy.md` (known for) · `offer.md` (what worked, teach first) · `proof.md` |
+| **Relatability** | *Do I connect with you?* | your journey, the hardest stretch, your values, your family, how you talk | `journey.md` · `story-bank.md` · `voice.md` / `voice-print.md` |
+| **Aspiration** | *Do I want something you have or represent?* | the standard you live at, the vision, the culture, where you are taking the organization | `journey.md` (why, leader moment) · `leadership.md` · `goals.md` (vision) |
 
-**How to use it:** the interview already surfaces all five. When synthesising the Brain, name them
-explicitly — an agent's brand isn't complete until Audience, Gap, Edge, Narrative and a Trust System are
-all captured. A thin brand is usually missing the **Edge** (they said "great service") or the
-**Narrative** (no human story). Push on those.
+The launching doc's emphasis, carried as doctrine: agent attraction is **not** about becoming an internet guru;
+it is about becoming known for something valuable by the right people. "You don't need to be rich, a top
+producer, or have years of experience" — your experience is your differentiator (skills, story, niche, results),
+and in the beginning your upline's value proposition is part of your authority.
 
----
-
-## The niching beliefs (Mike's doctrine — apply these when coaching a niche)
-
-These govern how the Brain guides an agent toward a niche. Use them to reassure, to push back gently, and
-to keep the agent from either refusing to niche or over-narrowing.
-
-1. **A brand and niche evolve — they are not a lifetime lock.** Choosing a niche now doesn't mean being
-   trapped in it forever. It can and should evolve as the agent does. Say this out loud to a nervous agent —
-   it removes the fear that makes people refuse to choose.
-
-2. **Niche ≠ 100% of your content — start 20% niche / 80% general, then +20%/year.** In the beginning,
-   ~20% niche content and ~80% general, widely-searched content captures the mass top-of-funnel audience,
-   builds momentum and brand awareness, then funnels people down to the niche. Increase niche content by
-   ~20% each year, so over ~5 years the agent becomes recognised as THE dominant go-to agent for that niche.
-
-3. **Niching does not alienate you or shrink your opportunity.** Every top agent in every market is known
-   as the best at *something*. That journey has to start at some point — the sooner it starts, the sooner
-   they get recognised. "I'll lose everyone else" is the fear talking, not the data.
-
-4. **You must have a niche and a brand for the new era of AI search.** AI can only recommend what it can
-   find. Consumers don't search for general information — they search intent: *"I'm relocating to [market]"*
-   (→ relocation specialists), *"buying my first home in [market]"* (→ first-time-buyer specialists). To
-   rank, get recommended, and generate consistent free inbound leads, the only path is to specialise.
-
-5. **Strong brands get paid more.** Less commission pushback (higher margin), more leads, cheaper leads,
-   and more repeat + referral clients. The data is consistent: a strong personal brand is essential, not
-   optional. This is the *why* behind the whole exercise.
-
-6. **A few pillars is fine — the niche shouldn't become a prison.** It doesn't have to be hyper-specific
-   all the time. The niche can be one pillar; the agent can also talk about other things related to their
-   market. Don't force everything through one narrow lens. (This connects directly to the content-engine
-   pillars.)
-
-7. **Target a growing niche with real market size.** The niche must have enough people in it to hit the
-   agent's income goals — don't go so specific that there's genuinely little or no market. Aim at a growing
-   opportunity, sized to their goals. If a proposed niche is too thin for their market, say so and help
-   widen it.
+**How the Brain uses it:** a thin brand is usually missing **Authority** (nothing teachable yet — say so and make
+it smaller and honest: "learning in public") or **Relatability** (no human story — push on the journey beats).
+The Book's brand chapter names all three. The relatability test in `persona-doctrine.md` §1 is this formula
+applied to the avatar.
 
 ---
 
-## Scope — where this ends and the content engine begins
+## 2. Your brand is everything (`04-value-proposition/29`)
 
-This file owns **brand strategy**: *who* the agent is and *what* niche they own (A.G.E.N.T. + niching).
-It does **not** own short-form content *execution* — the 4-3-2-1 content ratio, the Hook·Value·CTA video
-structure, filming/editing rules, and posting cadence live in the **Short-Form System** plugin
-(`realtor-shortform-system/shared/mike-frameworks.md`). The two agree where they touch: this file's
-"20% niche / 80% general" mix is the same as that file's "80/20 reach split." Keep them consistent — if
-the niche/broad mix ever changes, update both.
+Mike's six outcomes of a strong personal brand, agent-attraction edition: **more** (agents come directly to you)
+· **cheaper** (free organic content, no ad spend) · **faster** (they decide quicker — "most people come directly
+to me and want to get started with only me") · **less resistance** (fewer objections; the content already proved
+it) · **stay longer** (retention) · **refer more** (duplication). "Building your brand yields a bigger return
+than anything else."
 
-## The contract for branding skills
+**Common mistakes (Mike's list):** promoting only the brokerage ("people join people, not companies") ·
+inconsistent message, tone, and look across platforms · no value proposition ("why should I join you?" left
+unanswered) · copying others and blending in · transaction-focused (deals and production instead of leadership
+and culture).
 
-- **Read this file** before capturing or coaching anything about brand or niche.
-- **Frame the brand through A.G.E.N.T.** — make sure all five pillars are captured; push on a missing Edge
-  or Narrative.
-- **Coach the niche with the beliefs above** — reassure (it evolves; it won't alienate), justify (AI-search;
-  strong brands get paid more), and guard the edges (not a prison; must be a growing niche with real size).
-- **Never invent a niche the agent rejects.** Offer direction, explain the *why*, let them decide — same
-  ask-once/default-if-unsure discipline as the rest of the Brain (`shared/ask-once-default.md`).
+**What good looks like:** consistent across digital, physical, and social · clear leadership positioning (story,
+values, vision — who you are as a leader and why join) · a content strategy that educates, inspires, and
+attracts naturally · a professional identity (logo, colors, fonts) — *"these are not your brand; they are
+vehicles to communicate your brand"* · built on authenticity (personality as differentiator).
+
+---
+
+## 3. The niching beliefs (`04-value-proposition/27`, `/29`)
+
+1. **You are most qualified to help the person you used to be.** The niche comes from experience, never from a
+   course someone else sold you. "Anything works if you do the work" — open houses, cold calling, investors,
+   CRM training all attract if the member actually did it.
+2. **Experience → skills → hero's journey → fit.** Build the niche from what they did, the skills attached to it,
+   and the challenges they overcame; then pick the type of agent it fits (`persona-doctrine.md`).
+3. **A clear niche makes you the go-to sponsor for a specific type of agent**, which makes a clear value
+   proposition, which makes faster attraction with deeper trust. Agents are sponsor shopping; a vague brand
+   loses that comparison.
+4. **Niche the problem, not just the topic.** Aim the niche at one or more of the five pains (`attraction-doctrine.md`
+   §7b); a niche that solves no pain attracts no one.
+5. **The brand is the leader, not the logo.** The brokerage's branding is a compliance mark; the member's brand is
+   the focal point (Mike made his own brand the focal point and kept the brokerage logo where required —
+   `02-prospect-targeting/24`; at an independent cloud brokerage "you are the brand" — `11-objection-handling/56`).
+6. **It evolves.** Mike's niche went social media → YouTube and personal branding → AI, as he did. Choosing a
+   niche now is a starting point, not a lifetime lock; say this to a nervous member.
+7. **Authenticity over flash** (`06-content-framework/39`): lifestyle, discipline, challenges overcome, passions,
+   values, family — "not the clout and the vanity." The flash without the meaning repels the people worth
+   attracting.
+
+---
+
+## 4. Leader brand vs. selling brand (Setup Stop 13, Q52)
+
+Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
+- **One brand, the member's name, with a leader lane (default).** Buyers and sellers and agents see the same
+  person; attraction content lives in a lane (a playlist, a pinned highlight, a second CTA) rather than a second
+  identity. Simplest, cheapest, and what most members should do first.
+- **Separate leader brand.** Mike's example: Suman runs a production brand and an agent-attraction brand
+  ("the Real Estate Ninja") — `04-value-proposition/29`. Chosen when the member already has a strong consumer
+  brand that would confuse agents, or runs a named organization.
+
+**Rules that hold in both shapes:**
+- The leader brand stays **visually distinct from the brokerage's own colors** (plan, Stop 13): the member is
+  attracting to themselves, not to a logo, and agents comparing sponsors inside one brokerage need to tell them
+  apart. Distinct does not mean hidden — the brokerage mark appears exactly as `compliance.md` requires.
+- A **named organization** (Mike's is the Wolfpack) can carry its own lockup alongside the member's name; the
+  Design Package can build both. The organization's name is never the brokerage's name.
+- The consumer-facing selling brand **never carries recruiting language**; the leader brand never carries
+  compensation numbers. Both carry the compliance stamp.
+
+---
+
+## 5. Scope boundary — the Brain captures, the Design Studio builds
+
+- **The Brain owns direction and inventory:** `brand-visual.md` (Inventory + Direction), the voice, the story, the
+  avatar. It never designs. It proposes feel, references, font direction, and taglines from the voice and the
+  avatar, and the member reacts.
+- **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 1 Design Package is `ds-logo` →
+  `ds-style-sheet` → `ds-brand`, in that order, with the skip rule — **skip `ds-logo` when the member loves their
+  logo as-is; refresh mode changes only what they flagged**. The finished kit is dropped into `02 · Brand`, and
+  the editor, the thumbnails, and every graphic read it from there. The Design Studio reads the Brain through the
+  uploaded Brain Book ("the AI Brain file", `shared/brain-doc.md`) plus `brand-visual.md`, `offer.md`,
+  `positioning.md`, `avatars.md`, `proof.md`.
+- **Content execution** (pillars, cadence, hooks, formats) belongs to the Short-Form and YouTube plugins; this
+  file never prescribes a posting mix.
+- **Hand-off:** `attraction-brand-direction` ends by handing the member the paste-ready Design Package brief and
+  the one instruction: run the three skills this week, drop the kit into `02 · Brand`, then say "show me my
+  Brain" so the Book shows the kit.
+
+---
+
+## 6. The contract for brand skills
+
+- Read this file before capturing or coaching anything about brand.
+- Frame every brand conversation through **Authority · Relatability · Aspiration**; name which one is thin.
+- Coach the niche with §3: reassure (it evolves), ground (what they actually did), aim (at a pain), and keep the
+  brokerage as the mark, not the brand.
+- Capture leader-vs-selling once; never re-ask.
+- Never invent a niche or a tagline the member rejects; propose, explain why, let them decide
+  (`shared/ask-once-default.md`).
+- Nothing visual is "built" by the Brain — it is directed here and built in the Design Studio.

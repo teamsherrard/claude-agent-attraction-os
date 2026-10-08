@@ -1,85 +1,95 @@
-# [Agent First Name] — Agent Attraction Brain · Index
-*Last updated: [Month Year] · Agent Attraction Brain v[x.y]*
+# [Member First Name] — Agent Attraction Brain · Index
+*Last updated: [Month Year] · Agent Attraction Brain v[x.y] · Schema aa-1.0*
 
 > **This is the index. Every skill reads this file first.**
-> **This Brain lives in the agent's cloud workspace** (Google Drive or OneDrive — see `config.md` for the
-> provider + workspace folder ID). The local copy is synced down each session. After you change anything
-> here, it gets pushed back (via `attraction-brain-sync`, write → push → verify) so it persists.
+> **This Brain lives in the member's cloud workspace** (Google Drive or OneDrive — see `config.md` for the
+> provider + workspace folder ID). The local copy at `~/attraction-brain/` is synced down each session. After
+> you change anything here, it gets pushed back (via `attraction-brain-sync`, write → push → verify) so it
+> persists. An unsynced write is a lost write.
 
 ## How to use this Brain (the laws)
 1. **READ this first.** For depth on any topic, open the specific file listed under "The files" below.
-   Never ask the agent for anything already in the Brain.
-2. **WRITE back what you learn:**
-   - New listing → `memory/listings.md`
-   - Anything published or scripted → `memory/content-log.md`
-   - Client conversation / note → `memory/clients.md`
-   - New deadline or follow-up → `memory/deadlines.md`
-   - Content performance review → `memory/performance.md` (read it back before planning new content)
-   - This month's researched market numbers → `memory/market-data.md` (researched once, quoted by
-     every market piece — never re-search what's already in the current month's block)
-   - On-the-go idea / win / vendor / market note → **attraction-capture** files it into `memory/ideas.md`,
-     `identity/proof.md`, `identity/vendors.md`, or `identity/market.md`
-   - **Then PUSH to Drive** (`attraction-brain-sync`) — the local copy is wiped when the session ends;
-     an unsynced write is a lost write.
-3. **STAY COMPLIANT.** Before publishing anything public-facing, read `identity/compliance.md` — append
-   the required brokerage disclaimer + license #, and avoid the listed "claims to avoid." *(If
-   `compliance.md` is empty, proceed but note it's unset.)*
-4. **SOUND LIKE THEM.** When producing anything **read aloud** (video / reel / YouTube scripts, tours), read
-   `identity/voice-print.md` and write for the ear in their spoken cadence. When producing content that can
-   carry a story (scripts, emails, posts), check `identity/story-bank.md` for a real story matching the topic
-   or emotional beat, weave it into the open or close in their voice (**anonymize real clients**), then stamp
-   its **Used-where** so stories rotate. Never fabricate a voice or a story — if a file is empty, just proceed.
+   Never ask the member for anything already in the Brain. Never re-research what is current in the Brain.
+2. **WRITE back what you learn, then PUSH immediately** (write → push → verify, one atomic step):
+   - An agent conversation → `memory/conversations.md` (dated row) + move their `memory/pipeline.md` stage
+   - A named agent worth building a relationship with → `memory/top-50.md`
+   - An objection heard, and what answered it → `memory/objections.md`
+   - A win (yours, or an agent you helped) → `identity/proof.md` (Seeds section)
+   - A story seed → `identity/story-bank.md` (Seeds section)
+   - A content idea → `memory/ideas.md` · Anything published or scripted → `memory/content-log.md`
+   - Brokerage or industry news → `memory/intel.md` · A date or follow-up → `memory/deadlines.md`
+   - The day's numbers → `memory/scorecard.md` (the Daily Debrief owns this) · the debrief itself → `memory/debriefs.md`
+   On-the-go captures route through **attraction-capture**. One owner per file (`shared/brain-contract.md`);
+   a reader never rewrites a file it does not own.
+3. **STAY COMPLIANT.** Before anything public-facing (a post, a script, a bio, a DM template, an email, an
+   ad), read `identity/compliance.md`. It is **three-state**: `confirmed` → apply its rules and disclaimer ·
+   `set` → apply and remind the member once to confirm · `unset` → **stop and say plainly that compliance
+   is not set yet; do not produce the public piece** ("if empty, proceed" is banned). The attraction rules
+   that always apply: no income or rev-share earnings claims, never talk badly about another brokerage or
+   person, brokerage name and license display as the file says, compensation stays off public content.
+4. **SOUND LIKE THEM.** Read-aloud output (scripts, reels, interview answers) reads `identity/voice-print.md`
+   and `identity/voice.md`. Anything that can carry a story checks `identity/story-bank.md` for a real story
+   that matches the avatar and the pain, weaves it in their voice, then stamps its **Used-where**. Former
+   brokerages are never named in a story ("a franchise", "an independent"). Never fabricate a voice, a story,
+   a quote, a testimonial, a production number, or a rev-share figure.
+5. **THE WEEK RULE.** The Partner Offer is Week 2, content pillars Week 3, the channel Week 4, the pipeline
+   Week 5, onboarding Week 6. A later-week file that is empty is not a gap; say which week builds it.
 
-If `~/attraction-brain/` is missing files, tell the agent to run **Agent Attraction Brain — Setup**.
+If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** first. A tool error is never
+"no Brain". Only if the cloud search genuinely finds nothing: suggest "Set up my attraction brain."
 
 ## Quick reference (the fields every skill needs)
-- **Name:** [First Last]
-- **Market:** [City, Region]
-- **Primary avatar:** [short name — e.g., "NW Calgary first-time buyer"]
-- **Voice in one line:** [e.g., "Direct, warm, locally rooted — never corporate"]
-- **Primary CTA:** [e.g., "Book a free consult — [link]"]
-- **Brand colors:** [#hex] / [#hex] / [#hex] · **Fonts:** [Heading] / [Body]
-- **Booking link:** [url] · **Socials:** [@instagram, @youtube, @tiktok]
-- **Locale:** [country · currency · units — format every price, date, and measurement to this (config.md)]
+- **Name:** [First Last] · **Brokerage:** [name — or "independent"] · **Building:** [a downline at a cloud brokerage / a local team / a local brokerage / a mix]
+- **Market:** [City, Region] · **Attracts in:** [local only / state or province / national / listed states]
+- **Primary avatar:** [type + one line — e.g., "2–5 year agents paying for leads that don't convert"]
+- **Known for:** [the one thing, from strategy.md]
+- **Why I'm here (one line, out loud):** [from positioning.md]
+- **Offer status:** [seeds (Week 2 builds the offer) / finalized by member]
+- **Voice in one line:** [e.g., "Calm, practical, teacher energy — never hype"]
+- **This week's activity target:** [conversations / calls / joins, from goals.md]
+- **Organization today:** [N agents] · **12-month target:** [N agents]
+- **Booking link:** [url] · **Primary CTA:** [e.g., "Book a call with me — [link]"] · **Socials:** [@instagram, @youtube, @tiktok]
+- **Brand colors:** [#hex] / [#hex] / [#hex] · **Fonts:** [Heading] / [Body] · **Logo:** [loved as-is / refresh / building this week]
+- **Compliance:** [confirmed / set / unset] · **Locale:** [country · currency · units — format every number and date to this (config.md)]
 
 ## The files
-**identity/** — who the agent is (set once, changes rarely)
-- `identity/profile.md` — name, credentials, contact, niche
-- `identity/market.md` — communities, price ranges, local intelligence
-- `identity/avatars.md` — target client types and their pains
-- `identity/voice.md` — full tone rules, never-sounds-like, signature phrases, CTA
-- `identity/offer.md` — services, guarantees, USP, why-hire-me
-- `identity/brand-visual.md` — brand *direction*: colours, fonts, vibe, logo direction, tagline (feed to Claude Design)
+**identity/** — who the member is as a leader (set once, changes rarely)
+- `identity/profile.md` — name, brokerage, market, agent type, years in, before-story, what they are building
+- `identity/journey.md` — the three journey beats with "who relates to this", the leader moment, the WHY
+- `identity/strategy.md` — what they want to be known for, growth focus, constraints, leaders they admire
+- `identity/avatars.md` — the 1–3 Agent Avatars (type, pains, what they've tried, what they need to hear)
+- `identity/prospect-intel.md` — RESEARCHED local agent landscape: brokerage footprint, moves, where they gather (sourced + dated; refreshed quarterly by Prospect Radar)
+- `identity/positioning.md` — the model positioned without pitching: the one-line "why I'm here", the 2-minute model script, what stays for the private call, the why-join-me story
+- `identity/offer.md` — what they have to give: the three layers (brokerage · upline · you), the value stack vs the five pains, free vs paid, the UVP one-liner (Status: seeds until Week 2)
+- `identity/brokerage-model.md` — THEIR model explained in plain English, from their materials + `shared/brokerage-models.md` (private-call material)
+- `identity/voice.md` — tone rules, sounds-like / never-sounds-like, signature phrases, primary CTA
 - `identity/voice-samples.md` — real WRITTEN samples (how they type)
-- `identity/voice-print.md` — the SPOKEN voice DNA (how they talk) — read for every read-aloud script
-- `identity/proof.md` — testimonials, stats, case studies (reuse as proof)
-- `identity/story-bank.md` — real career stories, tagged by topic (weave into scripts/emails/posts)
-- `identity/content-engine.md` — content plan: pillars, platforms, cadence, series, video default
-- `identity/publishing.md` — how the agent posts short-form (platforms, cadence, posting tool) — written by the Short-Form System
-- `identity/profiles.md` — the entity line + every platform's bio (written by the Lead Capture System; quote, don't re-write)
-- `identity/operations.md` — hours, signature, booking rules, follow-up cadence
-- `identity/vendors.md` — trusted partner network (AI Admin referrals)
-- `identity/strategy.md` — goals + positioning + competitors + the Book's Strategic Position synthesis
-- `identity/market-intel.md` — RESEARCHED competitive/search/outlook intelligence (sourced+dated; written
-  by the Book's research pipeline; other systems READ this before re-researching the same ground)
-- `identity/business-plan.md` — the 90-day plan: deals needed + the 3 weekly moves + dashboard (refreshed quarterly)
-- `identity/compliance.md` — disclaimers, license display, claims to avoid (read before publishing)
+- `identity/voice-print.md` — the SPOKEN voice (how they talk) — read for every read-aloud script
+- `identity/proof.md` — production wins, agents already helped (named, with result), organization size, reviews FROM AGENTS
+- `identity/story-bank.md` — the Personal Story & Experience Bank, each story tagged persona · pain · use
+- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (feel, references, tagline) — the Design Package reads this
+- `identity/content-engine.md` — attraction content pillars, cadence, the two CTAs, hooks bank (written by the Short-Form System in Week 3)
+- `identity/goals.md` — 12-month milestones, 30-60-90 targets, the money scenarios (illustrative), weekly activity
+- `identity/leadership.md` — From Agent to Leader readiness score + fix-first list (written by the Leadership Audit)
+- `identity/operations.md` — hours, CRM, booking link, call cadence, onboarding steps (the AI Admin reads this)
+- `identity/compliance.md` — the 3-state gate: license display, brokerage name rule, rev-share marketing policy, earnings disclaimer, recruiting scope, AI-likeness disclosure
 
-**memory/** — what the agent has done (grows daily)
-- `memory/clients.md` — client ledger — **the AI's working memory, NOT the CRM.** The agent's CRM
-  (GoHighLevel, Follow Up Boss, etc.) stays the system of record for contacts + pipeline; this file holds
-  the context the AI needs (notes, active matters, preferences). Never present it as the CRM, and when
-  they conflict, the CRM wins.
-- `memory/listings.md` — listings + which content has been made
-- `memory/content-log.md` — everything published (check before creating, to avoid repeats)
-- `memory/performance.md` — what's working in content (written by the 2-week review; read before planning)
-- `memory/market-data.md` — the local market numbers, one dated block per month (written by the Market System)
+**memory/** — what the member has done (grows daily)
+- `memory/top-50.md` — the named prospect ledger: type · where they are · stage · last touch · next move
+- `memory/conversations.md` — every agent conversation, dated (the AI's working memory, NOT the CRM — the member's CRM stays the system of record; when they conflict, the CRM wins)
+- `memory/pipeline.md` — Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active
+- `memory/organization.md` — agents in the organization: join date, status, retention notes
+- `memory/scorecard.md` — one block per week against the 90-day targets (the Daily Debrief writes it)
+- `memory/objections.md` — objections heard + the answer that worked (the Short-Form System reads it for objection reels)
+- `memory/debriefs.md` — the Daily Agent Attraction Debrief log: today's conversations, the score, tomorrow's three moves
+- `memory/content-log.md` — everything published or scripted (check before creating, to avoid repeats)
+- `memory/ideas.md` — content ideas captured on the go (read before generating new ideas; mark Used)
+- `memory/intel.md` — brokerage and industry news captured or watched (dated, sourced)
 - `memory/deadlines.md` — what's due and when
-- `memory/ideas.md` — content ideas + backlog captured on the go (read before generating new ideas; mark Used)
 
-**Existing materials** (testimonials, bio, past posts, market reports, lead magnets, workbooks) live in the
-workspace's **`06 · Materials`** folder — the agent drops files there (or uploads in chat), then says
-**"import my materials"**; `attraction-import` extracts each piece into `identity/` after they confirm. *(Local
-`intake/` is legacy staging only — nothing durable lives there.)*
+**Existing materials** (old recruiting decks, bios, the brokerage's onboarding doc, a CRM export, past videos)
+live in the workspace's **`06 · Materials`** folder — the member drops files there (or uploads in chat), then
+says **"import my materials"**; `attraction-import` extracts each piece into the right file after they confirm.
+A Realtor AI Brain, if one exists, is read once through the same skill and never written to.
 
-**config.md** — connectors, timezone, defaults, version
+**config.md** — provider, workspace ID and link, CRM, timezone, locale, schema, setup progress, task ids

@@ -1,0 +1,113 @@
+# Research Method — Sources, Queries & Brief Format
+
+**Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`): search-intent-first
+(§3 S.E.A.R.C.H.), the competitive audit (§11.5, §16.4), classify-by-intent (§23.4), and what makes a title
+win (§16). Lead with the exact questions buyers/sellers type (§3 "E"); never fabricate volumes (§21.1).
+
+## Sources by country
+
+### Canada
+- **Market data:** the local real estate board first — e.g. CREB (Calgary), TRREB (Toronto), REBGV
+  (Vancouver) — then CREA (national) and reputable local news citing board stats.
+- **Rates:** Bank of Canada policy rate + major-bank posted rates.
+- **New construction:** builder sites, BILD/CHBA, municipal development pages, community master-plan sites.
+- **Local/lifestyle:** municipal/town sites, local news (e.g. Calgary Herald), school authority pages, StatsCan for population.
+
+### United States
+- **Market data:** local MLS/association, Redfin Data Center, Realtor.com Research, Zillow Research, NAR.
+- **Rates:** Freddie Mac PMMS / Fed funds rate.
+- **New construction:** builder sites, Census new residential construction, local permits.
+- **Local/lifestyle:** city/county sites, local news, GreatSchools, Census/community data.
+
+## Query patterns (fill in {city}, {community}, {month}, {year}, {niche})
+- "{city} real estate market {month} {year}" · "{board} benchmark price {month} {year}"
+- "{city} housing inventory months of supply {year}"
+- "{community} new construction {year}" · "{city} new communities {year} builder incentives"
+- "Bank of Canada interest rate {month} {year}" (CA) / "mortgage rates {month} {year}" (US)
+- "{community} development news {year}" · "{town} population growth {year}"
+- "{city} new schools {year}" · "{community} amenities opening {year}"
+- "moving to {city} {year}" / "relocating to {city} from {origin}" (trend + relocation signals)
+- "{niche} {city} {year}" (e.g. "first time home buyer Calgary 2026")
+
+## Demand evidence (to justify each idea — the moat)
+Gather a real demand signal for the top ideas so each can be justified, not asserted. Lead with **search
+intent** (§3): what is the future buyer/seller actually typing, and what decision/fear/desire is behind it?
+- Google Trends — is the topic / relocation route rising for this market?
+- YouTube + Google autocomplete and "people also ask" — what are people actually typing/asking? Capture the
+  **exact questions** (§3 "E") — they become titles.
+- AnswerThePublic / AlsoAsked-style questions for the niche.
+- Competitor outliers (from the Outlier scan) — proven demand for a similar video.
+Attach the signal + its source to the idea. Never fabricate exact search volumes.
+
+## Competitive audit — top 3–5 ranking videos (§11.5, §16.4) — the References engine
+Before a video, search the topic on YouTube and review the **top 3–5 ranking videos** so the agent can beat
+them. These double as the **reference videos** the agent watches to plan and prep — in chat and on their
+content-board card — so capture them properly:
+- **Capture per video:** `link · channel · ~views · length`, plus the read: **title · thumbnail · hook ·
+  structure/delivery · local specificity · what's missing** — and the one line that matters most, **how the
+  agent's version beats it**. (What travels to chat + the board card is the distilled form:
+  `link · channel · ~views · the one thing to beat`.)
+- **Market first, comparable-market fallback:** search THEIR market first ("pros and cons of moving to
+  Calgary" → Calgary videos). Only if the local results are thin (small market, few real videos on the
+  topic) widen to **comparable markets** (similar size/type of city, same topic) — and say so plainly:
+  *"your market's thin on this one, so these are from [comparable city] — same play, your numbers."*
+- **Quality bar — a reference must be worth the agent's time:** genuinely the SAME concept (not just the
+  same city) · actually performed (strong views relative to the channel's size — outlier logic, not just big
+  channels) · recent enough to reflect today's YouTube (~last 2–3 years, unless it's an evergreen monster
+  that still ranks) · watchable (a real video, not a livestream dump).
+- **Honesty:** links you actually opened/found in search — never constructed from memory. View counts marked
+  approximate (`~120K`); if a count isn't visible, leave it off — never guess. (§21.1)
+- **Deliver 3 (2–4 is fine)** — ranked, best teacher first.
+When useful, classify each by **intent** (§23.4): awareness · trust-building · high-intent lead-gen · niche
+authority · underperformer needing a title/thumbnail fix. Useful for relocation, community, market-update,
+and any high-competition topic — it directly sharpens the title and thumbnail.
+- Query: "{topic} {city}" / "moving to {city} {year}" / "{community} {city}" on YouTube; scan the top results.
+
+## Price-point & comparison videos — pull LIVE listings (so scripts use real numbers)
+When the video is a price-point ("What does $Xk get you…") or comparison ("$X vs $Y," "[Community] vs
+[Community]") type, fetch CURRENT real listings so the script states real specifics, not placeholders:
+- Search active listings (Realtor.ca / local MLS / builder sites) for the price band + the agent's communities.
+- Capture real beds/baths, square footage, lot, community, and price — each with its source + date.
+- This lets Script Studio state real numbers instead of `[double-check]` placeholders.
+- Only if a specific genuinely can't be verified → THEN flag `[double-check]`. Try the live pull first.
+
+## Freshness & trust
+- Tag each item with its source + publication date.
+- Prefer items < 60 days old for "market data" and "trends"; lifestyle/evergreen can be older.
+- If sources conflict, note the range and cite both. Never average into a fake single number.
+
+---
+
+## Research Brief — output format
+```
+RESEARCH BRIEF — {Agent}, {City} — week of {date}
+
+1) MARKET SNAPSHOT
+   - Benchmark/median price: {value} ({YoY change}) — {source, date}
+   - Inventory / months of supply: {value} — {source, date}
+   - Days on market: {value} — {source, date}
+   - One-line read: what this means for {agent}'s buyers/sellers
+
+2) RATES & AFFORDABILITY
+   - {rate} ({direction}) — {source, date} — one-line buyer impact
+
+3) NEW CONSTRUCTION (if niche)
+   - New launches / incentives / starts relevant to {communities}, with sources
+
+4) LOCAL & LIFESTYLE ("mayor of the town")
+   - {community}: {development / school / event / business} — {source} → possible content angle
+   - (3–6 bullets across the served communities)
+
+5) RISING INTEREST / TRENDS
+   - {topic people are increasingly searching} — signal + why it matters now
+   - Exact questions buyers/sellers are typing (§3 "E") — these become titles
+
+6) COMPETITIVE AUDIT (for the top topic candidates — §11.5, §16.4)
+   - {topic}: top 3–5 ranking videos → title / thumbnail / hook / local specificity / what's missing
+     → how the agent beats them (more specific, clearer, more timely, more locally useful)
+
+7) SIGNALS FOR IDEAS  ← feeds Ideation
+   - 3–6 of the most content-worthy hooks from above, each one line, each tied to an avatar/pillar
+```
+Keep it tight and skimmable. Every number carries a source + date. The "Signals for ideas" section is
+the payload Ideation turns into ranked video ideas.

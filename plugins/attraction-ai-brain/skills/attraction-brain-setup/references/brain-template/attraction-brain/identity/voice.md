@@ -1,29 +1,27 @@
-# [Agent First Name] — Voice & Brand Personality
-*identity · this shapes the tone of every script, caption, and email*
+# [Member First Name] — Voice & Brand Personality
+*identity · shapes the tone of every script, caption, DM, email, and partner-call line*
+*Owner: `attraction-brain-setup` (Phase 6, Stop 12); `attraction-brand-persona` may refine. Signature phrases and the never-say list are DRAFTED from how they type, never asked.*
 
-**How the agent describes themselves (their own words):** [near-verbatim]
-
-**What makes them different:** [specific differentiator — not "great service"]
-
+**Closest to how they talk:** [straight shooter · warm and patient · high energy · calm numbers person · helpful friend — or their own words]
+**How they describe themselves (their own words):** [near-verbatim]
+**What makes them different (specific, never "great service"):** [ ]
 **On-camera / communication style:** [formal/casual, energy level]
 
 **This voice SOUNDS like:**
-- [e.g. "Direct and no-nonsense"]
-- [e.g. "Warm and locally rooted"]
-- [e.g. "Data-informed but plain-spoken"]
+- [e.g., "Direct, no hype"]
+- [e.g., "Teacher energy — shows, doesn't tell"]
 
 **This voice NEVER sounds like:**
-- [what they want to avoid]
-- [any tone they explicitly rejected]
+- [words or vibes they never want — e.g., "crush it", "grind", "secret weapon"]
+- [the recruiter voice: pitchy, urgent, "let's talk about [brokerage]"]
 
-**Signature phrases:** [things they say repeatedly — or "none; use natural voice"]
+**Three phrases they actually say:** "[ ]" · "[ ]" · "[ ]"
+**Signature phrases (drafted from their replies — confirm):** [ ]
+**Never-say list:** [ ]
 
-**What they want people to FEEL after their content:** [...]
+**What they want an agent to FEEL after their content:** [e.g., "seen, and clear on the next step"]
+**Tone reference (calibration only, never copied):** [leader or creator they named]
 
-**Tone reference (for calibration only, never to copy):** [creator/person they named]
-
-**Primary CTA:** [e.g. "Book a free consultation — [link]"]
-
-**Topics most confident on:** [topic, topic, topic]
-**Topics to avoid:** [hard limits — or "none"]
-**The one thing they wish buyers/sellers understood:** [often their best content angle]
+**Primary CTA:** [e.g., "Book a call with me — [link]"] · **Second CTA (the guide / keyword):** [set in Week 6 by the Lead Magnet plugin — leave empty until then]
+**Topics most confident on:** [ ] · **Topics to avoid:** [ ]
+**The one thing they wish struggling agents understood:** [often their best content angle]

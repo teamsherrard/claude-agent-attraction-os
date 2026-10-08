@@ -18,12 +18,12 @@ flowchart LR
     subgraph CLAUDE["🏠 Claude — one brain, four rooms"]
         CHAT["💬 Chat<br/><i>quick questions,<br/>thinking out loud</i>"]
         COWORK["🛠️ Cowork<br/><b>YOUR HOME BASE</b><br/><i>the whole system<br/>lives here</i>"]
-        DESIGN["🎨 Design<br/><i>paste our briefs,<br/>get visuals</i>"]
+        DESIGN["🎨 Design<br/><i>the Design Studio skills:<br/>logo, offer stack, Value Vault</i>"]
         CODE["⚙️ Code<br/><i>Mike's workshop —<br/>you never go here</i>"]
     end
     style COWORK fill:#6b46c1,color:#fff,stroke:#2d2d2d,stroke-width:3px
 ```
-Caption: *"Thought → Chat. Thing → Cowork. Visual → Design. And Code is where we build your
+Caption: *"Thought → Chat. Thing → Cowork. Visual → Design (where your ds- skills live as uploads). And Code is where we build your
 tools — you never need it."*
 
 ## 2. Where your stuff actually lives (the trust picture)
@@ -47,8 +47,8 @@ in YOUR cloud drive. Nothing of yours lives on our side."*
 ```mermaid
 flowchart LR
     P["1️⃣ Paid plan"] --> APP["2️⃣ Desktop app"] --> CW["3️⃣ Cowork on"]
-    CW --> PL["4️⃣ Mike's plugins"] --> BR["5️⃣ Brain built"]
-    BR --> CN["6️⃣ Email + Calendar<br/>+ Drive connected"] --> OPT["7️⃣ Extras<br/><i>(Descript, posting tool…)</i>"]
+    CW --> PL["4️⃣ Brain + Support plugins"] --> BR["5️⃣ Attraction Brain built"]
+    BR --> CN["6️⃣ Email + Calendar<br/>+ Drive + CRM connected"] --> OPT["7️⃣ This week's plugins<br/><i>(Design Studio, Short-Form, Riverside…)</i>"]
     style BR fill:#6b46c1,color:#fff
 ```
 Caption: *"Seven links, in order — I check them top to bottom and we fix the FIRST broken one,
@@ -60,11 +60,11 @@ links, 👉 to the next one.)
 ```mermaid
 flowchart TB
     subgraph MON["Monday's session"]
-        C1["Chat: plan the video"] --> W1["✍️ written to Brain"]
+        C1["Chat: log an agent conversation"] --> W1["✍️ written to Brain"]
     end
     subgraph TUE["Tuesday's session"]
         C2["New chat — fresh desk<br/><i>Monday's CHAT is gone…</i>"]
-        B2["🧠 …but the Brain remembers:<br/>the plan, your voice, everything"]
+        B2["🧠 …but the Brain remembers:<br/>the conversation, your top 50, everything"]
         B2 --> C2
     end
     W1 --> CLOUD["☁️ your cloud drive"] --> B2
@@ -81,11 +81,12 @@ flowchart TB
     NAV -->|"it's broken"| FIX["🔧 real checks,<br/>then the fix"]
     NAV -->|"how do I…?"| TEACH["📖 plain-English<br/>lesson"]
     NAV -->|"money/plans"| ACC["💳 live official<br/>answer"]
+    NAV -->|"what did Mike say…"| MIKE["🎓 the lesson,<br/>in Mike's framing,<br/>+ the Loom to rewatch"]
     NAV -->|"can't fix it"| ESC["👤 ticket built FOR you —<br/>paste it in the portal, done"]
     style H fill:#6b46c1,color:#fff
 ```
-Caption: *"One word in — the right kind of help out. Worst case, a human gets a perfect ticket
-you didn't have to write."*
+Caption: *"One word in — the right kind of help out. Ask what Mike said and you get the lesson
+back. Worst case, a human gets a perfect ticket you didn't have to write."*
 
 ## Beyond these five
 
@@ -96,3 +97,20 @@ you didn't have to write."*
 - Don't freehand new diagrams mid-session for concepts these five already cover; consistency IS
   the pedagogy. A genuinely new diagram need → log it (that's a candidate for this file's next
   release).
+
+## 6. Two Brains, one machine (for members who also run Mike's realtor plugins)
+
+```mermaid
+flowchart LR
+    subgraph R["🏠 Realtor stack (Social Agent OS)"]
+        RB["~/realtor-brain<br/><i>'set up my brain'</i>"]
+    end
+    subgraph A["🧲 Agent Attraction OS"]
+        AB["~/attraction-brain<br/><i>'set up my ATTRACTION brain'</i>"]
+    end
+    RB -. "import, read-only<br/>(a head start)" .-> AB
+    style AB fill:#6b46c1,color:#fff
+```
+Caption: *"Two filing cabinets, two sets of magic words. The realtor one answers to 'my brain';
+this one answers to 'my attraction brain'. Nothing to delete — the attraction brain can even
+borrow from the realtor one."*

@@ -1,0 +1,10 @@
+{
+  "name": "attraction-youtube-system",
+  "displayName": "Agent Attraction YouTube System (Plugin 5)",
+  "version": "0.1.0",
+  "description": "PLUGIN 5 — the Long-Form Authority Engine for agent attraction (Week 4). YouTube built to attract agents, not buyers and sellers: a channel positioned for attraction, the 3-pillar game plan on the 8-video cycle (3 niche · 1 model breakdown · 4 interviews), ideation from the 7 title formulas and agent pain points, research into what agents search, scripts in the member's own voice for Why I Switched / Pain Point / Model Breakdown / Niche Breakdown, the agent interview strategy, model breakdowns with accurate data and no trash talk, thumbnail briefs for Claude Design, SEO with the book-a-call CTA, repurposing into Shorts, carousels, stories, emails and conversation starters, lead routing, analytics on which videos produced agent conversations, coaching, consistency, and the content board. Reads the Agent Attraction Brain; requires Plugin 1.",
+  "author": {"name": "Team Sherrard"},
+  "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": ["youtube","agent attraction","real estate","long-form","interviews","model breakdown"]
+}

@@ -1,150 +1,236 @@
-# Stack Map — Mike's system, plugin by plugin (Tier 1)
+# Stack Map — the Agent Attraction OS, plugin by plugin (Tier 1)
 
 The concierge's brain: what each plugin does, the phrases that start it, what it depends on, how it
 fails, and who fixes what. **Support routes here instead of answering "how do I make a reel" itself
 — the system already has a skill for almost everything.**
 
-## The 9 plugins at a glance
+## The OS at a glance — 10 Cowork plugins + the Design Studio skill set
 
-| # | Plugin | The job | Front door (say this) |
-|---|---|---|---|
-| 1 | **Agent Attraction Brain** | The shared brain every system reads — install FIRST | "Set up my brain" |
-| 2 | **AI Admin** (Agent Leverage OS) | Calendar, email drafts, client memory, daily admin | "Set up my AI Admin" |
-| 3 | **YouTube System** | Game Plan → ideas → scripts → SEO → leads → repurposing | "Set up my YouTube system" |
-| 4 | **Short-Form System** | Daily green-screen, talking-head, carousels, publishing | "Set up my short-form system" |
-| 5 | **Lead Capture** | Relocation guide first (locked), then the opt-in funnel copy | "Set up my lead capture" |
-| 6 | **AI Editor** | Directs Descript to edit long-form + reels on their account | "Set up my video editor" |
-| 7 | **Listing Launch** | One address in → the whole listing launch out (8 stages) | "Launch my listing" |
-| 8 | **Market System** | One command → the complete monthly market package | "Run my market update" |
-| 9 | **Cohort Claude Support** | This plugin — help, fixes, teaching, escalation | "Help" / "I'm stuck" |
+Sales copy says "12 systems." The honest count: **10 Cowork marketplace plugins + the Design
+Studio, which is a Claude Design SKILL SET (uploaded zips), not a plugin** — Claude Design cannot
+run plugins. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per
+Mike (2026-10-08): not a plugin, parked.
 
-Install order for new members: 1 first (everything reads it), then 2–8 in any order as the cohort
-reaches them. 9 anytime.
+| # | Plugin (install week) | Prefix | Skills | Status | Front door (say this) |
+|---|---|---|---|---|---|
+| 1 | **Agent Attraction Brain** (W1) | `attraction-` | 26 | **BUILT** | "Set up my **attraction** brain" |
+| 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "Help" / "I'm stuck" / "what did Mike say about…" |
+| 3 | **Design Studio** (Claude Design skill set, NOT a plugin) — W1/2 Design Package (logo · style sheet · brand), W2 offer assets, W6 Value Vault | `ds-` | 15 | coming W2 | paste a brief into claude.ai/design; "design my logo" inside Design |
+| 4 | **Short-Form** (W3) | `sf-` | 13 | coming W3 | "Set up my short-form engine" |
+| 5 | **AI Editor — Riverside** (W3) | `studio-` | 28 | coming W3 | "Set up my studio" / "edit my reel" |
+| 6 | **YouTube** (W4) | `yt-` | 19 | coming W4 | "Set up my YouTube engine" |
+| 8 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | coming W5 | "Set up my conversion engine" |
+| 9 | **AI Admin** (W5) | `admin-` | 7 | coming W5 | "Set up my AI admin" |
+| 10 | **Team & Retention** (W6) | `team-` / `org-` | 12 | coming W6 | "Set up my onboarding" / "run my org analysis" |
+| 11 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
+| 12 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
+
+(#7 was the Creative Studio — removed. Numbering keeps the cohort doc's slots so the Setup Guide
+and the playbooks agree.) "Coming" plugins: say so honestly — *"that one switches on in Week N;
+until then the Brain and this week's plugins are the whole stack"* — never pretend a skill exists.
+Exact front-door phrases for coming plugins are confirmed when each ships; the ones above are the
+planned defaults.
+
+**Install order:** Plugin 1 FIRST (everything reads it) → Plugin 2 → then each week's plugins
+as that week opens. The Design Studio skills are uploaded at claude.ai/customize/skills (zips),
+not installed from the marketplace.
+
+**Not part of this OS at all:** the realtor marketplace's Listing Launch, Market System, Descript
+editor, realtor YouTube / short-form / AI admin / lead capture plugins. They belong to the Social
+Agent OS (realtor) cohort. Never route a MAA ask to them.
+
+## Two Brains on one machine (members who are ALSO in the realtor cohort)
+
+Some members run Mike's realtor marketplace too. Both stacks coexist on purpose:
+
+| | Realtor (Social Agent OS) | Agent Attraction OS (this) |
+|---|---|---|
+| Local brain folder | `~/realtor-brain/` | `~/attraction-brain/` |
+| Workspace marker | `_workspace.md` | `_attraction-workspace.md` |
+| Workspace default name | the realtor's | `Agent Attraction OS` |
+| Schema line in `config.md` | the realtor's numbering | `Schema: aa-1.0` |
+| Sync skill | `realtor-brain-sync` | `attraction-brain-sync` |
+| Support plugin | `cohort-claude-support` (`support-*`) | `maa-claude-support` (`maa-support-*`) |
+| The generic phrase | **"set up my brain"** → the REALTOR plugin | **"set up my attraction brain"** / "build my agent attraction brain" / "launch the agent attraction OS" → this OS |
+
+Rules: the two sync ladders can never find each other's workspace (different markers). A member
+who says "set up my brain" with both installed gets the realtor interview — that's not a bug, it's
+the reserved phrase; hand them "set up my attraction brain." A realtor Brain is a HEAD START here:
+`attraction-import` pulls profile, market, voice, proof, brand-visual, and operations from
+`~/realtor-brain/` read-only. Never suggest deleting either Brain.
 
 ## The master router — "I want to ___"
 
 | Member says (any variant) | Route to | Plugin |
 |---|---|---|
-| "Set up my brain" / first-time setup / onboard me | `attraction-brain-setup` | 1 |
-| "Is my brain complete / what's missing" | `attraction-brain-health` | 1 |
-| "Load / save / back up / restore my brain" · new computer | `attraction-brain-sync` | 1 |
-| "Upgrade / migrate my brain" · after plugin updates | `attraction-brain-migrate` | 1 |
-| "Update my offer / brand / profile / voice" | the matching phase skill (persona, offer-usp, brand-direction, voice-proof, voice-print, content-engine, operations, compliance) | 1 |
-| "I have existing materials / read my Drive folder" | `attraction-import` | 1 |
-| "I've got a video idea / just closed / add a vendor / market note" (on the go) | `attraction-capture` | 1 |
-| "Build my business plan / how many deals do I need / am I on track" | `attraction-goals` | 1 |
-| "Book a showing / consult" · "draft an email" · "what's my day" | `realtor-ai-admin` | 2 |
-| "Give me video ideas" / "what should I film" | `youtube-ideation` | 3 |
-| "Make this video" (one chosen idea → everything) | `youtube-make-video` (NEW chat: one chat = one video) | 3 |
-| "Write my script" / "SEO for this" / "repurpose this" | `youtube-script` / `youtube-seo` / `youtube-repurpose` | 3 |
-| "Audit my channel / coach me" | `youtube-coach` | 3 |
-| "Plan a batch day / keep me consistent" | `youtube-consistency` | 3 |
-| "My YouTube game plan" | `youtube-gameplan` | 3 |
-| "Today's green screen" / "what should I react to" | `shortform-greenscreen` | 4 |
-| "Talking-head scripts / topics to batch" | `shortform-talkinghead` | 4 |
-| "Make a carousel" | `shortform-carousel` | 4 |
-| "Schedule / post this" · "publish my folder of finished content" | `shortform-publish` / `shortform-batch-publish` | 4 |
-| "How did my posts do / analyze my reels" | `shortform-analytics` | 4 |
-| "Set up my lead capture" (also "build my lead magnet", "build my funnel", any first-time lead-capture ask) | `leadcapture-navigator` (front door: offer check + resume detection; first campaign = the relocation guide, 5-question intake) → `leadcapture-magnet` → `leadcapture-funnel` | 5 |
-| "Edit my video" (any vague edit ask) | `editor-navigator` (it translates + routes) | 6 |
-| ONE small video fix ("just add captions", "fix the caption font", "just trim the start") | `editor-quick` (cheap single pass — also the fix for off-brand captions/colors) | 6 |
-| "Edit my YouTube video" / "make a reel from this" / "edit my listing tour" | `edit-longform` / `edit-shortform` / `edit-listing` | 6 |
-| "Add b-roll" | `editor-broll` | 6 |
-| "Just listed 14 Oak — start the content" / any new listing | `listing-intake` → `listing-launch` runs the stages | 7 |
-| Anything for one property (description, social, video script, open house, postcards, sold post, photo tour) | the matching `listing-*` skill — property is entered ONCE via intake | 7 |
-| "Run my market update [month]" | `market-run` (sequences everything) | 8 |
-| "My market deck / script / infographic / shorts / distribution" | the matching `market-*` skill (research must run first — `market-run` handles order) | 8 |
-| "Put my market update on autopilot" | `market-routine` | 8 |
-| "My workbook / worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the phase-skill interviews ARE the workbook | 1 |
-| "Help" / "I'm stuck" / any Claude question or breakage | `maa-support-navigator` | 9 |
+| "Set up my attraction brain" / "build my agent attraction brain" / "launch the agent attraction OS" / first-run | `attraction-brain-setup` | 1 |
+| "Is my attraction brain complete / what's missing" | `attraction-brain-health` | 1 |
+| "Load / save / back up / restore my attraction brain" · new computer | `attraction-brain-sync` | 1 |
+| "Upgrade / migrate my attraction brain" · after plugin updates | `attraction-brain-migrate` | 1 |
+| "Import my realtor brain / my recruiting deck / my brokerage onboarding docs / my CRM export" | `attraction-import` | 1 |
+| "Who am I as a leader / my story / my journey / my why" | `attraction-brand-persona` | 1 |
+| "Capture my voice" (spoken) / "add my writing samples" (written) / "add my proof / agents I've helped" | `attraction-voice-print` / `attraction-voice-proof` | 1 |
+| "Add a story to my bank / my story bank" | `attraction-story-bank` | 1 |
+| "My visual brand / brand direction / the Design Package brief" | `attraction-brand-direction` | 1 |
+| "My 60-second why-join-me story" | `attraction-why-join-me` | 1 |
+| "Pick my niche / build my agent avatars / who should I attract" | `attraction-persona-map` | 1 |
+| "Who's moving in my market / agent movement / where do agents gather" · the Agent Movement Watcher | `attraction-prospect-radar` | 1 |
+| "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
+| "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
+| "How do I position my brokerage without pitching / the 2-minute model script" | `attraction-model-positioning` | 1 |
+| "Build my UVP / my partner offer / my value stack" (Week 2) | `attraction-offer` | 1 |
+| "What should I give away vs charge for" | `attraction-free-vs-paid` | 1 |
+| "Run my rev-share scenarios" (illustrative, never a promise) | `attraction-rev-share-calculator` | 1 |
+| "Set my 90-day targets / my scorecard / am I on track" | `attraction-goals` | 1 |
+| "My 12-month plan / weekly KPIs / the CEO rhythm" | `attraction-execution-framework` | 1 |
+| "Am I ready to lead / leadership audit" | `attraction-leadership-audit` | 1 |
+| "My hours / booking link / CRM / call cadence" | `attraction-operations` | 1 |
+| "My compliance rules / can I say this publicly" | `attraction-compliance` | 1 |
+| "I just talked to an agent / heard an objection / got a win / have an idea" (on the go) | `attraction-capture` | 1 |
+| "Run my debrief / what requires my attention today" · the Daily Agent Attraction Debrief | `attraction-debrief` | 1 |
+| "What did Mike say about ___" / "ask Mike" / "which lesson covers ___" | `maa-support-cohort` (the Ask-Mike lane → `shared/kb/kb-index.md`) | 2 |
+| "Help" / "I'm stuck" / any Claude question or breakage | `maa-support-navigator` | 2 |
+| "Design my logo / style sheet / offer stack / product mockup / playbook / ebook / course" | a `ds-*` skill INSIDE Claude Design (the Brain's brand-direction skill writes the brief) | 3 |
+| "Set up my short-form engine" · "give me reel ideas" · "talking-head scripts" · "stories" · "a carousel" · "my weekly routine" · "the comment-to-DM flow" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
+| "How did my posts do" · the Weekly Content Performance agent | `sf-analytics` | 4 |
+| "Edit my reel / my YouTube video / my interview" · "set up my studio" · any edit ask | `studio-navigator` (it translates + routes: `studio-reel`, `studio-longform`, `studio-interview`, `studio-setup`) | 5 |
+| "My YouTube game plan" · "video ideas" · "research this topic" · "write my script" · "my interview plan" · "a model breakdown" · "SEO for this" · "repurpose this" · "YouTube leads/comments" · "a thumbnail" | `yt-gameplan` · `yt-ideation` · `yt-research` · `yt-script` · `yt-interview` · `yt-model-breakdown` · `yt-seo` · `yt-repurpose` · `yt-leads` · `yt-thumbnail` (Claude Design brief) | 6 |
+| "Build an intel report on [agent]" · "a conversation starter for [agent]" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow up with [agent]" · "reactivate cold leads" | `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 8 |
+| "Set up my sales system / booking page / show-up sequence" | `sales-system-setup` · `sales-booking-page` · `sales-show-up` | 8 |
+| "My pipeline / move [agent] to [stage]" · "my follow-up queue" · "my daily brief" · "my scorecard / CEO review" · "monthly KPI review" · "team wins newsletter" | `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-scorecard` · `admin-monthly-review` · `admin-newsletter` | 9 |
+| "Onboard my new agent" · "plug-in checklist" · "duplication kit" · "teach my agents to attract" · "recognition" · "win wall" · "my community rhythm" · "survey my agents" · "run my org analysis" | `team-onboarding` · `team-plug-in` · `team-duplication-kit` · `team-teach-to-attract` · `team-recognition` · `team-win-wall` · `team-community` · `team-survey` · `org-analysis` | 10 |
+| "Build my lead magnet / opt-in / the Honest Brokerage Comparison Guide / nurture sequence" | the `lm-*` skills (magnet ideas → design → delivery → nurture → partnerships → analytics) | 11 |
+| "Plan my virtual workshop / live event / evergreen webinar / event follow-up" | the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 12 |
+| "My workbook / playbook worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the Brain's interviews ARE the worksheet | 1 |
 
-Content boards: `youtube-board` and `shortform-board` share ONE Notion dashboard (bring-your-own
-Notion, always optional).
+## Brain files each plugin reads and owns (the cross-plugin contract)
+
+One owner per file. A reader never writes a file it doesn't own. Every write pushes. **This table is
+how diagnose tells "Brain file missing" from "plugin not installed":** if a plugin's OWN file is
+missing, that plugin's setup never ran; if a file it only READS is missing, the owner's skill is the
+fix.
+
+| Plugin | Reads | Owns (writes) |
+|---|---|---|
+| Brain (1) | everything | all `identity/`, `memory/top-50`, `scorecard`, `debriefs`, `objections` (via capture), `ideas`, `intel` |
+| Support (2) | `config`, `brain.md`, every plugin's `config` block | `memory/support-log`, `memory/claude-updates`, the `## MAA Support (Plugin 2)` block in `config.md` |
+| Design Studio (3) | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to the workspace's `02 · Brand`, `05 · Offer`) |
+| Short-Form (4) | `profile · journey · avatars · positioning · story-bank · proof · voice* · compliance · content-log · objections` | `identity/content-pillars.md` (sf-setup), `memory/content-log` (SF rows), `identity/publishing` |
+| Riverside (5) | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist |
+| YouTube (6) | same as Short-Form + `content-pillars · brokerage-model · prospect-intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
+| Conversion (8) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
+| AI Admin (9) | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
+| Team & Retention (10) | `organization · offer · operations · brand-visual · proof` | `memory/organization`, `memory/recognition-log`, `memory/org-analysis/`, `identity/onboarding.md`, `identity/duplication-kit.md` |
+| Lead Magnet (11) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md` |
+| Events (12) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
+
+**Pipeline stages, locked OS-wide:** `Identified → Conversation → Call booked → Call held → 3-way →
+Joined → Onboarded → Active`. The AI Admin owns stage moves; Conversion, Events, and the Debrief
+request moves through it (or write directly with the same vocabulary if Admin isn't installed
+yet). A member seeing two vocabularies = a bug worth logging.
+
+## Scheduled agents and their owners
+
+Every agent is provisioned by its owning skill, **with the member's explicit yes, never silently**,
+and is draft-only (nothing sends, posts, or publishes on its own). "It never ran" almost always
+means the yes was never given or the Cowork task was never created — diagnostics tree #10.
+
+| Agent | Cadence | Owner skill | Week |
+|---|---|---|---|
+| Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
+| Agent Movement Watcher | weekly | `attraction-prospect-radar` (Brain) | 2 |
+| Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
+| Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
+| Call Block Prep | daily | `cv-call-prep` | 5 |
+| Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
+| Weekly Recruiting CEO Review | weekly | `admin-scorecard` (CEO mode) | 6 |
+| Recognition Agent | daily | `team-recognition` | 6 |
+| Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
+| Retention Pulse | quarterly | `team-survey` | 6 |
+| Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
+| Post-Event Follow-Up | after each event | `ev-followup` | 6 |
+
+(Heidi's Wednesday Circle post is a Team-Mike scheduled task, not a member agent.)
 
 ## Per-plugin notes: dependencies & known failure modes
 
-### Plugin 1 — Agent Attraction Brain (the keystone)
-- **Everything depends on this.** If any skill anywhere says brain files are missing → route
+### Plugin 1 — Agent Attraction Brain (the keystone) — BUILT
+- **Everything depends on this.** If any MAA skill says Brain files are missing → route
   `attraction-brain-setup` (never built) or `attraction-brain-sync` (built but this machine/session
-  doesn't have it).
-- **Sync is the #1 concept:** Cowork's local desk is wiped between sessions; the CLOUD copy is
-  the permanent home — **Google Drive OR Microsoft OneDrive** (`config.md`'s "Storage provider"
-  line says which; Microsoft-world agents run Outlook + OneDrive for the same jobs — check before
-  saying "Drive" or "Gmail" to a member). Write → push → verify is atomic; reads are newest-wins;
-  older cloud copies act as version history. "My brain lost everything" is almost always "run the
-  sync pull," not data loss.
-- **Migrate after updates:** plugins auto-update from the marketplace, brain DATA doesn't reshape
-  itself. Skill reports schema-behind → `attraction-brain-migrate`.
-- Compliance uses a **3-state placeholder rule** (set / empty-with-note / skip-and-flag) — an empty
-  compliance file is a flagged state, not a bug.
+  doesn't have it). A tool error is never "no Brain" — never suggest re-running setup because of an error.
+- **Sync is the #1 concept:** Cowork's local desk is wiped between sessions; the CLOUD copy is the
+  permanent home — **Google Drive OR Microsoft OneDrive** (`config.md`'s "Storage provider" line
+  says which). Write → push → verify is atomic; reads are newest-wins; older cloud copies act as
+  version history. "My brain lost everything" is almost always "run the sync pull," not data loss.
+- **Migrate after updates:** plugins auto-update from the marketplace, Brain DATA doesn't reshape
+  itself. Skill reports schema-behind → `attraction-brain-migrate`. Schema is `aa-1.0`.
+- **Compliance is 3-state** (set / unset / confirmed): an UNSET compliance file BLOCKS public output
+  with a plain message — that's the gate working, not a bug. Route `attraction-compliance`.
+- **Later-week deliverables are never demanded early:** a Week 1 skill that mentions the offer or
+  the content pillars is collecting raw material and saying which week builds it. "It skipped my
+  offer" in Week 1 = working as designed.
+- The Daily Debrief is a Cowork scheduled task created at setup Stop 16 ONLY with the member's yes.
 
-### Plugin 2 — AI Admin
-- Depends on: Brain (identity/operations/voice) + **Gmail + Google Calendar connectors** (or the
-  Microsoft 365 connector for Outlook/OneDrive-world agents — same jobs, different cable).
-- Known modes: wrong timezone shifts briefings/bookings (setup now reads the calendar's own
-  timezone — re-run setup if briefing lands at odd hours); **never auto-sends** (drafts only) — a
-  member saying "it didn't send my email" is usually the approval step working as designed.
+### Plugin 2 — MAA Claude Support — BUILT (this plugin)
+- Needs nothing to help. Needs a Brain to log and to track weeks (`maa-support-setup`).
+- Its only writes: `memory/support-log.md`, `memory/claude-updates.md`, the config block.
 
-### Plugin 3 — YouTube System
-- Depends on: Brain + Google Drive (Videos folders). Notion optional (board). Analytics
-  (`youtube-analytics`: the monthly deep dive + quick reads) runs on the member's YouTube Studio
-  screenshot/export by default; the optional **Composio connector** (FAQ Q17a: Customize → Connectors →
-  + → Add custom connector → `https://connect.composio.dev/mcp`) plus a YouTube sign-in offered INSIDE
-  that skill unlocks live numbers. Never at setup — "it never offered the sign-in" = the connector isn't
-  added in their Claude.
-- House rhythm: **one chat = one video** (`youtube-make-video` in a fresh chat). Members who cram
-  five videos into one chat hit the full-chat wall — that's the fix, not a bug report.
+### Design Studio — Claude Design skill set (W2) — coming
+- NOT a plugin. 15 `ds-*` zips uploaded at claude.ai/customize/skills + the Agent Attraction
+  Design System set up inside Claude Design. Reads the uploaded Brain Book, never `~/attraction-brain/`.
+- Known modes: a zip rejected = description over 1024 chars or a nested zip (tree #11); "the skill
+  isn't in Design's list" = wrong account/workspace (FAQ Q38); "it doesn't look like my brand" =
+  the design system was never set up in Design (the root fix).
 
-### Plugin 4 — Short-Form System
-- Depends on: Brain. Publishing = **bring-your-own** (Metricool default, or GoHighLevel / Buffer /
-  manual) — wired in `shortform-setup`.
-- Analytics (`shortform-analytics`: the monthly deep dive + quick reads): same Composio connector as
-  Plugin 3 (FAQ Q17a); the skill itself offers the Instagram (Business/Creator account required) +
-  YouTube sign-in. Competitor Instagram/TikTok are by hand — no data feed exists for other accounts.
-- Known modes: publish/analytics skills failing usually = posting tool not connected or its login
-  expired → re-run `shortform-setup`. Nothing auto-posts; approval is always the last gate.
+### Plugin 4 — Short-Form (W3) — coming
+- Depends on: Brain (avatars, positioning, story-bank, compliance). Publishing = bring-your-own
+  (Metricool, or manual). The ManyChat sequences are a bonus-asset import on the member's own
+  ManyChat account, not a plugin feature.
+- Known modes: nothing auto-posts — approval is the last gate; "it didn't post" is usually an
+  unapproved queue.
 
-### Plugin 5 — Lead Capture
-- Depends on: Brain (offer/USP must exist — thin offer → route `attraction-offer` first) + Drive
-  campaign folder. Copy + strategy only: the .docx is rendered styled, and the DESIGN happens in
-  Claude Design from the brief. Capture only (a pop-up: first name + email + phone → thank-you page with the guide as an instant download), no booking — by design.
+### Plugin 5 — AI Editor, Riverside (W3) — coming
+- Depends on: Brain (`brand-visual`, `voice`, `compliance`) + the **Riverside connector on the
+  member's own account**. No Descript, ever.
+- Known modes: connector connected but reads fail → tree #12; edits persist in Riverside, state in
+  the Brain's `editor/` allowlist.
 
-### Plugin 6 — AI Editor
-- Depends on: Brain + **Descript connector (their own account + credits)**. Stock keys optional.
-- Known modes: connection lost → `editor-setup` step 1 (navigator preflights `list_projects` and
-  routes there automatically). Long edits use **per-clip checkpoints** — a died session RESUMES
-  from the checkpoint log (re-open the edit and say "resume"), never restarts. **Credits-exhausted
-  = hard stop** (paused mid-plan, waiting on a top-up — not broken). Editing spends Descript
-  credits with an 80/20 discipline and a cost gate before each run.
+### Plugin 6 — YouTube (W4) — coming
+- Depends on: Brain + `content-pillars` (written by `sf-setup` in Week 3 — "YouTube wants my
+  pillars" means run the short-form setup first). House rhythm: one chat = one video.
+- Thumbnails are a Claude Design brief (`yt-thumbnail`), not a Higgsfield job.
 
-### Plugin 7 — Listing Launch
-- Depends on: Brain + Drive (listing folder). `listing-tour` additionally = bring-your-own
-  **Higgsfield** account (photos animate under strict no-alteration rules) and hands clips to
-  Plugin 6.
-- Known modes: any listing skill asking for the address again = intake never ran → `listing-intake`
-  once, then everything reads the Brain's listing block.
+### Plugin 8 — Conversion & Sales (W5) — coming
+- Depends on: Brain (`top-50`, `avatars`, `offer`, `positioning`, `brokerage-model`, `objections`,
+  `compliance`). Objection role-play runs in Claude Voice — the member talks, Claude plays the agent.
+- Known modes: "it won't give me an income number on the call script" = compliance gate (no
+  earnings claims) working as designed.
 
-### Plugin 8 — Market System
-- Depends on: Brain; research writes `memory/market-data.md` once per month and every piece quotes
-  it. Deck + script are LOCKED together via the Slide Map (deck first, script one-beat-per-slide).
-- Known modes: pieces refusing to run → that month's research hasn't run (`market-run` fixes
-  order); data late early in the month = board release timing, the routine knows to wait; numbers
-  always carry source + date — "it won't just give me a number" is the anti-invention rule working.
+### Plugin 9 — AI Admin (W5) — coming
+- Depends on: Brain (`operations`) + Gmail + Google Calendar (or Microsoft 365). Never auto-sends.
+  Owns pipeline stage moves; "the stages look different in two places" = log it.
+
+### Plugin 10 — Team & Retention (W6) · Plugin 11 — Lead Magnet (W6) · Plugin 12 — Events (W6) — coming
+- All read the Brain's `offer`/`avatars`/`compliance`; Lead Magnet's first magnet is the Honest
+  Brokerage Comparison Guide (non-disparagement rules apply — cardinal rule #1); Events writes
+  the promo content, event tooling (Zoom, registration page) is the member's own.
 
 ## Cross-cutting known issues (any plugin)
 
 | Symptom | Reality | Fix route |
 |---|---|---|
-| "It forgot everything from yesterday" | Chats are workbenches; the Brain is the memory | Teach §3 doctrine; anything missing → capture/phase skills |
-| "Brain missing" on a machine that had it | Fresh Cowork desk; Drive copy is fine | `attraction-brain-sync` pull |
-| Claude can't read a folder (often Downloads/Desktop on Mac) | The Mac protects those folders per-app | Diagnostics tree #7 (grant access once / use the brain folder) |
+| "It forgot everything from yesterday" | Chats are workbenches; the Brain is the memory | Teach §3 doctrine; anything missing → `attraction-capture` |
+| "Brain missing" on a machine that had it | Fresh Cowork desk; the cloud copy is fine | `attraction-brain-sync` pull |
+| "No Brain found" but they built one — and they also run the realtor plugins | Wrong plugin answered (marker/phrase disambiguation) | Diagnostics tree #1b |
+| Claude can't read a folder (often Downloads/Desktop on Mac) | The Mac protects those folders per-app | Diagnostics tree #7 |
 | Connector "connected" but reads fail | Expired login or wrong Google account | Diagnostics tree #2 |
-| "It never offered the live data sign-in" (deep dive) | The Composio connector isn't added in their Claude — or they declined once (recorded, never re-asked) | FAQ Q17a |
-| "Nothing happened when I typed it" | Plugin not installed, or phrasing missed the trigger | Diagnostics tree #3 (exact phrases live in this file) |
-| Docs come out unstyled/ugly | Deliverables render via the shared styled-doc pipeline | Log as bug via `maa-support-escalate` if a skill delivered plain text |
-| A skill wants a tool the member skipped (Notion, Metricool, Higgsfield…) | Bring-your-own tools are optional by design | Offer the setup skill for that tool, or the manual path |
-| "It says it sent/saved/booked it — I can't find it" | Claimed-done ≠ done: verify with one cheap read; absent = draft-or-hallucination | Diagnostics tree #9 (redo via the owning skill, then reassure) |
-| Comment-keyword auto-DM / CRM follow-up questions (Week 3) | Bring-your-own tools wired in the Week 3 build-alongs, NOT plugin features | FAQ Q35 + test-like-a-buyer; tool-side breakage → that tool's support |
-| "Do I need a website?" | The funnel IS the system's page — one simple page with one job (Week 3's own framing); a full site is optional bring-your-own via their brokerage | Honest edge answer; log asks; never improvise a site recommendation |
-| Workshop/event tooling (Zoom, Eventbrite, Meetup) | Manual/offline play — the system WRITES the promo content and materials; event tooling is the member's own | Content skills + Claude Design briefs; never framed as a missing feature |
-| "What updates the stats inside my lead magnet?" | The monthly magnet refresh QUOTES `memory/market-data.md` — run "run my market update" first if stale; the named-source-and-date rule applies INSIDE the magnet (members publish it) | `market-run` → then the magnet refresh |
+| "Nothing happened when I typed it" | Plugin not installed (or not shipped yet this week), or phrasing missed the trigger | Diagnostics tree #3 |
+| A skill refuses to make anything public | Compliance is UNSET (3-state gate) | `attraction-compliance`; never "just proceed" |
+| A skill refuses to state an income / rev-share number | No-earnings-claims rule; every number is illustrative and labelled | Working as designed; `attraction-rev-share-calculator` for scenarios |
+| My debrief / watcher never ran | Consent never given, or the Cowork task was never created | Diagnostics tree #10 |
+| A Claude Design zip won't upload | Description > 1024 chars or a nested zip | Diagnostics tree #11 |
+| Docs come out unstyled/ugly | Deliverables render via the shared styled-doc pipeline | Log as bug via `maa-support-escalate` |
+| A skill wants a tool the member skipped (ManyChat, Metricool, Notion…) | Bring-your-own tools are optional by design | Offer the setup path, or the manual path |
+| "It says it sent/saved/booked it — I can't find it" | Claimed-done ≠ done: verify with one cheap read | Diagnostics tree #9 |
+| "Do I need Higgsfield / the AI clone / the Thumbnail Employee?" | Parked — not in this OS | Honest answer; log the ask |
+| "Where's the listing / market update skill?" | Not part of agent attraction; those are realtor-cohort plugins | Honest answer; if they're in both cohorts, that's the realtor stack |

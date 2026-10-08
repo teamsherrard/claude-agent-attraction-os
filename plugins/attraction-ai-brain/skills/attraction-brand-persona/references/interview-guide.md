@@ -1,241 +1,117 @@
-# Interview Guide — Realtor Brand Persona Skill
+# Interview Guide — Leader Identity (Attraction Brain, Phase 1)
 
-*Runs on Mike's **A.G.E.N.T. Brand OS** (`shared/brand-doctrine.md`). The blocks map to the pillars:
-Block 2 → **A**udience (niche) · Block 3 → **A**udience + **G**ap · Block 4 → **E**dge + **N**arrative +
-start of the **T**rust System. Keep all five in mind as you go.*
+*The ten questions of Setup Phase 1, grouped into three stops, with follow-ups and the common answers.
+Read when you open Stop 1. The questions are the plan's; do not add to them. Follow
+`shared/ask-once-default.md`: 2–4 related questions per stop, every stop a handoff, every question
+skippable, propose-and-react when they are unsure, consult on "I don't know".*
 
-## How to Run the Interview
+## How to run it
 
-- Ask ONE question at a time. Always.
-- Keep your tone warm and conversational — like a smart colleague, not a consultant
-- If an answer is vague, use the follow-up prompt listed below it
-- If an answer is great, say so briefly and move on — don't over-affirm
-- If an agent says "I don't know" or "I work with everyone" — that's the signal to dig deeper
-- Never use marketing jargon in your questions — ask it the way a real person would
-- Encourage honesty over polish — "don't worry about making it sound perfect" energy
-- **Options are examples, not a cage** (see `shared/ask-once-default.md`). For any question with choices,
-  let the agent pick **multiple**, **type their own**, and **add context in their words**. Signal
-  multi-select ("select all that apply" / "you might span more than one") and always follow with an open
-  "anything I missed?" Never force a single pick or treat the list as final — they can always customise.
-
----
-
-## BLOCK 1 — The Basics
-
-**Q1: What's your full name and what city do you work in?**
-*(Just get the basics — name and primary market)*
-
-**Q2: How long have you been a real estate agent?**
-
-**Q3: What types of properties do you mostly work with? Select all that apply — and tell me your own if it's not listed.**
-*(Examples: single-family homes, condos, townhomes, new construction, luxury, investment, land, commercial —
-but capture whatever they actually say, including types not listed: farms, acreages, mobile homes,
-pre-construction, multi-family. Multi-select — most agents work several.)*
-Open follow-up (always): "Anything else you work with, or a specific mix I should note (e.g. 'mostly new
-builds, some resale')?" Capture their exact words + nuance — never reduce them to one type.
-
-**Q4: Do you work under a brokerage or team, and if so, what's it called?**
-*(Optional — some agents won't want this in their files)*
-
-**Q5: Do you work mostly with buyers, sellers, or both — and is there anyone else you serve a lot?**
-*(Buyers · sellers · both — AND capture other segments they name: investors, renters/landlords, relocations,
-first-time buyers, downsizers, builders. Select all that apply + type your own — don't box them into three.)*
-Follow-up if "both": "Roughly what's the split — more like 60/40 buyers, or pretty even?"
-Open follow-up (always): "Anyone else you work with a lot that I should capture?"
+- Three stops, never ten single-question turns. Each stop is one message with its questions and a plain
+  "your turn" at the end. Follow-ups go in the *next* stop's message, not as extra turns.
+- Warm, like a colleague who has done this before. Never marketing jargon. "Short, messy answers are
+  perfect" is said once and meant.
+- Accept shorthand as typed: brokerage names, city abbreviations, "6 yrs". Clean it up in the file, not
+  in the conversation.
+- If an answer is already in the Brain (bridged from a Realtor Brain, imported from Materials, said
+  earlier), drop the question and say in one line what you used.
+- Options are examples, not a cage: for Q3 and Q4 the listed choices can be mixed, and "tell me your own"
+  is always open.
 
 ---
 
-## BLOCK 2 — Their Market
+## Stop 1 · The basics
 
-**Q6: What specific areas, neighbourhoods, or communities do you focus on?**
-*(This is the most important geography question — push for specificity)*
-Follow-up if they say just the city name: "Within [city] — are there specific communities
-or quadrants you focus on? Like the northwest, downtown, suburban areas, specific
-developments?"
+**Q1. Your name and your brokerage.**
+*Brokerage is any of: a cloud brokerage (eXp, REAL, LPT, Epique, another), a franchise, an independent, a
+local team, or "none yet". Record it as they say it. Never assume eXp.*
 
-**Q7: What price range(s) do you work in? Pick all that apply — many agents span more than one.**
-*(Examples: under $400K, $400–700K, $700K–1.2M, $1.2M+ — but agents often split, e.g. first-time buyers
-around $300–400K **and** luxury condos at $1M+. Capture EVERY band they work, not just one, plus their own
-numbers if different. Multi-select — never a single forced pick.)*
-Open follow-up (always): "If your work splits across ranges, tell me how — which clients sit where?"
+**Q2. Your market (city or region) and what you sell most.**
+*City plus state or province. "What you sell most" is one line (resale homes, new construction, condos,
+luxury, investors). This is their selling market; where they can attract agents is a separate question
+that attraction-persona-map asks later. Do not ask it here.*
 
-**Q8: Do you have a niche — like luxury homes, new construction, first-time buyers,
-investment properties, relocations — or is it more general residential?**
-Follow-up if "general residential": "Is there one type of client or transaction you
-find yourself doing more than others, even if you don't think of it as a niche?"
+**Q3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate?**
+*Three facts in one. The before-story is a sentence, not a résumé: "former high-school teacher", "sold
+cars for nine years", "engineer who quit a day after being named top employee". It is often the most
+relatable line in the whole Brain; keep the specific detail.*
+Follow-up if "I've been a lot of things": "Pick the one that shaped how you work with people."
 
-*Niche coaching (apply `shared/brand-doctrine.md`) — when they're hesitant or resistant, don't just
-record "no niche." Coach briefly, in plain language:*
-- *Reassure it's not a trap: "Picking a niche now doesn't lock you in forever — it evolves as you do.
-  And you're not abandoning everyone else: early on it's about 20% niche content and 80% general,
-  widely-searched stuff. The niche is just the thing you become known for over time."*
-- *Give the why: "In the AI-search era, tools recommend what they can find — people search 'relocating
-  to [city]' or 'first home in [city],' and specialists get recommended. Strong-brand agents also get
-  paid more and get more referrals. That's why it's worth choosing one."*
-- *Guard the size: if their idea is too narrow for the market, say so — "That's a real niche, but is it
-  big enough in [market] to hit your income goals? We might widen it slightly." Aim at a **growing** niche
-  with real volume.*
-- *Never force it. Offer a direction and the reasoning; let them choose. Capture what they land on as
-  their **Audience** pillar.*
-
-**Q9: Do you cover any secondary markets outside your main city or area?**
-If yes: "Tell me about that market — is it a different type of client or similar to
-your main market?"
-
-**Q10: What would you say are the top 3 neighbourhoods or communities in your market
-that buyers are most interested in right now?**
-*(Even if they don't focus there — this shows market knowledge)*
-
-**Q11: What's a neighbourhood or area in your market that people overlook but
-you think is underrated or up-and-coming?**
-*(Great for content and shows local depth)*
-
-**Q12: Why do people move TO your city? What's drawing them in?**
-Follow-up: "Is it mostly locals moving within the city, or do you get a lot of
-people relocating from other places? Where do they come from?"
+**Q4. What are you building: a downline at a cloud brokerage, a local team, a local brokerage, or a mix?**
+*This is the strategy line. "A mix" is common and fine; capture the mix. "I'm not sure yet" goes in as
+"deciding — leaning [x]" and is never a re-ask.*
 
 ---
 
-## BLOCK 3 — Their Target Avatars
+## Stop 2 · Your brokerage and why
 
-*This is the most important block. Slow down here. Get specific.*
+**Q5. When did you join your current brokerage (month and year)?**
+*If they founded it, record the founding month. If they are "between brokerages", record that honestly.*
 
-**Q13: Think about the best client you've ever worked with — someone you loved
-helping and who was a great fit for you. Who were they? What was their situation?**
-*(Let them tell the story — capture the details)*
+**Q6. Why did you *actually* join? The real reason, not the brochure: a mentor, the model, a bad experience before, a friend.**
+Follow-up if they give the brochure ("the technology, the culture, the training"): "Everyone gets some
+version of that. What was the moment you decided — a conversation, a bad month, a person already there?"
 
-**Q14: Why were they buying or selling? What was driving the decision?**
+**Q7. If another agent asked "why are you there?", what's the one line you'd say out loud?**
+*Not a pitch; the thing they would actually say in a hallway. If they cannot find it, draft it from Q6 in
+their words and mark it "(suggested — confirm)".*
 
-**Q15: What were they most worried about or stressed about going into the process?**
-Follow-up if vague: "What was the thing that kept them up at night about this
-transaction — was it the price, the competition, the timing, something else?"
+### The common answers at Stop 2 and what you do
 
-**Q16: What did they want most from an agent — someone who would hold their hand
-through it, someone who would get them the best deal, someone who just made it easy,
-or something else?**
-
-**Q17: After working with you, what did they say about the experience?
-Any specific feedback or compliments that stuck with you?**
-*(This is gold — captures real language the target market uses)*
-
-**Q18: Is that client type your main focus, or do you serve a different kind of
-client just as often?**
-
-*If yes to a second client type — run Q13 through Q17 again for that second avatar.*
-*If a third type comes up — capture it but keep it brief.*
-
-**Q19: Who do you NOT want to work with? Is there a type of client that's been
-a bad fit for you in the past?**
-*(Helps define the avatar by contrast — also very useful for content)*
-
-**Q20: Why do people leave your city? What pushes people out?**
-*(Often overlooked — great for seller content)*
-
-**Q21: What are the biggest misconceptions buyers from outside your market have
-about living there?**
-
-**Q22: What do most people get wrong about the buying or selling process in
-your specific market?**
-*(Great for content and shows local expertise)*
-
-**Q23: What questions do buyers or sellers ask you the most — the things people
-always seem confused or worried about?**
-
-**Q24: If someone is on the fence about buying or selling right now — what's
-the real reason they're hesitating? What are they afraid of?**
-*(Deep pain point question — very useful for content hooks)*
+| They say | You do |
+|---|---|
+| "Honestly, the rev share." | Real answer. Write the human reason under it: "income that isn't tied to the next closing", "something that doesn't reset every January". Numbers never go in this file. If they push for numbers: *"Numbers stay for your private call. The file holds the reason."* |
+| "I left [named brokerage] because they…" | Keep the wall, drop the name: "a franchise", "an independent", "a 100% shop". If they insist on naming it: one line — the story is the wall they hit, not the company, and never talking badly about another brokerage or person is what makes them look like a leader (`03-model-positioning/13`). Then write it that way. |
+| "My old broker was a friend and I still left." | Gold. That is Mike's own story (his broker was his best friend; he still switched when the timing was right, `01-foundation-mindset/01`), and it answers the "I love my broker" objection later. Capture the human tension, warmly. |
+| "I thought it was a pyramid scheme." | Also Mike's story; capture what changed their mind (someone explained the model properly; a peer they respected was already there). It becomes an objection answer in the story bank. |
+| "I'm at a local brokerage / I own it." | The question still works: why *this* one, why *build* here. Brokerage-agnostic means the answer shape is the same. |
+| Brochure language | One follow-up (above), then take what they give. |
 
 ---
 
-## BLOCK 4 — Their Brand & Voice
+## Stop 3 · Your journey and your why
 
-**Q25: How would you describe yourself as an agent in one sentence —
-not the polished elevator pitch, just how you'd actually say it to someone at a dinner party?**
-Follow-up if too polished: "Forget the professional version — if a friend asked
-what kind of agent you are, what would you actually say?"
+**Q8. Your journey in three beats: where you started, the hardest stretch, the turning point.**
+*Ask for scenes. Follow-up if a beat is a summary ("year two was rough"): "Give me the picture — what
+were you looking at the day it was worst?" One follow-up, then move on.*
+*Newer agents: year one has all three beats in miniature. "I'm still in the hardest stretch" is a valid
+answer and a very relatable one.*
 
-**Q26: What makes you different from other agents in your market?
-What do you do or know that most agents don't?**
-Follow-up if "I work hard" or "I provide great service": "Everyone says that —
-what's something more specific? Is it a particular area you know better than anyone?
-A type of client you're especially good with? A process you do differently?"
+**Q9. The moment selling houses stopped being enough and you decided to build an organization ("haven't fully decided" is fine).**
+*The leader moment is an identity shift (`01-foundation-mindset/06`): from caring only about their own
+production to wanting other people's transformation. It might be a burnout, an agent who asked for help, a
+cap that did not move, or a conversation. "Haven't fully decided" is recorded as the current state.*
 
-**Q27: How would you describe your personality on camera or in person?
-Pick any that fit — you might be a mix — or tell me your own: formal/professional,
-casual/conversational, energetic, calm/reassuring, warm, bold, funny.**
-*(Multi-select — most agents blend a few, e.g. "calm but energetic." Capture their own words + any nuance.)*
+**Q10. Your WHY. The life reason behind the organization, not the money alone.**
+*Mike's exercise (`01-foundation-mindset/10`): who are you doing this for, and what are the specific
+scenes you replay on the days you want to quit? Capture the people and the scenes. If the answer is
+"money" or "freedom": one follow-up — "Freedom to do what, for whom?" — then take what they give.*
+*Never copy Mike's list (the parents' trip, the car) into a member's file. It is his, not a template.*
 
-**Q28: What do you never want to sound like in your content?
-Any type of agent or style of content that makes you cringe?**
-*(Negative definition is as useful as positive)*
+### The common answers at Stop 3 and what you do
 
-**Q29: Do you have any phrases or lines you use a lot with clients —
-something you always say that clients seem to respond to?**
-
-**Q30: What do you want people to feel after watching one of your videos
-or reading something you wrote?**
-
-**Q31: Is there a real estate agent, content creator, or public figure whose
-communication style you admire — not to copy them, just as a reference point
-for the kind of tone you're going for?**
-
-**Q32: What's your primary call to action — what do you most want people
-to do after engaging with your content?**
-*(Book a call, DM you, visit your website, follow for updates — capture their preference)*
+| They say | You do |
+|---|---|
+| "I don't really have a story." | Everyone who has sold a house has three beats. Ask for the first deal and the worst month. If they are brand new: the before-story, the decision to get licensed, and what they are building now are the three beats. |
+| "The hardest stretch is right now." | Record it as the present tense. The "who relates to this" line practically writes itself: agents in the same stretch. |
+| "I haven't decided to build an organization." | Fine and common. Record "deciding" and the reason they are in the room. No push. |
+| "My why is to make a lot of money." | One follow-up on what it buys and for whom; then write what they say. Never invent a nobler reason. |
+| "Can you just write something good?" | Consult: propose 2–3 WHY lines built only from what they have told you (the before-story, the family they mentioned, the agent they helped), say why each fits, recommend one, let them choose. Mark it "(suggested — confirm)". |
 
 ---
 
-## BLOCK 5 — Their Content
+## Drafted, never asked (the member corrects, never composes)
 
-**Q33: What topics do you feel most confident and knowledgeable talking about?**
-*(Market data, neighbourhoods, the buying process, negotiation, new construction,
-investment — let them tell you)*
+- The **"Who relates to this:"** line under each beat (six types; career stage, production, model,
+  mindset only).
+- The **one line out loud** if Q7 was thin.
+- **What they want to be known for** (suggested — confirm), from the journey and anything they said
+  about what worked.
+- The **vision line**: a future big enough that every agent's goals fit inside it (`01-foundation-mindset/06`).
 
-**Q34: Is there anything you absolutely don't want to talk about or create content around?**
-*(Political topics, controversial real estate takes, competitor comparisons —
-capture any hard limits)*
+## Never in any file from this skill
 
-**Q35: Do you have a YouTube channel, Instagram, or TikTok already?
-If so, what's your handle?**
-*(Optional but useful for the knowledge file)*
-
-**Q36: What's the one thing you wish more buyers or sellers in your market understood
-that would make your job easier and their experience better?**
-*(This answer often becomes great content — capture it verbatim)*
-
----
-
-## Handling Common Vague Answers
-
-**"I work with everyone"**
-Response: "That makes sense — most agents do early on. But if you think about the
-last 5 transactions you closed, was there a type of client that kept showing up?
-First-time buyers, upsizers, people relocating, investors?"
-*Then reassure per the doctrine: "Naming a niche doesn't mean turning everyone else away — it's the
-thing you become the go-to for. And it's how you get found now: AI and search recommend specialists, and
-strong-brand agents earn more and get more referrals. It can evolve later — we're just planting the flag."*
-
-**"I just provide great service"**
-Response: "I hear that a lot — and I believe you. But help me get more specific.
-Is there something about how you communicate, how you handle negotiations, how you
-manage the process that clients specifically mention? Any feedback that shows up
-repeatedly?"
-
-**"I focus on [entire city]"**
-Response: "Got it — within [city], are there any quadrants, suburbs, or specific
-developments where you feel you have the deepest knowledge or where most of your
-deals have been?"
-
-**"My target market is anyone who wants to buy or sell"**
-Response: "Totally fair — but think about the clients you've loved working with most.
-Was there something they had in common? Similar life stage, similar budget, similar
-reason for buying or selling?"
-
-**"I don't really have a niche"**
-Response: "That's okay — you might have one you haven't named yet. When you think about
-the last 10 deals you closed, was there a property type, price range, or client profile
-that showed up more than once?"
-*If still resistant, give the doctrine's why + the low-stakes framing: "You don't have to go all-in —
-start with ~20% niche content and 80% general, and grow the niche a bit each year until you own it. But
-having one matters more than ever: AI search recommends specialists, and strong-brand agents get cheaper
-leads and more referrals. Let's just pick a direction — it can change as you do."*
+Former brokerage names · splits, caps, stock, tiers, rev-share numbers · anything negative about another
+brokerage or person · invented facts, numbers, agents, or quotes · age, family status, or any protected
+characteristic as a targeting line · the words unlock, supercharge, game-changer, revolutionary, secret
+weapon, leverage (as a verb).

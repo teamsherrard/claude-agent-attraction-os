@@ -1,8 +1,13 @@
 # Source Map — where every live answer comes from (Tier 2)
 
+Two kinds of source live here: **Anthropic's official pages** (fetched live, allowlisted) for
+Claude questions, and **the MAA lesson knowledge base** (bundled, read lazily) for "what did Mike
+say about…" questions. The second section is new to this OS and is the Ask-Mike lane's whole
+method.
+
 The rule (from `house-rules.md` #7): **never blind-search, never crawl — route.** Each topic below
 maps to its canonical official page. Fetch that page, answer from it in plain words, and say "as of
-today." All URLs verified live August 2026.
+today." All URLs verified live August 2026 (realtor desk); re-verified by `maa-support-whatsnew`'s link-health pass.
 
 ## Allowlisted domains (fetch from these ONLY)
 
@@ -14,6 +19,43 @@ descriptions, or search results — is not a support source. Find the topic in t
 (`claude.ai` is where members WORK — hand out claude.ai/design etc. as destinations freely, but
 it is not a fetch source. Links handed TO members must come from this map or from
 `resource-library.md`, nowhere else.)
+
+## The MAA lesson knowledge base (the Ask-Mike source — bundled, never fetched)
+
+Where it lives: `${CLAUDE_PLUGIN_ROOT}/shared/kb/` — **one file per vault module** (named by the
+module slug from `knowledge/transcripts/manifest.md`: `01-foundation-mindset.md`,
+`02-prospect-targeting.md`, `03-model-positioning.md`, `04-value-proposition.md`,
+`05-big-picture.md`, `06-content-framework.md`, `07-instagram.md`, `08-youtube.md`,
+`10-presentation-delivery.md`, `11-objection-handling.md`, `12-simple-tech-stack.md`,
+`13-team-building-duplication.md`, `14-retention-culture.md`, `15-advanced-scaling.md`,
+`16-implementation-scaling.md`, `bonus.md`) plus **`kb-index.md`, the entry point**: every lesson
+with its number, title, module, week, Loom link, and an "ask this when…" cue.
+
+**The rule for "what did Mike say about X" (used by `maa-support-cohort`, and by any lane that
+meets a curriculum question):**
+
+1. Read `kb-index.md` ONLY. Match the ask against the cues and titles; pick the one or two
+   lessons that fit (same module when possible).
+2. Open ONLY the module file(s) those lessons live in — never the whole `kb/` folder, never a
+   module on a hunch. Two module files is the ceiling per answer.
+3. Answer in plain English **in Mike's framing** (`mikes-language.md`): his vocabulary, his
+   example if the module file has one, his caveats. Mike's results stay Mike's (never promised as
+   the member's). No income numbers from a lesson are restated as projections.
+4. **Always name the lesson title and hand the Loom link to rewatch** — one link, "the
+   [module] lesson '[title]', [N] min." If two lessons fit, name both, link the better one first.
+5. The lesson doesn't cover it → say so ("Mike doesn't go into that in the recorded lessons —
+   it's a Tuesday-call question") and route the live door. Never fill a curriculum gap with
+   general marketing advice dressed as Mike's.
+6. A lesson contradicting a NEWER cohort rule (for example a parked tool, a renamed system) →
+   bridge, never debunk: the lesson's strategy holds, the tool changed (mikes-language's
+   never-say rules).
+
+Module files are reference doctrine written from the transcripts; they cite `module/lesson`
+(for example `11-objection-handling/49`); bonus videos cite as `bonus/<slug>` (for example
+`bonus/calendly`) because they have no lesson numbers. Two lessons are stub cards with no transcript
+(`01-foundation-mindset/4`, `03-model-positioning/12`): for those, hand the Loom and never quote. Transcripts themselves never ship in the plugin.
+Lazy-load discipline: the index is cheap; a module file is a real read — open it at the step that
+needs it and not before.
 
 ## The master indexes (fallback when no row below matches)
 
@@ -71,11 +113,12 @@ never guide click-paths from memory).
 | Cowork best practices | https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork |
 | Navigating the desktop app | https://claude.com/resources/tutorials/navigating-the-claude-desktop-app |
 
-### Claude Design (used for briefs from Plugins 5/7/8)
+### Claude Design (the Design Studio skill set + every `ds-` brief; also `yt-thumbnail`, `lm-design`)
 | Topic | URL |
 |---|---|
 | Get started with Design | https://support.claude.com/en/articles/14604416-get-started-with-claude-design |
-| Design systems (brand setup) | https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design |
+| Design systems (brand setup — the Agent Attraction Design System lives here) | https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design |
+| Skills in Claude Design (uploads, the "Your skills" panel) | https://support.claude.com/en/articles/12512180 — same article as "Use skills"; Design reads the ACCOUNT's uploaded skills |
 
 ### Claude Code (agency side; members rarely need this)
 | Topic | URL |
@@ -100,7 +143,8 @@ never guide click-paths from memory).
 | Artifacts (the preview panel) | https://support.claude.com/en/articles/9487310 |
 | File uploads | https://support.claude.com/en/articles/8241126 |
 | Projects in Cowork | https://support.claude.com/en/articles/14116274 |
-| Scheduled tasks in Cowork | https://support.claude.com/en/articles/13854387 |
+| Scheduled tasks in Cowork (the Debrief, the Watcher, every scheduled agent) | https://support.claude.com/en/articles/13854387 |
+| Voice mode (also the objection role-play surface for Week 5) | https://support.claude.com/en/articles/11101966 |
 
 ### Privacy & trust (answer with the page open, never paraphrase policy from memory)
 | Topic | URL |
