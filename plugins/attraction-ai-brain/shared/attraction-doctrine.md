@@ -203,18 +203,24 @@ a 60/40 split, a team split) · poor leadership (no vision, mentorship, connecti
 limited growth (a ceiling, financial and personal) · culture misalignment (toxic, no recognition, no belonging —
 especially top producers surrounded by complainers).
 
-### 7b. The five critical pain points — two wordings, one list
-Mike's lesson wording (`02-prospect-targeting/18`, `04-value-proposition/27`) and the cohort's plain wording
-(the plan, the workshop skills). The OS measures every offer against the plain wording; skills may quote
-Mike's wording when teaching.
+### 7b. The five critical pain points — Mike's framing is canonical
+Mike names them twice, nearly identically (`02-prospect-targeting/18`: "these five are based on data";
+`04-value-proposition/27`: "the five core pain points"; `04-value-proposition/28`: his own offer "solves all
+five"). The cohort's workshop skills and the plan paraphrase the same list in plainer words. **Every offer,
+avatar, and story tag in the OS uses Mike's wording as the canonical label** (the plain alias may follow in
+parentheses); `attraction-offer` measures the value stack against these five.
 
-| # | Plain wording (the offer is measured against this) | Mike's lesson wording | The solution Mike names |
+| # | Mike's wording (canonical) | Plain alias (workshop / plan) | What Mike says solves it |
 |---|---|---|---|
-| 1 | Inconsistent business — no reliable way to get the next client | Financial uncertainty — need to generate and convert leads | superior training to increase production; your UVP |
-| 2 | No real training or mentorship — the brokerage explains forms, not how to get clients | Lack of mentorship, leadership, training (and outdated training) | you as the leader; training that fills the brokerage's gaps |
-| 3 | Paying for things that don't move the needle — leads, tools, fees — and feeling like a number | Technology gaps / outdated tools | modern systems you actually use; proof it works |
-| 4 | No path past "sell more houses" — everything resets every year; no leverage, no exit | Limited growth · work-life balance / the hamster wheel | multiple income streams, long-term vision, an exit strategy — private-call material |
-| 5 | Doing it alone — no community, no accountability, no one to call | Limited recognition · lack of support | culture, community, recognition |
+| 1 | **Financial uncertainty** — broke agents who need to generate and convert leads (`/27`) | inconsistent business — no reliable way to get the next client | training and a UVP that produce leads and closings |
+| 2 | **Lack of support, mentorship, training, coaching, leadership** — including outdated training (`/18`, `/27`) | no real training or mentorship — the brokerage explains forms, not how to get clients | you as the leader; mastermind calls; training that fills the brokerage's gaps |
+| 3 | **Technology gaps** — systems, processes, integrations, CRM, AI, social (`/27`); "poor tech, lack of tools" (`/18`) | paying for things that don't move the needle — leads, tools, fees — and feeling like a number | modern systems you actually use and can teach; proof they work |
+| 4 | **Limited growth** — a ceiling, stuck or trapped; "strategy and accountability" (`/27`, `/18`) | no path past "sell more houses" — everything resets every year; no leverage, no exit | strategy, accountability, multiple income streams, a long-term vision — private-call material |
+| 5 | **Work-life balance** — "leverage and residual income" (`/27`); the hamster wheel; plus **limited recognition** (`/18`) | doing it alone — no community, no accountability, no one to call | culture, community, recognition; leverage so the business is not entirely on them |
+
+Where the two wordings diverge: the plain list splits "support" into training (2) and community (5) and
+folds Mike's "technology" into "paying for noise" (3). Mike's list is the one the lessons teach; the alias
+exists so a member who learned the plain words still recognizes them.
 
 ### 7c. What the model and the member each answer (`02-prospect-targeting/18`)
 The **model** answers: superior training that increases production, multiple income streams, long-term vision

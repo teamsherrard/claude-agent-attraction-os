@@ -10,9 +10,9 @@ Thumbnail docs already in Downloads.*
 
 ---
 
-## 0. The OS at a glance (10 Cowork plugins + 1 Claude Design skill set · 12 scheduled agents)
+## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 10 scheduled agents)
 
-**Count, stated once:** the cohort doc says "12 plugins." Ten are real Cowork marketplace plugins. The Design Studio is NOT a plugin: Claude Design cannot run plugins, it only accepts uploaded skill files. It ships as 15 upload-ready Claude Design skills plus the Agent Attraction Design System, packaged like the realtor design suite v2. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per the user (2026-10-08): it is not a plugin either, and it is parked for now. Sales copy can keep saying "12 systems"; the Setup Guide and Support stack map say "10 plugins + the Design Studio skills."
+**Count, stated once:** the cohort doc says "12 plugins." Nine are real Cowork marketplace plugins (Team & Retention was removed by the user on 2026-10-08). The Design Studio is NOT a plugin: Claude Design cannot run plugins, it only accepts uploaded skill files. It ships as 15 upload-ready Claude Design skills plus the Agent Attraction Design System, packaged like the realtor design suite v2. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per the user (2026-10-08): it is not a plugin either, and it is parked for now. Sales copy can keep saying "12 systems"; the Setup Guide and Support stack map say "9 plugins + the Design Studio skills."
 
 | # | Plugin (install week) | Prefix | Skills | Build type | Forks |
 |---|---|---|---|---|---|
@@ -20,11 +20,10 @@ Thumbnail docs already in Downloads.*
 | 2 | Support (W1) | `support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
 | 3 | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `ds-` | 15 | duplicate + 4 new | Claude Design suite v2 (Desktop) |
 | 4 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
-| 5 | AI Editor, Riverside (W3) | `studio-` | 28 | **mechanical fork** + repoint | realtor-riverside-editor |
+| 5 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
 | 6 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
 | 8 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
 | 9 | AI Admin (W5) | `admin-` | 7 | duplicate + re-stage | realtor-ai-admin |
-| 10 | Team & Retention (W6) | `team-` / `org-` | 12 | **new build** on Mike's frameworks | none |
 | 11 | Lead Magnet (W6) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
 | 12 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops | anthropic-skills:workshop-ops |
 
@@ -57,7 +56,6 @@ side unless the member has only the attraction OS installed, in which case the S
 | YouTube | same as Short-Form + `content-pillars · brokerage-model · prospect-intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
 | Conversion | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
 | AI Admin | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
-| Team & Retention | `organization · offer · operations · brand-visual · proof` | `memory/organization`, `memory/recognition-log`, `memory/org-analysis/`, `identity/onboarding.md`, `identity/duplication-kit.md` |
 | Lead Magnet | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md` |
 | Events | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
 
@@ -79,9 +77,7 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
 | Weekly Recruiting CEO Review | weekly | `admin-scorecard` (CEO mode) | 6 |
-| Recognition Agent | daily | `team-recognition` | 6 |
 | Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
-| Retention Pulse | quarterly | `team-survey` | 6 |
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
@@ -183,8 +179,8 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 **Mechanical fork of `realtor-riverside-editor` v0.4.1.** No creative changes. What the fork touches:
 
-- every `~/realtor-brain/` path → `~/attraction-brain/`; `realtor-brain-sync` → `attraction-brain-sync`; the compliance read → attraction `compliance.md` (3-state).
-- `studio-listing` and the listing branch of `studio-navigator` are removed (no listings); `studio-interview` becomes a front-door option ("edit my agent interview").
+- **Decision (user, 2026-10-08): ONE plugin, not two.** The Studio is vendored into this repo under its own name and version (`scripts/vendor-riverside.sh`) with a single addition, the Brain-home rule in `house-rules.md`: use `~/attraction-brain/` when it exists, else `~/realtor-brain/`, and call that Brain's sync skill; every `editor/` path resolves against `<Brain home>`. Back-port that rule to the realtor repo so the two copies are byte-identical. A member who installed it from the realtor marketplace does not install it again (Support says so).
+- No skills removed (same plugin). `studio-listing` simply goes unused by attraction-only members.
 - `brand-wiring.md` reads the Attraction brand kit (Video Brand Kit v3.3 shape, generated by `ds-thumbnail-layout` + `ds-brand`).
 - `cta-pack.md` swaps the realtor CTAs for the attraction ladder (book a call, DM the keyword, grab the guide).
 - `editor/` state (config, jobs, b-roll library) is added to the attraction sync allowlist on day one (the audit found it outside the realtor allowlist, so it forgot everything after session one in Cowork).
@@ -294,31 +290,9 @@ Forks `realtor-ai-admin` (17 skills) down to the attraction layer. The realtor a
 
 ---
 
-## 10. Plugin 10 — Team & Retention (`team-` + `org-`, 12 skills)
+## 10. Team & Retention — REMOVED
 
-**New build** on the Week 6 vault (Team Building & Duplication, Retention and Culture, Implementation & Scaling) and the Launching doc's
-`/launch-new-partner` and `/org-analysis` specs. Doctrine: `shared/retention-doctrine.md` (the 6 Pillars of Must-Stay Culture, the 30-day
-experience, recognition as retention, leaders create leaders, support without babysitting, exit interviews and retention metrics).
-
-| Skill | What it does |
-|---|---|
-| `team-onboarding` | the 30-60-90 onboarding plan tailored to the brokerage and the member's offer; Day 1 → Week 1 → Week 2 → Day 30; check-ins scheduled; writes `identity/onboarding.md` |
-| `team-plug-in` | the plug-in checklist: community, systems, training, first two weeks' wins |
-| `team-duplication-kit` | what the member's agents get on day 1: scripts, light OS skills, Value Vault assets; writes `identity/duplication-kit.md` |
-| `team-teach-to-attract` | the "How to Start Attracting Agents" training for the team (the simplified Brain → Positioning → Content → Prospecting → Conversion path) |
-| `team-recognition` | the recognition calendar and milestone posts; owns the Recognition Agent (milestones from calendar, CRM, org-analysis) |
-| `team-win-wall` | Win Wall posts and graphics (design via `ds-recognition`) |
-| `team-culture-audit` | the 6 Pillars self-score and the Quarterly Culture Tracker |
-| `team-community` | the private group rhythm: wins thread, monthly call, events |
-| `team-survey` | the Annual Agent Survey, sent (draft) and analyzed; at-risk flagged; owns Retention Pulse |
-| `team-exit-interview` | the exit interview and retention metrics |
-| `team-1on1` | the Team Goal Review worksheet for 1:1s |
-| `org-analysis` | **Organization Analysis**: monthly CSV drop (eXp / REAL / LPT exports) → first deals, caps hit, rev-share growth, agents who stopped growing, emerging leaders, attrition; recommends who to coach; writes `memory/org-analysis/YYYY-MM.md` and triggers recognition |
-
-**Input needed:** one sample organization export per brokerage (column names), so `org-analysis` parses real files rather than guessing.
-**Ideas:** Retention Radar (weekly, continuous) as a mode of `org-analysis` once monthly data exists; the Weekly Team Meeting agenda (recognition + a training topic from the Value Vault) as a `team-community` mode; the Downline OS (the duplication kit as an installable member-branded plugin) is the Elite-tier idea and stays out of v1.
-
----
+Removed from the OS by the user on 2026-10-08. Not built. `memory/organization.md` stays in the Brain (capture and the Admin plugin write joins to it); the Design Studio's `ds-recognition` reads it for Win Wall posts.
 
 ## 11. Plugin 11 — Lead Magnet (`lm-`, 11 skills)
 
@@ -367,11 +341,11 @@ The user's intent: approve the plans, then build everything at once with multipl
 
 1. **Sprint 0 (serial, one agent, 2 days):** repo scaffold, marketplace.json, scripts, the shared mechanics copied once (`how-we-speak`, `ask-once-default`, `connectors`, `doc-formatting`, `render_doc.py`), the Brain template and `brain-contract.md` template, the locked vocabularies (pipeline stages, content-log row, scorecard block, config registry). Everything downstream imports from here, so it goes first.
 2. **Doctrine pass (parallel, one agent per doctrine file, blocked on the transcripts):** attraction, persona, brokerage-models, compliance, short-form frameworks, YouTube, conversion, retention. Each agent gets the relevant vault module transcripts and the matching week doc.
-3. **Plugin build (parallel, one agent per plugin, each in its own worktree):** 11 agents, each briefed with: the plan section above, its doctrine file, the Brain contract, §11 house rules, and the realtor source plugin path (read only). Mechanical forks (Riverside, Support) finish in hours; new builds (Conversion, Team, Events) take the longest.
+3. **Plugin build (parallel, one agent per plugin, each in its own worktree):** 11 agents, each briefed with: the plan section above, its doctrine file, the Brain contract, §11 house rules, and the realtor source plugin path (read only). Mechanical forks (Riverside, Support) finish in hours; new builds (Conversion, Events) take the longest.
 4. **Seam pass (serial, one agent):** trigger-collision diff, Brain-file ownership check, scheduled-agent consent check, compliance 3-state check, description-length check, `check-release.sh` green.
 5. **Prove it:** one demo brain (fictional member) run through Weeks 1–6 end to end; Cowork cold test on a real member for Week 1 and Week 2; release.
 
-Ship dates follow the cohort's record-ahead rule: Brain + Support + the three Design Package skills (`ds-logo`, `ds-style-sheet`, `ds-brand`, because brain + brand both land in Week 1) by Oct 30; the rest of Design Studio by Nov 6; Short-Form + Riverside fork by Nov 13; YouTube by Nov 20 (before Thanksgiving); Conversion + Admin by Dec 4; Team + Lead Magnet + Events by Dec 11.
+Ship dates follow the cohort's record-ahead rule: Brain + Support + the three Design Package skills (`ds-logo`, `ds-style-sheet`, `ds-brand`, because brain + brand both land in Week 1) by Oct 30; the rest of Design Studio by Nov 6; Short-Form + Riverside fork by Nov 13; YouTube by Nov 20 (before Thanksgiving); Conversion + Admin by Dec 4; Lead Magnet + Events by Dec 11.
 
 ---
 
@@ -403,6 +377,6 @@ build: every doctrine file, the Support plugin's answer source, and the voice of
 4. **Riverside and Support forks**: confirm the mechanical fork (they cannot ship as-is).
 5. **CRM scope for v1**: Brain-memory pipeline as the truth with GHL / Follow Up Boss / Sheets sync as bring-your-own, or a specific CRM first.
 6. **Freshdesk**: fix billing or re-point escalation.
-7. **Sample organization exports** (eXp / REAL / LPT) for `org-analysis`; Mike's thumbnail swipe file with pattern notes (for `ds-thumbnail-layout`).
+7. Mike's thumbnail swipe file with pattern notes (for `ds-thumbnail-layout`).
 8. **Inducement-rules review** before the Switching Transition Plan and the Earnings Comparison one-pager ship (cohort doc flags it; both stay out of v1 until cleared).
 9. **Voice-mode role-play** is a claude.ai app feature, not a Cowork skill: confirm the Objection Coach ships text role-play plus app instructions.

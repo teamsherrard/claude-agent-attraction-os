@@ -10,7 +10,7 @@
 - **Story:** [the real narrative, in their spoken voice, with the true details that make it land]
 - **Lesson / point:** [what it proves — REQUIRED; a story with no point can't be used]
 - **Persona it lands with:** [new agent · experienced low-production · top producer · influencer · team leader · broker-owner]
-- **Pain it speaks to:** [inconsistent business · no training or mentorship · paying for noise · no path past selling · alone]
+- **Pain it speaks to:** [financial uncertainty · lack of support/mentorship/training · technology gaps · limited growth · work-life balance and recognition — Mike's five, `02-prospect-targeting/18`]
 - **Use:** [story reel · YouTube hook · partner call · objection answer ("I'm happy where I am", "it's a pyramid scheme" …) · interview answer · onboarding]
 - **Emotional beat:** [relief · pride · embarrassment · vindication · gratitude]
 - **Privacy:** [real person? → anonymize / consent on file]

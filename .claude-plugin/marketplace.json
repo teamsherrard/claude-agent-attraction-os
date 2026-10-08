@@ -29,6 +29,12 @@
       "source": "./plugins/attraction-youtube-system",
       "version": "0.1.0",
       "description": "PLUGIN 5 \u2014 the Long-Form Authority Engine (Week 4): YouTube built to attract agents. Channel, 3-pillar game plan on the 8-video cycle, ideation, research, scripts, agent interviews, model breakdowns, thumbnail briefs, SEO, repurposing, leads, analytics, coaching, consistency, board. Requires Plugin 1."
+    },
+    {
+      "name": "realtor-riverside-editor",
+      "source": "./plugins/realtor-riverside-editor",
+      "version": "0.4.2",
+      "description": "PLUGIN 4 \u2014 the AI Editing Studio on Riverside (Week 3). The SAME editor plugin as the Social Agent OS, vendored here unchanged except for one rule: it reads whichever Brain you have (Agent Attraction Brain first, Realtor AI Brain otherwise). Record, edit by transcript, cut the fluff, captions, b-roll, music, color, hook, interviews, reels, long-form, repurpose, publish. If you already installed it from the realtor marketplace, do not install it twice."
     }
   ]
 }

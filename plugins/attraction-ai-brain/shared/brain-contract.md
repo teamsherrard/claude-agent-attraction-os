@@ -24,46 +24,63 @@
 
 ## Where the Brain lives
 Permanent home: the member's cloud workspace (Google Drive or OneDrive), `Agent Attraction OS/` (renameable;
-found by folder ID, then the `_attraction-workspace.md` marker, never by name) → `01 · AI Brain/_engine/`.
+found by `Workspace ID`, then the `_attraction-workspace.md` marker, never by name) → `01 · AI Brain/_engine/`.
 Local `~/attraction-brain/` is the per-session working copy. Provider and workspace ID live in `config.md`.
 Schema `aa-1.0`. A Realtor AI Brain (`~/realtor-brain/`, marker `_workspace.md`) is a different system: read
 once by `attraction-import`, never written, never confused with this one.
+
+## `config.md` — the key registry (locked spelling)
+`Schema: aa-1.0` · `Storage provider` · `Workspace name` · `Workspace ID` · `Workspace link` · `Timezone`
+(lives only here) · `CRM` · `Setup progress` · `Debrief time` · `Daily Debrief task` (task id or `declined`) ·
+`Workspace shared with` · `Realtor Brain bridge` (none / declined / pulled YYYY-MM-DD) · `Demo brain` (yes/no) ·
+`Cohort week` (optional). Supporting fields (Locale, Owner account, Plugin version, Watcher task, Brain home,
+Last synced) sit under their own heading and are not registry keys. The template, `attraction-brain-setup`,
+`attraction-brain-sync`, and `attraction-brain-migrate` always agree on these names.
 
 ## What this plugin reads
 Everything in `~/attraction-brain/`.
 
 ## What this plugin writes (one owner per file)
 
+**Week 1 ownership, before the later plugins exist.** `attraction-brain-setup` SEEDS three files and then
+hands them off: `identity/offer.md` (the first three sections + `Status: seeds` → `attraction-offer` owns it
+from Week 2), `identity/positioning.md` (the one seed line + Status → `attraction-model-positioning` owns it
+from Week 2), `identity/strategy.md` (known-for and priorities → `attraction-brand-persona`'s update path
+owns later edits). `attraction-capture` writes `memory/conversations.md` and `memory/organization.md` rows
+directly until the Conversion / AI Admin / Team & Retention plugins are installed, then hands off to them
+and touches only `top-50.md`. The row shapes never change at hand-off.
+
 | File | Owner skill | Also writes (designated section / append only) |
 |---|---|---|
 | `brain.md` | `attraction-brain-setup` (index, quick-ref) | `attraction-brain-health` refreshes quick-ref fields |
-| `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (provider, IDs, progress) | `attraction-debrief` and `attraction-prospect-radar` write their task ids; `attraction-brain-migrate` the schema line; later plugins their own block |
+| `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (registry keys) | `attraction-debrief` → `Daily Debrief task`, `Debrief time`; `attraction-prospect-radar` → the Watcher task; `attraction-brain-migrate` → `Schema`; `attraction-import` → `Realtor Brain bridge`; later plugins their own block |
 | `identity/profile.md` | `attraction-brand-persona` | `attraction-import` (bridged fields, marked) |
-| `identity/journey.md` | `attraction-brand-persona` | — |
-| `identity/strategy.md` | `attraction-brand-persona` | — |
+| `identity/journey.md` | `attraction-brand-persona` (everything above the `## Why join me` block) | `attraction-why-join-me` owns the `## Why join me` block at the END of the file (60-second, long, one-breath); brand-persona preserves it byte-for-byte |
+| `identity/strategy.md` | setup seeds → `attraction-brand-persona` (update path) | — |
 | `identity/avatars.md` | `attraction-persona-map` | — |
 | `identity/prospect-intel.md` | `attraction-prospect-radar` | the Brain Book's research pass runs this skill's mandate; the Watcher appends |
-| `identity/positioning.md` | `attraction-model-positioning` | setup Phase 4 seeds the one line; `attraction-why-join-me` owns the "Why join me" section |
-| `identity/offer.md` | `attraction-offer` | setup Phase 4 writes seeds + Status; `attraction-free-vs-paid` owns the "Free vs paid" section |
+| `identity/positioning.md` | setup seeds the one line → `attraction-model-positioning` | — (why-join-me lives in journey.md) |
+| `identity/offer.md` | setup seeds → `attraction-offer` | `attraction-free-vs-paid` owns the "Free vs paid" section; `attraction-capture` appends under "Notes for Week 2" |
 | `identity/brokerage-model.md` | `attraction-brokerage-model` | — |
-| `identity/voice.md` | `attraction-brain-setup` (Stop 12) | `attraction-brand-persona` may refine |
+| `identity/voice.md` | `attraction-brain-setup` (Stop 12) writes it first → `attraction-brand-persona`'s update path ("update my voice") owns later edits | `attraction-voice-print` never writes it |
 | `identity/voice-samples.md` | `attraction-brain-setup` (Stop 12) | `attraction-import` appends samples (incl. the Realtor Brain bridge) |
-| `identity/voice-print.md` | `attraction-voice-print` | — |
+| `identity/voice-print.md` | `attraction-voice-print` — only this file | — |
 | `identity/proof.md` | `attraction-voice-proof` | `attraction-capture` appends to Seeds |
 | `identity/story-bank.md` | `attraction-story-bank` | setup Stop 6 writes the six seeds; `attraction-capture` appends to Seeds; content skills stamp Used-where |
 | `identity/brand-visual.md` | `attraction-brand-direction` | — |
 | `identity/content-engine.md` | **the Short-Form System's `sf-setup` (Week 3)** — the Brain never writes it | — |
-| `identity/goals.md` | `attraction-goals` | `attraction-rev-share-calculator` owns "The money, honestly"; `attraction-execution-framework` owns "The 12-month plan" |
+| `identity/goals.md` | `attraction-goals` | `attraction-rev-share-calculator` → "The money, honestly"; `attraction-execution-framework` → "The 12-month plan" |
 | `identity/leadership.md` | `attraction-leadership-audit` | — |
 | `identity/operations.md` | `attraction-operations` | setup Stop 16 writes the basics |
 | `identity/compliance.md` | `attraction-compliance` | setup Stop 15 writes Status: set |
-| `memory/top-50.md` | `attraction-top-50` | `attraction-capture` adds rows; `attraction-debrief` updates Last touch / Next move / Stage |
-| `memory/conversations.md` | **Conversion & Sales plugin (Week 5)** | interim owner until installed: `attraction-capture` + `attraction-debrief`, same row shape |
-| `memory/pipeline.md` | **AI Admin plugin (Week 5)** — stage moves | interim: `attraction-debrief` + `attraction-capture`, same vocabulary |
+| `memory/top-50.md` | `attraction-top-50` | `attraction-capture` adds rows and (until the Admin exists) stage moves; `attraction-debrief` never writes it |
+| `memory/conversations.md` | **Conversion & Sales plugin (Week 5)** | interim: `attraction-capture` writes rows directly, same shape |
+| `memory/pipeline.md` | **AI Admin plugin (Week 5)** — stage moves | interim: `attraction-capture`, same vocabulary; the Debrief only *requests* moves |
 | `memory/organization.md` | **Team & Retention plugin (Week 6)** | interim: `attraction-capture` appends a join |
-| `memory/scorecard.md` | `attraction-debrief` (current week) | seeded by `attraction-goals`; `admin-scorecard` appends weekly rows from Week 5 |
+| `memory/scorecard.md` | `attraction-goals` (Targets block) | `attraction-debrief` appends daily rows; the weekly check-in (then `admin-scorecard`) appends weekly rows; rows are never edited |
 | `memory/objections.md` | `attraction-capture` | Conversion plugin adds handlers in the same shape |
 | `memory/debriefs.md` | `attraction-debrief` | — |
+| `memory/capture-log.md` | `attraction-capture` (fallback) | the Debrief surfaces Open rows |
 | `memory/content-log.md` | **YouTube · Short-Form · AI Editor · Events** | the Brain only reads |
 | `memory/ideas.md` | `attraction-capture` | content plugins mark Used |
 | `memory/intel.md` | `attraction-capture` + `attraction-prospect-radar` (the Watcher) | — |
@@ -72,20 +89,20 @@ Everything in `~/attraction-brain/`.
 ## Locked vocabularies and shapes (defined once, in the template)
 - **Pipeline stages:** Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active · Parked.
 - **Six agent types:** new agent · experienced, low production · top producer · influencer (say "agent with a brand") · team leader · broker-owner.
-- **Five pains:** inconsistent business · no real training or mentorship · paying for things that don't move the needle · no path past "sell more houses" · doing it alone.
-- **Row shapes:** `top-50`, `conversations`, `content-log`, `scorecard` block, `debriefs` block, `objections`, `intel`, `deadlines` — as the template files show. A plugin that needs a column proposes it in the template, never adds it ad hoc.
-- **`config.md` keys:** `Brain schema`, `Storage provider`, `Workspace folder ID`, `CRM`, `Timezone` (lives only here), `Locale`, `Setup progress`, `Demo brain`, task ids. One registry.
-- **Compliance status values:** unset · set · confirmed.
-- **Offer status values:** seeds (Week 2 builds the offer) · finalized by member · built in Week 2.
+- **Five pains (Mike's framing, canonical):** financial uncertainty · lack of support, mentorship, training · technology gaps · limited growth · work-life balance (and recognition). Plain aliases in `attraction-doctrine.md` §7b.
+- **Score vocabulary:** Ahead · On pace · Behind.
+- **Row shapes:** `top-50`, `conversations`, `content-log`, `scorecard` (Targets block + weekly rows + daily rows), `debriefs` (`## [date] · [score]` entries), `objections`, `intel`, `deadlines`, `capture-log` — as the template files show. A plugin that needs a column proposes it in the template, never adds it ad hoc.
+- **Compliance status values:** unset · set · confirmed. **Offer status:** seeds (Week 2 builds the offer) · finalized by member · built in Week 2. **Goals status:** seeds · locked [date].
 
 ## Scheduled agents this plugin owns
-Daily Agent Attraction Debrief (`attraction-debrief`, daily) · Agent Movement Watcher (`attraction-prospect-radar`,
-weekly, Week 2). Provisioned only with the member's explicit yes; draft-only; task ids in `config.md`.
+Daily Agent Attraction Debrief (`attraction-debrief`, daily at `Debrief time`) · Agent Movement Watcher
+(`attraction-prospect-radar`, weekly, Week 2). Provisioned only with the member's explicit yes; draft-only;
+task ids in `config.md`.
 
 ## Documents this plugin produces (per `shared/drive-map.md`)
-📕 [Name]'s Agent Attraction Brain Book · 🎯 [Name]'s 90-Day Attraction Scorecard → `01 · AI Brain/` ·
-Prospect Radar reports → `04 · Agents/Prospects/` · the Design Package brief (paste-ready, in chat) · the
-Project Seatbelt (`shared/project-instructions.md`, aa-v1).
+📕 [Name]'s Agent Attraction Brain Book · 🎯 [Name]'s 90-Day Attraction Scorecard → `01 · AI Brain` ·
+Prospect Radar reports → `04 · Agents/Prospects` · Why Join Me · the Offer Doc → `05 · Offer` · the Design
+Package brief (paste-ready, in chat) · the Project Seatbelt (`shared/project-instructions.md`, aa-v1).
 
 ## Privacy
 Everything in the Brain — including agent names, conversations, and the organization roster — is the member's

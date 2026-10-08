@@ -1,6 +1,6 @@
 # [Member First Name] — Voice & Brand Personality
 *identity · shapes the tone of every script, caption, DM, email, and partner-call line*
-*Owner: `attraction-brain-setup` (Phase 6, Stop 12); `attraction-brand-persona` may refine. Signature phrases and the never-say list are DRAFTED from how they type, never asked.*
+*Owner: `attraction-brain-setup` (Phase 6, Stop 12) writes it first; `attraction-brand-persona`'s update path ("update my voice") owns every later edit. `attraction-voice-print` owns only `voice-print.md`. Signature phrases and the never-say list are DRAFTED from how they type, never asked.*
 
 **Closest to how they talk:** [straight shooter · warm and patient · high energy · calm numbers person · helpful friend — or their own words]
 **How they describe themselves (their own words):** [near-verbatim]

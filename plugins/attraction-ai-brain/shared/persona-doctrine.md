@@ -218,3 +218,28 @@ targets; never scrape a group's members.
 | Agent with a brand | influence in the wrong vehicle | brand reach ≠ income | monetize the audience without adult daycare | sometimes |
 | Team leader | adult daycare, overhead, churn | retention and no exit | partners instead of competitors; company support | yes + corporate |
 | Broker-owner | all the risk, less profit than it looks | overhead, liability, isolation | keep the brand, drop the cons; look-period rule first | yes + corporate |
+
+---
+
+## 10. The five pains — transcript check (for `attraction-offer` and `attraction-persona-map`)
+
+**Confirmed:** the five pains are in the transcripts, in Mike's words, twice — `02-prospect-targeting/18`
+("the most critical pain points, based on data": financial uncertainty · lack of mentorship, leadership and
+training · outdated training · support · work-life balance, plus limited recognition) and
+`04-value-proposition/27` ("the five core pain points": financial uncertainty · lack of support, mentorship,
+training, coaching and leadership · technology gaps · limited growth (strategy and accountability) · work-life
+balance (leverage and residual income)). `04-value-proposition/28` shows his own offer mapped to all five.
+
+**The plain wording** (inconsistent business · no real training or mentorship · paying for things that don't
+move the needle · no path past selling · doing it alone) is the workshop's and the plan's paraphrase; it is not
+in a transcript. **Mike's framing is canonical in this OS**: `attraction-offer` measures the value stack against
+Mike's five, labels each row with his wording, and may show the plain alias in parentheses. The mapping table
+lives in `attraction-doctrine.md` §7b; `offer.md`'s template table already carries it.
+
+| Mike (canonical) | Plain alias |
+|---|---|
+| Financial uncertainty | inconsistent business |
+| Lack of support, mentorship, training | no real training or mentorship |
+| Technology gaps | paying for things that don't move the needle |
+| Limited growth | no path past "sell more houses" |
+| Work-life balance (and recognition) | doing it alone |

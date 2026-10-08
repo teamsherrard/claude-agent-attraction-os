@@ -45,7 +45,7 @@ projecting a stock's future is "SEC-regulated" and "a facade" (`03-model-positio
   number labeled "(illustrative)", compliance-stamped, private-call only, never in content.
 - Mike's own figures are quoted as his, cited to the lesson, never implied as typical.
 - Where a piece must mention earnings at all (a private one-pager, a webinar slide the member insists on), the
-  income disclaimer from `compliance.md` is appended verbatim. Default wording when the brokerage has none:
+  income disclaimer from `compliance.md` is appended verbatim. **Default wording — replace with your brokerage's the moment you have it; `attraction-compliance` writes it into `compliance.md` labeled "default":**
   *"Results vary. Nothing here is a promise of income; any figures are illustrative examples, not typical
   results."* **Mike's own disclaimer wording is not in the vault — plan §9 item 4 asks for it.**
 

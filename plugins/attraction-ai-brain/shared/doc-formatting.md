@@ -13,27 +13,30 @@ automatically.
 2. Render it:
    `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Agent · City]"`
    → produces the house style: **Arial**, **pure-black** text, real **headings**, **bullet lists**, and
-   **tables**, thin light-grey rules. *(If `python-docx` is missing: `pip install python-docx`; if that's not
-   possible, build the same `.docx` with the **docx skill**, matching the look below.)*
+   **tables**, thin light-grey rules. *(If the script prints `RENDERER-UNAVAILABLE` — `python-docx` is not
+   installed — do exactly what it says: **install nothing, never run pip, never retry the command**; save the
+   same structured text as a `.md` file, upload THAT to the same folder, and tell the member in one plain line
+   that the styled version needs the renderer. Delivery never stops.)*
 **NEVER upload the raw structured text as the deliverable.** The structured text (CAPS bands, `────`
 rules, `Label:` lead-ins) is the RENDERER'S INPUT, not a document. If a Google Doc ever shows literal
 `════`/`────` dash lines as text, the raw input was uploaded instead of the rendered file — that is a
 FAILED delivery: re-render and upload the `.docx` (ONE corrective re-upload — if it happens again,
-stop and tell the agent instead of re-uploading in a loop). The fallback chain when rendering breaks is:
-`render_doc.py` → (`pip install python-docx`, ONCE) → the **docx skill** building the same styled look,
-ONCE → if that also fails, **STOP and tell the agent the renderer is unavailable** —
-**never** "just upload the text," and never retry installs in a loop. A plain-text wall is not an
-acceptable output at any step.
-**Build + verify (EVERY document):** build ONLY via `render_doc.py` (or the docx skill matching the same
-look) — never hand-write document XML. Before uploading, read the finished `.docx` text back and check:
+stop and tell the member instead of re-uploading in a loop). **The one sanctioned exception** is the renderer's
+own fallback: when `render_doc.py` exits with `RENDERER-UNAVAILABLE`, the structured text is saved as a `.md`
+FILE (a plain file, not a converted Google Doc) and uploaded with the one-line note — that is what the script
+instructs, and it is the whole fallback chain: `render_doc.py` → `.md` upload + the note → done. No
+`pip install`, no second renderer, no retry loop; a package install in a sandbox can block for many minutes
+and looks like a hang. A plain-text wall pasted into chat is still not an acceptable output at any step.
+**Build + verify (EVERY document):** build ONLY via `render_doc.py` — never hand-write document XML, never
+reach for another document tool when the renderer is unavailable (the `.md` fallback above is the path). Before uploading, read the finished `.docx` text back and check:
 (a) no raw `<w:` markup in the content — if you see any, the build is corrupt: rebuild; (b) **depth matches
 the deliverable — client-facing guides and the master AI Brain doc are FULL, multi-page documents that
 render the COMPLETE source content, never summaries.** Rich brain + thin render (a full brain under
 ~2,000 words) = a FAILED render — rebuild with the full content before uploading. Agents pay a premium
 for this system; the documents must feel like it.
-3. Upload the **`.docx`** to the agent's **workspace**, in the folder `shared/drive-map.md` assigns that
-   deliverable type (content → `03 · Content/…`, market → `05 · Market`, the master doc → `01 · AI Brain`;
-   **legacy brains** → the `Agent Attraction Brain → exports` folder). Confirm in plain words with the real
+3. Upload the **`.docx`** to the member's **workspace**, in the folder `shared/drive-map.md` assigns that
+   deliverable type (content → `03 · Content/…`;
+   the master doc and the scorecard → `01 · AI Brain`; offer documents → `05 · Offer`; prospect research → `04 · Agents/Prospects`). Confirm in plain words with the real
    location: *"Saved to your Drive → [workspace] → [folder] → [name]."*
 
 ## Naming
