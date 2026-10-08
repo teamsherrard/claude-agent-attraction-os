@@ -101,8 +101,8 @@ Write the real values in — never a `[` bracket token in the brief the member c
 write the Direction values and say "from your brand direction — the kit will replace these."
 
 ## Step 3 — Deliver, save, mark
-1. Deliver the brief in chat as one copyable block, then: *"Paste that into Claude Design with the Lead
-   Magnet Designer skill loaded, upload the two files it names, and it'll build the PDF and the mockup. When
+1. Deliver the brief in chat as one copyable block, then: *"Paste that into Claude Design with the
+   `ds-lead-magnet` skill loaded, upload the two files it names, and it'll build the PDF and the mockup. When
    it's done, say 'the PDF is done' and I'll mark it so your page can go live."*
 2. Save `Design Brief — [Guide Name]` into the campaign folder (output standard §6; fallback applies).
 3. **When the member confirms the PDF exists:** in `memory/magnets.md`, move the row's Status to `designed`
