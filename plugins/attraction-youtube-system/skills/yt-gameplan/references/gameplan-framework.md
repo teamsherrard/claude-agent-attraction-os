@@ -1,172 +1,129 @@
-# Game Plan Framework — Mike Sherrard's method, encoded
+# Game Plan Framework — Mike's attraction method, encoded
 
-This is the backbone of the YouTube Game Plan. It follows the structure Mike uses in his real client game
-plans. The deliverable reads like a premium coaching document: an honest audit, a clear strategy, exact
-titles, and a goal-backed plan. Substance + structure is what makes it feel worth the cohort price — not
-visual design.
+The backbone of the YouTube Game Plan. It reads like a premium coaching document: an honest audit, a clear
+positioning, the three categories in proportion, exact titles, and a goal-backed plan in conversations and calls.
+Substance and structure are what make it worth the cohort price — never visual design.
 
-**This framework IS the YouTube Doctrine made personal** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`).
-Anchor to **§22** (90-day plan + the exact 24-video mix), **§15** (content mix · 20/80 niche · small-market ·
-1-vs-2 channels), **§8** (the 6 content types), **§3** (S.E.A.R.C.H.), **§16** (titles). **Pillar
-reconciliation:** the 3 pillars below are the agent's thematic FOCUSES, *delivered through* the doctrine's
-six content TYPES (market update · home tour · relocation · community tour · map tour · local lifestyle); the
-90-day calendar follows the §22 spread across all six.
+**This framework is the attraction doctrine made personal** (`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`):
+§3 the three categories and the funnel · §4 Problem/Situation/Future · §5 interviews · §6 model breakdowns ·
+§7 the 8-video cycle · §9 titles · §13 the 180-day plan · §14 what to measure · §15 the cardinal rules.
 
 ---
 
-## The document structure (assemble in this order)
-
-**1. Title + stamp**
-```
-YOUTUBE GAME PLAN — [Agent Name], [City]
-Prepared on Mike Sherrard Coaching Inc frameworks  ·  [Month Year]
-Powered by Mike Sherrard Coaching Inc Frameworks
-```
-
-**2. Executive Summary** — the strategist's overview, in 4 beats:
-- **Where they are** — honest snapshot (subs, videos, what's working) — and the verdict. For an active
-  channel that underperforms: *"strong output, weak results — the problem isn't effort, it's strategic
-  misalignment."* For a fresh channel: *"you're starting with a clean slate and a clear plan — most agents
-  never get this far."*
-- **The root causes** (active channels) — the specific gaps (too short, titles not search-driven, no pillars).
-- **The insight** — *"your best content has always been [X]"* / *"the demand in your market is clearly [X]."*
-- **The plan in one line** — focus on **3 high-intent pillars** + the goal: *"…over 90 days, the foundation
-  for a channel that generates inbound leads on autopilot — and gets you to [their business goal]."*
-
-**3. Channel Audit** — see "The audit, scaled" below. Honest, data-driven; for active channels include a
-head-to-head **comparison vs a real local competitor** (subs · avg views · top video · length), pulled via
-the Outliers engine.
-
-**4. Your Goal → The Plan (the math)** — see "The goal-math" below. This is the confidence engine.
-
-**5. The Four Strategic Shifts** — the coaching layer (tailor the framing to their audit):
-- **Shift 1 — Video length 10–25 min, most land 10–20 (relocation talking-head 8–12 — §27.6).** The single biggest lever; watch time is what ranks. (Skip the
-  "increase" framing for a fresh channel — just set the standard.)
-- **Shift 2 — Titles built around search intent.** Every title answers something a real person types into
-  YouTube. The test: if you can type the title into the search bar and expect relevant results, it's good;
-  if it reads like a clever social caption, it won't rank.
-- **Shift 3 — CTA early (right after the hook — §6.1; ~0:30–1:00).** While viewership is highest: introduce, build
-  credibility, invite the action (their real CTA from the Brain). A softer CTA repeats at the end.
-- **Shift 4 — Organize into playlists.** One playlist per pillar — keeps viewers bingeing, lifts session time
-  and subscriber conversion.
-
-**6. The 3 Pillars** — for EACH pillar (see "Pillars" below):
-- *Why this pillar generates leads* (the lead psychology — who it attracts and why they convert).
-- The search-intent insight (what the audience actually types).
-- **15–20 exact titles** in a list: `# · Exact Title · Search Intent & Lead Type`, ordered broad→niche —
-  every title passing the **three hard gates** (SKILL Phase 3): the market IS in the title · every dollar
-  figure sourced from `market.md`/Research (cite it in the note) · the top of every ranked list varies its
-  angle (never two same-angle titles opening the gate).
-- A **named playlist**.
-
-**7. The Video Structure (doctrine §4)** — Hook (0:00–0:30, the viewer's question/fear, not "welcome back" —
-§5) → **Primary CTA** (0:30–1:00, the warm "people just like you" invite — §6.2) → Body (1:00–end, 10–25 min
-of real, local value; relocation 8–12 — §7, §27.6) → **Secondary CTA** (final 60s: book + the next best video — §6.5). Pull the
-canonical version from `${CLAUDE_PLUGIN_ROOT}/skills/yt-script/references/script-framework.md`; include
-one short example hook + CTA in the agent's voice. **The example CTA must be the exact §6.2 structure with
-the agent's REAL CTA from the Brain** (brief intro → "people just like you" → "your unique situation" →
-"avoid costly mistakes" → their actual booking link / lead magnet) — the same CTA the script skill will
-produce. Never a loose paraphrase or an invented style: if the plan's example and the shipped scripts
-disagree, the agent loses trust in both.
-
-**8. 90-Day Publishing Calendar** — a week-by-week table at their real cadence (doctrine §15.3: **2/week
-ideal · 1/week minimum · 3/week only if quality holds**), front-loading the broadest-reach titles first,
-concrete titles in each slot (drawn from §6). **Format: ONE VIDEO PER ROW** — `Week · Video 1 or 2 · the
-exact title · its content type` — so the weekly two-video rhythm reads at a glance (cohort feedback: the
-two-titles-crammed-per-line layout was confusing). **Use the doctrine §22 mix:** 2/week × 12 weeks = **24 videos**
-≈ **4 market updates · 5 relocation · 5 community tours · 3 map tours · 3 local lifestyle · 4 home tours**
-(adjust for inventory access, local demand, agent strengths, market size, and the agent's 3 focuses). At
-**1/week**, rotate the pillars in the §22.3 priority order (relocation/high-intent local → market update →
-community tour → map tour → local lifestyle/home tour). Schedule the **market update in the first week of each
-month** (§9.3). The 24 are spread across all six content types, weighted toward the 3 focuses — testing every
-type in the first 90 days is the point (§15.1).
-
-**9. Success Metrics** — a small table: Metric · What it measures · 90-day target. Frame every target as a
-**milestone toward the 12-month business goal** (Phase 4), not a random number. Sensible defaults — label
-them plainly as **coaching targets, not industry statistics**: avg view duration 40%+, CTR 4–8%, +50
-subs/mo, 2–5 leads or booked calls/mo, top-5 for local search terms.
-
-**10. Closing vision + footer** — one short, honest, motivating paragraph (*"stay consistent and here's where
-this puts you in 12 months"*), then the footer credit: `Powered by Mike Sherrard Coaching Inc Frameworks`.
+## The document structure (assemble in this order — the skeleton is in `shared/doc-format.md`)
+1. **Title + stamp** — `YOUTUBE GAME PLAN — [Name]` · known for · attracting · prepared · the stamp.
+2. **Read this first** — four beats: where the channel is and the verdict (active-but-not-attracting: *"strong
+   output, no agents — the problem isn't effort, it's that nobody can tell who this channel is for"*; fresh:
+   *"clean slate, clear plan — most leaders never get this far"*) · the insight · the plan in one line · the
+   90-day target in conversations and calls. Then **your next 7 days**: the first video (exact title), the
+   first interview to invite, the one channel fix.
+3. **Channel audit** — scaled (below). Positioning read included.
+4. **Your positioning** — for whom · known for · the one line ("[Name] helps [avatar] [outcome] through
+   [mechanism]" — from `offer.md`'s UVP when Week 2 built it; otherwise built from `strategy.md` + `avatars.md`
+   and labeled "draft until Week 2").
+5. **The three niche pillars** — Problem · Situation · Future, each named, each for a named avatar and pain,
+   each with a playlist and a one-line "why it builds authority."
+6. **The interview lane** — the playlist, 6–10 candidates with hook-and-transformation titles, source, sequenced
+   by relatability.
+7. **The model lane** — the playlist, the answer-what-they-research list, the comparison warning.
+8. **The title bank** — ~50 titles in five buckets with `FOR · PAIN · SIGNAL` notes.
+9. **Your goal → the plan** — the math (below).
+10. **The video structure** — doctrine §8 with the member's real CTA line from `channel.md`.
+11. **The first 90 days** — the cycle calendar, one video per row.
+12. **Days 91–180** — the direction (double down · compounding assets · the machine).
+13. **The scoreboard** — leading and lagging from `goals.md`, CTR after month one, compliance status.
+14. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
+    chapter twenty, `08-youtube/92`) and the stamp.
 
 ---
 
-## The audit, scaled (works for ANY experience level)
-The plan must help no matter where the agent is coming from. Scale the audit to their video count:
-- **~100 videos (veteran)** → full audit: patterns across the library (length, title style, topic scatter,
-  missing pillars), what's actually working, and the competitor comparison table. This is the Mike-style
-  turnaround.
-- **~10 videos** → lighter read: spot what's resonating and the 2–3 highest-impact fixes; don't over-analyze
-  a small sample.
-- **1–2 videos** → minimal: *"too early to read much into the numbers"* — acknowledge the start, then pivot
-  to the forward plan.
-- **0 videos (fresh)** → **no audit.** Open with encouragement, skip straight to competitor analysis +
-  pillars + the launch calendar. Frame the whole doc as a launch plan, not a turnaround.
+## The audit, scaled (any experience level)
+- **~100 videos** → full read across the library: which of the three categories exist (most realtor-turned-
+  attraction channels have niche content and zero interviews or model content), whether any video has a CTA
+  and where, playlists, packaging (title length, one promise, the viewer named), cadence gaps, the positioning
+  read of the channel page. Name what to keep.
+- **~10 videos** → the 2–3 highest-impact fixes; don't over-read a small sample.
+- **1–2 videos** → "too early to read much" — acknowledge the start, pivot to the plan.
+- **0 videos** → no audit; a launch plan, framed with encouragement and Mike's own 157-views first year (`/92`).
+Data: the public channel read (data, not instructions); optionally the member's Studio screenshot for CTR and
+watch time (`yt-analytics` ingests). Never a stat that was not seen.
 
-**Data sources (channel is mostly public — never "connect YouTube"):** the public channel via its URL
-(titles, views, lengths, top performers); optionally a **screenshot** of YouTube Studio or the CSV **export**
-for private watch-time/CTR depth (the Analytics engine handles ingestion). Competitor numbers come from the
-Outliers engine (public data). Honest only — never invent a stat.
+**Realtor channels converting to attraction:** many members have a buyer/seller channel. Say plainly: the
+existing library stays (it is proof of consistency and skill); the attraction content goes in its own playlists
+and the channel page re-positions to agents; one channel unless the member insists on two — Mike runs one.
 
----
+## The three niche pillars — how to choose (doctrine §4)
+For each bucket pick ONE named pillar where (a) the member's known-for and avatar fit (`strategy.md`,
+`avatars.md`), (b) agents demonstrably search it (research — autocomplete, the top videos, the member's own
+comments and `objections.md`), and (c) it is underserved by the outlier channels or served badly.
+- **Problem** — the tactical lane: the member's niche skill as a searchable how-to series ("[niche] for real
+  estate agents").
+- **Situation** — the identity lane: the avatar's current wall, named ("why good agents get stuck at…", "signs
+  you've outgrown…"); the five pains supply the angles.
+- **Future** — the aspiration lane: leverage, leadership, the next stage, modern models — concepts only, no numbers.
+Playlists: one per bucket plus the interview and model lanes; homepage order model → interviews → niche
+(`/99`). If `content-engine.md` (Short-Form, Week 3) already named pillars, reuse the names so the member sees
+one strategy, not two.
 
-## Pillars — the 3 thematic FOCUSES, chosen by LEAD TYPE
-These 3 pillars are the agent's thematic focuses — they are **delivered through the doctrine's six content
-TYPES** (§8: market update · home tour · relocation · community tour · map tour · local lifestyle), and the
-90-day calendar still spreads across all six per the §22 mix. Pick 3 focuses where (a) the agent's Brain shows
-niche/avatar fit, (b) there's real search demand (Research), and (c) competitors are already winning
-(Outliers). Each should attract a **specific motivated lead**:
-- **Relocation** — the highest-volume traffic driver for local agents; out-of-state buyers research for weeks.
-  *(Honest/"warning"-framed titles outperform here — e.g. "Avoid These 5 [City] Areas If You Want a Short
-  Commute" — always with the specific-lifestyle qualifier (§16.2), never a bare "avoid these areas," and
-  factual reasons only (§21.2). Embrace the honesty, keep the qualifier.)*
-- **Market Updates** — the best seller-lead format; homeowners thinking of selling binge these to time the
-  market. Translate data into decisions, never just read stats.
-- **A niche focus** — the agent's specialty (new construction, first-time buyers, probate/inherited,
-  downsizers, investors) — lower volume, highest lead intent.
-Give each a one-paragraph *"why this pillar generates leads."* Name a playlist per pillar.
+## The interview lane (doctrine §5)
+Sources in order: `memory/organization.md` (agents in the org with a result — first deal, cap, turnaround),
+`memory/top-50.md` (prospects with a story worth telling — an interview is also a relationship), `memory/ideas.md`
+tag `interview`, `proof.md` (agents already helped). Each candidate gets: the transformation (the title hook —
+"How [guest] [outcome] [constraint]"), the type, the pain their story answers, the avatar it will land with.
+Sequence by relatability across types and backgrounds. State the quarterly ask Mike uses (an email to the
+organization: "if you've hit any of these, book an interview") as the standing mechanism. Zero organization →
+agents the member has helped for free, upline winners labeled as the upline's, a peer with a unique method; the
+first interview is the machine's first deposit. Never a fabricated guest, result, or quote.
 
-**Honor the doctrine's content-mix rules (§15):** the first 90 days test all six content types before
-over-committing (§15.1); a **niche focus stays ~20% / broad searchable ~80%** in year one, +~20%/yr only if
-data supports it (§15.6); a **small market blends** its own content with the nearest larger market (§15.5);
-and it's **one channel unless the avatars are truly different** (§15.4). The 3 focuses guide the weighting of
-the §22 mix — they don't replace the six types.
+## The model lane (doctrine §6)
+Build from `brokerage-model.md` (the mechanics as the member's materials state them) and `shared/brokerage-models.md`
+in the Brain plugin; dated. Titles: "[Model] explained ([year])" · "Should you join [brokerage]? Who it's for"
+· "How [rev share / co-sponsorship / the cap] actually works — the concept" · "Before choosing a sponsor at
+[brokerage], ask these N questions" · "Do NOT join [brokerage] if…" · "[N] myths about [brokerage]" · fit by
+avatar. Public = mechanics, categories, fit, culture; private = every figure. One line of Mike's warning on
+comparisons (`/96`): he took his own down; not recommended; facts only if the member insists.
 
-## Exact titles — the method (not vague ideas)
-- **Search-intent first.** The title mirrors the exact words the audience types. The audience searches the
-  *problem* ("Can I sell a house in probate?"), not the service ("probate agent").
-- **15–20 per pillar**, ordered **broad → niche**: broadest/highest-search at the top to build views, most
-  specific/highest-intent lower (where the real leads are).
-- **Annotate each** with *Search Intent & Lead Type* (a one-line "who this captures + why").
-- **Use the formulas** in `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` (relocation / comparison /
-  price-point / "X vs Y" / "avoid these" / "cost of living" / "best time to buy") and the local angles from
-  Research + the winning patterns from Outliers.
-- **Sub-group long pillars** (e.g. relocation → General / Suburb-Specific / Audience-Specific).
-- **Compliance/Fair-Housing on EVERY title** (house rules #3): titles ship publicly. Keep them factual — no
-  "good area," "safe," or "family-friendly"-as-a-proxy framing. "Best Suburbs for Families" → reframe to a
-  fact-based angle ("[City] Suburbs With the Top-Rated Schools & Most Green Space"). Never steer.
+## The title bank — the method
+- **Formulas by number** (doctrine §9 / `shared/idea-templates.md`); one promise; ≤70 characters; the viewer
+  named ("real estate agent", the avatar type) when the search needs it.
+- **Per bucket:** Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 ≈ 50.
+- **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap]`.
+- **Order inside a bucket:** broad and searchable first, deeper and higher-intent later; vary the angle at the
+  top of every list (never two titles on the same angle opening a bucket).
+- **Hard gates (compliance, every title):** no compensation figures or earnings implied; no negative word about
+  a brokerage, sponsor, or person; former brokerage unnamed in Why I Switched; no protected-characteristic
+  targeting; "#1 / fastest-growing" only with a dated source; model titles carry the year.
+- **Thumbnail text** offered alongside a title: 3–5 words that differ from the title (`/97`).
 
-## The goal-math (the confidence engine — honest, never a guarantee)
-Reverse-engineer their **business goal** (`identity/strategy.md`) into the content plan so the videos
-visibly ladder up to the deal/income target:
+## The goal-math (conversations and calls — never income)
 ```
-Business goal (deals or income)
-  ÷ close rate            → qualified leads needed
-  ÷ lead-conversion rate  → views / reach needed
-  →                       → cadence + the pillars that produce those leads
-  broken into             → 90-day milestones they can actually hit
+90-day calls HELD target (goals.md / scorecard Targets)
+  ÷ booked→held show rate (member's own or a labeled default)      → calls BOOKED needed
+  ÷ conversations→calls ratio (goals.md)                            → CONVERSATIONS needed
+  × YouTube's share this quarter (member's split; default labeled,  → conversations FROM THE CHANNEL
+    rising across the 180 days as the library compounds)
+  ÷ videos in 90 days at their cadence                              → conversations PER VIDEO
 ```
-- **Use their real numbers** from the Brain (close rate, average deal value). If a number's missing, use a
-  **clearly-labelled, conservative assumption** the agent can adjust — never a hidden guess.
-- **Show the chain** so it's believable, then translate to milestones: *"That's ~X booked conversations a
-  month once you're consistent — your first 90 days get you to [milestone] on the way there."*
-- **Honest framing — NEVER a guarantee** (house rules #3 + #6). *"Here's how this is genuinely possible"* — not
-  *"you WILL make 20 deals."* Confidence comes from realistic math + small achievable milestones.
-- **Reframe vanity metrics:** subscribers only matter if they convert — always connect subs → leads → deals,
-  keeping their eye on the business goal.
+- Use the Brain's numbers; label every assumption the member did not state. If the per-video number looks
+  ambitious, say so and show the two levers: cadence and CTA placement — never "make more income."
+- Translate to the leading indicators they control (videos published, interviews recorded, both CTAs in every
+  video, comments answered, DMs started) and the lagging ones they watch (CTR 6–10% after month one, watch
+  time, inbound DMs, calls booked, agents partnered — from `goals.md`).
+- **Never** a dollar, rev-share, or stock figure anywhere in the plan. Subscribers are tracked, not targeted.
+- Mike's own results (`/92`) may be cited as his, with the lesson named — never implied as the member's.
+
+## The 90-day calendar (doctrine §7, §13)
+- At the member's cadence from the Brain (2/week → 3 cycles ≈ 24 videos; 1/week → 1.5 cycles ≈ 12). Interviews
+  may be batched (two recorded in one sitting, published on the plan).
+- Cycle order: niche first (the member before the guests), model mid-cycle, interviews spread; Why I Switched
+  early in cycle one when `journey.md` holds the story; the channel trailer in week one for a new channel.
+- One video per row: `Week · Video · exact title · bucket (· guest)`.
+- Days 91–180 as the direction only: which topics to cluster if they win · the evergreen model and
+  career-transition videos · the machine rhythm (1/week + 4–5 short-form + 1–2 interviews/month + weekly review).
 
 ## Tone + premium feel
-Honest, confident, encouraging, specific — a strategist who's done this 100 times, not a hype guru (matches
-Mike's calm-authority brand). Bespoke on every line (their market, communities, niche, goal). The premium
-feel is the depth + structure + the stamp — delivered as a clean, well-structured Google Doc per
-`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`. For a designed showpiece, hand a claude.ai/design prompt.
+Honest, confident, encouraging, specific — a strategist who has done this a hundred times, not a hype guru.
+Bespoke on every line (their avatar, their niche, their guests, their model). In the member's voice. Plain
+language in front of them — "the agents you attract," never "leads" or "recruits." The premium feel is depth +
+structure + the stamp, delivered as a clean doc. For a designed showpiece, the member takes the doc to Claude
+Design (words only from here).

@@ -73,8 +73,9 @@ Two or three reply variants only if the member asks.
 When the member says a reply went out, append a `memory/conversations.md` row (Channel = DM; "What they said"
 = their words, short; Pain = what surfaced; Next step; **Stage after** = `Conversation` on the first real
 exchange, `Call booked` only when the member confirms a booking landed). Admin installed → the column is the
-request; Admin absent → also the Board and Stage-moves-log rows in `memory/pipeline.md`, `Logged by:
-cv-dm-flow`. Push immediately. Never log what wasn't sent.
+request and the output ends with **STAGE MOVE REQUESTED: [Name]: [from] → [to]**; Admin absent → also the
+Board and Stage-moves-log rows in `memory/pipeline.md`, `Logged by: cv-dm-flow`, and that agent's Last touch ·
+Next move · Due cells on the Top-50 (the interim allowance in `shared/brain-contract.md`). Push immediately. Never log what wasn't sent.
 
 ## Rules
 - The member sends every reply. Nothing here posts, replies, or messages on its own.

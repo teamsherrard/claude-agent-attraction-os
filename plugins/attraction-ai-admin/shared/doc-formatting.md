@@ -1,9 +1,9 @@
 # Brain Doc Formatting — render deliverables as clean, formatted .docx
 
-How this plugin's skills save documents (call prep sheets, intel reports, the enrollment script, the opportunity one-pager, the 3-way pack, the Sales OPS kit) so
+How the Brain's skills save documents (offer guidebooks, market updates, listing kits, the welcome doc) so
 they're organized in Drive and genuinely look good. When a skill says "save as a clean doc (doc-formatting
 standard)," it means this. **Every deliverable is rendered to a formatted `.docx` in one neutral house style —
-the same clean look for every member (no colour, no per-member branding).**
+the same clean look for every client (no colour, no per-client branding).**
 
 ## How to save — render structured text to a styled `.docx`
 The skill writes the **structured text** (the grammar below: CAPS section dividers, `•` bullets, `Label:`
@@ -30,7 +30,7 @@ and looks like a hang. A plain-text wall pasted into chat is still not an accept
 **Build + verify (EVERY document):** build ONLY via `render_doc.py` — never hand-write document XML, never
 reach for another document tool when the renderer is unavailable (the `.md` fallback above is the path). Before uploading, read the finished `.docx` text back and check:
 (a) no raw `<w:` markup in the content — if you see any, the build is corrupt: rebuild; (b) **depth matches
-the deliverable — member-facing scripts and the master AI Brain doc are FULL, multi-page documents that
+the deliverable — client-facing guides and the master AI Brain doc are FULL, multi-page documents that
 render the COMPLETE source content, never summaries.** Rich brain + thin render (a full brain under
 ~2,000 words) = a FAILED render — rebuild with the full content before uploading. Agents pay a premium
 for this system; the documents must feel like it.
@@ -41,17 +41,17 @@ for this system; the documents must feel like it.
 
 ## Naming
 `[Deliverable] · [Subject] · [Date]` — Title Case, ISO dates. Examples:
-- `Call Prep · Sarah M. · 2026-12-09`
-- `Agent Intel · Sam R. · 2026-12-08`
-- `Enrollment Conversation Script · [Member Name] · 2026-12-10`
+- `Market Update · Calgary · 2026-06`
+- `Listing Kit · 123 Main St`
+- `Why Work With Me · [Agent Name]`
 
-## The look the renderer produces (one neutral standard for every member)
+## The look the renderer produces (one neutral standard for every client)
 - **Arial** everywhere (never a serif). **Pure black** titles / headings / body; **dark grey** only for the
   small byline / footnotes.
 - Section headings: bold black + a thin light-grey underline. **Real** bullet lists. **Real** tables
-  (near-black header row, white text, light alternating rows). **No colour, no member branding.**
-- These are clean working documents. For a *visually designed* prospect-facing piece (e.g. the opportunity one-pager),
-  produce the clean copy here and the member takes it to the Design Studio (`ds-offer-assets`) — branding lives there.
+  (near-black header row, white text, light alternating rows). **No colour, no client branding.**
+- These are clean working documents. For a *visually designed* client-facing piece (e.g. a lead-magnet PDF),
+  produce the clean copy here and the agent drops it into their design tool — branding lives there.
 
 ## The structured text the renderer reads (write the doc in this grammar)
 - **Title line** at the top; a light **meta line** under it (agent · city · date); then a blank line.
@@ -67,7 +67,7 @@ for this system; the documents must feel like it.
   rows). Use for anything tabular: KPI dashboards, brand colours + roles, avatar-at-a-glance, money math.
 - Plain structured text in the body (no Markdown `#`/`**`/backticks) — the renderer applies the formatting.
 
-**BOOK MODE (long deliverables — the Business Brain Book).** The renderer switches into book mode when
+**BOOK MODE (long deliverables — the Agent Attraction Brain Book).** The renderer switches into book mode when
 the input contains a `[[TOC]]` block (or `--book` is passed); everything below is inert in normal docs,
 which render exactly as before:
 - **Cover page** — the title block becomes page 1 (title, eyebrow, byline, date), then a page break.

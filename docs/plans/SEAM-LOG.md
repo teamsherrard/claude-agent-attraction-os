@@ -12,6 +12,12 @@ Running list. Each line: what · where · status.
 - Config registry adds: `Weekly Content Performance task` (sf-analytics), `Call Block Prep task` (cv-call-prep), `Cold-Lead Reactivation task` (cv-reactivation), `Daily Follow-Up Queue task`, `Weekly CEO Review task`, `Monthly KPI Review task`, `Team Wins Newsletter task` (admin), `AI Admin` stamp · OPEN
 - Pillar vocabulary locked OS-wide: Authority · Perspective · Story · Proof · Personality; YouTube buckets map onto them · DONE in Brain doctrine/template; verify SF + YT files
 
+## Rulings made by the coordinator (apply in the final pass)
+- `memory/top-50.md`: owner `attraction-top-50`; designated appenders for the touch columns (Last touch · Next move · Due): `attraction-capture`, `cv-conversation-starter`, `cv-debrief`, `cv-follow-up`; `attraction-debrief` REQUESTS only. Fix the Brain's brain-contract.md vs the top-50 template inconsistency to this ruling · OPEN
+- Stage-move request shape (Conversion → Admin): `conversations.md` row column `Stage after` + a `STAGE MOVE REQUESTED` line; `admin-pipeline` is the sole writer of `pipeline.md` once the Admin exists · DONE (told Agent L)
+- Intel reports: dated filenames `YYYY-MM-DD-[agent].md` per the template; newest wins · DONE
+- Conversion DECISION NEEDED (doctrine §3) for Mike: step-5 label (Questions / Questions & Objections / Resolve Concerns), default call length (60 until mastered then 30), objection framework label (Listen → Validate → Reframe → Invite, the six-step version folded inside) · WAITING
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 

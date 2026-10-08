@@ -1,51 +1,46 @@
-# Topic Guide — Talking-Head Topics (the 80/20 rule)
+# Topic Guide — Attraction Reel topics (by pillar, balanced from the log)
 
-Talking-head value content is how the agent builds reach AND authority. The mix that works:
+A talking-head Reel speaks to **one agent** about **one problem** from **one pillar**. The list you hand the member
+is built from their Brain, not from a generic bank. Doctrine: `shared/mike-frameworks.md` §5–§6, §9b.
 
-## The 80/20 rule
-- **~80% broad / wide-reaching** — topics almost anyone in the city cares about. This is the reach engine:
-  it gets in front of new people who don't know they need an agent yet.
-  - Examples: "Should you buy now or wait in [city]?", "3 mistakes first-time buyers make", "How much
-    home you can actually afford at today's rates", "Is [city] a buyer's or seller's market right now?",
-    "The hidden costs of buying nobody warns you about", "Why your home isn't selling".
-- **~20% niche-focused** — topics aimed squarely at the agent's specialty. Fewer viewers, but the *right*
-  ones — these convert.
-  - Examples (depends on their niche): relocation ("Moving to [city] from out of province? Start here"),
-    luxury ("What $2M actually buys you in [area]"), first-time buyers, investors, downsizers, a specific
-    community they own.
+## Where topics come from (in this order)
+1. **The member's own ideas** — `memory/ideas.md` rows tagged `shortform` / `story` (Mike: at least half your
+   ideas should be yours — `07-instagram/90`). Always first; mark `used` once scripted.
+2. **The pillar they're light on** — count this month's `memory/content-log.md` rows by Pillar against the weekly
+   mix in `publishing.md` (default 2 attraction · 2 authority · 1 story). Fill the gap first.
+3. **What agents asked them** — `memory/objections.md` (an objection heard is a Perspective or Authority Reel) and
+   the avatar's "biggest problem in their words" (`avatars.md`).
+4. **The pillar file** — `identity/content-pillars.md`: the topic seeds, the takes, the story hooks, the wins.
+5. **A story due a telling** — `story-bank.md` stories with an empty `Used-where`.
 
-Across a batch, keep roughly 4 broad : 1 niche. Don't flip it — too much niche kills reach.
+## The pillars as topic engines
+| Pillar | The topic is… | Shape of a strong one |
+|---|---|---|
+| **Authority** (teach) | one tactical piece of the niche an agent can use today — "the tip of the iceberg" (`07/88`) | "The 3-line text that gets open-house buyers to reply" · "What I do the morning after a listing appointment" |
+| **Perspective** (take) | a belief the member holds that the avatar needs to hear; a myth busted; a question answered; a future-focus take | "You don't need paid leads. You need a routine." · "The real reason agents reset to zero every January" |
+| **Story** | one beat of the journey with a point — the wall, the turning point, the mistake and the lesson | "The year I almost quit — and the one thing that changed" (brokerage never named) |
+| **Proof** | something that happened in the member's world — an agent's win (with consent), the weekly call, new training, an event | "Priya had zero deals for 8 months. Here's what she changed in 30 days." · "What our Tuesday call looked like this week" |
+| **Personality** | a passion, a routine, a family moment, a discipline — the person behind the business | "Why I still run at 5am after 12 years in real estate" · "My dad's reaction to the trip we finally took" |
 
-## Mike's best-performing content types (pull from these)
-Beyond market takes, these consistently perform (`${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`) —
-weave them into the list:
-- **Personal stories** about the agent · **passions / hobbies** (blends personal + business → know-like-trust)
-- **Client success told as their journey** — the client's story, NOT "sold!" / "congrats to my buyer"
-- **Home tours** — great reach + easy engagement
-- **"Things to do in [city] this week"** — pulls in locals, not just other agents
-- (Green-screen local-news / top-list reactions live in the daily green-screen workflow.)
-
-**Small market?** Cover local AND name the closest well-known big market nearby to borrow its search
-traffic. **Niche?** Cover the niche + broad content so new people find them.
+**Brokerage and opportunity content is woven through, never the feed.** A topic about "our cap / our stock /
+our split" is rewritten as the agent's problem it solves ("everything resets January 1st") and the mechanics are
+left for the call. Compensation never appears in a Reel.
 
 ## What makes a strong topic
-- **Local or niche-specific** — names the city/community or speaks to the agent's exact avatar. If a random
-  agent in another city could post the same thing word-for-word, it's too generic — sharpen it.
-- **Answers a real question** the avatar is actually Googling or asking at the kitchen table.
-- **Has a clear angle** — a point of view, a myth to bust, a number, a "here's what most people get wrong."
-- **Ladders up to a content pillar** (`content-engine.md`) — so the agent stays known for their themes.
-- **Filmable in ~45–60 seconds** (Mike's real-estate sweet spot) — one idea per video, not a lecture.
-
-## Funnel role (kept silent — Mike's 4-3-2-1, for balance)
-Tag each topic internally so the batch stays balanced (`${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`) —
-and when a post is logged, persist the tag in its `content-log.md` row (the `· [funnel: …]` tag in the
-Topic/Angle cell) so the balance survives across sessions:
-- **Reach / awareness (40%)** — broad questions, market takes, money tips, relatable POVs (most of the 80%)
-- **Value / education (30%)** — teaching something specific: tips, how-tos, mistakes to avoid, myth-busting
-- **Trust / connection (20%)** — personal lessons, "what I tell my clients," client stories, behind-the-scenes
-- **Conversion (10%)** — the occasional direct "here's how I can help / grab my guide" (~1 in 10)
+- **One agent, one problem.** Names the avatar's stage and their frustration in their words (`avatars.md`). If
+  any leader in any market could post it word for word, sharpen it until only this member could.
+- **Carries something real:** a story from the bank, a win with consent, a routine they actually keep, a number
+  with a source. Nothing invented — mark where the member fills a detail.
+- **Has a clear angle** — a take, a mistake, a myth, "here's what nobody tells new agents."
+- **Fits 30–60 seconds** — one idea per Reel; three big points are three Reels.
+- **Ends on a rung** (`mike-frameworks.md` §8): Follow / save / share for Perspective and Personality; the
+  keyword (Comment / DM) for Authority and Proof; Story can end on "DM me 'call'" if it's the why-join-me beat.
+  The call is never the ask to a cold viewer.
+- **Obeys the cardinal rules** — never a negative word about another brokerage or person; former brokerages
+  unnamed.
 
 ## How to present them
-Rank by strength. Show a simple list — title + one-line hook + a one-line "why this is strong for you."
-Note which are broad vs aimed at their niche, in plain words. Let the agent pick the numbers they want to
-film. Don't over-explain the 80/20 mechanics to them — just hand them good topics.
+Rank by strength. Simple list — hook · pillar · for whom · what it carries · rung · one line of why this is
+strong for them. Note in plain words which pillar you leaned on and why ("you've posted four teaching Reels and
+no proof this month"). Let the member pick the numbers. Don't explain the mechanics; hand them good topics.
+If they're unsure, choose the top three and offer to script them now.

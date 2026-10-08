@@ -1,206 +1,165 @@
 ---
 name: yt-gameplan
 description: >
-  The flagship FIRST deliverable of the Realtor YouTube System — a complete, personalized YouTube Game Plan
-  built on Mike Sherrard's frameworks. It audits the agent's existing channel (scaled to however many videos
-  they have — 100, 10, 2, or none), picks 3 high-intent content pillars for their market, generates exact
-  search-optimized video titles per pillar, reverse-engineers their business goal into a content plan, and
-  lays out a 90-day calendar + success metrics — assembled into one premium Google Doc stamped "Powered by
-  Mike Sherrard Coaching Inc Frameworks." Runs automatically at the end of setup, or on demand.
-
-  Triggers on "build my game plan", "my youtube game plan", "my youtube strategy", "my channel plan", "map my
-  channel", "what's my youtube plan", "refresh my game plan", "give me my youtube strategy", or right after
-  setup as the first thing the agent receives.
+  The flagship first deliverable of the Agent Attraction YouTube System — the member's YouTube Game Plan for
+  attracting agents, built on Mike Sherrard's three categories (niche authority · interviews · model/opportunity)
+  and the 8-video cycle (3 niche · 1 model breakdown · 4 interviews). Audits the channel at whatever size it is,
+  sets the three niche pillars from Problem · Situation · Future, builds the interview guest lane from the
+  organization and the Top-50, the model lane that answers what agents already research, ~50 exact titles
+  bucketed, the goal-math from the Brain's goals in conversations and calls per video (never income), the first
+  90 days on the cycle, the 180-day direction — rendered to one premium doc in the member's workspace. Runs at
+  the end of setup or on demand. Demo mode for training. Triggers on "build my attraction game plan", "my
+  YouTube game plan for agents", "my channel plan for agents", "my attraction YouTube strategy", "refresh my
+  attraction game plan", "map my channel for agents", "180-day YouTube plan".
 ---
 
 # YouTube Game Plan — the flagship first deliverable
 
-This is the **wow.** The first thing the agent gets after setup: a complete, bespoke YouTube strategy that
-makes them feel *"this thing just handed me my entire channel plan, built around my market."* It is built on
-**Mike Sherrard's frameworks** and carries his stamp — something a realtor could never get by prompting
-Claude themselves, because it fuses Mike's method with THEIR Brain + THEIR channel data.
+The **wow**: the first thing the member gets after setup — their whole attraction channel mapped, built from
+Mike's method × their Brain × their real channel. It makes them feel *"this just handed me my channel, built
+around the agents I actually want."* Substance and structure, delivered as a clean doc — never visual design.
 
-**Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — especially the credibility stamp (#9),
-compliance/Fair-Housing on titles (#3), honest-no-guarantees (#6), and the clean-doc format (#4).
+Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — the doctrine (#1), the Brain first (#2), 3-state
+compliance (#3), plain talk (#4), sourcing (#6), docs (#7), the stamp (#9), demo mode (#12). The Brain Contract:
+`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (this skill writes only the `## Game Plan anchors` block of
+`identity/channel.md` and seeds `memory/interview-pipeline.md` at Status `Idea`).
 
-**Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`) — the flagship strategy
-doc IS the doctrine made personal. Lean on **§22** (the 90-day launch plan + the exact 24-video mix), **§15**
-(content mix · 20/80 niche · small-market blend · one channel unless avatars truly differ), **§8** (the 6
-content pillars), **§3** (S.E.A.R.C.H.), and **§16** (titles). **Pillar reconciliation:** the agent's 3
-chosen pillars are their thematic FOCUSES — they are *delivered through* the doctrine's 6 content types
-(market update · home tour · relocation · community tour · map tour · local lifestyle), and the 90-day mix
-follows §22. Prefer the doctrine's terminology and the §22 mix.
-
-> **The "why not just do it myself" moat:** Mike's frameworks × their Brain (offer, market, avatars, goals) ×
-> their real channel data. The premium feel comes from **substance + structure**, delivered as a clean,
-> well-structured Google Doc — never visual design. (For a designed PDF, hand a claude.ai/design prompt.)
+**Lazy-load:** `references/gameplan-framework.md` at Step 2 (the backbone). Doctrine sections only when the
+phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phase 5), §9 (Phase 6), §13–§14
+(Phases 7–9). Never the whole doctrine up front.
 
 ---
 
-## Step 1 — Load the Brain + the YouTube Layer
-Read `~/attraction-brain/brain.md`, then:
-- `identity/profile.md` — name, brokerage, market/city, niche.
-- `identity/market.md` — communities, price bands, local specifics (the pillars + titles are full of these).
-- `identity/avatars.md` — who they serve + the fears/questions they search (pillars are chosen by lead type).
-- `identity/offer.md` — offer, USP, CTA, booking link, lead magnets (the plan's conversion path).
-- `identity/proof.md` — real wins/results (credibility in the plan; never invented).
-- `identity/voice.md` (+ `voice-samples.md`) — write the whole plan in their voice.
-- **`identity/strategy.md` + `identity/business-plan.md` — their BUSINESS goals + the 90-day plan.** The
-  Brain's business plan (built at Brain Setup Phase 8) already holds their target, the deals-math, and their
-  3 weekly activities — this anchors the goal-math (Phase 4). If both are empty, ask once for their goal and
-  write it back to the Brain.
-- `identity/compliance.md` — disclaimers + claims rules (titles ship publicly).
-- **The YouTube Layer** (`Setup/`) — channel URL + status, plus the plan anchors (the 12-month YouTube
-  target, cadence, pillars + playlists) if a prior Game Plan set them. Competitors come from the Brain +
-  the Outlier engine (Step 2), and CTAs are generated live from the Brain's offer (doctrine §6, §26).
+## Step 1 — Load the Brain and the channel (read; never re-ask)
+Read `~/attraction-brain/brain.md` (pull first via `attraction-brain-sync` if missing), then only:
+- `identity/profile.md` · `strategy.md` (known for, priorities) · `avatars.md` (the 1–3 types they attract,
+  their pains, their triggers — every pillar and title is for a named avatar)
+- `identity/offer.md` (the resource and the offer; `Status: seeds` → "Week 2 builds the offer"; never demand it)
+- `identity/journey.md` (the Why I Switched material; former brokerage never named) · `story-bank.md` ·
+  `proof.md` (real wins only)
+- `identity/brokerage-model.md` (the model lane; empty = "say 'explain my model to me' and the model lane
+  deepens") · `prospect-intel.md` (where agents gather, movement — if researched)
+- **`identity/goals.md` + `memory/scorecard.md` Targets block** — the 90-day conversations and calls-held
+  targets and the ratios. This anchors Phase 7. If goals are `seeds`, use the seed numbers and label them;
+  if empty, ask ONCE for the one number ("how many agent conversations a week feels real?") and say
+  `attraction-goals` saves it for everything else.
+- `identity/compliance.md` (3-state — Step 1b) · `voice.md` (write the plan in their voice) ·
+  `content-engine.md` / `content-pillars.md` (the Short-Form pillars and cadence, if Week 3 ran)
+- `identity/channel.md` (channel URL, status, baseline, the kit's playlists) · `memory/content-log.md`
+  (what already exists) · `memory/ideas.md` (tag `youtube`, `interview` — the member's own ideas first) ·
+  `memory/organization.md` + `memory/top-50.md` (the interview guest lane) · `memory/objections.md` (the
+  Situation and Model titles answer these) · `memory/intel.md` (dated brokerage news for the model lane)
 
-**Read the Brain; never re-ask what it knows** (house rules). If `~/attraction-brain/` is missing → Brain Setup.
+**Step 1b — compliance, 3-state.** The Game Plan is the member's private strategy doc, so it builds in every
+state — but **unset** means the titles cannot ship: say so once, list it on the plan's Scoreboard line, and
+route to `attraction-compliance` after delivery. Set / confirmed → apply the cardinal rules and the
+no-compensation rule to every title now.
 
-## Step 2 — Read the framework + line up the engines
-- `references/gameplan-framework.md` — **the backbone** (Mike's structure, the audit-scaling, pillar logic,
-  the exact-title method, the goal-math, the 90-day calendar + metrics, the stamp).
-- This skill **orchestrates the existing engines** — don't reinvent them:
-  - Audit → `${CLAUDE_PLUGIN_ROOT}/skills/yt-analytics/SKILL.md` (their channel/CSV/screenshot read)
-  - Competitor analysis → `${CLAUDE_PLUGIN_ROOT}/skills/yt-outliers/SKILL.md`
-  - Search/market signals → `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`
-  - Pillars + exact titles → `${CLAUDE_PLUGIN_ROOT}/skills/yt-ideation/references/idea-method.md` + `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md`
-  - The video structure (doctrine §4) → `${CLAUDE_PLUGIN_ROOT}/skills/yt-script/references/script-framework.md`
+**Demo mode** (house rules #12): a fictional member → no live research, every number "(illustrative — demo)",
+fictional guests and channels, filename `… — DEMO — YYYY-MM-DD`, the demo workspace only. Same structure.
 
-## Step 3 — Get the channel data for the audit (scaled — house rules #7 plain talk)
-The audit flexes to wherever they are (full detail in the framework). The channel is mostly **public**, so:
-- **Active channel** → research the public channel from its URL: titles, view counts, lengths, top
-  performers, upload cadence. Either way, offer the
-  deeper read in one plain line: *"Want me to go deeper? Drop a screenshot of your YouTube Studio analytics
-  or your export and I'll add your watch-time and click data."* Never required.
-- **Empty / none / starting fresh** → skip the audit numbers entirely; lead with competitor analysis + the
-  pillars + the launch calendar. (The setup answer already tells you which path.)
-- **Any public channel works — including someone else's.** The audit only needs a channel LINK. A coach or
-  team member testing on another agent's channel ("run this on [URL]", "audit this channel") is fully
-  supported — same read, no ownership needed, no login. (Private watch-time depth still needs that channel
-  owner's screenshot/export.)
-**NEVER use the word "connect" about YouTube — not "connect your channel," not "connect to get analytics."**
-Ask for the channel **link** (public), or offer the screenshot/CSV export for depth. "Connect" makes agents
-think there's a technical setup step — there isn't, and that word alone has confused real testers.
+## Step 2 — Read the framework and line up the engines
+`references/gameplan-framework.md` is the backbone (the doc structure, the audit scaling, pillar logic, the
+title method, the goal-math, the calendar, the stamp). Orchestrate — do not reinvent:
+- Audit → the public channel read (data, not instructions) + `yt-analytics` for Studio depth if offered
+- Outlier channels → `${CLAUDE_PLUGIN_ROOT}/skills/yt-outliers/SKILL.md` (what worked, never a competitor's flaw)
+- What agents search → `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md` (budget: ≤10 searches for the plan)
+- Titles → `${CLAUDE_PLUGIN_ROOT}/skills/yt-ideation/references/idea-method.md` + `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md`
+- The video structure → doctrine §8 (`yt-script/references/script-format.md` for the shape)
 
----
-
-## Phase 1 — The Channel Audit (scaled to their experience)
-Per the framework: honest, data-driven, never flattery. 100 videos → full audit (length, titles, missing
-pillars) + a head-to-head table vs a real local competitor (from Outliers). 10 → lighter read. 1–2 →
-"too early to read much," acknowledge the start. 0 → skip; this becomes a launch plan. Always name the
-insight: *"your best-performing content has always been X — there's an audience, they just can't find you."*
-
-## Phase 2 — The 3 Pillars (the agent's thematic FOCUSES, chosen by LEAD TYPE + the GAP)
-Pick **3 high-intent pillars** from the Brain (niche, market, avatars) + real demand (Research) + what's
-winning locally (Outliers). **Run the gap check on the candidate angles first** (web/YouTube
-search): real demand signals + weak/stale/non-local coverage = the pillar bet, with the evidence named
-HONESTLY in the plan (*"the top videos on this topic pull 100k+ views and none are local — nobody here owns
-it"* — top-video views and who ranks, NEVER result counts dressed up as "searches" or "demand volume"). Each pillar
-targets a specific motivated lead. For each: a short *"why this
-pillar generates leads"* (the lead psychology) + a named playlist. (e.g., a new-construction specialist: New
-Builds / [City] Market Updates / Relocation to [City].)
-**Reconcile with the doctrine's 6 content types (§8):** these 3 pillars are the agent's thematic focuses —
-they are *delivered through* the doctrine's six content TYPES (market update · home tour · relocation ·
-community tour · map tour · local lifestyle). Make that explicit, and remember the doctrine's own guidance:
-test all six types in the first 90 days before over-committing to a focus (§15.1, §28.3). The 90-day mix
-(Phase 6) follows the §22 spread across all six types, weighted toward the agent's 3 focuses.
-
-## Phase 3 — Exact Video Titles per pillar (the gold)
-For each pillar, generate **15–20 EXACT, search-optimized titles** (not vague ideas), each annotated with
-**Search Intent & Lead Type**, ordered **broad → niche** (highest search volume → highest lead intent). Use
-real search language (the "type it into YouTube" test) + the idea-templates + competitor outlier patterns —
-grounded in what people demonstrably search in their market, what ranks, and where the coverage gaps are.
-**Four hard gates on every title + ranked list (cohort feedback — these shipped wrong once):**
-0. **One promise, ≤70 characters.** A title is ONE search query answered — never two ideas stapled with a
-   colon, never a list of neighbourhoods + features + audiences in one line ("Hill Country Living Without
-   the Long Drive: A Belterra & Travisso Trails, Views & Top-Schools Tour" = FAIL; "Living in Belterra:
-   Austin's Hill Country Without the Commute" = pass). If it can't be typed into a search bar, cut it.
-1. **The market IS in the title.** Every title names their city/community ("…in Austin", "Austin vs …",
-   "[Community] …"). A title that could run on any city's channel — e.g. "Do You Even Need a Realtor if the
-   Builder Has One?" — FAILS; rewrite it local ("…When Buying a New Build in Austin?"). §16: local specificity
-   is the principle; here it's a gate.
-2. **Every dollar figure is REAL.** A price point in a title ($900K, $500K…) comes from the Brain's
-   `market.md` price bands or live sourced data (Research) — cite where it came from in the Search-Intent
-   note. Can't verify it? Use their real band or ask — never an invented number.
-3. **Vary the angle at the top.** In any ranked list, never open with two titles on the same angle/avatar
-   (two California-relocation titles back-to-back = one avatar hogging the gate). Spread the first 3–5 across
-   distinct angles/lead types; depth on one angle lives further down the pillar list.
-**Run every title through compliance/Fair-Housing** (house rules #3) — no "best suburbs for families"-style
-proxies; keep them factual and safe, since titles ship publicly.
-**Thumbnail text alignment:** any thumbnail text offered with a title is written to actually FIT the §17
-layout for that pillar (3–5 words beside a ~33% headshot; home tours = the home photo) — and say plainly that
-they build it in their thumbnail/design tool from that exact text, so the plan and the real thumbnail match.
-
-## Phase 4 — Your Goal → The Plan (the math that builds confidence)
-Reverse-engineer their **business goal** into the content plan, per the framework: `goal (deals/income) ÷
-close rate → leads needed ÷ conversion → views/reach → cadence + pillars → 90-day milestones.` **If the
-Brain's `business-plan.md` exists, START from its numbers** — the target and deals-math are already done and
-agent-confirmed there; this section shows YouTube's share of THAT plan (never a second, disagreeing math).
-Only derive from scratch when no business plan exists (then from `strategy.md`, or ask once). Show the
-numbers, **state the assumptions**, and frame it as a **credible path — NEVER a guarantee** (house rules
-#3 + #6). Reframe gently: subscribers are a vanity metric unless they convert — tie
-subs → leads → deals. This is the section that makes them believe *"this is genuinely possible."*
-
-## Phase 5 — The Strategic Shifts + Video Structure + Playlists
-- The **strategic shifts** (tailored to their audit, from the doctrine): length (10–25 min, most land 10–20;
-  relocation 8–12, §27.6), search-intent titles (§16), the **primary CTA placed early** (right after the hook — §6.1; in practice ~0:30–1:00), playlists per
-  pillar (§15.1, S.E.A.R.C.H. "C").
-- The **video structure** (doctrine §4): **Hook → Primary CTA → Body → Secondary CTA + next-video** — from
-  `script-framework.md`, with their real CTA from the Brain (a private call OR a lead magnet — not hardcoded).
-- The named **playlists** (one per pillar focus).
-
-## Phase 6 — 90-Day Calendar + Success Metrics
-- A **90-day publishing calendar** at their real cadence (doctrine §15.3: **2/week ideal · 1/week minimum ·
-  3/week only if quality holds**), week by week, front-loading the broadest titles. **Follow the §22 mix:** at
-  2/week for 12 weeks = **24 videos** ≈ 4 market updates · 5 relocation · 5 community tours · 3 map tours ·
-  3 local lifestyle · 4 home tours (adjust for inventory access, local demand, market size, and the agent's
-  3 focuses). **If 1/week**, rotate through the pillars (§22.3 priority: relocation/high-intent local → market
-  update → community tour → map tour → local lifestyle/home tour) rather than getting stuck in one type.
-  Record the **market update in the first week of each month** (§9.3, §22.5).
-- A **success-metrics** block with 90-day targets (view duration, CTR, subs, leads/bookings, ranking) framed
-  as **milestones toward their 12-month goal** — not random numbers.
-
-## Phase 7 — Assemble, deliver, save, hand off
-1. **Assemble the Game Plan** into one premium Google Doc following the **Game Plan skeleton** in
-   `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` — Mike's structure, clean bands, the **credibility stamp**
-   (byline under the title + footer credit, house rules #9).
-2. **Compliance pass** (house rules #3): every title + claim Fair-Housing-safe, disclaimers where needed,
-   no guarantees.
-3. **Deliver in chat** — a warm, plain-language summary (not the whole doc): *"Here's your YouTube Game Plan
-   — your 3 pillars, ~50 ready-to-film titles, and the 90-day plan to hit [their goal]. It's in your Drive."*
-4. **Save to Drive** at the workspace root as **`YouTube Game Plan — [Agent]`** (workspace per
-   `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`, formatted as the Game Plan
-   skeleton in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`) so it's the first thing they see. Confirm the
-   location plainly. **Then
-   make it the operating strategy (house rules #10):** write the plan's anchors — the **3 pillars + playlists,
-   the goal, and the cadence** — into the **YouTube Layer** (`Setup/`), so every other skill (ideation,
-   research, scripts, the calendar, the coach) reads them and stays aligned. The full Doc holds the title
-   backlog + 90-day calendar; skills open it for that detail.
-5. **Optional premium PDF** — offer a ready-to-paste **claude.ai/design** prompt to turn it into a designed
-   showpiece (brand colours/fonts from `brand-visual.md`). Words only — never a render.
-6. **Offer the Content Dashboard (premium moment — but check the Brain first):** read the `Content board:`
-   line in the Brain's `publishing.md`. A URL → the board exists — and if this is a **refresh** of an earlier
-   Game Plan, offer the reconcile: *"want me to update your board to the new plan?"* (→ `yt-board`
-   "update my board": swaps the seeded window to the new plan's titles, keeps everything the agent touched).
-   Says `declined` → skip the offer entirely. No line → offer ONCE: *"Want this as a live content board in
-   your Notion? Your next two weeks of videos go on it with filming dates, it refills itself as you publish,
-   and each card fills up with the script, SEO, and lead magnet as we make it."* Yes → `yt-board`; no →
-   record `declined [date]` in the Brain and never re-offer. If Notion isn't connected, the board skill
-   handles the plain-words walkthrough — never block on it.
-7. **Hand off:** *"Pick any title from Pillar 1 and say 'make this video' — I'll script it, SEO it, and the
-   rest."*
+## Step 3 — Channel data for the audit (plain talk — never "connect")
+- **Active channel** → read the public page from `channel.md`'s URL: titles, views, lengths, cadence, playlists,
+  about text, whether a CTA exists. Offer depth once: *"want me to go deeper? Drop a screenshot of your Studio
+  analytics and I'll add click-through and watch time."* Never required.
+- **Empty / none** → skip the numbers; this is a launch plan, not a turnaround.
+- Any public channel link works (a coach testing on a member's channel) — same read, no login.
 
 ---
+
+## Phase 1 — The audit (scaled; honest, never flattery)
+Per the framework: 100 videos → full read (which of the three categories are present, which absent; CTA
+present; playlists; packaging); 10 → the 2–3 highest-impact fixes; 1–2 → "too early to read"; 0 → skip. Always
+name the insight in attraction terms: *"your best videos have always been the ones where you teach [niche] —
+there's an audience of agents, they just don't know you'll help them."* The positioning read: can a first-time
+visitor tell who this channel is for and why to reach out?
+
+## Phase 2 — The three categories and the cycle (doctrine §3, §7)
+State the funnel in the member's terms: niche content creates authority → interviews create proof → model
+content captures intent → the CTA creates conversations → the Partner Call. Lock the ratio: **3 niche · 1 model
+· 4 interviews per 8 videos**, at their cadence from the Brain (default: the doctrine's 2/week recommendation
+if they said "you pick"; 1/week floor). Say why not every video is brokerage content.
+
+## Phase 3 — The three niche pillars: Problem · Situation · Future (doctrine §4)
+From the Brain (avatars, pains, known-for, objections) + what agents search (research) + what won elsewhere
+(outliers), set **one named pillar per bucket**, each for a named avatar, each tied to one of Mike's five pains,
+each with a playlist name and a one-line *"why this builds authority."* Future-pillar content speaks to leverage
+and the next stage **without numbers**.
+
+## Phase 4 — The interview lane (doctrine §5)
+From `organization.md` and `top-50.md` (plus the member's `ideas.md` tag `interview`): 6–10 candidate guests
+with the **hook-and-transformation title** each ("How [guest] built … while …"), sequenced for relatability
+across types (new agent · experienced · top producer · team leader · broker-owner · switched). Zero
+organization yet → the lane is agents the member has helped, their upline's winners (labeled as the upline's),
+or a peer with a unique method — and the honest line that the first interview starts the machine. Seed
+`memory/interview-pipeline.md` rows at Status `Idea` (the locked shape in `brain-contract.md`). Never invent a
+guest or a result.
+
+## Phase 5 — The model lane (doctrine §6)
+The "answer what they're already researching" list for *their* model: explained · should you join · how
+[component] actually works · before choosing a sponsor ask these questions · do NOT join if · myths · fit by
+avatar. Mechanics and fit in public, compensation on the call. Include Mike's comparison warning in one line;
+comparisons only on the member's explicit choice via `yt-model-breakdown`. An empty `brokerage-model.md` →
+titles still build; the content deepens after "explain my model to me."
+
+## Phase 6 — The title bank: ~50 exact titles, bucketed (doctrine §9)
+Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8. Every title: one promise, ≤70
+characters, a formula number where one applies, the avatar and pain named in the note, a real signal cited
+(demand · a dated news item · a captured question or objection · a proven outlier · a gap in their own
+channel). **Hard gates:** no compensation figures or earnings implied · no negative word about a brokerage or
+person · no protected-characteristic targeting · the old brokerage never named in Why I Switched · model titles
+dated with the year. Thumbnail text offered with a title is 3–5 words and differs from the title.
+
+## Phase 7 — Your goal → the plan (conversations and calls, never income)
+Per the framework's math: the 90-day calls-held target from `goals.md` → calls booked needed (÷ show rate) →
+conversations needed (÷ the Brain's conversations→calls ratio) → YouTube's share this quarter (the member's
+split; default labeled) → per-video conversations at their cadence. State every assumption; frame it as a
+credible path with the leading indicators they control (videos published, interviews recorded, CTAs placed,
+comments answered, DMs started). **Never a dollar figure, never rev share, never "you'll make."** Subscribers
+are tracked, not targeted.
+
+## Phase 8 — The first 90 days on the cycle (doctrine §7, §13)
+A week-by-week calendar at their cadence, **one video per row**, cycles marked, opening with niche so a new
+viewer meets the member before the guests, the model breakdown mid-cycle, interviews batched where they record
+in sittings, Why I Switched early in cycle one if their story is ready (`journey.md`). Then **days 91–180 as the
+direction** (double down · compounding assets · the machine). The scoreboard from `goals.md` (leading and
+lagging), CTR 6–10% after month one, compliance status.
+
+## Phase 9 — Assemble, deliver, save, anchor, hand off
+1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` — Read-this-first with
+   the next 7 days, the audit, positioning, pillars, lanes, the title bank, the goal-math, the structure, the
+   90 days, the direction, the scoreboard, the closing, the stamp.
+2. **Compliance pass** (#3) on every title and line.
+3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Game Plan — your three pillars, your first
+   interviews, ~50 titles, and the first 90 days on the 3-1-4 cycle. It's in your workspace under Content →
+   Long-Form."*
+4. **Save** as `🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD` to `03 · Content/Long-Form/` (per
+   `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`); a refresh saves a new dated copy —
+   newest is current.
+5. **Anchor it:** write the `## Game Plan anchors` block in `identity/channel.md` (plan date · doc link ·
+   cadence · cycle position · the three pillar names · the 90-day target) and the interview seeds → push via
+   `attraction-brain-sync` → verify. Save fails → say so, keep the plan visible, retry once, stop.
+6. **The board** (house rules #11): `publishing.md` has a URL → on a refresh offer to update the board to the
+   new plan (`yt-board`); `declined` → silent; no line → `yt-board` offers once.
+7. **Hand off:** *"Pick any title from cycle one and say 'make this video for agents.' Or say 'line up my
+   interviews' to invite your first guest."*
 
 ## Quality checklist
-- [ ] Brain + YouTube Layer read; business goal pulled from `strategy.md`; nothing re-asked
-- [ ] Audit scaled correctly to their video count (full / light / minimal / skip-for-fresh)
-- [ ] 3 pillars, each chosen by lead type with a "why it generates leads" + a named playlist
-- [ ] 15–20 EXACT search-optimized titles per pillar, annotated (intent + lead type), broad→niche
-- [ ] **Every title Fair-Housing-safe + compliant** (house rules #3)
-- [ ] Goal-math present, assumptions stated, framed as a credible path — **no guarantees** (house rules #3 + #6)
-- [ ] Strategic shifts + the §4 video structure (Hook → Primary CTA → Body → Secondary CTA) + playlists + 90-day calendar (§22 mix) + metrics-as-milestones
-- [ ] Built in the agent's voice; local and specific (why-not-ChatGPT)
-- [ ] **Credibility stamp** present (byline + footer, house rules #9)
-- [ ] Saved as `YouTube Game Plan — [Agent]` at the workspace root; location confirmed plainly
-- [ ] Handed off to "make this video"
+- [ ] Brain read; goals and ratios from `goals.md`/`scorecard.md`; nothing re-asked; demo mode honored if asked
+- [ ] Audit scaled; the positioning read present
+- [ ] Three niche pillars (Problem · Situation · Future), each for a named avatar and pain, each with a playlist
+- [ ] Interview lane with hook-and-transformation titles; pipeline rows seeded at `Idea`; no invented guests
+- [ ] Model lane answers what agents research; mechanics public, compensation private; comparison warning stated
+- [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal
+- [ ] Goal-math in conversations and calls, assumptions labeled, no income
+- [ ] 90 days on the 3-1-4 cycle, one video per row; 91–180 direction; scoreboard
+- [ ] Stamp present; saved dated to `03 · Content/Long-Form`; anchors written and pushed; handed off

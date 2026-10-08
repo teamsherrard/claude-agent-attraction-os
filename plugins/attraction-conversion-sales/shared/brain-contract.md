@@ -49,15 +49,15 @@
 | File | Owner skill | Rule |
 |---|---|---|
 | `memory/conversations.md` | **this plugin** — `cv-conversation-starter`, `cv-dm-flow`, `cv-call-prep` (post-call), `cv-debrief`, `cv-follow-up`, `cv-reactivation`, `cv-three-way` append rows | the template's row shape, append-only, one row per conversation; the `Stage after` column is the stage REQUEST (below). `attraction-capture` keeps appending in the same shape when the member captures on the go. |
-| `memory/pipeline.md` | **the AI Admin plugin owns stage moves.** Until it is installed, this plugin writes the Board row and a Stage-moves-log row directly, `Logged by: cv-<skill>` | Detect the Admin by its registered block in `config.md` ("Later plugins register here" → an `## AI Admin` block). Admin installed → this plugin writes ONLY the `Stage after` column in `conversations.md` and tells the member "logged — the stage moves on your next Admin run." Admin absent → direct write, locked vocabulary, never a new stage name. |
+| `memory/pipeline.md` | **the AI Admin plugin owns stage moves.** Until it is installed, this plugin writes the Board row and a Stage-moves-log row directly, `Logged by: cv-<skill>` | Detect the Admin by its registered block in `config.md` ("Later plugins register here" → an `## AI Admin` block). Admin installed → this plugin writes ONLY the `Stage after` column in `conversations.md`, ends its output with the line **STAGE MOVE REQUESTED: [Name]: [from] → [to]**, and tells the member "logged — the stage moves on your next Admin run." Admin absent → direct write, locked vocabulary, never a new stage name. |
+| `memory/top-50.md` → `Last touch` · `Next move` · `Due` cells of ONE agent's row | the Brain's `attraction-top-50` owns the file; **while the AI Admin is not installed** this plugin may update those three cells on the row of the agent it just logged (the same interim allowance `attraction-capture` has) | never the Stage cell (mirrored from `pipeline.md` by the Top-50 skill), never a new row (say "add them to my top-50"), never any other column. Admin installed → request it alongside the stage move. |
 | `memory/objections.md` | `attraction-capture` owns the heard-rows; **this plugin adds handlers** under "The member's own handlers" (`cv-objection-coach`, `cv-debrief`) | the Listen · Validate · Reframe · Invite shape; a heard-row from a debrief goes in the table in the same columns |
 | `memory/intel-reports/YYYY-MM-DD-<agent-slug>.md` | `cv-agent-intel` | one dated file per prospect, newest wins; sources and as-of dates inside; facts only; cardinal rules on every line. (The Brain's README names this dated shape; the plan's `<name>.md` shorthand means the same file.) |
 | `identity/story-bank.md` → `Used-where` only | `cv-call-prep`, `cv-enrollment-script`, `cv-presentation` stamp a story when they place it | never any other line of the file |
 | `config.md` → the `## Conversion & Sales` block | `sales-system-setup` creates the block; `cv-call-prep` writes `Call Block Prep task` · `Call Block Prep time`; `cv-reactivation` writes `Cold-Lead Reactivation task` | keys below; the Brain never edits this block |
 
-**Never written by this plugin:** `memory/top-50.md` (the Brain's `attraction-top-50` mirrors stage from
-`pipeline.md`; the Debrief updates last touch and next move — this plugin reads and REQUESTS by logging the
-conversation), `memory/scorecard.md` (`sales-scorecard` hands its weekly numbers to `admin-scorecard` / the
+**Never written by this plugin:** `memory/top-50.md` beyond the three interim cells above (Stage is mirrored
+from `pipeline.md` by the Brain's Top-50 skill; rows are added by the Brain), `memory/scorecard.md` (`sales-scorecard` hands its weekly numbers to `admin-scorecard` / the
 weekly check-in, which append the rows), every `identity/` file except the `Used-where` stamp, `memory/content-log.md`.
 
 ## `config.md` — the Conversion & Sales block (locked spelling)

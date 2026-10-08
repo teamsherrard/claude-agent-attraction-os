@@ -98,8 +98,10 @@ offer to expand any one to three.
 Append one row to `memory/conversations.md` in the locked shape — Date · Agent · Type · Channel · "What they
 said" = *(first touch — sent)* · Objection = — · Pain = the one the opener spoke to · Next step = the follow-up
 date · **Stage after = Conversation** (the request; `Identified → Conversation`). Admin installed → that column
-is the request; Admin absent → also write the Board row and a Stage-moves-log row in `memory/pipeline.md`,
-`Logged by: cv-conversation-starter`. Push immediately; say *"logged — she's at 'conversation' now, follow-up
+is the request and the output ends with **STAGE MOVE REQUESTED: [Name]: Identified → Conversation**; Admin
+absent → also write the Board row and a Stage-moves-log row in `memory/pipeline.md`, `Logged by:
+cv-conversation-starter`, and that agent's Last touch · Next move · Due cells on the Top-50 (the interim
+allowance in `shared/brain-contract.md`). Push immediately; say *"logged — she's at 'conversation' now, follow-up
 on [date]."* Never log a message the member didn't say they sent.
 
 ## Rules
