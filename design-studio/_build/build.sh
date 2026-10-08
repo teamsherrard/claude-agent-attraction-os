@@ -91,9 +91,12 @@ LEAKS = [r"Just Listed", r"Just Sold", r"yard sign", r"04 · Listings", r"05 · 
          r"Social Agent OS", r"(?<![a-z-])_workspace\.md", r"\bDescript\b", r"REALTOR® ·"]
 bad = []
 for f in sys.argv[1:]:
+    prev = ""
     for i, l in enumerate(open(f, encoding="utf-8"), 1):
-        if BANNED.search(l) and not ALLOW.search(l):
+        # a list of the banned words is allowed only where the text names them as banned (this line or the one before)
+        if BANNED.search(l) and not ALLOW.search(l) and not ALLOW.search(prev):
             bad.append(f"{f}:{i}: banned word: {l.strip()[:90]}")
+        prev = l
         for pat in LEAKS:
             if re.search(pat, l):
                 bad.append(f"{f}:{i}: realtor-side leak [{pat}]: {l.strip()[:90]}")
@@ -198,6 +201,38 @@ if [ -f "$ROOT/design-system/agent-attraction-design-system.md" ]; then
   cp "$ROOT/design-system/agent-attraction-design-system.md" "$DIST/00-agent-attraction-design-system.md"; ok "00-agent-attraction-design-system.md"
 else bad "design-system/agent-attraction-design-system.md missing"; fi
 if python3 "$STAGE/lint.py" "$ROOT/START-HERE.md" "$ROOT/design-system/agent-attraction-design-system.md" >/dev/null 2>&1; then ok "map + design system lint clean"; else bad "map or design system has a banned word or a realtor-side leak"; fi
+
+echo
+echo "── 5. trigger phrases do not collide (inside the Studio, with the MAA plugins, with the realtor marketplace)"
+python3 - "$ROOT" <<'PY' || FAIL=1
+import glob, re, sys, os
+root = sys.argv[1]
+def triggers(f, declared_only=False):
+    txt = open(f, encoding="utf-8").read()
+    m = re.match(r'^---\n(.*?)\n---', txt, re.S)
+    if not m: return set()
+    fm = m.group(1)
+    if declared_only:   # Studio skills declare their triggers after "Trigger on:" — quoted CTA text before it is not a trigger
+        i = fm.find("Trigger on"); fm = fm[i:] if i >= 0 else fm
+    return {t.strip().lower() for t in re.findall(r'"([^"]{4,60})"', fm)}
+mine = {}
+for f in sorted(glob.glob(f"{root}/skills/*/SKILL.md")):
+    for t in triggers(f, declared_only=True): mine.setdefault(t, []).append(os.path.basename(os.path.dirname(f)))
+bad = [f'"{t}" is a trigger of both {" and ".join(s)}' for t, s in mine.items() if len(s) > 1]
+others = {}
+for label, pattern in (("MAA plugin", f"{root}/../plugins/*/skills/*/SKILL.md"),
+                       ("realtor marketplace", "/Users/riyabidani/Downloads/realtor-ai-brain/plugins/*/skills/*/SKILL.md"),
+                       ("realtor design suite", "/Users/riyabidani/Desktop/Claude Design Skills v2/_build/../*.md")):
+    files = glob.glob(pattern)
+    if not files: print(f"  · {label} not on this machine; skipped"); continue
+    for f in files:
+        for t in triggers(f): others.setdefault(t, f"{label} {os.path.basename(os.path.dirname(f)) or os.path.basename(f)}")
+for t, s in mine.items():
+    if t in others: bad.append(f'"{t}" ({s[0]}) also triggers the {others[t]}')
+if bad:
+    print("  ✗ trigger collisions:"); [print("      " + b) for b in bad]; sys.exit(1)
+print("  ✓ no trigger phrase collides")
+PY
 
 echo
 echo "── summary"

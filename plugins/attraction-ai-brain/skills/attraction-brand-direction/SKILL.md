@@ -61,7 +61,7 @@ One message, five items, "your turn" at the end. Options are examples; they can 
     visually distinct from your brokerage's own colours. Some leaders run two, as Mike's example of a
     production brand and a separate attraction brand shows, `04-value-proposition/29`; either is fine.)*
 53. **Name:** does your organization have a name, or is it just you? *(Many attractors run a group name
-    alongside their own. Both can be captured; the Design Package can build a lockup for each.)*
+    alongside their own. Both can be captured; the Design Package can build a logo version for each.)*
 
 If the Brand folder already answered an item (a logo file, headshots), say so in one line and skip it.
 For "not quite right", ask the one follow-up: *"What's the one thing you'd change?"* and record only that.
@@ -96,7 +96,7 @@ Colours: [hex + role, or "none yet"]
 Fonts: [names, or "none yet"]
 Headshots: [professional / phone only / none]  · files: [02 · Brand/… or none]
 Leader brand vs selling brand: [same, one brand with a leader lane / separate]
-Organization name: [name, or "just the member's name"]  · lockups needed: [one / two]
+Organization name: [name, or "just the member's name"]  · logo versions needed: [one / two]
 Brokerage palette to stay distinct from: [as the member described it, or "unknown"]
 
 ## Direction
@@ -122,7 +122,7 @@ Run these three Claude Design skills this week, in this order:
 1. ds-logo — SKIP THIS if you love your logo (use it exactly as-is). Refresh mode if it's "not quite
    right": change only [the one thing flagged]. Build mode if there's no logo: [logo direction].
 2. ds-style-sheet — palette [hex + roles], fonts [direction], feel [words], distinct from [brokerage palette].
-3. ds-brand — profile and banner graphics, [one lockup / two lockups: member name + organization name].
+3. ds-brand — profile and banner graphics, [one logo version / two logo versions: member name + organization name].
 Brand name(s): [name] [+ organization name]. Leader brand vs selling brand: [same / separate].
 Tagline: [chosen or "none yet"]. Headshots: [in 02 · Brand / none yet — phone photos only].
 Compliance on every public graphic: [brokerage-name display + license display from compliance.md]

@@ -222,6 +222,15 @@ if not bad: print("  ✓ Composio kept in both content engines; no routes to rem
 sys.exit(1 if bad else 0)
 PY2
 
+
+say ""
+say "── 13. Design Studio skill set builds clean (design-studio/_build/build.sh)"
+if [ -x design-studio/_build/build.sh ]; then
+  if bash design-studio/_build/build.sh >/tmp/ds-build.log 2>&1; then ok "design-studio: build.sh green ($(ls design-studio/_dist | wc -l | tr -d ' ') upload files)"; else bad "design-studio/_build/build.sh failed:"; tail -20 /tmp/ds-build.log | sed 's/^/      /'; fi
+else
+  say "  · no design-studio build script; skipped"
+fi
+
 say ""
 say "── 6. top changelog entry names files that are actually committed/staged"
 python3 - <<'PY' || FAIL=1

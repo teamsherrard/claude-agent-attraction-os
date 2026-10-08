@@ -198,8 +198,8 @@ a partner, shown only where the compliance block requires it, and never drawn fr
 ## 8. Voice cards
 
 **Sounds like:** `[2–4 lines from the Brain's voice chapter]` · **Never sounds like:** `[the never-say
-list; the recruiter register ("opportunity call", "let's talk about [brokerage]"); the banned words:
-unlock · supercharge · game-changer · revolutionary · secret weapon · leverage as a verb]`.
+list; the recruiter register ("opportunity call", "let's talk about [brokerage]")]` · **Banned words
+everywhere:** unlock · supercharge · game-changer · revolutionary · secret weapon · leverage as a verb.
 **Signature phrases:** `[three the member actually says]`.
 
 **The five profile answers (the copy slots every piece fills — from Mike's profile lesson):**

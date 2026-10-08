@@ -15,7 +15,7 @@ Mike (2026-10-08): not a plugin, parked.
 |---|---|---|---|---|---|
 | 1 | **Agent Attraction Brain** (W1) | `attraction-` | 26 | **BUILT** | "Set up my **attraction** brain" |
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "Help" / "I'm stuck" / "what did Mike say about…" |
-| 3 | **Design Studio** (Claude Design skill set, NOT a plugin) — W1/2 Design Package (logo · style sheet · brand), W2 offer assets, W6 Value Vault | `ds-` | 15 | coming W2 | paste a brief into claude.ai/design; "design my logo" inside Design |
+| 3 | **Design Studio** (Claude Design skill set, NOT a plugin) — W1/2 Design Package (logo · style sheet · brand), W2 offer assets, W6 Value Vault | `ds-` | 15 | Design Package (ds-logo · ds-style-sheet · ds-brand) ships W1; offer assets W2; Value Vault W6 | paste a brief into claude.ai/design; "design my logo" inside Design |
 | 4 | **Short-Form** (W3) | `sf-` | 13 | coming W3 | "Set up my short-form engine" |
 | 5 | **AI Editor — Riverside** (W3) | `studio-` | 28 | coming W3 | "Set up my studio" / "edit my reel" |
 | 6 | **YouTube** (W4) | `yt-` | 19 | coming W4 | "Set up my YouTube engine" |
