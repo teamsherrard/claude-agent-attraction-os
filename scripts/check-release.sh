@@ -109,6 +109,70 @@ for name in ("render_doc.py","notion-board-spec.md"):
 sys.exit(1 if bad else 0)
 PY
 
+
+say ""
+say "── 8. SKILL.md descriptions ≤ 1024 chars and block-scalar; names match directories"
+python3 - <<'PY2' || FAIL=1
+import glob,os,re,sys,yaml
+bad=False
+for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
+    txt=open(f,encoding="utf-8").read()
+    m=re.match(r'^---\n(.*?)\n---',txt,re.S)
+    if not m: print(f"  ✗ {f}: no frontmatter"); bad=True; continue
+    try: fm=yaml.safe_load(m.group(1))
+    except Exception as e: print(f"  ✗ {f}: frontmatter does not parse ({e})"); bad=True; continue
+    d=os.path.basename(os.path.dirname(f))
+    if fm.get("name")!=d: print(f"  ✗ {f}: name '{fm.get('name')}' != dir '{d}'"); bad=True
+    desc=fm.get("description","") or ""
+    if len(desc)>1024: print(f"  ✗ {f}: description {len(desc)} chars (>1024)"); bad=True
+    if not re.search(r'^description:\s*>',m.group(1),re.M): print(f"  ✗ {f}: description is not a folded block scalar (description: >)"); bad=True
+if not bad: print("  ✓ every SKILL.md: name==dir, description ≤1024, block scalar")
+sys.exit(1 if bad else 0)
+PY2
+
+say ""
+say "── 9. no realtor-side paths, names, or retired engines leak into this OS"
+python3 - <<'PY2' || FAIL=1
+import glob,re,sys
+pats={"~/realtor-brain":r"~/realtor-brain(?!/\S*\s*(?:is|\(|—|-|:|,)?\s*(?:a different|read-only|the realtor))","Social Agent OS":r"Social Agent OS","_workspace.md (realtor marker)":r"(?<![a-z-])_workspace\.md","realtor-brain-sync":r"realtor-brain-sync","Descript":r"Descript","listing-launch / market-system":r"realtor-listing-launch|realtor-market-system"}
+allow=re.compile(r"realtor brain bridge|read-only|never|not this|different system|a separate|do not|don't|legacy|the realtor plugin|coexist|side by side|retired|REMOVED",re.I)
+bad=[]
+for f in glob.glob("plugins/**/*.md",recursive=True)+glob.glob("plugins/**/*.json",recursive=True):
+    for n,l in enumerate(open(f,encoding="utf-8"),1):
+        for name,pat in pats.items():
+            if re.search(pat,l) and not allow.search(l): bad.append(f"{f}:{n}: [{name}] {l.strip()[:100]}")
+if bad:
+    print("  ✗ realtor-side references found (allowed only in lines that mark them as the OTHER system):")
+    for b in bad[:40]: print("      "+b)
+    sys.exit(1)
+print("  ✓ no realtor paths, markers, or retired engines leak")
+PY2
+
+say ""
+say "── 10. trigger phrases do not collide with the realtor marketplace"
+python3 - <<'PY2' || FAIL=1
+import glob,re,sys,os
+REALTOR="/Users/riyabidani/Downloads/realtor-ai-brain/plugins"
+if not os.path.isdir(REALTOR): print("  · realtor marketplace not on this machine; skipped"); sys.exit(0)
+def triggers(f):
+    txt=open(f,encoding="utf-8").read()
+    m=re.match(r'^---\n(.*?)\n---',txt,re.S)
+    if not m: return set()
+    return {t.strip().lower() for t in re.findall(r'"([^"]{4,60})"',m.group(1))}
+theirs={}
+for f in glob.glob(REALTOR+"/*/skills/*/SKILL.md"):
+    for t in triggers(f): theirs.setdefault(t,f.split("/plugins/")[1])
+bad=[]
+for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
+    for t in triggers(f):
+        if t in theirs: bad.append(f"{f}: \"{t}\" also triggers realtor {theirs[t]}")
+if bad:
+    print("  ✗ trigger phrases shared with the realtor marketplace (reword with 'attraction' / 'agent attraction' / 'my organization'):")
+    for b in bad[:60]: print("      "+b)
+    sys.exit(1)
+print("  ✓ no trigger phrase collides with the realtor marketplace")
+PY2
+
 say ""
 say "── 6. top changelog entry names files that are actually committed/staged"
 python3 - <<'PY' || FAIL=1
