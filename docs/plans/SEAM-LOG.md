@@ -40,6 +40,8 @@ Running list. Each line: what · where · status.
 
 - SF QA addendum: `sf-analytics` "calls booked from content" source = `memory/sales-funnel.md` rows by source (youtube / instagram) once Conversion exists, else `conversations.md` rows only · OPEN (final pass); Support plugin needs a `shared/brain-contract.md` (reads only; writes `memory/support-log`) · OPEN
 
+- YouTube QA follow-ups: `cv-conversation-starter` gains an intake line for the three starters `yt-repurpose` hands over (title + hook) · OPEN (final pass); lesson `08-youtube/93` is a DRAFT carrying 17 citations → Mike confirms or re-records · WAITING; ruling: a member's own income/production figures never headline a public video unless their compliance policy line allows it (applied by Final-pass 3); Deep Dive doc carries no stamp (house rule #9) · DONE
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 

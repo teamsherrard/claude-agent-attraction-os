@@ -2,16 +2,15 @@
 name: ds-brand
 description: >
   Builds the Attraction Brand Kit in Claude Design: every profile and banner graphic agents will see,
-  rendered at true platform size from the member's locked Design System. Profile pictures, banners
-  (Instagram, Facebook, LinkedIn, YouTube) with the five profile answers baked into the copy (who you
-  are · who you help · what you help them do · why listen · what to do next) and the "book a call with
-  me" button, highlight covers, agent-win and teaching post templates, story templates, the "Join My
-  Team" 1-pager cover, email signature, YouTube end screen, vertical backgrounds, plus ready-to-post
-  captions. Two masters approved, then the whole kit, no stopping to ask. Hands the finished files to
-  02 · Brand (Drive or OneDrive connector, else an organized export list) so the Brain sees the kit.
-  Reads the Design Package brief and the Brain Book first; asks only what is new, in plain language.
-  Trigger on: "make my brand kit", "my attraction brand kit", "agent attraction brand kit", "my profile
-  and banner graphics", "my highlight covers", "add my compliance line".
+  at true platform size, from the member's locked Design System. Profile pictures; banners (Instagram,
+  Facebook, LinkedIn, YouTube) carrying the five profile answers (who you are · who you help · what
+  you help them do · why listen · what to do next) and the "book a call with me" button; highlight
+  covers; agent-win, teaching, and CTA post templates; stories; the "Join My Team" cover; email
+  signature; YouTube end screen; backgrounds; ready-to-post captions. Two masters, then the whole kit,
+  no stopping to ask. Files land in 02 · Brand (Drive or OneDrive connector, else an export list) so
+  the Brain sees the kit. Reads the Design Package brief and the Brain Book first; asks only what is
+  new, in plain language. Trigger on: "make my brand kit", "my attraction brand kit", "agent
+  attraction brand kit", "my profile and banner graphics", "my highlight covers", "add my compliance line".
 ---
 
 # Attraction Brand Kit (ds-brand) — the brand, applied
@@ -48,8 +47,9 @@ re-ask for a logo, a colour, a font, or a headshot that is already there. If the
 somehow missing, say so and point them to `ds-style-sheet` first (or, as a fallback, ask for the logo,
 headshot, and colours in one message).
 
-**The brief and the Book.** The Design Package brief's line 3 is yours — *"ds-brand — profile and
-banner graphics, [one lockup / two lockups]"* — plus the compliance line. **The Brain Book is "the AI
+**The brief and the Book.** Members arrive with a pasted block that starts **"AGENT ATTRACTION DESIGN
+PACKAGE — [Name]"**; its line 3 is yours — *"ds-brand — profile and banner graphics, [one lockup / two
+lockups]"* — plus the brand name(s), the brand shape, the tagline, and the compliance line. **The Brain Book is "the AI
 Brain file"**; read: **Snapshot** (name, brokerage, market and scope, known for, the one-line why,
 booking link, socials, compliance status), **The Leader** (what they are building), **Your Voice &
 Brand** (tone, sounds-like / never, signature phrases, the primary CTA), **Your Agent Avatars** (the

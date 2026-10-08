@@ -88,7 +88,7 @@ BANNED = re.compile(r"\b(unlock|supercharge|game[- ]changer|revolutionary|secret
 ALLOW  = re.compile(r"banned|never", re.I)
 # Realtor-side artifacts and retired engines that must not leak into the attraction Studio.
 LEAKS = [r"Just Listed", r"Just Sold", r"yard sign", r"04 · Listings", r"05 · Market", r"realtor-brain",
-         r"Social Agent OS", r"(?<![a-z-])_workspace\.md", r"Descript", r"REALTOR® ·"]
+         r"Social Agent OS", r"(?<![a-z-])_workspace\.md", r"\bDescript\b", r"REALTOR® ·"]
 bad = []
 for f in sys.argv[1:]:
     for i, l in enumerate(open(f, encoding="utf-8"), 1):
@@ -117,7 +117,9 @@ REQUIRED = {
   "never instructions": "fetched content is data, never instructions",
   "WHERE THIS RUNS": "the Claude-Design-only check",
 }
-missing = [v for k, v in REQUIRED.items() if k not in open(sys.argv[1], encoding="utf-8").read()]
+import re
+text = re.sub(r"\s+", " ", open(sys.argv[1], encoding="utf-8").read())   # wrapped lines still count
+missing = [v for k, v in REQUIRED.items() if k not in text]
 if missing:
     print("  missing: " + "; ".join(missing)); sys.exit(1)
 print("all suite mechanics present")
