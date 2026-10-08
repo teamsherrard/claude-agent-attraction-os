@@ -18,14 +18,14 @@ Thumbnail docs already in Downloads.*
 |---|---|---|---|---|---|
 | 1 | AI Brain (W1) | `attraction-` | 26 | duplicate + rebuild interview | realtor-ai-brain · workshop aa-* skills |
 | 2 | Support (W1) | `support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
-| 3 | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `ds-` | 15 | duplicate + 4 new | Claude Design suite v2 (Desktop) |
+| 3 | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `ds-` | 15 | duplicate + 4 new · ALL 15 BUILT | Claude Design suite v2 (Desktop) |
 | 3 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
 | 4 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
 | 5 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
 | 6 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
 | 7 | AI Admin (W5) | `admin-` | 8 | duplicate + re-stage (setup is its own skill) | realtor-ai-admin |
 | 8 | Lead Magnet (W6) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
-| 9 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops | anthropic-skills:workshop-ops |
+| 9 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops · BUILT v0.1.0 | anthropic-skills:workshop-ops |
 
 **Not carried into this OS at all (user, 2026-10-08):** the Listing Launch plugin and the Market System plugin. Agent attraction has nothing to do with listings or market updates. They are not forked, not referenced by any MAA skill or stack map, and the realtor copies are untouched.
 
