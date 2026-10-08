@@ -79,7 +79,8 @@ Status `seeds` → fall back to the free thing they give today or "book a call";
 `identity/publishing.md` (the keyword, what it opens) if Phase 1 didn't open it.
 For EACH Reel, use these exact section names:
 - **THE BRIEF** — pillar · for whom · story used (hook from the bank, or none) · rung + keyword.
-- **THE HOOK — 3 ways** — three options, each sayable in one breath (~8–12 words), styles labelled (question ·
+- **THE HOOK — 3 ways** — three options (one may come from `content-pillars.md → ## Hooks bank` when a bank hook
+  fits this Reel), each sayable in one breath (~8–12 words), styles labelled (question ·
   contrarian · number/stakes · mistake · callout · curiosity-gap — never three of the same), the strongest marked
   with one line why. The first word is the hook. Never "stop scrolling", never "hey guys", never credentials first.
 - **THE SCRIPT** — word-for-word, written for speech, **30–60 seconds (~80–150 words, show the count)**. Shape:
@@ -90,7 +91,8 @@ For EACH Reel, use these exact section names:
 - **THE SHOTS** — one line per beat: where to stand, what to show, the one b-roll to grab (a screenshot of the
   call for Proof, the kitchen table for Story — simple, phone-filmed).
 - **THE CTA** — the rung, in their words, with the keyword: *"Comment **PARTNER** and I'll send you the whole
-  thing."* One rung per Reel; the call only after a conversation; never the model by DM.
+  thing."* One rung per Reel; the call only after a conversation; never the model by DM. The line comes from the
+  CTA bank (`sf-comment-to-dm`'s sheet) when one exists; otherwise write it on the same rules.
 - **THE CAPTIONS** — hand hook + script + format `talking head` + pillar + rung + keyword to the optimizer's
   rules (`${CLAUDE_PLUGIN_ROOT}/skills/sf-optimizer/references/platform-rules.md`): Instagram + Facebook caption
   with the CTA line and 3–5 hashtags · TikTok one-line · YouTube Shorts title/description/tags · cover text + 2–3

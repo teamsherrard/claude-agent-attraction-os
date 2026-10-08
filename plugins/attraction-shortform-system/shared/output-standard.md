@@ -58,7 +58,7 @@ Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.m
 | Deep dive | `YYYY-MM-DD · Short-Form Deep Dive` | `2026-11-30 · Short-Form Deep Dive` |
 | Weekly ideas + hook bank | `YYYY-MM-DD · Attraction Ideas + Hook Bank` | `2026-11-17 · Attraction Ideas + Hook Bank` |
 | Weekly routine | `YYYY-MM-DD · Weekly Routine` | `2026-11-17 · Weekly Routine` |
-| Keyword sheet + DM bank | `YYYY-MM-DD · Keyword Sheet + DM Bank` | `2026-11-18 · Keyword Sheet + DM Bank` |
+| Keyword sheet + DM bank (the CTA bank is its first page) | `YYYY-MM-DD · Keyword Sheet + DM Bank` | `2026-11-18 · Keyword Sheet + DM Bank` |
 | Film-day plan | `YYYY-MM-DD · Film-Day Plan` | `2026-11-18 · Film-Day Plan` |
 | Publishing queue | `YYYY-MM-DD · Publishing Queue` | `2026-11-24 · Publishing Queue` |
 
@@ -145,10 +145,177 @@ Tags:
 COMPLIANCE
 [the stamp from compliance.md — brokerage name / license / disclaimer as required; "none required" if so]
 ```
-(Carousel docs use SLIDE 1 / SLIDE 2 … + DESIGN BRIEF FOR DS-CAROUSEL + the IG/FB block + the LINKEDIN block;
+(Carousel docs use SLIDE 1 / SLIDE 2 … + THE DESIGN BRIEF FOR AA-CAROUSEL-DESIGN + the IG/FB block + the LINKEDIN block;
 story docs use STORY 1 / STORY 2 … with the category, the text overlay, the sticker, and the reply CTA; the
 calendar uses WEEK 1 → WEEK 4 tables; performance docs use the review structure from `sf-analytics`' own
 reference. Same formatting rules throughout.)
+
+## 5a. The other skeletons (every named document has a shape; a thin one is a fail)
+The content skeleton in §5 covers a Reel, a green screen, a carousel, and a story set. The six documents below
+are the premium set a Week 3 member actually opens and keeps — each has its own bands, and a floor. Same house
+grammar (§4). The skill that owns the doc fills every band; an empty band is written as a real line ("none
+yet", "not available"), never left blank.
+
+**The 30-Day Calendar** (`sf-talkinghead`, Phase 3) — floor: 20 numbered rows (12 at three a week), every cell
+filled, a batch plan with hours; ~800–1,000 words.
+```
+30-DAY CALENDAR · [MONTH YYYY]
+[Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+THE MONTH AT A GLANCE
+[one paragraph: what this month establishes and why this order — the mix in force, the keyword, the batch rhythm]
+
+———————————————————————————————
+WEEK 1 — WHO I AM   (one Reel per pillar: an agent who finds you this week can answer the five profile questions from the feed)
+| # | Day | Hook | Pillar | For | Carries (story / win / teach) | Rung · keyword |
+[five rows]
+WEEK 2 · WEEK 3 · WEEK 4   (same table; the member's own ideas and this month's objections land in Weeks 1–2)
+
+———————————————————————————————
+STORIES, DAILY
+[the four-category rotation runs every day regardless — one line]
+
+———————————————————————————————
+THE BATCH PLAN
+Session 1: [day · the Reels that film together · same outfit, same spot · hours]   Session 2: [...]
+
+———————————————————————————————
+THE THREE TO FILM FIRST
+1. [#, one line why]   2. [...]   3. [...]
+
+———————————————————————————————
+COMPLIANCE
+[the stamp]
+```
+
+**Attraction Ideas + Hook Bank** (`sf-ideas`) — floor: exactly 5 + 15 + 30, five to eight cited findings; ~1,200–1,600 words.
+```
+ATTRACTION IDEAS + HOOK BANK · [WEEK OF DATE]
+[Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+WHAT AGENTS ARE ASKING RIGHT NOW
+1. "[the phrase as an agent typed it]" · HIGH / MEDIUM / EMERGING · [where it was seen · when] · [pillar it feeds]
+[five to eight — the citations every idea below points at by number]
+
+———————————————————————————————
+THIS WEEK'S FIVE
+1. [the title the way a person would say it] · [the angle, one line] · [pillar] · [for whom] · [format] · [rung · keyword] · [finding #]
+[five, on the mix in force]
+
+———————————————————————————————
+THE BANK   (fifteen more, three per pillar, same columns)
+AUTHORITY · PERSPECTIVE · STORY · PROOF · PERSONALITY
+
+———————————————————————————————
+THE 30-HOOK BANK   (six per pillar, under 12 words, no two the same shape, never "stop scrolling")
+AUTHORITY: 1–6 · PERSPECTIVE: 1–6 · STORY: 1–6 · PROOF: 1–6 · PERSONALITY: 1–6
+
+———————————————————————————————
+THE ONES THAT REPEAT   (two or three named weekly series)
+
+———————————————————————————————
+WHAT TO SKIP   (three things that read as recruiting — and what to post instead)
+
+———————————————————————————————
+COMPLIANCE
+```
+
+**Keyword Sheet + DM Bank** (`sf-comment-to-dm`, Job B) — floor: the CTA bank (15 lines), six messages for the
+primary keyword (each under 60 words), the story reply, the qualifier, the paste sheet; ~1,000–1,500 words.
+```
+KEYWORD SHEET + DM BANK
+[Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+THE KEYWORD
+Keyword: [WORD] · What it opens: [the resource / the call] · Said on camera at the end · Written as the caption's last line · Pinned as the first comment
+ManyChat: [connected / replying by hand / declined] · Variants once the templates run: GUIDE · GROWTH · SCALE · PARTNER (each defaults to the primary word's flow until then)
+
+———————————————————————————————
+THE CTA BANK   (fifteen lines, three per pillar, each on its rung)
+AUTHORITY — Comment / Resource:   Spoken: [...]   Caption: [...]   (×3)
+PERSPECTIVE — Follow / save / share (×3) · STORY — DM (×3) · PROOF — DM (×3) · PERSONALITY — Follow (×3)
+THE CALL LINE (at most once a month): [...]
+
+———————————————————————————————
+THE DM BANK — [KEYWORD]
+1. Auto-reply · 2. The human follow-up · 3. The qualifier (three messages, one at a time) · 4. The bridge to the resource · 5. The invite to a call · 6. The graceful no
+THE DM BANK — GUIDE · GROWTH · SCALE · PARTNER   (the same six each, once the templates run)
+THE STORY REPLY · THE DM QUALIFIER
+
+———————————————————————————————
+THE MANYCHAT PASTE SHEET
+keyword · trigger (comment / DM / story reply) · message 1 · button text · message 2 · the tag · the human follow-up (sent by hand, never automated)
+
+———————————————————————————————
+COMPLIANCE
+```
+
+**Weekly Content Performance — the Friday note** (`sf-analytics`' scheduled agent; also "review my attraction
+week") — floor: one page, ~250–400 words, every number sourced or "not available".
+```
+WEEKLY CONTENT PERFORMANCE · [WEEK OF DATE]
+[Member Name] · [Organization] · [Friday date]
+
+———————————————————————————————
+THIS WEEK IN FIVE NUMBERS
+People who saw you: [n] · Reels posted: [n] of [cadence] · Story days: [n] of 7 · Keyword comments: [n] · Conversations started: [n] (from your log)
+Source: [your Instagram, pulled Friday / the posting tool / "numbers not available this week — add them Monday"]
+
+———————————————————————————————
+WHAT STARTED CONVERSATIONS
+[the post + keyword → DMs → conversations logged → calls booked; "none yet" is a real line, never a guess]
+
+———————————————————————————————
+BEST POST · WEAKEST POST · BEST HOOK SHAPE
+[one line each, with the why]
+
+———————————————————————————————
+THE ONE CHANGE
+[exactly one]
+
+———————————————————————————————
+NEXT WEEK'S FIVE   (the mix in force)
+1. [hook · pillar · format · rung · keyword]   [...]   5. [...]
+
+———————————————————————————————
+YOUTUBE SECTION
+[appended by your YouTube system from Week 4; omitted until then]
+```
+
+**Weekly Routine** (`sf-weekly-routine`) — floor: the seven-day table, the batch block with a start time, seven
+story prompts, the engagement checklist with a time of day, the empty check-in table; ~400–600 words.
+```
+WEEKLY ROUTINE · [WEEK OF DATE]
+[Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+THE WEEK AT A GLANCE
+| Day | What posts (Reel + pillar, or "stories only") | Story prompt | Engagement slot | Minutes |
+[Monday → Sunday]
+
+———————————————————————————————
+THE BATCH BLOCK · THE DAILY STORY HABIT (seven prompts, one interactive element) · THE ENGAGEMENT ROUTINE (the time of day) · THE CHECK-IN TABLE (empty, for Friday)
+
+———————————————————————————————
+COMPLIANCE
+```
+
+**Film-Day Plan** (`sf-batch-publish`, FILM DAY) — floor: a run sheet row and a teleprompter card per video, an
+honest total time; ~600–900 words for five Reels.
+```
+FILM-DAY PLAN · [DATE]
+[Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+THE SESSION AT A GLANCE · THE GROUPS (location → outfit → format) · THE RUN SHEET (order · video # · hook's first line · pillar · format · location · minutes)
+WHAT TO WEAR · WHAT TO BRING · THE TELEPROMPTER CARDS (hook word for word · four or five beats · the ask with its keyword, large) · BETWEEN EVERY VIDEO · THE SAFETY NET · AFTER THE SHOOT
+
+———————————————————————————————
+COMPLIANCE   (permission confirmed on every named agent; no unconsented names on a screenshot)
+```
 
 ## 5b. The Deep Dive Report (the monthly analytics deliverable — stamped)
 The one document that isn't content: the monthly deep dive from `sf-analytics`. Same house grammar, this fixed

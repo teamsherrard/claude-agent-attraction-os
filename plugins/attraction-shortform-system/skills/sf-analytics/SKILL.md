@@ -128,9 +128,12 @@ what started conversations · what to make more of) and appends a dated block to
 once, at the end of the first dive or when they ask: *"want a short performance note every Friday — which
 Reels and stories started conversations this week, and what to post next week? Say yes and I'll set it up;
 it only writes, never posts."*
-- **On yes:** create the scheduled task for **Friday** (time from `identity/operations.md`, timezone from
-  `config.md`), with a prompt that: pulls the week from the Step-1 source ladder (live → tool → "no new
-  numbers this week; add them Monday") · reads `content-log.md`, `conversations.md`, `top-50.md` for the
+- **On yes:** create the scheduled task for **Friday** (the slot: a `Friday note:` line in `identity/operations.md`
+  if the member ever set one, otherwise the last working hour of Friday from its `Working hours:` line; timezone
+  from `config.md`), with a prompt that: pulls the week from the Step-1 source ladder (live → tool → the log alone)
+  — **a scheduled run has nobody to click a permission card, so when the live data or the tool cannot be read
+  unattended the note is written from `content-log.md` and `conversations.md` and says in one line that this
+  week's numbers were not available ("add them Monday"); it never fails silently and never invents a number** · reads `content-log.md`, `conversations.md`, `top-50.md` for the
   week · writes a one-page note (five numbers in plain words · the post that started conversations · the one
   change · next week's five on 2·2·1, with keywords) · appends the dated block to
   `memory/content-performance.md` and pushes · saves the note to `03 · Content/Short-Form/Performance/` as

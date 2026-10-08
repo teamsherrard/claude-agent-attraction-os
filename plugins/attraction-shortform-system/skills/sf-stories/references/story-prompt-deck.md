@@ -84,8 +84,10 @@ Reply CTAs: "Reply 'LIST' / 'SCRIPT' / 'CALL'" (the story-reply flow word) · "R
 - A poll about the agent's business is the opportunity category; a poll about coffee is the personal category.
 
 ## The reply CTA → the conversation
-A reply is the DM rung of the ladder. The reply word (CALL · LIST · SCRIPT · WIN · YES) is the story-reply
-sequence's trigger when ManyChat is connected; otherwise the member replies by hand the same day. A real
+A reply is the DM rung of the ladder. When the story asks for the same thing the Reels promise, the reply word is
+the member's one keyword from `identity/publishing.md` — one word everywhere is the rule; the short words (CALL ·
+LIST · SCRIPT · WIN · YES) are for a story-specific ask only. The reply word is the story-reply sequence's trigger
+when ManyChat is connected; otherwise the member replies by hand the same day. A real
 conversation hands to `sf-comment-to-dm` (which logs the row, via `attraction-capture` when present, until the
 Conversion and Admin plugins exist) — never logged here.
 

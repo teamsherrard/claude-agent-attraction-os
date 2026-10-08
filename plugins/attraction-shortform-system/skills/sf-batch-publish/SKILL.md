@@ -140,7 +140,10 @@ Push via **attraction-brain-sync**; if the push fails, say it is not saved, retr
 URL; scheduled is not Published.
 
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in
-your Content folder. Your Friday performance note will tell you which ones started conversations."*
+your Content folder."* Then the Friday note, once: read the `Weekly Content Performance task:` line in `config.md`'s
+Short-Form block — a task id → *"your Friday performance note will tell you which ones started conversations"*;
+`not offered yet` → one line (*"want a short note every Friday on which of these started agent conversations?
+say yes and I'll switch it on"*), a yes handed to `sf-analytics`, which provisions it; `declined` → nothing.
 
 ## Quality checklist
 - [ ] Brain loaded; scripts found (film) or files read for real (publish); nothing invented from a filename

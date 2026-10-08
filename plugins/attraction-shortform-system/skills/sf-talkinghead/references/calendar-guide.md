@@ -12,7 +12,8 @@ member's ideas, first) · `memory/objections.md` (this month's objections → Pe
 deserves a take → hand to `sf-greenscreen` rather than scripting it here).
 
 ## The weekly mix
-Default **2 attraction · 2 authority · 1 story** (the Week 3 cohort standard):
+Default **2 attraction · 2 authority · 1 story** (the cohort's Week 3 default — not a lesson of Mike's; his sample
+week is below):
 - *attraction* = **Proof** (an agent's win, the weekly call, an event, new training) + **Personality** (the
   person behind the business)
 - *authority* = **Authority** (teach) + **Perspective** (a take, a myth, a question answered)

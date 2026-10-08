@@ -83,7 +83,7 @@ Confirm in one friendly line — *"your turn"*.
   the same story reframed for a leader who carries a team ("adult daycare", retention, leverage): 8–12 pages,
   one idea per page, bigger type; plus the **LinkedIn post copy** (150–200 words, a first line that stands on
   its own, no hashtag wall, the ask = "message me" or the keyword — LinkedIn has no comment automation).
-- **THE DESIGN BRIEF FOR DS-CAROUSEL** — in words: the slide count and sizes (Instagram 4:5; LinkedIn document
+- **THE DESIGN BRIEF FOR AA-CAROUSEL-DESIGN** — in words: the slide count and sizes (Instagram 4:5; LinkedIn document
   PDF), which slide is the hook and which is the CTA, the colours / fonts / feel from `brand-visual.md` (hex and
   names, exactly as the file has them — never invented), the logo rule, where the brokerage name goes if
   compliance requires it. Words only — never a rendered example.

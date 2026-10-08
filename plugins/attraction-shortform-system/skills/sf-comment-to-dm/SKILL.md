@@ -2,7 +2,8 @@
 name: sf-comment-to-dm
 description: >
   The comment-to-DM engine for attracting agents: the escalating ask ladder (Follow → Comment → DM →
-  Resource → Conversation → Call), the keyword every Reel carries, and the DM copy bank the member pastes
+  Resource → Conversation → Call), the keyword every Reel carries, the CTA bank (fifteen ask lines, three per
+  pillar, each on its rung), and the DM copy bank the member pastes
   into their own ManyChat (PARTNER, GUIDE, SCALE, GROWTH, the story reply, the DM qualifier). Every message
   selfless and useful, never a pitch, never compensation. Hands a real conversation to the Conversion
   plugin's cv-dm-flow when installed; otherwise logs it to the Brain in the locked stage vocabulary and adds
@@ -94,6 +95,18 @@ to the member's words if they prefer):**
   and brokerage type, in their words) · what are you working toward this year · what is in the way. These
   mirror the five pains; the answers are what gets logged.
 
+**THE CTA BANK — page one of the sheet** (the "hook bank + CTA bank" the Week 3 homework names; `sf-ideas` writes
+the hooks, this writes the asks): **fifteen ask lines in the member's voice, three per pillar, each on the rung
+that fits the pillar** (the ask map in `${CLAUDE_PLUGIN_ROOT}/skills/sf-optimizer/references/platform-rules.md`)
+— the spoken line (one breath, the keyword said once) and its caption line (the keyword written once, last line).
+Authority → Comment / Resource (*"comment [KEYWORD] and I'll send you the one-page version we use"*) · Perspective
+→ Follow / save / share (*"send this to the agent who's panicking about it"*) · Story → DM (*"if this is where
+you are, DM me [KEYWORD]"*) · Proof → DM (*"want to know what she changed? DM me [KEYWORD]"*) · Personality →
+Follow only. Plus the one direct call-rung line, marked *once a month*. Every line is tied to a resource that
+exists (`magnets.md → ## Current magnet` first, `offer.md` second; `seeds` → the call); none names the model or
+the money. `sf-talkinghead`, `sf-carousel`, `sf-greenscreen`, and `sf-optimizer` take their CTA line from this
+bank once it exists; until then they write one on the same rules.
+
 **Write six messages for the primary keyword first, then six for each variant** (until the ManyChat templates
 run, every variant answers with the primary keyword's six), in the member's voice, each under 60 words:
 1. **Auto-reply** (the ManyChat one): acknowledge the comment, deliver the thing or the link, no questions.
@@ -140,13 +153,15 @@ appears because no template mentions income. "If empty, proceed" is banned.
      Agent · Type · Channel = DM · what they said, short, their words · objection heard · pain · next step ·
      Stage after = `Conversation`), through **`attraction-capture`** when it is present (it is the interim
      owner of that ledger), otherwise appended directly in that exact shape; and add or update the agent in
-     the Top-50 through **`attraction-top-50`** (Source = `reel: [title]`, Stage = `Conversation`). Stage
+     the Top-50 through **`attraction-top-50`** (Notes: `Source: instagram · via reel: [title]` — or `via story:
+     [theme]` for a story reply; `instagram` is the locked Source value that `sf-analytics` and the Conversion
+     scorecard read by that exact word; Stage = `Conversation`). Stage
      vocabulary is locked: Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded →
      Active. Then push via **attraction-brain-sync**; if the push fails, say it is not saved, retry once, stop.
 4. Never send anything. The member sends every DM themselves; this writes the words.
 
 ## Step 6 — Save
-Deliver in chat. Offer to save the sheet and bank per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`:
+Deliver in chat. Offer to save the sheet (the CTA bank first, then the keyword sheet, then the DM bank) per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`:
 render to `.docx` (`shared/render_doc.py`) → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
 `[YYYY-MM-DD] · Keyword Sheet + DM Bank`. Close with the one next step: *"pick the keyword for this week's
 Reels and say the word on camera; I'll write the human replies as they come in."*
@@ -155,6 +170,7 @@ Reels and say the word on camera; I'll write the human replies as they come in."
 - [ ] Brain loaded; avatars, offer, voice, booking link taken from it, nothing re-asked; offer seeds
       respected
 - [ ] One keyword per Reel, matched to the rung and the pillar; the direct call-rung at most once a month
+- [ ] The CTA bank: fifteen ask lines, three per pillar, each on its rung, every resource real, the call-rung once
 - [ ] Six messages for the primary keyword and for each variant, under 60 words, in the member's voice; the NEVER
       list kept on every one
 - [ ] Compliance read first; `unset` blocked delivery; no compensation anywhere

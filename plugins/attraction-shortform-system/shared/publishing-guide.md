@@ -98,8 +98,9 @@ Reels are videos, so the schedule call needs the member's video.
 - **Path A (full):** `createScheduledPost` takes `media` as a public URL, **or** a Drive file when the member has
   linked that account inside Metricool (one-time). A raw Drive *share* link is not public, so the Drive-in-Metricool
   link is what lets it pull straight from `03 · Content/Short-Form/`. With that in place, pass the file and the
-  whole post schedules — the hands-off default. The edited export from the Riverside editor (`studio-reel`) lands
-  in that folder.
+  whole post schedules — the hands-off default. The Riverside editor (`studio-reel`) leaves the finished reel in Riverside's
+  Exports as a download — it does not save to Drive — so the member drops that file into the month folder once
+  (or posts it through Riverside's own route instead: one route per post, never both).
 - **Path B (hybrid):** if the video isn't at a shareable URL (it's only on their phone), schedule the **caption +
   platform + best-time slot** and say plainly: *"Caption and time are set — open the app on your phone and drop
   your video onto it."* Still a big time-save.

@@ -47,9 +47,10 @@ Example: "Here's what we changed on our Tuesday call the week the rules changed.
 
 ### 10. The Specific Number
 Template: "[Number] — that's [what it is]. Here's why it matters to you."
-Example: "71% — that's the share of agents who closed zero deals last year. Here's the way out."
-(Only a number with a source the item provides; Mike's 71% figure is from `06-content-framework/40` — cite it
-to him if the member uses it.)
+Example: "Effective the 1st — that's when the new buyer-agreement rule starts. Here's what it changes for you."
+(Only a number or date the verified item itself provides, shown on screen with its source. A figure Mike quotes
+in a lesson — the "71% closed zero deals" line in `06-content-framework/40` — is his and unsourced in the lesson;
+it does not go into a member's Reel unless the member finds and cites the source themselves — house rules #7.)
 
 ## Hook selection
 | Item type | Best formulas |

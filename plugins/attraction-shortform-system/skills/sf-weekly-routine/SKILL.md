@@ -44,10 +44,11 @@ Open only:
 If none of the three to five Reels for the week are scripted yet, say so and point at `sf-ideas` →
 `sf-talkinghead`. Never plan a week of unwritten videos as if they existed.
 
-## The rhythm (Mike's, carried whole)
-- **Reels: three to five a week** — start at three, work up to five (`07-instagram/88`). The mix every
-  week: **2 attraction · 2 authority · 1 story** — attraction = a Proof or Personality Reel; authority = an
-  Authority or Perspective Reel; story = a Story Reel (`mike-frameworks.md` §9d). Static posts can be spliced
+## The rhythm (Mike's lessons, carried whole — the two OS defaults labeled as such)
+- **Reels: three to five a week** — start at three, work up to five (`07-instagram/88`). The default mix
+  every week — the cohort's Week 3 standard, not a lesson of Mike's (his sample week is in Step 2; confirm the
+  mix with him, `mike-frameworks.md` §15): **2 attraction · 2 authority · 1 story** — attraction = a Proof or
+  Personality Reel; authority = an Authority or Perspective Reel; story = a Story Reel (`mike-frameworks.md` §9d). Static posts can be spliced
   in for recognition and personal moments; they do not replace the Reels.
 - **Stories: every day, one to five**, a mix of personal and value; never a day without one
   (`07-instagram/89`). Reels build width and awareness; stories build depth and connection.
@@ -63,7 +64,8 @@ If none of the three to five Reels for the week are scripted yet, say so and poi
   them the moment they land (the Brain's capture skill, tag `shortform`) and let AI fill the other half.
   Mike: about half his ideas are AI-assisted, half are his own from experience, and the member should know
   their audience better than any prompt (`07-instagram/90`).
-- **The engagement routine (15 minutes a day, same time every day)** — reply to every comment with a
+- **The engagement routine (an OS default: 15 minutes a day, same time every day — Mike's lessons give the
+  moves, the OS gives the minutes)** — reply to every comment with a
   question within the day · answer every DM the same day · tag the agents you feature so they reshare it
   (their story reaches a whole new audience, `07-instagram/89`) · reshare agents' screenshots of your calls
   and wins (`06-content-framework/38`) · one interactive story element a day (poll, question box, "ask me

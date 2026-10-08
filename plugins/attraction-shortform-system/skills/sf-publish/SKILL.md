@@ -84,7 +84,10 @@ Read each recent post's real status (scheduled / published / failed). Report wha
 queued, what failed, with the plain cause and the fix: Instagram personal account → switch to Creator ·
 video did not attach → link Drive in the tool or use the hybrid path · nothing after a date → the free-plan
 cap. Offer to reschedule. **Never say "all posted" without reading the statuses.** Flip each published post's
-row in `content-log.md` to `Published` with the link.
+row in `content-log.md` to `Published` with the link. After the member's first verified publish, read the
+`Weekly Content Performance task:` line in `config.md`'s Short-Form block once: `not offered yet` → one line
+(*"want a short note every Friday on which posts started agent conversations? say yes and I'll switch it on"*),
+a yes handed to `sf-analytics` to provision; a task id or `declined` → nothing.
 
 ## Job E — Best times
 Pull best-time-per-network from the tool; turn it into a simple standing plan (*"your Reels do best Tue/Thu

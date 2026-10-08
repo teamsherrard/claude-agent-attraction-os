@@ -75,8 +75,10 @@ Reflect back in one breath so it's clear nothing will be re-asked:
 (including the `## Why join me` block, if written) · `identity/positioning.md` · `identity/offer.md` (respect its
 Status — at `seeds` the Partner Offer is Week 2; never call the seeds "the offer") · `identity/proof.md` ·
 `identity/story-bank.md` · `identity/brand-visual.md` (the "leader brand vs selling brand" line) ·
-`identity/operations.md` (the booking link, if `profile.md` has none) · `memory/ideas.md` (tags `shortform`, `story`)
-· `memory/content-log.md` (empty is normal) · `memory/objections.md`. Build the proposal from the Brain —
+`identity/operations.md` (the booking link, if `profile.md` has none) · `memory/ideas.md` (tags `shortform`, `story`,
+and its `## Past content (imported)` section — the `pillars:` note on how they post today is held there for this
+step, and what they already published keeps the seeds from repeating it) · `memory/content-log.md` (empty is
+normal) · `memory/objections.md`. Build the proposal from the Brain —
 develop, never transcribe:
 - **Authority — what I teach.** The known-for and the "what worked / teach first" lines dissected into **8–12
   topic seeds**, each tied to one of the avatar's pains in their words ("cast a wide net around your niche").
@@ -162,11 +164,14 @@ DM copy bank come later from `sf-comment-to-dm` — say so in one line only if t
 This is the moment that sells the whole system — before anything technical:
 > "Let's make your first one now. Say **'script my first attraction reel'** and I'll write it from your story,
 > hook three ways, keyword and all — or **'today's stories'** for three stories you can post in five minutes."
-Hand to **`sf-talkinghead`** or **`sf-stories`**. They finish holding a real, ready-to-film piece — not a checklist.
+Hand to **`sf-talkinghead`** or **`sf-stories`**. "Go" / "you pick" → hand to `sf-talkinghead` with the story-bank's
+hardest-stretch story as the topic: one Reel, no question stop. They finish holding a real, ready-to-film piece — not a checklist.
 Come back for Step 7 only after that piece is delivered (or if they say "set up the rest").
 
 ## Step 7 — Plumbing last (separate, optional, once each)
-1. **Cadence and the weekly mix** — propose the defaults from the doctrine and confirm in one word: *"Default
+1. **Cadence and the weekly mix** — **open now:** `identity/goals.md` (the hours per week they committed in Week 1;
+   its `Content:` line defers to this step) · `identity/strategy.md` (`Constraints / capacity`). Propose the number
+   from those — never ask for hours the Brain holds — and confirm in one word: *"Default
    plan: 3–5 Reels a week — 2 attraction, 2 authority, 1 story — and stories every day; batch day Tuesday. Keep
    it, or change the number?"* (Honest capacity beats ambition; three is the floor.) Write `Cadence:` ·
    `Weekly mix:` · `Batch day(s):` to `publishing.md` (the source) and mirror `Cadence` and `Platforms` into

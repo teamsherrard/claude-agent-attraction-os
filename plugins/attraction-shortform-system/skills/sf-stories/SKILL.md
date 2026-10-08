@@ -40,6 +40,8 @@ Read `~/attraction-brain/brain.md` first, then:
 - `identity/offer.md` — what they give today (the opportunity category); `seeds` → "what I'm building" sneak
   peeks and "book a call", never a demanded guide
 - `identity/journey.md` — the WHY line (an end-of-day reflection story)
+- `identity/operations.md` — the `Weekly model call:` day and time and the `Partner-call block:` days: on those
+  days the behind-the-scenes story proposes itself (the call screenshot, "three partner calls today") unasked
 - `identity/compliance.md` — three-state (stories are public)
 - `memory/content-log.md` — which categories ran this week (rows with Format `story`)
 - `memory/ideas.md` (tag `story`) — the member's own moments, first; `memory/debriefs.md` is the Debrief's
@@ -55,7 +57,8 @@ Read `~/attraction-brain/brain.md` first, then:
 ---
 
 ## Phase 1 — What happened today? (one question, optional)
-Stories are about the day. One light question, only if they didn't already say:
+Stories are about the day. If `operations.md` puts the weekly call or a partner-call block on today, lead with
+that story and skip the question. Otherwise one light question, only if they didn't already say:
 > "What's on today — a call, a win, a workout, an appointment, nothing special? One line and I'll build your
 > stories around it. Or say 'just pick' and I'll use the deck. Your turn."
 "Just pick" / no answer → build from the deck and the Brain (house rules #8). Never more than this one question.
@@ -84,7 +87,9 @@ real, not flaunted (`05-big-picture/36`); the opportunity story is value, never 
 number never appears in a story.
 
 ### Story-reply CTAs (how a story becomes a conversation)
-The story-reply flow is the DM rung of the ladder. The CTA is a question the viewer answers by replying:
+The story-reply flow is the DM rung of the ladder. The reply word defaults to the member's one keyword
+(`publishing.md`) whenever the story's ask is the Reels' ask — one word everywhere; a short story-specific word
+(CALL · LIST · YES) only when it isn't. The CTA is a question the viewer answers by replying:
 - *"Reply 'CALL' if you want the recording"* · *"Reply with the number of deals you're at — I'll tell you the one
   thing I'd change"* · *"Reply 'YES' and I'll send the template"* · *"Vote, then reply and tell me why."*
 If `publishing.md` says `ManyChat: connected` → the reply word triggers the **story-reply** sequence (Mike's
