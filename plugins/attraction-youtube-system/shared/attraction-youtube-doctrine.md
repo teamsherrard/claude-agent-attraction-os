@@ -15,8 +15,14 @@ the lesson is named. Where the vault is thin, §17 says so instead of inventing.
   and say why, kindly, in plain language.
 - The realtor YouTube doctrine (buyers, sellers, listings, market updates, home tours, relocation) does not
   apply here. This channel attracts **agents**. The viewer is a licensed real estate agent deciding who to follow.
-- Vocabulary (from the Brain's `how-we-speak.md`): "the member" is the person we serve; "agents" are the people
+- Vocabulary (from `shared/how-we-speak.md`): "the member" is the person we serve; "agents" are the people
   they attract. In front of the member say "you"; never "leads", "recruits", or "downline" out loud.
+- **Pillars vs buckets (locked OS-wide).** The five **content pillars** are the Brain's, by these exact names:
+  **Authority · Perspective · Story · Proof · Personality** (`identity/content-pillars.md`, written by `sf-setup`).
+  The five YouTube **buckets** — **Problem · Situation · Future · Interview · Model** — are an idea taxonomy, not
+  pillars. The mapping is in §3; every content-log row carries a pillar name in its Pillar column and the bucket in
+  its Topic / hook cell. In prose, Problem / Situation / Future are "the three niche buckets" (the VIP day calls
+  them "pillars of niche content"; this OS does not), and a playlist per bucket is a "lane".
 
 ## Section map
 §1 Why YouTube · §2 Mike's journey and the mindset · §3 The three categories and how they work together ·
@@ -97,6 +103,17 @@ and opportunity content) → CREATE CONVERSATIONS (CTA + resource + DM) → CONV
 for 180 days. Mike's one-line summary (`/93`): "Value-driven content attracts interest. Interviews build trust.
 Model breakdowns create clarity and action. Publishing consistently creates a recruiting machine."
 
+**Buckets → pillars (the OS lock).** The three categories become five buckets for tagging, and each bucket maps
+to one of the Brain's five pillars:
+
+| Bucket | Category | Pillar it carries in `content-log.md` | Angle notes |
+|---|---|---|---|
+| Problem | niche authority | **Authority** | the tactical teach |
+| Situation | niche authority | **Authority** | Story angle when it is the member's own wall (Why I Switched); Personality angle when it is a personal beat |
+| Future | niche authority | **Authority** | leverage and the next stage, concepts only |
+| Interview | interviews | **Proof** | the guest's transformation |
+| Model | model / opportunity | **Perspective** | the member's clear, fair take on how the model works |
+
 **The key distinction (VIP day):** do not make every video brokerage content. A channel that is all recruiting
 limits its reach and its trust. Niche authority builds the audience; interviews build proof; brokerage content
 captures intent. The 8-video cycle (§7) is the ratio that enforces this.
@@ -124,9 +141,10 @@ generation) · leadership insights and general education (mindset, new-agent suc
 (documenting the journey). **The test on every video:** "would this help an agent see me as a leader worth
 following?"
 
-**The three niche pillars (VIP day) — the OS's canonical buckets for Category 1:**
+**The three niche buckets (the VIP day calls them "pillars of niche content"; in this OS they are buckets, all
+carrying the Authority pillar — §3):**
 
-| Pillar | The question it answers | Examples (VIP day) |
+| Bucket | The question it answers | Examples (VIP day) |
 |---|---|---|
 | **Problem** — solve their problems | "What does my ideal agent already search for because they want the answer?" | how to generate leads · how to use AI · how to create content · how to win listings · how to improve conversion · how to break into luxury |
 | **Situation** — speak to their situation | Identity and problem-aware content: "he understands exactly where I'm at" | "Why good agents get stuck at 20 transactions a year" · "7 signs you've outgrown your brokerage" · "If you're a struggling agent, do this for the next 90 days" · "Why most agents never build leverage" |
@@ -135,7 +153,7 @@ following?"
 Every Problem/Situation/Future title is tied to one of the member's avatars and to one of Mike's five pains
 (`shared/attraction-doctrine.md` §7b: financial uncertainty · lack of support, mentorship, training ·
 technology gaps · limited growth · work-life balance and recognition). Future-pillar content touches leverage and
-recurring income **without numbers** (§15).
+recurring income **without numbers** (§15). (Future-bucket content is still Authority in the log.)
 
 **How to never run out of topics (`/94`):** ask your agents and prospects what challenges they face — every
 challenge is a video. Search YouTube for "[topic] for real estate agents" and study the auto-suggest and the
@@ -245,7 +263,7 @@ and every calendar in this plugin. It keeps authority, proof, and intent in prop
 
 - **Cadence (`/94`):** two videos a week is the recommendation (roughly 4× the growth of one). The 180-day
   machine (VIP day, days 151–180) runs at **1 YouTube video a week + 1–2 interviews a month** as the floor.
-  The member's realistic number is read from `identity/goals.md` and `identity/content-engine.md` (the
+  The member's realistic number is read from `identity/goals.md` and `identity/content-pillars.md` (the
   Short-Form System writes it in Week 3) — never assumed.
 - **At 2/week:** one cycle every 4 weeks; the 90-day plan is ~24 videos = 3 cycles (9 niche · 3 model · 12
   interviews). **At 1/week:** one cycle every 8 weeks; the 90-day plan is ~12 videos = 1.5 cycles. Interviews
@@ -296,7 +314,7 @@ YouTube."
 **The title formulas.** The vault never numbers "seven formulas"; lesson `/97` gives five by example, `/96` gives
 two, and the VIP day adds the rest. The OS keeps seven, each cited, so every skill counts the same way:
 
-| # | Formula | Pillar it serves | Source |
+| # | Formula | Bucket it serves | Source |
 |---|---|---|---|
 | 1 | **Why most agents can't [outcome] — and how to be the exception** | Problem · Situation | `/97` |
 | 2 | **The [N] mistakes keeping agents [stuck state]** | Situation | `/97` |
@@ -363,7 +381,7 @@ after one video — they binge for days, weeks, months ("their spouse is sick of
 additional video deepens trust and shortens the move from curious to committed; it handles objections before the
 call (why Mike's calls shrank from 60 to 30 minutes and converted better).
 
-- **Pillars become playlists.** Organize videos into clear themes; Mike's: the model explained, agent success
+- **Lanes: one playlist per bucket.** Organize videos into clear themes; Mike's: the model explained, agent success
   stories (new and experienced), each niche topic (Instagram, YouTube, Facebook ads…), mindset, journey, culture.
   His homepage order: **model explained → success stories → the value proposition**. Playlists make a lane easy to
   binge, and YouTube rewards viewers who stay on the channel.
@@ -380,13 +398,13 @@ call (why Mike's calls shrank from 60 to 30 minutes and converted better).
 
 The cohort plan names four long-form formats plus the interview. Each maps to a category and pillar:
 
-| Format | Category · pillar | What it is | Doctrine source |
+| Format | Category · bucket (pillar in the log) | What it is | Doctrine source |
 |---|---|---|---|
-| **Why I Switched** | Model/opportunity · Situation | The member's own move: the wall they hit, what they looked for, what changed since — the story that brought Mike his first 30 agents. **The old brokerage is never named** ("a franchise," "an independent," "a team"); the story is the wall, not the company. Updated and re-titled yearly | `/92`, `journey.md` rule |
-| **Pain Point Series** | Niche authority · Problem/Situation | One of the five pains, one avatar, one tactical answer they can use today; Mike's "every challenge an agent names is a video" | `/94`, doctrine §7b |
-| **Model Breakdown** | Model/opportunity · Model | §6 structure, mechanics not figures, myths, who it fits, "do not join if"; dated; remade yearly | `/96` |
-| **Niche Breakdown** | Niche authority · Problem/Future | A deep, specific teach from the member's niche (the thing they are known for) — the "cast a wide net around your niche" content; the Future pillar when it points at leverage and the next stage | `/93`, `/94` |
-| **Interview** (intro and outro) | Interviews | §5 — intro recorded last, hook-and-transformation title, casual joint CTA | `/95` |
+| **Why I Switched** | Model/opportunity · Situation (Authority, Story angle) | The member's own move: the wall they hit, what they looked for, what changed since — the story that brought Mike his first 30 agents. **The old brokerage is never named** ("a franchise," "an independent," "a team"); the story is the wall, not the company. Updated and re-titled yearly | `/92`, `journey.md` rule |
+| **Pain Point Series** | Niche authority · Problem/Situation (Authority) | One of the five pains, one avatar, one tactical answer they can use today; Mike's "every challenge an agent names is a video" | `/94`, doctrine §7b |
+| **Model Breakdown** | Model/opportunity · Model (Perspective) | §6 structure, mechanics not figures, myths, who it fits, "do not join if"; dated; remade yearly | `/96` |
+| **Niche Breakdown** | Niche authority · Problem/Future (Authority) | A deep, specific teach from the member's niche (the thing they are known for) — the "cast a wide net around your niche" content; the Future bucket when it points at leverage and the next stage | `/93`, `/94` |
+| **Interview** (intro and outro) | Interviews (Proof) | §5 — intro recorded last, hook-and-transformation title, casual joint CTA | `/95` |
 
 The vault does not name these four formats — the cohort plan does (§17). The structure inside each is §8.
 
@@ -397,7 +415,7 @@ direction.
 
 | Days | Phase | Goal | What happens |
 |---|---|---|---|
-| 1–30 | **Build the foundation** | get positioned and start publishing | Brain finished (Week 1), avatar and UVP final (Week 2), profiles optimized, YouTube positioning and pillars set, first 20–30 video ideas, first videos published, short-form running. **Consistency before optimization.** |
+| 1–30 | **Build the foundation** | get positioned and start publishing | Brain finished (Week 1), avatar and UVP final (Week 2), profiles optimized, YouTube positioning and lanes set, first 20–30 video ideas, first videos published, short-form running. **Consistency before optimization.** |
 | 31–60 | **Establish authority** | start becoming known for something | publish consistently in the niche; test titles, topics, hooks, thumbnails, angles; watch what gets clicks, watch time, comments, DMs; **begin interviews** |
 | 61–90 | **Create the conversion layer** | connect content to conversations | more case studies and model content, lead magnets, CTA-driven videos, DM conversations, Partner Calls. The question changes from "how many views" to **"how many agent conversations did this create?"** |
 | 91–120 | **Double down** | more of what works | read 90 days of data: topics, audience, which videos attract agents and calls, which CTAs work; stop treating topics equally; build **content clusters** (one winning topic → an ecosystem: AI tools · AI lead gen · AI content · AI follow-up · AI mistakes…) |
@@ -464,6 +482,9 @@ in the video must be real; no stock "culture."
 
 ## 17. What the vault does not say (thin spots — say so, never invent)
 
+- **"Pillars."** The VIP day says "three pillars of niche content" and "three primary pillars" for the categories;
+  the OS reserves "pillar" for the Brain's five content pillars and calls Mike's three "categories" and the VIP's
+  three "buckets." The teaching is unchanged; only the label is.
 - **"Seven title formulas"** is the plan's count, not Mike's. Lesson `/97` states five title patterns by
   example; `/96` and the VIP day supply the rest. §9 cites each one; skills say "the title formulas" and never
   claim Mike numbered them.

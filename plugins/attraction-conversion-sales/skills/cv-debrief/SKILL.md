@@ -145,7 +145,8 @@ Written for the member to record on Loom; never generated as media.
   next step · stage after. Never rewrite an earlier row.
 - **`memory/pipeline.md`** — the AI Admin owns stage moves. **If the AI Admin is installed** (its block in
   `config.md`), end the debrief with **STAGE MOVE REQUESTED: [Name]: Call booked → Call held** (or → 3-way)
-  in the locked vocabulary and let `admin-pipeline` apply it. **If it is not installed**, write the move
+  in the locked vocabulary, tell the member "logged — the stage moves on your next Admin run", and let
+  `admin-pipeline` apply it. **If it is not installed**, write the move
   directly in the same vocabulary — the Board line and a Stage-moves-log row (`Logged by: cv-debrief`) — and
   refresh nothing else. Stages, locked: Identified → Conversation → Call booked → Call held → 3-way → Joined
   → Onboarded → Active · Parked.

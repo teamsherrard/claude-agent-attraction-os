@@ -7,19 +7,23 @@ from `avatars.md`), `[niche]` and `[known for]` (`strategy.md`, `offer.md`), `[p
 placeholder.** Every batch is **bucketed**: Problem · Situation · Future · Interview · Model, and every plan keeps
 the 8-video cycle (3 niche · 1 model · 4 interviews — doctrine §7).
 
+Buckets are not pillars: the OS pillars are the Brain's five (Authority · Perspective · Story · Proof ·
+Personality); Problem / Situation / Future → Authority, Interview → Proof, Model → Perspective in every
+content-log row (`brain-contract.md`).
+
 Aligned to `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`: the three categories (§3), the niche
-pillars (§4), interviews (§5), model breakdowns (§6), the title formulas (§9 — numbered 1–7 below), the four
+buckets (§4), interviews (§5), model breakdowns (§6), the title formulas (§9 — numbered 1–7 below), the four
 script formats (§12), and the cardinal rules (§15). Titles never carry compensation figures, income, or a
 negative word about a brokerage or person.
 
 ## The five buckets, the four formats, and where each template lands
-| Bucket | Category | Script format it usually becomes |
+| Bucket | Category (pillar in the log) | Script format it usually becomes |
 |---|---|---|
-| **Problem** | niche authority | Pain Point Series · Niche Breakdown |
-| **Situation** | niche authority | Pain Point Series · Why I Switched |
-| **Future** | niche authority | Niche Breakdown (leverage, next stage) |
-| **Interview** | interviews | Interview (intro/outro) |
-| **Model** | model / opportunity | Model Breakdown · Why I Switched |
+| **Problem** | niche authority (Authority) | Pain Point Series · Niche Breakdown |
+| **Situation** | niche authority (Authority · Story angle) | Pain Point Series · Why I Switched |
+| **Future** | niche authority (Authority) | Niche Breakdown (leverage, next stage) |
+| **Interview** | interviews (Proof) | Interview (intro/outro) |
+| **Model** | model / opportunity (Perspective) | Model Breakdown · Why I Switched |
 
 ---
 

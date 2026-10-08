@@ -3,7 +3,7 @@ name: yt-setup
 description: >
   One-time onboarding for the Agent Attraction YouTube System. Reads the member's Agent Attraction Brain
   (who they are, the agents they attract, their offer, story, voice, compliance) and never re-asks it; captures
-  only the channel; then builds the channel positioned for attraction — the about text, playlists by pillar
+  only the channel; then builds the channel positioned for attraction — the about text, playlists by lane
   (Problem · Situation · Future · Interviews · Model), the banner brief for Claude Design, upload defaults with
   the book-a-call line first, and the two-CTA line — as a paste-by-paste Channel Page Kit; writes the channel
   file to the Brain; then hands straight into the YouTube Game Plan. Works for a brand-new channel or fixes an
@@ -61,8 +61,9 @@ Add the model tip only if this is a fresh session: one sitting, medium effort.
 Read `brain.md`, then only: `identity/profile.md` · `avatars.md` · `strategy.md` (known for) · `offer.md`
 (the resource and the offer; `Status: seeds` means Week 2 builds the offer — never demand it) · `journey.md`
 (the story, no former brokerage named) · `proof.md` · `voice.md` · `compliance.md` · `brand-visual.md` (the
-kit status) · `operations.md` (the booking link) · `content-engine.md` (cadence, if Week 3 wrote it;
-otherwise `goals.md`'s content line; fall back to `content-pillars.md` if that is the name in use).
+kit status) · `operations.md` (the booking link) · `content-pillars.md` (the Short-Form System's file — the
+five pillars Authority · Perspective · Story · Proof · Personality, cadence, the two CTAs — if Week 3 wrote it;
+otherwise `goals.md`'s content line; empty is normal before Week 3).
 Reflect it back in two lines so it is clear nothing will be re-asked:
 > "Here's what I'm working from: you're [name], you help [avatar] [outcome] through [known-for], your resource
 > is [the lead magnet or 'your Partner Call for now'], and your booking link is [link]. I won't ask any of that again."
@@ -89,8 +90,8 @@ each; the member pastes as you go (~15 minutes). Positioning comes from the Brai
 1. **CHANNEL DESCRIPTION** *(Studio → Customization → Basic info → Description — opening paragraph)* — 2–3
    sentences in their voice, phrased the way agents search ("[niche] for real estate agents", "how [model]
    works", "new agent"), naming the avatar, what they'll get, the cadence from the Brain.
-2. **ABOUT SECTION** *(same field, below)* — who it serves (the avatar in plain words) · the pillars by name
-   (Problem · Situation · Future lanes, the interview lane, the model lane) · one real proof line from
+2. **ABOUT SECTION** *(same field, below)* — who it serves (the avatar in plain words) · the lanes by name
+   (the Problem · Situation · Future lanes, the interview lane, the model lane) · one real proof line from
    `proof.md` (never invented; zero proof → one honest line) · the resource + the booking link · the
    **disclosure block** from `compliance.md` (brokerage name and license as required, the disclaimer verbatim).
    Reuse the Brain's saved bio phrasing (the same entity line across platforms is what AI search rewards).
@@ -99,7 +100,7 @@ each; the member pastes as you go (~15 minutes). Positioning comes from the Brai
 4. **CHANNEL KEYWORDS** *(Settings → Channel → Basic info → Keywords)* — 8–12 agent-search phrases from
    `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md` (the model phrase, the niche + "for real estate
    agents", the avatar phrase, "how to switch brokerages"…). Never single generic words.
-5. **PLAYLISTS** *(Content → Playlists → New)* — **by pillar, in Mike's homepage order (doctrine §11):** the
+5. **PLAYLISTS** *(Content → Playlists → New)* — **one lane per bucket, in Mike's homepage order (doctrine §11):** the
    model lane ("[Model] explained") · the interview lane ("Agent success stories") · then the three niche
    lanes (Problem · Situation · Future), each named in search language with a one-line description. These
    are the Game Plan's playlists — one strategy everywhere. Note the order for the homepage layout.
@@ -123,9 +124,10 @@ present, recruiting scope respected, no protected-characteristic targeting.
 
 ## Step 5 — Save (write → push → verify, one step)
 1. Write **`~/attraction-brain/identity/channel.md`** from `references/channel-template.md` (channel ·
-   positioning · pillars and playlists · the CTA line · upload defaults set [date] · channel page set [date] ·
-   baseline). Create an empty **`memory/interview-pipeline.md`** from the template's row shape if it does not
-   exist. Register the plugin's block in `config.md` ("Later plugins register here"). Push via
+   positioning · lanes and playlists · the CTA line · upload defaults set [date] · channel page set [date] ·
+   baseline; the Performance section stays empty for `yt-analytics`). Create an empty
+   **`memory/interview-pipeline.md`** with the header and row shape from
+   `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` if it does not exist (never touch existing rows). Register the `## YouTube (Week 4)` block in `config.md` (installed date · plugin version · pointer to the channel file — nothing else). Push via
    `attraction-brain-sync` and verify. If the push fails: say it is not saved, keep the kit visible, retry once,
    stop.
 2. Render the kit on the **Channel Page Kit skeleton** (`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`) via
@@ -134,7 +136,7 @@ present, recruiting scope respected, no protected-characteristic targeting.
    plainly: *"Your channel kit is saved in your workspace under Content → Long-Form, and everything's pasted."*
 
 ## Step 6 — Hand straight into the Game Plan (the first win)
-Run `${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/SKILL.md` now — the audit, the three niche pillars, the
+Run `${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/SKILL.md` now — the audit, the three niche lanes, the
 interview and model lanes, ~50 titles, the goal-math in conversations and calls, the first 90 days — saved to
 the same folder. Then:
 > "Open your Game Plan — your whole channel is mapped. Pick any title from the first cycle and say 'make this

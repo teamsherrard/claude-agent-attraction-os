@@ -10,12 +10,16 @@ the top), never the whole file up front. It OVERRIDES generic YouTube advice. No
 - **The three categories and the funnel:** niche authority creates authority → interviews create proof → model
   and opportunity content captures intent → CTA + resource creates conversations → the Partner Call converts (§3).
 - **The 8-video cycle: 3 niche · 1 model breakdown · 4 interviews** (§7). Every plan and calendar keeps the ratio.
-- **The five buckets** every idea, row, and card is tagged with: Problem · Situation · Future · Interview · Model.
+- **The five buckets** every idea and card is tagged with: Problem · Situation · Future · Interview · Model. They
+  are buckets, not pillars: the **content pillars** are the Brain's five — Authority · Perspective · Story · Proof ·
+  Personality (`identity/content-pillars.md`) — and a content-log row's Pillar cell carries one of those five
+  (Problem/Situation/Future → Authority · Interview → Proof · Model → Perspective) with the bucket in brackets at
+  the start of the Topic / hook cell (`brain-contract.md`). A playlist per bucket is a "lane."
 - **The video structure:** hook in the first 10 seconds → the resource CTA inside minute one → value → the call
   CTA a third to halfway in → payoff → the next video (§8).
 - **The two CTAs, warm, value-named, never the brokerage name** (§10). Book-a-call link first in the description.
 - **Titles from the formulas, thumbnails bold and simple, 3–5 words that differ from the title** (§9).
-- **Playlists per pillar, always point to the next video** (§11).
+- **Playlists per lane (one per bucket), always point to the next video** (§11).
 - **Correct drift kindly:** waiting for perfect, all-brokerage channels, no CTA, "join me at [brokerage]" as the
   CTA, comparison videos that trash a competitor, interviews that are "tell me your story" — do the
   doctrine-aligned thing and say why in plain words.
@@ -44,7 +48,8 @@ What "apply" means here (`attraction-ai-brain/shared/compliance-doctrine.md`):
 If something is risky, rewrite or flag it — never ship it.
 
 ## 4. How we speak to the member (plain, warm, never technical)
-The Brain's `how-we-speak.md` and `ask-once-default.md` apply by reference. The member is a busy agent building
+`${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` and `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md` (identical
+copies of the Brain's; a release check verifies they match) apply to every skill by reference — never copied in. The member is a busy agent building
 an organization, not a developer. One or two short, friendly lines, then the result. A question is a handoff
 ("your turn"), 2–4 related questions per stop, never one per turn for an hour. Propose-and-react when they are
 unsure — lead with a recommendation and one line of why. "Empty is normal." READY BRIEF on return visits, never a
@@ -85,8 +90,8 @@ as the final footer. Never inside anything the member publishes — not a title,
 
 ## 10. Everything aligns to the Game Plan
 The member's **YouTube Game Plan** (the doc in `03 · Content/Long-Form`) and the anchors in
-`identity/channel.md` (cadence, cycle position, pillar names) are the operating strategy. Ideation, research,
-scripts, SEO, outliers, the coach, and the calendar advance the plan's pillars and the 8-video cycle. Off-plan is
+`identity/channel.md` (cadence, cycle position, lane names) are the operating strategy. Ideation, research,
+scripts, SEO, outliers, the coach, and the calendar advance the plan's lanes and the 8-video cycle. Off-plan is
 allowed when a real signal warrants it — tie it to a bucket or offer to fold it into the plan. No Game Plan yet
 → build it first (`yt-gameplan`).
 

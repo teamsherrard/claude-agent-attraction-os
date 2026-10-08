@@ -18,6 +18,9 @@ Running list. Each line: what · where · status.
 - Intel reports: dated filenames `YYYY-MM-DD-[agent].md` per the template; newest wins · DONE
 - Conversion DECISION NEEDED (doctrine §3) for Mike: step-5 label (Questions / Questions & Objections / Resolve Concerns), default call length (60 until mastered then 30), objection framework label (Listen → Validate → Reframe → Invite, the six-step version folded inside) · WAITING
 
+- Conversion-owned files ruled IN: `identity/sales-system.md` (sales-system-setup), `memory/sales-funnel.md` (sales-scorecard), the `## Practice log` section of `memory/objections.md` (cv-objection-coach), `memory/intel-reports/*` plan files; the `Setter` key in the `## Conversion & Sales` config block. Add rows to Conversion's brain-contract.md, the Brain template (sales-system.md, sales-funnel.md), and BRAIN-CONTRACT.md · OPEN
+- Conversion DECISION NEEDED for Mike (J2): the "5-Point Framework" is named in the docs but defined nowhere (built on lesson 85's five principles); the 15 objections' archetype assignments are the builder's; confirm · WAITING
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 

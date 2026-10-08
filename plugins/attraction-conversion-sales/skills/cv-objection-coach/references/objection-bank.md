@@ -49,7 +49,10 @@ probably means · question to ask · suggested response · mistake to avoid". Th
 
 The coach names **four** steps out loud (the vault's), asks **the question** every time (the launching doc's Clarify
 and Isolate, which the lessons already do), and attaches proof or a story (Evidence). Nothing in the six-step
-list contradicts the four; the six just names the question and the evidence as their own steps.
+list contradicts the four; the six just names the question and the evidence as their own steps. The plugin's
+`shared/conversion-doctrine.md` §3 locks the same four and folds Clarify and Isolate into Listen; this bank keeps
+"the question to ask" as a named beat after Validate because that is where every lesson places it — same four
+steps, same conversation, one open decision (the doctrine's DECISION NEEDED 3).
 
 ---
 
@@ -392,10 +395,9 @@ model-specific reframe is built with the Brokerage Model Expert ("say 'explain m
 ---
 
 ## DECISION NEEDED (for Mike, before v1 is recorded)
-1. **Framework naming.** The coach teaches the vault's four steps (Listen · Validate · Reframe · Invite) and asks
-   "the question" between Validate and Reframe, as every lesson does. The Launching doc lists six steps (Understand ·
-   Clarify · Isolate · Reframe · Evidence · Question). The mapping table above treats them as the same conversation.
-   Confirm: four steps out loud (default, the vault), or six?
+1. **Framework naming** — the same decision as `shared/conversion-doctrine.md` DECISION NEEDED 3, not a second
+   one: four steps out loud (the vault, the default here and in the doctrine) or the Launching doc's six. If six, the
+   coach's scoring line gains "Clarify/Isolate" and "Evidence" as named beats; the handlers below already contain both.
 2. **Archetype assignments** for the fifteen are the build's (primary · secondary above). Confirm or move any.
 3. **Brokerage-specific figures** quoted in the lessons (co-working access, cap deferral, health-benefit savings, the
    "88% don't recruit" statistic, cap and split numbers) are deliberately NOT in the handlers; they come from each

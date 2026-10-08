@@ -46,26 +46,30 @@ stamped — see "also writes") · `identity/proof.md` (Proof pillar; consent col
 (design direction in words only) · `identity/brokerage-model.md` (facts for model Reels; private numbers never
 surface) · `identity/compliance.md` · `memory/content-log.md` (all rows, to avoid repeats) · `memory/objections.md`
 (objection Reels) · `memory/ideas.md` (tag `shortform` and `story`; the member's own ideas come first) ·
-`memory/intel.md` (brokerage and industry news for `sf-greenscreen`) · `memory/proof` seeds via `proof.md`.
+`memory/intel.md` (brokerage and industry news for `sf-greenscreen`) · `memory/content-performance.md` (what worked —
+the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet).
 
 ## What this plugin OWNS (writes)
 
 | File | Owner skill | Also writes (designated lines only) |
 |---|---|---|
 | `identity/content-pillars.md` | `sf-setup` (creates it in Week 3; "update my pillars" edits one section) | `sf-ideas` appends to the `## Hooks bank` section only |
-| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, bios) | `sf-publish` / `sf-batch-publish` → the `Posting tool:` lines after a connect; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it; `sf-analytics` → `Weekly Content Performance task:` (task id or `declined`) |
+| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, bios) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it; `sf-analytics` → `Weekly Content Performance task:` (task id or `declined`) |
 | `memory/content-log.md` — **Short-Form rows only** | every content skill appends its own rows; `sf-publish` updates the Status and Link of a row it finds | YouTube, the AI Editor, and Events own their own rows; nobody edits another plugin's row except the Editor flipping Status to `Edited` |
 | `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` (one line: installed date, plugin version, pointer to `publishing.md`) | nothing else in `config.md`, ever |
+| `memory/content-performance.md` | `sf-analytics` (the Friday performance ledger — which Reels, stories, and keywords produced agent DMs; inside the sync allowlist) | the content skills read it; nobody else writes it |
+| `memory/conversations.md` — **interim rows only** | the Conversion & Sales plugin (Week 5) owns it; until the Conversion / AI Admin plugins exist, `sf-comment-to-dm` writes a conversation row that starts from a Reel or story (through `attraction-capture` when the Brain plugin is present, directly in the same locked row shape otherwise) | no other short-form skill writes it |
 
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story this
 plugin used (the Brain contract allows content skills to stamp it); `memory/ideas.md` → flip a `shortform` /
 `story` idea's Status to `used` (the Brain contract allows content plugins to mark Used); `memory/intel.md` →
 the `Used?` column of a row `sf-greenscreen` turned into a Reel. Nothing else in those files.
 
-**Never written by this plugin:** anything else in `identity/`, `memory/top-50.md`, `conversations.md`,
-`pipeline.md`, `organization.md`, `scorecard.md`, `objections.md` (even an objection Reel only *reads*),
-`debriefs.md`, `deadlines.md`, `capture-log.md`, `prospect-intel.md`. A conversation that starts from a Reel's
-comments is handed to `sf-comment-to-dm` → the Conversion plugin, which logs it.
+**Never written by this plugin:** anything else in `identity/`, `memory/top-50.md`, `pipeline.md`,
+`organization.md`, `scorecard.md`, `objections.md` (even an objection Reel only *reads*), `debriefs.md`,
+`deadlines.md`, `capture-log.md`, `prospect-intel.md`. A conversation that starts from a Reel's comments or a
+story reply is handed to `sf-comment-to-dm`, the only short-form skill that logs a conversation row (interim, as
+above); the content skills never do.
 
 ## Locked shapes this plugin uses
 - **`memory/content-log.md` row** (the template's shape, never extended):
@@ -83,12 +87,13 @@ comments is handed to `sf-comment-to-dm` → the Conversion plugin, which logs i
 ## `identity/publishing.md` — the shape (this plugin defines it; every line is a locked key)
 ```
 # [Member First Name] — Publishing (the short-form layer)
-*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool), sf-board (Content board), sf-comment-to-dm (Keyword), sf-analytics (Weekly Content Performance task).*
+*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board (Content board), sf-comment-to-dm (Keyword), sf-analytics (Weekly Content Performance task).*
 **Short-form setup:** [not started | pillars done | bios done | keyword done | complete YYYY-MM-DD]
 **Platforms (priority order):** [Instagram Reels · TikTok · YouTube Shorts · Facebook Reels · LinkedIn]
 **Cadence:** [N Reels/week · stories daily] · **Weekly mix:** [2 attraction · 2 authority · 1 story] · **Batch day(s):** [ ]
 **Keyword:** [ONE WORD] · **What it opens:** [the resource / "let's talk" → book a call] · **ManyChat:** [connected YYYY-MM-DD | not yet — replying by hand | declined]
-**Posting tool:** [manual | metricool | gohighlevel | declined YYYY-MM-DD] · **Connected on:** [ ] · **Brand / location:** [id or name, no secrets]
+**Posting tool:** [manual | metricool · connected YYYY-MM-DD · brand [name] | gohighlevel · connected YYYY-MM-DD · location [name] | declined YYYY-MM-DD]  ← one line, no secrets
+**Best times:** [per network, from the connected tool — empty until connected]  ← `sf-publish` writes only this line and the one above
 **Content board:** [URL | declined YYYY-MM-DD | (empty = not offered yet)]
 **Weekly Content Performance task:** [task id | declined | not offered yet]
 **Link in bio:** [tool · the links in order, each with its action text]
@@ -99,15 +104,18 @@ comments is handed to `sf-comment-to-dm` → the Conversion plugin, which logs i
 
 ## `identity/content-pillars.md` — the shape (written by `sf-setup`)
 Title and owner line · `**Status:**` · the one-line anchors pulled from the Brain (primary avatar, known-for, the
-"why I'm here" line) · `## The five pillars` with one section per pillar (Authority: the niche dissected into
-topic seeds and the pain each answers · Perspective: the takes, the myths to bust, the questions to answer ·
-Story: the journey beats and the story-bank hooks to tell first · Proof: the agent wins with consent, the
-recurring behind-the-scenes · Personality: passions, routines, family lines the member is willing to share and
-which agents relate to them) · `## Weekly mix` · `## Hooks bank` (appended by `sf-ideas`).
-**Contract note for the coordinator:** the Brain template, `brain.md`, and the Brain's `brain-contract.md`
-currently name this file `identity/content-engine.md`; the master plan §1, the build brief, and the Brain's
-`how-we-speak.md` §3 say `content-pillars.md`. This plugin writes `content-pillars.md` as briefed. One name must
-win before release (and `attraction-brain-sync`'s allowlist must carry `content-pillars.md` and `publishing.md`).
+"why I'm here" line) · five sections headed **exactly** `## Authority` · `## Perspective` · `## Story` · `## Proof`
+· `## Personality` (the OS-wide canonical names; the Brain doctrine's "what I teach · behind the scenes of leading ·
+agent wins · industry POV" are sub-examples inside Authority / Proof / Perspective, never headings). Inside them:
+Authority — the niche dissected into topic seeds and the pain each answers · Perspective — the takes, the myths to
+bust, the questions to answer · Story — the journey beats and the story-bank hooks to tell first · Proof — the agent
+wins with consent, the recurring behind-the-scenes · Personality — passions, routines, family lines the member is
+willing to share and which agents relate to them · then `## Weekly mix` · `## Hooks bank` (appended by `sf-ideas`).
+**Contract note:** the Brain template, `brain.md`, and the Brain's `brain-contract.md` currently name this file
+`identity/content-engine.md`; the master plan §1, the build brief, and the Brain's `how-we-speak.md` §3 say
+`content-pillars.md`, which the coordinator has confirmed as canonical (the Brain side is being aligned). This
+plugin writes `content-pillars.md`. `attraction-brain-sync`'s allowlist must carry `identity/content-pillars.md`,
+`identity/publishing.md`, and `memory/content-performance.md`.
 
 ## Scheduled agents this plugin owns
 **Weekly Content Performance** (Friday) — owned and provisioned by `sf-analytics`, only with the member's

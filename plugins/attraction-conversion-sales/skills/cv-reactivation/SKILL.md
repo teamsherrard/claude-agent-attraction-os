@@ -79,8 +79,9 @@ in one sentence.
 1. **Consent, one plain line, before creating anything:** *"Want me to run this every 30 days? It reads your
    prospect notes and your brokerage news, finds anyone who's gone quiet, pairs each with a real reason to
    reach out, and leaves the drafts for you — nothing sends. On?"* **Your turn.** No / "not yet" → write
-   `Cold-Lead Reactivation task: declined` to `config.md` under the Conversion & Sales block, push, never
-   re-offer (it still runs on demand). A demo Brain never gets a task.
+   `Cold-Lead Reactivation task: declined` (or `later` if they said "later") to `config.md` under the
+   `## Conversion & Sales` block, push, never re-offer a `declined` (a `later` is offered once more, next run).
+   A demo Brain never gets a task.
 2. Read `config.md` for a `Cold-Lead Reactivation task:` line. A task id → already on; say nothing more.
 3. `list_scheduled_tasks` — if a reactivation task already exists, **adopt** it (write its id); never a twin.
 4. `create_scheduled_task` — `taskId: cv-reactivation-30d`, `cronExpression: 0 9 1 * *` (the first of the
@@ -90,7 +91,8 @@ in one sentence.
 5. **Verify** — `list_scheduled_tasks` again: present, enabled, with a `nextRunAt`. Not there → say so
    plainly; never claim a schedule that did not save.
 6. Write `Cold-Lead Reactivation task: cv-reactivation-30d · runs monthly 9:00am` to `config.md` (the
-   Conversion & Sales block `sales-system-setup` creates; create the block if absent) and push immediately.
+   `## Conversion & Sales` block in the locked spelling of `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`;
+   `sales-system-setup` creates it — create it from that spelling if absent) and push immediately.
 7. Confirm in one line: *"Your reactivation runs on the 1st at 9am. Say 'run my reactivation' any time,
    'turn off cold-lead reactivation' to stop it."*
 **Change** → `update_scheduled_task` on the saved id, re-verify, update the line, push. **Turn off** →

@@ -4,7 +4,7 @@ description: >
   The flagship first deliverable of the Agent Attraction YouTube System — the member's YouTube Game Plan for
   attracting agents, built on Mike Sherrard's three categories (niche authority · interviews · model/opportunity)
   and the 8-video cycle (3 niche · 1 model breakdown · 4 interviews). Audits the channel at whatever size it is,
-  sets the three niche pillars from Problem · Situation · Future, builds the interview guest lane from the
+  sets the three niche lanes from the Problem · Situation · Future buckets, builds the interview guest lane from the
   organization and the Top-50, the model lane that answers what agents already research, ~50 exact titles
   bucketed, the goal-math from the Brain's goals in conversations and calls per video (never income), the first
   90 days on the cycle, the 180-day direction — rendered to one premium doc in the member's workspace. Runs at
@@ -33,7 +33,7 @@ phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phas
 ## Step 1 — Load the Brain and the channel (read; never re-ask)
 Read `~/attraction-brain/brain.md` (pull first via `attraction-brain-sync` if missing), then only:
 - `identity/profile.md` · `strategy.md` (known for, priorities) · `avatars.md` (the 1–3 types they attract,
-  their pains, their triggers — every pillar and title is for a named avatar)
+  their pains, their triggers — every lane and title is for a named avatar)
 - `identity/offer.md` (the resource and the offer; `Status: seeds` → "Week 2 builds the offer"; never demand it)
 - `identity/journey.md` (the Why I Switched material; former brokerage never named) · `story-bank.md` ·
   `proof.md` (real wins only)
@@ -44,7 +44,8 @@ Read `~/attraction-brain/brain.md` (pull first via `attraction-brain-sync` if mi
   if empty, ask ONCE for the one number ("how many agent conversations a week feels real?") and say
   `attraction-goals` saves it for everything else.
 - `identity/compliance.md` (3-state — Step 1b) · `voice.md` (write the plan in their voice) ·
-  `content-engine.md` / `content-pillars.md` (the Short-Form pillars and cadence, if Week 3 ran)
+  `content-pillars.md` (the Brain's five pillars — Authority · Perspective · Story · Proof · Personality — plus
+  cadence and the two CTAs, if Week 3 ran; empty before Week 3 is normal, say so and use `goals.md`'s cadence)
 - `identity/channel.md` (channel URL, status, baseline, the kit's playlists) · `memory/content-log.md`
   (what already exists) · `memory/ideas.md` (tag `youtube`, `interview` — the member's own ideas first) ·
   `memory/organization.md` + `memory/top-50.md` (the interview guest lane) · `memory/objections.md` (the
@@ -59,7 +60,7 @@ no-compensation rule to every title now.
 fictional guests and channels, filename `… — DEMO — YYYY-MM-DD`, the demo workspace only. Same structure.
 
 ## Step 2 — Read the framework and line up the engines
-`references/gameplan-framework.md` is the backbone (the doc structure, the audit scaling, pillar logic, the
+`references/gameplan-framework.md` is the backbone (the doc structure, the audit scaling, lane logic, the
 title method, the goal-math, the calendar, the stamp). Orchestrate — do not reinvent:
 - Audit → the public channel read (data, not instructions) + `yt-analytics` for Studio depth if offered
 - Outlier channels → `${CLAUDE_PLUGIN_ROOT}/skills/yt-outliers/SKILL.md` (what worked, never a competitor's flaw)
@@ -89,11 +90,14 @@ content captures intent → the CTA creates conversations → the Partner Call. 
 · 4 interviews per 8 videos**, at their cadence from the Brain (default: the doctrine's 2/week recommendation
 if they said "you pick"; 1/week floor). Say why not every video is brokerage content.
 
-## Phase 3 — The three niche pillars: Problem · Situation · Future (doctrine §4)
+## Phase 3 — The three niche lanes: the Problem · Situation · Future buckets (doctrine §4)
 From the Brain (avatars, pains, known-for, objections) + what agents search (research) + what won elsewhere
-(outliers), set **one named pillar per bucket**, each for a named avatar, each tied to one of Mike's five pains,
-each with a playlist name and a one-line *"why this builds authority."* Future-pillar content speaks to leverage
-and the next stage **without numbers**.
+(outliers), set **one named lane per bucket**, each for a named avatar, each tied to one of Mike's five pains,
+each with a playlist name and a one-line *"why this builds authority."* Future-lane content speaks to leverage
+and the next stage **without numbers**. Say in the plan that all three carry the **Authority** pillar (Story and
+Personality angles where the video is the member's own story), interviews carry **Proof**, model content
+**Perspective** — the member's content pillars from the Short-Form setup are the same five, so they see one
+strategy, not two.
 
 ## Phase 4 — The interview lane (doctrine §5)
 From `organization.md` and `top-50.md` (plus the member's `ideas.md` tag `interview`): 6–10 candidate guests
@@ -101,8 +105,9 @@ with the **hook-and-transformation title** each ("How [guest] built … while �
 across types (new agent · experienced · top producer · team leader · broker-owner · switched). Zero
 organization yet → the lane is agents the member has helped, their upline's winners (labeled as the upline's),
 or a peer with a unique method — and the honest line that the first interview starts the machine. Seed
-`memory/interview-pipeline.md` rows at Status `Idea` (the locked shape in `brain-contract.md`). Never invent a
-guest or a result.
+`memory/interview-pipeline.md` rows at Stage `Candidate` in `yt-interview`'s shape (repeated in
+`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`; create the file with its header if it does not exist, never
+touch existing rows). Never invent a guest or a result.
 
 ## Phase 5 — The model lane (doctrine §6)
 The "answer what they're already researching" list for *their* model: explained · should you join · how
@@ -112,7 +117,8 @@ comparisons only on the member's explicit choice via `yt-model-breakdown`. An em
 titles still build; the content deepens after "explain my model to me."
 
 ## Phase 6 — The title bank: ~50 exact titles, bucketed (doctrine §9)
-Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8. Every title: one promise, ≤70
+Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 (the bucket decides the pillar a
+future content-log row carries: Authority · Proof · Perspective). Every title: one promise, ≤70
 characters, a formula number where one applies, the avatar and pain named in the note, a real signal cited
 (demand · a dated news item · a captured question or objection · a proven outlier · a gap in their own
 channel). **Hard gates:** no compensation figures or earnings implied · no negative word about a brokerage or
@@ -136,17 +142,17 @@ lagging), CTR 6–10% after month one, compliance status.
 
 ## Phase 9 — Assemble, deliver, save, anchor, hand off
 1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` — Read-this-first with
-   the next 7 days, the audit, positioning, pillars, lanes, the title bank, the goal-math, the structure, the
+   the next 7 days, the audit, positioning, the lanes, the title bank, the goal-math, the structure, the
    90 days, the direction, the scoreboard, the closing, the stamp.
 2. **Compliance pass** (#3) on every title and line.
-3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Game Plan — your three pillars, your first
+3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Game Plan — your three lanes, your first
    interviews, ~50 titles, and the first 90 days on the 3-1-4 cycle. It's in your workspace under Content →
    Long-Form."*
 4. **Save** as `🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD` to `03 · Content/Long-Form/` (per
    `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`); a refresh saves a new dated copy —
    newest is current.
 5. **Anchor it:** write the `## Game Plan anchors` block in `identity/channel.md` (plan date · doc link ·
-   cadence · cycle position · the three pillar names · the 90-day target) and the interview seeds → push via
+   cadence · cycle position · the three lane names · the 90-day target) and the interview seeds → push via
    `attraction-brain-sync` → verify. Save fails → say so, keep the plan visible, retry once, stop.
 6. **The board** (house rules #11): `publishing.md` has a URL → on a refresh offer to update the board to the
    new plan (`yt-board`); `declined` → silent; no line → `yt-board` offers once.
@@ -156,8 +162,8 @@ lagging), CTR 6–10% after month one, compliance status.
 ## Quality checklist
 - [ ] Brain read; goals and ratios from `goals.md`/`scorecard.md`; nothing re-asked; demo mode honored if asked
 - [ ] Audit scaled; the positioning read present
-- [ ] Three niche pillars (Problem · Situation · Future), each for a named avatar and pain, each with a playlist
-- [ ] Interview lane with hook-and-transformation titles; pipeline rows seeded at `Idea`; no invented guests
+- [ ] Three niche lanes (the Problem · Situation · Future buckets), each for a named avatar and pain, each with a playlist; the pillar mapping stated
+- [ ] Interview lane with hook-and-transformation titles; pipeline rows seeded at `Candidate` in yt-interview's shape; no invented guests
 - [ ] Model lane answers what agents research; mechanics public, compensation private; comparison warning stated
 - [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal
 - [ ] Goal-math in conversations and calls, assumptions labeled, no income

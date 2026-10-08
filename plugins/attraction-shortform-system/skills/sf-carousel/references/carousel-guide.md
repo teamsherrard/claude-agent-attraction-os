@@ -1,49 +1,79 @@
-# Carousel Guide — Value Swipe Posts
+# Carousel Guide — attraction swipe posts (three types + the LinkedIn version)
 
-Carousels win when they teach something genuinely useful, fast. People **save** them (signals value) and
-**share** them (signals relevance) — both drive reach without the agent ever filming.
+Carousels win when an agent **saves** them (worth keeping) and **shares** them (relevant to a friend) — reach
+without filming. For attraction they do one more thing: the "Why I Left" story lets an agent see their own wall
+in the member's past. Doctrine: `shared/mike-frameworks.md` §5 (Story, Authority, Perspective), §6, §8, §11.
 
-## Carousel types (pick what fits the agent's market/niche)
-| Type | Example cover hook |
-|---|---|
-| Local guide | "7 best coffee shops in [area]" |
-| Buyer education | "5 things to know before buying your first home" |
-| Seller checklist | "6 things to do before you list your home" |
-| Neighbourhood guide | "3 [city] neighbourhoods under $[X] with top-rated schools" *(see Fair-Housing note below)* |
-| Market breakdown | "What's actually happening in the [city] market right now" |
-| Relocation content | "Moving to [city]? Pros and cons nobody tells you" |
-| Money / process | "The real cost of buying a home in [city] (all-in)" |
+## Type 1 — "Why I Left My Brokerage" (Story)
+The most-shared post a leader can make, and the one that goes wrong most often. The rules first:
+- **The former brokerage is never named.** "A franchise." "An independent." "A big team." (`journey.md` rule;
+  `03-model-positioning/13`.)
+- **Not one negative word about it or anyone there.** The post is about the *problem* — the cap that never moved,
+  the lead bill with no closings, the training that explained forms but not clients — never about the company.
+  Give credit where it's true ("they taught me the paperwork").
+- **No compensation.** Why they left is a problem; where they went is "the vehicle"; what they built is the point.
+Structure (8–9 slides):
+1. **Cover** — the moment in the agent's words: *"I almost quit real estate in year 3."* / *"My best year ever —
+   and January 1st it reset to zero."*
+2. **Where I was** — the beat from `journey.md` "where they started", specific.
+3. **The wall** — "the hardest stretch", one slide, the true detail.
+4. **What I believed then** — the belief that kept them stuck (this is what the reader believes now).
+5. **The turn** — what changed, what they decided.
+6. **What I built** — the thing from `offer.md` / `strategy.md` known-for (what partners get access to — the
+   iceberg below the water, named, not sold).
+7. **What's different now** — one honest line of proof (`proof.md`, consent) or the life it bought (`journey.md`
+   WHY).
+8. **Who I help now** — the avatar, in a sentence they'd recognize ("if you're 2–5 years in and paying for leads
+   that don't convert…").
+9. **CTA** — "Save this. Send it to an agent who's where I was." / "DM me 'call' if this is you." (Story's rung is
+   save/share or DM; never the model.)
 
-## Slide structure (6–9 slides)
-1. **Cover (slide 1) — the hook.** A bold, short, benefit-led promise. This is 90% of whether anyone
-   swipes. Lead with the number ("7…", "5 things…") or the payoff. No agent intro, no logo-only cover.
-2. **Slides 2 to N-1 — one idea each.** Short. Skimmable. A header line + 1–2 supporting lines max. Build
-   momentum; make each slide earn the next swipe. Be specific and local (real areas, real numbers).
-3. **Final slide — the CTA + payoff.** Deliver on the cover's promise, then ONE ask:
-   - **Lead-magnet CTA** — "Want the full [guide/checklist]? DM me '[KEYWORD]'" or "link in bio." (Use a
-     real lead magnet from `offer.md`.)
-   - **Share CTA** — "Save this for later 📌 and send it to someone who's thinking about [buying/moving]."
-     Best for pure-reach/awareness carousels.
+## Type 2 — Pain-point (Authority / Perspective)
+Name one of the five pains in the avatar's words (`avatars.md`: financial uncertainty · lack of support,
+mentorship, training · technology gaps · limited growth · work-life balance and recognition) and show the fix the
+member actually uses.
+1. **Cover** — the pain, said the way the agent says it: *"You closed 20 deals and you're still broke in March."*
+2. **Why it happens** — the real mechanism, one slide.
+3. **What most agents do** — the thing that doesn't work (never "what your brokerage does").
+4–6. **The fix, in three steps** — the member's actual routine / system / script (from `offer.md` "what worked",
+   `content-pillars.md` Authority seeds). Specific enough to use today.
+7. **What it looks like fixed** — a proof line with consent, or the member's own result as stated.
+8. **CTA** — the keyword: *"Comment **SCRIPTS** and I'll send you the whole thing."*
 
-## What makes a carousel get saved + shared
-- **A strong, specific cover.** Vague = no swipe. "Best areas for families" → "3 [city] neighbourhoods
-  under $X with the best schools."
-- **Genuinely useful, not a tease.** Give the actual value. A carousel that's all hype and no substance
-  doesn't get saved.
-- **Skimmable.** Short lines, one idea per slide, lots of breathing room. No paragraphs.
-- **Local and specific.** Real neighbourhoods, real numbers, real local knowledge — the "why not just use
-  ChatGPT" test (house rules #7).
-- **One clear CTA**, matched to the job (lead magnet OR share).
+## Type 3 — Myth-busting (Perspective)
+A belief that keeps agents stuck. A myth about the *business* — never "myths about [named brokerage]" (that's a
+pitch, and it breaks the cardinal rules the moment it compares).
+1. **Cover** — the myth, verbatim as agents say it: *"You need paid leads to make it in this market."*
+2. **Why people believe it** — fair, respectful.
+3. **The truth** — the member's take, with conviction.
+4–6. **The evidence** — their routine, a real result (consent), a sourced number if one exists (never invented).
+7. **What to do instead** — one step.
+8. **CTA** — the keyword or "save this for the next time someone tells you that."
 
-## Design direction (words only — the agent builds it in claude.ai/design)
-Describe, don't render:
-- Layout per slide (where the headline sits, where the CTA goes, cover vs content slides).
-- Brand colours, fonts, and vibe from `brand-visual.md` (e.g. "charcoal slides, gold accent, big bold
-  headline, generous spacing, logo small bottom-corner").
-- Keep it simple and consistent slide-to-slide so it looks like a set.
-- Never produce an image or a rendered slide — the words + this direction are the deliverable.
+## The LinkedIn document-post version (team leaders and broker-owners)
+When `publishing.md` lists LinkedIn or an avatar is a team leader / broker-owner, write the same piece as a
+**PDF document post**: 8–12 pages, one idea per page, bigger type, landscape or 1080×1350. Reframe for a leader
+who carries a team: the "adult daycare" exhaustion, retention, leverage, "two steps back to take twenty forward"
+(Mike's vocabulary, Brain doctrine §16). Plus the **post copy**: 150–200 words, a first line that stands alone
+above the fold, no hashtag wall (0–3), the ask = "message me" or the keyword typed in a reply (no comment
+automation on LinkedIn — say so if they ask). Same cardinal rules; compliance stamp per the file.
 
-## Fair-Housing note
-Neighbourhood/"best area" carousels must stay compliant: talk about verifiable facts (price, schools by
-name/score, commute, amenities), never who "belongs" somewhere and never "good/bad area" or
-"family-friendly" as a proxy. Run everything through `compliance.md`.
+## Slide craft (all types)
+- **A strong, specific cover.** The agent's problem or the surprise — not the member's credentials.
+- **Genuinely useful, not a tease.** Give the real thing; the carousel that's all hype doesn't get saved.
+- **Skimmable.** Header + 1–2 lines per slide. No paragraphs. Momentum: every slide earns the next swipe.
+- **One clear CTA**, one rung, the keyword where it fits.
+- **Theirs:** the delete test, the any-agent test, the so-what test. Develop the Brain's raw lines into a point.
+
+## The design brief for `ds-carousel` (words only)
+Hand the Design Studio: the type and slide count · sizes (Instagram 4:5; LinkedIn document PDF) · which slide
+is the hook and which the CTA · the colours, fonts, and feel from `brand-visual.md` **exactly as written** (hex
+codes, names; "none yet" if the kit isn't built — then "the Design Package first" in one line) · logo placement
+and the brokerage name/logo rule from `compliance.md` · the copy, slide by slide. Never an image, never a
+rendered slide — the brief and the copy are the deliverable.
+
+## Compliance read-back (do it slide by slide)
+Former brokerage unnamed · no negative characterization of any brokerage or person · no compensation (splits,
+caps, stock, rev-share, income) · no earnings claims · no "#1 / best" without a dated source · agents named only
+with consent · any real-estate example describes properties and facts, never who "belongs" somewhere · the
+brokerage name / license / disclaimer as `compliance.md` requires.

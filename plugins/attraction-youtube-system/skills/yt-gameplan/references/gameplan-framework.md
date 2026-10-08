@@ -21,8 +21,9 @@ Substance and structure are what make it worth the cohort price — never visual
 4. **Your positioning** — for whom · known for · the one line ("[Name] helps [avatar] [outcome] through
    [mechanism]" — from `offer.md`'s UVP when Week 2 built it; otherwise built from `strategy.md` + `avatars.md`
    and labeled "draft until Week 2").
-5. **The three niche pillars** — Problem · Situation · Future, each named, each for a named avatar and pain,
-   each with a playlist and a one-line "why it builds authority."
+5. **The three niche lanes** — the Problem · Situation · Future buckets, each named, each for a named avatar and
+   pain, each with a playlist and a one-line "why it builds authority." (All three carry the Authority pillar in
+   the content log; interviews Proof; model Perspective — the Brain's five pillars, `content-pillars.md`.)
 6. **The interview lane** — the playlist, 6–10 candidates with hook-and-transformation titles, source, sequenced
    by relatability.
 7. **The model lane** — the playlist, the answer-what-they-research list, the comparison warning.
@@ -52,8 +53,8 @@ watch time (`yt-analytics` ingests). Never a stat that was not seen.
 existing library stays (it is proof of consistency and skill); the attraction content goes in its own playlists
 and the channel page re-positions to agents; one channel unless the member insists on two — Mike runs one.
 
-## The three niche pillars — how to choose (doctrine §4)
-For each bucket pick ONE named pillar where (a) the member's known-for and avatar fit (`strategy.md`,
+## The three niche lanes — how to choose (doctrine §4)
+For each bucket pick ONE named lane where (a) the member's known-for and avatar fit (`strategy.md`,
 `avatars.md`), (b) agents demonstrably search it (research — autocomplete, the top videos, the member's own
 comments and `objections.md`), and (c) it is underserved by the outlier channels or served badly.
 - **Problem** — the tactical lane: the member's niche skill as a searchable how-to series ("[niche] for real
@@ -62,8 +63,9 @@ comments and `objections.md`), and (c) it is underserved by the outlier channels
   you've outgrown…"); the five pains supply the angles.
 - **Future** — the aspiration lane: leverage, leadership, the next stage, modern models — concepts only, no numbers.
 Playlists: one per bucket plus the interview and model lanes; homepage order model → interviews → niche
-(`/99`). If `content-engine.md` (Short-Form, Week 3) already named pillars, reuse the names so the member sees
-one strategy, not two.
+(`/99`). `content-pillars.md` (Short-Form, Week 3) holds the Brain's five pillars (Authority · Perspective ·
+Story · Proof · Personality) and the Short-Form topic seeds — reuse its Authority topic seeds and its cadence so
+the member sees one strategy, not two; never rename a pillar, never call a lane a pillar in the plan.
 
 ## The interview lane (doctrine §5)
 Sources in order: `memory/organization.md` (agents in the org with a result — first deal, cap, turnaround),
@@ -87,7 +89,8 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 - **Formulas by number** (doctrine §9 / `shared/idea-templates.md`); one promise; ≤70 characters; the viewer
   named ("real estate agent", the avatar type) when the search needs it.
 - **Per bucket:** Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 ≈ 50.
-- **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap]`.
+- **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap]`
+  (the bucket heading already fixes the pillar the content-log row will carry).
 - **Order inside a bucket:** broad and searchable first, deeper and higher-intent later; vary the angle at the
   top of every list (never two titles on the same angle opening a bucket).
 - **Hard gates (compliance, every title):** no compensation figures or earnings implied; no negative word about

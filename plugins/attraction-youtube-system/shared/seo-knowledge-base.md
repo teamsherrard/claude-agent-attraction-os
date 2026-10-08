@@ -70,7 +70,7 @@ beats complex and clever. Then the mechanics:
   as the pitch** — the brokerage name appears where `compliance.md` requires it (the disclaimer block), not as
   the ask.
 - **Chapters** that are descriptive and search-friendly ("How rev share actually works" not "Part 2").
-- **Related videos** — the next logical video and the pillar playlist (§11), then 3–5 hashtags, then the
+- **Related videos** — the next logical video and the lane's playlist (§11), then 3–5 hashtags, then the
   compliance stamp (brokerage name and license display as required, the disclaimer verbatim, the income
   disclaimer only if earnings were mentioned, the AI-likeness line on clone content).
 - **Pinned comment:** the resource link + one question that invites agents to comment their situation (comments
@@ -104,7 +104,7 @@ from `yt-repurpose`: #Shorts + 2–4 niche + 1–2 timely.
 
 ## Advanced (engagement + watch time)
 - Chapters → key moments in Google and better retention. Accurate captions (upload an SRT) → a clean
-  transcript the algorithm and AI assistants read. Playlists per pillar → auto-play next, longer sessions. End
+  transcript the algorithm and AI assistants read. Playlists per lane (one per bucket) → auto-play next, longer sessions. End
   screens (last 5–20s) → the next video and the playlist; cards → the resource mid-video. Reply to every
   comment; `yt-leads` triages them.
 - **AI search:** Mike's point in `/91` — agents now ask AI assistants "best sponsor at [brokerage]" and

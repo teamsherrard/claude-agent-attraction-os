@@ -126,7 +126,7 @@ The one line:  {"[Name] helps [avatar] [outcome] through [mechanism]"}
 
 
 ════════════════════════════════════════════
-YOUR THREE NICHE PILLARS   (Problem · Situation · Future)
+YOUR THREE NICHE LANES   (the Problem · Situation · Future buckets — Authority in the log)
 ════════════════════════════════════════════
    PROBLEM — {name}  ·  Playlist: "{playlist}"
    Who it pulls in: {avatar} · Pain: {one of the five} · Why it builds authority: {one line}
@@ -139,7 +139,7 @@ YOUR THREE NICHE PILLARS   (Problem · Situation · Future)
 ════════════════════════════════════════════
 YOUR INTERVIEW LANE
 ════════════════════════════════════════════
-Playlist: "{Agent success stories}"
+Playlist: "{Agent success stories}"   (Proof in the log)
    #    GUEST                 TRANSFORMATION (THE TITLE HOOK)                      SOURCE
    1    {name}                {How … built … while …}                              {organization / top-50}
    …    (6–10 candidates, by relatability across types)
@@ -149,7 +149,7 @@ Playlist: "{Agent success stories}"
 YOUR MODEL LANE
 ════════════════════════════════════════════
 Playlist: "{[Model] explained}"
-   {the answer-what-they're-researching list: explained · should you join · how [component] works · ask a sponsor these questions · do NOT join if}
+   {the answer-what-they're-researching list: explained · should you join · how [component] works · ask a sponsor these questions · do NOT join if}   (Perspective in the log)
    {Mike's comparison warning, one line — comparisons only on the member's explicit choice}
 
 
@@ -235,7 +235,7 @@ CHANNEL PAGE KIT — [MEMBER NAME]
 
 ──────────────── ABOUT SECTION ────────────────
    >> PASTE INTO:  same field, directly below the description
-{who it serves · the pillars by name · one real proof line · the resource + the booking link · the disclosure block}
+{who it serves · the lanes by name · one real proof line · the resource + the booking link · the disclosure block}
 
 ──────────────── LINKS ────────────────
    •  {Booking link} — the Partner Call
@@ -249,7 +249,7 @@ CHANNEL PAGE KIT — [MEMBER NAME]
 ──────────────── PLAYLISTS ────────────────
    •  {Model explained}:  {one-line description}
    •  {Agent success stories}:  {…}
-   •  {Problem pillar}:  {…}   •  {Situation pillar}   •  {Future pillar}
+   •  {Problem lane}:  {…}   •  {Situation lane}   •  {Future lane}
 
 ──────────────── BANNER BRIEF   (for ds-brand in Claude Design) ────────────────
 Headline:  {who it's for + what they get}
@@ -290,7 +290,7 @@ For {avatar}  ·  Bucket {Problem / Situation / Future / Interview / Model}  · 
    01:00  {…}
 
    WATCH NEXT
-   {the next logical video} · {the pillar playlist}
+   {the next logical video} · {the lane's playlist}
 
 ──────────────── TAGS ────────────────
 {tag, tag, tag, …}
@@ -339,9 +339,9 @@ Pattern it follows:  {from the swipe file, when loaded}
 (DIRECTION 2, 3 — same shape; each scored against the patterns)
 ```
 
-### Lead Magnet Map
+### Lead Map (`yt-leads` — only when a resource exists)
 ```
-{VIDEO TITLE} — LEAD MAGNET MAP
+{VIDEO TITLE} — LEAD MAP
 Offer {from offer.md}  ·  Avatar pain {one of the five}  ·  CTA {booking link}
 
 ──────────────── THE RESOURCE ────────────────

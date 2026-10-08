@@ -57,8 +57,8 @@ last conversation go, and what did they push back on? Two lines, or paste the th
 4. **Use multiple channels** — text, email, DM, video message.
 5. **Consistency matters more than frequency** — stay in touch at the pace their interest sets.
 *(The cohort materials call this skill "the 5-Point Framework"; the five points are not defined anywhere
-in the vault beyond these five principles in lesson 85, so these five are what the engine enforces —
-flagged DECISION NEEDED for Mike in the plugin's build notes.)*
+in the vault beyond these five principles in lesson 85 — `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md`
+§7 reads them the same way — so these five are what the engine enforces; flagged DECISION NEEDED for Mike.)*
 
 ## The reasons a touch is allowed to exist (Mike's trigger list — `/85`, `/42`)
 A touch with none of these is not sent; it is replaced or the date is moved:
