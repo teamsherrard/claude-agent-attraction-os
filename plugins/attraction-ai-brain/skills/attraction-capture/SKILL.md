@@ -1,17 +1,15 @@
 ---
 name: attraction-capture
 description: >
-  The on-the-go capture layer for the Agent Attraction Brain — the member talks while driving or
-  between meetings, and it lands in the right place: an AGENT CONVERSATION (logged,
-  stage noted), an AGENT NAME for the Top 50, an OBJECTION heard and what worked, a WIN (a join, an
-  agent's result, an org milestone), a content IDEA, BROKERAGE or INDUSTRY NEWS, a STORY MOMENT.
-  Routes real actions to the AI Admin. One line in, one line back.
-  Trigger on: "just talked to an agent", "had a call with", "add [name] to my top 50", "an agent to
-  watch", "objection I heard", "they said [objection]", "an agent just joined", "[agent] just hit",
-  "attraction win", "attraction video idea", "reel idea for agents", "capture this for my
-  attraction brain", "brokerage news", "industry note", "remember this moment", "story for the
-  bank", or any on-the-go note about an agent, a conversation, a win, an idea, or news. (Client
-  notes, reminders, email drafts, and bookings are the AI Admin (`admin-pipeline` for stage changes, `admin-follow-up-queue` for drafts), not this skill.)
+  The on-the-go capture layer for the Agent Attraction Brain — the member talks while driving or between
+  meetings, and it lands in the right place: an AGENT CONVERSATION (logged, stage noted), an AGENT NAME for the
+  Top 50, an OBJECTION heard and what worked, a WIN (a join, an agent's result, an org milestone), a content
+  IDEA, BROKERAGE or INDUSTRY NEWS, a STORY MOMENT. Hands real actions to the AI Admin. One line in, one line
+  back. Trigger on: "just talked to an agent", "had a call with", "add [name] to my top 50", "an agent to watch",
+  "objection I heard", "they said [objection]", "an agent just joined", "[agent] just hit", "attraction win",
+  "attraction video idea", "reel idea for agents", "capture this for my attraction brain", "brokerage news",
+  "industry note", "remember this moment", "story for the bank", or any on-the-go note about an agent, a
+  conversation, a win, an idea, or news. (Reminders, drafts, and stage changes belong to the AI Admin, not here.)
 ---
 
 # Attraction Capture — the system-wide "just say it" front door

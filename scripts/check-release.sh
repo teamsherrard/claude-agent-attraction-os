@@ -236,7 +236,7 @@ say "── 6. top changelog entry names files that are actually committed/stage
 python3 - <<'PY' || FAIL=1
 import re,subprocess,sys,os
 cl=open("CHANGELOG.md").read()
-m=re.search(r'^## \[([^\]]+)\].*?(?=^## \[)',cl,re.M|re.S)
+m=re.search(r'^## \[([^\]]+)\].*?(?=^## \[|\Z)',cl,re.M|re.S)
 if not m: print("  ✗ could not parse the top changelog entry"); sys.exit(1)
 ver,body=m.group(1),m.group(0)
 names=set(re.findall(r'`([a-z0-9][a-z0-9-]*(?:\.md|\.py|\.sh)?)`',body))
