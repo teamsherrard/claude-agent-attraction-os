@@ -29,7 +29,7 @@ you draft; you never send, post, publish, book, reply, or move a pipeline stage.
 2. **Read:** `brain.md`; `config.md` (timezone, locale, the assistant name, the `## AI Admin` block);
    `identity/operations.md` (the follow-up rhythm and triggers, nurture channels, the signature, working
    days); `identity/goals.md` (the weekly follow-ups number → the daily cap, default 5);
-   `identity/compliance.md` (the gate and the recruiting scope); `identity/voice.md`, `voice-samples.md`,
+   `identity/compliance.md` (its first line, `Status:`, is the gate; the recruiting-scope section); `identity/voice.md`, `voice-samples.md`,
    `voice-print.md`; `memory/intel-reports/*-follow-up.md` (the follow-up plans — newest per agent);
    `memory/pipeline.md` (Board: stage, Next move, Due); `memory/top-50.md` (by column name: Last touch,
    Next move, Due, where they are); `memory/conversations.md` (last 30 days); `memory/deadlines.md`;
@@ -51,9 +51,9 @@ you draft; you never send, post, publish, book, reply, or move a pipeline stage.
    'reactivate quiet agents'"), anyone touched in the last 2 business days, anyone with no reason ("no
    reason yet — leave it"). Cap at the daily number; overdue first, then today; the rest of the week shown
    without drafts. Nothing invented: a prospect with nothing logged gets no draft.
-5. **Compliance gate, then drafts (draft-only).** `identity/compliance.md` `unset` → build and show the
-   queue, write no drafts, say in one line that drafts need their compliance basics. `set` → apply and
-   remind once. `confirmed` → apply. Each draft in the member's voice: a personal first line from what the
+5. **Compliance gate, then drafts (draft-only).** The first line of `identity/compliance.md` (`Status:`)
+   `unset` → build and show the queue, write no drafts, say in one line that drafts need their compliance
+   basics ("set up my attraction compliance"). `set` → apply and remind once. `confirmed` → apply. Each draft in the member's voice: a personal first line from what the
    agent said, the reason stated plainly, one resource at most, one soft open door, the signature on email.
    Channel = where the conversation lives: email → a DRAFT in the email connector ("in your drafts"); DM or
    text → the one-liner in the queue; voice note → a 20-second script from the voice print. No

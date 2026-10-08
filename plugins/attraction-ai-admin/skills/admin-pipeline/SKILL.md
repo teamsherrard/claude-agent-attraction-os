@@ -36,16 +36,15 @@ this board on its runs — not even a touch cell is edited here), `conversations
 and capture), or `debriefs.md`. The full rules, including how requested moves reach the board:
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` — read it before the first write of a session.
 
-## Step 1 — Load
-`memory/pipeline.md` · `memory/top-50.md` (by column name) · `memory/conversations.md` · `memory/debriefs.md`
-(the newest entries' `Stage moves requested`) · `memory/organization.md` · `memory/deadlines.md` ·
-`memory/intel-reports/` (history, match-back, the follow-up plans) · `memory/objections.md` (match-back) ·
-`identity/operations.md` (CRM tags, the follow-up rhythm, a new agent's first steps, the 3-way partner) ·
-`config.md` (`CRM`, the `CRM mirror` line). Pull via `attraction-brain-sync` if the local copy is missing;
-a tool error is never "no Brain".
+## Step 1 — Load (two files, every run; each mode opens the rest)
+`memory/pipeline.md` (the Board, the Stage moves log, the Counts line) · `memory/conversations.md` (the
+newest row per name = the last touch; `Stage after` cells and dated `Next step` cells newer than the Board =
+requests). `config.md` (`CRM`, the `CRM mirror` line) is open from admin-core. Pull via
+`attraction-brain-sync` if the local copy is missing; a tool error is never "no Brain". A file already open
+is never re-read.
 
 ## Housekeeping first, every in-chat run (silent, one line)
-Find every PENDING request — the four shapes in `brain-contract.md`: a `Stage after` on a conversation row
+Open now: `memory/debriefs.md` (the newest entries' `Stage moves requested`). Find every PENDING request — the four shapes in `brain-contract.md`: a `Stage after` on a conversation row
 newer than that agent's last log row · a `STAGE MOVE REQUESTED: [Name]: [from] → [to]` line in this session
 · a Debrief entry's `Stage moves requested` · a `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line in
 this session (or a dated `Next step` on a conversation row newer than the Board's next move) — and apply
@@ -58,15 +57,20 @@ never guessed: a stage outside the vocabulary, an agent on no ledger, two reques
 run never does this; it lists.
 
 ## Mode A — the board ("my prospect pipeline" · "who's at call booked")
-Counts by stage in one line, then the rows for the stage asked (or every active stage), one line each:
-name · type · entered [date] · next move · due · who owns it. Add GONE QUIET in one line when it applies:
-Conversation-stage agents with no touch in 14+ days and Identified with no move in 30+ days (touch dates
-from `conversations.md`, the Top-50's `Last touch`, and the queue's Log). No lecture; one move each, and
+Nothing more opens: the two Step 1 files carry it. Counts by stage in one line, then the rows for the stage
+asked (or every active stage), one line each: name · type · entered [date] · next move · due · who owns it.
+Add GONE QUIET in one line when it applies: Conversation-stage agents with no touch in 14+ days and
+Identified with no move in 30+ days (touch dates from `conversations.md`; for a name with no row in 14 days,
+open the Top-50's `Last touch` and the queue's Log in `memory/follow-up-queue.md` — a sent touch counts —
+before calling them quiet). No lecture; one move each, and
 "say 'my follow-up queue'" for the drafts; quiet 30+ days → "say 'reactivate quiet agents'"
 (`cv-reactivation`). Empty board on a new Brain: *"Nobody on the board yet — your first conversation puts
 them here."*
 
 ## Mode B — a move ("move Sarah to 3-way" · "Sarah booked for Thursday" · "park James")
+Open now: `identity/operations.md` (the rhythm's defaults, the 3-way partner, a new agent's first steps, CRM
+tags) · `memory/deadlines.md` · `memory/organization.md` on a move to Joined · `memory/top-50.md` only when
+the name is not on the Board (admin-core's ladder).
 1. **Resolve the name** (admin-core's ladder). On no ledger → add the Board row anyway (the Board is this
    skill's; an inbound agent can be here before the Top-50) and say in one line: "say 'add Sarah to my top
    50' to put her on your list."
@@ -104,6 +108,8 @@ them here."*
 "Undo" → a reverse row with the reason; history is never edited.
 
 ## Mode C — history ("what happened with James" · "where does James stand")
+Open now: `memory/top-50.md` · `memory/objections.md` · `memory/intel-reports/` (the newest report and
+follow-up plan for the name) · `memory/follow-up-queue.md` (the Log) · `memory/debriefs.md` · `memory/deadlines.md`.
 Read everything with his name: the Top-50 row (type, where he is, how he came in) · the Board row and every
 log row · `conversations.md` rows in date order (his words, the objection, the pain, the next step promised)
 · `objections.md` rows · the newest intel report and follow-up plan in `memory/intel-reports/` · the queue's
@@ -114,6 +120,7 @@ date · the one thing to pre-empt. **Never invent** — "nothing logged since th
 answer when it is. Nothing here comes from outside the Brain and the CRM.
 
 ## Mode D — match-back ("who in my pipeline would care about [this update / event / resource]")
+Open now: `memory/top-50.md` · `memory/objections.md` · `memory/intel-reports/` (the follow-up plans).
 The payoff for every note ever logged, in reverse: the member names a thing — a positive change to the
 model, a notable join, a new training or tool, an event, a story, a video, an agent's win — and this skill
 finds the agents already in their world it gives a REASON to reach out to (`12-simple-tech-stack/85`).
@@ -132,6 +139,7 @@ finds the agents already in their world it gives a REASON to reach out to (`12-s
 On the go ("just heard our brokerage changed X — who cares?") the same, zero questions, shortlist only.
 
 ## Mode E — the CRM ("update my CRM from my pipeline" · "sync my pipeline with my CRM")
+Nothing more opens beyond `identity/operations.md` (the member's own naming for tags and stages).
 Connected → mirror every Board stage to its tag or field; then read back and list any disagreement in one
 line each ("GoHighLevel has Sarah at Call held, your board says Call booked") and apply the CRM's stage
 only on the member's yes. Contact details (email, phone, spelling) → the CRM wins; the Admin never writes

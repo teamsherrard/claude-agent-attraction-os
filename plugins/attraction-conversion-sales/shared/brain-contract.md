@@ -126,8 +126,8 @@ that did not save.
   handler" when a captured objection has none).
 - **Out:** `cv-presentation` → `ds-offer-assets` (the design brief, by name, pasted into Claude Design) ·
   `cv-enrollment-script` and `cv-presentation` → `05 · Offer` (rendered docs) · `cv-call-prep` and
-  `cv-agent-intel` → `04 · Agents/Prospects` (rendered docs) · stage and next-move requests (`STAGE MOVE
-  REQUESTED` · `NEXT MOVE REQUESTED`, the locked lines above) → the AI Admin (`admin-pipeline`) ·
+  `cv-agent-intel` → `04 · Agents/Prospects` (rendered docs) · stage and next-move requests
+  (`STAGE MOVE REQUESTED` · `NEXT MOVE REQUESTED`, the locked lines above) → the AI Admin (`admin-pipeline`) ·
   weekly numbers → `admin-scorecard` (the WEEKLY ROW line) · follow-up plans and reactivation drafts → the Daily
   Follow-Up Queue (`admin-follow-up-queue`) once the Admin is installed.
 

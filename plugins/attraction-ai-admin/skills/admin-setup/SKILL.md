@@ -37,8 +37,8 @@ Load the Brain (admin-core Step 0). Then:
   how you follow up. Then say 'set up my attraction admin' again."* Stop. Never duplicate its questions.
 - `identity/goals.md` at `seeds` → carry on; say once at the end that the scorecard needs locked targets
   ("set my attraction goals").
-- `identity/compliance.md` unset → carry on (the board and the numbers don't need it); say once at the end
-  that drafts a prospect could read wait on "set up my attraction compliance".
+- `identity/compliance.md` — its first line, `Status:` — unset → carry on (the board and the numbers don't
+  need it); say once at the end that drafts a prospect could read wait on "set up my attraction compliance".
 - `config.md → Daily Debrief task`: note whether it holds a task id, `declined`, or nothing — Step 4 uses it.
 
 ## Step 2 — Confirm, don't ask (one card, "your turn")

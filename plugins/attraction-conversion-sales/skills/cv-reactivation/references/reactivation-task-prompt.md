@@ -31,9 +31,9 @@ Steps, in order, plain language throughout (no file names, no sync talk, no step
 7. Output, as the final thing you produce: REACTIVATION — [n] quiet agents · [n] drafts ready · [n] left alone ·
    each draft under the agent's name · then ONE request line per drafted agent, spelled exactly
    `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` — the move is the touch you drafted ("send the Marcus
-   story by DM"), the date is when it goes; never a stage. Reactivation never changes a stage: no "STAGE MOVE
-   REQUESTED" line ever comes from this run, and the stage words (Identified → Conversation → Call booked → Call
-   held → 3-way → Joined → Onboarded → Active · Parked) are only read here, never written. The AI Admin's
+   story by DM"), the date is when it goes; never a stage. Reactivation never changes a stage: no
+   "STAGE MOVE REQUESTED" line ever comes from this run, and the stage words (Identified → Conversation →
+   Call booked → Call held → 3-way → Joined → Onboarded → Active · Parked) are only read here, never written. The AI Admin's
    pipeline applies each NEXT MOVE REQUESTED line to its board on the member's next Admin run (the next move
    and due date only); when the AI Admin is not installed, the member applies it with the Brain's
    attraction-top-50 skill ("update [Name]'s next move"). Then the closing line: "Nothing was sent. Say 'send

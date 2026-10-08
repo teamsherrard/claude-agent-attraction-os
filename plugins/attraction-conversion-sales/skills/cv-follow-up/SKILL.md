@@ -41,7 +41,7 @@ Read `~/attraction-brain/brain.md`, then:
 - `identity/offer.md`, `identity/positioning.md` — the resources to send; new additions to the value stack.
 - `identity/operations.md` — the follow-up cadence, the weekly model call, events, the signature.
 - `identity/voice.md` — so every draft sounds like them.
-- `identity/compliance.md` — the gate: every touch is a prospect-facing message.
+- `identity/compliance.md` — its first line, `Status:`, is the gate: every touch is a prospect-facing message.
 - `config.md` — whether the AI Admin block exists.
 `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` at the trigger step if detail is needed. If
 `~/attraction-brain/` is missing locally, pull via `attraction-brain-sync`. A tool error is never "no Brain".
@@ -112,8 +112,8 @@ touches become working sessions, and the launch interview is scheduled for the m
 resets" (`/60`) → the date is the anchor; the touches before it build the day-one strategy.
 
 ## Step 4 — Draft the touches (compliance gate first)
-Read `identity/compliance.md`: `unset` → the plan is built and shown, but no message draft leaves the chat
-— say in one line that drafts need their compliance basics ("set up my attraction compliance", three minutes). `set`
+Read the first line of `identity/compliance.md` (`Status:`): `unset` → the plan is built and shown, but no
+message draft leaves the chat — say in one line that drafts need their compliance basics ("set up my attraction compliance", three minutes). `set`
 → apply and remind once. `confirmed` → apply.
 Then draft the **next two touches** in full (not all twelve — usage discipline), in the member's voice:
 short, personal first line, the reason stated plainly, one link or one attachment, one soft open door;
@@ -125,10 +125,16 @@ voice note. Later touches are one line each with their reason and date. Read eve
 ## Step 5 — Write, push, hand to the queue
 - **The plan file:** `memory/intel-reports/YYYY-MM-DD-[agent]-follow-up.md` (this plugin owns the folder):
   placement, the dated touches with reasons, the drafts. Newest file is current.
-- **Next move and due date:** the pipeline Board's **Next move · Due** for that agent — written directly
-  only when the AI Admin is not installed (same vocabulary), otherwise **requested** in one line for
-  `admin-pipeline`; the Top-50 row's Next move · Due follow the same rule (the capture skill's interim
-  allowance).
+- **Next move and due date:** whenever a planned touch changes the agent's next move, the output ends with
+  the request line, spelled exactly **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — one line per
+  prospect, the stage untouched (a reply that changes the stage goes through `cv-debrief`'s
+  `STAGE MOVE REQUESTED` line, never from here). The AI Admin's `admin-pipeline` consumes it on the member's
+  next in-chat Admin run (the Board's Next move · Due only, no stage-log row) and the Daily Follow-Up Queue
+  picks the touch up on its date. When the Admin is not installed (no `## AI Admin` block in `config.md`),
+  this skill writes the Board's Next move · Due and the Top-50 row's Next move · Due directly, same words
+  (the interim allowance in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`), and the member can apply or
+  change it any time with the Brain's `attraction-top-50` ("update [Name]'s next move"). Its durable carrier
+  is the dated `Next step` on the conversation row below, or the dated touch in the plan file.
 - **A new trigger learned from the member** ("my brokerage just announced…") → hand it to `attraction-capture`
   (it owns that write — the Watcher's `memory/intel.md`); never written from here.
 - **When the member says a touch went out:** append one `memory/conversations.md` row in the locked shape —

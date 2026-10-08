@@ -2,15 +2,15 @@
 name: cv-conversation-starter
 description: >
   Mike's Conversation Starter: the first message to an agent, written to start a conversation rather than
-  recruit. Picks the channel (Instagram DM, text, email, Facebook, LinkedIn, voice-note script, referral
-  intro) and the relationship state (cold, acquaintance, friend, former colleague, past conversation, inbound)
-  and writes three options, each with a "why this works" line, in the member's voice. Personalized mode
-  builds from the agent's intel report; generic mode gives templates. Every draft is read back against
-  the NEVER list before it is shown: no immediate pitch, no walls of text, no corporate
-  recruiting language, no compensation, nothing that sounds AI-generated, no fake personalization, no forced
-  Zoom. The member sends it; the touch is logged once they say it went out. Trigger on: "write a DM to
-  [name]", "conversation starter", "how do I open with [name]", "message for [name]", "text [name]",
-  "email opener", "voice note script", "openers for my top ten", "what do I send".
+  recruit. Picks the channel (DM, text, email, LinkedIn, voice note, referral) and the relationship state
+  (cold to inbound) and writes three options, each with a "why this works" line, in the member's voice.
+  Personalized mode uses the intel report; generic mode gives templates; intake mode personalises the
+  three starters the YouTube plugin's yt-repurpose hands over from a video. Every draft is read back
+  against the NEVER list before it is shown (no pitch, no walls of text, no recruiting language, no
+  compensation, nothing AI-sounding, no fake personalization, no forced Zoom). The member sends it; the
+  touch is logged once they say it went out. Trigger on: "write a DM to [name]", "conversation starter",
+  "how do I open with [name]", "message for [name]", "text [name]", "email opener", "voice note script",
+  "openers for my top ten", "what do I send", "use the starters from my video".
 ---
 
 # Conversation Starter — start conversations, don't recruit
@@ -26,20 +26,25 @@ House rules: `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` (#1 the member sends,
 ## Before writing (silent)
 Read `brain.md`; pull the Brain if missing locally. Then: `identity/voice.md` + `voice-samples.md` +
 `voice-print.md` if present (the draft must sound like them — same sentence length, same warmth, their
-words) · `identity/profile.md` and `journey.md` (what they have to give and in common) · `identity/offer.md`
-(the one useful thing they can offer — a sheet, a routine, a video; at seeds stage, their "teach first" line) ·
+words) · `identity/profile.md` and `journey.md` (what they have to give and in common) · wherever an opener offers a
+resource, `memory/magnets.md → ## Current magnet` FIRST (the live guide, offered by name — its funnel URL only
+after a reply, never a link in a first DM; "not live yet" or an empty file is normal before Week 6) and
+`identity/offer.md` SECOND (the one useful thing they can offer — a sheet, a routine, a video; at seeds stage,
+their "teach first" line) ·
 `memory/top-50.md` for the name (Source tells you the relationship state; Notes tell you the context) ·
 `memory/conversations.md` for any earlier rows with this name · `memory/intel-reports/` newest for the name.
-Read `identity/compliance.md`: **unset → stop here, say so in one warm line ("three minutes, say 'set up my
-attraction compliance'"), do not show a draft. set → apply every rule and remind once to confirm with the
-brokerage; confirmed → apply.**
+Read the first line of `identity/compliance.md` (`Status:`): **unset → stop here, say so in one warm line
+("three minutes, say 'set up my attraction compliance'"), do not show a draft. set → apply every rule and
+remind once to confirm with the brokerage; confirmed → apply.**
 
-## Two modes
+## Three modes
 - **Personalized** — an intel report exists (or the member says yes to running `cv-agent-intel` first, ~2
   minutes): the context is a specific thing they posted, said, or did; the curiosity is a real question about
   THEIR business; the useful thing is matched to their pain.
 - **Generic** — no report, no time: templates by channel × state with `[their specific thing]` slots marked
   for the member to fill in 10 seconds, and one line saying a real detail beats any template.
+- **Intake** — the YouTube plugin's `yt-repurpose` handed over three starters from a video (the section
+  below): each is reviewed against the NEVER list, then made personal per prospect; never sent from here.
 
 **Fast lane:** name on the Top-50 + channel stated or obvious from Source → no questions. Otherwise ONE batched
 question: *"Which way do you two usually talk — Instagram, text, email, LinkedIn? And how do you know them —
@@ -94,6 +99,25 @@ touch with a reason (`cv-follow-up`), never "just checking in."
 
 For a batch ("openers for my top ten"): one option per agent with its why, ordered by Top-50 priority, and the
 offer to expand any one to three.
+
+## Intake mode — the three starters a video hands over (`yt-repurpose`)
+The YouTube plugin's `yt-repurpose` hands this skill three conversation starters per video — one for a cold
+agent, one for an acquaintance, one for a past conversation — each with the **video title** and the **hook it
+came from**, plus the Top-50 names it matched. Trigger: the hand-off itself in the session, or "use the
+starters from my video", "the openers from [video]". They are raw material, never finished messages:
+1. **Review against the NEVER list first** (the seven above) — one failure = rewrite silently; a starter that
+   pitches, mentions compensation, names the brokerage, or forces a call is rebuilt from the hook, not patched.
+2. **Personalise per prospect** from the Top-50 row (Source → the relationship state; Notes → the context) and
+   the newest intel report for the name in `memory/intel-reports/`: the first line names the specific thing
+   THEY posted, said, or do; the video moment is the useful thing ("the part on lead costs is exactly what you
+   mentioned"); channel and length follow the table above. The title is the reason to reach out; the hook is
+   never pasted as the opener; a resource offer reads the live magnet first, the offer second (above).
+3. **Output** in the three-option shape per prospect (in a batch, one option per name with the offer to
+   expand), the "why this works" line naming the video moment and the prospect's own words.
+4. **Never send.** The member sends; a starter is logged only when they say it went out (below).
+If the starters arrived in `memory/ideas.md` instead (`yt-repurpose` appends `general` rows reading
+"conversation starter from [video]" while this plugin is not installed), take the open rows the same way and
+flip each row's Status to `used` — the one cell this skill writes there, by the ideas file's own rule; push.
 
 ## When the member says it was sent
 Append one row to `memory/conversations.md` in the locked shape — Date · Agent · Type · Channel · "What they

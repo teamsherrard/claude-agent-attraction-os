@@ -49,12 +49,13 @@ post, publish, book, or move a pipeline stage.
 4. **Score** against the weekly activity in `goals.md` — conversations first, calls second: Ahead (150% of
    the target or more), On pace (the target or more), Behind (less). A mirror, never a verdict.
 5. **Housekeeping FIRST, silently** — so the review is the last thing you output: append ONE weekly row to
-   `memory/scorecard.md` under *Weekly rows*:
-   `| [Week of] | [conversations] | [calls booked] | [calls held] | [joins] | [content shipped] | [score] | prospects [n] · meaningful [n] · 3-ways [n] · show [x%] · held→join [y%] · funnel [n] |`
-   (the last three only when the sales funnel or `list-growth.md` exists). Write exactly the columns the file's
-   `## Weekly rows` header carries — if the template has gained `New prospects · Meaningful conversations ·
-   3-ways` columns, those three go there instead of Note. Never touch the Targets block or the daily rows; if a row for
-   this week already exists, write nothing and say the week was already scored. Before pushing, re-check
+   `memory/scorecard.md` under *Weekly rows*, in the file's locked header order
+   `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |`:
+   `| [Week of] | [new prospects] | [conversations] | [meaningful conversations] | [calls booked] | [calls held] | [3-ways] | [joins] | [content shipped] | [score] | show [x%] · held→join [y%] · funnel [n] |`
+   (each Note item only when its source exists: show and held→join from the sales funnel, `funnel` from
+   `list-growth.md`'s `Calls booked from the funnel`). Write exactly the columns the file's `## Weekly rows`
+   header carries, never a column added or renamed. Never touch the Targets block or the daily rows; if a
+   row for this week already exists, write nothing and say the week was already scored. Before pushing, re-check
    the cloud for a newer copy of the file and re-apply on top; then push via attraction-brain-sync (or the
    storage connector into `01 · AI Brain/_engine/`) and confirm the new copy exists. If the push fails after
    one retry, the last section says the row is NOT saved and includes it. Never write `pipeline.md`,

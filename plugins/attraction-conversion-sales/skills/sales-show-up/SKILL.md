@@ -68,8 +68,9 @@ Build in the member's voice, short, energetic, zero corporate recruiting registe
      the prospect stays at `Call booked`. The logged `conversations.md` row carries `Stage after` = `Call booked`
      (unchanged) with the note `no-show [date]` in "What they said" and the recovery step, dated, in `Next step`;
      no stage request is made, ever — not `Call booked → Conversation`, not any other. The recovery touch is a
-     next-move request: the output ends with **`NEXT MOVE REQUESTED: [Name]: [the next recovery step] · due [date]`**
-     (today: the five-minutes-in text or the reschedule note; day three: the value touch). The AI Admin's
+     next-move request: the output ends with **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`**, where the
+     move is the next recovery step (today: the five-minutes-in text or the reschedule note; day three: the
+     value touch) and the date is its day. The AI Admin's
      `admin-pipeline` applies it to the Board's Next move · Due on the member's next Admin run and the Daily
      Follow-Up Queue drafts it; when the Admin is not installed, the member applies it with the Brain's
      `attraction-top-50` ("update [Name]'s next move"). A rebooked call stays at `Call booked` with the new date;
@@ -81,8 +82,8 @@ Draft only the piece they asked for, filled from the booking and the Top-50 row;
 email connector (draft-only on both providers), text → paste-ready. Log the no-show as a `conversations.md`
 row (channel `call` · "What they said" = `no-show [date]` · `Next step` = the recovery step with its date ·
 `Stage after` = `Call booked`, unchanged) — this plugin owns that ledger — push, end with the
-**`NEXT MOVE REQUESTED: [Name]: [recovery step] · due [date]`** line, and hand the touches after day three to
-`cv-follow-up`. Never a `STAGE MOVE REQUESTED` line from a no-show.
+**`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** line (the move = the recovery step, the date = its day),
+and hand the touches after day three to `cv-follow-up`. Never a `STAGE MOVE REQUESTED` line from a no-show.
 
 ## Save and confirm
 Render the Show-Up Sequence doc per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via
