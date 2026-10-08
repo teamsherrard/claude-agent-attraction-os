@@ -115,7 +115,7 @@ each; the member pastes as you go (~15 minutes). Positioning comes from the Brai
    the end; a small default tag set; category (Education); default visibility; language.
 8. **THE CTA LINE** — the two spoken CTAs in their voice (doctrine §10): the early resource line and the mid
    call line, value-named, never the brokerage name. Written once here, reused by every script.
-9. **CHANNEL TRAILER** — new channel: *"say 'make this video: my channel trailer' in a fresh chat — 60–90
+9. **CHANNEL TRAILER** — new channel: *"say 'make my attraction video: my channel trailer' in a fresh chat — 60–90
    seconds: who you help, what you cover, the invite."* Existing channel with a strong recent video: set that
    one, named.
 
@@ -140,8 +140,8 @@ present, recruiting scope respected, no protected-characteristic targeting.
 Run `${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/SKILL.md` now — the audit, the three niche lanes, the
 interview and model lanes, ~50 titles, the goal-math in conversations and calls, the first 90 days — saved to
 the same folder. Then:
-> "Open your Game Plan — your whole channel is mapped. Pick any title from the first cycle and say 'make this
-> video for agents', and I'll script it and the rest."
+> "Open your Game Plan — your whole channel is mapped. Pick any title from the first cycle and say 'make my
+> attraction video', and I'll script it and the rest."
 
 ## Completion checklist
 - [ ] Brain read and reflected — **nothing re-asked**; `~/attraction-brain/` pulled first if missing

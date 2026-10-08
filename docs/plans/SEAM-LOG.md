@@ -21,6 +21,10 @@ Running list. Each line: what · where · status.
 - Conversion-owned files ruled IN: `identity/sales-system.md` (sales-system-setup), `memory/sales-funnel.md` (sales-scorecard), the `## Practice log` section of `memory/objections.md` (cv-objection-coach), `memory/intel-reports/*` plan files; the `Setter` key in the `## Conversion & Sales` config block. Add rows to Conversion's brain-contract.md, the Brain template (sales-system.md, sales-funnel.md), and BRAIN-CONTRACT.md · OPEN
 - Conversion DECISION NEEDED for Mike (J2): the "5-Point Framework" is named in the docs but defined nowhere (built on lesson 85's five principles); the 15 objections' archetype assignments are the builder's; confirm · WAITING
 
+- Lead Magnet adds: template `memory/magnets.md` (with `## Current magnet`) + `memory/list-growth.md` (LM-owned); `sf-comment-to-dm` and `yt-leads` read the live magnet from `memory/magnets.md → ## Current magnet` first, `identity/offer.md` second; `attraction-goals` weekly mode + `admin-scorecard` read "Calls booked from the funnel" from `list-growth.md`; master plan §11 row: sf-setup writes profiles.md first, lm-profiles updates · OPEN
+- Gate check 12 regex: `team-` false-positive on "team-leader" prose → match only the removed skill names · OPEN
+- Shared copies drifted in Conversion (`how-we-speak.md`, `connectors.md` reworded) and Admin → restore byte-identical copies from the Brain in the final pass · OPEN
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 

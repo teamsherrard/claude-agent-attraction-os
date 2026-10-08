@@ -152,7 +152,7 @@ carrying the Authority pillar — §3):**
 
 Every Problem/Situation/Future title is tied to one of the member's avatars and to one of Mike's five pains
 (`shared/attraction-doctrine.md` §7b: financial uncertainty · lack of support, mentorship, training ·
-technology gaps · limited growth · work-life balance and recognition). Future-pillar content touches leverage and
+technology gaps · limited growth · work-life balance and recognition). Future-bucket content touches leverage and
 recurring income **without numbers** (§15). (Future-bucket content is still Authority in the log.)
 
 **How to never run out of topics (`/94`):** ask your agents and prospects what challenges they face — every

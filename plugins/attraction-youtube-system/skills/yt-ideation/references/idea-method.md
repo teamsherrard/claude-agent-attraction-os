@@ -77,4 +77,4 @@ Lead with the strongest real signal. Never fabricate search volumes or view coun
 - GENERATE the full package per idea (title · hook · thumbnail text · bucket · avatar · pain · signal · formula),
   PRESENT only two lines each. Expand only on request.
 - No scores, no rubric, no file names in what the member sees. Plain, warm, short.
-- Always end with the handoff: pick one → new chat → "make this video for agents."
+- Always end with the handoff: pick one → new chat → "make my attraction video."

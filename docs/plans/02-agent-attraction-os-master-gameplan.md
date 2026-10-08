@@ -306,7 +306,7 @@ Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and
 | `lm-magnet` | ADJUST | writes the magnet in the member's voice; first = **the Honest Brokerage Comparison Guide** (factual, cited, dated, no ranking, no disparagement; "honest" means transparent about trade-offs, never critical of a named brokerage; compliance-gated hard) |
 | `lm-funnel` | ADJUST | opt-in page, thank-you, book-a-call step; design via `ds-funnel`; static decoy form rule |
 | `lm-gbp` | KEEP | GBP positioned for attraction, posts pointed at the magnet |
-| `lm-profiles` | KEEP | social bios aligned to the funnel (shares the 5-question profile test with `sf-setup`; one owner: `lm-profiles` writes, `sf-setup` reads if present) |
+| `lm-profiles` | KEEP | social bios aligned to the funnel (shares the 5-question profile test with `sf-setup`; one owner: `sf-setup` writes `identity/profiles.md` first in Week 3, `lm-profiles` is the Week 6 updater) |
 | `lm-magnet-ideas` | **NEW** | next magnet from the persona map and what converted (Switching checklist, Sponsor questions, Rev-share explainer, 90-day plan template) |
 | `lm-design` | **NEW** | the styled PDF brief for `ds-lead-magnet` (cover + 3D mockup) |
 | `lm-delivery` | **NEW** | the DM, email, and story that deliver the magnet (ManyChat GUIDE keyword copy) |

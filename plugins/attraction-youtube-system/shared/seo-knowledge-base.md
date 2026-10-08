@@ -44,7 +44,7 @@ Favor **long-tail** (3+ words): less competition, better-fit viewers. A new chan
   estate agent exit strategy", "agent attraction real estate", "building an organization real estate"
 - **Interviews (searchable angle):** "[outcome] part time real estate", "[guest's niche] real estate success
   story", "how [type of agent] closed [N] deals"
-Mike's rule from the realtor side still holds: never broad single words ("realtor", "real estate"); video- and
+Mike's rule holds here too: never broad single words ("realtor", "real estate"); video- and
 niche-specific phrases only.
 
 ## Titles (doctrine §9 is the source of truth)

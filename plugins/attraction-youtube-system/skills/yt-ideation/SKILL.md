@@ -1,15 +1,16 @@
 ---
 name: yt-ideation
 description: >
-  Weekly video ideas for the member's attraction channel — the front door, fully on demand. Reads the Game
-  Plan anchors, the member's own captured ideas, the objections and questions agents keep raising, dated
-  brokerage news, the interview pipeline, and what already shipped; pulls fresh signals on what agents are
-  searching; then hands back a short ranked batch built from the title formulas and agent pain points, each
-  with one data-backed "why" and who it's for, bucketed Problem · Situation · Future · Interview · Model and
-  balanced to the 8-video cycle (3 niche · 1 model · 4 interviews). Picking one hands to make-video in a new
-  chat. Triggers on "what should I film for agents", "attraction video ideas", "ideas for my channel for
-  agents", "what's my next attraction video", "give me attraction video ideas", "next video for agents",
-  "weekly ideas for my attraction channel", "what to make next for agents". Not for buyer-and-seller content.
+  Weekly video ideas for the member's attraction channel — the front door, fully on demand. Reads
+  the Game Plan anchors, the member's own captured ideas, the objections and questions agents keep
+  raising, dated brokerage news, the interview pipeline, and what already shipped; pulls fresh
+  signals on what agents are searching; then hands back a short ranked batch built from the title
+  formulas and agent pain points, each with one data-backed "why" and who it's for, bucketed Problem
+  · Situation · Future · Interview · Model and balanced to the 8-video cycle (3 niche · 1 model · 4
+  interviews). Picking one hands to make-video in a new chat. Triggers on "what attraction video
+  should I film", "attraction video ideas", "ideas for my channel for agents", "what's my next
+  attraction video", "give me attraction video ideas", "next video for agents", "weekly ideas for my
+  attraction channel", "what attraction video to make next". Not for buyer-and-seller content.
 ---
 
 # Ideation — where every attraction video starts
@@ -75,9 +76,9 @@ If they ask about one, expand only that one.
 
 ## Step 5 — Help them choose, then hand off (one chat = one video)
 Swap, adjust, lean timely. When they pick:
-> "Love it — open a new chat, name it after this video, and say **'make this video for agents.'** I'll take it
+> "Love it — open a new chat, name it after this video, and say **'make my attraction video.'** I'll take it
 > from there."
-An interview pick → *"say 'line up my interview with [guest]'"* (`yt-interview`) before filming. A model pick →
+An interview pick → *"say 'set up an agent interview with [guest]'"* (`yt-interview`) before filming. A model pick →
 `yt-model-breakdown` runs inside make-video. Nothing is written to the Brain here — the pick is marked used and
 logged when the video chat starts.
 

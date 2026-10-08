@@ -205,7 +205,7 @@ for plug in ("attraction-shortform-system","attraction-youtube-system"):
         print(f"  ✗ {plug}: shared/composio-data-engine.md missing (Composio is a required connector)"); bad=True
     hits=[f for f in glob.glob(f"plugins/{plug}/skills/*analytics*/SKILL.md") if "composio" in open(f,encoding="utf-8").read().lower()]
     if not hits: print(f"  ✗ {plug}: analytics skill does not reference the Composio data engine"); bad=True
-pat=re.compile(r"\b(cs-[a-z-]+|team-[a-z-]+|org-analysis|realtor-ai-editor|edit-longform|edit-shortform|editor-navigator)\b")
+pat=re.compile(r"\b(cs-(clone-setup|clone-styles|clone-reel|thumbnail-employee|thumbnail-score|headshots|broll|ad-creatives|product-animation|setup)|team-(onboarding|plug-in|duplication-kit|teach-to-attract|recognition|win-wall|culture-audit|community|survey|exit-interview|1on1)|org-analysis|realtor-ai-editor|edit-longform|edit-shortform|editor-navigator)\b")
 allow=re.compile(r"removed|parked|not (in|part of) this|retired|never",re.I)
 for f in glob.glob("plugins/**/*.md",recursive=True):
     if "realtor-riverside-editor" in f: continue

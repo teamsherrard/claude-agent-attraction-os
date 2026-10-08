@@ -1,15 +1,17 @@
 ---
 name: yt-script
 description: >
-  Script Studio for the attraction channel — writes the full teleprompter-ready script for a chosen idea in the
-  member's own spoken voice, in one of the four attraction formats (Why I Switched · Pain Point Series · Model
-  Breakdown · Niche Breakdown) or the interview intro and outro, on Mike's structure: the pain-point hook, the
-  resource CTA inside minute one, the value, the warm book-a-call CTA a third of the way in, the payoff, the
-  next video. Pulls real stories from the story bank and marks them used; Why I Switched never names the old
-  brokerage; model scripts explain mechanics, never compensation figures. Runs the 3-state compliance gate, saves
-  the script in the video's folder, and writes the content-log row at Scripted. Triggers on "write my attraction
-  script", "script this for agents", "script my why I switched video", "write my model breakdown script",
-  "script my pain point video", "script the interview intro", "write the script for [title] for agents".
+  Script Studio for the attraction channel — writes the full teleprompter-ready script for a chosen
+  idea in the member's own spoken voice, in one of the four attraction formats (Why I Switched ·
+  Pain Point Series · Model Breakdown · Niche Breakdown) or the interview intro and outro, on Mike's
+  structure: the pain-point hook, the resource CTA inside minute one, the value, the warm
+  book-a-call CTA a third of the way in, the payoff, the next video. Pulls real stories from the
+  story bank and marks them used; Why I Switched never names the old brokerage; model scripts
+  explain mechanics, never compensation figures. Runs the 3-state compliance gate, saves the script
+  in the video's folder, and writes the content-log row at Scripted. Triggers on "write my
+  attraction script", "script this attraction video", "script my why I switched video", "write my
+  model breakdown script", "script my pain point video", "script the interview intro", "write my
+  attraction script for [title]".
 ---
 
 # Script Studio — the video, in the member's voice, ready to read

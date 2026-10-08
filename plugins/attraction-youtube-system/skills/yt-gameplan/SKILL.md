@@ -1,16 +1,17 @@
 ---
 name: yt-gameplan
 description: >
-  The flagship first deliverable of the Agent Attraction YouTube System — the member's YouTube Game Plan for
-  attracting agents, built on Mike Sherrard's three categories (niche authority · interviews · model/opportunity)
-  and the 8-video cycle (3 niche · 1 model breakdown · 4 interviews). Audits the channel at whatever size it is,
-  sets the three niche lanes from the Problem · Situation · Future buckets, builds the interview guest lane from the
-  organization and the Top-50, the model lane that answers what agents already research, ~50 exact titles
-  bucketed, the goal-math from the Brain's goals in conversations and calls per video (never income), the first
-  90 days on the cycle, the 180-day direction — rendered to one premium doc in the member's workspace. Runs at
-  the end of setup or on demand. Demo mode for training. Triggers on "build my attraction game plan", "my
-  YouTube game plan for agents", "my channel plan for agents", "my attraction YouTube strategy", "refresh my
-  attraction game plan", "map my channel for agents", "180-day YouTube plan".
+  The flagship first deliverable of the Agent Attraction YouTube System — the YouTube Game Plan for
+  attracting agents, on Mike Sherrard's three categories (niche authority · interviews ·
+  model/opportunity) and the 8-video cycle (3 niche · 1 model breakdown · 4 interviews). Audits the
+  channel at any size, sets the three niche lanes from the Problem · Situation · Future buckets,
+  builds the interview guest lane from the organization and the Top-50, the model lane that answers
+  what agents already research, ~50 titles bucketed, the goal-math from the Brain's goals in
+  conversations and calls per video (never income), the first 90 days on the cycle, the 180-day
+  direction — one premium doc in the member's workspace. Runs after setup or on demand; demo mode.
+  Triggers on "build my attraction game plan", "my attraction game plan for YouTube", "my attraction
+  channel plan", "my attraction YouTube strategy", "refresh my attraction game plan", "map my
+  attraction channel", "180-day YouTube plan".
 ---
 
 # YouTube Game Plan — the flagship first deliverable
@@ -156,8 +157,8 @@ lagging), CTR 6–10% after month one, compliance status.
    `attraction-brain-sync` → verify. Save fails → say so, keep the plan visible, retry once, stop.
 6. **The board** (house rules #11): `publishing.md` has a URL → on a refresh offer to update the board to the
    new plan (`yt-board`); `declined` → silent; no line → `yt-board` offers once.
-7. **Hand off:** *"Pick any title from cycle one and say 'make this video for agents.' Or say 'line up my
-   interviews' to invite your first guest."*
+7. **Hand off:** *"Pick any title from cycle one and say 'make my attraction video.' Or say 'set up an agent
+   interview' to invite your first guest."*
 
 ## Quality checklist
 - [ ] Brain read; goals and ratios from `goals.md`/`scorecard.md`; nothing re-asked; demo mode honored if asked

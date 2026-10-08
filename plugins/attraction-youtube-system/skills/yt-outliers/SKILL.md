@@ -1,15 +1,16 @@
 ---
 name: yt-outliers
 description: >
-  Outlier intelligence for the attraction channel — two jobs. (1) A weekly-at-most scan of channels that
-  attract agents (coaching, model-explained, agent-attraction leaders in the member's niche or model) for videos
-  that genuinely overperform (more than 2,000 views, at least 3x the channel's subscribers, clearly above the
-  channel's own norm) and what made them work: the title pattern, hook, structure, CTA placement, thumbnail
-  pattern. (2) Evergreen analysis — channels over 2,000 subscribers serving agents, their most popular videos 2+
-  years old (durable demand), translated into the member's own stronger version for their avatar. Never names
-  a competitor's flaw, never copies a look. Triggers on "outlier attraction channels", "what's working for
-  agent attraction channels", "who's winning on YouTube with agents", "attraction competitor research",
-  "outlier videos for agents", "what should I recreate for agents", "evergreen attraction videos".
+  Outlier intelligence for the attraction channel — two jobs. (1) A weekly-at-most scan of channels
+  that attract agents (coaching, model-explained, agent-attraction leaders in the member's niche or
+  model) for videos that genuinely overperform (more than 2,000 views, at least 3x the channel's
+  subscribers, clearly above the channel's own norm) and what made them work: the title pattern,
+  hook, structure, CTA placement, thumbnail pattern. (2) Evergreen analysis — channels over 2,000
+  subscribers serving agents, their most popular videos 2+ years old (durable demand), translated
+  into the member's own stronger version for their avatar. Never names a competitor's flaw, never
+  copies a look. Triggers on "outlier attraction channels", "winning agent attraction channels",
+  "who's winning on YouTube with agents", "attraction channel research", "outlier videos for
+  agents", "which attraction videos to recreate", "evergreen attraction videos".
 ---
 
 # Outlier Intelligence — what is already working with agents, and why
@@ -68,7 +69,7 @@ The deeper sweep for **durable** demand:
 3. The **recreate list**: the concept · why it is proven (channel · rough view scale · age, as seen) · the
    member's version (their title, their angle, their proof; the bucket and the formula) · the yearly-remake note
    for model videos (`/96`).
-4. Offer to take any pick straight into *"make this video for agents."*
+4. Offer to take any pick straight into *"make my attraction video."*
 
 ### If clean numbers are out of reach — teach the 5-minute manual way
 > "Search YouTube for '[model] explained' or '[your niche] for real estate agents' → open each channel with
