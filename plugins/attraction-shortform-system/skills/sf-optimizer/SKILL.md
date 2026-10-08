@@ -84,7 +84,7 @@ Everything in the member's voice, speaking to one agent ("you"), never "you guys
 
 ## Step 6 — Compliance (three-state, the third law)
 Read `identity/compliance.md`. `unset` → **deliver the FIX but not the PACKAGE**: *"the captions are public,
-so I need your compliance basics before they go out; say 'set up my compliance' and it takes three
+so I need your compliance basics before they go out; say 'set up my attraction compliance' and it takes three
 minutes."* `set` → apply the rules, remind once per session. `confirmed` → apply. Append the stamp (house
 rules #4 — built from `identity/compliance.md`) where the brokerage name or license display rule applies; strip any
 claim to avoid. "If empty, proceed" is banned; a `[Brokerage Name]` placeholder is a FAIL.

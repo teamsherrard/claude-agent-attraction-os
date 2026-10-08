@@ -78,7 +78,8 @@ Story and Proof Reels carry PARTNER or a soft "DM me if this is you"; Personalit
 
 ## Step 3 — The keyword sheet and the DM bank (Job B; Job A picks one row)
 **The keywords (defaults; rename to the member's words if they prefer):**
-- **GUIDE** — "send me the free [guide name]." Delivers the resource from `offer.md`.
+- **GUIDE** — "send me the free [guide name]." Delivers the live guide from `memory/magnets.md → ## Current magnet`
+  first (Week 6, the Lead Magnet plugin's file) and the resource in `identity/offer.md` second.
 - **GROWTH** — for the avatar who is stuck or newer: delivers the training, tip, or template the Reel
   promised, then one question about where they are.
 - **SCALE** — for the producer or team leader avatar: delivers the systems piece the Reel promised, then one
@@ -118,7 +119,7 @@ connects to, configures, or sends through ManyChat.
 
 ## Step 4 — Compliance (three-state, before anything is delivered)
 Read `identity/compliance.md`. `unset` → **stop**: *"these DM templates go to agents outside your
-organization, so I need your compliance basics first; say 'set up my compliance' and it takes three
+organization, so I need your compliance basics first; say 'set up my attraction compliance' and it takes three
 minutes."* Deliver nothing public. `set` → apply every rule and remind once per session. `confirmed` →
 apply. Append the compliance stamp (house rules #4 — built from `identity/compliance.md`) only where a template
 names the brokerage; the income disclaimer never appears because no template mentions income. "If empty, proceed" is

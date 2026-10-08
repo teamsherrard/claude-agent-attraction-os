@@ -107,7 +107,7 @@ Create `identity/publishing.md` now, in the contract's full shape — every line
 ## Step 4 — The bios (public → the gate first)
 **The three-state check:** `confirmed` → go · `set` → go, remind once at the end to confirm with the brokerage ·
 `unset` → *"Your pillars and keyword are private, so we're fine so far — but bios are public, so before I write
-them I need your compliance basics. Say 'set up my compliance' (three minutes) and I'll pick the bios right back
+them I need your compliance basics. Say 'set up my attraction compliance' (three minutes) and I'll pick the bios right back
 up."* Then skip to Step 5 and leave `bios done` unset.
 
 **Lazy-load `mike-frameworks.md` §9a.** Every bio answers **the five questions**: who you are · who you help ·
@@ -133,10 +133,11 @@ source, no brokerage as the hook. If a Week 2 bios document already exists in `0
 refresh it rather than starting over.
 Deliver copy-paste blocks: *"Paste these in — or tell me what to change. Your turn."* On their yes: write them to
 `~/attraction-brain/identity/profiles.md` in the contract's shape — `# [Name] — Platform Profiles`, the owner line,
-then one section per platform in this order: `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` (each: the
-live bio text, then the five questions ticked). If the file already exists, replace only the bio text inside each
-heading — never rename, reorder, or drop a section, and keep any section or update line another system added after
-the four. Set the `Bios:` pointer line in `publishing.md` to `identity/profiles.md (current — YYYY-MM-DD)` and
+then one section per platform in this order: `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube`
+(each: the live bio text, then the five questions ticked; `## YouTube` is a one-line placeholder — "written by your
+YouTube system in Week 4" — until that plugin fills it). If the file already exists, replace only the bio text inside
+each heading — never rename, reorder, or drop a section, and keep any section or update line another system added.
+The bios live only in this file — nothing about them is written into `publishing.md` beyond
 `Short-form setup: bios done`; **push both, verify**; save `Profiles & Bios — YYYY-MM-DD.docx` to `02 · Brand/` per
 `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`.
 
@@ -195,7 +196,7 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 - [ ] Second call routed: resume or one named part — **the interview never re-ran**
 - [ ] `identity/content-pillars.md` written in the contract shape, five pillars mapped to the avatars, stories, positioning, proof — pushed
 - [ ] Compliance three-state applied before the bios; `unset` stopped the bios with a plain line, nothing else
-- [ ] Four bios, each answering the five questions, no invented credibility, no compensation, stamp applied — written to `identity/profiles.md` (one `## Platform` section each, headings never renamed) + the `Bios:` pointer in `publishing.md` + saved to `02 · Brand` — pushed
+- [ ] Four bios, each answering the five questions, no invented credibility, no compensation, stamp applied — written to `identity/profiles.md` (the five `## Platform` sections in order, `## YouTube` a placeholder, headings never renamed) + saved to `02 · Brand` — pushed
 - [ ] Keyword chosen (one word), ManyChat state recorded — pushed
 - [ ] Member handed to a first piece **before** any tool was mentioned
 - [ ] Cadence/mix written; posting tool offered once with a real connect flow, answer recorded; board offered once; Friday note mentioned, not provisioned

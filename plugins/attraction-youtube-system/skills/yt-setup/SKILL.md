@@ -96,7 +96,9 @@ each; the member pastes as you go (~15 minutes). Positioning comes from the Brai
    (the Problem · Situation · Future lanes, the interview lane, the model lane) · one real proof line from
    `proof.md` (never invented; zero proof → one honest line) · the resource + the booking link · the
    **disclosure block** from `compliance.md` (brokerage name and license as required, the disclaimer verbatim).
-   Reuse the Brain's saved bio phrasing (the same entity line across platforms is what AI search rewards).
+   Reuse the Brain's saved bio phrasing from `identity/profiles.md` (the bios file, one H2 per platform incl.
+   YouTube — written by `sf-setup`, updated by `lm-profiles`; empty before Week 3 is normal) — the same entity line
+   across platforms is what AI search rewards.
 3. **LINKS** *(Customization → Basic info → Links)* — the booking link first (the Partner Call), the resource
    (until Week 6 builds a magnet: the community or the call), ONE best social. Not ten links.
 4. **CHANNEL KEYWORDS** *(Settings → Channel → Basic info → Keywords)* — 8–12 agent-search phrases from

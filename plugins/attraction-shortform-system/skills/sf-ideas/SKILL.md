@@ -103,7 +103,7 @@ Build, in this order:
 ## Step 4 — Compliance, save, hand off
 - **Compliance is three-state.** Ideas and hooks are public-facing once filmed, so read
   `identity/compliance.md`: `unset` → still deliver the ideas (they are a private plan) but say plainly that
-  nothing gets scripted or posted until compliance is set up (*"say 'set up my compliance' — three
+  nothing gets scripted or posted until compliance is set up (*"say 'set up my attraction compliance' — three
   minutes"*); `set` → remind once; `confirmed` → carry on. "If empty, proceed" is banned.
 - Deliver everything in chat. Offer to save per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render
   to `.docx` with `shared/render_doc.py` → the workspace's `03 · Content/Short-Form/[YYYY-MM · Month]/`, named

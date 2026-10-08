@@ -40,26 +40,26 @@ The full index with every Loom is `kb/kb-index.md`; these are the hand-outs supp
 most. Call each "Mike's [module] lesson '[title]'". Mike's results stay Mike's — never promised as
 the member's.
 
-| Moment | Lesson (module/#) | Loom |
+| Moment | Lesson (module-slug/#) | Loom |
 |---|---|---|
-| "Should I just DM / cold-call agents?" / what attraction even is | Attraction vs. Recruiting (01/2) | https://www.loom.com/share/0987b179b2664d6caf3997f0b428aa14 |
-| "Can I just send them the model-explained video?" | Videos Don't Attract (02/19) | https://www.loom.com/share/3dcac54b561d4ac183b8e4d92108357b |
-| "Why would an agent join ME and not just the brokerage?" | Agents Follow People, Not Companies (03/17) | https://www.loom.com/share/fc1e7db9208040b493d96f322f0cc552 |
-| Tempted to compare against / bad-mouth another brokerage or sponsor | 2 Cardinal Rules (03/13) | https://www.loom.com/share/96a40319aaf8434ba40d9fd55e8bae78 |
-| "How do I pick who to attract?" | Identifying Your Niche (04/27) + the six persona lessons (02/21–26) | https://www.loom.com/share/9ee5fcbb4e4d4fa9b9c0b959fd82ca08 |
-| "What goes in my offer?" (Week 2) | Building Your Irresistible Offer (04/33) | https://www.loom.com/share/eaac8f51e0e84c5b8a69959bbdbc9e1d |
-| "How do I tell my why-join-me story?" | Crafting Your Personal Story (04/34) | https://www.loom.com/share/b7d717e196ce4d51b036292929ec5ee5 |
-| "I feel like I'm chasing / pitching" | Attracting vs. Chasing (05/35) | https://www.loom.com/share/096d3466f75a4788acea7b7498651266 |
-| "What do I post on Reels?" / routine | Reels (07/88) · Posting Routine (07/90) | https://www.loom.com/share/a978fc43b7a04d36ad8cdcaf110ca029 |
-| "Why YouTube / is it worth it?" | YouTube (08/91) · My YouTube Journey (08/92) | https://www.loom.com/share/49fc23d0479344e7a4156b254c4f6abf |
-| "What happens on the call, start to finish?" | Sequence of Events (10/42) | https://www.loom.com/share/10a0927d57da4615990ea0bc69a50ae2 |
-| "Why 3-way calls?" | 3-way calls (10/43) | https://www.loom.com/share/f1b224ce1423467c85010ab72637cbda |
-| "They hit me with an objection" | 7 Objection Archetypes (11/46) + the specific objection's lesson (11/48–50, 52–62) | https://www.loom.com/share/3695a36d1a7f4e7a9cd1ee7f6c1b41aa |
-| "How do I follow up without 'just checking in'?" | Simple Follow Up (12/85) | https://www.loom.com/share/a83a36e5c86c4a4b97bbf64392d8bcc7 |
-| "An agent joined — now what?" | Creating an Onboarding Experience (13/64) · Plugging in (13/65) | https://www.loom.com/share/765a6b7b062a441daa7005f2b7c44ff9 |
-| "I'm drowning supporting my agents" | Supporting Without Babysitting (14/71) · Systems Without Burnout (13/67) | https://www.loom.com/share/6fda150ef4054840a188a8ae919cbab3 |
-| "How do I get my agents attracting?" | Duplication 101 (13/63) · Teaching Others to Attract (13/66) | https://www.loom.com/share/3be09f87821848aa94a0ab25b151a585 |
-| "Is one agent even worth it?" (discouraged) | 1 Agent Can Change Your Life (01/9) | https://www.loom.com/share/583d8fba300e4189aa4da6aef66ef3c4 |
+| "Should I just DM / cold-call agents?" / what attraction even is | Attraction vs. Recruiting (01-foundation-mindset/2) | https://www.loom.com/share/0987b179b2664d6caf3997f0b428aa14 |
+| "Can I just send them the model-explained video?" | Videos Don't Attract (02-prospect-targeting/19) | https://www.loom.com/share/3dcac54b561d4ac183b8e4d92108357b |
+| "Why would an agent join ME and not just the brokerage?" | Agents Follow People, Not Companies (03-model-positioning/17) | https://www.loom.com/share/fc1e7db9208040b493d96f322f0cc552 |
+| Tempted to compare against / bad-mouth another brokerage or sponsor | 2 Cardinal Rules (03-model-positioning/13) | https://www.loom.com/share/96a40319aaf8434ba40d9fd55e8bae78 |
+| "How do I pick who to attract?" | Identifying Your Niche (04-value-proposition/27) + the six persona lessons (02-prospect-targeting/21–26) | https://www.loom.com/share/9ee5fcbb4e4d4fa9b9c0b959fd82ca08 |
+| "What goes in my offer?" (Week 2) | Building Your Irresistible Offer (04-value-proposition/33) | https://www.loom.com/share/eaac8f51e0e84c5b8a69959bbdbc9e1d |
+| "How do I tell my why-join-me story?" | Crafting Your Personal Story (04-value-proposition/34) | https://www.loom.com/share/b7d717e196ce4d51b036292929ec5ee5 |
+| "I feel like I'm chasing / pitching" | Attracting vs. Chasing (05-big-picture/35) | https://www.loom.com/share/096d3466f75a4788acea7b7498651266 |
+| "What do I post on Reels?" / routine | Reels (07-instagram/88) · Posting Routine (07-instagram/90) | https://www.loom.com/share/a978fc43b7a04d36ad8cdcaf110ca029 |
+| "Why YouTube / is it worth it?" | YouTube (08-youtube/91) · My YouTube Journey (08-youtube/92) | https://www.loom.com/share/49fc23d0479344e7a4156b254c4f6abf |
+| "What happens on the call, start to finish?" | Sequence of Events (10-presentation-delivery/42) | https://www.loom.com/share/10a0927d57da4615990ea0bc69a50ae2 |
+| "Why 3-way calls?" | 3-way calls (10-presentation-delivery/43) | https://www.loom.com/share/f1b224ce1423467c85010ab72637cbda |
+| "They hit me with an objection" | 7 Objection Archetypes (11-objection-handling/46) + the specific objection's lesson (11-objection-handling/48–50, 52–62) | https://www.loom.com/share/3695a36d1a7f4e7a9cd1ee7f6c1b41aa |
+| "How do I follow up without 'just checking in'?" | Simple Follow Up (12-simple-tech-stack/85) | https://www.loom.com/share/a83a36e5c86c4a4b97bbf64392d8bcc7 |
+| "An agent joined — now what?" | Creating an Onboarding Experience (13-team-building-duplication/64) · Plugging in (13-team-building-duplication/65) | https://www.loom.com/share/765a6b7b062a441daa7005f2b7c44ff9 |
+| "I'm drowning supporting my agents" | Supporting Without Babysitting (14-retention-culture/71) · Systems Without Burnout (13-team-building-duplication/67) | https://www.loom.com/share/6fda150ef4054840a188a8ae919cbab3 |
+| "How do I get my agents attracting?" | Duplication 101 (13-team-building-duplication/63) · Teaching Others to Attract (13-team-building-duplication/66) | https://www.loom.com/share/3be09f87821848aa94a0ab25b151a585 |
+| "Is one agent even worth it?" (discouraged) | 1 Agent Can Change Your Life (01-foundation-mindset/9) | https://www.loom.com/share/583d8fba300e4189aa4da6aef66ef3c4 |
 
 ## Mike's cohort videos `[NOT SET — the new core + setup videos, awaiting Circle links]`
 
@@ -72,7 +72,7 @@ it`. Priority rows to fill:
 | "How do I install all this?" | Setup video 4 — Installing the Agent Attraction OS and connecting your tools · `[NOT SET]` |
 | "What are skills / plugins / connectors / scheduled tasks / Claude Design?" | Setup video 3 — Claude features · `[NOT SET]` |
 | "Show me the Brain intake" | Setup video 5 + Week 1 core video 2 — Build Your Agent Attraction Brain · `[NOT SET]` |
-| "What is the Design Package / how do I use the ds- skills?" | The Agent Attraction Design Package walkthrough (Week 2) · `[NOT SET]` |
+| "What is the Design Package / how do I use the ds- skills?" | The Agent Attraction Design Package walkthrough (Week 1, alongside the Brain) · `[NOT SET]` |
 | "How do I build my digital product?" | Build Your Digital Product walkthrough (Week 6) · `[NOT SET]` |
 
 Until set: point at the week's Circle space ("the Week N videos cover this") rather than

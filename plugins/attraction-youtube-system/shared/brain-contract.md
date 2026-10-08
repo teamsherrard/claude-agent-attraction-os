@@ -59,7 +59,8 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   **Score vocabulary:** Ahead · On pace · Behind.
 
 ## What this plugin READS (read-only, never written here)
-`brain.md` · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
+`brain.md` · `identity/profiles.md` (the bios file — one H2 per platform incl. YouTube; `sf-setup` writes it,
+`lm-profiles` updates it; read for the channel's entity line) · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
 `## Short-Form (Week 3)` block — task id · `declined` · `not offered yet`) · `identity/profile.md` · `journey.md` (incl. the
 `## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the offer; the live resource is read from `memory/magnets.md → ## Current magnet` first, `offer.md`
 second; Status respected) · `brokerage-model.md` (mechanics for model videos; figures never surface in public content) ·

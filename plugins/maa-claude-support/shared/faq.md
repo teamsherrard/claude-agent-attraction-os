@@ -146,7 +146,9 @@ Seven links, in order — never skip ahead:
 4. Plugin 1 (the Agent Attraction Brain) and Plugin 2 (this support desk), from the official link
 5. "Set up my attraction brain" (Plugin 1 — everything reads it)
 6. Connect email + calendar + drive + your CRM when setup asks
-7. Then each week's plugins as that week opens (Design Studio in Week 2, Short-Form + Riverside in Week 3…)
+7. The Design Studio's Design Package (logo → style sheet → brand) in Week 1, right after the Brain — the
+   Brain and the brand both land in Week 1; then each week's plugins as that week opens (the offer assets in
+   Design in Week 2, Short-Form + Riverside in Week 3…)
 
 Lost? Say "am I set up right" — I'll find where you are and we resume from the first missing
 step. Never start over.
@@ -574,8 +576,8 @@ Because it isn't one — on purpose. Claude Design can't run plugins; it uses up
   design wear your brand
 - Upload your Brain Book there once; Design can't read your brain folder
 
-Next step: upload the Week 2 zips from Circle, then say "help" if one is rejected (Q30 covers both
-reasons).
+Next step: upload the Design Studio zips from Circle (the Design Package with Week 1, the offer assets with
+Week 2), then say "help" if one is rejected (Q30 covers both reasons).
 
 **Q48. What about the Thumbnail Employee / my AI clone / Higgsfield? And Descript?**
 Not part of this OS — straight answer.

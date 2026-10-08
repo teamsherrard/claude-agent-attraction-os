@@ -34,30 +34,30 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | garbled auto-captions: "Chatubit", "Quad", "Proplexity" | ChatGPT, Claude, Perplexity | recognize silently; don't correct the member |
 
 ## Foundation & mindset (Week 1)
-- **"Attraction, not recruiting."** Recruiting is reaching out — cold calls, cold DMs, paid ads; attraction is agents coming directly to you — a slower burn in the beginning, exponential over time (`01/2`). The answer to "should I just start DMing agents."
-- **"You attract the type of person that you are."** (`01/2`) — the mirror principle; why the Brain asks who THEY are before who they want.
-- **"Videos don't attract agents. Agents attract agents."** (`02/19`) — for the member who wants to send the model-explained video and wait; the lazy route Mike names as the thing that no longer works.
-- **"From agent to leader."** (`01/6`) — the identity shift; routes to `attraction-leadership-audit` when they ask "am I ready."
-- **"1 agent can change your life."** (`01/9`) — for small-number discouragement; one is enough to start the compound.
-- **"Set 30-60-90 day goals and reverse-engineer them into activity."** (`01/8`) — `attraction-goals`.
+- **"Attraction, not recruiting."** Recruiting is reaching out — cold calls, cold DMs, paid ads; attraction is agents coming directly to you — a slower burn in the beginning, exponential over time (`01-foundation-mindset/2`). The answer to "should I just start DMing agents."
+- **"You attract the type of person that you are."** (`01-foundation-mindset/2`) — the mirror principle; why the Brain asks who THEY are before who they want.
+- **"Videos don't attract agents. Agents attract agents."** (`02-prospect-targeting/19`) — for the member who wants to send the model-explained video and wait; the lazy route Mike names as the thing that no longer works.
+- **"From agent to leader."** (`01-foundation-mindset/6`) — the identity shift; routes to `attraction-leadership-audit` when they ask "am I ready."
+- **"1 agent can change your life."** (`01-foundation-mindset/9`) — for small-number discouragement; one is enough to start the compound.
+- **"Set 30-60-90 day goals and reverse-engineer them into activity."** (`01-foundation-mindset/8`) — `attraction-goals`.
 - **Attribution rule:** Mike's numbers (five years as the number-one attractor, the 60-agent brokerage that moved, his org's size) are MIKE's results — quote them as his, never as the member's forecast. Every member number is illustrative and labelled.
 
 ## Positioning & model (Week 2)
-- **The two cardinal rules (`03/13`): do not talk badly about any other brokerage; do not talk badly about any other sponsor or person.** "If you have to tear another brokerage down to prop up yours, that's terrible leadership — and it means you don't understand how to position your own value." Use whenever a member wants a comparison that dunks; it's also why the Honest Brokerage Comparison Guide is HONEST.
-- **"Agents follow people, not companies."** (`03/17`) — "people are joining you for YOU, not a logo"; the brokerage provides the vehicle, the leader provides the growth. The answer to "why would anyone join me instead of my upline."
-- **"Guide me. Support me. Vision."** (`03/17`) — what switching agents look for: will you guide me, will you help me succeed, do you have a clear path I can follow. Frame for the UVP.
-- **"Relationships over commission split."** (`03/17`) — for "my competitor's split is better."
-- **"Why you, and why now?"** (`04/33`) — the one question the offer answers; the anatomy is core promise · unique mechanism · proof · support · scarcity.
-- **"If you don't have proof yet, help agents for free and earn the case studies."** (`04/33`) — Mike's own start; the honest answer to "I have no success stories."
+- **The two cardinal rules (`03-model-positioning/13`): do not talk badly about any other brokerage; do not talk badly about any other sponsor or person.** "If you have to tear another brokerage down to prop up yours, that's terrible leadership — and it means you don't understand how to position your own value." Use whenever a member wants a comparison that dunks; it's also why the Honest Brokerage Comparison Guide is HONEST.
+- **"Agents follow people, not companies."** (`03-model-positioning/17`) — "people are joining you for YOU, not a logo"; the brokerage provides the vehicle, the leader provides the growth. The answer to "why would anyone join me instead of my upline."
+- **"Guide me. Support me. Vision."** (`03-model-positioning/17`) — what switching agents look for: will you guide me, will you help me succeed, do you have a clear path I can follow. Frame for the UVP.
+- **"Relationships over commission split."** (`03-model-positioning/17`) — for "my competitor's split is better."
+- **"Why you, and why now?"** (`04-value-proposition/33`) — the one question the offer answers; the anatomy is core promise · unique mechanism · proof · support · scarcity.
+- **"If you don't have proof yet, help agents for free and earn the case studies."** (`04-value-proposition/33`) — Mike's own start; the honest answer to "I have no success stories."
 - **"I help [agent] achieve [outcome] through [unique mechanism]."** — the UVP one-liner `attraction-offer` produces. "Where do I PUT it?" → the Brain, via "update my offer."
-- **"Bridging the gap"** (`02/`, bonus) — identify their current state and their desired state, and position your value as the bridge; never pitch what YOU care about ("nobody cares what you care about — if they care about production, don't talk rev share", `10/42`).
-- **"Your brand is everything."** (`04/29`) — why the Design Package is Week 2, not Week 6.
-- **"Features tell, benefits sell"** (`04/32`) — the features-vs-benefits lesson; for messaging that lists perks instead of outcomes.
+- **"Bridging the gap"** (`bonus/bridging-the-gap`) — identify their current state and their desired state, and position your value as the bridge; never pitch what YOU care about ("nobody cares what you care about — if they care about production, don't talk rev share", `10-presentation-delivery/42`).
+- **"Your brand is everything."** (`04-value-proposition/29`) — why the Design Package is Week 1, alongside the Brain, not Week 6.
+- **"Features tell, benefits sell"** (`04-value-proposition/32`) — the features-vs-benefits lesson; for messaging that lists perks instead of outcomes.
 - **Compensation is answered on a private call, never in content** — Mike's standing rule; the Brokerage Model Expert is private-call material.
 
 ## Content (Weeks 3–4)
-- **"Attracting vs. chasing."** (`05/35`) — chasing feels pushy, transactional, desperate and creates resistance; attraction builds trust before the first conversation so agents lean in. For the member stuck in outreach mode.
-- **"Become the leader agents seek out."** (`05/35`) — "your presence pretty much gets the deal done" is the DESTINATION after years of consistency, told as Mike's story, never promised on a timeline.
+- **"Attracting vs. chasing."** (`05-big-picture/35`) — chasing feels pushy, transactional, desperate and creates resistance; attraction builds trust before the first conversation so agents lean in. For the member stuck in outreach mode.
+- **"Become the leader agents seek out."** (`05-big-picture/35`) — "your presence pretty much gets the deal done" is the DESTINATION after years of consistency, told as Mike's story, never promised on a timeline.
 - **The five pillars: Authority · Perspective · Story · Proof · Personality.** Not every post is instructional (Week 3 doc). For "I only know how to post tips."
 - **"Speak to agent problems, not brokerage features."** (Week 3) — the content version of features-vs-benefits.
 - **Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation.** (Week 3) — what short form is FOR; for "my Reels get views but nothing happens."
@@ -68,19 +68,19 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 
 ## Conversation & conversion (Week 5)
 - **"Don't recruit — start conversations."** Relevant, personalized, selfless, value-driven, low pressure (Week 5).
-- **"Objections are not rejection — they're a request for more clarity."** (`11/46`) — and Mike's game framing: an obstacle course you get better at. The seven archetypes each hide a fear (change feels risky · disruption · short-term cost…).
+- **"Objections are not rejection — they're a request for more clarity."** (`11-objection-handling/46`) — and Mike's game framing: an obstacle course you get better at. The seven archetypes each hide a fear (change feels risky · disruption · short-term cost…).
 - **Listen → Validate → Reframe → Invite.** (bonus objection framework) — the move for every objection.
-- **The partner call: Discovery → Diagnosis → Fit → Positioning → Questions → Next Step.** (Week 5) — "questions control conversations" (`10/44`).
-- **"Influence, not pressure."** (`10/41`) — the enrollment psychology.
-- **The 3-way call** (`10/43`) — borrowing an upline's credibility; the third voice closes what the first can't.
-- **"Never 'just checking in.'"** (`12/85`) — follow-up always carries a reason to respond.
+- **The partner call: Discovery → Diagnosis → Fit → Positioning → Questions → Next Step.** (Week 5) — "questions control conversations" (`10-presentation-delivery/44`).
+- **"Influence, not pressure."** (`10-presentation-delivery/41`) — the enrollment psychology.
+- **The 3-way call** (`10-presentation-delivery/43`) — borrowing an upline's credibility; the third voice closes what the first can't.
+- **"Never 'just checking in.'"** (`12-simple-tech-stack/85`) — follow-up always carries a reason to respond.
 
 ## Retention & duplication (Week 6)
-- **"Duplication is the key to revenue share."** (`13/63`) — you don't tell agents "go recruit"; you hand them the same system you installed.
-- **"Leaders create leaders."** (`13/66`) — build people who can build people.
-- **"Support without babysitting."** (`14/71`) — community, training library, FAQs, AI, leaders, escalation paths; for the burned-out member.
-- **The 6 pillars of "must-stay" culture.** (`14/68`) — for "how do I keep agents."
-- **Recognition is retention.** (`16/82`) — why recognition belongs in the weekly organization rhythm (the Team Wins Newsletter and the CEO review carry it).
+- **"Duplication is the key to revenue share."** (`13-team-building-duplication/63`) — you don't tell agents "go recruit"; you hand them the same system you installed.
+- **"Leaders create leaders."** (`13-team-building-duplication/66`) — build people who can build people.
+- **"Support without babysitting."** (`14-retention-culture/71`) — community, training library, FAQs, AI, leaders, escalation paths; for the burned-out member.
+- **The 6 pillars of "must-stay" culture.** (`14-retention-culture/68`) — for "how do I keep agents."
+- **Recognition is retention.** (`16-implementation-scaling/82`) — why recognition belongs in the weekly organization rhythm (the Team Wins Newsletter and the CEO review carry it).
 - **The CEO rhythm: daily, weekly, monthly reviews.** (Week 6) — the Debrief, the CEO Review, the Monthly KPI Review.
 
 ## Habits & the Brain (the OS routine)

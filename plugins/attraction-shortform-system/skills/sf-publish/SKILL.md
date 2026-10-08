@@ -93,7 +93,7 @@ daytime); after a month use their own data. Save the plan to the `Best times:` l
 
 ## Step 3 — Compliance (three-state, before anything is scheduled)
 Read `identity/compliance.md`. `unset` → **nothing is scheduled**; hand the post back with: *"before this
-goes out I need your compliance basics; say 'set up my compliance' and it takes three minutes."* `set` →
+goes out I need your compliance basics; say 'set up my attraction compliance' and it takes three minutes."* `set` →
 apply the rules and remind once per session. `confirmed` → apply. The caption carries the stamp (house rules
 #4 — built from `identity/compliance.md`) where the brokerage name or license rule applies; no compensation or
 income words anywhere; a `[Brokerage Name]` placeholder is a FAIL. "If empty, proceed" is banned.

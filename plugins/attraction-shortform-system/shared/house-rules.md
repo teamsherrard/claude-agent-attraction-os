@@ -71,7 +71,7 @@ Video edits go to the Riverside editor (`studio-reel`).
 
 Before anything public-facing goes out, read `~/attraction-brain/identity/compliance.md`:
 - **`unset`** → no public piece. Say it plainly and warmly ("before I write anything you'd post, I need your
-  compliance basics — say 'set up my compliance', three minutes") and do the private parts of the task meanwhile.
+  compliance basics — say 'set up my attraction compliance', three minutes") and do the private parts of the task meanwhile.
 - **`set`** → apply every rule; remind once per session to confirm with the brokerage.
 - **`confirmed`** → apply.
 **The stamp** (what every public piece appends — built from `identity/compliance.md`; the Brain plugin's compliance
