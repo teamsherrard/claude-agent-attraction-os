@@ -30,8 +30,10 @@ Schema `aa-1.0`. A Realtor AI Brain (`~/realtor-brain/`, marker `_workspace.md`)
 once by `attraction-import`, never written, never confused with this one.
 
 ## `config.md` — the key registry (locked spelling)
-`Schema: aa-1.0` · `Storage provider` · `Workspace name` · `Workspace ID` · `Workspace link` · `Timezone`
-(lives only here) · `CRM` · `Setup progress` · `Debrief time` · `Daily Debrief task` (task id or `declined`) ·
+`Schema: aa-1.0` · `Storage provider` · `Storage` (`ok` · `READ-ONLY (org-gated)` — written by `attraction-brain-sync`
+when a provider's write actions are admin-disabled; a separate key from `Storage provider`) · `Workspace name` ·
+`Workspace ID` · `Workspace link` · `Timezone` (lives only here) · `CRM` · `Setup progress` · `Debrief time` ·
+`Daily Debrief task` (task id or `declined`) ·
 `Agent Movement Watcher task` (task id · declined · later) · `Workspace shared with` · `Realtor Brain bridge` (none / declined /
 pulled YYYY-MM-DD) · `Demo brain` (yes/no) · `Cohort week` (optional). Supporting fields (Locale, Owner account, Plugin version, Brain home,
 Last synced) sit under their own heading and are not registry keys. The template, `attraction-brain-setup`,
@@ -50,10 +52,14 @@ owns later edits). `attraction-capture` writes `memory/conversations.md` and `me
 directly until the Conversion / AI Admin plugins are installed, then hands off to them
 and touches only `top-50.md`. The row shapes never change at hand-off.
 
+`attraction-import` is a **pre-fill writer of identity files during setup** — merge-only, every write confirmed
+by the member before saving — and never of memory ledgers, except the `## Past content (imported)` section of
+`memory/ideas.md`. Agent contacts from an import go to `attraction-top-50`, objections to `attraction-capture`.
+
 | File | Owner skill | Also writes (designated section / append only) |
 |---|---|---|
 | `brain.md` | `attraction-brain-setup` (index, quick-ref) | `attraction-brain-health` refreshes quick-ref fields |
-| `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (registry keys) | `attraction-debrief` → `Daily Debrief task`, `Debrief time`; `attraction-prospect-radar` → the Watcher task; `attraction-brain-migrate` → `Schema`; `attraction-import` → `Realtor Brain bridge`; later plugins their own block |
+| `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (registry keys) | `attraction-brain-sync` → `Storage`; `attraction-debrief` → `Daily Debrief task`, `Debrief time`; `attraction-prospect-radar` → the Watcher task; `attraction-brain-migrate` → `Schema`; `attraction-import` → `Realtor Brain bridge`; later plugins their own block |
 | `identity/profile.md` | `attraction-brand-persona` | `attraction-import` (bridged fields, marked) |
 | `identity/journey.md` | `attraction-brand-persona` (everything above the `## Why join me` block) | `attraction-why-join-me` owns the `## Why join me` block at the END of the file (60-second, long, one-breath); brand-persona preserves it byte-for-byte |
 | `identity/strategy.md` | setup seeds → `attraction-brand-persona` (update path) | — |
@@ -83,7 +89,7 @@ and touches only `top-50.md`. The row shapes never change at hand-off.
 | `memory/debriefs.md` | `attraction-debrief` | — |
 | `memory/capture-log.md` | `attraction-capture` (fallback) | the Debrief surfaces Open rows |
 | `memory/content-log.md` | **YouTube · Short-Form · AI Editor · Events** | the Brain only reads |
-| `memory/ideas.md` | `attraction-capture` | content plugins mark Used |
+| `memory/ideas.md` | `attraction-capture` | content plugins mark Used; `attraction-import` appends the `## Past content (imported)` section only |
 | `memory/intel.md` | `attraction-prospect-radar` (the Agent Movement Watcher) | `attraction-capture` appends what the member heard, same shape |
 | `memory/intel-reports/` | **Conversion & Sales plugin (Week 5)** | the Brain only reads |
 | `memory/deadlines.md` | `attraction-capture` until the AI Admin is installed | then `admin-*`, same shape |

@@ -38,7 +38,7 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 
 ## Channel page
 - Kit delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: …]  ·  Banner: [brief sent to ds-brand YYYY-MM-DD / live]
-- Trailer: [the named video / "make this video: my channel trailer" pending]
+- Trailer: [the named video / "make my attraction video: my channel trailer" pending]
 
 ## Baseline (as of YYYY-MM-DD)
 - Subscribers: [n]  ·  Videos: [n]  ·  Most-viewed: "[title]" (~[n])  ·  Cadence observed: [n/wk]
@@ -50,7 +50,7 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 
 ## Performance (appended by yt-analytics — one dated block per deep dive, newest last, never edited)
 ### YYYY-MM-DD
-- [subscriber baseline · best pillar · the 3 best hooks · the top attraction video · the break · the 30-day titles · search phrases and positions]
+- [subscriber baseline · best lane · the 3 best hooks · the top attraction video · the break · the 30-day titles · search phrases and positions]
 ```
 
 Rules: the Brain's `how-we-speak.md` applies — the member never sees this file's name; they hear "your channel

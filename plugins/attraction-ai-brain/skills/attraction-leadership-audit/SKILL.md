@@ -30,14 +30,10 @@ Read `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` and `${CLAUDE_PLUGIN_ROOT}/s
 Two stops, 3–4 questions each, "your turn" at the end of each; propose-and-react when they are unsure.
 
 ## Step 1 — Load the Brain (score from facts before asking anything)
-`~/attraction-brain/brain.md`, then: `identity/profile.md` (years, team or solo), `identity/journey.md`
-(what they built, the hardest stretch), `identity/goals.md` (the 90-day join target = **N**, the hours
-from Q39), `identity/operations.md` (hours, onboarding steps, call cadence — if built),
-`identity/offer.md` (what they give — Week 2; seeds are fine), `identity/proof.md` and
-`memory/organization.md` (agents today, how long they stayed), `memory/content-log.md` and
-`memory/scorecard.md` (consistency, in rows not claims), `identity/strategy.md` (vision),
-`identity/leadership.md` (if present: a re-audit — show last time's scores and ask what changed).
-Pull via `attraction-brain-sync` if missing; a tool error is never "no Brain".
+`~/attraction-brain/brain.md`, then only three files up front: `identity/leadership.md` (if present: a
+re-audit — show last time's scores and ask what changed), `identity/goals.md` (the 90-day join target =
+**N**, the hours from Q39), `identity/profile.md` (years, team or solo). The rest load at the stop that
+scores them (named there). Pull via `attraction-brain-sync` if missing; a tool error is never "no Brain".
 
 ## The doctrine (what "ready" means, from the lessons)
 - **Vision, certainty, congruence, standards** (`01-foundation-mindset/6`): a compelling vision big
@@ -57,6 +53,10 @@ Pull via `attraction-brain-sync` if missing; a tool error is never "no Brain".
   does not matter. Readiness includes whether what the member does can be handed over.
 
 ## Stop A · Time and what you can hand over (one card, 3–4 questions)
+Read now: `identity/journey.md` (what they built, the hardest stretch), `identity/operations.md` (hours,
+onboarding steps, call cadence — if built), `identity/offer.md` (what they give — Week 2; seeds are fine),
+`identity/proof.md` and `memory/organization.md` (agents today, how long they stayed).
+
 Orient: *"Next: a quick, honest readiness check — two short rounds. Low scores are normal; they
 become your first three fixes."*
 1. **Hours a week for your agents** (not for attraction — for the people who have already joined).
@@ -71,6 +71,9 @@ become your first three fixes."*
 4. *(Only if the org has agents)* **How many have stayed, and who left — why?** One line.
 
 ## Stop B · Support, consistency, vision (one card, 3–4 questions)
+Read now: `memory/content-log.md` and `memory/scorecard.md` (consistency, in rows not claims),
+`identity/strategy.md` (vision).
+
 1. **How do your agents' questions reach you, and what is written down?** Text / calls / a group /
    nothing yet · an FAQ, a training library, recorded answers, or nothing yet.
 2. **How many agents could you answer every week before it costs you your own production?** Their

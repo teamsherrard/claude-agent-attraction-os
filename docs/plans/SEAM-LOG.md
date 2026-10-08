@@ -31,6 +31,8 @@ Running list. Each line: what · where · status.
 
 - Lead Magnet QA rulings: `identity/profiles.md` is THE bios file (H2 per platform incl. YouTube), sf-setup writes, lm-profiles updates → template adds profiles.md; drop the "Second CTA set in Week 6 by Lead Magnet" line from the template `voice.md` and BRAIN-CONTRACT; downstream readers of the live magnet (`sf-comment-to-dm`, `yt-leads`, `cv-conversation-starter`) read `memory/magnets.md → ## Current magnet` first; `attraction-goals` weekly mode + `admin-scorecard` read "Calls booked from the funnel" in `list-growth.md`; widen the OS-level Lead Magnet read row · OPEN (SF via QA-SF message; rest final pass)
 
+- Admin rulings: 8 skills is correct (setup is its own skill) → fix counts in stack-map/plan/cohort-kb; stack-map front door = "set up my attraction admin"; template adds `memory/follow-up-queue.md`; the scorecard weekly row gains three columns (New prospects · Meaningful conversations · 3-ways) in `attraction-goals` AND the template; `attraction-top-50` mirror rule extends to Last touch (from conversations.md) and Next move · Due (from the pipeline Board) once the Admin exists; the Morning Brief (`attraction-admin-morning-brief`, owner admin-daily) is the 11th scheduled agent → add to master plan §1 + BRAIN-CONTRACT; Admin detection = prefix match on `## AI Admin` · OPEN
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 

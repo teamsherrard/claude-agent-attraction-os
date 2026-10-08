@@ -3,7 +3,7 @@
 Each playbook fixes the beats, the length, the hook formulas that fit (doctrine §9, numbered 1–7), what to pull
 from the Brain, and the lines that never appear. The page layout is `script-format.md`; the structure every
 format sits inside is doctrine §8 (hook → resource CTA → value → call CTA → payoff → next video). The vault does
-not name these four formats — the cohort plan does; their content is grounded in `08-youtube/92, 93, 94, 96`
+not name these four formats — the cohort plan does; their content is grounded in `08-youtube/92, 93 (draft), 94, 96`
 (doctrine §12, §17).
 
 ---
@@ -46,7 +46,7 @@ they hit — never as the company they left.*
 
 ## 3. Model Breakdown  (bucket: Model · Perspective · 12–20 min)
 *Pull back the curtain, simplify what others overcomplicate, answer what they're already researching (`/96`,
-`/93`). Requires `brokerage-model.md`; empty → route to `attraction-brokerage-model` first.*
+`/93` draft). Requires `brokerage-model.md`; empty → route to `attraction-brokerage-model` first.*
 - **Pull:** `brokerage-model.md` (mechanics as the member's materials state them, dated) · the Brain plugin's
   `shared/brokerage-models.md` · `memory/intel.md` (dated changes) · `objections.md` (the myths and fears agents
   raise) · `positioning.md` (positioned, not pitched) · `offer.md` (the value proposition that fills the gaps).
@@ -72,7 +72,7 @@ they hit — never as the company they left.*
 
 ## 4. Niche Breakdown  (bucket: Problem or Future · Authority · 10–20 min)
 *The deep teach on the thing the member is known for — "cast a wide net around your niche so whatever they
-search, they find you" (`/93`). The Future bucket when it points at leverage and the next stage.*
+search, they find you" (`/93`, draft). The Future bucket when it points at leverage and the next stage.*
 - **Pull:** `strategy.md` (known for) · `offer.md` (the method, the systems) · `proof.md` (results from the
   method — the member's own, labeled as theirs, or an agent's with consent) · `story-bank.md` · `avatars.md`.
 - **Beats:** the outcome and who it's for → the method, step by step (the exact system the member uses — enough

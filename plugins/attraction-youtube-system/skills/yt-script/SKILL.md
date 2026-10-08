@@ -33,7 +33,7 @@ this skill writes the **content-log row at Scripted**, stamps a story's **Used-w
   bucket (Problem · Situation · Future · Interview · Model), then write.
 - **The Brain:** `identity/voice.md` (tone, hard-avoids) **and `voice-print.md`** (spoken cadence, signature
   phrases, never-say — the primary reference for a read-aloud script; empty = proceed on `voice.md`, never
-  invent a personality) · `avatars.md` (the viewer, their pain in their words) · `offer.md` (the resource; `seeds`
+  invent a personality) · `avatars.md` (the viewer, their pain in their words) · `offer.md` (the resource — `memory/magnets.md → ## Current magnet` first when it exists; `seeds`
   → the resource CTA is the Partner Call) · `identity/channel.md` → the CTA line and the booking link ·
   `story-bank.md` (stories tagged to this pain or beat — rotate; check `content-log.md` for recent use) ·
   `proof.md` (real lines only, consent respected) · `journey.md` (Why I Switched material — the wall, never the
@@ -62,7 +62,7 @@ that never appear.
   "grab the [resource], link in the description." No resource yet → the warm Partner Call line here and the
   mid CTA becomes the lighter reminder.
 - **VALUE** — 3–5 clear sections; each answers *what they need to know · why it matters · what to do*; tactical
-  enough to use today; a real story or an agent's win woven where it lands (`/93`: "this is legit"); bullets
+  enough to use today; a real story or an agent's win woven where it lands (`/93`, draft: "this is legit"); bullets
   for lists; no tangents. Model scripts: mechanics and fit, never figures.
 - **CALL CTA (~a third to halfway in)** — the warm invite to a private one-on-one call, value-named, never the
   brokerage name as the pitch (`/94`, `/98`). Rotate the phrasing across videos.

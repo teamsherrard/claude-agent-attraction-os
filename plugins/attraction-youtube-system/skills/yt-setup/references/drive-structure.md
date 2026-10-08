@@ -20,7 +20,8 @@ Drive or OneDrive — the provider is in `config.md`; the operation mapping is t
 │   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail)
 │   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when a resource exists)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
-│   │         └── the interview prep                        (yt-interview — interviews only)
+│   │         ├── Model Breakdown — [title] — YYYY-MM-DD    (yt-model-breakdown — model videos only)
+│   │         └── Interview Prep — [guest] — YYYY-MM-DD     (yt-interview — interviews only)
 │   └── Graphics/                    ← thumbnails built in Claude Design (the member drops them)
 └── 06 · Materials/                  ← the brokerage deck, past videos — READ for model content, never written
 ```
@@ -33,7 +34,8 @@ chat-driven and reads state live (the Brain, the content log, the channel, the b
 - Video folder: `YYYY-MM-DD · [Video Title]` (date = the day the script was made; Title Case; no emojis or slashes)
 - Deep dive: `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`
 - Docs inside a video folder — FIXED names: `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief —
-  [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD`
+  [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
+  `Interview Prep — [guest] — YYYY-MM-DD` · `Model Breakdown — [title] — YYYY-MM-DD`
 Dates are always `YYYY-MM-DD` so folders sort. Same name, same spot, every time.
 
 ## Where state lives (the system is essentially stateless)

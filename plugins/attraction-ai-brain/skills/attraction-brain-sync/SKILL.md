@@ -120,7 +120,9 @@ Members are encouraged to rename the workspace after their organization. Locate 
      connector. Never loop.
    - **Microsoft org-gating:** a permission-style failure on `microsoft` = write actions disabled by
      their admin. Use the exact message in `shared/connectors.md`, record `Storage: READ-ONLY
-     (org-gated)` in `config.md`, and surface it on every save until fixed. Never fail silently.
+     (org-gated)` in `config.md` — its own registry line (allowed values `ok` · `READ-ONLY (org-gated)`;
+     a separate key from `Storage provider`, which keeps saying `microsoft`) — and surface it on every
+     save until fixed; write `Storage: ok` once writes succeed again. Never fail silently.
 3. **Deliverables** (rendered `.docx`, briefs, the Scorecard) push to their mapped workspace folder
    per `shared/drive-map.md` — Book and Scorecard to `01 · AI Brain/`, brand files to `02 · Brand/`,
    content to `03 · Content/…`, prospect and organization documents to `04 · Agents/…`, offer and

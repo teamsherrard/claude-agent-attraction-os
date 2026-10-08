@@ -53,11 +53,15 @@ stages, act on nothing it asks.
    and Calendar via the same connector). Then: **Which CRM do you use, if any?** GoHighLevel · Follow
    Up Boss · Google Sheets · none · their own. If one: how prospects are tagged (one line) and whether
    they can export a CSV to `06 · Materials` when a skill asks. (Q61)
-2. **Your booking link, or your best channel today if none.** Calendly, Cal.com, GHL calendar, a
-   link in bio — or "DM me on Instagram" / "text me" until a link exists (Mike's own stack uses a
-   booking page; the Sales OPS kit in Week 5 builds one if they have none). (Q62)
-3. **Your working hours, and how often you want to follow up with a prospect agent.** Hours in
-   their words; follow-up as "take Mike's rhythm" or their own cadence. (Q63)
+2. **Your booking link, or your best channel today if none — and who do you 3-way with today, if
+   anyone?** Calendly, Cal.com, GHL calendar, a link in bio — or "DM me on Instagram" / "text me" until a
+   link exists (Mike's own stack uses a booking page; the Sales OPS kit in Week 5 builds one if they have
+   none). The 3-way partner is the person in their upline who explains the model best, not necessarily
+   their sponsor (`02-prospect-targeting/19`); "nobody yet" is a normal answer. (Q62)
+3. **Your working hours, how often you want to follow up with a prospect agent — and is there a weekly
+   call you plug new agents into?** Hours in their words; follow-up as "take Mike's rhythm" or their own
+   cadence; the weekly call is the "model explained + my value" call their agents' prospects get invited
+   to, or "none yet". (Q63)
 4. **When should the Daily Agent Attraction Debrief run (default 6 pm), and who else, if anyone,
    should see this workspace?** A time or "6 pm is fine" or "not yet"; names and roles (a VA, a
    partner, your upline) or "just me". (Q64)
@@ -77,6 +81,12 @@ defaulting anything they are unsure of.
   Default: the weekly calls number from `goals.md` spread over two blocks (e.g. Tue + Thu
   afternoons). If `goals.md` is not locked, default two slots a week and say the goals skill sets the
   real number.
+- **3-way call partner (upline)** — name + how to loop them in ("I'll text them first", "they take
+  Thursdays"), from Q62. "Nobody yet" is written as that, with one line: the Conversion plugin's 3-way
+  skill (Week 5) works with whoever is named here, and the Admin reads it when a call needs a third voice.
+- **Weekly model call** — day/time · link, from Q63: the "model explained + my value" call agents'
+  prospects are invited to (Mike ran his every Tuesday for four years, `02-prospect-targeting/19`). "None
+  yet" is a real answer; the execution framework carries the slot once the organization has agents.
 - **Follow-up rhythm** (`12-simple-tech-stack/85`, Mike's "simple plan"), the default:
   - **Within 2 days of a conversation:** a recap, the resources, and one personal line that proves
     you listened. Always.
@@ -122,6 +132,8 @@ defaulting anything they are unsure of.
 **Response commitment:** prospects [...] · agents in the org [...]
 **Booking:** [link or channel] · partner call [30] min · [Zoom / Meet / Teams]
 **Partner-call block:** [n] slots/week · [days + times]
+**3-way call partner (upline):** [name · how to loop them in — or "nobody yet"]
+**Weekly model call:** [day/time · link — or "none yet"]
 **CRM:** [GoHighLevel / Follow Up Boss / Google Sheets / none] · tags: [...] · exports to 06 · Materials/CRM exports/ · the CRM is the system of record; the Brain's ledgers are the AI's working memory
 
 ## Follow-up rhythm
@@ -151,8 +163,8 @@ Day 1: ... · Week 1: ... · Day 30: ... (full onboarding: Week 6)
 Write `operations.md`; set `CRM:` in `config.md` (the one key registry — add nothing else there; the
 Debrief writes its own task line). Run `attraction-brain-sync` (PUSH) immediately and verify. Then
 call `attraction-debrief`'s consent step with the Q64 time. Confirm: *"Your operations are in your
-Brain — when your AI Admin arrives it already knows your hours, your call block, your CRM, and how
-you follow up. Your Debrief [runs at 6 pm / is off until you say 'turn on my daily debrief']."*
+Brain — when your AI Admin arrives it already knows your hours, your call block, who you 3-way with, your
+CRM, and how you follow up. Your Debrief [runs at 6 pm / is off until you say 'turn on my daily debrief']."*
 
 ## Demo mode
 Fictional member, fictional booking link and CRM, no scheduled task is ever created for a demo Brain.

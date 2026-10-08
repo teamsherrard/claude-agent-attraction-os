@@ -4,7 +4,7 @@ description: >
   One-time onboarding for the Agent Attraction YouTube System. Reads the member's Agent Attraction
   Brain (who they are, the agents they attract, offer, story, voice, compliance) and never re-asks
   it; captures only the channel; then builds the channel positioned for attraction — about text,
-  playlists by lane (Problem · Situation · Future · Interviews · Model), the banner brief for Claude
+  playlists by lane (Problem · Situation · Future · Interview · Model), the banner brief for Claude
   Design, upload defaults with the book-a-call line first, the two-CTA line — as a paste-by-paste
   Channel Page Kit; writes the channel file to the Brain; then hands into the YouTube Game Plan. New
   or existing channel. Triggers on "set up my YouTube for agents", "set up my attraction channel",
@@ -60,7 +60,8 @@ Add the model tip only if this is a fresh session: one sitting, medium effort.
 
 ## Step 2 — Load the Brain (read, never rebuild)
 Read `brain.md`, then only: `identity/profile.md` · `avatars.md` · `strategy.md` (known for) · `offer.md`
-(the resource and the offer; `Status: seeds` means Week 2 builds the offer — never demand it) · `journey.md`
+(the offer; the live resource is `memory/magnets.md → ## Current magnet` first when it exists, `offer.md` second;
+`Status: seeds` means Week 2 builds the offer — never demand it) · `journey.md`
 (the story, no former brokerage named) · `proof.md` · `voice.md` · `compliance.md` · `brand-visual.md` (the
 kit status) · `operations.md` (the booking link) · `content-pillars.md` (the Short-Form System's file — the
 five pillars Authority · Perspective · Story · Proof · Personality, cadence, the two CTAs — if Week 3 wrote it;
@@ -128,7 +129,10 @@ present, recruiting scope respected, no protected-characteristic targeting.
    positioning · lanes and playlists · the CTA line · upload defaults set [date] · channel page set [date] ·
    baseline; the Performance section stays empty for `yt-analytics`). Create an empty
    **`memory/interview-pipeline.md`** with the header and row shape from
-   `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` if it does not exist (never touch existing rows). Register the `## YouTube (Week 4)` block in `config.md` (installed date · plugin version · pointer to the channel file — nothing else). Push via
+   `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` if it does not exist (never touch existing rows). Register the `## YouTube (Week 4)` block in `config.md` with exactly these lines (`brain-contract.md`):
+   `Installed:` today's date · `Plugin version:` · `Layer:` → `identity/channel.md` · `Monday Kickoff task: not offered yet` ·
+   `Weekly ideas task: not offered yet` · `Monthly review task: not offered yet` · `YouTube section: not offered yet` —
+   nothing else. Push via
    `attraction-brain-sync` and verify. If the push fails: say it is not saved, keep the kit visible, retry once,
    stop.
 2. Render the kit on the **Channel Page Kit skeleton** (`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`) via

@@ -174,7 +174,9 @@ again for that type in ONE stop (never a third stop per avatar; a secondary gets
 ## Write `identity/avatars.md`
 
 Written for the Brain (third person about the avatar, "you" for the member where it reads naturally),
-developed from the answers and the doctrine, never transcribed. Shape:
+developed from the answers and the doctrine, never transcribed. Four fields are mandatory per avatar because
+the template (`identity/avatars.md`) carries them and the Book's Chapter 6 renders them: **In their words**
+(the verbatim Q15 line), **Triggers**, **Objections to expect**, **Content that pulls them in**. Shape:
 
 ```
 # Agent Avatars — [Member first name]
@@ -192,11 +194,17 @@ Where they are right now
   what they spend money on · what they've tried to grow · what they want to build · what would make
   them consider a move · a good month · a bad month |   (every cell specific, never "varies")
 
+In their words (Q15, verbatim): "[their biggest problem right now, exactly as the member said it — typos kept]"
+
 What they're struggling with (ranked)
-| Pain | Why it hurts right now | [Member]'s strength that solves it | Proof [Member] can point to |
+| Pain (Mike's wording) | Why it hurts right now | [Member]'s strength that solves it | Proof [Member] can point to |
 (five rows; at least three map to something the member has actually done — quoted from strategy.md or
 proof.md; a pain the member can't solve reads "not your lane — point them to what your brokerage already
 provides"; a row with no proof reads "[open item: first partner's result goes here]")
+
+Triggers (why they'd consider a move now)
+[the problem they are leaving, not the company — the six reasons agents leave, `02-prospect-targeting/18`,
+matched to this type; what has to be true in their month for them to take a call]
 
 Why they'd relate to [Member]
 (three pairs: the member's journey beat → this agent's present-day version · each ends with
@@ -210,13 +218,21 @@ phrases) · signals they're ready (what they post or say right before they move)
 How to spot them (10 yes/no signals — behaviours and business facts only)
 Score: 7+ yes = ready now · 4–6 = worth staying close to · under 4 = your content does the work
 
+Objections to expect
+[3–5 from the persona doctrine's list for this type, each with the member's strength that answers it — on
+strengths, never on another brokerage's weakness; the full handlers are Week 5's]
+
+Content that pulls them in
+[the topics, the hooks, and the one story beat to lead with — the one strategy the member can teach that
+this agent is already searching for; the Short-Form System reads this in Week 3]
+
 What this means
 Offer direction: [the outcome the offer must promise this agent — Week 2 builds it]
-Content direction: [the one story beat and the one strategy to lead with]
 The ask: [book a call / grab the guide — by readiness]
 
-## Secondary — [type]            (one-line target · short portrait · top 3 pains with the member's
-                                   strength · where they gather · the ask)
+## Secondary — [type]            (one-line target · in their words · short portrait · top 3 pains with the
+                                   member's strength · triggers · where they gather · objections to expect ·
+                                   content that pulls them in · the ask)
 ## Third — [type]                 (same short form)
 
 ## Targeting rules (read by every skill)

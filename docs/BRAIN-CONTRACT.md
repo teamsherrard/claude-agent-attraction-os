@@ -107,8 +107,10 @@ rows, the weekly check-in appends weekly rows.
   (`skills/attraction-brain-setup/references/brain-template/`). A plugin that needs a column proposes it there.
 
 ## `config.md` — the key registry (locked spelling)
-`Schema: aa-1.0` · `Storage provider` · `Workspace name` · `Workspace ID` · `Workspace link` · `Timezone` (lives
-only here) · `CRM` · `Setup progress` · `Debrief time` · `Daily Debrief task` (task id · declined) · `Agent Movement
+`Schema: aa-1.0` · `Storage provider` · `Storage` (`ok` · `READ-ONLY (org-gated)` — written by `attraction-brain-sync`
+when a provider's write actions are admin-disabled; a separate key from `Storage provider`) · `Workspace name` ·
+`Workspace ID` · `Workspace link` · `Timezone` (lives only here) · `CRM` · `Setup progress` · `Debrief time` ·
+`Daily Debrief task` (task id · declined) · `Agent Movement
 Watcher task` (task id · declined · later) · `Workspace shared with` · `Realtor Brain bridge` (none · declined ·
 pulled YYYY-MM-DD) · `Demo brain` (yes · no) · `Cohort week` (optional). Each later plugin registers its own block
 under its own heading and never edits another's.

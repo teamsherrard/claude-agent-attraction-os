@@ -97,11 +97,15 @@ For every file, work out what it is and pull the useful content:
 | CRM export (CSV / sheet of agents or contacts) | agent-looking contacts: name · brokerage · market · last touch; tag by the six types where obvious | hand the rows to **attraction-top-50** (it owns the ledger's row shape and the stage vocabulary — never write `memory/top-50.md` rows directly); non-agent contacts are ignored, never copied |
 | Agent testimonials, reviews from agents, screenshots | the quote + first name / agent type / year, verbatim | `identity/proof.md` under **Reviews and testimonials FROM AGENTS** |
 | Client testimonials, production stats, awards | verbatim quotes · numbers as stated | `identity/proof.md` under **Production wins** (labelled client proof) |
-| Past emails to agents, DMs, captions, posts, video scripts, transcripts | the **verbatim** samples + what's distinctive · any story moment · any objection they answered | `identity/voice-samples.md` (+ refine `voice.md`) · `identity/story-bank.md` · `memory/objections.md` (objection + the answer they gave) |
-| Past videos (a YouTube link or transcript) | what they teach, the hooks they use, the story they tell | `identity/voice-samples.md` (spoken lines) · `identity/story-bank.md` · `memory/content-log.md` (one row per published piece, so content skills never repeat it) |
-| Anything about how or what they post | pillars, cadence, platforms | hold for Week 3: note it in `memory/ideas.md` tagged `pillars`; the Short-Form setup writes `content-pillars.md` |
+| Past emails to agents, DMs, captions, posts, video scripts, transcripts | the **verbatim** samples + what's distinctive · any story moment · any objection they answered | `identity/voice-samples.md` (+ refine `voice.md`) · `identity/story-bank.md` · an objection they answered is handed to **attraction-capture** (it owns `memory/objections.md`; import never writes that ledger) |
+| Past videos (a YouTube link or transcript) | what they teach, the hooks they use, the story they tell · the published pieces themselves | `identity/voice-samples.md` (spoken lines) · `identity/story-bank.md` · the published pieces, one line each (date · platform · title or hook · link), under a **`## Past content (imported)`** section of `memory/ideas.md` — the one memory append import owns (create the section if absent; content skills read it so they never repeat a topic). Never `memory/content-log.md`: that ledger belongs to the content plugins. |
+| Anything about how or what they post | pillars, cadence, platforms | hold for Week 3: one note under the same `## Past content (imported)` section of `memory/ideas.md`, tagged `pillars`; the Short-Form setup writes `content-pillars.md` |
 
 Rules:
+- **Every identity write by import is a pre-fill: merge-only, and confirmed by the member before saving.**
+  Import never writes a memory ledger — the one exception is the `## Past content (imported)` section of
+  `memory/ideas.md`. Anything else that belongs in a ledger goes to its owner: agent contacts to
+  `attraction-top-50`, objections to `attraction-capture`.
 - **Extract only what's really there.** If a file is thin or off-topic, skip it — don't invent to
   fill a slot. Never derive production numbers, organization size, or rev-share figures from a deck's
   marketing claims; capture them as "the deck claims …" for the member to confirm.

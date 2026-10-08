@@ -23,7 +23,7 @@ around the agents I actually want."* Substance and structure, delivered as a cle
 Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — the doctrine (#1), the Brain first (#2), 3-state
 compliance (#3), plain talk (#4), sourcing (#6), docs (#7), the stamp (#9), demo mode (#12). The Brain Contract:
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (this skill writes only the `## Game Plan anchors` block of
-`identity/channel.md` and seeds `memory/interview-pipeline.md` at Status `Idea`).
+`identity/channel.md` and seeds `memory/interview-pipeline.md` rows at Stage `Candidate`).
 
 **Lazy-load:** `references/gameplan-framework.md` at Step 2 (the backbone). Doctrine sections only when the
 phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phase 5), §9 (Phase 6), §13–§14
@@ -35,7 +35,8 @@ phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phas
 Read `~/attraction-brain/brain.md` (pull first via `attraction-brain-sync` if missing), then only:
 - `identity/profile.md` · `strategy.md` (known for, priorities) · `avatars.md` (the 1–3 types they attract,
   their pains, their triggers — every lane and title is for a named avatar)
-- `identity/offer.md` (the resource and the offer; `Status: seeds` → "Week 2 builds the offer"; never demand it)
+- `identity/offer.md` (the offer; the live resource is `memory/magnets.md → ## Current magnet` first when it exists,
+  `offer.md` second; `Status: seeds` → "Week 2 builds the offer"; never demand it)
 - `identity/journey.md` (the Why I Switched material; former brokerage never named) · `story-bank.md` ·
   `proof.md` (real wins only)
 - `identity/brokerage-model.md` (the model lane; empty = "say 'explain my model to me' and the model lane

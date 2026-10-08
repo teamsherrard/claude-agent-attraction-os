@@ -53,7 +53,7 @@ negative word about a brokerage or person.
   agent actually needs in [year]" · growth → "Why selling more houses won't get you out of the hamster wheel" ·
   work-life balance → "How to build a real estate business that doesn't need you every day"
 
-## FUTURE — show them the next stage (VIP day, `08-youtube/93`)
+## FUTURE — show them the next stage (VIP day, `08-youtube/93` — draft)
 *Growth, leverage, leadership, modern business models — without numbers.*
 - How top agents build leverage (and why most never do)  *(1)*
 - How to stop relying entirely on your personal production
@@ -75,7 +75,7 @@ negative word about a brokerage or person.
 Sequence by relatability (doctrine §5): across ages, backgrounds, markets, personalities — so any viewer finds
 someone like them.
 
-## MODEL — answer what they're already researching (`08-youtube/96`, `/93`, VIP day)
+## MODEL — answer what they're already researching (`08-youtube/96`, `/93` draft, VIP day)
 *Mechanics, fit, myths, the sponsor question — compensation stays on the call.*
 - [Model] explained — how it actually works in [year]  *(6; remade yearly)*
 - Should you join [brokerage]? An honest look at who it's for  *(6)*

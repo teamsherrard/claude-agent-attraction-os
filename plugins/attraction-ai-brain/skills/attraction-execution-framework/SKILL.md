@@ -32,12 +32,10 @@ Read `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` and `${CLAUDE_PLUGIN_ROOT}/s
 Mostly this skill *shows* and asks the member to react; it has at most two short stops.
 
 ## Step 1 — Load the Brain
-`~/attraction-brain/brain.md`, then: `identity/goals.md` (required — if it is absent or `seeds`,
-say in one line that the targets come first and run `attraction-goals`, then return),
-`memory/scorecard.md`, `identity/leadership.md` and `identity/operations.md` (if built — capacity,
-hours, call cadence), `identity/content-pillars.md` (if built — the
-content KPI), `memory/organization.md`, `memory/pipeline.md`, `memory/content-log.md` (what has
-actually happened), `identity/execution-framework.md` (if present, this is a refresh). Pull via
+`~/attraction-brain/brain.md`, then only three files up front: `identity/goals.md` (required — if it is
+absent or `seeds`, say in one line that the targets come first and run `attraction-goals`, then return),
+`identity/execution-framework.md` (if present, this is a refresh), `memory/scorecard.md` (what has
+actually happened against the targets). The rest load at the step that uses them (named there). Pull via
 `attraction-brain-sync` if the local copy is missing; a tool error is never "no Brain".
 
 ## The doctrine (cite it when a rule comes from a lesson)
@@ -69,6 +67,8 @@ actually happened), `identity/execution-framework.md` (if present, this is a ref
   rhythm has a slot for "the standing call / three-way path" once the organization has agents.
 
 ## Stop A · Confirm the year's shape (one card, 2–3 questions — most answers come from the Brain)
+Read now: `memory/organization.md` and `memory/pipeline.md` (what is already true).
+
 Orient: *"Next: your year. I've built four quarters from your targets — two quick questions, then the
 rhythm."*
 1. **The three weekly non-negotiables.** Propose them from `goals.md` (conversations · calls ·
@@ -81,6 +81,8 @@ rhythm."*
    yet / "what's that" — the last routes to Week 6; the first goes into the rhythm.
 
 ## Stop B · The rhythm (one card, 2–3 questions)
+Read now: `identity/operations.md` (if built — hours, call cadence).
+
 1. **Weekly CEO review — when?** Propose a day and time from `operations.md` hours (default Friday
    4 pm or Sunday evening); the member moves it.
 2. **Monthly KPI review — the 1st, or a day you'll actually keep?**
@@ -88,6 +90,9 @@ rhythm."*
    (Nothing is shared by this skill; it is recorded so the reviews can name it.)
 
 ## Build the framework (then show it, then write it)
+Read now: `identity/leadership.md` (if built — capacity), `identity/content-pillars.md` (if built — the
+content KPI), `memory/content-log.md` (what has shipped).
+
 **1. The 12-month table** — four quarters, each: focus · joins target (ramped 15 / 20 / 30 / 35% of the
 12-month number unless `goals.md` says otherwise — a planning assumption, labelled) · agents in the
 organization at quarter end · the controllable weekly KPIs for that quarter (conversations, calls,
