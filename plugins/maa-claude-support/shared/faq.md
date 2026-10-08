@@ -579,7 +579,7 @@ Because it isn't one — on purpose. Claude Design can't run plugins; it uses up
 Next step: upload the Design Studio zips from Circle (the Design Package with Week 1, the offer assets with
 Week 2), then say "help" if one is rejected (Q30 covers both reasons).
 
-**Q48. What about the Thumbnail Employee / my AI clone / Higgsfield? And Descript?**
+**Q48. What about the Thumbnail Employee / my AI clone / Higgsfield? And Descript? (Neither is in this OS.)**
 Not part of this OS — straight answer.
 
 - The two Higgsfield "employees" were parked before launch; thumbnails are a Claude Design brief

@@ -283,7 +283,7 @@ the member says yes, and it's draft-only. "Never ran" has four causes, cheapest 
    · still processing on Riverside's side (give it time; their dashboard shows status) · the
    project name differs from what they typed (one cheap search by name).
 4. **"It edited the wrong Brain's brand"** (realtor captions/colours on attraction content) →
-   the editor's config points at `~/realtor-brain/`; route **`studio-setup`** to re-pull from
+   the editor's config points at `~/realtor-brain/` (the realtor system's folder); route **`studio-setup`** to re-pull from
    `~/attraction-brain/brand-visual.md` — and log it (a fork pointing at the wrong Brain is a bug).
 5. **Riverside's own outage / plan limit / export failure** → Riverside's status and support
    (third-party row in `escalation.md`); Mike's team can't fix Riverside's side. Draft the message.

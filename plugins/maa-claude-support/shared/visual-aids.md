@@ -103,7 +103,7 @@ back. Worst case, a human gets a perfect ticket you didn't have to write."*
 ```mermaid
 flowchart LR
     subgraph R["🏠 Realtor stack (Social Agent OS)"]
-        RB["~/realtor-brain<br/><i>'set up my brain'</i>"]
+        RB["~/realtor-brain (the realtor system)<br/><i>'set up my brain'</i>"]
     end
     subgraph A["🧲 Agent Attraction OS"]
         AB["~/attraction-brain<br/><i>'set up my ATTRACTION brain'</i>"]
