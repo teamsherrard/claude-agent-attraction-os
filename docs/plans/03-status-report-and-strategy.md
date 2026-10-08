@@ -5,13 +5,42 @@
 > Sections 1–3 are the status (what is built, verified, and left). Sections 4–8 are the strategic advice you asked for:
 > what to add, remove, optimize, fix, and what nobody is thinking about yet.
 
-<!-- STATUS SECTIONS ARE FILLED AT THE END OF THE RUN; STRATEGY SECTIONS BELOW ARE FINAL -->
 
-## 1. What is built (filled at end of run)
+## 1. What is built
 
-## 2. What was verified, and how (filled at end of run)
+Repo `claude-agent-attraction-os`, tag `v0.1.0`, release gate green, upload zips in `dist/`. The realtor repo was read only; nothing in it changed.
 
-## 3. What is left (filled at end of run)
+| # | Plugin | Skills | Shared files | Built from | State |
+|---|---|---|---|---|---|
+| 1 | `attraction-ai-brain` | 26 | 16 (doctrine ×4 from the transcripts, Book spec, drive map, contract, renderer) + a 49-file Brain template | realtor Brain, rebuilt interview | built · reviewed · fixed |
+| 2 | `maa-claude-support` | 9 | 15 + the 103-card lesson knowledge base | cohort support fork | built · reviewed · fixed |
+| 3 | `attraction-shortform-system` | 13 | 11 (attraction doctrine, Composio engine, board spec) | realtor short-form fork | built · reviewed · fixed |
+| 4 | `realtor-riverside-editor` | 28 | 36 | vendored as-is + the Brain-home rule | vendored |
+| 5 | `attraction-youtube-system` | 19 | 12 (attraction YouTube doctrine, SEO KB, Composio engine, board spec) | realtor YouTube fork | built · reviewed · fixed |
+| 6 | `attraction-conversion-sales` | 19 | 8 (conversion doctrine, contract, house rules) | new, from the Week 5 lessons | built · reviewed · fixed |
+| 7 | `attraction-ai-admin` | 8 | 8 | realtor Admin, cut to the organization side | built · reviewed · fixed |
+| 8 | `attraction-lead-magnet` | 11 | 7 (copywriting KB for an agent audience) | realtor lead capture fork | built · reviewed · fixed |
+| – | Design Studio (Claude Design skill set) | 3 of 15 (the Week 1 Design Package) + the design system | realtor design suite v2 | built · build green |
+
+Totals: 133 Cowork skills across 8 plugins (105 new or rewritten, 28 vendored), 103 lesson transcripts split into 16 modules and cited by `module/lesson` in every doctrine file, 103 knowledge-base cards, 11 scheduled agents with named owners, one OS-wide contract (`docs/BRAIN-CONTRACT.md`), 45 commits.
+
+**Not built, by decision:** Team & Retention (removed), Creative Studio / Higgsfield (parked), Events & Workshops (Plugin 9, not on the overnight list), the other 12 Design Studio skills (offer assets Week 2, Value Vault Week 6), the six playbooks and the Setup Guide (Claude Design documents, not software).
+
+## 2. What was verified, and how
+
+- **Per-plugin seam reviews** (seven reviewers, one per plugin): setup-to-phase-skill parity, file ownership against the contract, template headings against the locked shapes, every doctrine citation resolved against the transcript files (Brain + Support 692, Conversion 157, YouTube 203, Short-Form 175, Lead Magnet 57, Admin 21), every "Say it like Mike" quote verified verbatim (298), hand-offs by name (0 dangling), trigger collisions against the 154 realtor skills (0 outside the Support desk, which shares generic help phrases by design and routes with a two-desks rule), plain-language scans, usage discipline (every skill now opens at most four Brain files up front).
+- **Release gate** (`scripts/check-release.sh`, 13 checks): versions match the registry, everything committed, hand-offs exist, plugin-root references resolve, six shared files byte-identical across plugins, descriptions ≤1024 and folded, no realtor paths or retired engines leak, no trigger collisions, every plugin carries a Brain contract and consent-gates its scheduled tasks, Composio kept in both content engines, no routes to removed systems, the Design Studio builds. Green at `v0.1.0`.
+- **The Brain Book render test** (`docs/plans/BOOK-RENDER-TEST.md`, renders in `docs/demo/`): a complete demo Brain (Taylor Brooks) rendered through the real renderer. Full Book ≈43–57 pages (16,005 words, 18 chapters, 26 tables); the Week 1 first-run state ≈34–38 pages (9,383 words); the 90-Day Scorecard 2–3 pages. The 2–3-page failure of the last cohort is not the renderer. The test found three spec gaps (a truncated single-block emission renders silently as a short Book; gate check 7 failed on the goals rev-share rows; three Week 1 chapters thin) and they are applied in the spec and setup.
+- **Not verified, said plainly:** no live Cowork run on a real member yet; page counts are estimates (no LibreOffice on this Mac); whether Claude Design consumes the uploaded design-system file directly; the Riverside vendored copy against a member who has only the attraction Brain (the rule is written, not exercised).
+
+## 3. What is left
+
+1. **Cold test** the Week 1 setup on a real member (Opus, medium effort, one sitting) and the Design Package in Claude Design. Nothing replaces this.
+2. **Mike's decisions** (section 4 below).
+3. **Events & Workshops** (Plugin 9) if it stays in the offer; **the remaining 12 Design Studio skills** by their weeks; **playbooks and the Setup Guide**.
+4. **Riverside back-port** of the Brain-home rule into the realtor repo so the two copies are byte-identical; the vendored copy also carries two over-long descriptions that belong to the realtor repo to fix.
+5. **Support plugin placeholders** before Nov 3: portal URL, Circle link, call times, refund policy, video links.
+6. **Mike's thumbnail swipe file** and **his keyword sheet** (the ManyChat variants ship as defaults until then).
 
 ---
 
