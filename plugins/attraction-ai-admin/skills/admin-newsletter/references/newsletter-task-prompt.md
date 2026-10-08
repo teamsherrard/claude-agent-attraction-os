@@ -61,7 +61,7 @@ pipeline stage, and you never invent a win.
    your operations page yet — add it with 'set up my attraction operations'") and leave To blank; never a
    list built from the inbox, never anything scraped. Then, per win: the recognition post (at most 60 words, the agent tagged, no
    numbers unless stated and consented), a 20-second video-message script in the member's spoken voice, a
-   two-line text, and the Win Wall brief for ds-recognition (agent · win · date · organization · brand from
+   two-line text, and the Win Wall brief for aa-recognition-design (agent · win · date · organization · brand from
    brand-visual.md · "the agent's headshot, never a stock face" · headline of six words at most · formats
    1:1 and 9:16 · the compliance lines · the caption).
 7. **Nothing is written to the Brain by this scheduled run.** The organization file's `Recognition given`

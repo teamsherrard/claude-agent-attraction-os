@@ -103,7 +103,7 @@ Reels are videos, so the schedule call needs the member's video.
 - **Path B (hybrid):** if the video isn't at a shareable URL (it's only on their phone), schedule the **caption +
   platform + best-time slot** and say plainly: *"Caption and time are set — open the app on your phone and drop
   your video onto it."* Still a big time-save.
-Carousels: schedule with the image set once `ds-carousel` has produced it and the member exported the slides;
+Carousels: schedule with the image set once `aa-carousel-design` has produced it and the member exported the slides;
 otherwise hybrid. LinkedIn document posts need the exported PDF.
 
 ---

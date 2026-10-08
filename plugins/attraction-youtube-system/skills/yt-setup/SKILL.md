@@ -117,11 +117,11 @@ each; the member pastes as you go (~15 minutes). Positioning comes from the Brai
    model lane ("[Model] explained") · the interview lane ("Agent success stories") · then the three niche
    lanes (Problem · Situation · Future), each named in search language with a one-line description. These
    are the Game Plan's playlists — one strategy everywhere. Note the order for the homepage layout.
-6. **BANNER BRIEF** *(words only — built in Claude Design by `ds-brand`; finished image → Customization →
+6. **BANNER BRIEF** *(words only — built in Claude Design by `aa-brand-kit-design`; finished image → Customization →
    Branding → Banner; the file goes to `02 · Brand`)* — headline (who it's for + what they get), subline (the
    cadence or the invite), the safe-area note (keep text centred; TV, desktop, and mobile crop differently),
    and the brand values from `brand-visual.md`'s Final kit if it exists (otherwise: "your kit from the Design
-   Package"). Name the skill: *"paste this into Claude Design and run ds-brand."*
+   Package"). Name the skill: *"paste this into Claude Design and run aa-brand-kit-design."*
 7. **UPLOAD DEFAULTS** *(Settings → Upload defaults)* — the default description with the **book-a-call link
    on line 1**, the resource on line 2, a contact line if `operations.md` lists one, the disclosure block at
    the end; a small default tag set; category (Education); default visibility; language.
@@ -162,7 +162,7 @@ the same folder. Then:
 - [ ] Brain read and reflected — **nothing re-asked**; `~/attraction-brain/` pulled first if missing
 - [ ] Compliance 3-state checked before any channel text; unset → stopped and routed
 - [ ] The one question asked (channel); existing page read as data
-- [ ] Kit delivered piece by piece in Studio order; banner brief names `ds-brand`; book-a-call line first in defaults
+- [ ] Kit delivered piece by piece in Studio order; banner brief names `aa-brand-kit-design`; book-a-call line first in defaults
 - [ ] `identity/channel.md` written, `interview-pipeline.md` created, `config.md` block registered — pushed and verified
 - [ ] Kit saved to `03 · Content/Long-Form` with a dated name; location confirmed in plain words
 - [ ] Game Plan built and handed off

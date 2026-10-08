@@ -10,7 +10,7 @@ verifies they match).
 ## The buckets this plugin uses
 ```
 [Organization] OS/
-├── 02 · Brand/                      ← the banner (built by ds-brand) lands here, by the member
+├── 02 · Brand/                      ← the banner (built by aa-brand-kit-design) lands here, by the member
 ├── 03 · Content/
 │   ├── Long-Form/                   ← THIS PLUGIN'S HOME
 │   │   ├── 🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD      (yt-gameplan; dated; newest is current)

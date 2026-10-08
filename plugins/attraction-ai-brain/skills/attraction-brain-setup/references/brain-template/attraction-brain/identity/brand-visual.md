@@ -1,5 +1,5 @@
 # [Member First Name] — Brand: Inventory & Direction
-*identity · the LEADER brand agents will follow · the Brain captures inventory and direction; Claude Design builds the visuals through the Design Package (`ds-logo` → `ds-style-sheet` → `ds-brand`)*
+*identity · the LEADER brand agents will follow · the Brain captures inventory and direction; Claude Design builds the visuals through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`)*
 *Owner: `attraction-brand-direction` (Setup Phase 6, Stops 13–14). Read by the Design Studio skills (via the Brain Book), the AI Editor (colors + fonts), every graphic.*
 *Doctrine: `shared/brand-doctrine.md` — authority · relatability · aspiration; the leader brand stays visually distinct from the brokerage's own colors; the brokerage logo appears where the local board and the brokerage require it, as compliance.md says.*
 
@@ -22,7 +22,7 @@
 **Tagline (options or the chosen one):** [1–3 — from their one-liner and voice; "parked" is fine]
 
 ## The Design Package (Week 1) — status
-- [ ] `ds-logo` [skipped — logo loved as-is / done YYYY-MM-DD] · [ ] `ds-style-sheet` [done YYYY-MM-DD] · [ ] `ds-brand` [done YYYY-MM-DD]
+- [ ] `aa-logo-design` [skipped — logo loved as-is / done YYYY-MM-DD] · [ ] `aa-style-sheet-design` [done YYYY-MM-DD] · [ ] `aa-brand-kit-design` [done YYYY-MM-DD]
 - **Kit location:** `02 · Brand/` [present / not yet] — once present, the next Book regenerate shows the kit (logo, palette, type) and `attraction-brain-health` counts it as a Week 1 item.
 
 ## Final kit (filled from `02 · Brand` once it exists — the values every graphic and the editor read)

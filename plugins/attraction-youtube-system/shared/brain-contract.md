@@ -164,7 +164,7 @@ filenames; newest is current. Never a parallel `[Member] — YouTube System/` ro
 `attraction-brain-sync` (pull / push) · `attraction-brain-setup` (no Brain) · `attraction-compliance` (gate
 unset) · `attraction-story-bank` (a story to bank) · `attraction-goals` (no targets yet) · `attraction-persona-map`
 (no avatar yet) · `attraction-brokerage-model` ("explain my model to me") · `yt-interview` → `studio-interview`
-(the edit) · `yt-thumbnail` → `ds-thumbnail-layout` · `yt-setup` banner brief → `ds-brand` · `yt-repurpose` →
+(the edit) · `yt-thumbnail` → `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` · `yt-setup` banner brief → `aa-brand-kit-design` · `yt-repurpose` →
 `sf-*` (posting) and `cv-conversation-starter` · `yt-leads` → the Conversion plugin · `yt-analytics` →
 `sf-analytics` (the Friday agent) · `yt-board` (the Notion board) · `studio-longform` (the edit).
 

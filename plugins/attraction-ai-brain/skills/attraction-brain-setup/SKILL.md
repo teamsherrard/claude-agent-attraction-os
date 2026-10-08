@@ -449,8 +449,8 @@ Push. Stamp `Phase 5 done`.
 **Why this phase is bigger than the realtor version — mandatory.** In this 6-week program the member
 builds their Agent Attraction Brain AND their Agent Attraction Brand in Week 1. So the brand is not
 two questions at the end; it is a three-state front door, a short direction capture, and a hand-off
-that produces the actual brand kit this week through the Design Package (`ds-logo` →
-`ds-style-sheet` → `ds-brand`). The Brain captures direction and inventory; Claude Design builds
+that produces the actual brand kit this week through the Design Package (`aa-logo-design` →
+`aa-style-sheet-design` → `aa-brand-kit-design`). The Brain captures direction and inventory; Claude Design builds
 the visuals; nothing here is a two-week detour.
 
 **Stop 12 · Voice** — run by setup itself: **Stop 12 writes `voice.md` first** (tone, signature
@@ -485,7 +485,7 @@ on every line**)
 Writes `brand-visual.md` with an `Inventory:` block (logo state, colors, fonts, headshots, brand
 name, separate-or-same) and a `Direction:` block (feel, references, fonts, tagline, logo
 direction). Then the skill hands the member the **Design Package brief**: a paste-ready block for
-Claude Design naming the three skills to run this week in order, with the "skip `ds-logo` if you
+Claude Design naming the three skills to run this week in order, with the "skip `aa-logo-design` if you
 love your logo" rule, and the instruction to drop the finished kit into `02 · Brand` so the editor,
 the thumbnails, and every graphic read it. Checkpoint: *"6 of 7 — your brand brief is ready to paste
 into Claude Design. Last stretch: rules and tools, about 5 minutes."* Push. Stamp `Phase 6 done`.

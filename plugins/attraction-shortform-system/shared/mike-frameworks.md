@@ -274,7 +274,7 @@ Proof Reel plus a day of stories plus a highlight.
 |---|---|---|
 | Talking-head Reel (30–60s) | `sf-talkinghead` | the weekly Reels across all five pillars; the batchable format; the 30-day calendar |
 | Daily stories (1–5) | `sf-stories` | the four-category rotation; the connection layer; story-reply CTAs |
-| Carousel / LinkedIn document post | `sf-carousel` | "Why I Left My Brokerage" (story), pain-point, myth-busting; the no-filming format; design by `ds-carousel` |
+| Carousel / LinkedIn document post | `sf-carousel` | "Why I Left My Brokerage" (story), pain-point, myth-busting; the no-filming format; design by `aa-carousel-design` |
 | Green-screen reaction | `sf-greenscreen` | Perspective on brokerage and industry news and model comparisons, fed by `memory/intel.md`; facts only |
 | The hook bank + weekly ideas | `sf-ideas` | what agents search and ask, not buyers |
 | Comment → DM | `sf-comment-to-dm` | the keyword per Reel, the DM copy bank, the hand-off to the conversation engine |

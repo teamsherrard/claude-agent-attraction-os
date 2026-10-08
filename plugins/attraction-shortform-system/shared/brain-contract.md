@@ -168,7 +168,7 @@ Never a parallel `[Member] — Short-Form System/` root (the audit's seam). Nami
 `sf-comment-to-dm` (keyword per Reel, DM copy bank → `cv-dm-flow`) · `sf-optimizer` (captions, hashtags, the CTA
 line) · `sf-publish` / `sf-batch-publish` (scheduling through the member's own tool) · `sf-analytics`
 (performance, the Friday agent) · `sf-board` (the Notion board) · `studio-reel` (the Riverside edit, one clip at a
-time; `studio-batch` when one recording session also produced a long-form) · `ds-carousel` (carousel design, Claude
+time; `studio-batch` when one recording session also produced a long-form) · `aa-carousel-design` (carousel design, Claude
 Design) · `cv-dm-flow` (the conversation) · `attraction-capture` / `attraction-top-50` (the interim conversation row
 and the Top-50 add, by name) · `yt-analytics` (appends its section to the Friday note from Week 4) · `lm-profiles`
 (the Week 6 bios update).

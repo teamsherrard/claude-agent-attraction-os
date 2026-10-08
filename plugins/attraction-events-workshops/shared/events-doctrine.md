@@ -235,7 +235,7 @@ SOP. Nothing relies on memory. Every recommendation names its phase.
 | # | Phase | What it produces | `ev-` skill |
 |---|---|---|---|
 | 1 | Strategy | objective, audience, transformation, structure, positioning, format → outline, roadmap, success metrics, conversion goals | `ev-strategy` (format: `ev-navigator`) |
-| 2 | Funnel build | registration, confirmation, thank-you pages → sections, conversion opportunities, journey gaps | `ev-registration` (→ `ds-funnel`) |
+| 2 | Funnel build | registration, confirmation, thank-you pages → sections, conversion opportunities, journey gaps | `ev-registration` (→ `aa-funnel-design`) |
 | 3 | GHL build | tags, pipelines, workflows, forms, calendars, trigger logic, email/SMS automations — **every workflow documented as Trigger → Action → Outcome** | `ev-followup`, `ev-evergreen`, `ev-registration` (the table in `shared/ghl-workflow-table.md`; the member builds it) |
 | 4 | Event operations | launch and pre-launch checklists, team responsibilities, timelines, production schedules, host / moderator / coach instructions → dependencies, bottlenecks, risks, missing assets | `ev-live`, `ev-virtual`, `ev-runofshow` (host checklist) |
 | 5 | Community experience | the room's design: prompts, interaction, wins, resources | `ev-runofshow`, `ev-live` (the conversation design) |

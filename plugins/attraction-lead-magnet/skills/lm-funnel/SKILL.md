@@ -8,7 +8,7 @@ description: >
   outcomes, never compensation), The Organization, Proof + photo strip, Socials (only if they have
   channels), The Opt-in with a mini-FAQ — in the member's voice. One job on the page: the opt-in
   (pop-up: first name, email, phone). The thank-you page carries the instant download AND the
-  book-a-call step. Hard 3-state compliance gate; the static Netlify form rule for ds-funnel. COPY
+  book-a-call step. Hard 3-state compliance gate; the static Netlify form rule for aa-funnel-design. COPY
   + STRATEGY ONLY — never designs or hosts.
   Trigger on: "write the page for my comparison guide", "opt-in page for agents", "attraction
   funnel copy", "the page that gives away my agent lead magnet", "set up my attraction funnel"
@@ -26,7 +26,7 @@ an instant download **and the call, offered** underneath it.
 owns: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 > **We write the copy + strategy; we never design or host (house rules #3).** This produces the page's *words
-> and structure* — the design (turning it into a built page) is the Design Studio's **`ds-funnel`** skill in
+> and structure* — the design (turning it into a built page) is the Design Studio's **`aa-funnel-design`** skill in
 > its opt-in shape, and hosting is the member's own tool. Pour 100% of the effort here into making the copy
 > + strategy genuinely great.
 
@@ -156,7 +156,7 @@ helped. The sections:
 
 ## Phase 3 — Note the assets (design is a SEPARATE skill)
 This skill ends at the **copy + strategy** — that's the whole deliverable. **Do NOT write design direction;**
-the Design Studio's **`ds-funnel`** (opt-in shape) reads this exact doc (uploaded, or via the storage
+the Design Studio's **`aa-funnel-design`** (opt-in shape) reads this exact doc (uploaded, or via the storage
 connector) and builds + deploys the page section for section, copy verbatim. Close with the output standard's
 `▸ NEXT — HAND TO YOUR DESIGN STEP` appendix: the assets to gather (guide mockup/cover · 8–12 proof-strip
 photos · headshot · the 30–60s welcome video if filming · social handles · logo · the finished guide PDF
@@ -210,6 +210,6 @@ the thank-you page footer**. `set` → one reminder to confirm with their broker
 - [ ] Opt-in flow = button → pop-up (First name · Email · Phone + honest contact line + reassurance) → thank-you page with the instant-download link FIRST, then the call offered with the booking link; **no call button on the opt-in page**
 - [ ] PROOF photo strip specified (8–12 real photos, auto-scrolling; agents' consent) — or skipped honestly
 - [ ] Voice matches `voice.md` + `voice-samples.md`; fifth-grade reading level; honest where others pitch
-- [ ] No design direction written (ds-funnel owns it); assets-to-gather + the static form rule in the appendix
+- [ ] No design direction written (aa-funnel-design owns it); assets-to-gather + the static form rule in the appendix
 - [ ] Compliance pass done per house rules #5 (the stamp on the page footer and the thank-you footer; no bracket tokens; set → one reminder)
 - [ ] Saved into the same campaign folder as the magnet (or the fallback said plainly); magnets.md updated and pushed

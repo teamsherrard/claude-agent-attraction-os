@@ -104,7 +104,7 @@ then stopped.
 Deliverables render through `render_doc.py` per `doc-formatting.md` and land in the event's folder in
 `03 · Content/Events/[code] · [Theme]/`. Dated filenames; the newest is current. The renderer's fallback is the
 `.md` upload with one plain line — never a package install, never a retry loop. Design briefs stay in chat for
-pasting into Claude Design (`ds-event`, `ds-funnel`).
+pasting into Claude Design (`aa-event-design`, `aa-funnel-design`).
 
 ## 16. The week rule, out loud.
 Events are Week 6. A Partner Offer still at seeds is not a gap: the close names "what you have to give so far"

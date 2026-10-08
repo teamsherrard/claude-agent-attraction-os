@@ -57,7 +57,7 @@ Read now: doctrine §5–§8 · `identity/operations.md` (hours; the weekly mode
 past event docs.
 - **The invite plan** (§5): the personal-invite list (the Top-50 locally; the Admin's match-back when installed);
   the agents' guest ask ("bring one agent who'd get value from this"); the speakers' posts; the partners' lists
-  (`lm-partnerships`); the promo video + graphic (`ev-promo` writes the script and the `ds-event` brief); the
+  (`lm-partnerships`); the promo video + graphic (`ev-promo` writes the script and the `aa-event-design` brief); the
   registration page even for a free room (headcount, name tags, and the list — `ev-registration`).
 - **The run-of-show shape** (§6–§7; the minute-level script is `ev-runofshow`): doors + networking (20–30 min) →
   the member's energetic open and the promise (5) → training block 1 → a do-this-now moment → block 2 → Q&A (15)
@@ -66,7 +66,7 @@ past event docs.
 - **The room's conversation design** (workshop-ops Phase 5): the member stays at the front after the close —
   "everyone comes to talk to you" — and never works the room cold; agents bring their guests up; the co-host
   catches the overflow; one person collects "who wants the slides" (the second CTA, into the list); the photo
-  spot with the member's own banner (never the brokerage's — `brand-visual.md`; the `ds-event` brief); a
+  spot with the member's own banner (never the brokerage's — `brand-visual.md`; the `aa-event-design` brief); a
   "what's your one takeaway?" card or QR for the hot list.
 - **Who does what** (Phase 4, delegation): host (the member) · co-host · door and name tags (a VA or an agent) ·
   A/V and timekeeper · photographer · the "slides and follow-up" person · each table host. One table, filled with

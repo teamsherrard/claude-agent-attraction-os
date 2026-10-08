@@ -5,7 +5,7 @@ description: >
   Brokerage" story (the old brokerage never named, no digs), pain-point carousels, and myth-busting carousels,
   plus a LinkedIn PDF document-post version for team leaders and broker-owners. Writes the cover hook, the
   slide-by-slide copy, the CTA slide with the keyword, the Instagram + Facebook caption and the LinkedIn post,
-  and a design brief handed to ds-carousel by name. Spec only — never renders a slide. Trigger on: "attraction
+  and a design brief handed to aa-carousel-design by name. Spec only — never renders a slide. Trigger on: "attraction
   carousel", "carousel for agents", "why I left my brokerage carousel", "my why-I-left post", "pain-point
   carousel for agents", "myth-busting carousel for agents", "LinkedIn document post for team leaders", "a
   swipe post for agents", "I don't want to film an attraction post", or any non-video attraction post.
@@ -20,7 +20,7 @@ sees themselves in. The member gets the copy and a design brief; the Design Stud
 `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` §5–§6, §8, §11 (lazy-load at Phase 2).
 
 > **We map; we never design (house rules #3).** This skill outputs the *words and the brief* only. The brief is
-> handed to **`ds-carousel`** (Claude Design) by name — or, if the Design Studio isn't installed, the member
+> handed to **`aa-carousel-design`** (Claude Design) by name — or, if the Design Studio isn't installed, the member
 > pastes the copy into claude.ai/design. If you ever feel tempted to render a slide — don't.
 
 Three jobs, three types:
@@ -104,7 +104,7 @@ with consent; any real-estate example fair-housing safe.
 ## Phase 5 — Deliver + hand to design
 One clean, copy-paste package: the slides, the final slide, the LinkedIn version (if any), the caption(s), the
 design brief. Close with the hand-off, by name:
-> "Here's your carousel. Say **'design my carousel'** and the Design Studio (`ds-carousel`) builds the slides in
+> "Here's your carousel. Say **'design my carousel'** and the Design Studio (`aa-carousel-design`) builds the slides in
 > your brand from this brief — or paste the slides into claude.ai/design yourself. Then post with the caption
 > below. Want another one?"
 If a posting tool is connected (`identity/publishing.md`), offer to schedule it once the slides exist, per
@@ -114,7 +114,7 @@ approval. Offer the content board (house rules #10), status `Scripted` until the
 ## Phase 6 — Save + log + push
 1. **Save the doc** per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` — rendered `.docx` to
    `03 · Content/Graphics/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Carousel · [Short Topic]` (this is the doc
-   `ds-carousel` reads).
+   `aa-carousel-design` reads).
 2. **Log it:** append one row (two if a LinkedIn version was written) to `~/attraction-brain/memory/content-log.md`
    in the locked shape:
    `| [date] | Instagram · Facebook | carousel | [Pillar] | [carousel · type] [cover hook] | [avatar] | [story hook or —] | [rung · KEYWORD] | Scripted | |`
@@ -126,7 +126,7 @@ Then: *"Saved your carousel to your workspace (Content → Graphics → [month])
 
 ## Quality checklist
 - [ ] Brain read; nothing re-asked; pillars from `content-pillars.md`
-- [ ] **No design rendered** — copy + a brief handed to `ds-carousel` by name
+- [ ] **No design rendered** — copy + a brief handed to `aa-carousel-design` by name
 - [ ] Cover is the agent's problem or the surprise; 7–9 slides; one idea per slide; skimmable; pays off the cover
 - [ ] Why I Left: the former brokerage unnamed, not one negative word, the point is the problem and the turn
 - [ ] Pain-point / myth-busting: real fix, real truth, real proof (consent) — nothing invented

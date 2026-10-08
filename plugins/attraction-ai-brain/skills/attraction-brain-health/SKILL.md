@@ -40,7 +40,7 @@ public skill) · brand-visual (Inventory + Direction blocks present).
 
 **Week 1 brand kit (a completeness item, judged from the workspace, not the engine):**
 "brand kit present in `02 · Brand`" = **a logo file + a style sheet + at least one profile
-graphic** all exist there (the Design Package skills `ds-logo` → `ds-style-sheet` → `ds-brand`
+graphic** all exist there (the Design Package skills `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`
 ship in Week 1, so this is a Week 1 item, not a later one). In front of the member it is always
 "your brand kit", never file names: ✅ *"your brand kit is in place"* · 🟡 (some of the three) *"your
 brand kit is partly there — [the missing piece] is next"* · ⬜ *"your brand kit is the next

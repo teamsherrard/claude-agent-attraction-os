@@ -66,7 +66,7 @@ story's Used-where. Save as **Script**. Offer the 30–45s Short cut now.
 
 ## Step 3 — Thumbnail brief
 `yt-thumbnail`: three directions scored, one recommended, the paste-ready brief for the Design Studio's
-`ds-thumbnail-layout`. Do this BEFORE filming so the member shoots the expression the brief needs.
+`your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`. Do this BEFORE filming so the member shoots the expression the brief needs.
 
 ## Step 4 — SEO package
 `yt-seo`: three titles, the description with the two CTAs in the first three lines, chapters, tags,

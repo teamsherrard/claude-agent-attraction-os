@@ -133,7 +133,7 @@ without a source and month, and no competitor name travels into the guide.
 
 ## Phase 3 — Note the assets (design is a SEPARATE skill)
 This skill ends at the **guide content** — that's the whole deliverable. **Do NOT write design direction
-here;** `lm-design` writes the brief, and the Design Studio's **`ds-lead-magnet`** reads the doc (uploaded,
+here;** `lm-design` writes the brief, and the Design Studio's **`aa-lead-magnet-design`** reads the doc (uploaded,
 or via the storage connector) and designs one page per `── PAGE N - TITLE ──` block, copy verbatim. Close the
 doc with the output standard's `▸ NEXT — HAND TO YOUR DESIGN STEP` appendix (assets to gather: logo ·
 headshot · photos with the organization) and the one line that `lm-design` writes the brief ("say 'design

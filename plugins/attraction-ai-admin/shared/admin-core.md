@@ -183,7 +183,7 @@ connector is missing, say which one and point to Settings → Connectors.
 - **Booking page, the show-up sequence, setter scripts, the call block** → the Sales OPS skills (`sales-show-up`,
   `sales-setter`, `sales-call-block`); the queue USES the member's show-up sequence for tomorrow's confirmations.
 - **Content due** → read from `memory/content-log.md`; making it is the Short-Form and YouTube plugins' job.
-- **A Win Wall graphic** → `ds-recognition` (Claude Design) by brief. **A new name for the list** →
+- **A Win Wall graphic** → `aa-recognition-design` (Claude Design) by brief. **A new name for the list** →
   `attraction-top-50`. **Targets** → `attraction-goals`. **The constraint of the quarter** →
   `attraction-execution-framework`.
 - **Wins, ideas, intel, stories captured on the go** → `attraction-capture`. This Admin has no dispatch lane.

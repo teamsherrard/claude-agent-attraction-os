@@ -6,7 +6,7 @@ description: >
   most," never every feature. Built from Mike's bridge-the-gap method (current state → desired state → the
   bridge: the member's leadership, the model, the value proposition) and the perfect-presentation flow
   (rapport → qualifying questions → bridge the gap → close with confidence). Produces the outline, the
-  one-pager copy, and a paste-ready design brief for the Design Studio's ds-offer-assets. Trigger on: "my
+  one-pager copy, and a paste-ready design brief for the Design Studio's aa-offer-assets-design. Trigger on: "my
   presentation", "opportunity presentation", "my opportunity one-pager", "the opportunity deck", "join my team one-pager",
   "presentation for a top producer", "what do I show on the call", "update my presentation".
 ---
@@ -62,21 +62,21 @@ one next step (the booking line; `Booking page` from the Conversion block or "I'
 brokerage." The brokerage's name appears as `compliance.md`'s display rule requires, and the required disclaimer
 is appended verbatim.
 
-Then the **design brief for `ds-offer-assets`** (paste-ready, by name):
+Then the **design brief for `aa-offer-assets-design`** (paste-ready, by name):
 ```
-FOR ds-offer-assets (the opportunity one-pager)
+FOR aa-offer-assets-design (the opportunity one-pager)
 Member: [name] · [brokerage, as compliance.md displays it] · [market]
 Headline: [UVP one-liner]
 Three outcome blocks: 1. [pain → outcome] 2. … 3. …
 What partnering looks like: four lines
 Proof line: [one, real] · Story line: [one]
 Next step: [booking line]
-Brand: [from brand-visual.md — logo status, colours, type; or "Design Package first: ds-logo → ds-style-sheet → ds-brand"]
+Brand: [from brand-visual.md — logo status, colours, type; or "Design Package first: aa-logo-design → aa-style-sheet-design → aa-brand-kit-design"]
 Required disclaimer (verbatim): [from compliance.md]
 Never on the graphic: splits, caps, stock, rev share, income, another brokerage's name.
 ```
 Deck request ("the opportunity deck") → the same content as 6–8 slide titles with one line each, same brief
-header, `FOR ds-offer-assets (the opportunity deck)`; still never a feature dump.
+header, `FOR aa-offer-assets-design (the opportunity deck)`; still never a feature dump.
 
 ## Render, save, push
 Render per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via `${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py` →

@@ -94,7 +94,7 @@ the moderator in the member's tool, never in the Brain). Written so a VA or a le
 ## Step 5 — The slide brief (paste-ready, by name)
 Read now: `identity/brand-visual.md` (the deck's brand line — or "Design Package first").
 ```
-FOR ds-event (workshop slides — [event name])
+FOR aa-event-design (workshop slides — [event name])
 Member: [name] · [market] · [brokerage, compliance strip only where required]
 Event: [event name] · [live local / virtual / evergreen] · [date · time · timezone] · [Zoom / venue] · booking link: [from operations.md or the Conversion block] · registration link or keyword: [for the resource / replay slide]
 Deck: [n] slides, 16:9, the brand from brand-visual.md [or "Design Package first"]

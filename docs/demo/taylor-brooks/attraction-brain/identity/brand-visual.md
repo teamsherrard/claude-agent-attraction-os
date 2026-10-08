@@ -1,7 +1,7 @@
 DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Brand: Inventory & Direction
-*identity · the LEADER brand agents will follow · the Brain captures inventory and direction; Claude Design builds the visuals through the Design Package (`ds-logo` → `ds-style-sheet` → `ds-brand`)*
+*identity · the LEADER brand agents will follow · the Brain captures inventory and direction; Claude Design builds the visuals through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`)*
 *Owner: `attraction-brand-direction` (Setup Phase 6, Stops 13–14). Read by the Design Studio skills (via the Brain Book), the AI Editor (colors + fonts), every graphic.*
 *Doctrine: `shared/brand-doctrine.md` — authority · relatability · aspiration; the leader brand stays visually distinct from the brokerage's own colors; the brokerage logo appears where the local board and the brokerage require it, as compliance.md says.*
 
@@ -24,7 +24,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 **Tagline (options or the chosen one):** chosen: "Built on Sundays." · parked: "Here's the routine." · "Show, don't sell."
 
 ## The Design Package (Week 1) — status
-- [ ] `ds-logo` [refresh mode — scheduled this week] · [ ] `ds-style-sheet` [this week] · [ ] `ds-brand` [this week]
+- [ ] `aa-logo-design` [refresh mode — scheduled this week] · [ ] `aa-style-sheet-design` [this week] · [ ] `aa-brand-kit-design` [this week]
 - **Kit location:** `02 · Brand/` [not yet] — once present, the next Book regenerate shows the kit (logo, palette, type) and `attraction-brain-health` counts it as a Week 1 item.
 
 ## Final kit (filled from `02 · Brand` once it exists — the values every graphic and the editor read)

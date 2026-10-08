@@ -25,7 +25,7 @@ stays after the event. Workshop-ops Phase 2 (the funnel) and Phase 7 (confirmati
 §5, §10, §15. The workflow table: `${CLAUDE_PLUGIN_ROOT}/shared/ghl-workflow-table.md` (Step 4).
 
 > **We write the copy and the form; the Design Studio builds the page.** The design (turning it into a built,
-> hosted page) is the Design Studio's **`ds-funnel`** skill in its **registration shape**; hosting is the
+> hosted page) is the Design Studio's **`aa-funnel-design`** skill in its **registration shape**; hosting is the
 > member's own tool (`config.md → Events block → Registration host`). Pour the effort into words that make the
 > right agent say "that's for me" and register in ten seconds.
 
@@ -65,7 +65,7 @@ Read now: `identity/proof.md` (one credibility line for the member and one per s
 5. **The details** — date, time, timezone, length, where (the venue + parking, or "Zoom link in your
    confirmation"), "replay for [n] days" if the brief chose it (never "replay" if not), and **the agenda in three
    lines** (the teaching blocks · the Q&A · the close, from the brief — the design step's agenda band reads it).
-6. **The form** (the pop-up or inline — `ds-funnel` decides): **First name · Email · Phone** + **one sorting
+6. **The form** (the pop-up or inline — `aa-funnel-design` decides): **First name · Email · Phone** + **one sorting
    question** — "Which best describes you?" with the six types in plain words (newer agent · a few years in,
    want more consistency · top producer · building a brand · leading a team · running a brokerage) — the one
    field that makes the follow-up variants possible; optional second: "What's the one thing you want to walk
@@ -100,7 +100,7 @@ brief chose it; the signature).
 ## Step 3 — The static form rule (carried from the Lead Magnet's funnel — stated verbatim in the appendix)
 Claude Design exports are rendered by JavaScript, so a page host like Netlify never "sees" the form unless a
 **real static form exists in the deployed HTML** — registrations would silently vanish. The rule the appendix
-carries, for `ds-funnel`: *no registration is ever captured without a real static form in the deployed HTML (a
+carries, for `aa-funnel-design`: *no registration is ever captured without a real static form in the deployed HTML (a
 static decoy form with the same field names when the visible form is script-rendered), and the member
 test-submits once and sees the confirmation email before a single invite goes out (the canary).* GoHighLevel-
 hosted pages use their native form; the test-submit canary still applies.
@@ -121,12 +121,12 @@ Deliver in chat, section by section, ready to use. Render per `${CLAUDE_PLUGIN_R
 if used; **and the static form rule, verbatim**).
 Then the paste-ready hand-off, by name:
 ```
-FOR ds-funnel (registration shape — [event name])
+FOR aa-funnel-design (registration shape — [event name])
 Copy doc: Registration Page · [code] · [date] (uploaded; every section verbatim)
 Form: First name · Email · Phone · "Which best describes you?" (six options) [· the one-thing question]
 Thank-you state: as the doc — add-to-calendar, the link/map, the pre-event ask, the second CTA; no call button
 Host: [Registration host] · List tool: [from config] · Timezone: [from config]
-Brand: [from brand-visual.md — or "Design Package first: ds-logo → ds-style-sheet → ds-brand"]
+Brand: [from brand-visual.md — or "Design Package first: aa-logo-design → aa-style-sheet-design → aa-brand-kit-design"]
 Required footer (verbatim): [from compliance.md]
 The static form rule: [verbatim from Step 3] — test-submit once before any invite goes out.
 Never on the page: splits, caps, stock, rev share, income, another brokerage's name, "recruiting," a call button.

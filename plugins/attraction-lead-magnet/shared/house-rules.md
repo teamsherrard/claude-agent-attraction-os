@@ -84,10 +84,10 @@ copy, the emails, the DMs, the briefs. It **never** renders a page, a PDF, an im
 publishes anything live.
 
 - The deliverable ends at the **copy + structure**. The one design hand-off this plugin writes is the
-  `lm-design` brief — a paste-ready brief for the Design Studio's `ds-lead-magnet` skill (cover + 3D mockup).
+  `lm-design` brief — a paste-ready brief for the Design Studio's `aa-lead-magnet-design` skill (cover + 3D mockup).
   Every other skill just notes the **assets the member should gather**.
 - The design step is the member's **Claude Design** workspace (the Design Studio skills, uploaded there):
-  **`ds-lead-magnet`** builds the PDF from the magnet doc; **`ds-funnel`** (its opt-in shape) builds and deploys
+  **`aa-lead-magnet-design`** builds the PDF from the magnet doc; **`aa-funnel-design`** (its opt-in shape) builds and deploys
   the page from the funnel doc, section for section, copy verbatim. Or they host it themselves (their site,
   GoHighLevel, Carrd). Say so plainly — we give them finished copy docs; what happens next is theirs.
 - "Which file do I upload?" → the newest **Agent Attraction Brain Book** in `01 · AI Brain` plus the doc this

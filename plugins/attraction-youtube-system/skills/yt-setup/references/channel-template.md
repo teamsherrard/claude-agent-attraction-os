@@ -37,7 +37,7 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 - Category: [Education]  ·  Language: [ ]
 
 ## Channel page
-- Kit delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: …]  ·  Banner: [brief sent to ds-brand YYYY-MM-DD / live]
+- Kit delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: …]  ·  Banner: [brief sent to aa-brand-kit-design YYYY-MM-DD / live]
 - Trailer: [the named video / "make my attraction video: my channel trailer" pending]
 
 ## Baseline (as of YYYY-MM-DD)

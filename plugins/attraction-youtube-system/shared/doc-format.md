@@ -253,10 +253,10 @@ CHANNEL PAGE KIT — [MEMBER NAME]
    •  {Agent success stories}:  {…}
    •  {Problem lane}:  {…}   •  {Situation lane}   •  {Future lane}
 
-──────────────── BANNER BRIEF   (for ds-brand in Claude Design) ────────────────
+──────────────── BANNER BRIEF   (for aa-brand-kit-design in Claude Design) ────────────────
 Headline:  {who it's for + what they get}
 Subline:  {cadence / the invite}
-   >> Build with ds-brand; finished image → Customization → Branding → Banner; copy → 02 · Brand
+   >> Build with aa-brand-kit-design; finished image → Customization → Branding → Banner; copy → 02 · Brand
 
 ──────────────── UPLOAD DEFAULTS ────────────────
    >> SET ONCE IN:  Studio → Settings → Upload defaults
@@ -328,7 +328,7 @@ Transformation: {the title hook}  ·  Type: {new agent / … }  ·  Record: {dat
 {the message to send the guest with the link and the clips}
 ```
 
-### Thumbnail Brief (`yt-thumbnail` → `ds-thumbnail-layout`)
+### Thumbnail Brief (`yt-thumbnail` → `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`)
 ```
 THUMBNAIL BRIEF — {VIDEO TITLE}
 Bucket {…}  ·  Title text vs thumbnail text must differ  ·  3 directions
@@ -357,7 +357,7 @@ PAGE 1 — {purpose}
 
 ──────────────── CTA / NEXT STEP ────────────────
 {the exact Partner Call invite + booking link}
-(We map the content; the Lead Magnet plugin / ds-lead-magnet designs it.)
+(We map the content; the Lead Magnet plugin / aa-lead-magnet-design designs it.)
 ```
 
 ### Model Breakdown (`yt-model-breakdown` — saved as `Model Breakdown — [title] — YYYY-MM-DD` in the video's folder)
@@ -432,7 +432,7 @@ SHORT 1 — {angle}
    {hook → one point → the invite}
 
 ════════════════ CAROUSEL (1) ════════════════
-Slide 1 {…} | Slide 2 {…} | …   (copy only — ds-carousel designs it)
+Slide 1 {…} | Slide 2 {…} | …   (copy only — aa-carousel-design designs it)
 
 ════════════════ STORIES (5) ════════════════
    1.  {…}

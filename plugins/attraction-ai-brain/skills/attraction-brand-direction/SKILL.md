@@ -6,7 +6,7 @@ description: >
   what exists (colours, fonts, headshots, leader brand vs selling brand, organization name), captures
   direction only for what is missing (feel, references, fonts, tagline), and writes brand-visual.md with
   an Inventory block and a Direction block. Then hands over the paste-ready Design Package brief naming
-  the three Claude Design skills to run this week in order (ds-logo → ds-style-sheet → ds-brand), with
+  the three Claude Design skills to run this week in order (aa-logo-design → aa-style-sheet-design → aa-brand-kit-design), with
   the skip rule for a loved logo. Designs nothing; keeps the leader brand distinct from the brokerage's
   colours. Trigger on: "my attraction brand direction", "my leader brand", "brand direction for agent
   attraction", "design package brief", "lock my attraction brand", "update my attraction brand
@@ -119,10 +119,10 @@ three skills in order:
 ```
 AGENT ATTRACTION DESIGN PACKAGE — [First Last]
 Run these three Claude Design skills this week, in this order:
-1. ds-logo — SKIP THIS if you love your logo (use it exactly as-is). Refresh mode if it's "not quite
+1. aa-logo-design — SKIP THIS if you love your logo (use it exactly as-is). Refresh mode if it's "not quite
    right": change only [the one thing flagged]. Build mode if there's no logo: [logo direction].
-2. ds-style-sheet — palette [hex + roles], fonts [direction], feel [words], distinct from [brokerage palette].
-3. ds-brand — profile and banner graphics, [one logo version / two logo versions: member name + organization name].
+2. aa-style-sheet-design — palette [hex + roles], fonts [direction], feel [words], distinct from [brokerage palette].
+3. aa-brand-kit-design — profile and banner graphics, [one logo version / two logo versions: member name + organization name].
 Brand name(s): [name] [+ organization name]. Leader brand vs selling brand: [same / separate].
 Tagline: [chosen or "none yet"]. Headshots: [in 02 · Brand / none yet — phone photos only].
 Compliance on every public graphic: [brokerage-name display + license display from compliance.md]

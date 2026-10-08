@@ -52,7 +52,7 @@ where the two disagree, the OS-wide view wins and this file is wrong.*
 | `identity/operations.md` | capacity (hours, working days), the booking link, the 3-way partner, the weekly model call (the thing "below the surface"), the tech stack, the follow-up rhythm's quarterly invitation |
 | `identity/voice.md` · `voice-samples.md` · `voice-print.md` | every draft sounds like the member; the run-of-show reads like they talk (voice-print) |
 | `identity/story-bank.md` · `identity/journey.md` | the one story in the close; the mirror beat in the host intro; former brokerages never named |
-| `identity/brand-visual.md` | the design briefs to `ds-event` and `ds-funnel` |
+| `identity/brand-visual.md` | the design briefs to `aa-event-design` and `aa-funnel-design` |
 | `identity/profile.md` · `identity/goals.md` (read only) · `memory/scorecard.md` (read only) | who the member is; the weekly activity the conversion goals anchor to; this quarter's calls target for the analytics verdict — never written here |
 | `memory/pipeline.md` (read; direct write only before the Admin — below) · `memory/conversations.md` (read only) | where a named attendee already stands; what they said before the event |
 | `memory/magnets.md → ## Current magnet` · `memory/list-growth.md` (read only) | the second CTA (the live guide); the list tool and newsletter day the cold path hands to |
@@ -172,8 +172,8 @@ demand: "run my event follow-up"). A demo Brain never gets a task. The prompt is
   `cv-reactivation` and `cv-follow-up` (an upcoming event is one of their reasons to reach out — read from this
   ledger's `Next event:` line) · `attraction-operations` (the quarterly invitation in the follow-up rhythm) ·
   `sf-stories` / `sf-publish` (the countdown stories and posts the member publishes through their own tool).
-- **Out:** `ds-event` (flyers, registration graphics, countdown stories, workshop slides — the paste-ready briefs
-  from `ev-promo` and `ev-runofshow`) · `ds-funnel` (the registration page, registration shape, from
+- **Out:** `aa-event-design` (flyers, registration graphics, countdown stories, workshop slides — the paste-ready briefs
+  from `ev-promo` and `ev-runofshow`) · `aa-funnel-design` (the registration page, registration shape, from
   `ev-registration`'s copy doc) · `lm-partnerships` (the partner share line — the event hands it the topic, date,
   and link) · `lm-nurture` (the cold path: registrants join the weekly newsletter) · `lm-delivery` (the keyword
   that delivers the replay or the evergreen link by DM) · `admin-pipeline` (every stage and next-move request) ·

@@ -120,27 +120,27 @@ design brief and name the `ds-` skill to run. Nothing else is installable here. 
 
 | Skill | Status | From | Attraction-specific change |
 |---|---|---|---|
-| `ds-logo` | ADJUST | 1 Logo Designer | leader-brand prompt: "logo for you as a leader, not your listings"; three-path front door kept (fresh / refresh / love it) |
-| `ds-style-sheet` | KEEP | 2 Brand Style Guide | existing-logo path kept; writes the Design System file the other 13 consume |
-| `ds-brand` | ADJUST | 3 Social Media Kit | profile + banner graphics across IG / FB / LinkedIn / YouTube with the recruiter CTA; the 5-question profile test baked into the copy slots |
-| `ds-funnel` | ADJUST | 7 Sales Funnel Pages (+references) | three funnel shapes: opt-in (lead magnet), Partner Call booking, workshop registration; Netlify static-decoy-form rule carried; GHL-ready copy blocks |
-| `ds-lead-magnet` | ADJUST | 8 Lead Magnet Designer | first magnet template = the Honest Brokerage Comparison Guide (factual, cited, dated, no ranking language); cover-only and 3D mockup modes kept |
-| `ds-offer-stack` | **NEW** | none | the 3D offer stack: what the offer includes and what each piece is worth; reads the Brain Book's offer chapter; never prices rev share |
-| `ds-offer-assets` | **NEW** | 6 Presentations (deck half) | "Join My Team" 1-pager, the opportunity deck, the welcome pack, the comparison sheet (comparison sheet is model-positioning output, compliance-gated) |
-| `ds-product-mockup` | **NEW** | 8's 3D mockup mode (expanded) | the digital product mockup: 3D ebook and course box, device screens, bundle shots; Week 2 promise |
-| `ds-thumbnail-layout` | ADJUST | 12 Video Brand Kit (thumbnail section) | thumbnail layouts built from Mike's swipe-file patterns; fed by `yt-thumbnail`'s brief |
-| `ds-carousel` | ADJUST | 5 Social Media Graphics | carousels from `sf-carousel` copy; LinkedIn PDF law kept (team leaders and broker-owners live there) |
-| `ds-recognition` | **NEW** | 5 (templates) | Win Wall posts, first-deal and cap announcements, certificates; reads `recognition-log` |
-| `ds-event` | ADJUST | 6 Presentations + 5 | flyers, registration graphics, countdown stories, workshop slides for the Events plugin |
-| `ds-playbook` | ADJUST | 8 + 4 Print Kit | Value Vault: designed playbook, workbook, worksheet from any training the member writes |
-| `ds-course` | **NEW** | none | Value Vault: course structure, module workbooks, certificates, cover art |
-| `ds-ebook` | ADJUST | 8 | Value Vault: a short book from the member's story and method |
+| `aa-logo-design` | ADJUST | 1 Logo Designer | leader-brand prompt: "logo for you as a leader, not your listings"; three-path front door kept (fresh / refresh / love it) |
+| `aa-style-sheet-design` | KEEP | 2 Brand Style Guide | existing-logo path kept; writes the Design System file the other 13 consume |
+| `aa-brand-kit-design` | ADJUST | 3 Social Media Kit | profile + banner graphics across IG / FB / LinkedIn / YouTube with the recruiter CTA; the 5-question profile test baked into the copy slots |
+| `aa-funnel-design` | ADJUST | 7 Sales Funnel Pages (+references) | three funnel shapes: opt-in (lead magnet), Partner Call booking, workshop registration; Netlify static-decoy-form rule carried; GHL-ready copy blocks |
+| `aa-lead-magnet-design` | ADJUST | 8 Lead Magnet Designer | first magnet template = the Honest Brokerage Comparison Guide (factual, cited, dated, no ranking language); cover-only and 3D mockup modes kept |
+| `aa-offer-stack-design` | **NEW** | none | the 3D offer stack: what the offer includes and what each piece is worth; reads the Brain Book's offer chapter; never prices rev share |
+| `aa-offer-assets-design` | **NEW** | 6 Presentations (deck half) | "Join My Team" 1-pager, the opportunity deck, the welcome pack, the comparison sheet (comparison sheet is model-positioning output, compliance-gated) |
+| `aa-product-mockup-design` | **NEW** | 8's 3D mockup mode (expanded) | the digital product mockup: 3D ebook and course box, device screens, bundle shots; Week 2 promise |
+| `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` | ADJUST | 12 Video Brand Kit (thumbnail section) | thumbnail layouts built from Mike's swipe-file patterns; fed by `yt-thumbnail`'s brief |
+| `aa-carousel-design` | ADJUST | 5 Social Media Graphics | carousels from `sf-carousel` copy; LinkedIn PDF law kept (team leaders and broker-owners live there) |
+| `aa-recognition-design` | **NEW** | 5 (templates) | Win Wall posts, first-deal and cap announcements, certificates; reads `recognition-log` |
+| `aa-event-design` | ADJUST | 6 Presentations + 5 | flyers, registration graphics, countdown stories, workshop slides for the Events plugin |
+| `aa-playbook-design` | ADJUST | 8 + 4 Print Kit | Value Vault: designed playbook, workbook, worksheet from any training the member writes |
+| `aa-course-design` | **NEW** | none | Value Vault: course structure, module workbooks, certificates, cover art |
+| `aa-ebook-design` | ADJUST | 8 | Value Vault: a short book from the member's story and method |
 
 **Not carried:** 10 Monthly Market Report Kit, 11 Listing Launch Kit (seller assets), 14 Link in Bio (optional later; the cohort doc's
 "Partner With Me" 5-page site idea would replace it).
 
 **Ideas:** the cohort backlog's rename (`attraction-funnel-design`, split by funnel type) is already reflected above. Add the
-"Why Join Me" 5-slide carousel as a Week 2 quick-win recipe inside `ds-carousel`: it is the shareable proof asset the workshop
+"Why Join Me" 5-slide carousel as a Week 2 quick-win recipe inside `aa-carousel-design`: it is the shareable proof asset the workshop
 review recommended, and every member posting it in Week 2 is retargeting content.
 
 **Inputs needed:** the AAM brand (Agent Attraction brand kit) for the Design System default, Mike's thumbnail swipe file (Week 4), and the Value Vault template set.
@@ -157,7 +157,7 @@ Forks `realtor-shortform-system` (15 skills). The realtor plugin's shared doctri
 | `sf-setup` | ADJUST | shortform-setup | the "value first, plumbing last" rewrite (unshippable in the realtor repo) lands here CLEAN: writes `identity/content-pillars.md` (the 5 pillars: Authority · Perspective · Story · Proof · Personality) + bios on IG / FB / TikTok / LinkedIn with the recruiter CTA; Metricool connect is a later step with its own connect flow |
 | `sf-board` | KEEP | shortform-board | same Notion board; status vocab locked OS-wide |
 | `sf-talkinghead` | ADJUST (folds `shortform-scripts` + `shortform-video-plan`) | | 30–60s Reel scripts in the four content types (value, leadership, personal brand, storytelling); the 30-day calendar lives here |
-| `sf-carousel` | ADJUST | shortform-carousel | "Why I Left My Brokerage" (story, never names the old brokerage), pain-point, myth-busting; hands design to `ds-carousel` |
+| `sf-carousel` | ADJUST | shortform-carousel | "Why I Left My Brokerage" (story, never names the old brokerage), pain-point, myth-busting; hands design to `aa-carousel-design` |
 | `sf-greenscreen` | ADJUST | shortform-greenscreen | reaction scripts on brokerage news and model comparisons (fed by the Agent Movement Watcher); cardinal rules enforced |
 | `sf-stories` | **NEW** | none | the 4-category daily story rotation (behind the scenes of leading · agent wins · personal · opportunity), the Story Prompt Deck, story-reply CTAs that hand to ManyChat |
 | `sf-ideas` | ADJUST (folds `shortform-search-research`) | | weekly ideas + the 30-hook bank for the niche; research is what agents search, not buyers |
@@ -185,7 +185,7 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 - **Decision (user, 2026-10-08): ONE plugin, not two.** The Studio is vendored into this repo under its own name and version (`scripts/vendor-riverside.sh`) with a single addition, the Brain-home rule in `house-rules.md`: use `~/attraction-brain/` when it exists, else `~/realtor-brain/`, and call that Brain's sync skill; every `editor/` path resolves against `<Brain home>`. Back-port that rule to the realtor repo so the two copies are byte-identical. A member who installed it from the realtor marketplace does not install it again (Support says so).
 - No skills removed (same plugin). `studio-listing` simply goes unused by attraction-only members.
-- `brand-wiring.md` reads the Attraction brand kit (Video Brand Kit v3.3 shape, generated by `ds-thumbnail-layout` + `ds-brand`).
+- `brand-wiring.md` reads the Attraction brand kit (Video Brand Kit v3.3 shape, generated by `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` + `aa-brand-kit-design`).
 - `cta-pack.md` swaps the realtor CTAs for the attraction ladder (book a call, DM the keyword, grab the guide).
 - `editor/` state (config, jobs, b-roll library) is added to the attraction sync allowlist on day one (the audit found it outside the realtor allowlist, so it forgot everything after session one in Cowork).
 - The compliance line in `studio-check` adds: no income claims on cards or captions; AI-likeness disclosure if a clone clip is cut in.
@@ -211,7 +211,7 @@ is re-keyed to what agents search (comparisons, rev share, switching, sponsor qu
 | `yt-script` | ADJUST | the four formats: Why I Switched (story, old brokerage unnamed), Pain Point Series, Model Breakdown, Niche Breakdown; voice-print |
 | `yt-interview` | **NEW** | guest list from the organization + Top-50, the hook-and-transformation title rule ("How Kevin built…"), question sets, edification lines, the guest's distribution ask; writes `memory/interview-pipeline.md`; hands the edit to `studio-interview` |
 | `yt-model-breakdown` | **NEW** | comparison and explainer videos with accurate, dated model data from `brokerage-model.md`; no trash talk; the "answer what they're already researching" list (Explained · vs · Should you join · How rev share works · Questions to ask a sponsor) |
-| `yt-thumbnail` | **NEW** | writes the thumbnail brief (title, pillar, face, text rule from Mike's swipe-file patterns) for `ds-thumbnail-layout` in Claude Design; 3 directions scored against the patterns |
+| `yt-thumbnail` | **NEW** | writes the thumbnail brief (title, pillar, face, text rule from Mike's swipe-file patterns) for `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` in Claude Design; 3 directions scored against the patterns |
 | `yt-seo` | ADJUST | title, description, chapters, pinned comment, book-a-call CTA; keyword set re-keyed |
 | `yt-make-video` | KEEP | end to end; one chat = one video; now calls yt-thumbnail |
 | `yt-repurpose` | ADJUST | 3 Shorts, 1 carousel, 5 stories, 1 email, 1 blog, plus **conversation starters** (the Week 4 doc adds "every video becomes conversation starters" → hands 3 openers to `cv-conversation-starter`) |
@@ -231,7 +231,7 @@ is re-keyed to what agents search (comparisons, rev share, switching, sponsor qu
 ## 7. Creative Studio (Higgsfield employees) — REMOVED from this build
 
 Parked per the user on 2026-10-08: not a plugin, not in scope for now. Nothing is built, and no skill routes to a `cs-` skill.
-Where the plan referenced it: `yt-thumbnail` uses the `ds-thumbnail-layout` design brief as its only path; `ds-product-mockup` ships
+Where the plan referenced it: `yt-thumbnail` uses the `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` design brief as its only path; `aa-product-mockup-design` ships
 without the animation hand-off; `studio-broll` uses Riverside's stock library only; Events and Lead Magnet ad creatives are design
 briefs for Claude Design. The SAO clone and thumbnail docs in Downloads stay as reference if this is revived later.
 
@@ -255,14 +255,14 @@ Default if no answer: the Week 5 versions (newest, and they are what the vault t
 | `cv-call-prep` | the 1-page brief before every booked call (from booking-form answers + intel + conversation history); Call Block Prep agent runs it on every call booked today |
 | `cv-question-funnel` | discovery, vision, commitment questions ("questions control conversations", 30% talk time) |
 | `cv-enrollment-script` | the Enrollment Conversation Script personalized, full and 30-minute, on the locked framework |
-| `cv-presentation` | the opportunity deck outline and 1-pager customized to the model (design via `ds-offer-assets`) |
+| `cv-presentation` | the opportunity deck outline and 1-pager customized to the model (design via `aa-offer-assets-design`) |
 | `cv-three-way` | 3-way call edification scripts and the upline brief ("in the beginning, leverage 3-way calls") |
 | `cv-objection-coach` | **Objection Handling Coach**: all 15 objections mapped to the 7 archetypes, handled on the locked framework; role-play mode with honest scoring; randomized drills; writes new handlers to `memory/objections.md`; voice-mode instructions for practice in the car (the claude.ai app, with the Project loaded) |
 | `cv-debrief` | **Conversation Coach**: notes or transcript in → summary, motivations, fears, decision criteria, buying signals, where they pitched early, probability, next move, follow-up draft, pipeline update out |
 | `cv-follow-up` | the 5-Point Framework and the 90-day nurture; every touch has a reason, never "just checking in"; individualized per prospect (Sarah: case study; James: nothing for 30 days) |
 | `cv-reactivation` | **Re-engagement Engine**: curiosity reactivation for quiet prospects, always with a real reason (model update, notable join, new training, resource, event); owns the Cold-Lead Reactivation agent |
 | `sales-system-setup` | OPS: the Partner Call calendar, application form questions, tags, the locked pipeline stages, reminders; CRM choice (GHL / Follow Up Boss / Sheets) |
-| `sales-booking-page` | OPS: booking page copy and qualifying questions (design via `ds-funnel` booking shape) |
+| `sales-booking-page` | OPS: booking page copy and qualifying questions (design via `aa-funnel-design` booking shape) |
 | `sales-show-up` | OPS: confirmation, 24h and 1h reminders, pre-call video script, no-show recovery; draft-only |
 | `sales-setter` | OPS: DM and phone qualification scripts for a VA or setter |
 | `sales-call-block` | OPS: the daily call block and capacity math (calls per week vs hours from the Brain) |
@@ -296,7 +296,7 @@ Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills: the
 
 ## 10. Team & Retention — REMOVED
 
-Removed from the OS by the user on 2026-10-08. Not built. `memory/organization.md` stays in the Brain (capture and the Admin plugin write joins to it); the Design Studio's `ds-recognition` reads it for Win Wall posts.
+Removed from the OS by the user on 2026-10-08. Not built. `memory/organization.md` stays in the Brain (capture and the Admin plugin write joins to it); the Design Studio's `aa-recognition-design` reads it for Win Wall posts.
 
 ## 11. Plugin 8 — Lead Magnet (`lm-`, 11 skills)
 
@@ -306,11 +306,11 @@ Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and
 |---|---|---|
 | `lm-navigator` | KEEP | checks the offer exists (Week 2), locks the first magnet, routes |
 | `lm-magnet` | ADJUST | writes the magnet in the member's voice; first = **the Honest Brokerage Comparison Guide** (factual, cited, dated, no ranking, no disparagement; "honest" means transparent about trade-offs, never critical of a named brokerage; compliance-gated hard) |
-| `lm-funnel` | ADJUST | opt-in page, thank-you, book-a-call step; design via `ds-funnel`; static decoy form rule |
+| `lm-funnel` | ADJUST | opt-in page, thank-you, book-a-call step; design via `aa-funnel-design`; static decoy form rule |
 | `lm-gbp` | KEEP | GBP positioned for attraction, posts pointed at the magnet |
 | `lm-profiles` | KEEP | social bios aligned to the funnel (shares the 5-question profile test with `sf-setup`; one owner: `sf-setup` writes `identity/profiles.md` first in Week 3, `lm-profiles` is the Week 6 updater) |
 | `lm-magnet-ideas` | **NEW** | next magnet from the persona map and what converted (Switching checklist, Sponsor questions, Rev-share explainer, 90-day plan template) |
-| `lm-design` | **NEW** | the styled PDF brief for `ds-lead-magnet` (cover + 3D mockup) |
+| `lm-design` | **NEW** | the styled PDF brief for `aa-lead-magnet-design` (cover + 3D mockup) |
 | `lm-delivery` | **NEW** | the DM, email, and story that deliver the magnet (ManyChat GUIDE keyword copy) |
 | `lm-nurture` | **NEW** | awareness → proof → CTA email sequence and the weekly newsletter; draft-only; list building is the Week 6 vault's first scaling lesson |
 | `lm-partnerships` | **NEW** | outreach to lenders, coaches, vendors, other leaders (the Leveraging Partnerships lesson) |
@@ -331,9 +331,9 @@ Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and
 | `ev-live` | the local event playbook: venue, run-of-show, co-hosts, follow-up |
 | `ev-virtual` | the virtual workshop playbook (the Virtual Workshop Launch Kit is its reference) |
 | `ev-evergreen` | the evergreen webinar: script outline, registration, replay, automated follow-up |
-| `ev-promo` | the promo calendar and copy: emails, DMs, texts, posts, stories (draft-only; creative briefs go to `ds-event`) |
-| `ev-registration` | registration page copy → `ds-funnel` (registration shape); form questions |
-| `ev-runofshow` | outline + slide brief → `ds-event`; the pitch-free "invite to a conversation" close |
+| `ev-promo` | the promo calendar and copy: emails, DMs, texts, posts, stories (draft-only; creative briefs go to `aa-event-design`) |
+| `ev-registration` | registration page copy → `aa-funnel-design` (registration shape); form questions |
+| `ev-runofshow` | outline + slide brief → `aa-event-design`; the pitch-free "invite to a conversation" close |
 | `ev-followup` | attended / no-show / hot / cold sequences; moves attendees into the pipeline; owns the Post-Event Follow-Up agent |
 | `ev-analytics` | registrations, show rate, conversations, calls booked per event |
 
@@ -349,7 +349,7 @@ The user's intent: approve the plans, then build everything at once with multipl
 4. **Seam pass (serial, one agent):** trigger-collision diff, Brain-file ownership check, scheduled-agent consent check, compliance 3-state check, description-length check, `check-release.sh` green.
 5. **Prove it:** one demo brain (fictional member) run through Weeks 1–6 end to end; Cowork cold test on a real member for Week 1 and Week 2; release.
 
-Ship dates follow the cohort's record-ahead rule: Brain + Support + the three Design Package skills (`ds-logo`, `ds-style-sheet`, `ds-brand`, because brain + brand both land in Week 1) by Oct 30; the rest of Design Studio by Nov 6; Short-Form + Riverside fork by Nov 13; YouTube by Nov 20 (before Thanksgiving); Conversion + Admin by Dec 4; Lead Magnet + Events by Dec 11.
+Ship dates follow the cohort's record-ahead rule: Brain + Support + the three Design Package skills (`aa-logo-design`, `aa-style-sheet-design`, `aa-brand-kit-design`, because brain + brand both land in Week 1) by Oct 30; the rest of Design Studio by Nov 6; Short-Form + Riverside fork by Nov 13; YouTube by Nov 20 (before Thanksgiving); Conversion + Admin by Dec 4; Lead Magnet + Events by Dec 11.
 
 ---
 
@@ -381,6 +381,6 @@ build: every doctrine file, the Support plugin's answer source, and the voice of
 4. **Riverside and Support forks**: confirm the mechanical fork (they cannot ship as-is).
 5. **CRM scope for v1**: Brain-memory pipeline as the truth with GHL / Follow Up Boss / Sheets sync as bring-your-own, or a specific CRM first.
 6. **Freshdesk**: fix billing or re-point escalation.
-7. Mike's thumbnail swipe file with pattern notes (for `ds-thumbnail-layout`).
+7. Mike's thumbnail swipe file with pattern notes (for `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`).
 8. **Inducement-rules review** before the Switching Transition Plan and the Earnings Comparison one-pager ship (cohort doc flags it; both stay out of v1 until cleared).
 9. **Voice-mode role-play** is a claude.ai app feature, not a Cowork skill: confirm the Objection Coach ships text role-play plus app instructions.

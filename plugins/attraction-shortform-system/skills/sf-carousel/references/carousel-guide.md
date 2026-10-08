@@ -65,7 +65,7 @@ automation on LinkedIn — say so if they ask). Same cardinal rules; compliance 
 - **One clear CTA**, one rung, the keyword where it fits.
 - **Theirs:** the delete test, the any-agent test, the so-what test. Develop the Brain's raw lines into a point.
 
-## The design brief for `ds-carousel` (words only)
+## The design brief for `aa-carousel-design` (words only)
 Hand the Design Studio: the type and slide count · sizes (Instagram 4:5; LinkedIn document PDF) · which slide
 is the hook and which the CTA · the colours, fonts, and feel from `brand-visual.md` **exactly as written** (hex
 codes, names; "none yet" if the kit isn't built — then "the Design Package first" in one line) · logo placement

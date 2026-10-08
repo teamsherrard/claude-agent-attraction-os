@@ -99,8 +99,8 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 - **The Brain owns direction and inventory:** `brand-visual.md` (Inventory + Direction), the voice, the story, the
   avatar. It never designs. It proposes feel, references, font direction, and taglines from the voice and the
   avatar, and the member reacts.
-- **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 1 Design Package is `ds-logo` →
-  `ds-style-sheet` → `ds-brand`, in that order, with the skip rule — **skip `ds-logo` when the member loves their
+- **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 1 Design Package is `aa-logo-design` →
+  `aa-style-sheet-design` → `aa-brand-kit-design`, in that order, with the skip rule — **skip `aa-logo-design` when the member loves their
   logo as-is; refresh mode changes only what they flagged**. The finished kit is dropped into `02 · Brand`, and
   the editor, the thumbnails, and every graphic read it from there. The Design Studio reads the Brain through the
   uploaded Brain Book ("the AI Brain file", `shared/brain-doc.md`) plus `brand-visual.md`, `offer.md`,

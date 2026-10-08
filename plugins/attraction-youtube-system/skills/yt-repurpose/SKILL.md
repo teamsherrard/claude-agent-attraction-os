@@ -41,7 +41,7 @@ when it exists, `identity/offer.md` second) · the conversation starters (6) →
    the transformation line as the hook. The Riverside Studio's `studio-repurpose` cuts these from the
    recording using the moments named here.
 2. **Carousel spec (1)** — 6–8 slides, cover hook → one idea per slide → the CTA slide; design through the
-   Short-Form System's `sf-carousel` / the Design Studio's `ds-carousel` (LinkedIn PDF for team leaders and
+   Short-Form System's `sf-carousel` / the Design Studio's `aa-carousel-design` (LinkedIn PDF for team leaders and
    broker-owners).
 3. **Story frames (5)** — one line each, a sequence: the question · the honest answer · the proof moment ·
    the invite (keyword or link) · the poll or question box. Hand to `sf-stories` if installed.

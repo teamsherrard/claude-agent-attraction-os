@@ -338,7 +338,7 @@ click; the same words waste one). The member's face with a real facial expressio
 purple background, white or yellow text, bold red or yellow accents); visuals that support the title without
 repeating it; consistent branding across every thumbnail so the channel reads as one (`/99`). Make the viewer
 feel "this is me, I need to watch this." Make **three thumbnails per video** and let YouTube's test pick the
-winner. The brief goes to `ds-thumbnail-layout` in Claude Design via `yt-thumbnail`; this plugin writes words,
+winner. The brief goes to `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` in Claude Design via `yt-thumbnail`; this plugin writes words,
 never images.
 
 **Improving CTR (`/97`):** review monthly; aim for **6–10%**; ignore day-one numbers (subscribers inflate them)
@@ -502,7 +502,7 @@ in the video must be real; no stock "culture."
   Game Plan derives them from the member's `goals.md` and `scorecard.md` and labels them as the member's own
   targets, never as benchmarks.
 - **Thumbnail design rules** beyond `/97` (layout, exact placement) belong to Mike's thumbnail swipe file (Week 4
-  input, not yet in the repo). `yt-thumbnail` and `ds-thumbnail-layout` consume it when it arrives.
+  input, not yet in the repo). `yt-thumbnail` and `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` consume it when it arrives.
 - **Equipment, filming, and editing standards** are not in the Week 4 vault (Mike points to the Social Agent
   Academy). The Riverside editor plugin owns the edit; this doctrine only says what `/92` says: start with what
   you have, upgrade every year.

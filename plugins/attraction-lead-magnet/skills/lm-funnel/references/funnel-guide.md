@@ -249,7 +249,7 @@ phone) — present as plain HTML, never injected by JS. The submit handler must 
 the inline thank-you, and show a plain fallback with the member's phone and email if the POST fails. The
 thank-you renders inline on the same page — never a second file or redirect. Verify before sending traffic:
 the form appears in the site's Forms tab, the live page source contains no `{{` placeholder, and a test
-submission shows the thank-you screen and lands in the Forms tab."* The Design Studio's `ds-funnel` ships
+submission shows the thank-you screen and lands in the Forms tab."* The Design Studio's `aa-funnel-design` ships
 this wiring built in; the member never writes form code — their only job is to drop the folder in, turn on
 Forms email notifications, and test-submit once.
 

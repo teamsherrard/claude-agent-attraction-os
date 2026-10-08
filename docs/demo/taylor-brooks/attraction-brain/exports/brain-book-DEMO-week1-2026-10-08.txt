@@ -209,7 +209,7 @@ Direction: the feel is calm-premium, teacherly, warm — "a well-kept classroom,
 
 The leader-versus-selling decision: one brand under your own name with a leader lane, so the buyers who met you at an open house and the agents who meet you on a Tuesday see the same person — and The Sunday Table as a second lockup for the group.
 
-Standing note: the Design Package (ds-logo in refresh mode → ds-style-sheet → ds-brand) builds the visuals in Claude Design this week; drop the kit into 02 · Brand and this chapter shows the logo file, the palette, and the type on the next regenerate.
+Standing note: the Design Package (aa-logo-design in refresh mode → aa-style-sheet-design → aa-brand-kit-design) builds the visuals in Claude Design this week; drop the kit into 02 · Brand and this chapter shows the logo file, the palette, and the type on the next regenerate.
 
 >> "I'd rather show you than tell you" is not a catchphrase — it is a brand decision. It means the sheet is on camera, the number comes before the adjective, and the kitchen table is the set. Every graphic the Design Package makes should look like that sentence.
 
@@ -544,7 +544,7 @@ CHAPTER 18 — YOUR OPEN ITEMS
 Nothing on this page is something you failed to do. It is the list of what the system is waiting on, with what fills it and when — re-derived every time this Book is rebuilt.
 
 | Open item | What fills it | When |
-| The brand kit — logo refresh, style sheet, brand | paste your Design Package brief into Claude Design (ds-logo in refresh mode → ds-style-sheet → ds-brand) and drop the kit into 02 · Brand | this week |
+| The brand kit — logo refresh, style sheet, brand | paste your Design Package brief into Claude Design (aa-logo-design in refresh mode → aa-style-sheet-design → aa-brand-kit-design) and drop the kit into 02 · Brand | this week |
 | Your six story seeds, written out | "build my attraction story bank" | this week |
 | Your spoken voice | "capture my speaking voice" — sixty seconds | this week |
 | Brokerage name wording, license display, and the ad rule | one email to Real Broker's compliance desk, then "confirm my compliance" | this week |

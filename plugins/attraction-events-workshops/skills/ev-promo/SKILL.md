@@ -79,7 +79,7 @@ One failure = rewrite.
   confirmation sequence covers registrants; these go to the list and the DM invites who haven't registered).
 - **Posts** (3): the announcement (the promise + who it's for + "link in bio / comment [KEYWORD]"), the
   speaker spotlight (one line of their proof, consent — Pillar `Proof`), the "what you'll walk away with"
-  carousel outline (3–5 slides, built by `ds-carousel`'s event intake — the outline here is its input).
+  carousel outline (3–5 slides, built by `aa-carousel-design`'s event intake — the outline here is its input).
 - **Stories** (daily, T-7 → T-0 — "especially on your stories," `/75`): a 7-story countdown — the pain poll,
   the promise, the speaker, the do-this-now preview, the "who's coming" social proof (the member's agents
   reposting), the countdown sticker, the doors-open "link up." Each ≤2 lines of on-screen text + the sticker
@@ -90,7 +90,7 @@ One failure = rewrite.
   (`studio-navigator`) if they want it polished; AI-likeness disclosure if a clone reads it.
 
 ## Step 4 — The share pack (so everyone shares in thirty seconds — house rules #11)
-One block the member forwards to their agents and speakers: the graphic (from `ds-event`), a story caption
+One block the member forwards to their agents and speakers: the graphic (from `aa-event-design`), a story caption
 ("I'm going to this — [promise] — [link]"), a feed caption, a 2-line invite text for their own guests ("Bring
 one agent who'd get value from this"), and the one rule for speakers (teach, don't pitch; the two cardinal
 rules). **The partner line** goes to `lm-partnerships` in plain words: *"Say 'partner outreach for attraction'
@@ -100,15 +100,15 @@ and name this event — it writes the line your lenders and title reps send thei
 ## Step 5 — The creative briefs (paste-ready, by name)
 Read now: `identity/brand-visual.md` (the brand line of every brief — or "Design Package first").
 ```
-FOR ds-event (promo set for [event name])
+FOR aa-event-design (promo set for [event name])
 Member: [name] · [brokerage, as compliance.md displays it, footer only] · [market]
 Event: [name] · [live local / virtual / evergreen] · [date · time · timezone] · [Zoom / venue + address] · free · for [type of agent — career stage / production]
 Hosts: [the member + co-hosts] · Guest speakers: [name · their one-line credential as they state it · consent on file · photo supplied — or none]
 What they leave with (three real things): • … • … • …
 Registration: [the page link — or "comment the word [KEYWORD]"] · Seats or deadline (real): [n seats / closes [date] — or none]
-Pieces: 1. feed graphic (announcement) 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) 3. speaker spotlight card 4. carousel — 3–5 slides, built by `ds-carousel`'s event intake (the outline above is its input) 5. the banner / photo-spot backdrop (live only)
+Pieces: 1. feed graphic (announcement) 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) 3. speaker spotlight card 4. carousel — 3–5 slides, built by `aa-carousel-design`'s event intake (the outline above is its input) 5. the banner / photo-spot backdrop (live only)
 Copy on each: [verbatim from Step 3 — headline, sub-line, CTA]
-Brand: [from brand-visual.md — logo, colours, type; or "Design Package first: ds-logo → ds-style-sheet → ds-brand"]
+Brand: [from brand-visual.md — logo, colours, type; or "Design Package first: aa-logo-design → aa-style-sheet-design → aa-brand-kit-design"]
 Required line (verbatim): [the compliance footer / brokerage name as required] · Brokerage-neutral: [yes (live local) / n/a]
 Never on the graphic: splits, caps, stock, rev share, income, another brokerage's name, "recruiting."
 Ad note: if any piece becomes a paid ad — Meta Employment special-ad-category; the brokerage's ad policy applies.

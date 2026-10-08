@@ -10,9 +10,9 @@ it the same way. Every timing below is the builder's default, not a vault number
 | When | What | Owner | Done when |
 |---|---|---|---|
 | T-14 | Event Brief approved (`ev-strategy`); the room settings chosen | member | brief in the event folder |
-| T-14 | Registration page copy written (`ev-registration`) → built in Claude Design (`ds-funnel`, registration shape) → live on the member's host; test-submitted once | member / VA | the confirmation email arrived for the test |
+| T-14 | Registration page copy written (`ev-registration`) → built in Claude Design (`aa-funnel-design`, registration shape) → live on the member's host; test-submitted once | member / VA | the confirmation email arrived for the test |
 | T-14 | Confirmation + reminder workflow built from the table (`shared/ghl-workflow-table.md`) | VA | test row verified |
-| T-14 | Promo graphic, countdown stories, slide template briefed (`ev-promo`, `ev-runofshow` → `ds-event`) | member | files in `02 · Brand` / the event folder |
+| T-14 | Promo graphic, countdown stories, slide template briefed (`ev-promo`, `ev-runofshow` → `aa-event-design`) | member | files in `02 · Brand` / the event folder |
 | T-13 → T-1 | Promo calendar runs (`references/promo-calendar.md` in `ev-promo`): posts, stories, emails, DMs | member + agents + speakers | each row ticked |
 | T-12 | Partners sent the share line (`lm-partnerships`) | member | partner replies logged by the member |
 | T-10 | Personal invites to the pipeline list (the Admin's match-back / the Top-50) | member | sent, by the member |
@@ -29,9 +29,9 @@ it the same way. Every timing below is the builder's default, not a vault number
 Owned and written by `ev-promo` (`skills/ev-promo/references/promo-calendar.md`, the virtual T-14 version).
 
 ## 3. The registration page and slide templates
-- Registration page: `ev-registration` writes the copy and the form; the Design Studio's `ds-funnel`
+- Registration page: `ev-registration` writes the copy and the form; the Design Studio's `aa-funnel-design`
   (registration shape) builds it; the static form rule applies.
-- Slides: `ev-runofshow` writes the slide brief; `ds-event` builds the deck (title · the promise · one slide per
+- Slides: `ev-runofshow` writes the slide brief; `aa-event-design` builds the deck (title · the promise · one slide per
   teaching beat · the do-this-now slide · the Q&A slide · the iceberg slide · the book-a-call slide with the QR
   · the resource slide · the compliance strip where required).
 

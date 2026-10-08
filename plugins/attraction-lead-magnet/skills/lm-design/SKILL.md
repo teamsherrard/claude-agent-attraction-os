@@ -2,8 +2,8 @@
 name: lm-design
 description: >
   Writes the paste-ready design brief that turns the member's written agent-attraction lead magnet
-  into a styled PDF with a cover and a 3D mockup — for the Design Studio's ds-lead-magnet skill in
-  Claude Design (ds-product-mockup for the mockup alone). Reads the finished magnet doc and the
+  into a styled PDF with a cover and a 3D mockup — for the Design Studio's aa-lead-magnet-design skill in
+  Claude Design (aa-product-mockup-design for the mockup alone). Reads the finished magnet doc and the
   brand from identity/brand-visual.md (logo, colors, fonts, headshot; the leader brand distinct
   from the brokerage's colors; the brokerage logo where compliance requires it), names the files
   to upload (the magnet doc + the newest Brain Book), and states what the designer must not change
@@ -17,8 +17,8 @@ description: >
 # Design Brief — the hand-off to the Design Studio
 
 The magnet is written; now it needs to look like something an agent wants to open. **This skill writes the
-brief, nothing else** — the Design Studio's **`ds-lead-magnet`** (cover + interior + 3D mockup) and
-**`ds-product-mockup`** (the mockup alone) do the designing, inside the member's Claude Design workspace.
+brief, nothing else** — the Design Studio's **`aa-lead-magnet-design`** (cover + interior + 3D mockup) and
+**`aa-product-mockup-design`** (the mockup alone) do the designing, inside the member's Claude Design workspace.
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — #1, #3 (this is the ONE skill in the
 plugin that writes design direction, because the brief IS the deliverable), #10. The three laws:
@@ -51,7 +51,7 @@ In chat, as one block the member copies into Claude Design, **and** rendered to 
 ```
 DESIGN BRIEF — [GUIDE NAME]
 [Name] · [Brokerage] · [Date]
-Paste this into your Claude Design workspace with the ds-lead-magnet skill loaded. Upload: Lead Magnet — [Guide Name].docx and 📕 [Name]'s Agent Attraction Brain Book — [newest date].docx.
+Paste this into your Claude Design workspace with the aa-lead-magnet-design skill loaded. Upload: Lead Magnet — [Guide Name].docx and 📕 [Name]'s Agent Attraction Brain Book — [newest date].docx.
 
 ────────────────────────────────────────────
 WHAT TO BUILD
@@ -102,7 +102,7 @@ write the Direction values and say "from your brand direction — the kit will r
 
 ## Step 3 — Deliver, save, mark
 1. Deliver the brief in chat as one copyable block, then: *"Paste that into Claude Design with the
-   `ds-lead-magnet` skill loaded, upload the two files it names, and it'll build the PDF and the mockup. When
+   `aa-lead-magnet-design` skill loaded, upload the two files it names, and it'll build the PDF and the mockup. When
    it's done, say 'the PDF is done' and I'll mark it so your page can go live."*
 2. Save `Design Brief — [Guide Name]` into the campaign folder (output standard §6; fallback applies).
 3. **When the member confirms the PDF exists:** in `memory/magnets.md`, move the row's Status to `designed`

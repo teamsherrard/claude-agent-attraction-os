@@ -83,7 +83,7 @@ words, never a competitor's name as a tag, never misleading.
 
 ## Thumbnails (doctrine §9 is the source of truth)
 This plugin writes **thumbnail text** (3–5 words, different from the title) and the brief for
-`ds-thumbnail-layout` in Claude Design via `yt-thumbnail` — the member's face with a real expression, branded
+`your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` in Claude Design via `yt-thumbnail` — the member's face with a real expression, branded
 contrasting colours, simple, visuals that support the title without repeating it. Three per video; let YouTube
 test. Interview thumbnails: both faces, the transformation in 3–5 words. Model thumbnails: the model's name is
 fine, numbers are not.

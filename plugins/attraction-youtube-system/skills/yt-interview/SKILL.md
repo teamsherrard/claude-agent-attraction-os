@@ -110,7 +110,7 @@ intro that hooks the best moments they just heard; the edit puts it first.
 - **The distribution ask:** when it goes live, ask the guest to share it to their story, post it with a line
   of their own, send it to three agents they know who are where they were. Give them the three sentences.
   Recognition is retention (`03-model-positioning/17`): the member tags them, celebrates them, and the Design
-  Studio's `ds-recognition` can make the win post if they use it.
+  Studio's `aa-recognition-design` can make the win post if they use it.
 
 ## Step 7 — Write the pipeline + log, then push
 Append to `~/attraction-brain/memory/interview-pipeline.md` (this plugin owns it; create it from the shape

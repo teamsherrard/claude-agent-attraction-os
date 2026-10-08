@@ -5,7 +5,7 @@ description: >
   video's title and bucket it drafts three thumbnail directions (face and expression, the 3–5 word text that
   differs from the title, composition, brand colors at highest contrast), scores each against Mike's
   title-and-thumbnail rules (and his swipe-file patterns once that file lands — it is pending and the skill
-  says so), recommends one, and hands a paste-ready brief to the Design Studio's ds-thumbnail-layout in Claude
+  says so), recommends one, and hands a paste-ready brief to the Design Studio's your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill) in Claude
   Design. Three thumbnails per video so YouTube can test them. Reads the Brain's brand-visual and compliance
   files. No image generation anywhere in this skill.
 
@@ -60,7 +60,7 @@ under `03 · Content/Long-Form/` (rendered through `shared/render_doc.py`; the f
 `03 · Content/Long-Form (the video's folder)/`):
 ```
 THUMBNAIL BRIEF — "[title]"
-Run in Claude Design: ds-thumbnail-layout (upload your Brain Book and your Design System file first)
+Run in Claude Design: your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill) (upload your Brain Book and your Design System file first)
 VIDEO: bucket · the type of agent it's for · the emotion of the title
 BRAND: colors (hex) · display font · headshot set to use · logo rule
 DIRECTION 1 (primary · score x/18): text · face/expression · composition · color · feeling
@@ -69,7 +69,7 @@ DIRECTION 3 (score x/18): …
 RULES THE DESIGN MUST KEEP: 3–4 words (never five: the layout skill cuts a fifth) · text ≠ title · face ≈ 1/3 · one supporting element · legible at 320px
 OUTPUT: three 1280×720 thumbnails, one per direction, saved to 03 · Content/Long-Form (the video's folder)
 ```
-Hand-off line to the member: *"paste this into Claude Design and run ds-thumbnail-layout — it builds all
+Hand-off line to the member: *"paste this into Claude Design and run your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill) — it builds all
 three; upload them as a test set in YouTube Studio and we read the click-through after a month."*
 
 ## Step 5 — After a month (when asked, or from `yt-analytics`)

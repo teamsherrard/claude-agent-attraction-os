@@ -62,13 +62,13 @@ Read now: `memory/events.md` (past virtual trainings — the best one is the eve
 2. **Refine so it delivers value while positioning the offer** — the script outline (Step 3): the same iceberg
    close, tighter; every claim labeled; the scope line.
 3. **Automate the delivery** — the on-demand registration page (`ev-registration`, evergreen "watch now"
-   variant → `ds-funnel`), the video hosted on the member's platform (Mike names Zoom or Loom to record and a
+   variant → `aa-funnel-design`), the video hosted on the member's platform (Mike names Zoom or Loom to record and a
    webinar platform to host — his choices, not requirements), the follow-up workflow (Step 4).
 4. **Traffic** — the ManyChat-style keyword on Instagram ("comment [KEYWORD] and I'll send you the training" —
    the Short-Form plugin's ladder and `lm-delivery` own the keyword copy), the email list (`lm-nurture`'s
    newsletter carries the link), YouTube descriptions (the YouTube system's CTA line), and ads — the one format
    where ads are the engine: the Meta Employment special-ad-category note and the brokerage's ad policy
-   (`compliance.md`) stated; the ad creative is a `ds-event` brief; the ad account and spend are the member's.
+   (`compliance.md`) stated; the ad creative is a `aa-event-design` brief; the ad account and spend are the member's.
 Propose all four from the Brain; **your turn**; "you pick" → the proposals.
 
 ## Step 3 — The script outline (45–60 minutes; written, then shown)

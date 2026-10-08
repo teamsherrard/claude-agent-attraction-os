@@ -34,7 +34,7 @@ Agent Attraction OS/
       │           └── 2026-11-30 · Short-Form Deep Dive                (Doc — sf-analytics, monthly)
       └── Graphics/
             └── 2026-11 · November/
-                  └── 2026-11-20 · Carousel · Why I Left               (Doc — the spec ds-carousel reads)
+                  └── 2026-11-20 · Carousel · Why I Left               (Doc — the spec aa-carousel-design reads)
 ```
 
 Don't pre-create empty month folders — create the current month's folder the first time you save into it.

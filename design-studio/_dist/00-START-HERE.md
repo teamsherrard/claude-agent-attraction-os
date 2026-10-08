@@ -32,7 +32,7 @@ and hand you a paste-ready brief or a finished doc; Claude Design *builds* the v
 ## SET-UP (ten minutes, once)
 
 1. In claude.ai → **Customize → Skills → Upload a skill**, upload the files from `_dist/` — the three
-   Week 1 files first (`01-ds-logo.zip`, `02-ds-style-sheet.zip`, `03-ds-brand.zip`), then each later
+   Week 1 files first (`01-aa-logo-design.zip`, `02-aa-style-sheet-design.zip`, `03-aa-brand-kit-design.zip`), then each later
    file when its week opens (the numbered list is below). Every skill is one zip; upload it as-is.
 2. Open **claude.ai/design**, create a project named **Brand HQ**, and attach
    `00-agent-attraction-design-system.md` (from `_dist/`) and your **Brain Book**.
@@ -44,9 +44,9 @@ and hand you a paste-ready brief or a finished doc; Claude Design *builds* the v
 
 | # | Skill | Type this | What you get | Lands in |
 |---|---|---|---|---|
-| 1 | `ds-logo` | "design my attraction logo" | 3–5 leader-logo concepts on your name (and your organization's name when you have one — a version with each), refresh mode for a logo that's not quite right, then every final file (transparent PNG + SVG, dark and one-colour versions, the content header) | `02 · Brand` |
-| 2 | `ds-style-sheet` | "build my brand style sheet" | your brand sheet, two directions side by side — palette (distinct from your brokerage's colours), fonts, spacing and usage rules, the leader toolkit, one "book a call with me" graphic — and YOUR Design System, locked | `02 · Brand` |
-| 3 | `ds-brand` | "make my brand kit" | profile pictures, banners (Instagram, Facebook, LinkedIn, YouTube) that say who you are · who you help · what you help them do · why listen · what to do next, highlight covers, agent-win and teaching post templates, stories, the "Join My Team" cover, email signature, end screen, backgrounds, captions | `02 · Brand` |
+| 1 | `aa-logo-design` | "design my attraction logo" | 3–5 leader-logo concepts on your name (and your organization's name when you have one — a version with each), refresh mode for a logo that's not quite right, then every final file (transparent PNG + SVG, dark and one-colour versions, the content header) | `02 · Brand` |
+| 2 | `aa-style-sheet-design` | "build my brand style sheet" | your brand sheet, two directions side by side — palette (distinct from your brokerage's colours), fonts, spacing and usage rules, the leader toolkit, one "book a call with me" graphic — and YOUR Design System, locked | `02 · Brand` |
+| 3 | `aa-brand-kit-design` | "make my brand kit" | profile pictures, banners (Instagram, Facebook, LinkedIn, YouTube) that say who you are · who you help · what you help them do · why listen · what to do next, highlight covers, agent-win and teaching post templates, stories, the "Join My Team" cover, email signature, end screen, backgrounds, captions | `02 · Brand` |
 
 **Skip 1 if you love your logo.** Run 2 and 3 in the same week your Brain is built — your Brain's health
 check counts the kit (a logo file + the style sheet + a profile graphic in `02 · Brand`) as a Week 1
@@ -59,18 +59,18 @@ the trigger. Nothing here writes your words; it designs them.
 
 | Week | File | Skill | Type this | What you get | Lands in |
 |---|---|---|---|---|---|
-| 2 | `04-ds-offer-stack.zip` | `ds-offer-stack` | "design my offer stack" | the 3D offer stack — what your Partner Offer includes and what each piece is worth in plain words (never a rev-share number); from your Brain's free-vs-paid brief | `05 · Offer` |
-| 2 | `05-ds-offer-assets.zip` | `ds-offer-assets` | "design my join my team one-pager" | the "Join My Team" 1-pager (fills the cover from skill 3), the opportunity deck from your Conversion system's brief, the welcome pack, the model comparison sheet | `05 · Offer` |
-| 2 | `06-ds-product-mockup.zip` | `ds-product-mockup` | "my product mockup" | the digital-product mockup — 3D book or course box, device screens, bundle shot, and the flat cover every later skill reuses | `05 · Offer/[Product]` |
-| 2 | `07-ds-carousel.zip` | `ds-carousel` | "design my carousel" | carousels from your Short-Form system's doc (Week 3), starting with the five-slide "Why Join Me" carousel from your Brain Book (Week 2); every carousel also ships as a LinkedIn PDF | `03 · Content/Graphics/[month]` |
-| 2 | `08-ds-funnel.zip` | `ds-funnel` | "design my partner call page" | the Partner Call booking page (Week 2); the opt-in page for your guide and the workshop registration page once those systems write the copy (Week 6) — deploy-ready | `03 · Content/Guides` (a registration page in its event's folder) |
-| 2 | `10-ds-lead-magnet.zip` | `ds-lead-magnet` | "design my comparison guide pdf" | the designed free guide (first: the honest brokerage comparison guide) plus its cover and 3D mockup — runs once your Lead Magnet system writes the guide (Week 6) | the guide's folder in `03 · Content/Guides` |
-| 4 | `09-ds-thumbnail-layout.zip` | `ds-thumbnail-layout` | "build my thumbnails" | three thumbnails per video from your YouTube system's thumbnail brief — YouTube's test set | the video's folder in `03 · Content/Long-Form` |
-| 6 | `11-ds-recognition.zip` | `ds-recognition` | "design my win wall" | Win Wall posts and stories, welcome graphics, certificates, the monthly roundup — from your AI Admin's Team Wins brief | `03 · Content/Graphics/Wins` |
-| 6 | `12-ds-event.zip` | `ds-event` | "my attraction event flyer" | flyers, the registration post, countdown stories, Zoom screens, workshop slides — from your Events plugin's briefs | the event's folder in `03 · Content/Events` |
-| 6 | `13-ds-playbook.zip` | `ds-playbook` | "design my playbook" | the Value Vault: a designed playbook, workbook, or worksheet from the training you wrote | `05 · Offer/[Product]` |
-| 6 | `14-ds-course.zip` | `ds-course` | "design my course" | the Value Vault: your course packaged — title cards, outline, module workbooks, certificate, tiles | `05 · Offer/[Course]` |
-| 6 | `15-ds-ebook.zip` | `ds-ebook` | "design my ebook" | the Value Vault: a short book from your story and method | `05 · Offer/[Book]` |
+| 2 | `04-aa-offer-stack-design.zip` | `aa-offer-stack-design` | "design my offer stack" | the 3D offer stack — what your Partner Offer includes and what each piece is worth in plain words (never a rev-share number); from your Brain's free-vs-paid brief | `05 · Offer` |
+| 2 | `05-aa-offer-assets-design.zip` | `aa-offer-assets-design` | "design my join my team one-pager" | the "Join My Team" 1-pager (fills the cover from skill 3), the opportunity deck from your Conversion system's brief, the welcome pack, the model comparison sheet | `05 · Offer` |
+| 2 | `06-aa-product-mockup-design.zip` | `aa-product-mockup-design` | "my product mockup" | the digital-product mockup — 3D book or course box, device screens, bundle shot, and the flat cover every later skill reuses | `05 · Offer/[Product]` |
+| 2 | `07-aa-carousel-design.zip` | `aa-carousel-design` | "design my carousel" | carousels from your Short-Form system's doc (Week 3), starting with the five-slide "Why Join Me" carousel from your Brain Book (Week 2); every carousel also ships as a LinkedIn PDF | `03 · Content/Graphics/[month]` |
+| 2 | `08-aa-funnel-design.zip` | `aa-funnel-design` | "design my partner call page" | the Partner Call booking page (Week 2); the opt-in page for your guide and the workshop registration page once those systems write the copy (Week 6) — deploy-ready | `03 · Content/Guides` (a registration page in its event's folder) |
+| 2 | `10-aa-lead-magnet-design.zip` | `aa-lead-magnet-design` | "design my comparison guide pdf" | the designed free guide (first: the honest brokerage comparison guide) plus its cover and 3D mockup — runs once your Lead Magnet system writes the guide (Week 6) | the guide's folder in `03 · Content/Guides` |
+| 4 | `09-your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill).zip` | `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` | "build my thumbnails" | three thumbnails per video from your YouTube system's thumbnail brief — YouTube's test set | the video's folder in `03 · Content/Long-Form` |
+| 6 | `11-aa-recognition-design.zip` | `aa-recognition-design` | "design my win wall" | Win Wall posts and stories, welcome graphics, certificates, the monthly roundup — from your AI Admin's Team Wins brief | `03 · Content/Graphics/Wins` |
+| 6 | `12-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" | flyers, the registration post, countdown stories, Zoom screens, workshop slides — from your Events plugin's briefs | the event's folder in `03 · Content/Events` |
+| 6 | `13-aa-playbook-design.zip` | `aa-playbook-design` | "design my playbook" | the Value Vault: a designed playbook, workbook, or worksheet from the training you wrote | `05 · Offer/[Product]` |
+| 6 | `14-aa-course-design.zip` | `aa-course-design` | "design my course" | the Value Vault: your course packaged — title cards, outline, module workbooks, certificate, tiles | `05 · Offer/[Course]` |
+| 6 | `15-aa-ebook-design.zip` | `aa-ebook-design` | "design my ebook" | the Value Vault: a short book from your story and method | `05 · Offer/[Book]` |
 
 They all read the same Design System and the same Brain Book. When a skill finishes, it tells you the
 one line to say back in the system that wrote the brief (your Brain, your Short-Form system, your

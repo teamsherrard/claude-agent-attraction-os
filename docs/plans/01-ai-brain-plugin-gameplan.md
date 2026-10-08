@@ -349,7 +349,7 @@ a one-line note that the Partner Offer is built in Week 2, so nothing on the pag
 **Why this phase is bigger than the realtor version (user feedback 2026-10-08):** in this 6-week program the member builds their
 Agent Attraction Brain AND their Agent Attraction Brand in Week 1 (the realtor cohort spread brand over 10 weeks). So the brand is
 not two questions at the end; it is a three-state front door, a short direction capture, and a hand-off that produces the actual
-brand kit in Week 1 through the Design Package (`ds-logo` → `ds-style-sheet` → `ds-brand`). The Brain captures direction and
+brand kit in Week 1 through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`). The Brain captures direction and
 inventory; Claude Design builds the visuals; nothing here is a two-week detour.
 
 **Stop 12 · Voice**
@@ -373,7 +373,7 @@ inventory; Claude Design builds the visuals; nothing here is a two-week detour.
 
 Writes `identity/brand-visual.md` with an `Inventory:` block (logo state, colors, fonts, headshots, brand name, separate-or-same) and a
 `Direction:` block (feel, references, fonts, tagline, logo direction). Then hands the member the **Design Package brief**: a
-paste-ready block for Claude Design naming the three skills to run this week in order, with the "skip `ds-logo` if you love your
+paste-ready block for Claude Design naming the three skills to run this week in order, with the "skip `aa-logo-design` if you love your
 logo" rule, and the instruction to drop the finished kit into `02 · Brand` so the editor, the thumbnails, and every graphic read it.
 The Brain Book's brand chapter renders the direction; after the kit exists, the next regenerate shows the kit (logo, palette, type).
 `attraction-brain-health` counts "brand kit present in `02 · Brand`" as a Week 1 completeness item.

@@ -49,9 +49,9 @@ uses it ("Read now") — never earlier, never re-read once in context.
 Read now: the kit reference, then doctrine §5–§8 · `identity/avatars.md` (geography — a virtual room reaches
 beyond it; the chat prompts come from their pains in their words) · `memory/magnets.md → ## Current magnet` (the
 second CTA) · the Lead Magnet block's `List tool` in `config.md` (where registrants land).
-- **The launch checklist, T-14 to T+10** (Phase 4): T-14 page live (`ev-registration` → `ds-funnel`
+- **The launch checklist, T-14 to T+10** (Phase 4): T-14 page live (`ev-registration` → `aa-funnel-design`
   registration shape; the calendar invite in the confirmation) · T-14 the promo graphic, the countdown stories,
-  and the slide template ordered (`ds-event`, via `ev-promo` and `ev-runofshow` briefs) · T-13 → T-1 the promo
+  and the slide template ordered (`aa-event-design`, via `ev-promo` and `ev-runofshow` briefs) · T-13 → T-1 the promo
   calendar runs (`ev-promo`), speakers and agents share from the share pack, partners send it (`lm-partnerships`)
   · T-10 personal invites from the pipeline (the Admin's match-back / the Top-50) · T-3 the run-of-show
   rehearsed, slides final, the chat moderator briefed, the replay page ready · T-1 and T-0 reminders (the
@@ -74,7 +74,7 @@ second CTA) · the Lead Magnet block's `List tool` in `config.md` (where registr
   so in one line; `yt-repurpose` is the Week 4 skill).
 - **Ads, optional** (`/75`, `/76`): not needed to start; if the member wants reach beyond their networks, say
   the two rules in one line each — the Meta Employment special-ad-category note and the brokerage's own ad
-  policy (`compliance.md`) — and that ads are outside this plugin's build (the brief for an ad is a `ds-event`
+  policy (`compliance.md`) — and that ads are outside this plugin's build (the brief for an ad is a `aa-event-design`
   graphic plus the registration page; the ad itself is the member's).
 - **Recruiting scope** (doctrine §15): the training is for everyone on the call; the invite to partner names
   where the member may attract ("if you're licensed in [states/provinces]") or routes to the upline where they

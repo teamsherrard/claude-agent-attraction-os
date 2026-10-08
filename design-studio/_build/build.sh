@@ -21,8 +21,8 @@ STAGE="$(mktemp -d)"
 trap 'rm -rf "$STAGE"' EXIT
 
 # The 15 skills of the Studio, in upload order. Numbers stay stable as later weeks ship.
-ORDER=(ds-logo ds-style-sheet ds-brand ds-offer-stack ds-offer-assets ds-product-mockup ds-carousel
-       ds-funnel ds-thumbnail-layout ds-lead-magnet ds-recognition ds-event ds-playbook ds-course ds-ebook)
+ORDER=(aa-logo-design aa-style-sheet-design aa-brand-kit-design aa-offer-stack-design aa-offer-assets-design aa-product-mockup-design aa-carousel-design
+       aa-funnel-design aa-lead-magnet-design aa-recognition-design aa-event-design aa-playbook-design aa-course-design aa-ebook-design)
 
 FAIL=0
 ok()   { printf '  ✓ %s\n' "$*"; }

@@ -160,7 +160,7 @@ Cowork, and it reads your Brain Book (the document), not your Brain directly.
 
 1. **Upload the three Week 1 skills.** Get the Design Package from your Week 1 bonus assets
    `[NOT SET — where members download the Design Package]`. In claude.ai click **Customize → Skills → Upload a
-   skill** and upload the three files: `01-ds-logo.zip`, `02-ds-style-sheet.zip`, `03-ds-brand.zip`.
+   skill** and upload the three files: `01-aa-logo-design.zip`, `02-aa-style-sheet-design.zip`, `03-aa-brand-kit-design.zip`.
 2. **Create Brand HQ.** Open claude.ai/design and create one project named **Brand HQ**. Run every design skill
    inside it, always — that is how each skill finds your logo, colours, fonts, and headshot.
 3. **Attach two things to every chat:** the **Agent Attraction Design System** file (it comes with the Design

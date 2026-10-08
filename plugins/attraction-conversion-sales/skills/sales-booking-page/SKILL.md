@@ -4,7 +4,7 @@ description: >
   Sales OPS: the Partner Call booking page, written. The event name, the description in the member's
   positioning, the five qualifying questions from Mike's booking flow with the member's brokerage named,
   the confirmation-page copy, where the link lives (bio, video descriptions, signature), and a
-  paste-ready design brief for the Design Studio's ds-funnel booking shape. Public copy, so the
+  paste-ready design brief for the Design Studio's aa-funnel-design booking shape. Public copy, so the
   compliance gate runs first; no superlatives without a dated proof line; no compensation anywhere.
   The member pastes it into Calendly or GoHighLevel; nothing is published for them. Trigger on: "write
   my booking page", "partner call booking page", "booking page copy for agents", "qualifying questions
@@ -20,7 +20,7 @@ call starts (`10-presentation-delivery/42`; `bonus/calendly`). This skill writes
 member's version and the brief the Design Studio turns into the page.
 
 **Write-and-prepare.** Copy and a brief; the member pastes into their tool or hands the brief to Claude
-Design (`ds-funnel`, booking shape). Nothing is published from here.
+Design (`aa-funnel-design`, booking shape). Nothing is published from here.
 
 ## Step 0 — How we speak
 Read `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` and `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
@@ -61,7 +61,7 @@ across states or provinces, nothing negative about anyone.
    `avatars.md`: for the agent types the member serves; not for agents already at the brokerage or already
    sponsored (the question-1 filter, said kindly).
 
-## The design brief for `ds-funnel` (booking shape) — paste-ready, one block
+## The design brief for `aa-funnel-design` (booking shape) — paste-ready, one block
 *"Build the Partner Call booking page (booking shape) for [Name] · [Organization] · [Brokerage as it must
 appear]. Brand: [from brand-visual.md — colours, type, the logo file in 02 · Brand]. Headline: [the one
 line]. Subhead: [the outcome for the agent type]. Proof strip: [up to three dated lines from proof.md, or

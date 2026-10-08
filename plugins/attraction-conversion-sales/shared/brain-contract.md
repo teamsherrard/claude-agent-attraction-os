@@ -124,7 +124,7 @@ that did not save.
   on [name]") · `attraction-top-50` ("who should I talk to this week") → `cv-conversation-starter` (the opener for
   each name) · `attraction-capture` → `cv-navigator` ("just talked to [agent]") and `cv-objection-coach` ("objection
   handler" when a captured objection has none).
-- **Out:** `cv-presentation` → `ds-offer-assets` (the design brief, by name, pasted into Claude Design) ·
+- **Out:** `cv-presentation` → `aa-offer-assets-design` (the design brief, by name, pasted into Claude Design) ·
   `cv-enrollment-script` and `cv-presentation` → `05 · Offer` (rendered docs) · `cv-call-prep` and
   `cv-agent-intel` → `04 · Agents/Prospects` (rendered docs) · stage and next-move requests
   (`STAGE MOVE REQUESTED` · `NEXT MOVE REQUESTED`, the locked lines above) → the AI Admin (`admin-pipeline`) ·

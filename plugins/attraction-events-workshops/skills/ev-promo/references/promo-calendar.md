@@ -9,7 +9,7 @@ the posting and sending. Nothing here is scheduled by the plugin.*
 ## Virtual training — T-14 → T-0
 | Day | Channel | Piece | Who | CTA |
 |---|---|---|---|---|
-| T-14 | registration page live | — | member (built via ds-funnel; test-submitted) | — |
+| T-14 | registration page live | — | member (built via aa-funnel-design; test-submitted) | — |
 | T-14 | email (the list) | announcement email | member | register |
 | T-14 | Instagram feed | announcement graphic + caption | member | link in bio / comment [KEYWORD] |
 | T-13 | stories | story 1: the pain poll | member | — |
@@ -52,10 +52,10 @@ the posting and sending. Nothing here is scheduled by the plugin.*
 ## The asset table (Phase 6 — one row per asset `ev-promo` briefs)
 | Asset | Purpose | Owner | Delivery method | Distribution timing | Related email | Related post |
 |---|---|---|---|---|---|---|
-| announcement graphic | the first look | member (ds-event) | feed + share pack | T-14 / T-28 | announcement | announcement post |
+| announcement graphic | the first look | member (aa-event-design) | feed + share pack | T-14 / T-28 | announcement | announcement post |
 | story set (7) | daily presence | member | stories | T-13 → T-0 | — | — |
-| speaker card | borrowed proof | member (ds-event) | feed + speaker reposts | T-9 / T-14 | value email | spotlight |
+| speaker card | borrowed proof | member (aa-event-design) | feed + speaker reposts | T-9 / T-14 | value email | spotlight |
 | promo video | energy + the promise | member (recorded) | feed + stories + share pack | T-3 / T-7 | — | video post |
 | share pack | thirty-second sharing | member | forwarded to agents, speakers | T-10 / T-26 | — | — |
 | partner line | borrowed trust | lm-partnerships | partners' lists | T-12 / T-24 | — | — |
-| registration page | the opt-in | member (ds-funnel) | every CTA | T-14 / T-28 | confirmation | — |
+| registration page | the opt-in | member (aa-funnel-design) | every CTA | T-14 / T-28 | confirmation | — |

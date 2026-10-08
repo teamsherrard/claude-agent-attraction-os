@@ -28,7 +28,7 @@ email to the organization in the member's voice, a public post per win, a person
 the brief for the designed graphic. It never invents a win and never sends.
 
 ## What this skill owns and writes
-The email DRAFT (in the email connector's Drafts) · the posts and scripts (in chat) · the `ds-recognition`
+The email DRAFT (in the email connector's Drafts) · the posts and scripts (in chat) · the `aa-recognition-design`
 brief (in chat) · in `memory/organization.md`, which the Admin maintains from Week 5: the `Recognition
 given` cell of each celebrated agent and ONE dated line under `## Retention notes` — `[date] Team Wins:
 celebrated [names · wins]` — written only after the member says the email went out, so no agent is
@@ -92,12 +92,12 @@ the member's organization name. **The personal congratulations** (`16-implementa
 as possible — Mike sends a video message and a text): a 20-second video-message script from `voice-print.md` and a two-line text.
 One set per win, paste-ready; the member sends.
 
-## Step 6 — The Win Wall brief (paste-ready, for `ds-recognition` in Claude Design)
+## Step 6 — The Win Wall brief (paste-ready, for `aa-recognition-design` in Claude Design)
 Open now: `identity/brand-visual.md` (colors, fonts, logo state; `identity/profile.md` is already open).
 One block per win, in this shape:
 ```
-WIN WALL BRIEF — for ds-recognition (Claude Design)
-Consent: on file / ask [agent] first   # ds-recognition never has to ask twice
+WIN WALL BRIEF — for aa-recognition-design (Claude Design)
+Consent: on file / ask [agent] first   # aa-recognition-design never has to ask twice
 Agent: [name] · Win: [what, in five words] · Date: [date] · Organization: [name from profile]
 Brand: [colors · fonts · logo state from brand-visual.md; "use the Design System file"]
 Photo: the agent's headshot the member has — never a stock face
@@ -131,7 +131,7 @@ The scheduled run drafts the email in the connector and leaves the posts and bri
 it writes nothing to the Brain (the `Team Wins:` line waits for the member's "sent"); it never sends or posts.
 
 ## Hand-offs by name
-`ds-recognition` (the graphic, by brief) · `attraction-capture` (a win heard on the go; "remember this
+`aa-recognition-design` (the graphic, by brief) · `attraction-capture` (a win heard on the go; "remember this
 moment") · `admin-pipeline` (a join is a stage move first) · the Short-Form plugin's `sf-stories` when the member
 wants the win as a story post (one line, only if that plugin has a block in `config.md`).
 

@@ -328,7 +328,7 @@ Tone rules (**bullets**), sounds-like / never-sounds-like, signature phrases as 
 samples, the spoken voice-print if built (else one friendly "say 'capture my speaking voice'" line inside the
 chapter, not a placeholder chapter). Then brand: the **Inventory** as a **table** (| Item | State |), the
 **Direction** in prose, the **colour table** (| Colour | Hex | Role |) when colours exist, the leader-vs-selling
-decision, and the standing note: *the Design Package (ds-logo → ds-style-sheet → ds-brand) builds the visuals
+decision, and the standing note: *the Design Package (aa-logo-design → aa-style-sheet-design → aa-brand-kit-design) builds the visuals
 in Claude Design this week; drop the kit into 02 · Brand and this chapter shows it on the next regenerate.*
 After the kit exists, render the kit's logo file name, palette, and type.
 

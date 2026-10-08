@@ -232,7 +232,7 @@ already does.
 - **Out:** `cv-call-prep` (prep for every call on today's calendar) · `cv-debrief` (a prospect's reply is a
   conversation to log) · `cv-conversation-starter` / `cv-objection-coach` / `attraction-brokerage-model` (when
   the bottleneck is the ask or the close) · `sales-show-up` (the confirmation sequence the queue applies) ·
-  `sales-setter` (the scripts a setter pack points at) · `ds-recognition` (the Win Wall brief, pasted into
+  `sales-setter` (the scripts a setter pack points at) · `aa-recognition-design` (the Win Wall brief, pasted into
   Claude Design) · `attraction-top-50` (a bench name to promote on a join; the mirror) ·
   `attraction-goals` (change the targets) · `attraction-execution-framework` ("what is my constraint") ·
   `ev-promo` (the match-back shortlist, Mode D, becomes an event's personal-invite list) ·

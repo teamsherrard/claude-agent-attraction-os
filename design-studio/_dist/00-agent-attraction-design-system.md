@@ -1,7 +1,7 @@
 # Agent Attraction Design System — default template (v1.0)
 
 *The uploadable Design System for the Agent Attraction Design Studio. Attach this file to your Brand HQ
-project in Claude Design. `ds-style-sheet` fills it with YOUR values and saves the result as
+project in Claude Design. `aa-style-sheet-design` fills it with YOUR values and saves the result as
 "[First Last] Design System" — from then on, every `ds-` skill reads your copy, never this template.*
 
 **What this is.** A design system is the durable record of a brand's execution values: colours, fonts,
@@ -9,13 +9,13 @@ spacing, how the logo is used, how photos are treated, the reusable components e
 from, and the voice the copy is written in. The Brain decides the *direction* (your brand-visual
 inventory and direction, your voice, your compliance rules); this file holds the *execution values*
 that make every piece match. **No colour, font, or name in this template is a brand** — every member
-value is left as `[member value]` and is filled by `ds-style-sheet` from your approved style sheet and
+value is left as `[member value]` and is filled by `aa-style-sheet-design` from your approved style sheet and
 your Brain Book. The defaults that ARE real (spacing, scale, safe zones, component rules, the laws)
 hold for every member unless their style sheet says otherwise.
 
 ---
 
-## 0. How a member copy is made (instructions for `ds-style-sheet`)
+## 0. How a member copy is made (instructions for `aa-style-sheet-design`)
 
 1. Copy this file whole. Keep every section, heading, token name, and rule; change values only.
 2. Fill every `[member value]` from the approved style sheet (the winning option) and the Brain Book
@@ -28,7 +28,7 @@ hold for every member unless their style sheet says otherwise.
    voice cards). Export the filled file as `design-system.md` into the workspace's `02 · Brand`.
 5. Before compiling, preview the tokens on one light piece and one dark piece; fix the range first if
    it turns monotone or murky.
-6. On any later change (`ds-style-sheet` refresh mode), change the value here AND in the native Design
+6. On any later change (`aa-style-sheet-design` refresh mode), change the value here AND in the native Design
    System, add a change-log row, re-export `design-system.md`.
 
 ---
@@ -244,9 +244,9 @@ ads — flag it. This is assistance, not legal advice; the member confirms with 
 
 | Set | Files | Built by |
 |---|---|---|
-| Logo | `logo-*.png/.svg` · `org-logo-*` · `logo-spec.md` | `ds-logo` (or the member's loved logo, uploaded as-is) |
-| Style sheet + system | `style-sheet.pdf` · `design-system.md` | `ds-style-sheet` |
-| Brand kit | `profile-*.png` · `banner-*.png` · `highlight-*.png` · `post-*.png` · `story-*.png` · `cover-join-my-team.png` · `signature-*.png` · `end-screen-youtube.png` · `background-*.png` · `brand-kit-captions.md` | `ds-brand` |
+| Logo | `logo-*.png/.svg` · `org-logo-*` · `logo-spec.md` | `aa-logo-design` (or the member's loved logo, uploaded as-is) |
+| Style sheet + system | `style-sheet.pdf` · `design-system.md` | `aa-style-sheet-design` |
+| Brand kit | `profile-*.png` · `banner-*.png` · `highlight-*.png` · `post-*.png` · `story-*.png` · `cover-join-my-team.png` · `signature-*.png` · `end-screen-youtube.png` · `background-*.png` · `brand-kit-captions.md` | `aa-brand-kit-design` |
 | Headshots | `headshots/` | the member |
 
 The Brain's health check counts the brand kit as present when `02 · Brand` holds a logo file, the
@@ -259,7 +259,7 @@ the Value Vault) read this registry and never re-ask for anything in it.
 
 | Date | Change | By |
 |---|---|---|
-| `[YYYY-MM-DD]` | Created from the Agent Attraction Design System v1.0 | `ds-style-sheet` |
+| `[YYYY-MM-DD]` | Created from the Agent Attraction Design System v1.0 | `aa-style-sheet-design` |
 
 **The handshake:** the Brain owns direction (`brand-visual.md`: inventory and direction) and the Brain
 Book carries it; this Design System owns execution values. When they disagree, the member decides — and

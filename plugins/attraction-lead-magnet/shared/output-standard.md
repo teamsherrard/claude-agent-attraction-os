@@ -140,7 +140,7 @@ A soft, no-pressure close in the member's voice — what they actually give agen
 
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
-This doc is the guide content. Your design step — the Lead Magnet Designer skill (ds-lead-magnet) in your
+This doc is the guide content. Your design step — the Lead Magnet Designer skill (aa-lead-magnet-design) in your
 Claude Design workspace — turns it into the branded PDF, one page per PAGE block, copy verbatim. Say "design
 brief for my guide" and I'll write the brief it needs. Upload this doc plus your newest Agent Attraction Brain Book.
 Assets to gather:  logo · headshot · any photos of you with your organization.
@@ -238,7 +238,7 @@ Footer: the same compliance stamp as the page
 
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
-This doc is the copy + structure. Your design step — the funnel skill (ds-funnel, its opt-in shape) in your
+This doc is the copy + structure. Your design step — the funnel skill (aa-funnel-design, its opt-in shape) in your
 Claude Design workspace — builds the page from these exact sections and takes it live on Netlify (upload this
 doc, the magnet doc, and your newest Agent Attraction Brain Book); or host it yourself (your site /
 GoHighLevel / Carrd). The form must be a real static Netlify form (the rule is in the funnel guide) or no

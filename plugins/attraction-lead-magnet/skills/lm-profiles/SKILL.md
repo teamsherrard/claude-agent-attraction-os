@@ -119,7 +119,7 @@ suggest four — the guide · how we work together · the community · the membe
    `## Google Business Profile` · `## Brokerage site` · `## Email signature` AFTER the five if they don't
    exist (same heading pattern). **Absent file → create it** with the five headings in `sf-setup`'s order,
    then the additions (the shape is in `shared/brain-contract.md`). Push (write → push → verify — the
-   write-back law). The Design Studio's `ds-brand` reads the bios through the Brain Book; `lm-gbp` reuses the
+   write-back law). The Design Studio's `aa-brand-kit-design` reads the bios through the Brain Book; `lm-gbp` reuses the
    Google section; every other system now quotes the same identity.
 3. Close with the checklist: *"Paste each one into its platform — start with Instagram and LinkedIn. When
    your guide goes live, your offer sharpens, or your brokerage changes, say 'update my attraction bios' and
