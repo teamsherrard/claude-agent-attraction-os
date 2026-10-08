@@ -75,7 +75,7 @@ work inside that one member's Brain; it is not a multi-user system. The member's
 - **Where deliverables save:**
   - **Brain Book** + **90-Day Attraction Scorecard** → `01 · AI Brain`.
   - **Brand kit** (logo, style sheet, headshots, profile and banner graphics) → `02 · Brand`.
-  - **Long-form** → `03 · Content/Long-Form`; **short-form** → `Short-Form`; **carousels / thumbnails / proof cards** →
+  - **Long-form** → `03 · Content/Long-Form`; **short-form** → `Short-Form`; **carousels / proof cards** → (thumbnails stay in the video's Long-Form folder)
     `Graphics`; **lead magnets and guides** → `Guides`; **event docs** → `03 · Content/Events/[code] · [Theme]/` —
     every document for one event (the brief, the format playbook, the promo calendar and copy, the registration-page
     copy, the run-of-show and slide brief, the follow-up sequences, the event report) lands in that one folder, which
