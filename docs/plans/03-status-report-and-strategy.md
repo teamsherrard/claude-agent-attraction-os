@@ -1,6 +1,6 @@
 # Agent Attraction OS — Overnight Build Report and Strategic Game Plan
 
-*Written for Riya and Mike · 2026-10-09 · repo `claude-agent-attraction-os` · status at the end of the overnight run, updated after the "keep working" session (v0.2.0)*
+*Written for Riya and Mike · 2026-10-09 · repo `claude-agent-attraction-os` · status at the end of the overnight run, updated after the "keep working" session (v0.2.0) and the second quality round (v0.2.1)*
 
 > Sections 1–3 are the status (what is built, verified, and left). Sections 4–8 are the strategic advice you asked for:
 > what to add, remove, optimize, fix, and what nobody is thinking about yet.
@@ -8,7 +8,7 @@
 
 ## 1. What is built
 
-Repo `claude-agent-attraction-os`, tag `v0.2.0`, release gate green, upload zips in `dist/` and `design-studio/_dist/`. The realtor repo was read only; nothing in it changed.
+Repo `claude-agent-attraction-os`, tag `v0.2.1`, release gate green, upload zips in `dist/` and `design-studio/_dist/`. The realtor repo was read only; nothing in it changed.
 
 | # | Plugin | Skills | Shared files | Built from | State |
 |---|---|---|---|---|---|
@@ -21,7 +21,7 @@ Repo `claude-agent-attraction-os`, tag `v0.2.0`, release gate green, upload zips
 | 7 | `attraction-ai-admin` | 8 | 8 | realtor Admin, cut to the organization side | built · reviewed · fixed |
 | 8 | `attraction-lead-magnet` | 11 | 7 (copywriting KB for an agent audience) | realtor lead capture fork | built · reviewed · fixed |
 | 9 | `attraction-events-workshops` | 10 | 9 (events doctrine from lessons 73–77, the GHL workflow table) | new, from Mike's workshop-ops system | built · reviewed · fixed |
-| – | Design Studio (Claude Design skill set) | all 15 + the design system | realtor design suite v2 | built · reviewed · build green |
+| – | Design Studio (Claude Design skill set) | 14 `aa-…-design` skills + the design system (thumbnail skill removed; parked for a later session) | realtor design suite v2 | built · reviewed · build green |
 
 Totals: 143 Cowork skills across 9 plugins (115 new or rewritten, 28 vendored) plus 15 Claude Design skills, 103 lesson transcripts split into 16 modules and cited by `module/lesson` in every doctrine file, 103 knowledge-base cards, 11 scheduled agents with named owners, one OS-wide contract (`docs/BRAIN-CONTRACT.md`), the Setup Guide copy and Playbook 1 copy in `docs/`, about 90 commits.
 
@@ -33,6 +33,14 @@ Totals: 143 Cowork skills across 9 plugins (115 new or rewritten, 28 vendored) p
 - **Release gate** (`scripts/check-release.sh`, 13 checks): versions match the registry, everything committed, hand-offs exist, plugin-root references resolve, six shared files byte-identical across plugins, descriptions ≤1024 and folded, no realtor paths or retired engines leak, no trigger collisions, every plugin carries a Brain contract and consent-gates its scheduled tasks, Composio kept in both content engines, no routes to removed systems, the Design Studio builds. Green at `v0.1.0`.
 - **The Brain Book render test** (`docs/plans/BOOK-RENDER-TEST.md`, renders in `docs/demo/`): a complete demo Brain (Taylor Brooks) rendered through the real renderer. Full Book ≈43–57 pages (16,005 words, 18 chapters, 26 tables); the Week 1 first-run state ≈34–38 pages (9,383 words); the 90-Day Scorecard 2–3 pages. The 2–3-page failure of the last cohort is not the renderer. The test found three spec gaps (a truncated single-block emission renders silently as a short Book; gate check 7 failed on the goals rev-share rows; three Week 1 chapters thin) and they are applied in the spec and setup.
 - **Not verified, said plainly:** no live Cowork run on a real member yet; page counts are estimates (no LibreOffice on this Mac); whether Claude Design consumes the uploaded design-system file directly; the Riverside vendored copy against a member who has only the attraction Brain (the rule is written, not exercised).
+
+## 2b. The second quality round (v0.2.1)
+
+- **Short-Form, strategic review:** doctrine traces to lessons 35–40 and 86–90; plan inventions (the 2·2·1 mix, the 15-minute routine) now labelled as OS defaults; one front door for "what should I film this week" (research → the week's five → five scripts in one session); the CTA bank, a cited research-findings section, real document skeletons with floors; hand-off to Conversion at the agent's first reply once that plugin exists.
+- **YouTube, strategic review:** every claim traces to lessons 91–99; two real defects closed (five skills read the Reels cadence as the YouTube cadence; the repurpose hand-off dead-ended); the Week 4 starter resource ("questions to ask before you choose a sponsor") so the early CTA points at a real asset until the Week 6 magnet; the Game Plan before the channel-page pasting; a thumbnail fallback; a research progress line and a Sources footer on the Game Plan.
+- **Cross-plugin after the renames:** 3,460 hand-off references resolve to 157 skills; the Brain template holds every file the plugins read (two realtor-only reads inside the vendored Studio excepted); eleven scheduled agents reconciled in every doc; the Support stack map current; gate check 14 keeps it that way.
+- **Research ratings:** Short-Form ideas and green-screen REAL; YouTube research REAL, ideation REAL on sourcing, outliers and game plan PARTIAL (budgets real; dating of each line is the remaining gap).
+- **New decisions for Mike:** compensation figures in "Explained" videos (plugin bans them; lesson 96 says them); the DM ladder's pace vs "get them on a private call quickly"; the 2·2·1 mix; outside "guest expert" interviews.
 
 ## 3. What is left
 
