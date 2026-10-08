@@ -18,7 +18,7 @@
 
 ---
 
-### The six Setup seeds (Stop 6 — one line each, then fleshed out on "build my story bank")
+### The six Setup seeds (Stop 6 — one line each, then developed into a 60–120-word block in the same stop (scene · what it means · use it); seeds captured later are developed on 'build my attraction story bank')
 1. **The moment they almost quit:** [ ]
 2. **The first deal and what it taught them:** [ ]
 3. **A mistake that cost them something:** [ ]
