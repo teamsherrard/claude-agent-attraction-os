@@ -1,4 +1,4 @@
-# The Export Page — how files leave Claude Design (shared by every Design Studio skill that exports pictures (identical copy in each skill))
+# The Export Page — how files leave Claude Design — shared by every Design Studio skill that exports pictures; identical copy in each skill
 
 Read in full when you are about to build the final files.
 
