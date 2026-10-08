@@ -19,7 +19,7 @@ Mike (2026-10-08): not a plugin, parked.
 | 3 | **Short-Form** (W3) | `sf-` | 13 | **BUILT** | "set up my attraction short-form" |
 | 4 | **AI Editor — Riverside** (W3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **vendored** | "set up my video editor" / "edit my reel" |
 | 5 | **YouTube** (W4) | `yt-` | 19 | **BUILT** | "set up my YouTube for agents" |
-| 6 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | **BUILT** | "who should I message" / "call with [name] tomorrow" / "set up my partner call system" |
+| 6 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | **BUILT** | "who should I message" / "call with [name] tomorrow" / "set up my partner call calendar" |
 | 7 | **AI Admin** (W5) | `admin-` | 8 | **BUILT** | "set up my attraction admin" |
 | 8 | **Lead Magnet** (W6) | `lm-` | 11 | **BUILT** | "set up my lead magnet for agents" |
 | 9 | **Events & Workshops** (W6) | `ev-` | 10 | **BUILT** | "plan my workshop" / "build my event page" |
