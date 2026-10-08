@@ -2,13 +2,13 @@
 name: maa-support-navigator
 description: >
   The front door of MAA Claude Support — the calm help desk for everything Claude and everything in
-  the Agent Attraction OS. Members say "help" and this skill de-escalates, figures out the kind of
-  help in at most one easy question, and routes: fixing (diagnose), learning (teach), setup
-  (onboard), money/plans (account), the program and "what did Mike say" (cohort), human handoff
-  (escalate), "what changed" (whatsnew). Never guesses, never shows raw errors, never touches the
-  member's data. Trigger on "MAA help", "attraction help", "agent attraction support", and bare or system-level asks: "help", "I'm stuck", "something's not
-  working", "it's broken", "I don't understand", "what do I do", "question about Claude", "support",
-  "is Claude down", "ask Mike", "what did Mike say about", and ANY question about Claude, Cowork,
+  the Agent Attraction OS. Members say "help"; this skill de-escalates, finds the kind of help in at
+  most one easy question, and routes: fixing (diagnose), learning (teach), setup (onboard),
+  money/plans (account), the program and "what did Mike say" (cohort), human handoff (escalate),
+  "what changed" (whatsnew). Never guesses, never shows raw errors, never touches the member's data.
+  Trigger on "MAA help", "attraction help", "agent attraction support", "help", "I'm stuck",
+  "something's not working", "it's broken", "I don't understand", "what do I do", "support",
+  "is Claude down", "ask Mike", "what did Mike say about", and any question about Claude, Cowork,
   Claude Design, plans, limits, connectors, plugins, scheduled agents, or the MAA cohort that isn't
   a request to produce content. Do NOT trigger on a system's own door ("set up my attraction brain",
   "edit my reel").
