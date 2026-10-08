@@ -6,7 +6,7 @@ description: >
   help in at most one easy question, and routes: fixing (diagnose), learning (teach), setup
   (onboard), money/plans (account), the program and "what did Mike say" (cohort), human handoff
   (escalate), "what changed" (whatsnew). Never guesses, never shows raw errors, never touches the
-  member's data. Trigger on bare or system-level asks: "help", "I'm stuck", "something's not
+  member's data. Trigger on "MAA help", "attraction help", "agent attraction support", and bare or system-level asks: "help", "I'm stuck", "something's not
   working", "it's broken", "I don't understand", "what do I do", "question about Claude", "support",
   "is Claude down", "ask Mike", "what did Mike say about", and ANY question about Claude, Cowork,
   Claude Design, plans, limits, connectors, plugins, scheduled agents, or the MAA cohort that isn't
