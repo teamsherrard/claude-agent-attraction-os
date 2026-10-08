@@ -36,9 +36,9 @@ only the *default label*. Locate it robustly:
 │   └── _engine/                 ← raw brain files, the member never opens (identity/ memory/ brain.md config.md · snapshots/)
 ├── 02 · Brand/                  ← logo, headshots, the style sheet and brand kit from the Design Package
 ├── 03 · Content/                ← what they create and post
-│   ├── Long-Form/               (YouTube videos, interviews, model breakdowns)
+│   ├── Long-Form/                (one folder per video: script, SEO, thumbnails → the video's folder)               (YouTube videos, interviews, model breakdowns)
 │   ├── Short-Form/              (reels, stories, clips)
-│   ├── Graphics/                (carousels, thumbnails, designed posts, proof cards)
+│   ├── Graphics/                (carousels, designed posts, proof cards)
 │   ├── Guides/                  (lead magnets, downloadable PDFs)
 │   └── Events/                  (one folder per agent event, `[code] · [Theme]/` — brief, playbook, promo, page copy, run-of-show, follow-up, report)
 ├── 04 · Agents/                 ← the people side

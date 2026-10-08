@@ -10,7 +10,7 @@ description: >
   no stopping to ask. Files land in 02 · Brand (Drive or OneDrive connector, else an export list) so
   the Brain sees the kit. Reads the Design Package brief and the Brain Book first; asks only what is
   new, in plain language. Trigger on: "make my brand kit", "my attraction brand kit", "agent
-  attraction brand kit", "my profile and banner graphics", "my highlight covers", "add my compliance line".
+  attraction brand kit", "my profile and banner graphics", "my highlight covers".
 ---
 
 # Attraction Brand Kit (ds-brand) — the brand, applied

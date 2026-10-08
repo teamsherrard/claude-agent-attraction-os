@@ -191,7 +191,7 @@ comment keyword.
 *"Sorted: [n] things free from day one, [n] discounted and said up front, and your [product name] is
 mapped — the Design Package can mock it up now and the Value Vault builds it in Week 6. Paste the brief
 into Claude Design when you're ready for the offer graphic. Want the 60-second story to go with it? Say
-'build my why join me story'."* One suggestion at most; no file names.
+'why join me'."* One suggestion at most; no file names.
 
 ---
 
