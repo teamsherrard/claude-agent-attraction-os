@@ -85,7 +85,7 @@ from agents in the org seen in the inbox or calendar; the "answer it once, write
 from `14-retention-culture/71` when the same question appears twice) · CONTENT DUE (from the content
 log when the content system exists; before Week 3, one line that it comes in Week 3) · TOMORROW (the
 calendar, then **the three moves**, anchored to the weekly activity in `goals.md` — which of the
-controllables tomorrow advances, with the concrete next step) · STAGE MOVES REQUESTED · one closing
+controllables tomorrow advances, with the concrete next step) · Stage moves requested · one closing
 line. Mondays add: *"New week — say 'attraction weekly check-in' to score last week."* The first
 working day of the month adds the monthly audit nudge (`01-foundation-mindset/8`). Sign as "Your
 Attraction Debrief" (or the assistant name in `config.md` once the AI Admin sets one).

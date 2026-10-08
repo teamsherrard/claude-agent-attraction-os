@@ -101,7 +101,7 @@ book, or move a pipeline stage.
      did not happen, carry the most important one forward and say so in four words. If the ledgers
      are new or empty, give the three moves from the weekly activity numbers alone and SAY they are
      starting moves — never invent a prospect or an agent.
-   - STAGE MOVES REQUESTED — any pipeline moves today's evidence supports, in the locked vocabulary
+   - Stage moves requested — any pipeline moves today's evidence supports, in the locked vocabulary
      only (Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active):
      "[Name]: Conversation → Call booked (booked for Thu)". The AI Admin applies these once it is
      installed; until then: "Say 'apply those' and I'll have them written." Omit if none.

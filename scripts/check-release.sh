@@ -237,6 +237,27 @@ else
   say "  · no design-studio build script; skipped"
 fi
 
+
+say ""
+say "── 14. the Support stack-map's plugin table matches the installed plugins (skill counts)"
+python3 - <<'PY2' || FAIL=1
+import re,os,glob,sys
+sm=open("plugins/maa-claude-support/shared/stack-map.md",encoding="utf-8").read()
+names={"Agent Attraction Brain":"attraction-ai-brain","MAA Claude Support":"maa-claude-support","Short-Form":"attraction-shortform-system","AI Editor":"realtor-riverside-editor","YouTube":"attraction-youtube-system","Conversion & Sales":"attraction-conversion-sales","AI Admin":"attraction-ai-admin","Lead Magnet":"attraction-lead-magnet","Events & Workshops":"attraction-events-workshops"}
+bad=False
+for label,plug in names.items():
+    if not os.path.isdir(f"plugins/{plug}"): continue
+    n=len(glob.glob(f"plugins/{plug}/skills/*/"))
+    row=[l for l in sm.split("\n") if l.startswith("|") and f"**{label}" in l]
+    if not row: print(f"  ✗ stack-map has no plugin-table row for {label}"); bad=True; continue
+    cells=[c.strip() for c in row[0].split("|")]
+    if str(n) not in cells: print(f"  ✗ stack-map row for {label} does not carry the real skill count {n}: {row[0][:90]}"); bad=True
+ds=len(glob.glob("design-studio/skills/*/"))
+if ds and f"| {ds} |" not in "\n".join(l for l in sm.split("\n") if "Design Studio" in l): print(f"  ✗ stack-map Design Studio row does not carry the real skill count {ds}"); bad=True
+if not bad: print("  ✓ stack-map plugin table matches the installed skill counts")
+sys.exit(1 if bad else 0)
+PY2
+
 say ""
 say "── 6. top changelog entry names files that are actually committed/staged"
 python3 - <<'PY' || FAIL=1
