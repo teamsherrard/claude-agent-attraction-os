@@ -4,14 +4,14 @@ description: >
   Agent Attraction Brain — Free vs. Paid (Week 2). Decides what the member gives away to agents who
   partner with them and what they charge for, by Mike's rule: anything pre-recorded or evergreen
   that doesn't take their time is free to their agents; anything that needs their time or a team is
-  discounted; and any cost is said up front. Builds the value stack (every item across the
-  brokerage, upline, and member layers: free or discounted, the outcome, whether it exists today)
-  and maps the digital product the member will GIVE agents who join, the Week 2 promise the Week 6
-  Value Vault builds. Writes the value stack and digital product sections into the Brain's offer
-  file and hands a brief to the Design Package's offer-stack and product-mockup skills. Never
-  compensation or inflated value figures. Trigger on: "free vs paid", "what should I give away",
-  "what should I charge for", "build my value stack", "map my digital product", "my digital product is built", "what do I give
-  agents who join", "value stack brief".
+  discounted; any cost is said up front. Builds the value stack (every item across the brokerage,
+  upline, and member layers: free or discounted, the outcome, whether it exists today) and maps the
+  digital product the member will GIVE agents who join, the Week 2 promise the Week 6 Value Vault
+  builds. Writes both sections into the Brain's offer file and hands a brief to the Design Package's
+  offer-stack and product-mockup skills. Never compensation or inflated value figures. Trigger on:
+  "free vs paid", "what should I give away", "what should I charge for", "build my value stack",
+  "map my digital product", "my digital product is built", "what do I give agents who join",
+  "value stack brief".
 ---
 
 # Agent Attraction Brain — Free vs. Paid
