@@ -246,7 +246,7 @@ m=re.search(r'^## \[([^\]]+)\].*?(?=^## \[|\Z)',cl,re.M|re.S)
 if not m: print("  ✗ could not parse the top changelog entry"); sys.exit(1)
 ver,body=m.group(1),m.group(0)
 names=set(re.findall(r'`([a-z0-9][a-z0-9-]*(?:\.md|\.py|\.sh)?)`',body))
-tracked=set(subprocess.run(["git","ls-files","plugins/"],capture_output=True,text=True).stdout.split())
+tracked=set(subprocess.run(["git","ls-files","plugins/","design-studio/","scripts/","docs/"],capture_output=True,text=True).stdout.split())
 staged=set(subprocess.run(["git","diff","--cached","--name-only"],capture_output=True,text=True).stdout.split())
 known={os.path.basename(p) for p in tracked|staged}
 known|={os.path.basename(os.path.dirname(p)) for p in tracked|staged}
