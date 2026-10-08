@@ -1,6 +1,6 @@
 # Brain Doc Formatting — render deliverables as clean, formatted .docx
 
-How this plugin's skills save documents (call prep sheets, intel reports, the enrollment script, the opportunity one-pager, the 3-way pack, the Sales OPS kit) so
+How the Brain's skills save documents (the Partner Offer, the Scorecard, the Why Join Me doc, the Model Positioning Sheet) so
 they're organized in Drive and genuinely look good. When a skill says "save as a clean doc (doc-formatting
 standard)," it means this. **Every deliverable is rendered to a formatted `.docx` in one neutral house style —
 the same clean look for every member (no colour, no per-member branding).**
@@ -30,7 +30,7 @@ and looks like a hang. A plain-text wall pasted into chat is still not an accept
 **Build + verify (EVERY document):** build ONLY via `render_doc.py` — never hand-write document XML, never
 reach for another document tool when the renderer is unavailable (the `.md` fallback above is the path). Before uploading, read the finished `.docx` text back and check:
 (a) no raw `<w:` markup in the content — if you see any, the build is corrupt: rebuild; (b) **depth matches
-the deliverable — member-facing scripts and the master AI Brain doc are FULL, multi-page documents that
+the deliverable — member-facing guides and the master AI Brain doc are FULL, multi-page documents that
 render the COMPLETE source content, never summaries.** Rich brain + thin render (a full brain under
 ~2,000 words) = a FAILED render — rebuild with the full content before uploading. Agents pay a premium
 for this system; the documents must feel like it.
@@ -41,17 +41,17 @@ for this system; the documents must feel like it.
 
 ## Naming
 `[Deliverable] · [Subject] · [Date]` — Title Case, ISO dates. Examples:
-- `Call Prep · Sarah M. · 2026-12-09`
-- `Agent Intel · Sam R. · 2026-12-08`
-- `Enrollment Conversation Script · [Member Name] · 2026-12-10`
+- `Partner Offer · [Member] · 2026-11-14`
+- `Top-50 · [Member] · 2026-11-14`
+- `Why Join Me · [Member] · 2026-11-14`
 
 ## The look the renderer produces (one neutral standard for every member)
 - **Arial** everywhere (never a serif). **Pure black** titles / headings / body; **dark grey** only for the
   small byline / footnotes.
 - Section headings: bold black + a thin light-grey underline. **Real** bullet lists. **Real** tables
   (near-black header row, white text, light alternating rows). **No colour, no member branding.**
-- These are clean working documents. For a *visually designed* prospect-facing piece (e.g. the opportunity one-pager),
-  produce the clean copy here and the member takes it to the Design Studio (`ds-offer-assets`) — branding lives there.
+- These are clean working documents. For a *visually designed* member-facing piece (e.g. a lead-magnet PDF),
+  produce the clean copy here and the agent drops it into their design tool — branding lives there.
 
 ## The structured text the renderer reads (write the doc in this grammar)
 - **Title line** at the top; a light **meta line** under it (agent · city · date); then a blank line.

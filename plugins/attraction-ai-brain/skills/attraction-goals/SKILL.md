@@ -191,7 +191,7 @@ Score vocabulary, locked: **Ahead** (≥ 150% of the slice), **On pace**, **Behi
 a percentage the member has to interpret. If `scorecard.md` already exists, replace ONLY the Targets
 block and leave every row untouched. **The weekly row's columns are the AI Admin's seven KPIs in its
 order** (new prospects · conversations · meaningful conversations · calls booked · calls held · 3-ways ·
-joins), then content shipped · score · note — the same header in the Brain template and `admin-scorecard`;
+joins), then content shipped · score · note — the same header in the Brain template and `admin-recruiting-scorecard`;
 never a new column. The daily rows keep their shorter shape (the Debrief's).
 
 ## Render the 90-Day Attraction Scorecard (the deliverable they hold)
@@ -234,7 +234,7 @@ Only if the AI Admin is installed add: *"— and your morning brief carries your
    `list-growth.md` has a row for the week. Compare to the 30-60-90 pace.
    **Who appends it:** read `config.md` first. If it holds a block whose heading starts with `## AI Admin`
    (first line `AI Admin: set up [date]`), the Admin owns the weekly rows from that moment — whether or not
-   its CEO Review task is on — so this skill does NOT append: it hands the counted row to `admin-scorecard`
+   its CEO Review task is on — so this skill does NOT append: it hands the counted row to `admin-recruiting-scorecard`
    as a `WEEKLY ROW:` line (*"say 'my attraction scorecard' and it goes on"*) and reads the week from
    whatever row the Admin already wrote. No Admin block → this skill appends. **Never a duplicate:** before
    appending, check the `## Weekly rows` header is the locked eleven-column one and that no row already

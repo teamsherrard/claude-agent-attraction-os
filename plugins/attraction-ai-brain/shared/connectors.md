@@ -1,6 +1,6 @@
 # Connectors — the provider layer (Google OR Microsoft)
 
-The agent's world is either **Google** (Drive · Gmail · Google Calendar) or **Microsoft** (OneDrive ·
+The member's world is either **Google** (Drive · Gmail · Google Calendar) or **Microsoft** (OneDrive ·
 Outlook Mail · Outlook Calendar, all via the **Microsoft 365 connector**). Skills never hardcode one:
 they say "the **storage** / **email** / **calendar** connector," and this file maps those to the real
 connector based on the **`Storage provider`** field in `config.md` (set once at setup; default `google`).

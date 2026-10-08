@@ -75,7 +75,7 @@ read and it is good news.
 - **`memory/scorecard.md`** — the Brain's one scorecard, and **this plugin never writes it**
   (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`). It feeds it in the locked weekly-row shape — the header
   `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |`,
-  identical in the Brain template, `attraction-goals`, and `admin-scorecard` — by handing the row to its
+  identical in the Brain template, `attraction-goals`, and `admin-recruiting-scorecard` — by handing the row to its
   owner, every column in that order. End the output with
   *"WEEKLY ROW: [week of — the Monday] · new prospects [rows added to the Top-50 or to the Board at Identified
   this week] · conversations [conversations.md rows this week] · meaningful conversations [rows with a pain
@@ -83,7 +83,7 @@ read and it is good news.
   [— ; the appender counts it from the content-log] · score [Ahead | On pace | Behind against the Targets
   block's weekly calls] · note: show [x]% · held→join [y]% · funnel [n — only when `memory/list-growth.md`
   carries `Calls booked from the funnel`] · constraint [..]"*. **AI Admin installed** (its block in
-  `config.md`) → `admin-scorecard` appends it on its next run, reconciling booked / held / 3-ways / joins
+  `config.md`) → `admin-recruiting-scorecard` appends it on its next run, reconciling booked / held / 3-ways / joins
   against the same Stage-moves log and keeping show, held→join, funnel, and the constraint in Note; say so.
   **Not installed** → the Brain's weekly check-in appends it: *"say 'attraction weekly check-in' and this row
   goes on your scorecard."* Never the Targets block, never an existing row, never a new column.

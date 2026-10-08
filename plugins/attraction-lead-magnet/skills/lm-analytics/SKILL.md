@@ -82,7 +82,7 @@ plugin for the Reel CTA) — say it in plain words, never the skill name.
 2. `memory/magnets.md` → the live magnet's running totals (Opt-ins, Calls booked) and Last reviewed. Only its
    own columns.
 3. **The scorecard hand-off:** this skill never appends to `memory/scorecard.md` — the weekly row there is
-   owned by the Brain's weekly check-in (`attraction-goals`' weekly mode, then the AI Admin's `admin-scorecard`).
+   owned by the Brain's weekly check-in (`attraction-goals`' weekly mode, then the AI Admin's `admin-recruiting-scorecard`).
    "Calls booked from the funnel" sits in `list-growth.md`'s row for the check-in to read and fold into its
    Calls booked column, in the scorecard's locked shape. Say so in one line only if the member asks why the
    scorecard didn't change.

@@ -79,7 +79,7 @@ it exists) — what only the VA can gather, due Friday noon: back-office numbers
 states them (organization count, new joins' details, cappings, awards) · attendance on the standing call ·
 the CRM's counts (new contacts, tags changed) · posts published with links and the content tool's numbers
 · anything the member asked to track. "Paste it to [Member] in one message — the Admin counts the rest from
-the Brain." Everything else on the scorecard is counted by `admin-scorecard` from the ledgers.
+the Brain." Everything else on the scorecard is counted by `admin-recruiting-scorecard` from the ledgers.
 **SETTER (when one exists)** (opens the Setter Playbook in `05 · Offer`) — the daily routine from the Setter
 Playbook (`sales-setter`): inboxes to work
 · the three qualifying questions · the calendar link · the hand-off note shape (name · where they found the
@@ -106,7 +106,7 @@ Say 'tasks for my VA' each Monday."*
 ## Hand-offs by name
 `sales-setter` (the scripts and rules) · `sales-system-setup` (the CRM's tags and stages) ·
 `admin-pipeline` (the rows a data-entry pack lists; "update my CRM" when a mirror is connected) ·
-`admin-scorecard` (the Friday numbers land there) · the Short-Form and YouTube plugins (what to post comes
+`admin-recruiting-scorecard` (the Friday numbers land there) · the Short-Form and YouTube plugins (what to post comes
 from their content-log rows).
 
 ## Demo mode

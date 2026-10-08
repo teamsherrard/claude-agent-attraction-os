@@ -116,7 +116,7 @@ why). **"Replied"** → the reply is a conversation: `cv-debrief` or `attraction
 says replied.
 
 ## The scheduled agent — Daily Follow-Up Queue (this skill owns it; explicit yes, never silent)
-1. **Consent, one plain line, before creating anything** — asked ONCE: when `admin-setup`'s consent card
+1. **Consent, one plain line, before creating anything** — asked ONCE: when `admin-attraction-setup`'s consent card
    already carried the member's yes to the queue, skip this question and go to step 2. Otherwise: *"Want the
    queue every morning at 7:30? It reads your notes, your pipeline, and your brokerage news, drafts every touch
    due with its reason, and confirms tomorrow's calls. Nothing is sent — every draft waits for you. Yes, a

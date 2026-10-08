@@ -96,7 +96,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "My YouTube game plan" · "video ideas" · "research this topic" · "write my script" · "my interview plan" · "a model breakdown" · "SEO for this" · "repurpose this" · "YouTube leads/comments" · "a thumbnail" | `yt-gameplan` · `yt-ideation` · `yt-research` · `yt-script` · `yt-interview` · `yt-model-breakdown` · `yt-seo` · `yt-repurpose` · `yt-leads` · `yt-thumbnail` (Claude Design brief) | 6 |
 | "Build an intel report on [agent]" · "a conversation starter for [agent]" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow up with [agent]" · "reactivate cold leads" | `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 8 |
 | "Set up my sales system / booking page / show-up sequence" | `sales-system-setup` · `sales-booking-page` · `sales-show-up` | 8 |
-| "My pipeline / move [agent] to [stage]" · "my follow-up queue" · "my daily brief" · "my scorecard / CEO review" · "monthly KPI review" · "team wins newsletter" | `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-scorecard` · `admin-monthly-review` · `admin-newsletter` | 9 |
+| "My pipeline / move [agent] to [stage]" · "my follow-up queue" · "my daily brief" · "my scorecard / CEO review" · "monthly KPI review" · "team wins newsletter" | `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-recruiting-scorecard` · `admin-monthly-review` · `admin-newsletter` | 9 |
 | "Build my lead magnet / opt-in / the Honest Brokerage Comparison Guide / nurture sequence" | the `lm-*` skills (magnet ideas → design → delivery → nurture → partnerships → analytics) | 8 |
 | "Plan my virtual workshop / live event / evergreen webinar / event follow-up" | the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 9 |
 | "My workbook / playbook worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the Brain's interviews ARE the worksheet | 1 |
@@ -140,7 +140,7 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
-| Weekly Recruiting CEO Review | weekly | `admin-scorecard` (CEO mode) | 6 |
+| Weekly Recruiting CEO Review | weekly | `admin-recruiting-scorecard` (CEO mode) | 6 |
 | Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |

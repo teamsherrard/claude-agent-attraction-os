@@ -43,7 +43,7 @@ Activity — no data yet; the constraint is the two daily conversations becoming
 | Rhythm | When | Runs it now | Extends it later |
 |---|---|---|---|
 | Daily debrief | 6:00 pm (off on this demo brain) | `attraction-debrief` (the Daily Agent Attraction Debrief) | AI Admin's `admin-daily` (Week 5) |
-| Weekly CEO review | Friday 4:00 pm | `attraction-goals` weekly check-in | AI Admin's `admin-scorecard` CEO mode (Week 6) |
+| Weekly CEO review | Friday 4:00 pm | `attraction-goals` weekly check-in | AI Admin's `admin-recruiting-scorecard` CEO mode (Week 6) |
 | Monthly KPI review | first Monday, 8:00 am | `attraction-goals` monthly audit | AI Admin's monthly review (Week 6) |
 | Quarterly audit + refresh | end of quarter | `attraction-goals` quarterly refresh + this skill's refresh | rolled up by the AI Admin |
 Accountability: Jordan (upline) — a monthly check-in; Priya as the peer check on the Sunday streak

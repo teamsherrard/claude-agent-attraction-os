@@ -61,7 +61,7 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 | `memory/content-log.md` | content due this week and shipped (the content plugins write it) |
 | `memory/capture-log.md` · `intel.md` · `objections.md` · `ideas.md` | Open captures to surface; brokerage news that is a follow-up trigger; what a prospect objected to; nothing is written here |
 | `memory/intel-reports/` | a prospect's intel report when telling their history, and the Conversion plugin's follow-up plans — `YYYY-MM-DD-[agent]-follow-up.md`, one dated-touches plan per prospect, newest is current — the queue draws from them |
-| `memory/list-growth.md` (Week 6, `lm-analytics`) | its weekly row's `Calls booked from the funnel` — the funnel's share of the week's calls booked, read by `admin-scorecard` and named as the source; never written here |
+| `memory/list-growth.md` (Week 6, `lm-analytics`) | its weekly row's `Calls booked from the funnel` — the funnel's share of the week's calls booked, read by `admin-recruiting-scorecard` and named as the source; never written here |
 | the workspace: `04 · Agents/Prospects` · `05 · Offer` · `03 · Content` | call prep sheets, the member's show-up sequence (`sales-show-up`), setter scripts (`sales-setter`), the Partner Offer, content to post — read by relevance, scoped to the workspace, by ID never by name |
 
 ## What this plugin writes (one owner per file)
@@ -69,10 +69,10 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 |---|---|---|
 | `memory/pipeline.md` | **`admin-pipeline`** — the source of stage OS-wide | the Board row (one per agent, newest move on top), a Stage-moves-log row for every move (`Logged by: admin-pipeline` · or `admin-pipeline ← cv-debrief 2026-12-09` when applying a request), the Counts line refreshed on every write. Locked vocabulary; never a new stage; `attraction-top-50` mirrors stage from here on its runs |
 | `memory/follow-up-queue.md` | **`admin-follow-up-queue`** | the Queue and Confirmations tables are rebuilt each run; the Log is append-only. New to the Brain: created from the shape below on first run (`memory/**/*.md` is inside the sync allowlist) |
-| `memory/scorecard.md` → **Weekly rows only** | **`admin-scorecard`** (weekly mode, CEO mode, the Weekly Recruiting CEO Review task) | the locked header, byte-identical in the Brain template and `attraction-goals`: `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |` — always read the file's `## Weekly rows` header and write exactly its columns, in that order. `Calls booked from the funnel` (`list-growth.md`, Week 6) is folded into Note as `funnel n`, beside show % and held→join % (from `sales-funnel.md` when it exists) — never a column. `sales-scorecard`'s `WEEKLY ROW:` line arrives in the same eleven columns and is reconciled, never appended twice. Never the Targets block (`attraction-goals`), never the daily rows (`attraction-debrief`); rows are never edited, never a column added or renamed here |
+| `memory/scorecard.md` → **Weekly rows only** | **`admin-recruiting-scorecard`** (weekly mode, CEO mode, the Weekly Recruiting CEO Review task) | the locked header, byte-identical in the Brain template and `attraction-goals`: `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |` — always read the file's `## Weekly rows` header and write exactly its columns, in that order. `Calls booked from the funnel` (`list-growth.md`, Week 6) is folded into Note as `funnel n`, beside show % and held→join % (from `sales-funnel.md` when it exists) — never a column. `sales-scorecard`'s `WEEKLY ROW:` line arrives in the same eleven columns and is reconciled, never appended twice. Never the Targets block (`attraction-goals`), never the daily rows (`attraction-debrief`); rows are never edited, never a column added or renamed here |
 | `memory/deadlines.md` | **`admin-*`** (the Brain's capture skill until the Admin was installed, same shape) | `admin-pipeline` writes call, 3-way, and onboarding-step rows; `admin-follow-up-queue` writes follow-up rows; any admin skill marks a row Done. Append-only: Done rows stay (the Admin reads open rows); nothing is moved to `exports/` — it is outside the sync allowlist and never a source |
 | `memory/organization.md` — **maintained by the Admin from Week 5** (`docs/BRAIN-CONTRACT.md`: Team & Retention was removed; `attraction-capture` still appends a join on the go) | `admin-pipeline` (the join row on a move to Joined, Status `active`; the Status cell afterwards only in the template's vocabulary — `active · quiet · at risk · left` — from the member's word; the pipeline stage Joined → Onboarded → Active lives on the Board, never in this cell) · `admin-newsletter` (the `Recognition given` cell and a dated `Team Wins:` line under Retention notes, so no win is celebrated twice or forgotten) · `admin-monthly-review` (a dated Retention-notes line when the review names an agent quiet or at risk) | the row shape is the template's; the roster count line is refreshed on every change; rows are never deleted; production numbers are only what the member or the back office states |
-| `config.md` → the `## AI Admin (Week 5)` block | `admin-setup` creates it; each scheduled-agent owner writes its own task line | the keys below; nothing else in `config.md`, ever; the Brain never edits this block |
+| `config.md` → the `## AI Admin (Week 5)` block | `admin-attraction-setup` creates it; each scheduled-agent owner writes its own task line | the keys below; nothing else in `config.md`, ever; the Brain never edits this block |
 | the email connector's **Drafts** | every drafting skill | drafts only — the member sends |
 | the member's **CRM** (GoHighLevel · Follow Up Boss · Google Sheets) | `admin-pipeline` mirrors a stage move when a connector (the member's own, or Composio) is present | the Brain's pipeline is the truth for stage; the CRM is the system of record for contacts; never a drip campaign, never an automation that messages anyone |
 
@@ -155,7 +155,7 @@ Updated: [YYYY-MM-DD HH:MM] · Due today: [n] · Overdue: [n] · Due this week: 
 ```
 
 ## `config.md` — the AI Admin block (locked spelling)
-Written once by `admin-setup` under "Later plugins register here". **Detection:** the Conversion plugin and
+Written once by `admin-attraction-setup` under "Later plugins register here". **Detection:** the Conversion plugin and
 the capture skill know the Admin is installed when `config.md` holds a block whose heading starts with
 `## AI Admin` and whose first line is the key `AI Admin: set up [date]` (the registry's bold styling is
 cosmetic). From that moment they stop writing the pipeline and the Top-50 touch cells and request instead.
@@ -196,12 +196,12 @@ key, written by `attraction-operations`; this block only records whether a mirro
 ## Scheduled agents this plugin owns
 Morning Brief (`admin-daily`; daily at Morning Brief time; EXTENDS the Daily Agent Attraction Debrief, never a
 second debrief) · Daily Follow-Up Queue (`admin-follow-up-queue`; daily) · Weekly Recruiting CEO Review
-(`admin-scorecard` CEO mode; weekly) · Monthly KPI Review (`admin-monthly-review`; monthly) · Team Wins
+(`admin-recruiting-scorecard` CEO mode; weekly) · Monthly KPI Review (`admin-monthly-review`; monthly) · Team Wins
 Newsletter (`admin-newsletter`; Thursday). Every one: explicit yes, draft-only, adopt an existing task rather
 than create a twin, verify after creating, task id in the AI Admin block, never claim a schedule that did not
 save; "not yet" → `declined`, never re-offered, still runs on demand. The Morning Brief is the OS's eleventh
 scheduled agent (owner `admin-daily`; the SEAM-LOG adds it to the master plan's table and `docs/BRAIN-CONTRACT.md`):
-the Debrief's morning extension, provisioned by `admin-setup` only after the member has seen what the Debrief
+the Debrief's morning extension, provisioned by `admin-attraction-setup` only after the member has seen what the Debrief
 already does.
 
 ## Hand-offs by skill name
@@ -209,10 +209,10 @@ already does.
   `cv-follow-up` · `cv-reactivation` · `cv-three-way` (`Stage after`, the follow-up plan in `Next step`) ·
   `sales-show-up` (a no-show's recovery touch as a `NEXT MOVE REQUESTED` line — never a stage move) ·
   `sales-scorecard` (its `WEEKLY ROW:` line in the locked eleven columns → reconciled and appended by
-  `admin-scorecard`; show, held→join, funnel, and the constraint ride in Note; the CEO Review's call line) · `attraction-capture` ("move them to call booked"; a join; a win) · `ev-followup` (event stages) ·
-  `attraction-goals` (its weekly check-in and monthly audit hand to `admin-scorecard` and
+  `admin-recruiting-scorecard`; show, held→join, funnel, and the constraint ride in Note; the CEO Review's call line) · `attraction-capture` ("move them to call booked"; a join; a win) · `ev-followup` (event stages) ·
+  `attraction-goals` (its weekly check-in and monthly audit hand to `admin-recruiting-scorecard` and
   `admin-monthly-review` once the Admin is installed) · `attraction-execution-framework` (the review slots) ·
-  `lm-analytics` (Week 6: `list-growth.md`'s `Calls booked from the funnel`, read by `admin-scorecard`).
+  `lm-analytics` (Week 6: `list-growth.md`'s `Calls booked from the funnel`, read by `admin-recruiting-scorecard`).
 - **Out:** `cv-call-prep` (prep for every call on today's calendar) · `cv-debrief` (a prospect's reply is a
   conversation to log) · `cv-conversation-starter` / `cv-objection-coach` / `attraction-brokerage-model` (when
   the bottleneck is the ask or the close) · `sales-show-up` (the confirmation sequence the queue applies) ·

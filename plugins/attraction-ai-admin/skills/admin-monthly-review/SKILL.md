@@ -140,7 +140,7 @@ stage, never sends.
 `attraction-goals` (the targets; the quarterly refresh; it hands its monthly audit here once the Admin is
 installed) · `attraction-execution-framework` (the constraint line; the year) ·
 `attraction-leadership-audit` (rev share flat) · `attraction-brokerage-model` · `cv-objection-coach` ·
-`cv-debrief` (conversion) · `sales-scorecard` (the funnel by source) · `admin-scorecard` (the weeks) ·
+`cv-debrief` (conversion) · `sales-scorecard` (the funnel by source) · `admin-recruiting-scorecard` (the weeks) ·
 `admin-va-tasks` (the VA's report feeds engagement).
 
 ## Demo mode

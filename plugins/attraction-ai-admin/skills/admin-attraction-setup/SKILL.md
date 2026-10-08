@@ -1,5 +1,5 @@
 ---
-name: admin-setup
+name: admin-attraction-setup
 description: >
   First-run setup and the plain-English front door for the Agent Attraction AI Admin. Reads the Brain and
   never re-asks; confirms the CRM and connectors from your operations; adopts the Daily Agent Attraction
@@ -119,7 +119,7 @@ Then stop. Housekeeping notes (goals at seeds, compliance unset) go LAST, one li
 | my attraction brief · what's my attraction day · wrap my attraction day · apply those stage moves | **admin-daily** |
 | my prospect pipeline · who's at [stage] · move [agent] to [stage] · what happened with [agent] · who in my pipeline would care about… · update my CRM | **admin-pipeline** |
 | my follow-up queue · who's due today · draft my follow-ups · confirm my partner calls · I sent it · skip [agent] | **admin-follow-up-queue** |
-| my recruiting scorecard · score my recruiting week · run my CEO review · where's my recruiting bottleneck | **admin-scorecard** |
+| my recruiting scorecard · score my recruiting week · run my CEO review · where's my recruiting bottleneck | **admin-recruiting-scorecard** |
 | team wins newsletter · recognition post for [agent] · who should I recognize this week | **admin-newsletter** |
 | tasks for my VA · posting prep · data entry pack · database cleanup · weekly reporting pack | **admin-va-tasks** |
 | monthly KPI review · my month vs my 30-60-90 · next month's targets | **admin-monthly-review** |

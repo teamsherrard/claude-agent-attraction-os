@@ -70,7 +70,7 @@
 | `config.md` → the `## Conversion & Sales` block | `sales-system-setup` creates the block and seeds `Booking page` · `Partner call length` · `Setter: none`; `cv-call-prep` writes `Call Block Prep task` · `Call Block Prep time`; `cv-reactivation` writes `Cold-Lead Reactivation task`; `sales-setter` writes `Setter` | keys below; the Brain never edits this block |
 
 **Never written by this plugin:** `memory/top-50.md` beyond the three interim cells above (Stage is mirrored
-from `pipeline.md` by the Brain's Top-50 skill; rows are added by the Brain), `memory/scorecard.md` (`sales-scorecard` hands its weekly numbers to `admin-scorecard` / the
+from `pipeline.md` by the Brain's Top-50 skill; rows are added by the Brain), `memory/scorecard.md` (`sales-scorecard` hands its weekly numbers to `admin-recruiting-scorecard` / the
 weekly check-in, which append the rows), every `identity/` file except `sales-system.md` and the `Used-where` stamp, `memory/content-log.md`, `memory/intel.md` (a trigger the member mentions is handed to `attraction-capture`, which owns that write), `memory/organization.md`, `identity/operations.md` (a booking link or call block goes to `attraction-operations`).
 
 ## `config.md` — the Conversion & Sales block (locked spelling)
@@ -128,7 +128,7 @@ that did not save.
   `cv-enrollment-script` and `cv-presentation` → `05 · Offer` (rendered docs) · `cv-call-prep` and
   `cv-agent-intel` → `04 · Agents/Prospects` (rendered docs) · stage and next-move requests
   (`STAGE MOVE REQUESTED` · `NEXT MOVE REQUESTED`, the locked lines above) → the AI Admin (`admin-pipeline`) ·
-  weekly numbers → `admin-scorecard` (the WEEKLY ROW line) · follow-up plans and reactivation drafts → the Daily
+  weekly numbers → `admin-recruiting-scorecard` (the WEEKLY ROW line) · follow-up plans and reactivation drafts → the Daily
   Follow-Up Queue (`admin-follow-up-queue`) once the Admin is installed.
 
 ## Documents this plugin produces (per the Brain's `drive-map.md`)

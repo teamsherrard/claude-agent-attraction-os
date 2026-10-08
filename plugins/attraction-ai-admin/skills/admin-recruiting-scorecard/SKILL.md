@@ -1,5 +1,5 @@
 ---
-name: admin-scorecard
+name: admin-recruiting-scorecard
 description: >
   Weekly KPIs against targets for agent attraction, on the Brain's locked scorecard: new prospects,
   conversations, meaningful conversations, calls booked, calls held, 3-ways, joins — counted from your
@@ -124,7 +124,7 @@ Never a grade, never anyone else's numbers, never guilt — when Behind, one lin
    exists; never a twin.
 3. `create_scheduled_task` — `taskId: attraction-admin-ceo-review`, `cronExpression: 0 16 * * 5` with their
    day and hour, in their local time from `config.md → Timezone` (no timezone math), the `prompt`
-   **verbatim** from `${CLAUDE_PLUGIN_ROOT}/skills/admin-scorecard/references/ceo-review-task-prompt.md`.
+   **verbatim** from `${CLAUDE_PLUGIN_ROOT}/skills/admin-recruiting-scorecard/references/ceo-review-task-prompt.md`.
 4. **Verify** (`list_scheduled_tasks`: present, enabled, a `nextRunAt`); not there → say so plainly.
 5. Write `Weekly CEO Review task: attraction-admin-ceo-review · runs [day time]` and `CEO Review slot` to
    the `## AI Admin` block; push immediately. Confirm in one line. Change / turn off → update or delete on
