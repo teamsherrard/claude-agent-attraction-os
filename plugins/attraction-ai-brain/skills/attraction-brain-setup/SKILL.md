@@ -362,8 +362,13 @@ sell (`04-value-proposition/34`): the story bank is a growth play and a retentio
 24. Something you do that other agents in your market don't.
 
 *Drafted, not asked:* story titles, and each seed's tags (persona it lands with · pain it speaks to
-· where it's used: story reel / YouTube hook / partner call / objection answer). Twelve-plus stories
-is the target over time; six seeds today is a complete first run.
+· where it's used: story reel / YouTube hook / partner call / objection answer) — and each seed is
+developed, before the Book build, into a 60–120-word story block in the member's own words: the scene
+they gave, what it proves, where it gets used (the echo test — a seed pasted under a heading is not
+done). Drafted from their words, never invented: a thin seed becomes a short true block, never a
+padded one; the member corrects, they do not compose. Twelve-plus stories is the target over time;
+six developed seeds today is a complete first run, and Chapter 4 of the Book meets its floor on the
+first render.
 
 **Stop 7 · Proof**
 25. Wins and numbers you'd be comfortable saying out loud: deals, volume, reviews, awards ("none yet" is fine).
@@ -555,10 +560,12 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
    verify gate, its retry caps and exhaustion STOP. The floor this skill guarantees, whatever the
    spec adds:
    - **The four-part arc:** *Part I — Who you are* (Snapshot · The Leader · Your Journey with "who
-     relates to this" under each beat · Your Story Bank as a table) · *Part II — Who you attract*
+     relates to this" under each beat · Your Story Bank as a table plus the six developed seeds in
+     full) · *Part II — Who you attract*
      (Your Agent Avatars · Your Market's Agent Landscape — researched and cited, or the designed
      placeholder until `prospect-radar` runs · Where They Gather) · *Part III — What you offer*
-     (Your Model, Positioned · **"What you have to give (so far)"** when `offer.md` is seeds, with
+     (Your Model, Positioned — the **"Your model, positioned (so far)"** page while `positioning.md`
+     is at seed · **"What you have to give (so far)"** when `offer.md` is seeds, with
      the one-line Week 2 note · The Money, Honestly — three scenarios, every number illustrative ·
      Your Proof) · *Part IV — How you win* (Your 12-Month and 90-Day Plan · Your Weekly Activity ·
      Your Content Pillars — placeholder until Week 3 · How You Operate · Compliance) · and the
@@ -567,6 +574,12 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
      transcribe. Tables for structured data (avatars at a glance, the story bank, the scenarios, the
      weekly activity), bullets for lists, sub-headings inside big sections, callouts for verbatim
      phrases and agent testimonials. Nothing about the member appears that isn't in their Brain.
+   - **Assemble the Book chapter by chapter.** Write the structured text to the input file one
+     PART or CHAPTER band at a time — never one emission (a cut-off emission renders as a clean
+     3-page Book with no error). Before the renderer runs, the spec's structural pre-check: 4 PART
+     bands, CHAPTER 1–18 in order, 22 contents rows, `CHAPTER 18 — YOUR OPEN ITEMS` last. A short
+     file is still assembling — append the missing chapters; never render it. If the member is
+     waiting, one progress line: *"your Book is still assembling, one more minute."*
    - **HARD GATE — the RENDERED `.docx` is what uploads.** Render via `shared/render_doc.py` (the
      fallback prose in `doc-formatting.md` matches what the script does; it never installs
      anything). Extract the text back out and CHECK: every chapter band present and sequential
@@ -574,7 +587,8 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
      written for THIS member (a summary any other agent could reuse = failed) · the byline once ·
      zero unresolved-TOC warnings on stderr · no `<w:` markup · the grounding audit ran ("N facts
      traced, M cut" goes in the hand-off) · no competitor, sponsor, or brokerage named negatively
-     anywhere · no earnings claim anywhere · compliance stamp present. A failed render is rebuilt
+     anywhere · no earnings claim anywhere · the rev-share rows of the plan and Targets tables read
+     "see Chapter 11 — private-call material", never a figure · compliance stamp present. A failed render is rebuilt
      by chapter, never narrated to the member; a build that exhausts its caps STOPS and says plainly
      what is blocking, and never uploads the failed render.
    - **Names, dated so regenerations never collide (newest = current):** **"📕 [Name]'s Agent

@@ -41,7 +41,7 @@ Two identities it must never lose:
   Book is in your home base → 01 · AI Brain — here's the direct link. Everything the system knows about you,
   in one book."*
 - **Render the FULL content of every identity file — never summarize, never compress.** Rich brain + thin
-  render = FAILED render. 15+ pages is normal and welcome.
+  render = FAILED render. 15+ pages is normal; a complete Brain runs 30–45 pages, and that is welcome.
 - **Restructure, don't append** (Part II): the avatars become per-avatar sub-sections; the brokerage footprint
   becomes a table plus prose; a one-bullet-per-item list surviving anywhere is a FAILED render.
 - **Research-on-render backfill:** if `prospect-intel.md` is thin or stale for Chapters 7–8, run the Prospect
@@ -128,12 +128,17 @@ the build runs in **demo mode**. Two conditions, both required:
 In demo mode:
 - **No live research.** Skip the research pass, the staleness rules, and the grounding audit's tracing. Fill
   Chapters 7–8 with plausible, clearly-labeled illustrative content — minutes, not research cycles.
-- **Every number is tagged "(illustrative — demo)"** — and NEVER carries a fabricated source attribution.
-- **No real competitor, sponsor, team, or vendor names.** Fictional names only ("the Lakeline team"). The demo
-  member's own brokerage (Real Broker) may be named; nothing is claimed about any real person.
+- **Every production, money, ratio, count and landscape figure is tagged "(illustrative — demo)"** — in prose,
+  in table headers and in table cells — and NEVER carries a fabricated source attribution. Exempt from the tag:
+  dates, clock times, durations, chapter and step numbers, and table cells under a header that already carries
+  the tag (tag the header once, not every cell).
+- **No real competitor, sponsor, team, lead-vendor, CRM, or coach names.** Fictional names only ("the Lakeline
+  team"). Platforms used as tools (Instagram, YouTube, Zoom, Google Sheets, Claude Design) may be named, and so
+  may the demo member's own brokerage (Real Broker) and the state regulator; nothing is claimed about any real
+  person.
 - **Watermark it, unmissably:** filename **"📕 [Name]'s Agent Attraction Brain Book — DEMO — [YYYY-MM-DD]"**;
-  eyebrow `Agent Attraction Brain · Demo`; one meta line on the cover: *"Demo document — illustrative data,
-  not researched."*
+  eyebrow `Agent Attraction Brain · Demo`; one meta line on the cover, **verbatim — never suffixed, never
+  reworded** (the gate checks the exact string): *"Demo document — illustrative data, not researched."*
 - **Total isolation from real Brains.** A demo scaffolds locally at `~/attraction-brain-demo/` and creates/pushes
   to its OWN workspace folder named **"[Workspace name] — DEMO"** (own `_attraction-workspace.md` marker, also
   demo-stamped) — NEVER into an existing real workspace. The demo Book is excluded from "newest = current":
@@ -180,9 +185,24 @@ In demo mode:
    steps as `1.  …` lines; `Label:` lead-ins (signature phrases, testimonials, the compliance disclaimer); `>> `
    lines for each chapter's 1–2 key-insight callouts; pipe-row tables; generous blank-line spacing. No Markdown
    `#`/`**`/backticks in the body.
+   **Write it to the input file chapter by chapter — one append per PART or CHAPTER band, never one emission.**
+   The full text runs 60–100 KB; emitted in one block, a cut-off output renders as a clean-looking 3-page Book
+   with no error, because the renderer cannot tell a short file from a finished one. Append the cover and the
+   contents block first, then each band with its body as it is assembled, and re-read the file's tail before
+   the next append. **Structural pre-check — run on the input file before step 6, every build:** (1) the
+   `[[TOC]] … [[/TOC]]` block holds exactly 22 rows — 4 `PART` rows and 18 `CHAPTER n — TITLE :: summary` rows
+   numbered 1–18 in order; (2) the body holds exactly 4 `PART` bands and 18 `CHAPTER` bands numbered 1–18 with
+   no gap, each inside its Part; (3) every contents row's text left of `::` equals a band
+   character-for-character; (4) the last band is `CHAPTER 18 — YOUR OPEN ITEMS`, with its body under it. The
+   two counts that prove it: `grep -c '^CHAPTER [0-9]* — ' <input>` = **36** (18 rows + 18 bands) and
+   `grep -c '^PART [IVX]* — ' <input>` = **8** (4 + 4). Any other number = the input is incomplete: append the
+   missing chapters, re-run the pre-check, and only then render — **never render a short file, never "render
+   what's there".** If the member is waiting while it trips, they see one progress line — *"your Book is still
+   assembling, one more minute"* — a status, not a failure narration (they never hear "truncated" or "retry").
 4. **Read-back check** (Grounding Law 7). One fix pass; survivors flagged in the hand-off.
 5. **Pre-render grounding audit** (Grounding Law 6). Keep the tally for the hand-off.
-6. **Render** with `render_doc.py` to `.docx`. **Renderer stderr must show ZERO unresolved-TOC warnings** — a
+6. **Render** with `render_doc.py` to `.docx` — only an input that passed the step-3 structural pre-check.
+   **Renderer stderr must show ZERO unresolved-TOC warnings** — a
    warning means a contents row and a chapter band don't match character-for-character: fix the structured
    text, re-emit, re-render (at most twice — a copy-paste alignment fix, never a rebuild). `RENDERER-UNAVAILABLE`
    → the `.md` fallback, once, no loop.
@@ -239,38 +259,42 @@ their `Label:` treatment; `>> ` is reserved for insight. Chapter 13 opens with t
 
 The Book runs the plan's arc: **who you are → who you attract → what you offer → how you win.** Each PART
 opens with its CAPS band and a 2–4 sentence consultant-voiced bridge. Chapter headings are exact — the verify
-gate checks all eighteen. Word ranges are per-chapter minimums/targets for a fully built brain; a placeholder
-chapter is exempt from its range but must still render its heading + designed placeholder text.
+gate checks all eighteen. **Word counts are per-chapter MINIMUMS — floors, never ceilings.** A rich brain file
+renders in full even when its chapter runs two or three times the floor (a 1,200-word voice file is a
+1,200-word chapter; eleven chapters of a complete Brain land well above their floors), and a floor is never a
+reason to compress — "render the FULL content, never summarize" outranks every number in this table. A
+placeholder chapter is exempt from its floor but must still render its heading + designed placeholder text.
 
-| # | Chapter (CAPS band) | Source file(s) | Words | Researched? |
+| # | Chapter (CAPS band) | Source file(s) | Words (minimum) | Researched? |
 | --- | --- | --- | --- | --- |
-| — | PART I — WHO YOU ARE | — | 40–80 bridge | no |
-| 1 | SNAPSHOT | `brain.md` quick-ref | 100–150 | no |
-| 2 | THE LEADER | `profile.md` + `strategy.md` + `journey.md` (leader moment) | 250–400 | no |
-| 3 | YOUR JOURNEY | `journey.md` (three beats + "who relates to this" + the WHY) | 350–600 | no |
-| 4 | YOUR STORY BANK | `story-bank.md` | 400–800 | no |
-| 5 | YOUR VOICE & BRAND | `voice.md` + `voice-samples.md` + `voice-print.md` + `brand-visual.md` | 300–500 | no |
-| — | PART II — WHO YOU ATTRACT | — | 40–80 bridge | — |
-| 6 | YOUR AGENT AVATARS | `avatars.md` | 500–900 | no |
-| 7 | YOUR MARKET'S AGENT LANDSCAPE | `prospect-intel.md` | 500–900 · placeholder until researched | yes |
-| 8 | WHERE THEY GATHER | `prospect-intel.md` + `avatars.md` | 250–450 · placeholder until researched | yes |
-| — | PART III — WHAT YOU OFFER | — | 40–80 bridge | — |
-| 9 | YOUR MODEL, POSITIONED | `positioning.md` + `brokerage-model.md` + `journey.md` → `## Why join me` | 350–600 | no |
-| 10 | YOUR OFFER | `offer.md` | 300–600 · "(so far)" mode when Status is seeds | no |
-| 11 | THE MONEY, HONESTLY | `goals.md` → "The money, honestly" | 300–500 · placeholder if the calculator was skipped | no |
-| 12 | YOUR PROOF | `proof.md` | 200–400 | no |
-| — | PART IV — HOW YOU WIN | — | 40–80 bridge | — |
-| 13 | YOUR 12-MONTH AND 90-DAY PLAN | `goals.md` + `execution-framework.md` (if built) | 400–700 | no |
-| 14 | YOUR WEEKLY ACTIVITY | `goals.md` (weekly activity, ratios) + `scorecard.md` Targets block + `execution-framework.md` KPIs (if built) | 150–300 | no |
-| 15 | YOUR CONTENT PILLARS | `content-pillars.md` | 200–400 · placeholder until Week 3 | no |
-| 16 | HOW YOU OPERATE | `operations.md` + `leadership.md` | 150–300 · placeholder OK | no |
-| 17 | COMPLIANCE | `compliance.md` | 150–250 | no |
-| 18 | YOUR OPEN ITEMS | every skipped question, unset field, and later-week file | 100–300 | no |
+| — | PART I — WHO YOU ARE | — | 40+ (a 2–4 sentence bridge) | no |
+| 1 | SNAPSHOT | `brain.md` quick-ref | 100+ | no |
+| 2 | THE LEADER | `profile.md` + `strategy.md` + `journey.md` (leader moment) | 250+ | no |
+| 3 | YOUR JOURNEY | `journey.md` (three beats + "who relates to this" + the WHY) | 350+ | no |
+| 4 | YOUR STORY BANK | `story-bank.md` | 400+ (the six developed Stop-6 seeds meet it on a first run) | no |
+| 5 | YOUR VOICE & BRAND | `voice.md` + `voice-samples.md` + `voice-print.md` + `brand-visual.md` | 300+ | no |
+| — | PART II — WHO YOU ATTRACT | — | 40+ (bridge) | — |
+| 6 | YOUR AGENT AVATARS | `avatars.md` | 500+ | no |
+| 7 | YOUR MARKET'S AGENT LANDSCAPE | `prospect-intel.md` | 500+ · placeholder until researched | yes |
+| 8 | WHERE THEY GATHER | `prospect-intel.md` + `avatars.md` | 250+ · placeholder until researched | yes |
+| — | PART III — WHAT YOU OFFER | — | 40+ (bridge) | — |
+| 9 | YOUR MODEL, POSITIONED | `positioning.md` + `brokerage-model.md` + `journey.md` → `## Why join me` | 350+ at Week 2 · 1,200+ once the why-join-me long version and the model are built · designed placeholder while `positioning.md` is at seed | no |
+| 10 | YOUR OFFER | `offer.md` | 300+ · "(so far)" mode when Status is seeds | no |
+| 11 | THE MONEY, HONESTLY | `goals.md` → "The money, honestly" | 300+ · placeholder if the calculator was skipped | no |
+| 12 | YOUR PROOF | `proof.md` | 200+ | no |
+| — | PART IV — HOW YOU WIN | — | 40+ (bridge) | — |
+| 13 | YOUR 12-MONTH AND 90-DAY PLAN | `goals.md` + `execution-framework.md` (if built) | 400+ (250+ before `execution-framework.md` is built) | no |
+| 14 | YOUR WEEKLY ACTIVITY | `goals.md` (weekly activity, ratios) + `scorecard.md` Targets block + `execution-framework.md` KPIs (if built) | 150+ | no |
+| 15 | YOUR CONTENT PILLARS | `content-pillars.md` | 200+ · placeholder until Week 3 | no |
+| 16 | HOW YOU OPERATE | `operations.md` + `leadership.md` | 150+ · placeholder OK | no |
+| 17 | COMPLIANCE | `compliance.md` | 150+ | no |
+| 18 | YOUR OPEN ITEMS | every skipped question, unset field, and later-week file | 100+ | no |
 
-**Totals: target 5,000–6,500+ words for a complete brain.** **The 3,000-word absolute floor binds every real
-build.** A Week 1 first-run Book (research done; Chapters 15 and 16 placeholders; Chapter 10 in "so far"
-mode) should land **≥ 4,400**; a first run with research skipped **≥ 3,600**; below the applicable band a
-rendered chapter is thin — fix the chapter, never pad. Never compress.
+**Totals (minimums).** **The 3,000-word absolute floor binds every real build.** A Week 1 first-run Book
+(research done; Chapters 15 and 16 placeholders; Chapter 10 in "so far" mode; Chapter 9 at seed) lands
+**≥ 4,400**; a first run with research skipped **≥ 3,600**; a complete Brain with the Week 2–3 files built
+**≥ 5,000 — and typically 9,000–16,000 words / 30–45 pages. Long is correct.** Below its floor a rendered
+chapter is thin — fix the chapter, never pad. Above it, never compress.
 
 ### Chapter 1 — SNAPSHOT
 The one-page "who is this leader" card. **Table** (Label | Value): name · brokerage · what they're building ·
@@ -293,8 +317,11 @@ brokerages never named.
 
 ### Chapter 4 — YOUR STORY BANK
 Open with the **table** | Story | The moment | The lesson | Lands with (type) | Pain | Use |. Then every story
-written out in full under its own sub-band. Seeds that were never fleshed out render as one-line seeds in a
-closing **"Still to tell"** list, with the phrase that builds them ("build my attraction story bank"). Never invent a story.
+written out in full under its own sub-band. On a first run every Stop-6 seed renders as its developed
+60–120-word block (the scene · what it proves · where it gets used — written by Setup Stop 6 before the Book
+is built) under its own sub-band; only seeds captured later (the capture rows) render as one-liners in a
+closing **"Still to tell"** list, with the phrase that builds them ("build my attraction story bank"). A seed
+pasted under a heading is not a story (the echo test). Never invent a story.
 
 ### Chapter 5 — YOUR VOICE & BRAND
 Tone rules (**bullets**), sounds-like / never-sounds-like, signature phrases as `Label:` lines, the writing
@@ -339,6 +366,9 @@ call, not for posting"). From `brokerage-model.md` (if built): the model in plai
 its source document — else one line: "say 'explain my model to me' in Week 2." Then the **`## Why join me`
 block from `journey.md`** as its own sub-band: the 60-second version, the long version, the one-breath line —
 if not written yet, one line naming Week 2. No competitor named negatively; no number without a source.
+**When `positioning.md` holds only the Q36 seed line** (the model, the script and the why-join-me are Week 2),
+the chapter renders the designed **"Your model, positioned (so far)"** placeholder (Placeholders, below) — the
+seed line developed, Week 2 named — never four sentences under a bare heading.
 
 ### Chapter 10 — YOUR OFFER
 **When `offer.md` Status is seeds:** the band reads `CHAPTER 10 — YOUR OFFER` and the first sub-band is
@@ -366,13 +396,16 @@ case study" (`04-value-proposition/33`) — never manufactured credibility.
 
 ### Chapter 13 — YOUR 12-MONTH AND 90-DAY PLAN
 **Opens with the why-line** (verbatim, the `>> ` callout). Then `goals.md` in full: the 12-month milestones
-**table**, the 30-60-90 **table**, the three-year commitment stated once, the intangibles to track. When
-`execution-framework.md` is built: the four-quarter **table**, the three weekly non-negotiables, the constraint
-of the quarter, the CEO rhythm **table**. Never summarize the math.
+**table** — whose "Rev share (illustrative, member's assumptions)" row renders as *"see Chapter 11 —
+private-call material"*, never the figure (the figure lives in Chapter 11 only) — the 30-60-90 **table**, the
+three-year commitment stated once, the intangibles to track. When `execution-framework.md` is built: the
+four-quarter **table**, the three weekly non-negotiables, the constraint of the quarter, the CEO rhythm
+**table**; before it is built the chapter is goals-only and its floor is 250. Never summarize the math.
 
 ### Chapter 14 — YOUR WEEKLY ACTIVITY
 The controllables: the weekly activity and daily slice from `goals.md`, the ratios with their labels (member /
-default), the Targets block from `scorecard.md` as a **table**, the weekly KPIs from the framework when built,
+default), the Targets block from `scorecard.md` as a **table** — its "Rev share (illustrative)" row renders as
+*"see Chapter 11 — private-call material"*, never the figure — the weekly KPIs from the framework when built,
 and one paragraph on how the Daily Debrief scores each day (Ahead · On pace · Behind) and the Monday check-in
 rolls the week. "Adjust the target or the hours, never the math."
 
@@ -398,7 +431,8 @@ chapter never guesses at legal text.
 ### Chapter 18 — YOUR OPEN ITEMS
 A designed page, never a list of failures. One **table**: | Open item | What fills it | When |. Rows come from:
 skipped questions (a placeholder in any file), `compliance.md` fields still unset, `offer.md` at seeds ("your
-Partner Offer" → Week 2), `brokerage-model.md` empty ("explain my model to me" → Week 2), `prospect-intel.md`
+Partner Offer" → Week 2), `positioning.md` at seed ("position my model" → Week 2), `brokerage-model.md` empty
+("explain my model to me" → Week 2), `prospect-intel.md`
 thin ("run my prospect radar" → Week 2), the brand kit not yet in `02 · Brand` ("run the Design Package" →
 this week), `content-pillars.md` (Week 3), `execution-framework.md` ("build my execution framework"),
 `leadership.md` / `operations.md` (optional), `voice-print.md` ("capture my speaking voice"). Then the
@@ -431,6 +465,14 @@ placeholder line is ONE line of structured text (never split mid-sentence). Exac
   and the rooms where [primary avatar] actually gather, every number sourced and dated.` Then a short "What
   will appear here" bullet list: the brokerage footprint table · recent moves and team formations · where each
   type of agent gathers · what it means for you.
+- **Chapter 9 (`positioning.md` at seed — the Q36 line only)** → first sub-band **"Your model, positioned (so
+  far)"**. The seed line is the chapter's first `>> ` callout, then one short paragraph developing it (what it
+  means for the agents they attract, how to say it on a call — their words, the echo test), then the lead line:
+  *"Your model gets positioned in Week 2."* Second callout: `>> Say "position my model", "explain my model to
+  me", and "why join me" — the vehicle and the reason, the two-minute script for your call, your model in
+  plain English, and your why-join-me story in three lengths.` Then the "What will appear here" bullet list:
+  the one line said out loud · the bridge-the-gap line per avatar · the 2-minute model script · the model in
+  plain English · the why-join-me in three lengths. Nothing reads as a gap. Mirrored in Chapter 18.
 - **Chapter 10 at seeds** is NOT a placeholder — it renders in "(so far)" mode (above).
 - **Chapter 11 (calculator skipped)** → lead line: *"This chapter is waiting on one 10-minute conversation."*
   Callout: `>> Say "run my rev share scenarios" — three illustrative scenarios built on your own assumptions,
@@ -441,7 +483,7 @@ placeholder line is ONE line of structured text (never split mid-sentence). Exac
 - **Chapter 16 (basics only / not built)** → lead line: *"This chapter fills in as your systems do."* Callout:
   `>> Say "set up my attraction operations" and "audit my leadership" — your hours, follow-up rhythm, onboarding steps,
   and an honest readiness score, so you never attract agents you can't serve.`
-- Voice-print and story seeds get their one-line "how to add" note inside Chapters 4–5, not a placeholder
+- Voice-print and later-captured story seeds get their one-line "how to add" note inside Chapters 4–5, not a placeholder
   chapter. **No other chapter may placeholder on a complete brain.** If a first-run identity file is genuinely
   missing, render its heading + the honest one-line state + the phrase that fills it — never a fabricated
   section, never a silently skipped heading. Every placeholder also appears as a row in Chapter 18.
@@ -467,7 +509,9 @@ Extract the text back out of the rendered `.docx` and check ALL of:
    researched-stamp, not the source's publication date; the newest available data older than the window is
    cited as the newest available and PASSES). At most ONE refresh per chapter per build.
 7. **Money discipline** — every figure in Chapter 11 carries "(illustrative)"; the stamp line is present; no
-   sentence anywhere states what a partner will earn; no compensation number appears outside Chapters 9 and 11.
+   sentence anywhere states what a partner will earn; no compensation number appears outside Chapters 9 and 11
+   — the rev-share rows of the 12-month table (Chapter 13) and the Targets table (Chapter 14) point at Chapter
+   11 ("see Chapter 11 — private-call material"), so a complete real Brain passes this check on its first render.
 8. **Cardinal rules** — no negative characterization of any named brokerage, sponsor, team, or person anywhere;
    no former brokerage named in a story.
 9. **Tables rendered where the contract says table** — tabular data as wall-of-prose = FAIL.
@@ -475,8 +519,9 @@ Extract the text back out of the rendered `.docx` and check ALL of:
     chapter; rebuild it from the member's data (one rebuild cycle; the honest-gap render is the terminal state).
 11. **Placeholders only where allowed**, each mirrored in Chapter 18; Chapter 10 at seeds is in "(so far)" mode
     with the Week 2 line, never a gap sentence.
-12. **Contents page** — exactly one CONTENTS page on page 2 with all EIGHTEEN chapter rows, in order, each
-    carrying its one-line summary written for THIS member; any summary failing the swap test = FAIL.
+12. **Contents page** — exactly one CONTENTS section, beginning on page 2, with all EIGHTEEN chapter rows, in
+    order, each carrying its one-line summary written for THIS member; any summary failing the swap test =
+    FAIL. (22 rows with summaries run onto page 3 at the renderer's spacing — that is one contents, not two.)
 13. **Chapter labels** — `CHAPTER 1` through `CHAPTER 18`, sequential, each inside its correct `PART I–IV` band.
 14. **TOC resolution** — ZERO unresolved-TOC warnings on the renderer's stderr.
 15. **Grounding audit ran** and its "N facts traced, M cut" tally is in the hand-off message.
@@ -488,9 +533,12 @@ Extract the text back out of the rendered `.docx` and check ALL of:
 18. **Open items** — Chapter 18's rows match the actual placeholders and unset fields (no phantom items, no
     missing ones).
 
-**Demo builds** swap checks 6, 15, and 16 for the demo checks: every number tagged "(illustrative — demo)";
-ZERO real source attributions; ZERO real competitor, sponsor, team, or vendor names; the watermark present
-(filename + eyebrow + cover line); all eighteen chapters filled. Every other check binds unchanged. **Real builds
+**Demo builds** swap checks 6, 15, and 16 for the demo checks: every production, money, ratio, count and
+landscape figure tagged "(illustrative — demo)" (the DEMO BRAINS exemptions apply — dates, times, durations,
+chapter/step numbers, cells under a tagged header); ZERO real source attributions; ZERO real competitor,
+sponsor, team, lead-vendor, CRM, or coach names (platforms used as tools, the member's own brokerage, and the
+regulator may appear); the watermark present (filename + eyebrow + the cover line **verbatim**); all eighteen
+chapters filled. Every other check binds unchanged. **Real builds
 get the mirror tripwire:** the string "(illustrative — demo)", a DEMO watermark, or the demo cover line
 appearing ANYWHERE in a non-demo render = automatic FAIL — rebuild from the brain files.
 

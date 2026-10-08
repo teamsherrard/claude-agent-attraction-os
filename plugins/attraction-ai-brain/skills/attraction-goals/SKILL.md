@@ -115,6 +115,9 @@ question:
 
 **This whole block is private material.** It goes in the Brain and the Book; it never goes into
 content, DMs, ads, or a lead magnet (`identity/compliance.md` gate; the calculator's stamp says so).
+In the Book the figure lives in Chapter 11 only: the "Rev share" rows of the 12-month table and of the
+scorecard's Targets block render as *"see Chapter 11 — private-call material"*, never the number
+(`shared/brain-book-spec.md`, Chapters 13–14 and gate check 7).
 
 ## Build `identity/goals.md` (the locked shape — every section, no brackets left behind)
 ```
