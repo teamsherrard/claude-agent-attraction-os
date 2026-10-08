@@ -3,7 +3,7 @@
 The most thorough read the engine does: the member's whole short-form presence, the leaders they admire,
 where they show up when agents search, the openings, and a 30-day plan, once a month. Interpret with
 `metrics-guide.md` and `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`; pull from
-`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md` §7 and recipes 2, 3, 7, and S. **Read-only**: never a
+`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md` recipes 2, 3, 7, 8, and S. **Read-only**: never a
 post, reply, DM, or comment tool. Rendered on the deep-dive shape in `shared/output-standard.md`.
 
 ## Who reads this, and the plain-language rules (non-negotiable)

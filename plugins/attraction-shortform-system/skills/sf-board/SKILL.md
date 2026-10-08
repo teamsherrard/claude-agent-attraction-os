@@ -51,13 +51,11 @@ When a workflow finishes a piece (Reel script, story set, green screen, carousel
 - The Brain's `memory/content-log.md` row is STILL written by the content skill every time — the board mirrors
   the log, never replaces it.
 
-### The pillar mapping (the board's short-form Pillar options are locked by the shared spec)
-The shared spec allows exactly `Reach · Value · Trust · Convert` for short-form cards (it is byte-identical with
-the YouTube plugin's copy and must not be edited here). Map the five attraction pillars like this, and always
-write the true pillar as the first line of the card's Context (`• Pillar: Perspective`):
-`Authority → Value` · `Perspective → Reach` · `Personality → Reach` · `Story → Trust` · `Proof → Trust` · a rare
-direct "partner with me / book a call" piece → `Convert`. (Contract note: a coordinated spec update in both
-plugins can replace this mapping with the five names; until then this is the rule.)
+### The Pillar column (the shared spec's short-form options ARE the five OS pillars)
+Write the pillar name directly — `Authority · Perspective · Story · Proof · Personality` — exactly as the content-log
+row carries it, and repeat it as the first line of the card's Context (`• Pillar: Perspective`). One pillar per card.
+The long-form cards use the member's five lane names (`yt-board` writes those); the board spec (byte-identical with the
+YouTube plugin's copy, never edited here) lists both sets.
 
 ### Status mapping (locked vocabularies)
 Board: `Idea → Scripted → Ready to Film → Recorded → Published` (the spec). Log: `Idea / Scripted / Recorded /

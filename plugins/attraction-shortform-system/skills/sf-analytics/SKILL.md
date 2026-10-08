@@ -54,7 +54,7 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
 
 **Sources, best first, never blocked on any one:**
 1. **The live data connection** (Instagram + YouTube) — the only source with Reel watch time, skip rate, and
-   audience; recipes in `shared/composio-data-engine.md` §7. **Read-only, always**: never a post, reply, DM,
+   audience; recipes in `shared/composio-data-engine.md` recipe 8 (short-form) plus 2, 3, 6, 7 and S. **Read-only, always**: never a post, reply, DM,
    or comment tool. No sign-in yet → offer it ONCE (*"want me to hook into your live Instagram and YouTube
    data? one sign-in each, then I pull your numbers automatically"*) per the engine's manage-connections
    steps; note `Live data: active [date]` or `declined [date]` at the top of `content-performance.md`;
