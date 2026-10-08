@@ -134,7 +134,7 @@ say ""
 say "── 9. no realtor-side paths, names, or retired engines leak into this OS"
 python3 - <<'PY2' || FAIL=1
 import glob,re,sys
-pats={"~/realtor-brain":r"~/realtor-brain(?!/\S*\s*(?:is|\(|—|-|:|,)?\s*(?:a different|read-only|the realtor))","Social Agent OS":r"Social Agent OS","_workspace.md (realtor marker)":r"(?<![a-z-])_workspace\.md","realtor-brain-sync":r"realtor-brain-sync","Descript":r"Descript","listing-launch / market-system":r"realtor-listing-launch|realtor-market-system"}
+pats={"~/realtor-brain":r"~/realtor-brain(?!/\S*\s*(?:is|\(|—|-|:|,)?\s*(?:a different|read-only|the realtor))","Social Agent OS":r"Social Agent OS","_workspace.md (realtor marker)":r"(?<![a-z-])_workspace\.md","realtor-brain-sync":r"realtor-brain-sync","Descript":r"\bDescript\b","listing-launch / market-system":r"realtor-listing-launch|realtor-market-system"}
 allow=re.compile(r"realtor brain bridge|read-only|never|not this|different system|a separate|do not|don't|legacy|the realtor plugin|coexist|side by side|retired|REMOVED",re.I)
 bad=[]
 for f in glob.glob("plugins/**/*.md",recursive=True)+glob.glob("plugins/**/*.json",recursive=True):

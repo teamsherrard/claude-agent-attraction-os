@@ -17,7 +17,7 @@ description: >
 # Monday Kickoff — the week's attraction content, decided in five minutes
 
 One briefing so the leader never sits down to a blank screen. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`,
-the cadence section of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
+§7 (the 8-video cycle and cadence) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 > **Two ways it runs.** On demand, any time ("run my attraction kickoff"). Or weekly on a schedule — **only if
@@ -26,7 +26,7 @@ the cadence section of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine
 
 ## Step A — The schedule: ask, never assume
 1. Read `~/attraction-brain/config.md` for a `Monday Kickoff task:` line. **A task id** → it is on; say nothing.
-   **`declined`** → they said no; never re-offer. **No line** → after delivering the on-demand kickoff once,
+   **`declined`** → they said no; never re-offer. **`not offered yet` or no line** → after delivering the on-demand kickoff once,
    offer in one line: *"want this waiting for you every Monday morning? I'd leave it as a note here — or as
    a draft email you open, never sent. Yes, draft email, or no thanks?"* Then wait.
 2. **Yes** → `list_scheduled_tasks` first (adopt an existing kickoff task, never a twin), then

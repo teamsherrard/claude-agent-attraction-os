@@ -17,17 +17,19 @@ description: >
 # Lead Engine — the conversations are already happening
 
 Content builds awareness; CTAs create action (`08-youtube/98`). And the comments under an attraction video
-are agents raising their hands in public. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the CTA
-section of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
+are agents raising their hands in public. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §10 (the two-CTA
+model) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The earlier comment-sweep method is folded into Jobs 2 and 3
 below; this file is the rule.
 
 ## Job 1 — The CTA pair and the resource, per video (inside the video's chat)
 Read `brain.md`, `identity/content-pillars.md` (the two CTAs: book a call · the guide / keyword),
-`identity/offer.md`, `identity/avatars.md`, `identity/compliance.md`.
+**`memory/magnets.md → ## Current magnet` first** (the live lead magnet and its keyword, once the Lead Magnet
+plugin wrote it), `identity/offer.md` second, `identity/publishing.md` → the `Keyword:` line (the ManyChat
+keyword, Short-Form-owned), `identity/avatars.md`, `identity/compliance.md`.
 - **The resource CTA** (around the first minute, `98`): the free thing that fits THIS video and the avatar's
-  pain — a checklist, the comparison sheet, a questions-to-ask-a-sponsor list, the first-90-days plan. If the
-  Lead Magnet plugin (Week 6) has built one, use it and its keyword; if not, say which week builds it and use
+  pain — a checklist, the comparison sheet, a questions-to-ask-a-sponsor list, the first-90-days plan. If
+  `memory/magnets.md → ## Current magnet` holds one (the Lead Magnet plugin, Week 6), use it and its keyword; if not, say which week builds it and use
   the member's best existing resource or fold the invite into the call CTA. Never promise a resource that
   does not exist.
 - **The book-a-call CTA** (a third to halfway in, and at the end): warm, inviting, specific to the video —
@@ -55,7 +57,7 @@ Triage into four piles (counts first, then work them in this order):
   (name · type if stated · source "YouTube comment · [video]" · Stage Identified · Next move "reply + DM").
   Only on a yes; this skill never writes `top-50.md` itself.
 - **Resource requests** — "where's the guide?" / the keyword → the reply gives the keyword or link from
-  `content-pillars.md`; if the member runs ManyChat, note that the keyword triggers the automation (the
+  `memory/magnets.md` or `publishing.md`'s `Keyword:` line (`content-pillars.md` as the fallback); if the member runs ManyChat, note that the keyword triggers the automation (the
   member's own setup; nothing here configures it).
 - **Real questions** — a short useful answer from the Brain only (model questions → "the honest answer
   depends on your production; let's do it on a call" when numbers would be needed). If the answer deserves a
@@ -69,7 +71,8 @@ count. Nothing is posted by the system — ever.
 ## Job 3 — The mine (what agents keep asking)
 Cluster the real questions across the sweep, count them, quote one or two per theme, and turn the top themes
 into 3–5 video ideas in the agent's own words (the model Q&A themes go to `yt-model-breakdown`'s list). Offer
-once to save them to `memory/ideas.md` (tag `youtube`, source: comments) — only on a yes. Note the lead
+once to save them — only on a yes, and through `attraction-capture` ("attraction video idea"), which owns
+`memory/ideas.md` (tag `youtube`, source: comments); this skill never writes that file. Note the lead
 signal for `yt-analytics`: which videos draw agent questions versus silence.
 
 ## Compliance gate (3-state)
@@ -80,4 +83,4 @@ attract in, the reply is still kind and points nowhere); brokerage name as the f
 
 ## Modes
 Per video (inside its chat) or the weekly comment sweep after each publish. Everything in chat; replies are
-ephemeral; the Top-50 add is the only write, by the Top-50 skill.
+ephemeral; the Top-50 add and the idea save are the only writes, made by the Top-50 and capture skills.

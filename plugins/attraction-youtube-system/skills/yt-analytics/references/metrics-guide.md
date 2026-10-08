@@ -24,7 +24,7 @@ to do. Judged against the attraction doctrine, always through to **agent convers
 | Chapters | "chapters (the timestamps in the description)" | Help people skip to what they came for — and help search. |
 | Captions (uploaded) | "captions" | Uploaded subtitles (auto-captions don't count). Helps search and silent viewers. |
 | Description first 3 lines | "the top of your description" | What shows before "more": the booking link + free guide belong here. |
-| Playlists / sections | "your channel page" | Do the playlists match your 3 pillars? Is the homepage laid out? |
+| Playlists / sections | "your channel page" | Do the playlists match your lanes (one per bucket)? Is the homepage laid out? |
 | Search rank | "where you show up" | Your position when someone types the phrase into YouTube. |
 | AI answer presence | "whether an AI assistant mentions you" | When an agent asks an AI assistant about your brokerage or about switching, are you in the answer? |
 | Leads / calls booked | "leads" · "calls booked" | **The business outcome.** The question — "which video made you reach out?" — asked of every agent who books, is the truest data. |
@@ -38,13 +38,13 @@ to do. Judged against the attraction doctrine, always through to **agent convers
 | **Views** | live | Surfacing × clicking. Read vs the channel's median. | Usually packaging or topic — look at impressions + CTR before blaming the content. |
 | **Watch time / % viewed** | Studio pack | Did people *stay* — the truest quality signal. | Low with a fine CTR = the **hook** (first 30–60 s) or the **middle**. |
 | **Retention graph** | Studio pack | *Where* they leave. | Cut what's before the cliff; open on the viewer's question, never "welcome back." |
-| **Traffic sources** | Studio pack | Search vs browse vs suggested — is S.E.A.R.C.H. working? | Little search traffic = titles aren't matching real queries; check the titles against what agents type. |
+| **Traffic sources** | Studio pack | Search vs browse vs suggested — are agents finding you through search? | Little search traffic = titles aren't matching real queries; check the titles against what agents type. |
 | **Search terms** | Studio pack | Free keyword research. | Terms are consumer searches → titles are off for agents; agent terms you don't own yet → new video ideas. |
 | **Demographics / geography** | Studio pack | Are these licensed agents in the places the member can attract? | A consumer-heavy audience → topics drifted toward buyers and sellers; back to agent questions (the five pains, the model, interviews). |
 | **Packaging audit** (title gates · description top · chapters · captions · publish time) | live (recipe 1) | Is each video dressed to be found and clicked? | Fix in this order: title → description top → chapters → captions. Publish at the best day/hour. |
 | **Comments** | live (may be blocked) / screenshots | Engagement + questions = free ideation + leads in public. | No question asked; no pinned comment; the ask didn't invite conversation. |
 | **Search rank / AI presence** | live (recipe 7) | Do you show up when someone looks? | The phrase isn't in a title; the About page doesn't say who you help; no Explained video for your brokerage. |
-| **Subscribers gained** | live | Trust at scale. | A one-off with no series; no playlist path (Shift 4). |
+| **Subscribers gained** | live | Trust at scale. | A one-off with no series; no playlist path (the binge path, doctrine §11). |
 | **Leads / calls booked** | the agent | **The business outcome.** | The ask: buried, generic, or missing — the resource ask in the first minute, the call ask a third to halfway in and at the end, warm not pushy. |
 
 ## How to diagnose *why* a video under- or over-performed
@@ -60,7 +60,7 @@ opening (rewrite it — call out the agent, the tension, the promise, a reason t
 slide after a strong open = the middle (one idea per section, get to the payoff, cut length).
 
 **Without the Studio pack** (live only): views vs the channel's median + length is your proxy. Say so. Never
-invent CTR or retention numbers — offer the "add my Studio numbers" path that unlocks them.
+invent CTR or retention numbers — offer the "add my Studio numbers" path that adds them.
 
 ## Classify by intent, not just performance
 A low-view video can still be a win. Tag each: **awareness** · **trust-building** · **high-intent lead-gen**
@@ -80,6 +80,6 @@ videos and offer to act:
 ## Honesty rules
 - The agent's own median is the benchmark — never a generic industry number.
 - Thin data is called thin. One video is never a trend; a spike can be a fluke; a day-old video is not a verdict.
-- Private metrics appear only from the Studio pack — say what's missing and what it unlocks.
+- Private metrics appear only from the Studio pack — say what's missing and what it adds.
 - Never invent or estimate a number. If it isn't there, say "not available" and how to add it.
 - YouTube compounds slowly — a quiet month isn't a failure; keep them consistent — trust is built through repetition (`08-youtube/99`).

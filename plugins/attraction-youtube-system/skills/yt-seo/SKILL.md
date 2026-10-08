@@ -19,16 +19,17 @@ description: >
 The description is the member's 24/7 sales assistant (`08-youtube/98`): the next step sits above the fold,
 convenience converts, keywords make it discoverable. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`,
 `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md` (the re-keyed attraction keyword sets: comparisons · rev
-share · switching · sponsor questions · the five pains), and the titles / descriptions / CTA sections of
-`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`. Obey `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
+share · switching · sponsor questions · the five pains), and §9–§11 (titles and thumbnails · the two-CTA
+model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`. Obey `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
-> **One chat = one video.** Normally Step 3 of `yt-make-video`. For a video made outside the system, run it
+> **One chat = one video.** Normally Step 4 of `yt-make-video`. For a video made outside the system, run it
 > in that video's chat: ask for the title and a two-line rundown, then go.
 
 ## Step 1 — Gather (never re-ask what the Brain knows)
 - The locked title + the script if it exists (chapters come from its sections); for an interview, the guest's
   name as written and the section map from `studio-interview` if the edit is done.
-- `brain.md`, then `identity/offer.md` (the value proposition, booking link), `identity/content-pillars.md`
+- `brain.md`, then `identity/offer.md` (the value proposition, booking link; the live resource is `memory/magnets.md → ## Current
+  magnet` first when it exists), `identity/content-pillars.md`
   (the two CTAs: book a call · the guide/keyword — if the keyword is not set yet, the Lead Magnet plugin builds
   it in Week 6; use the book-a-call CTA and the member's best existing resource), `identity/avatars.md`,
   `identity/voice.md`, `identity/compliance.md`, `identity/profile.md` (handles).
@@ -59,7 +60,7 @@ share · switching · sponsor questions · the five pains), and the titles / des
 4. **Hashtags** — 3–5, the brokerage plus the avatar's search language.
 5. **Pinned comment** — one real question for the viewer to answer (comments are a ranking signal and the
    start of a conversation) + the resource line. For interviews: a line of thanks to the guest by name.
-6. **Watch-time extras** — the playlist (by pillar; the Explained playlist first on the channel page — `99`),
+6. **Watch-time extras** — the playlist (by lane; the Explained playlist first on the channel page — `99`),
    end screen = the next logical video + subscribe, one card at the point the script points elsewhere.
 7. **Why these (for the member)** — three plain sentences: the keyword the title targets and the evidence,
    which tags carry real demand, why the description order is the conversion order.

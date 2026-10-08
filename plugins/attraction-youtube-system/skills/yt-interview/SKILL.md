@@ -18,7 +18,7 @@ description: >
 
 Niche videos attract; interviews convert (`08-youtube/95`). An interview is five assets at once: content,
 social proof, recognition for the guest, retention for the organization, and a recruiting asset that keeps
-working (the Week 4 doc). Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and the interview section of
+working (the Week 4 doc). Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and §5 (interviews that convert) of
 `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`. Obey `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`:
 read `~/attraction-brain/brain.md` first, write back then push immediately via `attraction-brain-sync`, and
 read `identity/compliance.md` before anything public.
@@ -117,8 +117,12 @@ below if it does not exist, never overwrite rows):
 | # | Guest | Type | Transformation (their words) | Avatar it lands with | Consent | Stage | Recording date | Title (working) | Link | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 ```
-Then one `memory/content-log.md` row in the locked shape (Platform `YouTube`, Format `interview`, Pillar
-`Interviews`, Status `Idea` now; `yt-make-video` moves it to Published). Push via `attraction-brain-sync`
+Then one `memory/content-log.md` row in the locked shape (Platform `YouTube` · Format `interview` · **Pillar
+`Proof`** — the OS pillar interviews carry, never the bucket name · Topic / hook `[Interview] working title` ·
+Avatar = the type it lands with · Status `Idea` now; `yt-script` updates this same row at Scripted and
+`yt-make-video` moves it to Published — never a second row). Save the prep as **`Interview Prep — [guest] —
+YYYY-MM-DD`** in the video's folder under `03 · Content/Long-Form/` (the Interview Prep skeleton in
+`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`, rendered through `shared/render_doc.py`). Push via `attraction-brain-sync`
 (write → push → verify). If the push fails, say it is not saved, keep the content visible, retry once, stop.
 
 ## Step 8 — Hand-offs (by name, one line each)

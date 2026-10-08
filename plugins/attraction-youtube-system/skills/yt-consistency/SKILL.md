@@ -16,8 +16,8 @@ description: >
 # Consistency Engine — the leader who keeps going wins
 
 Channels do not fail on content; they fail because the leader stops. Trust is built through repetition
-(`08-youtube/99`). Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the cadence and 8-video-cycle
-sections of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
+(`08-youtube/99`). Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §7 (the 8-video cycle and cadence) and
+§13 (the 180-day plan) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 ## The cadence (the Brain wins if set; otherwise this default)
@@ -27,7 +27,7 @@ interviews** (eight weeks per cycle). One strong video a week is a win, never a 
 
 ## Inputs
 `brain.md`, `identity/content-pillars.md` (cadence), the Game Plan doc from `yt-gameplan` (the 90-day calendar),
-`memory/content-log.md` (what shipped, by pillar and status), `memory/interview-pipeline.md` (who is booked),
+`memory/content-log.md` (what shipped, by bucket and status), `memory/interview-pipeline.md` (who is booked),
 `identity/operations.md` (hours, the days they film), and the board if `identity/publishing.md` has a link.
 
 ## Batch-day mode
@@ -50,7 +50,7 @@ line, no guilt: *"good to see you — want to pick the next title and knock it o
 Read the scorecard's word (Ahead · On pace · Behind) if present; never recompute it here.
 
 ## Plan my month
-Spread the next four slots of the cycle across the member's weeks (which pillar each week, which interview
+Spread the next four slots of the cycle across the member's weeks (which bucket each week, which interview
 guest, which model video if the slot lands this month), pulled from the Game Plan's title backlog; suggest
 one batch day and the interview recording days; offer calendar blocks (consent) and the first video
 (`yt-make-video`). A simple plan in chat — never a spreadsheet.

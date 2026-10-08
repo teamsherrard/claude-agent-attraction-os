@@ -2,7 +2,7 @@
 name: yt-thumbnail
 description: >
   The Thumbnail Brief for the Agent Attraction YouTube System — writes the brief, never the image. From the
-  video's title and pillar it drafts three thumbnail directions (face and expression, the 3–5 word text that
+  video's title and bucket it drafts three thumbnail directions (face and expression, the 3–5 word text that
   differs from the title, composition, brand colors at highest contrast), scores each against Mike's
   title-and-thumbnail rules (and his swipe-file patterns once that file lands — it is pending and the skill
   says so), recommends one, and hands a paste-ready brief to the Design Studio's ds-thumbnail-layout in Claude
@@ -22,11 +22,11 @@ image. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and `${CLAUDE_PLUGIN_
 Read `references/swipe-file-patterns.md` at Step 2 (not before).
 
 > **Part of the video package.** Normally called by `yt-make-video` once the title is locked (before filming,
-> so the member can film the expression). Standalone works too: ask for the title, the pillar, and whether a
+> so the member can film the expression). Standalone works too: ask for the title, the bucket, and whether a
 > guest is in it, then run.
 
 ## Step 1 — Gather (from the chat and the Brain, never re-asked)
-- The locked **title**, the **pillar** (Problem · Situation · Future · Interview · Model), the **avatar**, and
+- The locked **title**, the **bucket** (Problem · Situation · Future · Interview · Model), the **avatar**, and
   the emotion the title carries (fear to avoid or outcome to reach — `97`).
 - `identity/brand-visual.md` — colors, display font, the headshot set and which expressions exist; the
   Design System file name if one is recorded.
@@ -43,7 +43,7 @@ Read `references/swipe-file-patterns.md`. Draft three directions; each one state
 - **Color:** the brand pairing with the highest contrast; text on the background, never on the face.
 - **The feeling the viewer gets:** "this is me, I need to watch this" in one line.
 
-Pillar defaults: **Interview** → two faces, the guest's transformation word ("FIRST DEAL · 90 DAYS") ·
+Bucket defaults: **Interview** → two faces, the guest's transformation word ("FIRST DEAL · 90 DAYS") ·
 **Model** → one face, the question word ("WORTH IT?", "READ THIS FIRST") · **Problem** → concern face, the
 mistake named · **Situation** → "this is you" phrasing · **Future** → confident face, the outcome.
 
@@ -61,7 +61,7 @@ under `03 · Content/Long-Form/` (rendered through `shared/render_doc.py`; the f
 ```
 THUMBNAIL BRIEF — "[title]"
 Run in Claude Design: ds-thumbnail-layout (upload your Brain Book and your Design System file first)
-VIDEO: pillar · avatar · the emotion of the title
+VIDEO: bucket · the type of agent it's for · the emotion of the title
 BRAND: colors (hex) · display font · headshot set to use · logo rule
 DIRECTION 1 (primary · score x/18): text · face/expression · composition · color · feeling
 DIRECTION 2 (score x/18): …

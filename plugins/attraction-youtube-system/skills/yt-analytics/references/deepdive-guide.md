@@ -1,8 +1,8 @@
 # YouTube Deep Dive — the monthly full breakdown (structure + method)
 
 The deepest thing the YouTube System does: the leader's whole attraction channel, other attraction channels, where they show up when agents search, the openings between them, and a 30-day plan — once a month.
-Judged against the attraction doctrine throughout (analytics · the channel audit · titles and thumbnails · the 3+1+4 mix · the cadence of one long-form a week plus interviews). Rendered on the **Deep Dive Report skeleton** in `shared/doc-format.md` — a
-flagship deliverable, stamped `Powered by Mike Sherrard Coaching Inc Frameworks`.
+Judged against the attraction doctrine throughout (analytics · the channel audit · titles and thumbnails · the 3+1+4 mix · the cadence of one long-form a week plus interviews). Rendered on the **YouTube Deep Dive skeleton** in `shared/doc-format.md` — a
+flagship deliverable. No credibility stamp here: house rules #9 reserve it for the Game Plan.
 
 ## Who reads this — and the plain-language rules (non-negotiable)
 The reader is a leader building an organization, not a marketer. They have never opened a YouTube Studio tab on purpose.
@@ -16,7 +16,7 @@ Cohort feedback, verbatim: *"it's just so much information that I have no idea w
 5. **No marketing words without the plain phrase next to them:** "the ask at the end" not "CTA"; "a video
    that did far better than that channel's normal" not "an outlier"; "where views stop turning into calls"
    not "the funnel".
-6. **Why = outcome words** (calls, leads, viewers who become clients), never metric words.
+6. **Why = outcome words** (conversations, calls, agents who partner), never metric words.
 7. **Short on purpose:** the main body is the story — 3–5 openings, never more; 3 strengths; 3 fixes; the
    long tables go to the APPENDIX. The verdict, the one move and three actions sit on page one so a busy
    agent can stop there and still know what to do.
@@ -46,7 +46,7 @@ missing (*"say 'add my Studio numbers'"*). Never invent a number the source didn
 - **1.1 How you grew** — subscribers now vs the baseline stored at the last dive (the Performance block in `identity/channel.md`);
   views and uploads vs the previous window (pull it too — same recipe, earlier dates). First dive = the
   baseline; say so. ≤5 videos = "too early to read trends", keep the audit to packaging + plan.
-- **1.2 What's pulling — by content type** — every video tagged by attraction pillar (niche: Problem · Situation · Future · Interview · Model — the 3+1+4 mix; other channels: name the lanes you actually see); typical (median) views per type, share of all views; classify by
+- **1.2 What's pulling — by content type** — every video tagged by lane (the bucket: Problem · Situation · Future · Interview · Model — the 3+1+4 mix; other channels: name the lanes you actually see); typical (median) views per type, share of all views; classify by
   intent (awareness · trust · high-intent · proof · underperformer · repeat from a new angle). End on *Keep doing / Rethink*.
 - **1.3 Titles & thumbnails (packaging)** — the automated audit from recipe 1 step 4: title gates (≤70 chars · one promise · the question an agent actually types), booking link + guide in the first 3 description
   lines, chapters, a comment prompt, uploaded captions, best publish day/time by median views. With the
@@ -55,14 +55,14 @@ missing (*"say 'add my Studio numbers'"*). Never invent a number the source didn
 - **1.4 Your best openings** — the first 30–60 s of the top 3 videos, word for word, from their own caption
   tracks (recipe 1 step 5; none → the description's opening, labelled). Say why each held in plain words;
   name the next video to use that style on. With the Studio pack: hook vs middle from the retention graphs.
-- **1.5 Where viewers come from & who they are** — Studio pack only: search vs browse vs suggested (is the
-  S.E.A.R.C.H. strategy working?), top search terms (terms they don't own yet = new titles), top locations (inside the states or provinces the member can attract in? — never a protected characteristic in any recommendation), when viewers are on YouTube (publish-time fix). Not provided → the
+- **1.5 Where viewers come from & who they are** — Studio pack only: search vs browse vs suggested (are
+  agents finding the channel through search?), top search terms (terms they don't own yet = new titles), top locations (inside the states or provinces the member can attract in? — never a protected characteristic in any recommendation), when viewers are on YouTube (publish-time fix). Not provided → the
   one-line "say 'add my Studio numbers'" note, nothing else.
 - **1.6 What viewers are saying** — try the comment threads once (recipe 1 step 7): prospect agents (an agent showing intent or curiosity — answer today), the questions that repeat (→ next videos, counted), unanswered comments. 403 → the one-line "say 'triage my attraction comments'" note.
 - **1.7 Where views stop turning into calls** — walk the path in plain words (see → click → watch → hear the
   ask → call) and name the ONE place it breaks with the fix (*"your interviews hold viewers but the call ask sits at the very end — move it to the first minute, casually"*). Always include the habit line: ask every new lead
   *"which video made you reach out?"* and tell the system — leads then get counted by video.
-- **1.8 How often you post & your channel page** — uploads/week vs the plan (1 long-form a week, interviews counted, 3+1+4 over eight), longest gap, interviews actually shipped?; playlists by pillar and the Explained playlist first on the homepage (recipe 1 step 6) → the channel-page fix (hand to `yt-setup`).
+- **1.8 How often you post & your channel page** — uploads/week vs the plan (1 long-form a week, interviews counted, 3+1+4 over eight), longest gap, interviews actually shipped?; playlists by lane and the Explained playlist first on the homepage (recipe 1 step 6) → the channel-page fix (hand to `yt-setup`).
 
 ## Part 2 — Other attraction channels
 3–5 channels from `identity/strategy.md` + `identity/prospect-intel.md` (ask once if thin; discover with "[brokerage] explained" / "should I switch brokerages"). The cardinal rules apply: what they do well and what is missing — never what is wrong with them or their brokerage. Recipe 2. Per channel one dotted row: subs · typical video · their
@@ -81,12 +81,12 @@ who is? → the one page/profile fix that would get them cited (say "an AI answe
 Recipe 3. 3–5 openings, each a four-line card: *What we found* (the topic, plainly) · *Why it matters to
 you* (the outcome) · *Do this* (the exact title, type, week) · *The proof* (real demand + who ranks + how
 stale + the multiple, as short facts). Then *Your own winners, from a new angle*: 2–3 new titles per
-winner. Starving pillar and packaging fixes belong in Part 5's FIX list, not here.
+winner. A starving lane and packaging fixes belong in Part 5's FIX list, not here.
 
 ## Part 5 — Your next 30 days
 - **Keep doing** — 3 strengths, each with the proving number.
 - **Fix** — 3 fixes: what's wrong · why it costs you · do this (the specific change).
-- **The plan** — ~8 exact titles (one long-form a week, two cycles' worth) on the 3+1+4 mix, title gates applied, one per row with pillar, interview guest where relevant, and week, ready for "make my attraction video". **Cadence math is mandatory:** state total
+- **The plan** — ~8 exact titles (one long-form a week, two cycles' worth) on the 3+1+4 mix, title gates applied, one per row with its bucket, interview guest where relevant, and week, ready for "make my attraction video". **Cadence math is mandatory:** state total
   weekly output *including* standing series (a podcast, a weekly show) — standing series count toward the
   cadence, never sit "on top of" it; trim the plan to fit the member's cadence (more only if quality holds).
 - **THE ONE MOVE** — repeated word for word from page one.
@@ -99,7 +99,7 @@ video · the search results pulled. Long tables live here, never in the body.
 - Every number real and labelled by source; empties called "not available"; **no invented benchmarks** —
   the agent's own median is the benchmark.
 - Private metrics (CTR, watch time, retention, traffic, search terms, demographics) appear ONLY from the
-  Studio pack — say when they're missing and what they'd unlock.
+  Studio pack — say when they're missing and what they would add.
 - Thin data is called thin. One video is never a trend. A one-day-old video is not a verdict.
 - Competitor Instagram/TikTok are out of scope here (that's the Short-Form dive) — YouTube only, done deep.
 - Read-only always: nothing is ever posted, edited, or changed on any channel.

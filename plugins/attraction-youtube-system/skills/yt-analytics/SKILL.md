@@ -5,7 +5,7 @@ description: >
   conversations, not views. Reads which videos produced agent comments, DMs, and booked calls (from the
   Brain's conversations, Top-50, and pipeline), joins it to packaging and
   retention from the live data connection (offered here on first use), Studio screenshots, or
-  public channel reads, and runs the monthly DEEP DIVE: growth, every video by pillar, the binge path, the
+  public channel reads, and runs the monthly DEEP DIVE: growth, every video by lane, the binge path, the
   leak between views and calls, a 30-day plan. Quick questions any time. From Week 4 it appends its YouTube
   section to the Weekly Content Performance agent the Short-Form System owns — never a second task.
 
@@ -18,7 +18,7 @@ description: >
 
 Views alone do not build the organization; the question is which videos moved an agent to comment, message,
 or book (`08-youtube/98`, `99`). Monthly deep dive; quick reads between. Never a dashboard — a coach reading
-the numbers with them. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the analytics section of
+the numbers with them. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §14 (measuring what matters) of
 `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 Size the answer to the ask: a scoped question gets a quick read; "deep dive" / "channel review" gets the
 full consult; offer the dive once if it has been about a month.
@@ -30,7 +30,7 @@ screenshot path instead, stop and wait. **Tools present, no YouTube connection**
 Step 1. **Active** → carry on. Never during setup; never nag. This skill is the connection's only home.
 
 ## Step 1 — Load the Brain + pick the data source
-`brain.md`, then `identity/channel.md` (handle, the YouTube block, prior baselines), `identity/content-pillars.md`
+`brain.md`, then `identity/channel.md` (handle, the `## Channel` block, the prior `## Performance` blocks), `identity/content-pillars.md`
 (the plan the audit is measured against), `memory/content-log.md` (what every video WAS: pillar, avatar,
 story, CTA), `memory/interview-pipeline.md`, and — read-only — `memory/conversations.md`, `memory/top-50.md`
 (Source column: "YouTube comment · [video]"), `memory/pipeline.md` (stage moves with a video mentioned).
@@ -42,7 +42,8 @@ Data source, best first, never blocked:
    stats, the upload catalog, per-video views/likes/length/date, playlists, comments (once; a 403 is said),
    competitor channels as outliers. First call: warn that a permission box will pop. Offer the sign-in once
    (`COMPOSIO_MANAGE_CONNECTIONS`, `youtube`, `add`) → markdown link → "done" → confirm `active`; record
-   `Live data: active` or `declined [date]` in `identity/channel.md`'s YouTube block; never re-offer.
+   `Live data: active YYYY-MM-DD` or `declined YYYY-MM-DD` on the `Live data:` line of `identity/channel.md`'s
+   `## Channel` block; never re-offer.
 2. **The Studio pack** (the only source of CTR, watch time, retention, traffic sources, search terms): ask
    once, in plain words, for four screenshots (Content table · Reach: traffic sources + search terms ·
    Audience · retention of the top 3) — or "skip", addable later with "add my Studio numbers".
@@ -60,7 +61,7 @@ why it matters to you · do this · the proof; every metric explained the first 
 - **The attraction scoreboard** — per video: agent comments · DMs/conversations that named it · calls
   booked that named it · joins where it was in the story. The habit that makes this real (`99`): *"ask every
   agent who books: which video made you reach out — and tell me."* Thin data is said, never padded.
-- **Part 1 — Your channel:** growth · what pulls by pillar (niche vs interview vs model — the 3+1+4 mix vs
+- **Part 1 — Your channel:** growth · what pulls by lane (niche vs interview vs model — the 3+1+4 mix vs
   what actually shipped) · packaging (CTR after 30 days vs the 6–10% band, `97`; three re-titles) · hooks
   (verbatim best openings) · where viewers come from (Studio pack) · what agents say in comments · the one
   break between views and calls (CTA placement, description order, missing resource, no next-video) · the
@@ -82,7 +83,7 @@ video on that plan?"* → `yt-make-video`.
 1. Render on the Deep Dive skeleton (`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`, `render_doc.py`) as
    **YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD** in `03 · Content/Long-Form/` (dated; newest is current).
 2. Append a dated **Performance** block to `identity/channel.md` (this plugin's file): subscriber baseline,
-   best pillar, the 3 best hooks, the attraction scoreboard's top video, the break, the 30-day titles, the
+   best lane, the 3 best hooks, the attraction scoreboard's top video, the break, the 30-day titles, the
    search phrases and positions. Push via `attraction-brain-sync`.
 3. Board (if `identity/publishing.md` has the link): the plan's next two weeks become dated cards.
 4. The closing line: what saved, where, live data status — or exactly what did not.
@@ -99,11 +100,12 @@ angle); always end with the lead question and one next action. Store nothing unl
 ## The Weekly Content Performance agent (from Week 4 — append, never create)
 The Short-Form System's `sf-analytics` owns this scheduled task (Fridays). From Week 4, this skill adds the
 YouTube section:
-1. Read `~/attraction-brain/config.md` for the task line the Short-Form System wrote (its block). **No line** →
-   the task is not on yet; say so plainly and that the Short-Form System turns it on; offer the monthly dive
-   instead. **Never create a second task.**
+1. Read the `Weekly Content Performance task:` line in `~/attraction-brain/config.md`'s `## Short-Form (Week 3)`
+   block (the locked key; it lives there, never on `publishing.md`). **`not offered yet`, `declined`, or no
+   line** → the task is not on; say so plainly and that the Short-Form System turns it on; offer the monthly
+   dive instead. **Never create a second task.**
 2. With the member's explicit yes ("add YouTube to your Friday performance report?"), `update_scheduled_task`
-   on that id, appending this block to its prompt verbatim:
+   on that id, appending this block verbatim into the prompt's `YouTube section` slot the Short-Form System left:
    > **YouTube section (Agent Attraction YouTube System).** Read `memory/content-log.md` (YouTube rows),
    > `memory/interview-pipeline.md`, and — read-only — `memory/conversations.md`, `memory/top-50.md`,
    > `memory/pipeline.md`. Report, in plain words: videos published this week vs the plan (1 long-form +

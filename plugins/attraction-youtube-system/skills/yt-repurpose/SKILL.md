@@ -18,7 +18,7 @@ description: >
 
 Long-form earns the trust; the clips, posts, and emails carry it everywhere else; the conversation starters
 turn it into agent conversations (the Week 4 doc: "every video becomes conversation starters"). Writing
-only — no editing. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the hook and CTA sections of
+only — no editing. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §8 (the video structure) and §10 (the two CTAs) of
 `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 > **One chat = one video.** Normally Step 9 of `yt-make-video`, after publish. For a video made outside the
@@ -70,8 +70,12 @@ only), `memory/content-log.md` (this video's row, written at script and updated 
 ## Save, log, push
 Save one **Repurposing Pack — [title] — YYYY-MM-DD** in the video's folder (`03 · Content/Long-Form/`),
 rendered through `shared/render_doc.py` per `shared/doc-format.md`. Append `memory/content-log.md` rows in
-the locked shape for the derived pieces — three `reel` rows (Platform `Shorts / Reels`), one `carousel` row,
-one `story` row ("5 stories") — Status `Scripted`, Link = the pack, Pillar and Avatar from the source row.
+the locked shape for the derived pieces — three `reel` rows (Platform `Shorts / Reels`), one `carousel` row
+(Platform `Instagram` or `LinkedIn`), one `story` row ("5 stories", Platform `Instagram`), one `email` row
+(Platform `Email`), one `blog` row (Platform `Blog`) — Topic / hook `[repurposed] from "[source title]" — [angle]`,
+Status `Scripted`, Link = the pack, Pillar and Avatar from the source row. (`email` and `blog` are in the Format
+enum by the coordinator's ruling; the conversation starters are not logged here — they go to the Conversion
+plugin or `ideas.md`, above.)
 Push via `attraction-brain-sync`; say what saved and what did not.
 
 ## Compliance gate (3-state)

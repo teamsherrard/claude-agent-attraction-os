@@ -3,7 +3,7 @@ name: yt-make-video
 description: >
   Make This Attraction Video — the end-to-end production flow of the Agent Attraction YouTube System. Run it
   in a new chat that becomes the video (one chat = one video). From a chosen idea it locks the packaging
-  (title, hook, pillar), writes the script in the member's voice, builds the thumbnail brief and the SEO
+  (title, hook, bucket), writes the script in the member's voice, builds the thumbnail brief and the SEO
   package with the book-a-call CTA, maps the resource, fills the content-board card, and after the member
   films and publishes it writes the content-log row and repurposes the video. Works for niche videos,
   interviews, and model breakdowns; hands the edit to the Riverside Studio by name. Never posts, never
@@ -18,7 +18,7 @@ description: >
 
 This chat IS the video. One simple step at a time, confirm before moving on, everything saves to this
 video's folder. The member only ever feels "we're making my video." Apply
-`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the universal structure / hook / CTA sections of
+`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §8 (the video structure) and §10 (the two CTAs) of
 `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`
 (read `brain.md` first · write then push via `attraction-brain-sync` · `compliance.md` before anything public).
 
@@ -26,8 +26,10 @@ video's folder. The member only ever feels "we're making my video." Apply
 > skill; never force the whole sequence.
 
 ## Step 0 — Set up the video
-Confirm the idea/title and its **pillar** (Problem · Situation · Future · Interview · Model). If it came from
-`~/attraction-brain/memory/ideas.md`, mark that row Used now (this is where an idea becomes a video). Read
+Confirm the idea/title and its **bucket** (Problem · Situation · Future · Interview · Model — the content-log
+Pillar cell carries Authority / Proof / Perspective by the mapping in `brain-contract.md`). If it came from
+`~/attraction-brain/memory/ideas.md`, mark that row Used now (this is where an idea becomes a video); if it drew
+on a `memory/intel.md` row, mark that row's `Used?` column now too. Read
 `brain.md`, then `identity/content-pillars.md` (cadence, the two CTAs), `identity/avatars.md`,
 `identity/voice.md`, `identity/story-bank.md` (pick one story, unused recently — the content-log says which
 are fresh), `memory/content-log.md` (no repeats), `identity/compliance.md` (status now, so an `unset` is known
@@ -50,7 +52,7 @@ Give the member the references in chat: *"watch these three before you film — 
 ## Step 2 — Script
 `yt-script` writes the full teleprompter script in the member's voice on the structure: hook → resource CTA
 around the first minute → body → book-a-call CTA a third to halfway in and again at the end → the next-video
-pointer (`98`, `99`). Format by pillar (Why I Switched · Pain Point · Model Breakdown · Niche Breakdown;
+pointer (`98`, `99`). Format by bucket (Why I Switched · Pain Point · Model Breakdown · Niche Breakdown;
 interviews follow `yt-interview`'s beats). `yt-script` writes the content-log row at Scripted and stamps the
 story's Used-where. Save as **Script**. Offer the 30–45s Short cut now.
 
@@ -80,8 +82,9 @@ flagged best 30–45 seconds. Nothing here edits video.
 ## Step 8 — Publish → the content-log row (the fix this fork carries)
 When the member says it is live, ask for the link, then **update this video's `memory/content-log.md` row**
 (the one written at script): Status `Published`, Link, the CTA used, the story used; if no row exists,
-append one in the locked shape (Date · Platform `YouTube` · Format `long-form` or `interview` · Pillar ·
-Topic/hook · Avatar · Story used · CTA · Status · Link). Flip the board card to Published and top up the
+append one in the locked shape (Date · Platform `YouTube` · Format `long-form` or `interview` · Pillar =
+Authority / Proof / Perspective by the bucket · Topic/hook = `[bucket] final title` · Avatar · Story used · CTA ·
+Status · Link). Flip the board card to Published and top up the
 two-week window from the Game Plan. Push via `attraction-brain-sync` and say the save happened, or that it
 did not. For an interview, move its `memory/interview-pipeline.md` row to Published and hand the guest their
 three distribution sentences (`yt-interview` Step 6).

@@ -27,7 +27,7 @@ not in this file.*
 ## 2. Mike's swipe-file patterns — PENDING
 *Not yet supplied. When Mike's best-performing agent-attraction thumbnails arrive, record here, per pattern:
 the layout (face position and size, text position), the text style (word count, case, color on background),
-the expression family, the background treatment, which pillar it served, and the observed CTR band if given.
+the expression family, the background treatment, which bucket (lane) it served, and the observed CTR band if given.
 Until then, tell the member: "Mike's swipe file is still on its way; these directions follow his lesson rules,
 and I'll re-score them against his actual winners once the file is in."*
 
