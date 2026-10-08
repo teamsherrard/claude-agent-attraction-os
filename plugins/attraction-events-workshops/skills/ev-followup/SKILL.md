@@ -38,8 +38,9 @@ The event's block in `memory/events.md` (the newest `held` or `promoting` block 
 replay URL and window; the counts if `ev-analytics` already wrote them) · `identity/voice.md` + `voice-samples.md`
 (how they type) · `identity/offer.md` (What's included — the real things the warm invite names; `Status:`) ·
 `identity/proof.md` + `story-bank.md` (the day-3 agent story, consent) · `identity/operations.md` (the booking
-link; the weekly call; the signature) · `memory/top-50.md` (rows with `Source: event` and this code in Notes —
-the named hot attendees the member already added; their stage) · `memory/pipeline.md` (read — where a named
+link; the weekly call; the signature) · `memory/top-50.md` (rows with `Source: event` that belong to THIS event —
+the theme or the code in Notes, or a row added on or after the event date; the capture skill writes the member's
+words, never the event code — the named hot attendees the member already added; their stage) · `memory/pipeline.md` (read — where a named
 attendee stands; direct write only before the Admin) · `memory/magnets.md → ## Current magnet` ·
 `config.md` (the `## AI Admin` block → requests vs direct writes; the Lead Magnet block's `List tool`;
 `Timezone`; the Events block's task key) · `identity/compliance.md` first line. Pull via `attraction-brain-sync`
@@ -57,9 +58,9 @@ registration host or the Zoom report — 'not sure yet' is fine); (2) who engage
 end, came up after, replied — first names are enough, or 'I'll send the list'; (3) the replay — is it up, and
 how long do you want it live (I'd say 7 days)?"* **Your turn.** The counts go to the block (as the member
 stated, `Source:` named); **the names never enter the Brain** — for each engaged agent the member wants to
-pursue: *"Want [name] on your Top-50? Say 'add [name] to my top 50, met at my workshop' and your Brain adds
-them — then I'll draft their message and move them along."* (`attraction-capture` owns that row; this skill
-never writes it.)
+pursue: *"Want [name] on your Top-50? Say 'add [name] to my top 50, met at my [theme] workshop' and your Brain
+adds them — then I'll draft their message and move them along."* (`attraction-capture` owns that row; this skill
+never writes it. Saying the event's theme is what lets this skill find the row later.)
 
 ## Step 2 — The four sequences (drafted; the member's voice; read back against the NEVER list before shown)
 NEVER: an immediate pitch, a wall of text, "opportunity," compensation, income, "just checking in," guilt on a
@@ -94,15 +95,19 @@ no-show, fake personalization, a forced Zoom. One failure = rewrite. Each ≤150
   sequences the evergreen plan's tables already name.
 
 ## Step 3 — The pipeline (requests, never guesses — the locked shapes)
-For each named hot attendee (a Top-50 row with `Source: event`): the move the member's words justify —
+For each named hot attendee (a Top-50 row with `Source: event` for this event — Step 0's match): the move the member's words justify —
 engaged / replied → `Identified → Conversation`; booked → `Conversation → Call booked` (or from `Identified`,
 via the Admin's one question); joined → `Joined` (the Admin asks). Read `config.md`:
 - **Admin installed** (a block whose heading starts with `## AI Admin`, first line `AI Admin: set up [date]`) →
   write nothing to `pipeline.md`; end the output with one **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** line
-  per agent and write the same moves to the block's **`Stage moves requested:`** line (the durable carrier);
-  *"logged — the stages move on your next Admin run."* For a drafted touch with no stage change: **`NEXT MOVE
-  REQUESTED: [Name]: [move] · due [date]`** (the day-1 message today; the day-3 touch on its date) — the Admin
-  applies it to the Board's Next move · Due and the Daily Follow-Up Queue drafts it on the day.
+  per agent, write the same moves to the block's **`Stage moves requested:`** line, and write each
+  `STAGE MOVE REQUESTED` line inside the block under it, one per line — the event's block is the durable carrier
+  of both chat signals; the Admin's dual scan reads it on the member's next in-chat run;
+  *"logged — the stages move on your next Admin run."* For a drafted touch with no stage change:
+  **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** (the day-1 message today; the day-3 touch on its
+  date) — write the same lines inside the event's block too, one per line under `Stage moves requested:` (the
+  Admin's dual scan reads them there on the member's next in-chat run, so the request survives this session);
+  the Admin applies each to the Board's Next move · Due and the Daily Follow-Up Queue drafts it on the day.
 - **Admin absent** → write the Board row and a Stage-moves-log row directly in `memory/pipeline.md`, locked
   vocabulary, `Logged by: ev-followup`; the member applies next moves with `attraction-top-50` ("update [Name]'s
   next move"); this skill writes no Top-50 cell.
@@ -150,12 +155,13 @@ Render per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via
 (day 1 · 3 · 7) · NO-SHOW (day 1 · 3 · 7) · HOT (the personal messages) · COLD (to the list) · THE AGENTS' SHARE
 PACK · THE WORKFLOWS (four tables) · THE PIPELINE (the requests made) · COMPLIANCE NOTES.
 `memory/events.md` → the Follow-up line (`attended drafted [date]` …, `hot [n named · drafted]`, `cold to the
-list [date]`), `Post-Event Follow-Up run`, the `Stage moves requested:` line; Status `followed up` once the
-member says the day-1 touches went out. `memory/content-log.md` → one row only if the member publishes a recap
+list [date]`), `Post-Event Follow-Up run`, the `Stage moves requested:` line and the request lines under it;
+Status `promoting` → `held` the first time this skill runs after the event date (the navigator and the analytics
+read it), then `followed up` once the member says the day-1 touches went out. `memory/content-log.md` → one row only if the member publishes a recap
 or replay post (Platform, Format `reel` / `email` / `long-form`, Pillar `Proof`, Topic `[event] [code] — recap`,
-Status `Published`). Push via `attraction-brain-sync`; verify. Hand-offs in plain words: a reply → "tell me what
-they said" (`cv-debrief` logs it); a booking → the show-up sequence (`sales-show-up`) and call prep
-(`cv-call-prep`); the list → "your weekly agent email" (`lm-nurture`); the numbers → "log my event numbers"
+Status `Published`). Push via `attraction-brain-sync`; verify. Hand-offs in plain words: a reply → "coach me on this
+conversation" (`cv-debrief` logs it; a DM thread continues in `cv-dm-flow`); a booking → the show-up sequence (`sales-show-up`) and call prep
+(`cv-call-prep`); the list → "write this week's agent email" (`lm-nurture`); the numbers → "log my event numbers"
 (`ev-analytics`).
 Close: *"Four sequences drafted, [n] personal messages for the agents you named, the share pack for your agents,
 and the workflow tables — nothing's sent. Load the sequences into [list tool], send the personal ones from your

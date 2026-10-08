@@ -12,8 +12,9 @@ Steps, in order, plain language throughout (no file names, no sync talk, no step
    window, the counts if already entered, the follow-up line), identity/voice.md and identity/voice-samples.md,
    identity/offer.md (what's included — the real things the warm invite names), identity/proof.md and
    identity/story-bank.md (one agent story with consent for day 3), identity/operations.md (the booking link, the
-   weekly call, the signature), memory/top-50.md (rows whose Notes say Source: event and carry [CODE] — the named
-   agents the member chose to pursue; nobody else is named), memory/pipeline.md (read only — where each named
+   weekly call, the signature), memory/top-50.md (rows whose Notes say Source: event and belong to this event —
+   [CODE] or its theme in Notes, or added on or after the event date — the named agents the member chose to
+   pursue; nobody else is named), memory/pipeline.md (read only — where each named
    agent stands), config.md (whether an AI Admin block exists; the Lead Magnet block's List tool),
    identity/compliance.md (its first line, `Status:`, is the gate).
 3. If the first line of compliance.md is unset, write no drafts: list the segments and the timing, say the drafts
@@ -33,8 +34,12 @@ Steps, in order, plain language throughout (no file names, no sync talk, no step
    - the COLD path: one line that everyone else joins the weekly newsletter after day 7;
    - the agents' SHARE PACK: the two-line text each agent in the organization sends the guests they invited.
 5. Write the follow-up line in the [CODE] block of memory/events.md (attended drafted [date] · no-show drafted
-   [date] · hot [n] named · cold to the list after day 7) and the Post-Event Follow-Up run date. Never write a
-   count you did not find in the block; never write a name or an email into the Brain. Then push the Brain with
+   [date] · hot [n] named · cold to the list after day 7) and the Post-Event Follow-Up run date; if the block's
+   Status still says promoting, set it to held. Under the block's Stage moves requested line, write one
+   `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line per named agent — the same lines you print in step 6 —
+   so the AI Admin can apply them on the member's next run after this session is gone; never a stage line. Never
+   write a count you did not find in the block; never write a name or an email into the Brain (a named agent's
+   first name on a request line is the one exception — they are already a Top-50 row). Then push the Brain with
    attraction-brain-sync and verify. If the push fails, say the drafts are NOT saved and include them in full.
 6. Output, as the final thing you produce: EVENT FOLLOW-UP — [CODE] · attended sequence (3) · no-show sequence (3)
    · [n] personal messages · the share pack · each draft under its heading · then ONE request line per named

@@ -64,13 +64,13 @@ where the two disagree, the OS-wide view wins and this file is wrong.*
 ## What this plugin writes (one owner per file)
 | File | Owner skill | Rule |
 |---|---|---|
-| `memory/events.md` | **this plugin.** `ev-strategy` opens an event's block (Status `planned`) and sets the header's `Member code` · `Next event`; `ev-registration` writes the Registration line; `ev-promo` flips Status to `promoting` and writes the sharing counts; `ev-runofshow` writes the Content-logged count; `ev-followup` writes the Follow-up line, the `Post-Event Follow-Up run` date, and the `Stage moves requested:` line; `ev-analytics` writes the numbers line, the Debrief line, and flips Status to `held` · `followed up` · `debriefed` (evergreen: `live` · `refreshed` · `retired`). | the locked block shape below; one block per event, newest at the top of the list of blocks; a block is never deleted; counts only — never a name, email, or phone of an attendee. The Brain never writes this file. |
-| `memory/pipeline.md` | **the AI Admin owns stage moves** (`admin-pipeline`). Until it is installed, `ev-followup` writes the Board row and a Stage-moves-log row directly, `Logged by: ev-followup` | detect the Admin by its `config.md` block (heading starts with `## AI Admin`, first line `AI Admin: set up [date]`). Admin installed → this plugin never touches `pipeline.md`: it ends its output with the chat line **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** (one per agent) and writes the same moves to the event block's `Stage moves requested:` line (the durable carrier — the Debrief's shape, "Events requests event stages the same way"). Admin absent → direct write, locked vocabulary, never a new stage name, never a move backwards. |
+| `memory/events.md` | **this plugin.** `ev-strategy` opens an event's block (Status `planned`) and sets the header's `Member code` · `Next event`; `ev-registration` writes the Registration line; `ev-promo` flips Status to `promoting` and writes the sharing counts; `ev-runofshow` writes the Content-logged count; `ev-followup` flips Status `promoting` → `held` the first time it runs after the event date, writes the Follow-up line, the `Post-Event Follow-Up run` date, the `Stage moves requested:` line and the request lines under it, and flips Status → `followed up` when the member says the day-1 touches went out; `ev-analytics` writes the numbers line, the Debrief line, and flips Status → `debriefed` (evergreen: `refreshed` · `retired`; `ev-evergreen` flips `planned` → `live` when the member says the page is up). | the locked block shape below; one block per event, newest at the top of the list of blocks; a block is never deleted; counts only — never a name, email, or phone of an attendee. The Brain never writes this file. |
+| `memory/pipeline.md` | **the AI Admin owns stage moves** (`admin-pipeline`). Until it is installed, `ev-followup` writes the Board row and a Stage-moves-log row directly, `Logged by: ev-followup` | detect the Admin by its `config.md` block (heading starts with `## AI Admin`, first line `AI Admin: set up [date]`). Admin installed → this plugin never touches `pipeline.md`: it ends its output with the chat line **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** (one per agent) and writes the same moves to the event block's `Stage moves requested:` line (the durable carrier — the Debrief's shape, "Events requests event stages the same way"); `admin-pipeline` opens `events.md` beside `debriefs.md` on every in-chat run (the Admin's dual scan), applies or asks, and logs `Logged by: admin-pipeline ← ev-followup [code] [date]`; `NEXT MOVE REQUESTED` lines are written inside the block the same way, one per line. Admin absent → direct write, locked vocabulary, never a new stage name, never a move backwards. |
 | `memory/content-log.md` | `ev-promo` (promo rows), `ev-runofshow` (the event itself), `ev-followup` (the replay or recap post when the member publishes one) | the one locked row shape, never a new column. **Events rows:** Platform = where it lives (`Instagram` · `Email` · `LinkedIn` · `YouTube` for the replay · `Zoom` or `In person` for the event itself) · Format from the locked list (`story` · `reel` · `carousel` · `email` · `live` for the event) · Pillar one of the five (promo and the event = `Authority`; a speaker or agent-win spotlight = `Proof`) · Topic / hook begins `[event] [code] — [piece]` · CTA = `register` or `book a call` · Status `Scripted` at draft, `Published` when the member says it went out. A promo batch logs one row per pillar it covers, never a row per piece. Nobody edits another plugin's row. |
-| `config.md` → the `## Events (Week 6)` block | `ev-navigator` creates the block on first run (`Installed` · `Plugin version` · `Post-Event Follow-Up task: not offered yet`); `ev-strategy` writes `Member code`; `ev-registration` writes `Registration host`; `ev-followup` writes `Post-Event Follow-Up task` | keys below, locked spelling; the Brain never edits this block; no timezone here. |
+| `config.md` → the `## Events (Week 6)` block | `ev-navigator` creates the block on first run (`Installed` · `Plugin version` · `Post-Event Follow-Up task: not offered yet`; "first run" = no block whose heading line starts `## Events` with `Installed:` as its first line — the registry's bullet that names the block is not a block); `ev-strategy` writes `Member code`; `ev-registration` writes `Registration host`; `ev-followup` writes `Post-Event Follow-Up task` | keys below, locked spelling; the Brain never edits this block; no timezone here. |
 
 **Never written by this plugin:** `memory/top-50.md` (a named attendee becomes a row through the Brain's
-`attraction-capture` / `attraction-top-50` — "add [name] to my top 50, met at my workshop" — with `Source: event`;
+`attraction-capture` / `attraction-top-50` — "add [name] to my top 50, met at my [theme] workshop" — with `Source: event` and the member's words in Notes (capture never writes the event code, so this plugin matches a row to an event by the theme in Notes or the date the row was added);
 this plugin never adds a row or edits a cell), `memory/conversations.md` (the Conversion plugin's; a conversation
 with an attendee is logged there by `cv-debrief` or capture), `memory/scorecard.md` (event calls and joins reach
 the weekly row only through the pipeline moves the Admin applies and the weekly check-in — `attraction-goals`'
@@ -80,7 +80,7 @@ Magnet's; registrations that grow the list are counted by `lm-analytics` from th
 owns it), every `identity/` file (a new booking link or weekly call → `attraction-operations`; a story that
 surfaced → `attraction-story-bank`; a win → `attraction-voice-proof` Seeds via capture).
 
-## `memory/events.md` — the locked shape (proposed to the Brain template; the template ships the header only)
+## `memory/events.md` — the locked shape (the Brain template ships the header line and this block shape in a comment; `ev-strategy` writes the first block)
 ```
 # Events — [Name]
 *memory · one block per event · owner: the Events & Workshops plugin (`ev-`, Week 6) · counts only — attendees' names and emails never enter the Brain; a named agent the member pursues lives in `memory/top-50.md` (Source: event) · `ev-followup` requests event stage moves through the AI Admin (`STAGE MOVE REQUESTED` in chat + the `Stage moves requested:` line below) · the Brain never writes this file*
@@ -95,11 +95,15 @@ surfaced → `attraction-story-bank`; a win → `attraction-voice-proof` Seeds v
 - **Follow-up:** attended [drafted YYYY-MM-DD · loaded by the member · sent] · no-show [same] · hot [n named · drafted YYYY-MM-DD] · cold [to the list YYYY-MM-DD] · agents' guests [share pack drafted · —] · **Post-Event Follow-Up run:** [YYYY-MM-DD · not run · declined]
 - **Content logged:** [n rows] · **Docs:** `03 · Content/Events/[code] · [Theme]/`
 - **Stage moves requested:** [Name: Identified → Conversation · Name: Conversation → Call booked · … — or "none"]
+  STAGE MOVE REQUESTED: [Name]: [from] → [to]
+  NEXT MOVE REQUESTED: [Name]: [move] · due [date]
 - **Debrief:** worked [..] · failed [..] · automate [..] · delegate [..] · remove [..] · **Next time:** [the one change]
 ```
 Rows of numbers are replaced in place by `ev-analytics` with a new `As of` date (the block is a status card,
 not an append-only ledger; the per-run history lives in the dated event reports in the workspace). Everything
-else is appended or filled, never erased.
+else is appended or filled, never erased. The two indented request lines sit under `Stage moves requested:`, one
+request per line in the locked spelling — written by `ev-followup` (both shapes) or its scheduled run
+(`NEXT MOVE REQUESTED` only); `admin-pipeline` reads them there on every in-chat run; an applied line stays.
 
 ## `config.md` — the Events block (locked spelling)
 ```
@@ -129,15 +133,21 @@ key (`List tool`) — read there, never duplicated.
   the calls target):** Ahead · On pace · Behind.
 
 ## Request lines (locked spelling — identical in the Admin's `brain-contract.md` and every skill that emits or consumes them)
+**The event's block in `memory/events.md` is the durable carrier of both lines:** every
+request line that ends a chat output is also written inside the event's block, under `Stage moves requested:`,
+one per line in the locked spelling — by `ev-followup` (both shapes) and by its Post-Event Follow-Up run
+(`NEXT MOVE REQUESTED` only). The AI Admin's housekeeping scans every block there, plus `memory/debriefs.md`, on
+every in-chat run, so a request survives the session that made it; the chat line stays as the in-session signal.
 - **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** — a stage change for a named agent. Emitted by `ev-followup`
   (and the Post-Event Follow-Up run never — a scheduled run never moves a stage) when the member says an
-  attendee engaged, booked, or joined. The event block's `Stage moves requested:` line is its durable carrier;
-  `admin-pipeline` applies it with a log row naming the source. Any move backwards is a question to the member,
+  attendee engaged, booked, or joined. The event block is its durable carrier — the `Stage moves requested:` line
+  plus the same `STAGE MOVE REQUESTED` line written under it, one per agent; `admin-pipeline`'s dual scan reads
+  the block on every in-chat run and applies it with a log row naming the source (`← ev-followup [code] [date]`). Any move backwards is a question to the member,
   never applied. The agent must already be a Top-50 row (the member adds them through the Brain's capture skill
   first — "add [name] to my top 50, met at my workshop").
 - **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — no stage change; one line per named agent whose next
   touch this plugin drafted (the day-1 personal message, the day-3 value touch). Emitted by `ev-followup` and by
-  the Post-Event Follow-Up run. The dated touch in the follow-up doc is its durable carrier; `admin-pipeline`
+  the Post-Event Follow-Up run. The dated touch in the follow-up doc and the same line written inside the event block are its durable carriers (the Admin's dual scan reads the block); `admin-pipeline`
   applies it to the Board's `Next move · Due` only, and the Daily Follow-Up Queue drafts the touch on its date.
   Admin absent → the member applies it with the Brain's `attraction-top-50` ("update [Name]'s next move"); this
   plugin writes no Top-50 cell itself.
@@ -150,7 +160,7 @@ key (`List tool`) — read there, never duplicated.
 one-time `fireAt` for 9:00 the morning after the event (the member's local time from `config.md → Timezone`,
 offset computed for that date), **re-armed for the next event by updating the same task — never a twin.**
 Provisioned only with the member's explicit yes, never silently; draft-only (it drafts the four sequences and the
-named-agent touches, writes the event block's follow-up line, pushes, and ends with `NEXT MOVE REQUESTED` lines —
+named-agent touches, writes the event block's follow-up line and the same `NEXT MOVE REQUESTED` lines inside the block, pushes, and ends with those lines in chat —
 never a stage move, never a send); the task id and the armed date in the Events block; verify after creating or
 updating; never claim a schedule that did not save. "Not yet" → `declined`, never re-offered (it still runs on
 demand: "run my event follow-up"). A demo Brain never gets a task. The prompt is `skills/ev-followup/references/post-event-task-prompt.md`, verbatim.
@@ -178,7 +188,8 @@ demand: "run my event follow-up"). A demo Brain never gets a task. The prompt is
 
 ## Documents this plugin produces (per the Brain's `drive-map.md`)
 Everything for one event lives in one folder: **`03 · Content/Events/[code] · [Theme]/`** (`ev-strategy` creates
-it; the `Events/` sub-bucket is this plugin's addition to the `03 · Content` map, proposed to the coordinator):
+it; the `Events/` sub-bucket is in the Brain's `drive-map.md`; the Design Studio keeps the graphics in
+`03 · Content/Graphics/[date · event]/`):
 the Event Brief · the format playbook (Live / Virtual / Evergreen) · the Promo Calendar & Copy · the Registration
 Page copy · the Run-of-Show & Slide Brief (+ the Host Checklist) · the Follow-Up Sequences (+ the GoHighLevel
 workflow tables) · the Event Report. Rendered through `shared/render_doc.py` per `shared/doc-formatting.md`

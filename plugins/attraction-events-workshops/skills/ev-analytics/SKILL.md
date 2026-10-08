@@ -87,7 +87,8 @@ Never two fixes. Never anyone else's numbers. When behind: one line from the mem
 
 ## Step 5 — Write back (silent, then push)
 1. **`memory/events.md`** → the block's numbers line (replaced in place, `As of` today, `Source` as the member
-   stated), Status `held` → `debriefed`, the Debrief line (worked · failed · automate · delegate · remove · Next
+   stated), Status → `debriefed` (from `held` or `followed up`; from `promoting` too when the member skipped the
+   follow-up — say so in one line), the Debrief line (worked · failed · automate · delegate · remove · Next
    time), the header's `Last debriefed:` and `Events run:`. Evergreen: Status stays `live`; a refresh →
    `refreshed [date]`.
 2. **`memory/content-log.md`** → flip the event's own row (`[event] [code] — [theme]`, Format `live`) from

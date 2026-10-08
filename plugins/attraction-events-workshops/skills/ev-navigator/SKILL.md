@@ -35,7 +35,8 @@ before deciding it's missing), #3 (the compliance gate), #4 (the event teaches, 
   *"Before we plan an event agents will actually come to, let's get your Brain set up — it's what makes the
   invite, the training, and the follow-up sound like you. Say 'set up my attraction brain'; when that's done,
   say 'plan my workshop' and we pick straight back up."* A tool error is never "no Brain."
-- Read `config.md`. **First run** (no block whose heading starts with `## Events`) → create the `## Events (Week 6)`
+- Read `config.md`. **First run** (no block whose heading line starts with `## Events` and whose first line is
+  `Installed:` — the registry's bullet that merely names the block is not a block) → create the `## Events (Week 6)`
   block from the locked spelling in `brain-contract.md` with `Installed: [today]`, `Plugin version` (from this
   plugin's `plugin.json`), `Post-Event Follow-Up task: not offered yet`, the other keys empty; push via
   `attraction-brain-sync`. Say nothing about it.
@@ -46,15 +47,15 @@ before deciding it's missing), #3 (the compliance gate), #4 (the event teaches, 
 
 ## Step 1 — Where are they already? (one cheap look at `memory/events.md`)
 A returning member is never asked a question you could have answered yourself. Read the blocks; the **newest
-block whose Status is not `debriefed` (or `retired`) decides**. First match wins:
+block whose Status is not `debriefed`, `retired`, or (evergreen) `live` decides**. First match wins:
 
 | What you find | What it means | What you do |
 |---|---|---|
-| A block at `planned` with no Registration line and no promo | the brief exists, nothing built | *"Your [theme] [format] is briefed — next is the playbook and the registration page. Picking up there."* → the format skill (`ev-live` · `ev-virtual` · `ev-evergreen`), which routes on |
+| A block at `planned` | the brief exists; the playbook, the page, or the promo is still unbuilt (the event folder's docs and the block's Registration line show which) | *"Your [theme] [format] is briefed — next is [the first missing piece: the playbook / the registration page / the promo]. Picking up there."* → the format skill (`ev-live` · `ev-virtual` · `ev-evergreen`) when no playbook doc exists; else `ev-registration` → `ev-promo` → `ev-runofshow`, whichever is first undone |
 | A block at `promoting` and the date is still ahead | mid-launch | *"You're [n] days out from [theme]. Want the run-of-show, more promo, or the follow-up drafted ahead of time?"* — one question, a default ("I'd do the run-of-show now") · **your turn** |
-| A block at `held` (date passed) with no Follow-up line | the money moment | *"[Theme] happened [when] — the follow-up is the whole game now. Drafting it."* → `ev-followup` |
+| A block at `held` — or still `promoting` with the date passed — and no Follow-up line | the money moment | *"[Theme] happened [when] — the follow-up is the whole game now. Drafting it."* → `ev-followup` |
 | A block at `followed up` with no Debrief | numbers and lessons missing | *"Let's close the loop on [theme]: five numbers and a two-minute debrief, then the next one gets easier."* → `ev-analytics` |
-| Only `debriefed` blocks, or no blocks | fresh | the opener below → Step 3 |
+| Only `debriefed` or `retired` blocks (an evergreen at `live` is running, not pending), or no blocks | fresh | the opener below → Step 3 |
 | Can't read the Brain's event file / connector down | unknown | don't stall: say which connector failed in one plain line, ask one question with a default — *"Are we starting a new event, or finishing one? (If you're not sure, I'll assume new.)"* |
 
 ## Step 2 — What did they actually ask for? (route before you welcome)

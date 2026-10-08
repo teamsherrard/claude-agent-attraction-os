@@ -94,7 +94,11 @@ Read doctrine §4 now. **Propose, don't ask open questions** — the member reac
 Read doctrine §13–§14 now (for the block's words and the tag convention, which the brief states once).
 1. **`memory/events.md`** — open the block in the locked shape (`brain-contract.md`): the code, Format, `Status:
    planned`, Topic / For / Transformation, When / Where, Co-hosts, the share-plan counts, Docs path; the header's
-   `Next event:` line; `Member code` if new. Push via `attraction-brain-sync`; verify.
+   `Next event:` line; `Member code` if new. The header line (`Member code · Events run · Next event · Last
+   debriefed`) ships in the template — fill it and replace every bracketed placeholder on it (`Events run: 1`,
+   `Last debriefed: —`): the Conversion plugin reads `Next event:` and treats brackets or "none planned" as no
+   event. An older Brain with no header line gets it from the locked shape first. Push via `attraction-brain-sync`;
+   verify.
 2. **`config.md → Events block → Member code`** (first event only). Push.
 3. **Render the Event Brief** per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via
    `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/event-brief.txt "Event Brief · [code] · [YYYY-MM-DD].docx" --title "Event Brief — [event name]" --subtitle "[Name] · [Market]" --eyebrow "Events & Workshops"`
