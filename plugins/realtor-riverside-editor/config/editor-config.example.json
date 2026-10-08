@@ -15,7 +15,7 @@
   },
   "descript": {
     "connected_via": "",
-    "note": "Filled by the Descript editor's setup if that engine is also installed. Leave blank otherwise."
+    "note": "Optional. Leave blank unless another editor engine shares this config."
   },
   "brand_source": "<Brain home>/identity/brand-visual.md",
   "_brand_source_comment": "FALLBACK POINTER ONLY — where the brand block below gets refreshed FROM. Skills read the 'brand' block below at edit time (resolution order #1).",

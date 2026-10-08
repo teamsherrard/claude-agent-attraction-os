@@ -9,8 +9,7 @@ description: >
   Trigger on: "upgrade my attraction brain", "migrate my attraction brain", "is my attraction brain
   up to date", "my attraction brain looks out of date", "fix my attraction brain structure", or run
   this after a plugin update if a skill reports the Brain schema is behind. Do NOT trigger when the
-  member wants to change their information ("update my offer" / "update my brand" / "update my
-  story") — those edit content via the phase skills, not the Brain's structure.
+  member wants to change their information (update my offer / update my brand / update my story) — those edit content via the phase skills, not the Brain's structure.
 ---
 
 # Agent Attraction Brain — Migration

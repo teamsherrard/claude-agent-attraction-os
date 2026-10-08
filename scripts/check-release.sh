@@ -168,10 +168,14 @@ def triggers(f):
 theirs={}
 for f in glob.glob(REALTOR+"/*/skills/*/SKILL.md"):
     for t in triggers(f): theirs.setdefault(t,f.split("/plugins/")[1])
-bad=[]
+bad=[]; info=[]
 for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
+    if "/realtor-riverside-editor/" in f: continue   # the SAME plugin, vendored from the realtor marketplace
     for t in triggers(f):
-        if t in theirs: bad.append(f"{f}: \"{t}\" also triggers realtor {theirs[t]}")
+        if t in theirs:
+            if "/maa-claude-support/" in f: info.append(t)   # two help desks by design; the navigator's two-desks rule routes
+            else: bad.append(f"{f}: \"{t}\" also triggers realtor {theirs[t]}")
+if info: print(f"  · maa-claude-support shares {len(info)} generic help phrases with the realtor desk (by design; see the two-desks rule in its navigator)")
 if bad:
     print("  ✗ trigger phrases shared with the realtor marketplace (reword with 'attraction' / 'agent attraction' / 'my organization'):")
     for b in bad[:60]: print("      "+b)
