@@ -40,6 +40,19 @@ translation table and the honor-the-framing rule live there.
    problem comes first), quietly run the `maa-support-whatsnew` cycle. If their question is
    ABOUT what changed, run it now instead.
 
+
+## Two support desks on one machine (dual-cohort members)
+
+A member who also installed the realtor marketplace has TWO help desks: this one (Agent Attraction OS) and the Social Agent OS
+desk (`support-navigator`). Generic phrases ("help", "I'm stuck", "what week am I in") can reach either. Rule, before anything else:
+1. Detect: if `~/realtor-brain/brain.md` exists OR the realtor support config block exists, assume both desks are installed.
+2. Decide from the words first: anything naming agents, attraction, recruiting, the organization, a partner call, a Reel for
+   agents, or an MAA week → this desk. Anything naming buyers, sellers, listings, a market update, or an SAO week → the other desk
+   ("That one's the Social Agent OS desk — say *SAO help* and it takes over.").
+3. If the words don't say: ask ONCE, in plain language — "Is this about your agent attraction system or your realtor system?" —
+   and remember the answer for the session (`config.md → Support desk: attraction`), never asking again.
+4. Explicit phrases always win: "MAA help", "attraction help", "agent attraction support" → this desk, no question asked.
+
 ## Step 1 — First contact (two modes — read the room)
 
 **Mode A — they just LAUNCHED it** (a bare "hi", a launch click, an open with no problem

@@ -19,13 +19,13 @@ Thumbnail docs already in Downloads.*
 | 1 | AI Brain (W1) | `attraction-` | 26 | duplicate + rebuild interview | realtor-ai-brain · workshop aa-* skills |
 | 2 | Support (W1) | `support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
 | 3 | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `ds-` | 15 | duplicate + 4 new | Claude Design suite v2 (Desktop) |
-| 4 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
-| 5 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
-| 6 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
-| 8 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
-| 9 | AI Admin (W5) | `admin-` | 7 | duplicate + re-stage | realtor-ai-admin |
-| 11 | Lead Magnet (W6) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
-| 12 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops | anthropic-skills:workshop-ops |
+| 3 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
+| 4 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
+| 5 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
+| 6 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
+| 7 | AI Admin (W5) | `admin-` | 7 | duplicate + re-stage | realtor-ai-admin |
+| 8 | Lead Magnet (W6) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
+| 9 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops | anthropic-skills:workshop-ops |
 
 **Not carried into this OS at all (user, 2026-10-08):** the Listing Launch plugin and the Market System plugin. Agent attraction has nothing to do with listings or market updates. They are not forked, not referenced by any MAA skill or stack map, and the realtor copies are untouched.
 
@@ -37,6 +37,8 @@ Brain path and skill reference, swap the stack map and calendar. No creative wor
 ---
 
 ## 1. The cross-plugin contract (define once, every plugin obeys)
+
+**Numbering, one scheme everywhere (marketplace, README, Support stack map):** 1 Brain · 2 Support · 3 Short-Form · 4 Riverside · 5 YouTube · 6 Conversion & Sales · 7 AI Admin · 8 Lead Magnet · 9 Events; the Design Studio is unnumbered (a Claude Design skill set).
 
 **Prefixes are the collision guard.** `yt-`, `sf-`, `lm-`, `cv-`, `sales-`, `team-`, `ds-`, `ev-`, `admin-`, `studio-`,
 `support-`, `attraction-` never overlap with the realtor plugins' `youtube-`, `shortform-`, `leadcapture-`, `realtor-`. Trigger
@@ -143,7 +145,7 @@ review recommended, and every member posting it in Week 2 is retargeting content
 
 ---
 
-## 4. Plugin 4 — Short-Form (`sf-`, 13 skills)
+## 4. Plugin 3 — Short-Form (`sf-`, 13 skills)
 
 Forks `realtor-shortform-system` (15 skills). The realtor plugin's shared doctrine (`mike-frameworks.md`, `advisor-playbook.md`,
 `publishing-guide.md`, `output-standard.md`, `composio-data-engine.md`) copies over; `mike-frameworks.md` is rewritten for attraction.
@@ -175,7 +177,7 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 ---
 
-## 5. Plugin 5 — AI Editor, Riverside (`studio-`, 28 skills)
+## 5. Plugin 4 — AI Editor, Riverside (`studio-`, 28 skills)
 
 **Mechanical fork of `realtor-riverside-editor` v0.4.1.** No creative changes. What the fork touches:
 
@@ -190,7 +192,7 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 ---
 
-## 6. Plugin 6 — YouTube (`yt-`, 19 skills)
+## 6. Plugin 5 — YouTube (`yt-`, 19 skills)
 
 Forks `realtor-youtube-system` (19 skills). The shared doctrine (`youtube-doctrine.md`, Mike's 30-section realtor KB) is **replaced**, not edited:
 `shared/attraction-youtube-doctrine.md` is written from the Week 4 vault (9 lessons), the VIP day framework (Problem → Situation → Future
@@ -231,7 +233,7 @@ Where the plan referenced it: `yt-thumbnail` uses the `ds-thumbnail-layout` desi
 without the animation hand-off; `studio-broll` uses Riverside's stock library only; Events and Lead Magnet ad creatives are design
 briefs for Claude Design. The SAO clone and thumbnail docs in Downloads stay as reference if this is revived later.
 
-## 8. Plugin 8 — Conversion & Sales (`cv-` + `sales-`, 19 skills)
+## 8. Plugin 6 — Conversion & Sales (`cv-` + `sales-`, 19 skills)
 
 **New build** on Mike's recorded frameworks. Doctrine file `shared/conversion-doctrine.md` is written from the Week 5 vault (Presentation & Delivery, 5
 lessons; Objection Handling, 17 lessons; Simple Tech Stack, 2) plus the Launching doc's skill specs (Agent Intel, Conversation Starter, Conversation Coach,
@@ -271,7 +273,7 @@ Week 7 fast-action bonus and stays out of v1.
 
 ---
 
-## 9. Plugin 9 — AI Admin (`admin-`, 7 skills)
+## 9. Plugin 7 — AI Admin (`admin-`, 7 skills)
 
 Forks `realtor-ai-admin` (17 skills) down to the attraction layer. The realtor admin stays the realtor's admin; this one only runs the organization.
 
@@ -294,7 +296,7 @@ Forks `realtor-ai-admin` (17 skills) down to the attraction layer. The realtor a
 
 Removed from the OS by the user on 2026-10-08. Not built. `memory/organization.md` stays in the Brain (capture and the Admin plugin write joins to it); the Design Studio's `ds-recognition` reads it for Win Wall posts.
 
-## 11. Plugin 11 — Lead Magnet (`lm-`, 11 skills)
+## 11. Plugin 8 — Lead Magnet (`lm-`, 11 skills)
 
 Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and output standard copy over; the first magnet is locked.
 
@@ -316,7 +318,7 @@ Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and
 
 ---
 
-## 12. Plugin 12 — Events & Workshops (`ev-`, 10 skills)
+## 12. Plugin 9 — Events & Workshops (`ev-`, 10 skills)
 
 **New build** from `anthropic-skills:workshop-ops` (Mike's own workshop ops skill) and the Week 6 vault's Live / Virtual / Evergreen lessons, plus the Launching doc's `/launch-event` spec.
 

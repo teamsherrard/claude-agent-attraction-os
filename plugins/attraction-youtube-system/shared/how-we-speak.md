@@ -44,7 +44,7 @@ shape, warm and short:
    upgrade, never a defect: *"One thing that would make every script sound more like you: an 8-minute
    recording of how you actually talk. Say 'capture my speaking voice' whenever you want."*
 3. **The next thing on the calendar, if it's obvious** — "Your Partner Offer is this week's session; say 'build
-   my offer' when you're ready" — one line, never a lecture.
+   my partner offer' when you're ready" — one line, never a lecture.
 4. **Their turn:** *"What do you want to build today?"*
 
 **Never open with a list of problems.** A returning member seeing three deficiencies before they've asked for

@@ -21,8 +21,8 @@ Mike (2026-10-08): not a plugin, parked.
 | 6 | **YouTube** (W4) | `yt-` | 19 | coming W4 | "Set up my YouTube engine" |
 | 8 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | coming W5 | "Set up my conversion engine" |
 | 9 | **AI Admin** (W5) | `admin-` | 7 | coming W5 | "Set up my AI admin" |
-| 11 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
-| 12 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
+| 8 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
+| 9 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
 
 (#7 was the Creative Studio and #10 Team & Retention — both removed. Numbering keeps the cohort doc's slots so the Setup Guide
 and the playbooks agree.) "Coming" plugins: say so honestly — *"that one switches on in Week N;
@@ -97,8 +97,8 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Build an intel report on [agent]" · "a conversation starter for [agent]" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow up with [agent]" · "reactivate cold leads" | `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 8 |
 | "Set up my sales system / booking page / show-up sequence" | `sales-system-setup` · `sales-booking-page` · `sales-show-up` | 8 |
 | "My pipeline / move [agent] to [stage]" · "my follow-up queue" · "my daily brief" · "my scorecard / CEO review" · "monthly KPI review" · "team wins newsletter" | `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-scorecard` · `admin-monthly-review` · `admin-newsletter` | 9 |
-| "Build my lead magnet / opt-in / the Honest Brokerage Comparison Guide / nurture sequence" | the `lm-*` skills (magnet ideas → design → delivery → nurture → partnerships → analytics) | 11 |
-| "Plan my virtual workshop / live event / evergreen webinar / event follow-up" | the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 12 |
+| "Build my lead magnet / opt-in / the Honest Brokerage Comparison Guide / nurture sequence" | the `lm-*` skills (magnet ideas → design → delivery → nurture → partnerships → analytics) | 8 |
+| "Plan my virtual workshop / live event / evergreen webinar / event follow-up" | the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 9 |
 | "My workbook / playbook worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the Brain's interviews ARE the worksheet | 1 |
 
 ## Brain files each plugin reads and owns (the cross-plugin contract)
@@ -118,8 +118,8 @@ fix.
 | YouTube (6) | same as Short-Form + `content-pillars · brokerage-model · prospect-intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
 | Conversion (8) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
 | AI Admin (9) | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
-| Lead Magnet (11) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md`, the second CTA line in `voice.md` |
-| Events (12) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
+| Lead Magnet (8) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md`, the second CTA line in `voice.md` |
+| Events (9) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
 
 **Pipeline stages, locked OS-wide:** `Identified → Conversation → Call booked → Call held → 3-way →
 Joined → Onboarded → Active`. The AI Admin owns stage moves; Conversion, Events, and the Debrief
@@ -205,7 +205,7 @@ means the yes was never given or the Cowork task was never created — diagnosti
 - Depends on: Brain (`operations`) + Gmail + Google Calendar (or Microsoft 365). Never auto-sends.
   Owns pipeline stage moves; "the stages look different in two places" = log it.
 
-### Plugin 11 — Lead Magnet (W6) · Plugin 12 — Events (W6) — coming
+### Plugin 8 — Lead Magnet (W6) · Plugin 9 — Events (W6) — coming
 
 *Team & Retention was removed from the OS on 2026-10-08 (not built). `memory/organization.md` stays in the Brain; capture and the AI Admin write joins to it.*
 - All read the Brain's `offer`/`avatars`/`compliance`; Lead Magnet's first magnet is the Honest
@@ -231,3 +231,8 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | "It says it sent/saved/booked it — I can't find it" | Claimed-done ≠ done: verify with one cheap read | Diagnostics tree #9 |
 | "Do I need Higgsfield / the AI clone / the Thumbnail Employee?" | Parked — not in this OS | Honest answer; log the ask |
 | "Where's the listing / market update skill?" | Not part of agent attraction; those are realtor-cohort plugins | Honest answer; if they're in both cohorts, that's the realtor stack |
+
+
+## Two support desks (dual-cohort members)
+
+If the realtor marketplace is also installed, two help desks exist. This desk answers anything about agents, attraction, recruiting, the organization, partner calls, or an MAA week; the Social Agent OS desk answers buyers, sellers, listings, market updates, and SAO weeks. Explicit phrases: *MAA help* / *attraction help* → this desk; *SAO help* → the other. When the words don't decide, the navigator asks once and remembers (`config.md → Support desk`).

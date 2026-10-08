@@ -8,12 +8,10 @@ description: >
   local team — the trade-offs of each including the member's own, and the questions to ask any
   brokerage or sponsor. No ranking, no named-brokerage criticism, no compensation figures or
   promises; hard 3-state compliance gate. From campaign two it writes what magnet-ideas picked.
-  Delivers the full guide as clean text, saves a formatted doc in the campaign folder, logs it in
-  the Brain so every system points its CTA at it, hands off to the funnel. CONTENT ONLY — never
-  designs the PDF.
+  Saves a formatted doc, logs it in the Brain so every system's CTA points at it, hands off to the
+  funnel. CONTENT ONLY — never designs the PDF.
   Trigger on: "write my brokerage comparison guide", "write my lead magnet for agents", "agent
-  attraction lead magnet", "write my switching checklist", "write my questions-to-ask-a-sponsor
-  guide", "write the guide agents download".
+  attraction lead magnet", "write my switching checklist", "write the guide agents download".
 ---
 
 # Lead Magnet Writer (Step 1 — content only)

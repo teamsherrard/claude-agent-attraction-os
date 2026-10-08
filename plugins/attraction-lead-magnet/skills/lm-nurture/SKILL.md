@@ -84,8 +84,8 @@ featured" — say that to the member as the reason to feature partners) · one w
 day every week (`list-growth.md` → Newsletter day; propose one if blank — the day after their main video
 drops). ≤ 300 words, skimmable, one idea per block, the member's spoken cadence. Never two asks.
 Before writing: scan `content-log.md` for this week's content and `list-growth.md` for last week's topic so
-you never repeat. Stamp any story's Used-where in `story-bank.md`? No — that file isn't ours; note the story
-in the newsletter row's Note instead.
+you never repeat. `story-bank.md` isn't this plugin's to write — note which story the newsletter used in the
+`list-growth.md` Note instead, so the next newsletter doesn't reuse it.
 
 ## Step 2 — Deliver, save, log
 1. Deliver in chat — each email as `Subject:` + body, paste-ready for their tool.

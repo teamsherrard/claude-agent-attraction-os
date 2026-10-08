@@ -8,11 +8,11 @@ description: >
   a write. Appends a weekly row to memory/list-growth.md, updates the magnet's running totals in
   memory/magnets.md, and hands "calls booked from the funnel" to the Brain's weekly check-in
   through the scorecard's locked shape — it never writes the scorecard itself. Verdicts come from
-  the member's own numbers, dated and sourced; nothing is estimated. Private output; fixes route
-  to the skills that own them.
+  the member's own numbers, dated; nothing is estimated. Private output; fixes route to the skills
+  that own them.
   Trigger on: "how is my lead magnet doing", "opt-in rate for my guide", "list growth", "how many
   agents grabbed my guide", "magnet-to-call conversion", "is my attraction funnel working", "lead
-  magnet report", "my list numbers this week".
+  magnet report".
 ---
 
 # Lead Magnet Analytics — opt-ins, list growth, calls

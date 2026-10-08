@@ -5,15 +5,13 @@ description: >
   brokers, title and escrow officers, inspectors, appraisers, coaches, vendors, and other leaders
   who talk to agents every day and hear their frustrations first (Mike's strategic partnerships
   lesson). Selfless and value-first: positioned as helping agents succeed, never "send me
-  recruits"; gives each partner something to pass along (the comparison guide, an event invite, a
-  training), a thank-you for every introduction, and a partner ledger in memory/list-growth.md.
-  The list comes from the member's own sphere (named by them, never scraped); writes the first
-  message, the follow-up, and the thank-you in their voice. Draft-only — the member sends every
-  message. 3-state compliance gate; no referral fees, no compensation talk, nothing about any
-  other brokerage.
+  recruits"; gives each partner something to pass along (the guide, an event invite, a training),
+  a thank-you for every introduction, and a partner ledger in memory/list-growth.md. The list is
+  the member's own sphere (named by them, never scraped); writes the first message, the follow-up,
+  and the thank-you in their voice. Draft-only — the member sends every message. 3-state
+  compliance gate; no referral fees, no compensation talk.
   Trigger on: "partner outreach for attraction", "reach out to lenders about agents", "strategic
-  partners for agent attraction", "who can send me agents", "partner message for my guide", "thank
-  a partner for an introduction", "my partner list".
+  partners for agent attraction", "who can send me agents", "thank a partner for an introduction".
 ---
 
 # Strategic Partnerships — borrowed trust, warm introductions

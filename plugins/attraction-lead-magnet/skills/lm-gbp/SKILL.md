@@ -8,8 +8,8 @@ description: >
   services list that includes what they give licensed agents (from the Partner Offer, as outcomes,
   never compensation), seeded Q&A in their voice, the first month of posts pointed at the
   comparison guide and the call, review-reply templates, a photo checklist, and the social-links
-  setup that puts every Reel on the listing. Reads the Agent Attraction Brain; 3-state compliance
-  gate; copy only — never logs into Google or claims the profile.
+  setup that puts every Reel on the listing. Reads the Brain; 3-state compliance gate; copy only —
+  never logs into Google.
   Trigger on: "Google Business Profile for attraction", "position my Google profile for agents",
   "attraction GBP", "Google posts about my guide", "Google profile for my team", "Google profile
   for my brokerage".

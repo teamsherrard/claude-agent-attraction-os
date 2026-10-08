@@ -35,7 +35,7 @@ anyone and one only *this* leader could have written (house rules #8). Both entr
 *The guide speaks to one type of agent. The emphasis shifts with it: new agents compare side by side and need
 the mechanics explained from zero (`02-prospect-targeting/21`); experienced agents are "skeptical of failed
 promises" and need the trade-offs said straight (`/22`); a top producer or team leader reads the after-cap
-and team-brand pages first (`/23`, `/25`). The funnel speaks to the same agent.*
+and team brand pages first (`/23`, `/25`). The funnel speaks to the same agent.*
 
 - **Pre-fill from:** `avatars.md` → Avatar 1 (PRIMARY) — the type and the one-line target.
 - **Ask like:** *"I'll write this for [the type of agent, in plain words — e.g. 'agents two to five years in
@@ -49,7 +49,7 @@ and team-brand pages first (`/23`, `/25`). The funnel speaks to the same agent.*
 ## Q2 — Which models do we compare?
 
 *The four model types, their own first — always. The question is whether one is irrelevant in their market
-or one needs adding (a team inside a brokerage, for a team-leader audience).*
+or one needs adding (a team inside a brokerage, for a team leader audience).*
 
 - **Pre-fill from:** `profile.md` → Model type (theirs) + the four types in `references/magnet-guide.md`
   (cloud brokerage with revenue share · franchise split, with or without a cap · flat fee / 100% · independent

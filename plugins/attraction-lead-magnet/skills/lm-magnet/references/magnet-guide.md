@@ -46,7 +46,7 @@ trade-offs of each — including mine — and the questions to ask any brokerage
 4. **Franchise split brokerage, with or without a cap** — standard shape.
 5. **Flat-fee / 100% brokerage** — standard shape.
 6. **Independent or local brokerage, and the local team** — standard shape (a team inside any brokerage is a
-   model of its own for a team-leader reader: the leader provides leads, systems, training, admin; agents pay
+   model of its own for a team leader reading it: the leader provides leads, systems, training, admin; agents pay
    a team split on top of the brokerage split).
 7. **The questions to ask any brokerage or sponsor** — the checklist page, from intake Q4 + the standard
    list (§ below). The page agents screenshot. Close it with the two questions Mike makes every member able to

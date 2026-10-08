@@ -8,11 +8,11 @@ description: >
   outcomes, never compensation), The Organization, Proof + photo strip, Socials (only if they have
   channels), The Opt-in with a mini-FAQ — in the member's voice. One job on the page: the opt-in
   (pop-up: first name, email, phone). The thank-you page carries the instant download AND the
-  book-a-call step. Hard 3-state compliance gate; the static Netlify form rule for the design step
-  (ds-funnel, opt-in shape). COPY + STRATEGY ONLY — never designs or hosts.
+  book-a-call step. Hard 3-state compliance gate; the static Netlify form rule for ds-funnel. COPY
+  + STRATEGY ONLY — never designs or hosts.
   Trigger on: "write the page for my comparison guide", "opt-in page for agents", "attraction
   funnel copy", "the page that gives away my agent lead magnet", "set up my attraction funnel"
-  when a guide exists. No guide yet → lm-navigator.
+  when a guide exists.
 ---
 
 # Opt-In Funnel Mapper (Step 2 — copy + strategy only)

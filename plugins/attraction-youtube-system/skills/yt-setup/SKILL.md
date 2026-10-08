@@ -1,16 +1,17 @@
 ---
 name: yt-setup
 description: >
-  One-time onboarding for the Agent Attraction YouTube System. Reads the member's Agent Attraction Brain
-  (who they are, the agents they attract, their offer, story, voice, compliance) and never re-asks it; captures
-  only the channel; then builds the channel positioned for attraction — the about text, playlists by lane
-  (Problem · Situation · Future · Interviews · Model), the banner brief for Claude Design, upload defaults with
-  the book-a-call line first, and the two-CTA line — as a paste-by-paste Channel Page Kit; writes the channel
-  file to the Brain; then hands straight into the YouTube Game Plan. Works for a brand-new channel or fixes an
-  existing one. Triggers on "set up my YouTube for agents", "set up my attraction channel", "set up my channel
-  for agents", "start my YouTube attraction system", "launch the attraction YouTube plugin", "open my attraction
-  YouTube system", "fix my channel for agents", "my channel page for agents", "channel playlists for agents",
-  "upload defaults for my attraction channel". Not for a realtor's buyer-and-seller channel.
+  One-time onboarding for the Agent Attraction YouTube System. Reads the member's Agent Attraction
+  Brain (who they are, the agents they attract, offer, story, voice, compliance) and never re-asks
+  it; captures only the channel; then builds the channel positioned for attraction — about text,
+  playlists by lane (Problem · Situation · Future · Interviews · Model), the banner brief for Claude
+  Design, upload defaults with the book-a-call line first, the two-CTA line — as a paste-by-paste
+  Channel Page Kit; writes the channel file to the Brain; then hands into the YouTube Game Plan. New
+  or existing channel. Triggers on "set up my YouTube for agents", "set up my attraction channel",
+  "set up my channel for agents", "start my YouTube attraction system", "launch the attraction
+  YouTube plugin", "open my attraction YouTube system", "repair my channel for agents", "my channel
+  page for agents", "attraction playlists for agents", "attraction upload defaults". Not for a
+  realtor's buyer-and-seller channel.
 ---
 
 # Agent Attraction YouTube System — Setup
