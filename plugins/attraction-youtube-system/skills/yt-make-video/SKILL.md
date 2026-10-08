@@ -27,29 +27,37 @@ video's folder. The member only ever feels "we're making my video." Apply
 
 ## Step 0 — Set up the video
 Confirm the idea/title and its **bucket** (Problem · Situation · Future · Interview · Model — the content-log
-Pillar cell carries Authority / Proof / Perspective by the mapping in `brain-contract.md`). If it came from
-`~/attraction-brain/memory/ideas.md`, mark that row Used now (this is where an idea becomes a video); if it drew
-on a `memory/intel.md` row, mark that row's `Used?` column now too. Read
-`brain.md`, then `identity/content-pillars.md` (cadence, the two CTAs), `identity/avatars.md`,
-`identity/voice.md`, `identity/story-bank.md` (pick one story, unused recently — the content-log says which
-are fresh), `memory/content-log.md` (no repeats), `identity/compliance.md` (status now, so an `unset` is known
-before work starts). Resolve the save spot: `03 · Content/Long-Form/{YYYY-MM-DD · Title}/` (naming per
+Pillar cell carries Authority / Proof / Perspective by the mapping in `brain-contract.md`). Read `brain.md`, then
+only three more files now — the rest open at the step that uses them: `identity/compliance.md` (the first line,
+`Status:` — so an `unset` is known before work starts), `memory/content-log.md` (no repeats; this video's row if
+`yt-interview` or `yt-model-breakdown` already wrote one), `identity/avatars.md` (the viewer this video is for).
+Resolve the save spot: `03 · Content/Long-Form/{YYYY-MM-DD · Title}/` (naming per
 `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`). Say where it saves in plain words and
 suggest naming the chat after the video. Missing local Brain → `attraction-brain-sync` first; a tool error is
 never "no Brain".
 
-**Interview?** Run `yt-interview` first if the guest is not yet in `memory/interview-pipeline.md` at Booked
-or later. **Model breakdown?** Run `yt-model-breakdown` (it gates on `identity/brokerage-model.md`).
+**Opened later:** Step 1 → `identity/voice.md` · `identity/story-bank.md` · (an interview) `memory/interview-pipeline.md` ·
+(only if the idea came from them) `memory/ideas.md` · `memory/intel.md` · Step 2 → `identity/content-pillars.md` ·
+Step 6 → `identity/publishing.md`. The script, thumbnail, SEO, lead-map, and repurposing skills open their own
+files in their own step — never here.
 
 ## Step 1 — Lock the packaging (before the script)
+**Read now:** `identity/voice.md` (the hook in their voice) · `identity/story-bank.md` (pick one story, unused
+recently — the content-log says which are fresh). **Interview?** Open `memory/interview-pipeline.md`; run
+`yt-interview` first if the guest is not yet there at Booked or later. **Model breakdown?** Run `yt-model-breakdown`
+(it gates on `identity/brokerage-model.md`).
 Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3–5 real videos agents
 find for this exact question — `link · channel · ~views · what works · what's missing · how ours is more
 useful`. Real links only; the cardinal rules apply to how competitors are described (what is missing, never
 what is wrong with them). Then lock the **title** (the viewer's question, pain or desire named — `97`), the
 **hook** (the first 15–30s, straight into the question, no "welcome back"), and the **story** from the bank.
 Give the member the references in chat: *"watch these three before you film — here's what each does well."*
+Once the title locks — still the start of the video chat, never pick time — if the idea came from
+`~/attraction-brain/memory/ideas.md`, open it and mark that row Used now (this is where an idea becomes a video);
+if it drew on a `memory/intel.md` row, mark that row's `Used?` column now too.
 
 ## Step 2 — Script
+**Read now:** `identity/content-pillars.md` (cadence, the two CTAs the script, SEO, and lead map all honor).
 `yt-script` writes the full teleprompter script in the member's voice on the structure: hook → resource CTA
 around the first minute → body → book-a-call CTA a third to halfway in and again at the end → the next-video
 pointer (`98`, `99`). Format by bucket (Why I Switched · Pain Point · Model Breakdown · Niche Breakdown;
@@ -70,7 +78,7 @@ Lead Magnet plugin has not built one yet, the book-a-call CTA carries it and the
 coming). Save as **Lead Map** only if a resource was mapped.
 
 ## Step 6 — The board card (if they have the board — before filming)
-If `identity/publishing.md` has a `Content board:` link, find this video's card (System ID → exact title →
+Open `identity/publishing.md` now; if it has a `Content board:` link, find this video's card (System ID → exact title →
 near match) and fill it per `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`: script, SEO, thumbnail
 brief, the references, Status → Scripted. No board or `declined` → skip silently, never nag.
 
@@ -94,8 +102,8 @@ three distribution sentences (`yt-interview` Step 6).
 content-log rows. Then: *"next week, say 'what's my next attraction video' and we pick from the plan."*
 
 ## Compliance gate
-Before the script, the SEO package, or the thumbnail brief leaves the chat: `identity/compliance.md` —
-`unset` → stop at that step, say plainly the rules are not set, keep drafts private; `set` → apply and remind
+Before the script, the SEO package, or the thumbnail brief leaves the chat: `identity/compliance.md`'s first
+line, `Status:` (read at Step 0) — `unset` → stop at that step, say plainly the rules are not set, keep drafts private; `set` → apply and remind
 once; `confirmed` → apply. Never "if empty, proceed".
 
 ## Rules

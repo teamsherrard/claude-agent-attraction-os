@@ -33,7 +33,8 @@ call") · `identity/avatars.md` (the primary type; a per-type variant on request
 `## Why join me` · `identity/proof.md` (real, cleared) · `identity/story-bank.md` (one story; stamp
 `Used-where`) · `identity/brand-visual.md` (for the design brief) · for a named prospect: the intel report, the
 call prep, the conversation rows — the three things are THEIRS.
-Compliance: the one-pager is something a prospect sees → `identity/compliance.md` **unset → the outline
+Compliance: the one-pager is something a prospect sees → `identity/compliance.md` first line `Status:` —
+**unset → the outline
 renders, the one-pager and the brief are held** with one warm line; **set** → apply and remind once; **confirmed**
 → apply.
 

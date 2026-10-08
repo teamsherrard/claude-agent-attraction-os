@@ -30,7 +30,7 @@ script is written for them; a secondary type gets a short variant block) · `ide
 three stories by pain; stamp `Used-where` when placed) · `identity/proof.md` · `memory/objections.md` (the
 objections this member actually hears) · `config.md` Conversion block (`Partner call length`).
 Compliance: the script is private-call material; the next-steps and welcome email templates inside it are
-public → `identity/compliance.md` **unset holds those two blocks** with one line; `set` → apply and remind once;
+public → `identity/compliance.md` first line `Status:` — **unset holds those two blocks** with one line; `set` → apply and remind once;
 `confirmed` → apply; the rest renders either way.
 
 **Fast lane:** Brain loaded → ONE line and the script. ONE question only if the Conversion block has no call

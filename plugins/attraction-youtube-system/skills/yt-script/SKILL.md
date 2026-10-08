@@ -31,23 +31,27 @@ this skill writes the **content-log row at Scripted**, stamps a story's **Used-w
 - **The idea package** — from ideation / make-video (title · bucket · hook · avatar · pain · signal · thumbnail
   text) or the member's own. If their own: shape the title and angle with them in one exchange, assign the
   bucket (Problem · Situation · Future · Interview · Model), then write.
-- **The Brain:** `identity/voice.md` (tone, hard-avoids) **and `voice-print.md`** (spoken cadence, signature
-  phrases, never-say — the primary reference for a read-aloud script; empty = proceed on `voice.md`, never
-  invent a personality) · `avatars.md` (the viewer, their pain in their words) · `offer.md` (the resource — `memory/magnets.md → ## Current magnet` first when it exists; `seeds`
-  → the resource CTA is the Partner Call) · `identity/channel.md` → the CTA line and the booking link ·
-  `story-bank.md` (stories tagged to this pain or beat — rotate; check `content-log.md` for recent use) ·
-  `proof.md` (real lines only, consent respected) · `journey.md` (Why I Switched material — the wall, never the
-  company) · `brokerage-model.md` (Model Breakdown — mechanics only; empty → *"say 'explain my model to me'
-  first so the breakdown is accurate"* → `attraction-brokerage-model`, stop) · `memory/objections.md` (the
-  objection this video answers) · `memory/intel.md` (a dated fact to cite, if relevant).
+- **The Brain:** `brain.md`, then only three more files now — the rest open at Step 2 once the format is chosen:
+  `identity/voice.md` (tone, hard-avoids) **and `voice-print.md`** (spoken cadence, signature phrases, never-say —
+  the primary reference for a read-aloud script; empty = proceed on `voice.md`, never invent a personality) ·
+  `identity/compliance.md` (the gate below — its first line, `Status:`).
+  **Opened at Step 2, by the format's Pull list:** `avatars.md` (the viewer, their pain in their words) ·
+  `offer.md` (the resource — `memory/magnets.md → ## Current magnet` first when it exists; `seeds` → the resource
+  CTA is the Partner Call) · `identity/channel.md` → the CTA line and the booking link · `story-bank.md` (stories
+  tagged to this pain or beat — rotate; check `content-log.md` for recent use) · `proof.md` (real lines only,
+  consent respected) · `journey.md` (Why I Switched only — the wall, never the company) · `brokerage-model.md`
+  (Model Breakdown only — mechanics; empty → *"say 'explain my model to me' first so the breakdown is accurate"*
+  → `attraction-brokerage-model`, stop) · `memory/objections.md` (the objection this video answers) ·
+  `memory/intel.md` (a dated fact to cite, if relevant).
 - **Research facts** — only sourced ones from the Brief or the member (`(source, date)`); anything else is
   `[double-check before filming]`, never a guess.
-- **Compliance, 3-state (`identity/compliance.md`):** a script is public. **unset → stop:** *"Before I write
+- **Compliance, 3-state (`identity/compliance.md` — read at Step 1, its first line `Status:`):** a script is public. **unset → stop:** *"Before I write
   anything you'll say on camera, I need your compliance basics — three minutes"* → `attraction-compliance`.
   set → write, apply, remind once. confirmed → write, apply.
 - Missing local Brain → `attraction-brain-sync` first; a tool error is never "no Brain."
 
 ## Step 2 — Choose the format (`references/format-playbooks.md`)
+Open the chosen format's **Pull** files now (the Step 1 list) — only that format's.
 Bucket → format: Situation with the member's own story → **Why I Switched** · Problem / Situation → **Pain Point
 Series** · Model → **Model Breakdown** · Problem / Future deep teach → **Niche Breakdown** · Interview → the
 **intro (recorded last) + outro + joint CTA** (the question map and the guest's prep belong to `yt-interview`).

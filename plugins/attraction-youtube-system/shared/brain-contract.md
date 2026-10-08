@@ -57,6 +57,9 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   Scripted → Ready to Film → Recorded → Published`. `Ready to Film` is board-only; `Edited` is log-only.
 - **Compliance status:** unset · set · confirmed. **Offer status:** seeds · finalized by member · built in Week 2.
   **Score vocabulary:** Ahead · On pace · Behind.
+- **Top-50 `Source` values** (locked list, written only through `attraction-top-50`): `youtube · instagram · referral ·
+  sphere · event · lead-magnet · other` — provenance after `via`, e.g. `youtube via comment on "[video]"`. Never the
+  old free-text `YouTube comment · [video]`.
 
 ## What this plugin READS (read-only, never written here)
 `brain.md` · `identity/profiles.md` (the bios file — one H2 per platform incl. YouTube; `sf-setup` writes it,
@@ -73,7 +76,7 @@ five pillars, cadence, the two CTAs — Week 3) · **`publishing.md`** (the `Con
 repeats) · `memory/ideas.md` (tags `youtube` and `interview`; the member's own ideas come first) ·
 `memory/intel.md` (dated brokerage and industry news for model and Situation videos) · `memory/objections.md`
 (the questions Situation and Model videos answer) · `memory/top-50.md` and `memory/organization.md` (the
-interview guest lane; the Source column "YouTube comment · [video]" is the attraction signal) ·
+interview guest lane; a Source of `youtube via comment on "[video]"` is the attraction signal) ·
 `memory/conversations.md` and `memory/pipeline.md` (read-only: which videos get named) · `memory/scorecard.md`
 (Targets block and weekly rows — read only) · `memory/magnets.md` (Week 6, when it exists). Plus, by
 relevance, the workspace per the Brain's `drive-map.md`: `02 · Brand` (the kit), `03 · Content/Long-Form`

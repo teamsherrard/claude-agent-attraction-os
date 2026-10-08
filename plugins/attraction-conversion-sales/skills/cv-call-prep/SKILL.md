@@ -103,8 +103,9 @@ usually rewatch the piece that brought them in) and the offer of the document.
   · [Date].docx` → `04 · Agents/Prospects` (fallback: the `.md` upload, one line, nothing installed).
 - No conversation row is written before the call. After it, hand to `cv-debrief` ("tell me how it went") —
   that is where the row, the stage request, and the follow-up draft happen.
-- Compliance gate (three-state): the brief is private. Only the next-steps email draft inside it is public →
-  `unset` holds that one piece with one line; `set` → apply and remind once; `confirmed` → apply.
+- Compliance gate (three-state — the first line of `identity/compliance.md`, `Status:`): the brief is private.
+  Only the next-steps email draft inside it is public → `unset` holds that one piece with one line; `set` →
+  apply and remind once; `confirmed` → apply.
 
 ## The Call Block Prep agent (daily · owned here · explicit yes, never silent)
 1. **Consent first, one line:** *"I can prep every partner call on your calendar each morning at [7:00 am] —

@@ -29,16 +29,19 @@ no one to interview yet, say so without drama: the first guests are the people t
 guest, a result, or a quote.
 
 ## Step 1 — Read the Brain (never re-ask what it knows)
-`brain.md`, then only: `memory/organization.md` (agents, join dates, recognition given), `memory/top-50.md`
-(agents at Joined / Onboarded / Active, and friends at other brokerages who are willing to be guests),
-`identity/proof.md` (agents already helped, consent column), `identity/avatars.md` (which type each story is
-FOR), `identity/offer.md` (the value proposition the story proves), `identity/voice.md`, and
-`memory/content-log.md` + `memory/interview-pipeline.md` (who has already been featured, who is booked).
-`memory/ideas.md` rows tagged `interview` are the member's own guest ideas — they come first. If the local
-Brain is missing, pull it with `attraction-brain-sync` first; a tool error is never "no Brain".
+`brain.md`, then only three more files now — the rest open at the step that uses them:
+`memory/interview-pipeline.md` (who is booked, who has been featured — this plugin's file), `memory/ideas.md`
+rows tagged `interview` (the member's own guest ideas — they come first), `memory/organization.md` (agents, join
+dates, recognition given). If the local Brain is missing, pull it with `attraction-brain-sync` first; a tool error
+is never "no Brain".
+**Opened later:** Step 2 → `memory/top-50.md` · `identity/proof.md` · `identity/avatars.md` · `memory/content-log.md` ·
+Step 3 → `identity/offer.md` · `identity/voice.md` · `identity/compliance.md` (the first line, `Status:`).
 
 ## Step 2 — The guest list (who to interview — `08-youtube/95`)
-Rank candidates from the files above, one line each, never a protected characteristic, never a number the
+**Read now:** `memory/top-50.md` (agents at Joined / Onboarded / Active, and friends at other brokerages who are
+willing to be guests) · `identity/proof.md` (agents already helped, consent column) · `identity/avatars.md` (which
+type each story is FOR) · `memory/content-log.md` (who has already been featured).
+Rank candidates from these files and Step 1's, one line each, never a protected characteristic, never a number the
 member did not state:
 1. **New agent who closed fast** — a first deal inside the first 30–90 days.
 2. **Capped / hit an award tier** using the member's value proposition.
@@ -57,6 +60,9 @@ deal fast · capped · attracted your first agent · turned your business around
 the member's booking link — **draft only**, the member sends it.
 
 ## Step 3 — The title: hook AND transformation (every interview)
+**Read now:** `identity/offer.md` (the value proposition the story proves — the mechanism in the title) ·
+`identity/voice.md` (the title, the edification lines, and the invite in their voice) · `identity/compliance.md` —
+the first line, `Status:` (a title is public; the gate below applies from here).
 The title carries who they are, what they built, and the mechanism: **"How [first name] [transformation] and
 used [the mechanism]"** — e.g., "How Priya closed 6 deals in 90 days as a brand-new agent using YouTube".
 Rules: the result is the guest's own stated number or none (say "closed her first deal" rather than inventing
@@ -134,7 +140,7 @@ YYYY-MM-DD`** in the video's folder under `03 · Content/Long-Form/` (the Interv
   the join-and-win rows go to `attraction-capture` for `organization.md` recognition notes.
 
 ## Compliance gate
-Before any title, invite, or description leaves this chat: `identity/compliance.md` — `unset` → say plainly
+Before any title, invite, or description leaves this chat: `identity/compliance.md`'s first line, `Status:` — `unset` → say plainly
 that their compliance rules are not set yet and ask them to set them in the Brain first (keep the draft here,
 private); `set` → apply and remind once to confirm; `confirmed` → apply. Checks: no income or rev-share
 earnings claims; no compensation numbers; the two cardinal rules on every cut; brokerage name and license

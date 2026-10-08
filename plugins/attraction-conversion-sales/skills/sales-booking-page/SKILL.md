@@ -35,9 +35,10 @@ market), `identity/brand-visual.md` (for the brief), `identity/voice.md`, `ident
 Missing locally → `attraction-brain-sync`. A tool error is never "no Brain".
 
 ## Compliance gate — before a word is written (this page is public)
-`identity/compliance.md` **unset** → stop: *"Before I write anything an agent will read, I need your
-compliance basics — three minutes: say 'set up my attraction compliance'."* **set** → apply every rule; remind once to
-confirm. **confirmed** → apply. Applied rules: brokerage name exactly as it must appear, license display
+The first line of `identity/compliance.md` (`Status:`) — **unset** → stop: *"Before I write anything an agent
+will read, I need your compliance basics — three minutes: say 'set up my attraction compliance'."* **set** →
+apply every rule; remind once to confirm. **confirmed** → apply. Applied rules: brokerage name exactly as it
+must appear, license display
 where required, no compensation or income language, no superlative ("record-breaking", "#1",
 "fastest-growing") without a dated source in `proof.md`, the recruiting-scope line if the member attracts
 across states or provinces, nothing negative about anyone.

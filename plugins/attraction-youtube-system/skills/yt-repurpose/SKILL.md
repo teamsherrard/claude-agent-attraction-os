@@ -26,12 +26,16 @@ only — no editing. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §8 (t
 
 ## Input
 The script or transcript (the Studio's section map and its flagged best 30–45s when there is one), the video
-link, and the Brain: `identity/voice.md`, `identity/avatars.md`, `identity/content-pillars.md` (the two CTAs),
-`identity/offer.md`, `identity/compliance.md`, `memory/top-50.md` (for the conversation starters — read
-only), `memory/content-log.md` (this video's row, written at script and updated at publish).
+link, and the Brain — `brain.md`, then only three more files now, the rest at the piece that uses them:
+`identity/compliance.md` (the first line, `Status:`), `identity/voice.md`, `memory/content-log.md` (this video's
+row, written at script and updated at publish — the pillar, avatar, story, and CTA every derived row inherits).
+**Opened later:** the Shorts (1) → `identity/avatars.md` (the agent's question or fear the hooks open on) · the
+invites in 1–5 → `identity/content-pillars.md` (the two CTAs; the keyword itself from `identity/publishing.md`'s
+`Keyword:` line first, `content-pillars.md` second) and the resource (`memory/magnets.md → ## Current magnet` first
+when it exists, `identity/offer.md` second) · the conversation starters (6) → `memory/top-50.md` (read only).
 
 ## Produce the Repurposing Pack
-1. **Shorts scripts (3)** — 30–45s each, three distinct moments (the strongest line, the one tip, the
+1. **Shorts scripts (3)** (read `identity/avatars.md`, `identity/content-pillars.md`, and the resource file now) — 30–45s each, three distinct moments (the strongest line, the one tip, the
    "watch out"). Each: a hook that opens on the agent's question or fear → one point → the warm invite (book
    a call or the resource) → caption + hashtags. For interviews, Short 1 is the guest's flagged moment with
    the transformation line as the hook. The Riverside Studio's `studio-repurpose` cuts these from the
@@ -45,19 +49,21 @@ only), `memory/content-log.md` (this video's row, written at script and updated 
    invite. Draft only.
 5. **Blog post (1)** — 600–900 words, the video embedded at the top, keyword-led H1 from
    `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md`, H2s from the chapters, the two CTAs at the end.
-6. **Conversation starters (3)** — personal, selfless, value-first openers that use this video as the
+6. **Conversation starters (3)** (read `memory/top-50.md` now, read-only) — personal, selfless, value-first openers that use this video as the
    reason to reach out: one for a cold agent, one for an acquaintance, one for a past conversation. Each is
    two or three sentences in the member's voice, names a specific moment of the video that fits that
    person's situation, asks one easy question, and never pitches, never mentions compensation, never forces
    a call. Name the Top-50 rows each fits (read-only — this skill never writes `top-50.md`).
 
 ## The conversation-starter hand-off
-- If the Conversion plugin's `cv-conversation-starter` is available in this session, hand the three
-  starters to it by name with the video link and the matched Top-50 names; it personalizes per channel and
-  relationship state and owns the send-queue.
-- If it is not installed, append three rows to `~/attraction-brain/memory/ideas.md` in its locked shape
-  (Tag `general`, Idea = the starter text + "conversation starter from [video]", Avatar/pain, Status `open`)
-  so the Daily Debrief and the Week 5 plugin pick them up. Say which happened, in one plain line.
+- If the Conversion plugin's `cv-conversation-starter` is available in this session, hand the three starters to it
+  by name — each with the video title and the hook (the moment of the video) it came from, plus the video link and
+  the matched Top-50 names; it personalizes per channel and relationship state, and the member sends. This skill
+  never queues, sends, or tracks sends.
+- If it is not installed, hand the three starters to `attraction-capture` (it owns `memory/ideas.md`) to append in
+  the file's locked row shape — Tag `general`, Idea = the starter text + "conversation starter from [video title] —
+  [the hook it came from]", Avatar / pain, Status `open` — so the Daily Debrief and the Week 5 plugin pick them up.
+  This skill never writes `ideas.md` itself. Say which happened, in one plain line.
 
 ## Rules
 - Everything in the member's voice; the same sourced facts as the video — never a new stat, never a number
@@ -79,6 +85,6 @@ plugin or `ideas.md`, above.)
 Push via `attraction-brain-sync`; say what saved and what did not.
 
 ## Compliance gate (3-state)
-`identity/compliance.md` before the pack leaves the chat: `unset` → draft stays private, plain line that
+`identity/compliance.md`'s first line, `Status:`, before the pack leaves the chat: `unset` → draft stays private, plain line that
 the rules are not set; `set` → apply, remind once; `confirmed` → apply. No earnings claims, brokerage name
 and license display where the file requires it on posts, AI-likeness disclosure on any clone clip.

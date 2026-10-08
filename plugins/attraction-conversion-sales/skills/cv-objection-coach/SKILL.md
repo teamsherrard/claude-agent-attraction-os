@@ -41,7 +41,8 @@ Read `~/attraction-brain/brain.md`, then only what the mode needs:
 - `identity/offer.md`, `identity/positioning.md` — what the member actually provides (the reframe must be theirs).
 - `identity/proof.md`, `identity/story-bank.md` — the proof and the story every reframe leans on.
 - `identity/voice.md` — so the handle sounds like them.
-- `identity/compliance.md` — the gate, for anything written to a prospect or turned into content.
+- `identity/compliance.md` — its first line, `Status:`, is the gate for anything written to a prospect or
+  turned into content.
 - `memory/objections.md` — what THIS member has heard, what worked, and the practice log.
 - `memory/conversations.md`, `memory/top-50.md` — only in handle mode, for the named prospect.
 - `memory/organization.md` — handle mode only, for the future-pace line ("agents who joined felt that too").
@@ -119,9 +120,9 @@ me, or add a new one? Your turn."*
    Then **the mistake to avoid** for this one, in one line, and **if they push back again** — the second-
    layer question (most lessons carry one).
 4. **Compliance check** before anything leaves the chat for a prospect: if the member will send this in a DM
-   or email, run `identity/compliance.md` (unset → private use only, say so in one line; set → apply the
-   rules and remind once; confirmed → apply). Spoken on a call = private material; the cardinal rules and
-   the no-income rule still apply.
+   or email, read the first line of `identity/compliance.md`, `Status:` (unset → private use only, say so in
+   one line; set → apply the rules and remind once; confirmed → apply). Spoken on a call = private material;
+   the cardinal rules and the no-income rule still apply.
 5. **Log it:** append a row to `memory/objections.md` (date · objection verbatim · archetype · hidden fear ·
    from (type) · what the member will say (the handle, short) · Did it land? `pending` · Used in content?
    `no`) and, if the prospect is named, note the objection in their `conversations.md` row's **Objection

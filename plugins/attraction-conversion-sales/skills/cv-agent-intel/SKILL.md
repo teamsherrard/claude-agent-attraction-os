@@ -98,9 +98,9 @@ today without a report in the last 30 days) · `cv-navigator`. Called from anoth
 hands the report back; the member sees only the result.
 
 ## Rules
-- Compliance (`identity/compliance.md`, three-state) gates only section 10, the opening message — the report
-  itself is private. Unset → write the report, hold the message, say why in one line; set → apply the rules and
-  remind once to confirm with the brokerage; confirmed → apply.
+- Compliance (the first line of `identity/compliance.md`, `Status:`, three-state) gates only section 10, the
+  opening message — the report itself is private. Unset → write the report, hold the message, say why in one
+  line; set → apply the rules and remind once to confirm with the brokerage; confirmed → apply.
 - The quality bar: the delete test · the any-agent test (an "opportunity" that fits every agent is cut) · the
   so-what test (every observation ends in what to do with it).
 - Never the recruiter register; never "lead," "recruit," or "downline" in front of the member.

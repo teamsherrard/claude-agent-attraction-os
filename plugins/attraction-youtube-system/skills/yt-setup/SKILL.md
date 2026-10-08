@@ -59,22 +59,26 @@ On any bare launch phrase ("launch the attraction YouTube plugin", "open my attr
 Add the model tip only if this is a fresh session: one sitting, medium effort.
 
 ## Step 2 — Load the Brain (read, never rebuild)
-Read `brain.md`, then only: `identity/profile.md` · `avatars.md` · `strategy.md` (known for) · `offer.md`
-(the offer; the live resource is `memory/magnets.md → ## Current magnet` first when it exists, `offer.md` second;
-`Status: seeds` means Week 2 builds the offer — never demand it) · `journey.md`
-(the story, no former brokerage named) · `proof.md` · `voice.md` · `compliance.md` · `brand-visual.md` (the
-kit status) · `operations.md` (the booking link) · `content-pillars.md` (the Short-Form System's file — the
-five pillars Authority · Perspective · Story · Proof · Personality, cadence, the two CTAs — if Week 3 wrote it;
-otherwise `goals.md`'s content line; empty is normal before Week 3).
+Read `brain.md` (its Quick reference carries the name, the primary avatar, the known-for, the offer status, and
+the booking link), then only three more files now — the rest open at the kit piece that uses them:
+`identity/avatars.md` · `strategy.md` (known for) · the resource — `memory/magnets.md → ## Current magnet` when it
+exists, otherwise `offer.md` (the offer; `Status: seeds` means Week 2 builds the offer — never demand it).
 Reflect it back in two lines so it is clear nothing will be re-asked:
 > "Here's what I'm working from: you're [name], you help [avatar] [outcome] through [known-for], your resource
 > is [the lead magnet or 'your Partner Call for now'], and your booking link is [link]. I won't ask any of that again."
-If the Brain is thin (no avatar, no known-for), say so kindly, name the one Brain skill that fills it
-(`attraction-persona-map`, `attraction-brand-persona`), and continue with defaults — never stall.
+(The booking link comes from `brain.md`'s Quick reference; if it is blank there, say *"and I'll grab your booking
+link when we do the links"* — `operations.md` opens at Step 4.) If the Brain is thin (no avatar, no known-for),
+say so kindly, name the one Brain skill that fills it (`attraction-persona-map`, `attraction-brand-persona`), and
+continue with defaults — never stall.
 
-**Compliance check (3-state):** `compliance.md` unset → the channel page text is public, so say plainly:
-*"Before I write anything that goes on your channel I need your compliance basics — three minutes"* →
-`attraction-compliance`, then resume here. Set → continue and remind once. Confirmed → continue.
+**Opened at Step 4 (the kit):** `voice.md` (every piece in their voice) · `proof.md` (the one real proof line) ·
+`journey.md` (the story behind the channel — a line of it only if the about section wants one; no former brokerage
+named) · `profiles.md` (the bios file) · `content-pillars.md` (the Short-Form System's file — the five pillars
+Authority · Perspective · Story · Proof · Personality, cadence, the two CTAs — if Week 3 wrote it; otherwise
+`goals.md`'s content line; empty is normal before Week 3) · `operations.md` (the booking link and the contact line
+for the upload defaults) · `brand-visual.md` (the kit status, for the banner brief) · `compliance.md` (the gate at
+Step 4's door — its first line, `Status:`; the disclosure fields below it for the about section and the upload
+defaults). **Opened at Step 5:** `config.md` · `memory/interview-pipeline.md`.
 
 ## Step 3 — The one question: the channel
 > "Do you already have a YouTube channel? Paste the link — or tell me you're starting fresh."
@@ -85,7 +89,12 @@ EXISTING mode say in one line what you will change and keep: *"I'll swap the mar
 actually search, keep your booking link, and add the playlists your plan needs."*
 
 ## Step 4 — Build the Channel Page Kit (every piece paste-ready, in Studio's own order)
-Read doctrine §10–§11 now. Deliver **one piece at a time in chat**, plain and warm, with the click-path above
+**Compliance check first (3-state) — read `compliance.md`'s first line, `Status:`, now, before any channel text:**
+unset → the channel page text is public, so say plainly: *"Before I write anything that goes on your channel I need
+your compliance basics — three minutes"* → `attraction-compliance`, then resume here. Set → continue and remind once.
+Confirmed → continue.
+Then read doctrine §10–§11 and the Step 4 files listed in Step 2 (voice · proof · journey · profiles ·
+content-pillars or goals · operations · brand-visual · compliance's disclosure fields). Deliver **one piece at a time in chat**, plain and warm, with the click-path above
 each; the member pastes as you go (~15 minutes). Positioning comes from the Brain: *who* the channel is for
 (the primary avatar), *what they'll learn* (known-for), *why to reach out* (the resource + the call).
 

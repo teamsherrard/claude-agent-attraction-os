@@ -32,8 +32,9 @@ scorecard is a mirror, never a verdict; compare the member only to their own pri
 Call booked, Call held, 3-way, Joined this week), `memory/top-50.md` (the **Source** column per agent),
 `memory/conversations.md` (channel, 3-way rows), `memory/scorecard.md` (the Targets block: the weekly calls
 and joins target; existing rows), `memory/sales-funnel.md` (this skill's ledger, if it exists),
-`identity/goals.md` (ratios), `config.md` (the AI Admin block → who appends the weekly row). Missing
-locally → `attraction-brain-sync`. A tool error is never "no Brain". Empty ledgers → "no calls logged yet —
+`identity/goals.md` (ratios), `memory/list-growth.md` only when it exists (Week 6 — its row's `Calls booked
+from the funnel`, for the `funnel n` note), `config.md` (the AI Admin block → who appends the weekly row).
+Missing locally → `attraction-brain-sync`. A tool error is never "no Brain". Empty ledgers → "no calls logged yet —
 the scorecard starts the week you hold your first" and stop; never invent a number.
 
 ## Step 2 — Count the week (then one correction question)
@@ -72,13 +73,20 @@ read and it is good news.
   |---|---|---|---|---|---|---|---|---|---|
   ```
 - **`memory/scorecard.md`** — the Brain's one scorecard, and **this plugin never writes it**
-  (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`). It feeds it in the locked weekly-row shape by handing the
-  row to its owner: end the output with *"WEEKLY ROW: [week of] · conversations [from conversations.md] ·
-  calls booked [n] · calls held [n] · joins [n] · content [—] · score [Ahead | On pace | Behind against the
-  Targets block's weekly calls] · note: show [x]% · 3-ways [n] · held→join [y]% · constraint [..]"*. **AI Admin
-  installed** (its block in `config.md`) → `admin-scorecard` appends it on its next run; say so. **Not
-  installed** → the Brain's weekly check-in appends it: *"say 'attraction weekly check-in' and this row goes
-  on your scorecard."* Never the Targets block, never an existing row, never a new column.
+  (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`). It feeds it in the locked weekly-row shape — the header
+  `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |`,
+  identical in the Brain template, `attraction-goals`, and `admin-scorecard` — by handing the row to its
+  owner, every column in that order. End the output with
+  *"WEEKLY ROW: [week of — the Monday] · new prospects [rows added to the Top-50 or to the Board at Identified
+  this week] · conversations [conversations.md rows this week] · meaningful conversations [rows with a pain
+  named or a next step agreed] · calls booked [n] · calls held [n] · 3-ways [n] · joins [n] · content shipped
+  [— ; the appender counts it from the content-log] · score [Ahead | On pace | Behind against the Targets
+  block's weekly calls] · note: show [x]% · held→join [y]% · funnel [n — only when `memory/list-growth.md`
+  carries `Calls booked from the funnel`] · constraint [..]"*. **AI Admin installed** (its block in
+  `config.md`) → `admin-scorecard` appends it on its next run, reconciling booked / held / 3-ways / joins
+  against the same Stage-moves log and keeping show, held→join, funnel, and the constraint in Note; say so.
+  **Not installed** → the Brain's weekly check-in appends it: *"say 'attraction weekly check-in' and this row
+  goes on your scorecard."* Never the Targets block, never an existing row, never a new column.
 - Then `attraction-brain-sync` PUSH and verify, one step. Unsaved → say so, keep the numbers visible,
   retry once, stop.
 

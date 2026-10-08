@@ -20,8 +20,10 @@ call' and we pick straight back up"). A tool error is never "no Brain."
 
 ## 3. Compliance is three-state, never two.
 Before anything a prospect could see — a DM, a text, an email, a voice-note script, a 1-pager, a presentation —
-read `identity/compliance.md`. **unset** → stop, say it plainly, point to "set up my attraction compliance" (three
-minutes — that exact phrase; the shorter "set up my compliance" belongs to the realtor system),
+read the FIRST line of `identity/compliance.md`: `Status:` (the Brain writes `Status:` then `Gate:`; the status
+is the gate, the Gate line only names the fields holding it there, and the per-section `— Status:` fields are
+never read as the gate). **unset** → stop, say it plainly, point to "set up my attraction compliance" (three
+minutes — that exact phrase, with "attraction" in it; the shorter realtor phrase belongs to the realtor system),
 and keep working on the private pieces (prep sheets, scripts, intel) which are not blocked. **set** → apply every
 rule and remind once per session to confirm with the brokerage. **confirmed** → apply. A `[Brokerage Name]`
 placeholder in anything a prospect sees is a failed output.

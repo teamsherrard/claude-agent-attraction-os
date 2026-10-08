@@ -39,7 +39,7 @@ Read `~/attraction-brain/brain.md`, then:
   what the member should have bridged to.
 - `identity/proof.md`, `identity/story-bank.md` — what the follow-up can send.
 - `identity/operations.md` — onboarding steps, the 3-way partner, the follow-up cadence, the email signature.
-- `identity/compliance.md` — the gate for the recap email.
+- `identity/compliance.md` — its first line, `Status:`, is the gate for the recap email.
 - `memory/objections.md` — the member's handlers, to check what they used.
 - `config.md` — whether the AI Admin block exists (decides write vs request below).
 `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` for the call framework and
@@ -113,7 +113,8 @@ In the member's plain words, each in one or two lines, "not seen on the call" wh
   agent stated, never disrespect, never "they didn't join today".
 
 ## Step 5 — The recap email (Mike's shape, `/42`) and the recap video script
-**Compliance gate first:** read `identity/compliance.md`. `unset` → draft nothing that leaves the Brain; say
+**Compliance gate first:** read the first line of `identity/compliance.md` (`Status:`). `unset` → draft nothing
+that leaves the Brain; say
 in one line that the recap needs their compliance basics ("set up my attraction compliance", three minutes) and give
 the next move only. `set` → apply the rules and remind once. `confirmed` → apply. Never a `[Brokerage Name]`
 placeholder in a draft.

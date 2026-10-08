@@ -30,8 +30,8 @@ a failed reply) · `identity/offer.md` for the one resource the member can give 
 video; at seeds stage, the teach-first thing) · `identity/avatars.md` to place the person · `memory/top-50.md`
 and `memory/conversations.md` for any earlier rows with this name · `config.md` Conversion block for the
 booking link (`Booking page`; none yet → the invite offers "I'll send you a time" and the member picks) ·
-`identity/compliance.md`: a DM is something a prospect sees — **unset → stop, one warm line ("say 'set up my
-attraction compliance'"), no draft; set → apply and remind once; confirmed → apply.**
+`identity/compliance.md` (its first line, `Status:`): a DM is something a prospect sees — **unset → stop, one
+warm line ("say 'set up my attraction compliance'"), no draft; set → apply and remind once; confirmed → apply.**
 
 **Fast lane:** thread pasted + name known → no questions. A hand-off from `sf-comment-to-dm` arrives with the
 Reel, the keyword, the resource promised, and the exchange so far — use it, ask nothing.

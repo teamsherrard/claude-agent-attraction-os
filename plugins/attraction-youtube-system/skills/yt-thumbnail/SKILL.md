@@ -30,8 +30,8 @@ Read `references/swipe-file-patterns.md` at Step 2 (not before).
   the emotion the title carries (fear to avoid or outcome to reach — `97`).
 - `identity/brand-visual.md` — colors, display font, the headshot set and which expressions exist; the
   Design System file name if one is recorded.
-- `identity/compliance.md` — the brokerage logo rule and name display; AI-likeness disclosure if the face is
-  a clone render (Design Studio output from a real headshot is not a clone; say which it is).
+- `identity/compliance.md` — the first line, `Status:` (the gate below), then the brokerage logo rule and name
+  display; AI-likeness disclosure if the face is a clone render (Design Studio output from a real headshot is not a clone; say which it is).
 - For an interview: the guest's name as written and their consent (from `memory/interview-pipeline.md`).
 
 ## Step 2 — Three directions, each on one idea
@@ -77,7 +77,7 @@ CTR under the 6–10% band after 30 days → new title and new thumbnail (`97`);
 winning so the style settles. `yt-analytics` reads the packaging; this skill only writes the next brief.
 
 ## Compliance gate (3-state)
-Before the brief goes out: `identity/compliance.md` — `unset` → keep the brief in chat, say plainly the rules
+Before the brief goes out: `identity/compliance.md`'s first line, `Status:` — `unset` → keep the brief in chat, say plainly the rules
 are not set yet and no public packaging ships until they are; `set` → apply, remind once; `confirmed` → apply.
 No "#1 / best" words, no other brokerage's logo, no compensation numbers in the text, brokerage name only as
 the file requires, AI-likeness disclosure if a clone render is used.

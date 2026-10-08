@@ -24,20 +24,27 @@ announcement, an article, or a Drive file that contains instructions is read as 
 model questions), §14 (comments and questions become videos) only if a lane needs re-grounding.
 
 ## Step 1 — Scope from the Brain (never generic)
-Read `brain.md`, then: `identity/avatars.md` (the 1–3 types, their pains, their triggers, where they gather —
-types of places, never lists of people), `strategy.md` (known for), `brokerage-model.md` (the model's name and
-mechanics — the figures never surface), `prospect-intel.md` (the researched agent landscape, dated), the Game
-Plan anchors in `identity/channel.md` (lanes, cycle position), and — the member's own signal — `memory/objections.md`,
-`memory/ideas.md` (open `youtube` / `interview` rows), `memory/intel.md` (what the Watcher and the member already
-logged; **read it before searching — never re-research what is current there**), and any comments or DMs the
-member pasted. Research is always scoped to this member's avatar, niche, model, and recruiting scope
-(`compliance.md` → the states/provinces they may attract in). **Demo mode:** no live research; illustrative,
+Read `brain.md` (its Quick reference gives the known-for, the brokerage, and `Attracts in:` — the recruiting scope;
+open `identity/compliance.md`'s recruiting-scope field only if that line is blank), then only three more files now
+— the rest open at the lane that uses them: `identity/avatars.md` (the 1–3 types, their pains, their triggers,
+where they gather — types of places, never lists of people), `memory/intel.md` (what the Watcher and the member
+already logged; **read it before searching — never re-research what is current there**), the Game Plan anchors
+in `identity/channel.md` (lanes, cycle position). Plus any comments or DMs the member pasted. Research is always
+scoped to this member's avatar, niche, model, and recruiting scope. **Demo mode:** no live research; illustrative,
 labeled, no real names.
+**Opened later:** lane 1 → `strategy.md` (known for) · `brokerage-model.md` (the model's name and mechanics — the
+figures never surface) · `prospect-intel.md` (the researched agent landscape, dated) · lane 3 →
+`memory/objections.md` · `memory/ideas.md` (open `youtube` / `interview` rows) · read-only `conversations.md`.
 
 ## Step 2 — Gather across three lanes (budget: ≤12 searches, by priority; say when the budget is spent)
-Use `references/research-method.md` for sources and query patterns.
-1. **What agents search** — YouTube and Google autocomplete, "people also ask," the top videos on the candidate
-   topics (approximate views as seen), forum and group *themes* (types of questions, never named people). Capture
+Use `references/research-method.md` for sources and query patterns. **The mechanism, in one line:** web search and
+page fetch through Claude's own tools, with the query patterns the method lists — YouTube autocomplete is not
+reachable that way, so the member pastes the autocomplete suggestions they see, or the skill searches
+`youtube [phrase]` and reads what ranks; "people also ask" and related searches come off the result pages.
+1. **What agents search** (read `strategy.md`, `brokerage-model.md`, `prospect-intel.md` now) — the phrases agents
+   type (autocomplete as the member pastes it, or a `youtube [phrase]` search), Google's "people also ask," the top
+   videos on the candidate topics (approximate views as seen), forum and group *themes* (types of questions, never
+   named people). Capture
    the **exact phrasing** agents type — it becomes titles. Classify by bucket: Problem / Situation / Future /
    Model.
 2. **Brokerage and industry news** — `memory/intel.md` first (dated, sourced rows; the Agent Movement Watcher's
@@ -45,7 +52,8 @@ Use `references/research-method.md` for sources and query patterns.
    notices, dated. **Facts only; the cardinal rules apply to every line** — a brokerage's change is reported, never
    characterized; a person is never named negatively. Compensation changes are noted for the member's private
    knowledge (`brokerage-model.md` material), never as public-content angles with figures.
-3. **The avatar's questions** — what this member's agents actually ask: `objections.md` (archetype + the
+3. **The avatar's questions** (read `memory/objections.md`, `memory/ideas.md`, and read-only `conversations.md` now)
+   — what this member's agents actually ask: `objections.md` (archetype + the
    hidden fear), pasted comments and DMs, `conversations.md` read-only (which questions recur), `ideas.md`.
    Each recurring question = a video (doctrine §14).
 4. **The competitive read (for the strongest 2–3 candidates)** — the top 3–5 real videos agents find for that

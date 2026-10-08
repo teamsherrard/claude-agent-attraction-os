@@ -33,31 +33,32 @@ file; this skill writes only that one line, per the spec's golden rule):
 - **URL** → go straight to it; add any missing columns or views; do what was asked.
 - **`declined`** → only proceed if they are asking for the board right now; then update the line.
 - **No line** → search Notion once for `[Member Name] — Content Dashboard`; found → record the URL; not found →
-  create per the spec: the page + database, the columns (the long-form Pillar options are the Game Plan's
-  five lane names exactly — `Niche: Problem` · `Niche: Situation` · `Niche: Future` · `Interview` · `Model` —
-  plus the short-form options `Reach · Value · Trust · Convert` the spec fixes; the System ID column; a Guest
-  column for interviews), the three views (YouTube Long-Form · Short-Form · Calendar) — then write the URL into the
-  Brain immediately and push via `attraction-brain-sync`.
+  create per the spec: the page + database, the columns (Pillar is STRICT — the long-form options are the Game
+  Plan's lane names exactly as this skill writes them — `Niche: Problem` · `Niche: Situation` · `Niche: Future` ·
+  `Interview` · `Model` — and the short-form options are exactly the five OS pillars — `Authority` · `Perspective` ·
+  `Story` · `Proof` · `Personality`; Status `Idea → Scripted → Ready to Film → Recorded → Published`; the System ID
+  column; a Guest column for interviews), the three views (YouTube Long-Form · Short-Form · Calendar) — then write
+  the URL into the Brain immediately and push via `attraction-brain-sync`.
 
 ## Step 3 — Seed the next ~2 weeks (rolling window)
 Open the attraction Game Plan doc (`yt-gameplan`) and `memory/interview-pipeline.md`. The board carries the
-next ~2 weeks (1/wk → ~2 cards; interviews count): Topic (the exact title) · Format `Long-Form` · Pillar = the lane
-(the mapping below) · Guest (interviews) · Context (`• Pillar: Authority / Proof / Perspective` as the first line
-— the true OS pillar, exactly as `sf-board` does — then what / outcome) · Recording Date · Resource (the two CTAs from
-`identity/content-pillars.md`) · a fresh System ID. Set the expectation, count-check, confirm plainly; a failed
+next ~2 weeks (1/wk → ~2 cards; interviews count), each an `Idea` card: Topic (the exact title) · Format `Long-Form` ·
+Pillar = the lane name (`Niche: Problem` · `Niche: Situation` · `Niche: Future` · `Interview` · `Model`) · Guest
+(interviews, from `memory/interview-pipeline.md`) · Context (the true OS pillar as the first line — `• Pillar:
+Authority` for the three niche lanes, the Story angle noted for a Why I Switched · `• Pillar: Proof` for Interview ·
+`• Pillar: Perspective` for Model — then what / outcome) · Recording Date · Resource (the two CTAs — the book-a-call line from
+`identity/content-pillars.md`; the keyword from `identity/publishing.md`'s `Keyword:` line first, `content-pillars.md`'s CTA
+line second) · a fresh System ID. Set the expectation, count-check, confirm plainly; a failed
 write is named and retried once. References are added by `yt-make-video` as each video is prepped (real links
 only). No Game Plan yet → say so and offer `yt-gameplan` first.
 
-### The pillar mapping (the board's Pillar column is locked by the shared spec)
-The shared spec (byte-identical with the Short-Form plugin's copy; never edited here) keys long-form cards to
-the Game Plan's lane names, not the OS pillars. So the board's Pillar cell carries the lane — `Niche: Problem` ·
-`Niche: Situation` · `Niche: Future` · `Interview` · `Model` — and the true pillar is always the first line of
-the card's Context: `• Pillar: Authority` (the three niche lanes; note the Story angle for Why I Switched) ·
-`• Pillar: Proof` (Interview) · `• Pillar: Perspective` (Model). This is the same convention `sf-board` uses for
-short-form cards (`Authority → Value` · `Perspective → Reach` · `Personality → Reach` · `Story → Trust` ·
-`Proof → Trust` · a direct "book a call" piece → `Convert`, true pillar in Context). `memory/content-log.md`
-always carries the OS pillar name. (Contract note: a coordinated spec update in both plugins can replace this
-with the five names; until then this is the rule.)
+### The lane-and-pillar rule (locked by the shared spec — never edited here)
+A long-form card's Pillar cell carries the lane name exactly as written above — never an OS pillar name, never
+anything else; the true OS pillar is always the first line of the card's Context (`• Pillar: Authority` for the
+three niche lanes, the Story angle noted for a Why I Switched · `• Pillar: Proof` for Interview · `• Pillar:
+Perspective` for Model). Short-form cards carry the OS pillar in the Pillar cell itself — the Short-Form System's
+job, never touched here. `memory/content-log.md` always carries the OS pillar name. Status moves `Idea → Scripted →
+Ready to Film → Recorded → Published` (`Ready to Film` is board-only; `Edited` is log-only).
 
 ## Step 4 — Confirm in plain words
 *"Your content board is live in your Notion — your next two weeks of videos are on it with filming dates and

@@ -31,7 +31,8 @@ introduction from?"* **Your turn.**) · `identity/proof.md` (the member's own ac
 stays theirs to explain) · for the prospect: `memory/intel-reports/` newest, the call prep in `04 · Agents/
 Prospects`, `memory/conversations.md` rows (what they said, the open objections), `identity/avatars.md`
 (their type) · `config.md` registry `Timezone` and the Conversion block.
-Compliance: the invite and the emails reach the prospect → `identity/compliance.md` **unset holds those**
+Compliance: the invite and the emails reach the prospect → `identity/compliance.md` first line `Status:` —
+**unset holds those**
 with one line; **set** → apply and remind once; **confirmed** → apply; the brief and the scripts are private and
 render either way.
 
@@ -84,8 +85,8 @@ the proposed next steps if they say yes.
 ## Log, then push
 When the member confirms the 3-way is booked: a `memory/conversations.md` row (Channel = 3-way is used for
 the held call; for the booking, Channel = the channel it was agreed on, Next step = the 3-way date, **Stage
-after = 3-way**). Admin installed → the column is the request and the output ends with **STAGE MOVE
-REQUESTED: [Name]: Call held → 3-way**; absent → also the Board and Stage-moves-log rows in
+after = 3-way**). Admin installed → the column is the request and the output ends with
+**STAGE MOVE REQUESTED: [Name]: Call held → 3-way**; absent → also the Board and Stage-moves-log rows in
 `memory/pipeline.md`, `Logged by: cv-three-way`, and that agent's Last touch · Next move · Due cells on the
 Top-50 (the interim allowance in `shared/brain-contract.md`). After the call, `cv-debrief` logs what happened. Push
 immediately. Render the pack per `shared/doc-formatting.md` → `3-Way Pack · [Prospect] · [Date].docx` →

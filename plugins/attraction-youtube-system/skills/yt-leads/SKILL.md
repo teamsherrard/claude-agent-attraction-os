@@ -23,13 +23,17 @@ model) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
 below; this file is the rule.
 
 ## Job 1 — The CTA pair and the resource, per video (inside the video's chat)
-Read `brain.md`, `identity/content-pillars.md` (the two CTAs: book a call · the guide / keyword),
-**`memory/magnets.md → ## Current magnet` first** (the live lead magnet and its keyword, once the Lead Magnet
-plugin wrote it), `identity/offer.md` second, `identity/publishing.md` → the `Keyword:` line (the ManyChat
-keyword, Short-Form-owned), `identity/avatars.md`, `identity/compliance.md`.
+Read `brain.md`, then only three more files now — the rest open at the bullet that uses them:
+`identity/compliance.md` (the first line, `Status:`), `identity/avatars.md` (the pain this video answers), and the
+live resource — **`memory/magnets.md → ## Current magnet` first** (the lead magnet, once the Lead Magnet plugin wrote
+it), `identity/offer.md` only when that is empty.
+**Opened at the CTA bullets:** the keyword — `identity/publishing.md` → the `Keyword:` line first (its single source;
+Short-Form-owned), `identity/content-pillars.md`'s CTA line second (it mirrors it), nothing third — and
+`content-pillars.md`'s book-a-call line (the two CTAs: book a call · the guide / keyword).
 - **The resource CTA** (around the first minute, `98`): the free thing that fits THIS video and the avatar's
   pain — a checklist, the comparison sheet, a questions-to-ask-a-sponsor list, the first-90-days plan. If
-  `memory/magnets.md → ## Current magnet` holds one (the Lead Magnet plugin, Week 6), use it and its keyword; if not, say which week builds it and use
+  `memory/magnets.md → ## Current magnet` holds one (the Lead Magnet plugin, Week 6), use it — the keyword from
+  `identity/publishing.md`'s `Keyword:` line (read now), `content-pillars.md`'s CTA line second; if not, say which week builds it and use
   the member's best existing resource or fold the invite into the call CTA. Never promise a resource that
   does not exist.
 - **The book-a-call CTA** (a third to halfway in, and at the end): warm, inviting, specific to the video —
@@ -51,13 +55,15 @@ surface anything about them beyond their public comment.
 Triage into four piles (counts first, then work them in this order):
 - **Prospect agents** — a licensed agent showing intent or curiosity ("I'm at a franchise and thinking about
   a move", "how does the mentorship work", "do you work with agents in Ohio"). Draft a genuinely useful public
-  reply in the member's voice that answers the question and opens the private door warmly ("happy to go
+  reply in the member's voice (`identity/voice.md`, opened now if not already in context) that answers the question and opens the private door warmly ("happy to go
   deeper on your situation — the link in the description books a quick call"). Tell the member plainly:
   **these are prospects — reply today, then DM.** Offer to add each to the Top-50 via `attraction-top-50`
-  (name · type if stated · source "YouTube comment · [video]" · Stage Identified · Next move "reply + DM").
+  (name · type if stated · Source `youtube via comment on "[video]"` — from the locked list `youtube · instagram ·
+  referral · sphere · event · lead-magnet · other`, provenance after `via` · Stage Identified · Next move "reply + DM").
   Only on a yes; this skill never writes `top-50.md` itself.
-- **Resource requests** — "where's the guide?" / the keyword → the reply gives the keyword or link from
-  `memory/magnets.md` or `publishing.md`'s `Keyword:` line (`content-pillars.md` as the fallback); if the member runs ManyChat, note that the keyword triggers the automation (the
+- **Resource requests** — "where's the guide?" / the keyword → the reply gives the keyword from
+  `publishing.md`'s `Keyword:` line (`content-pillars.md`'s CTA line second — never a third source) and the link from
+  `memory/magnets.md`; if the member runs ManyChat, note that the keyword triggers the automation (the
   member's own setup; nothing here configures it).
 - **Real questions** — a short useful answer from the Brain only (model questions → "the honest answer
   depends on your production; let's do it on a call" when numbers would be needed). If the answer deserves a
@@ -76,7 +82,7 @@ once to save them — only on a yes, and through `attraction-capture` ("attracti
 signal for `yt-analytics`: which videos draw agent questions versus silence.
 
 ## Compliance gate (3-state)
-`identity/compliance.md` before any reply or CTA leaves the chat: `unset` → drafts stay private, say the
+`identity/compliance.md`'s first line, `Status:`, before any reply or CTA leaves the chat: `unset` → drafts stay private, say the
 rules are not set; `set` → apply, remind once; `confirmed` → apply. No earnings claims or compensation
 numbers in replies; recruiting-scope check (if a commenter is in a state or province the member cannot
 attract in, the reply is still kind and points nowhere); brokerage name as the file requires.

@@ -33,9 +33,9 @@ Read `~/attraction-brain/brain.md`, then `identity/operations.md` (**CRM**, book
 call block, call length, where, the 3-way partner, the follow-up cadence), `config.md` (`CRM`, `Timezone`,
 the Conversion & Sales block if present), `identity/goals.md` (calls per week), `identity/profile.md`
 (brokerage, organization name), `identity/positioning.md` (the one line for the event description),
-`identity/compliance.md` (brokerage name as it must appear; the form is public — three-state: **unset** → stop
-before Stop 2 and say "set up my attraction compliance", three minutes; **set** → apply and remind once;
-**confirmed** → apply). If `identity/
+`identity/compliance.md` (brokerage name as it must appear; the form is public — three-state on its first line,
+`Status:`: **unset** → stop before Stop 2 and say "set up my attraction compliance", three minutes; **set** →
+apply and remind once; **confirmed** → apply). If `identity/
 sales-system.md` already exists, this is an update: show the READY BRIEF of what is set and change only
 what they ask. Missing locally → pull via `attraction-brain-sync`. A tool error is never "no Brain".
 Read `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` only if the sequence-of-events detail is needed.

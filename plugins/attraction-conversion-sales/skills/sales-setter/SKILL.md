@@ -44,8 +44,9 @@ phone? And do they write as you or as 'Team [Name]'?"* Defaults: a human VA, Ins
 "[First name] from [Name]'s team" (never impersonating the member in first person). **Your turn.**
 
 ## Compliance gate
-`identity/compliance.md` unset → the rules doc is written (private), the scripts are not; say the three-
-minute line. set → apply, remind once. confirmed → apply. Rules: brokerage name as required; no compensation
+The first line of `identity/compliance.md` (`Status:`) unset → the rules doc is written (private), the scripts
+are not; say the three-minute line ("set up my attraction compliance"). set → apply, remind once. confirmed →
+apply. Rules: brokerage name as required; no compensation
 or income language at all; nothing about another brokerage or person; license line where the brokerage
 requires it in outreach.
 

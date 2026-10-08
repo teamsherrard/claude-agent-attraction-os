@@ -26,12 +26,14 @@ week**, with interviews inside the count on the **8-video cycle: 3 niche · 1 mo
 interviews** (eight weeks per cycle). One strong video a week is a win, never a shortfall.
 
 ## Inputs
-`brain.md`, `identity/content-pillars.md` (cadence), the Game Plan doc from `yt-gameplan` (the 90-day calendar),
-`memory/content-log.md` (what shipped, by bucket and status), `memory/interview-pipeline.md` (who is booked),
-`identity/operations.md` (hours, the days they film), and the board if `identity/publishing.md` has a link.
+`brain.md`, then only three more files now — the rest at the mode that uses them: `identity/content-pillars.md`
+(cadence), `memory/content-log.md` (what shipped, by bucket and status), `memory/interview-pipeline.md` (who is
+booked). Plus the Game Plan doc from `yt-gameplan` (the 90-day calendar — a workspace doc).
+**Opened later:** batch day and "plan my month" → `identity/operations.md` (hours, the days they film) and the board
+if `identity/publishing.md` has a link · check-ins → `memory/scorecard.md` (its word only).
 
 ## Batch-day mode
-Batch day ORGANIZES; it never mass-produces (one chat = one video — scripts are written in each video's own
+(Open `identity/operations.md` and `identity/publishing.md` now.) Batch day ORGANIZES; it never mass-produces (one chat = one video — scripts are written in each video's own
 chat by `yt-make-video`). Given the next N videos on the plan (default 3–4):
 - Check each has a Script in its folder (content-log Status ≥ Scripted). Missing → *"[title] isn't scripted
   yet — open a fresh chat and say 'make my attraction video' with that title."* Never script here.
@@ -47,7 +49,7 @@ chat by `yt-make-video`). Given the next N videos on the plan (default 3–4):
 Compare shipped (content-log, Published rows) against the cadence and the cycle mix: how many of the last
 eight were niche / model / interview. Hold the line: consistency beats volume. Back after a gap → one warm
 line, no guilt: *"good to see you — want to pick the next title and knock it out? About thirty minutes."*
-Read the scorecard's word (Ahead · On pace · Behind) if present; never recompute it here.
+Open `memory/scorecard.md` now and read its word (Ahead · On pace · Behind) if present; never recompute it here.
 
 ## Plan my month
 Spread the next four slots of the cycle across the member's weeks (which bucket each week, which interview
