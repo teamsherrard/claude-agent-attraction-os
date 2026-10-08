@@ -30,32 +30,19 @@ Three modes (pick from what they said; never ask which):
 
 ---
 
-## Step 1 — Load the Brain
-Read `~/attraction-brain/brain.md` first (follow its laws), then:
+## Step 1 — Load the Brain (four files; the rest open at the phase that uses them)
+Read `~/attraction-brain/brain.md` first (follow its laws), then only these three:
 - `identity/content-pillars.md` — the five pillars mapped to them (written by `sf-setup`). **Missing →** this
   plugin's setup hasn't run: *"Let's set your pillars first — say 'set up my attraction short-form'; two minutes,
   then every Reel knows what it's for."* Don't improvise pillars here.
-- `identity/publishing.md` — the keyword, what it opens, the weekly mix, cadence, batch day, posting tool
 - `identity/avatars.md` — who this is for, their pain in their words, what they'd need to hear
-- `identity/journey.md` (incl. `## Why join me` if written) · `identity/strategy.md` — the story beats, the known-for
-- `identity/positioning.md` — the one line "why I'm here"; what stays for the private call (never in a Reel)
-- `identity/voice.md` + `identity/voice-samples.md` — tone + their real phrasing
-- `identity/voice-print.md` — their SPOKEN voice: scripts are read aloud, so write for the ear in their cadence
-  and signature phrases (empty → voice.md alone; never fabricate)
 - `identity/story-bank.md` — a real story matching the pillar, avatar, and pain; weave it in; **stamp its
   Used-where** after delivery (the one line this skill writes there). Empty → write without one; never invent
-- `identity/proof.md` — wins with consent for Proof Reels (first name / initials otherwise)
-- `identity/offer.md` — the resource for the Resource rung (Status `seeds` → fall back to the free thing they give
-  today or "book a call"; never demand the Week 2 offer)
-- `identity/compliance.md` — the third law, three-state
-- `memory/content-log.md` — what's covered; which pillar is light this week/month
-- `memory/ideas.md` (tags `shortform`, `story`) — the member's own ideas go to the TOP; mark `used` once scripted
-- `memory/objections.md` — an objection heard this month is a Perspective Reel waiting to happen
-- `memory/content-performance.md` — what worked (the Friday ledger from `sf-analytics`); lean on it for hooks,
-  pillars, and rungs. Skip if it doesn't exist yet
 
-**Read the Brain; never re-ask what it knows.** If `~/attraction-brain/` is missing, pull it with
-`attraction-brain-sync` (never assume no Brain). Only if the cloud has none: "set up my attraction brain."
+Everything else opens at the phase that uses it (each phase lists its own "open now"); a file already open stays
+open — never re-read one. **Read the Brain; never re-ask what it knows.** If `~/attraction-brain/` is missing,
+pull it with `attraction-brain-sync` (never assume no Brain). Only if the cloud has none: "set up my attraction
+brain."
 
 ## Step 2 — Read the reference files (at the phase that needs them)
 1. `references/topic-guide.md` — building the topic list by pillar, balancing from the log
@@ -65,7 +52,12 @@ Read `~/attraction-brain/brain.md` first (follow its laws), then:
 ---
 
 ## Phase 1 — The topic list (by pillar, balanced from the log)
-**Read `references/topic-guide.md`.** Produce ~8–10 topics the member can choose from: the member's own ideas
+**Read `references/topic-guide.md`.** **Open now:** `memory/ideas.md` (tags `shortform`, `story` — the member's own
+ideas go to the TOP; mark `used` once scripted) · `memory/content-log.md` (what's covered; which pillar is light this
+week/month) · `memory/objections.md` (an objection heard this month is a Perspective Reel waiting to happen) ·
+`memory/content-performance.md` (what worked — the Friday ledger from `sf-analytics`; lean on it for hooks, pillars,
+and rungs; skip if it doesn't exist yet) · `identity/publishing.md` (the keyword, what it opens, the weekly mix).
+Produce ~8–10 topics the member can choose from: the member's own ideas
 first (from `ideas.md`), then the pillar they're lightest on this month, then the rest — never more than three
 from one pillar. Each topic: a working **hook** (one line) · the **pillar** · **who it's for** (the avatar, one
 line) · the **story or proof it can carry** (a story-bank hook, a win with consent, or "none — straight teach")
@@ -77,7 +69,15 @@ brokerage feature. Present simply:
 choose the top 3 yourself — one line of why each — and offer to script them now.
 
 ## Phase 2 — Scripts (for the chosen topics; default five, or the one they named)
-**Read `references/script-guide.md`.** For EACH Reel, use these exact section names:
+**Read `references/script-guide.md`.** **Open now — the writing step:** `identity/voice-print.md` (their SPOKEN voice:
+scripts are read aloud, so write for the ear in their cadence and signature phrases; empty → `voice.md` alone; never
+fabricate) · `identity/voice.md` + `identity/voice-samples.md` (tone + their real phrasing) · `identity/journey.md`
+(incl. `## Why join me` if written) + `identity/strategy.md` (the story beats, the known-for) · `identity/positioning.md`
+(the one line "why I'm here"; what stays for the private call — never in a Reel) · `identity/proof.md` (wins with
+consent for Proof Reels; first name / initials otherwise) · `identity/offer.md` (the resource for the Resource rung;
+Status `seeds` → fall back to the free thing they give today or "book a call"; never demand the Week 2 offer) ·
+`identity/publishing.md` (the keyword, what it opens) if Phase 1 didn't open it.
+For EACH Reel, use these exact section names:
 - **THE BRIEF** — pillar · for whom · story used (hook from the bank, or none) · rung + keyword.
 - **THE HOOK — 3 ways** — three options, each sayable in one breath (~8–12 words), styles labelled (question ·
   contrarian · number/stakes · mistake · callout · curiosity-gap — never three of the same), the strongest marked
@@ -100,21 +100,25 @@ first. A **Story** Reel pulls its story from the bank, told in their words, form
 **Proof** Reel names an agent only with consent on file.
 
 ## Phase 3 — The 30-day calendar (lives here)
-**Read `references/calendar-guide.md`.** Twenty Reels, four weeks of five, in the member's weekly mix (default
-**2 attraction · 2 authority · 1 story** — attraction = Proof + Personality, authority = Authority + Perspective)
-plus "stories daily" as a standing line. Each entry: # · day · hook · pillar · for whom · story/proof carried ·
-rung + keyword. Week 1 establishes who they are (one Story Reel, one Authority on the known-for, one Proof, one
-Personality, one Perspective). The member's own ideas and this month's objections land early. Then **THE BATCH
-PLAN** (which sessions, how many hours — Mike's Monday-plan / Tuesday-record / Wednesday-edit rhythm, or
-alternate Saturdays) and **THE THREE TO FILM FIRST**. Close: *"Pick your first five and say 'script these'."*
-(The ongoing routine is `sf-weekly-routine`; film-day logistics are `sf-batch-publish`.)
+**Read `references/calendar-guide.md`.** **Open now** (the guide's inputs; whichever are already open stay
+open): `identity/publishing.md` (cadence, weekly mix, batch day, keyword) · `memory/content-log.md` ·
+`memory/ideas.md` · `memory/objections.md` · `identity/proof.md` · `memory/intel.md`. Twenty Reels, four weeks
+of five, in the member's weekly mix (default **2 attraction · 2 authority · 1 story** — attraction = Proof +
+Personality, authority = Authority + Perspective) plus "stories daily" as a standing line. Each entry: # · day ·
+hook · pillar · for whom · story/proof carried · rung + keyword. Week 1 establishes who they are (one Story
+Reel, one Authority on the known-for, one Proof, one Personality, one Perspective). The member's own ideas and
+this month's objections land early. Then **THE BATCH PLAN** (which sessions, how many hours — Mike's Monday-plan
+/ Tuesday-record / Wednesday-edit rhythm, or alternate Saturdays) and **THE THREE TO FILM FIRST**. Close: *"Pick
+your first five and say 'script these'."* (The ongoing routine is `sf-weekly-routine`; film-day logistics are
+`sf-batch-publish`.)
 
 ## Phase 4 — Compliance pass (third law, three-state)
-`identity/compliance.md`: `unset` → the scripts stay in chat as private drafts, with the plain line that
-nothing goes out until compliance is set; `set` → apply + remind once; `confirmed` → apply. Apply: brokerage
-name/license as the file says; **the two cardinal rules** (`03-model-positioning/13`); no compensation (splits,
-caps, stock, rev-share, income); no earnings claims; no "#1/best" without a source; consent on any named agent;
-former brokerages unnamed; any real-estate example fair-housing safe. Strip or rewrite; never ship risky lines.
+**Open now:** the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then
+`Gate:`): `unset` → the scripts stay in chat as private drafts, with the plain line that nothing goes out until
+compliance is set; `set` → apply + remind once; `confirmed` → apply. Apply: brokerage name/license as the file
+says; **the two cardinal rules** (`03-model-positioning/13`); no compensation (splits, caps, stock, rev-share,
+income); no earnings claims; no "#1/best" without a source; consent on any named agent; former brokerages
+unnamed; any real-estate example fair-housing safe. Strip or rewrite; never ship risky lines.
 
 ## Phase 5 — Deliver
 Clean copy-paste packages, friendly chat around them, short. Offer, in one line each and only where it applies:
@@ -130,7 +134,8 @@ For each scripted Reel (or the calendar):
 2. **Log it:** append one row per Reel to `~/attraction-brain/memory/content-log.md` in the locked shape:
    `| [date] | Instagram · TikTok · Shorts · FB | reel | [Pillar] | [talking head] [hook] | [avatar] | [story hook or —] | [rung · KEYWORD] | Scripted | |`
    (Calendar entries log as `Idea`.)
-3. **Stamp** the story's `Used-where` in `identity/story-bank.md`; flip any `ideas.md` row used to `used`.
+3. **Stamp** the story's `Used-where` in `identity/story-bank.md`; flip any `ideas.md` row used to `used` (open it
+   now if no earlier phase did).
 4. **Push** (write → push → verify). Then: *"Saved your [N] Reels to your workspace (Content → Short-Form →
    [month]) and logged them so we never repeat a story."* If a save fails: say it's not saved, keep it visible,
    retry once, stop.
@@ -138,7 +143,8 @@ For each scripted Reel (or the calendar):
 ---
 
 ## Quality checklist
-- [ ] Brain read; pillars from `content-pillars.md`; nothing re-asked
+- [ ] Brain read — four files at Step 1, the rest at the phase that used them; pillars from `content-pillars.md`;
+      nothing re-asked
 - [ ] Topics balanced by pillar from the log; member's own ideas first; every topic speaks to an agent's problem
 - [ ] Each Reel: brief · hook ×3 (mixed styles) · 30–60s script with word count · bullet version · shots · one rung + the keyword
 - [ ] Sounds like them (`voice-print.md`); talks to one agent ("you"); the delete / any-agent / so-what tests pass

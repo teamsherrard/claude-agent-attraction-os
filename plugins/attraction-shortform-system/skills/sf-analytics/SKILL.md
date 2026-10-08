@@ -49,7 +49,8 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
   counted by the right word)
 - `identity/avatars.md`, `identity/content-pillars.md`, `identity/strategy.md` (the leaders the member
   admires in their lane — the comparison set), `identity/offer.md` (the keyword resources) — for the dive
-- `identity/compliance.md` — read before the report is saved (it is private, but its post ideas are not)
+- `identity/compliance.md` — its first line, `Status:`, read before the report is saved (it is private, but its
+  post ideas are not)
 
 **Sources, best first, never blocked on any one:**
 1. **The live data connection** (Instagram + YouTube) — the only source with Reel watch time, skip rate, and

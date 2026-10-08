@@ -21,8 +21,8 @@ aimed at the agent the member wants to attract. Every idea passes Mike's leader 
 *would a prospect see you as a leader, and want to be in your world, from this post?* (`07-instagram/86`).
 
 **Apply** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` (plain, warm, never technical) and
-`${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` (the attraction short-form doctrine). Read
-`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` for the files this plugin may touch.
+`${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` (the attraction short-form doctrine). The Brain contract is
+not preloaded — the one Brain cell this skill writes is named at Step 1.
 
 ## Step 1 — Load the Brain (nothing re-asked)
 Read `~/attraction-brain/brain.md` first. If `~/attraction-brain/` is empty, pull it with
@@ -101,13 +101,15 @@ Build, in this order:
 - **Permission** — a Proof idea about a named agent is marked *[confirm they are OK sharing this]*.
 
 ## Step 4 — Compliance, save, hand off
-- **Compliance is three-state.** Ideas and hooks are public-facing once filmed, so read
-  `identity/compliance.md`: `unset` → still deliver the ideas (they are a private plan) but say plainly that
-  nothing gets scripted or posted until compliance is set up (*"say 'set up my attraction compliance' — three
-  minutes"*); `set` → remind once; `confirmed` → carry on. "If empty, proceed" is banned.
+- **Compliance is three-state.** Ideas and hooks are public-facing once filmed, so read the first line of
+  `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`): `unset` → still deliver
+  the ideas (they are a private plan) but say plainly that nothing gets scripted or posted until compliance is
+  set up (*"say 'set up my attraction compliance' — three minutes"*); `set` → remind once; `confirmed` → carry
+  on. "If empty, proceed" is banned.
 - Deliver everything in chat. Offer to save per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render
   to `.docx` with `shared/render_doc.py` → the workspace's `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
-  `[YYYY-MM-DD] · Attraction Ideas + Hook Bank`. Then push the Brain (the `ideas.md` status marks) via
+  `[YYYY-MM-DD] · Attraction Ideas + Hook Bank`. Then push the Brain (the `ideas.md` status marks — the one cell this
+  skill writes; `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` only if the shape is in doubt) via
   **attraction-brain-sync** — write → push → verify. If the save fails, say it is not saved, keep the content
   visible, retry once, stop.
 - Close with one offer: *"want me to script this week's five? Say 'script these' and sf-talkinghead writes

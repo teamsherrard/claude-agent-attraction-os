@@ -69,7 +69,8 @@ Video edits go to the Riverside editor (`studio-reel`).
 
 ## 4. Stay compliant (the third law — three-state, never two)
 
-Before anything public-facing goes out, read `~/attraction-brain/identity/compliance.md`:
+Before anything public-facing goes out, read the first line of `~/attraction-brain/identity/compliance.md` —
+`Status:` (the Brain writes `Status:` first, then `Gate:`, which names the fields holding it there):
 - **`unset`** → no public piece. Say it plainly and warmly ("before I write anything you'd post, I need your
   compliance basics — say 'set up my attraction compliance', three minutes") and do the private parts of the task meanwhile.
 - **`set`** → apply every rule; remind once per session to confirm with the brokerage.

@@ -1,0 +1,3 @@
+# Events
+*memory · owner: the Events & Workshops plugin (`ev-`, Week 6) — every event the member runs, its registrations as counts, and the post-event follow-up status · `ev-followup` requests event stage moves through the AI Admin (`Stage moves requested:` shape) and writes event content rows to `content-log.md` · the Brain never writes this file*
+*Empty until Week 6 BY DESIGN — not a gap. The Events plugin is a Week 6 build: its setup locks the row shape in its own `shared/brain-contract.md` and proposes it here; until then this placeholder holds only the header. Attendees' names and emails never enter the Brain — counts only.*

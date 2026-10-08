@@ -19,8 +19,8 @@ sibling boundaries all live there and govern everything below.
 
 # VA Task Packs — support without burnout
 
-"Leaders who try to do everything themselves hit a ceiling… systems and support let you scale while
-keeping your time and energy" (`13-team-building-duplication/67`). Mike's VA handles scheduling onboarding
+"Leaders who try to do everything themselves will end up hitting a ceiling. Systems and support allow you to
+scale your organization while keeping your time and energy" (`13-team-building-duplication/67`). Mike's VA handles scheduling onboarding
 calls and follow-ups, updating the resource library, social posts and marketing tasks, reminders, and the
 monthly data tracking — while he keeps leadership, vision, high-value conversations, content, agent calls,
 3-ways, and personal calls. Before a VA: "template any repeatable task." This skill writes the packs that
@@ -46,7 +46,7 @@ the question (`14-retention-culture/71`).
 `config.md` (`VA` — name and role; `CRM mirror`; the other plugins' blocks) · `identity/operations.md` (who
 sees the workspace, CRM tags, the standing call, a new agent's first steps, the booking link) ·
 `memory/content-log.md` (rows at Scripted · Recorded · Edited → to post; Published → to report) · the
-`identity/publishing` block when the Short-Form plugin wrote one (where and when posts go) ·
+`identity/publishing.md` when the Short-Form plugin wrote it (where and when posts go) ·
 `memory/pipeline.md` (the Stage moves log since the last pack) · `memory/conversations.md` (rows since the
 last pack) · `memory/top-50.md` (cells missing or odd, by column name) · `memory/organization.md` (joins
 whose first-step calls need scheduling) · `memory/deadlines.md` (onboarding-step rows) ·

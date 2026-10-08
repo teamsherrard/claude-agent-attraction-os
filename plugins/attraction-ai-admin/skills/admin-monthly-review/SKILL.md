@@ -28,8 +28,7 @@ monthly audit from Week 1 (`01-foundation-mindset/8`) adds three questions and t
 compares only to their own last month.
 
 ## What this skill writes
-The review doc (`📊 [Name]'s Monthly KPI Review — YYYY-MM.docx` → `01 · AI Brain/`) · the deadlines archive
-(Done rows older than 60 days → `exports/deadlines-archive.md`; exports is never a source) · a dated
+The review doc (`📊 [Name]'s Monthly KPI Review — YYYY-MM.docx` → `01 · AI Brain/`) · a dated
 Retention-notes line in `memory/organization.md` when the review names an agent quiet or at risk (the
 Admin maintains that file) · nothing else. Targets stay `attraction-goals`' (this review PROPOSES next
 month's; "refresh my attraction plan" changes the locked goals); the quarter's constraint line stays
@@ -71,22 +70,23 @@ did you convert the majority you spoke with — if not, why (the model explanati
 objections → the Brokerage Model Expert and the Objection Coach) · did you stay consistent with content —
 if not, why. Then the intangibles from `goals.md` (confidence on camera, explaining the model without
 notes, objections handled calmly, the consistency streak) and "what did you invest in yourself this month"
-(`/80`). In chat, ONE stop of two or three questions: *"Which of these read true? What got better that no
+(`16-implementation-scaling/80`). In chat, ONE stop of two or three questions: *"Which of these read true? What got better that no
 number shows? And your rev share this month, if you want it tracked — it stays private. Your turn."*
 Scheduled runs never ask; they mark those lines "for you to add".
 
-## Step 5 — Where momentum slowed, and the one fix (the diagnosis map, `/78`)
+## Step 5 — Where momentum slowed, and the one fix (the diagnosis map, `16-implementation-scaling/78`)
 Lead flow · conversion · retention — name ONE:
-- low conversations → "not enough attraction activity, not enough valuable content" → the activity target
+- low conversations → "not enough attraction activity", not enough valuable content → the activity target
   + the content engine (Short-Form Week 3, YouTube Week 4)
-- high conversations, low conversions → "messaging, model explanation, objection handling" →
+- high conversations, low conversions → messaging, the model explanation, objection handling →
   `attraction-brokerage-model`, `cv-objection-coach`, the call audits (`cv-debrief`)
-- good recruiting, poor retention → "onboarding, and no tight community" → `operations.md`'s first steps,
-  the standing call, "support without babysitting" (`14-retention-culture/71`)
-- low duplication → "you're still the only one attracting" → teaching agents to attract
-  (`13-team-building-duplication/63`, `/66`) — named as the Week 6 playbook, never demanded early
-- rev share flat → "a lack of new leadership development; your group scales to the capacity you are" →
-  `attraction-leadership-audit`, invest in yourself (`/80`)
+- good recruiting, poor retention → onboarding, and no tight-knit community → `operations.md`'s first steps,
+  the standing call, "supporting without babysitting" (`14-retention-culture/71`)
+- low duplication → "you're still the only one putting in all the effort to attract" → teaching agents to
+  attract (`13-team-building-duplication/63`, `13-team-building-duplication/66`) — named as the Week 6
+  playbook, never demanded early
+- rev share flat → "a lack of new leadership development" — a group scales to the capacity of its leader →
+  `attraction-leadership-audit`, invest in yourself (`16-implementation-scaling/80`)
 Before three months of data the constraint is activity — say so; it is the normal first-quarter read. One
 fix, one sentence, the skill that does it. Then one line: *"say 'what is my constraint' and your execution
 framework stamps this for the quarter."*
@@ -108,9 +108,9 @@ from the goals — nothing here is a promise of income"). Then:
 → read it back (no `<w:` markup, every table present), upload to `01 · AI Brain/` next to the 90-Day
 Attraction Scorecard, hand the member the link. **`RENDERER-UNAVAILABLE` → install nothing, save the
 structured text as `.md`, upload that, say so in one line.** One corrective re-render at most.
-Housekeeping, in chat runs only: move `deadlines.md` rows Done for 60+ days to
-`exports/deadlines-archive.md` (create it if absent; never a source); a dated Retention-notes line for any
-agent the review names quiet or at risk; push via `attraction-brain-sync` (write → push → verify).
+Housekeeping, in chat runs only: a dated Retention-notes line in `memory/organization.md` for any agent the
+review names quiet or at risk; push via `attraction-brain-sync` (write → push → verify). `deadlines.md` is
+append-only — Done rows stay; nothing is moved to `exports/` (outside the sync allowlist, never a source).
 
 ## What the member sees (~20 lines, plain text, capitalised heads)
 THE MONTH IN ONE LINE · THE SIX (one line each: the number and what it means) · AGAINST THE PLAN (two

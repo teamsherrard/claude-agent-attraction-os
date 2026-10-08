@@ -71,8 +71,9 @@ or change their goals.
    scenario — nothing here is a promise of income") — then
    `python3 "<plugin root>/shared/render_doc.py" /tmp/monthly-review.txt "📊 [Name]'s Monthly KPI Review — [YYYY-MM].docx" --title "Monthly KPI Review" --subtitle "[Name] · [Month YYYY]" --eyebrow "AI Admin"`,
    read it back (no `<w:` markup, every table present), upload it to the workspace's `01 · AI Brain/`
-   folder (by workspace ID) and confirm it exists. If the renderer prints `RENDERER-UNAVAILABLE`: install
-   nothing, save the structured text as a `.md`, upload that, and say so in one line. Never write a
+   folder (by workspace ID) and confirm it exists. If the renderer prints `RENDERER-UNAVAILABLE`, or the
+   script cannot be found because the plugin is not loaded in this session: install nothing, save the
+   structured text as a `.md`, upload that, and say so in one line. Never write a
    ledger, never move a stage, never touch the goals or the execution framework.
 9. **Compose the summary** — plain text, capitalised heads, about 20 lines: one-line greeting with the
    month · THE MONTH IN ONE LINE · THE SIX (one line each: the number and what it means) · AGAINST THE PLAN

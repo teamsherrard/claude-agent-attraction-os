@@ -29,7 +29,8 @@ Reply CTAs: "Reply 'CALL' if you want the recording" · "Reply with your Monday 
 ## 2 · Agent wins (Proof — recognition creates FOMO)
 *"Tag the agent — they reshare, and it goes to a whole new audience." (`07/89`)*
 1. First deal — "[First name]'s first closing. Eight months of zero before this." (consent)
-2. A milestone — the cap, the award, the listing count. "Earned, not given."
+2. A milestone — the award, the listing count, a big month; "the cap" only when the rev-share marketing policy in
+   `identity/compliance.md` allows it, otherwise the milestone stands without it. "Earned, not given."
 3. The call recap — "[N] agents on today's call" (the real number) + the biggest takeaway, tagged.
 4. An agent applied the training — "she used the open-house routine from Tuesday. Here's what happened."
 5. A testimonial line — verbatim, attributed as given, consent on file.
@@ -89,6 +90,7 @@ conversation hands to `sf-comment-to-dm` (which logs the row, via `attraction-ca
 Conversion and Admin plugins exist) — never logged here.
 
 ## Never in a story
-A split, a cap, stock, a fee, an income figure · a negative word about any brokerage or person · a former
+A split, a cap (an agent's capping milestone is category 2's one exception, where the policy allows), stock, a fee,
+an income figure · a negative word about any brokerage or person · a former
 brokerage's name · an agent's name or face without consent · a call screenshot with unconsented names · an
 invented attendee count · a price tag as the point of an event · "stop scrolling".

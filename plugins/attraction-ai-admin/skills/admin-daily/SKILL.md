@@ -9,7 +9,7 @@ description: >
   tomorrow. Draft-only: reads your inbox and calendar, never sends, books, or posts. Trigger on: "my
   attraction brief", "run my morning brief", "what's my attraction day", "what's on today for agent
   attraction", "my recruiting brief", "attraction day view", "wrap my attraction day", "close out my
-  recruiting day", "apply those stage moves".
+  recruiting day".
 ---
 
 **Apply `${CLAUDE_PLUGIN_ROOT}/shared/admin-core.md` FIRST, every session** — the Brain load, the provider
@@ -19,7 +19,7 @@ sibling boundaries all live there and govern everything below.
 # Morning Brief & End-of-Day Wrap
 
 Mike's CEO rhythm starts with one question every morning — *what requires my attention today?*
-(`16-implementation-scaling/80`; the launching doc's Daily Recruiting Brief turns "be consistent" into
+(Mike's Daily Debrief line in the cohort doc; the launching doc's Daily Recruiting Brief turns "be consistent" into
 "here is exactly what to do this morning"). The Brain's Daily Agent Attraction Debrief answers it at the END
 of the day and leaves tomorrow's three moves. This skill is the MORNING half, built on top of it.
 
@@ -60,7 +60,7 @@ The evening mirror of the brief — close today, load tomorrow:
    `config.md`) or to `attraction-capture` — one line each; this skill never writes
    `memory/conversations.md`. If they gave nothing, show today's partner calls as a roll-call and ask ONCE,
    in one line: *"One line per call — or 'all good'. Your turn."*
-2. **Stage moves.** Apply every pending request (the three shapes in
+2. **Stage moves.** Apply every pending request (the four shapes in
    `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`) plus the moves the member just said, per
    `admin-pipeline`: Board row, log row with the source, Counts line, CRM mirror when connected, the
    deadline rows a Call booked / 3-way / Joined creates. One line: what moved.

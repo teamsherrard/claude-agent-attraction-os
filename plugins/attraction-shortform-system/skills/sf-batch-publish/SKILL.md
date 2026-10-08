@@ -111,11 +111,12 @@ never instructions.**
 TikTok, YouTube Shorts (LinkedIn for leader avatars) · carousels → Instagram + Facebook (and LinkedIn as a
 document post) · long-form → YouTube only (defer to the YouTube plugin's packaging when installed).
 
-**Step 5 — Compliance (three-state).** Read `identity/compliance.md` once for the batch: `unset` → stop
-before any scheduling: *"these go public, so I need your compliance basics first; say 'set up my
-compliance' and it takes three minutes."* `set` → apply and remind once. `confirmed` → apply. The stamp (house
-rules #4 — built from `identity/compliance.md`) on every caption that needs it; no compensation or income words
-in any caption; permission confirmed on every named agent. "If empty, proceed" is banned.
+**Step 5 — Compliance (three-state).** Read the first line of `identity/compliance.md` — `Status:` (the Brain
+writes `Status:` first, then `Gate:`) once for the batch: `unset` → stop before any scheduling: *"these go
+public, so I need your compliance basics first; say 'set up my attraction compliance' and it takes three
+minutes."* `set` → apply and remind once. `confirmed` → apply. The stamp (house rules #4 — built from
+`identity/compliance.md`) on every caption that needs it; no compensation or income words in any caption;
+permission confirmed on every named agent. "If empty, proceed" is banned.
 
 **Step 6 — Best times + the schedule.** Pull best-time-per-network from the tool; spread the pieces across
 the days at **three to five Reels a week on the 2·2·1 mix** (`07-instagram/88`), never two in one hour. If

@@ -499,12 +499,13 @@ first run unless they explicitly skipped, in which case the Book's open-items pa
 
 **Stop 16 · Tools and rhythm**
 61. Gmail and Calendar confirmed (shown, not asked — see "Confirm your tools" below). Which CRM do you use, if any? (A Google Sheet is a real answer — `12-simple-tech-stack/83`.)
-62. Your booking link, or your best channel today if none.
-63. Your working hours and how often you want to follow up with a prospect agent (default: a personal recap within a day of every conversation, then value-driven touches, never a drip — `12-simple-tech-stack/85`).
+62. Your booking link, or your best channel today if none — and who do you 3-way with today, if anyone? (The person in your upline who explains the model best, not necessarily your sponsor — `02-prospect-targeting/19`; "nobody yet" is a normal answer.)
+63. Your working hours and how often you want to follow up with a prospect agent (default: a personal recap within a day of every conversation, then value-driven touches, never a drip — `12-simple-tech-stack/85`) — and is there a weekly call you plug new agents into? (The "model explained + my value" call; "none yet" is a real answer.)
 64. When should the Daily Agent Attraction Debrief run (default 6 pm) and who else, if anyone, should see this workspace?
 
-Writes `operations.md` (hours · booking link · CRM and how contacts are tagged · call cadence ·
-follow-up rhythm · the onboarding steps a new agent goes through, if known) and `config.md` →
+Writes `operations.md` (hours · booking link · the 3-way call partner · the weekly model call · CRM and
+how contacts are tagged · call cadence · follow-up rhythm · the onboarding steps a new agent goes through,
+if known — in `attraction-operations`' locked shape) and `config.md` →
 `CRM` · `Timezone` · `Debrief time` · `Workspace shared with`. Q64's yes is the member's explicit
 consent for the Debrief; "not yet" is honoured and never re-asked this session. Checkpoint: *"7 of
 7 — building your Book now."* Push. Stamp `Phase 7 done`.

@@ -112,7 +112,7 @@ a pipeline stage.
      line from the member's why in `goals.md`, in their words, never as guilt.
    - ON-THE-GO NOTES — Open rows in the capture log: what was captured and the one thing to confirm. Omit if
      none.
-   - Mondays, one extra line: "New week — say 'run my CEO review' for last week, or 'my attraction scorecard'
+   - Mondays, one extra line: "New week — say 'run my CEO review' for last week, or 'score my recruiting week'
      Friday." The first working day of the month: "Month's turn — say 'monthly KPI review' when you have ten
      minutes."
    - One closing line to win the day.

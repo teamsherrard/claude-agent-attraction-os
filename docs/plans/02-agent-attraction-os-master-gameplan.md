@@ -273,9 +273,9 @@ Week 7 fast-action bonus and stays out of v1.
 
 ---
 
-## 9. Plugin 7 — AI Admin (`admin-`, 7 skills)
+## 9. Plugin 7 — AI Admin (`admin-`, 8 skills)
 
-Forks `realtor-ai-admin` (17 skills) down to the attraction layer. The realtor admin stays the realtor's admin; this one only runs the organization.
+Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills: the seven below plus `admin-setup`). The realtor admin stays the realtor's admin; this one only runs the organization.
 
 | Skill | From | Change |
 |---|---|---|

@@ -94,11 +94,12 @@ Facebook** block (caption + 3–5 hashtags + the FB tweak) with the CTA line car
 a TikTok/Shorts format — skip those.) The LinkedIn post copy comes from Phase 2.
 
 ## Phase 4 — Compliance pass (third law, three-state)
-`identity/compliance.md`: `unset` → the spec stays in chat as a private draft with the plain line; `set` → apply
-+ remind once; `confirmed` → apply. Apply: brokerage name/license as the file says; **the two cardinal rules**
-(`03-model-positioning/13`) — read the Why I Left back slide by slide and remove anything that characterizes the
-old brokerage or anyone there; former brokerage unnamed; no compensation; no earnings; no "#1/best" without a
-source; a named agent only with consent; any real-estate example fair-housing safe.
+the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`): `unset`
+→ the spec stays in chat as a private draft with the plain line; `set` → apply + remind once; `confirmed` →
+apply. Apply: brokerage name/license as the file says; **the two cardinal rules** (`03-model-positioning/13`) —
+read the Why I Left back slide by slide and remove anything that characterizes the old brokerage or anyone
+there; former brokerage unnamed; no compensation; no earnings; no "#1/best" without a source; a named agent only
+with consent; any real-estate example fair-housing safe.
 
 ## Phase 5 — Deliver + hand to design
 One clean, copy-paste package: the slides, the final slide, the LinkedIn version (if any), the caption(s), the

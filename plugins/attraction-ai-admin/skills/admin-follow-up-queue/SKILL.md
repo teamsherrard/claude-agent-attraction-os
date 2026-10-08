@@ -19,7 +19,7 @@ sibling boundaries all live there and govern everything below.
 
 # The Follow-Up Queue — every prospect due a touch, with the reason
 
-"The fortune is in the follow-up," and "always leave value — never just checking in"
+"The fortune's in the follow-up" — and always leave value, never just checking in
 (`12-simple-tech-stack/85`). Mike's plan is simple and personal: the recap within two days of a
 conversation, a value touch in weeks two to four, a story or an industry update monthly, an invitation
 quarterly — adjusted by interest, across text, email, DM, and video, consistency over frequency. The
@@ -72,7 +72,7 @@ Not in the queue: **Parked** agents (unless the parked timing's date has arrived
 compliance recruiting scope · anyone quiet 30+ days — one line: "quiet: say 'reactivate quiet agents'"
 (`cv-reactivation` owns reason-based reactivation) · anyone touched in the last 2 business days (the Log or
 sent mail shows it) — "nudged Tuesday, give it a day" · a name with no reason: "no reason yet — leave it"
-(`/85`). Cap at the daily number; overdue first, then today, then this week (shown, not drafted). Every row
+(`12-simple-tech-stack/85`). Cap at the daily number; overdue first, then today, then this week (shown, not drafted). Every row
 carries a REASON the member could say out loud.
 
 ## Step 3 — Draft every due touch (compliance gate first)
@@ -112,10 +112,11 @@ why). **"Replied"** → the reply is a conversation: `cv-debrief` or `attraction
 says replied.
 
 ## The scheduled agent — Daily Follow-Up Queue (this skill owns it; explicit yes, never silent)
-1. **Consent, one plain line, before creating anything:** *"Want the queue every morning at 7:30? It reads
-   your notes, your pipeline, and your brokerage news, drafts every touch due with its reason, and confirms
-   tomorrow's calls. Nothing is sent — every draft waits for you. Yes, a different time, or not yet?"*
-   **Your turn.** Not yet → `Daily Follow-Up Queue task: declined` in the `## AI Admin` block, push, never
+1. **Consent, one plain line, before creating anything** — asked ONCE: when `admin-setup`'s consent card
+   already carried the member's yes to the queue, skip this question and go to step 2. Otherwise: *"Want the
+   queue every morning at 7:30? It reads your notes, your pipeline, and your brokerage news, drafts every touch
+   due with its reason, and confirms tomorrow's calls. Nothing is sent — every draft waits for you. Yes, a
+   different time, or not yet?"* **Your turn.** Not yet → `Daily Follow-Up Queue task: declined` in the `## AI Admin` block, push, never
    re-offer (it still runs on demand). A demo Brain never gets a task.
 2. `config.md` already holds a task id → already on; say nothing more. `list_scheduled_tasks` — adopt
    `attraction-admin-follow-up-queue` if it exists (write its id); never a twin.

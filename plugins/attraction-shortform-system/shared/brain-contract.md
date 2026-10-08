@@ -11,10 +11,11 @@ short-form skill needs and names exactly which files this plugin touches.*
 2. **Write back, then push immediately** — write → push → verify, one atomic step via `attraction-brain-sync`.
    Never "write now, push later". An unsynced write is a lost write (Cowork wipes `~/attraction-brain/` between
    sessions). Push changed files only; never re-pull the whole Brain after a one-file write.
-3. **Read `identity/compliance.md` before anything public** — a bio, a script, a caption, a carousel, a story
-   line, a DM template. Three-state: `confirmed` → apply its rules · `set` → apply and remind once per session to
-   confirm with the brokerage · `unset` → **no public piece**; say plainly, in one warm line, that the compliance
-   basics come first ("say 'set up my attraction compliance' — three minutes") and offer the private parts of the task
+3. **Read the first line of `identity/compliance.md` — `Status:` — before anything public** (the Brain writes
+   `Status:` first, then `Gate:`) — a bio, a script, a caption, a carousel, a story line, a DM template.
+   Three-state: `confirmed` → apply its rules · `set` → apply and remind once per session to confirm with the
+   brokerage · `unset` → **no public piece**; say plainly, in one warm line, that the compliance basics come
+   first ("say 'set up my attraction compliance' — three minutes") and offer the private parts of the task
    (pillars, topic lists, a calendar) meanwhile. "If empty, proceed" is banned.
 
 ## Safety rails (every skill)

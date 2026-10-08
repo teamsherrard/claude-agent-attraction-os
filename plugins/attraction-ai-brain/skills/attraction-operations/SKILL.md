@@ -85,6 +85,7 @@ defaulting anything they are unsure of.
   Thursdays"), from Q62. "Nobody yet" is written as that, with one line: the Conversion plugin's 3-way
   skill (Week 5) works with whoever is named here, and the Admin reads it when a call needs a third voice.
 - **Weekly model call** — day/time · link, from Q63: the "model explained + my value" call agents'
+- `Organization list / group address:` the email list or group address the member uses to reach their whole organization (the Team Wins newsletter's To field reads it; \"none yet\" is a real answer, asked in plain words: \"is there one email or group that reaches everyone in your organization?\")
   prospects are invited to (Mike ran his every Tuesday for four years, `02-prospect-targeting/19`). "None
   yet" is a real answer; the execution framework carries the slot once the organization has agents.
 - **Follow-up rhythm** (`12-simple-tech-stack/85`, Mike's "simple plan"), the default:

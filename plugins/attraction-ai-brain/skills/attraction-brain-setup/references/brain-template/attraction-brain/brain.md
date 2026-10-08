@@ -11,7 +11,7 @@
 1. **READ this first.** For depth on any topic, open the specific file listed under "The files" below.
    Never ask the member for anything already in the Brain. Never re-research what is current in the Brain.
 2. **WRITE back what you learn, then PUSH immediately** (write → push → verify, one atomic step):
-   - An agent conversation → `memory/conversations.md` (dated row) + move their `memory/pipeline.md` stage
+   - An agent conversation → `memory/conversations.md` (dated row; its `Stage after` cell is the stage request once the AI Admin exists — before Week 5 capture moves the `memory/pipeline.md` stage itself)
    - A named agent worth building a relationship with → `memory/top-50.md`
    - An objection heard, and what answered it → `memory/objections.md`
    - A win (yours, or an agent you helped) → `identity/proof.md` (Seeds section)
@@ -33,8 +33,9 @@
    that matches the avatar and the pain, weaves it in their voice, then stamps its **Used-where**. Former
    brokerages are never named in a story ("a franchise", "an independent"). Never fabricate a voice, a story,
    a quote, a testimonial, a production number, or a rev-share figure.
-5. **THE WEEK RULE.** The Partner Offer is Week 2, content pillars Week 3, the channel Week 4, the pipeline
-   Week 5, onboarding Week 6. A later-week file that is empty is not a gap; say which week builds it.
+5. **THE WEEK RULE.** The Partner Offer is Week 2; content pillars, the bios, and the publishing layer Week 3;
+   the channel Week 4; the sales system, the pipeline, and the AI Admin Week 5; the lead magnet and onboarding
+   Week 6. A later-week file that is empty is not a gap; say which week builds it.
 
 If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** first. A tool error is never
 "no Brain". Only if the cloud search genuinely finds nothing: suggest "Set up my attraction brain."
@@ -70,6 +71,10 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `identity/story-bank.md` — the Personal Story & Experience Bank, each story tagged persona · pain · use
 - `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (feel, references, tagline) — the Design Package reads this
 - `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 3; empty until then by design)
+- `identity/publishing.md` — the short-form layer: platforms, cadence, the keyword, posting tool, best times, content board, link in bio (Short-Form-owned, Week 3; YouTube reads `Content board:` and `Keyword:` here)
+- `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `sf-setup` writes it in Week 3, `yt-setup` fills YouTube in Week 4, `lm-profiles` updates to the funnel's CTA in Week 6
+- `identity/channel.md` — the YouTube channel: lanes and playlists, the CTA line, upload defaults, baseline, the Game Plan anchors, dated `## Performance` blocks (YouTube-owned, Week 4)
+- `identity/sales-system.md` — the Partner Call machine: calendar, the five application-form questions, the "no" rule, CRM stage mapping, reminders (Conversion-owned, Week 5; mirrors the booking link in operations.md)
 - `identity/goals.md` — 12-month milestones, 30-60-90 targets, the money scenarios (illustrative), weekly activity
 - `identity/execution-framework.md` — the 12-month plan, weekly KPIs, monthly metrics, the CEO rhythm (built after goals lock)
 - `identity/leadership.md` — From Agent to Leader readiness score + fix-first list (written by the Leadership Audit)
@@ -87,7 +92,14 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/content-log.md` — everything published or scripted (check before creating, to avoid repeats)
 - `memory/ideas.md` — content ideas captured on the go (read before generating new ideas; mark Used)
 - `memory/intel.md` — brokerage and industry news from the Agent Movement Watcher and captures (dated, sourced)
-- `memory/intel-reports/` — per-prospect pre-call briefs (the Conversion plugin writes them from Week 5)
+- `memory/intel-reports/` — per-prospect pre-call briefs and the dated follow-up / reactivation plan files (the Conversion plugin writes them from Week 5)
+- `memory/interview-pipeline.md` — the YouTube interview guest list and where each interview stands (YouTube-owned, Week 4)
+- `memory/content-performance.md` — the Friday ledger: which Reels, stories, and keywords started agent conversations (Short-Form-owned, Week 3; YouTube appends its section from Week 4)
+- `memory/follow-up-queue.md` — every prospect due a touch, with the reason, tomorrow's confirmations, the touch log (AI Admin-owned, Week 5)
+- `memory/sales-funnel.md` — the weekly funnel by source: booked → held → 3-ways → joins, the constraint (Conversion-owned, Week 5)
+- `memory/magnets.md` — every lead magnet and `## Current magnet`, the one every CTA points at (Lead Magnet-owned, Week 6; readers take the live guide from here first)
+- `memory/list-growth.md` — the email list: nurture sequences, weekly opt-in rows, calls booked from the funnel, partners (Lead Magnet-owned, Week 6)
+- `memory/events.md` — events run and their follow-up (Events-owned, Week 6) · `memory/support-log.md` · `memory/claude-updates.md` — the Support plugin's ticket log and Claude-changes digest
 - `memory/capture-log.md` — anything capture could not classify (Open rows surface in the Debrief)
 - `memory/deadlines.md` — what's due and when
 
@@ -96,4 +108,4 @@ live in the workspace's **`06 · Materials`** folder — the member drops files 
 says **"import my materials"**; `attraction-import` extracts each piece into the right file after they confirm.
 A Realtor AI Brain, if one exists, is read once through the same skill and never written to.
 
-**config.md** — the key registry: Schema aa-1.0 · Storage provider · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task · Agent Movement Watcher task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week
+**config.md** — the key registry: Schema aa-1.0 · Storage provider · Storage (ok · READ-ONLY (org-gated)) · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task · Agent Movement Watcher task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week — then one block per later plugin (Short-Form · YouTube · Conversion & Sales · AI Admin · Lead Magnet · MAA Support), each with its own locked task keys; the `## AI Admin` block's first line `AI Admin: set up [date]` is how every other skill knows the Admin is installed

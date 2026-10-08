@@ -22,6 +22,6 @@
 **What they want an agent to FEEL after their content:** [e.g., "seen, and clear on the next step"]
 **Tone reference (calibration only, never copied):** [leader or creator they named]
 
-**Primary CTA:** [e.g., "Book a call with me — [link]"] · **Second CTA (the guide / keyword):** [set in Week 6 by the Lead Magnet plugin — leave empty until then]
+**Primary CTA:** [e.g., "Book a call with me — [link]"]  *(the guide / keyword CTA is never stored here — readers take the live magnet from `memory/magnets.md → ## Current magnet` first, `identity/offer.md` second; the keyword itself lives in `identity/publishing.md`)*
 **Topics most confident on:** [ ] · **Topics to avoid:** [ ]
 **The one thing they wish struggling agents understood:** [often their best content angle]

@@ -1,6 +1,6 @@
 # Brain Doc Formatting — render deliverables as clean, formatted .docx
 
-How the Brain's skills save documents (offer guidebooks, market updates, listing kits, the welcome doc) so
+How the Brain's skills save documents (the Partner Offer, the Scorecard, the Why Join Me doc, the Model Positioning Sheet) so
 they're organized in Drive and genuinely look good. When a skill says "save as a clean doc (doc-formatting
 standard)," it means this. **Every deliverable is rendered to a formatted `.docx` in one neutral house style —
 the same clean look for every client (no colour, no per-client branding).**
@@ -41,9 +41,9 @@ for this system; the documents must feel like it.
 
 ## Naming
 `[Deliverable] · [Subject] · [Date]` — Title Case, ISO dates. Examples:
-- `Market Update · Calgary · 2026-06`
-- `Listing Kit · 123 Main St`
-- `Why Work With Me · [Agent Name]`
+- `Partner Offer · [Member] · 2026-11-14`
+- `Top-50 · [Member] · 2026-11-14`
+- `Why Join Me · [Member] · 2026-11-14`
 
 ## The look the renderer produces (one neutral standard for every client)
 - **Arial** everywhere (never a serif). **Pure black** titles / headings / body; **dark grey** only for the

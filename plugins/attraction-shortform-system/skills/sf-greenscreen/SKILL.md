@@ -114,10 +114,11 @@ Read the whole package back, line by line, against this list, and rewrite anythi
 - An earnings claim, a "#1 / best / fastest-growing" without a dated source, an unverified fact stated as fact.
 - A pitch ("join us", "DM me to learn about [brokerage]") instead of a take and a rung.
 - Anything the brokerage's own policy in `compliance.md` forbids saying publicly about the model.
-Then the three-state gate: `unset` → the package stays in chat as a private draft with the plain line; `set` →
-apply + remind once; `confirmed` → apply (brokerage name / license / disclaimer as the file says). Close with the
-one-line reminder for the member, not for publishing: *"Check this against your brokerage's rules on talking
-about the industry before it goes out."*
+Then the three-state gate, read from the first line of `identity/compliance.md` — `Status:` (the Brain writes
+`Status:` first, then `Gate:`): `unset` → the package stays in chat as a private draft with the plain line;
+`set` → apply + remind once; `confirmed` → apply (brokerage name / license / disclaimer as the file says). Close
+with the one-line reminder for the member, not for publishing: *"Check this against your brokerage's rules on
+talking about the industry before it goes out."*
 
 ## Phase 5 — Deliver
 One clean, copy-paste package:

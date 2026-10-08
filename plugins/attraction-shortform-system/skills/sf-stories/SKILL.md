@@ -65,8 +65,10 @@ Stories are about the day. One light question, only if they didn't already say:
 week first (from the log):
 1. **Behind the scenes of leading** — the weekly call (a screenshot with the one takeaway), what they're learning
    or investing in, the routine, a meeting with an agent, planning an event, the content they're recording.
-2. **Agent wins** — a milestone, a first deal, a cap, a shout-out — tagged so the agent reshares; a testimonial
-   line (consent); the call with "[N] agents on" (never an invented number).
+2. **Agent wins** — a milestone, a first deal, a shout-out — tagged so the agent reshares; a testimonial
+   line (consent); the call with "[N] agents on" (never an invented number). "A cap" is named as the milestone only
+   when the `Rev-share marketing and income-claim policy` in `identity/compliance.md` allows it; otherwise the
+   milestone stands without it ("a big month", "first deal").
 3. **Personal** — family, fitness, travel, the dog, a hobby, a down day and how they're handling it, food for
    thought. "Relatable leaders are attractive leaders." Passions and hobbies pull in agents who share them.
 4. **Opportunity** — a quick win agents can use today (a tip, a script line, a screenshot of a tool or template
@@ -93,24 +95,28 @@ row (through `attraction-capture` when present) until the Conversion and Admin p
 logs one.
 
 ## Phase 3 — Compliance pass (third law, three-state)
-`identity/compliance.md`: `unset` → the set stays in chat as a private draft with the plain line; `set` → apply +
-remind once; `confirmed` → apply. Apply to stories: a named agent only with consent (`proof.md`); no screenshot of
-a call that shows names without consent — say "blur or crop names"; no compensation, no earnings, no negative
-word about any brokerage or person; brokerage name/license where the file says it must appear; any real-estate
-example fair-housing safe.
+the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`): `unset`
+→ the set stays in chat as a private draft with the plain line; `set` → apply + remind once; `confirmed` →
+apply. Apply to stories: a named agent only with consent (`proof.md`); no screenshot of a call that shows names
+without consent — say "blur or crop names"; no compensation, no earnings, no negative word about any brokerage
+or person; brokerage name/license where the file says it must appear; any real-estate example fair-housing safe.
 
 ## Phase 4 — Deliver
-A clean copy-paste set, in order, with a one-line plan: *"Morning: the call screenshot. Lunch: the poll. Evening:
-the dog. Thirty seconds each."* If the member has the content board (house rules #10), one card for the day's set
-(Format `Graphic`, Context `• Pillar: Proof / Personality`). Never schedule stories through a tool — they're
-posted live from the phone; say so if asked.
+A clean copy-paste set, in order, with a one-line plan: *"Morning: the call screenshot. Lunch: the poll.
+Evening: the dog. Thirty seconds each."* If the member has the content board (house rules #10), one card for the
+day's set (Format `Graphic`, Context `• Pillar:` the set's lead pillar — one value, never two in a cell). Never
+schedule stories through a tool — they're posted live from the phone; say so if asked.
 
 ## Phase 5 — Save + log + push
 1. **Save** per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` only when the member asks for a week of sets
    or a deck doc — a daily set lives in chat. A saved set: rendered `.docx` to
    `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Stories · [Day / theme]`.
-2. **Log it:** one row per day in `~/attraction-brain/memory/content-log.md`, locked shape:
-   `| [date] | Instagram | story | Proof · Personality (the categories run) | [story set] [the day's theme] | [avatar] | [story hook or —] | [reply word · story reply] | Scripted | |`
+2. **Log it:** one row per pillar the set ran in `~/attraction-brain/memory/content-log.md` — the Pillar cell holds
+   ONE value, never `Proof · Personality` in one cell (behind the scenes + agent wins → `Proof`; personal →
+   `Personality`; opportunity → `Authority` for a tip, script, template, or poll on their business, `Proof` for a
+   sneak peek of what's coming). Locked shape, one row each:
+   `| [date] | Instagram | story | Proof | [story set] [the day's theme] | [avatar] | [story hook or —] | [reply word · story reply] | Scripted | |`
+   `| [date] | Instagram | story | Personality | [story set] [the day's theme] | [avatar] | — | [reply word · story reply] | Scripted | |`
 3. **Stamp** a story-bank Used-where if a bank story was used; flip an `ideas.md` row to `used`.
 4. **Push** (write → push → verify). Then: *"Logged today's stories — tomorrow I'll rotate to the categories you
    haven't hit this week."*
@@ -123,5 +129,6 @@ posted live from the phone; say so if asked.
 - [ ] Each: what to capture · overlay ≤15 words in their voice · sticker · reply CTA · highlight
 - [ ] Wins tag the agent, consent respected; personal is real, never flaunted; opportunity is value, never a pitch
 - [ ] Reply CTA matches the ManyChat state; a real conversation hands to `sf-comment-to-dm`
-- [ ] No compensation, no earnings, no negative word about any brokerage or person; compliance three-state applied
-- [ ] Logged in the locked shape, pushed; text only
+- [ ] No compensation, no earnings, no negative word about any brokerage or person; compliance three-state applied;
+      "a cap" as a milestone only where the rev-share marketing policy allows
+- [ ] Logged one row per pillar in the locked shape (one value per Pillar cell), pushed; text only

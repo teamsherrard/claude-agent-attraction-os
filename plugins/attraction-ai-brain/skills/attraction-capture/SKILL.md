@@ -11,7 +11,7 @@ description: >
   "attraction win", "attraction video idea", "reel idea for agents", "capture this for my
   attraction brain", "brokerage news", "industry note", "remember this moment", "story for the
   bank", or any on-the-go note about an agent, a conversation, a win, an idea, or news. (Client
-  notes, reminders, email drafts, and bookings are the AI Admin's dispatch, not this skill.)
+  notes, reminders, email drafts, and bookings are the AI Admin (`admin-pipeline` for stage changes, `admin-follow-up-queue` for drafts), not this skill.)
 ---
 
 # Attraction Capture — the system-wide "just say it" front door

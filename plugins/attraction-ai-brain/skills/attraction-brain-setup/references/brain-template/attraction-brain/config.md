@@ -3,7 +3,8 @@
 
 ## Registry (locked spelling — `shared/brain-contract.md`)
 - **Schema:** aa-1.0  *(structure version — the template, this line, and `attraction-brain-migrate` always agree; migrate pushes after it bumps this)*
-- **Storage provider:** [google | microsoft]  *(set once at setup — see `shared/connectors.md`; append `READ-ONLY (org-gated)` if Microsoft write actions are disabled — every save then says so)*
+- **Storage provider:** [google | microsoft]  *(set once at setup — see `shared/connectors.md`)*
+- **Storage:** [ok | READ-ONLY (org-gated)]  *(a separate key from `Storage provider` — written by `attraction-brain-sync` when a provider's write actions are admin-disabled; every save then says so in one plain line)*
 - **Workspace name:** [display name — default "Agent Attraction OS"; the member may rename it freely]
 - **Workspace ID:** [captured at first sync — IDs survive renames; ALWAYS locate by ID, then by the `_attraction-workspace.md` marker, never by name]
 - **Workspace link:** [the direct URL — hand this to the member to bookmark]
@@ -17,6 +18,9 @@
 - **Realtor Brain bridge:** [none | declined | pulled YYYY-MM-DD]  *(read-only; never written back)*
 - **Demo brain:** [no | yes]  *(yes only when the member explicitly asked for a fictional demo — `shared/brain-book-spec.md`; a demo brain never mixes with a real one)*
 - **Cohort week:** [1–6, optional — the Support plugin reads it]
+
+## Keys the later plugins register (locked spelling — each lives in its owner's block below; the Brain never writes them)
+*Listed here so the registry is complete and every skill spells them the same way:* `Weekly Content Performance task` (Short-Form block — `sf-analytics` fills it, `yt-analytics` reads it there and nowhere else) · `Call Block Prep task` · `Cold-Lead Reactivation task` (Conversion & Sales block — `cv-call-prep`, `cv-reactivation`) · `AI Admin` (the stamp `AI Admin: set up [date]`, the FIRST line of the AI Admin block — the Conversion plugin and `attraction-capture` detect the Admin by a heading that starts with `## AI Admin` plus this line, and from then on request stage moves and Top-50 touch updates instead of writing them) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Weekly CEO Review task` · `Monthly KPI Review task` · `Team Wins Newsletter task` (AI Admin block) · `Support desk` (MAA Support block — `attraction`).
 
 ## Supporting fields (not registry keys; mechanics only)
 - **Brain home (permanent):** the workspace's `01 · AI Brain/_engine/`. Local `~/attraction-brain/` is a per-session working copy — Cowork wipes it between sessions; an unsynced write is a lost write.
@@ -38,5 +42,13 @@ connector for storage + email + calendar (`shared/connectors.md`). Email is draf
 - [ ] **Zoom** — meeting links on partner calls *(optional; Google Meet / Teams is the fallback)*
 
 ## Later plugins register here (one block each, written by that plugin's setup; the Brain never edits them)
-*Short-Form (Week 3) · AI Editor (Week 3) · YouTube (Week 4) · Conversion & Sales (Week 5) · AI Admin (Week 5) ·
-Lead Magnet (Week 6) · Events (Week 6). An empty block means "not installed yet", never "broken".*
+*An empty or missing block means "not installed yet", never "broken". Headings and keys are locked by each owner's `shared/brain-contract.md`:*
+- `## MAA Support (Plugin 2)` — `Support: set up [date]` · `Cohort start` · `Support desk: attraction` · `Portal` (plus the setup's own lines: `Off weeks` · `Graduation` · `Fast-action buyer` · `Configured` · `Snapshot at setup`)
+- `## Short-Form (Week 3)` — `Installed` · `Plugin version` · `Layer: identity/publishing.md` · `Weekly Content Performance task` (`not offered yet` → task id · `declined`)
+- *AI Editor, Riverside (Week 3)* — registers no block; its state lives under `editor/` inside the sync allowlist
+- `## YouTube (Week 4)` — `Installed` · `Plugin version` · `Layer: identity/channel.md` · `Monday Kickoff task` · `Weekly ideas task` · `Monthly review task` · `YouTube section` (+ `Monday Kickoff delivery: email draft` if chosen)
+- `## Conversion & Sales` — `Call Block Prep task` · `Call Block Prep time` · `Cold-Lead Reactivation task` · `Booking page` · `Partner call length` · `Setter`
+- `## AI Admin (Week 5)` — `AI Admin: set up [date]` (the stamp, first line) · `Assistant name` · `Morning Brief task` · `Morning Brief time` · `Daily Follow-Up Queue task` · `Follow-Up Queue time` · `Weekly CEO Review task` · `CEO Review slot` · `Monthly KPI Review task` · `KPI Review day` · `Team Wins Newsletter task` · `Newsletter slot` · `CRM mirror` · `VA`
+- `## Lead Magnet (Week 6)` — `Installed` · `List tool` · `Live data`
+- `## Events (Week 6)` — set by the Events plugin's setup when it ships
+Timezone is never stored in any block — it lives in the registry above, once.

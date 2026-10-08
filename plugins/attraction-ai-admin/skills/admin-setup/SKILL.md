@@ -8,7 +8,7 @@ description: >
   can do and routes any admin-shaped ask to the right lane (pipeline, follow-ups, scorecard, CEO review,
   newsletter, VA packs, monthly review). Organization side only: your prospects and your organization,
   never clients. Re-running is a health check, never a rebuild. Trigger on: "set up my attraction admin",
-  "set up my AI admin for agent attraction", "check my attraction admin", "what can my attraction admin
+  "set up my agent attraction admin", "check my attraction admin", "what can my attraction admin
   do", "my attraction admin", "turn on my morning brief", "change my morning brief time", "turn off my
   morning brief", "I'm slammed with agent stuff today".
 ---
@@ -86,7 +86,7 @@ no timezone math), and the `prompt` set **verbatim** from `${CLAUDE_PLUGIN_ROOT}
 verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — not there → say so plainly; never
 claim a schedule that did not save. Then write `Morning Brief task: attraction-admin-morning-brief · runs
 daily [time]` and `Morning Brief time` to the block (Step 5) and push. On yes to the queue: run `admin-follow-up-queue`'s provisioning step
-(it owns that task and its prompt). "Not yet" → `declined` on that line, never re-offered, still on
+(it owns that task and its prompt) — the yes given here is its consent; it does not ask again. "Not yet" → `declined` on that line, never re-offered, still on
 demand. A demo Brain never gets a task.
 The Week-6 trio in ONE line, no question: *"When you're ready: 'turn on my weekly CEO review' (Fridays),
 'turn on my monthly KPI review' (the 1st), 'turn on my Thursday wins newsletter'."*
@@ -119,7 +119,7 @@ Then stop. Housekeeping notes (goals at seeds, compliance unset) go LAST, one li
 | my attraction brief · what's my attraction day · wrap my attraction day · apply those stage moves | **admin-daily** |
 | my prospect pipeline · who's at [stage] · move [agent] to [stage] · what happened with [agent] · who in my pipeline would care about… · update my CRM | **admin-pipeline** |
 | my follow-up queue · who's due today · draft my follow-ups · confirm my partner calls · I sent it · skip [agent] | **admin-follow-up-queue** |
-| my attraction scorecard · score my recruiting week · run my CEO review · where's my recruiting bottleneck | **admin-scorecard** |
+| my recruiting scorecard · score my recruiting week · run my CEO review · where's my recruiting bottleneck | **admin-scorecard** |
 | team wins newsletter · recognition post for [agent] · who should I recognize this week | **admin-newsletter** |
 | tasks for my VA · posting prep · data entry pack · database cleanup · weekly reporting pack | **admin-va-tasks** |
 | monthly KPI review · my month vs my 30-60-90 · next month's targets | **admin-monthly-review** |

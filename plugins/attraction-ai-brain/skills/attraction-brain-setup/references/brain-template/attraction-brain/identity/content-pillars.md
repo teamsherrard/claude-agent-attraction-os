@@ -7,7 +7,7 @@
 
 **Platforms (priority order):** [ ] — handles in `profile.md`
 **Cadence (what they will actually sustain):** [ ]
-**The two CTAs:** 1. Book a call — [link] · 2. The guide / keyword — [set by the Lead Magnet plugin, Week 6]
+**The two CTAs:** 1. Book a call — [link] · 2. The guide / keyword — [set in Week 3 by the Short-Form system's setup (`sf-setup`): the one keyword and what it opens; the live guide itself is read from `memory/magnets.md → ## Current magnet` once the Lead Magnet plugin builds it in Week 6]
 **Signature series / recurring format:** [ ]
 **Default video style:** [ ]
 

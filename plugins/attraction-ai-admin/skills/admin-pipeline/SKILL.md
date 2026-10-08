@@ -86,7 +86,8 @@ them here."*
      +2 days; the Conversion plugin's follow-up plan takes over from there.
    - → **3-way**: Due = the 3-way date; next move = the partner brief (`cv-three-way`); a row, type `3-way`.
    - → **Joined**: append the `memory/organization.md` row (agent · joined today · frontline yes · type ·
-     sponsored by the member · status Joined) and refresh its count line; create the onboarding-step rows in
+     sponsored by the member · Status `active` — that cell's vocabulary is the template's `active · quiet ·
+     at risk · left`; Joined → Onboarded → Active stay on the Board) and refresh its count line; create the onboarding-step rows in
      `deadlines.md` from `operations.md`'s "a new agent's first steps" (day 1 · week 1 · day 30; "nothing
      yet" → one row: the welcome message, day 1); one line: *"Sarah's in your organization — [n] agents
      now. Want the top bench name moved up? say 'who should I talk to this week'."* (the Top-50 skill's).

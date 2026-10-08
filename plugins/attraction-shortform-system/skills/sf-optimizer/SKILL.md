@@ -36,7 +36,7 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
 - `identity/content-pillars.md` — the pillar vocabulary, the member's takes and topic seeds
 - `memory/content-performance.md` (if `sf-analytics` has written it) — the hook shapes and asks that produced
   DMs last cycle; lean on them
-- `identity/compliance.md` — Step 5
+- `identity/compliance.md` — its first line, `Status:` (Step 6)
 Hashtags and hooks are generated fresh per post; they are never stored in the Brain.
 
 ## Step 2 — Read the platform rules
@@ -45,10 +45,12 @@ the ask map). Apply it exactly.
 
 ## Step 3 — Get the post (never re-ask what was passed)
 From the invoking skill you already have the hook, the script or talking points, the format (talking head /
-green screen / carousel / story), the pillar, and the keyword (`publishing.md`'s `Keyword:` line, or the
-per-Reel variant the invoking skill passed from `sf-comment-to-dm`'s sheet). Invoked
-directly: ask for the post (paste or topic + hook) and the format in one message; infer the pillar and the
-rung and confirm them in one line.
+green screen / carousel / story), the pillar, and the keyword (a per-Reel variant comes from
+`sf-comment-to-dm`'s sheet). The keyword rule, one sentence: The member has ONE primary keyword, chosen once in
+`sf-setup` (the `Keyword:` line in `identity/publishing.md`); GUIDE · GROWTH · SCALE · PARTNER are the four
+sequence names from Mike's ManyChat templates — per-Reel variants that default to the primary keyword's flow
+until the member runs those templates in their own ManyChat. Invoked directly: ask for the post (paste or topic
++ hook) and the format in one message; infer the pillar and the rung and confirm them in one line.
 
 **Modes:** FIX (rewrite only), PACKAGE (captions only), or BOTH (default when the post is new).
 
@@ -61,8 +63,9 @@ rung and confirm them in one line.
   beats that reinforce the spoken line; 30–60 seconds.
 - **The ask (the last line only).** One rung from the ladder in `sf-comment-to-dm`; the keyword said once,
   written once. Story and Proof posts invite ("if this is you, DM me"); Authority posts deliver a resource
-  ("comment GUIDE"); Personality posts ask for a follow at most; the call is asked for on about one post in
-  five. **No compensation, rev share, splits, caps, or income words anywhere.**
+  ("comment [KEYWORD]"); Personality posts ask for a follow at most; the direct call-rung ("book a call" as the
+  post's CTA) appears at most once a month in the calendar — an OS rule, not a Week 3 lesson. **No compensation,
+  rev share, splits, caps, or income words anywhere.**
 - **The leader test and the any-agent test** on the whole thing: a prospect sees a leader; no line could
   have been written by any leader at any brokerage.
 - **Cardinal rules** (`03-model-positioning/13`): no negative word about another brokerage or person; a
@@ -83,7 +86,8 @@ Produce every block the member's priority platforms need (`publishing.md`), per
 Everything in the member's voice, speaking to one agent ("you"), never "you guys."
 
 ## Step 6 — Compliance (three-state, the third law)
-Read `identity/compliance.md`. `unset` → **deliver the FIX but not the PACKAGE**: *"the captions are public,
+Read the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`).
+`unset` → **deliver the FIX but not the PACKAGE**: *"the captions are public,
 so I need your compliance basics before they go out; say 'set up my attraction compliance' and it takes three
 minutes."* `set` → apply the rules, remind once per session. `confirmed` → apply. Append the stamp (house
 rules #4 — built from `identity/compliance.md`) where the brokerage name or license display rule applies; strip any

@@ -51,7 +51,8 @@ impression of the plugin.
      thing on the calendar; *"What do you want to make?"*). Then route a named part — "update my pillars" →
      Step 3 only · "update my bios" → Step 4 only · "set / change my keyword" → Step 5 only · "connect my posting
      tool" → Step 7 only — or hand to `sf-talkinghead` / `sf-stories`. **Never the interview again.**
-3. Read `identity/compliance.md` once now (its Status decides whether Step 4 runs today).
+3. Read the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`)
+   once now; it decides whether Step 4 runs today.
 
 ## Step 1 — Welcome (set the tone; what they'll leave with)
 > "Let's switch on your short-form engine. I already know you from your Brain, so this is quick. You'll leave
@@ -60,20 +61,22 @@ impression of the plugin.
 > minutes. Your turn — ready?"
 
 ## Step 2 — Read the Brain and reflect it back (never re-ask)
-Read `identity/profile.md`, `identity/journey.md` (including the `## Why join me` block, if written),
-`identity/strategy.md`, `identity/avatars.md`, `identity/positioning.md`, `identity/offer.md` (respect its
-Status — at `seeds` the Partner Offer is Week 2; never call the seeds "the offer"), `identity/proof.md`,
-`identity/story-bank.md`, `identity/voice.md`, `identity/voice-samples.md`, `identity/brand-visual.md` (the
-"leader brand vs selling brand" line), `identity/profiles.md` **if it exists** (bios from an earlier run — refreshed,
-never restarted), `memory/ideas.md` (tags `shortform`, `story`), `memory/content-log.md` (empty is normal),
-`memory/objections.md`.
+Open only the four files the reflection needs: `identity/profile.md` (name, what they're building, brokerage,
+market), `identity/avatars.md` (the primary avatar), `identity/strategy.md` (the known-for), `identity/voice.md`
+(their voice in one line). The rest of the Brain opens at the step that uses it (each step lists its own "open
+now"); a file already open stays open — never re-read one.
 Reflect back in one breath so it's clear nothing will be re-asked:
 > "Here's what I've got: you're [name], building [what they're building] at [brokerage] in [market]; you attract
 > [primary avatar, one line]; you're known for [known-for]; your voice is [one line]. I won't ask you any of
 > that again."
 
 ## Step 3 — The five pillars (propose, they react; writes `identity/content-pillars.md`)
-**Lazy-load `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` §5–§6 now.** Build the proposal from the Brain —
+**Lazy-load `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` §5–§6 now.** **Open now:** `identity/journey.md`
+(including the `## Why join me` block, if written) · `identity/positioning.md` · `identity/offer.md` (respect its
+Status — at `seeds` the Partner Offer is Week 2; never call the seeds "the offer") · `identity/proof.md` ·
+`identity/story-bank.md` · `identity/brand-visual.md` (the "leader brand vs selling brand" line) ·
+`identity/operations.md` (the booking link, if `profile.md` has none) · `memory/ideas.md` (tags `shortform`, `story`)
+· `memory/content-log.md` (empty is normal) · `memory/objections.md`. Build the proposal from the Brain —
 develop, never transcribe:
 - **Authority — what I teach.** The known-for and the "what worked / teach first" lines dissected into **8–12
   topic seeds**, each tied to one of the avatar's pains in their words ("cast a wide net around your niche").
@@ -110,7 +113,9 @@ Create `identity/publishing.md` now, in the contract's full shape — every line
 them I need your compliance basics. Say 'set up my attraction compliance' (three minutes) and I'll pick the bios right back
 up."* Then skip to Step 5 and leave `bios done` unset.
 
-**Lazy-load `mike-frameworks.md` §9a.** Every bio answers **the five questions**: who you are · who you help ·
+**Lazy-load `mike-frameworks.md` §9a.** **Open now:** `identity/voice-samples.md` (their real phrasing) ·
+`identity/profiles.md` **if it exists** (bios from an earlier run — refreshed, never restarted). Every bio answers
+**the five questions**: who you are · who you help ·
 what you help them do · why they should listen · what to do next. Inputs are all in the Brain: the why-join-me
 one-breath line (or the journey's turning point if Week 2 hasn't written it), the known-for, the primary avatar,
 credibility from `proof.md` exactly as stated (none public → lead with who you help; **never invent an award or a
@@ -192,7 +197,7 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 ---
 
 ## Completion checklist
-- [ ] Brain located (pulled first if empty), read, reflected back — **nothing re-asked**
+- [ ] Brain located (pulled first if empty); four files at Step 2, the rest at the step that used them; reflected back — **nothing re-asked**
 - [ ] Second call routed: resume or one named part — **the interview never re-ran**
 - [ ] `identity/content-pillars.md` written in the contract shape, five pillars mapped to the avatars, stories, positioning, proof — pushed
 - [ ] Compliance three-state applied before the bios; `unset` stopped the bios with a plain line, nothing else

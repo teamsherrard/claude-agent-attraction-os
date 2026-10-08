@@ -180,8 +180,8 @@ confirmed Q40 and Q44. A locked file is what the Debrief and the Admin read as t
 Ratios: conversations → calls [..] · calls held → joins [..] · Daily slice: [..] conversations / [..] calls
 
 ## Weekly rows
-| Week of | Conversations | Calls booked | Calls held | Joins | Content shipped | Score | Note |
-|---|---|---|---|---|---|---|---|
+| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
 
 ## Daily rows
 | Date | Conversations | Calls booked | Calls held | Joins | Content shipped | Score | Note |
@@ -189,7 +189,10 @@ Ratios: conversations → calls [..] · calls held → joins [..] · Daily slice
 ```
 Score vocabulary, locked: **Ahead** (≥ 150% of the slice), **On pace**, **Behind**. Never a grade, never
 a percentage the member has to interpret. If `scorecard.md` already exists, replace ONLY the Targets
-block and leave every row untouched.
+block and leave every row untouched. **The weekly row's columns are the AI Admin's seven KPIs in its
+order** (new prospects · conversations · meaningful conversations · calls booked · calls held · 3-ways ·
+joins), then content shipped · score · note — the same header in the Brain template and `admin-scorecard`;
+never a new column. The daily rows keep their shorter shape (the Debrief's).
 
 ## Render the 90-Day Attraction Scorecard (the deliverable they hold)
 Assemble the structured text per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` (read it now, not
@@ -216,10 +219,19 @@ Only if the AI Admin is installed add: *"— and your morning brief carries your
 0. **Open with the why** — one line, theirs: *"Week [n] of the plan you're running for [why]. Here's
    the score."* When they are behind, the why is the re-anchor, never the stick.
 1. Read `goals.md`, `scorecard.md` (last week's daily rows), `memory/conversations.md`,
-   `memory/pipeline.md`, `memory/content-log.md`, `memory/deadlines.md`.
+   `memory/pipeline.md` (the Stage moves log), `memory/top-50.md` (rows added this week),
+   `memory/content-log.md`, `memory/deadlines.md`; and, when they exist, `memory/sales-funnel.md`
+   (show rate, held→join — or a `WEEKLY ROW:` line `sales-scorecard` handed over this session) and
+   `memory/list-growth.md` → the newest row's **"Calls booked from the funnel"** (the Lead Magnet plugin's
+   ledger, Week 6; skip silently if absent).
 2. **Roll last week's daily rows into one weekly row** (sum the activity, carry the joins, score the
-   week Ahead / On pace / Behind against the weekly activity target) and append it. Compare to the
-   30-60-90 pace.
+   week Ahead / On pace / Behind against the weekly activity target) and append it in the locked
+   eleven-column shape. The three columns the daily rows lack are counted from the ledgers, never
+   estimated (the Admin's locked definitions): **New prospects** = rows added to the Top-50 or to the
+   pipeline Board at Identified this week · **Meaningful conversations** = conversation rows with a pain
+   named or a next step agreed · **3-ways** = moves into 3-way or conversation rows with channel 3-way.
+   Note carries show % and held→join % when the funnel ledger exists, and `funnel calls n` when
+   `list-growth.md` has a row for the week. Compare to the 30-60-90 pace.
 3. **Name what moved, then the ONE thing for next week** — coach, not scold. If they are behind on
    activity, the fix is activity; if activity is on pace and joins lag, say that is normal for the
    first quarter and point at the conversion skills when they install (Week 5), not at the target.

@@ -31,8 +31,9 @@ month is 12 Reels: 1 attraction · 1 authority · 1 story each week — say so p
     able to answer the five profile questions from the feed alone.
   - The member's own ideas and this month's objections land in Weeks 1–2, not Week 4.
   - No story is used twice in the month; no pillar has more than two Reels in a week.
-  - Every Reel ends on a rung; the keyword appears on at least three Reels a week; the Call rung at most once in
-    the month, and only as a why-join-me beat.
+  - Every Reel ends on a rung; the keyword appears on at least three Reels a week; the direct call-rung ("book a
+    call" as the Reel's CTA) at most once in the month, and only as a why-join-me beat — an OS rule, not a Week 3
+    lesson.
   - Brokerage and opportunity content is woven through (a Proof Reel about the weekly call, a Perspective Reel on
     "the brokerage isn't the reason") — never a week of it.
 - **STORIES, DAILY** — one line: the four-category rotation runs every day regardless (`sf-stories`).
@@ -45,7 +46,8 @@ month is 12 Reels: 1 attraction · 1 authority · 1 story each week — say so p
 - Exactly 20 (or 12 at a three-a-week cadence), numbered, five (or three) per week — count before delivering.
 - Hooks the way an agent would say the problem, not the way a leader describes the solution.
 - Nothing invented: no stat without a source, no story not in the bank, no win without consent.
-- The cardinal rules and compliance three-state apply to every line, even in a plan.
+- The cardinal rules and compliance three-state (read from the first line of `identity/compliance.md`, `Status:`)
+  apply to every line, even in a plan.
 - Save as `[YYYY-MM] · 30-Day Calendar` in `03 · Content/Short-Form/[YYYY-MM · Month]/`; log each entry as
   `Idea` in the locked row shape; offer the content board; close with *"pick your first five and say 'script
   these'."*

@@ -92,16 +92,20 @@ Text instructions only; never rendered here.
 
 | Pillar | Default rung | The ask |
 |---|---|---|
-| **Authority** (what I teach) | Resource | "comment GUIDE / GROWTH / SCALE and I'll send it" — tied to a real resource in `offer.md`; seeds only → "DM me and I'll walk you through it" |
+| **Authority** (what I teach) | Resource | "comment [KEYWORD] and I'll send it" (variants GUIDE / GROWTH / SCALE once the sequences run) — tied to a real resource in `offer.md`; seeds only → "DM me and I'll walk you through it" |
 | **Perspective** (industry take) | Comment | "agree or disagree? tell me below" · "follow for the next one" |
 | **Story** (the journey) | DM | "if this is where you are, DM me PARTNER; happy to share what I'd do" |
 | **Proof** (agent wins, culture) | DM | "want to know how [first name] did it? DM me" — permissioned wins only |
 | **Personality** | Follow | "follow for the real side" — nothing more |
-| **Any post, about one in five** | Call | "if it makes sense, let's talk; link in bio" — never on a Personality post |
+| **The direct call-rung — at most one post a month** (an OS rule, not a Week 3 lesson) | Call | "if it makes sense, let's talk; link in bio" — never on a Personality post |
 
-Rules: one keyword per post, said once on camera and written once in the caption; the keyword is pinned as
-the first comment; every resource ask points to something that exists; **no compensation, rev share, splits,
-caps, fees, or income words in any caption on any platform** — those are a call conversation.
+Rules: one keyword per post, said once on camera and written once in the caption; the keyword is pinned as the
+first comment; every resource ask points to something that exists; **no compensation, rev share, splits, caps,
+fees, or income words in any caption on any platform** — those are a call conversation. The keyword rule, one
+sentence: The member has ONE primary keyword, chosen once in `sf-setup` (the `Keyword:` line in
+`identity/publishing.md`); GUIDE · GROWTH · SCALE · PARTNER are the four sequence names from Mike's ManyChat
+templates — per-Reel variants that default to the primary keyword's flow until the member runs those templates
+in their own ManyChat. The GUIDE and PARTNER in this file's examples are those variants.
 
 ---
 
@@ -116,5 +120,5 @@ caps, fees, or income words in any caption on any platform** — those are a cal
   line in `identity/compliance.md`).
 - **Voice first** — read it back against `voice-samples.md`; if it sounds like marketing, rewrite.
 - **Compliance last** — the stamp per house rules #4 (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, built from
-  `identity/compliance.md`) where required; `unset` means the captions do not ship.
+  `identity/compliance.md`) where required; `unset` on its first line (`Status:`) means the captions do not ship.
 - **Text only** — any visual is described in words for the member's design tool; never rendered here.

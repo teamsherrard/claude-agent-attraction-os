@@ -42,6 +42,8 @@ Running list. Each line: what · where · status.
 
 - YouTube QA follow-ups: `cv-conversation-starter` gains an intake line for the three starters `yt-repurpose` hands over (title + hook) · OPEN (final pass); lesson `08-youtube/93` is a DRAFT carrying 17 citations → Mike confirms or re-records · WAITING; ruling: a member's own income/production figures never headline a public video unless their compliance policy line allows it (applied by Final-pass 3); Deep Dive doc carries no stamp (house rule #9) · DONE
 
+- LAST STEP before the gate (coordinator, after every agent is done): global rename to break the two skill-NAME collisions with the realtor AI Admin: `admin-setup` → `admin-attraction-setup`, `admin-scorecard` → `admin-recruiting-scorecard` (directories, `name:`, every reference in all plugins, BRAIN-CONTRACT, master plan, stack-map); then reword the Brain's canonical `doc-formatting.md` ("client" → "member") and `connectors.md` ("the agent's world" → "the member's world") and re-copy both + how-we-speak + ask-once-default to every plugin; then run check-release · OPEN
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 
