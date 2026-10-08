@@ -1,6 +1,6 @@
 # Agent Attraction OS — Overnight Build Report and Strategic Game Plan
 
-*Written for Riya and Mike · 2026-10-09 · repo `claude-agent-attraction-os` · status at the end of the overnight run*
+*Written for Riya and Mike · 2026-10-09 · repo `claude-agent-attraction-os` · status at the end of the overnight run, updated after the "keep working" session (v0.2.0)*
 
 > Sections 1–3 are the status (what is built, verified, and left). Sections 4–8 are the strategic advice you asked for:
 > what to add, remove, optimize, fix, and what nobody is thinking about yet.
@@ -8,7 +8,7 @@
 
 ## 1. What is built
 
-Repo `claude-agent-attraction-os`, tag `v0.1.0`, release gate green, upload zips in `dist/`. The realtor repo was read only; nothing in it changed.
+Repo `claude-agent-attraction-os`, tag `v0.2.0`, release gate green, upload zips in `dist/` and `design-studio/_dist/`. The realtor repo was read only; nothing in it changed.
 
 | # | Plugin | Skills | Shared files | Built from | State |
 |---|---|---|---|---|---|
@@ -20,11 +20,12 @@ Repo `claude-agent-attraction-os`, tag `v0.1.0`, release gate green, upload zips
 | 6 | `attraction-conversion-sales` | 19 | 8 (conversion doctrine, contract, house rules) | new, from the Week 5 lessons | built · reviewed · fixed |
 | 7 | `attraction-ai-admin` | 8 | 8 | realtor Admin, cut to the organization side | built · reviewed · fixed |
 | 8 | `attraction-lead-magnet` | 11 | 7 (copywriting KB for an agent audience) | realtor lead capture fork | built · reviewed · fixed |
-| – | Design Studio (Claude Design skill set) | 3 of 15 (the Week 1 Design Package) + the design system | realtor design suite v2 | built · build green |
+| 9 | `attraction-events-workshops` | 10 | 9 (events doctrine from lessons 73–77, the GHL workflow table) | new, from Mike's workshop-ops system | built · reviewed · fixed |
+| – | Design Studio (Claude Design skill set) | all 15 + the design system | realtor design suite v2 | built · reviewed · build green |
 
-Totals: 133 Cowork skills across 8 plugins (105 new or rewritten, 28 vendored), 103 lesson transcripts split into 16 modules and cited by `module/lesson` in every doctrine file, 103 knowledge-base cards, 11 scheduled agents with named owners, one OS-wide contract (`docs/BRAIN-CONTRACT.md`), 45 commits.
+Totals: 143 Cowork skills across 9 plugins (115 new or rewritten, 28 vendored) plus 15 Claude Design skills, 103 lesson transcripts split into 16 modules and cited by `module/lesson` in every doctrine file, 103 knowledge-base cards, 11 scheduled agents with named owners, one OS-wide contract (`docs/BRAIN-CONTRACT.md`), the Setup Guide copy and Playbook 1 copy in `docs/`, about 90 commits.
 
-**Not built, by decision:** Team & Retention (removed), Creative Studio / Higgsfield (parked), Events & Workshops (Plugin 9, not on the overnight list), the other 12 Design Studio skills (offer assets Week 2, Value Vault Week 6), the six playbooks and the Setup Guide (Claude Design documents, not software).
+**Not built, by decision:** Team & Retention (removed), Creative Studio / Higgsfield (parked). **Written as copy, not yet designed:** the Setup Guide (`docs/setup-guide.md`) and Playbook 1 (`docs/playbooks/playbook-1-agent-attraction-brain.md`); Playbooks 2–6 are not written.
 
 ## 2. What was verified, and how
 
@@ -37,7 +38,7 @@ Totals: 133 Cowork skills across 8 plugins (105 new or rewritten, 28 vendored), 
 
 1. **Cold test** the Week 1 setup on a real member (Opus, medium effort, one sitting) and the Design Package in Claude Design. Nothing replaces this.
 2. **Mike's decisions** (section 4 below).
-3. **Events & Workshops** (Plugin 9) if it stays in the offer; **the remaining 12 Design Studio skills** by their weeks; **playbooks and the Setup Guide**.
+3. **Playbooks 2–6** (copy, then design), and the Claude Design layout of the Setup Guide and Playbook 1.
 4. **Riverside back-port** of the Brain-home rule into the realtor repo so the two copies are byte-identical; the vendored copy also carries two over-long descriptions that belong to the realtor repo to fix.
 5. **Support plugin placeholders** before Nov 3: portal URL, Circle link, call times, refund policy, video links.
 6. **Mike's thumbnail swipe file** and **his keyword sheet** (the ManyChat variants ship as defaults until then).
@@ -50,7 +51,7 @@ Totals: 133 Cowork skills across 8 plugins (105 new or rewritten, 28 vendored), 
 2. **Partner-call framework labels** (Conversion doctrine §3): step-five label, default call length (60 until mastered, then 30 vs the workshop's "30-minute Partner Call" promise), and the objection framework label. The plugin ships with defaults and says so.
 3. **The "5-Point Framework"** is named in the course docs and defined nowhere. The follow-up skill is built on lesson 85's five principles. Mike should confirm or supply his five.
 4. **Support plugin placeholders**: support portal URL (the Freshdesk account was suspended on 2026-09-25; nothing here points at it), Circle link, call times, refund policy, the Circle video links. All marked `[NOT SET]` and the setup skill asks for them.
-5. **Events & Workshops plugin** is in the plan (Plugin 9) but was not on your overnight list, so it is not built. Week 6 ships without it unless you say otherwise.
+5. **Two curriculum facts changed in the build and the course docs should follow:** the Brain intake is seven conversations and about 64 questions in roughly 50 minutes (the cohort doc still says "about 25 questions, 15 min"), and the Design Package is Week 1 homework (the Week 2 breakdown still lists it under Week 2).
 6. **Mike's thumbnail swipe file** with pattern notes: the thumbnail skill scores against lesson 97 only until it arrives.
 7. **Inducement rules review** before the Switching Transition Plan ships (it is built but gated behind a config flag).
 
