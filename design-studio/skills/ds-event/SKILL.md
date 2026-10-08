@@ -56,9 +56,10 @@ becomes. **"FOR ds-event (promo set for [event name])"** from `ev-promo` carries
 [type of agent — career stage / production]) · **Hosts** (the member + co-hosts · Guest speakers: name ·
 their one-line credential as they state it · consent on file · photo supplied — or none) · **What they
 leave with** (three real things) · **Registration** (the page link — or "comment the word [KEYWORD]" ·
-Seats or deadline, real — or none) · **Pieces** (1. feed graphic 2. story set — 7 countdown frames
-3. speaker spotlight card 4. carousel 3–5 slides 5. the banner / photo-spot backdrop, live only) · **Copy
-on each** (verbatim — headline, sub-line, CTA) · **Brand** · **Required line (verbatim)** ·
+Seats or deadline, real — or none) · **Pieces** (1. feed graphic 2. story set — 7 countdown frames:
+pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open 3. speaker spotlight
+card 4. carousel — 3–5 slides, built by `ds-carousel`'s event intake 5. the banner / photo-spot backdrop,
+live only) · **Copy on each** (verbatim — headline, sub-line, CTA) · **Brand** · **Required line (verbatim)** ·
 **Brokerage-neutral** (yes for live local / n/a) · the standing rule *"Never on the graphic: splits, caps,
 stock, rev share, income, another brokerage's name, recruiting"* · the **Ad note**. **"FOR ds-event
 (workshop slides — [event name])"** from `ev-runofshow` carries: **Member** · **Event** (name · format ·

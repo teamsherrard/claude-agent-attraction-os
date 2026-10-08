@@ -3,16 +3,15 @@ name: ds-carousel
 description: >
   Designs attraction CAROUSELS in Claude Design from the Short-Form system's carousel doc — the "Why
   I Left" story (former brokerage never named), pain-point and myth-busting carousels — or an event's
-  3–5-slide carousel from the Events plugin's promo brief (the event intake); copy verbatim, in the
-  locked Design System: 4:5 slides with a grid-safe hook cover, varied value layouts, a text-size
-  floor, the infographic rules for any number (source and date on the slide), a persistent footer,
-  and one CTA slide. THE LINKEDIN VERSION LAW: every carousel also ships as a PDF document post for
-  team leaders and broker-owners, with its own caption; THE STORY ECHO: one story-size teaser frame.
-  Captions, alt text, series mode. Week 2 quick win: the five-slide "Why Join Me" carousel from the
-  Brain Book's why-join-me story. Lands in 03 · Content/Graphics (an event carousel in its event's
-  folder). Trigger on: "design my carousel", "my why join me carousel", "carousel slides for
-  agents", "build my attraction carousel slides", "my linkedin pdf carousel for agents", "my event
-  carousel for agents".
+  carousel from the Events plugin's promo brief; copy verbatim, in the Design System: 4:5 slides with
+  a grid-safe hook cover, varied value layouts, a text-size floor, the infographic rules for any
+  number (source and date on the slide), a persistent footer, and one CTA slide. THE LINKEDIN VERSION
+  LAW: every carousel also ships as a PDF document post for team leaders and broker-owners; THE STORY
+  ECHO: one story-size teaser frame. Week 2 quick win: the five-slide "Why Join Me" carousel from the
+  Brain Book's why-join-me story. Lands in 03 · Content/Graphics (an event carousel in its event
+  folder). Trigger on: "design my carousel", "my why join me carousel", "carousel slides for agents",
+  "build my attraction carousel slides", "my linkedin pdf carousel for agents", "my event carousel
+  for agents".
 ---
 
 # Agent Attraction Carousel (ds-carousel) — the no-filming post, designed
@@ -51,11 +50,13 @@ block that starts **"AGENT ATTRACTION DESIGN PACKAGE — [Name]"** may be pasted
 name(s) and compliance line, and keep them.
 
 **The event intake (the second source — an event's carousel).** Pieces 4 of the Events plugin's promo
-brief — the block that starts **"FOR ds-event (promo set for [event name])"** — is a 3–5-slide "what
-you'll walk away with" carousel. `ds-event` never builds it; this skill does, from that brief pasted here
-(or read from the DESIGN BRIEF and POSTS bands of `Promo Calendar & Copy · [code] · [date]` in the
-event's folder `03 · Content/Events/[code] · [Theme]/`). The carousel's lines sit in **Copy on each**
-(verbatim — headline, sub-line, CTA); the brief's other fields map once, by name: the cover ← the
+brief — the block that starts **"FOR ds-event (promo set for [event name])"** — reads *"carousel — 3–5
+slides, built by `ds-carousel`'s event intake (the outline above is its input)"*. `ds-event` never builds
+it; this skill does. **Its input is the "what you'll walk away with" carousel outline** `ev-promo` wrote
+in its Posts (3–5 slides, the member's words) — pasted here with the brief, or read from the POSTS and
+DESIGN BRIEF bands of `Promo Calendar & Copy · [code] · [date]` in the event's folder
+`03 · Content/Events/[code] · [Theme]/`. The outline is the slides, verbatim; the brief's **Copy on each**
+carries its headline, sub-line, and CTA; the brief's other fields map once, by name: the cover ← the
 event's promise headline with the **Event** line (name · date · time · timezone · free · for [type of
 agent]); the value slides ← **What they leave with (three real things)**, one per slide, verbatim; the
 CTA slide ← **Registration** ("Save your seat" + the page link, or "comment the word [KEYWORD]") with

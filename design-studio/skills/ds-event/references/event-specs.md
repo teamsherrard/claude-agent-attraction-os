@@ -18,7 +18,7 @@ Event: [name] · [live local / virtual / evergreen] · [date · time · timezone
 Hosts: [the member + co-hosts] · Guest speakers: [name · their one-line credential as they state it · consent on file · photo supplied — or none]
 What they leave with (three real things): • … • … • …
 Registration: [the page link — or "comment the word [KEYWORD]"] · Seats or deadline (real): [n seats / closes [date] — or none]
-Pieces: 1. feed graphic (announcement) 2. story set (7 countdown frames, text above) 3. speaker spotlight card 4. [carousel 3–5 slides] 5. the banner / photo-spot backdrop (live only)
+Pieces: 1. feed graphic (announcement) 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) 3. speaker spotlight card 4. carousel — 3–5 slides, built by `ds-carousel`'s event intake (the outline above is its input) 5. the banner / photo-spot backdrop (live only)
 Copy on each: [verbatim from Step 3 — headline, sub-line, CTA]
 Brand: [from brand-visual.md — logo, colours, type; or "Design Package first: ds-logo → ds-style-sheet → ds-brand"]
 Required line (verbatim): [the compliance footer / brokerage name as required] · Brokerage-neutral: [yes (live local) / n/a]
@@ -26,7 +26,8 @@ Never on the graphic: splits, caps, stock, rev share, income, another brokerage'
 Ad note: if any piece becomes a paid ad — Meta Employment special-ad-category; the brokerage's ad policy applies.
 ```
 ("text above" = the seven stories' on-screen lines and the sticker each names, from the promo doc's
-STORIES band — they arrive inside **Copy on each**.)
+STORIES band — they arrive inside **Copy on each**. "The outline above" = the "what you'll walk away with"
+carousel outline in the POSTS band — `ds-carousel`'s input, never this skill's.)
 
 **From `ev-runofshow` — the slides:**
 ```
@@ -66,9 +67,9 @@ Never on a slide: splits, caps, stock, rev share, income, another brokerage's na
 | Registration: the page link — or "comment the word [KEYWORD]" | the ONE ask on every piece (§4 item 8) — "Save your seat" + the link, or "comment [KEYWORD]"; the QR on print; the link sticker plate on every story |
 | Registration: Seats or deadline (real) | the seat chip or the "closes [date]" line only when the brief states one; "none" → nothing — never invented scarcity |
 | Pieces 1. feed graphic (announcement) | the feed flyer (§4) and its story flyer; the print flyer too for a live local event; the registration post (the ask alone) |
-| Pieces 2. story set (7 countdown frames, text above) | the countdown set (§5): the seven content frames in the brief's order, the brief's ≤2 lines on each verbatim, the sticker plate each names; an eighth replay frame only when the brief carries a replay line |
+| Pieces 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) | the countdown set (§5): the seven content frames in the brief's order, the brief's ≤2 lines on each verbatim, the sticker plate each names; an eighth replay frame only when the brief carries a replay line |
 | Pieces 3. speaker spotlight card | the speaker card, one per guest named on the Hosts line |
-| Pieces 4. [carousel 3–5 slides] | **`ds-carousel`** — never this skill. Hand the member one line: *"say 'design my carousel' and paste this promo brief — its event intake reads the carousel's lines."* It matches the flyer's title treatment and date chip, ships the LinkedIn PDF, and lands in the event's folder under `ds-carousel`'s canonical names |
+| Pieces 4. carousel — 3–5 slides, built by `ds-carousel`'s event intake (the outline above is its input) | **`ds-carousel`** — never this skill. Hand the member one line: *"say 'design my carousel' and paste this promo brief with its carousel outline — the event intake reads them."* It matches the flyer's title treatment and date chip, ships the LinkedIn PDF, and lands in the event's folder under `ds-carousel`'s canonical names |
 | Pieces 5. the banner / photo-spot backdrop (live only) | the event banner (§7), live local only |
 | Copy on each (verbatim from Step 3 — headline, sub-line, CTA) | verbatim on the piece — never rewritten; a line that will not fit is cut to its first clause and named |
 | Brand | the Design System's tokens; "Design Package first" → stop and send them to `ds-logo → ds-style-sheet → ds-brand` |

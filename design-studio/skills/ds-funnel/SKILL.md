@@ -208,7 +208,9 @@ host (the mirror beat, one credibility line) → the agenda summary → proof wh
 (the doc's: is this a pitch for your brokerage · can I come from another brokerage · will there be a
 replay — answered as the doc answers them) → the registration form (First name · Email · Phone + the doc's
 questions; every CTA opens it as the one pop-up) → the confirmation state (*"You're registered"* · the
-join link or venue · an add-to-calendar link — an `.ics` file in `assets/` built from the real date · a
+join link or venue · an add-to-calendar link — an `.ics` file in `assets/` built from the real date **only
+when the page is self-hosted (Netlify)**; on a GoHighLevel-hosted page it is a text link to the host's
+own add-to-calendar, as `ev-registration` says — never an `.ics` the host can't serve · a
 "bring an agent who'd get something from it" line · the stamp). Honest urgency only: the real date, a
 seat count only if the member stated one. Brokerage-neutral by the Events doctrine — no pitch on the page.
 
@@ -309,7 +311,8 @@ footer line, and the Book's Compliance chapter anyway:
   cover, for / not for, the calendar (or the application variant with the five questions), the three
   FAQs, the confirmation copy — no superlatives, no compensation?
 - **Registration shape:** the date · time · format strip, the outcomes, who it's for, the host, the
-  agenda, the form, the confirmation with the `.ics` — honest urgency only, brokerage-neutral?
+  agenda, the form, the confirmation with the `.ics` (self-hosted) or the host's calendar link
+  (GoHighLevel) — honest urgency only, brokerage-neutral?
 - The hero passes the 5-second test (what is this / what do I get / what do I do) on desktop AND mobile?
 - The form (and the pop-up) asks First name · Email · Phone with the honest contact line and the
   reassurance; inputs ≥ 16px with autofill attributes; a trust cue; the submit the highest-contrast

@@ -39,7 +39,7 @@ the posting and sending. Nothing here is scheduled by the plugin.*
 | T-21 | stories | story 1–2: the pain poll · the promise | member | link sticker |
 | T-14 | feed | speaker spotlight(s) | member + speakers repost | link in bio |
 | T-14 | email | value email | member | register |
-| T-12 | stories | story 3–4: the speaker · the venue/room tease | member + agents | link sticker |
+| T-12 | stories | story 3–4: the speaker · the do-this-now (one thing to try before the event; the live calendar may add a venue photo as a bonus frame) | member + agents | link sticker |
 | T-10 | DM / text | personal invites, batch 2 | member | — |
 | T-7 | promo video | the 30–45 s video on feed + stories; agents repost | member + agents | link in bio |
 | T-7 | agents | headcount check: each agent's confirmed guests | member | — |
