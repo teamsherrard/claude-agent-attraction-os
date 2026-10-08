@@ -41,7 +41,8 @@ magnet for agents' and the brief comes right after."* → `lm-navigator`. Never 
   rule. The gate already passed when the magnet was written; re-check `Status` isn't `unset` — a design can't
   ship a guide that can't.
 - `identity/profile.md` → name, brokerage as required, headshot location.
-- `brain.md` quick-ref → the newest Brain Book's name (the designer reads it for the voice and the brand).
+- the newest `📕 [Name]'s Agent Attraction Brain Book — YYYY-MM-DD` in the workspace's `01 · AI Brain` (newest
+  date wins; never a DEMO-watermarked one) — the designer reads it for the voice and the brand.
 
 ## Step 2 — Write the brief (paste-ready, one block)
 In chat, as one block the member copies into Claude Design, **and** rendered to the campaign folder as

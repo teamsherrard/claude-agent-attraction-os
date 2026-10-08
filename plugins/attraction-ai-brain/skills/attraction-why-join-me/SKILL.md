@@ -27,17 +27,10 @@ already knows, in two lengths, in their spoken voice. **Zero to two questions.**
 not recruiting" stance if they are not already in context.*
 
 ## Step 1 — Load the Brain (this is where the story comes from)
-Read `~/attraction-brain/brain.md`, then:
+Read `~/attraction-brain/brain.md`, then only these three up front (the rest load at the step that uses them):
 - `identity/journey.md` — the three beats, the leader moment, the WHY (the **past** and **transformation**).
 - `identity/profile.md` — the real reason they joined and the one line out loud.
-- `identity/proof.md` — agents helped, organization size, reviews from agents (the only proof allowed).
-- `identity/positioning.md` — the one-liner seed, if any ("why I'm here", said out loud).
 - `identity/offer.md` — read the `Status:` line first. See Step 2.
-- `identity/story-bank.md` — one story for the long version, by type and pain of the primary avatar.
-- `identity/avatars.md` — who the story is for (the primary type's pain and words).
-- `identity/voice-print.md` if it exists, else `identity/voice.md` — the story is read aloud, so it is
-  written for the ear in their cadence.
-- `identity/compliance.md` — 3-state; see Step 4.
 If the local copy is missing, pull with **attraction-brain-sync**; a connector error is never "no Brain".
 Never re-ask what these files answer. If `journey.md` is still a template, say so in one warm line and
 point to **attraction-brand-persona** ("say 'my leader profile'"); do not interview here.
@@ -57,6 +50,12 @@ The brokerage is part of the value line as the platform, never as the reason: *"
 brokerage]; you also get…"*.
 
 ## Step 3 — Build the story (the five parts, Mike's shape)
+Read now, for the build: `identity/proof.md` (agents helped, organization size, reviews from agents — the
+only proof allowed) · `identity/positioning.md` (the one-liner seed, if any — "why I'm here", said out loud)
+· `identity/story-bank.md` (one story for the long version, by type and pain of the primary avatar) ·
+`identity/avatars.md` (who the story is for — the primary type's pain and words) · `identity/voice-print.md`
+if it exists, else `identity/voice.md` (the story is read aloud, so it is written for the ear in their cadence).
+
 From `04-value-proposition/34`, every version has five parts, in this order:
 1. **Past** — where they started and the struggle, in one specific scene (Beat 1 or 2 of the journey).
 2. **Transformation** — what they learned, built, or overcame (Beat 3; the leader moment).
@@ -98,7 +97,7 @@ if it is not in the Brain, say so in one line after delivery instead of inventin
   this line? then it is not done), the so-what test, no hedging.
 
 ## Step 4 — Compliance, then deliver
-Read `identity/compliance.md`:
+Read `identity/compliance.md` now — its first line, `Status:`, is the verdict (3-state):
 - **set / confirmed** → deliver all three versions. Note in one line what the public skills will add when
   the story goes in a video or post (brokerage-name display, license, the income disclaimer if the long
   version mentions earnings in any way; it should not).

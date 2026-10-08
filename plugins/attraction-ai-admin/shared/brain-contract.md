@@ -80,34 +80,53 @@ stage from the pipeline and may read `conversations.md`, the Board, and the queu
 (this plugin surfaces Open rows; `attraction-capture` closes them), any `identity/` file, the Targets block or
 daily rows of the scorecard, any other plugin's `config.md` block.
 
-## Requested stage moves — how they reach the board (the shape the Conversion plugin writes)
-Other systems request a move; this plugin applies it. Three request shapes, all consumed:
-1. **The durable one — the `Stage after` column** of a `memory/conversations.md` row. Every Conversion skill
-   that logs a conversation (`cv-conversation-starter`, `cv-dm-flow`, `cv-debrief`, `cv-follow-up`,
-   `cv-reactivation`, `cv-three-way`) and `attraction-capture` write it. When the Admin is installed they
-   write ONLY that column and tell the member "logged — the stage moves on your next Admin run."
-2. **The chat signal** — those skills end their output with the line
+## Requested moves — how a stage move or a next move reaches the board (the shapes the Conversion plugin writes)
+Other systems request; this plugin applies. Four request shapes, all consumed:
+1. **The durable stage request — the `Stage after` column** of a `memory/conversations.md` row. Every
+   Conversion skill that logs a conversation (`cv-conversation-starter`, `cv-dm-flow`, `cv-debrief`,
+   `cv-follow-up`, `cv-reactivation`, `cv-three-way`) and `attraction-capture` write it. When the Admin is
+   installed they write ONLY that column and tell the member "logged — the stage moves on your next Admin run."
+2. **The stage chat signal** — those skills end their output with the line
    **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** (locked vocabulary). When that line is in the current
    session, "apply that" means that move.
 3. **The Debrief's line** — `Stage moves requested: [Name]: [from] → [to], …` in a `memory/debriefs.md` entry
    (the Daily Agent Attraction Debrief; the Events plugin requests event stages the same way).
+4. **The next-move chat signal — no stage change:**
+   **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — emitted by the Conversion plugin's follow-up and
+   reactivation skills (including the Cold-Lead Reactivation prompt) when the stage stays put and only the next
+   touch changes. Its durable carrier is the `Next step` (with a date) on that skill's `conversations.md` row
+   or the dated touch in its follow-up plan file.
 
-**Pending** = a `Stage after` (or a Debrief line) dated after the pipeline's last log row for that agent,
-where the board's stage differs from the requested stage.
+**Pending stage move** = a `Stage after` (or a Debrief line) dated after the pipeline's last log row for that
+agent, where the board's stage differs from the requested stage. **Pending next move** = a `NEXT MOVE
+REQUESTED:` line in the session, or a dated `Next step` on a conversation row (or a plan touch) newer than
+the Board row's `Next move`, where the Board differs.
 
-**Alongside a stage request, those skills also request the agent's `Next move · Due`.** The Admin applies
-them to the pipeline **Board** (its own columns) — never to `top-50.md`. `attraction-top-50` mirrors Stage
-from the Board on its runs and may refresh Last touch from `conversations.md` and Next move · Due from the
-Board; this plugin never edits a Top-50 cell. (Before the Admin was installed, the Conversion skills and
-capture updated those three Top-50 cells themselves under the Brain contract's interim allowance.)
+**Where next moves land.** The Admin writes `Next move · Due` on the pipeline **Board** (its own columns) —
+never on `top-50.md`. `attraction-top-50` mirrors Stage from the Board on its runs and refreshes Last touch
+from `conversations.md` and Next move · Due from the Board; the follow-up queue reads the Board. This plugin
+never edits a Top-50 cell. **Until the Admin registers its `## AI Admin` block**, the Top-50's touch cells
+(`Last touch · Next move · Due`, one agent's row) are appended by the designated interim appenders —
+`cv-conversation-starter`, `cv-debrief`, `cv-follow-up`, `cv-dm-flow`, `cv-three-way`, and
+`attraction-capture` — and those skills also write the Board directly; the block's first line
+(`AI Admin: set up [date]`) ends that allowance and they request instead.
 
 The rule: in an **in-chat run** (`admin-pipeline`, or `admin-daily`'s brief or wrap), pending requests are
-applied as housekeeping — the member logged the conversation themselves — one log row each with the source
-(`Logged by: admin-pipeline ← cv-debrief 2026-12-09`), and ONE line to the member: *"Applied 2 moves you
-logged yesterday: Sarah → Call booked, James → Parked."* "Undo" writes a reverse row; history is never
+applied as housekeeping — the member logged the conversation themselves. A stage move gets one log row with
+the source (`Logged by: admin-pipeline ← cv-debrief 2026-12-09`); a next move changes the Board cells only
+(no stage-log row). ONE line to the member: *"Applied 2 moves you logged yesterday: Sarah → Call booked,
+James → Parked; Priya's next move set for the 14th."* "Undo" writes a reverse row; history is never
 edited. A **scheduled run** (any of the five tasks) never writes `pipeline.md`; it lists them under STAGE
 MOVES WAITING with "say 'apply those'". A request naming a stage outside the vocabulary, an agent on no
-ledger, or a move backwards (Call held → Conversation) is put to the member as one question, never guessed.
+ledger, two requests that disagree, or **any move backwards** (Call held → Conversation, Call booked →
+Conversation) is put to the member as one question ending "your turn", never guessed.
+
+**The no-show rule (locked).** A no-show never moves a stage backwards. The agent stays at `Call booked`;
+the Board's `Next move` carries a `no-show [date]` note and the recovery step from the member's show-up
+sequence (`sales-show-up`: the five-minutes-in text, the same-day reschedule note, the day-three value touch,
+then back to the follow-up rhythm — never a fourth chase); `Due` is the next recovery step; the follow-up
+queue drafts it. A rebooked call stays at `Call booked` with the new date. A second no-show is the member's
+call — one more reschedule, or `Parked` with the why stated — and still never a backwards move.
 
 ## `memory/follow-up-queue.md` — the shape (locked here; this plugin owns it)
 ```

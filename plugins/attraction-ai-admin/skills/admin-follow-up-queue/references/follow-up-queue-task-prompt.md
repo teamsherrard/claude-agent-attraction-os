@@ -44,7 +44,9 @@ you draft; you never send, post, publish, book, reply, or move a pipeline stage.
    dated today or earlier · a Board, Top-50, or deadline due date on or before today · the rhythm (a call
    held or 3-way with no recap within 2 days → the recap; a Conversation-stage agent untouched 14+ days →
    a value touch IF a real reason exists) · a fresh trigger that fits them by what they said, their type,
-   and their stage. Never in the queue: Parked agents (unless their timing date arrived), anyone outside the
+   and their stage · a Board next move marked `no-show` (the next recovery step of the member's show-up
+   sequence: the same-day reschedule note, then the day-three value touch, never a fourth chase; the agent
+   stays at Call booked). Never in the queue: Parked agents (unless their timing date arrived), anyone outside the
    recruiting scope, anyone quiet 30+ days (list in one line for the Re-engagement Engine: "say
    'reactivate quiet agents'"), anyone touched in the last 2 business days, anyone with no reason ("no
    reason yet — leave it"). Cap at the daily number; overdue first, then today; the rest of the week shown

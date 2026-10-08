@@ -34,8 +34,8 @@ short-form skill needs and names exactly which files this plugin touches.*
 ## Where the Brain lives
 Permanent home: the member's cloud workspace (Google Drive or OneDrive), `Agent Attraction OS/` (renameable;
 found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 · AI Brain/_engine/`. Local
-`~/attraction-brain/` is the per-session working copy. Schema `aa-1.0`. A Realtor AI Brain (`~/realtor-brain/`,
-marker `_workspace.md`) is a different system: this plugin never reads it and never writes it.
+`~/attraction-brain/` is the per-session working copy. Schema `aa-1.0`.
+A Realtor AI Brain (`~/realtor-brain/`, marker `_workspace.md`) is a different system — never read, never written here.
 
 ## What this plugin READS (read-only, never written here)
 `brain.md` · `config.md` (Workspace ID, Timezone, Locale, CRM) · `identity/profile.md` · `identity/journey.md`

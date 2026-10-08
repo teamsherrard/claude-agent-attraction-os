@@ -27,7 +27,7 @@ Say the human thing instead:
 | "memory/ is completely empty" | *(say nothing — see §3)* |
 | "offer.md Status is seeds" | "Your Partner Offer gets built in Week 2 — I've kept what you already have to give" |
 | "prospect-intel.md is empty" | "Your market's agent landscape gets researched in Week 2 — say 'run my prospect radar' any time" |
-| "compliance.md is unset" | "Before I write anything public, I need your compliance basics — three minutes" |
+| "compliance.md says Status: unset" | "Before I write anything public, I need your compliance basics — three minutes" |
 | "14 identity files pulled" | "Your Brain's loaded — I know who you are as a leader, who you attract, and this week's targets" |
 | "Your Brain is on schema aa-1.0, current is aa-1.1" | "There's a quick tune-up available whenever you want it" |
 

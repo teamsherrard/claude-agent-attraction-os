@@ -73,7 +73,7 @@ The evening mirror of the brief — close today, load tomorrow:
      on-demand procedure now; it writes the entry and the daily scorecard row (its files, its shapes), and
      this skill then applies the stage moves it requests.
 4. **Deadlines.** Anything due today the member says is handled → Done; anything still open → roll to
-   tomorrow and say so. Push (write → push → verify).
+   tomorrow and say so. Push via `attraction-brain-sync` (write → push → verify).
 5. **Tomorrow in one glance:** the first partner call with its prep line (stage · the last thing they said ·
    the pain · "say 'prep my call with [Name]'", or the Call Block Prep sheet if that agent is on) ·
    follow-ups due · any prospect reply still unanswered · ONE first move for the morning. If tomorrow has

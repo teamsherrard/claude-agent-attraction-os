@@ -69,8 +69,8 @@ no other sponsor answers.*
 - **Pre-fill from:** `identity/brokerage-model.md` → "Explained per agent type" (the honest first-year
   picture) · `positioning.md` → "What the brokerage is (the vehicle)" · `journey.md` → the leader moment ·
   `profile.md` → "Why they actually joined." For a cloud model the honest trade-offs Mike himself names
-  (`03-model-positioning/14–16`): no company office, onboarding that can overwhelm, support that depends on
-  your sponsor, a first year that can be a grind.
+  (`03-model-positioning/14`, `11-objection-handling/55`, `02-prospect-targeting/25`): no company office,
+  onboarding that can overwhelm, support that depends on your sponsor, a first year that can be a grind.
 - **Ask like:** *"The page that makes this guide honest: the trade-off of your own model, said straight.
   From what you've told me I'd write: '[pre-fill — e.g. There's no office to walk into; if you need a
   building and a broker down the hall, that's a real thing to weigh.]' — is that the one you'd say out loud,

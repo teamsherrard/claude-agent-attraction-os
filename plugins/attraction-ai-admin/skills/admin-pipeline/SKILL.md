@@ -7,7 +7,7 @@ description: >
   them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when connected, with the Brain as the
   truth and the fallback. Answers who is at any stage, moves an agent, tells an agent's whole history
   from your notes, and match-back: who in your pipeline would care about an update, an event, or a
-  resource, with the reason. Prospect data stays in your Brain and CRM. Draft-only. Trigger on: "my
+  resource, with the reason. Prospect data stays in your Brain and CRM. Trigger on: "my
   attraction pipeline", "my prospect pipeline", "who's at call booked", "move [agent] to [stage]", "what
   happened with [agent]", "where does [agent] stand", "apply those stage moves", "who in my pipeline
   would care about", "park [agent]", "update my CRM from my pipeline", "agents gone quiet in my pipeline".
@@ -45,13 +45,17 @@ and capture), or `debriefs.md`. The full rules, including how requested moves re
 a tool error is never "no Brain".
 
 ## Housekeeping first, every in-chat run (silent, one line)
-Find every PENDING request — the three shapes in `brain-contract.md`: a `Stage after` on a conversation row
+Find every PENDING request — the four shapes in `brain-contract.md`: a `Stage after` on a conversation row
 newer than that agent's last log row · a `STAGE MOVE REQUESTED: [Name]: [from] → [to]` line in this session
-· a Debrief entry's `Stage moves requested` — and apply each as a move (Mode B), `Logged by: admin-pipeline
-← [source YYYY-MM-DD]`, with the `Next move · Due` those skills requested written to the Board. Then one
-line: *"Applied 2 moves you logged: Sarah → Call booked, James → Parked."* Exceptions go to the member as
-ONE question, never guessed: a stage outside the vocabulary, an agent on no ledger, a backwards move (Call
-held → Conversation), or two requests that disagree. A scheduled run never does this; it lists.
+· a Debrief entry's `Stage moves requested` · a `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line in
+this session (or a dated `Next step` on a conversation row newer than the Board's next move) — and apply
+each: a stage move as Mode B, `Logged by: admin-pipeline ← [source YYYY-MM-DD]`, with the `Next move · Due`
+those skills requested written to the Board; a next-move request as the Board's `Next move · Due` only (no
+stage-log row — the stage stays). Then one line: *"Applied 2 moves you logged: Sarah → Call booked, James →
+Parked; Priya's next move set for the 14th."* Exceptions go to the member as ONE question ending "your turn",
+never guessed: a stage outside the vocabulary, an agent on no ledger, two requests that disagree, or
+**any backwards move** (Call held → Conversation; a no-show is never a move back — see Mode B). A scheduled
+run never does this; it lists.
 
 ## Mode A — the board ("my prospect pipeline" · "who's at call booked")
 Counts by stage in one line, then the rows for the stage asked (or every active stage), one line each:
@@ -72,6 +76,12 @@ them here."*
    - → **Conversation**: the recap or the next question within 2 days (owner: member).
    - → **Call booked**: Due = the call date; next move = the 24-hour confirmation (the queue drafts it) and
      "prep my call with [Name]"; a `deadlines.md` row, type `call`.
+   - **A no-show** ("Sarah didn't show") → NOT a stage move, never backwards: she stays at `Call booked`;
+     the Board's Next move = `no-show [date] · recovery: [the next step of the show-up sequence]` (from
+     `sales-show-up`'s no-show recovery: the five-minutes-in text, the same-day reschedule note, the
+     day-three value touch — never a fourth chase); Due = that step's day; a `deadlines.md` row, type
+     follow-up; the queue drafts it. Rebooked → `Call booked` with the new date (a Board update, no log
+     row). A second no-show → the member's call: one more reschedule, or Parked with the why.
    - → **Call held**: next move = the recap within 2 days (if `cv-debrief` drafted it, point to it); Due =
      +2 days; the Conversion plugin's follow-up plan takes over from there.
    - → **3-way**: Due = the 3-way date; next move = the partner brief (`cv-three-way`); a row, type `3-way`.

@@ -22,7 +22,8 @@
    On-the-go captures route through **attraction-capture**. One owner per file (`shared/brain-contract.md`);
    a reader never rewrites a file it does not own.
 3. **STAY COMPLIANT.** Before anything public-facing (a post, a script, a bio, a DM template, an email, an
-   ad), read `identity/compliance.md`. It is **three-state**: `confirmed` → apply its rules and disclaimer ·
+   ad), read `identity/compliance.md` — its FIRST line, `Status:`, is the verdict (the worst field's state;
+   the `Gate:` line under it names why). It is **three-state**: `confirmed` → apply its rules and disclaimer ·
    `set` → apply and remind the member once to confirm · `unset` → **stop and say plainly that compliance
    is not set yet; do not produce the public piece** ("if empty, proceed" is banned). The attraction rules
    that always apply: no income or rev-share earnings claims, never talk badly about another brokerage or

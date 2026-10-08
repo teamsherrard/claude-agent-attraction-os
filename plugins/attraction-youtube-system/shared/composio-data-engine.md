@@ -14,40 +14,51 @@ still govern the analytics use: READ-ONLY always, the connection tool ONLY insid
 
 # The Live Data Engine (Composio) — real numbers behind Strategy + Growth
 
-The engine that turns the Strategy layer (audit → pillars → titles → 90-day plan) and the Growth layer
-(analytics → coaching → planning → market report) from good judgment into **verified data**. It runs on the
-agent's **Composio connection** (the cohort's data connector in Cowork), which exposes YouTube's public Data
+The engine that turns the Strategy layer (audit → lanes → titles → 90-day plan) and the Growth layer
+(analytics → coaching → planning) from good judgment into **verified data**. It runs on the
+member's **Composio connection** (the cohort's data connector in Cowork), which exposes YouTube's public Data
 API + a search/answer/trends/news stack. **Sync note:** the Short-Form plugin ships a SIBLING of this file —
 everything between `SHARED-START` and `SHARED-END` is identical in both and must stay in step; its **§7
 (Instagram + short-form recipes) is Short-Form-specific and does not exist here.** Never overwrite either copy
 wholesale with the other — sync the shared block only.
 
-**To the agent this is "your live data connection" — never "Composio", "API", "toolkit", or tool names.**
+**To the member this is "your live data connection" — never "Composio", "API", "toolkit", or tool names.**
+(Inside the shared block below "the agent" means the member — the block is realtor-era text kept byte-identical
+with the Short-Form plugin's copy; see the QA note at the end of this header.)
 
 ## When it activates (LATER — never during onboarding)
 - **NEVER during setup or the setup-time first Game Plan.** Onboarding runs entirely on the classic paths
   (public channel reads + the Studio export). No listing connections, no availability checks, no sign-in
-  offers, no tool calls — a technical permission card mid-onboarding confuses agents. Cohort feedback,
+  offers, no tool calls — a technical permission card mid-onboarding confuses members. Cohort feedback,
   locked.
 - **From the first real data job AFTER onboarding** (an analytics read or the deep dive): if the Composio
   tools are present in the session, use them for the job. **The first call in a session may pop a one-time
-  permission card — warn the agent in plain words RIGHT BEFORE it:** *"quick one — a permission box will
+  permission card — warn the member in plain words RIGHT BEFORE it:** *"quick one — a permission box will
   pop up so I can pull real YouTube numbers; hit Allow and we're set."* Never let the card appear unexplained.
 - **Availability has two parts — and only the analytics skill may act on the second.** (1) The Composio
-  tools are present in the session: the agent added the Composio connector in Claude once (Customize →
+  tools are present in the session: the member added the Composio connector in Claude once (Customize →
   Connectors → **+** → Add custom connector → name `Composio`, URL `https://connect.composio.dev/mcp` →
   Connect → approve in the browser; it's in the cohort install guide and the support desk, FAQ Q17a). No
-  tools → the analytics skill's **connector check (its Step 0)** tells the agent plainly, in chat, how to add
+  tools → the analytics skill's **connector check (its Step 0)** tells the member plainly, in chat, how to add
   it — the exact clicks — and offers the screenshot path meanwhile; a deep dive never fails silently. Every
-  other skill stays silent. (2) The toolkit has an **active connection** — the agent signed into YouTube
+  other skill stays silent. (2) The toolkit has an **active connection** — the member signed into YouTube
   through it. The search/execute response says when it doesn't ("no active connection"): that is the ONE
   moment for the offer-once sign-in, and **only `yt-analytics` may make it** —
   `COMPOSIO_MANAGE_CONNECTIONS` with `{"toolkits":[{"name":"youtube","action":"add"}]}` → show the returned
-  link as a markdown link → the agent logs in and says "done" → `action: "list"` to confirm `active` → pull.
+  link as a markdown link → the member logs in and says "done" → `action: "list"` to confirm `active` → pull.
   **Every other skill, and setup above all, never calls the connection tool** — not to add, not to list, not
-  to "check"; an unexplained permission card mid-onboarding is exactly what confused agents in cold tests.
+  to "check"; an unexplained permission card mid-onboarding is exactly what confused members in cold tests.
   Card denied or offer declined → classic paths silently and completely — everything still works; never nag,
   never re-trigger it that session.
+
+> **QA note (2026-10-08) — read before using recipes 6 and 7.** The shared block below is the realtor-era text
+> and is kept byte-identical with the Short-Form plugin's copy until the coordinator re-keys both at once. Until
+> then, for this plugin: recipe 6 (market report / news) is NOT used; in recipe 7 and the Studio-pack read,
+> swap the buyer/seller phrasings for agent phrasings (`"[brokerage] explained"`, `"should I switch
+> brokerages"`, `"questions to ask a sponsor"`, the member's name) and read "local buyers" as "licensed agents
+> in the states or provinces the member can attract in"; `yt-channel` means `yt-setup` and `yt-comments`
+> means `yt-leads` (comment triage from screenshots); "S.E.A.R.C.H." and "Shift 4" are realtor-plan labels —
+> read them as "search-led titles" and "the binge path (doctrine §11)".
 
 <!-- SHARED-START — identical in the YouTube and Short-Form plugins; sync this block only -->
 

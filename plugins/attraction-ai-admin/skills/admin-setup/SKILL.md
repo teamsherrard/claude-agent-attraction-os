@@ -95,8 +95,8 @@ The Week-6 trio in ONE line, no question: *"When you're ready: 'turn on my weekl
 Write the block under "Later plugins register here" in `config.md`, exactly per
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (`## AI Admin (Week 5)`, first line `AI Admin: set up
 [today]`, the assistant name, every task line as `[id | declined | later]` with its time, `CRM mirror`,
-`VA`). Push immediately and verify — a crash between creating a task and writing its id is how duplicate
-tasks are born. From this block onward the Conversion plugin and the capture skill stop writing the
+`VA`). Push immediately via `attraction-brain-sync` and verify — a crash between creating a task and writing
+its id is how duplicate tasks are born. From this block onward the Conversion plugin and the capture skill stop writing the
 pipeline and request moves instead; say nothing about that to the member.
 
 ## Step 6 — First-run proof, from real data (never a fictional test)

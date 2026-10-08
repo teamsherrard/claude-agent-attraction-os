@@ -37,7 +37,8 @@ Three things to hold from the Brain:
 - **The leader brand stays visually distinct from the brokerage's own palette** (whatever brokerage it is;
   read `profile.md`, never assume). Agents are joining the member, not a logo (`03-model-positioning/17`),
   and a brand that only promotes the brokerage is the first mistake Mike lists (`04-value-proposition/29`).
-- **Compliance, 3-state.** If `compliance.md` is **unset**, the Design Package brief still gets written,
+- **Compliance, 3-state.** Read the first line of `compliance.md` (`Status:`). If it is **unset**, the
+  Design Package brief still gets written,
   but it carries one plain line: the brokerage name and license display have to be set before any public
   graphic ships — *"say 'set up my attraction compliance' and I'll add it to the brief."* Never
   "if empty, proceed". If **set** or **confirmed**, copy the brokerage-name and license-display rule into

@@ -79,8 +79,11 @@ The Admin exists only if it is FASTER than the member doing it by hand:
 `Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active`, plus `Parked`
 (fit or timing the member chose to stop working — never disrespect, never "lost", never "cold"). This plugin
 OWNS stage moves (`memory/pipeline.md`); the Conversion plugin, the Daily Debrief, the Events plugin, and the
-capture skill REQUEST them (how a request reaches the board: `brain-contract.md`). In front of the member a
-stage is said plainly ("she's at call booked"), never as file language.
+capture skill REQUEST them (how a request reaches the board: `brain-contract.md`; a `NEXT MOVE REQUESTED`
+line changes only the Board's next move, never the stage). **A no-show never moves a stage backwards:** the
+agent stays at `Call booked` with a `no-show` note on the Board and a recovery touch in the queue; any
+backwards request is a question to the member, never applied. In front of the member a stage is said
+plainly ("she's at call booked"), never as file language.
 
 ## The CRM (GoHighLevel · Follow Up Boss · Google Sheets · none)
 - `config.md → CRM` names it; `operations.md` says how contacts are tagged. If the member's **own connector**

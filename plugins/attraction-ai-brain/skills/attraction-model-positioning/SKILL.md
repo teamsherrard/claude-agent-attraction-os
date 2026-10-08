@@ -39,24 +39,27 @@ by reference.
 Read `~/attraction-brain/brain.md` first; pull via `attraction-brain-sync` if the local copy is missing. A
 tool error is never "no Brain".
 
-Then only what this skill uses:
-- `identity/profile.md` — brokerage, what they're building, how long there
+Then only these three up front — the rest load at the step that uses them (named there):
+- `identity/positioning.md` — the seed line from setup if present; real content = update, not rebuild
 - `identity/journey.md` — the three beats; **Stop 2's "why I actually joined"** (the real reason, not the
   brochure) and **the one line they'd say if asked "why are you there?"** (setup Q7 / Q36)
-- `identity/strategy.md` — what they want to be known for; what they can teach
-- `identity/positioning.md` — the seed line from setup if present; real content = update, not rebuild
 - `identity/avatars.md` — the primary type and its ranked pains (the sheet is written primary-first)
-- `identity/brokerage-model.md` — the plain-English mechanics and the "never say" list (if built; if not,
-  the sheet's mechanics lines read "[the Brokerage Model Expert fills this in — say 'learn my brokerage
-  model']" and nothing is invented)
-- `identity/offer.md` — `Status:` and the three layers (brokerage · upline · you). If Status is seeds,
-  the script's "what I add" beat uses the raw material and says Week 2's offer skill sharpens it; it never
-  demands an offer that isn't built.
-- `identity/proof.md` — agents helped, organization size (the "prove what you say" beat, `/17`)
-- `identity/compliance.md` — the **3-state gate** for anything public (below)
+
+Loaded later, at the step named:
+- **Stop A:** `identity/profile.md` — brokerage, what they're building, how long there ·
+  `identity/strategy.md` — what they want to be known for; what they can teach · `identity/offer.md` —
+  its `Status:` line (question 4 runs only if the offer is finalized)
+- **Build:** `identity/brokerage-model.md` — the plain-English mechanics and the "never say" list (if built;
+  if not, the sheet's mechanics lines read "[the Brokerage Model Expert fills this in — say 'learn my
+  brokerage model']" and nothing is invented) · `identity/offer.md` — the three layers (brokerage · upline ·
+  you) for beat 5; if Status is seeds, the script's "what I add" beat uses the raw material and says Week 2's
+  offer skill sharpens it; it never demands an offer that isn't built · `identity/proof.md` — agents helped,
+  organization size (the "prove what you say" beat, `/17`) · `identity/voice.md` — if built, the one-liner's voice
+- **The compliance gate (before any public-facing line is handed over):** `identity/compliance.md` — its
+  first line, `Status:` (below)
 
 ### Compliance gate — before the one-liner or script is handed over as public words
-Read `identity/compliance.md`. **Set / confirmed** → proceed, apply its rules (brokerage name and
+Read the first line of `identity/compliance.md` (`Status:`). **Set / confirmed** → proceed, apply its rules (brokerage name and
 license display where their rules require it in bios; no compensation in public). **Unset** → still
 write the Brain file and show the member their private-call material, but hand over the public-facing
 one-liner and bio lines with this plain line and nothing else: *"Before this goes in a bio or on camera,
@@ -87,6 +90,8 @@ on your strengths"* — then the strength version, in full. No lecture.
 
 ## Stop A · Your line (2–4 questions, one stop)
 
+Read now: `identity/profile.md`, `identity/strategy.md`, and the `Status:` line of `identity/offer.md`.
+
 Orient: *"Next: how you talk about where you are, without it sounding like a pitch. Three quick ones."*
 
 Fold in what the Brain holds (the setup one-liner is read back, not re-asked):
@@ -106,6 +111,9 @@ the journey, say why each fits, recommend one. Their choice is final.
 ---
 
 ## Build
+
+Read now: `identity/brokerage-model.md` (if built), `identity/offer.md` (the three layers), `identity/proof.md`,
+and `identity/voice.md` (if built).
 
 ### 1. The one-line "why I'm here"
 In the member's voice (`identity/voice.md` if built), first person, under 25 words, passes the swap test

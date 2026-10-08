@@ -261,7 +261,7 @@ Subline:  {cadence / the invite}
 {default description: booking link line 1 · resource line 2 · the disclosure block · default tags · category · visibility · language}
 
 ──────────────── CHANNEL TRAILER ────────────────
-{new channel: "say 'make this video: my channel trailer'" · existing: the strongest recent video, named}
+{new channel: "say 'make my attraction video: my channel trailer'" · existing: the strongest recent video, named}
 
 ────────────────────────────────────────────
 Compliance — cardinal rules · no compensation figures · disclosure present · [status].  ✓
@@ -305,7 +305,7 @@ For {avatar}  ·  Bucket {Problem / Situation / Future / Interview / Model}  · 
 {brokerage name + license as required · the brokerage disclaimer verbatim · income disclaimer only if earnings were mentioned · AI-likeness line on clone content}
 ```
 
-### Interview Prep (`yt-interview`)
+### Interview Prep (`yt-interview` — saved as `Interview Prep — [guest] — YYYY-MM-DD` in the video's folder)
 ```
 INTERVIEW PREP — {GUEST NAME}
 Transformation: {the title hook}  ·  Type: {new agent / … }  ·  Record: {date}  ·  Consent: {yes / pending}
@@ -357,6 +357,68 @@ PAGE 1 — {purpose}
 {the exact Partner Call invite + booking link}
 (We map the content; the Lead Magnet plugin / ds-lead-magnet designs it.)
 ```
+
+### Model Breakdown (`yt-model-breakdown` — saved as `Model Breakdown — [title] — YYYY-MM-DD` in the video's folder)
+```
+{VIDEO TITLE} — MODEL BREAKDOWN
+For {avatar}  ·  Bucket Model  ·  Model file last reviewed {YYYY-MM-DD}  ·  {YYYY-MM-DD}
+
+──────────────── THE SOURCED FACT SHEET ────────────────
+   •  {fact used} — {source document, date}   (every fact; compensation figures never appear here or on camera)
+
+──────────────── THE OUTLINE ────────────────
+HOOK · RESOURCE CTA · OVERVIEW · HOW COMPENSATION IS STRUCTURED (no figures) · TOOLS · SUPPORT · BEYOND
+CLOSINGS · CULTURE · BOOK-A-CALL CTA + NEXT VIDEO   (one band each, two CTAs placed)
+
+──────────────── TITLE SET ────────────────
+1.  {title}   2.  {title}   3.  {title}   ·  thumbnail text (differs from the title): {3–5 words}
+
+──────────────── RE-MAKE REMINDER ────────────────
+{re-make when the model changes or in 12 months — from the file's Last reviewed date}
+
+────────────────────────────────────────────
+Cardinal-rules read-back — {what was changed}.   Compliance — no compensation figures · disclosure in the description · [status].  ✓
+```
+
+### YouTube Deep Dive (`yt-analytics` — saved as `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`; no credibility stamp)
+```
+YOUTUBE DEEP DIVE — [MEMBER NAME] — [MONTH YYYY]
+Window: {last 90 days}  ·  Data: {live / Studio pack in or not / public reads}  ·  {YYYY-MM-DD}
+
+════════════════════════════════════════════
+READ THIS FIRST
+════════════════════════════════════════════
+{the verdict — three plain sentences}
+   THE ONE MOVE ......... {exactly one action}
+   DO THESE THREE THIS WEEK ......... 1. {…}  2. {…}  3. {…}
+   YOUR NUMBERS AT A GLANCE   (each with its plain meaning)
+   WHAT'S IN THIS REPORT   (pulled live · Studio pack · not available)
+
+════════════════════════════════════════════
+PART 1 — YOUR CHANNEL
+════════════════════════════════════════════
+   1.1 How you grew  ·  1.2 What's pulling — by lane  ·  1.3 Titles & thumbnails  ·  1.4 Your best openings
+   1.5 Where viewers come from  ·  1.6 What viewers are saying  ·  1.7 Where views stop turning into calls
+   1.8 How often you post & your channel page
+   (every finding: what we found · why it matters to you · do this · the proof; numbers in tables)
+
+════════════════════════════════════════════
+PART 2 — OTHER ATTRACTION CHANNELS   (what they do well, never what is wrong with them)
+════════════════════════════════════════════
+════════════════════════════════════════════
+PART 3 — WHERE YOU SHOW UP WHEN AGENTS SEARCH
+════════════════════════════════════════════
+════════════════════════════════════════════
+PART 4 — THE OPENINGS   (3–5 four-line cards)
+════════════════════════════════════════════
+════════════════════════════════════════════
+PART 5 — YOUR NEXT 30 DAYS   (keep · fix · ~8 exact titles on the 3+1+4 mix · THE ONE MOVE, repeated)
+════════════════════════════════════════════
+════════════════════════════════════════════
+APPENDIX — THE FULL NUMBERS
+════════════════════════════════════════════
+```
+Structure and method: `${CLAUDE_PLUGIN_ROOT}/skills/yt-analytics/references/deepdive-guide.md`.
 
 ### Repurposing Pack
 ```

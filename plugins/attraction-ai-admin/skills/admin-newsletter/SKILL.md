@@ -103,7 +103,8 @@ Caption (paste): [the recognition post]
 
 ## Step 7 — After "sent"
 The member says the email went out → the `Recognition given` cell (date · what) for each celebrated agent
-and the `Team Wins:` line under Retention notes in `memory/organization.md`; push (write → push → verify).
+and the `Team Wins:` line under Retention notes in `memory/organization.md`; push via
+`attraction-brain-sync` (write → push → verify).
 A win that is also proof for the member's own story → one line: "say 'remember this moment' and it goes to
 your proof and story bank" (`attraction-capture` writes those).
 

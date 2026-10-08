@@ -7,12 +7,13 @@ leader who finally explains things straight.
 
 **Why this plugin exists in Mike's words (`15-advanced-scaling/73`):** the email list is "the most valuable
 asset you will have … as an attractor and as a leader" — platforms change, accounts get restricted, the list
-is the only audience you own. Every piece of content should offer "some sort of an asset in exchange for
-contact information": guides, checklists, scripts, prompts, mini-courses. The magnet is that asset.
+is the only audience you own. Every piece of content should offer an asset — "what type of asset can you get
+for free in exchange for contact information" — guides, checklists, scripts, prompts, mini-courses. The magnet
+is that asset.
 
 ## The FIRST magnet is always the Honest Brokerage Comparison Guide (house rules #11)
-Campaign one is locked. Why this one: new agents "do far more research than busy agents and compare
-brokerages side by side" (`02-prospect-targeting/21`); experienced agents are "skeptical of failed promises,"
+Campaign one is locked. Why this one: new agents have more time than busy agents and "do a lot more
+research," weighing one brokerage against another (`02-prospect-targeting/21`); experienced agents are "skeptical of failed promises,"
 three to five brokerages in (`/22`); and "99% of people at any brokerage can't explain their model properly"
 (`01-foundation-mindset/08`) — agents join the person who finally answers with clarity. A guide that explains
 every model fairly, trade-offs and all, is the leader doing exactly that in writing. It obeys the two cardinal

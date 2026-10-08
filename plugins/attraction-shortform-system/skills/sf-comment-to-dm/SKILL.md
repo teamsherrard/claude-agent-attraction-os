@@ -18,7 +18,7 @@ Short-form is not about views. The path is Awareness → Recognition → Familia
 Conversation, and the asks climb the same way: Follow → Comment → DM → Resource → Conversation → Call.
 One keyword rides on every Reel so a comment becomes a message and a message becomes a human conversation.
 Nothing on this ladder pitches. The brokerage, the model, and compensation are answered on a private call,
-never in a DM (`03-model-positioning/14`).
+never in a DM (`02-prospect-targeting/19`: say as little as you have to in text; the model is explained on a private call).
 
 **Apply** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`.
 Every DM template here is **public-facing** (an agent outside the organization reads it), so the compliance

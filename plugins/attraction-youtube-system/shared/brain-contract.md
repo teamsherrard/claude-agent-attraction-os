@@ -1,7 +1,7 @@
 # The Brain Contract — what the YouTube System reads and writes
 
 *Every Agent Attraction plugin ships a `shared/brain-contract.md` in this shape. This is the YouTube System's
-(Plugin 6, Week 4). The Brain plugin's own copy is the reference for the laws, the safety rails, and the
+(Plugin 5, Week 4). The Brain plugin's own copy is the reference for the laws, the safety rails, and the
 `config.md` registry; the OS-wide table lives in the master plan §1 and `docs/BRAIN-CONTRACT.md`. This file
 repeats only what a YouTube skill needs and names exactly which files this plugin touches.*
 
@@ -14,7 +14,7 @@ repeats only what a YouTube skill needs and names exactly which files this plugi
 3. **Read `identity/compliance.md` before anything public** — a script, a title that ships, a description, a
    pinned comment, channel text, thumbnail text, a model video. Three-state: `confirmed` → apply its rules ·
    `set` → apply and remind once per session to confirm with the brokerage · `unset` → **no public piece**;
-   say plainly, in one warm line, that the compliance basics come first ("say 'set up my compliance' — three
+   say plainly, in one warm line, that the compliance basics come first ("say 'set up my attraction compliance' — three
    minutes") and offer the private parts of the task (the plan, titles as a private list, research) meanwhile.
    "If empty, proceed" is banned.
 
@@ -59,15 +59,16 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   **Score vocabulary:** Ahead · On pace · Behind.
 
 ## What this plugin READS (read-only, never written here)
-`brain.md` · `config.md` (Workspace ID, provider, Timezone) · `identity/profile.md` · `journey.md` (incl. the
-`## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the resource; Status
-respected) · `brokerage-model.md` (mechanics for model videos; figures never surface in public content) ·
+`brain.md` · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
+`## Short-Form (Week 3)` block — task id · `declined` · `not offered yet`) · `identity/profile.md` · `journey.md` (incl. the
+`## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the offer; the live resource is read from `memory/magnets.md → ## Current magnet` first, `offer.md`
+second; Status respected) · `brokerage-model.md` (mechanics for model videos; figures never surface in public content) ·
 `prospect-intel.md` · `proof.md` (consent column respected) · `story-bank.md` (stories pulled; Used-where
 stamped — see "also writes") · `voice.md` · `voice-samples.md` · `voice-print.md` (every read-aloud script) ·
 `brand-visual.md` (words only) · `goals.md` (the 90-day targets and ratios — the goal-math source) ·
 `leadership.md` · `operations.md` (the booking link, hours) · `compliance.md` · **`content-pillars.md`** (the
 five pillars, cadence, the two CTAs — Week 3) · **`publishing.md`** (the `Content board:` line and the
-`Weekly Content Performance task:` line — Short-Form-owned) · `memory/content-log.md` (all rows, to avoid
+`Keyword:` line — Short-Form-owned; the `Weekly Content Performance task:` key is NOT here, see `config.md`) · `memory/content-log.md` (all rows, to avoid
 repeats) · `memory/ideas.md` (tags `youtube` and `interview`; the member's own ideas come first) ·
 `memory/intel.md` (dated brokerage and industry news for model and Situation videos) · `memory/objections.md`
 (the questions Situation and Model videos answer) · `memory/top-50.md` and `memory/organization.md` (the
@@ -84,26 +85,29 @@ relevance, the workspace per the Brain's `drive-map.md`: `02 · Brand` (the kit)
 | `identity/channel.md` | `yt-setup` (creates it: channel, positioning, lanes and playlists, the CTA line, upload defaults, channel-page status, baseline) | `yt-gameplan` → the `## Game Plan anchors` block only · `yt-analytics` → the `Live data:` line and a **dated `## Performance` block appended** per deep dive (newest last; earlier blocks never edited) · `yt-setup` "update my channel" edits one block |
 | `memory/interview-pipeline.md` | `yt-interview` (rows, Stage moves; creates the file on first use if the Brain template lacks it) | `yt-gameplan` seeds candidate rows at Stage `Candidate`; `yt-setup` creates the empty file with the header; `yt-make-video` moves a row to `Published` |
 | `memory/content-log.md` — **YouTube rows only** | `yt-script` (the row at `Scripted`) · `yt-make-video` (flips to `Published`, adds the Link) · `yt-interview` / `yt-model-breakdown` (a row at `Idea` when they run before the script — `yt-script` updates that row, never a second) · `yt-seo` / `yt-leads` (the CTA cell) · `yt-repurpose` (rows for the derived pieces) · `yt-analytics` (the conversations/calls note in the CTA cell) | Short-Form, the AI Editor, and Events own their rows; the Editor may flip a YouTube row to `Edited` |
-| `config.md` — the `## YouTube (Week 4)` block only | `yt-setup` (installed date, plugin version, pointer to `channel.md`) | `yt-briefing` → `YouTube briefing task:` (task id or `declined`) · `yt-triggers` → its task lines. Nothing else in `config.md`, ever |
+| `config.md` — the `## YouTube (Week 4)` block only | `yt-setup` creates the block with exactly these lines: `Installed:` date · `Plugin version:` · `Layer:` → `identity/channel.md` · `Monday Kickoff task: not offered yet` · `Weekly ideas task: not offered yet` · `Monthly review task: not offered yet` · `YouTube section: not offered yet` | `yt-briefing` → the `Monday Kickoff task:` line (task id · `declined` · `paused`) and, if chosen, `Monday Kickoff delivery: email draft` · `yt-triggers` → the `Weekly ideas task:` and `Monthly review task:` lines · `yt-analytics` → the `YouTube section:` line (`added YYYY-MM-DD` · `declined`). Nothing else in `config.md`, ever |
 
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story a
 script used · `memory/ideas.md` → flip a `youtube` / `interview` idea's Status to `used` at make-video start
 (never at pick time) **and** `yt-repurpose` is a designated appender of **conversation-starter rows** (Tag
 `general`, Idea = the starter text + "conversation starter from [video]", Avatar / pain, Status `open`) when the
 Conversion plugin is not installed — the owner stays `attraction-capture`; `cv-conversation-starter` marks them
-used · `memory/intel.md` → the `Used?` column of a row a video drew on. Nothing else in those files.
+used · `memory/intel.md` → the `Used?` column of a row a video drew on · `identity/publishing.md` → **only** the
+`Content board:` line, and only when `yt-board` creates or records the board (the same designated line
+`sf-board` writes; the file stays Short-Form-owned). Nothing else in those files.
 
 **Never written by this plugin:** anything else in `identity/`, `top-50.md`, `conversations.md`, `pipeline.md`,
 `organization.md`, `scorecard.md` (the Weekly Content Performance agent and the Admin own rows there),
 `objections.md`, `debriefs.md`, `deadlines.md`, `capture-log.md`, `prospect-intel.md`, `content-pillars.md`,
-`publishing.md`. A conversation that starts from a comment is handed to `yt-leads` → the Conversion plugin.
+`publishing.md` (except the `Content board:` line above). A conversation that starts from a comment is handed to `yt-leads` → the Conversion plugin.
 
 **The fix carried in (never inherited):** the realtor YouTube plugin never wrote a content-log row. This plugin
 writes one **at script, at publish, and at repurpose**. A video with no row is a bug.
 
 ## Locked shapes this plugin uses
 - **`memory/content-log.md` row** (the template's shape, never extended):
-  `| Date | Platform | Format (long-form · reel · story · carousel · interview · live) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
+  `| Date | Platform | Format (long-form · reel · story · carousel · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
+  (`email` and `blog` were added to the Format enum by the coordinator's ruling for repurpose rows.)
   YouTube conventions inside that shape: Platform = `YouTube`; Format = `long-form` or `interview`; **Pillar =
   one of `Authority · Perspective · Story · Proof · Personality`** (by the mapping above); **the Topic / hook cell
   begins with the bucket in brackets** — `[Problem]`, `[Situation]`, `[Future]`, `[Interview]`, `[Model]` — then
@@ -114,9 +118,7 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
     `yt-model-breakdown` already wrote. Never two rows for one video.
   - **At publish** (`yt-make-video`): find the row by Topic / hook, set `Published`, add the Link.
   - **At repurpose** (`yt-repurpose`): one row per derived piece, **YouTube-owned**: Platform = the target
-    (`Shorts / Reels`, `Instagram`, `LinkedIn`, `Email`, `Blog`); Format = `reel` / `carousel` / `story` (email and
-    blog pieces: Format `long-form` with the Topic / hook prefixed `[email]` / `[blog]` until the template adds
-    `email` and `blog`, see Questions); Topic / hook = `[repurposed] from "[source title]"
+    (`Shorts / Reels`, `Instagram`, `LinkedIn`, `Email`, `Blog`); Format = `reel` / `carousel` / `story` / `email` / `blog`; Topic / hook = `[repurposed] from "[source title]"
     — [angle]`; Pillar and Avatar from the source row; Status `Scripted`; Link = the Repurposing Pack. The
     Short-Form System never edits these rows; when the member says a piece went live, `yt-repurpose` or
     `yt-leads` flips it. A piece the member re-makes through `sf-*` gets SF's own row — say so once, never both.
@@ -131,16 +133,15 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   Channel page · Baseline · `## Game Plan anchors` (yt-gameplan only) · `## Performance` (yt-analytics only,
   dated blocks appended, newest last).
 - **`identity/publishing.md`** (Short-Form-owned, read here): the `Content board:` line (URL · `declined
-  YYYY-MM-DD` · empty = not offered yet) and the **`Weekly Content Performance task:`** line (task id · `declined`
-  · not offered yet) — the key is spelled exactly so; `yt-analytics` reads it before appending its section.
-  (The coordinator's note places the key in `config.md`; the Short-Form contract places it on `publishing.md` —
-  read `publishing.md` first, then `config.md`'s Short-Form block; see Questions.)
+  YYYY-MM-DD` · empty = not offered yet) and the `Keyword:` line (the ManyChat keyword `yt-leads` quotes in
+  replies). The **`Weekly Content Performance task:`** key lives ONLY on `config.md`'s `## Short-Form (Week 3)`
+  block (coordinator ruling, SEAM-LOG) — `yt-analytics` reads it there, never on `publishing.md`.
 
 ## Scheduled agents this plugin touches
 - **Weekly Content Performance** (Friday) — owned and provisioned by `sf-analytics`, only with the member's
   explicit yes, draft-only; `yt-analytics` appends its YouTube section from Week 4 and never provisions it.
 - **The YouTube briefing** (`yt-briefing`) — off by default; asks before provisioning; draft-only; id on
-  `config.md`'s `YouTube briefing task:` line.
+  `config.md`'s `Monday Kickoff task:` line (this plugin's block).
 - **The triggers list** (`yt-triggers`: weekly ideas, performance, monthly review) — each provisioned only with
   the member's explicit yes; nothing sends, posts, or publishes on its own.
 
@@ -148,8 +149,8 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
 All of it in **`03 · Content/Long-Form/`**: `🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD` · `Channel Page Kit —
 YYYY-MM-DD` · `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD` · one folder per video `YYYY-MM-DD · [Title]/`
 holding `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief — [title] — YYYY-MM-DD` · `Lead Map —
-[title] — YYYY-MM-DD` (only when a resource exists) · `Repurposing Pack — [title] — YYYY-MM-DD` · the interview
-prep from `yt-interview`. Thumbnail images (built in Claude Design) → `03 · Content/Graphics`; the banner →
+[title] — YYYY-MM-DD` (only when a resource exists) · `Repurposing Pack — [title] — YYYY-MM-DD` · `Interview Prep —
+[guest] — YYYY-MM-DD` (`yt-interview`) · `Model Breakdown — [title] — YYYY-MM-DD` (`yt-model-breakdown`). Thumbnail images (built in Claude Design) → `03 · Content/Graphics`; the banner →
 `02 · Brand`. Research briefs, idea batches, and outlier scans stay in chat — regenerated, never stored. Dated
 filenames; newest is current. Never a parallel `[Member] — YouTube System/` root.
 
@@ -161,16 +162,17 @@ unset) · `attraction-story-bank` (a story to bank) · `attraction-goals` (no ta
 `sf-*` (posting) and `cv-conversation-starter` · `yt-leads` → the Conversion plugin · `yt-analytics` →
 `sf-analytics` (the Friday agent) · `yt-board` (the Notion board) · `studio-longform` (the edit).
 
-## Questions for the coordinator (contract, not content)
-1. `identity/channel.md` and `memory/interview-pipeline.md` are not in the Brain template (§4). Both are created
-   on first use here; the template should carry empty placeholders so `health`, `migrate`, and the sync allowlist
-   know them.
-2. The content-log Format enum lacks `email` and `blog`; proposing both be added so repurpose rows are honest.
-3. `Weekly Content Performance task:` — `config.md` (coordinator note) or `identity/publishing.md` (Short-Form
-   contract)? This plugin reads `publishing.md` first, then `config.md`'s Short-Form block.
-4. Two finished I2 skills tag content-log rows with a bucket in the Pillar column (`yt-interview` → `Interviews`,
-   `yt-model-breakdown` → `Model`) and `yt-make-video` calls the buckets "pillar". Under the OS lock those cells
-   must read `Proof` / `Perspective` with the bucket in the Topic / hook cell.
+## Coordinator rulings applied (SEAM-LOG, 2026-10-08)
+1. `identity/channel.md` and `memory/interview-pipeline.md` are YouTube-owned; the Brain template gains empty
+   placeholders (coordinator) so `health`, `migrate`, and the sync allowlist know them. Until then both are
+   created on first use here, exactly in the shapes above.
+2. The content-log `Format` enum gains `email` and `blog`; repurpose rows use them directly (no prefix workaround).
+3. The `Weekly Content Performance task:` key lives in `config.md`'s Short-Form block ONLY; this plugin reads
+   `config.md`, not `publishing.md`, for it.
+4. Every content-log row's Pillar cell carries one of the five OS pillars (`yt-interview` rows `Proof`,
+   `yt-model-breakdown` rows `Perspective`); the bucket sits in brackets at the start of the Topic / hook cell.
+5. The live lead magnet is read from `memory/magnets.md → ## Current magnet` first, `identity/offer.md` second.
+6. `yt-repurpose` is a designated appender of conversation-starter rows to `memory/ideas.md`.
 
 ## Privacy
 Everything in the Brain — agent names, wins, conversations, interview guests — is the member's private data. It

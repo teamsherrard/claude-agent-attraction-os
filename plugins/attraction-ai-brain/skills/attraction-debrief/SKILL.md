@@ -28,7 +28,9 @@ sends, posts, publishes, replies, books, or moves a pipeline stage. It writes on
 ## Ownership (the Brain Contract, exactly)
 - **Writes:** `memory/debriefs.md` (its log) and the **daily rows** of `memory/scorecard.md`
   (targets are `attraction-goals`'; weekly rows are the weekly check-in's, then the AI Admin's).
-- **Reads:** `brain.md`, `identity/goals.md`, `identity/operations.md`, `identity/compliance.md`,
+- **Reads:** `brain.md`, `identity/goals.md`, `identity/operations.md`, `identity/compliance.md` (its first
+  line, `Status:` — the Debrief produces nothing public, but every suggested follow-up line obeys the file,
+  and when it is `unset` the entry says so in one line),
   `memory/top-50.md`, `memory/conversations.md`, `memory/pipeline.md`, `memory/scorecard.md`,
   `memory/deadlines.md`, `memory/content-log.md` (if present), `memory/organization.md` (if present),
   `config.md`.

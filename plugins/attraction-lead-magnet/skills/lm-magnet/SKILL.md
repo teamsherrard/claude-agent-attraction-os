@@ -166,8 +166,9 @@ Never paste a bracket token into the doc. If a line can't pass, rewrite it or cu
    This skill never writes `offer.md`, `content-log.md`, or `scorecard.md`.
 4. **Hand off to Step 2:** *"That's your guide done — honest about every model, including yours. Want me to
    write the page that gives it away? It'll present this exact guide."* (runs `lm-funnel`, pointing it at
-   this magnet doc). One line after: *"When the page is live, say 'design brief for my guide' and I'll
-   write what your design step needs for the PDF and the mockup."*
+   this magnet doc). One line after: *"Once the page copy is done, say 'design brief for my guide' and I'll
+   write what your design step needs for the PDF and the mockup — the page needs the finished PDF before it
+   can go live."*
 
 ---
 

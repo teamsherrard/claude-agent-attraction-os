@@ -62,6 +62,12 @@ Due today or overdue, in this order; one row per agent (the strongest reason win
 4. **A fresh trigger** in `intel.md` or `organization.md` (a plan change, a tool, a notable join, a win, an
    event, an industry shift) → every agent it fits, by what they said (`conversations.md`), their type, and
    their stage. (`admin-pipeline`'s match-back finds the same people on demand.)
+5. **A no-show recovery** — a Board next move marked `no-show` → the next step of the member's show-up
+   sequence (`sales-show-up`: the same-day reschedule note, then the day-three value touch, then back to the
+   rhythm — never a fourth chase); the agent stays at Call booked; the reason is the call itself.
+6. **A next move requested in this session** — a `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line
+   from the Conversion plugin's follow-up or reactivation skills → `admin-pipeline` writes it to the Board's
+   `Next move · Due`, and it joins the queue on its date.
 Not in the queue: **Parked** agents (unless the parked timing's date has arrived) · anyone outside the
 compliance recruiting scope · anyone quiet 30+ days — one line: "quiet: say 'reactivate quiet agents'"
 (`cv-reactivation` owns reason-based reactivation) · anyone touched in the last 2 business days (the Log or
@@ -93,7 +99,8 @@ zone, the link, one thing to think about before the call, the signature. Skip an
 "Confirm Friday" narrows the day.
 
 ## Step 5 — Write, push, report
-1. Rebuild the Queue and Confirmations tables, keep the Log, stamp `Updated:`; push (write → push → verify).
+1. Rebuild the Queue and Confirmations tables, keep the Log, stamp `Updated:`; push via
+   `attraction-brain-sync` (write → push → verify, one step).
 2. New follow-up rows in `memory/deadlines.md` for touches dated this week that no row covers.
 3. Report, ~12 lines: *"5 due today (2 overdue) · 3 drafts in your Gmail · 2 to copy · 1 voice-note script ·
    1 confirmation for tomorrow"*, then one line per agent: name · stage · the reason · where the draft is.

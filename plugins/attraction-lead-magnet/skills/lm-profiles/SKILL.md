@@ -10,7 +10,7 @@ description: >
   Reads the Brain, saves the pack as a styled doc, updates identity/profiles.md inside sf-setup's
   headings (creates it only if absent). 3-state compliance gate; license display never cut. Copy
   only.
-  Trigger on: "attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles
+  Trigger on: "update my attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles
   to my funnel", "my Instagram bio for agents", "LinkedIn about for agent attraction", "optimize
   my profiles for attraction".
 ---

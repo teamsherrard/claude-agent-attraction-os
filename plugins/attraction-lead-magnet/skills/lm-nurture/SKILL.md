@@ -17,8 +17,8 @@ description: >
 # Nurture — the sequence after the guide, and the weekly newsletter
 
 **Why (`15-advanced-scaling/73`, in Mike's words):** the email list is "the most valuable asset you will have
-… as an attractor and as a leader." Platforms change and accounts get restricted; "the list is the only
-audience you own." It "keeps you top of mind even when agents aren't ready to move today" — his readers
+… as an attractor and as a leader." Platforms change and accounts get restricted; "you own this asset, it's
+yours." It "keeps … top of mind, even when agents aren't ready to move today" — his readers
 emailed to ask where the week's email was. His nurture strategy is "value, more value, more value"; the
 strongest emails are the success stories of agents in the organization; the call to action is warm —
 *"if you'd like to chat about partnering with me … book a private call and we'll see if I can help. If not,
@@ -42,7 +42,8 @@ funnel URL), `memory/list-growth.md` (list tool, newsletter day, what's already 
 the locked shape if the Brain predates it), `identity/voice-print.md` + `voice.md` + `voice-samples.md`
 (newsletters read like the member talks — the voice-print is the primary source here), `identity/avatars.md`
 (the type of agent, the pain, what they'd need to hear to believe), `identity/story-bank.md` (the real stories,
-tagged by pain; stamp Used-where), `identity/proof.md` (agents helped — consent on file — and upline proof
+tagged by pain — read only here: never stamp Used-where; note the story used in `list-growth.md` instead),
+`identity/proof.md` (agents helped — consent on file — and upline proof
 labeled), `identity/offer.md` (the Partner Offer as outcomes; free vs paid said straight), `identity/journey.md`
 (the mirror), `identity/operations.md` (booking link, signature, the weekly call), `memory/content-log.md`
 (read only — this week's video or Reel to point the newsletter at), `memory/debriefs.md` (read only — what
@@ -79,8 +80,8 @@ signature block with the compliance stamp.
 ## Mode B — This week's newsletter (one email, value first)
 Mike's recipe (`/73`): the week's video(s) with one takeaway each · one straight-value insight (a lesson, a
 book, an event, a mindset shift — from `debriefs.md` / what the member tells you) · a success story of an
-agent in the organization when there is one (consent; "anybody who comes from it joins under the agent I
-featured" — say that to the member as the reason to feature partners) · one warm, optional call line. Same
+agent in the organization when there is one (consent; "anybody that comes from them joins under the agent I
+interviewed" — say that to the member as the reason to feature partners) · one warm, optional call line. Same
 day every week (`list-growth.md` → Newsletter day; propose one if blank — the day after their main video
 drops). ≤ 300 words, skimmable, one idea per block, the member's spoken cadence. Never two asks.
 Before writing: scan `content-log.md` for this week's content and `list-growth.md` for last week's topic so

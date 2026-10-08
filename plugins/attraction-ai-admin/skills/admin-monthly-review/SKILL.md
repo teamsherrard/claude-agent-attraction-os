@@ -110,7 +110,7 @@ Attraction Scorecard, hand the member the link. **`RENDERER-UNAVAILABLE` → ins
 structured text as `.md`, upload that, say so in one line.** One corrective re-render at most.
 Housekeeping, in chat runs only: move `deadlines.md` rows Done for 60+ days to
 `exports/deadlines-archive.md` (create it if absent; never a source); a dated Retention-notes line for any
-agent the review names quiet or at risk; push (write → push → verify).
+agent the review names quiet or at risk; push via `attraction-brain-sync` (write → push → verify).
 
 ## What the member sees (~20 lines, plain text, capitalised heads)
 THE MONTH IN ONE LINE · THE SIX (one line each: the number and what it means) · AGAINST THE PLAN (two
