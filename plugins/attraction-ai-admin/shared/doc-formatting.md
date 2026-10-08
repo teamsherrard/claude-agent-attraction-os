@@ -59,6 +59,12 @@ for this system; the documents must feel like it.
   (`────────────────────────────────────────────`), then a blank line. *(The renderer turns these into real
   headings — the rule is just the marker; `─`, `═`, or `—` all work.)*
 - **Generous blank-line spacing** between blocks. **Bullets** with `•`, one point per line.
+- **Numbered steps** as `1.  …` lines, one step per line (an indented continuation line joins its step). Open
+  a step with a plain word. Never open it with a capital letter followed only by capitals, digits and spaces
+  up to a hyphen, dash or period — the renderer reads that run as a bold lead and splits the step there:
+  `1. A 45-minute call` renders as a bold "A 45-" followed by "minute call". Write
+  `1. The welcome call — 45 minutes …` instead. The one sanctioned bold lead is deliberate: ALL CAPS, ending
+  in a dash (`1. WELCOME CALL — 45 minutes …`).
 - **Labels and cues on their own lines** (e.g. `HOOK (read word-for-word)` then the hook on the next line) —
   scripts and captions never run together as a blob. **Copy the agent will paste** (captions, hashtags,
   descriptions) under a clear label, ready to grab.
@@ -73,7 +79,8 @@ which render exactly as before:
 - **Cover page** — the title block becomes page 1 (title, eyebrow, byline, date), then a page break.
 - **Contents page** — a `[[TOC]] … [[/TOC]]` block right after the title/meta lines; one row per
   chapter as `Chapter Title :: one-line summary` (PART rows carry no summary). Renders as a linked
-  CONTENTS on page 2 — each row an internal link to its chapter — followed by a page break. Row text
+  CONTENTS beginning on page 2 — each row an internal link to its chapter — followed by a page break
+  (with 18+ chapters the contents runs onto a second page; expected, and still one CONTENTS). Row text
   left of `::` must match the chapter band character-for-character; a mismatch prints
   `WARNING: TOC entry "…" has no matching heading` on stderr — treat any warning as a failed build.
 - **`PART I — TITLE` / `CHAPTER N — TITLE` CAPS bands** get an eyebrow kicker, a page break before
@@ -82,5 +89,9 @@ which render exactly as before:
 - **`>> ` insight callouts** — a line starting `>> ` renders as a shaded key-insight box (script cue
   heads `ON SCREEN` / `PAUSE` / `FACT:` stay cues even in book mode).
 - **Footer page numbers** render automatically in book mode.
+- **Long inputs are appended band by band, never emitted in one block** — the renderer cannot tell a cut-off
+  input from a finished one, so a Book's input file is written one PART/CHAPTER at a time and passes the
+  structural pre-check (band and contents-row counts) before `render_doc.py` runs; the rule and the exact
+  check live in `brain-book-spec.md`, build pipeline step 3.
 The Book's full structure contract (what goes in the TOC rows, callout discipline, chapter labels)
 lives in `brain-book-spec.md` — this file only documents the grammar.
