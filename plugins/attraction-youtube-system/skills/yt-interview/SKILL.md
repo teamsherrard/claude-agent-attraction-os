@@ -3,16 +3,15 @@ name: yt-interview
 description: >
   The Agent Interview Strategy for the Agent Attraction YouTube System — the interviews are what convert.
   Builds the guest list from the member's own organization and Top-50 (first deals, caps, turnarounds, top
-  producers, team leaders), writes the hook-and-transformation title ("How [name] built … and used …"),
-  the question set by guest type, the member's edification lines, the invite and the guest's distribution
-  ask, and keeps the 4-of-8 interview cadence. Writes memory/interview-pipeline.md and the content-log row,
-  then hands the recording to the Riverside Studio's studio-interview. Never invents a guest, a result, or a
-  quote; former brokerages are never named; nothing public before the compliance gate.
+  producers, team leaders), writes the hook-and-transformation title ("How [name] built … and used …"), the
+  question set by guest type, the edification lines, the invite and the guest's distribution ask, and keeps
+  the 4-of-8 interview cadence. Writes memory/interview-pipeline.md and the content-log row, then hands the
+  recording to the Riverside Studio's studio-interview. Never invents a guest, a result, or a quote; former
+  brokerages are never named; compliance gate before anything public.
 
   Trigger on: "interview an agent", "who should I interview", "build my interview pipeline", "set up an
   agent interview", "interview questions for an agent", "prep my agent interview", "interview one of my
-  agents", "success story interview", "my interview list", "title for my interview with", or any request
-  to plan, book, or prep an interview with an agent in their organization.
+  agents", "success story interview", "my interview list", "title for my interview with".
 ---
 
 # Agent Interview Strategy — the videos that convert

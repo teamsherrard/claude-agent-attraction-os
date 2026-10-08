@@ -9,9 +9,9 @@ description: >
   the claude.ai app. Tracks the top five memorized. Brokerage-specific objections come from the
   Brokerage Model Expert. Never sends anything; the member speaks. Trigger on: "objection coach",
   "handle this objection", "they said I'm happy where I am", "they think it's a pyramid scheme",
-  "role-play objections", "drill me on objections", "practice objections", "quiz me on objections",
-  "new objection I heard", "add this objection", "study my objections", "my top 5 objections",
-  "objection practice in the car", "what do I say when an agent says".
+  "role-play objections", "drill me on objections", "practice objections", "new objection I heard",
+  "add this objection", "study my objections", "my top 5 objections", "what do I say when an agent
+  says".
 ---
 
 # Objection Handling Coach — the fifteen, on Mike's framework, in the member's words

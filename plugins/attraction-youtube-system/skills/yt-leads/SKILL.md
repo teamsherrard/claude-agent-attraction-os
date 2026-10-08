@@ -2,12 +2,12 @@
 name: yt-leads
 description: >
   The Lead Engine for the Agent Attraction YouTube System — turns views into agent conversations. Two jobs.
-  (1) Per video: the CTA pair (book a call + the resource) and the resource map for that video, tied to the
-  avatar's real pain. (2) Comment triage on the member's REAL comments (screenshots or pasted text, never
-  invented): sorts prospect agents, real questions, thanks, and skip-the-trolls; drafts paste-ready replies in
-  the member's voice; routes resource requests to the ManyChat keyword from the Brain; flags prospect agents
-  into the Top-50 through attraction-top-50 by name; mines what agents keep asking into video ideas. Drafts
-  only — nothing is ever posted by the system. Compliance gate before any public reply.
+  (1) Per video: the CTA pair (book a call + the resource) and the resource map, tied to the avatar's real
+  pain. (2) Comment triage on the member's REAL comments (never invented): sorts
+  prospect agents, real questions, thanks, and skip-the-trolls; drafts paste-ready replies in the member's
+  voice; routes resource requests to the ManyChat keyword from the Brain; flags prospect agents into the
+  Top-50 through attraction-top-50; mines what agents keep asking into video ideas. Drafts only — nothing
+  is ever posted by the system. Compliance gate before any public reply.
 
   Trigger on: "resource for my attraction video", "CTA for this agent video", "lead map for my attraction
   video", "triage my attraction comments", "reply to agents in my comments", "comments on my agent video",
@@ -19,8 +19,8 @@ description: >
 Content builds awareness; CTAs create action (`08-youtube/98`). And the comments under an attraction video
 are agents raising their hands in public. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the CTA
 section of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
-`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The realtor-era comment method this folds in lives at
-`references/_seed-youtube-comments.md` (seed only; this file is the rule).
+`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The earlier comment-sweep method is folded into Jobs 2 and 3
+below; this file is the rule.
 
 ## Job 1 — The CTA pair and the resource, per video (inside the video's chat)
 Read `brain.md`, `identity/content-pillars.md` (the two CTAs: book a call · the guide / keyword),

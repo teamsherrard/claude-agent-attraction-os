@@ -21,7 +21,7 @@ the cadence section of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 > **Two ways it runs.** On demand, any time ("run my attraction kickoff"). Or weekly on a schedule — **only if
-> the member says yes** (Step A). The realtor-era version provisioned itself and emailed on its own; both are
+> the member says yes** (Step A). The version this was forked from provisioned itself and emailed on its own; both are
 > violations here. Nothing is ever sent.
 
 ## Step A — The schedule: ask, never assume

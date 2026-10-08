@@ -1,18 +1,17 @@
 ---
 name: yt-model-breakdown
 description: >
-  Model Breakdowns for the Agent Attraction YouTube System — the explainer and comparison videos agents are
-  already searching for before they switch (Explained · vs · Should you join · How rev share works · Questions
-  to ask a sponsor · Do not join if). Every model fact is read from the Brain's brokerage-model file, dated and
-  cited to the member's own brokerage materials; nothing is invented, and if the file is empty the Brokerage
-  Model Expert runs first. Enforces the two cardinal rules by read-back (never a negative word about another
-  brokerage or person), keeps compensation numbers out of the public video ("details on a call"), and stops
-  at the 3-state compliance gate. Outputs the outline, the sourced fact sheet, the title set, the CTA, and the
-  annual re-make reminder.
+  Model Breakdowns for the Agent Attraction YouTube System — the explainer and comparison videos agents
+  search before they switch (Explained · vs · Should you join · How rev share works · Questions to ask a
+  sponsor · Do not join if). Every model fact is read from the Brain's brokerage-model file, dated and cited
+  to the member's own brokerage materials; nothing is invented, and if the file is empty the Brokerage Model
+  Expert runs first. Enforces the two cardinal rules by read-back, keeps compensation numbers out of the
+  public video ("details on a call"), and stops at the 3-state compliance gate. Outputs the outline, the
+  sourced fact sheet, the title set, the CTA, and the annual re-make reminder.
 
-  Trigger on: "model breakdown", "model breakdown video", "explain my brokerage model on YouTube", "brokerage
-  explained video", "comparison video for agents", "should you join video", "how rev share works video",
-  "questions to ask a sponsor video", "do not join video", "rev share explainer".
+  Trigger on: "model breakdown", "model breakdown video", "explain my brokerage model on YouTube",
+  "brokerage explained video", "comparison video for agents", "should you join video", "how rev share works
+  video", "questions to ask a sponsor video", "do not join video", "rev share explainer".
 ---
 
 # Model Breakdowns — from recruiter to educator

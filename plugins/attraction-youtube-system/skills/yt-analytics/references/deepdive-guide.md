@@ -1,13 +1,11 @@
 # YouTube Deep Dive — the monthly full breakdown (structure + method)
 
-The deepest thing the YouTube System does: the agent's whole channel, the other agents in their market,
-where they show up when people search, the openings between them, and a 30-day plan — once a month.
-Judged against the doctrine throughout (§23 analytics, §24.5 audit, §3 S.E.A.R.C.H., §16–§18 packaging,
-§22 mix, §15.3 cadence). Rendered on the **Deep Dive Report skeleton** in `shared/doc-format.md` — a
+The deepest thing the YouTube System does: the leader's whole attraction channel, other attraction channels, where they show up when agents search, the openings between them, and a 30-day plan — once a month.
+Judged against the attraction doctrine throughout (analytics · the channel audit · titles and thumbnails · the 3+1+4 mix · the cadence of one long-form a week plus interviews). Rendered on the **Deep Dive Report skeleton** in `shared/doc-format.md` — a
 flagship deliverable, stamped `Powered by Mike Sherrard Coaching Inc Frameworks`.
 
 ## Who reads this — and the plain-language rules (non-negotiable)
-The reader is a real estate agent, not a marketer. They have never opened a YouTube Studio tab on purpose.
+The reader is a leader building an organization, not a marketer. They have never opened a YouTube Studio tab on purpose.
 Cohort feedback, verbatim: *"it's just so much information that I have no idea what I'm looking at."* So:
 1. **Every finding is the same four lines:** *What we found · Why it matters to you · Do this · The proof.*
    "Do this" is the exact thing to film, change, or paste — nothing the agent has to translate.
@@ -45,65 +43,52 @@ missing (*"say 'add my Studio numbers'"*). Never invent a number the source didn
   **WHAT'S IN THIS REPORT** (pulled live / Studio pack in or not / not available on this connection).
 
 ## Part 1 — Your channel (method per section)
-- **1.1 How you grew** — subscribers now vs the count stored at the last dive (`memory/performance.md`);
+- **1.1 How you grew** — subscribers now vs the baseline stored at the last dive (the Performance block in `identity/channel.md`);
   views and uploads vs the previous window (pull it too — same recipe, earlier dates). First dive = the
   baseline; say so. ≤5 videos = "too early to read trends", keep the audit to packaging + plan.
-- **1.2 What's pulling — by content type** — every video tagged by content type (the 6: market update ·
-  home tour · relocation · community tour · map tour · local lifestyle; coaching/other channels: name the
-  lanes you actually see) and pillar; typical (median) views per type, share of all views; classify by
-  intent (§23.4). End on *Keep doing / Rethink*.
-- **1.3 Titles & thumbnails (packaging)** — the automated audit from recipe 1 step 4: title gates (≤70
-  chars · one promise · the market/phrase people type), booking link + guide in the first 3 description
+- **1.2 What's pulling — by content type** — every video tagged by attraction pillar (niche: Problem · Situation · Future · Interview · Model — the 3+1+4 mix; other channels: name the lanes you actually see); typical (median) views per type, share of all views; classify by
+  intent (awareness · trust · high-intent · proof · underperformer · repeat from a new angle). End on *Keep doing / Rethink*.
+- **1.3 Titles & thumbnails (packaging)** — the automated audit from recipe 1 step 4: title gates (≤70 chars · one promise · the question an agent actually types), booking link + guide in the first 3 description
   lines, chapters, a comment prompt, uploaded captions, best publish day/time by median views. With the
   Studio pack: CTR per video against the channel's own median CTR → the packaging verdict. Name the 3
-  re-titles with the rewrite. Thumbnails: judge by the §17 per-type rules from the maxres images the agent
-  can open; never report the API's custom-thumbnail flag.
+  re-titles with the rewrite. Thumbnails: judge by the title-and-thumbnail rules (3–5 words, text ≠ title, a real expression, contrast) from the maxres images the member can open; never report the API's custom-thumbnail flag.
 - **1.4 Your best openings** — the first 30–60 s of the top 3 videos, word for word, from their own caption
   tracks (recipe 1 step 5; none → the description's opening, labelled). Say why each held in plain words;
   name the next video to use that style on. With the Studio pack: hook vs middle from the retention graphs.
 - **1.5 Where viewers come from & who they are** — Studio pack only: search vs browse vs suggested (is the
-  S.E.A.R.C.H. strategy working?), top search terms (terms they don't own yet = new titles), age/gender/top
-  locations (are these local buyers?), when viewers are on YouTube (publish-time fix). Not provided → the
+  S.E.A.R.C.H. strategy working?), top search terms (terms they don't own yet = new titles), top locations (inside the states or provinces the member can attract in? — never a protected characteristic in any recommendation), when viewers are on YouTube (publish-time fix). Not provided → the
   one-line "say 'add my Studio numbers'" note, nothing else.
-- **1.6 What viewers are saying** — try the comment threads once (recipe 1 step 7): leads (buyer/seller
-  intent — answer today), the questions that repeat (→ next videos, counted), unanswered comments. 403 →
-  the one-line "say 'check my comments'" note.
+- **1.6 What viewers are saying** — try the comment threads once (recipe 1 step 7): prospect agents (an agent showing intent or curiosity — answer today), the questions that repeat (→ next videos, counted), unanswered comments. 403 → the one-line "say 'triage my attraction comments'" note.
 - **1.7 Where views stop turning into calls** — walk the path in plain words (see → click → watch → hear the
-  ask → call) and name the ONE place it breaks with the fix (*"your tours hold viewers but the ask sits at
-  the very end — move it to right after the opening"*). Always include the habit line: ask every new lead
+  ask → call) and name the ONE place it breaks with the fix (*"your interviews hold viewers but the call ask sits at the very end — move it to the first minute, casually"*). Always include the habit line: ask every new lead
   *"which video made you reach out?"* and tell the system — leads then get counted by video.
-- **1.8 How often you post & your channel page** — uploads/week vs the plan (2/wk ideal · 1/wk minimum),
-  longest gap, market update in week one (§9.3)?; playlists vs the 3 pillars and the homepage sections
-  (recipe 1 step 6) → the channel-page fix (hand to `yt-channel`).
+- **1.8 How often you post & your channel page** — uploads/week vs the plan (1 long-form a week, interviews counted, 3+1+4 over eight), longest gap, interviews actually shipped?; playlists by pillar and the Explained playlist first on the homepage (recipe 1 step 6) → the channel-page fix (hand to `yt-setup`).
 
-## Part 2 — The other agents in your market
-3–5 channels from `identity/strategy.md` + `identity/market.md` (ask once if thin; discover local ones with
-"[city] realtor" / "moving to [city]"). Recipe 2. Per channel one dotted row: subs · typical video · their
+## Part 2 — Other attraction channels
+3–5 channels from `identity/strategy.md` + `identity/prospect-intel.md` (ask once if thin; discover with "[brokerage] explained" / "should I switch brokerages"). The cardinal rules apply: what they do well and what is missing — never what is wrong with them or their brokerage. Recipe 2. Per channel one dotted row: subs · typical video · their
 standout video with the multiple of *their own* normal (a small local channel over-performing counts
 double). Then three short sub-bands: *What they do that you don't* (the move → why it works → how you'd do
 it), *What you do better*, *Where you sit* (two sentences). Never an empty row; cap at 5.
 
 ## Part 3 — Where you show up when people search
-Recipe 7. **3.1 On YouTube:** 6–10 core phrases (the Game Plan's, the market's, the agent's own name) →
+Recipe 7. **3.1 On YouTube:** 6–10 core phrases (the Game Plan's, "[brokerage] explained", "questions to ask a sponsor", the member's own name) →
 their best position or "not in the top 20", who is #1, its views → one "own next" phrase. **3.2 When they
-ask an AI assistant:** 5–8 buyer/seller questions through the answer engine → in the answer or citations?
+ask an AI assistant:** 5–8 questions agents ask before switching, through the answer engine → in the answer or citations?
 who is? → the one page/profile fix that would get them cited (say "an AI answer engine", never a brand).
-**3.3 What's rising:** the direction of the market's core phrases (relative interest, plain words: up /
-flat / down) and this month's news hooks → video ideas.
+**3.3 What's rising:** the direction of the core phrases (relative interest, plain words: up / flat / down) and this month's dated industry items from `memory/intel.md` → video ideas.
 
 ## Part 4 — The openings
 Recipe 3. 3–5 openings, each a four-line card: *What we found* (the topic, plainly) · *Why it matters to
 you* (the outcome) · *Do this* (the exact title, type, week) · *The proof* (real demand + who ranks + how
-stale + the multiple, as short facts). Then *Your own winners, from a new angle* (§3 R): 2–3 new titles per
+stale + the multiple, as short facts). Then *Your own winners, from a new angle*: 2–3 new titles per
 winner. Starving pillar and packaging fixes belong in Part 5's FIX list, not here.
 
 ## Part 5 — Your next 30 days
 - **Keep doing** — 3 strengths, each with the proving number.
 - **Fix** — 3 fixes: what's wrong · why it costs you · do this (the specific change).
-- **The plan** — ~8 exact titles at 2/wk (or 4 at 1/wk) on the §22 mix, title gates applied, one per row
-  with content type and week, ready for "make this video". **Cadence math is mandatory:** state total
+- **The plan** — ~8 exact titles (one long-form a week, two cycles' worth) on the 3+1+4 mix, title gates applied, one per row with pillar, interview guest where relevant, and week, ready for "make my attraction video". **Cadence math is mandatory:** state total
   weekly output *including* standing series (a podcast, a weekly show) — standing series count toward the
-  cadence, never sit "on top of" it; trim the plan to fit 2/wk (3 only if quality holds).
+  cadence, never sit "on top of" it; trim the plan to fit the member's cadence (more only if quality holds).
 - **THE ONE MOVE** — repeated word for word from page one.
 
 ## Appendix — the full numbers

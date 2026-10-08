@@ -3,12 +3,11 @@ name: yt-analytics
 description: >
   YouTube Analytics for the Agent Attraction YouTube System — the one data skill, measured in agent
   conversations, not views. Reads which videos produced agent comments, DMs, and booked calls (from the
-  Brain's conversations, Top-50, and pipeline, plus the member's own answers), joins it to packaging and
-  retention from the live data connection (Composio, offered here on first use) or YouTube Studio
-  screenshots or public channel reads, and runs the monthly DEEP DIVE: channel growth, every video by pillar
-  (niche · interview · model), the binge path, the funnel leak between views and calls, and a 30-day plan.
-  Quick questions any time. From Week 4 it appends its YouTube section to the Weekly Content Performance
-  agent that the Short-Form System owns — never a second scheduled task.
+  Brain's conversations, Top-50, and pipeline), joins it to packaging and
+  retention from the live data connection (offered here on first use), Studio screenshots, or
+  public channel reads, and runs the monthly DEEP DIVE: growth, every video by pillar, the binge path, the
+  leak between views and calls, a 30-day plan. Quick questions any time. From Week 4 it appends its YouTube
+  section to the Weekly Content Performance agent the Short-Form System owns — never a second task.
 
   Trigger on: "run my attraction YouTube deep dive", "which videos brought me agents", "which video booked
   the call", "attraction channel review", "how is my attraction channel doing", "how did my interview do",
