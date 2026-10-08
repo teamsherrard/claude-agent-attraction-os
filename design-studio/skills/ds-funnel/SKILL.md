@@ -3,12 +3,12 @@ name: ds-funnel
 description: >
   Builds the member's attraction FUNNEL PAGES in Claude Design, three shapes: the opt-in page from the
   Lead Magnet system's nine-section funnel doc (copy verbatim, the guide's mockup as the hero, one
-  pop-up), the Partner Call booking page from the Sales system's copy (the one line, dated proof only,
-  the five qualifying questions, three FAQs), and the workshop registration page from the Events copy.
+  pop-up), the Partner Call booking page from the Sales system's copy (the one line, the five
+  questions), and the workshop registration page from the Events copy.
   One responsive self-contained index.html per page, deploy-ready: the static Netlify form plus the
   hidden detection form, inline thank-you, the test-submit canary; the thank-you is ALWAYS an instant
   on-page download plus the book-a-call step; GoHighLevel-ready copy blocks; Netlify connector-aware.
-  Compliance-gated; lands in 03 · Content/Guides. Trigger on: "build my attraction funnel page",
+  Compliance-gated; lands in 03 · Content/Guides (a registration page in its event's folder). Trigger on: "build my attraction funnel page",
   "design my partner call page", "build my opt-in page for my agent guide", "workshop registration
   page for agents", "take my opt-in page live", "deploy my attraction funnel".
 ---
@@ -357,9 +357,10 @@ words changed.
 On "push / save this to my Drive" (Google Drive or OneDrive): with a FILE-UPLOAD Drive connector,
 export and push the ZIP and `page-copy.md` into the member's workspace under **`03 · Content/Guides/`**
 — the opt-in page into the guide's own campaign folder (`[YYYY-MM-DD · Guide Name]/`, beside its
-docs and PDF); the Partner Call page into `Funnel — Partner Call/`; a registration page into
-`Funnel — [Workshop name]/` — (search for their actual folders first — they may have renamed the
-workspace; create a funnel folder only if missing; never duplicate). If the connector is READ-ONLY or
+docs and PDF); the Partner Call page into `Funnel — Partner Call/`; a registration page into the event's own folder
+**`03 · Content/Events/[code] · [Theme]/`** (the Events plugin created it; nothing event-related is
+saved anywhere else) — (search for their actual folders first — they may have renamed the workspace;
+create a funnel folder only if missing; never duplicate). If the connector is READ-ONLY or
 absent, say so plainly and hand them a tidy **EXPORT LIST**: every file, its exact name, and the one
 folder — one organized trip. **Why the folder matters:** the Lead Magnet system marks the funnel live
 and points every CTA at its link from there; the brand itself still lives in `02 · Brand`.
@@ -389,7 +390,8 @@ on quick visual refinements.)
 
 ## HAND BACK TO THE SYSTEMS THAT WROTE THE COPY
 
-After the page is live: *"Your page is live at [URL] (and the package is in `03 · Content/Guides`).
+After the page is live: *"Your page is live at [URL] (and the package is in `03 · Content/Guides` —
+a registration page's in its event's folder).
 Back in your Lead Magnet system, tell it the live link so every CTA — your bio, your video descriptions,
 the GUIDE keyword — points at it."* For the booking page: *"Paste the link into your Sales system so
 your call prep and reminders use it."* For a registration page: *"Hand the link to your Events system
