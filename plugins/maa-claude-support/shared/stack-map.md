@@ -22,7 +22,7 @@ Mike (2026-10-08): not a plugin, parked.
 | 8 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | coming W5 | "Set up my conversion engine" |
 | 7 | **AI Admin** (W5) | `admin-` | 8 | coming W5 | "set up my agent attraction admin" |
 | 8 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
-| 9 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
+| 9 | **Events & Workshops** (W6) | `ev-` | 10 | built v0.1.0 | "Plan my workshop" |
 
 (#7 was the Creative Studio and #10 Team & Retention — both removed. Numbering keeps the cohort doc's slots so the Setup Guide
 and the playbooks agree.) "Coming" plugins: say so honestly — *"that one switches on in Week N;
@@ -119,7 +119,7 @@ fix.
 | Conversion (8) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
 | AI Admin (7) | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
 | Lead Magnet (8) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md`, the second CTA line in `voice.md` |
-| Events (9) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
+| Events (9) | `avatars · offer · positioning · proof · compliance · top-50 · operations · organization` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
 
 **Pipeline stages, locked OS-wide:** `Identified → Conversation → Call booked → Call held → 3-way →
 Joined → Onboarded → Active`. The AI Admin owns stage moves; Conversion, Events, and the Debrief
