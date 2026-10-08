@@ -58,7 +58,7 @@ Then only what this skill uses:
 ### Compliance gate
 Read `identity/compliance.md`. **Set / confirmed** → proceed under its rules. **Unset** → write the Brain
 sections in full and show the member the stack, but hold the design brief with one plain line: *"The
-offer graphic goes public, so your compliance rules need setting first — say 'set my compliance rules',
+offer graphic goes public, so your compliance rules need setting first — say 'set up my attraction compliance',
 five minutes — then I'll hand the brief to the Design Package."* An unset gate never means "go ahead".
 
 ---

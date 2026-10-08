@@ -51,13 +51,16 @@ Why now: …
 Three short lines (DM · caption · bio), first person, under 20 words each.
 Booking line: [from operations.md, or "not set yet"]
 Comment keyword: [ONEWORD] — "Comment [KEYWORD] and I'll send it."
-(The 60-second "why join me" story lives in story-bank.md / why-join-me, not here.)
+(The 60-second "why join me" story lives at the end of journey.md, owned by attraction-why-join-me, not here.)
 
 ## Value stack
 (owned by attraction-free-vs-paid — built by free-vs-paid)
 
 ## Digital product
 (owned by attraction-free-vs-paid — built by free-vs-paid)
+
+## Notes for Week 2
+(appended by attraction-capture — positioning notes and new angles, dated; never rewrites the sections above)
 
 ## Raw material from setup (kept; never deleted)
 What worked: … · Teach it: … · Known for: … · First thing I'd show: … · Brokerage gives: … · Upline

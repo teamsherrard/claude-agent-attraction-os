@@ -28,7 +28,7 @@ Attraction channels beyond your own content: an email list you own, live and vir
 - What do I send to the list?
 - How do I turn the list into booked calls?
 **Do / don't:** Do give the asset away free in exchange for an email. Don't collect sign-ups without a funnel and a sequence behind them.
-**Related:** 12/84, 08/98, 15/76, 06/37
+**Related:** 12-simple-tech-stack/84, 08-youtube/98, 15-advanced-scaling/76, 06-content-framework/37
 
 ---
 
@@ -50,7 +50,7 @@ Attraction channels beyond your own content: an email list you own, live and vir
 - How do I pitch at the end without being salesy?
 - How do I fill the room?
 **Do / don't:** Do give real how-to value. Don't end with a brokerage pitch.
-**Related:** 15/75, 15/76, 14/70, 15/77, 12/85
+**Related:** 15-advanced-scaling/75, 15-advanced-scaling/76, 14-retention-culture/70, 15-advanced-scaling/77, 12-simple-tech-stack/85
 
 ---
 
@@ -72,7 +72,7 @@ Attraction channels beyond your own content: an email list you own, live and vir
 - How is the follow-up different from a live event?
 - What do I say at the end?
 **Do / don't:** Do follow up the next week with everyone who attended. Don't wait until you can afford ads.
-**Related:** 15/74, 15/76, 12/85, 12/84
+**Related:** 15-advanced-scaling/74, 15-advanced-scaling/76, 12-simple-tech-stack/85, 12-simple-tech-stack/84
 
 ---
 
@@ -94,7 +94,7 @@ Attraction channels beyond your own content: an email list you own, live and vir
 - What tools does Mike use for it?
 - How is it different from a virtual event?
 **Do / don't:** Do build the brand and the live-event skill first. Don't start here under 250 agents.
-**Related:** 15/75, 15/74, 15/73, 04/29
+**Related:** 15-advanced-scaling/75, 15-advanced-scaling/74, 15-advanced-scaling/73, 04-value-proposition/29
 
 ---
 
@@ -116,4 +116,4 @@ Attraction channels beyond your own content: an email list you own, live and vir
 - What do I give partners to share?
 - Why would a partner send me agents?
 **Do / don't:** Do frame it as helping struggling agents. Don't ask partners to "send recruits."
-**Related:** 15/74, 15/75, 04/27, 02/22
+**Related:** 15-advanced-scaling/74, 15-advanced-scaling/75, 04-value-proposition/27, 02-prospect-targeting/22

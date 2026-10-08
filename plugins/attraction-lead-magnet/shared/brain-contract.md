@@ -56,7 +56,7 @@ plugin never reads or writes it.
 |---|---|---|
 | `memory/magnets.md` | `lm-magnet` (creates the file on first run if the Brain predates it; writes the row and the intake block) | `lm-navigator` writes the intake block; `lm-magnet-ideas` adds a `planned` row; `lm-design` → Status `designed`; `lm-funnel` → funnel URL + Status `live` (once the member confirms the page is up); `lm-delivery` → keyword; `lm-analytics` → opt-ins, calls booked, last reviewed |
 | `memory/list-growth.md` | `lm-nurture` (creates the file; the header, the nurture-sequence table, the newsletter status) | `lm-analytics` appends weekly rows; `lm-partnerships` owns the `## Partners` table |
-| `identity/profiles.md` | `lm-profiles` (creates the file if the Brain predates it) | the Short-Form plugin's `sf-setup` READS it if present (its bios slot); the Design Studio reads it through the Brain Book |
+| `identity/profiles.md` | **the Short-Form plugin's `sf-setup` (Week 3)** — writes it first; bios are Week 2–3 homework | `lm-profiles` is the **designated later-week updater (Week 6)**: reads it if present, refines every platform's bio to the funnel's CTA inside the SAME `## <Platform>` section headings (never renames, reorders, or deletes one), appends sections only for platforms `sf-setup` doesn't cover; creates the file ONLY if absent (the member skipped Week 3), with the same headings `sf-setup` uses |
 | `memory/ideas.md` | the Brain's `attraction-capture` | this plugin marks a `leadmagnet` row **used** — status column only, same row shape |
 
 **Never written here:** `identity/offer.md` (the Brain's offer skills own it — other plugins learn the live
@@ -107,16 +107,32 @@ Status moves only forward; a retired magnet keeps its row. Opt-ins and calls boo
 Opt-in rate = opt-ins ÷ page visits; blank when visits are unknown — never estimated. "Newsletter sent" is
 yes/no as the member reports it; the plugin never sends.
 
-**`identity/profiles.md`**
+**`identity/profiles.md`** — the shape is `sf-setup`'s (the owner); this plugin only preserves it. One
+`## <Platform>` section per platform, in this order: `## Instagram` · `## Facebook` · `## TikTok` ·
+`## LinkedIn` · `## YouTube`. `lm-profiles` rewrites only the bio text inside each section (the identity line
+is the first line of every bio; the one link is the funnel URL, else the booking link) and ends each section
+it touched with one italic line: `*Updated by the Lead Magnet plugin on YYYY-MM-DD — CTA → [the funnel]*`.
+Platforms `sf-setup` doesn't cover (`## X` · `## Threads` · `## Google Business Profile` · `## Brokerage site`
+· `## Email signature`) are appended AFTER the five, same heading pattern. Whatever header `sf-setup` wrote
+above the first section is preserved byte-for-byte. If the file is absent, `lm-profiles` creates it as:
 ```
 # [Name] — Platform Profiles
-*identity · the one identity line and every bio, sized to each platform · owner: lm-profiles · the Short-Form plugin's sf-setup reads this if present; the Design Studio reads it through the Brain Book*
+*identity · the bios, one section per platform · owner: the Short-Form plugin's sf-setup (Week 3) · lm-profiles (Week 6) updates the bios inside these sections to the funnel's CTA*
 
-**Identity line (verbatim everywhere):** "[First Last] — helps [type of agent] [outcome] · [Brokerage as compliance.md requires] · [City]"
-**The one link:** [funnel URL · else booking link] · **Last updated:** [YYYY-MM-DD]
+## Instagram
+[bio]
 
-## [Platform] — [field] ([n]/[limit] chars)
-[final text]
+## Facebook
+[bio]
+
+## TikTok
+[bio]
+
+## LinkedIn
+[bio]
+
+## YouTube
+[bio]
 ```
 
 ## Locked vocabularies this plugin obeys (from the Brain's contract)

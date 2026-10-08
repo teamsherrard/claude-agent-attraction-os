@@ -39,7 +39,7 @@ by-design placeholder files are NEVER reported as problems, and housekeeping nud
 line at the end.
 
 Members are encouraged to rename the workspace after their organization. Locate it in this order:
-1. **Folder ID from `config.md`** (`Workspace folder ID`) — **a within-session cache only**:
+1. **Folder ID from `config.md`** (`Workspace ID`) — **a within-session cache only**:
    `config.md` lives inside the workspace, so on a cold start (wiped sandbox, no local config) this
    rung simply isn't available — skip straight to the marker. When local config IS present, the ID
    is fastest; IDs survive renames AND moves.
@@ -76,12 +76,11 @@ Members are encouraged to rename the workspace after their organization. Locate 
    - `brain.md`, `config.md`
    - `identity/*.md` — the plan §4 set (profile · journey · avatars · prospect-intel · positioning ·
      offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank ·
-     brand-visual · content-pillars · goals · leadership · operations · compliance · strategy) plus
-     any identity file a later plugin adds (content-pillars, publishing, channel, onboarding,
-     duplication-kit)
+     brand-visual · content-pillars · goals · execution-framework · leadership · operations · compliance ·
+     strategy) plus any identity file a later plugin adds (publishing, channel)
    - `memory/**/*.md` — the ledgers (top-50 · conversations · pipeline · organization · scorecard ·
-     objections · debriefs · content-log · ideas · intel · deadlines) and any subfolder a later
-     plugin adds (`intel-reports/`, `org-analysis/`, `follow-up-queue`, `support-log`, and so on)
+     objections · debriefs · capture-log · content-log · ideas · intel · deadlines) and any subfolder or
+     file a later plugin adds (`intel-reports/`, `follow-up-queue`, `support-log`, `claude-updates`, and so on)
    - `editor/**` — the Riverside editor's plugin state (jobs, boards, checkpoint logs), text only
    → `~/attraction-brain/`, preserving structure.
    **The allowlist is exhaustive — everything else is NEVER pulled:** no `02 · Brand/`, `03 ·

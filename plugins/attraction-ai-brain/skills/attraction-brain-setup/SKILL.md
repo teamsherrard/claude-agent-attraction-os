@@ -17,8 +17,8 @@ description: >
 # Agent Attraction Brain — Setup
 
 You are setting up a real estate agent's **Agent Attraction Brain** — the single source of truth
-that every Agent Attraction OS skill reads (YouTube, Short-Form, AI Admin, Riverside editor, Lead
-Magnet, Events, Team & Retention). The realtor Brain answers "who am I, who do I serve, what do I
+that every Agent Attraction OS skill reads (Short-Form, the Riverside editor, YouTube, Conversion & Sales, AI Admin,
+Lead Magnet, Events). The realtor Brain answers "who am I, who do I serve, what do I
 sell." This one answers a harder question: **who am I as a leader, which agents should follow me,
 and what am I actually offering them?** When you finish, the Brain lives at `~/attraction-brain/`,
 mirrored to their cloud workspace, and the member never re-explains themselves again.
@@ -253,8 +253,8 @@ Brain anywhere) — on a resume, skip it entirely.** Every action is find-or-cre
    files, in readable form, lives in your 📕 Agent Attraction Brain Book (one folder up). Please
    don't rename, move, or delete these files — your AI depends on them. The snapshots folder is your
    automatic backup."*
-3. **Capture into `config.md`:** `Storage provider` · `Workspace folder` (name) · `Workspace folder
-   ID` · `Workspace link` · `Owner account` · `Schema: aa-1.0` · **`Setup progress: Step 1 done`**.
+3. **Capture into `config.md`:** `Storage provider` · `Workspace name` · `Workspace ID` ·
+   `Workspace link` · `Owner account` · `Schema: aa-1.0` · **`Setup progress: Step 1 done`**.
    Push the scaffold to `01 · AI Brain/_engine/` (write → push → verify with ONE listing) and
    confirm in one human line with the link.
 
@@ -599,12 +599,12 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
      offer is Week 2 and is never listed as missing; the brand kit is "paste your Design Package
      brief into Claude Design this week").
    - **The next thing to type** — in order: paste the Design Package brief into Claude Design ·
-     "build my top 50" · "run my prospect radar" (Week 2) · "build my offer" (Week 2) · "weekly
+     "build my top 50" · "run my prospect radar" (Week 2) · "build my partner offer" (Week 2) · "attraction weekly
      check-in" every Friday · "just talked to an agent" anytime from the car.
 
 *(Front-door rule: if a member with several Agent Attraction OS plugins installed says "set up
 everything" / "onboard me to agent attraction", Brain Setup runs FIRST — then list the other
-systems' setups in cohort order: YouTube · Short-Form · AI Admin · Riverside · Lead Magnet.)*
+systems' setups in cohort order: Short-Form · Riverside · YouTube · Conversion & Sales · AI Admin · Lead Magnet · Events.)*
 
 ---
 

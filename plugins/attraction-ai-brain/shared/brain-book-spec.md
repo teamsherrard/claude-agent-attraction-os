@@ -294,7 +294,7 @@ brokerages never named.
 ### Chapter 4 — YOUR STORY BANK
 Open with the **table** | Story | The moment | The lesson | Lands with (type) | Pain | Use |. Then every story
 written out in full under its own sub-band. Seeds that were never fleshed out render as one-line seeds in a
-closing **"Still to tell"** list, with the phrase that builds them ("build my story bank"). Never invent a story.
+closing **"Still to tell"** list, with the phrase that builds them ("build my attraction story bank"). Never invent a story.
 
 ### Chapter 5 — YOUR VOICE & BRAND
 Tone rules (**bullets**), sounds-like / never-sounds-like, signature phrases as `Label:` lines, the writing
@@ -439,7 +439,7 @@ placeholder line is ONE line of structured text (never split mid-sentence). Exac
   system."* Callout: `>> Your pillars will come from your journey, what you teach, and your agents' wins —
   Mike's four content types, aimed at [primary avatar].`
 - **Chapter 16 (basics only / not built)** → lead line: *"This chapter fills in as your systems do."* Callout:
-  `>> Say "set up my operations" and "audit my leadership" — your hours, follow-up rhythm, onboarding steps,
+  `>> Say "set up my attraction operations" and "audit my leadership" — your hours, follow-up rhythm, onboarding steps,
   and an honest readiness score, so you never attract agents you can't serve.`
 - Voice-print and story seeds get their one-line "how to add" note inside Chapters 4–5, not a placeholder
   chapter. **No other chapter may placeholder on a complete brain.** If a first-run identity file is genuinely

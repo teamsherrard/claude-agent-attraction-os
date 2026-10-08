@@ -50,7 +50,7 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 | `identity/voice.md` · `voice-samples.md` · `voice-print.md` | every draft sounds like the member; voice-print for voice-note scripts |
 | `identity/profile.md` · `story-bank.md` · `proof.md` · `brand-visual.md` · `offer.md` | name and brokerage display; a real story, proof point, or resource to attach to a follow-up; brand for the Win Wall brief |
 | `memory/top-50.md` | the prospect ledger — type, where they are, last touch, next move, due (read by column NAME) |
-| `memory/conversations.md` | every agent conversation; `Next step` carries the Conversion plugin's follow-up plan; `Stage after` carries its stage REQUEST |
+| `memory/conversations.md` | every agent conversation; `Next step` carries the promised next touch; `Stage after` carries the stage REQUEST |
 | `memory/pipeline.md` | the board this plugin owns |
 | `memory/organization.md` | agents in the organization: joins, status, last touch, recognition given, retention notes |
 | `memory/scorecard.md` | the Targets block (goals), daily rows (the Debrief), weekly rows (this plugin) |
@@ -58,7 +58,7 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 | `memory/deadlines.md` | due dates this plugin keeps |
 | `memory/content-log.md` | content due this week and shipped (the content plugins write it) |
 | `memory/capture-log.md` · `intel.md` · `objections.md` · `ideas.md` | Open captures to surface; brokerage news that is a follow-up trigger; what a prospect objected to; nothing is written here |
-| `memory/intel-reports/` | a prospect's pre-call brief when telling their history |
+| `memory/intel-reports/` | a prospect's intel report when telling their history, and the Conversion plugin's follow-up plans — `YYYY-MM-DD-[agent]-follow-up.md`, one dated-touches plan per prospect, newest is current — the queue draws from them |
 | the workspace: `04 · Agents/Prospects` · `05 · Offer` · `03 · Content` | call prep sheets, the member's show-up sequence (`sales-show-up`), setter scripts (`sales-setter`), the Partner Offer, content to post — read by relevance, scoped to the workspace, by ID never by name |
 
 ## What this plugin writes (one owner per file)
@@ -73,30 +73,41 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 | the email connector's **Drafts** | every drafting skill | drafts only — the member sends |
 | the member's **CRM** (GoHighLevel · Follow Up Boss · Google Sheets) | `admin-pipeline` mirrors a stage move when a connector (the member's own, or Composio) is present | the Brain's pipeline is the truth for stage; the CRM is the system of record for contacts; never a drip campaign, never an automation that messages anyone |
 
-**Never written by this plugin:** `memory/top-50.md` (`attraction-top-50` mirrors stage from the pipeline and
-may read the queue's Log for last touch), `memory/conversations.md` (the Conversion plugin and
+**Never written by this plugin:** `memory/top-50.md` — not even a touch cell (`attraction-top-50` mirrors
+stage from the pipeline and may read `conversations.md`, the Board, and the queue's Log for the touch columns), `memory/conversations.md` (the Conversion plugin and
 `attraction-capture`), `memory/debriefs.md` (the wrap RUNS the Brain's Debrief, which writes it),
 `memory/objections.md`, `memory/content-log.md`, `memory/intel.md`, `memory/ideas.md`, `memory/capture-log.md`
 (this plugin surfaces Open rows; `attraction-capture` closes them), any `identity/` file, the Targets block or
 daily rows of the scorecard, any other plugin's `config.md` block.
 
-## Requested stage moves — how they reach the board
-Other systems request a move; this plugin applies it:
-- the Conversion plugin logs a conversation whose `Stage after` names the new stage (`cv-debrief`,
-  `cv-follow-up`, `cv-reactivation`, `cv-three-way`);
-- the Daily Agent Attraction Debrief lists `Stage moves requested` in its entry;
-- the Events plugin (Week 6) requests event stages the same way; `attraction-capture` says "move them to
-  call booked" and, before the Admin existed, wrote directly.
+## Requested stage moves — how they reach the board (the shape the Conversion plugin writes)
+Other systems request a move; this plugin applies it. Three request shapes, all consumed:
+1. **The durable one — the `Stage after` column** of a `memory/conversations.md` row. Every Conversion skill
+   that logs a conversation (`cv-conversation-starter`, `cv-dm-flow`, `cv-debrief`, `cv-follow-up`,
+   `cv-reactivation`, `cv-three-way`) and `attraction-capture` write it. When the Admin is installed they
+   write ONLY that column and tell the member "logged — the stage moves on your next Admin run."
+2. **The chat signal** — those skills end their output with the line
+   **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** (locked vocabulary). When that line is in the current
+   session, "apply that" means that move.
+3. **The Debrief's line** — `Stage moves requested: [Name]: [from] → [to], …` in a `memory/debriefs.md` entry
+   (the Daily Agent Attraction Debrief; the Events plugin requests event stages the same way).
 
-**Pending** = a `Stage after` on a `conversations.md` row, or a `Stage moves requested` line in `debriefs.md`,
-dated after the pipeline's last log row for that agent, where the board's stage differs.
+**Pending** = a `Stage after` (or a Debrief line) dated after the pipeline's last log row for that agent,
+where the board's stage differs from the requested stage.
+
+**Alongside a stage request, those skills also request the agent's `Next move · Due`.** The Admin applies
+them to the pipeline **Board** (its own columns) — never to `top-50.md`. `attraction-top-50` mirrors Stage
+from the Board on its runs and may refresh Last touch from `conversations.md` and Next move · Due from the
+Board; this plugin never edits a Top-50 cell. (Before the Admin was installed, the Conversion skills and
+capture updated those three Top-50 cells themselves under the Brain contract's interim allowance.)
 
 The rule: in an **in-chat run** (`admin-pipeline`, or `admin-daily`'s brief or wrap), pending requests are
-applied as housekeeping — the member logged the conversation themselves — one log row each with the source,
-and ONE line to the member: *"Applied 2 moves you logged yesterday: Sarah → Call booked, James → Parked."*
-"Undo" writes a reverse row; history is never edited. A **scheduled run** (any of the five tasks) never writes
-`pipeline.md`; it lists them under STAGE MOVES WAITING with "say 'apply those'". A request naming a stage
-outside the vocabulary, or an agent who is on no ledger, is put to the member as one question, never guessed.
+applied as housekeeping — the member logged the conversation themselves — one log row each with the source
+(`Logged by: admin-pipeline ← cv-debrief 2026-12-09`), and ONE line to the member: *"Applied 2 moves you
+logged yesterday: Sarah → Call booked, James → Parked."* "Undo" writes a reverse row; history is never
+edited. A **scheduled run** (any of the five tasks) never writes `pipeline.md`; it lists them under STAGE
+MOVES WAITING with "say 'apply those'". A request naming a stage outside the vocabulary, an agent on no
+ledger, or a move backwards (Call held → Conversation) is put to the member as one question, never guessed.
 
 ## `memory/follow-up-queue.md` — the shape (locked here; this plugin owns it)
 ```
@@ -122,9 +133,10 @@ Updated: [YYYY-MM-DD HH:MM] · Due today: [n] · Overdue: [n] · Due this week: 
 ```
 
 ## `config.md` — the AI Admin block (locked spelling)
-Written once by `admin-setup` under "Later plugins register here". The heading **starts with `## AI Admin`** —
-that prefix is how the Conversion plugin and the capture skill detect that the Admin is installed and stop
-writing the pipeline directly.
+Written once by `admin-setup` under "Later plugins register here". **Detection:** the Conversion plugin and
+the capture skill know the Admin is installed when `config.md` holds a block whose heading starts with
+`## AI Admin` and whose first line is the key `AI Admin: set up [date]` (the registry's bold styling is
+cosmetic). From that moment they stop writing the pipeline and the Top-50 touch cells and request instead.
 ```
 ## AI Admin (Week 5)
 - **AI Admin:** set up [YYYY-MM-DD] · plugin version [x.y]

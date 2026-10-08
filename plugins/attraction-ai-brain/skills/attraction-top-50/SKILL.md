@@ -148,8 +148,8 @@ sent by this skill; the member does the talking.
 ### D. Stage moves and touches (until the AI Admin is installed)
 "Move Sarah to Call booked" / "I talked to Marcus today" → update `Stage` (and log it under Stage log,
 recorded `member`) or `Last touch`, in the locked vocabulary; `Joined` also prompts one line — *"Want me
-to note Sarah in your organization? The Team & Retention plugin takes it from there in Week 6."* (that
-file is not this skill's to write).
+to note Sarah in your organization? Say 'an agent just joined' and it's logged; your AI Admin takes it from there in Week 5."* (that
+file is not this skill's to write — capture adds the row).
 From Week 5, the AI Admin owns stage moves and `pipeline.md`; this skill then mirrors the Admin's stage
 into the ledger on each run and records the move as `Admin`. It never moves a stage the Admin hasn't.
 

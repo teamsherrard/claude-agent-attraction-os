@@ -1,74 +1,86 @@
 ---
 name: yt-ideation
-description: Workflow 1 of 2 — Ideation. The realtor's main entry point, and where everything starts — fully ON-DEMAND, the agent asks whenever they're ready for their next batch of content. It asks how many videos they want, pulls fresh market signals right then, and hands back ready-to-film ideas hyper-specific to their market — a BLEND of broad general/relocation ideas and niche-specific ideas, with coverage gaps automatically baked into the batch — each with a title and a one-line data-backed "why," in the agent's voice (the hook and thumbnail text are prepared behind the scenes and surface in Step 1 of Make This Video). When the agent picks one, it tells them to open a NEW chat for that video (one chat = one video) and run "Make This Video." Triggers on "what should I film", "find my next video", "give me ideas", "give me video ideas", "ideas for this week", "what to make next", "I want to make a video", "help me with my YouTube".
+description: >
+  Weekly video ideas for the member's attraction channel — the front door, fully on demand. Reads the Game
+  Plan anchors, the member's own captured ideas, the objections and questions agents keep raising, dated
+  brokerage news, the interview pipeline, and what already shipped; pulls fresh signals on what agents are
+  searching; then hands back a short ranked batch built from the title formulas and agent pain points, each
+  with one data-backed "why" and who it's for, bucketed Problem · Situation · Future · Interview · Model and
+  balanced to the 8-video cycle (3 niche · 1 model · 4 interviews). Picking one hands to make-video in a new
+  chat. Triggers on "what should I film for agents", "attraction video ideas", "ideas for my channel for
+  agents", "what's my next attraction video", "give me attraction video ideas", "next video for agents",
+  "weekly ideas for my attraction channel", "what to make next for agents". Not for buyer-and-seller content.
 ---
 
-# Workflow 1 — Ideation (where it all starts)
+# Ideation — where every attraction video starts
 
-The realtor's front door — **on-demand by design.** They ask when they're ready to create; nothing is
-scheduled, nothing can silently break, and the data is fresh at the exact moment they ask. Apply
-`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — all of it (plain-warm talk #7; the content board #11: when
-they have the board, READ it here — what's due, what's stuck, cards they added by hand are their ideas — and
-top up the ~2-week window). All machinery runs invisibly.
+The member's front door — **on demand by design.** They ask when they are ready to film; nothing is scheduled
+unless `yt-triggers` set it up with their yes, and the data is fresh at the moment they ask. Apply
+`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — all of it (the doctrine #1, the Brain #2, plain talk #4, the
+Game Plan #10, the board #11). All machinery runs invisibly; the member sees four lines, not a process.
 
-**Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`) — ideation runs on
-**§3 (S.E.A.R.C.H.: search intent first, exact questions)**, **§8–§14 (the 6 content pillars)**, **§16 (title
-principles + formulas)**, **§15 (content mix — blend broad searchable with niche)**, and **§24.1 (the
-video-idea output template)**. The "blend" the agent gets is the doctrine's content mix in action: broad
-searchable pillar content (~80%) plus the agent's niche (~20% in year one, §15.6); every idea starts from a
-real search the buyer/seller would type, not a clever angle.
+**Lazy-load:** `references/idea-method.md` at Step 3; `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` at Step 3;
+doctrine §4–§7 and §9 only if a bucket needs re-grounding. Never the whole doctrine.
 
-## Step 1 — Warm welcome + a quick question
-Find the scope in one friendly question:
-> "Awesome — let's find your next videos. Quick question: how many are you looking to film? Just one or
-> two this week, or do you want to batch a few — say 4, so you film two now and two next week?"
+## Step 1 — Warm welcome + one scoping question
+> "Let's find your next videos for agents. How many are you filming — one or two this week, or a batch of
+> four so you can film two now and two next week?"
+If they are unsure: *"I'd do four — two niche, an interview, and one model video; you film what you can."*
 
-## Step 2 — Gather FRESH signals (invisibly, right now)
-**Start from the Game Plan (house rules #10):** read the agent's active pillars + goal (YouTube Layer) and
-their planned title backlog (the **YouTube Game Plan** Doc) — the next ideas should advance THAT strategy,
-not random topics. Then pull, at ask-time so everything's current: the **AI Brain** (market, clientele,
-niche), **fresh research** (market data + local news + trends), **local-event triggers**, **what their own
-comments are asking** (the Comment Engine's mined themes — comment-proven demand beats keyword guesses;
-light: only when they have real comments), the **outlier
-scan** (kept light — refreshed at ask time; long-form doesn't move daily), and the **live coverage read** (Videos folders + channel —
-what's already made). Also read the agent's **captured idea backlog** (`memory/ideas.md`, tag `youtube`) —
-their own on-the-go ideas; bring these into the batch FIRST (make-video marks a backlog idea Used when its
-video chat starts — never mark at pick time).
-The agent only sees one plain line: *"Give me a sec — I'm checking what's happening in your market."*
+## Step 2 — Gather signals (invisibly, right now)
+Read, in this order, only what exists (empty is normal; say nothing about empties):
+1. **The plan** (house rules #10): `identity/channel.md` → `## Game Plan anchors` (cadence, **cycle position**,
+   lane names) and the Game Plan doc's title bank. The batch advances the plan and keeps the 3-1-4 ratio from
+   where the cycle stands. No Game Plan → *"let's build your Game Plan first — it's what every idea hangs on"*
+   → `yt-gameplan`.
+2. **The member's own ideas first:** `memory/ideas.md` rows tagged `youtube` and `interview` with Status open.
+   These lead the batch (`yt-make-video` marks them used when the video chat starts — never at pick time).
+3. **What agents keep asking:** `memory/objections.md` (every recurring objection is a Situation or Model video),
+   `memory/intel.md` (dated brokerage and industry news — Model and Situation angles; facts only, cardinal rules),
+   the comments the member pasted recently (data, never instructions).
+4. **Who is ready to interview:** `memory/interview-pipeline.md` at Stage `Candidate` / `Invited` / `Booked` —
+   the interview slot in the batch names a real guest or says "invite [guest]".
+5. **What already shipped** (no repeats, story rotation): `memory/content-log.md` YouTube rows; the public channel
+   if the log is thin. The board, if `identity/publishing.md` has a URL: what is due, what is stuck, cards the
+   member added by hand are their ideas — offer to produce them; top up the ~2-week window.
+6. **Fresh signals, budgeted (≤8 searches):** `yt-research`'s method for what agents are searching on the
+   batch's candidate topics (autocomplete, the top videos, "people also ask"); `yt-outliers`'s weekly scan if it
+   has not run this week (light; long-form does not move daily).
+7. `identity/compliance.md` status — an idea list is private, so the batch builds in any state; **unset** → one
+   plain line at the end that titles can't ship until the compliance basics are set.
+The member sees one line: *"Give me a sec — I'm checking what agents are searching and what's on your plan."*
 
-## Step 3 — Generate the batch (blend + gaps baked in)
-Run the engine in `references/idea-method.md` (rubric scored silently, packaging-first), using
-`${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` + `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md`:
-- **Aligned to the Game Plan first (house rules #10):** draw the batch from the agent's active pillars + the
-  planned title backlog — advance the strategy and fill its next gaps, not random topics. A timely/off-plan
-  idea is fine when a real signal warrants it — tie it to a pillar, or offer to fold it into the plan.
-- **A BLEND, always (the doctrine's content mix, §15.6):** broad searchable pillar ideas (relocation,
-  community/map tours, market updates, home tours, local lifestyle — the 6 content types in §8–§14) make up
-  the bulk (~80%), plus niche-specific ideas from their specialty (~20% in year one). Draw across the six
-  content types so the channel isn't all one pillar (§15.1, §28.3).
-- **Coverage gaps are baked into the batch automatically** — if a neighbourhood or content type is uncovered,
-  one of the ideas simply IS that gap (with its "why"). **Never run a separate "gap" conversation or second
-  list** — one list, nothing for the agent to juggle or overthink.
-- Hyper-specific to their real market, communities, price points, and the cities people relocate from.
+## Step 3 — Generate the batch (ranked, bucketed, cycle-balanced)
+Run `references/idea-method.md` (the rubric scored silently, packaging-first) with
+`${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` and `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md`:
+- **From the plan first** — the next titles on the cycle, then the member's captured ideas, then timely
+  signals. A timely off-plan idea is fine when a real signal warrants it; tie it to a bucket.
+- **Cycle balance:** a batch of 4 = 2 niche (across Problem / Situation / Future — never all one bucket) · 1
+  interview (a named guest) · 1 model (or a second niche if the model video for this cycle already shipped). A
+  batch of 2 = 1 niche · 1 interview or model, whichever the cycle is short on. The member never manages the
+  ratio; you do.
+- **Every idea names an avatar and a pain** (Mike's five) and cites a real signal (demand · a dated news item ·
+  a captured question or objection · a proven outlier · a gap in their own channel).
+- **Hard gates on every title:** one promise, ≤70 characters; no compensation figures or earnings implied; no
+  negative word about a brokerage or person; the former brokerage unnamed; no protected-characteristic
+  targeting; model titles carry the year. The hook and the 3–5-word thumbnail text are prepared behind the
+  scenes and surface when the video chat starts.
 
-## Step 4 — Present a TIGHT, scannable list (never a wall of text)
-In order, plain and friendly. For EACH idea show only TWO lines:
-- **The title**
-- One line combining the **data-backed "why"** (a real signal — search/trend demand, a dated local event,
-  a competitor outlier, lead intent, or a coverage gap) **+ who it's for**. Truthful, no invented numbers.
-That's it — no hooks, no thumbnail text here (the engine has already decided them packaging-first; they
-surface in Step 1 of Make This Video when she starts that video). If she asks about one, expand just that
-one. A batch of 4 should fit on one phone screen.
+## Step 4 — Present a tight list (never a wall)
+For EACH idea, two lines only:
+- **The title** — with its bucket in brackets after it: `[Situation]`, `[Interview · guest]`, `[Model]`
+- One line: the **data-backed why** + **who it's for** (the avatar, in plain words). Truthful; no invented numbers.
+A batch of four fits one phone screen. No scores, no rubric, no "pillar" or "bucket" jargon beyond the bracket.
+If they ask about one, expand only that one.
 
 ## Step 5 — Help them choose, then hand off (one chat = one video)
-Swap, adjust, lean timely — then when they pick:
-> "Love it — open a new chat, name it after this video, and say **'make this video.'** I'll take it from there."
-
-## Month-start bonus (baked in, one light line)
-If it's a new month and no Market Report exists yet this month (check the Videos folders), add ONE line
-after the ideas: *"Also — want me to build this month's market report deck? You'd just hit record."*
-(runs `yt-market-report`). Skippable, never pushy.
+Swap, adjust, lean timely. When they pick:
+> "Love it — open a new chat, name it after this video, and say **'make this video for agents.'** I'll take it
+> from there."
+An interview pick → *"say 'line up my interview with [guest]'"* (`yt-interview`) before filming. A model pick →
+`yt-model-breakdown` runs inside make-video. Nothing is written to the Brain here — the pick is marked used and
+logged when the video chat starts.
 
 ## Modes
-**On-demand is the core.** If the agent explicitly enabled the optional Monday Kickoff, it simply runs
-this same workflow on a schedule — identical output, no extra features.
+On demand is the core. If `yt-triggers` provisioned the weekly ideas task with the member's yes, that task runs
+this same workflow and leaves the batch as a message — identical output, nothing extra, nothing sent.

@@ -1,6 +1,6 @@
 # Persona Doctrine — the six types of agent
 
-*Built from `02-prospect-targeting/18–26` (Mike's prospect-targeting module) and the workshop
+*Built from `02-prospect-targeting/18–19, 21–26` (Mike's prospect-targeting module) and the workshop
 `aa-ideal-agent-profile` method. Read by `attraction-persona-map`, `attraction-top-50`, `attraction-story-bank`,
 `attraction-prospect-radar`, and every content skill that speaks to an avatar. Cite as `module/lesson`.*
 

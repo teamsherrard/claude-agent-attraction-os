@@ -49,7 +49,7 @@ Three endings: **ready** (steps 6–7), **hesitant** (book a three-way call with
 - What is the biggest mistake agents make on attraction calls?
 - How do I close the call when they are ready?
 **Do / don't:** Do let them finish every sentence. Don't push for the commitment, and don't talk about what you care about.
-**Related:** 10/44, 10/42, 11/46, 12/85, 05/35
+**Related:** 10-presentation-delivery/44, 10-presentation-delivery/42, 11-objection-handling/46, 12-simple-tech-stack/85, 05-big-picture/35
 
 ---
 
@@ -71,7 +71,7 @@ Three endings: **ready** (steps 6–7), **hesitant** (book a three-way call with
 - What do I send after the call?
 - What goes in the welcome email once they join?
 **Do / don't:** Do send the resources email to everyone you talk to, joining or not. Don't lead with what you care about.
-**Related:** 10/43, 10/44, 12/83, 12/85, 13/64, bonus (Calendly)
+**Related:** 10-presentation-delivery/43, 10-presentation-delivery/44, 12-simple-tech-stack/83, 12-simple-tech-stack/85, 13-team-building-duplication/64, bonus (Calendly)
 
 ---
 
@@ -92,7 +92,7 @@ Three endings: **ready** (steps 6–7), **hesitant** (book a three-way call with
 - What do I do while my sponsor is talking?
 - Who follows up after the three-way call?
 **Do / don't:** Do stack your sponsor's accolades and include the time zone. Don't talk unless asked, and don't touch your phone. Do own the follow-up.
-**Related:** 10/42, 10/41, 13/63, 13/66, 11/52
+**Related:** 10-presentation-delivery/42, 10-presentation-delivery/41, 13-team-building-duplication/63, 13-team-building-duplication/66, 11-objection-handling/52
 
 ---
 
@@ -113,4 +113,4 @@ Three endings: **ready** (steps 6–7), **hesitant** (book a three-way call with
 - When should I bring up revenue share?
 - Why should I not just present the model?
 **Do / don't:** Do run discovery, then vision, then commitment. Don't word-vomit the presentation before you know what they care about.
-**Related:** 10/41, 10/42, 11/46, 11/48
+**Related:** 10-presentation-delivery/41, 10-presentation-delivery/42, 11-objection-handling/46, 11-objection-handling/48

@@ -83,8 +83,9 @@ the six types and the five pains. Capture each story as:
 - **Lands with** — the type of agent who recognizes themselves in it: new agents · experienced but low
   production · top producers · influencers · team leaders · broker-owners (one, at most two). By career
   stage, production, model, mindset; never a protected characteristic.
-- **Speaks to** — the pain it answers: inconsistent business · no training · paying for noise · no path
-  past selling · alone (one, at most two).
+- **Speaks to** — the pain it answers, in Mike's wording (`shared/attraction-doctrine.md` §7b): financial
+  uncertainty · lack of support, mentorship, training · technology gaps · limited growth · work-life balance and
+  recognition (one, at most two; the plain alias may follow in parentheses).
 - **Used for** — one or more of: **story reel** · **YouTube hook** · **partner call** · **objection
   answer** (name the objection in the member's words, e.g. "it's a pyramid scheme", "I love my broker",
   "I'm doing fine where I am", "I just switched"; the canonical list is in `shared/attraction-doctrine.md`).

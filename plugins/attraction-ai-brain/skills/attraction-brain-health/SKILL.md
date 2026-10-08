@@ -56,7 +56,7 @@ thing to build — paste your Design Package brief into Claude Design"* (the bri
 | 3 | content-pillars · publishing | the Short-Form plugin's setup | "arrives with your Short-Form system" |
 | 4 | channel | the YouTube plugin | "arrives with your YouTube system" |
 | 5 | conversations · pipeline · follow-up-queue filling | the Conversion and AI Admin plugins | "fills as you talk to agents" |
-| 6 | onboarding · duplication-kit · organization | the Team & Retention plugin | "arrives with your Team system" |
+| 6 | organization (fills as agents join) · the onboarding path and duplication playbook | `attraction-capture` and the AI Admin (organization); the Week 6 Retention & Duplication lessons | "fills as agents join; Week 6 builds the onboarding path" |
 If `config.md` carries a `Cohort week` line (whichever plugin stamps it), use it; otherwise infer
 nothing and report the Week 1 bar only. **Never demand a later week's deliverable early and never call it
 missing.**
@@ -86,7 +86,7 @@ Present, warm and specific:
 - **⬜ Missing — biggest wins first**, ordered by impact. Always first if empty: **compliance**
   (blocks public output; *"set up my attraction compliance"*). Then: **the brand kit** (*"paste your
   Design Package brief into Claude Design"*), **voice samples** (every script sounds like them),
-  **proof** (reused everywhere), **story bank below six** (*"add to my story bank"*), **goals**
+  **proof** (reused everywhere), **story bank below six** (*"add an attraction story"*), **goals**
   (*"set my attraction goals"*).
 - **This week adds:** one line naming what the current week builds and the phrase to type — from the
   table above, never framed as a gap.

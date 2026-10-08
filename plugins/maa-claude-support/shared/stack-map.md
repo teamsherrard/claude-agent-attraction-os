@@ -21,10 +21,10 @@ Mike (2026-10-08): not a plugin, parked.
 | 6 | **YouTube** (W4) | `yt-` | 19 | coming W4 | "Set up my YouTube engine" |
 | 8 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | coming W5 | "Set up my conversion engine" |
 | 9 | **AI Admin** (W5) | `admin-` | 7 | coming W5 | "Set up my AI admin" |
-| 8 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
-| 9 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
+| 11 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
+| 12 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
 
-(#7 was the Creative Studio — removed. Numbering keeps the cohort doc's slots so the Setup Guide
+(#7 was the Creative Studio and #10 Team & Retention — both removed. Numbering keeps the cohort doc's slots so the Setup Guide
 and the playbooks agree.) "Coming" plugins: say so honestly — *"that one switches on in Week N;
 until then the Brain and this week's plugins are the whole stack"* — never pretend a skill exists.
 Exact front-door phrases for coming plugins are confirmed when each ships; the ones above are the
@@ -110,7 +110,7 @@ fix.
 
 | Plugin | Reads | Owns (writes) |
 |---|---|---|
-| Brain (1) | everything | all `identity/`, `memory/top-50`, `scorecard`, `debriefs`, `objections` (via capture), `ideas`, `intel` |
+| Brain (1) | everything | all `identity/` except `content-pillars`, `memory/top-50`, `scorecard`, `debriefs`, `objections` (via capture), `ideas`, `intel`, `capture-log`, `deadlines` (until the AI Admin), interim rows in `conversations` and `organization` and interim stage moves in `pipeline` (via capture, until Conversion / AI Admin) |
 | Support (2) | `config`, `brain.md`, every plugin's `config` block | `memory/support-log`, `memory/claude-updates`, the `## MAA Support (Plugin 2)` block in `config.md` |
 | Design Studio (3) | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to the workspace's `02 · Brand`, `05 · Offer`) |
 | Short-Form (4) | `profile · journey · avatars · positioning · story-bank · proof · voice* · compliance · content-log · objections` | `identity/content-pillars.md` (sf-setup), `memory/content-log` (SF rows), `identity/publishing` |
@@ -118,8 +118,8 @@ fix.
 | YouTube (6) | same as Short-Form + `content-pillars · brokerage-model · prospect-intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
 | Conversion (8) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
 | AI Admin (9) | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
-| Lead Magnet (8) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md` |
-| Events (9) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
+| Lead Magnet (11) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md`, the second CTA line in `voice.md` |
+| Events (12) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
 
 **Pipeline stages, locked OS-wide:** `Identified → Conversation → Call booked → Call held → 3-way →
 Joined → Onboarded → Active`. The AI Admin owns stage moves; Conversion, Events, and the Debrief
@@ -205,7 +205,7 @@ means the yes was never given or the Cowork task was never created — diagnosti
 - Depends on: Brain (`operations`) + Gmail + Google Calendar (or Microsoft 365). Never auto-sends.
   Owns pipeline stage moves; "the stages look different in two places" = log it.
 
-### Plugin 8 — Lead Magnet (W6) · Plugin 9 — Events (W6) — coming
+### Plugin 11 — Lead Magnet (W6) · Plugin 12 — Events (W6) — coming
 
 *Team & Retention was removed from the OS on 2026-10-08 (not built). `memory/organization.md` stays in the Brain; capture and the AI Admin write joins to it.*
 - All read the Brain's `offer`/`avatars`/`compliance`; Lead Magnet's first magnet is the Honest

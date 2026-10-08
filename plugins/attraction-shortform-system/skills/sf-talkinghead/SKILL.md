@@ -3,14 +3,14 @@ name: sf-talkinghead
 description: >
   Attraction Reels — 30–60 second talking-head scripts for the agents the member attracts, across the five
   pillars (Authority · Perspective · Story · Proof · Personality) and Mike's four content types (value,
-  behind-the-scenes leadership, personal brand, storytelling). Three modes: a topic list built from the
-  member's pillars; ready-to-film scripts (the hook written three ways, word-for-word plus a bullet version,
-  shots, captions) that pull a real story from the story bank and end on one rung of the CTA ladder with the
-  keyword; and the 30-day calendar (2 attraction · 2 authority · 1 story a week, batch days). Built for
-  batching. Text only; never films or posts. Trigger on: "attraction reel", "reel for agents", "script my
-  attraction reels", "script my first attraction reel", "talking head for agents", "script this week's agent
-  reels", "my 30-day attraction calendar", "attraction content calendar", "plan my month of attraction reels",
-  "what should I film for agents", "hooks for my attraction reel".
+  behind-the-scenes leadership, personal brand, storytelling). Three modes: a topic list from the member's
+  pillars; ready-to-film scripts (hook three ways, word-for-word plus a bullet version, shots, captions) that
+  pull a real story from the story bank and end on one rung of the CTA ladder with the keyword; and the 30-day
+  calendar (2 attraction · 2 authority · 1 story a week, batch days). Built for batching. Text only. Trigger
+  on: "attraction reel", "reel for agents", "script my attraction reels", "script my first attraction reel",
+  "talking head for agents", "script this week's agent reels", "my 30-day attraction calendar", "attraction
+  content calendar", "plan my month of attraction reels", "what should I film for agents", "hooks for my
+  attraction reel".
 ---
 
 # Attraction Reels — Talking Head
@@ -51,6 +51,8 @@ Read `~/attraction-brain/brain.md` first (follow its laws), then:
 - `memory/content-log.md` — what's covered; which pillar is light this week/month
 - `memory/ideas.md` (tags `shortform`, `story`) — the member's own ideas go to the TOP; mark `used` once scripted
 - `memory/objections.md` — an objection heard this month is a Perspective Reel waiting to happen
+- `memory/content-performance.md` — what worked (the Friday ledger from `sf-analytics`); lean on it for hooks,
+  pillars, and rungs. Skip if it doesn't exist yet
 
 **Read the Brain; never re-ask what it knows.** If `~/attraction-brain/` is missing, pull it with
 `attraction-brain-sync` (never assume no Brain). Only if the cloud has none: "set up my attraction brain."

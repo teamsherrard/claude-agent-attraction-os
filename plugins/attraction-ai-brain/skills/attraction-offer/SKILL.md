@@ -75,7 +75,7 @@ The UVP one-liner and the Partner Offer become bios, captions, and the offer-sta
 `identity/compliance.md`. **Set / confirmed** → proceed under its rules. **Unset** → build and write the
 Brain file in full, show the member everything, but hand over the public-facing lines (the one-liner,
 the three short lines, the doc) with one plain sentence: *"Before any of this goes public, your
-compliance rules need setting — say 'set my compliance rules', five minutes."* An unset gate never means "go ahead".
+compliance rules need setting — say 'set up my attraction compliance', five minutes."* An unset gate never means "go ahead".
 
 ---
 

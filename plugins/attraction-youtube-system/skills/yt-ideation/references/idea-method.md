@@ -1,93 +1,80 @@
-# Idea Method — Internal Rubric, Packaging & Voice
+# Idea Method — internal rubric, cycle balance, packaging, voice
 
-> INTERNAL ONLY. The agent never sees this rubric or the scores. They see ranked ideas + packages.
+> INTERNAL ONLY. The member never sees the rubric or the scores. They see a short ranked list with a reason each.
 
-**Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`): **§3** (S.E.A.R.C.H. —
-search intent first, build around exact questions), **§8–§14** (the 6 content types every batch draws
-across), **§16** (title principles + formulas), **§15** (the broad/niche content mix), and **§24.1** (the
-video-idea output template — title · pillar · search intent · target viewer · why it works · thumbnail
-concept · CTA angle, which this method's packaging maps onto).
+**Applies the attraction doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`): §3 the
+funnel, §4 the three niche buckets, §5 interviews, §6 model videos, §7 the 8-video cycle, §9 the title
+formulas, §14 what the data says to repeat, §15 the cardinal rules. Buckets are tags (Problem · Situation ·
+Future · Interview · Model); the pillar a row carries is the Brain's (Authority · Proof · Perspective).
 
 ## The scoring rubric (rank candidates with this, silently)
-Score each candidate 1–5 on six criteria, then weight:
-
 | Criterion | Question | Weight |
 |---|---|---|
-| Demand | Are people actually searching this? | ×3 |
-| Business value | Does it attract real buyers/sellers + tie to the offer? | ×3 |
-| Competition gap | Can they realistically rank / is it underserved locally? | ×2 |
-| Niche fit | Does it match their avatar + positioning? | ×2 |
-| Timeliness | Seasonal or newsworthy right now? | ×1 |
-| Hook | How strong is the title/hook? | ×1 |
+| Demand | Do agents demonstrably search or ask this? (autocomplete, the top videos' views, a recurring comment or objection) | ×3 |
+| Attraction value | Does it pull the member's named avatar toward a conversation — does it speak to one of the five pains and point at the offer? | ×3 |
+| Gap | Is it underserved, served badly, or missing from the member's own channel? | ×2 |
+| Fit | Does it match the known-for, the avatar, and the voice? (a title that breaks the voice fails) | ×2 |
+| Timeliness | A dated news item, a season (licensing cycles, year-end brokerage moves), a fresh win to interview | ×1 |
+| Hook | How strong is the title/hook on curiosity · emotion · clarity? | ×1 |
+Priority = D×3 + A×3 + G×2 + F×2 + T×1 + H×1 (max 60). Rank high → low inside each bucket; show only the order.
 
-Priority = D×3 + B×3 + G×2 + N×2 + T×1 + H×1 (max 60). Rank high → low. Show only the order.
+## Cycle balance (the member never manages it)
+Read `identity/channel.md` → `## Game Plan anchors` → cycle position, and the content-log's last eight YouTube
+rows. The cycle is 3 niche · 1 model · 4 interviews. A batch fills what the cycle is short on; niche picks spread
+across Problem / Situation / Future; the interview slot names a real guest from `memory/interview-pipeline.md`
+(or says "invite [guest]" with the transformation). Why I Switched goes early in cycle one when `journey.md`
+holds the story. Never two model videos in one cycle; never a batch that is all one bucket.
 
-## Packaging-first checklist (every idea)
-- **Title (doctrine §16):** specific, search-shaped, voice-matched — match search intent, be market-specific,
-  **include the city/neighbourhood and the year or month when relevance matters**, signal a clear payoff, and
-  differentiate from the top 3–5 ranking videos. Use a proven formula (the §16.5 formulas + listicle /
-  question / how-to / benefit), front-load the keyword, lean long-tail for a small channel. Never too clever
-  or vague (§16.1, §28.6). See `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md`.
-- **Hook:** name the viewer's situation/fear in line one; promise the payoff in line two.
-- **Thumbnail text:** 3–5 punchy on-screen words — a shortened, SEO-aware version of the title, written to
-  fit the §17 layout for that pillar (beside a ~33% headshot; home tours = the home photo). Text only, no
-  design — the agent builds it in their thumbnail/design tool from this exact text.
-- **Four hard gates on every title + every ranked list** (cohort feedback — these shipped wrong once):
-  (0) **one promise, ≤70 characters** — one search query answered; never two ideas stapled with a colon or
-  a neighbourhood+feature+audience pile-up in one line;
-  (1) **the market IS in the title** — a title that could run on any city's channel FAILS, rewrite it local;
-  (2) **every dollar figure is sourced** — from `market.md` price bands or live Research, cited in the note,
-  never invented; (3) **vary the angle at the top** — never open a ranked list with two titles on the same
-  angle/avatar; the first 3–5 span distinct angles, depth comes later.
+## Packaging-first checklist (every idea, prepared behind the scenes)
+- **Title (doctrine §9):** one of the seven formulas where it fits (keep the number for the row), one promise,
+  ≤70 characters, the viewer named ("real estate agent", the avatar type) when the search needs it, the year on
+  model videos. Curiosity · emotion · clarity; bold and emotional beats clever.
+- **Hook:** the pain point in the first line, in the member's voice; the promise in the second. Written out word
+  for word later by `yt-script` — here one line.
+- **Thumbnail text:** 3–5 words, **different from the title**; the expression it needs. Surfaces in the video
+  chat for `yt-thumbnail`.
+- **Bucket → pillar for the eventual row:** Problem / Situation / Future → Authority · Interview → Proof ·
+  Model → Perspective.
+- **Hard gates:** no compensation figures or earnings implied · no negative word about a brokerage, sponsor, or
+  person · former brokerage unnamed · no protected-characteristic targeting · "#1 / fastest-growing" only with a
+  dated source · vary the angle at the top of any list (never two titles on the same angle opening the batch).
 
-## Voice-matched titles — good vs bad (example: a calm, consultative, never-salesy agent)
-- ✅ "The New 5% GST Savings on Calgary New Builds — Who Actually Qualifies"
-- ✅ "Buying and Selling at the Same Time — How to Avoid Two Mortgages"
-- ❌ "You're LOSING $1000s on Your New Build!! (MUST WATCH)"  ← hype/clickbait = brand violation
-- ❌ "INSANE Calgary Secret Realtors Don't Want You to Know"   ← gimmicky = brand violation
-Earn the click with specificity + genuine value, calibrated to the agent's brand.
+## Voice-matched titles — good vs bad (a calm, consultative member who never hypes)
+- ✅ "Why most new agents quit in year one — and what the ones who make it do differently"
+- ✅ "How rev share actually works — the concept, without the sales pitch"
+- ✅ "How Priya closed her first three deals part-time — with a database of 40 people"
+- ❌ "You're LOSING $10,000s at your brokerage!! (MUST WATCH)" ← hype + a dollar figure = two fails
+- ❌ "The REAL reason [Brokerage X] agents are miserable" ← names a brokerage negatively = cardinal rule fail
+Earn the click with specificity and a real promise, calibrated to the member's brand.
 
-## Topic memory & coverage read (do this BEFORE generating — no tracker, read live)
-Build topic memory each run by reading the agent's **Videos folders + their published channel**. Map:
-- **Neighbourhoods/communities** covered vs. still on their list (from the Brain) → surface uncovered ones.
-- **Pillars/categories** covered → keep the channel balanced; don't over-index one pillar.
-- **Avatars/lead-types** served → make sure each ideal viewer is getting content.
-- **Exact topics already made** → never propose a duplicate.
+## Topic memory and coverage (read live — no tracker)
+From `memory/content-log.md` (YouTube rows) and the public channel: buckets covered vs thin · avatars served vs
+neglected · stories used recently (rotate) · guests already interviewed · model videos already made this year
+(the yearly remake is allowed and labeled) · exact topics made (never a duplicate; a new angle on a winner is
+encouraged — doctrine §14).
 
-## Sourcing ideas
-- Start from the Research Brief's "Signals for ideas" (timely, local, high-relevance).
-- Pull from the template library in `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` (the template sections,
-  organized by the 6 content pillars, + proven title formulas) — fill every `[bracket]` with the agent's real
-  market / communities / price points / niche.
-- Always produce a **BLEND** (the doctrine's content mix, §15.6): broad searchable pillar ideas drawn across
-  the **6 content types** (§8–§14: market updates · home tours · relocation · community tours · map tours ·
-  local lifestyle) at ~80%, + niche-specific ideas tied to the agent's specialty (new construction,
-  first-time buyers, mortgage if dually licensed, etc.) at ~20% in year one. Both, every batch — don't let a
-  batch be all one content type (§15.1).
-- Fill **coverage gaps** from the read above (underserved pillar, uncovered neighbourhood, neglected avatar).
-- Each idea should map to an avatar question/fear OR a timely local signal — ideally both.
-- Never repeat an already-made topic.
+## Sourcing ideas (in this order)
+1. The Game Plan's title bank — the next titles on the cycle.
+2. The member's captured ideas (`memory/ideas.md`, tags `youtube` / `interview`, Status open).
+3. What agents keep asking: `memory/objections.md`, the member's pasted comments, `memory/intel.md` (dated).
+4. The template library (`shared/idea-templates.md`), filled with the member's real avatar, niche, model, guests.
+5. Fresh signals from `yt-research` (what agents search) and `yt-outliers` (what worked elsewhere).
+6. Coverage gaps from the read above.
 
-## Every idea must justify itself (THIS is the moat)
-Never hand over a title without the **data-backed reason** it's a smart bet. This is the whole reason an
-agent uses this system instead of ChatGPT — every idea is grounded in THEIR live market, THEIR niche, THEIR
-channel, and what's actually trending in THEIR city. Generic AI can't do that.
-
-Each idea's "Why this one" must cite at least one **real** signal — be specific, name the source/type:
-- 📈 **Demand** — a search/trend signal (Google Trends rising, YouTube autocomplete shows people typing it,
-  or it's a proven high-search format like "moving to [city]" / "cost of living" / comparisons).
-- 🔥 **Timely** — a real, dated market event or news (rate change, new development, rule change, migration data).
-- 👀 **Proven** — a competitor's similar video is overperforming (from the outlier scan).
-- ❓ **Asked** — real questions people are asking (comments, "people also ask," forums).
-- 💰 **Business** — directly attracts the agent's buyer/seller avatar (lead intent).
-- 🗺️ **Gap** — fills an uncovered neighbourhood/pillar they can own.
-Lead with the strongest real signal. **Honesty:** don't fabricate exact search volumes — if no keyword tool
-is connected, justify with the proven format + the real trend/event/gap, and keep it truthful.
+## Every idea must justify itself (the moat)
+Each idea's "why" cites at least one **real** signal, named by type:
+- 📈 **Demand** — autocomplete shows agents typing it; the top videos on it have real views (approximate, seen)
+- 🔥 **Timely** — a dated industry or brokerage item from `intel.md` or a sourced article (facts only)
+- ❓ **Asked** — a recurring objection, comment, or question the member actually heard (`objections.md`, their paste)
+- 👀 **Proven** — an outlier video on the same concept (what worked, never what was wrong with it)
+- 🤝 **Proof ready** — a guest at Candidate or later with a real transformation
+- 🗺️ **Gap** — a bucket, avatar, or question the member's channel has not covered
+Lead with the strongest real signal. Never fabricate search volumes or view counts; if no number was seen, say
+"agents search this" without one.
 
 ## Output rules
-- Default to the count agreed in Step 1 — typically 4 (fits one phone screen) — ranked. Mix timely with evergreen.
-- GENERATE the full package per idea (Title · Hook · Thumbnail text — packaging-first), but PRESENT only
-  two lines each: the title + one line of data-backed "why" + who it's for. The hook + thumbnail surface
-  in Make This Video Step 1. Expand an idea only if the agent asks.
-- No scores, no rubric, no pillar/cluster jargon in what the agent sees. Keep the whole list scannable.
-- Always end with the handoff: pick one → new chat → "make this video."
+- The count agreed in Step 1 (default 4), ranked inside the cycle balance. Mix timely with evergreen.
+- GENERATE the full package per idea (title · hook · thumbnail text · bucket · avatar · pain · signal · formula),
+  PRESENT only two lines each. Expand only on request.
+- No scores, no rubric, no file names in what the member sees. Plain, warm, short.
+- Always end with the handoff: pick one → new chat → "make this video for agents."

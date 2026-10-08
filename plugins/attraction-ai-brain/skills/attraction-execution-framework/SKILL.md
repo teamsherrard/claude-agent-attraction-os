@@ -22,8 +22,8 @@ number is the constraint, and the operating rhythm — daily, weekly, monthly �
 from a project into how the member runs their organization. "What gets measured gets managed; without
 tracking you're guessing" (`16-implementation-scaling/78`).
 
-**Where this runs.** By the cohort calendar it is a Week 6 skill (the CEO rhythm lands with the Team
-& Retention and Admin plugins). It runs any time `identity/goals.md` is locked. **Never demands
+**Where this runs.** By the cohort calendar it is a Week 6 skill (the CEO rhythm lands with the AI
+Admin plugin's reviews). It runs any time `identity/goals.md` is locked. **Never demands
 later-week deliverables:** content pillars (Week 3), the pipeline (Week 5), onboarding (Week 6) are
 referenced as "when built" and the framework says which week builds each.
 
@@ -35,7 +35,7 @@ Mostly this skill *shows* and asks the member to react; it has at most two short
 `~/attraction-brain/brain.md`, then: `identity/goals.md` (required — if it is absent or `seeds`,
 say in one line that the targets come first and run `attraction-goals`, then return),
 `memory/scorecard.md`, `identity/leadership.md` and `identity/operations.md` (if built — capacity,
-hours, call cadence), `identity/content-pillars.md` or `identity/content-pillars.md` (if built — the
+hours, call cadence), `identity/content-pillars.md` (if built — the
 content KPI), `memory/organization.md`, `memory/pipeline.md`, `memory/content-log.md` (what has
 actually happened), `identity/execution-framework.md` (if present, this is a refresh). Pull via
 `attraction-brain-sync` if the local copy is missing; a tool error is never "no Brain".
@@ -53,8 +53,8 @@ actually happened), `identity/execution-framework.md` (if present, this is a ref
 |---|---|---|
 | Low conversations | not enough attraction activity, not enough valuable content | activity target + the content engine (Short-Form Week 3, YouTube Week 4) |
 | High conversations, low conversions | messaging, model explanation, objection handling | Brokerage Model Expert now; Conversion plugin (objection coach, call audits) Week 5 |
-| Good recruiting, poor retention | onboarding, no tight community | operations' onboarding steps now; Team & Retention plugin Week 6 |
-| Low duplication | the member is the only one attracting; agents are not being taught to attract | Team plugin's teach-to-attract Week 6 (`13-team-building-duplication/63`) |
+| Good recruiting, poor retention | onboarding, no tight community | operations' onboarding steps now; the Week 6 Retention & Duplication lessons |
+| Low duplication | the member is the only one attracting; agents are not being taught to attract | the Week 6 duplication lessons (`13-team-building-duplication/63`, `/66`) |
 | Rev share flatlining | no new leadership development; the group scales to the leader's capacity | leadership audit + invest in yourself (`16-implementation-scaling/80`) |
 
 - **Linear vs exponential** (`13-team-building-duplication/63`): the member adding agents is linear;
@@ -117,7 +117,7 @@ scorecard and pipeline; before data exists, the constraint is always "activity" 
 | Daily debrief | [debrief time] | `attraction-debrief` (the Daily Agent Attraction Debrief) | AI Admin's `admin-daily` (Week 5) |
 | Weekly CEO review | [Stop B day/time] | `attraction-goals` weekly check-in | AI Admin's `admin-scorecard` CEO mode = the Weekly Recruiting CEO Review (Week 6) |
 | Monthly KPI review | [Stop B date] | `attraction-goals` monthly audit | AI Admin's `admin-monthly-review` = the Monthly KPI Review (Week 6) |
-| Quarterly audit + refresh | end of quarter | `attraction-goals` quarterly refresh + this skill's refresh | Team plugin's organization analysis (Week 6) |
+| Quarterly audit + refresh | end of quarter | `attraction-goals` quarterly refresh + this skill's refresh | the AI Admin's Monthly KPI Review rolls it up (Week 6) |
 
 The weekly review's four questions, fixed: what happened in recruiting this week (activity vs target),
 what happened in the organization (joins, needs, wins), what is the constraint, what is next week's

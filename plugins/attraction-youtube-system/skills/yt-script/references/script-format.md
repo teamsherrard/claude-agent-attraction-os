@@ -1,80 +1,89 @@
-# Script Format — Long-form + Short-form
+# Script Format — long-form + the Short cut (layout, conventions, the two CTAs)
 
-**Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`): §4 structure, §5 hooks,
-§6 CTAs, §7 body, the §24.6 script template, and §27.6 length. The doctrine OVERRIDES anything generic below.
+**Applies the attraction doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`): §8 the
+structure, §9 the title and thumbnail promise the hook must match, §10 the two warm CTAs, §15 what never goes
+public. The beats per format live in `format-playbooks.md`; this file is how the script looks on the page.
 
-## Keep it tight (NOT a 10-page essay)
-- Match the runtime: **~140 spoken words per minute**, sized to the doctrine's length (§27.6): relocation
-  talking-head **8–12 min**, other types **10–25 min** (e.g. a 10–12 min video ≈ **1,400–1,700 words**).
-- Value-dense: every line earns its place. Cut filler, throat-clearing, and repetition.
-- Scannable for a teleprompter: short sentences, clear sections, generous spacing, talking-point bullets for lists.
-- Easy to **speak**, not a stiff essay (§24.6): conversational hook, short primary CTA, clearly-labeled
-  sections, bullet-friendly delivery, plain language, local placeholders only where data is genuinely needed.
+## Keep it tight (not a 10-page essay)
+- **~140 spoken words per minute.** Default 10–15 min ≈ 1,400–2,100 words; Why I Switched 8–12 min; Model
+  Breakdown 12–20; Niche Breakdown 10–20; interview intro 45–75 s (~100–170 words), outro 30–45 s.
+- As long as it needs to be for the viewer to get the outcome, as short as it can be without filler (`/94`).
+- Scannable for a teleprompter: short sentences, clear sections, generous spacing, bullets for lists; easy to
+  *speak*, never a stiff essay. Mike records from bullets; the hook is the only part written word for word —
+  the script gives both: the hook verbatim, the body as spoken lines with bullet-friendly delivery.
 
 ## Verified facts only (never false on camera)
-- Use **only facts you can source** from the Research Brief (or the agent confirms). Tag each with a tiny
-  `(source, date)` the agent does NOT read aloud — e.g. "…around three months of supply (CREB, Jun 2026)."
-- Any number/claim you can't verify → write **`[double-check before filming]`**, never guess.
-- When unsure, speak in ranges or principles, not invented precision. The agent must never say something false.
+- Only facts with a source: `(source, date)` tags the member does not read aloud. A brokerage fact cites the
+  member's materials or the brokerage's own page, dated. An agent's result cites `proof.md` with consent.
+- Anything unverifiable → `[double-check before filming]`, never a guess. Ranges and principles beat invented precision.
+- **Never a compensation figure, rev-share tier, stock number, or income claim** — the call carries numbers.
 
-## Long-form structure (clean sections + chapters)
-> **When you SAVE the script, render it in the house band style** — CAPS section headers inside `─` divider
-> bands, `═` heavy bands for Chapters + the Short, cues on their own indented lines (`>> ON SCREEN:`,
-> `[PAUSE]`, `FACT:`), and a sourcing/compliance footer. Exact look + skeleton:
-> `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`. The outline below is the content ORDER; doc-format.md is how
-> it looks on the page.
+## Long-form structure (the content ORDER; `shared/doc-format.md` is the look)
 ```
 TITLE: {final title}
-Runtime: ~{N} min  ·  target ~{N×140} words  ·  Audience: {avatar}
+Runtime ~{N} min  ·  For: {avatar}  ·  Bucket: {Problem / Situation / Future / Interview / Model}  ·  Format: {…}  ·  {date}
 
-[HOOK — 0:00]
-{§5.4 formula: call out the viewer/situation → tension/mistake/question/opportunity → what the video helps
- them understand → a reason to stay to the end. Use the idea's hook. NEVER "welcome back" / long intro (§5.5).}
+[HOOK — 0:00]   (written word for word — the only part Mike scripts fully)
+{Call out the viewer's situation → the tension / question → what they'll have by the end. Pain in the first
+ ten seconds. Never "welcome back," never a long intro, never credentials first. Matches the title's promise.}
 
-[PRIMARY CTA — right after the hook]
->> on-screen: {agent name | brokerage | market}
-{§6.2 structure: brief intro ("if you're new here, I'm [Name] with [Brokerage]…") + "people just like you"
- social proof + "your unique situation" + "avoid costly mistakes" + book a private call (link in description).
- Keep it short. Use the §6.4 variation for the avatar + the §26 library + the agent's real booking link.}
+[RESOURCE CTA — inside minute 1]
+>> on-screen: {resource name} · link in the description
+{The channel's resource line from channel.md, in their voice: "if you want my exact [playbook], it's in the
+ description — grab it." No resource yet → the warm call line here, lighter reminder later.}
 
 [SECTION 1 — {label} — ~MM:SS]
-{Concise spoken lines; talking-point bullets for lists. Real specifics + one story where natural. Answer
- what they need to know · why it matters · what to do (§7.2); translate facts into guidance, don't info-dump.}
-{Any stat → with a (source, date) tag. Pattern-interrupt cue in [brackets].}
+{Spoken lines; bullets for lists. What they need to know · why it matters · what to do. A real story or an
+ agent's win where it lands. Facts tagged (source, date).}
 
-[SECTION 2 …]  [SECTION 3 …]   (3–5 sections — enough to deliver value, not to pad; follow the pillar's body shape §9–§14)
+[SECTION 2 …] [SECTION 3 …]   (3–5 sections — enough to deliver, never to pad; the beats per format in format-playbooks.md)
 
-[OPTIONAL light mid reminder — ~halfway]
-{Only if it serves the content: one value-first nod tied to the material — "the full checklist's linked
- below." Never a hard second pitch — the doctrine mandates two CTAs (primary + secondary).}
+[CALL CTA — ~1/3 to 1/2 in]
+>> on-screen: Book a private call · link in the description
+{The warm invite, value-named — "if you want help applying this and all my training, coaching, and mentorship
+ for free, book a private one-on-one call, link below — I'd love to hear where you're at." Never the brokerage
+ name as the pitch. Rotate wording across videos.}
 
-[REASSURANCE / PAYOFF — ~MM:SS]
-{Address the core fear; deliver the promise.}
+[PAYOFF — ~MM:SS]
+{Deliver the promise; the reassurance the avatar came for; the one thing to do this week.}
 
-[SECONDARY CTA + NEXT VIDEO — the very end — §6.5]
-{The last thing said: remind them to book / reach out + point to the next best video (general for a newer
- channel, a specific continuation for an established one). Then nudge the end screen / playlist / subscribe.}
+[NEXT VIDEO — the very end]
+{The next logical video on the channel, named — then the end screen. The last thing said.}
 
 CHAPTERS (paste into the description):
-00:00 {Hook} · {MM:SS Section} · {MM:SS Section} · …   (built straight from the sections above)
+00:00 {Hook} · {MM:SS Section} · …   (descriptive, search-friendly labels)
 ```
 
 ## Teleprompter conventions
-- Write spoken words the way the agent talks — contractions, natural rhythm.
-- `[brackets]` = delivery / B-roll cues (not spoken). `>>` = on-screen text suggestion (not spoken).
-- `(source, date)` = a fact's source — for the agent's confidence, not read aloud.
-- Full sentences for parts read verbatim; talking-point bullets for list content.
+- Spoken words the way the member talks — contractions, their rhythm, their signature phrases (`voice-print.md`).
+- `[brackets]` = delivery / b-roll cues (not spoken). `>>` = on-screen text (not spoken). `(source, date)` = not spoken.
+- Full sentences for parts read verbatim (hook, CTAs, the close); bullets for list content.
 
-## CTAs — two, the doctrine way (§6), never salesy
-**Two CTAs:** a **Primary CTA right after the hook** (§6.2 — intro + "people just like you" social proof +
-"your unique situation" + "avoid costly mistakes" + book a private call) and a **Secondary CTA at the very
-end** (§6.5 — book/reach out + the next best video). An optional light mid reminder is fine if it serves the
-content, but don't pile on a third pitch. Each is value-first and in the agent's voice — never pushy.
+## The two CTAs — warm, value-named, never the brokerage (doctrine §10)
+1. **Resource, inside minute one:** the free thing (playbook, guide, checklist, the community) — "link in the
+   description or the pinned comment."
+2. **The call, a third to halfway in:** "If you want mentorship and support to apply this, book a call — happy
+   to help one on one." Mike's phrasings in doctrine §10, rewritten in the member's voice. The brokerage name
+   raises the guard (`/94`) — never "if you want to join [brokerage], click below."
+A light reminder at the close is fine; never a third pitch. Both feel like invitations, which is why they work.
 
-## Short-form cut (30–45s)
-Hook (§5 rules — straight into the viewer's question, no "welcome back") → one core point → a brief CTA in the
-§6 spirit (invite them to book / reach out) → caption + hashtags (#Shorts #YouTubeShorts + 2–4 niche + 1–2 trending).
+## The Short cut (30–45 s)
+```
+════════════════════════════════════════════
+45-SECOND SHORT
+════════════════════════════════════════════
+{the pain in line one, straight in → one point → the invite ("full video on my channel" / "grab the playbook")}
+Caption: {one line}   Hashtags: #Shorts + 2–4 niche + 1–2 timely
+```
+
+## Footer (every script)
+```
+────────────────────────────────────────────
+Stories used — {story-bank hook(s)} (stamped).   Facts verified — {claim} ({source}, {date}).
+Compliance — cardinal rules · no compensation figures · former brokerage unnamed · disclosure in the description · [status].  ✓
+```
 
 ## Voice guardrails
-Mirror the AI Brain voice. No hype, no pressure, no clickbait unless the voice calls for energy. Honor
-every hard-avoid, all compliance rules, and the verified-facts rule above.
+Mirror `voice.md` + `voice-print.md`. No hype, no pressure, no clickbait unless the voice genuinely calls for
+energy. Honor every hard-avoid, every compliance rule, and the verified-facts rule. The script must never make
+the member say something false, salesy, or unlike themselves.

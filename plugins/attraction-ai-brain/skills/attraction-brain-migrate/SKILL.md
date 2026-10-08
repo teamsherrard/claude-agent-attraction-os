@@ -9,7 +9,7 @@ description: >
   Trigger on: "upgrade my attraction brain", "migrate my attraction brain", "is my attraction brain
   up to date", "my attraction brain looks out of date", "fix my attraction brain structure", or run
   this after a plugin update if a skill reports the Brain schema is behind. Do NOT trigger when the
-  member wants to change their information (update my offer / update my brand / update my
+  member wants to change their information ("update my offer" / "update my brand" / "update my
   story") — those edit content via the phase skills, not the Brain's structure.
 ---
 
@@ -52,10 +52,12 @@ here describing the exact transformation. Each entry is idempotent and safe to r
 - **→ `aa-1.0` (baseline, 2026-10):** the first Agent Attraction Brain structure (plan §4) —
   `identity/` (profile · journey · avatars · prospect-intel · positioning · offer · brokerage-model ·
   voice · voice-samples · voice-print · proof · story-bank · brand-visual · content-pillars · goals ·
-  leadership · operations · compliance · strategy), `memory/` (top-50 · conversations · pipeline ·
-  organization · scorecard · objections · debriefs · content-log · ideas · intel · deadlines),
-  `config.md` (Storage provider · Workspace folder / ID / link / Owner account · Brain home ·
-  Schema · CRM · Timezone · Locale · Setup progress · Debrief task id · Last synced), `brain.md`,
+  execution-framework · leadership · operations · compliance · strategy), `memory/` (top-50 · conversations ·
+  pipeline · organization · scorecard · objections · debriefs · capture-log · content-log · ideas · intel ·
+  intel-reports/ · deadlines), `config.md` (the registry keys in `shared/brain-contract.md`: Schema · Storage
+  provider · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task ·
+  Agent Movement Watcher task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week — plus the
+  supporting fields Owner account · Brain home · Locale · Last synced), `brain.md`,
   `exports/`. No legacy Brains exist; this is the starting point. No migration needed.
 
 ### Step 2b — Repair pass (runs on every invocation, including current-schema Brains)

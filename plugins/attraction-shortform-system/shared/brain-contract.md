@@ -54,9 +54,9 @@ the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet).
 | File | Owner skill | Also writes (designated lines only) |
 |---|---|---|
 | `identity/content-pillars.md` | `sf-setup` (creates it in Week 3; "update my pillars" edits one section) | `sf-ideas` appends to the `## Hooks bank` section only |
-| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, bios) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it; `sf-analytics` → `Weekly Content Performance task:` (task id or `declined`) |
+| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, bios) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it |
 | `memory/content-log.md` — **Short-Form rows only** | every content skill appends its own rows; `sf-publish` updates the Status and Link of a row it finds | YouTube, the AI Editor, and Events own their own rows; nobody edits another plugin's row except the Editor flipping Status to `Edited` |
-| `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` (one line: installed date, plugin version, pointer to `publishing.md`) | nothing else in `config.md`, ever |
+| `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` creates the block: `Installed:` date · `Plugin version:` · `Layer:` → `identity/publishing.md` · `Weekly Content Performance task: not offered yet` | `sf-analytics` → the `Weekly Content Performance task:` line in this block only (task id or `declined`); nothing else in `config.md`, ever |
 | `memory/content-performance.md` | `sf-analytics` (the Friday performance ledger — which Reels, stories, and keywords produced agent DMs; inside the sync allowlist) | the content skills read it; nobody else writes it |
 | `memory/conversations.md` — **interim rows only** | the Conversion & Sales plugin (Week 5) owns it; until the Conversion / AI Admin plugins exist, `sf-comment-to-dm` writes a conversation row that starts from a Reel or story (through `attraction-capture` when the Brain plugin is present, directly in the same locked row shape otherwise) | no other short-form skill writes it |
 
@@ -87,7 +87,7 @@ above); the content skills never do.
 ## `identity/publishing.md` — the shape (this plugin defines it; every line is a locked key)
 ```
 # [Member First Name] — Publishing (the short-form layer)
-*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board (Content board), sf-comment-to-dm (Keyword), sf-analytics (Weekly Content Performance task).*
+*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board (Content board), sf-comment-to-dm (Keyword). The Friday task id lives in config.md's Short-Form block, not here.*
 **Short-form setup:** [not started | pillars done | bios done | keyword done | complete YYYY-MM-DD]
 **Platforms (priority order):** [Instagram Reels · TikTok · YouTube Shorts · Facebook Reels · LinkedIn]
 **Cadence:** [N Reels/week · stories daily] · **Weekly mix:** [2 attraction · 2 authority · 1 story] · **Batch day(s):** [ ]
@@ -95,7 +95,6 @@ above); the content skills never do.
 **Posting tool:** [manual | metricool · connected YYYY-MM-DD · brand [name] | gohighlevel · connected YYYY-MM-DD · location [name] | declined YYYY-MM-DD]  ← one line, no secrets
 **Best times:** [per network, from the connected tool — empty until connected]  ← `sf-publish` writes only this line and the one above
 **Content board:** [URL | declined YYYY-MM-DD | (empty = not offered yet)]
-**Weekly Content Performance task:** [task id | declined | not offered yet]
 **Link in bio:** [tool · the links in order, each with its action text]
 **Story highlights:** [About · Agent wins · Culture · Free value · Partner with me · (passions)]
 ## Bios (current — YYYY-MM-DD)
@@ -120,7 +119,8 @@ plugin writes `content-pillars.md`. `attraction-brain-sync`'s allowlist must car
 ## Scheduled agents this plugin owns
 **Weekly Content Performance** (Friday) — owned and provisioned by `sf-analytics`, only with the member's
 explicit yes, draft-only; the YouTube plugin appends its section from Week 4. `sf-setup` mentions it once as a
-later option and never provisions it. Task id recorded on the `Weekly Content Performance task:` line.
+later option and never provisions it. Task id recorded on the `Weekly Content Performance task:` line of the
+`## Short-Form (Week 3)` block in `config.md` (locked spelling; `sf-setup` creates the line as `not offered yet`).
 
 ## Documents this plugin produces (per the Brain's `shared/drive-map.md`, located by Workspace ID)
 - Reel scripts, the 30-day calendar, green-screen packages, story sets → `03 · Content/Short-Form/[YYYY-MM · Month]/`

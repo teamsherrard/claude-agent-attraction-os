@@ -60,7 +60,7 @@ Read `identity/compliance.md`. **Set / confirmed** → proceed, apply its rules 
 license display where their rules require it in bios; no compensation in public). **Unset** → still
 write the Brain file and show the member their private-call material, but hand over the public-facing
 one-liner and bio lines with this plain line and nothing else: *"Before this goes in a bio or on camera,
-your compliance rules need setting — say 'set my compliance rules' and it's five minutes."* "If empty,
+your compliance rules need setting — say 'set up my attraction compliance' and it's five minutes."* "If empty,
 proceed" is banned.
 
 ---

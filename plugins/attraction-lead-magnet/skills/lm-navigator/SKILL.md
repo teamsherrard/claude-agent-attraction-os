@@ -1,19 +1,20 @@
 ---
 name: lm-navigator
 description: >
-  The front door for the Lead Magnet plugin — the ONE place a real estate leader starts when they want a
-  lead magnet and opt-in funnel for attracting agents. Quietly checks the Agent Attraction Brain is loaded
-  and that the Week 2 Partner Offer is finalized (if not, says plainly that the offer comes first and
-  names the way back), works out whether they're starting fresh or picking up a half-built campaign, opens
-  with ONE personal welcome (never a menu), and routes. For a FIRST campaign it does not ask what to build:
-  it locks the Honest Brokerage Comparison Guide — factual, cited, dated, no ranking, no trash talk — then
-  runs a short intake (5 questions, each pre-answered from the Brain) and hands the magnet skill everything
-  it needs. Second campaign onward, the choice opens up through the magnet-ideas skill. Catches the cold
-  start (someone asking for the page before the guide exists) and never bounces them.
-  Trigger on: "launch my lead magnet plugin", "set up my lead magnet for agents", "lead magnet for agents",
-  "attraction lead magnet", "build my brokerage comparison guide", "honest comparison guide", "set up my
-  attraction funnel", "opt-in funnel for agents", "finish my agent lead magnet", "pick up my attraction
-  funnel", or any vague, first-time, or unclear request for a magnet or funnel aimed at agents.
+  The front door for the Lead Magnet plugin — where a real estate leader starts when they want a
+  lead magnet and opt-in funnel for attracting agents. Quietly checks the Agent Attraction Brain
+  is loaded and the Week 2 Partner Offer is finalized (if not, says plainly the offer comes first
+  and names the way back), works out fresh start vs half-built campaign, opens with ONE personal
+  welcome (never a menu), and routes. For a FIRST campaign it locks the Honest Brokerage
+  Comparison Guide — factual, cited, dated, no ranking, no trash talk — runs a 5-question intake
+  pre-answered from the Brain, and hands the magnet writer everything. From campaign two the
+  choice opens up via magnet-ideas. Catches the cold start (the page asked for before the guide
+  exists) and never bounces them.
+  Trigger on: "launch my lead magnet plugin", "set up my lead magnet for agents", "lead magnet for
+  agents", "attraction lead magnet", "build my brokerage comparison guide", "honest comparison
+  guide", "set up my attraction funnel", "opt-in funnel for agents", "finish my agent lead
+  magnet", "pick up my attraction funnel", or any vague first-time magnet or funnel request aimed
+  at agents.
 ---
 
 # Lead Magnet Navigator — the front door

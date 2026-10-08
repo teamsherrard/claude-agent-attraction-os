@@ -418,8 +418,8 @@ above is complete per `/46`.
 
 Getting agents becomes easy; keeping them is the game. A family-like feel across state and country lines; no
 inner circles; unforgettable experiences; reinvest rev share back into the community (treating it as 100%
-profit leads to a plateau where you lose more than you gain). The Team & Retention plugin (Week 6) owns this
-in depth from modules 13–16; the Brain's `leadership.md` captures readiness now so no one attracts agents they
+profit leads to a plateau where you lose more than you gain). Week 6's Retention & Duplication lessons (modules 13–16)
+cover this in depth, and the AI Admin's weekly review carries recognition; the Brain's `leadership.md` captures readiness now so no one attracts agents they
 cannot serve.
 
 ---

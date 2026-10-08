@@ -1,6 +1,6 @@
 # Top-50 — the named prospect ledger
 *memory · the agents the member will build a real relationship with · the AI's working memory, NOT the CRM (the CRM stays the system of record; when they conflict, the CRM wins)*
-*Owner: `attraction-top-50`. Sources: their sphere, a CRM export, Gmail contacts, Prospect Radar. `attraction-capture` adds a row when a name comes up; the Daily Debrief updates Last touch / Next move / Stage. The Conversion & Sales and AI Admin plugins READ this from Week 5.*
+*Owner: `attraction-top-50`. Sources: their sphere, a CRM export, Gmail contacts, Prospect Radar. `attraction-capture` adds a row when a name comes up and, until the AI Admin exists, records stage moves on the member's word; the Daily Debrief only *requests* Last touch / Next move / Stage updates — it never writes this file. The Conversion & Sales and AI Admin plugins READ this from Week 5.*
 *Row shape is LOCKED — every plugin reads these columns. Type uses the six avatar types. Stage uses the locked pipeline vocabulary. Never a protected characteristic in any cell.*
 
 **Stages:** Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active · (Parked = fit and timing, never disrespect)

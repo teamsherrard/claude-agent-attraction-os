@@ -8,7 +8,7 @@
 ## Mechanics (as the member's materials state them)
 - **Split and cap:** [split · annual cap amount · what happens after cap · when the cap resets · any cap-deferral or cap-honoring program — source]
 - **Fees:** [joining · monthly · per-transaction · E&O · other — source]
-- **Revenue share / profit share:** [how it is funded (company dollar, paid only on closed deals) · number of tiers · how a tier "unlocks" · per-tier annual maximum if stated · what happens to it if the member leaves or passes (willable?) — source]
+- **Revenue share / profit share:** [how it is funded (company dollar, paid only on closed deals) · number of tiers · how a tier opens · per-tier annual maximum if stated · what happens to it if the member leaves or passes (willable?) — source]
 - **Stock / equity:** [awards for first deal, capping, attracting · any production-award program that returns the cap in stock · purchase-plan discount — source. Never project a future share price: `03-model-positioning/14`.]
 - **Sponsorship rules:** [one sponsor, chosen at joining · can it be changed? · co-sponsorship available? — source]
 - **Support layers:** [brokerage support (transactions, tech, compliance) vs sponsor/upline support (strategy, mentorship, coaching) · how many layers above a new agent]

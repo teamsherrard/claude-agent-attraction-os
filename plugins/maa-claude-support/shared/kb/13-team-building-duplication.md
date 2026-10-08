@@ -30,7 +30,7 @@ How growth stops depending on you. Attracting agents yourself is linear; your ag
 - What do I tell an agent who asks what's in it for them?
 - How does the compounding math work?
 **Do / don't:** Do make it as easy as "invite them to my call." Don't expect agents to attract without knowing what's in it for them.
-**Related:** 13/66, 13/64, 10/43, 01/07, 01/09, 16/82
+**Related:** 13-team-building-duplication/66, 13-team-building-duplication/64, 10-presentation-delivery/43, 01-foundation-mindset/7, 01-foundation-mindset/9, 16-implementation-scaling/82
 
 ---
 
@@ -50,7 +50,7 @@ How growth stops depending on you. Attracting agents yourself is linear; your ag
 - My brokerage's onboarding is bad. What do I do?
 - How often should I check in with a new agent?
 **Do / don't:** Do give access to everything on day one with a clear "start here." Don't go quiet after they join.
-**Related:** 13/65, 10/42, 13/67, 14/68, 16/82
+**Related:** 13-team-building-duplication/65, 10-presentation-delivery/42, 13-team-building-duplication/67, 14-retention-culture/68, 16-implementation-scaling/82
 
 ---
 
@@ -71,7 +71,7 @@ How growth stops depending on you. Attracting agents yourself is linear; your ag
 - What is the retention formula?
 - How many deals or agents before someone is likely to stay?
 **Do / don't:** Do explain why to plug in, with proof. Don't assume they know what they have access to.
-**Related:** 13/64, 14/69, 14/71, 16/78, 14/72
+**Related:** 13-team-building-duplication/64, 14-retention-culture/69, 14-retention-culture/71, 16-implementation-scaling/78, 14-retention-culture/72
 
 ---
 
@@ -92,7 +92,7 @@ How growth stops depending on you. Attracting agents yourself is linear; your ag
 - My agent is excited about revenue share but doesn't understand the model. What do I do?
 - How do I decide which agents to invest my time in?
 **Do / don't:** Do make them learn the model and edification before they talk to anyone. Don't let an agent recruit untrained.
-**Related:** 13/63, 13/65, 10/43, 16/80, 16/81
+**Related:** 13-team-building-duplication/63, 13-team-building-duplication/65, 10-presentation-delivery/43, 16-implementation-scaling/80, 16-implementation-scaling/81
 
 ---
 
@@ -114,4 +114,4 @@ How growth stops depending on you. Attracting agents yourself is linear; your ag
 - Which community platform does Mike use?
 - What do I do first if I can't afford a VA yet?
 **Do / don't:** Do template anything you do twice. Don't be the only support channel.
-**Related:** 13/64, 14/71, 16/79, 16/78, 14/69
+**Related:** 13-team-building-duplication/64, 14-retention-culture/71, 16-implementation-scaling/79, 16-implementation-scaling/78, 14-retention-culture/69

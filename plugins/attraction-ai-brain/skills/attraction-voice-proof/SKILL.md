@@ -67,9 +67,10 @@ Collect conversationally, or by upload/import. The Setup questions, exactly:
   their situation, and the year. Client reviews can be noted separately as production proof if the member
   wants them in; they are not agent proof.
 
-Write to `~/attraction-brain/identity/proof.md` in this shape: a `Production` block, an `Agents helped`
-table (name · what they did · what happened · permission), an `Organization` line (count · as of date),
-a `Reviews from agents` block, and a `Not yet` line listing any category that is honestly empty.
+Write to `~/attraction-brain/identity/proof.md` under the template's headings: `Production wins`, the `Agents
+already helped` table (agent · what the member did · what happened · when · OK to use publicly?), the
+`Organization today` line (count · as of date), `Reviews and testimonials FROM AGENTS`, and one honest line in any
+category that is empty (never a manufactured entry).
 
 **Strict no-invent.** Nothing goes in this file that the member did not state or that was not in a file
 they handed over. No invented agents, no invented numbers, no invented quotes. An empty category is written

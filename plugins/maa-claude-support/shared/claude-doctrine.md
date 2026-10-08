@@ -11,7 +11,7 @@ Think of Claude as one brain with four rooms:
 | Room | What it's for | When a cohort member uses it |
 |---|---|---|
 | **Chat** (claude.ai) | A conversation you steer turn by turn | Quick questions, thinking out loud, one-off writing |
-| **Cowork** | Delegation: describe the job, Claude works across your files and tools, you come back to finished work | **Home base — 95% of the system lives here.** All 10 Agent Attraction OS plugins run here |
+| **Cowork** | Delegation: describe the job, Claude works across your files and tools, you come back to finished work | **Home base — 95% of the system lives here.** All 9 Agent Attraction OS plugins run here |
 | **Claude Design** (claude.ai/design) | Turning words into visual design on a live canvas | **The Design Studio lives here** — the `ds-` skills are UPLOADED zips (Design can't run plugins): the Design Package (logo, style sheet, brand), the offer stack and product mockup, the Value Vault (ebook, course, playbook), plus briefs from `yt-thumbnail` and the Lead Magnet plugin |
 | **Claude Code** | The engineering room (a terminal) | Members basically never. That's where Mike's team builds the plugins |
 

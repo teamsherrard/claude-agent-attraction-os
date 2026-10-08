@@ -45,6 +45,7 @@ Read `~/attraction-brain/brain.md` first, then:
 - `memory/ideas.md` (tag `story`) — the member's own moments, first; `memory/debriefs.md` is the Debrief's
   file — don't read it here; the member's "what happened today" comes from them in one line
 - `memory/intel.md` — a verified item for an "opportunity" take (facts only)
+- `memory/content-performance.md` — which stories got replies (from `sf-analytics`); skip if it doesn't exist yet
 
 **Read the Brain; never re-ask.** `~/attraction-brain/` missing → pull with `attraction-brain-sync`.
 
@@ -87,8 +88,9 @@ The story-reply flow is the DM rung of the ladder. The CTA is a question the vie
 If `publishing.md` says `ManyChat: connected` → the reply word triggers the **story-reply** sequence (Mike's
 bonus asset, imported into the member's account); write the CTA around that word. Otherwise → the member replies
 by hand within the day (say so once), and from Week 5 the Daily Follow-Up Queue surfaces replies. A reply that
-turns into a real conversation is handed to `sf-comment-to-dm` → the Conversion plugin; this skill never logs a
-conversation.
+turns into a real conversation is handed to `sf-comment-to-dm` — the one short-form skill that logs a conversation
+row (through `attraction-capture` when present) until the Conversion and Admin plugins exist; this skill never
+logs one.
 
 ## Phase 3 — Compliance pass (third law, three-state)
 `identity/compliance.md`: `unset` → the set stays in chat as a private draft with the plain line; `set` → apply +

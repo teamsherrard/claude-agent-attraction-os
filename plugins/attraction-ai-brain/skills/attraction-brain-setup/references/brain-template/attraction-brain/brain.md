@@ -18,7 +18,7 @@
    - A story seed → `identity/story-bank.md` (Seeds section)
    - A content idea → `memory/ideas.md` · Anything published or scripted → `memory/content-log.md`
    - Brokerage or industry news → `memory/intel.md` · A date or follow-up → `memory/deadlines.md`
-   - The day's numbers → `memory/scorecard.md` (the Daily Debrief owns this) · the debrief itself → `memory/debriefs.md`
+   - The day's numbers → `memory/scorecard.md` (the Daily Debrief appends the daily row) · the debrief itself → `memory/debriefs.md`
    On-the-go captures route through **attraction-capture**. One owner per file (`shared/brain-contract.md`);
    a reader never rewrites a file it does not own.
 3. **STAY COMPLIANT.** Before anything public-facing (a post, a script, a bio, a DM template, an email, an
@@ -55,11 +55,11 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 ## The files
 **identity/** — who the member is as a leader (set once, changes rarely)
 - `identity/profile.md` — name, brokerage, market, agent type, years in, before-story, what they are building
-- `identity/journey.md` — the three journey beats with "who relates to this", the leader moment, the WHY
+- `identity/journey.md` — the three journey beats with "who relates to this", the leader moment, the WHY · the "Why join me" story at the end (Week 2, `attraction-why-join-me`)
 - `identity/strategy.md` — what they want to be known for, growth focus, constraints, leaders they admire
 - `identity/avatars.md` — the 1–3 Agent Avatars (type, pains, what they've tried, what they need to hear)
 - `identity/prospect-intel.md` — RESEARCHED local agent landscape: brokerage footprint, moves, where they gather (sourced + dated; refreshed quarterly by Prospect Radar)
-- `identity/positioning.md` — the model positioned without pitching: the one-line "why I'm here", the 2-minute model script, what stays for the private call, the why-join-me story
+- `identity/positioning.md` — the model positioned without pitching: the one-line "why I'm here", the 2-minute model script, what stays for the private call
 - `identity/offer.md` — what they have to give: the three layers (brokerage · upline · you), the value stack vs the five pains, free vs paid, the UVP one-liner (Status: seeds until Week 2)
 - `identity/brokerage-model.md` — THEIR model explained in plain English, from their materials + `shared/brokerage-models.md` (private-call material)
 - `identity/voice.md` — tone rules, sounds-like / never-sounds-like, signature phrases, primary CTA
@@ -80,7 +80,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/conversations.md` — every agent conversation, dated (the AI's working memory, NOT the CRM — the member's CRM stays the system of record; when they conflict, the CRM wins)
 - `memory/pipeline.md` — Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active
 - `memory/organization.md` — agents in the organization: join date, status, retention notes
-- `memory/scorecard.md` — one block per week against the 90-day targets (the Daily Debrief writes it)
+- `memory/scorecard.md` — the Targets block (attraction-goals) plus daily rows (the Daily Debrief) and weekly rows (the weekly check-in) against the 90-day targets
 - `memory/objections.md` — objections heard + the answer that worked (the Short-Form System reads it for objection reels)
 - `memory/debriefs.md` — the Daily Agent Attraction Debrief log: today's conversations, the score, tomorrow's three moves
 - `memory/content-log.md` — everything published or scripted (check before creating, to avoid repeats)

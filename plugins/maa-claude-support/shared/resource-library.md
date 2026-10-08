@@ -54,7 +54,7 @@ the member's.
 | "Why YouTube / is it worth it?" | YouTube (08/91) · My YouTube Journey (08/92) | https://www.loom.com/share/49fc23d0479344e7a4156b254c4f6abf |
 | "What happens on the call, start to finish?" | Sequence of Events (10/42) | https://www.loom.com/share/10a0927d57da4615990ea0bc69a50ae2 |
 | "Why 3-way calls?" | 3-way calls (10/43) | https://www.loom.com/share/f1b224ce1423467c85010ab72637cbda |
-| "They hit me with an objection" | 7 Objection Archetypes (11/46) + the specific objection's lesson (11/48–62) | https://www.loom.com/share/3695a36d1a7f4e7a9cd1ee7f6c1b41aa |
+| "They hit me with an objection" | 7 Objection Archetypes (11/46) + the specific objection's lesson (11/48–50, 52–62) | https://www.loom.com/share/3695a36d1a7f4e7a9cd1ee7f6c1b41aa |
 | "How do I follow up without 'just checking in'?" | Simple Follow Up (12/85) | https://www.loom.com/share/a83a36e5c86c4a4b97bbf64392d8bcc7 |
 | "An agent joined — now what?" | Creating an Onboarding Experience (13/64) · Plugging in (13/65) | https://www.loom.com/share/765a6b7b062a441daa7005f2b7c44ff9 |
 | "I'm drowning supporting my agents" | Supporting Without Babysitting (14/71) · Systems Without Burnout (13/67) | https://www.loom.com/share/6fda150ef4054840a188a8ae919cbab3 |

@@ -25,6 +25,8 @@ Agent type: [solo / team leader / on a team / broker-owner]
 Licensed: [year] ([N] years)
 Before real estate: [one specific line — "former high-school teacher", "nine years selling cars"]
 Building: [a downline at a cloud brokerage / a local team / a local brokerage / a mix — see strategy.md]
+Booking link / primary CTA: [URL — or "none yet"]
+Social handles: [Instagram / YouTube / TikTok / LinkedIn / Facebook — as known]
 
 ## Their brokerage and why
 Joined: [Month YYYY]
@@ -39,8 +41,8 @@ Out loud: "[the one line they would actually say to another agent]"  [(suggested
 ```
 
 **Rules:** human reason only; former brokerages never named; nothing negative about any brokerage or
-person; nothing invented. Booking link, CRM, hours, and socials live in `operations.md` (the AI Admin's
-file), not here.
+person; nothing invented. Booking link and social handles are profile fields (the template carries them —
+fill them when known); CRM, hours, and the call cadence live in `operations.md` (the AI Admin's file).
 
 ---
 

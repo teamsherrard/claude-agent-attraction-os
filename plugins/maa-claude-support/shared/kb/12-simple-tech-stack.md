@@ -26,7 +26,7 @@ Mike's deliberately minimal tooling for attraction and the follow-up philosophy 
 - How did Mike track his prospects?
 - Which Zoom plan do I need?
 **Do / don't:** Do template the two emails and personalize the first paragraph. Don't buy a CRM or drip system to cover for weak calls.
-**Related:** 12/85, 10/42, 13/67, bonus (Calendly)
+**Related:** 12-simple-tech-stack/85, 10-presentation-delivery/42, 13-team-building-duplication/67, bonus (Calendly)
 
 ---
 
@@ -47,7 +47,7 @@ Mike's deliberately minimal tooling for attraction and the follow-up philosophy 
 - Which platform matters most for nurturing versus converting?
 - Should I follow my prospects on Instagram?
 **Do / don't:** Do make sure prospects follow you and you follow them. Don't pitch in the DMs.
-**Related:** 12/85, 07/86, 07/89, 08/91, 15/73, 16/82
+**Related:** 12-simple-tech-stack/85, 07-instagram/86, 07-instagram/89, 08-youtube/91, 15-advanced-scaling/73, 16-implementation-scaling/82
 
 ---
 
@@ -70,4 +70,4 @@ Mike's deliberately minimal tooling for attraction and the follow-up philosophy 
 - Should I pay for a prospect to come to the company event?
 - What is the week-by-week follow-up plan?
 **Do / don't:** Do tie every touch to something that benefits them. Don't "just check in."
-**Related:** 12/83, 12/84, 10/42, 10/41, 15/74
+**Related:** 12-simple-tech-stack/83, 12-simple-tech-stack/84, 10-presentation-delivery/42, 10-presentation-delivery/41, 15-advanced-scaling/74

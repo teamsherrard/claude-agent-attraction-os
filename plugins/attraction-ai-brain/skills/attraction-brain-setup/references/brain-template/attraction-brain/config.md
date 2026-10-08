@@ -39,4 +39,4 @@ connector for storage + email + calendar (`shared/connectors.md`). Email is draf
 
 ## Later plugins register here (one block each, written by that plugin's setup; the Brain never edits them)
 *Short-Form (Week 3) · AI Editor (Week 3) · YouTube (Week 4) · Conversion & Sales (Week 5) · AI Admin (Week 5) ·
-Team & Retention (Week 6) · Lead Magnet (Week 6) · Events (Week 6). An empty block means "not installed yet", never "broken".*
+Lead Magnet (Week 6) · Events (Week 6). An empty block means "not installed yet", never "broken".*

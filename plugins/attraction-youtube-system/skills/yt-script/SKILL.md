@@ -1,107 +1,115 @@
 ---
 name: yt-script
-description: Script Studio — writes the full video script (long-form, plus a short-form cut) for a chosen idea, in the agent's own voice, teleprompter-ready. Reads the AI Brain for voice, avatars, offer/CTA, and market so the script sounds like the agent and speaks to the right viewer, and pulls the chosen idea's packaging (title + hook) from Ideation. Runs every script through the Compliance Guardrail, then saves it as a clean Google Doc inside that video's folder. Triggers on "write my script", "script this", "script idea #X", "write the script for [title]", or as a hand-off from Ideation.
+description: >
+  Script Studio for the attraction channel — writes the full teleprompter-ready script for a chosen idea in the
+  member's own spoken voice, in one of the four attraction formats (Why I Switched · Pain Point Series · Model
+  Breakdown · Niche Breakdown) or the interview intro and outro, on Mike's structure: the pain-point hook, the
+  resource CTA inside minute one, the value, the warm book-a-call CTA a third of the way in, the payoff, the
+  next video. Pulls real stories from the story bank and marks them used; Why I Switched never names the old
+  brokerage; model scripts explain mechanics, never compensation figures. Runs the 3-state compliance gate, saves
+  the script in the video's folder, and writes the content-log row at Scripted. Triggers on "write my attraction
+  script", "script this for agents", "script my why I switched video", "write my model breakdown script",
+  "script my pain point video", "script the interview intro", "write the script for [title] for agents".
 ---
 
-# Script Studio
+# Script Studio — the video, in the member's voice, ready to read
 
-Write the video — in the agent's voice, ready to read off a teleprompter.
+Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — the doctrine (#1), the Brain (#2), the 3-state gate (#3),
+voice (#5), sourcing (#6), docs (#7). The Brain Contract (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`):
+this skill writes the **content-log row at Scripted**, stamps a story's **Used-where**, and nothing else.
 
-> **Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`) — the source of
-> truth here. Build the script on **§4 video structure** (Hook → Primary CTA near the beginning → Body →
-> Secondary CTA → next-video direction), **§5 hooks** (incl. the §5.4 formula and the §5.5 bad-hook list),
-> **§6 CTAs** (the §6.2 primary-CTA structure + the §6.4 variations + the §26 library), **§7 body**, and the
-> **§24.6 script template** (conversational, easy to *speak*, never a stiff essay). Match the script to the
-> idea's video type and follow that pillar's structure — market updates §9.1, home tours §10.1 (+ new-
-> construction positioning §10.5), relocation §11.1, community tours §12.1, map tours §13.1/§13.3, lifestyle
-> §14.1. Length: relocation talking-head 8–12 min, other types 10–25 min (§27.6).
+**Lazy-load:** `references/format-playbooks.md` (the four formats + interview beats) at Step 2;
+`references/script-format.md` (layout, conventions, the Short cut) at Step 3; doctrine §8 (structure) and §10
+(the two CTAs) only if a line needs re-grounding. Never the whole doctrine.
 
-> **Part of the video package — one chat = one video.** Normally Step 2 of Make This Video. An agent can
-> also come straight here with their own idea ("just script this idea I had") — no Ideation step needed;
-> that chat simply becomes the video's chat. Gather whatever's missing, plainly.
+> **One chat = one video.** Normally Step 2 of make-video. A member can also come straight here with their own
+> idea ("script my why I switched video") — this chat becomes the video's chat. Gather what is missing, plainly.
 
-## Step 1 — Gather
-- The idea — either Ideation's package (title, hook, thumbnail) OR one the agent brings directly. If
-  they bring their own, quickly shape the title/hook/angle with them first, then write.
-- **AI Brain:** VOICE (tone, pacing, phrases, hard-avoids), avatars (their fear + questions),
-  offer/CTA, market specifics, communities, differentiators — **plus `identity/voice-print.md` (their
-  SPOKEN voice DNA: pace, verbatim signature phrases, filler, never-say) and `identity/story-bank.md`
-  (their real stories, tagged by topic).** Scripts are read aloud — the voice print is the primary
-  reference for cadence. Both may be empty on a new brain: proceed on voice.md alone, never fabricate.
-- Relevant **Research Brief** facts to use as talking points — ONLY verified, sourced ones (with source + date).
-- **For price-point / comparison videos** ("what $Xk gets you," "$X vs $Y"): use the live listing data from
-  the Research Brief — real beds/baths/sq ft/community/price — so you state real numbers, not placeholders.
-  If the Brief doesn't have it, pull current listings yourself first (see
-  `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`);
-  only `[double-check]` what genuinely can't be verified.
+## Step 1 — Gather (read; never re-ask)
+- **The idea package** — from ideation / make-video (title · bucket · hook · avatar · pain · signal · thumbnail
+  text) or the member's own. If their own: shape the title and angle with them in one exchange, assign the
+  bucket (Problem · Situation · Future · Interview · Model), then write.
+- **The Brain:** `identity/voice.md` (tone, hard-avoids) **and `voice-print.md`** (spoken cadence, signature
+  phrases, never-say — the primary reference for a read-aloud script; empty = proceed on `voice.md`, never
+  invent a personality) · `avatars.md` (the viewer, their pain in their words) · `offer.md` (the resource; `seeds`
+  → the resource CTA is the Partner Call) · `identity/channel.md` → the CTA line and the booking link ·
+  `story-bank.md` (stories tagged to this pain or beat — rotate; check `content-log.md` for recent use) ·
+  `proof.md` (real lines only, consent respected) · `journey.md` (Why I Switched material — the wall, never the
+  company) · `brokerage-model.md` (Model Breakdown — mechanics only; empty → *"say 'explain my model to me'
+  first so the breakdown is accurate"* → `attraction-brokerage-model`, stop) · `memory/objections.md` (the
+  objection this video answers) · `memory/intel.md` (a dated fact to cite, if relevant).
+- **Research facts** — only sourced ones from the Brief or the member (`(source, date)`); anything else is
+  `[double-check before filming]`, never a guess.
+- **Compliance, 3-state (`identity/compliance.md`):** a script is public. **unset → stop:** *"Before I write
+  anything you'll say on camera, I need your compliance basics — three minutes"* → `attraction-compliance`.
+  set → write, apply, remind once. confirmed → write, apply.
+- Missing local Brain → `attraction-brain-sync` first; a tool error is never "no Brain."
 
-## Step 2 — Write the long-form script
-Follow `references/script-format.md` and the doctrine's universal structure (§4) in `references/script-framework.md`:
-- **Hook (0:00–0:30/60s)** — use the idea's hook; follow the doctrine §5.4 formula: call out the viewer/
-  situation → introduce the tension/mistake/question/opportunity → say what the video helps them understand
-  → add a reason to stay to the end. NEVER "welcome back," a long personal intro, "today we're going to talk
-  about…," or a credentials dump (§5.5). It promises the payoff that matches the title/thumbnail.
-- **Primary CTA (right after the hook)** — the doctrine's §6.2 structure: brief intro ("if you're new here,
-  my name is [Name] with [Brokerage]…") + "people just like you" social proof + speak to "your unique
-  situation" + "avoid costly mistakes" + book a private call via the link in the description. Keep it short.
-  Use the right §6.4 variation for the avatar (buyer / seller / relocation / new-construction / luxury) and
-  the §26 library — pull the agent's real CTA wording, booking link, and brokerage from the Brain.
-- **Body** — deliver the hook's promise (§7): logical order, plain language, local specificity, no random
-  tangents; for each point answer *what they need to know · why it matters · what they should do* (§7.2) and
-  translate facts into guidance — never info-dump a stat without its meaning (§7.3). 3–5 clear sections, real
-  specifics + a story where natural, a pattern interrupt where it helps. Talking-point bullets for lists.
-  Follow the pillar's own body shape (market updates §9.1 · home tours §10.1/§10.5 · relocation §11.1 listicle
-  · community §12.1 · map tours §13.3 logical sequence · lifestyle §14.1).
-- *(Optional, only if it serves the content)* one light, value-first mid reminder tied to the material ("the
-  full checklist's linked below"). Never salesy, never a hard second pitch — the doctrine mandates two CTAs.
-- **Secondary CTA (the very end)** — the final thing said (§6.5): remind them to book/reach out + point to the
-  **next best video** (general next-video for a newer channel, a specific continuation for an established one).
-- **Chapters** — list the timestamped chapters at the end (they feed the SEO description).
-- Cues: `[brackets]` = delivery/B-roll · `>>` = on-screen text · `(source, date)` = a fact's source (not read aloud). Guidance only — no editing.
+## Step 2 — Choose the format (`references/format-playbooks.md`)
+Bucket → format: Situation with the member's own story → **Why I Switched** · Problem / Situation → **Pain Point
+Series** · Model → **Model Breakdown** · Problem / Future deep teach → **Niche Breakdown** · Interview → the
+**intro (recorded last) + outro + joint CTA** (the question map and the guest's prep belong to `yt-interview`).
+Each playbook fixes the beats, the length, the hook formulas that fit, the proof and story pulls, and the lines
+that never appear.
 
-**Keep it tight — never a 10-page essay.** Match the runtime: ~140 words/min. Target the doctrine's length
-(§27.6) — relocation talking-head **8–12 min**, all other types **10–25 min** — and write the word count to
-fit (e.g. a 10–12 min video ≈ 1,400–1,700 words). Value-dense, scannable, cut filler. Per §24.6 it must read
-**easy to speak** — conversational lines, clearly-labeled sections, bullet-friendly delivery — never a stiff essay.
+## Step 3 — Write the long-form script (`references/script-format.md` + doctrine §8)
+- **HOOK (0:00–0:15/0:30)** — the pain point in the first ten seconds, **written word for word** (`/94`): call
+  out the viewer's situation → the tension or question → what they'll have by the end. Never "welcome back," a
+  long intro, or a credentials dump. It matches the title and thumbnail's promise.
+- **RESOURCE CTA (inside minute one)** — the channel's resource line from `channel.md`, in the member's voice:
+  "grab the [resource], link in the description." No resource yet → the warm Partner Call line here and the
+  mid CTA becomes the lighter reminder.
+- **VALUE** — 3–5 clear sections; each answers *what they need to know · why it matters · what to do*; tactical
+  enough to use today; a real story or an agent's win woven where it lands (`/93`: "this is legit"); bullets
+  for lists; no tangents. Model scripts: mechanics and fit, never figures.
+- **CALL CTA (~a third to halfway in)** — the warm invite to a private one-on-one call, value-named, never the
+  brokerage name as the pitch (`/94`, `/98`). Rotate the phrasing across videos.
+- **PAYOFF** — deliver the promise; the reassurance the avatar came for.
+- **NEXT VIDEO (the very end)** — the next logical video on the channel (an interview on the same pain, the
+  model explained, the lane's playlist) — the last thing said (`/99`).
+- **CHAPTERS** — timestamped from the sections (they feed the SEO package).
+- Cues: `[brackets]` = delivery / b-roll · `>>` = on-screen text · `(source, date)` = not read aloud.
 
-**Verified facts only.** Use only facts you can source from the Research Brief, tagged `(source, date)`.
-Any number/claim you can't verify → write `[double-check before filming]`, never guess. The agent must never say something false on camera.
+**Length:** ~140 spoken words per minute. Default 10–15 minutes (`/94`); Why I Switched 8–12; Model Breakdown
+12–20; Niche Breakdown 10–20; interview intro 45–75 seconds, outro 30–45. Write the word count to fit.
+Value-dense; cut filler; easy to *speak*.
 
-## Step 3 — Voice (critical)
-Match the AI Brain voice exactly — and when `voice-print.md` exists, **write for the EAR in their spoken
-cadence**: their sentence length, their verbatim signature phrases, their energy; respect the never-say
-list. For a calm/consultative agent: short, clear sentences; reassuring; teach step-by-step; **no hype,
-no pressure, no clickbait.** Honor every hard-avoid. Read the script ALOUD as the agent — if a line
-sounds salesy or un-sayable in their mouth, rewrite it. Weave in their differentiator where it fits.
-**Stories:** before writing, check `story-bank.md` for a story tagged to this topic or emotional beat —
-a real banked story in the open or close beats any invented example (anonymize real clients, stamp its
-Used-where). If the agent volunteers a new story in chat, use it AND offer to bank it.
+## Step 4 — Voice (critical)
+Write for the ear in their spoken cadence: their sentence length, their verbatim signature phrases, their
+energy; honor every never-say and hard-avoid. Read it aloud as them — a line that sounds salesy, hyped, or
+un-sayable in their mouth gets rewritten. **Stories:** use a banked story in the open or the close before any
+example you would invent; anonymize agents and clients unless consent is on file; **stamp its Used-where** in
+`story-bank.md`. A new story the member tells in chat → use it and offer to bank it (`attraction-story-bank`).
+**Ship it complete — no blanks, no homework:** never `[add your story]`; every line filmable as written.
 
-**Ship it complete — no blanks, no homework.** Never insert `[add your story]`-style placeholders — gaps
-make agents overthink and resist. Write every line ready to read, including examples (drawn from the
-Brain's real differentiators, communities, and avatar situations). If the agent volunteers a story or a
-client example in chat, weave it in seamlessly — but the script must always be 100% filmable as delivered.
+## Step 5 — The Short cut (30–45 s)
+One vertical cut from the strongest moment: the pain in line one → one point → the invite. Caption + 3–5
+hashtags per `shared/seo-knowledge-base.md`. (Repurposing makes three more after publish.)
 
-## Step 4 — Short-form cut
-Also write one 30–45s short-form script (Reel/Short/TikTok): punchy hook (same §5 rules — straight into the
-viewer's question, no "welcome back") → one core point → a brief CTA in the §6 spirit (invite them to reach
-out / book).
+## Step 6 — Compliance + fact-check (before saving)
+1. Every stat, quote, brokerage fact, or agent result is sourced `(source, date)` or flagged
+   `[double-check before filming]`; no invented numbers; no testimonial without consent.
+2. The gate, applied: cardinal rules (no negative word about a brokerage or person) · no compensation figures,
+   rev-share tiers, stock numbers, or income · no earnings implication (any unavoidable figure is illustrative,
+   labeled, with the disclaimer) · the former brokerage unnamed · brokerage name and license where
+   `compliance.md` requires them (the description block, not the script) · AI-likeness disclosure if a clone
+   will read it · recruiting scope respected in the CTA. Fix anything flagged; never ship it.
 
-## Step 5 — Compliance + fact-check
-Before saving: (1) **fact-check** — verify every stat/claim is sourced from the Research Brief; flag anything
-unverifiable with `[double-check before filming]` and never leave an invented number; (2) run the
-**Compliance Guardrail** (Fair Housing language, required disclaimers). Fix anything flagged.
-
-## Step 6 — Save
-Create the video's folder if needed — `Videos/{YYYY-MM · Month}/{YYYY-MM-DD · Title}/` — and save the
-script as a clean doc named **Script** inside it. Format it per
-`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` §4 — a teleprompter-ready layout, NEVER a wall of text:
-a title + meta line (runtime · audience), ALL-CAPS section headers with timestamps set off by em-dash
-dividers (`──────── HOOK · 0:00 ────────`), a blank line between sections, spoken lines prominent, and
-cues (`>> ON SCREEN`, `[PAUSE]`, `FACT:`) on their own lines. Write it as the structured text in
-`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` (the Script skeleton — detailed in `references/script-format.md`),
-render it to the styled `.docx` per doc-format.md, and upload the `.docx` to the video's folder.
+## Step 7 — Save, log, push (write → push → verify)
+1. The video folder `03 · Content/Long-Form/YYYY-MM-DD · [Title]/` (resolve per
+   `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`; create only now). Render on the Script
+   skeleton (`references/script-format.md` → `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`) via `render_doc.py`;
+   upload as **`Script`**. Confirm plainly: *"Saved under Content → Long-Form → [video] → Script."*
+2. **The content-log row at Scripted** (`memory/content-log.md`, the locked shape): Date · Platform `YouTube` ·
+   Format `long-form` (or `interview`) · **Pillar** = Authority (Problem / Situation / Future), Proof
+   (Interview), or Perspective (Model) · Topic / hook = `[bucket] final title` · Avatar · Story used · CTA =
+   `resource: [name] · call` · Status `Scripted` · Link `—`. If `yt-interview` or `yt-model-breakdown` already
+   wrote this video's row at `Idea`, **update that row** — never a second one. A captured idea the member brought
+   straight here → mark its `ideas.md` row used now (make-video does this otherwise).
+3. Stamp the story's Used-where. Push via `attraction-brain-sync`; verify. Save fails → say it is not saved,
+   keep the script visible, retry once, stop.
 
 ## Hand-off
-After scripting → **SEO Engine** (title/description/tags/chapters) + **Lead Engine** (a matching lead
-magnet). Offer: "Want the SEO package and a lead magnet to go with this?"
+*"Script's ready. Next: the thumbnail brief (so you film the expression it needs), then the SEO package and
+your lead map."* → `yt-thumbnail` · `yt-seo` · `yt-leads`. Interviews → `yt-interview` for the question map and
+the guest's prep.

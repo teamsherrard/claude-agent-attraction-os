@@ -1,18 +1,18 @@
 ---
 name: lm-gbp
 description: >
-  Builds the member's Google Business Profile kit positioned for agent attraction — the profile that shows
-  on Google Maps and in AI answers when an agent in their market searches for a leader, a team, or a
-  brokerage to join (and still serves the clients who find them). Writes everything as a paste-by-paste
-  checklist in the GBP dashboard's own order: the 750-character description with the leader line, the
-  categories, a services list that includes what they give licensed agents (from the Partner Offer, as
-  outcomes, never compensation), seeded Q&A in their voice, the first month of Google posts pointed at the
-  comparison guide and the call, review-reply templates, a photo checklist, and the social-links setup that
-  puts every Reel on their Google listing. Reads the Agent Attraction Brain; 3-state compliance gate; copy
-  only — never logs into Google, never claims the profile for them.
-  Trigger on: "Google Business Profile for attraction", "position my Google profile for agents", "attraction
-  GBP", "Google posts about my guide", "Google profile for my team", "Google profile for my brokerage", or
-  any Google Business Profile request from a leader attracting agents.
+  Builds the member's Google Business Profile kit positioned for agent attraction — the profile
+  Google Maps and AI answers show when an agent in their market looks for a leader, team, or
+  brokerage to join (and still serves the clients who find them). A paste-by-paste checklist in
+  the dashboard's order: the 750-character description with the leader line, categories, a
+  services list that includes what they give licensed agents (from the Partner Offer, as outcomes,
+  never compensation), seeded Q&A in their voice, the first month of posts pointed at the
+  comparison guide and the call, review-reply templates, a photo checklist, and the social-links
+  setup that puts every Reel on the listing. Reads the Agent Attraction Brain; 3-state compliance
+  gate; copy only — never logs into Google or claims the profile.
+  Trigger on: "Google Business Profile for attraction", "position my Google profile for agents",
+  "attraction GBP", "Google posts about my guide", "Google profile for my team", "Google profile
+  for my brokerage".
 ---
 
 # Google Business Profile Kit — positioned for attraction
@@ -35,8 +35,9 @@ unset stops here**; brokerage name display, license display, the compensation po
 (name, brokerage, what they're building, market, socials, booking link), `identity/offer.md` (what they give
 agents — as outcomes), `identity/positioning.md` (the one line, the messaging pillars), `identity/avatars.md`
 (the questions agents actually ask), `identity/proof.md` (agents helped, consent; organization today, dated),
-`identity/profiles.md` (the identity line + GBP description if `lm-profiles` already wrote them — reuse,
-never re-invent), and `memory/magnets.md` → `## Current magnet` (the live guide and its funnel URL).
+`identity/profiles.md` (the bios the Short-Form plugin's `sf-setup` wrote in Week 3 and `lm-profiles` refined —
+reuse the identity line from the first line of the Instagram bio and the `## Google Business Profile` section
+if one exists; never re-invent), and `memory/magnets.md` → `## Current magnet` (the live guide and its funnel URL).
 One status question only (your turn — one word): *"Is your Google Business Profile already claimed and
 verified, brand new, or not sure?"* Unclaimed → point them to google.com/business to claim it (we never log
 in or claim for them — no credentials, ever); the kit works the moment they're in.

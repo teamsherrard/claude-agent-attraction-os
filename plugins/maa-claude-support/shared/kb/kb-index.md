@@ -18,7 +18,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 | # | Lesson | Loom (rewatch) | Ask this when… |
 |---|---|---|---|
 | 1 | What You Can Learn From It | https://www.loom.com/share/56f6e440f25b428cbdb9c50f611be107 | they want Mike's own story, how he started, or what his path proves is possible |
-| 2 | Attraction vs. Recuiting | https://www.loom.com/share/0987b179b2664d6caf3997f0b428aa14 | they ask what attraction is vs recruiting, or whether to cold-DM / cold-call agents |
+| 2 | Attraction vs. Recruiting | https://www.loom.com/share/0987b179b2664d6caf3997f0b428aa14 | they ask what attraction is vs recruiting, or whether to cold-DM / cold-call agents |
 | 3 | Guarantee success | https://www.loom.com/share/7cd416ed45d24c8885a3c083360f3721 | they ask how to get a return on this program, or how to make sure they don't waste it |
 | 4 | New Age of Real Estate — **video only, no transcript** (stub card; send them to the Loom, never quote it) | https://www.loom.com/share/e7be53f026af4ca2a35fbafa3729d8f5 | they ask why cloud-based models are winning or where the industry is going |
 | 5 | New Era of Cloud Based | https://www.loom.com/share/9dcb51757cec484cb5cf92182e11e2c2 | they ask about the era of cloud brokerages and why agents are moving |
@@ -63,7 +63,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 | 30 | Investing In Yourself | https://www.loom.com/share/2afd975d3c23415f9b9eb13fcf47dff7 | they ask about investing in their own growth / skills as part of the offer |
 | 31 | Free vs. Paid | https://www.loom.com/share/6145714825444bf399a828053120ace6 | they ask what to give away vs charge for (courses vs discounts) |
 | 32 | Features vs. Benefits | https://www.loom.com/share/1607e50c57cf49cba2340cc9637c0349 | their messaging lists features — outcomes-first, magnetic messaging |
-| 33 | Building Your Irresistable Offer | https://www.loom.com/share/eaac8f51e0e84c5b8a69959bbdbc9e1d | they ask how to build their offer / value stack (without talking splits) |
+| 33 | Building Your Irresistible Offer | https://www.loom.com/share/eaac8f51e0e84c5b8a69959bbdbc9e1d | they ask how to build their offer / value stack (without talking splits) |
 | 34 | Crafting Your Personal Story | https://www.loom.com/share/b7d717e196ce4d51b036292929ec5ee5 | they ask how to tell their 'why join me' story |
 
 ## The Big Picture — module file `05-big-picture.md` · Week 3
@@ -99,7 +99,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 |---|---|---|---|
 | 91 | YouTube | https://www.loom.com/share/49fc23d0479344e7a4156b254c4f6abf | they ask why YouTube is the #1 platform for attraction, or whether to bother |
 | 92 | My YouTube Journey | https://www.loom.com/share/bf19028f00c34b8a9ae05b4d124e9540 | they want Mike's YouTube story and timeline (and the honest 'how long') |
-| 93 | YouTube Content That Attracts — draft transcript (quote with care; the Loom is the authority) | https://www.loom.com/share/0ecc12408e4146618a5027f95fbd7fb0 | they ask what kinds of YouTube videos attract agents |
+| 93 | YouTube Content That Attracts (draft) — **draft transcript; quote with care, the Loom is the authority** | https://www.loom.com/share/0ecc12408e4146618a5027f95fbd7fb0 | they ask what kinds of YouTube videos attract agents |
 | 94 | Your Niche | https://www.loom.com/share/cc5e1a26e08145f4af4f2b2dfe93ca25 | they ask what YouTube topics fit their niche |
 | 95 | Interviews | https://www.loom.com/share/eee1f6aca35b452d881d28f9b3f07a38 | they ask how to run agent interviews that convert |
 | 96 | Model Breakdowns | https://www.loom.com/share/aa0834e62b734cecb6760b38e78060bf | they ask how to do a model breakdown / comparison video properly |

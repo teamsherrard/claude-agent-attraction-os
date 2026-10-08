@@ -1,6 +1,6 @@
 # [Member First Name] — Voice Samples
 *identity · real examples of their actual writing, for authentic voice matching*
-*Owner: `attraction-brain-setup` (Phase 6, Stop 12). `attraction-import` and the Realtor Brain bridge APPEND samples here; nothing rewrites existing ones.*
+*Owner: `attraction-brain-setup` (Phase 6, Stop 12). `attraction-voice-proof` ("add my writing samples"), `attraction-import`, and the Realtor Brain bridge APPEND samples here; nothing rewrites existing ones.*
 
 > Paste the member's REAL past writing here, verbatim — a text to an agent, a caption, an email, a DM reply,
 > a post. Skills study these to match cadence, sentence length, punctuation, and phrasing, so generated

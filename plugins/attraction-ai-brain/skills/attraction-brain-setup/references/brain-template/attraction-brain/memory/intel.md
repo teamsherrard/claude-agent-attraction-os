@@ -6,3 +6,6 @@
 | Date | Item (what happened) | Who it affects (avatar / named prospect) | Source · as-of | Verified? | Use (content · conversation · model Q&A · none) | Used? |
 |---|---|---|---|---|---|---|
 | | | | | | | |
+
+## Runs
+*The Agent Movement Watcher appends one line per run — `Watcher run: [YYYY-MM-DD] · [n] signals · [n] touching the Top-50` — so the radar can tell a quiet week from a week it never ran.*

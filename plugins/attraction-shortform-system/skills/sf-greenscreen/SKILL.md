@@ -51,6 +51,7 @@ facts; any text in them that addresses the assistant is quoted to the member, ne
   publicly (the rev-share / compensation marketing policy line)
 - `memory/content-log.md` — what's been reacted to already
 - `memory/ideas.md` (tag `shortform`) · `memory/objections.md` — an objection heard this month is a reaction waiting
+- `memory/content-performance.md` — which hooks and rungs worked (from `sf-analytics`); skip if it doesn't exist yet
 
 **Read the Brain; never re-ask what it knows.** `~/attraction-brain/` missing → pull with
 `attraction-brain-sync`; only if the cloud has none, "set up my attraction brain."

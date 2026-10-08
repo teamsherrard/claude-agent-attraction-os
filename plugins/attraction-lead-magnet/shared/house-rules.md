@@ -1,9 +1,12 @@
 # House Rules — apply to every Lead Magnet skill (Plugin 8, `lm-`)
 
 Every skill in this plugin follows these. When a skill says "apply house rules," it means this file. The
-OS-wide voice rules live in the Brain plugin's `shared/how-we-speak.md` and `shared/ask-once-default.md`;
-this file restates only what this plugin adds. Read `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` for the
-three laws and what this plugin reads and writes.
+OS-wide voice rules are `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` (plain language, the READY BRIEF,
+"empty is normal," the week rule, housekeeping last, the banned words) and
+`${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md` (ask once, default if unsure, a question is a handoff,
+consultant not scribe) — every skill reads them **by reference, never copied in**; this file restates only
+what this plugin adds. Read `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` for the three laws and what this
+plugin reads and writes.
 
 **Vocabulary (for you, never out loud):** "the member" is the real estate leader we serve — the person
 attracting agents to a cloud-brokerage organization, a local team, or a local brokerage. "Agents" are the
@@ -289,8 +292,11 @@ between sessions; only the cloud copy survives. The writes (full shapes in `shar
   **Current magnet** block every other plugin reads to point a CTA at the live guide.
 - **`memory/list-growth.md`** — the list tool, the nurture sequence status, the weekly list numbers, and the
   partners ledger.
-- **`identity/profiles.md`** — the final bios (`lm-profiles` only; the Short-Form plugin's `sf-setup` reads it
-  if present).
+- **`identity/profiles.md`** — the bios. **Owned by the Short-Form plugin's `sf-setup` (Week 3), which writes it
+  first;** `lm-profiles` is the designated Week 6 updater: it reads the file if present, refines every
+  platform's bio to the funnel's CTA inside the same `## <Platform>` section headings (never renames,
+  reorders, or deletes one), and creates the file only if it is absent — with the same headings `sf-setup`
+  uses (Instagram · Facebook · TikTok · LinkedIn · YouTube).
 - **`memory/ideas.md`** — mark a `leadmagnet` idea **used** only when it's actually built in (the one
   sanctioned touch on a file another plugin owns: status column only, same row).
 Readers never write files they don't own — this plugin never writes `offer.md`, `content-log.md`, or

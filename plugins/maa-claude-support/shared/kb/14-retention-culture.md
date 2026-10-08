@@ -27,7 +27,7 @@ Culture retains what attracting brings in. This module covers the six pillars of
 - How do I start building culture with a small group?
 - What's the first thing I should add to my calls?
 **Do / don't:** Do open every call with wins. Don't rely on split and cap to keep agents.
-**Related:** 14/69, 14/70, 16/82, 13/65
+**Related:** 14-retention-culture/69, 14-retention-culture/70, 16-implementation-scaling/82, 13-team-building-duplication/65
 
 ---
 
@@ -48,7 +48,7 @@ Culture retains what attracting brings in. This module covers the six pillars of
 - How do I get members posting instead of just me?
 - What rhythm should the community run on?
 **Do / don't:** Do put every new agent in the community on day one. Don't build on a Facebook group.
-**Related:** 14/68, 14/70, 13/65, 13/67, 16/82
+**Related:** 14-retention-culture/68, 14-retention-culture/70, 13-team-building-duplication/65, 13-team-building-duplication/67, 16-implementation-scaling/82
 
 ---
 
@@ -70,7 +70,7 @@ Culture retains what attracting brings in. This module covers the six pillars of
 - Why does Mike spend so much on experiences?
 - What should I film and share from events?
 **Do / don't:** Do document every experience and share it. Don't charge your agents for the dinner.
-**Related:** 14/68, 14/69, 15/74, 16/82, 12/84
+**Related:** 14-retention-culture/68, 14-retention-culture/69, 15-advanced-scaling/74, 16-implementation-scaling/82, 12-simple-tech-stack/84
 
 ---
 
@@ -93,7 +93,7 @@ Culture retains what attracting brings in. This module covers the six pillars of
 - Am I being harsh if I don't answer every text?
 - How do I support agents at scale?
 **Do / don't:** Do turn repeated questions into a recorded answer in your training. Don't do the task for them.
-**Related:** 13/65, 13/67, 14/70, 16/79
+**Related:** 13-team-building-duplication/65, 13-team-building-duplication/67, 14-retention-culture/70, 16-implementation-scaling/79
 
 ---
 
@@ -116,4 +116,4 @@ Culture retains what attracting brings in. This module covers the six pillars of
 - What is a good turnover rate?
 - Who runs exit interviews once the group is big?
 **Do / don't:** Do keep the door open when they leave. Don't get defensive in the exit interview.
-**Related:** 16/78, 16/81, 11/62, 13/65, 14/68
+**Related:** 16-implementation-scaling/78, 16-implementation-scaling/81, 11-objection-handling/62, 13-team-building-duplication/65, 14-retention-culture/68

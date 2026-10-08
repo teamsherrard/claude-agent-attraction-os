@@ -18,7 +18,7 @@ ads note (`01-foundation-mindset/02`), the plan's compliance list, and the cohor
 `identity/compliance.md` carries `Status: unset | set | confirmed`.
 - **unset** — the member has not answered Stop 15. **No public output.** Say it plainly and warmly: *"Before I
   write anything public, I need your compliance basics — how your brokerage name appears, your license display,
-  and your brokerage's rule on talking about income. Say 'set up my compliance' and it takes three minutes."*
+  and your brokerage's rule on talking about income. Say 'set up my attraction compliance' and it takes three minutes."*
   Private outputs (the model script, the money scenarios, the top-50) still run.
 - **set** — captured; apply every rule and remind the member once per session to confirm with their brokerage.
 - **confirmed** — the member confirmed on a date; apply.

@@ -59,7 +59,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How many objections should I expect on a call?
 - How do I stay calm when they push back?
 **Do / don't:** Do validate before you reframe. Don't get defensive or confrontational.
-**Related:** 11/48 to 11/62, 10/44, 03/13, bonus (objection framework)
+**Related:** 11-objection-handling/48 to 11-objection-handling/62, 10-presentation-delivery/44, 03-model-positioning/13, bonus (objection framework)
 
 ---
 
@@ -79,7 +79,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How do I challenge "happy" without being pushy?
 - What questions expose the gap between comfortable and goals?
 **Do / don't:** Do point back at the vision they already shared. Don't argue that they are unhappy.
-**Related:** 11/46, 11/57, 10/44
+**Related:** 11-objection-handling/46, 11-objection-handling/57, 10-presentation-delivery/44
 
 ---
 
@@ -98,7 +98,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How is revenue share different from an MLM?
 - Where does the revenue share money come from?
 **Do / don't:** Do walk through the math with real numbers. Don't make them feel silly for asking.
-**Related:** 11/46, 11/50, 03/14, 01/07
+**Related:** 11-objection-handling/46, 11-objection-handling/50, 03-model-positioning/14, 01-foundation-mindset/7
 
 ---
 
@@ -117,7 +117,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - Do agents have to recruit to benefit from revenue share?
 - How do I show them they already recruit?
 **Do / don't:** Do normalize it and show they already do it. Don't sell them on recruiting.
-**Related:** 11/46, 11/49, 01/02, 13/63
+**Related:** 11-objection-handling/46, 11-objection-handling/49, 01-foundation-mindset/2, 13-team-building-duplication/63
 
 ---
 
@@ -138,7 +138,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - What is co-sponsorship and when do I offer it?
 - Why does choosing a sponsor matter so much?
 **Do / don't:** Do ask for proof and show yours. Don't say a word against the other sponsor.
-**Related:** 11/46, 11/53, 03/13, 03/17, 10/43
+**Related:** 11-objection-handling/46, 11-objection-handling/53, 03-model-positioning/13, 03-model-positioning/17, 10-presentation-delivery/43
 
 ---
 
@@ -157,7 +157,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - Should I defend myself or respond in kind?
 - How do I turn gossip back into a question about the other agent?
 **Do / don't:** Do redirect to facts and proof. Don't retaliate or name the other person negatively.
-**Related:** 11/52, 11/46, 03/13
+**Related:** 11-objection-handling/52, 11-objection-handling/46, 03-model-positioning/13
 
 ---
 
@@ -176,7 +176,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How do I show the real cost of team leads?
 - What questions shift them from employee to owner thinking?
 **Do / don't:** Do run the split math with their numbers. Don't dismiss the value of the leads they get now.
-**Related:** 11/46, 02/21, 02/22, 02/25
+**Related:** 11-objection-handling/46, 02-prospect-targeting/21, 02-prospect-targeting/22, 02-prospect-targeting/25
 
 ---
 
@@ -195,7 +195,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How do I handle "where will I meet clients?"
 - What if they really do need an office?
 **Do / don't:** Do offer a partner or co-sponsorship with an office. Don't pretend the office never matters to anyone.
-**Related:** 11/46, 11/52, 01/05, 03/14
+**Related:** 11-objection-handling/46, 11-objection-handling/52, 01-foundation-mindset/5, 03-model-positioning/14
 
 ---
 
@@ -214,7 +214,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - Can agents build their own brand at a cloud-based brokerage?
 - Who usually raises the branding objection?
 **Do / don't:** Do show examples of agents with their own distinct brands. Don't knock a franchise brokerage by name.
-**Related:** 11/46, 04/29, 06/39, 03/15
+**Related:** 11-objection-handling/46, 04-value-proposition/29, 06-content-framework/39, 03-model-positioning/15
 
 ---
 
@@ -234,7 +234,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How do I talk to a successful agent without insulting their success?
 - What is the "average of five" argument?
 **Do / don't:** Do ask why they took the call. Don't argue they are not successful.
-**Related:** 11/48, 11/46, 02/23, 01/07
+**Related:** 11-objection-handling/48, 11-objection-handling/46, 02-prospect-targeting/23, 01-foundation-mindset/7
 
 ---
 
@@ -254,7 +254,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - What is an ICA and why check it?
 - How do I keep momentum while they wait to transition?
 **Do / don't:** Do build the plan with them before they move. Don't rush them past their closings.
-**Related:** 11/46, 11/60, 10/42, 13/64
+**Related:** 11-objection-handling/46, 11-objection-handling/60, 10-presentation-delivery/42, 13-team-building-duplication/64
 
 ---
 
@@ -274,7 +274,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - What does a flat-fee brokerage not give you?
 - How do I make the value worth more than the split?
 **Do / don't:** Do run the net-income math, not the split math. Don't apologize for the split.
-**Related:** 11/46, 11/60, 03/16, 04/31, 04/33
+**Related:** 11-objection-handling/46, 11-objection-handling/60, 03-model-positioning/16, 04-value-proposition/31, 04-value-proposition/33
 
 ---
 
@@ -293,7 +293,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - What is a cap deferral program?
 - When should a capped agent transition?
 **Do / don't:** Do ask when the cap resets and plan to it. Don't ask them to give up earned 100% for no reason.
-**Related:** 11/46, 11/58, 11/59, 03/15
+**Related:** 11-objection-handling/46, 11-objection-handling/58, 11-objection-handling/59, 03-model-positioning/15
 
 ---
 
@@ -312,7 +312,7 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How do I argue for switching now versus later?
 - What if they want to give the new brokerage a chance?
 **Do / don't:** Do explain why now is less disruptive. Don't push if they want to try it first; stay in relationship.
-**Related:** 11/46, 11/48, 12/85, 10/42
+**Related:** 11-objection-handling/46, 11-objection-handling/48, 12-simple-tech-stack/85, 10-presentation-delivery/42
 
 ---
 
@@ -331,4 +331,4 @@ Mike names the archetype only in lesson 46. For the handled objections below, th
 - How do I challenge broker loyalty respectfully?
 - What does a good broker do when an agent leaves?
 **Do / don't:** Do respect the loyalty out loud, then reframe around family. Don't bad-mouth their broker.
-**Related:** 11/46, 11/48, 14/72, 03/17
+**Related:** 11-objection-handling/46, 11-objection-handling/48, 14-retention-culture/72, 03-model-positioning/17

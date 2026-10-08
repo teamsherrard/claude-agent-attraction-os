@@ -1,19 +1,18 @@
 ---
 name: lm-profiles
 description: >
-  Writes the member's bio / about section for EVERY platform, aligned to their agent-attraction funnel —
-  Instagram, TikTok, Facebook, LinkedIn, YouTube, X, Threads, Google Business Profile, the brokerage site,
-  plus an email signature — each sized to that platform's real character limit (count shown, never over),
-  passing the 5-question profile test (who you are · who you help · the outcome · why believe you · what to
-  do next) with ONE link (the funnel, else the booking link) AND one identity line on every platform so AI
-  answers can find the same leader everywhere. Reads everything from the Agent Attraction Brain, saves the
-  pack as a styled doc, and writes the finals to identity/profiles.md — the one owner; the Short-Form
-  plugin's sf-setup reads it if present. 3-state compliance gate; license display never cut for space.
-  Copy only — never logs into any platform.
-  Trigger on: "attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles to my
-  funnel", "my Instagram bio for agents", "LinkedIn about for agent attraction", "YouTube channel
-  description for agents", "optimize my profiles for attraction", or any bio/about request from a leader
-  attracting agents.
+  Writes the member's bio / about section for EVERY platform, aligned to their agent-attraction
+  funnel — Instagram, TikTok, Facebook, LinkedIn, YouTube, X, Threads, Google Business Profile,
+  the brokerage site, plus an email signature — each sized to the platform's real character limit
+  (count shown, never over), passing the 5-question profile test (who you are · who you help · the
+  outcome · why believe you · what to do next) with ONE link (the funnel, else the booking link)
+  and one identity line everywhere so AI answers find the same leader. Reads the Agent Attraction
+  Brain, saves the pack as a styled doc, writes the finals to identity/profiles.md — the one
+  owner; the Short-Form plugin's sf-setup reads it if present. 3-state compliance gate; license
+  display never cut for space. Copy only.
+  Trigger on: "attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles
+  to my funnel", "my Instagram bio for agents", "LinkedIn about for agent attraction", "YouTube
+  channel description for agents", "optimize my profiles for attraction".
 ---
 
 # Platform Profiles — one identity, every platform, sized to fit

@@ -1,19 +1,19 @@
 ---
 name: lm-magnet
 description: >
-  Step 1 of the Lead Magnet plugin — writes the member's lead magnet for attracting agents, in their voice,
-  straight from the Partner Offer in their Agent Attraction Brain. The FIRST one is always the Honest
-  Brokerage Comparison Guide (locked, never a menu): a factual, cited, dated comparison of brokerage MODEL
-  TYPES — cloud with revenue share, franchise split, flat fee, independent or local team — the trade-offs
-  of each including the member's own, and the questions to ask any brokerage or sponsor. No ranking, no
-  named-brokerage criticism, no compensation numbers or promises; hard 3-state compliance gate. From
-  campaign two it writes whatever magnet-ideas picked (a switching checklist, sponsor questions, a 90-day
-  plan template). Produces the full guide content as clean copyable text, saves it as a formatted doc in
-  the campaign folder, logs it in the Brain so every other system points its CTA at it, then hands off to
-  the funnel. CONTENT ONLY — never designs the PDF (that is lm-design and the Design Studio).
-  Trigger on: "write my brokerage comparison guide", "write my lead magnet for agents", "agent attraction
-  lead magnet", "write my switching checklist", "write my questions-to-ask-a-sponsor guide", "write the
-  guide agents download", or any request to write the downloadable freebie an attraction opt-in gives away.
+  Step 1 of the Lead Magnet plugin — writes the member's lead magnet for attracting agents, in
+  their voice, from the Partner Offer in their Agent Attraction Brain. The FIRST one is always the
+  Honest Brokerage Comparison Guide (locked, never a menu): a factual, cited, dated comparison of
+  brokerage MODEL TYPES — cloud with revenue share, franchise split, flat fee, independent or
+  local team — the trade-offs of each including the member's own, and the questions to ask any
+  brokerage or sponsor. No ranking, no named-brokerage criticism, no compensation figures or
+  promises; hard 3-state compliance gate. From campaign two it writes what magnet-ideas picked.
+  Delivers the full guide as clean text, saves a formatted doc in the campaign folder, logs it in
+  the Brain so every system points its CTA at it, hands off to the funnel. CONTENT ONLY — never
+  designs the PDF.
+  Trigger on: "write my brokerage comparison guide", "write my lead magnet for agents", "agent
+  attraction lead magnet", "write my switching checklist", "write my questions-to-ask-a-sponsor
+  guide", "write the guide agents download".
 ---
 
 # Lead Magnet Writer (Step 1 — content only)

@@ -47,7 +47,7 @@ hands them off: `identity/offer.md` (the first three sections + `Status: seeds` 
 from Week 2), `identity/positioning.md` (the one seed line + Status → `attraction-model-positioning` owns it
 from Week 2), `identity/strategy.md` (known-for and priorities → `attraction-brand-persona`'s update path
 owns later edits). `attraction-capture` writes `memory/conversations.md` and `memory/organization.md` rows
-directly until the Conversion / AI Admin / Team & Retention plugins are installed, then hands off to them
+directly until the Conversion / AI Admin plugins are installed, then hands off to them
 and touches only `top-50.md`. The row shapes never change at hand-off.
 
 | File | Owner skill | Also writes (designated section / append only) |
@@ -62,8 +62,8 @@ and touches only `top-50.md`. The row shapes never change at hand-off.
 | `identity/positioning.md` | setup seeds the one line → `attraction-model-positioning` | — (why-join-me lives in journey.md) |
 | `identity/offer.md` | setup seeds it (`Status: seeds`) → `attraction-offer` owns every section EXCEPT `## Value stack` and `## Digital product` | `attraction-free-vs-paid` owns `## Value stack` and `## Digital product`; `attraction-capture` appends under "Notes for Week 2" |
 | `identity/brokerage-model.md` | `attraction-brokerage-model` | — |
-| `identity/voice.md` | `attraction-brain-setup` (Stop 12) writes it first → `attraction-brand-persona`'s update path ("update my voice") owns later edits | `attraction-voice-print` never writes it |
-| `identity/voice-samples.md` | `attraction-brain-setup` (Stop 12) | `attraction-import` appends samples (incl. the Realtor Brain bridge) |
+| `identity/voice.md` | `attraction-brain-setup` (Stop 12) writes it first → `attraction-brand-persona`'s update path ("update my voice") owns later edits | `attraction-import` may pre-fill it from a Realtor Brain (the bridge, before Stop 12); `attraction-voice-print` never writes it |
+| `identity/voice-samples.md` | `attraction-brain-setup` (Stop 12) | `attraction-voice-proof` ("add my writing samples") and `attraction-import` (incl. the Realtor Brain bridge) append samples; nothing rewrites an existing one |
 | `identity/voice-print.md` | `attraction-voice-print` — only this file | — |
 | `identity/proof.md` | `attraction-voice-proof` | `attraction-capture` appends to Seeds |
 | `identity/story-bank.md` | `attraction-story-bank` | setup Stop 6 writes the six seeds; `attraction-capture` appends to Seeds; content skills stamp Used-where |
@@ -77,7 +77,7 @@ and touches only `top-50.md`. The row shapes never change at hand-off.
 | `memory/top-50.md` | `attraction-top-50` — once the AI Admin exists it MIRRORS each agent's stage from `memory/pipeline.md` on every run (pipeline is the source of stage) | `attraction-capture` adds rows and, until the Admin exists, stage moves; `attraction-debrief` never writes it |
 | `memory/conversations.md` | **Conversion & Sales plugin (Week 5)** | interim: `attraction-capture` writes rows directly, same shape |
 | `memory/pipeline.md` | **AI Admin plugin (Week 5)** — stage moves | interim: `attraction-capture`, same vocabulary; the Debrief only *requests* moves |
-| `memory/organization.md` | **Team & Retention plugin (Week 6)** | interim: `attraction-capture` appends a join |
+| `memory/organization.md` | `attraction-capture` appends a row when an agent joins; the **AI Admin (Week 5)** maintains status and retention notes in the same shape (the Team & Retention plugin was removed from this OS) | the Debrief and Events read it |
 | `memory/scorecard.md` | `attraction-goals` (Targets block) | `attraction-debrief` appends daily rows; the weekly check-in (then `admin-scorecard`) appends weekly rows; rows are never edited |
 | `memory/objections.md` | `attraction-capture` | Conversion plugin adds handlers in the same shape |
 | `memory/debriefs.md` | `attraction-debrief` | — |

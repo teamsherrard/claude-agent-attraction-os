@@ -1,17 +1,16 @@
 ---
 name: sf-setup
 description: >
-  One-time onboarding for the Agent Attraction Short-Form System — the Week 3 layer on top of the member's
-  Agent Attraction Brain. Reads the Brain (who they attract, their journey and stories, positioning, proof,
-  voice) and never re-asks it. Writes their five content pillars (Authority · Perspective · Story · Proof ·
-  Personality) mapped to the agents they attract; writes their bios for Instagram, Facebook, TikTok and
-  LinkedIn with the recruiter CTA (the five questions every profile must answer); saves the one keyword that
-  carries every Reel; then, last and optional, offers to connect a posting tool (Metricool / GoHighLevel /
-  manual). A second call resumes or updates one part — it never re-runs. Trigger on: "set up my attraction
-  short-form", "set up short-form for agent attraction", "launch my attraction short-form", "open my attraction
-  short-form", "build my content pillars", "write my attraction bios", "my recruiter bio", "set my keyword",
-  "update my pillars", "update my bios", "connect my posting tool", or any first run of the attraction
-  short-form system.
+  One-time onboarding for the Agent Attraction Short-Form System — the Week 3 layer on the member's Agent
+  Attraction Brain. Reads the Brain (who they attract, journey, stories, positioning, proof, voice) and
+  never re-asks it. Writes their five content pillars (Authority · Perspective · Story · Proof · Personality)
+  mapped to the agents they attract; writes bios for Instagram, Facebook, TikTok and LinkedIn with the
+  recruiter CTA (the five questions a profile must answer); saves the one keyword that carries every Reel;
+  then, last and optional, offers a posting-tool connect (Metricool / GoHighLevel / manual). A second call
+  resumes or updates one part, never re-runs. Trigger on: "set up my attraction short-form", "set up
+  short-form for agent attraction", "launch my attraction short-form", "open my attraction short-form", "build
+  my content pillars", "write my attraction bios", "my recruiter bio", "set my keyword", "update my pillars",
+  "update my bios", "connect my posting tool".
 ---
 
 # Short-Form Attraction Engine — Setup
@@ -94,9 +93,11 @@ develop, never transcribe:
 Present the five as **one block** — pillar name, two-line summary, the first three topics — then:
 > "That's your plan. Your turn — say 'good' or tell me what's off."
 Then write `~/attraction-brain/identity/content-pillars.md` in the shape in
-`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (status, the one-line anchors, the five sections, the weekly
-mix, an empty hooks bank). Create `identity/publishing.md` now with `Short-form setup: pillars done` and whatever
-platforms/handles the Brain already knows. **Push both, verify.** Say: *"Saved — your pillars are in your Brain."*
+`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (status, the one-line anchors, five sections headed **exactly**
+`## Authority` · `## Perspective` · `## Story` · `## Proof` · `## Personality` — the OS-wide names, never
+renamed — the weekly mix, an empty hooks bank). Create `identity/publishing.md` now, in the contract's full shape — every line label present from day one
+(including `Posting tool: manual` and an empty `Best times:`, the two lines `sf-publish` later updates) — with
+`Short-form setup: pillars done` and whatever platforms the Brain already knows. **Push both, verify.** Say: *"Saved — your pillars are in your Brain."*
 
 ## Step 4 — The bios (public → the gate first)
 **The three-state check:** `confirmed` → go · `set` → go, remind once at the end to confirm with the brokerage ·
@@ -156,15 +157,19 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 2. **The posting tool — offer once, never push:** *"Want me to schedule your posts for you? I can connect
    Metricool (free to start) or GoHighLevel if you already use it. Or keep it copy-paste for now."* On yes → run
    the connect flow in `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` (the four checks, plain words) and
-   record `Posting tool:` · `Connected on:` · `Brand / location:`. On no → `Posting tool: manual`. On "don't ask
-   again" → `declined YYYY-MM-DD`. Push.
+   record it all on the one `Posting tool:` line (`metricool · connected YYYY-MM-DD · brand [name]` — never a
+   secret) plus the `Best times:` line (per network, from the tool). On no → `Posting tool: manual`, `Best times:`
+   left empty. On "don't ask again" → `declined YYYY-MM-DD`. Both lines always exist — `sf-publish` updates only
+   those two. Push.
 3. **The content board — offer once:** *"Want your posts on a visual board in your Notion? The YouTube plugin
    shares it."* Yes → `sf-board`; no → `Content board: declined YYYY-MM-DD`. Nothing → leave empty.
 4. **The Friday performance note** — one line, never provisioned here: *"Once you're posting, say 'set up my
    Friday performance note' and every Friday you'll get which Reels and stories started agent conversations."*
    (`sf-analytics` owns it, with their explicit yes.)
-5. Register the plugin in `config.md` — the one-line `## Short-Form (Week 3)` block (installed date, plugin
-   version, "see identity/publishing.md") — **nothing else in config.md.** Set `Short-form setup: complete
+5. Register the plugin in `config.md` — the `## Short-Form (Week 3)` block, exactly these lines: `Installed:`
+   today's date · `Plugin version:` · `Layer:` → `identity/publishing.md` · `Weekly Content Performance task:
+   not offered yet` (the line `sf-analytics` later fills with the task id or `declined`) — **nothing else in
+   config.md.** Set `Short-form setup: complete
    YYYY-MM-DD`. Push, verify. Close with the breadcrumb: *"You're set. Reels: 'script my attraction reels'.
    Stories: 'today's stories'. No filming: 'attraction carousel'. News: 'green screen on brokerage news'."*
 
@@ -183,5 +188,5 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 - [ ] Keyword chosen (one word), ManyChat state recorded — pushed
 - [ ] Member handed to a first piece **before** any tool was mentioned
 - [ ] Cadence/mix written; posting tool offered once with a real connect flow, answer recorded; board offered once; Friday note mentioned, not provisioned
-- [ ] `config.md` Short-Form block only; `Short-form setup: complete` — pushed, verified
+- [ ] `config.md` Short-Form block only (with the `Weekly Content Performance task: not offered yet` line); `Short-form setup: complete` — pushed, verified
 - [ ] Whole thing felt fast, warm, value-first, non-technical

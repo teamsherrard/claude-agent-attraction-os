@@ -39,7 +39,7 @@ Three things to hold from the Brain:
   and a brand that only promotes the brokerage is the first mistake Mike lists (`04-value-proposition/29`).
 - **Compliance, 3-state.** If `compliance.md` is **unset**, the Design Package brief still gets written,
   but it carries one plain line: the brokerage name and license display have to be set before any public
-  graphic ships — *"say 'set my attraction compliance rules' and I'll add it to the brief."* Never
+  graphic ships — *"say 'set up my attraction compliance' and I'll add it to the brief."* Never
   "if empty, proceed". If **set** or **confirmed**, copy the brokerage-name and license-display rule into
   the brief so the kit is built right the first time.
 - **The three tests from the launching doc:** a leader brand works when an agent looks at it and answers

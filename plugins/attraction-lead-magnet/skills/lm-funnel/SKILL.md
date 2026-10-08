@@ -1,18 +1,18 @@
 ---
 name: lm-funnel
 description: >
-  Step 2 of the Lead Magnet plugin — maps the opt-in page that gives the member's agent-attraction lead
-  magnet away. Reads the finished magnet so the page presents exactly what the guide delivers, then writes
-  the full page copy section by section for an agent audience — Hero, The Problem, The Guide + mockup, About
-  the leader + welcome video, Why Partner (the Partner Offer as outcomes, never compensation), The
-  Organization, Proof + photo strip, Socials (only if they have channels), and The Opt-in with a mini-FAQ —
-  in the member's voice, built to convert. One job on the page: the opt-in (pop-up: first name, email,
-  phone). The thank-you page carries the guide as an instant download AND the book-a-call step. Hard 3-state
-  compliance gate; the static Netlify form rule for the design step. COPY + STRATEGY ONLY — the design is
-  the Design Studio's ds-funnel opt-in shape; it NEVER designs or hosts the page.
-  Trigger on: "write the page for my comparison guide", "opt-in page for agents", "attraction funnel copy",
-  "the page that gives away my agent lead magnet", "set up my attraction funnel" when a guide exists, or any
-  request for the opt-in page of an agent-attraction magnet. (No guide yet → lm-navigator writes it first.)
+  Step 2 of the Lead Magnet plugin — maps the opt-in page that gives the member's agent-attraction
+  lead magnet away. Reads the finished magnet so the page presents exactly what the guide
+  delivers, then writes the full copy section by section for an agent audience: Hero, The Problem,
+  The Guide + mockup, About the leader + welcome video, Why Partner (the Partner Offer as
+  outcomes, never compensation), The Organization, Proof + photo strip, Socials (only if they have
+  channels), The Opt-in with a mini-FAQ — in the member's voice. One job on the page: the opt-in
+  (pop-up: first name, email, phone). The thank-you page carries the instant download AND the
+  book-a-call step. Hard 3-state compliance gate; the static Netlify form rule for the design step
+  (ds-funnel, opt-in shape). COPY + STRATEGY ONLY — never designs or hosts.
+  Trigger on: "write the page for my comparison guide", "opt-in page for agents", "attraction
+  funnel copy", "the page that gives away my agent lead magnet", "set up my attraction funnel"
+  when a guide exists. No guide yet → lm-navigator.
 ---
 
 # Opt-In Funnel Mapper (Step 2 — copy + strategy only)

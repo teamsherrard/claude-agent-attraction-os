@@ -66,8 +66,8 @@ become your first three fixes."*
    call they can join, your brokerage's or upline's resources — list what exists, in their words.
    (The upline's assets count — the Week 2 audit packages them; here we only need to know they exist.)
 3. **What happens to a new agent in their first 30 days today?** Steps, or "nothing yet". Never a
-   demand for the full onboarding experience — that is built in Week 6 with the Team & Retention
-   plugin; say which week.
+   demand for the full onboarding experience — that is built in Week 6 with the Retention &
+   Duplication playbook; say which week.
 4. *(Only if the org has agents)* **How many have stayed, and who left — why?** One line.
 
 ## Stop B · Support, consistency, vision (one card, 3–4 questions)
@@ -101,7 +101,7 @@ If N outruns capacity, that is the headline of the fix-first list, not a reason 
 ## The fix-first list (three items, ranked, each with its first action and where it is built)
 Rank by: blocks the 90-day join target → lowest score → fastest to fix. Each item: the area, the
 score, **the first concrete action this week**, and the skill or plugin that builds the full thing:
-- onboarding steps → `attraction-operations` now; the 30-day experience → Team & Retention (Week 6)
+- onboarding steps → `attraction-operations` now; the 30-day experience → the Week 6 Retention & Duplication playbook
 - systems to hand over → the Week 2 offer audit (`attraction-offer`, what the brokerage + upline +
   member already provide); the Value Vault (Week 6)
 - support capacity → start the FAQ today: the next question asked twice gets a recorded answer and a

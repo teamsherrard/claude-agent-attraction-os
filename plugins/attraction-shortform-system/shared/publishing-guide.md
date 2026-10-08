@@ -20,7 +20,9 @@ rules — talk plain, never "API", "OAuth", "token" in front of the member (say 
 ## Step 1 — Which tool? (read the Brain)
 Read the `Posting tool:` line in `~/attraction-brain/identity/publishing.md` (set by `sf-setup` or a later
 connect):
-- **`manual`** (or the line is empty) — hand over copy-paste-ready posts. Mention once, gently, that they can
+- **`manual`** (or the line is empty) — hand over copy-paste-ready posts. (The line's full forms: `manual` ·
+  `metricool · connected YYYY-MM-DD · brand [name]` · `gohighlevel · connected YYYY-MM-DD · location [name]` ·
+  `declined YYYY-MM-DD`.) Mention once, gently, that they can
   connect a tool any time ("say 'schedule my posts for me'"). Done.
 - **`metricool`** — Route A (the default for everyone else).
 - **`gohighlevel`** — Route B (they already run their business in GHL).
@@ -41,8 +43,10 @@ Run this when the member says yes to connecting, and again on "check my posting 
 4. **Where do the videos come from?** The tool needs the file: a public URL, or the member's Drive linked inside
    the tool (Metricool → Settings → Google Drive). Without it, use the hybrid path (caption + time scheduled; the
    member drops the video from their phone).
-Deliver a simple green/red checklist and the one or two things to fix. Save `Posting tool:`, `Connected on:`,
-and `Brand / location:` (an id or name — never a secret) to `publishing.md` and push.
+Deliver a simple green/red checklist and the one or two things to fix. Save it on the **`Posting tool:`** line
+(`metricool · connected YYYY-MM-DD · brand [name]` / `gohighlevel · connected YYYY-MM-DD · location [name]` — a
+name, never a secret) and the **`Best times:`** line (per network, from the tool) in `publishing.md`, then push.
+**These two lines are the only lines in `publishing.md` that `sf-publish` ever touches.**
 
 ---
 
@@ -54,7 +58,7 @@ Use the connected Metricool tools (your connection exposes them by these names):
 1. **`getBrandSettings`** — the member's brand (its **blogId/brandId** for scheduling, the **timezone** for the
    post time — cross-check `config.md → Timezone`). Confirm which brand + connected networks.
 2. **`getBestTimeToPostByNetwork`** — if the member didn't give a time, pull the best slot per network and
-   schedule into it.
+   schedule into it; write the slots to the `Best times:` line in `publishing.md` (push) so later skills reuse them.
 3. **`createScheduledPost`** — pass the `date` (ISO 8601 in the brand's timezone), the `blogId`, and the `info`
    object (text, `providers` = the networks, `media`). **`media` accepts public URLs to image or video files** —
    a Reel schedules with the member's video by URL (Drive/Dropbox links auto-upload if linked inside Metricool).

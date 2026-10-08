@@ -74,17 +74,19 @@ Brain pushes its own change: write → push → verify, one atomic step. One Bra
 
 | Plugin (week) | Reads | Owns (writes) |
 |---|---|---|
-| **Brain** (W1) | everything | all `identity/` except `content-pillars` · `memory/top-50` · `scorecard` · `debriefs` · `objections` · `ideas` · `intel` · `capture-log` · `deadlines` (until Admin) · interim rows in `conversations` and `organization` (until Conversion / Team & Retention) · interim stage moves in `pipeline` (until Admin) |
-| Support (W1) | `config`, `brain.md`, every plugin's `config` block | `memory/support-log` |
+| **Brain** (W1) | everything | all `identity/` except `content-pillars` · `memory/top-50` · `scorecard` · `debriefs` · `objections` · `ideas` · `intel` · `capture-log` · `deadlines` (until Admin) · interim rows in `conversations` and `organization` (until Conversion / AI Admin) · interim stage moves in `pipeline` (until Admin) |
+| Support (W1) | `config`, `brain.md`, every plugin's `config` block | `memory/support-log` · `memory/claude-updates` · the `## MAA Support (Plugin 2)` block in `config.md` |
 | Design Studio (Claude Design, W1) | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to `02 · Brand`, `05 · Offer`) |
 | Short-Form (W3) | `profile · journey · avatars · positioning · story-bank · proof · voice* · compliance · content-log · objections · ideas` | `identity/content-pillars.md` (sf-setup), `memory/content-log` (SF rows), `identity/publishing` block |
 | AI Editor, Riverside (W3) | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist |
 | YouTube (W4) | same as Short-Form + `content-pillars · brokerage-model · prospect-intel · intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
 | Conversion & Sales (W5) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance · intel · intel-reports` | `memory/conversations`, `memory/pipeline` (requests moves through Admin, or writes directly if Admin absent), `memory/objections` (new handlers), `memory/intel-reports/` |
 | AI Admin (W5) | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines · goals` | `memory/pipeline` (stage moves — the source of stage; `attraction-top-50` mirrors it), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
-| Team & Retention (W6) | `organization · offer · operations · brand-visual · proof` | `memory/organization`, `memory/recognition-log`, `memory/org-analysis/`, `identity/onboarding.md`, `identity/duplication-kit.md` |
 | Lead Magnet (W6) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md`, the second CTA in `voice.md` |
 | Events (W6) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages, via Admin), `memory/content-log` (event content) |
+
+*(Team & Retention was removed from the OS on 2026-10-08. `memory/organization.md` stays in the Brain:
+`attraction-capture` appends joins and the AI Admin maintains it from Week 5.)*
 
 **Inside the Brain plugin** (per `plugins/attraction-ai-brain/shared/brain-contract.md`): setup SEEDS
 `offer.md` (Status: seeds), the seed line in `positioning.md`, and `strategy.md`, then `attraction-offer`,
@@ -115,8 +117,8 @@ under its own heading and never edits another's.
 Daily Agent Attraction Debrief — `attraction-debrief` (W1) · Agent Movement Watcher — `attraction-prospect-radar`
 (W2) · Weekly Content Performance — `sf-analytics` (W3; `yt-analytics` appends from W4) · Daily Follow-Up Queue —
 `admin-follow-up-queue` (W5) · Call Block Prep — `cv-call-prep` (W5) · Cold-Lead Reactivation — `cv-reactivation`
-(W5) · Weekly Recruiting CEO Review — `admin-scorecard` (W6) · Recognition Agent — `team-recognition` (W6) ·
-Monthly KPI Review — `admin-monthly-review` (W6) · Retention Pulse — `team-survey` (W6) · Team Wins Newsletter —
+(W5) · Weekly Recruiting CEO Review — `admin-scorecard` (W6) ·
+Monthly KPI Review — `admin-monthly-review` (W6) · Team Wins Newsletter —
 `admin-newsletter` (W6) · Post-Event Follow-Up — `ev-followup` (W6). Every one: explicit yes, draft-only, task id in
 the owner's `config.md` block.
 

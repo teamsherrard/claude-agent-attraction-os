@@ -1,17 +1,17 @@
 ---
 name: lm-magnet-ideas
 description: >
-  Picks the member's NEXT lead magnet for attracting agents — from campaign two onward, once the Honest
-  Brokerage Comparison Guide is live. Reads the type of agent they attract, that agent's pains, what the
-  member can genuinely teach (the Partner Offer), the questions agents keep asking, the ideas they captured
-  on the go, and what converted so far (memory/magnets.md), then recommends ONE magnet in plain words with
-  one line of why — the Switching Checklist, Questions to Ask a Sponsor, the Rev Share Explainer
-  (model-generic, compliance-gated), the 90-Day Plan template, the member's own system guide — each tied
-  to one type of agent and one of Mike's five pains. Writes a planned row and hands the locked focus to the
-  magnet writer. Never a menu; never jumps the first-campaign lock.
-  Trigger on: "what's my next lead magnet for agents", "next attraction magnet", "switching checklist",
-  "questions to ask a sponsor guide", "rev share explainer", "90-day plan template for new agents",
-  "another guide for agents", "which lead magnet should I build next for attraction".
+  Picks the member's NEXT lead magnet for attracting agents — from campaign two, once the Honest
+  Brokerage Comparison Guide is live. Reads the type of agent they attract and their pains, what
+  the member can genuinely teach (the Partner Offer), the questions agents keep asking, the ideas
+  captured on the go, and what converted (memory/magnets.md), then recommends ONE magnet in plain
+  words with one line of why — the Switching Checklist, Questions to Ask a Sponsor, the Rev Share
+  Explainer (model-generic, compliance-gated), the 90-Day Plan template, the member's own system
+  guide — each tied to one type of agent and one of Mike's five pains. Writes a planned row and
+  hands the locked focus to the magnet writer. Never a menu; never jumps the first-campaign lock.
+  Trigger on: "what's my next lead magnet for agents", "next attraction magnet", "switching
+  checklist", "questions to ask a sponsor guide", "rev share explainer", "90-day plan template for
+  new agents", "another guide for agents".
 ---
 
 # Next Magnet Picker (campaign two onward)

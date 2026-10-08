@@ -104,7 +104,7 @@ Read `identity/compliance.md`:
   version mentions earnings in any way; it should not).
 - **unset** → still write the story to the Brain and show it; it is the member's own words for a private
   call. Add one plain line: *"Before this goes in a video or a post, your compliance rules need setting —
-  say 'set my attraction compliance rules'."* Never "if empty, proceed" for anything public.
+  say 'set up my attraction compliance'."* Never "if empty, proceed" for anything public.
 
 Deliver in chat in this order: the 60-second version · the long version · the one-breath version · one
 line on where each is used · one line on what sharpens it next (the offer session, a voice-print

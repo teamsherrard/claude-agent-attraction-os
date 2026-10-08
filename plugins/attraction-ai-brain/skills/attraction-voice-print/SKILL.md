@@ -7,7 +7,7 @@ description: >
   their phone, or a pasted transcript) where the member talks about agents, their brokerage, and their
   journey; Claude extracts their Voice DNA: pacing, sentence length, signature phrases, how they explain
   the model in plain words, energy, filler, and the words they never say. Writes identity/voice-print.md,
-  which every read-aloud attraction output reads. Grows with every voice session. Trigger on: "my
+  which every read-aloud attraction output reads. Trigger on: "capture my speaking voice", "my
   attraction voice print", "capture my voice for agents", "how I talk to agents", "build my attraction
   voice print", "make my attraction scripts sound like me", "refresh my attraction voice print", "my
   spoken leader voice", or right after attraction-voice-proof as the spoken layer.

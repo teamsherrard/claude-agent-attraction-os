@@ -59,7 +59,7 @@ This system writes **words**: scripts, talking points, captions, hashtags, carou
 and design *direction* in plain language. It never renders an image, slide, or green-screen background. When a
 visual is needed, describe it in words and hand it to the Design Studio by name — `ds-carousel` for carousels
 and LinkedIn document posts (Claude Design) — or tell the member to build it in claude.ai/design. No PNGs, ever.
-Video edits go to the Riverside editor (`studio-reel`); never Descript.
+Video edits go to the Riverside editor (`studio-reel`).
 
 ---
 

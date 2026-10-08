@@ -85,7 +85,8 @@ Reply CTAs: "Reply 'LIST' / 'SCRIPT' / 'CALL'" (the story-reply flow word) · "R
 ## The reply CTA → the conversation
 A reply is the DM rung of the ladder. The reply word (CALL · LIST · SCRIPT · WIN · YES) is the story-reply
 sequence's trigger when ManyChat is connected; otherwise the member replies by hand the same day. A real
-conversation hands to `sf-comment-to-dm` and on to the Conversion plugin — never logged here.
+conversation hands to `sf-comment-to-dm` (which logs the row, via `attraction-capture` when present, until the
+Conversion and Admin plugins exist) — never logged here.
 
 ## Never in a story
 A split, a cap, stock, a fee, an income figure · a negative word about any brokerage or person · a former

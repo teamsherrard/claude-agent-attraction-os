@@ -51,6 +51,7 @@ Read `~/attraction-brain/brain.md` first, then:
 - `identity/compliance.md` — the third law, three-state
 - `memory/content-log.md` — avoid a recent carousel topic; which pillar is light
 - `memory/ideas.md` (tag `shortform`) · `memory/objections.md` — a myth or a pain the member heard this month
+- `memory/content-performance.md` — what worked (from `sf-analytics`); skip if it doesn't exist yet
 
 **Read the Brain; never re-ask what it knows.** `~/attraction-brain/` missing → pull with
 `attraction-brain-sync`; only if the cloud has none, "set up my attraction brain."

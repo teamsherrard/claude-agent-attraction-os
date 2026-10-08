@@ -95,7 +95,7 @@ say "── 5. shared files that must stay identical across plugins"
 python3 - <<'PY' || FAIL=1
 import glob,hashlib,collections,sys
 bad=False
-for name in ("render_doc.py","notion-board-spec.md"):
+for name in ("render_doc.py","notion-board-spec.md","how-we-speak.md","ask-once-default.md","connectors.md","composio-data-engine.md"):
     paths=sorted(glob.glob(f"plugins/*/shared/{name}"))
     if len(paths)<2: continue
     by=collections.defaultdict(list)
@@ -171,6 +171,48 @@ if bad:
     for b in bad[:60]: print("      "+b)
     sys.exit(1)
 print("  ✓ no trigger phrase collides with the realtor marketplace")
+PY2
+
+
+say ""
+say "── 11. every plugin carries shared/brain-contract.md and names its scheduled-task consent rule"
+python3 - <<'PY2' || FAIL=1
+import glob,os,re,sys
+bad=False
+for plug in sorted(glob.glob("plugins/*/")):
+    name=os.path.basename(plug.rstrip("/"))
+    if name=="realtor-riverside-editor":  # vendored as-is; carries house-rules.md Brain-home rule instead
+        if not os.path.exists(plug+"shared/house-rules.md") or "Brain-home rule" not in open(plug+"shared/house-rules.md").read():
+            print(f"  ✗ {name}: vendored Studio is missing the Brain-home rule in shared/house-rules.md"); bad=True
+        continue
+    if not os.path.exists(plug+"shared/brain-contract.md"):
+        print(f"  ✗ {name}: no shared/brain-contract.md"); bad=True
+    for f in glob.glob(plug+"skills/*/SKILL.md"):
+        t=open(f,encoding="utf-8").read()
+        if re.search(r"scheduled[- ]task|create_scheduled_task|scheduled agent",t,re.I) and not re.search(r"explicit (yes|consent)|with (the member's|their) (yes|consent|permission)|never (silently|without asking)|ask(s)? (before|first)|consent",t,re.I):
+            print(f"  ✗ {f}: mentions a scheduled task but no consent rule"); bad=True
+if not bad: print("  ✓ brain-contract.md present everywhere; scheduled tasks are consent-gated")
+sys.exit(1 if bad else 0)
+PY2
+
+say ""
+say "── 12. the content engines keep the Composio data engine; nothing routes to retired or removed systems"
+python3 - <<'PY2' || FAIL=1
+import glob,os,re,sys
+bad=False
+for plug in ("attraction-shortform-system","attraction-youtube-system"):
+    if not os.path.exists(f"plugins/{plug}/shared/composio-data-engine.md"):
+        print(f"  ✗ {plug}: shared/composio-data-engine.md missing (Composio is a required connector)"); bad=True
+    hits=[f for f in glob.glob(f"plugins/{plug}/skills/*analytics*/SKILL.md") if "composio" in open(f,encoding="utf-8").read().lower()]
+    if not hits: print(f"  ✗ {plug}: analytics skill does not reference the Composio data engine"); bad=True
+pat=re.compile(r"\b(cs-[a-z-]+|team-[a-z-]+|org-analysis|realtor-ai-editor|edit-longform|edit-shortform|editor-navigator)\b")
+allow=re.compile(r"removed|parked|not (in|part of) this|retired|never",re.I)
+for f in glob.glob("plugins/**/*.md",recursive=True):
+    if "realtor-riverside-editor" in f: continue
+    for n,l in enumerate(open(f,encoding="utf-8"),1):
+        if pat.search(l) and not allow.search(l): print(f"  ✗ {f}:{n}: routes to a removed/retired system: {l.strip()[:90]}"); bad=True
+if not bad: print("  ✓ Composio kept in both content engines; no routes to removed systems")
+sys.exit(1 if bad else 0)
 PY2
 
 say ""

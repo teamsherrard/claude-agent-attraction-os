@@ -45,7 +45,7 @@ positively; the cardinal rules forbid positioning on anyone else's weakness.
   **tiers** (Mike: seven at eXp, five at most others — `/14`); the "Christmas tree" shape means the bottom tiers
   become the largest over time. Per-tier annual maximums exist and differ by brokerage (Mike's example: a first
   tier paying up to ~$3,200 vs up to $5,000 elsewhere — `/14`, per Mike; verify current). Tiers typically
-  "unlock" with frontline agent counts (not in the vault in detail — confirm from the brokerage's materials).
+  open with frontline agent counts (not in the vault in detail — confirm from the brokerage's materials).
 - **Willable.** At least at eXp and REAL, per Mike, revenue share is a willable asset: a family member can
   license within a window and inherit it (`/16`). Verify per brokerage.
 - **Stock / equity.** Awards for milestones (first deal, capping, attracting), plus a stock-purchase plan at a
@@ -79,7 +79,7 @@ positive talking point; never a negative one about the other.
 Think the national franchise brands (Mike names several; this file doesn't need to). "The easiest conversations"
 — win with math, because "you cannot argue ego and emotion with math."
 - **Mechanics (per Mike; verify current):** a split, with or without a cap; higher fees; franchise fees that
-  continue after a cap (Mike's KW example: ~70/30 with a ~$15–16k cap, then 100% less the franchise fee — `/60`);
+  continue after a cap (Mike's example of one franchise brand: ~70/30 with a ~$15–16k cap, then 100% less the franchise fee — `/60`);
   one income stream; some have **profit share** rather than revenue share (`/60`).
 - **Pros Mike grants:** a local office, local market share and familiarity.
 - **Cons Mike names:** one stream of income; higher fees; geographically restricted; no exit or retirement plan;

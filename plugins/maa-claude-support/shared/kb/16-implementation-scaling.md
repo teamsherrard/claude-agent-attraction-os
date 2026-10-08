@@ -28,7 +28,7 @@ The operating rhythm of a revenue share organization once it is running: the per
 - Why is my revenue share flat?
 - How often should I audit?
 **Do / don't:** Do track monthly and audit quarterly. Don't guess at what's broken.
-**Related:** 14/72, 16/79, 16/81, 13/65, 13/66
+**Related:** 14-retention-culture/72, 16-implementation-scaling/79, 16-implementation-scaling/81, 13-team-building-duplication/65, 13-team-building-duplication/66
 
 ---
 
@@ -49,7 +49,7 @@ The operating rhythm of a revenue share organization once it is running: the per
 - How do I find my next leaders?
 - How often should I talk about attraction on my production call?
 **Do / don't:** Do document once and reuse. Don't turn every production call into an attraction pitch.
-**Related:** 13/63, 13/67, 16/78, 16/80, 14/71
+**Related:** 13-team-building-duplication/63, 13-team-building-duplication/67, 16-implementation-scaling/78, 16-implementation-scaling/80, 14-retention-culture/71
 
 ---
 
@@ -71,7 +71,7 @@ The operating rhythm of a revenue share organization once it is running: the per
 - How do I balance growth with family?
 - What should I be investing in?
 **Do / don't:** Do model exactly what you ask of them. Don't wait for perfect.
-**Related:** 16/79, 04/30, 01/06, 13/66
+**Related:** 16-implementation-scaling/79, 04-value-proposition/30, 01-foundation-mindset/6, 13-team-building-duplication/66
 
 ---
 
@@ -92,7 +92,7 @@ The operating rhythm of a revenue share organization once it is running: the per
 - What do I do with the survey results?
 - How do I develop a new leader?
 **Do / don't:** Do ask the focus question for this year and next year. Don't ask "what do you hate."
-**Related:** 14/72, 16/78, 16/79, 13/66, 16/80
+**Related:** 14-retention-culture/72, 16-implementation-scaling/78, 16-implementation-scaling/79, 13-team-building-duplication/66, 16-implementation-scaling/80
 
 ---
 
@@ -114,4 +114,4 @@ The operating rhythm of a revenue share organization once it is running: the per
 - Do I need trophies?
 - How does recognition help attraction?
 **Do / don't:** Do make it personal and public, then post it. Don't wait for only the big milestones.
-**Related:** 14/68, 14/70, 13/64, 12/84, 16/81
+**Related:** 14-retention-culture/68, 14-retention-culture/70, 13-team-building-duplication/64, 12-simple-tech-stack/84, 16-implementation-scaling/81
