@@ -26,17 +26,13 @@ someone who wasn't in the room). Contract: `${CLAUDE_PLUGIN_ROOT}/shared/brain-c
 `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §6–§7, §15–§16 (read at Step 2). The checklist:
 `${CLAUDE_PLUGIN_ROOT}/skills/ev-runofshow/references/host-checklist.md` (Step 4).
 
-## Step 0 — Load (lazy; silent)
-The event's block (format, topic, transformation, speakers, when/where, replay — no block → `ev-strategy` first)
-· the format playbook doc in the event folder (the shape and timings) · `identity/offer.md` ("Teach first," the
-method; What's included — what's below the water; `Status:`) · `identity/avatars.md` (the pain in their words —
-the chat prompts) · `identity/voice-print.md` (how they talk — the script reads aloud) · `identity/positioning.md`
-(the one line "why I'm here"; what stays private) · `identity/journey.md` (the mirror open) · `identity/proof.md`
-(the agent win with consent) · `identity/story-bank.md` (the one story in the close — note "worth stamping";
-Events never writes story-bank) · `memory/objections.md` (the three questions to pre-answer) ·
-`identity/operations.md` (the booking link; the weekly call that's "below the surface") ·
-`identity/compliance.md` first line + name display + recruiting scope · `identity/brand-visual.md` (the slide
-brief). Pull via `attraction-brain-sync` if missing.
+## Step 0 — Load (lazy; silent — four Brain files; the rest at the step that uses them)
+The event's block in `memory/events.md` (format, topic, transformation, speakers, when/where, replay — no block →
+`ev-strategy` first) · the format playbook doc in the event folder (the shape and timings — a workspace doc, not
+the Brain) · `identity/compliance.md` first line (`Status:`) + name display + recruiting scope · `identity/offer.md`
+("Teach first," the method; What's included — what's below the water; `Status:`) · `identity/voice-print.md` (how
+they talk — the script reads aloud). Pull via `attraction-brain-sync` if missing. Every other Brain file is named
+at the step that uses it ("Read now") — never earlier, never re-read once in context.
 
 ## Compliance gate
 `Status:` unset → the outline, the speaker brief, and the host checklist render (private planning); the slide
@@ -47,7 +43,12 @@ Block + playbook loaded → one line and the output. The only question if the Br
 teaching blocks — I've got [a], [b], [c] from what worked for you. Right order, or swap one?"* **Your turn.**
 
 ## Step 2 — The outline (minute by minute; "say it like this" per beat, in the member's spoken voice)
-Read doctrine §6–§7 now. Virtual = 60 minutes; live = 90 minutes + a networking hour (builder's defaults,
+Read now: doctrine §6–§7 · `identity/avatars.md` (the pain in their words — the chat prompts) ·
+`identity/journey.md` (the mirror open) · `identity/positioning.md` (the one line "why I'm here"; what stays
+private) · `identity/proof.md` (the agent win with consent) · `identity/story-bank.md` (the one story in the
+close — note "worth stamping"; Events never writes story-bank) · `memory/objections.md` (the three questions to
+pre-answer) · `identity/operations.md` (the booking link; the weekly call that's "below the surface").
+Virtual = 60 minutes; live = 90 minutes + a networking hour (builder's defaults,
 doctrine §17; the playbook may have changed them — use the playbook's).
 1. **Open with energy (0–5)** — no "thanks for coming"; the promise first: "In the next hour you'll have
    [the transformation]." One mirror line from `journey.md`. "Stay to the end — I've got [the resource] for you."
@@ -85,11 +86,13 @@ compensation, no income claims · their one proof line as it will be introduced 
 prompt they'll run · what to post from the share pack · the tech check time.
 
 ## Step 4 — The host and moderator checklist (read the reference now; fill it for this event)
+Read now: `memory/organization.md` (the names for the who-does-what table, where the member confirmed them).
 The reference's who-does-what, the day-of timeline, the chat moderator's script (virtual), the room roles
 (live), the "if it breaks" lines, and the hot-list capture (who asked, who stayed, who came up — names noted by
 the moderator in the member's tool, never in the Brain). Written so a VA or a leader could run it (delegation).
 
 ## Step 5 — The slide brief (paste-ready, by name)
+Read now: `identity/brand-visual.md` (the deck's brand line — or "Design Package first").
 ```
 FOR ds-event (workshop slides — [event name])
 Member: [name] · [market] · [brokerage, compliance strip only where required]

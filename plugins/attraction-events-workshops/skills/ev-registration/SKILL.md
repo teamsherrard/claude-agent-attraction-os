@@ -29,18 +29,15 @@ stays after the event. Workshop-ops Phase 2 (the funnel) and Phase 7 (confirmati
 > member's own tool (`config.md → Events block → Registration host`). Pour the effort into words that make the
 > right agent say "that's for me" and register in ten seconds.
 
-## Step 0 — Load (lazy; silent)
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 The event's block in `memory/events.md` (name, promise, transformation, date/time/timezone, where, speakers —
-no block → `ev-strategy` first) · `identity/avatars.md` (the pain in their words; the type question's options) ·
-`identity/proof.md` (one credibility line for the member and one per speaker, consent) · `identity/journey.md`
-(the mirror line for "who's teaching") · `identity/voice.md` (the tone) · `identity/operations.md` (the booking
-link for the thank-you page's optional call line — only when the brief chose it) · `identity/compliance.md`
-first line + name display + recruiting scope + the required footer · `config.md` (the Lead Magnet block's `List
-tool`; the Events block's `Registration host`; `Timezone`) · `memory/magnets.md → ## Current magnet` (the
-second CTA on the thank-you page) · `identity/brand-visual.md` (for the hand-off). Pull via
-`attraction-brain-sync` if missing. The `Registration host` empty → the one question, with a default: *"Where will
-the page live — GoHighLevel, a Netlify page from Claude Design, or your site? (I'll assume the Claude Design page
-if you're not sure.)"* Write the answer to the Events block; push; never ask again.
+no block → `ev-strategy` first) · `identity/compliance.md` first line (`Status:`) + name display + recruiting
+scope + the required footer · `config.md` (the Lead Magnet block's `List tool`; the Events block's `Registration
+host`; `Timezone`) · `identity/avatars.md` (the pain in their words; the type question's options). Pull via
+`attraction-brain-sync` if missing. Every other Brain file is named at the step that uses it ("Read now") —
+never earlier, never re-read once in context. The `Registration host` empty → the one question, with a default:
+*"Where will the page live — GoHighLevel, a Netlify page from Claude Design, or your site? (I'll assume the
+Claude Design page if you're not sure.)"* Write the answer to the Events block; push; never ask again.
 
 ## Compliance gate (the page is the most-seen public piece)
 `Status:` unset → no page copy; say it in one warm line ("set up my attraction compliance"), and offer the form
@@ -50,6 +47,9 @@ disclaimer verbatim if any. **No income claims, no compensation, no "recruiting"
 event's page states nothing about where the member attracts; the scope line lives in the close, not the page.
 
 ## Step 1 — The page copy (section by section; the member's voice; fifth-grade reading level)
+Read now: `identity/proof.md` (one credibility line for the member and one per speaker, consent) ·
+`identity/journey.md` (the mirror line for "who's teaching") · `identity/voice.md` (the tone) ·
+`memory/magnets.md → ## Current magnet` (the resource they'll get; the thank-you page's second CTA).
 1. **Hero** — the promise as the headline (outcome, who it's for): "[Outcome] Without [the pain] — a free
    [Zoom training / workshop] for [City] agents" · the sub-line: date · time (with timezone) · where · "free ·
    for agents at any brokerage · no pitch" · the button: **"Save My Seat"** (live and virtual — the one ask the
@@ -79,6 +79,8 @@ event's page states nothing about where the member attracts; the scope line live
 the thank-you state plays the training.
 
 ## Step 2 — The confirmation and thank-you (Phase 7)
+Read now: `identity/operations.md` (the booking link for the thank-you page's optional call line — only when the
+brief chose it; the signature).
 - **Thank-you page** (where submitting lands): "You're in." · the date/time again · **Add to calendar** (the
   design step builds an `.ics` from the real date; a GoHighLevel-hosted page uses the host's own calendar
   links) · the Zoom link or the venue map · **the pre-event
@@ -110,6 +112,7 @@ tag `[code]-[yyyy-mm]-registered` → confirmation email + text, calendar invite
 copy is Step 2's, named by title.
 
 ## Step 5 — Deliver, render, hand off
+Read now: `identity/brand-visual.md` (for the hand-off's brand line).
 Deliver in chat, section by section, ready to use. Render per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via
 `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/registration.txt "Registration Page · [code] · [YYYY-MM-DD].docx" --title "Registration Page — [event name]" --subtitle "[Name] · [Market]" --eyebrow "Events & Workshops"`
 → read back → `03 · Content/Events/[code] · [Theme]/` (fallback: `.md`, one line). Bands: THE PAGE (sections

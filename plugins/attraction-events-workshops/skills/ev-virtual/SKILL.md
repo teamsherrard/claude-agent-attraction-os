@@ -26,13 +26,12 @@ Contract: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. Doctrine: `${CLAUDE_
 §3, §5–§8, §15 (read at the step that uses each). The kit: `${CLAUDE_PLUGIN_ROOT}/skills/ev-virtual/references/virtual-workshop-launch-kit.md`
 (read at Step 2).
 
-## Step 0 — Load (lazy; silent)
-The event's block in `memory/events.md` (no block → `ev-strategy` first, same sitting) · `identity/avatars.md`
-(geography — a virtual room reaches beyond it; the chat prompts come from their pains in their words) ·
-`memory/organization.md` (agents who'll share and invite; a speaker) · `identity/operations.md` (tech stack —
-Zoom or the fallback; the booking link) · `identity/compliance.md` first line (`Status:`) and its Recruiting scope
-(a virtual room reaches agents outside it) · `memory/magnets.md → ## Current magnet` (the second CTA) · the Lead
-Magnet block's `List tool` in `config.md` (where registrants land). Pull via `attraction-brain-sync` if missing.
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
+The event's block in `memory/events.md` (no block → `ev-strategy` first, same sitting) · `memory/organization.md`
+(agents who'll share and invite; a speaker) · `identity/operations.md` (tech stack — Zoom or the fallback; the
+booking link) · `identity/compliance.md` first line (`Status:`) and its Recruiting scope (a virtual room reaches
+agents outside it). Pull via `attraction-brain-sync` if missing. Every other Brain file is named at the step that
+uses it ("Read now") — never earlier, never re-read once in context.
 
 ## Step 1 — The three settings (one stop, pre-answered; your turn)
 1. **The room:** Zoom meeting (faces on, chat open, breakout for a small mastermind) vs webinar mode (bigger,
@@ -47,7 +46,9 @@ Magnet block's `List tool` in `config.md` (where registrants land). Pull via `at
 **Your turn.** "You pick" → the defaults.
 
 ## Step 2 — The playbook (the kit, filled in for this event)
-Read the kit reference now, then doctrine §5–§8.
+Read now: the kit reference, then doctrine §5–§8 · `identity/avatars.md` (geography — a virtual room reaches
+beyond it; the chat prompts come from their pains in their words) · `memory/magnets.md → ## Current magnet` (the
+second CTA) · the Lead Magnet block's `List tool` in `config.md` (where registrants land).
 - **The launch checklist, T-14 to T+10** (Phase 4): T-14 page live (`ev-registration` → `ds-funnel`
   registration shape; the calendar invite in the confirmation) · T-14 the promo graphic, the countdown stories,
   and the slide template ordered (`ds-event`, via `ev-promo` and `ev-runofshow` briefs) · T-13 → T-1 the promo

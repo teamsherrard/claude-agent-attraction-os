@@ -33,18 +33,15 @@ the member's tools), #14. Contract — the request lines and the event block: `$
 Doctrine: `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §8, §13–§14. The workflow table:
 `${CLAUDE_PLUGIN_ROOT}/shared/ghl-workflow-table.md` (Step 4).
 
-## Step 0 — Load (lazy; silent)
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 The event's block in `memory/events.md` (the newest `held` or `promoting` block whose date has passed; the
-replay URL and window; the counts if `ev-analytics` already wrote them) · `identity/voice.md` + `voice-samples.md`
-(how they type) · `identity/offer.md` (What's included — the real things the warm invite names; `Status:`) ·
-`identity/proof.md` + `story-bank.md` (the day-3 agent story, consent) · `identity/operations.md` (the booking
-link; the weekly call; the signature) · `memory/top-50.md` (rows with `Source: event` that belong to THIS event —
-the theme or the code in Notes, or a row added on or after the event date; the capture skill writes the member's
-words, never the event code — the named hot attendees the member already added; their stage) · `memory/pipeline.md` (read — where a named
-attendee stands; direct write only before the Admin) · `memory/magnets.md → ## Current magnet` ·
-`config.md` (the `## AI Admin` block → requests vs direct writes; the Lead Magnet block's `List tool`;
-`Timezone`; the Events block's task key) · `identity/compliance.md` first line. Pull via `attraction-brain-sync`
-if missing. A tool error is never "no Brain."
+replay URL and window; the counts if `ev-analytics` already wrote them) · `identity/compliance.md` first line
+(`Status:`) · `memory/top-50.md` (rows with `Source: event` that belong to THIS event — the theme or the code in
+Notes, or a row added on or after the event date; the capture skill writes the member's words, never the event
+code — the named hot attendees the member already added; their stage) · `config.md` (the `## AI Admin` block →
+requests vs direct writes; the Lead Magnet block's `List tool`; `Timezone`; the Events block's task key). Pull
+via `attraction-brain-sync` if missing. A tool error is never "no Brain." Every other Brain file is named at the
+step that uses it ("Read now") — never earlier, never re-read once in context.
 
 ## Compliance gate (every touch is prospect-facing)
 `Status:` unset → no drafts; the segments, the timing, and the workflow table render; one warm line ("set up my
@@ -63,6 +60,10 @@ adds them — then I'll draft their message and move them along."* (`attraction-
 never writes it. Saying the event's theme is what lets this skill find the row later.)
 
 ## Step 2 — The four sequences (drafted; the member's voice; read back against the NEVER list before shown)
+Read now: `identity/voice.md` + `voice-samples.md` (how they type) · `identity/offer.md` (What's included — the
+real things the warm invite names; `Status:`) · `identity/proof.md` + `story-bank.md` (the day-3 agent story,
+consent) · `identity/operations.md` (the booking link; the weekly call; the signature) · `memory/magnets.md → ##
+Current magnet` (the resource).
 NEVER: an immediate pitch, a wall of text, "opportunity," compensation, income, "just checking in," guilt on a
 no-show, fake personalization, a forced Zoom. One failure = rewrite. Each ≤150 words, one idea, one link at most.
 - **Attended** — **Day 1 (9:00, the morning after):** "thank you for coming" + the one takeaway in one line +
@@ -95,6 +96,7 @@ no-show, fake personalization, a forced Zoom. One failure = rewrite. Each ≤150
   sequences the evergreen plan's tables already name.
 
 ## Step 3 — The pipeline (requests, never guesses — the locked shapes)
+Read now: `memory/pipeline.md` (read — where a named attendee stands; direct write only before the Admin).
 For each named hot attendee (a Top-50 row with `Source: event` for this event — Step 0's match): the move the member's words justify —
 engaged / replied → `Identified → Conversation`; booked → `Conversation → Call booked` (or from `Identified`,
 via the Admin's one question); joined → `Joined` (the Admin asks). Read `config.md`:

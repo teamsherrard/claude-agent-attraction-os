@@ -9,20 +9,20 @@ Steps, in order, plain language throughout (no file names, no sync talk, no step
 1. If `~/attraction-brain/` is missing, pull it with the attraction-brain-sync skill first. If no Brain exists,
    stop and say so in one line.
 2. Read brain.md, memory/events.md (the block for [CODE]: the topic, the transformation, the replay link and
-   window, the counts if already entered, the follow-up line), identity/voice.md and identity/voice-samples.md,
-   identity/offer.md (what's included — the real things the warm invite names), identity/proof.md and
-   identity/story-bank.md (one agent story with consent for day 3), identity/operations.md (the booking link, the
-   weekly call, the signature), memory/top-50.md (rows whose Notes say Source: event and belong to this event —
-   [CODE] or its theme in Notes, or added on or after the event date — the named agents the member chose to
-   pursue; nobody else is named), memory/pipeline.md (read only — where each named
-   agent stands), config.md (whether an AI Admin block exists; the Lead Magnet block's List tool),
-   identity/compliance.md (its first line, `Status:`, is the gate).
+   window, the counts if already entered, the follow-up line), and identity/compliance.md (its first line,
+   `Status:`, is the gate). Every other file is read at the step that uses it, never earlier.
 3. If the first line of compliance.md is unset, write no drafts: list the segments and the timing, say the drafts
    need the member's compliance basics ("set up my attraction compliance"), write nothing else, and stop. If it
    is set, apply its rules and say once that it still needs confirming; if confirmed, apply them.
-4. Draft, in the member's voice, each one short, one idea, one link at most, no pitch, no compensation, no
-   income language, no guilt, nothing negative about any brokerage or person, the brokerage name only in the
-   signature as the display rule says, the scope line where the member may not attract:
+4. Read now: identity/voice.md and identity/voice-samples.md, identity/offer.md (what's included — the real
+   things the warm invite names), identity/proof.md and identity/story-bank.md (one agent story with consent for
+   day 3), identity/operations.md (the booking link, the weekly call, the signature), memory/top-50.md (rows
+   whose Notes say Source: event and belong to this event — [CODE] or its theme in Notes, or added on or after
+   the event date — the named agents the member chose to pursue; nobody else is named), memory/pipeline.md (read
+   only — where each named agent stands), config.md (whether an AI Admin block exists; the Lead Magnet block's
+   List tool). Then draft, in the member's voice, each one short, one idea, one link at most, no pitch, no
+   compensation, no income language, no guilt, nothing negative about any brokerage or person, the brokerage name
+   only in the signature as the display rule says, the scope line where the member may not attract:
    - the ATTENDED sequence: day 1 (thank you, the one takeaway, the resource, the replay if there is one, one
      personal line from the event's notes, the open door), day 3 (one more usable thing or the agent story), day 7
      (the warm invite: "if you'd like to chat about partnering with me and getting [the real things] for free,

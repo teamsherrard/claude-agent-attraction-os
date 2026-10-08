@@ -27,16 +27,14 @@ conversations; you focus on leadership." The gate is a kindness. This skill runs
 `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §2, §4, §7, §10, §14–§15. The workflow table:
 `${CLAUDE_PLUGIN_ROOT}/shared/ghl-workflow-table.md` (read at Step 4).
 
-## Step 0 — Load (lazy; silent)
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 `brain.md` (pull via `attraction-brain-sync` if missing) · `memory/organization.md` (the count) · `identity/proof.md`
-(Organization today; what's real for the script) · `identity/brand-visual.md` (the kit present in `02 · Brand`?)
-· `identity/operations.md` (a VA or team in the tech stack / "who else sees the workspace"; the booking link) ·
-`memory/events.md` (past virtual trainings — the best one is the evergreen's source) · `identity/offer.md` (the
-topic aligned with the value proposition; what's below the water) · `identity/avatars.md` · `identity/compliance.md`
-first line and the Recruiting scope · `memory/magnets.md → ## Current magnet` · the Short-Form block's keyword in
-`identity/publishing.md` (`Keyword:`) · the Lead Magnet block's `List tool`.
+(Organization today; what's real for the script) · `identity/operations.md` (a VA or team in the tech stack /
+"who else sees the workspace"; the booking link). Every other Brain file is named at the step that uses it
+("Read now") — never earlier, never re-read once in context.
 
 ## Step 1 — The gate (Mike's, said plainly — one message, then their choice)
+Read now: `identity/brand-visual.md` (the kit present in `02 · Brand`?) · `identity/channel.md` if built.
 Three checks from the Brain, never asked: **organization size** (250+ agents — the count in `organization.md`,
 or `proof.md → Organization today`; empty → "I don't have your organization size recorded — how many agents
 today?" is the one question) · **a credible brand** ("it's very rare that you click on a webinar from somebody
@@ -53,6 +51,10 @@ that doesn't look like they've got a credible brand," `/76` — the kit in `02 �
   [the VA/team]. Let's build the training that runs without you."*
 
 ## Step 2 — The four-step framework (`/76`), decided (one stop, pre-answered; your turn)
+Read now: `memory/events.md` (past virtual trainings — the best one is the evergreen's source) · `identity/offer.md`
+(the topic aligned with the value proposition; what's below the water) · `identity/compliance.md` first line
+(`Status:`) and the Recruiting scope (+ the ad policy) · the Short-Form block's keyword in `identity/publishing.md`
+(`Keyword:`) · the Lead Magnet block's `List tool` in `config.md`.
 1. **Record a training on a hot topic aligned with your value proposition.** The source: the member's
    best-performing virtual training in `events.md` (highest engaged and calls-booked counts) — "refine the
    presentation so it delivers value while positioning your offer." No past training → the topic from
@@ -70,8 +72,10 @@ that doesn't look like they've got a credible brand," `/76` — the kit in `02 �
 Propose all four from the Brain; **your turn**; "you pick" → the proposals.
 
 ## Step 3 — The script outline (45–60 minutes; written, then shown)
-Read doctrine §4, §7 now. The outline, with a one-line "say it like this" per beat in the member's voice
-(`voice-print.md`):
+Read now: doctrine §4, §7 · `identity/voice-print.md` (how they talk) · `identity/journey.md` (the mirror) ·
+`identity/avatars.md` (the pain in their words) · `memory/objections.md` (the three questions) ·
+`memory/magnets.md → ## Current magnet` (the resource). The outline, with a one-line "say it like this" per beat
+in the member's voice (`voice-print.md`):
 - **Cold open (0–2):** the promise and who it's for; no "welcome to my webinar."
 - **The mirror (2–5):** one journey beat (`journey.md`) that matches the primary type — former brokerage never
   named — and why the member teaches this for free (information isn't novel; proximity and support are, `/73`).

@@ -28,13 +28,13 @@ their organization could run it (the delegation principle).
 Contract: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. Doctrine: `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md`
 §1, §3, §5–§8 (read at the step that uses each).
 
-## Step 0 — Load (lazy; silent)
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 The event's block in `memory/events.md` (no block → `ev-strategy` first, one line, same sitting) ·
 `identity/avatars.md` (where local agents gather — the venue hint) · `memory/organization.md` (the agents who'll
-bring guests and host tables; a co-host) · `identity/operations.md` (hours; the weekly model call, the 3-way
-partner) · `identity/proof.md` · `identity/compliance.md` first line (signage: the brokerage logo rule) ·
-`identity/brand-visual.md` (the banner and photo-spot brief) · the workspace's past event docs. Pull via
-`attraction-brain-sync` if missing. A tool error is never "no Brain."
+bring guests and host tables; a co-host) · `identity/compliance.md` first line (`Status:`; the signage rule — the
+brokerage logo only where it requires). Pull via `attraction-brain-sync` if missing. A tool error is never "no
+Brain." Every other Brain file is named at the step that uses it ("Read now") — never earlier, never re-read once
+in context.
 
 ## Step 1 — The three decisions (one stop, pre-answered; your turn)
 1. **Venue.** Brokerage-neutral by rule (house rules #5): a board or association room (Mike's choice), a title
@@ -52,7 +52,9 @@ partner) · `identity/proof.md` · `identity/compliance.md` first line (signage:
 Default everything on "you pick." **Your turn.**
 
 ## Step 2 — The playbook (written, then rendered)
-Read doctrine §5–§8 now.
+Read now: doctrine §5–§8 · `identity/operations.md` (hours; the weekly model call, the 3-way partner) ·
+`identity/proof.md` (what's real) · `identity/brand-visual.md` (the banner and photo-spot brief) · the workspace's
+past event docs.
 - **The invite plan** (§5): the personal-invite list (the Top-50 locally; the Admin's match-back when installed);
   the agents' guest ask ("bring one agent who'd get value from this"); the speakers' posts; the partners' lists
   (`lm-partnerships`); the promo video + graphic (`ev-promo` writes the script and the `ds-event` brief); the

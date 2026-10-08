@@ -26,18 +26,13 @@ share), #12. Contract: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (the con
 `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §5, §15–§16. The calendar:
 `${CLAUDE_PLUGIN_ROOT}/skills/ev-promo/references/promo-calendar.md` (read at Step 2).
 
-## Step 0 — Load (lazy; silent)
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 The event's block in `memory/events.md` (the name, promise, date, speakers, registration URL — no block →
 `ev-strategy` first, same sitting; no registration URL → the promo says "link in bio / reply for the link"
-until `ev-registration` is done) · `identity/voice.md` + `voice-samples.md` (how they type — the DMs and emails)
-· `identity/avatars.md` (the pain in their words — every hook) · `identity/proof.md` (one credibility line; a
-speaker's one line) · `identity/story-bank.md` (one story for the announcement email; stamp nothing — Events
-never writes story-bank; say "worth stamping" to the member in one line) · `memory/top-50.md` (the personal
-invites) · `memory/organization.md` (the agents who'll share) · `identity/publishing.md` (platforms, best times,
-the keyword — Week 3's layer; absent → Instagram stories + email as the default) · `memory/content-log.md`
-(nothing repeated this month) · `identity/brand-visual.md` (the `ds-event` brief) · `identity/compliance.md`
-first line (`Status:`) + the Meta note + name display · `config.md` (the Admin block — the match-back). Pull via
-`attraction-brain-sync` if missing.
+until `ev-registration` is done) · `identity/compliance.md` first line (`Status:`) + the Meta note + name display
+· `memory/organization.md` (the agents who'll share) · `identity/voice.md` (how they type — the DMs and emails).
+Pull via `attraction-brain-sync` if missing. Every other Brain file is named at the step that uses it ("Read
+now") — never earlier, never re-read once in context.
 
 ## Compliance gate (every piece here is public)
 `Status:` **unset** → no copy; the calendar skeleton and the asset table render; one warm line to "set up my
@@ -51,6 +46,8 @@ question, if the Brain can't answer it: *"Which of your agents will share and br
 list?"* Default: everyone in `organization.md`. **Your turn.**
 
 ## Step 2 — The calendar (read the reference now)
+Read now: `identity/publishing.md` (platforms, best times, the keyword — Week 3's layer; absent → Instagram
+stories + email as the default) — the calendar's channel column comes from it.
 The virtual calendar runs T-14 → T-0; the live one T-28 → T-0 (the reference has both, row by row: day ·
 channel · piece · who posts · CTA). Fill it for this event with real dates from the block. Every row names
 **who** (the member · the agents · the speakers · the partners) — the share pack (Step 4) is what makes the
@@ -58,6 +55,11 @@ agents' and speakers' rows thirty-second jobs. The asset table (workshop-ops Pha
 Purpose · Owner · Delivery method · Distribution timing · Related email · Related post.
 
 ## Step 3 — The copy (the member's voice; every piece passes the read-back)
+Read now: `identity/voice-samples.md` (beside `voice.md` — how they type) · `identity/avatars.md` (the pain in
+their words — every hook) · `identity/proof.md` (one credibility line; a speaker's one line) ·
+`identity/story-bank.md` (one story for the announcement email; stamp nothing — Events never writes story-bank;
+say "worth stamping" to the member in one line) · `memory/top-50.md` (the personal invites) · `config.md` (the
+Admin block — the match-back) · `memory/content-log.md` (nothing repeated this month).
 Read every draft back against the NEVER list before it is shown: no pitch, no brokerage name beyond the
 compliance footer, no compensation, no income language, nothing negative about anyone, no "opportunity," no
 wall of text, nothing AI-sounding, no fake urgency on a free event (seats are real; "limited" only if the room is).
@@ -77,7 +79,7 @@ One failure = rewrite.
   confirmation sequence covers registrants; these go to the list and the DM invites who haven't registered).
 - **Posts** (3): the announcement (the promise + who it's for + "link in bio / comment [KEYWORD]"), the
   speaker spotlight (one line of their proof, consent — Pillar `Proof`), the "what you'll walk away with"
-  carousel outline (3–5 slides — the `ds-event` or `ds-carousel` brief).
+  carousel outline (3–5 slides, built by `ds-carousel`'s event intake — the outline here is its input).
 - **Stories** (daily, T-7 → T-0 — "especially on your stories," `/75`): a 7-story countdown — the pain poll,
   the promise, the speaker, the do-this-now preview, the "who's coming" social proof (the member's agents
   reposting), the countdown sticker, the doors-open "link up." Each ≤2 lines of on-screen text + the sticker
@@ -96,6 +98,7 @@ and name this event — it writes the line your lenders and title reps send thei
 [topic], no brokerage talk."*
 
 ## Step 5 — The creative briefs (paste-ready, by name)
+Read now: `identity/brand-visual.md` (the brand line of every brief — or "Design Package first").
 ```
 FOR ds-event (promo set for [event name])
 Member: [name] · [brokerage, as compliance.md displays it, footer only] · [market]
@@ -103,7 +106,7 @@ Event: [name] · [live local / virtual / evergreen] · [date · time · timezone
 Hosts: [the member + co-hosts] · Guest speakers: [name · their one-line credential as they state it · consent on file · photo supplied — or none]
 What they leave with (three real things): • … • … • …
 Registration: [the page link — or "comment the word [KEYWORD]"] · Seats or deadline (real): [n seats / closes [date] — or none]
-Pieces: 1. feed graphic (announcement) 2. story set (7 countdown frames, text above) 3. speaker spotlight card 4. [carousel 3–5 slides] 5. the banner / photo-spot backdrop (live only)
+Pieces: 1. feed graphic (announcement) 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) 3. speaker spotlight card 4. carousel — 3–5 slides, built by `ds-carousel`'s event intake (the outline above is its input) 5. the banner / photo-spot backdrop (live only)
 Copy on each: [verbatim from Step 3 — headline, sub-line, CTA]
 Brand: [from brand-visual.md — logo, colours, type; or "Design Package first: ds-logo → ds-style-sheet → ds-brand"]
 Required line (verbatim): [the compliance footer / brokerage name as required] · Brokerage-neutral: [yes (live local) / n/a]

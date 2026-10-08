@@ -54,7 +54,7 @@ produces is a draft the member delivers, posts, or sends; nothing goes out on it
 
 | Format | Code | Fits when | Mike's line |
 |---|---|---|---|
-| **Live local event** — workshop, mastermind, brokerage-neutral networking night, business-planning night | `ws` | the member attracts locally or builds a local team or brokerage; they have (or can borrow) a room, a co-host, and agents who will bring guests; they want the deepest relationships and local community | "This is what we do very frequently. Suman does this every month" (`/74`) |
+| **Live local event** — workshop, mastermind, brokerage-neutral networking night, business-planning night | `ws` | the member attracts locally or builds a local team or brokerage; they have (or can borrow) a room, a co-host, and agents who will bring guests; they want the deepest relationships and local community | "This is what we do very frequently. [A partner Mike co-hosted with] does this every month" (`/74`) |
 | **Virtual training** — a Zoom session on a hot topic | `vt` | the first event; a cloud brokerage reaching beyond the local market; low budget; the member's agents are spread out; the member wants to repeat often | "At the beginning I did everything with virtual events" (`/75`) — "just your Zoom room and a clear topic" |
 | **Evergreen webinar** — a recorded training that runs on demand | `ew` | ONLY past the gate: an organization over 250 agents, a credible brand, a team or VA to build and run the systems, and the member is a strong presenter who can hold 60 minutes and invite without being salesy | "If you have less than 250 agents, skip this video" (`/76`) |
 

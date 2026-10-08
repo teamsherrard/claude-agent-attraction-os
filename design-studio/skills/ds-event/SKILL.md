@@ -32,9 +32,10 @@ and your Brain Book, paste your event brief, and type: 'my attraction event flye
 
 ## REFERENCES — READ AT THE RIGHT MOMENT (they are part of this skill — never skip them)
 
-- **references/event-specs.md** — read BEFORE building: the three formats and what each needs, the
-  event brief shape, every piece's exact size and anatomy, the slide-deck recipe with the iceberg
-  close, the brokerage-neutral rules, and the hand-off block for `ds-funnel`.
+- **references/event-specs.md** — read BEFORE building: the two producer briefs field by field and
+  what each field becomes, the three formats and what each needs, every piece's exact size and
+  anatomy, the seven-frame countdown set, the slide-deck recipe with the iceberg close, the
+  brokerage-neutral rules, and the hand-off block for `ds-funnel`.
 - **references/export-page.md** — read when the graphics are approved and you are building the export
   page. Its header names the Week 1 skills; the contract is identical here. This skill's values:
   button **"Download the event graphics"**, `ZIP_NAME = 'event-graphics.zip'`,
@@ -48,19 +49,27 @@ and your Brain Book, paste your event brief, and type: 'my attraction event flye
 top", "the edge the printer trims", "the part of the screen Zoom covers", "a wide slide". A technical
 term may appear only in brackets AFTER a plain label. The vocabulary inside this skill is for YOU.
 
-**The briefs.** Members arrive with one or both pasted blocks their Events plugin wrote. **"FOR ds-event
-(promo set for [event name])"** from `ev-promo` carries: **Member** · **Event** (name · date · time ·
-timezone · Zoom / venue · free · for [type of agent]) · **Pieces** (1. feed graphic 2. story set — 7
-countdown frames 3. speaker spotlight card 4. carousel 3–5 slides 5. the banner / photo-spot backdrop,
-live only) · **Copy on each** (verbatim — headline, sub-line, CTA) · **Brand** · **Required line
-(verbatim)** · the standing rule *"Never on the graphic: splits, caps, stock, rev share, income, another
-brokerage's name, recruiting"* · the **Ad note**. **"FOR ds-event (workshop slides — [event name])"**
-from `ev-runofshow` carries: **Member** · **Deck** ([n] slides, 16:9) · the numbered slide list (Title ·
-The promise · Who this is for · one slide per teaching beat · Do-this-now · Proof · Q&A · The iceberg ·
-Book a call / Come talk to us · Your resource · Thank you) · **Compliance strip (where required,
-verbatim)** · *"Never on a slide: …"*. The specs spell out both shapes and what each field becomes.
-**The brief is the content — design it, don't re-plan the event.** A brief in another shape is read for
-the same fields; ask only for what's missing (format, timezone, the hosts' consent, the registration link).
+**The briefs.** Members arrive with one or both pasted blocks their Events plugin wrote; the producers
+own the field names, and §1 of the specs carries both blocks verbatim with the table of what each field
+becomes. **"FOR ds-event (promo set for [event name])"** from `ev-promo` carries: **Member** · **Event**
+(name · live local / virtual / evergreen · date · time · timezone · Zoom / venue + address · free · for
+[type of agent — career stage / production]) · **Hosts** (the member + co-hosts · Guest speakers: name ·
+their one-line credential as they state it · consent on file · photo supplied — or none) · **What they
+leave with** (three real things) · **Registration** (the page link — or "comment the word [KEYWORD]" ·
+Seats or deadline, real — or none) · **Pieces** (1. feed graphic 2. story set — 7 countdown frames
+3. speaker spotlight card 4. carousel 3–5 slides 5. the banner / photo-spot backdrop, live only) · **Copy
+on each** (verbatim — headline, sub-line, CTA) · **Brand** · **Required line (verbatim)** ·
+**Brokerage-neutral** (yes for live local / n/a) · the standing rule *"Never on the graphic: splits, caps,
+stock, rev share, income, another brokerage's name, recruiting"* · the **Ad note**. **"FOR ds-event
+(workshop slides — [event name])"** from `ev-runofshow` carries: **Member** · **Event** (name · format ·
+date · time · timezone · Zoom / venue · booking link · registration link or keyword) · **Deck** ([n]
+slides, 16:9) · the numbered slide list (Title · The promise · Who this is for · one slide per teaching
+beat · Do-this-now · Proof · Q&A · The iceberg · Book a call / Come talk to us · Your resource · Thank
+you) · **Compliance strip (where required, verbatim)** · *"Never on a slide: …"*.
+**The brief is the content — design it, don't re-plan the event.** Pieces 4, the carousel, is
+`ds-carousel`'s (its event intake reads this same promo brief) — never built here. A brief in another
+shape is read for the same fields; ask only for what's missing (format, timezone, the hosts' consent, the
+registration link).
 
 **The Design System and the Book.** The Design System holds the logo files, colours, fonts, the photo
 treatment, the components (CTA button, proof chip, quote device, sticker plate), and the brand
@@ -110,8 +119,9 @@ slides — say the word to change any of these"); **"Your turn"** at the end:
   never appears in the title, the hero, or the venue line — only in the compliance strip.
 - **Virtual** (`75`) — a Zoom training that reaches agents across markets; free, easy to promote, easy
   for the member's agents to duplicate. Needs: the feed and story flyers, the registration post, the
-  countdown set, the Zoom virtual background, the starting-soon screen, the "we're live" story, the
-  replay graphic, and the slides with chat-prompt beats ("drop a 1 in the chat if this is you"). The
+  countdown set (its doors-open frame is the "we're live" story), the Zoom virtual background, the
+  starting-soon screen, the replay graphic when the event has a replay, and the slides with chat-prompt
+  beats ("drop a 1 in the chat if this is you"). The
   timezone is mandatory on every piece. Follow-up matters more here — the replay graphic feeds the
   Events plugin's follow-up.
 - **Evergreen webinar** (`76`) — a recorded training that runs on demand. Mike's gate, said once, no
@@ -136,22 +146,29 @@ no-drift test after each wave.
    brokerage-neutral hero; the venue address in full.
 4. **The registration post** (1080×1080) — one job: "Save your seat" — the title, the date chip, the
    link or keyword, the member's face. Three messages on one graphic is zero messages.
-5. **The countdown story set** (6 × 1080×1920) — 7 days · 3 days · tomorrow · today · we're live ·
-   replay — the same ground, the number the hero, a designed plate for the countdown sticker and the
-   link sticker.
+5. **The countdown story set** (7 × 1080×1920 — `ev-promo`'s seven content frames, never a bare
+   number countdown) — the pain poll · the promise · the speaker · the do-this-now preview · who's
+   coming · the countdown · doors open — one ground, the brief's ≤2 lines on each verbatim, a designed
+   plate for the sticker each frame names (poll · link · countdown); an eighth replay frame only when
+   the brief carries a replay line.
 6. **Speaker cards** (1080×1080, one per guest, with consent) — "with [guest]" · their one-line
    credential as THEY state it · their photo as-is.
 7. **The screens** — the Zoom virtual background (1920×1080: the title small in a corner, the member's
    head zone clear), the starting-soon screen (1920×1080: title · "starting at [time] [tz]" · the
    member's face · a quiet brand ground), the event banner for photos (live local — a wide backdrop
    layout the printer scales; the organization's logo repeating or large, the member's name).
-8. **The replay graphic** (1080×1920 story + 1080×1080 post) — "missed it? the replay" or "watch now"
-   (evergreen), the link or keyword.
-9. **The slide deck** (1920×1080) — from the run-of-show, per the deck recipe in the specs: cover →
-   who's in the room → what you'll leave with → the teaching sections (real how-to with a template, a
-   script, or a sourced number per section) → interactive beats → Q&A → **the iceberg close** → the
-   invitation ("let's have a conversation — book a call with me" + the link; live: "come find me
-   after") → thank-you and contact. Per-slide talking points in chat.
+8. **The replay graphic** (1080×1920 story + 1080×1080 post; only when the event has a replay) —
+   "missed it? the replay" or "watch now" (evergreen), the link or keyword.
+9. **The slide deck** (1920×1080) — from the run-of-show's brief, per the deck recipe in the specs:
+   title → the promise → who this is for → one slide per teaching beat (real how-to with the template,
+   screenshot, or diagram it names; interactive beats at the chat prompts) → do-this-now → proof → Q&A
+   → **the iceberg close** → book a call / come talk to us ("let's have a conversation" + the QR and the
+   link; live: "come find me after") → your resource → thank you + the speakers' names. Per-slide
+   talking points in chat.
+
+**Not built here:** the carousel (the brief's Pieces 4) is `ds-carousel`'s — its event intake reads this
+same promo brief. Say so in one line (*"say 'design my carousel' and paste your promo brief"*) and never
+render a carousel slide on this board.
 
 ## ART DIRECTION — ONE EVENT, ONE LOOK; ONE BRAND, EVERY EVENT
 
@@ -233,10 +250,14 @@ compliance file, whose first line is `Status:` — and the brief's compliance li
   overlaps or truncates; stories' key text out of the UI zones; the Zoom background's centre clear?
 - The print flyer with bleed, safe margin, readable reversed type, the QR with a quiet zone (or the
   labelled square)?
+- The countdown: the seven content frames in the brief's order, the brief's lines verbatim on each,
+  the right plate on each (poll · link · countdown), no replay frame without a replay line?
 - The deck: fills the frame, one idea per slide, dividers, real charts with source and period, a
-  footer, the interactive beats, the Q&A slide, the iceberg close in the member's words with no
-  brokerage pitch and no compensation word, the invitation with the booking link, talking points per
-  slide, the no-drift test passed?
+  footer, the brief's slides in its order (the promise · who this is for · the teaching beats ·
+  do-this-now · proof · Q&A · the iceberg · the invitation · your resource · thank you), the
+  interactive beats, the iceberg close in the member's words with no brokerage pitch and no
+  compensation word, the invitation with the booking link, talking points per slide, the no-drift test
+  passed?
 - Dates and seats real; the ask single; the who-it's-for a career-stage line, never a protected
   characteristic?
 - The compliance strip on every public piece when set; no export page and no push when unset?
@@ -253,9 +274,12 @@ own **"Download the event graphics"** button (zip: `event-graphics.zip`). Canoni
 `KIT_REQUIRED` to the pieces built in this run):
 
 `flyer-post.png` · `flyer-story.png` · `flyer-print.png` · `registration-post.png` ·
-`countdown-7days.png` · `countdown-3days.png` · `countdown-tomorrow.png` · `countdown-today.png` ·
-`countdown-live.png` · `countdown-replay.png` · `speaker-[firstname].png` · `zoom-background.png` ·
-`starting-soon.png` · `event-banner.png` · `replay-post.png` · `replay-story.png` · `event-captions.md`
+`countdown-01-pain-poll.png` · `countdown-02-promise.png` · `countdown-03-speaker.png` ·
+`countdown-04-do-this-now.png` · `countdown-05-whos-coming.png` · `countdown-06-countdown.png` ·
+`countdown-07-doors-open.png` (· `countdown-08-replay.png` only with a replay line) ·
+`speaker-[firstname].png` · `zoom-background.png` · `starting-soon.png` · `event-banner.png` ·
+`replay-post.png` · `replay-story.png` · `event-captions.md`. The carousel's files are `ds-carousel`'s
+(`carousel-[event-slug]-NN.png` + its LinkedIn PDF) and export from its board, not this one.
 
 The deck exports as `[event-slug]-slides.pdf` from Claude Design's Export menu (slides in order, one
 per page); the print flyer ALSO exports as a PDF with bleed for the printer. The notes file holds the

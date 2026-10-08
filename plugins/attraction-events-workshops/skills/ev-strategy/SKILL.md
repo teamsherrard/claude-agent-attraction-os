@@ -23,18 +23,14 @@ outline, roadmap, success metrics, conversion goals.
 (brokerage-neutral), #9 (no invented benchmarks), #13 (fast lane). Contract: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 Doctrine: `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §3–§5, §11–§14 (read §4 at Step 2, §13–§14 at Step 5).
 
-## Step 0 — Load (lazy; silent)
+## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 `brain.md` (pull if missing via `attraction-brain-sync`) · `config.md` (`Member code` — empty on a first event;
-`Timezone`; `Locale`) · `identity/avatars.md` (the primary type, their pains in their words, geography, where they
-gather) · `identity/offer.md` ("What worked for them," "Teach first," the Edge; What's included — what's below
-the waterline; `Status:`) · `identity/positioning.md` (the one line) · `identity/proof.md` (what's real) ·
-`memory/organization.md` (how many agents can bring a guest; who could co-host) · `identity/operations.md` (hours,
-the weekly model call, the 3-way partner, the tech stack) · `identity/goals.md` (the weekly activity the conversion
-goals anchor to) · `memory/events.md` (past events: what worked, the member code, the last event number) ·
-`memory/ideas.md` → rows tagged `event` (an idea they captured on the go — use it first) · `memory/intel.md` (an
-industry shift worth a theme) · `memory/content-log.md` (a recent theme not to repeat). The format arrives from
-`ev-navigator`; if this skill is reached directly with no format, decide it as the navigator does (doctrine §2)
-and state it in one line.
+`Timezone`; `Locale`) · `memory/events.md` (past events: what worked, the member code, the last event number) ·
+`identity/offer.md` ("What worked for them," "Teach first," the Edge; What's included — what's below the
+waterline; `Status:`). Every other Brain file is named at the step that uses it ("Read now") — never earlier,
+never re-read once in context. The format arrives from `ev-navigator`; if this skill is reached directly with no
+format, decide it at Step 2 (once that step's files are open) as the navigator does (doctrine §2) and state it
+in one line.
 
 ## Step 1 — The member code, once
 `config.md → Member code` empty → propose one from their name or organization (2–5 lowercase letters: "tb" for
@@ -44,7 +40,12 @@ the Events block; push. Never ask again. The **event code** is `[code]-[ws|vt|ew
 `events.md` + 1 (01 for a first). Say it once in the brief; never explain the mechanics out loud.
 
 ## Step 2 — The brief's decisions (one stop, 2–4 questions, each pre-answered from the Brain)
-Read doctrine §4 now. **Propose, don't ask open questions** — the member reacts.
+Read now: `identity/avatars.md` (the primary type, their pains in their words, geography, where they gather) ·
+`memory/organization.md` (how many agents can bring a guest; who could co-host) · `identity/operations.md`
+(hours, the weekly model call, the 3-way partner, the tech stack) · `memory/ideas.md` → rows tagged `event` (an
+idea they captured on the go — use it first) · `memory/intel.md` (an industry shift worth a theme) ·
+`memory/content-log.md` (a recent theme not to repeat) · doctrine §4. **Propose, don't ask open questions** — the
+member reacts.
 1. **The topic.** From "What worked for them" / "Teach first" in `offer.md`, matched to the primary type's
    biggest pain in `avatars.md`. Mike's lanes: social media, YouTube, lead generation, AI, scaling (`/74`, `/75`).
    Propose ONE with the why and two alternates in one line each: *"I'd teach **[the thing you actually did]** —
@@ -63,6 +64,8 @@ Read doctrine §4 now. **Propose, don't ask open questions** — the member reac
 **Your turn.** "You pick" → use the proposals. "Just make it" → build now.
 
 ## Step 3 — Positioning (no question — written, then shown)
+Read now: `identity/positioning.md` (the one line) · `identity/proof.md` (what's real) · `identity/journey.md`
+(the mirror beat) · `memory/magnets.md → ## Current magnet` (the second CTA).
 - **The name** — what it teaches, for whom, brokerage-neutral: "[Topic] for [City] Agents — a free workshop" /
   "[Outcome] Without [the pain] — a free Zoom training for agents." Never "recruiting," never the brokerage.
 - **The one-line promise** (the hero line the page and the invite reuse): outcome, who it's for, free.
@@ -76,6 +79,7 @@ Read doctrine §4 now. **Propose, don't ask open questions** — the member reac
 - **The second CTA** — `memory/magnets.md → ## Current magnet` if live, else the slides or a one-page checklist.
 
 ## Step 4 — Metrics and conversion goals (the member's own numbers, never a benchmark)
+Read now: `identity/goals.md` (the weekly activity the conversion goals anchor to).
 - **Success metrics, in order:** registrations · attended (show rate) · engaged (questions, chat, stayed for
   networking) · conversations · calls booked · joins. No target from thin air: a first event sets the baseline;
   a repeat compares to the last block in `events.md`.
@@ -91,7 +95,9 @@ Read doctrine §4 now. **Propose, don't ask open questions** — the member reac
 - **Budget line** (live only): venue, food, printing — the member's numbers or "to confirm"; never estimated.
 
 ## Step 5 — Write back, render, hand off
-Read doctrine §13–§14 now (for the block's words and the tag convention, which the brief states once).
+Read now: doctrine §13–§14 (for the block's words and the tag convention, which the brief states once) ·
+`identity/compliance.md` — its first line `Status:`, the name display, the footer, the recruiting scope (for
+item 4's note; the brief itself is private).
 1. **`memory/events.md`** — open the block in the locked shape (`brain-contract.md`): the code, Format, `Status:
    planned`, Topic / For / Transformation, When / Where, Co-hosts, the share-plan counts, Docs path; the header's
    `Next event:` line; `Member code` if new. The header line (`Member code · Events run · Next event · Last
