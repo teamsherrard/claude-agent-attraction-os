@@ -77,12 +77,17 @@ search, they find you" (`/93`, draft). The Future bucket when it points at lever
   method — the member's own, labeled as theirs, or an agent's with consent) · `story-bank.md` · `avatars.md`.
 - **Beats:** the outcome and who it's for → the method, step by step (the exact system the member uses — enough
   to act on today) → the case study woven in ("this is legit": an agent who used it, or the member's own numbers
-  stated honestly as production facts, never income promises) → the mistakes that break it → the next stage
+  stated honestly as production facts — only where `compliance.md`'s rev-share/income policy line allows production
+  figures, the member's own and cited, never in the title by default, never income promises) → the mistakes that
+  break it → the next stage
   (Future: what this makes possible — leverage, a team, an organization — concepts only) → the invite to get the
   full system and support by partnering.
 - **Hooks that fit:** formula 4 ("the top N things to … as a real estate agent"), formula 1, formula 5 as a
-  self-case-study ("how I … from YouTube" — with the facts the member can state).
-- **Never:** income figures as the promise; a competitor's method run down; a stat without a source.
+  self-case-study ("How I [outcome] from YouTube" — `[outcome]` reads as the result, never the member's own GCI, deal
+  count, or a dollar figure by default; the one exception: `compliance.md`'s rev-share/income policy line explicitly
+  allows production figures and the figure is the member's own, cited).
+- **Never:** income figures as the promise; the member's own GCI, deal count, or dollar figure in the title (the
+  compliance exception above is the only one); a competitor's method run down; a stat without a source.
 
 ## 5. Interview — intro and outro  (bucket: Interview · Proof · intro 45–75 s, outro 30–45 s)
 *The guest is the star. The intro is recorded LAST — after the conversation — so it hooks the best things the

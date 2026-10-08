@@ -90,10 +90,11 @@ relevance, the workspace per the Brain's `drive-map.md`: `02 · Brand` (the kit)
 
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story a
 script used · `memory/ideas.md` → flip a `youtube` / `interview` idea's Status to `used` at make-video start
-(never at pick time) **and** `yt-repurpose` is a designated appender of **conversation-starter rows** (Tag
-`general`, Idea = the starter text + "conversation starter from [video]", Avatar / pain, Status `open`) when the
-Conversion plugin is not installed — the owner stays `attraction-capture`; `cv-conversation-starter` marks them
-used · `memory/intel.md` → the `Used?` column of a row a video drew on · `identity/publishing.md` → **only** the
+(never at pick time) **and** `yt-repurpose`'s **conversation-starter rows** (Tag `general`, Idea = the starter
+text + "conversation starter from [video title] — [the hook it came from]", Avatar / pain, Status `open`), handed to
+`attraction-capture` — the owner, which appends them — when the Conversion plugin is not installed;
+`cv-conversation-starter` marks them used. `yt-repurpose` never appends directly and never owns a send-queue ·
+`memory/intel.md` → the `Used?` column of a row a video drew on · `identity/publishing.md` → **only** the
 `Content board:` line, and only when `yt-board` creates or records the board (the same designated line
 `sf-board` writes; the file stays Short-Form-owned). Nothing else in those files.
 
@@ -134,8 +135,9 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   Channel page · Baseline · `## Game Plan anchors` (yt-gameplan only) · `## Performance` (yt-analytics only,
   dated blocks appended, newest last).
 - **`identity/publishing.md`** (Short-Form-owned, read here): the `Content board:` line (URL · `declined
-  YYYY-MM-DD` · empty = not offered yet) and the `Keyword:` line (the ManyChat keyword `yt-leads` quotes in
-  replies). The **`Weekly Content Performance task:`** key lives ONLY on `config.md`'s `## Short-Form (Week 3)`
+  YYYY-MM-DD` · empty = not offered yet) and the `Keyword:` line — **the keyword's single source** (the ManyChat
+  keyword `yt-leads` quotes in replies); `identity/content-pillars.md`'s CTA line mirrors it, so every reader goes
+  `publishing.md` first, `content-pillars.md` second, nothing third. The **`Weekly Content Performance task:`** key lives ONLY on `config.md`'s `## Short-Form (Week 3)`
   block (coordinator ruling, SEAM-LOG) — `yt-analytics` reads it there, never on `publishing.md`.
 
 ## Scheduled agents this plugin touches
@@ -173,7 +175,12 @@ unset) · `attraction-story-bank` (a story to bank) · `attraction-goals` (no ta
 4. Every content-log row's Pillar cell carries one of the five OS pillars (`yt-interview` rows `Proof`,
    `yt-model-breakdown` rows `Perspective`); the bucket sits in brackets at the start of the Topic / hook cell.
 5. The live lead magnet is read from `memory/magnets.md → ## Current magnet` first, `identity/offer.md` second.
-6. `yt-repurpose` is a designated appender of conversation-starter rows to `memory/ideas.md`.
+6. `yt-repurpose`'s conversation-starter rows reach `memory/ideas.md` through `attraction-capture` (the owner) when the
+   Conversion plugin is absent — final pass 2026-10-08: not a direct appender, and it never owns a send-queue.
+7. The keyword's single source is `identity/publishing.md → Keyword:`; `content-pillars.md`'s CTA line mirrors it —
+   readers go `publishing.md` first, `content-pillars.md` second, never a third order (final pass 2026-10-08).
+8. Every skill opens at most four Brain files at its first step (`brain.md` counts as one) and the rest at the step
+   that uses them (final pass 2026-10-08).
 
 ## Privacy
 Everything in the Brain — agent names, wins, conversations, interview guests — is the member's private data. It

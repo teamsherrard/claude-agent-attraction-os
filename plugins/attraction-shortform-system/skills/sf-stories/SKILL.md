@@ -104,8 +104,9 @@ or person; brokerage name/license where the file says it must appear; any real-e
 ## Phase 4 — Deliver
 A clean copy-paste set, in order, with a one-line plan: *"Morning: the call screenshot. Lunch: the poll.
 Evening: the dog. Thirty seconds each."* If the member has the content board (house rules #10), one card for the
-day's set (Format `Graphic`, Context `• Pillar:` the set's lead pillar — one value, never two in a cell). Never
-schedule stories through a tool — they're posted live from the phone; say so if asked.
+day's set (Format `Graphic`; Pillar = the set's lead pillar, one OS name, never two — the log carries one row per
+pillar; Context per `sf-board`). Never schedule stories through a tool — they're posted live from the phone; say
+so if asked.
 
 ## Phase 5 — Save + log + push
 1. **Save** per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` only when the member asks for a week of sets

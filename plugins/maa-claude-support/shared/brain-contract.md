@@ -2,7 +2,7 @@
 
 The three laws every Agent Attraction system obeys, as they apply to a READ-ONLY help desk:
 1. **Read `~/attraction-brain/brain.md` first** (pull it with `attraction-brain-sync` if the local copy is missing); never ask the member what the Brain already knows.
-2. **Write back only what support owns, then push.** This plugin writes exactly three things: `memory/support-log.md` (one line per resolved or escalated ticket: date · lane · what was wrong · what fixed it), the `## MAA Support (Plugin 2)` block in `config.md` (`Support: set up [date]`, `Cohort start`, `Support desk: attraction`, `Portal: [NOT SET]` until set), and nothing else. It never edits identity files, ledgers, or another plugin's config block; a fix is always routed to the skill that owns the file.
+2. **Write back only what support owns, then push.** This plugin writes exactly three things: `memory/support-log.md` (one line per resolved or escalated ticket: date · lane · what was wrong · what fixed it), the `## MAA Support (Plugin 2)` block in `config.md` (keys, exactly: `Support: set up` · `Support desk` · `Cohort start` · `Off weeks` · `Graduation` · `Fast-action buyer` · `Configured` · `Snapshot at setup` · `Realtor Brain also present` · `Portal` · `Community`), and nothing else. It never edits identity files, ledgers, or another plugin's config block; a fix is always routed to the skill that owns the file.
 3. **Compliance is someone else's gate.** Support never produces public content, so it never stamps; it reads `identity/compliance.md`'s first line (`Status:`) only to diagnose "my content was blocked".
 
 ## Reads (all read-only)

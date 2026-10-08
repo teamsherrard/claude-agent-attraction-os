@@ -232,10 +232,18 @@ Only if the AI Admin is installed add: *"— and your morning brief carries your
    named or a next step agreed · **3-ways** = moves into 3-way or conversation rows with channel 3-way.
    Note carries show % and held→join % when the funnel ledger exists, and `funnel calls n` when
    `list-growth.md` has a row for the week. Compare to the 30-60-90 pace.
+   **Who appends it:** read `config.md` first. If it holds a block whose heading starts with `## AI Admin`
+   (first line `AI Admin: set up [date]`), the Admin owns the weekly rows from that moment — whether or not
+   its CEO Review task is on — so this skill does NOT append: it hands the counted row to `admin-scorecard`
+   as a `WEEKLY ROW:` line (*"say 'my attraction scorecard' and it goes on"*) and reads the week from
+   whatever row the Admin already wrote. No Admin block → this skill appends. **Never a duplicate:** before
+   appending, check the `## Weekly rows` header is the locked eleven-column one and that no row already
+   carries this `Week of` date — if one does, the week is scored: show it, append nothing.
 3. **Name what moved, then the ONE thing for next week** — coach, not scold. If they are behind on
    activity, the fix is activity; if activity is on pace and joins lag, say that is normal for the
    first quarter and point at the conversion skills when they install (Week 5), not at the target.
-4. Push. Hand off in one line if the AI Admin's weekly CEO review is installed (it owns this from Week 6).
+4. Push. When the Admin is installed, say in one line that its scorecard carries the weekly row from here
+   (and the Weekly Recruiting CEO Review, once they turn it on, names the bottleneck).
 
 ## MONTHLY AUDIT (first check-in of each month, or "audit my month")
 Ask Mike's three questions and the intangibles (`01-foundation-mindset/8`), answer them from the

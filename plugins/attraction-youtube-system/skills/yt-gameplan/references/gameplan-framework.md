@@ -55,8 +55,10 @@ and the channel page re-positions to agents; one channel unless the member insis
 
 ## The three niche lanes — how to choose (doctrine §4)
 For each bucket pick ONE named lane where (a) the member's known-for and avatar fit (`strategy.md`,
-`avatars.md`), (b) agents demonstrably search it (research — autocomplete, the top videos, the member's own
-comments and `objections.md`), and (c) it is underserved by the outlier channels or served badly.
+`avatars.md`), (b) agents demonstrably search it (research per `yt-research`'s method — web search and page fetch:
+the top videos, autocomplete as the member pastes it — plus the member's own comments and `objections.md`; when
+research returns nothing usable, the lane builds from the Brain alone and its titles carry the SIGNAL note
+`unresearched`), and (c) it is underserved by the outlier channels or served badly.
 - **Problem** — the tactical lane: the member's niche skill as a searchable how-to series ("[niche] for real
   estate agents").
 - **Situation** — the identity lane: the avatar's current wall, named ("why good agents get stuck at…", "signs
@@ -89,8 +91,9 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 - **Formulas by number** (doctrine §9 / `shared/idea-templates.md`); one promise; ≤70 characters; the viewer
   named ("real estate agent", the avatar type) when the search needs it.
 - **Per bucket:** Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 ≈ 50.
-- **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap]`
-  (the bucket heading already fixes the pillar the content-log row will carry).
+- **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap /
+  unresearched]` (the bucket heading already fixes the pillar the content-log row will carry; `unresearched` = built
+  from the Brain because research returned nothing usable — the plan says so once and schedules the re-run).
 - **Order inside a bucket:** broad and searchable first, deeper and higher-intent later; vary the angle at the
   top of every list (never two titles on the same angle opening a bucket).
 - **Hard gates (compliance, every title):** no compensation figures or earnings implied; no negative word about

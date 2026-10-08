@@ -33,8 +33,9 @@ skill saves it so it is never asked again (the Brain owns identity; this plugin 
 `interview-pipeline.md`, YouTube rows in `content-log.md`, and its own `config.md` block).
 
 ## 3. Compliance — 3-state, before anything public
-Read `~/attraction-brain/identity/compliance.md` before any script, title that ships, description, channel text,
-thumbnail text, or pinned comment. **unset → stop, say plainly that three minutes of compliance basics are
+Read `~/attraction-brain/identity/compliance.md` — its first line, `Status:`, is the verdict (the `Gate:` line under
+it names why) — before any script, title that ships, description, channel text, thumbnail text, or pinned comment.
+Every public skill reads that first line; the fields below it are opened only where a disclosure block is written. **unset → stop, say plainly that three minutes of compliance basics are
 needed, route to `attraction-compliance`; never "proceed anyway."** set → apply and remind once. confirmed → apply.
 What "apply" means here (`attraction-ai-brain/shared/compliance-doctrine.md`):
 - The two cardinal rules: never talk badly about another brokerage; never talk badly about another person.
@@ -81,7 +82,8 @@ copy-paste version in chat.
 
 ## 8. Usage discipline
 Lazy-load: read a shared file at the step that needs it, never up front; never re-read a file already in
-context. Research is budgeted (the per-skill budget is stated in that skill) and cited. One chat = one video.
+context. The Brain the same way: **at most four Brain files at a skill's first step (`brain.md` counts as one)**; the
+rest open at the step that uses them. Research is budgeted (the per-skill budget is stated in that skill) and cited. One chat = one video.
 Any feature that adds turns or front-loaded reading is a cost regression — cut it.
 
 ## 9. The credibility stamp (the Game Plan only)

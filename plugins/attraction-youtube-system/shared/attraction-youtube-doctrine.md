@@ -310,7 +310,8 @@ clever.** High contrast, branded, the member's face, big emotion, simple.
 agents can't generate leads on social media — and how to be the exception" · "The five mistakes keeping agents
 stuck at their brokerage" · "The truth about [brokerage] no one tells you" · "The top five videos to make if you
 want to generate leads as a real estate agent" · "How to close a million dollars in commission for free from
-YouTube."
+YouTube." (That last title is Mike's own, quoted as his — not a template: a member's own GCI, deal count, or dollar
+figure never headlines a public video by default; see formula 5.)
 
 **The title formulas.** The vault never numbers "seven formulas"; lesson `/97` gives five by example, `/96` gives
 two, and the VIP day adds the rest. The OS keeps seven, each cited, so every skill counts the same way:
@@ -321,12 +322,13 @@ two, and the VIP day adds the rest. The OS keeps seven, each cited, so every ski
 | 2 | **The [N] mistakes keeping agents [stuck state]** | Situation | `/97` |
 | 3 | **The truth about [brokerage / model / topic] no one tells you** | Model · Situation | `/97` |
 | 4 | **The top [N] [things] to [outcome] as a real estate agent** | Problem | `/97` |
-| 5 | **How [person] [achieved outcome] [surprising constraint]** — the interview and case-study hook ("How Kevin built… part-time") and the self-case-study ("How I / how one agent did $X of [thing] from YouTube") | Interview · Future | `/97`, `/99`, VIP day |
+| 5 | **How [person] [achieved outcome] [surprising constraint]** — the interview and case-study hook ("How Kevin built… part-time") and the self-case-study ("How I [outcome] from YouTube" — `[outcome]` is never the member's own GCI, deal count, or dollar figure by default; the one exception: `identity/compliance.md`'s rev-share/income policy line explicitly allows production figures AND the figure is the member's own, cited) | Interview · Future | `/97`, `/99`, VIP day |
 | 6 | **[Model] explained · Should you join [brokerage]? · How [rev share / co-sponsorship] actually works · Before choosing a sponsor, ask these questions** — "answer what they're already researching" | Model | `/93`, `/96`, VIP day |
 | 7 | **Do NOT join [brokerage] if… · [N] signs you've outgrown [situation] · If you're [situation], do this for the next 90 days** — the run-from-pain formula; Mike's best-performing model video | Model · Situation | `/96`, VIP day |
 
 Rules for every title: one promise, plainly stated; the member's avatar can see themselves in it; no
-compensation figures, no earnings implied (§15); no brokerage or person named negatively (§15); "for real
+compensation figures, no earnings implied (§15); the member's own GCI, deal count, or dollar figures never headline
+a public video by default (formula 5's compliance exception is the only one); no brokerage or person named negatively (§15); "for real
 estate agents" / "as a real estate agent" or the agent type in the title when the search needs it; a dated
 model video says the year so the remake ranks (`/96`).
 

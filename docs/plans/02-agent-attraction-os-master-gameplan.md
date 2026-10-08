@@ -10,7 +10,7 @@ Thumbnail docs already in Downloads.*
 
 ---
 
-## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 10 scheduled agents)
+## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 11 scheduled agents)
 
 **Count, stated once:** the cohort doc says "12 plugins." Nine are real Cowork marketplace plugins (Team & Retention was removed by the user on 2026-10-08). The Design Studio is NOT a plugin: Claude Design cannot run plugins, it only accepts uploaded skill files. It ships as 15 upload-ready Claude Design skills plus the Agent Attraction Design System, packaged like the realtor design suite v2. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per the user (2026-10-08): it is not a plugin either, and it is parked for now. Sales copy can keep saying "12 systems"; the Setup Guide and Support stack map say "9 plugins + the Design Studio skills."
 
@@ -23,7 +23,7 @@ Thumbnail docs already in Downloads.*
 | 4 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
 | 5 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
 | 6 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
-| 7 | AI Admin (W5) | `admin-` | 7 | duplicate + re-stage | realtor-ai-admin |
+| 7 | AI Admin (W5) | `admin-` | 8 | duplicate + re-stage (setup is its own skill) | realtor-ai-admin |
 | 8 | Lead Magnet (W6) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
 | 9 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops | anthropic-skills:workshop-ops |
 
@@ -46,23 +46,24 @@ phrases are the second guard: every skill's trigger list is diffed against the r
 `check-release.sh` check), and generic phrases ("set up my brain", "make a reel", "edit my video") are reserved for the realtor
 side unless the member has only the attraction OS installed, in which case the Support plugin's stack map resolves them.
 
-**Brain files each plugin reads and owns** (the §4 read contract from the Brain plan, completed for all twelve):
+**Brain files each plugin reads and owns** (the §4 read contract from the Brain plan, completed for every plugin; `docs/BRAIN-CONTRACT.md` is the source of truth and carries the full detail — this table mirrors it):
 
 | Plugin | Reads | Owns (writes) |
 |---|---|---|
-| Brain | everything | all `identity/`, `memory/top-50`, `scorecard`, `debriefs`, `objections` (capture) |
-| Support | `config`, `brain.md`, every plugin's `config` block | `memory/support-log` |
+| Brain | everything | all `identity/` except `content-pillars · publishing · profiles · channel · sales-system`; `memory/top-50` (the mirror rule: once the Admin registers, Stage from `pipeline`, Last touch from `conversations`, Next move · Due from the Board; before that the touch cells are appended by capture + the Conversion logging skills); `scorecard` (Targets; daily rows by the Debrief; weekly rows by the check-in until `admin-scorecard`); `debriefs`; `objections` (heard-rows); `ideas` (+ import's `## Past content (imported)`); `intel`; `capture-log`; `deadlines` (until Admin); interim rows in `conversations` and `organization` and interim stage moves in `pipeline` (via capture, until Conversion / AI Admin) |
+| Support | `config`, `brain.md`, every plugin's `config` block, the Brain template | `memory/support-log`, `memory/claude-updates`, the `## MAA Support (Plugin 2)` block in `config.md` |
 | Design Studio | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to `02 · Brand`, `05 · Offer`) |
-| Short-Form | `profile · journey · avatars · positioning · story-bank · proof · voice* · compliance · content-log · objections` | `identity/content-pillars.md` (sf-setup), `memory/content-log` (SF rows), `identity/publishing` |
-| Riverside | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist |
-| YouTube | same as Short-Form + `content-pillars · brokerage-model · prospect-intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
-| Conversion | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
-| AI Admin | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
-| Lead Magnet | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md` |
-| Events | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
+| Short-Form | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-setup; `sf-ideas` → Hooks bank), `identity/publishing.md` (sf-setup; designated lines by sf-publish · sf-board · sf-comment-to-dm), `identity/profiles.md` (sf-setup writes first; yt-setup fills `## YouTube`; lm-profiles updates), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block; stamps story-bank Used-where, ideas `used`, the intel `Used?` column (sf-greenscreen); interim conversation rows via sf-comment-to-dm (through capture) |
+| Riverside | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist; no `config.md` block |
+| YouTube | same as Short-Form + `content-pillars · publishing (Content board: · Keyword:) · brokerage-model · prospect-intel · leadership · organization · pipeline · scorecard (read-only) · interview-pipeline` | `memory/content-log` (YT rows incl. yt-repurpose rows), `identity/channel.md` (yt-setup; yt-gameplan → `## Game Plan anchors`; yt-analytics → `Live data:` + dated `## Performance` blocks), `memory/interview-pipeline.md` (yt-interview), the `## YouTube (Week 4)` block, `profiles.md → ## YouTube`, `publishing.md → Content board:` (yt-board); stamps story-bank Used-where, ideas `used`, intel `Used?`; yt-repurpose appends conversation-starter rows to `ideas.md` while Conversion is absent |
+| Conversion | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance · voice* · profile · journey · prospect-intel · operations · conversations · pipeline · debriefs · intel · intel-reports · organization · goals · scorecard (read-only) · brand-visual · sales-system · sales-funnel · magnets (## Current magnet)` | `memory/conversations` (its logging skills; `Stage after` = the stage request), `memory/pipeline` (direct until the Admin registers; `STAGE MOVE REQUESTED` / `NEXT MOVE REQUESTED` after), `memory/objections` (handlers; heard-rows from cv-objection-coach and cv-debrief; the `## Practice log` section), `memory/intel-reports/` (briefs + the follow-up and reactivation plan files), `identity/sales-system.md` (sales-system-setup; sales-call-block → Window + `## Call block`), `memory/sales-funnel.md` (sales-scorecard), the `## Conversion & Sales` block (incl. `Setter`); Top-50 touch cells as a designated interim appender until the Admin registers |
+| AI Admin | `operations · goals · execution-framework · compliance · voice* · profile · story-bank · proof · brand-visual · offer · top-50 · conversations · pipeline · organization · scorecard · debriefs · deadlines · content-log · capture-log · intel · objections · ideas · intel-reports · follow-up-queue · sales-funnel · list-growth ("Calls booked from the funnel")` | `memory/pipeline` (admin-pipeline — stage moves, the source of stage; the Board's Next move · Due), `memory/follow-up-queue`, `scorecard` (weekly rows, eleven columns), `deadlines`, `memory/organization` (maintained from W5), the `## AI Admin (Week 5)` block (first line `AI Admin: set up [date]` = the OS-wide Admin-installed signal); never a Top-50 cell, never `conversations.md` |
+| Lead Magnet | `brain.md · avatars · offer · positioning · proof · compliance · brand-visual · voice* · story-bank · profile · journey · operations · brokerage-model · objections · ideas (leadmagnet) · top-50 (counts only) · config · 06 · Materials` — read-only | `memory/magnets.md` (`## Current magnet` is what every other CTA reads), `memory/list-growth.md` (read by `attraction-goals` weekly mode and `admin-scorecard` for "Calls booked from the funnel"), `identity/profiles.md` as the Week-6 updater (lm-profiles), the `leadmagnet` rows' Status in `ideas.md`, the `## Lead Magnet (Week 6)` block; never `offer.md`, never `voice.md` |
+| Events | `avatars · offer · positioning · proof · compliance · top-50 · organization` | `memory/events.md`, `memory/pipeline` (event stages, requested through the Admin), `memory/content-log` (event content) |
 
-One owner per file. A reader never writes a file it does not own. Every write pushes. The Support plugin's `stack-map.md` carries
-this table so diagnostics can tell "Brain file missing" from "plugin not installed."
+One owner per file. A reader never writes a file it does not own. Every write pushes. Every file above ships in the Brain template as an
+empty placeholder in its owner's locked shape. The Support plugin's `stack-map.md` carries this table so diagnostics can tell "Brain file
+missing" from "plugin not installed."
 
 **Pipeline stages, locked once** (the cohort doc has two vocabularies; this is the one every plugin uses):
 `Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active`. The AI Admin owns stage moves;
@@ -75,6 +76,7 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
 | Agent Movement Watcher | weekly | `prospect-radar` (Brain) | 2 |
 | Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
+| Morning Brief | daily | `admin-daily` owns it; `admin-setup` provisions it (task id `attraction-admin-morning-brief`); it extends the Debrief, never a second debrief | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |

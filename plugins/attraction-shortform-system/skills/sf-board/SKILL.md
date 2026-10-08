@@ -41,7 +41,8 @@ When a workflow finishes a piece (Reel script, story set, green screen, carousel
   then near-match; found → update that card (sections in the body replaced, never stacked); not found → add a
   card with a fresh System ID:
   **Topic** (the hook) · **Format** (`Talking Head` for a Reel, `Green Screen`, `Carousel`, `Graphic` for a story
-  set) · **Pillar** — see the mapping below · **Context** (`• For:` the avatar / `• Rung:` the CTA rung + keyword)
+  set) · **Pillar** — the OS name, written directly (the Pillar column, below) · **Context** (`• For:` the avatar /
+  `• Rung:` the CTA rung + keyword)
   · **Post Package** link (the workspace doc) · Status `Ready to Film` (or `Scripted` for a carousel awaiting
   design) · **Publishing Date** (its calendar slot).
 - **Into the card body**: the full package — hook ×3, script or talking points, story used, caption, hashtags,

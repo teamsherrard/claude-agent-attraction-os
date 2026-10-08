@@ -91,6 +91,8 @@ hierarchy · use only `─` (U+2500), `═` (U+2550), `•` (U+2022). Tight and 
 ## Per-doc skeletons (fill in, keep the shape)
 
 ### YouTube Game Plan (the flagship — stamped)
+Member-facing lines say *your Authority lane* / *your Proof lane* / *your Perspective lane* — never "(Authority in
+the log)"; the log vocabulary stays in `brain-contract.md`.
 ```
 YOUTUBE GAME PLAN — [MEMBER NAME]
 Known for: [niche]  ·  Attracting: [avatar 1] · [avatar 2]  ·  Prepared [Month Year]
@@ -126,7 +128,7 @@ The one line:  {"[Name] helps [avatar] [outcome] through [mechanism]"}
 
 
 ════════════════════════════════════════════
-YOUR THREE NICHE LANES   (the Problem · Situation · Future buckets — Authority in the log)
+YOUR THREE NICHE LANES   (the Problem · Situation · Future buckets — your Authority lane)
 ════════════════════════════════════════════
    PROBLEM — {name}  ·  Playlist: "{playlist}"
    Who it pulls in: {avatar} · Pain: {one of the five} · Why it builds authority: {one line}
@@ -139,7 +141,7 @@ YOUR THREE NICHE LANES   (the Problem · Situation · Future buckets — Authori
 ════════════════════════════════════════════
 YOUR INTERVIEW LANE
 ════════════════════════════════════════════
-Playlist: "{Agent success stories}"   (Proof in the log)
+Playlist: "{Agent success stories}"   (your Proof lane)
    #    GUEST                 TRANSFORMATION (THE TITLE HOOK)                      SOURCE
    1    {name}                {How … built … while …}                              {organization / top-50}
    …    (6–10 candidates, by relatability across types)
@@ -149,7 +151,7 @@ Playlist: "{Agent success stories}"   (Proof in the log)
 YOUR MODEL LANE
 ════════════════════════════════════════════
 Playlist: "{[Model] explained}"
-   {the answer-what-they're-researching list: explained · should you join · how [component] works · ask a sponsor these questions · do NOT join if}   (Perspective in the log)
+   {the answer-what-they're-researching list: explained · should you join · how [component] works · ask a sponsor these questions · do NOT join if}   (your Perspective lane)
    {Mike's comparison warning, one line — comparisons only on the member's explicit choice}
 
 

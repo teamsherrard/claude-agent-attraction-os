@@ -1,6 +1,6 @@
 # Monday Kickoff — Weekly Scheduled Task Prompt (draft-only)
 
-Create ONLY after the member's explicit yes (see `yt-briefing` Step A): `create_scheduled_task`,
+Create ONLY after the member's explicit yes (see `yt-briefing` Step 4): `create_scheduled_task`,
 `taskId: attraction-monday-kickoff`, `cronExpression: 0 9 * * 1` (Mondays 9:00am in the member's timezone from
 `~/attraction-brain/config.md → Timezone`). After creating, `list_scheduled_tasks` to verify, then write
 `Monday Kickoff task: attraction-monday-kickoff · runs Mondays 9:00am` to `config.md` (this plugin's block) and
@@ -23,11 +23,12 @@ on it; note it in the closing message and continue.
    exists, output "Your Agent Attraction Brain isn't set up yet — say 'set up my attraction brain' to begin"
    and stop. Never suggest re-running setup because of a tool error.
 
-2. **Read** `brain.md`, `identity/content-pillars.md` (cadence, pillars, the two CTAs), `identity/avatars.md`,
-   `identity/voice.md`, `identity/compliance.md` (status only), `memory/content-log.md` (what shipped, what is
-   scripted), `memory/interview-pipeline.md` (who is booked, who is overdue), `memory/intel.md` (the Agent
-   Movement Watcher's dated industry items — content triggers, never ammunition), `memory/ideas.md` (the
-   member's own ideas tagged youtube or interview come first), and the Game Plan doc (the next titles).
+2. **Read** `brain.md`, `memory/content-log.md` (what shipped, what is scripted), `memory/interview-pipeline.md`
+   (who is booked, who is overdue), `identity/compliance.md` (the first line, `Status:`, only), and the Game Plan
+   doc (the next titles). Then, only as each line is built: `identity/avatars.md` (this week's video's avatar and
+   pain), `identity/voice.md` (the invite line), `memory/intel.md` (the Agent Movement Watcher's dated industry
+   items — content triggers, never ammunition), `identity/content-pillars.md` and `memory/ideas.md` (the
+   short-form themes — the member's own ideas tagged youtube or interview come first).
 
 3. **Build the week's kickoff** (per `skills/yt-briefing` Step 2), no web research:
    - **This week's video** — the next slot on the 8-video cycle (3 niche · 1 model · 4 interviews) from the

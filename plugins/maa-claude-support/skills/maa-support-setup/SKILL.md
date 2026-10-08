@@ -50,6 +50,8 @@ substitute — never write support's block into it.
 
    ```markdown
    ## MAA Support (Plugin 2)
+   - Support: set up YYYY-MM-DD
+   - Support desk: attraction                     # which help desk answers generic phrases on this machine
    - Cohort start: YYYY-MM-DD  (approx: false)   # the Tuesday the cohort opened
    - Off weeks: 2026-11-23..2026-11-29            # from cohort-kb for cohort 1; else [NOT SET]
    - Graduation: 2026-12-17                       # from cohort-kb; else [NOT SET]
@@ -57,7 +59,8 @@ substitute — never write support's block into it.
    - Configured: YYYY-MM-DD · plugin vX.Y.Z
    - Snapshot at setup: [plugins seen installed, one line — e.g. attraction-ai-brain, maa-claude-support]
    - Realtor Brain also present: yes | no
-   - Escalation doors: portal [NOT SET: Mike's support portal URL] · community [from cohort-kb or NOT SET]
+   - Portal: [NOT SET: Mike's support portal URL]
+   - Community: [from cohort-kb or NOT SET]
    ```
 
 5. **Create the two support files** (with headers, if missing):

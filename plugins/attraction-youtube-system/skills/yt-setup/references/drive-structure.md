@@ -3,7 +3,9 @@
 This plugin creates **no workspace root of its own.** Every file lands inside the member's existing workspace
 (`Agent Attraction OS` by default — renameable; **located by `config.md → Workspace ID`, then the
 `_attraction-workspace.md` marker, never by name**) in the buckets the Brain's `drive-map.md` defines. Google
-Drive or OneDrive — the provider is in `config.md`; the operation mapping is the Brain's `connectors.md`.
+Drive or OneDrive — the provider is in `config.md`; the operation mapping is
+`${CLAUDE_PLUGIN_ROOT}/shared/connectors.md` (a byte-identical copy of the Brain's `connectors.md`; a release check
+verifies they match).
 
 ## The buckets this plugin uses
 ```

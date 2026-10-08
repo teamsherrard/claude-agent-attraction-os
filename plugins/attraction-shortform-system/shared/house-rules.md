@@ -163,7 +163,7 @@ chat — they often film right away.
 
 If the member has the **Content Dashboard** in their own Notion (the ONE board shared with the YouTube plugin —
 spec: `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`, builder: `sf-board`), every finished post gets a card:
-format, pillar (the OS name, written directly), the full package in the card body, publish date — flipped to Published
+format, pillar (the OS name), the full package in the card body, publish date — flipped to Published
 only when it actually goes live. **Check the `Content board:` line in `identity/publishing.md` quietly:** a URL →
 use that board (find cards by System ID first); `declined` → never mention it; empty → offer ONCE at the end of
 a finished piece and record the answer on that line. No Notion → skip silently. The Brain's `content-log` is

@@ -105,10 +105,13 @@ place, fill it through the phases, and **push after every phase**. Local engine 
 │   ├── voice.md  voice-samples.md  voice-print.md  proof.md  story-bank.md   (how you sound · proof · stories)
 │   ├── brand-visual.md  content-pillars.md                         (brand · content)
 │   ├── goals.md  leadership.md  operations.md  compliance.md      (targets · readiness · ops · rules)
-│   └── strategy.md                                                (what they want to be known for)
+│   ├── strategy.md  execution-framework.md                      (what they want to be known for · the 12-month plan)
+│   └── publishing.md  profiles.md  channel.md  sales-system.md    (scaffolded empty — Weeks 3–5 fill them)
 ├── memory/
 │   ├── top-50.md  conversations.md  pipeline.md  organization.md  scorecard.md
-│   ├── objections.md  debriefs.md  content-log.md  ideas.md  intel.md  deadlines.md
+│   ├── objections.md  debriefs.md  content-log.md  ideas.md  intel.md  deadlines.md  capture-log.md
+│   ├── interview-pipeline.md  magnets.md  list-growth.md  follow-up-queue.md  sales-funnel.md  content-performance.md  (Weeks 4–6)
+│   └── intel-reports/                                            (Conversion writes here from Week 5)
 ├── config.md                         # provider, workspace ID/link, CRM, timezone, Schema: aa-1.0, Setup progress
 └── exports/                          # local staging for deliverables (cloud home per drive-map.md)
 ```

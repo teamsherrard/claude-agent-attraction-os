@@ -51,7 +51,7 @@ here describing the exact transformation. Each entry is idempotent and safe to r
 
 - **→ `aa-1.0` (baseline, 2026-10):** the first Agent Attraction Brain structure (plan §4) —
   `identity/` (profile · journey · avatars · prospect-intel · positioning · offer · brokerage-model ·
-  voice · voice-samples · voice-print · proof · story-bank · brand-visual · content-pillars · goals ·
+  voice · voice-samples · voice-print · proof · story-bank · brand-visual · content-pillars · publishing · profiles · channel · sales-system · goals ·
   execution-framework · leadership · operations · compliance · strategy), `memory/` (top-50 · conversations ·
   pipeline · organization · scorecard · objections · debriefs · capture-log · content-log · ideas · intel ·
   intel-reports/ · deadlines), `config.md` (the registry keys in `shared/brain-contract.md`: Schema · Storage

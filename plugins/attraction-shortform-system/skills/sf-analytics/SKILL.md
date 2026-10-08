@@ -41,7 +41,7 @@ Read `~/attraction-brain/brain.md` first (pull via **attraction-brain-sync** if 
 only if the cloud has none, send them to the Agent Attraction Brain setup). Open:
 - `memory/content-log.md` — every post's pillar, hook, avatar, keyword; numbers mean nothing without it
 - `memory/conversations.md` — rows with Channel = DM or comment: the conversations content started
-- `memory/top-50.md` — Source cells that read `reel: …` or `story: …`: the agents content put on the list
+- `memory/top-50.md` — Source cells that read `instagram via reel: …` or `instagram via story: …`: the agents content put on the list
 - `memory/content-performance.md` — the last block (prior follower and subscriber counts = the baseline;
   growth is today minus that). This file is this skill's own ledger inside the sync allowlist; it is created
   on the first read if missing.
@@ -54,11 +54,11 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
 
 **Sources, best first, never blocked on any one:**
 1. **The live data connection** (Instagram + YouTube) — the only source with Reel watch time, skip rate, and
-   audience; recipes in `shared/composio-data-engine.md` recipe 8 (short-form) plus 2, 3, 6, 7 and S. **Read-only, always**: never a post, reply, DM,
-   or comment tool. No sign-in yet → offer it ONCE (*"want me to hook into your live Instagram and YouTube
-   data? one sign-in each, then I pull your numbers automatically"*) per the engine's manage-connections
-   steps; note `Live data: active [date]` or `declined [date]` at the top of `content-performance.md`;
-   declined is never re-offered.
+   audience; recipe 8 (short-form) in `shared/composio-data-engine.md`, plus recipes 2, 3, 6, 7 and S.
+   **Read-only, always**: never a post, reply, DM, or comment tool. No sign-in yet → offer it ONCE (*"want me to
+   hook into your live Instagram and YouTube data? one sign-in each, then I pull your numbers automatically"*)
+   per the engine's manage-connections steps; note `Live data: active [date]` or `declined [date]` at the top of
+   `content-performance.md`; declined is never re-offered.
 2. **The posting tool** (Metricool / GoHighLevel) — one call across platforms, plus ads and best times.
 3. **The Studio pack / "add my numbers"** — screenshots of Instagram insights, YouTube Studio, or the
    tool's dashboard; read by vision. Always works. Say *"add my numbers"* and paste.
