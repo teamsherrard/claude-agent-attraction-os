@@ -9,7 +9,7 @@ description: >
   calendar (2 attraction · 2 authority · 1 story a week, batch days). Built for batching. Text only. Trigger
   on: "attraction reel", "reel for agents", "script my attraction reels", "script my first attraction reel",
   "talking head for agents", "script this week's agent reels", "my 30-day attraction calendar", "attraction
-  content calendar", "plan my month of attraction reels", "what should I film for agents", "hooks for my
+  content calendar", "plan my month of attraction reels", "hooks for my
   attraction reel".
 ---
 
@@ -24,7 +24,7 @@ never "the agent". **The doctrine** is `${CLAUDE_PLUGIN_ROOT}/shared/mike-framew
 the phase that needs them.
 
 Three modes (pick from what they said; never ask which):
-- **"What should I film?"** → Phase 1 (the topic list), let them pick.
+- **"What should I film?"** → `sf-ideas` first (the front door rule below); Phase 1 only when this week's ideas already exist.
 - **"Script these" / a named topic / "my first attraction reel"** → Phase 2.
 - **"My 30-day calendar" / "plan my month"** → Phase 3 (then offer to script the first five).
 

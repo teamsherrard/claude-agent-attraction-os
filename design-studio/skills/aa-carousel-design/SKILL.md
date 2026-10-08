@@ -43,7 +43,7 @@ Members arrive with the carousel doc their Short-Form system saved as **`[YYYY-M
 [Short Topic]`** in `03 · Content/Graphics/[YYYY-MM · Month]/` — uploaded here, or read through their
 Drive connector. It carries THE BRIEF (type · pillar · for whom · story used · rung + keyword), the
 COVER, every SLIDE, the FINAL SLIDE CTA, THE LINKEDIN VERSION when one was written, THE DESIGN BRIEF
-FOR DS-CAROUSEL (sizes, hook and CTA slides, colours / fonts / feel in words, the logo rule, the
+FOR AA-CAROUSEL-DESIGN (sizes, hook and CTA slides, colours / fonts / feel in words, the logo rule, the
 brokerage line), the Instagram + Facebook caption block, the LinkedIn block, and the COMPLIANCE stamp.
 **It is the carousel.** Design it; don't re-author it (the verbatim law in the reference). The Week 1
 block that starts **"AGENT ATTRACTION DESIGN PACKAGE — [Name]"** may be pasted too: read its brand
