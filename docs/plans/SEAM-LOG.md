@@ -25,6 +25,8 @@ Running list. Each line: what · where · status.
 - Gate check 12 regex: `team-` false-positive on "team-leader" prose → match only the removed skill names · OPEN
 - Shared copies drifted in Conversion (`how-we-speak.md`, `connectors.md` reworded) and Admin → restore byte-identical copies from the Brain in the final pass · OPEN
 
+- YouTube adds (ruled): template `identity/channel.md` + `memory/interview-pipeline.md` placeholders; content-log `Format` enum gains `email` and `blog`; the `Weekly Content Performance task:` key lives in `config.md` (Short-Form block) ONLY (H1 moved it there); YouTube reads config.md, not publishing.md; `yt-interview` rows carry Pillar `Proof`, `yt-model-breakdown` rows `Perspective`, buckets in Topic/hook · OPEN (QA-YouTube fixes the skills; coordinator fixes the template)
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 

@@ -9,9 +9,9 @@ description: >
   story bank and marks them used; Why I Switched never names the old brokerage; model scripts
   explain mechanics, never compensation figures. Runs the 3-state compliance gate, saves the script
   in the video's folder, and writes the content-log row at Scripted. Triggers on "write my
-  attraction script", "script this attraction video", "script my why I switched video", "write my
-  model breakdown script", "script my pain point video", "script the interview intro", "write my
-  attraction script for [title]".
+  attraction script", "write the attraction script for this", "script my why I switched video",
+  "write my model breakdown script", "script my pain point video", "script the interview intro",
+  "write my attraction script for [title]".
 ---
 
 # Script Studio — the video, in the member's voice, ready to read

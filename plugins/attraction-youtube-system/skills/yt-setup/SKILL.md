@@ -10,8 +10,8 @@ description: >
   or existing channel. Triggers on "set up my YouTube for agents", "set up my attraction channel",
   "set up my channel for agents", "start my YouTube attraction system", "launch the attraction
   YouTube plugin", "open my attraction YouTube system", "repair my channel for agents", "my channel
-  page for agents", "attraction playlists for agents", "attraction upload defaults". Not for a
-  realtor's buyer-and-seller channel.
+  page for agents", "attraction playlists for agents", "my attraction channel defaults". Not for a
+  buyer-and-seller channel.
 ---
 
 # Agent Attraction YouTube System — Setup
