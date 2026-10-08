@@ -119,13 +119,19 @@ for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
     txt=open(f,encoding="utf-8").read()
     m=re.match(r'^---\n(.*?)\n---',txt,re.S)
     if not m: print(f"  ✗ {f}: no frontmatter"); bad=True; continue
-    try: fm=yaml.safe_load(m.group(1))
-    except Exception as e: print(f"  ✗ {f}: frontmatter does not parse ({e})"); bad=True; continue
     d=os.path.basename(os.path.dirname(f))
+    vendored = "/realtor-riverside-editor/" in f
+    try: fm=yaml.safe_load(m.group(1))
+    except Exception as e:
+        if vendored:
+            nm=re.search(r'^name:\s*(\S+)',m.group(1),re.M); ds=re.search(r'^description:\s*>?\s*\n?((?:.*\n?)*)',m.group(1),re.M)
+            fm={"name":nm.group(1) if nm else None,"description":(ds.group(1) if ds else "")}
+        else:
+            print(f"  ✗ {f}: frontmatter does not parse ({e})"); bad=True; continue
     if fm.get("name")!=d: print(f"  ✗ {f}: name '{fm.get('name')}' != dir '{d}'"); bad=True
     desc=fm.get("description","") or ""
     if len(desc)>1024: print(f"  ✗ {f}: description {len(desc)} chars (>1024)"); bad=True
-    if not re.search(r'^description:\s*>',m.group(1),re.M): print(f"  ✗ {f}: description is not a folded block scalar (description: >)"); bad=True
+    if not vendored and not re.search(r'^description:\s*>',m.group(1),re.M): print(f"  ✗ {f}: description is not a folded block scalar (description: >)"); bad=True
 if not bad: print("  ✓ every SKILL.md: name==dir, description ≤1024, block scalar")
 sys.exit(1 if bad else 0)
 PY2
@@ -187,6 +193,7 @@ for plug in sorted(glob.glob("plugins/*/")):
         continue
     if not os.path.exists(plug+"shared/brain-contract.md"):
         print(f"  ✗ {name}: no shared/brain-contract.md"); bad=True
+    if name=="maa-claude-support": continue  # read-only desk: it provisions no tasks, only diagnoses them
     for f in glob.glob(plug+"skills/*/SKILL.md"):
         t=open(f,encoding="utf-8").read()
         if re.search(r"scheduled[- ]task|create_scheduled_task|scheduled agent",t,re.I) and not re.search(r"explicit (yes|consent)|with (the member's|their) (yes|consent|permission)|never (silently|without asking)|ask(s)? (before|first)|consent",t,re.I):

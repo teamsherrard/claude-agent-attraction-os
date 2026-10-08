@@ -38,6 +38,8 @@ Running list. Each line: what · where · status.
 
 - Brain fix-pass leftovers (coordinator, final pass): template `config.md` gets a `Storage:` key (`ok | READ-ONLY (org-gated)`) and stops saying "append to Storage provider"; template `memory/ideas.md` gets `## Past content (imported)`; template `identity/operations.md` labels aligned to `attraction-operations`' locked shape; setup Stop 16 card mentions the two sub-asks (3-way partner, weekly call) · OPEN
 
+- SF QA addendum: `sf-analytics` "calls booked from content" source = `memory/sales-funnel.md` rows by source (youtube / instagram) once Conversion exists, else `conversations.md` rows only · OPEN (final pass); Support plugin needs a `shared/brain-contract.md` (reads only; writes `memory/support-log`) · OPEN
+
 ## Shared-file identity across plugins (release check 5 to extend)
 - `render_doc.py`, `notion-board-spec.md` (SF + YT), `how-we-speak.md`, `ask-once-default.md`, `connectors.md` must be byte-identical wherever copied · OPEN (copy into YT, SF, Conversion, Lead Magnet, Admin; extend check-release list)
 
