@@ -1,0 +1,16 @@
+{
+  "$comment": "Global brain-awareness for the Agent Attraction Brain. SessionStart command output is injected into session context: if a local attraction brain exists it loads the index; otherwise it instructs Claude to pull the brain from the member's cloud workspace via attraction-brain-sync. Distinct from the realtor Brain's hook (different folder, different marker) so both Brains can coexist on one machine. Excluded from the zip-upload build (zip validation rejects hooks); verify live via the GitHub-marketplace install. Cloud PUSH after writes is handled by skills per the Brain Contract, not by a hook.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -f \"$HOME/attraction-brain/brain.md\" ]; then echo '=== AGENT ATTRACTION BRAIN (read before substantive work) ==='; cat \"$HOME/attraction-brain/brain.md\"; else echo 'NOTE: This user may have an Agent Attraction Brain in their cloud workspace (Google Drive OR Microsoft OneDrive). Before substantive agent-attraction work, use the attraction-brain-sync skill to locate it (its ladder: the _attraction-workspace.md marker file, found by search — never assume a folder name) and pull it to ~/attraction-brain/, then read brain.md and config.md (storage provider + workspace ID) so all work reflects who they are. If no attraction brain exists anywhere, suggest they say: Set up my attraction brain. (A separate Realtor AI Brain at ~/realtor-brain/ is a different system; never treat it as this one.)'; fi"
+          }
+        ]
+      }
+    ]
+  }
+}

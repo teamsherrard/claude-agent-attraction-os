@@ -1,0 +1,207 @@
+---
+name: attraction-offer
+description: >
+  Realtor Offer USP Skill — guides the real estate agent through a focused 10-minute
+  conversation to capture their full service offering and unique value proposition. Reads
+  the agent's Agent Attraction Brain so nothing is repeated. Only asks what it doesn't already
+  know — specifically what the agent offers, what makes them different, and why someone
+  should hire them over every other agent in their market. Writes the structured offer into the Brain
+  (identity/offer.md) to power every other skill — in Brain Setup that's the ONLY output (the content
+  becomes the Business Brain Book's Offer & USP section); the polished client-facing "Why Work With Me"
+  guidebook renders ON DEMAND when the agent asks for a version to send to prospects.
+
+  Trigger on: "build my offer", "create my USP", "build my offer guide", "why work with me
+  document", "create my value proposition", "offer guidebook", "build my USP file",
+  "create my offer knowledge file", "what's my offer", "build my agent offer", or any
+  "update my offer", "update my USP", "phase 2", or any request where the agent wants to document or
+  update what they offer and why someone should hire them.
+---
+
+# Realtor Offer USP Skill
+
+A focused interview that captures the agent's full service offering and unique value proposition.
+Reads their existing Brain so nothing is repeated. Asks 5-6 broad questions.
+Takes under 10 minutes. Writes the offer into the Brain; the client-facing guidebook is on-demand.
+
+---
+
+## Before You Start
+
+*Follow `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md` — if the agent is unsure, propose a strong
+offer/USP draft from their Brain and let them react; honour "skip" / "use defaults". Defaults stay
+full-quality and specific, never thin.*
+
+*This skill owns the **Edge** pillar of the A.G.E.N.T. Brand OS (`${CLAUDE_PLUGIN_ROOT}/shared/brand-doctrine.md`) —
+the USP is literally "what makes your perspective different." Hold the bar there: reject generic answers
+("great service," "I work hard") and push to a real, specific, provable edge tied to their niche.*
+
+### Step 1 — Load the Brain
+
+Before asking anything, **read `~/attraction-brain/brain.md`** and the identity files Phase 1 (Brand
+Persona) already wrote:
+
+- `~/attraction-brain/identity/profile.md` — agent name, city, title, brokerage
+- `~/attraction-brain/identity/market.md` — market geography, price ranges, niche
+- `~/attraction-brain/identity/avatars.md` — target avatars and what they care about
+- `~/attraction-brain/identity/voice.md` — brand voice, differentiator hints, primary CTA
+
+**Do not ask about anything already in the Brain.** This skill only adds what's not yet documented —
+their offer and USP.
+
+If the Brain doesn't exist yet (the agent jumped straight to the offer), note it and still proceed —
+the offer questions work standalone — then create `~/attraction-brain/identity/` so there's somewhere to
+write the result. Ideally suggest they run **Brain Setup** (or the Brand Persona skill) first.
+
+### Step 2 — Read Reference Files
+
+1. `references/interview-guide.md` — the 6 questions, follow-up prompts, handling guidance
+2. `references/guidebook-template.md` — structure of the public-facing guidebook doc
+3. `references/usp-knowledge-template.md` — structure for the offer written to `identity/offer.md`
+
+---
+
+## Phase 1: Set Expectations
+
+Open with a brief, clear explanation:
+
+```
+You've already told me who you are and who you serve. Now I want to understand
+what you actually offer — what someone gets when they hire you, and why they
+should choose you over every other agent in [city].
+
+I have [X] questions. This takes less than 10 minutes.
+Let's go.
+```
+
+> **If they already have it on paper:** a lead magnet, buyer/seller guide, workbook, or listing
+> presentation *is* their offer in document form. Offer to pull from it first — *"Got a buyer/seller guide,
+> a workbook, or a listing presentation? Upload it or point me to it and I'll draft your offer from it (via
+> **attraction-import**) — then you just refine."* Then the questions become confirmations, not blank prompts.
+
+If no brand persona file exists, adjust:
+```
+I'm going to ask you a few focused questions about your offer and what makes
+you different as an agent. This takes under 10 minutes.
+Let's go.
+```
+
+---
+
+## Phase 2: The Interview
+
+**Read:** `references/interview-guide.md`
+
+Ask all 6 questions in order, plus the quick lead-magnet question (Q7). One question at a time — never stack them.
+Use follow-up prompts from the interview guide when answers are vague or surface-level.
+The goal is specificity. Generic answers produce a generic guidebook. Push for the real details.
+
+---
+
+## Phase 3: Clarification Pass
+
+After all 6 questions, do a quick internal check before building anything.
+
+If any of the following are missing, ask one targeted follow-up:
+
+**No concrete offer specifics** — "You mentioned you provide great support — can you
+give me one or two specific, tangible things you do for clients that most agents don't?
+Even something small counts."
+
+**No differentiator that's actually different** — "When you say [what they said], is that
+something other top agents in [city] also offer, or is that genuinely unique to you?"
+
+**No proof or results** — "Do you have any numbers you can share — homes sold, years of
+experience, average days on market for your listings, client satisfaction — anything
+that backs up what you just described?"
+
+**Offer is vague for one avatar but specific for another** — "You described your offer
+really well for [avatar 1] — what does that look like specifically for [avatar 2]?"
+
+Maximum 2 follow-up questions. Move forward with what's available.
+
+---
+
+## Phase 4: Write the Offer to the Brain + Build the Guidebook
+
+Build both outputs from the interview answers combined with everything already in the Brain.
+
+### Output 1 — Write `identity/offer.md` (the source of truth)
+**Read:** `references/usp-knowledge-template.md` for the structure.
+
+Write the structured offer into `~/attraction-brain/identity/offer.md` — third person, detailed and
+specific: core offer, buyer/seller offers, **lead magnets** (with their DM keywords), guarantees,
+signature process, USP, and proof. **This is what every other skill reads** — the lead magnets are what
+content CTAs point to. If `~/attraction-brain/identity/` doesn't exist yet, create it.
+
+### Output 2 — Public-Facing Guidebook (ON-DEMAND ONLY — never during Brain Setup)
+**When this skill runs as Phase 2 of Brain Setup: SKIP this output entirely.** Setup produces ONE
+document — the 📕 Business Brain Book — and the full Why-Work-With-Me content becomes the Book's
+**"Your Offer & USP"** section. Do not render a separate guidebook doc during setup; at the end of the
+phase just mention: *"When you want a client-ready version of this to send to prospects, say 'build my
+Why Work With Me guide' anytime."*
+**Render this standalone doc ONLY when the agent explicitly asks for it** (a client-facing guide to send
+out / for lead capture). Then:
+**Read:** `references/guidebook-template.md` for the content, and
+`${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` for how to save it.
+
+Build the guidebook as well-structured text (the grammar in doc-formatting.md), write it to a temp file
+(e.g. `/tmp/doc.txt`), render it to a styled `.docx`:
+`python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/doc.txt "Why Work With Me · [Agent Name].docx" --title "Why Work With Me" --subtitle "[Agent Name] · [City]"`
+**Depth bar:** the guidebook is a COMPLETE, polished, multi-page document (~1,500–2,500+ words) — every
+section developed in full, persuasive paragraphs from the whole interview + Brain. It's a premium
+lead-magnet a client actually reads, never a one-page summary; if it renders short, expand before saving —
+and upload the `.docx` to the agent's workspace per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`
+(guides → `03 · Content/Guides`; legacy brains: `Agent Attraction Brain → exports` — find-or-create
+`exports`). This is a *render* for humans; the source of truth is `offer.md`. The clean doc is ready to
+send as-is; for a fully branded, visually designed PDF, tell the agent to drop this copy into their
+design tool (claude.ai design).
+
+---
+
+## Phase 5: Push to Drive, Confirm and Deliver
+
+> **Push to Drive first** — run `attraction-brain-sync` (PUSH) so `identity/offer.md` survives the
+> session. The local copy is wiped when the session ends; an unsynced write is a lost write.
+
+After writing the offer and rendering the guide:
+
+```
+Done — two things:
+
+1. Your offer is now in your Brain (identity/offer.md). Every skill — listing content,
+   lead magnets, AI Admin emails — now knows exactly what you offer and why clients hire you.
+
+2. Your "Why Work With Me" guide is saved to your workspace → 03 · Content → Guides — here's the link — send it to prospects, use it as a
+   lead magnet, or share it at consultations.
+
+To change your offer later, just say "update my offer" and I'll edit it directly.
+```
+
+If this skill was run as **Phase 2 of full Brain Setup**, hand control back to Setup to continue.
+
+---
+
+## Quality Checklist
+
+### Interview
+- [ ] Brain (identity/) read before any questions were asked
+- [ ] No questions repeated from what's already in the Brain
+- [ ] All 6 questions answered
+- [ ] At least one concrete, specific offer detail captured
+- [ ] At least one genuine differentiator captured (not just "great service")
+
+### Guidebook
+- [ ] Reads like something a prospect would actually want to read
+- [ ] Written in the agent's voice from `identity/voice.md`
+- [ ] Every offer item is specific — not vague ("I handle all negotiations"
+      not "I provide full-service support")
+- [ ] Speaks directly to the agent's target avatars from `identity/avatars.md`
+- [ ] CTA on the final page
+- [ ] Agent name and city on every page
+
+### Offer File (identity/offer.md)
+- [ ] Written in third person
+- [ ] Every offer item captured with specifics
+- [ ] Differentiators documented with evidence where available
+- [ ] Works alongside the brand persona file — no overlap, all additive
+- [ ] Complete enough that any skill reading it knows exactly what this agent offers

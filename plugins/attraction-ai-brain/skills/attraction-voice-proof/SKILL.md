@@ -1,0 +1,70 @@
+---
+name: attraction-voice-proof
+description: >
+  Phase 4 of the Agent Attraction Brain — captures the agent's real writing samples (for authentic voice
+  matching) and their proof library (testimonials, stats, case studies) into the Brain. The writing
+  samples are the single biggest lever on content quality: they make every generated script and caption
+  sound like the agent, not like generic AI. The proof library gets reused across listings, lead
+  magnets, bios, and emails.
+
+  Trigger on: "add my writing samples", "voice samples", "capture my voice", "add my testimonials",
+  "build my proof library", "add my reviews", "add my stats", "phase 4", or any request to give the
+  Brain real examples of how the agent writes or proof of their results. BOUNDARY: this skill = how they
+  TYPE (written samples). How they TALK (spoken voice for scripts) is attraction-voice-print — on a bare
+  "capture my voice", ask which they mean (or do written here, then offer the spoken layer).
+---
+
+# Realtor Voice Samples + Proof (Brain Phase 4)
+
+Two quick, high-leverage additions to the Brain: **how the agent actually writes** and **proof they
+get results.** Light — about 5 minutes. Mostly paste-and-go.
+
+*Follow `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md` — writing samples + proof are optional; if the
+agent has none handy, let them "skip" and add later. Never present this as homework.*
+
+## Step 1 — Load the Brain
+Read `~/attraction-brain/brain.md`, plus `identity/profile.md`, `identity/voice.md`, `identity/offer.md`.
+You already know their described voice and offer — this phase adds *real examples* and *proof*. If
+`~/attraction-brain/` doesn't exist, tell them to run **Agent Attraction Brain — Setup** first.
+
+> **Faster than typing:** this whole phase is file-shaped, so lead with the option to **upload or import**.
+> *"Got past posts, emails, or scripts saved somewhere — or testimonials in a doc or screenshots? Upload
+> them here or point me to a Google Drive folder and I'll pull them in (via **attraction-import**) — then you
+> just confirm."* Only fall back to paste/typing for what they don't have on file.
+
+## Phase A — Writing samples (the voice lever)
+Ask the agent to **paste OR upload 3–5 pieces of their own real past content** — Instagram captions, an
+email to a client, a LinkedIn post, a video script, anything they actually wrote (they can drop files or
+point to a Drive folder — see **attraction-import**). Reassure: "Don't polish them, don't pick the fanciest —
+pick the most *you*."
+
+For each, capture it **verbatim** and add a one-line note on what's distinctive (short sentences? dry
+humor? no emojis? lots of line breaks?). Write to `~/attraction-brain/identity/voice-samples.md`.
+
+If they have nothing written: that's fine — note it and suggest they come back after they've posted a
+few things. Don't fabricate samples.
+
+## Phase B — Proof library
+Collect, conversationally (or **upload/import** — a reviews doc, testimonial screenshots, or a stats sheet
+all work; **attraction-import** extracts them):
+- **Testimonials** — paste, upload, or point me to 2–5 real client quotes (first name / client type + year).
+- **Stats** — homes sold, years, average days on market (vs market), list-to-sale ratio, competitive-
+  offer win rate, awards/rankings. Whatever they know — don't force numbers they don't have.
+- **Case studies** — 1–2 signature wins (situation → what they did → outcome).
+
+Write to `~/attraction-brain/identity/proof.md`.
+
+## Push to Drive + confirm
+
+> **Push to Drive after writing** — run `attraction-brain-sync` (PUSH). The local copy is wiped when the
+> session ends; an unsynced write is a lost write.
+Tell them: *"Added to your Brain — your real voice and your proof. Now every script sounds more like
+you, and every listing/lead magnet can pull in real testimonials and stats."*
+
+**Then offer the spoken layer (the bigger lever for scripts):** *"One more, and it's the best thing you can do
+for your video scripts — written samples teach me how you TYPE, but scripts get read out loud. Want to spend
+~8 minutes just talking, so I learn how you actually TALK?"* → hand to **attraction-voice-print**. (And when
+they're ready for storytelling, **attraction-story-bank** — "build my story bank" — mines the real stories that
+make their content un-copyable.)
+
+If run as **Phase 4 of Setup**, hand control back to Setup.

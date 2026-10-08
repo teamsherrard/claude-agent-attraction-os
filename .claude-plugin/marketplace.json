@@ -1,0 +1,16 @@
+{
+  "name": "teamsherrard-agent-attraction",
+  "owner": {
+    "name": "Team Sherrard",
+    "url": "https://github.com/teamsherrard"
+  },
+  "description": "Team Sherrard's Agent Attraction OS: plug-and-play AI systems for real estate agents who attract agents to a cloud-brokerage organization, a local team, or a local brokerage.",
+  "plugins": [
+    {
+      "name": "attraction-ai-brain",
+      "source": "./plugins/attraction-ai-brain",
+      "version": "0.1.0",
+      "description": "PLUGIN 1 — install first. The Agent Attraction Brain: one shared brain (who you are as a leader, who you attract, what you have to give, your numbers, your voice, your brand, your rules) that every other Agent Attraction system reads. Run 'Set up my attraction brain' once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, and the on-the-go Capture layer."
+    }
+  ]
+}

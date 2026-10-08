@@ -1,0 +1,233 @@
+---
+name: attraction-goals
+description: >
+  Turns the agent's income goal into a real 90-day business plan — the money, the engine, the future. It
+  reverse-engineers their 12-month income / GCI goal into the exact number of deals (using their average sale
+  price + commission %), maps where those deals come from, and locks THREE weekly non-negotiable lead activities
+  — one of which is ALWAYS content (short-form + YouTube), because that's what the whole system is built to
+  amplify. It then breaks the plan into DAILY and WEEKLY KPIs, and delivers a premium 90-day plan book plus a
+  dashboard. Reads the Brain (goals, market, offer, content plan, capacity) so nothing is re-asked. Runs a
+  WEEKLY CHECK-IN, and — the big payoff — a CALENDAR AUDIT: because the Brain now knows their goal and KPIs, the
+  agent can ask Claude to check their Google Calendar and tell them exactly where they're off track on hitting
+  their numbers. Offered right after Brain Setup, refreshed every quarter.
+
+  Trigger on: "build my business plan", "plan my next 90 days", "my 90-day plan", "how many deals do I need",
+  "what are my daily KPIs", "how do I hit my goal", "set my goals into a plan", "business planning", "weekly
+  check-in", "review my plan", "am I on track", "audit my calendar", "am I hitting my KPIs", "where am I off
+  track", "refresh my plan", "plan my quarter", or right after setup as the first thing to do.
+---
+
+# Realtor Business Plan — the 90-day plan that makes the goal real (Brain)
+
+Every other skill helps the agent *do* the work. This one tells them **which work, and how much**, to hit
+their number. It turns a vague goal ("I want to make more this year") into: *you need **N deals**, they come
+from **here**, so your three weekly moves are **X, Y, Z** — and here's your dashboard to stay on track.*
+
+Built on the proven **Money → Engine → Future** structure. It reads the Brain, does the math *for* them, and
+produces a premium plan book — not a worksheet. **~10–15 minutes for the plan; ~3 minutes for a weekly check-in.**
+
+**Where this runs:** first capture happens INSIDE Brain Setup as **Phase 8** (capture mode: the money
+questions + the silent full build → `identity/business-plan.md`, no separate deliverable — the Book
+carries the plan). This standalone skill is the **deep dive and the rhythm**: the premium plan book +
+dashboard, the weekly check-in, the calendar audit, and the quarterly refresh. When the Brain already
+holds a Phase-8 plan, READ it and refresh/deepen — never re-ask what setup captured.
+
+## Step 0 — Follow the setup principle
+Read `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md`: ask once, default-if-unsure, honour "skip"/"use
+defaults". **Defaults are full-quality** — an agent who's unsure on every number still walks away with a real,
+specific, math-checked plan built from sensible market assumptions they can adjust later.
+
+## Step 1 — Load the Brain
+Read `~/attraction-brain/brain.md`, plus:
+- `identity/strategy.md` — their **goals** (GCI / transaction target, priority, capacity). This is the input.
+- `identity/market.md` — **average sale price** + price bands (drives the commission math).
+- `identity/offer.md` + `identity/avatars.md` — buyer/seller mix, who they serve.
+- `identity/content-engine.md` + `identity/operations.md` — their real **cadence + capacity** (so the weekly
+  activities are realistic, not fantasy).
+- `identity/proof.md` — last year's numbers if present (a baseline to plan from).
+
+If `identity/strategy.md` has no goal yet (Operations phase not run), just **ask the goal directly** here —
+this skill can set it. If `~/attraction-brain/` doesn't exist, run **Setup** first.
+
+---
+
+## Phase 0 — THE WHY + WHERE THEY ARE (2 minutes that power everything else)
+
+**A. Where they are — read the Brain FIRST, never ask what it knows.** `profile.md` (years in, team),
+`proof.md` (track record), and `strategy.md` usually already answer this. Only when genuinely unclear,
+one warm question: *"Quick calibration — where are you in your real estate journey right now?"* Chips
+as examples (+ always their own words): **Brand new — working toward my first deal** · **A few deals
+in** · **Established — 10+ a year** · **I lead a team**. This one answer selects the question set for
+everything below — **never ask a question their level makes unanswerable** (a brand-new agent asked
+about their last closings doesn't feel planned-for, they feel disqualified).
+
+**B. The Why — the emotional engine of the plan.** The cohort spans first-deal rookies to 40-deal
+teams; the numbers differ wildly, but every plan runs on a why. Two questions, their words sacred:
+1. *"Before any numbers — who are you really building this for?"* Chips as examples, never boxes:
+   my kids · my family / my partner · myself — proving I can do this · my parents · my team ·
+   their own words + context.
+2. *"And when this works — what does it actually buy you? What's the life this is for?"* Let them
+   type freely; offer examples only if they stall: time with my kids while they're young · out of
+   debt · the house · retiring my partner · never asking permission for a day off again.
+Distill both into **one Why-line in THEIR phrasing**, read it back, get the nod: *"So this plan is
+for: [why]. That's what we're actually building — the deals are just how."* Write it verbatim to
+`business-plan.md` (`## The Why`, at the top) and `identity/strategy.md`.
+**The Why is USED, not filed:** the Book's Business Plan chapter OPENS with it (it's the chapter's
+callout), the weekly check-in opens with it, and the calendar audit closes with it — when the numbers
+slip, the why is what re-anchors the conversation. Honour a skip like anything else — but ask warmly
+first; this is the question agents thank you for.
+
+---
+
+## Phase 1 — THE MONEY (do the math for them)
+Reverse-engineer the goal into deals. Show the working — agents love seeing the number become concrete.
+
+1. **The target — asked at their level (Phase 0's calibration):**
+   - **Brand new:** *"What would a GREAT first year look like — an income number or a deals number,
+     whichever feels more real to you?"* Consultant duty: if the number is fantasy or they have no
+     idea, recommend a strong-start band for THEIR market (in most markets, 4–8 closed deals is an
+     excellent first year) and show what one deal is worth so the goal feels earned, not assigned.
+     Never let a new agent anchor on a number that sets them up to feel behind by March.
+   - **A few deals in / established:** use `strategy.md`'s GCI / income goal as before.
+   - **Team lead:** the target is TEAM GCI — ask team size and realistic per-agent production; the
+     leader's plan is the team's plan.
+   If it's an *income* (take-home) goal, gross it up
+   to GCI (before splits/expenses) — ask their brokerage split if unknown, default a sensible one and label it.
+2. **Average commission per deal.** = average sale price × commission %.
+   - **Average sale price:** `market.md` stores price *ranges*, not a single number — so take the **midpoint of
+     their primary price range** as the working average, **state it as an assumption**, and let them correct it
+     (*"I've used ~$X as your average — sound right, or what's your real number?"*). If there's no range yet
+     (brand-new agent), just ask their expected average once.
+   - **Commission %:** use their market's norm; if unsure default **~2.5% per side** and label it an assumption.
+3. **Deals needed** = GCI goal ÷ avg commission per deal. Round up.
+4. **Split it:** buyer/seller mix (from `offer.md`/persona), then break the year into **quarterly → monthly →
+   the 90-day target** (deals in the next 90 days). Also translate to "**deals per month**" and "**closings
+   you need in the pipeline now**" (account for the ~30–60 day close lag).
+
+Present it as a clean, confidence-building readout: *"To hit $[goal], at your ~$[avg] average and [x]% commission,
+that's **[N] deals this year** — about **[n]/quarter**. So your 90-day number is **[n] deals**. Here's how we get them."*
+Every number is theirs and adjustable — if they say "my average is higher" or "I split 90/10," redo the math live.
+
+---
+
+## Phase 2 — THE ENGINE (where the deals come from → 3 weekly moves)
+Deals don't come from hoping. Map them to sources, then convert sources into weekly activity.
+
+1. **Their real track record — the calibration question, asked at their level (never one-size):**
+   - **A few deals in / established:** *"Think about your last few closings — where did each one
+     actually come from?"* (Works for 2 deals or 40 — never name a count their history can't match.)
+     Their true sources beat any generic ratio.
+   - **Brand new (NEVER ask about past closings):** *"Where do the people who already know and trust
+     you live? Who are the first ten people who'd cheer you on — and refer you?"* Their engine starts
+     warm: sphere + open houses + content, the proven new-agent mix, with doctrine ratios labeled as
+     assumptions until real closings replace them.
+   - **Team lead:** *"Where did the TEAM's last quarter of closings come from — and how much of that
+     engine depends on YOU personally?"* (The answer usually reveals the real risk; the engine then
+     includes at least one leader-level move — accountability cadence or recruiting — not just
+     personal production.)
+2. **Lead sources.** Which of these actually produce for them (pick their real ones, add their own, and
+   START from where their last closings actually came from): sphere / database, past clients + referrals,
+   content / YouTube / social, open houses, geographic farming, online leads, networking/events. Weight
+   each: roughly how many of the [N] deals come from each?
+3. **Convert to activity (planning assumptions, labelled as such).** Work backwards with reasonable ratios the
+   agent can tune — e.g. sphere/referral ~ a handful of real conversations per opportunity; content ~ consistent
+   volume compounding over the quarter; open houses ~ X per month → Y leads. The point isn't false precision —
+   it's translating "[n] deals" into "**this many conversations / posts / open houses per week**."
+4. **Lock THREE weekly non-negotiables.** The 20% of activity that drives 80% of the result — chosen around what
+   they'll *actually* do (respect `operations.md` capacity + `content-engine.md` cadence). **Three, not ten** —
+   this is the whole game.
+   - **Content is required, not optional — and it MUST include short-form + YouTube.** One of the three moves is
+     always content, because that's the compounding, free-lead engine the entire Team Sherrard system is built to
+     amplify — it's *why* the system works. An agent who skips it is opting out of the biggest lever, so frame it
+     as non-negotiable to the plan hitting. (Point that activity at their `content-engine.md` + the YouTube /
+     Short-Form systems — hand off to the **YouTube Game Plan** rather than duplicating it.)
+   - **The other two** are their real direct-lead activities (e.g. "10 sphere touches/week," "1 open house/week").
+
+---
+
+## Phase 3 — THE 90-DAY PLAN + DAILY/WEEKLY KPIs + DASHBOARD
+Assemble it into something they'll actually keep and revisit — **this is the Book's ★ chapter; build it
+like the strategy centerpiece it is, with real tables (pipe rows):**
+- **Open with THE WHY** (Phase 0's why-line, verbatim, in their words) — the plan's first line, and the
+  chapter's `>> ` callout in the Book. The numbers serve the why, and the chapter says so.
+- **The one-line target** (the 90-day deal number + GCI). **Brand-new agents get a momentum-framed
+  plan:** lead with the leading indicators (conversations, appointments, content shipped, first
+  pipeline) and the first-deal milestone — never a GCI pace that makes month one feel like failure.
+- **Scenario math (table):** three columns — **Conservative / Target / Stretch** — deals, GCI, and the
+  weekly activity each requires. Agents commit harder when they can see the floor and the ceiling.
+- **The conversion funnel (table):** conversations → appointments → signed clients → closings, with the
+  conversion rates used at each step — THEIR rates when the track-record question gave them, doctrine
+  defaults (labeled as assumptions) when not. This is where "[N] deals" becomes "this many conversations."
+- **Month-by-month ramp (never flat):** month 1 = build (pipeline + content foundations), month 2 =
+  momentum (appointments converting), month 3 = harvest + compounding. Real estate lags ~30–60 days —
+  a flat plan sets them up to quit in week 3 when closings haven't caught up to activity.
+- **The "why this plan works for YOU" narrative** — 2–3 paragraphs connecting their niche + their
+  researched market (`market.md` numbers, sourced) + their capacity hours to this exact plan. Strategy
+  voice, specific to them; never generic coach-speak.
+- **The 3 weekly non-negotiables** (their commitments — one is always content: short-form + YouTube).
+- **Daily & weekly KPIs.** Break the plan into the small numbers that actually get done — translate the weekly
+  activity into **daily** actions (e.g. ~5 outreach conversations/day, 1 short-form post/day, X follow-ups/day)
+  *and* the weekly totals. Agents hit goals through daily habits, not weekly heroics — give them both, explicitly.
+- **Monthly milestones** (month 1 / 2 / 3 — leading indicators, not just closings: conversations, appointments,
+  content shipped, pipeline added).
+- **The weekly dashboard** — a small table they update each week:
+
+  | Week | Conversations / leads | Appointments set | Deals in pipeline | Content shipped | Daily KPIs hit? | 3 moves done? |
+  |---|---|---|---|---|---|---|
+
+## Write to the Brain + deliver the plan book
+> **Push to Drive after writing** — run `attraction-brain-sync` (PUSH). An unsynced write is a lost write.
+- Write the structured plan to **`~/attraction-brain/identity/business-plan.md`** (target, math, engine, 3 moves,
+  milestones, dashboard). Every skill can now read what the agent is driving toward.
+- **If you captured the income/deal goal here** (because `strategy.md` didn't have one), also write it into
+  `identity/strategy.md` — so the two never diverge and no later skill re-asks the goal.
+- **Refresh the Business Brain Book** (per `${CLAUDE_PLUGIN_ROOT}/shared/brain-book-spec.md` — the
+  canonical Book contract (structure, grounding laws, gates) + setup Step 7.4's
+  naming: "📕 [Agent]'s Business Brain Book — [date]", saved to `01 · AI Brain/`) so its **Business Plan
+  section fills in** — everything stays in the one book, always current. Hand them the **direct link** to the
+  refreshed Book. *(Optional: a standalone "🎯 [Agent]'s 90-Day Business Plan" one-pager via
+  `shared/render_doc.py`, also into `01 · AI Brain/`.)*
+- Confirm: *"Your 90-day plan is set — [N] deals, three weekly moves, and a dashboard to track it. I'll check in
+  weekly."* (Only if their **AI Admin is set up**, add: *"— and your AI Admin can remind you of your three moves
+  in your morning brief."* Don't promise the brief to an agent who hasn't set up the Admin.)
+
+---
+
+## WEEKLY CHECK-IN mode (trigger: "weekly check-in" / "review my plan" / "am I on track")
+Keep the plan alive — a plan nobody revisits is wallpaper. ~3 minutes:
+0. **Open with the Why** — one line, theirs, from `business-plan.md`'s `## The Why` (*"Week [n] of the
+   plan you're running for [why-line] — here's the score."*). When they're behind, the why is the
+   re-anchor, never guilt.
+1. Read `identity/business-plan.md` + pull real progress from memory: `memory/clients.md` (pipeline / new
+   opportunities), `memory/content-log.md` (content shipped), `memory/deadlines.md`, `memory/performance.md`.
+2. **Update the dashboard** row for this week. Compare to the milestone pace — are they on/ahead/behind?
+3. **Celebrate what moved**, name the ONE thing that matters most next week, and re-commit the 3 moves. Warm,
+   coach-like, honest — if they're behind, adjust the plan, don't guilt-trip.
+4. Push to Drive. *(The AI Admin's 7am brief can surface "your 3 moves" daily; this weekly check-in is the review.)*
+
+## CALENDAR AUDIT mode (trigger: "audit my calendar" / "am I hitting my KPIs" / "where am I off track")
+A plan is only real if it's on the calendar. **If Google Calendar is connected** (the AI Admin's connector), read
+the agent's `business-plan.md` KPIs *and* their actual calendar, then tell them plainly where they're on or off track:
+1. **Do their committed activities show up as time blocks?** e.g. *"You committed to 5 lead-gen blocks + 3 content
+   blocks a week — your calendar has 2 lead-gen and 1 content. You're short on both, and content is the one that
+   can't slip."*
+2. **Are showings / appointments trending toward the deal target?** Cross-check the `memory/clients.md` pipeline —
+   enough activity to produce [N] deals on pace?
+3. **Name the ONE gap that matters most this week** and suggest the specific time blocks to add to fix it (the AI
+   Admin can book them).
+Warm and honest — a coach, not a scold; if they're behind, help them adjust, don't guilt-trip. **If Calendar isn't
+connected,** audit against what they tell you + `memory/clients.md` / `content-log.md`, and offer to connect Calendar
+so this becomes automatic. *(This is the payoff of setting the plan: their Brain knows the goal, so it can check the
+calendar against it.)*
+
+## QUARTERLY REFRESH
+After ~90 days: archive the finished plan to the workspace's **`01 · AI Brain/`** as a dated file
+("90-Day Plan · [Quarter]") — pushed, so it survives (never local `exports/`, which is wiped) — celebrate results vs target, and run Phases 1–3 again
+for the next quarter (their averages + what worked update the assumptions). Growth compounds when the plan does.
+
+## When this runs
+- **Right after Brain Setup** — offered as the recommended first move (the Brain now knows them; this points it
+  at a goal).
+- **On demand** — "build my business plan" anytime.
+- **Weekly** — "weekly check-in" (or the AI Admin prompts it).
+- **Quarterly** — refresh for the next 90 days.
