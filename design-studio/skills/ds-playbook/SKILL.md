@@ -281,9 +281,9 @@ unless `ds-product-mockup` changed it first.
 
 ## HAND BACK TO THE BRAIN
 
-After the push: *"Your playbook is in `05 · Offer`. Back in your Brain, say 'map my digital product'
-and tell it the first version is built — your offer chapter's digital-product line reads 'built' on the
-next 'show me my Brain', and the Week 2 promise is now a real file. Hand it to every new partner on day
+After the push: *"Your playbook is in `05 · Offer`. Back in your Brain, say 'my digital product is built'
+— your offer chapter's digital-product line reads 'built' on the next 'show me my Brain', and the Week 2
+promise is now a real file. Hand it to every new partner on day
 one."* Next for them: `ds-product-mockup` for the bundle shot, `ds-course` when they record the lessons.
 
 ## DEMO MODE

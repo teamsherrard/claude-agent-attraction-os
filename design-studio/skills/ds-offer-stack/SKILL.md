@@ -85,7 +85,7 @@ set — say the word to change any of these"); every creative choice has a "Deci
    your `05 · Offer` folder as "Offer Stack Brief"). If your Drive connector is connected here, say so
    and I'll read it from there.
 3. **Your product mockup** *(only if `ds-product-mockup` has run)* — if `product-mockup-3d.png` is in
-   this project or in `05 · Offer`, I'll put it on top of the stack. If it hasn't run, I'll render the
+   this project or in `05 · Offer` (the product's own folder), I'll put it on top of the stack. If it hasn't run, I'll render the
    product tier as a designed cover from the brief's cover line and tell you where the real shots come
    from.
 4. **Where will you show it first?** *(multi-select, default all)* — on a call (screen share) · the

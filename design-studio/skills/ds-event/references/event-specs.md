@@ -2,26 +2,58 @@
 
 Read in full before building any piece.
 
-## 1. THE EVENT BRIEF (the shape this skill expects — the Events plugin writes it)
+## 1. THE EVENT BRIEFS (the two shapes the Events plugin writes — read the fields exactly)
 
+**From `ev-promo` — the graphics:**
 ```
-EVENT BRIEF — for ds-event (Claude Design)
-Event: [title] · Format: live local / virtual / evergreen
-When: [date] · [time] · [timezone]   (evergreen: "on demand")
-Where: [venue + address] / "on Zoom — the link arrives after you register" / "watch on demand"
-Topic (the hot topic agents care about): [one line] · Who it's for: [type of agent — career stage / production]
-Free: yes · Seats or deadline (real): [n seats / registration closes date — or none]
-Hosts: [member] [+ co-hosts] · Guest speakers: [name · their one-line credential as they state it · consent on file · photo supplied]
-What they leave with (three real things): • … • … • …
-Registration: [link] / comment the word [KEYWORD]
-Pieces wanted: [feed flyer · story flyer · print flyer · registration post · countdown stories · speaker cards · zoom background · starting-soon · event banner · replay · slides]
-Run-of-show (for the slides): [section · minutes · the how-to it teaches · the template/script/number it hands over]; interactive beats: […]; the close: the iceberg line in the member's words + "book a call with me"
-Brand: use the Design System · Compliance: [brokerage display rule · "NOT SET YET"] · Brokerage-neutral: yes (live local)
-Caption / promo copy (paste): […]
+FOR ds-event (promo set for [event name])
+Member: [name] · [brokerage, as compliance.md displays it, footer only] · [market]
+Event: [name] · [date · time · timezone] · [Zoom / venue] · free · for [type of agent]
+Pieces: 1. feed graphic (announcement) 2. story set (7 countdown frames, text above) 3. speaker spotlight card 4. [carousel 3–5 slides] 5. the banner / photo-spot backdrop (live only)
+Copy on each: [verbatim — headline, sub-line, CTA]
+Brand: [from brand-visual.md — logo, colours, type; or "Design Package first: ds-logo → ds-style-sheet → ds-brand"]
+Required line (verbatim): [the compliance footer / brokerage name as required]
+Never on the graphic: splits, caps, stock, rev share, income, another brokerage's name, "recruiting."
+Ad note: if any piece becomes a paid ad — Meta Employment special-ad-category; the brokerage's ad policy applies.
 ```
-`ev-promo` writes the promo lines, `ev-runofshow` the run-of-show, `ev-registration` the page copy (that
-one goes to `ds-funnel`). A brief in another shape is read for these fields; only the missing ones are
-asked.
+**From `ev-runofshow` — the slides:**
+```
+FOR ds-event (workshop slides — [event name])
+Member: [name] · [market] · [brokerage, compliance strip only where required]
+Deck: [n] slides, 16:9, the brand from brand-visual.md [or "Design Package first"]
+1. Title — [event name] · [date] · [member name]
+2. The promise — "[the transformation]"
+3. Who this is for — three lines in their words
+4–[n]. One slide per teaching beat: [title · the one line · the visual (template / screenshot / diagram)]
+[n]. Do-this-now — the one step, big
+[n]. Proof — [the agent's win, consented, first name only] / the member's own numbers, labeled
+[n]. Q&A — the three questions
+[n]. The iceberg — above the water: what you got today · below: mentorship · systems · community (never money)
+[n]. Book a call / Come talk to us — the QR + the link [+ the scope line for a virtual room]
+[n]. Your resource — [the guide / the slides] · the keyword or the QR
+[n]. Thank you + the speakers' names
+Compliance strip (where required, verbatim): [from compliance.md]
+Never on a slide: splits, caps, stock, rev share, income, another brokerage's name or logo, "recruiting," "opportunity."
+```
+
+**What each field becomes:**
+
+| Brief field | Builds |
+|---|---|
+| Event (name · date · time · timezone · Zoom / venue · free · for [type]) | the title treatment, the date chip, the where line, the who-it's-for line, the FREE chip — on every piece |
+| Pieces 1. feed graphic | the feed flyer (§4) and its story flyer; the print flyer too for a live local event |
+| Pieces 2. story set (7 countdown frames) | the countdown set (§5) — the brief's copy and frame count win over §5's default six; extra frames are named `countdown-[n].png` in the brief's order |
+| Pieces 3. speaker spotlight card | the speaker card, one per guest, consent noted |
+| Pieces 4. carousel 3–5 slides | `ds-carousel`'s by default (`ev-promo` allows either; the series template is why) — hand the member the line "design my carousel" with the brief's promo copy as the doc; build it here only when they ask, on the flyer's treatment, as `event-carousel-0N.png` (1080×1350) |
+| Pieces 5. the banner / photo-spot backdrop | the event banner (§7), live local only |
+| Copy on each | verbatim on the piece — never rewritten; a line that will not fit is cut to its first clause and named |
+| Brand · Required line · Never on the graphic · Ad note | the Design System's tokens; the compliance strip; the rules in §9; the Meta note said once |
+| Deck · the numbered slide list | the slide deck (§6) in the run-of-show's order — Title · The promise · Who this is for · the teaching beats · Do-this-now · Proof · Q&A · The iceberg · the invitation · Your resource · Thank you |
+| Compliance strip (where required, verbatim) | the footer line on every non-cover slide where the rule requires it |
+
+The registration page's copy goes to `ds-funnel` (its own `FOR ds-funnel (registration shape — …)` block
+from `ev-registration`); this skill hands `ds-funnel` the design block in §8. A brief in another shape is
+read for these fields; only the missing ones are asked.
 
 ## 2. THE THREE FORMATS (`15-advanced-scaling/74` · `75` · `76`)
 
@@ -140,7 +172,7 @@ Title treatment: [font · size relation · the accent word] · Colour pairing: [
 Hero: the feed flyer's composition (the member's cut-out [side] · the headline · the date chip)
 Hosts treatment: [cut-out · matching scale for guests · consent noted]
 Promise lines (three): • … • … • …
-Form fields (from ev-registration): [first name · email · phone (optional) · one question]
+Form fields (from ev-registration): [First name · Email · Phone · "Which best describes you?" (six options) · the one-thing question when the doc carries it]
 Thank-you state: "You're in — add it to your calendar" + the calendar link + "share this with an agent who needs it"
 Compliance line: [verbatim] · Brokerage-neutral: [yes/no]
 ```

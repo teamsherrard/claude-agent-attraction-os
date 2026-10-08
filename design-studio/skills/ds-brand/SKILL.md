@@ -48,8 +48,8 @@ somehow missing, say so and point them to `ds-style-sheet` first (or, as a fallb
 headshot, and colours in one message).
 
 **The brief and the Book.** Members arrive with a pasted block that starts **"AGENT ATTRACTION DESIGN
-PACKAGE — [Name]"**; its line 3 is yours — *"ds-brand — profile and banner graphics, [one lockup / two
-lockups]"* — plus the brand name(s), the brand shape, the tagline, and the compliance line. **The Brain Book is "the AI
+PACKAGE — [Name]"**; its line 3 is yours — *"ds-brand — profile and banner graphics, [one logo version / two logo
+versions: member name + organization name]"* — plus the brand name(s), the brand shape, the tagline, and the compliance line. **The Brain Book is "the AI
 Brain file"**; read: **Snapshot** (name, brokerage, market and scope, known for, the one-line why,
 booking link, socials, compliance status), **The Leader** (what they are building), **Your Voice &
 Brand** (tone, sounds-like / never, signature phrases, the primary CTA), **Your Agent Avatars** (the
@@ -130,7 +130,8 @@ a generic icon and the note that the guide fills it later; the CTA is **"Book a 
 - **Banner = the positioning statement** — a stranger reads WHO you are, WHO you help, WHAT you help
   them do, and ONE action in 3 seconds. If it reads as decoration instead of a statement, it fails.
 - **Agent-win post = the culture, proven** — recognition of a real agent (with permission); the agent's
-  photo and the status word do the stopping ("WELCOME", "FIRST DEAL", "CAPPED"). Mike's rule: recognize
+  photo and the status word do the stopping ("WELCOME", "FIRST DEAL", "MILESTONE"; "CAPPED" only where
+  the Book's rev-share marketing policy allows it). Mike's rule: recognize
   your agents publicly to showcase the culture.
 - **Teaching post = authority** — one thing the member actually knows how to do, as a big claim or
   tip, with their cut-out. Educates first; the CTA is soft.
@@ -197,7 +198,7 @@ single character; no element is ever partially hidden by another or by the canva
 
 **Banner anatomy (three horizontal zones — the positioning statement):**
 - **Left:** the logo, the role line (who you are), and the **who you help** row with chevron bullets
-  (the types of agent in plain words: "New agents · Agents paying for leads · Capped producers") — or
+  (the types of agent in plain words: "New agents · Agents paying for leads · Top producers") — or
   the organization lockup when there are two.
 - **Centre:** the **NAME, large and dominant**, with the **positioning line** beneath (who you help +
   what you help them do, one sentence, in their voice), then the **CTA button "Book a call with me"**
@@ -231,7 +232,8 @@ Genuine, on-brand copy on every piece — no lorem ipsum, no "[Your name]". The 
 (the organization's own lockup pieces may speak as "we"); the people they attract are **"agents"** or
 **"partners"**, never "leads", "recruits", or "downline". Pull the member's actual phrases from the
 Book's voice chapter; use the primary CTA verbatim ("Book a call with me" + the link). Status words on
-the win template stay punchy ("WELCOME", "FIRST DEAL", "CAPPED", "CLOSED #10"); the teaching headline
+the win template stay punchy ("WELCOME", "FIRST DEAL", "CLOSED #10"; "CAPPED" only where the Book's
+rev-share marketing policy allows it); the teaching headline
 is one real thing they know ("The 7pm text that turns open-house sign-ins into buyers"); the CTA
 headline is the primary type of agent's pain in Mike's wording. Never: a compensation, split, cap,
 stock, or income word; "#1", "best", "fastest-growing" without a dated source in the Book; anything
@@ -365,8 +367,9 @@ ALL pieces change together.
 - **postFormat** *(Square 1:1 / Portrait 4:5, default Portrait)*.
 - **headshotStyle** *(Circle / Cut-out / None, default Cut-out)*.
 - **graphicAccents** *(from the toolkit: Pattern / Arcs / Bars / Minimal, default to brand fit)*.
-- **winStatus** *(Welcome / First deal / Capped / Closed #N / Award, default Welcome)* — the status the
-  win template displays.
+- **winStatus** *(Welcome / First deal / Milestone / Closed #N / Award / Capped — Capped enabled only when
+  the Book's Compliance chapter's rev-share marketing policy allows it, otherwise disabled with the label
+  "Your rev-share marketing policy keeps this off"; default Welcome)* — the status the win template displays.
 - **ctaHeadline** *(three or four options built from the Book's avatar pains + "Thinking about your
   next move?")*.
 - **whichLogo** *(My name / My organization's name — when two versions exist)* — which version fronts

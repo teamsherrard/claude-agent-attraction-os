@@ -106,7 +106,7 @@ Used to Be' · ebook · journey in 3 beats · 9 stories on file · why-join-me w
   Proof chapter's agents-helped rows and consented testimonials become Part 3; the "Why join me" long
   version becomes Part 4. Say plainly that this is the shorter edition and that a chapter with one
   paragraph is one paragraph — the phrase that grows it is named ("build my attraction story bank",
-  "build my why join me story"), never filled by you.
+  "why join me"), never filled by you.
 
 **THE ECHO TEST** in both paths: a Book chapter pasted under a heading is not a book page — it's set
 (the chapter opener, the sections, the pull quote, the figure), with the member's words in every slot.
@@ -287,9 +287,9 @@ cover never changes here unless `ds-product-mockup` changed it first.
 ## HAND BACK TO THE BRAIN
 
 After the push: *"Your book is in `05 · Offer`. Hand it to every new partner on day one, and send it
-after a first conversation — it does the 'who are you' work for you. Back in your Brain, say 'map my
-digital product' and tell it the first version is built — your offer chapter's digital-product line
-reads 'built' on the next 'show me my Brain'."* Then: `ds-product-mockup` for the 3D mockup and the
+after a first conversation — it does the 'who are you' work for you. Back in your Brain, say 'my digital
+product is built' — your offer chapter's digital-product line reads 'built' on the next 'show me my
+Brain'."* Then: `ds-product-mockup` for the 3D mockup and the
 bundle shot (the hand-off block is in the notes file); a story that grew while writing goes to the
 Brain with "remember this moment".
 

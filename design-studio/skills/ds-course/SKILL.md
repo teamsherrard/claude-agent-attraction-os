@@ -268,9 +268,9 @@ here unless `ds-product-mockup` changed it first.
 ## HAND BACK TO THE BRAIN
 
 After the push: *"Your course package is in `05 · Offer`. Record with the title cards (each one is
-the first frame of its lesson); hand new partners the outline on day one. Back in your Brain, say 'map
-my digital product' and tell it the first version is built — your offer chapter's digital-product line
-reads 'built' on the next 'show me my Brain'."* Then: `ds-product-mockup` for the course-box and bundle
+the first frame of its lesson); hand new partners the outline on day one. Back in your Brain, say 'my
+digital product is built' — your offer chapter's digital-product line reads 'built' on the next 'show me
+my Brain'."* Then: `ds-product-mockup` for the course-box and bundle
 shot (the hand-off block is in the notes file); `ds-recognition` for each agent's certificate with their
 name.
 

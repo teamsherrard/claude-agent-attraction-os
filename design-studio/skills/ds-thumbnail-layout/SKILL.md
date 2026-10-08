@@ -241,9 +241,8 @@ page; the status line must end in "complete"; the files are PNG at 1280×720 (Yo
 On "push / save this to my Drive" (Google Drive or OneDrive): with a FILE-UPLOAD Drive connector,
 export and push the three files and the notes into **the video's folder** — `03 · Content/Long-Form/
 [YYYY-MM-DD · Title]/`, the folder where the script and the brief already live (search for the
-member's actual folder first; create only if missing; never duplicate). The brief's OUTPUT line may
-name `03 · Content/Graphics`; the video's own folder is where the YouTube plugin looks for the
-packaging — file them there and say so in one line. If the connector is READ-ONLY or absent, say so
+member's actual folder first; create only if missing; never duplicate). The brief's OUTPUT line names
+the same folder — file them there and say so in one line. If the connector is READ-ONLY or absent, say so
 plainly and hand them a tidy **EXPORT LIST**: the four files, their exact names, and the one folder.
 Brand files stay in `02 · Brand`; this skill reads from there and never writes there.
 

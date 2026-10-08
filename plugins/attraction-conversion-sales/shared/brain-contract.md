@@ -142,3 +142,5 @@ except the monthly Sales Scorecard doc → `01 · AI Brain` beside the 90-Day At
 Agent names, what they said, their socials, and every intel report are the member's private data. They live only on
 the member's machine and in their own cloud workspace. Nothing here is stored, transmitted, or held anywhere else,
 and nothing from one member's Brain is ever used for another.
+
+- Reads `memory/events.md → Next event:` (read-only) for the next event invite in `cv-follow-up` and `cv-reactivation`.

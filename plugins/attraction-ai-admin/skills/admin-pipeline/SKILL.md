@@ -3,11 +3,11 @@ name: admin-pipeline
 description: >
   The Agent Attraction AI Admin's prospect ledger on the locked stages (Identified → Conversation → Call
   booked → Call held → 3-way → Joined → Onboarded → Active, plus Parked) and the only writer of stage
-  moves. Applies the moves you log through the Conversation Coach, the Debrief, or on the go; mirrors
-  them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when connected, with the Brain as the
-  truth and the fallback. Answers who is at any stage, moves an agent, tells an agent's whole history
-  from your notes, and match-back: who in your pipeline would care about an update, an event, or a
-  resource, with the reason. Prospect data stays in your Brain and CRM. Trigger on: "my
+  moves. Applies the moves you log through the Conversation Coach, the Debrief, an event, or on the go;
+  mirrors them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when connected, the Brain the
+  truth and the fallback. Answers who is at any stage, moves an agent, tells an agent's history from your
+  notes, and match-back: who in your pipeline would care about an update, an event, or a resource, with
+  the reason. Prospect data stays in your Brain and CRM. Trigger on: "my
   attraction pipeline", "my prospect pipeline", "who's at call booked", "move [agent] to [stage]", "what
   happened with [agent]", "where does [agent] stand", "apply those stage moves", "who in my pipeline
   would care about", "park [agent]", "update my CRM from my pipeline", "agents gone quiet in my pipeline".
@@ -33,7 +33,8 @@ Identified [n] · Conversation [n] · Call booked [n] · Call held [n] · 3-way 
 It also writes `memory/deadlines.md` rows (a call, a 3-way, an onboarding step) and the join row in
 `memory/organization.md`. It never writes `top-50.md` (the Brain's `attraction-top-50` mirrors Stage from
 this board on its runs — not even a touch cell is edited here), `conversations.md` (the Conversion plugin
-and capture), or `debriefs.md`. The full rules, including how requested moves reach the board:
+and capture), `debriefs.md`, or `events.md` (the Events plugin's ledger — read for its request lines, never
+edited). The full rules, including how requested moves reach the board:
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` — read it before the first write of a session.
 
 ## Step 1 — Load (two files, every run; each mode opens the rest)
@@ -44,17 +45,27 @@ requests). `config.md` (`CRM`, the `CRM mirror` line) is open from admin-core. P
 is never re-read.
 
 ## Housekeeping first, every in-chat run (silent, one line)
-Open now: `memory/debriefs.md` (the newest entries' `Stage moves requested`). Find every PENDING request — the four shapes in `brain-contract.md`: a `Stage after` on a conversation row
-newer than that agent's last log row · a `STAGE MOVE REQUESTED: [Name]: [from] → [to]` line in this session
-· a Debrief entry's `Stage moves requested` · a `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line in
-this session (or a dated `Next step` on a conversation row newer than the Board's next move) — and apply
-each: a stage move as Mode B, `Logged by: admin-pipeline ← [source YYYY-MM-DD]`, with the `Next move · Due`
-those skills requested written to the Board; a next-move request as the Board's `Next move · Due` only (no
-stage-log row — the stage stays). Then one line: *"Applied 2 moves you logged: Sarah → Call booked, James →
-Parked; Priya's next move set for the 14th."* Exceptions go to the member as ONE question ending "your turn",
-never guessed: a stage outside the vocabulary, an agent on no ledger, two requests that disagree, or
-**any backwards move** (Call held → Conversation; a no-show is never a move back — see Mode B). A scheduled
-run never does this; it lists.
+Open now — BOTH files, every time: `memory/debriefs.md` (the newest entries' `Stage moves requested:` line)
+AND `memory/events.md` (every event block's `Stage moves requested:` line, plus any `STAGE MOVE REQUESTED` /
+`NEXT MOVE REQUESTED` line written inside a block — the Events plugin's durable carriers, so a workshop's
+requests reach the board even when `ev-followup` or its Post-Event Follow-Up run spoke in a session that is
+gone). Find every PENDING request — the four shapes in `brain-contract.md`: a `Stage after` on a conversation
+row newer than that agent's last log row · a `STAGE MOVE REQUESTED: [Name]: [from] → [to]` line in this
+session or inside an event block · a Debrief entry's or an event block's `Stage moves requested:` line · a
+`NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line in this session or inside an event block (or a dated
+`Next step` on a conversation row newer than the Board's next move) — and apply each exactly as the
+Debrief's: a stage move as Mode B, `Logged by: admin-pipeline ← [source YYYY-MM-DD]` (`attraction-debrief
+2026-12-09` · `ev-followup tb-vt-01 2026-12-09` — an event's code names its source), with the `Next move ·
+Due` those skills requested written to the Board; a next-move request as the Board's `Next move · Due` only
+(no stage-log row — the stage stays). An event block's request is pending while the Board's stage for that
+agent is still before the requested one and no log row cites that event code for them; an applied line stays
+in its block, never erased (the block is the Events plugin's — this skill never edits `events.md`). Then one
+line: *"Applied 2 moves you logged: Sarah → Call booked, James → Parked (from your workshop); Priya's next
+move set for the 14th."* Exceptions go to the member as ONE question ending "your turn", never guessed: a
+stage outside the vocabulary, an agent on no ledger (an event request only ever names a Top-50 row — a name
+on no ledger is the question: *"say 'add [Name] to my top 50, met at my workshop' and I'll move them"*), two
+requests that disagree, or **any backwards move** (Call held → Conversation; a no-show — a call's or an
+event's — is never a move back — see Mode B). A scheduled run never does this; it lists.
 
 ## Mode A — the board ("my prospect pipeline" · "who's at call booked")
 Nothing more opens: the two Step 1 files carry it. Counts by stage in one line, then the rows for the stage
@@ -120,7 +131,9 @@ date · the one thing to pre-empt. **Never invent** — "nothing logged since th
 answer when it is. Nothing here comes from outside the Brain and the CRM.
 
 ## Mode D — match-back ("who in my pipeline would care about [this update / event / resource]")
-Open now: `memory/top-50.md` · `memory/objections.md` · `memory/intel-reports/` (the follow-up plans).
+Open now: `memory/top-50.md` · `memory/objections.md` · `memory/intel-reports/` (the follow-up plans) · the
+header's `Next event:` line of `memory/events.md` when the thing is the member's own upcoming event (its
+theme and date live there; the shortlist is the personal-invite list `ev-promo` asks for).
 The payoff for every note ever logged, in reverse: the member names a thing — a positive change to the
 model, a notable join, a new training or tool, an event, a story, a video, an agent's win — and this skill
 finds the agents already in their world it gives a REASON to reach out to (`12-simple-tech-stack/85`).

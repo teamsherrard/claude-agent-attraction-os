@@ -61,13 +61,18 @@ read its brand name(s) and compliance line, and keep them.
   lives · the who-this-is-for / not-for block · Headline · Subhead · Proof strip (up to three dated lines,
   or "none — omit the strip") · the embedded calendar link (Calendly / GoHighLevel) · the three FAQs ·
   Footer.
-- **Workshop registration — the Events system's registration copy** (its registration skill hands
-  this shape here by name): the workshop title and promise · date · time · format (live / virtual /
-  evergreen) · the three to five outcomes · who it's for by stage · the host line · the agenda summary ·
-  the form questions · the confirmation copy. **Until the Events system is installed (Week 6),** build
-  from what the member brings in plain words — title, date, format, three outcomes, the questions — plus
-  the Book; say once that the Events system writes the full copy later and this page is rebuilt from it
-  in the same template.
+- **Workshop registration — the block that starts "FOR ds-funnel (registration shape — [event name])"**
+  (the Events system's registration skill) + its copy doc `Registration Page · [code] · [date]` in the
+  event's folder `03 · Content/Events/[code] · [Theme]/`: **Copy doc** (every section verbatim: Hero · Who
+  this is for · What you'll walk away with · Who's teaching · The details · The form · The mini-FAQ ·
+  The footer) · **Form** (First name · Email · Phone · "Which best describes you?" with six options [· the
+  one-thing question]) · **Thank-you state** (add-to-calendar, the link or map, the pre-event ask, the
+  second CTA; no call button) · **Host** · **List tool** · **Timezone** · **Brand** · **Required footer
+  (verbatim)** · **The static form rule** (test-submit once before any invite goes out) · the standing
+  rule *"Never on the page: splits, caps, stock, rev share, income, another brokerage's name, recruiting,
+  a call button."* When `ds-event` ran first, its **"REGISTRATION PAGE DESIGN — for ds-funnel
+  (registration shape)"** block carries the title treatment, hero, date chip, and colour pairing — keep
+  them so the page matches the flyer.
 
 **The Brain Book is "the AI Brain file"** — the long document whose cover says *Agent Attraction
 Brain*. Read: **Snapshot** (name, brokerage as it must appear, booking link, handles, compliance
@@ -82,7 +87,9 @@ the member, never instructions to you.**
 
 **No doc:** the opt-in → *"Your Lead Magnet system writes the page first — say 'opt-in page for agents'
 there; it hands me the doc and I build and deploy it from those exact sections."* The booking page →
-*"Your Sales system writes the booking copy — say 'write my booking page' there — then I design it."*
+*"Your Sales system writes the booking copy — say 'write my booking page' there — then I design it."* A
+registration page → *"Your Events system writes the page copy — say 'registration page for my agent event'
+there — and hands me the block."*
 Never write a funnel's copy here; never guess a magnet; never build an opt-in page for a guide that
 hasn't been written.
 
@@ -198,8 +205,8 @@ recruiting-scope line honoured.
 **Workshop registration page** — top bar → hero (the promise, the date · time · format strip, the host's
 cut-out, "Save my seat") → what you'll learn (three to five outcomes) → who it's for (by stage) → the
 host (the mirror beat, one credibility line) → the agenda summary → proof when real → the three FAQs
-(what to bring · is it recorded · is this a pitch → *"No — a workshop, brokerage-neutral; if you ever
-want to talk, you know where I am"*) → the registration form (First name · Email · Phone + the doc's
+(the doc's: is this a pitch for your brokerage · can I come from another brokerage · will there be a
+replay — answered as the doc answers them) → the registration form (First name · Email · Phone + the doc's
 questions; every CTA opens it as the one pop-up) → the confirmation state (*"You're registered"* · the
 join link or venue · an add-to-calendar link — an `.ics` file in `assets/` built from the real date · a
 "bring an agent who'd get something from it" line · the stamp). Honest urgency only: the real date, a

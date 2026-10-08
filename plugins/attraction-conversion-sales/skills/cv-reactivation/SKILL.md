@@ -33,7 +33,9 @@ member's view says "quiet agents").
 Read `~/attraction-brain/brain.md`, then `memory/top-50.md`, `memory/pipeline.md`, `memory/conversations.md`
 (the objection and pain logged for each), `memory/intel.md` (the triggers), `memory/organization.md` (joins
 and wins), `identity/offer.md` (new value), `identity/proof.md`, `identity/story-bank.md`, `identity/
-operations.md` (events, the weekly model call, the cadence's "cold" line), `identity/voice.md`, `identity/
+operations.md` (the weekly model call, the cadence's "cold" line), `memory/events.md` → its `Next event:` line
+only (the top of the file — the Events plugin keeps it current; "none planned", template brackets, or a
+header-only file = no event to offer, never invent one), `identity/voice.md`, `identity/
 compliance.md` (its first line, `Status:`), `config.md`. Missing locally → pull via `attraction-brain-sync`. A tool error is never
 "no Brain". Empty ledgers → "nobody's gone quiet yet — a healthy new pipeline" and stop; never invent names.
 
@@ -43,7 +45,9 @@ compliance.md` (its first line, `Status:`), `config.md`. Missing locally → pul
   `Parked` agents are not quiet; they are parked for a stated reason and come back when it changes.
 - **One real reason per message**, from the trigger list in `cv-follow-up` (`/85`, `/42`): a positive
   change to the model · a notable join of their type · new training or value-proposition update · a
-  resource that answers their logged objection · an event · a story or win · a milestone they shared.
+  resource that answers their logged objection · an event (the member's own upcoming one, from the `Next
+  event:` line of `memory/events.md`; or the weekly model call in `operations.md`) · a story or win · a
+  milestone they shared.
   **No reason → no message.** Say "leave it" and mean it.
 - **Curiosity, not pressure.** "Not sure if you saw this — it's huge, and it reminded me of you. Just
   wanted to reconnect and see if you had any questions." Never a deadline, never a guilt line, never

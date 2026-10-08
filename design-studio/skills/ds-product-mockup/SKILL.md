@@ -7,8 +7,8 @@ description: >
   Brain Book's offer chapter, in the locked Design System. One canonical cover: an existing designed
   cover is reused exactly, never redrawn; a cover designed here becomes the product's cover when the
   Value Vault builds it in Week 6. Transparent PNGs for the offer stack, the one-pager, the funnel,
-  and posts; an honest status line, no fake badges or reviews; no animation (the video studio is
-  parked). Lands in 05 · Offer (a lead magnet's shots land in its guide folder). Trigger on: "my
+  and posts; an honest status line, no fake badges or reviews; no animation (not part of this
+  build). Lands in 05 · Offer (a lead magnet's shots land in its guide folder). Trigger on: "my
   product mockup", "my digital product mockup", "mock up my digital product", "3D mockup of my
   course", "3D mockup of my playbook", "bundle shot of my offer", "device mockup of my guide for agents".
 ---
@@ -149,7 +149,7 @@ stack, the 1-pager, the funnel, and the Value Vault read these; keep them exact:
 
 | File | Size | What it is |
 |---|---|---|
-| `product-cover-flat.png` | 1700×2200 (letter ratio; A4 ratio when the Book's locale says A4) | the canonical flat cover, full quality — page one of the product and the share image |
+| `product-cover-flat.png` | 1700×2200 (letter ratio by default; A4 ratio when the Book's locale says A4; an existing cover keeps its own ratio — a 6×9 cover from `ds-ebook` stays 6×9) | the canonical flat cover, full quality — page one of the product and the share image |
 | `product-mockup-3d.png` | 2400×2400, transparent | the hero shot: the book, booklet, workbook, or course box at the default angle, soft shadow, no floor |
 | `product-mockup-device.png` | 2400×2400, transparent | the phone + laptop showing the product's first page |
 | `product-mockup-bundle.png` | 3000×2000, transparent | the composed group: the hero product front and centre, its templates, checklists, or lesson cards fanned behind at the same angle and light |
@@ -258,8 +258,9 @@ nothing around the product — not a white box); rename nothing.
 ## SAVE TO YOUR CLOUD DRIVE (connector-aware — save the member the download marathon)
 
 On "push / save this to my Drive" (Google Drive or OneDrive): with a FILE-UPLOAD Drive connector,
-export and push the set into the member's workspace — **`05 · Offer/`** for the digital product; the
-guide's own campaign folder in **`03 · Content/Guides/`** when the subject is the free guide (the
+export and push the set into the member's workspace — **`05 · Offer/[Product name]/`** for the digital product
+(the product's own folder — the one the Value Vault and the Brain's offer file use; create it only if
+missing); the guide's own campaign folder in **`03 · Content/Guides/`** when the subject is the free guide (the
 folder the Lead Magnet system created, `[date] · [Guide Name]`) — under the canonical names (search for
 their actual folder first — they may have renamed the workspace; create only if missing; never
 duplicate). If the connector is READ-ONLY or absent, say so plainly and hand them a tidy **EXPORT

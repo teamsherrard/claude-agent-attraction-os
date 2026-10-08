@@ -79,7 +79,7 @@ any of these"). Every creative choice has a "Decide for me" path. End with **"Yo
 4. **Your logo** *(required — an existing logo is a first-class path, not a detour)* — three cases:
    - **Built here with `ds-logo`?** Use it automatically from the project or `02 · Brand` — never make
      them re-upload. Use BOTH versions when two exist (your name · your organization's name).
-   - **A logo you love (maybe for years)?** Upload the best file (transparent PNG or vector beats a
+   - **A logo you love (maybe for years)?** Upload the best file (a transparent PNG or the original logo file — SVG, AI, or PDF — beats a
      screenshot). The whole sheet is built AROUND it, exactly as it is. Never redesign, regenerate,
      "improve", modernize, or restyle it. If it is low-res or locked on a white box, say so ONCE and —
      only with their OK — do a clean background removal; nothing else is ever altered. "Don't touch it
@@ -247,7 +247,8 @@ with its use; every toolkit band closes with a ONE-LINE usage note. Stack these 
    the pieces a leader actually publishes: a **signature pattern**; a **texture or gradient wash**; the
    **photo-treatment device** (the branded frame shape and/or a duotone wash for photos of the member
    and their agents); the **win-card frame** (the device every agent-recognition post will use — a
-   frame, a ribbon, or a plate for "First deal" / "Welcome" / "Capped"); the **quote device** (how an
+   frame, a ribbon, or a plate for "First deal" / "Welcome" / "Milestone" — "Capped" only where the
+  Book's rev-share marketing policy allows it); the **quote device** (how an
    agent's testimonial is set — marks, rule, attribution line); a **proof chip** (how a real credential
    or number sits — a quiet pill, never a badge the member didn't earn); the **oversized mark device**
    (the mark blown up and cropped by the tile's edge); an **accent device** (bars, brackets, an
@@ -284,7 +285,7 @@ frame like the design file — NOT a phone, NOT a 3D render, NOT a mockup scene.
   the rest a clean brand-colour field or two-tone split using a divider from the toolkit.
 - **Headline:** a big, bold question or statement aimed at the **primary type of agent** in the Book's
   avatar chapter, in the member's voice, built from that avatar's pain in Mike's wording — "Paying for
-  leads and still guessing where the next deal comes from?", "Capped again — and nothing changed?",
+  leads and still guessing where the next deal comes from?", "Closing deals, and still no path past selling?",
   "Two years in and still doing it alone?" Real copy, correctly spelled, no filler. Never a line about
   another brokerage or person; never a compensation or income word.
 - **CTA:** "Book a call with me" as a pill or highlighted line — the primary CTA from the Book's voice

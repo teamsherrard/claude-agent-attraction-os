@@ -39,7 +39,8 @@ only the *default label*. Locate it robustly:
 │   ├── Long-Form/               (YouTube videos, interviews, model breakdowns)
 │   ├── Short-Form/              (reels, stories, clips)
 │   ├── Graphics/                (carousels, thumbnails, designed posts, proof cards)
-│   └── Guides/                  (lead magnets, downloadable PDFs)
+│   ├── Guides/                  (lead magnets, downloadable PDFs)
+│   └── Events/                  (one folder per agent event, `[code] · [Theme]/` — brief, playbook, promo, page copy, run-of-show, follow-up, report)
 ├── 04 · Agents/                 ← the people side
 │   ├── Prospects/               (Prospect Radar reports, agent-landscape research, call prep)
 │   └── My Organization/         (onboarding records, recognition, org analyses)
@@ -75,7 +76,10 @@ work inside that one member's Brain; it is not a multi-user system. The member's
   - **Brain Book** + **90-Day Attraction Scorecard** → `01 · AI Brain`.
   - **Brand kit** (logo, style sheet, headshots, profile and banner graphics) → `02 · Brand`.
   - **Long-form** → `03 · Content/Long-Form`; **short-form** → `Short-Form`; **carousels / thumbnails / proof cards** →
-    `Graphics`; **lead magnets and guides** → `Guides`.
+    `Graphics`; **lead magnets and guides** → `Guides`; **event docs** → `03 · Content/Events/[code] · [Theme]/` —
+    every document for one event (the brief, the format playbook, the promo calendar and copy, the registration-page
+    copy, the run-of-show and slide brief, the follow-up sequences, the event report) lands in that one folder, which
+    the Events plugin creates when it opens the event; nothing event-related is saved anywhere else.
   - **Prospect Radar reports, agent-landscape research, call prep, intel reports** → `04 · Agents/Prospects`.
     **Onboarding records, recognition, org analyses, surveys** → `04 · Agents/My Organization`.
   - **Offer Doc, Why Join Me, teach-first lessons, onboarding docs, the value-stack sheet, Value Vault products** → `05 · Offer`.
@@ -98,7 +102,7 @@ work inside that one member's Brain; it is not a multi-user system. The member's
 `01 · AI Brain` — Setup, the Goals skill, every Book regenerate (this plugin). `02 · Brand` — the member drops the
 Design Package output; brand-direction points them there. `03 · Content` — the content producers from Week 3
 (Short-Form System, AI Editor) and Week 4 (YouTube); Graphics from the Design Studio; Guides from the Lead Magnet
-plugin (Week 6). `04 · Agents` — Prospect Radar (Week 2) and the Conversion plugin (Week 5) fill Prospects; Team &
+plugin (Week 6); Events from the Events & Workshops plugin (Week 6). `04 · Agents` — Prospect Radar (Week 2) and the Conversion plugin (Week 5) fill Prospects; Team &
 Retention (Week 6) fills My Organization. `05 · Offer` — Week 2's offer skills and the Value Vault (Week 6).
 `06 · Materials` — the member's own drops, any time. A folder the member hasn't needed yet SHOULD be empty — say
 so if they ask, with the week that fills it.

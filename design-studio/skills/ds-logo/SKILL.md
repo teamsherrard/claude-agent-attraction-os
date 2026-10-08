@@ -7,7 +7,7 @@ description: >
   (REFRESH MODE: change only what they flagged, keep it recognizably theirs), or a logo they love
   (untouched, routed straight to ds-style-sheet). Reads the pasted Design Package brief and the
   uploaded Brain Book first and asks only what they cannot answer, in plain language. Delivers the
-  final files (transparent PNG + SVG, every lockup, one-colour and dark versions, the content header)
+  final files (transparent PNG + SVG, every arrangement, one-colour and dark versions, the content header)
   into 02 · Brand. Trigger on: "design my attraction logo", "design my leader logo", "refresh my
   attraction logo", "a logo for my organization name", "agent attraction logo", or any request to
   create, refresh, or explore the logo the agents they attract will see.
@@ -161,7 +161,7 @@ take the brief and the Book, name the two or three assumptions you made in one l
 
 ## THE TWO-NAME SYSTEM (member name + organization name — siblings, never strangers)
 
-When the brief says **two lockups**, one shared construction language builds BOTH marks: the
+When the brief says **two logo versions**, one shared construction language builds BOTH marks: the
 member's name version and the organization's name version share the same geometry, stroke logic,
 type system, and finish — the organization's version may carry its own simple emblem, but it is
 visibly from the same hand. Personal surfaces (the member's profile, banner, signature) carry the

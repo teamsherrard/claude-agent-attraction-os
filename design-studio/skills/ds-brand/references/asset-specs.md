@@ -39,7 +39,7 @@ two ways: include EVERY element on the checklist, and size things BIG so the lay
 3. The **role line** under the name ("Team leader · The Lakeline Collective", "Mentor to new agents",
    what they are known for). *(who you are)*
 4. The **who-you-help row** — the types of agent in plain words with chevron bullets ("New agents ·
-   Agents paying for leads · Capped producers"). *(who you help)*
+   Agents paying for leads · Top producers"). *(who you help)*
 5. The **positioning line** — one sentence: who you help + what you help them do, in their voice
    ("I help agents in years 2–5 build a pipeline that doesn't need a lead bill"). *(what you help them do)*
 6. The **proof chip** — ONE real credential, number, or agent result from the Book's Proof chapter, as
@@ -113,8 +113,9 @@ face) sit inside the centre-square region; footer and CTA bands may run to the e
    (b) **Framed window** — the photo sits in the win-card frame from the Design System on a rich brand
    ground. **The zones INTERLOCK** (the photo fading into the band, the frame overlapping it, or the
    member's small cut-out across the seam) — two stacked rectangles that never touch is a failed post.
-   **The status word is the type hero** — "WELCOME", "FIRST DEAL", "CAPPED", "CLOSED #10", "AWARD" (via
-   the winStatus tweak) — two-tone or metallic, with the agent's first name beside it, a one-line detail
+   **The status word is the type hero** — "WELCOME", "FIRST DEAL", "MILESTONE", "CLOSED #10", "AWARD" (via
+   the winStatus tweak; "CAPPED" only where the Book's Compliance chapter's rev-share marketing policy
+   allows it) — two-tone or metallic, with the agent's first name beside it, a one-line detail
    ("3 buyers under contract in her first 60 days" — the member's own words, never an invented number),
    and ONE slim contact bar with the compliance strip. **The empty template still looks DESIGNED:** the
    placeholder IS the framed window with a small "Your agent's photo" label in brand type; NEVER app UI

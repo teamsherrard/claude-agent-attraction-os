@@ -57,6 +57,7 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 | `memory/organization.md` | agents in the organization: joins, status, last touch, recognition given, retention notes |
 | `memory/scorecard.md` | the Targets block (goals), daily rows (the Debrief), weekly rows (this plugin) |
 | `memory/debriefs.md` | last night's entry: tomorrow's three moves, agent needs, stage moves requested |
+| `memory/events.md` (Week 6, the Events plugin's ledger) | **the dual scan** — every event block's `Stage moves requested:` line and any `STAGE MOVE REQUESTED` / `NEXT MOVE REQUESTED` line inside a block, opened by `admin-pipeline`'s housekeeping alongside `debriefs.md` on every in-chat run; the header's `Next event:` line for the match-back; counts only — never written here, never edited |
 | `memory/deadlines.md` | due dates this plugin keeps |
 | `memory/content-log.md` | content due this week and shipped (the content plugins write it) |
 | `memory/capture-log.md` · `intel.md` · `objections.md` · `ideas.md` | Open captures to surface; brokerage news that is a follow-up trigger; what a prospect objected to; nothing is written here |
@@ -80,30 +81,44 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 stage from the pipeline and may read `conversations.md`, the Board, and the queue's Log for the touch columns), `memory/conversations.md` (the Conversion plugin and
 `attraction-capture`), `memory/debriefs.md` (the wrap RUNS the Brain's Debrief, which writes it),
 `memory/objections.md`, `memory/content-log.md`, `memory/intel.md`, `memory/ideas.md`, `memory/capture-log.md`
-(this plugin surfaces Open rows; `attraction-capture` closes them), any `identity/` file, the Targets block or
-daily rows of the scorecard, any other plugin's `config.md` block.
+(this plugin surfaces Open rows; `attraction-capture` closes them), `memory/events.md` (the Events plugin's
+ledger — its request lines are scanned, the file is never edited; an applied request stays in its block), any
+`identity/` file, the Targets block or daily rows of the scorecard, any other plugin's `config.md` block.
 
-## Requested moves — how a stage move or a next move reaches the board (the shapes the Conversion plugin writes)
-Other systems request; this plugin applies. Four request shapes, all consumed:
+## Requested moves — how a stage move or a next move reaches the board (the shapes the Conversion plugin, the Debrief, and the Events plugin write)
+Other systems request; this plugin applies. Four request shapes, all consumed — spelled identically here, in
+the Brain's and the Events plugin's `brain-contract.md`, in every Conversion skill, and in `docs/BRAIN-CONTRACT.md`:
 1. **The durable stage request — the `Stage after` column** of a `memory/conversations.md` row. Every
    Conversion skill that logs a conversation (`cv-conversation-starter`, `cv-dm-flow`, `cv-debrief`,
    `cv-follow-up`, `cv-reactivation`, `cv-three-way`) and `attraction-capture` write it. When the Admin is
    installed they write ONLY that column and tell the member "logged — the stage moves on your next Admin run."
-2. **The stage chat signal** — those skills end their output with the line
+2. **The stage chat signal** — those skills, and `ev-followup` for a named attendee who engaged, booked, or
+   joined (one line per agent, Top-50 rows only), end their output with the line
    **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`** (locked vocabulary). When that line is in the current
-   session, "apply that" means that move.
-3. **The Debrief's line** — `Stage moves requested: [Name]: [from] → [to], …` in a `memory/debriefs.md` entry
-   (the Daily Agent Attraction Debrief; the Events plugin requests event stages the same way).
+   session, "apply that" means that move. The same line may sit inside an event block of `memory/events.md`
+   (shape 3) — read there on every in-chat run, so an event's requests survive the session that made them.
+3. **The Debrief's line, and the event block's** — `Stage moves requested: [Name]: [from] → [to], …` in a
+   `memory/debriefs.md` entry (the Daily Agent Attraction Debrief) **and the same line in every event block of
+   `memory/events.md`** (the Events plugin requests event stages the same way — `ev-followup` writes it as the
+   durable carrier of its chat signal). **The dual scan:** `admin-pipeline`'s housekeeping opens BOTH files,
+   every in-chat run, and applies or asks exactly as it does for the Debrief's; the log row names the source
+   (`Logged by: admin-pipeline ← ev-followup tb-vt-01 2026-12-09`). An applied line stays in its block; this
+   plugin never edits `events.md`.
 4. **The next-move chat signal — no stage change:**
    **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — emitted by the Conversion plugin's follow-up and
-   reactivation skills (including the Cold-Lead Reactivation prompt) when the stage stays put and only the next
-   touch changes. Its durable carrier is the `Next step` (with a date) on that skill's `conversations.md` row
-   or the dated touch in its follow-up plan file.
+   reactivation skills (including the Cold-Lead Reactivation prompt), by `sales-show-up` for a no-show's
+   recovery touch, and by `ev-followup` and its Post-Event Follow-Up run (the day-1 personal message, the
+   day-3 touch for a named attendee — a scheduled run never moves a stage) when the stage stays put and only
+   the next touch changes. Its durable carrier is the `Next step` (with a date) on that skill's
+   `conversations.md` row, the dated touch in its follow-up plan file or the event's follow-up doc, or the
+   line written inside the event block in `memory/events.md`.
 
 **Pending stage move** = a `Stage after` (or a Debrief line) dated after the pipeline's last log row for that
-agent, where the board's stage differs from the requested stage. **Pending next move** = a
-`NEXT MOVE REQUESTED:` line in the session, or a dated `Next step` on a conversation row (or a plan touch)
-newer than the Board row's `Next move`, where the Board differs.
+agent, where the board's stage differs from the requested stage; an event block's request is pending while
+the Board's stage for that agent is still before the requested one and no log row cites that event code for
+them. **Pending next move** = a `NEXT MOVE REQUESTED:` line in the session or inside an event block, or a
+dated `Next step` on a conversation row (or a plan touch) newer than the Board row's `Next move`, where the
+Board differs.
 
 **Where next moves land.** The Admin writes `Next move · Due` on the pipeline **Board** (its own columns) —
 never on `top-50.md`. `attraction-top-50` mirrors Stage from the Board on its runs and refreshes Last touch
@@ -115,7 +130,8 @@ never edits a Top-50 cell. **Until the Admin registers its `## AI Admin` block**
 (`AI Admin: set up [date]`) ends that allowance and they request instead.
 
 The rule: in an **in-chat run** (`admin-pipeline`, or `admin-daily`'s brief or wrap), pending requests are
-applied as housekeeping — the member logged the conversation themselves. A stage move gets one log row with
+applied as housekeeping — the member logged the conversation or ran their event's follow-up themselves. A
+stage move gets one log row with
 the source (`Logged by: admin-pipeline ← cv-debrief 2026-12-09`); a next move changes the Board cells only
 (no stage-log row). ONE line to the member: *"Applied 2 moves you logged yesterday: Sarah → Call booked,
 James → Parked; Priya's next move set for the 14th."* "Undo" writes a reverse row; history is never
@@ -209,7 +225,7 @@ already does.
   `cv-follow-up` · `cv-reactivation` · `cv-three-way` (`Stage after`, the follow-up plan in `Next step`) ·
   `sales-show-up` (a no-show's recovery touch as a `NEXT MOVE REQUESTED` line — never a stage move) ·
   `sales-scorecard` (its `WEEKLY ROW:` line in the locked eleven columns → reconciled and appended by
-  `admin-recruiting-scorecard`; show, held→join, funnel, and the constraint ride in Note; the CEO Review's call line) · `attraction-capture` ("move them to call booked"; a join; a win) · `ev-followup` (event stages) ·
+  `admin-recruiting-scorecard`; show, held→join, funnel, and the constraint ride in Note; the CEO Review's call line) · `attraction-capture` ("move them to call booked"; a join; a win) · `ev-followup` (event stages: `STAGE MOVE REQUESTED` + the event block's `Stage moves requested:` line; `NEXT MOVE REQUESTED` for the named-attendee touches, also from its Post-Event Follow-Up run — all read from `memory/events.md` by the dual scan) ·
   `attraction-goals` (its weekly check-in and monthly audit hand to `admin-recruiting-scorecard` and
   `admin-monthly-review` once the Admin is installed) · `attraction-execution-framework` (the review slots) ·
   `lm-analytics` (Week 6: `list-growth.md`'s `Calls booked from the funnel`, read by `admin-recruiting-scorecard`).
@@ -219,6 +235,7 @@ already does.
   `sales-setter` (the scripts a setter pack points at) · `ds-recognition` (the Win Wall brief, pasted into
   Claude Design) · `attraction-top-50` (a bench name to promote on a join; the mirror) ·
   `attraction-goals` (change the targets) · `attraction-execution-framework` ("what is my constraint") ·
+  `ev-promo` (the match-back shortlist, Mode D, becomes an event's personal-invite list) ·
   the MAA Claude Support navigator (breakage) · the Realtor AI Admin (anything client-side).
 
 ## Documents this plugin produces (per the Brain's `drive-map.md`)

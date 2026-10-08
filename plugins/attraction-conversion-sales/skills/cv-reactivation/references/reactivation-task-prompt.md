@@ -8,14 +8,17 @@ Steps, in order, plain language throughout (no file names, no sync talk, no step
 1. If `~/attraction-brain/` is missing, pull it with the attraction-brain-sync skill first. If no Brain exists,
    stop and say so in one line.
 2. Read brain.md, memory/top-50.md, memory/pipeline.md, memory/conversations.md, memory/intel.md,
-   memory/organization.md, identity/offer.md, identity/proof.md, identity/story-bank.md, identity/operations.md,
-   identity/voice.md, identity/compliance.md (its first line, `Status:`, is the gate).
+   memory/organization.md, memory/events.md (only its `Next event:` line, at the top of the file),
+   identity/offer.md, identity/proof.md, identity/story-bank.md, identity/operations.md, identity/voice.md,
+   identity/compliance.md (its first line, `Status:`, is the gate).
 3. Find the quiet ones: every agent at Conversation, Call booked, Call held, or 3-way whose last touch is 30 or
    more days ago and who has no touch due this week. Skip Parked, Joined and later, and anyone whose notes say
    "asked for space" with a date not yet passed.
 4. For each quiet agent find ONE real reason to reach out, in this order: a brokerage or industry change in
    intel.md dated since the last touch · a join or a win in organization.md of an agent of their type · a new
-   training, resource, or value-stack addition in offer.md · an event in operations.md coming up · a story in
+   training, resource, or value-stack addition in offer.md · the member's upcoming event on the `Next event:`
+   line of memory/events.md (skip this reason when it says "none planned", still holds template brackets, or
+   the file has only its header; the weekly model call in operations.md counts as an invitation too) · a story in
    story-bank.md that answers the objection logged for them · a milestone they shared. No reason found → list
    the name under "no reason yet — leave it" and draft nothing for them.
 5. If the first line of compliance.md (`Status:`) is unset, write no drafts: list the quiet agents and their

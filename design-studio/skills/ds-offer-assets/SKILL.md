@@ -48,7 +48,7 @@ Three briefs feed this skill; read whichever the member pastes, and never re-ask
   (verbatim)** · the standing rule *"Never on the graphic: splits, caps, stock, rev share, income,
   another brokerage's name."* Its deck twin, **"FOR ds-offer-assets (the opportunity deck)"**, carries
   the same content as 6–8 slide titles with one line each.
-- **"FOR ds-offer-assets (the 'Join My Team' one-pager)"** — from the Brain's free-vs-paid session:
+- **"FOR ds-offer-assets (the "Join My Team" one-pager)"** — from the Brain's free-vs-paid session:
   *pull from the Partner Offer doc in `05 · Offer` · the UVP · the free line · the booking line · the
   comment keyword.* With a Drive connector, read the newest `Partner Offer · [Member] · [date]` doc
   from `05 · Offer` yourself; without one, ask the member to upload it.
@@ -85,7 +85,7 @@ this skill is for YOU, not the form.
 The **Design System** in this project holds the logo files, colours, fonts, headshot treatment,
 toolkit, voice cards, and compliance block; `ds-brand` left `cover-join-my-team.png` in `02 · Brand`
 and in this project; `ds-offer-stack` and `ds-product-mockup` left `offer-stack-object.png` and
-`product-mockup-3d.png` in `05 · Offer`. USE all of it — never re-ask a colour, a font, a logo, a
+`product-mockup-3d.png` in `05 · Offer` (the mockup inside the product's own folder). USE all of it — never re-ask a colour, a font, a logo, a
 headshot, or a cover. Missing Design System → `ds-style-sheet` first.
 
 Your first reply is ONLY a SHORT intake form for what nothing else holds. Prune every answered item;

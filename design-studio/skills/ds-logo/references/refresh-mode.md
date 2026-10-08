@@ -14,7 +14,7 @@ looks cheap · the spacing) is the entire scope. If the brief has no flagged ite
 question: *"What's the one thing you'd change?"* and record only that.
 
 **The refresh brief (replaces the from-scratch questions):**
-- **Upload your current logo** — the best file they have (a vector or transparent PNG beats a
+- **Upload your current logo** — the best file they have (a transparent PNG or the original logo file — SVG, AI, or PDF — beats a
   screenshot; take whatever they've got; check `02 · Brand` first — if it's already there, use it).
 - **What do you LIKE about it?** *(multi-select)* — the name treatment · the symbol · the colours ·
   the overall layout · the feeling of it. Everything they like is LOCKED.

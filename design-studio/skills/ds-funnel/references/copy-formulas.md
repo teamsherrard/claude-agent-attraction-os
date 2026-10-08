@@ -43,7 +43,9 @@ never estimate a figure. Vague reads as recruiting; specific reads as a leader.
 
 - Fields: **First name · Email · Phone** — three, nothing else; never "brokerage", never "production"
   (the booking shape adds the five qualifying questions ONLY where the Sales doc places them — in the
-  calendar tool or on the application variant).
+  calendar tool or on the application variant; the registration shape adds the Events doc's one sorting
+  question, "Which best describes you?", and the one-thing question when the doc carries it — never more
+  than five fields).
 - **The honest contact line under Phone**, from the doc: *"I'll text or call once to make sure you got
   it — no drip, no pressure."* Never collect a phone silently.
 - **Reassurance by the button**, from the doc: *"Free. Instant. Private — nobody's contacted on your

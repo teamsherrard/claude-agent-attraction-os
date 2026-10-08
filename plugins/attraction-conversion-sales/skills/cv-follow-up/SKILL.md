@@ -39,7 +39,10 @@ Read `~/attraction-brain/brain.md`, then:
 - `identity/proof.md`, `identity/story-bank.md` — the case study, the interview, the story that answers
   their objection.
 - `identity/offer.md`, `identity/positioning.md` — the resources to send; new additions to the value stack.
-- `identity/operations.md` — the follow-up cadence, the weekly model call, events, the signature.
+- `identity/operations.md` — the follow-up cadence, the weekly model call, the signature.
+- `memory/events.md` — its `Next event:` line only (the top of the file; the Events plugin keeps it current):
+  the member's upcoming event for the quarterly invite or an "event coming up" touch. "none planned", template
+  brackets, or a header-only file = no event touch — never invent one.
 - `identity/voice.md` — so every draft sounds like them.
 - `identity/compliance.md` — its first line, `Status:`, is the gate: every touch is a prospect-facing message.
 - `config.md` — whether the AI Admin block exists.
@@ -71,8 +74,8 @@ A touch with none of these is not sent; it is replaced or the date is moved:
   a similar position — made me think of you."
 - **A win or recognition in the member's organization** — "somebody just like you hit the milestone you told
   me you want."
-- **An event coming up** — the brokerage's conference, the member's mastermind or weekly model call; the
-  invitation IS the value.
+- **An event coming up** — the member's own workshop or training (`memory/events.md → Next event:`), the
+  brokerage's conference, the member's mastermind or weekly model call; the invitation IS the value.
 - **An industry shift that makes the model more attractive** — regulation, lawsuits, rates: "a lot of agents
   are rethinking their brokerage — curious how you're approaching it."
 - **A resource that answers their objection** — the interview with an agent who had the same objection, the
@@ -102,7 +105,8 @@ Build the plan as dated touches, each with **reason · channel · what to send �
 - **Weeks 2–4 — value touches**: one or two, each tied to a trigger above or to the objection standing
   (the interview, the case study, the training clip). Multiple channels across the month.
 - **Monthly** — a success story or an industry update, when there is a real one.
-- **Quarterly** — an invitation: the event, the webinar, the mastermind, the weekly model call.
+- **Quarterly** — an invitation: the member's next event (the `Next event:` line), the webinar, the mastermind,
+  the weekly model call.
 - **Any time a trigger fires** — a join, a model change, their milestone: move the next touch up.
 Cap the plan at what the member can actually do (`goals.md` weekly follow-up activity; `operations.md`
 hours). A plan of fifteen touches nobody sends is worse than four they do.

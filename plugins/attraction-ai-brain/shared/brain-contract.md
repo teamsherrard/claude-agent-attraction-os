@@ -50,7 +50,9 @@ fills it; `yt-analytics` reads it there, never on `publishing.md`) · `Call Bloc
 Reactivation task` (Conversion & Sales block — `cv-call-prep`, `cv-reactivation`; with `Booking page` · `Partner
 call length` · `Setter`) · `AI Admin` (the stamp `AI Admin: set up [date]`, the first line of the `## AI Admin`
 block) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Weekly CEO Review task` · `Monthly KPI Review
-task` · `Team Wins Newsletter task` (AI Admin block) · `Support desk` (MAA Support block — `attraction`).
+task` · `Team Wins Newsletter task` (AI Admin block) · `Installed` · `Plugin version` · `Member code` · `Registration
+host` · `Post-Event Follow-Up task` (the `## Events (Week 6)` block — `ev-navigator` creates it; the task id is
+`ev-post-event-follow-up`) · `Support desk` (MAA Support block — `attraction`).
 **Admin detection, OS-wide:** the Admin is installed when `config.md` holds a block whose heading starts with
 `## AI Admin` and whose first line is `AI Admin: set up [date]` — prefix match; the bold styling is cosmetic.
 From that line on, `attraction-capture`, `attraction-top-50`, and the Conversion skills stop writing the
@@ -110,7 +112,7 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | `memory/objections.md` | `attraction-capture` (heard-rows) | heard-rows also from `cv-objection-coach` (handle mode) and `cv-debrief` (a fumbled one, `Did it land? no`) — ruled in; the Conversion plugin adds handlers in the Listen · Validate · Reframe · Invite shape; `cv-objection-coach` owns the `## Practice log` section |
 | `memory/debriefs.md` | `attraction-debrief` | — (`admin-daily`'s wrap RUNS the Debrief, which writes it) |
 | `memory/capture-log.md` | `attraction-capture` (fallback) | the Debrief and the Admin surface Open rows; capture closes them |
-| `memory/content-log.md` | **YouTube · Short-Form · AI Editor · Events** — each its own rows, one row per piece (a batch logs one row per pillar it covers) | the Brain only reads; `attraction-capture` never writes here; the Format enum is `long-form · reel · story · carousel · interview · live · email · blog` |
+| `memory/content-log.md` | **YouTube · Short-Form · AI Editor · Events** — each its own rows, one row per piece (a batch logs one row per pillar it covers) | the Brain only reads; `attraction-capture` never writes here; the Format enum is `long-form · reel · story · carousel · interview · live · email · blog` (Events rows: Platform = where it lives — `Zoom` / `In person` for the event itself; Format `live` for the event; Pillar `Proof` for a recap post; Topic begins `[event] [code] —`; the full convention is the template's conventions comment) |
 | `memory/ideas.md` | `attraction-capture` | content plugins stamp Status `used` (`yt-make-video`, `sf-*`, `lm-*` — the status column only); designated appenders in the row shape: `yt-repurpose` (conversation-starter rows, Tag `general`, while the Conversion plugin is absent), `sf-ideas` (ruled in); `attraction-import` appends the `## Past content (imported)` section only |
 | `memory/intel.md` | `attraction-prospect-radar` (the Agent Movement Watcher) | `attraction-capture` appends what the member heard, same shape (a Conversion skill hands triggers to capture); `sf-greenscreen` and a YouTube script stamp ONLY the `Used?` column of a row they used |
 | `memory/intel-reports/` | **Conversion & Sales plugin (Week 5)** — `cv-agent-intel` (`YYYY-MM-DD-[agent-slug].md`), `cv-follow-up` (`…-follow-up.md` plan files), `cv-reactivation` (`YYYY-MM-DD-reactivation.md`); newest wins | the Brain and the Admin only read |
@@ -120,15 +122,15 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | `memory/sales-funnel.md` | **`sales-scorecard` (Conversion & Sales, Week 5)** — weekly rows by source, never edited — the Brain never writes it | `admin-recruiting-scorecard` and `sf-analytics` read it; the weekly scorecard row is appended by its own owner from the `WEEKLY ROW:` line |
 | `memory/magnets.md` | **`lm-magnet` (Lead Magnet, Week 6)** — the Brain never writes it | `lm-navigator`, `lm-magnet-ideas`, `lm-design`, `lm-funnel`, `lm-delivery`, `lm-analytics` update only their own columns; everyone else READS `## Current magnet` |
 | `memory/list-growth.md` | **`lm-nurture` (Lead Magnet, Week 6)** — the Brain never writes it | `lm-analytics` appends weekly rows; `lm-partnerships` owns `## Partners`; `attraction-goals` weekly mode and `admin-recruiting-scorecard` READ "Calls booked from the funnel" |
-| `memory/events.md` | **the Events & Workshops plugin (Week 6)** — shape locked when it ships | — |
+| `memory/events.md` | **the Events & Workshops plugin (Week 6)** — `ev-strategy` opens a block (one per event, newest first) and sets the header's `Member code` · `Next event:`; `ev-registration` · `ev-promo` · `ev-runofshow` · `ev-followup` · `ev-analytics` fill their own lines; the block shape ships in the template; counts only — never an attendee's name | the AI Admin READS it — the dual scan: every block's `Stage moves requested:` line and any `STAGE MOVE REQUESTED` / `NEXT MOVE REQUESTED` line inside a block, alongside `debriefs.md`, every in-chat run; `cv-follow-up` and `cv-reactivation` READ the header's `Next event:` line (never `operations.md`) for the member's upcoming event; the Brain never writes it |
 | `memory/support-log.md` · `memory/claude-updates.md` | **MAA Claude Support** (`maa-support-*`) | — |
 | `memory/deadlines.md` | `attraction-capture` until the AI Admin is installed | then `admin-*`, same shape |
 
 ## Request shapes (how a move reaches the Admin's board — written here once, consumed by `admin-pipeline`)
 1. The durable stage request: the **`Stage after`** cell of a `memory/conversations.md` row.
 2. The chat signal: the writer ends its output with **`STAGE MOVE REQUESTED: [Name]: [from] → [to]`**.
-3. The Debrief's line: `Stage moves requested: [Name]: [from] → [to], …` in a `memory/debriefs.md` entry (Events requests event stages the same way).
-4. A next move with no stage change: **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — its durable carrier is a dated `Next step` on the conversation row or a touch in the follow-up plan file.
+3. The Debrief's line: `Stage moves requested: [Name]: [from] → [to], …` in a `memory/debriefs.md` entry — and the same line in every event block of `memory/events.md` (Events requests event stages the same way; `ev-followup` writes it). **The Admin's dual scan:** `admin-pipeline` opens BOTH files every in-chat run and applies or asks exactly as for the Debrief's, the log row naming the source (`Logged by: admin-pipeline ← ev-followup tb-vt-01 2026-12-09`). Shapes 2 and 4 may also sit inside an event block, written by `ev-followup` or its Post-Event Follow-Up run, and are read there.
+4. A next move with no stage change: **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — its durable carrier is a dated `Next step` on the conversation row, a touch in the follow-up plan file or the event's follow-up doc, or the line inside the event block.
 Before the Admin registers, the same writers write `pipeline.md` directly (same vocabulary). A no-show never moves a stage backwards; any backwards move is put to the member as one question.
 
 ## Locked vocabularies and shapes (defined once, in the template)
@@ -138,7 +140,7 @@ Before the Admin registers, the same writers write `pipeline.md` directly (same 
 - **Five content pillars (OS-wide, exact names):** Authority · Perspective · Story · Proof · Personality.
 - **Score vocabulary:** Ahead · On pace · Behind.
 - **Top-50 `Source` values:** youtube · instagram · referral · sphere · event · lead-magnet · other.
-- **Row shapes:** `top-50`, `conversations`, `content-log`, `scorecard` (Targets block + weekly rows + daily rows), `debriefs` (`## [date] · [score]` entries), `objections` (+ `## Practice log`), `intel`, `deadlines`, `capture-log`, `pipeline` (Board + Stage moves log + Counts), `organization`, `interview-pipeline`, `content-performance`, `follow-up-queue`, `sales-funnel`, `magnets` (+ `## Current magnet`), `list-growth`, `publishing`, `profiles`, `channel`, `sales-system`, `operations` — as the template files show. A plugin that needs a column proposes it in the template, never adds it ad hoc.
+- **Row shapes:** `top-50`, `conversations`, `content-log`, `scorecard` (Targets block + weekly rows + daily rows), `debriefs` (`## [date] · [score]` entries), `objections` (+ `## Practice log`), `intel`, `deadlines`, `capture-log`, `pipeline` (Board + Stage moves log + Counts), `organization`, `interview-pipeline`, `content-performance`, `follow-up-queue`, `sales-funnel`, `magnets` (+ `## Current magnet`), `list-growth`, `events` (the header line + the block shape), `publishing`, `profiles`, `channel`, `sales-system`, `operations` — as the template files show. A plugin that needs a column proposes it in the template, never adds it ad hoc.
 - **Compliance status values:** unset · set · confirmed. **Offer status:** seeds (Week 2 builds the offer) · finalized by member · built in Week 2. **Goals status:** seeds · locked [date]. **Interview stages:** Candidate → Invited → Booked → Recorded → Edited → Published · Declined · Parked. **Magnet status:** planned · written · designed · live · retired. **Queue status:** queued · drafted · sent by member · skipped · parked.
 
 ## Scheduled agents this plugin owns

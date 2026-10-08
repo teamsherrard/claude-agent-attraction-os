@@ -58,7 +58,7 @@ anchor, a scrim under the text) — never a raw frame under text.
 ## 4. THE SCORE THE BRIEF USED (re-run it as your self-check — plain words)
 
 The brief scored each direction 0–2 on nine criteria (18 max): curiosity · emotion · clarity · text
-differs from the title · three to five words · the expression matches · contrast · simplicity · mobile
+differs from the title · three or four words (never five) · the expression matches · contrast · simplicity · mobile
 legibility. After layout, re-check the last five on the canvas — they are the ones a layout can lose:
 the words still differ from the title; four words or fewer; the photo shows the named expression; the
 pairing is the brand's highest contrast; the phone row at 320 px reads instantly. A direction that

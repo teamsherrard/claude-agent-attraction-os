@@ -8,7 +8,7 @@ description: >
   pitch-free close that invites a conversation. Local events stay brokerage-neutral: no brokerage in
   the title or hero, only the compliance line. Reads the Events plugin's brief, the Design System,
   and the Brain Book; the registration page hands to ds-funnel's registration shape. Files land in
-  03 · Content/Graphics, one folder per event.
+  the event's own folder in 03 · Content/Events.
   Trigger on: "my attraction event flyer", "event graphics for agents", "workshop slides for agents",
   "registration graphic for my workshop", "countdown stories for my event",
   "design my webinar slides", "my live event flyer", "my virtual training graphics".
@@ -48,14 +48,19 @@ and your Brain Book, paste your event brief, and type: 'my attraction event flye
 top", "the edge the printer trims", "the part of the screen Zoom covers", "a wide slide". A technical
 term may appear only in brackets AFTER a plain label. The vocabulary inside this skill is for YOU.
 
-**The brief.** Members arrive with a pasted block that starts **"EVENT BRIEF — for ds-event"** —
-written by their Events plugin (`ev-promo` for the graphics, `ev-runofshow` for the slides). It
-carries: the event's title · format (live local · virtual · evergreen) · date, time, timezone · where ·
-the topic · who it's for (the type of agent — career stage and production, never a protected
-characteristic) · hosts and guest speakers (consent and photos) · the three things attendees leave with ·
-the registration link or keyword · the pieces wanted · the run-of-show (sections with timings, the
-interactive beats, the close) · the compliance line. **The brief is the content — design it, don't
-re-plan the event.** A brief in another shape is read for the same fields; ask only for what's missing.
+**The briefs.** Members arrive with one or both pasted blocks their Events plugin wrote. **"FOR ds-event
+(promo set for [event name])"** from `ev-promo` carries: **Member** · **Event** (name · date · time ·
+timezone · Zoom / venue · free · for [type of agent]) · **Pieces** (1. feed graphic 2. story set — 7
+countdown frames 3. speaker spotlight card 4. carousel 3–5 slides 5. the banner / photo-spot backdrop,
+live only) · **Copy on each** (verbatim — headline, sub-line, CTA) · **Brand** · **Required line
+(verbatim)** · the standing rule *"Never on the graphic: splits, caps, stock, rev share, income, another
+brokerage's name, recruiting"* · the **Ad note**. **"FOR ds-event (workshop slides — [event name])"**
+from `ev-runofshow` carries: **Member** · **Deck** ([n] slides, 16:9) · the numbered slide list (Title ·
+The promise · Who this is for · one slide per teaching beat · Do-this-now · Proof · Q&A · The iceberg ·
+Book a call / Come talk to us · Your resource · Thank you) · **Compliance strip (where required,
+verbatim)** · *"Never on a slide: …"*. The specs spell out both shapes and what each field becomes.
+**The brief is the content — design it, don't re-plan the event.** A brief in another shape is read for
+the same fields; ask only for what's missing (format, timezone, the hosts' consent, the registration link).
 
 **The Design System and the Book.** The Design System holds the logo files, colours, fonts, the photo
 treatment, the components (CTA button, proof chip, quote device, sticker plate), and the brand
@@ -77,8 +82,8 @@ or the project already answers; one confirmation line above the form ("From your
 Agents — a free local workshop' · live · Thu Nov 20, 6 pm CT · ABoR · with Suman Kim · flyer + stories +
 slides — say the word to change any of these"); **"Your turn"** at the end:
 
-1. **Your event brief** *(paste it, if you haven't)* — it comes from "promote my event" or "my
-   run-of-show" in your Events plugin. No brief? Give me the title, the format, the date and time with
+1. **Your event brief** *(paste it, if you haven't)* — it comes from "promo for my agent event" (the
+   graphics) or "run of show for my agent event" (the slides) in your Events plugin. No brief? Give me the title, the format, the date and time with
    the timezone, where, who it's for, and the link people register at; I'll design the promo set and
    tell you the slides wait for your run-of-show.
 2. **Drop the photos straight into this CHAT** — your expressive shots (mid-teach, on stage), your
@@ -270,9 +275,10 @@ registration page for agents', and paste this block — it builds the page in th
 ## SAVE TO YOUR CLOUD DRIVE (connector-aware — save the member the download marathon)
 
 On "push / save this to my Drive" (Google Drive or OneDrive): with a FILE-UPLOAD Drive connector,
-export and push the set into **`03 · Content/Graphics/`** in one folder per event — `[YYYY-MM-DD ·
-Event title]/` — so the launch stays together (search for the member's actual folder first; create
-only if missing; never duplicate). If the connector is READ-ONLY or absent, say so plainly and hand
+export and push the set into the event's own folder — **`03 · Content/Events/[code] · [Theme]/`**, the
+folder the Events plugin created when it opened the event (every event doc lives there; nothing
+event-related is saved anywhere else) — so the launch stays together (search for the member's actual
+folder first; create only if missing; never duplicate). If the connector is READ-ONLY or absent, say so plainly and hand
 them a tidy **EXPORT LIST**: every file, its exact name, the one folder. Brand files live in
 `02 · Brand`; this skill reads the kit from there and never writes there.
 
@@ -300,11 +306,11 @@ text control, and the member sees it change everywhere.
 
 A monthly mastermind or a weekly training keeps its template: say what changed (the date, a guest, the
 topic line), keep everything else identical, re-render only the touched pieces, and export under the
-same canonical names into the new event folder.
+same canonical names into the new event's folder.
 
 ## HAND BACK TO THE EVENTS PLUGIN AND THE BRAIN
 
-After the push: *"Your event set is in `03 · Content/Graphics/[date · event]`. Post in the order in
+After the push: *"Your event set is in your event's folder in `03 · Content/Events`. Post in the order in
 the notes file; your agents share the story flyer; after the event, your Events plugin runs the
 follow-up and the replay graphic goes out with it. Say 'my event follow-up' there."* One line for the
 Brain if the event produced a win or a story: "remember this moment".
