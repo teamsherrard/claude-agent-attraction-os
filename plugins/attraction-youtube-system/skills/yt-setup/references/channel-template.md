@@ -29,7 +29,7 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 | Future | [name] | Authority | … |
 
 ## The CTA line (reused by every script — value-named, never the brokerage)
-- Resource (inside minute 1): "[…]"  →  link: [resource link / the booking link until Week 6]
+- Resource (inside minute 1): "[…]"  →  link: [the live resource's link, read from memory/magnets.md → ## Current magnet — the Week 6 guide, or the Starter Resource the first video's lead step builds; the booking link only until then]
 - Call (a third of the way in): "[…]"  →  booking link: [link from operations.md]
 
 ## Upload defaults

@@ -29,7 +29,7 @@ Read `references/swipe-file-patterns.md` at Step 2 (not before).
 - The locked **title**, the **bucket** (Problem · Situation · Future · Interview · Model), the **avatar**, and
   the emotion the title carries (fear to avoid or outcome to reach — `97`).
 - `identity/brand-visual.md` — colors, display font, the headshot set and which expressions exist; the
-  Design System file name if one is recorded.
+  Design System file name if one is recorded (none yet, and no Brand HQ project → the fallback line in Step 4).
 - `identity/compliance.md` — the first line, `Status:` (the gate below), then the brokerage logo rule and name
   display; AI-likeness disclosure if the face is a clone render (a Claude Design composition from a real headshot is not a clone; say which it is).
 - For an interview: the guest's name as written and their consent (from `memory/interview-pipeline.md`).
@@ -61,7 +61,7 @@ Claude Design into the same video folder ("push this to my Drive" there, or the 
 Brain's drive map puts a video's thumbnails next to its script, never in a Graphics bucket):
 ```
 THUMBNAIL BRIEF — "[title]"
-Run in: your Brand HQ project in Claude Design — paste this whole brief into a new chat there (Design System file + Brain Book attached, per your Design Studio START-HERE) and ask for the three thumbnails; there is no separate thumbnail design skill
+Run in: your Brand HQ project in Claude Design — paste this whole brief into a new chat there (Design System file + Brain Book attached, per your Design Studio START-HERE) and ask for the three thumbnails; no Brand HQ project or Design System yet → paste it into any Claude Design chat with your headshot attached, or hand it to your designer — the brief is complete on its own; there is no separate thumbnail design skill
 VIDEO: bucket · the type of agent it's for · the emotion of the title
 BRAND: colors (hex) · display font · headshot set to use · logo rule
 DIRECTION 1 (primary · score x/18): text · face/expression · composition · color · feeling
@@ -71,7 +71,10 @@ RULES THE DESIGN MUST KEEP: 3–5 words · text ≠ title · face ≈ 1/3 · one
 OUTPUT: three 1280×720 thumbnails, one per direction — back into this video's folder under Content → Long-Form
 ```
 Hand-off line to the member: *"paste this into a new chat in your Brand HQ project in Claude Design — it builds all three; upload them as a
-test set in YouTube Studio and we read the click-through after a month."*
+test set in YouTube Studio and we read the click-through after a month."* **No Brand HQ project or Design System
+yet** (`brand-visual.md` records neither): one line instead — *"paste this into any Claude Design chat with your
+headshot attached, or hand it to your designer — the brief is complete on its own."* Never a detour to build
+the brand first.
 
 ## Step 5 — After a month (when asked, or from `yt-analytics`)
 CTR under the 6–10% band after 30 days → new title and new thumbnail (`97`); note which directions keep

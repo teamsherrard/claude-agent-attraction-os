@@ -63,8 +63,9 @@ beats complex and clever. Then the mechanics:
 
 ## Description (doctrine §10 is the source of truth)
 - **Line 1 = the book-a-call link** ("Book a private one-on-one call: [link]") — above the fold, before anything.
-- **Line 2–3 = the resource** (the lead magnet / playbook / free guide link; until Week 6 builds one, the
-  community or the call again) and one contact line if `operations.md` lists it.
+- **Line 2–3 = the resource** (the Week 6 lead magnet's funnel link or keyword — or, until then, the Starter
+  Resource "Questions to Ask Before You Choose a Sponsor" that `yt-leads` builds once in Week 4; never the
+  call twice) and one contact line if `operations.md` lists it.
 - Then a **150–300 word** summary in the member's voice, written for the viewer: who it's for, what they'll get,
   the niche phrase 2–3×, secondary phrases once each, natural language. **No compensation figures. No brokerage
   as the pitch** — the brokerage name appears where `compliance.md` requires it (the disclaimer block), not as

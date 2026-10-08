@@ -33,7 +33,10 @@ Substance and structure are what make it worth the cohort price — never visual
 11. **The first 90 days** — the cycle calendar, one video per row.
 12. **Days 91–180** — the direction (double down · compounding assets · the machine).
 13. **The scoreboard** — leading and lagging from `goals.md`, CTR after month one, compliance status.
-14. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
+14. **Sources** — what was searched and when: every query and page read, dated; the outlier channels read; the
+    member's own signal used; budget used of 18 (≤10 research + ≤8 outlier scan); `unresearched` titles counted;
+    demo → "nothing searched". The plan never hides its research.
+15. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
     chapter twenty, `08-youtube/92`) and the stamp.
 
 ---

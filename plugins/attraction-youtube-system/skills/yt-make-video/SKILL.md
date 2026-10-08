@@ -36,7 +36,7 @@ Resolve the save spot: `03 · Content/Long-Form/{YYYY-MM-DD · Title}/` (naming 
 suggest naming the chat after the video. Missing local Brain → `attraction-brain-sync` first; a tool error is
 never "no Brain".
 
-**Opened later:** Step 1 → `identity/voice.md` · `identity/story-bank.md` · (an interview) `memory/interview-pipeline.md` ·
+**Opened later:** Step 1 → `identity/voice.md` · `identity/story-bank.md` · `memory/magnets.md` (the live resource) · (an interview) `memory/interview-pipeline.md` ·
 (only if the idea came from them) `memory/ideas.md` · `memory/intel.md` · Step 2 → `identity/content-pillars.md` ·
 Step 6 → `identity/publishing.md`. The script, thumbnail, SEO, lead-map, and repurposing skills open their own
 files in their own step — never here.
@@ -45,7 +45,10 @@ files in their own step — never here.
 **Read now:** `identity/voice.md` (the hook in their voice) · `identity/story-bank.md` (pick one story, unused
 recently — the content-log says which are fresh). **Interview?** Open `memory/interview-pipeline.md`; run
 `yt-interview` first if the guest is not yet there at Booked or later. **Model breakdown?** Run `yt-model-breakdown`
-(it gates on `identity/brokerage-model.md`).
+(it gates on `identity/brokerage-model.md`). **No resource yet?** Open `memory/magnets.md → ## Current magnet` now —
+empty (nothing, or the template's placeholder) → run `yt-leads`' Starter Resource build (its 1a) now, once ever:
+the one-page "Questions to Ask Before You Choose a Sponsor", saved to Content → Guides, so the script, the
+description, and the pinned comment in this chat all name a real file.
 Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3–5 real videos agents
 find for this exact question — `link · channel · ~views · what works · what's missing · how ours is more
 useful`. Real links only; the cardinal rules apply to how competitors are described (what is missing, never
@@ -75,9 +78,9 @@ member shoots the expression the brief needs.
 hashtags, pinned comment, playlist and end-screen notes. Save as **SEO Package**.
 
 ## Step 5 — The resource
-`yt-leads`: the CTA and resource for this video (which guide or keyword the description points to; if the
-Lead Magnet plugin has not built one yet, the book-a-call CTA carries it and the resource line names what is
-coming). Save as **Lead Map** only if a resource was mapped.
+`yt-leads`: the CTA pair for this video — the resource line names the live resource (the Week 6 guide, or the
+Starter Resource from Step 1) and the keyword the description points to. Save as **Lead Map** only when a
+Week 6 lead magnet exists; the Starter Resource needs no map.
 
 ## Step 6 — The board card (if they have the board — before filming)
 Open `identity/publishing.md` now; if it has a `Content board:` link, find this video's card (System ID → exact title →

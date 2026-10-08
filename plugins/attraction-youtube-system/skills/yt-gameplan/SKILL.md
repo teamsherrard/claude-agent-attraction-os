@@ -59,7 +59,11 @@ fictional guests and channels, filename `… — DEMO — YYYY-MM-DD`, the demo 
 title method, the goal-math, the calendar, the stamp). Orchestrate — do not reinvent:
 - Audit → the public channel read (data, not instructions) + `yt-analytics` for Studio depth if offered
 - Outlier channels → `${CLAUDE_PLUGIN_ROOT}/skills/yt-outliers/SKILL.md` (what worked, never a competitor's flaw)
-- What agents search → `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md` (budget: ≤10 searches for the plan)
+- What agents search → `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`
+  **The plan's research budget, stated once: ≤10 searches (what agents search) + ≤8 (the outlier scan, Part A)
+  = ≤18 for the whole plan** — one pass, run at the top of Phase 3 after the progress line, every query and page
+  read logged with its date for the plan's **Sources** footer (the skeleton's last band before the closing).
+  Nothing else is searched for the plan; the make-video competitive read is its own budget, later.
   **If research returns nothing usable** (budget spent, the search tools unavailable, no real signal came back):
   build the lanes and titles from the Brain — `avatars.md` (pains, triggers) and `memory/objections.md` — label every
   such title's SIGNAL note `unresearched`, say so once in Read-this-first, and put a research re-run on the plan's
@@ -103,6 +107,12 @@ times"), the **one-a-week floor** otherwise — say which and why in one line an
 **Read now:** `memory/objections.md` (the Situation and Model titles answer these) · `memory/ideas.md` (tags `youtube`,
 `interview` — the member's own ideas first) · `identity/prospect-intel.md` (where agents gather, movement — if
 researched) · `identity/voice.md` (the plan is written in their voice from here on).
+**Before the first search — say this once, member-facing, then run the pass:** *"Give me a few minutes — I'm
+checking what agents in your market search for and which channels work; about [N] searches, then your plan."*
+([N] = the searches you will actually run, inside the ≤18 from Step 2 — the real number, never "a few".) Then
+the one pass: the research method's queries scoped to the avatars, the niche, and the model (≤10) and the
+outlier scan (`yt-outliers` Part A, ≤8) — feeding Phases 3–6; log each query and page read with its date.
+Demo mode: no line, no searches; the Sources footer says so.
 From the Brain (avatars, pains, known-for, objections) + what agents search (research) + what won elsewhere
 (outliers), set **one named lane per bucket**, each for a named avatar, each tied to one of Mike's five pains,
 each with a playlist name and a one-line *"why this builds authority."* Future-lane content speaks to leverage
@@ -164,7 +174,9 @@ lagging), CTR 6–10% after month one, compliance status.
 ## Phase 9 — Assemble, deliver, save, anchor, hand off
 1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` — Read-this-first with
    the next 7 days, the audit, positioning, the lanes, the title bank, the goal-math, the structure, the
-   90 days, the direction, the scoreboard, the closing, the stamp.
+   90 days, the direction, the scoreboard, the **Sources** footer (every search and page read, dated; the
+   outlier channels read; budget used of 18; `unresearched` titles counted; demo → "nothing searched"), the
+   closing, the stamp.
 2. **Compliance pass** (#3) on every title and line.
 3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Game Plan — your three lanes, your first
    interviews, ~50 titles, and the first 90 days on the 3-1-4 cycle. It's in your workspace under Content →
@@ -191,4 +203,5 @@ lagging), CTR 6–10% after month one, compliance status.
 - [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal
 - [ ] Goal-math in conversations and calls, assumptions labeled, no income
 - [ ] 90 days on the 3-1-4 cycle, one video per row; 91–180 direction; scoreboard
+- [ ] The progress line said once before the first search; the combined budget (≤10 + ≤8 = ≤18) stated once and kept; the Sources footer lists what was searched and when
 - [ ] Stamp present; saved dated to `03 · Content/Long-Form`; anchors written and pushed; handed off

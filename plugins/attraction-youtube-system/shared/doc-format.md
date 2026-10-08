@@ -13,8 +13,8 @@ Word formatting — headings, bullet lists, tables — automatically. **Do NOT s
    → the house style automatically: **Arial**, **near-black** text, real **headings** (from the bands), real
    **bullet lists** and **tables**, thin light-grey rules.
 3. Upload the **`.docx`** to the right bucket of the member's workspace (per the Brain's `drive-map.md`, this
-   plugin's home is `03 · Content/Long-Form/`, located by workspace ID) — the structured text was only the
-   renderer's input; the deliverable is the `.docx`.
+   plugin's home is `03 · Content/Long-Form/`, located by workspace ID; the Starter Resource alone goes to
+   `03 · Content/Guides/`) — the structured text was only the renderer's input; the deliverable is the `.docx`.
 
 **If the renderer prints `RENDERER-UNAVAILABLE`** (python-docx is not in this environment): do exactly what it
 says — **do not install anything, do not run pip, do not retry the command** (a package install can block for
@@ -214,6 +214,16 @@ THE SCOREBOARD   (90-day, from your goals)
    Compliance:  {status · open items that block publishing, if any}
 
 
+════════════════════════════════════════════
+SOURCES   (what was searched, and when)
+════════════════════════════════════════════
+   What agents search ..... {each phrase searched → what was seen · as seen YYYY-MM-DD}   (≤10 searches)
+   Outlier scan ........... {channels read · the videos that qualified · ~views as seen · YYYY-MM-DD}   (≤8 searches)
+   Your own signal ........ {objections · captured ideas · comments · intel rows used}
+   Budget used:  {n} of 18  ·  Unresearched titles: {n — labeled in the bank, or "none"}  ·  Re-run: {on your next 7 days / not needed}
+   {demo mode: "Demo — nothing searched; every signal illustrative"}
+
+
 ────────────────────────────────────────────
 {closing — one honest paragraph: consistency before optimization; three years; chapter one}
 Powered by Mike Sherrard Coaching Inc Frameworks
@@ -241,7 +251,7 @@ CHANNEL PAGE KIT — [MEMBER NAME]
 
 ──────────────── LINKS ────────────────
    •  {Booking link} — the Partner Call
-   •  {Resource} — {the lead magnet, or the community}
+   •  {Resource} — {the lead magnet · the Starter Resource once the first video's lead step builds it · the community until then}
    •  {ONE social}
 
 ──────────────── CHANNEL KEYWORDS ────────────────
@@ -288,7 +298,7 @@ For {avatar}  ·  Bucket {Problem / Situation / Future / Interview / Model}  · 
 
 ──────────────── DESCRIPTION ────────────────
 {line 1: Book a private one-on-one call: [link]}
-{line 2–3: the resource link · contact line if listed}
+{line 2: Free: [the lead magnet, or "Questions to Ask Before You Choose a Sponsor"] → [link] · line 3: contact line if listed}
 {150–300 word summary in the member's voice}
 
    CHAPTERS
@@ -362,7 +372,7 @@ Consent line:  {the plain okay to publish, use clips, and share their name as wr
 Compliance — cardinal rules on every cut (the guest's answers too) · no compensation figures · former brokerage unnamed · consent recorded · disclosure in the description · [status].  ✓
 ```
 
-### Thumbnail Brief (`yt-thumbnail` → pasted by the member into their Brand HQ project in Claude Design; there is no separate thumbnail design skill)
+### Thumbnail Brief (`yt-thumbnail` → pasted by the member into their Brand HQ project in Claude Design — or, before that project or the Design System exists, into any Claude Design chat with the headshot attached, or handed to their designer; the brief is complete on its own; there is no separate thumbnail design skill)
 ```
 THUMBNAIL BRIEF — {VIDEO TITLE}
 Bucket {…}  ·  Title text vs thumbnail text must differ  ·  3 directions
@@ -375,7 +385,7 @@ Pattern it follows:  {from the swipe file, when loaded}
 (DIRECTION 2, 3 — same shape; each scored against the patterns)
 ```
 
-### Lead Map (`yt-leads` — only when a resource exists)
+### Lead Map (`yt-leads` — only when a Week 6 lead magnet exists; the Starter Resource needs no map)
 ```
 {VIDEO TITLE} — LEAD MAP
 Offer {from offer.md}  ·  Avatar pain {one of the five}  ·  CTA {booking link}
@@ -392,6 +402,46 @@ PAGE 1 — {purpose}
 ──────────────── CTA / NEXT STEP ────────────────
 {the exact Partner Call invite + booking link}
 (We map the content; your Lead Magnet system writes and designs it in Week 6.)
+```
+
+### Starter Resource (`yt-leads` — built ONCE, in Week 4, while `## Current magnet` is empty; saved as `Starter Resource — YYYY-MM-DD` in `03 · Content/Guides/`)
+Questions only — the doc never answers them, never names a brokerage as the answer, never carries a figure. One
+page, in the member's voice, for the primary avatar. Ten to twelve questions; the standard twelve live in
+`yt-leads` 1a. Sub-band labels stay under 70 characters.
+```
+QUESTIONS TO ASK BEFORE YOU CHOOSE A SPONSOR
+From {Member Name}  ·  For {the type of agent, in their words}  ·  {YYYY-MM-DD}
+
+──────────────── WHY THESE QUESTIONS ────────────────
+{3–4 sentences in the member's voice: you're choosing a sponsor, not just a brokerage · the brokerage is the vehicle, the leader is the growth · ask these of anyone you're considering — including me}
+
+──────────────── THE MODEL   (how it works, who it fits) ────────────────
+   1.  {question}
+   2.  {question}
+   3.  {question}
+
+──────────────── THE SPONSOR   (the person, not the company) ────────────────
+   4.  {question}
+   5.  {question}
+   6.  {question}
+   7.  {question}
+
+──────────────── THE SUPPORT   (who, and for what) ────────────────
+   8.  {question}
+   9.  {question}
+
+──────────────── THE MONEY   (what to ask, not what to expect) ────────────────
+   10.  {question}
+   11.  {question}
+   12.  {question}
+   (questions only — no split, cap, fee, tier, stock, or income figure appears here, not even as an example)
+
+──────────────── THE NEXT STEP ────────────────
+{one warm line in the member's voice — "want these answered for your situation? book a private call, no pitch" → the booking link}
+
+────────────────────────────────────────────
+{the disclosure footer: brokerage name and license as compliance.md requires · the brokerage disclaimer verbatim · no income disclaimer — no earnings are mentioned}
+Compliance — cardinal rules · brokerage-agnostic · no compensation figures · disclosure present · [status].  ✓
 ```
 
 ### Model Breakdown (`yt-model-breakdown` — saved as `Model Breakdown — [title] — YYYY-MM-DD` in the video's folder)

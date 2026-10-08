@@ -32,12 +32,14 @@ model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-yo
   `identity/compliance.md` (the first line, `Status:` — the package is public; the disclosure fields below it are
   read only when the description's disclosure block is written), `identity/avatars.md` (the viewer the title
   speaks to), `identity/voice.md` (titles and summary in their voice).
-  **Opened at Step 2, the description:** `memory/magnets.md → ## Current magnet` first when it exists,
-  `identity/offer.md` second (the value proposition, the booking link, the live resource) · the keyword —
-  `identity/publishing.md` → the `Keyword:` line first (its single source), `identity/content-pillars.md`'s CTA
-  line second (it mirrors it), nothing third (the two CTAs: book a call · the guide/keyword — if the keyword is
-  not set yet, the Lead Magnet plugin builds it in Week 6; use the book-a-call CTA and the member's best existing
-  resource) · `identity/profile.md` (handles).
+  **Opened at Step 2, the description:** `memory/magnets.md → ## Current magnet` first (the live resource — the
+  Week 6 lead magnet's funnel link or keyword, or the Starter Resource's download link: "Questions to Ask Before
+  You Choose a Sponsor", built once by `yt-leads`; the section still empty → say so and have `yt-leads` build
+  it before the package ships — line 2 is never the call twice), `identity/offer.md` second (the value
+  proposition, the booking link) · the keyword — `identity/publishing.md` → the `Keyword:` line first (its single
+  source), `identity/content-pillars.md`'s CTA line second (it mirrors it), nothing third (the two CTAs: book a
+  call · the guide/keyword — no keyword yet means the Lead Magnet plugin sets it in Week 6; the resource line
+  carries the link instead) · `identity/profile.md` (handles).
 - **Live demand check, budgeted (≤5 searches):** `yt-research`'s method — web search and page fetch; YouTube
   autocomplete only as the member pastes it or as a `youtube [phrase]` search — for the topic in the agent's
   words ("[brokerage] explained", "should I switch brokerages", "questions to ask a sponsor"); "people also ask"
@@ -52,8 +54,9 @@ model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-yo
 2. **Description** — open the Step 2 files now (the resource, the keyword, the handles; `compliance.md`'s
    disclosure fields for the block at the end).
    - **First three lines = the two CTAs, warm and inviting (`98`):** line 1 the book-a-call link ("If you want
-     to see how this could work for you, book a private call with me: [link]"), line 2 the free resource
-     (guide / comparison sheet / keyword), line 3 the member's handles. Above the fold, before any summary.
+     to see how this could work for you, book a private call with me: [link]"), line 2 the free resource —
+     the lead magnet's funnel link or keyword, or the Starter Resource ("Free: Questions to Ask Before You
+     Choose a Sponsor → [link]"), line 3 the member's handles. Above the fold, before any summary.
    - A 150–250 word summary in the member's voice with the video's keyword set used naturally (primary 2–3×),
      speaking to the avatar's situation, never "real estate agents" in general.
    - **Chapters** from the script's sections, descriptive and searchable ("How the cap works at [brokerage]",

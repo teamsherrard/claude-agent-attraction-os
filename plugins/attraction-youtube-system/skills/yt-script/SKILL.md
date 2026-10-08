@@ -36,8 +36,10 @@ this skill writes the **content-log row at Scripted**, stamps a story's **Used-w
   the primary reference for a read-aloud script; empty = proceed on `voice.md`, never invent a personality) ·
   `identity/compliance.md` (the gate below — its first line, `Status:`).
   **Opened at Step 2, by the format's Pull list:** `avatars.md` (the viewer, their pain in their words) ·
-  `offer.md` (the resource — `memory/magnets.md → ## Current magnet` first when it exists; `seeds` → the resource
-  CTA is the Partner Call) · `identity/channel.md` → the CTA line and the booking link · `story-bank.md` (stories
+  `memory/magnets.md → ## Current magnet` (the live resource: the Week 6 lead magnet, or the Starter Resource —
+  "Questions to Ask Before You Choose a Sponsor" — that `yt-leads` builds once when the section is empty) ·
+  `offer.md` (the offer only; `seeds` → Week 2 builds it, never demand it) · `identity/channel.md` → the CTA
+  line and the booking link · `story-bank.md` (stories
   tagged to this pain or beat — rotate; check `content-log.md` for recent use) · `proof.md` (real lines only,
   consent respected) · `journey.md` (Why I Switched only — the wall, never the company) · `brokerage-model.md`
   (Model Breakdown only — mechanics; empty → *"say 'explain my model to me' first so the breakdown is accurate"*
@@ -62,9 +64,13 @@ that never appear.
 - **HOOK (0:00–0:15/0:30)** — the pain point in the first ten seconds, **written word for word** (`/94`): call
   out the viewer's situation → the tension or question → what they'll have by the end. Never "welcome back," a
   long intro, or a credentials dump. It matches the title and thumbnail's promise.
-- **RESOURCE CTA (inside minute one)** — the channel's resource line from `channel.md`, in the member's voice:
-  "grab the [resource], link in the description." No resource yet → the warm Partner Call line here and the
-  mid CTA becomes the lighter reminder.
+- **RESOURCE CTA (inside minute one)** — the channel's resource line from `channel.md`, in the member's voice,
+  naming the live resource from `## Current magnet`: the lead magnet, or the Starter Resource — "grab my
+  Questions to Ask Before You Choose a Sponsor — it's free, link in the description." Section still empty →
+  name the Starter Resource anyway and make its build the next step before filming (`yt-make-video` runs it at
+  Step 1; a standalone script chat says *"next I build your starter resource — two minutes"* → `yt-leads`).
+  Never the Partner Call as the resource — the call has its own CTA below. A script never ships promising a
+  resource that does not exist.
 - **VALUE** — 3–5 clear sections; each answers *what they need to know · why it matters · what to do*; tactical
   enough to use today; a real story or an agent's win woven where it lands (`/93`, draft: "this is legit"); bullets
   for lists; no tangents. Model scripts: mechanics and fit, never figures.
@@ -117,5 +123,5 @@ hashtags per `shared/seo-knowledge-base.md`. (Repurposing makes three more after
 
 ## Hand-off
 *"Script's ready. Next: the thumbnail brief (so you film the expression it needs), then the SEO package and
-your lead map."* → `yt-thumbnail` · `yt-seo` · `yt-leads`. Interviews → `yt-interview` for the question map and
-the guest's prep.
+your resource — your starter resource first, if it isn't built yet."* → `yt-thumbnail` · `yt-seo` · `yt-leads`.
+Interviews → `yt-interview` for the question map and the guest's prep.
