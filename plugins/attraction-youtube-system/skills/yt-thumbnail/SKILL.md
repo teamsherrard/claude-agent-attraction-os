@@ -1,13 +1,13 @@
 ---
 name: yt-thumbnail
 description: >
-  The Thumbnail Brief for the Agent Attraction YouTube System — writes the brief, never the image. From the
-  video's title and bucket it drafts three thumbnail directions (face and expression, the 3–5 word text that
-  differs from the title, composition, brand colors at highest contrast), scores each against Mike's
-  title-and-thumbnail rules (and his swipe-file patterns once that file lands — it is pending and the skill
-  says so), recommends one, and hands a paste-ready brief to the Design Studio's your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill) in Claude
-  Design. Three thumbnails per video so YouTube can test them. Reads the Brain's brand-visual and compliance
-  files. No image generation anywhere in this skill.
+  The Thumbnail Brief for the Agent Attraction YouTube System — writes the brief, never the image. From
+  the video's title, lane, face, text rule, and composition it drafts three directions (the expression, the
+  3–5 word text that differs from the title, one supporting element, brand colors at highest contrast),
+  scores each on lesson 97's rules (and Mike's swipe-file patterns once that pending file lands — the skill
+  says so), recommends one, and hands back a paste-ready brief the member pastes into their Brand HQ
+  project in Claude Design; there is no separate thumbnail design skill. Three thumbnails per video so
+  YouTube can test them. Reads the Brain's brand-visual and compliance files. No image generation here.
 
   Trigger on: "thumbnail brief", "thumbnail for my attraction video", "thumbnail directions", "thumbnail
   text options for this", "brief my thumbnail", "score my thumbnail", "which thumbnail should I use",
@@ -17,8 +17,8 @@ description: >
 # Thumbnail Brief — the two most overlooked, most important components (`08-youtube/97`)
 
 If they don't click, they don't watch; the thumbnail and the title are the first impression that decides
-whether anyone ever sees the member's leadership. This skill writes the brief; the Design Studio makes the
-image. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
+whether anyone ever sees the member's leadership. This skill writes the brief; the member pastes it into their Brand HQ project in Claude Design, which
+makes the images (there is no separate thumbnail design skill). Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 Read `references/swipe-file-patterns.md` at Step 2 (not before).
 
 > **Part of the video package.** Normally called by `yt-make-video` once the title is locked (before filming,
@@ -31,12 +31,12 @@ Read `references/swipe-file-patterns.md` at Step 2 (not before).
 - `identity/brand-visual.md` — colors, display font, the headshot set and which expressions exist; the
   Design System file name if one is recorded.
 - `identity/compliance.md` — the first line, `Status:` (the gate below), then the brokerage logo rule and name
-  display; AI-likeness disclosure if the face is a clone render (Design Studio output from a real headshot is not a clone; say which it is).
+  display; AI-likeness disclosure if the face is a clone render (a Claude Design composition from a real headshot is not a clone; say which it is).
 - For an interview: the guest's name as written and their consent (from `memory/interview-pipeline.md`).
 
 ## Step 2 — Three directions, each on one idea
 Read `references/swipe-file-patterns.md`. Draft three directions; each one states:
-- **Text** (3–4 words (never five: the layout skill cuts a fifth), NOT the title's words — `97`): the curiosity, the emotion, or the clarity angle.
+- **Text** (3–5 words, NOT the title's words — `97`): the curiosity, the emotion, or the clarity angle.
 - **Face and expression:** which headshot family (concern · surprise · confidence · delight), eyes toward text.
 - **Composition:** face position and size (~a third of the frame), text block, one supporting element max
   (the guest's face for interviews; a map or product only when it supports the title without repeating it).
@@ -48,29 +48,30 @@ Bucket defaults: **Interview** → two faces, the guest's transformation word ("
 mistake named · **Situation** → "this is you" phrasing · **Future** → confident face, the outcome.
 
 ## Step 3 — Score against the patterns (show the score, plain words)
-Score each direction 0–2 on: curiosity · emotion · clarity · text differs from the title · 3–4 words (never five: the layout skill cuts a fifth) ·
+Score each direction 0–2 on: curiosity · emotion · clarity · text differs from the title · 3–5 words ·
 expression matches · contrast · simplicity · mobile legibility (9 criteria, 18 max). Say in one line where
 each loses points. Recommend one as the primary and keep all three (YouTube's Test & Compare runs three — `97`).
 State the swipe-file status honestly: *"Mike's swipe file isn't in yet; these are scored on his lesson rules
 and I'll re-score when it lands."* Never claim a pattern the reference does not hold.
 
-## Step 4 — The brief (paste-ready, for the Design Studio)
+## Step 4 — The brief (paste-ready, for Claude Design)
 Deliver this block in chat and save it as **Thumbnail Brief — [title] — YYYY-MM-DD** in the video's folder
-under `03 · Content/Long-Form/` (rendered through `shared/render_doc.py`; the finished images land in
-`03 · Content/Long-Form (the video's folder)/`):
+under `03 · Content/Long-Form/` (rendered through `shared/render_doc.py`); the finished images come back from
+Claude Design into the same video folder ("push this to my Drive" there, or the member drops them in — the
+Brain's drive map puts a video's thumbnails next to its script, never in a Graphics bucket):
 ```
 THUMBNAIL BRIEF — "[title]"
-Run in Claude Design: your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill) (upload your Brain Book and your Design System file first)
+Run in: your Brand HQ project in Claude Design — paste this whole brief into a new chat there (Design System file + Brain Book attached, per your Design Studio START-HERE) and ask for the three thumbnails; there is no separate thumbnail design skill
 VIDEO: bucket · the type of agent it's for · the emotion of the title
 BRAND: colors (hex) · display font · headshot set to use · logo rule
 DIRECTION 1 (primary · score x/18): text · face/expression · composition · color · feeling
 DIRECTION 2 (score x/18): …
 DIRECTION 3 (score x/18): …
-RULES THE DESIGN MUST KEEP: 3–4 words (never five: the layout skill cuts a fifth) · text ≠ title · face ≈ 1/3 · one supporting element · legible at 320px
-OUTPUT: three 1280×720 thumbnails, one per direction, saved to 03 · Content/Long-Form (the video's folder)
+RULES THE DESIGN MUST KEEP: 3–5 words · text ≠ title · face ≈ 1/3 · one supporting element · legible at 320px
+OUTPUT: three 1280×720 thumbnails, one per direction — back into this video's folder under Content → Long-Form
 ```
-Hand-off line to the member: *"paste this into Claude Design and run your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill) — it builds all
-three; upload them as a test set in YouTube Studio and we read the click-through after a month."*
+Hand-off line to the member: *"paste this into a new chat in your Brand HQ project in Claude Design — it builds all three; upload them as a
+test set in YouTube Studio and we read the click-through after a month."*
 
 ## Step 5 — After a month (when asked, or from `yt-analytics`)
 CTR under the 6–10% band after 30 days → new title and new thumbnail (`97`); note which directions keep

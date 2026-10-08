@@ -36,8 +36,9 @@ Step 1. **Active** → carry on. Never during setup; never nag. This skill is th
 Missing local Brain → `attraction-brain-sync` first.
 **Opened later:** the attraction scoreboard → read-only `memory/conversations.md`, `memory/top-50.md` (Source
 `youtube via comment on "[video]"`), `memory/pipeline.md` (stage moves with a video mentioned) — the attraction
-signal: every conversation or call that names a video is a point for that video · Part 1 →
-`identity/content-pillars.md` (the plan the lane mix and cadence are measured against) · the save →
+signal: every conversation or call that names a video is a point for that video · Part 1 → the `## Game Plan
+anchors` block of `identity/channel.md` (already open — the cadence and lane names the lane mix is measured
+against; `content-pillars.md`'s cadence is the short-form one, never read here) · the save →
 `identity/publishing.md` (the board line) · the Weekly Content Performance section → `config.md`. A quick read
 opens only the file the question needs.
 
@@ -66,7 +67,7 @@ why it matters to you · do this · the proof; every metric explained the first 
   `memory/pipeline.md`. Per video: agent comments · DMs/conversations that named it · calls
   booked that named it · joins where it was in the story. The habit that makes this real (`99`): *"ask every
   agent who books: which video made you reach out — and tell me."* Thin data is said, never padded.
-- **Part 1 — Your channel** (read `identity/content-pillars.md` now): growth · what pulls by lane (niche vs interview vs model — the 3+1+4 mix vs
+- **Part 1 — Your channel** (measured against the Game Plan anchors in `channel.md`): growth · what pulls by lane (niche vs interview vs model — the 3+1+4 mix vs
   what actually shipped) · packaging (CTR after 30 days vs the 6–10% band, `97`; three re-titles) · hooks
   (verbatim best openings) · where viewers come from (Studio pack) · what agents say in comments · the one
   break between views and calls (CTA placement, description order, missing resource, no next-video) · the

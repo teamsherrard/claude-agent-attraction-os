@@ -31,7 +31,7 @@ the expression family, the background treatment, which bucket (lane) it served, 
 Until then, tell the member: "Mike's swipe file is still on its way; these directions follow his lesson rules,
 and I'll re-score them against his actual winners once the file is in."*
 
-## 3. Composition defaults (from the lesson rules; the Design Studio owns the final layout)
+## 3. Composition defaults (from the lesson rules; Claude Design owns the final layout, built from the brief)
 - Face: roughly a third of the frame, cut out, on the brand background; eyes toward the text.
 - Text: upper or side block opposite the face, 3–5 words, brand display font, highest-contrast pairing.
 - One supporting element max (a guest's face for interviews; a brokerage wordmark only where

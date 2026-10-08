@@ -262,6 +262,10 @@ Subline:  {cadence / the invite}
    >> SET ONCE IN:  Studio → Settings → Upload defaults
 {default description: booking link line 1 · resource line 2 · the disclosure block · default tags · category · visibility · language}
 
+──────────────── THE CTA LINE   (every video — the value named, never the brokerage) ────────────────
+Resource (inside minute 1):  "{the free thing, in your voice — 'link in the description'}"
+Call (a third of the way in):  "{the warm invite to a private one-on-one call — the value named, 'I'd love to hear where you're at'}"
+
 ──────────────── CHANNEL TRAILER ────────────────
 {new channel: "say 'make my attraction video: my channel trailer'" · existing: the strongest recent video, named}
 
@@ -303,32 +307,62 @@ For {avatar}  ·  Bucket {Problem / Situation / Future / Interview / Model}  · 
 ──────────────── PINNED COMMENT ────────────────
 "{the resource link + one question inviting agents to comment their situation}"
 
+──────────────── END SCREEN + CARD ────────────────
+End screen:  {the next logical video} + subscribe  ·  Card:  {the resource, at the moment the script points to it}  ·  Playlist:  {the lane}
+
+──────────────── WHY THESE   (three plain sentences, for you — not for pasting) ────────────────
+{the phrase the title targets and the evidence seen · which tags carry real demand · why the description order is the conversion order}
+
 ──────────────── DISCLOSURE BLOCK   (paste at the end of the description) ────────────────
 {brokerage name + license as required · the brokerage disclaimer verbatim · income disclaimer only if earnings were mentioned · AI-likeness line on clone content}
 ```
 
 ### Interview Prep (`yt-interview` — saved as `Interview Prep — [guest] — YYYY-MM-DD` in the video's folder)
+Every section below is something `yt-interview` Steps 3–6 produce; a prep with only the question map is a thin
+doc and a failed render.
 ```
 INTERVIEW PREP — {GUEST NAME}
-Transformation: {the title hook}  ·  Type: {new agent / … }  ·  Record: {date}  ·  Consent: {yes / pending}
+Transformation: {the title hook}  ·  Type: {new agent / turnaround / top producer / team leader / broker-owner / attracted their first agent / guest expert}  ·  For: {the type of agent this story lands with}  ·  Record: {date}  ·  Consent: {on file / asked YYYY-MM-DD / pending}
 
 ──────────────── THE OUTCOME THIS VIDEO DELIVERS ────────────────
-{one line — what a viewer who has never heard of the guest leaves with}
+{one line — "by the end, a {type of agent} watching should believe {X}" — what a viewer who has never heard of the guest leaves with}
 
-──────────────── QUESTION MAP   (not a script — the beats to hit, any order) ────────────────
-   •  Before: {…}   •  The shift: {…}   •  Since: {…}   •  The method: {…}   •  Advice: {…}
+──────────────── TITLE OPTIONS   (hook AND transformation — never "tell me your story") ────────────────
+1.  {How {first name} {transformation} — and used {the mechanism}}   ← recommended
+2.  {…}
+3.  {…}
+Thumbnail text (differs from the title, both faces):  {3–5 words}
 
-──────────────── INTRO   (record LAST, after you know the story) ────────────────
-{hook the best things coming}
+──────────────── EDIFICATION LINES   (before the guest speaks — true facts only) ────────────────
+{two lines in your voice: their stated result · who they were a year ago · why you wanted them on}
 
-──────────────── OUTRO + JOINT CTA ────────────────
-{"to get {guest}'s support and mine for free, book a private call — link in the description"}
+──────────────── QUESTION MAP   (not a script — the five beats, any order) ────────────────
+   BEFORE — {what business was like before: 2–3 open questions}
+   THE SHIFT — {what made them decide to move, what the hesitation was: 2–3}
+   SINCE — {what it has been like since partnering — support, training, community, in their words: 2–3}
+   THE RESULTS — {outcomes in their words — freedom, support, the category of result; never a figure they did not volunteer: 1–2}
+   ADVICE — {for an agent standing where they stood: 1–2}
+   {TYPE-SPECIFIC BEATS — new agent: the first-30-days routine · turnaround: what was missing before (no names, no blame) · top producer: what changed in leverage and time · team leader / broker-owner: what they kept, what overhead disappeared · first agent attracted: how that conversation happened}
+   Interviewer rules:  the guest is the star · never interrupt · let emotion sit · add a layer only after they finish · redirect on camera if they knock a brokerage or a person (that part is cut)
 
-──────────────── THE GUEST'S DISTRIBUTION ASK ────────────────
-{the message to send the guest with the link and the clips}
+──────────────── INTRO   (record LAST, after you know the story — 45–75 s) ────────────────
+{the transformation as the title promises it → who this is for → two or three specific things coming → one honest line edifying the guest → the resource CTA in one breath → "let's get into it"}
+
+──────────────── OUTRO + JOINT CTA   (30–45 s) ────────────────
+{thank the guest and name the one thing to take from them → "if you want to know exactly how {guest} did this and get their support and mine for free, click the link in the description and book a private call" → the next video (another interview on the same pain, or the model explained) → the end screen}
+
+──────────────── THE INVITE   (DM or email, in your voice — you send it) ────────────────
+{why them · the 30–45 minute format · the recording link · "you are the story" · the one prep line: "think about where you were before and the moment things changed"}
+Consent line:  {the plain okay to publish, use clips, and share their name as written}
+
+──────────────── THE GUEST'S DISTRIBUTION ASK   (send when it goes live) ────────────────
+{the three sentences: share it to your story · post it with a line of your own · send it to three agents who are where you were — with the link and the clips}
+
+────────────────────────────────────────────
+Compliance — cardinal rules on every cut (the guest's answers too) · no compensation figures · former brokerage unnamed · consent recorded · disclosure in the description · [status].  ✓
 ```
 
-### Thumbnail Brief (`yt-thumbnail` → `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`)
+### Thumbnail Brief (`yt-thumbnail` → pasted by the member into their Brand HQ project in Claude Design; there is no separate thumbnail design skill)
 ```
 THUMBNAIL BRIEF — {VIDEO TITLE}
 Bucket {…}  ·  Title text vs thumbnail text must differ  ·  3 directions
@@ -357,7 +391,7 @@ PAGE 1 — {purpose}
 
 ──────────────── CTA / NEXT STEP ────────────────
 {the exact Partner Call invite + booking link}
-(We map the content; the Lead Magnet plugin / aa-lead-magnet-design designs it.)
+(We map the content; your Lead Magnet system writes and designs it in Week 6.)
 ```
 
 ### Model Breakdown (`yt-model-breakdown` — saved as `Model Breakdown — [title] — YYYY-MM-DD` in the video's folder)
@@ -368,9 +402,15 @@ For {avatar}  ·  Bucket Model  ·  Model file last reviewed {YYYY-MM-DD}  ·  {
 ──────────────── THE SOURCED FACT SHEET ────────────────
    •  {fact used} — {source document, date}   (every fact; compensation figures never appear here or on camera)
 
-──────────────── THE OUTLINE ────────────────
-HOOK · RESOURCE CTA · OVERVIEW · HOW COMPENSATION IS STRUCTURED (no figures) · TOOLS · SUPPORT · BEYOND
-CLOSINGS · CULTURE · BOOK-A-CALL CTA + NEXT VIDEO   (one band each, two CTAs placed)
+──────────────── THE OUTLINE   (one band each — the two CTAs placed) ────────────────
+HOOK (the question they typed) · RESOURCE CTA · OVERVIEW (history, positioning) · HOW COMPENSATION IS STRUCTURED
+(the concepts, no figures — "the exact numbers on a call") · TOOLS + THE GAPS YOUR VALUE PROPOSITION FILLS ·
+SUPPORT + TRAINING · BEYOND CLOSINGS (the concepts) · CULTURE + COMMUNITY · WHO IT'S FOR · WHO IT'S NOT ·
+BOOK-A-CALL CTA + NEXT VIDEO
+
+──────────────── THE MYTHS THIS ANSWERS   (what agents keep asking, in their words) ────────────────
+   •  "{the myth or fear}" → {the fact, with its source}
+   {comparison videos only: Mike's caution stated to the member — facts only, sourced and dated, strengths and weaknesses of each, never a negative word about a brokerage or person}
 
 ──────────────── TITLE SET ────────────────
 1.  {title}   2.  {title}   3.  {title}   ·  thumbnail text (differs from the title): {3–5 words}
@@ -432,7 +472,7 @@ SHORT 1 — {angle}
    {hook → one point → the invite}
 
 ════════════════ CAROUSEL (1) ════════════════
-Slide 1 {…} | Slide 2 {…} | …   (copy only — aa-carousel-design designs it)
+Slide 1 {…} | Slide 2 {…} | …   (copy only — designed from this in your short-form system or your Brand HQ project in Claude Design)
 
 ════════════════ STORIES (5) ════════════════
    1.  {…}
@@ -445,7 +485,7 @@ Subject:  {…}
 Title:  {…}
 {body}
 
-════════════════ CONVERSATION STARTERS (3)   → cv-conversation-starter ════════════════
+════════════════ CONVERSATION STARTERS (3)   (personalised per agent — you send) ════════════════
    1.  {an opener the member can send an agent who'd care about this video — no pitch}
 ```
 

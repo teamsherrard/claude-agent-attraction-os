@@ -82,8 +82,8 @@ secondaries (the niche phrase, the model phrase, the avatar phrase). 2–5 words
 words, never a competitor's name as a tag, never misleading.
 
 ## Thumbnails (doctrine §9 is the source of truth)
-This plugin writes **thumbnail text** (3–5 words, different from the title) and the brief for
-`your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` in Claude Design via `yt-thumbnail` — the member's face with a real expression, branded
+This plugin writes **thumbnail text** (3–5 words, different from the title) and the brief the member pastes into
+their Brand HQ project in Claude Design (via `yt-thumbnail`; there is no separate thumbnail design skill) — the member's face with a real expression, branded
 contrasting colours, simple, visuals that support the title without repeating it. Three per video; let YouTube
 test. Interview thumbnails: both faces, the transformation in 3–5 words. Model thumbnails: the model's name is
 fine, numbers are not.

@@ -52,7 +52,7 @@ surface) · `identity/compliance.md` · `memory/content-log.md` (all rows, to av
 `memory/intel.md` (brokerage and industry news for `sf-greenscreen`) · `memory/content-performance.md` (what worked —
 the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet) · `memory/top-50.md` and `memory/conversations.md`
 (read-only: whether an agent is already in a conversation; which conversations content started — the ledgers stay
-with their owners) · `memory/magnets.md` → `## Current magnet` (Week 6, Lead Magnet-owned; `sf-comment-to-dm` delivers the GUIDE
+with their owners) · `memory/magnets.md` · `memory/sales-funnel.md` (read-only, once Conversion exists) → `## Current magnet` (Week 6, Lead Magnet-owned; `sf-comment-to-dm` delivers the GUIDE
 resource from here first and from `identity/offer.md` second; skip if it doesn't exist yet).
 
 ## What this plugin OWNS (writes)

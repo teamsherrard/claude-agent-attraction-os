@@ -3,12 +3,12 @@ name: lm-funnel
 description: >
   Step 2 of the Lead Magnet plugin — maps the opt-in page that gives the member's agent-attraction
   lead magnet away. Reads the finished magnet so the page presents exactly what the guide
-  delivers, then writes the full copy section by section for an agent audience: Hero, The Problem,
+  delivers, then writes the copy section by section for an agent audience: Hero, The Problem,
   The Guide + mockup, About the leader + welcome video, Why Partner (the Partner Offer as
   outcomes, never compensation), The Organization, Proof + photo strip, Socials (only if they have
   channels), The Opt-in with a mini-FAQ — in the member's voice. One job on the page: the opt-in
   (pop-up: first name, email, phone). The thank-you page carries the instant download AND the
-  book-a-call step. Hard 3-state compliance gate; the static Netlify form rule for aa-funnel-design. COPY
+  book-a-call step. 3-state compliance gate; the static Netlify form rule for aa-funnel-design. COPY
   + STRATEGY ONLY — never designs or hosts.
   Trigger on: "write the page for my comparison guide", "opt-in page for agents", "attraction
   funnel copy", "the page that gives away my agent lead magnet", "set up my attraction funnel"

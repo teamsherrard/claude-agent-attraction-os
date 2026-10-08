@@ -88,12 +88,16 @@ visitor tell who this channel is for and why to reach out?
 
 ## Phase 2 — The three categories and the cycle (doctrine §3, §7)
 **Read now:** `identity/content-pillars.md` (the Brain's five pillars — Authority · Perspective · Story · Proof ·
-Personality — plus cadence and the two CTAs, if Week 3 ran; empty before Week 3 is normal, say so and use
-`goals.md`'s cadence) · `identity/goals.md` (the cadence now; its 90-day targets carry into Phase 7 — never re-read).
+Personality — and the two CTAs, if Week 3 ran; empty before Week 3 is normal, say so; its cadence line is the
+short-form cadence, never the YouTube one) · `identity/goals.md` (the hours and the content line now; its 90-day
+targets carry into Phase 7 — never re-read).
 State the funnel in the member's terms: niche content creates authority → interviews create proof → model
 content captures intent → the CTA creates conversations → the Partner Call. Lock the ratio: **3 niche · 1 model
-· 4 interviews per 8 videos**, at their cadence from the Brain (default: the doctrine's 2/week recommendation
-if they said "you pick"; 1/week floor). Say why not every video is brokerage content.
+· 4 interviews per 8 videos**. **Set the YouTube cadence here, once:** propose it from the hours in `goals.md` —
+the doctrine's **two a week** when the hours allow (`/94`: roughly four times the growth of one, "not two
+times"), the **one-a-week floor** otherwise — say which and why in one line and let them confirm in one word
+(propose-and-react; "you pick" → the recommendation). It becomes the `Cadence:` anchor every other skill reads
+(Phase 9). Say why not every video is brokerage content.
 
 ## Phase 3 — The three niche lanes: the Problem · Situation · Future buckets (doctrine §4)
 **Read now:** `memory/objections.md` (the Situation and Model titles answer these) · `memory/ideas.md` (tags `youtube`,

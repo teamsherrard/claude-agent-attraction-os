@@ -30,8 +30,8 @@ three years never worries about attracting agents again (`08-youtube/99`). Apply
 pillar), `memory/interview-pipeline.md`. Plus whatever the member brings today.
 **Opened later:** the win (flow step 1) → read-only `memory/conversations.md` (which videos agents mention) ·
 `memory/scorecard.md` (Ahead · On pace · Behind) · the close (flow step 3) → `identity/goals.md` (the 90-day
-targets: agents, conversations, calls, joins) · the "drifting" play and the audit's cadence line →
-`identity/content-pillars.md`.
+targets: agents, conversations, calls, joins) · the "drifting" play and the audit's cadence line → the
+`## Game Plan anchors` block of `identity/channel.md` (already open — cadence, cycle position, lane names).
 
 ## The beliefs (say them like you mean them)
 - **Niche content attracts; interviews convert** (`95`). A channel with no interviews is a channel with no proof.
@@ -70,15 +70,17 @@ targets: agents, conversations, calls, joins) · the "drifting" play and the aud
   video, related links in the description (`99`).
 - **Discouraged** → three years, not three weeks; trust through repetition; the agents watching are not
   commenting yet — they are binging.
-- **Drifting from the plan** → reconnect to the pillars, the cadence (`identity/content-pillars.md`, read now), and the
-  goals in the Brain.
+- **Drifting from the plan** → reconnect to the lanes and the cadence (the Game Plan anchors in
+  `identity/channel.md`) and the goals in the Brain.
+- **Not sure a video landed** → post it in their own community and ask for honest feedback (`94` — Mike did
+  this with the videos that mattered); improve the next one, never re-shoot this one.
 
 ## The attraction channel audit (on demand)
 Lane balance (niche · model · interview) against 3+1+4 · interview count and quality (beats covered, guest as star) · model content
 accuracy and the cardinal-rules read · hook strength (first 15–30s) · CTA pair placement and wording · title
 and thumbnail quality (3–5 words, text ≠ title, expression) · description order (CTAs above the fold) · the
-binge path (playlists, end screens, related links) · cadence (1 long-form a week + interviews — `content-pillars.md`,
-read now) · the
+binge path (playlists, end screens, related links) · cadence (the Game Plan anchor — the doctrine's two a week or
+the one-a-week floor — plus interviews) · the
 attraction scoreboard (which videos produced conversations). Close with the three highest-impact moves,
 ordered, then the one to start this week. Data-side detail → `yt-analytics`.
 

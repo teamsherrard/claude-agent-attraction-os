@@ -57,7 +57,8 @@ Once the title locks — still the start of the video chat, never pick time — 
 if it drew on a `memory/intel.md` row, mark that row's `Used?` column now too.
 
 ## Step 2 — Script
-**Read now:** `identity/content-pillars.md` (cadence, the two CTAs the script, SEO, and lead map all honor).
+**Read now:** `identity/content-pillars.md` (the two CTAs the script, SEO, and lead map all honor; its cadence
+line is the short-form cadence — the YouTube cadence is the Game Plan anchor in `identity/channel.md`).
 `yt-script` writes the full teleprompter script in the member's voice on the structure: hook → resource CTA
 around the first minute → body → book-a-call CTA a third to halfway in and again at the end → the next-video
 pointer (`98`, `99`). Format by bucket (Why I Switched · Pain Point · Model Breakdown · Niche Breakdown;
@@ -65,8 +66,9 @@ interviews follow `yt-interview`'s beats). `yt-script` writes the content-log ro
 story's Used-where. Save as **Script**. Offer the 30–45s Short cut now.
 
 ## Step 3 — Thumbnail brief
-`yt-thumbnail`: three directions scored, one recommended, the paste-ready brief for the Design Studio's
-`your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`. Do this BEFORE filming so the member shoots the expression the brief needs.
+`yt-thumbnail`: three directions scored, one recommended, the paste-ready brief the member pastes into their
+Brand HQ project in Claude Design (there is no separate thumbnail design skill). Do this BEFORE filming so the
+member shoots the expression the brief needs.
 
 ## Step 4 — SEO package
 `yt-seo`: three titles, the description with the two CTAs in the first three lines, chapters, tags,

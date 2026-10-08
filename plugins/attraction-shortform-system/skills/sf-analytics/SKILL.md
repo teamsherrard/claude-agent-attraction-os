@@ -41,6 +41,7 @@ Read `~/attraction-brain/brain.md` first (pull via **attraction-brain-sync** if 
 only if the cloud has none, send them to the Agent Attraction Brain setup). Open:
 - `memory/content-log.md` — every post's pillar, hook, avatar, keyword; numbers mean nothing without it
 - `memory/conversations.md` — rows with Channel = DM or comment: the conversations content started
+- `memory/sales-funnel.md` (once the Conversion plugin exists) — calls booked by source (`instagram`): the funnel's own count of calls that came from content; before it exists, the booking form's which-video answer or nothing (never estimated)
 - `memory/top-50.md` — Source cells that read `instagram via reel: …` or `instagram via story: …`: the agents content put on the list
 - `memory/content-performance.md` — the last block (prior follower and subscriber counts = the baseline;
   growth is today minus that). This file is this skill's own ledger inside the sync allowlist; it is created

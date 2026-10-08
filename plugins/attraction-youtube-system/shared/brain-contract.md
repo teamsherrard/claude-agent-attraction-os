@@ -62,8 +62,8 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   old free-text `YouTube comment · [video]`.
 
 ## What this plugin READS (read-only, never written here)
-`brain.md` · `identity/profiles.md` (the bios file — one H2 per platform incl. YouTube; `sf-setup` writes it,
-`lm-profiles` updates it; read for the channel's entity line) · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
+`brain.md` · `identity/profiles.md` (the bios file — one H2 per platform; `sf-setup` writes it, `lm-profiles`
+updates it; read for the entity line — and `yt-setup` fills its `## YouTube` section, see "owns") · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
 `## Short-Form (Week 3)` block — task id · `declined` · `not offered yet`) · `identity/profile.md` · `journey.md` (incl. the
 `## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the offer; the live resource is read from `memory/magnets.md → ## Current magnet` first, `offer.md`
 second; Status respected) · `brokerage-model.md` (mechanics for model videos; figures never surface in public content) ·
@@ -71,7 +71,8 @@ second; Status respected) · `brokerage-model.md` (mechanics for model videos; f
 stamped — see "also writes") · `voice.md` · `voice-samples.md` · `voice-print.md` (every read-aloud script) ·
 `brand-visual.md` (words only) · `goals.md` (the 90-day targets and ratios — the goal-math source) ·
 `leadership.md` · `operations.md` (the booking link, hours) · `compliance.md` · **`content-pillars.md`** (the
-five pillars, cadence, the two CTAs — Week 3) · **`publishing.md`** (the `Content board:` line and the
+five pillars and the two CTAs — Week 3; its cadence line is the short-form cadence — the YouTube cadence is the
+`Cadence:` anchor in `identity/channel.md`) · **`publishing.md`** (the `Content board:` line and the
 `Keyword:` line — Short-Form-owned; the `Weekly Content Performance task:` key is NOT here, see `config.md`) · `memory/content-log.md` (all rows, to avoid
 repeats) · `memory/ideas.md` (tags `youtube` and `interview`; the member's own ideas come first) ·
 `memory/intel.md` (dated brokerage and industry news for model and Situation videos) · `memory/objections.md`
@@ -88,15 +89,18 @@ relevance, the workspace per the Brain's `drive-map.md`: `02 · Brand` (the kit)
 |---|---|---|
 | `identity/channel.md` | `yt-setup` (creates it: channel, positioning, lanes and playlists, the CTA line, upload defaults, channel-page status, baseline) | `yt-gameplan` → the `## Game Plan anchors` block only · `yt-analytics` → the `Live data:` line and a **dated `## Performance` block appended** per deep dive (newest last; earlier blocks never edited) · `yt-setup` "update my channel" edits one block |
 | `memory/interview-pipeline.md` | `yt-interview` (rows, Stage moves; creates the file on first use if the Brain template lacks it) | `yt-gameplan` seeds candidate rows at Stage `Candidate`; `yt-setup` creates the empty file with the header; `yt-make-video` moves a row to `Published` |
+| `identity/profiles.md` — the **`## YouTube` section only** | `yt-setup` (the channel's bio text inside that one heading — the entity line the about section opens with; the file stays Short-Form-owned: never rename, reorder, or drop a heading; if Week 3 has not created the file, create it in the template's five-section shape with the other four sections on their placeholder lines) | `lm-profiles` (Week 6) rewrites the text inside the heading to the funnel's CTA and leaves its italic update line |
 | `memory/content-log.md` — **YouTube rows only** | `yt-script` (the row at `Scripted`) · `yt-make-video` (flips to `Published`, adds the Link) · `yt-interview` / `yt-model-breakdown` (a row at `Idea` when they run before the script — `yt-script` updates that row, never a second) · `yt-seo` / `yt-leads` (the CTA cell) · `yt-repurpose` (rows for the derived pieces) · `yt-analytics` (the conversations/calls note in the CTA cell) | Short-Form, the AI Editor, and Events own their rows; the Editor may flip a YouTube row to `Edited` |
 | `config.md` — the `## YouTube (Week 4)` block only | `yt-setup` creates the block with exactly these lines: `Installed:` date · `Plugin version:` · `Layer:` → `identity/channel.md` · `Monday Kickoff task: not offered yet` · `Weekly ideas task: not offered yet` · `Monthly review task: not offered yet` · `YouTube section: not offered yet` | `yt-briefing` → the `Monday Kickoff task:` line (task id · `declined` · `paused`) and, if chosen, `Monday Kickoff delivery: email draft` · `yt-triggers` → the `Weekly ideas task:` and `Monthly review task:` lines · `yt-analytics` → the `YouTube section:` line (`added YYYY-MM-DD` · `declined`). Nothing else in `config.md`, ever |
 
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story a
 script used · `memory/ideas.md` → flip a `youtube` / `interview` idea's Status to `used` at make-video start
 (never at pick time) **and** `yt-repurpose`'s **conversation-starter rows** (Tag `general`, Idea = the starter
-text + "conversation starter from [video title] — [the hook it came from]", Avatar / pain, Status `open`), handed to
-`attraction-capture` — the owner, which appends them — when the Conversion plugin is not installed;
-`cv-conversation-starter` marks them used. `yt-repurpose` never appends directly and never owns a send-queue ·
+text + "conversation starter from [video title] — [the hook it came from]", Avatar / pain, Status `open`),
+appended directly in the file's locked row shape — `yt-repurpose` is the designated appender the OS contract
+(`docs/BRAIN-CONTRACT.md`) and the template's own header name — only while the Conversion plugin is not
+installed (`cv-conversation-starter` takes the hand-off in the session when it is, and marks the rows used);
+`yt-repurpose` never owns a send-queue ·
 `memory/intel.md` → the `Used?` column of a row a video drew on · `identity/publishing.md` → **only** the
 `Content board:` line, and only when `yt-board` creates or records the board (the same designated line
 `sf-board` writes; the file stays Short-Form-owned). Nothing else in those files.
@@ -156,7 +160,7 @@ All of it in **`03 · Content/Long-Form/`**: `🎬 [Name]'s YouTube Game Plan �
 YYYY-MM-DD` · `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD` · one folder per video `YYYY-MM-DD · [Title]/`
 holding `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief — [title] — YYYY-MM-DD` · `Lead Map —
 [title] — YYYY-MM-DD` (only when a resource exists) · `Repurposing Pack — [title] — YYYY-MM-DD` · `Interview Prep —
-[guest] — YYYY-MM-DD` (`yt-interview`) · `Model Breakdown — [title] — YYYY-MM-DD` (`yt-model-breakdown`). Thumbnail images (built in Claude Design) → `03 · Content/Graphics`; the banner →
+[guest] — YYYY-MM-DD` (`yt-interview`) · `Model Breakdown — [title] — YYYY-MM-DD` (`yt-model-breakdown`). Thumbnail images (built in Claude Design from the brief) → the video's own folder, next to its brief (the Brain's drive map); the banner →
 `02 · Brand`. Research briefs, idea batches, and outlier scans stay in chat — regenerated, never stored. Dated
 filenames; newest is current. Never a parallel `[Member] — YouTube System/` root.
 
@@ -164,7 +168,8 @@ filenames; newest is current. Never a parallel `[Member] — YouTube System/` ro
 `attraction-brain-sync` (pull / push) · `attraction-brain-setup` (no Brain) · `attraction-compliance` (gate
 unset) · `attraction-story-bank` (a story to bank) · `attraction-goals` (no targets yet) · `attraction-persona-map`
 (no avatar yet) · `attraction-brokerage-model` ("explain my model to me") · `yt-interview` → `studio-interview`
-(the edit) · `yt-thumbnail` → `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` · `yt-setup` banner brief → `aa-brand-kit-design` · `yt-repurpose` →
+(the edit) · `yt-thumbnail` → the member's Brand HQ project in Claude Design (the brief is pasted; no separate
+thumbnail design skill) · `yt-setup` banner brief → `aa-brand-kit-design` · `yt-repurpose` →
 `sf-*` (posting) and `cv-conversation-starter` · `yt-leads` → the Conversion plugin · `yt-analytics` →
 `sf-analytics` (the Friday agent) · `yt-board` (the Notion board) · `studio-longform` (the edit).
 
@@ -178,8 +183,10 @@ unset) · `attraction-story-bank` (a story to bank) · `attraction-goals` (no ta
 4. Every content-log row's Pillar cell carries one of the five OS pillars (`yt-interview` rows `Proof`,
    `yt-model-breakdown` rows `Perspective`); the bucket sits in brackets at the start of the Topic / hook cell.
 5. The live lead magnet is read from `memory/magnets.md → ## Current magnet` first, `identity/offer.md` second.
-6. `yt-repurpose`'s conversation-starter rows reach `memory/ideas.md` through `attraction-capture` (the owner) when the
-   Conversion plugin is absent — final pass 2026-10-08: not a direct appender, and it never owns a send-queue.
+6. `yt-repurpose` is the designated appender of its conversation-starter rows to `memory/ideas.md` while the
+   Conversion plugin is absent — `docs/BRAIN-CONTRACT.md`'s YouTube row, the template's `ideas.md` header, and
+   `cv-conversation-starter`'s intake mode all name it, and `attraction-capture` has no intake for those rows
+   (aligned 2026-10-08, second review). It never owns a send-queue.
 7. The keyword's single source is `identity/publishing.md → Keyword:`; `content-pillars.md`'s CTA line mirrors it —
    readers go `publishing.md` first, `content-pillars.md` second, never a third order (final pass 2026-10-08).
 8. Every skill opens at most four Brain files at its first step (`brain.md` counts as one) and the rest at the step

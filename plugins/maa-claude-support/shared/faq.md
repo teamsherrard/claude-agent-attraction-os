@@ -24,7 +24,7 @@ touch a terminal.
 
 **Q3. What's Claude Design and when do I use it?**
 The design room at claude.ai/design — and where the **Design Studio** lives. Important: the
-Design Studio is NOT a plugin (Design can't run plugins). Its 15 `ds-` skills are zip files you
+Design Studio is NOT a plugin (Design can't run plugins). Its 14 `aa-…-design` skills are zip files you
 UPLOAD at claude.ai/customize/skills (Q30), then use inside Design: the Design Package (logo,
 style sheet, brand), your offer stack and product mockup (Week 2), and the Value Vault — your
 ebook, course, or playbook (Week 6). Your Cowork skills write the brief (your brand direction,
@@ -326,7 +326,7 @@ The zip — always the whole zip. Here's the whole thing:
 - **Using it:** it lands in your skills list switched on — then just ask in plain English;
   Claude picks it up when it's relevant. No special command.
 - **The catch that matters:** Mike's PLUGINS never install this way — those come from the
-  marketplace link and update themselves. Uploading is for the **Design Studio's `ds-` skills**
+  marketplace link and update themselves. Uploading is for the **Design Studio's `aa-…-design` skills**
   (Claude Design can only use uploaded skills) and any one-off skill you were handed.
 - **Two ways a zip gets rejected:** a description over the 1024-character limit (only happens to
   edited copies — re-download the official zip) and a zip inside a zip (Safari unzipped it and you
@@ -569,7 +569,7 @@ Next step: say "help, my debrief never ran" and I'll walk the four checks.
 **Q47. Where's the Design Studio plugin? I can't find it in the marketplace.**
 Because it isn't one — on purpose. Claude Design can't run plugins; it uses uploaded skills.
 
-- The Design Studio is 15 `ds-` skill zips you upload at claude.ai/customize/skills (Q30)
+- The Design Studio is 14 `aa-…-design` skill zips you upload at claude.ai/customize/skills (Q30)
 - Then inside claude.ai/design: "design my logo" / "my style sheet" / "my offer stack" / "my
   product mockup", and in Week 6 the Value Vault ("my ebook", "my course", "my playbook")
 - Set up your design system in Design first (your colors, fonts, logo) — that's what makes every

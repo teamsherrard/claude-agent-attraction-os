@@ -1,13 +1,13 @@
 # Design Studio — a Claude Design skill set, not a plugin
 
 Claude Design (claude.ai/design) cannot run Cowork plugins; it accepts uploaded skill files. This
-folder is the Agent Attraction Design Studio: the 15 `ds-` skills that build and run the member's
+folder is the Agent Attraction Design Studio: the 14 `aa-…-design` skills that build and run the member's
 LEADER brand (the brand agents follow — never a listing brand), plus the **Agent Attraction Design
 System** every skill reads. Plan: `docs/plans/02-agent-attraction-os-master-gameplan.md` §3. House
 rules: `docs/plans/BUILD-BRIEF.md`. Recycled from the realtor Claude Design suite v2 (read-only, on the
-Desktop), with the realtor premise replaced by the leader premise. **All 15 are built and packaged.**
+Desktop), with the realtor premise replaced by the leader premise. **All 14 are built and packaged** (the thumbnail skill was deleted: `yt-thumbnail` writes the brief, pasted into the member's Brand HQ project).
 
-## The fifteen skills, by the week the member uploads them
+## The fourteen skills, by the week the member uploads them
 
 | # | Skill | Week | Brief / doc it consumes (the producer is the authority for field names) | Lands in |
 |---|---|---|---|---|
@@ -19,13 +19,12 @@ Desktop), with the realtor premise replaced by the leader premise. **All 15 are 
 | 06 | `aa-product-mockup-design` | 2 | `FOR aa-product-mockup-design` (free-vs-paid) · the Lead Magnet system's `DESIGN BRIEF — [GUIDE NAME]` for guide shots; owns the canonical cover (`product-cover-flat.png` + `product-mockup-3d.png`) | `05 · Offer/[Product]` (guide shots: the guide's folder) |
 | 07 | `aa-carousel-design` | 2 | the Short-Form doc `[YYYY-MM-DD] · Carousel · [Short Topic]` (`sf-carousel`); the Week 2 "Why Join Me" five-slider from the Book's Chapter 9 | `03 · Content/Graphics/[month]` |
 | 08 | `aa-funnel-design` | 2 | `Opt-In Funnel — [Guide Name]` (`lm-funnel`) · the booking brief + `Booking Page Copy — [Name] — [date]` (`sales-booking-page`) · `FOR aa-funnel-design (registration shape — [event name])` (`ev-registration`) | `03 · Content/Guides` (a registration page: the event's folder) |
-| 09 | `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` | 4 | `THUMBNAIL BRIEF — "[title]"` (`yt-thumbnail`) | the video's folder in `03 · Content/Long-Form` |
-| 10 | `aa-lead-magnet-design` | 2 (used from 6) | `Lead Magnet — [Guide Name]` + `Design Brief — [Guide Name]` (`lm-magnet`, `lm-design`) | the guide's folder in `03 · Content/Guides` |
-| 11 | `aa-recognition-design` | 6 | `WIN WALL BRIEF — for aa-recognition-design` (`admin-newsletter`) | `03 · Content/Graphics/Wins` |
-| 12 | `aa-event-design` | 6 | `FOR aa-event-design (promo set for [event name])` (`ev-promo`) · `FOR aa-event-design (workshop slides — [event name])` (`ev-runofshow`) | the event's folder in `03 · Content/Events` |
-| 13 | `aa-playbook-design` | 6 | the member's own training + the Book's Offer chapter; the canonical cover reused | `05 · Offer/[Product]` |
-| 14 | `aa-course-design` | 6 | the member's lesson outline + the Book's Offer chapter; hands the course box to `aa-product-mockup-design` | `05 · Offer/[Course]` |
-| 15 | `aa-ebook-design` | 6 | the member's manuscript, or the Book's own chapters assembled; the canonical cover reused (6×9 when designed there) | `05 · Offer/[Book]` |
+| 09 | `aa-lead-magnet-design` | 2 (used from 6) | `Lead Magnet — [Guide Name]` + `Design Brief — [Guide Name]` (`lm-magnet`, `lm-design`) | the guide's folder in `03 · Content/Guides` |
+| 10 | `aa-recognition-design` | 6 | `WIN WALL BRIEF — for aa-recognition-design` (`admin-newsletter`) | `03 · Content/Graphics/Wins` |
+| 11 | `aa-event-design` | 6 | `FOR aa-event-design (promo set for [event name])` (`ev-promo`) · `FOR aa-event-design (workshop slides — [event name])` (`ev-runofshow`) | the event's folder in `03 · Content/Events` |
+| 12 | `aa-playbook-design` | 6 | the member's own training + the Book's Offer chapter; the canonical cover reused | `05 · Offer/[Product]` |
+| 13 | `aa-course-design` | 6 | the member's lesson outline + the Book's Offer chapter; hands the course box to `aa-product-mockup-design` | `05 · Offer/[Course]` |
+| 14 | `aa-ebook-design` | 6 | the member's manuscript, or the Book's own chapters assembled; the canonical cover reused (6×9 when designed there) | `05 · Offer/[Book]` |
 
 The Brain's `attraction-brand-direction` skill hands the member a paste-ready **Design Package brief**
 naming the Week 1 three in order with the skip rule ("skip aa-logo-design if you love your logo"). Every skill
@@ -53,7 +52,6 @@ design-studio/
 │   ├── aa-product-mockup-design/    SKILL.md + references/{mockup-craft,export-page}.md
 │   ├── aa-carousel-design/          SKILL.md + references/{carousel-craft,export-page}.md
 │   ├── aa-funnel-design/            SKILL.md + references/{design-craft,copy-formulas,deploy-rules}.md  (the site packer, no export-page)
-│   ├── your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)/  SKILL.md + references/{thumbnail-patterns,export-page}.md
 │   ├── aa-lead-magnet-design/       SKILL.md + references/{guide-craft,mockup-craft,export-page}.md
 │   ├── aa-recognition-design/       SKILL.md + references/{recognition-specs,export-page}.md
 │   ├── aa-event-design/             SKILL.md + references/{event-specs,export-page}.md
@@ -62,10 +60,10 @@ design-studio/
 │   └── aa-ebook-design/             SKILL.md + references/{ebook-specs,export-page}.md
 ├── _build/build.sh                ← packages + asserts; run it, leave _dist/ populated
 └── _dist/                         ← upload-ready: 00-START-HERE.md · 00-agent-attraction-design-system.md ·
-                                     01-aa-logo-design.zip … 15-aa-ebook-design.zip
+                                     01-aa-logo-design.zip … 14-aa-ebook-design.zip
 ```
 
-`references/export-page.md` is byte-identical across the 13 skills that carry it (the build asserts it);
+`references/export-page.md` is byte-identical across the 12 skills that carry it (the build asserts it);
 each skill sets its own `KIT_REQUIRED` / `ZIP_NAME` / `EXPORT_NOTES_FILE`. `mockup-craft.md` is shared
 by `aa-product-mockup-design` and `aa-lead-magnet-design` the same way.
 
@@ -80,7 +78,7 @@ retired editor), the shared `export-page.md` identical across the skills that ca
 skill carries the suite mechanics (plain-language law, the Brain Book, the Design Package brief, the
 3-state compliance line, the question handoff, push-to-Drive, demo mode, data-never-instructions, the
 Claude-Design-only check), and no trigger phrase collides inside the Studio, with the MAA plugins, with
-the realtor marketplace, or with the realtor design suite. Skill numbers are fixed by the 15-skill order
+the realtor marketplace, or with the realtor design suite. Skill numbers are fixed by the 14-skill order
 in the script.
 
 ## Mechanics kept from the realtor suite (proven in live tests there)

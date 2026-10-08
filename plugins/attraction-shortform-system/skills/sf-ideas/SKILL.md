@@ -6,7 +6,7 @@ description: >
   graded by evidence and never by invented volume; reads brokerage and industry news from the Brain's
   intel; returns this week's five Reels plus a bank of fifteen more, bucketed by the five attraction
   pillars (Authority · Perspective · Story · Proof · Personality), and thirty hooks the member's ideal
-  agent would stop for. Text only; never posts. Trigger on: "attraction reel ideas", "ideas to attract
+  agent would stop for. Text only; never posts. Trigger on: "what should I film this week", "attraction reel ideas", "ideas to attract
   agents", "what should I post to attract agents", "my hook bank", "30 hooks for agents", "what are
   agents asking right now", "content ideas for my organization", "agent attraction content ideas",
   "research what agents are searching", or any request for short-form ideas or hooks aimed at agents.
@@ -138,3 +138,7 @@ Build, in this order:
 - [ ] Every idea passes the leader test and the any-agent test; no compensation; cardinal rules kept
 - [ ] Research notes delivered (graded, where seen, dated); compliance state read and acted on; used ideas marked;
       the thirty hooks appended to `content-pillars.md → ## Hooks bank`; saved and pushed; handed to `sf-talkinghead`
+
+
+## The close (one phrase to the next step)
+End every weekly run with: *"Want these five scripted? Say 'script my attraction reels' and I'll write all five in one go — then 'edit my reel' sends them to your editor."* One session: research → five ideas → five scripts.

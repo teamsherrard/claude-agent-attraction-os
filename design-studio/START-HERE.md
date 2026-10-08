@@ -1,7 +1,7 @@
 # START HERE — The Agent Attraction Design Studio
 
-Fifteen Claude Design skills that build and run the visual brand agents will follow — the brand of
-YOU as a leader, not a listing brand. This page is the map. **All fifteen are built. Three run with your
+Fourteen Claude Design skills that build and run the visual brand agents will follow — the brand of
+YOU as a leader, not a listing brand. This page is the map. **All fourteen are built. Three run with your
 Brain in Week 1 (the Design Package); the rest are uploaded when their week opens.**
 
 This is a Claude Design **skill set**, not a Cowork plugin. Claude Design cannot run plugins; it accepts
@@ -64,13 +64,12 @@ the trigger. Nothing here writes your words; it designs them.
 | 2 | `06-aa-product-mockup-design.zip` | `aa-product-mockup-design` | "my product mockup" | the digital-product mockup — 3D book or course box, device screens, bundle shot, and the flat cover every later skill reuses | `05 · Offer/[Product]` |
 | 2 | `07-aa-carousel-design.zip` | `aa-carousel-design` | "design my carousel" | carousels from your Short-Form system's doc (Week 3), starting with the five-slide "Why Join Me" carousel from your Brain Book (Week 2); every carousel also ships as a LinkedIn PDF | `03 · Content/Graphics/[month]` |
 | 2 | `08-aa-funnel-design.zip` | `aa-funnel-design` | "design my partner call page" | the Partner Call booking page (Week 2); the opt-in page for your guide and the workshop registration page once those systems write the copy (Week 6) — deploy-ready | `03 · Content/Guides` (a registration page in its event's folder) |
-| 2 | `10-aa-lead-magnet-design.zip` | `aa-lead-magnet-design` | "design my comparison guide pdf" | the designed free guide (first: the honest brokerage comparison guide) plus its cover and 3D mockup — runs once your Lead Magnet system writes the guide (Week 6) | the guide's folder in `03 · Content/Guides` |
-| 4 | `09-your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill).zip` | `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` | "build my thumbnails" | three thumbnails per video from your YouTube system's thumbnail brief — YouTube's test set | the video's folder in `03 · Content/Long-Form` |
-| 6 | `11-aa-recognition-design.zip` | `aa-recognition-design` | "design my win wall" | Win Wall posts and stories, welcome graphics, certificates, the monthly roundup — from your AI Admin's Team Wins brief | `03 · Content/Graphics/Wins` |
-| 6 | `12-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" | flyers, the registration post, countdown stories, Zoom screens, workshop slides — from your Events plugin's briefs | the event's folder in `03 · Content/Events` |
-| 6 | `13-aa-playbook-design.zip` | `aa-playbook-design` | "design my playbook" | the Value Vault: a designed playbook, workbook, or worksheet from the training you wrote | `05 · Offer/[Product]` |
-| 6 | `14-aa-course-design.zip` | `aa-course-design` | "design my course" | the Value Vault: your course packaged — title cards, outline, module workbooks, certificate, tiles | `05 · Offer/[Course]` |
-| 6 | `15-aa-ebook-design.zip` | `aa-ebook-design` | "design my ebook" | the Value Vault: a short book from your story and method | `05 · Offer/[Book]` |
+| 2 | `09-aa-lead-magnet-design.zip` | `aa-lead-magnet-design` | "design my comparison guide pdf" | the designed free guide (first: the honest brokerage comparison guide) plus its cover and 3D mockup — runs once your Lead Magnet system writes the guide (Week 6) | the guide's folder in `03 · Content/Guides` |
+| 6 | `10-aa-recognition-design.zip` | `aa-recognition-design` | "design my win wall" | Win Wall posts and stories, welcome graphics, certificates, the monthly roundup — from your AI Admin's Team Wins brief | `03 · Content/Graphics/Wins` |
+| 6 | `11-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" | flyers, the registration post, countdown stories, Zoom screens, workshop slides — from your Events plugin's briefs | the event's folder in `03 · Content/Events` |
+| 6 | `12-aa-playbook-design.zip` | `aa-playbook-design` | "design my playbook" | the Value Vault: a designed playbook, workbook, or worksheet from the training you wrote | `05 · Offer/[Product]` |
+| 6 | `13-aa-course-design.zip` | `aa-course-design` | "design my course" | the Value Vault: your course packaged — title cards, outline, module workbooks, certificate, tiles | `05 · Offer/[Course]` |
+| 6 | `14-aa-ebook-design.zip` | `aa-ebook-design` | "design my ebook" | the Value Vault: a short book from your story and method | `05 · Offer/[Book]` |
 
 They all read the same Design System and the same Brain Book. When a skill finishes, it tells you the
 one line to say back in the system that wrote the brief (your Brain, your Short-Form system, your
@@ -103,7 +102,7 @@ The skills know this map. Your Brain Book lives in `01 · AI Brain` (newest date
 - **"It says my offer / guide / carousel isn't written yet"** → it isn't: the skill tells you which
   system writes it and the line to say there. Design never invents your words.
 - **A skill won't upload** → the file is a zip with no nested zips; if claude.ai rejects it, send the
-  message to support ("support-diagnose" in your Support plugin) — it is usually a description-length limit.
+  message to support ("maa-support-diagnose" in your Support plugin) — it is usually a description-length limit.
 - **Starting a brand-new chat?** → attach the Design System + Brain Book first. Always.
 
 ## THE WEEK 1 CHECKLIST

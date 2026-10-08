@@ -25,6 +25,9 @@ never in a DM (`02-prospect-targeting/19`: say as little as you have to in text;
 Every DM template here is **public-facing** (an agent outside the organization reads it), so the compliance
 gate applies before any of it is delivered.
 
+## Hand-off point
+Once the Conversion plugin is installed (its `## Conversion & Sales` block exists in `config.md`), this skill hands the conversation to `cv-dm-flow` at the agent's FIRST reply, with the Reel, the keyword, the resource promised, and the reply text; it never qualifies in parallel. Before the Conversion plugin exists, this skill qualifies and logs as written below.
+
 ## Three jobs (detect from the message)
 - **A · THE KEYWORD FOR THIS REEL** — "what's the ask on this reel", "keyword for this reel": pick the rung and
   the keyword for one post (the member's primary keyword is set once in `sf-setup`; this picks the rung and any

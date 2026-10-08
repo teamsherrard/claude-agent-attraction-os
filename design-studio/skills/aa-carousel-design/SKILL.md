@@ -23,7 +23,7 @@ five-slider, or the 3–5-slide event carousel their Events plugin briefed — i
 save-worthy slides for Instagram and Facebook, the LinkedIn PDF
 document post that reaches team leaders and broker-owners, and the story-size teaser — ready to post
 with the doc's captions. The copy is locked; your job is the design. Thumbnails, posts with the brand
-kit's templates, and video are other skills' (`your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`, `aa-brand-kit-design`, the editor).
+kit's templates, and video are other skills' (a thumbnail is a `yt-thumbnail` brief pasted into your Brand HQ project — no separate thumbnail skill; `aa-brand-kit-design`; the editor).
 
 **WHERE THIS RUNS — CHECK FIRST.** Claude Design only. Anywhere else, say exactly: *"This one only
 works in Claude Design. Open claude.ai/design, open your Brand HQ project, attach your Design System

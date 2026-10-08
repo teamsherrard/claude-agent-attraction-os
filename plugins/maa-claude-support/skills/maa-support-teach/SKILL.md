@@ -65,7 +65,7 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
 - **The two Brains** (members also in the realtor cohort) — two filing cabinets, two sets of magic
   words; "set up my brain" is the realtor's, "set up my attraction brain" is this one (FAQ Q44,
   visual-aids §6). Never "delete the other one."
-- **Claude Design = uploaded skills, not a plugin** — the Design Studio's 15 `ds-` zips go to
+- **Claude Design = uploaded skills, not a plugin** — the Design Studio's 14 `aa-…-design` zips go to
   claude.ai/customize/skills; set up the design system in Design first; upload the Brain Book
   there because Design can't read the brain folder (FAQ Q3, Q30, Q47). Two upload failure modes:
   description over 1024 chars, nested zip.

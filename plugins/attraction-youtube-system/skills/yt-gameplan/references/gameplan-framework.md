@@ -66,8 +66,9 @@ research returns nothing usable, the lane builds from the Brain alone and its ti
 - **Future** — the aspiration lane: leverage, leadership, the next stage, modern models — concepts only, no numbers.
 Playlists: one per bucket plus the interview and model lanes; homepage order model → interviews → niche
 (`/99`). `content-pillars.md` (Short-Form, Week 3) holds the Brain's five pillars (Authority · Perspective ·
-Story · Proof · Personality) and the Short-Form topic seeds — reuse its Authority topic seeds and its cadence so
-the member sees one strategy, not two; never rename a pillar, never call a lane a pillar in the plan.
+Story · Proof · Personality) and the Short-Form topic seeds — reuse its Authority topic seeds so the member sees
+one strategy, not two (its cadence line is the short-form cadence; the YouTube cadence is set in Phase 2 and
+anchored in `channel.md`); never rename a pillar, never call a lane a pillar in the plan.
 
 ## The interview lane (doctrine §5)
 Sources in order: `memory/organization.md` (agents in the org with a result — first deal, cap, turnaround),

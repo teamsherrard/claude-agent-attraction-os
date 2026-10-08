@@ -264,8 +264,10 @@ and every calendar in this plugin. It keeps authority, proof, and intent in prop
 
 - **Cadence (`/94`):** two videos a week is the recommendation (roughly 4× the growth of one). The 180-day
   machine (VIP day, days 151–180) runs at **1 YouTube video a week + 1–2 interviews a month** as the floor.
-  The member's realistic number is read from `identity/goals.md` and `identity/content-pillars.md` (the
-  Short-Form System writes it in Week 3) — never assumed.
+  The member's realistic number is set once by the Game Plan from `identity/goals.md` (the hours and the
+  content line) and anchored as `Cadence:` in `identity/channel.md` (`## Game Plan anchors`) — every skill
+  reads it there, never assumes it. `identity/content-pillars.md`'s cadence line is the short-form (Reels)
+  cadence the Short-Form System writes in Week 3; it is never read as the YouTube cadence.
 - **At 2/week:** one cycle every 4 weeks; the 90-day plan is ~24 videos = 3 cycles (9 niche · 3 model · 12
   interviews). **At 1/week:** one cycle every 8 weeks; the 90-day plan is ~12 videos = 1.5 cycles. Interviews
   can be batched (record two in one sitting) so the ratio holds even when the member's recording time is tight.
@@ -338,7 +340,8 @@ click; the same words waste one). The member's face with a real facial expressio
 purple background, white or yellow text, bold red or yellow accents); visuals that support the title without
 repeating it; consistent branding across every thumbnail so the channel reads as one (`/99`). Make the viewer
 feel "this is me, I need to watch this." Make **three thumbnails per video** and let YouTube's test pick the
-winner. The brief goes to `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` in Claude Design via `yt-thumbnail`; this plugin writes words,
+winner. The brief goes to the member's Brand HQ project in Claude Design via `yt-thumbnail` (the member pastes
+it; there is no separate thumbnail design skill); this plugin writes words,
 never images.
 
 **Improving CTR (`/97`):** review monthly; aim for **6–10%**; ignore day-one numbers (subscribers inflate them)
@@ -495,6 +498,9 @@ in the video must be real; no stock "culture."
   cohort plan, not a lesson. Their content is grounded in `/92`, `/93`, `/94`, `/96` as §12 shows.
 - **The 8-video cycle (3 + 1 + 4)** is from the Week 4 cohort doc and the VIP day, not a vault lesson. The
   vault's own cadence statement is "two videos a week" (`/94`) and the VIP machine floor is one a week.
+- **The order inside a cycle** (niche first, the model breakdown mid-cycle, interviews spread, no two
+  interview-only weeks in cycle one) and the per-cadence math (2/week → 3 cycles ≈ 24 videos in 90 days) are
+  this OS's scheduling rules, not a lesson. Mike's own stated exception — the "why I joined" video early — is `/92`.
 - **Lesson `/93` is marked draft** in the vault export; its content is used as given.
 - **The 180-day phases** are the VIP-day outline; the vault lessons cover the first-90-days habits but not the
   phase names.
@@ -502,7 +508,8 @@ in the video must be real; no stock "culture."
   Game Plan derives them from the member's `goals.md` and `scorecard.md` and labels them as the member's own
   targets, never as benchmarks.
 - **Thumbnail design rules** beyond `/97` (layout, exact placement) belong to Mike's thumbnail swipe file (Week 4
-  input, not yet in the repo). `yt-thumbnail` and `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` consume it when it arrives.
+  input, not yet in the repo). `yt-thumbnail` consumes it when it arrives — its patterns ride inside the brief
+  the member pastes into Claude Design.
 - **Equipment, filming, and editing standards** are not in the Week 4 vault (Mike points to the Social Agent
   Academy). The Riverside editor plugin owns the edit; this doctrine only says what `/92` says: start with what
   you have, upgrade every year.

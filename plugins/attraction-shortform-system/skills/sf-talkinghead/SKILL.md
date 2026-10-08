@@ -30,6 +30,9 @@ Three modes (pick from what they said; never ask which):
 
 ---
 
+## Front door rule
+"What should I film this week?" belongs to `sf-ideas` (research + the week's five + the hook bank); this skill's Phase 1 topic list runs only when ideas already exist for the week (`memory/ideas.md` has rows dated this week) or the member asks to script a named idea. If neither, say one line — "Let's find this week's five first" — and hand to `sf-ideas`.
+
 ## Step 1 — Load the Brain (four files; the rest open at the phase that uses them)
 Read `~/attraction-brain/brain.md` first (follow its laws), then only these three:
 - `identity/content-pillars.md` — the five pillars mapped to them (written by `sf-setup`). **Missing →** this

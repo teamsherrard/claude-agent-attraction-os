@@ -20,15 +20,19 @@ Channels do not fail on content; they fail because the leader stops. Trust is bu
 §13 (the 180-day plan) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
-## The cadence (the Brain wins if set; otherwise this default)
-`identity/content-pillars.md` holds what the member said they will sustain. Default: **one long-form a
-week**, with interviews inside the count on the **8-video cycle: 3 niche · 1 model breakdown · 4
-interviews** (eight weeks per cycle). One strong video a week is a win, never a shortfall.
+## The cadence (the Game Plan anchor wins; otherwise the floor)
+The YouTube cadence is the `Cadence:` line of `identity/channel.md`'s `## Game Plan anchors` (set by the Game
+Plan from the member's hours — the doctrine recommends two a week, `/94`: roughly four times the growth of one).
+No anchor yet → the floor: **one long-form a week**, with interviews inside the count on the **8-video cycle:
+3 niche · 1 model breakdown · 4 interviews** (eight weeks per cycle at one a week, four at two). One strong
+video a week is a win, never a shortfall. `identity/content-pillars.md`'s cadence line is the short-form
+cadence — never read it as the YouTube one.
 
 ## Inputs
-`brain.md`, then only three more files now — the rest at the mode that uses them: `identity/content-pillars.md`
-(cadence), `memory/content-log.md` (what shipped, by bucket and status), `memory/interview-pipeline.md` (who is
-booked). Plus the Game Plan doc from `yt-gameplan` (the 90-day calendar — a workspace doc).
+`brain.md`, then only three more files now — the rest at the mode that uses them: `identity/channel.md` (the
+`## Game Plan anchors`: cadence, cycle position, lane names), `memory/content-log.md` (what shipped, by bucket and
+status), `memory/interview-pipeline.md` (who is booked). Plus the Game Plan doc from `yt-gameplan` (the 90-day
+calendar — a workspace doc).
 **Opened later:** batch day and "plan my month" → `identity/operations.md` (hours, the days they film) and the board
 if `identity/publishing.md` has a link · check-ins → `memory/scorecard.md` (its word only).
 

@@ -90,8 +90,9 @@ Add the type-specific beats:
 
 **Interviewer rules (non-negotiable, `95`):** the guest is the star; never interrupt; let emotion sit; open
 questions; nod and listen; add a layer only after they finish, to help the viewer contextualize. Ask for
-emotions, not just numbers. **Record the intro LAST** — after the conversation, the member records a 30–45s
-intro that hooks the best moments they just heard; the edit puts it first.
+emotions, not just numbers. **Record the intro LAST** — after the conversation, the member records a 45–75 s
+intro that hooks the best moments they just heard (the outro 30–45 s — `yt-script`'s interview playbook writes
+both); the edit puts it first.
 
 ## Step 5 — Edification lines + the casual CTA
 - **Edification (opening):** two lines in the member's voice that make the guest look great before they

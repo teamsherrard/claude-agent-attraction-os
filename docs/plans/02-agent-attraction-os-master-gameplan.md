@@ -17,8 +17,8 @@ Thumbnail docs already in Downloads.*
 | # | Plugin (install week) | Prefix | Skills | Build type | Forks |
 |---|---|---|---|---|---|
 | 1 | AI Brain (W1) | `attraction-` | 26 | duplicate + rebuild interview | realtor-ai-brain · workshop aa-* skills |
-| 2 | Support (W1) | `support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
-| 3 | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `ds-` | 15 | duplicate + 4 new · ALL 15 BUILT | Claude Design suite v2 (Desktop) |
+| 2 | Support (W1) | `maa-support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
+| – | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `aa-…-design` | 14 | duplicate + 4 new · ALL 14 BUILT (the thumbnail skill was deleted; `yt-thumbnail` writes the brief) | Claude Design suite v2 (Desktop) |
 | 3 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
 | 4 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
 | 5 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
@@ -40,8 +40,8 @@ Brain path and skill reference, swap the stack map and calendar. No creative wor
 
 **Numbering, one scheme everywhere (marketplace, README, Support stack map):** 1 Brain · 2 Support · 3 Short-Form · 4 Riverside · 5 YouTube · 6 Conversion & Sales · 7 AI Admin · 8 Lead Magnet · 9 Events; the Design Studio is unnumbered (a Claude Design skill set).
 
-**Prefixes are the collision guard.** `yt-`, `sf-`, `lm-`, `cv-`, `sales-`, `team-`, `ds-`, `ev-`, `admin-`, `studio-`,
-`support-`, `attraction-` never overlap with the realtor plugins' `youtube-`, `shortform-`, `leadcapture-`, `realtor-`. Trigger
+**Prefixes are the collision guard.** `yt-`, `sf-`, `lm-`, `cv-`, `sales-`, `aa-…-design`, `ev-`, `admin-`, `studio-`,
+`maa-support-`, `attraction-` never overlap with the realtor plugins' `youtube-`, `shortform-`, `leadcapture-`, `realtor-`. Trigger
 phrases are the second guard: every skill's trigger list is diffed against the realtor marketplace before release (new
 `check-release.sh` check), and generic phrases ("set up my brain", "make a reel", "edit my video") are reserved for the realtor
 side unless the member has only the attraction OS installed, in which case the Support plugin's stack map resolves them.
@@ -74,7 +74,7 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Agent | Cadence | Owner skill | Week |
 |---|---|---|---|
 | Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
-| Agent Movement Watcher | weekly | `prospect-radar` (Brain) | 2 |
+| Agent Movement Watcher | weekly | `attraction-prospect-radar` (Brain) | 2 |
 | Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
 | Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`); it extends the Debrief, never a second debrief | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
@@ -100,23 +100,23 @@ disclosure on clone content, state/province recruiting scope, and the Meta "Empl
 | `shared/cohort-kb.md` | the MAA 6-week calendar (Nov 3 → Dec 17, Thanksgiving off, Week 7 bonus Jan 5), Tue/Thu call structure, Heidi's Wednesday posts, homework per week, playbooks and bonus assets per week |
 | `shared/stack-map.md` | the 12 MAA plugins, install order, prefixes, the Brain-file ownership table from §1, every scheduled agent and its owner |
 | `shared/source-map.md` | **Bella's transcripts** (Loom space, via the Atlassian connector once authorized) as the answer source: "what did Mike say about 3-way calls" returns the answer plus the lesson to rewatch |
-| `support-teach` | adds ManyChat templates, Claude Design, Claude Voice role-play, the CRM options (GHL / Follow Up Boss / Sheets) |
-| `support-diagnose` | adds: clone doesn't look like me, Thumbnail Employee output off-brand, "no Brain found" with both Brains installed (the marker/trigger disambiguation), Riverside fork pointing at the wrong Brain |
-| `support-account` | the honest monthly stack cost with optional ManyChat + Metricool |
+| `maa-support-teach` | adds ManyChat templates, Claude Design, Claude Voice role-play, the CRM options (GHL / Follow Up Boss / Sheets) |
+| `maa-support-diagnose` | adds: clone doesn't look like me, Thumbnail Employee output off-brand, "no Brain found" with both Brains installed (the marker/trigger disambiguation), Riverside fork pointing at the wrong Brain |
+| `maa-support-account` | the honest monthly stack cost with optional ManyChat + Metricool |
 | Freshdesk | the realtor desk's escalation door was HTTP 403 (suspended) on 2026-09-25; the MAA fork must not inherit a dead door. Decide: fix billing or point escalation at Mike's portal only |
 
-**Ideas worth adding:** "Ask Mike" mode inside `support-cohort` (the full transcript KB answered in Mike's voice using the existing
+**Ideas worth adding:** "Ask Mike" mode inside `maa-support-cohort` (the full transcript KB answered in Mike's voice using the existing
 mike-sherrard-voice rules) is the backlog item the cohort doc rates highest; it is a knowledge-base change, not a new skill.
 
 ---
 
-## 3. Design Studio — a Claude Design skill set, not a plugin (`ds-`, 15 skills)
+## 3. Design Studio — a Claude Design skill set, not a plugin (`aa-…-design`, 14 skills)
 
 **Structural fact first.** Claude Design skills are uploaded `.md` files inside claude.ai/design, not Cowork marketplace plugins. The
-"Design Studio Plugin" is therefore two things: (a) a folder in the repo, `design-studio/`, holding 15 upload-ready skill files plus
+"Design Studio Plugin" is therefore two things: (a) a folder in the repo, `design-studio/`, holding 14 upload-ready skill files plus
 the **Agent Attraction Design System** (the uploadable design-system file Claude Design consumes), packaged with `_dist/` the same way
 the realtor suite v2 is; and (b) a thin Cowork-side convention: Brain skills that need a design hand the member a paste-ready
-design brief and name the `ds-` skill to run. Nothing else is installable here. The Setup Guide must say this plainly.
+design brief and name the `aa-…-design` skill to run. Nothing else is installable here. The Setup Guide must say this plainly.
 
 | Skill | Status | From | Attraction-specific change |
 |---|---|---|---|
@@ -128,7 +128,7 @@ design brief and name the `ds-` skill to run. Nothing else is installable here. 
 | `aa-offer-stack-design` | **NEW** | none | the 3D offer stack: what the offer includes and what each piece is worth; reads the Brain Book's offer chapter; never prices rev share |
 | `aa-offer-assets-design` | **NEW** | 6 Presentations (deck half) | "Join My Team" 1-pager, the opportunity deck, the welcome pack, the comparison sheet (comparison sheet is model-positioning output, compliance-gated) |
 | `aa-product-mockup-design` | **NEW** | 8's 3D mockup mode (expanded) | the digital product mockup: 3D ebook and course box, device screens, bundle shots; Week 2 promise |
-| `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` | ADJUST | 12 Video Brand Kit (thumbnail section) | thumbnail layouts built from Mike's swipe-file patterns; fed by `yt-thumbnail`'s brief |
+| the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill) | ADJUST | 12 Video Brand Kit (thumbnail section) | thumbnail layouts built from Mike's swipe-file patterns; fed by `yt-thumbnail`'s brief |
 | `aa-carousel-design` | ADJUST | 5 Social Media Graphics | carousels from `sf-carousel` copy; LinkedIn PDF law kept (team leaders and broker-owners live there) |
 | `aa-recognition-design` | **NEW** | 5 (templates) | Win Wall posts, first-deal and cap announcements, certificates; reads `recognition-log` |
 | `aa-event-design` | ADJUST | 6 Presentations + 5 | flyers, registration graphics, countdown stories, workshop slides for the Events plugin |
@@ -185,7 +185,7 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 - **Decision (user, 2026-10-08): ONE plugin, not two.** The Studio is vendored into this repo under its own name and version (`scripts/vendor-riverside.sh`) with a single addition, the Brain-home rule in `house-rules.md`: use `~/attraction-brain/` when it exists, else `~/realtor-brain/`, and call that Brain's sync skill; every `editor/` path resolves against `<Brain home>`. Back-port that rule to the realtor repo so the two copies are byte-identical. A member who installed it from the realtor marketplace does not install it again (Support says so).
 - No skills removed (same plugin). `studio-listing` simply goes unused by attraction-only members.
-- `brand-wiring.md` reads the Attraction brand kit (Video Brand Kit v3.3 shape, generated by `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` + `aa-brand-kit-design`).
+- `brand-wiring.md` reads the Attraction brand kit (Video Brand Kit v3.3 shape, generated by the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill) + `aa-brand-kit-design`).
 - `cta-pack.md` swaps the realtor CTAs for the attraction ladder (book a call, DM the keyword, grab the guide).
 - `editor/` state (config, jobs, b-roll library) is added to the attraction sync allowlist on day one (the audit found it outside the realtor allowlist, so it forgot everything after session one in Cowork).
 - The compliance line in `studio-check` adds: no income claims on cards or captions; AI-likeness disclosure if a clone clip is cut in.
@@ -211,7 +211,7 @@ is re-keyed to what agents search (comparisons, rev share, switching, sponsor qu
 | `yt-script` | ADJUST | the four formats: Why I Switched (story, old brokerage unnamed), Pain Point Series, Model Breakdown, Niche Breakdown; voice-print |
 | `yt-interview` | **NEW** | guest list from the organization + Top-50, the hook-and-transformation title rule ("How Kevin built…"), question sets, edification lines, the guest's distribution ask; writes `memory/interview-pipeline.md`; hands the edit to `studio-interview` |
 | `yt-model-breakdown` | **NEW** | comparison and explainer videos with accurate, dated model data from `brokerage-model.md`; no trash talk; the "answer what they're already researching" list (Explained · vs · Should you join · How rev share works · Questions to ask a sponsor) |
-| `yt-thumbnail` | **NEW** | writes the thumbnail brief (title, pillar, face, text rule from Mike's swipe-file patterns) for `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` in Claude Design; 3 directions scored against the patterns |
+| `yt-thumbnail` | **NEW** | writes the thumbnail brief (title, pillar, face, text rule from Mike's swipe-file patterns) for the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill) in Claude Design; 3 directions scored against the patterns |
 | `yt-seo` | ADJUST | title, description, chapters, pinned comment, book-a-call CTA; keyword set re-keyed |
 | `yt-make-video` | KEEP | end to end; one chat = one video; now calls yt-thumbnail |
 | `yt-repurpose` | ADJUST | 3 Shorts, 1 carousel, 5 stories, 1 email, 1 blog, plus **conversation starters** (the Week 4 doc adds "every video becomes conversation starters" → hands 3 openers to `cv-conversation-starter`) |
@@ -231,7 +231,7 @@ is re-keyed to what agents search (comparisons, rev share, switching, sponsor qu
 ## 7. Creative Studio (Higgsfield employees) — REMOVED from this build
 
 Parked per the user on 2026-10-08: not a plugin, not in scope for now. Nothing is built, and no skill routes to a `cs-` skill.
-Where the plan referenced it: `yt-thumbnail` uses the `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)` design brief as its only path; `aa-product-mockup-design` ships
+Where the plan referenced it: `yt-thumbnail` uses the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill) design brief as its only path; `aa-product-mockup-design` ships
 without the animation hand-off; `studio-broll` uses Riverside's stock library only; Events and Lead Magnet ad creatives are design
 briefs for Claude Design. The SAO clone and thumbnail docs in Downloads stay as reference if this is revived later.
 
@@ -381,6 +381,6 @@ build: every doctrine file, the Support plugin's answer source, and the voice of
 4. **Riverside and Support forks**: confirm the mechanical fork (they cannot ship as-is).
 5. **CRM scope for v1**: Brain-memory pipeline as the truth with GHL / Follow Up Boss / Sheets sync as bring-your-own, or a specific CRM first.
 6. **Freshdesk**: fix billing or re-point escalation.
-7. Mike's thumbnail swipe file with pattern notes (for `your Brand HQ project in Claude Design (paste the thumbnail brief; there is no separate thumbnail design skill)`).
+7. Mike's thumbnail swipe file with pattern notes (for the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill)).
 8. **Inducement-rules review** before the Switching Transition Plan and the Earnings Comparison one-pager ship (cohort doc flags it; both stay out of v1 until cleared).
 9. **Voice-mode role-play** is a claude.ai app feature, not a Cowork skill: confirm the Objection Coach ships text role-play plus app instructions.

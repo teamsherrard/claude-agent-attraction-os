@@ -249,7 +249,7 @@ owns them and created only with your yes; every one is draft-only.
 | 3 | **Plugin 4 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace | `set up riverside`, then `edit my video` or `make me a reel` | — |
 | 3 | **ManyChat sequence templates** — a bonus asset you import into your own ManyChat account; not a plugin | — | — |
 | **4** | **Plugin 5 · YouTube** | `set up my YouTube for agents` | the Friday report now covers YouTube too |
-| 4 | **Design Studio thumbnail layout skill** — upload with Week 4 | `build my thumbnails` | — |
+| 4 | **No new upload.** Your YouTube plugin writes each thumbnail brief; paste it into your Brand HQ project in Claude Design (there is no separate thumbnail skill) | `thumbnail brief` | — |
 | **5** | **Plugin 6 · Conversion & Sales** | `launch conversion` — and `set up my sales system` for your booking page and pipeline stages | Call Block Prep (daily) · Cold-Lead Reactivation (every 30 days) |
 | 5 | **Plugin 7 · AI Admin** | `set up my attraction admin` | Morning Brief (extends your Debrief) · Daily Follow-Up Queue |
 | **6** | **Plugin 8 · Lead Magnet** | `launch my lead magnet plugin` | — |

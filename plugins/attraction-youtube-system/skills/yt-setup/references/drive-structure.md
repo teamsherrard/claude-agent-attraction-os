@@ -23,8 +23,9 @@ verifies they match).
 │   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when a resource exists)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
 │   │         ├── Model Breakdown — [title] — YYYY-MM-DD    (yt-model-breakdown — model videos only)
-│   │         └── Interview Prep — [guest] — YYYY-MM-DD     (yt-interview — interviews only)
-│   └── Graphics/                    ← thumbnails built in Claude Design (the member drops them)
+│   │         ├── Interview Prep — [guest] — YYYY-MM-DD     (yt-interview — interviews only)
+│   │         └── the three thumbnails (1280×720)           (built in Claude Design from the brief; the member pushes or drops them here)
+│   └── Graphics/                    ← carousels, designed posts, proof cards (the Design Studio) — never a video's thumbnails
 └── 06 · Materials/                  ← the brokerage deck, past videos — READ for model content, never written
 ```
 No tracker spreadsheets. No Idea Bank, Content Map, Calendar, Keyword Map, or Performance Log — the system is

@@ -15,7 +15,7 @@ The Short-Form system writes one doc per carousel, `[YYYY-MM-DD] · Carousel · 
 | SLIDE 2 → N−1 | one slide each, in order, header line + 1–2 lines, verbatim |
 | FINAL SLIDE — the CTA | the CTA slide: one rung, the keyword where the doc puts it, the member's lockup |
 | THE LINKEDIN VERSION (when written: 8–12 pages + the post copy) | the second designed set, bigger type, and the LinkedIn PDF |
-| THE DESIGN BRIEF FOR DS-CAROUSEL | sizes, which slide is the hook and the CTA, the colours / fonts / feel in words, the logo rule, the brokerage line — cross-check against the Design System; the Design System wins on execution values |
+| THE DESIGN BRIEF FOR AA-CAROUSEL-DESIGN | sizes, which slide is the hook and the CTA, the colours / fonts / feel in words, the logo rule, the brokerage line — cross-check against the Design System; the Design System wins on execution values |
 | INSTAGRAM + FACEBOOK block · LINKEDIN block | the captions, verbatim, packed into the captions file |
 | COMPLIANCE | the strip on the CTA slide (and the footer line where the stamp requires it) |
 

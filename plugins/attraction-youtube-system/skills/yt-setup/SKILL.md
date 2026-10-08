@@ -143,7 +143,11 @@ present, recruiting scope respected, no protected-characteristic targeting.
    `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` if it does not exist (never touch existing rows). Register the `## YouTube (Week 4)` block in `config.md` with exactly these lines (`brain-contract.md`):
    `Installed:` today's date · `Plugin version:` · `Layer:` → `identity/channel.md` · `Monday Kickoff task: not offered yet` ·
    `Weekly ideas task: not offered yet` · `Monthly review task: not offered yet` · `YouTube section: not offered yet` —
-   nothing else. Push via
+   nothing else. Fill **`identity/profiles.md` → `## YouTube`** with the channel description's 2–3 sentences (the
+   entity line, the five profile questions answered) — text inside that one heading only; never rename, reorder, or
+   drop a heading; if Week 3 has not created the file yet, create it in the template's five-section shape with the
+   other four sections on their placeholder lines (the bios file is Short-Form-owned; this section is the one
+   YouTube write). Push via
    `attraction-brain-sync` and verify. If the push fails: say it is not saved, keep the kit visible, retry once,
    stop.
 2. Render the kit on the **Channel Page Kit skeleton** (`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`) via
@@ -163,6 +167,6 @@ the same folder. Then:
 - [ ] Compliance 3-state checked before any channel text; unset → stopped and routed
 - [ ] The one question asked (channel); existing page read as data
 - [ ] Kit delivered piece by piece in Studio order; banner brief names `aa-brand-kit-design`; book-a-call line first in defaults
-- [ ] `identity/channel.md` written, `interview-pipeline.md` created, `config.md` block registered — pushed and verified
+- [ ] `identity/channel.md` written, `interview-pipeline.md` created, `config.md` block registered, `profiles.md → ## YouTube` filled — pushed and verified
 - [ ] Kit saved to `03 · Content/Long-Form` with a dated name; location confirmed in plain words
 - [ ] Game Plan built and handed off

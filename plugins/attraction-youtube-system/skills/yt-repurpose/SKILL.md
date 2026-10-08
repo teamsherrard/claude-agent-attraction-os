@@ -60,10 +60,12 @@ when it exists, `identity/offer.md` second) · the conversation starters (6) →
   by name — each with the video title and the hook (the moment of the video) it came from, plus the video link and
   the matched Top-50 names; it personalizes per channel and relationship state, and the member sends. This skill
   never queues, sends, or tracks sends.
-- If it is not installed, hand the three starters to `attraction-capture` (it owns `memory/ideas.md`) to append in
-  the file's locked row shape — Tag `general`, Idea = the starter text + "conversation starter from [video title] —
-  [the hook it came from]", Avatar / pain, Status `open` — so the Daily Debrief and the Week 5 plugin pick them up.
-  This skill never writes `ideas.md` itself. Say which happened, in one plain line.
+- If it is not installed, append the three starters to `~/attraction-brain/memory/ideas.md` yourself — this skill is
+  the file's designated appender for exactly these rows (the OS contract and the file's own header name it) — in the
+  locked row shape: Logged = today · Tag `general` · Idea = the starter text + "conversation starter from [video
+  title] — [the hook it came from]" · Avatar / pain · Status `open`. Nothing else in that file, ever. Push via
+  `attraction-brain-sync` (write → push → verify). The Daily Debrief reads them; `cv-conversation-starter` takes the
+  open rows and marks them used once Week 5 installs it. Say which happened, in one plain line.
 
 ## Rules
 - Everything in the member's voice; the same sourced facts as the video — never a new stat, never a number

@@ -6,7 +6,7 @@ description: >
   what exists (colours, fonts, headshots, leader brand vs selling brand, organization name), captures
   direction only for what is missing (feel, references, fonts, tagline), and writes brand-visual.md with
   an Inventory block and a Direction block. Then hands over the paste-ready Design Package brief naming
-  the three Claude Design skills to run this week in order (aa-logo-design → aa-style-sheet-design → aa-brand-kit-design), with
+  the three Claude Design skills in order (aa-logo-design → aa-style-sheet-design → aa-brand-kit-design), with
   the skip rule for a loved logo. Designs nothing; keeps the leader brand distinct from the brokerage's
   colours. Trigger on: "my attraction brand direction", "my leader brand", "brand direction for agent
   attraction", "design package brief", "lock my attraction brand", "update my attraction brand
