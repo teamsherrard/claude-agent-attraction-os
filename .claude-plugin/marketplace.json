@@ -47,6 +47,12 @@
       "source": "./plugins/attraction-lead-magnet",
       "version": "0.1.0",
       "description": "PLUGIN 8 \u2014 Lead Magnets & Opt-In Funnels pointed at agents (Week 6): the Honest Brokerage Comparison Guide first, then magnet ideas, writing, design brief, funnel, delivery, nurture, partnerships, GBP, profiles, analytics. Requires Plugin 1 and a Week 2 offer."
+    },
+    {
+      "name": "attraction-ai-admin",
+      "source": "./plugins/attraction-ai-admin",
+      "version": "0.1.0",
+      "description": "PLUGIN 7 \u2014 the AI Admin for agent attraction (Week 5): morning brief, the prospect pipeline on the locked stages with your CRM, the Daily Follow-Up Queue (drafted, never sent without you), the weekly scorecard and Weekly Recruiting CEO Review, the Team Wins newsletter, VA task packs, the Monthly KPI Review. Requires Plugin 1."
     }
   ]
 }

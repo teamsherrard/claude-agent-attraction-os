@@ -103,7 +103,7 @@ place, fill it through the phases, and **push after every phase**. Local engine 
 │   ├── profile.md  journey.md  avatars.md  prospect-intel.md      (who you are · who you attract)
 │   ├── positioning.md  offer.md  brokerage-model.md               (what you offer)
 │   ├── voice.md  voice-samples.md  voice-print.md  proof.md  story-bank.md   (how you sound · proof · stories)
-│   ├── brand-visual.md  content-engine.md                         (brand · content)
+│   ├── brand-visual.md  content-pillars.md                         (brand · content)
 │   ├── goals.md  leadership.md  operations.md  compliance.md      (targets · readiness · ops · rules)
 │   └── strategy.md                                                (what they want to be known for)
 ├── memory/
@@ -117,7 +117,7 @@ place, fill it through the phases, and **push after every phase**. Local engine 
 `profile · journey · avatars · voice · voice-samples · proof · story-bank · positioning · offer ·
 goals · compliance · brand-visual`. Everything else is a legitimate placeholder after a perfect
 first run: `prospect-intel` and `brokerage-model` are researched later or on demand (Week 2);
-`leadership`, `operations`, `content-engine` are Week 1 optional; `strategy` holds whatever Phase 1
+`leadership`, `operations`, `content-pillars` are Week 1 optional; `strategy` holds whatever Phase 1
 produced; `voice-print` is an upgrade; every `memory/` ledger fills as they work. Never count any of
 those against a Brain, never report them as missing.
 

@@ -80,7 +80,7 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 - **"Leaders create leaders."** (`13/66`) — build people who can build people.
 - **"Support without babysitting."** (`14/71`) — community, training library, FAQs, AI, leaders, escalation paths; for the burned-out member.
 - **The 6 pillars of "must-stay" culture.** (`14/68`) — for "how do I keep agents."
-- **Recognition is retention.** (`16/82`) — the Recognition Agent's reason to exist.
+- **Recognition is retention.** (`16/82`) — why recognition belongs in the weekly organization rhythm (the Team Wins Newsletter and the CEO review carry it).
 - **The CEO rhythm: daily, weekly, monthly reviews.** (Week 6) — the Debrief, the CEO Review, the Monthly KPI Review.
 
 ## Habits & the Brain (the OS routine)

@@ -32,8 +32,8 @@ once by `attraction-import`, never written, never confused with this one.
 ## `config.md` — the key registry (locked spelling)
 `Schema: aa-1.0` · `Storage provider` · `Workspace name` · `Workspace ID` · `Workspace link` · `Timezone`
 (lives only here) · `CRM` · `Setup progress` · `Debrief time` · `Daily Debrief task` (task id or `declined`) ·
-`Workspace shared with` · `Realtor Brain bridge` (none / declined / pulled YYYY-MM-DD) · `Demo brain` (yes/no) ·
-`Cohort week` (optional). Supporting fields (Locale, Owner account, Plugin version, Watcher task, Brain home,
+`Agent Movement Watcher task` (task id · declined · later) · `Workspace shared with` · `Realtor Brain bridge` (none / declined /
+pulled YYYY-MM-DD) · `Demo brain` (yes/no) · `Cohort week` (optional). Supporting fields (Locale, Owner account, Plugin version, Brain home,
 Last synced) sit under their own heading and are not registry keys. The template, `attraction-brain-setup`,
 `attraction-brain-sync`, and `attraction-brain-migrate` always agree on these names.
 
@@ -60,7 +60,7 @@ and touches only `top-50.md`. The row shapes never change at hand-off.
 | `identity/avatars.md` | `attraction-persona-map` | — |
 | `identity/prospect-intel.md` | `attraction-prospect-radar` | the Brain Book's research pass runs this skill's mandate; the Watcher appends |
 | `identity/positioning.md` | setup seeds the one line → `attraction-model-positioning` | — (why-join-me lives in journey.md) |
-| `identity/offer.md` | setup seeds → `attraction-offer` | `attraction-free-vs-paid` owns the "Free vs paid" section; `attraction-capture` appends under "Notes for Week 2" |
+| `identity/offer.md` | setup seeds it (`Status: seeds`) → `attraction-offer` owns every section EXCEPT `## Value stack` and `## Digital product` | `attraction-free-vs-paid` owns `## Value stack` and `## Digital product`; `attraction-capture` appends under "Notes for Week 2" |
 | `identity/brokerage-model.md` | `attraction-brokerage-model` | — |
 | `identity/voice.md` | `attraction-brain-setup` (Stop 12) writes it first → `attraction-brand-persona`'s update path ("update my voice") owns later edits | `attraction-voice-print` never writes it |
 | `identity/voice-samples.md` | `attraction-brain-setup` (Stop 12) | `attraction-import` appends samples (incl. the Realtor Brain bridge) |
@@ -68,12 +68,13 @@ and touches only `top-50.md`. The row shapes never change at hand-off.
 | `identity/proof.md` | `attraction-voice-proof` | `attraction-capture` appends to Seeds |
 | `identity/story-bank.md` | `attraction-story-bank` | setup Stop 6 writes the six seeds; `attraction-capture` appends to Seeds; content skills stamp Used-where |
 | `identity/brand-visual.md` | `attraction-brand-direction` | — |
-| `identity/content-engine.md` | **the Short-Form System's `sf-setup` (Week 3)** — the Brain never writes it | — |
-| `identity/goals.md` | `attraction-goals` | `attraction-rev-share-calculator` → "The money, honestly"; `attraction-execution-framework` → "The 12-month plan" |
+| `identity/content-pillars.md` | **the Short-Form System's `sf-setup` (Week 3)** — the Brain never writes it (scaffolded empty) | — |
+| `identity/goals.md` | `attraction-goals` | `attraction-rev-share-calculator` → "The money, honestly" |
+| `identity/execution-framework.md` | `attraction-execution-framework` | — |
 | `identity/leadership.md` | `attraction-leadership-audit` | — |
 | `identity/operations.md` | `attraction-operations` | setup Stop 16 writes the basics |
 | `identity/compliance.md` | `attraction-compliance` | setup Stop 15 writes Status: set |
-| `memory/top-50.md` | `attraction-top-50` | `attraction-capture` adds rows and (until the Admin exists) stage moves; `attraction-debrief` never writes it |
+| `memory/top-50.md` | `attraction-top-50` — once the AI Admin exists it MIRRORS each agent's stage from `memory/pipeline.md` on every run (pipeline is the source of stage) | `attraction-capture` adds rows and, until the Admin exists, stage moves; `attraction-debrief` never writes it |
 | `memory/conversations.md` | **Conversion & Sales plugin (Week 5)** | interim: `attraction-capture` writes rows directly, same shape |
 | `memory/pipeline.md` | **AI Admin plugin (Week 5)** — stage moves | interim: `attraction-capture`, same vocabulary; the Debrief only *requests* moves |
 | `memory/organization.md` | **Team & Retention plugin (Week 6)** | interim: `attraction-capture` appends a join |
@@ -83,7 +84,8 @@ and touches only `top-50.md`. The row shapes never change at hand-off.
 | `memory/capture-log.md` | `attraction-capture` (fallback) | the Debrief surfaces Open rows |
 | `memory/content-log.md` | **YouTube · Short-Form · AI Editor · Events** | the Brain only reads |
 | `memory/ideas.md` | `attraction-capture` | content plugins mark Used |
-| `memory/intel.md` | `attraction-capture` + `attraction-prospect-radar` (the Watcher) | — |
+| `memory/intel.md` | `attraction-prospect-radar` (the Agent Movement Watcher) | `attraction-capture` appends what the member heard, same shape |
+| `memory/intel-reports/` | **Conversion & Sales plugin (Week 5)** | the Brain only reads |
 | `memory/deadlines.md` | `attraction-capture` until the AI Admin is installed | then `admin-*`, same shape |
 
 ## Locked vocabularies and shapes (defined once, in the template)

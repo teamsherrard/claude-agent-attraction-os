@@ -339,7 +339,7 @@ Conversation · Conversion · Retention · Duplication).
 ## 13. The content framework (`06-content-framework/37–40`)
 
 Four kinds of content, and the plan's five attraction pillars that carry them. The Short-Form and YouTube
-plugins own execution; the Brain stores the pillars (`content-engine.md`, written in Week 3).
+plugins own execution; the Brain stores the pillars (`identity/content-pillars.md`, written by `sf-setup` in Week 3).
 
 | Mike's content type | What it is | Plan pillar |
 |---|---|---|
@@ -350,7 +350,7 @@ plugins own execution; the Brain stores the pillars (`content-engine.md`, writte
 | *(industry POV — model breakdowns, brokerage news)* | From `08-youtube/96` and the Watcher's intel; facts only, cardinal rules apply. | Industry POV |
 
 Cadence (Mike's action metric): two long-form + five short-form per week is the standard he sets; the member's
-realistic number is captured in `goals.md` and the Short-Form plugin's setup.
+realistic number is captured in `goals.md` and `content-pillars.md`.
 
 ---
 

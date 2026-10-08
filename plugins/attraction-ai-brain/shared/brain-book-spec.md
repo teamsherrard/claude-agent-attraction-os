@@ -1,618 +1,528 @@
-# Business Brain Book — the canonical chapter contract
+# Agent Attraction Brain Book — the canonical chapter contract
 
-*Supersedes `shared/brain-doc.md`. When any skill (Setup Step 7.4, "show me my Brain", post-Business-Plan
-refresh, brain-health) builds or regenerates the master Brain document, THIS file is the contract.
-`brain-doc.md`'s rules are all preserved here — nothing in it is weakened, everything in it is extended;
-where Setup Step 7.4 already superseded an older `brain-doc.md` detail (the 📕 Business Brain Book name,
-the word gate), Step 7.4's ruling is the one carried forward.*
+*Supersedes the pointer rules in `shared/brain-doc.md`. When any skill (Setup Phase 8, "show me my Brain",
+the post-offer refresh in Week 2, the post-kit refresh, a Prospect Radar run, brain-health) builds or
+regenerates the master Brain document, THIS file is the contract. The invariants, grounding laws, demo-brain
+rules, pipeline, verification gate, and regeneration rules are carried whole from the realtor Book spec; the
+chapter contract is the plan's four parts (§6), reading the `aa-1.0` schema files.*
 
-The **📕 Business Brain Book** is the flagship deliverable of the whole system — the one document that
-proves, in the agent's hands, what they paid for. It is a **premium render of the Brain's identity files
-plus a researched strategic analysis of their market**: part identity dossier, part market-intelligence
-report, part consultant's strategy memo. It is also **the "AI Brain file"** every Claude Design skill asks
-the agent to upload — one doc, everywhere.
+The **📕 Agent Attraction Brain Book** is the flagship deliverable of the whole system — the one document that
+proves, in the member's hands, what they paid for. It is a **premium render of the Brain's identity files plus a
+researched analysis of their market's agent landscape**: part leader dossier, part prospect-intelligence
+report, part consultant's plan. It is also **"the AI Brain file"** every Design Studio (`ds-*`) skill and the
+Lead Magnet skills ask the member to upload — one doc, everywhere.
 
 Two identities it must never lose:
-1. **It is a RENDER, never a source.** The markdown files in `identity/` and `memory/` stay the source of
-   truth. Everything in the Book must exist in a brain file first — including the research and the
-   strategic synthesis, which are **written back to brain files before rendering** (see the pipeline).
-   The Book is always rebuildable from the Brain; it never drifts, and it never holds facts the Brain doesn't.
-2. **It is the product.** Agents pay a premium; the Book must read like a strategist built it for them
+1. **It is a RENDER, never a source.** The markdown files in `identity/` and `memory/` stay the source of truth.
+   Everything in the Book must exist in a brain file first — including the research, which is **written back to
+   `identity/prospect-intel.md` before rendering**. The Book is always rebuildable from the Brain; it never
+   drifts, and it never holds facts the Brain doesn't.
+2. **It is the product.** Members pay a premium; the Book must read like a strategist built it for them
    personally — long, specific, researched, and impossible to mistake for anyone else's book.
 
 ---
 
 ## Non-negotiable invariants (carried forward — never weaken any)
 
-- **Build ONLY via `shared/render_doc.py`** per `shared/doc-formatting.md` (fallback chain: `pip install
-  python-docx` → the docx skill matching the same look → **never** "just upload the text"). Use
-  `--eyebrow "Agent Attraction Brain"`, `--title`, `--subtitle "[Agent] · [City]"`. Never hand-write document XML.
-- **Upload the rendered `.docx`, never the raw structured text.** Literal `════`/`────` lines visible as
-  text in Drive = the renderer's *input* was uploaded = FAILED delivery; re-render and re-upload.
-- **Name:** **"📕 [Agent]'s Business Brain Book — [YYYY-MM-DD]"** — emoji + the words "Business Brain
-  Book" + ISO date. Dated regenerations never collide; **newest = current**. Same name pattern on EVERY
-  regeneration — refresh, don't fork. *(This is Setup Step 7.4's mandated name — for this one document it
-  overrides `doc-formatting.md`'s generic `[Deliverable] · [Subject] · [Date]` naming scheme.)*
-- **Save to the workspace's `01 · AI Brain/`** (legacy brains: `Agent Attraction Brain → exports`), then push
-  via `attraction-brain-sync`.
-- **Hand the agent the DIRECT LINK to the Book itself** — never just the folder: *"Your Business Brain
-  Book is in your workspace → 01 · AI Brain — here's the direct link. This is your business bible."*
-- **Render the FULL content of every identity file — never summarize, never compress.** Rich brain +
-  thin render = FAILED render. 15+ pages is normal and welcome; never compress to fit a page count.
-- **Restructure, don't append** (Market chapter): the agent's community list must BECOME the
-  per-community sub-sections — a one-bullet-per-community list surviving anywhere is a FAILED render.
-- **Research-on-render backfill:** if the underlying brain file is thin for any researched chapter, run
-  the research NOW — during this build or any regenerate — **write it back to the brain file first**,
-  then render.
-- **Per-community sub-sections + 2–4 adjacent communities** the agent didn't name, marked "adjacent".
-- **Tables via pipe rows** for anything tabular (KPI dashboards, brand colours + roles, price bands,
-  avatar-at-a-glance, money math). Prose where prose persuades; structure where structure clarifies —
-  never walls of plain paragraphs.
+- **Build ONLY via `shared/render_doc.py`** per `shared/doc-formatting.md`. Use `--eyebrow "Agent Attraction
+  Brain"`, `--title`, `--subtitle "[Name] · [Market]"`. Never hand-write document XML. **If the renderer prints
+  `RENDERER-UNAVAILABLE`, do exactly what it says: install nothing, never run pip, never retry — save the
+  structured text as a `.md` file, upload that to `01 · AI Brain`, and say in one line that the styled version
+  needs the renderer.** That is the whole fallback chain.
+- **Upload the rendered `.docx`, never the raw structured text as a Google Doc.** Literal `════`/`────` lines
+  visible as text in a converted doc = the renderer's *input* was uploaded = FAILED delivery; re-render and
+  re-upload (the `.md`-file fallback above is the one sanctioned exception and is uploaded as a plain file).
+- **Name:** **"📕 [Name]'s Agent Attraction Brain Book — [YYYY-MM-DD]"** — emoji + the words "Agent Attraction
+  Brain Book" + ISO date. Dated regenerations never collide; **newest = current**. Same name pattern on EVERY
+  regeneration — refresh, don't fork. *(For this one document the name overrides `doc-formatting.md`'s generic
+  `[Deliverable] · [Subject] · [Date]` scheme.)*
+- **Save to the workspace's `01 · AI Brain`**, then push via `attraction-brain-sync`.
+- **Hand the member the DIRECT LINK to the Book itself** — never just the folder: *"Your Agent Attraction Brain
+  Book is in your home base → 01 · AI Brain — here's the direct link. Everything the system knows about you,
+  in one book."*
+- **Render the FULL content of every identity file — never summarize, never compress.** Rich brain + thin
+  render = FAILED render. 15+ pages is normal and welcome.
+- **Restructure, don't append** (Part II): the avatars become per-avatar sub-sections; the brokerage footprint
+  becomes a table plus prose; a one-bullet-per-item list surviving anywhere is a FAILED render.
+- **Research-on-render backfill:** if `prospect-intel.md` is thin or stale for Chapters 7–8, run the Prospect
+  Radar research mandate NOW — **write it back to `prospect-intel.md` first**, then render. The Book's research
+  pass IS a `attraction-prospect-radar` run: same mandate, same budget, same file, same row shapes.
+- **Tables via pipe rows** for anything tabular (the snapshot card, the avatar-at-a-glance, the story bank, the
+  brokerage footprint, where-they-gather, the five pains vs the stack, the money scenarios, the plan, the weekly
+  KPIs, the colour table). Prose where prose persuades; structure where structure clarifies.
 - **Byline once** (title block) — never repeat the full credential line in the Snapshot or elsewhere.
 - **No raw markup:** any `<w:` in the extracted text = corrupt build = rebuild.
-- **Never fabricate** — no invented voice samples, stories, testimonials, or statistics. This invariant
-  is expanded into the **GROUNDING LAWS** below — all seven bind every build and every regenerate. **Every
-  researched number carries its source + as-of date** ("researched [Month YYYY], [source]"). These
-  numbers flow into published content and on-camera scripts — **an unsourced stat in published content
-  is a compliance incident, not a shortcut.** Can't verify it? Write what you verified, omit the rest,
-  and say so.
-- **Written FOR the agent** — second person, warm, clear headings, genuinely useful as a reference
-  (identity files are third-person for Claude; the Book converts the voice).
-- **Never narrate a failed render or the retry to the agent** — they only ever see the finished Book.
-- **Placeholder behavior for unbuilt sections is unchanged** (see Placeholders below).
+- **Never fabricate** — no invented stories, quotes, testimonials, production numbers, rev-share figures, or
+  agent-landscape numbers. Expanded into the **GROUNDING LAWS** below — all seven bind every build. **Every
+  researched number carries its source + as-of date.** These numbers flow into published content and on-camera
+  scripts — **an unsourced stat in published content is a compliance incident, not a shortcut.**
+- **Compensation stays private.** Chapters 9 and 11 are private-call material: the Book is the member's, but
+  nothing in it is written as if it could be pasted into a post. Every money figure is "(illustrative)".
+- **The cardinal rules bind the Book** (`03-model-positioning/13`): no sentence characterizes another brokerage,
+  sponsor, or person negatively — not in the landscape, not in the positioning, not in a story. Former
+  brokerages in stories are "a franchise", "an independent".
+- **Written FOR the member** — second person, warm, clear headings, genuinely useful as a reference (identity
+  files are third-person for Claude; the Book converts the voice). The member is "you"; the people they attract
+  are "agents".
+- **Never narrate a failed render or the retry to the member** — they only ever see the finished Book.
+- **Placeholder behavior for unbuilt sections is designed, not orphaned** (see Placeholders below), and the
+  **open-items page** (Chapter 18) is where every gap lives with the week that fills it.
 
 ---
 
-## GROUNDING LAWS — zero fabrication, true to THIS agent
+## GROUNDING LAWS — zero fabrication, true to THIS member
 
-Why this section exists: agents in other tools got books naming the **wrong competitor**, claiming
-**neighbourhoods they don't serve**, in a voice that **doesn't sound like them**. Any one of those in a
-premium deliverable is a refund-level error. These laws bind every build and every regenerate, and they
-outrank style, length, and word targets: a Book that misses a word range is thin; a Book that breaks a
-grounding law is wrong.
+These laws bind every build and every regenerate, and they outrank style, length, and word targets: a Book
+that misses a word range is thin; a Book that breaks a grounding law is wrong.
 
-1. **Geography lock.** Only communities/neighbourhoods the agent themselves named or confirmed appear
-   as THEIR areas — anywhere in the Book. Research may add adjacent communities ONLY in Chapter 6
-   (Chapters 7–9 may reference an adjacent once it's introduced there), capped at the contract's 2–4,
-   each explicitly labeled "adjacent" / expansion candidate, and only after verifying it actually
-   borders the agent's stated city/region. On regenerate, a research refresh **REPLACES** the adjacent
-   set — never grows it past 4; superseded adjacents retire from `market.md`. **Same-name-city guard:**
-   every research query carries city + state/province ("Springfield, Illinois", never "Springfield");
-   a result whose geography doesn't match the agent's market is discarded, never adapted.
-2. **Competitor rule.** Name a competitor ONLY when research verified they actively serve this agent's
-   market AND niche, with source + as-of date on the verification. Otherwise describe the landscape
-   without names ("two established teams dominate [niche] in [city] as of [Month YYYY]"). **A missing
-   name beats a wrong name** — a wrong competitor in a client deliverable is a refund-level error.
-3. **Voice & identity fidelity.** Every claim about the agent — years, credentials, awards, story,
-   philosophy, USP — traces to their interview answers or Brain files. Reuse their own phrasing
-   wherever it exists. NEVER invent quotes, client anecdotes, testimonials, or stats about them. Where
-   the Book paraphrases, it must still sound like `voice.md` / `voice-print.md`.
-4. **Numbers.** Every figure is from their Brain (labeled as theirs) or from research (source + as-of
-   date) — no third source, and no invented precision (a verified "the $400s" never becomes
-   "$412,500"). Locale, currency, and units come from `config.md`.
-5. **Uncertainty protocol.** Cannot verify → omit it, or mark it `[confirm: …]` inline for the agent.
-   A wrong specific is worse than a gap; never fill silence with plausible detail. Markers go
-   mid-sentence (never at line start), NEVER on researched numbers in Chapters 6–9 (omit those
-   instead) — and more than 3 in the whole draft means the Brain isn't ready: capture the answers with
-   the agent first, then render.
-6. **Pre-render grounding audit** (pipeline step 6). Before rendering, enumerate every proper noun
-   (community, competitor, school, employer, brokerage) and every number in the draft; trace each to a
-   Brain file or a sourced research result; CUT anything untraceable. Trace the **PAIRING**, not just
-   the noun — each fact verified in the context it's used (school↔community, employer↔metro): a real
-   school attached to the wrong community fails the audit. And Brain-file provenance alone doesn't
-   clear geography — re-verify city + state/province on every place-fact, so a wrong-city fact planted
-   in a brain file earlier dies here instead of surviving because "it traces." If cuts drop a chapter
-   below its word minimum, the owning brain file is thin: re-run that chapter's research mandate
-   (pipeline step 2) — ONCE per chapter per build; if refreshed research still can't support the
-   minimum, render the honest gap and what would fill it (the anti-fluff rule's honest-gap clause) —
-   never pad, never loop on rebuild alone. Report the
-   tally — "N facts traced, M cut" — to the agent in the hand-off message.
-7. **Read-back check** (pipeline step 5). After assembly, re-read `identity/voice.md` +
-   `voice-print.md` (if built) and confirm the Book's characterization of the agent matches those
-   files; fix mismatches before rendering — ONE fix pass per build. A mismatch surviving it is flagged
-   in the hand-off message, never re-fixed in a loop (`voice.md` and `voice-print.md` can legitimately
-   differ — written voice vs spoken voice; don't ping-pong between them).
+1. **Market lock.** The member's market and the states/provinces where they may attract (`profile.md`,
+   `compliance.md`) are the only geography the Book treats as theirs. Research may describe adjacent markets
+   ONLY in Chapter 7, capped at 2–3, each labeled "adjacent" / expansion candidate, and only inside their
+   recruiting scope. **Same-name guard:** every research query carries city + state/province; a result whose
+   geography doesn't match is discarded, never adapted.
+2. **Brokerage and sponsor rule.** Name a brokerage in the landscape ONLY as a sourced, dated footprint fact
+   (agent count, office count, a public move). Name a competing sponsor, team, or team leader ONLY when research
+   verified them with source + as-of date, and ONLY as observable facts — never a verdict, never a weakness.
+   **A missing name beats a wrong name**; and a negative sentence about any named party is a FAIL (cardinal rules).
+3. **Voice & identity fidelity.** Every claim about the member — years, brokerage, journey beats, leader moment,
+   why, what worked, proof, organization size — traces to their interview answers or Brain files. Reuse their
+   own phrasing wherever it exists. NEVER invent quotes, agent anecdotes, testimonials, or stats about them.
+   Where the Book paraphrases, it must still sound like `voice.md` / `voice-print.md`.
+4. **Numbers.** Every figure is from their Brain (labeled as theirs), from research (source + as-of date), or an
+   illustrative scenario built on their own stated assumptions (labeled "(illustrative)") — no fourth source,
+   and no invented precision. Nothing in the Book states what a partner will earn. Locale, currency, and units
+   come from `config.md`.
+5. **Uncertainty protocol.** Cannot verify → omit it, or mark it `[confirm: …]` inline for the member. A wrong
+   specific is worse than a gap. Markers go mid-sentence (never at line start), NEVER on researched numbers in
+   Chapters 7–8 (omit those instead) — and more than 3 in the whole draft means the Brain isn't ready: capture
+   the answers with the member first, then render.
+6. **Pre-render grounding audit** (pipeline step 5). Before rendering, enumerate every proper noun (brokerage,
+   sponsor, team, association, event, platform, employer, the member's former brokerage if it slipped in) and
+   every number in the draft; trace each — as the pairing it's used in — to a Brain file or a sourced research
+   result; CUT anything untraceable. A former brokerage named in a story is cut and replaced with its type. If
+   cuts drop a chapter below its minimum, the owning brain file is thin: re-run that chapter's research mandate
+   ONCE per chapter per build; if refreshed research still can't support the minimum, render the honest gap and
+   what would fill it — never pad, never loop. Report the tally — "N facts traced, M cut" — in the hand-off.
+7. **Read-back check** (pipeline step 4). After assembly, re-read `voice.md` + `voice-print.md` (if built) and
+   `compliance.md`, and confirm the Book's characterization of the member matches, and that no public-style
+   sentence carries a compensation number or an earnings claim; fix mismatches before rendering — ONE fix pass
+   per build. A mismatch surviving it is flagged in the hand-off message, never re-fixed in a loop.
 
 ---
 
 ## DEMO BRAINS — explicitly fictional, for training + demos only
 
-When the person in the session **explicitly asks for a fictional brain** — the words "demo", "mock",
-"fake", "fictional", "test agent", "sample agent" in THEIR OWN request (a coach demoing for a cohort, a
-test drive of the system) — the build runs in **demo mode**. Two conditions, both required:
+When the person in the session **explicitly asks for a fictional brain** — the words "demo", "mock", "fake",
+"fictional", "test member", "sample agent" in THEIR OWN request (Mike demoing for the cohort, a test drive) —
+the build runs in **demo mode**. Two conditions, both required:
 
-- **The subject is fictional** — a named persona who is NOT the person in the session. Demo keywords
-  aimed at their OWN identity or market ("mock something up for MY market", "let's just do a test run
-  on my brain", "I'm kind of a test agent at my brokerage") are a REAL build — the grounding laws bind.
-- **When there is ANY doubt who the subject is, ask the one question** — "Fictional demo agent, or
-  your real Brain?" — before proceeding. An unambiguous fully-fictional framing (a named third-party
-  persona + explicit demo/training intent) proceeds without asking.
+- **The subject is fictional** — a named persona who is NOT the person in the session. The demo world for this
+  OS is **Taylor Brooks · Real Broker · Austin, TX · 6th year · former teacher · open-house lead system + a
+  Sunday follow-up routine · 2 agents in the organization · goal 25 agents in 12 months**; the demo avatar is a
+  2–5 year agent paying for leads with no system; the demo success story is Priya Nair, 3 buyers under
+  contract in her first 60 days. Demo keywords aimed at the member's OWN identity ("mock something up for MY
+  market", "let's just do a test run on my brain") are a REAL build — the grounding laws bind.
+- **When there is ANY doubt who the subject is, ask the one question** — "Fictional demo member, or your real
+  Brain?" — before proceeding.
 
 In demo mode:
-
-- **No live research.** Skip the research passes (pipeline step 2), the staleness rules, and the
-  grounding audit's tracing entirely. Fill the researched chapters with plausible, clearly-labeled
-  illustrative content instead — a demo build should take minutes, not research cycles.
-- **Every number is tagged "(illustrative — demo)"** — and NEVER carries a fabricated source
-  attribution. Putting "per [board], [Month YYYY]" on an invented number is exactly the compliance
-  incident the grounding laws exist to prevent — demo or not.
-- **No real competitor or vendor names.** Fictional names only ("the Lakeline team") — a demo must
-  never put claims about a real person or business on a training screen.
-- **Watermark it, unmissably:** filename **"📕 [Agent]'s Business Brain Book — DEMO — [YYYY-MM-DD]"**;
+- **No live research.** Skip the research pass, the staleness rules, and the grounding audit's tracing. Fill
+  Chapters 7–8 with plausible, clearly-labeled illustrative content — minutes, not research cycles.
+- **Every number is tagged "(illustrative — demo)"** — and NEVER carries a fabricated source attribution.
+- **No real competitor, sponsor, team, or vendor names.** Fictional names only ("the Lakeline team"). The demo
+  member's own brokerage (Real Broker) may be named; nothing is claimed about any real person.
+- **Watermark it, unmissably:** filename **"📕 [Name]'s Agent Attraction Brain Book — DEMO — [YYYY-MM-DD]"**;
   eyebrow `Agent Attraction Brain · Demo`; one meta line on the cover: *"Demo document — illustrative data,
   not researched."*
-- **Total isolation from real Brains.** A demo scaffolds locally at `~/attraction-brain-demo/` and
-  creates/pushes to its OWN workspace folder named **"[Workspace name] — DEMO"** (own marker, also
-  demo-stamped) — NEVER into an existing real workspace. The demo Book saves inside that demo
-  workspace only — never into a real `01 · AI Brain/`, and it is excluded from "newest = current":
-  Claude Design's "upload your AI Brain file" must never be handed a demo Book by accident.
-  Isolation cuts BOTH ways: a demo build never modifies, renames, retires, or "cleans up" anything
-  outside its own workspace — not markers, not folders — multiple markers are expected (the demo
-  stamp disambiguates; real sessions skip demo-stamped markers). Demo pushes are LIGHT: create the
-  files, one folder-listing verify at the end — no per-file verification, housekeeping, or snapshots.
-- **Every demo brain file opens with the banner line** `DEMO BRAIN — fictional agent, illustrative
-  data — never publish.` — so ANY skill that ever reads the file (market update, YouTube scripts,
-  listing kit, health, migrate) sees what it's holding before it quotes a single number.
-- **Demo-to-real never converts.** "Love it — now build mine" starts a REAL build from a fresh
-  template scaffold with every gate re-armed; demo files, demo answers, and demo mode's relaxations
-  are never carried into a real build.
-- **No placeholder chapters.** A demo Book renders all fifteen chapters FILLED — Chapters 13 and 14
-  get illustrative content like everything else (a demo shows the finished product, and an
-  almost-blank page on a training screen reads as broken).
-- **Everything else holds at full strength:** the complete 15-chapter structure, the linked contents
-  page, chapter bands, formatting gates, voice conversion — a demo shows the real product, just on
-  fictional data. Word counts: the 3,000 absolute floor binds; the 4,400/5,000 bands are TARGETS in
-  demo mode, not gates — never burn rebuild cycles padding fictional prose.
-- **The demo marker travels with the BRAIN, not just the Book.** A demo build writes `Demo brain: yes`
-  into `config.md` and keeps the "(illustrative — demo)" tags **inside the brain files themselves**
-  (`market.md`, `market-intel.md`, `proof.md` …), so the label follows the data wherever it's quoted.
-  Any build, regenerate, or skill that touches a brain whose `config.md` says `Demo brain: yes` STAYS
-  in demo mode — research-on-render never fires on a demo brain, and real research is never mixed into
-  a fictional identity. A real agent resuming setup on a brain marked demo is told plainly it's a demo
-  brain and offered a fresh real setup — never a silent conversion.
-- **Demo mode is NEVER inferred.** Thin answers, a rushed agent, "just fill it in", or "use defaults"
-  do NOT trigger it — only the explicit fictional framing above does (and a `Demo brain: yes` already
-  in `config.md`, which is that explicit request persisted). A real agent's Book never
-  contains an illustrative number; when in doubt, it is a real build and the grounding laws bind.
+- **Total isolation from real Brains.** A demo scaffolds locally at `~/attraction-brain-demo/` and creates/pushes
+  to its OWN workspace folder named **"[Workspace name] — DEMO"** (own `_attraction-workspace.md` marker, also
+  demo-stamped) — NEVER into an existing real workspace. The demo Book is excluded from "newest = current":
+  Claude Design's "upload your AI Brain file" must never be handed a demo Book. Isolation cuts BOTH ways: a
+  demo build never modifies, renames, retires, or cleans up anything outside its own workspace. Demo pushes
+  are LIGHT: create the files, one folder-listing verify at the end.
+- **Every demo brain file opens with the banner line** `DEMO BRAIN — fictional member, illustrative data —
+  never publish.` — so ANY skill that reads the file sees what it's holding before it quotes a number.
+- **Demo-to-real never converts.** "Love it — now build mine" starts a REAL build from a fresh template with
+  every gate re-armed.
+- **No placeholder chapters.** A demo Book renders all eighteen chapters FILLED — the offer, the pillars, the
+  framework, operations all get illustrative content (a demo shows the finished product).
+- **Everything else holds at full strength:** the complete structure, the linked contents page, chapter bands,
+  formatting gates, voice conversion. Word counts: the 3,000 absolute floor binds; the higher bands are TARGETS
+  in demo mode, not gates.
+- **The demo marker travels with the BRAIN.** A demo build writes `Demo brain: yes` into `config.md` and keeps
+  the "(illustrative — demo)" tags inside the brain files themselves. Any skill that touches a brain whose
+  `config.md` says `Demo brain: yes` STAYS in demo mode; a real member resuming on a demo brain is told plainly
+  and offered a fresh real setup — never a silent conversion.
+- **Demo mode is NEVER inferred.** Thin answers, a rushed member, "just fill it in", or "use defaults" do NOT
+  trigger it — only the explicit fictional framing above does (and a `Demo brain: yes` already in `config.md`).
 
 ---
 
 ## The build pipeline (run in this order, every build and every regenerate)
 
-1. **Pull + read.** Sync the Brain (`attraction-brain-sync` PULL), then read every identity file that
-   exists, plus `brain.md`, `memory/market-data.md` if present, and `shared/brand-doctrine.md`.
-2. **Research pass — backfill the brain files FIRST — inside a budget.** The whole build gets
-   **~30 web searches/fetches, total**, spent by priority: the agent's NAMED communities first (≤3 each:
-   prices+movement · buyer/schools/amenities · construction+angle), then the outlook (≤6), the
-   competitive landscape (≤6), search demand (≤4), adjacents last (≤2 each, only with budget left). One
-   search per fact-family, never one per fact; stop the moment a chapter's must-appear list is covered;
-   a brain file that is already current (staleness windows) costs ZERO searches. Budget exhausted =
-   render what's verified with honest gaps — never exceed it to chase a detail. Check each researched chapter's source file
-   against its research mandate (below). For anything missing or stale (staleness windows in
-   Regeneration rules): run the web research now, write it into the owning brain file
-   (`identity/market.md` for market + outlook; `identity/market-intel.md` for competitive + search),
-   with source + as-of date on every number. **Push the updated files before rendering — write → push →
-   verify, as one atomic step per `attraction-brain-sync`** — an unsynced write is a lost write.
-3. **Strategy synthesis — write `identity/strategy.md`.** Compose the Strategic Position analysis
-   (Chapter 11 contract) from the captured brain + the now-current researched facts, and write/overwrite
-   it to `identity/strategy.md` (already part of the Brain's scaffold). This keeps the Book rebuildable:
-   even the analysis lives in the Brain, not only in the render. Push it (write → push → verify).
-4. **Assemble the structured text** per the **Book structure** contract (below) — and ONLY that grammar
-   (the renderer knows nothing else): the cover title block; the `[[TOC]] … [[/TOC]]` contents block;
-   every PART and CHAPTER as a CAPS band (`PART I — …` / `CHAPTER N — TITLE`) wrapped in divider rules;
-   **sub-headings inside chapters as sub-bands** (`──── Label ────` — one per community, per avatar, per
-   Strategic-Position section); `•` bullets; numbered steps as `1.  …` lines; `Label:` lead-ins (e.g.
-   testimonials, signature phrases, the compliance disclaimer); `>> ` lines for each chapter's 1–2
-   key-insight callouts; pipe-row tables (optional `| --- |` separator); generous blank-line spacing.
-   No Markdown `#`/`**`/backticks in the body.
-5. **Read-back check** (Grounding Law 7). Re-read `identity/voice.md` + `voice-print.md` (if built) and
-   confirm the draft's characterization of the agent — story, philosophy, phrasing, tone — matches those
-   files. One fix pass; survivors are flagged in the hand-off message, not looped on.
-6. **Pre-render grounding audit** (Grounding Law 6). Enumerate every proper noun (community, competitor,
-   school, employer, brokerage) and every number in the draft; trace each — as the pairing it's used in —
-   to a Brain file or a sourced research result; CUT anything untraceable. Keep the tally — "N facts
-   traced, M cut" — for the hand-off message.
-7. **Render** with `render_doc.py` to `.docx`. **Renderer stderr must show ZERO unresolved-TOC
-   warnings** — a warning means a contents row and a chapter band don't match character-for-character:
-   fix the structured text, re-emit, re-render (at most twice — it's a copy-paste alignment fix,
-   never a rebuild).
-8. **Verify** against the hard gate (below). FAIL → rebuild from the full brain-file contents and
-   re-verify. Never upload a failed render.
-9. **Upload to `01 · AI Brain/`, push, hand over the direct link** — with the grounding-audit tally
-   ("N facts traced, M cut") in the hand-off message.
+1. **Pull + read.** Sync the Brain (`attraction-brain-sync` PULL), then read `brain.md`, `config.md`, every
+   identity file that exists, `memory/scorecard.md` (Targets block), `memory/top-50.md` (count only, never
+   names into the Book), and `shared/brand-doctrine.md` + `shared/attraction-doctrine.md` §7b, §13 (for the
+   labeled-doctrine lines).
+2. **Research pass — backfill `prospect-intel.md` FIRST — inside a budget.** The whole build gets **~30 web
+   searches/fetches, total**, spent by priority: brokerage footprint in the member's market (≤8) → recent agent
+   movement and team formations (≤8) → where each avatar type gathers in that market (≤4 per avatar) → licensing
+   and agent-count trends (≤4) → adjacents last (≤2 each, only with budget left). One search per fact-family,
+   never one per fact; stop the moment a chapter's must-appear list is covered; a `prospect-intel.md` that is
+   current (staleness windows) costs ZERO searches. Budget exhausted = render what's verified with honest gaps.
+   This pass IS `attraction-prospect-radar`'s mandate: same shape, same research log row, same file. Write it
+   into `identity/prospect-intel.md` with source + as-of date on every number, **push before rendering**
+   (write → push → verify). **Skipped entirely in demo mode and on a Week 1 first build when the member said
+   "skip the research for now"** — then Chapters 7–8 render the designed placeholder (below).
+3. **Assemble the structured text** per the **Book structure** (below) — and ONLY that grammar: the cover title
+   block; the `[[TOC]] … [[/TOC]]` contents block; every PART and CHAPTER as a CAPS band wrapped in divider rules;
+   sub-bands (`──── Label ────`) inside chapters — one per avatar, per story, per scenario; `•` bullets; numbered
+   steps as `1.  …` lines; `Label:` lead-ins (signature phrases, testimonials, the compliance disclaimer); `>> `
+   lines for each chapter's 1–2 key-insight callouts; pipe-row tables; generous blank-line spacing. No Markdown
+   `#`/`**`/backticks in the body.
+4. **Read-back check** (Grounding Law 7). One fix pass; survivors flagged in the hand-off.
+5. **Pre-render grounding audit** (Grounding Law 6). Keep the tally for the hand-off.
+6. **Render** with `render_doc.py` to `.docx`. **Renderer stderr must show ZERO unresolved-TOC warnings** — a
+   warning means a contents row and a chapter band don't match character-for-character: fix the structured
+   text, re-emit, re-render (at most twice — a copy-paste alignment fix, never a rebuild). `RENDERER-UNAVAILABLE`
+   → the `.md` fallback, once, no loop.
+7. **Verify** against the hard gate (below). FAIL → rebuild the failing chapters from the full brain-file
+   contents and re-verify. Never upload a failed render.
+8. **Upload to `01 · AI Brain`, push, hand over the direct link** — with the grounding-audit tally ("N facts
+   traced, M cut") and the open-items count in the hand-off message.
 
 ---
 
 ## Book structure — cover, contents, parts, chapters (the render grammar)
 
-The Book must read and navigate like a real book, not a long memo. The renderer understands exactly this
-grammar — emit it exactly; anything else renders as plain text.
+**Page 1 — the cover.** Eyebrow `Agent Attraction Brain` (`--eyebrow`). Title `[Name]'s Agent Attraction
+Brain Book` (`--title`; no 📕 on the cover — the emoji lives in the filename). Byline `--subtitle "[Name] ·
+[Market]"`, with the one credential line (brokerage · years · what they're building) as the meta line — its ONE
+appearance. Date `[Month D, YYYY]` on its own meta line — the same date as the filename's ISO stamp.
 
-**Page 1 — the cover.** The title block and nothing else:
-- Eyebrow: `Agent Attraction Brain` (pass `--eyebrow "Agent Attraction Brain"` — the letter-spaced kicker).
-- Title: `[Agent]'s Business Brain Book` (pass `--title`; no 📕 on the cover — the emoji lives in the
-  filename).
-- Byline: `--subtitle "[Agent] · [City]"`, with the full credential line as the meta line under it —
-  this is the byline's ONE appearance (the byline-once invariant).
-- Date: `[Month D, YYYY]` on its own meta line — the same date as the filename's ISO stamp.
+**Page 2 — CONTENTS.** Immediately after the title/meta lines, one `[[TOC]] … [[/TOC]]` block — the renderer
+builds a linked contents page and page-breaks around it. One row per chapter — all eighteen, in order — with
+the four PART rows grouping them:
 
-**Page 2 — CONTENTS.** Immediately after the title/meta lines, emit one `[[TOC]] … [[/TOC]]` block —
-the renderer builds a linked contents page (each row an internal link to its chapter's bookmark) and
-page-breaks around it so CONTENTS is page 2. One row per chapter — all fifteen, in order — with the four
-PART rows (no summary) grouping them:
-
+```
 [[TOC]]
 PART I — WHO YOU ARE
-CHAPTER 1 — SNAPSHOT :: [one line, written for THIS agent]
-CHAPTER 2 — WHO YOU ARE :: [one line, written for THIS agent]
+CHAPTER 1 — SNAPSHOT :: [one line, written for THIS member]
+CHAPTER 2 — THE LEADER :: …
 …
-PART IV — EXECUTION
+PART IV — HOW YOU WIN
 …
-CHAPTER 15 — COMPLIANCE :: [one line, written for THIS agent]
+CHAPTER 18 — YOUR OPEN ITEMS :: …
 [[/TOC]]
+```
 
-Each `::` summary is one line **written for that agent** — it names their actual niche, market,
-community, or edge, pulled from the Brain. *"Why relocating tech families trust Sarah from Frisco to
-Prosper — and what they're afraid of"* passes; *"An overview of the agent's target audience"* is a
-FAILED contents page — the swap test applies to every row. The contents page alone must read like a book
-about them. Row text left of `::` must match its chapter band **character-for-character** — that match
-is what resolves the internal link (mismatch = unresolved-TOC warning on stderr = pipeline step 7 fails).
+Each `::` summary is one line **written for that member** — it names their actual type of agent, their market,
+their edge, their one-line why. *"Why 2–5 year agents paying for leads will hear Taylor before anyone else —
+and the Sunday routine that proves it"* passes; *"An overview of the member's target audience"* is a FAILED
+contents page — the swap test applies to every row. Row text left of `::` must match its chapter band
+**character-for-character**.
 
-**PART and CHAPTER bands.** Every chapter heading is emitted as `CHAPTER N — TITLE` and every part as
-`PART I — WHO YOU ARE` / `PART II — YOUR MARKET INTELLIGENCE` / `PART III — HOW YOU WIN` /
-`PART IV — EXECUTION` — CAPS bands wrapped in divider rules, chapter numbers sequential 1–15 with no
-gaps. The renderer gives these bands their eyebrow treatment, a page break before each, the bookmark
-the contents page links to, and an outline level — so the converted Google Doc lists every part and
-chapter in its outline sidebar, and navigation survives even where a viewer drops link conversion.
-Sub-headings inside chapters stay sub-bands (`──── Label ────`).
+**PART and CHAPTER bands.** `CHAPTER N — TITLE` and `PART I — WHO YOU ARE` / `PART II — WHO YOU ATTRACT` /
+`PART III — WHAT YOU OFFER` / `PART IV — HOW YOU WIN` — CAPS bands wrapped in divider rules, chapter numbers
+sequential 1–18 with no gaps. Sub-headings inside chapters stay sub-bands (`──── Label ────`).
 
-**`>> ` callouts.** A line starting `>> ` renders as a shaded callout box. Each chapter surfaces its
-**1–2 key insights** this way (placeholder chapters exempt) — the most decision-relevant, agent-specific
-line in the chapter: a sourced fact plus what it means for them, or their own sharpest line. Where a
-chapter already mandates a climax (Chapter 7's implications, Chapter 8's white space, Chapter 11's one
-move), the callout carries the single sharpest one. Never more than two per chapter — a callout is a
-spotlight, not a highlighter — and never generic advice (the swap test applies). Testimonials and
-signature phrases keep their `Label:` lead-in treatment; `>> ` is reserved for insight.
+**`>> ` callouts.** Each chapter surfaces its **1–2 key insights** this way (placeholder chapters exempt): the
+most decision-relevant, member-specific line — a sourced fact plus what it means for them, or their own
+sharpest line. Never more than two per chapter, never generic advice. Testimonials and signature phrases keep
+their `Label:` treatment; `>> ` is reserved for insight. Chapter 13 opens with the why-line as its callout.
 
-**Tables** stay pipe rows, exactly where the chapter contract mandates them — the renderer shades the
-header row itself; emit nothing extra.
+**Tables** stay pipe rows, exactly where the chapter contract mandates them.
 
 ---
 
-## The chapter contract — four parts, fifteen chapters
+## The chapter contract — four parts, eighteen chapters
 
-The Book runs a deliberate arc: **who you are → the market you play in → how you win → what you do
-about it.** Each PART opens with its CAPS band and a 2–4 sentence consultant-voiced bridge (what this
-part establishes and why it feeds the next). Chapter headings are exact — emitted as `CHAPTER N — TITLE`
-bands per the Book structure above — the verify gate checks all
-fifteen, and the fifteen are a **strict superset of Setup Step 7.4's eleven required headings** (Snapshot
-· Who You Are · Who You Serve · Your Market · Your Offer & USP · Your Voice & Proof · Your Brand
-Direction · Your Content Plan · Your 90-Day Business Plan · How You Operate · Compliance), so any build
-that passes this gate also passes Setup's. Word ranges are per-chapter minimums/targets for a fully
-built brain; a placeholder chapter is exempt from its range but must still render its heading +
-placeholder text.
+The Book runs the plan's arc: **who you are → who you attract → what you offer → how you win.** Each PART
+opens with its CAPS band and a 2–4 sentence consultant-voiced bridge. Chapter headings are exact — the verify
+gate checks all eighteen. Word ranges are per-chapter minimums/targets for a fully built brain; a placeholder
+chapter is exempt from its range but must still render its heading + designed placeholder text.
 
 | # | Chapter (CAPS band) | Source file(s) | Words | Researched? |
 | --- | --- | --- | --- | --- |
 | — | PART I — WHO YOU ARE | — | 40–80 bridge | no |
 | 1 | SNAPSHOT | `brain.md` quick-ref | 100–150 | no |
-| 2 | WHO YOU ARE | `identity/profile.md` | 200–350 | no |
-| 3 | WHO YOU SERVE | `identity/avatars.md` | 500–900 | no |
-| 4 | YOUR VOICE & PROOF | `voice.md` + `voice-samples.md` + `voice-print.md` + `proof.md` + `story-bank.md` | 400–700 | no |
-| 5 | YOUR BRAND DIRECTION | `identity/brand-visual.md` | 200–350 | no |
-| — | PART II — YOUR MARKET INTELLIGENCE | — | 40–80 bridge | — |
-| 6 | YOUR MARKET | `identity/market.md` | 800–1,400 | yes |
-| 7 | YOUR 12-MONTH MARKET OUTLOOK | `identity/market.md` (Outlook section) | 300–500 | yes |
-| 8 | YOUR COMPETITIVE & CONTENT LANDSCAPE | `identity/market-intel.md` | 350–600 | yes |
-| 9 | YOUR SEARCH & CONTENT OPPORTUNITY | `identity/market-intel.md` | 300–500 | yes |
-| — | PART III — HOW YOU WIN | — | 40–80 bridge | — |
-| 10 | YOUR OFFER & USP | `identity/offer.md` | 400–700 | no |
-| 11 | YOUR STRATEGIC POSITION | `identity/strategy.md` (built step 3) | 400–700 | synthesis |
-| — | PART IV — EXECUTION | — | 40–80 bridge | — |
-| 12 | YOUR CONTENT PLAN | `identity/content-engine.md` | 250–450 | no |
-| 13 | YOUR 90-DAY BUSINESS PLAN | `identity/business-plan.md` (Setup Phase 8) | 400–700 · placeholder only if skipped | no |
-| 14 | HOW YOU OPERATE | `operations.md` + `vendors.md` | 150–300 · placeholder OK | no |
-| 15 | COMPLIANCE | `identity/compliance.md` | 150–250 | no |
+| 2 | THE LEADER | `profile.md` + `strategy.md` + `journey.md` (leader moment) | 250–400 | no |
+| 3 | YOUR JOURNEY | `journey.md` (three beats + "who relates to this" + the WHY) | 350–600 | no |
+| 4 | YOUR STORY BANK | `story-bank.md` | 400–800 | no |
+| 5 | YOUR VOICE & BRAND | `voice.md` + `voice-samples.md` + `voice-print.md` + `brand-visual.md` | 300–500 | no |
+| — | PART II — WHO YOU ATTRACT | — | 40–80 bridge | — |
+| 6 | YOUR AGENT AVATARS | `avatars.md` | 500–900 | no |
+| 7 | YOUR MARKET'S AGENT LANDSCAPE | `prospect-intel.md` | 500–900 · placeholder until researched | yes |
+| 8 | WHERE THEY GATHER | `prospect-intel.md` + `avatars.md` | 250–450 · placeholder until researched | yes |
+| — | PART III — WHAT YOU OFFER | — | 40–80 bridge | — |
+| 9 | YOUR MODEL, POSITIONED | `positioning.md` + `brokerage-model.md` + `journey.md` → `## Why join me` | 350–600 | no |
+| 10 | YOUR OFFER | `offer.md` | 300–600 · "(so far)" mode when Status is seeds | no |
+| 11 | THE MONEY, HONESTLY | `goals.md` → "The money, honestly" | 300–500 · placeholder if the calculator was skipped | no |
+| 12 | YOUR PROOF | `proof.md` | 200–400 | no |
+| — | PART IV — HOW YOU WIN | — | 40–80 bridge | — |
+| 13 | YOUR 12-MONTH AND 90-DAY PLAN | `goals.md` + `execution-framework.md` (if built) | 400–700 | no |
+| 14 | YOUR WEEKLY ACTIVITY | `goals.md` (weekly activity, ratios) + `scorecard.md` Targets block + `execution-framework.md` KPIs (if built) | 150–300 | no |
+| 15 | YOUR CONTENT PILLARS | `content-pillars.md` | 200–400 · placeholder until Week 3 | no |
+| 16 | HOW YOU OPERATE | `operations.md` + `leadership.md` | 150–300 · placeholder OK | no |
+| 17 | COMPLIANCE | `compliance.md` | 150–250 | no |
+| 18 | YOUR OPEN ITEMS | every skipped question, unset field, and later-week file | 100–300 | no |
 
-**Total: target 5,000–6,500+ words for a complete brain** (chapter minimums plus the four Part bridges
-sum to ~5,050 when everything is built). **The setup gate's 3,000 words remains the ABSOLUTE floor** —
-below it the render fails regardless of state. A first-run Book (Business Plan captured in Phase 8;
-only Operations a placeholder) should land **≥ 4,800**; with an explicitly-skipped plan, **≥ 4,400**;
-if it doesn't, a rendered chapter is thin — fix the chapter, never pad. Never compress.
+**Totals: target 5,000–6,500+ words for a complete brain.** **The 3,000-word absolute floor binds every real
+build.** A Week 1 first-run Book (research done; Chapters 15 and 16 placeholders; Chapter 10 in "so far"
+mode) should land **≥ 4,400**; a first run with research skipped **≥ 3,600**; below the applicable band a
+rendered chapter is thin — fix the chapter, never pad. Never compress.
 
 ### Chapter 1 — SNAPSHOT
-The one-page "who is this agent" card. **Table** (pipe rows, Label | Value): name · market · niche ·
-voice-in-one-line · primary CTA · booking link · socials · brand colours (hex). One prose line on how to
-use the Book. **Byline rule:** the credential line lives in the title block only — do not repeat it here.
+The one-page "who is this leader" card. **Table** (Label | Value): name · brokerage · what they're building ·
+market and recruiting scope · primary type of agent (one line) · known for · the one-line why I'm here · offer
+status (in plain words: "Partner Offer: Week 2") · voice in one line · this week's activity target ·
+organization today / 12-month target · booking link · socials · brand colours (hex) · compliance status. One
+prose line on how to use the Book. No credential line (byline rule).
 
-### Chapter 2 — WHO YOU ARE
-Full `profile.md` content in prose: their path into real estate, brokerage, designations, years, focus,
-property types. **Duo/team rule (kept):** when the Brain records a team, include the structure and the
-full roster — each member's name · title · contact · licence # — as a **table** (the design suite reads
-it for team branding).
+### Chapter 2 — THE LEADER
+`profile.md` in prose: the before-story, the path in, the brokerage and the human reason they joined (never
+the mechanics), what they are building and why that shape, the leader moment from `journey.md`, what they want
+to be known for and the niche from `strategy.md`. Through the brand formula: name which of Authority ·
+Relatability · Aspiration is strongest today (labeled as doctrine, per `brand-doctrine.md` §1).
 
-### Chapter 3 — WHO YOU SERVE
-Open with an **avatar-at-a-glance table**: | Avatar | Situation | Price band | Core fear | What they
-want |. Then **one sub-band sub-heading per avatar**, each rendered IN FULL from `avatars.md`: their
-situation, what's driving them, their fears and misconceptions in *their* words, what they need from an
-agent, and how this agent specifically answers it. Every avatar in the file appears — skipping one is a
-failed chapter. Prose per avatar; the table is the summary, never the substitute.
+### Chapter 3 — YOUR JOURNEY
+The three beats as **sub-bands**, each developed (never transcribed — the echo test from the workshop skills:
+their answer, what it means for attracting agents, how to use it), each ending with the `Label:` line
+**Who relates to this:**. Then the WHY in full, the why-line as the chapter's `>> ` callout. Former
+brokerages never named.
 
-### Chapter 4 — YOUR VOICE & PROOF
-Full tone rules (**bullets**), sounds-like / never-sound-like lists (**bullets**), signature phrases
-each written as a **`Label:` lead-in line** with the phrase (the renderer bolds the label; the `>> `
-shaded box is reserved for the chapter's key insights per the Book structure), spoken voice-print if
-built, the writing samples from `voice-samples.md`, then proof:
-testimonials as `Label:` lead-in quotes (verbatim, attributed as captured — never invented or
-"improved"), stats with their provenance, and the story bank's stories written out in full.
-If `voice-print.md` / `story-bank.md` aren't built, note in one friendly line how to add them ("say
-'capture my speaking voice' / 'build my story bank'") — that line is not a placeholder chapter, the rest
-still renders.
+### Chapter 4 — YOUR STORY BANK
+Open with the **table** | Story | The moment | The lesson | Lands with (type) | Pain | Use |. Then every story
+written out in full under its own sub-band. Seeds that were never fleshed out render as one-line seeds in a
+closing **"Still to tell"** list, with the phrase that builds them ("build my story bank"). Never invent a story.
 
-### Chapter 5 — YOUR BRAND DIRECTION
-**Colour table**: | Colour | Hex | Role |. Fonts, logo direction, vibe/feel and tagline direction in
-prose from `brand-visual.md` — in full. Keep the standing note: *take this chapter into Claude Design
-(claude.ai/design) to build the actual visuals; the AI Video Editor reads these colours + fonts.*
+### Chapter 5 — YOUR VOICE & BRAND
+Tone rules (**bullets**), sounds-like / never-sounds-like, signature phrases as `Label:` lines, the writing
+samples, the spoken voice-print if built (else one friendly "say 'capture my speaking voice'" line inside the
+chapter, not a placeholder chapter). Then brand: the **Inventory** as a **table** (| Item | State |), the
+**Direction** in prose, the **colour table** (| Colour | Hex | Role |) when colours exist, the leader-vs-selling
+decision, and the standing note: *the Design Package (ds-logo → ds-style-sheet → ds-brand) builds the visuals
+in Claude Design this week; drop the kit into 02 · Brand and this chapter shows it on the next regenerate.*
+After the kit exists, render the kit's logo file name, palette, and type.
 
-### Chapter 6 — YOUR MARKET
-The heart of Part II. **One sub-band sub-heading per community the agent named**, each merging **"what
-you say"** (their positioning, verbatim — "your underrated pick") with **researched market intelligence**
-(sourced), covering ALL of: current typical prices + how they've moved (source + as-of date) · who buys
-there and why (buyer profile) · schools, amenities, commute · what's being built right now · the angle
-(why it's interesting: growth, value, inventory). Then **2–4 adjacent communities** the agent didn't
-name, same treatment, each marked "adjacent". Open the chapter with a **price-band table**: | Community |
-Typical range | 12-mo move | Source · as-of |. **Restructure, don't append** (invariant): the community
-list becomes these sub-sections — no one-line list survives. **Research mandate:** if `market.md` holds
-one-liners for any community, research it now and write it back to `market.md` first (the
-`attraction-brand-persona` Phase-4 research spec is the standard: prices+movement sourced+dated, buyer
-profile, schools/amenities/commute, construction underway, the angle, adjacents).
+### Chapter 6 — YOUR AGENT AVATARS
+Open with the **avatar-at-a-glance table**: | Avatar | Type | Where they are | Core pain | What they need to
+hear |. Then **one sub-band per avatar**, each rendered IN FULL from `avatars.md`: the one-line target, where
+they are right now, their biggest problem in their words, what they've tried, the top pains mapped to the
+member's strengths (table: | Pain (Mike's wording) | Why it hurts now | Your strength | Proof |), the mirror
+("why they'd relate" + the **Say it like this:** line), triggers, objections to expect, the ask that fits.
+Every avatar in the file appears. Then the **"Not the right fit"** line (fit and timing, never a brokerage name).
+Type of agent, never a location, never a protected characteristic.
 
-### Chapter 7 — YOUR 12-MONTH MARKET OUTLOOK  *(new — strategic)*
-Where their market is heading over the next 12 months, and what that means for THEIR niche
-specifically. **Research mandate** (write back to a `## 12-Month Outlook` section of `market.md`):
-mortgage-rate trajectory from named forecasters; the local board's / credible analysts' price and sales
-forecasts for their metro; inventory trajectory; the construction/completion pipeline that will land
-within 12 months; population/employment drivers. **Must appear:** a **table** of the key forecast
-numbers (| Indicator | Current | 12-mo direction | Source · as-of |); prose on the trajectory; then
-**3–5 "what this means for you" implications, each tied to a named niche/avatar AND a sourced fact**
-(e.g. "completions in [community] double in Q2 [source, as-of] → your new-construction buyers gain
-negotiating leverage — plan content on builder incentives"). Be honest about uncertainty — forecasts
-are labeled as forecasts, disagreements between sources are stated, and nothing is presented as certain.
-Anti-fluff rule applies (below).
+### Chapter 7 — YOUR MARKET'S AGENT LANDSCAPE  *(researched)*
+The heart of Part II. Open with the **brokerage footprint table**: | Brokerage type / name | Approx. agents in
+market | 12-month trend | Source · as-of |. Then prose on the landscape: who is growing, who is shrinking,
+recent movement and team formations (each sourced and dated), licensing and agent-count trends, and **2–3
+adjacent markets** inside the member's recruiting scope, labeled "adjacent". Then **3–5 "what this means for
+you" implications, each tied to a named avatar AND a sourced fact**. Honesty rules: observable facts only;
+"no visible movement found as of [Month YYYY]" is a finding; never a negative characterization of any
+brokerage or person (cardinal rules); "a missing name beats a wrong name". **Research mandate:** write back to
+`prospect-intel.md` first, per `attraction-prospect-radar`'s mandate. Anti-fluff rule applies.
 
-### Chapter 8 — YOUR COMPETITIVE & CONTENT LANDSCAPE  *(new — strategic, researched)*
-Who else serves this niche in this market, what their content presence looks like, and where the white
-space is. **Research mandate** (write back to `identity/market-intel.md`): identify the visible
-agents/teams serving the agent's market and niche; for each, what platforms they're actually active on,
-what they publish, and how recently (as-of date); note the market's overall content saturation by
-format (long-form YouTube, short-form, market updates, community tours). **Must appear:** a **table**
-(| Who | Platform focus | What they publish | Last active (as-of) | The gap they leave |), prose on the
-overall landscape, and a **"white space" sub-section**: 2–4 specific unclaimed positions this agent can
-own, each justified by an observed gap + something the agent actually has (their edge, niche, or story).
-**Honesty rules:** report only what was observed, with as-of dates; say plainly what couldn't be
-verified ("no visible YouTube presence found as of [Month YYYY]" ≠ "they have no clients"); **never
-disparage a named competitor or state anything about them beyond sourced, observable facts** — this
-chapter is intelligence, not trash talk, and it may inform published content. If genuinely little can be
-verified, say so and analyze the saturation level instead — an honest thin landscape is itself a finding
-("nobody in [market] is visibly serving [niche] — that's the opportunity").
+### Chapter 8 — WHERE THEY GATHER  *(researched)*
+**Table** per avatar type: | Avatar | Online rooms (groups by type, channels, podcasts) | In person
+(associations, events, trainings) | Signals they're ready | Source · as-of |. Then prose connecting the rooms
+to the member's content and the Top-50 ("your first ten names are already in …"). Types of places, never lists
+of real people; never scraped members. Where research found little, say so and point at the avatar's
+sphere-first sources (the workshop's "first ten": the other side of their last deals, former colleagues, agents
+who comment).
 
-### Chapter 9 — YOUR SEARCH & CONTENT OPPORTUNITY  *(new — strategic, researched)*
-What buyers and sellers in their market actually search — and how it maps onto their content pillars.
-**Research mandate** (write back to `identity/market-intel.md`): the live query families for their
-market ("moving to [city]", "living in [community]", "cost of living in [city] vs [feeder city]", "best
-neighbourhoods in [city] for [avatar]", "[city] housing market forecast [year]", first-time-buyer /
-program queries for their state/province, plus niche-specific families), what content currently answers
-each, and where answers are weak or missing. **Must appear:** a **table** (| Query family | Demand
-evidence (source · as-of) | Pillar it feeds | Example title in your voice |), and prose connecting the
-findings to the **20% niche / 80% general doctrine** (labeled as doctrine, per `brand-doctrine.md`): the
-broad, searched families are the 80% top-of-funnel; the niche families are the 20% that compounds — and
-the AI-search belief (AI recommends what it can find) is why the niche families matter most. **Never
-invent search-volume numbers** — where volume can't be verified, describe demand qualitatively and label
-it ("consistently surfaced/autocompleted as of [Month YYYY]"). Example titles are written in the agent's
-captured voice, ready to steal.
+### Chapter 9 — YOUR MODEL, POSITIONED
+From `positioning.md`: the one line said out loud, the vehicle-vs-reason framing, the bridge-the-gap line per
+avatar, what stays for the private call, and the 2-minute model script (rendered, clearly marked "for your
+call, not for posting"). From `brokerage-model.md` (if built): the model in plain English, each mechanic with
+its source document — else one line: "say 'explain my model to me' in Week 2." Then the **`## Why join me`
+block from `journey.md`** as its own sub-band: the 60-second version, the long version, the one-breath line —
+if not written yet, one line naming Week 2. No competitor named negatively; no number without a source.
 
-### Chapter 10 — YOUR OFFER & USP
-The complete Why-Work-With-Me narrative from `offer.md`, in full: the offer, every guarantee
-(**bullets**), the process (**numbered steps** — `1.  …` lines), and the USP with the reasoning behind
-it. This is the client-facing argument, written out — persuasive prose, not a summary. (The standalone
-client-ready guide remains available on demand; this chapter carries all of its substance.)
+### Chapter 10 — YOUR OFFER
+**When `offer.md` Status is seeds:** the band reads `CHAPTER 10 — YOUR OFFER` and the first sub-band is
+**"What you have to give (so far)"** with one line: *"Your Partner Offer is built in Week 2 — this is the raw
+material it starts from."* Render the "what worked" **table** (| Strategy | What it involved | Result | Teach
+it? |), the edge, teach-first, and the three layers (brokerage · upline · you) as captured. Nothing reads as a
+gap. **When finalized or built:** the full offer — the UVP one-liner as the `>> ` callout, the five pains table
+(| Pain (Mike's wording) | Solved? | What they give | The outcome | Proof |), the Partner Offer (core promise ·
+mechanism · proof · support · why now), what's included (**bullets**), Module 1, the first 30 days (**table**),
+the value stack (**table**) and the digital product. Outcomes, never features; what the member will SHOW, never
+what a partner will EARN; no splits, caps, stock, or earnings.
 
-### Chapter 11 — YOUR STRATEGIC POSITION  *(new — the consultant's chapter)*
-The synthesis: everything in Parts I–II pressed into an honest read of where this agent stands and what
-to do about it. SWOT-grade rigor, consultant voice, zero horoscope. Written to `identity/strategy.md`
-in pipeline step 3, then rendered. **Structure (each a sub-band sub-heading):**
-- **Your edges — and how to press them.** 2–4 real advantages, each traced to something captured
-  (their story, credential, niche, proof, or a researched market fact) — framed through A.G.E.N.T.
-  (which pillar it strengthens) — with one concrete pressing move each.
-- **Your gaps — and how to close them.** 2–4 honest gaps (a thin A.G.E.N.T. pillar, a missing proof
-  system, a competitor owning their lane, no presence on the platform their avatar lives on), each with
-  the specific closing move — usually a skill in this system, named ("build my story bank", the
-  YouTube System, the Business Plan).
-- **Your risks.** 2–3 real risks, each grounded in a sourced market fact (from Chapters 6–7) or a
-  captured business reality (single lead source, single community concentration), with the hedge.
-- **The one move.** One highest-leverage recommendation for the next 90 days, argued in a short
-  paragraph from the above — and connected to the Business Plan chapter when it exists.
-Prose throughout; no table required. Anti-fluff rule applies at full strength.
+### Chapter 11 — THE MONEY, HONESTLY
+From `goals.md` → "The money, honestly": the plan mechanics used (with source), the member's own production
+assumption, the ratios, and the **scenario table** (| Scenario | Agents at 12 months | Weekly conversations |
+Illustrative annual rev share | Label |) — every number "(illustrative)", the stamp line under the table, the
+chapter marked private-call material in one line. The `>> ` callout is the weekly activity it takes, not a
+dollar figure. Placeholder (below) only if the member explicitly skipped Stop 11.
 
-### Chapter 12 — YOUR CONTENT PLAN
-Full `content-engine.md`: pillars (**bullets**, each with its one-line why), platforms, the cadence as a
-**table** (| Day/Slot | Platform | Format/Series |), signature series, default video style. Then one
-bridging paragraph tying each pillar to the search opportunities in Chapter 9 — the plan should visibly
-answer the demand the research found. The 20/80 mix note appears here labeled as doctrine.
+### Chapter 12 — YOUR PROOF
+`proof.md` in full: production wins as stated, agents already helped (**table**: | Agent | What you did | What
+happened | When |), organization today, reviews from agents as `Label:` quotes (verbatim, consent noted),
+upline proof labeled as the upline's. Zero proof = one honest line + "help agents for free and earn the first
+case study" (`04-value-proposition/33`) — never manufactured credibility.
 
-### Chapter 13 — YOUR 90-DAY BUSINESS PLAN
-Captured in **Setup Phase 8** — part of every first run, so a first Book renders this chapter FILLED:
-**the chapter OPENS with their Why** (the why-line from `## The Why`, verbatim, as this chapter's `>> `
-callout — the numbers serve the why), then the whole plan from `business-plan.md` with the math — the
-income target, the **money-math
-table** (| Goal | Avg price | Commission | Deals needed |), where the deals come from, the **3 weekly
-non-negotiables** (one is always content), the scenario table, and the **daily/weekly KPI dashboard
-table**. Never summarize the math. The placeholder (below) renders ONLY when the agent explicitly
-skipped Phase 8, or on a pre-Phase-8 brain that hasn't run the plan yet.
+### Chapter 13 — YOUR 12-MONTH AND 90-DAY PLAN
+**Opens with the why-line** (verbatim, the `>> ` callout). Then `goals.md` in full: the 12-month milestones
+**table**, the 30-60-90 **table**, the three-year commitment stated once, the intangibles to track. When
+`execution-framework.md` is built: the four-quarter **table**, the three weekly non-negotiables, the constraint
+of the quarter, the CEO rhythm **table**. Never summarize the math.
 
-### Chapter 14 — HOW YOU OPERATE
-When built: `operations.md` in full (hours, booking rules, communication preferences) + the vendor list
-as a **table** (| Vendor | Role | Contact |). When not built: the exact placeholder (below).
+### Chapter 14 — YOUR WEEKLY ACTIVITY
+The controllables: the weekly activity and daily slice from `goals.md`, the ratios with their labels (member /
+default), the Targets block from `scorecard.md` as a **table**, the weekly KPIs from the framework when built,
+and one paragraph on how the Daily Debrief scores each day (Ahead · On pace · Behind) and the Monday check-in
+rolls the week. "Adjust the target or the hours, never the math."
 
-### Chapter 15 — COMPLIANCE
-`compliance.md` in full: the brokerage disclaimer **verbatim** under a clear `Label:` lead-in (this
-exact text goes on published content), license display rules, the claims-to-avoid list (**bullets**),
-fair-housing note, logo/co-brand rules. Skipped-and-flagged items render as flagged, never invented —
-this chapter never guesses at legal text.
+### Chapter 15 — YOUR CONTENT PILLARS
+When built (Week 3): `content-pillars.md` in full — pillars (**bullets**, each with its why), platforms, the
+cadence as a **table** (| Day/Slot | Platform | Format/Series |), the two CTAs, the signature series — plus one
+bridging paragraph tying each pillar to an avatar's pain and to Mike's four content types (labeled as doctrine,
+`attraction-doctrine.md` §13). When not built: the designed placeholder (below).
+
+### Chapter 16 — HOW YOU OPERATE
+When built: `operations.md` in full (hours, CRM and tagging, booking link, call block, 3-way partner, the
+follow-up cadence as a **table**, onboarding steps as **numbered steps**) + `leadership.md`'s readiness
+scorecard **table** and fix-first list when built. When only the Stop 16 basics exist: render them under a
+sub-band and the placeholder line for the rest.
+
+### Chapter 17 — COMPLIANCE
+`compliance.md` in full: Status in plain words, the brokerage disclaimer **verbatim** under a `Label:` line, the
+income disclaimer verbatim (labeled "default — replace with your brokerage's" when it is the default), license
+and name display rules, the rev-share marketing policy as captured, recruiting scope, the AI-likeness line, the
+claims-to-avoid list (**bullets**), the cardinal rules. Unset items render as flagged, never invented — this
+chapter never guesses at legal text.
+
+### Chapter 18 — YOUR OPEN ITEMS
+A designed page, never a list of failures. One **table**: | Open item | What fills it | When |. Rows come from:
+skipped questions (a placeholder in any file), `compliance.md` fields still unset, `offer.md` at seeds ("your
+Partner Offer" → Week 2), `brokerage-model.md` empty ("explain my model to me" → Week 2), `prospect-intel.md`
+thin ("run my prospect radar" → Week 2), the brand kit not yet in `02 · Brand` ("run the Design Package" →
+this week), `content-pillars.md` (Week 3), `execution-framework.md` ("build my execution framework"),
+`leadership.md` / `operations.md` (optional), `voice-print.md` ("capture my speaking voice"). Then the
+**workshop map**: the next three things to type, in order. A Book with zero open items renders this chapter as
+a short "Nothing open — here's what to do this week" page.
 
 ---
 
-## `identity/market-intel.md` — the researched-intelligence file (new)
+## The anti-fluff rule (Chapters 2, 6, 7, 8, 9 — and the Part bridges)
 
-Owned by this spec's research pass (pipeline step 2); readable by any skill. Three sections:
-`## Competitive Landscape` (Chapter 8's write-back), `## Search & Content Demand` (Chapter 9's
-write-back), `## Research Log` (one line per pass: date · what was researched · key sources). Every fact
-in it carries source + as-of date. It follows the same "researched intelligence vs what the agent says"
-separation as `market.md`. If the file doesn't exist at build time, the research pass creates it and
-`attraction-brain-migrate` adds it to older brains. It is brain data — synced like every other identity
-file (write → push → verify).
+**Every claim must trace to exactly one of:** (a) something the member said — captured in the Brain, ideally in
+their words; (b) a sourced, dated researched fact from `prospect-intel.md`; (c) explicitly-labeled doctrine —
+"per Mike Sherrard's lesson …" / "per the OS's brand doctrine …" — named as doctrine, never dressed up as fact.
 
----
-
-## The anti-fluff rule (Chapters 7, 8, 9, 11 — and the Part bridges)
-
-**Every claim in a strategy chapter must trace to exactly one of:**
-- **(a) something the agent said** — captured in the Brain, ideally echoed in their words;
-- **(b) a sourced, dated researched fact** — from `market.md` / `market-intel.md`;
-- **(c) explicitly-labeled doctrine** — "per the system's branding doctrine…" (A.G.E.N.T., 20/80,
-  AI-search), named as doctrine, never dressed up as market fact.
-
-**The swap test:** if a sentence would be equally true for any agent in any market ("consistency is
-key", "video is powerful", "relationships matter", "the market is always changing"), it is filler —
-delete it. **A strategy chapter an unrelated agent could paste into their own book is a FAILED chapter**
-— rebuild it from this agent's actual data. Better three specific, traceable insights than ten
-generalities. When the Brain is genuinely too thin to support a claim, say what's missing and how to
-capture it — an honest gap beats confident fluff every time.
+**The swap test:** if a sentence would be equally true for any agent at any brokerage in any market ("agents
+follow people", "consistency is key", "relationships matter") without the member's specifics attached, it is
+filler — delete it, or attach the specific. **A chapter an unrelated member could paste into their own book is
+a FAILED chapter.** Better three specific, traceable insights than ten generalities. When the Brain is too thin
+to support a claim, say what's missing and how to capture it — an honest gap beats confident fluff.
 
 ---
 
 ## Placeholders (real builds only — demo brains NEVER placeholder)
 
-Only **Operations** is unbuilt-by-design after a perfect first run (it's captured with the AI Admin).
-The **Business Plan is captured in Setup Phase 8** — its placeholder renders ONLY after an explicit
-Phase-8 skip or on a pre-Phase-8 brain. **Demo brains render NO placeholders** — Chapters 13 and 14
-fill with illustrative content like every other chapter; a demo shows the finished product.
+Every placeholder is a DESIGNED page, not an orphan line — it sells the next step and names the week. Each
+placeholder line is ONE line of structured text (never split mid-sentence). Exact treatment:
 
-A placeholder is a DESIGNED page, not an orphan line on white space — it sells the next step. Every
-placeholder line is emitted as ONE line of structured text (never split mid-sentence — a wrapped source
-line renders as two broken paragraphs). Exact treatment:
-
-- **YOUR 90-DAY BUSINESS PLAN** → one lead line: *"This chapter is waiting on one 15-minute
-  conversation."* Then the callout: `>> Say "build my business plan" — your income goal becomes the
-  exact deals you need, your daily and weekly KPIs, and your three weekly non-negotiables, with all
-  the math shown.` Then a short **"What will appear here"** bullet list: the money-math table · where
-  your deals come from · the three weekly moves · the scenario table (conservative / target / stretch) ·
-  your daily & weekly KPI dashboard · the month-by-month ramp.
-- **HOW YOU OPERATE** → one lead line: *"This chapter fills in when you set up your AI Admin."* Then
-  the callout: `>> Say "set up my operations" — your hours, booking rules, follow-up cadence, and
-  trusted vendor list live here so your AI runs your day the way YOU run it.`
-Voice-print and story-bank get the one-line "how to add" note inside Chapter 4, not a placeholder
-chapter. (Strategy never placeholders — pipeline step 3 synthesizes it fresh on every build.) **No other
-chapter may placeholder on a complete brain.** If a first-run identity file is genuinely missing, render
-its heading + the honest one-line state + the command that fills it — never a fabricated section, never
-a silently skipped heading.
+- **Chapters 7–8 (research skipped or not yet run)** → lead line: *"Your market's agent landscape gets
+  researched in Week 2."* Callout: `>> Say "run my prospect radar" — who is growing in [market], who is moving,
+  and the rooms where [primary avatar] actually gather, every number sourced and dated.` Then a short "What
+  will appear here" bullet list: the brokerage footprint table · recent moves and team formations · where each
+  type of agent gathers · what it means for you.
+- **Chapter 10 at seeds** is NOT a placeholder — it renders in "(so far)" mode (above).
+- **Chapter 11 (calculator skipped)** → lead line: *"This chapter is waiting on one 10-minute conversation."*
+  Callout: `>> Say "run my rev share scenarios" — three illustrative scenarios built on your own assumptions,
+  and the weekly activity each one takes. Nothing here is a promise.`
+- **Chapter 15 (before Week 3)** → lead line: *"Your content pillars are built in Week 3 with the Short-Form
+  system."* Callout: `>> Your pillars will come from your journey, what you teach, and your agents' wins —
+  Mike's four content types, aimed at [primary avatar].`
+- **Chapter 16 (basics only / not built)** → lead line: *"This chapter fills in as your systems do."* Callout:
+  `>> Say "set up my operations" and "audit my leadership" — your hours, follow-up rhythm, onboarding steps,
+  and an honest readiness score, so you never attract agents you can't serve.`
+- Voice-print and story seeds get their one-line "how to add" note inside Chapters 4–5, not a placeholder
+  chapter. **No other chapter may placeholder on a complete brain.** If a first-run identity file is genuinely
+  missing, render its heading + the honest one-line state + the phrase that fills it — never a fabricated
+  section, never a silently skipped heading. Every placeholder also appears as a row in Chapter 18.
 
 ---
 
 ## The verification gate (hard PASS/FAIL — run on EVERY build before upload)
 
 Extract the text back out of the rendered `.docx` and check ALL of:
-1. **Count** — complete brain: 5,000+ words (target band 5,000–6,500+); first-run (plan captured in
-   Phase 8, Operations the one placeholder): 4,800+; plan explicitly skipped: 4,400+; **absolute floor
-   in all cases: 3,000** (the Setup gate — below it, always FAIL).
-   An honest-gap chapter rendered per Grounding Law 6 is exempt from its per-chapter range, like a
-   placeholder — the 3,000 absolute floor still binds.
-2. **All FIFTEEN chapter headings present** (Snapshot · Who You Are · Who You Serve · Your Voice &
-   Proof · Your Brand Direction · Your Market · Your 12-Month Market Outlook · Your Competitive &
-   Content Landscape · Your Search & Content Opportunity · Your Offer & USP · Your Strategic Position ·
-   Your Content Plan · Your 90-Day Business Plan · How You Operate · Compliance) + the four Part bands.
-   A missing chapter = FAIL. (The fifteen include Setup Step 7.4's eleven, so passing this check always
-   satisfies Setup's eleven-heading gate.)
+1. **Count** — complete brain: 5,000+ words; Week 1 first run with research: 4,400+; research skipped:
+   3,600+; **absolute floor in all cases: 3,000**. An honest-gap chapter rendered per Grounding Law 6 is exempt
+   from its per-chapter range; the floor still binds.
+2. **All EIGHTEEN chapter headings present** (Snapshot · The Leader · Your Journey · Your Story Bank · Your
+   Voice & Brand · Your Agent Avatars · Your Market's Agent Landscape · Where They Gather · Your Model,
+   Positioned · Your Offer · The Money, Honestly · Your Proof · Your 12-Month and 90-Day Plan · Your Weekly
+   Activity · Your Content Pillars · How You Operate · Compliance · Your Open Items) + the four Part bands.
 3. **Byline appears once** (title block only).
 4. **No `<w:` markup** anywhere in the text.
-5. **Market structure** — one sub-heading per named community, 2–4 adjacent communities marked
-   "adjacent" (more than 4 = FAIL — a refresh replaces the set, never accumulates), and NO surviving
-   one-line community list.
-6. **Source discipline** — every number in Chapters 6–9 carries source + as-of date. One unsourced
-   researched stat = FAIL (it's a compliance incident waiting to publish). And no stale research: the
-   number was **verified current within its staleness window** (research RUN within 3 months for
-   market + outlook, 6 for competitive + search — the researched-stamp, NOT the source's publication
-   date: boards lag and forecasts are quarterly, so when the newest published data is older than the
-   window, cite it as the newest available and say so — that PASSES). At most ONE refresh per chapter
-   per build (Grounding Law 6's cap): if refreshed research finds the same numbers, they ARE current —
-   ship them, never re-research in a circle.
-7. **Tables rendered where the contract says table** (Snapshot card, avatar-at-a-glance, colours,
-   price bands, outlook indicators, competitive table, query-family table, cadence, money math + KPIs
-   when built) — tabular data as wall-of-prose = FAIL.
-8. **Anti-fluff spot check** — read Chapters 7–9 + 11: any paragraph failing the swap test = FAIL that
-   chapter; rebuild it from the agent's data (a chapter rebuild spends a rebuild cycle; if the brain
-   genuinely can't support specifics, the honest-gap render is the terminal state — never another loop).
-9. **Placeholders only where allowed** (rule above).
-10. **Contents page** — the linked CONTENTS renders on page 2 (exactly one CONTENTS page) with all
-    FIFTEEN chapter rows, in order, each carrying its one-line summary written for THIS agent; any
-    summary failing the swap test = FAIL.
-11. **Chapter labels** — bands read `CHAPTER 1` through `CHAPTER 15`, sequential with no gaps, each
-    inside its correct `PART I–IV` band.
-12. **TOC resolution** — the render's stderr showed ZERO unresolved-TOC warnings (pipeline step 7). A
-    warning = a contents row / chapter band mismatch: fix the structured text, re-emit, re-render.
-13. **Grounding audit ran** (pipeline step 6) and its "N facts traced, M cut" tally is in the hand-off
-    message.
-14. **Grounding laws hold** — spot-check: no community outside the agent's named/confirmed list is
-    presented as theirs (adjacents labeled, introduced in Chapter 6, ≤4); no competitor named without a
-    sourced + dated verification of market AND niche; no quote, anecdote, testimonial, stat, or
-    biographical claim about the agent that isn't in their Brain.
-15. **`[confirm:]` discipline** — every marker enumerated in the hand-off message; none on researched
-    numbers in Chapters 6–9; more than 3 total = FAIL (capture the answers with the agent, then render).
+5. **Avatar structure** — one sub-band per avatar in `avatars.md`, the at-a-glance table present, no avatar
+   skipped; the "Not the right fit" line names no brokerage.
+6. **Source discipline** — every number in Chapters 7–8 carries source + as-of date, verified within the
+   staleness window (research RUN within 3 months for footprint and movement, 6 for where-they-gather — the
+   researched-stamp, not the source's publication date; the newest available data older than the window is
+   cited as the newest available and PASSES). At most ONE refresh per chapter per build.
+7. **Money discipline** — every figure in Chapter 11 carries "(illustrative)"; the stamp line is present; no
+   sentence anywhere states what a partner will earn; no compensation number appears outside Chapters 9 and 11.
+8. **Cardinal rules** — no negative characterization of any named brokerage, sponsor, team, or person anywhere;
+   no former brokerage named in a story.
+9. **Tables rendered where the contract says table** — tabular data as wall-of-prose = FAIL.
+10. **Anti-fluff spot check** — read Chapters 2, 6, 7, 8, 9: any paragraph failing the swap test = FAIL that
+    chapter; rebuild it from the member's data (one rebuild cycle; the honest-gap render is the terminal state).
+11. **Placeholders only where allowed**, each mirrored in Chapter 18; Chapter 10 at seeds is in "(so far)" mode
+    with the Week 2 line, never a gap sentence.
+12. **Contents page** — exactly one CONTENTS page on page 2 with all EIGHTEEN chapter rows, in order, each
+    carrying its one-line summary written for THIS member; any summary failing the swap test = FAIL.
+13. **Chapter labels** — `CHAPTER 1` through `CHAPTER 18`, sequential, each inside its correct `PART I–IV` band.
+14. **TOC resolution** — ZERO unresolved-TOC warnings on the renderer's stderr.
+15. **Grounding audit ran** and its "N facts traced, M cut" tally is in the hand-off message.
+16. **Grounding laws hold** — no market outside the member's scope presented as theirs (adjacents labeled, ≤3,
+    Chapter 7 only); no sponsor or team named without a sourced + dated verification; no quote, anecdote,
+    testimonial, stat, or biographical claim about the member that isn't in their Brain.
+17. **`[confirm:]` discipline** — every marker enumerated in the hand-off; none on researched numbers in
+    Chapters 7–8; more than 3 total = FAIL.
+18. **Open items** — Chapter 18's rows match the actual placeholders and unset fields (no phantom items, no
+    missing ones).
 
-**Demo builds** (DEMO BRAINS above) swap checks 6, 13, and 14 for the demo checks: every number tagged
-"(illustrative — demo)"; ZERO real source attributions; ZERO real competitor or vendor names; the
-watermark present (filename + eyebrow + cover line). Every other check binds unchanged. **Real builds
-get the mirror tripwire:** the string "(illustrative — demo)", a DEMO watermark, or the demo cover
-line appearing ANYWHERE in a non-demo render = automatic FAIL — rebuild from the brain files.
+**Demo builds** swap checks 6, 15, and 16 for the demo checks: every number tagged "(illustrative — demo)";
+ZERO real source attributions; ZERO real competitor, sponsor, team, or vendor names; the watermark present
+(filename + eyebrow + cover line); all eighteen chapters filled. Every other check binds unchanged. **Real builds
+get the mirror tripwire:** the string "(illustrative — demo)", a DEMO watermark, or the demo cover line
+appearing ANYWHERE in a non-demo render = automatic FAIL — rebuild from the brain files.
 
-On any FAIL: rebuild the failing chapters from the full brain-file contents and re-verify. **Never
-upload a failed render. Never narrate the retry** — the agent only ever sees the finished Book.
+On any FAIL: rebuild the failing chapters from the full brain-file contents and re-verify. **Never upload a
+failed render. Never narrate the retry** — the member only ever sees the finished Book.
 
-**Bounded retries — a gate may fail a build, never trap one.** Research refresh: at most ONCE per
-chapter per build. TOC re-render: at most TWICE (then align the contents rows to the bands by
-copy-paste — it is a mechanical fix, never a rebuild). Rebuild cycles: at most TWO — **a cycle is ANY
-post-gate rebuild + re-verify pass, full-book or single-chapter** (chapter rebuilds under checks 1 and
-8 count; their terminal state is the honest-gap render, never another loop). A build still
-failing a gate after its bounded retries **STOPS and tells the agent plainly** what's blocking (the one
-gate, the one chapter, what would fill it) — a visible blocker beats an invisible loop. "Never upload a
-failed render" still holds absolutely; "never narrate the retry" applies to retries that succeed, not
-to a build that has exhausted them.
-
-The same discipline covers the edges: **wrong file in Drive** (raw `════` text visible) = ONE
-corrective re-upload of the already-rendered `.docx` — a second failure spends a rebuild cycle;
-**push verify-fails** = TWO attempts per file, then `attraction-brain-sync`'s recovery path;
-**renderer unavailable** = `pip install python-docx` once → the docx skill once → STOP and tell the
-agent the renderer is unavailable (never upload raw text, never retry installs in a loop).
+**Bounded retries — a gate may fail a build, never trap one.** Research refresh: at most ONCE per chapter per
+build. TOC re-render: at most TWICE. Rebuild cycles: at most TWO — a cycle is ANY post-gate rebuild +
+re-verify pass, full-book or single-chapter. A build still failing after its bounded retries **STOPS and tells
+the member plainly** what's blocking (the one gate, the one chapter, what would fill it) — a visible blocker
+beats an invisible loop. "Never upload a failed render" holds absolutely; "never narrate the retry" applies to
+retries that succeed, not to a build that has exhausted them. Edges: **wrong file in the workspace** (raw
+`════` text visible in a converted doc) = ONE corrective re-upload of the already-rendered `.docx`; **push
+verify-fails** = TWO attempts per file, then `attraction-brain-sync`'s recovery path; **renderer unavailable** =
+the `.md` fallback once, then stop (never install, never loop).
 
 ---
 
 ## Regeneration rules
 
-- **When:** end of Setup (Step 7.4 — with the Phase-8 plan already inside) · after the Business Plan is
-  built or refreshed outside setup (skipped-phase agents · quarterly refreshes) · "show me my Brain" /
-  "regenerate my Brain document" · whenever the Brain materially changes (new avatar, new offer, brand
-  change, migration). **A build's OWN write-backs** (its research, its `strategy.md` synthesis, the
-  migrations it performs) **are never a material change and never trigger another regenerate** — one
-  build per trigger, always.
-- **Refresh, don't fork:** same name pattern, new date, saved beside the old — newest = current; the old
-  dated copies are the version history. Never a second differently-named master doc.
-- **Research staleness on regenerate** (check the as-of stamps in the brain files; refresh only what's
-  stale or missing — never re-run everything blindly): market prices + 12-month outlook older than
-  **3 months** → refresh; competitive landscape + search demand older than **6 months** → refresh;
-  anything missing → run it now (research-on-render). Refreshed research writes back to the brain files
-  first, always (write → push → verify). A refresh **REPLACES** the adjacent-community set in
-  `market.md` (cap 4) — retire superseded adjacents rather than accumulating them.
-- **Strategic Position is re-synthesized on every build** (step 3) so it always reflects the current
-  brain + current research — and always lands in `identity/strategy.md` before it lands in the Book.
-- After upload: push, then hand the agent the direct link with the standing line — this is their
-  business bible; everything the system knows about them, in one book.
+- **When:** end of Setup (Phase 8) · after the Partner Offer is built or finalized (Week 2) · after
+  `brokerage-model.md` is built · after a Prospect Radar run · after the brand kit lands in `02 · Brand` ·
+  after `content-pillars.md` is written (Week 3) · after `execution-framework.md` is built · "show me my Brain" /
+  "regenerate my Brain Book" · whenever the Brain materially changes (new avatar, brand change, migration).
+  **A build's OWN write-backs** (its research, its config stamps) **are never a material change and never
+  trigger another regenerate** — one build per trigger, always.
+- **Refresh, don't fork:** same name pattern, new date, saved beside the old — newest = current; the old dated
+  copies are the version history (the superseded copy may be trashed after a verified push; snapshots never).
+- **Research staleness on regenerate** (check the research-log stamps in `prospect-intel.md`; refresh only
+  what's stale or missing — never re-run everything blindly): footprint + movement older than **3 months** →
+  refresh; where-they-gather older than **6 months** → refresh; missing → run it now. Refreshed research
+  writes back first, always. A refresh **REPLACES** the adjacent-market set (cap 3).
+- **The open-items page is re-derived on every build** so it always reflects the current Brain.
+- After upload: push, then hand the member the direct link with the standing line — this is their book;
+  everything the system knows about them, in one place.

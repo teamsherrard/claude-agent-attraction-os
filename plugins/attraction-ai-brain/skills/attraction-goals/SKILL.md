@@ -145,7 +145,7 @@ content, DMs, ads, or a lead magnet (`identity/compliance.md` gate; the calculat
 
 ## Weekly activity (the controllables, inside [Q39] hours/week)
 - Conversations: [x]/week   - Calls: [y]/week   - Follow-ups: [z]/week
-- Content: [from identity/content-engine.md or content-pillars.md when built; until Week 3: "set with the Short-Form system in Week 3"]
+- Content: [from identity/content-pillars.md or content-pillars.md when built; until Week 3: "set with the Short-Form system in Week 3"]
 - Daily slice (for the Debrief): [weekly ÷ working days from operations.md, default 5]
 
 ## Ratios (assumptions until 30 days of real data replace them)

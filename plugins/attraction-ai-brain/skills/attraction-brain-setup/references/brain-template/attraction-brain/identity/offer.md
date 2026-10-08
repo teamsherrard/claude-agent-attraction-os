@@ -1,6 +1,6 @@
 # [Member First Name] — What You Have to Give
 *identity · the value stack an agent gets by joining them · measured against the five pains · features become outcomes*
-*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Phase 4) writes SEEDS only — the first three sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns the "Free vs paid" section. `attraction-capture` appends under "Notes for Week 2" only.*
+*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Phase 4) writes SEEDS only — the first three sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns ONLY the `## Value stack` and `## Digital product` sections; `attraction-offer` owns every other section. `attraction-capture` appends under "Notes for Week 2" only.*
 *Doctrine: `shared/attraction-doctrine.md` §7b, §10 · `04-value-proposition/28, 31, 32, 33`.*
 
 **Status:** [seeds (Week 2 builds the offer) | finalized by member on YYYY-MM-DD | built in Week 2 on YYYY-MM-DD]
@@ -21,7 +21,7 @@
 ## Notes for Week 2 (appended by capture — never rewrites the above)
 - [YYYY-MM-DD] [ ]
 
-## The value stack vs the five pains (Week 2 — Mike's framing, `02-prospect-targeting/18` + `04-value-proposition/27`)
+## The five pains you solve (Week 2 — Mike's framing, `02-prospect-targeting/18` + `04-value-proposition/27`)
 | Pain (Mike's wording · plain alias) | Solved by this member? | What they give | The outcome (not the feature) | Proof |
 |---|---|---|---|---|
 | Financial uncertainty · inconsistent business, no reliable next client | | | | |
@@ -39,8 +39,14 @@
 **Module 1 / first lesson:** [concrete enough to record tonight]
 **First 30 days as a partner:** [week → what the partner does → what the member does → done when]
 
-## Free vs paid (owned by `attraction-free-vs-paid`)
+## Value stack (owned by `attraction-free-vs-paid`)
 **Rule (`04-value-proposition/31`):** anything evergreen that does not require their time is free to agents who join; anything that requires their time or a team is discounted, and the price is said up front.
-**Free to partners:** [ ] · **Discounted:** [ ] · **The digital product they give agents who join (Value Vault, Week 6):** [ ]
+| What they get | Free or discounted | Requires the member's time? | Real cost if bought elsewhere (only if known, cited) |
+|---|---|---|---|
+| | | | |
+
+## Digital product (owned by `attraction-free-vs-paid`)
+**The thing they GIVE agents who join (built in the Value Vault, Week 6):** [name · what it is · the outcome it produces · format]
+**Status:** [not mapped | mapped YYYY-MM-DD | built YYYY-MM-DD]
 
 **Compliance line on every public mention:** results are framed as what the member will SHOW, never what a partner will EARN. No splits, caps, stock, or rev-share numbers here — private call only.

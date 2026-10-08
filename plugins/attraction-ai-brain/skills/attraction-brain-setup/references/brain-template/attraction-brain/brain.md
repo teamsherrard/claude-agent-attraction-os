@@ -68,8 +68,9 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `identity/proof.md` — production wins, agents already helped (named, with result), organization size, reviews FROM AGENTS
 - `identity/story-bank.md` — the Personal Story & Experience Bank, each story tagged persona · pain · use
 - `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (feel, references, tagline) — the Design Package reads this
-- `identity/content-engine.md` — attraction content pillars, cadence, the two CTAs, hooks bank (written by the Short-Form System in Week 3)
+- `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 3; empty until then by design)
 - `identity/goals.md` — 12-month milestones, 30-60-90 targets, the money scenarios (illustrative), weekly activity
+- `identity/execution-framework.md` — the 12-month plan, weekly KPIs, monthly metrics, the CEO rhythm (built after goals lock)
 - `identity/leadership.md` — From Agent to Leader readiness score + fix-first list (written by the Leadership Audit)
 - `identity/operations.md` — hours, CRM, booking link, call cadence, onboarding steps (the AI Admin reads this)
 - `identity/compliance.md` — the 3-state gate: license display, brokerage name rule, rev-share marketing policy, earnings disclaimer, recruiting scope, AI-likeness disclosure
@@ -84,7 +85,9 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/debriefs.md` — the Daily Agent Attraction Debrief log: today's conversations, the score, tomorrow's three moves
 - `memory/content-log.md` — everything published or scripted (check before creating, to avoid repeats)
 - `memory/ideas.md` — content ideas captured on the go (read before generating new ideas; mark Used)
-- `memory/intel.md` — brokerage and industry news captured or watched (dated, sourced)
+- `memory/intel.md` — brokerage and industry news from the Agent Movement Watcher and captures (dated, sourced)
+- `memory/intel-reports/` — per-prospect pre-call briefs (the Conversion plugin writes them from Week 5)
+- `memory/capture-log.md` — anything capture could not classify (Open rows surface in the Debrief)
 - `memory/deadlines.md` — what's due and when
 
 **Existing materials** (old recruiting decks, bios, the brokerage's onboarding doc, a CRM export, past videos)
@@ -92,4 +95,4 @@ live in the workspace's **`06 · Materials`** folder — the member drops files 
 says **"import my materials"**; `attraction-import` extracts each piece into the right file after they confirm.
 A Realtor AI Brain, if one exists, is read once through the same skill and never written to.
 
-**config.md** — provider, workspace ID and link, CRM, timezone, locale, schema, setup progress, task ids
+**config.md** — the key registry: Schema aa-1.0 · Storage provider · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task · Agent Movement Watcher task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week

@@ -51,7 +51,7 @@ thing to build — paste your Design Package brief into Claude Design"* (the bri
 **Week-by-week optional set — report as "what the week you're in adds", never as gaps:**
 | Week | Files | Built by | How to report it |
 |---|---|---|---|
-| 1 (optional) | leadership · operations · content-engine | `attraction-leadership-audit` · `attraction-operations` · the Short-Form setup (Week 3) | "available whenever you want it" — one line, only if they ask what else exists |
+| 1 (optional) | leadership · operations · content-pillars | `attraction-leadership-audit` · `attraction-operations` · the Short-Form setup (Week 3) | "available whenever you want it" — one line, only if they ask what else exists |
 | 2 | offer finalized · positioning full · brokerage-model · prospect-intel · why-join-me story · `memory/top-50` seeded | `attraction-offer` · `attraction-model-positioning` · `attraction-brokerage-model` · `attraction-prospect-radar` · `attraction-why-join-me` · `attraction-top-50` | before Week 2: say nothing unless asked; in or after Week 2: "ready to build" with the trigger phrase |
 | 3 | content-pillars · publishing | the Short-Form plugin's setup | "arrives with your Short-Form system" |
 | 4 | channel | the YouTube plugin | "arrives with your YouTube system" |

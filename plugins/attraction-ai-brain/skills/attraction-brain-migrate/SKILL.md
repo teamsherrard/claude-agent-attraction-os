@@ -9,7 +9,7 @@ description: >
   Trigger on: "upgrade my attraction brain", "migrate my attraction brain", "is my attraction brain
   up to date", "my attraction brain looks out of date", "fix my attraction brain structure", or run
   this after a plugin update if a skill reports the Brain schema is behind. Do NOT trigger when the
-  member wants to change their information ("update my offer", "update my brand", "update my
+  member wants to change their information (update my offer / update my brand / update my
   story") — those edit content via the phase skills, not the Brain's structure.
 ---
 
@@ -51,7 +51,7 @@ here describing the exact transformation. Each entry is idempotent and safe to r
 
 - **→ `aa-1.0` (baseline, 2026-10):** the first Agent Attraction Brain structure (plan §4) —
   `identity/` (profile · journey · avatars · prospect-intel · positioning · offer · brokerage-model ·
-  voice · voice-samples · voice-print · proof · story-bank · brand-visual · content-engine · goals ·
+  voice · voice-samples · voice-print · proof · story-bank · brand-visual · content-pillars · goals ·
   leadership · operations · compliance · strategy), `memory/` (top-50 · conversations · pipeline ·
   organization · scorecard · objections · debriefs · content-log · ideas · intel · deadlines),
   `config.md` (Storage provider · Workspace folder / ID / link / Owner account · Brain home ·

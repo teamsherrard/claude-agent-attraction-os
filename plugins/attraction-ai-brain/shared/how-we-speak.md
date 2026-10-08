@@ -56,8 +56,8 @@ These are unbuilt **by design** after a perfect first run. They are never "missi
 flagged unprompted, and never counted against a Brain's completeness:
 
 - `prospect-intel.md`, `brokerage-model.md` — researched in Week 2 or on demand.
-- `leadership.md`, `operations.md` (beyond the Stop 16 basics), `content-engine.md` — Week 1 optional, or
-  written by the Short-Form System in Week 3.
+- `leadership.md`, `execution-framework.md`, `operations.md` (beyond the Stop 16 basics) — Week 1 optional;
+  `content-pillars.md` — written by the Short-Form System in Week 3.
 - `voice-print.md` — an optional depth layer; offer ONCE as an upgrade (§2), never as a fault.
 - `offer.md` at `Status: seeds`, `positioning.md` at seed — **the Partner Offer is Week 2.** Never say "your
   offer is missing"; say "what you have to give (so far)" and name the week.

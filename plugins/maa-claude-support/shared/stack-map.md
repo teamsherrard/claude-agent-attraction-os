@@ -4,9 +4,9 @@ The concierge's brain: what each plugin does, the phrases that start it, what it
 fails, and who fixes what. **Support routes here instead of answering "how do I make a reel" itself
 — the system already has a skill for almost everything.**
 
-## The OS at a glance — 10 Cowork plugins + the Design Studio skill set
+## The OS at a glance — 9 Cowork plugins + the Design Studio skill set
 
-Sales copy says "12 systems." The honest count: **10 Cowork marketplace plugins + the Design
+Sales copy says "12 systems." The honest count: **9 Cowork marketplace plugins + the Design
 Studio, which is a Claude Design SKILL SET (uploaded zips), not a plugin** — Claude Design cannot
 run plugins. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per
 Mike (2026-10-08): not a plugin, parked.
@@ -21,9 +21,8 @@ Mike (2026-10-08): not a plugin, parked.
 | 6 | **YouTube** (W4) | `yt-` | 19 | coming W4 | "Set up my YouTube engine" |
 | 8 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | coming W5 | "Set up my conversion engine" |
 | 9 | **AI Admin** (W5) | `admin-` | 7 | coming W5 | "Set up my AI admin" |
-| 10 | **Team & Retention** (W6) | `team-` / `org-` | 12 | coming W6 | "Set up my onboarding" / "run my org analysis" |
-| 11 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
-| 12 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
+| 8 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
+| 9 | **Events & Workshops** (W6) | `ev-` | 10 | coming W6 | "Plan my workshop" |
 
 (#7 was the Creative Studio — removed. Numbering keeps the cohort doc's slots so the Setup Guide
 and the playbooks agree.) "Coming" plugins: say so honestly — *"that one switches on in Week N;
@@ -98,7 +97,6 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Build an intel report on [agent]" · "a conversation starter for [agent]" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow up with [agent]" · "reactivate cold leads" | `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 8 |
 | "Set up my sales system / booking page / show-up sequence" | `sales-system-setup` · `sales-booking-page` · `sales-show-up` | 8 |
 | "My pipeline / move [agent] to [stage]" · "my follow-up queue" · "my daily brief" · "my scorecard / CEO review" · "monthly KPI review" · "team wins newsletter" | `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-scorecard` · `admin-monthly-review` · `admin-newsletter` | 9 |
-| "Onboard my new agent" · "plug-in checklist" · "duplication kit" · "teach my agents to attract" · "recognition" · "win wall" · "my community rhythm" · "survey my agents" · "run my org analysis" | `team-onboarding` · `team-plug-in` · `team-duplication-kit` · `team-teach-to-attract` · `team-recognition` · `team-win-wall` · `team-community` · `team-survey` · `org-analysis` | 10 |
 | "Build my lead magnet / opt-in / the Honest Brokerage Comparison Guide / nurture sequence" | the `lm-*` skills (magnet ideas → design → delivery → nurture → partnerships → analytics) | 11 |
 | "Plan my virtual workshop / live event / evergreen webinar / event follow-up" | the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 12 |
 | "My workbook / playbook worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the Brain's interviews ARE the worksheet | 1 |
@@ -120,9 +118,8 @@ fix.
 | YouTube (6) | same as Short-Form + `content-pillars · brokerage-model · prospect-intel` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md` |
 | Conversion (8) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance` | `memory/conversations`, `memory/pipeline`, `memory/objections` (new handlers), `memory/intel-reports/` |
 | AI Admin (9) | `operations · top-50 · conversations · pipeline · organization · scorecard · deadlines` | `memory/pipeline` (stage moves), `memory/follow-up-queue`, `scorecard` (weekly rows), `deadlines` |
-| Team & Retention (10) | `organization · offer · operations · brand-visual · proof` | `memory/organization`, `memory/recognition-log`, `memory/org-analysis/`, `identity/onboarding.md`, `identity/duplication-kit.md` |
-| Lead Magnet (11) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md` |
-| Events (12) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
+| Lead Magnet (8) | `avatars · offer · positioning · proof · compliance · brand-visual` | `memory/magnets.md`, `memory/list-growth.md` |
+| Events (9) | `avatars · offer · positioning · proof · compliance · top-50` | `memory/events.md`, `memory/pipeline` (event stages), `memory/content-log` (event content) |
 
 **Pipeline stages, locked OS-wide:** `Identified → Conversation → Call booked → Call held → 3-way →
 Joined → Onboarded → Active`. The AI Admin owns stage moves; Conversion, Events, and the Debrief
@@ -144,9 +141,7 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
 | Weekly Recruiting CEO Review | weekly | `admin-scorecard` (CEO mode) | 6 |
-| Recognition Agent | daily | `team-recognition` | 6 |
 | Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
-| Retention Pulse | quarterly | `team-survey` | 6 |
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
@@ -210,7 +205,9 @@ means the yes was never given or the Cowork task was never created — diagnosti
 - Depends on: Brain (`operations`) + Gmail + Google Calendar (or Microsoft 365). Never auto-sends.
   Owns pipeline stage moves; "the stages look different in two places" = log it.
 
-### Plugin 10 — Team & Retention (W6) · Plugin 11 — Lead Magnet (W6) · Plugin 12 — Events (W6) — coming
+### Plugin 8 — Lead Magnet (W6) · Plugin 9 — Events (W6) — coming
+
+*Team & Retention was removed from the OS on 2026-10-08 (not built). `memory/organization.md` stays in the Brain; capture and the AI Admin write joins to it.*
 - All read the Brain's `offer`/`avatars`/`compliance`; Lead Magnet's first magnet is the Honest
   Brokerage Comparison Guide (non-disparagement rules apply — cardinal rule #1); Events writes
   the promo content, event tooling (Zoom, registration page) is the member's own.

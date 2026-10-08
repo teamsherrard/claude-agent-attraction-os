@@ -76,7 +76,7 @@ Members are encouraged to rename the workspace after their organization. Locate 
    - `brain.md`, `config.md`
    - `identity/*.md` — the plan §4 set (profile · journey · avatars · prospect-intel · positioning ·
      offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank ·
-     brand-visual · content-engine · goals · leadership · operations · compliance · strategy) plus
+     brand-visual · content-pillars · goals · leadership · operations · compliance · strategy) plus
      any identity file a later plugin adds (content-pillars, publishing, channel, onboarding,
      duplication-kit)
    - `memory/**/*.md` — the ledgers (top-50 · conversations · pipeline · organization · scorecard ·

@@ -1,140 +1,119 @@
-# Platform Rules — The Short-Form Optimization Playbook
+# Platform Rules — packaging an attraction post per platform
 
-The single source of truth for how a short-form post is packaged per platform. Every short-form skill
-reads this file. Update it here and every workflow inherits the change.
+The single source of truth for how a short-form post aimed at agents is packaged on each platform. Every
+short-form skill in this plugin applies it (through `sf-optimizer`). Update it here and every workflow
+inherits the change.
 
-Core principle: **one idea, three native packagings.** Each platform ranks and displays content
-differently, so the hook is shared but the caption, hashtags, and metadata are not.
+Core principle: **one idea, native packaging per platform.** The hook and the ask are shared; the caption,
+hashtags, and metadata are not. The viewer is **an agent, anywhere** — not a buyer, not a seller, not a
+local consumer — so keywords and tags are about the agent's problem and the member's niche, never the city
+first.
 
-Follows Mike's frameworks (`${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`): **3–5 searchable hashtags
-max on every platform**, and captions/hooks **never say "stop scrolling."**
+Follows `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`: 3–5 searchable hashtags on every platform;
+captions and hooks never say "stop scrolling"; captions are simple, clear, and end on one ask
+(`07-instagram/90`).
 
 ---
 
-## Instagram Reels + Facebook
-
-Treated together — one caption serves both, with a small Facebook tweak noted at the end.
+## Instagram Reels + Facebook Reels
+One caption serves both; one Facebook tweak noted at the end.
 
 **Caption structure:**
-1. **Line 1 = the hook**, adapted for reading (the spoken hook from the video, rewritten to stop a
-   thumb mid-scroll). This is the only part most people see before "…more" (~125 chars) — make it earn
-   the tap.
-2. **2–4 short lines of value / local context** — the substance, in the agent's voice, naming the city.
-3. **One CTA line** — matched to the post's funnel role (see CTA map in SKILL.md).
+1. **Line 1 = the hook**, rewritten for reading: the only part most people see before "…more" (~125
+   characters). It names the agent's problem or the leader's moment.
+2. **2–4 short lines of substance** — the point of the video in the member's voice; one thing the video
+   did not say, so the caption earns its read.
+3. **The ask, last line** — one rung, one keyword: "comment GUIDE and I'll send it" · "DM me PARTNER" · "if
+   this is you, message me" · "follow for the next one."
 
-- **Length:** ~100–200 words. Short, skimmable, line breaks between thoughts.
-- **Tone:** `voice.md`. Speak to one person ("you"), not a broadcast.
-- **Emoji:** sparingly, only if it fits the agent's voice.
+- **Length:** ~80–160 words. Line breaks between thoughts. Speak to one agent ("you").
+- **Emoji:** sparingly, only if it is in `voice-samples.md`.
 
-**Hashtags (Instagram): 3–5 searchable — no more** (Mike's rule; a hashtag wall reads as spammy and
-doesn't help reach). Blend:
-- **1–2 hyperlocal** — `#[City]RealEstate`, `#[City]Homes`, `#[Neighbourhood]`
-- **1–2 topic** — e.g. `#FirstTimeHomeBuyer`, `#[City]Living`
-- **1 broad** (optional) — `#RealEstate` / `#Realtor`
-- Prefer searchable, mid-size tags over million-post giants. Avoid follow-bait (#followforfollow, #f4f).
+**Hashtags (Instagram): 3–5, no more.** Blend:
+- **1–2 agent-audience tags** — `#realestateagent`, `#realtorlife`, `#newrealtor`, `#realestateteamleader`
+- **1–2 topic/niche tags** — the member's lane (`#realestatemarketing`, `#realestatecoaching`,
+  `#aiforrealtors`, `#openhousestrategy`)
+- **1 local tag, only when the member leads a local team or local brokerage** — `#[City]Realtors`
+- Mid-size, searchable tags over million-post giants. No follow-bait. Never a brokerage hashtag that reads as
+  a recruiting ad.
 
-**Facebook tweak (note it, don't rewrite the whole thing):**
-- Trim to **~3–5 hashtags** (FB doesn't reward dense hashtags).
-- FB allows a **clickable link** — the agent can paste their booking link directly in the caption.
-- Slightly more conversational / community-framed is fine; FB skews to an older, local audience.
+**Facebook tweak:** same 3–5 tags; the booking link can be pasted directly; slightly more conversational is
+fine. If the post will ever be boosted or run as an ad, note the Meta "Employment" special-ad-category rule
+(`shared/compliance-doctrine.md` §8).
 
 ---
 
 ## TikTok
+A search and discovery engine; agents search it like Google.
 
-TikTok is a **search + discovery** engine. People search TikTok like Google, so keywords matter — in
-the caption AND ideally spoken/on-screen in the video.
-
-**Caption rules:**
-- **ONE LINE. NO LINE BREAKS.** The posting API strips line breaks, so write it as a single flowing
-  sentence. Never format it as multiple lines.
-- **Keyword-led + conversational** — lead with what someone would search ("buying in [city]…"), keep
-  it casual and native to TikTok (not a polished IG caption).
-- End with a **light CTA** woven in, not a formal sign-off.
-- **Length:** short — roughly one sentence plus hashtags. Front-load the searchable terms.
-
-**Hashtags (TikTok): 3–5**, blended:
-- 1–2 **searchable local** — `#[city]`, `#[city]realestate`, `#[city]homes`
-- 1–2 **niche/topic** — `#firsttimehomebuyer`, `#hometok`, `#realestatetok`
-- 1 **broad reach** — `#realtok`, `#fyp` (only one broad tag; don't stuff)
-- Lowercase, no spaces. Put them inline at the end of the single-line caption.
-
-**On-screen text note (pass to the agent):** TikTok rewards a keyword in the first on-screen caption —
-suggest one short keyword overlay for the opening frame.
+- **ONE LINE. NO LINE BREAKS.** The posting tools strip them; write one flowing sentence.
+- **Keyword-led and conversational** — lead with what an agent would search ("switching brokerages,"
+  "real estate agent burnout," "[niche] for realtors"), keep it native, not polished.
+- The ask woven in at the end, one keyword, no formal sign-off.
+- **Hashtags: 3–5 inline**, lowercase: 1–2 agent-audience (`#realestateagent`, `#realtortok`), 1–2 niche,
+  1 broad (`#realestate`) — only one broad tag.
+- **On-screen note:** a keyword overlay on the opening frame helps TikTok index the video.
 
 ---
 
 ## YouTube Shorts
+Indexed by Google and YouTube — the SEO play of the four.
 
-Shorts are **searchable and indexed by Google + YouTube** — this is the SEO play of the three. Titles
-and tags do real ranking work here.
-
-**Title:**
-- **Search-friendly, keyword-front, under ~70 characters.**
-- **Include the city.** Lead with the term someone would type.
-- End with **#Shorts**.
-- Example shape: `Should You Buy in [City] Right Now? (2026 Market) #Shorts`
-
-**Description:**
-- **2–3 lines.** Open with a keyword-rich sentence restating the topic + city.
-- Add one line of context/value, then the **CTA + booking link** (links are clickable on YouTube).
-- Weave in 2–3 natural keywords; don't keyword-stuff.
-
-**Hashtags: 3–5** in the description — include `#Shorts` + `#[city]` + 1–2 topic tags (Mike's 3–5 rule).
-
-**Tags** (the separate YouTube keywords field — not visible hashtags): a handful of searchable phrases for
-indexing — city + market terms, the main topic, agent/brand. This field is metadata, not the hashtag count.
+- **Title:** search-friendly, keyword-front, under 70 characters, ends with `#Shorts`. Shape: `Why Agents
+  Leave Their Brokerage in Year Two #Shorts` · `The Open House Script That Books Listings #Shorts`.
+- **Description:** 2–3 lines: a keyword-rich sentence restating the point, one line of value, the ask with
+  the booking link (links are clickable here). 2–3 natural keywords, never stuffed.
+- **Hashtags:** 3–5 in the description including `#Shorts`.
+- **Tags** (the separate keywords field): a handful of searchable phrases — the niche, the problem, the
+  member's name and organization name.
 
 ---
 
-## Video assets (video formats only — green screen, talking head, home tour, story; NOT carousel)
+## LinkedIn (team-leader and broker-owner avatars)
+LinkedIn is where producers and leaders read; the video is optional there.
 
-These belong to the post, not a single platform — produce them once for any video.
-
-- **Cover / thumbnail text** — the bold **3–6 word** overlay on the first frame. It's what stops the
-  scroll in the feed/grid, so it must tease the payoff, not summarize. Give one strong option (a second
-  if useful). Examples: "Calgary's window is closing", "Rates held — now what?", "$750K in NW Calgary".
-- **On-screen text cues** — 2–3 short overlays (**≤6 words each**) placed at the beats where they
-  reinforce the spoken line: the key stat, the city, a turning-point phrase. These drive retention.
-
-Text instructions only — the agent adds them in their editor. Never render an image.
+- **A 3–6 line text post that stands alone** without the video: the hook as line one, a short story or the
+  one tactical point, the ask as a question ("what's your take?" · "want the checklist? comment GUIDE").
+- **No more than two hashtags.** Professional tone, still the member's voice. Never a brokerage pitch.
 
 ---
 
-## The CTA map (the silent 4-3-2-1 logic + lead-magnet routing)
+## Video assets (video formats only; not carousel)
+Produced once per video, for the editor, as text:
+- **Cover text** — the bold 3–6 word overlay on the first frame; it teases the payoff, never summarizes.
+  Examples: "I almost quit in year two" · "The DM script that books calls" · "What leading 40 agents taught me."
+- **On-screen cues** — 2–3 overlays (≤6 words each) at the beats that reinforce the spoken line: the
+  mistake, the turning point, the one tactic.
+Text instructions only; never rendered here.
 
-Match the CTA on **both** the funnel role and the post topic. Any DM-keyword or download CTA must point
-to a **real lead magnet listed in `identity/offer.md`** — never invent one. If none fits, use a soft CTA.
+---
 
-Mike's 4-3-2-1 (keep this ratio across the agent's posts): **4 reach (40%) · 3 value/education (30%) · 2 trust/connection (20%) · 1 conversion (10%)**.
+## The ask map (one rung per post, from `sf-comment-to-dm`'s ladder)
 
-| Post type / funnel role | CTA |
-|---|---|
-| **4 · Awareness / reach** (40%) | "Follow for [city] updates" · "save this" · "send this to someone thinking of moving" |
-| **3 · Value / education** (30%) | "save this" · "follow for more tips" · "DM me '[KEYWORD]' for the [guide]" (→ a real lead magnet) |
-| **2 · Trust / connection** (20%) | invite a reply, comment, or DM'd question — no ask for business |
-| **1 · Conversion / selling** (10%) | book a call · download the lead magnet · request a home valuation (Primary CTA from `voice.md`) |
-| Market update | "DM '[REPORT]' for this month's [city] market report" |
-| Buyer education | DM **"BUYER"** → the buyer lead magnet |
-| Seller education | DM **"SELLER"** → the seller lead magnet |
-| Relocation | DM **"RELOCATION"** → the relocation guide |
-| Neighbourhood / home tour | "DM for the full [neighbourhood] guide" · "address in bio" |
-| Client story / personal story | relate + soft invite ("if this is you, DM me") — proof builds trust, don't hard-sell |
+| Pillar | Default rung | The ask |
+|---|---|---|
+| **Authority** (what I teach) | Resource | "comment GUIDE / GROWTH / SCALE and I'll send it" — tied to a real resource in `offer.md`; seeds only → "DM me and I'll walk you through it" |
+| **Perspective** (industry take) | Comment | "agree or disagree? tell me below" · "follow for the next one" |
+| **Story** (the journey) | DM | "if this is where you are, DM me PARTNER; happy to share what I'd do" |
+| **Proof** (agent wins, culture) | DM | "want to know how [first name] did it? DM me" — permissioned wins only |
+| **Personality** | Follow | "follow for the real side" — nothing more |
+| **Any post, about one in five** | Call | "if it makes sense, let's talk; link in bio" — never on a Personality post |
 
-Only ~1 in 10 posts is a hard conversion CTA (the "1" in 4-3-2-1). Default to soft when unsure.
+Rules: one keyword per post, said once on camera and written once in the caption; the keyword is pinned as
+the first comment; every resource ask points to something that exists; **no compensation, rev share, splits,
+caps, fees, or income words in any caption on any platform** — those are a call conversation.
 
 ---
 
 ## Cross-platform rules (apply to all)
-
-- **Never paste one identical caption across all three.** Different lengths, different hashtag logic,
-  different CTAs. If two outputs look the same, rework them.
-- **3–5 hashtags max** on every platform (Mike's rule) — searchable, mostly local; never a hashtag wall.
-- **Never write "stop scrolling" / "don't scroll"** in a hook or caption — it reads as desperate (Mike).
-- **Name the local market** in every version — local is the realtor's edge.
-- **Match the funnel role** — soft CTAs by default; a hard "book a call" only on conversion posts
-  (~1 in 10).
-- **Voice first** — read it back; does it sound like the agent (`voice.md`), or like generic marketing?
-- **Compliance last** — disclaimer/license where required; strip any "claims to avoid."
-- **Text only** — this skill outputs words. Any visual (thumbnail, carousel slide, background) is
-  described in words for the agent to build in claude.ai/design; it is never rendered here.
+- **Never one identical caption across platforms.** Different lengths, different tag logic, same ask.
+- **3–5 hashtags max**, agent and niche first; the city only for a local-team leader.
+- **Never "stop scrolling."** Never "join my team." Never a brokerage feature as the hook.
+- **Speak to one agent.** Name their problem; the member is the guide, not the hero.
+- **Cardinal rules on every line** (`03-model-positioning/13`): no negative word about another brokerage or
+  person; a former brokerage is "a franchise" or "an independent."
+- **Permission** on any named agent or their numbers (`shared/compliance-doctrine.md` §7).
+- **Voice first** — read it back against `voice-samples.md`; if it sounds like marketing, rewrite.
+- **Compliance last** — the stamp per `shared/compliance-doctrine.md` §9 where required; `unset` means the
+  captions do not ship.
+- **Text only** — any visual is described in words for the member's design tool; never rendered here.

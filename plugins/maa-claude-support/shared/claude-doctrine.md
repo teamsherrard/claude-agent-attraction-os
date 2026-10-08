@@ -92,7 +92,7 @@ outward-facing happens without a yes.
 - **The one password exception (day one, everyone hits it):** signing in to Google or Microsoft
   on THEIR own sign-in page during connector setup is normal, required, and safe. The rule is
   never type a password into a chat message — not "never sign in anywhere."
-- House default across all 10 plugins AND every scheduled agent: **Claude drafts, the member
+- House default across all 9 plugins AND every scheduled agent: **Claude drafts, the member
   approves. Nothing auto-sends** — emails, DMs, posts, publishes all wait for a yes.
 
 ## 5. Models in one breath

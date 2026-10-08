@@ -193,7 +193,7 @@ has heard something from agents who left, it's "I've heard that from agents who 
 | `attraction-rev-share-calculator` | the mechanics (tiers, caps, cap-back) for illustrative scenarios | — |
 | The Conversion plugin (call prep, objections) | all of it, for private calls | — |
 | The YouTube plugin (model-breakdown videos) | how a cloud / franchise / flat-fee model works **in general terms** | the member's own numbers, any comparison that names a competitor's weakness, any projection |
-| Any content or design skill | nothing from this file | compensation, caps, splits, tiers, stock, projections — compensation is a private call (`attraction-doctrine`) |
+| Any content or design skill | nothing from this file | compensation, caps, splits, tiers, stock, projections — compensation is a private call (`${CLAUDE_PLUGIN_ROOT}/shared/attraction-doctrine.md`) |
 
 ---
 

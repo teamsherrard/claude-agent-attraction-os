@@ -35,7 +35,7 @@ Mostly this skill *shows* and asks the member to react; it has at most two short
 `~/attraction-brain/brain.md`, then: `identity/goals.md` (required — if it is absent or `seeds`,
 say in one line that the targets come first and run `attraction-goals`, then return),
 `memory/scorecard.md`, `identity/leadership.md` and `identity/operations.md` (if built — capacity,
-hours, call cadence), `identity/content-engine.md` or `identity/content-pillars.md` (if built — the
+hours, call cadence), `identity/content-pillars.md` or `identity/content-pillars.md` (if built — the
 content KPI), `memory/organization.md`, `memory/pipeline.md`, `memory/content-log.md` (what has
 actually happened), `identity/execution-framework.md` (if present, this is a refresh). Pull via
 `attraction-brain-sync` if the local copy is missing; a tool error is never "no Brain".

@@ -79,7 +79,7 @@ attraction schema:
 | `operations.md` | hours · booking link · CRM · signature | `identity/operations.md` + `config.md → CRM` | Follow-up cadence for *agents* and onboarding steps are still asked (Stop 16). |
 
 **Never:** write, rename, move, trash, or push anything on the realtor side · copy the realtor
-`config.md`, `compliance.md`, `offer.md`, `avatars.md`, `business-plan.md`, `content-engine.md`, or
+`config.md`, `compliance.md`, `offer.md`, `avatars.md`, `business-plan.md`, `content-pillars.md`, or
 any `memory/` ledger (clients, listings, deals are not attraction material and compliance is
 re-captured for attraction rules) · let the realtor workspace's folder ID or marker into the
 attraction `config.md`. Record `Realtor Brain bridge: pulled [YYYY-MM-DD]` (or `declined`) in the

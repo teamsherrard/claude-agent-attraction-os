@@ -43,7 +43,7 @@ only the *default label*. Locate it robustly:
 ├── 04 · Agents/                 ← the people side
 │   ├── Prospects/               (Prospect Radar reports, agent-landscape research, call prep)
 │   └── My Organization/         (onboarding records, recognition, org analyses)
-├── 05 · Offer/                  ← onboarding docs, teach-first lessons, the value-stack sheet, the Offer Doc, Why Join Me
+├── 05 · Offer/                  ← the Partner Offer doc, the value stack, teach-first lessons, onboarding docs, Why Join Me
 └── 06 · Materials/              ← the member's existing stuff: old recruiting decks, bios, the brokerage's onboarding doc, CRM exports, past videos — the AI reads these
 ```
 The system **auto-creates all of this at setup** — the member never builds a folder. The six top-level folders
