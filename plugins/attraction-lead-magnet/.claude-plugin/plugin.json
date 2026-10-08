@@ -1,0 +1,10 @@
+{
+  "name": "attraction-lead-magnet",
+  "displayName": "Agent Attraction Lead Magnet (Plugin 8)",
+  "version": "0.1.0",
+  "description": "PLUGIN 8 — Lead Magnets & Opt-In Funnels pointed at agents (Week 6). The first magnet is locked: the Honest Brokerage Comparison Guide (factual, cited, dated, no ranking, no trash talk). Then: the next magnet picked from your Agent Avatars and what converted, the magnet written in your voice, the styled PDF brief for Claude Design, the opt-in page and thank-you and book-a-call step, delivery by DM, email, and story (the ManyChat GUIDE keyword), the nurture sequence and weekly newsletter, partnership outreach to lenders, coaches, vendors, and other leaders, your Google Business Profile positioned for attraction, social bios aligned to the funnel, and analytics on opt-in rate, list growth, and magnet-to-call conversion. Reads the Agent Attraction Brain; requires Plugin 1 and an offer from Week 2.",
+  "author": {"name": "Team Sherrard"},
+  "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": ["lead magnet","opt-in funnel","agent attraction","nurture","newsletter","real estate"]
+}

@@ -1,46 +1,28 @@
-# The AI Brain Document — one organized master doc (the deliverable)
+# The AI Brain file — one document, everywhere
 
-Every agent gets **ONE comprehensive "Your AI Brain" document** — a premium, well-organized render of their
-whole Brain, saved to Drive. It is also **the "AI Brain file"** that every skill in the agent's Claude
-Design suite asks them to upload — one doc, everywhere. It is a **render of the identity files** (which stay the source of truth), never a
-new source — so it's always rebuildable and never drifts. Generated at the end of Setup, refreshed whenever the
-Brain materially changes (especially after the **Business Plan** is built), and on demand ("show me my Brain").
+Every member gets **ONE master document**: the **📕 [Name]'s Agent Attraction Brain Book**, a premium render of
+their whole Brain saved to their workspace (`01 · AI Brain`). **It is "the AI Brain file"** — the one file every
+Agent Attraction Design Studio skill (`ds-*`, in Claude Design) and the Lead Magnet skills ask the member to
+upload, because those tools cannot read `~/attraction-brain/`. One doc, everywhere.
 
-## How to build it
-1. **Read the identity files that exist.** Pull each section's content from its file (below). Skip nothing —
-   for a section whose file isn't built yet, render a **one-line placeholder + how to fill it**, so the agent
-   can see what's still open (this matters most for **Business Plan** and **Operations**, which come after core setup).
-2. **Assemble the sections in order** as the house-style **structured text** — each section title as a CAPS band
-   (`──── SECTION ────`) so `shared/render_doc.py` styles it; bullets and `Label:` lead-ins as usual.
-3. **Render + save.** Run it through `shared/render_doc.py` (per `shared/doc-formatting.md`) to a premium `.docx`
-   and save it to the workspace's **`01 · AI Brain/`** (legacy brains: `Agent Attraction Brain → exports`) as
-   **"[Agent] — AI Brain — [YYYY-MM-DD]"** — dated, so regenerations never collide; newest = current
-   (use `--eyebrow "Agent Attraction Brain"`).
-   Then push (`attraction-brain-sync`). The `.docx` is the keepsake; the markdown identity files remain the truth.
+The full contract — chapters, pipeline, grounding laws, demo mode, verification gate, regeneration rules — is
+**`shared/brain-book-spec.md`**. This file holds only the rules every skill needs when it *points at* the Book.
 
-## The sections (in this order)
-1. **SNAPSHOT** — name · market · niche · voice-in-one-line · primary CTA · booking link · socials (from `brain.md` quick-ref)
-2. **WHO YOU ARE** — `identity/profile.md` (when the Brain records a duo/team: include the structure
-   and the roster — each member's name · title · contact · licence # — the design suite reads it for
-   team branding)
-3. **WHO YOU SERVE** — `identity/avatars.md` (each avatar, with their fears/motivations)
-4. **YOUR MARKET** — `identity/market.md` (communities, price bands, local intel)
-5. **YOUR OFFER & USP** — `identity/offer.md`
-6. **YOUR VOICE & PROOF** — `identity/voice.md` (tone) + `voice-print.md` (spoken, if built) + `proof.md` + `story-bank.md` (if built)
-7. **YOUR BRAND DIRECTION** — `identity/brand-visual.md` (note: take this into claude.ai/design to build the visuals)
-8. **YOUR CONTENT PLAN** — `identity/content-engine.md`
-9. **★ YOUR 90-DAY BUSINESS PLAN** — `identity/business-plan.md` (the target · deals needed · daily & weekly KPIs ·
-   the 3 weekly moves). **If not built yet:** placeholder — *"Run 'build my business plan' and this section fills in."*
-10. **HOW YOU OPERATE** — `identity/operations.md` + `identity/vendors.md`. **If not built yet:** placeholder —
-    *"Set up when you build your AI Admin."*
-11. **COMPLIANCE** — `identity/compliance.md` (disclaimer, license display, claims to avoid)
-
-## Rules
-- Written **for the agent** — clear headings, second person, genuinely useful as a reference; premium via `render_doc.py`.
-- **Never invent** — render only what's actually in the Brain; use placeholders for what isn't built yet.
-- **This is the "AI Brain file" for design.** Every Claude Design skill in the design suite asks the
-  agent to upload their "AI Brain file" — it means THIS document. When an agent asks which file to
-  take to Claude Design: this one — download it from Drive (or let Claude Design read it via the
-  Drive connector), and regenerate it here whenever the Brain materially changes.
-- **Refresh, don't fork** — regenerate the same "[Agent] — AI Brain" doc after the Business Plan is built, and on
-  "show me my Brain" / "regenerate my Brain document". One doc, always current.
+## The rules
+- **It is a render, never a source.** The markdown files in `identity/` and `memory/` stay the truth. The Book is
+  always rebuildable and never holds a fact the Brain doesn't. Nothing is ever edited in the Book and not in the Brain.
+- **Name:** `📕 [Name]'s Agent Attraction Brain Book — YYYY-MM-DD` (`.docx`, via `shared/render_doc.py`,
+  `--eyebrow "Agent Attraction Brain"`). Dated; **newest = current**; never a second differently-named master doc.
+- **Where:** the workspace's `01 · AI Brain` (per `shared/drive-map.md`), then push via `attraction-brain-sync`.
+- **When it regenerates:** end of Setup (Phase 8) · after the Partner Offer is built in Week 2 · after the brand kit
+  lands in `02 · Brand` · after a Prospect Radar run · whenever the Brain materially changes · "show me my Brain" /
+  "regenerate my Brain Book". A build's own write-backs never trigger another build.
+- **Which file to take to Claude Design:** this one. Download it from the workspace (or let Claude Design read it
+  through the storage connector). When a member asks "which file do I upload?", the answer is the newest-dated
+  Brain Book in `01 · AI Brain` — **never a DEMO-watermarked one**, never the raw `_engine` files.
+- **The Design Studio also reads** `brand-visual.md`, `offer.md`, `positioning.md`, `avatars.md`, `proof.md` through
+  the Book's chapters; keep those chapters full, never summarized (the spec's invariant).
+- **Open items are a page, not a gap.** Everything unfilled (a Week 2 offer, an unset compliance field, no brand kit
+  yet) renders on the Book's "Your open items" page with the week or the phrase that fills it — so nothing on the
+  page reads as something the member failed to do.
+- **Never narrate a failed render.** The member only ever sees the finished Book and its direct link.
