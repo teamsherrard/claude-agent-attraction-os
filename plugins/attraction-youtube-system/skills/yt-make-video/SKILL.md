@@ -1,90 +1,103 @@
 ---
 name: yt-make-video
-description: Workflow 2 of 2 — Video Production. Run this in a NEW chat that becomes the video (one chat = one video). Given a chosen idea, it produces everything for that one video — step by step, in the agent's voice, all saved to that video's folder. It locks the packaging (title, hook, 3 thumbnail texts), writes the script, builds the SEO package, maps the lead magnet, and — after the agent films and publishes — repurposes it into shorts, a blog, an email, and social posts. Triggers on "make this video", "produce this video", "let's make the video", "build this video", or when a chosen idea is pasted into a fresh chat.
+description: >
+  Make This Attraction Video — the end-to-end production flow of the Agent Attraction YouTube System. Run it
+  in a new chat that becomes the video (one chat = one video). From a chosen idea it locks the packaging
+  (title, hook, pillar), writes the script in the member's voice, builds the thumbnail brief and the SEO
+  package with the book-a-call CTA, maps the resource, fills the content-board card, and after the member
+  films and publishes it writes the content-log row and repurposes the video. Works for niche videos,
+  interviews, and model breakdowns; hands the edit to the Riverside Studio by name. Never posts, never
+  publishes; the compliance gate runs before anything public.
+
+  Trigger on: "make my attraction video", "produce my attraction video", "let's make the agent video",
+  "build this attraction video", "make this interview video", "make this model breakdown video", "start the
+  video for this idea", or when a chosen attraction idea is pasted into a fresh chat.
 ---
 
-# Workflow 2 — Make This Video (one chat = one video)
+# Make This Video — one chat = one video
 
-This chat IS the video. Walk the agent through producing it **one simple step at a time** — never dump it
-all at once. Everything saves to this video's folder. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
+This chat IS the video. One simple step at a time, confirm before moving on, everything saves to this
+video's folder. The member only ever feels "we're making my video." Apply
+`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, the universal structure / hook / CTA sections of
+`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`
+(read `brain.md` first · write then push via `attraction-brain-sync` · `compliance.md` before anything public).
 
-> **Applies the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`). Every video follows
-> the universal structure **§4** (Hook → Primary CTA near the beginning → Body → Secondary CTA → next-video
-> direction) and the matching pillar's spec: market updates **§9.1**, home tours **§10.1** (+ new-construction
-> positioning **§10.5**), relocation **§11.1**, community tours **§12.1**, map tours **§13.1/§13.3**, local
-> lifestyle **§14.1**. Lock the packaging and outline on the **§24.2 outline template**. The downstream skills
-> (Script Studio §4–§7, SEO §16–§18) carry the detail — keep this flow coherent with the doctrine throughout.
-
-> This is the guided full-video flow. If the agent only wants one piece — just a script, just the SEO, just
-> a lead magnet, just repurposing — let them jump straight to that skill; don't force the whole sequence.
+> If the member wants one piece only (just the script, just the SEO, just the thumbnail brief), jump to that
+> skill; never force the whole sequence.
 
 ## Step 0 — Set up the video
-Confirm the idea/title. **If it came from the agent's captured idea backlog (`~/attraction-brain/memory/ideas.md`),
-mark that row Used now** — this chat is where the idea becomes a video (ideation only proposes). Then resolve the save location per
-`${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md` ("Saving content — resolve,
-never duplicate"): from the YouTube Layer get the workspace anchor, find-or-create the month bucket
-`{YYYY-MM · Month}`, then find-or-create this video's folder `{YYYY-MM-DD · Title}`. EVERYTHING in this
-chat saves there under its fixed name (Script · SEO Package · Lead Magnet Map · Repurposing Pack). Confirm
-the spot in plain words and suggest the agent name this chat after the video.
+Confirm the idea/title and its **pillar** (Problem · Situation · Future · Interview · Model). If it came from
+`~/attraction-brain/memory/ideas.md`, mark that row Used now (this is where an idea becomes a video). Read
+`brain.md`, then `identity/content-pillars.md` (cadence, the two CTAs), `identity/avatars.md`,
+`identity/voice.md`, `identity/story-bank.md` (pick one story, unused recently — the content-log says which
+are fresh), `memory/content-log.md` (no repeats), `identity/compliance.md` (status now, so an `unset` is known
+before work starts). Resolve the save spot: `03 · Content/Long-Form/{YYYY-MM-DD · Title}/` (naming per
+`${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`). Say where it saves in plain words and
+suggest naming the chat after the video. Missing local Brain → `attraction-brain-sync` first; a tool error is
+never "no Brain".
 
-## Step 1 — Lock the packaging (quick, before the script)
-**First, actually RUN the competitive audit (§11.5/§16.4) — search YouTube now, don't skip this:** find the
-**top 3–5 real videos on this exact topic in THEIR market** (per the competitive-audit lane in
-`${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md` — market-first, comparable
-markets only as the fallback, quality bar applied). Capture each as `link · channel · ~views · the read`
-(what works, what's missing, how we beat it). REAL links you actually found — never invented; if a view
-count isn't visible, leave it off rather than guess.
-Then, informed by that read: confirm or refine the final **Title**, the **Hook**, and **3 short thumbnail
-text options** (pulled from the title — text only, no design). Identify the video's **pillar** so the script
-follows that pillar's structure (§9–§14). The hook follows the §5.4 formula (never "welcome back" / §5.5);
-the title is search-intent-first and beats the videos you just audited (§16, §16.4).
-**Give the agent the references in chat** — *"before you film, watch these 3 — here's what each does well
-and how yours wins"* — they're part of the deliverable whether or not a Notion board exists (they also go on
-the card in Step 6).
+**Interview?** Run `yt-interview` first if the guest is not yet in `memory/interview-pipeline.md` at Booked
+or later. **Model breakdown?** Run `yt-model-breakdown` (it gates on `identity/brokerage-model.md`).
+
+## Step 1 — Lock the packaging (before the script)
+Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3–5 real videos agents
+find for this exact question — `link · channel · ~views · what works · what's missing · how ours is more
+useful`. Real links only; the cardinal rules apply to how competitors are described (what is missing, never
+what is wrong with them). Then lock the **title** (the viewer's question, pain or desire named — `97`), the
+**hook** (the first 15–30s, straight into the question, no "welcome back"), and the **story** from the bank.
+Give the member the references in chat: *"watch these three before you film — here's what each does well."*
 
 ## Step 2 — Script
-Write the full teleprompter script in the agent's voice — complete and ready to read, no placeholders
-(Script Studio rules) — on the doctrine's structure: Hook (§5) → Primary CTA right after it (§6.2: "people
-just like you" / "your unique situation" / "avoid costly mistakes" / book a private call) → Body that
-delivers the promise (§7) → Secondary CTA + next-video direction at the end (§6.5). Length per §27.6
-(relocation 8–12 min, others 10–25 min). Save it as **Script**. Offer a 30–45s short-form cut.
+`yt-script` writes the full teleprompter script in the member's voice on the structure: hook → resource CTA
+around the first minute → body → book-a-call CTA a third to halfway in and again at the end → the next-video
+pointer (`98`, `99`). Format by pillar (Why I Switched · Pain Point · Model Breakdown · Niche Breakdown;
+interviews follow `yt-interview`'s beats). `yt-script` writes the content-log row at Scripted and stamps the
+story's Used-where. Save as **Script**. Offer the 30–45s Short cut now.
 
-## Step 3 — SEO package
-Build it (SEO Engine): 3 title options, 3 thumbnail texts, description + timestamped chapters, tags,
-hashtags, pinned comment — with the agent's CTA, booking link, and lead-magnet link. Save as **SEO Package**.
+## Step 3 — Thumbnail brief
+`yt-thumbnail`: three directions scored, one recommended, the paste-ready brief for the Design Studio's
+`ds-thumbnail-layout`. Do this BEFORE filming so the member shoots the expression the brief needs.
 
-## Step 4 — Lead magnet map
-Map the matching lead magnet page-by-page (Lead Engine), tied to this video + the CTA — paste-ready for
-the agent's design tool. Save as **Lead Magnet Map**.
+## Step 4 — SEO package
+`yt-seo`: three titles, the description with the two CTAs in the first three lines, chapters, tags,
+hashtags, pinned comment, playlist and end-screen notes. Save as **SEO Package**.
 
-## Step 5 — Fill their content-board card NOW (before they film — if they have the board)
-The card's whole point is that the agent opens ONE card on filming day and has everything — so it fills the
-moment the script + SEO + magnet exist, **never after filming.** If the **Content Dashboard** exists (the
-`Content board:` line in the Brain's `publishing.md` has its link — check quietly; no link / no Notion →
-skip silently, never nag; link dead → re-find per the spec once, else skip): **find this video's card
-FIRST** — it's usually already there from the seed. Match by **System ID**, then exact title, then
-near-match; found → update THAT card (rename its Topic to the final title if packaging refined it — same
-card, never a duplicate); not found → create it with a fresh System ID. Then fill it per
-`${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md` (sections REPLACED on re-runs, never stacked) — the full
-**script, SEO package, and lead magnet written INTO the card's page**, the Drive links in the columns, the
-**top-3 proven reference videos** from Step 1's audit (`link · channel · ~views · the one thing to beat` —
-real links only), and Status → `Scripted`. Keep the agent's own edits (their dates, their forward status
-moves — spec: two-way sync). One plain line: *"Your card on the board has everything now — script, SEO,
-lead magnet, and the 3 videos to beat."*
+## Step 5 — The resource
+`yt-leads`: the CTA and resource for this video (which guide or keyword the description points to; if the
+Lead Magnet plugin has not built one yet, the book-a-call CTA carries it and the resource line names what is
+coming). Save as **Lead Map** only if a resource was mapped.
 
-## Step 6 — After filming: repurpose (+ finish the card)
-Once the agent has filmed + published, repurpose (Repurposing Engine): short-form scripts, a blog post,
-an email, and social posts. Save as **Repurposing Pack**. On the board (if they have it): flip the card
-`Recorded` → `Published` as they report it, and **top up the ~2-week window** with the next planned title(s)
-from the Game Plan (spec: rolling window).
+## Step 6 — The board card (if they have the board — before filming)
+If `identity/publishing.md` has a `Content board:` link, find this video's card (System ID → exact title →
+near match) and fill it per `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`: script, SEO, thumbnail
+brief, the references, Status → Scripted. No board or `declined` → skip silently, never nag.
 
-## How to run it
-- One step at a time, conversational. Confirm before moving on. The agent only ever feels "we're making my video."
-- Run compliance on everything before saving.
-- Done = the video's folder holds: Script · SEO Package · Lead Magnet Map · (later) Repurposing Pack — and
-  the board card (if they have one) holds it all too.
+## Step 7 — Film and edit (hand-off by name)
+The member records (Riverside; interviews on separate tracks). The edit is the Riverside Studio's job:
+`studio-longform` for a solo video, `studio-interview` for a guest; the Studio returns the section map and the
+flagged best 30–45 seconds. Nothing here edits video.
 
-## Hand-off
-Script + packaging ready → the agent films. After they publish → "say 'repurpose this'." Results flow
-back into Ideation automatically — it reads the channel, folders, and analytics live next time the agent
-asks for ideas.
+## Step 8 — Publish → the content-log row (the fix this fork carries)
+When the member says it is live, ask for the link, then **update this video's `memory/content-log.md` row**
+(the one written at script): Status `Published`, Link, the CTA used, the story used; if no row exists,
+append one in the locked shape (Date · Platform `YouTube` · Format `long-form` or `interview` · Pillar ·
+Topic/hook · Avatar · Story used · CTA · Status · Link). Flip the board card to Published and top up the
+two-week window from the Game Plan. Push via `attraction-brain-sync` and say the save happened, or that it
+did not. For an interview, move its `memory/interview-pipeline.md` row to Published and hand the guest their
+three distribution sentences (`yt-interview` Step 6).
+
+## Step 9 — Repurpose
+`yt-repurpose`: 3 Shorts, 1 carousel, 5 stories, 1 email, 1 blog, 3 conversation starters; it writes its own
+content-log rows. Then: *"next week, say 'what's my next attraction video' and we pick from the plan."*
+
+## Compliance gate
+Before the script, the SEO package, or the thumbnail brief leaves the chat: `identity/compliance.md` —
+`unset` → stop at that step, say plainly the rules are not set, keep drafts private; `set` → apply and remind
+once; `confirmed` → apply. Never "if empty, proceed".
+
+## Rules
+- One step at a time; 2–4 questions per stop; "your turn" hand-offs; no file paths or skill names in front
+  of the member.
+- Never post, publish, send, or schedule. Never invent a view count, a stat, or a quote.
+- Done = the folder holds Script · Thumbnail Brief · SEO Package · (Lead Map) · Repurposing Pack, the
+  content-log row is Published, the Brain is pushed.

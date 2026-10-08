@@ -20,7 +20,7 @@ rebuild — verify the connectors and both automations still work, repair what's
 never create duplicate tasks or labels.
 
 1. **Brain check.** Load the Brain (Step 0). If `identity/operations.md` is still placeholders,
-   run the **realtor-operations** skill first (~3 min — most agents just confirm the standard
+   run the **attraction-operations** skill first (~3 min — most agents just confirm the standard
    defaults) — it captures hours, signature, booking rules, the standing virtual-meeting link,
    and vendors. Don't duplicate its questions.
 2. **Name the assistant (optional, 10 seconds).** Ask once: "Want to give your assistant a name —
@@ -61,7 +61,7 @@ never create duplicate tasks or labels.
    Ask once: "Briefing at 7am daily and sweep weekday mornings — good, or different times?"
    (skip = defaults; save the choice to `config.md`). Later requests like "change my briefing
    time" update the existing task via its saved id — never a second task.
-   **Jarvis-era check:** if a scheduled task or ledger from the old course "realtor-jarvis"
+   **Jarvis-era check:** if a scheduled task or ledger from the old course "the Agent Attraction AI Admin"
    skill exists (a briefing task that emails, a separate client ledger, a dashboard artifact),
    offer the one-line migration — "found your old Jarvis briefing — replacing it with the
    Brain-backed one" — and retire the old task. This plugin supersedes the course skill.
