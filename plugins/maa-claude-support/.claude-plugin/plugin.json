@@ -1,0 +1,22 @@
+{
+  "name": "maa-claude-support",
+  "displayName": "MAA Claude Support (Plugin 2)",
+  "version": "0.1.0",
+  "description": "PLUGIN 2 \u2014 MAA Claude Support. The calm, always-available support desk for the Master Agent Attraction cohort inside Cowork. One phrase \u2014 \"help\" \u2014 and it takes over: answers every Claude question (Cowork vs Chat, connectors, plans and limits, permission prompts), diagnoses breakage with look-only checks (attraction brain missing, connector expired, skill won't fire, both Brains installed), teaches concepts in plain English, audits setup and resumes at the first missing step, tracks the member's cohort week with a catch-up plan, and answers \"what did Mike say about\u2026\" from the full MAA lesson knowledge base with the lesson to rewatch. Knows every Agent Attraction OS plugin and routes every fix to the skill that owns it; support itself is READ-ONLY by constitution. Requires Plugin 1 (the Agent Attraction Brain) for personalization; helps even without it.",
+  "author": {
+    "name": "Team Sherrard"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "support",
+    "help desk",
+    "agent attraction",
+    "cohort",
+    "claude help",
+    "cowork",
+    "troubleshooting",
+    "onboarding",
+    "ask mike"
+  ],
+  "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os"
+}

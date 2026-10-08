@@ -10,7 +10,13 @@
       "name": "attraction-ai-brain",
       "source": "./plugins/attraction-ai-brain",
       "version": "0.1.0",
-      "description": "PLUGIN 1 — install first. The Agent Attraction Brain: one shared brain (who you are as a leader, who you attract, what you have to give, your numbers, your voice, your brand, your rules) that every other Agent Attraction system reads. Run 'Set up my attraction brain' once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, and the on-the-go Capture layer."
+      "description": "PLUGIN 1 \u2014 install first. The Agent Attraction Brain: one shared brain (who you are as a leader, who you attract, what you have to give, your numbers, your voice, your brand, your rules) that every other Agent Attraction system reads. Run 'Set up my attraction brain' once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, and the on-the-go Capture layer."
+    },
+    {
+      "name": "maa-claude-support",
+      "source": "./plugins/maa-claude-support",
+      "version": "0.1.0",
+      "description": "PLUGIN 2 \u2014 install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about\u2026\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     }
   ]
 }
