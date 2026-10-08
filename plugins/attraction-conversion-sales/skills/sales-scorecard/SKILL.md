@@ -25,7 +25,7 @@ problem — and the skill that fixes it.
 ## Step 0 — How we speak
 Read `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` and `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`. A
 scorecard is a mirror, never a verdict; compare the member only to their own prior weeks
-(`01-foundation-mindset/8`).
+(`01-foundation-mindset/08`).
 
 ## Step 1 — Load the Brain
 `~/attraction-brain/brain.md`, then `memory/pipeline.md` (the **Stage moves log** — the dated moves into
@@ -55,8 +55,8 @@ State the one constraint — "the biggest thing holding you back right now" — 
 | Conversations up, bookings low | the invite isn't landing (the build's extension of Mike's "lead flow" bucket) | `cv-dm-flow`, `cv-conversation-starter`, `sales-booking-page` |
 | Booked up, held low (show rate) | booked is not held (the build's extension) | `sales-show-up` (the warm-intro video, reminders), `sales-setter` confirmation call |
 | Held up, joins low — **held → join under 50%** | "you need to get better at explaining the model, the value proposition, handling objections" — tailoring, bridging the gap | `cv-objection-coach` (drills), `cv-enrollment-script`, `attraction-brokerage-model`, `cv-three-way` ("bring in the heavy artillery") |
-| Joins up, retention down | onboarding and community — Week 6 | the Week 6 retention skills |
-| Nobody else attracting | "you're still the only one putting in the effort" — teach agents to attract | Week 6 duplication |
+| Joins up, retention down | onboarding and community | outside this plugin — Team & Retention is not in this build; the Brain's `attraction-operations` (onboarding steps) and `memory/organization.md` are what exists; say so plainly |
+| Nobody else attracting | "you're still the only one putting in the effort" — teach agents to attract | outside this plugin (duplication was the removed Team & Retention plugin); point to `attraction-leadership-audit` and say so plainly |
 | Rev share flat | leadership development — "your group scales to the capacity you are" | `attraction-leadership-audit` |
 One constraint per week, named plainly, with the next action in one line. When held → join is above 50%
 and bookings are below target, the constraint is activity — say so; it is the most common first-quarter

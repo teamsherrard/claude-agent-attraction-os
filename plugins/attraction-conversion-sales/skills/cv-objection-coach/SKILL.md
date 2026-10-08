@@ -7,10 +7,10 @@ description: >
   role-play as a prospect of a chosen agent type with randomized objections and honest scoring after
   every round; capture a new objection into the member's own bank; the voice-mode practice routine for
   the claude.ai app. Tracks the top five memorized. Brokerage-specific objections come from the
-  Brokerage Model Expert. Never sends anything; the member speaks. Trigger on: "objection coach",
+  Brokerage Model Expert. Never sends anything. Trigger on: "objection coach",
   "handle this objection", "they said I'm happy where I am", "they think it's a pyramid scheme",
   "role-play objections", "drill me on objections", "practice objections", "new objection I heard",
-  "add this objection", "study my objections", "my top 5 objections", "what do I say when an agent
+  "objection handler", "add this objection", "study my objections", "my top 5 objections", "what do I say when an agent
   says".
 ---
 
@@ -36,13 +36,15 @@ never "recruits" or "leads". The banned-word list applies even where a lesson's 
 ## Step 1 — Load the Brain (never ask what it knows)
 Read `~/attraction-brain/brain.md`, then only what the mode needs:
 - `identity/avatars.md` — the agent types the member attracts (drives the role-play persona and "your top 5").
-- `identity/brokerage-model.md` — the model's mechanics and, when built, **Objections about this model**.
+- `identity/brokerage-model.md` — the model's mechanics and its **Q&A bank** (the model questions the Brokerage
+  Model Expert has answered — brokerage-specific objections live there).
 - `identity/offer.md`, `identity/positioning.md` — what the member actually provides (the reframe must be theirs).
 - `identity/proof.md`, `identity/story-bank.md` — the proof and the story every reframe leans on.
 - `identity/voice.md` — so the handle sounds like them.
 - `identity/compliance.md` — the gate, for anything written to a prospect or turned into content.
 - `memory/objections.md` — what THIS member has heard, what worked, and the practice log.
 - `memory/conversations.md`, `memory/top-50.md` — only in handle mode, for the named prospect.
+- `memory/organization.md` — handle mode only, for the future-pace line ("agents who joined felt that too").
 Then read `${CLAUDE_PLUGIN_ROOT}/skills/cv-objection-coach/references/objection-bank.md` (the fifteen, the
 archetypes, the framework, the two-naming map) and `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md`
 only at the step that needs the doctrine detail — never front-load both.
@@ -79,8 +81,7 @@ voice / claude app" → **voice routine**. If it is genuinely unclear, one quest
 me, or add a new one? Your turn."*
 
 ## STUDY mode — the bank, made theirs
-1. Build **their top five**: rank the fifteen (plus any in `brokerage-model.md → Objections about this
-   model`) by likelihood for their primary agent type in `avatars.md` — e.g. a team-agent avatar makes #7
+1. Build **their top five**: rank the fifteen (plus any in `brokerage-model.md → ## Q&A bank`) by likelihood for their primary agent type in `avatars.md` — e.g. a team-agent avatar makes #7
    (leads) and #11 (closings) top-five; a top-producer avatar makes #10, #13, #9. Say why in one line each.
 2. Show the five as cards in this shape — the bank's framing, rewritten with the member's own proof, story,
    and model filled in (the two slots), in their voice: **objection · the fear under it · the question to
@@ -97,7 +98,9 @@ me, or add a new one? Your turn."*
 5. Write the top five into `memory/objections.md` under `## Practice log` (shape below) with `Memorized: no`.
 
 ## HANDLE mode — a live objection in, the handle out, fresh for that prospect
-1. **Identify.** Match the objection to a bank entry (or a brokerage-specific one, or none). Name the
+1. **Identify.** Read the bank by section: the fifteen `###` headings first to match, then only the matched
+   entry — never the whole bank in handle mode. Match the objection to a bank entry (or a brokerage-specific
+   one, or none). Name the
    archetype and the hidden fear in one line — that is the teaching moment: *"That's 'happy where I am' —
    the fear is that change feels risky. So we don't argue happiness; we ask about the goal."*
 2. **Who is it from?** If a name is given, read their rows in `conversations.md` and `top-50.md`: their
@@ -188,7 +191,7 @@ once, as a card:
 Never promise the app runs this plugin or writes the Brain; it reads the Playbook document.
 
 ## When the Brokerage Model Expert hasn't run (Week 2's skill)
-`identity/brokerage-model.md` empty or without **Objections about this model** → every handler that leans on
+`identity/brokerage-model.md` empty, or its **Q&A bank** empty → every handler that leans on
 a brokerage program (#2 mechanics, #4 family benefits, #5 co-sponsorship, #8 offices, #11 transfer steps,
 #12/#13 cap and split) says in one line: *"The model-specific piece gets exact once you've said 'explain my
 model' — ten minutes with the Brokerage Model Expert."* Never invent a program. Never "your brokerage

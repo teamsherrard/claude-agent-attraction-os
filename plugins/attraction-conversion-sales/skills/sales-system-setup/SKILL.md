@@ -15,7 +15,7 @@ description: >
 # Sales System Setup — the calendar, the form, the tags, the stages, the reminders
 
 Mike's booking flow is "unbelievably important… the questions you ask will save you an enormous amount of
-time, frustration, and headache from the wrong people booking in" (bonus: Calendly). This skill turns that
+time, frustration, and headache from the wrong people booking in" (`bonus/calendly`). This skill turns that
 into the member's own system: one calendar event, five required questions, one rule for a "no", the locked
 stages in whatever CRM they use, and a reminder schedule — written down once in the Brain so every other
 Sales OPS skill and the AI Admin read the same setup.
@@ -33,12 +33,14 @@ Read `~/attraction-brain/brain.md`, then `identity/operations.md` (**CRM**, book
 call block, call length, where, the 3-way partner, the follow-up cadence), `config.md` (`CRM`, `Timezone`,
 the Conversion & Sales block if present), `identity/goals.md` (calls per week), `identity/profile.md`
 (brokerage, organization name), `identity/positioning.md` (the one line for the event description),
-`identity/compliance.md` (brokerage name as it must appear; the form is public). If `identity/
+`identity/compliance.md` (brokerage name as it must appear; the form is public — three-state: **unset** → stop
+before Stop 2 and say "set up my attraction compliance", three minutes; **set** → apply and remind once;
+**confirmed** → apply). If `identity/
 sales-system.md` already exists, this is an update: show the READY BRIEF of what is set and change only
 what they ask. Missing locally → pull via `attraction-brain-sync`. A tool error is never "no Brain".
 Read `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` only if the sequence-of-events detail is needed.
 
-## Mike's doctrine for this system (`10-presentation-delivery/42`, bonus: Calendly)
+## Mike's doctrine for this system (`10-presentation-delivery/42`, `bonus/calendly`)
 - **One event, one link, everywhere** — link in bio, YouTube descriptions, email signature.
 - **Call length:** one hour "until you master the craft", then 30 minutes "and see if you can maintain your
   conversion rate". Zoom connected so the link lands in the invite; time zones auto-detected.
@@ -130,7 +132,8 @@ Sheet columns (if Sheets): Name · Type · Where · Source · Stage · Last touc
 Booked call → cv-call-prep (Call Block Prep agent) · after the call → cv-debrief · yes → steps email · join → welcome + strategy call (operations.md onboarding)
 ```
 Then register the plugin's block in `config.md` under **Later plugins register here** if it is absent — the
-locked spelling from `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`, and fill the three keys this skill owns:
+locked spelling from `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`, and seed the three keys this skill owns
+(`Booking page` · `Partner call length` · `Setter: none` until `sales-setter` names one):
 ```
 ## Conversion & Sales
 - **Call Block Prep task:** [task id | declined | later]        (cv-call-prep writes this)

@@ -30,7 +30,7 @@ a top producer, someone with a big following, a team leader, or a broker-owner? 
 ## The funnel (Mike's three categories, `/44`)
 **1. Discovery — current state.** Pinpoint where they are and what frustrates them.
 Mike's three: *What do you love about your current brokerage?* · *What's frustrating you most right now?* ·
-*What do you feel is missing?* Plus the opener set from `bonus/the-perfect-presentation`: *What piqued your
+*What do you feel is missing?* Plus the opener set from `bonus/perfect-presentation`: *What piqued your
 interest and made you open to this conversation?* · *What are your biggest challenges right now?* · *What's
 holding you back from hitting your goals?* · *Are you on track to hit your target this year?*
 

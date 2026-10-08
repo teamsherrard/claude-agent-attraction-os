@@ -31,7 +31,9 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
   (never invent one; `Status: seeds` means asks point to the call)
 - `identity/profile.md` — handles, booking link, market (one local tag is fine for a local team leader; the
   viewer is an agent anywhere, so the city is never the lead)
-- `identity/content-pillars.md` — platform priority and the pillar vocabulary
+- `identity/publishing.md` — the `Keyword:` line (the default word on every Reel), `Platforms (priority order):`,
+  the posting tool
+- `identity/content-pillars.md` — the pillar vocabulary, the member's takes and topic seeds
 - `memory/content-performance.md` (if `sf-analytics` has written it) — the hook shapes and asks that produced
   DMs last cycle; lean on them
 - `identity/compliance.md` — Step 5
@@ -43,7 +45,8 @@ the ask map). Apply it exactly.
 
 ## Step 3 — Get the post (never re-ask what was passed)
 From the invoking skill you already have the hook, the script or talking points, the format (talking head /
-green screen / carousel / story), the pillar, and the keyword from `sf-comment-to-dm`'s sheet. Invoked
+green screen / carousel / story), the pillar, and the keyword (`publishing.md`'s `Keyword:` line, or the
+per-Reel variant the invoking skill passed from `sf-comment-to-dm`'s sheet). Invoked
 directly: ask for the post (paste or topic + hook) and the format in one message; infer the pillar and the
 rung and confirm them in one line.
 
@@ -66,7 +69,7 @@ rung and confirm them in one line.
   former brokerage is "a franchise" or "an independent."
 
 ## Step 5 — PACKAGE: the platform versions
-Produce every block the member's priority platforms need (`content-pillars.md`), per
+Produce every block the member's priority platforms need (`publishing.md`), per
 `references/platform-rules.md`:
 - **Video assets** (video formats only): cover text (3–6 words) and 2–3 on-screen cues (≤6 words each);
   text instructions for the editor, never rendered.
@@ -82,8 +85,8 @@ Everything in the member's voice, speaking to one agent ("you"), never "you guys
 ## Step 6 — Compliance (three-state, the third law)
 Read `identity/compliance.md`. `unset` → **deliver the FIX but not the PACKAGE**: *"the captions are public,
 so I need your compliance basics before they go out; say 'set up my compliance' and it takes three
-minutes."* `set` → apply the rules, remind once per session. `confirmed` → apply. Append the stamp per
-`shared/compliance-doctrine.md` §9 where the brokerage name or license display rule applies; strip any
+minutes."* `set` → apply the rules, remind once per session. `confirmed` → apply. Append the stamp (house
+rules #4 — built from `identity/compliance.md`) where the brokerage name or license display rule applies; strip any
 claim to avoid. "If empty, proceed" is banned; a `[Brokerage Name]` placeholder is a FAIL.
 
 ## Step 7 — Deliver

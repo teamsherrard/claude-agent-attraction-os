@@ -9,7 +9,7 @@ description: >
   conversation, never forced, and comes with the member's booking link only once they've named a problem.
   Logs each exchange and requests stage moves in the locked vocabulary. Trigger on: "someone commented",
   "what do I reply", "she replied to my story", "DM'd me", "keep this conversation going", "qualify this
-  person", "should I invite them to a call", "reply to this", "comment to DM", "handle this thread".
+  person", "should I invite them to a call", "reply to this agent", "comment to DM", "handle this thread".
 ---
 
 # DM Flow — Comment → DM → Qualify → Invite
@@ -30,7 +30,8 @@ a failed reply) · `identity/offer.md` for the one resource the member can give 
 video; at seeds stage, the teach-first thing) · `identity/avatars.md` to place the person · `memory/top-50.md`
 and `memory/conversations.md` for any earlier rows with this name · `config.md` Conversion block for the
 booking link (`Booking page`; none yet → the invite offers "I'll send you a time" and the member picks) ·
-`identity/compliance.md`: a DM is something a prospect sees — **unset → stop, one warm line, no draft.**
+`identity/compliance.md`: a DM is something a prospect sees — **unset → stop, one warm line ("say 'set up my
+attraction compliance'"), no draft; set → apply and remind once; confirmed → apply.**
 
 **Fast lane:** thread pasted + name known → no questions. A hand-off from `sf-comment-to-dm` arrives with the
 Reel, the keyword, the resource promised, and the exchange so far — use it, ask nothing.

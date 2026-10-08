@@ -30,7 +30,8 @@ script is written for them; a secondary type gets a short variant block) · `ide
 three stories by pain; stamp `Used-where` when placed) · `identity/proof.md` · `memory/objections.md` (the
 objections this member actually hears) · `config.md` Conversion block (`Partner call length`).
 Compliance: the script is private-call material; the next-steps and welcome email templates inside it are
-public → `identity/compliance.md` **unset holds those two blocks** with one line; the rest renders.
+public → `identity/compliance.md` **unset holds those two blocks** with one line; `set` → apply and remind once;
+`confirmed` → apply; the rest renders either way.
 
 **Fast lane:** Brain loaded → ONE line and the script. ONE question only if the Conversion block has no call
 length: *"Are you running hour-long calls or 30 minutes right now? (Mike's rule: an hour until you've done
@@ -38,7 +39,7 @@ about 30, then 30.)"* **Your turn.**
 
 ## The script (both lengths share this spine; minutes shown for 60 / 30)
 **OPEN · rapport (0–5 / 0–2)** — energy, looking forward to it, one specific thing from their booking answers or
-content, "how's your business been this year — what's working, what isn't?" (`bonus/the-perfect-presentation`).
+content, "how's your business been this year — what's working, what isn't?" (`bonus/perfect-presentation`).
 
 **1 · DISCOVERY — current state (5–15 / 2–7)** — the discovery questions for the primary type
 (`cv-question-funnel`): what piqued your interest · what do you love about where you are · what's frustrating
@@ -70,7 +71,7 @@ Invite from the Brain doctrine §14 handlers rewritten in the member's voice, pl
 to be an exciting new chapter. The number one thing people say is they wish they'd come earlier. When it comes to
 a transition date, what feels least disruptive? Time's never perfect — what works so we can put a proactive plan
 in place and you launch with momentum?"* Then exactly what happens next, with confidence and clarity ("so you
-don't go into paranoia mode" — `bonus/the-perfect-presentation`): *"What's the best email to send the steps to?
+don't go into paranoia mode" — `bonus/perfect-presentation`): *"What's the best email to send the steps to?
 You'll get one email from me today with how to join and what happens after; once you're active you get the
 welcome email with every link."*
 

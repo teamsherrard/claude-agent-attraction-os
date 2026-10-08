@@ -64,8 +64,9 @@ Read `identity/profile.md`, `identity/journey.md` (including the `## Why join me
 `identity/strategy.md`, `identity/avatars.md`, `identity/positioning.md`, `identity/offer.md` (respect its
 Status — at `seeds` the Partner Offer is Week 2; never call the seeds "the offer"), `identity/proof.md`,
 `identity/story-bank.md`, `identity/voice.md`, `identity/voice-samples.md`, `identity/brand-visual.md` (the
-"leader brand vs selling brand" line), `memory/ideas.md` (tags `shortform`, `story`), `memory/content-log.md`
-(empty is normal), `memory/objections.md`.
+"leader brand vs selling brand" line), `identity/profiles.md` **if it exists** (bios from an earlier run — refreshed,
+never restarted), `memory/ideas.md` (tags `shortform`, `story`), `memory/content-log.md` (empty is normal),
+`memory/objections.md`.
 Reflect back in one breath so it's clear nothing will be re-asked:
 > "Here's what I've got: you're [name], building [what they're building] at [brokerage] in [market]; you attract
 > [primary avatar, one line]; you're known for [known-for]; your voice is [one line]. I won't ask you any of
@@ -95,7 +96,11 @@ Present the five as **one block** — pillar name, two-line summary, the first t
 Then write `~/attraction-brain/identity/content-pillars.md` in the shape in
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (status, the one-line anchors, five sections headed **exactly**
 `## Authority` · `## Perspective` · `## Story` · `## Proof` · `## Personality` — the OS-wide names, never
-renamed — the weekly mix, an empty hooks bank). Create `identity/publishing.md` now, in the contract's full shape — every line label present from day one
+renamed — the weekly mix, an empty hooks bank). **Keep the Brain template's header lines and fill them** — the five
+pillars one line each, `Platforms (priority order)`, `Cadence` (filled at Step 7), `The two CTAs` (1. Book a call —
+the booking link from `profile.md` / `operations.md` · 2. The guide / keyword — filled at Step 5), `Signature series
+/ recurring format`, `Default video style` — the YouTube system reads cadence and the two CTAs from those lines.
+Create `identity/publishing.md` now, in the contract's full shape — every line label present from day one
 (including `Posting tool: manual` and an empty `Best times:`, the two lines `sf-publish` later updates) — with
 `Short-form setup: pillars done` and whatever platforms the Brain already knows. **Push both, verify.** Say: *"Saved — your pillars are in your Brain."*
 
@@ -126,9 +131,13 @@ Write, in their voice:
 Compliance stamp as the file says (brokerage name / license where required). No compensation, no "#1" without a
 source, no brokerage as the hook. If a Week 2 bios document already exists in `02 · Brand`, read it as data and
 refresh it rather than starting over.
-Deliver copy-paste blocks: *"Paste these in — or tell me what to change. Your turn."* On their yes: write them into
-`identity/publishing.md → ## Bios (current — date)` with the five questions ticked, set `bios done`, **push,
-verify**; save `Profiles & Bios — YYYY-MM-DD.docx` to `02 · Brand/` per
+Deliver copy-paste blocks: *"Paste these in — or tell me what to change. Your turn."* On their yes: write them to
+`~/attraction-brain/identity/profiles.md` in the contract's shape — `# [Name] — Platform Profiles`, the owner line,
+then one section per platform in this order: `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` (each: the
+live bio text, then the five questions ticked). If the file already exists, replace only the bio text inside each
+heading — never rename, reorder, or drop a section, and keep any section or update line another system added after
+the four. Set the `Bios:` pointer line in `publishing.md` to `identity/profiles.md (current — YYYY-MM-DD)` and
+`Short-form setup: bios done`; **push both, verify**; save `Profiles & Bios — YYYY-MM-DD.docx` to `02 · Brand/` per
 `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`.
 
 ## Step 5 — The keyword (one word, chosen once)
@@ -139,7 +148,8 @@ word their followers already comment by habit. One line of why. Then the one que
 > "Do you use ManyChat? Mike's sequences import into your own account — optional. Without it, the keyword still
 > works: you reply by hand, and from Week 5 your follow-up queue surfaces every comment. Your turn."
 Write `Keyword:` · `What it opens:` · `ManyChat:` (`connected YYYY-MM-DD` / `not yet — replying by hand` /
-`declined`) to `identity/publishing.md`, set `keyword done`, **push, verify**. (Per-Reel keyword variants and the
+`declined`) to `identity/publishing.md` (the source), mirror the keyword and what it opens into
+`content-pillars.md`'s `The two CTAs` line 2, set `keyword done`, **push, verify**. (Per-Reel keyword variants and the
 DM copy bank come later from `sf-comment-to-dm` — say so in one line only if they ask.)
 
 ## Step 6 — First win: make their first piece RIGHT NOW
@@ -153,7 +163,8 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 1. **Cadence and the weekly mix** — propose the defaults from the doctrine and confirm in one word: *"Default
    plan: 3–5 Reels a week — 2 attraction, 2 authority, 1 story — and stories every day; batch day Tuesday. Keep
    it, or change the number?"* (Honest capacity beats ambition; three is the floor.) Write `Cadence:` ·
-   `Weekly mix:` · `Batch day(s):` → push. The routine itself is `sf-weekly-routine`.
+   `Weekly mix:` · `Batch day(s):` to `publishing.md` (the source) and mirror `Cadence` and `Platforms` into
+   `content-pillars.md`'s header lines → push. The routine itself is `sf-weekly-routine`.
 2. **The posting tool — offer once, never push:** *"Want me to schedule your posts for you? I can connect
    Metricool (free to start) or GoHighLevel if you already use it. Or keep it copy-paste for now."* On yes → run
    the connect flow in `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` (the four checks, plain words) and
@@ -161,8 +172,8 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
    secret) plus the `Best times:` line (per network, from the tool). On no → `Posting tool: manual`, `Best times:`
    left empty. On "don't ask again" → `declined YYYY-MM-DD`. Both lines always exist — `sf-publish` updates only
    those two. Push.
-3. **The content board — offer once:** *"Want your posts on a visual board in your Notion? The YouTube plugin
-   shares it."* Yes → `sf-board`; no → `Content board: declined YYYY-MM-DD`. Nothing → leave empty.
+3. **The content board — offer once:** *"Want your posts on a visual board in your Notion? Your YouTube system
+   will share the same board in Week 4."* Yes → `sf-board`; no → `Content board: declined YYYY-MM-DD`. Nothing → leave empty.
 4. **The Friday performance note** — one line, never provisioned here: *"Once you're posting, say 'set up my
    Friday performance note' and every Friday you'll get which Reels and stories started agent conversations."*
    (`sf-analytics` owns it, with their explicit yes.)
@@ -184,7 +195,7 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 - [ ] Second call routed: resume or one named part — **the interview never re-ran**
 - [ ] `identity/content-pillars.md` written in the contract shape, five pillars mapped to the avatars, stories, positioning, proof — pushed
 - [ ] Compliance three-state applied before the bios; `unset` stopped the bios with a plain line, nothing else
-- [ ] Four bios, each answering the five questions, no invented credibility, no compensation, stamp applied — written to `publishing.md` + saved to `02 · Brand` — pushed
+- [ ] Four bios, each answering the five questions, no invented credibility, no compensation, stamp applied — written to `identity/profiles.md` (one `## Platform` section each, headings never renamed) + the `Bios:` pointer in `publishing.md` + saved to `02 · Brand` — pushed
 - [ ] Keyword chosen (one word), ManyChat state recorded — pushed
 - [ ] Member handed to a first piece **before** any tool was mentioned
 - [ ] Cadence/mix written; posting tool offered once with a real connect flow, answer recorded; board offered once; Friday note mentioned, not provisioned

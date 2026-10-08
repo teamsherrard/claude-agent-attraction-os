@@ -15,7 +15,7 @@ description: >
 # Call Block — the slots that make the weekly number real
 
 Mike took calls 10 to 2, thirty minutes each, eight a day at scale — and in year one, one-hour calls across
-a much wider window, "as flexible as humanly possible… convenient for them, not you" (bonus: Calendly;
+a much wider window, "as flexible as humanly possible… convenient for them, not you" (`bonus/calendly`;
 `10-presentation-delivery/42`). The member's number comes from their own goals: this skill turns "N calls a
 week" into a block they can keep, inside the hours they actually have, with the prep and the debrief built
 in — because a call without prep and without a debrief is a call that doesn't convert.
@@ -78,7 +78,7 @@ Conversations block: [daily 8:30–9:15 — [x] conversations/day] · Follow-ups
 Fit: [fits inside goals.md hours | over by [h] — member chose: fewer calls | more hours]
 ```
 If `operations.md` carries a different call block line, say in one line that the operations skill mirrors
-this ("say 'update my operations' to copy it over"); this skill never writes `operations.md`.
+this ("say 'set up my attraction operations' to copy it over"); this skill never writes `operations.md`.
 Render the Daily Call Block Planner per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`: the math in a
 table, the weekly grid, the per-call rhythm (prep brief → call → 10-minute debrief → recap email draft),
 the availability settings to enter in their tool, via

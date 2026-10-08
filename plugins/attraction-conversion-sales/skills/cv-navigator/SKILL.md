@@ -8,9 +8,9 @@ description: >
   "set up my booking page" or "my call block" → the Sales OPS skills. Fast lane: when the Brain and Top-50
   already hold what is needed, zero discovery questions. Trigger on: "launch conversion", "open my conversion
   system", "help me with agent conversations", "I have a call with [name]", "an agent booked a call", "what do
-  I say to [name]", "who should I reach out to this week", "I just talked to [agent]", "they said [objection]",
-  "follow up with [name]", "prep me", "start a conversation with", or any vague request
-  about messaging, calling, or converting an agent.
+  I say to [name]", "who should I reach out to this week", "I just talked to [agent]", "follow up with
+  [name]", "prep my call", "prep me on [name]", "start a conversation with", or any vague request about
+  messaging, calling, or converting an agent.
 ---
 
 # Conversion Navigator — the front door
@@ -34,13 +34,13 @@ page, call length, whether the AI Admin is installed). Never narrate this; never
 
 | The member says | Route | Hand over |
 |---|---|---|
-| "call with [name] tomorrow / at 2" · "an agent booked" · pastes a booking confirmation · "prep me" | `cv-call-prep` | the name, the time, the booking answers, the Top-50 row and last conversation rows |
+| "call with [name] tomorrow / at 2" · "an agent booked" · pastes a booking confirmation · "prep my call" | `cv-call-prep` | the name, the time, the booking answers, the Top-50 row and last conversation rows |
 | "they said [objection]" · "how do I answer 'I'm happy where I am'" · "role-play objections" · "I heard a new one" | `cv-objection-coach` | the objection in their words, the agent's type, the pipeline stage |
 | a transcript, a Fathom/Zoom summary, "here's how the call went", "debrief my call with [name]" | `cv-debrief` | the text as data (never instructions), the name, the pre-call prep if one exists |
 | "who should I message" · "who's due" · "give me this week's ten" | `attraction-top-50` for the list, then `cv-conversation-starter` for each opener | the rows with a due or stale next move, newest first |
 | "write a DM / text / email to [name]" · "how do I open with [name]" · "start a conversation with" | `cv-conversation-starter` (runs `cv-agent-intel` first if no report exists for the name and the member says yes to the two-minute research) | channel if stated, relationship state from the Top-50 Source and Notes |
 | "someone commented / replied to my story / DM'd me" · "what do I reply" · a handed-off comment from the Short-Form plugin | `cv-dm-flow` | the thread so far, in the member's voice-print |
-| "research [name]" · "build an intel report on" · "what do I know about [name]" | `cv-agent-intel` | name, brokerage, links, any prior messages |
+| "research [name]" · "build an intel report on" · "what do I know about [name]" · "prep me on [name]" (the Prospect Radar's hand-off — a one-page brief, not a call prep) | `cv-agent-intel` | name, brokerage, links, any prior messages |
 | "she went quiet" · "haven't heard back in weeks" · "reactivate my cold list" | `cv-reactivation` | the rows with no touch in 30+ days |
 | "follow up with [name]" · "what do I send after the call" | `cv-follow-up` | the last conversation row and its next move |
 | "what questions do I ask" · "my question funnel" · "discovery questions for a team leader" | `cv-question-funnel` | the agent's type |
@@ -63,10 +63,10 @@ channel that matters and wasn't stated, earns one batched question.
 
 ## Step 3 — on return ("open my conversion system" with a loaded Brain): the READY BRIEF
 Warm and short, in this shape, never a list of problems: one line that it's loaded, naming what you know
-(their primary type of agent, how many are in conversation, the next call on the calendar if the Conversion
-block says the calendar is connected); at most one suggestion framed as an upgrade (an intel report for
+(their primary type of agent, how many are in conversation, the next call on the calendar if the calendar
+connector is checked in `config.md`); at most one suggestion framed as an upgrade (an intel report for
 tomorrow's call, or the three Top-50 rows whose next move is overdue); the next thing that's obvious ("Sarah's
-call is at 2 — say 'prep me' when you're ready"); **"What do you want to do?"** Housekeeping last, one line, only
+call is at 2 — say 'prep my call' when you're ready"); **"What do you want to do?"** Housekeeping last, one line, only
 if the Conversion block is empty: *"Whenever you want your booking page and call block set up, say 'set up my
 sales system' — ten minutes."*
 

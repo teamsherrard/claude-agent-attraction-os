@@ -45,8 +45,8 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
 - `memory/content-performance.md` — the last block (prior follower and subscriber counts = the baseline;
   growth is today minus that). This file is this skill's own ledger inside the sync allowlist; it is created
   on the first read if missing.
-- `identity/publishing.md` — the posting tool (second source) and the booking-form question "which video made
-  you reach out?" if the Conversion plugin set one
+- `identity/publishing.md` — the posting tool (second source) and the `Keyword:` line (so keyword comments are
+  counted by the right word)
 - `identity/avatars.md`, `identity/content-pillars.md`, `identity/strategy.md` (the leaders the member
   admires in their lane — the comparison set), `identity/offer.md` (the keyword resources) — for the dive
 - `identity/compliance.md` — read before the report is saved (it is private, but its post ideas are not)
@@ -75,38 +75,43 @@ Window: the last 90 days by default (a month in = since the last dive). Follow `
 in full; it is written for a leader, not a marketer: every finding is *what we found · why it matters to you ·
 do this · the proof*; every section opens *In plain English:*; numbers in tables; every metric explained
 once. The report, in order:
-- **READ THIS FIRST** — three sentences · **THE ONE MOVE** (exactly one) · do these three this week
-- **YOUR NUMBERS AT A GLANCE** + what's in this report (and what was not available)
-- **Part 1 — Your account:** how you grew · what's pulling by pillar and by rung (vs 2·2·1) · your best hooks
-  (skip rate) · **who's watching — agents or consumers, and which agents** (the decisive question; here
-  agent-heavy is the goal) · when to post · **what turned into conversations** (DMs, comments with intent,
-  conversations logged, calls booked, by post and keyword) · stories · what agents are saying in the comments
-  (questions = next posts; intent = reply today) · where attention stops turning into conversations (the one
-  break) · how often you post vs three to five a week and stories daily
-- **Part 2 — The leaders you admire** (≤5 from `strategy.md`; YouTube in full, Instagram and TikTok a
-  labeled glance at their public profile) — what they do that you don't, what you do better, never a
-  negative word about any of them (`03-model-positioning/13`)
-- **Part 3 — Where you show up when agents search** (YouTube rank on the niche phrases; whether an AI
-  assistant mentions you; what's rising)
-- **Part 4 — The openings** (3–5 four-line cards)
-- **Part 5 — Your next 30 days:** keep doing · fix · the plan on 2·2·1 by pillar, one post per row, with the
-  keyword · post at the three best slots · output vs the routine · THE ONE MOVE repeated
-- **Appendix** — the full tables
+- **READ THIS FIRST** — three sentences · **THE ONE MOVE** (exactly one) · DO THESE THREE THIS WEEK
+- **YOUR NUMBERS AT A GLANCE** (this window vs last) + what's in this report (and what was not available)
+- **PART 1 — YOUR ACCOUNT:** 1.1 how you grew · 1.2 what's pulling — by pillar and by format (the rung and
+  keyword each carried; your mix vs 2 attraction · 2 authority · 1 story) · 1.3 your best hooks (word for word,
+  with skip rate) · 1.4 **who's watching — agents or consumers, and which agents** (the decisive question; here
+  agent-heavy is the goal) · 1.5 when to post · 1.6 **what turns into conversations** (keyword comments → DMs →
+  conversations logged → calls booked, by post and keyword) · 1.7 stories (replies, exits, poll results) · 1.8
+  what agents are asking (questions in comments = next Reels; intent = reply today) · 1.9 where views stop
+  turning into DMs (the one break + the fix) · 1.10 how often you post vs three to five a week and stories daily
+- **PART 2 — OTHER LEADERS AGENTS IN YOUR MARKET FOLLOW** (the comparison set: ≤5 leaders the member admires,
+  from `strategy.md`; YouTube in full, Instagram and TikTok a labeled glance at their public profile) —
+  observable facts with sources, what they do that you don't, what you do better, never a verdict on a person
+  or a brokerage (`03-model-positioning/13`)
+- **PART 3 — WHAT AGENTS SEARCH AND ASK** (YouTube rank on the niche phrases; whether an AI assistant mentions
+  you; rising phrases; this week's brokerage and industry news → Reel ideas)
+- **PART 4 — THE OPENINGS** (3–5 four-line cards: what we found · why it matters to you · do this — hook ·
+  format · pillar · week · the proof)
+- **PART 5 — YOUR NEXT 30 DAYS:** KEEP DOING · FIX · THE PLAN (2 attraction · 2 authority · 1 story a week, by
+  pillar, one post per row, with the keyword; stories daily) · POST AT (the three best slots) · THE ONE MOVE
+  repeated
+- **APPENDIX — THE FULL NUMBERS** (A. every post, best to worst · B. your audience in full · C. the search
+  results we pulled)
 
 **Deliver like a coach:** the verdict and the one move in chat, then the link, then the offer to act (*"want
 me to script the first four of that plan?"* → `sf-talkinghead`).
 
 **Save + seed (hard gate; never end a dive without the closing line):**
-1. Render on the deep-dive shape in `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` (byline and footer
+1. Render on the deep-dive shape in `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §5b (byline and footer
    only; never inside copy the member pastes) → `.docx` via `shared/render_doc.py` →
-   `03 · Content/Short-Form/`, named `Attraction Deep Dive · [Month YYYY]`.
+   `03 · Content/Short-Form/Performance/`, named `[YYYY-MM-DD] · Short-Form Deep Dive`.
 2. Append a dated block to `memory/content-performance.md`: follower and subscriber counts (the baseline) ·
    best pillar and rung · the three best hooks with skip rates · the three best slots · the posts and
    keywords that produced conversations · the one break · the opening to attack. Push via
    **attraction-brain-sync**; the content skills read this block so the whole engine learns.
-3. **The closing line:** *"saved to your Content folder as Attraction Deep Dive · [Month] (link) · your
-   baseline is stored · your Brain is updated · live data: [active / declined / not connected]."* If any of
-   those did not happen, say which and why.
+3. **The closing line:** *"saved to your Content → Short-Form → Performance folder as [date] · Short-Form Deep
+   Dive (link) · your baseline is stored · your Brain is updated · live data: [active / declined / not
+   connected]."* If any of those did not happen, say which and why.
 
 ## QUICK READ (any scoped question)
 Pull only what they asked for; join it to `content-log.md` and `conversations.md` so you talk pillars, hooks,
@@ -127,7 +132,7 @@ it only writes, never posts."*
   numbers this week; add them Monday") · reads `content-log.md`, `conversations.md`, `top-50.md` for the
   week · writes a one-page note (five numbers in plain words · the post that started conversations · the one
   change · next week's five on 2·2·1, with keywords) · appends the dated block to
-  `memory/content-performance.md` and pushes · saves the note to `03 · Content/Short-Form/` as
+  `memory/content-performance.md` and pushes · saves the note to `03 · Content/Short-Form/Performance/` as
   `[YYYY-MM-DD] · Weekly Content Performance` · **drafts only — never posts, replies, DMs, or schedules**.
   Record the task id on the `Weekly Content Performance task:` line in the **Short-Form block of
   `config.md`** (the one key, locked spelling); push.

@@ -91,33 +91,44 @@ movement and gathering places follow the Reach.
 (a press release, their own post). A rumour, a comment, or a third-party mention is never written down as
 a move. Every named move is marked `public announcement` with the source.
 
-### Write `identity/prospect-intel.md`
+### Write `identity/prospect-intel.md` — the template's shape, exactly
+The Book's Chapter 7 (the landscape) and Chapter 8 (where they gather) render these headings and tables
+(`shared/brain-book-spec.md`); a different shape renders as a placeholder.
 ```
-# Agent Landscape — [Member's market]
-Researched: [YYYY-MM-DD] · Next refresh: [+3 months] · Reach: [from avatars.md]
+# [Member first name] — Prospect Intelligence (researched)
+*identity · the local agent landscape: who is moving, why, where they gather · RESEARCHED, sourced, dated · never invented*
+*Owner: `attraction-prospect-radar` (Week 2; re-run quarterly; the Agent Movement Watcher appends weekly).*
 
-## Brokerage footprint
-| Brokerage type | Who (by name — brokerages, not people) | Approx. agents | Direction | Source · as-of |
+**Market researched:** [City, Region + the states/provinces they can attract in — the Reach line] · **Last full run:** [YYYY-MM-DD] · **Searches spent:** [n of ~30]
 
-## Movement (last 6–12 months)
-| Date | What happened (team formed · agent moved · office merged) | Public source |
-(only publicly announced moves; names only where the agent or brokerage announced it)
+## Brokerage footprint (sourced)
+| Brokerage type / name | Approx. agents in market | 12-month trend | Source · as-of |
+(brokerages by name, never people; facts only — naming a brokerage here is footprint, never a verdict)
 
-## Licensing trend
-[two to four lines, each with source · as-of]
+## Recent movement (sourced)
+- [YYYY-MM-DD] [what moved — team formed · agent moved · office merged] — [source · public announcement]
+(only publicly announced moves; a person is named only where they or their brokerage announced it;
+"No visible movement found as of [Month YYYY]" is a valid finding)
 
-## Where agents gather (by type of agent)
-New agents: … · Experienced, low production: … · Top producers: … · Influencers: … · Team leaders: … ·
-Broker-owners: …   (types of rooms and named public groups/channels/events; never named people)
+## Licensing and agent-count trends (sourced)
+[two to four lines, each with source + as-of — new licensees per period, total active agents, direction; never estimated]
+
+## Where agents gather (researched, by avatar type)
+| Avatar type | Online rooms (groups by type, channels, podcasts) | In-person (associations, events, trainings) | Signals they're ready | Source · as-of |
+(one row per type, primary avatar first; types of rooms and named public groups, channels, and events — never named people)
 
 ## What this means for [Member]
-Three lines, each a move: where the primary avatar is most reachable · the one room to show up in this
-month · the one signal to watch.
+- [fact + source] → [the move]
+(3–5 implications, each tied to a sourced fact AND a named avatar: where the primary avatar is most
+reachable · the one room to show up in this month · the one signal to watch)
 
-## Sources
-[numbered list, every URL that a finding cites]
+## Research log
+| Date | What was researched | Key sources | Searches |
+(one row per run; every URL a finding cites appears here or in a `Source · as-of` cell — there is no
+separate sources list)
 ```
-Then write → push via `attraction-brain-sync` → verify, as one step.
+Then write → push via `attraction-brain-sync` → verify, as one step. A quarterly refresh updates the
+sections in place and adds a research-log row; it never starts a second file.
 
 **Demo mode** (the member explicitly asked for a fictional brain): no live research; every number and
 name "(illustrative — demo)"; fictional brokerages ("a franchise office", "the Lakeline team"); never a
@@ -186,9 +197,12 @@ The radar never sends anything; the member does.
 
 ### Hand named agents to the ledger
 Any agent scored Ready now or Worth staying close to who is not already in the Top-50 is handed to
-`attraction-top-50` (its add-rows step) in the same session: name · type · brokerage · where they are ·
-relationship · stage `Identified` · next move. The radar never writes `memory/top-50.md` itself; one
-owner per file.
+`attraction-top-50` (its add-rows step) in the same session, already in the ledger's locked header —
+identical in the template, `attraction-top-50`, and `attraction-capture`:
+`| Name | Type | Brokerage | Where they are | Relationship | Last touch | Next move | Stage | Due | Notes |`
+— typed, brokerage as a type, relationship set, `Last touch` from what's known (`— · none yet` if
+nothing), stage `Identified`, the radar's next step as `Next move`, `Due` empty, and `Source: radar` in
+Notes. The radar never writes `memory/top-50.md` itself; one owner per file.
 
 ---
 
@@ -225,16 +239,23 @@ Never silently. Never "opt-out is one sentence away". The member says yes, or it
 
 "Turn off the watcher" → `delete_scheduled_task` by the recorded id, write `declined`, push, confirm in one line.
 
-### What a run writes — `memory/intel.md`
+### What a run writes — `memory/intel.md` (the template's seven columns, exactly)
 ```
-| Date | Signal | Who / where (business facts only) | Source (URL · as-of) | Radar note |
+| Date | Item (what happened) | Who it affects (avatar / named prospect) | Source · as-of | Verified? | Use (content · conversation · model Q&A · none) | Used? |
 ```
-Radar note is one of: `matches primary avatar` · `in Top-50: [name]` · `landscape update` · `watch`.
-Signals are public, business-level facts. A named person appears only when the agent or brokerage
-announced the move publicly; otherwise the row names the brokerage or team, not the person.
+- **Item** — the signal as a public, business-level fact, in plain words.
+- **Who it affects** — `matches primary avatar` · `in Top-50: [name]` · the avatar type · the brokerage or
+  team. A person is named only when they or their brokerage announced the move publicly; otherwise the
+  cell names the brokerage or team, not the person.
+- **Verified?** — `public announcement` (the agent's or brokerage's own release or post) or `unconfirmed —
+  verify before contact` (anything else; every named person carries this unless the announcement was theirs).
+- **Use** — `conversation` when it touches someone in the Top-50 · `content` or `model Q&A` for a landscape
+  fact · `none` for a watch item.
+- **Used?** — left empty by the watcher; the plugin that acts on a row marks it.
 The run ends with a four-line note for the member (what moved, who's worth a look, one thing to do, "I
-contacted no one") and a `Watcher run: [date] · [n] signals` line appended under `## Runs` in `intel.md`.
-Both pushed via `attraction-brain-sync`.
+contacted no one") and a `Watcher run: [date] · [n] signals · [n] touching the Top-50` line appended under
+`## Runs` in `intel.md` — one line per run, appended, never rewritten, so a quiet week and a week that never
+ran look different. Both pushed via `attraction-brain-sync`.
 
 On the first live radar run after a watcher week, the radar reads the new rows and re-scores anyone it
 touches. The watcher's candidates are always marked `unconfirmed — verify before contact`.

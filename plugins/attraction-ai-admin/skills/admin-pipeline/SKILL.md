@@ -4,10 +4,10 @@ description: >
   The Agent Attraction AI Admin's prospect ledger on the locked stages (Identified → Conversation → Call
   booked → Call held → 3-way → Joined → Onboarded → Active, plus Parked) and the only writer of stage
   moves. Applies the moves you log through the Conversation Coach, the Debrief, or on the go; mirrors
-  them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when it is connected, with the Brain as
-  the truth and the fallback. Answers who is at any stage, moves an agent, tells an agent's whole history
+  them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when connected, with the Brain as the
+  truth and the fallback. Answers who is at any stage, moves an agent, tells an agent's whole history
   from your notes, and match-back: who in your pipeline would care about an update, an event, or a
-  resource, with the reason. Prospect data stays in your Brain and your CRM. Draft-only. Trigger on: "my
+  resource, with the reason. Prospect data stays in your Brain and CRM. Draft-only. Trigger on: "my
   attraction pipeline", "my prospect pipeline", "who's at call booked", "move [agent] to [stage]", "what
   happened with [agent]", "where does [agent] stand", "apply those stage moves", "who in my pipeline
   would care about", "park [agent]", "update my CRM from my pipeline", "agents gone quiet in my pipeline".

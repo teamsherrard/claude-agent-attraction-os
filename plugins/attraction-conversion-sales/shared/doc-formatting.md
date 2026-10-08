@@ -67,7 +67,7 @@ for this system; the documents must feel like it.
   rows). Use for anything tabular: KPI dashboards, brand colours + roles, avatar-at-a-glance, money math.
 - Plain structured text in the body (no Markdown `#`/`**`/backticks) — the renderer applies the formatting.
 
-**BOOK MODE (long deliverables — the Business Brain Book).** The renderer switches into book mode when
+**BOOK MODE (long deliverables — the Agent Attraction Brain Book).** The renderer switches into book mode when
 the input contains a `[[TOC]]` block (or `--book` is passed); everything below is inert in normal docs,
 which render exactly as before:
 - **Cover page** — the title block becomes page 1 (title, eyebrow, byline, date), then a page break.

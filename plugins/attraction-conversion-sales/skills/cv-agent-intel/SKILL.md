@@ -9,7 +9,8 @@ description: >
   conversation angle · what not to say · a suggested opening message. Saved to the Brain's intel reports and
   the Prospects folder; cited and dated; never invents production numbers; never targets by a protected
   characteristic. Trigger on: "agent intel on [name]", "research [name]", "build an intel report", "what do I
-  know about [name]", "before I message [name]", "run intel on my top ten", "prep research for my call".
+  know about [name]", "before I message [name]", "prep me on [name]", "run intel on my top ten", "prep research
+  for my call".
 ---
 
 # Agent Intel — know the person before the first message
@@ -88,7 +89,7 @@ Then one line: **Why this angle** — the type of agent and what that stage resp
   → `Agent Intel · [Name] · [Date].docx` → `04 · Agents/Prospects`. Renderer unavailable → the `.md` upload and
   one plain line, nothing installed.
 - The Top-50 row is NOT edited here (the Brain owns it); if the agent isn't on the Top-50, say so and offer
-  "add them to my top-50" (the Brain's skill).
+  "add [name] to my list" (the Brain's Top-50 skill).
 - A save that fails: say it isn't saved, keep the report visible, retry once, stop.
 
 ## Who calls this
@@ -98,7 +99,8 @@ hands the report back; the member sees only the result.
 
 ## Rules
 - Compliance (`identity/compliance.md`, three-state) gates only section 10, the opening message — the report
-  itself is private. Unset → write the report, hold the message, say why in one line.
+  itself is private. Unset → write the report, hold the message, say why in one line; set → apply the rules and
+  remind once to confirm with the brokerage; confirmed → apply.
 - The quality bar: the delete test · the any-agent test (an "opportunity" that fits every agent is cut) · the
   so-what test (every observation ends in what to do with it).
 - Never the recruiter register; never "lead," "recruit," or "downline" in front of the member.

@@ -1,7 +1,7 @@
 # The Brain Contract — what the Conversion & Sales plugin reads and writes
 
-*Every Agent Attraction plugin ships a `shared/brain-contract.md` in this shape. This is Plugin 8's (`cv-` and
-`sales-`). The OS-wide table lives in the master plan §1 and the Support plugin's `stack-map.md`.*
+*Every Agent Attraction plugin ships a `shared/brain-contract.md` in this shape. This is the Conversion & Sales plugin's (`cv-` and
+`sales-`; master plan §8, installed as Plugin 6). The OS-wide table lives in the master plan §1 and the Support plugin's `stack-map.md`.*
 
 ## The three laws
 1. **Read `~/attraction-brain/brain.md` first.** It is the index. Open only the files the task needs. Never re-ask
@@ -43,22 +43,29 @@
 | `identity/voice.md` · `voice-samples.md` · `voice-print.md` | every draft sounds like the member |
 | `identity/profile.md` · `journey.md` · `prospect-intel.md` · `operations.md` | who the member is, their journey beats, the market's agent landscape, hours and booking link |
 | `memory/conversations.md` · `memory/pipeline.md` · `memory/debriefs.md` · `memory/intel.md` | history before any prep, draft, or coaching |
+| `memory/organization.md` | recent joins and wins — a real reason to reach out (`cv-follow-up`, `cv-reactivation`); the future-pace line in a handle (`cv-objection-coach`) |
+| `identity/goals.md` · `memory/scorecard.md` (read only) | weekly calls and hours (`sales-call-block`), the Targets block (`sales-scorecard`) — never written here |
+| `identity/brand-visual.md` | the design briefs (`cv-presentation`, `sales-booking-page`) |
+| `identity/sales-system.md` · `memory/sales-funnel.md` | this plugin's own files (below), read by every `sales-*` skill and `cv-call-prep` |
 | `04 · Agents/Prospects` and `06 · Materials` in the workspace | prior call prep, radar reports, the brokerage onboarding doc, CRM exports — read by relevance, scoped to the workspace |
 
 ## What this plugin writes (one owner per file)
 | File | Owner skill | Rule |
 |---|---|---|
-| `memory/conversations.md` | **this plugin** — `cv-conversation-starter`, `cv-dm-flow`, `cv-call-prep` (post-call), `cv-debrief`, `cv-follow-up`, `cv-reactivation`, `cv-three-way` append rows | the template's row shape, append-only, one row per conversation; the `Stage after` column is the stage REQUEST (below). `attraction-capture` keeps appending in the same shape when the member captures on the go. |
-| `memory/pipeline.md` | **the AI Admin plugin owns stage moves.** Until it is installed, this plugin writes the Board row and a Stage-moves-log row directly, `Logged by: cv-<skill>` | Detect the Admin by its registered block in `config.md` ("Later plugins register here" → an `## AI Admin` block). Admin installed → this plugin writes ONLY the `Stage after` column in `conversations.md`, ends its output with the line **STAGE MOVE REQUESTED: [Name]: [from] → [to]**, and tells the member "logged — the stage moves on your next Admin run." Admin absent → direct write, locked vocabulary, never a new stage name. |
-| `memory/top-50.md` → `Last touch` · `Next move` · `Due` cells of ONE agent's row | the Brain's `attraction-top-50` owns the file; **while the AI Admin is not installed** this plugin may update those three cells on the row of the agent it just logged (the same interim allowance `attraction-capture` has) | never the Stage cell (mirrored from `pipeline.md` by the Top-50 skill), never a new row (say "add them to my top-50"), never any other column. Admin installed → request it alongside the stage move. |
-| `memory/objections.md` | `attraction-capture` owns the heard-rows; **this plugin adds handlers** under "The member's own handlers" (`cv-objection-coach`, `cv-debrief`) | the Listen · Validate · Reframe · Invite shape; a heard-row from a debrief goes in the table in the same columns |
+| `memory/conversations.md` | **this plugin** — `cv-conversation-starter`, `cv-dm-flow`, `cv-debrief`, `cv-follow-up`, `cv-three-way` append a row when the member says a touch went out or a call happened; `sales-show-up` logs a no-show; `sales-scorecard` logs a call the member says was missed; `cv-objection-coach` fills only the `Objection heard` cell of TODAY's row for a named prospect. `cv-call-prep` and `cv-reactivation` never write it — they hand to `cv-debrief`. | the template's row shape, append-only, one row per conversation; the `Stage after` column is the stage REQUEST (below). `attraction-capture` keeps appending in the same shape when the member captures on the go. |
+| `memory/pipeline.md` | **the AI Admin plugin owns stage moves.** Until it is installed, this plugin writes the Board row and a Stage-moves-log row directly, `Logged by: cv-<skill>` | Detect the Admin by its registered block in `config.md` under "Later plugins register here": a block whose heading starts with `## AI Admin` and whose first line is the key `AI Admin: set up [date]` (the Admin's own contract; its heading reads `## AI Admin (Week 5)`). Admin installed → this plugin writes ONLY the `Stage after` column in `conversations.md`, ends its output with the line **STAGE MOVE REQUESTED: [Name]: [from] → [to]**, and tells the member "logged — the stage moves on your next Admin run." Admin absent → direct write, locked vocabulary, never a new stage name. |
+| `memory/top-50.md` → `Last touch` · `Next move` · `Due` cells of ONE agent's row | the Brain's `attraction-top-50` owns the file; the SEAM-LOG's designated appenders for those three cells are `cv-conversation-starter`, `cv-debrief`, `cv-follow-up` (with `attraction-capture`); `cv-dm-flow` and `cv-three-way` log touches the same way and are proposed for the same ruling. **While the AI Admin is not installed** they update the three cells on the row of the agent they just logged | never the Stage cell (mirrored from `pipeline.md` by the Top-50 skill), never a new row (say "add [name] to my list" — the Top-50 skill's trigger), never any other column. Admin installed → request it alongside the stage move. |
+| `memory/objections.md` | `attraction-capture` owns the heard-rows; **this plugin adds handlers** under "The member's own handlers" (`cv-objection-coach`, `cv-debrief`) and owns the `## Practice log` section (`cv-objection-coach` only — ruled in by the SEAM-LOG) | the Listen · Validate · Reframe · Invite shape; a heard-row from a handle (`cv-objection-coach`) or a fumbled one from a debrief (`cv-debrief`) goes in the table in the same columns; the Practice log shape lives in `cv-objection-coach` |
 | `memory/intel-reports/YYYY-MM-DD-<agent-slug>.md` | `cv-agent-intel` | one dated file per prospect, newest wins; sources and as-of dates inside; facts only; cardinal rules on every line. (The Brain's README names this dated shape; the plan's `<name>.md` shorthand means the same file.) |
+| `memory/intel-reports/YYYY-MM-DD-<agent-slug>-follow-up.md` · `memory/intel-reports/YYYY-MM-DD-reactivation.md` | `cv-follow-up` (the 90-day plan per agent) · `cv-reactivation` (each run) | the plan files the SEAM-LOG ruled in; same folder, same dating; newest is current |
+| `identity/sales-system.md` | **`sales-system-setup`** creates and updates the file; `sales-call-block` writes only `## Calendar → Window:` and the `## Call block` section | ruled in by the SEAM-LOG; the shape is in `sales-system-setup`; mirrors `operations.md`'s booking link and call block, never writes `operations.md` |
+| `memory/sales-funnel.md` | **`sales-scorecard`** | ruled in by the SEAM-LOG; weekly rows by source, never edited; the shape is in `sales-scorecard` |
 | `identity/story-bank.md` → `Used-where` only | `cv-call-prep`, `cv-enrollment-script`, `cv-presentation` stamp a story when they place it | never any other line of the file |
-| `config.md` → the `## Conversion & Sales` block | `sales-system-setup` creates the block; `cv-call-prep` writes `Call Block Prep task` · `Call Block Prep time`; `cv-reactivation` writes `Cold-Lead Reactivation task` | keys below; the Brain never edits this block |
+| `config.md` → the `## Conversion & Sales` block | `sales-system-setup` creates the block and seeds `Booking page` · `Partner call length` · `Setter: none`; `cv-call-prep` writes `Call Block Prep task` · `Call Block Prep time`; `cv-reactivation` writes `Cold-Lead Reactivation task`; `sales-setter` writes `Setter` | keys below; the Brain never edits this block |
 
 **Never written by this plugin:** `memory/top-50.md` beyond the three interim cells above (Stage is mirrored
 from `pipeline.md` by the Brain's Top-50 skill; rows are added by the Brain), `memory/scorecard.md` (`sales-scorecard` hands its weekly numbers to `admin-scorecard` / the
-weekly check-in, which append the rows), every `identity/` file except the `Used-where` stamp, `memory/content-log.md`.
+weekly check-in, which append the rows), every `identity/` file except `sales-system.md` and the `Used-where` stamp, `memory/content-log.md`, `memory/intel.md` (a trigger the member mentions is handed to `attraction-capture`, which owns that write), `memory/organization.md`, `identity/operations.md` (a booking link or call block goes to `attraction-operations`).
 
 ## `config.md` — the Conversion & Sales block (locked spelling)
 ```
@@ -88,17 +95,21 @@ that did not save.
 
 ## Hand-offs by skill name
 - **In:** `sf-comment-to-dm` → `cv-dm-flow` (a qualified comment-to-DM conversation) · `yt-repurpose` →
-  `cv-conversation-starter` (three openers from a video) · `attraction-top-50` and `attraction-prospect-radar` →
-  `cv-agent-intel` (a name to research) · `attraction-capture` → `cv-navigator` ("just talked to [agent]").
+  `cv-conversation-starter` (three openers from a video) · `attraction-prospect-radar` → `cv-agent-intel` ("prep me
+  on [name]") · `attraction-top-50` ("who should I talk to this week") → `cv-conversation-starter` (the opener for
+  each name) · `attraction-capture` → `cv-navigator` ("just talked to [agent]") and `cv-objection-coach` ("objection
+  handler" when a captured objection has none).
 - **Out:** `cv-presentation` → `ds-offer-assets` (the design brief, by name, pasted into Claude Design) ·
   `cv-enrollment-script` and `cv-presentation` → `05 · Offer` (rendered docs) · `cv-call-prep` and
   `cv-agent-intel` → `04 · Agents/Prospects` (rendered docs) · stage requests → the AI Admin (`admin-pipeline`) ·
-  weekly numbers → `admin-scorecard`.
+  weekly numbers → `admin-scorecard` (the WEEKLY ROW line) · follow-up plans and reactivation drafts → the Daily
+  Follow-Up Queue (`admin-follow-up-queue`) once the Admin is installed.
 
 ## Documents this plugin produces (per the Brain's `drive-map.md`)
-Call prep sheets and intel reports → `04 · Agents/Prospects` · the Enrollment Conversation Script, the opportunity
-presentation outline and 1-pager, the 3-way edification sheet → `05 · Offer` · the Sales OPS kit pieces
-(`sales-*`) → `05 · Offer` unless the skill says otherwise. Rendered through `shared/render_doc.py` per
+Call prep sheets, intel reports, the 3-way pack, the Switching Transition Plan, and a named agent's question funnel →
+`04 · Agents/Prospects` · the Enrollment Conversation Script, the opportunity presentation outline and 1-pager, the
+Objection Playbook, the type-level question funnel → `05 · Offer` · the Sales OPS kit pieces (`sales-*`) → `05 · Offer`,
+except the monthly Sales Scorecard doc → `01 · AI Brain` beside the 90-Day Attraction Scorecard. Rendered through `shared/render_doc.py` per
 `shared/doc-formatting.md`; dated filenames; newest is current.
 
 ## Privacy

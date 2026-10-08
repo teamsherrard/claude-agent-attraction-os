@@ -39,7 +39,7 @@ One caption serves both; one Facebook tweak noted at the end.
 
 **Facebook tweak:** same 3–5 tags; the booking link can be pasted directly; slightly more conversational is
 fine. If the post will ever be boosted or run as an ad, note the Meta "Employment" special-ad-category rule
-(`shared/compliance-doctrine.md` §8).
+(the Ads note line in `identity/compliance.md`).
 
 ---
 
@@ -112,8 +112,9 @@ caps, fees, or income words in any caption on any platform** — those are a cal
 - **Speak to one agent.** Name their problem; the member is the guide, not the hero.
 - **Cardinal rules on every line** (`03-model-positioning/13`): no negative word about another brokerage or
   person; a former brokerage is "a franchise" or "an independent."
-- **Permission** on any named agent or their numbers (`shared/compliance-doctrine.md` §7).
+- **Permission** on any named agent or their numbers (the consent column in `proof.md`; the Testimonial consent
+  line in `identity/compliance.md`).
 - **Voice first** — read it back against `voice-samples.md`; if it sounds like marketing, rewrite.
-- **Compliance last** — the stamp per `shared/compliance-doctrine.md` §9 where required; `unset` means the
-  captions do not ship.
+- **Compliance last** — the stamp per house rules #4 (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, built from
+  `identity/compliance.md`) where required; `unset` means the captions do not ship.
 - **Text only** — any visual is described in words for the member's design tool; never rendered here.

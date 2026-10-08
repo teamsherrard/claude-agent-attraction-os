@@ -31,7 +31,8 @@ words) · `identity/profile.md` and `journey.md` (what they have to give and in 
 `memory/top-50.md` for the name (Source tells you the relationship state; Notes tell you the context) ·
 `memory/conversations.md` for any earlier rows with this name · `memory/intel-reports/` newest for the name.
 Read `identity/compliance.md`: **unset → stop here, say so in one warm line ("three minutes, say 'set up my
-compliance'"), do not show a draft.** set / confirmed → continue.
+attraction compliance'"), do not show a draft. set → apply every rule and remind once to confirm with the
+brokerage; confirmed → apply.**
 
 ## Two modes
 - **Personalized** — an intel report exists (or the member says yes to running `cv-agent-intel` first, ~2

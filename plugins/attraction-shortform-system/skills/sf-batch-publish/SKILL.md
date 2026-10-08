@@ -70,15 +70,17 @@ if unknown: how long they actually have (an hour / an afternoon) and any locatio
 - **THE SAFETY NET** — two or three b-roll grabs while set up (the office, the desk, a walk-in, a slow pan of
   the whiteboard) for next month's cutaways.
 - **AFTER THE SHOOT** — check one clip's audio, confirm focus, name the files by date and hook, note
-  re-takes; hand the folder to the editor (`studio-reel` in the AI Editor plugin when installed).
+  re-takes; hand the folder to the editor when the AI Editor plugin is installed — each clip is a `studio-reel`
+  job (`studio-batch` when the same session also produced a long-form).
 
 **Permission and people:** any agent who appears on camera, in a screenshot, or in a story about their win
-has said yes, including to any number (`shared/compliance-doctrine.md` §7). Never film inside another
+has said yes, including to any number (the consent column in `proof.md`; the Testimonial consent line in
+`identity/compliance.md`). Never film inside another
 brokerage's office or a client's property without the owner's yes. Never a mastermind screenshot that shows
 other people's names without their consent.
 
 Deliver in chat and save per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render to `.docx`
-(`shared/render_doc.py`) → `03 · Content/Short-Form/`, named `[YYYY-MM-DD] · Film-Day Plan` — run sheet on
+(`shared/render_doc.py`) → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Film-Day Plan` — run sheet on
 page one, cards large. Close: *"block the time now; a filming day that isn't on the calendar doesn't happen."*
 
 ---
@@ -111,9 +113,9 @@ document post) · long-form → YouTube only (defer to the YouTube plugin's pack
 
 **Step 5 — Compliance (three-state).** Read `identity/compliance.md` once for the batch: `unset` → stop
 before any scheduling: *"these go public, so I need your compliance basics first; say 'set up my
-compliance' and it takes three minutes."* `set` → apply and remind once. `confirmed` → apply. The stamp per
-`shared/compliance-doctrine.md` §9 on every caption that needs it; no compensation or income words in any
-caption; permission confirmed on every named agent. "If empty, proceed" is banned.
+compliance' and it takes three minutes."* `set` → apply and remind once. `confirmed` → apply. The stamp (house
+rules #4 — built from `identity/compliance.md`) on every caption that needs it; no compensation or income words
+in any caption; permission confirmed on every named agent. "If empty, proceed" is banned.
 
 **Step 6 — Best times + the schedule.** Pull best-time-per-network from the tool; spread the pieces across
 the days at **three to five Reels a week on the 2·2·1 mix** (`07-instagram/88`), never two in one hour. If
@@ -122,17 +124,18 @@ missing; do not block. Cap respected: never silently drop a post; trim to the st
 the paid tier, their call.
 
 **Step 7 — ONE review + ONE yes.** Save the proposed queue as a calendar doc per
-`${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` → `03 · Content/Short-Form/`, named
+`${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
 `[YYYY-MM-DD] · Publishing Queue` (per piece: file · what it is · pillar · platforms · date and time · caption
 preview · keyword). In chat: *"here's your run — 14 posts over three weeks at your best times. Look it over;
 want me to load it all?"* **Wait for the yes.** Tweaks → adjust → re-confirm.
 
 **Step 8 — Schedule + log.** On the yes, create each scheduled post through the connected tool
 (`shared/publishing-guide.md`), hybrid path where a file cannot be reached. Report exactly which scheduled
-and which need a second look; never "all done" if it is not. Append one `Scheduled` row per piece to
-`memory/content-log.md` in the locked shape (Date · Platform · Format · Pillar · Topic / hook · Avatar ·
-Story used · CTA with keyword · Status · Link); push via **attraction-brain-sync**; if the push fails, say it
-is not saved, retry once, stop. Mirror cards on the content board only if `publishing.md` carries a board
+and which need a second look; never "all done" if it is not. Find each piece's row in `memory/content-log.md`
+(append one in the locked shape if it is missing: Date · Platform · Format · Pillar · Topic / hook · Avatar ·
+Story used · CTA with keyword · Status · Link). **Scheduled is not a status:** Status stays `Recorded` /
+`Edited` and the Link cell holds `scheduled YYYY-MM-DD HH:MM` until the live URL replaces it at `Published`.
+Push via **attraction-brain-sync**; if the push fails, say it is not saved, retry once, stop. Mirror cards on the content board only if `publishing.md` carries a board
 URL; scheduled is not Published.
 
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in

@@ -22,8 +22,9 @@ important metrics." Doctrine: `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.
 member sends and books).
 
 ## Before writing (silent)
-`brain.md` first (pull if missing) · `identity/profile.md` (the upline partner's name and what the member can
-truthfully say about them; empty → ask once: *"Who's your strongest upline partner for the model — the best
+`brain.md` first (pull if missing) · `identity/operations.md` (**3-way call partner (upline)** — the name and
+how to loop them in) and `identity/profile.md` (**Upline** — the sponsor, and what the member can truthfully say
+about them); both empty → ask once: *"Who's your strongest upline partner for the model — the best
 communicator, not necessarily your sponsor — and what are two or three true things about them I can build the
 introduction from?"* **Your turn.**) · `identity/proof.md` (the member's own accolades for the partner to use
 — real only) · `identity/brokerage-model.md` and `positioning.md` (what the partner will present; the model
@@ -31,7 +32,8 @@ stays theirs to explain) · for the prospect: `memory/intel-reports/` newest, th
 Prospects`, `memory/conversations.md` rows (what they said, the open objections), `identity/avatars.md`
 (their type) · `config.md` registry `Timezone` and the Conversion block.
 Compliance: the invite and the emails reach the prospect → `identity/compliance.md` **unset holds those**
-with one line; the brief and the scripts are private and render.
+with one line; **set** → apply and remind once; **confirmed** → apply; the brief and the scripts are private and
+render either way.
 
 **Fast lane:** the prospect is on the Top-50 with a `Call held` row and the partner is in the Brain → no
 questions; one line and the pack.

@@ -36,7 +36,8 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Then
   best-time notes, the content-board line. `sf-setup` writes this file; this skill updates only the
   `Posting tool:` and `Best times:` lines when they change (then pushes).
 - `identity/compliance.md` — Step 3
-- `memory/content-log.md` — the post's row (to update to Scheduled / Published)
+- `memory/content-log.md` — the post's row (the Link cell takes the slot, then the live URL; Status flips to
+  `Published` only when it is live — scheduled is not a status)
 - `config.md` — the timezone (lives there and only there)
 If the tool is manual or unset and the member asked to schedule, run Job A once, kindly, or take the manual
 path. Never nag about connecting.
@@ -49,7 +50,7 @@ Ask once which they use; recommend Metricool when they have nothing (works on th
 2. **GoHighLevel** — they create a Private Integration token in their own sub-account with the social-planner
    scopes and paste the token and location ID once; this never asks for a password.
 3. **Manual export** — no connector; every post is handed over as a copy-paste pack (and, on request, one
-   dated `.docx` per week in `03 · Content/Short-Form/`). Always valid; most members start here.
+   dated `.docx` per week in `03 · Content/Short-Form/[YYYY-MM · Month]/`). Always valid; most members start here.
 The five silent breakers, as a green/red checklist in plain words: connected to Claude? · which networks are
 linked (Instagram, Facebook, TikTok, YouTube, LinkedIn)? · Instagram is a Business or Creator account
 (personal accounts get a reminder, not an auto-post) · Google Drive linked inside the tool so videos attach
@@ -93,15 +94,18 @@ daytime); after a month use their own data. Save the plan to the `Best times:` l
 ## Step 3 — Compliance (three-state, before anything is scheduled)
 Read `identity/compliance.md`. `unset` → **nothing is scheduled**; hand the post back with: *"before this
 goes out I need your compliance basics; say 'set up my compliance' and it takes three minutes."* `set` →
-apply the rules and remind once per session. `confirmed` → apply. The caption carries the stamp per
-`shared/compliance-doctrine.md` §9 where the brokerage name or license rule applies; no compensation or
+apply the rules and remind once per session. `confirmed` → apply. The caption carries the stamp (house rules
+#4 — built from `identity/compliance.md`) where the brokerage name or license rule applies; no compensation or
 income words anywhere; a `[Brokerage Name]` placeholder is a FAIL. "If empty, proceed" is banned.
 
 ## Step 4 — Log + push (every scheduled or exported post)
-Append or update the post's row in `~/attraction-brain/memory/content-log.md` in the locked shape:
-`Date · Platform · Format (reel · story · carousel) · Pillar · Topic / hook · Avatar · Story used · CTA (the
-rung + keyword, e.g. "DM · PARTNER") · Status (Scheduled / Published) · Link`. One row per post; a cross-posted
-Reel is one row with the platforms listed. Then push via **attraction-brain-sync** — write → push → verify.
+Find the post's row in `~/attraction-brain/memory/content-log.md` (the content skill wrote it; if it is missing,
+append one in the locked shape: `Date · Platform · Format (reel · story · carousel) · Pillar · Topic / hook ·
+Avatar · Story used · CTA (the rung + keyword, e.g. "DM · PARTNER") · Status · Link`). **Scheduled is not a
+status:** keep Status as it is (`Recorded` / `Edited`) and put `scheduled YYYY-MM-DD HH:MM` in the Link cell;
+when the post actually goes live (Job D), set Status `Published` and replace the Link cell with the live URL.
+One row per post; a cross-posted Reel is one row with the platforms listed. Then push via
+**attraction-brain-sync** — write → push → verify.
 If the push fails: say it is not saved, keep the row visible, retry once, stop. Mirror the card on the
 content board only if `publishing.md` carries a board URL (house rules #10); skip silently otherwise.
 

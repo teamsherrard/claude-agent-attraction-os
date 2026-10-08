@@ -43,8 +43,8 @@ Read `~/attraction-brain/brain.md`, then:
 - `memory/objections.md` — the member's handlers, to check what they used.
 - `config.md` — whether the AI Admin block exists (decides write vs request below).
 `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` for the call framework and
-`${CLAUDE_PLUGIN_ROOT}/skills/cv-objection-coach/references/objection-bank.md` for the objection names —
-read at the audit step, not before.
+`${CLAUDE_PLUGIN_ROOT}/skills/cv-objection-coach/references/objection-bank.md` for the objection names (the
+fifteen `###` headings, then only the matched entries) — read at the audit step, not before.
 
 **The call itself:** a pasted transcript, a Fathom or Zoom summary, a Riverside transcript, a DM thread, or
 the member's notes. No file and no notes → one question: *"Paste the transcript or tell me how it went in a
@@ -114,7 +114,7 @@ In the member's plain words, each in one or two lines, "not seen on the call" wh
 
 ## Step 5 — The recap email (Mike's shape, `/42`) and the recap video script
 **Compliance gate first:** read `identity/compliance.md`. `unset` → draft nothing that leaves the Brain; say
-in one line that the recap needs their compliance basics ("set up my compliance", three minutes) and give
+in one line that the recap needs their compliance basics ("set up my attraction compliance", three minutes) and give
 the next move only. `set` → apply the rules and remind once. `confirmed` → apply. Never a `[Brokerage Name]`
 placeholder in a draft.
 

@@ -68,7 +68,7 @@ compensation or the model · anyone unhappy, upset, or disputing something · an
 exactly what [Name] covers on the call — here's the calendar; want me to hold a time?"*
 
 ## The DM qualification script (keyword or comment → booked)
-Written in the setter's voice, six short beats, one question each, with the member's actual phrasing:
+Written in the setter's voice, six short beats, one question each, with the member's actual phrasing. Read every draft back against the NEVER list before it is shown (house rules #9: no immediate pitch, no wall of text, no corporate recruiting language, no compensation, nothing AI-sounding, no fake personalization, no forced Zoom); one failure = rewrite.
 1. **Open on their action** — "Saw your comment on [the reel's topic] / thanks for the keyword — glad it
    landed." (Never "I'd love to share an opportunity.")
 2. **One real question about them** — "Quick one: how long have you been licensed, and where are you

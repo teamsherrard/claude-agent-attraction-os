@@ -29,7 +29,9 @@ Agent Attraction OS/
       │     │     ├── 2026-11-19 · Green Screen · Brokerage Fee Change  (Doc)
       │     │     └── 2026-11-19 · Stories · Tuesday Set                (Doc)
       │     └── Performance/
-      │           └── 2026-11-01–14 · Performance Review               (Doc — sf-analytics)
+      │           ├── 2026-11-01–14 · Performance Review               (Doc — sf-analytics)
+      │           ├── 2026-11-21 · Weekly Content Performance          (Doc — the Friday note)
+      │           └── 2026-11-30 · Short-Form Deep Dive                (Doc — sf-analytics, monthly)
       └── Graphics/
             └── 2026-11 · November/
                   └── 2026-11-20 · Carousel · Why I Left               (Doc — the spec ds-carousel reads)
@@ -52,7 +54,17 @@ Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.m
 | Carousel / LinkedIn doc | `YYYY-MM-DD · Carousel · [Short Topic]` | `2026-11-20 · Carousel · Why I Left` |
 | Profiles & bios | `Profiles & Bios — YYYY-MM-DD` | `Profiles & Bios — 2026-11-18` |
 | Performance doc | `YYYY-MM-DD–DD · Performance Review` | `2026-11-01–14 · Performance Review` |
+| Friday note | `YYYY-MM-DD · Weekly Content Performance` | `2026-11-21 · Weekly Content Performance` |
 | Deep dive | `YYYY-MM-DD · Short-Form Deep Dive` | `2026-11-30 · Short-Form Deep Dive` |
+| Weekly ideas + hook bank | `YYYY-MM-DD · Attraction Ideas + Hook Bank` | `2026-11-17 · Attraction Ideas + Hook Bank` |
+| Weekly routine | `YYYY-MM-DD · Weekly Routine` | `2026-11-17 · Weekly Routine` |
+| Keyword sheet + DM bank | `YYYY-MM-DD · Keyword Sheet + DM Bank` | `2026-11-18 · Keyword Sheet + DM Bank` |
+| Film-day plan | `YYYY-MM-DD · Film-Day Plan` | `2026-11-18 · Film-Day Plan` |
+| Publishing queue | `YYYY-MM-DD · Publishing Queue` | `2026-11-24 · Publishing Queue` |
+
+Everything in the Short-Form bucket except the performance documents lives in the month folder
+(`03 · Content/Short-Form/[YYYY-MM · Month]/`); the performance review, the Friday note, and the deep dive live in
+`03 · Content/Short-Form/Performance/` (no month folder).
 
 Topic = 3–6 plain words (Title Case), no punctuation soup. Dates are ISO (`YYYY-MM-DD`) so files sort on their
 own. **Dated filenames; the newest is current** — the storage connectors are create-only, so a regenerated doc

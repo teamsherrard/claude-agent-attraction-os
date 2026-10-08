@@ -260,7 +260,7 @@ highlights must spark curiosity and credibility.
 - **Leaders create leaders:** teach the routine to your agents; their posting drives traffic back to the same
   group and "based on the tier structure, we all win" (`/90`).
 
-### 9e. Culture content (bonus: Instagram culture highlights for AAA)
+### 9e. Culture content (`bonus/instagram-culture-highlights`)
 Document the events and experiences you create for your group — broken out by topic (your speaking, the
 culture, the community) — so agents see it rather than hear about it. "If you're not using video, you're not
 doing everything." It started with one video in Mike's first year; the group was small. **Doctrine for skills:**

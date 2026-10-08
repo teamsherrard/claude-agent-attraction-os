@@ -19,7 +19,8 @@ Steps, in order, plain language throughout (no file names, no sync talk, no step
    story-bank.md that answers the objection logged for them · a milestone they shared. No reason found → list
    the name under "no reason yet — leave it" and draft nothing for them.
 5. If compliance.md Status is unset, write no drafts: list the quiet agents and their reasons, and say the drafts
-   need the member's compliance basics ("set up my compliance"). Otherwise, for each agent with a reason, draft
+   need the member's compliance basics ("set up my attraction compliance"). If it is set, apply its rules and say
+   once that it still needs confirming; if confirmed, apply them. Then, for each agent with a reason, draft
    one message in the member's voice on the channel that agent last used (text, DM, email, or a 20-second video
    message script): a personal first line naming what they told the member, the reason stated plainly, curiosity
    not pressure, one open door. No compensation figures, no earnings claims, nothing negative about any brokerage

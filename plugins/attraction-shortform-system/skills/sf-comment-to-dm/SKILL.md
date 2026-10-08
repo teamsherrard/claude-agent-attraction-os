@@ -6,7 +6,7 @@ description: >
   into their own ManyChat (PARTNER, GUIDE, SCALE, GROWTH, the story reply, the DM qualifier). Every message
   selfless and useful, never a pitch, never compensation. Hands a real conversation to the Conversion
   plugin's cv-dm-flow when installed; otherwise logs it to the Brain in the locked stage vocabulary and adds
-  the agent to the Top-50. Trigger on: "set my keyword", "comment to DM for agents", "my DM bank", "ManyChat
+  the agent to the Top-50. Trigger on: "keyword for this reel", "comment to DM for agents", "my DM bank", "ManyChat
   copy for my organization", "what's the ask on this reel", "CTA ladder", "keyword sheet", "an agent
   commented my keyword", "an agent DMed me from a reel", "write my DM replies", or any request to turn
   comments on attraction content into conversations.
@@ -25,8 +25,9 @@ Every DM template here is **public-facing** (an agent outside the organization r
 gate applies before any of it is delivered.
 
 ## Three jobs (detect from the message)
-- **A · THE KEYWORD FOR THIS REEL** — "what's the ask on this reel", "set my keyword": pick the rung and the
-  keyword for one post.
+- **A · THE KEYWORD FOR THIS REEL** — "what's the ask on this reel", "keyword for this reel": pick the rung and
+  the keyword for one post (the member's primary keyword is set once in `sf-setup`; this picks the rung and any
+  per-Reel variant).
 - **B · THE KEYWORD SHEET + DM BANK** — "my DM bank", "ManyChat copy": build the whole set once; refresh it
   when the offer or the free resource changes.
 - **C · A CONVERSATION STARTED** — "an agent commented PARTNER", "she DMed me from the reel": write the human
@@ -35,7 +36,11 @@ gate applies before any of it is delivered.
 ## Step 1 — Load the Brain
 Read `~/attraction-brain/brain.md` first (pull via **attraction-brain-sync** if the local copy is empty).
 Then only what the job needs:
+- `identity/publishing.md` — the `Keyword:` line (the one word `sf-setup` chose; the default on every Reel),
+  `What it opens:`, and `ManyChat:` (`connected` → the sequences run; otherwise the member replies by hand)
 - `identity/avatars.md` — who the keyword is for and their pains (the qualifier questions mirror them)
+- `memory/magnets.md` → `## Current magnet` (Week 6; skip if it doesn't exist) — the live guide the GUIDE keyword
+  delivers, read before `offer.md`
 - `identity/offer.md` — the free resource(s) the GUIDE keyword delivers; the one-line promise. `Status:
   seeds` → every ask points to the call and the sheet marks where the guide slots in when Week 2's offer is
   finished (never ask for it early).
@@ -59,10 +64,17 @@ Then only what the job needs:
 | **Conversation** | one human question about their situation | the real relationship | all |
 | **Call** | "if it makes sense, let's talk; here's my calendar" | the partner call | PARTNER |
 
+**The member's keyword comes first.** The `Keyword:` line in `identity/publishing.md` is the word every Reel
+carries by default (`mike-frameworks.md` §8 — one word, chosen once in `sf-setup`). The keywords below are the
+sequence names from Mike's ManyChat templates; a member running those sequences can use them as per-Reel
+variants. If the member renames their primary keyword here, update the `Keyword:` line in `publishing.md` (the
+one line this skill writes there) and push.
+
 **The rule of one:** one Reel, one keyword, one rung. The keyword is said on camera at the end, written in
 the caption's last line, and pinned as the first comment. Authority Reels carry GUIDE, GROWTH, or SCALE;
 Story and Proof Reels carry PARTNER or a soft "DM me if this is you"; Personality Reels carry nothing but
-"follow." Only about one post in five asks for the call; the rest earn it (`07-instagram/86`).
+"follow." Only about one post in five asks for the call; the rest earn it (an OS rule, not a Week 3 lesson —
+`mike-frameworks.md` §8: the call comes after a conversation).
 
 ## Step 3 — The keyword sheet and the DM bank (Job B; Job A picks one row)
 **The keywords (defaults; rename to the member's words if they prefer):**
@@ -108,8 +120,8 @@ connects to, configures, or sends through ManyChat.
 Read `identity/compliance.md`. `unset` → **stop**: *"these DM templates go to agents outside your
 organization, so I need your compliance basics first; say 'set up my compliance' and it takes three
 minutes."* Deliver nothing public. `set` → apply every rule and remind once per session. `confirmed` →
-apply. Append the compliance stamp per `shared/compliance-doctrine.md` §9 only where a template names the
-brokerage; the income disclaimer never appears because no template mentions income. "If empty, proceed" is
+apply. Append the compliance stamp (house rules #4 — built from `identity/compliance.md`) only where a template
+names the brokerage; the income disclaimer never appears because no template mentions income. "If empty, proceed" is
 banned.
 
 ## Step 5 — A conversation started (Job C): reply, qualify, hand off or log
@@ -118,8 +130,8 @@ banned.
    question, write the next one, not the first one again.
 3. **When it is real** (they answered the qualifier, or asked how to partner, or asked for the call):
    - **If the Conversion plugin is installed** → hand to **`cv-dm-flow`** by name with: the agent's name and
-     handle, which Reel and keyword started it, the thread so far, the pains they named, and the rung they
-     are on. `cv-dm-flow` owns the conversation from here.
+     handle, which Reel and keyword started it, the resource promised, the thread so far, the pains they
+     named, and the rung they are on. `cv-dm-flow` owns the conversation from here.
    - **If it is not installed yet** → log one row to `memory/conversations.md` in the locked shape (Date ·
      Agent · Type · Channel = DM · what they said, short, their words · objection heard · pain · next step ·
      Stage after = `Conversation`), through **`attraction-capture`** when it is present (it is the interim
@@ -131,7 +143,7 @@ banned.
 
 ## Step 6 — Save
 Deliver in chat. Offer to save the sheet and bank per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`:
-render to `.docx` (`shared/render_doc.py`) → `03 · Content/Short-Form/`, named
+render to `.docx` (`shared/render_doc.py`) → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
 `[YYYY-MM-DD] · Keyword Sheet + DM Bank`. Close with the one next step: *"pick the keyword for this week's
 Reels and say the word on camera; I'll write the human replies as they come in."*
 

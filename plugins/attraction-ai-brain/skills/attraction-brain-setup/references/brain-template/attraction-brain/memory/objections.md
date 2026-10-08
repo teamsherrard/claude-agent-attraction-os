@@ -7,7 +7,7 @@
 |---|---|---|---|---|---|---|---|
 | | | | | | | | |
 
-**Archetypes:** happy where I am · no time · compensation · leads and support · recruiting isn't for me · brand and credibility · fear and uncertainty
+**Archetypes:** happy where I am · no time · compensation · Support and leads · recruiting isn't for me · brand and credibility · fear and uncertainty
 
 ## The member's own handlers (refined over time)
 ### [Objection]

@@ -25,13 +25,18 @@ Do this, in order:
    signals, what they post about their business. Never record age, family status, or any protected
    characteristic, and never compile personal information across sources.
 
-4. Write new rows to `memory/intel.md` in this exact shape, one per signal, newest first:
-   `| [YYYY-MM-DD] | [signal in plain words] | [who / where — a named person only if they or their brokerage announced it publicly; otherwise the brokerage or team] | [source URL · as-of date] | [matches primary avatar / in Top-50: name / landscape update / watch] |`
-   Mark every named person `unconfirmed — verify before contact`. Never invent a move, a number, or a name.
-   Nothing found is a valid result: write no rows and say so in the run line.
+4. Write new rows to `memory/intel.md` in the ledger's exact seven columns — the template's header
+   `| Date | Item (what happened) | Who it affects (avatar / named prospect) | Source · as-of | Verified? | Use (content · conversation · model Q&A · none) | Used? |`
+   — one row per signal, newest first:
+   `| [YYYY-MM-DD] | [what happened, in plain words] | [matches primary avatar / in Top-50: name / the avatar type / the brokerage or team — a named person only if they or their brokerage announced it publicly] | [source URL · as-of date] | [public announcement / unconfirmed — verify before contact] | [content / conversation / model Q&A / none] | [leave empty] |`
+   Every named person is `unconfirmed — verify before contact` unless the move was their own or their
+   brokerage's public announcement. A signal touching someone in the Top-50 is `conversation`. Never
+   invent a move, a number, or a name. Nothing found is a valid result: write no rows and say so in the
+   run line.
 
 5. Append `Watcher run: [YYYY-MM-DD] · [n] signals · [n] touching the Top-50` under `## Runs` in
-   `memory/intel.md`.
+   `memory/intel.md` — one line per run, appended, never rewritten, so a quiet week and a week that never
+   ran look different.
 
 6. Push the Brain with `attraction-brain-sync` (write, push, verify) so the rows survive.
 

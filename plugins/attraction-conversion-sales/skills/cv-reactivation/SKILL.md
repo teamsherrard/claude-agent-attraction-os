@@ -62,7 +62,7 @@ compliance.md`, `config.md`. Missing locally → pull via `attraction-brain-sync
 3. **Compliance gate:** `identity/compliance.md` unset → list and reasons only, no drafts, one line on how
    to set it. `set` → apply, remind once. `confirmed` → apply.
 4. Draft one message per agent with a reason, on the channel they last used (`conversations.md` Channel),
-   in the member's voice: personal first line · the reason, plainly · one link or none · one open door.
+   in the member's voice: personal first line · the reason, plainly · one link or none · one open door. Read every draft back against the NEVER list before it is shown (house rules #9: no immediate pitch, no wall of text, no corporate recruiting language, no compensation, nothing AI-sounding, no fake personalization, no forced Zoom); one failure = rewrite.
    Email → a draft in the email connector (draft-only on both providers). Text / DM → paste-ready. Video →
    a 20-second script. Three to five drafts per run shown in full; the rest one line each with the reason.
 5. Write `memory/intel-reports/YYYY-MM-DD-reactivation.md` (the list, reasons, drafts, the "leave it"
@@ -114,7 +114,7 @@ say which read was skipped.
 ## Hand-offs
 A quiet agent who replies → `cv-debrief` (log, probability, next move) or `attraction-capture` for a one-
 liner. A reason that needs a full nurture plan → `cv-follow-up`. A model change the member tells you about
-→ `memory/intel.md` via capture's shape. The daily "who is due" → the AI Admin's `admin-follow-up-queue`.
+→ `attraction-capture` (it owns the `memory/intel.md` write). The daily "who is due" → the AI Admin's `admin-follow-up-queue`.
 
 ## Demo mode
 Fictional member and agents, no scheduled task ever created, every figure "(illustrative — demo)".

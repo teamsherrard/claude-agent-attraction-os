@@ -7,7 +7,7 @@ description: >
   bridge: the member's leadership, the model, the value proposition) and the perfect-presentation flow
   (rapport → qualifying questions → bridge the gap → close with confidence). Produces the outline, the
   one-pager copy, and a paste-ready design brief for the Design Studio's ds-offer-assets. Trigger on: "my
-  presentation", "opportunity presentation", "the one-pager", "the opportunity deck", "join my team one-pager",
+  presentation", "opportunity presentation", "my opportunity one-pager", "the opportunity deck", "join my team one-pager",
   "presentation for a top producer", "what do I show on the call", "update my presentation".
 ---
 
@@ -34,7 +34,8 @@ call") · `identity/avatars.md` (the primary type; a per-type variant on request
 `Used-where`) · `identity/brand-visual.md` (for the design brief) · for a named prospect: the intel report, the
 call prep, the conversation rows — the three things are THEIRS.
 Compliance: the one-pager is something a prospect sees → `identity/compliance.md` **unset → the outline
-renders, the one-pager and the brief are held** with one warm line.
+renders, the one-pager and the brief are held** with one warm line; **set** → apply and remind once; **confirmed**
+→ apply.
 
 **Fast lane:** Brain loaded → one line and the output. The only question, if neither a type nor a name is
 clear: *"Who's this for — your main type of agent, or a specific person?"* **Your turn.**
@@ -48,7 +49,7 @@ clear: *"Who's this for — your main type of agent, or a specific person?"* **Y
    the brokerage's model, only as far as their goals go, in plain English, from `brokerage-model.md`.
 4. **The story** — one, from the story bank, the one that mirrors them.
 5. **Close with confidence** — assume the close; the transition-date question; what happens next
-   (`bonus/the-perfect-presentation` step 4).
+   (`bonus/perfect-presentation` step 4).
 Each beat with **Say it like this:** and the line. Production pain → no rev share in the outline; exit or
 time-freedom pain → residual income as the vehicle, numbers from the member's materials, labeled, never projected.
 

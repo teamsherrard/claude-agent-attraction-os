@@ -1,6 +1,6 @@
 # Connectors — the provider layer (Google OR Microsoft)
 
-The member's world is either **Google** (Drive · Gmail · Google Calendar) or **Microsoft** (OneDrive ·
+The agent's world is either **Google** (Drive · Gmail · Google Calendar) or **Microsoft** (OneDrive ·
 Outlook Mail · Outlook Calendar, all via the **Microsoft 365 connector**). Skills never hardcode one:
 they say "the **storage** / **email** / **calendar** connector," and this file maps those to the real
 connector based on the **`Storage provider`** field in `config.md` (set once at setup; default `google`).
@@ -27,7 +27,7 @@ connector based on the **`Storage provider`** field in `config.md` (set once at 
    If either operation is unavailable in a session (older environments, Microsoft untested), fall back to
    the create-only rules — they always remain the safety net.
 2. **Email is DRAFT-ONLY as policy, on both providers.** Gmail literally cannot send. Outlook *can* send —
-   but we never do: every email lands as a **draft the member reviews and sends themselves**. No exceptions.
+   but we never do: every email lands as a **draft the agent reviews and sends themselves**. No exceptions.
 3. **Markdown/text files must round-trip.** When creating `.md` engine files, keep them as plain files
    (disable auto-conversion to Google Docs) so the sync can read back exactly what it wrote. Rendered
    deliverables (`.docx`) upload as-is.
@@ -42,7 +42,7 @@ disabled** — Claude can *read* their OneDrive but every create fails. The rule
   > actions for the Microsoft 365 connector, or I can set you up on a free Google account instead so
   > nothing is blocked today."*
 - Record `Storage: READ-ONLY (org-gated)` in `config.md` so every skill knows saves are blocked, and
-  **surface it on every attempted save** until it's fixed. Never let a member think work was saved when
+  **surface it on every attempted save** until it's fixed. Never let an agent think work was saved when
   it wasn't.
 - **The rescue path (if gating is discovered AFTER content exists):** dump the full brain contents into
   the chat as a clearly-delimited copyable block, say plainly it is **NOT saved**, and offer the switch:

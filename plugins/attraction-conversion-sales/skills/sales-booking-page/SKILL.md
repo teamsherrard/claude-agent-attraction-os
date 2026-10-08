@@ -16,7 +16,7 @@ description: >
 
 The booking page is the filter and the first impression. Mike's own: a one-on-one Zoom call, a line on
 what the group does for agents, and five required questions that hand him "all the ammunition" before the
-call starts (`10-presentation-delivery/42`; bonus: Calendly). This skill writes every word of the
+call starts (`10-presentation-delivery/42`; `bonus/calendly`). This skill writes every word of the
 member's version and the brief the Design Studio turns into the page.
 
 **Write-and-prepare.** Copy and a brief; the member pastes into their tool or hands the brief to Claude
@@ -36,7 +36,7 @@ Missing locally → `attraction-brain-sync`. A tool error is never "no Brain".
 
 ## Compliance gate — before a word is written (this page is public)
 `identity/compliance.md` **unset** → stop: *"Before I write anything an agent will read, I need your
-compliance basics — three minutes: say 'set up my compliance'."* **set** → apply every rule; remind once to
+compliance basics — three minutes: say 'set up my attraction compliance'."* **set** → apply every rule; remind once to
 confirm. **confirmed** → apply. Applied rules: brokerage name exactly as it must appear, license display
 where required, no compensation or income language, no superlative ("record-breaking", "#1",
 "fastest-growing") without a dated source in `proof.md`, the recruiting-scope line if the member attracts

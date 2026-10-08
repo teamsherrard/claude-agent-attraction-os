@@ -2,7 +2,7 @@
 
 *Read by `cv-objection-coach` (all modes) and, by name, by `cv-call-prep`, `cv-debrief`, and `cv-enrollment-script`.
 Source of truth: the Week 5 vault, module 11 (`11-objection-handling/46`, `/48–62`) and the two bonus lessons
-(the objection framework; "I need to think about it"). Lesson numbers `/47` and `/51` are not in the vault export;
+(`bonus/objection-framework` · `bonus/think-about-it`). Lesson numbers `/47` and `/51` are not in the vault export;
 the bonus files carry that material. Every handler below is Mike's own framing, condensed — never a script to read
 aloud. The coach rewrites each one fresh for the prospect in front of the member, from the member's Brain.*
 
@@ -19,7 +19,7 @@ Expert (`attraction-brokerage-model`) fills from the member's own brokerage; unt
 
 ## The framework — the transcript's wording is the truth
 
-**Listen → Validate → Reframe → Invite** (bonus: the objection framework; `/46`). "Objections are not rejection —
+**Listen → Validate → Reframe → Invite** (`bonus/objection-framework`; `/46`). "Objections are not rejection —
 they're a request for more clarity." Stay calm, listen, reframe; don't fight, don't get defensive. Welcome it:
 *"I get that — I used to feel that way too — but … — would you be open to seeing …?"*
 
@@ -140,7 +140,7 @@ invite · the mistake to avoid · proof / story slot · brokerage slot. The coac
 - **Proof / story slot:** an agent in the member's organization who joined to produce and never recruited.
 - **Brokerage slot:** how the member's plan pays on production, in one line.
 
-### 4. "I need to think about it" — bonus lesson
+### 4. "I need to think about it" — `bonus/think-about-it`
 - **Archetype:** A7
 - **What it probably means:** one or two questions are not fully answered. "If you were 100% certain there'd be
   nothing to think about" — so there is a question; find it. Often: a spouse.
@@ -382,9 +382,9 @@ invite · the mistake to avoid · proof / story slot · brokerage slot. The coac
 
 The launching doc's examples: *"[Brokerage] isn't for me"* · *"The split isn't worth it"* · *"I'm already at a cloud
 brokerage"* · *"I don't want to leave my brand."* These are handled on the same four steps, but the reframe depends
-entirely on the member's model. `attraction-brokerage-model` writes the handlers it can ground into
-`identity/brokerage-model.md` under **Objections about this model**; the coach reads that section and treats it as
-entries 16+. Until it exists, the coach runs the four steps with the question to ask and says plainly that the
+entirely on the member's model. `attraction-brokerage-model` answers them in `identity/brokerage-model.md`'s
+**Q&A bank** (the template's section — there is no separate objections section); the coach reads that section and
+treats its objection-shaped answers as entries 16+. Until it exists, the coach runs the four steps with the question to ask and says plainly that the
 model-specific reframe is built with the Brokerage Model Expert ("say 'explain my model' and it takes ten minutes").
 
 ## Also in the vault, not separate entries

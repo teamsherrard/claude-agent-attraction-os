@@ -34,7 +34,8 @@ Open only:
   it; if missing, use the defaults below and say which week fills it)
 - `identity/goals.md` — the content commitment they set in Week 1 (never ask for a number that is here)
 - `identity/operations.md` — working hours, the booking link, when they are usually free to film
-- `identity/publishing.md` — the posting tool and connected platforms
+- `identity/publishing.md` — the posting tool and connected platforms, `Cadence:`, `Weekly mix:`, `Batch day(s):`,
+  the `Keyword:` line
 - `memory/content-log.md` — what shipped last week, by pillar (the check-in reads this; the plan avoids
   repeats)
 - `memory/ideas.md` (tag `shortform`) — their own captured ideas get first claim on this week's slots
@@ -45,9 +46,9 @@ If none of the three to five Reels for the week are scripted yet, say so and poi
 
 ## The rhythm (Mike's, carried whole)
 - **Reels: three to five a week** — start at three, work up to five (`07-instagram/88`). The mix every
-  week: **2 attraction · 2 authority · 1 story** — attraction = a Perspective, Proof, or Personality Reel;
-  authority = an Authority Reel; story = a Story Reel. Static posts can be spliced in for recognition and
-  personal moments; they do not replace the Reels.
+  week: **2 attraction · 2 authority · 1 story** — attraction = a Proof or Personality Reel; authority = an
+  Authority or Perspective Reel; story = a Story Reel (`mike-frameworks.md` §9d). Static posts can be spliced
+  in for recognition and personal moments; they do not replace the Reels.
 - **Stories: every day, one to five**, a mix of personal and value; never a day without one
   (`07-instagram/89`). Reels build width and awareness; stories build depth and connection.
 - **One video covers every short-form platform** — film for Instagram Reels, repost to TikTok, YouTube
@@ -108,7 +109,7 @@ Encourage. A thin week is data, not failure.
 
 ## Step 4 — Save
 Deliver in chat. Offer to save per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render to `.docx`
-(`shared/render_doc.py`) → `03 · Content/Short-Form/`, named `[YYYY-MM-DD] · Weekly Routine`. If a save
+(`shared/render_doc.py`) → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Weekly Routine`. If a save
 fails, say so, keep it visible, retry once, stop. Close: *"block the batch day before you close this; a
 filming day that isn't on the calendar doesn't happen."*
 

@@ -84,7 +84,8 @@ its id, never a twin); else `create_scheduled_task` with `taskId: attraction-adm
 `cronExpression: 0 7 * * *` (the hour from their answer, in their local time from `config.md → Timezone`,
 no timezone math), and the `prompt` set **verbatim** from `${CLAUDE_PLUGIN_ROOT}/shared/briefing-prompt.md`;
 verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — not there → say so plainly; never
-claim a schedule that did not save. On yes to the queue: run `admin-follow-up-queue`'s provisioning step
+claim a schedule that did not save. Then write `Morning Brief task: attraction-admin-morning-brief · runs
+daily [time]` and `Morning Brief time` to the block (Step 5) and push. On yes to the queue: run `admin-follow-up-queue`'s provisioning step
 (it owns that task and its prompt). "Not yet" → `declined` on that line, never re-offered, still on
 demand. A demo Brain never gets a task.
 The Week-6 trio in ONE line, no question: *"When you're ready: 'turn on my weekly CEO review' (Fridays),

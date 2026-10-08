@@ -3,6 +3,10 @@
 Every skill in this plugin follows these. When a skill says "apply house rules," it means this file. The
 methodology behind all of it is `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` (rule #6). The Brain contract
 is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` (rule #2 and #4). Lazy-load both at the step that needs them.
+The OS-wide voice rules are `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` (plain language, the READY BRIEF,
+empty is normal, the week rule, housekeeping last) and `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md` (ask
+once, default if unsure, a question is a handoff) — byte-identical copies of the Brain plugin's files, read by
+reference, never copied into a skill. Rule #1 below is their short-form summary.
 
 ---
 
@@ -70,6 +74,12 @@ Before anything public-facing goes out, read `~/attraction-brain/identity/compli
   compliance basics — say 'set up my compliance', three minutes") and do the private parts of the task meanwhile.
 - **`set`** → apply every rule; remind once per session to confirm with the brokerage.
 - **`confirmed`** → apply.
+**The stamp** (what every public piece appends — built from `identity/compliance.md`; the Brain plugin's compliance
+doctrine §9): the brokerage name as required · the license display as required · the brokerage disclaimer verbatim
+if any · the AI-likeness line only on clone content · the income disclaimer never, because nothing here mentions
+earnings. Byline or footer only — never inside a caption, bio, or script the member pastes. Plus one reminder to the
+member, not for publishing: *"Check this against your brokerage's advertising and revenue-share marketing rules
+before it goes out."* When a skill says "the stamp (house rules #4)", it means this.
 What "apply" means in short form: the brokerage name and license display as the file says; the brokerage
 disclaimer where required; **the two cardinal rules** — never talk badly about another brokerage, never about
 another person (`03-model-positioning/13`); former brokerages never named; **no compensation in content** (splits,

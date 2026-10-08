@@ -54,7 +54,7 @@ pitch, and it breaks the cardinal rules the moment it compares).
 When `publishing.md` lists LinkedIn or an avatar is a team leader / broker-owner, write the same piece as a
 **PDF document post**: 8–12 pages, one idea per page, bigger type, landscape or 1080×1350. Reframe for a leader
 who carries a team: the "adult daycare" exhaustion, retention, leverage, "two steps back to take twenty forward"
-(Mike's vocabulary, Brain doctrine §16). Plus the **post copy**: 150–200 words, a first line that stands alone
+(Mike's vocabulary — the Brain plugin's `attraction-doctrine.md` §16). Plus the **post copy**: 150–200 words, a first line that stands alone
 above the fold, no hashtag wall (0–3), the ask = "message me" or the keyword typed in a reply (no comment
 automation on LinkedIn — say so if they ask). Same cardinal rules; compliance stamp per the file.
 

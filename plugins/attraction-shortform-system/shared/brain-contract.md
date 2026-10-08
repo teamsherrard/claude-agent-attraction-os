@@ -40,6 +40,8 @@ marker `_workspace.md`) is a different system: this plugin never reads it and ne
 ## What this plugin READS (read-only, never written here)
 `brain.md` · `config.md` (Workspace ID, Timezone, Locale, CRM) · `identity/profile.md` · `identity/journey.md`
 (incl. the `## Why join me` block) · `identity/strategy.md` · `identity/avatars.md` · `identity/positioning.md` ·
+`identity/operations.md` (the booking link, hours, the usual filming window, the Friday time) · `identity/goals.md`
+(the content commitment from Week 1 — read, never written) ·
 `identity/offer.md` (the Resource rung; Status respected) · `identity/story-bank.md` (stories pulled; Used-where
 stamped — see "also writes") · `identity/proof.md` (Proof pillar; consent column respected) · `identity/voice.md`
 · `identity/voice-samples.md` · `identity/voice-print.md` (every read-aloud script) · `identity/brand-visual.md`
@@ -47,14 +49,18 @@ stamped — see "also writes") · `identity/proof.md` (Proof pillar; consent col
 surface) · `identity/compliance.md` · `memory/content-log.md` (all rows, to avoid repeats) · `memory/objections.md`
 (objection Reels) · `memory/ideas.md` (tag `shortform` and `story`; the member's own ideas come first) ·
 `memory/intel.md` (brokerage and industry news for `sf-greenscreen`) · `memory/content-performance.md` (what worked —
-the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet).
+the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet) · `memory/top-50.md` and `memory/conversations.md`
+(read-only: whether an agent is already in a conversation; which conversations content started — the ledgers stay
+with their owners) · `memory/magnets.md` → `## Current magnet` (Week 6, Lead Magnet-owned; the live guide for the
+Resource rung and the GUIDE keyword, read before `offer.md`; skip if it doesn't exist yet).
 
 ## What this plugin OWNS (writes)
 
 | File | Owner skill | Also writes (designated lines only) |
 |---|---|---|
 | `identity/content-pillars.md` | `sf-setup` (creates it in Week 3; "update my pillars" edits one section) | `sf-ideas` appends to the `## Hooks bank` section only |
-| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, bios) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it |
+| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, the `Bios:` pointer) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it |
+| `identity/profiles.md` — the bios | `sf-setup` (writes it first, Week 3; "update my bios" replaces the bio text inside the existing headings, never renames, reorders, or drops one) | the Lead Magnet plugin's `lm-profiles` (Week 6) is the designated later updater: it rewrites the bio text inside the same `## <Platform>` headings and appends sections for platforms this plugin doesn't cover; nobody else |
 | `memory/content-log.md` — **Short-Form rows only** | every content skill appends its own rows; `sf-publish` updates the Status and Link of a row it finds | YouTube, the AI Editor, and Events own their own rows; nobody edits another plugin's row except the Editor flipping Status to `Edited` |
 | `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` creates the block: `Installed:` date · `Plugin version:` · `Layer:` → `identity/publishing.md` · `Weekly Content Performance task: not offered yet` | `sf-analytics` → the `Weekly Content Performance task:` line in this block only (task id or `declined`); nothing else in `config.md`, ever |
 | `memory/content-performance.md` | `sf-analytics` (the Friday performance ledger — which Reels, stories, and keywords produced agent DMs; inside the sync allowlist) | the content skills read it; nobody else writes it |
@@ -69,11 +75,13 @@ the `Used?` column of a row `sf-greenscreen` turned into a Reel. Nothing else in
 `organization.md`, `scorecard.md`, `objections.md` (even an objection Reel only *reads*), `debriefs.md`,
 `deadlines.md`, `capture-log.md`, `prospect-intel.md`. A conversation that starts from a Reel's comments or a
 story reply is handed to `sf-comment-to-dm`, the only short-form skill that logs a conversation row (interim, as
-above); the content skills never do.
+above); the content skills never do. An agent who surfaces from a Reel is added to the Top-50 by name through
+`attraction-top-50` (or `attraction-capture`) — never by a direct write to `memory/top-50.md`.
 
 ## Locked shapes this plugin uses
 - **`memory/content-log.md` row** (the template's shape, never extended):
-  `| Date | Platform | Format (long-form · reel · story · carousel · interview · live) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
+  `| Date | Platform | Format (long-form · reel · story · carousel · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
+  (`email` and `blog` are the YouTube plugin's values, added by the coordinator's ruling; this plugin writes only `reel` / `story` / `carousel`.)
   Short-form conventions inside that shape: Platform = `Instagram` (add `· TikTok · Shorts · FB` when cross-posted) or `LinkedIn`; Format = `reel` / `story` / `carousel`; the Topic / hook cell begins with the content type in brackets — `[talking head]`, `[green screen]`, `[story set]`, `[LinkedIn doc]`; Pillar = one of `Authority · Perspective · Story · Proof · Personality`; CTA = the rung + the keyword (`Comment · PARTNER`); Status = `Idea / Scripted / Recorded / Edited / Published`; Link = the live URL once published (before that, a scheduled slot may sit there as `scheduled YYYY-MM-DD HH:MM`).
 - **Pipeline stages** (never touched here, named correctly when handing off): Identified → Conversation →
   Call booked → Call held → 3-way → Joined → Onboarded → Active.
@@ -87,7 +95,7 @@ above); the content skills never do.
 ## `identity/publishing.md` — the shape (this plugin defines it; every line is a locked key)
 ```
 # [Member First Name] — Publishing (the short-form layer)
-*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board (Content board), sf-comment-to-dm (Keyword). The Friday task id lives in config.md's Short-Form block, not here.*
+*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board (Content board), sf-comment-to-dm (Keyword). The Friday task id lives in config.md's Short-Form block, not here. The bios live in identity/profiles.md, not here.*
 **Short-form setup:** [not started | pillars done | bios done | keyword done | complete YYYY-MM-DD]
 **Platforms (priority order):** [Instagram Reels · TikTok · YouTube Shorts · Facebook Reels · LinkedIn]
 **Cadence:** [N Reels/week · stories daily] · **Weekly mix:** [2 attraction · 2 authority · 1 story] · **Batch day(s):** [ ]
@@ -97,12 +105,34 @@ above); the content skills never do.
 **Content board:** [URL | declined YYYY-MM-DD | (empty = not offered yet)]
 **Link in bio:** [tool · the links in order, each with its action text]
 **Story highlights:** [About · Agent wins · Culture · Free value · Partner with me · (passions)]
-## Bios (current — YYYY-MM-DD)
-### Instagram · ### Facebook · ### TikTok · ### LinkedIn   (each: the live bio text, then the five questions ticked)
+**Bios:** identity/profiles.md (current — YYYY-MM-DD)   ← a pointer only; the bio text lives in `profiles.md` (below)
 ```
 
+## `identity/profiles.md` — the bios (this plugin writes it first; the Lead Magnet plugin updates it in Week 6)
+```
+# [Name] — Platform Profiles
+*identity · the bios, one section per platform · owner: the Short-Form System's sf-setup (Week 3) · lm-profiles (Week 6) updates the bio text inside these sections to the funnel's CTA*
+
+## Instagram
+[the live bio text]  ·  the five questions ticked (who you are · who you help · what you help them do · why they should listen · what to do next)
+
+## Facebook  ·  ## TikTok  ·  ## LinkedIn   (same shape, in that order)
+```
+Rules: `sf-setup` replaces bio text inside a heading and never renames, reorders, or deletes one; any section another
+system appended after the four (`## YouTube` · `## X` · `## Threads` · `## Google Business Profile` · `## Brokerage
+site` · `## Email signature`) and any italic update line it left are preserved byte-for-byte. **Contract note for the
+coordinator:** `lm-profiles` lists `## YouTube` among "the five `sf-setup` platforms"; this plugin writes the master
+plan's four (Instagram · Facebook · TikTok · LinkedIn) — who writes `## YouTube` (this plugin with a placeholder, the
+YouTube system in Week 4, or `lm-profiles`) is open.
+
 ## `identity/content-pillars.md` — the shape (written by `sf-setup`)
-Title and owner line · `**Status:**` · the one-line anchors pulled from the Brain (primary avatar, known-for, the
+Title and owner line · `**Status:**` · **the Brain template's header lines, kept and filled** — `**Content pillars
+(each with its one-line why):**` (the five, one line each) · `**Platforms (priority order):**` · `**Cadence (what
+they will actually sustain):**` · `**The two CTAs:**` (1. Book a call — the booking link · 2. The guide / keyword —
+the keyword and what it opens, from Week 3; the Lead Magnet plugin updates the guide in Week 6) · `**Signature
+series / recurring format:**` · `**Default video style:**` — the YouTube plugin reads cadence and the two CTAs from
+these lines, so they are never dropped (`publishing.md` is the source for cadence, platforms, and the keyword;
+these lines mirror it) · the one-line anchors pulled from the Brain (primary avatar, known-for, the
 "why I'm here" line) · five sections headed **exactly** `## Authority` · `## Perspective` · `## Story` · `## Proof`
 · `## Personality` (the OS-wide canonical names; the Brain doctrine's "what I teach · behind the scenes of leading ·
 agent wins · industry POV" are sub-examples inside Authority / Proof / Perspective, never headings). Inside them:
@@ -110,11 +140,10 @@ Authority — the niche dissected into topic seeds and the pain each answers · 
 bust, the questions to answer · Story — the journey beats and the story-bank hooks to tell first · Proof — the agent
 wins with consent, the recurring behind-the-scenes · Personality — passions, routines, family lines the member is
 willing to share and which agents relate to them · then `## Weekly mix` · `## Hooks bank` (appended by `sf-ideas`).
-**Contract note:** the Brain template, `brain.md`, and the Brain's `brain-contract.md` currently name this file
-`identity/content-engine.md`; the master plan §1, the build brief, and the Brain's `how-we-speak.md` §3 say
-`content-pillars.md`, which the coordinator has confirmed as canonical (the Brain side is being aligned). This
-plugin writes `content-pillars.md`. `attraction-brain-sync`'s allowlist must carry `identity/content-pillars.md`,
-`identity/publishing.md`, and `memory/content-performance.md`.
+**Contract note:** the Brain template scaffolds `identity/content-pillars.md` empty, with the header lines above and
+an owner line naming `sf-setup`; `brain.md`, the Brain's `brain-contract.md`, and its `how-we-speak.md` §3 name the
+same file. This plugin writes it. `attraction-brain-sync`'s allowlist carries every `identity/*.md` (so
+`content-pillars`, `publishing`, `profiles`) and every `memory/**/*.md` (so `content-performance`).
 
 ## Scheduled agents this plugin owns
 **Weekly Content Performance** (Friday) — owned and provisioned by `sf-analytics`, only with the member's
@@ -123,10 +152,11 @@ later option and never provisions it. Task id recorded on the `Weekly Content Pe
 `## Short-Form (Week 3)` block in `config.md` (locked spelling; `sf-setup` creates the line as `not offered yet`).
 
 ## Documents this plugin produces (per the Brain's `shared/drive-map.md`, located by Workspace ID)
-- Reel scripts, the 30-day calendar, green-screen packages, story sets → `03 · Content/Short-Form/[YYYY-MM · Month]/`
+- Reel scripts, the 30-day calendar, green-screen packages, story sets, the weekly ideas + hook bank, the weekly
+  routine, the keyword sheet + DM bank, the film-day plan, the publishing queue → `03 · Content/Short-Form/[YYYY-MM · Month]/`
 - Carousel specs and LinkedIn document-post copy → `03 · Content/Graphics/[YYYY-MM · Month]/`
 - Profiles & Bios → `02 · Brand/`
-- Performance reviews and the monthly deep dive → `03 · Content/Short-Form/Performance/`
+- Performance reviews, the Friday note, and the monthly deep dive → `03 · Content/Short-Form/Performance/` (no month folder)
 Never a parallel `[Member] — Short-Form System/` root (the audit's seam). Naming per `shared/output-standard.md`.
 
 ## Hand-offs (by skill name, never duplicated)
@@ -134,8 +164,11 @@ Never a parallel `[Member] — Short-Form System/` root (the audit's seam). Nami
 · `attraction-story-bank` (a story the member wants to add) · `sf-ideas` (hook bank, weekly ideas) ·
 `sf-comment-to-dm` (keyword per Reel, DM copy bank → `cv-dm-flow`) · `sf-optimizer` (captions, hashtags, the CTA
 line) · `sf-publish` / `sf-batch-publish` (scheduling through the member's own tool) · `sf-analytics`
-(performance, the Friday agent) · `sf-board` (the Notion board) · `studio-reel` (the Riverside edit) ·
-`ds-carousel` (carousel design, Claude Design) · `cv-dm-flow` (the conversation).
+(performance, the Friday agent) · `sf-board` (the Notion board) · `studio-reel` (the Riverside edit, one clip at a
+time; `studio-batch` when one recording session also produced a long-form) · `ds-carousel` (carousel design, Claude
+Design) · `cv-dm-flow` (the conversation) · `attraction-capture` / `attraction-top-50` (the interim conversation row
+and the Top-50 add, by name) · `yt-analytics` (appends its section to the Friday note from Week 4) · `lm-profiles`
+(the Week 6 bios update).
 
 ## Privacy
 Everything in the Brain — agent names, wins, conversations — is the member's private data. It lives only on their

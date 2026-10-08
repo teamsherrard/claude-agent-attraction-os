@@ -17,8 +17,8 @@ description: >
 
 "Most agents will not join after the first conversation… regular, value-driven follow-up keeps the door
 open. Follow-up should feel like leadership, not chasing" (`12-simple-tech-stack/85`). Mike does not run
-a drip campaign: "I don't have a CRM where they're on some templated drip pushing everybody" (`10-
-presentation-delivery/41`). The plan is per person — relationship, intent, objection, timeline, interests
+a drip campaign: "I don't have a CRM where they're on some templated drip pushing everybody"
+(`10-presentation-delivery/41`). The plan is per person — relationship, intent, objection, timeline, interests
 (the launching doc's Follow-Up Engine spec) — and every touch leaves value.
 
 **Write-and-prepare only.** Drafts land in chat or as email drafts; the member sends. The AI Admin's
@@ -113,14 +113,14 @@ resets" (`/60`) → the date is the anchor; the touches before it build the day-
 
 ## Step 4 — Draft the touches (compliance gate first)
 Read `identity/compliance.md`: `unset` → the plan is built and shown, but no message draft leaves the chat
-— say in one line that drafts need their compliance basics ("set up my compliance", three minutes). `set`
+— say in one line that drafts need their compliance basics ("set up my attraction compliance", three minutes). `set`
 → apply and remind once. `confirmed` → apply.
 Then draft the **next two touches** in full (not all twelve — usage discipline), in the member's voice:
 short, personal first line, the reason stated plainly, one link or one attachment, one soft open door;
 no compensation figures, no earnings claims, nothing negative about anyone; "it made me think of you",
 never "circling back". Email → create a **draft** in the email connector (draft-only on both providers;
 say where it is). Text / DM → paste-ready in chat. Video message → a 20–30 second script for Loom or a
-voice note. Later touches are one line each with their reason and date.
+voice note. Later touches are one line each with their reason and date. Read every draft back against the NEVER list before it is shown (house rules #9: no immediate pitch, no wall of text, no corporate recruiting language, no compensation, nothing AI-sounding, no fake personalization, no forced Zoom); one failure = rewrite.
 
 ## Step 5 — Write, push, hand to the queue
 - **The plan file:** `memory/intel-reports/YYYY-MM-DD-[agent]-follow-up.md` (this plugin owns the folder):
@@ -129,8 +129,13 @@ voice note. Later touches are one line each with their reason and date.
   only when the AI Admin is not installed (same vocabulary), otherwise **requested** in one line for
   `admin-pipeline`; the Top-50 row's Next move · Due follow the same rule (the capture skill's interim
   allowance).
-- **A new trigger learned from the member** ("my brokerage just announced…") → `memory/intel.md` row via
-  `attraction-capture`'s shape (facts, dated, no editorial).
+- **A new trigger learned from the member** ("my brokerage just announced…") → hand it to `attraction-capture`
+  (it owns that write — the Watcher's `memory/intel.md`); never written from here.
+- **When the member says a touch went out:** append one `memory/conversations.md` row in the locked shape —
+  Date · Agent · Type · Channel · "What they said" = their reply if there was one, else *(touch sent — [the
+  reason])* · Objection = — · Pain · Next step = the next dated touch · `Stage after` = the current stage,
+  unchanged — and update that agent's Last touch · Next move · Due per the rule above. A reply that changes the
+  stage goes through `cv-debrief`. Never log a touch the member didn't say they sent.
 - Then `attraction-brain-sync` PUSH, verify. Unsaved → say so, keep the plan visible, retry once, stop.
 - **Hand-off:** *"Your Daily Follow-Up Queue picks these up each morning"* — only if the AI Admin is
   installed; otherwise: *"Say 'who do I need to follow up with' any Monday and I'll pull what's due."*

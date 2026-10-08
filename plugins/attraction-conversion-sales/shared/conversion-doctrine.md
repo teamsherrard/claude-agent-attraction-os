@@ -68,7 +68,7 @@ This is the locked spine. Every call skill, script, and prep sheet follows it in
    hold your conversion rate. The booking form collects the ammunition before the meeting (§8).
 2. **Start the meeting by building rapport and asking qualifying questions** — to identify their current state
    and open the loop: their pain points and struggles, why they agreed to this call, what they are intrigued by,
-   what they are struggling with. Rapport comes first, before any question (`bonus/the-perfect-presentation`:
+   what they are struggling with. Rapport comes first, before any question (`bonus/perfect-presentation`:
    "Hey, thanks for making the call today, I've been looking forward to chatting. How's your week been? How's your
    business been this year — what's working, what isn't?").
 3. **Tailor the model and your value proposition to exactly what their goals and desires are** — their desired
@@ -121,7 +121,7 @@ two bonus lessons) is the source of truth; both namings are labels on it.
 | 2 | Go deeper: why they agreed to the call, what the problem is costing them, what they've tried, **vision** questions — "if nothing changes, where are you in 12 months?" (`/44` vision questions, `bonus/bridging-the-gap`) | **Diagnosis** | **Deepen** | Yes — identical. |
 | 3 | Tailor the model and the value proposition to THEIR goals — "based on what you told me, these are the three things that matter most" (`/42` step 3, `bonus/bridging-the-gap` "bridge the gap") | **Fit** | **Align** | Yes — identical. |
 | 4 | Present the bridge through the lens of their goals: your value, your upline and community, the brokerage model (`/42` step 3, `bonus/perfect-presentation` step 3) | **Positioning** | **Show the Opportunity** | Yes — identical. Steps 3 and 4 are one movement in the transcript ("tailor the model and your value proposition"); both docs split it the same way. |
-| 5 | Handle every objection and question; **commitment** questions bridge the gap — "if I could show you a way to double your business without more time away from your family, would you be open to it?" (`/42` step 4, `/44`, `/46`) | **Questions** | **Resolve Concerns** | Yes — the Week 5 doc's "Questions" means the prospect's questions and objections (the Launching doc writes it as "Questions/Objections"). |
+| 5 | Handle every objection and question; **commitment** questions bridge the gap — "if I could show you a way to double your business without more time away from your family, would you be open to it?" (`/42` step 4, `/44`, `11-objection-handling/46`) | **Questions** | **Resolve Concerns** | Yes — the Week 5 doc's "Questions" means the prospect's questions and objections (the Launching doc writes it as "Questions/Objections"). |
 | 6 | Get them excited, assume the close, set the transition date, walk them through exactly what happens next, send the email (`/42` step 5 + endings, `bonus/perfect-presentation` step 4) | **Next Step** | **Ask for the Decision / Next Step** | Yes — identical. "Don't finish with 'let me know what you think.'" |
 
 **Locked for this OS:** six steps, one spine. The member sees the **Week 5 doc names** on every document
@@ -139,16 +139,23 @@ workshop names are accepted as synonyms in any input and never corrected out lou
 
 > **DECISION NEEDED 2 — default booked length for a new member.** Lesson 42 says one hour "until you master the
 > craft," then 30 minutes; the workshop teaches "The 30-Minute Partner Call" as the signature and the seed skill
-> defaulted to 20 minutes. The skills default to **60 minutes for the first 30 calls, then 30** (the transcript),
-> and the enrollment script ships in both a full and a 30-minute version. Confirm, or set one length.
+> defaulted to 20 minutes. The skills default to **60 minutes for the first 30 calls, then 30** (the transcript's
+> one-hour-then-30; the 30-call threshold is this build's operational default, not a transcript figure), and the
+> enrollment script ships in both a full and a 30-minute version. Confirm, or set one length.
 
 > **DECISION NEEDED 3 — the objection framework label.** Week 5 doc: Listen → Validate → Reframe → Invite.
 > Launching doc: Understand → Clarify → Isolate → Reframe → Evidence → Question. Lesson 46's own words are "stay
 > calm, listen, and reframe … 'Hey, I get that. I used to feel that way too, but …'" — which is Listen, Validate,
 > Reframe, with the invite implied. **This file locks Listen → Validate → Reframe → Invite** (the master plan's
 > default and the transcript's shape); the six-step version is folded in as what to do inside each step (Clarify
-> and Isolate live in Listen; Evidence lives in Reframe; Question is the Invite). `cv-objection-coach` prints the
-> four. Confirm, or choose the six.
+> and Isolate are "the question to ask" — the beat every lesson places between Validate and Reframe, which
+> `references/objection-bank.md` names as its own line; Evidence lives in Reframe; Question is the Invite).
+> `cv-objection-coach` prints the four. Confirm, or choose the six.
+
+> **Also open — stated once where it arises, listed here so there is one list:** the "5-Point Framework" the cohort
+> docs name is defined nowhere; `cv-follow-up` builds it on lesson 85's five principles (§7) · the fifteen
+> objections' archetype assignments are the build's (`objection-bank.md`, DECISION NEEDED 2) · brokerage-specific
+> figures quoted in the lessons stay out of the handlers (`objection-bank.md`, DECISION NEEDED 3).
 
 Everything else in the two namings is the same thing under different names; no other conflict was found.
 
@@ -190,7 +197,7 @@ examples change.
 
 ---
 
-## 5. The 3-way call (`10-presentation-delivery/43`, with `/19` and `/42`)
+## 5. The 3-way call (`10-presentation-delivery/43`, with `02-prospect-targeting/19` and `/42`)
 
 **What it is:** you, your prospect, and somebody from your upline who understands the model, has more credibility
 and a more recognized brand, and can get the prospect over the hump. Mike's own phrasing, quoted: *"in the
@@ -199,7 +206,7 @@ matters is that the agent actually joins you." In his first 30 days he put all 3
 sponsor, took notes, and studied how every objection was handled — 30 hours of live practice before flying solo.
 
 **Pick the right partner:** the best communicator in your upline who understands the model — "it might not be
-your sponsor" (`/19`, `/42`). If your sponsor is a production killer who can't explain the model, let them sell.
+your sponsor" (`02-prospect-targeting/19`, `/42`). If your sponsor is a production killer who can't explain the model, let them sell.
 
 **Edification — "nobody talks about this; it increases show-up rates and conversion rates, the two most important
 metrics."** Edification is building someone up so the prospect knows why they are worth listening to. The bad
@@ -223,7 +230,7 @@ you can understand the opportunity and how we can help you." Without it the part
 - **After:** **you** send the next steps if they commit; **you** follow up if they don't. "This is your prospect.
   Own the outcome." Never assume the partner will.
 
-**The weekly model call** (`/19`): for four years Mike hosted a one-hour "model explained + my value proposition"
+**The weekly model call** (`02-prospect-targeting/19`): for four years Mike hosted a one-hour "model explained + my value proposition"
 call every Tuesday evening that his agents could invite prospects to — one presenter who controls the narrative,
 knows the handlers, and has the brand. A member with an upline partner who runs one of these points prospects to
 it the same way.
@@ -250,7 +257,7 @@ logs what THIS member heard and what worked.
 
 ---
 
-## 7. Follow-up with a reason — never "just checking in" (`12-simple-tech-stack/85`, `/84`, `/42`)
+## 7. Follow-up with a reason — never "just checking in" (`12-simple-tech-stack/85`, `/84`, `10-presentation-delivery/42`)
 
 "The fortune's in the follow-up." Most agents won't join after the first conversation until you get good at
 bridging the gap. Follow-up "should feel like leadership, not chasing."
@@ -266,8 +273,8 @@ rolled out · a big agent, team, or brokerage joining ("this reminded me of you"
 your group · a company event coming up (invite them; Mike has paid the way for top producers, team leaders, and
 broker-owners to see the culture first-hand) · industry shifts that make the model more attractive (the NAR
 settlement and liability, interest rates) · their own milestones — a wedding, a baby, a trip, an anniversary — a
-personal video message (`/42`) · anything NEW in your value proposition that solves the pain they told you about
-(`/42`: "all those agents who wanted AI training — now you can get it free").
+personal video message (`10-presentation-delivery/42`) · anything NEW in your value proposition that solves the pain they told you about
+(`10-presentation-delivery/42`: "all those agents who wanted AI training — now you can get it free").
 
 **The simple plan:** Week 1 — the recap with every resource, thanks for the time, something personal so they know
 you listened (always). Weeks 2–4 — value-driven updates. Monthly — a success story or an industry update.
@@ -300,7 +307,7 @@ duplicates — your agents can copy it.
   the call — "scalable while feeling personal."
 - **An AI assistant** — Mike's lesson names ChatGPT; in this OS that job is Claude: scripts, handlers, follow-ups,
   guides and checklists for your agents.
-- **Calendly** (`bonus/calendly`, `/42`) — the booking page everything links to. 30-minute one-on-one Zoom,
+- **Calendly** (`bonus/calendly`, `10-presentation-delivery/42`) — the booking page everything links to. 30-minute one-on-one Zoom,
   time zones auto-detected and shown, invitees may add guests (team leaders bring partners), and FIVE required
   questions: (1) *Do you acknowledge this is a discussion about joining my group at [brokerage]? Please don't book
   if you're already there or have chosen a sponsor* — a "no" means the meeting is deleted with a one-line note;
@@ -318,18 +325,18 @@ Owner skills for the OPS: `sales-system-setup`, `sales-booking-page`, `sales-sho
 
 ---
 
-## 9. Before the call — Agent Intel and starting conversations (Launching doc; Week 5 breakdown; `/18`, `/19`)
+## 9. Before the call — Agent Intel and starting conversations (Launching doc; Week 5 breakdown; `02-prospect-targeting/18–19`)
 
 **Don't recruit. Start conversations.** Outreach is **relevant · personalized · selfless · value-driven · low
 pressure** (Week 5 breakdown; Launching doc Week 5 Part 3). *These five words are the course documents' wording;
-the transcripts say the same thing as "agents attract agents — this is a relationship business" (`/19`).*
+the transcripts say the same thing as "agents attract agents — this is a relationship business" (`02-prospect-targeting/19`).*
 
 **The Agent Intel report** (Launching doc `/agent-intel`): from a name, brokerage, website, Instagram, LinkedIn,
 YouTube, bio, and previous messages, a one-page brief — who they are · what they seem to care about · current
 business model · potential brokerage frustrations · growth opportunities · things you have in common · likely
 objections · best conversation angle · what NOT to say · suggested opening message. "The agent goes into the
 conversation knowing something about the person instead of sending 'Hey John, have you ever considered [brokerage]?'"
-Why it works is `/18`: agents leave problems, not companies — financial structure, poor leadership, poor support,
+Why it works is `02-prospect-targeting/18`: agents leave problems, not companies — financial structure, poor leadership, poor support,
 poor tech, limited growth, culture — so the report looks for the problem, never the company.
 
 **The NEVER list for outreach** (Launching doc `/start-conversation`, enforced by read-back in every outreach
@@ -338,7 +345,7 @@ lead with compensation · never sound AI-generated · never pretend personalizat
 Instead: **context → curiosity → conversation → discovery → next step.** "That's the IP. Claude is merely
 executing it."
 
-**Invite early, never force, never present by text** (`/19`): "your goal is to get them on a private Zoom call as
+**Invite early, never force, never present by text** (`02-prospect-targeting/19`): "your goal is to get them on a private Zoom call as
 quickly as possible — say as little as you have to. Don't try to recruit by email or explain the model through
 text; it's not going to work." The invitation is earned by the conversation; the model is explained only on the
 call. No premature "want to learn about my brokerage?" (Launching doc).
@@ -349,7 +356,7 @@ Owner: `cv-conversation-starter`; comment-to-DM replies: `cv-dm-flow`.
 
 ---
 
-## 10. The cardinal rules and the money (`03-model-positioning/13`; `/42`, `/44`, `bonus/perfect-presentation`)
+## 10. The cardinal rules and the money (`03-model-positioning/13`; `10-presentation-delivery/42`, `/44`, `bonus/perfect-presentation`)
 
 1. **Never talk badly about another brokerage.** Give credit — "Real is an incredible brokerage, I applaud them for
    that — and here's what I can do for you, specific to your goals." If an agent is comparing you to another
@@ -357,10 +364,10 @@ Owner: `cv-conversation-starter`; comment-to-DM replies: `cv-dm-flow`.
 2. **Never talk badly about another person.** Word gets around. "Be the better man or woman."
 
 **Compensation is answered, never led with.** The booking form tells you their brokerage, so you know the model,
-splits, caps, and fees before the call and can "break down the math" when THAT is their pain (`/42`). But if
+splits, caps, and fees before the call and can "break down the math" when THAT is their pain (`10-presentation-delivery/42`). But if
 production is their struggle, "I won't even mention revenue share — only if they ask, or only if the conversation
 goes there" (`bonus/perfect-presentation`). Residual income is "a vehicle" for an exit strategy, never the
-pitch (`/44`). On the call: honest, plain, from `identity/brokerage-model.md`, every number from the member's
+pitch (`10-presentation-delivery/44`). On the call: honest, plain, from `identity/brokerage-model.md`, every number from the member's
 brokerage materials. In content: never. **No income claims anywhere** — no "you'll make $X," no rev-share earnings
 projections, no stock-value projections; every illustrative number labeled (`shared/compliance-doctrine.md` §2).
 
@@ -393,7 +400,7 @@ verb (Mike's own line in §5 is quoted, never paraphrased into prose) · the rec
 - The **30% talk-time** figure is a planning-document rule, not a transcript figure (§4).
 - The **five outreach adjectives** and the **NEVER list** are from the Launching doc and the Week 5 breakdown,
   not a recording (§9).
-- **Mike's actual next-steps and welcome email text** is shown on screen in `/42` and described, not read aloud;
+- **Mike's actual next-steps and welcome email text** is shown on screen in `10-presentation-delivery/42` and described, not read aloud;
   the skills reproduce the structure, never a verbatim template.
 - **Brokerage-specific join steps** differ by brokerage; the enrollment script leaves them as a labeled block the
   member fills from their brokerage's onboarding document in `06 · Materials`.

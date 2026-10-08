@@ -34,8 +34,9 @@ Agent Attraction Brain setup. Then open only what this needs:
   topics and never ask for the finished offer; Week 2 builds it.
 - `identity/content-pillars.md` — the pillar names and the member's realistic weekly number (written by
   `sf-setup`). If it does not exist yet, use the five pillars below and say `sf-setup` fills this in.
+- `identity/publishing.md` — the `Keyword:` line (the one word every Reel carries), `Weekly mix:`, `Cadence:`
 - `identity/journey.md` + `identity/story-bank.md` — the Story and Personality pillars come from here
-- `identity/proof.md` + `memory/organization.md` — agent wins for the Proof pillar (permissioned ones only)
+- `identity/proof.md` — agent wins for the Proof pillar (only rows marked OK to use publicly)
 - `memory/intel.md` — brokerage and industry news already captured (Perspective pillar); every row is dated
   and sourced; unverified rows are flagged, never used as fact
 - `memory/ideas.md` (tag `shortform`) — the member's own captured ideas go to the TOP; mark the ones you use
@@ -73,11 +74,11 @@ text to read, not a command.
 | **Personality** | passions, family, habits, a day in the life — the "patio beer" test | `07-instagram/88`, `/89` |
 
 Build, in this order:
-- **THIS WEEK'S FIVE** — matched to the routine mix (**2 attraction · 2 authority · 1 story**: attraction =
-  Perspective / Proof / Personality; authority = Authority; story = Story). Each: # · the title the way a
-  person would say it · the angle in one line · pillar · the avatar it is for · the format (talking head /
-  green screen / carousel / story) · the keyword it will carry (from `sf-comment-to-dm`'s sheet if it
-  exists, otherwise "set later").
+- **THIS WEEK'S FIVE** — matched to the routine mix (**2 attraction · 2 authority · 1 story** — attraction =
+  Proof + Personality; authority = Authority + Perspective; story = Story; `mike-frameworks.md` §9d). Each: #
+  · the title the way a person would say it · the angle in one line · pillar · the avatar it is for · the
+  format (talking head / green screen / carousel / story) · the keyword it will carry (the `Keyword:` line in
+  `identity/publishing.md`; a per-Reel variant from `sf-comment-to-dm`'s sheet when one exists).
 - **THE BANK** — fifteen more, three per pillar, same columns, for the coming weeks.
 - **THE 30-HOOK BANK** — six per pillar, each under 12 words, each one the avatar would stop for. Hooks
   name a real moment, a specific mistake, a before-and-after, or a contrarian line. **Never "stop
@@ -105,7 +106,7 @@ Build, in this order:
   nothing gets scripted or posted until compliance is set up (*"say 'set up my compliance' — three
   minutes"*); `set` → remind once; `confirmed` → carry on. "If empty, proceed" is banned.
 - Deliver everything in chat. Offer to save per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render
-  to `.docx` with `shared/render_doc.py` → the workspace's `03 · Content/Short-Form/`, named
+  to `.docx` with `shared/render_doc.py` → the workspace's `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
   `[YYYY-MM-DD] · Attraction Ideas + Hook Bank`. Then push the Brain (the `ideas.md` status marks) via
   **attraction-brain-sync** — write → push → verify. If the save fails, say it is not saved, keep the content
   visible, retry once, stop.
