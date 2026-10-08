@@ -1,6 +1,6 @@
 # [Name] — Content Pillars (attraction content plan)
 *identity · pillars, cadence, the two CTAs · owner: the Short-Form System's `sf-setup` (Week 3) — the Brain never writes this file. The YouTube plugin (Week 4) reads it.*
-*Empty until Week 3 BY DESIGN — not a gap. The Brain Book renders a one-line "built in Week 3 with the Short-Form system" note. Doctrine for the author: `shared/attraction-doctrine.md` §13 (Mike's four content types → the five attraction pillars: Story · What I teach · Behind the scenes of leading · Industry POV · Agent wins).*
+*Empty until Week 3 BY DESIGN — not a gap. The Brain Book renders a one-line "built in Week 3 with the Short-Form system" note. Doctrine for the author: `shared/attraction-doctrine.md` §13 (Mike's four content types → the five attraction pillars, by these exact names: Authority · Perspective · Story · Proof · Personality).*
 
 **Content pillars (each with its one-line why):**
 - [ ]

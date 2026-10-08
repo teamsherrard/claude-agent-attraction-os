@@ -1,103 +1,116 @@
-# SEO Knowledge Base (2026) — Real Estate YouTube
+# SEO Knowledge Base — YouTube for agent attraction
 
-Distilled from 2026 YouTube SEO research. The **SEO Engine** and **Ideation** apply this.
-
-> **The YouTube Doctrine is the source of truth for titles, thumbnails, descriptions, and keywords**
-> (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`, **§16–§18**). This KB adds 2026 SEO *mechanics* (search-
-> intent classes, retention, captions, playlists, AI-search) on top of it — but **where this KB and the
-> doctrine differ, the doctrine wins.** The biggest doctrine rules to honor: the description's **first 3 lines
-> = CTA + clickable links** (§18.1–§18.2); **keywords are video- and market-specific, never broad** like "real
-> estate"/"realtor" (§18.3); **tags are NOT important — don't overthink them** (§18.5); titles **match search
-> intent**, are **market-specific** (city/neighborhood), add the **year/month when relevant**, and **beat the
-> top 3–5 ranking videos** (§16); **thumbnails follow the pillar** (§17). The sections below are aligned to
-> this; treat the doctrine §§ as the final word.
+Distilled from current YouTube SEO mechanics, re-keyed to what **real estate agents** search when they are
+deciding who to learn from and who to partner with. The **SEO Engine** (`yt-seo`), **Ideation**, and the
+**Game Plan** apply this. **The attraction doctrine wins where they differ**
+(`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md` §9 titles and thumbnails, §10 CTAs and
+descriptions, §11 the bingeworthy channel, §14 measurement, §15 what never goes public).
 
 ## Ranking factors (priority order)
-1. Watch time · 2. Audience retention · 3. CTR (thumbnail + title) · 4. Engagement (likes/comments/
-shares/subs) · 5. Metadata relevance · 6. Search-intent satisfaction.
-> Key truth: YouTube ranks on **satisfying intent, not keyword density**. ~70% of views come from
-> recommendations; CTR + retention drive everything.
+1. Watch time · 2. Audience retention · 3. CTR (thumbnail + title) · 4. Engagement (comments, shares, saves,
+subs) · 5. Metadata relevance · 6. Search-intent satisfaction. YouTube ranks on **satisfying intent, not keyword
+density**; a majority of views come from recommendations, and CTR + retention decide reach. Mike's three
+(`/94`): impressions · click-through rate · average view duration.
 
-## Search intent (classify every video)
-- **Informational** — "how to", "what is", "guide", "cost of living in [city]" → most common + most valuable for leads.
-- **Commercial** — "best", "top", "vs", "review" (best suburbs, X vs Y).
-- **Transactional** — "buy a house in [city]", "homes for sale [city]", "[city] realtor" → local, high intent.
-- **Navigational** — agent/brand name.
-Favour **long-tail** (3+ words): less competition, higher-quality leads.
+## What agents search (classify every video)
+- **Informational** — "how to [outcome] as a real estate agent", "how does rev share work", "what is a cloud
+  brokerage", "how to choose a sponsor", "should I join a team or go solo" → the Problem and Model buckets; most
+  common and most valuable.
+- **Commercial / comparison** — "[brokerage] review", "[brokerage] vs [brokerage]", "best brokerage for new
+  agents [year]", "is [brokerage] worth it" → the Model bucket; high intent, cardinal rules apply (facts only,
+  Mike's comparison warning).
+- **Transactional / decision** — "join [brokerage]", "[brokerage] sponsor", "how to switch brokerages", "[brokerage]
+  onboarding" → the Model bucket; the bottom of the funnel; book-a-call CTA first in the description.
+- **Navigational** — the member's name, their organization's name, "[name] YouTube" → the channel page and the
+  about section must answer it (`yt-setup`).
+- **Career-stage** — "first year real estate agent tips", "real estate agent not making money", "how to get
+  your first listing", "real estate agent burnout", "real estate agent part time" → the Situation bucket.
+Favor **long-tail** (3+ words): less competition, better-fit viewers. A new channel lives on long-tail.
 
-## Titles (doctrine §16 is the source of truth)
-Doctrine first (§16.1, §16.3, §16.4): **match search intent**, be **market-specific** (include the city /
-neighborhood), add the **year or month when relevance matters**, **create curiosity + signal a clear payoff**,
-and **differentiate from the top 3–5 ranking videos** for the topic. Ethical fear is fine when tied to a real
-mistake/tradeoff (§16.2). Use the **per-pillar title formulas** in §16.5 (relocation · community · market
-update · home tour · local lifestyle). Then the 2026 mechanics:
-- **Front-load the primary keyword** in the first ~30 characters.
-- **50–60 characters** (avoid truncation; 100 max).
-- 1–2 **power words**: Ultimate, Secret, Proven, Easy, Fast, Complete, Honest.
-- Numbers raise CTR; brackets/parens boost CTR: `[Guide]`, `(2026)`.
-- Pattern: `[Primary keyword] + [benefit/hook] + [modifier]`.
-- Formulas: **Listicle** ("5 things you must know before moving to [city]") · **Question** ("what can
-  $700k get you in [city]?") · **How-to** ("how to buy a house in 2026 (step-by-step)") · **Benefit**
-  ("sell your home for more with these 3 tips").
-- Avoid: keyword at the end, clickbait you don't deliver, > 60 chars, vague/clever-but-unsearchable titles.
+## The agent-search keyword library (swap in the member's niche, model, and avatar)
+- **Brokerage and model:** "[brokerage] explained", "[brokerage] review [year]", "[brokerage] vs [brokerage]",
+  "should I join [brokerage]", "[brokerage] for new agents", "how does revenue share work", "rev share real
+  estate explained", "cloud brokerage vs traditional brokerage", "how to choose a sponsor [brokerage]",
+  "questions to ask a sponsor", "[brokerage] pros and cons", "do not join [brokerage]"
+- **Switching:** "how to switch brokerages", "changing brokerages as a real estate agent", "what happens to my
+  listings when I switch brokerages", "leaving my team real estate", "should I leave my brokerage"
+- **Career stage:** "new real estate agent tips", "first 90 days real estate agent", "real estate agent not
+  getting clients", "part time real estate agent", "real estate agent plateau", "how to scale a real estate
+  business", "real estate team vs solo"
+- **Niche skills (the member's known-for):** "[niche] for real estate agents" (social media · YouTube ·
+  Instagram · AI · lead generation · listings · luxury · open houses · database · video), "[niche] real estate
+  agent [year]", "how to get leads [niche]"
+- **Future / leverage:** "passive income for real estate agents", "how to build a real estate team", "real
+  estate agent exit strategy", "agent attraction real estate", "building an organization real estate"
+- **Interviews (searchable angle):** "[outcome] part time real estate", "[guest's niche] real estate success
+  story", "how [type of agent] closed [N] deals"
+Mike's rule from the realtor side still holds: never broad single words ("realtor", "real estate"); video- and
+niche-specific phrases only.
 
-## Description (doctrine §18 is the source of truth)
-- **First 3 lines = the CTA + clickable links** (§18.1–§18.2) — book-a-call / calendar link, phone, email,
-  lead magnet — these come FIRST, above the fold, before any summary. Use the §18.2 opening template. (This
-  overrides the older "hook first" layout: the doctrine puts conversion first.)
-- Then a **200–300 word** summary; **video- and market-specific keywords only** — primary 2–3×, each
-  secondary 1–2×, natural language, **never broad terms** like "real estate"/"realtor"/"homes" (§18.3).
-- **Timestamps/chapters** that are **descriptive + search-friendly** (§18.4), not "Intro / Part 2".
-- Then extended LSI keywords → hashtags (3–5) at the end → disclaimers if needed.
-- Order: **CTA + links (L1–3)** → summary w/ keywords → timestamps → keyword line → hashtags.
+## Titles (doctrine §9 is the source of truth)
+Use the seven formulas (§9) and the psychology of the click: curiosity · emotion · clarity; bold and emotional
+beats complex and clever. Then the mechanics:
+- **Front-load the primary phrase** in the first ~30 characters; **50–65 characters** (one promise, never two
+  ideas stapled with a colon).
+- "real estate agent(s)" / "as a real estate agent" / the agent type when the search needs it — the viewer is
+  an agent, and the phrase is what they type.
+- Numbers lift CTR; `(year)` on model and "explained" videos so the yearly remake ranks (`/96`).
+- 1–2 honest power words at most (truth · honest · exact · mistakes · explained). Never clickbait you don't deliver.
+- Avoid: the phrase at the end, > 70 characters, clever-but-unsearchable, two ideas in one title, a brokerage or
+  person named negatively, any compensation figure or earnings implication.
+- Dated model titles get re-titled yearly; the "why I switched" and "N months in" videos get their year updated
+  (`/92` — the publish date proves the history).
 
-## Tags (doctrine §18.5 — NOT important, don't overthink them)
-Per the doctrine, **tags and keywords are not a meaningful ranking lever** — don't sell the agent on them.
-Add a short, sensible set that's **specific to this video + market** (never broad/generic), in rough priority
-order, and move on:
-1. Exact primary keyword · 2. Primary variation · 3. Long-tail version · 4+. A few secondary keywords.
-- A small handful is plenty (no need to fill 200–300 chars). Each tag 2–5 words.
-- Don't: single-word generic tags ("real estate", "homes"), irrelevant trending tags, duplicates, copying
-  competitors verbatim, misleading tags — or telling the agent tags matter much.
+## Description (doctrine §10 is the source of truth)
+- **Line 1 = the book-a-call link** ("Book a private one-on-one call: [link]") — above the fold, before anything.
+- **Line 2–3 = the resource** (the lead magnet / playbook / free guide link; until Week 6 builds one, the
+  community or the call again) and one contact line if `operations.md` lists it.
+- Then a **150–300 word** summary in the member's voice, written for the viewer: who it's for, what they'll get,
+  the niche phrase 2–3×, secondary phrases once each, natural language. **No compensation figures. No brokerage
+  as the pitch** — the brokerage name appears where `compliance.md` requires it (the disclaimer block), not as
+  the ask.
+- **Chapters** that are descriptive and search-friendly ("How rev share actually works" not "Part 2").
+- **Related videos** — the next logical video and the pillar playlist (§11), then 3–5 hashtags, then the
+  compliance stamp (brokerage name and license display as required, the disclaimer verbatim, the income
+  disclaimer only if earnings were mentioned, the AI-likeness line on clone content).
+- **Pinned comment:** the resource link + one question that invites agents to comment their situation (comments
+  are a ranking signal and a lead source for `yt-leads`).
 
-## Thumbnails (doctrine §17 is the source of truth)
-The SEO Engine outputs thumbnail TEXT (3–5 words, §17.2) — the agent's design tool makes the image. Brief it
-per **pillar** (§17.2–§17.5): talking-head / relocation / market-update / lifestyle-list, **map tours**, and
-**community tours** → **headshot ≈ 33% + a facial expression + 3–5 words** (map-tour background = a map of the
-city; community-tour background = a photo of the community). **HOME TOURS → no headshot** — a high-quality home
-image + the **price or a unique feature**. Avoid §17.7 mistakes: too much text, unreadable on mobile, generic
-stock, backgrounds that don't match, no expression on talking-head topics, busy/confusing images.
+## Tags (not a meaningful lever — don't oversell them)
+A short, specific set in rough priority: the exact primary phrase · one variation · the long-tail version · 3–5
+secondaries (the niche phrase, the model phrase, the avatar phrase). 2–5 words each. Never single generic
+words, never a competitor's name as a tag, never misleading.
 
-## Long-tail generation (append modifiers to the primary keyword)
-`for beginners · step by step · complete guide · tutorial · tips · in [time period] · without [barrier]
-· at home · for free · [year]`. Expansion directions: synonyms · tools · actions · outcomes · audience.
+## Thumbnails (doctrine §9 is the source of truth)
+This plugin writes **thumbnail text** (3–5 words, different from the title) and the brief for
+`ds-thumbnail-layout` in Claude Design via `yt-thumbnail` — the member's face with a real expression, branded
+contrasting colours, simple, visuals that support the title without repeating it. Three per video; let YouTube
+test. Interview thumbnails: both faces, the transformation in 3–5 words. Model thumbnails: the model's name is
+fine, numbers are not.
 
-## Real-estate keyword library (swap in [city] / communities)
-- **Agent:** "[city] realtor", "real estate agent [city]", "best realtor in [city]"
-- **Buyer:** "buy a house in [city]", "homes for sale in [city]", "first time home buyer tips", "new construction homes [city]"
-- **Seller:** "sell my house fast [city]", "home selling tips", "staging a house to sell", "[city] market update"
-- **Relocation:** "moving to [city]", "cost of living in [city]", "best neighbourhoods in [city]", "relocation guide [city]"
-- **Mortgage:** "mortgage rates", "first time buyer mortgage", "down payment assistance"
+## Long-tail generation (append to the primary phrase)
+`for new agents · for real estate agents · in [year] · explained · step by step · without [cold calling · paying
+for leads · a team] · part time · in a small market · honest review · the truth`
 
 ## Channel-size strategy
-- **Small (< 10K subs):** long-tail (4+ words), volume ~1K–20K, avoid single-word competitive terms. ← default for a new agent.
-- **Medium (10K–100K):** mix long-tail + medium-competition.
-- **Large (100K+):** can target high-volume + branded/series terms.
+- **Small (< 10K subs):** long-tail phrases, the member's niche + "for real estate agents", model component
+  videos ("how [component] actually works") — the default for a new attraction channel.
+- **Medium (10K–100K):** add medium-competition phrases ("[brokerage] explained", "should you join [brokerage]").
+- **Large (100K+):** high-volume and branded series terms ("[model] explained [year]").
 
 ## Hashtags
-Long-form: **3–5** total. Short-form: **2 general (#Shorts #YouTubeShorts) + 2–4 niche + 1–2 trending.**
+Long-form: **3–5** (the niche phrase, "realestateagent", the model phrase, the avatar phrase). Short-form clips
+from `yt-repurpose`: #Shorts + 2–4 niche + 1–2 timely.
 
 ## Advanced (engagement + watch time)
-- **Chapters/timestamps** → "key moments" in Google + better retention.
-- **Accurate captions (upload an SRT)** → a clean transcript the algorithm reads and ranks on.
-- **Playlists** → auto-play next, raises session watch time (strong signal).
-- **End screens** (last 5–20s) → next video / playlist / subscribe. **Cards** → link a landing page / home-value tool mid-video.
-- **Comments are a ranking signal** — end every video asking a specific question; reply to comments.
-
-## 2026 algorithm + AI search (quick notes)
-- New uploads get a ~48-hour test with recent subs; early CTR + retention decide how far it spreads. Each upload is a fresh shot.
-- **Relative retention** beats raw length: a 10-min video at 50% beats a 20-min at 25%. Match length to the content.
-- Session continuity matters — end screens + playlists that keep viewers on YouTube help rankings.
-- **AI search (ChatGPT / Google)** now "watches" videos: accurate captions (SRT), clear on-screen text
-  (white-on-dark, held 1–3s), and speaking like a human (not an SEO bot) all help it understand + recommend you.
-- Authority signals feed AI recommendations: reviews, list mentions, awards, and consistent topical focus.
+- Chapters → key moments in Google and better retention. Accurate captions (upload an SRT) → a clean
+  transcript the algorithm and AI assistants read. Playlists per pillar → auto-play next, longer sessions. End
+  screens (last 5–20s) → the next video and the playlist; cards → the resource mid-video. Reply to every
+  comment; `yt-leads` triages them.
+- **AI search:** Mike's point in `/91` — agents now ask AI assistants "best sponsor at [brokerage]" and
+  "[brokerage] explained," and videos get cited. Accurate captions, clear on-screen text (held 1–3 s), a
+  consistent entity line (the same name + niche + organization phrasing across the channel about section, the
+  description template, and the member's profiles — reuse the Brain's bios), and consistent topical focus are
+  what get a channel into those answers.
+- **The yearly remake:** model and "explained" videos get remade or re-titled every year (`/96`) — the compounding
+  deposit that keeps the member the go-to resource for their model.

@@ -60,7 +60,7 @@ A search and discovery engine; agents search it like Google.
 Indexed by Google and YouTube — the SEO play of the four.
 
 - **Title:** search-friendly, keyword-front, under 70 characters, ends with `#Shorts`. Shape: `Why Agents
-  Leave Their Brokerage in Year Two #Shorts` · `The Open House Script That Books Listings #Shorts`.
+  Leave Their Brokerage in Year Two #Shorts` · `The DM Script That Books Partner Calls #Shorts`.
 - **Description:** 2–3 lines: a keyword-rich sentence restating the point, one line of value, the ask with
   the booking link (links are clickable here). 2–3 natural keywords, never stuffed.
 - **Hashtags:** 3–5 in the description including `#Shorts`.

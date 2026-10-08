@@ -338,19 +338,21 @@ Conversation · Conversion · Retention · Duplication).
 
 ## 13. The content framework (`06-content-framework/37–40`)
 
-Four kinds of content, and the plan's five attraction pillars that carry them. The Short-Form and YouTube
-plugins own execution; the Brain stores the pillars (`identity/content-pillars.md`, written by `sf-setup` in Week 3).
+**The five pillars every plugin in this OS uses, by these exact names: Authority · Perspective · Story · Proof · Personality**
+(the Week 3 curriculum). Mike's four content types from the vault map onto them; the Short-Form and YouTube plugins own
+execution; the Brain stores the member's pillars in `identity/content-pillars.md` (written by `sf-setup` in Week 3, with
+these five as its headings).
 
-| Mike's content type | What it is | Plan pillar |
+| Mike's content type | What it is | Pillar(s) it feeds |
 |---|---|---|
-| **Value-based** (`/37`) | Your niche dissected into as many specific, simple, tactical pieces as possible — "cast a wide net around your niche so whatever they search, they find you." Start with one video. | What I teach |
-| **Behind the scenes & leadership** (`/38`) | Team wins on calls, agents applying your training, new training you're building, events and experiences — "not us saying our culture is incredible; you seeing it." Encourage agents to screenshot and tag you. | Behind the scenes of leading |
-| **Personal brand** (`/39`) | Authenticity: lifestyle, daily habits, discipline, challenges and how you overcame them, passions, values, family — what makes you relatable, not the flash. | Story |
-| **Storytelling** (`/40`) | Agent breakthroughs, by design across every age, background, market size, and personality so anyone can find someone they relate to. "No success story is too big or too small" — one deal in 30 days is relatable to the 71% who closed zero last year. | Agent wins |
-| *(industry POV — model breakdowns, brokerage news)* | From `08-youtube/96` and the Watcher's intel; facts only, cardinal rules apply. | Industry POV |
+| **Value-based** (`/37`) | Your niche dissected into as many specific, simple, tactical pieces as possible — "cast a wide net around your niche so whatever they search, they find you." Start with one video. | **Authority** (what you can teach) |
+| **Behind the scenes & leadership** (`/38`) | Team wins on calls, agents applying your training, new training you're building, events and experiences — "not us saying our culture is incredible; you seeing it." Encourage agents to screenshot and tag you. | **Proof** (agent wins, the organization in action) · **Personality** (behind the scenes of leading) |
+| **Personal brand** (`/39`) | Authenticity: lifestyle, daily habits, discipline, challenges and how you overcame them, passions, values, family — what makes you relatable, not the flash. | **Personality** · **Story** (your journey, mistakes, lessons) |
+| **Storytelling** (`/40`) | Agent breakthroughs, by design across every age, background, market size, and personality so anyone can find someone they relate to. "No success story is too big or too small" — one deal in 30 days is relatable to the 71% who closed zero last year. | **Proof** |
+| *(industry POV — model breakdowns, brokerage news, opinions on where the industry is going)* | From `08-youtube/96` and the Watcher's intel; facts only, cardinal rules apply. | **Perspective** |
 
-Cadence (Mike's action metric): two long-form + five short-form per week is the standard he sets; the member's
-realistic number is captured in `goals.md` and `content-pillars.md`.
+Cadence (Mike's action metric): two long-form + five short-form per week is the standard he sets (`07-instagram/88` says
+work up to three to five Reels a week); the member's realistic number is captured in `goals.md` and `content-pillars.md`.
 
 ---
 

@@ -1,89 +1,111 @@
-# Output Standard — saving content to Drive, organized + beautifully formatted
+# Output Standard — saving content to the workspace, organized + cleanly formatted
 
-Every document the Short-Form System creates lands in the agent's Google Drive, in the right folder, with
-a consistent name, and formatted so it looks genuinely good. This file is the standard. When a skill says
-"save to Drive (output standard)," it means this.
+Every document the Short-Form System creates lands in the member's own workspace (Google Drive or OneDrive), in
+the Brain's folder map, with a consistent name, and formatted so it looks genuinely good. This file is the
+standard. When a skill says "save to the workspace (output standard)," it means this.
 
-Two non-negotiables: **(1) it goes to the right Drive folder with the right name; (2) it's clean and
-scannable — never a wall of text.**
+Two non-negotiables: **(1) it goes to the right folder with the right name; (2) it's clean and scannable — never a
+wall of text.**
 
 ---
 
-## 1. Where it goes — the Drive folder structure
+## 1. Where it goes — the Brain's drive map, never a parallel root
 
-The agent's short-form content lives in its own library folder (created at setup, parallel to the
-YouTube System folder). Organized by month so it never becomes a dumping ground:
+The workspace is `Agent Attraction OS/` (renameable — **always located by the `Workspace ID` in
+`~/attraction-brain/config.md`, then the `_attraction-workspace.md` marker, never by name**). The Brain plugin
+built the six folders at setup; this plugin only creates month sub-folders inside them. Never create a
+`[Member] — Short-Form System/` root — that is the seam the audit found.
 
 ```
-[Agent Name] — Short-Form System/
-├── Content/
-│     └── 2026-06 · June/                         (month folder — create as needed)
-│           ├── 2026-06-13 · Green Screen · Calgary Rate Hold      (Doc)
-│           ├── 2026-06-13 · Talking Head · First-Time Buyer Tips  (Doc)
-│           └── 2026-06-14 · Carousel · 5 Things Before You List   (Doc)
-└── Performance/
-      └── 2026-06-01–14 · Performance Review                       (Doc)
+Agent Attraction OS/
+├── 02 · Brand/
+│     └── Profiles & Bios — 2026-11-18                         (Doc — from sf-setup)
+└── 03 · Content/
+      ├── Short-Form/
+      │     ├── 2026-11 · November/                            (month folder — create as needed)
+      │     │     ├── 2026-11-18 · Reel · The Year I Almost Quit        (Doc — a talking-head script)
+      │     │     ├── 2026-11-18 · Reels · Week 1 Batch                 (Doc — a batch of scripts)
+      │     │     ├── 2026-11 · 30-Day Calendar                         (Doc)
+      │     │     ├── 2026-11-19 · Green Screen · Brokerage Fee Change  (Doc)
+      │     │     └── 2026-11-19 · Stories · Tuesday Set                (Doc)
+      │     └── Performance/
+      │           └── 2026-11-01–14 · Performance Review               (Doc — sf-analytics)
+      └── Graphics/
+            └── 2026-11 · November/
+                  └── 2026-11-20 · Carousel · Why I Left               (Doc — the spec ds-carousel reads)
 ```
 
 Don't pre-create empty month folders — create the current month's folder the first time you save into it.
+Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.md` in the Brain plugin maps
+"the storage connector" to the real one; never tell a Microsoft member that Google Drive is required).
 
 ## 2. Naming convention (use everywhere — no exceptions)
 
 | Thing | Pattern | Example |
 |---|---|---|
-| Month folder | `YYYY-MM · Month` | `2026-06 · June` |
-| Content doc | `YYYY-MM-DD · [Format] · [Short Topic]` | `2026-06-13 · Green Screen · Calgary Rate Hold` |
-| Performance doc | `YYYY-MM-DD–DD · Performance Review` | `2026-06-01–14 · Performance Review` |
-| Deep dive | `YYYY-MM-DD · Short-Form Deep Dive` | `2026-06-30 · Short-Form Deep Dive` |
+| Month folder | `YYYY-MM · Month` | `2026-11 · November` |
+| Single Reel script | `YYYY-MM-DD · Reel · [Short Topic]` | `2026-11-18 · Reel · The Year I Almost Quit` |
+| Batch of scripts | `YYYY-MM-DD · Reels · [Batch name]` | `2026-11-18 · Reels · Week 1 Batch` |
+| 30-day calendar | `YYYY-MM · 30-Day Calendar` | `2026-11 · 30-Day Calendar` |
+| Green screen | `YYYY-MM-DD · Green Screen · [Short Topic]` | `2026-11-19 · Green Screen · Brokerage Fee Change` |
+| Story set | `YYYY-MM-DD · Stories · [Day / theme]` | `2026-11-19 · Stories · Tuesday Set` |
+| Carousel / LinkedIn doc | `YYYY-MM-DD · Carousel · [Short Topic]` | `2026-11-20 · Carousel · Why I Left` |
+| Profiles & bios | `Profiles & Bios — YYYY-MM-DD` | `Profiles & Bios — 2026-11-18` |
+| Performance doc | `YYYY-MM-DD–DD · Performance Review` | `2026-11-01–14 · Performance Review` |
+| Deep dive | `YYYY-MM-DD · Short-Form Deep Dive` | `2026-11-30 · Short-Form Deep Dive` |
 
-Format = **Green Screen · Talking Head · Carousel**. Topic = 3–6 plain words (Title Case), no punctuation
-soup. Dates are ISO (`YYYY-MM-DD`) so files sort chronologically on their own.
+Topic = 3–6 plain words (Title Case), no punctuation soup. Dates are ISO (`YYYY-MM-DD`) so files sort on their
+own. **Dated filenames; the newest is current** — the storage connectors are create-only, so a regenerated doc
+is a new dated file and the older one may be trashed after a verified upload (never a snapshot).
 
-## 3. How to create folders + docs (Cowork Google Drive connector)
-- **Folder:** `create_file` with `mimeType: application/vnd.google-apps.folder` and the right `parentId`;
-  capture the returned `id` to use as the parent for what goes inside it.
-- **Document:** write the structured text to a temp file, render it to a styled `.docx`, and upload that:
-  `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Agent · City]"`,
-  then `create_file` the resulting **`.docx`**. The structured text is only the renderer's input.
-- Find-or-create: before creating a folder, list the parent and reuse the folder if it already exists —
-  never make duplicate "June" folders.
+## 3. How to create folders + docs (the storage connector)
+- **Folder:** create a folder with the right parent (the bucket's folder inside the workspace found by ID);
+  capture the returned id to use as the parent for what goes inside it.
+- **Document:** write the structured text to a temp file in the scratchpad, render it to a styled `.docx`, and
+  upload that:
+  `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" <scratchpad>/doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Member · Organization]"`,
+  then upload the resulting **`.docx`**. The structured text is only the renderer's input.
+- Find-or-create: before creating a folder, list the parent and reuse the folder if it already exists — never
+  make duplicate "November" folders.
+- **Microsoft members:** if `config.md` says `READ-ONLY (org-gated)`, say the save is not possible in one plain
+  line, keep the content in chat, and offer the Brain's rescue path — never fail silently.
 
 ## 4. Formatting — the renderer makes it a clean, formatted `.docx`
 
-The skill writes the **structured text** below; the shared renderer (`render_doc.py`) turns it into a clean,
-formatted Word doc — real headings, bullet lists, light-grey rules — in **one neutral house style** (Arial,
-pure-black text, no colour, no per-client branding). *(If `python-docx` is unavailable, build the same `.docx`
-with the **docx skill**, matching that look.)*
+The skill writes the **structured text** below; the shared renderer (`render_doc.py`) turns it into a clean Word
+doc — real headings, bullet lists, light-grey rules — in **one neutral house style** (Arial, pure-black text, no
+colour, no per-member branding). *If its dependency (`python-docx`) is unavailable, build the same `.docx` with the
+docx skill, matching that look — never tell the member to install anything, never stop to install it yourself.*
 
 Write the structured text like this, every time:
-- **Title line** at the top, then a light **meta line** (agent · city · date). Then a blank line.
+- **Title line** at the top, then a light **meta line** (member · organization · date). Then a blank line.
 - **Section headers in ALL CAPS**, each preceded by a divider line of em dashes
   (`———————————————————————————————`) and followed by a blank line.
-- **Generous blank-line spacing** between blocks — let it breathe. Never run sections together.
+- **Generous blank-line spacing** between blocks. Never run sections together.
 - **Bullets** with `•`; sub-points or beats with `—`. One point per line.
-- **Cues, hooks, and labels on their own lines** (e.g. `HOOK (read word-for-word)` then the hook on the
-  next line). Captions and scripts never run together as a paragraph blob.
-- **Copy blocks the agent will paste** (captions, hashtags) sit under a clear label so they're easy to
-  grab.
-- **No** Markdown symbols (`#`, `**`, backticks) or emoji walls in the body — the renderer applies the
-  formatting from the structure (caps headers, dividers, `•` bullets, `Label:` lead-ins).
+- **Cues, hooks, and labels on their own lines** (e.g. `HOOK (read word-for-word)` then the hook on the next
+  line). Scripts and captions never run together as a paragraph blob.
+- **Copy blocks the member will paste** (captions, hashtags, bios) sit under a clear label.
+- **No** Markdown symbols (`#`, `**`, backticks) or emoji walls in the body — the renderer applies the formatting
+  from the structure (caps headers, dividers, `•` bullets, `Label:` lead-ins).
 
-(Every doc renders to a clean, formatted `.docx` in one neutral standard. Visual *brand design* is still the
-agent's design tool's job, per house rules #3 — these are clean, well-formatted working documents.)
+(Visual *brand design* is the Design Studio's job — these are clean working documents.)
 
 ## 5. The canonical document skeleton
 Every content doc follows this shape (fill with what the workflow already produced for chat):
 
 ```
 [FORMAT] · [TOPIC]
-[Agent Name] · [City] · [Date]
+[Member Name] · [Organization] · [Date]
 
 ———————————————————————————————
-[FIRST SECTION — e.g. THE ARTICLE / THE TOPIC]
-...one item per line, labels on their own lines...
+THE BRIEF
+Pillar: [Authority / Perspective / Story / Proof / Personality]
+For: [the agent avatar, one line]   ·   Story used: [hook or none]
+CTA rung: [Follow / Comment / DM / Resource / Conversation / Call]   ·   Keyword: [WORD]
 
 ———————————————————————————————
-THE CONTENT (hook + talking points / script / slides)
+THE CONTENT (hook ×3 + script / talking points / slides / story lines)
 ...
 
 ———————————————————————————————
@@ -106,16 +128,23 @@ Description:
 ...
 Tags:
 ...
+
+———————————————————————————————
+COMPLIANCE
+[the stamp from compliance.md — brokerage name / license / disclaimer as required; "none required" if so]
 ```
-(Carousel docs use SLIDE 1 / SLIDE 2 … + DESIGN DIRECTION + the IG/FB block; performance docs use the
-review structure from `metrics-guide.md`. Same formatting rules throughout.)
+(Carousel docs use SLIDE 1 / SLIDE 2 … + DESIGN BRIEF FOR DS-CAROUSEL + the IG/FB block + the LINKEDIN block;
+story docs use STORY 1 / STORY 2 … with the category, the text overlay, the sticker, and the reply CTA; the
+calendar uses WEEK 1 → WEEK 4 tables; performance docs use the review structure from `sf-analytics`' own
+reference. Same formatting rules throughout.)
 
 ## 5b. The Deep Dive Report (the monthly analytics deliverable — stamped)
-The one document that isn't content: the monthly deep dive from `sf-analytics`. Same house grammar,
-this fixed shape (mirrors the YouTube System's report so the two dives read as one ritual):
+The one document that isn't content: the monthly deep dive from `sf-analytics`. Same house grammar, this fixed
+shape (mirrors the YouTube plugin's report so the two dives read as one ritual). `sf-analytics` owns the numbers
+and the exact section list; this is the frame it fills:
 ```
-SHORT-FORM DEEP DIVE — [AGENT NAME], [CITY]  ·  [MONTH YYYY]
-Window: [dates]  ·  Sources: [live Instagram + YouTube data · Metricool · screenshots]  ·  [N] posts reviewed
+SHORT-FORM DEEP DIVE — [MEMBER NAME] · [ORGANIZATION]  ·  [MONTH YYYY]
+Window: [dates]  ·  Sources: [live Instagram + YouTube data · the posting tool · screenshots]  ·  [N] posts reviewed
 Powered by Mike Sherrard Coaching Inc Frameworks
 
 
@@ -127,182 +156,75 @@ READ THIS FIRST
 >> THE ONE MOVE:  {one sentence — the single cheapest, fastest change that matters most this month}
 
    ──── DO THESE THREE THIS WEEK ────
-   1.  {a specific action}
-   2.  {…}
-   3.  {…}
+   1.  {a specific action}   2.  {…}   3.  {…}
 
 
 ════════════════════════════════════════════
 YOUR NUMBERS AT A GLANCE   (this window vs last)
 ════════════════════════════════════════════
-   Followers .............. {now}  ({+/- since last dive} — or "first dive: this is your baseline")
-   Posts published ........ {n}  ({n}/wk vs Mike's 3/wk minimum)
-   Reach this window ...... {n}  (people who saw at least one post)
-   Typical post ........... {median reach}  (half your posts do better, half worse)
-   Reel skip rate ......... {n%}  (who swiped away in the first 3 seconds)   — or "not available — needs the live connection"
-   Saves + shares ......... {n}
-   Link taps .............. {n}  (website + profile-link taps — the lead actions)
-   DMs / leads ............ {n}  (from {which posts})   — or "DMs not connected yet"
-
-   ──── WHAT'S IN THIS REPORT ────
-   •  Pulled live:  {your Instagram · your YouTube · N other channels · N searches}
-   •  From screenshots / Metricool:  {…}
-   •  Not available on this connection:  {other people's Instagram and TikTok (a glance by hand) · Facebook · …}
+   Followers · Reels published ({n}/wk vs 3–5) · Story days ({n}/7) · Reach · Typical Reel · Skip rate ·
+   Saves + shares · Profile visits · Link taps · Keyword comments · Agent DMs started · Conversations · Calls booked
+   (each "not available" line says what connection would make it available)
 
 
 ════════════════════════════════════════════
 PART 1 — YOUR ACCOUNT
 ════════════════════════════════════════════
-   ──── 1.1 HOW YOU GREW ────
-   In plain English:  {one sentence}
-   Followers .............. {now vs last}  (follows {n} · unfollows {n})
-   Reach ................. {this window vs previous}
-   Profile visits ......... {n}
-   •  What this means for you:  {…}
-
-   ──── 1.2 WHAT'S PULLING — BY FORMAT AND BY JOB ────
-   In plain English:  {one sentence}
-   Green screen ({n}) ..... {typical reach}  ({saves} · {skip rate})
-   Talking head ({n}) ..... {…}
-   Carousel ({n}) ......... {…}
-   Reach posts ({n}) ...... {…}   (the 4 in 4-3-2-1)
-   Value posts ({n}) ...... {…}
-   Trust posts ({n}) ...... {…}
-   Convert posts ({n}) .... {…}
-   •  Your mix vs Mike's 4-3-2-1:  {what it actually was} → {what to rebalance}
-   •  Keep doing:  {…}   ·   Rethink:  {…}
-
-   ──── 1.3 YOUR BEST HOOKS ────
-   In plain English:  {one sentence: the first 3 seconds decide everything — here's what held}
-   •  "{hook 1, word for word}" — {skip rate} — {why it held}
-   •  "{hook 2}" — {…}
-   •  "{hook 3}" — {…}
-   •  Your weakest opening:  "{…}" — {skip rate} — {what to stop doing}
-
-   ──── 1.4 WHO'S WATCHING ────
-   In plain English:  {one sentence: are these local buyers and sellers, or other agents?}
-   Your followers ......... {top cities · age band · gender}
-   Who you reached ........ {top cities}
-   Who engaged ............ {top cities}
-   •  Locals vs agents:  {the verdict, plain}
-   •  What this means for you:  {…}
-
-   ──── 1.5 WHEN TO POST ────
-   In plain English:  {one sentence: when your own followers are online}
-   Best slots ............. {day/time 1 · day/time 2 · day/time 3}  (your timezone)
-   •  Do this:  {…}
-
-   ──── 1.6 WHAT TURNS INTO LEADS ────
-   In plain English:  {one sentence}
-   Website taps ........... {n}
-   Profile-link taps ...... {n}  (call · text · email · address)
-   Posts that drove profile actions ... "{post}" ({n}) · "{post}" ({n})
-   DMs started ............ {n}   — or "not connected yet"
-   •  What this means for you:  {…}
-
-   ──── 1.7 STORIES ────
-   {what's live today: link taps · replies · exits}   — or "no stories live today; drop screenshots of your story insights and I'll read the month"
-
-   ──── 1.8 WHAT VIEWERS ARE SAYING ────
-   •  Leads in the comments:  {n} — answer these today: "{quote}"
-   •  Questions people keep asking:  "{question}" ({n} times) → your next post: "{hook}"
-   •  Unanswered comments:  {n}
-
-   ──── 1.9 WHERE VIEWS STOP TURNING INTO DMs ────
-   In plain English:  {the path: people see it → watch → visit your profile → follow → message you}
-   >> {the one place it breaks — and the specific fix}
-
-   ──── 1.10 HOW OFTEN YOU POST ────
-   Posts per week ......... {n}  (Mike's minimum 3 · goal daily)   ·   Stories .......... {n days/wk}
-   •  What to change:  {…}
+   1.1 HOW YOU GREW · 1.2 WHAT'S PULLING — BY PILLAR AND BY FORMAT (Authority · Perspective · Story · Proof ·
+   Personality × Reel · story · carousel · green screen; your mix vs 2 attraction · 2 authority · 1 story) ·
+   1.3 YOUR BEST HOOKS (word for word, with skip rate) · 1.4 WHO'S WATCHING (agents vs consumers — the verdict) ·
+   1.5 WHEN TO POST · 1.6 WHAT TURNS INTO CONVERSATIONS (keyword comments → DMs → conversations → calls, which
+   Reels and stories produced agent DMs) · 1.7 STORIES (replies, exits, poll results) · 1.8 WHAT AGENTS ARE
+   ASKING (questions in comments → next Reels) · 1.9 WHERE VIEWS STOP TURNING INTO DMs (the one break + the fix)
+   · 1.10 HOW OFTEN YOU POST
 
 
 ════════════════════════════════════════════
-PART 2 — THE OTHER AGENTS IN YOUR MARKET
+PART 2 — OTHER LEADERS AGENTS IN YOUR MARKET FOLLOW
 ════════════════════════════════════════════
-   In plain English:  {one sentence: YouTube we can read in full; Instagram and TikTok are a look at their public profile}
-   [Channel A] ........ {subs} · typical video {n} · standout: "{title}" ({n} views, {x}× their normal) — YouTube
-   [Account B] ........ {followers} · {posts/wk} · what stands out — Instagram, public-profile glance
-   ──── WHAT THEY DO THAT YOU DON'T ────
-   •  {the move} — {why it works} → {how you'd do it}
-   ──── WHAT YOU DO BETTER ────
-   •  {…}
-   ──── WHERE YOU SIT ────
-   {two sentences}
+   Observable facts with sources, what they do that you don't, what you do better — never a verdict on a person
+   or a brokerage (the cardinal rules).
 
 
 ════════════════════════════════════════════
-PART 3 — WHERE YOU SHOW UP WHEN PEOPLE SEARCH
+PART 3 — WHAT AGENTS SEARCH AND ASK
 ════════════════════════════════════════════
-   In plain English:  {one sentence}
-   ──── 3.1 ON YOUTUBE ────
-   | What people type | Where you are | Who's #1 today | Their views |
-   |---|---|---|---|
-   ──── 3.2 WHEN THEY ASK AN AI ASSISTANT ────
-   | The question | Are you in the answer? | Who is |
-   |---|---|---|
-   •  What gets you into the answer:  {the one profile or page fix}
-   ──── 3.3 WHAT'S RISING ────
-   •  {phrase} — {direction} → {post idea}
-   •  In the news this week:  {headline} ({source}, {date}) → {green-screen post}
+   YouTube searches · AI-assistant answers · rising phrases · this week's brokerage and industry news → Reel ideas
 
 
 ════════════════════════════════════════════
-PART 4 — THE OPENINGS   (what locals want that nobody local is posting)
+PART 4 — THE OPENINGS   (what agents want that nobody in your lane is posting)
 ════════════════════════════════════════════
-   In plain English:  {one sentence}
-   ──── OPENING 1 — {short plain name} ────
-   •  What we found:  {one sentence}
-   •  Why it matters to you:  {one sentence, in outcome words}
-   •  Do this:  post "{hook / topic}"  ({format} · {job} · {week})
-   •  The proof:  {2–3 short facts, each with one number}
-   {…3–5 openings, never more}
+   3–5 openings: what we found · why it matters to you · do this (hook · format · pillar · week) · the proof
 
 
 ════════════════════════════════════════════
 PART 5 — YOUR NEXT 30 DAYS
 ════════════════════════════════════════════
-   ──── KEEP DOING (YOUR STRENGTHS) ────
-   1.  {strength} — {the number that proves it}
-   ──── FIX ────
-   1.  {what's wrong} — {why it costs you} — do this: {the specific change}
-   ──── THE PLAN (4-3-2-1) ────
-   Week 1 · Post 1 — {hook / topic}   ({format} · {job})
-   …
-   Post at:  {your 3 best slots from 1.5}
-   Total output:  {n} posts a week + stories {n} days — {vs Mike's 3 minimum / daily goal}
-
-   >> THE ONE MOVE:  {the same sentence as page one}
+   KEEP DOING · FIX · THE PLAN (2 attraction · 2 authority · 1 story a week, stories daily) · POST AT · THE ONE MOVE
 
 
 ════════════════════════════════════════════
 APPENDIX — THE FULL NUMBERS
 ════════════════════════════════════════════
-   ──── A. EVERY POST IN THE WINDOW, BEST TO WORST ────
-   | # | Post (hook) | Format · job | Reach | Saves | Shares | Skip % | Profile actions |
-   |---|---|---|---|---|---|---|---|
-   ──── B. YOUR AUDIENCE IN FULL ────
-   | Audience | Top cities | Age | Gender |
-   |---|---|---|---|
-   ──── C. SEARCH RESULTS WE PULLED ────
-   | Phrase | #1 | #2 | #3 | Your best |
-   |---|---|---|---|---|
+   A. every post, best to worst (hook · format · pillar · reach · saves · shares · skip % · keyword comments · DMs)
+   B. your audience in full   C. search results we pulled
 
 
 ────────────────────────────────────────────
-Sources — live Instagram + YouTube data pulled {date} · Metricool {ads / best-time} · screenshots · {N} searches · an AI answer engine.  Compliance — Fair Housing checked.  ✓
+Sources — live data pulled {date} · the posting tool · screenshots · {N} searches.  Compliance — checked.  ✓
 Powered by Mike Sherrard Coaching Inc Frameworks
 ```
-The stamp is a byline + footer only — never inside a caption or script block the agent pastes out.
+The stamp is a byline + footer only — never inside a caption, bio, or script block the member pastes out.
 
 ## 6. The save flow (end of every content workflow)
-1. Build the doc's structured text following §4–§5; write it to a temp file (e.g. `/tmp/doc.txt`).
-2. Find-or-create `[Agent Name] — Short-Form System/Content/[YYYY-MM · Month]/` (or `/Performance/`).
+1. Build the doc's structured text following §4–§5; write it to a temp file in the scratchpad.
+2. Find-or-create the bucket folder and the month folder (§1) inside the workspace found by ID.
 3. **Render** the text to a styled `.docx` via `${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py` (§3), then upload
    that `.docx` with the §2 name into the folder.
 4. Confirm in plain language + give the location:
-   *"Saved to your Drive → Short-Form System → Content → June. Here's the doc: [link]."*
-5. The content-log row (the workflow already writes it) is the index; the Doc is the readable copy.
+   *"Saved to your workspace → Content → Short-Form → November. Here's the doc: [link]."*
+5. The content-log row (the workflow already writes it, then pushes) is the index; the Doc is the readable copy.
 
-Keep delivering the copy-paste version in chat too — the agent often records/posts right away. The Drive
-doc is the organized record they (and their VA) can always find.
+Keep delivering the copy-paste version in chat too — the member often films or posts right away. The doc is
+the organized record they (and anyone helping them) can always find.

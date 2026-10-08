@@ -1,95 +1,110 @@
-# Video Idea Templates (plug-and-play)
+# Video Idea Templates — agent attraction (plug-and-play)
 
-Ideation fills these with the agent's real specifics from the Brain — `[City]`, communities, price
-points, the markets people relocate FROM, and their niche. **Always swap every `[bracket]` for a real value
-— never leave a placeholder.** And always produce a **BLEND**: broad searchable pillar ideas PLUS
-niche-specific ideas tied to the agent's specialty.
+Ideation and the Game Plan fill these with the member's real specifics from the Brain: `[avatar]` (a named type
+from `avatars.md`), `[niche]` and `[known for]` (`strategy.md`, `offer.md`), `[pain]` (one of Mike's five),
+`[model]` (`brokerage-model.md` — the model's name is fine in public; the figures are not), `[guest]`
+(`interview-pipeline.md`), `[story]` (`story-bank.md`). **Swap every `[bracket]` for a real value — never leave a
+placeholder.** Every batch is **bucketed**: Problem · Situation · Future · Interview · Model, and every plan keeps
+the 8-video cycle (3 niche · 1 model · 4 interviews — doctrine §7).
 
-**Aligned to the YouTube Doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/youtube-doctrine.md`): these formulas serve
-the **6 content pillars (§8–§14)**, follow the **title principles + formulas (§16)** — match search intent,
-be market-specific, include the city/neighbourhood and the year/month when relevant — and feed the
-**video-idea output template (§24.1: title · pillar · search intent · target viewer · why it works ·
-thumbnail concept · CTA angle)**. The blend reflects the content mix (§15): broad searchable ~80% / niche
-~20% in year one.
+Aligned to `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`: the three categories (§3), the niche
+pillars (§4), interviews (§5), model breakdowns (§6), the title formulas (§9 — numbered 1–7 below), the four
+script formats (§12), and the cardinal rules (§15). Titles never carry compensation figures, income, or a
+negative word about a brokerage or person.
 
-## The 6 content pillars (the doctrine's content types — §8, every channel tests all of these)
-1. **Market updates** (§9) — local data → buyer/seller decisions.
-2. **Home tours** (§10) — a specific property + market knowledge.
-3. **Relocation videos** (§11) — moving-to-[City], the highest-intent local search.
-4. **Community tours** (§12) — what it's like to live in a neighbourhood.
-5. **Map tours** (§13) — the geography of the city, where to look.
-6. **Local lifestyle** (§14) — top-of-funnel, passion-led local content.
-(The "evergreen backbone" below — neighbourhood/community tours · cost-of-living · pros & cons · buyer/seller
-education · market updates — are angles WITHIN these 6 pillars, mostly relocation, community, and market.)
+## The five buckets, the four formats, and where each template lands
+| Bucket | Category | Script format it usually becomes |
+|---|---|---|
+| **Problem** | niche authority | Pain Point Series · Niche Breakdown |
+| **Situation** | niche authority | Pain Point Series · Why I Switched |
+| **Future** | niche authority | Niche Breakdown (leverage, next stage) |
+| **Interview** | interviews | Interview (intro/outro) |
+| **Model** | model / opportunity | Model Breakdown · Why I Switched |
 
-## Foundation / relocation (general, high-search)
-- Cost of Living in [City] [Year]
-- Pros and Cons of Living in [City] [Year]
-- X Things You Need to Know Before Moving to [City] [Year]
-- X Things You Didn't Know About Living in [City]
-- X Reasons to Move to [City]  /  X Reasons NOT to Move to [City]
-- X Things I Wish I Knew Before Moving to [City]
-- Moving to [City]? Watch This First
+---
 
-## Location / comparison
-- Where to Live in [City] — Every Neighbourhood You Need to Know
-- Top X Communities in [City]
-- [Your Market] vs [Competing Market] — Where Should You Live?  (e.g., Calgary vs Vancouver)
-- [Community 1] vs [Community 2] — Which Is Better?
-- Top [City] Neighbourhoods for First-Time Buyers by Price
-- [City] Neighbourhoods With the Shortest Downtown Commute
-- [City] Suburbs With Top-Rated Schools and the Most Green Space
-- Best Suburbs Outside [City]
-- Moving From [Other City] to [City]  (e.g., Toronto → Calgary)
+## PROBLEM — solve what they already search for (`08-youtube/94`, VIP day)
+*The question: what does my ideal agent already type in because they want the answer?*
+- How to [outcome] as a real estate agent in [year]  *(formula 4 — "top N things to…")*
+- The top [N] [things] to [outcome] as a real estate agent  *(4)*
+- Why most agents can't [outcome] — and how to be the exception  *(1)*
+- How to [outcome] without [the thing the avatar hates — cold calling · paying for leads · door knocking]
+- [Niche skill] for real estate agents: the exact [system / routine / script] I use
+- The [N] [tools / scripts / posts] every [avatar] should be using right now
+- How I [got outcome] with [the member's known-for thing] — step by step  *(5, self-case-study)*
+- [Avatar]-specific: How a new agent gets their first [N] deals with [niche] · How a [N]-year agent breaks past
+  [plateau, in deals not dollars] with [niche]
 
-## Price points / home tours (§10, §16.5)
-- What Does $[X]K Get You in [City] [Year]
-- What $[X]K Buys in [Community]
-- Inside a $[Price] Home in [Community] | [City] Home Tour
-- Touring a New Construction Home in [City] — Is It Worth It?
-- This [Community] Home Has [Unique Feature]
+## SITUATION — "he understands exactly where I'm at" (`08-youtube/97`, VIP day)
+*Identity and problem-aware. One pain, one avatar.*
+- The [N] mistakes keeping agents stuck at [their situation — 20 deals a year · their first year · their brokerage]  *(2)*
+- [N] signs you've outgrown your brokerage  *(7)*
+- If you're a struggling real estate agent, do this for the next 90 days  *(7)*
+- Why good agents get stuck at [plateau] — and what the ones who break through do differently  *(1)*
+- Why most agents never build leverage  *(1)*
+- The truth about [paying for leads · joining a team · going solo · your first year] no one tells you  *(3)*
+- What I wish someone told me when I was [the avatar's situation]  *(Why I Switched material — the wall, never the company)*
+- [Pain]-specific (Mike's five): financial uncertainty → "Why your income resets every January — and how to stop it" ·
+  support → "What your brokerage should be teaching you (and isn't)" · technology → "The tech stack a modern
+  agent actually needs in [year]" · growth → "Why selling more houses won't get you out of the hamster wheel" ·
+  work-life balance → "How to build a real estate business that doesn't need you every day"
 
-## Map tours (§13, §16.5)
-- [City] Map Tour: Where to Live Before You Move
-- Best Areas to Live in [City] Explained on a Map
-- [City] Neighbourhoods Explained
-- Moving to [City]? Watch This Map Tour First
+## FUTURE — show them the next stage (VIP day, `08-youtube/93`)
+*Growth, leverage, leadership, modern business models — without numbers.*
+- How top agents build leverage (and why most never do)  *(1)*
+- How to stop relying entirely on your personal production
+- Should you build a team, or build an organization? The difference nobody explains
+- Modern real estate business models explained — solo · team · organization · brokerage
+- Where the real estate industry is heading in [year] — and what it means for [avatar]
+- How recurring income works for real estate agents (the concept, not the numbers — the figures are a call)
+- From agent to leader: what actually changes when you start helping other agents
+- The [N] skills every agent needs before they lead anyone
 
-## Local lifestyle (§14, §16.5)
-- Best Restaurants in [City] Right Now
-- Top X Things to Do in [City] This Weekend
-- Best Coffee Shops in [Community]
-- Hidden Gems in [City] You Need to Know
+## INTERVIEW — the hook-and-transformation title (`08-youtube/95`, VIP day)
+*Never "tell me [guest]'s story." Standalone value for a viewer who has never heard of the guest.*
+- How [guest] [achieved outcome] [surprising constraint — part-time · in a small market · as an introvert · in their first year]  *(5)*
+- How [guest] went from [before, in their words] to [after] in [timeframe] — [the method]
+- [Guest] closed their first deal in [N] days — here's exactly what they did
+- How [guest] turned their business around after [N] years of [the struggle] — [the shift]
+- [Guest] on [the niche topic]: the [system / routine / content process] behind [the result]
+- Team leaders / broker-owners: How [guest] runs a [type] team on [the model] — what changed
+Sequence by relatability (doctrine §5): across ages, backgrounds, markets, personalities — so any viewer finds
+someone like them.
 
-## Market updates (§9, §16.5)
-- [City] Housing Market Update [Month Year]
-- Is Now a Good Time to Buy in [City]? [Month Year] Market Update
-- Should You Sell Your [City] Home Now or Wait?
-- [City] Real Estate Market Just Shifted — What Buyers Need to Know
+## MODEL — answer what they're already researching (`08-youtube/96`, `/93`, VIP day)
+*Mechanics, fit, myths, the sponsor question — compensation stays on the call.*
+- [Model] explained — how it actually works in [year]  *(6; remade yearly)*
+- Should you join [brokerage]? An honest look at who it's for  *(6)*
+- How [rev share · co-sponsorship · the cap · stock awards] actually works at [brokerage] — the concept  *(6)*
+- Before choosing a sponsor at [brokerage], ask these [N] questions  *(6)*
+- The truth about [brokerage] no one tells you  *(3)*
+- Do NOT join [brokerage] if… ([N] honest reasons)  *(7 — Mike's best-performing model video)*
+- [N] myths about [brokerage / cloud brokerages / rev share] — debunked with facts
+- Is [brokerage] right for new agents? / for team leaders? / for broker-owners?  *(6)*
+- The truth about changing brokerages — what actually happens to your business
+- Why I switched to [brokerage] (and what I'd tell myself a year earlier) — the former brokerage unnamed  *(Why I Switched)*
+- [Year] review: [N] months at [brokerage] — what's true, what's hard, what I'd change
+- Comparison ("[brokerage] vs [brokerage]") — **only on the member's explicit choice**, with Mike's warning
+  repeated (`/96`): facts only, dated and sourced, strengths and weaknesses of each, no negative word about
+  a brokerage or person, compliance-gated.
 
-## Honest / contrarian (high trust + CTR)
-- X Myths About Living in [City]
-- Top X Worst Things About Living in [City]
-- Why People Are Leaving [City] — Don't Move Here Unless…
-- Realtor Reacts to [City] Listings
-
-## Niche-specific (match the agent's specialty from the Brain)
-- New construction: the process, deposits, builder incentives, new communities
-- First-time buyers: grants / assistance programs, step-by-step, mistakes to avoid
-- Mortgage (if dually licensed): rates, pre-approval, down-payment assistance
-- Investors / luxury / specific property types — whatever the agent's niche is
-- Seller-focused: staging, seller mistakes to avoid, market update
+## The seven title formulas (doctrine §9 — cited there; use the numbers)
+1. Why most agents can't [outcome] — and how to be the exception
+2. The [N] mistakes keeping agents [stuck state]
+3. The truth about [X] no one tells you
+4. The top [N] [things] to [outcome] as a real estate agent
+5. How [person] [achieved outcome] [surprising constraint]
+6. [Model] explained · Should you join [X]? · How [component] actually works · Before choosing a sponsor, ask these questions
+7. Do NOT join [X] if… · [N] signs you've outgrown [X] · If you're [situation], do this for the next 90 days
 
 ## Rules
-- BLEND general + niche in every batch (the content mix, §15.6: ~80% broad searchable / ~20% niche). Both,
-  always — and draw across the **6 content pillars** (§8), not just one type.
-- Make every idea hyper-specific to the agent's market, clientele, and niche — never generic.
-- Use the agent's real communities, real price points, and the real cities people move FROM.
-- **Titles follow §16:** match real search intent, be market-specific, include the city/neighbourhood and the
-  **year or month when relevance matters** (especially market updates), and differentiate from the top 3–5
-  ranking videos. Searchable over clever (§16.1). Keep every title Fair-Housing-safe (no "safe," "good area,"
-  or "family-friendly"-as-a-proxy) per house rules + doctrine §21.
-
-## Channels to model (for outlier/competitor inspiration)
-@JebSmith · @SoominKimRE · @livingindenverpropertybros · @NavaRealtyGroup · @TheMattLeighton (neighbourhood
-tours) · @LivingInOttawa · @AKAliRealtor · @LiveInnerCity (titles/thumbnails) · @KristinaSmallhorn
+- **Bucket every idea** and keep the cycle: a batch of 4 is 1–2 niche (Problem/Situation/Future) · 1 interview ·
+  ≤1 model; a 90-day plan is cycles of 3 + 1 + 4.
+- **One avatar per title, named inside the plan** (the member's avatar, never "agents" in general).
+- **One pain per title** where it applies, mapped to Mike's five.
+- **Every idea cites a real signal** (demand · a dated news item from `memory/intel.md` · a captured question
+  from `memory/ideas.md` or `objections.md` · a proven outlier · a coverage gap in the member's own channel).
+- **Public titles never carry** compensation figures, "#1 / fastest-growing" without a dated source, a protected
+  characteristic, or a negative word about a brokerage or person. "Do NOT join [brokerage] if…" is about *fit*.
+- **The member's own ideas come first** (`memory/ideas.md`, tag `youtube` / `interview`).
+- Titles say "real estate agent(s)" or the agent type when the search needs it — the viewer is an agent.
