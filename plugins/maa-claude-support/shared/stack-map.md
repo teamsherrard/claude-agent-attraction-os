@@ -15,14 +15,14 @@ Mike (2026-10-08): not a plugin, parked.
 |---|---|---|---|---|---|
 | 1 | **Agent Attraction Brain** (W1) | `attraction-` | 26 | **BUILT** | "Set up my **attraction** brain" |
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "Help" / "I'm stuck" / "what did Mike say about…" |
-| 3 | **Design Studio** (Claude Design skill set, NOT a plugin) — W1/2 Design Package (logo · style sheet · brand), W2 offer assets, W6 Value Vault | `ds-` | 15 | Design Package (ds-logo · ds-style-sheet · ds-brand) ships W1; offer assets W2; Value Vault W6 | paste a brief into claude.ai/design; "design my logo" inside Design |
-| 4 | **Short-Form** (W3) | `sf-` | 13 | coming W3 | "Set up my short-form engine" |
-| 5 | **AI Editor — Riverside** (W3) | `studio-` | 28 | coming W3 | "Set up my studio" / "edit my reel" |
-| 6 | **YouTube** (W4) | `yt-` | 19 | coming W4 | "Set up my YouTube engine" |
-| 8 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | coming W5 | "Set up my conversion engine" |
-| 7 | **AI Admin** (W5) | `admin-` | 8 | coming W5 | "set up my agent attraction admin" |
-| 8 | **Lead Magnet** (W6) | `lm-` | 11 | coming W6 | "Build my lead magnet" |
-| 9 | **Events & Workshops** (W6) | `ev-` | 10 | built v0.1.0 | "Plan my workshop" |
+| – | **Design Studio** (Claude Design skill set, NOT a plugin) — W1 Design Package (logo · style sheet · brand), W2 offer assets, W4 thumbnails, W6 recognition · events · Value Vault | `ds-` | 15 | **all 15 BUILT** (upload files in `design-studio/_dist`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
+| 3 | **Short-Form** (W3) | `sf-` | 13 | **BUILT** | "set up my attraction short-form" |
+| 4 | **AI Editor — Riverside** (W3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **vendored** | "set up my video editor" / "edit my reel" |
+| 5 | **YouTube** (W4) | `yt-` | 19 | **BUILT** | "set up my YouTube for agents" |
+| 6 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | **BUILT** | "who should I message" / "call with [name] tomorrow" / "set up my partner call system" |
+| 7 | **AI Admin** (W5) | `admin-` | 8 | **BUILT** | "set up my attraction admin" |
+| 8 | **Lead Magnet** (W6) | `lm-` | 11 | **BUILT** | "set up my lead magnet for agents" |
+| 9 | **Events & Workshops** (W6) | `ev-` | 10 | **BUILT** | "plan my workshop" / "build my event page" |
 
 (#7 was the Creative Studio and #10 Team & Retention — both removed. Numbering keeps the cohort doc's slots so the Setup Guide
 and the playbooks agree.) "Coming" plugins: say so honestly — *"that one switches on in Week N;
