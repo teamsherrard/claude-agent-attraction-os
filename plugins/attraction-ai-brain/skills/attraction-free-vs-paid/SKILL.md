@@ -10,7 +10,7 @@ description: >
   Value Vault builds. Writes the value stack and digital product sections into the Brain's offer
   file and hands a brief to the Design Package's offer-stack and product-mockup skills. Never
   compensation or inflated value figures. Trigger on: "free vs paid", "what should I give away",
-  "what should I charge for", "build my value stack", "map my digital product", "what do I give
+  "what should I charge for", "build my value stack", "map my digital product", "my digital product is built", "what do I give
   agents who join", "value stack brief".
 ---
 
@@ -216,3 +216,7 @@ cut it until it's specific) · the so-what test (every item ends in an outcome) 
 - **One owner per section:** this skill writes `## Value stack` and `## Digital product` in
   `identity/offer.md`, and nothing else in the Brain.
 - Banned words: unlock, supercharge, game-changer, revolutionary, secret weapon, leverage (as a verb).
+
+
+## "My digital product is built" (Week 6)
+When the member says the Value Vault finished the product, update `identity/offer.md → ## Digital product` with `Status: built · [date] · [product name] · saved in 05 · Offer/[Product]/` and push. One line back: "Logged — your offer now points at a real product." Nothing else changes.

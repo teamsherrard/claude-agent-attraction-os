@@ -97,6 +97,7 @@ Open now: `identity/brand-visual.md` (colors, fonts, logo state; `identity/profi
 One block per win, in this shape:
 ```
 WIN WALL BRIEF — for ds-recognition (Claude Design)
+Consent: on file / ask [agent] first   # ds-recognition never has to ask twice
 Agent: [name] · Win: [what, in five words] · Date: [date] · Organization: [name from profile]
 Brand: [colors · fonts · logo state from brand-visual.md; "use the Design System file"]
 Photo: the agent's headshot the member has — never a stock face

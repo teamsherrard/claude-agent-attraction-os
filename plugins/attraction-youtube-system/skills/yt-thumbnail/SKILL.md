@@ -36,7 +36,7 @@ Read `references/swipe-file-patterns.md` at Step 2 (not before).
 
 ## Step 2 — Three directions, each on one idea
 Read `references/swipe-file-patterns.md`. Draft three directions; each one states:
-- **Text** (3–5 words, NOT the title's words — `97`): the curiosity, the emotion, or the clarity angle.
+- **Text** (3–4 words (never five: the layout skill cuts a fifth), NOT the title's words — `97`): the curiosity, the emotion, or the clarity angle.
 - **Face and expression:** which headshot family (concern · surprise · confidence · delight), eyes toward text.
 - **Composition:** face position and size (~a third of the frame), text block, one supporting element max
   (the guest's face for interviews; a map or product only when it supports the title without repeating it).
@@ -48,7 +48,7 @@ Bucket defaults: **Interview** → two faces, the guest's transformation word ("
 mistake named · **Situation** → "this is you" phrasing · **Future** → confident face, the outcome.
 
 ## Step 3 — Score against the patterns (show the score, plain words)
-Score each direction 0–2 on: curiosity · emotion · clarity · text differs from the title · 3–5 words ·
+Score each direction 0–2 on: curiosity · emotion · clarity · text differs from the title · 3–4 words (never five: the layout skill cuts a fifth) ·
 expression matches · contrast · simplicity · mobile legibility (9 criteria, 18 max). Say in one line where
 each loses points. Recommend one as the primary and keep all three (YouTube's Test & Compare runs three — `97`).
 State the swipe-file status honestly: *"Mike's swipe file isn't in yet; these are scored on his lesson rules
@@ -57,7 +57,7 @@ and I'll re-score when it lands."* Never claim a pattern the reference does not 
 ## Step 4 — The brief (paste-ready, for the Design Studio)
 Deliver this block in chat and save it as **Thumbnail Brief — [title] — YYYY-MM-DD** in the video's folder
 under `03 · Content/Long-Form/` (rendered through `shared/render_doc.py`; the finished images land in
-`03 · Content/Graphics/`):
+`03 · Content/Long-Form (the video's folder)/`):
 ```
 THUMBNAIL BRIEF — "[title]"
 Run in Claude Design: ds-thumbnail-layout (upload your Brain Book and your Design System file first)
@@ -66,8 +66,8 @@ BRAND: colors (hex) · display font · headshot set to use · logo rule
 DIRECTION 1 (primary · score x/18): text · face/expression · composition · color · feeling
 DIRECTION 2 (score x/18): …
 DIRECTION 3 (score x/18): …
-RULES THE DESIGN MUST KEEP: 3–5 words · text ≠ title · face ≈ 1/3 · one supporting element · legible at 320px
-OUTPUT: three 1280×720 thumbnails, one per direction, saved to 03 · Content/Graphics
+RULES THE DESIGN MUST KEEP: 3–4 words (never five: the layout skill cuts a fifth) · text ≠ title · face ≈ 1/3 · one supporting element · legible at 320px
+OUTPUT: three 1280×720 thumbnails, one per direction, saved to 03 · Content/Long-Form (the video's folder)
 ```
 Hand-off line to the member: *"paste this into Claude Design and run ds-thumbnail-layout — it builds all
 three; upload them as a test set in YouTube Studio and we read the click-through after a month."*
