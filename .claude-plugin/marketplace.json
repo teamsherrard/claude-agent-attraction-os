@@ -9,7 +9,7 @@
     {
       "name": "attraction-ai-brain",
       "source": "./plugins/attraction-ai-brain",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "PLUGIN 1 \u2014 install first. The Agent Attraction Brain: one shared brain (who you are as a leader, who you attract, what you have to give, your numbers, your voice, your brand, your rules) that every other Agent Attraction system reads. Run 'Set up my attraction brain' once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, and the on-the-go Capture layer."
     },
     {
@@ -33,8 +33,8 @@
     {
       "name": "realtor-riverside-editor",
       "source": "./plugins/realtor-riverside-editor",
-      "version": "0.4.2",
-      "description": "PLUGIN 4 \u2014 the AI Editing Studio on Riverside (Week 3). The SAME editor plugin as the Social Agent OS, vendored here unchanged except for one rule: it reads whichever Brain you have (Agent Attraction Brain first, Realtor AI Brain otherwise). Record, edit by transcript, cut the fluff, captions, b-roll, music, color, hook, interviews, reels, long-form, repurpose, publish. If you already installed it from the realtor marketplace, do not install it twice."
+      "version": "0.4.3",
+      "description": "PLUGIN 4 \u2014 the AI Editing Studio on Riverside (Week 3). The SAME editor plugin as the Social Agent OS, vendored here unchanged except for one rule (it reads whichever Brain you have: Agent Attraction Brain first, Realtor AI Brain otherwise) and two skill descriptions trimmed to claude.ai's 1024-character limit. Record, edit by transcript, cut the fluff, captions, b-roll, music, color, hook, interviews, reels, long-form, repurpose, publish. If you already installed it from the realtor marketplace, do not install it twice."
     },
     {
       "name": "attraction-conversion-sales",

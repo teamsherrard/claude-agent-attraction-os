@@ -2,6 +2,13 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.3.1] — 2026-10-09
+
+### Cowork sync warnings cleared (this marketplace only; the realtor repo is untouched)
+- attraction-ai-brain 0.2.1: `hooks.json` carries only the `hooks` key; the explanatory note that used to sit in a `$comment` field lives in `hooks/README.md`. claude.ai's hook schema dropped the unknown field with a warning on every sync; the SessionStart hook itself was always stored and is unchanged.
+- realtor-riverside-editor 0.4.3 (the vendored realtor 0.4.2 plus two trims): the `studio-navigator` and `studio-publish` descriptions were 1455 and 1312 characters. claude.ai stores a description cut at 1024, which in Cowork silently dropped the navigator's resume triggers ("finish my video", "pick up where we left off", "continue my edit"). Both rewritten under 1024 characters as folded block scalars with the resume triggers kept; everything else in the plugin is byte-identical to the realtor source apart from the Brain-home rule.
+- Gate: check 8 now fails on any description over 1024 (the vendored exemption is gone); new check 15 fails a `hooks.json` with any top-level key other than `hooks`. `vendor-riverside.sh` lists over-limit descriptions after a re-vendor so the trims get re-applied.
+
 ## [0.3.0] — 2026-10-09
 
 ### Shared document renderer v2 (Brain, Admin, Conversion, Events, Lead Magnet, Short-Form, YouTube)

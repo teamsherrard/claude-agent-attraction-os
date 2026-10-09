@@ -131,8 +131,8 @@ for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
     if fm.get("name")!=d: print(f"  ✗ {f}: name '{fm.get('name')}' != dir '{d}'"); bad=True
     desc=fm.get("description","") or ""
     if len(desc)>1024:
-        if vendored: print(f"  · {f}: description {len(desc)} chars (>1024) — vendored as-is; fix in the realtor repo")
-        else: print(f"  ✗ {f}: description {len(desc)} chars (>1024)"); bad=True
+        hint=" — claude.ai cuts descriptions at 1024 (Cowork warns on sync); trim it in the vendored copy, the realtor repo stays untouched" if vendored else ""
+        print(f"  ✗ {f}: description {len(desc)} chars (>1024){hint}"); bad=True
     if not vendored and not re.search(r'^description:\s*>',m.group(1),re.M): print(f"  ✗ {f}: description is not a folded block scalar (description: >)"); bad=True
 if not bad: print("  ✓ every SKILL.md: name==dir, description ≤1024, block scalar")
 sys.exit(1 if bad else 0)
@@ -257,6 +257,21 @@ if ds and f"| {ds} |" not in "\n".join(l for l in sm.split("\n") if "Design Stud
 if not bad: print("  ✓ stack-map plugin table matches the installed skill counts")
 sys.exit(1 if bad else 0)
 PY2
+
+say ""
+say "── 15. hooks.json files carry only the 'hooks' key (claude.ai drops any other top-level field with a sync warning)"
+python3 - <<'PY' || FAIL=1
+import glob,json,sys
+bad=False
+for f in sorted(glob.glob("plugins/*/hooks/hooks.json")):
+    try: d=json.load(open(f))
+    except Exception as e: print(f"  ✗ {f}: not valid JSON ({e})"); bad=True; continue
+    extra=[k for k in d if k!="hooks"]
+    if extra: print(f"  ✗ {f}: top-level key(s) {extra} — claude.ai drops them; keep notes in hooks/README.md"); bad=True
+    if "hooks" not in d: print(f"  ✗ {f}: no 'hooks' key"); bad=True
+if not bad: print("  ✓ every hooks.json carries only 'hooks'")
+sys.exit(1 if bad else 0)
+PY
 
 say ""
 say "── 6. top changelog entry names files that are actually committed/staged"
