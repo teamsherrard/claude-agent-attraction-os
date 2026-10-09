@@ -1,7 +1,7 @@
 {
   "name": "attraction-conversion-sales",
   "displayName": "Agent Attraction Conversion & Sales (Plugin 6)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PLUGIN 6 — the Conversation & Conversion Engine (Week 5). Mike's prospect-to-partner system as software: the Agent Intel report before any outreach, personalized selfless conversation starters by channel, the DM-to-conversation-to-call flow, the 1-page call prep, the partner call framework and enrollment script, the question funnel, the opportunity presentation, 3-way call edification, the Objection Handling Coach with all 15 objections mapped to the 7 archetypes and honest role-play scoring, the Conversation Coach that audits real call transcripts into next steps, reason-based follow-up and the re-engagement engine for quiet prospects, plus the Sales OPS layer behind 10+ calls a day: booking page, show-up sequence, setter scripts, the daily call block, and the sales scorecard. Reads the Agent Attraction Brain; requires Plugin 1.",
   "author": {"name": "Team Sherrard"},
   "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",

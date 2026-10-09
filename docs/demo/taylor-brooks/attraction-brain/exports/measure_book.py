@@ -31,6 +31,10 @@ for el in body:
     if tag == 'p':
         txt = para_text(el).strip()
         pPr = el.find(qn('w:pPr'))
+        # v2 renderer: a ">> " callout is a paragraph with a left accent border + shading (v1: a shaded 1-cell table)
+        pb = pPr.find(qn('w:pBdr')) if pPr is not None else None
+        if pb is not None and pb.find(qn('w:left')) is not None and pPr.find(qn('w:shd')) is not None:
+            blocks.append(('tbl', [[txt]], {'callout': True})); continue
         pbb = pPr is not None and pPr.find(qn('w:pageBreakBefore')) is not None
         hardbr = any(br.get(qn('w:type')) == 'page' for br in el.iter(qn('w:br')))
         hl = len(el.findall('.//' + qn('w:hyperlink')))
@@ -102,14 +106,14 @@ for s in sections:
     table_words = wc("\n".join(c for t in s['tables'] for r in t for c in r))
     # simple estimate (task formula): words/380, forced break = +1 page start
     simple_pages = max(1, math.ceil(words / 380.0)) if s['kind'] in ('chapter', 'part', 'toc', 'cover') else 0
-    # layout estimate: body lines ~ 95 chars/line at 10.5pt Arial over 6.5in; line = 10.5*1.16=12.2pt + 7pt para gap
+    # layout estimate (renderer v2): body lines ~ 92 chars/line at 11pt Arial over 6.5in; line = 11*1.2=13.2pt + 6pt para gap
     usable_pt = 655.0
     h = 0.0
     for p in s['paras']:
         if not p: continue
-        lines = max(1, math.ceil(len(p) / 95.0)); h += lines * 12.2 + 7
+        lines = max(1, math.ceil(len(p) / 92.0)); h += lines * 13.2 + 6
     for c in s['callouts']:
-        lines = max(1, math.ceil(len(c) / 88.0)); h += lines * 12.2 + 18
+        lines = max(1, math.ceil(len(c) / 86.0)); h += lines * 13.2 + 20   # indented accent-bar block
     for t in s['tables']:
         ncol = max(len(r) for r in t)
         # emulate renderer widths: proportional to max cell len per col (4..60), floor 0.55in
@@ -120,11 +124,11 @@ for s in sections:
         for r in t:
             rl = 1
             for ci, cell in enumerate(r):
-                cpl = max(6, int(widths[ci] / 4.9))   # 9.5pt Arial ~4.9pt avg char
+                cpl = max(6, int(widths[ci] / 5.2))   # 10pt Arial ~5.2pt avg char
                 rl = max(rl, math.ceil(len(cell) / cpl) if cell else 1)
-            h += rl * 10.0 + 9
+            h += rl * 12.0 + 9
         h += 8
-    if s['kind'] == 'chapter': h += 60   # kicker + title + rule
+    if s['kind'] == 'chapter': h += 72   # kicker + 20pt title + rule
     if s['kind'] == 'part': h += 60
     layout_pages = max(1, math.ceil(h / usable_pt)) if s['kind'] in ('chapter', 'part') else None
     # tag discipline: numbered facts must be tagged (chapters only). We count paragraphs/cells with $ or % or digit-numbers

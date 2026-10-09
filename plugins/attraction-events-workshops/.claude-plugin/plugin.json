@@ -1,7 +1,7 @@
 {
   "name": "attraction-events-workshops",
   "displayName": "Agent Attraction Events & Workshops (Plugin 9)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PLUGIN 9 — Events & Workshops that attract agents (Week 6). Live local events (masterminds, brokerage-neutral networking, AI and social workshops), virtual trainings, and evergreen webinars as a launch system: the strategy and format choice, the run-of-show, the registration page copy, the promo calendar with emails, DMs, texts, posts and stories (drafted, never sent), the attended / no-show / hot / cold follow-up sequences that move attendees into the pipeline, and analytics on registrations, show rate, conversations and calls booked per event. Reads the Agent Attraction Brain; requires Plugin 1; an offer still at seeds is fine — the close names what the member has to give so far, and Week 2 finishes the offer.",
   "author": {"name": "Team Sherrard"},
   "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",

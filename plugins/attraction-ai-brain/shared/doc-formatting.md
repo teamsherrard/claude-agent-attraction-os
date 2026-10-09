@@ -12,8 +12,10 @@ automatically.
 1. Assemble the deliverable as structured text; write it to a temp file, e.g. `/tmp/doc.txt`.
 2. Render it:
    `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Agent · City]"`
-   → produces the house style: **Arial**, **pure-black** text, real **headings**, **bullet lists**, and
-   **tables**, thin light-grey rules. *(If the script prints `RENDERER-UNAVAILABLE` — `python-docx` is not
+   (optional `--accent HEX` — the member's primary brand colour, see the look below; omit it for the neutral default)
+   → produces the house style: **Arial**, **near-black** text, real **headings** (true Word heading styles, so
+   the navigation pane and the Google Docs outline work), **bullet lists**, **tables**, thin light-grey rules,
+   and a header/footer with `Page X of Y`. *(If the script prints `RENDERER-UNAVAILABLE` — `python-docx` is not
    installed — do exactly what it says: **install nothing, never run pip, never retry the command**; save the
    same structured text as a `.md` file, upload THAT to the same folder, and tell the member in one plain line
    that the styled version needs the renderer. Delivery never stops.)*
@@ -46,10 +48,27 @@ for this system; the documents must feel like it.
 - `Why Join Me · [Member] · 2026-11-14`
 
 ## The look the renderer produces (one neutral standard for every member)
-- **Arial** everywhere (never a serif). **Pure black** titles / headings / body; **dark grey** only for the
-  small byline / footnotes.
+- **Arial** everywhere (never a serif). **Near-black** titles / headings / body; **dark grey** only for the
+  small byline / kickers / footnotes.
+- **Type scale:** body **11pt** at 1.2 line spacing, 6pt after, widow/orphan control on · section headings
+  (real `Heading 1`) **14pt** bold tracked caps over a thin light-grey rule · sub-bands and ALL-CAPS
+  sub-labels (real `Heading 2`) **12.5pt** bold · title **30pt** (`Title` style) · table text **10pt** ·
+  eyebrow / kickers **9.5pt** grey tracked · small print 8.5–9.5pt grey. Book mode: chapter titles **20pt**
+  and part titles **24pt** (both `Heading 1`, with a 9.5pt / 10pt kicker above), contents entries 11pt with
+  9.5pt grey summaries. Headings, kickers and a `Label:` line directly above a table are keep-with-next —
+  a heading never ends a page.
+- **Header + footer** on every page after the first (the title page / cover carries neither): the document
+  title top-right; the subtitle + eyebrow bottom-left; **`Page X of Y`** bottom-right — live fields that
+  Word and Google Docs both update.
 - Section headings: bold black + a thin light-grey underline. **Real** bullet lists. **Real** tables
-  (near-black header row, white text, light alternating rows). **No colour, no member branding.**
+  (bold header row on a light tint of the accent, white / off-white alternating rows, hairline horizontal
+  rules only plus the outer frame, header row repeats when a table crosses a page). `>> ` callouts (book
+  mode) are indented blocks with an accent bar on the left over a very light tint.
+- **One optional accent colour (`--accent HEX`, default near-black `111111`)** — the only member-specific
+  element: it colours the title rule, the PART kickers, the callout bar and the table-header tint, nothing
+  else. Pass the member's primary brand colour when `identity/brand-visual.md` records one (the Brain Book
+  build does — `brain-book-spec.md` step 6); a colour too light to read on white falls back to near-black
+  for text and keeps the tint. **No other member branding.**
 - These are clean working documents. For a *visually designed* member-facing piece (e.g. a lead-magnet PDF),
   produce the clean copy here and the agent drops it into their design tool — branding lives there.
 
@@ -68,9 +87,14 @@ for this system; the documents must feel like it.
 - **Labels and cues on their own lines** (e.g. `HOOK (read word-for-word)` then the hook on the next line) —
   scripts and captions never run together as a blob. **Copy the agent will paste** (captions, hashtags,
   descriptions) under a clear label, ready to grab.
+- **Sub-headings inside a section** as `──── Label ────` (the label up to **80 characters**) → a real
+  `Heading 2`. A longer label does NOT parse: it renders as body text WITH its literal dashes — a visible
+  failure — and the renderer prints `WARNING: sub-band label is N characters (cap 80) …` on stderr; shorten
+  the label and re-render (any renderer WARNING is a failed build).
 - **Tables — pipe rows:** `| Week | Calls | Posts |` on one line per row (optional `| --- | --- |`
-  separator after the header) → the renderer builds a real styled table (charcoal header, alternating
-  rows). Use for anything tabular: KPI dashboards, brand colours + roles, avatar-at-a-glance, money math.
+  separator after the header) → the renderer builds a real styled table (tinted bold header row that
+  repeats across pages, alternating rows). A `Label:` line directly above the table stays on the same page
+  as the table. Use for anything tabular: KPI dashboards, brand colours + roles, avatar-at-a-glance, money math.
 - Plain structured text in the body (no Markdown `#`/`**`/backticks) — the renderer applies the formatting.
 
 **BOOK MODE (long deliverables — the Agent Attraction Brain Book).** The renderer switches into book mode when
@@ -86,9 +110,13 @@ which render exactly as before:
 - **`PART I — TITLE` / `CHAPTER N — TITLE` CAPS bands** get an eyebrow kicker, a page break before
   each, the bookmark the contents links to, and an outline level (Google Docs shows every chapter in
   its outline sidebar).
-- **`>> ` insight callouts** — a line starting `>> ` renders as a shaded key-insight box (script cue
-  heads `ON SCREEN` / `PAUSE` / `FACT:` stay cues even in book mode).
-- **Footer page numbers** render automatically in book mode.
+- **`>> ` insight callouts** — a line starting `>> ` renders as an indented key-insight block with an
+  accent bar on the left over a very light tint (script cue heads `ON SCREEN` / `PAUSE` / `FACT:` stay
+  cues even in book mode).
+- **Part opener pages** — after a PART band's intro paragraph the renderer appends **"IN THIS PART"**, a
+  linked list of that part's chapters (number · title · contents summary) built from the `[[TOC]]` rows.
+- **Header + footer** (title · member line + eyebrow · `Page X of Y`) render automatically on every page
+  after the cover.
 - **Long inputs are appended band by band, never emitted in one block** — the renderer cannot tell a cut-off
   input from a finished one, so a Book's input file is written one PART/CHAPTER at a time and passes the
   structural pre-check (band and contents-row counts) before `render_doc.py` runs; the rule and the exact

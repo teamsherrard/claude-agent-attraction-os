@@ -134,3 +134,20 @@ Proven with real renders: the renderer produces a long, linked, properly structu
 - `docs/demo/taylor-brooks/attraction-brain/` — the demo Brain (brain.md, config.md, identity/ ×20, memory/ ×13, exports/)
 - `docs/demo/taylor-brooks/attraction-brain/exports/brain-book-DEMO-2026-10-08.txt` · `brain-book-DEMO-week1-2026-10-08.txt` · `scorecard-DEMO-2026-10-08.txt` — the renderer inputs; re-render with `python3 plugins/attraction-ai-brain/shared/render_doc.py <input> <out.docx> --title "Taylor Brooks's Agent Attraction Brain Book" --subtitle "Taylor Brooks · Austin, TX" --eyebrow "Agent Attraction Brain · Demo"`
 - `docs/demo/taylor-brooks/attraction-brain/exports/measure_book.py` — the measurement/gate script: `python3 measure_book.py <book.docx> book`
+
+## 8. Renderer v2 re-render (2026-10-09)
+
+The shared renderer was upgraded after the user reviewed the demo Book (real `Title` / `Heading 1` / `Heading 2` styles, 11pt body, 20pt chapter and 24pt part titles, running header + `Page X of Y` footer from page 2, "In this part" linked lists on every part opener, tinted repeating table headers with zebra rows and horizontal hairlines, accent-bar callouts, keep-with-next + widow control, optional accent colour, sub-band cap 80 with a warning). The three demo files were re-rendered from the unchanged inputs as `… — v2.docx` with accent `1F3A5F`; text content is identical to v1 apart from the four part lists (+520 words, the 18 contents summaries repeated once).
+
+| Measure | v1 (2026-10-08) | v2 (2026-10-09) |
+|---|---|---|
+| Paragraph styles | all `Normal` (385) | `Title` 1 · `Heading 1` 23 · `Heading 2` 33 · `Normal` 372 |
+| Tables with a repeating header row | 0 of 26 | 26 of 26 |
+| Rows that cannot split across pages | 0 | 165 |
+| keep-with-next / widow control | 0 / 0 | 114 / 377 |
+| Internal links (contents + part lists) | 22 | 40 |
+| Header / footer | footer, PAGE only, every page | first page blank · title header · subtitle + eyebrow and `Page X of Y` footer |
+| Part-opener words | 77 / 69 / 71 / 70 | 227 / 162 / 187 / 231 |
+| Pages (layout model, ±15%) | ≈43 | ≈48 (Week-1 run ≈35) |
+
+Still not proven on this machine: real pagination (no Word or LibreOffice installed; Pages hung on launch) — the v2 files were validated by reopening with python-docx, a schema-order check of every hand-built element, and the measurement script. The "cosmetic" note in §5 (near-empty part openers) is resolved by the part lists.

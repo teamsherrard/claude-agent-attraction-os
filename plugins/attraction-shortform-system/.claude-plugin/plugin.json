@@ -1,7 +1,7 @@
 {
   "name": "attraction-shortform-system",
   "displayName": "Agent Attraction Short-Form System (Plugin 3)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PLUGIN 3 — the Short-Form Attraction Engine (Week 3). The daily Instagram engine that gets the member in front of agents and builds familiarity, trust and authority: the 5 content pillars (Authority · Perspective · Story · Proof · Personality), bios with a recruiter CTA, Reel scripts by content type, carousels, the daily story rotation, green-screen reactions to brokerage news, the 30-hook bank, the 30-day calendar and weekly routine, the escalating CTA ladder with the ManyChat keyword on every Reel, comment-to-DM hand-off to the conversation engine, optimizer, publishing through the member's own tool, batch publishing, and analytics on which Reels produced agent DMs. Reads the Agent Attraction Brain; requires Plugin 1.",
   "author": {"name": "Team Sherrard"},
   "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",

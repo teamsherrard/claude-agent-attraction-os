@@ -34,8 +34,14 @@ rebuild with the full content. Members pay a premium; the documents must feel li
 ## The look the renderer produces (match it if you ever build by hand)
 - **Arial** everywhere (never a serif). **Near-black (#111)** titles / headings / body — crisp, never grey; a
   legible **dark grey** only for the small byline + stamp.
-- Section headings: bold black + a thin light-grey underline. **Real** bullet lists. **Real** tables: near-black
-  header row (white text) + light alternating rows. **No colour, no member branding** — one standard for all.
+- Section headings are real Word heading styles (`Heading 1` / `Heading 2` in the house look: bold near-black,
+  a thin light-grey rule under section bands; body 11pt). **Real** bullet lists. **Real** tables: bold header row
+  on a light tint, white / off-white alternating rows, hairline horizontal rules only, header row repeated when a
+  table crosses a page. A running header + `Page X of Y` footer from page 2. **No member branding** — one
+  standard for all; the renderer's optional accent-colour flag (used by the Brain Book build) is NOT passed by any
+  YouTube skill, so YouTube documents stay near-black.
+- Keep every ALL-CAPS sub-band label ≤ 80 characters: a longer label is rendered as body text with literal dashes
+  and the renderer prints a WARNING — rewrite the label, never ship the warning.
 - The YouTube Game Plan carries `Powered by Mike Sherrard Coaching Inc Frameworks` (top byline + footer).
 - Demo documents (house rules #12) carry `— DEMO —` in the filename and the meta line *"Demo document —
   illustrative data, not researched."*

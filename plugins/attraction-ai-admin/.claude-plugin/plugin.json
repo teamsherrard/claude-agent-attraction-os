@@ -1,7 +1,7 @@
 {
   "name": "attraction-ai-admin",
   "displayName": "Agent Attraction AI Admin (Plugin 7)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PLUGIN 7 — the AI Admin for agent attraction (Week 5): the replace-your-VA layer that runs the organization side of the business. The morning brief (agent inquiries, calendar, follow-ups due, content due, one coaching note) that extends the Daily Agent Attraction Debrief; the prospect pipeline on the locked attraction stages with your CRM (GoHighLevel, Follow Up Boss, or Google Sheets) or the Brain as the source of truth; the Daily Follow-Up Queue with every touch drafted in your voice and nothing sent without your yes; the weekly scorecard and the Weekly Recruiting CEO Review (the bottleneck, the recommendation, next week's target); the Thursday Team Wins newsletter; VA task packs; and the Monthly KPI Review against your 30-60-90 plan. Reads the Agent Attraction Brain; requires Plugin 1.",
   "author": {"name": "Team Sherrard"},
   "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",

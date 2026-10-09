@@ -2,7 +2,20 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
-## [Unreleased]
+## [0.3.0] — 2026-10-09
+
+### Shared document renderer v2 (Brain, Admin, Conversion, Events, Lead Magnet, Short-Form, YouTube)
+- `render_doc.py` (byte-identical in all seven plugins; Riverside untouched): real Word styles in the house look (`Title`, `Heading 1`, `Heading 2` — the Word navigation pane and the Google Docs outline now work), a larger type scale (body 11pt at 1.2 line spacing, chapter titles 20pt, part titles 24pt, sub-bands 12.5pt, tables 10pt, cover 30pt), a running header + `Page X of Y` footer from page 2 (cover / title page carries neither), an "In this part" linked chapter list on every part opener, tables with a tinted bold header row that repeats across pages + alternating rows + horizontal hairlines only, callouts as indented accent-bar blocks, keep-with-next on headings / kickers / a label directly above a table and widow control on body text, one optional accent colour (default near-black) used only for the title rule, part kickers, callout bar and table-header tint, and a sub-band cap of 80 characters that warns instead of silently rendering dashes. The structured-text grammar is unchanged — every existing input re-renders without edits.
+- `brain-book-spec.md` step 6 passes the member's primary brand colour from `brand-visual.md` as the accent (omitted when none is recorded); the zero-warning rule now includes the sub-band warning. `doc-formatting.md` (Brain, Admin, Conversion, Events) and the YouTube `doc-format.md` describe the v2 look.
+- `docs/demo/`: the three demo documents re-rendered as v2 files; `measure_book.py` counts paragraph callouts and estimates pages on the v2 type scale; `BOOK-RENDER-TEST.md` §8 records the before/after.
+- Versions: attraction-ai-brain 0.2.0, attraction-ai-admin 0.2.0, maa-claude-support 0.1.1, attraction-conversion-sales 0.1.1, attraction-events-workshops 0.1.1, attraction-lead-magnet 0.1.1, attraction-shortform-system 0.1.1, attraction-youtube-system 0.1.1.
+
+### Book spec + calculator (2026-10-09)
+- `brain-book-spec.md`: the per-chapter minimums bind in demo mode exactly as in a real build, no bracket placeholders in a demo, the money chapter always carries the three scenarios. `attraction-rev-share-calculator`: when the member defers ("explain mine to me") it runs the three scenarios on the strictest generic default mechanics instead of stopping — the gap that left the demo Book's Chapter 11 thin.
+
+### Knowledge base moved to a private repo (2026-10-09)
+- The 103 lesson transcripts now live in teamsherrard/claude-agent-attraction-knowledge (private) and this repo is public so Cowork can add it as a marketplace without a GitHub connection; `README.md`, the master game plan, the build brief and the Support `source-map.md` point there.
+
 
 ### Scheduled agents: eleven → nine (user decision, 2026-10-08)
 - The Agent Movement Watcher is removed as a scheduled agent. Its research-only run is now the Prospect Radar's on-demand news scan (`attraction-prospect-radar` Job 3: "scan agent movement", "what's moving in my market", "refresh my prospect intel"), writing the same seven-column rows to `memory/intel.md` with a `News scan:` run line. No task, no consent card, no `Agent Movement Watcher task` key; the watcher task-prompt reference file is deleted.

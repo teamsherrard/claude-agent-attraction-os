@@ -1,7 +1,7 @@
 {
   "name": "attraction-ai-brain",
   "displayName": "Agent Attraction Brain (Plugin 1)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "One shared AI Brain for a real estate agent building an organization — who they are as a leader, who they attract (their 1–3 Agent Avatars), what they have to give, their 12-month and 90-day targets, their stories, voice, brand, and compliance rules — that every Agent Attraction system reads from and writes back to. Run Setup once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar with its on-demand news scan, the Brokerage Model Expert, the Rev Share Calculator, the Top-50 prospect ledger, and the on-the-go Capture layer. Brokerage-agnostic: eXp, REAL, LPT, Epique, any cloud brokerage, or a local team or brokerage.",
   "author": {
     "name": "Team Sherrard"

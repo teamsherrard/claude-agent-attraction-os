@@ -9,25 +9,25 @@
     {
       "name": "attraction-ai-brain",
       "source": "./plugins/attraction-ai-brain",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "PLUGIN 1 \u2014 install first. The Agent Attraction Brain: one shared brain (who you are as a leader, who you attract, what you have to give, your numbers, your voice, your brand, your rules) that every other Agent Attraction system reads. Run 'Set up my attraction brain' once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, and the on-the-go Capture layer."
     },
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "PLUGIN 2 \u2014 install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about\u2026\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
       "name": "attraction-shortform-system",
       "source": "./plugins/attraction-shortform-system",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "PLUGIN 3 \u2014 the Short-Form Attraction Engine (Week 3): the daily Instagram engine for attracting agents. Pillars, bios, Reel scripts, carousels, stories, hooks, the 30-day calendar and weekly routine, the comment-to-DM ladder with the ManyChat keyword, publishing, and analytics. Requires Plugin 1."
     },
     {
       "name": "attraction-youtube-system",
       "source": "./plugins/attraction-youtube-system",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "PLUGIN 5 \u2014 the Long-Form Authority Engine (Week 4): YouTube built to attract agents. Channel, 3-pillar game plan on the 8-video cycle, ideation, research, scripts, agent interviews, model breakdowns, thumbnail briefs, SEO, repurposing, leads, analytics, coaching, consistency, board. Requires Plugin 1."
     },
     {
@@ -39,25 +39,25 @@
     {
       "name": "attraction-conversion-sales",
       "source": "./plugins/attraction-conversion-sales",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "PLUGIN 6 \u2014 the Conversation & Conversion Engine (Week 5): Agent Intel, Conversation Starter, DM-to-call flow, call prep, the partner call and enrollment script, 3-way calls, the Objection Handling Coach (15 objections, role-play), the Conversation Coach (call audits), follow-up and re-engagement, plus Sales OPS (booking page, show-up, setter, call block, scorecard). Requires Plugin 1."
     },
     {
       "name": "attraction-lead-magnet",
       "source": "./plugins/attraction-lead-magnet",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "PLUGIN 8 \u2014 Lead Magnets & Opt-In Funnels pointed at agents (Week 6): the Honest Brokerage Comparison Guide first, then magnet ideas, writing, design brief, funnel, delivery, nurture, partnerships, GBP, profiles, analytics. Requires Plugin 1 and a Week 2 offer."
     },
     {
       "name": "attraction-ai-admin",
       "source": "./plugins/attraction-ai-admin",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "PLUGIN 7 \u2014 the AI Admin for agent attraction (Week 5): morning brief, the prospect pipeline on the locked stages with your CRM, the Daily Follow-Up Queue (drafted, never sent without you), the weekly scorecard and Weekly Recruiting CEO Review, the Team Wins newsletter, VA task packs, the Monthly KPI Review. Requires Plugin 1."
     },
     {
       "name": "attraction-events-workshops",
       "source": "./plugins/attraction-events-workshops",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "PLUGIN 9 \u2014 Events & Workshops that attract agents (Week 6): live, virtual, and evergreen formats as a launch system \u2014 strategy, run-of-show, registration copy, promo calendar (drafted, never sent), follow-up sequences into the pipeline, analytics. Requires Plugin 1 and a Week 2 offer."
     }
   ]

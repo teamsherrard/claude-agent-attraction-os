@@ -25,7 +25,8 @@ Two identities it must never lose:
 ## Non-negotiable invariants (carried forward — never weaken any)
 
 - **Build ONLY via `shared/render_doc.py`** per `shared/doc-formatting.md`. Use `--eyebrow "Agent Attraction
-  Brain"`, `--title`, `--subtitle "[Name] · [Market]"`. Never hand-write document XML. **If the renderer prints
+  Brain"`, `--title`, `--subtitle "[Name] · [Market]"`, and `--accent HEX` with the member's primary brand
+  colour when `identity/brand-visual.md` records one (pipeline step 6). Never hand-write document XML. **If the renderer prints
   `RENDERER-UNAVAILABLE`, do exactly what it says: install nothing, never run pip, never retry — save the
   structured text as a `.md` file, upload that to `01 · AI Brain`, and say in one line that the styled version
   needs the renderer.** That is the whole fallback chain.
@@ -204,10 +205,18 @@ In demo mode:
 4. **Read-back check** (Grounding Law 7). One fix pass; survivors flagged in the hand-off.
 5. **Pre-render grounding audit** (Grounding Law 6). Keep the tally for the hand-off.
 6. **Render** with `render_doc.py` to `.docx` — only an input that passed the step-3 structural pre-check.
-   **Renderer stderr must show ZERO unresolved-TOC warnings** — a
-   warning means a contents row and a chapter band don't match character-for-character: fix the structured
-   text, re-emit, re-render (at most twice — a copy-paste alignment fix, never a rebuild). `RENDERER-UNAVAILABLE`
-   → the `.md` fallback, once, no loop.
+   **Pass `--accent HEX` with the member's primary brand colour** when `identity/brand-visual.md` has one:
+   the Final kit `Colors:` line first (the primary / brand hex), else the Direction block's
+   `Primary / brand: #hex`; no hex recorded yet (a `[#hex]` placeholder, "none", or only a description like
+   "a lot of green") → omit the flag and the renderer's near-black default applies. Never pass the
+   brokerage's colours. The accent colours only the cover rule, the PART kickers, the `>> ` callout bar and
+   the table-header tint — everything else stays the neutral house standard — and the renderer falls back
+   to near-black for text by itself when the colour is too light to read on white.
+   **Renderer stderr must show ZERO warnings.** An unresolved-TOC warning means a contents row and a chapter
+   band don't match character-for-character: fix the structured text, re-emit, re-render (at most twice — a
+   copy-paste alignment fix, never a rebuild). A `sub-band label is N characters (cap 80)` warning means a
+   `──── Label ────` line is too long and has rendered as body text WITH its literal dashes: shorten the
+   label, re-render. `RENDERER-UNAVAILABLE` → the `.md` fallback, once, no loop.
 7. **Verify** against the hard gate (below). FAIL → rebuild the failing chapters from the full brain-file
    contents and re-verify. Never upload a failed render.
 8. **Upload to `01 · AI Brain`, push, hand over the direct link** — with the grounding-audit tally ("N facts
@@ -220,7 +229,9 @@ In demo mode:
 **Page 1 — the cover.** Eyebrow `Agent Attraction Brain` (`--eyebrow`). Title `[Name]'s Agent Attraction
 Brain Book` (`--title`; no 📕 on the cover — the emoji lives in the filename). Byline `--subtitle "[Name] ·
 [Market]"`, with the one credential line (brokerage · years · what they're building) as the meta line — its ONE
-appearance. Date `[Month D, YYYY]` on its own meta line — the same date as the filename's ISO stamp.
+appearance. Date `[Month D, YYYY]` on its own meta line — the same date as the filename's ISO stamp. Every
+page after the cover carries the title top-right and `[Name] · [Market] · AGENT ATTRACTION BRAIN` + `Page X
+of Y` in the footer — automatic, nothing to write.
 
 **Page 2 — CONTENTS.** Immediately after the title/meta lines, one `[[TOC]] … [[/TOC]]` block — the renderer
 builds a linked contents page and page-breaks around it. One row per chapter — all eighteen, in order — with
@@ -246,7 +257,10 @@ contents page — the swap test applies to every row. Row text left of `::` must
 
 **PART and CHAPTER bands.** `CHAPTER N — TITLE` and `PART I — WHO YOU ARE` / `PART II — WHO YOU ATTRACT` /
 `PART III — WHAT YOU OFFER` / `PART IV — HOW YOU WIN` — CAPS bands wrapped in divider rules, chapter numbers
-sequential 1–18 with no gaps. Sub-headings inside chapters stay sub-bands (`──── Label ────`).
+sequential 1–18 with no gaps. Sub-headings inside chapters stay sub-bands (`──── Label ────`, label ≤ 80
+characters). Each PART page closes with an automatic **"IN THIS PART"** linked list of its chapters (number ·
+title · the contents summary), built by the renderer from the contents rows — write the Part bridge as usual;
+the list is appended after it, so a Part page is never near-empty.
 
 **`>> ` callouts.** Each chapter surfaces its **1–2 key insights** this way (placeholder chapters exempt): the
 most decision-relevant, member-specific line — a sourced fact plus what it means for them, or their own

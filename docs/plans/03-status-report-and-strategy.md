@@ -1,6 +1,6 @@
 # Agent Attraction OS — Overnight Build Report and Strategic Game Plan
 
-*Written for Riya and Mike · 2026-10-09 · repo `claude-agent-attraction-os` · status at the end of the overnight run, updated after the "keep working" session (v0.2.0) and the second quality round (v0.2.1)*
+*Written for Riya and Mike · 2026-10-09 · repo `claude-agent-attraction-os` · status at the end of the overnight run, updated after the "keep working" session (v0.2.0) and the second quality round (v0.2.1), and the v0.3.0 release (renderer v2)*
 
 > Sections 1–3 are the status (what is built, verified, and left). Sections 4–8 are the strategic advice you asked for:
 > what to add, remove, optimize, fix, and what nobody is thinking about yet.
@@ -8,7 +8,7 @@
 
 ## 1. What is built
 
-Repo `claude-agent-attraction-os`, tag `v0.2.1`, release gate green, upload zips in `dist/` and `design-studio/_dist/`. The realtor repo was read only; nothing in it changed.
+Repo `claude-agent-attraction-os` (public), tag `v0.3.0`, release gate green, upload zips in `dist/` and `design-studio/_dist/`. The realtor repo was read only; nothing in it changed.
 
 | # | Plugin | Skills | Shared files | Built from | State |
 |---|---|---|---|---|---|
@@ -41,6 +41,13 @@ Totals: 143 Cowork skills across 9 plugins (115 new or rewritten, 28 vendored) p
 - **Cross-plugin after the renames:** 3,460 hand-off references resolve to 157 skills; the Brain template holds every file the plugins read (two realtor-only reads inside the vendored Studio excepted); eleven scheduled agents reconciled in every doc; the Support stack map current; gate check 14 keeps it that way.
 - **Research ratings:** Short-Form ideas and green-screen REAL; YouTube research REAL, ideation REAL on sourcing, outliers and game plan PARTIAL (budgets real; dating of each line is the remaining gap).
 - **New decisions for Mike:** compensation figures in "Explained" videos (plugin bans them; lesson 96 says them); the DM ladder's pace vs "get them on a private call quickly"; the 2·2·1 mix; outside "guest expert" interviews.
+
+## 2c. v0.3.0 (2026-10-09) — public repo, nine scheduled agents, renderer v2
+
+- **Public.** The transcripts moved to the private repo `claude-agent-attraction-knowledge`; the OS repo's history was purged of them and made public so Cowork can add the marketplace without a GitHub connection.
+- **Scheduled agents: eleven → nine.** The Agent Movement Watcher and the Weekly Recruiting CEO Review are gone as timers; both remain on demand ("scan agent movement", "run my CEO review").
+- **Brain Book depth.** The demo Book's thin money chapter traced to two gaps — demo mode treating the chapter floors as targets, and the calculator stopping when the member says "explain mine to me" — both closed in `brain-book-spec.md` and the calculator.
+- **Renderer v2** (shared by seven plugins): real Word heading styles (navigation pane / Docs outline work), a larger type scale, running header + `Page X of Y` footer, "In this part" linked lists on part openers, tinted repeating table headers, accent-bar callouts, keep-with-next, and an optional brand-accent colour the Brain Book build passes from `brand-visual.md`. Full before/after in `docs/plans/BOOK-RENDER-TEST.md` §8; the re-rendered demo files sit beside the originals in `docs/demo/`.
 
 ## 3. What is left
 
