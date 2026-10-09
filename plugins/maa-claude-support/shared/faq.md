@@ -58,7 +58,7 @@ Fine to allow:
 - Reading your calendar / inbox / drive through YOUR connectors
 - Creating docs in the Agent Attraction OS workspace folders our skills use
 - The action a skill just told you it's doing
-- Creating a scheduled task you just said yes to (your Daily Debrief, the Agent Movement Watcher)
+- Creating a scheduled task you just said yes to (your Daily Debrief, your Friday performance note)
 
 STOP and ask me first:
 - Anything DELETING or overwriting files it didn't create
@@ -552,14 +552,15 @@ Mike's framing — then hand you the lesson title and the Loom link to rewatch.
 
 Next step: try "what did Mike say about 3-way calls."
 
-**Q46. My Daily Debrief (or the Agent Movement Watcher) never ran.**
+**Q46. My Daily Debrief (or another scheduled agent) never ran.**
 Scheduled agents only exist if you said yes when their owner skill offered them — and they only
 ever DRAFT.
 
-- The Debrief is offered at the end of Brain setup; the Watcher when you run Prospect Radar
-  (Week 2); the content report in Week 3; the follow-up queue and call prep in Week 5
-- Said no, or setup ended early? Say "turn on my daily debrief" (or "run my prospect radar") and
-  it offers again — I never create one for you
+- The Debrief is offered at the end of Brain setup; the content report in Week 3; the follow-up
+  queue and call prep in Week 5. Two things are on demand, never scheduled: the Prospect Radar's
+  news scan ("scan agent movement") and the CEO review ("run my CEO review") — just say the phrase
+- Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase)
+  and it offers again — I never create one for you
 - Said yes but nothing shows? Open Cowork's scheduled-tasks panel and screenshot it for me
 - Ran but "nothing happened"? It writes tomorrow's three moves to your Brain — check
   `memory/debriefs.md`; it never emails or posts anything

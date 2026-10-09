@@ -38,8 +38,7 @@ once by `attraction-import`, never written, never confused with this one.
 `Schema: aa-1.0` · `Storage provider` · `Storage` (`ok` · `READ-ONLY (org-gated)` — written by `attraction-brain-sync`
 when a provider's write actions are admin-disabled; a separate key from `Storage provider`) · `Workspace name` ·
 `Workspace ID` · `Workspace link` · `Timezone` (lives only here) · `CRM` · `Setup progress` · `Debrief time` ·
-`Daily Debrief task` (task id or `declined`) ·
-`Agent Movement Watcher task` (task id · declined · later) · `Workspace shared with` · `Realtor Brain bridge` (none / declined /
+`Daily Debrief task` (task id or `declined`) · `Workspace shared with` · `Realtor Brain bridge` (none / declined /
 pulled YYYY-MM-DD) · `Demo brain` (yes/no) · `Cohort week` (optional). Supporting fields (Locale, Owner account, Plugin version, Brain home,
 Last synced) sit under their own heading and are not registry keys. The template, `attraction-brain-setup`,
 `attraction-brain-sync`, and `attraction-brain-migrate` always agree on these names.
@@ -49,8 +48,8 @@ register here" and the Brain never writes it): `Weekly Content Performance task`
 fills it; `yt-analytics` reads it there, never on `publishing.md`) · `Call Block Prep task` · `Cold-Lead
 Reactivation task` (Conversion & Sales block — `cv-call-prep`, `cv-reactivation`; with `Booking page` · `Partner
 call length` · `Setter`) · `AI Admin` (the stamp `AI Admin: set up [date]`, the first line of the `## AI Admin`
-block) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Weekly CEO Review task` · `Monthly KPI Review
-task` · `Team Wins Newsletter task` (AI Admin block) · `Installed` · `Plugin version` · `Member code` · `Registration
+block) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Monthly KPI Review task` · `Team Wins Newsletter
+task` (AI Admin block) · `Installed` · `Plugin version` · `Member code` · `Registration
 host` · `Post-Event Follow-Up task` (the `## Events (Week 6)` block — `ev-navigator` creates it; the task id is
 `ev-post-event-follow-up`) · `Support desk` (MAA Support block — `attraction`).
 **Admin detection, OS-wide:** the Admin is installed when `config.md` holds a block whose heading starts with
@@ -79,12 +78,12 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | File | Owner skill | Also writes (designated section / append only) |
 |---|---|---|
 | `brain.md` | `attraction-brain-setup` (index, quick-ref) | `attraction-brain-health` refreshes quick-ref fields |
-| `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (registry keys) | `attraction-brain-sync` → `Storage`; `attraction-debrief` → `Daily Debrief task`, `Debrief time`; `attraction-prospect-radar` → the Watcher task; `attraction-brain-migrate` → `Schema`; `attraction-import` → `Realtor Brain bridge`; `attraction-operations` → `CRM`; later plugins their own block, never another's |
+| `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (registry keys) | `attraction-brain-sync` → `Storage`; `attraction-debrief` → `Daily Debrief task`, `Debrief time`; `attraction-brain-migrate` → `Schema`; `attraction-import` → `Realtor Brain bridge`; `attraction-operations` → `CRM`; later plugins their own block, never another's |
 | `identity/profile.md` | `attraction-brand-persona` | `attraction-import` (bridged fields, marked) |
 | `identity/journey.md` | `attraction-brand-persona` (everything above the `## Why join me` block) | `attraction-why-join-me` owns the `## Why join me` block at the END of the file (60-second, long, one-breath); brand-persona preserves it byte-for-byte |
 | `identity/strategy.md` | setup seeds → `attraction-brand-persona` (update path) | — |
 | `identity/avatars.md` | `attraction-persona-map` | — |
-| `identity/prospect-intel.md` | `attraction-prospect-radar` | the Brain Book's research pass runs this skill's mandate; the Watcher appends |
+| `identity/prospect-intel.md` | `attraction-prospect-radar` | the Brain Book's research pass runs this skill's mandate; its news scan (on demand) writes `memory/intel.md`, not this file |
 | `identity/positioning.md` | setup seeds the one line → `attraction-model-positioning` | — (why-join-me lives in journey.md) |
 | `identity/offer.md` | setup seeds it (`Status: seeds`) → `attraction-offer` owns every section EXCEPT `## Value stack` and `## Digital product` | `attraction-free-vs-paid` owns `## Value stack` and `## Digital product`; `attraction-capture` appends under "Notes for Week 2". Section-level ownership, stated once: Status · What worked · The three layers · The five pains · The Partner Offer = `attraction-offer`; Notes for Week 2 = capture; Value stack · Digital product = `attraction-free-vs-paid`. Other plugins read the live lead magnet from `memory/magnets.md → ## Current magnet` FIRST and this file second |
 | `identity/brokerage-model.md` | `attraction-brokerage-model` | — |
@@ -114,7 +113,7 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | `memory/capture-log.md` | `attraction-capture` (fallback) | the Debrief and the Admin surface Open rows; capture closes them |
 | `memory/content-log.md` | **YouTube · Short-Form · AI Editor · Events** — each its own rows, one row per piece (a batch logs one row per pillar it covers) | the Brain only reads; `attraction-capture` never writes here; the Format enum is `long-form · reel · story · carousel · interview · live · email · blog` (Events rows: Platform = where it lives — `Zoom` / `In person` for the event itself; Format `live` for the event; Pillar `Proof` for a recap post; Topic begins `[event] [code] —`; the full convention is the template's conventions comment) |
 | `memory/ideas.md` | `attraction-capture` | content plugins stamp Status `used` (`yt-make-video`, `sf-*`, `lm-*` — the status column only); designated appenders in the row shape: `yt-repurpose` (conversation-starter rows, Tag `general`, while the Conversion plugin is absent), `sf-ideas` (ruled in); `attraction-import` appends the `## Past content (imported)` section only |
-| `memory/intel.md` | `attraction-prospect-radar` (the Agent Movement Watcher) | `attraction-capture` appends what the member heard, same shape (a Conversion skill hands triggers to capture); `sf-greenscreen` and a YouTube script stamp ONLY the `Used?` column of a row they used |
+| `memory/intel.md` | `attraction-prospect-radar` (its news scan, on demand — "scan agent movement") | `attraction-capture` appends what the member heard, same shape (a Conversion skill hands triggers to capture); `sf-greenscreen` and a YouTube script stamp ONLY the `Used?` column of a row they used |
 | `memory/intel-reports/` | **Conversion & Sales plugin (Week 5)** — `cv-agent-intel` (`YYYY-MM-DD-[agent-slug].md`), `cv-follow-up` (`…-follow-up.md` plan files), `cv-reactivation` (`YYYY-MM-DD-reactivation.md`); newest wins | the Brain and the Admin only read |
 | `memory/interview-pipeline.md` | **`yt-interview` (Week 4)** — the Brain never writes it | `yt-gameplan` seeds Candidate rows; `yt-setup` creates it if a Brain predates it; `yt-make-video` → `Published` |
 | `memory/content-performance.md` | **`sf-analytics` (Week 3)** — the Friday ledger, dated blocks, newest last — the Brain never writes it | `yt-analytics` appends its YouTube section from Week 4; the content skills read the newest block |
@@ -144,11 +143,12 @@ Before the Admin registers, the same writers write `pipeline.md` directly (same 
 - **Compliance status values:** unset · set · confirmed. **Offer status:** seeds (Week 2 builds the offer) · finalized by member · built in Week 2. **Goals status:** seeds · locked [date]. **Interview stages:** Candidate → Invited → Booked → Recorded → Edited → Published · Declined · Parked. **Magnet status:** planned · written · designed · live · retired. **Queue status:** queued · drafted · sent by member · skipped · parked.
 
 ## Scheduled agents this plugin owns
-Daily Agent Attraction Debrief (`attraction-debrief`, daily at `Debrief time`) · Agent Movement Watcher
-(`attraction-prospect-radar`, weekly, Week 2). Provisioned only with the member's explicit yes; draft-only;
-task ids in `config.md`. The OS runs eleven in all — the nine others (Weekly Content Performance, Morning
-Brief, Daily Follow-Up Queue, Call Block Prep, Cold-Lead Reactivation, Weekly Recruiting CEO Review, Monthly
-KPI Review, Team Wins Newsletter, Post-Event Follow-Up) are listed with their owners in `docs/BRAIN-CONTRACT.md`.
+Daily Agent Attraction Debrief (`attraction-debrief`, daily at `Debrief time`) — the only one. Provisioned only
+with the member's explicit yes; draft-only; its task id in `config.md`. The Prospect Radar's news scan is NOT a
+scheduled agent: it runs on demand ("scan agent movement"), with no task and no config key. The OS runs nine in
+all — the eight others (Weekly Content Performance, Morning Brief, Daily Follow-Up Queue, Call Block Prep,
+Cold-Lead Reactivation, Monthly KPI Review, Team Wins Newsletter, Post-Event Follow-Up) are listed with their
+owners in `docs/BRAIN-CONTRACT.md`.
 
 ## Documents this plugin produces (per `shared/drive-map.md`)
 📕 [Name]'s Agent Attraction Brain Book · 🎯 [Name]'s 90-Day Attraction Scorecard → `01 · AI Brain` ·

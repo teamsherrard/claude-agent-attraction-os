@@ -3,7 +3,7 @@ name: maa-support-diagnose
 description: >
   The fix-it lane of MAA Claude Support. Takes any "it's broken" — a dead skill, a missing
   attraction brain (including "no Brain found" when the realtor Brain is ALSO installed), a
-  connector that won't read, a scheduled agent (Debrief, Agent Movement Watcher) that never ran, a
+  connector that won't read, a scheduled agent (Debrief, Friday performance note) that never ran, a
   Claude Design skill zip that won't upload, Riverside that can't see a recording, an error banner,
   slow Claude, output that doesn't sound like the member or refuses a number — and runs REAL checks
   (look, never touch) down proven decision trees until the cause is found, then routes the fix to

@@ -10,7 +10,7 @@ built one (and they also run Mike's realtor plugins) → #1b · "can't see my em
 → #2 · "typed it, nothing happened" → #3 · "Claude is slow/stuck/down" → #4 · "doesn't sound like
 me / output is off / it won't say the number" → #5 · "chat too long / disappeared" → #6 · "can't
 read my folder" → #7 · "I don't see Cowork" → #8 · "it says it sent it but nothing arrived" → #9A
-· "my debrief / watcher / scheduled agent never ran" → #10 · "my Claude Design skill won't upload /
+· "my debrief / scheduled agent never ran" → #10 · "my Claude Design skill won't upload /
 isn't in Design" → #11 · "Riverside won't connect / can't see my recording" → #12. **No tree
 fits?** Don't force one — fall back to the navigator's rule: T2 lookup via the source map's
 official indexes, and if confidence stays low, `maa-support-escalate`. Never bend a tree around a
@@ -223,16 +223,20 @@ almost always a PHRASE or a FOLDER mix-up, never data loss.
    the PUSH didn't (an unsynced write is a lost write) → `attraction-brain-sync` push from the
    machine that has it; recurring → escalate as a sync bug.
 
-## Tree #10 — "My scheduled agent never ran" (Debrief, Agent Movement Watcher, any owned agent)
+## Tree #10 — "My scheduled agent never ran" (Debrief, Weekly Content Performance, any owned agent)
 
 Every scheduled agent in this OS is created by its OWNER skill (`stack-map.md` table) only after
-the member says yes, and it's draft-only. "Never ran" has four causes, cheapest first:
+the member says yes, and it's draft-only. "Never ran" has four causes, cheapest first — but first
+rule out the two that were never scheduled: "my agent movement watcher never ran" → the Prospect
+Radar's news scan runs on demand, say "scan agent movement"; "my CEO review never ran" → say "run
+my CEO review". Neither has a task; that is by design, not a failure.
 
-1. **Was the yes ever given?** Ask one question: "When you set up [the Brain / Prospect Radar /
-   …], did it ask whether to switch on the [Daily Debrief / Watcher] — and did you say yes?"
-   Many members skipped it on purpose (fine) or setup ended before that stop (Stop 16 for the
-   Debrief). No yes → route the OWNER skill to provision it now (`attraction-debrief`,
-   `attraction-prospect-radar`, `sf-analytics`…). Support never creates a scheduled task itself.
+1. **Was the yes ever given?** Ask one question: "When you set up [the Brain / Short-Form / the
+   Admin…], did it ask whether to switch on the [Daily Debrief / Friday performance note / Morning
+   Brief] — and did you say yes?" Many members skipped it on purpose (fine) or setup ended before
+   that stop (Stop 16 for the Debrief). No yes → route the OWNER skill to provision it now
+   (`attraction-debrief`, `sf-analytics`, `admin-attraction-setup`…). Support never creates a
+   scheduled task itself.
 2. **Does the task EXIST?** Cowork's scheduled-tasks panel (screenshot if unsure; the member's
    panel is the truth, support can't list it for them). Yes was given but no task → the creation
    step failed silently → owner skill again, watch it confirm; fails twice → escalate.

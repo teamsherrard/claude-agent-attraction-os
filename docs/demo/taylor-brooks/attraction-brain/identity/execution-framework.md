@@ -8,7 +8,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 | Quarter | Focus | Joins target | Agents in org at end | Weekly controllables | What installs |
 |---|---|---|---|---|---|
 | Q1 · Oct–Dec 2026 | the routine becomes a habit; the first five partners from the open-house circuit | 5 | 7 | 8 conversations · 2 calls · 10 follow-ups · 3 reels + 1 long-form | the Brain + the Design Package (Wk 1) · Short-Form (Wk 3) · YouTube (Wk 4) · Conversion & AI Admin (Wk 5) · Lead Magnet (Wk 6) |
-| Q2 · Jan–Mar 2027 | the channel compounds; "The Sunday Table" weekly; the routine guide live | 5 | 12 | 8 conversations · 2 calls · 10 follow-ups · 3 + 1 | the digital product (the Value Vault) · the Watcher |
+| Q2 · Jan–Mar 2027 | the channel compounds; "The Sunday Table" weekly; the routine guide live | 5 | 12 | 8 conversations · 2 calls · 10 follow-ups · 3 + 1 | the digital product (the Value Vault) · the Prospect Radar's quarterly landscape refresh |
 | Q3 · Apr–Jun 2027 | proof content; first three-way calls with Jordan for team-leader conversations | 7 | 19 | 10 conversations · 3 calls · 12 follow-ups · 3 + 1 | the weekly CEO review runs in the AI Admin |
 | Q4 · Jul–Sep 2027 | retention and duplication: Priya runs a Tuesday table; the second group chat | 6 | 25 | 10 conversations · 3 calls · 12 follow-ups · 3 + 1 | the quarterly audit; the plan for year two |
 

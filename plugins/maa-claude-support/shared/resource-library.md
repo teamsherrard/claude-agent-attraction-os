@@ -29,7 +29,7 @@ someone else's system.
 | First time in Claude Design (the Design Studio lives here) | https://support.claude.com/en/articles/14604416-get-started-with-claude-design | "the official Design starter" |
 | Setting up the Agent Attraction Design System in Design | https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design | "the design-system article — your brand lives here" |
 | Uploading a skill zip (the `ds-*` skills) | https://support.claude.com/en/articles/12512180 | "the official skills article — skills are uploads, not plugins" |
-| Scheduled tasks (the Debrief, the Watcher) | https://support.claude.com/en/articles/13854387 | "the scheduled-tasks article" |
+| Scheduled tasks (the Debrief, the Friday performance note) | https://support.claude.com/en/articles/13854387 | "the scheduled-tasks article" |
 | Voice mode (objection practice, capture from the car) | https://support.claude.com/en/articles/11101966 | "the voice article" |
 | Plan/price decision | https://claude.com/pricing | "the live pricing page — always current" |
 | "Is Claude down?" | https://status.claude.com | "Claude's status page — bookmark this one" |

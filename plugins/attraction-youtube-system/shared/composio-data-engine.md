@@ -213,7 +213,7 @@ from the ledgers, never estimated (hard rule 5). The Coach (`yt-coach`) and batc
 they never call the connection.
 
 ### 6. Brokerage + industry news (Perspective content · the model lane · Part 3.3 of the dives)
-- **Read `memory/intel.md` first** — what the Agent Movement Watcher and the member already captured is the
+- **Read `memory/intel.md` first** — what the Prospect Radar's news scan (on demand) and the member already captured is the
   primary feed; the engine fills the gap for the window.
 - `COMPOSIO_SEARCH_NEWS` (`gl` country, `when` window) on the member's brokerage name · the brokerage types in
   `identity/prospect-intel.md` · "real estate brokerage" + (commission · agent count · acquisition · merger ·
@@ -224,7 +224,7 @@ they never call the connection.
 - `COMPOSIO_SEARCH_WEB` as the fallback when news is thin (its `citations[]` list is the reliable part).
 - **Where it lands:** a green-screen or Perspective hook (`sf-greenscreen`, `sf-ideas`), a model-lane title,
   or a conversation opener for a Top-50 name it touches. It feeds `memory/intel.md` through
-  `attraction-capture` (offer each item as a one-line capture in the Watcher's row shape: Date · Item · Who it
+  `attraction-capture` (offer each item as a one-line capture in the intel ledger's row shape: Date · Item · Who it
   affects · Source · as-of · Verified? · Use); the content engines never write that file themselves
   (`sf-greenscreen` stamps `Used?` only). Facts with sources; never a negative characterization of a
   brokerage or a person; a news item is a trigger for a take, never ammunition.

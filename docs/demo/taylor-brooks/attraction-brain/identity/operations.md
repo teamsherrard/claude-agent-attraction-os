@@ -34,4 +34,4 @@ Real Broker · Austin, TX · TX license #0712345 (illustrative — demo)
 https://book.taylorbrooks.demo/call (illustrative — demo)
 ```
 
-**Scheduled-agent preferences:** Debrief at 6:00 pm (declined on this demo brain — no task created) · Watcher: later (Week 2) · workspace shared with nobody — mirrors config.md
+**Scheduled-agent preferences:** Debrief at 6:00 pm (declined on this demo brain — no task created) · workspace shared with nobody — mirrors config.md

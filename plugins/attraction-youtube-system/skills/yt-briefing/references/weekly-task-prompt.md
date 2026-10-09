@@ -26,7 +26,7 @@ on it; note it in the closing message and continue.
 2. **Read** `brain.md`, `memory/content-log.md` (what shipped, what is scripted), `memory/interview-pipeline.md`
    (who is booked, who is overdue), `identity/compliance.md` (the first line, `Status:`, only), and the Game Plan
    doc (the next titles). Then, only as each line is built: `identity/avatars.md` (this week's video's avatar and
-   pain), `identity/voice.md` (the invite line), `memory/intel.md` (the Agent Movement Watcher's dated industry
+   pain), `identity/voice.md` (the invite line), `memory/intel.md` (the Prospect Radar's news scan's dated industry
    items — content triggers, never ammunition), `identity/content-pillars.md` and `memory/ideas.md` (the
    short-form themes — the member's own ideas tagged youtube or interview come first).
 

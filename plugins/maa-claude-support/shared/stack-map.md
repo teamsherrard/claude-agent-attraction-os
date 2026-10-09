@@ -73,7 +73,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "My visual brand / brand direction / the Design Package brief" | `attraction-brand-direction` | 1 |
 | "My 60-second why-join-me story" | `attraction-why-join-me` | 1 |
 | "Pick my niche / build my agent avatars / who should I attract" | `attraction-persona-map` | 1 |
-| "Who's moving in my market / agent movement / where do agents gather" · the Agent Movement Watcher | `attraction-prospect-radar` | 1 |
+| "Who's moving in my market / agent movement / where do agents gather" · "scan agent movement" (the news scan, on demand) | `attraction-prospect-radar` | 1 |
 | "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
 | "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
 | "How do I position my brokerage without pitching / the 2-minute model script" | `attraction-model-positioning` | 1 |
@@ -135,18 +135,19 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Agent | Cadence | Owner skill | Week |
 |---|---|---|---|
 | Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
-| Agent Movement Watcher | weekly | `attraction-prospect-radar` (Brain) | 2 |
 | Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
 | Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`) — it extends the Debrief, never a second debrief | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
-| Weekly Recruiting CEO Review | weekly | `admin-recruiting-scorecard` (CEO mode) | 6 |
 | Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
-Eleven in all (`docs/BRAIN-CONTRACT.md`). (Heidi's Wednesday Circle post is a Team-Mike scheduled task, not a member agent.)
+Nine in all (`docs/BRAIN-CONTRACT.md`). Two things members may EXPECT to be scheduled are not, on purpose: the
+Prospect Radar's news scan (`attraction-prospect-radar` — "scan agent movement") and the Weekly Recruiting CEO
+Review (`admin-recruiting-scorecard` CEO mode — "run my CEO review") run on demand, with no task, no consent card,
+and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task, not a member agent.)
 
 ## Per-plugin notes: dependencies & known failure modes
 
@@ -225,7 +226,7 @@ Eleven in all (`docs/BRAIN-CONTRACT.md`). (Heidi's Wednesday Circle post is a Te
 | "Nothing happened when I typed it" | Plugin not installed (or not shipped yet this week), or phrasing missed the trigger | Diagnostics tree #3 |
 | A skill refuses to make anything public | Compliance is UNSET (3-state gate) | `attraction-compliance`; never "just proceed" |
 | A skill refuses to state an income / rev-share number | No-earnings-claims rule; every number is illustrative and labelled | Working as designed; `attraction-rev-share-calculator` for scenarios |
-| My debrief / watcher never ran | Consent never given, or the Cowork task was never created | Diagnostics tree #10 |
+| My debrief / scheduled agent never ran | Consent never given, or the Cowork task was never created (the news scan and the CEO review are on demand, never scheduled) | Diagnostics tree #10 |
 | A Claude Design zip won't upload | Description > 1024 chars or a nested zip | Diagnostics tree #11 |
 | Docs come out unstyled/ugly | Deliverables render via the shared styled-doc pipeline | Log as bug via `maa-support-escalate` |
 | A skill wants a tool the member skipped (ManyChat, Metricool, Notion…) | Bring-your-own tools are optional by design | Offer the setup path, or the manual path |

@@ -70,7 +70,7 @@ who also sells homes, in its own Brain (`~/realtor-brain/`), which this plugin n
 |---|---|---|
 | `memory/pipeline.md` | **`admin-pipeline`** — the source of stage OS-wide | the Board row (one per agent, newest move on top), a Stage-moves-log row for every move (`Logged by: admin-pipeline` · or `admin-pipeline ← cv-debrief 2026-12-09` when applying a request), the Counts line refreshed on every write. Locked vocabulary; never a new stage; `attraction-top-50` mirrors stage from here on its runs |
 | `memory/follow-up-queue.md` | **`admin-follow-up-queue`** | the Queue and Confirmations tables are rebuilt each run; the Log is append-only. New to the Brain: created from the shape below on first run (`memory/**/*.md` is inside the sync allowlist) |
-| `memory/scorecard.md` → **Weekly rows only** | **`admin-recruiting-scorecard`** (weekly mode, CEO mode, the Weekly Recruiting CEO Review task) | the locked header, byte-identical in the Brain template and `attraction-goals`: `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |` — always read the file's `## Weekly rows` header and write exactly its columns, in that order. `Calls booked from the funnel` (`list-growth.md`, Week 6) is folded into Note as `funnel n`, beside show % and held→join % (from `sales-funnel.md` when it exists) — never a column. `sales-scorecard`'s `WEEKLY ROW:` line arrives in the same eleven columns and is reconciled, never appended twice. Never the Targets block (`attraction-goals`), never the daily rows (`attraction-debrief`); rows are never edited, never a column added or renamed here |
+| `memory/scorecard.md` → **Weekly rows only** | **`admin-recruiting-scorecard`** (weekly mode and CEO mode — the Weekly Recruiting CEO Review, run on demand) | the locked header, byte-identical in the Brain template and `attraction-goals`: `| Week of | New prospects | Conversations | Meaningful conversations | Calls booked | Calls held | 3-ways | Joins | Content shipped | Score | Note |` — always read the file's `## Weekly rows` header and write exactly its columns, in that order. `Calls booked from the funnel` (`list-growth.md`, Week 6) is folded into Note as `funnel n`, beside show % and held→join % (from `sales-funnel.md` when it exists) — never a column. `sales-scorecard`'s `WEEKLY ROW:` line arrives in the same eleven columns and is reconciled, never appended twice. Never the Targets block (`attraction-goals`), never the daily rows (`attraction-debrief`); rows are never edited, never a column added or renamed here |
 | `memory/deadlines.md` | **`admin-*`** (the Brain's capture skill until the Admin was installed, same shape) | `admin-pipeline` writes call, 3-way, and onboarding-step rows; `admin-follow-up-queue` writes follow-up rows; any admin skill marks a row Done. Append-only: Done rows stay (the Admin reads open rows); nothing is moved to `exports/` — it is outside the sync allowlist and never a source |
 | `memory/organization.md` — **maintained by the Admin from Week 5** (`docs/BRAIN-CONTRACT.md`: Team & Retention was removed; `attraction-capture` still appends a join on the go) | `admin-pipeline` (the join row on a move to Joined, Status `active`; the Status cell afterwards only in the template's vocabulary — `active · quiet · at risk · left` — from the member's word; the pipeline stage Joined → Onboarded → Active lives on the Board, never in this cell) · `admin-newsletter` (the `Recognition given` cell and a dated `Team Wins:` line under Retention notes, so no win is celebrated twice or forgotten) · `admin-monthly-review` (a dated Retention-notes line when the review names an agent quiet or at risk) | the row shape is the template's; the roster count line is refreshed on every change; rows are never deleted; production numbers are only what the member or the back office states |
 | `config.md` → the `## AI Admin (Week 5)` block | `admin-attraction-setup` creates it; each scheduled-agent owner writes its own task line | the keys below; nothing else in `config.md`, ever; the Brain never edits this block |
@@ -135,7 +135,7 @@ stage move gets one log row with
 the source (`Logged by: admin-pipeline ← cv-debrief 2026-12-09`); a next move changes the Board cells only
 (no stage-log row). ONE line to the member: *"Applied 2 moves you logged yesterday: Sarah → Call booked,
 James → Parked; Priya's next move set for the 14th."* "Undo" writes a reverse row; history is never
-edited. A **scheduled run** (any of the five tasks) never writes `pipeline.md`; it lists them under STAGE
+edited. A **scheduled run** (any of the four tasks) never writes `pipeline.md`; it lists them under STAGE
 MOVES WAITING with "say 'apply those'". A request naming a stage outside the vocabulary, an agent on no
 ledger, two requests that disagree, or **any move backwards** (Call held → Conversation, Call booked →
 Conversation) is put to the member as one question ending "your turn", never guessed.
@@ -181,14 +181,14 @@ cosmetic). From that moment they stop writing the pipeline and the Top-50 touch 
 - **Assistant name:** [Your AI Admin | the name the member chose]
 - **Morning Brief task:** [task id | declined | later] · **Morning Brief time:** [default 7:00 am]
 - **Daily Follow-Up Queue task:** [task id | declined | later] · **Follow-Up Queue time:** [default 7:30 am]
-- **Weekly CEO Review task:** [task id | declined | later] · **CEO Review slot:** [default Fri 4:00 pm, or the execution framework's day]
 - **Monthly KPI Review task:** [task id | declined | later] · **KPI Review day:** [default the 1st, 8:00 am]
 - **Team Wins Newsletter task:** [task id | declined | later] · **Newsletter slot:** [Thursday, default 9:00 am]
 - **CRM mirror:** [not connected | GoHighLevel · via the member's connector | Follow Up Boss · via Composio | Google Sheets · "[sheet name]"]
 - **VA:** [none | name · role] (receives task packs; never the Brain's owner)
 ```
 Task ids, locked: `attraction-admin-morning-brief` · `attraction-admin-follow-up-queue` ·
-`attraction-admin-ceo-review` · `attraction-admin-monthly-review` · `attraction-admin-team-wins`.
+`attraction-admin-monthly-review` · `attraction-admin-team-wins`. The Weekly Recruiting CEO Review has no
+task and no key: it is `admin-recruiting-scorecard`'s CEO mode, run on demand.
 Timezone is never stored here; it lives in the registry (`Timezone`). `CRM` (the name) is the registry's
 key, written by `attraction-operations`; this block only records whether a mirror is connected.
 
@@ -209,16 +209,17 @@ key, written by `attraction-operations`; this block only records whether a mirro
   ask) · calls booked → calls held (show-up) · calls held → joins (Mike's floor is 50%: below it, the model
   explanation, the value proposition, or objection handling is the fix) · joins → active (plug-in).
 
-## Scheduled agents this plugin owns
+## Scheduled agents this plugin owns (four)
 Morning Brief (`admin-daily`; daily at Morning Brief time; EXTENDS the Daily Agent Attraction Debrief, never a
-second debrief) · Daily Follow-Up Queue (`admin-follow-up-queue`; daily) · Weekly Recruiting CEO Review
-(`admin-recruiting-scorecard` CEO mode; weekly) · Monthly KPI Review (`admin-monthly-review`; monthly) · Team Wins
-Newsletter (`admin-newsletter`; Thursday). Every one: explicit yes, draft-only, adopt an existing task rather
-than create a twin, verify after creating, task id in the AI Admin block, never claim a schedule that did not
-save; "not yet" → `declined`, never re-offered, still runs on demand. The Morning Brief is the OS's eleventh
-scheduled agent (owner `admin-daily`; the SEAM-LOG adds it to the master plan's table and `docs/BRAIN-CONTRACT.md`):
-the Debrief's morning extension, provisioned by `admin-attraction-setup` only after the member has seen what the Debrief
-already does.
+second debrief) · Daily Follow-Up Queue (`admin-follow-up-queue`; daily) · Monthly KPI Review
+(`admin-monthly-review`; monthly) · Team Wins Newsletter (`admin-newsletter`; Thursday). Every one: explicit
+yes, draft-only, adopt an existing task rather than create a twin, verify after creating, task id in the AI
+Admin block, never claim a schedule that did not save; "not yet" → `declined`, never re-offered, still runs on
+demand. The Weekly Recruiting CEO Review is NOT one of them: it is `admin-recruiting-scorecard`'s CEO mode, run
+when the member asks ("run my CEO review"), never provisioned. The Morning Brief is one of the OS's nine
+scheduled agents (owner `admin-daily`; listed in the master plan's table and `docs/BRAIN-CONTRACT.md`): the
+Debrief's morning extension, provisioned by `admin-attraction-setup` only after the member has seen what the
+Debrief already does.
 
 ## Hand-offs by skill name
 - **In:** `attraction-debrief` (stage moves requested; agent needs; tomorrow's three moves) · `cv-debrief` ·

@@ -46,7 +46,7 @@ Then only what the job needs:
   when it and the ledger disagree on a stage, the Admin's pipeline wins and the ledger is corrected to match
 - `memory/follow-up-queue.md` — the Log (touches the Admin drafted and the member sent), a second source for
   "last touch" once the Admin exists
-- `memory/intel.md` — watcher signals touching anyone on the list
+- `memory/intel.md` — news-scan signals (the Prospect Radar, on demand) touching anyone on the list
 - `config.md` — CRM name, storage provider, and **whether the AI Admin is installed**: a block whose heading
   starts with `## AI Admin` and whose first line is `AI Admin: set up [date]` (prefix match on the heading;
   the bold styling is cosmetic). That block switches this skill from recording moves to mirroring them (Mode D).
@@ -152,7 +152,7 @@ Read the ledger, `conversations.md`, and `intel.md`. Rank by:
 1. `Call booked` / `3-way` needing prep (first, always)
 2. `Conversation` stage with no touch in 14+ days (going quiet)
 3. `Identified` + `Ready now` from the radar + warm relationship + no touch in 7+ days
-4. anyone with a fresh watcher signal
+4. anyone with a fresh news-scan signal in `intel.md`
 Output five to ten rows and, for each, the one genuine thing to say or send — a question about something
 real, never a pitch, never compensation, never "have you ever considered [brokerage]?". Every step leads
 toward a private one-on-one conversation; the model is never explained by text.

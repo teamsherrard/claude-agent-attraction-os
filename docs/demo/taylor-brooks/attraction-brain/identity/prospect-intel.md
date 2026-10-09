@@ -2,7 +2,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Prospect Intelligence (researched)
 *identity · the local agent landscape: who is moving, why, where they gather · RESEARCHED, sourced, dated · never invented*
-*Owner: `attraction-prospect-radar` (Week 2; re-run quarterly; the Agent Movement Watcher appends weekly). The Brain Book's research pass runs this skill's mandate and writes here — same shape, same budget.*
+*Owner: `attraction-prospect-radar` (Week 2; re-run quarterly or on "refresh my prospect intel"; its news scan writes dated signals to `memory/intel.md` on demand). The Brain Book's research pass runs this skill's mandate and writes here — same shape, same budget.*
 *DEMO: nothing in this file was researched. Every row is illustrative — demo, carries NO source attribution, and names no real brokerage, team, sponsor, or person except the demo member's own brokerage. A real build replaces every row with a sourced, dated fact.*
 
 **Market researched:** Austin, TX (Travis and Williamson counties) + Texas recruiting scope · **Last full run:** 2026-10-02 (demo — no research performed) · **Searches spent:** 0 of ~30 (demo)

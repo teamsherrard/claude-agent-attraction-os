@@ -58,8 +58,8 @@ triggers on "set up my attraction brain", "build my agent attraction brain", "la
 ## 3. The skill roster (reconciled against the cohort doc, 2026-10-08)
 
 **Reconciliation with "The Agent Attraction Cohort" doc's 25-skill list:** that doc drops `content-engine` (the Short-Form plugin's
-`sf-setup` writes the pillars file into the Brain) and `trending-articles` (the Agent Movement Watcher scheduled agent, owned by
-`prospect-radar`, replaces it), and adds three skills split from the realtor offer and plan: `why-join-me` (the 60-second story
+`sf-setup` writes the pillars file into the Brain) and `trending-articles` (the Prospect Radar's on-demand news scan, owned by
+`prospect-radar`, replaces it — not a scheduled agent), and adds three skills split from the realtor offer and plan: `why-join-me` (the 60-second story
 and the long version), `free-vs-paid` (what you give away vs charge for; builds the value stack), and `execution-framework`
 (the 12-month plan with weekly KPIs; `attraction-goals` keeps the 30-60-90 interview and scorecard). Applying those changes to the
 table below gives **26 skills**: rows 21 and 24 are removed, and `why-join-me`, `free-vs-paid`, `execution-framework` are added to

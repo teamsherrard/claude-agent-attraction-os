@@ -33,7 +33,7 @@ gently, in one sentence, then keep using the plain version.
 | session / context window | "this chat" · "Claude's working memory for this chat" |
 | the sandbox was wiped | "Cowork starts each work session with a fresh desk — your Brain is safe in your own cloud drive" |
 | marker file / `_attraction-workspace.md` / schema aa-1.0 | "the little tag that tells your attraction brain which folder is home" |
-| scheduled task / cron | "your Daily Debrief (or Watcher) — the agent that runs on its own schedule" |
+| scheduled task / cron | "your Daily Debrief (or Friday performance note) — the agent that runs on its own schedule" |
 | skill zip / SKILL.md description limit | "the design skill file you upload into Claude Design" |
 | connector / OAuth / auth token | "the link between Claude and your Google account" |
 | re-authenticate | "sign in to Google again so Claude can reconnect" |

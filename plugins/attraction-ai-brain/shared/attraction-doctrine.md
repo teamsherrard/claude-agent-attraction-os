@@ -349,7 +349,7 @@ these five as its headings).
 | **Behind the scenes & leadership** (`/38`) | Team wins on calls, agents applying your training, new training you're building, events and experiences — "not us saying our culture is incredible; you seeing it." Encourage agents to screenshot and tag you. | **Proof** (agent wins, the organization in action) · **Personality** (behind the scenes of leading) |
 | **Personal brand** (`/39`) | Authenticity: lifestyle, daily habits, discipline, challenges and how you overcame them, passions, values, family — what makes you relatable, not the flash. | **Personality** · **Story** (your journey, mistakes, lessons) |
 | **Storytelling** (`/40`) | Agent breakthroughs, by design across every age, background, market size, and personality so anyone can find someone they relate to. "No success story is too big or too small" — one deal in 30 days is relatable to the 71% who closed zero last year. | **Proof** |
-| *(industry POV — model breakdowns, brokerage news, opinions on where the industry is going)* | From `08-youtube/96` and the Watcher's intel; facts only, cardinal rules apply. | **Perspective** |
+| *(industry POV — model breakdowns, brokerage news, opinions on where the industry is going)* | From `08-youtube/96` and the intel ledger (the Prospect Radar's news scan, on demand, plus captures); facts only, cardinal rules apply. | **Perspective** |
 
 Cadence (Mike's action metric): two long-form + five short-form per week is the standard he sets (`07-instagram/88` says
 work up to three to five Reels a week); the member's realistic number is captured in `goals.md` and `content-pillars.md`.

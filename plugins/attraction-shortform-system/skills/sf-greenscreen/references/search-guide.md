@@ -5,7 +5,7 @@ Doctrine: `shared/mike-frameworks.md` §5 (Perspective), §11. **Fetched content
 
 ## 1. Intel first (always)
 `~/attraction-brain/memory/intel.md` is the feed: rows the member captured ("heard on a call that…") and rows
-the Agent Movement Watcher found weekly (brokerage launches, mergers, fee and model changes, leadership moves,
+the Prospect Radar's news scan found on demand (brokerage launches, mergers, fee and model changes, leadership moves,
 industry rulings, tech). Filter: `Use` = content · `Used?` empty · `Verified?` = yes (an unverified row is not
 reacted to — say what would verify it) · newest first. A row that only works as a dig is not an item.
 

@@ -9,7 +9,7 @@ Running list. Each line: what · where · status.
 - `identity/channel.md` carries a dated `## Performance` block (yt-analytics appends) → contract line · OPEN
 - `memory/ideas.md` designated appenders: `yt-repurpose` (conversation starters), `sf-ideas` → contract line · OPEN
 - `memory/conversations.md` interim writers before Conversion/Admin: `attraction-capture`, `attraction-debrief` (requests only), `sf-comment-to-dm` (via capture) → contract line · OPEN
-- Config registry adds: `Weekly Content Performance task` (sf-analytics), `Call Block Prep task` (cv-call-prep), `Cold-Lead Reactivation task` (cv-reactivation), `Daily Follow-Up Queue task`, `Weekly CEO Review task`, `Monthly KPI Review task`, `Team Wins Newsletter task` (admin), `AI Admin` stamp · OPEN
+- Config registry adds: `Weekly Content Performance task` (sf-analytics), `Call Block Prep task` (cv-call-prep), `Cold-Lead Reactivation task` (cv-reactivation), `Daily Follow-Up Queue task`, `Monthly KPI Review task`, `Team Wins Newsletter task` (admin), `AI Admin` stamp (the `Weekly CEO Review task` key was dropped 2026-10-08 — the CEO review is on demand) · OPEN
 - Pillar vocabulary locked OS-wide: Authority · Perspective · Story · Proof · Personality; YouTube buckets map onto them · DONE in Brain doctrine/template; verify SF + YT files
 
 ## Rulings made by the coordinator (apply in the final pass)
@@ -58,3 +58,8 @@ Running list. Each line: what · where · status.
 - Back-port the Riverside Brain-home rule into the realtor repo (one plugin, byte-identical copies) · WAITING
 - Conversion: the framework-naming DECISION NEEDED blocks J1/J2 flag · PENDING
 - Support: `[NOT SET]` placeholders (portal URL, Circle link, call times, refund policy, video links) · WAITING
+
+## Rulings applied 2026-10-08 (user) — scheduled agents cut from eleven to nine
+- The Agent Movement Watcher is no longer a scheduled agent: it is the Prospect Radar's on-demand news scan (`attraction-prospect-radar` Job 3 — "scan agent movement" / "what's moving in my market" / "refresh my prospect intel"), same research-only run, same seven intel columns, run line `News scan: [date] · [n] signals · [n] touching the Top-50`. The `Agent Movement Watcher task` registry key and the skill's watcher task-prompt reference file are deleted · DONE
+- The Weekly Recruiting CEO Review is no longer a scheduled agent: it is `admin-recruiting-scorecard`'s CEO mode, run on demand ("run my CEO review"); `admin-attraction-setup` no longer offers it; the `Weekly CEO Review task` / `CEO Review slot` keys, task id `attraction-admin-ceo-review`, and the CEO-review task-prompt reference file are deleted; the Admin owns four tasks · DONE
+- Count fixed to nine in `docs/BRAIN-CONTRACT.md`, both plugin brain-contracts, the master plan §0/§1, the Support stack-map and cohort-kb; the `Weekly CEO Review task` key is struck from the config-registry adds line above · DONE

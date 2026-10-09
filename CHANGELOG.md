@@ -2,6 +2,13 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [Unreleased]
+
+### Scheduled agents: eleven → nine (user decision, 2026-10-08)
+- The Agent Movement Watcher is removed as a scheduled agent. Its research-only run is now the Prospect Radar's on-demand news scan (`attraction-prospect-radar` Job 3: "scan agent movement", "what's moving in my market", "refresh my prospect intel"), writing the same seven-column rows to `memory/intel.md` with a `News scan:` run line. No task, no consent card, no `Agent Movement Watcher task` key; the watcher task-prompt reference file is deleted.
+- The Weekly Recruiting CEO Review is removed as a scheduled agent. It stays as `admin-recruiting-scorecard`'s CEO mode, run on demand ("run my CEO review", "what happened in recruiting this week"); `admin-attraction-setup` no longer offers it. No task, no `Weekly CEO Review task` / `CEO Review slot` keys; the CEO-review task-prompt reference file is deleted. The Admin owns four scheduled agents.
+- Every contract, template, plan, Support, Short-Form, YouTube, Conversion, and demo-brain mention updated; the intel ledger's source is now "the Prospect Radar's news scan (on demand)".
+
 ## [0.2.0] — 2026-10-09
 
 ### attraction-events-workshops 0.1.0 — first build (new)

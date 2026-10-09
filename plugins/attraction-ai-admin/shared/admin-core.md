@@ -107,7 +107,7 @@ plainly ("she's at call booked"), never as file language.
 Nothing this plugin produces is sent, posted, published, booked, or moved without the member. Email lands as
 a **draft** in their own Drafts folder (both providers). DMs, texts, and voice-note scripts are handed over as
 text to copy. Calendar invites are never created here (the member's booking page and the Conversion plugin's
-Sales OPS skills handle booking). The five scheduled agents are the same: they read, draft, and leave a note;
+Sales OPS skills handle booking). The four scheduled agents are the same: they read, draft, and leave a note;
 **a scheduled run never moves a pipeline stage.** If the member asks you to automate the sending: *"I'll write
 it — you send it. That way every message is yours."*
 
@@ -191,9 +191,10 @@ connector is missing, say which one and point to Settings → Connectors.
   never debug connectors ad hoc then.
 - **Anything about a buyer, a seller, a listing, a showing, a vendor** → the Realtor AI Admin, or not this system.
 
-## Scheduled agents this plugin owns (five; each provisioned only on an explicit yes)
-Morning Brief (extends the Daily Debrief) · Daily Follow-Up Queue · Weekly Recruiting CEO Review · Monthly KPI
-Review · Team Wins Newsletter (Thursday). Each: one plain consent line before anything is created, adopt an
+## Scheduled agents this plugin owns (four; each provisioned only on an explicit yes)
+Morning Brief (extends the Daily Debrief) · Daily Follow-Up Queue · Monthly KPI Review · Team Wins Newsletter
+(Thursday). The Weekly Recruiting CEO Review is not one: it is `admin-recruiting-scorecard`'s CEO mode, run on
+demand, never put on a timer. Each agent: one plain consent line before anything is created, adopt an
 existing task rather than create a twin, verify after creating, write the task id to the `## AI Admin` block
 in `config.md`, push immediately. "Not yet" → `declined`, never re-offered (every one still runs on demand).
 A demo Brain never gets a task. Scheduled runs read, draft, and leave a note; they never send, post, or move

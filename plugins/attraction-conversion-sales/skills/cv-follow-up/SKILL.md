@@ -140,7 +140,7 @@ voice note. Later touches are one line each with their reason and date. Read eve
   change it any time with the Brain's `attraction-top-50` ("update [Name]'s next move"). Its durable carrier
   is the dated `Next step` on the conversation row below, or the dated touch in the plan file.
 - **A new trigger learned from the member** ("my brokerage just announced…") → hand it to `attraction-capture`
-  (it owns that write — the Watcher's `memory/intel.md`); never written from here.
+  (it owns that write — the Prospect Radar's `memory/intel.md`); never written from here.
 - **When the member says a touch went out:** append one `memory/conversations.md` row in the locked shape —
   Date · Agent · Type · Channel · "What they said" = their reply if there was one, else *(touch sent — [the
   reason])* · Objection = — · Pain · Next step = the next dated touch · `Stage after` = the current stage,

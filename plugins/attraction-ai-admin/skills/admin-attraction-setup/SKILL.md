@@ -88,8 +88,8 @@ claim a schedule that did not save. Then write `Morning Brief task: attraction-a
 daily [time]` and `Morning Brief time` to the block (Step 5) and push. On yes to the queue: run `admin-follow-up-queue`'s provisioning step
 (it owns that task and its prompt) — the yes given here is its consent; it does not ask again. "Not yet" → `declined` on that line, never re-offered, still on
 demand. A demo Brain never gets a task.
-The Week-6 trio in ONE line, no question: *"When you're ready: 'turn on my weekly CEO review' (Fridays),
-'turn on my monthly KPI review' (the 1st), 'turn on my Thursday wins newsletter'."*
+The Week-6 pair in ONE line, no question: *"When you're ready: 'turn on my monthly KPI review' (the 1st),
+'turn on my Thursday wins newsletter'. Your weekly CEO review runs whenever you ask — 'run my CEO review'."*
 
 ## Step 5 — Register the Admin in the Brain, then push
 Write the block under "Later plugins register here" in `config.md`, exactly per

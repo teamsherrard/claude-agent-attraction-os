@@ -27,7 +27,7 @@ model questions), §14 (comments and questions become videos) only if a lane nee
 Read `brain.md` (its Quick reference gives the known-for, the brokerage, and `Attracts in:` — the recruiting scope;
 open `identity/compliance.md`'s recruiting-scope field only if that line is blank), then only three more files now
 — the rest open at the lane that uses them: `identity/avatars.md` (the 1–3 types, their pains, their triggers,
-where they gather — types of places, never lists of people), `memory/intel.md` (what the Watcher and the member
+where they gather — types of places, never lists of people), `memory/intel.md` (what the Prospect Radar's news scan and the member
 already logged; **read it before searching — never re-research what is current there**), the Game Plan anchors
 in `identity/channel.md` (lanes, cycle position). Plus any comments or DMs the member pasted. Research is always
 scoped to this member's avatar, niche, model, and recruiting scope. **Demo mode:** no live research; illustrative,
@@ -47,8 +47,8 @@ reachable that way, so the member pastes the autocomplete suggestions they see, 
    named people). Capture
    the **exact phrasing** agents type — it becomes titles. Classify by bucket: Problem / Situation / Future /
    Model.
-2. **Brokerage and industry news** — `memory/intel.md` first (dated, sourced rows; the Agent Movement Watcher's
-   finds), then a budgeted web pass: the member's brokerage's own announcements, industry trades, regulator
+2. **Brokerage and industry news** — `memory/intel.md` first (dated, sourced rows; the Prospect Radar's news
+   scan's finds), then a budgeted web pass: the member's brokerage's own announcements, industry trades, regulator
    notices, dated. **Facts only; the cardinal rules apply to every line** — a brokerage's change is reported, never
    characterized; a person is never named negatively. Compensation changes are noted for the member's private
    knowledge (`brokerage-model.md` material), never as public-content angles with figures.

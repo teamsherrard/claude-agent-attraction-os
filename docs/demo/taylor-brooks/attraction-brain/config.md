@@ -14,7 +14,6 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - **Setup progress:** complete  *(resume reads this stamp — a stamped fact beats inference)*
 - **Debrief time:** 6:00 pm, America/Chicago
 - **Daily Debrief task:** declined  *(demo brains never get a scheduled task — "set up my daily debrief" switches it on for a real Brain)*
-- **Agent Movement Watcher task:** later  *(offered in Week 2 by `attraction-prospect-radar`; same consent rule)*
 - **Workspace shared with:** nobody
 - **Realtor Brain bridge:** none
 - **Demo brain:** yes  *(Taylor Brooks is a fictional demo member — `shared/brain-book-spec.md` DEMO BRAINS; this Brain never mixes with a real one)*

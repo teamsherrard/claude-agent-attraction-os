@@ -44,8 +44,8 @@ the same brain and rules apply.
 - **A connector** is a cable from the house to one of THEIR accounts (Google Calendar, Gmail,
   Drive, their CRM, Riverside, Metricool…). Their account, their login, their data — Claude is granted
   a supervised key.
-- **A scheduled agent** (the Daily Debrief, the Agent Movement Watcher, the Weekly Content
-  Performance…) is an appliance on a timer: it runs on its own schedule and leaves a DRAFT — it
+- **A scheduled agent** (the Daily Debrief, the Weekly Content Performance, the Daily Follow-Up
+  Queue…) is an appliance on a timer: it runs on its own schedule and leaves a DRAFT — it
   never sends, posts, or publishes. It only exists if the member said yes when its owner skill
   offered it.
 - **The Brain** (`~/attraction-brain/`) is the filing cabinet every room reads: who they are as a

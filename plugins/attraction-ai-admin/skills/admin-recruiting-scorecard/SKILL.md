@@ -4,13 +4,12 @@ description: >
   Weekly KPIs against targets for agent attraction, on the Brain's locked scorecard: new prospects,
   conversations, meaningful conversations, calls booked, calls held, 3-ways, joins — counted from your
   ledgers, never estimated; appends the weekly row (never restructures) and scores it Ahead, On pace, or
-  Behind. CEO mode is Mike's Weekly Recruiting CEO Review: what happened in recruiting and in your
-  organization this week (pipeline, content, joins, org changes), the bottleneck named from your ratios,
-  one recommendation, next week's target. Owns the Weekly Recruiting CEO Review scheduled agent,
-  provisioned only on your explicit yes, draft-only. Trigger on: "my recruiting scorecard", "score my
-  recruiting week", "attraction KPIs this week", "weekly recruiting CEO
-  review", "run my CEO review", "what happened in recruiting this week", "where's my recruiting
-  bottleneck", "turn on my weekly CEO review", "change my CEO review time".
+  Behind. CEO mode is Mike's Weekly Recruiting CEO Review, run whenever you ask: what happened in
+  recruiting and in your organization this week (pipeline, content, joins, org changes), the bottleneck
+  named from your ratios, one recommendation, next week's target. Nothing runs on a timer; nothing is
+  sent. Trigger on: "my recruiting scorecard", "score my recruiting week", "attraction KPIs this week",
+  "weekly recruiting CEO review", "run my CEO review", "what happened in recruiting this week", "where's
+  my recruiting bottleneck".
 ---
 
 **Apply `${CLAUDE_PLUGIN_ROOT}/shared/admin-core.md` FIRST, every session** — the Brain load, the provider
@@ -79,7 +78,7 @@ from → to) · GONE QUIET — up to three Conversation-stage agents with no tou
 ("in your queue tomorrow" · "say 'reactivate quiet agents'") · NEXT WEEK'S ONE THING — the single
 controllable to lift, from the ratios. Mondays via the Debrief's nudge or Fridays by habit; never a lecture.
 
-## CEO mode — the Weekly Recruiting CEO Review ("run my CEO review" · the scheduled agent) — ~25 lines
+## CEO mode — the Weekly Recruiting CEO Review ("run my CEO review" · "what happened in recruiting this week") — ~25 lines
 Open now (CEO mode only): `identity/execution-framework.md` if built (the weekly KPI card, the three
 non-negotiables, the review slot, the accountability name) · `memory/debriefs.md` (the week's entries: agent
 needs, moves done or not) · `memory/intel.md` (brokerage news this week).
@@ -114,23 +113,11 @@ Plain text, capitalised heads, the shape fixed:
 - One closing line. Sign with the assistant name from `config.md` (default "Your AI Admin").
 Never a grade, never anyone else's numbers, never guilt — when Behind, one line from the member's why.
 
-## The scheduled agent — Weekly Recruiting CEO Review (this skill owns it; explicit yes, never silent)
-1. **Consent, one plain line:** *"Want the CEO review every Friday at 4 pm — your week's numbers, the
-   bottleneck, one recommendation, next week's target, nothing sent anywhere? Yes, a different day or
-   time, or not yet?"* **Your turn.** The default slot comes from `execution-framework.md`'s CEO rhythm
-   when the member set one there (open it for this). Not yet → `Weekly CEO Review task: declined`, push,
-   never re-offer (it still runs on demand). A demo Brain never gets a task.
-2. A task id in the block → already on. `list_scheduled_tasks` — adopt `attraction-admin-ceo-review` if it
-   exists; never a twin.
-3. `create_scheduled_task` — `taskId: attraction-admin-ceo-review`, `cronExpression: 0 16 * * 5` with their
-   day and hour, in their local time from `config.md → Timezone` (no timezone math), the `prompt`
-   **verbatim** from `${CLAUDE_PLUGIN_ROOT}/skills/admin-recruiting-scorecard/references/ceo-review-task-prompt.md`.
-4. **Verify** (`list_scheduled_tasks`: present, enabled, a `nextRunAt`); not there → say so plainly.
-5. Write `Weekly CEO Review task: attraction-admin-ceo-review · runs [day time]` and `CEO Review slot` to
-   the `## AI Admin` block; push immediately. Confirm in one line. Change / turn off → update or delete on
-   the saved id, re-verify, update the line, push. Never a second task.
-The scheduled run appends the weekly row (this skill owns it) and nothing else; it never moves a stage,
-never sends; the review is its notification.
+## When it runs — on demand, the member's own ritual
+The CEO Review has no timer. The member runs it when they want the week read back — Fridays at the slot
+`execution-framework.md`'s CEO rhythm names, or Mondays for last week when the Morning Brief nudges — and
+it is the same review either way. Never offer to put it on a schedule; "turn on my CEO review" means run it
+now. It appends the weekly row (this skill owns it) and nothing else; it never moves a stage, never sends.
 
 ## Hand-offs by name
 `attraction-goals` (change a target; the quarterly refresh) · `sales-scorecard` (the funnel by source; its
@@ -141,7 +128,7 @@ render the review per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via
 → read back, upload to `01 · AI Brain/`; `RENDERER-UNAVAILABLE` → install nothing, upload the `.md`, say so.
 
 ## Demo mode
-Fictional member, every number "(illustrative — demo)", no task, nothing written to a real Brain.
+Fictional member, every number "(illustrative — demo)", nothing written to a real Brain.
 
 ## Quality bar
 Every number is counted, not estimated; every ratio names what it means and what fixes it (the so-what

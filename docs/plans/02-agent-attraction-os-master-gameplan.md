@@ -10,7 +10,7 @@ Thumbnail docs already in Downloads.*
 
 ---
 
-## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 11 scheduled agents)
+## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 9 scheduled agents)
 
 **Count, stated once:** the cohort doc says "12 plugins." Nine are real Cowork marketplace plugins (Team & Retention was removed by the user on 2026-10-08). The Design Studio is NOT a plugin: Claude Design cannot run plugins, it only accepts uploaded skill files. It ships as 15 upload-ready Claude Design skills plus the Agent Attraction Design System, packaged like the realtor design suite v2. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per the user (2026-10-08): it is not a plugin either, and it is parked for now. Sales copy can keep saying "12 systems"; the Setup Guide and Support stack map say "9 plugins + the Design Studio skills."
 
@@ -74,16 +74,19 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Agent | Cadence | Owner skill | Week |
 |---|---|---|---|
 | Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
-| Agent Movement Watcher | weekly | `attraction-prospect-radar` (Brain) | 2 |
 | Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
 | Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`); it extends the Debrief, never a second debrief | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
-| Weekly Recruiting CEO Review | weekly | `admin-recruiting-scorecard` (CEO mode) | 6 |
 | Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
+
+Nine in all. Two modes the cohort doc describes as weekly agents are on demand instead (user, 2026-10-08): the Prospect
+Radar's news scan (`attraction-prospect-radar` — "scan agent movement", writes `memory/intel.md`) and the Weekly Recruiting
+CEO Review (`admin-recruiting-scorecard` CEO mode — "run my CEO review"). Neither has a task, a consent card, a config key,
+or a task prompt file.
 
 **Compliance gate, OS-wide.** Every public-facing skill in every plugin reads `identity/compliance.md` (3-state) before output and
 appends: no income claims or rev-share earnings, non-disparagement of brokerages and people, brokerage name and license display, AI-likeness
@@ -158,7 +161,7 @@ Forks `realtor-shortform-system` (15 skills). The realtor plugin's shared doctri
 | `sf-board` | KEEP | shortform-board | same Notion board; status vocab locked OS-wide |
 | `sf-talkinghead` | ADJUST (folds `shortform-scripts` + `shortform-video-plan`) | | 30–60s Reel scripts in the four content types (value, leadership, personal brand, storytelling); the 30-day calendar lives here |
 | `sf-carousel` | ADJUST | shortform-carousel | "Why I Left My Brokerage" (story, never names the old brokerage), pain-point, myth-busting; hands design to `aa-carousel-design` |
-| `sf-greenscreen` | ADJUST | shortform-greenscreen | reaction scripts on brokerage news and model comparisons (fed by the Agent Movement Watcher); cardinal rules enforced |
+| `sf-greenscreen` | ADJUST | shortform-greenscreen | reaction scripts on brokerage news and model comparisons (fed by the Prospect Radar's news scan, on demand); cardinal rules enforced |
 | `sf-stories` | **NEW** | none | the 4-category daily story rotation (behind the scenes of leading · agent wins · personal · opportunity), the Story Prompt Deck, story-reply CTAs that hand to ManyChat |
 | `sf-ideas` | ADJUST (folds `shortform-search-research`) | | weekly ideas + the 30-hook bank for the niche; research is what agents search, not buyers |
 | `sf-weekly-routine` | **NEW** (absorbs the routine half of video-plan) | | 3–5 Reels a week, stories daily; 2 attraction, 2 authority, 1 story; batch days; the engagement routine |

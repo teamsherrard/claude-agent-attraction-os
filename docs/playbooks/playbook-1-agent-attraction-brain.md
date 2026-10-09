@@ -117,7 +117,7 @@ Everything after an agent says yes. Getting agents eventually becomes easy; keep
 
 Leaders create leaders. You don't tell your agents "go recruit"; you hand them the operating system you spent six weeks installing, and you move from producer to leader.
 
-**Week 6 builds (second half)** your future leaders identified, your Duplication Playbook, version one of your digital product with the Value Vault, the Daily Debrief and Weekly Recruiting CEO Review running, your next 90-day growth plan.
+**Week 6 builds (second half)** your future leaders identified, your Duplication Playbook, version one of your digital product with the Value Vault, the Daily Debrief running and your Weekly Recruiting CEO Review a Friday habit ("run my CEO review"), your next 90-day growth plan.
 
 ---
 

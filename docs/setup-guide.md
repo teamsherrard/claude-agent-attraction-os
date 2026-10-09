@@ -243,7 +243,7 @@ owns them and created only with your yes; every one is draft-only.
 | **1** | **Plugin 1 · Agent Attraction Brain** | `Set up my attraction brain` | Daily Agent Attraction Debrief |
 | 1 | **Plugin 2 · MAA Claude Support** | `MAA help` — and, once your Brain is built, `set up MAA support` (two minutes) | — |
 | 1 | **The Design Package** — three Claude Design skills, uploaded, not installed (section 5) | `design my attraction logo` → `build my brand style sheet` → `make my brand kit` | — |
-| **2** | **Nothing new.** Your Brain does Week 2: the offer, your model, your prospect list | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` | Agent Movement Watcher — `turn on the agent movement watcher` |
+| **2** | **Nothing new.** Your Brain does Week 2: the offer, your model, your prospect list | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
 | 2 | **Design Studio offer-asset skills** — the offer stack, the "Join My Team" one-pager and deck, the product mockup, carousels, the Partner Call booking page. Upload when they are released | `my offer stack` · `design my join my team one-pager` · `my product mockup` · `design my carousel` · `build my attraction funnel page` | — |
 | **3** | **Plugin 3 · Short-Form** | `set up my attraction short-form` | Weekly Content Performance (Fridays) — offered when you say `set up my Friday performance note` |
 | 3 | **Plugin 4 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace | `set up riverside`, then `edit my video` or `make me a reel` | — |
@@ -254,7 +254,7 @@ owns them and created only with your yes; every one is draft-only.
 | 5 | **Plugin 7 · AI Admin** | `set up my attraction admin` | Morning Brief (extends your Debrief) · Daily Follow-Up Queue |
 | **6** | **Plugin 8 · Lead Magnet** | `launch my lead magnet plugin` | — |
 | 6 | **Plugin 9 · Events & Workshops** | `plan my workshop` | Post-Event Follow-Up |
-| 6 | **The Value Vault** — the Design Studio's playbook, course, and ebook skills, plus the lead-magnet, recognition, and event graphics. Upload when released | `my agent playbook` · `my course for agents` · `my ebook for agents` · `design my comparison guide pdf` · `my win wall` · `my attraction event flyer` | from the AI Admin: Weekly Recruiting CEO Review · Monthly KPI Review · Team Wins Newsletter (Thursdays) |
+| 6 | **The Value Vault** — the Design Studio's playbook, course, and ebook skills, plus the lead-magnet, recognition, and event graphics. Upload when released | `my agent playbook` · `my course for agents` · `my ebook for agents` · `design my comparison guide pdf` · `my win wall` · `my attraction event flyer` | from the AI Admin: Monthly KPI Review · Team Wins Newsletter (Thursdays). Your Weekly Recruiting CEO Review runs whenever you say `run my CEO review` |
 
 Two rules of thumb: **Week 1 and Week 2 are never skipped** — every later system reads your Brain, your avatars,
 and your offer. And if a plugin isn't in the marketplace yet, it switches on in its week; until then your Brain and

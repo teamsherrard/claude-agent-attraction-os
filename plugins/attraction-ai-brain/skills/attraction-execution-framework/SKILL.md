@@ -120,7 +120,7 @@ scorecard and pipeline; before data exists, the constraint is always "activity" 
 | Rhythm | When | Runs it now (Week 1+) | Extends it later |
 |---|---|---|---|
 | Daily debrief | [debrief time] | `attraction-debrief` (the Daily Agent Attraction Debrief) | AI Admin's `admin-daily` (Week 5) |
-| Weekly CEO review | [Stop B day/time] | `attraction-goals` weekly check-in | AI Admin's `admin-recruiting-scorecard` CEO mode = the Weekly Recruiting CEO Review (Week 6) |
+| Weekly CEO review | [Stop B day/time] | `attraction-goals` weekly check-in | AI Admin's `admin-recruiting-scorecard` CEO mode = the Weekly Recruiting CEO Review (Week 6) — the member runs it at this slot ("run my CEO review"); it is their ritual, never a task |
 | Monthly KPI review | [Stop B date] | `attraction-goals` monthly audit | AI Admin's `admin-monthly-review` = the Monthly KPI Review (Week 6) |
 | Quarterly audit + refresh | end of quarter | `attraction-goals` quarterly refresh + this skill's refresh | the AI Admin's Monthly KPI Review rolls it up (Week 6) |
 

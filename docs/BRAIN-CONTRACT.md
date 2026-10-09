@@ -129,7 +129,7 @@ owns every section except `## Value stack` and `## Digital product` (`attraction
 Week 2" (capture appends); `attraction-rev-share-calculator` owns "The money, honestly" in `goals.md`;
 Setup Stop 12 writes `voice.md` first and `attraction-brand-persona`'s update path owns later edits;
 `attraction-voice-print` owns only `voice-print.md`; `attraction-prospect-radar` owns `prospect-intel.md` and
-`memory/intel.md` (the Watcher); `attraction-operations` owns `operations.md` in its locked shape (Stop 16 writes
+`memory/intel.md` (its news scan, on demand); `attraction-operations` owns `operations.md` in its locked shape (Stop 16 writes
 the basics: hours, booking link, the 3-way call partner, the weekly model call, the filming window, the Friday note time, CRM, follow-up rhythm);
 `attraction-goals` owns the scorecard's Targets block, the Debrief appends daily rows, the weekly check-in appends
 weekly rows (then `admin-recruiting-scorecard`). **The Top-50 mirror rule:** `attraction-top-50` owns `top-50.md`; once the
@@ -155,8 +155,7 @@ requests only; the Admin never edits a Top-50 cell.
 `Schema: aa-1.0` · `Storage provider` · `Storage` (`ok` · `READ-ONLY (org-gated)` — written by `attraction-brain-sync`
 when a provider's write actions are admin-disabled; a separate key from `Storage provider`) · `Workspace name` ·
 `Workspace ID` · `Workspace link` · `Timezone` (lives only here) · `CRM` · `Setup progress` · `Debrief time` ·
-`Daily Debrief task` (task id · declined) · `Agent Movement
-Watcher task` (task id · declined · later) · `Workspace shared with` · `Realtor Brain bridge` (none · declined ·
+`Daily Debrief task` (task id · declined) · `Workspace shared with` · `Realtor Brain bridge` (none · declined ·
 pulled YYYY-MM-DD) · `Demo brain` (yes · no) · `Cohort week` (optional). Each later plugin registers its own block
 under its own heading and never edits another's. **Keys the later plugins register (locked spelling, in their own
 blocks):** `Weekly Content Performance task` (`## Short-Form (Week 3)` — `sf-analytics` fills it; `yt-analytics`
@@ -164,26 +163,28 @@ reads it there, never on `publishing.md`) · `Monday Kickoff task` · `Weekly id
 `YouTube section` (`## YouTube (Week 4)`) · `Call Block Prep task` · `Call Block Prep time` · `Cold-Lead
 Reactivation task` · `Booking page` · `Partner call length` · `Setter` (`## Conversion & Sales`) · **`AI Admin`**
 (the stamp `AI Admin: set up [date]`, first line of `## AI Admin (Week 5)` — the OS-wide Admin-installed signal,
-prefix match on the heading) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Weekly CEO Review task` ·
-`Monthly KPI Review task` · `Team Wins Newsletter task` (+ their time/slot keys, `CRM mirror`, `VA`) · `Installed` ·
+prefix match on the heading) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Monthly KPI Review task` ·
+`Team Wins Newsletter task` (+ their time/slot keys, `CRM mirror`, `VA`) · `Installed` ·
 `List tool` · `Live data` (`## Lead Magnet (Week 6)`) · `Installed` · `Plugin version` · `Member code` · `Registration host` ·
 `Post-Event Follow-Up task` (`## Events (Week 6)` — `not offered yet` → `ev-post-event-follow-up · armed for YYYY-MM-DD 9:00` ·
 `declined` · `later`; `ev-navigator` creates the block) · `Support desk` (`## MAA Support (Plugin 2)` — `attraction`).
 Timezone is never stored in a block. The Riverside editor registers no block.
 
-## Scheduled agents and their owners (eleven)
-Daily Agent Attraction Debrief — `attraction-debrief` (W1) · Agent Movement Watcher — `attraction-prospect-radar`
-(W2) · Weekly Content Performance — `sf-analytics` (W3; `yt-analytics` appends from W4) · Morning Brief —
-`admin-daily` owns it, `admin-attraction-setup` provisions it, task id `attraction-admin-morning-brief` (W5; it EXTENDS the
-Debrief, never a second debrief) · Daily Follow-Up Queue — `admin-follow-up-queue` (W5) · Call Block Prep —
-`cv-call-prep` (W5) · Cold-Lead Reactivation — `cv-reactivation` (W5) · Weekly Recruiting CEO Review —
-`admin-recruiting-scorecard` (W6) · Monthly KPI Review — `admin-monthly-review` (W6) · Team Wins Newsletter —
+## Scheduled agents and their owners (nine)
+Daily Agent Attraction Debrief — `attraction-debrief` (W1) · Weekly Content Performance — `sf-analytics` (W3;
+`yt-analytics` appends from W4) · Morning Brief — `admin-daily` owns it, `admin-attraction-setup` provisions it,
+task id `attraction-admin-morning-brief` (W5; it EXTENDS the Debrief, never a second debrief) · Daily Follow-Up
+Queue — `admin-follow-up-queue` (W5) · Call Block Prep — `cv-call-prep` (W5) · Cold-Lead Reactivation —
+`cv-reactivation` (W5) · Monthly KPI Review — `admin-monthly-review` (W6) · Team Wins Newsletter —
 `admin-newsletter` (W6) · Post-Event Follow-Up — `ev-followup` (W6; task id `ev-post-event-follow-up`, armed once per
 event with a one-time `fireAt` for 9:00 the morning after, re-armed for the next event by updating the same task —
 never a twin; it drafts the four sequences and the named-attendee touches and ends with `NEXT MOVE REQUESTED` lines).
-Eleven in all, Post-Event Follow-Up included. Every one: explicit yes, draft-only, task id in the owner's `config.md`
+Nine in all, Post-Event Follow-Up included. Every one: explicit yes, draft-only, task id in the owner's `config.md`
 block, adopt an existing task rather than create a twin, verify after creating; a scheduled run never moves a
-pipeline stage.
+pipeline stage. **Two on-demand modes that are NOT scheduled agents** (removed as tasks 2026-10-08): the Prospect
+Radar's news scan (`attraction-prospect-radar` — "scan agent movement"; writes `memory/intel.md`) and the Weekly
+Recruiting CEO Review (`admin-recruiting-scorecard` CEO mode — "run my CEO review"). Neither has a task, a consent
+card, a config key, or a task prompt.
 
 ## The four layers (how the Brain reaches every plugin and project)
 1. **Session hook** — `hooks.json` SessionStart injects `~/attraction-brain/brain.md` into every session; if the

@@ -90,7 +90,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/debriefs.md` — the Daily Agent Attraction Debrief log: today's conversations, the score, tomorrow's three moves
 - `memory/content-log.md` — everything published or scripted (check before creating, to avoid repeats)
 - `memory/ideas.md` — content ideas captured on the go (read before generating new ideas; mark Used)
-- `memory/intel.md` — brokerage and industry news from the Agent Movement Watcher and captures (dated, sourced)
+- `memory/intel.md` — brokerage and industry news from the Prospect Radar's news scan (on demand) and captures (dated, sourced)
 - `memory/intel-reports/` — per-prospect pre-call briefs (the Conversion plugin writes them from Week 5)
 - `memory/capture-log.md` — anything capture could not classify (Open rows surface in the Debrief)
 - `memory/deadlines.md` — what's due and when
@@ -100,4 +100,4 @@ live in the workspace's **`06 · Materials`** folder — the member drops files 
 says **"import my materials"**; `attraction-import` extracts each piece into the right file after they confirm.
 A Realtor AI Brain, if one exists, is read once through the same skill and never written to.
 
-**config.md** — the key registry: Schema aa-1.0 · Storage provider · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task · Agent Movement Watcher task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week
+**config.md** — the key registry: Schema aa-1.0 · Storage provider · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week
