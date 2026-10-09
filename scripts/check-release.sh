@@ -27,11 +27,15 @@ say() { printf '%s\n' "$*"; }
 bad() { printf '  ✗ %s\n' "$*"; FAIL=1; }
 ok()  { printf '  ✓ %s\n' "$*"; }
 
-say "── 1. plugin.json version == marketplace registry version"
+say "── 1. plugin.json version == marketplace registry version; marketplace entry descriptions ≤ 500"
 python3 - <<'PY' || FAIL=1
 import json,sys,glob,os
-reg={p["name"]:p["version"] for p in json.load(open(".claude-plugin/marketplace.json"))["plugins"]}
+entries=json.load(open(".claude-plugin/marketplace.json"))["plugins"]
+reg={p["name"]:p["version"] for p in entries}
 bad=False
+for p in entries:
+    if len(p.get("description",""))>500:
+        print(f"  ✗ {p['name']}: marketplace entry description {len(p['description'])} chars — Cowork caps it at 500 and warns on sync"); bad=True
 for f in sorted(glob.glob("plugins/*/.claude-plugin/plugin.json")):
     d=json.load(open(f)); n=d["name"]
     if n not in reg:

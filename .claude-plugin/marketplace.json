@@ -34,7 +34,7 @@
       "name": "realtor-riverside-editor",
       "source": "./plugins/realtor-riverside-editor",
       "version": "0.4.4",
-      "description": "PLUGIN 4 \u2014 the AI Editing Studio on Riverside (Week 3). The SAME editor plugin as the Social Agent OS, vendored here unchanged except for one rule (it reads whichever Brain you have: Agent Attraction Brain first, Realtor AI Brain otherwise) and two skill descriptions trimmed to claude.ai's 1024-character limit. Record, edit by transcript, cut the fluff, captions, b-roll, music, color, hook, interviews, reels, long-form, repurpose, publish. If you already installed it from the realtor marketplace, do not install it twice."
+      "description": "PLUGIN 4 \u2014 the AI Editing Studio on Riverside (Week 3). The SAME editor plugin as the Social Agent OS, vendored here with one difference: it reads whichever Brain you have (Agent Attraction Brain first, Realtor AI Brain otherwise). Record, edit by transcript, cut the fluff, captions, b-roll, music, color, hook, interviews, reels, long-form, repurpose, publish. If you already installed it from the realtor marketplace, do not install it twice."
     },
     {
       "name": "attraction-conversion-sales",

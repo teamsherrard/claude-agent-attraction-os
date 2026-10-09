@@ -2,6 +2,11 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.3.3] — 2026-10-09
+
+### Marketplace entry cap
+- Cowork caps a plugin's marketplace entry description at 500 characters and warns on sync. The Riverside entry had grown to 526 with the v0.3.1 wording; trimmed to 440 (the trim note lives in the changelog, not the card). Gate check 1 now fails any entry over 500. The Brain's "executable files or settings may differ" notice after v0.3.1 is informational: the hook file changed when the stray key was removed; nothing to fix.
+
 ## [0.3.2] — 2026-10-09
 
 ### Hyphen-split descriptions (caught by the realtor-side session's detector)
