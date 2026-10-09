@@ -24,7 +24,7 @@ Install the marketplace in Claude Cowork: **Customize → Personal Plugins → B
 Every plugin reads the Brain through the contract in `docs/BRAIN-CONTRACT.md` and ships a `shared/brain-contract.md` naming the files it reads and owns.
 
 ## Where things are
-- `plugins/` — the Cowork plugins. `design-studio/` — the Claude Design skill set. `knowledge/` — Mike's transcripts (private, never shipped in a plugin).
+- `plugins/` — the Cowork plugins. `design-studio/` — the Claude Design skill set. Mike's transcripts live in the separate private repo `teamsherrard/claude-agent-attraction-knowledge` (never in this public repo, never in a plugin).
 - `docs/plans/` — the build plans (`01-ai-brain-plugin-gameplan.md`, `02-agent-attraction-os-master-gameplan.md`, `BUILD-BRIEF.md`).
 - `scripts/check-release.sh` — the pre-release gate (run after `git add`, never inside a commit chain). `scripts/build-plugin-zip.sh` — the upload-zip builds in `dist/`.
 - `CHANGELOG.md`, `VERSION`, `SECURITY.md`, `LICENSE.md`.

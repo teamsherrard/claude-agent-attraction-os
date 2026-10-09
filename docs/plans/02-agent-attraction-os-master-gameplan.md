@@ -361,7 +361,7 @@ Ship dates follow the cohort's record-ahead rule: Brain + Support + the three De
 The user is delivering transcripts of Mike's ~103 agent attraction training videos. They are the single most valuable input to this
 build: every doctrine file, the Support plugin's answer source, and the voice of every skill come from them. Handling:
 
-- **Where they live:** `knowledge/transcripts/<module>/<nn>-<lesson-title>.md`, one file per video, with a `manifest.md` mapping each file to
+- **Where they live:** the private knowledge repo's `knowledge/transcripts/<module>/<nn>-<lesson-title>.md`, one file per video, with a `manifest.md` mapping each file to
   its vault module, week, and lesson number (the module and lesson lists in the Week 1–6 docs are the index). Private repo; never shipped
   inside a plugin zip. Derived doctrine files cite lessons by `module/lesson` so every rule in a skill is traceable to what Mike actually said.
 - **The doctrine pass (Sprint 1):** one agent per doctrine file reads only its module's transcripts plus the matching week doc and writes the

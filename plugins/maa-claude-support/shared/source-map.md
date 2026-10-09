@@ -23,7 +23,7 @@ it is not a fetch source. Links handed TO members must come from this map or fro
 ## The MAA lesson knowledge base (the Ask-Mike source — bundled, never fetched)
 
 Where it lives: `${CLAUDE_PLUGIN_ROOT}/shared/kb/` — **one file per vault module** (named by the
-module slug from `knowledge/transcripts/manifest.md`: `01-foundation-mindset.md`,
+module slug from the private knowledge repo's the private knowledge repo's `knowledge/transcripts/manifest.md` (`teamsherrard/claude-agent-attraction-knowledge`): `01-foundation-mindset.md`,
 `02-prospect-targeting.md`, `03-model-positioning.md`, `04-value-proposition.md`,
 `05-big-picture.md`, `06-content-framework.md`, `07-instagram.md`, `08-youtube.md`,
 `10-presentation-delivery.md`, `11-objection-handling.md`, `12-simple-tech-stack.md`,
