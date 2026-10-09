@@ -152,8 +152,10 @@ In demo mode:
 - **No placeholder chapters.** A demo Book renders all eighteen chapters FILLED — the offer, the pillars, the
   framework, operations all get illustrative content (a demo shows the finished product).
 - **Everything else holds at full strength:** the complete structure, the linked contents page, chapter bands,
-  formatting gates, voice conversion. Word counts: the 3,000 absolute floor binds; the higher bands are TARGETS
-  in demo mode, not gates.
+  formatting gates, voice conversion. Word counts: **the per-chapter minimums bind in demo mode exactly as in a real
+  build** (the demo is what the training video shows, so it must look like the finished product); the only exceptions are
+  the two researched chapters (7 and 8), which render as honest demo landscapes at no less than half their minimum, and a
+  demo never renders a `[bracketed]` token — every value is a fictional one (a demo booking link reads like a real link).
 - **The demo marker travels with the BRAIN.** A demo build writes `Demo brain: yes` into `config.md` and keeps
   the "(illustrative — demo)" tags inside the brain files themselves. Any skill that touches a brain whose
   `config.md` says `Demo brain: yes` STAYS in demo mode; a real member resuming on a demo brain is told plainly
@@ -388,6 +390,12 @@ Illustrative annual rev share | Label |) — every number "(illustrative)", the 
 chapter marked private-call material in one line. The `>> ` callout is the weekly activity it takes, not a
 dollar figure. Placeholder (below) only if the member explicitly skipped Stop 11.
 
+**When the member deferred the plan mechanics ("explain mine to me"):** the calculator still runs, on the strictest
+generic default mechanics for their model type, every number labelled "default mechanics — replaced in Week 2 by the
+Brokerage Model Expert"; the chapter always carries the three-scenario **table**, the weekly-activity derivation under
+it, and a plain-words reading of what the member's own assumptions imply. A money chapter that is only stamps and
+ratios is a FAIL (minimum 400).
+
 ### Chapter 12 — YOUR PROOF
 `proof.md` in full: production wins as stated, agents already helped (**table**: | Agent | What you did | What
 happened | When |), organization today, reviews from agents as `Label:` quotes (verbatim, consent noted),
@@ -495,7 +503,11 @@ placeholder line is ONE line of structured text (never split mid-sentence). Exac
 Extract the text back out of the rendered `.docx` and check ALL of:
 1. **Count** — complete brain: 5,000+ words; Week 1 first run with research: 4,400+; research skipped:
    3,600+; **absolute floor in all cases: 3,000**. An honest-gap chapter rendered per Grounding Law 6 is exempt
-   from its per-chapter range; the floor still binds.
+   from its per-chapter range; the floor still binds. **Per chapter:** every chapter is at or above its minimum
+   from the chapter table (designed placeholders and honest-gap chapters exempt; demo builds included). Any chapter
+   under its minimum is a FAIL for that chapter: rebuild it from the full brain-file contents — develop (the three
+   moves: their answer · what it means · how to use it), never pad — and re-verify. **No `[bracketed]` token anywhere**
+   in the rendered text, real or demo.
 2. **All EIGHTEEN chapter headings present** (Snapshot · The Leader · Your Journey · Your Story Bank · Your
    Voice & Brand · Your Agent Avatars · Your Market's Agent Landscape · Where They Gather · Your Model,
    Positioned · Your Offer · The Money, Honestly · Your Proof · Your 12-Month and 90-Day Plan · Your Weekly
