@@ -1,15 +1,14 @@
 ---
 name: lm-analytics
 description: >
-  Reads how the member's agent-attraction lead magnet is doing — opt-in rate, list growth, magnet-
-  to-call conversion — and says, in plain words, the ONE thing to change. Manual numbers first
+  Reads how the member's agent-attraction lead magnet is doing — opt-in rate, list growth,
+  magnet-to-call conversion — and says, in plain words, the ONE thing to change. Manual numbers first
   (five numbers the member reads off their page host, list tool, and calendar); the live data
-  connection (Composio, read-only) only where the member connected it, never on a first run, never
-  a write. Appends a weekly row to memory/list-growth.md, updates the magnet's running totals in
-  memory/magnets.md, and hands "calls booked from the funnel" to the Brain's weekly check-in
-  through the scorecard's locked shape — it never writes the scorecard itself. Verdicts come from
-  the member's own numbers, dated; nothing is estimated. Private output; fixes route to the skills
-  that own them.
+  connection (Composio, read-only) only where the member connected it, never on a first run, never a
+  write. Appends a weekly row to memory/list-growth.md, updates the magnet's running totals in
+  memory/magnets.md, and hands "calls booked from the funnel" to the Brain's weekly check-in through
+  the scorecard's locked shape — it never writes the scorecard itself. Verdicts come from the member's
+  own numbers, dated; nothing is estimated. Private output; fixes route to the skills that own them.
   Trigger on: "how is my lead magnet doing", "opt-in rate for my guide", "list growth", "how many
   agents grabbed my guide", "magnet-to-call conversion", "is my attraction funnel working", "lead
   magnet report".

@@ -2,16 +2,15 @@
 name: studio-publish
 description: >
   Publish for the AI Editing Studio. Posts or schedules a finished Riverside edit to the agent's
-  connected social channels — YouTube (and Shorts), TikTok, Instagram, Facebook Reels, LinkedIn, X
-  — behind a hard confirmation gate. Discovers which accounts are connected, reads each platform's
+  connected social channels — YouTube (and Shorts), TikTok, Instagram, Facebook Reels, LinkedIn, X —
+  behind a hard confirmation gate. Discovers which accounts are connected, reads each platform's
   rules, fetches the title, description, chapters, and captions from the plugins that own them and
   never writes them itself, checks platform limits and compliance, enforces one posting route so
-  nothing is double-posted, checks YouTube Content-ID, shows a plain-language summary of exactly
-  what goes where and when, publishes, then verifies once. Publishing is one-way, so nothing
-  happens without an explicit yes. Trigger on: "post it", "publish it", "put it on YouTube",
-  "schedule my YouTube video", "post the reel to Instagram", "send it to my channels". For reels,
-  only when `publish_route` is `riverside`. Part of SHIP; usually reached through studio-
-  navigator.
+  nothing is double-posted, checks YouTube Content-ID, shows a plain-language summary of exactly what
+  goes where and when, publishes, then verifies once. Publishing is one-way, so nothing happens
+  without an explicit yes. Trigger on: "post it", "publish it", "put it on YouTube", "schedule my
+  YouTube video", "post the reel to Instagram", "send it to my channels". For reels, only when
+  `publish_route` is `riverside`. Part of SHIP; usually reached through studio-navigator.
 ---
 
 # Publish — post it, on their word

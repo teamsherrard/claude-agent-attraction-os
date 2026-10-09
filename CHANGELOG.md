@@ -2,6 +2,12 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.3.2] — 2026-10-09
+
+### Hyphen-split descriptions (caught by the realtor-side session's detector)
+- A folded `description: >` turns a line break into a space, so a wrap that broke on a hyphen changed the text the model reads. Six descriptions carried one: "studio- navigator" (`studio-publish`), "magnet- ideas" (`lm-navigator`, now the real skill name `lm-magnet-ideas`), "magnet- to-call" (`lm-analytics`), "voice- print" (`lm-nurture`), "starting- soon" (`aa-event-design`), "ds- skill" (`aa-style-sheet-design`, now "design skill"). All six re-wrapped without hyphen breaks; the design-system template's two leftover `ds-` mentions from the rename now read design skill. Gate check 8 fails any description with a hyphenated word split by the fold.
+- Versions: realtor-riverside-editor 0.4.4, attraction-lead-magnet 0.1.2.
+
 ## [0.3.1] — 2026-10-09
 
 ### Cowork sync warnings cleared (this marketplace only; the realtor repo is untouched)

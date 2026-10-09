@@ -3,15 +3,15 @@ name: aa-event-design
 description: >
   Designs every graphic an agent-attraction event needs, in Claude Design, for the three formats the
   Events plugin runs: a live local event, a virtual training, an evergreen webinar. Flyers (feed,
-  story, print), the registration post, the countdown story set, the Zoom background and starting-
-  soon screen, and the workshop slide deck from the run-of-show — real teaching slides and the
-  pitch-free close that invites a conversation. Local events stay brokerage-neutral: no brokerage in
-  the title or hero, only the compliance line. Reads the Events plugin's brief, the Design System,
-  and the Brain Book; the registration page hands to aa-funnel-design's registration shape. Files land in
-  the event's own folder in 03 · Content/Events.
-  Trigger on: "my attraction event flyer", "event graphics for agents", "workshop slides for agents",
-  "registration graphic for my workshop", "countdown stories for my event",
-  "design my webinar slides", "my live event flyer", "my virtual training graphics".
+  story, print), the registration post, the countdown story set, the Zoom background and starting-soon
+  screen, and the workshop slide deck from the run-of-show — real teaching slides and the pitch-free
+  close that invites a conversation. Local events stay brokerage-neutral: no brokerage in the title or
+  hero, only the compliance line. Reads the Events plugin's brief, the Design System, and the Brain
+  Book; the registration page hands to aa-funnel-design's registration shape. Files land in the
+  event's own folder in 03 · Content/Events. Trigger on: "my attraction event flyer", "event graphics
+  for agents", "workshop slides for agents", "registration graphic for my workshop", "countdown
+  stories for my event", "design my webinar slides", "my live event flyer", "my virtual training
+  graphics".
 ---
 
 # Attraction Events (aa-event-design) — the room, designed

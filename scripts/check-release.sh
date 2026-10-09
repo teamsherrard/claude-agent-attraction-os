@@ -134,7 +134,9 @@ for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
         hint=" — claude.ai cuts descriptions at 1024 (Cowork warns on sync); trim it in the vendored copy, the realtor repo stays untouched" if vendored else ""
         print(f"  ✗ {f}: description {len(desc)} chars (>1024){hint}"); bad=True
     if not vendored and not re.search(r'^description:\s*>',m.group(1),re.M): print(f"  ✗ {f}: description is not a folded block scalar (description: >)"); bad=True
-if not bad: print("  ✓ every SKILL.md: name==dir, description ≤1024, block scalar")
+    for h in re.finditer(r'(\w+)- (\w+)'," ".join(desc.split())):
+        print(f"  ✗ {f}: hyphenated word split by the fold: '{h.group(0)}' — a folded scalar turns the line break into a space; re-wrap with break_on_hyphens=False"); bad=True
+if not bad: print("  ✓ every SKILL.md: name==dir, description ≤1024, block scalar, no hyphen split by the fold")
 sys.exit(1 if bad else 0)
 PY2
 

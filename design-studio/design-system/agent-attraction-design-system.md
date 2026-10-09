@@ -2,7 +2,7 @@
 
 *The uploadable Design System for the Agent Attraction Design Studio. Attach this file to your Brand HQ
 project in Claude Design. `aa-style-sheet-design` fills it with YOUR values and saves the result as
-"[First Last] Design System" — from then on, every `ds-` skill reads your copy, never this template.*
+"[First Last] Design System" — from then on, every `aa-…-design` skill reads your copy, never this template.*
 
 **What this is.** A design system is the durable record of a brand's execution values: colours, fonts,
 spacing, how the logo is used, how photos are treated, the reusable components every graphic is built
@@ -250,7 +250,7 @@ ads — flag it. This is assistance, not legal advice; the member confirms with 
 | Headshots | `headshots/` | the member |
 
 The Brain's health check counts the brand kit as present when `02 · Brand` holds a logo file, the
-style sheet, and at least one profile graphic. Later `ds-` skills (offer assets, carousels, thumbnails,
+style sheet, and at least one profile graphic. Later design skills (offer assets, carousels, thumbnails,
 the Value Vault) read this registry and never re-ask for anything in it.
 
 ---

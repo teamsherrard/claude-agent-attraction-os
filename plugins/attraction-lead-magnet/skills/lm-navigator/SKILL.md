@@ -1,18 +1,17 @@
 ---
 name: lm-navigator
 description: >
-  The front door for the Lead Magnet plugin — where a real estate leader starts when they want a
-  lead magnet and opt-in funnel for attracting agents. Quietly checks the Agent Attraction Brain
-  is loaded and the Week 2 Partner Offer is finalized (if not, says the offer comes first and
-  names the way back), works out fresh start vs half-built campaign, opens with ONE personal
-  welcome (never a menu), and routes. For a FIRST campaign it locks the Honest Brokerage
-  Comparison Guide — factual, cited, dated, no ranking, no trash talk — runs a 5-question intake
-  pre-answered from the Brain, and hands the magnet writer everything. From campaign two, magnet-
-  ideas picks. Catches the cold start; never bounces anyone.
-  Trigger on: "launch my lead magnet plugin", "set up my lead magnet for agents", "lead magnet for
-  agents", "attraction lead magnet", "build my brokerage comparison guide", "honest comparison
-  guide", "set up my attraction funnel", "opt-in funnel for agents", "finish my agent lead
-  magnet".
+  The front door for the Lead Magnet plugin — where a real estate leader starts when they want a lead
+  magnet and opt-in funnel for attracting agents. Quietly checks the Agent Attraction Brain is loaded
+  and the Week 2 Partner Offer is finalized (if not, says the offer comes first and names the way
+  back), works out fresh start vs half-built campaign, opens with ONE personal welcome (never a menu),
+  and routes. For a FIRST campaign it locks the Honest Brokerage Comparison Guide — factual, cited,
+  dated, no ranking, no trash talk — runs a 5-question intake pre-answered from the Brain, and hands
+  the magnet writer everything. From campaign two, lm-magnet-ideas picks. Catches the cold start;
+  never bounces anyone. Trigger on: "launch my lead magnet plugin", "set up my lead magnet for
+  agents", "lead magnet for agents", "attraction lead magnet", "build my brokerage comparison guide",
+  "honest comparison guide", "set up my attraction funnel", "opt-in funnel for agents", "finish my
+  agent lead magnet".
 ---
 
 # Lead Magnet Navigator — the front door

@@ -7,10 +7,11 @@ description: >
   "book a call with me" graphic — always as TWO contrasting options side by side. Uses an existing
   logo exactly as-is (the logo anchors the palette), records the leader-brand vs selling-brand
   decision, and ends by writing the member's Design System from the Agent Attraction Design System
-  file so every later ds- skill starts locked. Reads the pasted Design Package brief and the uploaded
-  Brain Book first and asks only what they cannot answer, in plain language. Trigger on: "build my
-  brand style sheet", "my attraction brand style sheet", "agent attraction brand", "lock my design
-  system", "my leader brand colours and fonts". Not for logos (aa-logo-design) or banners and posts (aa-brand-kit-design).
+  file so every later design skill starts locked. Reads the pasted Design Package brief and the
+  uploaded Brain Book first and asks only what they cannot answer, in plain language. Trigger on:
+  "build my brand style sheet", "my attraction brand style sheet", "agent attraction brand", "lock my
+  design system", "my leader brand colours and fonts". Not for logos (aa-logo-design) or banners and
+  posts (aa-brand-kit-design).
 ---
 
 # Agent Attraction Style Sheet (aa-style-sheet-design) — the brand, locked

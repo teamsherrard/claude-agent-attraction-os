@@ -1,17 +1,16 @@
 ---
 name: lm-nurture
 description: >
-  Writes the email nurture for the member's agent list — the awareness → proof → CTA sequence an
-  agent gets after downloading the lead magnet, and the weekly value newsletter that keeps the
-  member top of mind until an agent is ready to move (Mike's lesson: the list is the one audience
-  nobody can take away; the nurture is more value, more value, more value). In the member's voice-
-  print, from their real stories, the Partner Offer as outcomes, and consented wins of agents in
-  their organization; the call to action is warm and optional, never a pitch, never compensation.
-  Draft-only — the member loads the sequence into their own list tool and sends the newsletter;
-  the plugin never sends. Owns memory/list-growth.md. 3-state compliance gate.
-  Trigger on: "nurture sequence for agents", "email sequence after my guide", "my weekly
-  newsletter for agents", "email my agent list", "what do I send after they download the guide",
-  "write this week's agent email".
+  Writes the email nurture for the member's agent list — the awareness → proof → CTA sequence an agent
+  gets after downloading the lead magnet, and the weekly value newsletter that keeps the member top of
+  mind until an agent is ready to move (Mike's lesson: the list is the one audience nobody can take
+  away; the nurture is more value, more value, more value). In the member's voice-print, from their
+  real stories, the Partner Offer as outcomes, and consented wins of agents in their organization; the
+  call to action is warm and optional, never a pitch, never compensation. Draft-only — the member
+  loads the sequence into their own list tool and sends the newsletter; the plugin never sends. Owns
+  memory/list-growth.md. 3-state compliance gate. Trigger on: "nurture sequence for agents", "email
+  sequence after my guide", "my weekly newsletter for agents", "email my agent list", "what do I send
+  after they download the guide", "write this week's agent email".
 ---
 
 # Nurture — the sequence after the guide, and the weekly newsletter
