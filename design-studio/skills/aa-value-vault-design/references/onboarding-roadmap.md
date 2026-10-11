@@ -18,7 +18,12 @@ The roadmap is built from **the Partner Offer's "First 30 days as a partner" tab
 *week → what the partner does → what the member does → done when* — written by `attraction-offer` in
 Week 2 into the Brain's offer file and rendered in the Brain Book's **Your Offer** chapter (Chapter 10,
 the first 30 days as a table). Read it there, or from the `Partner Offer · [Member] · [date]` doc in
-`05 · Offer` (uploaded, or through the Drive connector). It also carries **"what you get day one"**
+`05 · Offer` (uploaded, or through the Drive connector). Since the offer became a program definition it also
+carries the **Day 1 sequence** (the `Onboarding: Day 1` lines, the doc's section 7 — the welcome call, the setup
+handed over, the first lesson, the group and the weekly-call invite, the first date on the calendar: the poster's
+Day 1 stop) and **Support & community** (section 8 — the weekly call, the group chat, the 1:1 cadence, the
+response expectation: the card's rows, the same words as How You Operate); an older offer without them → the
+first-30-days table and How You Operate alone, as before. It also carries **"what you get day one"**
 (the Day 1 row's hand-overs), **Module 1 / the first lesson** (the first lesson on the card), and the
 digital product's name and status (the product handed over on Day 1, under its canonical cover). The
 Brain Book's **How You Operate** chapter carries the rest of the card: the **weekly call** (day · time ·

@@ -78,7 +78,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
 | "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
 | "How do I position my brokerage without pitching / the 2-minute model script" | `attraction-model-positioning` | 1 |
-| "Build my UVP / my partner offer / my value stack" (Week 2) | `attraction-offer` | 1 |
+| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; 2,500+ words) | `attraction-offer` | 1 |
 | "What should I give away vs charge for" | `attraction-free-vs-paid` | 1 |
 | "Run my rev-share scenarios" (illustrative, never a promise) | `attraction-rev-share-calculator` | 1 |
 | "Set my 90-day targets / my scorecard / am I on track" | `attraction-goals` | 1 |
@@ -186,7 +186,9 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   the design system was never set up in Design (the root fix).
 
 ### Plugin 3 — Lead Magnet (W2, after the Partner Offer session) — BUILT
-- Depends on: Brain (`offer` — the Partner Offer — `avatars`, `compliance`, `brand-visual`, `voice`).
+- Depends on: Brain (`offer` — the Partner Offer, a program definition since Brain 0.3.0: the magnet is cut from ONE
+  framework step and the funnel presents the program by name, type and cadence — `avatars`, `compliance`,
+  `brand-visual`, `voice`).
   **Offer-first, one sitting (v0.2.0, 2026-10-10):** "launch my lead magnet plugin" builds the offer first if
   it is still at seeds (the navigator runs the Brain's `attraction-offer` inside the session — the member never
   comes back later), then recommends three lead magnets built from that offer and Mike's lessons

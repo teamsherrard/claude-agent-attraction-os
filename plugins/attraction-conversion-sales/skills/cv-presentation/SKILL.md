@@ -25,7 +25,10 @@ export. This skill is built from the two bonus lessons (Bridging the Gap · The 
 and the workshop's Align / Show the Opportunity steps. It says so here and nowhere the member sees.*
 
 ## Before writing (silent)
-`brain.md` first (pull if missing) · `identity/offer.md` (the Partner Offer — UVP line, what's included, first
+`brain.md` first (pull if missing) · `identity/offer.md` (the Partner Offer — UVP line; the program block `## The program` — name · type · cadence ·
+format · the 90-day outcome, what the member names on the call; the framework `## The framework` — the step table
+the presentation walks, its one-line version; the deliverables table and the `Onboarding: Day 1` lines; an older
+offer file without those → what's included, first
 30 days; seeds stage → "what you have to give so far," Week 2 named once) · `identity/positioning.md` (the
 vehicle vs the reason; what stays private) · `identity/brokerage-model.md` (the model per type, from the
 member's materials; empty → the model is one line, "and everything [brokerage] provides — walked through on the
@@ -46,7 +49,9 @@ clear: *"Who's this for — your main type of agent, or a specific person?"* **Y
 2. **The three things that matter most** — chosen from what they said; each one: the pain → what the member
    gives that answers it → the outcome (not the feature) → one proof line or "you'd be early."
 3. **The bridge, in three layers** (`04-value-proposition/28` via the Brain doctrine §10a): the member's support
-   (the first 30 days, the recurring call, the thing they teach first) · the upline and community (as it is) ·
+   (named as the program — "[name] is a [type]: [cadence]" — then the framework walked step by step: what you do ·
+   what you get · the tool; the 90-day outcome as what they'll be able to SHOW; the first 30 days, the recurring
+   call, the thing they teach first) · the upline and community (as it is) ·
    the brokerage's model, only as far as their goals go, in plain English, from `brokerage-model.md`.
 4. **The story** — one, from the story bank, the one that mirrors them.
 5. **Close with confidence** — assume the close; the transition-date question; what happens next
@@ -55,7 +60,9 @@ Each beat with **Say it like this:** and the line. Production pain → no rev sh
 time-freedom pain → residual income as the vehicle, numbers from the member's materials, labeled, never projected.
 
 ## The one-pager (copy, then design)
-Title line (the UVP one-liner from `offer.md`) · three outcome blocks (the three things, for the primary type)
+Title line (the UVP one-liner from `offer.md`) · the program strip (name · type · cadence, from `## The program`) ·
+the framework in one line (`## The framework` → One line, verbatim) · three outcome blocks (the three things, for
+the primary type)
 · "What partnering looks like" (first 30 days, four lines) · one proof line · the member's one-line story ·
 one next step (the booking line; `Booking page` from the Conversion block or "I'll send you a time").
 **Never on the page:** splits, caps, stock, tiers, rev share, income, any other brokerage's name, "join my
@@ -67,6 +74,8 @@ Then the **design brief for `aa-offer-kit-design`** (paste-ready, by name):
 FOR aa-offer-kit-design (the opportunity one-pager)
 Member: [name] · [brokerage, as compliance.md displays it] · [market]
 Headline: [UVP one-liner]
+Program: [name · type · cadence — from ## The program; omit the line on an older offer]
+Framework line: [the one-line version from ## The framework; omit on an older offer]
 Three outcome blocks: 1. [pain → outcome] 2. … 3. …
 What partnering looks like: four lines
 Proof line: [one, real] · Story line: [one]

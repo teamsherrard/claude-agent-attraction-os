@@ -46,7 +46,9 @@ it exists (an earlier run's bios, or `sf-setup`'s Week 3 refresh — the startin
 each section's current CTA and link; absent on the first Week 2 run, which is the normal case),
 `identity/profile.md` (name, brokerage, what they're building, market, years, socials, booking link),
 `identity/positioning.md` (the one line, the messaging pillars), `identity/offer.md` (the UVP one-liner
-"I help [agent type] achieve [outcome] through [mechanism]" — if Status is seeds, build the line from
+"I help [agent type] achieve [outcome] through [mechanism]" and its `Bio-safe line:`; the program's name goes into
+a bio only where the offer's own bio line under `## How to talk about it` carries it, never its type or cadence —
+if Status is seeds, build the line from
 `positioning.md`'s seed and say Week 2 sharpens it), `identity/avatars.md` (the type of agent, in plain
 words), `identity/voice.md` (tone + signature phrases), `identity/proof.md` (real numbers only, dated),
 `identity/brand-visual.md` (tagline), and `memory/magnets.md` → `## Current magnet` (the live funnel URL).

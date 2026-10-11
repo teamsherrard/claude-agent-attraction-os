@@ -30,7 +30,9 @@ someone who wasn't in the room). Contract: `${CLAUDE_PLUGIN_ROOT}/shared/brain-c
 The event's block in `memory/events.md` (format, topic, transformation, speakers, when/where, replay — no block →
 `ev-strategy` first) · the format playbook doc in the event folder (the shape and timings — a workspace doc, not
 the Brain) · `identity/compliance.md` first line (`Status:`) + name display + recruiting scope · `identity/offer.md`
-("Teach first," the method; What's included — what's below the water; `Status:`) · `identity/voice-print.md` (how
+("Teach first," the method; `## The framework` — the ONE step this event teaches, with its tool or template;
+`## The program` — name · type · cadence — and the deliverables table — what's below the water; What's included on
+an older offer file; `Status:`) · `identity/voice-print.md` (how
 they talk — the script reads aloud). Pull via `attraction-brain-sync` if missing. Every other Brain file is named
 at the step that uses it ("Read now") — never earlier, never re-read once in context.
 
@@ -55,7 +57,9 @@ doctrine §17; the playbook may have changed them — use the playbook's).
    Virtual: the first chat prompt ("drop where you're joining from"). Live: "say hi to the person next to you —
    what brokerage, how long in."
 2. **The pain (5–8)** — in the avatar's words; "drop a 1 in the chat if…" / a show of hands.
-3. **Teaching block 1 (8–23)** — the first thing the member would show a new agent (`offer.md → Teach first`),
+3. **Teaching block 1 (8–23)** — the ONE framework step `ev-strategy` chose (`offer.md → ## The framework`: what you
+   do, step by step, its tool on screen) — or, on an older offer, the first thing the member would show a new agent
+   (`offer.md → Teach first`),
    step by step, with the real template or script on screen. Ends with a **do-this-now** (3 minutes: "open your
    phone and…").
 4. **Teaching block 2 (26–41)** — the system behind block 1. Chat prompt at the midpoint ("type yes if…").
@@ -68,7 +72,8 @@ doctrine §17; the playbook may have changed them — use the playbook's).
    iceberg… the exact how-to strategies, the mentorship, the systems behind this are below the surface… I'm
    happy to share how you get access to all of it for free and get my help executing — [live: come up and talk
    to us after / virtual: book a call — the link's in the chat and on this slide]."* What's below the water is
-   **real** — from `offer.md → What's included` and `operations.md → Weekly model call` (seeds → "what I give the
+   **real** — from `offer.md` (the program by name and type with its cadence, `## The program`, and the deliverables
+   table; `What's included` on an older offer file) and `operations.md → Weekly model call` (seeds → "what I give the
    agents I work with today," and nothing more). The scope line for a virtual room ("if you're licensed in
    [states/provinces] — and if not, I'll point you to someone"). **Never:** "join my brokerage," a model
    breakdown, a compensation number, a comparison, another brokerage's name.

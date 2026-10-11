@@ -44,7 +44,10 @@ line:
   this week sharpens it, and I'll update the story then."* Never imply the offer is missing; never ask
   them to describe their offer.
 - **`finalized by member`** or an offer built by **attraction-offer** → use the UVP one-liner ("I help
-  [agent] achieve [outcome] through [mechanism]") and the value stack as the value line.
+  [agent] achieve [outcome] through [mechanism]") and the value stack as the value line — and name the program
+  when the offer defines one: its name and type from `## The program`, one phrase, the same words as the Partner
+  Offer doc (never the cadence, never a cost line, in a story). An older offer file without the block → the UVP
+  line and the stack, as before.
 - **No `offer.md` at all** → same as seeds, from `profile.md` and `strategy.md` alone.
 The brokerage is part of the value line as the platform, never as the reason: *"you don't just get [the
 brokerage]; you also get…"*.

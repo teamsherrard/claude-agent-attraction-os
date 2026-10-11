@@ -32,7 +32,8 @@ they hit — never as the company they left.*
 ## 2. Pain Point Series  (bucket: Problem or Situation · Authority · 10–15 min)
 *One pain, one avatar, one tactical answer they can use today. "Every challenge an agent names is a video" (`/94`).*
 - **Pull:** `avatars.md` (the pain in their words; what they've tried) · `objections.md` (the question this
-  answers; the hidden fear) · `offer.md` and `strategy.md` (the member's actual method) · `story-bank.md` (a
+  answers; the hidden fear) · `offer.md` and `strategy.md` (the member's actual method — the framework's steps, `## The framework`, once the
+  offer is built) · `story-bank.md` (a
   story that proves the point) · `proof.md` (an agent who did it, with consent).
 - **Beats:** name the pain and the agent who has it → why it keeps happening (the honest diagnosis, no blame)
   → the 3–5 moves, each with what · why · how → the story or the agent's win that shows it works → the one thing
@@ -73,7 +74,8 @@ they hit — never as the company they left.*
 ## 4. Niche Breakdown  (bucket: Problem or Future · Authority · 10–20 min)
 *The deep teach on the thing the member is known for — "cast a wide net around your niche so whatever they
 search, they find you" (`/93`, draft). The Future bucket when it points at leverage and the next stage.*
-- **Pull:** `strategy.md` (known for) · `offer.md` (the method, the systems) · `proof.md` (results from the
+- **Pull:** `strategy.md` (known for) · `offer.md` (the method, the systems — the named framework and its steps once the offer is built; its
+  one-line version is the hook) · `proof.md` (results from the
   method — the member's own, labeled as theirs, or an agent's with consent) · `story-bank.md` · `avatars.md`.
 - **Beats:** the outcome and who it's for → the method, step by step (the exact system the member uses — enough
   to act on today) → the case study woven in ("this is legit": an agent who used it, or the member's own numbers

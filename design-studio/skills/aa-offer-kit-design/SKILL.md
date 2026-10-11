@@ -81,7 +81,9 @@ sheet**.
 
 1. **ONE intake form**, merged from the six references and pruned of everything the briefs, the Book,
    the Design System, and the project already answer: the Brain Book (newest) · the briefs — the Offer
-   Stack Brief (it carries the stack and the product blocks), the Partner Offer doc, the Conversion
+   Stack Brief (it carries the stack and the product blocks), the Partner Offer doc (its section 2 — the
+   program's name, type and cadence; section 3 — the framework's one-line version; section 6 — the deliverables
+   table; section 10 — the digital product's name and format), the Conversion
    system's one-pager and deck brief, the Model Positioning Sheet (uploaded, or read through the Drive
    connector) · an existing product cover, if one exists · who the deck is for · real photos and real
    screenshots, dropped into the CHAT · anything to feature or avoid. One confirmation line above it;
@@ -134,9 +136,13 @@ Brain*. Read: **Snapshot** (name, brokerage, primary type of agent, booking link
 **The Leader**, **Your Journey** (the one-line story), **Your Voice & Brand** (signature phrases, the
 primary CTA, the direction and feel), **Your Agent Avatars** (who each piece speaks to), **Your Model,
 Positioned** (Chapter 9: the one line, the vehicle-vs-reason framing, what stays for the private call),
-**Your Offer** (Chapter 10: the UVP one-liner, what you get day one, teach-first, the first 30 days, the
-value stack, the digital product block — the stack's and the mockup's source when no brief was
-pasted), **Your Proof** (real, consented — the only proof allowed), **How You Operate** (the weekly
+**Your Offer** (Chapter 10: the UVP one-liner; the program block — name · type · cadence, the strip the
+one-pager and the deck carry; the framework table and its one line — the chain the one-pager and the deck carry;
+the Structure outline; the deliverables table — the stack's tiers in the offer's order, with the program's type as
+the stack's label line, when the brief carries no stack items; what you get day one, teach-first, the first 30
+days, the value stack, the digital product block — the mockup's name and format; the stack's and the mockup's
+source when no brief was pasted; an older Book whose offer chapter has no program block → the value stack table
+and what you get day one, as before), **Your Proof** (real, consented — the only proof allowed), **How You Operate** (the weekly
 call, the onboarding steps — the welcome pack's source), and **Compliance**. Wrong-file guard: if it
 doesn't read like this (no leader, no offer chapter, no brand chapter), say so and confirm before
 designing. Demo guard: a **DEMO** Book without a demo request = stop and ask for the real one. **The

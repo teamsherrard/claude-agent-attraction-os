@@ -17,8 +17,10 @@ from scratch when the product mockup piece already has — reuse it.
 
 Members arrive with a pasted block that starts **"FOR aa-offer-kit-design (the offer stack)"** — written by their Brain's
 free-vs-paid session and saved as `Offer Stack Brief · [Member] · [date]` in `05 · Offer`. It carries:
-**Offer name · UVP · Primary agent · Stack items** (outcome lines, in this order: free items first,
-then "included", then "discounted for my agents"; brokerage and upline items named generically) ·
+**Offer name · Program (name · type · cadence — the label line under the offer name) · UVP · Primary agent ·
+Stack items** (the offer's deliverables table, row by row, as outcome lines, in this order: free items first,
+then "included", then "discounted for my agents"; brokerage and upline items named generically; an older brief
+without the program line carries stack items alone) ·
 **The free line · The up-front cost line · Brand** · and the standing rule *"Never on the graphic:
 splits, caps, stock, rev share, income, another brokerage's name."* Every line is the member's own
 decision: the order is the stack's order, the wording is the stack's wording. Never re-ask any of it,
@@ -28,8 +30,10 @@ and compliance line, and keep them.
 
 **The Brain Book is "the AI Brain file"** — the long document whose cover says *Agent Attraction
 Brain*. Read: **Snapshot** (name, brokerage, primary type of agent, booking link, compliance status),
-**Your Offer** (Chapter 10: the UVP one-liner, "what you get day one", the value stack table, the
-digital product — the stack's source when no brief was pasted), **Your Voice & Brand** (signature
+**Your Offer** (Chapter 10: the UVP one-liner; the program block — name · type · cadence; the deliverables table —
+the tiers, in the offer's order, with the program's type as the label line; "what you get day one", the value
+stack table, the digital product — the stack's source when no brief was pasted; an older Book without the
+program block → the value stack table and what you get day one, as before), **Your Voice & Brand** (signature
 phrases, the primary CTA), **Your Agent Avatars** (who the stack speaks to), and **Compliance**. If the
 file does not read like this (no leader, no offer chapter, no brand chapter), say so and confirm before
 designing. If its title or cover carries **DEMO** and the member did not ask for a demo, stop and ask
@@ -108,6 +112,10 @@ labelled honestly as the brief labels it: *free from day one* · *included* · *
   agents who join sits on top as a real object — the canonical mockup from the product mockup piece when it
   exists — with the honest status line the brief gives it (*"included when you partner with me"* /
   *"first version with my first partners"*). A product that isn't mapped yet is not on the stack.
+- **The tiers are the deliverables.** Once the Brain's offer carries the deliverables table (the Partner Offer
+  doc's section 6; the Book's Chapter 10), the brief's stack items ARE those rows, in the offer's order, and the
+  program's type (section 2 — a mentorship program, an accelerator…) is the stack's label line under the offer
+  name; an older offer without the table → the value stack table, as before. Never a tier the table doesn't carry.
 - **The stack answers the three questions** agents are really asking (`03-model-positioning/17`): *will
   you guide me* (the teach-first tier), *will you help me succeed* (the system and support tiers), *is
   there a clear path* (the first-30-days tier). If a question has no tier, the brief said so — never

@@ -60,7 +60,8 @@ deal fast · capped · attracted your first agent · turned your business around
 the member's booking link — **draft only**, the member sends it.
 
 ## Step 3 — The title: hook AND transformation (every interview)
-**Read now:** `identity/offer.md` (the value proposition the story proves — the mechanism in the title) ·
+**Read now:** `identity/offer.md` (the value proposition the story proves — the mechanism in the title; the framework's name
+when the offer has one, never the program's type or cadence in a title) ·
 `identity/voice.md` (the title, the edification lines, and the invite in their voice) · `identity/compliance.md` —
 the first line, `Status:` (a title is public; the gate below applies from here).
 The title carries who they are, what they built, and the mechanism: **"How [first name] [transformation] and

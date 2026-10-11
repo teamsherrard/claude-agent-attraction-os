@@ -315,7 +315,8 @@ chapter is thin — fix the chapter, never pad. Above it, never compress.
 ### Chapter 1 — SNAPSHOT
 The one-page "who is this leader" card. **Table** (Label | Value): name · brokerage · what they're building ·
 market and recruiting scope · primary type of agent (one line) · known for · the one-line why I'm here · offer
-status (in plain words: "Partner Offer: Week 2") · voice in one line · this week's activity target ·
+status (in plain words: "Partner Offer: Week 2") · the program (`brain.md`'s `Program:` line — name · type ·
+cadence — only once the offer is finalized; left out before, never a gap) · voice in one line · this week's activity target ·
 organization today / 12-month target · booking link · socials · brand colours (hex) · compliance status. One
 prose line on how to use the Book. No credential line (byline rule).
 

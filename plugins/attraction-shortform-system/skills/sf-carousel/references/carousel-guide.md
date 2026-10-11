@@ -35,8 +35,8 @@ member actually uses.
 1. **Cover** — the pain, said the way the agent says it: *"You closed 20 deals and you're still broke in March."*
 2. **Why it happens** — the real mechanism, one slide.
 3. **What most agents do** — the thing that doesn't work (never "what your brokerage does").
-4–6. **The fix, in three steps** — the member's actual routine / system / script (from `offer.md` "what worked",
-   `content-pillars.md` Authority seeds). Specific enough to use today.
+4–6. **The fix, in three steps** — the member's actual routine / system / script (from `offer.md` "what worked" — or three steps of its
+   framework, `## The framework`, when the offer has one — `content-pillars.md` Authority seeds). Specific enough to use today.
 7. **What it looks like fixed** — a proof line with consent, or the member's own result as stated.
 8. **CTA** — the keyword: *"Comment **SCRIPTS** and I'll send you the whole thing."*
 

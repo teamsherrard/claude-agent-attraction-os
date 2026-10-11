@@ -21,7 +21,9 @@ it passes the any-agent test. House rules: `${CLAUDE_PLUGIN_ROOT}/shared/house-r
 ## Before writing (silent)
 `brain.md` first (pull if missing) · `identity/voice.md`, `voice-samples.md`, `voice-print.md` (the script
 sounds like them or it's useless) · `identity/journey.md` incl. the `## Why join me` block (the 60-second
-story) · `identity/offer.md` (the Partner Offer: UVP line, what's included, first 30 days; at `Status: seeds`
+story) · `identity/offer.md` (the Partner Offer: UVP line; `## The program` — name · type · cadence · the 90-day outcome,
+named on the call; `## The framework` — the steps; the deliverables table; the `Onboarding: Day 1` lines — "what
+happens next" IS Day 1; an older offer file without those → what's included, first 30 days; at `Status: seeds`
 → build from "what you have to give so far" and say once that Week 2's offer sharpens this) ·
 `identity/positioning.md` (the 2-minute model script, what stays private) · `identity/brokerage-model.md`
 (the model per type; the join steps need the brokerage's onboarding document from `06 · Materials` — missing
@@ -70,7 +72,9 @@ Invite from the Brain doctrine §14 handlers rewritten in the member's voice, pl
 **6 · NEXT STEP — assume the close, make it foolproof (50–60 / 26–30)** — energy up, future-pace: *"This is going
 to be an exciting new chapter. The number one thing people say is they wish they'd come earlier. When it comes to
 a transition date, what feels least disruptive? Time's never perfect — what works so we can put a proactive plan
-in place and you launch with momentum?"* Then exactly what happens next, with confidence and clarity ("so you
+in place and you launch with momentum?"* Then exactly what happens next — Day 1 as the offer defines it (the `Onboarding: Day 1` lines: the welcome call,
+the setup handed over, the first lesson, the group and the weekly-call invite, the first date on the calendar) —
+with confidence and clarity ("so you
 don't go into paranoia mode" — `bonus/perfect-presentation`): *"What's the best email to send the steps to?
 You'll get one email from me today with how to join and what happens after; once you're active you get the
 welcome email with every link."*

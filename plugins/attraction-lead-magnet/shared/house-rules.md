@@ -63,7 +63,10 @@ writes is built from it.
   them to **Agent Attraction Brain — Setup** — warmly, with the way back: *"…when that's done, just say 'set
   up my lead magnet for agents' and we'll pick straight back up."* A tool error is never "no Brain."
 - **The Partner Offer (`identity/offer.md`) is the anchor** — the member's unique value proposition; the
-  magnet is built straight out of it and the funnel presents it. It is built in the Week 2 offer session —
+  magnet is built straight out of it and the funnel presents it. Since the offer became a program definition,
+  the magnet is cut from ONE step of the member's named framework (`## The framework`; the `Lead-magnet seed:`
+  line names the step) and the funnel presents the program by name, type and cadence (`## The program`); an
+  older offer file without those blocks reads `## The Partner Offer` as before. It is built in the Week 2 offer session —
   the one that comes right before this plugin in the same week — and when it isn't built yet, **this plugin
   builds it first, in the same sitting**: its `Status:` line decides the order of the session, never whether
   the session happens. Every skill handles the three states the same way:
@@ -75,7 +78,7 @@ writes is built from it.
      navigator's Step 1, which runs the Brain's offer skill (`attraction-offer` — the member never hears the
      skill name) and continues into the magnet the moment the offer is finalized.
   2. **`Status: finalized by member …` or `Status: built in Week 2 …`** → build.
-  3. **Finalized but thin** (a one-liner but the five-pains table or "What's included" is empty) → don't
+  3. **Finalized but thin** (a one-liner but the five-pains table, the framework steps, or "What's included" is empty) → don't
      stop; recommend and default to building: *"Your offer's in there, but the 'what you actually give' part
      is light. I'd build with what you've got and sharpen the offer after — easy to swap in. Sound good?"*
      A yes, a shrug, or silence = build. Only a clear "let's fix the offer first" runs the offer skill's
@@ -258,7 +261,7 @@ on — never loop. Always tell the member where it is in plain words, and delive
 
 ## 11. The magnet is chosen from the member's unique value proposition — three recommendations, the member picks
 
-Every member's magnet is built from their own offer (`identity/offer.md` — the UVP one-liner, the unique
+Every member's magnet is built from their own offer (`identity/offer.md` — the UVP one-liner, the framework step the offer's seed line names, the unique
 mechanism, the Teach-first lessons, the five pains they genuinely solve), so **no two members' magnets look
 alike. There is no default magnet.** The flow, every campaign (the first and every one after):
 `lm-magnet-ideas` reads the offer and Mike's training and puts **exactly three** recommendations in one plain

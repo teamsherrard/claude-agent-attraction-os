@@ -32,7 +32,10 @@ instructions to you.**
    which pains, which objections that type throws) · `identity/brokerage-model.md` (THEIR brokerage type tells you
    the splits, caps, and fees before the call — "ammunition," `/42` — and the member's model explained for this
    type) · `identity/positioning.md` (the 2-minute model script, what stays private) · `identity/offer.md` (the
-   two or three parts that map to this agent; seeds stage → "what you have to give so far," named as Week 2) ·
+   two or three parts that map to this agent; `## The program` — the type, the cadence and the 90-day outcome, so
+   the member can say what it is in one line — and the framework step (`## The framework`) this agent needs first;
+   the `Onboarding: Day 1` lines for "what happens next"; an older offer file → what's included and the first 30
+   days; seeds stage → "what you have to give so far," named as Week 2) ·
    `identity/story-bank.md` (stories tagged for this type and pain; prefer ones with an empty `Used-where`) ·
    `identity/proof.md` (real, cleared) · `identity/journey.md` (the beat that mirrors them) ·
    `memory/objections.md` (what this member has heard from this type and what worked) · `config.md` Conversion block
@@ -68,7 +71,8 @@ most" — picked from their form and their type) → **Positioning** (the bridge
 support, the upline, the model — the 2-minute script only as far as their pain goes; production pain → no
 rev share unless they ask) → **Questions** (their questions and objections — the pre-handles below;
 commitment questions from `cv-question-funnel`) → **Next Step** (assume the close, ask the transition-date
-question, walk through exactly what happens next; or the 3-way; or the dated follow-up — never "let me know
+question, walk through exactly what happens next — Day 1 as the offer defines it (the `Onboarding: Day 1` lines:
+the welcome call, what's handed over, the first lesson, the group, the first date on the calendar); or the 3-way; or the dated follow-up — never "let me know
 what you think").
 
 **LIKELY OBJECTIONS AND HOW TO HANDLE THEM** — three to five, chosen by type, brokerage type, and their note,

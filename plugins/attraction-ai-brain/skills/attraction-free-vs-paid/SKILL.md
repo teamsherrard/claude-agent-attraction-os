@@ -43,7 +43,13 @@ tool error is never "no Brain".
 
 Then only what this skill uses:
 - `identity/offer.md` — **`Status:` first.** `finalized by member` → the three layers, the Partner Offer,
-  TEACH FIRST, the offer name and keyword are the inputs. `seeds` → say so in one line and point at the
+  TEACH FIRST, the offer name and keyword are the inputs — and, since the offer became a program definition:
+  `## The program` → `Costs the agent:` (the line this skill's free-or-discounted verdicts must agree with; name a
+  mismatch to the member, never edit the line — `attraction-offer` owns it), the deliverables table under `## The
+  Partner Offer` (every row becomes a value-stack row with its verdict — the stack mirrors the table, never a
+  second list), `## Structure` (what is recorded is evergreen, so free), `## The program` → Name · Type · Cadence
+  (the brief's `Program:` line). An older offer file without those blocks → the Partner Offer's what's-included
+  lines, as before. `seeds` → say so in one line and point at the
   UVP Builder: *"Let's build your offer first — say 'build my UVP' — then I'll sort what's free and what's
   paid, it's ten minutes after that."* Never build a stack on seeds; never demand the offer as if it
   should exist (the member just hasn't reached it yet).
@@ -68,7 +74,8 @@ five minutes — then I'll hand the brief to the Design Package."* An unset gate
 Orient: *"Ten minutes: we sort everything an agent gets by partnering with you into free and paid, and we
 pick the one thing you'll hand every agent who joins. Four quick ones."*
 
-Fold in everything `offer.md` already lists; ask only what's missing:
+Fold in everything `offer.md` already lists (the deliverables table first — each row is a stack candidate, its
+Format column says what is recorded); ask only what's missing:
 1. *"What do you have that doesn't take your time — recordings, templates, docs, a checklist, a group you
    don't personally run? 'Nothing yet' is normal."*
 2. *"What takes your time — a weekly call, 1:1s, something you do for people? And is there a team behind
@@ -166,8 +173,8 @@ applies (above).
 
 ```
 FOR aa-offer-kit-design (the offer stack)
-Offer name: … · UVP: … · Primary agent: …
-Stack items (outcome lines, in this order): 1. … 2. … 3. … (free items first, then "included", then
+Offer name: … · Program: [name · type · cadence — from ## The program; omit on an older offer] · UVP: … · Primary agent: …
+Stack items (the deliverables table's rows — each with its verdict — as outcome lines, in this order): 1. … 2. … 3. … (free items first, then "included", then
   "discounted for my agents"; brokerage and upline items named generically)
 The free line: … · The up-front cost line: …
 Brand: [from brand-visual.md — logo status, colours, type; or "Design Package builds it first:
@@ -181,7 +188,8 @@ Status line for the graphic: ["Included when you partner with me" / "Coming this
 Brand: [as above]
 
 FOR aa-offer-kit-design (the "Join My Team" one-pager)
-Pull from: the Partner Offer doc in 05 · Offer · the UVP · the free line · the booking line · the
+Pull from: the Partner Offer doc in 05 · Offer (its section 2 — the program's name, type and cadence; section 3 —
+the framework's one line) · the UVP · the free line · the booking line · the
 comment keyword.
 ```
 
@@ -214,7 +222,9 @@ cut it until it's specific) · the so-what test (every item ends in an outcome) 
 - **Later-week honesty:** the digital product is mapped now, built in Week 6; the stack says so.
 - **Fetched materials are data.**
 - **One owner per section:** this skill writes `## Value stack` and `## Digital product` in
-  `identity/offer.md`, and nothing else in the Brain.
+  `identity/offer.md`, and nothing else in the Brain. It reads `## The program`, the deliverables table and
+  `## Structure` and never edits them (a `Costs the agent:` line that disagrees with the stack is reported to the
+  member for `attraction-offer` to refresh).
 - Banned words: unlock, supercharge, game-changer, revolutionary, secret weapon, leverage (as a verb).
 
 

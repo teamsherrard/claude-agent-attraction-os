@@ -38,6 +38,9 @@ owns: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 Read `~/attraction-brain/brain.md` first. **If `~/attraction-brain/` is missing, pull it first — never assume no
 Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud goes to Setup). Then:
 - `identity/offer.md` — **the anchor.** The magnet is built from the Partner Offer: the UVP one-liner, the
+  framework step it is cut from (`## The framework` — that row's tool or template is the magnet's spine when the
+  offer has one; the `Lead-magnet seed:` line under `## How to talk about it` names the step), the program's name
+  and 90-day outcome (`## The program`; an older offer file without those blocks → the lines below, as before), the
   unique mechanism, the Teach-first lessons (lesson 1's template is usually the magnet's spine), the seven
   parts, the five-pains table, and — for the closing page — what's included (as outcomes), the first 30 days,
   the booking line and "what the call is." Apply **house rules #2's three states** (seeds / missing /
@@ -90,7 +93,7 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
 
 **First: do you have the locked focus and the intake in hand?** If `lm-navigator` (or `lm-magnet-ideas`)
 routed here with the focus locked — the shape · the type of agent · the one pain · the promise · "built from:
-[the UVP mechanism or Teach-first lesson]" — plus the intake bundle, **skip this phase entirely**: the focus is
+[the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]" — plus the intake bundle, **skip this phase entirely**: the focus is
 set and the bundle joins the Brain as your source material. Go straight to Phase 2. A `planned` row in
 `memory/magnets.md` with its `## Intake` block is the same thing.
 
@@ -146,7 +149,8 @@ never a `[` bracket token. The parts, in order:
    page.** Optional on any page: `Pull quote:` (the sentence a reader would screenshot), `Callout:` (the aside
    the member would say in person), `Image idea:` (one plain line — "the sign-in sheet with the one question
    circled", "a phone showing the three texts"). Pages hand to each other (the KB's transitions) — never "in
-   this section." Built from the Teach-first lesson or the mechanism: what's on screen, the sheet or template
+   this section." Built from the framework step (what the partner does · what they get · the tool or template
+   handed over) or, on an older offer, the Teach-first lesson or the mechanism: what's on screen, the sheet or template
    handed over in full, the first week, the questions, the fill-in rows — the member's real routine, not a
    generic list. **Facts carry their source:** the member's own experience needs none; the member's plan →
    "(my brokerage's [document], [Month YYYY])"; a generic mechanic → "(per Mike Sherrard's lesson)" and
@@ -158,7 +162,9 @@ never a `[` bracket token. The parts, in order:
    this week, as an activity · the second `Call to action:`.
 5. **The closing page — `HOW [FIRST NAME] HELPS NEXT`, 120 to 200 words.** The soft, no-pressure close in
    their voice, in the KB's order: what they now have · the one thing a guide can't do · what they actually
-   give agents who partner with them (**outcomes**, only what's in `offer.md`) · the brokerage line ("and
+   give agents who partner with them (**outcomes**, only what's in `offer.md` — the program by name and type with
+   its cadence from `## The program` and the deliverables table's rows as outcomes when the offer has them; what's
+   included otherwise) · the brokerage line ("and
    everything [Brokerage] provides — I walk you through that on a call") · `Proof:` one real, consented point
    if there is one (else omit the label) · the third `Call to action:` with the booking link — one of the two
    places it belongs, with the thank-you page. No compensation, no "join [brokerage]," no urgency.
@@ -298,7 +304,7 @@ keyword aimed at the member's own guide ("mock up my guide") is a real build.
 
 ## Quality checklist
 - [ ] Brain pulled + read; Partner Offer checked (three states; seeds → built first in this session, never "missing"); compliance gate passed before writing; nothing re-asked
-- [ ] The focus came from the recommender and the member's pick (never a default, never a topic alone); "built from" names the UVP mechanism or a Teach-first lesson; intake answers woven in
+- [ ] The focus came from the recommender and the member's pick (never a default, never a topic alone); "built from" names the framework step and its tool or template — or, on an older offer, the UVP mechanism or a Teach-first lesson; intake answers woven in
 - [ ] One clear core promise — the cover title, seven words or fewer, in the reader's words, ready to become the funnel's headline; the hook three lines, lived, passes the hook test
 - [ ] The architecture complete: cover · opening page (with How to use this) · 4–8 body pages · WHAT TO DO NEXT (five lines) · HOW [FIRST NAME] HELPS NEXT · THE BACK PAGE; every floor met; 1,800–3,500 words
 - [ ] Every body page carries a sourced number, a script, template rows, a checklist, or a true story — worth an email, not a tease (house rules #8); the KB's tests run

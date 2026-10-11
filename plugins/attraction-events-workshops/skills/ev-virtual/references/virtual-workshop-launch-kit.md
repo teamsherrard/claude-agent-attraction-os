@@ -40,7 +40,7 @@ Owned and written by `ev-promo` (`skills/ev-promo/references/promo-calendar.md`,
 |---|---|---|
 | 0–5 | Energy open · who the member is (one mirror line) · the promise · "stay to the end for [the resource]" | "Drop where you're joining from" |
 | 5–8 | The pain, in their words (avatars.md) | "Drop a 1 if you've ever [the pain]" |
-| 8–23 | Teaching block 1 (the first thing they'd show a new agent — offer.md "Teach first") | "Type 'yes' if you've tried this" |
+| 8–23 | Teaching block 1 (the one framework step chosen — offer.md "## The framework"; on an older offer, the first thing they'd show a new agent — "Teach first") | "Type 'yes' if you've tried this" |
 | 23–26 | Do-this-now: the one step they take tonight | "What's your version? Drop it" |
 | 26–41 | Teaching block 2 (the system behind block 1) | "Drop a 2 if this is the gap for you" |
 | 41–51 | Block 3 or a live demo (the member's own numbers labeled; an agent's win with consent) | "Questions for the Q&A — drop them now" |

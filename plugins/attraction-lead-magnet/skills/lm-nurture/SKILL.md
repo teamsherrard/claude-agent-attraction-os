@@ -43,7 +43,9 @@ the locked shape if the Brain predates it), `identity/voice-print.md` + `voice.m
 (the type of agent, the pain, what they'd need to hear to believe), `identity/story-bank.md` (the real stories,
 tagged by pain — read only here: never stamp Used-where; note the story used in `list-growth.md` instead),
 `identity/proof.md` (agents helped — consent on file — and upline proof
-labeled), `identity/offer.md` (the Partner Offer as outcomes; free vs paid said straight), `identity/journey.md`
+labeled), `identity/offer.md` (the Partner Offer as outcomes — the program by name, type and cadence from `## The program`,
+the framework in one line, the deliverables, Day 1; free vs paid said straight; an older offer file → what's
+included and the first 30 days), `identity/journey.md`
 (the mirror), `identity/operations.md` (booking link, signature, the weekly call), `memory/content-log.md`
 (read only — this week's video or Reel to point the newsletter at), `memory/debriefs.md` (read only — what
 happened this week, for mode B).
@@ -64,8 +66,9 @@ reading level, the member's voice. The arc:
 4. **Day 7 — proof: an agent like them.** One real story of an agent in the organization (`proof.md`,
    consent on file, verbatim quote if there is one) — Mike's strongest email. If there is none yet: the
    member's own turnaround, honestly labeled; never invented. Soft line: "if you ever want to talk, reply."
-5. **Day 10 — what partnering actually looks like.** The Partner Offer as outcomes (`offer.md`): what's
-   included, the first 30 days, free vs paid said straight. **No compensation, no model.** The brokerage line.
+5. **Day 10 — what partnering actually looks like.** The Partner Offer as outcomes (`offer.md`): the program by name and
+   type with its cadence (`## The program`), the framework in one line (`## The framework` → One line), what's
+   included (the deliverables table's rows as outcomes), Day 1 and the first 30 days, free vs paid said straight. **No compensation, no model.** The brokerage line.
 6. **Day 13 — the questions.** The three questions agents ask most (`objections.md`), answered in one line
    each — the honest versions. Warm optional call line.
 7. **Day 16 — the CTA, warm.** Mike's register verbatim-adapted: *"If you'd like to chat about partnering

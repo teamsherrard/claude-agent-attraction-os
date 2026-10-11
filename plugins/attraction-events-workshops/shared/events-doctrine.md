@@ -91,8 +91,9 @@ grows… and it creates duplication when your agents host their own" (`/74`).
 scaling** — "something that's really going to peak curiosity" (`/74`), "a sexy topic — lead gen, social, YouTube,
 scaling, AI" (`/75`). For evergreen: "something that's going to be aligned with your value proposition — really
 critical" (`/76`). The OS rule that follows: **the theme comes from what the member has actually done** — the
-"What worked for them" table and the "Teach first" line in `identity/offer.md` — never from a topic they cannot
-teach from experience. A brokerage-model topic is never a theme (that is private-call material).
+"What worked for them" table and the "Teach first" line in `identity/offer.md` — and, once the Partner Offer is
+built as a program, ONE step of its named framework (`## The framework`), taught live — never from a topic they
+cannot teach from experience. A brokerage-model topic is never a theme (that is private-call material).
 
 ---
 
@@ -169,7 +170,8 @@ person: an energetic open, a clear promise, nothing withheld, a confident close.
 
 **Above the water:** the free strategies they just got. **Below the water:** "the systems, the mentorship,
 community, tactical playbooks, accountability" (`/74`) — in the OS, the member's real Partner Offer from
-`identity/offer.md` (what's included, the first 30 days), named plainly, never inflated. The invite is to a
+`identity/offer.md` (the program by name, type and cadence, the deliverables table, the first 30 days — what's
+included on an older offer file), named plainly, never inflated. The invite is to a
 **conversation** — a booked call (the Conversion plugin's booking page and show-up sequence take it from there)
 or, in the room, "come talk to us." Compensation, splits, caps, stock, and rev share are never mentioned from the
 front of the room; "the webinar does the positioning for you" (`/76`), the call does the explaining.

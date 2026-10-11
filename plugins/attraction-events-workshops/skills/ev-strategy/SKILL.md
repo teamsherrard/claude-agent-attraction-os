@@ -26,8 +26,9 @@ Doctrine: `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §3–§5, §11–§
 ## Step 0 — Load (lazy; silent — four files; the rest at the step that uses them)
 `brain.md` (pull if missing via `attraction-brain-sync`) · `config.md` (`Member code` — empty on a first event;
 `Timezone`; `Locale`) · `memory/events.md` (past events: what worked, the member code, the last event number) ·
-`identity/offer.md` ("What worked for them," "Teach first," the Edge; What's included — what's below the
-waterline; `Status:`). Every other Brain file is named at the step that uses it ("Read now") — never earlier,
+`identity/offer.md` ("What worked for them," "Teach first," the Edge; `## The framework` — the named steps: a
+workshop topic is ONE step taught live; `## The program` — name · type · cadence — and the deliverables table —
+what's below the waterline; What's included on an older offer file; `Status:`). Every other Brain file is named at the step that uses it ("Read now") — never earlier,
 never re-read once in context. The format arrives from `ev-navigator`; if this skill is reached directly with no
 format, decide it at Step 2 (once that step's files are open) as the navigator does (doctrine §2) and state it
 in one line.
@@ -46,7 +47,9 @@ Read now: `identity/avatars.md` (the primary type, their pains in their words, g
 idea they captured on the go — use it first) · `memory/intel.md` (an industry shift worth a theme) ·
 `memory/content-log.md` (a recent theme not to repeat) · doctrine §4. **Propose, don't ask open questions** — the
 member reacts.
-1. **The topic.** From "What worked for them" / "Teach first" in `offer.md`, matched to the primary type's
+1. **The topic.** ONE step of the member's framework, taught live (`offer.md → ## The framework`: the step's "what
+   you do" is the training, its tool or template the do-this-now) — or, on an older offer without a framework, from
+   "What worked for them" / "Teach first" in `offer.md` — matched to the primary type's
    biggest pain in `avatars.md`. Mike's lanes: social media, YouTube, lead generation, AI, scaling (`/74`, `/75`).
    Propose ONE with the why and two alternates in one line each: *"I'd teach **[the thing you actually did]** —
    it's the pain [type of agent] named in their own words ('[quote from avatars.md]'), and you've got the proof.
@@ -72,8 +75,9 @@ Read now: `identity/positioning.md` (the one line) · `identity/proof.md` (what'
 - **Why the member, in one line** — from `positioning.md`'s "why I'm here" and one proof line (`proof.md`); the
   mirror beat from `journey.md` ("I was the [type] who…").
 - **The close, named now** — the tip-of-the-iceberg transition (doctrine §7) and what sits below the water:
-  the real things from `offer.md → What's included` (the weekly call from `operations.md`, the onboarding, the
-  templates). `Status: seeds` → "what you have to give so far," and one line that the Partner Offer is Week 2's
+  the real things from `offer.md` — the program by name and type with its cadence (`## The program`) and the
+  deliverables table, or `What's included` on an older offer file (the weekly call from `operations.md`, the
+  onboarding, the templates). `Status: seeds` → "what you have to give so far," and one line that the Partner Offer is Week 2's
   session (house rules #16). **The invite is to a conversation** — "come talk to us" (live) / "book a call"
   (virtual, evergreen) with `operations.md → Booking` or the Conversion block's `Booking page`.
 - **The second CTA** — `memory/magnets.md → ## Current magnet` if live, else the slides or a one-page checklist.

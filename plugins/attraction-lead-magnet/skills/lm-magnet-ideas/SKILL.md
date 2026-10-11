@@ -36,6 +36,9 @@ Read `memory/magnets.md`: a row `written` or `designed` with no funnel URL → f
 ## Step 1 — Read what decides it (lazy — open only these)
 - `identity/offer.md` — **the source of every candidate:** the UVP one-liner ("I help [agent] achieve
   [outcome] through [mechanism]" — the `## UVP` section's first line, or the `UVP one-liner:` line), the
+  framework (`## The framework` — the named steps, each with what the partner does, what they get and the tool or
+  template; the step the `Lead-magnet seed:` line under `## How to talk about it` names is the first candidate),
+  the program (`## The program` — the name, the type and the 90-day outcome a magnet points toward), the
   unique mechanism, the Teach-first lessons (lesson 1 first — the thing the member can record tonight), the
   seven parts (core promise, proof, support), and the five-pains table — which pains the member genuinely
   solves and with what.
@@ -57,7 +60,9 @@ qualified to help the person you used to be) and something an agent would trade 
 (`15-advanced-scaling/73`: guides, checklists, scripts, prompts, mini-courses are the assets that build a
 list). Three lanes, so the three differ in kind:
 
-1. **The mechanism magnet** — the member's own system as a guide, a checklist, or a template, from
+1. **The mechanism magnet** — the member's own system as a guide, a checklist, or a template: ONE step of the
+   framework, cut out whole with its tool or template (`## The framework` — the step the offer's `Lead-magnet
+   seed:` line names comes first) or, on an older offer without a framework, from
    Teach-first lesson 1 (the open-house routine · the Sunday follow-up · the sphere plan · the expired
    script · the listing-launch sheet). The thing only they can write, because they did it.
 2. **The outcome magnet** — the result the primary type of agent wants (the UVP's outcome; `avatars.md` →
@@ -73,7 +78,7 @@ If a lane has no honest fit, fill it with a second mechanism or outcome candidat
 distinct in kind.
 
 ## Step 3 — Score silently, never out loud
-1. **UVP fit** — must be teachable from the offer (a Teach-first lesson, the mechanism, or a "Teach it: yes"
+1. **UVP fit** — must be teachable from the offer (a framework step, a Teach-first lesson, the mechanism, or a "Teach it: yes"
    strategy). A magnet the member can't back with real experience is a pitch — out.
 2. **The primary type of agent's pain**, in Mike's five (financial uncertainty · lack of support, mentorship,
    training · technology gaps · limited growth · work-life balance and recognition) — the one that type
@@ -129,7 +134,7 @@ Add a `planned` row to `memory/magnets.md` — `[YYYY-MM-DD] · [Magnet Name] ·
 planned · — · — · GUIDE · — · — · [date]` — and, if the pick came from `memory/ideas.md`, mark that idea
 **used** (status column only). **attraction-brain-sync PUSH** (write → push → verify). Then hand back the
 **locked focus**: the shape · the type of agent · the one pain · the single core promise (the reference's
-promise line adapted to the member) · "built from: [the UVP mechanism or Teach-first lesson]."
+promise line adapted to the member) · "built from: [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]."
 - Came through `lm-navigator` → it runs the intake (its Step 4) and hands `lm-magnet` the focus plus the answers.
 - Entered directly → run the navigator's intake yourself
   (`${CLAUDE_PLUGIN_ROOT}/skills/lm-navigator/references/intake-questions.md`: saved intake first, at most

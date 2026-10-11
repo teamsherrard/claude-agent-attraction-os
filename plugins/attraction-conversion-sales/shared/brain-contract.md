@@ -37,7 +37,7 @@
 | `brain.md` · `config.md` | index · provider, timezone, CRM, the Conversion block, whether the AI Admin is installed |
 | `memory/top-50.md` | who to message, where each agent stands, last touch, next move |
 | `identity/avatars.md` | the type of agent, their pains, the questions and objections to expect |
-| `identity/offer.md` · `identity/positioning.md` | the Partner Offer, the UVP line, the 2-minute model script, what stays for the private call |
+| `identity/offer.md` · `identity/positioning.md` | the Partner Offer — the UVP line; `## The program` (the type, the cadence and the 90-day outcome the member names on a call), `## The framework` (the steps the presentation walks), the deliverables table and the `Onboarding: Day 1` lines ("what happens next" is Day 1); an older `offer.md` without those blocks → `## The Partner Offer` as before — the 2-minute model script, what stays for the private call |
 | `identity/brokerage-model.md` | the model in plain English, per agent type, the Q&A bank — private-call material |
 | `memory/objections.md` | what this member has heard and what worked |
 | `identity/story-bank.md` · `identity/proof.md` | stories by type and pain; proof that is real and cleared for use |

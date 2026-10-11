@@ -73,7 +73,9 @@ Reflect back in one breath so it's clear nothing will be re-asked:
 ## Step 3 — The five pillars (propose, they react; writes `identity/content-pillars.md`)
 **Lazy-load `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` §5–§6 now.** **Open now:** `identity/journey.md`
 (including the `## Why join me` block, if written) · `identity/positioning.md` · `identity/offer.md` (respect its
-Status — at `seeds` the Partner Offer is Week 2; never call the seeds "the offer") · `identity/proof.md` ·
+Status — at `seeds` the Partner Offer is Week 2; never call the seeds "the offer"; finalized → `## The framework`'s
+one-line version is pillar and hook material and `## The program`'s 90-day outcome the promise; an older offer file
+without those blocks → the UVP line, as before) · `identity/proof.md` ·
 `identity/story-bank.md` · `identity/brand-visual.md` (the "leader brand vs selling brand" line) ·
 `identity/operations.md` (the booking link, if `profile.md` has none) · `memory/ideas.md` (tags `shortform`, `story`,
 and its `## Past content (imported)` section — the `pillars:` note on how they post today is held there for this
@@ -123,7 +125,8 @@ added). Every bio answers
 what you help them do · why they should listen · what to do next. Inputs are all in the Brain: the why-join-me
 one-breath line (or the journey's turning point if Week 2 hasn't written it), the known-for, the primary avatar,
 credibility from `proof.md` exactly as stated (none public → lead with who you help; **never invent an award or a
-number**), the resource (`memory/magnets.md → ## Current magnet` first — the guide built in Week 2 — then `offer.md`; at seeds and
+number**), the resource (`memory/magnets.md → ## Current magnet` first — the guide built in Week 2 — then `offer.md` — the program's name goes into a bio
+only where the offer's own bio line under `## How to talk about it` carries it, never its type or cadence; at seeds and
 no magnet → the free thing they already give today, or "book a call"),
 handles and booking link from `profile.md`, brokerage name and license display per `compliance.md`.
 One stop of questions **only if the Brain doesn't answer them** (2–4, together): which platforms they actually
@@ -159,7 +162,7 @@ The bios live only in this file — nothing about them is written into `publishi
 when the ask is "get everything free — partner with me"; a resource word like **SCRIPTS** or **PLAN** when there
 is a real free thing — the Week 2 lead magnet already rides on **GUIDE**, read from `memory/magnets.md → ## Current magnet`,
 so with a live magnet the primary word is usually GUIDE or the invitation word; **the invitation word is the one
-the offer already coined** — `identity/offer.md` → `Comment keyword:` (written by `attraction-offer` in Week 2) — read
+the offer already coined** — `identity/offer.md` → `Comment keyword:` (written by `attraction-offer` in Week 2, coined from the program's name) — read
 it first and propose it unless the member changed it, so the offer, the Partner Offer doc, and the Reels say one word),
 one word, easy to say on camera and type in a comment, never a brokerage name, never a
 word their followers already comment by habit. One line of why. Then the one question that matters:

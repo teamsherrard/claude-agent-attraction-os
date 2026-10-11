@@ -65,7 +65,11 @@ never narrate it, never name files (house rules #1).
 
 The magnet is built **straight out of the Partner Offer** — the member's unique value proposition — so the
 offer comes first. Read `~/attraction-brain/identity/offer.md` → its `Status:` line, and read
-`identity/compliance.md` → its first line, `Status:`. Then decide the welcome from what you found:
+`identity/compliance.md` → its first line, `Status:`. When the offer is built, the magnet is cut from ONE step of the
+member's named framework: `offer.md → ## The framework` lists the steps, and the `Lead-magnet seed:` line under
+`## How to talk about it` (the same step the Partner Offer doc's section 10 names) says which — Step 3's three
+recommendations name that step. An older offer file without those blocks → the Teach-first lesson or the UVP
+mechanism, as before. Then decide the welcome from what you found:
 
 **Offer at `Status: seeds (Week 2 builds the offer)`, the file missing, or only `[bracketed]` placeholders →
 build the offer now, in this session.** Open with the welcome — ONE warm chat message, the member's first name
@@ -97,7 +101,7 @@ welcome says so and goes to the magnet:
 
 A **yes** (or anything that isn't a different request) → Step 3.
 
-**Finalized but thin** (the five-pains table or "What's included" is empty) → keep the build-first default:
+**Finalized but thin** (the five-pains table, the framework steps, or "What's included" is empty) → keep the build-first default:
 one line that the "what you actually give" part is light, that you'll build with what's there and sharpen the
 offer after, then go — *"Your offer's in there, but the 'what you actually give' part is light. I'd build with
 what you've got and sharpen the offer after — easy to swap in. Sound good?"* A yes, a shrug, or silence =
@@ -136,17 +140,19 @@ treat it as the pick (Step 3 already happened): confirm the magnet in one line a
 ## Step 3 — Three recommendations; the member picks (every campaign, first and later)
 
 Hand to **`lm-magnet-ideas`** — for the first campaign and for every one after. It reads the finished offer
-(the UVP one-liner, the unique mechanism, the Teach-first lessons, the five-pains overlap), the type of agent
+(the UVP one-liner, the framework step the offer's lead-magnet seed names — `## The framework` and the
+`Lead-magnet seed:` line — the program's 90-day outcome, the unique mechanism, the Teach-first lessons, the
+five-pains overlap), the type of agent
 they attract, their proof, the questions agents keep asking, the member's own captured ideas, and what has
 converted, and puts **exactly three recommendations** in one plain message — each with who it's for, the pain
-it answers, what in the offer it's built from, and one line on why Mike would recommend it, the lesson cited —
+it answers, what in the offer it's built from (the framework step, by name, when the offer has one), and one line
+on why Mike would recommend it, the lesson cited —
 recommending number one so "yes" works. The member picks the one that resonates; "you pick" takes number one;
 a different idea is sized against the method in one line.
 
 **There is no lock, no pushback script, and no default magnet.** The three are generated from THIS member's
 offer, so no two members get the same three. It writes the `planned` row, pushes, and hands back the locked
-focus (the shape · the type of agent · the one pain · the promise · "built from: [the UVP mechanism or
-Teach-first lesson]"). Then Step 4.
+focus (the shape · the type of agent · the one pain · the promise · "built from: [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]"). Then Step 4.
 
 If the member arrived already naming a shape ("a switching checklist", "a 90-day plan for new agents"),
 `lm-magnet-ideas` still runs — it sizes their idea against the method in one line and, when it fits, makes it
@@ -175,7 +181,7 @@ I'll have your [magnet, in plain words]."* — and go.
 
 1. **Compliance first if it was unset** (Step 1's rule): run `attraction-compliance` now, return here.
 2. Pass to **`lm-magnet`** with the focus **already locked** (the shape, the type of agent, the one pain, the
-   promise, "built from: [the UVP mechanism or Teach-first lesson]") plus the intake bundle — it skips its own
+   promise, "built from: [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]") plus the intake bundle — it skips its own
    Phase 1 and writes. When the magnet is done it hands off to **`lm-funnel`** on its own, which writes the
    sales funnel outline. You don't come back until both are done.
 3. **Close the session in one line** naming what comes next, with one suggestion at most:

@@ -68,7 +68,7 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
 `brain.md` · `identity/profiles.md` (the bios file — one H2 per platform; `lm-profiles` writes it in Week 2, `sf-setup`
 refreshes it in Week 3; read for the entity line — and `yt-setup` fills its `## YouTube` section, see "owns") · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
 `## Short-Form (Week 3)` block — task id · `declined` · `not offered yet`) · `identity/profile.md` · `journey.md` (incl. the
-`## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the offer; the live resource is read from `memory/magnets.md → ## Current magnet` first, `offer.md`
+`## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the offer — `## The framework`'s one line and `## The program`'s 90-day outcome are hook material once written, the program's name only where the offer's own lines carry it; the live resource is read from `memory/magnets.md → ## Current magnet` first, `offer.md`
 second; Status respected) · `brokerage-model.md` (mechanics for model videos; figures never surface in public content) ·
 `prospect-intel.md` · `proof.md` (consent column respected) · `story-bank.md` (stories pulled; Used-where
 stamped — see "also writes") · `voice.md` · `voice-samples.md` · `voice-print.md` (every read-aloud script) ·

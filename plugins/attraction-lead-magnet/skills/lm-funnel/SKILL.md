@@ -144,7 +144,8 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
    headshot`.
 5. **THE JOURNEY** (120+) — `Where I was:` · `What I tried:` · `What changed:` from `journey.md`, short and
    true, the former brokerage never named · optional `Pull quote:` and `Image idea:`.
-6. **THE OFFER** (120+) — `Program:` name · type · `Bullets:` what an agent gets, as outcomes · `The
+6. **THE OFFER** (120+) — `Program:` name · type (its cadence and format inside the bullets, from `## The
+   program`) · `Bullets:` what an agent gets, as outcomes · `The
    framework:` one line · `The first 30 days:` one line · `The brokerage line:` · `Sneak peek title:` "A sneak
    peek inside [the program name]" · `Sneak peek:` six to eight one-sentence bullets from the deliverables
    table, outcomes not features · optional `Image idea:` (the offer stack object). **No splits, caps, tiers,

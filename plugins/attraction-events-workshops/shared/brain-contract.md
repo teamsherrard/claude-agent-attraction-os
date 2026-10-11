@@ -43,7 +43,7 @@ where the two disagree, the OS-wide view wins and this file is wrong.*
 |---|---|
 | `brain.md` · `config.md` | the index · provider, timezone, locale, CRM, `Member code`, whether the AI Admin is installed (a block whose heading starts with `## AI Admin`, first line `AI Admin: set up [date]`), the Lead Magnet block's `List tool`, the Conversion block's `Booking page` |
 | `identity/avatars.md` | the type of agent the event is for, their pains in their words, the geography (local / state or province / national — the format pick), where they gather, the ask that fits |
-| `identity/offer.md` | the hot topic from "What worked for them" and "Teach first"; what sits below the waterline in the close (What's included, the first 30 days); the UVP line; `Status: seeds` → "what you have to give so far" |
+| `identity/offer.md` | the hot topic from "What worked for them" and "Teach first" — and, once the Partner Offer is a program definition, ONE step of `## The framework` taught live; what sits below the waterline in the close (`## The program` — name · type · cadence — and the deliverables table; What's included, the first 30 days on an older offer file); the UVP line; `Status: seeds` → "what you have to give so far" |
 | `identity/positioning.md` | the one-line "why I'm here" for the host intro; what stays for the private call (never on a slide) |
 | `identity/proof.md` | the credibility line on the registration page and the host intro; an agent's win told from the stage (consent); organization size for the evergreen gate |
 | `identity/compliance.md` | the gate (law 3); brokerage name and logo display; recruiting scope; the Meta note; testimonial consent; AI-likeness |

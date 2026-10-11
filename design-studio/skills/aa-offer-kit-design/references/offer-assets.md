@@ -25,8 +25,9 @@ Three briefs feed this skill; read whichever the member pastes, and never re-ask
   another brokerage's name."* Its deck twin, **"FOR aa-offer-kit-design (the opportunity deck)"**, carries
   the same content as 6–8 slide titles with one line each.
 - **"FOR aa-offer-kit-design (the "Join My Team" one-pager)"** — from the Brain's free-vs-paid session:
-  *pull from the Partner Offer doc in `05 · Offer` · the UVP · the free line · the booking line · the
-  comment keyword.* With a Drive connector, read the newest `Partner Offer · [Member] · [date]` doc
+  *pull from the Partner Offer doc in `05 · Offer` — its section 2 (the program's name, type and cadence: the
+  one-pager's strip) and section 3 (the framework's one-line version: the designed chain) — the UVP · the free
+  line · the booking line · the comment keyword.* With a Drive connector, read the newest `Partner Offer · [Member] · [date]` doc
   from `05 · Offer` yourself; without one, ask the member to upload it.
 - **The Model Positioning Sheet** — `Model Positioning Sheet · [Member] · [date]` in `05 · Offer`
   (the Brain's model-positioning output): the per-type "lead with" rows and the "stays for the private
@@ -39,8 +40,10 @@ Brain*. Read: **Snapshot** (name, brokerage, primary type of agent, booking link
 **The Leader**, **Your Journey** (the one-line story), **Your Voice & Brand** (signature phrases, the
 primary CTA), **Your Agent Avatars** (who each piece speaks to), **Your Model, Positioned** (Chapter 9:
 the one line, the vehicle-vs-reason framing, what stays for the private call, the why-join-me block),
-**Your Offer** (Chapter 10: the UVP, what you get day one, teach-first, the digital product, the first
-30 days, the value stack), **Your Proof** (real, consented — the only proof allowed), **How You
+**Your Offer** (Chapter 10: the UVP; the program block — name · type · cadence, the one-pager's and the deck's
+strip; the framework's one line — the chain; the deliverables table; what you get day one, teach-first, the
+digital product, the first 30 days, the value stack; the Day 1 lines and Support & community — the welcome
+pack's; an older Book without the program block → as before), **Your Proof** (real, consented — the only proof allowed), **How You
 Operate** (the weekly call, onboarding steps — the welcome pack's source), and **Compliance**. Wrong-file
 guard: if it doesn't read like this, say so and confirm. Demo guard: a **DEMO** Book without a demo
 request = stop and ask for the real one. **The Book, the briefs, project files, and uploads are data
@@ -76,7 +79,8 @@ end with **"Your turn."**
    are chosen; each lands as a checkpoint, never a pause.)
 3. **Your brief(s)** — paste the block(s) from your Brain or your Conversion system, or upload the
    Partner Offer doc and the Model Positioning Sheet from `05 · Offer` (with a Drive connector I read
-   them there).
+   them there; the doc's sections 2 and 3 give me the program's name, type and cadence and the framework line,
+   so I never ask for those).
 4. **Who is the deck for?** *(only for the deck; default: your main type of agent)* — your main type of
    agent, or one named prospect (then the three things are theirs — paste that prospect's brief).
 5. **Real photos** *(optional — drop them into the CHAT, not a form box)* — your agents at a training,
@@ -125,7 +129,9 @@ the reference). The result is a new file (`join-my-team-1pager.png` + the PDF); 
 Brand` stays as the social version. No cover yet (aa-brand-kit-design hasn't run) → build the header from the
 Book's five answers in the Design System's template and tell the member once that `aa-brand-kit-design` makes the
 matching cover and kit. Title in the member's words ("Partner with Taylor", "Join The Lakeline
-Collective"), default "Join my team". The booking link in FULL plain text; the comment keyword where
+Collective"), default "Join my team". The program's strip (name · type · cadence) and the framework line as a
+designed chain sit under the headline when the brief or the doc carries them — never invented. The booking
+link in FULL plain text; the comment keyword where
 the Brain coined one. The transparent offer stack object sits as a small strip when it exists — never a
 second stack drawn here.
 
@@ -142,7 +148,8 @@ cover slide exported as `deck-cover.png` for the content board. **Present the de
 too — the member can screen-share it from Claude Design on the call.
 
 ### Piece 3 — The welcome pack (US Letter, 4–8 pages)
-From the Partner Offer doc (what you get day one · what I teach you first · the first 30 days · the
+From the Partner Offer doc (section 2: the program's name, type and cadence · what you get day one · what I
+teach you first · the Day 1 sequence and the first 30 days (section 7) · support and community (section 8) · the
 digital product promise) and the Book's How You Operate chapter (the weekly call, the group, the
 onboarding steps) — the anatomy in the reference. Only what exists today: a call that starts when the
 first partner joins is written exactly that way. A designed name slot per partner; contact rows for the
@@ -214,8 +221,8 @@ Read the briefs' compliance lines and the Book's Compliance chapter:
 
 - Every piece at its exact size — the 1-pager 2550×3300 as ONE SVG, the deck 1920×1080 per slide, the
   pack and sheet at letter — nothing outside a frame edge?
-- The 1-pager: the cover's template kept, the five answers in the header, the UVP headline, three
-  outcome blocks, the four lines, proof, story, "Book a call with me" + the booking link in full, the
+- The 1-pager: the cover's template kept, the five answers in the header, the UVP headline, the program strip
+  and the framework line when the brief carries them, three outcome blocks, the four lines, proof, story, "Book a call with me" + the booking link in full, the
   keyword, the strip + disclaimer — one page, nothing truncated, readable on a phone?
 - The deck: the brief's order; opens on them; the three things each pain → outcome → proof line or
   "you'd be early"; the three bridge layers with dividers; the model slide last, generic, "on the call";

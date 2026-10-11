@@ -31,7 +31,9 @@ fonts, the headshot treatment, the components, and the brand language; `02 · Br
 `05 · Offer` holds the product's canonical cover and mockup when `aa-offer-kit-design`'s product mockup piece has run. **The
 Brain Book is "the AI Brain file"**; read **Snapshot** (name, organization, brokerage, compliance
 status), **The Leader** (known for), **Your Agent Avatars** (who the course is for), **Your Offer**
-(chapter 10: "Teach first" — the first three lessons, each "after this you can…"; Module 1 / the first
+(chapter 10: the Structure outline — the phases or modules, what is live and what is recorded, which framework
+steps each covers — the course outline mirrors it when it exists; the framework table — each step's "Taught in"
+names its lesson; "Teach first" — the first three lessons, each "after this you can…"; Module 1 / the first
 lesson; the first 30 days; the **Digital product** map — name · format · promise · outline (3–7 parts,
 each "after this part you can…") · cover line · three bullet promises · status), **Your Proof** (one
 real line for the outline page), **How You Operate** (the call and the community — the course's

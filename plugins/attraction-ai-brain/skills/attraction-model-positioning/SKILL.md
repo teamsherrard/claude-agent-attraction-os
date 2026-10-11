@@ -52,7 +52,9 @@ Loaded later, at the step named:
 - **Build:** `identity/brokerage-model.md` — the plain-English mechanics and the "never say" list (if built;
   if not, the sheet's mechanics lines read "[the Brokerage Model Expert fills this in — say 'learn my
   brokerage model']" and nothing is invented) · `identity/offer.md` — the three layers (brokerage · upline ·
-  you) for beat 5; if Status is seeds, the script's "what I add" beat uses the raw material and says Week 2's
+  you) for beat 5, and `## The program` → Name · Type when the offer is finalized (the "what I add" beat names the
+  program in one breath — the same words as the Partner Offer doc and `brain.md`'s `Program:` line; an older offer
+  file without the block → the UVP one-liner alone); if Status is seeds, the script's "what I add" beat uses the raw material and says Week 2's
   offer skill sharpens it; it never demands an offer that isn't built · `identity/proof.md` — agents helped,
   organization size (the "prove what you say" beat, `/17`) · `identity/voice.md` — if built, the one-liner's voice
 - **The compliance gate (before any public-facing line is handed over):** `identity/compliance.md` — its
@@ -112,7 +114,8 @@ the journey, say why each fits, recommend one. Their choice is final.
 
 ## Build
 
-Read now: `identity/brokerage-model.md` (if built), `identity/offer.md` (the three layers), `identity/proof.md`,
+Read now: `identity/brokerage-model.md` (if built), `identity/offer.md` (the three layers; `## The program` → Name · Type when
+written), `identity/proof.md`,
 and `identity/voice.md` (if built).
 
 ### 1. The one-line "why I'm here"
@@ -135,7 +138,8 @@ The script is a skeleton the member speaks, not a monologue they read. Beats:
    support layers, training, how a brand can grow beyond a market, how someone's best agent can stay
    their partner — only the ones true for the member's model.
 5. **What I personally add** — the "you" layer from `offer.md` (seeds → the one thing they'd teach first,
-   stated as that; finalized → the UVP one-liner).
+   stated as that; finalized → the UVP one-liner, plus the program in one breath when the offer defines one:
+   "[name] — a [type]" from `## The program`, never its cost line or cadence in the script).
 6. **Proof** (`/17`: prove what you say) — one agent helped, or "I'm doing this myself right now and
    here's what's happened", never fabricated; none yet → the upline's proof as "we / our group"
    (`02-prospect-targeting/21`), named generically.

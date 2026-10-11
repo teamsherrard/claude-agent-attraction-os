@@ -61,6 +61,13 @@ If `config.md` carries a `Cohort week` line (whichever plugin stamps it), use it
 nothing and report the Week 1 bar only. **Never demand a later week's deliverable early and never call it
 missing.**
 
+**The quick-reference mirror (part of the quick-ref refresh this skill owns):** when `offer.md` is finalized and
+carries `## The program`, `brain.md`'s `**Program:**` line must read `[name] · [type] · [cadence]` in the same
+words, and `**UVP (one line):**` must match `## UVP`'s first line; a line still reading "not built yet" or
+carrying different words is stale — refresh both from `offer.md` (write → push → verify) and say nothing about
+it beyond the housekeeping line. Never edit `offer.md` for this. An older `offer.md` without the block → leave the
+`Program:` line as it is; it is not a gap.
+
 **Memory ledgers** (top-50 · conversations · pipeline · organization · scorecard · objections ·
 debriefs · content-log · ideas · intel · deadlines): these fill as the member works — never penalize
 sparse content; only flag a FILE that is missing entirely (that is a structure problem for

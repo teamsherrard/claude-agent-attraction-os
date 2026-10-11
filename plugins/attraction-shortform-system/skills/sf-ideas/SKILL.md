@@ -30,7 +30,9 @@ Read `~/attraction-brain/brain.md` first. If `~/attraction-brain/` is empty, pul
 Agent Attraction Brain setup. Then open only what this needs:
 - `identity/avatars.md` — the one to three Agent Avatars and their pains (every idea is for one of them)
 - `identity/positioning.md` + `identity/offer.md` — the niche and what the member teaches (the "tip of the
-  iceberg" the Reels give away, `07-instagram/88`). If `offer.md` says `Status: seeds`, use the seeds as
+  iceberg" the Reels give away, `07-instagram/88`; once the offer is built, the framework's steps and its one-line
+  chain (`## The framework`) are that material and `## The program`'s 90-day outcome the promise — the program's
+  name only where the offer's own lines carry it). If `offer.md` says `Status: seeds`, use the seeds as
   topics and never ask for the finished offer; Week 2 builds it.
 - `identity/content-pillars.md` — the pillar names and the member's realistic weekly number (written by
   `sf-setup`). If it does not exist yet, use the five pillars below and say `sf-setup` fills this in.

@@ -83,7 +83,10 @@ title method, the goal-math, the calendar, the stamp). Orchestrate — do not re
 ---
 
 ## Phase 1 — The audit and the positioning read (scaled; honest, never flattery)
-**Read now:** `identity/profile.md` · `strategy.md` (known for, priorities) · `offer.md` (the offer; the live resource
+**Read now:** `identity/profile.md` · `strategy.md` (known for, priorities) · `offer.md` (the offer — once built, `## The framework`'s one-line version is hook and title material (the steps as a
+chain) and `## The program`'s 90-day outcome is the promise a lane points at; the program's name appears in a title,
+a description or the channel bio only where the offer's own `How to talk about it` lines carry it — never its type or
+cadence; an older offer file without those blocks → the UVP line; the live resource
 is `memory/magnets.md → ## Current magnet` first when it exists, `offer.md` second; `Status: seeds` → "Week 2 builds
 the offer"; never demand it) · `identity/journey.md` (`## The WHY`, `## The leader moment`, and `## Why join me` when
 Week 2 wrote it — the WHY below) · `memory/content-log.md` (what already exists). Per the framework: 100 videos → full read (which of the three categories are present, which absent; CTA

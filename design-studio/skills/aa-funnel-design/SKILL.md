@@ -173,6 +173,10 @@ build.
   shape. **No fake scarcity** — no countdown, no "spots left." **The two cardinal rules**
   (`03-model-positioning/13`): no former brokerage named, nothing negative about any brokerage or person.
   **Proof only from the doc and the Book**, consented, dated.
+- **The offer section is the program as the doc names it** — `Program:` (name · type; its cadence and format
+  inside the bullets), the framework line, the first-30-days line, the sneak peek — the doc read the Brain's
+  program block and framework, so the words are the member's; never add a type, a cadence, a step, or a tier the
+  doc doesn't carry.
 - **The three tests** decide the look: authority · relatability · aspiration. A page that could be any
   sponsor's fails all three — the doc's specifics, the member's video and photos, and the brand's
   direction are what pass it.

@@ -52,13 +52,14 @@ that doesn't look like they've got a credible brand," `/76` — the kit in `02 �
 
 ## Step 2 — The four-step framework (`/76`), decided (one stop, pre-answered; your turn)
 Read now: `memory/events.md` (past virtual trainings — the best one is the evergreen's source) · `identity/offer.md`
-(the topic aligned with the value proposition; what's below the water) · `identity/compliance.md` first line
+(the topic aligned with the value proposition — ONE step of `## The framework` when the offer has one; what's below
+the water: `## The program` and the deliverables table, or what's included on an older offer file) · `identity/compliance.md` first line
 (`Status:`) and the Recruiting scope (+ the ad policy) · the Short-Form block's keyword in `identity/publishing.md`
 (`Keyword:`) · the Lead Magnet block's `List tool` in `config.md`.
 1. **Record a training on a hot topic aligned with your value proposition.** The source: the member's
    best-performing virtual training in `events.md` (highest engaged and calls-booked counts) — "refine the
    presentation so it delivers value while positioning your offer." No past training → the topic from
-   `offer.md → Teach first`, built like a virtual training first (`ev-runofshow`), recorded once, cleanly.
+   `offer.md → ## The framework` (one step) or, on an older offer, `offer.md → Teach first`, built like a virtual training first (`ev-runofshow`), recorded once, cleanly.
 2. **Refine so it delivers value while positioning the offer** — the script outline (Step 3): the same iceberg
    close, tighter; every claim labeled; the scope line.
 3. **Automate the delivery** — the on-demand registration page (`ev-registration`, evergreen "watch now"
@@ -88,7 +89,8 @@ in the member's voice (`voice-print.md`):
   what the organization actually is (Mike's handler, `11-objection-handling/49`).
 - **The iceberg close (45–50):** adapted from `/76`: *"What you learned today is just the tip of the iceberg. If
   you want the full system, the mentorship, and the community, that's exactly what you get when you partner
-  with me — and it's free."* What's below the water: the real things from `offer.md`. **Book a call**: the
+  with me — and it's free."* What's below the water: the real things from `offer.md` (the program by name and type, the deliverables
+  table). **Book a call**: the
   booking link on screen and in the page. The scope line: "if you're licensed in [states/provinces]."
 - **The resource and goodbye (50–52):** the live lead magnet or the slides; "the replay stays on this page."
 - **Never:** compensation, splits, caps, stock, income, another brokerage's name with a flaw, "limited time"

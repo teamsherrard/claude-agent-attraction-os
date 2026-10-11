@@ -21,7 +21,8 @@ material into the things they hand every agent who partners with them: a **playb
 worksheet** from a training they wrote; their **course**, packaged (the outline, module workbooks,
 lesson title cards, the certificate, the tiles); a **short book** from their story and method; and
 the **partner onboarding roadmap** — the Day 1 → Day 30 poster, the new-partner checklist, and the
-"where to show up" card built from the Partner Offer's first-30-days table. This is the Week 6 build of
+"where to show up" card built from the Partner Offer's first-30-days table, its Day 1 sequence, and its
+support-and-community section (the weekly call, the group chat, the 1:1 cadence). This is the Week 6 build of
 the Week 2 promise — *"join me and I give you this"* — in the member's words, under the one canonical
 cover the offer kit made. Mike's rule for what to give away (`04-value-proposition/31`): anything
 evergreen that doesn't take the member's time is free to their agents from day one; these are those
@@ -81,8 +82,10 @@ partner onboarding roadmap** (its Day 1 row names the product the partner receiv
    or book text the member wrote (DOCX, PDF, or pasted — written in their Brain first if it isn't
    written yet; this skill designs pages, it doesn't write the method) · the product's cover (found in
    the project or `05 · Offer`, or designed here and announced as canonical) · for a course, where
-   agents will watch it and whether they've recorded · the Partner Offer doc (the first-30-days table —
-   read from `05 · Offer` through the Drive connector, or uploaded) and the call, group, and first
+   agents will watch it and whether they've recorded · the Partner Offer doc (the first-30-days table, the Day 1
+   sequence and the support-and-community section — sections 7–8 — for the roadmap; the phases — live vs
+   recorded, the framework steps in each, section 5 — for a course's outline; read from `05 · Offer` through the
+   Drive connector, or uploaded) and the call, group, and first
    lesson details the Book doesn't carry · real photos, dropped into the CHAT (the member teaching,
    their agents at a training with permission — never stock) · anything to feature or avoid. One
    confirmation line above it; every creative choice has a "Decide for me"; end with **"Your turn."**
@@ -105,7 +108,9 @@ partner onboarding roadmap** (its Day 1 row names the product the partner receiv
    incomplete or off-template is fixed before any new page is added.
 5. **A piece whose material doesn't exist is skipped, not invented.** The training not written → say
    so and name the Brain phrase that writes it; the first-30-days table empty → the roadmap waits
-   ("say 'build my UVP' in your Brain — the Partner Offer carries your first 30 days"). Never write a
+   ("say 'build my UVP' in your Brain — the Partner Offer carries your first 30 days"). A course's outline
+   mirrors the program's phases (the doc's section 5; the Book's Structure outline) when they exist — never a
+   module the phases don't name. Never write a
    lesson, a step, a story, or a week to fill a gap (THE THIN-LESSON RULE, in every reference).
 6. **One export page for the run:** the board's **"Download your value vault"** button (zip
    `value-vault.zip`), `KIT_REQUIRED` = every canonical picture name the run built (the cover ONLY when
@@ -141,9 +146,13 @@ Brain*; for the ebook's assembled path it is also the SOURCE of the words. Read:
 organization, brokerage, booking link, compliance status), **The Leader** (known for — the welcome
 page; the before-story), **Your Journey** (the three beats and the why-line), **Your Story Bank**,
 **Your Model, Positioned** (the "Why join me" block), **Your Agent Avatars** (who the product and the
-roadmap are for), **Your Offer** (Chapter 10: "Teach first" — the first lesson and the sheet; Module 1
-/ the first lesson; the first 30 days as a partner — the roadmap's table; "what you get day one"; the
-Digital product map — name · format · promise · outline · cover line · three bullet promises · status),
+roadmap are for), **Your Offer** (Chapter 10: the program block — name · type · cadence, the welcome page's one line; the
+framework table — each step's "Taught in" names its module; the Structure outline — phases, live vs recorded —
+the course outline mirrors it; "Teach first" — the first lesson and the sheet; Module 1
+/ the first lesson; the first 30 days as a partner, the Day 1 lines and Support & community — the roadmap's table
+and card; "what you get day one"; the deliverables table; the
+Digital product map — name · format · promise · outline · cover line · three bullet promises · status; an older
+Book without the program block → Teach first and the first 30 days, as before),
 **Your Proof** (real, consented — one line for a welcome or outline page; the partners' stories),
 **How You Operate** (the weekly call, the community and how to get in, who to message when stuck, a new
 agent's first steps, the booking line — the plug-in page's and the roadmap's source), and

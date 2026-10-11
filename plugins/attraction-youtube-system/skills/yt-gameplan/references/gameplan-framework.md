@@ -19,7 +19,8 @@ Substance and structure are what make it worth the cohort price — never visual
    first interview to invite, the one channel fix.
 3. **Channel audit** — scaled (below). Positioning read included.
 4. **Your positioning** — for whom · known for · the one line ("[Name] helps [avatar] [outcome] through
-   [mechanism]" — from `offer.md`'s UVP when Week 2 built it; otherwise built from `strategy.md` + `avatars.md`
+   [mechanism]" — from `offer.md`'s UVP when Week 2 built it, with the framework's one-line version (`## The framework` → One
+   line) as hook material; otherwise built from `strategy.md` + `avatars.md`
    and labeled "draft until Week 2") · **the WHY, three statements in the member's voice** — why I'm building this ·
    what's missing for the agents I attract and how I bridge it (never a word against another team or brokerage —
    `03-model-positioning/13`) · why me, for a new agent and for a seasoned one — read from `journey.md` (`## The

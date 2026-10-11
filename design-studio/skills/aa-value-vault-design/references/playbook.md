@@ -33,7 +33,8 @@ components, and the brand language; `02 · Brand` holds the kit; `05 · Offer` h
 canonical cover and mockup when `aa-offer-kit-design`'s product mockup piece has run. **The Brain Book is "the AI Brain file"**;
 read **Snapshot** (name, organization, brokerage, compliance status), **The Leader** (known for — the
 welcome page), **Your Agent Avatars** (who the playbook is for — the primary type of agent), **Your
-Offer** (chapter 10: "Teach first" — the first lesson and the sheet they'd hand over; Module 1 / the
+Offer** (chapter 10: the framework step the playbook teaches — its tool or template is the playbook's spine —
+when the offer has one; "Teach first" — the first lesson and the sheet they'd hand over; Module 1 / the
 first lesson; the first 30 days; the **Digital product** map — name · format · promise · outline ·
 cover line · three bullet promises · status), **Your Proof** (one real line for the welcome page),
 **How You Operate** (the weekly call, the community, the onboarding steps — the plug-in page), and

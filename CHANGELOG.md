@@ -2,6 +2,12 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.9.0] — 2026-10-10
+
+### The program block feeds every system (the user's sync rule: the UVP, the program and the lead magnet feed everything)
+- Every reader of the offer outside the offer skill now reads the v0.7.0 program blocks (the program, the framework, the structure, support and community, the deliverables table, the Day 1 lines, the lead-magnet seed line) with the fallback to the older Partner Offer block: the Lead Magnet navigator, ideas, writer, funnel, nurture and profiles (the magnet is cut from one named framework step; the funnel's offer section carries the program's name, type and cadence); the Design Studio's offer kit (the stack's tiers are the deliverables, the one-pager and deck carry the framework line), funnel and value vault (the course outline mirrors the structure, the onboarding roadmap reads Day 1); Conversion's presentation, call prep and enrollment script (type, cadence, the 90-day outcome, Day 1 as "what happens next"); Events (a workshop topic is one framework step taught live); YouTube and Short-Form (the framework line as hook material); the Brain's free-vs-paid, model positioning, why-join-me and brain-health (the Program quick-reference line refreshed when stale); the Support desk's Week 2 rows; the OS contract's read rows; Book Chapter 1 lists the Program line once finalized.
+- Versions: attraction-ai-brain 0.3.2 · attraction-conversion-sales 0.1.4 · attraction-events-workshops 0.1.3 · attraction-lead-magnet 0.3.1 · attraction-shortform-system 0.1.6 · attraction-youtube-system 0.1.6 · maa-claude-support 0.1.5.
+
 ## [0.8.0] — 2026-10-10
 
 ### Lead magnet and funnel copy, dialled in (user ask: "super high-quality copy, a really good hook, context, ending, calls to action")
