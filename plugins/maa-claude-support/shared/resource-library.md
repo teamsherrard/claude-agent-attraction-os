@@ -72,7 +72,7 @@ it`. Priority rows to fill:
 | "How do I install all this?" | Setup video 4 — Installing the Agent Attraction OS and connecting your tools · `[NOT SET]` |
 | "What are skills / plugins / connectors / scheduled tasks / Claude Design?" | Setup video 3 — Claude features · `[NOT SET]` |
 | "Show me the Brain intake" | Setup video 5 + Week 1 core video 2 — Build Your Agent Attraction Brain · `[NOT SET]` |
-| "What is the Design Package / how do I use the ds- skills?" | The Agent Attraction Design Package walkthrough (Week 1, alongside the Brain) · `[NOT SET]` |
+| "What is the Design Package / how do I use the `aa-…-design` skills?" | The Agent Attraction Design Package walkthrough (Week 1, alongside the Brain) · `[NOT SET]` |
 | "How do I build my digital product?" | Build Your Digital Product walkthrough (Week 6) · `[NOT SET]` |
 
 Until set: point at the week's Circle space ("the Week N videos cover this") rather than

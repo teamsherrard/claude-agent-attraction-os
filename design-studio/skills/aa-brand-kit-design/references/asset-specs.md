@@ -160,7 +160,7 @@ sheet — the member's name (or the organization's lockup) and role line, the po
 who-you-help row, the proof chip if real, the member's cut-out or the treated culture photo, the
 booking link in FULL plain text with "Book a call with me", and the compliance strip + any required
 disclaimer. **The body is reserved by design:** a quiet labelled band ("What you get — built in
-Week 2") — `aa-offer-assets-design` fills the page from the Partner Offer. Title in the member's words
+Week 2") — `aa-offer-kit-design` (its one-pager piece) fills the page from the Partner Offer. Title in the member's words
 ("Partner with Taylor", "Join The Lakeline Collective"), default "Join my team". Nothing about
 splits, caps, stock, or earnings — ever — on this page.
 

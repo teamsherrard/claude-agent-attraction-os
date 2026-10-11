@@ -3,7 +3,7 @@ name: lm-design
 description: >
   Writes the paste-ready design brief that turns the member's written agent-attraction lead magnet
   into a styled PDF with a cover and a 3D mockup — for the Design Studio's aa-lead-magnet-design skill in
-  Claude Design (aa-product-mockup-design for the mockup alone). Reads the finished magnet doc and the
+  Claude Design (aa-offer-kit-design's product mockup piece for the mockup alone). Reads the finished magnet doc and the
   brand from identity/brand-visual.md (logo, colors, fonts, headshot; the leader brand distinct
   from the brokerage's colors; the brokerage logo where compliance requires it), names the files
   to upload (the magnet doc + the newest Brain Book), and states what the designer must not change
@@ -18,7 +18,7 @@ description: >
 
 The magnet is written; now it needs to look like something an agent wants to open. **This skill writes the
 brief, nothing else** — the Design Studio's **`aa-lead-magnet-design`** (cover + interior + 3D mockup) and
-**`aa-product-mockup-design`** (the mockup alone) do the designing, inside the member's Claude Design workspace.
+**`aa-offer-kit-design`** (its product mockup piece, for the mockup alone) do the designing, inside the member's Claude Design workspace.
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — #1, #3 (this is the ONE skill in the
 plugin that writes design direction, because the brief IS the deliverable), #10. The three laws:

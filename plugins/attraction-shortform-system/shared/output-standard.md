@@ -34,7 +34,7 @@ Agent Attraction OS/
       │           └── 2026-11-30 · Short-Form Deep Dive                (Doc — sf-analytics, monthly)
       └── Graphics/
             └── 2026-11 · November/
-                  └── 2026-11-20 · Carousel · Why I Left               (Doc — the spec aa-carousel-design reads)
+                  └── 2026-11-20 · Carousel · Why I Left               (Doc — the spec aa-content-design reads)
 ```
 
 Don't pre-create empty month folders — create the current month's folder the first time you save into it.
@@ -145,7 +145,7 @@ Tags:
 COMPLIANCE
 [the stamp from compliance.md — brokerage name / license / disclaimer as required; "none required" if so]
 ```
-(Carousel docs use SLIDE 1 / SLIDE 2 … + THE DESIGN BRIEF FOR AA-CAROUSEL-DESIGN + the IG/FB block + the LINKEDIN block;
+(Carousel docs use SLIDE 1 / SLIDE 2 … + THE DESIGN BRIEF FOR AA-CONTENT-DESIGN + the IG/FB block + the LINKEDIN block;
 story docs use STORY 1 / STORY 2 … with the category, the text overlay, the sticker, and the reply CTA; the
 calendar uses WEEK 1 → WEEK 4 tables; performance docs use the review structure from `sf-analytics`' own
 reference. Same formatting rules throughout.)

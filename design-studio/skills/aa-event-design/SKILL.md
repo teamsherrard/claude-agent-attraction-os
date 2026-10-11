@@ -58,7 +58,7 @@ their one-line credential as they state it · consent on file · photo supplied 
 leave with** (three real things) · **Registration** (the page link — or "comment the word [KEYWORD]" ·
 Seats or deadline, real — or none) · **Pieces** (1. feed graphic 2. story set — 7 countdown frames:
 pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open 3. speaker spotlight
-card 4. carousel — 3–5 slides, built by `aa-carousel-design`'s event intake 5. the banner / photo-spot backdrop,
+card 4. carousel — 3–5 slides, built by `aa-content-design`'s event intake 5. the banner / photo-spot backdrop,
 live only) · **Copy on each** (verbatim — headline, sub-line, CTA) · **Brand** · **Required line (verbatim)** ·
 **Brokerage-neutral** (yes for live local / n/a) · the standing rule *"Never on the graphic: splits, caps,
 stock, rev share, income, another brokerage's name, recruiting"* · the **Ad note**. **"FOR aa-event-design
@@ -68,7 +68,7 @@ slides, 16:9) · the numbered slide list (Title · The promise · Who this is fo
 beat · Do-this-now · Proof · Q&A · The iceberg · Book a call / Come talk to us · Your resource · Thank
 you) · **Compliance strip (where required, verbatim)** · *"Never on a slide: …"*.
 **The brief is the content — design it, don't re-plan the event.** Pieces 4, the carousel, is
-`aa-carousel-design`'s (its event intake reads this same promo brief) — never built here. A brief in another
+`aa-content-design`'s (its event intake reads this same promo brief) — never built here. A brief in another
 shape is read for the same fields; ask only for what's missing (format, timezone, the hosts' consent, the
 registration link).
 
@@ -167,7 +167,7 @@ no-drift test after each wave.
    link; live: "come find me after") → your resource → thank you + the speakers' names. Per-slide
    talking points in chat.
 
-**Not built here:** the carousel (the brief's Pieces 4) is `aa-carousel-design`'s — its event intake reads this
+**Not built here:** the carousel (the brief's Pieces 4) is `aa-content-design`'s — its event intake reads this
 same promo brief. Say so in one line (*"say 'design my carousel' and paste your promo brief"*) and never
 render a carousel slide on this board.
 
@@ -279,7 +279,7 @@ own **"Download the event graphics"** button (zip: `event-graphics.zip`). Canoni
 `countdown-04-do-this-now.png` · `countdown-05-whos-coming.png` · `countdown-06-countdown.png` ·
 `countdown-07-doors-open.png` (· `countdown-08-replay.png` only with a replay line) ·
 `speaker-[firstname].png` · `zoom-background.png` · `starting-soon.png` · `event-banner.png` ·
-`replay-post.png` · `replay-story.png` · `event-captions.md`. The carousel's files are `aa-carousel-design`'s
+`replay-post.png` · `replay-story.png` · `event-captions.md`. The carousel's files are `aa-content-design`'s
 (`carousel-[event-slug]-NN.png` + its LinkedIn PDF) and export from its board, not this one.
 
 The deck exports as `[event-slug]-slides.pdf` from Claude Design's Export menu (slides in order, one

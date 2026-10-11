@@ -141,7 +141,7 @@ a generic icon and the note that the guide fills it later; the CTA is **"Book a 
 - **Highlight covers = a mini website for your recruiting** (Mike's words) — About me · Agent wins ·
   Culture · Free value · Partner with me — instantly distinguishable, clearly one family.
 - **The "Join My Team" cover = the front door of the offer** — the five answers on one page; the body
-  arrives in Week 2 with `aa-offer-assets-design`.
+  arrives in Week 2 with `aa-offer-kit-design` (its one-pager piece).
 
 **The phone test:** judge every piece at its REAL display size — a feed post at ~400px wide, the banner
 as the thin strip it truly is, the profile picture at 40px. If any text is illegible or the message
@@ -391,7 +391,7 @@ logo, layout, colours, the compliance strip — stays. Their handle, headshot, a
 After the push: *"Your kit is in `02 · Brand`. Back in your Brain, say 'update my attraction brand
 direction' and tell it the kit is done, then 'show me my Brain' — your Brain Book's brand chapter
 shows the kit on the next regenerate, and your health check counts it."* Next for them: Week 2's
-offer, and `aa-offer-assets-design` fills the Join My Team page.
+offer, and `aa-offer-kit-design` fills the Join My Team page.
 
 ## DEMO MODE
 

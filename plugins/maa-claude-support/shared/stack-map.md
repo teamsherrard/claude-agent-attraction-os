@@ -15,7 +15,7 @@ Mike (2026-10-08): not a plugin, parked.
 |---|---|---|---|---|---|
 | 1 | **Agent Attraction Brain** (W1) | `attraction-` | 26 | **BUILT** | "Set up my **attraction** brain" |
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "MAA help" / "help" / "I'm stuck" / "what did Mike say about…" |
-| – | **Design Studio** (Claude Design skill set, NOT a plugin) — W1 Design Package (logo · style sheet · brand), W2 offer assets, W6 recognition · events · Value Vault; a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's Brand HQ project (there is no thumbnail design skill) | `aa-…-design` | 14 | **all 14 BUILT** (upload files in `design-studio/_dist`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
+| – | **Design Studio** (Claude Design skill set, NOT a plugin) — W1 Design Package (logo · style sheet · brand kit), W2 the offer kit · lead magnet · funnel · content, W3 the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's Brand HQ project (there is no thumbnail design skill) | `aa-…-design` | 10 | **all 10 BUILT** (upload files in `design-studio/_dist`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
 | 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **BUILT** | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
 | 4 | **Short-Form** (W3) | `sf-` | 13 | **BUILT** | "set up my attraction short-form" |
 | 5 | **AI Editor — Riverside** (W3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **vendored** | "set up my video editor" / "edit my reel" |
@@ -90,7 +90,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Run my debrief / what requires my attention today" · the Daily Agent Attraction Debrief | `attraction-debrief` | 1 |
 | "What did Mike say about ___" / "ask Mike" / "which lesson covers ___" | `maa-support-cohort` (the Ask-Mike lane → `shared/kb/kb-index.md`) | 2 |
 | "Help" / "I'm stuck" / any Claude question or breakage | `maa-support-navigator` | 2 |
-| "design my attraction logo" / my style sheet / my offer stack / my product mockup / my playbook / my ebook / my course | an `aa-…-design` skill INSIDE Claude Design (the Brain's brand-direction skill writes the brief; a thumbnail is a `yt-thumbnail` brief pasted into the Brand HQ project) | – |
+| "design my attraction logo" / my style sheet / my brand kit / my offer kit (the stack, the mockup, the one-pager, the deck) / my carousel / my win wall / my video brand kit / my event flyer / my value vault (my playbook, my course, my ebook, my onboarding roadmap) | an `aa-…-design` skill INSIDE Claude Design — `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design` · `aa-offer-kit-design` · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` · `aa-video-kit-design` · `aa-event-design` · `aa-value-vault-design` (the Brain's brand-direction skill writes the Week 1 brief; a thumbnail is a `yt-thumbnail` brief pasted into the Brand HQ project) | – |
 | "set up my attraction short-form" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
 | "how is my attraction content doing" · "set up my Friday performance note" (the Weekly Content Performance agent) | `sf-analytics` | 4 |
 | "edit my reel" / "edit my YouTube video" / "edit my interview" · "set up my video editor" · any edit ask | `studio-navigator` (it translates + routes: `studio-reel`, `studio-longform`, `studio-interview`, `studio-setup`) | 5 |
@@ -173,9 +173,14 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - Needs nothing to help. Needs a Brain to log and to track weeks (`maa-support-setup`).
 - Its only writes: `memory/support-log.md`, `memory/claude-updates.md`, the config block.
 
-### Design Studio — Claude Design skill set (W1 · W2 · W6) — BUILT
-- NOT a plugin. 14 `aa-…-design` zips uploaded at claude.ai/customize/skills + the Agent Attraction
-  Design System set up inside Claude Design. Reads the uploaded Brain Book, never `~/attraction-brain/`.
+### Design Studio — Claude Design skill set (W1 · W2 · W3 · W6) — BUILT
+- NOT a plugin. 10 `aa-…-design` zips uploaded at claude.ai/customize/skills + the Agent Attraction
+  Design System set up inside Claude Design: Week 1 `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design`;
+  Week 2 `aa-offer-kit-design` (the product mockup, the offer stack, the one-pager, the deck, the welcome pack, the
+  comparison sheet) · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` (carousels + recognition);
+  Week 3 `aa-video-kit-design` (the Riverside editor's overlays — upload with the Riverside plugin; "register my video
+  brand kit" in Cowork afterwards); Week 6 `aa-event-design` · `aa-value-vault-design` (playbook · course · ebook · the
+  partner onboarding roadmap). Each kit skill runs one piece by its phrase, or the whole kit with one checkpoint. Reads the uploaded Brain Book, never `~/attraction-brain/`.
 - Known modes: a zip rejected = description over 1024 chars or a nested zip (tree #11); "the skill
   isn't in Design's list" = wrong account/workspace (FAQ Q38); "it doesn't look like my brand" =
   the design system was never set up in Design (the root fix).

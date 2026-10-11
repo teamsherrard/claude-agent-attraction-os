@@ -105,7 +105,7 @@ or technical is baked in silently.
 
 The **Design System** in this project holds the logo files, colours, fonts, headshot treatment, the
 toolkit, voice cards, and the compliance block; `aa-brand-kit-design` left the cut-outs and backgrounds in
-`02 · Brand`; `aa-lead-magnet-design` left the guide's PDF and mockup in its campaign folder; `aa-offer-stack-design`
+`02 · Brand`; `aa-lead-magnet-design` left the guide's PDF and mockup in its campaign folder; `aa-offer-kit-design`
 left the stack object in `05 · Offer`. USE all of it — NEVER add an intake question for the headshot,
 logo, colours, or fonts. Missing Design System → `aa-style-sheet-design` first.
 

@@ -1,4 +1,4 @@
-# Mockup Craft — the product as a real object (shared by aa-product-mockup-design and aa-lead-magnet-design)
+# Mockup Craft — the product as a real object (shared by aa-offer-kit-design's product mockup piece and aa-lead-magnet-design)
 
 Read in full before rendering any mockup, cover, or device shot.
 

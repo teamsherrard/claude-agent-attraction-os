@@ -24,7 +24,7 @@ member's own, the questions to ask any sponsor), or a mini-course outline — in
 phone-readable PDF an agent would be proud to have downloaded, plus the cover and
 3D mockup the funnel, the stack, and the member's posts reuse. The words are locked; the design is
 yours. The opt-in page that gives the guide away is `aa-funnel-design`'s; shots of any other product are
-`aa-product-mockup-design`'s.
+`aa-offer-kit-design`'s (its product mockup piece).
 
 **WHERE THIS RUNS — CHECK FIRST.** Claude Design only. Anywhere else, say exactly: *"This one only
 works in Claude Design. Open claude.ai/design, open your Brand HQ project, attach your Design System
@@ -244,8 +244,8 @@ mode instead of the full build:
    square crop for Instagram · the 9:16 crop for stories (the Short-Form system uses these) · the flat
    cover as a separate PNG. One angle, one light; the honesty rules (no stars, no badges, no "best").
 3. **The names the funnel reads:** `guide-mockup.png` · `guide-cover.png` · `guide-mockup-square.png` ·
-   `guide-mockup-story.png`. `aa-funnel-design` drops `guide-mockup.png` onto the opt-in hero; `aa-offer-stack-design`
-   may use it as a tier.
+   `guide-mockup-story.png`. `aa-funnel-design` drops `guide-mockup.png` onto the opt-in hero; `aa-offer-kit-design`'s offer
+   stack may use it as a tier.
 4. **Push:** the same campaign folder in `03 · Content/Guides` as the guide's PDF.
 
 ## REFRESH MODE — UPDATE, DON'T REBUILD

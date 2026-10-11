@@ -247,10 +247,11 @@ ads — flag it. This is assistance, not legal advice; the member confirms with 
 | Logo | `logo-*.png/.svg` · `org-logo-*` · `logo-spec.md` | `aa-logo-design` (or the member's loved logo, uploaded as-is) |
 | Style sheet + system | `style-sheet.pdf` · `design-system.md` | `aa-style-sheet-design` |
 | Brand kit | `profile-*.png` · `banner-*.png` · `highlight-*.png` · `post-*.png` · `story-*.png` · `cover-join-my-team.png` · `signature-*.png` · `end-screen-youtube.png` · `background-*.png` · `brand-kit-captions.md` | `aa-brand-kit-design` |
+| Video Brand Kit | `Video Brand Kit/` — `hook-*.png` · `lower-third-*.png` · `emphasis-*.png` · `cta-*.png` (the primary + the eight-ask pack) · `end-screen.png` · `icons/` · `video-brand-spec.md` (the editor reads this folder by its canonical names) | `aa-video-kit-design` (Week 3, with the editor) |
 | Headshots | `headshots/` | the member |
 
 The Brain's health check counts the brand kit as present when `02 · Brand` holds a logo file, the
-style sheet, and at least one profile graphic. Later design skills (offer assets, carousels, thumbnails,
+style sheet, and at least one profile graphic. Later design skills (the offer kit, the content kit, the video kit, thumbnails,
 the Value Vault) read this registry and never re-ask for anything in it.
 
 ---

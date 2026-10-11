@@ -79,7 +79,7 @@ One failure = rewrite.
   confirmation sequence covers registrants; these go to the list and the DM invites who haven't registered).
 - **Posts** (3): the announcement (the promise + who it's for + "link in bio / comment [KEYWORD]"), the
   speaker spotlight (one line of their proof, consent — Pillar `Proof`), the "what you'll walk away with"
-  carousel outline (3–5 slides, built by `aa-carousel-design`'s event intake — the outline here is its input).
+  carousel outline (3–5 slides, built by `aa-content-design`'s event intake — the outline here is its input).
 - **Stories** (daily, T-7 → T-0 — "especially on your stories," `/75`): a 7-story countdown — the pain poll,
   the promise, the speaker, the do-this-now preview, the "who's coming" social proof (the member's agents
   reposting), the countdown sticker, the doors-open "link up." Each ≤2 lines of on-screen text + the sticker
@@ -106,7 +106,7 @@ Event: [name] · [live local / virtual / evergreen] · [date · time · timezone
 Hosts: [the member + co-hosts] · Guest speakers: [name · their one-line credential as they state it · consent on file · photo supplied — or none]
 What they leave with (three real things): • … • … • …
 Registration: [the page link — or "comment the word [KEYWORD]"] · Seats or deadline (real): [n seats / closes [date] — or none]
-Pieces: 1. feed graphic (announcement) 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) 3. speaker spotlight card 4. carousel — 3–5 slides, built by `aa-carousel-design`'s event intake (the outline above is its input) 5. the banner / photo-spot backdrop (live only)
+Pieces: 1. feed graphic (announcement) 2. story set — 7 countdown frames: pain poll · promise · speaker · do-this-now · who's coming · countdown · doors-open (text above) 3. speaker spotlight card 4. carousel — 3–5 slides, built by `aa-content-design`'s event intake (the outline above is its input) 5. the banner / photo-spot backdrop (live only)
 Copy on each: [verbatim from Step 3 — headline, sub-line, CTA]
 Brand: [from brand-visual.md — logo, colours, type; or "Design Package first: aa-logo-design → aa-style-sheet-design → aa-brand-kit-design"]
 Required line (verbatim): [the compliance footer / brokerage name as required] · Brokerage-neutral: [yes (live local) / n/a]

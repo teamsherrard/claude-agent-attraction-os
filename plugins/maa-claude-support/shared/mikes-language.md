@@ -17,7 +17,7 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | "my Claude Brain" / "the intake" / "train the AI on me" | the Agent Attraction Brain + its voice files | `attraction-brain-setup` · "capture my voice" · "add my writing samples" |
 | "my agent avatars" / "my persona" / "Persona 3" | the 1–3 Agent Avatars built from the six agent types | `attraction-persona-map` |
 | "my story bank" / "my experience bank" | the Personal Story & Experience Bank (12+ stories, tagged) | `attraction-story-bank` |
-| "my UVP" / "the I-help sentence" / "my partner offer" / "the offer stack" | `identity/offer.md` (Week 2) + the Design Studio's offer assets | `attraction-offer` · `aa-offer-stack-design` |
+| "my UVP" / "the I-help sentence" / "my partner offer" / "the offer stack" | `identity/offer.md` (Week 2) + the Design Studio's offer assets | `attraction-offer` · `aa-offer-kit-design` |
 | "the Brokerage Model Expert" / "the model breakdown" | the Brain's brokerage-model skill (private-call material) | `attraction-brokerage-model` · `yt-model-breakdown` (Week 4, public) |
 | "Prospect Radar" / "the Agent Movement Watcher" / "who's moving in my market" | the Brain's radar skill + its news scan, run on demand ("scan agent movement" — not a scheduled agent) | `attraction-prospect-radar` |
 | "my top 50" / "my list" | `memory/top-50.md` | `attraction-top-50` |
@@ -25,7 +25,7 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | "the Daily Debrief" / "what requires my attention today" | the Daily Agent Attraction Debrief scheduled agent | `attraction-debrief` |
 | "the CEO review" / "my weekly review" | the Weekly Recruiting CEO Review (Week 6) — the member runs it, "run my CEO review"; not a scheduled agent | `admin-recruiting-scorecard` |
 | "the Objection Handling Coach" / "role-play" | randomized objection practice in Claude Voice (Week 5) | `cv-objection-coach` |
-| "the Value Vault" / "my digital product" / "the thing I give agents who join" | mapped in Week 2 (`aa-product-mockup-design`), built in Week 6 (`aa-ebook-design` / `aa-course-design` / `aa-playbook-design`) | the Design Studio skills, inside Claude Design |
+| "the Value Vault" / "my digital product" / "the thing I give agents who join" | mapped in Week 2 (its mockup by `aa-offer-kit-design`), built in Week 6 (`aa-value-vault-design` — the ebook, the course, or the playbook, plus the partner onboarding roadmap) | the Design Studio skills, inside Claude Design |
 | "the Design Package" | logo · brand style sheet · profile graphics (Week 2) | `attraction-brand-direction` writes the brief → `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design` |
 | "the ManyChat keyword" / "comment PARTNER" | the bonus-asset sequences imported into THEIR ManyChat account; the keyword carries every Reel | `sf-comment-to-dm` + the Week 3 bonus asset; not a plugin feature |
 | "the Thumbnail Employee" / "my AI clone" / "Higgsfield" | parked — not in this OS; thumbnails are a Claude Design brief | `yt-thumbnail`; log the ask |

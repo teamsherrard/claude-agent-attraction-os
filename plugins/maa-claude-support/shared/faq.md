@@ -24,10 +24,12 @@ touch a terminal.
 
 **Q3. What's Claude Design and when do I use it?**
 The design room at claude.ai/design — and where the **Design Studio** lives. Important: the
-Design Studio is NOT a plugin (Design can't run plugins). Its 14 `aa-…-design` skills are zip files you
+Design Studio is NOT a plugin (Design can't run plugins). Its 10 `aa-…-design` skills are zip files you
 UPLOAD at claude.ai/customize/skills (Q30), then use inside Design: the Design Package (logo,
-style sheet, brand), your offer stack and product mockup (Week 2), and the Value Vault — your
-ebook, course, or playbook (Week 6). Your Cowork skills write the brief (your brand direction,
+style sheet, brand kit), your offer kit (the stack, the mockup, the one-pager — Week 2), your lead
+magnet PDF, funnel pages, and content (carousels, win walls), your video brand kit (Week 3, with
+Riverside), your event graphics, and the Value Vault — your ebook, course, or playbook plus your
+partner onboarding roadmap (Week 6). Your Cowork skills write the brief (your brand direction,
 your offer); Design renders it. Words in Cowork, visuals in Design.
 
 **Q4. Why did my chat disappear? Did I lose my work?**
@@ -571,15 +573,18 @@ Next step: say "help, my debrief never ran" and I'll walk the four checks.
 **Q47. Where's the Design Studio plugin? I can't find it in the marketplace.**
 Because it isn't one — on purpose. Claude Design can't run plugins; it uses uploaded skills.
 
-- The Design Studio is 14 `aa-…-design` skill zips you upload at claude.ai/customize/skills (Q30)
-- Then inside claude.ai/design: "design my logo" / "my style sheet" / "my offer stack" / "my
-  product mockup", and in Week 6 the Value Vault ("my ebook", "my course", "my playbook")
+- The Design Studio is 10 `aa-…-design` skill zips you upload at claude.ai/customize/skills (Q30)
+- Then inside claude.ai/design: "design my attraction logo" / "build my brand style sheet" / "make my
+  brand kit", in Week 2 "design my offer kit" (or one piece: "my offer stack", "my product mockup"),
+  in Week 3 "design my video brand kit", and in Week 6 "design my value vault" ("my ebook", "my
+  course", "my playbook", "my onboarding roadmap")
 - Set up your design system in Design first (your colors, fonts, logo) — that's what makes every
   design wear your brand
 - Upload your Brain Book there once; Design can't read your brain folder
 
-Next step: upload the Design Studio zips from Circle (the Design Package with Week 1, the offer assets with
-Week 2), then say "help" if one is rejected (Q30 covers both reasons).
+Next step: upload the Design Studio zips from Circle (the Design Package with Week 1, the offer kit and the
+Week 2 set with Week 2, the video kit with Week 3, the Value Vault with Week 6), then say "help" if one is
+rejected (Q30 covers both reasons).
 
 **Q48. What about the Thumbnail Employee / my AI clone / Higgsfield? And Descript? (Neither is in this OS.)**
 Not part of this OS — straight answer.

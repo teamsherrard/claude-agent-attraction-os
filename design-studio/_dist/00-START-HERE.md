@@ -1,8 +1,9 @@
 # START HERE — The Agent Attraction Design Studio
 
-Fourteen Claude Design skills that build and run the visual brand agents will follow — the brand of
-YOU as a leader, not a listing brand. This page is the map. **All fourteen are built. Three run with your
-Brain in Week 1 (the Design Package); the rest are uploaded when their week opens.**
+Ten Claude Design skills that build and run the visual brand agents will follow — the brand of YOU as
+a leader, not a listing brand. This page is the map. **All ten are built. Three run with your Brain in
+Week 1 (the Design Package); the rest are uploaded when their week opens — four in Week 2, the video
+kit in Week 3 with your editor, two in Week 6.**
 
 This is a Claude Design **skill set**, not a Cowork plugin. Claude Design cannot run plugins; it accepts
 uploaded skill files. Your Brain and your other systems (in Cowork) decide the *words and the direction*
@@ -55,34 +56,34 @@ item, and your Brain Book shows the kit on its next regenerate ("show me my Brai
 ## THE REST OF THE STUDIO (all built — upload each file when its week opens)
 
 Every one starts from a brief or a doc another system hands you — paste it (or upload the doc), type
-the trigger. Nothing here writes your words; it designs them.
+the trigger. Nothing here writes your words; it designs them. **The three kit skills (the offer kit,
+the content kit, the Value Vault) build one piece when you name it, or the whole kit when you say the
+kit phrase: they show you the masters first, wait for one yes, then build everything else without
+stopping.**
 
 | Week | File | Skill | Type this | What you get | Lands in |
 |---|---|---|---|---|---|
-| 2 | `04-aa-offer-stack-design.zip` | `aa-offer-stack-design` | "design my offer stack" | the 3D offer stack — what your Partner Offer includes and what each piece is worth in plain words (never a rev-share number); from your Brain's free-vs-paid brief | `05 · Offer` |
-| 2 | `05-aa-offer-assets-design.zip` | `aa-offer-assets-design` | "design my join my team one-pager" | the "Join My Team" 1-pager (fills the cover from skill 3), the opportunity deck from your Conversion system's brief, the welcome pack, the model comparison sheet | `05 · Offer` |
-| 2 | `06-aa-product-mockup-design.zip` | `aa-product-mockup-design` | "my product mockup" | the digital-product mockup — 3D book or course box, device screens, bundle shot, and the flat cover every later skill reuses | `05 · Offer/[Product]` |
-| 2 | `07-aa-carousel-design.zip` | `aa-carousel-design` | "design my carousel" | carousels from your Short-Form system's doc (Week 3), starting with the five-slide "Why Join Me" carousel from your Brain Book (Week 2); every carousel also ships as a LinkedIn PDF | `03 · Content/Graphics/[month]` |
-| 2 | `08-aa-funnel-design.zip` | `aa-funnel-design` | "design my partner call page" | the Partner Call booking page (Week 2); the opt-in page for your guide (your Lead Magnet system writes the copy in Week 2, right after the offer) and the workshop registration page once your Events system writes it (Week 6) — deploy-ready | `03 · Content/Guides` (a registration page in its event's folder) |
-| 2 | `09-aa-lead-magnet-design.zip` | `aa-lead-magnet-design` | "design my lead magnet pdf" | the designed free guide — the lead magnet you picked from the three your Lead Magnet system recommends from your offer, whatever its shape — plus its cover and 3D mockup; runs once your Lead Magnet system writes it (Week 2, right after the offer) | the guide's folder in `03 · Content/Guides` |
-| 6 | `10-aa-recognition-design.zip` | `aa-recognition-design` | "design my win wall" | Win Wall posts and stories, welcome graphics, certificates, the monthly roundup — from your AI Admin's Team Wins brief | `03 · Content/Graphics/Wins` |
-| 6 | `11-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" | flyers, the registration post, countdown stories, Zoom screens, workshop slides — from your Events plugin's briefs | the event's folder in `03 · Content/Events` |
-| 6 | `12-aa-playbook-design.zip` | `aa-playbook-design` | "design my playbook" | the Value Vault: a designed playbook, workbook, or worksheet from the training you wrote | `05 · Offer/[Product]` |
-| 6 | `13-aa-course-design.zip` | `aa-course-design` | "design my course" | the Value Vault: your course packaged — title cards, outline, module workbooks, certificate, tiles | `05 · Offer/[Course]` |
-| 6 | `14-aa-ebook-design.zip` | `aa-ebook-design` | "design my ebook" | the Value Vault: a short book from your story and method | `05 · Offer/[Book]` |
+| 2 | `04-aa-offer-kit-design.zip` | `aa-offer-kit-design` | "design my offer kit" — or one piece: "my product mockup", "design my offer stack", "design my join my team one-pager", "design my opportunity deck", "my welcome pack for new partners", "my model comparison sheet" | the six offer pieces in one brand: the digital-product mockup (the one canonical cover every later skill reuses — 3D and device shots, the bundle), the 3D offer stack (what your Partner Offer includes and what each piece is worth in plain words — never a rev-share number), the "Join My Team" one-pager (fills the cover from skill 3), the opportunity deck from your Conversion system's brief, the welcome pack, the model comparison sheet; from your Brain's free-vs-paid and offer briefs | `05 · Offer` (the mockup in `05 · Offer/[Product]`) |
+| 2 | `05-aa-lead-magnet-design.zip` | `aa-lead-magnet-design` | "design my lead magnet pdf" | the designed free guide — the lead magnet you picked from the three your Lead Magnet system recommends from your offer, whatever its shape — plus its cover and 3D mockup; runs once your Lead Magnet system writes it (Week 2, right after the offer) | the guide's folder in `03 · Content/Guides` |
+| 2 | `06-aa-funnel-design.zip` | `aa-funnel-design` | "design my partner call page" | the Partner Call booking page (Week 2); the opt-in page for your guide (your Lead Magnet system writes the copy in Week 2, right after the offer) and the workshop registration page once your Events system writes it (Week 6) — deploy-ready | `03 · Content/Guides` (a registration page in its event's folder) |
+| 2 (used every week after) | `07-aa-content-design.zip` | `aa-content-design` | "design my carousel" · "design my win wall" — or "design my content" when one brief covers several pieces | carousels from your Short-Form system's doc (Week 3), starting with the five-slide "Why Join Me" carousel from your Brain Book (Week 2) — every carousel also ships as a LinkedIn PDF and a story echo; and your recognition graphics from your AI Admin's Team Wins brief (Week 5 on): Win Wall posts and stories, welcome graphics, certificates, the monthly roundup | `03 · Content/Graphics/[month]` (recognition in `Graphics/Wins`; an event carousel in its event's folder) |
+| 3 | `08-aa-video-kit-design.zip` | `aa-video-kit-design` | "design my video brand kit" | the overlay layer your AI Editing Studio (Riverside) lays over every video: the hook banner, your name strip, the emphasis pop-up, the call-to-action banner plus eight ready asks in your words (your keyword, your guide, your booking link), the end screen, twelve icons, the preview sheets, and the Video Brand Spec your editor reads — upload it the week you install Riverside, then say "set up riverside" or "register my video brand kit" in Cowork. It can run any time after your style sheet exists. | `02 · Brand/Video Brand Kit` |
+| 6 | `09-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" | flyers, the registration post, countdown stories, Zoom screens, workshop slides — from your Events plugin's briefs | the event's folder in `03 · Content/Events` |
+| 6 | `10-aa-value-vault-design.zip` | `aa-value-vault-design` | "design my value vault" — or one piece: "design my playbook", "design my course", "design my ebook", "design my onboarding roadmap" | the Value Vault: the digital product you promised in Week 2, built — a designed playbook, workbook, or worksheet from the training you wrote; your course packaged (title cards, outline, module workbooks, certificate, tiles); a short book from your story and method; and your partner onboarding roadmap — the Day 1 → Day 30 poster, the new-partner checklist, and the "where to show up" card from your Partner Offer's first 30 days | `05 · Offer/[Product]` (the roadmap in `05 · Offer/Onboarding`) |
 
 They all read the same Design System and the same Brain Book. When a skill finishes, it tells you the
 one line to say back in the system that wrote the brief (your Brain, your Short-Form system, your
-Lead Magnet system…) so that system knows the piece exists.
+Lead Magnet system, your editor…) so that system knows the piece exists.
 
 ## WHERE FILES LIVE
 
 Your Agent Attraction workspace (Google Drive or OneDrive) is home base — rename it whatever you like;
-the folders inside keep their names: brand files in **`02 · Brand`**; carousels, recognition graphics,
-and designed posts in `03 · Content/Graphics`; guides and funnel pages in `03 · Content/Guides`; each
-video's thumbnails in that video's folder in `03 · Content/Long-Form`; everything for an event in that
-event's folder in `03 · Content/Events`; the offer pieces and every Value Vault product in `05 · Offer`.
-The skills know this map. Your Brain Book lives in `01 · AI Brain` (newest date = current).
+the folders inside keep their names: brand files in **`02 · Brand`** (your video kit in
+`02 · Brand/Video Brand Kit`); carousels, recognition graphics, and designed posts in
+`03 · Content/Graphics`; guides and funnel pages in `03 · Content/Guides`; each video's thumbnails in
+that video's folder in `03 · Content/Long-Form`; everything for an event in that event's folder in
+`03 · Content/Events`; the offer pieces, every Value Vault product, and your onboarding roadmap in
+`05 · Offer`. The skills know this map. Your Brain Book lives in `01 · AI Brain` (newest date = current).
 
 ## WHEN SOMETHING LOOKS WRONG
 
@@ -92,11 +93,16 @@ The skills know this map. Your Brain Book lives in `01 · AI Brain` (newest date
   the skills prune every question those two answer.
 - **A piece looks off** → ask for the ONE change ("make the headline bigger"); skills change only what
   you ask, never rebuild.
+- **It asked me which piece I wanted** → name it ("my offer stack", "my win wall"); a kit skill only
+  asks when neither your phrase nor your brief says which piece — and "design my offer kit" builds them all.
 - **"Where are my picture files?"** → Claude Design's Export menu has no picture option; every skill
   that makes pictures puts a **Download** button on the board's last page that packs every file into
   one zip. PDFs — the style sheet, a guide, a deck, a playbook, a book — come from the Export menu.
 - **"It won't export my kit"** → your compliance basics are not set yet. In your Brain: "set up my
   attraction compliance" (three minutes), then back here: "add my compliance line".
+- **"My editor says the video kit isn't see-through"** → in Claude Design the export comes only from the
+  kit's Download button; do the 30-second transparency check the skill walks you through and re-export
+  the piece it names.
 - **It used my brokerage's colours** → say so; the leader brand stays visually distinct from the
   brokerage's palette by rule, with the brokerage mark only where your compliance rules require it.
 - **"It says my offer / guide / carousel isn't written yet"** → it isn't: the skill tells you which
@@ -113,6 +119,10 @@ The skills know this map. Your Brain Book lives in `01 · AI Brain` (newest date
 - [ ] 2 · `style-sheet.pdf` + `design-system.md` in `02 · Brand`; "[Your Name] Design System" saved
 - [ ] 3 · brand kit in `02 · Brand`; compliance strip on every piece
 - [ ] Back in your Brain: "update my attraction brand direction" (kit done) → "show me my Brain"
+
+**Then, week by week:** Week 2 upload 04–07 (the offer kit after "build my partner offer"; the guide
+and its page once your Lead Magnet system writes them) · Week 3 upload 08 with Riverside, then
+"register my video brand kit" in Cowork · Week 6 upload 09–10.
 
 Everything here is assistance, not legal advice: check every public piece against your brokerage's
 advertising and revenue-share marketing rules, and never post a graphic whose brokerage and licence

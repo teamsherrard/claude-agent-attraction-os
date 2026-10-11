@@ -121,7 +121,7 @@ Under the table, three lines:
 
 The one thing the member hands every agent who joins: *"join me and I give you this."* Mapped now so the
 offer can promise it and the Design Package can mock it up; built in Week 6 with the Value Vault
-(`aa-ebook-design` · `aa-course-design` · `aa-playbook-design`).
+(`aa-value-vault-design` — the ebook, the course, or the playbook piece, plus the partner onboarding roadmap).
 
 ```
 Name: [working title — outcome-led]
@@ -165,7 +165,7 @@ One block the member pastes into Claude Design, saved as `Offer Stack Brief · [
 applies (above).
 
 ```
-FOR aa-offer-stack-design
+FOR aa-offer-kit-design (the offer stack)
 Offer name: … · UVP: … · Primary agent: …
 Stack items (outcome lines, in this order): 1. … 2. … 3. … (free items first, then "included", then
   "discounted for my agents"; brokerage and upline items named generically)
@@ -174,13 +174,13 @@ Brand: [from brand-visual.md — logo status, colours, type; or "Design Package 
   aa-logo-design → aa-style-sheet-design → aa-brand-kit-design"]
 Never on the graphic: splits, caps, stock, rev share, income, another brokerage's name.
 
-FOR aa-product-mockup-design
+FOR aa-offer-kit-design (the product mockup)
 Product: [name] · Format: [course / playbook / guide / ebook] · Cover line: … · Subtitle: …
 Three bullet promises: • … • … • …
 Status line for the graphic: ["Included when you partner with me" / "Coming this quarter"]
 Brand: [as above]
 
-FOR aa-offer-assets-design (the "Join My Team" one-pager)
+FOR aa-offer-kit-design (the "Join My Team" one-pager)
 Pull from: the Partner Offer doc in 05 · Offer · the UVP · the free line · the booking line · the
 comment keyword.
 ```
