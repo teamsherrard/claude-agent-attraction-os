@@ -244,8 +244,8 @@ owns them and created only with your yes; every one is draft-only.
 | 1 | **Plugin 2 · MAA Claude Support** | `MAA help` — and, once your Brain is built, `set up MAA support` (two minutes) | — |
 | 1 | **The Design Package** — three Claude Design skills, uploaded, not installed (section 5) | `design my attraction logo` → `build my brand style sheet` → `make my brand kit` | — |
 | **2** | **Your Brain first:** the offer, your model, your prospect list | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
-| 2 | **Plugin 3 · Lead Magnet** — install this week and run it AFTER `build my partner offer`: your first lead magnet (chosen from your unique value proposition), its opt-in page, and your bios aligned to the funnel | `launch my lead magnet plugin` | — |
-| 2 | **Design Studio offer-asset skills** — the offer stack, the "Join My Team" one-pager and deck, the product mockup, carousels, the Partner Call booking page, and — once your guide is written — the guide PDF and its opt-in page. Upload when they are released | `my offer stack` · `design my join my team one-pager` · `my product mockup` · `design my carousel` · `build my attraction funnel page` · `design my comparison guide pdf` | — |
+| 2 | **Plugin 3 · Lead Magnet** — install this week. One phrase is a complete Week 2 session: it builds your offer first if it isn't built yet (your unique value proposition), recommends three lead magnets built from it, you pick one, and it writes the magnet and its sales funnel outline — then your bios aligned to the funnel. (Already built your offer with `build my partner offer`? It goes straight to the magnet.) | `launch my lead magnet plugin` | — |
+| 2 | **Design Studio offer-asset skills** — the offer stack, the "Join My Team" one-pager and deck, the product mockup, carousels, the Partner Call booking page, and — once your guide is written — the guide PDF and its opt-in page. Upload when they are released | `my offer stack` · `design my join my team one-pager` · `my product mockup` · `design my carousel` · `build my attraction funnel page` · `design my lead magnet pdf` | — |
 | **3** | **Plugin 4 · Short-Form** | `set up my attraction short-form` | Weekly Content Performance (Fridays) — offered when you say `set up my Friday performance note` |
 | 3 | **Plugin 5 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace | `set up riverside`, then `edit my video` or `make me a reel` | — |
 | 3 | **ManyChat sequence templates** — a bonus asset you import into your own ManyChat account; not a plugin | — | — |
@@ -326,7 +326,7 @@ welcome email and the Circle calendar]`.
 - [ ] `build my top 50` — your first named prospects
 - [ ] `attraction weekly check-in` every Friday
 - [ ] `just talked to an agent` — from the car, anytime
-- [ ] Week 2: `build my partner offer`, then `launch my lead magnet plugin` (your first guide and its opt-in page)
+- [ ] Week 2: `launch my lead magnet plugin` — it builds your offer first if it isn't built yet, then your lead magnet and its sales funnel outline, one sitting (`build my partner offer` on its own still works; the plugin then goes straight to the magnet)
 
 Everything here is assistance, not legal advice: check every public piece against your brokerage's advertising and
 revenue-share marketing rules.

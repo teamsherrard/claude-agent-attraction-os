@@ -43,7 +43,7 @@ A Realtor AI Brain (`~/realtor-brain/`, marker `_workspace.md`) is a different s
 (incl. the `## Why join me` block) · `identity/strategy.md` · `identity/avatars.md` · `identity/positioning.md` ·
 `identity/operations.md` (the booking link, hours, the usual filming window, the Friday time) · `identity/goals.md`
 (the content commitment from Week 1 — read, never written) ·
-`identity/offer.md` (the Resource rung; Status respected) · `identity/story-bank.md` (stories pulled; Used-where
+`identity/offer.md` (the Resource rung; its `Comment keyword:` line — the invitation word `attraction-offer` coined, which `sf-setup` proposes as the primary keyword's invitation variant; Status respected) · `identity/story-bank.md` (stories pulled; Used-where
 stamped — see "also writes") · `identity/proof.md` (Proof pillar; consent column respected) · `identity/voice.md`
 · `identity/voice-samples.md` · `identity/voice-print.md` (every read-aloud script) · `identity/brand-visual.md`
 (design direction in words only) · `identity/brokerage-model.md` (facts for model Reels; private numbers never

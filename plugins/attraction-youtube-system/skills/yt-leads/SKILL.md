@@ -36,8 +36,8 @@ Short-Form-owned), `identity/content-pillars.md`'s CTA line second (it mirrors i
 `identity/voice.md` (the resource is in their voice) · `compliance.md`'s disclosure fields (the footer).
 
 ### 1a — The Starter Resource (the fallback: built once, in Week 4, ONLY when the member skipped the Week 2 lead magnet)
-`## Current magnet` is **empty** when the section holds nothing or only the template's placeholder line (`[Guide
-Name]` in brackets). Empty (the Week 2 lead magnet session was skipped) → build the Starter Resource now, before the
+`## Current magnet` is **empty** when the section holds nothing or only the template's placeholder line
+(`[Magnet Name]` in brackets — any bracketed template name). Empty (the Week 2 lead magnet session was skipped) → build the Starter Resource now, before the
 CTA pair, so this video and every video after it names a real file — and say once that the Lead Magnet plugin's
 guide replaces it whenever they run that session. The section already holds a magnet (the Week 2 guide — the normal
 case — or a block marked `Type: starter resource (Week 4)`) → use it; never rebuild, never a second one.

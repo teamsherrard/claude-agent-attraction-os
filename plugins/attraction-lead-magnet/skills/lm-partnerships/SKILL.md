@@ -59,7 +59,8 @@ For each partner (or each role, if they'd rather personalize by hand), in the me
    funnel link, the weekly call, an event) · no model, no brokerage pitch, no comp. **Never "send me
    recruits," never a referral fee or any inducement** (compliance-doctrine §6).
 2. **The resource to pass along** (one short paragraph the partner can forward verbatim): what the guide is
-   and why it's fair ("honest about every model, including his"), the link, "no pitch."
+   and why it's worth an agent's time (the real routine, built from what the member actually does — their
+   honest page), the link, "no pitch."
 3. **The follow-up** (2–3 weeks later, once): one agent-win story (consent) or one new resource, and a thank-you
    for keeping an eye out. Value, not a nudge.
 4. **The thank-you for an introduction** (the one message that keeps partners sending): specific — who they

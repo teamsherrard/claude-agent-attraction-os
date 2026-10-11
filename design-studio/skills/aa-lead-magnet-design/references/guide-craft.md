@@ -28,20 +28,38 @@ line.
 | ▸ NEXT — assets to gather | what to ask for (logo · headshot · photos with the organization) — nothing else |
 | ▸ COMPLIANCE | the compliance stamp — on the cover's bottom strip, in every page's footer, and in full on the closing page |
 
-**Page count on this path:** the cover + the doc's body pages (the comparison guide is 7, plus the
+**Page count on this path:** the cover + the doc's body pages (4–9 — a comparison guide is 7, plus the
 optional 8th story page — only when the doc has it; never a placeholder page) + the closing page —
-typically 9–10. No contents page, no welcome page, no added checklist: page 7 IS the checklist.
+typically 6–10. No contents page, no welcome page, no added checklist: the doc's checklist page IS the
+checklist.
 
 **Self-verify:** walk the doc top to bottom and tick every block off against the board — a doc page
 with no frame, or a frame the doc doesn't have, is a fail. The member should read the doc and the guide
 side by side and see the same words in the same order.
 
-## THE COMPARISON GUIDE — the first magnet, and the layout it wants
+## THE SHAPES — the layout each wants
 
-The Honest Brokerage Comparison Guide is locked as every member's first magnet: a factual, cited,
-dated comparison of brokerage MODEL TYPES — never a ranking, never a named brokerage other than the
-member's own, "honest" meaning transparent about trade-offs including the member's own. Its seven pages
-and how each wants to be laid out:
+The member's Lead Magnet system wrote one of six shapes from their own offer; the doc's PAGE blocks say
+which. Same map, same laws, same closing page for every one of them:
+
+- **The member's system guide** — an at-a-glance page (the steps in order as designed rows; the screenshot
+  test), one page per step with the template handed over set as a real sheet, a first-week page, a
+  what-good-looks-like page.
+- **The checklist** — the checklist page with a real empty box per item, grouped; the explaining pages;
+  the before-and-after timeline.
+- **The plan or template** (the 90-day plan) — real fill-in rows on every week page and on the review
+  page; activity targets exactly as the doc states them, never a figure of your own.
+- **The questions guide** — the question pages as checklists (a box per question), "what a good answer
+  sounds like" set smaller beside each.
+- **The mini-course outline** — one lesson per page, the template in full, the "after this you can" line
+  as the page's eyebrow.
+- **The fair comparison guide** — the layout below.
+
+### The comparison guide (when it is the shape)
+
+A factual, cited, dated comparison of brokerage MODEL TYPES — never a ranking, never a named brokerage
+other than the member's own, "honest" meaning transparent about trade-offs including the member's own.
+Its seven pages and how each wants to be laid out:
 
 1. **Why this guide exists (and what it isn't)** — the framing page: a calm opener with the "what it
    is not" lines as a quiet designed list (not a ranking · not a pitch · not legal or financial advice ·
@@ -65,10 +83,9 @@ and how each wants to be laid out:
 8. **(Optional) What I'd tell myself** — the member's own switch story, "a franchise" / "an independent",
    never a name; a photo-led page when a real photo exists; omitted entirely when the doc omits it.
 
-**Second-campaign guides** (the switching checklist, questions to ask a sponsor, the rev-share
-explainer, the 90-day plan, the member's system, the leader's switching guide, a prompt list) arrive
-with their own PAGE blocks — same map, same laws, same closing page; a checklist-shaped page gets the
-checkbox treatment; a template-shaped page (the 90-day plan) gets real fill-in rows.
+**Other shapes Mike names** (the rev-share explainer, the leader's switching guide, a prompt list, a
+script) arrive with their own PAGE blocks — same map, same laws, same closing page; a checklist-shaped
+page gets the checkbox treatment; a template-shaped page gets real fill-in rows.
 
 ## SIZES (a real multi-page PDF)
 

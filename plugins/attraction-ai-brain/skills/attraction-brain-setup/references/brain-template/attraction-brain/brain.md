@@ -47,10 +47,12 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - **Known for:** [the one thing, from strategy.md]
 - **Why I'm here (one line, out loud):** [from positioning.md]
 - **Offer status:** [seeds (Week 2 builds the offer) / finalized by member]
+- **UVP (one line):** [not built yet (Week 2) — `attraction-offer` writes the one-liner here when the offer is finalized: "I help [agent] achieve [outcome] through [mechanism]"]
 - **Voice in one line:** [e.g., "Calm, practical, teacher energy — never hype"]
 - **This week's activity target:** [conversations / calls / joins, from goals.md]
 - **Organization today:** [N agents] · **12-month target:** [N agents]
 - **Booking link:** [url] · **Primary CTA:** [e.g., "Book a call with me — [link]"] · **Socials:** [@instagram, @youtube, @tiktok]
+- **Live magnet:** [none yet (Week 2) — the Lead Magnet plugin writes `[Magnet Name] · keyword GUIDE · funnel URL [url or not live yet]` here when the magnet is built; it mirrors `memory/magnets.md → ## Current magnet`, which stays the source of truth]
 - **Brand colors:** [#hex] / [#hex] / [#hex] · **Fonts:** [Heading] / [Body] · **Logo:** [loved as-is / refresh / building this week]
 - **Compliance:** [confirmed / set / unset] · **Locale:** [country · currency · units — format every number and date to this (config.md)]
 

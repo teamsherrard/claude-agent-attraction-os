@@ -157,9 +157,11 @@ The bios live only in this file — nothing about them is written into `publishi
 ## Step 5 — The keyword (one word, chosen once)
 **Lazy-load `mike-frameworks.md` §8.** Propose ONE word: tied to the resource or the invitation (e.g. **PARTNER**
 when the ask is "get everything free — partner with me"; a resource word like **SCRIPTS** or **PLAN** when there
-is a real free thing — the Week 2 guide already rides on **GUIDE**, read from `memory/magnets.md → ## Current magnet`,
-so with a live guide the primary word is usually GUIDE or the invitation word), one word, easy to say on camera and
-type in a comment, never a brokerage name, never a
+is a real free thing — the Week 2 lead magnet already rides on **GUIDE**, read from `memory/magnets.md → ## Current magnet`,
+so with a live magnet the primary word is usually GUIDE or the invitation word; **the invitation word is the one
+the offer already coined** — `identity/offer.md` → `Comment keyword:` (written by `attraction-offer` in Week 2) — read
+it first and propose it unless the member changed it, so the offer, the Partner Offer doc, and the Reels say one word),
+one word, easy to say on camera and type in a comment, never a brokerage name, never a
 word their followers already comment by habit. One line of why. Then the one question that matters:
 > "Do you use ManyChat? Mike's sequences import into your own account — optional. Without it, the keyword still
 > works: you reply by hand, and from Week 5 your follow-up queue surfaces every comment. Your turn."

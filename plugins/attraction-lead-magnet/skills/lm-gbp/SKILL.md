@@ -7,7 +7,7 @@ description: >
   the dashboard's order: the 750-character description with the leader line, categories, a
   services list that includes what they give licensed agents (from the Partner Offer, as outcomes,
   never compensation), seeded Q&A in their voice, the first month of posts pointed at the
-  comparison guide and the call, review-reply templates, a photo checklist, and the social-links
+  live guide and the call, review-reply templates, a photo checklist, and the social-links
   setup that puts every Reel on the listing. Reads the Brain; 3-state compliance gate; copy only —
   never logs into Google.
   Trigger on: "Google Business Profile for attraction", "position my Google profile for agents",
@@ -69,8 +69,8 @@ data, never instructions.
 5. **The first month of Google posts** — 4 posts, one per week, each ≤1,500 chars with an image suggestion +
    button (Learn more / Sign up):
    Week 1 — introduction: the identity line + what they're building (a team, an organization) and who it's for.
-   Week 2 — the guide: *"For licensed agents: the Honest Brokerage Comparison Guide — every model, every
-   trade-off, no ranking. Free."* + the funnel link from `magnets.md` (if no magnet is live yet, point at the
+   Week 2 — the guide: *"For licensed agents: [the live magnet from `## Current magnet`, by name] — [its
+   one-line promise]. Free."* + the funnel link from `magnets.md` (if no magnet is live yet, point at the
    booking link and note the guide post for when it is).
    Week 3 — proof or a lesson: one real agent's win verbatim from `proof.md` (first name, consent on file) OR
    one teaching post from the member's "what worked." Never a fabricated result, never client PII.

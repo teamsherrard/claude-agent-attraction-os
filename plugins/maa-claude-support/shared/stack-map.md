@@ -98,7 +98,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "agent intel on [name]" · "conversation starter" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow-up plan for [agent]" · "reactivate quiet agents" (front door: "launch conversion") | `cv-navigator` → `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 7 |
 | "set up my sales system" · "write my booking page" · "set up my show-up sequence" · "my call block" · "setter script" · "my sales scorecard" | `sales-system-setup` · `sales-booking-page` · `sales-show-up` · `sales-call-block` · `sales-setter` · `sales-scorecard` | 7 |
 | "set up my attraction admin" · "my attraction pipeline" / "move [agent] to [stage]" · "my follow-up queue" · "my attraction brief" / "run my morning brief" · "my recruiting scorecard" / "run my CEO review" · "monthly KPI review" · "team wins newsletter" · "VA task pack" | `admin-attraction-setup` · `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-recruiting-scorecard` · `admin-monthly-review` · `admin-newsletter` · `admin-va-tasks` | 8 |
-| "launch my lead magnet plugin" / "set up my lead magnet for agents" · "build my brokerage comparison guide" · "set up my attraction funnel" · "nurture sequence for agents" | `lm-navigator` → the `lm-*` skills (magnet ideas → magnet → design → funnel → delivery → nurture → partnerships → gbp → profiles → analytics) | 3 |
+| "launch my lead magnet plugin" / "set up my lead magnet for agents" · "build my lead magnet for agents" · "lead magnet ideas" / "which lead magnet should I make" · "set up my attraction funnel" · "nurture sequence for agents" | `lm-navigator` → the `lm-*` skills (the offer first if it isn't built → magnet ideas, three from the offer → magnet → funnel → design → delivery → nurture → partnerships → gbp → profiles → analytics) | 3 |
 | "plan my workshop" / "plan my agent event" / "host a training for agents" · "follow up after my agent event" | `ev-navigator` → the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 9 |
 | "My workbook / playbook worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the Brain's interviews ARE the worksheet | 1 |
 
@@ -181,15 +181,20 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   the design system was never set up in Design (the root fix).
 
 ### Plugin 3 — Lead Magnet (W2, after the Partner Offer session) — BUILT
-- Depends on: Brain (`offer` — the Partner Offer finalized in the same week's first session — `avatars`,
-  `compliance`, `brand-visual`, `voice`). Runs AFTER "build my partner offer": an offer still at seeds sends the
-  member to that session with the way back ("launch my lead magnet plugin"). The first lead magnet is chosen from
-  the member's unique value proposition (non-disparagement rules apply — cardinal rule #1). Writes
-  `identity/profiles.md` FIRST (the bios; Short-Form refreshes its five sections in Week 3); `memory/magnets.md →
-  ## Current magnet` is what every Week 3–5 CTA reads.
-- Known modes: "it says my offer isn't ready" = the gate working (finish the offer session first); the funnel
-  link reads "not live yet" until the member's design step deploys the page; the traffic engines (Short-Form
-  W3, YouTube W4) plug in later — never "missing".
+- Depends on: Brain (`offer` — the Partner Offer — `avatars`, `compliance`, `brand-visual`, `voice`).
+  **Offer-first, one sitting (v0.2.0, 2026-10-10):** "launch my lead magnet plugin" builds the offer first if
+  it is still at seeds (the navigator runs the Brain's `attraction-offer` inside the session — the member never
+  comes back later), then recommends three lead magnets built from that offer and Mike's lessons
+  (`lm-magnet-ideas`), the member picks, and the magnet document and the sales funnel outline follow. No
+  default magnet; no two members' magnets alike (non-disparagement rules apply — cardinal rule #1; a
+  comparison-shaped guide only when it fits the offer). Writes `identity/profiles.md` FIRST (the bios;
+  Short-Form refreshes its five sections in Week 3); `memory/magnets.md → ## Current magnet` (mirrored as the
+  `Live magnet:` line in `brain.md`) is what every Week 3–6 CTA reads.
+- Known modes: "it's asking me to build my offer" = the session order working (the offer gets built right
+  there, then the magnet — nothing to finish first); "it only gave me three options" = by design — say yes to
+  the first or name one; "it skipped the compliance step" = it folds compliance in right before the public
+  document, never earlier; the funnel link reads "not live yet" until the member's design step deploys the
+  page; the traffic engines (Short-Form W3, YouTube W4) plug in later — never "missing".
 
 ### Plugin 4 — Short-Form (W3) — BUILT
 - Depends on: Brain (avatars, positioning, story-bank, compliance). Publishing = bring-your-own

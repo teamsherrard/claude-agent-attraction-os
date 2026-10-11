@@ -110,9 +110,8 @@ left the stack object in `05 · Offer`. USE all of it — NEVER add an intake qu
 logo, colours, or fonts. Missing Design System → `aa-style-sheet-design` first.
 
 Your first reply is ONLY a SHORT intake form for what nothing else holds. Prune every answered item;
-one confirmation line above the form ("From your doc: the Honest Brokerage Comparison Guide · nine
-sections, socials kept, welcome video kept · the PDF is in the folder · compliance set — say the word
-to change any of these"); every creative choice has a "Decide for me"; end with **"Your turn."**
+one confirmation line above the form ("From your doc: [the guide's name] · nine sections, socials kept,
+welcome video kept · the PDF is in the folder · compliance set — say the word to change any of these"); every creative choice has a "Decide for me"; end with **"Your turn."**
 
 1. **Your Brain Book** *(if not already in this project; newest date wins)*.
 2. **Which page?** *(default: the opt-in page when a funnel doc exists; else the Partner Call page)* —

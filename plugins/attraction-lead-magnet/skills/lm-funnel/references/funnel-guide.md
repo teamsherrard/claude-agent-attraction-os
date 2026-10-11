@@ -27,21 +27,26 @@ bullets, white space. **A thin page reads like a recruiting deck; this depth is 
 
 ## The strategy underneath (lock this BEFORE writing — it's what makes copy persuade, not just inform)
 The difference between an "okay" page and one that converts is strategy, not adjectives:
-- **One big idea.** The page rides on a single sharp angle, not a feature list — for the comparison guide:
-  *"the leader who explains every model straight, including the downsides of their own."* For a switching
-  checklist: *"the person who makes sure your next move is the last one."* Every section reinforces that one idea.
+- **One big idea.** The page rides on a single sharp angle, not a feature list — for a system guide: *"the
+  leader who hands you the exact routine, not a pitch."* For a 90-day plan: *"the person who maps your first
+  90 days because they ran them."* For a comparison-shaped guide: *"the leader who explains every model
+  straight, including the downsides of their own."* For a switching checklist: *"the person who makes sure
+  your next move is the last one."* Every section reinforces that one idea.
 - **Lead with the deepest desire + the most acute pain**, named early and plainly. From `avatars.md`
   ("biggest problem, in their words" · "what they'd need to hear to believe this member can help") and the
   magnet's framing page. Mike's five pains (`02-prospect-targeting/18`, `04-value-proposition/27`) are the
   vocabulary: financial uncertainty · lack of support, mentorship, training · technology gaps · limited growth
-  · work-life balance and recognition. Pick the one this type of agent lives. **Comparison guide (the locked
-  first campaign):** desire = to choose with the full picture and not get sold to; fear = picking on the one
-  number that matters least, switching again for nothing, a sponsor who disappears after onboarding, being
-  "just a number." The whole page moves them from the fear to the desire.
+  · work-life balance and recognition. Pick the one this type of agent lives. **Name them for THIS magnet's
+  reader** — a system guide for agents paying for leads: desire = a pipeline that doesn't need a lead bill;
+  fear = another year paying for leads that don't close. A comparison-shaped guide: desire = to choose with
+  the full picture and not get sold to; fear = picking on the one number that matters least, switching again
+  for nothing, a sponsor who disappears after onboarding, being "just a number." The whole page moves them
+  from the fear to the desire.
 - **Dissolve the 3 real reasons an agent WON'T opt in:** (1) *"this is a recruiting pitch"* → candour, the
-  trade-off of the member's own model on the page, zero model numbers, the mirror, the mini-FAQ's first line
-  (Problem + About + Proof + the FAQ); (2) *"I can Google this / ask ChatGPT"* → a working leader's lived
-  experience, the questions page, the honest trade-offs no deck prints (The Guide + The Organization);
+  honest page on the page (the member's own trade-off when the guide compares models), zero model numbers,
+  the mirror, the mini-FAQ's first line (Problem + About + Proof + the FAQ); (2) *"I can Google this / ask
+  ChatGPT"* → a working leader's lived experience, the real template or the questions page, the honest lines
+  no deck prints (The Guide + The Organization);
   (3) *"I'm not looking to move"* / *"my broker will find out"* → the guide is FOR before you decide, the list
   is private, nobody is contacted on their behalf (The Guide + Opt-in + the mini-FAQ's second and third lines).
   Hit each one.
@@ -58,14 +63,15 @@ The difference between an "okay" page and one that converts is strategy, not adj
 ## SECTION 1 — HERO (90% of the result)
 The first screen. If it's vague, they leave. Three parts — **phone-length** (most visitors tap in from a bio
 link, a Reel caption, or a video description): headline ~6–10 words, subhead one to two short lines.
-**Campaign one is always the comparison guide (house rules #11), so model it first:**
+**Model it on the magnet's actual promise (house rules #7) — three examples:**
 - **Headline** — the magnet's core promise, outcome-led, for this type of agent. Clear over clever.
-  Comparison guide: *"The Honest Brokerage Comparison Guide."* · Campaign two+ (switching checklist example):
-  *"Switch brokerages once — the checklist that makes it the last time."*
+  A system guide: *"The Five-Step Sunday Routine — the open-house follow-up that fills a pipeline."* · A
+  switching checklist: *"Switch brokerages once — the checklist that makes it the last time."* · A
+  comparison-shaped guide: *"Every model, every trade-off — including mine."*
 - **Subhead** (1–2 lines) — expand the promise, name who it's for by stage, remove doubt.
-  Comparison guide: *"How cloud, franchise, flat-fee, and independent models actually work — the trade-offs of
-  each (including mine), the questions to ask any sponsor, and nothing you can't check. Written by a working
-  agent and leader, not a recruiting department."*
+  A system guide: *"The five steps I run every Sunday, the sheet I hand new partners, and your first week
+  mapped — for agents paying for leads that don't close. Written by a working agent and leader, not a
+  recruiting department."*
 - **CTA button** — the one canonical phrase, exactly (copywriting KB): *"Get the Free Guide."*
 The headline MUST equal the magnet's promise (alignment — house rules #7). No brokerage named in the hero
 except the member's own where compliance requires it.
@@ -74,10 +80,11 @@ except the member's own where compliance requires it.
 The agent landed here because something's bugging them. Name it *before* you offer anything — they need to
 feel "this page gets me." Take their **single most acute pain** (the strategy section says where it comes
 from) and make it concrete:
-- **Name the pain in their words** — the specific thing that goes wrong. Comparison guide: *"You're comparing
-  brokerages on a spreadsheet at 11pm, and every sponsor you talk to says the same three things — and none of
-  them will tell you the downside of their own model."* Switching checklist: *"You switched once already.
-  Nothing changed except the logo on your signs."* (No figures unless real and sourced; no brokerage named;
+- **Name the pain in their words** — the specific thing that goes wrong. A system guide: *"You're paying for
+  leads that don't close, and nobody at your brokerage has shown you what to actually do on a Sunday."* A
+  comparison-shaped guide: *"You're comparing brokerages on a spreadsheet at 11pm, and every sponsor you talk
+  to says the same three things."* Switching checklist: *"You switched once already. Nothing changed except
+  the logo on your signs."* (No figures unless real and sourced; no brokerage named;
   no protected characteristic — house rules #5.)
 - **Agitate honestly** — the real cost of getting it wrong (another year of the same, a sponsor who vanishes
   after onboarding, choosing on the one number that matters least). Real stakes, never fake fear or doom.
@@ -92,11 +99,12 @@ step renders it). From the magnet's actual pages (alignment — house rules #7):
 - **The mockup** — note in the copy that the guide cover/mockup sits **left or right** of this section: the
   visual proof the guide is real and substantial.
 - **A "here's exactly what you'll get" stack** — 4–7 concrete bullets, each a real outcome from a page of the
-  guide (comparison: *"the five parts every brokerage model is made of — so you can compare any of them"* ·
-  *"how revenue share is actually funded, in plain English"* · *"the honest trade-off of my own model, in
-  writing"* · *"the 14 questions to ask any sponsor — including me"*), never a vague tease.
-- **Why it's worth more than free** — one line: it's fair to every model, including mine; nobody else will
-  put that in writing.
+  guide (a system guide: *"the exact follow-up sheet I hand every new partner"* · *"the five steps, in order,
+  with what each one produces"* · *"your first week, mapped Monday to Sunday"* · *"the one mistake that costs
+  most agents the deal"*; a comparison-shaped guide: *"the honest trade-off of my own model, in writing"* ·
+  *"the 14 questions to ask any sponsor — including me"*), never a vague tease.
+- **Why it's worth more than free** — one line: it's the real thing only this leader could have written;
+  nobody else will put that in writing.
 - **Repeat the CTA** here (mid-page) — some readers are ready already.
 Specificity + the visual is what earns the email.
 
@@ -203,8 +211,8 @@ call offered under it. Write all three pieces:
   These MUST match the guide's actual pages (alignment — house rules #7).
 - **The mini-FAQ — 3 one-liners, right at the ask.** The last-moment objections an agent has, dissolved where
   they occur (not a separate section — three short Q&As in the member's voice):
-  - *"Is this a recruiting pitch?"* → No — it's the guide, and it's fair to every model, including mine. If
-    you ever want to talk, you know where I am.
+  - *"Is this a recruiting pitch?"* → No — it's the guide, built from what I actually do. If you ever want
+    to talk, you know where I am.
   - *"Will anyone know I downloaded this?"* → No — the list is private, nobody's contacted on your behalf,
     and you can unsubscribe from anything any time.
   - *"I'm not planning to move — is this for me?"* → Then it's the thing to read before you ever decide. No
@@ -214,7 +222,7 @@ call offered under it. Write all three pieces:
 - **CTA button** — same promise as the hero: *"Get the Free Guide."*
 
 **The OPT-IN POP-UP (every CTA button on the page opens this one modal):**
-- **A one-line headline** restating the promise (*"Your free comparison guide — one step away"*).
+- **A one-line headline** restating the promise (*"Your free [guide, by name] — one step away"*).
 - **The form** — labels `First name` · `Email` · `Phone`. Three fields, nothing else — never "brokerage,"
   never "production."
 - **The contact line** under Phone — one honest sentence on what the member actually does with it, from
@@ -257,7 +265,8 @@ Forms email notifications, and test-submit once.
 
 ## What converts vs. what kills it
 **Converts:** one clear promise · a real pain named before any offer · a value-stack shown with the mockup ·
-WHO + the PARTNER OFFER as distinct sections · **the trade-off of the member's own model, in writing** ·
+WHO + the PARTNER OFFER as distinct sections · **the honest page only this leader could write (for a
+comparison-shaped guide, the trade-off of their own model, in writing)** ·
 **what the organization actually does each week** · **dedicated real proof with consent** · a real social /
 YouTube presence shown as trust (when they have one) · outcome-led "you" copy · a tiny, reassured, private form ·
 ONE primary CTA repeated ~3× · the call offered only after the download · short, skimmable, lots of white space.

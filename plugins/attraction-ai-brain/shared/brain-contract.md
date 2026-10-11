@@ -77,7 +77,7 @@ by the member before saving — and never of memory ledgers, except the `## Past
 
 | File | Owner skill | Also writes (designated section / append only) |
 |---|---|---|
-| `brain.md` | `attraction-brain-setup` (index, quick-ref) | `attraction-brain-health` refreshes quick-ref fields |
+| `brain.md` | `attraction-brain-setup` (index, quick-ref) | `attraction-brain-health` refreshes quick-ref fields; `attraction-offer` writes the `**Offer status:**` and `**UVP (one line):**` lines when the offer is finalized; the Lead Magnet plugin's `lm-magnet` writes the `**Live magnet:**` line (`lm-funnel` adds the URL when the page goes live) — a mirror of `memory/magnets.md → ## Current magnet`, which stays the source of truth; nothing else outside the Brain touches this file |
 | `config.md` | `attraction-brain-setup` / `attraction-brain-sync` (registry keys) | `attraction-brain-sync` → `Storage`; `attraction-debrief` → `Daily Debrief task`, `Debrief time`; `attraction-brain-migrate` → `Schema`; `attraction-import` → `Realtor Brain bridge`; `attraction-operations` → `CRM`; later plugins their own block, never another's |
 | `identity/profile.md` | `attraction-brand-persona` | `attraction-import` (bridged fields, marked) |
 | `identity/journey.md` | `attraction-brand-persona` (everything above the `## Why join me` block) | `attraction-why-join-me` owns the `## Why join me` block at the END of the file (60-second, long, one-breath); brand-persona preserves it byte-for-byte |

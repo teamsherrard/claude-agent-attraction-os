@@ -127,7 +127,7 @@ design brief and name the `aa-…-design` skill to run. Nothing else is installa
 | `aa-style-sheet-design` | KEEP | 2 Brand Style Guide | existing-logo path kept; writes the Design System file the other 13 consume |
 | `aa-brand-kit-design` | ADJUST | 3 Social Media Kit | profile + banner graphics across IG / FB / LinkedIn / YouTube with the recruiter CTA; the 5-question profile test baked into the copy slots |
 | `aa-funnel-design` | ADJUST | 7 Sales Funnel Pages (+references) | three funnel shapes: opt-in (lead magnet), Partner Call booking, workshop registration; Netlify static-decoy-form rule carried; GHL-ready copy blocks |
-| `aa-lead-magnet-design` | ADJUST | 8 Lead Magnet Designer | first magnet template = the Honest Brokerage Comparison Guide (factual, cited, dated, no ranking language); cover-only and 3D mockup modes kept |
+| `aa-lead-magnet-design` | ADJUST | 8 Lead Magnet Designer | designs whatever shape the member's offer produced (their system guide, a checklist, a plan, a questions guide, a fair comparison guide — factual, cited, dated, no ranking language — a mini-course); cover-only and 3D mockup modes kept |
 | `aa-offer-stack-design` | **NEW** | none | the 3D offer stack: what the offer includes and what each piece is worth; reads the Brain Book's offer chapter; never prices rev share |
 | `aa-offer-assets-design` | **NEW** | 6 Presentations (deck half) | "Join My Team" 1-pager, the opportunity deck, the welcome pack, the comparison sheet (comparison sheet is model-positioning output, compliance-gated) |
 | `aa-product-mockup-design` | **NEW** | 8's 3D mockup mode (expanded) | the digital product mockup: 3D ebook and course box, device screens, bundle shots; Week 2 promise |
@@ -303,16 +303,16 @@ Removed from the OS by the user on 2026-10-08. Not built. `memory/organization.m
 
 ## 11. Plugin 3 — Lead Magnet (`lm-`, 11 skills) — Week 2, after the Partner Offer session (resequenced 2026-10-10)
 
-Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and output standard copy over; the first magnet is locked.
+Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and output standard copy over. **Offer-first (user decision 2026-10-10, v0.5.0):** the magnet is chosen from the member's unique value proposition — the navigator builds the Partner Offer in-session if it is still at seeds, `lm-magnet-ideas` recommends three Mike-grounded magnets from it, the member picks, then the magnet document and the sales funnel outline, one sitting. No default magnet; no two members' magnets alike.
 
 | Skill | Status | Change |
 |---|---|---|
-| `lm-navigator` | KEEP | checks the offer exists (built earlier in Week 2 — the plugin runs right after that session), locks the first magnet, routes |
-| `lm-magnet` | ADJUST | writes the magnet in the member's voice; first = **the Honest Brokerage Comparison Guide** (factual, cited, dated, no ranking, no disparagement; "honest" means transparent about trade-offs, never critical of a named brokerage; compliance-gated hard) |
+| `lm-navigator` | ADJUST | offer-first: builds the Partner Offer in-session when it is still at seeds (runs `attraction-offer`, continues the moment it is finalized), hands to `lm-magnet-ideas` for three recommendations, the member picks, runs the shape-specific intake, hands the writer the locked focus; compliance folded in right before the public document; routes |
+| `lm-magnet` | ADJUST | writes the magnet in the member's voice — any shape the member picked: their own system guide, a checklist, a plan or template, a questions guide, a fair comparison guide only when it fits the UVP (factual, cited, dated, no ranking, no disparagement; "honest" means transparent about trade-offs, never critical of a named brokerage), a mini-course outline; compliance-gated hard; mirrors `## Current magnet` into `brain.md`'s `Live magnet:` line |
 | `lm-funnel` | ADJUST | opt-in page, thank-you, book-a-call step; design via `aa-funnel-design`; static decoy form rule |
 | `lm-gbp` | KEEP | GBP positioned for attraction, posts pointed at the magnet |
 | `lm-profiles` | KEEP | social bios aligned to the funnel (shares the 5-question profile test with `sf-setup`; one owner per section: `lm-profiles` writes `identity/profiles.md` FIRST in Week 2 — the five Short-Form headings plus its own extra platforms — and `sf-setup` refreshes the five sections in Week 3; ruled 2026-10-10) |
-| `lm-magnet-ideas` | **NEW** | next magnet from the persona map and what converted (Switching checklist, Sponsor questions, Rev-share explainer, 90-day plan template) |
+| `lm-magnet-ideas` | **NEW** | the recommender for every campaign: three Mike-grounded magnets built from the UVP along three lanes (the mechanism magnet · the outcome magnet · the question magnet), one numbered list of three, the member picks; scored by UVP fit, the avatar's pain, what converted, the member's own ideas, compliance; lessons cited only where they resolve in the Support KB index |
 | `lm-design` | **NEW** | the styled PDF brief for `aa-lead-magnet-design` (cover + 3D mockup) |
 | `lm-delivery` | **NEW** | the DM, email, and story that deliver the magnet (ManyChat GUIDE keyword copy) |
 | `lm-nurture` | **NEW** | awareness → proof → CTA email sequence and the weekly newsletter; draft-only; list building is the Week 6 vault's first scaling lesson |
@@ -387,4 +387,4 @@ build: every doctrine file, the Support plugin's answer source, and the voice of
 7. Mike's thumbnail swipe file with pattern notes (for the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill)).
 8. **Inducement-rules review** before the Switching Transition Plan and the Earnings Comparison one-pager ship (cohort doc flags it; both stay out of v1 until cleared).
 9. **Voice-mode role-play** is a claude.ai app feature, not a Cowork skill: confirm the Objection Coach ships text role-play plus app instructions.
-10. **Week 2 session order** (user decision 2026-10-10: the Lead Magnet moved to Week 2): confirm the Tue Nov 10 session runs the offer first and the lead magnet right after, and that the Week 2 bios homework runs through `lm-profiles`.
+10. **Week 2 session order** (user decision 2026-10-10: the Lead Magnet moved to Week 2): confirm the Tue Nov 10 session runs the offer first and the lead magnet right after, and that the Week 2 bios homework runs through `lm-profiles`. Offer-first is now built in (v0.5.0, same day): "launch my lead magnet plugin" builds the offer in-session when it is still at seeds, so the session is one sitting either way — what Mike confirms is the demo order, not a gate.

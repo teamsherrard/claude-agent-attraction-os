@@ -10,7 +10,7 @@ description: >
   (copy verbatim, one page per PAGE block, the compliance stamp, the dated line). Saves the brief
   in the campaign folder; marks the magnet "designed" once the member confirms the PDF. Brief only
   — never renders anything.
-  Trigger on: "design brief for my guide", "make my comparison guide a PDF", "mockup for my agent
+  Trigger on: "design brief for my guide", "make my guide a PDF", "mockup for my agent
   lead magnet", "cover for my guide", "hand my guide to design", "3D mockup of my guide".
 ---
 
@@ -71,14 +71,14 @@ Tagline (if any): "[ ]"
 
 ────────────────────────────────────────────
 COVER
-Title: [the guide's title, exactly] · Subtitle: [the promise line, exactly] · "By [Name], [Brokerage as required]" · "Last updated [Month YYYY]" (keep it — the guide is dated on purpose).
+Title: [the guide's title, exactly] · Subtitle: [the promise line, exactly] · "By [Name], [Brokerage as required]" · "Last updated [Month YYYY]" when the guide states facts that can change (keep it — it is dated on purpose).
 No ranking language, no stars, no "best," no other brokerage's name or logo anywhere.
 
 ────────────────────────────────────────────
 INTERIOR RULES (the designer must not change these)
 •  Copy VERBATIM from the doc — every word, including the source notes in parentheses and the "verify current" line on page 1. Nothing added, nothing cut, no "punching up."
-•  One page per PAGE block, in order; the four model pages in the SAME layout (same length, same blocks) — a longer or bolder page for the member's own model reads as a pitch.
-•  The questions page (page 7) designed as a checklist the reader can screenshot.
+•  One page per PAGE block, in order. Shape rules: a comparison-shaped guide's model pages in the SAME layout (same length, same blocks — a longer or bolder page for the member's own model reads as a pitch); a checklist page with real checkboxes; a plan or template page with real fill-in rows; a mini-course lesson page with its template in full.
+•  The page the reader will screenshot (the checklist, the system at a glance, the questions) designed to pass the screenshot test — the whole page legible in one phone screenshot.
 •  The closing page carries the booking link as a button and the social handles; nothing else gets a button.
 •  The compliance footer on every page: [the stamp, verbatim from compliance.md].
 •  Photos: the member's headshot on the closing page; real photos of the organization only if supplied — never stock people, never another brokerage's event.

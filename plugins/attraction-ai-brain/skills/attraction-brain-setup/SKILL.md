@@ -545,7 +545,8 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
 1. **Write `brain.md`** — the index. Fill the quick-reference block (name · brokerage · market ·
    what they're building · primary avatar · voice-in-one-line · the one-liner from Q36 · brand
    colours and fonts · booking link · CRM · this week's activity target · socials) by pulling from
-   the identity files. Keep the laws and the file map intact. This is the file every skill reads
+   the identity files; the `UVP (one line)` and `Live magnet` lines stay at their Week 2 placeholders
+   (`attraction-offer` and the Lead Magnet plugin write them). Keep the laws and the file map intact. This is the file every skill reads
    first — make the quick reference complete enough that most skills never open another file.
 2. **Stamp `config.md`** — plugin version, created date, timezone, locale, storage provider, CRM,
    `Schema: aa-1.0`, `Setup progress: complete`.

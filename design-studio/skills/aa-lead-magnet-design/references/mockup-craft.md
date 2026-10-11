@@ -25,7 +25,7 @@ A product has exactly ONE cover, and every shot of it reproduces that cover fait
 - **The byline** — "By [Name]" with the brokerage only as the compliance block requires it on a cover;
   the member's logo or mark, small; the organization's mark on group products where the Design System's
   logo card says.
-- **Dated on purpose** when the product is dated (a comparison guide carries "Last updated [Month
+- **Dated on purpose** when the product is dated (a guide that states brokerage mechanics carries "Last updated [Month
   YYYY]"); a current-year badge on an evergreen product only if the member wants it — never a fake
   edition number.
 - **The visual** — a brand field, the toolkit texture, the oversized mark device, or a real photo the

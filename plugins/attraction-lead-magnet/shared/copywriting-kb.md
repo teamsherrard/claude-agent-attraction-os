@@ -11,7 +11,7 @@ below, rewrite it.
 ## The 10 principles (non-negotiable)
 
 1. **One job, earned with value.** The funnel's one goal is the opt-in — but it EARNS it by being genuinely
-   useful (an honest comparison, a real leader's experience, a real offer), never by pushing. **A thin,
+   useful (a real system, a real leader's experience, a real offer), never by pushing. **A thin,
    all-pitch page reads like a recruiting deck; a substantive one reads like a leader.** Every section moves
    toward the opt-in by adding value, not hype. The call is offered after the download, never before.
 2. **Outcomes beat features** (`04-value-proposition/32`). "Agents don't buy features; they buy outcomes."
@@ -51,8 +51,9 @@ Changing brokerages is one of the few business decisions an agent makes alone, w
 no neutral source. So:
 - **Trust is the whole game.** Agents opt in with a leader they believe is competent *and* honest about the
   trade-offs. Lead with credibility and candour, not salesiness.
-- **Honesty is the differentiator.** The leader who explains every model fairly — including the downsides of
-  their own — is the one the agent calls. That's the un-fakeable value no recruiting deck has.
+- **Honesty is the differentiator.** The leader who says the real thing — the honest page, the real routine,
+  the mistake they made themselves, and, when the magnet compares models, the downsides of their own — is the
+  one the agent calls. That's the un-fakeable value no recruiting deck has.
 - **Speak to the real pains — Mike's five (`02-prospect-targeting/18`, `04-value-proposition/27`):** financial
   uncertainty (no reliable next client) · lack of support, mentorship, training (the brokerage explains forms,
   not how to get clients) · technology gaps (paying for tools and leads that don't move the needle) · limited
@@ -74,9 +75,12 @@ no neutral source. So:
 The hero headline carries the page. It states the magnet's core promise in one clear, benefit-led line, for a
 type of agent (by stage, never a protected class). Proven shapes (adapt to voice — don't sound like a template):
 
+- **The System formula:** *"The exact [routine] that produced [result] — step by step."*
+  → "The exact open-house routine that produced three buyers a month — step by step." (the member's own
+  system, from the Teach-first lesson — usually the strongest shape, house rules #11)
 - **The Honest formula:** *"The honest [thing] for [type of agent]."*
-  → *"The Honest Brokerage Comparison Guide — every model, every trade-off, including mine."* (the locked first
-  campaign — house rules #11)
+  → "The honest guide to your first 90 days — what actually happens, from someone who ran them." (a fair
+  comparison guide uses it too: "every model, every trade-off, including mine")
 - **The Questions formula:** *"The [N] questions to ask any [brokerage / sponsor] before you [decide]."*
   → "The 14 questions to ask any sponsor before you sign."
 - **The Before formula:** *"Read this before you [switch / sign / pick a sponsor]."*
@@ -85,9 +89,8 @@ type of agent (by stage, never a protected class). Proven shapes (adapt to voice
 - **The Plan formula:** *"Your first [90 days] at [a new brokerage], mapped."*
 
 **The subhead** (right under the headline) does three jobs in one or two lines: expand the promise, name who
-it's for, and remove doubt. → Comparison guide: *"How cloud, franchise, flat-fee, and independent models
-actually work — the trade-offs of each, the questions to ask, and nothing you can't check. Written by a
-working agent and leader, not a recruiting department."*
+it's for, and remove doubt. → A system guide: *"The five steps I run every Sunday, the sheet I hand new
+partners, and your first week mapped. Written by a working agent and leader, not a recruiting department."*
 
 Headline rules: specific, benefit-led, no hype words ("INSANE," "secret," "you won't believe"), no clickbait,
 readable in one breath. **Phone-length:** most visitors tap in from a bio link or a video description on a
@@ -115,11 +118,11 @@ Keep it tight (3–5 lines). Empathy + stakes, not a pitch — it's what makes t
 This is where the email gets earned: make the free guide feel genuinely valuable AND show it. Pair the copy
 with the **guide mockup / cover on the left or right** (note the placement — the design step renders it).
 From the magnet's actual pages:
-- **"Here's exactly what you'll get" — 4–7 concrete bullets**, each a real outcome from a page ("how revenue
-  share is actually funded, and the one question that tells you if a plan is real" · "the trade-off of my own
-  model, in writing"), never a vague tease.
+- **"Here's exactly what you'll get" — 4–7 concrete bullets**, each a real outcome from a page ("the exact
+  follow-up sheet I hand every new partner" · "your first week, mapped Monday to Sunday" · "the one mistake
+  that costs most agents the deal"), never a vague tease.
 - **The mockup beside it** — visual proof the guide is real and substantial.
-- **One line on why it's worth more than free** — it's honest about every model, including the member's.
+- **One line on why it's worth more than free** — it's the real thing only this leader could have written.
 - **Repeat the CTA** here (mid-page) — some readers are already sold.
 Specificity + the visual is what makes an agent hand over an email.
 
@@ -204,7 +207,7 @@ When they do have a presence, it's strong trust + authority (especially YouTube 
 The opt-in flow is **button → pop-up → thank-you page** (house rules #4). Write all three — plus the
 **mini-FAQ**: three one-line Q&As in the section, right before the button, dissolving the final objections an
 agent has at the ask:
-- *"Is this a recruiting pitch?"* → No — it's the guide, and it's fair to every model. If you ever want to
+- *"Is this a recruiting pitch?"* → No — it's the guide, built from what I actually do. If you ever want to
   talk, you know where I am.
 - *"Will anyone know I downloaded this?"* → No — the list is private, nobody's contacted on your behalf, and
   you can unsubscribe from anything any time.
@@ -223,7 +226,7 @@ One honest line each, in the member's voice. Objections dissolve best at the mom
   from `identity/operations.md`'s follow-up cadence: *"I'll text or call once to make sure you got it — no
   drip, no pressure."* Expectation set = trust earned; a phone field with no reason costs opt-ins.
 - **Reassurance by the button:** *"Free. Instant. Private — nobody's contacted on your behalf. Unsubscribe anytime."*
-- **Headline:** restate the promise, not the mechanics — *"Your free comparison guide — one step away."*
+- **Headline:** restate the promise, not the mechanics — *"Your free [guide, by name] — one step away."*
 - **Button:** the canonical phrase, nothing else.
 - **The thank-you page** (after submit): warm confirmation + **the direct link to the guide PDF as a big
   instant-download button right on the page** ("You're in — grab your guide below"), in the member's voice —
@@ -236,7 +239,7 @@ same words on the hero, the mid-page repeat, the opt-in, and the pop-up submit; 
 link-in-bio button or a video/social CTA that points at this page, recommend the same phrase — so an agent
 meets one consistent ask at every touchpoint. Don't improvise variants per page.
 - ✅ "Get the Free Guide" — the ONLY label on any CTA button.
-  A guide-named variant ("the comparison guide") is allowed ONLY in body copy — never on the button itself.
+  A guide-named variant ("the Sunday routine guide") is allowed ONLY in body copy — never on the button itself.
 - ❌ "Submit" · "Sign up" · "Download" · "Join" · "Apply" · "Book a call" (on the opt-in page) — any button text
   other than the canonical phrase.
 - ❌ "Send me the guide" or any send/email framing — delivery is an **instant download on the page**.

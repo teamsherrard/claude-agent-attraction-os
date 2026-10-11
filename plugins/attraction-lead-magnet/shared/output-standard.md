@@ -22,13 +22,13 @@ and sequence that serve it always sit together:
 │     └── 🪪 [Name]'s Platform Profiles — 2026-12-16.docx              (lm-profiles)
 ├── 03 · Content/
 │   └── Guides/
-│       ├── 2026-12-16 · Honest Brokerage Comparison Guide/     (one campaign — created when the magnet is built)
-│       │     ├── Lead Magnet — Honest Brokerage Comparison Guide.docx           (lm-magnet, built first)
-│       │     ├── Opt-In Funnel — Honest Brokerage Comparison Guide.docx         (lm-funnel, built second)
-│       │     ├── Design Brief — Honest Brokerage Comparison Guide.docx          (lm-design)
-│       │     ├── Delivery Kit — Honest Brokerage Comparison Guide.docx          (lm-delivery)
-│       │     ├── Nurture Sequence — Honest Brokerage Comparison Guide.docx      (lm-nurture)
-│       │     └── Lead Magnet Report — Honest Brokerage Comparison Guide — 2027-01-13.docx   (lm-analytics)
+│       ├── 2026-12-16 · The Five-Step Sunday Routine/     (one campaign — created when the magnet is built)
+│       │     ├── Lead Magnet — The Five-Step Sunday Routine.docx           (lm-magnet, built first)
+│       │     ├── Opt-In Funnel — The Five-Step Sunday Routine.docx         (lm-funnel, built second)
+│       │     ├── Design Brief — The Five-Step Sunday Routine.docx          (lm-design)
+│       │     ├── Delivery Kit — The Five-Step Sunday Routine.docx          (lm-delivery)
+│       │     ├── Nurture Sequence — The Five-Step Sunday Routine.docx      (lm-nurture)
+│       │     └── Lead Magnet Report — The Five-Step Sunday Routine — 2027-01-13.docx   (lm-analytics)
 │       ├── Weekly Newsletter — 2026-12-18.docx                 (lm-nurture — standing, dated)
 │       └── List Growth Report — 2027-01-13.docx                (lm-analytics — standing, dated)
 └── 04 · Agents/
@@ -36,17 +36,17 @@ and sequence that serve it always sit together:
           └── Partner Outreach Kit — 2026-12-17.docx            (lm-partnerships)
 ```
 
-A "campaign" = one magnet (the Honest Brokerage Comparison Guide first; whatever `lm-magnet-ideas` picks
-after) + the funnel and kits that serve it. Build several over time — each gets its own dated folder.
+A "campaign" = one magnet (the one the member picked from `lm-magnet-ideas`' three recommendations, built
+from their own offer — the example below is the demo member's) + the funnel and kits that serve it. Build several over time — each gets its own dated folder.
 Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS has nothing to do with either.
 
 ## 2. Naming convention (use everywhere — no exceptions)
 
 | Thing | Pattern | Example |
 |---|---|---|
-| Campaign folder | `YYYY-MM-DD · [Guide Name]` | `2026-12-16 · Honest Brokerage Comparison Guide` |
-| Lead magnet doc | `Lead Magnet — [Guide Name]` | `Lead Magnet — Honest Brokerage Comparison Guide` |
-| Funnel doc | `Opt-In Funnel — [Guide Name]` | `Opt-In Funnel — Honest Brokerage Comparison Guide` |
+| Campaign folder | `YYYY-MM-DD · [Guide Name]` | `2026-12-16 · The Five-Step Sunday Routine` |
+| Lead magnet doc | `Lead Magnet — [Guide Name]` | `Lead Magnet — The Five-Step Sunday Routine` |
+| Funnel doc (the member hears "your sales funnel outline") | `Opt-In Funnel — [Guide Name]` | `Opt-In Funnel — The Five-Step Sunday Routine` |
 | Design brief | `Design Brief — [Guide Name]` | |
 | Delivery kit | `Delivery Kit — [Guide Name]` | |
 | Nurture sequence | `Nurture Sequence — [Guide Name]` | |
@@ -56,7 +56,9 @@ Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS
 | Partner kit | `Partner Outreach Kit — YYYY-MM-DD` | |
 | GBP kit · Profiles | `📍 [Name]'s Google Business Profile Kit — YYYY-MM-DD` · `🪪 [Name]'s Platform Profiles — YYYY-MM-DD` | |
 
-Guide Name = 2–6 plain words (Title Case). The date is the build date (ISO, so folders sort on their own).
+Guide Name = the magnet's name, 2–6 plain words (Title Case) — a checklist or a plan is still named this way,
+and the Design Studio keys on these exact doc-name prefixes (`Lead Magnet — ` · `Opt-In Funnel — ` · `Design
+Brief — `), so they never change. The date is the build date (ISO, so folders sort on their own).
 Every doc in a campaign shares the same Guide Name so the set is unmistakable. Regenerated standing docs carry
 a new date; **the newest date is the current one** (the connector cannot overwrite). After a verified upload,
 the superseded older copy of a standing doc may be trashed; campaign docs are never trashed.
@@ -114,8 +116,8 @@ token ever appears in a deliverable.**
 **Lead Magnet doc** — the guide content (the designed PDF is built separately at the design step):
 ```
 LEAD MAGNET — [GUIDE NAME]
-[Name] · [Brokerage] · [City] · [Date]   ·   Last updated [Month YYYY] — brokerage plans change; verify anything current with the brokerage itself.
-Your guide content, ready for your design step. This doc is the words; the PDF is built separately.
+[Name] · [Brokerage] · [City] · [Date]   ·   Last updated [Month YYYY] — (when the magnet states facts that can change — brokerage plans, platform rules, tools) verify anything current with the source itself.
+Your lead magnet content, ready for your design step. This doc is the words; the PDF is built separately.
 
 ────────────────────────────────────────────
 THE PROMISE
@@ -127,7 +129,7 @@ THE GUIDE   (page by page)
    •  ...the actual, genuinely useful content...
 ── PAGE 2 - [TITLE] ──
    •  ...
-(5–9 body pages of real value — the comparison guide is 7, plus an optional 8th story page — never a tease.
+(4–9 body pages of real value in the picked shape's page-by-page structure from the magnet writer's reference — a system guide 5–7, a checklist 4–6, a plan 5–7, a comparison guide 7 plus an optional 8th story page — never a tease.
 Keep each page-title line in that exact `── PAGE N - TITLE ──` form — a short title of plain words with the
 hyphen separator (`?`, `:` and `&` are fine) and keep the text between the dashes under 70 characters — any
 longer and the renderer prints the dashes literally as body text instead of making a subheading. Every fact
@@ -156,7 +158,7 @@ set or confirmed — unset blocks the whole doc; never paste a bracket token.)
 ```
 OPT-IN FUNNEL — [GUIDE NAME]
 [Name] · [Brokerage] · [City] · [Date]   ·   Gives away: [the magnet above]
-Your page copy + structure, ready for your design step. This doc is the words; the page is built separately.
+Your sales funnel outline — the opt-in page copy + strategy, the pop-up, and the thank-you page — ready for your design step. This doc is the words; the page is built separately.
 
 ────────────────────────────────────────────
 SECTION 1 — HERO
@@ -167,7 +169,7 @@ CTA button: "Get the Free Guide"
 ────────────────────────────────────────────
 SECTION 2 — THE PROBLEM
 The pain, named: ...   (the agent's most acute pain in their words — avatars.md "biggest problem, in their words" + the magnet's framing page)
-What it costs to get wrong: ...   (the wrong brokerage for the wrong reasons; another year of the same)
+What it costs to get wrong: ...   (another year of the same; the mistake the magnet exists to prevent)
 There's a better way: ...   (one line that bridges into the guide)
 
 ────────────────────────────────────────────
@@ -175,7 +177,7 @@ SECTION 3 — THE GUIDE  (what's inside + value · mockup left or right)
 [ guide mockup / cover sits LEFT or RIGHT of this stack ]
 What you'll get:
    •  ...   (4–7 concrete outcomes, one per guide page — never teases)
-Why it's worth more than free: ...   (honest about every model, including mine — the thing no recruiting deck does)
+Why it's worth more than free: ...   (the one thing only this leader could have written — their real routine, their honest page; the thing no recruiting deck does)
 CTA button: "Get the Free Guide"   (mid-page repeat)
 
 ────────────────────────────────────────────

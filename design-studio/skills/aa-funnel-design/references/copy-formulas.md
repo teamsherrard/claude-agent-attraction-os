@@ -11,19 +11,18 @@ layout to. Never offer "2–3 headline options" when a doc exists.
   page, the bio, the videos, the ManyChat keyword).
 - Partner Call booking: **"Book a call with me"** — the Book's primary CTA, verbatim.
 - Workshop registration: **"Save my seat"** (or the Events doc's phrase, verbatim).
-- The thank-you's download button names the ACTUAL guide: *"Download the Honest Brokerage Comparison
-  Guide"* — never a generic "your guide".
+- The thank-you's download button names the ACTUAL guide: *"Download the Five-Step Sunday Routine"* —
+  never a generic "your guide".
 - The call, offered on the opt-in thank-you (the doc's line, in this register): *"Want to talk through
   where you're at? Book a call — no pitch, I'll just answer your questions. If not, that's okay."*
 
 ## HEADLINE SHAPES (fallback only — localize the MEANING, never translate word for word)
 
-- **Opt-in (the comparison guide — the locked first campaign):** the magnet's promise, outcome-led, for
-  this type of agent. *"The Honest Brokerage Comparison Guide."* · subhead: *"How cloud, franchise,
-  flat-fee, and independent models actually work — the trade-offs of each (including mine), the
-  questions to ask any sponsor, and nothing you can't check. Written by a working agent and leader, not a
-  recruiting department."*
-- **Opt-in (a later campaign):** *"Switch brokerages once — the checklist that makes it the last time."*
+- **Opt-in (the member's lead magnet — whatever shape their offer produced):** the magnet's promise,
+  outcome-led, for this type of agent. *"The Five-Step Sunday Routine — the open-house follow-up that
+  fills a pipeline."* · subhead: *"The five steps I run every Sunday, the sheet I hand new partners, and
+  your first week mapped. Written by a working agent and leader, not a recruiting department."*
+- **Opt-in (other shapes):** *"Switch brokerages once — the checklist that makes it the last time."*
   · *"Your first 90 days at any brokerage, mapped week by week."*
 - **Partner Call booking:** the one line said out loud (*"I help agents in years 2–5 build a pipeline
   that doesn't need a lead bill"*) · subhead: who it's for by stage + what the call is and isn't (*"30

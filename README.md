@@ -13,7 +13,7 @@ Install the marketplace in Claude Cowork: **Customize → Personal Plugins → B
 | 1 | `attraction-ai-brain` | 1 | The Agent Attraction Brain: who you are as a leader, who you attract, what you have to give, your numbers, your voice and brand, your rules. Every other system reads it. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, the Top-50 ledger, and on-the-go Capture. |
 | 2 | `maa-claude-support` | 1 | The help desk, pointed at the 6-week calendar and Mike's full lesson knowledge base. |
 | – | Design Studio | 1–2, 6 | A Claude Design **skill set**, not a plugin: all 14 `aa-…-design` skills built (the Design Package, offer assets, recognition, events, the Value Vault; a Week 4 thumbnail is a `yt-thumbnail` brief pasted into the Brand HQ project). See `design-studio/`. |
-| 3 | `attraction-lead-magnet` | 2 | Lead magnets and opt-in funnels pointed at agents — install in Week 2 and run right after the Partner Offer session; it writes your bios first. |
+| 3 | `attraction-lead-magnet` | 2 | Lead magnets and opt-in funnels pointed at agents — install in Week 2. Offer-first: it builds your Partner Offer in the same session if it isn't built yet, recommends three magnets built from it, you pick, and it writes the magnet and the sales funnel outline; it writes your bios first. |
 | 4 | `attraction-shortform-system` | 3 | The short-form attraction engine. |
 | 5 | `realtor-riverside-editor` | 3 | The AI Editing Studio on Riverside, the same plugin as the realtor marketplace, reads whichever Brain you have. Install it once. |
 | 6 | `attraction-youtube-system` | 4 | The long-form authority engine. |

@@ -10,7 +10,7 @@ description: >
   Draft-only — nothing is sent or posted; the member pastes the copy into their own ManyChat,
   email, and story. 3-state compliance gate; no compensation, no model talk in a DM.
   Trigger on: "deliver my guide", "how do I deliver my agent lead magnet", "ManyChat copy for my
-  guide", "GUIDE keyword copy", "DM that sends the comparison guide", "delivery email for my
+  guide", "GUIDE keyword copy", "DM that sends my guide", "delivery email for my
   guide", "story that offers my guide".
 ---
 
@@ -59,7 +59,7 @@ Each message ≤ 3 short lines, typed-voice, no links except in DM 1. Note for t
 automation rules change — they check ManyChat's current policy on comment-triggered DMs before switching it on.
 
 ## Step 2 — The delivery email (sent by hand, or the first email in their list tool)
-Subject (fifth-grade, specific, no "[Brokerage]"): *"Your comparison guide (and the one page to read first)"*.
+Subject (fifth-grade, specific, no "[Brokerage]"): *"Your [guide, by name] (and the one page to read first)"*.
 Body: one warm line · the download link (the PDF — instant) · the one page to read first and why · the
 privacy line · the warm optional call line with the booking link · the signature block from `operations.md`
 with the compliance stamp. ≤ 150 words. **This is the only email that may carry the bare download link**,
@@ -67,9 +67,9 @@ because the person already opted in. Draft-only — the member sends it or loads
 email; the plugin never sends.
 
 ## Step 3 — The 3-frame story (the member's own account, filmed or typed)
-Frame 1 — the pain, in the type of agent's words, as a question (*"Comparing brokerages on a spreadsheet at
-11pm?"*). Frame 2 — the guide, with the mockup (from `lm-design`) and one line on why it's different (honest
-about every model, including mine). Frame 3 — the ask: *"DM me GUIDE and I'll send it"* (or the link sticker
+Frame 1 — the pain, in the type of agent's words, as a question (*"Still paying for leads that don't
+close?"*). Frame 2 — the guide, with the mockup (from `lm-design`) and one line on why it's different (the
+real thing, built from what I actually do). Frame 3 — the ask: *"DM me GUIDE and I'll send it"* (or the link sticker
 to the funnel). Spoken voice from `voice-print.md` if filmed. No model talk, no comp, nothing about any other
 brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set; say so in one line.
 

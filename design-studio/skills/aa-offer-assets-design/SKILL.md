@@ -174,8 +174,8 @@ broker or upline only when the member supplies them. The one money line, verbati
 Warm, second person, the member's voice ("I'll see you on Tuesday's call").
 
 ### Piece 4 — The model comparison sheet (US Letter, one page — portrait or landscape)
-From the Model Positioning Sheet and the Book's Your Model, Positioned chapter, in the honest shape the
-member's own comparison guide uses: model TYPES as columns (three to five; the member's own first or
+From the Model Positioning Sheet and the Book's Your Model, Positioned chapter, in the OS's honest
+comparison shape: model TYPES as columns (three to five; the member's own first or
 last, never in the middle), the SAME five blocks as rows for every column, every cell the same length,
 structure only — no numbers for any model, the member's own included, unless their compliance policy
 allows a public figure for their plan and it is cited to their document with its date. The header's

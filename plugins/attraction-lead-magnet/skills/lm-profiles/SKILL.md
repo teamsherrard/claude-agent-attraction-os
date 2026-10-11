@@ -51,7 +51,7 @@ each section's current CTA and link; absent on the first Week 2 run, which is th
 words), `identity/voice.md` (tone + signature phrases), `identity/proof.md` (real numbers only, dated),
 `identity/brand-visual.md` (tagline), and `memory/magnets.md` → `## Current magnet` (the live funnel URL).
 **The CTA + link (one per bio):** the live funnel URL from `magnets.md` → else their booking link
-(`brain.md` quick-ref) → else a DM hook ("DM me GUIDE for the comparison guide"). Never more than one CTA per bio.
+(`brain.md` quick-ref) → else a DM hook ("DM me GUIDE for the [guide, by name]"). Never more than one CTA per bio.
 **Present file = an UPDATE:** show, per platform, what changes and why (usually: the link, the CTA line, the
 identity line tightened to the finalized offer) — never silently rewrite; keep what the earlier run (or
 `sf-setup`'s Week 3 refresh) got right. **Absent file = the first write** — the normal Week 2 case.

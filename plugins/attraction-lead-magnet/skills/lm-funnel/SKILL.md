@@ -1,24 +1,25 @@
 ---
 name: lm-funnel
 description: >
-  Step 2 of the Lead Magnet plugin — maps the opt-in page that gives the member's agent-attraction
-  lead magnet away. Reads the finished magnet so the page presents exactly what the guide
-  delivers, then writes the copy section by section for an agent audience: Hero, The Problem,
-  The Guide + mockup, About the leader + welcome video, Why Partner (the Partner Offer as
-  outcomes, never compensation), The Organization, Proof + photo strip, Socials (only if they have
-  channels), The Opt-in with a mini-FAQ — in the member's voice. One job on the page: the opt-in
-  (pop-up: first name, email, phone). The thank-you page carries the instant download AND the
+  Step 2 of the Lead Magnet plugin — writes the member's SALES FUNNEL OUTLINE: the opt-in page copy
+  and strategy that gives their agent-attraction lead magnet away. Reads the finished magnet so the
+  page presents exactly what it delivers, then writes the copy section by section for an agent
+  audience: Hero, The Problem, The Guide + mockup, About + welcome video, Why Partner (the Partner
+  Offer as outcomes, never compensation), The Organization, Proof + photo strip, Socials (only if
+  they have channels), The Opt-in with a mini-FAQ — in the member's voice. One job on the page: the
+  opt-in (pop-up: first name, email, phone). The thank-you page carries the instant download AND the
   book-a-call step. 3-state compliance gate; the static Netlify form rule for aa-funnel-design. COPY
-  + STRATEGY ONLY — never designs or hosts.
-  Trigger on: "write the page for my comparison guide", "opt-in page for agents", "attraction
-  funnel copy", "the page that gives away my agent lead magnet", "set up my attraction funnel"
-  when a guide exists.
+  + STRATEGY ONLY — never designs or hosts. Trigger on: "write the page for my lead magnet", "my
+  sales funnel outline", "opt-in page for agents", "attraction funnel copy", "set up my attraction
+  funnel" when a magnet exists.
 ---
 
-# Opt-In Funnel Mapper (Step 2 — copy + strategy only)
+# Sales Funnel Outline (Step 2 — the opt-in page copy + strategy, never design)
 
-The opt-in page. One job: get the agent to grab the guide. Every section pushes toward that — and nothing
-else on the page (house rules #4). The opt-in itself is a **two-step flow**: every CTA button opens the
+The sales funnel outline — the member hears it by that name; the saved document keeps its title
+`Opt-In Funnel — [Guide Name]`, which the design step keys on. Inside it: the opt-in page, section by section.
+One job: get the agent to grab the guide. Every section pushes toward that — and nothing else on the page
+(house rules #4). The opt-in itself is a **two-step flow**: every CTA button opens the
 **opt-in pop-up** (first name, email, phone), and submitting lands on the **thank-you page** with the guide as
 an instant download **and the call, offered** underneath it.
 
@@ -43,7 +44,8 @@ This page gives away a specific lead magnet, so it must read it:
 - **If no magnet exists yet,** this is the cold start the front door owns: say its line verbatim (*"Let's do
   it — the page's whole job is to give away your free guide, so I'll write the guide first and then the page
   basically writes itself. Same sitting, both done."*) and run `lm-navigator` Steps 0–5 (the Brain pull, the
-  offer + compliance checks, the lock, the intake) — the guide gets built, then it comes back here. Never
+  offer built first if it isn't, the three recommendations and the pick, the intake) — the magnet gets built,
+  then it comes back here. Never
   guess a magnet; the page and the guide must line up exactly.
 
 ## Step 2 — Load the Brain (lazy)
@@ -101,7 +103,7 @@ helped. The sections:
    Never a named brokerage, never a protected characteristic.
 3. **THE GUIDE — what's inside + its value (with the mockup)** — 4–7 concrete "here's exactly what you'll get"
    bullets from the magnet's pages (real outcomes, never teases) + why it beats what they'd find elsewhere
-   (honest about every model, including mine). **Note the guide mockup/cover sits left or right.** Repeat the CTA.
+   (the real thing only this leader could have written). **Note the guide mockup/cover sits left or right.** Repeat the CTA.
 4. **ABOUT [FIRST NAME] — WHO they are** — **the mirror** (one journey beat → the agent's present-day version),
    **why they're qualified** (one credibility line from `proof.md`; the upline's labeled as the upline's),
    **how they work with an agent** (3 steps max — the first 30 days as a partner from `offer.md`).
@@ -135,8 +137,8 @@ helped. The sections:
    follower count only if the member stated one; "follow for more free value." **Opt-in stays the one primary
    CTA** — no Subscribe button, no autoplaying embed.
 9. **THE OPT-IN** — name the magnet + a one-line promise, a **quick recap of the top 3 "what you'll get"**, a
-   **3-question mini-FAQ** right at the ask (*"Is this a recruiting pitch?"* → no, it's the guide, fair to
-   every model · *"Will anyone know I downloaded this?"* → no, the list is private, nobody's contacted on your
+   **3-question mini-FAQ** right at the ask (*"Is this a recruiting pitch?"* → no, it's the guide, built
+   from what I actually do · *"Will anyone know I downloaded this?"* → no, the list is private, nobody's contacted on your
    behalf · *"I'm not planning to move — is this for me?"* → then it's the thing to read before you ever
    decide — one honest line each, the member's voice, the third adapted to the magnet's reader), and the
    **CTA button**. Then write the two states that follow — the whole flow is **button → pop-up → thank-you
@@ -174,14 +176,17 @@ the thank-you page footer**. `set` → one reminder to confirm with their broker
 ## Phase 5 — Deliver + save (paired with the magnet)
 1. **Deliver in chat** — all the sections of copy, cleanly laid out and ready to use.
 2. **Save to the workspace** following `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: into the **same
-   campaign folder** as the magnet, save `Opt-In Funnel — [Guide Name]` (rendered to a styled `.docx` via the
-   shared renderer; read it back). Confirm the location in plain words. If the save fails, the output
+   campaign folder** as the magnet, save `Opt-In Funnel — [Guide Name]` — the saved title the design step
+   keys on; to the member it is "your sales funnel outline" (rendered to a styled `.docx` via the shared
+   renderer; read it back). Confirm the location in plain words. If the save fails, the output
    standard's fallback applies — say it's not saved, retry once, the chat copy is the deliverable; keep going.
 3. **Log it (silently):** in `memory/magnets.md`, note the funnel doc against the magnet's row (Campaign
    folder column already set; funnel URL stays "not live yet" until the member confirms the page is up, then
-   it becomes the URL and Status → `live` and `## Current magnet` gets the URL). **attraction-brain-sync
-   PUSH** (write → push → verify). This skill never writes `content-log.md`.
-4. **Close the loop:** *"That's your funnel copy — every section, ready to go. Next, upload this doc, the
+   it becomes the URL and Status → `live` and `## Current magnet` gets the URL — and `brain.md`'s
+   `**Live magnet:**` quick-reference line gets the same URL, the one line in `brain.md` this plugin updates).
+   **attraction-brain-sync PUSH** (write → push → verify). This skill never writes `content-log.md`.
+4. **Close the loop:** *"That's your sales funnel outline — the opt-in page section by section, the pop-up,
+   and the thank-you page with the download and the call, ready to go. Next, upload this doc, the
    magnet doc, and your newest Brain Book to the **funnel skill** in your Claude Design workspace — it builds
    the page from these exact sections and takes it live. One thing that matters: test-submit the form once
    before you send anyone to it, and tell me the live link so every other system points at it."*
@@ -214,4 +219,4 @@ the thank-you page footer**. `set` → one reminder to confirm with their broker
 - [ ] Voice matches `voice.md` + `voice-samples.md`; fifth-grade reading level; honest where others pitch
 - [ ] No design direction written (aa-funnel-design owns it); assets-to-gather + the static form rule in the appendix
 - [ ] Compliance pass done per house rules #5 (the stamp on the page footer and the thank-you footer; no bracket tokens; set → one reminder)
-- [ ] Saved into the same campaign folder as the magnet (or the fallback said plainly); magnets.md updated and pushed
+- [ ] Saved into the same campaign folder as the magnet (or the fallback said plainly); magnets.md updated and pushed; `brain.md`'s Live magnet line carries the URL once the page is live

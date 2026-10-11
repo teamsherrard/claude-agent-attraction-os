@@ -199,8 +199,10 @@ The raw material from setup is kept under its own heading (it's the audit trail 
 input). The `## Value stack` and `## Digital product` sections are owned by `attraction-free-vs-paid` —
 this skill writes their headings and one line ("built by free-vs-paid") and never their content.
 
-Write → push via `attraction-brain-sync` → verify, one step. If the push fails: say it is NOT saved, keep
-the content visible, retry once, stop.
+Write → push via `attraction-brain-sync` → verify, one step. In the same push, refresh the two
+quick-reference lines in `brain.md` this skill owns — `**Offer status:**` and `**UVP (one line):**` (the
+one-liner the member picked) — so every skill that reads `brain.md` first sees the offer without opening
+`offer.md`. If the push fails: say it is NOT saved, keep the content visible, retry once, stop.
 
 **Deliverable:** the Partner Offer per `references/partner-offer-doc.md` as structured text through
 `${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py` per `shared/doc-formatting.md`, saved as
@@ -214,7 +216,10 @@ say in one line that the styled version needs the renderer.
 *"Your offer is built — [the one-liner]. Here's what's next this week: say 'map my digital product' and
 we decide what you give agents who join and what you charge for; say 'build my why join me story' for the
 60-second version; and the Design Package turns the stack into your offer graphic. Before your next call,
-the Conversion system reads this to prep you."* One suggestion at most; no file names.
+the Conversion system reads this to prep you."* One suggestion at most; no file names. **When the Lead Magnet
+plugin started this session** (its navigator ran this skill as the offer step), do not list those next
+steps: say *"Your offer is built — [the one-liner]."* and hand straight back to it — it continues into the
+lead magnet now, in the same sitting.
 
 ---
 

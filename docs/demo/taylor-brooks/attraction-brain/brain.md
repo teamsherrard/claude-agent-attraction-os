@@ -50,10 +50,12 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - **Known for:** the open-house + Sunday follow-up routine — a buyer pipeline with no lead bill, taught step by step
 - **Why I'm here (one line, out loud):** "I wanted my work to build something that doesn't reset every January."
 - **Offer status:** built in Week 2 on 2026-10-03 (demo) — the Partner Offer "The Sunday Table"
+- **UVP (one line):** "I help 2–5 year agents who are paying for leads build a buyer pipeline from the open houses they already host — taught the way a teacher teaches it, one Sunday at a time." (demo)
 - **Voice in one line:** "Calm, practical, teacher energy — shows, doesn't tell; never hype"
 - **This week's activity target:** 8 conversations · 2 calls booked · 10 follow-ups · 3 reels + 1 long-form (illustrative — demo)
 - **Organization today:** 2 agents · **12-month target:** 25 agents (illustrative — demo)
 - **Booking link:** https://book.taylorbrooks.demo/call (illustrative — demo) · **Primary CTA:** "Book a call with me — https://book.taylorbrooks.demo/call" · **Socials:** @taylorbrooks.atx (Instagram) · YouTube "The Sunday Table" (Week 4) · LinkedIn: Taylor Brooks (all illustrative — demo)
+- **Live magnet:** The Five-Step Sunday Routine · keyword ROUTINE · funnel URL not live yet (illustrative — demo; built from the offer in the Week 2 lead magnet session — mirrors `memory/magnets.md → ## Current magnet`)
 - **Brand colors:** #F4EFE6 (cream) / #1F4D3A (board green) / #B8743A (copper) / #2B2B2B (charcoal) (illustrative — demo) · **Fonts:** Fraunces (heading) / Inter (body) — proposed, kit not yet built · **Logo:** refresh (keep the TB monogram, add a wordmark for The Sunday Table) — building this week
 - **Compliance:** set (2026-09-29; confirm with the brokerage's compliance desk) · **Locale:** USA · USD · sq ft — format every number and date to this (config.md)
 
