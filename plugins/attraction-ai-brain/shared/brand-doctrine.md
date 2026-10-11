@@ -96,9 +96,17 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 
 ## 5. Scope boundary — the Brain captures, the Design Studio builds
 
-- **The Brain owns direction and inventory:** `brand-visual.md` (Inventory + Direction), the voice, the story, the
-  avatar. It never designs. It proposes feel, references, font direction, and taglines from the voice and the
-  avatar, and the member reacts.
+- **The Brain owns direction and inventory:** `brand-visual.md` (Inventory + Direction + the Creative direction +
+  the Design Package brief), the voice, the story, the avatar. It never designs. **It asks the member at most ONE
+  plain question** — *"In a sentence, how should your brand feel to the agents you attract? And name two or three
+  people or brands whose look you like."* — skipped when the Brain already holds both; the member can upload
+  examples instead of describing anything (*"Drop anything you have made before, your current Instagram, a logo,
+  or screenshots of brands you admire into your Brand HQ project in Claude Design; the design skills study them
+  for direction and never copy."*). Then the Brain DERIVES the Creative direction (mood · energy 1–5 · type
+  temperature · the colour story in plain names · the photo treatment · three motifs from the member's own story
+  · the avoid list · three reference recipes from the house style looks in §7) from what it already holds —
+  `voice.md`, `avatars.md`, `journey.md`, `positioning.md` or the known-for line, `strategy.md` — and the one
+  answer; the member reacts in one message. No texture questions, no design vocabulary out loud.
 - **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 1 Design Package is `aa-logo-design` →
   `aa-style-sheet-design` → `aa-brand-kit-design`, in that order, with the skip rule — **skip `aa-logo-design` when the member loves their
   logo as-is; refresh mode changes only what they flagged**. The finished kit is dropped into `02 · Brand`, and
@@ -109,7 +117,10 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
   file never prescribes a posting mix.
 - **Hand-off:** `attraction-brand-direction` ends by handing the member the paste-ready Design Package brief and
   the one instruction: run the three skills this week, drop the kit into `02 · Brand`, then say "show me my
-  Brain" so the Book shows the kit.
+  Brain" so the Book shows the kit. **The brief is never printed once and lost:** it is saved to `02 · Brand`
+  through the storage connector as `Design Package Brief · [Name] · [date].md` (newest = current), kept verbatim
+  in `brand-visual.md` under `## Design Package brief`, printed again in full as the last thing Setup's Finalize
+  says, and reprinted any time by "show my design package brief" (or "my design brief").
 
 ---
 
@@ -123,3 +134,32 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 - Never invent a niche or a tagline the member rejects; propose, explain why, let them decide
   (`shared/ask-once-default.md`).
 - Nothing visual is "built" by the Brain — it is directed here and built in the Design Studio.
+- The brand direction costs the member ONE plain question at most; everything else is derived and confirmed.
+  Never ask about textures, finishes, grids, or looks by name; the Brain names the three reference recipes in
+  plain words and the style sheet locks one.
+
+---
+
+## 7. The house style looks (the names the Brain may pick for the three reference recipes)
+
+The Design Studio's design system carries a house style library — complete looks written as recipes at a paid
+agency's level (ground · type temperature · colour recipe · devices · photo treatment · what it must never do).
+The Brain never writes a recipe; it picks **three** by name for the Creative direction, the first being its own
+pick, each with one plain line on why it fits THIS member. `aa-style-sheet-design` locks one. The names, exactly:
+
+| Look (say it exactly like this) | Pick it when |
+|---|---|
+| **the gold-on-black organization look** | the organization has a name and will post welcomes, milestones, recognition; energy 3–5; bold type |
+| **the clean editorial leader look** | authority leads; a calm, established voice; classic type; energy 1–3; cream and one deep colour feel right |
+| **the bold gradient coach look** | energy 4–5; a high-energy, teaching, on-camera voice; modern or bold type; the member's examples are loud and colourful |
+| **the brushed-stroke bold look** | energy 3–5; a straight-shooter voice; two co-leaders or a crew; bold condensed type; grit over polish |
+| **the navy-and-gold emblem look** | the organization's idea is a creature, a figure, or a word that can be drawn; "[Organization] by [Name]" fits; classic-modern type |
+| **the bright accent creator look** | energy 3–4; a creator or systems person with one signature colour; modern type; light grounds; playful but not corporate |
+| **the warm paper mentor look** | relatability leads; a warm, patient, routine-driven mentor; classic type; energy 1–2; paper, a table, a whiteboard |
+
+Rules: three distinct looks per member, never three cousins; at least one look suits the organization family
+when the organization has a name (the gold-on-black organization look or the brushed-stroke bold look, in the
+member's own colours); the four avoids (never the brokerage's look · never a listing flyer · never a tech startup
+· never a luxury-only brand) hold in every look, plus one avoid line specific to the member; a look is a recipe
+for execution, never a brand — the member's own colours, logo, photo, and words fill it, and nothing is copied
+from any other brand. Names stay exact so the style sheet, the brand kit, and the Book can match them.

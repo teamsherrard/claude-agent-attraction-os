@@ -447,10 +447,11 @@ Push. Stamp `Phase 5 done`.
 
 **Why this phase is bigger than the realtor version — mandatory.** In this 6-week program the member
 builds their Agent Attraction Brain AND their Agent Attraction Brand in Week 1. So the brand is not
-two questions at the end; it is a three-state front door, a short direction capture, and a hand-off
-that produces the actual brand kit this week through the Design Package (`aa-logo-design` →
-`aa-style-sheet-design` → `aa-brand-kit-design`). The Brain captures direction and inventory; Claude Design builds
-the visuals; nothing here is a two-week detour.
+two questions at the end; it is a three-state front door, ONE plain question, a Creative direction the
+Brain derives and the member confirms, and a hand-off that produces the actual brand kit this week
+through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`). The Brain
+captures inventory, derives the direction, and briefs; Claude Design builds the visuals; nothing here
+is a two-week detour — and the member is never asked about textures, finishes, or looks by name.
 
 **Stop 12 · Voice** — run by setup itself: **Stop 12 writes `voice.md` first** (tone, signature
 phrases, never-say, voice-in-one-line) and `voice-samples.md` (the verbatim written samples from
@@ -467,27 +468,43 @@ promise to transcribe audio).
 distilled from Q45–47 plus HOW they typed every reply so far (verbatim lines kept, typos and all).
 
 **Stop 13 · What you already have (the three-state front door, asked as ONE card)** — run
-**attraction-brand-direction** for Stops 13–14.
+**attraction-brand-direction** for Stops 13–14. Its welcome line invites examples instead of
+descriptions: *"Drop anything you have made before, your current Instagram, a logo, or screenshots of
+brands you admire into your Brand HQ project in Claude Design; the design skills study them for
+direction and never copy."* It records `Examples: uploaded to Brand HQ / none yet` without a sixth
+question.
 49. **Logo:** do you have one today? → *I have one and I love it* (we use it exactly as-is, never redesign) · *I have one but it's not quite right* (refresh mode: change only what you flag) · *I don't have one* (we build one this week).
 50. **Colors and fonts:** do you already use specific ones? Hex codes if you know them, or "my Instagram looks like…", or "none, help me pick."
 51. **Headshots and photos:** recent professional headshots, phone photos only, or nothing usable yet? (Drop anything you have in the Brand folder.)
 52. **Leader brand vs selling brand:** is the brand agents will follow the same as the one your buyers and sellers see, or separate? (Default: one brand, your name, with a leader lane; whatever you pick stays visually distinct from your brokerage's own colors.)
 53. **Name:** does your organization have a name, or is it just you? (Many attractors run a group name alongside their own. Both can be captured; the Design Package can build a lockup for each.)
 
-**Stop 14 · Direction** (only for what Stop 13 said is missing; **skipped entirely for "I love it"
-on every line**)
-54. Feel, in a few words: the skill proposes two or three complete directions built from their voice and avatar (for example calm-premium, bold-modern, warm-approachable) and they react, mix, or write their own.
-55. Two or three brands, creators, or leaders whose look they admire. Reference only; we never copy a look.
-56. Font direction: modern or classic, clean or bold, or a pairing to react to (names only).
-57. Tagline: two or three proposed from their one-liner and voice; pick one, tweak one, write their own, or park it.
+**Stop 14 · ONE question** (**skipped entirely** when the Brain already holds the feel and the
+references — an earlier run, an import, the Realtor Brain bridge)
+54. *"In a sentence, how should your brand feel to the agents you attract? And name two or three people or brands whose look you like."* — or they drop examples into Brand HQ and say so. "I don't know" → the skill proposes two or three complete feel sentences from their voice and primary type of agent and they pick one; still one stop.
 
-Writes `brand-visual.md` with an `Inventory:` block (logo state, colors, fonts, headshots, brand
-name, separate-or-same) and a `Direction:` block (feel, references, fonts, tagline, logo
-direction). Then the skill hands the member the **Design Package brief**: a paste-ready block for
-Claude Design naming the three skills to run this week in order, with the "skip `aa-logo-design` if you
-love your logo" rule, and the instruction to drop the finished kit into `02 · Brand` so the editor,
-the thumbnails, and every graphic read it. Checkpoint: *"6 of 7 — your brand brief is ready to paste
-into Claude Design. Last stretch: rules and tools, about 5 minutes."* Push. Stamp `Phase 6 done`.
+*Drafted, never asked (the old Q55–57):* the references (from the same answer or the examples), the
+font direction (the type temperature the skill derives), the colours (proposed with codes and roles,
+distinct from the brokerage's), and the tagline (two or three proposed from the one-liner and the
+voice; pick, tweak, or park) — all inside the one Creative direction message.
+
+The skill then **derives the Creative direction** from what the Brain already holds (`voice.md`,
+`avatars.md`, `journey.md`, `positioning.md` or the known-for line, `strategy.md`) and the one answer —
+mood · energy 1–5 · type (classic / modern / bold) · the colour story in plain names · the photo
+treatment · three motifs from the member's own story · the avoid list · three reference looks named in
+plain words — presents it in ONE message, and the member reacts in ONE message. Writes
+`brand-visual.md`: the `Inventory` block (logo state, colors, fonts, headshots, brand name,
+separate-or-same, examples), the `Direction` block (the feel sentence and references verbatim, colours,
+font direction, tagline, logo direction), the `## Creative direction` block, and the
+`## Design Package brief (last issued …)` block. Then it hands the member the **Design Package brief**:
+a paste-ready block for Claude Design naming the three skills to run this week in order, the "skip
+`aa-logo-design` if you love your logo" rule, the Creative direction verbatim, the examples line, the
+compliance line, and the instruction to drop the finished kit into `02 · Brand` so the editor, the
+thumbnails, and every graphic read it — **and saves the same brief to `02 · Brand` through the storage
+connector as `Design Package Brief · [Name] · [date].md`** (connector off → it says so and the brief
+stays in the Brain). Checkpoint: *"6 of 7 — your brand brief is ready to paste into Claude Design; it's
+also saved in your Brand folder, and I'll show it again at the end. Last stretch: rules and tools,
+about 5 minutes."* Push. Stamp `Phase 6 done`.
 
 ### Phase 7 — Rules and tools (2 stops) → `compliance.md`, `operations.md`, `config.md`
 Stop 15 runs **attraction-compliance**; Stop 16 runs **attraction-operations** and writes the
@@ -619,6 +636,15 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
    - **The next thing to type** — in order: paste the Design Package brief into Claude Design ·
      "build my top 50" · "run my prospect radar" (Week 2) · "build my partner offer" (Week 2) · "attraction weekly
      check-in" every Friday · "just talked to an agent" anytime from the car.
+   - **Then, as the LAST thing you say (after the seatbelt, after the READY BRIEF): the full Design
+     Package brief, again.** A live run printed it once mid-setup, fourteen stops earlier, and the member
+     never saw it again. Read `identity/brand-visual.md` → `## Design Package brief (last issued …)` and
+     print that block **verbatim** as one copyable block — never retyped from memory, never shortened —
+     with one line under it: *"This is your Design Package brief — paste it into your Brand HQ project in
+     Claude Design this week. It's also saved in your Brand folder as 'Design Package Brief · [Name] ·
+     [date]', and 'show my design package brief' prints it any time."* If Phase 6 was skipped or the
+     block is missing, say instead: *"say 'my attraction brand direction' when you're ready for the
+     brand — six minutes"* — never print a brief you did not build.
 
 *(Front-door rule: if a member with several Agent Attraction OS plugins installed says "set up
 everything" / "onboard me to agent attraction", Brain Setup runs FIRST — then list the other

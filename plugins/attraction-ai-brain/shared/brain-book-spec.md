@@ -288,7 +288,7 @@ placeholder chapter is exempt from its floor but must still render its heading +
 | 2 | THE LEADER | `profile.md` + `strategy.md` + `journey.md` (leader moment) | 250+ | no |
 | 3 | YOUR JOURNEY | `journey.md` (three beats + "who relates to this" + the WHY) | 350+ | no |
 | 4 | YOUR STORY BANK | `story-bank.md` | 400+ (the six developed Stop-6 seeds meet it on a first run) | no |
-| 5 | YOUR VOICE & BRAND | `voice.md` + `voice-samples.md` + `voice-print.md` + `brand-visual.md` | 300+ | no |
+| 5 | YOUR VOICE & BRAND | `voice.md` + `voice-samples.md` + `voice-print.md` + `brand-visual.md` | 300+ · 400+ once the brand direction is set (the Creative direction and the Design Package brief render) | no |
 | — | PART II — WHO YOU ATTRACT | — | 40+ (bridge) | — |
 | 6 | YOUR AGENT AVATARS | `avatars.md` | 500+ | no |
 | 7 | YOUR MARKET'S AGENT LANDSCAPE | `prospect-intel.md` | 500+ · placeholder until researched | yes |
@@ -342,11 +342,21 @@ pasted under a heading is not a story (the echo test). Never invent a story.
 ### Chapter 5 — YOUR VOICE & BRAND
 Tone rules (**bullets**), sounds-like / never-sounds-like, signature phrases as `Label:` lines, the writing
 samples, the spoken voice-print if built (else one friendly "say 'capture my speaking voice'" line inside the
-chapter, not a placeholder chapter). Then brand: the **Inventory** as a **table** (| Item | State |), the
-**Direction** in prose, the **colour table** (| Colour | Hex | Role |) when colours exist, the leader-vs-selling
+chapter, not a placeholder chapter). Then brand: the **Inventory** as a **table** (| Item | State | — the
+Examples row included), the **Direction** in prose (the member's own feel sentence and the people or brands they
+named, verbatim), the **colour table** (| Colour | Hex | Role |) when colours exist, the leader-vs-selling
 decision, and the standing note: *the Design Package (aa-logo-design → aa-style-sheet-design → aa-brand-kit-design) builds the visuals
 in Claude Design this week; drop the kit into 02 · Brand and this chapter shows it on the next regenerate.*
-After the kit exists, render the kit's logo file name, palette, and type.
+**Once `brand-visual.md` holds a `## Creative direction` block, the chapter carries it under its own sub-band
+"Your creative direction"** — mood · energy (the plain 1–5 scale, said as "2 of 5, calm") · type · the colour
+story in plain names · photos · the three motifs · the avoid list · the three reference recipes with their
+one-line whys — developed in the consultant's voice (why each line follows from the member's voice, journey and
+avatars), never pasted as a form. **And once a `## Design Package brief` block exists, the chapter carries the
+brief as a second sub-band "Your Design Package brief"** — the block verbatim in a `>> ` callout (it is the
+member's paste-ready text; the Book is where they find it again), with one line: *saved in 02 · Brand as
+"Design Package Brief · [Name] · [date]"; say "show my design package brief" in your Brain to reprint it.* With
+both sub-bands present the chapter floor is 400+. After the kit exists, render the kit's logo file name,
+palette, type, and the locked look's name from the Final kit line.
 
 ### Chapter 6 — YOUR AGENT AVATARS
 Open with the **avatar-at-a-glance table**: | Avatar | Type | Where they are | Core pain | What they need to

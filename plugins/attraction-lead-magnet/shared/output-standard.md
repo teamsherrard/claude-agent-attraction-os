@@ -61,7 +61,9 @@ and the Design Studio keys on these exact doc-name prefixes (`Lead Magnet — ` 
 Brief — `), so they never change. The date is the build date (ISO, so folders sort on their own).
 Every doc in a campaign shares the same Guide Name so the set is unmistakable. Regenerated standing docs carry
 a new date; **the newest date is the current one** (the connector cannot overwrite). After a verified upload,
-the superseded older copy of a standing doc may be trashed; campaign docs are never trashed.
+the superseded older copy of a standing doc may be trashed; campaign docs are never trashed. A demo build
+(a fictional member, explicitly framed) appends ` — DEMO` to the folder and every doc name and saves only into
+the demo workspace — never into a real member's Guides folder.
 
 ## 3. How to create folders + docs (the member's storage connector)
 - **Which connector:** read `Storage provider` from `~/attraction-brain/config.md` — `google` → the Google Drive
@@ -96,11 +98,18 @@ acceptable output at any step.)* Write the structured text like this:
 - **Section headers in ALL CAPS**, each wrapped by a divider rule (`────────────────────────────────────────────`).
   The appendix headings keep a `════════════════════════════════════════════` rule by convention (the renderer
   styles both the same way). *(The renderer turns the ALL-CAPS bands into real headings.)*
+- **Never write a line of copy in capitals** — not a title, not a pull quote, not the text after a label. The
+  renderer makes a heading out of any line that is mostly capitals, so capitals belong to the band headings
+  only. Emphasis is the design step's job.
 - **Keep the deliverable clean; push the hand-off + compliance to the END as a clearly-labelled appendix**
   (`▸ NEXT — HAND TO YOUR DESIGN STEP` and `▸ COMPLIANCE`). The reader goes top-to-bottom without tripping over
   instructions. Only the `lm-design` brief contains design direction; every other doc just names the assets.
 - **Generous blank-line spacing**; **bullets** with `•`, one idea per line; dates and counts as digits.
-- Label each piece (`Headline:`, `Subhead:`, `CTA:`, `Subject:`) on its own line — the renderer bolds the labels.
+- Label each piece (`Headline:`, `Subhead:`, `CTA button:`, `Subject:`) on its own line — the renderer bolds
+  an inline label. The design-cue labels in §5 ("The labels") use the same form; a **list label** (`Checklist:`,
+  `Script:`, `FAQ:` …) stands alone on its line and prints in the `.docx` as a plain short line with its items
+  as bullets beneath it — that is correct: the `.docx` is the member's record, and the design step is where a
+  label becomes a page element and never prints as a label.
 - **Build + verify, every document:** read the finished `.docx` text back — no raw `<w:` markup, no literal
   `────` lines as body text, every band a heading, and **full depth** (a guide renders its complete content,
   never a summary).
@@ -111,9 +120,64 @@ acceptable output at any step.)* Write the structured text like this:
 says "only if / else delete / skip," or gives a count or a quality reminder is guidance for YOU — it is never
 written into the doc. Band headings (the ALL-CAPS line after a rule) carry only the words shown. A section
 marked conditional is either fully written or entirely absent — never a placeholder line. **No `[` bracket
-token ever appears in a deliverable.**
+token ever appears in a deliverable.** The word floors and the quality gates for the two campaign docs live in
+their writers (`lm-magnet` and `lm-funnel`); the skeletons here are the grammar the Design Studio reads.
 
-**Lead Magnet doc** — the guide content (the designed PDF is built separately at the design step):
+### The labels (the design cues — shared by the magnet doc and the funnel doc)
+
+A label is a line that starts with the label's exact words and a colon. The Design Studio's `aa-lead-magnet-design`
+and `aa-funnel-design` recognise each one and turn it into the matching page element; **a label never prints
+as a label** — the text after it is the copy, verbatim. Two forms, and every label is one or the other:
+- **Inline** — `Label: the text` on one line.
+- **List** — `Label:` alone on its line, then one `•` line per item directly beneath it, until a blank line or
+  the next label. A fill-in blank inside an item is written as `____` (four underscores).
+
+Every label is optional unless a skeleton says otherwise; a label with nothing true to say is **omitted**, never
+left empty or placeholdered. The text after `Image idea:`, `Video:` (when it says to record) and `Booking embed:`
+is direction for the designer or an asset, not copy — it never appears on the designed page; everything else
+after a label is copy.
+
+| Label | Form | What the writer puts there | What the design step makes of it |
+|---|---|---|---|
+| `Title:` | inline | the guide's title — the promise in the reader's words | the cover's title, the single largest element |
+| `Subtitle:` | inline | who it is for (by stage) and the result | the cover's subtitle |
+| `Byline:` | inline | the member's name line, the brokerage as compliance requires | the cover's byline |
+| `Hook:` | list (≤ 3) | the three lines that earn the read | the cover's hook, set as three short lines |
+| `How to use this:` | list (2) | the two lines that end the opening page | the opening page's closing strip |
+| `Pull quote:` | inline | one line worth setting large | set large on the page |
+| `Callout:` | inline | a one-sentence aside | a callout panel |
+| `Checklist:` | list (3–7) | one item per line | real boxes, one per item |
+| `Template rows:` | list | the fill-in rows; `____` marks a blank | fill-in lines a reader can write on |
+| `Script:` | list | the word-for-word lines, one per line; two voices as `Me: …` / `Agent: …` | message bubbles or a script card |
+| `Source:` | inline | the citation for a number on the page | a footnote line, small but legible |
+| `Image idea:` | inline | one plain line describing the page's visual | the page's illustration or mockup direction |
+| `Next step:` | inline | the page's one action | the page's closing strip |
+| `Call to action:` | inline | one of the guide's three calls to action (the closing page's carries the booking link) | a quiet strip on the two earlier pages; the ONE button on the closing page |
+| `Proof:` | list | real, consented results, one per line — or one plain line that there is none yet | a proof row on the page |
+| `Pre-headline:` | inline | one attention line above the hero headline — a question or a fact aimed at the type of agent, never a scarcity claim | the small line above the headline |
+| `Headline:` | inline | the section's headline (the hero's is the page's promise) | the section's headline |
+| `Subhead:` | inline | the hero's supporting line | the hero's subhead |
+| `Video:` | inline | the URL of the member's video — the 2-to-3-minute video sales letter when they have one, else the 60-second why-join-me — or exactly `record the 60-second why-join-me` | a responsive embed; with the record note, the cut-out headshot in its place |
+| `Attraction line:` | inline | one bold sentence under the video that tells them why to press play | the bold line under the embed (or the headshot) |
+| `CTA button:` | inline | the button's words in quotes | the button |
+| `Trust line:` | inline | one line under the hero button | the small line under the button |
+| `Bullets:` | list | one line per item | the section's list or cards |
+| `Why partner title:` · `Why partner:` | inline · list (6–8) | "Why partner with [first name]" and the short credibility bullets under it | a credibility block beside the headshot |
+| `Sneak peek title:` · `Sneak peek:` | inline · list (6–8) | "A sneak peek inside [the program name]" and one sentence per thing an agent gets | the program's peek-inside block (cards or a list) |
+| `How it works:` | list (3) | the three steps to join, in plain words | three numbered steps inside the Book-a-call area |
+| `What we'll cover:` | list (5–6) | what the call covers, in the member's voice | the list beside the booking embed, repeated under the thank-you page's call line |
+| `Booking embed:` | inline | the booking link | the embedded calendar when the link embeds, else a button to it |
+| `YouTube:` | list (2–3) | `URL — one line` per video, only when the member's channel exists | two or three video embeds with their lines; omitted entirely when absent |
+| `Optional qualifier:` | inline | `off`, or the one extra pop-up field switched on: `years licensed` or `where are you today: new · 1 to 3 years · 3 plus` | the extra field in the pop-up and the static form, only when switched on |
+| `FAQ:` | list | `question — answer` pairs, one per line | an accordion or stacked pairs |
+| `Contact:` · `Socials:` · `Last updated:` · `Compliance:` | inline | the back page / footer lines | the back page or the footer |
+
+The section-specific inline labels the skeletons name (`The pain, named:`, `What I do:`, `Where I was:`,
+`Program:`, `Statement:`, `What the call is:` …) follow the same rule: bold lead-in in the `.docx`, never printed
+as a label on the page.
+
+**Lead Magnet doc** — the guide content (the designed PDF is built separately at the design step). The
+architecture is the same for every shape; the floors are in `lm-magnet`:
 ```
 LEAD MAGNET — [GUIDE NAME]
 [Name] · [Brokerage] · [City] · [Date]   ·   Last updated [Month YYYY] — (when the magnet states facts that can change — brokerage plans, platform rules, tools) verify anything current with the source itself.
@@ -121,31 +185,68 @@ Your lead magnet content, ready for your design step. This doc is the words; the
 
 ────────────────────────────────────────────
 THE PROMISE
-What this guide delivers, in one or two lines · who it's for (the type of agent, by stage — never a protected characteristic).
+Title: ...            (the promise in the reader's words, 7 words or fewer — it becomes the funnel's headline; never the member's jargon)
+Subtitle: ...         (who it is for, by stage — never a protected characteristic — and the result; one line)
+Byline: ...           (the member's name, the brokerage as compliance.md requires it)
+Hook:
+   •  ...             (three lines at most — specific and lived, from the member's own experience or consented proof; never "in this guide you will learn")
+   •  ...
+   •  ...
 
 ────────────────────────────────────────────
 THE GUIDE   (page by page)
-── PAGE 1 - [TITLE] ──
-   •  ...the actual, genuinely useful content...
+── PAGE 1 - [THE OPENING TITLE] ──
+   ...the opening: why this exists, in the member's voice — the moment they were where the reader is, what they tried, what changed, what the reader will have by the last page; one real proof line only if proof.md holds a consented one...
+   Pull quote: ...                    (optional)
+   Image idea: ...                    (optional)
+   How to use this:
+      •  ...                          (always — the last thing on the page, two lines)
+      •  ...
 ── PAGE 2 - [TITLE] ──
-   •  ...
-(4–9 body pages of real value in the picked shape's page-by-page structure from the magnet writer's reference — a system guide 5–7, a checklist 4–6, a plan 5–7, a comparison guide 7 plus an optional 8th story page — never a tease.
-Keep each page-title line in that exact `── PAGE N - TITLE ──` form — a short title of plain words with the
-hyphen separator (`?`, `:` and `&` are fine) and keep the text between the dashes under 70 characters — any
-longer and the renderer prints the dashes literally as body text instead of making a subheading. Every fact
-that isn't the member's own experience carries its source: "(my brokerage's [document], [Month YYYY])" ·
-"(per Mike Sherrard's lesson)" · "([source], [Month YYYY])".)
+   ...one idea in a sentence · the how · a real example from the member's own routine...
+   Script:  /  Template rows:  /  Checklist:     (the how, whenever it is one of these — items as • lines beneath)
+   Callout: ...                       (optional)
+   Source: ...                        (whenever a number appears on the page)
+   Pull quote: ...                    (optional)
+   Image idea: ...                    (optional)
+   Next step: ...                     (the one thing the reader does today)
+   Call to action: ...                (ONE body page only — the page that most needs a walkthrough; no link)
+── PAGE 3 - [TITLE] ──
+   ...
+(4–8 body pages in all — PAGE 2 up to PAGE 9 — in the picked shape's order from the magnet writer's reference. Every body page carries at least one of: a number with its Source, a Script, Template rows, a Checklist, or a true story. Keep each page-title line in that exact `── PAGE N - TITLE ──` form — a short title of plain words with the hyphen separator (`?`, `:` and `&` are fine) and keep the text between the dashes under 70 characters — any longer and the renderer prints the dashes literally as body text instead of making a subheading. Every fact that isn't the member's own experience carries its source: "(my brokerage's [document], [Month YYYY])" · "(per Mike Sherrard's lesson)" · "([source], [Month YYYY])".)
+── PAGE N - WHAT TO DO NEXT ──
+   ...the whole system, then the first step this week...
+   Checklist:
+      •  ...                          (exactly five lines — the whole system the reader can screenshot)
+      •  ...
+      •  ...
+      •  ...
+      •  ...
+   Next step: ...                     (the first step this week)
+   Call to action: ...                (the second of three; no link — "the link's on the last page")
 
 ────────────────────────────────────────────
 HOW [FIRST NAME] HELPS NEXT
-A soft, no-pressure close in the member's voice — what they actually give agents who partner with them (outcomes, never compensation), and the one next step: book a call to talk it through. (The booking link belongs here and on the thank-you page only.)
+   ...a soft, no-pressure close in the member's voice — what they actually give agents who partner with them (outcomes, never compensation), the brokerage line ("and everything [Brokerage] provides — I walk you through that on a call")...
+   Proof:
+      •  ...                          (one real, consented point — or omit the label)
+   Call to action: ...                (the third of three — with the booking link: the ONLY booking link in the guide, which the thank-you page also carries)
+
+────────────────────────────────────────────
+THE BACK PAGE
+Contact: ...                          (email · phone · website — only what profile.md / operations.md hold)
+Socials: ...                          (real handles only — omit the line if none)
+Last updated: ...                     (when the shape states facts that can change — else omit)
+Compliance: ...                       (brokerage name and license display as compliance.md requires; the disclaimer verbatim if any)
 
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
 This doc is the guide content. Your design step — the Lead Magnet Designer skill (aa-lead-magnet-design) in your
-Claude Design workspace — turns it into the branded PDF, one page per PAGE block, copy verbatim. Say "design
-brief for my guide" and I'll write the brief it needs. Upload this doc plus your newest Agent Attraction Brain Book.
-Assets to gather:  logo · headshot · any photos of you with your organization.
+Claude Design workspace — turns it into the branded PDF: the promise becomes the cover, each PAGE block one
+page, the close and the back page, copy verbatim; the labelled lines (pull quotes, checklists, scripts,
+template rows, image ideas) become the page elements and never print as labels. Say "design brief for my
+guide" and I'll write the brief it needs. Upload this doc plus your newest Agent Attraction Brain Book.
+Assets to gather:  logo · headshot · any photos of you with your organization · the sheet or template the guide hands over, if you have it as a file.
 
 ════════════════════════════════════════════
 ▸ COMPLIANCE
@@ -154,79 +255,131 @@ the income disclaimer only if earnings were mentioned (they should not be).   (O
 set or confirmed — unset blocks the whole doc; never paste a bracket token.)
 ```
 
-**Opt-In Funnel doc** — the opt-in page copy, section by section:
+**Opt-In Funnel doc** — the opt-in page copy, section by section, in the page's order. Eleven sections, then
+the pop-up, the thank-you page, and the footer. The opt-in is the page's primary job and its button repeats
+top (§1), middle (§3) and bottom (§11) with the same words; the Book-a-call area (§10) is the secondary path for
+the agent who is already ready. Every section carries its own `Headline:` so the design step never has to
+invent one. The floors are in `lm-funnel`:
 ```
 OPT-IN FUNNEL — [GUIDE NAME]
 [Name] · [Brokerage] · [City] · [Date]   ·   Gives away: [the magnet above]
-Your sales funnel outline — the opt-in page copy + strategy, the pop-up, and the thank-you page — ready for your design step. This doc is the words; the page is built separately.
+Your sales funnel outline — the opt-in page copy + strategy, section by section, the pop-up, and the thank-you page — ready for your design step. This doc is the words; the page is built separately.
 
 ────────────────────────────────────────────
 SECTION 1 — HERO
-Headline: ...        (= the magnet's promise)
-Subhead: ...         (who it's for, by stage · why it's different · zero pitch)
+Pre-headline: ...             (one line above the headline — a question or a fact aimed at the type of agent; never a scarcity claim)
+Headline: ...                 (the promise in the reader's words — the magnet's title or its promise line; passes the hook test)
+Subhead: ...                  (who it is for, by stage, and the result — one or two short lines)
+Video: ...                    (the URL of the member's video — the 2-to-3-minute video sales letter when they have one, else the 60-second why-join-me — or exactly: record the 60-second why-join-me)
+Attraction line: ...          (one bold sentence under the video that tells them why to press play)
 CTA button: "Get the Free Guide"
+Trust line: ...               (one line under the button — who wrote this, that it is free and private)
 
 ────────────────────────────────────────────
 SECTION 2 — THE PROBLEM
-The pain, named: ...   (the agent's most acute pain in their words — avatars.md "biggest problem, in their words" + the magnet's framing page)
-What it costs to get wrong: ...   (another year of the same; the mistake the magnet exists to prevent)
-There's a better way: ...   (one line that bridges into the guide)
+Headline: ...
+The pain, named: ...          (the agent's most acute pain in their words — avatars.md "biggest problem, in their words" + the magnet's opening page)
+What it costs: ...            (another year of the same; the mistake the magnet exists to prevent)
+There's a better way: ...     (one line that bridges into the guide)
+Pull quote: ...               (optional)
 
 ────────────────────────────────────────────
-SECTION 3 — THE GUIDE  (what's inside + value · mockup left or right)
-[ guide mockup / cover sits LEFT or RIGHT of this stack ]
-What you'll get:
-   •  ...   (4–7 concrete outcomes, one per guide page — never teases)
-Why it's worth more than free: ...   (the one thing only this leader could have written — their real routine, their honest page; the thing no recruiting deck does)
-CTA button: "Get the Free Guide"   (mid-page repeat)
-
-────────────────────────────────────────────
-SECTION 4 — ABOUT [FIRST NAME]  (WHO they are — the leader)
-The mirror: ...   (one journey beat → the agent's present-day version — journey.md / story-bank.md)
-Why I'm qualified: ...   (one credibility line from proof.md — never invented; the upline's proof labeled as the upline's)
-How I work with an agent: ...   (3 steps max — the first 30 days as a partner, from offer.md)
-Welcome video: 30–60s, sits LEFT or RIGHT — optional; leave it out at the design step if there's no clip
-   Talking outline (spoken voice): (1) who I am + who I help  (2) what the guide gives you  (3) "grab it below" — no pitch
-
-────────────────────────────────────────────
-SECTION 5 — WHY PARTNER WITH [FIRST NAME]  (the PARTNER OFFER — outcomes, never compensation)
-What you get when you partner with me: ...   (what's included, each as an outcome — offer.md; "and everything [Brokerage] provides — I walk you through that on a call")
-What I do differently: ...   (the unique mechanism, tied to the pain)
-The transformation: ...   (where they are → where they could be; framed as what the member will SHOW, never what the agent will EARN)
-
-────────────────────────────────────────────
-SECTION 6 — THE ORGANIZATION  (what it's like inside)
-What we do together: ...   (the recurring call, the group, the training, recognition — only what exists today, from offer.md / operations.md)
-Who's in it: ...   (the kinds of agents, by stage — organization size only if proof.md states it, with the date)
-Why that matters to you: ...   (not doing it alone — Mike's fifth pain)
-
-────────────────────────────────────────────
-SECTION 7 — PROOF / RESULTS
-Agents I've helped: ...   (2–4, real only from proof.md, consent on file — first name or initials · situation · what happened)
-The numbers: ...   (only what proof.md states — organization size, years, agents helped — with the date)
-From the group above me: ...   (upline proof, labeled as the upline's — "our group has…" — only if proof.md holds it)
-Proof photo strip: 8–12 real photos, auto-scrolling horizontal strip (slow) — the weekly call · events · agents' wins · the community · recognition moments. Skip it if fewer than ~6 usable photos.
-Photo types for the strip: ...   (the kinds of photos to pull — the member picks the files at the design step; real, theirs to use, agent OK where faces show)
-
-────────────────────────────────────────────
-SECTION 8 — FOLLOW ALONG   (socials + YouTube)
-(ONLY if they have channels — else delete this whole section.)
-Channels: ...   (real handles/links from profile.md — YouTube, Instagram, TikTok, LinkedIn…)
-Follow for more free value: ...   (real follower counts only if the member stated one)
-(Opt-in stays the primary CTA — these are secondary trust links, not a rival button.)
-
-────────────────────────────────────────────
-SECTION 9 — THE OPT-IN   (flow: button → pop-up → thank-you page)
-Top 3 you'll get: ...   (quick recap — full stack is in §3)
-Mini-FAQ (3 one-liners, the member's voice):
-   •  Is this a recruiting pitch?: ...
-   •  Will anyone know I downloaded this?: ...
-   •  I'm not planning to move — is this for me?: ...
+SECTION 3 — THE PRODUCT
+Headline: ...
+Bullets:
+   •  ...                     (one line per guide page, each a real outcome — never a tease; 4–9 lines)
+Why it's worth more than free: ...   (the one thing only this leader could have written)
+Image idea: the guide's mockup, LEFT or RIGHT of this stack
 CTA button: "Get the Free Guide"
 
-THE OPT-IN POP-UP   (every CTA button on the page opens this)
+────────────────────────────────────────────
+SECTION 4 — WHO I AM
+Headline: ...
+What I do: ...
+Who I help: ...
+Credential: ...               (one real line from proof.md / profile.md — never invented; the upline's labeled as the upline's)
+Why partner title: ...        ("Why partner with [first name]")
+Why partner:
+   •  ...                     (6–8 short credibility bullets — years · production only as proof.md allows and as what the member will SHOW · what they teach · who they have helped, consent on every agent named · never an income claim)
+Image idea: the headshot
+
+────────────────────────────────────────────
+SECTION 5 — THE JOURNEY
+Headline: ...
+Where I was: ...              (journey.md beat 1 — the former brokerage never named)
+What I tried: ...             (beat 2 — the wall)
+What changed: ...             (beat 3 — what they built or decided, what it produced)
+Pull quote: ...               (optional)
+Image idea: ...               (optional — a real photo)
+
+────────────────────────────────────────────
+SECTION 6 — THE OFFER
+Headline: ...
+Program: ...                  (the program's name · its type — offer.md "## The program")
+Bullets:
+   •  ...                     (what an agent gets, each line an outcome — only what exists today)
+The framework: ...            (one line — offer.md "## The framework" → "One line")
+The first 30 days: ...        (one line)
+The brokerage line: ...       ("and everything [Brokerage] provides — I walk you through that on a call")
+Sneak peek title: ...         ("A sneak peek inside [the program name]")
+Sneak peek:
+   •  ...                     (6–8 one-sentence bullets of what an agent gets — the Partner Offer's deliverables table, each an outcome, not a feature; only what exists today or "built with my first partners")
+Image idea: ...               (optional — the offer stack object when the Design Studio built one)
+
+────────────────────────────────────────────
+SECTION 7 — WHY JOIN ME
+Headline: ...
+Statement: ...                (the why-join-me statement — journey.md "## Why join me" when written; else from the offer's "why now")
+Pull quote: ...               (optional)
+
+────────────────────────────────────────────
+SECTION 8 — PROOF
+Headline: ...
+Proof:
+   •  ...                     (2–4 real results, consent on file — first name or initials · situation · what happened — or ONE line that says plainly there are none yet)
+YouTube:
+   •  ...                     (ONLY when the member's channel exists — 2–3 lines, each `URL — one line on the video`; no channel → omit the label entirely, never a placeholder)
+Image idea: ...               (the proof photo strip: 8–12 real photos — the weekly call · events · agents' wins · the community — or omit the line)
+
+────────────────────────────────────────────
+SECTION 9 — THE ORGANIZATION
+Headline: ...
+What we do together: ...      (the recurring call, the group, the training, recognition — only what exists today)
+Who's in it: ...              (by stage; the count only if proof.md states it, with the date)
+Why that matters to you: ...  (not doing it alone — Mike's fifth pain)
+Image idea: ...               (optional — real photos of the call, events)
+
+────────────────────────────────────────────
+SECTION 10 — BOOK A CALL
+Headline: ...
+What the call is: ...         (in the member's voice — length, where, what to bring; no pitch)
+What it isn't: ...
+Bullets:
+   •  ...                     (the three questions the call answers)
+How it works:
+   •  ...                     (exactly three steps, plain words: grab the guide or book the call → the 20-minute call → onboarding Day 1, from the Partner Offer's Day 1 sequence)
+   •  ...
+   •  ...
+What we'll cover:
+   •  ...                     (5–6 bullets in the member's voice — your business and your week · how the training and the weekly call work · what onboarding looks like · your 90-day game plan · your questions about the model, answered on the call, never on a page)
+Booking embed: ...            (the booking link)
+CTA button: "Book a call with me"
+
+────────────────────────────────────────────
+SECTION 11 — THE OPT-IN
+Headline: ...                 (the magnet named + its promise)
+Bullets:
+   •  ...                     (the top 3 you'll get — the full stack is §3)
+FAQ:
+   •  Is this a recruiting pitch? — ...
+   •  Will anyone know I downloaded this? — ...
+   •  ... — ...               (the third adapted to the magnet's reader)
+CTA button: "Get the Free Guide"
+
+THE OPT-IN POP-UP   (every opt-in button on the page opens this)
 Pop-up headline: ...   (the promise in one line)
 Form: First name · Email · Phone
+Optional qualifier: off   (default — fewer fields win; or the ONE field the member switched on: `years licensed` · `where are you today: new · 1 to 3 years · 3 plus`)
 Contact line: ...   (one honest sentence under Phone — what the member will do with it, from operations.md's follow-up cadence)
 Reassurance: Free. Instant. Private — nobody's contacted on your behalf. Unsubscribe anytime.
 Submit button: "Get the Free Guide"
@@ -234,9 +387,14 @@ Submit button: "Get the Free Guide"
 THE THANK-YOU PAGE   (where submitting lands)
 Confirmation: ...   (warm, in the member's voice)
 Download button: ...   (the DIRECT LINK to the guide PDF — an INSTANT DOWNLOAD, NEVER "check your inbox")
-The call, offered: ...   (one warm, optional line + the booking link — "no pitch, I'll just answer your questions"; the download never depends on it)
+The call, offered: ...   (one warm, optional line + the booking link — "no pitch, I'll just answer your questions"; the download never depends on it; the design step repeats §10's "What we'll cover" list under this line)
 Where to find me: ...   (one soft line — social handles / website)
 Footer: the same compliance stamp as the page
+
+FOOTER
+Contact: ...                  (email · phone · website — from profile.md / operations.md)
+Socials: ...                  (real handles only — omit the line if none)
+Compliance: ...               (the stamp, verbatim)
 
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
@@ -245,10 +403,10 @@ Claude Design workspace — builds the page from these exact sections and takes 
 doc, the magnet doc, and your newest Agent Attraction Brain Book); or host it yourself (your site /
 GoHighLevel / Carrd). The form must be a real static Netlify form (the rule is in the funnel guide) or no
 lead is ever captured — test-submit once before sending traffic.
-Assets to gather:  guide mockup/cover (The Guide §3) · 8–12 proof-strip photos (Proof §7) · headshot (About) ·
-   30–60s welcome video (About §4, if filming one — outline's in the section) · social handles (§8, if used) ·
-   logo (header/footer) · the finished guide PDF uploaded somewhere linkable (the thank-you page's download
-   button points at it) · your booking link (the thank-you page).   Real people + real photos only.
+Your video: (only when the Video line says to record) say "my why join me story" in your Brain and it writes the 60-second script; film it, upload it, and paste the link at the design step — until then the page shows your headshot in that spot. A longer 2-to-3-minute version of the same story works there too, once you have one.
+Assets to gather:  the guide's mockup/cover (The Product §3) · 8–12 proof-strip photos (Proof §8) · headshot (Hero and Who I Am) ·
+   the video link (Hero §1, if filmed) · 2–3 YouTube links (Proof §8, only if you have a channel) · social handles (the footer, if used) · logo (header/footer) · the finished guide PDF
+   uploaded somewhere linkable (the thank-you page's download button points at it) · your booking link (Book a Call §10 and the thank-you page).   Real people + real photos only.
 
 ════════════════════════════════════════════
 ▸ COMPLIANCE

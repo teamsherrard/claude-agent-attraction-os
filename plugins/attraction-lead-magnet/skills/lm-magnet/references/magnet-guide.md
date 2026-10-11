@@ -1,4 +1,4 @@
-# Lead Magnet Guide — what to build for agents and why it works
+# Lead Magnet Guide — what to build for agents, the architecture every shape follows, and why it works
 
 A lead magnet earns the email. It works when it solves **one real problem** for **one clearly defined type of
 agent** — fast — and leaves them thinking "if the free thing is this good and this honest, I want to talk to
@@ -26,85 +26,123 @@ own move. The reason is Mike's niche rule (`04-value-proposition/27`): you are m
 person you used to be, and anything works if you've actually done the work — a magnet built from someone
 else's method is a pitch.
 
-## The skeleton every shape shares
-**THE PROMISE → the pages → HOW [FIRST NAME] HELPS NEXT** (the output standard's three bands). The two
-bookends aren't numbered pages; the body is **4–9 pages**, one clear idea per page, each page a title plus
-skimmable value. Any magnet that states a fact that can change (a brokerage mechanic, a platform rule, a tool)
-carries a "last updated" line and a "verify current" line on page 1. **The promise** (cover): title + one-line
-promise + who it's for (by stage) — it becomes the funnel's headline. **How [first name] helps next:** the soft
-close in their voice — what they give (outcomes, only what's in `offer.md`) → the brokerage line → one real
-proof → book a call. The booking link lives here and on the thank-you page only.
+---
+
+## The architecture every shape follows (with word floors)
+
+Every magnet — whatever its shape — is the same document in the output standard's grammar: the cover, the
+opening page, four to eight body pages, the "what to do next" page, the "how [first name] helps next" page,
+the back page. The shape decides what the body pages ARE; the architecture decides what every page carries.
+The craft for each part is in `shared/copywriting-kb.md` (Part One). The floors are words of copy — labels,
+source notes in parentheses, the meta line and the appendix don't count.
+
+| Part | Doc form | Carries | Floor |
+|---|---|---|---|
+| **The cover** | the `THE PROMISE` band | `Title:` the promise in the reader's words (7 words or fewer; it becomes the funnel's headline) · `Subtitle:` who it's for, by stage, and the result · `Byline:` the member's name, the brokerage as compliance requires · `Hook:` three lines at most that earn the read — specific and lived, from the member's own experience or consented proof; never "in this guide you will learn" | title ≤ 7 words · hook ≤ 3 lines |
+| **The opening page** | `── PAGE 1 - [TITLE] ──` | the context, in the member's voice: the moment they were where the reader is · what they tried · what changed · what the reader will have by the last page · one real proof line only if `proof.md` holds a consented one, else none · ends with `How to use this:` — two lines | 180–280 words |
+| **The body pages** | `── PAGE 2 ──` … up to `── PAGE 9 ──` | 4–8 pages, ONE idea each, the same beat on every page: a plain, specific title · the idea in a sentence · the how (the steps · the script word for word as `Script:` · the template rows as `Template rows:` · the sheet · a `Checklist:`) · a real example from the member's own routine · `Next step:` the one thing the reader does today. **Every body page carries at least one of: a number with its `Source:`, a `Script:`, `Template rows:`, a `Checklist:`, or a true story. A page that is only prose is a failed page.** Optional on any page: `Pull quote:` · `Callout:` · `Image idea:`. ONE body page — the one that most needs a walkthrough — carries the soft mid-document `Call to action:` | 180–350 words each · 4–8 pages |
+| **The "what to do next" page** | the last PAGE block: `── PAGE N - WHAT TO DO NEXT ──` | the whole system in five lines the reader can screenshot (`Checklist:` — exactly five) · the first step this week (`Next step:` — an activity, never income) · the second `Call to action:` (no link — "the link's on the last page") | 120–200 words |
+| **The closing page** | the `HOW [FIRST NAME] HELPS NEXT` band | the soft close in the member's voice: what they now have · the one thing a guide can't do · what the member actually gives agents who partner with them (outcomes, only what's in `offer.md`) · the brokerage line ("and everything [Brokerage] provides — I walk you through that on a call") · one real proof point (`Proof:`) if there is one · the third `Call to action:` with the booking link — the only booking link in the guide (the thank-you page carries the same one). No compensation, no "join [brokerage]," no urgency | 120–200 words |
+| **The back page** | the `THE BACK PAGE` band | `Contact:` (email · phone · website, only what the Brain holds) · `Socials:` (real handles, or omit) · `Last updated:` (when the shape states facts that can change) · `Compliance:` (the stamp as `compliance.md` requires) | — |
+
+**Whole document:** 1,800 to 3,500 words of copy. Four body pages written at their floor won't reach 1,800 —
+write fuller pages or a fifth; the floor is there so a guide is never thin. **Exactly three calls to action**
+(the mid-document line, the next-steps page's line, the closing page's line with the booking link), all in
+the member's voice, all a conversation — never compensation, never "join my brokerage," no urgency. Any magnet
+that states a fact that can change (a brokerage mechanic, a platform rule, a tool) carries the "last updated"
+line in the meta line and on the back page, and a "verify current" line on page 1.
+
+**The design cues** — `Pull quote:` · `Callout:` · `Checklist:` · `Template rows:` · `Script:` · `Source:` ·
+`Image idea:` · `Next step:` · `Call to action:` — are the output standard's labels (§5, "The labels"): each
+optional, each on its own line, each turned into a page element by the design step and never printed as a
+label. They're part of the writing, not decoration: the pull quote is the sentence a reader would screenshot;
+the image idea is one plain line a designer can act on ("the sign-in sheet with the one question circled",
+"a phone showing the three texts").
 
 ---
 
-## The shapes — page by page
+## The shapes — page by page (each mapped onto the architecture)
+
+The shape decides the body pages. The cover, the opening page (PAGE 1), the "what to do next" page, the
+closing page and the back page come from the architecture above and are the same for every shape; a shape's
+"framing" page IS the opening page, and a shape's "how to use it" page IS the "what to do next" page.
 
 ### 1. The member's system guide (the mechanism magnet)
 *The thing only they can write, because they did it. From Teach-first lesson 1: the routine, the script, the
 sheet they hand a new partner. Default pairing: the type they attract · financial uncertainty (no reliable
 next client). Promise: "The exact [open-house] routine that produced [the member's result, from proof.md] —
-step by step."* **5–7 pages:**
-1. **Why this system (and what it isn't)** — the framing page: the problem in the reader's words
-   (`avatars.md`), the member's own before-and-after in two lines (the opening story, former brokerage
-   unnamed), what the guide is not (not a pitch, not a promise of income — "I'll show you what I did and what
-   happened").
-2. **The system at a glance** — the whole routine on one page: the steps in order, what each produces, how
-   long each takes. The page the reader screenshots.
-3–5. **One page per step** (three or four) — what to do, what's on screen, the exact words or the exact sheet
-   (the template from the Teach-first table, handed over in full — never "download the template later"),
-   the mistake most agents make at this step.
-6. **Your first week** — Monday to Sunday: the smallest version of the system that runs this week, with
-   activity targets as activities (calls, doors, conversations), never income.
-7. **What good looks like** — one consented result from `proof.md` (first name or initials · the situation ·
-   what happened) or the member's own numbers as `proof.md` states them, dated. None on file → the page is the
-   member's own week, described honestly; never invented.
+step by step."*
+- **PAGE 1 (the opening):** why this system and what it isn't — the problem in the reader's words
+  (`avatars.md`), the member's own before-and-after (the opening story, former brokerage unnamed), what the
+  guide is not (not a pitch, not a promise of income — "I'll show you what I did and what happened"), what
+  the reader will have by the last page; `How to use this:`.
+- **Body pages (4–7):** **the system at a glance** — the whole routine on one page: the steps in order, what
+  each produces, how long each takes (the page the reader screenshots — a `Checklist:` or `Template rows:`) ·
+  **one page per step** (three or four) — what to do, what's on screen, the exact words (`Script:`) or the
+  exact sheet (`Template rows:` — the template from the Teach-first table, handed over in full, never
+  "download the template later"), the mistake most agents make at this step · **your first week** — Monday to
+  Sunday: the smallest version of the system that runs this week, with activity targets as activities (calls,
+  doors, conversations), never income · **what good looks like** (optional) — one consented result from
+  `proof.md` (first name or initials · the situation · what happened) or the member's own numbers as `proof.md`
+  states them, dated; none on file → the page is the member's own week, described honestly; never invented.
+  The mid-document `Call to action:` goes on the step page with the numbers, or the first-week page.
+- **What to do next:** the five steps as the five lines; the first step this week = the smallest version from
+  the first-week page.
 
 ### 2. The checklist
 *One page the reader can screenshot, plus the pages that explain it. Default pairing: experienced, low
 production · lack of support ("switching didn't work before"), or any type · the one mistake the checklist
 prevents. Promise: "The 12 things to check before you [switch brokerages / take a listing / run your first
-open house] again — so this time it sticks."* **4–6 pages:**
-1. **Why this checklist exists** — the mistake it prevents, in the reader's words; one line of the member's
-   own version of that mistake.
-2. **The checklist** — 10–15 items in three or four groups, each item one line with a real empty box; the
-   screenshot test (the whole page legible in one phone screenshot). For a switching checklist: what to pull
-   from your current agreement · what to ask in writing · the 30 days before and after · what changes and
-   what doesn't.
-3. **What a good answer looks like** — one page per group (or one page for all): what "done" means for each
-   item, in plain words; red flags said as questions, never as accusations about anyone.
-4. **The before-and-after** — the 30 days before and the 30 days after, as a short timeline.
-5. **The one question to ask** — the single question that tells the reader whether they're ready.
+open house] again — so this time it sticks."*
+- **PAGE 1 (the opening):** why this checklist exists — the mistake it prevents, in the reader's words; the
+  member's own version of that mistake; what the reader will have; `How to use this:`.
+- **Body pages (4–7):** **the checklist** — 10–15 items in three or four groups, each item one line as a
+  `Checklist:` (one list per group, 3–7 items each) — the screenshot test (the whole page legible in one phone
+  screenshot). For a switching checklist: what to pull from your current agreement · what to ask in writing ·
+  the 30 days before and after · what changes and what doesn't · **what a good answer looks like** — one page
+  per group (or one page for all): what "done" means for each item, in plain words; red flags said as
+  questions, never as accusations about anyone · **the before-and-after** — the 30 days before and the 30 days
+  after, as a short timeline (`Template rows:` with the dates blank) · **the one question to ask** — the single
+  question that tells the reader whether they're ready, and what to do with each answer. The mid-document
+  `Call to action:` sits on the "what a good answer looks like" page.
+- **What to do next:** the five lines = the checklist's groups and the one question; the first step this week
+  = the first group, done.
 
 ### 3. The plan or template (the outcome magnet)
 *The result the primary type of agent wants, mapped — a 90-day plan, a 30-day sprint, a weekly template. Real
 fill-in rows. Default pairing: new agent · financial uncertainty (no direction). Promise: "Your first 90 days
-at any brokerage, mapped week by week."* **5–7 pages:**
-1. **How to use this plan** — the promise, the outcome at day 90 (what the member has produced themselves),
-   the rule that the plan is activities you control, never results you can't.
-2–4. **The weeks** — weeks 1–4, 5–8, 9–12 (one page each): what you do each week · what it produces · the
-   activity targets as fill-in rows the reader sets (conversations, open houses, follow-ups — from the member's
-   own "First 30 days as a partner" in `offer.md` and the ratios in `goals.md`; **never an income figure**).
-5. **The weekly review** — a one-page template: what I did · what it produced · what I change next week.
-6. **When you're behind** — the honest page: what the member does when a week goes sideways; the smallest
-   version of the plan that still moves.
-7. **What I did** — the member's own version, briefly, as `proof.md` states it; "built with my first partners"
-   where that's the truth.
+at any brokerage, mapped week by week."*
+- **PAGE 1 (the opening):** how to use this plan — the promise, the outcome at day 90 (what the member has
+  produced themselves, as `proof.md` states it), the rule that the plan is activities you control, never
+  results you can't; `How to use this:`.
+- **Body pages (4–6):** **the weeks** — weeks 1–4, 5–8, 9–12 (one page each): what you do each week · what it
+  produces · the activity targets as `Template rows:` the reader sets (conversations, open houses, follow-ups
+  — from the member's own "First 30 days as a partner" in `offer.md` and the ratios in `goals.md`; **never an
+  income figure**) · **the weekly review** — a one-page template (`Template rows:` — what I did · what it
+  produced · what I change next week) · **when you're behind** — the honest page: what the member does when a
+  week goes sideways; the smallest version of the plan that still moves · **what I did** (optional) — the
+  member's own version, briefly, as `proof.md` states it; "built with my first partners" where that's the
+  truth. The mid-document `Call to action:` sits on the weeks 1–4 page ("on your own numbers").
+- **What to do next:** the five lines = the three blocks of weeks, the review, the behind-page rule; the first
+  step this week = week 1's first row, filled in.
 
 ### 4. The questions guide (the question magnet)
 *The questions agents keep asking the member, answered or handed to the reader to ask. Default pairing: new
 agent · lack of support, mentorship, training. Promise: "The 14 questions that tell you whether a sponsor will
-actually show up."* **5–6 pages:**
-1. **Why these questions** — most agents pick on the one number that matters least; the member's own
-   version ("I asked none of these").
-2–4. **The questions, grouped** — support (who, by name, and for what) · operations (onboarding, payout,
-   leaving) · the model's structure (split, cap, fees, any additional income — structure only) · culture (the
-   weekly call, who's in it) — one page per group, each question with "what a good answer sounds like" in one
-   line; the member's real questions from `objections.md` first, the standard list below filling in.
-5. **The red flags** — said as questions ("if nobody can show you the training today, ask why"), never as a
-   claim about any brokerage or person.
-6. **How to use it on a call** — the two closing questions Mike makes every member able to answer: *"show me
-   the training I'd get, today"* and *"show me an agent like me you've helped"* — and the line that the reader
-   should ask the member these too.
+actually show up."*
+- **PAGE 1 (the opening):** why these questions — most agents pick on the one number that matters least; the
+  member's own version ("I asked none of these"); `How to use this:`.
+- **Body pages (4–5):** **the questions, grouped** — support (who, by name, and for what) · operations
+  (onboarding, payout, leaving) · the model's structure (split, cap, fees, any additional income — structure
+  only, never a figure) · culture (the weekly call, who's in it) — one page per group as a `Checklist:` (a box
+  per question), each question with "what a good answer sounds like" in one line; the member's real questions
+  from `objections.md` first, the standard list below filling in · **the red flags** — said as questions ("if
+  nobody can show you the training today, ask why"), never as a claim about any brokerage or person · **how to
+  use it on a call** — the two closing questions Mike makes every member able to answer (*"show me the
+  training I'd get, today"* · *"show me an agent like me you've helped"*) as a `Script:`, and the line that the
+  reader should ask the member these too. The mid-document `Call to action:` sits on the model-structure page.
+- **What to do next:** the five lines = the four groups and the two closing questions; the first step this
+  week = ask the first group of whoever they're talking to — including the member.
 
 ### 5. The fair comparison guide (the question magnet — only when it fits the UVP)
 *A factual, cited, dated comparison of brokerage MODEL TYPES — cloud brokerage with revenue share · franchise
@@ -116,34 +154,36 @@ about trade-offs — **including the member's own** — never critical of a name
 agent or experienced, low production · financial uncertainty or lack of support. Promise: "How the four main
 brokerage models actually work, the trade-offs of each — including mine — and the questions to ask any
 brokerage or sponsor before you decide."* Built from the intake's shape swaps (the member's own trade-off,
-verbatim · the model types covered · the questions agents ask them) plus the Brain. **7 pages, plus an optional
-8th.** Every page is dated by the doc's "last updated" line; the guide carries one "brokerage plans change —
-verify anything current with the brokerage itself" line on page 1.
+verbatim · the model types covered · the questions agents ask them) plus the Brain. Every page is dated by
+the doc's "last updated" line; the guide carries one "brokerage plans change — verify anything current with
+the brokerage itself" line on page 1.
 
-1. **Why this guide exists (and what it isn't)** — the framing page. Most agents compare on the split alone;
-   most sponsors can only explain their own plan, and "every sponsor says the same three things." This guide
-   explains every model in the same shape and lets you decide. **Say plainly what it is not:** not a ranking,
-   not a pitch for any brokerage, not legal or financial advice; written by a working agent and leader; dated;
-   plans change — verify current. Work in the agent's pain (`avatars.md` → "biggest problem, in their words").
-2. **How to read any brokerage model** — the five parts every model is made of, so the reader can compare
-   anything: **compensation** (split · cap · fees — and what happens after the cap) · **additional income, if
-   any** (revenue share · profit share · none — and how it's funded) · **equity** (stock or ownership, if any) ·
-   **support** (who actually supports you — a broker, a sponsor, an upline — and for what) · **operations**
-   (onboarding, offboarding, commission payout, offices). Structure, not numbers.
-3. **Cloud brokerage with revenue share** — in the standard shape (below).
-4. **Franchise split brokerage, with or without a cap** — standard shape.
-5. **Flat-fee / 100% brokerage** — standard shape.
-6. **Independent or local brokerage, and the local team** — standard shape (a team inside any brokerage is a
-   model of its own for a team leader reading it: the leader provides leads, systems, training, admin; agents
-   pay a team split on top of the brokerage split).
-7. **The questions to ask any brokerage or sponsor** — the checklist page, from the intake's questions answer
-   + the standard list (below). The page agents screenshot. Close it with the two questions: *"show me the
-   training I'd get, today"* and *"show me an agent like me you've helped."*
-8. **(Optional) What I'd tell myself** — the member's own switch story from the intake: what they weighed,
-   what they got wrong or right, in their voice. "A franchise" / "an independent" / "my old brokerage" —
-   **never the name.** Omit the page entirely if the member kept it off (never a placeholder).
+- **PAGE 1 (the opening):** why this guide exists and what it isn't — most agents compare on the split alone;
+  most sponsors can only explain their own plan, and "every sponsor says the same three things." This guide
+  explains every model in the same shape and lets you decide. **Say plainly what it is not** (a `Checklist:`
+  reads well here): not a ranking, not a pitch for any brokerage, not legal or financial advice; written by a
+  working agent and leader; dated; plans change — verify current. Work in the agent's pain (`avatars.md` →
+  "biggest problem, in their words"); `How to use this:`.
+- **Body pages (6–7):** **how to read any brokerage model** — the five parts every model is made of, so the
+  reader can compare anything: **compensation** (split · cap · fees — and what happens after the cap) ·
+  **additional income, if any** (revenue share · profit share · none — and how it's funded) · **equity**
+  (stock or ownership, if any) · **support** (who actually supports you — a broker, a sponsor, an upline — and
+  for what) · **operations** (onboarding, offboarding, commission payout, offices). Structure, not numbers ·
+  **the four model pages** — cloud brokerage with revenue share · franchise split, with or without a cap ·
+  flat-fee / 100% · independent or local brokerage, and the local team (a team inside any brokerage is a
+  model of its own for a team leader reading it: the leader provides leads, systems, training, admin; agents
+  pay a team split on top of the brokerage split) — each in the standard shape below · **the questions to ask
+  any brokerage or sponsor** — the checklist page (`Checklist:` per group), from the intake's questions answer
+  + the standard list below; the page agents screenshot; close it with the two questions: *"show me the
+  training I'd get, today"* and *"show me an agent like me you've helped"* · **(optional) what I'd tell
+  myself** — the member's own switch story from the intake: what they weighed, what they got wrong or right,
+  in their voice. "A franchise" / "an independent" / "my old brokerage" — **never the name.** Omit the page
+  entirely if the member kept it off (never a placeholder). The mid-document `Call to action:` sits on the
+  member's own model page ("my plan's actual numbers are a call, not a page").
+- **What to do next:** the five lines = the five parts of any model; the first step this week = ask the two
+  closing questions of whoever they're talking to.
 
-**The standard shape for every model page (3–6) — the SAME five blocks, the member's own model included:**
+**The standard shape for every model page — the SAME five blocks, the member's own model included:**
 - **How it works** — the mechanics, generically: compensation structure, additional income, equity, support,
   operations. Structure, not dollars.
 - **Who it tends to fit** — by career stage, production, and goals only (never a protected characteristic).
@@ -154,6 +194,8 @@ verify anything current with the brokerage itself" line on page 1.
   the intake's trade-off answer, verbatim. For the others, the trade-offs Mike himself names in the lessons,
   labeled.
 - **The question to ask** — the one question that reveals whether a plan of this type is right for the reader.
+Each block is a labelled line or a short paragraph; the page's `Source:` line cites the member's plan document
+(with its date) or "per Mike Sherrard's lesson — verify current."
 
 **Order:** the member's own model first or last — never in the middle; say in one line that it's theirs and
 that it gets the same treatment as the rest. The four pages are the same length; a longer page for the
@@ -180,8 +222,8 @@ When the member's own model is one of these, their page uses their plan's facts 
 (cited) for "how it works" and the intake's trade-off for the trade-off — and says when a fact is Mike's
 example rather than their plan ("per Mike Sherrard's lesson — ask your brokerage for its current schedule").
 
-**The standard questions list (page 7 of the comparison guide; pages 2–4 of a questions guide — keep the
-member's real ones first).** From the Brain's model-expert bank (`03-model-positioning/14`,
+**The standard questions list (the comparison guide's questions page; the question pages of a questions guide
+— keep the member's real ones first).** From the Brain's model-expert bank (`03-model-positioning/14`,
 `11-objection-handling`): What is the split and cap, and what happens after the cap? · What are the fees —
 all of them, in writing? · Is there revenue share or profit share; how is it funded, and when is it paid? ·
 How many tiers, and how does a tier open? · What happens to it if I leave, or if I die? · What stock or equity
@@ -195,23 +237,26 @@ me you've helped."* Every question is model-agnostic — the reader asks it of a
 ### 6. The mini-course outline
 *Three lessons the member can record, as a guide — the Teach-first table in writing. Default pairing: agent
 with a brand or any type · technology gaps or lack of training. Promise: "Three lessons that set up [the
-system] in a week — the exact walkthrough I give every new partner."* **5–7 pages:**
-1. **What you'll be able to do** — the three "after this you can…" lines, who it's for, how long each
-   lesson takes.
-2–4. **Lesson 1 · 2 · 3** — one page each: the outcome · what's on screen · the steps · the template handed
-   over (in full) · the one mistake.
-5. **The prompt list or script page** (when the course is about AI or messaging) — the member's own prompts
-   or scripts, tested, one per block.
-6. **How to go through it** — the order, the week, what to send the member when it's done.
+system] in a week — the exact walkthrough I give every new partner."*
+- **PAGE 1 (the opening):** what you'll be able to do — the three "after this you can…" lines (a
+  `Checklist:`), who it's for, how long each lesson takes; `How to use this:`.
+- **Body pages (4–5):** **lesson 1 · 2 · 3** — one page each: the outcome · what's on screen · the steps · the
+  template handed over (`Template rows:`, in full) · the one mistake · **the prompt list or script page** (when
+  the course is about AI or messaging) — the member's own prompts or scripts, tested, as a `Script:` · **what to
+  have ready** (optional, when it earns a page) — the accounts, the sheet, the hour blocked. The mid-document
+  `Call to action:` sits on lesson 2.
+- **What to do next:** the five lines = the three lessons, the template, what to send the member when it's
+  done; the first step this week = lesson 1, run once.
 
-### Other shapes Mike names — same skeleton, same laws
-A **prompt list** (one prompt per page, the member's own, tested — `15-advanced-scaling/73`) · a **script**
-(the words, the when, the follow-up) · **the leader's switching guide** (team leader / broker-owner · work-life
-balance, limited growth: the transition in months, what to tell the team and when, keeping the brand — the
-franchise look-period rule stated plainly; `compliance.md` recruiting scope checked) · **the rev-share
-explainer** (model-generic; structure only — how it's funded, when it's paid, what it is not; **no dollar
-figures, no projections, no "what you could earn"; the income disclaimer from `compliance.md` appended; if the
-policy line forbids public rev-share content, this shape is unavailable — say so and pick another**).
+### Other shapes Mike names — same architecture, same laws
+A **prompt list** (one prompt per body page, the member's own, tested — `15-advanced-scaling/73`; the prompts
+as `Script:` lines) · a **script** (the words as `Script:`, the when, the follow-up) · **the leader's switching
+guide** (team leader / broker-owner · work-life balance, limited growth: the transition in months, what to tell
+the team and when, keeping the brand — the franchise look-period rule stated plainly; `compliance.md`
+recruiting scope checked) · **the rev-share explainer** (model-generic; structure only — how it's funded, when
+it's paid, what it is not; **no dollar figures, no projections, no "what you could earn"; the income
+disclaimer from `compliance.md` appended; if the policy line forbids public rev-share content, this shape is
+unavailable — say so and pick another**).
 
 ## The default pairings (one type of agent · one of Mike's five pains)
 Each shape speaks to one reader and one pain (`02-prospect-targeting/18`, `04-value-proposition/27`). The
@@ -230,7 +275,7 @@ decide it:
 | **The rev-share explainer** (gated) | question | experienced or top producer · limited growth | "How revenue share actually works — in plain English, no numbers, no promises." |
 
 A niche magnet speaks to one type of agent; it still carries ONE clear promise — that promise becomes the
-funnel headline. Whatever the shape: same bookends, same sourcing rule, same compliance gate, same honest
+funnel headline. Whatever the shape: same architecture, same sourcing rule, same compliance gate, same honest
 close with the call offered.
 
 ## What makes a magnet worth opting in for
@@ -241,10 +286,14 @@ close with the call offered.
   is no longer novel (`15-advanced-scaling/73`: "people pay for proximity, intimacy, access, support,
   accountability") — so the magnet gives the information freely and the call offers the access.
 - **Only this leader could have written it.** Built from what they actually did (`04-value-proposition/27`) —
-  the honest page, the real sheet, the lived mistake — is the moat a recruiting deck can't copy.
-- **Quick to consume.** A focused magnet (4–9 short pages) beats a 40-page doc nobody finishes.
+  the honest page, the real sheet, the lived mistake — is the moat a recruiting deck can't copy. The KB's
+  swap test catches the pages that aren't.
+- **Quick to consume.** A focused magnet (the architecture's nine to thirteen designed pages, 1,800 to 3,500
+  words) beats a 40-page doc nobody finishes.
+- **Passes the tests.** Worth an email on every page; something an agent would pay for; a number with its
+  source, a script, a template, a checklist or a story on every body page (`shared/copywriting-kb.md`).
 - **Naturally leads to the member.** Because it's built from the Partner Offer, the obvious next step *is* a
-  conversation — without a single pushy line.
+  conversation — the three calls to action say so without a single pushy line.
 
 ## Tie it to the Partner Offer (this is the point)
 The magnet and the offer are the same story at two stages: the magnet gives the first lesson honestly and for
@@ -258,4 +307,6 @@ Real, sourced facts and real proof only — never invent a stat, an organization
 testimonial; unsourced → qualitative. No ranking, no named-brokerage criticism, former brokerages unnamed,
 targeting by stage only. Compensation: structure yes, figures no (the member's own plan only where
 `compliance.md`'s policy allows, cited); earnings never — a plan's targets are activities. Run it through
-`compliance.md` per house rules #5 (the three states; unset blocks).
+`compliance.md` per house rules #5 (the three states; unset blocks). In demo mode every production, money or
+ratio figure is tagged "(illustrative — demo)" the way the Brain Book spec tags it, and the document is still
+complete at every floor.

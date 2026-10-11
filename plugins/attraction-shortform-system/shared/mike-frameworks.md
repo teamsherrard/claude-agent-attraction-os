@@ -358,6 +358,9 @@ scrolling"; a pitch before value.
   this plugin names the keyword and writes the CTA lines, nothing more.
 - **The Story Prompt Deck and the Hook Bank** are listed as new cohort assets (not yet written by Mike); this
   plugin authors the deck from `07/89–90` and the hook bank from `07/88` and the workshop's green-screen lines.
+  The **starter hook bank** (`skills/sf-ideas/references/starter-hook-bank.md`) is Mike's agency's four-month video
+  list turned into Reel-sized angles — adapted, compliance-cleaned, and ranked behind the member's own ideas and the
+  week's research; a seed list, not a lesson.
 - **Mike's exact bio** is referenced in `07/87` ("over a hundred thousand subscribers… number one attractor") but
   the lesson shows it on screen; the formula is what's grounded.
 - **Lesson numbers:** the vault export numbers these modules `05-big-picture/35, 35b, 36`,

@@ -9,13 +9,18 @@ minimal, dark, light, neutral, colourful, earthy, or editorial — 100+ valid di
 READ the member's direction from their inputs, then commit the WHOLE sheet to that one aesthetic. Two
 different leaders must produce two visibly different sheets.
 
-**1. Detect the direction.** Infer it, in priority order, from: (a) the Design Package brief's feel
-words and palette (the Brain already captured these with the member — they win), (b) uploaded
-inspiration or a palette image, (c) pasted colour codes, (d) the feel pick in intake, (e) the voice
-and brand words in the Book ("calm", "direct", "warm", "systems", "premium"), (f) the primary type of
-agent they attract (a brand aimed at new agents reads warmer and clearer; one aimed at top producers
-reads more premium and restrained). If signals conflict, the member's own uploads win. If there is
-truly nothing, pick a tasteful default that fits their voice and say which direction you chose.
+**1. Detect the direction — it is picked, never asked.** In priority order: (a) the Design Package
+brief's **Creative direction** — its three reference recipes name the house looks (the Design System's
+§12 house style library); the first named is the Brain's pick and the default, and the member's
+**examples in Brand HQ** decide a close call between the three (the member is never asked to choose a
+texture, a finish, or a look by name); (b) the brief's colour story, type temperature, energy, photo
+treatment, motifs, and avoid list — they shape the execution inside the look; (c) uploaded inspiration
+or a palette image; (d) pasted colour codes; (e) the voice and brand words in the Book ("calm",
+"direct", "warm", "systems", "premium"); (f) the primary type of agent they attract (a brand aimed at
+new agents reads warmer and clearer; one aimed at top producers reads more premium and restrained). If
+signals conflict, the member's own uploads win. If the brief names no house look (an older brief) or
+the examples plainly sit outside all three, pick from the extended recipes below, say which you chose
+in plain words, and still never ask.
 
 **2. Commit fully.** Drive EVERYTHING from it together — background darkness or lightness, the
 palette, textures and finishes, type personality, accent shapes, headshot treatment, mood.
@@ -37,7 +42,13 @@ spec. The font name printed MUST be the font rendered, and it must cover the bra
 character set. Favour widely available faces so the brand reproduces easily in Canva, Google Docs,
 Riverside, and every video tool.
 
-Use these proven directions as reference recipes (palette logic · type · texture · accents · mood):
+**THE HOUSE LOOKS COME FIRST.** The seven looks in the Design System's §12 (the gold-on-black
+organization look · the clean editorial leader look · the bold gradient coach look · the brushed-stroke
+bold look · the navy-and-gold emblem look · the bright accent creator look · the warm paper mentor
+look) are complete recipes with their devices and their never-do lines; the brief names three of them.
+The directions below are the extended range for a member whose brief and examples sit outside the
+house looks — the same discipline applies (commit fully, honour custom input, stay distinct from the
+brokerage, never ask):
 
 - **Calm Premium (Navy & Brass / Black & Gold)** — deep navy, charcoal, or black grounds with gold,
   champagne, or brass and warm cream. High-contrast serif display (Playfair Display, DM Serif Display,
@@ -80,7 +91,8 @@ Use these proven directions as reference recipes (palette logic · type · textu
 ## TEXTURES, GRADIENTS & FINISHES (render them for real — they make it look paid-for)
 
 Flat colour alone reads cheap on a premium brand. Bring in ONE or two finishes that match the
-direction, rendered as real artwork in the palette — never a label that says "texture":
+locked look (its recipe names them), rendered as real artwork in the palette — never a label that says
+"texture", and never a question to the member about which texture they want:
 
 - **Metallics** — gold foil, champagne, brushed gold, rose gold, silver/pewter, as a swatch and a thin
   accent; shown as a soft light-to-deep gradient so they read as foil, labelled like a real spec.

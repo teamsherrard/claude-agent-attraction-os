@@ -99,6 +99,21 @@ the literal `{{`. Even ONE means you built the wrong file. Zero is the finish li
     the `deploy` folder."* Then: turn on Forms email notifications; the Forms page only lists a form
     AFTER its first submission — the test submit is what makes leads appear; and if Forms was switched on
     only AFTER deploying, re-drop the folder — detection never retroactively scans an existing deploy.
+15. **Embeds never break the page or the form.** The hero video and the Proof section's YouTube block are
+    plain `<iframe>`s inside a responsive 16:9 wrapper, `loading="lazy"`, `allowfullscreen`, the
+    privacy-enhanced embed URL (`youtube-nocookie.com/embed/<id>`, or the Vimeo / Loom embed URL), never
+    autoplay. The doc's `record the 60-second why-join-me` note means NO iframe — the cut-out headshot
+    renders in that footprint, and `READ-ME-FIRST.md` lists the spot as a placeholder to fill. The booking
+    embed (`Booking embed:`) is a lazy `<iframe>` (Calendly · GoHighLevel · Cal.com) in its own section
+    with a plain "Book a call with me" link under it as the fallback; when the link doesn't embed, the
+    button alone. **No embed ever sits inside a `<form>`**, and a blocked or slow embed never hides the
+    form or the download.
+16. **The optional qualifier rides in BOTH forms or neither.** When the doc's `Optional qualifier:` line
+    isn't `off`, the visible pop-up form AND the hidden detection form carry the same extra `<select>`
+    (same `name`, same options), and the POST body includes it; when `off`, no trace of it anywhere.
+    Three fields plus one dropdown is the maximum on the opt-in shape.
+17. **The sticky mobile bar carries the opt-in CTA only** — never the call button; the Book-a-call area
+    is reached by scrolling, and its button goes to the embed or the booking link.
 
 ## THE TEST-SUBMIT CANARY (one visible check catches three failures)
 

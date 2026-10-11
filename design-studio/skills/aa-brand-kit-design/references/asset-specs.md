@@ -14,8 +14,9 @@ piece no matter how pretty it is.
 
 **Build in priority order** (so an interrupted run still leaves a usable core): 1) profile pictures,
 2) banners, 3) the three post templates, 4) stories, 5) highlight covers, 6) the Join My Team cover,
-7) bonus pieces (signature, end screen, backgrounds). Establish ONE master look on the YouTube banner
-and the win post, then reuse it across the set. Never more than ~6 full-size frames per render.
+7) bonus pieces (signature, end screen, backgrounds), 8) the organization family (below). Establish
+ONE master look on the YouTube banner and the win post, then reuse it across the set — the organization
+family inherits it exactly. Never more than ~6 full-size frames per render.
 
 **Every piece is ONE inline `<svg data-file="…">`** at its exact size (see the export-page reference)
 from its first render, with no background rect on transparent pieces (the profile pictures, posts,
@@ -180,3 +181,59 @@ splits, caps, stock, or earnings — ever — on this page.
 - **Vertical backgrounds** (`background-1.png`, `background-2.png`, `background-3.png`) — three
   branded 1080×1920 grounds the member layers reels and stories on: a brand texture, a brand-colour
   field, and a treated culture-photo field (or a second texture when no photo exists).
+
+### The organization family — the people side of the kit (organization set, or the personal set)
+Built after the bonus pieces, on the locked look's devices only (the Design System §7 and §12: gradient
+headline · gold numeral · chevron · brushed stroke · taped-photo frame · vertical text rail · pill button
+· organization URL footer). The **organization set** (the Book records an organization name) fronts every
+piece with the organization's lockup and its URL footer; the **personal set** (no organization name) uses
+the same canonical names on the member's own lockup, the handle and booking link in the footer, and
+skips the member-of-the-month, 4-up, 16-grid, and `org-profile-logo.png` pieces until a named
+organization exists. Every piece: the compliance strip as the Book requires, the brokerage chip in ONE
+corner only where required, at most two devices beside the type and the photo, the feed-post type scale
+and the double-safe zone above.
+
+- **Milestone post** (`org-post-milestone.png`, 1080×1350) — the Book's organization number (the
+  Snapshot's "organization today" line) set 400–600px tall in the numeral device (foil on dark; deepened
+  on light), the word under it in the heading face ("AGENTS" / "PARTNERS"), a pill or a rule carrying
+  **"have now joined [the organization's name / me]"**, the organization's lockup, the footer. The count
+  is never rounded, never invented, never "CAPPED" unless the Book's rev-share marketing policy allows it.
+  No organization number in the Book = no milestone post.
+- **Anniversary post** (`org-post-anniversary.png`, 1080×1350) — the member's photo (half-body, treated)
+  with "[N] YEAR(S) AT [BROKERAGE]" or "[N] YEARS OF [THE ORGANIZATION]" as a two-tone or gradient
+  headline, the number from the Book; the brokerage's name set in the kit's type as a fact (never its
+  logo as the hero, never its colours); the footer.
+- **Member-of-the-month template** (`org-post-member-of-month.png`, 1080×1350) — the look's thin frame
+  around the piece, the agent's cut-out (or a designed window) over the mark ghosted large and
+  low-opacity, the agent's name in tracked caps, **the organization's own title** as the type hero
+  (default "MEMBER OF THE MONTH"), the month in the accent face, the footer. Swap photo · name · month.
+- **Welcome post — single / template** (`org-post-welcome-single.png`, 1080×1350) — the **vertical text
+  rail** ("WELCOME TO [THE ORGANIZATION'S WORD]" — the Book's phrase, default "WELCOME TO THE TEAM")
+  along the right edge in the metallic or the accent; the new agent's photo in the **taped-photo frame**
+  (tilted 2–4°, two tape corners, greyscale allowed) or as a cut-out; the name as the type hero, bottom
+  left; the lockup and the footer. The empty template shows a designed photo window with "Your new
+  partner's photo" in brand type — never app UI.
+- **Welcome post — 4-up** (`org-post-welcome-4up.png`, 1080×1350) — one welcome headline across the
+  top (the gradient or metallic treatment the look allows), four cut-outs in staggered vertical panels
+  that overlap by 10–15%, first names optional under each, the footer.
+- **Welcome post — 16-grid** (`org-post-welcome-grid16.png`, 1080×1350) — a 4×4 grid of equal headshot
+  tiles (one tint over all sixteen so mixed photos read as one set, 12–16px gutters) filling the
+  left ~80%, the vertical rail down the right edge, the lockup + URL + chip footer along the bottom.
+- **"Send me a DM" post** (`org-post-dm-cta.png`, 1080×1350) — the member's expressive cut-out, a
+  two-line question for the primary type of agent in Mike's pain wording ("Want to become a modern
+  agent?"), the **pill button** carrying the offer's comment keyword when the Book holds one ("DM me the
+  word CALL"), else "Send me a DM"; one or two chevrons pointing at the headline; the footer. One
+  action only; no compensation word.
+- **Thumbnail master** (`org-thumbnail-master.png`, 1280×720) — the two-tone headline (one word in the
+  accent or the gradient line, the rest in cream or white; four words max, 120–160px), the expressive
+  cut-out on one side (two co-leaders flank it when there are two), the mark small in a corner, one
+  device (a stroke or a chevron), the look's texture at real strength. Readable at 240px wide; the
+  face never clipped; the headline inside the centre 70%.
+- **Profile-circle set** (`org-profile-photo.png` · `org-profile-mark.png` · `org-profile-logo.png`,
+  1080×1080 each, circle-safe) — the member's photo with the look's device behind it (a brushed stroke,
+  a ring, the texture), the mark alone inside a thin ring on the dark ground, the organization's logo
+  centred on its field. One bold element each; recognisable at 40px.
+- **Stories with a button** (`org-story-welcome.png` · `org-story-dm-cta.png`, 1080×1920) — the welcome
+  story (the rail, the taped frame or cut-out, the name) and the DM story (the question, the pill
+  button, a designed sticker plate for the link or question sticker); key text out of the top and
+  bottom ~250px; posters, not forms.

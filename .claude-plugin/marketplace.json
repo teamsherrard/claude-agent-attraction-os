@@ -9,7 +9,7 @@
     {
       "name": "attraction-ai-brain",
       "source": "./plugins/attraction-ai-brain",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "PLUGIN 1 \u2014 install first. The Agent Attraction Brain: one shared brain (who you are as a leader, who you attract, what you have to give, your numbers, your voice, your brand, your rules) that every other Agent Attraction system reads. Run 'Set up my attraction brain' once; every tool already knows you. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, and the on-the-go Capture layer."
     },
     {
@@ -21,13 +21,13 @@
     {
       "name": "attraction-lead-magnet",
       "source": "./plugins/attraction-lead-magnet",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "description": "PLUGIN 3 \u2014 Lead Magnets & Opt-In Funnels pointed at agents (Week 2). Offer-first, one sitting: it builds your Partner Offer in the same session if it isn't built yet, recommends three lead magnets built from your unique value proposition and Mike's lessons, you pick one, and it writes the magnet and its sales funnel outline. Then delivery, nurture, partnerships, GBP, profiles (it writes the bios first), analytics. No default magnet. Requires Plugin 1."
     },
     {
       "name": "attraction-shortform-system",
       "source": "./plugins/attraction-shortform-system",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "PLUGIN 4 \u2014 the Short-Form Attraction Engine (Week 3): the daily Instagram engine for attracting agents. Pillars, bios, Reel scripts, carousels, stories, hooks, the 30-day calendar and weekly routine, the comment-to-DM ladder with the ManyChat keyword, publishing, and analytics. Requires Plugin 1."
     },
     {
@@ -39,7 +39,7 @@
     {
       "name": "attraction-youtube-system",
       "source": "./plugins/attraction-youtube-system",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "PLUGIN 6 \u2014 the Long-Form Authority Engine (Week 4): YouTube built to attract agents. Channel, 3-pillar game plan on the 8-video cycle, ideation, research, scripts, agent interviews, model breakdowns, thumbnail briefs, SEO, repurposing, leads, analytics, coaching, consistency, board. Requires Plugin 1."
     },
     {

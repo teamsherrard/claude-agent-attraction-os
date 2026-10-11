@@ -17,6 +17,9 @@ Future · Interview · Model); the pillar a row carries is the Brain's (Authorit
 | Timeliness | A dated news item, a season (licensing cycles, year-end brokerage moves), a fresh win to interview | ×1 |
 | Hook | How strong is the title/hook on curiosity · emotion · clarity? | ×1 |
 Priority = D×3 + A×3 + G×2 + F×2 + T×1 + H×1 (max 60). Rank high → low inside each bucket; show only the order.
+A `starter` title (from the starter bank) scores Demand only once research confirmed the phrase; otherwise Demand
+= 0 and the "why" says it is from the starter arc — it can never outrank a Brain signal or a researched one on
+Demand alone.
 
 ## Cycle balance (the member never manages it)
 Read `identity/channel.md` → `## Game Plan anchors` → cycle position, and the content-log's last eight YouTube
@@ -60,6 +63,8 @@ encouraged — doctrine §14).
 4. The template library (`shared/idea-templates.md`), filled with the member's real avatar, niche, model, guests.
 5. Fresh signals from `yt-research` (what agents search) and `yt-outliers` (what worked elsewhere).
 6. Coverage gaps from the read above.
+7. The starter bank (`${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/references/starter-title-bank.md`) — last, and only
+   for a slot 1–6 left empty; marked `starter`; never ranked above a Brain signal or a researched one.
 
 ## Every idea must justify itself (the moat)
 Each idea's "why" cites at least one **real** signal, named by type:
@@ -69,6 +74,8 @@ Each idea's "why" cites at least one **real** signal, named by type:
 - 👀 **Proven** — an outlier video on the same concept (what worked, never what was wrong with it)
 - 🤝 **Proof ready** — a guest at Candidate or later with a real transformation
 - 🗺️ **Gap** — a bucket, avatar, or question the member's channel has not covered
+- 📚 **Starter** — from the starter bank (the agency's four-month arc, compliance-cleaned): agency-curated, not a
+  signal for this member — the "why" says so plainly; it becomes Demand only once research confirms it
 Lead with the strongest real signal. Never fabricate search volumes or view counts; if no number was seen, say
 "agents search this" without one.
 

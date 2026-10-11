@@ -1,7 +1,7 @@
 {
   "name": "attraction-lead-magnet",
   "displayName": "Agent Attraction Lead Magnet (Plugin 3)",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "PLUGIN 3 — Lead Magnets & Opt-In Funnels pointed at agents (Week 2). Offer-first, one sitting: it builds your Partner Offer in the same session if it isn't built yet, recommends three lead magnets built from your unique value proposition and Mike's lessons, you pick one, and it writes the magnet and its sales funnel outline (the opt-in page, the thank-you page with the download and the call). Then: the design brief for Claude Design, delivery by DM, email, and story (the ManyChat GUIDE keyword), the nurture sequence and weekly newsletter, partnership outreach, your Google Business Profile positioned for attraction, social bios aligned to the funnel (it writes your bios first; the Short-Form System refreshes them in Week 3), and analytics on opt-in rate, list growth, and magnet-to-call conversion. No default magnet; no two members' magnets alike. Reads the Agent Attraction Brain; requires Plugin 1.",
   "author": {"name": "Team Sherrard"},
   "homepage": "https://github.com/teamsherrard/claude-agent-attraction-os",

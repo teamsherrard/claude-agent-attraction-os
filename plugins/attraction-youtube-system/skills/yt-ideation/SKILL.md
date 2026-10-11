@@ -21,7 +21,8 @@ unless `yt-triggers` set it up with their yes, and the data is fresh at the mome
 Game Plan #10, the board #11). All machinery runs invisibly; the member sees four lines, not a process.
 
 **Lazy-load:** `references/idea-method.md` at Step 3; `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` at Step 3;
-doctrine §4–§7 and §9 only if a bucket needs re-grounding. Never the whole doctrine.
+`${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/references/starter-title-bank.md` only at Step 2's last line, to fill a
+slot nothing else filled; doctrine §4–§7 and §9 only if a bucket needs re-grounding. Never the whole doctrine.
 
 ## Step 1 — Warm welcome + one scoping question
 > "Let's find your next videos for agents. How many are you filming — one or two this week, or a batch of
@@ -50,13 +51,21 @@ now (1–3), the rest at the numbered line that uses them:
    as the member pastes it or as a `youtube [phrase]` search; the top videos; "people also ask") for what agents
    are searching on the batch's candidate topics; `yt-outliers`'s weekly scan if it has not run this week (light;
    long-form does not move daily).
+8. **The starter bank — last, and only for an empty slot:**
+   `${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/references/starter-title-bank.md` (the agency's four-month arc,
+   compliance-cleaned, with eight interview angles). Open it only when the plan (1), the member's own ideas (2), the
+   Brain's signals (4–6), and fresh research (7) left a slot in the batch empty — never above any of them. A title
+   taken from it is marked `starter`; its "why" says so plainly (*"from the starter arc — not yet researched for
+   your market"*); swap `[my brokerage]` (the name only where `compliance.md` allows it in public titles, otherwise
+   "my brokerage"), `[year]`, and `[guest]` for real values; never present it as a demand signal.
 The member sees one line: *"Give me a sec — I'm checking what agents are searching and what's on your plan."*
 
 ## Step 3 — Generate the batch (ranked, bucketed, cycle-balanced)
 Run `references/idea-method.md` (the rubric scored silently, packaging-first) with
 `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md` and `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md`:
 - **From the plan first** — the next titles on the cycle, then the member's captured ideas, then timely
-  signals. A timely off-plan idea is fine when a real signal warrants it; tie it to a bucket.
+  signals. A timely off-plan idea is fine when a real signal warrants it; tie it to a bucket. The starter bank
+  fills only what all of those left empty (Step 2, line 8), ranked below every Brain signal and every researched one.
 - **Cycle balance:** a batch of 4 = 2 niche (across Problem / Situation / Future — never all one bucket) · 1
   interview (a named guest) · 1 model (or a second niche if the model video for this cycle already shipped). A
   batch of 2 = 1 niche · 1 interview or model, whichever the cycle is short on. The member never manages the

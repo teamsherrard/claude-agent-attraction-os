@@ -514,6 +514,11 @@ in the video must be real; no stock "culture."
 - **Equipment, filming, and editing standards** are not in the Week 4 vault (Mike points to the Social Agent
   Academy). The Riverside editor plugin owns the edit; this doctrine only says what `/92` says: start with what
   you have, upgrade every year.
+- **The starter title bank** (`skills/yt-gameplan/references/starter-title-bank.md`) is Mike's agency's four-month
+  video list adapted to this doctrine, not a vault lesson: the Game Plan seeds from it only when the member has no
+  titles of their own, every seeded title is marked `starter` and never presented as a demand signal, and the lane,
+  pillar, and compliance rules above are applied to every title in it. Its lesson citations point at the vault; its
+  titles do not come from it.
 
 ## 18. Mike's vocabulary (use his words)
 

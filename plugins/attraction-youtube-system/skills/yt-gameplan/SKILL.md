@@ -27,7 +27,8 @@ compliance (#3), plain talk (#4), sourcing (#6), docs (#7), the stamp (#9), demo
 
 **Lazy-load:** `references/gameplan-framework.md` at Step 2 (the backbone). Doctrine sections only when the
 phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phase 5), §9 (Phase 6), §13–§14
-(Phases 7–9). Never the whole doctrine up front.
+(Phases 7–9). `references/starter-title-bank.md` at Phase 6 only, and only when the member has no titles of their
+own (the rule is stated there). Never the whole doctrine up front.
 
 ---
 
@@ -40,10 +41,10 @@ files now — the rest open at the phase that uses them, never earlier and never
   named avatar)
 
 **Opened later, at the phase that uses them:** Phase 1 → `identity/profile.md` · `strategy.md` · `offer.md` ·
-`memory/content-log.md` · Phase 2 → `identity/content-pillars.md` · `identity/goals.md` · Phase 3 →
+`journey.md` (the WHY) · `memory/content-log.md` · Phase 2 → `identity/content-pillars.md` · `identity/goals.md` · Phase 3 →
 `memory/objections.md` · `memory/ideas.md` · `identity/prospect-intel.md` · `identity/voice.md` · Phase 4 →
 `memory/organization.md` · `memory/top-50.md` · `identity/proof.md` · `memory/interview-pipeline.md` · Phase 5 →
-`identity/brokerage-model.md` · `memory/intel.md` · Phase 6 → `identity/journey.md` · `identity/story-bank.md` ·
+`identity/brokerage-model.md` · `memory/intel.md` · Phase 6 → `identity/story-bank.md` ·
 Phase 7 → `memory/scorecard.md` · Phase 9 → `identity/publishing.md`. Each phase below says what it opens.
 
 **Step 1b — compliance, 3-state.** The Game Plan is the member's private strategy doc, so it builds in every
@@ -84,11 +85,22 @@ title method, the goal-math, the calendar, the stamp). Orchestrate — do not re
 ## Phase 1 — The audit and the positioning read (scaled; honest, never flattery)
 **Read now:** `identity/profile.md` · `strategy.md` (known for, priorities) · `offer.md` (the offer; the live resource
 is `memory/magnets.md → ## Current magnet` first when it exists, `offer.md` second; `Status: seeds` → "Week 2 builds
-the offer"; never demand it) · `memory/content-log.md` (what already exists). Per the framework: 100 videos → full read (which of the three categories are present, which absent; CTA
+the offer"; never demand it) · `identity/journey.md` (`## The WHY`, `## The leader moment`, and `## Why join me` when
+Week 2 wrote it — the WHY below) · `memory/content-log.md` (what already exists). Per the framework: 100 videos → full read (which of the three categories are present, which absent; CTA
 present; playlists; packaging); 10 → the 2–3 highest-impact fixes; 1–2 → "too early to read"; 0 → skip. Always
 name the insight in attraction terms: *"your best videos have always been the ones where you teach [niche] —
 there's an audience of agents, they just don't know you'll help them."* The positioning read: can a first-time
 visitor tell who this channel is for and why to reach out?
+
+**The WHY — three statements in their voice, never a question box.** Under the one line, the positioning band
+carries: *why I'm building this* (`journey.md → ## The WHY` — the why-line verbatim, who it is for — and `## The
+leader moment`) · *what's missing for the agents I attract — and how I bridge it* (`positioning.md`'s bridge-the-gap
+line and `offer.md`; always the agents' problem, never a word against another team or brokerage —
+`03-model-positioning/13`) · *why me, for a new agent and for a seasoned one* (`## Why join me` when Week 2 wrote
+it; otherwise `leadership.md` and `strategy.md`'s known-for). A line the Brain has not written yet is drafted from
+`strategy.md` + `avatars.md` + the journey beats and labeled "(draft — your Brain's WHY is written in Setup and
+Week 2)"; the doc never asks for it and never shows a blank (`01-foundation-mindset/10`: write it down, replay it on
+the hard days). Enthusiasm carries it — write it the way they would say it out loud.
 
 ## Phase 2 — The three categories and the cycle (doctrine §3, §7)
 **Read now:** `identity/content-pillars.md` (the Brain's five pillars — Authority · Perspective · Story · Proof ·
@@ -143,8 +155,8 @@ comparisons only on the member's explicit choice via `yt-model-breakdown`. An em
 titles still build; the content deepens after "explain my model to me."
 
 ## Phase 6 — The title bank: ~50 exact titles, bucketed (doctrine §9)
-**Read now:** `identity/journey.md` (the Why I Switched material; the former brokerage never named — reused in
-Phase 8) · `identity/story-bank.md` (Story and Personality angles).
+**Read now:** `identity/story-bank.md` (Story and Personality angles); `journey.md` is already open from Phase 1 (the
+Why I Switched material — the former brokerage never named; reused in Phase 8).
 Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 (the bucket decides the pillar a
 future content-log row carries: Authority · Proof · Perspective). Every title: one promise, ≤70
 characters, a formula number where one applies, the avatar and pain named in the note, a real signal cited
@@ -152,6 +164,19 @@ characters, a formula number where one applies, the avatar and pain named in the
 channel — or `unresearched`, Step 2's fallback). **Hard gates:** no compensation figures or earnings implied · no negative word about a brokerage or
 person · no protected-characteristic targeting · the old brokerage never named in Why I Switched · model titles
 dated with the year. Thumbnail text offered with a title is 3–5 words and differs from the title.
+
+**No titles of their own?** When `memory/ideas.md` holds no open `youtube` / `interview` rows, the channel is empty
+or thin, and research came back thin — seed the bank from `references/starter-title-bank.md` (open it now, not
+before): the agency's four-month arc, every title already compliance-cleaned and tagged with its lane, pillar, arc
+month, agent type, and pain, plus eight interview angles. The order never changes — the member's own ideas, then
+the Brain's signals, then fresh research, then the starter bank — and the member's captured ideas always lead the
+bank even when the arc fills the rest. Swap `[my brokerage]` (the name only where `compliance.md` allows it in
+public titles, otherwise "my brokerage"), `[year]`, and `[guest]` for real values; keep the lead-gen and CMA titles
+only where that skill sits inside the member's known-for; mark every seeded title's SIGNAL `starter` (the research
+pass upgrades it to `demand` when a search confirms it — a starter title is never presented as a demand signal).
+The arc's month tags are positions, not calendar months: the 3-1-4 ratio still rules every cycle (the bank's
+header carries the fit math at 1/week and 2/week). Say it once in Read-this-first: *"your title bank starts from
+the four-month arc; as your own ideas and your comments come in, they replace it."*
 
 ## Phase 7 — Your goal → the plan (conversations and calls, never income)
 **Read now:** `memory/scorecard.md` Targets block (the ratios), with `goals.md` from Phase 2 (the 90-day conversations
@@ -167,7 +192,9 @@ are tracked, not targeted.
 ## Phase 8 — The first 90 days on the cycle (doctrine §7, §13)
 A week-by-week calendar at their cadence, **one video per row**, cycles marked, opening with niche so a new
 viewer meets the member before the guests, the model breakdown mid-cycle, interviews batched where they record
-in sittings, Why I Switched early in cycle one if their story is ready (`journey.md`). Then **days 91–180 as the
+in sittings, Why I Switched early in cycle one if their story is ready (`journey.md`); a bank seeded from the starter
+arc fills the slots in the bank's order (Month 1 niche titles open cycle one, M3-01 takes the first model slot,
+M1-I1 the first interview) — the ratio never bends to the arc. Then **days 91–180 as the
 direction** (double down · compounding assets · the machine). The scoreboard from `goals.md` (leading and
 lagging), CTR 6–10% after month one, compliance status.
 
@@ -175,8 +202,8 @@ lagging), CTR 6–10% after month one, compliance status.
 1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` — Read-this-first with
    the next 7 days, the audit, positioning, the lanes, the title bank, the goal-math, the structure, the
    90 days, the direction, the scoreboard, the **Sources** footer (every search and page read, dated; the
-   outlier channels read; budget used of 18; `unresearched` titles counted; demo → "nothing searched"), the
-   closing, the stamp.
+   outlier channels read; budget used of 18; `unresearched` and `starter` titles counted; demo → "nothing searched"),
+   the closing, the stamp.
 2. **Compliance pass** (#3) on every title and line.
 3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Game Plan — your three lanes, your first
    interviews, ~50 titles, and the first 90 days on the 3-1-4 cycle. It's in your workspace under Content →
@@ -201,6 +228,10 @@ lagging), CTR 6–10% after month one, compliance status.
 - [ ] Interview lane with hook-and-transformation titles; pipeline rows seeded at `Candidate` in yt-interview's shape; no invented guests
 - [ ] Model lane answers what agents research; mechanics public, compensation private; comparison warning stated
 - [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal
+- [ ] The WHY in the positioning band — three statements in the member's voice from the Brain, drafted and labeled
+      where the Brain is empty, never a question box
+- [ ] Starter bank opened only when the member had no titles of their own; their captured ideas led; every seeded
+      title marked `starter`, placeholders swapped, lead-gen/CMA titles kept only inside the known-for
 - [ ] Goal-math in conversations and calls, assumptions labeled, no income
 - [ ] 90 days on the 3-1-4 cycle, one video per row; 91–180 direction; scoreboard
 - [ ] The progress line said once before the first search; the combined budget (≤10 + ≤8 = ≤18) stated once and kept; the Sources footer lists what was searched and when

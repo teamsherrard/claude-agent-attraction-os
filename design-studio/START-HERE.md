@@ -36,18 +36,22 @@ and hand you a paste-ready brief or a finished doc; Claude Design *builds* the v
    Week 1 files first (`01-aa-logo-design.zip`, `02-aa-style-sheet-design.zip`, `03-aa-brand-kit-design.zip`), then each later
    file when its week opens (the numbered list is below). Every skill is one zip; upload it as-is.
 2. Open **claude.ai/design**, create a project named **Brand HQ**, and attach
-   `00-agent-attraction-design-system.md` (from `_dist/`) and your **Brain Book**.
+   `00-agent-attraction-design-system.md` (from `_dist/`), your **Brain Book**, and your examples
+   (anything you have made, your current profile, brands you like) — the skills study them for
+   direction and never copy.
 3. In your Brain (Cowork), finish Setup through your brand direction — or say **"my attraction brand
-   direction"** — and copy the **Design Package brief** it hands you.
+   direction"** — and copy the **Design Package brief** it hands you. It is also saved in your Brand
+   folder (`02 · Brand`, "Design Package Brief · [Name] · [date]"), and **"show my design package
+   brief"** reprints it any time.
 4. Paste the brief into a new Brand HQ chat and type the first trigger below.
 
 ## THE WEEK 1 MAP — the Design Package
 
 | # | Skill | Type this | What you get | Lands in |
 |---|---|---|---|---|
-| 1 | `aa-logo-design` | "design my attraction logo" | 3–5 leader-logo concepts on your name (and your organization's name when you have one — a version with each), refresh mode for a logo that's not quite right, then every final file (transparent PNG + SVG, dark and one-colour versions, the content header) | `02 · Brand` |
-| 2 | `aa-style-sheet-design` | "build my brand style sheet" | your brand sheet, two directions side by side — palette (distinct from your brokerage's colours), fonts, spacing and usage rules, the leader toolkit, one "book a call with me" graphic — and YOUR Design System, locked | `02 · Brand` |
-| 3 | `aa-brand-kit-design` | "make my brand kit" | profile pictures, banners (Instagram, Facebook, LinkedIn, YouTube) that say who you are · who you help · what you help them do · why listen · what to do next, highlight covers, agent-win and teaching post templates, stories, the "Join My Team" cover, email signature, end screen, backgrounds, captions | `02 · Brand` |
+| 1 | `aa-logo-design` | "design my attraction logo" | 3–5 leader-logo concepts on your name (and your organization's name when you have one — a version with each), built from the creative direction in your brief and the examples in Brand HQ; every concept shown over a dark ground and over white; refresh mode for a logo that's not quite right; then every final file (transparent PNG + SVG, dark and one-colour versions, the content header, the "brokered by" version only where your rules require it) | `02 · Brand` |
+| 2 | `aa-style-sheet-design` | "build my brand style sheet" | your brand sheet, two options side by side — the look it picks from your brief (you never choose a texture), your logo in six variations over dark and white, colour cards with every code, fonts and text sizes, the three graphic elements, three to five flat mockups (profile circles, a thumbnail, a story, the book-a-call post, a card or a cap) — and YOUR Design System, locked | `02 · Brand` |
+| 3 | `aa-brand-kit-design` | "make my brand kit" | profile pictures, banners (Instagram, Facebook, LinkedIn, YouTube) that say who you are · who you help · what you help them do · why listen · what to do next, highlight covers, agent-win and teaching post templates, stories, the "Join My Team" cover, email signature, end screen, backgrounds, captions — plus your organization family when your group has a name: milestone, anniversary, member-of-the-month, welcome posts (single, four-up, sixteen-grid), the "Send me a DM" post, a thumbnail master, the profile-circle set, stories with a button | `02 · Brand` |
 
 **Skip 1 if you love your logo.** Run 2 and 3 in the same week your Brain is built — your Brain's health
 check counts the kit (a logo file + the style sheet + a profile graphic in `02 · Brand`) as a Week 1
@@ -113,8 +117,8 @@ that video's folder in `03 · Content/Long-Form`; everything for an event in tha
 
 ## THE WEEK 1 CHECKLIST
 
-- [ ] Brand HQ project created; Design System file + Brain Book attached
-- [ ] Design Package brief pasted (from "my attraction brand direction" in your Brain)
+- [ ] Brand HQ project created; Design System file + Brain Book attached; your examples dropped in (optional)
+- [ ] Design Package brief pasted (from "my attraction brand direction" in your Brain — or "show my design package brief"; a copy sits in `02 · Brand`)
 - [ ] 1 · logo files in `02 · Brand` — or skipped because you love your logo (uploaded to 2 as-is)
 - [ ] 2 · `style-sheet.pdf` + `design-system.md` in `02 · Brand`; "[Your Name] Design System" saved
 - [ ] 3 · brand kit in `02 · Brand`; compliance strip on every piece

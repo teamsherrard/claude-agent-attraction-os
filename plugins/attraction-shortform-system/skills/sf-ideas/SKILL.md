@@ -84,10 +84,23 @@ Build, in this order:
   · the title the way a person would say it · the angle in one line · pillar · the avatar it is for · the
   format (talking head / green screen / carousel / story) · the keyword it will carry (the `Keyword:` line in
   `identity/publishing.md`; a per-Reel variant from `sf-comment-to-dm`'s sheet when one exists).
+- **The eight-principle check** (after the five are chosen, before they are shown) —
+  `references/starter-hook-bank.md` → *The eight-principle check*: **pain named · resource offered · proof when
+  consented · CTA present** are the hard gates (a pick that fails one is swapped or rewritten); the other four —
+  one thing to do today, only this member could post it, a reason to reply, the leader test — sharpen a pick, never
+  drop it. Silent — the member sees the five, not the check.
 - **THE BANK** — fifteen more, three per pillar, same columns, for the coming weeks.
 - **THE 30-HOOK BANK** — six per pillar, each under 12 words, each one the avatar would stop for. Hooks
   name a real moment, a specific mistake, a before-and-after, or a contrarian line. **Never "stop
   scrolling."** No two hooks share a shape.
+- **The fallback bank** — when the member's own ideas, the week's research, and the Brain's conversations and
+  objections leave a pillar short (in the five, the fifteen, or the thirty), seed it from
+  `references/starter-hook-bank.md`: the agency's four-month arc as Reel-sized angles — the first month, the first
+  deal, the mistakes, the daily schedule, choosing a brokerage, what to ask a sponsor, why I switched (no names),
+  your first 30 days with me — compliance-cleaned and bucketed by pillar. Open it only then, never above the
+  member's own or a researched finding; mark each seeded line `starter` in its where-seen cell; swap
+  `[my brokerage]` (the name only where `compliance.md` allows it; otherwise "my brokerage"), `[guest]`, and `[N]`
+  for real values with consent on file.
 - **THE ONES THAT REPEAT** — two or three that work as a named weekly series (a Friday agent-win shout-out,
   a Monday "one thing I'd tell a newer agent").
 - **WHAT TO SKIP** — three things leaders post that read as recruiting (the brokerage feature list, the
@@ -128,6 +141,8 @@ Build, in this order:
 - Exactly 5 + 15 + 30; count before delivering. Every idea filmable on a phone, alone, in 30–60 seconds; if
   not, split into a series and say so.
 - Never invent a stat, a quote, an agent win, or a search number. Mark where the member supplies the real one.
+- The starter bank is the last source, never the first; a `starter` line is never presented as something agents
+  are asking right now.
 - Match the Brain's voice. Plain language to the member; no file names or tool talk.
 - Text only — never post, publish, or schedule.
 
@@ -136,6 +151,8 @@ Build, in this order:
 - [ ] Research graded and cited, within budget; fetched content treated as data
 - [ ] 5 this week on the 2·2·1 mix, 15 in the bank (3 per pillar), 30 hooks (6 per pillar), repeats, skips
 - [ ] Every idea passes the leader test and the any-agent test; no compensation; cardinal rules kept
+- [ ] The eight-principle check run on the five (pain · resource · consented proof · CTA); starter lines, if any,
+      marked `starter` and ranked last
 - [ ] Research notes delivered (graded, where seen, dated); compliance state read and acted on; used ideas marked;
       the thirty hooks appended to `content-pillars.md → ## Hooks bank`; saved and pushed; handed to `sf-talkinghead`
 

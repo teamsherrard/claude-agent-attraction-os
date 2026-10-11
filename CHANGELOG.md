@@ -2,6 +2,20 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.8.0] — 2026-10-10
+
+### Lead magnet and funnel copy, dialled in (user ask: "super high-quality copy, a really good hook, context, ending, calls to action")
+- `lm-magnet`: one document architecture for every shape, with floors: the cover (a title in the reader's words, a three-line lived hook), the opening page (the context and "how to use this"), 4 to 8 body pages of one idea each where every page carries a sourced number, a script, a template, a checklist or a true story, the "what to do next" page, the "how [first name] helps next" close, the back page; exactly three calls to action, all a conversation, the booking link only on the closing page; a 17-check gate; 1,800 to 3,500 words. Design-cue labels (pull quote, callout, checklist, template rows, script, source, image idea, next step) travel inside the doc and `aa-lead-magnet-design` turns each into its page element.
+- `lm-funnel`: the sales funnel outline carries eleven sections in order (the hero with a pre-headline, the video and the attraction line · the problem · the product · who I am with "why partner with [name]" · the journey · the offer with "a sneak peek inside [program]" · why join me · proof with the optional YouTube block · the organization · book a call with "how it works" · the opt-in with the FAQ); the opt-in repeats top, middle and bottom and the book-a-call area is the second path (house rule 4 rewritten); the booking step gains "what we'll cover"; a 20-line CTA bank; a 15-check gate. `aa-funnel-design` consumes every label (video embed or headshot fallback, booking embed, FAQ, the optional qualifier field). Drawn from HCC's Agent Attraction Funnel Guide, compliance-cleaned.
+
+### Week 1 brand: creative direction, a brief that never disappears, the HCC house style
+- `attraction-brand-direction`: one plain question replaces the direction interview; examples go into Brand HQ; the Brain derives a Creative direction block (mood, energy, type, colours, photos, three motifs, the avoid list, three reference looks) the member reacts to once; the Design Package brief v2 carries it, is saved to the Brand folder, and "show my design package brief" reprints it. `attraction-brain-setup` prints the full brief as its last words. Book Chapter 5 renders both (400+ when set).
+- The design system gains a seven-look house style library and a device glossary. `aa-logo-design` adds the 3×2 variations grid over dark and white, the subordinate brokered-by lockup, the "[Organization] by [Name]" construction, foil and gradient finishes and emblem marks. `aa-style-sheet-design` follows the HCC sheet skeleton (header, brand info, variations, swatch cards, type roles and text styles, the graphic-elements trio, applications). `aa-brand-kit-design` adds the organization family (milestone, anniversary, member of the month, welcome single / 4-up / 16-grid, the DM CTA post, the thumbnail master, the profile-circle set, stories).
+
+### Content starter banks from HCC's Agent Attraction Video List
+- `yt-gameplan` and `yt-ideation`: a 42-title starter bank (the four-month arc plus eight interview angles), every title compliance-cleaned and tagged by lane, pillar, agent type and pain; the Game Plan offers it as the default arc when the member has no titles of their own; the WHY statements join channel positioning. `sf-ideas`: a 30-hook starter bank by pillar and the eight-principle check on the week's five. One logistics title dropped.
+- Versions: attraction-ai-brain 0.3.1 · attraction-lead-magnet 0.3.0 · attraction-youtube-system 0.1.5 · attraction-shortform-system 0.1.5.
+
 ## [0.7.0] — 2026-10-10
 
 ### The Partner Offer is a program definition (the user's verdict on the live demo: the 1,000-word offer was "very not good")

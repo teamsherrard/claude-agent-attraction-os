@@ -92,7 +92,7 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | `identity/voice-print.md` | `attraction-voice-print` — only this file | — |
 | `identity/proof.md` | `attraction-voice-proof` | `attraction-capture` appends to Seeds |
 | `identity/story-bank.md` | `attraction-story-bank` | setup Stop 6 writes the six seeds; `attraction-capture` appends to Seeds; content and Conversion skills stamp Used-where |
-| `identity/brand-visual.md` | `attraction-brand-direction` | — |
+| `identity/brand-visual.md` | `attraction-brand-direction` — Inventory (incl. the `Examples:` line) · Direction · `## Creative direction` (derived by the Brain, confirmed by the member) · `## Design Package brief (last issued YYYY-MM-DD)` (the brief block verbatim, so "show my design package brief" reprints it) · the Design Package status · the Final kit line | — (the Design Studio reads it through the Book and never writes it; the member reports "kit done" and the owner updates the status and Final kit lines) |
 | `identity/content-pillars.md` | **the Short-Form System's `sf-setup` (Week 3)** — the Brain never writes it (scaffolded empty with the header lines) | `sf-ideas` → the `## Hooks bank` section only. Line 2 of "The two CTAs" (the keyword) is set in Week 3 by `sf-setup` |
 | `identity/publishing.md` | **`sf-setup` (Week 3)** — the Brain never writes it (scaffolded with every line label) | `sf-publish` → `Posting tool:` · `Best times:`; `sf-board` / `yt-board` → `Content board:`; `sf-comment-to-dm` → `Keyword:`. The Friday task id is NOT here (config.md) |
 | `identity/profiles.md` | **`lm-profiles` (Lead Magnet, Week 2)** — THE bios file, written first with the five `##` sections in order (Instagram · Facebook · TikTok · LinkedIn · YouTube) plus its own extra platforms appended after them; the Brain never writes it | `sf-setup` (Week 3) refreshes the bio text inside the five sections and preserves every extra section and update line; `yt-setup` fills `## YouTube` (Week 4); a later `lm-profiles` run refines inside the same headings; nobody renames, reorders, or drops a section (the user's ruling, 2026-10-10) |
@@ -153,7 +153,10 @@ owners in `docs/BRAIN-CONTRACT.md`.
 ## Documents this plugin produces (per `shared/drive-map.md`)
 📕 [Name]'s Agent Attraction Brain Book · 🎯 [Name]'s 90-Day Attraction Scorecard → `01 · AI Brain` ·
 Prospect Radar reports → `04 · Agents/Prospects` · Why Join Me · the Offer Doc → `05 · Offer` · the Design
-Package brief (paste-ready, in chat) · the Project Seatbelt (`shared/project-instructions.md`, aa-v1).
+Package brief (paste-ready, in chat AND saved through the storage connector to `02 · Brand` as
+`Design Package Brief · [Name] · [date].md`, newest = current; kept verbatim in `identity/brand-visual.md`;
+reprinted by "show my design package brief"; a connector that is off or read-only means the Brain says so and
+shows the brief from `brand-visual.md` instead) · the Project Seatbelt (`shared/project-instructions.md`, aa-v1).
 
 ## Privacy
 Everything in the Brain — including agent names, conversations, and the organization roster — is the member's

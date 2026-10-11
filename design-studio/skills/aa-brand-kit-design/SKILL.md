@@ -1,16 +1,17 @@
 ---
 name: aa-brand-kit-design
 description: >
-  Builds the Attraction Brand Kit in Claude Design: every profile and banner graphic agents will see,
-  at true platform size, from the member's locked Design System. Profile pictures; banners (Instagram,
-  Facebook, LinkedIn, YouTube) carrying the five profile answers (who you are · who you help · what
-  you help them do · why listen · what to do next) and the "book a call with me" button; highlight
-  covers; agent-win, teaching, and CTA post templates; stories; the "Join My Team" cover; email
-  signature; YouTube end screen; backgrounds; ready-to-post captions. Two masters, then the whole kit,
-  no stopping to ask. Files land in 02 · Brand (Drive or OneDrive connector, else an export list) so
-  the Brain sees the kit. Reads the Design Package brief and the Brain Book first; asks only what is
-  new, in plain language. Trigger on: "make my brand kit", "my attraction brand kit", "agent
-  attraction brand kit", "my profile and banner graphics", "my highlight covers".
+  Builds the Attraction Brand Kit in Claude Design: every profile and banner graphic agents will
+  see, at true platform size, from the member's locked Design System and look. Profile pictures;
+  banners (Instagram, Facebook, LinkedIn, YouTube) carrying the five profile answers (who you are ·
+  who you help · what you help them do · why listen · what to do next) and the "book a call with me"
+  button; highlight covers; agent-win, teaching, and CTA posts; stories; the "Join My Team" cover;
+  signature; end screen; backgrounds; captions — plus the organization family when the group has a
+  name: milestone, anniversary, member-of-the-month, welcome posts (single, 4-up, 16-grid), the
+  "Send me a DM" post, a thumbnail master, the profile-circle set, stories with a button. Two
+  masters, then the whole kit, no stopping to ask. Files land in 02 · Brand. Trigger on: "make my
+  brand kit", "my attraction brand kit", "agent attraction brand kit", "my profile and banner
+  graphics", "my highlight covers".
 ---
 
 # Attraction Brand Kit (aa-brand-kit-design) — the brand, applied
@@ -30,7 +31,12 @@ and your Brain Book, and type: 'make my brand kit'."* — and stop.
 ## REFERENCES — READ AT THE RIGHT MOMENT (they are part of this skill — never skip them)
 
 - **references/asset-specs.md** — read BEFORE building any asset: every piece's exact size, safe
-  areas, and piece-by-piece anatomy, including where each of the five profile answers lands.
+  areas, and piece-by-piece anatomy, including where each of the five profile answers lands — and the
+  organization family's pieces.
+- **The member's Design System** (in this project): its identity card names the **locked look** and
+  the Creative direction; its §12 house style library holds that look's recipe and its §7 the devices
+  (gradient headline, gold numeral, chevron, brushed stroke, taped-photo frame, vertical text rail, pill
+  button, organization URL footer). Read the locked look's recipe before the masters.
 - **references/export-page.md** — read when the kit is approved and you are building the export page:
   how the files leave Claude Design (it has no picture export of its own).
 
@@ -49,7 +55,10 @@ headshot, and colours in one message).
 
 **The brief and the Book.** Members arrive with a pasted block that starts **"AGENT ATTRACTION DESIGN
 PACKAGE — [Name]"**; its line 3 is yours — *"aa-brand-kit-design — profile and banner graphics, [one logo version / two logo
-versions: member name + organization name]"* — plus the brand name(s), the brand shape, the tagline, and the compliance line. **The Brain Book is "the AI
+versions: member name + organization name]"* — plus the brand name(s), the brand shape, the tagline, the compliance line, and the
+**CREATIVE DIRECTION** block (mood · energy · type · colour story · photos · the three motifs · the avoid
+list · the three reference looks) — the Design System's locked look is the one the style sheet chose from
+those three; apply it, never re-derive it, never ask about it. **The Brain Book is "the AI
 Brain file"**; read: **Snapshot** (name, brokerage, market and scope, known for, the one-line why,
 booking link, socials, compliance status), **The Leader** (what they are building), **Your Voice &
 Brand** (tone, sounds-like / never, signature phrases, the primary CTA), **Your Agent Avatars** (the
@@ -74,10 +83,18 @@ every answered item; one confirmation line above the form; "Your turn" at the en
    backgrounds"; I refresh the touched pieces only.
 3. **Which platforms?** *(multi-select, default all)* — Instagram, Facebook, LinkedIn, YouTube.
 4. **Your booking link and handles** *(only if not in your Book)* — the "book a call with me" link,
-   @handles, email.
+   @handles, email, and your organization's web address if it has one (the footer of the organization
+   pieces; the booking link stands in when there is none).
 5. **Highlight cover topics** *(optional — default: About me · Agent wins · Culture · Free value ·
    Partner with me)*.
-6. **Anything to avoid or feature?** *(optional)*.
+6. **Photos of the agents in your organization** *(only when your organization has a name — optional,
+   with their permission)* — headshots for the welcome posts (one for the single, four for the 4-up,
+   up to sixteen for the grid) and one for the member-of-the-month template; none = designed photo
+   windows, never a generated face.
+7. **Anything to avoid or feature?** *(optional)*.
+
+Never asked: the milestone count (it is the Book's organization number — the Snapshot's "organization
+today" line), the brokerage name (the Book's compliance chapter), the look, or any texture.
 
 ## NON-NEGOTIABLES — THE REPEAT-OFFENDER LIST (verify every one on every piece, before presenting)
 
@@ -100,6 +117,11 @@ fail — rebuild the piece, don't present it:
    COMPLIANCE).
 10. **No compensation, split, cap, stock, or income word anywhere**, and nothing about another
     brokerage or person. The brokerage is the vehicle; the member is the reason.
+11. **The organization family's numbers are the Book's numbers** — the milestone count is the
+    organization size the Book records, never rounded up, never invented; a Book with no organization
+    number means no milestone post (say so in one line). The brokerage's name appears in the
+    anniversary post only as a fact ("[N] years at [brokerage]"), never as the hero, never in the
+    brokerage's colours.
 
 ## THE FIVE PROFILE ANSWERS — the copy spine of the whole kit
 
@@ -142,6 +164,12 @@ a generic icon and the note that the guide fills it later; the CTA is **"Book a 
   Culture · Free value · Partner with me — instantly distinguishable, clearly one family.
 - **The "Join My Team" cover = the front door of the offer** — the five answers on one page; the body
   arrives in Week 2 with `aa-offer-kit-design` (its one-pager piece).
+- **The organization family = the culture, visible** (Mike's rule: recognize your agents publicly to
+  showcase the culture): the **milestone post** says the organization is real and growing (aspiration);
+  the **anniversary post** says the member has stayed and built (authority); the **member-of-the-month
+  template** and the **welcome posts** say people are seen here (relatability, culture); the **"Send me
+  a DM" post** is the one-step ask; the **thumbnail master** is the content face every video shares;
+  the **profile-circle set** is instant recognition across the member, the mark, and the organization.
 
 **The phone test:** judge every piece at its REAL display size — a feed post at ~400px wide, the banner
 as the thin strip it truly is, the profile picture at 40px. If any text is illegible or the message
@@ -223,8 +251,51 @@ elsewhere. **Profile pictures:** the clean headshot on a brand field or the mark
 centred and legible inside the circle crop. **Highlight covers:** simple, consistent line icons in the
 brand colour on a brand-tinted tile, filling the circle.
 
+**THE LOCKED LOOK — apply its devices, only its devices.** The Design System's identity card names the
+look the style sheet locked; §12 holds its recipe and §7 the devices. Every piece in the kit draws from
+that look: its ground and texture, its type temperature within the recorded fonts, its photo treatment,
+and its signature devices — **gradient headlines** (one line per piece), **gold numerals** (the Book's
+real count, foil on dark), **chevrons** (one direction per piece), **brushed strokes** (one or two, behind
+the type), the **taped-photo frame** (the welcome template's window), the **vertical text rail** (the
+welcome word along one edge), the **pill button**, and the **organization URL footer with the brokerage
+chip in a corner**. A look names three or four of these, not all eight; a piece carries at most two
+devices beside its type and photo. The member's three motifs from the brief are the content of the
+devices. Nothing from another look, nothing invented on the day.
+
 Keep the WHOLE kit cohesive: same accent treatment, same type system, same photo treatment. Restraint
 reads premium — strong type, a tight palette, one accent idea.
+
+## THE ORGANIZATION FAMILY — built when the member has an organization name (else the personal set)
+
+After the core kit, build the pieces about the people who join. Read their sizes and anatomy in
+`references/asset-specs.md`. **Two variants, one set of canonical names (the `org-` prefix means "the
+organization family", so the Brain and later skills find the pieces either way):** the **organization
+set** when the Book records an organization name — the organization's lockup fronts every piece, the
+organization URL footer carries its web address (or the booking link) with the brokerage chip in a
+corner where compliance requires it, and the organization's own words are used (its welcome phrase,
+its title for recognition); the **personal set** when there is no organization name — the same shapes
+on the member's own lockup, the footer carrying their handle and booking link, "WELCOME TO THE TEAM"
+or the member's own phrase on the rail, and the member-of-the-month, 4-up, and 16-grid pieces waiting
+until a named organization exists (say so in one line; never fake a group).
+
+| Piece | Canonical file | The rules that make it right |
+|---|---|---|
+| **Milestone post** | `org-post-milestone.png` | the count is the Book's organization size (the Snapshot's "organization today" line), set as the type hero in the look's numeral device (gold foil on dark, deepened on light); the line reads **"[N] agents have now joined [the organization / me]"** in the member's voice; the organization's mark and the footer; **"CAPPED" is never a milestone word** unless the Book's rev-share marketing policy allows it, exactly as the win post's rule; no earnings, no rank claims |
+| **Anniversary post** | `org-post-anniversary.png` | "[N] year(s) at [brokerage]" or "[N] years of [the organization]" — the brokerage's name is allowed here **as a fact**, in the kit's type and colours, never its logo as the hero; the number from the Book (the member's join date in the Snapshot or The Leader); the member's photo, not a cut-out of a logo |
+| **Member-of-the-month template** | `org-post-member-of-month.png` | the organization's OWN title ("[Organization] Member of the Month", or the word the organization uses — the Book's organization or culture lines; default "Member of the Month"); the agent's cut-out or a designed photo window with the mark ghosted behind, the agent's name, the month in the accent face (a script accent where the look allows it), the thin frame of the look; swap photo · name · month for each month |
+| **Welcome post — single** | `org-post-welcome-single.png` | the **vertical text rail** ("WELCOME TO [THE ORGANIZATION'S WORD]") along one edge, the new agent's photo in the **taped-photo frame** (greyscale allowed) or as a cut-out, their name as the type hero, the footer; this is the template — swap photo and name |
+| **Welcome post — 4-up** | `org-post-welcome-4up.png` | four cut-outs in staggered vertical panels under one welcome headline; each panel a designed photo window when empty |
+| **Welcome post — 16-grid** | `org-post-welcome-grid16.png` | a 4×4 grid of headshots (equal tiles, one tint) with the vertical rail along the right edge and the footer below; empty tiles are designed windows, never app UI |
+| **"Send me a DM" post** | `org-post-dm-cta.png` | the member's cut-out, a two-line question aimed at the primary type of agent ("Want to become a modern agent?" in Mike's pain wording, never a compensation word), and the **pill button** — **the offer's comment keyword when the Book holds one** ("DM me the word CALL"), else **"Send me a DM"**; one action only |
+| **Thumbnail master** | `org-thumbnail-master.png` | 1280×720: a **two-tone headline** (one word in the accent or the gradient, the rest in cream or white, four words max), the **expressive cut-out** flanking it (both co-leaders when there are two), the mark small in a corner, the look's stroke or chevron as the one device; readable at 240px wide |
+| **Profile-circle set** | `org-profile-photo.png` · `org-profile-mark.png` · `org-profile-logo.png` | three squares that read circle-cropped: the member's photo with the look's device behind (a stroke, a ring, the texture), the mark alone in a thin ring, the organization's logo on its field (the member's own mark on the personal set); one bold element each, recognisable at 40px |
+| **Stories with a button** | `org-story-welcome.png` · `org-story-dm-cta.png` | 1080×1920: the welcome story (the rail, the taped frame or cut-out, the name) and the DM story (the question + the pill button + a link or question sticker zone as a designed plate); key text out of the top and bottom ~250px |
+
+Every piece carries the organization URL footer (or the member's handle line on the personal set) and
+the compliance strip as the Book's Compliance chapter requires; the brokerage chip sits in ONE corner,
+quiet, only where required. The family inherits the masters' look exactly; it never introduces a device
+the locked look does not name. The agents' photos appear only with their permission; the welcome and
+member-of-the-month pieces ship as templates with designed photo windows when no photo exists.
 
 ## COPY & CTAs (write real copy, never filler)
 
@@ -320,6 +391,13 @@ Read the brief's compliance line and the Book's Compliance chapter:
 - THE SET HAS RANGE — at least ~1/3 light, ~1/3 dark, the board visibly alternating?
 - Every caption opens with a standalone hook under ~125 characters, hashtags at the end, agents named
   only with permission?
+- The organization family (when built): the milestone count equal to the Book's organization number
+  and the "have now joined" line present; the anniversary post naming the brokerage only as a fact; the
+  member-of-the-month title the organization's own; the three welcome shapes with the rail and the
+  taped frame per the look; the DM post's pill carrying the keyword when the Book holds one, else "Send
+  me a DM"; the thumbnail's two-tone headline readable at 240px; the profile-circle set recognisable at
+  40px; the organization URL footer with the brokerage chip in one corner on every piece; only the
+  locked look's devices, at most two per piece?
 - The compliance state honoured: strip on every piece when set; no export page and no push when unset?
 - Language check on a non-English kit: zero leakage, accents intact, longer copy fitting its zones?
 - The board clean and viewable: no stray, empty, or duplicate frames; opens centred and zoomable?
@@ -339,6 +417,13 @@ menu has no picture option, so the board carries its own **"Download the kit"** 
 `post-teach.png` · `post-cta.png` · `story-win.png` · `story-about.png` · `story-cta.png` ·
 `cover-join-my-team.png` · `signature-light.png` · `signature-dark.png` · `end-screen-youtube.png` ·
 `background-1.png` · `background-2.png` · `background-3.png` · `brand-kit-captions.md`
+
+— and, when the organization family is built, add its names: `org-post-milestone.png` ·
+`org-post-anniversary.png` · `org-post-member-of-month.png` · `org-post-welcome-single.png` ·
+`org-post-welcome-4up.png` · `org-post-welcome-grid16.png` · `org-post-dm-cta.png` ·
+`org-thumbnail-master.png` · `org-profile-photo.png` · `org-profile-mark.png` · `org-profile-logo.png` ·
+`org-story-welcome.png` · `org-story-dm-cta.png` (the personal set omits the member-of-the-month, 4-up,
+16-grid, and `org-profile-logo.png` pieces until a named organization exists).
 
 Then tell the member: click **Download the kit** on the board's last page; the status line must end in
 "complete"; do the 30-second transparency check on `profile-1.png` and `banner-youtube.png`; rename
@@ -376,6 +461,16 @@ ALL pieces change together.
   the group pieces.
 - **showProofChip** *(toggle — enabled only when the Book holds a real credential; otherwise off and
   disabled with the label "Add proof to your Brain to turn this on")*.
+- **familyLogo** *(My organization's name / My name — which lockup fronts the organization family;
+  default the organization's when it has a name)*.
+- **welcomeShape** *(Single / 4-up / 16-grid — which welcome template is in view)*.
+- **welcomeName** *(editable text — the new agent's name on the welcome template)*.
+- **memberTitle** *(editable text — the organization's own title for the recognition template; default
+  "Member of the Month")*.
+- **dmButton** *(the offer's comment keyword when the Book holds one / "Send me a DM"; default the
+  keyword when it exists)*.
+- **milestoneCount** *(read-only display of the Book's organization number, with the label "From your
+  Brain — update it there"; never free-typed here)*.
 
 Never a tweak that redraws or distorts the logo.
 
@@ -383,8 +478,12 @@ Never a tweak that redraws or distorts the logo.
 
 One line after presenting: to reuse the win template for the next agent, swap the **photo**, the
 **status** (the winStatus tweak), and the **detail line** (the agent's first name · what happened).
-For the teaching template, swap the **headline** and the **support line**. Everything else — brand,
-logo, layout, colours, the compliance strip — stays. Their handle, headshot, and contact carry across.
+For the teaching template, swap the **headline** and the **support line**. For the welcome template,
+swap the **photo** and the **name** (the welcomeShape tweak picks single, 4-up, or grid); for the
+member-of-the-month template, the **photo**, the **name**, and the **month**; the milestone post updates
+when the Brain's organization number does ("update my attraction brand direction" is not needed — regenerate
+the piece from the newest Book). Everything else — brand, logo, layout, colours, the compliance strip —
+stays. Their handle, headshot, and contact carry across.
 
 ## HAND BACK TO THE BRAIN
 

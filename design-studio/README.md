@@ -22,7 +22,7 @@ Desktop), with the realtor premise replaced by the leader premise. **All 10 are 
 | 09 | `aa-event-design` | 6 | `FOR aa-event-design (promo set for [event name])` (`ev-promo`) · `FOR aa-event-design (workshop slides — [event name])` (`ev-runofshow`) | the event's folder in `03 · Content/Events` |
 | 10 | `aa-value-vault-design` | 6 | four pieces, one skill: the member's own training (playbook · workbook · worksheet), lesson outline (course; hands the course box to the offer kit), manuscript or the Book's own chapters (ebook) — the canonical cover reused — and the partner onboarding roadmap from the Partner Offer's "First 30 days as a partner" table + the Book's How You Operate chapter (`FOR aa-offer-kit-design (the product mockup)` names the product). Kit run "design my value vault": the cover and the first inside page as masters, one checkpoint, then the rest | `05 · Offer/[Product]` (the roadmap: `05 · Offer/Onboarding`) |
 
-The Brain's `attraction-brand-direction` skill hands the member a paste-ready **Design Package brief**
+The Brain's `attraction-brand-direction` skill hands the member a paste-ready **Design Package brief** (v2: it carries the Creative direction block the Brain derives from one plain question plus the member's examples in Brand HQ; setup prints it again as its last words, it is saved to `02 · Brand`, and "show my design package brief" reprints it)
 naming the Week 1 three in order with the skip rule ("skip aa-logo-design if you love your logo"). Every skill
 reads its brief and the uploaded **Brain Book** ("the AI Brain file") first and asks only what they
 cannot answer, in plain language; when it finishes it names the one line the member says back in the

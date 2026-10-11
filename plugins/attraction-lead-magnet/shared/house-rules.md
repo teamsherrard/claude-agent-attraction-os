@@ -105,7 +105,7 @@ publishes anything live.
 
 ---
 
-## 4. One job on the page: the opt-in · instant download · the call is offered AFTER, never before
+## 4. The page's main job is the opt-in (top, middle, bottom) · the call area near the bottom is the second path · the thank-you page offers both
 
 The opt-in page has **one job: get the agent to grab the guide.** The flow is **button → pop-up →
 thank-you page**, and the thank-you page is where the next step is offered:
@@ -118,8 +118,7 @@ thank-you page**, and the thank-you page is where the next step is offered:
    *"Want to talk through where you're at? Book a call — no pitch, I'll just answer your questions."* The
    download never depends on booking. This is the one place in the funnel the booking link appears, plus the
    guide's own soft close.
-- **No "book a call" button on the opt-in page itself.** A second ask on the page costs opt-ins; the page
-  earns the email, the thank-you page offers the call.
+- **The opt-in is the primary ask and it repeats top, middle and bottom with the same button words.** The Book-a-call area sits near the bottom (section 10 of the funnel outline) as the SECOND path, for the agent who is already sure: the booking line, "what the call is and isn't", the three questions it answers, no pressure. It never sits above the first opt-in and never competes with it in the hero. The thank-you page still carries the instant download first and the call second.
 - **The guide is delivered as an INSTANT DOWNLOAD on the thank-you page — NEVER by email.** The plugin sets up
   no email automation, so "check your inbox" would be a broken promise. Never write "check your inbox"
   copy; never ask how they want to deliver it — it is ALWAYS the instant download. (`lm-delivery` writes a

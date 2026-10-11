@@ -20,22 +20,28 @@ Substance and structure are what make it worth the cohort price — never visual
 3. **Channel audit** — scaled (below). Positioning read included.
 4. **Your positioning** — for whom · known for · the one line ("[Name] helps [avatar] [outcome] through
    [mechanism]" — from `offer.md`'s UVP when Week 2 built it; otherwise built from `strategy.md` + `avatars.md`
-   and labeled "draft until Week 2").
+   and labeled "draft until Week 2") · **the WHY, three statements in the member's voice** — why I'm building this ·
+   what's missing for the agents I attract and how I bridge it (never a word against another team or brokerage —
+   `03-model-positioning/13`) · why me, for a new agent and for a seasoned one — read from `journey.md` (`## The
+   WHY`, `## The leader moment`, `## Why join me`), `positioning.md`, `leadership.md`; drafted and labeled where the
+   Brain has not written them; never a question box (`01-foundation-mindset/10`).
 5. **The three niche lanes** — the Problem · Situation · Future buckets, each named, each for a named avatar and
    pain, each with a playlist and a one-line "why it builds authority." (All three carry the Authority pillar in
    the content log; interviews Proof; model Perspective — the Brain's five pillars, `content-pillars.md`.)
 6. **The interview lane** — the playlist, 6–10 candidates with hook-and-transformation titles, source, sequenced
    by relatability.
 7. **The model lane** — the playlist, the answer-what-they-research list, the comparison warning.
-8. **The title bank** — ~50 titles in five buckets with `FOR · PAIN · SIGNAL` notes.
+8. **The title bank** — ~50 titles in five buckets with `FOR · PAIN · SIGNAL` notes (seeded from
+   `starter-title-bank.md` — SIGNAL `starter` — only when the member has no titles of their own; their captured
+   ideas lead regardless).
 9. **Your goal → the plan** — the math (below).
 10. **The video structure** — doctrine §8 with the member's real CTA line from `channel.md`.
 11. **The first 90 days** — the cycle calendar, one video per row.
 12. **Days 91–180** — the direction (double down · compounding assets · the machine).
 13. **The scoreboard** — leading and lagging from `goals.md`, CTR after month one, compliance status.
 14. **Sources** — what was searched and when: every query and page read, dated; the outlier channels read; the
-    member's own signal used; budget used of 18 (≤10 research + ≤8 outlier scan); `unresearched` titles counted;
-    demo → "nothing searched". The plan never hides its research.
+    member's own signal used; budget used of 18 (≤10 research + ≤8 outlier scan); `unresearched` and `starter`
+    titles counted; demo → "nothing searched". The plan never hides its research.
 15. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
     chapter twenty, `08-youtube/92`) and the stamp.
 
@@ -96,8 +102,18 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
   named ("real estate agent", the avatar type) when the search needs it.
 - **Per bucket:** Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 ≈ 50.
 - **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap /
-  unresearched]` (the bucket heading already fixes the pillar the content-log row will carry; `unresearched` = built
-  from the Brain because research returned nothing usable — the plan says so once and schedules the re-run).
+  unresearched / starter]` (the bucket heading already fixes the pillar the content-log row will carry; `unresearched` =
+  built from the Brain because research returned nothing usable — the plan says so once and schedules the re-run;
+  `starter` = seeded from `starter-title-bank.md`, the agency's four-month arc — agency-curated, not researched for
+  this member; the research pass upgrades it to `demand` when a search confirms it).
+- **The starter bank (the default arc):** when the member has no titles of their own — no open `youtube` /
+  `interview` rows in `memory/ideas.md`, an empty or thin channel, thin research — the bank seeds from
+  `starter-title-bank.md`: 34 source titles rewritten to pass the gates (figures out unless the member's own and
+  compliance-allowed, "why I switched" with the former brokerage unnamed, the brokerage name only where compliance
+  allows), eight interview angles, each tagged lane · pillar · arc month · agent type · pain, with Mike's lesson
+  where one resolves it. The rank never changes: the member's own ideas → the Brain's signals → fresh research →
+  the bank. The arc's months are positions inside each lane, not calendar months — the 3-1-4 ratio rules every
+  cycle (the bank's header has the fit math). Lead-gen and CMA titles stay only inside the member's known-for.
 - **Order inside a bucket:** broad and searchable first, deeper and higher-intent later; vary the angle at the
   top of every list (never two titles on the same angle opening a bucket).
 - **Hard gates (compliance, every title):** no compensation figures or earnings implied; no negative word about
@@ -128,6 +144,8 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 - Cycle order: niche first (the member before the guests), model mid-cycle, interviews spread; Why I Switched
   early in cycle one when `journey.md` holds the story; the channel trailer in week one for a new channel.
 - One video per row: `Week · Video · exact title · bucket (· guest)`.
+- Seeded from the starter bank: the bank's order fills the slots (Month 1 niche titles first, M3-01 the first model
+  slot, M1-I1 the first interview); the month tags are arc positions — the ratio never bends to them.
 - Days 91–180 as the direction only: which topics to cluster if they win · the evergreen model and
   career-transition videos · the machine rhythm (1/week + 4–5 short-form + 1–2 interviews/month + weekly review).
 

@@ -24,6 +24,15 @@ the member sees genuinely different options, and match each to the brand's feel 
 - **Elegant wordmark** — the name alone in a distinctive face (high-contrast serif for premium, clean
   grotesk for modern), with a small tracked descriptor. Reads confident and timeless.
 - **Single lettermark** — one stylized initial as the mark, with the full name set cleanly alongside.
+- **Illustrated emblem + name** — a creature, a figure, a mask, a crest drawn as a **single-weight line
+  illustration** (one stroke weight, vector, no shading, no fill gradients inside the drawing) when the
+  organization's idea IS one — a pack, a crew, a guild, a school. The emblem sits above or beside the
+  organization's name; a **simplified version** (half the detail, same silhouette) is drawn for the
+  40px circle and the favicon and proven there before the concept is shown. Never a cartoon mascot,
+  never clip-art, never two weights.
+- **"[Organization] by [Name]"** — the organization's name as the hero line (tracked caps or a strong
+  display face), "BY [FIRST LAST]" as the descriptor beneath at descriptor scale, an optional emblem
+  above. One lockup that says both; a sibling of the member's own version, never a stranger.
 
 What is NOT in this library by default: the house, the roofline, the key, the map pin, the window —
 the listing-brand set. They enter only when the member asks or the organization's name calls for them.
@@ -44,6 +53,15 @@ how it prints on a stamp, a sign, or an embroidered shirt). Available finishes:
   reads more premium than heavy 3D.
 - **Gradient stroke / duotone** — a colour-to-colour gradient along an outline or split fill for
   modern brands.
+- **Gradient fill on a bold wordmark** — the brand's two or three hues as ONE warm→cool (or light→deep)
+  gradient across a heavy condensed name, for the high-energy coach look. One gradient, one direction,
+  never a rainbow; the flat one-colour version always kept.
+
+**Which finish:** the brief's Creative direction names the look (the Design System's house style
+library, §12) — the gold-on-black and navy-and-gold looks want foil on the mark or the initials; the
+bold gradient look wants the gradient wordmark; the editorial, paper, and brushed looks want flat or
+two-tone with the metallic as a thin accent at most; the bright accent look is flat. Match the finish
+to the look; never pick one by taste.
 
 Rules of thumb: match the finish to the direction; ONE finish system per logo; whatever the finish,
 the mark must hold up as a flat one-colour silhouette and stay legible at small sizes.
@@ -59,6 +77,27 @@ cream, or a pale tint of the brand colour. Two hard rules with numbers:
 - **Thin strokes erode on dark.** Light-on-dark marks and type optically thin out and fill in at small
   sizes — draw the dark-ground version's strokes roughly 10–15% thicker (or one weight up) and check
   nothing vanishes at card size. A dark version that is just the same artwork inverted is a failed render.
+
+**THE LOGO SYSTEM — the numbers that make the family read as a system.**
+- **The 3×2 variations grid:** three tiles across (stacked · horizontal · mark or wordmark alone), two
+  rows (over the textured dark ground · over white), equal tile sizes, equal gutters, every mark
+  optically centred in its tile, the dark row's texture at real strength (contour lines, brushed
+  leather, smoke, marble — whichever the look names) and the white row plain or with the faintest paper
+  grain. The grid is the presentation standard for the chosen family and the one the style sheet reuses.
+- **Two grounds, one file:** the PNG and SVG files carry no ground, no texture, no sheen — the texture is
+  the board's. The reversed version is built per the colour-on-dark rules below, not by inverting.
+- **The brokered-by lockup:** member's mark → a 1px hairline divider at the mark's full cap height (or
+  the emblem's height) with clear space of at least half the mark height on each side → a tracked
+  "BROKERED BY" eyebrow at about 20–25% of the brokerage mark's height, set in the descriptor face →
+  the brokerage mark, as supplied, at **no more than 40% of the member's mark height**, one-colour where
+  the brokerage allows it. Horizontal only. Built only from the uploaded brokerage file, only when the
+  compliance line requires the brokerage mark beside the member's own; shipped as
+  `logo-brokered-lockup.png` / `.svg`; never the primary, never in the content header.
+- **"BY [NAME]" under an organization name:** descriptor scale (cap height 25–35% of the hero line,
+  tracking 0.2–0.3em), centred under the hero line, the word "BY" in the same face and weight as the name.
+- **The emblem:** one stroke weight, matched to the heaviest stroke of the type beside it; the full
+  drawing holds at the header size, the simplified version (same silhouette, half the interior lines)
+  holds at 48px; both share the one finish system.
 
 **DISTINCT FROM THE BROKERAGE — the hue check.** The brief names the brokerage's palette. Before you
 commit a lead colour, hold it beside the brokerage's: same hue family at a glance (their navy, your

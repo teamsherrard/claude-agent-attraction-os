@@ -131,6 +131,9 @@ YOUR POSITIONING
 Who the channel is for:  {the avatar, in their words}
 What you'll be known for:  {from strategy.md / offer.md}
 The one line:  {"[Name] helps [avatar] [outcome] through [mechanism]"}
+Why I'm building this:  {the why-line from journey.md → ## The WHY, in the member's voice — drafted and labeled "(draft)" when the Brain has not written it; never a question}
+What's missing for {avatar} — and how I bridge it:  {the bridge-the-gap line — the agents' problem, never a word against another team or brokerage}
+Why me — for a new agent · for a seasoned agent:  {from ## Why join me / leadership.md; one line each}
 
 
 ════════════════════════════════════════════
