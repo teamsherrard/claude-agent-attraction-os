@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.7.0] — 2026-10-10
+
+### The Partner Offer is a program definition (the user's verdict on the live demo: the 1,000-word offer was "very not good")
+- `attraction-offer` (Brain 0.3.0): the Partner Offer document is now a 14-section program definition with word floors (2,500 to 4,000 words): the promise · what this is (name, one of six program types, who it is for, the 90-day outcome, format, cadence, duration, cost to the agent, what it is not) · the named framework (3 to 7 steps with the tool and where it is taught) · the problems it solves · how the program is built (phases, live vs recorded) · what you get (6+ deliverables across the three layers) · the first 30 days with the Day 1 sequence · support and community · the three layers · the playbook and the lead-magnet seed line · proof · why now · how to talk about it · next step and the compliance line. A 14-check verification gate runs before delivery (type, name, framework, phases, onboarding, deliverables, brackets, length, compensation words, proof). The interview adds the program questions (type and format, cadence, framework name, program name, recorded vs live, support), each pre-answered with a recommended default.
+- `identity/offer.md` gains `## UVP`, `## The program`, `## The framework`, `## Structure`, `## Support & community`, the deliverables table, the Day 1 lines and the `Program name:` / `Program type:` header lines; `brain.md` gains the `Program:` quick-reference line (written at finalize); Book Chapter 10 carries the program block, the framework table and the structure outline (700+ words when finalized). Ownership rows updated in the Brain contract and the OS contract.
+- Demo: `docs/demo/` gains the rendered Partner Offer for the demo member (4,813 words: "The Sunday Table", a mentorship program on the Five-Step Sunday Routine) with its renderer input in the demo exports folder.
+- Readers of the new blocks (Lead Magnet, Conversion, Events, YouTube, Short-Form, the Design Studio's offer kit, funnel and value vault, and the Brain's own siblings) are repointed in the next release.
+
 ## [0.6.0] — 2026-10-10
 
 ### Design Studio: 14 → 10 skills + the video kit (user decision, 2026-10-10)

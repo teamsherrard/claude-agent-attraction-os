@@ -9,7 +9,8 @@ reads and writes; this is the OS-wide view.
 *Schema `aa-1.0` · drafted 2026-10-08 · final-pass seam rulings applied 2026-10-08 · the Lead Magnet resequenced to Week 2 and the
 `identity/profiles.md` first-writer flipped to `lm-profiles` 2026-10-10 · the Lead Magnet flow made offer-first (the UVP
 first, three recommendations from it, the member picks) and `brain.md`'s quick reference given the `UVP (one line)` and
-`Live magnet` lines 2026-10-10 · the realtor Brain
+`Live magnet` lines 2026-10-10 · the Partner Offer rebuilt as a program definition (`## The program` · `## The framework` ·
+`## Structure` · `## Support & community` in `offer.md`, the `Program:` quick-reference line) 2026-10-10 · the realtor Brain
 (`~/realtor-brain/`, marker `_workspace.md`) is a separate system and is never written by anything in this OS.*
 
 ---
@@ -133,15 +134,22 @@ Every file named in the ownership table below exists in the template
 `attraction-model-positioning`, and `attraction-brand-persona` own them; `attraction-why-join-me` owns only the
 `## Why join me` block at the end of `journey.md`; `offer.md` is owned section by section — `attraction-offer`
 owns every section except `## Value stack` and `## Digital product` (`attraction-free-vs-paid`) and "Notes for
-Week 2" (capture appends); `attraction-rev-share-calculator` owns "The money, honestly" in `goals.md`;
+Week 2" (capture appends) — its sections since 2026-10-10, when the Partner Offer became a program definition:
+`## UVP` · `## The program` (name · type, one of six: partnership program · mentorship program · coaching program ·
+accelerator · course plus community · team system · for · 90-day outcome · format · cadence · duration · costs the
+agent · not this) · `## The framework` (the named 3–7 step method) · `## Structure` (the phases, live vs recorded) ·
+`## Support & community` · `## The Partner Offer` (with the deliverables table, the Teach-first table, the
+`Onboarding: Day 1` lines and `First 30 days`) · `## How to talk about it`, plus the header's `Offer name:` ·
+`Program name:` · `Program type:` · `Comment keyword:` lines; `attraction-rev-share-calculator` owns "The money, honestly" in `goals.md`;
 Setup Stop 12 writes `voice.md` first and `attraction-brand-persona`'s update path owns later edits;
 `attraction-voice-print` owns only `voice-print.md`; `attraction-prospect-radar` owns `prospect-intel.md` and
 `memory/intel.md` (its news scan, on demand); `attraction-operations` owns `operations.md` in its locked shape (Stop 16 writes
 the basics: hours, booking link, the 3-way call partner, the weekly model call, the filming window, the Friday note time, CRM, follow-up rhythm);
 `attraction-goals` owns the scorecard's Targets block, the Debrief appends daily rows, the weekly check-in appends
 weekly rows (then `admin-recruiting-scorecard`). **`brain.md`:** `attraction-brain-setup` owns it;
-`attraction-brain-health` refreshes its quick-reference fields; `attraction-offer` writes the `Offer status:` and
-`UVP (one line):` lines when the offer is finalized; the Lead Magnet plugin's `lm-magnet` / `lm-funnel` write the
+`attraction-brain-health` refreshes its quick-reference fields; `attraction-offer` writes the `Offer status:`,
+`UVP (one line):` and `Program:` (`[name] · [type] · [cadence]`, a mirror of `offer.md → ## The program`) lines when the
+offer is finalized; the Lead Magnet plugin's `lm-magnet` / `lm-funnel` write the
 `Live magnet:` line — the one line in `brain.md` a later plugin may touch. **The Top-50 mirror rule:** `attraction-top-50` owns `top-50.md`; once the
 Admin's `## AI Admin` block exists, every run refreshes `Stage` from `pipeline.md`, `Last touch` from the newest
 `conversations.md` row per name, and `Next move · Due` from the pipeline Board — before that, the touch cells

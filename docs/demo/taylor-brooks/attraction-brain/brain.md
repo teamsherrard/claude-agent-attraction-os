@@ -51,6 +51,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - **Why I'm here (one line, out loud):** "I wanted my work to build something that doesn't reset every January."
 - **Offer status:** built in Week 2 on 2026-10-03 (demo) — the Partner Offer "The Sunday Table"
 - **UVP (one line):** "I help 2–5 year agents who are paying for leads build a buyer pipeline from the open houses they already host — taught the way a teacher teaches it, one Sunday at a time." (demo)
+- **Program:** The Sunday Table · mentorship program · Tuesdays 9:00 am, 30 min on Zoom (the Tuesday table) + a 45-minute Day 1 welcome call + Taylor on Zoom for the first Sunday (demo — written by `attraction-offer` 2026-10-10; mirrors `identity/offer.md → ## The program`)
 - **Voice in one line:** "Calm, practical, teacher energy — shows, doesn't tell; never hype"
 - **This week's activity target:** 8 conversations · 2 calls booked · 10 follow-ups · 3 reels + 1 long-form (illustrative — demo)
 - **Organization today:** 2 agents · **12-month target:** 25 agents (illustrative — demo)

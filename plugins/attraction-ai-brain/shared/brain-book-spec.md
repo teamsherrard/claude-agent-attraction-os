@@ -295,7 +295,7 @@ placeholder chapter is exempt from its floor but must still render its heading +
 | 8 | WHERE THEY GATHER | `prospect-intel.md` + `avatars.md` | 250+ · placeholder until researched | yes |
 | — | PART III — WHAT YOU OFFER | — | 40+ (bridge) | — |
 | 9 | YOUR MODEL, POSITIONED | `positioning.md` + `brokerage-model.md` + `journey.md` → `## Why join me` | 350+ at Week 2 · 1,200+ once the why-join-me long version and the model are built · designed placeholder while `positioning.md` is at seed | no |
-| 10 | YOUR OFFER | `offer.md` | 300+ · "(so far)" mode when Status is seeds | no |
+| 10 | YOUR OFFER | `offer.md` | 700+ when finalized or built (the program block, the framework table and the structure outline are in it) · 300+ in "(so far)" mode when Status is seeds | no |
 | 11 | THE MONEY, HONESTLY | `goals.md` → "The money, honestly" | 300+ · placeholder if the calculator was skipped | no |
 | 12 | YOUR PROOF | `proof.md` | 200+ | no |
 | — | PART IV — HOW YOU WIN | — | 40+ (bridge) | — |
@@ -391,11 +391,21 @@ seed line developed, Week 2 named — never four sentences under a bare heading.
 **"What you have to give (so far)"** with one line: *"Your Partner Offer is built in Week 2 — this is the raw
 material it starts from."* Render the "what worked" **table** (| Strategy | What it involved | Result | Teach
 it? |), the edge, teach-first, and the three layers (brokerage · upline · you) as captured. Nothing reads as a
-gap. **When finalized or built:** the full offer — the UVP one-liner as the `>> ` callout, the five pains table
-(| Pain (Mike's wording) | Solved? | What they give | The outcome | Proof |), the Partner Offer (core promise ·
-mechanism · proof · support · why now), what's included (**bullets**), Module 1, the first 30 days (**table**),
-the value stack (**table**) and the digital product. Outcomes, never features; what the member will SHOW, never
-what a partner will EARN; no splits, caps, stock, or earnings.
+gap. **When finalized or built (700+):** the full offer — the UVP one-liner as the `>> ` callout, then **the program
+block** from `## The program` as `Label:` lines in the file's order (Name · Type — one of the six, with its
+reason · Who it is for · The 90-day outcome · Format · Cadence · Duration · What it costs the agent — never
+compensation · What it is not), **the framework table** from `## The framework` (| Step | What you do | What
+you get | The tool or template | Taught in |) with its one-line version, **the structure outline** from
+`## Structure` (| Phase | Days | Live | Recorded | Framework steps | Done when | plus the lesson outline), the
+five pains table (| Pain (Mike's wording) | Solved? | What they give | The outcome | Proof |), the Partner Offer
+(core promise · mechanism · proof · support · why now), what's included as **the deliverables table** (| What |
+What it is | Format | Free or discounted | Exists today? |), the Teach-first lessons, Day 1 and the first 30
+days (**table**), support and community, the value stack (**table**) and the digital product. The type, the
+name and the cadence are the same words as `brain.md`'s `Program:` line. Outcomes, never features; what the
+member will SHOW, never what a partner will EARN; no splits, caps, stock, or earnings. An `offer.md` finalized
+before 2026-10-10 without the program sections renders what it has and names the refine ("say 'refine my
+partner offer' — your offer gets its program block, framework and structure") — never a gap sentence, never
+an invented program.
 
 ### Chapter 11 — THE MONEY, HONESTLY
 From `goals.md` → "The money, honestly": the plan mechanics used (with source), the member's own production
