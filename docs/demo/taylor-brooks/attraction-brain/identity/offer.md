@@ -58,7 +58,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 | The Tuesday table (30 minutes a week, live) | free to partners | yes — 30 minutes a week, for the whole group | — |
 | The 1:1 welcome call (45 minutes) | free to partners | yes | — |
 | Taylor on Zoom for the first Sunday (30 minutes) | free for the first 30 days | yes | — |
-| The five-step Sunday routine guide (the digital product) | free to any agent (the lead magnet, Week 6) | no | — |
+| The five-step Sunday routine guide (the digital product) | free to any agent (the lead magnet, Week 2) | no | — |
 | "And everything Real Broker provides" | — | — | walked through on a call |
 *(Mapped 2026-10-06 — demo. Nothing here is priced; the first paid offer, if ever, would be a time-bound cohort and would be priced up front.)*
 

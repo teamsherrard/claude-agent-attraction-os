@@ -49,6 +49,13 @@ Totals: 143 Cowork skills across 9 plugins (115 new or rewritten, 28 vendored) p
 - **Brain Book depth.** The demo Book's thin money chapter traced to two gaps — demo mode treating the chapter floors as targets, and the calculator stopping when the member says "explain mine to me" — both closed in `brain-book-spec.md` and the calculator.
 - **Renderer v2** (shared by seven plugins): real Word heading styles (navigation pane / Docs outline work), a larger type scale, running header + `Page X of Y` footer, "In this part" linked lists on part openers, tinted repeating table headers, accent-bar callouts, keep-with-next, and an optional brand-accent colour the Brain Book build passes from `brand-visual.md`. Full before/after in `docs/plans/BOOK-RENDER-TEST.md` §8; the re-rendered demo files sit beside the originals in `docs/demo/`.
 
+## 2d. v0.4.0 (2026-10-10) — Lead Magnet moves to Week 2
+
+- **The decision (user, 2026-10-10).** The Lead Magnet plugin runs in Week 2, right after the Partner Offer session, not in Week 6. Install order renumbered: 1 Brain · 2 Support · 3 Lead Magnet (W2) · 4 Short-Form (W3) · 5 Riverside (W3) · 6 YouTube (W4) · 7 Conversion & Sales (W5) · 8 AI Admin (W5) · 9 Events (W6). The Design Studio is unchanged (`aa-lead-magnet-design` was already a Week 2 skill; the Value Vault stays Week 6). The Partner Offer gate inside the plugin is unchanged — three states, "build my offer" first.
+- **Ownership flip.** `identity/profiles.md` is now written first by `lm-profiles` (Week 2) — the five Short-Form headings in `sf-setup`'s order plus its own extra platforms after them; `sf-setup` (Week 3) refreshes the five sections and preserves everything else; `yt-setup` still fills the YouTube section in Week 4.
+- **The Starter Resource is a fallback.** The YouTube System's one-page "Questions to Ask Before You Choose a Sponsor" is built only when the member skipped the Week 2 lead magnet and the current magnet is still empty; the normal path is the Week 2 guide. Short-Form's GUIDE keyword is the primary route from Week 3, the booking link the fallback.
+- **Critical path.** The Lead Magnet is now on the Nov 10 critical path (record-ahead by Fri Nov 6) and has never been cold-tested: the Week 2 cold test must cover offer → lead magnet in one sitting. A follow-up pass redesigns the Lead Magnet flow offer-first (UVP → three Mike-grounded magnet ideas → the member picks one → the magnet document → the funnel outline); the Honest Brokerage Comparison Guide is no longer described as the locked first magnet in the lines this release touched.
+
 ## 3. What is left
 
 1. **Cold test** the Week 1 setup on a real member (Opus, medium effort, one sitting) and the Design Package in Claude Design. Nothing replaces this.

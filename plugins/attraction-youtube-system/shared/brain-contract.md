@@ -1,7 +1,7 @@
 # The Brain Contract — what the YouTube System reads and writes
 
 *Every Agent Attraction plugin ships a `shared/brain-contract.md` in this shape. This is the YouTube System's
-(Plugin 5, Week 4). The Brain plugin's own copy is the reference for the laws, the safety rails, and the
+(Plugin 6, Week 4). The Brain plugin's own copy is the reference for the laws, the safety rails, and the
 `config.md` registry; the OS-wide table lives in the master plan §1 and `docs/BRAIN-CONTRACT.md`. This file
 repeats only what a YouTube skill needs and names exactly which files this plugin touches.*
 
@@ -32,10 +32,11 @@ repeats only what a YouTube skill needs and names exactly which files this plugi
   `Edited` is the one exception).
 - The week rule: later-week files are never "missing"; say which week builds them. `offer.md` at `Status: seeds`
   → the Partner Offer is Week 2. The early (resource) CTA always names a real file: the live resource in
-  `memory/magnets.md → ## Current magnet` — the Week 6 lead magnet, or until then the **Starter Resource**
-  `yt-leads` builds once in Week 4 ("Questions to Ask Before You Choose a Sponsor", saved to
-  `03 · Content/Guides/`, recorded in that section with `Type: starter resource (Week 4)`); never the Partner
-  Call as the resource. `content-pillars.md` and `publishing.md` are Week 3 (the Short-Form System); a Game Plan
+  `memory/magnets.md → ## Current magnet` — normally the lead magnet the Lead Magnet plugin built in Week 2 (right
+  after the offer); ONLY when the member skipped that session and the section is still empty, the **Starter
+  Resource** `yt-leads` builds once in Week 4 as the fallback ("Questions to Ask Before You Choose a Sponsor",
+  saved to `03 · Content/Guides/`, recorded in that section with `Type: starter resource (Week 4)`); never the
+  Partner Call as the resource. `content-pillars.md` and `publishing.md` are Week 3 (the Short-Form System); a Game Plan
   never waits for them — it reads what is there and says the rest arrives with the short-form setup.
 - The realtor plugins' files (`~/realtor-brain/`, `_workspace.md`, `realtor-*` skills) are a different system.
   Never read or write them from here.
@@ -64,8 +65,8 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   old free-text `YouTube comment · [video]`.
 
 ## What this plugin READS (read-only, never written here)
-`brain.md` · `identity/profiles.md` (the bios file — one H2 per platform; `sf-setup` writes it, `lm-profiles`
-updates it; read for the entity line — and `yt-setup` fills its `## YouTube` section, see "owns") · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
+`brain.md` · `identity/profiles.md` (the bios file — one H2 per platform; `lm-profiles` writes it in Week 2, `sf-setup`
+refreshes it in Week 3; read for the entity line — and `yt-setup` fills its `## YouTube` section, see "owns") · `config.md` (Workspace ID, provider, Timezone; the `Weekly Content Performance task:` line in the
 `## Short-Form (Week 3)` block — task id · `declined` · `not offered yet`) · `identity/profile.md` · `journey.md` (incl. the
 `## Why join me` block) · `strategy.md` · `avatars.md` · `positioning.md` · `offer.md` (the offer; the live resource is read from `memory/magnets.md → ## Current magnet` first, `offer.md`
 second; Status respected) · `brokerage-model.md` (mechanics for model videos; figures never surface in public content) ·
@@ -81,8 +82,8 @@ repeats) · `memory/ideas.md` (tags `youtube` and `interview`; the member's own 
 (the questions Situation and Model videos answer) · `memory/top-50.md` and `memory/organization.md` (the
 interview guest lane; a Source of `youtube via comment on "[video]"` is the attraction signal) ·
 `memory/conversations.md` and `memory/pipeline.md` (read-only: which videos get named) · `memory/scorecard.md`
-(Targets block and weekly rows — read only) · `memory/magnets.md` (`## Current magnet` — the Week 6 guide, or the
-Starter Resource block `yt-leads` wrote in Week 4). Plus, by
+(Targets block and weekly rows — read only) · `memory/magnets.md` (`## Current magnet` — the lead magnet built in
+Week 2, or — only if the member skipped it — the Starter Resource block `yt-leads` wrote in Week 4). Plus, by
 relevance, the workspace per the Brain's `drive-map.md`: `02 · Brand` (the kit), `03 · Content/Long-Form`
 (what exists), `06 · Materials` (the brokerage deck for model content).
 
@@ -92,10 +93,10 @@ relevance, the workspace per the Brain's `drive-map.md`: `02 · Brand` (the kit)
 |---|---|---|
 | `identity/channel.md` | `yt-setup` (creates it: channel, positioning, lanes and playlists, the CTA line, upload defaults, channel-page status, baseline) | `yt-gameplan` → the `## Game Plan anchors` block only · `yt-analytics` → the `Live data:` line and a **dated `## Performance` block appended** per deep dive (newest last; earlier blocks never edited) · `yt-setup` "update my channel" edits one block |
 | `memory/interview-pipeline.md` | `yt-interview` (rows, Stage moves; creates the file on first use if the Brain template lacks it) | `yt-gameplan` seeds candidate rows at Stage `Candidate`; `yt-setup` creates the empty file with the header; `yt-make-video` moves a row to `Published` |
-| `identity/profiles.md` — the **`## YouTube` section only** | `yt-setup` (the channel's bio text inside that one heading — the entity line the about section opens with; the file stays Short-Form-owned: never rename, reorder, or drop a heading; if Week 3 has not created the file, create it in the template's five-section shape with the other four sections on their placeholder lines) | `lm-profiles` (Week 6) rewrites the text inside the heading to the funnel's CTA and leaves its italic update line |
+| `identity/profiles.md` — the **`## YouTube` section only** | `yt-setup` (the channel's bio text inside that one heading — the entity line the about section opens with; the file stays Short-Form-owned: never rename, reorder, or drop a heading; if neither Week 2 (`lm-profiles`) nor Week 3 (`sf-setup`) has created the file, create it in the template's five-section shape with the other four sections on their placeholder lines) | `lm-profiles` (Week 2) wrote the first text inside the heading, aligned to the funnel's CTA, with its italic update line — `yt-setup` rewrites the text from Week 4 and keeps that line; a later `lm-profiles` run may refine it again |
 | `memory/content-log.md` — **YouTube rows only** | `yt-script` (the row at `Scripted`) · `yt-make-video` (flips to `Published`, adds the Link) · `yt-interview` / `yt-model-breakdown` (a row at `Idea` when they run before the script — `yt-script` updates that row, never a second) · `yt-seo` / `yt-leads` (the CTA cell) · `yt-repurpose` (rows for the derived pieces) · `yt-analytics` (the conversations/calls note in the CTA cell) | Short-Form, the AI Editor, and Events own their rows; the Editor may flip a YouTube row to `Edited` |
 | `config.md` — the `## YouTube (Week 4)` block only | `yt-setup` creates the block with exactly these lines: `Installed:` date · `Plugin version:` · `Layer:` → `identity/channel.md` · `Monday Kickoff task: not offered yet` · `Weekly ideas task: not offered yet` · `Monthly review task: not offered yet` · `YouTube section: not offered yet` | `yt-briefing` → the `Monday Kickoff task:` line (task id · `declined` · `paused`) and, if chosen, `Monday Kickoff delivery: email draft` · `yt-triggers` → the `Weekly ideas task:` and `Monthly review task:` lines · `yt-analytics` → the `YouTube section:` line (`added YYYY-MM-DD` · `declined`). Nothing else in `config.md`, ever |
-| `memory/magnets.md` — the **`## Current magnet` block only, and only while it is empty** (nothing, or the template's `[Guide Name]` placeholder) | `yt-leads` (writes the Starter Resource block once — the template's line shape plus `Type: starter resource (Week 4)`; never a Magnets-table row, never the Intake block; creates the file in the template's exact shape only if the Brain predates it) | the file stays **Lead Magnet-owned** — `lm-magnet` replaces the block in Week 6 as the owner, and no YouTube skill touches it again |
+| `memory/magnets.md` — the **`## Current magnet` block only, and only while it is empty** (nothing, or the template's `[Guide Name]` placeholder) | `yt-leads` (writes the Starter Resource block once — the template's line shape plus `Type: starter resource (Week 4)`; never a Magnets-table row, never the Intake block; creates the file in the template's exact shape only if the Brain predates it) | the file stays **Lead Magnet-owned** — `lm-magnet` replaces the block as the owner the moment the member builds their guide (the Week 2 session, run any time), and no YouTube skill touches it again |
 
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story a
 script used · `memory/ideas.md` → flip a `youtube` / `interview` idea's Status to `used` at make-video start
@@ -161,11 +162,11 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
 
 ## Documents this plugin produces (per the Brain's `drive-map.md`, located by Workspace ID)
 All of it in **`03 · Content/Long-Form/`** — except the **`Starter Resource — YYYY-MM-DD`** (`yt-leads`, once,
-Week 4), a loose dated file in **`03 · Content/Guides/`**, never inside a Lead Magnet campaign folder: `🎬 [Name]'s
+Week 4 — the fallback when no Week 2 lead magnet exists), a loose dated file in **`03 · Content/Guides/`**, never inside a Lead Magnet campaign folder: `🎬 [Name]'s
 YouTube Game Plan — YYYY-MM-DD` · `Channel Page Kit —
 YYYY-MM-DD` · `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD` · one folder per video `YYYY-MM-DD · [Title]/`
 holding `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief — [title] — YYYY-MM-DD` · `Lead Map —
-[title] — YYYY-MM-DD` (only when a Week 6 lead magnet exists) · `Repurposing Pack — [title] — YYYY-MM-DD` · `Interview Prep —
+[title] — YYYY-MM-DD` (only when the lead magnet exists — built in Week 2) · `Repurposing Pack — [title] — YYYY-MM-DD` · `Interview Prep —
 [guest] — YYYY-MM-DD` (`yt-interview`) · `Model Breakdown — [title] — YYYY-MM-DD` (`yt-model-breakdown`). Thumbnail images (built in Claude Design from the brief) → the video's own folder, next to its brief (the Brain's drive map); the banner →
 `02 · Brand`. Research briefs, idea batches, and outlier scans stay in chat — regenerated, never stored. Dated
 filenames; newest is current. Never a parallel `[Member] — YouTube System/` root.
@@ -197,11 +198,13 @@ thumbnail design skill) · `yt-setup` banner brief → `aa-brand-kit-design` · 
    readers go `publishing.md` first, `content-pillars.md` second, never a third order (final pass 2026-10-08).
 8. Every skill opens at most four Brain files at its first step (`brain.md` counts as one) and the rest at the step
    that uses them (final pass 2026-10-08).
-9. **The Starter Resource** (second-round review, 2026-10-08): while `## Current magnet` is empty, `yt-leads` builds
-   the one-page "Questions to Ask Before You Choose a Sponsor" from the Brain's doctrine, saves it to
-   `03 · Content/Guides/`, and records it as `## Current magnet` with `Type: starter resource (Week 4)` so every
-   early CTA names a real file; the Lead Magnet plugin replaces the block in Week 6 and keeps the file. `yt-script`'s
-   early CTA line and `yt-seo`'s description line 2 name it.
+9. **The Starter Resource** (second-round review, 2026-10-08; made the fallback by the user's ruling of 2026-10-10):
+   the normal path is the lead magnet the Lead Magnet plugin builds in Week 2, read from `## Current magnet`. ONLY
+   while that section is still empty — the member skipped the Week 2 session — `yt-leads` builds the one-page
+   "Questions to Ask Before You Choose a Sponsor" from the Brain's doctrine, saves it to `03 · Content/Guides/`,
+   and records it as `## Current magnet` with `Type: starter resource (Week 4)` so every early CTA names a real
+   file; the Lead Magnet plugin replaces the block when the member builds their guide and keeps the file.
+   `yt-script`'s early CTA line and `yt-seo`'s description line 2 name whichever is live.
 
 ## Privacy
 Everything in the Brain — agent names, wins, conversations, interview guests — is the member's private data. It

@@ -20,7 +20,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 | Saturday, 9 am | YouTube | "The Sunday Table" — 8–12 minute teaching episode (Authority · Proof) — from Week 4 |
 | Sunday, 7 pm | Instagram Story | behind the routine — the sheet, the texts going out (Personality · Proof) |
 | Daily, 30 min | Instagram DMs | replies and the two conversations a day (no posting) |
-**The two CTAs:** 1. Book a call — https://book.taylorbrooks.demo/call (illustrative — demo) · 2. The guide / keyword — ROUTINE → "The Five-Step Sunday Routine" (set by the Lead Magnet plugin, Week 6 — set in this demo)
+**The two CTAs:** 1. Book a call — https://book.taylorbrooks.demo/call (illustrative — demo) · 2. The guide / keyword — ROUTINE → "The Five-Step Sunday Routine" (set by the Lead Magnet plugin, Week 2 — set in this demo)
 **Signature series / recurring format:** "Here's the routine" (60–90 second teaching reels, one step each) · "The Sunday Table" (YouTube, weekly, a partner brings a real sheet)
 **Default video style:** talking head at the kitchen table, whiteboard behind, captions on, no music under the teaching segments, the sheet on camera
 

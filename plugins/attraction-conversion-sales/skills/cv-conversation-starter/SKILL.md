@@ -28,7 +28,8 @@ Read `brain.md`; pull the Brain if missing locally. Then: `identity/voice.md` + 
 `voice-print.md` if present (the draft must sound like them — same sentence length, same warmth, their
 words) · `identity/profile.md` and `journey.md` (what they have to give and in common) · wherever an opener offers a
 resource, `memory/magnets.md → ## Current magnet` FIRST (the live guide, offered by name — its funnel URL only
-after a reply, never a link in a first DM; "not live yet" or an empty file is normal before Week 6) and
+after a reply, never a link in a first DM; "not live yet" or an empty file means the member skipped the Week 2 lead
+magnet session — say so, never "missing") and
 `identity/offer.md` SECOND (the one useful thing they can offer — a sheet, a routine, a video; at seeds stage,
 their "teach first" line) ·
 `memory/top-50.md` for the name (Source tells you the relationship state; Notes tell you the context) ·

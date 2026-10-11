@@ -31,6 +31,11 @@ Pull the Brain (house rule 2). `memory/magnets.md` (which magnets are live, tota
 (**read only** — this week's Calls booked target, so the verdict is against the plan), `identity/goals.md`
 (read only — the weekly activity), `config.md` → the plugin block (`Live data:` connected / not connected /
 declined) and `Timezone`.
+**Later-week sources — "not yet, manual numbers first," never "missing":** `memory/content-performance.md`
+(the Friday content note the Short-Form System keeps from Week 3) and `memory/sales-funnel.md` (the Conversion
+plugin's weekly funnel by source, Week 5) sharpen the read once they exist — which Reel sent the opt-ins, which
+booked calls came from the guide. Before those weeks, or if the file isn't there, say in one line which week
+builds it and run on the member's five numbers; never estimate from their absence.
 
 ## Step 1 — Get the numbers (manual first — always)
 One message, five numbers, their turn — each with where to find it, so it takes two minutes:
@@ -58,7 +63,8 @@ install guide adds it, then proceed manual; never offer sign-in from this skill.
   traffic, not the page (the keyword on the Reels, the bio link, the GBP post).
 - **List growth** — new subscribers and the running size. Flat with opt-ins present → the opt-ins aren't
   landing in the list tool (the form and the tool aren't connected — a plumbing fix, say so). Growing → good;
-  note which content week drove it (`content-log.md`, read only).
+  note which content week drove it (`content-log.md`, read only; `content-performance.md` once the Short-Form
+  System keeps it, from Week 3).
 - **Magnet-to-call** — calls booked from the funnel ÷ opt-ins. Low with a healthy list → the thank-you page's
   call line, the sequence's day-16 email, the DM 3 hand-off (`lm-delivery`), or the member isn't replying to
   the qualifier. Against the plan: this week's Calls booked target from `scorecard.md` → Ahead · On pace ·
@@ -72,7 +78,7 @@ install guide adds it, then proceed manual; never offer sign-in from this skill.
 > the guide / tighten the Reel CTA]?"*
 Never two fixes. The fix routes to the skill that owns it (`lm-funnel` for the page, `lm-delivery` for the
 DMs, `lm-nurture` for the emails, `lm-profiles` for the bio link, `lm-gbp` for the Google post, the Short-Form
-plugin for the Reel CTA) — say it in plain words, never the skill name.
+plugin for the Reel CTA, from Week 3) — say it in plain words, never the skill name.
 
 ## Step 4 — Write back (silent, then push)
 1. `memory/list-growth.md` → append one weekly row in the locked shape (`Week of · Page visits · Opt-ins ·

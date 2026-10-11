@@ -213,13 +213,13 @@ everywhere:** unlock · supercharge · game-changer · revolutionary · secret w
 | What to do next | the primary CTA | `["Book a call with me" + booking link]` |
 
 **The two CTAs:** primary = `["Book a call with me" — link]`; second = `[the guide keyword — set in
-Week 6 by the Lead Magnet system; empty until then]`.
+Week 2 by the Lead Magnet system, right after the offer; empty until then]`.
 
 **Copy laws:** the member speaks as "I" (organization pieces may say "we"); the people they attract are
 "agents" or "partners"; outcomes, never features; what the member will SHOW, never what a partner will
 EARN; no splits, caps, stock, tiers, rev-share, or income words; never a negative word about another
 brokerage or person; a former brokerage is "a franchise" or "an independent"; the Partner Offer is a
-Week 2 line, the free guide a Week 6 line — never written as if they exist before they do.
+Week 2 line and the free guide follows it in the same week — never written as if they exist before they do.
 
 ---
 

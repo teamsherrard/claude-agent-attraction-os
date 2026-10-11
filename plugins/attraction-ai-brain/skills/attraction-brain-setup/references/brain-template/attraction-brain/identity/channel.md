@@ -21,7 +21,7 @@
 | Future | [name] | Authority | … |
 
 ## The CTA line (reused by every script — value-named, never the brokerage)
-- Resource (inside minute 1): "[…]"  →  link: [resource link / the booking link until Week 6 — the live guide is read from `memory/magnets.md → ## Current magnet` first]
+- Resource (inside minute 1): "[…]"  →  link: [resource link — the live guide (built in Week 2) is read from `memory/magnets.md → ## Current magnet` first; the booking link only while no guide exists]
 - Call (a third of the way in): "[…]"  →  booking link: [link from operations.md]
 
 ## Upload defaults

@@ -56,7 +56,7 @@ across states or provinces, nothing negative about anyone.
    video promise if `sales-show-up` has set one.
 5. **Where the link lives** — Instagram bio (with the link-in-bio label), every YouTube description's CTA
    line (the YouTube system's wording), the email signature block in `operations.md`, the lead magnet's
-   thank-you step (the Lead Magnet plugin, Week 6), the weekly model call invite.
+   thank-you step (the Lead Magnet plugin, Week 2), the weekly model call invite.
 6. **The "who this is for / not for" block (optional, recommended)** — three lines each, from
    `avatars.md`: for the agent types the member serves; not for agents already at the brokerage or already
    sponsored (the question-1 filter, said kindly).

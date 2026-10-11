@@ -117,8 +117,8 @@ copy slot so the banners and covers read as a landing page, not decoration:
 | **Why listen** | Your Proof — a real credential, number, or agent result WITH permission | the proof chip (one, quiet, true) — **none in the Book = no chip, never an invented one** |
 | **What to do next** | the primary CTA in Your Voice & Brand ("Book a call with me" + the booking link) | the CTA button + the contact line on every banner, the CTA post, the CTA story, the cover, the signature |
 
-**The week rule, out loud.** The Partner Offer is built in Week 2; the free guide arrives with the
-Lead Magnet plugin in Week 6. In Week 1, "what you help them do" comes from the known-for line and the
+**The week rule, out loud.** The Partner Offer is built in Week 2, and the free guide arrives with the
+Lead Magnet plugin right after it, in the same week. In Week 1, "what you help them do" comes from the known-for line and the
 one-line why — never from an offer that doesn't exist yet. The "Free value" highlight cover ships with
 a generic icon and the note that the guide fills it later; the CTA is **"Book a call with me"**, never
 "grab my guide" until a guide exists. Say this once if the member asks for a guide CTA.

@@ -18,13 +18,13 @@ Thumbnail docs already in Downloads.*
 |---|---|---|---|---|---|
 | 1 | AI Brain (W1) | `attraction-` | 26 | duplicate + rebuild interview | realtor-ai-brain · workshop aa-* skills |
 | 2 | Support (W1) | `maa-support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
+| 3 | Lead Magnet (W2, after the Partner Offer session — resequenced 2026-10-10) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
 | – | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: logo · style sheet · brand; W2 offer assets; W6 Value Vault) | `aa-…-design` | 14 | duplicate + 4 new · ALL 14 BUILT (the thumbnail skill was deleted; `yt-thumbnail` writes the brief) | Claude Design suite v2 (Desktop) |
-| 3 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
-| 4 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
-| 5 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
-| 6 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
-| 7 | AI Admin (W5) | `admin-` | 8 | duplicate + re-stage (setup is its own skill) | realtor-ai-admin |
-| 8 | Lead Magnet (W6) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
+| 4 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
+| 5 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
+| 6 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
+| 7 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
+| 8 | AI Admin (W5) | `admin-` | 8 | duplicate + re-stage (setup is its own skill) | realtor-ai-admin |
 | 9 | Events & Workshops (W6) | `ev-` | 10 | new build from workshop-ops · BUILT v0.1.0 | anthropic-skills:workshop-ops |
 
 **Not carried into this OS at all (user, 2026-10-08):** the Listing Launch plugin and the Market System plugin. Agent attraction has nothing to do with listings or market updates. They are not forked, not referenced by any MAA skill or stack map, and the realtor copies are untouched.
@@ -38,7 +38,7 @@ Brain path and skill reference, swap the stack map and calendar. No creative wor
 
 ## 1. The cross-plugin contract (define once, every plugin obeys)
 
-**Numbering, one scheme everywhere (marketplace, README, Support stack map):** 1 Brain · 2 Support · 3 Short-Form · 4 Riverside · 5 YouTube · 6 Conversion & Sales · 7 AI Admin · 8 Lead Magnet · 9 Events; the Design Studio is unnumbered (a Claude Design skill set).
+**Numbering, one scheme everywhere (marketplace, README, Support stack map):** 1 Brain · 2 Support · 3 Lead Magnet (W2) · 4 Short-Form · 5 Riverside · 6 YouTube · 7 Conversion & Sales · 8 AI Admin · 9 Events; the Design Studio is unnumbered (a Claude Design skill set). Renumbered 2026-10-10 when the Lead Magnet moved from Week 6 to Week 2 (user decision).
 
 **Prefixes are the collision guard.** `yt-`, `sf-`, `lm-`, `cv-`, `sales-`, `aa-…-design`, `ev-`, `admin-`, `studio-`,
 `maa-support-`, `attraction-` never overlap with the realtor plugins' `youtube-`, `shortform-`, `leadcapture-`, `realtor-`. Trigger
@@ -53,12 +53,12 @@ side unless the member has only the attraction OS installed, in which case the S
 | Brain | everything | all `identity/` except `content-pillars · publishing · profiles · channel · sales-system`; `memory/top-50` (the mirror rule: once the Admin registers, Stage from `pipeline`, Last touch from `conversations`, Next move · Due from the Board; before that the touch cells are appended by capture + the Conversion logging skills); `scorecard` (Targets; daily rows by the Debrief; weekly rows by the check-in until `admin-recruiting-scorecard`); `debriefs`; `objections` (heard-rows); `ideas` (+ import's `## Past content (imported)`); `intel`; `capture-log`; `deadlines` (until Admin); interim rows in `conversations` and `organization` and interim stage moves in `pipeline` (via capture, until Conversion / AI Admin) |
 | Support | `config`, `brain.md`, every plugin's `config` block, the Brain template | `memory/support-log`, `memory/claude-updates`, the `## MAA Support (Plugin 2)` block in `config.md` |
 | Design Studio | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to `02 · Brand`, `05 · Offer`) |
-| Short-Form | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-setup; `sf-ideas` → Hooks bank), `identity/publishing.md` (sf-setup; designated lines by sf-publish · sf-board · sf-comment-to-dm), `identity/profiles.md` (sf-setup writes first; yt-setup fills `## YouTube`; lm-profiles updates), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block; stamps story-bank Used-where, ideas `used`, the intel `Used?` column (sf-greenscreen); interim conversation rows via sf-comment-to-dm (through capture) |
+| Short-Form | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-setup; `sf-ideas` → Hooks bank), `identity/publishing.md` (sf-setup; designated lines by sf-publish · sf-board · sf-comment-to-dm), `identity/profiles.md` (the five sections, refreshed — lm-profiles writes the file first in Week 2; yt-setup fills `## YouTube`), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block; stamps story-bank Used-where, ideas `used`, the intel `Used?` column (sf-greenscreen); interim conversation rows via sf-comment-to-dm (through capture) |
 | Riverside | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist; no `config.md` block |
 | YouTube | same as Short-Form + `content-pillars · publishing (Content board: · Keyword:) · brokerage-model · prospect-intel · leadership · organization · pipeline · scorecard (read-only) · interview-pipeline` | `memory/content-log` (YT rows incl. yt-repurpose rows), `identity/channel.md` (yt-setup; yt-gameplan → `## Game Plan anchors`; yt-analytics → `Live data:` + dated `## Performance` blocks), `memory/interview-pipeline.md` (yt-interview), the `## YouTube (Week 4)` block, `profiles.md → ## YouTube`, `publishing.md → Content board:` (yt-board); stamps story-bank Used-where, ideas `used`, intel `Used?`; yt-repurpose appends conversation-starter rows to `ideas.md` while Conversion is absent |
 | Conversion | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance · voice* · profile · journey · prospect-intel · operations · conversations · pipeline · debriefs · intel · intel-reports · organization · goals · scorecard (read-only) · brand-visual · sales-system · sales-funnel · magnets (## Current magnet)` | `memory/conversations` (its logging skills; `Stage after` = the stage request), `memory/pipeline` (direct until the Admin registers; `STAGE MOVE REQUESTED` / `NEXT MOVE REQUESTED` after), `memory/objections` (handlers; heard-rows from cv-objection-coach and cv-debrief; the `## Practice log` section), `memory/intel-reports/` (briefs + the follow-up and reactivation plan files), `identity/sales-system.md` (sales-system-setup; sales-call-block → Window + `## Call block`), `memory/sales-funnel.md` (sales-scorecard), the `## Conversion & Sales` block (incl. `Setter`); Top-50 touch cells as a designated interim appender until the Admin registers |
 | AI Admin | `operations · goals · execution-framework · compliance · voice* · profile · story-bank · proof · brand-visual · offer · top-50 · conversations · pipeline · organization · scorecard · debriefs · deadlines · content-log · capture-log · intel · objections · ideas · intel-reports · follow-up-queue · sales-funnel · list-growth ("Calls booked from the funnel")` | `memory/pipeline` (admin-pipeline — stage moves, the source of stage; the Board's Next move · Due), `memory/follow-up-queue`, `scorecard` (weekly rows, eleven columns), `deadlines`, `memory/organization` (maintained from W5), the `## AI Admin (Week 5)` block (first line `AI Admin: set up [date]` = the OS-wide Admin-installed signal); never a Top-50 cell, never `conversations.md` |
-| Lead Magnet | `brain.md · avatars · offer · positioning · proof · compliance · brand-visual · voice* · story-bank · profile · journey · operations · brokerage-model · objections · ideas (leadmagnet) · top-50 (counts only) · config · 06 · Materials` — read-only | `memory/magnets.md` (`## Current magnet` is what every other CTA reads), `memory/list-growth.md` (read by `attraction-goals` weekly mode and `admin-recruiting-scorecard` for "Calls booked from the funnel"), `identity/profiles.md` as the Week-6 updater (lm-profiles), the `leadmagnet` rows' Status in `ideas.md`, the `## Lead Magnet (Week 6)` block; never `offer.md`, never `voice.md` |
+| Lead Magnet | `brain.md · avatars · offer · positioning · proof · compliance · brand-visual · voice* · story-bank · profile · journey · operations · brokerage-model · objections · ideas (leadmagnet) · top-50 (counts only) · config · 06 · Materials` — read-only | `memory/magnets.md` (`## Current magnet` is what every other CTA reads), `memory/list-growth.md` (read by `attraction-goals` weekly mode and `admin-recruiting-scorecard` for "Calls booked from the funnel"), `identity/profiles.md` (lm-profiles writes it FIRST in Week 2 — the five Short-Form headings plus its own extra platforms; sf-setup refreshes the five in Week 3), the `leadmagnet` rows' Status in `ideas.md`, the `## Lead Magnet (Week 2)` block; never `offer.md`, never `voice.md` |
 | Events | `avatars · offer · positioning · proof · compliance · top-50 · organization` | `memory/events.md`, `memory/pipeline` (event stages, requested through the Admin), `memory/content-log` (event content) |
 
 One owner per file. A reader never writes a file it does not own. Every write pushes. Every file above ships in the Brain template as an
@@ -150,7 +150,7 @@ review recommended, and every member posting it in Week 2 is retargeting content
 
 ---
 
-## 4. Plugin 3 — Short-Form (`sf-`, 13 skills)
+## 4. Plugin 4 — Short-Form (`sf-`, 13 skills)
 
 Forks `realtor-shortform-system` (15 skills). The realtor plugin's shared doctrine (`mike-frameworks.md`, `advisor-playbook.md`,
 `publishing-guide.md`, `output-standard.md`, `composio-data-engine.md`) copies over; `mike-frameworks.md` is rewritten for attraction.
@@ -182,7 +182,7 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 ---
 
-## 5. Plugin 4 — AI Editor, Riverside (`studio-`, 28 skills)
+## 5. Plugin 5 — AI Editor, Riverside (`studio-`, 28 skills)
 
 **Mechanical fork of `realtor-riverside-editor` v0.4.1.** No creative changes. What the fork touches:
 
@@ -197,7 +197,7 @@ the copy bank and keyword sheet from `sf-comment-to-dm`'s output standard; the i
 
 ---
 
-## 6. Plugin 5 — YouTube (`yt-`, 19 skills)
+## 6. Plugin 6 — YouTube (`yt-`, 19 skills)
 
 Forks `realtor-youtube-system` (19 skills). The shared doctrine (`youtube-doctrine.md`, Mike's 30-section realtor KB) is **replaced**, not edited:
 `shared/attraction-youtube-doctrine.md` is written from the Week 4 vault (9 lessons), the VIP day framework (Problem → Situation → Future
@@ -238,7 +238,7 @@ Where the plan referenced it: `yt-thumbnail` uses the member's Brand HQ project 
 without the animation hand-off; `studio-broll` uses Riverside's stock library only; Events and Lead Magnet ad creatives are design
 briefs for Claude Design. The SAO clone and thumbnail docs in Downloads stay as reference if this is revived later.
 
-## 8. Plugin 6 — Conversion & Sales (`cv-` + `sales-`, 19 skills)
+## 8. Plugin 7 — Conversion & Sales (`cv-` + `sales-`, 19 skills)
 
 **New build** on Mike's recorded frameworks. Doctrine file `shared/conversion-doctrine.md` is written from the Week 5 vault (Presentation & Delivery, 5
 lessons; Objection Handling, 17 lessons; Simple Tech Stack, 2) plus the Launching doc's skill specs (Agent Intel, Conversation Starter, Conversation Coach,
@@ -278,7 +278,7 @@ Week 7 fast-action bonus and stays out of v1.
 
 ---
 
-## 9. Plugin 7 — AI Admin (`admin-`, 8 skills)
+## 9. Plugin 8 — AI Admin (`admin-`, 8 skills)
 
 Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills: the seven below plus `admin-attraction-setup`). The realtor admin stays the realtor's admin; this one only runs the organization.
 
@@ -301,17 +301,17 @@ Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills: the
 
 Removed from the OS by the user on 2026-10-08. Not built. `memory/organization.md` stays in the Brain (capture and the Admin plugin write joins to it); the Design Studio's `aa-recognition-design` reads it for Win Wall posts.
 
-## 11. Plugin 8 — Lead Magnet (`lm-`, 11 skills)
+## 11. Plugin 3 — Lead Magnet (`lm-`, 11 skills) — Week 2, after the Partner Offer session (resequenced 2026-10-10)
 
 Forks `realtor-lead-capture` (5 skills, shipped v0.24.0). The copywriting KB and output standard copy over; the first magnet is locked.
 
 | Skill | Status | Change |
 |---|---|---|
-| `lm-navigator` | KEEP | checks the offer exists (Week 2), locks the first magnet, routes |
+| `lm-navigator` | KEEP | checks the offer exists (built earlier in Week 2 — the plugin runs right after that session), locks the first magnet, routes |
 | `lm-magnet` | ADJUST | writes the magnet in the member's voice; first = **the Honest Brokerage Comparison Guide** (factual, cited, dated, no ranking, no disparagement; "honest" means transparent about trade-offs, never critical of a named brokerage; compliance-gated hard) |
 | `lm-funnel` | ADJUST | opt-in page, thank-you, book-a-call step; design via `aa-funnel-design`; static decoy form rule |
 | `lm-gbp` | KEEP | GBP positioned for attraction, posts pointed at the magnet |
-| `lm-profiles` | KEEP | social bios aligned to the funnel (shares the 5-question profile test with `sf-setup`; one owner: `sf-setup` writes `identity/profiles.md` first in Week 3, `lm-profiles` is the Week 6 updater) |
+| `lm-profiles` | KEEP | social bios aligned to the funnel (shares the 5-question profile test with `sf-setup`; one owner per section: `lm-profiles` writes `identity/profiles.md` FIRST in Week 2 — the five Short-Form headings plus its own extra platforms — and `sf-setup` refreshes the five sections in Week 3; ruled 2026-10-10) |
 | `lm-magnet-ideas` | **NEW** | next magnet from the persona map and what converted (Switching checklist, Sponsor questions, Rev-share explainer, 90-day plan template) |
 | `lm-design` | **NEW** | the styled PDF brief for `aa-lead-magnet-design` (cover + 3D mockup) |
 | `lm-delivery` | **NEW** | the DM, email, and story that deliver the magnet (ManyChat GUIDE keyword copy) |
@@ -352,7 +352,7 @@ The user's intent: approve the plans, then build everything at once with multipl
 4. **Seam pass (serial, one agent):** trigger-collision diff, Brain-file ownership check, scheduled-agent consent check, compliance 3-state check, description-length check, `check-release.sh` green.
 5. **Prove it:** one demo brain (fictional member) run through Weeks 1–6 end to end; Cowork cold test on a real member for Week 1 and Week 2; release.
 
-Ship dates follow the cohort's record-ahead rule: Brain + Support + the three Design Package skills (`aa-logo-design`, `aa-style-sheet-design`, `aa-brand-kit-design`, because brain + brand both land in Week 1) by Oct 30; the rest of Design Studio by Nov 6; Short-Form + Riverside fork by Nov 13; YouTube by Nov 20 (before Thanksgiving); Conversion + Admin by Dec 4; Lead Magnet + Events by Dec 11.
+Ship dates follow the cohort's record-ahead rule: Brain + Support + the three Design Package skills (`aa-logo-design`, `aa-style-sheet-design`, `aa-brand-kit-design`, because brain + brand both land in Week 1) by Oct 30; the rest of Design Studio by Nov 6; **the Lead Magnet by Fri Nov 6 — it must be ready for the Week 2 session on Tue Nov 10 (resequenced 2026-10-10; it has never been cold-tested, so the Week 2 cold test covers offer → lead magnet)**; Short-Form + Riverside fork by Nov 13; YouTube by Nov 20 (before Thanksgiving); Conversion + Admin by Dec 4; Events by Dec 11.
 
 ---
 
@@ -387,3 +387,4 @@ build: every doctrine file, the Support plugin's answer source, and the voice of
 7. Mike's thumbnail swipe file with pattern notes (for the member's Brand HQ project in Claude Design (a `yt-thumbnail` brief; no separate thumbnail skill)).
 8. **Inducement-rules review** before the Switching Transition Plan and the Earnings Comparison one-pager ship (cohort doc flags it; both stay out of v1 until cleared).
 9. **Voice-mode role-play** is a claude.ai app feature, not a Cowork skill: confirm the Objection Coach ships text role-play plus app instructions.
+10. **Week 2 session order** (user decision 2026-10-10: the Lead Magnet moved to Week 2): confirm the Tue Nov 10 session runs the offer first and the lead magnet right after, and that the Week 2 bios homework runs through `lm-profiles`.

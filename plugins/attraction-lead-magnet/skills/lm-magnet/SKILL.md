@@ -160,7 +160,8 @@ Never paste a bracket token into the doc. If a line can't pass, rewrite it or cu
    the Brain predates it): add the row — `[YYYY-MM-DD] · [Guide Name] · [type of agent] · [pain] · written ·
    [campaign folder] · — · GUIDE · — · — · [date]` (or move a `planned` row to `written`), and set
    `## Current magnet` to this guide (funnel URL "not live yet") — this is how the Short-Form, YouTube, and
-   Conversion systems learn the guide exists and point their CTAs and the GUIDE keyword at it. Mark any
+   Conversion systems (they arrive in Weeks 3, 4, and 5 and read it then) learn the guide exists and point
+   their CTAs and the GUIDE keyword at it. Mark any
    `leadmagnet` idea you built in as **used** in `memory/ideas.md` (status column only). Register the
    plugin's `config.md` block if it isn't there. Then **attraction-brain-sync PUSH** (write → push → verify).
    This skill never writes `offer.md`, `content-log.md`, or `scorecard.md`.

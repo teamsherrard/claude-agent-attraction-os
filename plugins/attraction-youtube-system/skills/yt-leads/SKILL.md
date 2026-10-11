@@ -1,17 +1,19 @@
 ---
 name: yt-leads
 description: >
-  The Lead Engine for the Agent Attraction YouTube System. (1) Per video: the CTA pair (book a call + the
-  resource) — and, once, the Starter Resource: with no lead magnet yet it writes the one-page "Questions to
-  Ask Before You Choose a Sponsor" from the Brain's doctrine, saves it to Guides, and records it as the
-  current magnet so every early CTA names a real file until Week 6 replaces it. (2) Comment triage on REAL
-  comments (never invented): prospects, questions, thanks, trolls skipped; replies in the member's voice;
-  prospects to the Top-50 via attraction-top-50. (3) What agents keep asking becomes video ideas. Drafts
-  only — nothing is posted. Compliance gate first.
+  The Lead Engine for the Agent Attraction YouTube System. (1) Per video: the CTA pair (book a call
+  + the resource — normally the lead magnet built in Week 2) and, only when that Week 2 session was
+  skipped, the fallback Starter Resource, built once: the one-page "Questions to Ask Before You
+  Choose a Sponsor", saved to Guides and recorded as the current magnet until the member builds
+  their guide. (2) Comment triage on REAL comments (never invented): prospects, questions, thanks,
+  trolls skipped; replies in the member's voice; prospects to the Top-50 via attraction-top-50. (3)
+  What agents keep asking becomes video ideas. Drafts only — nothing is posted. Compliance gate
+  first.
 
-  Trigger on: "resource for my attraction video", "CTA for this agent video", "lead map for my attraction
-  video", "build my starter resource", "triage my attraction comments", "reply to agents in my comments",
-  "who in my comments is a prospect", "what are agents asking in my comments", "an agent commented".
+  Trigger on: "resource for my attraction video", "CTA for this agent video", "lead map for my
+  attraction video", "build my starter resource", "triage my attraction comments", "reply to agents
+  in my comments", "who in my comments is a prospect", "what are agents asking in my comments", "an
+  agent commented".
 ---
 
 # Lead Engine — the conversations are already happening
@@ -25,18 +27,20 @@ below; this file is the rule.
 ## Job 1 — The CTA pair and the resource, per video (inside the video's chat)
 Read `brain.md` (its Quick reference carries the booking link), then only three more files now — the rest open
 at the bullet that uses them: `identity/compliance.md` (the first line, `Status:`), `identity/avatars.md` (the
-pain this video answers), and the live resource — **`memory/magnets.md → ## Current magnet`** (the Week 6 lead
-magnet, or the Starter Resource below; `identity/offer.md` is the offer, never the resource).
+pain this video answers), and the live resource — **`memory/magnets.md → ## Current magnet`** (the lead magnet built
+in Week 2 — or, only if the member skipped it, the Starter Resource below; `identity/offer.md` is the offer, never
+the resource).
 **Opened at the CTA bullets:** the keyword — `identity/publishing.md` → the `Keyword:` line first (its single source;
 Short-Form-owned), `identity/content-pillars.md`'s CTA line second (it mirrors it), nothing third — and
 `content-pillars.md`'s book-a-call line (the two CTAs: book a call · the guide / keyword). **Opened at 1a only:**
 `identity/voice.md` (the resource is in their voice) · `compliance.md`'s disclosure fields (the footer).
 
-### 1a — The Starter Resource (built once, in Week 4, when no lead magnet exists yet)
+### 1a — The Starter Resource (the fallback: built once, in Week 4, ONLY when the member skipped the Week 2 lead magnet)
 `## Current magnet` is **empty** when the section holds nothing or only the template's placeholder line (`[Guide
-Name]` in brackets). Empty → build the Starter Resource now, before the CTA pair, so this video and every video
-after it names a real file. The section already holds a magnet (the Week 6 guide, or a block marked `Type:
-starter resource (Week 4)`) → use it; never rebuild, never a second one.
+Name]` in brackets). Empty (the Week 2 lead magnet session was skipped) → build the Starter Resource now, before the
+CTA pair, so this video and every video after it names a real file — and say once that the Lead Magnet plugin's
+guide replaces it whenever they run that session. The section already holds a magnet (the Week 2 guide — the normal
+case — or a block marked `Type: starter resource (Week 4)`) → use it; never rebuild, never a second one.
 - **It is public, so the gate first:** `compliance.md`'s `Status:` — `unset` → not built; say the compliance
   basics come first and keep this video's CTA pair as a private draft · `set` → build, remind once · `confirmed`
   → build.
@@ -74,26 +78,27 @@ starter resource (Week 4)`) → use it; never rebuild, never a second one.
 - **Record it:** write the `## Current magnet` block of `memory/magnets.md` — **only while the section is
   empty** — in the template's line shape plus one line:
   `**Questions to Ask Before You Choose a Sponsor** · keyword: [publishing.md's Keyword: line, or "not set yet"] · funnel URL: not live yet · download link: [the view link] · for: [primary avatar] · as of YYYY-MM-DD`
-  `Type: starter resource (Week 4) · built by the YouTube System · the Lead Magnet plugin replaces this block in Week 6`
+  `Type: starter resource (Week 4) · built by the YouTube System · the Lead Magnet plugin (the Week 2 session, run any time) replaces this block when the member builds their guide`
   Nothing else in that file — never a row in the Magnets table, never the Intake block: the Lead Magnet plugin
   owns the file and reads those rows to know whether a campaign exists, and the Starter Resource is not a
   campaign. If the Brain predates the file, create it in the template's exact shape first. Push via
   `attraction-brain-sync` → verify; a failed push is said out loud, retried once, never silent.
 - **Say it plainly, once:** *"Your starter resource is saved under Content → Guides — one page of questions an
-  agent should ask any sponsor, including you. Every video points at it until your lead magnet replaces it in
-  Week 6. One paste: its link goes on line 2 of your upload defaults and in the pinned comment."* The link
+  agent should ask any sponsor, including you. Every video points at it until you build your lead magnet — that's
+  the Week 2 session you skipped; say 'launch my lead magnet plugin' whenever you're ready and it replaces this.
+  One paste: its link goes on line 2 of your upload defaults and in the pinned comment."* The link
   flows into this video's script CTA line and SEO package in the same chat.
 
 ### 1b — The CTA pair
-- **The resource CTA** (around the first minute, `98`): the live resource from `## Current magnet` — the Week 6
-  guide, or the Starter Resource ("grab my Questions to Ask Before You Choose a Sponsor — free, link in the
+- **The resource CTA** (around the first minute, `98`): the live resource from `## Current magnet` — the lead
+  magnet built in Week 2, or (the fallback) the Starter Resource ("grab my Questions to Ask Before You Choose a Sponsor — free, link in the
   description") — phrased for THIS video and the avatar's pain, with the keyword from `identity/publishing.md`'s
   `Keyword:` line (read now; `content-pillars.md`'s CTA line second) when one is set. Never the Partner Call
   as the resource; never a resource that does not exist — 1a makes sure one does.
 - **The book-a-call CTA** (a third to halfway in, and at the end): warm, inviting, specific to the video —
   "if you want to see what this could look like for you, my calendar is in the description; I'd love to hear
   your story." Rotate the wording across videos; never pushy; never a compensation mention.
-- **The Lead Map** (only when a Week 6 lead magnet exists — the Starter Resource needs no map): title · who it
+- **The Lead Map** (only when the lead magnet exists — built in Week 2; the Starter Resource needs no map): title · who it
   is for · the pain it answers · page-by-page outline · where it lives (description line 2, pinned comment,
   the keyword) · the exchange (email or DM keyword) · the next step (the call). The Lead Magnet plugin designs
   it; this is the map.

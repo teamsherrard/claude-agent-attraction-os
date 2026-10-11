@@ -96,7 +96,8 @@ The kb's catch-up doctrine, in this order:
    working — and what were you trying to do when life happened?"* (Setup died → `maa-support-onboard`
    audit is the true catch-up plan.)
 3. **The compression:** catch-up order = the install chain, not the calendar — Brain (W1) →
-   avatars + UVP (W2, never skipped: every later plugin reads them) → the ONE engine matching their
+   avatars + UVP + the lead magnet (W2, never skipped: every later plugin reads them and points its CTAs at
+   the guide) → the ONE engine matching their
    next real need → everything else when pulled. Give them the week-gated minimum viable week from
    the kb and name its skill phrase.
 4. **3+ weeks behind and discouraged** → warmly surface Thursday's tech Q&A or Heidi's Wednesday

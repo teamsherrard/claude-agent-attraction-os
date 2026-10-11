@@ -130,7 +130,7 @@ face) sit inside the centre-square region; footer and CTA bands may run to the e
    me", the contact bar + compliance strip. **THE AVATAR TEST:** the three posts speak to three
    different types of agent from the Book — or, with one avatar, to three different pains of the five —
    never three variations of one message. **ONE-STEP CTA:** a single frictionless action; a keyword CTA
-   ("DM me the word CALL") is fine; "grab my guide" only once a guide exists (Week 6).
+   ("DM me the word CALL") is fine; "grab my guide" only once a guide exists (Week 2, after the offer).
 
 ### Story templates — 1080×1920, 3 max
 - **Agent-win story** (`story-win.png`) — the win formula vertically (photo full-bleed-with-fade or the
@@ -151,7 +151,7 @@ Named to the five topics from Mike's profile lesson (a mini website for your rec
 member's own: **About me** (`highlight-about.png`, their monogram or a person icon) · **Agent wins**
 (`highlight-wins.png`, a trophy or a rising line) · **Culture** (`highlight-culture.png`, people or a
 flame) · **Free value** (`highlight-value.png`, an open book or a gift — the guide's own cover fills it in
-Week 6) · **Partner with me** (`highlight-partner.png`, a handshake or an open door). Optional extras via
+Week 2, once the Lead Magnet plugin writes it) · **Partner with me** (`highlight-partner.png`, a handshake or an open door). Optional extras via
 request: Training, Events, Behind the scenes.
 
 ### The "Join My Team" 1-pager cover — US Letter portrait, 2550×3300 (`cover-join-my-team.png`)

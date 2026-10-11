@@ -28,6 +28,6 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 **What they want an agent to FEEL after their content:** "seen — and clear on what to do this Sunday"
 **Tone reference (calibration only, never copied):** none named (demo) — "the former-teacher creators who put the board on camera"
 
-**Primary CTA:** "Book a call with me — https://book.taylorbrooks.demo/call" (illustrative — demo) · **Second CTA (the guide / keyword):** ROUTINE → "The Five-Step Sunday Routine" (the Lead Magnet plugin's keyword, Week 6 — set in this demo)
+**Primary CTA:** "Book a call with me — https://book.taylorbrooks.demo/call" (illustrative — demo) · **Second CTA (the guide / keyword):** ROUTINE → "The Five-Step Sunday Routine" (the Lead Magnet plugin's keyword, Week 2 — set in this demo)
 **Topics most confident on:** open houses · follow-up · teaching a brand-new agent · simple tracking · what to do on a Tuesday · **Topics to avoid:** market predictions · anything about compensation in public · anything about another brokerage
 **The one thing they wish struggling agents understood:** "The lead bill isn't the system. The follow-up is."

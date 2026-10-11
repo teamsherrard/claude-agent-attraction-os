@@ -20,14 +20,14 @@ verifies they match).
 │   │         ├── Script                                    (yt-script)
 │   │         ├── SEO Package — [title] — YYYY-MM-DD        (yt-seo)
 │   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail)
-│   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when a Week 6 lead magnet exists)
+│   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when the lead magnet exists, built in Week 2)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
 │   │         ├── Model Breakdown — [title] — YYYY-MM-DD    (yt-model-breakdown — model videos only)
 │   │         ├── Interview Prep — [guest] — YYYY-MM-DD     (yt-interview — interviews only)
 │   │         └── the three thumbnails (1280×720)           (built in Claude Design from the brief; the member pushes or drops them here)
 │   ├── Graphics/                    ← carousels, designed posts, proof cards (the Design Studio) — never a video's thumbnails
 │   └── Guides/
-│         └── Starter Resource — YYYY-MM-DD   (yt-leads — ONCE, Week 4, while no lead magnet exists; a loose dated file beside the Lead Magnet plugin's campaign folders from Week 6, never inside one)
+│         └── Starter Resource — YYYY-MM-DD   (yt-leads — ONCE, Week 4, the fallback while no Week 2 lead magnet exists; a loose dated file beside the Lead Magnet plugin's campaign folders (Week 2 onward), never inside one)
 └── 06 · Materials/                  ← the brokerage deck, past videos — READ for model content, never written
 ```
 No tracker spreadsheets. No Idea Bank, Content Map, Calendar, Keyword Map, or Performance Log — the system is
@@ -38,7 +38,7 @@ chat-driven and reads state live (the Brain, the content log, the channel, the b
 - Channel kit: `Channel Page Kit — YYYY-MM-DD`
 - Video folder: `YYYY-MM-DD · [Video Title]` (date = the day the script was made; Title Case; no emojis or slashes)
 - Deep dive: `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`
-- Starter resource: `Starter Resource — YYYY-MM-DD` (`yt-leads`; `03 · Content/Guides/`; built once, in Week 4, while no lead magnet exists)
+- Starter resource: `Starter Resource — YYYY-MM-DD` (`yt-leads`; `03 · Content/Guides/`; the fallback — built once, in Week 4, only while no Week 2 lead magnet exists)
 - Docs inside a video folder — FIXED names: `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief —
   [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
   `Interview Prep — [guest] — YYYY-MM-DD` · `Model Breakdown — [title] — YYYY-MM-DD`

@@ -35,7 +35,7 @@ unset stops here**; brokerage name display, license display, the compensation po
 (name, brokerage, what they're building, market, socials, booking link), `identity/offer.md` (what they give
 agents — as outcomes), `identity/positioning.md` (the one line, the messaging pillars), `identity/avatars.md`
 (the questions agents actually ask), `identity/proof.md` (agents helped, consent; organization today, dated),
-`identity/profiles.md` (the bios the Short-Form plugin's `sf-setup` wrote in Week 3 and `lm-profiles` refined —
+`identity/profiles.md` (the bios `lm-profiles` wrote in Week 2 — the Short-Form plugin's `sf-setup` refreshes them in Week 3 —
 reuse the identity line from the first line of the Instagram bio and the `## Google Business Profile` section
 if one exists; never re-invent), and `memory/magnets.md` → `## Current magnet` (the live guide and its funnel URL).
 One status question only (your turn — one word): *"Is your Google Business Profile already claimed and

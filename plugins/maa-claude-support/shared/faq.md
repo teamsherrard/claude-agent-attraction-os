@@ -147,8 +147,9 @@ Seven links, in order — never skip ahead:
 5. "Set up my attraction brain" (Plugin 1 — everything reads it)
 6. Connect email + calendar + drive + your CRM when setup asks
 7. The Design Studio's Design Package (logo → style sheet → brand) in Week 1, right after the Brain — the
-   Brain and the brand both land in Week 1; then each week's plugins as that week opens (the offer assets in
-   Design in Week 2, Short-Form + Riverside in Week 3…)
+   Brain and the brand both land in Week 1; then each week's plugins as that week opens (in Week 2 the Lead
+   Magnet plugin — after "build my partner offer" — and the offer assets in Design, Short-Form + Riverside in
+   Week 3…)
 
 Lost? Say "am I set up right" — I'll find where you are and we resume from the first missing
 step. Never start over.

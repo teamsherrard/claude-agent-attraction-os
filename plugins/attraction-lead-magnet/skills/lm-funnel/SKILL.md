@@ -186,10 +186,12 @@ the thank-you page footer**. `set` → one reminder to confirm with their broker
    the page from these exact sections and takes it live. One thing that matters: test-submit the form once
    before you send anyone to it, and tell me the live link so every other system points at it."*
 5. **Point traffic at it (one line, no new work):** the free places to put the link once it's live — the
-   ManyChat GUIDE keyword and the DM / email / story that deliver it (*"say 'deliver my guide' and I'll
-   write them"*), their **bios** (`lm-profiles`), their **Google Business Profile** post (`lm-gbp`), and
-   every video description and Reel caption (the YouTube and Short-Form systems drive the traffic; this page
-   catches it).
+   GUIDE keyword and the DM / email / story that deliver it (*"say 'deliver my guide' and I'll write them"*),
+   their **bios** (`lm-profiles`), their **Google Business Profile** post (`lm-gbp`), their partners
+   (`lm-partnerships`), their DMs, and the booking page. The content engines arrive later and plug in then —
+   every Reel caption from the Short-Form System (Week 3) and every video description from the YouTube System
+   (Week 4) point at this page; until then the link lives in the bios, the Google profile, partnerships, DMs,
+   and the booking page (the week rule: those engines are never "missing").
 
 ---
 

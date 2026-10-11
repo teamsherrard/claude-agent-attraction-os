@@ -52,11 +52,11 @@ thing to build — paste your Design Package brief into Claude Design"* (the bri
 | Week | Files | Built by | How to report it |
 |---|---|---|---|
 | 1 (optional) | leadership · operations · content-pillars | `attraction-leadership-audit` · `attraction-operations` · the Short-Form setup (Week 3) | "available whenever you want it" — one line, only if they ask what else exists |
-| 2 | offer finalized · positioning full · brokerage-model · prospect-intel · why-join-me story · `memory/top-50` seeded | `attraction-offer` · `attraction-model-positioning` · `attraction-brokerage-model` · `attraction-prospect-radar` · `attraction-why-join-me` · `attraction-top-50` | before Week 2: say nothing unless asked; in or after Week 2: "ready to build" with the trigger phrase |
-| 3 | content-pillars · publishing · profiles · content-performance | the Short-Form plugin's setup | "arrives with your Short-Form system" |
+| 2 | offer finalized · positioning full · brokerage-model · prospect-intel · why-join-me story · `memory/top-50` seeded · then, after the offer session: magnets · list-growth · profiles | `attraction-offer` · `attraction-model-positioning` · `attraction-brokerage-model` · `attraction-prospect-radar` · `attraction-why-join-me` · `attraction-top-50` · the Lead Magnet plugin (`lm-navigator`, run after "build my partner offer") | before Week 2: say nothing unless asked; in or after Week 2: "ready to build" with the trigger phrase; the lead magnet: "arrives right after your offer — say 'launch my lead magnet plugin'" |
+| 3 | content-pillars · publishing · content-performance (profiles refreshed) | the Short-Form plugin's setup | "arrives with your Short-Form system" |
 | 4 | channel · interview-pipeline | the YouTube plugin | "arrives with your YouTube system" |
 | 5 | conversations · pipeline · follow-up-queue filling · sales-system · sales-funnel · intel-reports/ | the Conversion and AI Admin plugins | "fills as you talk to agents" |
-| 6 | organization (fills as agents join) · magnets · list-growth | `attraction-capture` and the AI Admin (organization); the Week 6 Retention & Duplication lessons | "fills as agents join; Week 6 builds the onboarding path" |
+| 6 | organization (fills as agents join) | `attraction-capture` and the AI Admin (organization); the Week 6 Retention & Duplication lessons | "fills as agents join; Week 6 builds the onboarding path" |
 If `config.md` carries a `Cohort week` line (whichever plugin stamps it), use it; otherwise infer
 nothing and report the Week 1 bar only. **Never demand a later week's deliverable early and never call it
 missing.**

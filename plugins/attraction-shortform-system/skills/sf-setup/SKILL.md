@@ -116,12 +116,15 @@ them I need your compliance basics. Say 'set up my attraction compliance' (three
 up."* Then skip to Step 5 and leave `bios done` unset.
 
 **Lazy-load `mike-frameworks.md` §9a.** **Open now:** `identity/voice-samples.md` (their real phrasing) ·
-`identity/profiles.md` **if it exists** (bios from an earlier run — refreshed, never restarted). Every bio answers
+`identity/profiles.md` **if it exists** (normally it does — the Lead Magnet plugin's `lm-profiles` wrote it in Week 2, aligned
+to the funnel; this step refreshes the bio text inside its five sections, never restarts, and keeps every extra section it
+added). Every bio answers
 **the five questions**: who you are · who you help ·
 what you help them do · why they should listen · what to do next. Inputs are all in the Brain: the why-join-me
 one-breath line (or the journey's turning point if Week 2 hasn't written it), the known-for, the primary avatar,
 credibility from `proof.md` exactly as stated (none public → lead with who you help; **never invent an award or a
-number**), the resource (from `offer.md`; at seeds → the free thing they already give today, or "book a call"),
+number**), the resource (`memory/magnets.md → ## Current magnet` first — the guide built in Week 2 — then `offer.md`; at seeds and
+no magnet → the free thing they already give today, or "book a call"),
 handles and booking link from `profile.md`, brokerage name and license display per `compliance.md`.
 One stop of questions **only if the Brain doesn't answer them** (2–4, together): which platforms they actually
 post on and in what order · the link-in-bio tool they use (if any) · whether LinkedIn matters (yes by default when
@@ -136,14 +139,17 @@ Write, in their voice:
 - **LinkedIn** (headline ≤220 characters + an About of 4–5 short paragraphs written for team leaders and
   broker-owners: the problem they carry, what the member built, proof, the ask).
 Compliance stamp as the file says (brokerage name / license where required). No compensation, no "#1" without a
-source, no brokerage as the hook. If a Week 2 bios document already exists in `02 · Brand`, read it as data and
-refresh it rather than starting over.
+source, no brokerage as the hook. If the Week 2 Platform Profiles pack already exists in `02 · Brand` (the Lead Magnet
+plugin's doc), read it as data and refresh it rather than starting over.
 Deliver copy-paste blocks: *"Paste these in — or tell me what to change. Your turn."* On their yes: write them to
-`~/attraction-brain/identity/profiles.md` in the contract's shape — `# [Name] — Platform Profiles`, the owner line,
-then one section per platform in this order: `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube`
-(each: the live bio text, then the five questions ticked; `## YouTube` is a one-line placeholder — "written by your
-YouTube system in Week 4" — until that plugin fills it). If the file already exists, replace only the bio text inside
-each heading — never rename, reorder, or drop a section, and keep any section or update line another system added.
+`~/attraction-brain/identity/profiles.md`. **The file normally exists** (`lm-profiles` wrote it in Week 2) → replace only
+the bio text inside `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` — never rename, reorder, or drop a
+section; leave a `## YouTube` section another system filled as it is (the YouTube plugin rewrites it in Week 4); keep
+every extra section and italic update line `lm-profiles` added, byte-for-byte. **Absent** (the member skipped the
+Week 2 lead magnet session — say which week builds it, never "missing") → create it in the contract's shape —
+`# [Name] — Platform Profiles`, the owner line, then one section per platform in this order: `## Instagram` ·
+`## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube` (each: the live bio text, then the five questions ticked;
+`## YouTube` a one-line placeholder — "written by your YouTube system in Week 4" — until that plugin fills it).
 The bios live only in this file — nothing about them is written into `publishing.md` beyond
 `Short-form setup: bios done`; **push both, verify**; save `Profiles & Bios — YYYY-MM-DD.docx` to `02 · Brand/` per
 `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`.
@@ -151,7 +157,9 @@ The bios live only in this file — nothing about them is written into `publishi
 ## Step 5 — The keyword (one word, chosen once)
 **Lazy-load `mike-frameworks.md` §8.** Propose ONE word: tied to the resource or the invitation (e.g. **PARTNER**
 when the ask is "get everything free — partner with me"; a resource word like **SCRIPTS** or **PLAN** when there
-is a real free thing), one word, easy to say on camera and type in a comment, never a brokerage name, never a
+is a real free thing — the Week 2 guide already rides on **GUIDE**, read from `memory/magnets.md → ## Current magnet`,
+so with a live guide the primary word is usually GUIDE or the invitation word), one word, easy to say on camera and
+type in a comment, never a brokerage name, never a
 word their followers already comment by habit. One line of why. Then the one question that matters:
 > "Do you use ManyChat? Mike's sequences import into your own account — optional. Without it, the keyword still
 > works: you reply by hand, and from Week 5 your follow-up queue surfaces every comment. Your turn."
@@ -206,7 +214,7 @@ Come back for Step 7 only after that piece is delivered (or if they say "set up 
 - [ ] Second call routed: resume or one named part — **the interview never re-ran**
 - [ ] `identity/content-pillars.md` written in the contract shape, five pillars mapped to the avatars, stories, positioning, proof — pushed
 - [ ] Compliance three-state applied before the bios; `unset` stopped the bios with a plain line, nothing else
-- [ ] Four bios, each answering the five questions, no invented credibility, no compensation, stamp applied — written to `identity/profiles.md` (the five `## Platform` sections in order, `## YouTube` a placeholder, headings never renamed) + saved to `02 · Brand` — pushed
+- [ ] Four bios, each answering the five questions, no invented credibility, no compensation, stamp applied — written to `identity/profiles.md` (refreshed inside the five `## Platform` sections `lm-profiles` wrote in Week 2 — extra sections kept, headings never renamed; created with the placeholder `## YouTube` only if the file was absent) + saved to `02 · Brand` — pushed
 - [ ] Keyword chosen (one word), ManyChat state recorded — pushed
 - [ ] Member handed to a first piece **before** any tool was mentioned
 - [ ] Cadence/mix written; posting tool offered once with a real connect flow, answer recorded; board offered once; Friday note mentioned, not provisioned

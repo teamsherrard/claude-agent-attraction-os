@@ -36,8 +36,8 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
    that matches the avatar and the pain, weaves it in their voice, then stamps its **Used-where**. Former
    brokerages are never named in a story ("a franchise", "an independent"). Never fabricate a voice, a story,
    a quote, a testimonial, a production number, or a rev-share figure.
-5. **THE WEEK RULE.** The Partner Offer is Week 2, content pillars Week 3, the channel Week 4, the pipeline
-   Week 5, onboarding Week 6. A later-week file that is empty is not a gap; say which week builds it.
+5. **THE WEEK RULE.** The Partner Offer and, right after it, the lead magnet are Week 2, content pillars Week 3,
+   the channel Week 4, the pipeline Week 5, onboarding Week 6. A later-week file that is empty is not a gap; say which week builds it.
    *(This demo Brain has its later-week files filled so the demo shows the finished product.)*
 
 If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** first. A tool error is never

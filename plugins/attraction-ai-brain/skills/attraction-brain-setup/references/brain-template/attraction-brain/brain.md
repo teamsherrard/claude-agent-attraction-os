@@ -33,9 +33,9 @@
    that matches the avatar and the pain, weaves it in their voice, then stamps its **Used-where**. Former
    brokerages are never named in a story ("a franchise", "an independent"). Never fabricate a voice, a story,
    a quote, a testimonial, a production number, or a rev-share figure.
-5. **THE WEEK RULE.** The Partner Offer is Week 2; content pillars, the bios, and the publishing layer Week 3;
-   the channel Week 4; the sales system, the pipeline, and the AI Admin Week 5; the lead magnet and onboarding
-   Week 6. A later-week file that is empty is not a gap; say which week builds it.
+5. **THE WEEK RULE.** The Partner Offer and, right after it, the lead magnet and the bios are Week 2; content
+   pillars and the publishing layer Week 3; the channel Week 4; the sales system, the pipeline, and the AI Admin
+   Week 5; onboarding Week 6. A later-week file that is empty is not a gap; say which week builds it.
 
 If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** first. A tool error is never
 "no Brain". Only if the cloud search genuinely finds nothing: suggest "Set up my attraction brain."
@@ -72,7 +72,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (feel, references, tagline) — the Design Package reads this
 - `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 3; empty until then by design)
 - `identity/publishing.md` — the short-form layer: platforms, cadence, the keyword, posting tool, best times, content board, link in bio (Short-Form-owned, Week 3; YouTube reads `Content board:` and `Keyword:` here)
-- `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `sf-setup` writes it in Week 3, `yt-setup` fills YouTube in Week 4, `lm-profiles` updates to the funnel's CTA in Week 6
+- `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `lm-profiles` writes it in Week 2 (aligned to the funnel's CTA), `sf-setup` refreshes its five sections in Week 3, `yt-setup` fills YouTube in Week 4
 - `identity/channel.md` — the YouTube channel: lanes and playlists, the CTA line, upload defaults, baseline, the Game Plan anchors, dated `## Performance` blocks (YouTube-owned, Week 4)
 - `identity/sales-system.md` — the Partner Call machine: calendar, the five application-form questions, the "no" rule, CRM stage mapping, reminders (Conversion-owned, Week 5; mirrors the booking link in operations.md)
 - `identity/goals.md` — 12-month milestones, 30-60-90 targets, the money scenarios (illustrative), weekly activity
@@ -97,8 +97,8 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/content-performance.md` — the Friday ledger: which Reels, stories, and keywords started agent conversations (Short-Form-owned, Week 3; YouTube appends its section from Week 4)
 - `memory/follow-up-queue.md` — every prospect due a touch, with the reason, tomorrow's confirmations, the touch log (AI Admin-owned, Week 5)
 - `memory/sales-funnel.md` — the weekly funnel by source: booked → held → 3-ways → joins, the constraint (Conversion-owned, Week 5)
-- `memory/magnets.md` — every lead magnet and `## Current magnet`, the one every CTA points at (Lead Magnet-owned, Week 6; readers take the live guide from here first)
-- `memory/list-growth.md` — the email list: nurture sequences, weekly opt-in rows, calls booked from the funnel, partners (Lead Magnet-owned, Week 6)
+- `memory/magnets.md` — every lead magnet and `## Current magnet`, the one every CTA points at (Lead Magnet-owned, Week 2; readers take the live guide from here first)
+- `memory/list-growth.md` — the email list: nurture sequences, weekly opt-in rows, calls booked from the funnel, partners (Lead Magnet-owned, Week 2)
 - `memory/events.md` — events run and their follow-up (Events-owned, Week 6) · `memory/support-log.md` · `memory/claude-updates.md` — the Support plugin's ticket log and Claude-changes digest
 - `memory/capture-log.md` — anything capture could not classify (Open rows surface in the Debrief)
 - `memory/deadlines.md` — what's due and when

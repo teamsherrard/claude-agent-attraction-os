@@ -226,7 +226,7 @@ Only if the AI Admin is installed add: *"— and your morning brief carries your
    `memory/content-log.md`, `memory/deadlines.md`; and, when they exist, `memory/sales-funnel.md`
    (show rate, held→join — or a `WEEKLY ROW:` line `sales-scorecard` handed over this session) and
    `memory/list-growth.md` → the newest row's **"Calls booked from the funnel"** (the Lead Magnet plugin's
-   ledger, Week 6; skip silently if absent).
+   ledger, kept from Week 2; skip silently if absent).
 2. **Roll last week's daily rows into one weekly row** (sum the activity, carry the joins, score the
    week Ahead / On pace / Behind against the weekly activity target) and append it in the locked
    eleven-column shape. The three columns the daily rows lack are counted from the ledgers, never

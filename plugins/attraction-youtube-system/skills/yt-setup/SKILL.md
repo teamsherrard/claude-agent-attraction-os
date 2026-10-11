@@ -66,8 +66,8 @@ Add the model tip only if this is a fresh session: one sitting, medium effort.
 Read `brain.md` (its Quick reference carries the name, the primary avatar, the known-for, the offer status, and
 the booking link), then only three more files now — the rest open at the kit piece that uses them:
 `identity/avatars.md` · `strategy.md` (known for) · the resource — `memory/magnets.md → ## Current magnet` (the
-Week 6 guide, or the Starter Resource once the first video's lead step has built it; empty before that is
-normal), otherwise `offer.md` (the offer; `Status: seeds` means Week 2 builds the offer — never demand it).
+lead magnet built in Week 2 — or, only if the member skipped that session, the Starter Resource once the first
+video's lead step has built the fallback; empty until then is normal), otherwise `offer.md` (the offer; `Status: seeds` means Week 2 builds the offer — never demand it).
 Reflect it back in two lines so it is clear nothing will be re-asked:
 > "Here's what I'm working from: you're [name], you help [avatar] [outcome] through [known-for], your resource
 > is [the lead magnet, or 'your starter resource — your first video builds it'], and your booking link is [link]. I won't ask any of that again."
@@ -114,11 +114,12 @@ the call).
    `proof.md` (never invented; zero proof → one honest line) · the resource + the booking link · the
    **disclosure block** from `compliance.md` (brokerage name and license as required, the disclaimer verbatim).
    Reuse the Brain's saved bio phrasing from `identity/profiles.md` (the bios file, one H2 per platform incl.
-   YouTube — written by `sf-setup`, updated by `lm-profiles`; empty before Week 3 is normal) — the same entity line
+   YouTube — written by `lm-profiles` in Week 2, refreshed by `sf-setup` in Week 3; empty before then is normal) — the same entity line
    across platforms is what AI search rewards.
 3. **LINKS** *(Customization → Basic info → Links)* — the booking link first (the Partner Call), the resource
-   (the lead magnet, or the Starter Resource once the first video's lead step builds it — the community or the
-   call until then; `yt-leads` hands the member that one paste when it lands), ONE best social. Not ten links.
+   (the lead magnet built in Week 2, or the fallback Starter Resource once the first video's lead step builds it —
+   the community or the call until then; `yt-leads` hands the member that one paste when it lands), ONE best
+   social. Not ten links.
 4. **CHANNEL KEYWORDS** *(Settings → Channel → Basic info → Keywords)* — 8–12 agent-search phrases from
    `${CLAUDE_PLUGIN_ROOT}/shared/seo-knowledge-base.md` (the model phrase, the niche + "for real estate
    agents", the avatar phrase, "how to switch brokerages"…). Never single generic words.
@@ -136,7 +137,7 @@ the call).
    once it exists), a contact line if `operations.md` lists one, the disclosure block at
    the end; a small default tag set; category (Education); default visibility; language.
 8. **THE CTA LINE** — the two spoken CTAs in their voice (doctrine §10): the early resource line (naming the
-   live resource — the lead magnet, or the Starter Resource the first video builds: "Questions to Ask Before
+   live resource — the lead magnet built in Week 2, or the fallback Starter Resource the first video builds: "Questions to Ask Before
    You Choose a Sponsor") and the mid call line, value-named, never the brokerage name. Written once here,
    reused by every script.
 9. **CHANNEL TRAILER** — new channel: *"say 'make my attraction video: my channel trailer' in a fresh chat — 60–90

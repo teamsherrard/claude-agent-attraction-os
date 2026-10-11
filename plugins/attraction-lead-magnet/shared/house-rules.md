@@ -1,4 +1,4 @@
-# House Rules — apply to every Lead Magnet skill (Plugin 8, `lm-`)
+# House Rules — apply to every Lead Magnet skill (Plugin 3, `lm-`)
 
 Every skill in this plugin follows these. When a skill says "apply house rules," it means this file. The
 OS-wide voice rules are `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md` (plain language, the READY BRIEF,
@@ -60,20 +60,22 @@ writes is built from it.
   them to **Agent Attraction Brain — Setup** — warmly, with the way back: *"…when that's done, just say 'set
   up my lead magnet for agents' and we'll pick straight back up."* A tool error is never "no Brain."
 - **The Partner Offer (`identity/offer.md`) is the anchor** — the magnet is built from it and the funnel
-  presents it. It is Week 2's deliverable and its `Status:` line is the gate. Every skill handles the three
-  states the same way:
+  presents it. It is built in the Week 2 offer session — the one that comes right before this plugin in the
+  same week — and its `Status:` line is the gate. Every skill handles the three states the same way:
   1. **`Status: seeds (Week 2 builds the offer)`, or the file missing / `[bracketed]` placeholders only** →
      don't build a public piece. Warm and short, naming the week, never calling it missing: *"Quick thing
-     first — your lead magnet gets built out of your Partner Offer, and that's Week 2's session. Say 'build my
-     offer' and it's one sitting — then say 'set up my lead magnet for agents' and we pick straight back
-     up."* Stop there. (The offer skill is `attraction-offer`; the member never hears the skill name.)
+     first — your lead magnet gets built out of your Partner Offer, and that's this week's first session
+     (Week 2). Say 'build my offer' and it's one sitting — then say 'set up my lead magnet for agents' and we
+     pick straight back up."* Stop there. (The offer skill is `attraction-offer`; the member never hears the skill name.)
   2. **`Status: finalized by member …` or `Status: built in Week 2 …`** → build.
   3. **Finalized but thin** (a one-liner but the five-pains table or "What's included" is empty) → don't
      stop; recommend and default to building: *"Your offer's in there, but the 'what you actually give' part
      is light. I'd build with what you've got and sharpen the offer after — easy to swap in. Sound good?"*
      A yes, a shrug, or silence = build. Only a clear "let's fix the offer first" detours.
 - **Later-week files are never "missing."** `brokerage-model.md` empty → "researched on demand — say 'explain
-  my model to me'"; `content-pillars.md` empty → Week 3. Say the week, keep moving.
+  my model to me'"; `content-pillars.md` empty → Week 3. The content engines that drive traffic to the funnel
+  arrive in Week 3 (Short-Form) and Week 4 (YouTube) and plug in then; until then the link lives in the bios,
+  the Google Business Profile, partnerships, DMs, and the booking page. Say the week, keep moving.
 
 ---
 
@@ -284,7 +286,7 @@ provisioned by this plugin.
 
 ## The write-back law (an unsynced write is a lost write)
 
-This plugin writes two Brain files it owns, and each write is **write → push → verify, immediately** — run
+This plugin writes three Brain files it owns, and each write is **write → push → verify, immediately** — run
 **attraction-brain-sync** (PUSH) as part of the write, never batched to the end. The local sandbox is wiped
 between sessions; only the cloud copy survives. The writes (full shapes in `shared/brain-contract.md`):
 - **`memory/magnets.md`** — the intake answers for a campaign (so a wiped session never re-asks), one row per
@@ -292,11 +294,12 @@ between sessions; only the cloud copy survives. The writes (full shapes in `shar
   **Current magnet** block every other plugin reads to point a CTA at the live guide.
 - **`memory/list-growth.md`** — the list tool, the nurture sequence status, the weekly list numbers, and the
   partners ledger.
-- **`identity/profiles.md`** — the bios. **Owned by the Short-Form plugin's `sf-setup` (Week 3), which writes it
-  first;** `lm-profiles` is the designated Week 6 updater: it reads the file if present, refines every
-  platform's bio to the funnel's CTA inside the same `## <Platform>` section headings (never renames,
-  reorders, or deletes one), and creates the file only if it is absent — with the same headings `sf-setup`
-  uses (Instagram · Facebook · TikTok · LinkedIn · YouTube).
+- **`identity/profiles.md`** — the bios. **`lm-profiles` (Week 2) writes it first** — the five headings in
+  `sf-setup`'s order (Instagram · Facebook · TikTok · LinkedIn · YouTube), the bio text inside each aligned to
+  the funnel's CTA, its own extra platforms appended after the five; the Short-Form plugin's `sf-setup`
+  (Week 3) then refreshes the bio text inside those five sections and preserves every extra section and
+  update line (never renames, reorders, or deletes one). A later `lm-profiles` run reads the file if present
+  and refines inside the same headings.
 - **`memory/ideas.md`** — mark a `leadmagnet` idea **used** only when it's actually built in (the one
   sanctioned touch on a file another plugin owns: status column only, same row).
 Readers never write files they don't own — this plugin never writes `offer.md`, `content-log.md`, or

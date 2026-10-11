@@ -36,8 +36,9 @@ this skill writes the **content-log row at Scripted**, stamps a story's **Used-w
   the primary reference for a read-aloud script; empty = proceed on `voice.md`, never invent a personality) ·
   `identity/compliance.md` (the gate below — its first line, `Status:`).
   **Opened at Step 2, by the format's Pull list:** `avatars.md` (the viewer, their pain in their words) ·
-  `memory/magnets.md → ## Current magnet` (the live resource: the Week 6 lead magnet, or the Starter Resource —
-  "Questions to Ask Before You Choose a Sponsor" — that `yt-leads` builds once when the section is empty) ·
+  `memory/magnets.md → ## Current magnet` (the live resource: the lead magnet built in Week 2, or — only if the member
+  skipped it — the Starter Resource "Questions to Ask Before You Choose a Sponsor" that `yt-leads` builds once when
+  the section is empty) ·
   `offer.md` (the offer only; `seeds` → Week 2 builds it, never demand it) · `identity/channel.md` → the CTA
   line and the booking link · `story-bank.md` (stories
   tagged to this pain or beat — rotate; check `content-log.md` for recent use) · `proof.md` (real lines only,
@@ -66,8 +67,8 @@ that never appear.
   long intro, or a credentials dump. It matches the title and thumbnail's promise.
 - **RESOURCE CTA (inside minute one)** — the channel's resource line from `channel.md`, in the member's voice,
   naming the live resource from `## Current magnet`: the lead magnet, or the Starter Resource — "grab my
-  Questions to Ask Before You Choose a Sponsor — it's free, link in the description." Section still empty →
-  name the Starter Resource anyway and make its build the next step before filming (`yt-make-video` runs it at
+  Questions to Ask Before You Choose a Sponsor — it's free, link in the description." Section still empty (the
+  Week 2 lead magnet was skipped) → name the Starter Resource anyway and make its build the next step before filming (`yt-make-video` runs it at
   Step 1; a standalone script chat says *"next I build your starter resource — two minutes"* → `yt-leads`).
   Never the Partner Call as the resource — the call has its own CTA below. A script never ships promising a
   resource that does not exist.
@@ -123,5 +124,5 @@ hashtags per `shared/seo-knowledge-base.md`. (Repurposing makes three more after
 
 ## Hand-off
 *"Script's ready. Next: the thumbnail brief (so you film the expression it needs), then the SEO package and
-your resource — your starter resource first, if it isn't built yet."* → `yt-thumbnail` · `yt-seo` · `yt-leads`.
+your resource (the starter resource first, only if you have no guide yet)."* → `yt-thumbnail` · `yt-seo` · `yt-leads`.
 Interviews → `yt-interview` for the question map and the guest's prep.

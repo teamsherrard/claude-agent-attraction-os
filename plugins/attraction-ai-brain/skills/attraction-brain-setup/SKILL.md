@@ -105,11 +105,11 @@ place, fill it through the phases, and **push after every phase**. Local engine 
 │   ├── brand-visual.md  content-pillars.md                         (brand · content)
 │   ├── goals.md  leadership.md  operations.md  compliance.md      (targets · readiness · ops · rules)
 │   ├── strategy.md  execution-framework.md                      (what they want to be known for · the 12-month plan)
-│   └── publishing.md  profiles.md  channel.md  sales-system.md    (scaffolded empty — Weeks 3–5 fill them)
+│   └── publishing.md  profiles.md  channel.md  sales-system.md    (scaffolded empty — Weeks 2–5 fill them)
 ├── memory/
 │   ├── top-50.md  conversations.md  pipeline.md  organization.md  scorecard.md
 │   ├── objections.md  debriefs.md  content-log.md  ideas.md  intel.md  deadlines.md  capture-log.md
-│   ├── interview-pipeline.md  magnets.md  list-growth.md  follow-up-queue.md  sales-funnel.md  content-performance.md  (Weeks 4–6)
+│   ├── interview-pipeline.md  magnets.md  list-growth.md  follow-up-queue.md  sales-funnel.md  content-performance.md  (Weeks 2–5)
 │   └── intel-reports/                                            (Conversion writes here from Week 5)
 ├── config.md                         # provider, workspace ID/link, CRM, timezone, Schema: aa-1.0, Setup progress
 └── exports/                          # local staging for deliverables (cloud home per drive-map.md)
@@ -621,7 +621,7 @@ Set their **timezone** (one place: `config.md`) and their **locale** (country ·
 
 *(Front-door rule: if a member with several Agent Attraction OS plugins installed says "set up
 everything" / "onboard me to agent attraction", Brain Setup runs FIRST — then list the other
-systems' setups in cohort order: Short-Form · Riverside · YouTube · Conversion & Sales · AI Admin · Lead Magnet · Events.)*
+systems' setups in cohort order: Lead Magnet (Week 2, after the offer) · Short-Form · Riverside · YouTube · Conversion & Sales · AI Admin · Events.)*
 
 ---
 
@@ -635,8 +635,8 @@ systems' setups in cohort order: Short-Form · Riverside · YouTube · Conversio
 - **Ask first, consult when they're stuck.** A real answer is used verbatim and never overwritten
   with a guess. "I don't know" is the moment they are paying for: propose 2–3 options built from
   THEIR data, say why each fits, recommend one, let them choose.
-- **Later-week deliverables are never demanded early.** The offer is Week 2, pillars Week 3, the
-  channel Week 4, the pipeline Week 5, onboarding Week 6. Collect raw material, say which week
+- **Later-week deliverables are never demanded early.** The offer and, right after it, the lead magnet are
+  Week 2, pillars Week 3, the channel Week 4, the pipeline Week 5, onboarding Week 6. Collect raw material, say which week
   builds it, never imply a gap.
 - **Specific over generic.** Real market names, the member's real phrases, the agent type they
   actually were. The delete test, the any-agent test, and the so-what test on everything they keep.

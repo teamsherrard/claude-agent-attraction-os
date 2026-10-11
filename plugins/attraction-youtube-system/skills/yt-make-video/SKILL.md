@@ -46,7 +46,8 @@ files in their own step — never here.
 recently — the content-log says which are fresh). **Interview?** Open `memory/interview-pipeline.md`; run
 `yt-interview` first if the guest is not yet there at Booked or later. **Model breakdown?** Run `yt-model-breakdown`
 (it gates on `identity/brokerage-model.md`). **No resource yet?** Open `memory/magnets.md → ## Current magnet` now —
-empty (nothing, or the template's placeholder) → run `yt-leads`' Starter Resource build (its 1a) now, once ever:
+normally it holds the lead magnet built in Week 2; empty (nothing, or the template's placeholder — the member skipped
+that session) → run `yt-leads`' Starter Resource build (its 1a) now, the fallback, once ever:
 the one-page "Questions to Ask Before You Choose a Sponsor", saved to Content → Guides, so the script, the
 description, and the pinned comment in this chat all name a real file.
 Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3–5 real videos agents
@@ -78,9 +79,9 @@ member shoots the expression the brief needs.
 hashtags, pinned comment, playlist and end-screen notes. Save as **SEO Package**.
 
 ## Step 5 — The resource
-`yt-leads`: the CTA pair for this video — the resource line names the live resource (the Week 6 guide, or the
-Starter Resource from Step 1) and the keyword the description points to. Save as **Lead Map** only when a
-Week 6 lead magnet exists; the Starter Resource needs no map.
+`yt-leads`: the CTA pair for this video — the resource line names the live resource (the lead magnet built in Week 2,
+or the fallback Starter Resource from Step 1) and the keyword the description points to. Save as **Lead Map** only
+when the lead magnet exists (built in Week 2); the Starter Resource needs no map.
 
 ## Step 6 — The board card (if they have the board — before filming)
 Open `identity/publishing.md` now; if it has a `Content board:` link, find this video's card (System ID → exact title →

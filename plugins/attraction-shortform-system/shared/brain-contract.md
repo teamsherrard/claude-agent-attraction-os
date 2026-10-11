@@ -1,7 +1,7 @@
 # The Brain Contract — what the Short-Form System reads and writes
 
 *Every Agent Attraction plugin ships a `shared/brain-contract.md` in this shape. This is the Short-Form System's
-(Plugin 3, Week 3). The OS-wide table lives in the master plan §1 and `docs/BRAIN-CONTRACT.md`. The Brain plugin's
+(Plugin 4, Week 3). The OS-wide table lives in the master plan §1 and `docs/BRAIN-CONTRACT.md`. The Brain plugin's
 own copy is the reference for the laws, the safety rails, and the registry; this file repeats only what a
 short-form skill needs and names exactly which files this plugin touches.*
 
@@ -52,8 +52,9 @@ surface) · `identity/compliance.md` · `memory/content-log.md` (all rows, to av
 `memory/intel.md` (brokerage and industry news for `sf-greenscreen`) · `memory/content-performance.md` (what worked —
 the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet) · `memory/top-50.md` and `memory/conversations.md`
 (read-only: whether an agent is already in a conversation; which conversations content started — the ledgers stay
-with their owners) · `memory/magnets.md` · `memory/sales-funnel.md` (read-only, once Conversion exists) → `## Current magnet` (Week 6, Lead Magnet-owned; `sf-comment-to-dm` delivers the GUIDE
-resource from here first and from `identity/offer.md` second; skip if it doesn't exist yet).
+with their owners) · `memory/magnets.md` · `memory/sales-funnel.md` (read-only, once Conversion exists) → `## Current magnet` (Lead Magnet-owned, built in Week 2 — it normally exists by Week 3; `sf-comment-to-dm` delivers the GUIDE
+resource from here first and from `identity/offer.md` second; empty only when the member skipped the Week 2 lead magnet
+session — then the asks fall back to the call).
 
 ## What this plugin OWNS (writes)
 
@@ -61,7 +62,7 @@ resource from here first and from `identity/offer.md` second; skip if it doesn't
 |---|---|---|
 | `identity/content-pillars.md` | `sf-setup` (creates it in Week 3; "update my pillars" edits one section) | `sf-ideas` appends to the `## Hooks bank` section only |
 | `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, the `Bios:` pointer) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it |
-| `identity/profiles.md` — the bios, ONE file (coordinator's ruling) | `sf-setup` (writes it first, Week 3, with the five `##` sections; "update my bios" replaces the bio text inside the existing headings, never renames, reorders, or drops one) | the YouTube plugin fills the `## YouTube` section (Week 4); the Lead Magnet plugin's `lm-profiles` (Week 6) is the designated later updater: it rewrites the bio text inside the same `## <Platform>` headings and appends sections for platforms this plugin doesn't cover; nobody else |
+| `identity/profiles.md` — the bios, ONE file (the user's ruling, 2026-10-10) | the Lead Magnet plugin's `lm-profiles` (Week 2) writes it FIRST — the five `##` sections in this plugin's order plus its own extra platforms after them; `sf-setup` (Week 3) is the **updater of the five sections**: it refreshes the bio text inside `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` (and leaves `## YouTube` to `yt-setup`), preserves every extra section and italic update line `lm-profiles` added, never renames, reorders, or drops a heading; it creates the file only if absent (the member skipped the Week 2 lead magnet session), with the same five headings | the YouTube plugin fills the `## YouTube` section (Week 4); a later `lm-profiles` run refines inside the same headings; nobody else |
 | `memory/content-log.md` — **Short-Form rows only** | every content skill appends its own rows; `sf-publish` updates the Status and Link of a row it finds | YouTube, the AI Editor, and Events own their own rows; nobody edits another plugin's row except the Editor flipping Status to `Edited` |
 | `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` creates the block: `Installed:` date · `Plugin version:` · `Layer:` → `identity/publishing.md` · `Weekly Content Performance task: not offered yet` | `sf-analytics` → the `Weekly Content Performance task:` line in this block only (task id or `declined`); nothing else in `config.md`, ever |
 | `memory/content-performance.md` | `sf-analytics` (the Friday performance ledger — which Reels, stories, and keywords produced agent DMs; inside the sync allowlist) | the content skills read it; nobody else writes it |
@@ -109,10 +110,10 @@ above); the content skills never do. An agent who surfaces from a Reel is added 
 ```
 (Only publishing lines live here — the bios are in `identity/profiles.md`, below; `Short-form setup: bios done` is the only trace of them in this file.)
 
-## `identity/profiles.md` — the bios (this plugin writes it first; the Lead Magnet plugin updates it in Week 6)
+## `identity/profiles.md` — the bios (the Lead Magnet plugin's `lm-profiles` writes it first in Week 2; this plugin refreshes the five sections in Week 3)
 ```
 # [Name] — Platform Profiles
-*identity · the bios, one section per platform · owner: the Short-Form System's sf-setup (Week 3) · lm-profiles (Week 6) updates the bio text inside these sections to the funnel's CTA*
+*identity · the bios, one section per platform · owner: the Lead Magnet plugin's lm-profiles (Week 2) writes it first · the Short-Form System's sf-setup (Week 3) refreshes the bio text inside the five sections · yt-setup fills ## YouTube (Week 4) · the Brain never writes this file*
 
 ## Instagram
 [the live bio text]  ·  the five questions ticked (who you are · who you help · what you help them do · why they should listen · what to do next)
@@ -120,19 +121,21 @@ above); the content skills never do. An agent who surfaces from a Reel is added 
 ## Facebook  ·  ## TikTok  ·  ## LinkedIn   (same shape, in that order)
 
 ## YouTube
-[one-line placeholder until the YouTube plugin fills it in Week 4 — "written by your YouTube system in Week 4"]
+[the channel bio lm-profiles wrote in Week 2, or a one-line placeholder — "written by your YouTube system in Week 4" — until the YouTube plugin fills it]
 ```
-Five `##` sections, always, in that order (the coordinator's ruling from the Lead Magnet QA). Rules: `sf-setup`
-replaces bio text inside a heading and never renames, reorders, or deletes one; the `## YouTube` placeholder is left
-for the YouTube plugin; any section another system appended after the five (`## X` · `## Threads` · `## Google
-Business Profile` · `## Brokerage site` · `## Email signature`) and any italic update line it left are preserved
-byte-for-byte.
+Five `##` sections, always, in that order (the coordinator's ruling from the Lead Magnet QA; the first writer flipped to
+`lm-profiles` by the user's ruling of 2026-10-10). Rules: `sf-setup` replaces bio text inside a heading and never
+renames, reorders, or deletes one; a `## YouTube` section `lm-profiles` filled is left as it is (the placeholder is
+written only when `sf-setup` creates the file itself) and the YouTube plugin rewrites it in Week 4; every section
+`lm-profiles` appended after the five (`## X` · `## Threads` · `## Google Business Profile` · `## Brokerage site` ·
+`## Email signature`) and any italic update line it left are preserved byte-for-byte.
 
 ## `identity/content-pillars.md` — the shape (written by `sf-setup`)
 Title and owner line · `**Status:**` · **the Brain template's header lines, kept and filled** — `**Content pillars
 (each with its one-line why):**` (the five, one line each) · `**Platforms (priority order):**` · `**Cadence (what
 they will actually sustain):**` · `**The two CTAs:**` (1. Book a call — the booking link · 2. The guide / keyword —
-the keyword and what it opens, from Week 3; the Lead Magnet plugin updates the guide in Week 6) · `**Signature
+the keyword and what it opens, from Week 3; the live guide itself is the Lead Magnet plugin's, built in Week 2, read from
+`memory/magnets.md → ## Current magnet`) · `**Signature
 series / recurring format:**` · `**Default video style:**` — the YouTube plugin reads cadence and the two CTAs from
 these lines, so they are never dropped (`publishing.md` is the source for cadence, platforms, and the keyword;
 these lines mirror it) · the one-line anchors pulled from the Brain (primary avatar, known-for, the

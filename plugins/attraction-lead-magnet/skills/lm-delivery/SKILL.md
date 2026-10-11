@@ -19,8 +19,9 @@ description: >
 The page catches agents who click; this kit catches the ones who **comment, reply, or DM** — which is most
 of them. Mike's rule (`15-advanced-scaling/73`): use ManyChat automations to deliver free resources
 ("comment [keyword] below to get this"), require an email for access, and always give value first. The
-Short-Form plugin's CTA ladder puts the GUIDE keyword on every authority Reel; this kit is what fires when
-someone uses it.
+Short-Form plugin's CTA ladder (Week 3) puts the GUIDE keyword on every authority Reel from then on; this kit
+is what fires when someone uses it — and until that engine arrives, the member runs the same keyword by hand
+in DMs, story replies, and comments on what they already post (the week rule: Week 3 is never "missing").
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — #1, #4 (download first, the call
 after), #5 (the gate; no compensation or model talk in a DM — `02-prospect-targeting/19`: never explain the
@@ -70,7 +71,7 @@ Frame 1 — the pain, in the type of agent's words, as a question (*"Comparing b
 11pm?"*). Frame 2 — the guide, with the mockup (from `lm-design`) and one line on why it's different (honest
 about every model, including mine). Frame 3 — the ask: *"DM me GUIDE and I'll send it"* (or the link sticker
 to the funnel). Spoken voice from `voice-print.md` if filmed. No model talk, no comp, nothing about any other
-brokerage. The Short-Form plugin's story rotation reuses this frame set; say so in one line.
+brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set; say so in one line.
 
 ## Step 4 — Deliver, save, log
 1. Deliver the kit in chat as three labeled blocks (ManyChat · Email · Story), paste-ready.

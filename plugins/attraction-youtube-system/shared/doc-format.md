@@ -257,7 +257,7 @@ CHANNEL PAGE KIT — [MEMBER NAME]
 
 ──────────────── LINKS ────────────────
    •  {Booking link} — the Partner Call
-   •  {Resource} — {the lead magnet · the Starter Resource once the first video's lead step builds it · the community until then}
+   •  {Resource} — {the lead magnet (built in Week 2) · the Starter Resource, only if the Week 2 guide was skipped and the first video's lead step built the fallback · the community until then}
    •  {ONE social}
 
 ──────────────── CHANNEL KEYWORDS ────────────────
@@ -391,7 +391,7 @@ Pattern it follows:  {from the swipe file, when loaded}
 (DIRECTION 2, 3 — same shape; each scored against the patterns)
 ```
 
-### Lead Map (`yt-leads` — only when a Week 6 lead magnet exists; the Starter Resource needs no map)
+### Lead Map (`yt-leads` — only when the lead magnet exists, built in Week 2; the Starter Resource needs no map)
 ```
 {VIDEO TITLE} — LEAD MAP
 Offer {from offer.md}  ·  Avatar pain {one of the five}  ·  CTA {booking link}
@@ -407,10 +407,10 @@ PAGE 1 — {purpose}
 
 ──────────────── CTA / NEXT STEP ────────────────
 {the exact Partner Call invite + booking link}
-(We map the content; your Lead Magnet system writes and designs it in Week 6.)
+(We map the content; your Lead Magnet system — the Week 2 plugin — writes and designs it as a later campaign.)
 ```
 
-### Starter Resource (`yt-leads` — built ONCE, in Week 4, while `## Current magnet` is empty; saved as `Starter Resource — YYYY-MM-DD` in `03 · Content/Guides/`)
+### Starter Resource (`yt-leads` — the fallback for a member who skipped the Week 2 lead magnet: built ONCE, in Week 4, while `## Current magnet` is empty; saved as `Starter Resource — YYYY-MM-DD` in `03 · Content/Guides/`)
 Questions only — the doc never answers them, never names a brokerage as the answer, never carries a figure. One
 page, in the member's voice, for the primary avatar. Ten to twelve questions; the standard twelve live in
 `yt-leads` 1a. Sub-band labels stay under 70 characters.

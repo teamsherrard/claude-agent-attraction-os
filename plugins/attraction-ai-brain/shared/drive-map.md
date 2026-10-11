@@ -102,7 +102,7 @@ work inside that one member's Brain; it is not a multi-user system. The member's
 `01 · AI Brain` — Setup, the Goals skill, every Book regenerate (this plugin). `02 · Brand` — the member drops the
 Design Package output; brand-direction points them there. `03 · Content` — the content producers from Week 3
 (Short-Form System, AI Editor) and Week 4 (YouTube); Graphics from the Design Studio; Guides from the Lead Magnet
-plugin (Week 6); Events from the Events & Workshops plugin (Week 6). `04 · Agents` — Prospect Radar (Week 2) and the Conversion plugin (Week 5) fill Prospects; Team &
+plugin (Week 2); Events from the Events & Workshops plugin (Week 6). `04 · Agents` — Prospect Radar (Week 2) and the Conversion plugin (Week 5) fill Prospects; Team &
 Retention (Week 6) fills My Organization. `05 · Offer` — Week 2's offer skills and the Value Vault (Week 6).
 `06 · Materials` — the member's own drops, any time. A folder the member hasn't needed yet SHOULD be empty — say
 so if they ask, with the week that fills it.

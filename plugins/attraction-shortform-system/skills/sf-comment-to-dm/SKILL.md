@@ -43,11 +43,11 @@ Then only what the job needs:
 - `identity/publishing.md` — the `Keyword:` line (the one word `sf-setup` chose; the default on every Reel),
   `What it opens:`, and `ManyChat:` (`connected` → the sequences run; otherwise the member replies by hand)
 - `identity/avatars.md` — who the keyword is for and their pains (the qualifier questions mirror them)
-- `memory/magnets.md` → `## Current magnet` (Week 6; skip if it doesn't exist) — the live guide the GUIDE keyword
-  delivers, read before `offer.md`
-- `identity/offer.md` — the free resource(s) the GUIDE keyword delivers; the one-line promise. `Status:
-  seeds` → every ask points to the call and the sheet marks where the guide slots in when Week 2's offer is
-  finished (never ask for it early).
+- `memory/magnets.md` → `## Current magnet` (built in Week 2 — it normally exists by now) — the live guide the GUIDE
+  keyword delivers, read before `offer.md`; empty only when the member skipped the Week 2 lead magnet session
+- `identity/offer.md` — the free resource(s) behind the guide; the one-line promise. `Status:
+  seeds` (and no magnet) → every ask points to the call and the sheet marks where the guide slots in when Week 2's
+  offer and lead magnet are finished (never ask for them early).
 - `identity/positioning.md` + `identity/journey.md` (the `## Why join me` block) — how the member talks
   about partnering, in their words
 - `identity/voice.md` + `identity/voice-samples.md` — every DM sounds like them, not like software
@@ -81,11 +81,16 @@ or a soft "DM me if this is you"; Personality Reels carry nothing but "follow." 
 call" as a post's CTA) appears **at most once a month** in the calendar; every other post earns it (an OS rule,
 not a Week 3 lesson — `mike-frameworks.md` §8: the call comes after a conversation).
 
+**The primary route from Week 3 is the GUIDE path:** `## Current magnet` normally holds the guide the Lead Magnet
+plugin built in Week 2, so the Resource rung delivers it by keyword and the funnel captures the email; the
+booking-link route is the fallback only when no magnet exists. The direct call-rung cadence above is unchanged.
+
 ## Step 3 — The keyword sheet and the DM bank (Job B; Job A picks one row)
 **The four sequence variants (each defaults to the primary keyword's flow until the ManyChat templates run; rename
 to the member's words if they prefer):**
 - **GUIDE** — "send me the free [guide name]." Delivers the live guide from `memory/magnets.md → ## Current magnet`
-  first (Week 6, the Lead Magnet plugin's file) and the resource in `identity/offer.md` second.
+  first (the Lead Magnet plugin's file, built in Week 2 — the primary route) and the resource in `identity/offer.md`
+  second; no magnet at all → the ask falls back to the booking link until the Week 2 guide is built.
 - **GROWTH** — for the avatar who is stuck or newer: delivers the training, tip, or template the Reel
   promised, then one question about where they are.
 - **SCALE** — for the producer or team leader avatar: delivers the systems piece the Reel promised, then one
@@ -106,8 +111,8 @@ Authority → Comment / Resource (*"comment [KEYWORD] and I'll send you the one-
 → Follow / save / share (*"send this to the agent who's panicking about it"*) · Story → DM (*"if this is where
 you are, DM me [KEYWORD]"*) · Proof → DM (*"want to know what she changed? DM me [KEYWORD]"*) · Personality →
 Follow only. Plus the one direct call-rung line, marked *once a month*. Every line is tied to a resource that
-exists (`magnets.md → ## Current magnet` first, `offer.md` second; `seeds` → the call); none names the model or
-the money. `sf-talkinghead`, `sf-carousel`, `sf-greenscreen`, and `sf-optimizer` take their CTA line from this
+exists (`magnets.md → ## Current magnet` first — the Week 2 guide, the primary route — `offer.md` second; no magnet
+and `seeds` → the call, the fallback); none names the model or the money. `sf-talkinghead`, `sf-carousel`, `sf-greenscreen`, and `sf-optimizer` take their CTA line from this
 bank once it exists; until then they write one on the same rules.
 
 **Write six messages for the primary keyword first, then six for each variant** (until the ManyChat templates

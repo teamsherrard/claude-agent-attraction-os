@@ -49,14 +49,14 @@ never narrate it, never name files (house rules #1).
 - A tool error is never "no Brain." Say which connector failed and how to reconnect; never suggest setup
   because of an error.
 
-## Step 1 — Is the Partner Offer ready? (Week 2's deliverable — the gate)
+## Step 1 — Is the Partner Offer ready? (built earlier this week, in the Week 2 offer session — the gate)
 
 The magnet is built **from the Partner Offer**, so check first — it's much kinder than letting them find out
 at the end. Read `~/attraction-brain/identity/offer.md` and apply **house rules #2's three states exactly**:
 - `Status: seeds (Week 2 builds the offer)`, the file missing, or still `[bracketed]` placeholders → the warm
   detour, naming the week and the way back, and stop: *"Quick thing first — your lead magnet gets built out
-  of your Partner Offer, and that's Week 2's session. Say 'build my offer' and it's one sitting — then say
-  'set up my lead magnet for agents' and we pick straight back up."* (The skill is `attraction-offer`; the
+  of your Partner Offer, and that's this week's first session (Week 2). Say 'build my offer' and it's one
+  sitting — then say 'set up my lead magnet for agents' and we pick straight back up."* (The skill is `attraction-offer`; the
   member never hears the name.) Never call the offer "missing."
 - `Status: finalized by member …` or `Status: built in Week 2 …` → go.
 - Finalized but thin (the five-pains table or "What's included" empty) → recommend building now and

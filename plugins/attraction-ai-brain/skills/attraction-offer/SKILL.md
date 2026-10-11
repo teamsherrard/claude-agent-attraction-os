@@ -170,8 +170,8 @@ Optional Stop 3: three name options for the offer (plain · outcome-led · brand
 1. **What you get day one** — the list, outcome-phrased, every item real today (a group chat of three is a
    community; a call that starts when the first partner joins is written exactly that way).
 2. **What I teach you first** — TEACH FIRST: the first three lessons, each "after this you can...", with
-   what's on screen and the template handed over. Lesson 1 is concrete enough to record tonight (Week 6's
-   Value Vault and the lead magnet are built from it).
+   what's on screen and the template handed over. Lesson 1 is concrete enough to record tonight (the lead
+   magnet — built right after this, in Week 2 — and Week 6's Value Vault are built from it).
 3. **What my organization and brokerage provide** — the upline and brokerage layers, generic names,
    outcome lines, *"I walk you through all of it on a call."*
 4. **The digital product promise** — the course, playbook, or guide the member will GIVE agents who join:

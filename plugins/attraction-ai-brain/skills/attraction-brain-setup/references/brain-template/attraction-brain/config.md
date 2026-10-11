@@ -48,6 +48,6 @@ connector for storage + email + calendar (`shared/connectors.md`). Email is draf
 - `## YouTube (Week 4)` — `Installed` · `Plugin version` · `Layer: identity/channel.md` · `Monday Kickoff task` · `Weekly ideas task` · `Monthly review task` · `YouTube section` (+ `Monday Kickoff delivery: email draft` if chosen)
 - `## Conversion & Sales` — `Call Block Prep task` · `Call Block Prep time` · `Cold-Lead Reactivation task` · `Booking page` · `Partner call length` · `Setter`
 - `## AI Admin (Week 5)` — `AI Admin: set up [date]` (the stamp, first line) · `Assistant name` · `Morning Brief task` · `Morning Brief time` · `Daily Follow-Up Queue task` · `Follow-Up Queue time` · `Monthly KPI Review task` · `KPI Review day` · `Team Wins Newsletter task` · `Newsletter slot` · `CRM mirror` · `VA`
-- `## Lead Magnet (Week 6)` — `Installed` · `List tool` · `Live data`
+- `## Lead Magnet (Week 2)` — `Installed` · `List tool` · `Live data` (the plugin runs right after the Week 2 Partner Offer session)
 - `## Events (Week 6)` — `Installed` · `Plugin version` · `Member code` · `Registration host` · `Post-Event Follow-Up task` (`not offered yet` → `ev-post-event-follow-up · armed for YYYY-MM-DD 9:00` · `declined` · `later`) — created by `ev-navigator` on its first run; no timezone here
 Timezone is never stored in any block — it lives in the registry above, once.

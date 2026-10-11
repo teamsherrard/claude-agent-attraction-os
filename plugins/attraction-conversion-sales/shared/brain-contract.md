@@ -1,7 +1,7 @@
 # The Brain Contract — what the Conversion & Sales plugin reads and writes
 
 *Every Agent Attraction plugin ships a `shared/brain-contract.md` in this shape. This is the Conversion & Sales plugin's (`cv-` and
-`sales-`; master plan §8, installed as Plugin 6). The OS-wide table lives in the master plan §1 and the Support plugin's `stack-map.md`.*
+`sales-`; master plan §8, installed as Plugin 7). The OS-wide table lives in the master plan §1 and the Support plugin's `stack-map.md`.*
 
 ## The three laws
 1. **Read `~/attraction-brain/brain.md` first.** It is the index. Open only the files the task needs. Never re-ask
@@ -49,9 +49,9 @@
 | `identity/goals.md` · `memory/scorecard.md` (read only) | weekly calls and hours (`sales-call-block`), the Targets block (`sales-scorecard`) — never written here |
 | `identity/brand-visual.md` | the design briefs (`cv-presentation`, `sales-booking-page`) |
 | `identity/sales-system.md` · `memory/sales-funnel.md` | this plugin's own files (below), read by every `sales-*` skill and `cv-call-prep` |
-| `memory/magnets.md` → `## Current magnet` (Week 6, Lead Magnet-owned) | the live guide every resource offer points at — read FIRST, `identity/offer.md` SECOND (`cv-conversation-starter`; the same rule `sf-comment-to-dm` and `yt-leads` follow); empty or "not live yet" is normal before Week 6 |
+| `memory/magnets.md` → `## Current magnet` (Lead Magnet-owned, built in Week 2) | the live guide every resource offer points at — read FIRST, `identity/offer.md` SECOND (`cv-conversation-starter`; the same rule `sf-comment-to-dm` and `yt-leads` follow); empty or "not live yet" only when the member skipped the Week 2 lead magnet session — say which week builds it, never "missing" |
 | `memory/ideas.md` → `general` rows reading "conversation starter from [video]" | the starters `yt-repurpose` parked while this plugin was not installed — `cv-conversation-starter` intake mode takes them (and stamps them, below) |
-| `memory/list-growth.md` (Week 6, `lm-analytics`) | its row's `Calls booked from the funnel`, for the `funnel n` note of the weekly row `sales-scorecard` hands over; never written here |
+| `memory/list-growth.md` (`lm-analytics`, kept from Week 2) | its row's `Calls booked from the funnel`, for the `funnel n` note of the weekly row `sales-scorecard` hands over; never written here |
 | `04 · Agents/Prospects` and `06 · Materials` in the workspace | prior call prep, radar reports, the brokerage onboarding doc, CRM exports — read by relevance, scoped to the workspace |
 
 ## What this plugin writes (one owner per file)

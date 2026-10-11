@@ -33,13 +33,14 @@ model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-yo
   read only when the description's disclosure block is written), `identity/avatars.md` (the viewer the title
   speaks to), `identity/voice.md` (titles and summary in their voice).
   **Opened at Step 2, the description:** `memory/magnets.md → ## Current magnet` first (the live resource — the
-  Week 6 lead magnet's funnel link or keyword, or the Starter Resource's download link: "Questions to Ask Before
+  lead magnet's funnel link or keyword, built in Week 2, or — only if that session was skipped — the Starter
+  Resource's download link: "Questions to Ask Before
   You Choose a Sponsor", built once by `yt-leads`; the section still empty → say so and have `yt-leads` build
   it before the package ships — line 2 is never the call twice), `identity/offer.md` second (the value
   proposition, the booking link) · the keyword — `identity/publishing.md` → the `Keyword:` line first (its single
   source), `identity/content-pillars.md`'s CTA line second (it mirrors it), nothing third (the two CTAs: book a
-  call · the guide/keyword — no keyword yet means the Lead Magnet plugin sets it in Week 6; the resource line
-  carries the link instead) · `identity/profile.md` (handles).
+  call · the guide/keyword — no keyword yet means the Short-Form System sets it in Week 3 (the guide's own GUIDE
+  keyword rides in `## Current magnet`); the resource line carries the link instead) · `identity/profile.md` (handles).
 - **Live demand check, budgeted (≤5 searches):** `yt-research`'s method — web search and page fetch; YouTube
   autocomplete only as the member pastes it or as a `youtube [phrase]` search — for the topic in the agent's
   words ("[brokerage] explained", "should I switch brokerages", "questions to ask a sponsor"); "people also ask"

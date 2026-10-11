@@ -1,6 +1,6 @@
 # Agent Attraction YouTube Doctrine — Mike Sherrard's long-form method for attracting agents
 
-This is the **canonical doctrine** for the Agent Attraction YouTube System (Plugin 5, Week 4 — the Long-Form
+This is the **canonical doctrine** for the Agent Attraction YouTube System (Plugin 6, Week 4 — the Long-Form
 Authority Engine). **Every skill in this plugin applies it.** It is built from Mike's Week 4 vault (the nine
 YouTube lessons, cited as `08-youtube/<n>`), the YouTube culture bonus (`bonus/bonus-youtube-culture-highlights-for-aaa`),
 the Week 4 cohort doc, and the VIP-day YouTube framework (cited as `VIP day`). Where a rule comes from a lesson,
@@ -362,8 +362,9 @@ the link in the description and book a private one-on-one Zoom call — I'd be m
 
 **The two CTAs (`/98`):**
 1. **Early — the resource** (inside the first minute): "If you'd like my exact playbook, click the link in the
-   description or the pinned comment and download it." Feeds the member's list (the Lead Magnet plugin's magnet
-   from `identity/offer.md` / `memory/magnets.md`; if none exists yet, the resource CTA is the Partner Call).
+   description or the pinned comment and download it." Feeds the member's list (the Lead Magnet plugin's magnet,
+   built in Week 2, from `memory/magnets.md` / `identity/offer.md`; if none exists yet, the resource CTA is the
+   Partner Call).
 2. **Mid — the call** (a third to halfway in): "If you want mentorship and support to apply this, feel free to
    book a call — I'd be happy to help you one on one." Warm, specific, "I'd love to hear your goals."
 

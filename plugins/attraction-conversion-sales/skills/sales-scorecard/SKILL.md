@@ -32,7 +32,7 @@ scorecard is a mirror, never a verdict; compare the member only to their own pri
 Call booked, Call held, 3-way, Joined this week), `memory/top-50.md` (the **Source** column per agent),
 `memory/conversations.md` (channel, 3-way rows), `memory/scorecard.md` (the Targets block: the weekly calls
 and joins target; existing rows), `memory/sales-funnel.md` (this skill's ledger, if it exists),
-`identity/goals.md` (ratios), `memory/list-growth.md` only when it exists (Week 6 — its row's `Calls booked
+`identity/goals.md` (ratios), `memory/list-growth.md` only when it exists (the Lead Magnet plugin keeps it from Week 2 — its row's `Calls booked
 from the funnel`, for the `funnel n` note), `config.md` (the AI Admin block → who appends the weekly row).
 Missing locally → `attraction-brain-sync`. A tool error is never "no Brain". Empty ledgers → "no calls logged yet —
 the scorecard starts the week you hold your first" and stop; never invent a number.
