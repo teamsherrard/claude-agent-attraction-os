@@ -17,7 +17,7 @@ Mike (2026-10-08): not a plugin, parked.
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "MAA help" / "help" / "I'm stuck" / "what did Mike say about…" |
 | – | **Design Studio** (Claude Design skill set, NOT a plugin) — W1 Design Package (logo · style sheet · brand kit), W2 the offer kit · lead magnet · funnel · content, W3 the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's Brand HQ project (there is no thumbnail design skill) | `aa-…-design` | 10 | **all 10 BUILT** (upload files in `design-studio/_dist`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
 | 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **BUILT** | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
-| 4 | **Short-Form** (W3) | `sf-` | 13 | **BUILT** | "set up my attraction short-form" |
+| 4 | **Short-Form** (W3) | `sf-` | 15 | **BUILT** (the four-step journey, 2026-10-13: profiles → Game Plan → board with 30 days → workflows → the first Reel) | "set up my attraction short-form" |
 | 5 | **AI Editor — Riverside** (W3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **vendored** | "set up my video editor" / "edit my reel" |
 | 6 | **YouTube** (W4) | `yt-` | 19 | **BUILT** | "set up my YouTube for agents" |
 | 7 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | **BUILT** | "launch conversion" / "I have a call with [name]" / "set up my sales system" |
@@ -91,8 +91,12 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "What did Mike say about ___" / "ask Mike" / "which lesson covers ___" | `maa-support-cohort` (the Ask-Mike lane → `shared/kb/kb-index.md`) | 2 |
 | "Help" / "I'm stuck" / any Claude question or breakage | `maa-support-navigator` | 2 |
 | "design my attraction logo" / my style sheet / my brand kit / my offer kit (the stack, the mockup, the one-pager, the deck) / my carousel / my win wall / my video brand kit / my event flyer / my value vault (my playbook, my course, my ebook, my onboarding roadmap) | an `aa-…-design` skill INSIDE Claude Design — `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design` · `aa-offer-kit-design` · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` · `aa-video-kit-design` · `aa-event-design` · `aa-value-vault-design` (the Brain's brand-direction skill writes the Week 1 brief; a thumbnail is a `yt-thumbnail` brief pasted into the Brand HQ project) | – |
-| "set up my attraction short-form" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
-| "how is my attraction content doing" · "set up my Friday performance note" (the Weekly Content Performance agent) | `sf-analytics` | 4 |
+| "set up my attraction short-form" (the whole Week 3 journey: profiles → the Game Plan → the board with 30 days mapped → the workflows → the first Reel) · "optimize my profiles for agents" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
+| "build my short-form game plan" · "plan my next 30 days of reels" · "update my short-form game plan" | `sf-gameplan` (the Short-Form Game Plan — pillars with angles, the hook bank, the keyword, the dated 30-day calendar; built inside setup, updated on demand) | 4 |
+| "map my next 30 days" · "my attraction content board" · "update my short-form board" | `sf-board` (mapping mode seeds the calendar as dated cards on the one shared Notion board) | 4 |
+| "run my week plan" · "turn on my Monday week plan" · "stop my Monday week plan" · "my attraction workflows" (the three short-form workflows, their status, the one-sentence stop) | `sf-week-plan` (the Monday Week Plan) | 4 |
+| "turn on my daily stories" · "stop my daily stories" (optional, off by default) | `sf-stories` | 4 |
+| "how is my attraction content doing" · "set up my Friday performance note" (the Weekly Content Performance workflow) | `sf-analytics` | 4 |
 | "edit my reel" / "edit my YouTube video" / "edit my interview" · "set up my video editor" · any edit ask | `studio-navigator` (it translates + routes: `studio-reel`, `studio-longform`, `studio-interview`, `studio-setup`) | 5 |
 | "my attraction game plan for YouTube" · "attraction video ideas" · "research this attraction topic" · "write my attraction script" · "build my interview pipeline" · "model breakdown video" · "SEO for my attraction video" · "repurpose my attraction video" · "triage my attraction comments" · "thumbnail brief" | `yt-gameplan` · `yt-ideation` · `yt-research` · `yt-script` · `yt-interview` · `yt-model-breakdown` · `yt-seo` · `yt-repurpose` · `yt-leads` · `yt-thumbnail` (a Claude Design brief) | 6 |
 | "agent intel on [name]" · "conversation starter" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow-up plan for [agent]" · "reactivate quiet agents" (front door: "launch conversion") | `cv-navigator` → `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 7 |
@@ -114,9 +118,9 @@ fix.
 | Brain (1) | everything | all `identity/` except `content-pillars · publishing · profiles · channel · sales-system`; `memory/top-50` (owner `attraction-top-50`; once the Admin registers it mirrors Stage / Last touch / Next move · Due from `pipeline` and `conversations`), `scorecard` (Targets; daily rows by the Debrief; weekly rows by the check-in until `admin-recruiting-scorecard`), `debriefs`, `objections` (heard-rows), `ideas`, `intel`, `capture-log`, `deadlines` (until the AI Admin), interim rows in `conversations` and `organization` and interim stage moves in `pipeline` (via capture, until Conversion / AI Admin) |
 | Support (2) | `config`, `brain.md`, every plugin's `config` block, the Brain template (to know which files should exist) | `memory/support-log`, `memory/claude-updates`, the `## MAA Support (Plugin 2)` block in `config.md` (`Support desk: attraction`) |
 | Design Studio (–) | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to the workspace's `02 · Brand`, `05 · Offer`) |
-| Short-Form (4) | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-setup), `identity/publishing.md`, `identity/profiles.md` (the five sections, refreshed — `lm-profiles` writes the file first in Week 2; `yt-setup` fills `## YouTube`), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block in `config.md` |
+| Short-Form (4) | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-gameplan — the Game Plan, run inside sf-setup), `identity/publishing.md` (sf-setup creates it; sf-gameplan the strategy lines), `identity/profiles.md` (the five sections, refreshed by sf-setup's Profile Optimization Pack — `lm-profiles` writes the file first in Week 2; `yt-setup` fills `## YouTube`), `memory/content-calendar.md` (sf-gameplan — the 30-day window; sf-week-plan keeps it rolling), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block in `config.md` (`Week Plan task` · `Week Plan slot` · `Weekly Content Performance task` · `Daily Stories task` · `Daily Stories time`) |
 | Riverside (5) | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist; no `config.md` block |
-| YouTube (6) | same as Short-Form + `content-pillars · publishing (Content board: · Keyword:) · brokerage-model · prospect-intel · leadership · organization · pipeline (read-only) · scorecard (read-only) · interview-pipeline` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md`, `profiles.md → ## YouTube`, `publishing.md → Content board:` (yt-board), the `## YouTube (Week 4)` block in `config.md` |
+| YouTube (6) | same as Short-Form + `content-pillars · publishing (Content board: · Keyword:) · brokerage-model · prospect-intel · leadership · organization · pipeline (read-only) · scorecard (read-only) · interview-pipeline` | `memory/content-log` (YT rows), `identity/channel.md`, `memory/interview-pipeline.md`, `memory/content-calendar.md` — the `## Long-form (YouTube)` section (yt-gameplan; the Monday Kickoff flips Status) and `## Kickoff briefs (YouTube)` (the Monday Kickoff) — never the short-form table or `## Week briefs`, `profiles.md → ## YouTube`, `publishing.md → Content board:` (yt-board), the `## YouTube (Week 4)` block in `config.md` |
 | Conversion (7) | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance · voice* · profile · journey · prospect-intel · operations · conversations · pipeline · debriefs · intel · intel-reports · organization · goals · scorecard (read-only) · brand-visual · sales-system · sales-funnel · magnets (## Current magnet) · events (the Next event: line)` | `memory/conversations` (its logging skills; the `Stage after` cell = the stage request), `memory/pipeline` (direct until the Admin registers; `STAGE MOVE REQUESTED` / `NEXT MOVE REQUESTED` after), `memory/objections` (handlers, heard-rows, the `## Practice log`), `memory/intel-reports/`, `identity/sales-system.md` (sales-system-setup), `memory/sales-funnel.md` (sales-scorecard), the `## Conversion & Sales` block in `config.md`; Top-50 touch cells as an interim appender until the Admin registers |
 | AI Admin (8) | `operations · goals · execution-framework · compliance · voice* · profile · story-bank · proof · brand-visual · offer · top-50 · conversations · pipeline · organization · scorecard · debriefs · deadlines · content-log · capture-log · intel · objections · ideas · intel-reports · follow-up-queue · sales-funnel · list-growth · events (the dual scan with debriefs)` | `memory/pipeline` (`admin-pipeline` — stage moves, the source of stage), `memory/follow-up-queue`, `scorecard` (weekly rows, eleven columns), `deadlines`, `memory/organization` (from Week 5), the `## AI Admin (Week 5)` block in `config.md` (first line `AI Admin: set up [date]` = the OS-wide Admin-installed signal); never a Top-50 cell, never `conversations.md` |
 | Lead Magnet (3) | `brain.md · avatars · offer · positioning · proof · compliance · brand-visual · voice* · story-bank · profile · journey · operations · brokerage-model · objections · ideas (leadmagnet rows) · top-50 (counts only) · config` — read-only | `memory/magnets.md` (`## Current magnet` is what every other CTA reads), `memory/list-growth.md`, `identity/profiles.md` (lm-profiles writes it FIRST in Week 2 — the five Short-Form headings plus its own extra platforms; sf-setup refreshes the five sections in Week 3), the `leadmagnet` rows' Status in `ideas.md`, the `## Lead Magnet (Week 2)` block in `config.md`; never `offer.md`, never `voice.md`, never a scorecard row |
@@ -136,7 +140,11 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Agent | Cadence | Owner skill | Week |
 |---|---|---|---|
 | Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
-| Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
+| Monday Week Plan | Mon | `sf-week-plan` — the week's posts drafted from the Game Plan's calendar into the board cards and a week brief; keeps 30 days visible; recommended on | 3 |
+| Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 (registered on `yt-setup`'s consent card; `pending` until the Friday task exists); recommended on | 3 |
+| Daily Stories | daily | `sf-stories` — three story ideas each morning as a draft; optional, OFF by default | 3 |
+| Monday Kickoff | Mon | `yt-briefing` — this week's video drafted onto its board card, into the Brain and the video's folder; tops the board up to 30 days; ON by default from `yt-setup`'s consent card (task id `attraction-monday-kickoff`) | 4 |
+| Monthly Channel Review | monthly (the 1st) | `yt-triggers` — the month by lane, which videos brought agent conversations, the one move; OFF by default (`turn on my monthly YouTube review`; task id `attraction-monthly-youtube-review`) | 4 |
 | Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`) — it extends the Debrief, never a second debrief | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
@@ -145,7 +153,16 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
-Nine in all (`docs/BRAIN-CONTRACT.md`). Two things members may EXPECT to be scheduled are not, on purpose: the
+Thirteen in all (`docs/BRAIN-CONTRACT.md`; eleven on by default where the member says yes, two off by default — Daily
+Stories and the Monthly Channel Review; nine until 2026-10-13). The three Short-Form workflows are offered together on
+`sf-setup`'s ONE consent card (Monday on · Friday on · daily stories off) and each is created only on its yes — "the
+Monday plan never ran" usually means the card said "not yet" (`Week Plan task: declined`) or the task was never created
+(tree #10). The YouTube workflows are offered together on `yt-setup`'s ONE consent card (the Monday Kickoff on · the
+YouTube section of the Friday note on — `YouTube section: pending` until the Friday task exists, appended on the YouTube
+plugin's next launch · the Monthly Channel Review off) and recorded in the `## YouTube (Week 4)` block — "my Monday
+kickoff never ran" is the same diagnosis (`Monday Kickoff task: declined`, or no task). The Weekly Attraction Ideas note
+was retired 2026-10-13 (the Kickoff carries the ideas; "turn on my weekly attraction ideas" routes there). Two things members may
+EXPECT to be scheduled are not, on purpose: the
 Prospect Radar's news scan (`attraction-prospect-radar` — "scan agent movement") and the Weekly Recruiting CEO
 Review (`admin-recruiting-scorecard` CEO mode — "run my CEO review") run on demand, with no task, no consent card,
 and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task, not a member agent.)
@@ -203,12 +220,20 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   document, never earlier; the funnel link reads "not live yet" until the member's design step deploys the
   page; the traffic engines (Short-Form W3, YouTube W4) plug in later — never "missing".
 
-### Plugin 4 — Short-Form (W3) — BUILT
-- Depends on: Brain (avatars, positioning, story-bank, compliance). Publishing = bring-your-own
-  (Metricool, or manual). The ManyChat sequences are a bonus-asset import on the member's own
-  ManyChat account, not a plugin feature.
-- Known modes: nothing auto-posts — approval is the last gate; "it didn't post" is usually an
-  unapproved queue.
+### Plugin 4 — Short-Form (W3) — BUILT (the four-step journey, 2026-10-13)
+- Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live
+  lead magnet). Publishing = bring-your-own (Metricool, or manual). The ManyChat sequences are a bonus-asset import
+  on the member's own ManyChat account, not a plugin feature. Notion is bring-your-own for the board — without it the
+  calendar lives in the Game Plan doc and the Brain, nothing is lost.
+- **The one phrase is the whole session, in order:** profiles optimized (one copy-paste pack) → the Short-Form Game
+  Plan (a real document, like the YouTube one: pillars with angles, thirty hooks, the keyword, the next 30 days
+  dated) → the content board with those 30 days mapped → three scheduled workflows on ONE consent card (Monday Week
+  Plan · Friday performance note · daily stories, off by default) → the first Reel scripted. Each step is announced
+  before it runs; a second call resumes where it left off (the `Short-form setup:` line in `publishing.md`).
+- Known modes: nothing auto-posts — approval is the last gate; "it didn't post" is usually an unapproved queue ·
+  "it skipped the board" = Notion not connected (it says how, never blocks; "map my next 30 days" once connected) ·
+  "my Monday plan never ran" = the consent card said "not yet", or the task was never created (tree #10) · "where
+  is my calendar" = section 6 of the Game Plan in Content → Short-Form, and on the board if they have one.
 
 ### Plugin 5 — AI Editor, Riverside (W3) — vendored (the same plugin as the realtor marketplace)
 - Depends on: Brain (`brand-visual`, `voice`, `compliance`) + the **Riverside connector on the
@@ -216,9 +241,14 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - Known modes: connector connected but reads fail → tree #12; edits persist in Riverside, state in
   the Brain's `editor/` allowlist.
 
-### Plugin 6 — YouTube (W4) — BUILT
-- Depends on: Brain + `content-pillars` (written by `sf-setup` in Week 3 — "YouTube wants my
-  pillars" means run the short-form setup first). House rhythm: one chat = one video.
+### Plugin 6 — YouTube (W4) — BUILT (the five-step journey, 2026-10-13)
+- Depends on: Brain + `content-pillars` (written by `sf-gameplan` inside the Short-Form setup in Week 3 — "YouTube wants
+  my pillars" means run the short-form setup first). House rhythm: one chat = one video.
+- **Journey:** kit → Game Plan → board (30 days) → three workflows from one consent card → first video; resumes from
+  `channel.md`'s `Setup:` stamp; the Kickoff drafts the week's video every Monday. Known modes: "it skipped the board" =
+  Notion not connected (it says how, never blocks) · "my Monday kickoff never ran" = the card said "not yet" or the task
+  was never created (tree #10) · "YouTube isn't in my Friday note" = `YouTube section: pending` — the Friday task did not
+  exist yet; it is appended the next time the YouTube plugin runs.
 - Thumbnails are a Claude Design brief (`yt-thumbnail`), not a Higgsfield job.
 
 ### Plugin 7 — Conversion & Sales (W5) — BUILT

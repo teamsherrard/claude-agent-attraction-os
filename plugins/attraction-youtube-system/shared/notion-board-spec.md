@@ -10,7 +10,7 @@ people the member's content is for. To the member it is **"your content board."*
 
 **Golden rules**
 - **The board is a schedule, never an idea dump.** Every card carries a Recording or Publishing date inside
-  the rolling ~2-week window, or is actively in production. Loose ideas live in the Game Plan backlog and
+  the rolling 30-day window (the user's ruling, 2026-10-13 — both engines), or is actively in production. Loose ideas live in the Game Plan backlog and
   `memory/ideas.md` — NEVER as undated cards. Seeding or mirroring must not create a card without a date.
 - **Bring-your-own Notion, never required.** Everything works without it — the board is a premium *view*,
   not the system. The **Game Plan + the Brain (`memory/content-log.md`) stay the source of truth**; the board
@@ -108,15 +108,17 @@ date"*).
 ## Who writes what
 
 - **YouTube System** (`yt-board` seeds, `yt-make-video` fills) — seeds a **rolling window, not the whole
-  plan**: the board carries the **next ~2 weeks of planned videos** from the Game Plan calendar (at their
-  cadence: 1/wk → ~2 cards; interviews count), each an `Idea` card with Topic, Pillar = the lane, Guest (for
+  plan**: the board carries the **next 30 days of planned videos** from the Game Plan's dated calendar in the
+  Brain (`memory/content-calendar.md → ## Long-form (YouTube)`; at their cadence: 1/wk → 4–5 cards, 2/wk → 8–9;
+  interviews count), each an `Idea` card with Topic, Pillar = the lane, Guest (for
   an interview), Context (`• Pillar:` first, then what / outcome), Recording Date, Resource Assets (the two
   CTAs from `identity/content-pillars.md`), and a fresh System ID. **The full 90-day backlog stays in the Game
   Plan doc** — the board is the actionable now, never a wall of empty future cards. **Top-up:** whenever a
-  card reaches `Published`, or planning/check-ins run ("what's my next attraction video", the Monday kickoff,
-  "update my attraction video board"), pull the next planned title(s) onto the board so ~2 weeks stay visible.
-  After any batch of card creations, **count-check and say so plainly** (*"your next 2 videos are on the board
-  ✓"*); if a write failed, say which card and retry once. Then, when a video gets made, `yt-make-video`
+  card reaches `Published`, or planning/check-ins run ("what's my next attraction video", the Monday Kickoff,
+  "update my attraction video board"), pull the next planned title(s) onto the board so 30 days stay visible — the
+  Monday Kickoff does this every week and drafts the week's video onto its card (Status → `Scripted`).
+  After any batch of card creations, **count-check and say so plainly** (*"your next 30 days — [n] videos — are on
+  the board ✓"*); if a write failed, say which card and retry once. Then, when a video gets made, `yt-make-video`
   **fills the card completely before filming**: the competitive read's top-3 into References; the script,
   thumbnail brief, SEO package, the resource, and the guest written INTO the page body (+ the workspace links
   in the columns); Status → `Scripted`, then `Recorded` → `Published` as it happens (Published when the
@@ -150,7 +152,7 @@ the member explicitly asks for that video again.
 **READ side — the board is also an input.** When it exists, the system reads it:
 - **"Make my attraction video"** → find the card; its dates/lane/guest/context ride along into production.
 - **"What should I film this week?" / planning & check-ins** (`yt-ideation`, `yt-consistency`,
-  `yt-briefing`, `sf-weekly-routine`) → read Recording Dates + Statuses: what's due, what's stuck in
+  the Monday Kickoff (`yt-briefing`), `sf-weekly-routine`) → read Recording Dates + Statuses: what's due, what's stuck in
   `Scripted`, what got `Published`.
 - **Cards the MEMBER added by hand** = their ideas. Treat them as real input: offer to produce them, and to
   fold them into the plan — never ignore them, never delete them.

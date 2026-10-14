@@ -98,6 +98,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/intel-reports/` — per-prospect pre-call briefs and the dated follow-up / reactivation plan files (the Conversion plugin writes them from Week 5)
 - `memory/interview-pipeline.md` — the YouTube interview guest list and where each interview stands (YouTube-owned, Week 4)
 - `memory/content-performance.md` — the Friday ledger: which Reels, stories, and keywords started agent conversations (Short-Form-owned, Week 3; YouTube appends its section from Week 4)
+- `memory/content-calendar.md` — one calendar, two engines: the short-form table — the next 30 days of posts with a date on every one, from the Short-Form Game Plan (Short-Form-owned, Week 3; the Monday Week Plan drafts from it) — and, from Week 4, the YouTube Game Plan's dated calendar in its `## Long-form (YouTube)` section (YouTube-owned; the Monday Kickoff drafts from it and appends `## Kickoff briefs (YouTube)`); the content board mirrors both
 - `memory/follow-up-queue.md` — every prospect due a touch, with the reason, tomorrow's confirmations, the touch log (AI Admin-owned, Week 5)
 - `memory/sales-funnel.md` — the weekly funnel by source: booked → held → 3-ways → joins, the constraint (Conversion-owned, Week 5)
 - `memory/magnets.md` — every lead magnet and `## Current magnet`, the one every CTA points at (Lead Magnet-owned, Week 2; readers take the live guide from here first)

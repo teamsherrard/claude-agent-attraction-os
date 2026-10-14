@@ -10,7 +10,7 @@ Thumbnail docs already in Downloads.*
 
 ---
 
-## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 9 scheduled agents)
+## 0. The OS at a glance (9 Cowork plugins + 1 Claude Design skill set · 13 scheduled agents)
 
 **Count, stated once:** the cohort doc says "12 plugins." Nine are real Cowork marketplace plugins (Team & Retention was removed by the user on 2026-10-08). The Design Studio is NOT a plugin: Claude Design cannot run plugins, it only accepts uploaded skill files. It ships as 10 upload-ready Claude Design skills (14 → 10 on 2026-10-10, the user's decision: three kit skills replaced eight single-piece skills and the video kit joined) plus the Agent Attraction Design System, packaged like the realtor design suite v2. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per the user (2026-10-08): it is not a plugin either, and it is parked for now. Sales copy can keep saying "12 systems"; the Setup Guide and Support stack map say "9 plugins + the Design Studio skills."
 
@@ -20,7 +20,7 @@ Thumbnail docs already in Downloads.*
 | 2 | Support (W1) | `maa-support-` | 9 | **mechanical fork** + repoint | cohort-claude-support |
 | 3 | Lead Magnet (W2, after the Partner Offer session — resequenced 2026-10-10) | `lm-` | 11 | duplicate + 6 new | realtor-lead-capture |
 | – | **Design Studio (Claude Design SKILL SET, not a plugin)** (W1 Design Package: `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design`; W2 `aa-offer-kit-design` · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design`; W3 `aa-video-kit-design`; W6 `aa-event-design` · `aa-value-vault-design`) | `aa-…-design` | 10 | ALL 10 BUILT (14 → 10 on 2026-10-10: three kit skills + the video kit; the thumbnail skill was deleted; `yt-thumbnail` writes the brief) | Claude Design suite v2 (Desktop) |
-| 4 | Short-Form (W3) | `sf-` | 13 | duplicate + fold + 2 new | realtor-shortform-system |
+| 4 | Short-Form (W3) | `sf-` | 15 | duplicate + fold + 4 new (`sf-gameplan` · `sf-week-plan` added 2026-10-13) | realtor-shortform-system |
 | 5 | AI Editor, Riverside (W3) | `studio-` | 28 | **vendored, same plugin** + the Brain-home rule | realtor-riverside-editor |
 | 6 | YouTube (W4) | `yt-` | 19 | duplicate + fold + 3 new (`yt-thumbnail` is a Claude Design brief, no Higgsfield) | realtor-youtube-system |
 | 7 | Conversion & Sales (W5) | `cv-` / `sales-` | 19 | **new build** on Mike's frameworks | workshop aa-zoom-call-prep (seed) |
@@ -53,9 +53,9 @@ side unless the member has only the attraction OS installed, in which case the S
 | Brain | everything | all `identity/` except `content-pillars · publishing · profiles · channel · sales-system`; `memory/top-50` (the mirror rule: once the Admin registers, Stage from `pipeline`, Last touch from `conversations`, Next move · Due from the Board; before that the touch cells are appended by capture + the Conversion logging skills); `scorecard` (Targets; daily rows by the Debrief; weekly rows by the check-in until `admin-recruiting-scorecard`); `debriefs`; `objections` (heard-rows); `ideas` (+ import's `## Past content (imported)`); `intel`; `capture-log`; `deadlines` (until Admin); interim rows in `conversations` and `organization` and interim stage moves in `pipeline` (via capture, until Conversion / AI Admin) |
 | Support | `config`, `brain.md`, every plugin's `config` block, the Brain template | `memory/support-log`, `memory/claude-updates`, the `## MAA Support (Plugin 2)` block in `config.md` |
 | Design Studio | the Brain Book (uploaded), `brand-visual`, `offer`, `positioning`, `avatars`, `proof` | nothing in the engine (assets go to `02 · Brand`, `05 · Offer`) |
-| Short-Form | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-setup; `sf-ideas` → Hooks bank), `identity/publishing.md` (sf-setup; designated lines by sf-publish · sf-board · sf-comment-to-dm), `identity/profiles.md` (the five sections, refreshed — lm-profiles writes the file first in Week 2; yt-setup fills `## YouTube`), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block; stamps story-bank Used-where, ideas `used`, the intel `Used?` column (sf-greenscreen); interim conversation rows via sf-comment-to-dm (through capture) |
+| Short-Form | `profile · journey · strategy · avatars · positioning · operations · goals · offer · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-gameplan — the Game Plan, run inside sf-setup; `sf-ideas` and `sf-gameplan` → Hooks bank), `identity/publishing.md` (sf-setup creates it at the profile step; sf-gameplan the strategy lines; designated lines by sf-publish · sf-board · sf-comment-to-dm), `identity/profiles.md` (the five sections, refreshed by sf-setup's Profile Optimization Pack — lm-profiles writes the file first in Week 2; yt-setup fills `## YouTube`), `memory/content-calendar.md` (sf-gameplan — the 30-day window; sf-week-plan flips Status, appends week briefs and rows to keep 30 days mapped), `memory/content-log` (SF rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block (five task keys); stamps story-bank Used-where, ideas `used`, the intel `Used?` column (sf-greenscreen); interim conversation rows via sf-comment-to-dm (through capture) |
 | Riverside | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status), `editor/` state inside the sync allowlist; no `config.md` block |
-| YouTube | same as Short-Form + `content-pillars · publishing (Content board: · Keyword:) · brokerage-model · prospect-intel · leadership · organization · pipeline · scorecard (read-only) · interview-pipeline` | `memory/content-log` (YT rows incl. yt-repurpose rows), `identity/channel.md` (yt-setup; yt-gameplan → `## Game Plan anchors`; yt-analytics → `Live data:` + dated `## Performance` blocks), `memory/interview-pipeline.md` (yt-interview), the `## YouTube (Week 4)` block, `profiles.md → ## YouTube`, `publishing.md → Content board:` (yt-board); stamps story-bank Used-where, ideas `used`, intel `Used?`; yt-repurpose appends conversation-starter rows to `ideas.md` while Conversion is absent |
+| YouTube | same as Short-Form + `content-pillars · publishing (Content board: · Keyword:) · brokerage-model · prospect-intel · leadership · organization · pipeline · scorecard (read-only) · interview-pipeline` | `memory/content-log` (YT rows incl. yt-repurpose rows), `identity/channel.md` (yt-setup; yt-gameplan → `## Game Plan anchors`; yt-analytics → `Live data:` + dated `## Performance` blocks), `memory/interview-pipeline.md` (yt-interview), `memory/content-calendar.md → ## Long-form (YouTube)` (yt-gameplan — the Game Plan's dated calendar; the Monday Kickoff flips Status, `yt-make-video` Recorded · Published, `yt-board` a missing System ID) and `## Kickoff briefs (YouTube)` (the Monday Kickoff's dated blocks) — never the short-form table or `## Week briefs`, the `## YouTube (Week 4)` block, `profiles.md → ## YouTube`, `publishing.md → Content board:` (yt-board); stamps story-bank Used-where, ideas `used`, intel `Used?`; yt-repurpose appends conversation-starter rows to `ideas.md` while Conversion is absent |
 | Conversion | `top-50 · avatars · offer · positioning · brokerage-model · objections · story-bank · proof · compliance · voice* · profile · journey · prospect-intel · operations · conversations · pipeline · debriefs · intel · intel-reports · organization · goals · scorecard (read-only) · brand-visual · sales-system · sales-funnel · magnets (## Current magnet)` | `memory/conversations` (its logging skills; `Stage after` = the stage request), `memory/pipeline` (direct until the Admin registers; `STAGE MOVE REQUESTED` / `NEXT MOVE REQUESTED` after), `memory/objections` (handlers; heard-rows from cv-objection-coach and cv-debrief; the `## Practice log` section), `memory/intel-reports/` (briefs + the follow-up and reactivation plan files), `identity/sales-system.md` (sales-system-setup; sales-call-block → Window + `## Call block`), `memory/sales-funnel.md` (sales-scorecard), the `## Conversion & Sales` block (incl. `Setter`); Top-50 touch cells as a designated interim appender until the Admin registers |
 | AI Admin | `operations · goals · execution-framework · compliance · voice* · profile · story-bank · proof · brand-visual · offer · top-50 · conversations · pipeline · organization · scorecard · debriefs · deadlines · content-log · capture-log · intel · objections · ideas · intel-reports · follow-up-queue · sales-funnel · list-growth ("Calls booked from the funnel")` | `memory/pipeline` (admin-pipeline — stage moves, the source of stage; the Board's Next move · Due), `memory/follow-up-queue`, `scorecard` (weekly rows, eleven columns), `deadlines`, `memory/organization` (maintained from W5), the `## AI Admin (Week 5)` block (first line `AI Admin: set up [date]` = the OS-wide Admin-installed signal); never a Top-50 cell, never `conversations.md` |
 | Lead Magnet | `brain.md · avatars · offer · positioning · proof · compliance · brand-visual · voice* · story-bank · profile · journey · operations · brokerage-model · objections · ideas (leadmagnet) · top-50 (counts only) · config · 06 · Materials` — read-only | `memory/magnets.md` (`## Current magnet` is what every other CTA reads), `memory/list-growth.md` (read by `attraction-goals` weekly mode and `admin-recruiting-scorecard` for "Calls booked from the funnel"), `identity/profiles.md` (lm-profiles writes it FIRST in Week 2 — the five Short-Form headings plus its own extra platforms; sf-setup refreshes the five in Week 3), the `leadmagnet` rows' Status in `ideas.md`, the `## Lead Magnet (Week 2)` block; never `offer.md`, never `voice.md` |
@@ -74,7 +74,11 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Agent | Cadence | Owner skill | Week |
 |---|---|---|---|
 | Daily Agent Attraction Debrief | daily | `attraction-debrief` (Brain) | 1 |
-| Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 | 3 |
+| Monday Week Plan | Mon | `sf-week-plan` — drafts the week's posts from the Game Plan's calendar into the board cards and a week brief; keeps 30 days visible; recommended on (added 2026-10-13) | 3 |
+| Weekly Content Performance | Fri | `sf-analytics` owns the task; `yt-analytics` appends its section from Week 4 (registered on `yt-setup`'s consent card; `pending` until the Friday task exists); recommended on | 3 |
+| Daily Stories | daily | `sf-stories` — three story ideas each morning as a draft; optional, OFF by default (added 2026-10-13) | 3 |
+| Monday Kickoff | Mon | `yt-briefing` — drafts this week's video onto its board card, into the Brain and the video's folder; tops the board up to 30 days; ON by default from `yt-setup`'s consent card (task id `attraction-monday-kickoff`; counted 2026-10-13) | 4 |
+| Monthly Channel Review | monthly (the 1st) | `yt-triggers` — the month by lane, which videos brought agent conversations, the one move; OFF by default (`turn on my monthly YouTube review`; task id `attraction-monthly-youtube-review`; counted 2026-10-13) | 4 |
 | Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`); it extends the Debrief, never a second debrief | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
@@ -83,7 +87,13 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
-Nine in all. Two modes the cohort doc describes as weekly agents are on demand instead (user, 2026-10-08): the Prospect
+Thirteen in all — eleven on by default where the member says yes, two off by default (Daily Stories, the Monthly Channel
+Review); nine until 2026-10-13, when the Short-Form three and the YouTube two were counted. The three Short-Form workflows
+are offered together on `sf-setup`'s one consent card (Monday on · Friday on · daily stories off) and each provisions only
+on its yes; the YouTube plugin's are offered together on `yt-setup`'s one consent card (the Monday Kickoff on · the YouTube
+section of the Friday note on, `pending` until the Friday task exists · the Monthly Channel Review off) and recorded in its
+own `## YouTube (Week 4)` block. The Weekly Attraction Ideas note (`Weekly ideas task`) was retired 2026-10-13 — the Monday
+Kickoff carries this week's video and the ideas; nothing provisions it. Two modes the cohort doc describes as weekly agents are on demand instead (user, 2026-10-08): the Prospect
 Radar's news scan (`attraction-prospect-radar` — "scan agent movement", writes `memory/intel.md`) and the Weekly Recruiting
 CEO Review (`admin-recruiting-scorecard` CEO mode — "run my CEO review"). Neither has a task, a consent card, a config key,
 or a task prompt file.
@@ -146,26 +156,38 @@ review recommended, and every member posting it in Week 2 is retargeting content
 
 ---
 
-## 4. Plugin 4 — Short-Form (`sf-`, 13 skills)
+## 4. Plugin 4 — Short-Form (`sf-`, 15 skills)
 
 Forks `realtor-shortform-system` (15 skills). The realtor plugin's shared doctrine (`mike-frameworks.md`, `advisor-playbook.md`,
 `publishing-guide.md`, `output-standard.md`, `composio-data-engine.md`) copies over; `mike-frameworks.md` is rewritten for attraction.
 
+**The journey (the user's ruling, 2026-10-13, after a live demo of the old setup — "it's missing Notion, it's missing scheduled
+workflows, it's missing the short-form game plan; the sequencing doesn't make sense"):** `sf-setup` is one session in this order,
+each step announced ("Okay, cool — now I'm going to…"): (1) profile optimization on every platform the member uses — the Profile
+Optimization Pack (Instagram name field, bio with the keyword line, link in bio and its order, the five highlights, the pinned-post
+plan; Facebook; TikTok; LinkedIn headline / About / Featured; the link-in-bio page in order; YouTube only on request, otherwise
+Week 4); (2) the Short-Form Game Plan (`sf-gameplan`, in-session, the twin of the YouTube Game Plan — nine sections with floors);
+(3) the content board with the next 30 days mapped (`sf-board` mapping mode — dated Idea cards by System ID; the Monday workflow
+keeps 30 days visible); (4) the scheduled workflows on one consent card (Monday Week Plan on · Friday note on · daily stories off);
+then the first win — the first Reel scripted from row 1 of the calendar. The posting-tool connect is the optional last item.
+
 | Skill | Status | From | Attraction-specific change |
 |---|---|---|---|
-| `sf-setup` | ADJUST | shortform-setup | the "value first, plumbing last" rewrite (unshippable in the realtor repo) lands here CLEAN: writes `identity/content-pillars.md` (the 5 pillars: Authority · Perspective · Story · Proof · Personality) + bios on IG / FB / TikTok / LinkedIn with the recruiter CTA; Metricool connect is a later step with its own connect flow |
-| `sf-board` | KEEP | shortform-board | same Notion board; status vocab locked OS-wide |
-| `sf-talkinghead` | ADJUST (folds `shortform-scripts` + `shortform-video-plan`) | | 30–60s Reel scripts in the four content types (value, leadership, personal brand, storytelling); the 30-day calendar lives here |
+| `sf-setup` | REBUILT 2026-10-13 | shortform-setup | the four-step journey above; owns `publishing.md`'s creation and the `Short-form setup:` stamp (`profiles pending compliance` · `profiles done` · `game plan done` · `board done` · `workflows done` · `complete`), refreshes the five sections of `profiles.md`, registers the config block with the five task keys |
+| `sf-gameplan` | **NEW** 2026-10-13 | yt-gameplan (the pattern) | the Short-Form Game Plan: 1 positioning (150+) · 2 the five pillars with three angles each (400+) · 3 the format mix and cadence (200+; the OS default mix labelled until Mike's decision) · 4 the 30-hook bank (250+; the member's own angles first, the starter bank last) · 5 CTAs and the comment-to-DM flow (150+; the call rung at most once a month) · 6 the 30-day calendar, twenty dated posts (400+; `sf-ideas`' method — the Brain first, research ≤ 8 second, the starter bank last) · 7 what we measure (100+) · 8 the scheduled workflows (100+) · 9 next steps (50+); a hard gate before delivery; owns `content-pillars.md` and `memory/content-calendar.md`; writes `publishing.md`'s strategy lines; saved to `03 · Content/Short-Form/`; re-runs update, never rebuild |
+| `sf-week-plan` | **NEW** 2026-10-13 | the Admin task pattern | the Monday Week Plan: every Monday drafts the week's posts from the calendar into the board cards (Status → Scripted) and a week brief in the Brain, keeps 30 days visible on the board; consent-first, draft-only; task id `attraction-sf-week-plan`; also the workflows registry ("my attraction workflows") |
+| `sf-board` | ADJUST 2026-10-13 | shortform-board | same Notion board; status vocab locked OS-wide; + mapping mode ("map my next 30 days") that seeds the calendar as dated Idea cards and count-checks; the Short-Form view's rolling window is 30 days |
+| `sf-talkinghead` | ADJUST (folds `shortform-scripts` + `shortform-video-plan`) | | 30–60s Reel scripts in the four content types (value, leadership, personal brand, storytelling); the topic list reads the calendar first; a calendar ask hands to `sf-gameplan` (the calendar moved there 2026-10-13) |
 | `sf-carousel` | ADJUST | shortform-carousel | "Why I Left My Brokerage" (story, never names the old brokerage), pain-point, myth-busting; hands design to `aa-content-design` |
 | `sf-greenscreen` | ADJUST | shortform-greenscreen | reaction scripts on brokerage news and model comparisons (fed by the Prospect Radar's news scan, on demand); cardinal rules enforced |
-| `sf-stories` | **NEW** | none | the 4-category daily story rotation (behind the scenes of leading · agent wins · personal · opportunity), the Story Prompt Deck, story-reply CTAs that hand to ManyChat |
+| `sf-stories` | **NEW** | none | the 4-category daily story rotation (behind the scenes of leading · agent wins · personal · opportunity), the Story Prompt Deck, story-reply CTAs that hand to ManyChat; owns the optional Daily Stories workflow (three story ideas each morning as a draft; off by default; task id `attraction-sf-daily-stories`) |
 | `sf-ideas` | ADJUST (folds `shortform-search-research`) | | weekly ideas + the 30-hook bank for the niche; research is what agents search, not buyers |
-| `sf-weekly-routine` | **NEW** (absorbs the routine half of video-plan) | | 3–5 Reels a week, stories daily; 2 attraction, 2 authority, 1 story; batch days; the engagement routine |
+| `sf-weekly-routine` | **NEW** (absorbs the routine half of video-plan) | | 3–5 Reels a week, stories daily; 2 attraction, 2 authority, 1 story; batch days; the engagement routine; the member-run rhythm around the Monday Week Plan's drafts |
 | `sf-comment-to-dm` | **NEW** | none | the escalating CTA ladder (Follow → Comment → DM → Resource → Conversation → Call); sets the ManyChat keyword per Reel; writes the DM copy bank the importable templates use; hands qualified conversations to `cv-dm-flow` |
 | `sf-optimizer` | KEEP | shortform-optimizer | hook, retention, CTA rewrite |
 | `sf-publish` | ADJUST (folds `shortform-metricool`) | | captions, hashtags, scheduling; bring-your-own (Metricool / GHL / manual) with a real connect flow |
 | `sf-batch-publish` | KEEP (folds `shortform-batch` film-day plan) | | |
-| `sf-analytics` | ADJUST | shortform-analytics | which Reels and stories produced agent DMs; OWNS the Weekly Content Performance scheduled agent; the Studio pack / "add my numbers" path kept |
+| `sf-analytics` | ADJUST | shortform-analytics | which Reels and stories produced agent DMs; OWNS the Weekly Content Performance scheduled workflow (task id `attraction-sf-weekly-performance`; the prompt in a task-prompt reference; next week's five from the calendar); the Studio pack / "add my numbers" path kept |
 
 **Dropped:** `shortform-video-plan`'s local-search-demand premise (buyers and sellers) has no attraction equivalent; its calendar function moves into `sf-talkinghead`.
 
@@ -202,8 +224,8 @@ is re-keyed to what agents search (comparisons, rev share, switching, sponsor qu
 
 | Skill | Status | Change |
 |---|---|---|
-| `yt-setup` | ADJUST (folds `youtube-channel`) | channel positioned for attraction: banner brief, about, playlists by pillar, upload defaults, CTA; writes `identity/channel.md` |
-| `yt-gameplan` | ADJUST | the 3-pillar map (niche authority · interviews · model/opportunity) + the first 90 days on the 8-video cycle; goal-math from the Brain's scorecard |
+| `yt-setup` | ADJUST (folds `youtube-channel`); rebuilt 2026-10-13 | the five-step journey (kit as copy-paste blocks → Game Plan inline → board + 30 days → one consent card → first video); `Setup:` resume stamp in `identity/channel.md`; channel positioned for attraction: banner brief, about, playlists by lane, upload defaults, CTA; writes `identity/channel.md` |
+| `yt-gameplan` | ADJUST | the 3-pillar map (niche authority · interviews · model/opportunity) + the first 90 days on the 8-video cycle; goal-math from the Brain's scorecard + writes the dated calendar into `memory/content-calendar.md → ## Long-form (YouTube)` |
 | `yt-ideation` | ADJUST | the 7 title formulas + agent pain points, ideas bucketed Problem / Situation / Future / Interview / Model |
 | `yt-research` | ADJUST | what agents search; brokerage news; what the member's avatar is asking |
 | `yt-outliers` | ADJUST | outlier attraction channels and videos, what made them work (cardinal rules: never name a competitor's flaw) |
@@ -218,9 +240,9 @@ is re-keyed to what agents search (comparisons, rev share, switching, sponsor qu
 | `yt-analytics` | ADJUST | which videos produced agent DMs, comments, booked calls; appends its section to the Weekly Content Performance agent from Week 4 |
 | `yt-coach` | KEEP | delivery coaching from a transcript |
 | `yt-consistency` | KEEP | cadence 1 long-form a week + interviews |
-| `yt-briefing` | KEEP, off by default, **asks before provisioning**, draft-only | |
-| `yt-board` | KEEP | same Notion board as Short-Form |
-| `yt-triggers` | ADJUST | the scheduled tasks list (weekly ideas, performance, monthly review), each provisioned with consent |
+| `yt-briefing` | ADJUST (2026-10-13) | the Monday Kickoff — on by default from setup's card; drafts the week's video onto its card, the Brain and the folder; draft-only |
+| `yt-board` | ADJUST (2026-10-13) | same Notion board as Short-Form; 30-day window from the Brain's calendar, the Kickoff keeps it full |
+| `yt-triggers` | ADJUST | registry of three (the Monday Kickoff · the Friday YouTube section · the Monthly Channel Review), each provisioned with consent; owns the Monthly Channel Review (off by default); weekly ideas retired |
 
 **Dropped:** `youtube-market-report` (seller content; slot goes to model breakdowns).
 **Fix carried in, not inherited:** the realtor YouTube plugin never writes `content-log.md`; the fork writes a row at script, at publish, and at repurpose.

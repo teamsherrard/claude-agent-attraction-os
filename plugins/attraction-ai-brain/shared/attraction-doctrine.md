@@ -340,7 +340,7 @@ Conversation · Conversion · Retention · Duplication).
 
 **The five pillars every plugin in this OS uses, by these exact names: Authority · Perspective · Story · Proof · Personality**
 (the Week 3 curriculum). Mike's four content types from the vault map onto them; the Short-Form and YouTube plugins own
-execution; the Brain stores the member's pillars in `identity/content-pillars.md` (written by `sf-setup` in Week 3, with
+execution; the Brain stores the member's pillars in `identity/content-pillars.md` (written by the Short-Form Game Plan, `sf-gameplan`, inside the Week 3 setup, with
 these five as its headings).
 
 | Mike's content type | What it is | Pillar(s) it feeds |

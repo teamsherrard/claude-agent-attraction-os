@@ -19,7 +19,7 @@ and is cited as such wherever it is used.
 - Vocabulary (from `shared/how-we-speak.md`): "the member" is the person we serve; "agents" are the people
   they attract. In front of the member say "you"; never "leads", "recruits", or "downline" out loud.
 - **Pillars vs buckets (locked OS-wide).** The five **content pillars** are the Brain's, by these exact names:
-  **Authority · Perspective · Story · Proof · Personality** (`identity/content-pillars.md`, written by `sf-setup`).
+  **Authority · Perspective · Story · Proof · Personality** (`identity/content-pillars.md`, written by `sf-gameplan`).
   The five YouTube **buckets** — **Problem · Situation · Future · Interview · Model** — are an idea taxonomy, not
   pillars. The mapping is in §3; every content-log row carries a pillar name in its Pillar column and the bucket in
   its Topic / hook cell. In prose, Problem / Situation / Future are "the three niche buckets" (the VIP day calls

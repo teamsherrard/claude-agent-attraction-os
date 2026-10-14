@@ -1,16 +1,16 @@
 ---
 name: sf-talkinghead
 description: >
-  Attraction Reels — 30–60 second talking-head scripts for the agents the member attracts, across the five
-  pillars (Authority · Perspective · Story · Proof · Personality) and Mike's four content types (value,
-  behind-the-scenes leadership, personal brand, storytelling). Three modes: a topic list from the member's
-  pillars; ready-to-film scripts (hook three ways, word-for-word plus a bullet version, shots, captions) that
-  pull a real story from the story bank and end on one rung of the CTA ladder with the keyword; and the 30-day
-  calendar (2 attraction · 2 authority · 1 story a week, batch days). Built for batching. Text only. Trigger
-  on: "attraction reel", "reel for agents", "script my attraction reels", "script my first attraction reel",
-  "talking head for agents", "script this week's agent reels", "my 30-day attraction calendar", "attraction
-  content calendar", "plan my month of attraction reels", "hooks for my
-  attraction reel".
+  Attraction Reels: 30 to 60 second talking-head scripts for the agents the member attracts, across
+  the five pillars (Authority, Perspective, Story, Proof, Personality) and Mike's four content types
+  (value, behind-the-scenes leadership, personal brand, storytelling). Two jobs: a topic list from the
+  Game Plan's calendar and the member's pillars; ready-to-film scripts (hook three ways, word-for-word
+  plus a bullet version, shots, captions) that pull a real story from the story bank and end on one
+  rung of the CTA ladder with the keyword. The 30-day calendar itself lives in the Short-Form Game
+  Plan (asked for here, it is updated there). Built for batching. Text only. Trigger on: "attraction
+  reel", "reel for agents", "script my attraction reels", "script my first attraction reel", "talking
+  head for agents", "script this week's agent reels", "my 30-day attraction calendar", "attraction
+  content calendar", "plan my month of attraction reels", "hooks for my attraction reel".
 ---
 
 # Attraction Reels — Talking Head
@@ -24,20 +24,25 @@ never "the agent". **The doctrine** is `${CLAUDE_PLUGIN_ROOT}/shared/mike-framew
 the phase that needs them.
 
 Three modes (pick from what they said; never ask which):
-- **"What should I film?"** → `sf-ideas` first (the front door rule below); Phase 1 only when this week's ideas already exist.
-- **"Script these" / a named topic / "my first attraction reel"** → Phase 2.
-- **"My 30-day calendar" / "plan my month"** → Phase 3 (then offer to script the first five).
+- **"What should I film?"** → the calendar first (the front door rule below): this week's rows from the Game Plan
+  are the list; `sf-ideas` when the week has no rows or they want fresh research.
+- **"Script these" / a named topic / "my first attraction reel"** → Phase 2 (setup hands over row 1 of the
+  calendar as the topic — one Reel, no question stop).
+- **"My 30-day calendar" / "plan my month"** → Phase 3: the calendar lives in the Short-Form Game Plan — hand to
+  `sf-gameplan` (UPDATE mode, section 6), then offer to script the first five.
 
 ---
 
 ## Front door rule
-"What should I film this week?" belongs to `sf-ideas` (research + the week's five + the hook bank); this skill's Phase 1 topic list runs only when ideas already exist for the week (`memory/ideas.md` has rows dated this week) or the member asks to script a named idea. If neither, say one line — "Let's find this week's five first" — and hand to `sf-ideas`.
+"What should I film this week?" is answered by the member's own plan first: `memory/content-calendar.md`'s rows dated this week (the Game Plan dated them; the Monday Week Plan may already have drafted them — a row at `Scripted` has its script on the board and in the Content folder). When the week has rows, Phase 1 lists them (plus the member's own `ideas.md` rows) and offers to script the ones still at `Idea`. When the week has no rows, say one line — "Let's find this week's five first" — and hand to `sf-ideas` (research + the week's five + the hook bank), or "plan my next 30 days of reels" to map the month.
 
 ## Step 1 — Load the Brain (four files; the rest open at the phase that uses them)
 Read `~/attraction-brain/brain.md` first (follow its laws), then only these three:
-- `identity/content-pillars.md` — the five pillars mapped to them (written by `sf-setup`). **Missing →** this
-  plugin's setup hasn't run: *"Let's set your pillars first — say 'set up my attraction short-form'; two minutes,
-  then every Reel knows what it's for."* Don't improvise pillars here.
+- `identity/content-pillars.md` — the five pillars with their angles and the hooks bank (written by the Game Plan
+  inside the short-form setup). **Missing →** this plugin's setup hasn't run: *"Let's set your pillars first — say
+  'set up my attraction short-form'; then every Reel knows what it's for."* Don't improvise pillars here.
+- `memory/content-calendar.md` — the Game Plan's rows (this week's first; a row carries its pillar, hook, CTA,
+  story, and System ID — the script is written against the row and the board card is found by that ID)
 - `identity/avatars.md` — who this is for, their pain in their words, what they'd need to hear
 - `identity/story-bank.md` — a real story matching the pillar, avatar, and pain; weave it in; **stamp its
   Used-where** after delivery (the one line this skill writes there). Empty → write without one; never invent
@@ -60,9 +65,9 @@ ideas go to the TOP; mark `used` once scripted) · `memory/content-log.md` (what
 week/month) · `memory/objections.md` (an objection heard this month is a Perspective Reel waiting to happen) ·
 `memory/content-performance.md` (what worked — the Friday ledger from `sf-analytics`; lean on it for hooks, pillars,
 and rungs; skip if it doesn't exist yet) · `identity/publishing.md` (the keyword, what it opens, the weekly mix).
-Produce ~8–10 topics the member can choose from: the member's own ideas
-first (from `ideas.md`), then the pillar they're lightest on this month, then the rest — never more than three
-from one pillar. Each topic: a working **hook** (one line) · the **pillar** · **who it's for** (the avatar, one
+Produce ~8–10 topics the member can choose from: this week's calendar rows still at `Idea` first (the plan they
+already said yes to), then the member's own ideas (from `ideas.md`), then the pillar they're lightest on this
+month, then the rest — never more than three from one pillar. Each topic: a working **hook** (one line) · the **pillar** · **who it's for** (the avatar, one
 line) · the **story or proof it can carry** (a story-bank hook, a win with consent, or "none — straight teach")
 · the **rung** it ends on · one line of **why this is strong for you**. Speak to an agent's *problem*, never a
 brokerage feature. Present simply:
@@ -104,18 +109,16 @@ After all Reels: **THE BATCH NOTE** — which to film in one session (same outfi
 first. A **Story** Reel pulls its story from the bank, told in their words, former brokerage never named; a
 **Proof** Reel names an agent only with consent on file.
 
-## Phase 3 — The 30-day calendar (lives here)
-**Read `references/calendar-guide.md`.** **Open now** (the guide's inputs; whichever are already open stay
-open): `identity/publishing.md` (cadence, weekly mix, batch day, keyword) · `memory/content-log.md` ·
-`memory/ideas.md` · `memory/objections.md` · `identity/proof.md` · `memory/intel.md`. Twenty Reels, four weeks
-of five, in the member's weekly mix (default **2 attraction · 2 authority · 1 story** — attraction = Proof +
-Personality, authority = Authority + Perspective) plus "stories daily" as a standing line. Each entry: # · day ·
-hook · pillar · for whom · story/proof carried · rung + keyword. Week 1 establishes who they are (one Story
-Reel, one Authority on the known-for, one Proof, one Personality, one Perspective). The member's own ideas and
-this month's objections land early. Then **THE BATCH PLAN** (which sessions, how many hours — Mike's Monday-plan
-/ Tuesday-record / Wednesday-edit rhythm, or alternate Saturdays) and **THE THREE TO FILM FIRST**. Close: *"Pick
-your first five and say 'script these'."* (The ongoing routine is `sf-weekly-routine`; film-day logistics are
-`sf-batch-publish`.)
+## Phase 3 — The 30-day calendar (lives in the Game Plan)
+The calendar is section 6 of the member's Short-Form Game Plan and `memory/content-calendar.md` is its home —
+twenty dated posts over four weeks on the weekly mix, the daily stories line, the batch plan, the three to film
+first (the rules are in `references/calendar-guide.md`, which the Game Plan reads). Asked for here ("my 30-day
+attraction calendar", "plan my month of attraction reels"): say one line — *"your calendar lives in your Game
+Plan — I'll map the next thirty days there"* — and run `${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/SKILL.md` in
+UPDATE mode scoped to section 6 (a new window from the day after the last mapped date; the board topped up by
+`sf-board` when they have one). When it hands back, close: *"Pick your first five and say 'script these'."* (The
+ongoing routine is `sf-weekly-routine`; the Monday drafts are `sf-week-plan`; film-day logistics are
+`sf-batch-publish`.) Never build a second calendar here.
 
 ## Phase 4 — Compliance pass (third law, three-state)
 **Open now:** the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then
@@ -132,13 +135,15 @@ through their tool per `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` — on
 content board (house rules #10).
 
 ## Phase 6 — Save + log + push
-For each scripted Reel (or the calendar):
+For each scripted Reel:
 1. **Save the doc** per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` — rendered `.docx` to
    `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Reel · [Short Topic]` (a batch:
-   `· Reels · [Batch name]`; the calendar: `[YYYY-MM] · 30-Day Calendar`).
+   `· Reels · [Batch name]`).
 2. **Log it:** append one row per Reel to `~/attraction-brain/memory/content-log.md` in the locked shape:
    `| [date] | Instagram · TikTok · Shorts · FB | reel | [Pillar] | [talking head] [hook] | [avatar] | [story hook or —] | [rung · KEYWORD] | Scripted | |`
-   (Calendar entries log as `Idea`.)
+   A Reel scripted from a calendar row: flip that row's Status to `Scripted` in `memory/content-calendar.md`
+   (the one cell this skill writes there) and, when they have the board, fill the row's card by its System ID
+   (house rules #10).
 3. **Stamp** the story's `Used-where` in `identity/story-bank.md`; flip any `ideas.md` row used to `used` (open it
    now if no earlier phase did).
 4. **Push** (write → push → verify). Then: *"Saved your [N] Reels to your workspace (Content → Short-Form →
@@ -156,5 +161,6 @@ For each scripted Reel (or the calendar):
 - [ ] Story pulled from the bank (never invented), former brokerage unnamed, Used-where stamped; Proof only with consent
 - [ ] No compensation, no earnings, no negative word about any brokerage or person; compliance three-state applied
 - [ ] Captions via the optimizer rules; the CTA line carries the keyword
-- [ ] Calendar: 20 Reels, 4 × 5, the weekly mix honoured, stories daily, batch plan, three-to-film-first
+- [ ] A calendar ask handed to the Game Plan (UPDATE, section 6) — never a second calendar built here; a Reel
+      scripted from a row flips the row to `Scripted`
 - [ ] Saved to `03 · Content/Short-Form`, logged in the locked row shape, pushed; text only

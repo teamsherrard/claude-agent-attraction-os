@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.10.0] — 2026-10-13
+
+### The Short-Form and YouTube journeys (the user's verdict on the live demos: "the sequencing and journey doesn't make any sense; it's missing Notion, the scheduled workflows and the game plan")
+- `sf-setup` now runs one clear journey, each step announced: (1) profile optimization across every platform the member uses (bios, name fields, link in bio and the order of its links, highlights, pinned posts) as one Profile Optimization Pack; (2) the NEW Short-Form Game Plan (`sf-gameplan`: positioning, the five pillars with three angles each, the format mix and cadence, a 30-hook bank, the CTAs and the comment-to-DM flow, a dated 30-day calendar of twenty posts plus the stories rhythm, the Friday measures, the workflows; a hard gate before delivery; it owns the pillars file now and writes the dated calendar into the Brain's new content calendar file); (3) the Notion board found or created with the next 30 days mapped as dated Idea cards (`sf-board`); (4) one consent card for three draft-only workflows (the NEW Monday Week Plan `sf-week-plan` on by default, the Friday Content Performance on, Daily Stories off by default, each with its task-prompt reference); (5) the first Reel. The posting-tool connect stays the optional last item.
+- `yt-setup` mirrors it: the Channel Page Kit as copy-paste blocks, the Game Plan inline, the board with the next 30 days of videos including the interview slots (the shared board spec's window is 30 days for both engines now), one consent card (the Monday Kickoff on by default, the Friday YouTube section, the Monthly Channel Review off by default; the never-provisioned weekly-ideas task retired), then the first video. `yt-gameplan` writes the dated calendar into the Brain; the Monday Kickoff keeps 30 days on the board and drafts the week's video onto its card.
+- Scheduled agents OS-wide now count thirteen, eleven on by default with the member's yes and two off by default, listed with owners and task ids in the OS contract, the Brain contract, the master plan, the Support desk and the setup guide. The Brain template gains the content calendar file and the channel file's setup stamp.
+- Versions: attraction-ai-brain 0.3.3 · attraction-shortform-system 0.2.0 · attraction-youtube-system 0.2.0 · maa-claude-support 0.1.6.
+
 ## [0.9.0] — 2026-10-10
 
 ### The program block feeds every system (the user's sync rule: the UVP, the program and the lead magnet feed everything)

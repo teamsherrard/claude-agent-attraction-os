@@ -31,16 +31,20 @@ cadence — never read it as the YouTube one.
 ## Inputs
 `brain.md`, then only three more files now — the rest at the mode that uses them: `identity/channel.md` (the
 `## Game Plan anchors`: cadence, cycle position, lane names), `memory/content-log.md` (what shipped, by bucket and
-status), `memory/interview-pipeline.md` (who is booked). Plus the Game Plan doc from `yt-gameplan` (the 90-day
-calendar — a workspace doc).
+status), `memory/content-calendar.md` → `## Long-form (YouTube)` (the Game Plan's dated 90-day calendar in the
+Brain; the section absent → the Game Plan doc from `yt-gameplan`). `memory/interview-pipeline.md` (who is booked)
+opens at batch day and at a check-in that counts interviews.
 **Opened later:** batch day and "plan my month" → `identity/operations.md` (hours, the days they film) and the board
-if `identity/publishing.md` has a link · check-ins → `memory/scorecard.md` (its word only).
+if `identity/publishing.md` has a link — **the board already carries the next 30 days at the cadence** (mapped at
+setup, kept full by the Monday Kickoff, which also drafts this week's video onto its card every Monday): read it
+as the month, never re-seed it here · check-ins → `memory/scorecard.md` (its word only).
 
 ## Batch-day mode
 (Open `identity/operations.md` and `identity/publishing.md` now.) Batch day ORGANIZES; it never mass-produces (one chat = one video — scripts are written in each video's own
 chat by `yt-make-video`). Given the next N videos on the plan (default 3–4):
-- Check each has a Script in its folder (content-log Status ≥ Scripted). Missing → *"[title] isn't scripted
-  yet — open a fresh chat and say 'make my attraction video' with that title."* Never script here.
+- Check each has a Script in its folder (content-log Status ≥ Scripted — a row the Monday Kickoff set to
+  `Scripted` holds only the script start; the full script still needs the video chat). Missing → *"[title] isn't
+  scripted yet — open a fresh chat and say 'make my attraction video' with that title."* Never script here.
 - **Interviews are booked, not batched:** list the pipeline rows at Invited/Booked with dates; flag any slot
   in the cycle with no guest and point to `yt-interview`.
 - Produce the filming order and run-of-show: same setup groupings, intros and the two CTAs recorded together,
@@ -57,9 +61,10 @@ Open `memory/scorecard.md` now and read its word (Ahead · On pace · Behind) if
 
 ## Plan my month
 Spread the next four slots of the cycle across the member's weeks (which bucket each week, which interview
-guest, which model video if the slot lands this month), pulled from the Game Plan's title backlog; suggest
-one batch day and the interview recording days; offer calendar blocks (consent) and the first video
-(`yt-make-video`). A simple plan in chat — never a spreadsheet.
+guest, which model video if the slot lands this month) — from the board's next 30 days when there is one (the
+dated cards ARE the month; read them, never re-seed), else from the Game Plan's calendar; suggest one batch day
+and the interview recording days; offer calendar blocks (consent) and the first video (`yt-make-video`). A
+simple plan in chat — never a spreadsheet.
 
 ## The first cycle (new channels)
 Weeks 1–8 = the first 8-video cycle: start with one niche video and one interview inside the first month

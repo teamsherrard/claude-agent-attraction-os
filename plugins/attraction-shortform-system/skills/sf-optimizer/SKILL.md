@@ -46,8 +46,8 @@ the ask map). Apply it exactly.
 ## Step 3 — Get the post (never re-ask what was passed)
 From the invoking skill you already have the hook, the script or talking points, the format (talking head /
 green screen / carousel / story), the pillar, and the keyword (a per-Reel variant comes from
-`sf-comment-to-dm`'s sheet). The keyword rule, one sentence: The member has ONE primary keyword, chosen once in
-`sf-setup` (the `Keyword:` line in `identity/publishing.md`); GUIDE · GROWTH · SCALE · PARTNER are the four
+`sf-comment-to-dm`'s sheet). The keyword rule, one sentence: The member has ONE primary keyword, chosen once at
+setup (the `Keyword:` line in `identity/publishing.md`; the Game Plan carries it); GUIDE · GROWTH · SCALE · PARTNER are the four
 sequence names from Mike's ManyChat templates — per-Reel variants that default to the primary keyword's flow
 until the member runs those templates in their own ManyChat. Invoked directly: ask for the post (paste or topic
 + hook) and the format in one message; infer the pillar and the rung and confirm them in one line.

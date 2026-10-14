@@ -1,5 +1,5 @@
 # [Name] — Content Pillars (attraction content plan)
-*identity · pillars, cadence, the two CTAs · owner: the Short-Form System's `sf-setup` (Week 3) — the Brain never writes this file. The YouTube plugin (Week 4) reads it.*
+*identity · pillars, cadence, the two CTAs · owner: the Short-Form System's `sf-gameplan` (the Short-Form Game Plan, run inside `sf-setup` in Week 3 — the five pillars with three angles each, `## Game Plan anchors`, `## Weekly mix`; `sf-ideas` and `sf-gameplan` append to `## Hooks bank`) — the Brain never writes this file. The YouTube plugin (Week 4) reads it. The plan's 30-day calendar lives in `memory/content-calendar.md`.*
 *Empty until Week 3 BY DESIGN — not a gap. The Brain Book renders a one-line "built in Week 3 with the Short-Form system" note. Doctrine for the author: `shared/attraction-doctrine.md` §13 (Mike's four content types → the five attraction pillars, by these exact names: Authority · Perspective · Story · Proof · Personality).*
 
 **Content pillars (each with its one-line why):**

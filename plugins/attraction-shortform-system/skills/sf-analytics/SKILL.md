@@ -2,15 +2,15 @@
 name: sf-analytics
 description: >
   The one data skill of the short-form attraction engine: which Reels and stories produced agent DMs,
-  comments, conversations, and booked calls, read from the member's live Instagram and YouTube data when
-  connected, their posting tool, or the Studio-pack / "add my numbers" screenshot path, so it is never
-  blocked. Runs the monthly attraction deep dive and any quick read, and OWNS the Weekly Content
-  Performance scheduled agent (Friday; provisioned only with the member's yes, draft-only; the YouTube
-  plugin appends its section from Week 4). Trigger on: "which reels got agent DMs", "my attraction content
-  performance", "weekly content performance", "run my attraction deep dive", "how is my attraction content
-  doing", "what's starting conversations", "add my numbers", "set up my Friday performance note", "are
-  agents watching my reels", "review my attraction week", or any request to read short-form performance
-  for attracting agents.
+  comments, conversations, and booked calls, read from the member's live Instagram and YouTube data
+  when connected, their posting tool, or the Studio-pack / "add my numbers" screenshot path, so it is
+  never blocked. Runs the monthly attraction deep dive and any quick read, and OWNS the Weekly Content
+  Performance scheduled workflow (Friday; provisioned only with the member's yes, at setup's consent
+  card or here; draft-only; next week's five come from the Game Plan's calendar; the YouTube plugin
+  appends its section from Week 4). Trigger on: "which reels got agent DMs", "my attraction content
+  performance", "weekly content performance", "run my attraction deep dive", "how is my attraction
+  content doing", "what's starting conversations", "add my numbers", "set up my Friday performance
+  note", "are agents watching my reels", "review my attraction week".
 ---
 
 # Attraction Analytics — what started conversations, and the Friday note
@@ -50,6 +50,8 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
   counted by the right word)
 - `identity/avatars.md`, `identity/content-pillars.md`, `identity/strategy.md` (the leaders the member
   admires in their lane — the comparison set), `identity/offer.md` (the keyword resources) — for the dive
+- `memory/content-calendar.md` — the Game Plan's calendar: next week's five come from its rows (the Friday note
+  and PART 5 of the dive point at them, never at a fresh invention); the mix in force is the plan's
 - `identity/compliance.md` — its first line, `Status:`, read before the report is saved (it is private, but its
   post ideas are not)
 
@@ -124,31 +126,43 @@ what started conversations · what to make more of) and appends a dated block to
 
 ---
 
-## THE SCHEDULED AGENT — Weekly Content Performance (Friday; this skill owns it)
-**Provisioned only with the member's explicit yes, never silently** (the YouTube-briefing lesson). Offer it
-once, at the end of the first dive or when they ask: *"want a short performance note every Friday — which
-Reels and stories started conversations this week, and what to post next week? Say yes and I'll set it up;
-it only writes, never posts."*
-- **On yes:** create the scheduled task for **Friday** (the slot: a `Friday note time:` line in `identity/operations.md`
-  if the member ever set one, otherwise the last working hour of Friday from its `Working hours:` line; timezone
-  from `config.md`), with a prompt that: pulls the week from the Step-1 source ladder (live → tool → the log alone)
-  — **a scheduled run has nobody to click a permission card, so when the live data or the tool cannot be read
-  unattended the note is written from `content-log.md` and `conversations.md` and says in one line that this
-  week's numbers were not available ("add them Monday"); it never fails silently and never invents a number** · reads `content-log.md`, `conversations.md`, `top-50.md` for the
-  week · writes a one-page note (five numbers in plain words · the post that started conversations · the one
-  change · next week's five on 2·2·1, with keywords) · appends the dated block to
-  `memory/content-performance.md` and pushes · saves the note to `03 · Content/Short-Form/Performance/` as
-  `[YYYY-MM-DD] · Weekly Content Performance` · **drafts only — never posts, replies, DMs, or schedules**.
-  Record the task id on the `Weekly Content Performance task:` line in the **Short-Form block of
-  `config.md`** (the one key, locked spelling); push.
+## THE SCHEDULED WORKFLOW — Weekly Content Performance (Friday; this skill owns it)
+**Provisioned only with the member's explicit yes, never silently** (the YouTube-briefing lesson). The normal
+path is **setup's consent card** (`sf-setup` Step 5 — one card for the three short-form workflows, this one
+recommended on): the yes given there IS this consent, and setup runs the provisioning below without asking
+again. Otherwise offer it once, at the end of the first dive or when they ask: *"want a short performance note
+every Friday — which Reels and stories started conversations this week, and what to post next week? Say yes
+and I'll set it up; it only writes, never posts."* Read `config.md`'s `Weekly Content Performance task:` line
+first: a task id → it is on, say nothing; `declined` → never re-offer; `later` or `not offered yet` → offer once.
+- **On yes:** `list_scheduled_tasks` first (adopt an existing Friday performance task, never a twin), else
+  `create_scheduled_task` with `taskId: attraction-sf-weekly-performance`, for **Friday** (the slot: a `Friday
+  note time:` line in `identity/operations.md` if the member ever set one, otherwise the last working hour of
+  Friday from its `Working hours:` line; timezone from `config.md`), with the `prompt` set **verbatim** from
+  `references/weekly-performance-task-prompt.md`. The prompt: pulls the week from the Step-1 source ladder (live →
+  tool → the log alone) — **a scheduled run has nobody to click a permission card, so when the live data or the
+  tool cannot be read unattended the note is written from `content-log.md` and `conversations.md` and says in
+  one line that this week's numbers were not available ("add them Monday"); it never fails silently and never
+  invents a number** · reads `content-log.md`, `conversations.md`, `top-50.md` for the week and
+  `memory/content-calendar.md` for next week · writes a one-page note (five numbers in plain words · the post
+  that started conversations · the one change · **next week's five from the calendar's rows**, with keywords) ·
+  appends the dated block to `memory/content-performance.md` and pushes · saves the note to `03 ·
+  Content/Short-Form/Performance/` as `[YYYY-MM-DD] · Weekly Content Performance` · **drafts only — never posts,
+  replies, DMs, or schedules**. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — never claim
+  a schedule that did not save. Record the task id on the `Weekly Content Performance task:` line in the
+  **Short-Form block of `config.md`** (the one key, locked spelling; `yt-analytics` reads it there); push.
 - **On no:** write `Weekly Content Performance task: declined` on that line; push; never re-offer.
+- **Stop / change time:** `delete_scheduled_task` / `update_scheduled_task` on the saved id, re-verify, update the
+  line, push. Never a second task. A demo Brain never gets a task.
+- **Alongside it:** the Monday Week Plan (`sf-week-plan`) and the optional Daily Stories prompt (`sf-stories`) are
+  the other two short-form workflows — registered on their own lines of the same block; "my attraction workflows"
+  (`sf-week-plan` Job C) lists all three.
 - **The YouTube section:** from Week 4, when the YouTube plugin is installed, `yt-analytics` appends its own
   section to the same Friday note (long-form views, subscribers, calls booked from YouTube). The task's
   prompt carries an explicit *"YouTube section: appended by yt-analytics when installed; otherwise omit"*
   slot. Say this to the member in one line when provisioning: *"when your YouTube system goes live in
   Week 4, its numbers join this same note."*
 - The note arrives as a document and a short chat summary; it is the Friday half of
-  `sf-weekly-routine`'s check-in.
+  `sf-weekly-routine`'s check-in, and the Monday Week Plan reads its one change when it drafts the next week.
 
 ## How you talk about data
 - Plain English first: *"your year-two Reel started three conversations; nothing else started one."*
@@ -165,5 +179,6 @@ it only writes, never posts."*
 - [ ] Who's watching answered plainly (agents or consumers; which agents); the one break named
 - [ ] Every number real and sourced; empties "not available"; the member's own median is the benchmark
 - [ ] Report saved; baseline stored in `content-performance.md`; pushed; the closing line said
-- [ ] The Friday agent provisioned only on a yes; draft-only; config line written and pushed; the YouTube
-      section slot stated
+- [ ] The Friday workflow provisioned only on a yes (setup's card or here); existing task adopted; verified;
+      draft-only; config line written and pushed; the YouTube section slot stated; next week's five from the
+      calendar

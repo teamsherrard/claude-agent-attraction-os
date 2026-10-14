@@ -1,8 +1,8 @@
 DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Content Pillars (attraction content plan)
-*identity · pillars, cadence, the two CTAs · owner: the Short-Form System's `sf-setup` (Week 3) — the Brain never writes this file. The YouTube plugin (Week 4) reads it.*
-*Written 2026-10-06 by `sf-setup` (demo — filled so the demo shows the finished product). Doctrine for the author: `shared/attraction-doctrine.md` §13 (Mike's four content types → the five attraction pillars, by these exact names: Authority · Perspective · Story · Proof · Personality).*
+*identity · pillars, cadence, the two CTAs · owner: the Short-Form System's `sf-gameplan` (the Short-Form Game Plan, run inside `sf-setup`, Week 3) — the Brain never writes this file. The YouTube plugin (Week 4) reads it.*
+*Written 2026-10-06 by `sf-gameplan` (demo — filled so the demo shows the finished product). Doctrine for the author: `shared/attraction-doctrine.md` §13 (Mike's four content types → the five attraction pillars, by these exact names: Authority · Perspective · Story · Proof · Personality).*
 
 **Content pillars (each with its one-line why):**
 - **Authority** — the routine, taught in pieces: the two-question sign-in sheet, each of the five Sunday texts, the tracker, the Tuesday review. Why: "the thing I'm known for has to be searchable in pieces — one reel per step."

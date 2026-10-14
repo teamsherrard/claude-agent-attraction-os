@@ -1,15 +1,17 @@
 ---
 name: sf-weekly-routine
 description: >
-  The Weekly Routine Planner for the member's short-form attraction engine: three to five Reels a week on
-  the 2 attraction · 2 authority · 1 story mix, stories every day, a batch day to plan and record, idea
-  capture, one video reposted to every short-form platform, and the daily engagement routine that turns
-  comments into conversations. Plans the week from the Brain and checks it in at the end; writes nothing
-  to the member's identity and logs nothing itself. Trigger on: "plan my attraction week", "my short-form
-  routine for agents", "weekly routine planner", "my attraction posting routine", "set my batch day",
-  "how did my attraction week go", "what's my engagement routine", "my content week for my organization",
-  or any request to plan or review the weekly short-form rhythm for attracting agents. (Ideas =
-  sf-ideas; the 30-day calendar = sf-talkinghead; scheduling = sf-publish.)
+  The Weekly Routine Planner for the member's short-form attraction engine: three to five Reels a week
+  on the 2 attraction, 2 authority, 1 story mix, stories every day, a batch day to plan and record,
+  idea capture, one video reposted to every short-form platform, and the daily engagement routine that
+  turns comments into conversations. Plans the week from the Brain and the Game Plan's calendar,
+  around the Monday Week Plan's drafts when that workflow ran, and checks it in at the end; writes
+  nothing to the member's identity and logs nothing itself. Trigger on: "plan my attraction week", "my
+  short-form routine for agents", "weekly routine planner", "my attraction posting routine", "set my
+  batch day", "how did my attraction week go", "what's my engagement routine", "my content week for my
+  organization", or any request to plan or review the weekly short-form rhythm for attracting agents.
+  (Ideas = sf-ideas; the calendar = sf-gameplan; the Monday drafts = sf-week-plan; scheduling =
+  sf-publish.)
 ---
 
 # The Weekly Routine Planner
@@ -22,6 +24,11 @@ film it, what to post each day, and the fifteen minutes that turn attention into
 **Apply** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and the advisor stance in
 `${CLAUDE_PLUGIN_ROOT}/shared/advisor-playbook.md` (recommend first; one easy question at most).
 
+**The Monday Week Plan and this planner, one line each way:** the Monday Week Plan (`sf-week-plan`, scheduled
+with the member's yes) drafts the week's posts from the Game Plan's calendar every Monday; this planner is the
+member-run rhythm around those drafts — the batch block, the daily story habit, the engagement slot, the check-in
+— and when the Monday plan ran this week, it plans around those five instead of re-choosing them.
+
 ## Two modes (detect from the message)
 - **PLAN** (default) — "plan my attraction week", "set my batch day": build the week.
 - **CHECK-IN** — "how did my week go", "did I hit my routine": score the week that just ended and set the
@@ -30,8 +37,10 @@ film it, what to post each day, and the fifteen minutes that turn attention into
 ## Step 1 — Load the Brain (the plan comes from here, not from questions)
 Read `~/attraction-brain/brain.md` first (pull with **attraction-brain-sync** if the local copy is empty).
 Open only:
-- `identity/content-pillars.md` — the pillars and the member's realistic weekly number (`sf-setup` writes
-  it; if missing, use the defaults below and say which week fills it)
+- `identity/content-pillars.md` — the pillars and their angles (the Game Plan writes it inside setup; if
+  missing, use the defaults below and say which week fills it)
+- `memory/content-calendar.md` — the Game Plan's rows dated this week (the plan's five; their Status says what
+  the Monday Week Plan already drafted) and the newest `## Week briefs` block
 - `identity/goals.md` — the content commitment they set in Week 1 (never ask for a number that is here)
 - `identity/operations.md` — working hours, the booking link, when they are usually free to film
 - `identity/publishing.md` — the posting tool and connected platforms, `Cadence:`, `Weekly mix:`, `Batch day(s):`,
@@ -41,8 +50,9 @@ Open only:
 - `memory/ideas.md` (tag `shortform`) — their own captured ideas get first claim on this week's slots
 - `memory/conversations.md` — any conversation that started from a post last week (the check-in counts it)
 - `memory/intel.md` — a dated item worth a Perspective Reel this week
-If none of the three to five Reels for the week are scripted yet, say so and point at `sf-ideas` →
-`sf-talkinghead`. Never plan a week of unwritten videos as if they existed.
+If the week's calendar rows are still at `Idea` (nothing scripted yet), say so and point at the Monday Week Plan
+("run my week plan") or `sf-ideas` → `sf-talkinghead`; no rows at all → "plan my next 30 days of reels". Never
+plan a week of unwritten videos as if they existed.
 
 ## The rhythm (Mike's lessons, carried whole — the two OS defaults labeled as such)
 - **Reels: three to five a week** — start at three, work up to five (`07-instagram/88`). The default mix
@@ -75,8 +85,9 @@ If none of the three to five Reels for the week are scripted yet, say so and poi
   combined reach is the multiplier (`07-instagram/90`).
 
 ## Step 2 — PLAN: the week (use these exact section names)
-- **THE WEEK AT A GLANCE** — one table, Monday to Sunday: day · what posts (the Reel's working title and
-  pillar, or "stories only") · the story prompt for that day · the engagement slot · minutes. Mike's sample
+- **THE WEEK AT A GLANCE** — one table, Monday to Sunday: day · what posts (the calendar row's working title
+  and pillar — the Game Plan's dates are the default — or "stories only") · the story prompt for that day · the
+  engagement slot · minutes. Mike's sample
   calendar (`07-instagram/90`) is the default shape: Mon value (Authority) · Tue recognition (Proof) · Wed
   leadership insight (Perspective) · Thu culture or event recap (Proof or Personality) · Fri personal or
   opinion (Story or Perspective). Rebalance to the 2·2·1 mix and to their realistic number.

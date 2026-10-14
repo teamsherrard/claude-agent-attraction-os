@@ -19,13 +19,15 @@ built the six folders at setup; this plugin only creates month sub-folders insid
 ```
 Agent Attraction OS/
 ├── 02 · Brand/
-│     └── Profiles & Bios — 2026-11-18                         (Doc — from sf-setup)
+│     └── Profile Optimization Pack — 2026-11-17                (Doc — from sf-setup Step 2; formerly "Profiles & Bios")
 └── 03 · Content/
       ├── Short-Form/
+      │     ├── Taylor's Short-Form Game Plan — 2026-11-17            (Doc — from sf-gameplan; the bucket root, dated, newest is current)
       │     ├── 2026-11 · November/                            (month folder — create as needed)
       │     │     ├── 2026-11-18 · Reel · The Year I Almost Quit        (Doc — a talking-head script)
       │     │     ├── 2026-11-18 · Reels · Week 1 Batch                 (Doc — a batch of scripts)
-      │     │     ├── 2026-11 · 30-Day Calendar                         (Doc)
+      │     │     ├── 2026-11-23 · Week Plan                            (Doc — the Monday Week Plan's drafts)
+      │     │     ├── 2026-11 · 30-Day Calendar                         (Doc — a calendar-only refresh; the calendar itself is the Game Plan's section 6)
       │     │     ├── 2026-11-19 · Green Screen · Brokerage Fee Change  (Doc)
       │     │     └── 2026-11-19 · Stories · Tuesday Set                (Doc)
       │     └── Performance/
@@ -46,13 +48,15 @@ Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.m
 | Thing | Pattern | Example |
 |---|---|---|
 | Month folder | `YYYY-MM · Month` | `2026-11 · November` |
+| The Short-Form Game Plan (the bucket root, not a month folder) | `[Name]'s Short-Form Game Plan — YYYY-MM-DD` (demo: `… — DEMO — YYYY-MM-DD`) | `Taylor's Short-Form Game Plan — 2026-11-17` |
 | Single Reel script | `YYYY-MM-DD · Reel · [Short Topic]` | `2026-11-18 · Reel · The Year I Almost Quit` |
 | Batch of scripts | `YYYY-MM-DD · Reels · [Batch name]` | `2026-11-18 · Reels · Week 1 Batch` |
-| 30-day calendar | `YYYY-MM · 30-Day Calendar` | `2026-11 · 30-Day Calendar` |
+| Week plan (the Monday workflow) | `YYYY-MM-DD · Week Plan` | `2026-11-23 · Week Plan` |
+| 30-day calendar (a calendar-only refresh; otherwise section 6 of the Game Plan) | `YYYY-MM · 30-Day Calendar` | `2026-11 · 30-Day Calendar` |
 | Green screen | `YYYY-MM-DD · Green Screen · [Short Topic]` | `2026-11-19 · Green Screen · Brokerage Fee Change` |
 | Story set | `YYYY-MM-DD · Stories · [Day / theme]` | `2026-11-19 · Stories · Tuesday Set` |
 | Carousel / LinkedIn doc | `YYYY-MM-DD · Carousel · [Short Topic]` | `2026-11-20 · Carousel · Why I Left` |
-| Profiles & bios | `Profiles & Bios — YYYY-MM-DD` | `Profiles & Bios — 2026-11-18` |
+| Profile Optimization Pack (formerly Profiles & Bios) | `Profile Optimization Pack — YYYY-MM-DD` | `Profile Optimization Pack — 2026-11-17` |
 | Performance doc | `YYYY-MM-DD–DD · Performance Review` | `2026-11-01–14 · Performance Review` |
 | Friday note | `YYYY-MM-DD · Weekly Content Performance` | `2026-11-21 · Weekly Content Performance` |
 | Deep dive | `YYYY-MM-DD · Short-Form Deep Dive` | `2026-11-30 · Short-Form Deep Dive` |
@@ -62,9 +66,10 @@ Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.m
 | Film-day plan | `YYYY-MM-DD · Film-Day Plan` | `2026-11-18 · Film-Day Plan` |
 | Publishing queue | `YYYY-MM-DD · Publishing Queue` | `2026-11-24 · Publishing Queue` |
 
-Everything in the Short-Form bucket except the performance documents lives in the month folder
-(`03 · Content/Short-Form/[YYYY-MM · Month]/`); the performance review, the Friday note, and the deep dive live in
-`03 · Content/Short-Form/Performance/` (no month folder).
+Everything in the Short-Form bucket except the Game Plan and the performance documents lives in the month folder
+(`03 · Content/Short-Form/[YYYY-MM · Month]/`); the Game Plan lives at the bucket root (dated, newest is current);
+the performance review, the Friday note, and the deep dive live in `03 · Content/Short-Form/Performance/` (no month
+folder).
 
 Topic = 3–6 plain words (Title Case), no punctuation soup. Dates are ISO (`YYYY-MM-DD`) so files sort on their
 own. **Dated filenames; the newest is current** — the storage connectors are create-only, so a regenerated doc
@@ -151,13 +156,149 @@ calendar uses WEEK 1 → WEEK 4 tables; performance docs use the review structur
 reference. Same formatting rules throughout.)
 
 ## 5a. The other skeletons (every named document has a shape; a thin one is a fail)
-The content skeleton in §5 covers a Reel, a green screen, a carousel, and a story set. The six documents below
-are the premium set a Week 3 member actually opens and keeps — each has its own bands, and a floor. Same house
-grammar (§4). The skill that owns the doc fills every band; an empty band is written as a real line ("none
-yet", "not available"), never left blank.
+The content skeleton in §5 covers a Reel, a green screen, a carousel, and a story set. The documents below are the
+premium set a Week 3 member actually opens and keeps — each has its own bands, and a floor. Same house grammar
+(§4). The skill that owns the doc fills every band; an empty band is written as a real line ("none yet", "not
+available"), never left blank.
 
-**The 30-Day Calendar** (`sf-talkinghead`, Phase 3) — floor: 20 numbered rows (12 at three a week), every cell
-filled, a batch plan with hours; ~800–1,000 words.
+**The Short-Form Game Plan** (`sf-gameplan` — the Week 3 flagship, built inside setup; stamped) — floor: nine
+sections at their floors (1 · 150 · 2 · 400 · 3 · 200 · 4 · 250 · 5 · 150 · 6 · 400 · 7 · 100 · 8 · 100 · 9 · 50
+words), twenty dated calendar rows (twelve at three a week), five pillars with three angles each, thirty hooks;
+~3,500–5,000 words. Demo mode tags every figure "(illustrative — demo)".
+```
+[NAME]'S SHORT-FORM GAME PLAN
+Attracting: [the primary type] · [the second]  ·  Known for: [niche]  ·  Prepared [Month Year]
+Powered by Mike Sherrard Coaching Inc Frameworks
+
+———————————————————————————————
+READ THIS FIRST
+[three sentences: where your short-form is today and the verdict · the insight · the plan in one line]
+First post to film: [row 1 — working title · date]   ·   Batch day: [day]   ·   Compliance: [status — one line if unset]
+
+———————————————————————————————
+1. POSITIONING FOR SHORT-FORM
+Who I'm talking to: [the agent, their pain in their words, the mirror beat]
+The one line: "[Name] helps [agent] [outcome] through [mechanism]"
+The job of short form: Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation
+The keyword: [WORD] · what it opens: [the live guide / the free thing / the call]
+The two CTAs: 1. Book a call — [link]   2. [resource] — comment [WORD]
+Why I'm building this: [the why-line, in their voice]
+
+———————————————————————————————
+2. THE FIVE PILLARS — THREE ANGLES EACH
+AUTHORITY — what I teach
+[two-line summary]
+• [hook] · for [agent] · [pain] · carries [teach / story / win]   (×3)
+PERSPECTIVE — what I believe · STORY — where I've been · PROOF — what's happening in my world · PERSONALITY — who I am off the clock   (same shape)
+
+———————————————————————————————
+3. THE FORMAT MIX AND THE WEEKLY CADENCE
+[N] Reels a week · the mix: 2 attraction · 2 authority · 1 story, stories daily (the OS default until Mike's decision)
+Formats: talking head [what for] · green screen [what for] · carousel [what for] · stories [what for]
+Platforms, in order: [Instagram Reels → TikTok → YouTube Shorts → Facebook Reels · LinkedIn for the carousel]
+Batch day: [day · the rhythm]   ·   The 15-minute routine: [the moves, the time of day]
+
+———————————————————————————————
+4. THE HOOK BANK   (thirty — six per pillar, under 12 words, no two the same shape)
+AUTHORITY: 1–6 · PERSPECTIVE: 1–6 · STORY: 1–6 · PROOF: 1–6 · PERSONALITY: 1–6   (each: hook · for whom · rung; `starter` where seeded)
+
+———————————————————————————————
+5. CTAs AND THE COMMENT-TO-DM FLOW
+The ladder: Follow / save / share → Comment → DM → Resource → Conversation → Call   ·   one Reel, one rung, one keyword
+The ask map: [pillar → rung, five lines] · the five ask lines, in my words · the call line (at most once a month)
+The keyword: [WORD] → [what it opens] · by hand / ManyChat: [state]   ·   the full keyword sheet: "my keyword sheet"
+
+———————————————————————————————
+6. THE 30-DAY CALENDAR   ([date] → [date])
+WEEK 1 — WHO I AM
+| # | Date | Day | Format | Pillar | Working title | Hook | CTA (rung · WORD) | Carries |
+[five rows]
+WEEK 2 · WEEK 3 · WEEK 4   (same table)
+STORIES, DAILY: [the four-category rotation · morning / midday / evening]
+THE BATCH PLAN: [sessions · what films together · hours]
+THE THREE TO FILM FIRST: 1. [#, why]  2. [#, why]  3. [#, why]
+
+———————————————————————————————
+7. WHAT WE MEASURE AND THE FRIDAY CHECK
+[the five Friday numbers · calls booked from content · the benchmark · where the numbers come from · the compliance line]
+
+———————————————————————————————
+8. YOUR SCHEDULED WORKFLOWS   (all draft-only — nothing posts, sends, or schedules on its own)
+Monday Week Plan — [when · what it produces · status]   ·   Friday performance note — [...]   ·   Daily stories — [...]
+
+———————————————————————————————
+9. NEXT STEPS
+[the first Reel · the board · the keyword sheet · the film day · the research re-run if any row is unresearched]
+
+———————————————————————————————
+SOURCES
+[what agents are asking — each search → what was seen · as seen YYYY-MM-DD]   ·   Budget used: [n] of 8   ·   Starter rows: [n]   ·   Unresearched rows: [n]   (demo: "nothing searched")
+
+———————————————————————————————
+[closing — one honest paragraph: be consistent, not complicated]
+COMPLIANCE
+[the stamp]
+```
+
+**The Profile Optimization Pack** (`sf-setup`, Step 2) — floor: every platform the member uses, each block with
+where it goes; the five questions ticked per bio; ~600–1,000 words.
+```
+PROFILE OPTIMIZATION PACK
+[Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+THE KEYWORD
+[WORD] · what it opens · said on camera, written in every bio's last line
+
+———————————————————————————————
+INSTAGRAM
+Name field (Edit profile → Name):   [...]
+Bio (≤150):   [...]
+Link in bio, in order:   1. [the lead magnet — action text]  2. [book a call]  3. [the YouTube channel — "added in Week 4" if none]  4. [the community]
+Highlights:   About · Agent wins · Culture · Free value · Partner with me · [one passion] — [one line each on what goes in]
+Pinned posts:   1. [...]  2. [...]  3. [...]
+
+———————————————————————————————
+FACEBOOK   (profile intro · page intro · About)
+TIKTOK   (name · bio ≤80)
+LINKEDIN   (headline ≤220 · About, 4–5 short paragraphs · Featured, in order)
+THE LINK-IN-BIO PAGE   (its contents in order, each link's action text)
+VISUALS   (one line: the brand kit's profile pictures and banners — 02 · Brand)
+
+———————————————————————————————
+COMPLIANCE
+[the stamp — brokerage name / license as required]
+```
+
+**The Week Plan** (the Monday Week Plan, `sf-week-plan`) — floor: every calendar row dated this week drafted
+(brief · hook ×3 · script or talking points · bullet version · CTA · captions), the seven-day story set, the board
+count; ~1,500–2,500 words for five posts.
+```
+WEEK PLAN · [WEEK OF DATE]
+[Member Name] · [Organization] · [Monday date]
+
+———————————————————————————————
+THE WEEK AT A GLANCE
+| Day | Post (working title · pillar · format) | Status | Board |
+THE BATCH DAY: [day]
+
+———————————————————————————————
+POST 1 — [working title]   (THE BRIEF · THE HOOK — 3 WAYS · THE SCRIPT · THE BULLET VERSION · THE SHOTS · THE CTA · THE CAPTIONS — the §5 content shape)
+POST 2 … POST 5
+
+———————————————————————————————
+STORIES THIS WEEK   (seven days: what to capture · overlay · sticker · reply CTA)
+
+———————————————————————————————
+LEFT FOR YOU   (anything undrafted and why)
+
+———————————————————————————————
+COMPLIANCE
+```
+
+**The 30-Day Calendar** (section 6 of the Game Plan — `sf-gameplan`; saved on its own only on a calendar-only
+refresh) — floor: 20 numbered, dated rows (12 at three a week), every cell filled, a batch plan with hours;
+~800–1,000 words.
 ```
 30-DAY CALENDAR · [MONTH YYYY]
 [Member Name] · [Organization] · [Date]
@@ -167,8 +308,8 @@ THE MONTH AT A GLANCE
 [one paragraph: what this month establishes and why this order — the mix in force, the keyword, the batch rhythm]
 
 ———————————————————————————————
-WEEK 1 — WHO I AM   (one Reel per pillar: an agent who finds you this week can answer the five profile questions from the feed)
-| # | Day | Hook | Pillar | For | Carries (story / win / teach) | Rung · keyword |
+WEEK 1 — WHO I AM   (one post per pillar: an agent who finds you this week can answer the five profile questions from the feed)
+| # | Date | Day | Format | Pillar | Working title | Hook | For | Carries (story / win / teach) | Rung · keyword |
 [five rows]
 WEEK 2 · WEEK 3 · WEEK 4   (same table; the member's own ideas and this month's objections land in Weeks 1–2)
 

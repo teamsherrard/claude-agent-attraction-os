@@ -6,6 +6,10 @@ find these headings by name. Vocabulary: **lanes** are the channel's playlists, 
 Situation · Future · Interview · Model); the OS **pillars** (Authority · Perspective · Story · Proof ·
 Personality) live in `identity/content-pillars.md` and are never restated here.
 
+**The `Setup:` line** is the setup journey's resume stamp (`yt-setup` Step 0): `kit done` → `plan done` →
+`board done` → `workflows done` → `complete YYYY-MM-DD`. A member who leaves mid-journey resumes at the next
+step; a `complete` stamp means the READY BRIEF, never the journey again. Written only by `yt-setup`.
+
 ```
 # [Member First Name] — YouTube Channel
 *identity · the channel positioned to attract agents · owner: yt-setup · anchors: yt-gameplan · Live data + Performance: yt-analytics*
@@ -14,6 +18,7 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 ## Channel
 - URL: [https://youtube.com/@handle]  ·  Handle: [@handle]  ·  Status: [active / empty / none → created YYYY-MM-DD]
 - Mode at setup: [new / existing]  ·  Live data: [not offered yet / active YYYY-MM-DD / declined YYYY-MM-DD]
+- Setup: [kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
 
 ## Positioning (from the Brain — restated as the channel's one line)
 - For: [primary avatar, in their words]  ·  Known for: [niche / known-for]
@@ -55,4 +60,6 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 
 Rules: the Brain's `how-we-speak.md` applies — the member never sees this file's name; they hear "your channel
 is saved to your Brain." A `Status: none` channel is normal, not a defect — the kit builds first, the channel
-is created when they paste.
+is created when they paste. The Brain template ships the same shape as an empty placeholder (the coordinator
+mirrors any change here into it); a Brain whose `channel.md` predates the `Setup:` line is read by `yt-setup`
+Step 0's fallback (anchors filled → `plan done`, else `kit done`), and the line is added on the next stamp.

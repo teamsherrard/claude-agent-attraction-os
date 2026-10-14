@@ -81,8 +81,8 @@ Members are encouraged to rename the workspace after their organization. Locate 
      channel · sales-system) and any identity file a plugin adds later
    - `memory/**/*.md` — the ledgers (top-50 · conversations · pipeline · organization · scorecard ·
      objections · debriefs · capture-log · content-log · ideas · intel · deadlines) plus the later plugins'
-     ledgers, all in the template (interview-pipeline · content-performance · follow-up-queue · sales-funnel ·
-     magnets · list-growth · events · support-log · claude-updates), the `intel-reports/` subfolder, and any
+     ledgers, all in the template (interview-pipeline · content-performance · content-calendar · follow-up-queue ·
+     sales-funnel · magnets · list-growth · events · support-log · claude-updates), the `intel-reports/` subfolder, and any
      subfolder or file a plugin adds later
    - `editor/**` — the Riverside editor's plugin state (jobs, boards, checkpoint logs), text only
    → `~/attraction-brain/`, preserving structure.

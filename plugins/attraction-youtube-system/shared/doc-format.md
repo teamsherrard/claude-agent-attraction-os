@@ -292,6 +292,39 @@ Call (a third of the way in):  "{the warm invite to a private one-on-one call �
 Compliance — cardinal rules · no compensation figures · disclosure present · [status].  ✓
 ```
 
+### Kickoff Brief (the Monday Kickoff — `yt-briefing`, scheduled or on demand; saved as `Kickoff Brief — [title] — YYYY-MM-DD` in the video's folder; the same sections are written into the video's board card, Status → Scripted)
+Member-facing: the start of the week's video, done for them — never a full production run. The script START is
+labeled as a start; the full script, the chapters, and the competitive read belong to the video's own chat.
+```
+KICKOFF BRIEF — "{title}"
+Week of {Monday's date}  ·  For: {the type of agent}  ·  Bucket: {Problem / Situation / Future / Interview / Model}  ·  Recording: {date}  ·  Publishing: {date}
+
+──────────────── THE BRIEF ────────────────
+Title:  {the exact title}   ·   Hook (one line):  {…}
+Who it's for and the pain:  {the type of agent · one of the five pains, in their words}
+Why this week:  {the plan's signal — demand · a dated news item · an objection heard · a proven outlier · a gap · starter}
+Story to use:  {the story-bank hook — unused recently}
+The two CTAs:  resource "{the live resource}" inside minute one  ·  the call "{the warm invite}" a third in
+
+──────────────── SCRIPT START   (finish it: say "make my attraction video") ────────────────
+[HOOK — 0:00]   {written word for word — the viewer's situation → the tension → what they'll have by the end}
+[RESOURCE CTA — inside minute 1]   {the line, in their voice}
+SECTION MAP:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 · {…}   (3–5)
+[CALL CTA — ~1/3 in]   {the line, value-named, never the brokerage}
+   {an interview slot: INTERVIEW GUIDE instead — the outcome sentence · the five beats with the type-specific questions · the edification lines · the casual CTA · the invite draft · the consent line · the distribution ask}
+
+──────────────── THUMBNAIL BRIEF ────────────────
+{the paste-ready brief — three directions scored, one recommended — the same block saved as its own doc}
+
+──────────────── SEO PACKAGE START ────────────────
+Title options (3):  {…}
+Description, lines 1–3:  {the call link · the resource · the handles}   ·   Summary (~150 words):  {…}
+Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {…}   ·   Chapters: after the script
+
+────────────────────────────────────────────
+Compliance — cardinal rules · no compensation figures · former brokerage unnamed · disclosure in the description · [status].  ✓
+```
+
 ### SEO Package
 ```
 {VIDEO TITLE} — SEO PACKAGE

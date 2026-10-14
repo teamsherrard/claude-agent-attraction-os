@@ -1,8 +1,11 @@
-# Calendar Guide — the 30-day attraction calendar (lives in sf-talkinghead)
+# Calendar Guide — the 30-day attraction calendar (the rules; the calendar itself lives in the Short-Form Game Plan)
 
-Turn the pillars into a month of filming — **20 Reels, five a week for four weeks**, in the member's weekly mix,
-with "stories daily" as a standing line. Vertical, 30–60s, phone-filmed. The routine that runs it week to week is
-`sf-weekly-routine`; the film-day logistics are `sf-batch-publish`. Doctrine: `shared/mike-frameworks.md` §9b–§9d.
+Turn the pillars into a month of filming — **20 posts, five a week for four weeks**, in the member's weekly mix,
+with "stories daily" as a standing line. Vertical, 30–60s, phone-filmed. **Owner: `sf-gameplan`** (section 6 of the
+Game Plan writes it to `memory/content-calendar.md`; "plan my next 30 days of reels" appends the next window);
+`sf-talkinghead` reads this file only to hand a calendar ask to the Game Plan and to script against a row. The
+routine that runs it week to week is `sf-weekly-routine`; the Monday drafts are `sf-week-plan`; the film-day
+logistics are `sf-batch-publish`. Doctrine: `shared/mike-frameworks.md` §9b–§9d.
 
 ## Inputs (all from the Brain — never a questionnaire)
 `identity/content-pillars.md` (the five pillars and their seeds) · `identity/publishing.md` (cadence, weekly mix,
@@ -25,8 +28,9 @@ month is 12 Reels: 1 attraction · 1 authority · 1 story each week — say so p
 
 ## Output (use these exact section names)
 - **THE MONTH AT A GLANCE** — one paragraph: what this month establishes and why this order.
-- **WEEK 1 → WEEK 4** — five Reels each, in a table: # · day · hook · pillar · for whom · what it carries (story
-  hook / win / teach) · rung + keyword. Rules:
+- **WEEK 1 → WEEK 4** — five posts each, in a table: # · **date** (real, `YYYY-MM-DD`) · day · format (talking
+  head · green screen · carousel) · pillar · working title · hook · for whom · what it carries (story hook / win /
+  teach / finding #) · rung + keyword · System ID (`sf-YYYY-MM-DD-NN`). Rules:
   - **Week 1 establishes who they are:** one Story Reel (the hardest stretch or the turning point), one Authority
     on the known-for, one Proof, one Personality, one Perspective. An agent who finds them in Week 1 should be
     able to answer the five profile questions from the feed alone.
@@ -49,6 +53,8 @@ month is 12 Reels: 1 attraction · 1 authority · 1 story each week — say so p
 - Nothing invented: no stat without a source, no story not in the bank, no win without consent.
 - The cardinal rules and compliance three-state (read from the first line of `identity/compliance.md`, `Status:`)
   apply to every line, even in a plan.
-- Save as `[YYYY-MM] · 30-Day Calendar` in `03 · Content/Short-Form/[YYYY-MM · Month]/`; log each entry as
-  `Idea` in the locked row shape; offer the content board; close with *"pick your first five and say 'script
-  these'."*
+- The calendar is section 6 of `[Name]'s Short-Form Game Plan — YYYY-MM-DD` (saved to `03 · Content/Short-Form/`)
+  and is written to `memory/content-calendar.md` in the Brain's locked row shape; a calendar-only refresh may also
+  save `[YYYY-MM] · 30-Day Calendar` in the month folder. Calendar rows are NOT logged to `content-log.md` — a row
+  enters the log when its piece is scripted. The board (`sf-board`, mapping mode) seeds the rows as dated cards;
+  close with *"pick your first five and say 'script these'."*

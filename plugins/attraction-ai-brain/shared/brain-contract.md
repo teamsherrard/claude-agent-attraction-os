@@ -44,8 +44,10 @@ Last synced) sit under their own heading and are not registry keys. The template
 `attraction-brain-sync`, and `attraction-brain-migrate` always agree on these names.
 
 **Keys the later plugins register** (locked spelling; each lives in its owner's block under "Later plugins
-register here" and the Brain never writes it): `Weekly Content Performance task` (Short-Form block — `sf-analytics`
-fills it; `yt-analytics` reads it there, never on `publishing.md`) · `Call Block Prep task` · `Cold-Lead
+register here" and the Brain never writes it): `Week Plan task` · `Week Plan slot` (Short-Form block — `sf-week-plan`,
+the Monday Week Plan) · `Weekly Content Performance task` (Short-Form block — `sf-analytics`
+fills it; `yt-analytics` reads it there, never on `publishing.md`) · `Daily Stories task` · `Daily Stories time`
+(Short-Form block — `sf-stories`, optional, off by default) · `Monday Kickoff task` · `Monthly review task` · `YouTube section` (the `## YouTube (Week 4)` block — `yt-briefing`, `yt-triggers`, `yt-analytics`; each task line `not offered yet` → task id · `declined` · `paused` / `off (offered YYYY-MM-DD)`, the section line also `pending — the Friday note is not on yet`; offered together on `yt-setup`'s one consent card — Monday on · Friday on · monthly off by default; `+ Monday Kickoff delivery: email draft` if chosen; `Weekly ideas task` retired 2026-10-13, nothing provisions it) · `Call Block Prep task` · `Cold-Lead
 Reactivation task` (Conversion & Sales block — `cv-call-prep`, `cv-reactivation`; with `Booking page` · `Partner
 call length` · `Setter`) · `AI Admin` (the stamp `AI Admin: set up [date]`, the first line of the `## AI Admin`
 block) · `Morning Brief task` · `Daily Follow-Up Queue task` · `Monthly KPI Review task` · `Team Wins Newsletter
@@ -93,8 +95,8 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | `identity/proof.md` | `attraction-voice-proof` | `attraction-capture` appends to Seeds |
 | `identity/story-bank.md` | `attraction-story-bank` | setup Stop 6 writes the six seeds; `attraction-capture` appends to Seeds; content and Conversion skills stamp Used-where |
 | `identity/brand-visual.md` | `attraction-brand-direction` — Inventory (incl. the `Examples:` line) · Direction · `## Creative direction` (derived by the Brain, confirmed by the member) · `## Design Package brief (last issued YYYY-MM-DD)` (the brief block verbatim, so "show my design package brief" reprints it) · the Design Package status · the Final kit line | — (the Design Studio reads it through the Book and never writes it; the member reports "kit done" and the owner updates the status and Final kit lines) |
-| `identity/content-pillars.md` | **the Short-Form System's `sf-setup` (Week 3)** — the Brain never writes it (scaffolded empty with the header lines) | `sf-ideas` → the `## Hooks bank` section only. Line 2 of "The two CTAs" (the keyword) is set in Week 3 by `sf-setup` |
-| `identity/publishing.md` | **`sf-setup` (Week 3)** — the Brain never writes it (scaffolded with every line label) | `sf-publish` → `Posting tool:` · `Best times:`; `sf-board` / `yt-board` → `Content board:`; `sf-comment-to-dm` → `Keyword:`. The Friday task id is NOT here (config.md) |
+| `identity/content-pillars.md` | **the Short-Form System's `sf-gameplan` (Week 3 — the Short-Form Game Plan, run inside `sf-setup`)** — the Brain never writes it (scaffolded empty with the header lines) | `sf-ideas` and `sf-gameplan` → the `## Hooks bank` section. Line 2 of "The two CTAs" (the keyword) is set in Week 3 by `sf-setup` at the profile step and mirrored by the Game Plan |
+| `identity/publishing.md` | **`sf-setup` (Week 3)** creates it at the profile step — the Brain never writes it (scaffolded with every line label); **`sf-gameplan`** writes the strategy lines (`Platforms` · `Cadence` · `Weekly mix` · `Batch day(s)` · `ManyChat`) | `sf-publish` → `Posting tool:` · `Best times:`; `sf-board` / `yt-board` → `Content board:`; `sf-comment-to-dm` → `Keyword:`. The task ids are NOT here (config.md) |
 | `identity/profiles.md` | **`lm-profiles` (Lead Magnet, Week 2)** — THE bios file, written first with the five `##` sections in order (Instagram · Facebook · TikTok · LinkedIn · YouTube) plus its own extra platforms appended after them; the Brain never writes it | `sf-setup` (Week 3) refreshes the bio text inside the five sections and preserves every extra section and update line; `yt-setup` fills `## YouTube` (Week 4); a later `lm-profiles` run refines inside the same headings; nobody renames, reorders, or drops a section (the user's ruling, 2026-10-10) |
 | `identity/channel.md` | **`yt-setup` (Week 4)** — the Brain never writes it | `yt-gameplan` → `## Game Plan anchors`; `yt-analytics` → the `Live data:` line and a dated `## Performance` block appended per deep dive (newest last, never edited) |
 | `identity/sales-system.md` | **`sales-system-setup` (Conversion & Sales, Week 5)** — the Brain never writes it | `sales-call-block` → `## Calendar → Window:` and the `## Call block` section; mirrors `operations.md`'s booking link and call block, never writes `operations.md` |
@@ -117,6 +119,7 @@ by the member before saving — and never of memory ledgers, except the `## Past
 | `memory/intel-reports/` | **Conversion & Sales plugin (Week 5)** — `cv-agent-intel` (`YYYY-MM-DD-[agent-slug].md`), `cv-follow-up` (`…-follow-up.md` plan files), `cv-reactivation` (`YYYY-MM-DD-reactivation.md`); newest wins | the Brain and the Admin only read |
 | `memory/interview-pipeline.md` | **`yt-interview` (Week 4)** — the Brain never writes it | `yt-gameplan` seeds Candidate rows; `yt-setup` creates it if a Brain predates it; `yt-make-video` → `Published` |
 | `memory/content-performance.md` | **`sf-analytics` (Week 3)** — the Friday ledger, dated blocks, newest last — the Brain never writes it | `yt-analytics` appends its YouTube section from Week 4; the content skills read the newest block |
+| `memory/content-calendar.md` | **`sf-gameplan` (Short-Form, Week 3)** — the 30-day window from the Game Plan's section 6, twenty dated rows in the locked shape — the Brain never writes it | `sf-week-plan` (the Monday Week Plan) flips a row's Status, appends `## Week briefs`, and appends rows only to keep 30 days mapped; `sf-talkinghead` flips a row it scripted; `sf-board` → `dropped` on the member's word; `sf-ideas`, `sf-weekly-routine`, `sf-analytics` read it. **The two `(YouTube)` sections at the end are YouTube-owned:** `## Long-form (YouTube)` by `yt-gameplan` (Week 4 — the Game Plan's dated calendar, one row per video; a refresh replaces un-started `Idea` rows only) and `## Kickoff briefs (YouTube)` by the Monday Kickoff (`yt-briefing`, one dated block per run; it also flips a row's Status to `Scripted`); `yt-make-video` flips `Recorded` · `Published`; `yt-board` writes a missing System ID; neither engine touches the other's sections |
 | `memory/follow-up-queue.md` | **`admin-follow-up-queue` (Week 5)** — the Brain never writes it | Queue and Confirmations rebuilt each run; the Log is append-only (`attraction-top-50` may read it for Last touch) |
 | `memory/sales-funnel.md` | **`sales-scorecard` (Conversion & Sales, Week 5)** — weekly rows by source, never edited — the Brain never writes it | `admin-recruiting-scorecard` and `sf-analytics` read it; the weekly scorecard row is appended by its own owner from the `WEEKLY ROW:` line |
 | `memory/magnets.md` | **`lm-magnet` (Lead Magnet, Week 2)** — the Brain never writes it | `lm-navigator`, `lm-magnet-ideas`, `lm-design`, `lm-funnel`, `lm-delivery`, `lm-analytics` update only their own columns; everyone else READS `## Current magnet` |
@@ -139,16 +142,26 @@ Before the Admin registers, the same writers write `pipeline.md` directly (same 
 - **Five content pillars (OS-wide, exact names):** Authority · Perspective · Story · Proof · Personality.
 - **Score vocabulary:** Ahead · On pace · Behind.
 - **Top-50 `Source` values:** youtube · instagram · referral · sphere · event · lead-magnet · other.
-- **Row shapes:** `top-50`, `conversations`, `content-log`, `scorecard` (Targets block + weekly rows + daily rows), `debriefs` (`## [date] · [score]` entries), `objections` (+ `## Practice log`), `intel`, `deadlines`, `capture-log`, `pipeline` (Board + Stage moves log + Counts), `organization`, `interview-pipeline`, `content-performance`, `follow-up-queue`, `sales-funnel`, `magnets` (+ `## Current magnet`), `list-growth`, `events` (the header line + the block shape), `publishing`, `profiles`, `channel`, `sales-system`, `operations` — as the template files show. A plugin that needs a column proposes it in the template, never adds it ad hoc.
+- **Row shapes:** `top-50`, `conversations`, `content-log`, `scorecard` (Targets block + weekly rows + daily rows), `debriefs` (`## [date] · [score]` entries), `objections` (+ `## Practice log`), `intel`, `deadlines`, `capture-log`, `pipeline` (Board + Stage moves log + Counts), `organization`, `interview-pipeline`, `content-performance`, `content-calendar` (the window line + rows + `## Week briefs`, then the YouTube System's `## Long-form (YouTube)` — its own `Window:` line + rows — and `## Kickoff briefs (YouTube)`), `follow-up-queue`, `sales-funnel`, `magnets` (+ `## Current magnet`), `list-growth`, `events` (the header line + the block shape), `publishing`, `profiles`, `channel`, `sales-system`, `operations` — as the template files show. A plugin that needs a column proposes it in the template, never adds it ad hoc.
 - **Compliance status values:** unset · set · confirmed. **Offer status:** seeds (Week 2 builds the offer) · finalized by member · built in Week 2. **Goals status:** seeds · locked [date]. **Interview stages:** Candidate → Invited → Booked → Recorded → Edited → Published · Declined · Parked. **Magnet status:** planned · written · designed · live · retired. **Queue status:** queued · drafted · sent by member · skipped · parked.
 
 ## Scheduled agents this plugin owns
-Daily Agent Attraction Debrief (`attraction-debrief`, daily at `Debrief time`) — the only one. Provisioned only
-with the member's explicit yes; draft-only; its task id in `config.md`. The Prospect Radar's news scan is NOT a
-scheduled agent: it runs on demand ("scan agent movement"), with no task and no config key. The OS runs nine in
-all — the eight others (Weekly Content Performance, Morning Brief, Daily Follow-Up Queue, Call Block Prep,
-Cold-Lead Reactivation, Monthly KPI Review, Team Wins Newsletter, Post-Event Follow-Up) are listed with their
-owners in `docs/BRAIN-CONTRACT.md`.
+Daily Agent Attraction Debrief (`attraction-debrief`, daily at `Debrief time`; task id `attraction-debrief-daily`) —
+the only one. Provisioned only with the member's explicit yes; draft-only; its task id in `config.md`. The Prospect
+Radar's news scan is NOT a scheduled agent: it runs on demand ("scan agent movement"), with no task and no config
+key. The OS runs thirteen in all — eleven on by default where the member says yes, two off by default — every one
+listed with its owner, default and task id in `docs/BRAIN-CONTRACT.md`. The twelve others: the Short-Form three —
+Monday Week Plan (`sf-week-plan`, `attraction-sf-week-plan`, on), Weekly Content Performance (`sf-analytics`,
+`attraction-sf-weekly-performance`, on; `yt-analytics` appends its YouTube section from Week 4 — registered on
+`yt-setup`'s consent card, `YouTube section: pending` until the Friday task exists), Daily Stories (`sf-stories`,
+`attraction-sf-daily-stories`, OFF by default); the YouTube two — Monday Kickoff (`yt-briefing`,
+`attraction-monday-kickoff`, on by default, offered on `yt-setup`'s one consent card) and Monthly Channel Review
+(`yt-triggers`, `attraction-monthly-youtube-review`, OFF by default); Morning Brief (`admin-daily`,
+`attraction-admin-morning-brief`), Daily Follow-Up Queue (`admin-follow-up-queue`, `attraction-admin-follow-up-queue`),
+Call Block Prep (`cv-call-prep`, `cv-call-block-prep-daily`), Cold-Lead Reactivation (`cv-reactivation`,
+`cv-reactivation-30d`), Monthly KPI Review (`admin-monthly-review`, `attraction-admin-monthly-review`), Team Wins
+Newsletter (`admin-newsletter`, `attraction-admin-team-wins`), Post-Event Follow-Up (`ev-followup`,
+`ev-post-event-follow-up`). The retired `Weekly ideas task` (2026-10-13) is provisioned by nothing.
 
 ## Documents this plugin produces (per `shared/drive-map.md`)
 📕 [Name]'s Agent Attraction Brain Book · 🎯 [Name]'s 90-Day Attraction Scorecard → `01 · AI Brain` ·

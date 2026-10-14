@@ -35,6 +35,8 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
 - `identity/voice.md` + `voice-samples.md`, `identity/avatars.md`, `identity/positioning.md`,
   `identity/offer.md` (PUBLISH half: packaging)
 - `identity/content-pillars.md` — the platforms and the pillar names; the 2·2·1 mix per week
+- `memory/content-calendar.md` — the Game Plan's rows for the window (FILM DAY: the scripts the Monday Week Plan
+  drafted are the default list; PUBLISH: each file's calendar date is its slot)
 - `identity/publishing.md` — the posting tool and platforms (PUBLISH half)
 - `identity/brand-visual.md` — outfit and background notes if the Design Package set them (FILM half)
 - `memory/content-log.md` — to match files to scripts (PUBLISH) and to avoid repeats
@@ -142,8 +144,9 @@ URL; scheduled is not Published.
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in
 your Content folder."* Then the Friday note, once: read the `Weekly Content Performance task:` line in `config.md`'s
 Short-Form block — a task id → *"your Friday performance note will tell you which ones started conversations"*;
-`not offered yet` → one line (*"want a short note every Friday on which of these started agent conversations?
-say yes and I'll switch it on"*), a yes handed to `sf-analytics`, which provisions it; `declined` → nothing.
+`not offered yet` (setup's consent card normally settled it) → one line (*"want a short note every Friday on which
+of these started agent conversations? say yes and I'll switch it on"*), a yes handed to `sf-analytics`, which
+provisions it; `declined` or `later` → nothing.
 
 ## Quality checklist
 - [ ] Brain loaded; scripts found (film) or files read for real (publish); nothing invented from a filename

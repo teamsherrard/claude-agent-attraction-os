@@ -16,10 +16,12 @@ verifies they match).
 │   │   ├── 🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD      (yt-gameplan; dated; newest is current)
 │   │   ├── Channel Page Kit — YYYY-MM-DD                   (yt-setup)
 │   │   ├── YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD      (yt-analytics; dated)
-│   │   └── YYYY-MM-DD · [Video Title]/                     (created when the video is made, never before)
+│   │   ├── Monthly Channel Review — [Month YYYY] — YYYY-MM-DD (yt-triggers' scheduled run; dated)
+│   │   └── YYYY-MM-DD · [Video Title]/                     (created when the video is drafted or made, never before)
+│   │         ├── Kickoff Brief — [title] — YYYY-MM-DD      (the Monday Kickoff — the brief, the script start or the interview guide, the thumbnail brief, the SEO start)
 │   │         ├── Script                                    (yt-script)
 │   │         ├── SEO Package — [title] — YYYY-MM-DD        (yt-seo)
-│   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail)
+│   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail — or the Monday Kickoff, when it drafted the week's video)
 │   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when the lead magnet exists, built in Week 2)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
 │   │         ├── Model Breakdown — [title] — YYYY-MM-DD    (yt-model-breakdown — model videos only)
@@ -36,27 +38,33 @@ chat-driven and reads state live (the Brain, the content log, the channel, the b
 ## Naming (exact — predictable, sortable)
 - Game Plan: `🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD` (demo: `… — DEMO — YYYY-MM-DD`)
 - Channel kit: `Channel Page Kit — YYYY-MM-DD`
-- Video folder: `YYYY-MM-DD · [Video Title]` (date = the day the script was made; Title Case; no emojis or slashes)
+- Video folder: `YYYY-MM-DD · [Video Title]` (date = the day the Kickoff Brief or the script was made, whichever came first; Title Case; no emojis or slashes)
 - Deep dive: `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`
+- Monthly review (the scheduled run): `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`
 - Starter resource: `Starter Resource — YYYY-MM-DD` (`yt-leads`; `03 · Content/Guides/`; the fallback — built once, in Week 4, only while no Week 2 lead magnet exists)
-- Docs inside a video folder — FIXED names: `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief —
-  [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
+- Docs inside a video folder — FIXED names: `Kickoff Brief — [title] — YYYY-MM-DD` · `Script` · `SEO Package — [title] — YYYY-MM-DD` ·
+  `Thumbnail Brief — [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
   `Interview Prep — [guest] — YYYY-MM-DD` · `Model Breakdown — [title] — YYYY-MM-DD`
 Dates are always `YYYY-MM-DD` so folders sort. Same name, same spot, every time.
 
 ## Where state lives (the system is essentially stateless)
 - What's been made / published → `memory/content-log.md` (YouTube rows) + the public channel
 - What performed → the member's Studio screenshots or export (`yt-analytics`), never a stored sheet
-- What to film next → generated fresh from the Game Plan + the Brain + research + the idea backlog
+- What to film next → the Game Plan calendar (the 90 days) and, when the member has one, the content board (the
+  next 30 days, dated, kept full by the Monday Kickoff); ideas are generated fresh from the plan + the Brain +
+  research + the idea backlog
 - The plan anchors → `identity/channel.md`; the full title bank and calendar → the Game Plan doc; live-data
-  status and dated performance blocks → `identity/channel.md` (`yt-analytics`)
+  status and dated performance blocks → `identity/channel.md` (`yt-analytics`); the setup journey's resume stamp
+  → `identity/channel.md`'s `Setup:` line
 - Interview guests and status → `memory/interview-pipeline.md`
 - Filming dates → the content board if they have one, or their real calendar — never a spreadsheet
+- The scheduled workflows' task ids → `config.md`'s `## YouTube (Week 4)` block only
 
 ## Saving — resolve, never duplicate
 1. Get the workspace ID from `config.md`; find `03 · Content` → `Long-Form` by label inside it (create `Long-Form`
    only if missing — the Brain's setup normally made it).
-2. Find this video's folder by name; if missing, create it (only when the video is actually being made).
+2. Find this video's folder by name; if missing, create it (only when the video is actually being drafted or made —
+   the Monday Kickoff creates it for the Kickoff Brief; `yt-script` reuses it).
 3. Before creating a doc, check the folder for one of that name — a re-run of an undated doc saves `Script — v2`
    (the connector cannot overwrite) and tells the member; dated docs simply get today's date, newest is current.
 4. Render through `shared/render_doc.py` per `shared/doc-format.md`; upload the `.docx`; confirm the location in

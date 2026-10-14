@@ -57,7 +57,8 @@ targets: agents, conversations, calls, joins) · the "drifting" play and the aud
 - **"Agents aren't reaching out"** → check the CTA pair and the description order (`98`); check whether
   interviews exist (proof); reframe to the lead question; early views are the worst predictor.
 - **Stuck / not posting** → done beats perfect; one video this week; the 8-video cycle is the plan, pick the
-  next slot; lower the bar to recorded.
+  next slot — and every Monday this week's video is already drafted on its card (the brief, the script start, the
+  thumbnail brief): open it, finish it, film it; lower the bar to recorded.
 - **All niche, no interviews** → the cycle is 3 + 1 + 4; the first guest is whoever they are helping now;
   send the quarterly "did you hit one of these?" note (`yt-interview`).
 - **Talking over the guest / selling in interviews** → the guest is the star; record the intro last; casual
@@ -71,7 +72,8 @@ targets: agents, conversations, calls, joins) · the "drifting" play and the aud
 - **Discouraged** → three years, not three weeks; trust through repetition; the agents watching are not
   commenting yet — they are binging.
 - **Drifting from the plan** → reconnect to the lanes and the cadence (the Game Plan anchors in
-  `identity/channel.md`) and the goals in the Brain.
+  `identity/channel.md`), the next 30 days on the board, and the goals in the Brain; if the Monday Kickoff is
+  off or declined, say what it would do for them in one line — their call.
 - **Not sure a video landed** → post it in their own community and ask for honest feedback (`94` — Mike did
   this with the videos that mattered); improve the next one, never re-shoot this one.
 

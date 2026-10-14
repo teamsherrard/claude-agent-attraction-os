@@ -50,7 +50,8 @@ stamped — see "also writes") · `identity/proof.md` (Proof pillar; consent col
 surface) · `identity/compliance.md` · `memory/content-log.md` (all rows, to avoid repeats) · `memory/objections.md`
 (objection Reels) · `memory/ideas.md` (tag `shortform` and `story`; the member's own ideas come first) ·
 `memory/intel.md` (brokerage and industry news for `sf-greenscreen`) · `memory/content-performance.md` (what worked —
-the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet) · `memory/top-50.md` and `memory/conversations.md`
+the Friday ledger `sf-analytics` keeps; skip if it doesn't exist yet) · `memory/content-calendar.md` (this plugin's own
+calendar — owned by `sf-gameplan`, read by every content skill for this week's rows; see "owns") · `memory/top-50.md` and `memory/conversations.md`
 (read-only: whether an agent is already in a conversation; which conversations content started — the ledgers stay
 with their owners) · `memory/magnets.md` · `memory/sales-funnel.md` (read-only, once Conversion exists) → `## Current magnet` (Lead Magnet-owned, built in Week 2 — it normally exists by Week 3; `sf-comment-to-dm` delivers the GUIDE
 resource from here first and from `identity/offer.md` second; empty only when the member skipped the Week 2 lead magnet
@@ -60,12 +61,13 @@ session — then the asks fall back to the call).
 
 | File | Owner skill | Also writes (designated lines only) |
 |---|---|---|
-| `identity/content-pillars.md` | `sf-setup` (creates it in Week 3; "update my pillars" edits one section) | `sf-ideas` appends to the `## Hooks bank` section only |
-| `identity/publishing.md` | `sf-setup` (creates it: platforms, cadence, weekly mix, batch day, the keyword, posting tool, link-in-bio, highlights, the `Bios:` pointer) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it |
-| `identity/profiles.md` — the bios, ONE file (the user's ruling, 2026-10-10) | the Lead Magnet plugin's `lm-profiles` (Week 2) writes it FIRST — the five `##` sections in this plugin's order plus its own extra platforms after them; `sf-setup` (Week 3) is the **updater of the five sections**: it refreshes the bio text inside `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` (and leaves `## YouTube` to `yt-setup`), preserves every extra section and italic update line `lm-profiles` added, never renames, reorders, or drops a heading; it creates the file only if absent (the member skipped the Week 2 lead magnet session), with the same five headings | the YouTube plugin fills the `## YouTube` section (Week 4); a later `lm-profiles` run refines inside the same headings; nobody else |
-| `memory/content-log.md` — **Short-Form rows only** | every content skill appends its own rows; `sf-publish` updates the Status and Link of a row it finds | YouTube, the AI Editor, and Events own their own rows; nobody edits another plugin's row except the Editor flipping Status to `Edited` |
-| `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` creates the block: `Installed:` date · `Plugin version:` · `Layer:` → `identity/publishing.md` · `Weekly Content Performance task: not offered yet` | `sf-analytics` → the `Weekly Content Performance task:` line in this block only (task id or `declined`); nothing else in `config.md`, ever |
-| `memory/content-performance.md` | `sf-analytics` (the Friday performance ledger — which Reels, stories, and keywords produced agent DMs; inside the sync allowlist) | the content skills read it; nobody else writes it |
+| `identity/content-pillars.md` | **`sf-gameplan`** (the Short-Form Game Plan, run inside `sf-setup` Step 3 in Week 3 — section 2 writes the five pillars with three angles each, the header lines, `## Game Plan anchors`, `## Weekly mix`; "update my pillars" / "update my short-form game plan" edits one section, never rebuilds) | `sf-ideas` and `sf-gameplan` append dated blocks to the `## Hooks bank` section only; nobody else |
+| `identity/publishing.md` | `sf-setup` **creates** it (Step 2, in the contract's full shape — every line label present: `Short-form setup:` · `Keyword:` · `What it opens:` · `Link in bio:` · `Story highlights:` · `Platforms` · `Posting tool: manual` · `Best times:` empty) and owns the `Short-form setup:` stamp and the profile lines; **`sf-gameplan` writes the strategy lines** (`Platforms (priority order):` · `Cadence:` · `Weekly mix:` · `Batch day(s):` · `ManyChat:` · `What it opens:` · `Keyword:` if still empty) | `sf-publish` → **only** the `Posting tool:` and `Best times:` lines; `sf-board` (and `yt-board`) → the `Content board:` line; `sf-comment-to-dm` → the `Keyword:` line if the member changes it |
+| `identity/profiles.md` — the bios, ONE file (the user's ruling, 2026-10-10) | the Lead Magnet plugin's `lm-profiles` (Week 2) writes it FIRST — the five `##` sections in this plugin's order plus its own extra platforms after them; `sf-setup` (Week 3, Step 2 — the Profile Optimization Pack) is the **updater of the five sections**: it refreshes the text inside `## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` (the bio, then the name field / link order / highlights / pinned-post lines as plain lines inside the same section; `## YouTube` is left to `yt-setup`), preserves every extra section and italic update line `lm-profiles` added, never renames, reorders, or drops a heading; it creates the file only if absent (the member skipped the Week 2 lead magnet session), with the same five headings | the YouTube plugin fills the `## YouTube` section (Week 4); a later `lm-profiles` run refines inside the same headings; nobody else |
+| `memory/content-calendar.md` — **the Brain's short-form calendar (new, 2026-10-13)** | **`sf-gameplan`** (section 6 of the Game Plan writes the 30-day window — twenty dated rows in the locked shape below; "plan my next 30 days of reels" appends the next window; a row the member drops → `dropped`, never deleted) | the Monday Week Plan (`sf-week-plan`) flips a row's Status (`Idea` → `Scripted`), appends dated blocks under `## Week briefs`, and appends new rows only to keep 30 days mapped; `sf-talkinghead` flips a row it scripted to `Scripted`; `sf-board` → `dropped` on the member's confirmation; readers: `sf-board` (seeds cards by System ID), `sf-ideas`, `sf-weekly-routine`, `sf-analytics` (next week's five), the content skills |
+| `memory/content-log.md` — **Short-Form rows only** | every content skill appends its own rows (`sf-week-plan` one row per post it drafts, at `Scripted`); `sf-publish` updates the Status and Link of a row it finds; calendar rows are NOT logged until a piece is scripted | YouTube, the AI Editor, and Events own their own rows; nobody edits another plugin's row except the Editor flipping Status to `Edited` |
+| `config.md` — the `## Short-Form (Week 3)` block only | `sf-setup` creates the block (Step 5): `Installed:` date · `Plugin version:` · `Layer:` → `identity/publishing.md` · `Week Plan task:` · `Week Plan slot:` · `Weekly Content Performance task:` · `Daily Stories task:` · `Daily Stories time:` — each task line a task id · `declined` · `later` · `not offered yet` (locked spelling) | `sf-week-plan` → `Week Plan task:` · `Week Plan slot:`; `sf-analytics` → `Weekly Content Performance task:`; `sf-stories` → `Daily Stories task:` · `Daily Stories time:`; nothing else in `config.md`, ever |
+| `memory/content-performance.md` | `sf-analytics` (the Friday performance ledger — which Reels, stories, and keywords produced agent DMs; inside the sync allowlist) | the content skills and `sf-week-plan` read it; nobody else writes it |
 | `memory/conversations.md` — **interim rows only** | the Conversion & Sales plugin (Week 5) owns it; until the Conversion / AI Admin plugins exist, `sf-comment-to-dm` writes a conversation row that starts from a Reel or story (through `attraction-capture` when the Brain plugin is present, directly in the same locked row shape otherwise) | no other short-form skill writes it |
 
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story this
@@ -97,8 +99,8 @@ above); the content skills never do. An agent who surfaces from a Reel is added 
 ## `identity/publishing.md` — the shape (this plugin defines it; every line is a locked key)
 ```
 # [Member First Name] — Publishing (the short-form layer)
-*identity · Owner: sf-setup. Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board (Content board), sf-comment-to-dm (Keyword). The Friday task id lives in config.md's Short-Form block, not here. The bios live in identity/profiles.md, not here.*
-**Short-form setup:** [not started | pillars done | bios done | keyword done | complete YYYY-MM-DD]
+*identity · Owner: sf-setup (creates it; the setup stamp and the profile lines). Strategy lines: sf-gameplan (Platforms · Cadence · Weekly mix · Batch day(s) · Keyword · What it opens · ManyChat). Designated lines: sf-publish (Posting tool · Best times — nothing else), sf-board / yt-board (Content board), sf-comment-to-dm (Keyword). The task ids live in config.md's Short-Form block, not here. The bios live in identity/profiles.md, not here.*
+**Short-form setup:** [not started | profiles pending compliance | profiles done | game plan done | board done | workflows done | complete YYYY-MM-DD]  ← the journey's stamp (the legacy values `pillars done` · `bios done` · `keyword done` resume at the profile step)
 **Platforms (priority order):** [Instagram Reels · TikTok · YouTube Shorts · Facebook Reels · LinkedIn]
 **Cadence:** [N Reels/week · stories daily] · **Weekly mix:** [2 attraction · 2 authority · 1 story] · **Batch day(s):** [ ]
 **Keyword:** [ONE WORD] · **What it opens:** [the resource / "let's talk" → book a call] · **ManyChat:** [connected YYYY-MM-DD | not yet — replying by hand | declined]
@@ -108,7 +110,7 @@ above); the content skills never do. An agent who surfaces from a Reel is added 
 **Link in bio:** [tool · the links in order, each with its action text]
 **Story highlights:** [About · Agent wins · Culture · Free value · Partner with me · (passions)]
 ```
-(Only publishing lines live here — the bios are in `identity/profiles.md`, below; `Short-form setup: bios done` is the only trace of them in this file.)
+(Only publishing lines live here — the bios are in `identity/profiles.md`, below; `Short-form setup: profiles done` is the only trace of them in this file.)
 
 ## `identity/profiles.md` — the bios (the Lead Magnet plugin's `lm-profiles` writes it first in Week 2; this plugin refreshes the five sections in Week 3)
 ```
@@ -130,7 +132,7 @@ written only when `sf-setup` creates the file itself) and the YouTube plugin rew
 `lm-profiles` appended after the five (`## X` · `## Threads` · `## Google Business Profile` · `## Brokerage site` ·
 `## Email signature`) and any italic update line it left are preserved byte-for-byte.
 
-## `identity/content-pillars.md` — the shape (written by `sf-setup`)
+## `identity/content-pillars.md` — the shape (written by `sf-gameplan`, inside the short-form setup)
 Title and owner line · `**Status:**` · **the Brain template's header lines, kept and filled** — `**Content pillars
 (each with its one-line why):**` (the five, one line each) · `**Platforms (priority order):**` · `**Cadence (what
 they will actually sustain):**` · `**The two CTAs:**` (1. Book a call — the booking link · 2. The guide / keyword —
@@ -142,32 +144,75 @@ these lines mirror it) · the one-line anchors pulled from the Brain (primary av
 "why I'm here" line) · five sections headed **exactly** `## Authority` · `## Perspective` · `## Story` · `## Proof`
 · `## Personality` (the OS-wide canonical names; the Brain doctrine's "what I teach · behind the scenes of leading ·
 agent wins · industry POV" are sub-examples inside Authority / Proof / Perspective, never headings). Inside them:
-Authority — the niche dissected into topic seeds and the pain each answers · Perspective — the takes, the myths to
+a two-line summary and **three angles each** (hook · for whom · pain · what it carries) — Authority — the niche
+dissected into topic seeds and the pain each answers · Perspective — the takes, the myths to
 bust, the questions to answer · Story — the journey beats and the story-bank hooks to tell first · Proof — the agent
 wins with consent, the recurring behind-the-scenes · Personality — passions, routines, family lines the member is
-willing to share and which agents relate to them · then `## Weekly mix` · `## Hooks bank` (appended by `sf-ideas`).
+willing to share and which agents relate to them · then `## Game Plan anchors` (plan date · doc link · cadence · mix ·
+keyword · calendar window · research budget used — rewritten on every Game Plan run; its presence is how
+`sf-gameplan` tells BUILD from UPDATE) · `## Weekly mix` · `## Hooks bank` (dated blocks appended by `sf-gameplan`
+and `sf-ideas`, newest last).
 **Contract note:** the Brain template scaffolds `identity/content-pillars.md` empty, with the header lines above and
-an owner line naming `sf-setup`; `brain.md`, the Brain's `brain-contract.md`, and its `how-we-speak.md` §3 name the
-same file. This plugin writes it. `attraction-brain-sync`'s allowlist carries every `identity/*.md` (so
-`content-pillars`, `publishing`, `profiles`) and every `memory/**/*.md` (so `content-performance`).
+an owner line naming `sf-gameplan` (run inside `sf-setup`); `brain.md`, the Brain's `brain-contract.md`, and its
+`how-we-speak.md` §3 name the same file ("written by the Short-Form System in Week 3"). This plugin writes it.
+`attraction-brain-sync`'s allowlist carries every `identity/*.md` (so `content-pillars`, `publishing`, `profiles`)
+and every `memory/**/*.md` (so `content-performance`, `content-calendar`).
 
-## Scheduled agents this plugin owns
-**Weekly Content Performance** (Friday) — owned and provisioned by `sf-analytics`, only with the member's
-explicit yes, draft-only; the YouTube plugin appends its section from Week 4. `sf-setup` mentions it once as a
-later option and never provisions it. Task id recorded on the `Weekly Content Performance task:` line of the
-`## Short-Form (Week 3)` block in `config.md` (locked spelling; `sf-setup` creates the line as `not offered yet`).
+## `memory/content-calendar.md` — the shape (written by `sf-gameplan`; the Brain template ships it empty)
+```
+# [Name] — Content Calendar
+*memory · the short-form calendar · owner: sf-gameplan · appenders: sf-week-plan (Status, ## Week briefs, new rows to keep 30 days mapped) · readers: sf-board, sf-ideas, sf-talkinghead, sf-weekly-routine, sf-analytics*
+**Window:** [YYYY-MM-DD → YYYY-MM-DD · written by sf-gameplan · cadence [n]/week · mix [2 attraction · 2 authority · 1 story]]
+**Stories, daily:** [the four-category rotation runs every day regardless]
+
+| # | Date | Day | Format (talking head · green screen · carousel) | Pillar | Working title | Hook | CTA (rung · KEYWORD) | Carries (story / win / teach / finding #) | Status (Idea · Scripted · Recorded · Published · dropped) | System ID |
+
+## Week briefs
+(dated blocks appended by the Monday Week Plan, newest last, never edited)
+```
+Rules: dates are real; twenty rows per window at five a week (twelve at three); the System ID is `sf-YYYY-MM-DD-NN`
+(the publish date and the row number) and is what `sf-board` and `sf-week-plan` find the card by; rows are never
+deleted (`dropped` on the member's word); a calendar row is NOT a content-log row — the log gets a row when the
+piece is scripted. The board mirrors this file, never replaces it. **One calendar file, two engines:** the YouTube
+System (Week 4) owns the `## Long-form (YouTube)` and `## Kickoff briefs (YouTube)` sections at the end of the same
+file (its own rows, its own window line, its own System IDs — shipped empty in the template); no Short-Form skill
+reads them as short-form rows or writes a byte in them, and the YouTube skills never touch the short-form table
+or `## Week briefs`.
+
+## Scheduled workflows this plugin owns (three — every one consent-first and draft-only)
+Offered together on **one consent card at setup Step 5** (`sf-setup`), with the recommended defaults — Monday on ·
+Friday on · daily stories off — and provisioned only on the member's yes (the yes given there is each workflow's
+consent; the owning skill does not ask again). Each may also be turned on, stopped, or paused later by its owner.
+Every one: `list_scheduled_tasks` first (adopt, never a twin), the prompt from the owner's task-prompt reference
+verbatim, verify after creating, the task id on its own line of the `## Short-Form (Week 3)` block (`declined` is
+honored forever; `later` = offered, not taken, may be asked for; `not offered yet` until the card runs), nothing
+posts, sends, schedules, or moves a pipeline stage on its own; a scheduled run has nobody to click a permission
+card, so every prompt falls back to the Brain's ledgers and says so. A demo Brain never gets a task.
+
+| Workflow | When | Owner (the prompt) | Task id | `config.md` lines |
+|---|---|---|---|---|
+| **Monday Week Plan** — this week's posts drafted from the calendar into the board cards (Status → `Scripted`) and a week brief in the Brain; keeps 30 days visible on the board | Mondays, the member's time (default 7:00 am) | `sf-week-plan` (`references/week-plan-task-prompt.md`) | `attraction-sf-week-plan` | `Week Plan task:` · `Week Plan slot:` |
+| **Weekly Content Performance** — the Friday note: which Reels and stories started conversations, the one change, next week's five from the calendar; the YouTube plugin appends its section from Week 4 | Fridays (`Friday note time:` in `operations.md`, else the last working hour) | `sf-analytics` (`references/weekly-performance-task-prompt.md`) | `attraction-sf-weekly-performance` | `Weekly Content Performance task:` |
+| **Daily Stories** (optional, OFF by default) — three story ideas each morning as a draft; writes nothing to the Brain | each morning, the member's time (default 7:30 am) | `sf-stories` (`references/daily-stories-task-prompt.md`) | `attraction-sf-daily-stories` | `Daily Stories task:` · `Daily Stories time:` |
+
+"My attraction workflows" / "my short-form scheduled workflows" (`sf-week-plan` Job C) lists all three with their
+status and the one-sentence stop. The member-run planner `sf-weekly-routine` plans around the Monday drafts; the
+Monday Week Plan fills the rhythm the planner sets.
 
 ## Documents this plugin produces (per the Brain's `shared/drive-map.md`, located by Workspace ID)
-- Reel scripts, the 30-day calendar, green-screen packages, story sets, the weekly ideas + hook bank, the weekly
+- `[Name]'s Short-Form Game Plan — YYYY-MM-DD` (`sf-gameplan`; dated, newest is current) → `03 · Content/Short-Form/` (the bucket root)
+- Reel scripts, the week plan (the Monday workflow's doc), a calendar-only refresh, green-screen packages, story sets, the weekly ideas + hook bank, the weekly
   routine, the keyword sheet + DM bank, the film-day plan, the publishing queue → `03 · Content/Short-Form/[YYYY-MM · Month]/`
 - Carousel specs and LinkedIn document-post copy → `03 · Content/Graphics/[YYYY-MM · Month]/`
-- Profiles & Bios → `02 · Brand/`
+- The Profile Optimization Pack (`sf-setup` Step 2; formerly "Profiles & Bios") → `02 · Brand/`
 - Performance reviews, the Friday note, and the monthly deep dive → `03 · Content/Short-Form/Performance/` (no month folder)
 Never a parallel `[Member] — Short-Form System/` root (the audit's seam). Naming per `shared/output-standard.md`.
 
 ## Hand-offs (by skill name, never duplicated)
 `attraction-brain-sync` (pull / push) · `attraction-brain-setup` (no Brain) · `attraction-compliance` (gate unset)
-· `attraction-story-bank` (a story the member wants to add) · `sf-ideas` (hook bank, weekly ideas) ·
+· `attraction-story-bank` (a story the member wants to add) · `sf-gameplan` (the Game Plan; the 30-day calendar —
+BUILD inside setup, UPDATE on demand) · `sf-week-plan` (the Monday Week Plan; the workflows registry) ·
+`sf-ideas` (hook bank, weekly ideas) ·
 `sf-comment-to-dm` (keyword per Reel, DM copy bank → `cv-dm-flow`) · `sf-optimizer` (captions, hashtags, the CTA
 line) · `sf-publish` / `sf-batch-publish` (scheduling through the member's own tool) · `sf-analytics`
 (performance, the Friday agent) · `sf-board` (the Notion board) · `studio-reel` (the Riverside edit, one clip at a

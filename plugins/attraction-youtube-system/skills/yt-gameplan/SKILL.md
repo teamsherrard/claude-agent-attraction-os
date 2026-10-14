@@ -2,16 +2,16 @@
 name: yt-gameplan
 description: >
   The flagship first deliverable of the Agent Attraction YouTube System — the YouTube Game Plan for
-  attracting agents, on Mike Sherrard's three categories (niche authority · interviews ·
-  model/opportunity) and the 8-video cycle (3 niche · 1 model breakdown · 4 interviews). Audits the
-  channel at any size, sets the three niche lanes from the Problem · Situation · Future buckets,
-  builds the interview guest lane from the organization and the Top-50, the model lane that answers
-  what agents already research, ~50 titles bucketed, the goal-math from the Brain's goals in
-  conversations and calls per video (never income), the first 90 days on the cycle, the 180-day
-  direction — one premium doc in the member's workspace. Runs after setup or on demand; demo mode.
-  Triggers on "build my attraction game plan", "my attraction game plan for YouTube", "my attraction
-  channel plan", "my attraction YouTube strategy", "refresh my attraction game plan", "map my
-  attraction channel", "180-day YouTube plan".
+  attracting agents, on Mike Sherrard's three categories (niche authority · interviews · model) and
+  the 8-video cycle (3 niche · 1 model · 4 interviews). Audits the channel at any size, sets the
+  three niche lanes (Problem · Situation · Future), builds the interview lane from the organization
+  and the Top-50, the model lane that answers what agents already research, ~50 titles bucketed, the
+  goal-math from the Brain's goals in conversations and calls per video (never income), the first 90
+  days on the cycle (a dated calendar in the Brain), the 180-day direction — one premium doc. Runs
+  inline inside setup (no question stops) or on demand; demo mode. Triggers on "build my attraction
+  game plan", "my attraction game plan for YouTube", "my attraction channel plan", "my attraction
+  YouTube strategy", "refresh my attraction game plan", "map my attraction channel", "180-day
+  YouTube plan".
 ---
 
 # YouTube Game Plan — the flagship first deliverable
@@ -29,6 +29,13 @@ compliance (#3), plain talk (#4), sourcing (#6), docs (#7), the stamp (#9), demo
 phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phase 5), §9 (Phase 6), §13–§14
 (Phases 7–9). `references/starter-title-bank.md` at Phase 6 only, and only when the member has no titles of their
 own (the rule is stated there). Never the whole doctrine up front.
+
+**Run from setup (`yt-setup` Step 6 — the journey's second step).** The member has just heard *"now I'm going
+to build your YouTube Game Plan"*; the plan runs straight through with **no question stops**: the cadence is
+stated from the Brain's hours, not asked (Phase 2); goals at `seeds` are used and labeled, never asked for
+(Phase 7); the board is not offered (Phase 9 step 6 — setup's next step builds it and maps the next 30 days);
+the closing hand-off is replaced by handing back to setup (Phase 9 step 7). The research line (Phase 3) is
+still said once — it is a progress line, not a question. On demand, every stop below behaves as written.
 
 ---
 
@@ -115,8 +122,10 @@ content captures intent → the CTA creates conversations → the Partner Call. 
 · 4 interviews per 8 videos**. **Set the YouTube cadence here, once:** propose it from the hours in `goals.md` —
 the doctrine's **two a week** when the hours allow (`/94`: roughly four times the growth of one, "not two
 times"), the **one-a-week floor** otherwise — say which and why in one line and let them confirm in one word
-(propose-and-react; "you pick" → the recommendation). It becomes the `Cadence:` anchor every other skill reads
-(Phase 9). Say why not every video is brokerage content.
+(propose-and-react; "you pick" → the recommendation). **Inside setup: no question — state the pick and why in
+one line, move on, and say "change my cadence" is one phrase away.** It becomes the `Cadence:` anchor every
+other skill reads (Phase 9) and the pace the board's 30-day window is mapped at. Say why not every video is
+brokerage content.
 
 ## Phase 3 — The three niche lanes: the Problem · Situation · Future buckets (doctrine §4)
 **Read now:** `memory/objections.md` (the Situation and Model titles answer these) · `memory/ideas.md` (tags `youtube`,
@@ -184,7 +193,9 @@ the four-month arc; as your own ideas and your comments come in, they replace it
 ## Phase 7 — Your goal → the plan (conversations and calls, never income)
 **Read now:** `memory/scorecard.md` Targets block (the ratios), with `goals.md` from Phase 2 (the 90-day conversations
 and calls-held targets). If goals are `seeds`, use the seed numbers and label them; if empty, ask ONCE for the one
-number ("how many agent conversations a week feels real?") and say `attraction-goals` saves it for everything else.
+number ("how many agent conversations a week feels real?") and say `attraction-goals` saves it for everything else
+— **inside setup, never a question: use the seeds (or a labeled default) and say in the plan that "set my
+attraction goals" locks them.**
 Per the framework's math: the 90-day calls-held target from `goals.md` → calls booked needed (÷ show rate) →
 conversations needed (÷ the Brain's conversations→calls ratio) → YouTube's share this quarter (the member's
 split; default labeled) → per-video conversations at their cadence. State every assumption; frame it as a
@@ -217,9 +228,22 @@ lagging), CTR 6–10% after month one, compliance status.
 5. **Anchor it:** write the `## Game Plan anchors` block in `identity/channel.md` (plan date · doc link ·
    cadence · cycle position · the three lane names · the 90-day target) and the interview seeds → push via
    `attraction-brain-sync` → verify. Save fails → say so, keep the plan visible, retry once, stop.
-6. **The board** (house rules #11): read `identity/publishing.md` now — a `Content board:` URL → on a refresh offer to update the board to the
-   new plan (`yt-board`); `declined` → silent; no line → `yt-board` offers once.
-7. **Hand off:** *"Pick any title from cycle one and say 'make my attraction video.' Or say 'set up an agent
+5b. **The calendar in the Brain:** write the first-90-days calendar as dated rows into
+   `memory/content-calendar.md → ## Long-form (YouTube)` — the one section this plugin owns inside that
+   Short-Form-owned file (shape in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`): one row per video,
+   a real recording date (the week's filming day from `identity/operations.md → Filming window:`, else the
+   week's Monday), a publish date, the bucket and lane, the guest, Status `Idea`, a System ID
+   (`yt-YYYY-MM-w[n][a/b]`); the `Window:` line under the heading. A refresh replaces un-started `Idea` rows
+   whose titles changed and never touches a `Scripted` or later row. The file absent (a Brain that predates
+   it) → the doc is the calendar; say once, housekeeping-last: *"say 'upgrade my attraction brain' and your
+   calendar lands in your Brain too."* Never the file's short-form table or its `## Week briefs`.
+6. **The board** (house rules #11): **inside setup → skip this step entirely** (setup's next step builds the board
+   and maps the next 30 days). On demand: read `identity/publishing.md` now — a `Content board:` URL → on a
+   refresh, update the board to the new plan (`yt-board`'s rolling rule: un-started cards inside the 30-day
+   window are swapped for the new titles, `Scripted` and later cards untouched, one line about what moved);
+   `declined` → silent; no line → `yt-board` offers once.
+7. **Hand off:** inside setup → hand back to `yt-setup` (its Step 7 announces the board next); no closing line
+   here. On demand: *"Pick any title from cycle one and say 'make my attraction video.' Or say 'set up an agent
    interview' to invite your first guest."*
 
 ## Quality checklist

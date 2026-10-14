@@ -1,14 +1,16 @@
 ---
 name: sf-stories
 description: >
-  Daily Instagram stories for agent attraction — the four-category rotation (behind the scenes of leading ·
-  agent wins · personal · opportunity), one to five stories a day, never a day without. Writes today's story
-  set from the member's Brain: each story's text overlay, the sticker (poll, question box, quiz, link), and a
-  story-reply CTA that hands to the ManyChat story-reply flow or a by-hand reply. Keeps a Story Prompt Deck for
-  days with nothing to say; personal stories on passions and hobbies connect with agents who share them; agent
-  wins are tagged so they reshare. Text only; never posts. Trigger on: "today's stories", "my story rotation",
-  "stories for agents", "attraction stories", "story prompts", "what should I post on my stories",
-  "behind-the-scenes story", "story ideas for this week", "write my stories", "a story about my agent's win".
+  Daily Instagram stories for agent attraction: the four-category rotation (behind the scenes of
+  leading, agent wins, personal, opportunity), one to five a day, never a day without. Writes today's
+  story set from the member's Brain: each story's text overlay, the sticker (poll, question box, quiz,
+  link), and a story-reply CTA that hands to the ManyChat story-reply flow or a by-hand reply. Keeps a
+  Story Prompt Deck for empty days; personal stories on passions pull in agents who share them; wins
+  are tagged so agents reshare. Owns the optional Daily Stories workflow (three story ideas each
+  morning, a draft; off by default; only with the member's yes). Text only; never posts. Trigger on:
+  "today's stories", "my story rotation", "stories for agents", "attraction stories", "story prompts",
+  "what should I post on my stories", "behind-the-scenes story", "story ideas for this week", "write my
+  stories", "a story about my agent's win", "turn on my daily stories", "stop my daily stories".
 ---
 
 # Daily Stories — the connection layer
@@ -30,7 +32,9 @@ names the sticker, and writes the reply CTA. Never an image.
 ## Step 1 — Load the Brain
 Read `~/attraction-brain/brain.md` first, then:
 - `identity/content-pillars.md` — the Proof and Personality sections (the recurring behind-the-scenes, the
-  passions and routines they're willing to share, what's off-limits); missing → `sf-setup` in one warm line
+  passions and routines they're willing to share, what's off-limits); written by the Game Plan inside setup —
+  missing → "say 'set up my attraction short-form'" in one warm line
+- `memory/content-calendar.md` — today's planned post, if any (a "recording day" story proposes itself)
 - `identity/publishing.md` — the keyword, ManyChat state (`connected` → story-reply flow; otherwise by hand),
   the highlights list
 - `identity/avatars.md` — who's watching; what a quick win looks like for them
@@ -113,6 +117,26 @@ day's set (Format `Graphic`; Pillar = the set's lead pillar, one OS name, never 
 pillar; Context per `sf-board`). Never schedule stories through a tool — they're posted live from the phone; say
 so if asked.
 
+## The scheduled workflow — Daily Stories (optional; OFF by default; this skill owns it)
+Three story ideas each morning as a draft — for the member who wants the day started for them. **Provisioned
+only with the member's explicit yes, never silently.** The normal path is **setup's consent card** (`sf-setup`
+Step 5 — recommended off there; a yes to it is this consent, and setup runs the provisioning without asking
+again). Otherwise "turn on my daily stories" → read `config.md`'s `Daily Stories task:` line first: a task id →
+it is on, say nothing; `declined` → never re-offer; `later` / `not offered yet` / no line → offer once, in one
+plain line: *"want three story ideas waiting for you every morning — on your rotation, from what's actually
+happening in your week? Nothing posts on its own. Yes, and what time?"* **Your turn.**
+- **Yes** → `list_scheduled_tasks` first (adopt `attraction-sf-daily-stories` if it exists, never a twin), else
+  `create_scheduled_task` with `taskId: attraction-sf-daily-stories`, every morning at their time (default
+  7:30 am, in `config.md → Timezone`), the `prompt` set **verbatim** from `references/daily-stories-task-prompt.md`.
+  Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — never claim a schedule that did not save.
+  Write `Daily Stories task: attraction-sf-daily-stories` and `Daily Stories time: [time]` to the `## Short-Form
+  (Week 3)` block of `config.md`; push via `attraction-brain-sync`; confirm once: *"On. Say 'stop my daily stories'
+  any time."*
+- **No** → `Daily Stories task: declined`; push; never re-offer. **Stop / pause** → `delete_scheduled_task` (or
+  disable) on the saved id; write `declined` (or `paused`); push; one line. A demo Brain never gets a task.
+- The scheduled run writes nothing to the Brain — it leaves the three ideas as its closing message; the member
+  says "post these" in chat and this skill logs them (Phase 5). Draft-only, always.
+
 ## Phase 5 — Save + log + push
 1. **Save** per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` only when the member asks for a week of sets
    or a deck doc — a daily set lives in chat. A saved set: rendered `.docx` to
@@ -138,3 +162,5 @@ so if asked.
 - [ ] No compensation, no earnings, no negative word about any brokerage or person; compliance three-state applied;
       "a cap" as a milestone only where the rev-share marketing policy allows
 - [ ] Logged one row per pillar in the locked shape (one value per Pillar cell), pushed; text only
+- [ ] The Daily Stories workflow provisioned only on a yes (setup's card or here), adopted not twinned, verified;
+      the two config lines written and pushed; off by default; draft-only

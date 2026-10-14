@@ -102,8 +102,8 @@ Text instructions only; never rendered here.
 Rules: one keyword per post, said once on camera and written once in the caption; the keyword is pinned as the
 first comment; every resource ask points to something that exists; **no compensation, rev share, splits, caps,
 fees, or income words in any caption on any platform** — those are a call conversation. The keyword rule, one
-sentence: The member has ONE primary keyword, chosen once in `sf-setup` (the `Keyword:` line in
-`identity/publishing.md`); GUIDE · GROWTH · SCALE · PARTNER are the four sequence names from Mike's ManyChat
+sentence: The member has ONE primary keyword, chosen once at setup — the profile-optimization step (the `Keyword:` line in
+`identity/publishing.md`; the Game Plan carries it); GUIDE · GROWTH · SCALE · PARTNER are the four sequence names from Mike's ManyChat
 templates — per-Reel variants that default to the primary keyword's flow until the member runs those templates
 in their own ManyChat. The GUIDE and PARTNER in this file's examples are those variants.
 

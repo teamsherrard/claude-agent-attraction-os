@@ -1,11 +1,12 @@
 # [Member First Name] — YouTube Channel
-*identity · the channel positioned to attract agents · owner: the YouTube System's `yt-setup` (Week 4) · anchors: `yt-gameplan` · `Live data:` line + `## Performance` blocks: `yt-analytics` · the Brain never writes this file*
+*identity · the channel positioned to attract agents · owner: the YouTube System's `yt-setup` (Week 4) · anchors: `yt-gameplan` · `Live data:` line + `## Performance` blocks: `yt-analytics` · the `Setup:` line (the setup journey's resume stamp): `yt-setup` only · the Brain never writes this file*
 *Empty until Week 4 BY DESIGN — not a gap. The shape is LOCKED by the owner (`attraction-youtube-system/skills/yt-setup/references/channel-template.md`): rename nothing, other skills find these headings by name. Keep it thin — who the member is, who they attract, their offer, voice, pillars, and rules are read live from the Brain, never copied here. Lanes are the channel's playlists, one per bucket (Problem · Situation · Future · Interview · Model); the OS pillars (Authority · Perspective · Story · Proof · Personality) live in `content-pillars.md` and are never restated here.*
 *Last updated: [YYYY-MM-DD]*
 
 ## Channel
 - URL: [https://youtube.com/@handle]  ·  Handle: [@handle]  ·  Status: [active / empty / none → created YYYY-MM-DD]
 - Mode at setup: [new / existing]  ·  Live data: [not offered yet / active YYYY-MM-DD / declined YYYY-MM-DD]
+- Setup: [kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
 
 ## Positioning (from the Brain — restated as the channel's one line)
 - For: [primary avatar, in their words]  ·  Known for: [niche / known-for]

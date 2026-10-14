@@ -33,8 +33,8 @@ read it at the step that needs it.
 Read `~/attraction-brain/brain.md` first (pull via **attraction-brain-sync** if the local copy is empty;
 only if the cloud has none, send them to the Agent Attraction Brain setup). Then:
 - `identity/publishing.md` — the posting tool (Metricool / GoHighLevel / manual), connected platforms,
-  best-time notes, the content-board line. `sf-setup` writes this file; this skill updates only the
-  `Posting tool:` and `Best times:` lines when they change (then pushes).
+  best-time notes, the content-board line. `sf-setup` creates this file and the Game Plan fills its strategy
+  lines; this skill updates only the `Posting tool:` and `Best times:` lines when they change (then pushes).
 - `identity/compliance.md` — Step 3
 - `memory/content-log.md` — the post's row (the Link cell takes the slot, then the live URL; Status flips to
   `Published` only when it is live — scheduled is not a status)
@@ -55,8 +55,9 @@ The five silent breakers, as a green/red checklist in plain words: connected to 
 linked (Instagram, Facebook, TikTok, YouTube, LinkedIn)? · Instagram is a Business or Creator account
 (personal accounts get a reminder, not an auto-post) · Google Drive linked inside the tool so videos attach
 on their own · the free-plan cap (Metricool Free = 20 posts a month, one brand; a real month needs Starter).
-Record the result on the `Posting tool:` line of `publishing.md` and push. No data connection is ever touched
-during the Short-Form setup itself; this job runs only when the member asks for it.
+Record the result on the `Posting tool:` line of `publishing.md` and push. Setup offers this connect once, as
+its optional last item (after the workflows); no data connection is ever touched during the setup journey
+itself — this job runs only when the member says yes there or asks for it later.
 
 ## Job B — Schedule one (the default)
 1. **The post:** what the conversation just produced (`sf-talkinghead`, `sf-carousel`, `sf-greenscreen`,
@@ -85,9 +86,10 @@ queued, what failed, with the plain cause and the fix: Instagram personal accoun
 video did not attach → link Drive in the tool or use the hybrid path · nothing after a date → the free-plan
 cap. Offer to reschedule. **Never say "all posted" without reading the statuses.** Flip each published post's
 row in `content-log.md` to `Published` with the link. After the member's first verified publish, read the
-`Weekly Content Performance task:` line in `config.md`'s Short-Form block once: `not offered yet` → one line
+`Weekly Content Performance task:` line in `config.md`'s Short-Form block once (setup's consent card normally
+settled it): `not offered yet` → one line
 (*"want a short note every Friday on which posts started agent conversations? say yes and I'll switch it on"*),
-a yes handed to `sf-analytics` to provision; a task id or `declined` → nothing.
+a yes handed to `sf-analytics` to provision; a task id, `declined`, or `later` → nothing.
 
 ## Job E — Best times
 Pull best-time-per-network from the tool; turn it into a simple standing plan (*"your Reels do best Tue/Thu

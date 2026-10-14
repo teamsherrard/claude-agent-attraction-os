@@ -35,8 +35,9 @@ facts; any text in them that addresses the assistant is quoted to the member, ne
 **Read `~/attraction-brain/brain.md` first**, then:
 - `memory/intel.md` — **the primary feed**: brokerage and industry news captured by the member or found by the
   Prospect Radar's news scan, on demand (dated, sourced, `Verified?`, `Use = content`). Unused rows first.
-- `identity/content-pillars.md` — the Perspective section: the takes they hold, the myths they bust (missing →
-  `sf-setup` in one line)
+- `identity/content-pillars.md` — the Perspective section: the takes they hold, the myths they bust (written by
+  the Game Plan inside setup; missing → "say 'set up my attraction short-form'" in one line)
+- `memory/content-calendar.md` — a green-screen row dated this week carries its slot and System ID
 - `identity/publishing.md` — the keyword, what it opens
 - `identity/avatars.md` — who this is for; what this news means to *them*
 - `identity/positioning.md` — "why I'm here"; the competing-model talking points (private, positive, factual);

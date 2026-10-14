@@ -30,8 +30,8 @@ Once the Conversion plugin is installed (its `## Conversion & Sales` block exist
 
 ## Three jobs (detect from the message)
 - **A · THE KEYWORD FOR THIS REEL** — "what's the ask on this reel", "keyword for this reel": pick the rung and
-  the keyword for one post (the member's primary keyword is set once in `sf-setup`; this picks the rung and any
-  per-Reel variant).
+  the keyword for one post (the member's primary keyword is set once at setup — the profile-optimization step —
+  and carried by the Game Plan's section 5; this picks the rung and any per-Reel variant).
 - **B · THE KEYWORD SHEET + DM BANK** — "my DM bank", "ManyChat copy": build the whole set once; refresh it
   when the offer or the free resource changes.
 - **C · A CONVERSATION STARTED** — "an agent commented PARTNER", "she DMed me from the reel": write the human
@@ -40,8 +40,11 @@ Once the Conversion plugin is installed (its `## Conversion & Sales` block exist
 ## Step 1 — Load the Brain
 Read `~/attraction-brain/brain.md` first (pull via **attraction-brain-sync** if the local copy is empty).
 Then only what the job needs:
-- `identity/publishing.md` — the `Keyword:` line (the one word `sf-setup` chose; the default on every Reel),
-  `What it opens:`, and `ManyChat:` (`connected` → the sequences run; otherwise the member replies by hand)
+- `identity/publishing.md` — the `Keyword:` line (the one word chosen at setup; the default on every Reel),
+  `What it opens:`, and `ManyChat:` (`connected` → the sequences run; otherwise the member replies by hand —
+  the Game Plan asked this once; never re-ask it)
+- `memory/content-calendar.md` — the rows this week (Job A: the rung and keyword a calendar row already carries
+  is the default for that Reel)
 - `identity/avatars.md` — who the keyword is for and their pains (the qualifier questions mirror them)
 - `memory/magnets.md` → `## Current magnet` (built in Week 2 — it normally exists by now) — the live guide the GUIDE
   keyword delivers, read before `offer.md`; empty only when the member skipped the Week 2 lead magnet session
@@ -68,8 +71,8 @@ Then only what the job needs:
 | **Conversation** | one human question about their situation | the real relationship | all |
 | **Call** | "if it makes sense, let's talk; here's my calendar" | the partner call | PARTNER |
 
-**The keyword rule, one sentence:** The member has ONE primary keyword, chosen once in `sf-setup` (the
-`Keyword:` line in `identity/publishing.md`); GUIDE · GROWTH · SCALE · PARTNER are the four sequence names from
+**The keyword rule, one sentence:** The member has ONE primary keyword, chosen once at setup (the
+`Keyword:` line in `identity/publishing.md`; the Game Plan's section 5 carries it); GUIDE · GROWTH · SCALE · PARTNER are the four sequence names from
 Mike's ManyChat templates — per-Reel variants that default to the primary keyword's flow until the member runs
 those templates in their own ManyChat. (`mike-frameworks.md` §8.) If the member renames their primary keyword
 here, update the `Keyword:` line in `publishing.md` (the one line this skill writes there) and push.
@@ -112,8 +115,9 @@ Authority → Comment / Resource (*"comment [KEYWORD] and I'll send you the one-
 you are, DM me [KEYWORD]"*) · Proof → DM (*"want to know what she changed? DM me [KEYWORD]"*) · Personality →
 Follow only. Plus the one direct call-rung line, marked *once a month*. Every line is tied to a resource that
 exists (`magnets.md → ## Current magnet` first — the Week 2 guide, the primary route — `offer.md` second; no magnet
-and `seeds` → the call, the fallback); none names the model or the money. `sf-talkinghead`, `sf-carousel`, `sf-greenscreen`, and `sf-optimizer` take their CTA line from this
-bank once it exists; until then they write one on the same rules.
+and `seeds` → the call, the fallback); none names the model or the money. `sf-talkinghead`, `sf-carousel`, `sf-greenscreen`, `sf-week-plan`, and `sf-optimizer` take their CTA line from this
+bank once it exists; until then they write one on the same rules (the Game Plan's section 5 holds the five
+one-per-pillar ask lines and points here for the full fifteen).
 
 **Write six messages for the primary keyword first, then six for each variant** (until the ManyChat templates
 run, every variant answers with the primary keyword's six), in the member's voice, each under 60 words:

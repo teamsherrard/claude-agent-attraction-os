@@ -2,7 +2,8 @@
 
 How the system gets a finished post onto the member's socials once they've connected a posting tool. Every
 workflow calls this at its "want me to schedule this?" step; `sf-publish` and `sf-batch-publish` own the
-scheduling conversation; `sf-setup` offers the connect ONCE, last, as a separate optional step. Apply house
+scheduling conversation; `sf-setup` offers the connect ONCE, as its optional last item after the workflows are
+switched on. Apply house
 rules — talk plain, never "API", "OAuth", "token" in front of the member (say "a one-click sign-in").
 
 ---
@@ -18,8 +19,8 @@ rules — talk plain, never "API", "OAuth", "token" in front of the member (say 
 ---
 
 ## Step 1 — Which tool? (read the Brain)
-Read the `Posting tool:` line in `~/attraction-brain/identity/publishing.md` (set by `sf-setup` or a later
-connect):
+Read the `Posting tool:` line in `~/attraction-brain/identity/publishing.md` (`manual` from the day `sf-setup`
+creates the file; changed only by a connect):
 - **`manual`** (or the line is empty) — hand over copy-paste-ready posts. (The line's full forms: `manual` ·
   `metricool · connected YYYY-MM-DD · brand [name]` · `gohighlevel · connected YYYY-MM-DD · location [name]` ·
   `declined YYYY-MM-DD`.) Mention once, gently, that they can

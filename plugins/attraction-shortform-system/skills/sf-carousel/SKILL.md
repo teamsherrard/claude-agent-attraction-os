@@ -38,7 +38,9 @@ broker-owners when the member's avatars include them.
 
 ## Step 1 — Load the Brain
 Read `~/attraction-brain/brain.md` first, then:
-- `identity/content-pillars.md` — the pillars (missing → send to `sf-setup` in one warm line)
+- `identity/content-pillars.md` — the pillars and their angles (written by the Game Plan inside setup; missing →
+  "say 'set up my attraction short-form'" in one warm line)
+- `memory/content-calendar.md` — a carousel row dated this week is the default topic
 - `identity/publishing.md` — the keyword, what it opens, platforms (is LinkedIn on the list?)
 - `identity/avatars.md` — who it's for; their problem in their words; team leader / broker-owner present?
 - `identity/journey.md` — the three beats + the `## Why join me` block (the Why-I-Left spine, if written)

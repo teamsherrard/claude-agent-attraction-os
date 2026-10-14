@@ -112,8 +112,10 @@ and his Reels buckets (`07-instagram/88`) map onto them like this:
 - **Brokerage and opportunity content is woven through these pillars; it is never the feed** (launching doc,
   Day 3: "explain how brokerage/opportunity content can be woven through those categories rather than becoming
   their entire feed").
-- **The Brain stores the member's pillars** in `identity/content-pillars.md` (written by `sf-setup`): each pillar
-  mapped to their avatars, their stories, their positioning, their proof. Skills read it; they never re-derive it.
+- **The Brain stores the member's pillars** in `identity/content-pillars.md` (written by the Short-Form Game Plan,
+  `sf-gameplan`, inside the setup journey): each pillar mapped to their avatars, their stories, their positioning,
+  their proof, with three angles each. Skills read it; they never re-derive it. The plan's 30-day calendar lives in
+  `memory/content-calendar.md`.
 - **Static posts** (recognition graphics, a personal photo) are fine spliced in between Reels (`07/88`).
 
 ---
@@ -168,7 +170,8 @@ ends on exactly **one** rung, named out loud and repeated in the caption.
 | Call | "book a call" · "apply to partner with me" · "get everything for free — partner with me" (`07/87`, `05/35b`) | after a conversation; a direct ask only on a rare, explicit opportunity post |
 
 - **The keyword carries every Reel** (Week 3 doc: "the ManyChat keyword carrying every Reel"). One word, chosen
-  once in `sf-setup`, saved in `identity/publishing.md`, said on camera and written in the caption. With
+  once at setup (the profile-optimization step, where the bios carry it; the Game Plan's section 5 confirms it),
+  saved in `identity/publishing.md`, said on camera and written in the caption. With
   ManyChat connected it triggers the member's sequence (the bonus asset: PARTNER · GUIDE · SCALE · GROWTH · story
   reply · DM qualifier · event · follow-up — Mike's templates, imported into the member's own account). Without
   ManyChat the keyword still works: the member replies by hand, and from Week 5 the Daily Follow-Up Queue

@@ -34,8 +34,12 @@ Agent Attraction Brain setup. Then open only what this needs:
   chain (`## The framework`) are that material and `## The program`'s 90-day outcome the promise — the program's
   name only where the offer's own lines carry it). If `offer.md` says `Status: seeds`, use the seeds as
   topics and never ask for the finished offer; Week 2 builds it.
-- `identity/content-pillars.md` — the pillar names and the member's realistic weekly number (written by
-  `sf-setup`). If it does not exist yet, use the five pillars below and say `sf-setup` fills this in.
+- `identity/content-pillars.md` — the pillar names, the three angles per pillar, and the hooks bank (written by
+  the Game Plan, `sf-gameplan`, inside the short-form setup). If it does not exist yet, use the five pillars
+  below and say the Game Plan fills this in ("say 'set up my attraction short-form'").
+- `memory/content-calendar.md` — the Game Plan's 30-day calendar: the rows dated this week are the member's
+  plan already; THIS WEEK'S FIVE starts from them (sharpened by this week's research), never from a blank page;
+  a week with no rows mapped → say so in one line ("say 'plan my next 30 days of reels'") and build the five fresh
 - `identity/publishing.md` — the `Keyword:` line (the one word every Reel carries), `Weekly mix:`, `Cadence:`
 - `identity/journey.md` + `identity/story-bank.md` — the Story and Personality pillars come from here
 - `identity/proof.md` — agent wins for the Proof pillar (only rows marked OK to use publicly)
@@ -81,7 +85,9 @@ Build, in this order:
   forum, the video title, the news item, the member's own conversations and objections) · the pillar it feeds.
   This is where the citations live; an idea or hook below that came from research names its finding by number.
   Search unavailable → the section says so and lists what the Brain's conversations and objections gave instead.
-- **THIS WEEK'S FIVE** — matched to the routine mix (**2 attraction · 2 authority · 1 story** — attraction =
+- **THIS WEEK'S FIVE** — the calendar's rows for this week first (the Game Plan already dated them; keep a row
+  that still fits, swap one only for a HIGH finding and say which), then the gaps, matched to the routine mix
+  (**2 attraction · 2 authority · 1 story** — attraction =
   Proof + Personality; authority = Authority + Perspective; story = Story; `mike-frameworks.md` §9d). Each: #
   · the title the way a person would say it · the angle in one line · pillar · the avatar it is for · the
   format (talking head / green screen / carousel / story) · the keyword it will carry (the `Keyword:` line in
@@ -91,7 +97,8 @@ Build, in this order:
   consented · CTA present** are the hard gates (a pick that fails one is swapped or rewritten); the other four —
   one thing to do today, only this member could post it, a reason to reply, the leader test — sharpen a pick, never
   drop it. Silent — the member sees the five, not the check.
-- **THE BANK** — fifteen more, three per pillar, same columns, for the coming weeks.
+- **THE BANK** — fifteen more, three per pillar, same columns, for the coming weeks (the Monday Week Plan and the
+  next calendar window draw from here — this is where the member's next 30 days get their depth).
 - **THE 30-HOOK BANK** — six per pillar, each under 12 words, each one the avatar would stop for. Hooks
   name a real moment, a specific mistake, a before-and-after, or a contrarian line. **Never "stop
   scrolling."** No two hooks share a shape.
@@ -130,8 +137,9 @@ Build, in this order:
   to `.docx` with `shared/render_doc.py` → the workspace's `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
   `[YYYY-MM-DD] · Attraction Ideas + Hook Bank`. Then write the Brain — two cells only: flip the `ideas.md` rows
   used to `used`, and append the thirty hooks as one dated block under `## Hooks bank` in
-  `identity/content-pillars.md` (the section the contract reserves for this skill; newest block last; the five
-  pillar sections are never touched — `sf-talkinghead` and the optimizer read the bank from there;
+  `identity/content-pillars.md` (the section the contract reserves for this skill alongside the Game Plan's own
+  block; newest block last; the five
+  pillar sections are never touched — `sf-talkinghead`, `sf-week-plan`, and the optimizer read the bank from there;
   `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md` only if the shape is in doubt) — then push via
   **attraction-brain-sync** — write → push → verify. If the save fails, say it is not saved, keep the content
   visible, retry once, stop.

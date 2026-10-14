@@ -1,17 +1,17 @@
 ---
 name: yt-make-video
 description: >
-  Make This Attraction Video — the end-to-end production flow of the Agent Attraction YouTube System. Run it
-  in a new chat that becomes the video (one chat = one video). From a chosen idea it locks the packaging
-  (title, hook, bucket), writes the script in the member's voice, builds the thumbnail brief and the SEO
-  package with the book-a-call CTA, maps the resource, fills the content-board card, and after the member
-  films and publishes it writes the content-log row and repurposes the video. Works for niche videos,
-  interviews, and model breakdowns; hands the edit to the Riverside Studio by name. Never posts, never
-  publishes; the compliance gate runs before anything public.
-
-  Trigger on: "make my attraction video", "produce my attraction video", "let's make the agent video",
-  "build this attraction video", "make this interview video", "make this model breakdown video", "start the
-  video for this idea", or when a chosen attraction idea is pasted into a fresh chat.
+  Make This Attraction Video — the end-to-end production flow of the Agent Attraction YouTube
+  System. Run it in a new chat that becomes the video. From a chosen idea it locks the packaging
+  (title, hook, bucket), writes the script in the member's voice, builds the thumbnail brief and the
+  SEO package with the book-a-call CTA, maps the resource, fills the board card, and after publish
+  writes the content-log row and repurposes the video. Picks up the Monday Kickoff's drafts instead
+  of redoing them. Works for niche videos, interviews, and model breakdowns; hands the edit to the
+  Riverside Studio by name. Never posts or publishes; the compliance gate runs before anything
+  public. Trigger on: "make my attraction video", "produce my attraction video", "let's make the
+  agent video", "build this attraction video", "make this interview video", "make this model
+  breakdown video", "start the video for this idea", or when a chosen attraction idea is pasted into
+  a fresh chat.
 ---
 
 # Make This Video — one chat = one video
@@ -35,6 +35,15 @@ Resolve the save spot: `03 · Content/Long-Form/{YYYY-MM-DD · Title}/` (naming 
 `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`). Say where it saves in plain words and
 suggest naming the chat after the video. Missing local Brain → `attraction-brain-sync` first; a tool error is
 never "no Brain".
+
+**Drafted by the Monday Kickoff already?** This video's content-log row is at `Scripted` with Link `—` and no
+`Script` doc in its folder, or its board card sits at `Scripted` with a script START (not a full script), or the
+folder holds a `Kickoff Brief — [title] — …` → **pick up the drafts, never redo them:** the brief's title, bucket,
+story, and CTAs are the package (Step 1 only confirms them and runs the competitive read); the script start's
+hook and CTA lines open the script (Step 2 writes the rest); the thumbnail brief stands unless the title changed
+(Step 3 is a check, not a rewrite); the SEO start is completed with the chapters (Step 4). Say so in one line:
+*"your Monday Kickoff already drafted the start — I'm picking up from there."* Setup's first video arrives the
+same way when the board was seeded: the card exists at `Idea`; the title is locked, nothing else is drafted yet.
 
 **Opened later:** Step 1 → `identity/voice.md` · `identity/story-bank.md` · `memory/magnets.md` (the live resource) · (an interview) `memory/interview-pipeline.md` ·
 (only if the idea came from them) `memory/ideas.md` · `memory/intel.md` · Step 2 → `identity/content-pillars.md` ·
@@ -98,9 +107,11 @@ When the member says it is live, ask for the link, then **update this video's `m
 (the one written at script): Status `Published`, Link, the CTA used, the story used; if no row exists,
 append one in the locked shape (Date · Platform `YouTube` · Format `long-form` or `interview` · Pillar =
 Authority / Proof / Perspective by the bucket · Topic/hook = `[bucket] final title` · Avatar · Story used · CTA ·
-Status · Link). Flip the board card to Published and top up the
-two-week window from the Game Plan. Push via `attraction-brain-sync` and say the save happened, or that it
-did not. For an interview, move its `memory/interview-pipeline.md` row to Published and hand the guest their
+Status · Link). Flip this video's row in `memory/content-calendar.md → ## Long-form (YouTube)` to `Published`
+(to `Recorded` at Step 7 when the member says it is filmed; the section absent → nothing to flip), flip the board
+card to Published, and top up the board to its next 30 days from the Game Plan
+(`${CLAUDE_PLUGIN_ROOT}/skills/yt-board/references/thirty-day-mapping.md`, the rolling rule — the Monday Kickoff
+does the same every week). Push via `attraction-brain-sync` and say the save happened, or that it did not. For an interview, move its `memory/interview-pipeline.md` row to Published and hand the guest their
 three distribution sentences (`yt-interview` Step 6).
 
 ## Step 9 — Repurpose
