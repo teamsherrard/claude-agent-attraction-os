@@ -14,6 +14,8 @@ exactly where it is.
 These are polished *outputs*, not the source of truth — the canonical data lives in the Brain's
 `identity/` and `memory/` files, so any document can always be regenerated.
 
-**Demo note:** the renderer inputs used for the Book render test are kept here on purpose
-(`brain-book-DEMO-2026-10-08.txt`, `scorecard-DEMO-2026-10-08.txt`) so the render can be reproduced with
+**Demo note:** the renderer inputs used for the demo renders are kept here on purpose
+(`brain-book-DEMO-2026-10-08.txt`, `scorecard-DEMO-2026-10-08.txt`, `partner-offer-DEMO-2026-10-18.txt` — the
+Partner Offer in the readable shape of 2026-10-18: `--title "The Sunday Table" --subtitle` the UVP line
+`--eyebrow "Partner Offer · Demo" --accent 1F4D3A`) so each render can be reproduced with
 `plugins/attraction-ai-brain/shared/render_doc.py`. The rendered `.docx` files are one folder up in `docs/demo/`.

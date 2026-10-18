@@ -39,7 +39,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 **Alternates:** outcome-led: "A buyer pipeline from the open houses you already host — with no lead bill." · story-led: "I paid for leads in a month I closed nothing. Then I built the Sunday routine. Now I teach it." · mechanism-led: "Two questions on the sign-in sheet, five texts by six on Sunday, one sheet on Tuesday. That's the system."
 **Bio-safe line:** "Former teacher. I help agents who are paying for leads build a buyer pipeline from open houses — one Sunday at a time."
 
-## The program (Week 2 — the offer defined like a product; the Partner Offer doc's section 2 and `brain.md`'s `Program:` line render from here)
+## The program (Week 2 — the offer defined like a product; the Partner Offer doc's At a glance page and `brain.md`'s `Program:` line render from here)
 - **Name:** The Sunday Table (the program and the offer share one name — the name on Taylor's Instagram and the name of the group)
 - **Type:** mentorship program — a weekly call plus a 1:1 to start: the teaching is live at the Tuesday table and on a partner's first Sunday; one lesson is recorded today (Module 1), so it is not yet a course plus community; no dated cohort, so not an accelerator
 - **For:** 2–5 year agents doing 4–10 deals a year (a profile, illustrative — demo), at a franchise office or on a team inside one, paying for online leads that don't convert, hosting open houses with the names going into a drawer (the primary type); also career-changer new agents (0–2 years) who are organized and coachable and have no idea where closing three comes from

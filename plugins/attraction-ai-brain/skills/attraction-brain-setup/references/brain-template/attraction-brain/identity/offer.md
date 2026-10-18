@@ -37,7 +37,7 @@
 **Alternates:** outcome-led: [one line] · story-led: [one line] · mechanism-led: [one line]
 **Bio-safe line:** [one sentence]
 
-## The program (Week 2 — the offer defined like a product; the Partner Offer doc's section 2 and `brain.md`'s `Program:` line render from here)
+## The program (Week 2 — the offer defined like a product; the Partner Offer doc's At a glance page and `brain.md`'s `Program:` line render from here)
 - **Name:** [the program name — the program and the offer share one name]
 - **Type:** [one of six: partnership program · mentorship program · coaching program · accelerator · course plus community · team system] — [one-line reason, from what the member actually does: a weekly call plus a 1:1 is a mentorship program; recorded lessons plus a group is a course plus community; a dated 90-day push with milestones is an accelerator; a team with shared systems and a shared brand is a team system — compensation still off the page]
 - **For:** [the primary type of agent in plain words; one line on the secondary type if any]

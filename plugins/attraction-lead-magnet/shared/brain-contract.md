@@ -89,12 +89,15 @@ the weekly check-in reads it; it never appends a scorecard row itself), `memory/
 |---|---|---|---|---|---|---|---|---|---|---|
 
 ## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks)
-- Shape: [ ] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Taken: [ ]
+- Shape: [ ] · Lane: [tool · plan · decision or proof] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Mike's lesson: [module/lesson — title] · Taken: [ ]
 ```
 The `## Current magnet` block's one-line shape above is read by every other plugin (`sf-comment-to-dm`,
 `yt-leads`, `cv-conversation-starter`, the Events skills, the YouTube CTA line) — its field order never
 changes. The intake block is shape-generic (one per magnet; a comparison-shaped guide's "Draws from" holds
-the member's own trade-off and the model types covered).
+the member's own trade-off and the model types covered). The `Lane:` and `Mike's lesson:` fields were added
+2026-10-18: the lesson that grounds the pick is cited here and in the magnet document's appendix, never on
+the member's screen (the locked row above has no citation column and does not change); an older block
+without them is read as before.
 Status moves only forward; a retired magnet keeps its row. Opt-ins and calls booked are running totals set by
 `lm-analytics` from the member's numbers or a live-data read, dated in Last reviewed.
 
@@ -155,7 +158,7 @@ whatever header and headings already exist are preserved byte-for-byte outside t
 - **Pipeline stages:** Identified → Conversation → Call booked → Call held → 3-way → Joined → Onboarded → Active (the AI Admin owns moves; this plugin only reports "calls booked from the funnel").
 - **Compliance status:** unset · set · confirmed. **Offer status:** seeds · finalized by member · built in Week 2.
 - **The canonical CTA button:** "Get the Free Guide" (every button, every page this plugin writes). **The ManyChat keyword for a magnet:** GUIDE (the Short-Form plugin's CTA ladder uses the same word; one keyword per resource) — distinct from the offer's `Comment keyword:` in `identity/offer.md` (the invitation word `attraction-offer` coins; `sf-setup` reads both when it chooses the primary keyword).
-- **The magnet is chosen from the member's offer:** three recommendations from `lm-magnet-ideas`, the member picks; no default magnet; the comparison guide is one shape among many, only when it fits the UVP.
+- **The magnet is chosen from the member's offer:** three ideas from `lm-magnet-ideas` — three different kinds, one per lane: a tool · a plan · a decision or proof piece (never two from one lane, never two cut from the same framework step) — the member picks; no default magnet; the comparison guide is one shape among many, only when it fits the UVP.
 - **Magnet status:** planned · written · designed · live · retired.
 
 ## Documents this plugin produces (per the Brain's `shared/drive-map.md`)

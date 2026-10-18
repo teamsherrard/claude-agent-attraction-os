@@ -188,8 +188,8 @@ Status line for the graphic: ["Included when you partner with me" / "Coming this
 Brand: [as above]
 
 FOR aa-offer-kit-design (the "Join My Team" one-pager)
-Pull from: the Partner Offer doc in 05 · Offer (its section 2 — the program's name, type and cadence; section 3 —
-the framework's one line) · the UVP · the free line · the booking line · the
+Pull from: the Partner Offer doc in 05 · Offer (its At a glance page — the program's name, type and cadence,
+and the method row's one-line chain) · the UVP · the free line · the booking line · the
 comment keyword.
 ```
 

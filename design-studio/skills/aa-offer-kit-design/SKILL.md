@@ -81,9 +81,9 @@ sheet**.
 
 1. **ONE intake form**, merged from the six references and pruned of everything the briefs, the Book,
    the Design System, and the project already answer: the Brain Book (newest) · the briefs — the Offer
-   Stack Brief (it carries the stack and the product blocks), the Partner Offer doc (its section 2 — the
-   program's name, type and cadence; section 3 — the framework's one-line version; section 6 — the deliverables
-   table; section 10 — the digital product's name and format), the Conversion
+   Stack Brief (it carries the stack and the product blocks), the Partner Offer doc (its At a glance page —
+   the program's name, type and cadence, and the method row's one-line chain; "What you get when you partner
+   with me" — the deliverables tables; the digital product's name and format on the From-me table), the Conversion
    system's one-pager and deck brief, the Model Positioning Sheet (uploaded, or read through the Drive
    connector) · an existing product cover, if one exists · who the deck is for · real photos and real
    screenshots, dropped into the CHAT · anything to feature or avoid. One confirmation line above it;

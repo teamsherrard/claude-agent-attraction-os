@@ -14,13 +14,16 @@ pay for proximity, access, support, and accountability — so the magnet gives t
 call offers the access.
 
 ## The magnet is chosen from the member's offer (house rules #11)
-There is no default magnet. `lm-magnet-ideas` reads the finished Partner Offer — the UVP one-liner, the unique
-mechanism, the Teach-first lessons, the five pains the member genuinely solves — and recommends three, one per
-lane: **the mechanism magnet** (the member's own system as a guide, checklist, or template — from Teach-first
-lesson 1), **the outcome magnet** (the result the primary type of agent wants, as a plan or roadmap), and
-**the question magnet** (the question agents ask most, answered honestly). The member picks. A fair comparison
-guide, a questions-to-ask-a-sponsor guide, or a switching checklist are shapes in the third lane **only when
-they fit the UVP** — the member's mechanism is about choosing or switching well, their type researches
+There is no default magnet. `lm-magnet-ideas` reads the finished Partner Offer — the UVP one-liner, the
+framework and the step its seed line names, the program's phases, the Teach-first lessons, the five pains the
+member genuinely solves — and recommends three, **one per lane, three different kinds of thing**: **the tool
+lane** (the member's own scripts, templates or swipe file an agent uses this week — one framework step cut
+out whole, or Teach-first lesson 1 on an older offer), **the plan lane** (a 30- or 90-day roadmap, a staged
+checklist or a calendar built from the program's own structure), and **the decision or proof lane** (the math
+worksheet, a consented case-study breakdown, a fair comparison or questions guide, a 5-day challenge). Never
+two from the same lane, never two cut from the same framework step. The member picks. A fair comparison
+guide, a questions-to-ask-a-sponsor guide, or a switching checklist are shapes in the decision lane **only
+when they fit the UVP** — the member's mechanism is about choosing or switching well, their type researches
 brokerages before talking to anyone (`02-prospect-targeting/21`, `/22`), and they can speak to it from their
 own move. The reason is Mike's niche rule (`04-value-proposition/27`): you are most qualified to help the
 person you used to be, and anything works if you've actually done the work — a magnet built from someone
@@ -67,7 +70,7 @@ The shape decides the body pages. The cover, the opening page (PAGE 1), the "wha
 closing page and the back page come from the architecture above and are the same for every shape; a shape's
 "framing" page IS the opening page, and a shape's "how to use it" page IS the "what to do next" page.
 
-### 1. The member's system guide (the mechanism magnet)
+### 1. The member's system guide (the tool lane)
 *The thing only they can write, because they did it. From Teach-first lesson 1: the routine, the script, the
 sheet they hand a new partner. Default pairing: the type they attract · financial uncertainty (no reliable
 next client). Promise: "The exact [open-house] routine that produced [the member's result, from proof.md] —
@@ -108,7 +111,7 @@ open house] again — so this time it sticks."*
 - **What to do next:** the five lines = the checklist's groups and the one question; the first step this week
   = the first group, done.
 
-### 3. The plan or template (the outcome magnet)
+### 3. The plan or template (the plan lane)
 *The result the primary type of agent wants, mapped — a 90-day plan, a 30-day sprint, a weekly template. Real
 fill-in rows. Default pairing: new agent · financial uncertainty (no direction). Promise: "Your first 90 days
 at any brokerage, mapped week by week."*
@@ -126,7 +129,7 @@ at any brokerage, mapped week by week."*
 - **What to do next:** the five lines = the three blocks of weeks, the review, the behind-page rule; the first
   step this week = week 1's first row, filled in.
 
-### 4. The questions guide (the question magnet)
+### 4. The questions guide (the decision lane)
 *The questions agents keep asking the member, answered or handed to the reader to ask. Default pairing: new
 agent · lack of support, mentorship, training. Promise: "The 14 questions that tell you whether a sponsor will
 actually show up."*
@@ -144,7 +147,7 @@ actually show up."*
 - **What to do next:** the five lines = the four groups and the two closing questions; the first step this
   week = ask the first group of whoever they're talking to — including the member.
 
-### 5. The fair comparison guide (the question magnet — only when it fits the UVP)
+### 5. The fair comparison guide (the decision lane — only when it fits the UVP)
 *A factual, cited, dated comparison of brokerage MODEL TYPES — cloud brokerage with revenue share · franchise
 split (with or without a cap) · flat fee / 100% · independent or local brokerage and local team — plus the
 questions an agent should ask any brokerage or sponsor. It obeys the two cardinal rules by construction
@@ -248,6 +251,37 @@ system] in a week — the exact walkthrough I give every new partner."*
 - **What to do next:** the five lines = the three lessons, the template, what to send the member when it's
   done; the first step this week = lesson 1, run once.
 
+### 7. The decision and proof shapes (the decision or proof lane — added 2026-10-18)
+*The thing that helps an agent decide, or shows them it worked. Same architecture, same laws: activities
+never income, the reader's own numbers never the member's, consent on file for any partner named.*
+- **The math worksheet** — *"your lead bill vs your own Saturday."* Default pairing: the type that is paying
+  for something that isn't working · financial uncertainty. Promise: "Put your last twelve months on one page
+  and decide with your own numbers." **PAGE 1:** why a worksheet and not an opinion — the member's own version
+  (the invoice in the zero-closing month), the rule that every number on these pages is the reader's, `How to
+  use this:`. **Body pages (4–5):** **the twelve-month tally** (`Template rows:` — what the subscription cost ·
+  what it produced · what each closing actually cost; blanks, never the member's figures) · **the Saturday
+  math** (`Template rows:` — open houses hosted · sign-ins · texts sent · conversations · showings, on the
+  reader's own ratios; the member's ratios appear only as `proof.md` states them, labelled as theirs) · **the
+  decision page** — three outcomes the tally can show and what the member would do at each, said straight ·
+  **the first Saturday** — the smallest version of the method run once, as activities. The mid-document
+  `Call to action:` sits on the decision page ("on your own numbers"). Never a vendor named; never a
+  projection; never an income figure.
+- **The case-study breakdown** — a real partner's first 30 days, step by step. **Only when `proof.md` holds
+  that partner's written consent** (first name only if that is the consent); "ask first" is not consent and
+  the shape does not exist without it. **PAGE 1:** who the partner was on day zero, in their situation not
+  their characteristics; `How to use this:`. **Body pages (4–5):** week 1 · week 2 · week 3 · week 4 — what
+  the partner did (activities), what the member did, what happened (the consented result, as `proof.md`
+  states it, dated) · **what would be different for you** — the honest page. Nothing improved, nothing added
+  to the partner's words.
+- **The 5-day challenge** — five days, one task each, the smallest version of the method run once. Default
+  pairing: any type · lack of support (nobody told them what to do on a Tuesday). **PAGE 1:** the five days on
+  one page (`Checklist:` — exactly five) and the rule that day five is a check-in with the member; `How to use
+  this:`. **Body pages (5):** one page per day — the task, the exact words or sheet (`Script:` / `Template
+  rows:`), the mistake most agents make that day, `Next step:`. The mid-document `Call to action:` sits on day
+  five ("send me your sheet").
+- **The calendar** (a plan-lane shape) — the 30-day plan as dated weeks, the same pages as the plan or
+  template with the dates blank (`Template rows:`).
+
 ### Other shapes Mike names — same architecture, same laws
 A **prompt list** (one prompt per body page, the member's own, tested — `15-advanced-scaling/73`; the prompts
 as `Script:` lines) · a **script** (the words as `Script:`, the when, the follow-up) · **the leader's switching
@@ -265,14 +299,17 @@ decide it:
 
 | Shape | Lane | Default type · pain | Promise example |
 |---|---|---|---|
-| **The [member's system] guide** | mechanism | the type they attract · financial uncertainty | "The exact [open house] routine that produced [the result] — step by step." |
-| **The checklist** | mechanism or question | experienced, low production · lack of support | "The 12 things to check before you switch again — so this move is the last one." |
-| **The plan / template** (90-day plan) | outcome | new agent · financial uncertainty (no direction) | "Your first 90 days at any brokerage, mapped week by week." |
-| **The questions guide** | question | new agent · lack of support, mentorship, training | "The 14 questions that tell you whether a sponsor will actually show up." |
-| **The fair comparison guide** | question (only when it fits the UVP) | new agent or experienced, low production · financial uncertainty | "Every model, every trade-off — including mine — and the questions to ask before you decide." |
-| **The mini-course outline / prompt list** | mechanism | agent with a brand · technology gaps | "5 AI prompts that write a week of agent-attraction content in 20 minutes." |
-| **The leader's switching guide** | question | team leader / broker-owner · work-life balance, limited growth | "How to move a team without losing its name, its momentum, or its people." |
-| **The rev-share explainer** (gated) | question | experienced or top producer · limited growth | "How revenue share actually works — in plain English, no numbers, no promises." |
+| **The [member's system] guide** | tool | the type they attract · financial uncertainty | "The exact [open house] routine that produced [the result] — step by step." |
+| **The checklist** | tool (when it IS the tool) or plan (when it stages the weeks) | experienced, low production · lack of support | "The 12 things to check before you switch again — so this move is the last one." |
+| **The plan / template** (90-day plan) · **the calendar** | plan | new agent · financial uncertainty (no direction) | "Your first 90 days at any brokerage, mapped week by week." |
+| **The math worksheet** | decision or proof | the type paying for something that isn't working · financial uncertainty | "Your lead bill vs one Saturday — a 10-minute worksheet, your own numbers." |
+| **The case-study breakdown** (consent on file) | decision or proof | the type the partner was · lack of support | "[First name]'s first 30 days — every step, every number, nothing improved." |
+| **The 5-day challenge** | decision or proof | any type · lack of support | "Five days, one task a day — the smallest version of the routine, run once." |
+| **The questions guide** | decision or proof (only when it fits the UVP) | new agent · lack of support, mentorship, training | "The 14 questions that tell you whether a sponsor will actually show up." |
+| **The fair comparison guide** | decision or proof (only when it fits the UVP) | new agent or experienced, low production · financial uncertainty | "Every model, every trade-off — including mine — and the questions to ask before you decide." |
+| **The mini-course outline / prompt list** | tool | agent with a brand · technology gaps | "5 AI prompts that write a week of agent-attraction content in 20 minutes." |
+| **The leader's switching guide** | decision or proof | team leader / broker-owner · work-life balance, limited growth | "How to move a team without losing its name, its momentum, or its people." |
+| **The rev-share explainer** (gated) | decision or proof | experienced or top producer · limited growth | "How revenue share actually works — in plain English, no numbers, no promises." |
 
 A niche magnet speaks to one type of agent; it still carries ONE clear promise — that promise becomes the
 funnel headline. Whatever the shape: same architecture, same sourcing rule, same compliance gate, same honest

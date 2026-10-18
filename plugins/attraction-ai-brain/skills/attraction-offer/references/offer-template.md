@@ -25,7 +25,7 @@ Alternates: outcome-led · story-led · mechanism-led (one line each)
 Bio-safe line: [one sentence]
 
 ## The program
-(defined like a product — every line filled; the doc's section 2 and brain.md's `Program:` line render from here)
+(defined like a product — every line filled; the doc's At a glance page and brain.md's `Program:` line render from here)
 Name: [program name]
 Type: [one of the six] — [one-line reason, from what the member actually does]
 For: [the primary type of agent in plain words; one line on the secondary type if any]

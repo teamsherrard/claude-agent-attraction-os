@@ -25,8 +25,8 @@ Three briefs feed this skill; read whichever the member pastes, and never re-ask
   another brokerage's name."* Its deck twin, **"FOR aa-offer-kit-design (the opportunity deck)"**, carries
   the same content as 6–8 slide titles with one line each.
 - **"FOR aa-offer-kit-design (the "Join My Team" one-pager)"** — from the Brain's free-vs-paid session:
-  *pull from the Partner Offer doc in `05 · Offer` — its section 2 (the program's name, type and cadence: the
-  one-pager's strip) and section 3 (the framework's one-line version: the designed chain) — the UVP · the free
+  *pull from the Partner Offer doc in `05 · Offer` — its At a glance page (the program's name, type and
+  cadence: the one-pager's strip; the method row's one-line chain: the designed chain) — the UVP · the free
   line · the booking line · the comment keyword.* With a Drive connector, read the newest `Partner Offer · [Member] · [date]` doc
   from `05 · Offer` yourself; without one, ask the member to upload it.
 - **The Model Positioning Sheet** — `Model Positioning Sheet · [Member] · [date]` in `05 · Offer`
@@ -148,9 +148,10 @@ cover slide exported as `deck-cover.png` for the content board. **Present the de
 too — the member can screen-share it from Claude Design on the call.
 
 ### Piece 3 — The welcome pack (US Letter, 4–8 pages)
-From the Partner Offer doc (section 2: the program's name, type and cadence · what you get day one · what I
-teach you first · the Day 1 sequence and the first 30 days (section 7) · support and community (section 8) · the
-digital product promise) and the Book's How You Operate chapter (the weekly call, the group, the
+From the Partner Offer doc (the At a glance page: the program's name, type and cadence · "What you get when
+you partner with me" · the first three lessons under "Inside" · the Day 1 lines and the weeks table under
+"Your first 30 days" · "How we work together" · the digital product row) and the Book's How You Operate
+chapter (the weekly call, the group, the
 onboarding steps) — the anatomy in the reference. Only what exists today: a call that starts when the
 first partner joins is written exactly that way. A designed name slot per partner; contact rows for the
 broker or upline only when the member supplies them. The one money line, verbatim from the reference.

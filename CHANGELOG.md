@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.11.0] — 2026-10-18
+
+### The offer step shown, not asked; three different magnets; a readable Partner Offer (the user's verdict on the live run: "the journey, the ideas, the doc, all of it needs improvements")
+- `attraction-offer` (Brain 0.3.4): the member sees one message, an offer card of about 150 words drafted from the Brain (name and promise, who it is for, the method as a chain, five things they get, the weekly rhythm, the 90-day outcome) and one line, "Does this feel like you? Say yes, or change anything." No numbered decisions, no assumptions block, no four-line menu in chat; the assumptions live on the document's last page. On yes the document builds silently and, when the Lead Magnet plugin started the session, hands straight to the ideas.
+- The Partner Offer document is re-shaped for the agent reading it: a cover with the tagline, an at-a-glance page (ten rows), then who this is for · the promise told once · the method in N steps · inside the program for 90 days · what you get · your first 30 days · how we work together · proof · why now · your next step, and an appendix for the member's own content lines and "what I assumed". The method appears in full once; no taxonomy lectures; paragraphs of three sentences; one demo note on the cover with a short "(demo)" marker on figures. 2,000 to 3,200 words with floors per section and the same substance gate. Demo re-rendered (3,435 words) and the 2026-10-10 demo retired.
+- `lm-magnet-ideas` (Lead Magnet 0.4.0): three genuinely different magnets by rule, one from each lane (a tool, a plan, a decision or proof piece), never two from the same framework step; each a card with a real lead-magnet title, a one-sentence promise, who it is for, what is inside and why it converts in plain words; lesson citations recorded in the Brain, never printed in chat; a title search check against what agents actually type; one recommendation, one reply. `lm-navigator` wraps the card and the cards; house rules, the intake and the writer's shapes updated.
+- Versions: attraction-ai-brain 0.3.4 · attraction-lead-magnet 0.4.0 · maa-claude-support 0.1.7.
+
 ## [0.10.0] — 2026-10-13
 
 ### The Short-Form and YouTube journeys (the user's verdict on the live demos: "the sequencing and journey doesn't make any sense; it's missing Notion, the scheduled workflows and the game plan")

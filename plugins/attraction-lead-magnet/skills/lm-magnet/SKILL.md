@@ -78,8 +78,9 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
 ## Step 2 — Read the references (at this step, not earlier)
 - `references/magnet-guide.md` — **"The architecture every shape follows"** (the parts, what each carries, the
   word floors) and **"The shapes"** (the body pages of the shape the member picked — the system guide · the
-  checklist · the plan or template · the questions guide · the fair comparison guide with its fairness,
-  citation, and dating rules · the mini-course outline — each mapped onto the architecture).
+  checklist · the plan or template · the calendar · the questions guide · the fair comparison guide with its
+  fairness, citation, and dating rules · the mini-course outline · the decision and proof shapes: the math
+  worksheet, the consented case-study breakdown, the 5-day challenge — each mapped onto the architecture).
 - `${CLAUDE_PLUGIN_ROOT}/shared/copywriting-kb.md` — **Part One, "The document"**: hooks for a guide and the
   hook test, the opening page, the body-page beat, transitions, the next-steps page, the ending that earns
   the call, the three calls to action, the tests every page passes, the banned filler list, the reading-level
@@ -188,7 +189,11 @@ scored table, no named brokerage other than the member's own, the "last updated"
 present. A **plan or template** carries real fill-in rows (`Template rows:`) and activity targets — never an
 income figure. A **checklist** is one page the reader can screenshot, plus the pages that explain it. A
 **mini-course outline** names three lessons, each "after this you can…". A **questions guide** keeps the
-member's real questions first and the red flags said as questions, never accusations.
+member's real questions first and the red flags said as questions, never accusations. A **math worksheet**
+carries blank rows for the reader's own twelve months and their own Saturday math — never the member's
+income, never a vendor's name, never a projection. A **case-study breakdown** exists only with the partner's
+written consent in `proof.md` and prints nothing the file does not hold. A **5-day challenge** is five
+activities, one a day, with day five a check-in with the member.
 
 **The numbers rule, applied page by page (every shape):** structure belongs in the magnet (a split until a
 cap, then 100%; revenue share funded from the company's share and paid only on closed deals; a flat monthly
@@ -255,9 +260,12 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
 15. The member's voice — the KB's voice-match checklist run; fifth-grade reading level; none of the banned
     filler.
 16. The shape's rules honoured (comparison: every model in the same shape, the member's own trade-off said
-    straight, dated, "verify current" · checklist: the screenshot page · plan: fill-in rows and activity
-    targets, never income · mini-course: three "after this you can" lessons · questions guide: the member's
-    real questions first).
+    straight, dated, "verify current" · checklist: the screenshot page · plan or calendar: fill-in rows and
+    activity targets, never income · mini-course: three "after this you can" lessons · questions guide: the
+    member's real questions first · worksheet: the reader's rows blank, no income figure, no vendor named ·
+    case study: consent on file, nothing improved · challenge: five activities, day five the check-in). The
+    `▸ NEXT` appendix carries the intake block's `Mike's lesson:` line once, for the member's reference —
+    never in the body, never in chat.
 17. Demo mode only: every production, money, ratio or count figure tagged "(illustrative — demo)"; the
     document complete at every floor.
 

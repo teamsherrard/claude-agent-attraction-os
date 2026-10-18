@@ -78,7 +78,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
 | "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
 | "How do I position my brokerage without pitching / the 2-minute model script" | `attraction-model-positioning` | 1 |
-| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; 2,500+ words) | `attraction-offer` | 1 |
+| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; shown as ONE offer card the member says yes to, then a readable document — a one-page At a glance first, 2,000–3,200 words) | `attraction-offer` | 1 |
 | "What should I give away vs charge for" | `attraction-free-vs-paid` | 1 |
 | "Run my rev-share scenarios" (illustrative, never a promise) | `attraction-rev-share-calculator` | 1 |
 | "Set my 90-day targets / my scorecard / am I on track" | `attraction-goals` | 1 |
@@ -208,8 +208,10 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   `brand-visual`, `voice`).
   **Offer-first, one sitting (v0.2.0, 2026-10-10):** "launch my lead magnet plugin" builds the offer first if
   it is still at seeds (the navigator runs the Brain's `attraction-offer` inside the session — the member never
-  comes back later), then recommends three lead magnets built from that offer and Mike's lessons
-  (`lm-magnet-ideas`), the member picks, and the magnet document and the sales funnel outline follow. No
+  comes back later — one offer card, shown not asked), then recommends three lead magnets built from that
+  offer and Mike's lessons (`lm-magnet-ideas` — three different kinds: a tool, a plan, a decision or proof
+  piece; three download-ready cards, no lesson codes in chat), the member picks, and the magnet document and
+  the sales funnel outline follow. No
   default magnet; no two members' magnets alike (non-disparagement rules apply — cardinal rule #1; a
   comparison-shaped guide only when it fits the offer). Writes `identity/profiles.md` FIRST (the bios;
   Short-Form refreshes its five sections in Week 3); `memory/magnets.md → ## Current magnet` (mirrored as the

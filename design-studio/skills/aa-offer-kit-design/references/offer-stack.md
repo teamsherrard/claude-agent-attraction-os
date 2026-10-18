@@ -113,9 +113,10 @@ labelled honestly as the brief labels it: *free from day one* · *included* · *
   exists — with the honest status line the brief gives it (*"included when you partner with me"* /
   *"first version with my first partners"*). A product that isn't mapped yet is not on the stack.
 - **The tiers are the deliverables.** Once the Brain's offer carries the deliverables table (the Partner Offer
-  doc's section 6; the Book's Chapter 10), the brief's stack items ARE those rows, in the offer's order, and the
-  program's type (section 2 — a mentorship program, an accelerator…) is the stack's label line under the offer
-  name; an older offer without the table → the value stack table, as before. Never a tier the table doesn't carry.
+  doc's "What you get when you partner with me"; the Book's Chapter 10), the brief's stack items ARE those rows,
+  in the offer's order, and the program's type (the At a glance page's Program row — a mentorship program, an
+  accelerator…) is the stack's label line under the offer name; an older offer without the table → the value
+  stack table, as before. Never a tier the table doesn't carry.
 - **The stack answers the three questions** agents are really asking (`03-model-positioning/17`): *will
   you guide me* (the teach-first tier), *will you help me succeed* (the system and support tiers), *is
   there a clear path* (the first-30-days tier). If a question has no tier, the brief said so — never
