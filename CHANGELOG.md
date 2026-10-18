@@ -2,6 +2,13 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.12.0] — 2026-10-18
+
+### The AI Admin journey, shown not asked (the user's verdict on the live demo: "messy and not valuable")
+- `admin-attraction-setup` (Admin 0.3.0): two messages. A two-line hello, then the member's first Morning Brief built for real from the Brain, the calendar and the inbox (today's calls with prep, agent inquiries with reply drafts, the follow-ups due with the message drafted in the member's voice, content due, the week so far against target, three moves, one coaching note) and the pipeline at a glance; then one consent card (Morning Brief and the Daily Follow-Up Queue right after it, plus the Daily Debrief if it is not on), the registry block written silently with defaults, and a five-phrase hand-over. No step numbers, no config on screen, no name, VA or CRM questions ("call my admin [name]", "set up my VA packs", "mirror my CRM" on demand). The Morning Brief is one artifact whether run at setup, on demand ("my morning brief") or by the scheduled task; the queue's rows are the brief's follow-ups section with their drafts.
+- Registry keys, task ids, cron defaults, ownership, the request shapes and draft-only consent are unchanged. The setup guide, the Support desk, the contracts and the plans describe the new journey.
+- Versions: attraction-ai-admin 0.3.0 · attraction-ai-brain 0.3.5 · maa-claude-support 0.1.8.
+
 ## [0.11.0] — 2026-10-18
 
 ### The offer step shown, not asked; three different magnets; a readable Partner Offer (the user's verdict on the live run: "the journey, the ideas, the doc, all of it needs improvements")

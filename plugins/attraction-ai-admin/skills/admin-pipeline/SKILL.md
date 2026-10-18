@@ -1,16 +1,17 @@
 ---
 name: admin-pipeline
 description: >
-  The Agent Attraction AI Admin's prospect ledger on the locked stages (Identified → Conversation → Call
-  booked → Call held → 3-way → Joined → Onboarded → Active, plus Parked) and the only writer of stage
-  moves. Applies the moves you log through the Conversation Coach, the Debrief, an event, or on the go;
-  mirrors them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when connected, the Brain the
-  truth and the fallback. Answers who is at any stage, moves an agent, tells an agent's history from your
-  notes, and match-back: who in your pipeline would care about an update, an event, or a resource, with
-  the reason. Prospect data stays in your Brain and CRM. Trigger on: "my
-  attraction pipeline", "my prospect pipeline", "who's at call booked", "move [agent] to [stage]", "what
+  The Agent Attraction AI Admin's prospect ledger on the locked stages (Identified → Conversation →
+  Call booked → Call held → 3-way → Joined → Onboarded → Active, plus Parked) and the only writer of
+  stage moves. Applies the moves you log through the Conversation Coach, the Debrief, an event, or
+  on the go; mirrors them to your CRM (GoHighLevel, Follow Up Boss, Google Sheets) when connected,
+  the Brain the truth and the fallback. Answers who is at any stage, shows the pipeline at a glance,
+  moves an agent, tells an agent's history from your notes, and match-back: who in your pipeline
+  would care about an update, with the reason. Trigger on: "my attraction pipeline", "my prospect
+  pipeline", "my pipeline at a glance", "who's at call booked", "move [agent] to [stage]", "what
   happened with [agent]", "where does [agent] stand", "apply those stage moves", "who in my pipeline
-  would care about", "park [agent]", "update my CRM from my pipeline", "agents gone quiet in my pipeline".
+  would care about", "park [agent]", "mirror my CRM", "update my CRM from my pipeline", "agents gone
+  quiet in my pipeline".
 ---
 
 **Apply `${CLAUDE_PLUGIN_ROOT}/shared/admin-core.md` FIRST, every session** — the Brain load, the provider
@@ -67,9 +68,19 @@ on no ledger is the question: *"say 'add [Name] to my top 50, met at my workshop
 requests that disagree, or **any backwards move** (Call held → Conversation; a no-show — a call's or an
 event's — is never a move back — see Mode B). A scheduled run never does this; it lists.
 
-## Mode A — the board ("my prospect pipeline" · "who's at call booked")
-Nothing more opens: the two Step 1 files carry it. Counts by stage in one line, then the rows for the stage
-asked (or every active stage), one line each: name · type · entered [date] · next move · due · who owns it.
+## Mode A — the board ("my prospect pipeline" · "my pipeline at a glance" · "who's at call booked")
+Nothing more opens: the two Step 1 files carry it (plus `memory/organization.md` for the organization's
+names). **The at-a-glance view** — what `admin-attraction-setup` shows right under the first Morning Brief,
+and what "my pipeline at a glance" shows any day: one head line with the count on the board, then the locked
+stages that hold anyone, in pipeline order, with the names in each ("Call booked: Dana R. (today 10:30) ·
+Conversation: Sam W., Kenji O. · Identified: Luis M., Brianna T. · Parked: Avery L. — timing"), then one line
+for the organization ("In your organization: Priya, Marcus — 2 agents"); at most eight lines, no lecture, no
+file names, stages said plainly. A Top-50 name on no Board row is shown at Identified from the Top-50's own
+Stage cell. Empty ledgers, said plainly: *"Nobody on your list yet — say 'build my top 50' and the pipeline
+fills as you talk to agents."* Never invent a name.
+**The full board** ("my prospect pipeline" · "who's at call booked"): counts by stage in one line, then the
+rows for the stage asked (or every active stage), one line each: name · type · entered [date] · next move ·
+due · who owns it.
 Add GONE QUIET in one line when it applies: Conversation-stage agents with no touch in 14+ days and
 Identified with no move in 30+ days (touch dates from `conversations.md`; for a name with no row in 14 days,
 open the Top-50's `Last touch` and the queue's Log in `memory/follow-up-queue.md` — a sent touch counts —
@@ -151,8 +162,16 @@ finds the agents already in their world it gives a REASON to reach out to (`12-s
    checking in"); the queue logs them. This skill writes nothing for a match-back.
 On the go ("just heard our brokerage changed X — who cares?") the same, zero questions, shortlist only.
 
-## Mode E — the CRM ("update my CRM from my pipeline" · "sync my pipeline with my CRM")
+## Mode E — the CRM ("mirror my CRM" · "update my CRM from my pipeline" · "sync my pipeline with my CRM")
 Nothing more opens beyond `identity/operations.md` (the member's own naming for tags and stages).
+**"Mirror my CRM" — the connector check lives here, on demand, never at setup** (setup records `CRM mirror:
+not connected` silently unless the connector was plainly present): if the member's own connector for the
+CRM named in `config.md → CRM` is present in this session, or Composio is connected with that app, make ONE
+read (a contact lookup of a Top-50 name), record what worked on the `CRM mirror` line of the `## AI Admin`
+block (this skill writes that one line), push, and continue below as connected; on `microsoft`, verify a
+write is allowed per `${CLAUDE_PLUGIN_ROOT}/shared/connectors.md` before claiming a mirror. Neither present →
+one line: *"Your [CRM] isn't connected to Claude yet — connect it under Settings → Connectors (or through
+Composio) and say 'mirror my CRM'; until then your Brain is the truth and I hand you the rows."* No question.
 Connected → mirror every Board stage to its tag or field; then read back and list any disagreement in one
 line each ("GoHighLevel has Sarah at Call held, your board says Call booked") and apply the CRM's stage
 only on the member's yes. Contact details (email, phone, spelling) → the CRM wins; the Admin never writes
@@ -166,7 +185,8 @@ workspace, and their CRM — never in an artifact, a repo, a message to anyone e
 the workspace. A match-back shortlist is for the member's eyes only.
 
 ## Demo mode
-Fictional member and agents, no CRM probe, nothing written to a real Brain, every count "(illustrative — demo)".
+Fictional member and agents, no CRM probe, nothing written to the demo Brain; the same views, one "(demo)"
+after any production or money figure, never a tag on every count.
 
 ## Quality bar
 Every move leaves a next move with a date; every history is only what was logged; every match quotes its

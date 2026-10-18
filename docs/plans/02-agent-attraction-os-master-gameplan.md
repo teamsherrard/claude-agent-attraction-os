@@ -79,7 +79,7 @@ Conversion, Events, and the Debrief request moves through it (or write directly 
 | Daily Stories | daily | `sf-stories` — three story ideas each morning as a draft; optional, OFF by default (added 2026-10-13) | 3 |
 | Monday Kickoff | Mon | `yt-briefing` — drafts this week's video onto its board card, into the Brain and the video's folder; tops the board up to 30 days; ON by default from `yt-setup`'s consent card (task id `attraction-monday-kickoff`; counted 2026-10-13) | 4 |
 | Monthly Channel Review | monthly (the 1st) | `yt-triggers` — the month by lane, which videos brought agent conversations, the one move; OFF by default (`turn on my monthly YouTube review`; task id `attraction-monthly-youtube-review`; counted 2026-10-13) | 4 |
-| Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`); it extends the Debrief, never a second debrief | 5 |
+| Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`); it extends the Debrief, never a second debrief — offered with the Daily Follow-Up Queue on `admin-attraction-setup`'s one consent card after the member's first brief; the Monthly KPI Review and Team Wins Newsletter are never offered at setup | 5 |
 | Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
@@ -298,11 +298,12 @@ Week 7 fast-action bonus and stays out of v1.
 
 ## 9. Plugin 8 — AI Admin (`admin-`, 8 skills)
 
-Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills: the seven below plus `admin-attraction-setup`). The realtor admin stays the realtor's admin; this one only runs the organization.
+Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills, all below — `admin-attraction-setup` is its own skill, rebuilt value-first 2026-10-18). The realtor admin stays the realtor's admin; this one only runs the organization.
 
 | Skill | From | Change |
 |---|---|---|
-| `admin-daily` | admin-briefing + admin-wrap | morning brief: agent inquiries, calendar, follow-ups due, content due, one coaching note; EXTENDS the Brain's Daily Debrief (same scorecard, richer inbox and calendar reads) |
+| `admin-attraction-setup` | admin-setup (the realtor's shape) — rebuilt 2026-10-18 | value-first (2026-10-18): the first Morning Brief and the pipeline at a glance shown before any question; ONE consent card (Morning Brief + Daily Follow-Up Queue + the Debrief if not on); the block written silently with defaults; a five-phrase hand-over; no name / VA / CRM questions (on demand: call my admin [name], set up my VA packs, mirror my CRM) |
+| `admin-daily` | admin-briefing + admin-wrap | morning brief: agent inquiries, calendar, follow-ups due, content due, one coaching note; EXTENDS the Brain's Daily Debrief (same scorecard, richer inbox and calendar reads); one artifact at setup, on demand, and scheduled — the follow-ups carry their drafts |
 | `admin-pipeline` | admin-memory + admin-matchback | the prospect ledger with the locked stages; CRM-aware (GHL / FUB / Sheets via bring-your-own connector or Composio), Brain memory is the fallback and the truth |
 | `admin-follow-up-queue` | admin-chase + admin-confirmations | every prospect due a touch, drafted in the member's voice; nothing sends without approval; owns the Daily Follow-Up Queue agent |
 | `admin-recruiting-scorecard` | admin-recruiting-scorecard | weekly KPIs vs targets; CEO mode = the Weekly Recruiting CEO Review (bottleneck, recommendation, next week's target) |
@@ -310,7 +311,7 @@ Forks `realtor-ai-admin` (17 skills) down to the attraction layer (8 skills: the
 | `admin-va-tasks` | admin-filing + admin-vendors (shape) | posting prep, data entry, database cleanup, weekly reporting handoffs for a VA |
 | `admin-monthly-review` | admin-recruiting-scorecard (monthly mode) | the month vs the 30-60-90 plan; next targets; owns the Monthly KPI Review agent |
 
-**Dropped:** scheduling, inbox, sweep, dispatch (the Brain's `attraction-capture` covers on-the-go), feedback, prep, setup (folded into `admin-daily` first run), the realtor front door.
+**Dropped:** scheduling, inbox, sweep, dispatch (the Brain's `attraction-capture` covers on-the-go), feedback, prep, the realtor front door. Setup is NOT dropped: it is its own skill, `admin-attraction-setup` (above), never folded into `admin-daily`'s first run.
 **Carried fix:** `admin-core.md` and the briefing prompt read `~/attraction-brain/`; the Microsoft mapping in `connectors.md` applies unchanged.
 
 ---

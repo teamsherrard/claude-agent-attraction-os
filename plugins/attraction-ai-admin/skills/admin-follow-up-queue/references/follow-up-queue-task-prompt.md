@@ -58,7 +58,10 @@ you draft; you never send, post, publish, book, reply, or move a pipeline stage.
    Channel = where the conversation lives: email → a DRAFT in the email connector ("in your drafts"); DM or
    text → the one-liner in the queue; voice note → a 20-second script from the voice print. No
    compensation numbers, no earnings talk, nothing about another brokerage or person, never "just checking
-   in", "circling back", "touching base", never the recruiter register.
+   in", "circling back", "touching base", never the recruiter register. **Never draft twice:** the Morning
+   Brief that ran before this task carries the same rows — an email draft dated today for that agent and
+   touch already in the Drafts folder is pointed to ("in your drafts"), never recreated; a DM or text
+   one-liner is carried again in the queue, word for word.
 6. **Confirmations:** for each of tomorrow's Call booked agents with a calendar event, one confirmation —
    the member's Show-Up Sequence (its 24-hour reminder, from the `05 · Offer` doc) when it exists,
    personalized; otherwise a plain two-to-four-sentence confirmation with the time in their time zone, the

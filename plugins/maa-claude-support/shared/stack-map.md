@@ -101,7 +101,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "my attraction game plan for YouTube" · "attraction video ideas" · "research this attraction topic" · "write my attraction script" · "build my interview pipeline" · "model breakdown video" · "SEO for my attraction video" · "repurpose my attraction video" · "triage my attraction comments" · "thumbnail brief" | `yt-gameplan` · `yt-ideation` · `yt-research` · `yt-script` · `yt-interview` · `yt-model-breakdown` · `yt-seo` · `yt-repurpose` · `yt-leads` · `yt-thumbnail` (a Claude Design brief) | 6 |
 | "agent intel on [name]" · "conversation starter" · "prep my call" · "my enrollment script" · "question funnel" · "my presentation" · "set up a 3-way" · "role-play objections" · "audit my call" · "follow-up plan for [agent]" · "reactivate quiet agents" (front door: "launch conversion") | `cv-navigator` → `cv-agent-intel` · `cv-conversation-starter` · `cv-call-prep` · `cv-enrollment-script` · `cv-question-funnel` · `cv-presentation` · `cv-three-way` · `cv-objection-coach` · `cv-debrief` · `cv-follow-up` · `cv-reactivation` | 7 |
 | "set up my sales system" · "write my booking page" · "set up my show-up sequence" · "my call block" · "setter script" · "my sales scorecard" | `sales-system-setup` · `sales-booking-page` · `sales-show-up` · `sales-call-block` · `sales-setter` · `sales-scorecard` | 7 |
-| "set up my attraction admin" · "my attraction pipeline" / "move [agent] to [stage]" · "my follow-up queue" · "my attraction brief" / "run my morning brief" · "my recruiting scorecard" / "run my CEO review" · "monthly KPI review" · "team wins newsletter" · "VA task pack" | `admin-attraction-setup` · `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-recruiting-scorecard` · `admin-monthly-review` · `admin-newsletter` · `admin-va-tasks` | 8 |
+| "set up my attraction admin" · "my attraction pipeline" / "move [agent] to [stage]" · "my follow-up queue" · "my attraction brief" / "run my morning brief" · "my recruiting scorecard" / "run my CEO review" · "monthly KPI review" · "team wins newsletter" · "VA task pack" · "my morning brief" · "who's due today" / "draft my follow-ups" · "my pipeline at a glance" · "mirror my CRM" · "set up my VA packs" · "call my admin [name]" | `admin-attraction-setup` · `admin-pipeline` · `admin-follow-up-queue` · `admin-daily` · `admin-recruiting-scorecard` · `admin-monthly-review` · `admin-newsletter` · `admin-va-tasks` | 8 |
 | "launch my lead magnet plugin" / "set up my lead magnet for agents" · "build my lead magnet for agents" · "lead magnet ideas" / "which lead magnet should I make" · "set up my attraction funnel" · "nurture sequence for agents" | `lm-navigator` → the `lm-*` skills (the offer first if it isn't built → magnet ideas, three from the offer → magnet → funnel → design → delivery → nurture → partnerships → gbp → profiles → analytics) | 3 |
 | "plan my workshop" / "plan my agent event" / "host a training for agents" · "follow up after my agent event" | `ev-navigator` → the `ev-*` skills (`ev-followup` owns the Post-Event Follow-Up agent) | 9 |
 | "My workbook / playbook worksheet from the course" | Finished it → `attraction-import` (reads it, files every answer) · not started → the Brain's interviews ARE the worksheet | 1 |
@@ -145,8 +145,8 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Daily Stories | daily | `sf-stories` — three story ideas each morning as a draft; optional, OFF by default | 3 |
 | Monday Kickoff | Mon | `yt-briefing` — this week's video drafted onto its board card, into the Brain and the video's folder; tops the board up to 30 days; ON by default from `yt-setup`'s consent card (task id `attraction-monday-kickoff`) | 4 |
 | Monthly Channel Review | monthly (the 1st) | `yt-triggers` — the month by lane, which videos brought agent conversations, the one move; OFF by default (`turn on my monthly YouTube review`; task id `attraction-monthly-youtube-review`) | 4 |
-| Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`) — it extends the Debrief, never a second debrief | 5 |
-| Daily Follow-Up Queue | daily | `admin-follow-up-queue` | 5 |
+| Morning Brief | daily | `admin-daily` owns it; `admin-attraction-setup` provisions it (task id `attraction-admin-morning-brief`) — it extends the Debrief, never a second debrief — offered with the Daily Follow-Up Queue on setup's ONE consent card, after the member has seen their first brief (2026-10-18) | 5 |
+| Daily Follow-Up Queue | daily | `admin-follow-up-queue` — same card as the Morning Brief; its rows are the brief's follow-ups section, drafts included | 5 |
 | Call Block Prep | daily | `cv-call-prep` | 5 |
 | Cold-Lead Reactivation | 30 days | `cv-reactivation` | 5 |
 | Monthly KPI Review | monthly | `admin-monthly-review` | 6 |
@@ -262,6 +262,11 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 ### Plugin 8 — AI Admin (W5) — BUILT
 - Depends on: Brain (`operations`) + Gmail + Google Calendar (or Microsoft 365). Never auto-sends.
   Owns pipeline stage moves; "the stages look different in two places" = log it.
+- Setup is value-first (2026-10-18): "set up my attraction admin" shows the member's first Morning Brief and
+  pipeline at a glance before asking anything, then ONE consent card (Morning Brief + Daily Follow-Up Queue, plus
+  the Daily Debrief if it isn't on). It never asks a name, a VA, or a CRM question ("call my admin [name]", "set up
+  my VA packs", "mirror my CRM" on demand). "It asked me nothing" is by design; "it didn't show my calendar" = that
+  connector isn't connected — the brief names it once at the end; connect it and say "my morning brief".
 
 ### Plugin 9 — Events & Workshops (W6) — BUILT
 

@@ -157,7 +157,9 @@ Monday Week Plan (`sf-week-plan`, `attraction-sf-week-plan`, on), Weekly Content
 `attraction-sf-daily-stories`, OFF by default); the YouTube two — Monday Kickoff (`yt-briefing`,
 `attraction-monday-kickoff`, on by default, offered on `yt-setup`'s one consent card) and Monthly Channel Review
 (`yt-triggers`, `attraction-monthly-youtube-review`, OFF by default); Morning Brief (`admin-daily`,
-`attraction-admin-morning-brief`), Daily Follow-Up Queue (`admin-follow-up-queue`, `attraction-admin-follow-up-queue`),
+`attraction-admin-morning-brief` — offered with the Daily Follow-Up Queue on `admin-attraction-setup`'s one consent
+card after the member's first brief; the Monthly KPI Review and Team Wins Newsletter are never offered at setup),
+Daily Follow-Up Queue (`admin-follow-up-queue`, `attraction-admin-follow-up-queue`),
 Call Block Prep (`cv-call-prep`, `cv-call-block-prep-daily`), Cold-Lead Reactivation (`cv-reactivation`,
 `cv-reactivation-30d`), Monthly KPI Review (`admin-monthly-review`, `attraction-admin-monthly-review`), Team Wins
 Newsletter (`admin-newsletter`, `attraction-admin-team-wins`), Post-Event Follow-Up (`ev-followup`,

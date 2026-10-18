@@ -18,7 +18,7 @@ Repo `claude-agent-attraction-os` (public), tag `v0.3.0`, release gate green, up
 | 4 | `realtor-riverside-editor` | 28 | 36 | vendored as-is + the Brain-home rule | vendored |
 | 5 | `attraction-youtube-system` | 19 | 12 (attraction YouTube doctrine, SEO KB, Composio engine, board spec) | realtor YouTube fork | built · reviewed · fixed |
 | 6 | `attraction-conversion-sales` | 19 | 8 (conversion doctrine, contract, house rules) | new, from the Week 5 lessons | built · reviewed · fixed |
-| 7 | `attraction-ai-admin` | 8 | 8 | realtor Admin, cut to the organization side | built · reviewed · fixed |
+| 7 | `attraction-ai-admin` | 8 | 8 | realtor Admin, cut to the organization side | built · reviewed · fixed · journey rebuilt 2026-10-18 |
 | 8 | `attraction-lead-magnet` | 11 | 7 (copywriting KB for an agent audience) | realtor lead capture fork | built · reviewed · fixed |
 | 9 | `attraction-events-workshops` | 10 | 9 (events doctrine from lessons 73–77, the GHL workflow table) | new, from Mike's workshop-ops system | built · reviewed · fixed |
 | – | Design Studio (Claude Design skill set) | 10 `aa-…-design` skills + the design system (14 → 10 on 2026-10-10: three kit skills + the video kit; thumbnail skill removed) | realtor design suite v2 + the realtor Video Brand Kit v3.3 | built · reviewed · build green |
@@ -81,6 +81,12 @@ Totals: 143 Cowork skills across 9 plugins (115 new or rewritten, 28 vendored) p
 - **The document.** Same content, new shape and voice: a cover with a tagline, a by-line and a for-line; a one-page AT A GLANCE table first; eleven selling headings with the method in full exactly once; the compliance line closing the agent-facing document; an appendix "For my content"; 2,000–3,200 words with per-section floors; demo mode = one cover line plus a short "(demo)" after money and production figures. The gate keeps every substance check and swaps the word targets. Downstream pointers (free-vs-paid, the offer kit, the templates, the navigator, Support) now name the new sections.
 - **Proved on the demo:** Taylor Brooks's Partner Offer re-rendered in the new shape (`docs/demo/💼 Taylor Brooks's Partner Offer — DEMO — 2026-10-18.docx`, input beside the Book inputs); the old 2026-10-10 render removed.
 - **Still untested live:** the whole Week 2 sitting on a real member — the one-message card, the edit turn, the three cards with the title search, the new intake swaps. It is the Week 2 cold test.
+
+## 2h. 2026-10-18 — the Week 5 Admin journey, shown not asked
+
+- **The decision (user, after a live demo of `admin-attraction-setup` on a demo member):** the Admin setup gets the Week 2 treatment — shown, not asked. The demo had narrated its own mechanics (numbered steps, a config block on screen), asked three low-value questions (the assistant's name, a VA, the CRM mirror) and closed with four lines of proof; none of that survives.
+- **The journey.** Two messages. First: a two-line hello, then the member's first Morning Brief built for real from the Brain, the calendar and the inbox — one artifact, identical at setup, on demand ("my morning brief") and from the scheduled task (today's calls with a prep line each, agent inquiries with reply drafts, the follow-ups due drafted in the member's voice with a real reason, content due, the week so far, three moves, one coaching note) — and the pipeline at a glance; then ONE consent card: Morning Brief and Daily Follow-Up Queue at times read from the operations hours (7:00 / 7:30 by default), plus the Daily Debrief if it isn't on. Second: one confirmation line with the proof, at most three housekeeping lines, a five-phrase hand-over. The `## AI Admin` block is written silently with its defaults; nothing the Brain already knows is asked; the name, VA and CRM questions moved on demand ("call my admin [name]", "set up my VA packs", "mirror my CRM"). Registry keys, task ids, defaults, ownership and request shapes are unchanged; the Setup Guide, the Support stack-map and cohort KB, both Brain contracts and the master plan now say so.
+- **Still untested live:** the Week 5 sitting on a real member in Cowork (the first brief against a real calendar and inbox, the consent card, the three tasks created and verified), and Mike's read of the demo brief.
 
 ## 3. What is left
 

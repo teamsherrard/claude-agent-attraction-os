@@ -219,7 +219,9 @@ draft-only)** · **Monthly Channel Review — `yt-triggers` (W4; task id `attrac
 default — "turn on my monthly YouTube review"; the 1st at 8:00 am local; one note and one doc, no live data)** — the
 YouTube card offers the Kickoff, the Friday YouTube section and the monthly review together (Monday on · Friday on ·
 monthly off) · Morning Brief — `admin-daily` owns it, `admin-attraction-setup` provisions it, task id
-`attraction-admin-morning-brief` (W5; it EXTENDS the Debrief, never a second debrief) · Daily Follow-Up Queue —
+`attraction-admin-morning-brief` (W5; it EXTENDS the Debrief, never a second debrief) — offered with the Daily Follow-Up
+Queue on `admin-attraction-setup`'s one consent card after the member's first brief; the Monthly KPI Review and Team
+Wins Newsletter are never offered at setup · Daily Follow-Up Queue —
 `admin-follow-up-queue` (W5; task id `attraction-admin-follow-up-queue`) · Call Block Prep — `cv-call-prep` (W5; task id
 `cv-call-block-prep-daily`) · Cold-Lead Reactivation — `cv-reactivation` (W5; task id `cv-reactivation-30d`) · Monthly
 KPI Review — `admin-monthly-review` (W6; task id `attraction-admin-monthly-review`) · Team Wins Newsletter —
