@@ -26,8 +26,7 @@ the LOWER THIRD.
   keep it for every piece).
 - **Name strip:** bottom-left, x 96 → 1150 (about 55% of the frame), y 860 → 1010 (150 tall). Line 1:
   the name, 64 px+ bold. Line 2: the role line · the brokerage on ONE line at 40 px+ ("Team leader ·
-  The Lakeline Collective · Real Broker, LLC" — the role line is who the member is to agents, from the
-  Book's five profile answers; the regulated title only where the Book confirms it; the brokerage only
+  The Lakeline Collective · Real Broker, LLC" — the role line is who the member is to agents, from the Book's "Who you are" lines; the regulated title only where the Book confirms it; the brokerage only
   where the member's rules require it on video). About 48 characters fit at 40 px: when the role line
   plus the required brokerage runs longer, shorten the role line ("Team leader · Real Broker, LLC") —
   never the brokerage, never the type. Logo mark or headshot circle at the left end, no taller than the
@@ -39,7 +38,7 @@ the LOWER THIRD.
   numeric string ("Day 30 · the check-in", "3 calls a week") is typed into this same zone — there is no
   separate stat-card file — so a short numeric string must read as well as a phrase. Same family as the
   hook banner but visibly the "smaller sibling".
-- **CTA banner (primary):** x 160 → 1760, y 740 → 950 (210 tall). Baked: the Book's EXACT CTA line at
+- **CTA banner (primary):** x 160 → 1760, y 740 → 950 (210 tall). Baked: the brief's EXACT CTA line at
   64 px. If the line is ≤ 22 characters, the pill sits on the same row at the right; otherwise use the
   two-row layout: row 1 the CTA line full width (y 764 → 828), row 2 the pill (56 tall, 44 px text) at
   the left with the compliance line at 32 px to its right, both vertically centred (y 852 → 908). The
@@ -88,7 +87,7 @@ right 12%.
   strip transparent. One per person who fronts videos, on the same template (§8).
 - **Emphasis pop-up** — the hook banner's smaller sibling, zone empty. Used a few times per long-form
   video beside a key phrase; the editor types the phrase.
-- **CTA banner (primary)** — the Book's exact CTA line + pill + compliance line; the editor holds it to
+- **CTA banner (primary)** — the brief's exact CTA line + pill + compliance line; the editor holds it to
   the last frame. Design the pill to look tappable.
 - **CTA pack** — the same banner template, one file per ask a leader makes on camera (the eight keys
   and the attraction wording in the SKILL file's pack table). The words are baked, so the editor adds
@@ -358,7 +357,7 @@ lives in the Design System (the brand shape, the organization's name, the member
   Book doesn't say, ask — one question, never assume.
 - **Compliance** — team and organization advertising is regulated in many markets (the registered team
   name paired with the brokerage, brokerage prominence, each person's licence where required). Pull the
-  rules from the Book's Compliance chapter; unset → the three-state rule in the SKILL file.
+  rules from the brief's compliance line; unset → the three-state rule in the SKILL file.
 - **Missing co-host headshots** — on this kit the LOGO MARK takes that person's circle (no labelled
   placeholder — the strip ships on video); tell the member which strip to re-export once the photo
   exists, and that a co-host's photo goes on a strip only with their OK. Never generate a face, never a

@@ -2,7 +2,7 @@
 name: sf-optimizer
 description: >
   The post optimizer for attraction content: takes ONE short-form post aimed at agents and rewrites the
-  hook, the retention beats, and the ask so it stops the member's ideal agent and leads them one rung up
+  hook, the retention moments, and the ask so it stops the member's ideal agent and leads them one rung up
   the ask ladder; then packages it natively for Instagram + Facebook, TikTok, YouTube Shorts, and LinkedIn
   (captions, hashtags, titles, cover text, on-screen cues) in the member's voice. Every other short-form
   skill calls this as its packaging step. Text only; never posts. Trigger on: "optimize my attraction
@@ -60,7 +60,7 @@ until the member runs those templates in their own ManyChat. Invoked directly: a
   Never a brokerage feature. Rewrite until it names the agent's problem or the leader's experience.
 - **Retention (the middle).** One idea per video, taught in full: an Authority post has to work on its own,
   never "DM me for the rest." Cut throat-clearing; front-load the value; two or three on-screen cues at the
-  beats that reinforce the spoken line; 30–60 seconds.
+  moments that reinforce the spoken line; 30–60 seconds.
 - **The ask (the last line only).** One rung from the ladder in `sf-comment-to-dm`; the keyword said once,
   written once. Story and Proof posts invite ("if this is you, DM me"); Authority posts deliver a resource
   ("comment [KEYWORD]"); Personality posts ask for a follow at most; the direct call-rung ("book a call" as the

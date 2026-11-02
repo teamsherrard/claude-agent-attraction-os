@@ -21,8 +21,8 @@ publish).
    never re-card it; the window begins at the first calendar row with no row in the log (or an `Idea` row only).
 4. **`memory/interview-pipeline.md`** — the guest for each interview slot (Stage `Candidate` / `Invited` / `Booked`
    / `Recorded`), their working title, their Recording date when booked.
-5. **`identity/operations.md` → `Filming window:`** — the member's filming day and time (Stop 16 of the Brain's
-   setup writes it; `not set yet` is a real answer).
+5. **`identity/operations.md` → `Filming window:`** — the member's filming day and time (the Short-Form Game Plan
+   writes it when the batch day is set; `not set yet` is a real answer).
 The member's own board edits win on dates and forward status moves (the spec's conflict rule) — read the board
 before writing to it.
 

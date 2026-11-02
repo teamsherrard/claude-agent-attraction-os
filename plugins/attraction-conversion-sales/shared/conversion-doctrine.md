@@ -148,7 +148,7 @@ workshop names are accepted as synonyms in any input and never corrected out lou
 > calm, listen, and reframe … 'Hey, I get that. I used to feel that way too, but …'" — which is Listen, Validate,
 > Reframe, with the invite implied. **This file locks Listen → Validate → Reframe → Invite** (the master plan's
 > default and the transcript's shape); the six-step version is folded in as what to do inside each step (Clarify
-> and Isolate are "the question to ask" — the beat every lesson places between Validate and Reframe, which
+> and Isolate are "the question to ask" — the step every lesson places between Validate and Reframe, which
 > `references/objection-bank.md` names as its own line; Evidence lives in Reframe; Question is the Invite).
 > `cv-objection-coach` prints the four. Confirm, or choose the six.
 

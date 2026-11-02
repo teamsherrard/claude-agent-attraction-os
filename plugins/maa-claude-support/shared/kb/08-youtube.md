@@ -78,7 +78,7 @@ Transcript is marked draft; content below reflects it as recorded.
 *Loom: https://www.loom.com/share/eee1f6aca35b452d881d28f9b3f07a38 · 10 min*
 **In one line:** Niche content attracts, interviews convert: spotlight your own agents' results, make them the hero, never interrupt, and close with the casual call to action.
 **Mike's points:**
-- Social proof beats leader promises. He has close to a thousand photo and video testimonials and over 100 long-form interviews (his numbers), which makes "does it really work?" hard to deny. Prospects think: if it worked for them, it can work for me.
+- Social proof outranks leader promises. He has close to a thousand photo and video testimonials and over 100 long-form interviews (his numbers), which makes "does it really work?" hard to deny. Prospects think: if it worked for them, it can work for me.
 - Who: agents in your group who closed a first deal quickly, capped or hit icon or elite status, turned a struggling business around (these do incredibly well), top producers who scaled, team leaders, broker owners. His channel is production-focused; he does not interview about attraction.
 - How he finds them: a quarterly email to all agents listing milestones; now his leaders send him the up-and-comers.
 - Structure: backstory (business before joining and before your value proposition), what made them move, their experience and results since, advice for others. Record the intro last so you can hook with what you learned.
@@ -112,7 +112,7 @@ Transcript is marked draft; content below reflects it as recorded.
 **In one line:** Titles and thumbnails are the most overlooked and most important parts of a video; if nobody clicks, nobody watches, so make them bold, simple, and emotional.
 **Mike's points:**
 - Gorgeous videos that cost thousands get 17 views because nobody clicked. Click-through rate is the most important metric after watch time, and watch time needs the click first.
-- Psychology of a click: curiosity (pain to avoid or pleasure to gain), emotion (speak to pain points, desires, or strong opinions), clarity (know what the video is in seconds). Bold and emotional beats complex and clever.
+- Psychology of a click: curiosity (pain to avoid or pleasure to gain), emotion (speak to pain points, desires, or strong opinions), clarity (know what the video is in seconds). Bold and emotional outranks complex and clever.
 - His thumbnails: high contrast, branded, his face in all of them, big emotion, simple.
 - Titles that attract speak to pain and desire: the five mistakes keeping agents stuck, the truth about [brokerage] no one tells you, why most agents can't generate leads on social media, how to close a million in commission free from YouTube.
 - Thumbnail rules (he says data-based): three to five words max in large bold text, different words than the title (same text wastes half your chance), facial expressions, contrasting colors (purple background, white or yellow text), visuals that support but don't repeat the title, and a "this is me, I need to watch this" feeling.
@@ -120,7 +120,7 @@ Transcript is marked draft; content below reflects it as recorded.
 - Review click-through rate monthly, aim for 6 to 10% (his benchmark), ignore the first-day spike from supporters, and change title and thumbnail if it's low.
 - YouTube lets you test three thumbnails; his team makes three per video and lets YouTube pick.
 - Track which titles and visuals consistently win to find your format.
-**Say it like Mike:** "Great content means nothing if nobody clicks." · "Bold and emotional always beats complex and clever." · "Use three to five words max in large bold text."
+**Say it like Mike:** "Great content means nothing if nobody clicks." · "Bold and emotional always wins over complex and clever." · "Use three to five words max in large bold text."
 **Answers these questions:** Why are my videos getting no views? What makes a good thumbnail? Should the thumbnail text match the title? What click-through rate is good? Can I test thumbnails?
 **Do / don't:** Do test three thumbnails and review monthly. Don't write a sentence on your thumbnail.
 **Related:** 08-youtube/94, 08-youtube/99, 08-youtube/98

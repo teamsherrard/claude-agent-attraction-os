@@ -4,7 +4,7 @@ Create ONLY after the member's explicit yes (setup Step 5's consent card — rec
 own offer): `create_scheduled_task`, `taskId: attraction-sf-weekly-performance` (adopt an existing Friday
 performance task first — never a twin), `cronExpression: [minute] [hour] * * 5` (Fridays at the `Friday note
 time:` line of `identity/operations.md` if the member ever set one, otherwise the last working hour of Friday
-from its `Working hours:` line, in the member's timezone from `~/attraction-brain/config.md → Timezone`). After
+from its `Working hours:` line, otherwise Fri 4:00 pm, in the member's timezone from `~/attraction-brain/config.md → Timezone`). After
 creating, `list_scheduled_tasks` to verify, then write `Weekly Content Performance task:
 attraction-sf-weekly-performance` to `config.md → ## Short-Form (Week 3)` (the one key, locked spelling —
 `yt-analytics` reads it there from Week 4) and push via `attraction-brain-sync`. Use the block below as the task

@@ -209,7 +209,7 @@ one line only if they ask.
 > nothing posts, sends, or schedules on its own."
 
 **Open now:** `config.md` (timezone; an existing `## Short-Form (Week 3)` block) · `identity/operations.md`
-(`Friday note time:` · `Working hours:` — the Friday slot). **ONE consent card, in plain words, before creating
+(`Friday note time:` · `Working hours:` — the Friday slot; both still "set in Week 2" → Fri 4:00 pm). **ONE consent card, in plain words, before creating
 anything:**
 > *"Here's what I'd switch on: the **Monday Week Plan** — every Monday morning your week's posts are drafted from
 > your calendar and waiting, scripts, captions and your stories for the week, on your board (recommended: on, at
@@ -226,7 +226,7 @@ ask again:**
 - **Friday performance note** → `sf-analytics`' provisioning: adopt an existing Friday task, else create
   `attraction-sf-weekly-performance` with the prompt from
   `${CLAUDE_PLUGIN_ROOT}/skills/sf-analytics/references/weekly-performance-task-prompt.md` verbatim, Fridays at the
-  `Friday note time:` line (else the last working hour); verify; `Weekly Content Performance task:
+  `Friday note time:` line (else the last working hour of `Working hours:`, else Fri 4:00 pm); verify; `Weekly Content Performance task:
   attraction-sf-weekly-performance`.
 - **Daily stories** → only if they asked for it: `sf-stories`' provisioning with
   `${CLAUDE_PLUGIN_ROOT}/skills/sf-stories/references/daily-stories-task-prompt.md` verbatim, every morning at their

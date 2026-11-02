@@ -159,7 +159,7 @@ without a dated source, no brokerage pitch. Tone: humble-confident, human — a 
 
 ## SECTION 5 — THE JOURNEY (the story, short and true) — floor 120 words
 The mirror principle (`04-value-proposition/27`: you are most qualified to help the person you used to be) —
-the reader should see their own present in the member's past. Three beats from `journey.md`, each one or two
+the reader should see their own present in the member's past. Three turning points from `journey.md`, each one or two
 sentences, in the member's voice:
 - **Where I was** — the first year, what they had and didn't have.
 - **What I tried** — the wall: the lead bill with no closings, the cap that never moved, the team split, the
@@ -202,7 +202,7 @@ five-parts line) and the UVP. It says why the member does this and who it's for.
 No compensation, no "join [brokerage]," no urgency.
 
 ## SECTION 8 — PROOF (let other agents do the convincing) — floor 40 words, or "none yet" said plainly
-A *dedicated* proof block beats proof sprinkled in passing — it's a top trust lever on the page. From
+A *dedicated* proof block outranks proof sprinkled in passing — it's a top trust lever on the page. From
 `proof.md` (real only — never invent; consent on file):
 - **`Proof:` 2–4 short results** — first name or initials, the situation, what happened (*"Two years in, one
   closing. Six months after we started working together, four under contract — Priya, Houston"*). Proof from
@@ -227,7 +227,7 @@ This is what a recruiting deck can NEVER produce, and what flips the whole page 
 `offer.md` (`## Support & community`, what's included), `operations.md` (the weekly call, onboarding steps),
 `proof.md` (organization today):
 - **What we do together** — the recurring call (day and what happens on it), the group chat, the training,
-  recognition. Specific and small beats big and vague.
+  recognition. Specific and small is better than big and vague.
 - **Who's in it** — the kinds of agents by stage ("mostly agents in years one to five, a few team leaders");
   the count only if `proof.md` states it, with its date; never "fastest-growing" without a dated source.
 - **Why that matters to you** — Mike's fifth pain: not doing it alone. "Getting agents is easy; keeping them

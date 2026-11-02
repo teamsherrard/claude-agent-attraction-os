@@ -15,8 +15,11 @@ resequenced (profiles → the Short-Form Game Plan → the board with 30 days ma
 first Reel), `memory/content-calendar.md` added with `sf-gameplan` as owner, the Short-Form config block given its
 five task keys 2026-10-13 · the YouTube journey resequenced the same way (kit → Game Plan → board with 30 days → one
 consent card → first video), its two `(YouTube)` sections of `memory/content-calendar.md` owned, `Weekly ideas task`
-retired and the scheduled count made thirteen 2026-10-13 · the realtor Brain
-(`~/realtor-brain/`, marker `_workspace.md`) is a separate system and is never written by anything in this OS.*
+retired and the scheduled count made thirteen 2026-10-13 · **the Brain setup rebuilt on the owner's verdict 2026-11-02:
+Mike's four conversations plus three spoken answers, one plain question at a time; `avatars.md` DERIVED, never asked;
+no location or agent-type question anywhere; compliance, operations, the Debrief offer, the money and the brand out of
+setup (the brand is a second Week 1 chat); the Brain Book cut to nine sections and at most fifteen pages** · the realtor
+Brain (`~/realtor-brain/`, marker `_workspace.md`) is a separate system and is never written by anything in this OS.*
 
 ---
 
@@ -32,9 +35,9 @@ Brain pushes its own change: write → push → verify, one atomic step. One Bra
 ~/attraction-brain/
 ├── brain.md          ← the index — READ THIS FIRST, always (quick reference + the laws + the file map)
 ├── identity/         ← who the member is as a leader (set once, changes rarely)
-│     profile · journey (ends with ## Why join me) · strategy · avatars · prospect-intel · positioning ·
-│     offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank · brand-visual ·
-│     content-pillars · goals · execution-framework · leadership · operations · compliance
+│     profile · journey (ends with ## Why join me) · strategy · avatars (DERIVED from the answers, never asked) · prospect-intel · positioning ·
+│     offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank · brand-visual (the second Week 1 chat) ·
+│     content-pillars · goals · execution-framework · leadership · operations (Week 2) · compliance (on demand)
 │     + the later plugins' files, shipped empty in the template with their owners' locked shapes:
 │     profiles (W2, Lead Magnet; refreshed W3 by Short-Form) · publishing (W3, Short-Form) · channel (W4, YouTube) · sales-system (W5, Conversion)
 ├── memory/           ← what they have done (grows daily)
@@ -63,6 +66,31 @@ Every file named in the ownership table below exists in the template
    (never talk badly about another brokerage or person), brokerage name and license display as the file says,
    AI-likeness disclosure on clone content, recruiting scope by state/province, the Meta Employment
    special-ad-category flag on anything that becomes an ad.
+
+## What setup writes, and the two things no skill asks (the owner's ruling, 2026-11-02)
+**Brain setup** (`attraction-brain-setup`) runs Mike's four conversations — who you are as a leader · your unique
+approach · your story and your proof · your current and future state — as 26 plain questions, one per turn, plus
+three spoken answers (why you're excited about agent attraction · your WHY · why someone should partner with you),
+and writes the first-run **twelve**: `profile` · `journey` · `strategy` · `story-bank` · `proof` · `offer` (seeds) ·
+`positioning` (the seed line) · `goals` (seeds: today · 12 months · long term · hours, plus a proposed weekly rhythm)
+· `voice` · `voice-samples` · `voice-print` · `avatars` (derived). It does NOT write `compliance` (on demand —
+`attraction-compliance`, incl. "paste my compliance link"), `operations` (Week 2 — `attraction-operations`; the
+booking page is built with the member by the Conversion plugin's `sales-booking-page`), or `brand-visual` (the second
+Week 1 chat — `attraction-brand-direction`, its direction derived from the Brain and the three spoken answers); it
+never offers the Debrief, never runs the money math, never renders the Scorecard. Its one document is the Brain Book
+(nine sections, at most fifteen pages).
+**The derived-avatars rule:** `identity/avatars.md` is written by `attraction-persona-map` FROM the member's answers
+— their own former self in the hardest stretch, the agents whose mistakes they named, the skills they can teach —
+framed *"your skills attract any agent; these are the agents who will relate most"*, with the pains in the member's
+words. The member is never asked to pick a type of agent, and `attraction-persona-map` runs on demand only to refine
+what the Brain inferred; its headings and field names are unchanged, so every downstream reader (Lead Magnet,
+Conversion, Short-Form, YouTube, Events, the design skills) keeps reading it exactly as before.
+**No location, ever:** where the member can attract is never asked anywhere in the Brain. The local market is captured
+once as a fact in `profile.md`; `compliance.md`'s recruiting scope is a doctrine default ("anywhere the brokerage
+operates and the agent is licensed") that never gates; no skill writes a place as a limit.
+**The Week 2 moves:** the booking link, the CRM, the working hours and the follow-up rhythm are set in Week 2
+(`attraction-operations`, with the Conversion plugin's `sales-booking-page` building the page); the targets lock on
+demand (`attraction-goals` — "set my attraction goals"); the money is on demand (`attraction-rev-share-calculator`).
 
 ## The read protocol
 1. If `~/attraction-brain/` is missing → pull it with `attraction-brain-sync`. **A tool error is never "no Brain"**:
@@ -125,7 +153,7 @@ Every file named in the ownership table below exists in the template
 |---|---|---|
 | **Brain** (W1) | everything | all `identity/` except `content-pillars · publishing · profiles · channel · sales-system` · `memory/top-50` (+ the mirror rule below) · `scorecard` (Targets; daily rows by the Debrief; weekly rows by the check-in until `admin-recruiting-scorecard`) · `debriefs` · `objections` (heard-rows) · `ideas` · `intel` · `capture-log` · `deadlines` (until Admin) · interim rows in `conversations` and `organization` (until Conversion / AI Admin) · interim stage moves in `pipeline` (until Admin) · the `## Past content (imported)` section of `ideas` (import) |
 | Support (W1) | `config`, `brain.md`, every plugin's `config` block, the Brain template (to know which files should exist) | `memory/support-log` · `memory/claude-updates` · the `## MAA Support (Plugin 2)` block in `config.md` (`Support desk: attraction`) |
-| Design Studio (Claude Design, W1) | the Brain Book (uploaded), `brand-visual` (Inventory incl. Examples · Direction · the `## Creative direction` block · the saved Design Package brief — owner `attraction-brand-direction`), `offer` (through the Book's Chapter 10: the program block, the framework table and its one line, the Structure outline, the deliverables table, Day 1 and Support & community — the offer kit's, the funnel's and the value vault's sources; an older Book without the program block → the value stack and what you get day one), `positioning`, `avatars`, `proof` | nothing in the engine (assets go to `02 · Brand`, `05 · Offer`; the brief itself is saved to `02 · Brand` by the Brain, not by the Studio) |
+| Design Studio (Claude Design, W1) | the Brain Book (uploaded — who the member is: the nine sections) · the Design Package brief (`02 · Brand`, saved by `attraction-brand-direction` — the brand: Inventory, the Creative direction, the compliance line) · the Partner Offer document (`05 · Offer`, Week 2 — the offer: the At a glance page, the method, the deliverables, the first 30 days, how we work together; the offer kit's, the funnel's and the value vault's source) · the Why Join Me document (`05 · Offer`) · `avatars` and `proof` as the Book carries them. The Book no longer holds the brand, the offer, operations or compliance (2026-11-02) | nothing in the engine (assets go to `02 · Brand`, `05 · Offer`; the brief itself is saved to `02 · Brand` by the Brain, not by the Studio) |
 | Lead Magnet (W2 — offer-first: `lm-navigator` runs `attraction-offer` in-session when `offer.md` is still at seeds, then three recommendations from the UVP, the member picks) | `brain.md · avatars · offer (the UVP one-liner, the mechanism, the Teach-first lessons, the five-pains table, the Comment keyword; since the offer became a program definition: ## The program · ## The framework — the magnet is cut from ONE step, the Lead-magnet seed line names it · ## Structure · ## Support & community · the deliverables table and the Onboarding: Day 1 lines; an older offer.md without them → ## The Partner Offer as before) · positioning · proof · compliance · brand-visual · voice* · story-bank · profile · journey · operations · brokerage-model · strategy · goals · objections · ideas (leadmagnet tag) · top-50 (counts only) · config · 06 · Materials` — all read-only | `memory/magnets.md` (lm-magnet; the other `lm-*` skills their own columns; `## Current magnet` is what everyone else reads) + the `Live magnet:` quick-reference line in `brain.md` (its mirror — `lm-magnet` writes it, `lm-funnel` adds the URL; the one line in `brain.md` a later plugin may touch), `memory/list-growth.md` (lm-nurture; `lm-analytics` weekly rows; `lm-partnerships` → `## Partners`; read by `attraction-goals` weekly mode and `admin-recruiting-scorecard` for "Calls booked from the funnel"), `identity/profiles.md` — written FIRST by `lm-profiles` (the five Short-Form headings in `sf-setup`'s order plus its own extra platforms after them; `sf-setup` refreshes the five sections in Week 3 and preserves the rest; a later `lm-profiles` run refines inside the same headings), the `leadmagnet` rows' Status in `ideas.md`, the `## Lead Magnet (Week 2)` block in `config.md`. Never `offer.md`, never `voice.md`, never a scorecard row |
 | Short-Form (W3 — one journey: `sf-setup` optimizes every profile, runs `sf-gameplan` in-session, maps the 30 days onto the board with `sf-board`, switches on three workflows from one consent card, then scripts the first Reel) | `profile · journey · strategy · avatars · positioning · operations · goals · offer (the Comment keyword; ## The framework's one line and ## The program's 90-day outcome as hook material once written) · story-bank · proof · voice* · brand-visual · brokerage-model · compliance · content-log · objections · ideas · intel · top-50 · conversations (read-only) · magnets (## Current magnet) · content-performance` | `identity/content-pillars.md` (sf-gameplan — the five pillars with three angles each, `## Game Plan anchors`; `sf-ideas` and `sf-gameplan` → `## Hooks bank`), `identity/publishing.md` (sf-setup creates it at the profile step; `sf-gameplan` the strategy lines; designated lines by `sf-publish` · `sf-board` · `sf-comment-to-dm`), `identity/profiles.md` (the five sections, refreshed by `sf-setup`'s Profile Optimization Pack — `lm-profiles` wrote the file first in Week 2; `## YouTube` by yt-setup), `memory/content-calendar.md` (sf-gameplan — the 30-day window; `sf-week-plan` flips Status, appends `## Week briefs` and rows to keep 30 days mapped; `sf-talkinghead` flips a row it scripted), `memory/content-log` (SF rows — `sf-week-plan` writes the Monday drafts' rows), `memory/content-performance.md` (sf-analytics), the `## Short-Form (Week 3)` block in `config.md`; also stamps: story-bank Used-where · ideas Status `used` · the intel `Used?` column (`sf-greenscreen`); interim conversation rows via `sf-comment-to-dm` (through `attraction-capture` when present) |
 | AI Editor, Riverside (W3) | `brand-visual · voice · profile · content-log · compliance` | `memory/content-log` (edit status — the one row-flip another plugin may make), `editor/` state inside the sync allowlist; no `config.md` block |
@@ -138,8 +166,10 @@ Every file named in the ownership table below exists in the template
 `attraction-capture` appends joins and the AI Admin maintains it from Week 5.)*
 
 **Inside the Brain plugin** (per `plugins/attraction-ai-brain/shared/brain-contract.md`): setup SEEDS
-`offer.md` (Status: seeds), the seed line in `positioning.md`, and `strategy.md`, then `attraction-offer`,
-`attraction-model-positioning`, and `attraction-brand-persona` own them; `attraction-why-join-me` owns only the
+`offer.md` (Status: seeds — what worked · the three layers · the mistakes agents are making, from Conversation 2), the
+drafted seed line in `positioning.md`, `strategy.md` (known-for · the what-they-can-teach table · the mistakes) and
+`goals.md` (the four numbers, Status: seeds), then `attraction-offer`, `attraction-model-positioning`,
+`attraction-brand-persona` and `attraction-goals` own them; `attraction-why-join-me` owns only the
 `## Why join me` block at the end of `journey.md`; `offer.md` is owned section by section — `attraction-offer`
 owns every section except `## Value stack` and `## Digital product` (`attraction-free-vs-paid`) and "Notes for
 Week 2" (capture appends) — its sections since 2026-10-10, when the Partner Offer became a program definition:
@@ -149,10 +179,11 @@ agent · not this) · `## The framework` (the named 3–7 step method) · `## St
 `## Support & community` · `## The Partner Offer` (with the deliverables table, the Teach-first table, the
 `Onboarding: Day 1` lines and `First 30 days`) · `## How to talk about it`, plus the header's `Offer name:` ·
 `Program name:` · `Program type:` · `Comment keyword:` lines; `attraction-rev-share-calculator` owns "The money, honestly" in `goals.md`;
-Setup Stop 12 writes `voice.md` first and `attraction-brand-persona`'s update path owns later edits;
-`attraction-voice-print` owns only `voice-print.md`; `attraction-prospect-radar` owns `prospect-intel.md` and
-`memory/intel.md` (its news scan, on demand); `attraction-operations` owns `operations.md` in its locked shape (Stop 16 writes
-the basics: hours, booking link, the 3-way call partner, the weekly model call, the filming window, the Friday note time, CRM, follow-up rhythm);
+setup's voice stop writes `voice.md` first (from the three spoken answers plus how the member typed) and
+`attraction-brand-persona`'s update path owns later edits; `attraction-voice-print` owns only `voice-print.md`
+(distilled at setup from the three spoken answers); `attraction-prospect-radar` owns `prospect-intel.md` and
+`memory/intel.md` (its news scan, on demand); `attraction-operations` owns `operations.md` in its locked shape (set in
+Week 2, never at setup: hours, booking link, the 3-way call partner, the weekly model call, the filming window, the Friday note time, CRM, follow-up rhythm);
 `attraction-goals` owns the scorecard's Targets block, the Debrief appends daily rows, the weekly check-in appends
 weekly rows (then `admin-recruiting-scorecard`). **`brain.md`:** `attraction-brain-setup` owns it;
 `attraction-brain-health` refreshes its quick-reference fields; `attraction-offer` writes the `Offer status:`,
@@ -204,7 +235,8 @@ prefix match on the heading) · `Morning Brief task` · `Daily Follow-Up Queue t
 Timezone is never stored in a block. The Riverside editor registers no block.
 
 ## Scheduled agents and their owners (thirteen)
-Daily Agent Attraction Debrief — `attraction-debrief` (W1; task id `attraction-debrief-daily`) · **Monday Week Plan —
+Daily Agent Attraction Debrief — `attraction-debrief` (W1; task id `attraction-debrief-daily`; never offered inside
+Brain setup — on demand or from the AI Admin's Week 5 card) · **Monday Week Plan —
 `sf-week-plan` (W3; task id `attraction-sf-week-plan`; drafts the week's posts from `memory/content-calendar.md` into the
 board cards and a week brief; keeps 30 days visible; recommended on)** · Weekly Content Performance — `sf-analytics`
 (W3; task id `attraction-sf-weekly-performance`; recommended on; `yt-analytics` appends its YouTube section from W4 —
@@ -251,7 +283,10 @@ card, a config key, or a task prompt.
    Project so freestyle chats still load the Brain, obey the laws, and never re-run setup on a tool error.
 4. **The Brain Book as "the AI Brain file"** — `📕 [Name]'s Agent Attraction Brain Book — YYYY-MM-DD` in
    `01 · AI Brain`, the one file the Design Studio and Lead Magnet skills ask the member to upload
-   (`shared/brain-doc.md`, `shared/brain-book-spec.md`). Never a DEMO-watermarked one.
+   (`shared/brain-doc.md`, `shared/brain-book-spec.md`). Nine short sections, at most fifteen pages (2026-11-02): who
+   you are · your story · your brokerage story · your unique approach · your proof · who your story speaks to · your
+   numbers · your voice · what's next. It tells a tool WHO the member is; the brand, the offer, operations and
+   compliance live in their own documents and files. Never a DEMO-watermarked one.
 
 ## Privacy & ownership
 The Brain — including every agent's name, every conversation, the organization roster, and the member's own

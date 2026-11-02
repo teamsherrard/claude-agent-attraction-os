@@ -115,7 +115,7 @@ describes these from the attractor's side; the mechanics below are the generic s
   office; agents pay a team split on top of (or inside) the brokerage split. The leader's economics: overhead
   (salaries, marketing, office), retention risk (the top 1% leave to compete), and production concentration
   (often 60–80% is the leader). The attraction offer for a team leader is leads, systems, and a real plan —
-  "what you give" (`offer.md`), and compliance on recruiting scope still applies.
+  "what you give" (`offer.md`), and any licensing rule the brokerage states still applies.
 - **Independent brokerage:** the owner carries overhead, compliance, E&O, legal, insurance, and liability; keeps
   the brand and ownership; compensation from agents. The retention problem is the same. If a member is
   building one, their model explanation is their own fee schedule — cited from their own documents.

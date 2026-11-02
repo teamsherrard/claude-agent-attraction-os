@@ -2,7 +2,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Proof Library
 *identity · what they can point to · reused in bios, partner calls, content, the Offer Doc · STRICT no-invent: zero proof = one honest line, never manufactured credibility*
-*Owner: `attraction-voice-proof` (Setup Phase 3, Stop 7). `attraction-capture` appends to the Seeds section only.*
+*Owner: `attraction-voice-proof` (Setup Conversation 3 — your story and your proof, questions 20–22). `attraction-capture` appends to the Seeds section only.*
 *Mike's rule: if you have no case studies yet, help agents for free and earn them — `04-value-proposition/33`. Until then, use "we" (your upline's proof), labeled as the upline's — `02-prospect-targeting/21`.*
 
 ## Production wins (said out loud only with their permission)
@@ -19,6 +19,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 ## Organization today
 **Agents in the organization:** 2 · **As of:** 2026-10-08 · **Frontline (personally attracted):** 2 *(the roster lives in memory/organization.md)*
+**Why my agents joined me specifically (Conversation 3, the member's recollection):** \"Priya sat in on three Tuesday tables as a guest before she asked — she joined for the table, not the brokerage. Marcus's licensing instructor sent him: 'go find the teacher.' Neither of them asked about the model until after they'd run a Sunday.\" (illustrative — demo)
 
 ## Reviews and testimonials FROM AGENTS (not clients)
 - "I'd done open houses for three years and never once texted anyone on a Sunday. Taylor gave me the sheet and the five texts and I had a buyer under contract in three weeks." — Priya, experienced agent (low production when she joined), 2026 · consent: ask first (illustrative — demo)

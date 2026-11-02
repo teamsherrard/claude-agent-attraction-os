@@ -10,7 +10,7 @@ For each chosen topic, deliver a package the member can film immediately. Everyt
    video", never credentials first. The first word is the hook.
 2. **The turn (one line).** "Here's what nobody told me." / "That changed when…" / "Most agents get this
    backwards."
-3. **Value (2–3 beats).** By pillar: the teach (a step they can use today) · the take (the belief and the why) ·
+3. **Value (2–3 steps).** By pillar: the teach (a step they can use today) · the take (the belief and the why) ·
    the story (the wall → the turning point → the point) · the proof (what happened, in order, with the agent's
    permission) · the personal (the moment and what it says about how they lead). Specific and theirs.
 4. **CTA (one rung, with the keyword).** Said plainly, in their words: *"Comment **PARTNER** and I'll send it."* ·
@@ -32,10 +32,10 @@ your brokerage." · "If two weeks off slows your income, you don't have freedom 
 ## Two delivery formats (always give both)
 - **Teleprompter version** — word-for-word, the way they actually talk (contractions, short sentences, their
   signature phrases from `voice-print.md`). Mark it clearly as read-aloud.
-- **Bullet version** — the same Reel as 5 riff beats (hook and CTA kept word-for-word). Most members film from
+- **Bullet version** — the same Reel as 5 riff lines (hook and CTA kept word-for-word). Most members film from
   this — it sounds more like them.
 
-## The shots (one line per beat)
+## The shots (one line per step)
 Where to stand, what to show, the one b-roll to grab — a screenshot of the weekly call for Proof, the
 whiteboard for Authority, the kitchen table or the gym for Personality. Phone, vertical, captions. Nothing fancy
 (`07-instagram/90`).
@@ -47,7 +47,7 @@ whiteboard for Authority, the kitchen table or the gym for Personality. Phone, v
 - A Proof Reel names an agent only when `proof.md` says OK to use publicly; otherwise first name or initials, or
   "one of my agents". Numbers are the member's stated numbers, nothing projected. "No story too big or too
   small" (`06-content-framework/40`) — one deal in 30 days is the relatable one.
-- No story on file for this beat → write the Reel without one and mark `[your story here — say 'build my
+- No story on file for this moment → write the Reel without one and mark `[your story here — say 'build my
   story bank' to add it]`.
 
 ## Rules that keep it good
@@ -58,4 +58,4 @@ whiteboard for Authority, the kitchen table or the gym for Personality. Phone, v
 - **The cardinal rules** (`03-model-positioning/13`): never a negative word about another brokerage or person.
   Compensation never in a Reel. No earnings claims. Nothing that becomes a pitch.
 - Captions, hashtags, cover text, and on-screen cues come from the optimizer's `platform-rules.md` — don't write
-  them here; give it a strong hook and clear beats to pull from.
+  them here; give it a strong hook and clear steps to pull from.

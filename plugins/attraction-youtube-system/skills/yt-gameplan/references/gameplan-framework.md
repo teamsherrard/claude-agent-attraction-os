@@ -12,7 +12,7 @@ Substance and structure are what make it worth the cohort price — never visual
 
 ## The document structure (assemble in this order — the skeleton is in `shared/doc-format.md`)
 1. **Title + stamp** — `YOUTUBE GAME PLAN — [Name]` · known for · attracting · prepared · the stamp.
-2. **Read this first** — four beats: where the channel is and the verdict (active-but-not-attracting: *"strong
+2. **Read this first** — four parts: where the channel is and the verdict (active-but-not-attracting: *"strong
    output, no agents — the problem isn't effort, it's that nobody can tell who this channel is for"*; fresh:
    *"clean slate, clear plan — most leaders never get this far"*) · the insight · the plan in one line · the
    90-day target in conversations and calls. Then **your next 7 days**: the first video (exact title), the

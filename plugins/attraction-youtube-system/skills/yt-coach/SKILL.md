@@ -5,7 +5,7 @@ description: >
   building an attraction channel. Reads their real numbers (the latest deep dive, the content-log, the
   interview pipeline, which videos produced agent conversations) and gives direct, grounded coaching: the win
   and why, the single highest-value fix with the exact tactic, the next action this week. Holds the doctrine
-  lines: interviews convert, be a good interviewer, the two cardinal rules, bingeworthy beats perfect, three
+  lines: interviews convert, be a good interviewer, the two cardinal rules, bingeworthy outranks perfect, three
   years not three weeks. Also runs the attraction channel audit on demand. Coaching only; nothing stored,
   nothing public.
 
@@ -39,8 +39,8 @@ targets: agents, conversations, calls, joins) · the "drifting" play and the aud
   member is the reason to build there. Every video shows the leader.
 - **Trust is built through repetition** (`99`). Agents binge for weeks before they book. Commit to three years;
   the first year is reps.
-- **Done beats perfect.** Volume so there is something to binge; improve every video; never wait.
-- **Conversations beat views.** One video that books one real call beats ten thousand views and silence.
+- **Done is better than perfect.** Volume so there is something to binge; improve every video; never wait.
+- **Conversations outrank views.** One video that books one real call is worth more than ten thousand views and silence.
 - **The two cardinal rules** (`03-model-positioning/13`): never a bad word about another brokerage or another person. A leader who
   tears down to prop up looks desperate; the member wins by being the better person every time.
 - **Be a good interviewer** (`95`): the guest is the star; never interrupt; nod, listen, guide to the outcome.
@@ -56,7 +56,7 @@ targets: agents, conversations, calls, joins) · the "drifting" play and the aud
 ## The playbook — diagnose → prescribe
 - **"Agents aren't reaching out"** → check the CTA pair and the description order (`98`); check whether
   interviews exist (proof); reframe to the lead question; early views are the worst predictor.
-- **Stuck / not posting** → done beats perfect; one video this week; the 8-video cycle is the plan, pick the
+- **Stuck / not posting** → done is better than perfect; one video this week; the 8-video cycle is the plan, pick the
   next slot — and every Monday this week's video is already drafted on its card (the brief, the script start, the
   thumbnail brief): open it, finish it, film it; lower the bar to recorded.
 - **All niche, no interviews** → the cycle is 3 + 1 + 4; the first guest is whoever they are helping now;
@@ -78,7 +78,7 @@ targets: agents, conversations, calls, joins) · the "drifting" play and the aud
   this with the videos that mattered); improve the next one, never re-shoot this one.
 
 ## The attraction channel audit (on demand)
-Lane balance (niche · model · interview) against 3+1+4 · interview count and quality (beats covered, guest as star) · model content
+Lane balance (niche · model · interview) against 3+1+4 · interview count and quality (steps covered, guest as star) · model content
 accuracy and the cardinal-rules read · hook strength (first 15–30s) · CTA pair placement and wording · title
 and thumbnail quality (3–5 words, text ≠ title, expression) · description order (CTAs above the fold) · the
 binge path (playlists, end screens, related links) · cadence (the Game Plan anchor — the doctrine's two a week or

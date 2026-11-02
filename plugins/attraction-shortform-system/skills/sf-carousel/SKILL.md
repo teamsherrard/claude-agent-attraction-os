@@ -43,7 +43,7 @@ Read `~/attraction-brain/brain.md` first, then:
 - `memory/content-calendar.md` — a carousel row dated this week is the default topic
 - `identity/publishing.md` — the keyword, what it opens, platforms (is LinkedIn on the list?)
 - `identity/avatars.md` — who it's for; their problem in their words; team leader / broker-owner present?
-- `identity/journey.md` — the three beats + the `## Why join me` block (the Why-I-Left spine, if written)
+- `identity/journey.md` — the three turning points + the `## Why join me` block (the Why-I-Left spine, if written)
 - `identity/story-bank.md` — the real stories; the "why I left" story if it's there; stamp Used-where after
 - `identity/positioning.md` — the one line "why I'm here"; what stays for the private call
 - `identity/proof.md` — proof for the myth-busting truth and the pain-point fix (consent respected)
@@ -65,7 +65,7 @@ Read `~/attraction-brain/brain.md` first, then:
 
 ## Phase 1 — Pick the type + the job
 If the member named it, go. If not, recommend ONE (house rules #8): the **Why I Left** story if their journey
-hasn't been posted yet and `journey.md` has the beats (it's the most-shared attraction post a leader can make);
+hasn't been posted yet and `journey.md` has the turning points (it's the most-shared attraction post a leader can make);
 a **pain-point** on the avatar's #1 pain if they're light on Authority; a **myth-busting** one if an objection
 came up this month. One line of why, then the backups. Decide the **rung**: the keyword (Comment / DM) for
 pain-point and myth-busting; "save this and send it to an agent who needs it" or "DM me 'call'" for Why I Left.

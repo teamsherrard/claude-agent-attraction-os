@@ -73,7 +73,10 @@ session — then the asks fall back to the call).
 **Also writes, by permission of the owner:** `identity/story-bank.md` → the `Used-where` line of a story this
 plugin used (the Brain contract allows content skills to stamp it); `memory/ideas.md` → flip a `shortform` /
 `story` idea's Status to `used` (the Brain contract allows content plugins to mark Used); `memory/intel.md` →
-the `Used?` column of a row `sf-greenscreen` turned into a Reel. Nothing else in those files.
+the `Used?` column of a row `sf-greenscreen` turned into a Reel; `identity/operations.md` → the single
+`Filming window:` line, written by `sf-gameplan` when the batch day is set (the mirror of `publishing.md → Batch
+day(s):`; the Brain contract names this plugin as that line's writer — the YouTube plugin reads it by name). Nothing
+else in those files.
 
 **Never written by this plugin:** anything else in `identity/`, `memory/top-50.md`, `pipeline.md`,
 `organization.md`, `scorecard.md`, `objections.md` (even an objection Reel only *reads*), `debriefs.md`,
@@ -146,7 +149,7 @@ these lines mirror it) · the one-line anchors pulled from the Brain (primary av
 agent wins · industry POV" are sub-examples inside Authority / Proof / Perspective, never headings). Inside them:
 a two-line summary and **three angles each** (hook · for whom · pain · what it carries) — Authority — the niche
 dissected into topic seeds and the pain each answers · Perspective — the takes, the myths to
-bust, the questions to answer · Story — the journey beats and the story-bank hooks to tell first · Proof — the agent
+bust, the questions to answer · Story — the journey's turning points and the story-bank hooks to tell first · Proof — the agent
 wins with consent, the recurring behind-the-scenes · Personality — passions, routines, family lines the member is
 willing to share and which agents relate to them · then `## Game Plan anchors` (plan date · doc link · cadence · mix ·
 keyword · calendar window · research budget used — rewritten on every Game Plan run; its presence is how

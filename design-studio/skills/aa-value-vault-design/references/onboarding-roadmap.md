@@ -16,20 +16,21 @@ from their Partner Offer; you design them, you never invent one.
 
 The roadmap is built from **the Partner Offer's "First 30 days as a partner" table** — the row shape
 *week → what the partner does → what the member does → done when* — written by `attraction-offer` in
-Week 2 into the Brain's offer file and rendered in the Brain Book's **Your Offer** chapter (Chapter 10,
-the first 30 days as a table). Read it there, or from the `Partner Offer · [Member] · [date]` doc in
-`05 · Offer` (uploaded, or through the Drive connector). Since the offer became a program definition it also
+Week 2 into the Brain's offer file and carried by the `Partner Offer · [Member] · [date]` doc in
+`05 · Offer` (uploaded, or through the Drive connector) — the Brain Book carries no offer since 2026-11-02,
+so the doc is the source. Since the offer became a program definition it also
 carries the **Day 1 sequence** (the `Onboarding: Day 1` lines, the doc's section 7 — the welcome call, the setup
 handed over, the first lesson, the group and the weekly-call invite, the first date on the calendar: the poster's
 Day 1 stop) and **Support & community** (section 8 — the weekly call, the group chat, the 1:1 cadence, the
-response expectation: the card's rows, the same words as How You Operate); an older offer without them → the
-first-30-days table and How You Operate alone, as before. It also carries **"what you get day one"**
+response expectation: the card's rows, the same words as "How we work together"); an older offer without them → the
+first-30-days table and "How we work together" alone, as before. It also carries **"what you get day one"**
 (the Day 1 row's hand-overs), **Module 1 / the first lesson** (the first lesson on the card), and the
 digital product's name and status (the product handed over on Day 1, under its canonical cover). The
-Brain Book's **How You Operate** chapter carries the rest of the card: the **weekly call** (day · time ·
+same doc's **"How we work together"** section carries the rest of the card: the **weekly call** (day · time ·
 link), the **community** (what it is · how to get in), **who to message when stuck**, **a new agent's
-first steps today** (Day 1 · Week 1 · Day 30), and the **booking line**. **Snapshot** carries the name,
-the organization, the brokerage display, and the compliance status; **Compliance** the strip.
+first steps today** (Day 1 · Week 1 · Day 30), and the **booking line** (set in Week 2 by the Brain's
+operations skill and the Conversion system's booking page). The Brain Book's **"Who you are"** carries the name
+and the organization; the Design Package brief carries the brokerage display and the compliance line.
 
 **Every row is the member's decision.** The weeks are the table's weeks, the words are the table's
 words; the "done when" cell is the table's. Never reorder, never add a week, a step, a call, or a
@@ -45,8 +46,7 @@ call set · group: the Lakeline chat · first lesson: The Sunday Follow-Up — s
 of these"; every creative choice has a "Decide for me"; end with "Your turn."):**
 
 1. **Your Brain Book** *(if not already in this project; newest date wins)*.
-2. **Your Partner Offer doc** *(only if the Book's offer chapter is in "(so far)" mode or the table isn't
-   in it)* — upload it from `05 · Offer`, or say your Drive connector is connected and I'll read it.
+2. **Your Partner Offer doc** *(the roadmap's source — the Book carries no offer)* — upload it from `05 · Offer`, or say your Drive connector is connected and I'll read it.
 3. **The three places a new partner shows up** *(only what your Book doesn't carry)* — your weekly
    call (the day and time, and the link), your group chat (what it's called and how they get in), and
    the first lesson you hand them (its name, and where they watch or read it). "Not set up yet" is a
@@ -88,8 +88,7 @@ air, nothing under 11 pt.
    labels: **what you do** (the table's "what the partner does") · **what I do** (the table's "what the
    member does") · **done when** (the table's "done when"). The Day 1 stop = the "what you get day one"
    hand-overs (the welcome pack, the product under its canonical cover as a small thumbnail, the group
-   invite, the first lesson scheduled); the Day 30 stop = the table's last row or the Book's "Day 30:
-   the check-in" line. Fewer rows than five stops → the missing stop is a designed empty band labelled
+   invite, the first lesson scheduled); the Day 30 stop = the table's last row or the Partner Offer document's "Day 30: the check-in" line. Fewer rows than five stops → the missing stop is a designed empty band labelled
    "set in your Brain" and flagged; more rows than five → keep the table's order and group by week,
    never drop a step.
 3. **The "you're not alone" strip** — the weekly call · the community · who to message when stuck, in
@@ -147,7 +146,7 @@ organization is the hero ("Welcome to [organization]"), the brokerage the vehicl
 1. Five stops, three cells each, the labels exactly **what you do · what I do · done when**; every cell
    verbatim from the Partner Offer's table — none added, none dropped, none reordered.
 2. A missing week is a designed empty band labelled "set in your Brain" and flagged — never invented.
-3. The card's four places from the Book's How You Operate and Your Offer chapters; unset places as
+3. The card's four places from the Partner Offer document ("How we work together" and "Your first 30 days"); unset places as
    "ask me" lines, never blank, never guessed.
 4. The product's cover on the Day 1 stop is the canonical cover, placed exactly as-is.
 5. The checklist's squares real and tickable; 8–14 items; the FRIDGE TEST passed.
@@ -160,8 +159,7 @@ organization is the hero ("Welcome to [organization]"), the brokerage the vehicl
 
 ## COMPLIANCE — THREE STATES, NEVER TWO (the roadmap is handed to partners and photographed)
 
-Read the Book's Snapshot (compliance status) and Compliance chapter — the render of the Brain's
-compliance file, whose first line is `Status:`:
+Read the Design Package brief's compliance line (it mirrors the Brain's compliance file, whose first line is `Status:`; the Book carries no compliance chapter since 2026-11-02):
 - **Set or confirmed:** the compliance line in the poster's footer, the checklist's footer, and the
   card's strip — the brokerage name as the display rule says, the licence where required, the chip
   where required, any required disclaimer verbatim. Build, export, hand off.

@@ -137,7 +137,7 @@ first: a task id → it is on, say nothing; `declined` → never re-offer; `late
 - **On yes:** `list_scheduled_tasks` first (adopt an existing Friday performance task, never a twin), else
   `create_scheduled_task` with `taskId: attraction-sf-weekly-performance`, for **Friday** (the slot: a `Friday
   note time:` line in `identity/operations.md` if the member ever set one, otherwise the last working hour of
-  Friday from its `Working hours:` line; timezone from `config.md`), with the `prompt` set **verbatim** from
+  Friday from its `Working hours:` line, otherwise Fri 4:00 pm; timezone from `config.md`), with the `prompt` set **verbatim** from
   `references/weekly-performance-task-prompt.md`. The prompt: pulls the week from the Step-1 source ladder (live →
   tool → the log alone) — **a scheduled run has nobody to click a permission card, so when the live data or the
   tool cannot be read unattended the note is written from `content-log.md` and `conversations.md` and says in

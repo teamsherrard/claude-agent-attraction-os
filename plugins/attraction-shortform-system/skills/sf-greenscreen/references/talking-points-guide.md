@@ -4,14 +4,14 @@ The deliverable is a **hook + talking points**, not a script. A member riffing f
 reacting in real time; a member reading a script looks stiff. The hook is word-for-word; everything after it is a
 prompt. Doctrine: `shared/mike-frameworks.md` §5 (Perspective), §6, §8, §11.
 
-## The beat order (4–6 bullets)
-1. **What happened** — the fact, one beat, as published ("fees change on the 1st — here's the line").
+## The step order (4–6 bullets)
+1. **What happened** — the fact, one step, as published ("fees change on the 1st — here's the line").
 2. **What it means for you** — the avatar's situation named ("if you're 2–5 years in and paying for leads…").
    This is where the value lives.
 3. **The take** — the member's belief, with conviction and generosity: credit everyone involved ("that
    brokerage does a lot right"), then the member's perspective on what matters ("but the brokerage was never the
    reason agents stay or go — the problem is").
-4. **What we do about it in my world** — the Proof beat: the routine, the call, the training, the thing partners
+4. **What we do about it in my world** — the Proof moment: the routine, the call, the training, the thing partners
    get (the iceberg tip, `07-instagram/88`). Never the mechanics, never the money.
 5. **CTA** — the rung + keyword, in their words: *"Comment **PARTNER** and I'll send you what we use."* /
    *"Save this for the agent who's panicking about it."*

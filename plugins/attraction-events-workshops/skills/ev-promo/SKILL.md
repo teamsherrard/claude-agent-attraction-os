@@ -55,7 +55,8 @@ agents' and speakers' rows thirty-second jobs. The asset table (workshop-ops Pha
 Purpose · Owner · Delivery method · Distribution timing · Related email · Related post.
 
 ## Step 3 — The copy (the member's voice; every piece passes the read-back)
-Read now: `identity/voice-samples.md` (beside `voice.md` — how they type) · `identity/avatars.md` (the pain in
+Read now: `identity/voice-samples.md` Sample 4 and later (beside `voice.md` — how they type; Samples 1–3 are the
+spoken answers — for the spoken voice use `voice-print.md`) · `identity/avatars.md` (the pain in
 their words — every hook) · `identity/proof.md` (one credibility line; a speaker's one line) ·
 `identity/story-bank.md` (one story for the announcement email; stamp nothing — Events never writes story-bank;
 say "worth stamping" to the member in one line) · `memory/top-50.md` (the personal invites) · `config.md` (the
@@ -72,7 +73,7 @@ One failure = rewrite.
   say the phrase, don't run it here); otherwise the Top-50 rows whose type matches and who aren't past `Call
   booked`. Never a DM to someone the member hasn't named.
 - **Announcement email** (to the list — `lm-nurture`'s newsletter voice): the pain in their words, the promise,
-  one story beat, date/time/link, "free, for agents, no pitch," the footer. ≤200 words.
+  one story moment, date/time/link, "free, for agents, no pitch," the footer. ≤200 words.
 - **Value email** (T-7): one usable tactic from the training as a taste — real, not a tease (doctrine §6) — and
   the link.
 - **Reminder email + text** (T-1), **doors-open text** (T-0, 1 hour): two lines each (the registration doc's

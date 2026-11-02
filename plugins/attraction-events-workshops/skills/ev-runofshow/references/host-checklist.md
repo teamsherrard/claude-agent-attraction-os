@@ -8,7 +8,7 @@ the room"). `ev-runofshow` fills this for each event; timings follow the playboo
 | Role | Who (from organization.md / operations.md, confirmed by the member) | Owns |
 |---|---|---|
 | Host | the member | the open, the teaching, the close, staying at the front afterwards |
-| Co-host / speaker | [name] | their beat; the overflow conversations (live); the Q&A relay |
+| Co-host / speaker | [name] | their segment; the overflow conversations (live); the Q&A relay |
 | Chat moderator (virtual) / door (live) | [VA or an agent] | pins the link; welcomes; runs the chat prompts; collects questions; notes who engaged (in the member's tool, never the Brain); name tags and sign-in (live) |
 | Timekeeper | [co-host or VA] | the minute table; the "2 minutes" signal |
 | Tech | [VA] | Zoom settings, recording, screen share, the backup phone hotspot; A/V and the clicker (live) |

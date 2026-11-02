@@ -56,7 +56,7 @@ never "no Brain" — name the connector, retry once, never suggest re-running se
 
 ## The doctrine every handler enforces (non-negotiable, every mode)
 - **The four steps, in the vault's words:** Listen → Validate → Reframe → Invite, with **the question to
-  ask** named as its own beat after Validate (every lesson asks it there). `${CLAUDE_PLUGIN_ROOT}/shared/
+  ask** named as its own step after Validate (every lesson asks it there). `${CLAUDE_PLUGIN_ROOT}/shared/
   conversion-doctrine.md` §3 locks the same four and folds the launching doc's six-step naming into them
   (its DECISION NEEDED 3 is the one open question); the coach says four out loud.
 - **The two cardinal rules** (`03-model-positioning/13`): never a negative word about another brokerage,
@@ -108,7 +108,7 @@ me, or add a new one? Your turn."*
    type, what they said they want, the pain they named. If no name: ask ONE question — *"Who said it, and
    what did they tell you they want? One line, or 'generic'."* Generic gets the bank's version, personalised
    to the member only.
-3. **Write the handle** in four labelled beats plus the question, in the member's voice, from their Brain:
+3. **Write the handle** in four labelled steps plus the question, in the member's voice, from their Brain:
    - **Listen** — the one sentence that shows they heard it (and the reminder: let them finish).
    - **Validate** — normal, empathetic, with the future-pace line when it fits ("top agents who joined felt
      that too") — only if `proof.md` or `organization.md` makes it true.
@@ -168,7 +168,7 @@ first name only (never a real agent's name unless they choose one from `top-50.m
 2. Classify: an existing entry in different words (say which, and handle it), a brokerage-specific one
    (route the reframe to `brokerage-model.md`; draft the Listen/Validate/Question/Invite now, mark the
    reframe "needs the Brokerage Model Expert"), or genuinely new.
-3. Draft the handler in the four beats plus the question, name the archetype and fear, and add it to
+3. Draft the handler in the four steps plus the question, name the archetype and fear, and add it to
    `memory/objections.md` under **The member's own handlers** in the template's shape (Listen · Validate ·
    Reframe · Invite · story that answers it · proof that answers it), plus the row in the table. Push.
 4. One line back: *"Added 'your group is too big to get attention' to your bank as a support-and-leads
@@ -211,6 +211,6 @@ probably has…".
 "(illustrative — demo)", nothing written to a real Brain.
 
 ## Quality bar before anything is shown
-The delete test on every beat; the any-agent test (a handle with no story, proof, or model detail from THIS
+The delete test on every step; the any-agent test (a handle with no story, proof, or model detail from THIS
 member's Brain is generic — rewrite it); the so-what test (every reframe ends in a question or an invite); no
 hedging ("you could maybe say…" → write the words); honest scores — a 6 is a 6.

@@ -2,7 +2,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Operations
 *identity · how they run attraction day to day · the AI Admin (Week 5) and the Daily Debrief read this*
-*Owner: `attraction-operations` (Setup Phase 7, Stop 16 captures the basics; the full file is Week 1 optional / Week 5). Set 2026-09-29 (demo — fictional booking link and CRM; no scheduled task exists on a demo brain).*
+*Owner: `attraction-operations` (on demand — set in Week 2, never at Brain setup; the owner's ruling, 2026-11-02: CRM, booking links and the rhythm are a Week 2 topic). Set 2026-10-02 (demo — Week 2; fictional booking link and CRM; the booking page was built with the Conversion plugin's `sales-booking-page`; no scheduled task exists on a demo brain).*
 
 **Working hours:** Mon–Fri 9–6, plus the Sunday block 6:00–7:30 pm (the routine, then content) · **Working days:** 5 · **Timezone:** lives in `config.md` only
 **Response-time commitment to a prospect agent:** same day on weekdays; Sunday evening for anything about a sign-in sheet

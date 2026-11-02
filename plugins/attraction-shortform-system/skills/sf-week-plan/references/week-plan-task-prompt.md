@@ -52,8 +52,8 @@ message and continue.
    3 WAYS (styles labeled: question · contrarian · number/stakes · mistake · callout · curiosity-gap; the strongest
    marked with one line why; never three of the same) · THE SCRIPT (talking head: word for word, 30–60 seconds,
    ~80–150 words, show the count; green screen: talking points with the fact and its source on screen; carousel:
-   slide-by-slide copy and the LinkedIn document line) · THE BULLET VERSION (five riff beats, hook and CTA word for
-   word) · THE SHOTS (one line per beat) · THE CTA (one rung, the keyword said plainly) · THE CAPTIONS (Instagram +
+   slide-by-slide copy and the LinkedIn document line) · THE BULLET VERSION (five riff lines, hook and CTA word for
+   word) · THE SHOTS (one line per step) · THE CTA (one rung, the keyword said plainly) · THE CAPTIONS (Instagram +
    Facebook with the ask as the last line and 3–5 hashtags; TikTok one line, no line breaks; YouTube Shorts title,
    description, tags; cover text + 2–3 on-screen cues). One agent ("you"), one problem, one pillar per post.
 6. **The week's story set:** seven days, the four-category rotation (behind the scenes of leading · agent wins ·

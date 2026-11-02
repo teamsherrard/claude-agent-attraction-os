@@ -2,12 +2,12 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — What You Have to Give
 *identity · the program an agent joins, defined like a product · the value stack an agent gets by joining them · measured against the five pains · features become outcomes*
-*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Phase 4) writes SEEDS only — the first three sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns ONLY the `## Value stack` and `## Digital product` sections; `attraction-offer` owns every other section. `attraction-capture` appends under "Notes for Week 2" only.*
+*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Conversation 2 — your unique approach) writes SEEDS only — the first four sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns ONLY the `## Value stack` and `## Digital product` sections; `attraction-offer` owns every other section. `attraction-capture` appends under "Notes for Week 2" only.*
 *Doctrine: `shared/attraction-doctrine.md` §7b, §10 · `04-value-proposition/28, 31, 32, 33`.*
 
 **Status:** built in Week 2 on 2026-10-03 (demo) · program definition (name · type · framework · structure · support) added 2026-10-10 (demo)
 
-## What worked for them (production, not attraction — Setup Stop 8, raw material)
+## What worked for them (Setup Conversation 2 — the strategies they have personally used to increase production, or are passionate about teaching; raw material)
 | Strategy | What it actually involved | Result they can stand behind | Teach it? (yes / partly / not yet) |
 |---|---|---|---|
 | Open houses + the Sunday follow-up routine | a Saturday open house most weekends; the two-question sign-in sheet; every name texted by 6 pm Sunday; one tracker sheet; a Tuesday look at the sheet | ~1 buyer client per 2 open houses (Taylor's own tracking since 2023, illustrative — demo); roughly 60% of ~20 closings a year traceable to a sign-in (illustrative — demo) | yes |
@@ -15,10 +15,13 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 **Edge (what they do that other agents in their market don't):** the follow-up actually happens every Sunday — and every sign-in answers two questions on the sheet, so the Sunday text has something to say.
 **Teach first (the first thing they'd show a brand-new agent):** open houses → the two-question sign-in sheet (the first lesson, recorded) + the sheet itself · the Sunday routine → the five-step text routine + the five scripts
 
-## The three layers (Setup Stop 9, unpolished)
+## The three layers (Setup Conversation 2, unpolished)
 - **What the brokerage gives every agent (as far as they know):** the transaction and compliance side, the technology stack, training libraries, a healthcare option, and the model's longer-term pieces — "I walk you through the details on a call with the real documents; I don't want to misquote them" (demo — a real build lists what the brokerage's own materials state)
 - **What the upline provides that they could point an agent to today:** Jordan's Tuesday teaching call for the whole group, and Jordan on a three-way call for anyone who wants the model walked through properly
-- **What THEY give (today):** the sign-in sheet and the five texts · a 1:1 welcome call · the Tuesday table (30 minutes, one real sheet a week) · a group chat of three · Taylor on Zoom for a partner's first Sunday — real and small beats big and promised
+- **What THEY give (today):** the sign-in sheet and the five texts · a 1:1 welcome call · the Tuesday table (30 minutes, one real sheet a week) · a group chat of three · Taylor on Zoom for a partner's first Sunday — real and small is better than big and promised
+
+## The mistakes agents are making right now (Setup Conversation 2, question 17 — verbatim)
+"They're paying for the names instead of following up the ones they already have. Every agent I know hosts open houses; almost none of them text the sheet on Sunday. The second mistake is trying five things at once — a lead subscription, a coaching program, a CRM, a course — and finishing none of them. I'm the solution because I did both of those things, I can show the exact Sunday that fixed it, and the routine costs a Saturday, not a subscription. And joining here means you're not learning it alone — there's a Tuesday table every week." (illustrative — demo)
 
 ## Notes for Week 2 (appended by capture — never rewrites the above)
 - [2026-10-02] Dana R. (prospect) said she "can't keep up with the sign-ins" — the overflow is the pain the tracker solves; use it in the five-pains row for technology gaps

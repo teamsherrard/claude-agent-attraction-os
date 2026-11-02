@@ -10,10 +10,10 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - **Workspace ID:** demo-no-workspace  *(demo — this Brain lives in the repo at `docs/demo/taylor-brooks/`; a real build captures the folder ID at first sync)*
 - **Workspace link:** none (demo — no cloud workspace)
 - **Timezone:** America/Chicago  *(timezone lives here and only here)*
-- **CRM:** other — a Google Sheet named "Agent tracker"  *(the system of record for contacts; the Brain's ledgers are the AI's working memory, never the CRM)*
-- **Setup progress:** complete  *(resume reads this stamp — a stamped fact beats inference)*
+- **CRM:** other — a Google Sheet named "Agent tracker"  *(set in Week 2 by `attraction-operations` — never asked at Brain setup; the system of record for contacts; the Brain's ledgers are the AI's working memory, never the CRM)*
+- **Setup progress:** complete  *(resume reads this stamp — a stamped fact outranks inference)*
 - **Debrief time:** 6:00 pm, America/Chicago
-- **Daily Debrief task:** declined  *(demo brains never get a scheduled task — "set up my daily debrief" switches it on for a real Brain)*
+- **Daily Debrief task:** declined  *(never offered at Brain setup — on demand, or the AI Admin's Week 5 card; demo brains never get a scheduled task — "turn on my daily debrief" switches it on for a real Brain)*
 - **Workspace shared with:** nobody
 - **Realtor Brain bridge:** none
 - **Demo brain:** yes  *(Taylor Brooks is a fictional demo member — `shared/brain-book-spec.md` DEMO BRAINS; this Brain never mixes with a real one)*
@@ -24,7 +24,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - **Owner account:** none (demo)
 - **Locale:** USA · USD · sq ft — every skill formats numbers and dates to this
 - **Plugin version:** 0.1.0 — the Agent Attraction Brain version that last touched this brain
-- **Brain created:** September 2026 (setup completed 2026-09-29) · **Last full review:** October 2026 (Book regenerated 2026-10-08) · **Last synced:** never (demo — local only)
+- **Brain created:** September 2026 (setup completed 2026-09-29) · **Last full review:** October 2026 (Book regenerated 2026-11-02 in the nine-section shape) · **Last synced:** never (demo — local only)
 
 ## Connectors this Brain uses
 *Setup confirms these. A skill that needs one and finds it missing tells the member to connect it rather than

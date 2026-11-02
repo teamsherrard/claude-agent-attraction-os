@@ -144,8 +144,8 @@ signal for `yt-analytics`: which videos draw agent questions versus silence.
 ## Compliance gate (3-state)
 `identity/compliance.md`'s first line, `Status:`, before any reply, CTA, or the Starter Resource leaves the chat: `unset` → drafts stay
 private and the Starter Resource is not built, say the rules are not set; `set` → apply, remind once; `confirmed` → apply. No earnings claims or compensation
-numbers in replies; recruiting-scope check (if a commenter is in a state or province the member cannot
-attract in, the reply is still kind and points nowhere); brokerage name as the file requires.
+numbers in replies; recruiting scope: licensing notes only, as `compliance.md`'s recruiting-scope line states — a commenter
+anywhere gets the same kind reply; brokerage name as the file requires.
 
 ## Modes
 Per video (inside its chat) or the weekly comment sweep after each publish. Everything in chat; replies are

@@ -1,6 +1,6 @@
 # [Name] — Execution Framework
 *identity · the 12-month plan, weekly KPIs, monthly metrics, and the CEO rhythm · owner: attraction-execution-framework · built [date] · from goals.md locked [date]*
-*(Empty after a perfect first run BY DESIGN — "build my execution framework" fills it once goals.md is locked. The Book renders it as "Your 12-Month and 90-Day Plan" and "Your Weekly Activity" in Part IV.)*
+*(Empty after a perfect first run BY DESIGN — "build my execution framework" fills it once goals.md is locked. The Brain Book does not carry it; the rendered Execution Framework document does.)*
 
 ## The year (four quarters)
 | Quarter | Focus | Joins target | Agents in org at end | Weekly controllables | What installs |

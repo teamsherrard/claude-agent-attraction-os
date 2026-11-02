@@ -41,48 +41,48 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 "no Brain". Only if the cloud search genuinely finds nothing: suggest "Set up my attraction brain."
 
 ## Quick reference (the fields every skill needs)
-- **Name:** [First Last] · **Brokerage:** [name — or "independent"] · **Building:** [a downline at a cloud brokerage / a local team / a local brokerage / a mix]
-- **Market:** [City, Region] · **Attracts in:** [local only / state or province / national / listed states]
-- **Primary avatar:** [type + one line — e.g., "2–5 year agents paying for leads that don't convert"]
-- **Known for:** [the one thing, from strategy.md]
-- **Why I'm here (one line, out loud):** [from positioning.md]
+- **Name:** [First Last] · **Brokerage:** [name — or "independent"] · **Sponsor:** [first name] · **Building:** [a revenue share organization at a cloud brokerage / a local team / a local brokerage / a mix]
+- **Market:** [City, Region — a fact, captured once] · **Attracts in:** anywhere (a cloud brokerage attracts anywhere — never asked, never a limit)
+- **Primary avatar:** [who their story speaks to — DERIVED from their answers, never chosen: type + one line, e.g., "2–5 year agents paying for leads that don't convert"; framed "your skills attract any agent; these are the agents who will relate most"]
+- **Known for:** [the strategy they can teach, from strategy.md]
+- **Why I'm here (one line, out loud):** [the drafted seed from positioning.md — "(drafted — confirm)" until Week 2]
 - **Offer status:** [seeds (Week 2 builds the offer) / finalized by member]
 - **UVP (one line):** [not built yet (Week 2) — `attraction-offer` writes the one-liner here when the offer is finalized: "I help [agent] achieve [outcome] through [mechanism]"]
 - **Program:** [not built yet (Week 2) — `attraction-offer` writes `[name] · [type] · [cadence]` here when the offer is finalized, e.g. "The Sunday Table · mentorship program · Tuesdays 9:00 am, 30 min on Zoom + a Day 1 welcome call"; it mirrors `identity/offer.md → ## The program`, which stays the source of truth]
-- **Voice in one line:** [e.g., "Calm, practical, teacher energy — never hype"]
-- **This week's activity target:** [conversations / calls / joins, from goals.md]
-- **Organization today:** [N agents] · **12-month target:** [N agents]
-- **Booking link:** [url] · **Primary CTA:** [e.g., "Book a call with me — [link]"] · **Socials:** [@instagram, @youtube, @tiktok]
+- **Voice in one line:** [from the three spoken answers — e.g., "Calm, practical, teacher energy — never hype"]
+- **This week's activity target:** [proposed at setup: N conversations/week — "set my attraction goals" locks it; then from goals.md]
+- **Organization today:** [N agents] · **12-month target:** [N agents] · **Long-term goal:** [N agents] · **Hours a week:** [N]
+- **Booking link:** [set in Week 2 — "write my booking page"] · **Primary CTA:** [set in Week 2] · **Socials:** [@instagram, @youtube, @tiktok — if given]
 - **Live magnet:** [none yet (Week 2) — the Lead Magnet plugin writes `[Magnet Name] · keyword GUIDE · funnel URL [url or not live yet]` here when the magnet is built; it mirrors `memory/magnets.md → ## Current magnet`, which stays the source of truth]
-- **Brand colors:** [#hex] / [#hex] / [#hex] · **Fonts:** [Heading] / [Body] · **Logo:** [loved as-is / refresh / building this week]
-- **Compliance:** [confirmed / set / unset] · **Locale:** [country · currency · units — format every number and date to this (config.md)]
+- **Brand colors:** [set in the brand chat — "my attraction brand direction"] · **Fonts:** [set in the brand chat] · **Logo:** [set in the brand chat]
+- **Compliance:** [unset — "paste my compliance link" (two minutes) / set / confirmed] · **Locale:** [country · currency · units — format every number and date to this (config.md)]
 
 ## The files
 **identity/** — who the member is as a leader (set once, changes rarely)
-- `identity/profile.md` — name, brokerage, market, agent type, years in, before-story, what they are building
-- `identity/journey.md` — the three journey beats with "who relates to this", the leader moment, the WHY · the "Why join me" story at the end (Week 2, `attraction-why-join-me`)
-- `identity/strategy.md` — what they want to be known for, growth focus, constraints, leaders they admire
-- `identity/avatars.md` — the 1–3 Agent Avatars (type, pains, what they've tried, what they need to hear)
+- `identity/profile.md` — name, brokerage and the story behind choosing it, the sponsor and why, market (a fact), agent category, years in, before-story, what they are building
+- `identity/journey.md` — the story told once with its turning points and "who relates to this", the leader moment, why revenue share, the WHY · the "Why join me" story at the end (Week 2, `attraction-why-join-me`)
+- `identity/strategy.md` — what they can teach (the strategies, the unique method, teach-it flags), what they want to be known for, the mistakes they see agents making, growth focus, constraints
+- `identity/avatars.md` — who their story speaks to (DERIVED from their answers, never asked — type, pains in their words, what they've tried, what they need to hear; "your skills attract any agent; these are the agents who will relate most")
 - `identity/prospect-intel.md` — RESEARCHED local agent landscape: brokerage footprint, moves, where they gather (sourced + dated; refreshed quarterly by Prospect Radar)
 - `identity/positioning.md` — the model positioned without pitching: the one-line "why I'm here", the 2-minute model script, what stays for the private call
 - `identity/offer.md` — what they have to give: the three layers (brokerage · upline · you), the value stack vs the five pains, free vs paid, the UVP one-liner (Status: seeds until Week 2)
 - `identity/brokerage-model.md` — THEIR model explained in plain English, from their materials + `shared/brokerage-models.md` (private-call material)
-- `identity/voice.md` — tone rules, sounds-like / never-sounds-like, signature phrases, primary CTA
-- `identity/voice-samples.md` — real WRITTEN samples (how they type)
-- `identity/voice-print.md` — the SPOKEN voice (how they talk) — read for every read-aloud script
-- `identity/proof.md` — production wins, agents already helped (named, with result), organization size, reviews FROM AGENTS
-- `identity/story-bank.md` — the Personal Story & Experience Bank, each story tagged persona · pain · use
-- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (feel, references, tagline) — the Design Package reads this
+- `identity/voice.md` — tone rules, sounds-like / never-sounds-like, signature phrases — written from the three spoken answers and how they typed
+- `identity/voice-samples.md` — the three spoken answers verbatim, the typed story, and any real WRITTEN samples added later
+- `identity/voice-print.md` — the SPOKEN voice (how they talk), distilled from the three spoken answers — read for every read-aloud script
+- `identity/proof.md` — achievements, agents already helped (named, with result), organization size, why their agents joined them, reviews FROM AGENTS
+- `identity/story-bank.md` — the Personal Story & Experience Bank (the almost-quit moment, the mistakes, the turning points, the agents helped), each story tagged persona · pain · use
+- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (derived from the voice) — written in the brand chat ("my attraction brand direction", the second Week 1 chat); the Design Package reads this
 - `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 3; empty until then by design)
 - `identity/publishing.md` — the short-form layer: platforms, cadence, the keyword, posting tool, best times, content board, link in bio (Short-Form-owned, Week 3; YouTube reads `Content board:` and `Keyword:` here)
 - `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `lm-profiles` writes it in Week 2 (aligned to the funnel's CTA), `sf-setup` refreshes its five sections in Week 3, `yt-setup` fills YouTube in Week 4
 - `identity/channel.md` — the YouTube channel: lanes and playlists, the CTA line, upload defaults, baseline, the Game Plan anchors, dated `## Performance` blocks (YouTube-owned, Week 4)
 - `identity/sales-system.md` — the Partner Call machine: calendar, the five application-form questions, the "no" rule, CRM stage mapping, reminders (Conversion-owned, Week 5; mirrors the booking link in operations.md)
-- `identity/goals.md` — 12-month milestones, 30-60-90 targets, the money scenarios (illustrative), weekly activity
+- `identity/goals.md` — the four numbers from setup (today · 12 months · long term · hours), then the 12-month milestones, 30-60-90 targets and weekly activity once locked; the money scenarios (illustrative, on demand, never in the Book)
 - `identity/execution-framework.md` — the 12-month plan, weekly KPIs, monthly metrics, the CEO rhythm (built after goals lock)
 - `identity/leadership.md` — From Agent to Leader readiness score + fix-first list (written by the Leadership Audit)
-- `identity/operations.md` — hours, CRM, booking link, call cadence, onboarding steps (the AI Admin reads this)
-- `identity/compliance.md` — the 3-state gate: license display, brokerage name rule, rev-share marketing policy, earnings disclaimer, recruiting scope, AI-likeness disclosure
+- `identity/operations.md` — hours, CRM, booking link, call cadence, onboarding steps (set in Week 2; the booking page is built with the Conversion plugin's `sales-booking-page`; the AI Admin reads this)
+- `identity/compliance.md` — the 3-state gate: license display, brokerage name rule, rev-share marketing policy, earnings disclaimer, AI-likeness disclosure (set on demand — "paste my compliance link"; recruiting scope is a doctrine default: anywhere)
 
 **memory/** — what the member has done (grows daily)
 - `memory/top-50.md` — the named prospect ledger: type · where they are · stage · last touch · next move
@@ -112,4 +112,4 @@ live in the workspace's **`06 · Materials`** folder — the member drops files 
 says **"import my materials"**; `attraction-import` extracts each piece into the right file after they confirm.
 A Realtor AI Brain, if one exists, is read once through the same skill and never written to.
 
-**config.md** — the key registry: Schema aa-1.0 · Storage provider · Storage (ok · READ-ONLY (org-gated)) · Workspace name / ID / link · Timezone · CRM · Setup progress · Debrief time · Daily Debrief task · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week — then one block per later plugin (Short-Form · YouTube · Conversion & Sales · AI Admin · Lead Magnet · MAA Support), each with its own locked task keys; the `## AI Admin` block's first line `AI Admin: set up [date]` is how every other skill knows the Admin is installed
+**config.md** — the key registry: Schema aa-1.0 · Storage provider · Storage (ok · READ-ONLY (org-gated)) · Workspace name / ID / link · Timezone · CRM (Week 2) · Setup progress (Step 1 → Conversation 1–4 → Voice → complete) · Debrief time · Daily Debrief task (on demand) · Workspace shared with · Realtor Brain bridge · Demo brain · Cohort week — then one block per later plugin (Short-Form · YouTube · Conversion & Sales · AI Admin · Lead Magnet · MAA Support), each with its own locked task keys; the `## AI Admin` block's first line `AI Admin: set up [date]` is how every other skill knows the Admin is installed

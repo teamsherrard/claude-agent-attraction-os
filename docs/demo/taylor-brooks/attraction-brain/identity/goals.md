@@ -2,11 +2,19 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Attraction Goals
 *identity · the destination and the weekly activity · owner: attraction-goals · Status: locked 2026-09-29 (quarter 2026-09-29 → 2026-12-28)*
-*Section owner: `attraction-rev-share-calculator` → "The money, honestly". The 12-month plan and the CEO rhythm live in `identity/execution-framework.md` (owner `attraction-execution-framework`). Seeds `memory/scorecard.md` (Targets block only).*
+*Section owner: `attraction-rev-share-calculator` → "The money, honestly" (on demand — never at setup, never in the Brain Book; this demo ran it in Week 2). The 12-month plan and the CEO rhythm live in `identity/execution-framework.md` (owner `attraction-execution-framework`). Seeds `memory/scorecard.md` (Targets block only).*
 *Doctrine: `01-foundation-mindset/08` (control the actions, influence the outcome; 12-week quarters; audit tangible AND intangible), `/09` (hit singles), `/07` (residual income — private-call framing). EVERY money figure is illustrative and labeled; nothing here is a promise of what anyone will earn. (Demo: every figure illustrative — demo.)*
 
 ## The why
 "So that the agents who are where I was in 2022 get the routine instead of the lead bill — and so my own January stops starting at zero."
+
+## Your numbers (Setup Conversation 4 — the member's own, verbatim)
+| Measure | Your number |
+|---|---|
+| Agents in your revenue share organization today | 2 (illustrative — demo) |
+| Agents you realistically want to attract in the next 12 months | 25 (illustrative — demo) |
+| Your long-term goal (agents) | 100 — \"a hundred agents who all run the Sunday\" (illustrative — demo) |
+| Hours a week you can fully commit to attraction | 8 (illustrative — demo) |
 
 ## 12-month milestones (set 2026-09-29)
 | Measure | Today | 12 months |

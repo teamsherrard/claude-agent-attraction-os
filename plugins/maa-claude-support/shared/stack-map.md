@@ -63,7 +63,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 
 | Member says (any variant) | Route to | Plugin |
 |---|---|---|
-| "Set up my attraction brain" / "build my agent attraction brain" / "launch the agent attraction OS" / first-run | `attraction-brain-setup` | 1 |
+| "Set up my attraction brain" / "build my agent attraction brain" / "launch the agent attraction OS" / first-run (four conversations + three voice answers, one question at a time; about 45 minutes to an hour) | `attraction-brain-setup` | 1 |
 | "Is my attraction brain complete / what's missing" | `attraction-brain-health` | 1 |
 | "Load / save / back up / restore my attraction brain" · new computer | `attraction-brain-sync` | 1 |
 | "Upgrade / migrate my attraction brain" · after plugin updates | `attraction-brain-migrate` | 1 |
@@ -71,9 +71,9 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Who am I as a leader / my story / my journey / my why" | `attraction-brand-persona` | 1 |
 | "Capture my voice" (spoken) / "add my writing samples" (written) / "add my proof / agents I've helped" | `attraction-voice-print` / `attraction-voice-proof` | 1 |
 | "Add a story to my bank / my story bank" | `attraction-story-bank` | 1 |
-| "My visual brand / brand direction / the Design Package brief" | `attraction-brand-direction` | 1 |
+| "My attraction brand direction" / my visual brand / the Design Package brief (the SECOND Week 1 chat, after the Brain) | `attraction-brand-direction` | 1 |
 | "My 60-second why-join-me story" | `attraction-why-join-me` | 1 |
-| "Pick my niche / build my agent avatars / who should I attract" | `attraction-persona-map` | 1 |
+| "Who should I attract / who does my story speak to / refine my agent avatars" (derived from the Brain — never a type to pick; on demand) | `attraction-persona-map` | 1 |
 | "Who's moving in my market / agent movement / where do agents gather" · "scan agent movement" (the news scan, on demand) | `attraction-prospect-radar` | 1 |
 | "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
 | "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
@@ -81,11 +81,11 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; shown as ONE offer card the member says yes to, then a readable document — a one-page At a glance first, 2,000–3,200 words) | `attraction-offer` | 1 |
 | "What should I give away vs charge for" | `attraction-free-vs-paid` | 1 |
 | "Run my rev-share scenarios" (illustrative, never a promise) | `attraction-rev-share-calculator` | 1 |
-| "Set my 90-day targets / my scorecard / am I on track" | `attraction-goals` | 1 |
+| "Set my attraction goals / lock my plan / my scorecard / am I on track" (on demand after setup — setup captures only the four numbers) | `attraction-goals` | 1 |
 | "My 12-month plan / weekly KPIs / the CEO rhythm" | `attraction-execution-framework` | 1 |
 | "Am I ready to lead / leadership audit" | `attraction-leadership-audit` | 1 |
-| "My hours / booking link / CRM / call cadence" | `attraction-operations` | 1 |
-| "My compliance rules / can I say this publicly" | `attraction-compliance` | 1 |
+| "My hours / booking link / CRM / call cadence" (Week 2 — the booking page itself is built by the Conversion plugin's `sales-booking-page`) | `attraction-operations` | 1 |
+| "Paste my compliance link" / my compliance rules / can I say this publicly (on demand, never at setup) | `attraction-compliance` | 1 |
 | "I just talked to an agent / heard an objection / got a win / have an idea" (on the go) | `attraction-capture` | 1 |
 | "Run my debrief / what requires my attention today" · the Daily Agent Attraction Debrief | `attraction-debrief` | 1 |
 | "What did Mike say about ___" / "ask Mike" / "which lesson covers ___" | `maa-support-cohort` (the Ask-Mike lane → `shared/kb/kb-index.md`) | 2 |
@@ -184,7 +184,8 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - **Later-week deliverables are never demanded early:** a Week 1 skill that mentions the offer or
   the content pillars is collecting raw material and saying which week builds it. "It skipped my
   offer" in Week 1 = working as designed.
-- The Daily Debrief is a Cowork scheduled task created at setup Stop 16 ONLY with the member's yes.
+- The Daily Debrief is a Cowork scheduled task created ONLY with the member's yes — on demand ("turn on my daily debrief") or from the AI Admin's Week 5 card, never inside Brain setup (the owner's ruling, 2026-11-02).
+- **The Week 1 shape (2026-11-02):** Brain setup is four conversations (who you are as a leader · your unique approach · your story and your proof · your current and future state) asked ONE plain question at a time — Mike's 26 questions — plus three spoken answers that build the voice; it never asks which type of agent they attract (derived: "your skills attract any agent; these are the agents who'll relate most"), where they can attract, their CRM, booking link, compliance, scheduled tasks, operations or brand. The brand is a SECOND chat the same week ("my attraction brand direction"); compliance is on demand ("paste my compliance link" reads their brokerage's page); the tools conversation is Week 2. The Brain Book is nine short sections, at most fifteen pages. "It didn't ask about my brand / CRM / compliance" in Week 1 = working as designed.
 
 ### Plugin 2 — MAA Claude Support — BUILT (this plugin)
 - Needs nothing to help. Needs a Brain to log and to track weeks (`maa-support-setup`).

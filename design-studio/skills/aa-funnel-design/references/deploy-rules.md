@@ -163,7 +163,7 @@ attached to the thank-you step, never "check your inbox". Say that plainly in th
   accent and button style — so the stacked sections read as one page.
 - **Don't cram to hit a height.** Let the page be as tall as it needs; generous spacing renders cleaner.
 - If a single tall artboard comes out blurry or misaligned, deliver the page as its labelled section
-  frames in order instead — clarity beats one heroic canvas.
+  frames in order instead — clarity is better than one heroic canvas.
 - **Show each page in FULL on the review board — never a cut-off hero.** Every frame at the ENTIRE page
   height, all sections visible top to bottom. Never a fixed-height "scrolls" box that hides the rest.
 

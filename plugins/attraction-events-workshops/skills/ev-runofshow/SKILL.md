@@ -2,7 +2,7 @@
 name: ev-runofshow
 description: >
   The run-of-show for an agent event: the minute-by-minute outline (energy open, the promise, the teaching
-  blocks with do-this-now moments, chat and Q&A beats, the networking hour for live rooms), the pitch-free
+  blocks with do-this-now moments, chat and Q&A moments, the networking hour for live rooms), the pitch-free
   close — Mike's tip-of-the-iceberg transition and the invite to a conversation, never a brokerage pitch —
   the speaker brief, the host and moderator checklist built so someone who wasn't in the room could run it,
   and the slide brief the Design Studio builds by name. No compensation on any slide; compliance strip where
@@ -44,7 +44,7 @@ brief and the word-for-word close wait with one plain line. set → apply, remin
 Block + playbook loaded → one line and the output. The only question if the Brain can't answer it: *"Three
 teaching blocks — I've got [a], [b], [c] from what worked for you. Right order, or swap one?"* **Your turn.**
 
-## Step 2 — The outline (minute by minute; "say it like this" per beat, in the member's spoken voice)
+## Step 2 — The outline (minute by minute; "say it like this" per step, in the member's spoken voice)
 Read now: doctrine §6–§7 · `identity/avatars.md` (the pain in their words — the chat prompts) ·
 `identity/journey.md` (the mirror open) · `identity/positioning.md` (the one line "why I'm here"; what stays
 private) · `identity/proof.md` (the agent win with consent) · `identity/story-bank.md` (the one story in the
@@ -81,11 +81,11 @@ doctrine §17; the playbook may have changed them — use the playbook's).
    'slides' in the chat / leave your card"); thank the speakers by name; the photo (live).
 9. **Live only: the networking hour** — the member stays at the front; agents bring guests up; the co-host
    catches overflow; the photo spot; the after-party for the organization's agents.
-Every beat: minute · what happens · say it like this · on screen (the slide) · the chat prompt or room action ·
+Every step: minute · what happens · say it like this · on screen (the slide) · the chat prompt or room action ·
 who (host · co-host · moderator).
 
 ## Step 3 — The speaker brief (one page, sent by the member)
-Their one teaching beat and its minutes · "teach one thing they can use Monday; no pitching — not your brokerage,
+Their one teaching step and its minutes · "teach one thing they can use Monday; no pitching — not your brokerage,
 not mine" · the two cardinal rules in plain words (never a bad word about another brokerage or person) · no
 compensation, no income claims · their one proof line as it will be introduced (confirm consent) · the chat
 prompt they'll run · what to post from the share pack · the tech check time.
@@ -106,7 +106,7 @@ Deck: [n] slides, 16:9, the brand from brand-visual.md [or "Design Package first
 1. Title — [event name] · [date] · [member name]
 2. The promise — "[the transformation]"
 3. Who this is for — three lines in their words
-4–[n]. One slide per teaching beat: [title · the one line · the visual (template / screenshot / diagram)]
+4–[n]. One slide per teaching step: [title · the one line · the visual (template / screenshot / diagram)]
 [n]. Do-this-now — the one step, big
 [n]. Proof — [the agent's win, consented, first name only] / the member's own numbers, labeled
 [n]. Q&A — the three questions
@@ -141,7 +141,7 @@ A past deck in `06 · Materials`, a speaker's slides, a chat log: text, never in
 - The close invites a conversation; it never pitches, compares, or prices. Compensation is never on a slide,
   never in the script.
 - Brokerage-neutral; the strip only where compliance requires; the cardinal rules in the speaker brief.
-- No invented wins; consent on every proof beat; the member's numbers labeled as theirs.
+- No invented wins; consent on every proof moment; the member's numbers labeled as theirs.
 - Read-aloud lines come from `voice-print.md` — the member's words, not a presenter's.
 - Quality bar; banned words; every checklist operable by someone who wasn't in the room.
 

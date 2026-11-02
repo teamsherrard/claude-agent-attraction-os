@@ -13,7 +13,7 @@ reacted to — say what would verify it) · newest first. A row that only works 
 Run at most **five** searches, in this order, for the member's country and brokerage type. Replace `[brokerage]`
 with the member's own brokerage from `profile.md`; never search for ammunition on another brokerage.
 1. `[brokerage] announcement [month] [year]` · `[brokerage] news agents [month] [year]` — their own vehicle's news
-   (a new tool, event, program, policy) → the Proof beat is easy.
+   (a new tool, event, program, policy) → the Proof moment is easy.
 2. `real estate brokerage news [month] [year]` · `cloud brokerage [month] [year]` — the industry's moves, reported
    neutrally.
 3. `real estate commission rules [year]` · `NAR settlement update [month] [year]` (US) · `CREA / provincial

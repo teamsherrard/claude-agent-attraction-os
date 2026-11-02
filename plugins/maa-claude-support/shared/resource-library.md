@@ -14,7 +14,7 @@ someone else's system.
 - **One link per moment.** A wall of resources is homework; one vetted link is a gift.
 - **Say what it is and how long:** "Anthropic's official 2-minute read" / "Mike's Week 2 lesson
   'Agents Follow People, Not Companies', 6 minutes."
-- **Video beats article for hands-on members; article beats video at 11pm.** Offer the one that
+- **Video is better than an article for hands-on members; an article is better than video at 11pm.** Offer the one that
   fits, mention the other exists.
 
 ## Official articles worth handing out (verified live; whatsnew link-health re-checks weekly)

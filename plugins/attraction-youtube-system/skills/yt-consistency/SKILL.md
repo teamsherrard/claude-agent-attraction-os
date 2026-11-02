@@ -55,7 +55,7 @@ chat by `yt-make-video`). Given the next N videos on the plan (default 3–4):
 
 ## Check-ins ("am I on track")
 Compare shipped (content-log, Published rows) against the cadence and the cycle mix: how many of the last
-eight were niche / model / interview. Hold the line: consistency beats volume. Back after a gap → one warm
+eight were niche / model / interview. Hold the line: consistency outranks volume. Back after a gap → one warm
 line, no guilt: *"good to see you — want to pick the next title and knock it out? About thirty minutes."*
 Open `memory/scorecard.md` now and read its word (Ahead · On pace · Behind) if present; never recompute it here.
 

@@ -306,9 +306,9 @@ Image idea: the headshot
 ────────────────────────────────────────────
 SECTION 5 — THE JOURNEY
 Headline: ...
-Where I was: ...              (journey.md beat 1 — the former brokerage never named)
-What I tried: ...             (beat 2 — the wall)
-What changed: ...             (beat 3 — what they built or decided, what it produced)
+Where I was: ...              (journey.md turning point 1 — the former brokerage never named)
+What I tried: ...             (turning point 2 — the wall)
+What changed: ...             (turning point 3 — what they built or decided, what it produced)
 Pull quote: ...               (optional)
 Image idea: ...               (optional — a real photo)
 

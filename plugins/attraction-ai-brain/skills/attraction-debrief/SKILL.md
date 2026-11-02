@@ -3,14 +3,15 @@ name: attraction-debrief
 description: >
   The Daily Agent Attraction Debrief: the scheduled agent that answers "what requires my attention
   today?" and closes the day. Reads the calendar and inbox (read-only), the Top-50, conversations,
-  scorecard, and deadlines; logs the day's agent conversations; scores the day against the weekly
-  activity target; lists follow-ups due, content due, and agent needs; writes tomorrow's three moves.
-  Provisioned as a Cowork scheduled task only with the member's explicit yes at setup (default 6 pm),
-  re-runnable any time, draft-only: nothing sends, posts, or moves a pipeline stage on its own. When
-  the AI Admin plugin is installed, its admin-daily extends this. Trigger on: "run my debrief",
-  "daily attraction debrief", "debrief my day", "what requires my attention today", "turn on my
-  daily debrief", "change my debrief time", "turn off my debrief", "tomorrow's three moves", "score
-  my day", "what did I do today for attraction".
+  scorecard and deadlines; logs the day's agent conversations; scores the day against the weekly
+  activity target; lists follow-ups due, content due, and agent needs; writes tomorrow's three
+  moves. Provisioned as a Cowork scheduled task only with the member's explicit yes — on demand
+  ("turn on my daily debrief", default 6 pm) or from the AI Admin's Week 5 card, never at Brain
+  setup — re-runnable any time, draft-only: nothing sends, posts, or moves a pipeline stage on its
+  own. With the AI Admin installed, admin-daily extends this. Trigger on: "run my debrief", "daily
+  attraction debrief", "debrief my day", "what requires my attention today", "turn on my daily
+  debrief", "change my debrief time", "turn off my debrief", "tomorrow's three moves", "score my
+  day", "what did I do today for attraction".
 ---
 
 # Daily Agent Attraction Debrief — the scheduled agent that closes the day
@@ -49,8 +50,10 @@ Read `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md`. The debrief is a note left 
 crisp, ~25 lines, plain text, capitalised section heads, no file names, no sync talk, no markdown
 symbols. In chat it ends with "your turn" only when it asks the one on-demand question.
 
-## Provisioning (setup Stop 16, or "turn on my daily debrief") — explicit yes, never silent
-`attraction-operations` hands over the Q64 answer (a time, "6 pm is fine", or "not yet"). Then:
+## Provisioning ("turn on my daily debrief", the Week 2 operations conversation, or the AI Admin's Week 5 card) — explicit yes, never silent, never at Brain setup
+The owner's ruling (2026-11-02): scheduled tasks and their timing are never part of Brain setup. The member
+asks for the Debrief on demand, or `attraction-operations` (Week 2) or the AI Admin's consent card hands over
+the answer (a time, "6 pm is fine", or "not yet"). Then:
 1. **Consent, in one plain line, before creating anything:** *"I'll set up your Daily Agent Attraction
    Debrief to run at [time] every day — it reads your calendar and inbox, scores your day against
    your weekly target, and leaves tomorrow's three moves. Nothing is sent or posted. Want it on?"*
@@ -85,8 +88,9 @@ from agents in the org seen in the inbox or calendar; the "answer it once, write
 from `14-retention-culture/71` when the same question appears twice) · CONTENT DUE (from the content
 log when the content system exists; before Week 3, one line that it comes in Week 3) · TOMORROW (the
 calendar, then **the three moves**, anchored to the weekly activity in `goals.md` — which of the
-controllables tomorrow advances, with the concrete next step) · Stage moves requested · one closing
-line. Mondays add: *"New week — say 'attraction weekly check-in' to score last week."* The first
+controllables tomorrow advances, with the concrete next step; while `goals.md` is still at `seeds` the
+proposed weekly rhythm from setup is the target, with one line: *"say 'set my attraction goals' to lock
+it"*) · Stage moves requested · one closing line. Mondays add: *"New week — say 'attraction weekly check-in' to score last week."* The first
 working day of the month adds the monthly audit nudge (`01-foundation-mindset/8`). Sign as "Your
 Attraction Debrief" (or the assistant name in `config.md` once the AI Admin sets one).
 

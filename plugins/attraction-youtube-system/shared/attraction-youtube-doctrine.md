@@ -110,7 +110,7 @@ to one of the Brain's five pillars:
 | Bucket | Category | Pillar it carries in `content-log.md` | Angle notes |
 |---|---|---|---|
 | Problem | niche authority | **Authority** | the tactical teach |
-| Situation | niche authority | **Authority** | Story angle when it is the member's own wall (Why I Switched); Personality angle when it is a personal beat |
+| Situation | niche authority | **Authority** | Story angle when it is the member's own wall (Why I Switched); Personality angle when it is a personal moment |
 | Future | niche authority | **Authority** | leverage and the next stage, concepts only |
 | Interview | interviews | **Proof** | the guest's transformation |
 | Model | model / opportunity | **Perspective** | the member's clear, fair take on how the model works |
@@ -305,7 +305,7 @@ what ranks. "Spend the time to make sure your title is dialed and your thumbnail
 
 **The psychology of a click (`/97`): curiosity · emotion · clarity.** Curiosity = they will miss out if they
 don't watch (pain) or they want the outcome (pleasure). Emotion = speak to pain points, desires, or strong
-opinions. Clarity = they know exactly what the video is in seconds. **Rule: bold and emotional beats complex and
+opinions. Clarity = they know exactly what the video is in seconds. **Rule: bold and emotional outranks complex and
 clever.** High contrast, branded, the member's face, big emotion, simple.
 
 **Titles that attract agents (`/97`) speak to pain and desire.** Mike's examples, as he states them: "Why most
@@ -526,7 +526,7 @@ in the video must be real; no stock "culture."
 videos" · "your digital stage" · "give more value for free than the gurus charge for" · "the magic casual call to
 action" · "invite, don't sell" · "the brokerage name puts the guard up" · "the person you're interviewing is the
 star of the show" · "record the intro last" · "pull back the curtain" · "simplify what most people
-overcomplicate" · "from recruiter to educator" · "Do NOT join if…" · "bold and emotional beats complex and
+overcomplicate" · "from recruiter to educator" · "Do NOT join if…" · "bold and emotional outranks complex and
 clever" · "three to five words, different from the title" · "your description is your sales assistant" ·
 "bingeworthy" · "never let them leave without one more video" · "the library effect" · "commit for three years"
 · "chapter one vs chapter twenty" · "not if, when" · "done is better than perfect" · "Partner Call" (the OS's

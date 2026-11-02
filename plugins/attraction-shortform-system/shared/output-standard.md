@@ -99,7 +99,7 @@ Write the structured text like this, every time:
 - **Section headers in ALL CAPS**, each preceded by a divider line of em dashes
   (`———————————————————————————————`) and followed by a blank line.
 - **Generous blank-line spacing** between blocks. Never run sections together.
-- **Bullets** with `•`; sub-points or beats with `—`. One point per line.
+- **Bullets** with `•`; sub-points or steps with `—`. One point per line.
 - **Cues, hooks, and labels on their own lines** (e.g. `HOOK (read word-for-word)` then the hook on the next
   line). Scripts and captions never run together as a paragraph blob.
 - **Copy blocks the member will paste** (captions, hashtags, bios) sit under a clear label.
@@ -177,7 +177,7 @@ First post to film: [row 1 — working title · date]   ·   Batch day: [day]   
 
 ———————————————————————————————
 1. POSITIONING FOR SHORT-FORM
-Who I'm talking to: [the agent, their pain in their words, the mirror beat]
+Who I'm talking to: [the agent, their pain in their words, the mirror moment]
 The one line: "[Name] helps [agent] [outcome] through [mechanism]"
 The job of short form: Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation
 The keyword: [WORD] · what it opens: [the live guide / the free thing / the call]
@@ -452,7 +452,7 @@ FILM-DAY PLAN · [DATE]
 
 ———————————————————————————————
 THE SESSION AT A GLANCE · THE GROUPS (location → outfit → format) · THE RUN SHEET (order · video # · hook's first line · pillar · format · location · minutes)
-WHAT TO WEAR · WHAT TO BRING · THE TELEPROMPTER CARDS (hook word for word · four or five beats · the ask with its keyword, large) · BETWEEN EVERY VIDEO · THE SAFETY NET · AFTER THE SHOOT
+WHAT TO WEAR · WHAT TO BRING · THE TELEPROMPTER CARDS (hook word for word · four or five steps · the ask with its keyword, large) · BETWEEN EVERY VIDEO · THE SAFETY NET · AFTER THE SHOOT
 
 ———————————————————————————————
 COMPLIANCE   (permission confirmed on every named agent; no unconsented names on a screenshot)

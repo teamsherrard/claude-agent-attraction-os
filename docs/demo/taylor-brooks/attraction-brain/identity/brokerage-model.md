@@ -30,5 +30,5 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - **Q:** "What happens to my cap from my old office?" — **A:** "Ask me on the call — some brokerages honour a cap proven elsewhere until its reset date, and I'd rather check the document than guess." *(open item — confirm with the brokerage)*
 
 ## What the member still needs from their brokerage
-- [ ] the current revenue-share tier sheet, dated — on the Book's open-items page
-- [ ] the written cap-honouring rule for agents joining mid-year — on the Book's open-items page
+- [ ] the current revenue-share tier sheet, dated — confirm with the brokerage (never in the Book)
+- [ ] the written cap-honouring rule for agents joining mid-year — confirm with the brokerage (never in the Book)

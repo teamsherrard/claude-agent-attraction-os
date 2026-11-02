@@ -170,7 +170,7 @@ why · NEXT MOVE with timing (and the 3-way or nurture hand-off) · THE RECAP EM
 
 ## DM thread mode (the launching doc's "here's the conversation I'm having with Sarah")
 A pasted DM thread gets the same read, lighter: where it sits (comment · DM · qualify · invite — `cv-dm-flow`'s
-beats), the agent's apparent motivation, buying signals, whether the member is moving too fast, whether to ask
+steps), the agent's apparent motivation, buying signals, whether the member is moving too fast, whether to ask
 another question, invite to a call, or leave it alone — and **the recommended next message, with the why**.
 Logged as a `DM` row. The member learns the psychology while using it.
 

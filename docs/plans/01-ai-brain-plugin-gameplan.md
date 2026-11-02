@@ -75,7 +75,7 @@ Legend: **KEEP** = copy, rename, re-point paths (hours) · **ADJUST** = same ske
 
 | # | Skill | Status | From | What changes |
 |---|---|---|---|---|
-| 1 | `attraction-brain-setup` | **REBUILT** | `realtor-brain-setup` | Same 8-step spine (provider → pull → import → phases → tools → finalize → Book). Every interview phase is new (see §4). Week 1 on-screen video records this skill. |
+| 1 | `attraction-brain-setup` | **REBUILT** (again 2026-11-02) | `realtor-brain-setup` | Same mechanical spine (provider → pull → import → the conversations → the close → Book). The interview is Mike's four conversations plus the voice stop, one question at a time (see §5). Week 1 on-screen video records this skill. |
 | 2 | `attraction-brain-sync` | KEEP | `realtor-brain-sync` | New folder names, marker, drive map. Logic untouched. |
 | 3 | `attraction-brain-health` | KEEP | `realtor-brain-health` | New completeness checklist (the first-run set in §4). |
 | 4 | `attraction-brain-migrate` | KEEP | `realtor-brain-migrate` | Schema `aa-1.0`; no legacy brains yet so it ships minimal. |
@@ -86,7 +86,7 @@ Legend: **KEEP** = copy, rename, re-point paths (hours) · **ADJUST** = same ske
 
 | # | Skill | Status | From | What changes |
 |---|---|---|---|---|
-| 7 | `attraction-brand-persona` | ADJUST | `realtor-brand-persona` | Interviews the **leader identity**: name, brokerage, market, agent type, years in, before-story, when and why they joined their brokerage (human reason only), the three journey beats, the leader moment, their WHY. Writes `profile.md` + `journey.md`. The "who you serve" half moves to `persona-map`. |
+| 7 | `attraction-brand-persona` | ADJUST | `realtor-brand-persona` | Interviews the **leader identity**: name, brokerage, market, agent type, years in, before-story, when and why they joined their brokerage (human reason only), the story's three turning points, the leader moment, their WHY. Writes `profile.md` + `journey.md`. The "who you serve" half moves to `persona-map`. |
 | 8 | `attraction-voice-print` | KEEP | `realtor-voice-print` | Unchanged. Spoken-sample capture already works. |
 | 9 | `attraction-voice-proof` | ADJUST | `realtor-voice-proof` | Proof categories change: production wins, agents already helped (named, with their result), organization size today, reviews from agents. Strict no-invent. |
 | 10 | `attraction-story-bank` | ADJUST | `realtor-story-bank` | Becomes the **Personal Story & Experience Bank** (Week 1 homework). Each story tagged: persona it lands with · pain it speaks to · where it's used (story reel / YouTube hook / partner call / objection answer). Target 12+ stories, not 6. |
@@ -157,10 +157,11 @@ Legend: **KEEP** = copy, rename, re-point paths (hours) · **ADJUST** = same ske
 └── exports/
 ```
 
-**First-run completeness set (what `health` and resume judge on):** profile · journey · avatars · voice · voice-samples ·
-proof · story-bank · positioning · offer · goals · compliance · brand-visual. Everything else is a legitimate placeholder
-after a perfect first run (`prospect-intel` and `brokerage-model` are researched later or on demand; `leadership`,
-`operations`, `content-engine` are Week 1 optional).
+**First-run completeness set (what `health` and resume judge on — rewritten 2026-11-02):** profile · journey · strategy ·
+story-bank · proof · offer (seeds) · positioning (the seed line) · goals (seeds) · voice · voice-samples · voice-print ·
+avatars (derived). Everything else is a legitimate placeholder after a perfect first run (`brand-visual` is the second
+Week 1 chat; `compliance` is on demand; `operations` is Week 2; `prospect-intel`, `brokerage-model`, `leadership`,
+`execution-framework` are later or on demand; `content-pillars` is Week 3).
 
 **Read contract for the later plugins (define now, honour forever):**
 
@@ -236,183 +237,133 @@ past content, materials), scoped to that folder and never the whole Drive. Memor
 
 ---
 
-## 5. The setup interview (the rebuilt spine) — phases, stops, and the exact questions
+## 5. The setup interview — Mike's four conversations, one question at a time (rewritten 2026-11-02)
 
-Same discipline as the realtor setup: one Max session (~45–60 min), lazy-loaded shared files, 2–4 related questions per stop,
-warm not formy, mechanics silent, a breadcrumb at every phase transition ("That's 3 of 7 done, about 20 minutes left"),
-every question skippable (a gap becomes a placeholder and shows up on the Book's "your open items" page, never a re-ask),
-"just make it" at any point builds from what exists. Anything already answered, imported, or bridged from a Realtor Brain is
-folded in and its question dropped. The Realtor Brain bridge typically removes Stops 1, 12, and 13 entirely.
+*Replaced on the owner's verdict of 2026-11-02 (`docs/plans/SEAM-LOG.md`, the dated ruling block). The seven-phase,
+sixteen-stop, ~64-question interview is gone: its questions bundled four or five asks into one, nobody knew what "beats"
+meant, it asked members to pick an agent type and where they could attract, and it asked about CRM, booking links,
+scheduled tasks, compliance, operations and the brand in Week 1. What stays: Step 0's provider-first start and pull,
+the existing-Brain check, the Realtor Brain bridge, the import step, ask-once discipline, plain language, write → push →
+verify after every conversation, the Project Seatbelt, demo mode, the resume stamps and the usage diet.*
+
+**The goal of the interview (Mike's four lines):** who they are at the core + their story → brand and content · what
+they have experience with → the UVP · why they joined their brokerage → content · their upline → the UVP.
+
+**The shape:** one Max session, 35–45 minutes; four conversations plus the voice stop; **26 questions, each asked on
+its own turn, one plain question at a time, "your turn" after each;** short messy answers welcome; "I don't know" moves
+on; "just make it" at any point builds from what exists; anything imported, bridged or already in the Brain is folded
+in and its question dropped. Nothing else is asked — not a confirmation card, not a summary to approve. The writer
+skills write silently between conversations; the member sees the Book at the end.
 
 ### Step 0 — Silent start (0–1 question)
-Provider detected from connectors; pull; existing-Brain check; Realtor Brain bridge offer.
+Provider detected from connectors; pull; existing-Brain check; Realtor Brain bridge offer (typically drops the name,
+brokerage, market, years and before-real-estate questions, and the achievements question).
 - Only if both or neither provider is connected: *"Are you a Google person or an Outlook/Microsoft person?"*
-- Only if a Realtor Brain exists: *"I found your Realtor Brain. Want me to pull your name, market, voice, brand, and proof from it so we skip those questions?"*
+- Only if a Realtor Brain exists: *"I found your Realtor Brain. Want me to pull your name, market, voice and proof from it so we skip those questions?"*
 
 ### Step 1 — Expectations + home base (1 question)
-*"Here's how this works: about 45 minutes, seven short conversations, and at the end you get your Agent Attraction Brain Book, your 90-day scorecard, and a home base folder every tool reads from."*
+*"Four short conversations and three questions you answer out loud — about 35 to 45 minutes, one plain question at a time. At the end you get your Agent Attraction Brain Book and a home base folder every tool reads from. Your brand is its own chat later this week; your offer is next week."*
 - *"What should we call your home base? 'Agent Attraction OS' works, or name it after your organization."*
 
 ### Step 1.5 — Import first (1 question)
 - *"Before I ask you anything: do you have an old recruiting deck, a bio, your brokerage's onboarding doc, a CRM export, or any past videos? Drop them in your Materials folder or paste them here and I'll read them so you type less."*
 
-### Phase 1 — Who you are as a leader (3 stops) → `profile.md`, `journey.md`, `strategy.md`
-**Stop 1 · The basics**
-1. Your name and your brokerage.
-2. Your market (city or region) and what you sell most.
-3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate?
-4. What are you building: a downline at a cloud brokerage, a local team, a local brokerage, or a mix?
+### Conversation 1 — Who you are as a leader (13 questions) → `profile.md`, `journey.md`, `strategy.md`
+*Who are YOU:*
+1. What's your name?
+2. What brokerage are you with?
+3. What's your local market? *(a fact — never where they attract)*
+4. What category of agent are you — solo, a team leader, or a broker owner?
+5. How long have you been a licensed real estate agent?
+6. What did you do before real estate?
+7. Why did you decide to get into real estate? What's your big WHY — creating wealth for your family, helping and impacting others, something else?
+8. Why do you want to build a revenue share organization?
 
-**Stop 2 · Your brokerage and why**
-5. When did you join your current brokerage (month and year)?
-6. Why did you *actually* join? The real reason, not the brochure: a mentor, the model, a bad experience before, a friend.
-7. If another agent asked "why are you there?", what's the one line you'd say out loud?
+*Your brokerage:*
+9. When did you join your current brokerage?
+10. What's the story behind you choosing that brokerage? Things to touch on if they apply: why you chose it over other cloud-based brokerages, whether you ignored it at first or had a bad taste about it, what changed your perspective, and what you now understand that most agents still misunderstand.
+11. Why did you select your sponsor specifically? Did they bring certain value to the table — have they built the style of business you're looking to build?
 
-**Stop 3 · Your journey and your why**
-8. Your journey in three beats: where you started, the hardest stretch, the turning point.
-9. The moment selling houses stopped being enough and you decided to build an organization ("haven't fully decided" is fine).
-10. Your WHY. The life reason behind the organization, not the money alone.
+*Your journey:*
+12. Describe your story. This one should take the longest, and talking it out loud works well here. How did you get started? Were there turning points where things started to click and you began to succeed — what happened, what did your business look like after, and what strategy helped?
+13. Tell me about the moment you realized that just selling houses and chasing the next deal for the rest of your life wasn't enough — and why you believe revenue share is the key to what you want in life, and why other agents should care.
 
-### Phase 2 — Who you attract (2 stops) → `avatars.md`
-**Stop 4 · Your niche** (the six types are shown: new agents · experienced but low production · top producers · influencers · team leaders · broker-owners)
-11. Which type of agent do you understand best, because you were one?
-12. Which type is living your "hardest stretch" right now?
-13. Who's already around you most: count the agents in your sphere by type, roughly.
-14. Geography: local only, your whole state/province, anywhere in the country, specific states?
+### Conversation 2 — Your unique approach (4 questions) → `strategy.md`, `offer.md` (seeds), `positioning.md` (the seed line)
+Opening line: *"We're not writing your offer today — that's next week. Right now I want to know what's already in your hands."*
+14. What strategies have you personally used to increase your production — or what are you extremely passionate about and would be comfortable teaching others? Cold calling, CRM, social media, AI, open houses, anything.
+15. Explain your unique strategy for using that approach. For example, do you have unique cold-calling scripts that convert, or a proven social media strategy that attracts clients?
+16. Is there any current value that your upline provides? Give me a clear breakdown of what they offer, so we can blend it with your strategies into the ultimate unique value proposition.
+17. What do you believe are the biggest mistakes agents are making right now — and why you, or them joining your brokerage, can be the solution to those problems?
 
-**Stop 5 · Your primary agent avatar** (the skill proposes a primary from Stop 4 and confirms; then)
-15. In their words, what's their biggest problem right now?
-16. What have they already tried that didn't work?
-17. What would they need to hear from you to believe you can help?
-18. Do you want a second (and third) avatar, or keep it to one for the first 90 days?
+### Conversation 3 — Your story and your proof (5 questions) → `story-bank.md`, `proof.md`, then `avatars.md` (derived, zero questions)
+18. Tell me about the moment you almost quit — and what caused you to keep going.
+19. Share any mistakes you made and what they taught you. Paying for bad leads, trying too many things at once, anything.
+20. What are your biggest achievements? Were you a top producer? Did you win any awards? Did you sell any expensive homes? Did you double or triple your production one year?
+21. Do you have any success stories of agents you've helped in the past? If yes, share them in detail.
+22. If you currently have agents in your group, why did they decide to join YOU specifically?
+Then, silently, `attraction-persona-map` DERIVES who the member's story speaks to (their former self in the hardest
+stretch · the agents whose mistakes they named · the agents who want what they can teach) and writes `avatars.md`,
+framed "your skills attract any agent; these are the agents who will relate most". **No agent-type question, no
+location or scope question, anywhere in the Brain** — the owner's ruling (`shared/attraction-doctrine.md` §9b).
 
-### Phase 3 — Your stories and your proof (2 stops) → `story-bank.md`, `proof.md`
-**Stop 6 · Story seeds** ("one line each, just give me the scene")
-19. The moment you almost quit.
-20. Your first deal, and what it taught you.
-21. A mistake that cost you something.
-22. A client story that shows how you work.
-23. A moment an agent you helped won something.
-24. Something you do that other agents in your market don't.
+### Conversation 4 — Your current and future state (4 questions) → `goals.md` (seeds)
+23. How many agents do you currently have in your revenue share organization?
+24. How many agents do you realistically want to attract in the next 12 months?
+25. What's your long-term goal — how many agents do you want to attract?
+26. How many hours per week can you fully commit to agent attraction? Content, conversations, follow-up, leading and supporting your group — all of it.
+No money math, no scenarios, no first-agent question, no scorecard; a first weekly rhythm is proposed and labelled
+"proposed"; `attraction-goals` locks the plan on demand.
 
-**Stop 7 · Proof**
-25. Wins and numbers you'd be comfortable saying out loud: deals, volume, reviews, awards ("none yet" is fine).
-26. Agents you've already helped: name, what you did, what happened.
-27. How many agents are in your organization today?
-28. Any reviews or testimonials *from agents*, not clients?
+### The voice stop — three spoken answers (one per turn) → `voice-print.md`, `voice.md`, `voice-samples.md`
+Mike: "the voice is the biggest issue" — the only way to make it accurate is story questions answered in the member's
+own voice (Adam Gillespie's method). Cowork voice input or a pasted transcript, per `shared/spoken-capture.md`; never a
+promise to transcribe an audio file; a typed answer is accepted.
+- V1. Using voice dictation, talk about why you're excited about agent attraction.
+- V2. Using voice dictation, talk about your WHY — your purpose, who you're doing this for.
+- V3. Using voice dictation, answer this: why should someone partner with you?
+`attraction-voice-print` distils the voice print; setup writes `voice.md` from the three answers plus how the member
+typed every answer, and `voice-samples.md` with the three answers verbatim.
 
-### Phase 4 — What you already have to give (2 stops) → `offer.md` (seeds only), `positioning.md` (seed line)
+### The close (0 questions)
+Write `brain.md` → stamp `config.md` → final sync + snapshot → render the Brain Book (nine sections, at most fifteen
+pages — `shared/brain-book-spec.md`) → the Project Seatbelt → the link and two lines: *"This week, in a new chat, say
+'my attraction brand direction'. Next week your lead magnet plugin builds your offer, then your lead magnet — and your
+booking link, CRM and tools are set up then."* No READY BRIEF, no open-items list, no Scorecard, no Debrief offer, no
+compliance line, no Design Package brief (the brand chat issues it).
 
-**The careful framing (user feedback 2026-10-08):** most members have NOT built an offer yet. The UVP and the Partner
-Offer are Week 2. If this phase sounds like "tell me your offer", they freeze ("I don't know what my offer is", "I haven't
-got to that part"). So the phase never uses the words offer, UVP, or value proposition as a question. It collects raw
-material, says plainly that Week 2 turns it into the offer, and branches once for the few who already have one.
+**What left setup, and where it lives now:** the brand (Stops 13–14) → `attraction-brand-direction`, the second Week 1
+chat, its direction derived from the Brain and the three voice answers · compliance (Stop 15) → `attraction-compliance`
+on demand, with the new "paste my compliance link" mode · operations and tools (Stop 16: CRM, booking link, hours,
+3-way partner, the Debrief time) → Week 2, `attraction-operations`; the booking page is built with the member by the
+Conversion plugin's `sales-booking-page` · the Daily Debrief offer → on demand and the AI Admin's Week 5 card · the
+money (Stop 11) → `attraction-rev-share-calculator` on demand, never in the Book · the targets and the Scorecard (Stop
+10) → `attraction-goals` on demand · the six story seeds (Stop 6) → Conversations 1 and 3 · the agent-type and
+geography questions (Stop 4) → gone; derived.
 
-Opening line, said before any question: *"Quick heads-up: we're NOT writing your offer today. That's Week 2, and it's a
-whole session on its own. Right now I just want to know what's already in your hands, so Week 2 has something to build from."*
-
-**Stop 8 · What worked for you** (production, not attraction)
-29. The one to three things that produced most of your buyer and seller business (open houses, YouTube, sphere, investors, relocation, a niche).
-30. For each: what it actually involved, the result you can stand behind, and could you show another agent how to do it (yes / partly / not yet)?
-31. If other agents knew you for ONE thing, what would you want it to be?
-32. What's the first thing you'd sit down and show a brand-new agent on your team? (Even "I'm not sure yet" is a real answer.)
-
-**Stop 9 · What's already around you** (one branch question first)
-33. *Branch:* "Have you already written an agent attraction offer or value proposition, maybe from a workshop or your brokerage?"
-    - **Yes →** "Paste it or describe it, and I'll keep it exactly as yours." It is stored as `offer.md` with status `finalized by member`; Week 2 then refines rather than rebuilds.
-    - **No / not sure →** "Perfect, that's exactly where most people are. Three quick ones, then we move on." Continue:
-34. What does your brokerage give every agent, as far as you know? (Rough list is fine. "Not sure yet" goes on the open-items list and the Brokerage Model Expert fills it in Week 2.)
-35. What does your upline or the group above you provide that you could point an agent to today? ("Nothing I know of" is fine.)
-36. If an agent asked "why are you there?", what's the honest one-liner you'd say right now? (Not a pitch. The thing you'd actually say.)
-
-Writes: `offer.md` with a `Status:` line that is either `seeds (Week 2 builds the offer)` or `finalized by member`, plus the
-three layers (brokerage · upline · you) as whatever was said, unpolished. The READY BRIEF names Week 2 as the next step for
-the offer and never implies it is missing. The Brain Book's offer chapter renders as "What you have to give (so far)" with
-a one-line note that the Partner Offer is built in Week 2, so nothing on the page reads as a gap they failed to fill.
-
-### Phase 5 — Your numbers (2 stops) → `goals.md`, `scorecard.md` (uses `rev-share-calculator`)
-**Stop 10 · Targets**
-37. Agents in your organization in 12 months?
-38. Who's the first agent you'd want to join, and why them?
-39. Hours per week you can give to attraction, honestly.
-40. Your 90-day target for joins (the skill proposes one from Q37 and confirms).
-
-**Stop 11 · The money, honestly**
-41. Your plan's mechanics (rev share tiers, caps, stock) or say "explain mine to me" and the model expert walks you through it.
-42. The average production of the agent you're attracting, your estimate.
-43. Your ratios, or take the defaults and adjust: conversations → calls → joins.
-*The skill then shows three scenarios (conservative / target / stretch, every number labelled illustrative) and the weekly activity it takes, and asks one question:*
-44. Does this weekly activity feel realistic? Adjust the target or the hours, not the math.
-
-### Phase 6 — How you sound and how you look (3 stops) → `voice.md`, `voice-samples.md`, `brand-visual.md` + the Design Package brief
-
-**Why this phase is bigger than the realtor version (user feedback 2026-10-08):** in this 6-week program the member builds their
-Agent Attraction Brain AND their Agent Attraction Brand in Week 1 (the realtor cohort spread brand over 10 weeks). So the brand is
-not two questions at the end; it is a three-state front door, a short direction capture, and a hand-off that produces the actual
-brand kit in Week 1 through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`). The Brain captures direction and
-inventory; Claude Design builds the visuals; nothing here is a two-week detour.
-
-**Stop 12 · Voice**
-45. Closest to how you talk: straight shooter · warm and patient · high energy · calm numbers person · helpful friend, or your own words.
-46. Three phrases you actually say.
-47. Words or vibes you never want to sound like.
-48. Paste two or three real samples (a text to an agent, a caption, an email), or talk for 60 seconds and the voice-print captures it.
-
-**Stop 13 · What you already have (the three-state front door, asked as one card)**
-49. **Logo:** do you have one today? → *I have one and I love it* (we use it exactly as-is, never redesign) · *I have one but it's not quite right* (refresh mode: change only what you flag) · *I don't have one* (we build one this week).
-50. **Colors and fonts:** do you already use specific ones? Hex codes if you know them, or "my Instagram looks like…", or "none, help me pick."
-51. **Headshots and photos:** recent professional headshots, phone photos only, or nothing usable yet? (Drop anything you have in the Brand folder.)
-52. **Leader brand vs selling brand:** is the brand agents will follow the same as the one your buyers and sellers see, or separate? (Default: one brand, your name, with a leader lane; and whatever you pick stays visually distinct from your brokerage's own colors.)
-53. **Name:** does your organization have a name, or is it just you? (Many attractors run a group name alongside their own. Both can be captured; the Design Package can build a lockup for each.)
-
-**Stop 14 · Direction (only for what Stop 13 said is missing; skipped entirely for "I love it" on every line)**
-54. Feel, in a few words: the skill proposes two or three complete directions built from their voice and avatar (for example calm-premium, bold-modern, warm-approachable) and they react, mix, or write their own.
-55. Two or three brands, creators, or leaders whose look they admire. Reference only; we never copy a look.
-56. Font direction: modern or classic, clean or bold, or a pairing to react to (names only).
-57. Tagline: two or three proposed from their one-liner and voice; pick one, tweak one, write their own, or park it.
-
-Writes `identity/brand-visual.md` with an `Inventory:` block (logo state, colors, fonts, headshots, brand name, separate-or-same) and a
-`Direction:` block (feel, references, fonts, tagline, logo direction). Then hands the member the **Design Package brief**: a
-paste-ready block for Claude Design naming the three skills to run this week in order, with the "skip `aa-logo-design` if you love your
-logo" rule, and the instruction to drop the finished kit into `02 · Brand` so the editor, the thumbnails, and every graphic read it.
-The Brain Book's brand chapter renders the direction; after the kit exists, the next regenerate shows the kit (logo, palette, type).
-`attraction-brain-health` counts "brand kit present in `02 · Brand`" as a Week 1 completeness item.
-
-### Phase 7 — Rules and tools (2 stops, Stops 15–16) → `compliance.md`, `operations.md`, `config.md`
-**Stop 15 · Compliance** (the gate every public skill reads)
-58. How your brokerage name must appear in public content, and your license display.
-59. Your brokerage's rule on marketing rev share and income: know it, or default to the strictest (no numbers in public, income disclaimer on anything that mentions earnings)?
-60. The states or provinces where you can attract agents.
-
-**Stop 16 · Tools and rhythm**
-61. Gmail and Calendar confirmed (shown, not asked). Which CRM do you use, if any?
-62. Your booking link, or your best channel today if none.
-63. Your working hours and how often you want to follow up with a prospect agent.
-64. When should the Daily Agent Attraction Debrief run (default 6 pm) and who else, if anyone, should see this workspace?
-
-### Phase 8 — Finalize (0 questions)
-Write `brain.md` → render the Brain Book and the 90-Day Scorecard → deliver the Project Seatbelt → schedule the Debrief →
-push and verify → hand them the workspace link and the READY BRIEF (who they are, who they attract, this week's activity target,
-the open items list, and the next thing to type).
-
-**Totals:** 7 phases, 16 stops, ~64 questions, ~50–60 minutes (Stop 14 is skipped for members who already have a brand they love). Week 1's on-screen video records Phases 1–6 (the brand hand-off into Claude Design is part of the demo); Phases 7–8 play in fast-forward.
-**Drafted, never asked:** signature phrases, never-say list, story titles, the "who relates to this" lines, the primary avatar proposal, the 90-day join target, the conversation ratios, the weekly activity numbers. The member corrects; they do not compose.
+**Totals:** 4 conversations + the voice stop, 26 questions + 3 spoken answers, ~29 turns, 35–45 minutes. Week 1's
+on-screen video records the whole Brain chat and the start of the brand chat.
+**Drafted, never asked:** the "who relates to this" lines, who their story speaks to, the one line out loud, what they
+want to be known for, the first lesson they'd teach, the signature lines and never-say list, the proposed weekly rhythm.
 
 ---
 
 ## 6. The deliverables the member can hold
 
-1. **📕 [Name]'s Agent Attraction Brain Book** (.docx via the shared renderer). Chapter contract, four parts:
-   - *Part I — Who you are:* Snapshot · The Leader · Your Journey (three beats, each with "who relates to this") · Your Story Bank (table)
-   - *Part II — Who you attract:* Your Agent Avatars · Your Market's Agent Landscape (researched, cited) · Where They Gather
-   - *Part III — What you offer:* Your Model, Positioned · Your Offer (value stack vs the five pains) · The Money, Honestly (three scenarios, illustrative) · Your Proof
-   - *Part IV — How you win:* Your 12-Month and 90-Day Plan · Your Weekly Activity · Your Content Pillars · How You Operate · Compliance
-   Grounding laws, demo mode, verification gate, and capped retry loops carry over from `brain-book-spec.md` unchanged.
-2. **🎯 [Name]'s 90-Day Attraction Scorecard** (.docx + the live `scorecard.md` the debrief updates).
+1. **📕 [Name]'s Agent Attraction Brain Book** (.docx via the shared renderer) — rewritten 2026-11-02 on the owner's
+   verdict ("way too long, overwhelming, not structured"): **nine sections, at most fifteen pages, floors of 150–400
+   words**, plain tone, short paragraphs, tables where they help — 1 Who you are (the at-a-glance table) · 2 Your story
+   · 3 Your brokerage story · 4 Your unique approach (the UVP seeds Week 2 builds from) · 5 Your proof · 6 Who your
+   story speaks to (derived) · 7 Your numbers (today, 12 months, long term, hours; no money math) · 8 Your voice (the
+   three dictated answers distilled) · 9 What's next (the brand chat this week, the UVP and lead magnet next week).
+   No money chapter, no compliance, no operations, no scorecard, no open-items wall, no content pillars, no landscape
+   research. The grounding laws, demo mode, verification gate and capped retry loops stay, rewritten for the nine
+   sections (`brain-book-spec.md`).
+2. **🎯 [Name]'s 90-Day Attraction Scorecard** (.docx + the live `scorecard.md` the debrief updates) — on demand from
+   `attraction-goals` ("set my attraction goals"), no longer a setup deliverable.
 3. **The workspace** (`Agent Attraction OS/`): `01 · AI Brain` · `02 · Brand` · `03 · Content` (Long-Form / Short-Form / Graphics / Guides) ·
    `04 · Agents` (Prospects / My Organization) · `05 · Offer` (onboarding docs, teach-first lessons, value-stack sheet) · `06 · Materials`.
-4. **The Daily Debrief** running tomorrow morning.
-5. **The Agent Attraction Brand Kit** (logo, style sheet, profile and banner graphics) built the same week through the Design Package, saved in `02 · Brand`. *(The Week 2 breakdown currently lists the brand build as Week 2 homework; per the user on 2026-10-08, brain + brand both land in Week 1, so the three Design Package skills ship with the Brain by Oct 30.)*
+4. **The Daily Debrief** — switched on whenever the member says "turn on my daily debrief" (or from the AI Admin's Week 5 card); never offered at setup.
+5. **The Agent Attraction Brand Kit** (logo, style sheet, profile and banner graphics) built the same week through the Design Package, saved in `02 · Brand` — from the Design Package brief the second Week 1 chat (`attraction-brand-direction`) issues. *(Brain in one chat, brand in a second — the owner, 2026-11-02; both land in Week 1.)*
 
 ---
 

@@ -50,9 +50,9 @@ plugin never reads or writes it.
 | `identity/proof.md` | real proof only — agents helped (with consent), organization today, upline proof labeled as the upline's |
 | `identity/compliance.md` | the 3-state gate; brokerage name, license display, disclaimer, the compensation marketing policy, recruiting scope, testimonial consent |
 | `identity/brand-visual.md` | the final kit (logo, colors, fonts, headshot) for the `lm-design` brief; tagline |
-| `identity/voice.md` · `voice-samples.md` · `voice-print.md` | written voice for every deliverable; spoken voice for the welcome-video beats |
-| `identity/story-bank.md` | real stories tagged by type of agent and pain (the switch story, the mirror beat) |
-| `identity/profile.md` · `identity/journey.md` · `identity/operations.md` | name, brokerage, model type, booking link, socials; the journey beats; follow-up cadence, email signature, CRM |
+| `identity/voice.md` · `voice-samples.md` · `voice-print.md` | written voice for every deliverable; spoken voice for the welcome-video steps |
+| `identity/story-bank.md` | real stories tagged by type of agent and pain (the switch story, the mirror moment) |
+| `identity/profile.md` · `identity/journey.md` · `identity/operations.md` | name, brokerage, model type, booking link, socials; the journey's turning points; follow-up cadence, email signature, CRM |
 | `identity/brokerage-model.md` | the member's OWN plan, from their materials, cited — the "my model" facts when the chosen shape cites model facts (a comparison guide, a questions guide); empty = researched on demand; say so |
 | `identity/strategy.md` · `identity/goals.md` | what worked and the "Teach it" flags (a system guide, a mini-course); the ratios that become a plan's activity targets (never income) — both read-only |
 | `memory/objections.md` · `memory/ideas.md` (`leadmagnet` tag) · `memory/top-50.md` (counts only) | magnet ideas and FAQ material; captured ideas come first; who is in conversation |

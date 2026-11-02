@@ -15,7 +15,7 @@ The most-shared post a leader can make, and the one that goes wrong most often. 
 Structure (8–9 slides):
 1. **Cover** — the moment in the agent's words: *"I almost quit real estate in year 3."* / *"My best year ever —
    and January 1st it reset to zero."*
-2. **Where I was** — the beat from `journey.md` "where they started", specific.
+2. **Where I was** — the moment from `journey.md` "where they started", specific.
 3. **The wall** — "the hardest stretch", one slide, the true detail.
 4. **What I believed then** — the belief that kept them stuck (this is what the reader believes now).
 5. **The turn** — what changed, what they decided.

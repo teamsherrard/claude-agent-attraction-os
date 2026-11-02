@@ -15,7 +15,7 @@ to do. Judged against the attraction doctrine, always through to **agent convers
 | Retention graph | "where people leave" | Studio only. A cliff at 0:30 = the opening; a slow slide = the middle drags. |
 | Traffic sources | "how people found you" | Studio only. Search vs browse vs suggested — is the search strategy working? |
 | Search terms | "what people typed to find you" | Studio only. Free keyword research; terms you don't own yet = new videos. |
-| Demographics / geography | "who's watching" | Studio only. Top locations — inside the states or provinces the member can attract in? Never a protected characteristic in advice. |
+| Demographics / geography | "who's watching" | Studio only. Top locations — are these licensed agents? (Reach is anywhere; licensing notes only, as compliance.md's recruiting-scope line states.) Never a protected characteristic in advice. |
 | Subscribers gained | "new subscribers" | Trust at scale — only worth what it turns into. Not the number to chase. |
 | Comments / comment rate | "comments" · "comments per 100 views" | People talking back. Questions = free video ideas; an agent showing intent = a prospect in public. |
 | Likes | "likes" | Mild approval. Rarely decides anything. |
@@ -40,7 +40,7 @@ to do. Judged against the attraction doctrine, always through to **agent convers
 | **Retention graph** | Studio pack | *Where* they leave. | Cut what's before the cliff; open on the viewer's question, never "welcome back." |
 | **Traffic sources** | Studio pack | Search vs browse vs suggested — are agents finding you through search? | Little search traffic = titles aren't matching real queries; check the titles against what agents type. |
 | **Search terms** | Studio pack | Free keyword research. | Terms are consumer searches → titles are off for agents; agent terms you don't own yet → new video ideas. |
-| **Demographics / geography** | Studio pack | Are these licensed agents in the places the member can attract? | A consumer-heavy audience → topics drifted toward buyers and sellers; back to agent questions (the five pains, the model, interviews). |
+| **Demographics / geography** | Studio pack | Are these licensed agents? (Reach is anywhere — licensing notes only, as compliance.md's recruiting-scope line states.) | A consumer-heavy audience → topics drifted toward buyers and sellers; back to agent questions (the five pains, the model, interviews). |
 | **Packaging audit** (title gates · description top · chapters · captions · publish time) | live (recipe 1) | Is each video dressed to be found and clicked? | Fix in this order: title → description top → chapters → captions. Publish at the best day/hour. |
 | **Comments** | live (may be blocked) / screenshots | Engagement + questions = free ideation + leads in public. | No question asked; no pinned comment; the ask didn't invite conversation. |
 | **Search rank / AI presence** | live (recipe 7) | Do you show up when someone looks? | The phrase isn't in a title; the About page doesn't say who you help; no Explained video for your brokerage. |

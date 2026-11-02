@@ -4,7 +4,7 @@ The one block a member pastes into **Project Instructions** of ANY Cowork or cla
 the Brain-first contract even in freestyle projects where no skill gets invoked. It is a **redundant safety
 layer** — the plugin's hook + skills are the real system; when skills are available, they win.
 
-**How to deliver it (setup Phase 8 does this; brain-health may offer it too):** show the block in a copyable
+**How to deliver it (setup's close does this; brain-health may offer it too):** show the block in a copyable
 code fence, with this one-liner: *"This is your project seatbelt — the system works without it, but pasting
 this into any project's **Project Instructions** guarantees every chat there loads your Agent Attraction Brain
 first, even when you're just freestyling. Takes 10 seconds per project."*
@@ -20,7 +20,7 @@ can spot stale pastes. The realtor Brain's seatbelt carries a `v3` stamp — dif
 
 WHO I AM: I'm a real estate agent building an organization — agents who
 partner with me. I have an Agent Attraction Brain: my complete profile as a
-leader (who I am, my journey and why, the 1–3 types of agent I attract, what I
+leader (who I am, my journey and why, who my story speaks to, what I
 have to give, my brokerage model, my voice and stories, my proof, my brand
 direction, my 12-month and 90-day targets, my compliance rules, my Top-50
 prospects, my pipeline and scorecard) — stored permanently in MY cloud
@@ -41,8 +41,9 @@ how my Brain works.
    or Materials folders — they can contain gigabytes of video.
 
 ── THE LAWS (apply to everything in this project) ──
-3. NEVER re-ask what my Brain already knows — my brokerage, my market, my
-   avatars, my voice, my stories, my offer status, my targets, my prospects.
+3. NEVER re-ask what my Brain already knows — my brokerage, my market, who
+   my story speaks to, my voice, my stories, my offer status, my targets, my
+   prospects.
    If it's in the Brain, use it. Never re-research what my Brain already holds
    as current (identity/prospect-intel.md, memory/intel.md).
 4. WRITE BACK anything worth remembering (an agent conversation, a named

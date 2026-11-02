@@ -14,8 +14,9 @@ Partner Offer doc never may.
 ```
 # Offer — [Member first name]
 Status: finalized by member · [YYYY-MM-DD]
-(Setup writes `Status: seeds (Week 2 builds the offer)` or `Status: finalized by member` from Stop 9's
-branch; this skill flips seeds to finalized once the member has reacted. Readers key on this line.)
+(Setup writes `Status: seeds (Week 2 builds the offer)` — or `Status: finalized by member` when the member
+already had a written offer and said so in Conversation 2; this skill flips seeds to finalized once the
+member has reacted. Readers key on this line.)
 Offer name: [the name in use] · Program name: [the same name — the program and the offer share one name] · Program type: [one of six: partnership program · mentorship program · coaching program · accelerator · course plus community · team system] · Comment keyword: [ONEWORD]
 Primary avatar: [one-line target from avatars.md]
 
@@ -113,8 +114,9 @@ Lead-magnet seed: [which framework step the free magnet is cut from, and why it 
 (appended by attraction-capture — positioning notes and new angles, dated; never rewrites the sections above)
 
 ## Raw material from setup (kept; never deleted)
-What worked: … · Teach it: … · Known for: … · First thing I'd show: … · Brokerage gives: … · Upline
-gives: … · Why I'm here (one line): …
+What worked (the strategies and the unique method): … · Teach it: … · Known for: … · First thing I'd show
+(drafted): … · Brokerage gives: [not asked at setup — the Model Expert] · Upline gives: … · The mistakes
+agents are making: … · Why my agents joined me: … · Why I'm here (one line, drafted): …
 
 ## Open items
 • … (each with the skill that closes it)

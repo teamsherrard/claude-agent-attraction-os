@@ -1,6 +1,6 @@
 # Format Playbooks — the four attraction formats + the interview intro and outro
 
-Each playbook fixes the beats, the length, the hook formulas that fit (doctrine §9, numbered 1–7), what to pull
+Each playbook fixes the steps, the length, the hook formulas that fit (doctrine §9, numbered 1–7), what to pull
 from the Brain, and the lines that never appear. The page layout is `script-format.md`; the structure every
 format sits inside is doctrine §8 (hook → resource CTA → value → call CTA → payoff → next video). The vault does
 not name these four formats — the cohort plan does; their content is grounded in `08-youtube/92, 93 (draft), 94, 96`
@@ -11,11 +11,11 @@ not name these four formats — the cohort plan does; their content is grounded 
 ## 1. Why I Switched  (bucket: Situation · pillar in the log: Authority, Story angle · 8–12 min)
 *The video that brought Mike his first 30 agents in 30 days (`/92`). The member's own move, told as the wall
 they hit — never as the company they left.*
-- **Pull:** `journey.md` (the three beats: where they started · the hardest stretch · the turning point; the
+- **Pull:** `journey.md` (the three turning points: where they started · the hardest stretch · the turning point; the
   `## Why join me` block if Week 2 wrote it) · `story-bank.md` (the moment they almost quit, the first win after)
   · `proof.md` (what changed, with real lines) · `offer.md` (what they now give agents) · `avatars.md` (who this
   is for — the agent standing where they stood).
-- **Beats:** the wall (the specific frustration — one of the five pains, in their words) → what they went looking
+- **Steps:** the wall (the specific frustration — one of the five pains, in their words) → what they went looking
   for (support, a path past "sell more houses," modern systems, community) → the decision and the fear around it
   → what actually changed since (habits, support, results they can state honestly) → what they would tell
   themselves a year earlier → the invite.
@@ -35,7 +35,7 @@ they hit — never as the company they left.*
   answers; the hidden fear) · `offer.md` and `strategy.md` (the member's actual method — the framework's steps, `## The framework`, once the
   offer is built) · `story-bank.md` (a
   story that proves the point) · `proof.md` (an agent who did it, with consent).
-- **Beats:** name the pain and the agent who has it → why it keeps happening (the honest diagnosis, no blame)
+- **Steps:** name the pain and the agent who has it → why it keeps happening (the honest diagnosis, no blame)
   → the 3–5 moves, each with what · why · how → the story or the agent's win that shows it works → the one thing
   to do this week → the invite for help applying it.
 - **Hooks that fit:** formula 1 ("why most agents can't… and how to be the exception"), formula 2 ("the N
@@ -51,7 +51,7 @@ they hit — never as the company they left.*
 - **Pull:** `brokerage-model.md` (mechanics as the member's materials state them, dated) · the Brain plugin's
   `shared/brokerage-models.md` · `memory/intel.md` (dated changes) · `objections.md` (the myths and fears agents
   raise) · `positioning.md` (positioned, not pitched) · `offer.md` (the value proposition that fills the gaps).
-- **Beats (Mike's structure, `/96`):** overview and positioning (brief history, who it's built for) → how
+- **Steps (Mike's structure, `/96`):** overview and positioning (brief history, who it's built for) → how
   compensation is *structured* (the categories — splits, caps, fees — as concepts, **no figures**) → tools and
   technology (what's included; the gaps — and how the member's value proposition fills them) → support and
   training → opportunities beyond closings (rev share, equity, leadership — the concepts, what they are for, **no
@@ -77,7 +77,7 @@ search, they find you" (`/93`, draft). The Future bucket when it points at lever
 - **Pull:** `strategy.md` (known for) · `offer.md` (the method, the systems — the named framework and its steps once the offer is built; its
   one-line version is the hook) · `proof.md` (results from the
   method — the member's own, labeled as theirs, or an agent's with consent) · `story-bank.md` · `avatars.md`.
-- **Beats:** the outcome and who it's for → the method, step by step (the exact system the member uses — enough
+- **Steps:** the outcome and who it's for → the method, step by step (the exact system the member uses — enough
   to act on today) → the case study woven in ("this is legit": an agent who used it, or the member's own numbers
   stated honestly as production facts — only where `compliance.md`'s rev-share/income policy line allows production
   figures, the member's own and cited, never in the title by default, never income promises) → the mistakes that
@@ -97,12 +97,12 @@ member now knows are coming (`/95`). `yt-interview` owns the guest list, the que
 distribution ask; this playbook writes only the two spoken pieces.*
 - **Pull:** `memory/interview-pipeline.md` (the guest's transformation in their words, type, consent) ·
   `proof.md` · the recording notes (the two or three moments that landed).
-- **Intro beats (recorded last):** the transformation as the title promises it ("How [guest] [outcome]
+- **Intro steps (recorded last):** the transformation as the title promises it ("How [guest] [outcome]
   [constraint]") → who this is for ("if you're [avatar situation], this one's for you") → two or three specific
   things coming ("the exact [method], what the first 30 days actually looked like, the mistake that almost
   stopped them") → edify the guest in one honest line (`03-model-positioning/17`: recognition is retention) →
   the resource CTA in one breath → "let's get into it."
-- **Outro beats:** thank the guest and name the one thing to take from them → the **joint casual CTA** (`/95`):
+- **Outro steps:** thank the guest and name the one thing to take from them → the **joint casual CTA** (`/95`):
   "if you want to know exactly how [guest] did this and get their support and mine for free, click the link in
   the description and book a private call" → the next video (another interview on the same pain, or the model
   explained) → the end screen.

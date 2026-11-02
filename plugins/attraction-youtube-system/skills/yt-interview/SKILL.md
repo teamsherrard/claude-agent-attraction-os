@@ -74,13 +74,13 @@ title (`97`) — hand the packaging to `yt-thumbnail` after the recording.
 ## Step 4 — The question set, by guest type (the structure — `08-youtube/95`)
 Mike does not script questions; he knows the outcome and guides in real time. Give the member the outcome
 sentence ("by the end, a [avatar] watching should believe [X]") plus a short set they can glance at. Every
-set covers the five beats, in any order: **backstory** (what business was like before) · **the shift** (what
+set covers the five steps, in any order: **backstory** (what business was like before) · **the shift** (what
 made them decide to move, what the hesitation was) · **the experience** (what it has been like since
 partnering — support, training, community, in their words) · **the results** (outcomes: freedom, income
 category, support — never a dollar figure the guest did not volunteer, and any figure labeled as theirs) ·
 **advice** (for an agent in the same spot).
 
-Add the type-specific beats:
+Add the type-specific steps:
 - **New agent:** the first-30-days routine; what they would tell a licensing-class friend.
 - **Turnaround:** what was missing before (no names, no blame — the cardinal rules apply to the GUEST'S
   answers too; if they trash a brokerage or a person, the member redirects on camera and that part is cut).

@@ -56,7 +56,7 @@ clear: *"Who's this for — your main type of agent, or a specific person?"* **Y
 4. **The story** — one, from the story bank, the one that mirrors them.
 5. **Close with confidence** — assume the close; the transition-date question; what happens next
    (`bonus/perfect-presentation` step 4).
-Each beat with **Say it like this:** and the line. Production pain → no rev share in the outline; exit or
+Each step with **Say it like this:** and the line. Production pain → no rev share in the outline; exit or
 time-freedom pain → residual income as the vehicle, numbers from the member's materials, labeled, never projected.
 
 ## The one-pager (copy, then design)

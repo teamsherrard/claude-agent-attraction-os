@@ -138,10 +138,10 @@ These mechanics are Mike's short-form frameworks carried over from his realtor s
 the attraction-specific pieces cite their lesson.
 - **Structure — Hook · Value · CTA.** About three seconds to earn the next three. The hook is a bold, specific
   line — **never "stop scrolling" / "don't scroll"** (it reads as desperate). Value is clean and structured
-  (a list, a beat sequence, a story with a point). The CTA is one rung of the ladder (§8).
+  (a list, a step sequence, a story with a point). The CTA is one rung of the ladder (§8).
 - **Length — 30–60 seconds** for an attraction Reel (Week 3 doc; `sf-talkinghead` default). Tighter is fine
   for a single take; longer belongs on YouTube.
-- **Raw beats polished.** "What people want is the more raw, genuine, authentic type content"; the
+- **Raw is better than polished.** "What people want is the more raw, genuine, authentic type content"; the
   sensory-overload editing style of 2021–23 "doesn't work really much anymore" (`07-instagram/90`). Keep editing
   simple; captions are the only mandatory edit; vertical, phone-filmed, one person.
 - **One video, every short-form platform.** Post the Instagram Reel to TikTok, YouTube Shorts, and Facebook
@@ -299,7 +299,7 @@ banned. A skill asked to "call out" a brokerage or a person says so in one line 
 
 ## 12. Coaching answers (advise exactly like this when the member asks)
 - **How often should I post?** Three to five Reels a week, working up to five (`07/88`); stories every single
-  day, one to five (`07/89`). Consistency beats production quality (`07/90`).
+  day, one to five (`07/89`). Consistency outranks production quality (`07/90`).
 - **Which platform?** Instagram Reels first — "the platform most people are on… put a lot of emphasis on it"
   (`07/88`); repost every Reel to TikTok, YouTube Shorts, and Facebook Reels (`07/90`). LinkedIn for team leaders
   and broker-owners (carousel document posts). YouTube is the long-form engine (Week 4).

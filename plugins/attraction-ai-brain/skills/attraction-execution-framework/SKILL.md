@@ -160,8 +160,8 @@ Accountability: [name]
 ## Standing call / three-way path
 [what exists today, or "not yet — Week 6"]
 ```
-Write it, then `attraction-brain-sync` (PUSH) immediately and verify. The Book renders this as *Your
-12-Month and 90-Day Plan* and *Your Weekly Activity* in Part IV.
+Write it, then `attraction-brain-sync` (PUSH) immediately and verify. The Brain Book does not carry it; the
+rendered Execution Framework document (below) is where the member reads it.
 
 ## Render the doc (optional, on request or at a quarterly refresh)
 "📈 [Name]'s 12-Month Execution Framework — [YYYY-MM-DD]" per

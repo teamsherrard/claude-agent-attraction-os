@@ -4,22 +4,30 @@
 `aa-ideal-agent-profile` method. Read by `attraction-persona-map`, `attraction-top-50`, `attraction-story-bank`,
 `attraction-prospect-radar`, and every content skill that speaks to an avatar. Cite as `module/lesson`.*
 
-*Say "type of agent" to the member — never "persona", "avatar", or "tier" out loud. Targeting is by career
-stage, production, business model, and mindset — never age, family status, or any protected characteristic.
-A type is a TYPE, never a location: at a cloud brokerage the member can partner with an agent anywhere they are
-licensed to attract (`compliance.md` → recruiting scope).*
+*Say "the agents who relate to you" or "type of agent" to the member — never "persona", "avatar", or "tier" out
+loud. Targeting is by career stage, production, business model, and mindset — never age, family status, or any
+protected characteristic. A type is a TYPE, never a location: at a cloud brokerage the member partners with an
+agent anywhere; where they attract is never asked (`attraction-doctrine.md` §9b).*
 
 ---
 
-## 1. The method (how the Brain picks who the member attracts)
+## 1. The method (how the Brain works out who the member's story speaks to — derived, never chosen)
 
+0. **Derived, never selected (the owner's ruling, 2026-11-02 — `attraction-doctrine.md` §9b).** The member is
+   never asked which type of agent they attract; the Brain reads it from their answers — the hardest stretch of
+   their story, the almost-quit moment, the mistakes they named agents making, the strategy they can teach, the
+   agents they have already helped — and writes `avatars.md` framed "your skills attract any agent; these are
+   the agents who will relate most". The types below are the vocabulary the Brain names with; they are never a
+   menu. And a type is never a place: where the member attracts is never asked (a cloud brokerage attracts
+   anywhere).
 1. **The mirror principle** (`04-value-proposition/27`: you are most qualified to help the person you used to be;
    `02-prospect-targeting/21`: "you attract the type of person that you are"). The member's ideal agent is
    usually living the member's hardest stretch right now, two or three years behind them on the same road. A
    newer member with little production history attracts by shared vision and stage instead.
-2. **One primary type, at most two secondary.** Never "all of the above" — a profile that fits everyone attracts
+2. **One primary group, at most two secondary.** Never "all of the above" — a profile that fits everyone attracts
    no one. Mike's progression: new agents first (volume, reps, the foundation), then work up to top producers,
-   team leaders, and brokers (`02-prospect-targeting/23`).
+   team leaders, and brokers (`02-prospect-targeting/23`) — which is exactly why the Brain derives the first
+   group from the member's own road instead of letting them reach for the biggest-sounding type.
 3. **The relatability test, in order:** would this agent recognize themselves in the member's journey? Would the
    member's "what worked" strategies solve this agent's biggest problem right now? Could the member credibly
    help them — mentor if a few years ahead, build alongside if at the same stage (never "out-earn them")? Any

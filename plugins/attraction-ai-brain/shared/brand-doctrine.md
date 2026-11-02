@@ -24,9 +24,9 @@ producer, or have years of experience" — your experience is your differentiato
 and in the beginning your upline's value proposition is part of your authority.
 
 **How the Brain uses it:** a thin brand is usually missing **Authority** (nothing teachable yet — say so and make
-it smaller and honest: "learning in public") or **Relatability** (no human story — push on the journey beats).
-The Book's brand chapter names all three. The relatability test in `persona-doctrine.md` §1 is this formula
-applied to the avatar.
+it smaller and honest: "learning in public") or **Relatability** (no human story — push on the story's turning
+points). The brand chat's Creative direction names all three in its tests line. The relatability test in
+`persona-doctrine.md` §1 is this formula applied to the agents who relate.
 
 ---
 
@@ -73,7 +73,7 @@ vehicles to communicate your brand"* · built on authenticity (personality as di
 
 ---
 
-## 4. Leader brand vs. selling brand (Setup Stop 13, Q52)
+## 4. Leader brand vs. selling brand (the brand chat's inventory)
 
 Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 - **One brand, the member's name, with a leader lane (default).** Buyers and sellers and agents see the same
@@ -84,7 +84,7 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
   brand that would confuse agents, or runs a named organization.
 
 **Rules that hold in both shapes:**
-- The leader brand stays **visually distinct from the brokerage's own colors** (plan, Stop 13): the member is
+- The leader brand stays **visually distinct from the brokerage's own colors** (plan, the brand chat): the member is
   attracting to themselves, not to a logo, and agents comparing sponsors inside one brokerage need to tell them
   apart. Distinct does not mean hidden — the brokerage mark appears exactly as `compliance.md` requires.
 - A **named organization** (Mike's is the Wolfpack) can carry its own lockup alongside the member's name; the
@@ -97,30 +97,34 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 ## 5. Scope boundary — the Brain captures, the Design Studio builds
 
 - **The Brain owns direction and inventory:** `brand-visual.md` (Inventory + Direction + the Creative direction +
-  the Design Package brief), the voice, the story, the avatar. It never designs. **It asks the member at most ONE
-  plain question** — *"In a sentence, how should your brand feel to the agents you attract? And name two or three
-  people or brands whose look you like."* — skipped when the Brain already holds both; the member can upload
-  examples instead of describing anything (*"Drop anything you have made before, your current Instagram, a logo,
-  or screenshots of brands you admire into your Brand HQ project in Claude Design; the design skills study them
-  for direction and never copy."*). Then the Brain DERIVES the Creative direction (mood · energy 1–5 · type
-  temperature · the colour story in plain names · the photo treatment · three motifs from the member's own story
-  · the avoid list · three reference recipes from the house style looks in §7) from what it already holds —
-  `voice.md`, `avatars.md`, `journey.md`, `positioning.md` or the known-for line, `strategy.md` — and the one
-  answer; the member reacts in one message. No texture questions, no design vocabulary out loud.
+  the Design Package brief), the voice, the story, the avatar. It never designs. **The brand is its own chat in
+  Week 1** ("my attraction brand direction"), run after the Brain is built — exactly as the current cohort did it
+  (the owner's ruling, 2026-11-02: Brain in one chat, brand in a second). **It asks the member nothing about the
+  feel.** The direction is DERIVED from the Brain and the three spoken answers the member gave at setup (how they
+  talk is how their brand should feel — "solved using voice mode"); the member is asked only what already exists
+  (logo · colours and fonts · headshots · one brand or a separate leader brand · the organization's name), one
+  plain question at a time, and can upload examples instead of describing anything (*"Drop anything you have made
+  before, your current Instagram, a logo, or screenshots of brands you admire into your Brand HQ project in
+  Claude Design; the design skills study them for direction and never copy."*). Then the Brain DERIVES the
+  Creative direction (mood · energy 1–5 · type temperature · the colour story in plain names · the photo treatment
+  · three motifs from the member's own story · the avoid list · three reference recipes from the house style looks
+  in §7) from what it already holds — `voice-print.md`, `voice.md`, `voice-samples.md` (the three spoken answers),
+  `avatars.md`, `journey.md`, `positioning.md` or the known-for line, `strategy.md` — and the member reacts in one
+  message. No texture questions, no design vocabulary out loud.
 - **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 1 Design Package is `aa-logo-design` →
   `aa-style-sheet-design` → `aa-brand-kit-design`, in that order, with the skip rule — **skip `aa-logo-design` when the member loves their
   logo as-is; refresh mode changes only what they flagged**. The finished kit is dropped into `02 · Brand`, and
   the editor, the thumbnails, and every graphic read it from there. The Design Studio reads the Brain through the
-  uploaded Brain Book ("the AI Brain file", `shared/brain-doc.md`) plus `brand-visual.md`, `offer.md`,
-  `positioning.md`, `avatars.md`, `proof.md`.
+  uploaded Brain Book ("the AI Brain file", `shared/brain-doc.md` — who the member is) plus the Design Package
+  brief (the brand) and, from Week 2, the Partner Offer document (the offer).
 - **Content execution** (pillars, cadence, hooks, formats) belongs to the Short-Form and YouTube plugins; this
   file never prescribes a posting mix.
 - **Hand-off:** `attraction-brand-direction` ends by handing the member the paste-ready Design Package brief and
   the one instruction: run the three skills this week, drop the kit into `02 · Brand`, then say "show me my
   Brain" so the Book shows the kit. **The brief is never printed once and lost:** it is saved to `02 · Brand`
   through the storage connector as `Design Package Brief · [Name] · [date].md` (newest = current), kept verbatim
-  in `brand-visual.md` under `## Design Package brief`, printed again in full as the last thing Setup's Finalize
-  says, and reprinted any time by "show my design package brief" (or "my design brief").
+  in `brand-visual.md` under `## Design Package brief`, printed in full as the last thing the brand chat says, and
+  reprinted any time by "show my design package brief" (or "my design brief").
 
 ---
 
@@ -134,9 +138,10 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 - Never invent a niche or a tagline the member rejects; propose, explain why, let them decide
   (`shared/ask-once-default.md`).
 - Nothing visual is "built" by the Brain — it is directed here and built in the Design Studio.
-- The brand direction costs the member ONE plain question at most; everything else is derived and confirmed.
-  Never ask about textures, finishes, grids, or looks by name; the Brain names the three reference recipes in
-  plain words and the style sheet locks one.
+- The brand direction costs the member no feel question at all — it is derived from how they talk (the three
+  spoken answers) and confirmed in one message; the only questions are the inventory of what exists, one at a
+  time. Never ask about textures, finishes, grids, or looks by name; the Brain names the three reference recipes
+  in plain words and the style sheet locks one.
 
 ---
 

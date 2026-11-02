@@ -57,7 +57,7 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
 - `identity/proof.md` — real proof only (agents helped, consent on file; upline proof labeled as the upline's).
   The hook's number, the opening page's one proof line, the closing page's `Proof:` all come from here or
   nowhere.
-- `identity/story-bank.md` + `identity/journey.md` — the opening story and the mirror beat.
+- `identity/story-bank.md` + `identity/journey.md` — the opening story and the mirror moment.
 - `identity/voice.md` + `identity/voice-samples.md` — write it in their real voice.
 - `identity/profile.md` + `identity/operations.md` — name, brokerage (as compliance requires it), booking
   link, the call's length and where, social handles, email, phone, website (the back page).
@@ -82,7 +82,7 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
   fairness, citation, and dating rules · the mini-course outline · the decision and proof shapes: the math
   worksheet, the consented case-study breakdown, the 5-day challenge — each mapped onto the architecture).
 - `${CLAUDE_PLUGIN_ROOT}/shared/copywriting-kb.md` — **Part One, "The document"**: hooks for a guide and the
-  hook test, the opening page, the body-page beat, transitions, the next-steps page, the ending that earns
+  hook test, the opening page, the body-page shape, transitions, the next-steps page, the ending that earns
   the call, the three calls to action, the tests every page passes, the banned filler list, the reading-level
   rule.
 - `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §5 — the Lead Magnet doc grammar and **"The labels"** (the
@@ -141,7 +141,7 @@ never a `[` bracket token. The parts, in order:
    "verify current" line sits here. It ends with `How to use this:` — two `•` lines. Optional: `Pull quote:`,
    `Image idea:`.
 3. **The body pages — `── PAGE 2 ──` to at most `── PAGE 9 ──`, 4 to 8 of them, 180 to 350 words each.** The
-   shape's pages from the reference, each carrying ONE idea and the same beat: a plain, specific title · the
+   shape's pages from the reference, each carrying ONE idea and the same shape: a plain, specific title · the
    idea in a sentence · the how — the steps, the script word for word (`Script:`), the template rows
    (`Template rows:`, `____` for a blank), the sheet, the checklist (`Checklist:`, 3–7 items) · a real example
    from the member's own routine, including the mistake most agents make at this step · `Next step:` — the

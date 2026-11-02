@@ -2,7 +2,7 @@
 
 **Applies the attraction doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`): §8 the
 structure, §9 the title and thumbnail promise the hook must match, §10 the two warm CTAs, §15 what never goes
-public. The beats per format live in `format-playbooks.md`; this file is how the script looks on the page.
+public. The steps per format live in `format-playbooks.md`; this file is how the script looks on the page.
 
 ## Keep it tight (not a 10-page essay)
 - **~140 spoken words per minute.** Default 10–15 min ≈ 1,400–2,100 words; Why I Switched 8–12 min; Model
@@ -15,7 +15,7 @@ public. The beats per format live in `format-playbooks.md`; this file is how the
 ## Verified facts only (never false on camera)
 - Only facts with a source: `(source, date)` tags the member does not read aloud. A brokerage fact cites the
   member's materials or the brokerage's own page, dated. An agent's result cites `proof.md` with consent.
-- Anything unverifiable → `[double-check before filming]`, never a guess. Ranges and principles beat invented precision.
+- Anything unverifiable → `[double-check before filming]`, never a guess. Ranges and principles outrank invented precision.
 - **Never a compensation figure, rev-share tier, stock number, or income claim** — the call carries numbers.
 
 ## Long-form structure (the content ORDER; `shared/doc-format.md` is the look)
@@ -36,7 +36,7 @@ Runtime ~{N} min  ·  For: {avatar}  ·  Bucket: {Problem / Situation / Future /
 {Spoken lines; bullets for lists. What they need to know · why it matters · what to do. A real story or an
  agent's win where it lands. Facts tagged (source, date).}
 
-[SECTION 2 …] [SECTION 3 …]   (3–5 sections — enough to deliver, never to pad; the beats per format in format-playbooks.md)
+[SECTION 2 …] [SECTION 3 …]   (3–5 sections — enough to deliver, never to pad; the steps per format in format-playbooks.md)
 
 [CALL CTA — ~1/3 to 1/2 in]
 >> on-screen: Book a private call · link in the description

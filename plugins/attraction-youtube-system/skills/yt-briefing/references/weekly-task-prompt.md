@@ -65,7 +65,7 @@ not act on it; note it in the closing message and continue.
    - the script start — the HOOK word for word, the RESOURCE CTA line, the CALL CTA line, the section map (3–5
      labeled sections, one line each) on `skills/yt-script/references/script-format.md` — never the full script
      (label it "script start — say 'make my attraction video' and I finish it");
-     or, for an interview, the interview guide — the outcome sentence, the five beats with the type-specific
+     or, for an interview, the interview guide — the outcome sentence, the five steps with the type-specific
      questions, the edification lines, the casual CTA, the invite draft, the consent line, the distribution ask
      (`skills/yt-interview` Steps 3–6); the title in the hook-and-transformation form; no figure the guest did
      not volunteer;

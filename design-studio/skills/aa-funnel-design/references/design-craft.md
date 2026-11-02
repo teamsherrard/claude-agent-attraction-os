@@ -19,7 +19,7 @@ sceptical, and tired of sponsors.
   spacing is the #1 amateur tell.
 - **Section rhythm — alternate, don't repeat.** Adjacent sections carry different grounds (the Design
   System's light tint → paper → the dark anchor or the brand colour → the tint) so each reads as its own
-  beat; two-column blocks alternate image-left / image-right. Every section gets an eyebrow + the doc's
+  section; two-column blocks alternate image-left / image-right. Every section gets an eyebrow + the doc's
   `Headline:` — never a headline of your own.
 - **Colour discipline (60/30/10).** ~60% the light ground, ~30% the brand colour and tints, ~10% the
   accent — reserved for the CTAs, the eyebrows, and key highlights so the buttons truly pop. Text is
@@ -59,7 +59,7 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
   Never repeat one photo to fill space.
 - **Use ONLY the member's uploaded photos for realistic imagery — never fabricate it.** This tool can't
   fetch stock or render believable photos; with none, design with brand fields, gradients, the pattern,
-  the logo, and the headshot cut-out. A clean brand-colour layout always beats a fake-looking crowd.
+  the logo, and the headshot cut-out. A clean brand-colour layout is always better than a fake-looking crowd.
 - **RESERVE ZONES — nothing overlaps.** Headline, subhead, video, form, button, photo, mockup, embed, and
   footer each get clear space with real gaps; text never runs under a photo, a video, or a button. The #1
   cause of a messy page.

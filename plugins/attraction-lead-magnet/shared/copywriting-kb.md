@@ -19,22 +19,22 @@ and the labelled lines the design step turns into page elements — is `shared/o
    Book-a-call area moves toward the guide by adding value, not hype; the Book-a-call area near the bottom is
    the secondary path for the agent who is already ready, and the thank-you page offers the call again after
    the download. The guide has one job too: be worth the email, and make the reader want the conversation.
-2. **Outcomes beat features** (`04-value-proposition/32`). "Agents don't buy features; they buy outcomes."
+2. **Outcomes outrank features** (`04-value-proposition/32`). "Agents don't buy features; they buy outcomes."
    Not "weekly mastermind calls" → "every week you learn one thing from someone doing it right now, and you
    use it that week." Not "a CRM and training" → "you know exactly what to do on Monday." The formula: name
    the pain → show the feature → translate it to the benefit → paint the outcome. Always connect back to
    growth, freedom, and security.
-3. **Clarity beats cleverness.** In 5 seconds the visitor must know: what this is, who it's for, and what they
+3. **Clarity outranks cleverness.** In 5 seconds the visitor must know: what this is, who it's for, and what they
    get. **Fifth-grade reading level** — Mike's rule for everything his team writes (`/32`). No industry jargon.
-4. **Specific beats vague.** "Support" is noise; "a 30-minute call with me in your first week, then a group
+4. **Specific outranks vague.** "Support" is noise; "a 30-minute call with me in your first week, then a group
    that answers at 9pm" is believable. Real routines, real steps, the honest trade-off, the exact question to
    ask a sponsor. A number carries its source or it isn't written.
-5. **"You" beats "I."** Talk about the agent's situation, pains, and goals. The page is about *them* — the
+5. **"You" outranks "I."** Talk about the agent's situation, pains, and goals. The page is about *them* — the
    exceptions are the Who I Am and Journey sections and the guide's opening page, and even there, frame
    everything as "here's why that matters for you."
 6. **Proof everywhere — real only.** Agents trust evidence, not claims. Weave in real agents helped, the
    organization as it is, and testimonials from `identity/proof.md` (consent on file). One specific result
-   beats ten adjectives. Proof from people *like them* (camera-shy, small market, three brokerages in) lands
+   is better than ten adjectives. Proof from people *like them* (camera-shy, small market, three brokerages in) lands
    hardest (`/32`). If proof is thin, the upline's proof labeled as the upline's; if none, honest experience,
    said plainly — never padded.
 7. **Reduce friction.** The opt-in pop-up asks for exactly three things (first name, email, phone — nothing
@@ -114,7 +114,7 @@ point to the page in the guide that pays it off? Three yeses or rewrite.
 
 ## The opening page (page 1 — the context, 180 to 280 words)
 
-Why this exists, in the member's voice. The beats, in order: **the moment** they were where the reader is
+Why this exists, in the member's voice. The steps, in order: **the moment** they were where the reader is
 (the mirror — `04-value-proposition/27`: you are most qualified to help the person you used to be) · **what
 they tried** that didn't work (the lead bill, the course, the switch that changed only the logo — a franchise,
 an independent, never a name) · **what changed** (the thing they built or decided, and what it produced —
@@ -126,7 +126,7 @@ page marked for it). No "in this guide you will learn," no table of contents, no
 
 ## The body page (one idea per page, 180 to 350 words)
 
-Every body page carries ONE idea and follows the same beat:
+Every body page carries ONE idea and follows the same shape:
 1. **A plain, specific title** — a result or a step in the reader's words (*"The two-question sign-in sheet"*,
    *"What to send on Sunday night"*), never "Chapter 2" or "Step two of five."
 2. **The idea in a sentence** — the one thing this page is for. It's usually the page's `Pull quote:`.
@@ -329,7 +329,7 @@ pitch. Tone: a leader stating facts, not a résumé.
 
 ## The Journey — the story, short and true
 
-Three beats from `journey.md`, told in the member's voice, each one or two sentences: **where I was** (the
+Three turning points from `journey.md`, told in the member's voice, each one or two sentences: **where I was** (the
 first year, what they had and didn't) · **what I tried** (the wall — the lead bill with no closings, the cap
 that never moved, the switch that changed only the logo; "a franchise," "an independent," never a name) ·
 **what changed** (what they built or decided, what it produced — proof only as `proof.md` states it). It's the
@@ -343,7 +343,7 @@ program` and `## The framework` blocks when they're written, the older `## The P
 - **The program's name and type** (`Program:`) — a partnership program, a mentorship program, a coaching
   program, an accelerator, a course plus community, a team system — named as the offer names it.
 - **What you get when you partner with me** — each line an outcome (principle 2): the onboarding, the recurring
-  call, the templates, the community as it is today — real and small beats big and promised
+  call, the templates, the community as it is today — real and small is better than big and promised
   (`04-value-proposition/33`).
 - **The framework in one line** — the member's signature method as a chain of steps (`## The framework` →
   "One line").
@@ -370,7 +370,7 @@ is the reason (`03-model-positioning/17`). No compensation, no "join [brokerage]
 
 ## Proof — let other agents do the convincing
 
-A standalone proof section beats proof sprinkled in passing — it's the biggest trust lever on the page. From
+A standalone proof section outranks proof sprinkled in passing — it's the biggest trust lever on the page. From
 `identity/proof.md` (real only — never invent; consent on file):
 - **2–4 short results** — first name or initials + situation + what happened ("Was two years in with one
   closing. Six months after we started working together, four under contract — Priya, Houston").

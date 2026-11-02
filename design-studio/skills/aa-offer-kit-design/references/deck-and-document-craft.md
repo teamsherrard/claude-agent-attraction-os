@@ -8,7 +8,7 @@ ones its guide designer uses. The audience here is an agent weighing a move, nev
 
 ### Right-size, then structure
 - **8–12 slides total:** cover · the 6–8 content slides the Conversion brief titles · the close +
-  contact. Fewer, stronger slides beat a padded deck; split a slide only when it holds two ideas; never
+  contact. Fewer, stronger slides outrank a padded deck; split a slide only when it holds two ideas; never
   pad to hit a number.
 - **The order is the brief's.** The Conversion system wrote it through the prospect's lens: the mirror
   → the three things that matter most → the bridge in three layers (the member's support · the upline
@@ -127,8 +127,7 @@ the required disclaimer verbatim. One page, always.
 4. **What I teach you first** — the three lessons (| Lesson | After this you can | What we build
    together |).
 5. **Where everything lives** — the weekly call (day, time, link slot), the group, the training library,
-   the digital product with its honest status line — only what exists today, from the Book's How You
-   Operate and Your Offer chapters.
+   the digital product with its honest status line — only what exists today, from the Partner Offer document ("How we work together", "Your first 30 days", the digital product row).
 6. **Who to call** — the member's contact in full; the broker, upline, or admin contacts ONLY when the
    member supplies them (a designed empty row otherwise — never an invented name).
 7. **The closing page** — one warm paragraph in the member's voice and the compliance strip.

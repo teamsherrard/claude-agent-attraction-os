@@ -122,7 +122,8 @@ what you skipped — the brief is the explanation.
      first three carry their drafts and the rest carry the reason plus "draft in your queue". A row with a
      missing due date counts as due. Then one line for the rest of the week: "This week: Sam (Sat), Kenji
      (Wed)." Nothing logged for a name → no draft, only "talk to them first". Not here: Parked agents,
-     anyone outside the recruiting scope, anyone touched in the last two business days, anyone quiet 30+
+     anyone a licensing note in `compliance.md`'s recruiting-scope line rules out (reach is anywhere
+     otherwise), anyone touched in the last two business days, anyone quiet 30+
      days ("say 'reactivate quiet agents'").
    - CONTENT DUE — open `memory/content-log.md` (due and shipped this week): what is due this week and not
      shipped, from the content log, against the weekly cadence in `identity/goals.md`. If no content system

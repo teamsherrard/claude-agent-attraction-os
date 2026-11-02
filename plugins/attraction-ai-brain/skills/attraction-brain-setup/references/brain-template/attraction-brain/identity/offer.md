@@ -1,22 +1,25 @@
 # [Member First Name] — What You Have to Give
 *identity · the program an agent joins, defined like a product · the value stack an agent gets by joining them · measured against the five pains · features become outcomes*
-*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Phase 4) writes SEEDS only — the first three sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns ONLY the `## Value stack` and `## Digital product` sections; `attraction-offer` owns every other section. `attraction-capture` appends under "Notes for Week 2" only.*
+*Owner: `attraction-offer` (Week 2, the UVP Builder). `attraction-brain-setup` (Conversation 2 — your unique approach) writes SEEDS only — the first four sections and `Status: seeds` — and never calls them "the offer". `attraction-free-vs-paid` owns ONLY the `## Value stack` and `## Digital product` sections; `attraction-offer` owns every other section. `attraction-capture` appends under "Notes for Week 2" only.*
 *Doctrine: `shared/attraction-doctrine.md` §7b, §10 · `04-value-proposition/28, 31, 32, 33`.*
 
 **Status:** [seeds (Week 2 builds the offer) | finalized by member on YYYY-MM-DD | built in Week 2 on YYYY-MM-DD]
-*(When Status is seeds, the Brain Book renders this chapter as "What you have to give (so far)" with one line that the Partner Offer is built in Week 2 — never as a gap.)*
+*(When Status is seeds, the Brain Book's "Your unique approach" section renders these seeds with one line that the unique value proposition and the Partner Offer are built in Week 2 — never as a gap. The Book never renders the program itself; the Partner Offer document in `05 · Offer` does.)*
 
-## What worked for them (production, not attraction — Setup Stop 8, raw material)
-| Strategy | What it actually involved | Result they can stand behind | Teach it? (yes / partly / not yet) |
+## What worked for them (Setup Conversation 2 — the strategies they have personally used to increase production, or are passionate about teaching; raw material)
+| Strategy | What it actually involved (the unique method) | Result they can stand behind | Teach it? (yes / partly / not yet) |
 |---|---|---|---|
 | | | | |
-**Edge (what they do that other agents in their market don't):** [ ]
-**Teach first (the first thing they'd show a brand-new agent):** [strategy → the first lesson + the sheet or template they'd hand over — "I'm not sure yet" is a real answer]
+**Edge (their unique strategy for that approach — the scripts that convert, the proven social strategy, the routine):** [verbatim, question 15]
+**Teach first (the first thing they'd show a brand-new agent):** [drafted from questions 14–15 → the first lesson + the sheet or template they'd hand over — "(drafted — confirm)"]
 
-## The three layers (Setup Stop 9, unpolished)
-- **What the brokerage gives every agent (as far as they know):** [rough list — "not sure yet" goes on the open-items list; the Brokerage Model Expert fills it in Week 2]
-- **What the upline provides that they could point an agent to today:** ["nothing I know of" is fine]
-- **What THEY give (today):** [a weekly call · a template · 1:1 onboarding · a group chat of three — real and small beats big and promised]
+## The three layers (Setup Conversation 2, unpolished)
+- **What the brokerage gives every agent (as far as they know):** [not asked at setup — the Brokerage Model Expert fills it in Week 2 ("explain my model to me"); an import or a bridged deck may pre-fill it]
+- **What the upline provides that they could point an agent to today (question 16, the clear breakdown):** ["nothing I know of" is fine — this layer blends with the member's strategies into the unique value proposition]
+- **What THEY give (today):** [from questions 14–15 and 22 — a weekly call · a template · 1:1 onboarding · a group chat of three — real and small is better than big and promised]
+
+## The mistakes agents are making right now (Setup Conversation 2, question 17 — verbatim)
+[the biggest mistakes the member sees agents making, and why they — or joining their brokerage — can be the solution. `attraction-offer` reads these as the pains the offer answers; `attraction-persona-map` reads them as the agents who will relate.]
 
 ## Notes for Week 2 (appended by capture — never rewrites the above)
 - [YYYY-MM-DD] [ ]

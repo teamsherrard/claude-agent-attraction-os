@@ -21,8 +21,7 @@ hold for every member unless their style sheet says otherwise.
 
 1. Copy this file whole. Keep every section, heading, token name, and rule; change values only.
 2. Fill every `[member value]` from the approved style sheet (the winning option) and the Brain Book
-   (Snapshot · The Leader · Your Voice & Brand — including its Creative direction block · Your Agent
-   Avatars · Your Proof · Compliance). Record the ONE look the sheet locked (§12) and the Creative
+   (Who you are · Your story · Your voice · Who your story speaks to · Your proof) and the Design Package brief (the brand Inventory, the Creative direction block, the compliance line). Record the ONE look the sheet locked (§12) and the Creative
    direction it came from; later skills apply that look's devices and never re-derive it.
 3. Where the member skipped something, write the safe default and mark it `(default — change anytime)`;
    never leave a bracket in a saved copy.
@@ -45,14 +44,14 @@ hold for every member unless their style sheet says otherwise.
 | Organization name | `[name — or "none; just my name"]` |
 | Logo versions | `[one: my name · two: my name + my organization's name]` |
 | Brand shape | `[one brand, my name, with a leader lane (default) · separate leader brand]` |
-| Market · attracts in | `[City, Region · local / statewide / national / listed states]` |
+| Market (a fact — a cloud brokerage attracts anywhere, so no scope) | `[City, Region]` |
 | Brokerage (the vehicle; compliance mark only) | `[exact name as compliance requires]` |
 | Brokerage palette we stay distinct from | `[their colour family, in plain words + codes if known]` |
 | Compliance state | `[unset · set · confirmed YYYY-MM-DD]` |
 | Brand language(s) | `[e.g., English · English + Spanish · Français (CA)]` |
 | Leads with (the brand formula) | `[authority · relatability · aspiration — the one the Brain says is strongest today]` |
-| Known for | `[one line from the Brain's "The Leader" chapter]` |
-| Primary type of agent | `[in plain words, from the Brain's avatar chapter — never the word "avatar" on a graphic]` |
+| Known for | `[one line from the Brain Book's "Who you are" section]` |
+| Primary type of agent | `[in plain words, from the Brain Book's "Who your story speaks to" section — never the word "avatar" on a graphic]` |
 | Tagline | `[chosen · parked]` |
 | Direction / feel | `[the mood line from the brief's Creative direction — one sentence]` |
 | Creative direction (from the Brain) | `[energy 1–5 · type: classic / modern / bold · colour story: dominant · support · accent · photo: clean cut-out / moody / bright · the three motifs · the avoid list's member-specific line]` |
@@ -194,7 +193,7 @@ never inside the logo file.
 |---|---|---|---|
 | **CTA button** | the pill or highlighted line "Book a call with me" | `colour.accent` fill or `colour.primary`; `type.heading` | the only button on a piece; the booking link or handle sits under it |
 | **Eyebrow label** | the small bold label above a headline | `type.heading` 24–28px | high contrast, never thin mono caps |
-| **Proof chip** | one real credential, number, or agent result as a quiet pill | `colour.mid-1` plate, `colour.ink` | only from the Brain's Proof chapter; none = no chip; never "#1 / best / fastest-growing" without a dated source |
+| **Proof chip** | one real credential, number, or agent result as a quiet pill | `colour.mid-1` plate, `colour.ink` | only from the Brain Book's "Your proof" section; none = no chip; never "#1 / best / fastest-growing" without a dated source |
 | **Win card** | the frame or plate a recognition post is built on (status word + agent + detail) | `[frame / ribbon / plate]` in `colour.primary` + metallic | the status word is the type hero; the agent's photo window fills 55–70%; zones interlock |
 | **Quote device** | how an agent's testimonial is set | quotation marks in `colour.accent`, attribution in `type.body` | verbatim, with consent on file; one quote per piece |
 | **Contact bar** | the slim bottom bar: booking link · handle · email | `colour.neutral` rule, `type.body` | one per piece, never cramped |
@@ -219,7 +218,7 @@ never inside the logo file.
 
 ## 8. Voice cards
 
-**Sounds like:** `[2–4 lines from the Brain's voice chapter]` · **Never sounds like:** `[the never-say
+**Sounds like:** `[2–4 lines from the Brain Book's "Your voice" section]` · **Never sounds like:** `[the never-say
 list; the recruiter register ("opportunity call", "let's talk about [brokerage]")]` · **Banned words
 everywhere:** unlock · supercharge · game-changer · revolutionary · secret weapon · leverage as a verb.
 **Signature phrases:** `[three the member actually says]`.
@@ -228,7 +227,7 @@ everywhere:** unlock · supercharge · game-changer · revolutionary · secret w
 
 | Slot | Fill from | Current value |
 |---|---|---|
-| Who you are | Snapshot · The Leader | `[name + role line, e.g., "Team leader · The Lakeline Collective"]` |
+| Who you are | the Book's "Who you are" | `[name + role line, e.g., "Team leader · The Lakeline Collective"]` |
 | Who you help | the primary type of agent | `[in plain words, e.g., "agents in years 2–5 who are paying for leads"]` |
 | What you help them do | the one-line why · known for · what you have to give (so far) | `[e.g., "build a pipeline that doesn't need a lead bill"]` |
 | Why listen | Your Proof (real, with permission) | `[one credential or result — or "none yet (no chip)"]` |
@@ -287,9 +286,9 @@ the Value Vault) read this registry and never re-ask for anything in it.
 | `[YYYY-MM-DD]` | Created from the Agent Attraction Design System v1.0 | `aa-style-sheet-design` |
 
 **The handshake:** the Brain owns direction (`brand-visual.md`: inventory, direction, the Creative
-direction, and the Design Package brief) and the Brain Book carries it; this Design System owns execution
+direction, and the Design Package brief) and the Design Package brief carries it; this Design System owns execution
 values, including the one locked look. When they disagree, the member decides — and says **"update my
-attraction brand direction"** in their Brain so the Book matches the kit. Nothing here is edited in the
+attraction brand direction"** in their Brain so the brief matches the kit. Nothing here is edited in the
 Brain's files by a design skill; nothing in the Brain is edited by this file.
 
 ---

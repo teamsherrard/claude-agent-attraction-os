@@ -63,7 +63,7 @@ Brain** (house rules #2). Then:
   one-liner, offer name, what's included, the deliverables table → the sneak peek, the first 30 days,
   onboarding Day 1 → "How it works" step three, "what the call is"). `## Support & community` and the five
   parts line ("why now") feed the Organization and Why Join Me. Never compensation.
-- `identity/journey.md` — the three beats (where I was · the hardest stretch · the turning point) for the
+- `identity/journey.md` — the three turning points (where I was · the hardest stretch · the turning point) for the
   Journey, and the `## Why join me` block (its `Status:`; the 60-second version and the one-breath version)
   for the Why Join Me statement — written from the offer's "why now" when that block isn't written yet.
 - `identity/proof.md` — real agents helped (consent on file), organization today with its date, upline proof
@@ -76,7 +76,7 @@ Brain** (house rules #2). Then:
 - `identity/avatars.md` — the type of agent (must match the magnet's), their biggest problem in their words
   (the pre-headline, the Problem), the objections to expect (the three questions the call answers; the FAQ).
 - `identity/positioning.md` — the one-line "why I'm here" (What I do); what stays for the private call.
-- `identity/story-bank.md` — a story tagged to this type of agent, if the Journey needs a sharper beat.
+- `identity/story-bank.md` — a story tagged to this type of agent, if the Journey needs a sharper moment.
 - `identity/voice.md` + `identity/voice-samples.md` — write the whole page in their real voice.
 - `identity/operations.md` — the booking link, the call's length and where (Book a Call), the follow-up
   cadence (the pop-up's honest contact line), the weekly call and onboarding steps (the Organization; How it
@@ -289,7 +289,7 @@ A demo keyword aimed at the member's own page ("mock up my opt-in page") is a re
 - [ ] Hero: pre-headline (a question or a fact, no scarcity) · headline passes the hook test · subhead · the video line (URL or the exact record note) · the attraction line · the button · the trust line
 - [ ] **"Get the Free Guide" top, middle and bottom** — the same words; "Book a call with me" only in the Book-a-call area and the thank-you's call line
 - [ ] WHO I AM = three lines + 6–8 why-partner bullets (no income claim) · THE OFFER = the program as outcomes + the framework line + the first 30 days + the brokerage line + a 6–8 bullet sneak peek — **no compensation, no earnings, no "free coaching if you join [brokerage]"**
-- [ ] THE JOURNEY three beats, former brokerage unnamed · WHY JOIN ME from journey.md's block when written
+- [ ] THE JOURNEY three turning points, former brokerage unnamed · WHY JOIN ME from journey.md's block when written
 - [ ] PROOF real only, consent on file, upline labeled; "none yet" said plainly if so; the YouTube block only when a channel exists; the photo strip named or omitted honestly
 - [ ] THE ORGANIZATION describes only what exists today; counts only as proof.md states them, dated
 - [ ] BOOK A CALL: what it is / isn't · the three questions · How it works (3) · What we'll cover (5–6) · the booking embed · the button — no pressure, no countdown

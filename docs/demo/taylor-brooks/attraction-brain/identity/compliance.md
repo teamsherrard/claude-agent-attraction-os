@@ -2,7 +2,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Compliance (the gate every public skill reads)
 *identity · rules EVERY public-facing output must respect · three-state · this is assistance, not legal advice — the member stays responsible for their marketing and confirms with their brokerage's compliance desk and their regulator*
-*Owner: `attraction-compliance` (Setup Phase 7, Stop 15). Doctrine: `shared/compliance-doctrine.md`. (Demo: the license number, the disclaimer wording, and the name pairing are illustrative — demo; a real build uses the brokerage's exact text.)*
+*Owner: `attraction-compliance` (on demand — never at Brain setup; the fastest path is "paste my compliance link". Demo: set 2026-09-29 from a pasted brokerage page — illustrative). Doctrine: `shared/compliance-doctrine.md`. (Demo: the license number, the disclaimer wording, and the name pairing are illustrative — demo; a real build uses the brokerage's exact text.)*
 
 **Status:** set  *(set 2026-09-29 — apply, and remind the member once to confirm each line with the brokerage's compliance desk; not yet confirmed by the member)*
 
@@ -18,7 +18,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 **Earnings-claim rule:** no "you'll make $X", no rev-share earnings claims, no projected stock value, no lifestyle-as-income implication. Any mention of earnings carries this disclaimer:
 > Results vary. Nothing here is a promise of income; any figures are illustrative examples, not typical results. (default — replace with your brokerage's)
 
-**Recruiting scope:** Texas only this quarter — agents licensed in Texas; an agent licensed elsewhere is referred to a partner licensed there, after confirming with the brokerage · **Inducement rules reviewed:** not yet — on the open-items list
+**Recruiting scope:** anywhere Real Broker operates and the agent is licensed — a cloud brokerage attracts anywhere (doctrine default — never asked, never a limit; the owner's ruling, 2026-11-02) · cross-border referral rules: confirm with the broker before any cross-border outreach · **Inducement rules reviewed:** not yet
 **Non-disparagement (the two cardinal rules):** never talk badly about another brokerage; never talk badly about another person. Former brokerages are never named in stories.
 **Fair housing / equal opportunity:** any real-estate example describes properties and lifestyle, never who "belongs" somewhere; the equal-housing mark where required
 **AI-likeness disclosure:** no clone content today; if ever used: "This video uses an AI-generated voice/likeness of Taylor Brooks," disclosed on screen and in the description
@@ -31,4 +31,4 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - Anything negative about a named brokerage, sponsor, team, or person
 - Targeting language that references a protected characteristic
 
-**Open items:** the exact brokerage name wording and license display confirmed by the compliance desk · the brokerage's written rev-share marketing policy on file · inducement rules reviewed with the brokerage · Priya's testimonial consent on file — all rendered on the Book's open-items page
+**Open items:** the exact brokerage name wording and license display confirmed by the compliance desk · the brokerage's written rev-share marketing policy on file · inducement rules reviewed with the brokerage · Priya's testimonial consent on file — the member confirms these with the compliance desk (the Book carries no open-items page)

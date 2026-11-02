@@ -32,11 +32,11 @@ Owned and written by `ev-promo` (`skills/ev-promo/references/promo-calendar.md`,
 - Registration page: `ev-registration` writes the copy and the form; the Design Studio's `aa-funnel-design`
   (registration shape) builds it; the static form rule applies.
 - Slides: `ev-runofshow` writes the slide brief; `aa-event-design` builds the deck (title · the promise · one slide per
-  teaching beat · the do-this-now slide · the Q&A slide · the iceberg slide · the book-a-call slide with the QR
+  teaching step · the do-this-now slide · the Q&A slide · the iceberg slide · the book-a-call slide with the QR
   · the resource slide · the compliance strip where required).
 
 ## 4. The run-of-show script (60 minutes, chat-heavy)
-| Minute | Beat | Chat prompt |
+| Minute | Step | Chat prompt |
 |---|---|---|
 | 0–5 | Energy open · who the member is (one mirror line) · the promise · "stay to the end for [the resource]" | "Drop where you're joining from" |
 | 5–8 | The pain, in their words (avatars.md) | "Drop a 1 if you've ever [the pain]" |

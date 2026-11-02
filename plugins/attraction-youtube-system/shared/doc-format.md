@@ -311,7 +311,7 @@ The two CTAs:  resource "{the live resource}" inside minute one  ·  the call "{
 [RESOURCE CTA — inside minute 1]   {the line, in their voice}
 SECTION MAP:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 · {…}   (3–5)
 [CALL CTA — ~1/3 in]   {the line, value-named, never the brokerage}
-   {an interview slot: INTERVIEW GUIDE instead — the outcome sentence · the five beats with the type-specific questions · the edification lines · the casual CTA · the invite draft · the consent line · the distribution ask}
+   {an interview slot: INTERVIEW GUIDE instead — the outcome sentence · the five steps with the type-specific questions · the edification lines · the casual CTA · the invite draft · the consent line · the distribution ask}
 
 ──────────────── THUMBNAIL BRIEF ────────────────
 {the paste-ready brief — three directions scored, one recommended — the same block saved as its own doc}
@@ -388,13 +388,13 @@ Thumbnail text (differs from the title, both faces):  {3–5 words}
 ──────────────── EDIFICATION LINES   (before the guest speaks — true facts only) ────────────────
 {two lines in your voice: their stated result · who they were a year ago · why you wanted them on}
 
-──────────────── QUESTION MAP   (not a script — the five beats, any order) ────────────────
+──────────────── QUESTION MAP   (not a script — the five steps, any order) ────────────────
    BEFORE — {what business was like before: 2–3 open questions}
    THE SHIFT — {what made them decide to move, what the hesitation was: 2–3}
    SINCE — {what it has been like since partnering — support, training, community, in their words: 2–3}
    THE RESULTS — {outcomes in their words — freedom, support, the category of result; never a figure they did not volunteer: 1–2}
    ADVICE — {for an agent standing where they stood: 1–2}
-   {TYPE-SPECIFIC BEATS — new agent: the first-30-days routine · turnaround: what was missing before (no names, no blame) · top producer: what changed in leverage and time · team leader / broker-owner: what they kept, what overhead disappeared · first agent attracted: how that conversation happened}
+   {TYPE-SPECIFIC STEPS — new agent: the first-30-days routine · turnaround: what was missing before (no names, no blame) · top producer: what changed in leverage and time · team leader / broker-owner: what they kept, what overhead disappeared · first agent attracted: how that conversation happened}
    Interviewer rules:  the guest is the star · never interrupt · let emotion sit · add a layer only after they finish · redirect on camera if they knock a brokerage or a person (that part is cut)
 
 ──────────────── INTRO   (record LAST, after you know the story — 45–75 s) ────────────────

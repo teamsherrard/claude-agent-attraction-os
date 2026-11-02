@@ -101,7 +101,7 @@ The kb's catch-up doctrine, in this order:
    next real need → everything else when pulled. Give them the week-gated minimum viable week from
    the kb and name its skill phrase.
 4. **3+ weeks behind and discouraged** → warmly surface Thursday's tech Q&A or Heidi's Wednesday
-   thread: a human beats a checklist there. Frame as an upgrade, not a referral-away. Mike's line
+   thread: a human is better than a checklist there. Frame as an upgrade, not a referral-away. Mike's line
    for the dip is "1 agent can change your life" (`01/9`) — one line, not a lecture.
 
 ## "What does this cost / what do I need to buy?"

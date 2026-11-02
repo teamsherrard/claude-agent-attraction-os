@@ -41,8 +41,9 @@ tool error is never "no Brain".
 
 Then only these three up front — the rest load at the step that uses them (named there):
 - `identity/positioning.md` — the seed line from setup if present; real content = update, not rebuild
-- `identity/journey.md` — the three beats; **Stop 2's "why I actually joined"** (the real reason, not the
-  brochure) and **the one line they'd say if asked "why are you there?"** (setup Q7 / Q36)
+- `identity/journey.md` — the story with its turning points, why revenue share is the key; and in
+  `profile.md` **the story behind choosing the brokerage** (the real reason, not the brochure) and **the
+  drafted one line they'd say if asked "why are you there?"** (Setup's Conversation 1 and 2)
 - `identity/avatars.md` — the primary type and its ranked pains (the sheet is written primary-first)
 
 Loaded later, at the step named:
@@ -52,11 +53,11 @@ Loaded later, at the step named:
 - **Build:** `identity/brokerage-model.md` — the plain-English mechanics and the "never say" list (if built;
   if not, the sheet's mechanics lines read "[the Brokerage Model Expert fills this in — say 'learn my
   brokerage model']" and nothing is invented) · `identity/offer.md` — the three layers (brokerage · upline ·
-  you) for beat 5, and `## The program` → Name · Type when the offer is finalized (the "what I add" beat names the
+  you) for step 5, and `## The program` → Name · Type when the offer is finalized (the "what I add" step names the
   program in one breath — the same words as the Partner Offer doc and `brain.md`'s `Program:` line; an older offer
-  file without the block → the UVP one-liner alone); if Status is seeds, the script's "what I add" beat uses the raw material and says Week 2's
+  file without the block → the UVP one-liner alone); if Status is seeds, the script's "what I add" step uses the raw material and says Week 2's
   offer skill sharpens it; it never demands an offer that isn't built · `identity/proof.md` — agents helped,
-  organization size (the "prove what you say" beat, `/17`) · `identity/voice.md` — if built, the one-liner's voice
+  organization size (the "prove what you say" step, `/17`) · `identity/voice.md` — if built, the one-liner's voice
 - **The compliance gate (before any public-facing line is handed over):** `identity/compliance.md` — its
   first line, `Status:` (below)
 
@@ -107,7 +108,7 @@ Fold in what the Brain holds (the setup one-liner is read back, not re-asked):
 4. *(only if `offer.md` Status is finalized)* *"Anything in your offer that should be in the two-minute
    version, or does it stay for the call?"*
 
-**Your turn.** Unsure on 1 → propose three one-liners built from Stop 2's "why I actually joined" and
+**Your turn.** Unsure on 1 → propose three one-liners built from the story behind choosing the brokerage and
 the journey, say why each fits, recommend one. Their choice is final.
 
 ---
@@ -128,11 +129,11 @@ profile audit reads it).
 ### 2. The two-minute model script (private call only, after discovery)
 `02-prospect-targeting/19`: the model is presented on a private one-on-one call, tailored to what the agent
 said they want and why they're not getting it — never by text, never by sending a video, never cold.
-The script is a skeleton the member speaks, not a monologue they read. Beats:
+The script is a skeleton the member speaks, not a monologue they read. The eight steps:
 1. **Mirror what they said** (one sentence from discovery: their goal, their frustration).
 2. **The problem agents leave** (`/18`): *"Most agents leave problems, not companies — [their problem]
    is one of the big ones."*
-3. **Why I'm here** — the one-liner, then the real reason from Stop 2.
+3. **Why I'm here** — the one-liner, then the real reason from the brokerage story.
 4. **What the vehicle gives, in plain words** — three to five mechanics from `brokerage-model.md`, as
    benefits to THIS type of agent (`04-value-proposition/32`: feature → benefit → outcome), no numbers:
    support layers, training, how a brand can grow beyond a market, how someone's best agent can stay
@@ -183,7 +184,7 @@ Updated: [YYYY-MM-DD] · Model: [from brokerage-model.md or profile.md] · Offer
 
 ## Why I'm here (one line)            [the chosen line + the three alternates + the bio-safe version]
 ## The three questions                 [guide / succeed / path — one honest line each on how the member answers them today]
-## The two-minute model script         [the eight beats, in the member's words]
+## The two-minute model script         [the eight steps, in the member's words]
 ## When they name another brokerage or sponsor   [three lines, give credit → revert to value]
 ## Model Positioning Sheet             [the table]
 ## Stays for the private call          [the list]
@@ -204,7 +205,7 @@ needs the renderer.
 ---
 
 ## Stop B · Read-back (optional, one question)
-Show the one-liner and the script's beats 3–5. *"Would you say this out loud, word for word? Change
+Show the one-liner and the script's steps 3–5. *"Would you say this out loud, word for word? Change
 anything that isn't you."* **Your turn.** Edits are verbatim; never overwrite a real answer with a guess.
 
 ---
@@ -230,7 +231,7 @@ finished) · the so-what test · no hedging · no filler headings · the swap te
   member; "we / our group" proof is named generically and honestly.
 - **Brokerage-agnostic:** eXp, REAL, LPT, Epique, any cloud brokerage, a local team, a local brokerage —
   the sheet positions what the member actually has.
-- **Former brokerages are never named** in any beat ("a franchise", "an independent").
+- **Former brokerages are never named** in any step ("a franchise", "an independent").
 - **Later-week deliverables never demanded early:** offer seeds are used as seeds; the script says what
   the member teaches first and that Week 2's offer skill sharpens it.
 - **Draft-only:** nothing here is sent or published; the member speaks it.

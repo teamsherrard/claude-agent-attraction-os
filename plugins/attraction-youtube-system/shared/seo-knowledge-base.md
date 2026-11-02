@@ -49,7 +49,7 @@ niche-specific phrases only.
 
 ## Titles (doctrine §9 is the source of truth)
 Use the seven formulas (§9) and the psychology of the click: curiosity · emotion · clarity; bold and emotional
-beats complex and clever. Then the mechanics:
+outranks complex and clever. Then the mechanics:
 - **Front-load the primary phrase** in the first ~30 characters; **50–65 characters** (one promise, never two
   ideas stapled with a colon).
 - "real estate agent(s)" / "as a real estate agent" / the agent type when the search needs it — the viewer is

@@ -31,8 +31,9 @@ scorecard is a mirror, never a verdict; compare the member only to their own pri
 `~/attraction-brain/brain.md`, then `memory/pipeline.md` (the **Stage moves log** — the dated moves into
 Call booked, Call held, 3-way, Joined this week), `memory/top-50.md` (the **Source** column per agent),
 `memory/conversations.md` (channel, 3-way rows), `memory/scorecard.md` (the Targets block: the weekly calls
-and joins target; existing rows), `memory/sales-funnel.md` (this skill's ledger, if it exists),
-`identity/goals.md` (ratios), `memory/list-growth.md` only when it exists (the Lead Magnet plugin keeps it from Week 2 — its row's `Calls booked
+and joins target; existing rows — empty until `attraction-goals` locks the plan), `memory/sales-funnel.md` (this
+skill's ledger, if it exists), `identity/goals.md` (its `Status:` line first — at `seeds` nothing is locked and the
+Targets block is empty; then the ratios), `memory/list-growth.md` only when it exists (the Lead Magnet plugin keeps it from Week 2 — its row's `Calls booked
 from the funnel`, for the `funnel n` note), `config.md` (the AI Admin block → who appends the weekly row).
 Missing locally → `attraction-brain-sync`. A tool error is never "no Brain". Empty ledgers → "no calls logged yet —
 the scorecard starts the week you hold your first" and stop; never invent a number.
@@ -81,7 +82,9 @@ read and it is good news.
   this week] · conversations [conversations.md rows this week] · meaningful conversations [rows with a pain
   named or a next step agreed] · calls booked [n] · calls held [n] · 3-ways [n] · joins [n] · content shipped
   [— ; the appender counts it from the content-log] · score [Ahead | On pace | Behind against the Targets
-  block's weekly calls] · note: show [x]% · held→join [y]% · funnel [n — only when `memory/list-growth.md`
+  block's weekly calls — or, at `goals.md → Status: seeds`, NO score word and the note "no weekly target locked
+  yet — say 'set my attraction goals'"; never score against the proposed line (`sales-call-block` shows the same
+  behaviour)] · note: show [x]% · held→join [y]% · funnel [n — only when `memory/list-growth.md`
   carries `Calls booked from the funnel`] · constraint [..]"*. **AI Admin installed** (its block in
   `config.md`) → `admin-recruiting-scorecard` appends it on its next run, reconciling booked / held / 3-ways / joins
   against the same Stage-moves log and keeping show, held→join, funnel, and the constraint in Note; say so.

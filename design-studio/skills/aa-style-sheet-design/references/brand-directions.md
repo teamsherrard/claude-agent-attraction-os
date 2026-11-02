@@ -104,7 +104,7 @@ locked look (its recipe names them), rendered as real artwork in the palette —
 - **Geometric / pattern** — diagonals, grids, dots, halftone, chevrons, or a tiled motif — for modern,
   bold, and confident brands.
 
-Keep finishes consistent; one cohesive finish system beats a pile of effects.
+Keep finishes consistent; one cohesive finish system is better than a pile of effects.
 
 **THE PERSON-NOT-PLATFORM TEST (textures must smell like a leader, not a product):** every texture
 and pattern must read as craft, place, and people — paper, linen, stone, wood, grain, a skyline

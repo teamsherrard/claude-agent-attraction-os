@@ -26,4 +26,4 @@
 - **Q:** [ ] — **A:** [ ] *(source)*
 
 ## What the member still needs from their brokerage
-- [ ] [the document or confirmation missing — on the Book's open-items page]
+- [ ] [the document or confirmation missing — the member asks their broker, then updates this file]

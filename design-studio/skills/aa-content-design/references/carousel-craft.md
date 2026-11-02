@@ -48,7 +48,7 @@ the slides side by side and see the same words in the same order.
 - **"Why Join Me" — the Week 2 five-slide quick win (no doc yet):** cover (the "I know what it's like
   to…" line — the past, as the hook) → the transformation → the mission → the value ("you don't just get
   [the brokerage]; you also get…" — outcomes only) → the vision + CTA ("Book a call with me" / "DM me
-  'call'"). Every line comes from the Brain Book's Your Model, Positioned chapter (the why-join-me block);
+  'call'"). Every line comes from the Why Join Me document in `05 · Offer` (the Brain's why-join-me skill wrote it);
   you compress five parts into five headlines and one support line each — the member's own words, cut,
   never rewritten.
 

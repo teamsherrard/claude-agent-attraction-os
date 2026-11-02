@@ -41,7 +41,7 @@ instead of guessing. No exceptions, even for questions that feel easy.
 
 Members never see stack traces, error codes, JSON, or tool names. Translate everything through
 `plain-language.md`. "Looks like Claude lost its connection to your Google account — give me a
-minute and I'll walk you through reconnecting it" beats any raw error, every time.
+minute and I'll walk you through reconnecting it" is better than any raw error, every time.
 
 ## 5. One step at a time — and bring the button to them
 

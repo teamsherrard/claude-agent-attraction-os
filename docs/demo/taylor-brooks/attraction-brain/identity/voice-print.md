@@ -2,7 +2,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Voice Print (how they TALK)
 *identity · the SPOKEN layer of their voice — every read-aloud output (scripts, reels, interview answers, the 2-minute model script) reads this*
-*Last updated: 2026-10-01 (demo) · Spoken samples analyzed: 1 (a 60-second voice-mode answer to "tell me about the Sunday routine" — demo, fictional)*
+*Last updated: 2026-10-01 (demo) · Spoken samples analyzed: 3 (the three answers dictated at setup — demo, fictional)*
 *Owner: `attraction-voice-print`, built on top of `voice.md` via `shared/spoken-capture.md`. Optional depth layer — offered once as an upgrade, never a defect.*
 
 ## Pace & rhythm

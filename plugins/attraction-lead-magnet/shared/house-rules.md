@@ -199,8 +199,8 @@ Never paste a `[` bracket token into any deliverable.
 ## 6. Good copy is shared — and it's the whole point
 
 Every skill that writes a word for an agent to read writes to one standard:
-`${CLAUDE_PLUGIN_ROOT}/shared/copywriting-kb.md`. Read it before writing copy. The headline: **outcomes beat
-features (`04-value-proposition/32`), clear beats clever, specific beats vague, "you" beats "I," fifth-grade
+`${CLAUDE_PLUGIN_ROOT}/shared/copywriting-kb.md`. Read it before writing copy. The headline: **outcomes outrank
+features (`04-value-proposition/32`), clear outranks clever, specific outranks vague, "you" outranks "I," fifth-grade
 reading level, proof everywhere, no compensation, and it must sound like the member**
 (`identity/voice.md` + `identity/voice-samples.md`; `voice-print.md` for anything said on camera).
 

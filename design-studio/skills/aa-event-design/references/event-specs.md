@@ -38,12 +38,12 @@ Deck: [n] slides, 16:9, the brand from brand-visual.md [or "Design Package first
 1. Title — [event name] · [date] · [member name]
 2. The promise — "[the transformation]"
 3. Who this is for — three lines in their words
-4–[n]. One slide per teaching beat: [title · the one line · the visual (template / screenshot / diagram)]
+4–[n]. One slide per teaching step: [title · the one line · the visual (template / screenshot / diagram)]
 [n]. Do-this-now — the one step, big
 [n]. Proof — [the agent's win, consented, first name only] / the member's own numbers, labeled
 [n]. Q&A — the three questions
 [n]. The iceberg — above the water: what you got today · below: mentorship · systems · community (never money)
-[n]. Book a call / Come talk to us — the QR + the link [+ the scope line for a virtual room]
+[n]. Book a call / Come talk to us — the QR + the link
 [n]. Your resource — [the guide / the slides] · the keyword or the QR
 [n]. Thank you + the speakers' names
 Compliance strip (where required, verbatim): [from compliance.md]
@@ -74,7 +74,7 @@ Never on a slide: splits, caps, stock, rev share, income, another brokerage's na
 | Copy on each (verbatim from Step 3 — headline, sub-line, CTA) | verbatim on the piece — never rewritten; a line that will not fit is cut to its first clause and named |
 | Brand | the Design System's tokens; "Design Package first" → stop and send them to `aa-logo-design → aa-style-sheet-design → aa-brand-kit-design` |
 | Required line (verbatim) | the compliance strip on every public piece, verbatim |
-| Brokerage-neutral: yes (live local) / n/a | yes → no brokerage in the title, the hero, the venue line, or the who-it's-for line — the strip only (§4); n/a → the display rule as the Book's Compliance chapter says |
+| Brokerage-neutral: yes (live local) / n/a | yes → no brokerage in the title, the hero, the venue line, or the who-it's-for line — the strip only (§4); n/a → the display rule as the brief's compliance line says |
 | Never on the graphic | the rules in §9, read back on every piece |
 | Ad note | the Meta Employment special-ad-category note, said once, on any piece the member will boost or run as an ad |
 
@@ -83,19 +83,19 @@ Never on a slide: splits, caps, stock, rev share, income, another brokerage's na
 | Brief field | Builds |
 |---|---|
 | Member: name · market · brokerage (compliance strip only where required) | the footer (name · page) on every non-cover slide; the brokerage only in the compliance strip where the rule requires it |
-| Event: event name · format · date · time · timezone · Zoom / venue | the title slide (the title treatment · the date — evergreen: no date); the format decides the interactive beats (virtual: chat prompts and a poll slide; live: "turn to the person beside you") and the invitation's wording |
+| Event: event name · format · date · time · timezone · Zoom / venue | the title slide (the title treatment · the date — evergreen: no date); the format decides the interactive moments (virtual: chat prompts and a poll slide; live: "turn to the person beside you") and the invitation's wording |
 | Event: booking link | the Book a call / Come talk to us slide — the QR + the link; the Thank you slide's contact line |
 | Event: registration link or keyword | the Your resource slide (the keyword or the QR); the replay slide when the event has one |
 | Deck: [n] slides, 16:9, the brand | the slide count and the master template (§6); "Design Package first" → stop and send them to `aa-logo-design → aa-style-sheet-design → aa-brand-kit-design` |
 | 1. Title | §6 item 1 — the title treatment, the hosts, the date |
 | 2. The promise | §6 item 2 — the transformation, one line, big |
 | 3. Who this is for | §6 item 3 — the three lines, verbatim |
-| 4–[n]. One slide per teaching beat (title · the one line · the visual) | §6 item 4 — the beat's title, its one line, its visual as a figure (template / screenshot / diagram) |
+| 4–[n]. One slide per teaching step (title · the one line · the visual) | §6 item 4 — the step's title, its one line, its visual as a figure (template / screenshot / diagram) |
 | [n]. Do-this-now | §6 item 5 — the one step, big |
 | [n]. Proof | §6 item 6 — the agent's win, consented, first name only; the member's own numbers labeled, charted when they are data |
 | [n]. Q&A | §6 item 7 — the three questions |
 | [n]. The iceberg | §6 item 8 — above the water · below the water; never money |
-| [n]. Book a call / Come talk to us | §6 item 9 — the QR + the link [+ the scope line, verbatim, for a virtual room] |
+| [n]. Book a call / Come talk to us | §6 item 9 — the QR + the link |
 | [n]. Your resource | §6 item 10 — the guide or the slides; the keyword or the QR |
 | [n]. Thank you + the speakers' names | §6 item 11 — the speakers by name, the member's contact, the strip |
 | Compliance strip (where required, verbatim) | the footer line on every non-cover slide where the rule requires it |
@@ -110,7 +110,7 @@ read for these fields; only the missing ones are asked.
 | Format | Mike's frame | Pieces this skill builds | Must-haves |
 |---|---|---|---|
 | **Live local** | be the one at the front of the room; fill it with personal invites + your agents sharing + one promo video; real value; networking and Q&A at the end; the iceberg close | feed + story + PRINT flyers · registration post · countdown set · speaker cards · event banner (the photo backdrop) · slides | brokerage-neutral title/hero/venue line; the venue address in full; the QR as-is on print |
-| **Virtual** | a Zoom room and a clear topic; reach across markets; chat engagement; follow-up matters more | feed + story flyers · registration post · countdown set (its doors-open frame is the "we're live" story) · Zoom background · starting-soon · replay graphic (when the event has a replay) · slides with chat beats | the timezone on every piece; the recruiting-scope line respected in "who it's for" |
+| **Virtual** | a Zoom room and a clear topic; reach across markets; chat engagement; follow-up matters more | feed + story flyers · registration post · countdown set (its doors-open frame is the "we're live" story) · Zoom background · starting-soon · replay graphic (when the event has a replay) · slides with chat prompts | the timezone on every piece; "who it's for" is any agent, anywhere (a cloud brokerage attracts anywhere — never a scope line) |
 | **Evergreen** | recorded, on demand; Mike's gate (~250 agents + help) — the Events plugin decides | registration post + story · webinar cover · "watch now" graphic · slides built once, polished hard | no date ("on demand"); the same presentation for every viewer |
 
 ## 3. PIECES & TRUE SIZES
@@ -193,21 +193,20 @@ into days ("7 days · 3 days · tomorrow") — the brief's content order is the 
 2. **The promise** — "[the transformation]", one line, big.
 3. **Who this is for** — the brief's three lines in their words, verbatim ("you're two years in, paying
    for leads, and still guessing where the next deal comes from").
-4. **One slide per teaching beat** (3–5 beats; a section divider opens each) — the beat's title · its
+4. **One slide per teaching step** (3–5 steps; a section divider opens each) — the step's title · its
    one line · its visual as a figure (the real template, screenshot, or diagram the brief names; any
    number with its source and period, charted when it is data) → the example when the run-of-show
    carries one (a real story from the member's story bank or an agent's win with consent, every size
-   of win). **Interactive beats** sit at the run-of-show's chat prompts (virtual: "drop a 1 in the chat
+   of win). **Interactive moments** sit at the run-of-show's chat prompts (virtual: "drop a 1 in the chat
    if…", a poll slide; live: "turn to the person beside you — 60 seconds") — a plain slide with the
    prompt large, at least one per section.
 5. **Do-this-now** — the one step, big; the room does it.
 6. **Proof** — the agent's win, consented, first name only / the member's own numbers, labeled as theirs.
 7. **Q&A** — one slide, the three questions large.
 8. **The iceberg** — ONE slide: above the water, what you got today; below the water, the three things
-   in the member's words (mentorship · systems · community, and the call cadence from the Book's Offer
-   chapter). Never money; no brokerage name as the pitch; no "come join us at [brokerage]".
+   in the member's words (mentorship · systems · community, and the call cadence from the Partner Offer document). Never money; no brokerage name as the pitch; no "come join us at [brokerage]".
 9. **Book a call / Come talk to us** — the invitation: "if you want the how behind this, let's have a
-   conversation" + the QR + the booking link [+ the scope line, verbatim, for a virtual room]; live:
+   conversation" + the QR + the booking link; live:
    "come find me after".
 10. **Your resource** — the guide or the slides; the keyword or the QR (the brief's registration link
     or keyword); the replay slide here when the event has one.

@@ -4,7 +4,8 @@
 pick", a six-bullet "what I'm assuming" block, four one-liner options with a "why" each, and a full essay
 preview of the program — about 2,000 words — before they could say yes. Never again. **The Brain decides every
 default silently, and the member sees ONE message: a two-line welcome, ONE offer card, one closing line.**
-Everything from setup's Phase 4 (Stops 8–9) and Phase 2 is already in the Brain and is read, never re-asked.
+Everything from setup's Conversation 2 ("your unique approach") and the derived "who your story speaks to" is
+already in the Brain and is read, never re-asked.
 Per `shared/ask-once-default.md`: a default is never a thin stub — the card is the complete, Brain-personalised
 version, and "yes" finishes the step. This should feel like a coach who read the file, built the program, and
 slid one card across the table.
@@ -20,9 +21,9 @@ slid one card across the table.
 | **Cadence** (the weekly call's day · time · length · where; the chat; the 1:1 rhythm) | `operations.md` → Weekly model call · Response commitment · Organization list / group address · `goals.md` → Hours | silent → "a [weekday] call that starts when the first partner joins — [day], [time], 30 minutes, Zoom" with the day the member would keep · a Day 1 welcome call (45 minutes, 1:1, Zoom) · a group chat the day they join · a day-30 check · after day 30, one 1:1 a month. Always inside the hours in `goals.md`; never "24/7" |
 | **Recorded vs live** | `strategy.md` Teach-it flags · `06 · Materials` · `## Value stack` if free-vs-paid ran first | what exists on file is "recorded"; everything else "taught live at the [call]; recorded with my first partners" — a lesson the member "will record this week" is still written that way until the file exists |
 | **Support rhythm and response time** | `operations.md` → Response commitment · the 7 pm rule or its equivalent in `strategy.md` constraints | silent → "within one business day; the weekly call for everything that can wait" |
-| **The first lesson** | Stop 8 Q32 (`strategy.md` / `offer.md` seeds), the "Teach it: yes" row that maps to the avatar's #1 pain | the lesson with the sheet or template the member can put on camera tonight; the rest are lessons 2 and 3 |
+| **The first lesson** | the drafted "Teach first" line in `offer.md` seeds (from the strategy and the unique method the member described in Conversation 2), the "Teach it: yes" row that maps to the avatar's #1 pain | the lesson with the sheet or template the member can put on camera tonight; the rest are lessons 2 and 3 |
 | **What it costs you** | `## Value stack` when built | "nothing today — it comes with the partnership"; the brokerage's own charges are "a call, with the documents"; never a compensation word |
-| **The three layers** (brokerage · upline · you) | `brokerage-model.md` → Stop 9 → materials | generic, outcome-phrased names; a thin "you" layer gets an honest, smaller offer carried by the other two |
+| **The three layers** (brokerage · upline · you) | `brokerage-model.md` → the `offer.md` seeds (the upline breakdown from Conversation 2; the brokerage layer was never asked) → materials | generic, outcome-phrased names; a thin "you" layer gets an honest, smaller offer carried by the other two |
 
 Nothing in this table is asked. A decision the Brain cannot make at all (see §3) is the only thing that reaches
 the member, and it reaches them as one short question inside the card's closing line.
@@ -68,7 +69,7 @@ Does this feel like you? Say yes, or change anything: the names, the call time, 
 
 A gap is genuine only when the Brain holds **nothing at all** on it and no default rule in §1 can decide it:
 - no weekly call AND no day the member has ever mentioned keeping;
-- no first lesson anywhere (Stop 8 Q32 "not sure", every Teach-it flag "not yet", no materials);
+- no first lesson anywhere (no strategy named in Conversation 2, every Teach-it flag "not yet", no materials);
 - a result the member mentioned in passing that is not in `proof.md` (ask whether to use it — the only
   proof question there is).
 Fold the one question into the closing line: *"Does this feel like you? One thing I couldn't tell from your

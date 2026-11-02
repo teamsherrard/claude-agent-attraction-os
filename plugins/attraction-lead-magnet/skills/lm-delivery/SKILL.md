@@ -34,7 +34,8 @@ link, keyword). **No live funnel URL yet** → write the kit anyway with the boo
 and say in one line that the funnel link slots in the moment the page is up (never block delivery on design).
 **No written magnet** → `lm-navigator` with the way-back line.
 Read `identity/compliance.md` (**the gate — unset stops here**; a DM template is public), `identity/voice.md`
-+ `voice-samples.md` (how they type — DMs are typed), `identity/avatars.md` (the type of agent and the one
++ `voice-samples.md` Sample 4 and later (how they type — DMs are typed; Samples 1–3 are the spoken answers —
+for the spoken voice use `voice-print.md`), `identity/avatars.md` (the type of agent and the one
 qualifier question that mirrors their pain), `identity/operations.md` (follow-up cadence, the booking link,
 the email signature), `identity/profile.md` (handles).
 

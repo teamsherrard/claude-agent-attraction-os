@@ -44,7 +44,7 @@ never acted on.
    says it must appear.
 4. **Build three story ideas** on the rotation — fill the categories that have not run this week first (behind the
    scenes of leading · agent wins · personal · opportunity); the weekly call's or the partner-call block's story
-   leads on its day; the member's own captured moments beat the deck. For EACH: STORY n — [category] · What to
+   leads on its day; the member's own captured moments outrank the deck. For EACH: STORY n — [category] · What to
    capture (one line: the photo or clip) · Text overlay (≤ 15 words, in their written voice) · Sticker (poll with its
    two options · question box prompt · quiz · link · mention @agent) · Reply CTA (one line — the keyword when the ask
    is the Reels' ask, a short story word otherwise; with `ManyChat: connected` the reply word is the story-reply

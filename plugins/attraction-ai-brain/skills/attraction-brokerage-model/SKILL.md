@@ -46,8 +46,9 @@ Then only what this skill uses:
   local brokerage · mix). **This decides which model is "theirs". Never assume eXp or any brokerage.**
 - `identity/brokerage-model.md` — if real content exists, this is an update or Q&A, not a rebuild
 - `identity/avatars.md` — the primary type (the per-type explanation leads with theirs)
-- `identity/offer.md` — the `Status:` line and the "brokerage layer" seeds from setup (Stop 9, Q34), so
-  nothing the member already said is re-asked
+- `identity/offer.md` — the `Status:` line and the three layers from setup (the brokerage layer was never
+  asked at setup — this skill fills it; the upline layer is the member's own breakdown), so nothing the
+  member already said is re-asked
 - `identity/compliance.md` — status and any rule on what may be said about compensation; this file is
   private so unset does not block it, but the **public-content ban** below holds regardless
 

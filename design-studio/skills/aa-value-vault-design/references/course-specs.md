@@ -19,17 +19,16 @@ Read in full before building any piece.
 
 ## 2. STRUCTURE RULES (the member's outline — never curriculum this skill writes)
 
-- **3–7 modules, 2–5 lessons each.** Module 1 Lesson 1 = the Book's teach-first lesson 1. The Book's
-  digital-product outline (3–7 parts, each "after this part you can…") maps to the modules.
+- **3–7 modules, 2–5 lessons each.** Module 1 Lesson 1 = the Partner Offer document's teach-first lesson 1. The Value Stack document's digital-product outline (3–7 parts, each "after this part you can…") maps to the modules.
 - **Every lesson = one skill statement + one hand-over.** "After this lesson you can [do the thing]" +
   the sheet, script, or template it gives. A lesson with neither is flagged as thin, laid out with what
   exists, and never filled by the skill.
 - **Every module = one tint** from the palette's working mid-tones (the Design System's `colour.mid-1`,
   `colour.mid-2`, and tints of `colour.primary`); the tint runs across the module's cards, tiles, and
   workbook tabs.
-- **Where to get help** (from the Book's How You Operate chapter): the weekly call, the community, who
+- **Where to get help** (from the Partner Offer document's "How we work together"): the weekly call, the community, who
   to message — on the outline and every workbook's last page. Unset → an "ask me" line.
-- **The 30-day line** (from the Book's Offer chapter, the first 30 days as a partner): which lessons
+- **The 30-day line** (from the Partner Offer document's "Your first 30 days"): which lessons
   land in which week — printed on the outline as a small table.
 
 ## 3. THE LESSON TITLE CARD (1920×1080 — anatomy)

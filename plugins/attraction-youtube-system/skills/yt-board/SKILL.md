@@ -97,7 +97,7 @@ Ready to Film → Recorded → Published` (`Ready to Film` is board-only; `Edite
 *"Your content board is live in your Notion — your next 30 days of videos are on it with filming dates and
 your interview guests. Every Monday your kickoff drafts that week's video onto its card and keeps the 30 days
 topped up; when we make a video together, its card fills with the script, the thumbnail brief, the SEO
-package, and the videos to beat. Here's the link."* Inside setup: hand back to the next step. On demand: stop.
+package, and the videos to do better than. Here's the link."* Inside setup: hand back to the next step. On demand: stop.
 
 ## Ongoing
 Per the spec: the Monday Kickoff (`yt-briefing`) drafts this week's video onto its card (sections written,

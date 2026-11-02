@@ -107,7 +107,7 @@ packaged the same proven way everywhere; every caption carries the rung and the 
   stories are depth.
 - **The five pillars:** Authority · Perspective · Story · Proof · Personality (§5). Problems, not brokerage
   features (§6). Brokerage content woven through, never the feed.
-- **The video:** hook (~3s, never "stop scrolling") → value → one CTA; 30–60s; raw beats polished; captions
+- **The video:** hook (~3s, never "stop scrolling") → value → one CTA; 30–60s; raw is better than polished; captions
   the only mandatory edit; one video to every short-form platform (§7).
 - **The ladder:** Follow → Comment → DM → Resource → Conversation → Call; one rung per Reel; the keyword carries
   every Reel (§8).
@@ -133,7 +133,7 @@ Plan drafts from it. A content skill reads this week's rows first and never buil
 - **No hedging, no filler headings, no fabrication:** no invented stats, quotes, testimonials, production
   numbers, or earnings. A number carries its source and date or it doesn't appear. Never invent a story — the
   story bank or nothing (mark where the member fills it).
-- **Develop, never transcribe:** turn the Brain's raw lines into a point, a beat, a take — never echo them back.
+- **Develop, never transcribe:** turn the Brain's raw lines into a point, a moment, a take — never echo them back.
 If an output could have come from a chatbot that doesn't know *this* member, redo it.
 
 ---

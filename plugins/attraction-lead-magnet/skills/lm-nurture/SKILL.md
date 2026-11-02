@@ -59,7 +59,7 @@ One email every 2–3 days after the download; each ≤ 200 words, one idea, one
 reading level, the member's voice. The arc:
 1. **Day 0 — the guide, and the one page to read first.** (If `lm-delivery` already wrote the delivery email,
    reuse it verbatim here as email 1.)
-2. **Day 2 — awareness: the mirror.** The member's own story beat for this type of agent (`journey.md` /
+2. **Day 2 — awareness: the mirror.** The member's own story moment for this type of agent (`journey.md` /
    `story-bank.md`), former brokerage never named. One lesson. No ask.
 3. **Day 4 — awareness: the thing nobody told them.** One honest, useful teaching from the member's "what
    worked" (`offer.md` → Teach first) — the first lesson, not a tease. No ask.

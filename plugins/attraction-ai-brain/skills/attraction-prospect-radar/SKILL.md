@@ -42,12 +42,13 @@ tool error is never "no Brain" and never a reason to suggest setup.
 Then only what the job needs:
 - `identity/avatars.md` — the primary type, the one-line target, the ranked pains, the ready signals, the
   **Reach** line, and the Targeting rules. **No real avatar yet → stop and say so in one line:** *"I need to
-  know who you're building for first. Say 'map my agent avatars' and we're two conversations away."* Never
-  score a list against a guess.
+  know who your story speaks to first — say 'set up my attraction brain'; it's worked out from your
+  answers."* Never score a list against a guess.
 - `identity/profile.md` — market (city + state/province), brokerage, what they're building
-- `identity/compliance.md` — read the **recruiting scope** line (state/province) and the **status**. For
-  the radar, unset compliance does not block (nothing here is public), but any scope restriction applies:
-  agents outside the licensed scope are "not the right fit — outside your scope", never a target.
+- `identity/compliance.md` — read the **status** and the recruiting-scope Notes. For the radar, unset
+  compliance does not block (nothing here is public). Scope is never a limit by default — a cloud brokerage
+  attracts anywhere (`shared/attraction-doctrine.md` §9b); only a licensing rule the brokerage's own page
+  states (recorded verbatim in the Notes) narrows it, and then the row reads "confirm with your broker".
 - `memory/top-50.md` — the named ledger (so the radar prioritizes what's already there, and never re-adds)
 - `memory/conversations.md`, `memory/intel.md` — recent touches and signals, when they exist
 - `config.md` — Timezone and CRM
@@ -91,8 +92,9 @@ movement and gathering places follow the Reach.
 a move. Every named move is marked `public announcement` with the source.
 
 ### Write `identity/prospect-intel.md` — the template's shape, exactly
-The Book's Chapter 7 (the landscape) and Chapter 8 (where they gather) render these headings and tables
-(`shared/brain-book-spec.md`); a different shape renders as a placeholder.
+The Conversion, YouTube and Top-50 skills read these headings and tables by name; the Brain Book does not
+render the landscape (the owner's ruling, 2026-11-02 — no research in the Book), so this file and the
+dated Prospect Radar report in `04 · Agents/Prospects` are where the member reads it.
 ```
 # [Member first name] — Prospect Intelligence (researched)
 *identity · the local agent landscape: who is moving, why, where they gather · RESEARCHED, sourced, dated · never invented*
@@ -161,10 +163,11 @@ data, it is not read into the output.
    six reasons agents leave (`02-prospect-targeting/18`): financial structure · poor leadership · poor
    support · poor tech · limited growth · culture misalignment.
 4. **Relationship** with the member: cold · acquaintance · friend · former colleague · past conversation ·
-   inbound. Warm beats cold at equal readiness, every time.
-5. **Scope and cautions**: outside the compliance recruiting scope → not the right fit. Franchise
-   broker-owner → "check the look period before any approach" (`02-prospect-targeting/26`). Already in the
-   Top-50 → carry the existing stage, don't re-score from zero.
+   inbound. Warm outranks cold at equal readiness, every time.
+5. **Cautions**: an agent licensed where the member's brokerage does not operate → "confirm with your
+   broker before reaching out" (never "not the right fit" for a place — a cloud brokerage attracts
+   anywhere). Franchise broker-owner → "check the look period before any approach"
+   (`02-prospect-targeting/26`). Already in the Top-50 → carry the existing stage, don't re-score from zero.
 
 ### The output table (exact columns)
 ```
@@ -177,7 +180,7 @@ data, it is not read into the output.
 - **Opportunity** — what makes this agent worth a conversation, in one line, from the facts.
 - **Likely pain** — one of the six reasons agents leave, or the avatar's ranked pain, phrased as a guess
   ("likely: paying for leads with no system"). Never stated as fact about a person.
-- **Personalization angle** — the one true thing the member and this agent share (a beat from the
+- **Personalization angle** — the one true thing the member and this agent share (a moment from the
   journey, a strategy, a room they're both in). The radar never invents common ground.
 - **Next step** — one of: comment on their post · DM one genuine question · send a voice note · invite
   to a coffee or a call · hand to a 3-way with the upline · wait and watch. Every path leads to a private
@@ -218,7 +221,7 @@ changes a stage.
 
 ### The run (~10 searches; every query carries the city AND state/province, scoped to the Reach line)
 1. Load per Step 1: `avatars.md` (no real avatar yet → stop with Step 1's one-line message; never scan
-   against a guess), `profile.md` (the market), `compliance.md` (the recruiting scope), `top-50.md`, and
+   against a guess), `profile.md` (the market, as a starting point — never a limit), `compliance.md` (any licensing note), `top-50.md`, and
    the existing `memory/intel.md` — never re-research a signal already in it; start from the newest
    `News scan:` line under `## Runs` ("since [date]"; no line yet → the last 30 days).
 2. Search, in this order, until the budget is spent: (a) agents or teams publicly announcing a brokerage
@@ -275,8 +278,9 @@ scored yet) · the so-what test (every row ends in a next step) · no hedging ·
   pointed at.
 - **Cardinal rules** (`03-model-positioning/13`): never a negative word about another brokerage or person,
   including in "Likely pain" and "Not the right fit". The pain is theirs; the brokerage is not blamed.
-- **Compliance scope:** outside the licensed recruiting scope is never a target. Franchise owners: look
-  period first.
+- **Anywhere, never a place:** no agent is "not the right fit" for where they are licensed — a cloud
+  brokerage attracts anywhere; a licensing rule the brokerage states earns "confirm with your broker".
+  Franchise owners: look period first.
 - **Brokerage-agnostic.** Read the Brain's brokerage; never assume eXp.
 - **Attraction, not recruiting:** every next step is a conversation, never a pitch, never compensation,
   never a sent video explaining the model.

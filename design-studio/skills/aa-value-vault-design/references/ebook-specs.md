@@ -6,12 +6,12 @@ Read in full before building any page.
 
 | Part | Chapters | Source (manuscript path / assembled path) | Rules |
 |---|---|---|---|
-| Front matter | cover · title page · imprint · "why I wrote this" · contents (built last) | the why-line from the Book's Journey chapter | the imprint carries the compliance line, the version and date, "© [year] [member]" |
-| **Part 1 · The story** | 1 Where I started · 2 The hardest stretch · 3 The turning point | the manuscript's story chapters / the Journey's three beats + the story blocks that belong to each beat | the mirror: the wall, never the company; former brokerages "a franchise", "an independent", "a team"; the "who relates to this" line may close each chapter in the member's words |
-| **Part 2 · The method** | one chapter per strategy that worked (3–6) | the manuscript's method chapters / the Offer chapter's "what worked" rows + the teach-first lessons | each chapter: what it involved · the result the member can stand behind · the lesson · the real sheet or script as a figure page; results as the member stated them, never rounded up |
-| **Part 3 · The people** | partners' stories (2–8) | the manuscript's case chapters / the Proof chapter's agents-helped rows + consented testimonials + the story bank's "an agent I helped won something" blocks | consent on file for every name, photo, and quote; every size of win (`06-content-framework/40`); each story told for the agent who'll relate to it; a first name and a type of agent, the surname only with consent |
-| **Part 4 · What's next** | 1 The mission and the vision · 2 What partnering looks like · 3 The invitation | the "Why join me" long version / the same block from the Book's Model chapter; the How You Operate chapter for the day-to-day | "value" means support and systems, never money; the income disclaimer verbatim if an organization-building line appears; the invitation = the primary CTA + the booking link |
-| Back cover | the one-breath why · the headshot · contact in full · the compliance line | the Book's Journey chapter one-breath line | the brokerage chip where required |
+| Front matter | cover · title page · imprint · "why I wrote this" · contents (built last) | the why-line from the Book's "Your story" section | the imprint carries the compliance line, the version and date, "© [year] [member]" |
+| **Part 1 · The story** | 1 Where I started · 2 The hardest stretch · 3 The turning point | the manuscript's story chapters / the "Your story" section's turning points + the story blocks that belong to each | the mirror: the wall, never the company; former brokerages "a franchise", "an independent", "a team"; the "who relates to this" line may close each chapter in the member's words |
+| **Part 2 · The method** | one chapter per strategy that worked (3–6) | the manuscript's method chapters / the "Your unique approach" section's strategies table + the Partner Offer document's teach-first lessons | each chapter: what it involved · the result the member can stand behind · the lesson · the real sheet or script as a figure page; results as the member stated them, never rounded up |
+| **Part 3 · The people** | partners' stories (2–8) | the manuscript's case chapters / the "Your proof" section's agents-helped rows + consented testimonials + the story bank's "an agent I helped won something" blocks | consent on file for every name, photo, and quote; every size of win (`06-content-framework/40`); each story told for the agent who'll relate to it; a first name and a type of agent, the surname only with consent |
+| **Part 4 · What's next** | 1 The mission and the vision · 2 What partnering looks like · 3 The invitation | the "Why join me" long version / the Why Join Me document in `05 · Offer`; the Partner Offer document's "How we work together" for the day-to-day | "value" means support and systems, never money; the income disclaimer verbatim if an organization-building line appears; the invitation = the primary CTA + the booking link |
+| Back cover | the one-breath why · the headshot · contact in full · the compliance line | the Book's "Your story" section one-breath line | the brokerage chip where required |
 
 **Length, honestly:** a manuscript of 6–7k words lands at ~24 pages at 6×9; 15–18k words at ~60. The
 assembled path lands at ~20–30 pages and is called "the shorter edition" out loud.
@@ -50,7 +50,7 @@ built at the book's page ratio (6×9 by default) and saved as `product-cover-fla
 The title is story- or promise-led, seven words or fewer, the largest element (≥ 3× the subtitle); the
 subtitle names the payoff ("what I'd tell the agent I used to be"); the member's name as the author;
 a real photo of the member in the Design System's treatment (an expressive shot reads as a person; the
-clean headshot reads as a leader — the Book's "leads with" line decides) or a brand graphic; the
+clean headshot reads as a leader — the brief's leads-with line decides) or a brand graphic; the
 organization's mark small; the brokerage only where the display rule puts it on a cover. **THE
 THUMBNAIL TEST** at 150 px: the title reads and the brand is recognizable — it becomes the 3D mockup in
 the offer stack. No fake badges, stars, or "bestseller" marks; no income word. Exported as
@@ -69,8 +69,7 @@ Never on the mockup: an outcome or income line, another brokerage's name, a fake
 
 ## 5. CONSENT, CLAIMS, AND THE CARDINAL RULES — RECAP
 
-- A partner's name, photo, result, or quote appears only with consent on file (the Book's Proof
-  chapter "OK to use publicly?" = yes, or the manuscript says consent is on file); otherwise a first
+- A partner's name, photo, result, or quote appears only with consent on file (the Book's "Your proof" section "OK to use publicly?" = yes, or the manuscript says consent is on file); otherwise a first
   initial and a type of agent, or the story is left out — never invented, never embellished.
 - Results exactly as stated; no rounding up; no income, rev share, split, cap, or stock word anywhere.
 - Former brokerages never named; nothing negative about any brokerage, sponsor, team, or person.

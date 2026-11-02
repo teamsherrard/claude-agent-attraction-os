@@ -163,7 +163,8 @@ reviews). **set** → apply every rule and remind once per session to confirm wi
 → apply. Always: no income or rev-share earnings claims; no compensation numbers in anything written
 (compensation is the private call); the two cardinal rules (never a bad word about another brokerage or
 person — including a prospect's own broker and a competing sponsor); brokerage name and license display as the
-file says; recruiting scope by state or province (nobody outside it is worked as a prospect); testimonial
+file says; recruiting scope: licensing notes only, as `compliance.md`'s recruiting-scope line states (reach is
+anywhere); testimonial
 consent before an agent's win goes public. A `[Brokerage Name]` placeholder in any draft is a failed draft.
 
 ## Connectors (resolve exact tool names at runtime)

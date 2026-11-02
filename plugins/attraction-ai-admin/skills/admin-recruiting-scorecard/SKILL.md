@@ -37,7 +37,8 @@ ratios are locked in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 ## Step 1 — Load (four files, every mode; the rest opens in the step that uses it)
 `memory/scorecard.md` (the Targets block; this week's daily rows; past weekly rows; the `## Weekly rows`
-header to write in) · `identity/goals.md` (the weekly activity, the ratios, the why, the 30-60-90 pace) ·
+header to write in) · `identity/goals.md` (its `Status:` line first — `seeds` means no weekly activity is locked, only
+the proposed line; then the weekly activity, the ratios, the why, the 30-60-90 pace) ·
 `memory/pipeline.md` (the Stage moves log for the week; the Counts line) · `memory/conversations.md` (this
 week's rows; meaningful = a pain named or a next step agreed). A tool error is never "no Brain". The week
 runs Monday to Sunday; `Week of` = Monday's date. A file already open is never re-read.
@@ -62,8 +63,11 @@ noise; Mike's 50% line) · follow-ups sent vs the weekly number. Empty ledgers �
 is the number; never a guess, never a projection.
 
 ## Step 3 — Score, then append (write → push → verify)
-Score against the weekly activity in `goals.md`: conversations first, calls second — **Ahead** at 150% or
-more, **On pace** at the target, **Behind** below. Append ONE weekly row, exactly the file's header order:
+**`goals.md` at `Status: seeds`** (nothing locked — only the proposed line from setup): append the counted row with
+NO score word and the note "no weekly target locked yet — say 'set my attraction goals'" (the Morning Brief's rule);
+never score against the proposed line. **Locked:** score against the weekly activity in `goals.md`: conversations
+first, calls second — **Ahead** at 150% or more, **On pace** at the target, **Behind** below. Append ONE weekly row,
+exactly the file's header order:
 `| [Week of] | [new prospects] | [conversations] | [meaningful conversations] | [calls booked] | [calls held] | [3-ways] | [joins] | [content shipped] | [score] | show x% · held→join y% · funnel n |`
 (each Note item only when its source exists: show and held→join from `sales-funnel.md`, `funnel` from
 `list-growth.md`'s `Calls booked from the funnel`; a constraint `sales-scorecard` named rides there too).

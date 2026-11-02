@@ -45,8 +45,8 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 
 ## Quick reference (the fields every skill needs)
 - **Name:** Taylor Brooks · **Brokerage:** Real Broker (cloud brokerage) · **Building:** a downline organization at a cloud brokerage — agents who run the same open-house + Sunday follow-up routine ("The Sunday Table")
-- **Market:** Austin, TX (Travis and Williamson counties) · **Attracts in:** Texas only this quarter (Austin first)
-- **Primary avatar:** experienced, low production (the early end) — "2–5 year agents paying for online leads that don't convert, with no system"
+- **Market:** Austin, TX (Travis and Williamson counties) · **Attracts in:** anywhere (a cloud brokerage attracts anywhere — never asked, never a limit)
+- **Primary avatar:** who Taylor's story speaks to — DERIVED from the answers, never chosen: experienced, low production (the early end) — "2–5 year agents paying for online leads that don't convert, with no system" (your skills attract any agent; these are the agents who will relate most)
 - **Known for:** the open-house + Sunday follow-up routine — a buyer pipeline with no lead bill, taught step by step
 - **Why I'm here (one line, out loud):** "I wanted my work to build something that doesn't reset every January."
 - **Offer status:** built in Week 2 on 2026-10-03 (demo) — the Partner Offer "The Sunday Table"
@@ -54,7 +54,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - **Program:** The Sunday Table · mentorship program · Tuesdays 9:00 am, 30 min on Zoom (the Tuesday table) + a 45-minute Day 1 welcome call + Taylor on Zoom for the first Sunday (demo — written by `attraction-offer` 2026-10-10; mirrors `identity/offer.md → ## The program`)
 - **Voice in one line:** "Calm, practical, teacher energy — shows, doesn't tell; never hype"
 - **This week's activity target:** 8 conversations · 2 calls booked · 10 follow-ups · 3 reels + 1 long-form (illustrative — demo)
-- **Organization today:** 2 agents · **12-month target:** 25 agents (illustrative — demo)
+- **Organization today:** 2 agents · **12-month target:** 25 agents · **Long-term goal:** 100 agents · **Hours a week:** 8 (illustrative — demo)
 - **Booking link:** https://book.taylorbrooks.demo/call (illustrative — demo) · **Primary CTA:** "Book a call with me — https://book.taylorbrooks.demo/call" · **Socials:** @taylorbrooks.atx (Instagram) · YouTube "The Sunday Table" (Week 4) · LinkedIn: Taylor Brooks (all illustrative — demo)
 - **Live magnet:** The Five-Step Sunday Routine · keyword ROUTINE · funnel URL not live yet (illustrative — demo; built from the offer in the Week 2 lead magnet session — mirrors `memory/magnets.md → ## Current magnet`)
 - **Brand colors:** #F4EFE6 (cream) / #1F4D3A (board green) / #B8743A (copper) / #2B2B2B (charcoal) (illustrative — demo) · **Fonts:** Fraunces (heading) / Inter (body) — proposed, kit not yet built · **Logo:** refresh (keep the TB monogram, add a wordmark for The Sunday Table) — building this week
@@ -63,25 +63,25 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 ## The files
 **identity/** — who the member is as a leader (set once, changes rarely)
 - `identity/profile.md` — name, brokerage, market, agent type, years in, before-story, what they are building
-- `identity/journey.md` — the three journey beats with "who relates to this", the leader moment, the WHY · the "Why join me" story at the end (Week 2, `attraction-why-join-me`)
+- `identity/journey.md` — the story told once with its turning points and "who relates to this", the leader moment, why revenue share, the WHY · the "Why join me" story at the end (Week 2, `attraction-why-join-me`)
 - `identity/strategy.md` — what they want to be known for, growth focus, constraints, leaders they admire
-- `identity/avatars.md` — the 1–3 Agent Avatars (type, pains, what they've tried, what they need to hear)
+- `identity/avatars.md` — who their story speaks to (DERIVED from the answers, never asked — type, pains in their words, what they've tried, what they need to hear; "your skills attract any agent; these are the agents who will relate most")
 - `identity/prospect-intel.md` — the local agent landscape (DEMO: illustrative, not researched; a real build sources and dates every row)
 - `identity/positioning.md` — the model positioned without pitching: the one-line "why I'm here", the 2-minute model script, what stays for the private call
 - `identity/offer.md` — what they have to give: the three layers (brokerage · upline · you), the value stack vs the five pains, free vs paid, the UVP one-liner (Status: built in Week 2 — demo)
 - `identity/brokerage-model.md` — THEIR model explained in plain English (private-call material; DEMO: generic mechanics, no real figures)
 - `identity/voice.md` — tone rules, sounds-like / never-sounds-like, signature phrases, primary CTA
-- `identity/voice-samples.md` — real WRITTEN samples (how they type)
+- `identity/voice-samples.md` — the three spoken answers verbatim, the typed story, and real WRITTEN samples added later
 - `identity/voice-print.md` — the SPOKEN voice (how they talk) — read for every read-aloud script
 - `identity/proof.md` — production wins, agents already helped (named, with result), organization size, reviews FROM AGENTS
 - `identity/story-bank.md` — the Personal Story & Experience Bank, each story tagged persona · pain · use
-- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (feel, references, tagline) — the Design Package reads this
+- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (derived from the voice) — written in the brand chat ("my attraction brand direction", the second Week 1 chat); the Design Package reads this
 - `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 3 — filled in this demo)
-- `identity/goals.md` — 12-month milestones, 30-60-90 targets, the money scenarios (illustrative), weekly activity
+- `identity/goals.md` — the four numbers from setup (today · 12 months · long term · hours), then the 12-month milestones, 30-60-90 targets and weekly activity (locked in this demo); the money scenarios (illustrative, on demand, never in the Book)
 - `identity/execution-framework.md` — the 12-month plan, weekly KPIs, monthly metrics, the CEO rhythm (built after goals lock)
 - `identity/leadership.md` — From Agent to Leader readiness score + fix-first list (written by the Leadership Audit)
-- `identity/operations.md` — hours, CRM, booking link, call cadence, onboarding steps (the AI Admin reads this)
-- `identity/compliance.md` — the 3-state gate: license display, brokerage name rule, rev-share marketing policy, earnings disclaimer, recruiting scope, AI-likeness disclosure
+- `identity/operations.md` — hours, CRM, booking link, call cadence, onboarding steps (set in Week 2; the booking page is built with the Conversion plugin's `sales-booking-page`; the AI Admin reads this)
+- `identity/compliance.md` — the 3-state gate: license display, brokerage name rule, rev-share marketing policy, earnings disclaimer, AI-likeness disclosure (set on demand — "paste my compliance link"; recruiting scope is a doctrine default: anywhere)
 
 **memory/** — what the member has done (grows daily)
 - `memory/top-50.md` — the named prospect ledger: type · where they are · stage · last touch · next move

@@ -68,7 +68,7 @@ Title: `Agent Intel · [Name] · [YYYY-MM-DD]`. Meta line: brokerage type · mar
    they said or to their type; never to a claim about their brokerage.
 5. **Growth opportunities** — what the member's offer (`offer.md`) could genuinely do for THIS agent; two or
    three, each tied to a pain above; the week rule applies (seeds-stage offer → "what you have to give so far").
-6. **Things in common** — real overlaps from the member's Brain: a journey beat, a market, a strategy they both
+6. **Things in common** — real overlaps from the member's Brain: a journey moment, a market, a strategy they both
    use, a stage they were both at; never manufactured, never personal-life.
 7. **Likely objections** — two to four from the archetypes, chosen by their type and what they post, each with
    the hidden fear in one phrase (`11-objection-handling/46`).

@@ -75,7 +75,7 @@ line is the short-form cadence — the YouTube cadence is the Game Plan anchor i
 `yt-script` writes the full teleprompter script in the member's voice on the structure: hook → resource CTA
 around the first minute → body → book-a-call CTA a third to halfway in and again at the end → the next-video
 pointer (`98`, `99`). Format by bucket (Why I Switched · Pain Point · Model Breakdown · Niche Breakdown;
-interviews follow `yt-interview`'s beats). `yt-script` writes the content-log row at Scripted and stamps the
+interviews follow `yt-interview`'s steps). `yt-script` writes the content-log row at Scripted and stamps the
 story's Used-where. Save as **Script**. Offer the 30–45s Short cut now.
 
 ## Step 3 — Thumbnail brief

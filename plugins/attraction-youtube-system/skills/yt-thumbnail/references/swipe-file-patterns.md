@@ -10,7 +10,7 @@ not in this file.*
   read after a month, never on day one (friends inflate the first days).
 - **The psychology of a click:** curiosity (pain to run from, or pleasure to run toward) · emotion (speak to
   a pain point, a desire, or a strong opinion) · clarity (what the video is about, in seconds).
-- **Bold and emotional beats complex and clever.** High contrast, branded, the member's face in every one,
+- **Bold and emotional outranks complex and clever.** High contrast, branded, the member's face in every one,
   big emotion, simple composition.
 - **3–5 words max, large bold text.** Never a sentence.
 - **The thumbnail text is DIFFERENT from the title.** Two chances to earn the click; the same words waste one.

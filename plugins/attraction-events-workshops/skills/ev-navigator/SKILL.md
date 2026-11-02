@@ -103,7 +103,7 @@ Read `${CLAUDE_PLUGIN_ROOT}/shared/events-doctrine.md` §2 now. Decide from the 
    recommend it; if they asked, say Mike's line kindly and recommend virtual: *"Mike's rule: evergreen pays off
    past 250 agents and needs a team to run it — before that it's expensive and overwhelming. A live Zoom
    training gets you the same curiosity for free, and we'll record it so an evergreen version is easy later."*
-2. **Live local** when `avatars.md → geography` is local, or they build a local team or brokerage, or
+2. **Live local** when `profile.md → What they are building` is a local team or a local brokerage, or
    `organization.md` has agents in the same market who'll bring guests, or they have a co-host and a room in
    mind, or they said "local" / "in person" / "mastermind."
 3. **Virtual** otherwise — and always for a first event unless #2 is clearly true: it's free, it needs no venue,

@@ -20,7 +20,7 @@ week is below):
 - *attraction* = **Proof** (an agent's win, the weekly call, an event, new training) + **Personality** (the
   person behind the business)
 - *authority* = **Authority** (teach) + **Perspective** (a take, a myth, a question answered)
-- *story* = **Story** (one journey beat with a point)
+- *story* = **Story** (one journey moment with a point)
 The member's own mix in `publishing.md` overrides the default. Mike's sample week (`07-instagram/90`): Monday
 value · Tuesday recognition · Wednesday leadership insight · Thursday culture / event recap · Friday personal or
 opinion. Three Reels a week is the floor; five is the goal (`07-instagram/88`). If their cadence is three, the
@@ -37,7 +37,7 @@ month is 12 Reels: 1 attraction · 1 authority · 1 story each week — say so p
   - The member's own ideas and this month's objections land in Weeks 1–2, not Week 4.
   - No story is used twice in the month; no pillar has more than two Reels in a week.
   - Every Reel ends on a rung; the keyword appears on at least three Reels a week; the direct call-rung ("book a
-    call" as the Reel's CTA) at most once in the month, and only as a why-join-me beat — an OS rule, not a Week 3
+    call" as the Reel's CTA) at most once in the month, and only as a why-join-me moment — an OS rule, not a Week 3
     lesson.
   - Brokerage and opportunity content is woven through (a Proof Reel about the weekly call, a Perspective Reel on
     "the brokerage isn't the reason") — never a week of it.

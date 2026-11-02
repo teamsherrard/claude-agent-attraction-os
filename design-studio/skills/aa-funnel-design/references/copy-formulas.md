@@ -10,10 +10,9 @@ each element is; the label itself never prints.
 
 - Opt-in: the button is **"Get the Free Guide"** — the one phrase the member's whole system uses (the
   page top, middle and bottom, the bio, the videos, the ManyChat keyword).
-- The opt-in page's Book-a-call area and the thank-you's call line: **"Book a call with me"** — the Book's
-  primary CTA, verbatim, unless the doc's `CTA button:` line in that section carries the member's own
+- The opt-in page's Book-a-call area and the thank-you's call line: **"Book a call with me"** — the brief's primary CTA, verbatim, unless the doc's `CTA button:` line in that section carries the member's own
   phrase (their Brain's primary CTA wins). The only button on the opt-in page that isn't the opt-in's.
-- Partner Call booking page: **"Book a call with me"** — the Book's primary CTA, verbatim.
+- Partner Call booking page: **"Book a call with me"** — the brief's primary CTA, verbatim.
 - Workshop registration: **"Save my seat"** (or the Events doc's phrase, verbatim).
 - The thank-you's download button names the ACTUAL guide: *"Download the Five-Step Sunday Routine"* —
   never a generic "your guide".

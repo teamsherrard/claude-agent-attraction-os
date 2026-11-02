@@ -42,7 +42,7 @@ where the two disagree, the OS-wide view wins and this file is wrong.*
 | File | Used for |
 |---|---|
 | `brain.md` · `config.md` | the index · provider, timezone, locale, CRM, `Member code`, whether the AI Admin is installed (a block whose heading starts with `## AI Admin`, first line `AI Admin: set up [date]`), the Lead Magnet block's `List tool`, the Conversion block's `Booking page` |
-| `identity/avatars.md` | the type of agent the event is for, their pains in their words, the geography (local / state or province / national — the format pick), where they gather, the ask that fits |
+| `identity/avatars.md` | the type of agent the event is for, their pains in their words, where they gather, the ask that fits — never a geography (`reach: anywhere`); the live-local format pick comes from `profile.md → What they are building` (a local team or local brokerage) and the member's own words |
 | `identity/offer.md` | the hot topic from "What worked for them" and "Teach first" — and, once the Partner Offer is a program definition, ONE step of `## The framework` taught live; what sits below the waterline in the close (`## The program` — name · type · cadence — and the deliverables table; What's included, the first 30 days on an older offer file); the UVP line; `Status: seeds` → "what you have to give so far" |
 | `identity/positioning.md` | the one-line "why I'm here" for the host intro; what stays for the private call (never on a slide) |
 | `identity/proof.md` | the credibility line on the registration page and the host intro; an agent's win told from the stage (consent); organization size for the evergreen gate |
@@ -51,7 +51,7 @@ where the two disagree, the OS-wide view wins and this file is wrong.*
 | `memory/organization.md` | the member's agents who come, bring a guest, host a table, and follow up with their own guests; the count for the evergreen gate |
 | `identity/operations.md` | capacity (hours, working days), the booking link, the 3-way partner, the weekly model call (the thing "below the surface"), the tech stack, the follow-up rhythm's quarterly invitation |
 | `identity/voice.md` · `voice-samples.md` · `voice-print.md` | every draft sounds like the member; the run-of-show reads like they talk (voice-print) |
-| `identity/story-bank.md` · `identity/journey.md` | the one story in the close; the mirror beat in the host intro; former brokerages never named |
+| `identity/story-bank.md` · `identity/journey.md` | the one story in the close; the mirror moment in the host intro; former brokerages never named |
 | `identity/brand-visual.md` | the design briefs to `aa-event-design` and `aa-funnel-design` |
 | `identity/profile.md` · `identity/goals.md` (read only) · `memory/scorecard.md` (read only) | who the member is; the weekly activity the conversion goals anchor to; this quarter's calls target for the analytics verdict — never written here |
 | `memory/pipeline.md` (read; direct write only before the Admin — below) · `memory/conversations.md` (read only) | where a named attendee already stands; what they said before the event |

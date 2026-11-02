@@ -107,7 +107,7 @@ which render exactly as before:
   (with 18+ chapters the contents runs onto a second page; expected, and still one CONTENTS). Row text
   left of `::` must match the chapter band character-for-character; a mismatch prints
   `WARNING: TOC entry "…" has no matching heading` on stderr — treat any warning as a failed build.
-- **`PART I — TITLE` / `CHAPTER N — TITLE` CAPS bands** get an eyebrow kicker, a page break before
+- **`PART I — TITLE` / `SECTION N — TITLE` (or the older `CHAPTER N — TITLE`) CAPS bands** get an eyebrow kicker, a page break before
   each, the bookmark the contents links to, and an outline level (Google Docs shows every chapter in
   its outline sidebar).
 - **`>> ` insight callouts** — a line starting `>> ` renders as an indented key-insight block with an
@@ -118,7 +118,7 @@ which render exactly as before:
 - **Header + footer** (title · member line + eyebrow · `Page X of Y`) render automatically on every page
   after the cover.
 - **Long inputs are appended band by band, never emitted in one block** — the renderer cannot tell a cut-off
-  input from a finished one, so a Book's input file is written one PART/CHAPTER at a time and passes the
+  input from a finished one, so a Book's input file is written one SECTION (or PART/CHAPTER) at a time and passes the
   structural pre-check (band and contents-row counts) before `render_doc.py` runs; the rule and the exact
   check live in `brain-book-spec.md`, build pipeline step 3.
 The Book's full structure contract (what goes in the TOC rows, callout discipline, chapter labels)

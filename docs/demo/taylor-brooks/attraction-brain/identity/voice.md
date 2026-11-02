@@ -2,7 +2,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Voice & Brand Personality
 *identity · shapes the tone of every script, caption, DM, email, and partner-call line*
-*Owner: `attraction-brain-setup` (Phase 6, Stop 12) writes it first; `attraction-brand-persona`'s update path ("update my voice") owns every later edit. `attraction-voice-print` owns only `voice-print.md`. Signature phrases and the never-say list are DRAFTED from how they type, never asked.*
+*Owner: `attraction-brain-setup` (the voice stop — drafted from the three spoken answers and how they type) writes it first; `attraction-brand-persona`'s update path ("update my voice") owns every later edit. `attraction-voice-print` owns only `voice-print.md`. Signature phrases and the never-say list are DRAFTED from how they type, never asked.*
 
 **Closest to how they talk:** warm and patient, with a calm-numbers streak — "a teacher who likes a spreadsheet"
 **How they describe themselves (their own words):** "I'm not a hype person. I'm the person who writes the steps on the board and then watches you do it."

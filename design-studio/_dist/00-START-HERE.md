@@ -55,7 +55,7 @@ and hand you a paste-ready brief or a finished doc; Claude Design *builds* the v
 
 **Skip 1 if you love your logo.** Run 2 and 3 in the same week your Brain is built — your Brain's health
 check counts the kit (a logo file + the style sheet + a profile graphic in `02 · Brand`) as a Week 1
-item, and your Brain Book shows the kit on its next regenerate ("show me my Brain").
+item (the Book itself carries no brand page — your Design System and the Design Package brief do).
 
 ## THE REST OF THE STUDIO (all built — upload each file when its week opens)
 

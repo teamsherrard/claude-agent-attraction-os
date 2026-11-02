@@ -41,7 +41,9 @@ the Events block; push. Never ask again. The **event code** is `[code]-[ws|vt|ew
 `events.md` + 1 (01 for a first). Say it once in the brief; never explain the mechanics out loud.
 
 ## Step 2 — The brief's decisions (one stop, 2–4 questions, each pre-answered from the Brain)
-Read now: `identity/avatars.md` (the primary type, their pains in their words, geography, where they gather) ·
+Read now: `identity/avatars.md` (the primary type, their pains in their words, where they gather — never a
+geography; `reach: anywhere`) · `identity/profile.md` (`What they are building` — a local team or brokerage, with the
+member's own words, decides the live-local format) ·
 `memory/organization.md` (how many agents can bring a guest; who could co-host) · `identity/operations.md`
 (hours, the weekly model call, the 3-way partner, the tech stack) · `memory/ideas.md` → rows tagged `event` (an
 idea they captured on the go — use it first) · `memory/intel.md` (an industry shift worth a theme) ·
@@ -68,12 +70,12 @@ member reacts.
 
 ## Step 3 — Positioning (no question — written, then shown)
 Read now: `identity/positioning.md` (the one line) · `identity/proof.md` (what's real) · `identity/journey.md`
-(the mirror beat) · `memory/magnets.md → ## Current magnet` (the second CTA).
+(the mirror moment) · `memory/magnets.md → ## Current magnet` (the second CTA).
 - **The name** — what it teaches, for whom, brokerage-neutral: "[Topic] for [City] Agents — a free workshop" /
   "[Outcome] Without [the pain] — a free Zoom training for agents." Never "recruiting," never the brokerage.
 - **The one-line promise** (the hero line the page and the invite reuse): outcome, who it's for, free.
 - **Why the member, in one line** — from `positioning.md`'s "why I'm here" and one proof line (`proof.md`); the
-  mirror beat from `journey.md` ("I was the [type] who…").
+  mirror moment from `journey.md` ("I was the [type] who…").
 - **The close, named now** — the tip-of-the-iceberg transition (doctrine §7) and what sits below the water:
   the real things from `offer.md` — the program by name and type with its cadence (`## The program`) and the
   deliverables table, or `What's included` on an older offer file (the weekly call from `operations.md`, the
@@ -89,7 +91,9 @@ Read now: `identity/goals.md` (the weekly activity the conversion goals anchor t
   a repeat compares to the last block in `events.md`.
 - **Conversion goals** anchored to `goals.md → weekly activity`: *"Your week calls for [n] conversations and [n]
   calls — the event should produce a week's worth in a night: [n] conversations started, [n] calls booked from
-  the room."* Labeled as the member's own pace, not a promise.
+  the room."* Labeled as the member's own pace, not a promise. At `Status: seeds` use the proposed line,
+  labelled "proposed"; no proposed line either → *"no weekly target yet — say 'set my attraction goals'"* and
+  no anchored number.
 - **The share plan** (`/74`, `/75`): every agent in the organization brings one guest and posts the event on
   their stories (count: [n] agents → [n] guests as the floor); every speaker posts it; partners send it to their
   lists (`lm-partnerships` writes that line — name the hand-off in plain words).

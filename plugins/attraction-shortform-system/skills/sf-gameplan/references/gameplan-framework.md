@@ -20,7 +20,7 @@ so and this framework labels the rule an OS default.
 | # | Section | Floor | What it holds |
 |---|---|---|---|
 | — | Title + meta + READ THIS FIRST | — | `[NAME]'S SHORT-FORM GAME PLAN` · attracting · known for · prepared · the stamp. Then three sentences: the verdict (where their short-form is today — a feed that pulls clients, a blank slate, a consistent leader with no keyword), the insight, the plan in one line; then the first post to film (row 1), the batch day, and the compliance line if `unset`. |
-| 1 | Positioning for short-form | 150+ | who they attract (the type, the pain in their words, the mirror beat) · the one line · the short-form job (Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation) · the keyword · the two CTAs · why I'm building this |
+| 1 | Positioning for short-form | 150+ | who they attract (the type, the pain in their words, the mirror moment) · the one line · the short-form job (Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation) · the keyword · the two CTAs · why I'm building this |
 | 2 | The five pillars, three angles each | 400+ | Authority · Perspective · Story · Proof · Personality — exact names; per pillar a two-line summary and three angles (hook · for whom · pain · what it carries) |
 | 3 | The format mix and the weekly cadence | 200+ | the number · the mix ("the OS default until Mike's decision") · the formats and what each is for · platforms in order · the batch day · the 15-minute routine |
 | 4 | The hook bank | 250+ · exactly 30 | six per pillar; pillar · for whom · rung on every line; `starter` where seeded |
@@ -59,7 +59,7 @@ never a file or skill name. The pillar names are the OS vocabulary and are never
 |---|---|---|
 | **Authority** — what I teach | the known-for (`strategy.md`), the offer's Teach-first lines and `## The framework`'s steps when written, the avatar's pains; 8–12 topic seeds in the summary, the three strongest as angles; "cast a wide net around your niche" | `06-content-framework/37` · `07-instagram/88` |
 | **Perspective** — what I believe | the takes the member holds (the "one thing they wish struggling agents understood"), the objections heard (`memory/objections.md`), three myths to bust; never about a named brokerage or person | `07-instagram/88` · `03-model-positioning/13` |
-| **Story** — where I've been | the three journey beats with "who relates to this", the `## Why join me` breath, the story-bank hooks tagged for a Reel; former brokerages never named ("a franchise", "an independent") | `06-content-framework/39` · `/40` |
+| **Story** — where I've been | the story's three turning points with "who relates to this", the `## Why join me` breath, the story-bank hooks tagged for a Reel; former brokerages never named ("a franchise", "an independent") | `06-content-framework/39` · `/40` |
 | **Proof** — what's happening in my world | agents already helped (`proof.md`, consent column — otherwise first name or initials), the weekly call, the training, the events, the recognition; the upline's proof labeled as the upline's; zero proof → one honest line and "earn it by helping agents free" (`04-value-proposition/33`) | `06-content-framework/38` · `07-instagram/88` |
 | **Personality** — who I am off the clock | the profile's "before real estate" line, the journey, the passions and routines they will share; the off-limits list | `07-instagram/88` · `/89` |
 
@@ -76,7 +76,7 @@ blank there. Write `content-pillars.md` on the yes — the file shape is the con
   lesson of Mike's — label it **"the OS default until Mike's decision"** in the doc (doctrine §15). Attraction =
   Proof + Personality · authority = Authority + Perspective · story = Story (§9d). At three a week: 1 · 1 · 1.
   Mike's sample week (`07-instagram/90`) is the fallback shape.
-- **Formats**: the talking-head Reel (30–60 s, hook → value → one CTA, captions the only mandatory edit, raw beats
+- **Formats**: the talking-head Reel (30–60 s, hook → value → one CTA, captions the only mandatory edit, raw is better than
   polished — `07-instagram/90`) · the green screen (Perspective on brokerage and industry news from `memory/intel.md`,
   facts with a source, never a dig) · the carousel (no filming; "Why I switched — no names", pain-point,
   myth-busting; a LinkedIn document post for team leaders and broker-owners) · stories (one to five a day, never a
@@ -131,7 +131,7 @@ blank there. Write `content-pillars.md` on the yes — the file shape is the con
   one Proof, one Personality, one Perspective — an agent who finds them in Week 1 can answer the five profile
   questions from the feed alone); the member's own ideas and this month's objections in Weeks 1–2; no story used
   twice; no pillar more than twice in a week; the keyword on at least three rows a week; the direct call rung at
-  most once in the month and only as the why-join-me beat; brokerage and opportunity content woven through, never
+  most once in the month and only as the why-join-me moment; brokerage and opportunity content woven through, never
   a week of it; nothing invented — no stat without a source, no story not in the bank, no win without consent.
 - **STORIES, DAILY** is a standing line, never twenty story rows: the four-category rotation every day; the rhythm
   morning · midday · evening (`07-instagram/90`); the daily stories prompt (section 8) drafts them when it is on.

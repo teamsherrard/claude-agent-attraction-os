@@ -70,7 +70,7 @@ kindness, not a put-down — "I don't want to waste your time."
 ## 3. The one formula (the same every time — `/74`, `/75`, `/76`)
 
 "You start to see the consistency here. It's the same process every time, just slicing and dicing in different
-avenues" (`/76`). Every format runs the same six beats:
+avenues" (`/76`). Every format runs the same six steps:
 
 1. **Pick a hot topic agents care about** (§4).
 2. **Market it** — personal invites, social posts (especially stories), the email list, and get everyone to share
@@ -356,7 +356,7 @@ figure, a competitor's name with a flaw attached, "I need to think about it"-sty
 
 ## 17. What is thin or missing in the vault (say so; never invent)
 
-- **Run-of-show timings.** The vault gives the beats (training → Q&A → light transition → networking) and the
+- **Run-of-show timings.** The vault gives the steps (training → Q&A → light transition → networking) and the
   Austin example (~200 people, a networking hour after, a private after-party for the organization's agents —
   `/74`), not minute counts. The 60-minute virtual and 90-minute-plus-networking live shapes in this plugin are
   the builder's defaults, labeled as such.

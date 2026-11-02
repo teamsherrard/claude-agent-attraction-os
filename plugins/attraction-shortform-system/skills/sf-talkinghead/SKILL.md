@@ -80,7 +80,7 @@ choose the top 3 yourself — one line of why each — and offer to script them 
 **Read `references/script-guide.md`.** **Open now — the writing step:** `identity/voice-print.md` (their SPOKEN voice:
 scripts are read aloud, so write for the ear in their cadence and signature phrases; empty → `voice.md` alone; never
 fabricate) · `identity/voice.md` + `identity/voice-samples.md` (tone + their real phrasing) · `identity/journey.md`
-(incl. `## Why join me` if written) + `identity/strategy.md` (the story beats, the known-for) · `identity/positioning.md`
+(incl. `## Why join me` if written) + `identity/strategy.md` (the story's turning points, the known-for) · `identity/positioning.md`
 (the one line "why I'm here"; what stays for the private call — never in a Reel) · `identity/proof.md` (wins with
 consent for Proof Reels; first name / initials otherwise) · `identity/offer.md` (the resource for the Resource rung;
 Status `seeds` → fall back to the free thing they give today or "book a call"; never demand the Week 2 offer) ·
@@ -92,11 +92,11 @@ For EACH Reel, use these exact section names:
   contrarian · number/stakes · mistake · callout · curiosity-gap — never three of the same), the strongest marked
   with one line why. The first word is the hook. Never "stop scrolling", never "hey guys", never credentials first.
 - **THE SCRIPT** — word-for-word, written for speech, **30–60 seconds (~80–150 words, show the count)**. Shape:
-  hook → the turn → 2–3 beats of real substance (the story's point, the teach, the take, the proof) → the CTA
+  hook → the turn → 2–3 steps of real substance (the story's point, the teach, the take, the proof) → the CTA
   line with the keyword, said plainly. Every line sayable in one breath; in their spoken cadence.
-- **THE BULLET VERSION** — the same Reel as 5 riff beats (hook and CTA word-for-word). Most members film from
+- **THE BULLET VERSION** — the same Reel as 5 riff lines (hook and CTA word-for-word). Most members film from
   this — give it equal weight.
-- **THE SHOTS** — one line per beat: where to stand, what to show, the one b-roll to grab (a screenshot of the
+- **THE SHOTS** — one line per step: where to stand, what to show, the one b-roll to grab (a screenshot of the
   call for Proof, the kitchen table for Story — simple, phone-filmed).
 - **THE CTA** — the rung, in their words, with the keyword: *"Comment **PARTNER** and I'll send you the whole
   thing."* One rung per Reel; the call only after a conversation; never the model by DM. The line comes from the

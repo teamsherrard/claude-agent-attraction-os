@@ -2,10 +2,10 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 
 # Taylor — Brand: Inventory & Direction
 *identity · the LEADER brand agents will follow · the Brain captures inventory and direction, derives the Creative direction, and issues the Design Package brief; Claude Design builds the visuals through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`)*
-*Owner: `attraction-brand-direction` (Setup Phase 6, Stops 13–14). Read by the Design Studio skills (via the Brain Book), the AI Editor (colors + fonts), every graphic. "show my design package brief" prints the brief block below any time.*
+*Owner: `attraction-brand-direction` — the second Week 1 chat ("my attraction brand direction"), run after the Brain was built, never inside Brain setup (demo: run 2026-09-30). Read by the Design Studio skills (the Design Package brief, saved to `02 · Brand`), the AI Editor (colors + fonts), every graphic. "show my design package brief" prints the brief block below any time.*
 *Doctrine: `shared/brand-doctrine.md` — authority · relatability · aspiration; the leader brand stays visually distinct from the brokerage's own colors; the brokerage logo appears where the local board and the brokerage require it, as compliance.md says.*
 
-## Inventory (Stop 13 — the three-state front door)
+## Inventory (the brand chat — what exists, one question at a time)
 - **Logo:** I have one but it's not quite right (refresh mode — change only what's flagged: keep the "TB" monogram, drop the little house icon, add a wordmark for "The Sunday Table") · file: `02 · Brand/logo.png` [present — demo]
 - **Colors in use today:** no hex codes — "my Instagram is a lot of green and cream"
 - **Fonts in use today:** none — "whatever the app picked"
@@ -15,7 +15,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - **Brokerage brand constraints:** the brokerage name and license display per compliance.md; the brokerage's logo where the brokerage requires it; ours stay visually distinct from the brokerage's own colors (the brokerage's hex values are not recorded here — demo)
 - **Examples:** uploaded to Brand HQ — the current Instagram grid (green and cream, phone photos at the kitchen table), the old TB logo file, two screenshots of a whiteboard channel's thumbnails (demo); the design skills study them for direction and never copy
 
-## Direction (Stop 14 — ONE question, skipped when the Brain already holds the feel and the references)
+## Direction (the brand chat — derived from the Brain and the three spoken answers; the member reacts in one message)
 **Feel (the member's own sentence):** "Like a well-kept classroom, not a sales floor — calm, warm, and I actually show you the routine."
 **References (admired, never copied):** a whiteboard-first explainer channel (the board is the brand) · a cream-and-green stationery line (the paper feel) · a Sunday newsletter's typography (serif headline, quiet body) — all unnamed (demo)
 **Colors (direction — ~4–5 with hex + role; proposed by the Brain, confirmed by the style sheet):** (illustrative — demo)

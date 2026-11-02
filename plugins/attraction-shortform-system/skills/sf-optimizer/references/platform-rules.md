@@ -82,7 +82,7 @@ LinkedIn is where producers and leaders read; the video is optional there.
 Produced once per video, for the editor, as text:
 - **Cover text** — the bold 3–6 word overlay on the first frame; it teases the payoff, never summarizes.
   Examples: "I almost quit in year two" · "The DM script that books calls" · "What leading 40 agents taught me."
-- **On-screen cues** — 2–3 overlays (≤6 words each) at the beats that reinforce the spoken line: the
+- **On-screen cues** — 2–3 overlays (≤6 words each) at the moments that reinforce the spoken line: the
   mistake, the turning point, the one tactic.
 Text instructions only; never rendered here.
 

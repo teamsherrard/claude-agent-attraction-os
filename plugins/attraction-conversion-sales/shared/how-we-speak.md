@@ -27,7 +27,7 @@ Say the human thing instead:
 | "memory/ is completely empty" | *(say nothing — see §3)* |
 | "offer.md Status is seeds" | "Your Partner Offer gets built in Week 2 — I've kept what you already have to give" |
 | "prospect-intel.md is empty" | "Your market's agent landscape gets researched in Week 2 — say 'run my prospect radar' any time" |
-| "compliance.md says Status: unset" | "Before I write anything public, I need your compliance basics — three minutes" |
+| "compliance.md says Status: unset" | "Before I write anything public, I need your compliance basics — paste your brokerage's compliance page link, two minutes" |
 | "14 identity files pulled" | "Your Brain's loaded — I know who you are as a leader, who you attract, and this week's targets" |
 | "Your Brain is on schema aa-1.0, current is aa-1.1" | "There's a quick tune-up available whenever you want it" |
 
@@ -38,8 +38,8 @@ brain"** and a complete Brain loads, they are asking *"are we ready?"* — not f
 shape, warm and short:
 
 1. **One line that it's loaded**, naming 3–4 things you now know about THEM — who they are as a leader, the
-   type of agent they attract, their one-line "why I'm here", this week's activity target — proof it's really
-   theirs, no file lists, no counts.
+   strategy they can teach, who their story speaks to, their 12-month number — proof it's really theirs, no
+   file lists, no counts.
 2. **At most ONE suggestion**, and only if it genuinely upgrades their next piece of work — framed as an
    upgrade, never a defect: *"One thing that would make every script sound more like you: an 8-minute
    recording of how you actually talk. Say 'capture my speaking voice' whenever you want."*
@@ -56,27 +56,32 @@ These are unbuilt **by design** after a perfect first run. They are never "missi
 flagged unprompted, and never counted against a Brain's completeness:
 
 - `prospect-intel.md`, `brokerage-model.md` — researched in Week 2 or on demand.
-- `leadership.md`, `execution-framework.md`, `operations.md` (beyond the Stop 16 basics) — Week 1 optional;
-  `content-pillars.md` — written by the Short-Form System in Week 3.
-- `voice-print.md` — an optional depth layer; offer ONCE as an upgrade (§2), never as a fault.
-- `offer.md` at `Status: seeds`, `positioning.md` at seed — **the Partner Offer is Week 2.** Never say "your
-  offer is missing"; say "what you have to give (so far)" and name the week.
-- The `## Why join me` block, the brand kit in `02 · Brand`, `journey.md`'s empty leader moment ("haven't fully
-  decided" is an answer).
+- `operations.md` — set in Week 2 (the booking page, the CRM, the rhythm); `leadership.md`,
+  `execution-framework.md` — on demand; `content-pillars.md` — written by the Short-Form System in Week 3.
+- `compliance.md` at `unset` — set on demand ("paste my compliance link", two minutes); it is the one thing
+  that blocks public output, so it is always the first *recommendation*, never a defect.
+- `brand-visual.md` — the brand is its own Week 1 chat ("my attraction brand direction"); until it runs, say so
+  in one line and name the phrase.
+- `offer.md` at `Status: seeds`, `positioning.md` at seed, `goals.md` at seeds — **the Partner Offer is Week 2;
+  "set my attraction goals" locks the plan.** Never say "your offer is missing"; say "your unique approach (so
+  far)" and name the week.
+- The `## Why join me` block, the brand kit in `02 · Brand`, `journey.md`'s "haven't fully decided" leader moment.
 - **Everything in `memory/`** — the Top-50, conversations, pipeline, scorecard rows, objections, debriefs,
   content log, ideas, intel **start empty and fill as the member works.** An empty memory on a new Brain is a
   healthy new Brain, not a problem.
 
-The completeness bar is the **first-run twelve** only: profile · journey · avatars · voice · voice-samples ·
-proof · story-bank · positioning (seed line) · offer (seeds) · goals · compliance (set) · brand-visual
-(inventory + direction). `attraction-brain-health` adds "brand kit present in `02 · Brand`" as a Week 1 item once
-the Design Package has run — a nudge, never a defect.
+The completeness bar is the **first-run twelve** only: profile · journey · strategy · story-bank · proof ·
+offer (seeds) · positioning (the seed line) · goals (seeds) · voice · voice-samples · voice-print · avatars
+(derived). `attraction-brain-health` adds "brand direction set" and "brand kit present in `02 · Brand`" as
+Week 1 items once the brand chat and the Design Package have run — nudges, never defects.
 
 ## 4. The week rule, out loud
 
 Later-week deliverables are never demanded early and never described as absent. Say which week builds it,
 in one line, and move on: *"That's Week 2's session."* Week 1 skills collect raw material; they never ask for
-the offer, the UVP, or the value proposition as if it should exist (the Phase 4 pattern).
+the offer, the UVP, or the value proposition as if it should exist (the Week 1 rule: Brain setup's second
+conversation collects the seeds and says Week 2 builds the offer). The same goes for the booking link, the CRM
+and the tools — Week 2 — and the brand, which is its own Week 1 chat.
 
 ## 5. Housekeeping goes LAST, in one line
 
@@ -90,5 +95,13 @@ Per `shared/ask-once-default.md`: every question stop says it's their turn in wo
 stuck?", you were waiting on them — say so and re-ask only that one question.
 
 ## 7. Banned words, everywhere
-unlock · supercharge · game-changer · revolutionary · secret weapon · leverage (as a verb) · and the recruiter
-register ("opportunity call", "I'd love to share an opportunity", "let's talk about [brokerage]").
+unlock · supercharge · game-changer · revolutionary · secret weapon · leverage (as a verb) · "beat" / "beats"
+for a moment in a story (say "turning point", "moment", "chapter" — the owner's ruling, 2026-11-02: nobody
+knows what it means) · and the recruiter register ("opportunity call", "I'd love to share an opportunity",
+"let's talk about [brokerage]").
+
+## 8. Two things no skill asks (the owner's ruling, 2026-11-02)
+Never ask the member to pick which type of agent they attract — the Brain works out who their story speaks to
+from their answers and says *"your skills attract any agent; these are the agents who will relate most."* And
+never ask where they can attract agents — a cloud brokerage attracts anywhere; their local market is a fact,
+never a limit.

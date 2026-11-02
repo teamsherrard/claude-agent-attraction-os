@@ -8,7 +8,7 @@ events) reads it, so you never explain yourself twice.
 
 This guide takes you from a Claude account to a built Brain, a connected home base, and your brand kit, in the right
 order, with the exact phrases to type. Plan about two hours across Week 1: ten minutes to install, five to connect
-your tools, fifty for your Brain in one sitting, and the brand the same week.
+your tools, about 45 minutes to an hour for your Brain in one chat, and your brand in a second chat the same week.
 
 Lost at any point? Once your help desk is installed, say `am I set up right` and it finds the one step you are
 missing. Nobody starts over.
@@ -24,16 +24,16 @@ missing. Nobody starts over.
 - **A Google account** (Drive, Gmail, Google Calendar) **or a Microsoft 365 account** (OneDrive, Outlook mail and
   calendar). Your Brain lives in your own cloud storage, and you pick one world during setup. A free Google account
   is fine.
-- **Somewhere to keep the agents you talk to:** GoHighLevel, Follow Up Boss, or a Google Sheet. A Google Sheet is
-  free and a real answer.
 
 **Optional — doors that open when a week needs them, never requirements to keep up**
 
+- **Somewhere to keep the agents you talk to** (Week 2) — GoHighLevel, Follow Up Boss, or a Google Sheet. A Google
+  Sheet is free and a real answer.
 - **Riverside** (Week 3, your own account) — the AI Editing Studio records, edits, and publishes through it.
 - **ManyChat** (Week 3, your own account, free plan first) — only if you run the comment-to-DM keyword sequences.
   The sequence templates are a Week 3 bonus asset you import into your own account; there is no plugin for it.
 - **Metricool** (Week 3) — only if you want posts scheduled for you. Posting by hand is free.
-- **A booking page for your partner call** (Week 5) — Calendly, or the one inside GoHighLevel; many brokerages and
+- **A booking page for your partner call** (Week 2) — Calendly, or the one inside GoHighLevel; many brokerages and
   CRMs include one.
 - **Zoom** for the private call — Google Meet or Teams works too.
 
@@ -81,12 +81,12 @@ checks this with the very first file it saves, before it asks you a single quest
 is blocked. Your options: ask your IT or broker admin to turn on **write actions** for Claude's Microsoft 365
 connection, or set up on a free Google account instead so nothing blocks you today.
 
-**Your CRM:** a Google Sheet needs no connection. GoHighLevel or Follow Up Boss connect in Week 5 when the AI Admin
-and the sales system ask for them — not now.
+**Your CRM:** a Google Sheet needs no connection. You name your CRM in Week 2's tools conversation; GoHighLevel or
+Follow Up Boss connect when a system asks for them — not now.
 
 ---
 
-## 4. Build your Brain (about 50 minutes, one sitting)
+## 4. Build your Brain (about 45 minutes to an hour, one chat)
 
 Open a new Cowork chat and type:
 
@@ -94,38 +94,41 @@ Open a new Cowork chat and type:
 Set up my attraction brain
 ```
 
-**The tip that matters.** This is a long session. Pick **Opus** at **Medium** effort in the model picker at the
-bottom of the chat window, run it in one sitting, and start it early in your weekly usage window — not the night
-before it resets.
+**The tip that matters.** Pick **Opus** at **Medium** effort in the model picker at the bottom of the chat window,
+run it in one sitting, and start it early in your weekly usage window — not the night before it resets.
 
 **The first two minutes.** It checks which world you're in (Google or Microsoft) and asks only if both or neither
 are connected. It asks what to call your home base — "Agent Attraction OS" works, or your organization's name; you
-can rename it anytime. Then it offers to read anything you already have: an old recruiting deck, a bio, your
-brokerage's onboarding doc, a CRM export, past videos. Paste them or drop them in your Materials folder and you type
-less. If it finds a Realtor AI Brain on your account, it offers to pull your name, market, voice, brand, and proof
-across so you skip those questions (section 7).
+can rename it anytime. If it finds a Realtor AI Brain on your account, its next question is whether to bring over
+your name, market, voice, brand basics and proof so you skip those questions (section 7). Then it offers to read
+anything you already have: an old recruiting deck, a bio, your brokerage's onboarding doc, a CRM export, past videos.
+Paste them or drop them in your Materials folder and you type less — or say "skip" and you just talk.
 
-**Seven short conversations.** Two to four questions at a time, never one an hour. It tells you where you are
-("3 of 7, about 20 minutes left") and says "your turn" when it's waiting on you.
+**Four conversations, one plain question at a time — about 26 questions — then three answers out loud.** Never a
+bundle, never a form. It tells you where you are ("2 of 5, about 20 minutes left") and says "your turn" after every
+question. Short, messy answers are perfect; "I don't know" just moves on.
 
-1. **Who you are as a leader** — your basics, your brokerage and the real reason you joined, your journey in three
-   beats, your why.
-2. **Who you attract** — the six types of agent, which one you were, your one to three Agent Avatars.
-3. **Your stories and your proof** — six story seeds (one line each, just the scene) and the wins and numbers you'd
-   say out loud. Nothing is invented; "none yet" is a real answer.
-4. **What you already have to give** — what produced your business, what your brokerage and your upline provide.
-   Raw material only: your Partner Offer is built in Week 2, and setup says so before it asks.
-5. **Your numbers** — 12-month and 90-day targets, the hours you can honestly give, how your plan works. It shows
-   three scenarios (every number illustrative, never a promise) and the weekly activity it takes.
-6. **How you sound and how you look** — your voice (paste two or three real messages you've sent), then your brand:
-   logo (I love it · not quite right · don't have one), colours, fonts, headshots, one brand or a separate leader
-   brand, your organization's name. It ends by handing you your **Design Package brief**.
-7. **Rules and tools** — how your brokerage name and licence must appear, your rev-share marketing rules, where you
-   can attract agents; your CRM, booking link, hours, who you three-way with; and when your Daily Debrief should run.
+1. **Who you are as a leader** — your name, brokerage and local market; solo, team leader or broker owner; how long
+   licensed and what you did before; why you got into real estate (your big WHY) and why you want to build a revenue
+   share organization; when you joined your brokerage, the story behind choosing it, and why your sponsor; then your
+   story — how you started, the turning points where things clicked, what your business looked like after — and the
+   moment selling houses wasn't enough.
+2. **Your unique approach** — the strategies you've used to grow your production (or what you'd love to teach), your
+   unique method, the value your upline provides, and the biggest mistakes you see agents making. Raw material only:
+   your unique value proposition and your Partner Offer are built next week, and setup says so before it asks.
+3. **Your story and your proof** — the moment you almost quit, the mistakes that taught you something, your biggest
+   achievements, the agents you've helped (in detail), and why the agents in your group joined you. Nothing is
+   invented; "none yet" is a real answer.
+4. **Your current and future state** — agents in your organization today, how many you realistically want in 12
+   months, your long-term goal, and the hours a week you can fully commit.
+5. **Your voice, out loud** — three questions you answer by voice (tap the microphone in the message box, or paste
+   what your phone's voice-to-text wrote): why you're excited about agent attraction · your WHY · why someone should
+   partner with you. This is how everything the system writes ends up sounding like you.
 
-Every question is skippable — a skip becomes an open item in your Book, never a re-ask. Stuck on one? Say "I don't
-know" and it proposes two or three options built from your own answers. Say "just make it" at any point and it builds
-from what it already has.
+**What it will not ask.** Which type of agent you want to attract — it works that out from your answers ("your skills
+attract any agent; these are the agents who'll relate most"). Where you can attract — a cloud brokerage attracts
+anywhere. Your CRM, booking link, calendar or scheduled tasks are Week 2; your brand is the second chat this week
+(section 5); compliance is whenever you need it.
 
 **Pause and resume.** It saves after every conversation. Close the window whenever you need to. Come back, type
 `Set up my attraction brain` again, and it says "looks like we started this before — want to pick up where we left
@@ -133,30 +136,41 @@ off?" and resumes at the right spot. It never re-interviews a finished Brain.
 
 **What you get at the end**
 
-- 📕 **Your Agent Attraction Brain Book** — everything the system knows about you, in one document, with a
-  "your open items" page listing anything you skipped and the week that fills it. You get the direct link.
-- 🎯 **Your 90-Day Attraction Scorecard** — your targets and the weekly activity behind them.
-- **Your home base link** — one folder in your Drive or OneDrive: 01 · AI Brain (the Book and the Scorecard),
-  02 · Brand, 03 · Content, 04 · Agents, 05 · Offer, 06 · Materials. Bookmark it. Rename it anytime. One folder inside
-  01 · AI Brain holds the working files your AI reads — leave that one alone.
-- **Your Design Package brief** — a paste-ready block for Claude Design. Copy it; section 5 uses it.
+- 📕 **Your Agent Attraction Brain Book** — everything the system knows about you, on about a dozen pages, in nine
+  short sections: who you are · your story · your brokerage story · your unique approach · your proof · who your story
+  speaks to · your numbers · your voice · what's next. You get the direct link.
+- **Your home base link** — one folder in your Drive or OneDrive: 01 · AI Brain (the Book), 02 · Brand, 03 · Content,
+  04 · Agents, 05 · Offer, 06 · Materials. Bookmark it. Rename it anytime. One folder inside 01 · AI Brain holds the
+  working files your AI reads — leave that one alone.
 - **Your project seatbelt** — a short block to paste into the Project Instructions of any Claude project, so every
   chat there loads your Brain first. Optional, ten seconds per project.
-- **Your ready brief** — who you are, who you attract, this week's activity target, and the next things to type.
+- **Two things next** — the brand chat this week (section 5), and your offer and lead magnet next week.
 
 **Then, two minutes more.** Say `set up MAA support`. It records your cohort start date and whether you're a
 fast-action buyer, so `what week am I in` and the catch-up plan work for you.
 
 **Coming back later.** `open my attraction brain` gives you the ready brief. `check my attraction brain` tells you
-the one thing to add next. To change a part, say what you want: `update my agent avatars`, `update my attraction
-brand direction`, `update my UVP`.
+the one thing to add next. To change a part, say what you want: `update my leader story`, `who should I attract`,
+`update my attraction brand direction`, `set my attraction goals`, `update my UVP`.
 
 ---
 
-## 5. Build your brand the same week (the Design Package)
+## 5. Build your brand the same week (a second chat, then the Design Package)
 
-Your Brain decided your brand direction. **Claude Design** builds the visuals. It lives at claude.ai/design, not in
-Cowork, and it reads your Brain Book (the document), not your Brain directly.
+Brain first, brand second — in a new Cowork chat, the same week. Type:
+
+```
+my attraction brand direction
+```
+
+About six minutes. It asks only what you already have, one question at a time — a logo (I love it · not quite
+right · don't have one), colours and fonts, headshots, one brand or a separate leader brand, your organization's
+name — then works out the creative direction from your Brain and the way you talked in your three voice answers,
+and shows it to you in one card. You say yes or change a line. It ends by handing you your **Design Package brief**,
+a paste-ready block for Claude Design, and saves it in your 02 · Brand folder.
+
+**Claude Design** builds the visuals. It lives at claude.ai/design, not in Cowork, and it reads your Brain Book
+(the document) plus the brief, not your Brain directly.
 
 1. **Upload the three Week 1 skills.** Get the Design Package from your Week 1 bonus assets
    `[NOT SET — where members download the Design Package]`. In claude.ai click **Customize → Skills → Upload a
@@ -186,19 +200,21 @@ Cowork, and it reads your Brain Book (the document), not your Brain directly.
 7. **Back in Cowork:** say `update my attraction brand direction` so your Brain knows the kit is done, then
    `check my attraction brain` — it counts the kit as your Week 1 brand item.
 
-**Compliance.** Nothing public exports until your compliance basics are set. Setup did this in conversation 7; if
-you skipped it, say `set up my attraction compliance` in Cowork (three minutes), then in Claude Design say
-`add my compliance line`.
+**Compliance.** Nothing public exports until your compliance basics are set, and setup never asks them. The fast
+way: in Cowork, paste the link to your brokerage's compliance or advertising page and say `paste my compliance link`
+— it pulls out the disclaimer wording, the licence display rule and the rev-share marketing policy, and you confirm
+(two minutes). No link? `set up my attraction compliance`. Then in Claude Design say `add my compliance line`.
 
 **If it forgot your brand**, attach your Design System and say "use my design system". **Starting a brand-new chat?**
 Attach the Design System and your Brain Book first. Always.
 
 ---
 
-## 6. Turn on your Daily Debrief
+## 6. Turn on your Daily Debrief (whenever you want it)
 
-The last question of setup is "when should your Daily Agent Attraction Debrief run?" (the default is 6 pm). Your
-yes creates it as a scheduled task in Cowork. Nothing is ever created without your yes.
+Setup never creates a scheduled task. When you want your Daily Agent Attraction Debrief, say `turn on my daily
+debrief` (the default is 6 pm) — your yes creates it as a scheduled task in Cowork. The AI Admin offers it again on
+its Week 5 card. Nothing is ever created without your yes.
 
 **What it does every evening:** reads your calendar and inbox (read-only), your Top 50, your conversations, and your
 scorecard; logs the day's agent conversations; scores the day against your weekly activity target; lists the
@@ -220,9 +236,9 @@ Brains, two help desks — and never overwrite each other.
 
 - Say `Set up my attraction brain`, **not** "set up my brain". The plain phrase belongs to your Realtor Brain. If
   you say it with both installed you get the realtor interview — that is the reserved phrase, not a bug.
-- **Your Realtor Brain is a head start.** Setup finds it and offers once to pull your name, market, voice, brand,
-  and proof across, so you skip those questions. You can also say `pull from my realtor brain`. It reads only and
-  never changes the realtor side.
+- **Your Realtor Brain is a head start.** Setup finds it and offers once to bring over your name, market, voice,
+  brand basics and proof, so you skip those questions. You can also say `pull from my realtor brain`. It reads
+  only and never changes the realtor side.
 - **Two help desks.** `MAA help` or `attraction help` for anything about agents, attraction, your organization,
   partner calls, or an MAA week. `SAO help` for buyers, sellers, listings, market updates, and SAO weeks. If the
   words don't decide, the desk asks once and remembers.
@@ -240,10 +256,12 @@ owns them and created only with your yes; every one is draft-only.
 
 | Week | What you install | The phrase that opens it | What switches on (with your yes) |
 |---|---|---|---|
-| **1** | **Plugin 1 · Agent Attraction Brain** | `Set up my attraction brain` | Daily Agent Attraction Debrief |
+| **1** | **Plugin 1 · Agent Attraction Brain** — the Brain chat: four conversations and three voice answers, one question at a time (section 4) | `Set up my attraction brain` | — (your Daily Debrief switches on whenever you say `turn on my daily debrief`) |
+| 1 | **The brand chat** — a second Cowork chat the same week: what you already have, then the direction derived from how you talk, then your Design Package brief (section 5) | `my attraction brand direction` | — |
 | 1 | **Plugin 2 · MAA Claude Support** | `MAA help` — and, once your Brain is built, `set up MAA support` (two minutes) | — |
 | 1 | **The Design Package** — three Claude Design skills, uploaded, not installed (section 5) | `design my attraction logo` → `build my brand style sheet` → `make my brand kit` | — |
-| **2** | **Your Brain first:** the offer, your model, your prospect list | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
+| 1 | **Compliance, when you need it** — paste your brokerage's compliance page link; it reads the rules out for you | `paste my compliance link` | — |
+| **2** | **Your Brain first:** the offer, your model, your prospect list, your numbers locked — and the tools conversation (your CRM, your working hours, who you three-way with; your booking page is built with you by the Conversion plugin's `write my booking page`) | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` · `set my attraction goals` · `set up my attraction operations` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
 | 2 | **Plugin 3 · Lead Magnet** — install this week. One phrase is a complete Week 2 session: it builds your offer first if it isn't built yet (your unique value proposition), recommends three lead magnets built from it, you pick one, and it writes the magnet and its sales funnel outline — then your bios aligned to the funnel. (Already built your offer with `build my partner offer`? It goes straight to the magnet.) | `launch my lead magnet plugin` | — |
 | 2 | **Design Studio, the Week 2 four** — the offer kit (one skill: the product mockup, the 3D offer stack, the "Join My Team" one-pager, the opportunity deck, the welcome pack, the model comparison sheet), the guide PDF and its opt-in page once your guide is written, the Partner Call booking page, and the content kit (your "Why Join Me" carousel now; carousels and win walls every week after). Upload when they are released | `my offer kit` (or one piece: `my offer stack`, `my product mockup`, `design my join my team one-pager`) · `design my lead magnet pdf` · `build my attraction funnel page` · `design my carousel` | — |
 | **3** | **Plugin 4 · Short-Form** — one phrase is the whole Week 3 session, in order: every profile you use optimized for the agents you attract (one copy-paste pack), your Short-Form Game Plan (pillars, hooks, the keyword, your next 30 days with a date on every post), your content board in Notion with those 30 days on it, your scheduled workflows, then your first Reel scripted | `set up my attraction short-form` | from one consent card: the Monday Week Plan (your week's posts drafted every Monday — recommended on) · Weekly Content Performance (Fridays — recommended on) · Daily Stories (three story ideas each morning — off unless you want it) |
@@ -257,8 +275,8 @@ owns them and created only with your yes; every one is draft-only.
 | **6** | **Plugin 9 · Events & Workshops** | `plan my workshop` | Post-Event Follow-Up |
 | 6 | **The Value Vault and your events** — two Design Studio skills: the Value Vault (your playbook, course, or ebook, plus your partner onboarding roadmap — the Day 1 → Day 30 poster, the new-partner checklist, the "where to show up" card) and the event graphics. Upload when released | `design my value vault` (or one piece: `design my playbook`, `design my course`, `design my ebook`, `design my onboarding roadmap`) · `my attraction event flyer` · and, from your content kit, `my win wall` | from the AI Admin: Monthly KPI Review · Team Wins Newsletter (Thursdays). Your Weekly Recruiting CEO Review runs whenever you say `run my CEO review` |
 
-Two rules of thumb: **Week 1 and Week 2 are never skipped** — every later system reads your Brain, your avatars,
-your offer, and your lead magnet (every later system points its CTAs at your guide). And if a plugin isn't in the marketplace yet, it switches on in its week; until then your Brain and
+Two rules of thumb: **Week 1 and Week 2 are never skipped** — every later system reads your Brain, who your story
+speaks to, your offer, and your lead magnet (every later system points its CTAs at your guide). And if a plugin isn't in the marketplace yet, it switches on in its week; until then your Brain and
 this week's systems are the whole stack.
 
 ---
@@ -285,8 +303,8 @@ touches your files — and it routes every fix to the system that owns it.
 
 - **"No Brain found" on a new computer or after a break.** Your Brain lives in your cloud; the copy on this machine
   is rebuilt from it. Say `load my attraction brain`.
-- **A skill refuses to make something public.** Your compliance basics aren't set. Say `set up my attraction
-  compliance`.
+- **A skill refuses to make something public.** Your compliance basics aren't set (setup never asks them). Paste
+  your brokerage's compliance page link and say `paste my compliance link`, or `set up my attraction compliance`.
 - **A skill won't put an income or rev-share number in public content.** By design: no earnings claims, every number
   illustrative and labelled. Compensation is answered on a private call, never in content.
 - **Claude can't read a folder on your Mac** (usually Downloads or Desktop). The Mac protects those per app. Put
@@ -306,14 +324,14 @@ welcome email and the Circle calendar]`.
 - [ ] Claude on a paid plan · desktop app installed · Cowork open
 - [ ] Marketplace added · **Plugin 1** and **Plugin 2** installed · **Sync automatically** on
 - [ ] Storage connected (Google Drive or Microsoft 365) · email and calendar connected
-- [ ] `Set up my attraction brain` — Opus, Medium effort, one sitting (about 50 minutes)
-- [ ] Brain Book and 90-Day Scorecard open · home base link bookmarked
-- [ ] Design Package brief copied
-- [ ] Daily Debrief: said yes, or `turn on my daily debrief` later
+- [ ] `Set up my attraction brain` — Opus, Medium effort, one sitting (about 45 minutes to an hour; four conversations, three voice answers)
+- [ ] Brain Book open · home base link bookmarked
 - [ ] `set up MAA support` (two minutes)
 
 **The same week**
 
+- [ ] `my attraction brand direction` — a new chat, about six minutes · Design Package brief copied
+- [ ] `paste my compliance link` — your brokerage's compliance page, two minutes (needed before anything public)
 - [ ] Three Design Package skills uploaded at claude.ai → Customize → Skills
 - [ ] **Brand HQ** project created in Claude Design · Design System file and Brain Book attached · brief pasted
 - [ ] `design my attraction logo` — or skipped because you love yours
@@ -323,11 +341,11 @@ welcome email and the Circle calendar]`.
 
 **From here**
 
-- [ ] `run my debrief` this evening
+- [ ] `run my debrief` this evening — or `turn on my daily debrief` to make it automatic
 - [ ] `build my top 50` — your first named prospects
-- [ ] `attraction weekly check-in` every Friday
+- [ ] `set my attraction goals` — lock this quarter's target and your weekly activity; then `attraction weekly check-in` every Friday
 - [ ] `just talked to an agent` — from the car, anytime
-- [ ] Week 2: `launch my lead magnet plugin` — it builds your offer first if it isn't built yet, then your lead magnet and its sales funnel outline, one sitting (`build my partner offer` on its own still works; the plugin then goes straight to the magnet)
+- [ ] Week 2: `launch my lead magnet plugin` — it builds your offer first if it isn't built yet, then your lead magnet and its sales funnel outline, one sitting (`build my partner offer` on its own still works; the plugin then goes straight to the magnet) · the same week, your tools: `set up my attraction operations` and `write my booking page`
 
 Everything here is assistance, not legal advice: check every public piece against your brokerage's advertising and
 revenue-share marketing rules.

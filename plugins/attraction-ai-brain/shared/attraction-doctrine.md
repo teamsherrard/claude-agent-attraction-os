@@ -271,6 +271,25 @@ A clear niche → a clear value proposition → faster attraction with deeper tr
 (the plan's name for this): the member's ideal agent is living the member's hardest stretch right now, two or
 three years behind them. See `persona-doctrine.md` for the six types and `brand-doctrine.md` for the niching beliefs.
 
+### 9b. Who relates is DERIVED, never chosen — and anywhere, never a place (the owner's ruling, 2026-11-02)
+
+Two doctrine lines every skill in this OS obeys:
+
+1. **The system identifies who will relate to the member from their answers; it never asks them to pick a type
+   of agent.** Left to choose, everyone picks brokers, team leaders and influencers the way every new agent picks
+   luxury. So `identity/avatars.md` is written by the Brain from the member's own story (their former self in the
+   hardest stretch), the mistakes they named agents making, and the skills they can teach — framed **"your skills
+   attract any agent; these are the agents who will relate most"**, with the pains in the member's own words. In
+   Mike's phrasing: **the member's skills are packaged to attract any agent, anywhere.** The
+   six types stay the vocabulary (`persona-doctrine.md`), named by the Brain, never selected by the member.
+   `attraction-persona-map` runs on demand only and refines what the Brain inferred; it never offers a menu of
+   types to pick from.
+2. **Where they can attract is never asked.** The whole point of a cloud brokerage is attracting anywhere. The
+   local market is captured once, as a fact, in `profile.md` (Conversation 1) and is never used to limit who or
+   where the member attracts. No skill asks "local only, your state, or national?"; `compliance.md`'s recruiting
+   scope is a doctrine default ("anywhere the brokerage operates and the agent is licensed") that never gates
+   public output; a targeting line that names a place is rewritten to name a situation.
+
 ---
 
 ## 10. The value proposition and the offer

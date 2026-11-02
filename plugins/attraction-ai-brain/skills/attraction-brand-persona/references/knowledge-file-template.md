@@ -20,60 +20,69 @@ wins and this file's content rules apply.
 ## The basics
 Name: [First Last]
 Brokerage: [as they said it — cloud brokerage / franchise / independent / local team / "none yet"]
-Market: [City, State/Province] · sells mostly [resale homes / new construction / …]
-Agent type: [solo / team leader / on a team / broker-owner]
+Market: [City, State/Province — a fact, captured once; never where they attract]
+Agent type: [solo / team leader / broker owner / on a team]
 Licensed: [year] ([N] years)
 Before real estate: [one specific line — "former high-school teacher", "nine years selling cars"]
-Outside real estate: [passions, hobbies, family life they are happy to share — "two kids under five, trail runs at dawn"; or "prefers to keep that private"]
-Building: [a downline at a cloud brokerage / a local team / a local brokerage / a mix — see strategy.md]
-Booking link / primary CTA: [URL — or "none yet"]
+Building: [a revenue share organization at a cloud brokerage / a local team / a local brokerage / a mix — and why, from "why do you want to build a revenue share organization?"]
+Attracts in: anywhere (never asked, never a limit)
+Booking link / primary CTA: [set in Week 2]
 Social handles: [Instagram / YouTube / TikTok / LinkedIn / Facebook — as known]
 
 ## Their brokerage and why
 Joined: [Month YYYY]
-The real reason: [2–3 sentences, the human reason. A mentor, the model explained properly, a wall they hit,
-a friend already there. If "the rev share": the human reason under it — "income that isn't tied to the
-next closing". No splits, caps, stock, tiers, or rev-share numbers. No former brokerage named: "a
-franchise", "an independent", "a 100% shop".]
-Out loud: "[the one line they would actually say to another agent]"  [(suggested — confirm) if drafted]
+The story behind choosing it: [2–4 sentences, the human reason — why this one over other cloud brokerages,
+whether they ignored it or had a bad taste about it first, what changed their mind. No splits, caps, stock,
+tiers, or rev-share numbers. No former brokerage named: "a franchise", "an independent", "a 100% shop".]
+What they now understand that most agents misunderstand: [one or two lines, their words]
+The sponsor, and why them: [first name · the value they bring · whether they built the kind of business the member wants]
+Out loud: "[the one line they would actually say to another agent — "(drafted — confirm)" when drafted]"
 
 ## Use it
 [One line: where this shows up — the why-join-me story, the partner call opener, the "why I joined" video.]
 ```
 
 **Rules:** human reason only; former brokerages never named; nothing negative about any brokerage or
-person; nothing invented. Booking link and social handles are profile fields (the template carries them —
-fill them when known); CRM, hours, and the call cadence live in `operations.md` (the AI Admin's file).
+person; nothing invented; the market is a fact and nothing in this file limits where they attract. Booking
+link and social handles are profile fields (the template carries them — fill them when known); CRM, hours,
+and the call cadence live in `operations.md` (Week 2).
 
 ---
 
-## `identity/journey.md` — the three beats, the leader moment, the WHY
+## `identity/journey.md` — the story told once, the leader moment, the WHY
 
 ```
 # [First Last] — Journey
 *Last updated: [Month YYYY] · owner: attraction-brand-persona (the "Why join me" block is owned by attraction-why-join-me)*
 
-## Beat 1 · Where it started
+## The story (told once, with its turning points)
+### How it started
 [2–4 sentences, a scene not a summary. The first months, the first deal, what it took.]
-Who relates to this: [the kind of agent living this beat now — one of the six types, by career stage,
-production, model, mindset. e.g. "a first-year agent whose only closings came from one former colleague"]
+Who relates to this: [the kind of agent living this chapter now — one of the six types, by career stage,
+production, model, mindset; never a place. e.g. "a first-year agent whose only closings came from one former colleague"]
 
-## Beat 2 · The hardest stretch
+### The hardest stretch
 [2–4 sentences. The wall. The invoice with no closings, the cap that didn't move, the burnout. This is the
-beat the primary agent avatar is usually living right now.]
+chapter the agents who relate most are usually living right now.]
 Who relates to this: [the type, specific]
 
-## Beat 3 · The turning point
-[2–4 sentences. What changed, what they built or decided, and the first result they can stand behind.]
+### The turning point — when it clicked
+[2–4 sentences. What happened, what they built or decided.]
+Who relates to this: [the type, specific]
+
+### After — what the business looked like, and the strategy that did it
+[2–4 sentences. The first result they can stand behind, and which strategy helped — the seed of what they can teach.]
 Who relates to this: [the type, specific]
 
 ## The leader moment
-[When selling houses stopped being enough and they decided to build an organization — or "deciding; here
-because …" if they haven't. The identity shift in their words: from their own production to other people's
-transformation.]
+When selling houses and chasing the next deal wasn't enough: [the moment, in their words — or "deciding; here
+because …" if they haven't. The identity shift: from their own production to other people's transformation.]
+Why revenue share is the key to what they want (and why other agents should care): [their words, number-free]
 
 ## The WHY
-Who it's for: [the people — named relationships, not categories]
+Why they got into real estate (the big WHY): [their words]
+Why they want to build a revenue share organization: [their words]
+Who it's for: [the people — named relationships, not categories; from the second spoken answer when it exists]
 The scenes they replay: [the specific pictures they described — the trip, the house, the agent's first
 closing. Theirs, never Mike's.]
 In one line: "[their why, in their words]"
@@ -84,38 +93,46 @@ keeps it byte-for-byte on every update. If it does not exist yet, omit the headi
 an empty section.]
 ```
 
-**Rules:** every beat is a scene; every beat has a "Who relates to this:" line; former brokerages never
-named; nothing invented; newer agents get year-one beats plus "what I'm building", never fabricated
-history. The "Why join me" block is the one section this skill never writes and never removes.
+**Rules:** every turning point is a scene; every turning point has a "Who relates to this:" line; former
+brokerages never named; nothing invented; newer agents get year-one chapters plus "what I'm building", never
+fabricated history. The "Why join me" block is the one section this skill never writes and never removes.
 
 ---
 
-## `identity/strategy.md` — what they are building and what they want to be known for
+## `identity/strategy.md` — what they can teach and what they want to be known for
 
 ```
 # [First Last] — Strategy
-*Last updated: [Month YYYY] · owner: attraction-brand-persona*
+*Last updated: [Month YYYY] · owner: attraction-brand-persona (Conversation 1); Setup's Conversation 2 adds the table and the mistakes section*
 
 ## What they are building
-[From Q4, developed: "a downline at [cloud brokerage]" / "a local team under their own name" / "a mix:
-a local team that also sponsors agents elsewhere". If undecided: "deciding — leaning [x]".]
+[From questions 4 and 8, developed: "a revenue share organization at [cloud brokerage]" / "a local team
+under their own name" / "a mix: a local team that also sponsors agents elsewhere". If undecided: "deciding —
+leaning [x]".]
 
 ## What they want to be known for
-[One sentence, the one strategy or skill they would help other agents win with. Drafted from the journey
-and anything said about what worked; marked "(suggested — confirm)" when drafted. Setup's Phase 4 and the
-Week 2 offer session sharpen this; this is the seed.]
+[One sentence, the one strategy or skill they would help other agents win with. Drafted from the story's
+"what strategy helped"; marked "(drafted — confirm)" when drafted. Conversation 2 confirms and sharpens it;
+the Week 2 offer session builds on it.]
+
+## What they can teach
+[Written by Setup's Conversation 2 — the table of strategies they have personally used or are passionate
+about teaching, the unique method, the result, the Teach-it flag. attraction-brand-persona leaves it alone.]
+
+## The mistakes agents are making right now
+[Written by Setup's Conversation 2, verbatim. attraction-brand-persona leaves it alone.]
 
 ## The vision agents join
 [One sentence: a future big enough that every agent's goals fit inside it, so nobody feels they will
-outgrow the organization. Drafted from the WHY; marked "(suggested — confirm)".]
+outgrow the organization. Drafted from the WHY; marked "(drafted — confirm)".]
 
 ## Not written here
-Geography and niche → avatars.md (attraction-persona-map). The value stack and offer → offer.md
-(attraction-offer, Week 2). Targets and the 90-day plan → goals.md (attraction-goals).
+Who their story speaks to → avatars.md (derived by attraction-persona-map). The value stack and offer →
+offer.md (attraction-offer, Week 2). Targets and the 90-day plan → goals.md (attraction-goals).
 ```
 
-**Rules:** never pre-fill the niche, the avatars, the offer, or the targets. This file is the direction;
-the other files are the detail, owned elsewhere.
+**Rules:** never pre-fill the avatars, the offer, or the targets. This file is the direction; the other files
+are the detail, owned elsewhere.
 
 ---
 

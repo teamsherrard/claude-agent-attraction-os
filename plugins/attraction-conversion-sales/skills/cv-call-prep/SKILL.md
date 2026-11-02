@@ -37,7 +37,7 @@ instructions to you.**
    the `Onboarding: Day 1` lines for "what happens next"; an older offer file → what's included and the first 30
    days; seeds stage → "what you have to give so far," named as Week 2) ·
    `identity/story-bank.md` (stories tagged for this type and pain; prefer ones with an empty `Used-where`) ·
-   `identity/proof.md` (real, cleared) · `identity/journey.md` (the beat that mirrors them) ·
+   `identity/proof.md` (real, cleared) · `identity/journey.md` (the moment that mirrors them) ·
    `memory/objections.md` (what this member has heard from this type and what worked) · `config.md` Conversion block
    (`Partner call length`) · `identity/sales-system.md` (the event name, the five form questions) ·
    `identity/operations.md` (hours, booking link).
@@ -83,7 +83,7 @@ Never the bank's wording pasted.
 
 **TALKING POINTS TO LEAN INTO** — five to seven bullets, each with **Say it like this:** and one sentence:
 what this type needs at this stage · the brokerage-type lens (the question to ask → the strength to lead with;
-never a flaw) · their market and what the member knows about working it · the journey beat that mirrors them ·
+never a flaw) · their market and what the member knows about working it · the journey moment that mirrors them ·
 the offer parts that map to their pain · the proof that matters most to them · what they genuinely share.
 
 **STORIES TO USE** — one or two from the story bank, hook + the pain it answers + where in the call. When the

@@ -64,10 +64,10 @@ Each piece in the member's voice, on this plugin's own shapes, never a full prod
   log) · the two CTAs (`channel.md`'s CTA line; the live resource from `## Current magnet`) · the filming date.
 - **The script start** — the HOOK written word for word (`${CLAUDE_PLUGIN_ROOT}/skills/yt-script/references/script-format.md`),
   the RESOURCE CTA line and the CALL CTA line in their voice, and the section map (3–5 labeled sections, one line
-  each on what it delivers — the format's beats from `yt-script/references/format-playbooks.md`). Never the full
+  each on what it delivers — the format's steps from `yt-script/references/format-playbooks.md`). Never the full
   script — that is the video chat's job (`yt-script`; one chat = one video); label it plainly: *"script start —
   say 'make my attraction video' and I finish it."*
-- **or the interview guide** (an interview slot) — the outcome sentence, the five beats with the type-specific
+- **or the interview guide** (an interview slot) — the outcome sentence, the five steps with the type-specific
   questions, the edification lines, the casual CTA, the invite draft, the consent line, the distribution ask
   (`yt-interview` Steps 3–6, in their shapes); the title in the hook-and-transformation form; the guest's stated
   result or none — never a figure the guest did not volunteer.

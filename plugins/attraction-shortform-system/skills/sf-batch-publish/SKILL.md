@@ -65,7 +65,7 @@ if unknown: how long they actually have (an hour / an afternoon) and any locatio
   background); where any change happens.
 - **WHAT TO BRING** — phone, tripod or a lean, a mic if they own one, a charger; whatever a specific video
   needs. Work with what they have; never a shopping list.
-- **THE TELEPROMPTER CARDS** — per video: the hook word for word · four or five beat lines · the ask word for
+- **THE TELEPROMPTER CARDS** — per video: the hook word for word · four or five step lines · the ask word for
   word with its keyword · sized to read at arm's length.
 - **BETWEEN EVERY VIDEO** — the 20-second reset (check frame, change one thing, breathe, say the hook once)
   so a batch does not look batched.

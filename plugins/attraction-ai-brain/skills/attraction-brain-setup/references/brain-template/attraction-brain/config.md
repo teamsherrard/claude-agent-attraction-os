@@ -9,11 +9,11 @@
 - **Workspace ID:** [captured at first sync — IDs survive renames; ALWAYS locate by ID, then by the `_attraction-workspace.md` marker, never by name]
 - **Workspace link:** [the direct URL — hand this to the member to bookmark]
 - **Timezone:** [e.g., America/Chicago]  *(timezone lives here and only here)*
-- **CRM:** [none | kvCORE | Follow Up Boss | GoHighLevel | Lofty | other — name it]  *(the system of record for contacts; the Brain's ledgers are the AI's working memory, never the CRM)*
-- **Setup progress:** [not started | Step 1 done | Phase 1 done | Phase 2 done | Phase 3 done | Phase 4 done | Phase 5 done | Phase 6 done | Phase 7 done | complete]  *(resume reads this stamp — a stamped fact beats inference)*
-- **Debrief time:** [default 6:00 pm, member timezone]
-- **Daily Debrief task:** [task id | declined]  *(provisioned only with the member's explicit yes; draft-only)*
-- **Workspace shared with:** [nobody | names — the member's choice at setup Stop 16]
+- **CRM:** [not set — a Week 2 topic, written by `attraction-operations` | none | kvCORE | Follow Up Boss | GoHighLevel | Lofty | other — name it]  *(never asked at Brain setup; the system of record for contacts; the Brain's ledgers are the AI's working memory, never the CRM)*
+- **Setup progress:** [not started | Step 1 done | Conversation 1 done | Conversation 2 done | Conversation 3 done | Conversation 4 done | Voice done | complete]  *(resume reads this stamp — a stamped fact outranks inference)*
+- **Debrief time:** [not set — "turn on my daily debrief" sets it; default 6:00 pm, member timezone]
+- **Daily Debrief task:** [not offered yet | task id | declined]  *(never offered at Brain setup — on demand, or the AI Admin's Week 5 card; provisioned only with the member's explicit yes; draft-only)*
+- **Workspace shared with:** [nobody — "who sees my attraction workspace" changes it | names]
 - **Realtor Brain bridge:** [none | declined | pulled YYYY-MM-DD]  *(read-only; never written back)*
 - **Demo brain:** [no | yes]  *(yes only when the member explicitly asked for a fictional demo — `shared/brain-book-spec.md`; a demo brain never mixes with a real one)*
 - **Cohort week:** [1–6, optional — the Support plugin reads it]
@@ -29,7 +29,7 @@
 - **Brain created:** [Month Year] · **Last full review:** [Month Year] · **Last synced:** [date, or "never"]
 
 ## Connectors this Brain uses
-*Setup confirms these. A skill that needs one and finds it missing tells the member to connect it rather than
+*Setup ticks what is already connected, silently (storage is the only one it needs). A skill that needs one and finds it missing tells the member to connect it rather than
 failing silently. Google-world members use the Google rows; Microsoft-world members use the Microsoft 365
 connector for storage + email + calendar (`shared/connectors.md`). Email is draft-only on both providers, always.*
 

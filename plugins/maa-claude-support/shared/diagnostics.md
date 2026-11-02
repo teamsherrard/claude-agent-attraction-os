@@ -233,8 +233,9 @@ my CEO review". Neither has a task; that is by design, not a failure.
 
 1. **Was the yes ever given?** Ask one question: "When you set up [the Brain / Short-Form / the
    Admin…], did it ask whether to switch on the [Daily Debrief / Friday performance note / Morning
-   Brief] — and did you say yes?" Many members skipped it on purpose (fine) or setup ended before
-   that stop (Stop 16 for the Debrief). No yes → route the OWNER skill to provision it now
+   Brief] — and did you say yes?" Many members skipped it on purpose (fine) or were never offered it
+   (the Daily Debrief is never offered inside Brain setup — it is switched on by "turn on my daily
+   debrief" or the AI Admin's Week 5 card). No yes → route the OWNER skill to provision it now
    (`attraction-debrief`, `sf-analytics`, `admin-attraction-setup`…). Support never creates a
    scheduled task itself.
 2. **Does the task EXIST?** Cowork's scheduled-tasks panel (screenshot if unsure; the member's

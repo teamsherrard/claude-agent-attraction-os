@@ -13,9 +13,10 @@ Say:
 ```
 Set up my attraction brain
 ```
-About 50 minutes, seven short conversations. You can pause anytime; it saves as you go. At the end you get your Agent Attraction
-Brain Book, your 90-Day Attraction Scorecard, your home base folder in your own Google Drive or OneDrive, and the brief for your
-brand kit in Claude Design.
+About 45 minutes to an hour: four short conversations, one plain question at a time, then three answers out loud. You can pause
+anytime; it saves as you go. At the end you get your Agent Attraction Brain Book (nine short sections, about a dozen pages) and
+your home base folder in your own Google Drive or OneDrive. Then, in a second chat the same week, say `my attraction brand
+direction` for your brand and the brief for your brand kit in Claude Design.
 
 ### 3. Use it
 Everything already knows you:
@@ -31,8 +32,9 @@ Explain my brokerage model to a new agent
 
 ---
 
-**Already have a Realtor AI Brain from the Social Agent OS?** Setup finds it and offers to pull your name, market, voice, brand and
-proof across, so you skip those questions. The two Brains live side by side and never overwrite each other.
+**Already have a Realtor AI Brain from the Social Agent OS?** Setup finds it and offers to bring over your name, market, voice,
+brand basics and proof, so you skip those questions. The two Brains live side by side and never overwrite each other.
 
 **Your Brain lives in your own cloud workspace** (`Agent Attraction OS` folder, rename it anything). With **Sync automatically** on,
-updates arrive on their own. To change something later, say *"update my avatars"* or *"update my brand direction."*
+updates arrive on their own. To change something later, say *"update my leader story"*, *"who should I attract"* or *"update my
+attraction brand direction."*

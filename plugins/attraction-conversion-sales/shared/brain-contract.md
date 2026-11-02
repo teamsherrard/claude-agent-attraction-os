@@ -43,7 +43,7 @@
 | `identity/story-bank.md` · `identity/proof.md` | stories by type and pain; proof that is real and cleared for use |
 | `identity/compliance.md` | the gate (law 3) |
 | `identity/voice.md` · `voice-samples.md` · `voice-print.md` | every draft sounds like the member |
-| `identity/profile.md` · `journey.md` · `prospect-intel.md` · `operations.md` | who the member is, their journey beats, the market's agent landscape, hours and booking link |
+| `identity/profile.md` · `journey.md` · `prospect-intel.md` · `operations.md` | who the member is, their journey's turning points, the market's agent landscape, hours and booking link |
 | `memory/conversations.md` · `memory/pipeline.md` · `memory/debriefs.md` · `memory/intel.md` | history before any prep, draft, or coaching |
 | `memory/organization.md` | recent joins and wins — a real reason to reach out (`cv-follow-up`, `cv-reactivation`); the future-pace line in a handle (`cv-objection-coach`) |
 | `identity/goals.md` · `memory/scorecard.md` (read only) | weekly calls and hours (`sales-call-block`), the Targets block (`sales-scorecard`) — never written here |

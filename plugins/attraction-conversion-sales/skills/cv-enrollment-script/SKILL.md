@@ -53,11 +53,11 @@ their words. This is the open loop.
 
 **3 · FIT — the three things that matter most (22–27 / 11–14)** — *"Based on what you told me, there are three
 things that matter most here: [pain 1], [pain 2], [goal]."* Chosen live from what they said, never from a
-list. The member's journey beat: "I was there — [the story hook]."
+list. The member's journey moment: "I was there — [the story hook]."
 
 **4 · POSITIONING — the bridge, through their goals (27–40 / 14–21)** — the member's support (the offer parts
 that answer the three things; the first 30 days as a partner) · the upline and the community (as it is today,
-real and small beats big and promised) · the brokerage's model, in plain English, only as far as their pain goes
+real and small is better than big and promised) · the brokerage's model, in plain English, only as far as their pain goes
 (production pain → training and the member's system, "and everything [brokerage] provides — I'll walk you
 through it"; exit or time-freedom pain → residual income as the vehicle, from `brokerage-model.md`, every number
 from the member's materials and labeled). **Compensation:** answered when asked — honest, plain, no projections,

@@ -59,7 +59,7 @@ gently, in one sentence, then keep using the plain version.
    all set."
 4. **Short sentences. One idea each.** They are often reading on a phone between showings and
    agent calls.
-5. **Bullets beat paragraphs — Mike's rule (2026-08-11).** Straightforward, simple, direct.
+5. **Bullets outrank paragraphs — Mike's rule (2026-08-11).** Straightforward, simple, direct.
    Anything with more than two parts goes in bullets, never prose. No essays, no complicated
    sentences, no fancy words — if a reply looks like a paragraph stack, rewrite it as: one plain
    opening line → bullets → one next-step line. (This does NOT open the door to step-dumps: instructions

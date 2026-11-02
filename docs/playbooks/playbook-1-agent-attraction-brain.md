@@ -34,7 +34,7 @@ Week 1 opens Tuesday, November 3, with onboarding and Mike's Q&A; the coaches' t
 
 **Setup first (5 short videos, before the lessons):** Welcome and how the 6 weeks work · Getting set up on Claude (desktop app, Cowork) · Claude features: skills, plugins, connectors, scheduled tasks, Claude Design · Installing the Agent Attraction OS and connecting your tools · Building your Agent Attraction Brain (the intake, on screen)
 
-**Two new core videos:** (1) **The Agent Attraction Operating System**: the framework, what the 6 weeks build, and your 90-day goal. (2) **Build Your Agent Attraction Brain**: the full intake on screen: background, niche, avatars, story bank, and the ongoing Brain routine.
+**Two new core videos:** (1) **The Agent Attraction Operating System**: the framework, what the 6 weeks build, and your 90-day goal. (2) **Build Your Agent Attraction Brain**: the full intake on screen: who you are as a leader, your unique approach, your story and proof, your numbers, and your three voice answers.
 
 **From the vault (about 2 hours this week):**
 
@@ -43,20 +43,19 @@ Week 1 opens Tuesday, November 3, with onboarding and Mike's Q&A; the coaches' t
 | Foundation & Recruitment Mindset (13 lessons · 91 min) | Welcome to Master Agent Attraction · My Story and What You Can Learn From It · What Is Agent Attraction vs. Recruiting? · How to Navigate This Program · How to Guarantee Success and a Return on Investment · The New Age of Real Estate · The New Era of Cloud-Based Brokerages · From Agent to Leader: Shifting Your Identity · The Residual Income Vision · How to Set 30-60-90 Day Attraction Goals + 1 Year Milestones · 1 Agent Can Change Your Life · Get Clarity on Your WHY · Books I Recommend Reading |
 | Market Analysis & Prospect Targeting (9 lessons · 84 min) | Understanding Agent Movement Patterns · Videos Don't Attract Agents; Agents Attract Agents · Bridging the Gap (Not Pitching) · Persona 1: New Agents · Persona 2: Experienced Agents (Low Production) · Persona 3: Top Producers · Persona 4: Influencers · Persona 5: Team Leaders · Persona 6: Broker Owners |
 
-**What you plug in this week:** the AI Brain and the Support system (install first). **Switched on with your yes:** the Daily Agent Attraction Debrief.
+**What you plug in this week:** the AI Brain and the Support system (install first), then the brand chat and the Design Package. **Switched on whenever you ask:** the Daily Agent Attraction Debrief ("turn on my daily debrief" — it is never part of the Brain intake).
 
 ### What to have done by Friday
 
-- [ ] Claude, Cowork, and the Agent Attraction OS installed; Gmail, Calendar, and your CRM connected
-- [ ] The Brain intake run: your Agent Attraction Brain is built
-- [ ] Your 12-month and 90-day targets set (agents, conversations, calls, joins, rev share): your 90-day scorecard
-- [ ] Your Personal Story & Experience Bank built
-- [ ] Your niche chosen and your 1 to 3 Agent Avatars built
+- [ ] Claude, Cowork, and the Agent Attraction OS installed; your storage, Gmail and Calendar connected
+- [ ] The Brain intake run: your Agent Attraction Brain is built and your Brain Book is open
+- [ ] Your brand chat run ("my attraction brand direction") and your Design Package brief pasted into Claude Design
+- [ ] Your Personal Story & Experience Bank seeded from the intake
 - [ ] Your intro and your "before" posted in Circle
 
 ### How to use the worksheets
 
-Every worksheet is the paper version of a conversation your Brain has with you. Fill them in by hand and read your answers into the intake, or run the intake and use the worksheets to review what it wrote. A thin true answer beats a polished invented one; "I don't know" and "none yet" are real answers; nothing is graded. Stuck on the tech? Say **"help"** or **"I'm stuck."** The Support system knows the calendar and the whole vault, so "what did Mike say about 3-way calls" comes back with the answer and the lesson to rewatch.
+Every worksheet is the paper version of a conversation your Brain has with you. Fill them in by hand and read your answers into the intake, or run the intake and use the worksheets to review what it wrote. A thin true answer is better than a polished invented one; "I don't know" and "none yet" are real answers; nothing is graded. Stuck on the tech? Say **"help"** or **"I'm stuck."** The Support system knows the calendar and the whole vault, so "what did Mike say about 3-way calls" comes back with the answer and the lesson to rewatch.
 
 ### Before you start (Lesson: Guarantee Success)
 
@@ -87,7 +86,7 @@ Taught upfront in Core video 1 and built over six weeks. The order matters: Brai
 
 Who you are as a leader, which type of agent you're built to help, and why an agent would partner with you over anyone else. Agents are sponsor shopping now, not just brokerage shopping; the magic position is when agents want to partner with you so badly the brokerage becomes irrelevant (Lesson: New Era of Cloud Based).
 
-**Week 1 builds** your Agent Attraction Brain: leader identity, story bank, 1 to 3 Agent Avatars, 12-month and 90-day targets, voice, brand direction, compliance rules. **Week 2 builds** your positioning and Agent Partner Offer: the audit of what your brokerage and upline already provide, your value proposition ("I help [agent] achieve [outcome] through [mechanism]"), your Brokerage Model Expert, your attraction brand with the Design Package, your bios, your first prospect list.
+**Week 1 builds** your Agent Attraction Brain: who you are as a leader, your story bank, who your story speaks to (derived for you), your 12-month number and hours, your voice; then, in a second chat, your brand direction and the Design Package. **Week 2 builds** your positioning and Agent Partner Offer: the audit of what your brokerage and upline already provide, your value proposition ("I help [agent] achieve [outcome] through [mechanism]"), your Brokerage Model Expert, your bios, your first prospect list.
 
 ### Pillar 2 — Content
 
@@ -123,7 +122,7 @@ Leaders create leaders. You don't tell your agents "go recruit"; you hand them t
 
 ## 3. The destination: 12-month and 90-day targets
 
-### Realistic beats heroic (Lesson: Setting Goals)
+### Realistic over heroic (Lesson: Setting Goals)
 
 Setting goals is important; setting unrealistic expectations is what guarantees failure. Most people who fail at attraction want 100 to 300 agents in year one without consistency or discipline. Mike's rules:
 
@@ -153,14 +152,15 @@ Your WHY goes into your Brain word for word. Your Daily Debrief quotes it back o
 
 ### Your 12-month targets and your 30-60-90 (Lesson: Setting Goals)
 
-Your Brain asks these in the intake and does the math. "Not sure" gets you a proposal built from your hours and your situation.
+The intake captures your four numbers (agents today, your 12-month number, your long-term goal, your hours a week). When you're ready to lock the plan — this week or next — say **"set my attraction goals"**: Claude proposes the 90-day target and the weekly activity from those numbers and does the math; you confirm. "Not sure" gets you a proposal built from your hours and your situation.
 
-| The four targets | Your answer |
+| The four numbers (from the intake) | Your answer |
 |---|---|
-| Agents in your organization in 12 months? (Mike's example is 30 for a consistent, full-effort attractor; a few hours a week on top of production should hear a smaller, honest number) | |
-| Who's the first agent you'd want to join, and why them? | |
-| Hours per week you can give to attraction, honestly? | |
-| Your 90-day join target (Claude proposes it from your 12-month number; you confirm or move it) | |
+| Agents in your revenue share organization today | |
+| Agents you realistically want to attract in the next 12 months (Mike's example is 30 for a consistent, full-effort attractor; a few hours a week on top of production should hear a smaller, honest number) | |
+| Your long-term goal | |
+| Hours per week you can fully commit to attraction | |
+| Your 90-day join target (Claude proposes it from your 12-month number when you lock the plan; you confirm or move it) | |
 
 **How the 90-day target is proposed.** From a standing start, roughly 15% of your 12-month number lands in the first quarter (quarters ramp about 15 / 20 / 30 / 35%, a planning assumption, never a promise); about 25% if conversations are already flowing. Minimum one.
 
@@ -230,7 +230,7 @@ Production is still the name of the game: your agents need to produce, or there'
 
 ### The Rev Share Calculator worksheet
 
-Your Brain runs this in the intake. These are the inputs, so you know what you're being asked for. Everything it produces is arithmetic on your own assumptions, labelled illustrative, kept private.
+On demand only — say **"run my rev share scenarios"** whenever you want the money conversation; it is never part of the intake and never appears in your Brain Book. These are the inputs, so you know what you're being asked for. Everything it produces is arithmetic on your own assumptions, labelled illustrative, kept private.
 
 | Input | Your answer | Notes |
 |---|---|---|
@@ -259,7 +259,7 @@ Compliance line: nothing in these scenarios appears in a post, reel, DM, ad, lea
 
 ### The 90-Day Scorecard
 
-Your Brain renders this as a document and keeps it current: the Daily Debrief scores each day, your Friday check-in rolls up the week.
+Your Brain renders this as a document when you lock your plan ("set my attraction goals") and keeps it current: the Daily Debrief scores each day, your Friday check-in rolls up the week.
 
 **Targets block** (locked when you confirm your 90-day target and weekly activity)
 
@@ -326,148 +326,92 @@ Say **"leadership audit"** any time for the full version: a readiness score and 
 
 ### The Brain Intake Worksheet
 
-The exact conversation your Brain has with you when you say **"set up my attraction brain"**: seven short conversations, about 45 minutes, and at the end you get your Agent Attraction Brain Book, your 90-Day Scorecard, and a home base folder every tool reads from. It saves as you go; pause any time. Every question is skippable (a gap becomes an open item, never a re-ask); **"just make it"** builds from what exists. First, Claude offers to read any old recruiting deck, bio, brokerage onboarding doc, CRM export, or past video so you type less, and, if you built a Realtor AI Brain, offers once to pull your name, market, voice, brand, and proof from it.
+The exact conversation your Brain has with you when you say **"set up my attraction brain"**: four short conversations and three questions you answer out loud, about 45 minutes to an hour, one plain question at a time. At the end you get your Agent Attraction Brain Book (nine short sections, about a dozen pages) and a home base folder every tool reads from. It saves as you go; pause any time. Every question is skippable ("I don't know" moves on, never a re-ask); **"just make it"** builds from what exists. First, if you built a Realtor AI Brain, Claude offers once to bring over your name, market, voice, brand basics and proof; then it offers to read any old recruiting deck, bio, brokerage onboarding doc, CRM export, or past video so you type less.
+
+Short, messy answers are perfect. The story questions are the ones to take your time on; talking them out loud works well.
+
+**What it will not ask** (Mike's rule): which type of agent you want to attract (your Brain works that out from your answers: *your skills attract any agent; these are the agents who'll relate to you most*), where you can attract (a cloud brokerage attracts anywhere), your CRM, booking link, calendar, compliance rules, scheduled tasks, or your brand. Your brand is a second chat this week; your tools are Week 2.
 
 #### Conversation 1 — Who you are as a leader
 
-*The basics*
-1. Your name and your brokerage. ____
-2. Your market (city or region) and what you sell most. ____
-3. Solo, team leader, on a team, or broker-owner? How long licensed, and what did you do before real estate? ____
-4. What are you building: a downline at a cloud brokerage, a local team, a local brokerage, or a mix? ____
+*Who are YOU?*
+1. What's your name? ____
+2. What brokerage are you with? ____
+3. What's your local market? ____
+4. What category of agent are you — solo, a team leader, or a broker owner? ____
+5. How long have you been a licensed real estate agent? ____
+6. What did you do before real estate? ____
+7. Why did you decide to get into real estate? What's your big WHY — creating wealth for your family, helping and impacting others, something else? ____
+8. Why do you want to build a revenue share organization? ____
 
-*Your brokerage and why*
-5. When did you join your current brokerage (month and year)? ____
-6. Why did you *actually* join? The real reason, not the brochure: a mentor, the model, a bad experience before, a friend. ____
-7. If another agent asked "why are you there?", what's the one line you'd say out loud? ____
+*Your brokerage*
+9. When did you join your current brokerage? ____
+10. What's the story behind you choosing that brokerage? ____ *(If your answer is short, Claude follows up once with the things to touch on if they apply: why you chose it over other cloud-based brokerages, whether you ignored it at first or had a bad taste about it, what changed your perspective, and what you now understand that most agents still misunderstand.)*
+11. Why did you select your sponsor specifically? Did they bring certain value to the table — have they built the style of business you're looking to build? ____
 
-*Your journey and your why*
-8. Your journey in three beats: where you started, the hardest stretch, the turning point. ____
-9. The moment selling houses stopped being enough and you decided to build an organization ("haven't fully decided" is fine). ____
-10. Your WHY. The life reason behind the organization, not the money alone. ____
+*Your journey*
+12. Describe your story. This one should take the longest, and talking it out loud works well here. How did you get started? Were there turning points where things started to click and you began to succeed — what happened, what did your business look like after, and what strategy helped? ____
+13. Tell me about the moment you realized that just selling houses and chasing the next deal for the rest of your life wasn't enough — and why you believe revenue share is the key to what you want in life, and why other agents should care. ____
 
-*Claude drafts, you correct:* the "who relates to this" line under each beat of your journey. Former brokerages stay unnamed ("a franchise", "an independent").
+*Claude drafts, you correct later:* the "who relates to this" line under each turning point of your story (your ideal agent is living your hardest stretch right now), what you want to be known for, and the one line you'd say out loud if an agent asked "why are you there?". Former brokerages stay unnamed ("a franchise", "an independent").
 
-#### Conversation 2 — Who you attract
+#### Conversation 2 — Your unique approach
 
-Claude first shows the six types of agent, one line each: new agents · experienced but low production · top producers · agents with a brand · team leaders · broker-owners.
+Claude opens with: *"We're not writing your offer today — that's next week, and it's a whole session on its own. Right now I want to know what's already in your hands."* This conversation is the raw material for your unique value proposition.
 
-*Your niche*
-11. Which type of agent do you understand best, because you were one? ____
-12. Which type is living your "hardest stretch" right now? ____
-13. Who's already around you most? Count the agents in your sphere by type, roughly. ____
-14. Geography: local only, your whole state/province, anywhere in the country, specific states? ____
+14. What strategies have you personally used to increase your production — or what are you extremely passionate about and would be comfortable teaching others? Cold calling, CRM, social media, AI, open houses, anything. ____
+15. Explain your unique strategy for using that approach. For example, do you have unique cold-calling scripts that convert, or a proven social media strategy that attracts clients? ____
+16. Is there any current value that your upline provides? Give a clear breakdown of what they offer, so it blends with your strategies into the ultimate unique value proposition. ____
+17. What do you believe are the biggest mistakes agents are making right now — and why you, or them joining your brokerage, can be the solution to those problems? ____
 
-*Your primary Agent Avatar* (Claude proposes a primary type from your answers, says why, and confirms; then)
-15. In their words, what's their biggest problem right now? ____
-16. What have they already tried that didn't work? ____
-17. What would they need to hear from you to believe you can help? ____
-18. Do you want a second (and third) avatar, or keep it to one for the first 90 days? ____
+#### Conversation 3 — Your story and your proof
 
-#### Conversation 3 — Your stories and your proof
+18. Tell me about the moment you almost quit — and what caused you to keep going. ____
+19. Share any mistakes you made and what they taught you. Paying for bad leads, trying too many things at once, anything. ____
+20. What are your biggest achievements? Were you a top producer? Did you win any awards? Did you sell any expensive homes? Did you double or triple your production one year? ____
+21. Do you have any success stories of agents you've helped in the past? If yes, share them in detail. ____
+22. If you currently have agents in your group, why did they decide to join YOU specifically? ____
 
-*Story seeds* ("one line each, just give me the scene")
-19. The moment you almost quit. ____
-20. Your first deal, and what it taught you. ____
-21. A mistake that cost you something. ____
-22. A client story that shows how you work. ____
-23. A moment an agent you helped won something. ____
-24. Something you do that other agents in your market don't. ____
+Proof is never drafted. Zero proof is one honest line, never manufactured credibility. Then, without asking you anything, Claude works out **who your story speaks to** — your own former self in the hardest stretch, the agents whose mistakes you named, the agents who want what you can teach — and writes it down framed exactly this way: *your skills attract any agent; these are the agents who'll relate to you most.*
 
-*Proof*
-25. Wins and numbers you'd be comfortable saying out loud: deals, volume, reviews, awards ("none yet" is fine). ____
-26. Agents you've already helped: name, what you did, what happened. ____
-27. How many agents are in your organization today? ____
-28. Any reviews or testimonials *from agents*, not clients? ____
+#### Conversation 4 — Your current and future state
 
-Proof is never drafted. Zero proof is one honest line and an open item, never manufactured credibility.
+23. How many agents do you currently have in your revenue share organization? ____
+24. How many agents do you realistically want to attract in the next 12 months? ____
+25. What's your long-term goal — how many agents do you want to attract? ____
+26. How many hours per week can you fully commit to agent attraction? Content, conversations, follow-up, leading and supporting your group — all of it. ____
 
-#### Conversation 4 — What you already have to give
+No money math here, and no scorecard: Claude proposes a first weekly rhythm from your 12-month number and labels it "proposed". **"Set my attraction goals"** (Section 3) locks it when you're ready.
 
-**Read this first.** Claude opens with: *"Quick heads-up: we're NOT writing your offer today. That's Week 2, and it's a whole session on its own. Right now I just want to know what's already in your hands, so Week 2 has something to build from."* Nothing here asks for an offer, a UVP, or a value proposition. It collects raw material.
+#### Your voice — three questions, out loud
 
-*What worked for you* (production, not attraction)
-29. The one to three things that produced most of your buyer and seller business (open houses, YouTube, sphere, investors, relocation, a niche). ____
-30. For each: what it actually involved, the result you can stand behind, and could you show another agent how to do it (yes / partly / not yet)? ____
-31. If other agents knew you for ONE thing, what would you want it to be? ____
-32. What's the first thing you'd sit down and show a brand-new agent on your team? (Even "I'm not sure yet" is a real answer.) ____
+The biggest issue in any AI system is the voice. The only way to make yours accurate is to answer story questions in your own voice (Adam Gillespie's method, as Mike teaches it). Tap the microphone in the message box (or paste what your phone's voice-to-text wrote) and talk like you're on the phone with an agent you like — don't script it, don't make it perfect. Thirty seconds to two minutes each.
 
-*What's already around you*
-33. Have you already written an agent attraction offer or value proposition, maybe from a workshop or your brokerage? **Yes** → paste it or describe it; Claude keeps it exactly as yours and Week 2 refines rather than rebuilds. **No / not sure** → "Perfect, that's exactly where most people are." Three quick ones:
-34. What does your brokerage give every agent, as far as you know? (A rough list is fine; "not sure yet" becomes an open item the Brokerage Model Expert fills in Week 2.) ____
-35. What does your upline or the group above you provide that you could point an agent to today? ("Nothing I know of" is fine.) ____
-36. If an agent asked "why are you there?", what's the honest one-liner you'd say right now? Not a pitch; the thing you'd actually say. ____
+- Using voice dictation, talk about why you're excited about agent attraction.
+- Using voice dictation, talk about your WHY — your purpose, who you're doing this for.
+- Using voice dictation, answer this: why should someone partner with you?
 
-#### Conversation 5 — Your numbers
+Claude distils how you talk from these three answers — your pace, your phrases, how you explain things, the words you never say — and from how you typed every answer above. Everything the system writes for you from here on sounds like that.
 
-*Targets*
-37. Agents in your organization in 12 months? ____
-38. Who's the first agent you'd want to join, and why them? ____
-39. Hours per week you can give to attraction, honestly. ____
-40. Your 90-day target for joins (Claude proposes one from your answer to 37; you confirm). ____
+Then Claude builds your Brain Book, hands you the link, and says the two things next: the brand chat this week (**"my attraction brand direction"**, Section 6) and your offer and lead magnet next week.
 
-*The money, honestly*
-41. Your plan's mechanics (rev share tiers, caps, stock), or say **"explain mine to me"** and the model expert walks you through it. ____
-42. The average production of the agent you're attracting, your estimate. ____
-43. Your ratios, or take the defaults and adjust: conversations → calls → joins. ____
-44. Claude shows three scenarios (conservative / target / stretch, every number illustrative, no earnings promise anywhere) and the weekly activity they take. Does this weekly activity feel realistic? Adjust the target or the hours, not the math. ____
-
-#### Conversation 6 — How you sound and how you look
-
-**Why this conversation is bigger than you'd expect.** You build your Agent Attraction Brain *and* your Agent Attraction Brand in the same week. Your Brain captures your voice, what you already have, and the direction; Claude Design builds the actual kit this week through the Design Package.
-
-*Voice*
-45. Closest to how you talk: straight shooter · warm and patient · high energy · calm numbers person · helpful friend, or your own words. ____
-46. Three phrases you actually say. ____
-47. Words or vibes you never want to sound like. ____
-48. Paste two or three real samples (a text to an agent, a caption, an email), or talk for 60 seconds and your spoken voice gets captured. ____
-
-*What you already have* (one card, five items)
-49. **Logo:** I have one and I love it (used exactly as-is, never redesigned) · I have one but it's not quite right (only what you flag changes) · I don't have one (built this week). ____
-50. **Colors and fonts:** specific ones already? Hex codes if you know them, "my Instagram looks like…", or "none, help me pick." ____
-51. **Headshots and photos:** recent professional headshots, phone photos only, or nothing usable yet? ____
-52. **Leader brand vs selling brand:** is the brand agents will follow the same as the one your buyers and sellers see, or separate? (Default: one brand, your name, with a leader lane; either way it stays visually distinct from your brokerage's own colors.) ____
-53. **Name:** does your organization have a name, or is it just you? ____
-
-*Direction* (only for what's missing; skipped entirely if you love everything you have)
-54. Feel, in a few words. Claude proposes two or three complete directions from your voice and your avatar (for example calm-premium, bold-modern, warm-approachable); react, mix, or write your own. ____
-55. Two or three brands, creators, or leaders whose look you admire. Reference only; nothing is copied. ____
-56. Font direction: modern or classic, clean or bold, or a pairing to react to. ____
-57. Tagline: two or three proposed from your one-liner and your voice; pick one, tweak one, write your own, or park it. ____
-
-This conversation ends with your **Design Package brief**, paste-ready for Claude Design (Section 6).
-
-#### Conversation 7 — Rules and tools
-
-*Compliance* (the gate every public piece passes through)
-58. How your brokerage name must appear in public content, and your license display. ____
-59. Your brokerage's rule on marketing rev share and income: know it, or default to the strictest (no numbers in public, income disclaimer on anything that mentions earnings)? ____
-60. The states or provinces where you can attract agents. ____
-
-*Tools and rhythm*
-61. Gmail and Calendar are confirmed, not asked. Which CRM do you use, if any? (A Google Sheet is a real answer.) ____
-62. Your booking link, or your best channel today if none. And who do you 3-way with today, if anyone? (The person in your upline who explains the model best, not necessarily your sponsor; "nobody yet" is normal.) ____
-63. Your working hours and how often you want to follow up with a prospect agent (default: a personal recap within a day of every conversation, then value-driven touches, never a drip). Is there a weekly call you plug new agents into? ("None yet" is a real answer.) ____
-64. When should the Daily Agent Attraction Debrief run (default 6 pm), and who else, if anyone, should see this workspace? ____
-
-Then Claude builds your Brain Book and your Scorecard, hands you the links, and tells you the next thing to type.
 
 ### The Story & Experience Bank Worksheet
 
 > **Mike:** "Facts tell, stories sell."
 
-An agent decides to follow someone who was recently where they are now and got out, and the proof is a story. This bank is what every reel, video hook, partner call, and objection answer draws from, so none of them ever invents one. Target twelve or more over time; six developed seeds is a complete first run; three real ones beat twelve forced ones. Say **"build my attraction story bank"** to run it out loud (voice mode works best) or paste a transcript.
+An agent decides to follow someone who was recently where they are now and got out, and the proof is a story. This bank is what every reel, video hook, partner call, and objection answer draws from, so none of them ever invents one. Target twelve or more over time; six developed seeds is a complete first run; three real ones are better than twelve forced ones. Say **"build my attraction story bank"** to run it out loud (voice mode works best) or paste a transcript.
 
-**The six seeds** (one line each; just give the scene)
+**The six seeds** (the intake captures them; just give the scene)
 
 | Seed | The scene |
 |---|---|
-| The moment you almost quit | |
-| Your first deal, and what it taught you | |
-| A mistake that cost you something | |
-| A client story that shows how you work | |
-| A moment an agent you helped won something | |
-| Something you do that other agents in your market don't | |
+| The moment you almost quit, and what kept you going | |
+| A mistake you made and what it taught you | |
+| The turning point — when things started to click | |
+| The moment selling houses and chasing the next deal wasn't enough | |
+| An agent you helped, in detail | |
+| Why the agents in your group joined YOU specifically | |
 
 **The nine doorways** (widen toward twelve)
 
@@ -494,7 +438,7 @@ An agent decides to follow someone who was recently where they are now and got o
 | **Lands with** (the type of agent) | New agents · experienced but low production · top producers · agents with a brand · team leaders · broker-owners (one, at most two) |
 | **Speaks to** (the pain) | Financial uncertainty · lack of support, mentorship, training · technology gaps · limited growth · work-life balance and recognition (one, at most two) |
 | **Used for** (the use) | Story reel · YouTube hook · partner call · objection answer (name it: "it's a pyramid scheme", "I love my broker", "I'm doing fine where I am", "I just switched") |
-| Emotional beat | Relief · pride · heartbreak · vindication · embarrassment · gratitude |
+| Emotional turn | Relief · pride · heartbreak · vindication · embarrassment · gratitude |
 | Permission | A real agent or client involved: public yes / ask first / anonymize (default "ask first" for agents, "anonymize" for clients) |
 
 The three tags that matter are the bold ones: **who it lands with · the pain · the use**. They let a content skill or a call prep find the right story in seconds.
@@ -642,9 +586,9 @@ Mike dislikes the word; say "agents with a brand."
 | Team leader | Adult daycare, overhead, churn | Retention and no exit | Partners instead of competitors; company support | Yes + corporate |
 | Broker-owner | All the risk, less profit than it looks | Overhead, liability, isolation | Keep the brand, drop the cons; look-period rule first | Yes + corporate |
 
-### The Avatar One-Pager (one per avatar; 1 to 3 avatars)
+### Who your story speaks to (one page)
 
-Your Brain writes this when you say **"map my agent avatars"** or **"who should I attract."** Fill it by hand to think it through, then let Claude develop it from your journey and your proof. One primary; secondary avatars get the short form. Unsure about a second? One is faster; add it the day your content starts pulling a different kind of agent.
+Your Brain writes this for you at the end of the intake, from your own answers — you never pick a type (Mike's rule: left to choose, everyone picks brokers, team leaders and influencers the way every new agent picks luxury). It opens with the line every tool keeps: *your skills attract any agent; these are the agents who'll relate to you most.* Fill it by hand to think it through, then say **"who should I attract"** to refine what Claude inferred. One primary; a second group only when your answers point to one. Unsure about a second? One is faster; add it the day your content starts pulling a different kind of agent.
 
 **Avatar: ____ (primary / secondary / third)**
 
@@ -680,7 +624,7 @@ ____
 
 **Why they'd relate to you** (three pairs)
 
-| Your journey beat | Their present-day version | "Say it like this:" (one sentence for camera or a call) |
+| Your story's turning point | Their present-day version | "Say it like this:" (one sentence for camera or a call) |
 |---|---|---|
 | | | |
 | | | |
@@ -701,7 +645,7 @@ ____
 
 **What this means:** offer direction (the outcome your offer must promise this agent; Week 2 builds it) ____ · the ask, by readiness (book a call / grab the guide) ____
 
-**Targeting rules, printed on every avatar.** By career stage, production, business model, and mindset, never by age, family status, or any protected characteristic. Brokerage types, never brokerage names. Compensation never appears in an avatar. If broker-owners are an avatar: franchise owners, confirm the look period before any approach.
+**Targeting rules, printed on every avatar.** By career stage, production, business model, and mindset, never by age, family status, or any protected characteristic. Brokerage types, never brokerage names. Never a place: a cloud brokerage attracts anywhere, so where you attract is never asked and never a limit. Compensation never appears in an avatar. If broker-owners are a group: franchise owners, confirm the look period before any approach.
 
 ---
 
@@ -709,19 +653,19 @@ ____
 
 ### The install path (one page)
 
-1. **Do the five setup videos first.** Claude (Pro or Max) with the desktop app and Cowork; the Agent Attraction OS installed; Gmail and Calendar connected; your CRM (GHL, Follow Up Boss, or a Google Sheet). The Setup Guide (this week's bonus asset) has the full install chain, connectors, tools, and costs.
-2. **Open Cowork and say exactly: "set up my attraction brain."** (Also works: "build my agent attraction brain," "onboard me to agent attraction.") Run it on **Opus** at **Medium** effort, in one sitting. About 45 minutes, seven conversations.
+1. **Do the five setup videos first.** Claude (Pro or Max) with the desktop app and Cowork; the Agent Attraction OS installed; Gmail and Calendar connected. (Your CRM is a Week 2 topic.) The Setup Guide (this week's bonus asset) has the full install chain, connectors, tools, and costs.
+2. **Open Cowork and say exactly: "set up my attraction brain."** (Also works: "build my agent attraction brain," "onboard me to agent attraction.") Run it on **Opus** at **Medium** effort, in one sitting. About 45 minutes to an hour: four conversations and three answers out loud, one plain question at a time.
 3. **Name your home base.** "Agent Attraction OS" works, or name it after your organization. Claude creates it in your Google Drive or OneDrive and saves as you go.
-4. **Answer the seven conversations** (Section 4). Skip anything; "I don't know" gets options; "just make it" builds from what exists.
-5. **At the end you receive** your **Agent Attraction Brain Book** (everything the system knows about you, in one book), your **90-Day Attraction Scorecard**, the link to your home base, and your **Project Seatbelt** (a block you paste into any Claude project's instructions so every chat loads your Brain first).
-6. **The Design Package, the same week.** The brand conversation ends with a paste-ready brief. Paste it into Claude Design and run the three skills in order: **aa-logo-design → aa-style-sheet-design → aa-brand-kit-design**. Skip the first if you love your logo; refresh mode changes only what you flagged. Drop the finished kit into your Brand folder (02 · Brand) in your home base, so the editor, the thumbnails, and every graphic read it. The brief carries your brokerage-name and license display, or says plainly they must be set before any public graphic ships.
-7. **The Daily Agent Attraction Debrief, with your yes.** The last conversation asks when it should run (default 6 pm) and switches it on only when you say yes. It reads your calendar and inbox (read-only), scores your day against your weekly activity, lists follow-ups due and agent needs, and leaves tomorrow's three moves. Nothing is sent, posted, or published. **"Run my debrief"** any time; **"change my debrief time"**; **"turn off my debrief."**
+4. **Answer the four conversations and the three voice questions** (Section 4). Skip anything; "I don't know" moves on; "just make it" builds from what exists.
+5. **At the end you receive** your **Agent Attraction Brain Book** (everything the system knows about you, nine short sections, about a dozen pages), the link to your home base, and your **Project Seatbelt** (a block you paste into any Claude project's instructions so every chat loads your Brain first).
+6. **The brand chat, the same week.** In a new Cowork chat say **"my attraction brand direction"** (about six minutes). It asks only what you already have — your logo (I love it · not quite right · don't have one), colours and fonts, headshots, one brand or a separate leader brand, your organization's name — one question at a time, then works out the creative direction from your Brain and the way you talked in your three voice answers; you say yes or change a line. It ends with your paste-ready **Design Package brief**. Paste it into Claude Design and run the three skills in order: **aa-logo-design → aa-style-sheet-design → aa-brand-kit-design**. Skip the first if you love your logo; refresh mode changes only what you flagged. Drop the finished kit into your Brand folder (02 · Brand) in your home base, so the editor, the thumbnails, and every graphic read it. The brief carries your brokerage-name and license display, or says plainly they must be set before any public graphic ships — **"paste my compliance link"** sets them in two minutes.
+7. **The Daily Agent Attraction Debrief, whenever you want it.** Say **"turn on my daily debrief"** (default 6 pm); it switches on only when you say yes — the intake never creates it. It reads your calendar and inbox (read-only), scores your day against your weekly activity, lists follow-ups due and agent needs, and leaves tomorrow's three moves. Nothing is sent, posted, or published. **"Run my debrief"** any time; **"change my debrief time"**; **"turn off my debrief."**
 
-**The next things to type, in order:** paste your Design Package brief into Claude Design · **"build my top 50"** · (Week 2) **"run my prospect radar"** · (Week 2) **"build my partner offer"** · **"attraction weekly check-in"** every Friday · **"just talked to an agent"** any time, from the car.
+**The next things to type, in order:** **"my attraction brand direction"** (a new chat) · paste your Design Package brief into Claude Design · **"build my top 50"** · **"set my attraction goals"** · (Week 2) **"run my prospect radar"** · (Week 2) **"build my partner offer"** · (Week 2) **"set up my attraction operations"** and **"write my booking page"** · **"attraction weekly check-in"** every Friday · **"just talked to an agent"** any time, from the car.
 
 ### Opening your Brain each day
 
-Say **"open my attraction brain"** (or "launch the agent attraction OS"). On a built Brain, Claude never re-interviews you. You get the READY BRIEF: one warm line naming what it knows about you (who you are as a leader, the type of agent you attract, your one-line "why I'm here," this week's activity target), at most one upgrade suggestion, the next thing on the calendar, and "What do you want to build today?" Anything still empty by design (your offer is Week 2; your content pillars are Week 3) is named with its week, never reported as missing.
+Say **"open my attraction brain"** (or "launch the agent attraction OS"). On a built Brain, Claude never re-interviews you. You get the READY BRIEF: one warm line naming what it knows about you (who you are as a leader, the strategy you can teach, who your story speaks to, your 12-month number), at most one upgrade suggestion, the next thing on the calendar, and "What do you want to build today?" Anything still empty by design (your offer is Week 2; your content pillars are Week 3) is named with its week, never reported as missing.
 
 ### The ongoing Brain routine: capture on the go
 
@@ -748,8 +692,8 @@ Objections and conversations are private material; nothing captured here becomes
 | First check-in of the month | "audit my month" | Mike's three questions plus the intangibles, answered from your scorecard |
 | After 90 days | "plan my next attraction quarter" | Last quarter archived and celebrated; real ratios replace the assumptions |
 | Your story, voice, or why changes | "open my attraction brain," then "update one part" | Only that part is edited |
-| Your targets change | "set my attraction goals" / "update my money math" | Targets and scenarios refreshed; your scorecard rows kept |
-| A new kind of agent starts showing up | "add a second avatar" | A short-form secondary avatar added |
+| You want your targets locked, or they change | "set my attraction goals" / "update my money math" | Targets refreshed; your scorecard rows kept; the money only when you ask |
+| A new kind of agent starts showing up | "who should I attract" / "add a second avatar" | What Claude inferred is refined, or a short-form second group added |
 | An agent joins or wins | "refresh my attraction story bank" | Captured seeds and new proof turned into tagged stories |
 | You want scripts to sound like you | "capture my attraction voice" (about 8 minutes, out loud) | Your spoken voice captured: pacing, phrases, how you explain the model, the words you never say |
 | Any time | "check my attraction brain" | A health check; empty-by-design items are never counted against you |
@@ -767,7 +711,7 @@ In practice: former brokerages are never named in your stories; research reports
 
 This is assistance, not legal advice. You stay responsible for your marketing and confirm brokerage-specific and jurisdiction-specific items with your brokerage's compliance desk and your regulator.
 
-**The gate has three states: unset, set, confirmed.** Until you've answered the three compliance questions in the intake (how your brokerage name appears, your license display, your brokerage's rule on income and rev-share marketing), your compliance is *unset* and **nothing public gets written**: no post, reel, script, caption, bio, DM template, lead magnet, or page. Private work still runs (your scorecard, your scenarios, your Top 50, the model script for a one-on-one call). Say **"set up my attraction compliance"**; it takes three minutes. Once *set*, every rule is applied and Claude reminds you once per session to confirm with your brokerage; **"confirm my compliance"** makes it *confirmed* on a date.
+**The gate has three states: unset, set, confirmed.** The intake never asks about compliance (you wouldn't know the answers off the top of your head). Until it is set — how your brokerage name appears, your license display, your brokerage's rule on income and rev-share marketing — your compliance is *unset* and **nothing public gets written**: no post, reel, script, caption, bio, DM template, lead magnet, or page. Private work still runs (your Top 50, the model script for a one-on-one call). The fast way: paste the link to your brokerage's compliance or advertising page and say **"paste my compliance link"** — Claude reads the page, pulls out the disclaimer wording, the license display rule and the rev-share marketing policy, shows them, and you confirm; two minutes. No link? **"set up my attraction compliance"**. Once *set*, every rule is applied and Claude reminds you once per session to confirm with your brokerage; **"confirm my compliance"** makes it *confirmed* on a date.
 
 | Rule | What it means for you |
 |---|---|
@@ -776,7 +720,7 @@ This is assistance, not legal advice. You stay responsible for your marketing an
 | Non-disparagement | The two cardinal rules, on every piece |
 | Brokerage advertising and rev-share marketing policy | Your brokerage's policy governs every public piece. Mike's example: at his brokerage you can't run ads to a "brokerage explained" video; value first, then convert (Lesson: Attraction vs. Recruiting). Don't know your policy? The strictest default applies: no splits, caps, stock, tiers, or income figures in public; compensation on a private call only. |
 | Brokerage name, license display, logo | The legal name appears the way the brokerage and your board require; the license number where your jurisdiction requires it; the brokerage logo on signs, business cards, and brochures per your board (Lesson: Influencers). Your leader brand stays visually distinct and never removes a required mark. |
-| Recruiting scope | Only the states or provinces you named. Nothing the system writes offers a cash, gift, or fee inducement to switch; confirm your jurisdiction's rule on inducements with your brokerage. |
+| Recruiting scope | Never asked — a cloud brokerage attracts anywhere, and nothing limits where you attract. Where your brokerage's page states a licensing or cross-border rule, it is recorded word for word. Nothing the system writes offers a cash, gift, or fee inducement to switch; confirm your jurisdiction's rule on inducements with your brokerage. |
 | Franchise look period | Any broker-owner outreach asks about it first (Lesson: Brokerages). |
 | Independent contractor agreements | The prospect reads theirs; the system never advises on it. |
 | AI-likeness disclosure | Any clone or AI-voice content is disclosed on screen and in the description with the wording you set; "no clone content" is a valid answer this week. |
@@ -805,21 +749,21 @@ Three books, in this exact order, one a month for the next three months. Mike's 
 
 | # | Done | Homework | Say to Claude | What you'll have |
 |---|---|---|---|---|
-| 1 | [ ] | Install Claude, Cowork, and the Agent Attraction OS; connect Gmail, Calendar, and your CRM | The Setup Guide; "I'm stuck" if you are | A working install |
-| 2 | [ ] | Run the Brain intake | "set up my attraction brain" | Your Agent Attraction Brain, and your Brain Book |
-| 3 | [ ] | Set your 12-month and 90-day targets (agents, conversations, calls, joins, rev share) | Inside the intake, or "set my attraction goals" | Your 90-day scorecard |
-| 4 | [ ] | Build your Personal Story & Experience Bank | Inside the intake, then "build my attraction story bank" to widen it | Six developed seeds, growing toward twelve |
-| 5 | [ ] | Choose your niche and build your 1 to 3 Agent Avatars | Inside the intake, or "map my agent avatars" | Your Avatar One-Pagers |
+| 1 | [ ] | Install Claude, Cowork, and the Agent Attraction OS; connect your storage, Gmail and Calendar | The Setup Guide; "I'm stuck" if you are | A working install |
+| 2 | [ ] | Run the Brain intake — four conversations, three voice answers | "set up my attraction brain" | Your Agent Attraction Brain, and your Brain Book |
+| 3 | [ ] | Run the brand chat and the Design Package | "my attraction brand direction" (a new chat), then the three Claude Design skills | Your Design Package brief, your logo, style sheet and brand kit |
+| 4 | [ ] | Your Personal Story & Experience Bank | Seeded inside the intake, then "build my attraction story bank" to widen it | Six developed seeds, growing toward twelve |
+| 5 | [ ] | Know who your story speaks to | Derived inside the intake; "who should I attract" to refine | Who your story speaks to (one page), written for you |
 | 6 | [ ] | Post your intro and your "before" in Circle | — | Your starting line, on record |
 
-Also this week, from the install path: paste your Design Package brief into Claude Design, say yes to your Daily Debrief, and set your compliance basics so nothing public is ever blocked.
+Also this week, when you're ready: "paste my compliance link" so nothing public is ever blocked, "set my attraction goals" to lock your targets and get your 90-day scorecard, and "turn on my daily debrief" if you want it running.
 
-**Your "before" post.** Three lines in Circle: who you are and your market, the type of agent you're building for, and the one number from your scorecard you're committing to this quarter (the weekly conversations, not the join target). That's the line you'll measure Week 6 against.
+**Your "before" post.** Three lines in Circle: who you are and your market, the agents your story speaks to, and the one number you're committing to this quarter (the weekly conversations from "set my attraction goals", not the join target). That's the line you'll measure Week 6 against.
 
 ### What's next: Week 2 — Build Your Positioning & Agent Offer
 
 *Give agents a compelling reason to pay attention to you and eventually partner with you.*
 
-"Why should another agent choose to partner with *you*?" is a different question from "why join my brokerage?" Week 2 answers it with the three value layers (brokerage, upline, you), so you package what your upline already provides instead of building a coaching organization before you've attracted anyone. You'll build your UVP and your full Partner Offer from the raw material your Brain collected this week; upload your brokerage materials so your Brokerage Model Expert can explain the model per type of agent; build your attraction brand with the Design Package; write your first lead magnet (chosen from your unique value proposition) and its opt-in page with the Lead Magnet plugin, right after the offer, which also rewrites your bios aligned to the funnel; map the digital product you'll give agents who join; generate your 3D Offer Stack and "Join My Team" one-pager; and start your first prospect list with Prospect Radar. The vault deep dives are Model Breakdowns & Positioning and Crafting Your Value Proposition.
+"Why should another agent choose to partner with *you*?" is a different question from "why join my brokerage?" Week 2 answers it with the three value layers (brokerage, upline, you), so you package what your upline already provides instead of building a coaching organization before you've attracted anyone. You'll build your UVP and your full Partner Offer from the raw material your Brain collected this week (your unique approach); upload your brokerage materials so your Brokerage Model Expert can explain the model per type of agent; set up your tools — your booking page, your CRM, your hours; write your first lead magnet (chosen from your unique value proposition) and its opt-in page with the Lead Magnet plugin, right after the offer, which also rewrites your bios aligned to the funnel; map the digital product you'll give agents who join; generate your 3D Offer Stack and "Join My Team" one-pager; and start your first prospect list with Prospect Radar. The vault deep dives are Model Breakdowns & Positioning and Crafting Your Value Proposition.
 
 Everything Week 2 builds reads from the Brain you built this week. Finish the Brain first.

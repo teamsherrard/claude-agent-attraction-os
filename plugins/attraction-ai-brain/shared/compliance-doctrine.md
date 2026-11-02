@@ -16,10 +16,13 @@ ads note (`01-foundation-mindset/02`), the plan's compliance list, and the cohor
 ## 1. The gate is three-state (never two)
 
 `identity/compliance.md` carries `Status: unset | set | confirmed`.
-- **unset** — the member has not answered Stop 15. **No public output.** Say it plainly and warmly: *"Before I
-  write anything public, I need your compliance basics — how your brokerage name appears, your license display,
-  and your brokerage's rule on talking about income. Say 'set up my attraction compliance' and it takes three minutes."*
-  Private outputs (the model script, the money scenarios, the top-50) still run.
+- **unset** — the member has not set compliance yet (it is never part of Brain setup; the owner's ruling,
+  2026-11-02: members don't know these answers, so the fastest path is their brokerage's own page). **No public
+  output.** Say it plainly and warmly: *"Before I write anything public, I need your compliance basics — paste
+  your brokerage's compliance or advertising page link and say 'paste my compliance link'; I read it, pull out the
+  disclaimer wording, the license display rule and the rev-share marketing policy, and you confirm. Two minutes.
+  Or say 'set up my attraction compliance' and we do it in conversation."* Private outputs (the model script, the
+  money scenarios, the top-50) still run.
 - **set** — captured; apply every rule and remind the member once per session to confirm with their brokerage.
 - **confirmed** — the member confirmed on a date; apply.
 "If compliance is empty, proceed" is **banned** — it shipped `[Brokerage Name]` placeholders in three realtor
@@ -69,8 +72,9 @@ one line and writes the strength instead.
 ## 4. Brokerage advertising and rev-share marketing policy
 
 **Rule:** the member's brokerage policy on marketing the model, revenue share, and the brokerage itself governs
-every public piece. Captured at Stop 15 (Q59): know it, or default to the strictest — no splits, caps, stock,
-tiers, or income figures in public content; compensation explained on a private call only.
+every public piece. Captured by `attraction-compliance` (from the brokerage's pasted compliance page where it
+states one, or in conversation): know it, or default to the strictest — no splits, caps, stock, tiers, or income
+figures in public content; compensation explained on a private call only.
 **Grounding:** Mike notes that at his brokerage "you're not allowed to run ads to a brokerage-explained" video —
 value first, then convert (`01-foundation-mindset/02`); compensation and "the model" are presented on the call,
 tailored (`02-prospect-targeting/19`). **The specific policy text of any brokerage is not in the vault** — the
@@ -95,11 +99,14 @@ brokerage's colors; it never removes a required mark.
 
 ## 6. Recruiting scope: jurisdiction, licensing, inducements, look periods
 
-- **Scope by state/province (Stop 15, Q60):** the member names where they may attract licensed agents; outputs
-  that invite agents from outside that scope are flagged. Licensing law on recruiting across jurisdictions is
-  **not in the vault** — the member confirms with their brokerage; the cohort doc lists "a review of state and
-  provincial rules on inducements when recruiting licensed agents" as a pending decision before any transition
-  plan or comparison one-pager ships.
+- **Scope is never asked (the owner's ruling, 2026-11-02 — `attraction-doctrine.md` §9b).** A cloud brokerage
+  attracts anywhere; the recruiting-scope field is a doctrine default — "anywhere the member's brokerage operates
+  and the agent is licensed" — and never gates public output. Where the brokerage's pasted compliance page states
+  a cross-border or licensing rule, `attraction-compliance` records it verbatim with its source; otherwise the
+  field carries "confirm with your broker before any cross-border outreach". Licensing law on recruiting across
+  jurisdictions is **not in the vault** — the member confirms with their brokerage; the cohort doc lists "a
+  review of state and provincial rules on inducements when recruiting licensed agents" as a pending decision
+  before any transition plan or comparison one-pager ships.
 - **Inducements:** nothing the OS writes offers a cash, gift, or fee inducement to switch. Free training that
   the member gives all their agents is value, not an inducement — but the member confirms their jurisdiction's
   rule.
@@ -119,7 +126,8 @@ brokerage's colors; it never removes a required mark.
 
 - **AI clone / AI voice content** (the cohort's AI Clone Employee): disclosed on screen and in the description
   with the wording captured in `compliance.md`; nothing presents a clone as a live recording. The disclosure
-  field is captured at Stop 15 even if the member has no clone yet ("no clone content" is a valid value).
+  field is captured by `attraction-compliance` even if the member has no clone yet ("no clone content" is a
+  valid value).
 - **Testimonials from agents:** consent on file or ask every time; verbatim, attributed as given, never
   improved; the cohort doc lists "testimonial consent and AI-likeness disclosure captured in the Value Vault
   templates and the clone setup" as a decision — this doctrine assumes yes.
@@ -152,8 +160,8 @@ revenue-share marketing rules before it goes out."*
 |---|---|---|
 | Cardinal rules | `03-model-positioning/13` | — |
 | No earnings claims | `02-prospect-targeting/21`, `03-model-positioning/14`, workshop rules, cohort doc | Mike's own disclaimer wording (§9 item 4 of the plan) |
-| Brokerage ad / rev-share marketing policy | `01-foundation-mindset/02` (one example) | each brokerage's policy text — from the member's materials |
-| Name / license / logo display | `11-objection-handling/56`, `02-prospect-targeting/24` | the member's board + brokerage rule, cited |
+| Brokerage ad / rev-share marketing policy | `01-foundation-mindset/02` (one example) | each brokerage's policy text — from the brokerage's compliance page the member pastes, or their materials |
+| Name / license / logo display | `11-objection-handling/56`, `02-prospect-targeting/24` | the member's board + brokerage rule, cited (the pasted page is the first source) |
 | Look period | `02-prospect-targeting/26` | — |
 | ICA terms | `11-objection-handling/58` | — |
 | Recruiting scope / inducements | cohort doc (pending review) | jurisdiction rules — member + brokerage |

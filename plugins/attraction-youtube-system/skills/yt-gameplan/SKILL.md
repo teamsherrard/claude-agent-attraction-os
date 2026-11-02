@@ -108,7 +108,7 @@ leader moment`) · *what's missing for the agents I attract — and how I bridge
 line and `offer.md`; always the agents' problem, never a word against another team or brokerage —
 `03-model-positioning/13`) · *why me, for a new agent and for a seasoned one* (`## Why join me` when Week 2 wrote
 it; otherwise `leadership.md` and `strategy.md`'s known-for). A line the Brain has not written yet is drafted from
-`strategy.md` + `avatars.md` + the journey beats and labeled "(draft — your Brain's WHY is written in Setup and
+`strategy.md` + `avatars.md` + the journey's turning points and labeled "(draft — your Brain's WHY is written in Setup and
 Week 2)"; the doc never asks for it and never shows a blank (`01-foundation-mindset/10`: write it down, replay it on
 the hard days). Enthusiasm carries it — write it the way they would say it out loud.
 

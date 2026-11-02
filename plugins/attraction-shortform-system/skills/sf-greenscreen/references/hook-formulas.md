@@ -41,7 +41,7 @@ Template: "There's a window open for agents right now. Here's what it is."
 Example: "There's a window open for new agents this year that wasn't there last year."
 
 ### 9. The "What We Did"
-The Proof beat up front.
+The Proof moment up front.
 Template: "Here's what our group did the day this came out."
 Example: "Here's what we changed on our Tuesday call the week the rules changed."
 

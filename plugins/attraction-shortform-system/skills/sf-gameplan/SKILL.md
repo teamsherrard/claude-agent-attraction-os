@@ -95,7 +95,7 @@ line from `strategy.md` + `avatars.md` and label it "(draft until your offer is 
 `journey.md` (`## Why join me` if written — the one breath that says why them) · `memory/magnets.md →
 ## Current magnet` (the live guide, built in Week 2; empty only when the member skipped that session) ·
 `operations.md` (the booking link).
-Write, in their voice: **who they attract** (the primary type, the pain in the agent's words, the mirror beat
+Write, in their voice: **who they attract** (the primary type, the pain in the agent's words, the mirror moment
 from the journey — `02-prospect-targeting/18`: agents leave problems, not companies) · **the one line** ("[Name]
 helps [agent] [outcome] through [mechanism]") · **the short-form job** in one sentence (Awareness → Recognition →
 Familiarity → Trust → Curiosity → Conversation; Reels are width, stories are depth — `07-instagram/89`) ·
@@ -117,7 +117,7 @@ Build the five from the Brain — **develop, never transcribe** — each pillar:
 (a story-bank hook, a win with consent, a routine they keep, a teach from the known-for): Authority = the niche
 dissected into tactical pieces, the tip of the iceberg (`06-content-framework/37`, `07-instagram/88`) ·
 Perspective = the takes they hold, the myths to bust, the questions agents ask — never about a named brokerage or
-person (`07-instagram/88`, `03-model-positioning/13`) · Story = the journey beats with "who relates to this", the
+person (`07-instagram/88`, `03-model-positioning/13`) · Story = the journey's turning points with "who relates to this", the
 former brokerage never named (`06-content-framework/39`, `/40`) · Proof = agents already helped (consent on file;
 otherwise first name or initials), the weekly call, the training, the events — "it's not us saying our culture is
 incredible, you're seeing it" (`06-content-framework/38`); zero proof → one honest line and the upline's proof
@@ -138,12 +138,12 @@ fill at Phases 3 and 5 of this same run.)
 its `Content:` line defers to this plan — never ask for hours the Brain holds) · `strategy.md` (`Constraints /
 capacity`, already open) · `operations.md` (`Filming window:`, already open).
 Propose, from those: **the number** (three to five Reels a week, working up to five — `07-instagram/88`; three is
-the floor; honest capacity beats ambition) · **the mix** — *"2 attraction · 2 authority · 1 story, stories daily —
+the floor; honest capacity outranks ambition) · **the mix** — *"2 attraction · 2 authority · 1 story, stories daily —
 the OS default until Mike's decision"* (label it exactly so; attraction = Proof + Personality, authority = Authority
 + Perspective, story = Story — doctrine §9d; Mike's sample week — Monday value · Tuesday recognition · Wednesday
 leadership insight · Thursday culture or event recap · Friday personal or opinion — `07-instagram/90` — is the
 fallback shape when their number is lower) · **the formats and what each is for**: the talking-head Reel (the
-batchable core, 30–60 s, hook → value → one CTA, raw beats polished — `07-instagram/90`), the green screen (a take
+batchable core, 30–60 s, hook → value → one CTA, raw is better than polished — `07-instagram/90`), the green screen (a take
 on brokerage or industry news, facts with a source, never a dig), the carousel (the no-filming format; a LinkedIn
 document post when the member attracts team leaders or broker-owners), stories (one to five a day, never a day
 without — `07-instagram/89`) · **the platforms in priority order** (Instagram Reels first; one video reposted to
@@ -156,7 +156,9 @@ story element, five real comments on agents' posts in the lane, never a negative
 Confirm in one word: *"Default plan: [N] Reels a week — 2 attraction, 2 authority, 1 story — stories every day;
 batch day [day]. Keep it, or change the number?"* Then write `Platforms (priority order):` · `Cadence:` · `Weekly
 mix:` · `Batch day(s):` to `publishing.md` (the source), mirror `Cadence` and `Platforms` into `content-pillars.md`'s
-header lines and `## Weekly mix` → push. (The routine that runs it week to week is `sf-weekly-routine`.)
+header lines and `## Weekly mix`, and write the batch day and time to the single `Filming window:` line of
+`identity/operations.md` (this plugin's one write there, by the Brain contract's permission — the mirror of
+`Batch day(s):`; the YouTube plugin reads it by name) → push. (The routine that runs it week to week is `sf-weekly-routine`.)
 
 ## Phase 4 — The hook bank (section 4 · 250+ words · exactly 30)
 **Lazy-load doctrine §7 (the hook) and §9b.** **Read now:** `memory/conversations.md` (read-only — the questions

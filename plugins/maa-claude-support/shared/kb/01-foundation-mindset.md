@@ -1,6 +1,6 @@
 # Foundation & Recruitment Mindset (Week 1)
 
-This module sets the mindset before any tactic. Mike walks through his own story (three years of YouTube with no results, then the switch to a cloud-based brokerage that made the content pay off), defines attraction versus recruiting, explains why residual income beats active income, and tells members how to set realistic goals, find their why, and guarantee a return on the program by doing the work. His frame throughout: this is a three-year commitment, there is no shortcut, and you attract the kind of person you are.
+This module sets the mindset before any tactic. Mike walks through his own story (three years of YouTube with no results, then the switch to a cloud-based brokerage that made the content pay off), defines attraction versus recruiting, explains why residual income is better than active income, and tells members how to set realistic goals, find their why, and guarantee a return on the program by doing the work. His frame throughout: this is a three-year commitment, there is no shortcut, and you attract the kind of person you are.
 
 Lessons: 1 What You Can Learn From It · 2 Attraction vs. Recruiting · 3 Guarantee Success · 4 New Age of Real Estate (no transcript) · 5 New Era of Cloud Based · 6 From Agent to Leader · 7 Power of Residual Income · 8 Setting Goals · 9 1 Agent Can Change Your Life · 10 Clarity on Your Why · 11 Book Recommendations
 

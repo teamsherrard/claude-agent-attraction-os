@@ -198,7 +198,7 @@ or a script still comes from a sourced fact in the Brain, never from the search 
 `YOUTUBE_SEARCH_YOU_TUBE` (`order=relevance`, the phrasing agents use for the topic) →
 `YOUTUBE_GET_VIDEO_DETAILS_BATCH` on the candidates → apply the quality bar (same concept, for the same agent
 audience · performed vs its channel's size · recent · watchable) → deliver `link · channel · views · the one
-thing to beat` — views exact from the API, not approximate. Same-audience first; a general-audience or
+thing to do better` — views exact from the API, not approximate. Same-audience first; a general-audience or
 different-model video only as the labeled fallback. Used inside the deep dive (the openings); the production
 skills (`yt-research`, run by `yt-make-video`) build references from public reads and never call the
 connection.
@@ -288,7 +288,7 @@ connection does not expose). Deep Shorts retention = a Studio screenshot, the sa
   arbitrary public accounts cannot be queried (verified 2026-09-25). Hashtag research is also not native (only
   via the paid PRO-tier scrapers in section D). Another leader's Instagram is a **glance, not a pull**: the
   member opens the public profile (or drops screenshots) and you read what's visible — follower count, posting
-  pace, format mix, hook styles, which posts beat their own usual likes/comments. Label it as a glance, never
+  pace, format mix, hook styles, which posts outperformed their own usual likes/comments. Label it as a glance, never
   as their "analytics".
 - **TikTok — not programmatic** in this version (the public-profile tools are PRO-tier scrapers): a glance the
   member screenshots. Say so; don't fake it.

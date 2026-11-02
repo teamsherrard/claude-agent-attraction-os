@@ -35,7 +35,7 @@ avatars.md` (the types the member serves and the ones to pass through fast), `id
 (the one line a setter may say about what the member does), `identity/voice.md` (the setter writes as the
 member's team, in the member's register), `identity/compliance.md` (public), `config.md` (`Workspace shared
 with`). Missing locally → `attraction-brain-sync`. A tool error is never "no Brain".
-`${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` for the DM-flow beats if needed (the member-run
+`${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` for the DM-flow steps if needed (the member-run
 version is `cv-dm-flow`; the setter version below is the narrower one).
 
 ## Stop 1 · Who and where (2–3 questions)
@@ -69,7 +69,7 @@ compensation or the model · anyone unhappy, upset, or disputing something · an
 exactly what [Name] covers on the call — here's the calendar; want me to hold a time?"*
 
 ## The DM qualification script (keyword or comment → booked)
-Written in the setter's voice, six short beats, one question each, with the member's actual phrasing. Read every draft back against the NEVER list before it is shown (house rules #9: no immediate pitch, no wall of text, no corporate recruiting language, no compensation, nothing AI-sounding, no fake personalization, no forced Zoom); one failure = rewrite.
+Written in the setter's voice, six short steps, one question each, with the member's actual phrasing. Read every draft back against the NEVER list before it is shown (house rules #9: no immediate pitch, no wall of text, no corporate recruiting language, no compensation, nothing AI-sounding, no fake personalization, no forced Zoom); one failure = rewrite.
 1. **Open on their action** — "Saw your comment on [the reel's topic] / thanks for the keyword — glad it
    landed." (Never "I'd love to share an opportunity.")
 2. **One real question about them** — "Quick one: how long have you been licensed, and where are you
@@ -85,7 +85,7 @@ Written in the setter's voice, six short beats, one question each, with the memb
 Plus the three branch replies: **not interested** ("totally fine — I'll leave you with [resource]; door's
 open"), **already at the brokerage / already sponsored** ("appreciate you saying — the call wouldn't be the
 right fit then; [Name] still shares [the free content] every week"), **asks about money** (pass to the
-member, beat 1 above).
+member, step 1 above).
 
 ## The phone scripts (two)
 1. **Confirmation / qualification call for a booked agent** (3 minutes): confirm the time and the Zoom

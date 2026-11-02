@@ -39,7 +39,7 @@ Then only what the job needs:
 - `identity/avatars.md` — the primary type and one-line target, the Reach line, the Targeting rules. **No
   real avatar → one line:** *"Tell me who you're building for first — say 'map my agent avatars'."* A
   Top-50 built before the avatar is a phone book.
-- `identity/compliance.md` — the recruiting scope line (agents outside it are not added)
+- `identity/compliance.md` — the recruiting-scope Notes (anywhere by default; a licensing rule the brokerage states earns "confirm with your broker" in `Next move`, never an exclusion)
 - `memory/conversations.md` — the dated conversation log (owned by the Conversion plugin; capture writes it
   on the go); the newest row per name is the source of truth for "last touch" when it exists
 - `memory/pipeline.md` — stages as the Admin records them (from Week 5), and the Board's `Next move` · `Due`;
@@ -213,8 +213,9 @@ hedging · no filler.
   `none yet` are honest cells.
 - **Cardinal rules** (`03-model-positioning/13`): no negative word about any brokerage or person, including
   in `Next move` and `why not yet`.
-- **Compliance scope:** nobody outside the licensed recruiting scope is added. Franchise broker-owners
-  carry "look period first" in `Next move` (`02-prospect-targeting/26`).
+- **Anywhere, never a place:** an agent is never left off the list for where they are licensed — a cloud
+  brokerage attracts anywhere; a licensing rule the brokerage states earns "confirm with your broker" in
+  `Next move`. Franchise broker-owners carry "look period first" in `Next move` (`02-prospect-targeting/26`).
 - **Brokerage-agnostic;** attraction, not recruiting; compensation never in a `Next move`.
 - **Draft-only.** This skill never sends, posts, DMs, or schedules. It prepares the words; the member
   says them.

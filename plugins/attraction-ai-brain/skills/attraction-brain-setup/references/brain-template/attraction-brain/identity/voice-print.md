@@ -1,7 +1,7 @@
 # [Member First Name] — Voice Print (how they TALK)
 *identity · the SPOKEN layer of their voice — every read-aloud output (scripts, reels, interview answers, the 2-minute model script) reads this*
-*Last updated: [ ] · Spoken samples analyzed: [ ]  (grows with every voice-mode session and every spoken capture)*
-*Owner: `attraction-voice-print`, built on top of `voice.md` via `shared/spoken-capture.md`. Optional depth layer — offered once as an upgrade, never a defect.*
+*Last updated: [ ] · Spoken samples analyzed: [ ]  (the three setup answers first; grows with every voice session and every spoken capture)*
+*Owner: `attraction-voice-print`, built via `shared/spoken-capture.md` from the three spoken answers at setup (why you're excited about agent attraction · your WHY · why someone should partner with you); `voice.md` is written from the same answers plus how the member typed. Refreshed on "refresh my attraction voice print".*
 
 ## Pace & rhythm
 [fast / measured · long winding sentences or short punchy ones · where they pause]

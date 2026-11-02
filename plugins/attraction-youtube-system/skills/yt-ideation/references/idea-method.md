@@ -31,7 +31,7 @@ holds the story. Never two model videos in one cycle; never a batch that is all 
 ## Packaging-first checklist (every idea, prepared behind the scenes)
 - **Title (doctrine §9):** one of the seven formulas where it fits (keep the number for the row), one promise,
   ≤70 characters, the viewer named ("real estate agent", the avatar type) when the search needs it, the year on
-  model videos. Curiosity · emotion · clarity; bold and emotional beats clever.
+  model videos. Curiosity · emotion · clarity; bold and emotional outranks clever.
 - **Hook:** the pain point in the first line, in the member's voice; the promise in the second. Written out word
   for word later by `yt-script` — here one line.
 - **Thumbnail text:** 3–5 words, **different from the title**; the expression it needs. Surfaces in the video

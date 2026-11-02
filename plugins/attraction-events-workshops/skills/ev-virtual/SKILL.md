@@ -4,7 +4,7 @@ description: >
   The virtual training playbook — the Zoom event that attracts agents across markets, Mike's starting
   format. Built on the Virtual Workshop Launch Kit: the launch checklist from two weeks out, the promo
   calendar, the registration page and slides (handed to the Design Studio by name), the run-of-show script
-  with chat engagement beats, the speakers (top agents or the upline), the replay, and the heavier follow-up
+  with chat engagement moments, the speakers (top agents or the upline), the replay, and the heavier follow-up
   a virtual room needs. Ads are optional and named with their rule; nothing here requires them. Reads the
   Brain; drafts only — nothing is scheduled or sent. Trigger on: "virtual training for agents", "zoom
   workshop for agents", "virtual workshop launch kit", "online training to attract agents", "my zoom event
@@ -46,8 +46,8 @@ uses it ("Read now") — never earlier, never re-read once in context.
 **Your turn.** "You pick" → the defaults.
 
 ## Step 2 — The playbook (the kit, filled in for this event)
-Read now: the kit reference, then doctrine §5–§8 · `identity/avatars.md` (geography — a virtual room reaches
-beyond it; the chat prompts come from their pains in their words) · `memory/magnets.md → ## Current magnet` (the
+Read now: the kit reference, then doctrine §5–§8 · `identity/avatars.md` (the chat prompts come from their
+pains in their words; `reach: anywhere` — a virtual room reaches any agent) · `memory/magnets.md → ## Current magnet` (the
 second CTA) · the Lead Magnet block's `List tool` in `config.md` (where registrants land).
 - **The launch checklist, T-14 to T+10** (Phase 4): T-14 page live (`ev-registration` → `aa-funnel-design`
   registration shape; the calendar invite in the confirmation) · T-14 the promo graphic, the countdown stories,
@@ -90,7 +90,7 @@ second CTA) · the Lead Magnet block's `List tool` in `config.md` (where registr
 Render per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` via
 `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/virtual-playbook.txt "Virtual Training Playbook · [code] · [YYYY-MM-DD].docx" --title "Virtual Training Playbook — [event name]" --subtitle "[Name] · [Market]" --eyebrow "Events & Workshops"`
 → read back → `03 · Content/Events/[code] · [Theme]/` (fallback: `.md`, one line). Bands: THE ROOM SETTINGS ·
-THE PEOPLE · LAUNCH CHECKLIST (T-14 → T+10) · RUN-OF-SHOW SHAPE AND CHAT BEATS · RECORDING AND REPLAY · ADS (IF
+THE PEOPLE · LAUNCH CHECKLIST (T-14 → T+10) · RUN-OF-SHOW SHAPE AND CHAT PROMPTS · RECORDING AND REPLAY · ADS (IF
 EVER) · SCOPE AND COMPLIANCE · FOLLOW-UP. `memory/events.md` → When / Where (Zoom) / Replay / Co-hosts lines;
 push via `attraction-brain-sync`; verify. Then the next builds in order, plain words: registration page →
 promo → run-of-show → follow-up (drafted the week before). *"Start on the page?"* **Your turn.**

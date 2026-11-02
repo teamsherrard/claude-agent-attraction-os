@@ -36,14 +36,14 @@ Three or more RECORDED lessons → the course piece (the workbook per module is 
 8. **The worksheets** — every fillable sheet the training asks for (§4), each one page.
 9. **The plug-in page** (`13-team-building-duplication/65`) — "You're not doing this alone": the weekly
    call (day · time · link), the community (what it is · how to get in), who to message when stuck, the
-   first three things to do this week, the member's one line. From the Book's How You Operate chapter;
+   first three things to do this week, the member's one line. From the Partner Offer document's "How we work together";
    anything unset becomes an "ask me" line.
 10. **Back cover** — the organization's logo (or the member's), the member's name and role, contact in
     full plain text, the compliance line, the one-breath why from the Book.
 
 **The workbook** adds, after each section: a fillable spread (3–6 prompts with lines; a scorecard or
 tracker where the section has numbers), a **"my numbers"** page (the member's own tracking sheet, empty
-cells), and a **30-day page** that mirrors the Book's first-30-days table (week · what the partner does ·
+cells), and a **30-day page** that mirrors the Partner Offer document's first-30-days table (week · what the partner does ·
 what the member does · done when) with a checkbox per row.
 
 ## 3. PRINT MECHANICS (the print-kit rules, applied to a document)

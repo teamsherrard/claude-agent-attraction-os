@@ -32,7 +32,8 @@ Two stops, 3–4 questions each, "your turn" at the end of each; propose-and-rea
 ## Step 1 — Load the Brain (score from facts before asking anything)
 `~/attraction-brain/brain.md`, then only three files up front: `identity/leadership.md` (if present: a
 re-audit — show last time's scores and ask what changed), `identity/goals.md` (the 90-day join target =
-**N**, the hours from Q39), `identity/profile.md` (years, team or solo). The rest load at the stop that
+**N** once locked, else the 12-month number; the hours a week from setup), `identity/profile.md` (years,
+team or solo). The rest load at the stop that
 scores them (named there). Pull via `attraction-brain-sync` if missing; a tool error is never "no Brain".
 
 ## The doctrine (what "ready" means, from the lessons)
@@ -60,8 +61,8 @@ onboarding steps, call cadence — if built), `identity/offer.md` (what they giv
 Orient: *"Next: a quick, honest readiness check — two short rounds. Low scores are normal; they
 become your first three fixes."*
 1. **Hours a week for your agents** (not for attraction — for the people who have already joined).
-   If `goals.md` Q39 exists, ask for the split: *"Of your [Q39] attraction hours, how many would go to
-   supporting agents once they join?"*
+   If `goals.md` holds the hours from setup, ask for the split: *"Of your [N] attraction hours, how many
+   would go to supporting agents once they join?"*
 2. **What would you hand a new agent on day one?** Scripts, a lead system, a routine, trainings, a
    call they can join, your brokerage's or upline's resources — list what exists, in their words.
    (The upline's assets count — the Week 2 audit packages them; here we only need to know they exist.)
@@ -150,7 +151,7 @@ Can serve ≈ [n] agents today · 90-day join target: [N] · 12-month target: [T
 |---|---|---|
 ```
 Write it, then `attraction-brain-sync` (PUSH) immediately and verify. No separate document by
-default (the Book carries this as part of *How You Operate* in Part IV); render one on request via
+default (the Brain Book does not carry it); render one on request via
 `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`.
 
 ## Confirm (their words, no scores recited as a verdict)

@@ -79,7 +79,7 @@ save."*
 ## THE FALLBACK (never ship a broken object)
 
 If a dimensional render comes out warped, soft, or low-quality, fall back to a near-flat cover with a
-subtle tilt and a soft shadow — it still reads as a product. A clean flat shot always beats a bent book.
+subtle tilt and a soft shadow — it still reads as a product. A clean flat shot is always better than a bent book.
 
 ## REFRESH (the cover changes, the shots follow)
 

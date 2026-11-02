@@ -73,19 +73,25 @@ BOOK GRAMMAR
        WARNING: TOC entry "<title>" has no matching heading - rendered as plain text
    on stderr (the verify gate greps for WARNING).
 
-3. CHAPTER / PART bands — a CAPS band heading matching
-       ^(PART [IVXLC]+|CHAPTER \\d+) <dash> TITLE
-   renders a small tracked kicker line ("CHAPTER 3") above the Heading 1 title and
+3. SECTION / CHAPTER / PART bands — a CAPS band heading matching
+       ^(PART [IVXLC]+|CHAPTER \\d+|SECTION \\d+) <dash> TITLE
+   renders a small tracked kicker line ("SECTION 3") above the Heading 1 title and
    takes a PAGE BREAK BEFORE it — except when it is the first body element (the
    cover/TOC already broke). EVERY band heading is bookmarked with a deterministic
-   slug. A PART page also gets "IN THIS PART": a linked list of that part's chapters
-   (number · title · the contents summary), built from the [[TOC]] data, emitted
-   after the part's intro paragraph(s) — a part page is never near-empty.
+   slug. The Brain Book uses SECTION bands (the kicker the member sees); CHAPTER is
+   kept so older Books still render. A PART page also gets "IN THIS PART": a linked
+   list of that part's chapters (number · title · the contents summary), built from
+   the [[TOC]] data, emitted after the part's intro paragraph(s) — a part page is
+   never near-empty.
 
 4. ">> " CALLOUT — a line starting ">> " renders as the key-insight block (bold lead
    when the text starts with a "Label:" pattern). Book mode only — in legacy docs
    ">>" lines keep their script-cue rendering; script cue heads (ON SCREEN / PAUSE /
    FACT: / "[") stay cues in both modes.
+
+5. THE DEMO LINE — in book mode a line that starts with "(illustrative — demo)"
+   renders as a small muted cue (9.5pt italic, indented): the one demo line the Brain
+   Book spec puts directly under each SECTION band of a demo build.
 
 BOOKMARK SLUG RULE (deterministic)
 ----------------------------------
@@ -632,8 +638,9 @@ DOTROW = re.compile(r'^\s{2,}\S.*?\s\.{3,}\s+\S')
 def _isdot(l):
     return ('....' in l and re.match(r'^\s*\S.*\.{3,}\s*\S', l) is not None) or DOTROW.match(l) is not None
 CUE = re.compile(r'^\s*(>>|\[|FACT:|ON SCREEN|PAUSE)')
-CHAP = re.compile(r'^(PART\s+[IVXLCDM]+|CHAPTER\s+\d+)\s*[—–:\-]\s*(.+)$')
-_CHAP_PREFIX = re.compile(r'^\s*(PART\s+[IVXLCDM]+|CHAPTER\s+\d+)\s*(?:[—–:\-]\s*)?')
+DEMO_LINE = re.compile(r'^\(illustrative — demo\)')      # the Brain Book's one demo line per section (book mode)
+CHAP = re.compile(r'^(PART\s+[IVXLCDM]+|CHAPTER\s+\d+|SECTION\s+\d+)\s*[—–:\-]\s*(.+)$')
+_CHAP_PREFIX = re.compile(r'^\s*(PART\s+[IVXLCDM]+|CHAPTER\s+\d+|SECTION\s+\d+)\s*(?:[—–:\-]\s*)?')
 _LABEL = re.compile(r'^([A-Z][A-Za-z0-9 /&→\-\(\)]{2,40}?):\s+(.*)$')
 _WEEKV = r'^\s*Week\s+(\d+)\s*[·:]\s*(Video|Post)\s*(\d+)\s*—\s*(.*?)\s*\(([^)]*)\)\s*$'
 _WEEKP = r'^\s*Week\s+(\d+)\s+—\s+(.*)\((Pillar[^)]*)\)\s*$'
@@ -696,7 +703,7 @@ def _part_lists(entries, norm_map):
             cur = _norm_title(title); parts[cur] = []; continue
         if cur is None: continue
         seq += 1
-        mn = re.match(r'^\s*CHAPTER\s+(\d+)', up)
+        mn = re.match(r'^\s*(?:CHAPTER|SECTION)\s+(\d+)', up)
         num = mn.group(1) if mn else str(seq)
         bare = _CHAP_PREFIX.sub('', up).strip() or up
         parts[cur].append((f"{num} · {bare}", norm_map.get(_norm_title(title)), summary))
@@ -898,6 +905,8 @@ def _render_body(lines, i, doc, book_mode, collect=None, slug_iter=None, part_li
             i += 1; continue
         # cue lines (>> ON SCREEN, [PAUSE], FACT:)
         if CUE.match(line): doc.cue(line); i += 1; continue
+        # the Brain Book's demo line — one small muted line under each SECTION band of a demo build
+        if book_mode and DEMO_LINE.match(line): doc.cue(line); i += 1; continue
         # ALL-CAPS sub-label (optionally with a lowercase parenthetical)
         mlbl = re.match(r'^([A-Z][A-Z0-9 &/\-]{5,42}?)(\s*\(.*\))?:?\s*$', line)
         if mlbl and mlbl.group(1).strip().count(' ') >= 1 and not NUM.match(raw):

@@ -52,7 +52,7 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   column carries one of these five — never anything else.
 - **The five YouTube buckets** are an idea taxonomy, not pillars: **Problem · Situation · Future · Interview ·
   Model.** Mapping (doctrine §3): Problem / Situation / Future → **Authority** (with Story and Personality angles
-  when the video is the member's own story or a personal beat) · Interview → **Proof** · Model → **Perspective**.
+  when the video is the member's own story or a personal moment) · Interview → **Proof** · Model → **Perspective**.
 - **Lanes** are playlists — one per bucket on the channel (`identity/channel.md`).
 - **Pipeline stages** (agents, never videos; never written here): Identified → Conversation → Call booked →
   Call held → 3-way → Joined → Onboarded → Active.

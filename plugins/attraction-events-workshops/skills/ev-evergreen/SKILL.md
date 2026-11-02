@@ -75,14 +75,14 @@ Propose all four from the Brain; **your turn**; "you pick" → the proposals.
 ## Step 3 — The script outline (45–60 minutes; written, then shown)
 Read now: doctrine §4, §7 · `identity/voice-print.md` (how they talk) · `identity/journey.md` (the mirror) ·
 `identity/avatars.md` (the pain in their words) · `memory/objections.md` (the three questions) ·
-`memory/magnets.md → ## Current magnet` (the resource). The outline, with a one-line "say it like this" per beat
+`memory/magnets.md → ## Current magnet` (the resource). The outline, with a one-line "say it like this" per step
 in the member's voice (`voice-print.md`):
 - **Cold open (0–2):** the promise and who it's for; no "welcome to my webinar."
-- **The mirror (2–5):** one journey beat (`journey.md`) that matches the primary type — former brokerage never
+- **The mirror (2–5):** one journey moment (`journey.md`) that matches the primary type — former brokerage never
   named — and why the member teaches this for free (information isn't novel; proximity and support are, `/73`).
 - **The pain (5–8):** in the avatar's words (`avatars.md`); "if this is you, you're exactly who this is for."
 - **Three teaching blocks (8–40):** the member's actual method — real, usable tonight; each block ends with a
-  do-this-now; an agent's win with consent (`proof.md`) as the proof beat; the member's own numbers labeled as
+  do-this-now; an agent's win with consent (`proof.md`) as the proof moment; the member's own numbers labeled as
   theirs.
 - **The objections, pre-answered (40–45):** the three questions agents ask most (`memory/objections.md`), one
   honest line each — "it's a pyramid scheme" never gets a defensive answer, it gets the plain explanation of
@@ -132,7 +132,7 @@ A webinar platform's analytics export, an ad report, a watch log: numbers about 
 - No income claims or compensation anywhere in a recorded, replayable, ad-driven piece — the most public thing
   the member will ever make. The income disclaimer from `compliance.md` appended verbatim if earnings are so
   much as mentioned (they shouldn't be).
-- Cardinal rules in the objections beat; the scope line in the close; the Meta note on every ad hand-off.
+- Cardinal rules in the objections step; the scope line in the close; the Meta note on every ad hand-off.
 - Mike's platforms are his, cited as his; the member's stack from `operations.md`.
 - Quality bar; banned words; "limited time" never on an evergreen page.
 

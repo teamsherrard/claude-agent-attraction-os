@@ -43,14 +43,13 @@ two ways: include EVERY element on the checklist, and size things BIG so the lay
    Agents paying for leads · Top producers"). *(who you help)*
 5. The **positioning line** — one sentence: who you help + what you help them do, in their voice
    ("I help agents in years 2–5 build a pipeline that doesn't need a lead bill"). *(what you help them do)*
-6. The **proof chip** — ONE real credential, number, or agent result from the Book's Proof chapter, as
+6. The **proof chip** — ONE real credential, number, or agent result from the Book's "Your proof" section, as
    a quiet pill. **None in the Book = no chip.** Never invented, never "#1" without a dated source.
    *(why listen)*
-7. The **CTA button** — "Book a call with me" (the Book's primary CTA, verbatim). *(what to do next)*
+7. The **CTA button** — "Book a call with me" (the brief's primary CTA, verbatim). *(what to do next)*
 8. The **contact line** — booking link · @handle (· email).
 9. The **member's photo, large** — the cut-out (see photo treatment).
-10. The **compliance strip** — brokerage name and license exactly as the Book's Compliance chapter
-    requires, the brokerage chip anchored in a corner or the contact cluster if required — the single
+10. The **compliance strip** — brokerage name and license exactly as the brief's compliance line requires, the brokerage chip anchored in a corner or the contact cluster if required — the single
     thin, least-important line on the banner.
 11. A **rich background** — the member's treated culture photo when provided, else the brand gradient +
     the toolkit texture + the oversized mark device.
@@ -115,15 +114,14 @@ face) sit inside the centre-square region; footer and CTA bands may run to the e
    ground. **The zones INTERLOCK** (the photo fading into the band, the frame overlapping it, or the
    member's small cut-out across the seam) — two stacked rectangles that never touch is a failed post.
    **The status word is the type hero** — "WELCOME", "FIRST DEAL", "MILESTONE", "CLOSED #10", "AWARD" (via
-   the winStatus tweak; "CAPPED" only where the Book's Compliance chapter's rev-share marketing policy
+   the winStatus tweak; "CAPPED" only where the compliance line's rev-share marketing policy
    allows it) — two-tone or metallic, with the agent's first name beside it, a one-line detail
    ("3 buyers under contract in her first 60 days" — the member's own words, never an invented number),
    and ONE slim contact bar with the compliance strip. **The empty template still looks DESIGNED:** the
    placeholder IS the framed window with a small "Your agent's photo" label in brand type; NEVER app UI
    in the artwork. Nothing about what the agent earns.
 2. **The Teaching post** (`post-teach.png`) — authority. The member's expressive cut-out on a clean
-   brand ground, a big headline that is ONE real thing they know how to do (from the Book's known-for or
-   "what you have to give (so far)" — "The 7pm text that turns sign-ins into buyers"), a one-line
+   brand ground, a big headline that is ONE real thing they know how to do (from the Book's known-for line or the strategy they can teach in "Your unique approach" — "The 7pm text that turns sign-ins into buyers"), a one-line
    support, a soft CTA ("Save this · Book a call with me"), the contact bar + compliance strip.
 3. **The CTA post** (`post-cta.png`) — one type of agent, one pain, one action. The cut-out, a bold
    question or statement aimed at the **primary type of agent** in the Book, in Mike's pain wording
@@ -193,11 +191,10 @@ organization exists. Every piece: the compliance strip as the Book requires, the
 corner only where required, at most two devices beside the type and the photo, the feed-post type scale
 and the double-safe zone above.
 
-- **Milestone post** (`org-post-milestone.png`, 1080×1350) — the Book's organization number (the
-  Snapshot's "organization today" line) set 400–600px tall in the numeral device (foil on dark; deepened
+- **Milestone post** (`org-post-milestone.png`, 1080×1350) — the Book's organization number (the "Your numbers" section's organization-today row) set 400–600px tall in the numeral device (foil on dark; deepened
   on light), the word under it in the heading face ("AGENTS" / "PARTNERS"), a pill or a rule carrying
   **"have now joined [the organization's name / me]"**, the organization's lockup, the footer. The count
-  is never rounded, never invented, never "CAPPED" unless the Book's rev-share marketing policy allows it.
+  is never rounded, never invented, never "CAPPED" unless the compliance line's rev-share marketing policy allows it.
   No organization number in the Book = no milestone post.
 - **Anniversary post** (`org-post-anniversary.png`, 1080×1350) — the member's photo (half-body, treated)
   with "[N] YEAR(S) AT [BROKERAGE]" or "[N] YEARS OF [THE ORGANIZATION]" as a two-tone or gradient

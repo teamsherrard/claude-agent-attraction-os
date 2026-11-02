@@ -39,7 +39,7 @@ Read `~/attraction-brain/brain.md` first, then:
   the highlights list
 - `identity/avatars.md` — who's watching; what a quick win looks like for them
 - `identity/proof.md` — agent wins with consent (a win without consent is told as "one of my agents", never named)
-- `identity/story-bank.md` — a short story beat for a "food for thought" story; stamp Used-where if used
+- `identity/story-bank.md` — a short story moment for a "food for thought" story; stamp Used-where if used
 - `identity/voice.md` · `identity/voice-samples.md` — stories are typed, short: their written phrasing
 - `identity/offer.md` — what they give today (the opportunity category); `seeds` → "what I'm building" sneak
   peeks and "book a call", never a demanded guide

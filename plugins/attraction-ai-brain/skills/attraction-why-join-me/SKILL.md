@@ -3,8 +3,8 @@ name: attraction-why-join-me
 description: >
   The member's personalized "why join me" story in two lengths: the 60-second version they say on camera
   or at the top of a partner call, and the long version for the "why I joined" video and the conversation
-  that follows. Built from the Brain, not new questions: the journey's three beats, the real reason they
-  joined, their proof as a leader, their one-liner, and one story from the bank, in their spoken voice.
+  that follows. Built from the Brain, not new questions: the story and its turning points, the real reason
+  they joined, their proof as a leader, their one-liner, and one story from the bank, in their spoken voice.
   Follows Mike's five-part shape (past · transformation · mission · value · vision) and the "I know what
   it's like to…" template. Compensation never in it, former brokerages never named, no income claims,
   nothing invented. A Week 2 skill that reads the offer's status and never demands a finished offer: with
@@ -28,8 +28,9 @@ not recruiting" stance if they are not already in context.*
 
 ## Step 1 — Load the Brain (this is where the story comes from)
 Read `~/attraction-brain/brain.md`, then only these three up front (the rest load at the step that uses them):
-- `identity/journey.md` — the three beats, the leader moment, the WHY (the **past** and **transformation**).
-- `identity/profile.md` — the real reason they joined and the one line out loud.
+- `identity/journey.md` — the story with its turning points, the leader moment, the WHY (the **past** and
+  **transformation**).
+- `identity/profile.md` — the story behind choosing the brokerage, the sponsor, and the one line out loud.
 - `identity/offer.md` — read the `Status:` line first. See Step 2.
 If the local copy is missing, pull with **attraction-brain-sync**; a connector error is never "no Brain".
 Never re-ask what these files answer. If `journey.md` is still a template, say so in one warm line and
@@ -60,18 +61,18 @@ only proof allowed) · `identity/positioning.md` (the one-liner seed, if any —
 if it exists, else `identity/voice.md` (the story is read aloud, so it is written for the ear in their cadence).
 
 From `04-value-proposition/34`, every version has five parts, in this order:
-1. **Past** — where they started and the struggle, in one specific scene (Beat 1 or 2 of the journey).
-2. **Transformation** — what they learned, built, or overcame (Beat 3; the leader moment).
+1. **Past** — where they started and the struggle, in one specific scene (how it started, or the hardest stretch).
+2. **Transformation** — what they learned, built, or overcame (the turning point; the leader moment).
 3. **Mission** — why they care about agents winning (the WHY: who it is for, not "I want 5,000 agents").
 4. **Value** — what an agent gets access to by joining them (Step 2 decides the source).
 5. **Vision** — where they are taking the organization and how the agent benefits from it (the vision
    line in `strategy.md`: a future big enough that the agent's goals fit inside it).
 
 The template that pulls it together (adapt the words to their voice; never read it as a form):
-> *I know what it's like to [the pain, from Beat 2]. That's exactly why I [built / do / show] [the thing,
-> from Beat 3 or what they teach first]. Now I help [the type of agent] [the outcome] so they can [the
-> transformation]. When you join me, you don't just get [the brokerage]; you also get [the value line].
-> [One line of vision.]*
+> *I know what it's like to [the pain, from the hardest stretch]. That's exactly why I [built / do / show]
+> [the thing, from the turning point or what they teach first]. Now I help [the agents who relate] [the
+> outcome] so they can [the transformation]. When you join me, you don't just get [the brokerage]; you also
+> get [the value line]. [One line of vision.]*
 
 Three outputs, all in their spoken voice:
 - **The 60-second version** (about 140–170 words at their pace). Camera-ready; the top of a partner
@@ -135,8 +136,8 @@ session, or proof after an agent's win), keep the member's edits to the rest, pu
 ## How every output uses this (the payoff)
 Content skills open the "why I joined" video and the first story reel from the 60-second version; call
 prep reads it as the member's own answer to "why you?"; the bio and profile rewrite in Week 2 pull the
-one-breath version; the Brain Book renders it in Part III. None of them invent a reason to join; they read
-this one.
+one-breath version; the Why Join Me document in `05 · Offer` is where the member finds it (the Brain Book
+does not carry it). None of them invent a reason to join; they read this one.
 
 ## Demo mode
 Only when the request explicitly frames a fictional member: same five parts, every number "(illustrative

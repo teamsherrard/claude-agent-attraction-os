@@ -14,7 +14,7 @@ Read in full before building any piece.
 | a leadership step | **LEADER** | "now leading the Tuesday call" |
 | showing up (streaks, training finished) | **SHOWED UP** / **12 CALLS STRAIGHT** / **TRAINING DONE** | the small wins that keep people (`13-team-building-duplication/65`) |
 | a personal moment they chose to share | **MARRIED** / **NEW BABY** / **NEW CITY** | only with the agent's explicit yes; never inferred from social |
-| capped | **CAPPED** | ONLY where the Compliance chapter's rev-share marketing policy allows it; the word alone, never the figure; otherwise MILESTONE |
+| capped | **CAPPED** | ONLY where the compliance line's rev-share marketing policy allows it; the word alone, never the figure; otherwise MILESTONE |
 
 ## 2. PIECES & TRUE SIZES
 
@@ -67,7 +67,7 @@ label in brand type — designed, never app UI.
 ## 5. ANATOMY — THE PRIVATE CONGRATULATIONS CARD
 
 A 1080×1080 card the member sends with a video message or a text (Mike: as personal as possible). The
-agent's first name, the win, two lines in the member's voice (from the Book's voice cards), the
+agent's first name, the win, two lines in the member's voice (from the Book's "Your voice" section), the
 member's signature line (name · role), the organization's mark. No contact bar; the compliance strip
 only if the member says they'll post it. The card is a gift, not a post — warmer, quieter.
 
@@ -103,7 +103,7 @@ roundup.
 
 ## 8. CONSENT AND CLAIMS — RECAP
 
-- A name goes public only with consent on file (the brief's line, or the Book's Proof chapter "OK to
+- A name goes public only with consent on file (the brief's line, or the Book's "Your proof" section "OK to
   use publicly?" = yes). "Ask first" → built, HELD, excluded from the export.
 - A production figure only when the agent stated it and consent covers it; income, rev share, splits,
   caps (except the gated word), stock — never.

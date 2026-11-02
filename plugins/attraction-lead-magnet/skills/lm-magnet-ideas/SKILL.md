@@ -120,7 +120,7 @@ Rank them; number one is the one you'd bet on — usually the tool (it is what t
 partner, an agent can run it this week, and it is the step the offer's seed named).
 
 ## Step 3b — The title check (one quick search per candidate; three at most)
-A title an agent would type beats a title the member likes. Before presenting, run **one quick search per
+A title an agent would type outranks a title the member likes. Before presenting, run **one quick search per
 candidate** for what agents actually type for that problem (house rules #8's "study the top results" step:
 *"open house follow up text scripts"*, *"90 day plan new real estate agent"*, *"are paid real estate leads
 worth it"*) and adjust the title's WORDS to the demand — the nouns agents use, the number they expect, the

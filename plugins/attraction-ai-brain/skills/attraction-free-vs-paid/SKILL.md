@@ -144,7 +144,7 @@ How it's said in the offer: "[the honest promise line]"   (never a product that 
 ```
 Format choice: a **guide** when there's one lesson they can teach today; a **playbook** when there are
 templates and a routine; a **course** when there are three or more recorded lessons or they'll record
-them in Week 6. Smaller and finished beats bigger and promised.
+them in Week 6. Smaller and finished is better than bigger and promised.
 
 ---
 

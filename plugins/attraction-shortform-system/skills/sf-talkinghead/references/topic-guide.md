@@ -18,7 +18,7 @@ is built from their Brain, not from a generic bank. Doctrine: `shared/mike-frame
 |---|---|---|
 | **Authority** (teach) | one tactical piece of the niche an agent can use today — "the tip of the iceberg" (`07/88`) | "The 3-line text that gets open-house buyers to reply" · "What I do the morning after a listing appointment" |
 | **Perspective** (take) | a belief the member holds that the avatar needs to hear; a myth busted; a question answered; a future-focus take | "You don't need paid leads. You need a routine." · "The real reason agents reset to zero every January" |
-| **Story** | one beat of the journey with a point — the wall, the turning point, the mistake and the lesson | "The year I almost quit — and the one thing that changed" (brokerage never named) |
+| **Story** | one moment of the journey with a point — the wall, the turning point, the mistake and the lesson | "The year I almost quit — and the one thing that changed" (brokerage never named) |
 | **Proof** | something that happened in the member's world — an agent's win (with consent), the weekly call, new training, an event | "Priya had zero deals for 8 months. Here's what she changed in 30 days." · "What our Tuesday call looked like this week" |
 | **Personality** | a passion, a routine, a family moment, a discipline — the person behind the business | "Why I still run at 5am after 12 years in real estate" · "My dad's reaction to the trip we finally took" |
 
@@ -34,7 +34,7 @@ left for the call. Compensation never appears in a Reel.
 - **Has a clear angle** — a take, a mistake, a myth, "here's what nobody tells new agents."
 - **Fits 30–60 seconds** — one idea per Reel; three big points are three Reels.
 - **Ends on a rung** (`mike-frameworks.md` §8): Follow / save / share for Perspective and Personality; the
-  keyword (Comment / DM) for Authority and Proof; Story can end on "DM me 'call'" if it's the why-join-me beat.
+  keyword (Comment / DM) for Authority and Proof; Story can end on "DM me 'call'" if it's the why-join-me moment.
   The call is never the ask to a cold viewer.
 - **Obeys the cardinal rules** — never a negative word about another brokerage or person; former brokerages
   unnamed.

@@ -21,7 +21,7 @@ can close. The three categories, in order, are the funnel. Doctrine: `${CLAUDE_P
 ## Before writing (silent)
 `brain.md` first (pull if missing) · `identity/avatars.md` (the type and its pains) · `identity/offer.md`
 (what the member can actually solve — questions should open loops the member can close; seeds stage → open
-loops around what they have to give so far) · `identity/journey.md` (the beat that lets the member say "I was
+loops around what they have to give so far) · `identity/journey.md` (the moment that lets the member say "I was
 there") · for a named agent: `memory/intel-reports/` newest, `memory/conversations.md` rows, the Top-50 row ·
 `identity/voice.md` (the questions are written as they'd ask them). Fast lane: a type or a name is enough;
 no questions asked. Nothing known → ask ONE: *"Who's it for — a new agent, an experienced agent who's stuck,

@@ -43,7 +43,7 @@ remind once to confirm with the brokerage; confirmed → apply.**
   minutes): the context is a specific thing they posted, said, or did; the curiosity is a real question about
   THEIR business; the useful thing is matched to their pain.
 - **Generic** — no report, no time: templates by channel × state with `[their specific thing]` slots marked
-  for the member to fill in 10 seconds, and one line saying a real detail beats any template.
+  for the member to fill in 10 seconds, and one line saying a real detail is better than any template.
 - **Intake** — the YouTube plugin's `yt-repurpose` handed over three starters from a video (the section
   below): each is reviewed against the NEVER list, then made personal per prospect; never sent from here.
 

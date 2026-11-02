@@ -20,7 +20,7 @@ Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — the doctrine (#1), the B
 voice (#5), sourcing (#6), docs (#7). The Brain Contract (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`):
 this skill writes the **content-log row at Scripted**, stamps a story's **Used-where**, and nothing else.
 
-**Lazy-load:** `references/format-playbooks.md` (the four formats + interview beats) at Step 2;
+**Lazy-load:** `references/format-playbooks.md` (the four formats + interview steps) at Step 2;
 `references/script-format.md` (layout, conventions, the Short cut) at Step 3; doctrine §8 (structure) and §10
 (the two CTAs) only if a line needs re-grounding. Never the whole doctrine.
 
@@ -41,7 +41,7 @@ this skill writes the **content-log row at Scripted**, stamps a story's **Used-w
   the section is empty) ·
   `offer.md` (the offer only; `seeds` → Week 2 builds it, never demand it) · `identity/channel.md` → the CTA
   line and the booking link · `story-bank.md` (stories
-  tagged to this pain or beat — rotate; check `content-log.md` for recent use) · `proof.md` (real lines only,
+  tagged to this pain or moment — rotate; check `content-log.md` for recent use) · `proof.md` (real lines only,
   consent respected) · `journey.md` (Why I Switched only — the wall, never the company) · `brokerage-model.md`
   (Model Breakdown only — mechanics; empty → *"say 'explain my model to me' first so the breakdown is accurate"*
   → `attraction-brokerage-model`, stop) · `memory/objections.md` (the objection this video answers) ·
@@ -58,7 +58,7 @@ Open the chosen format's **Pull** files now (the Step 1 list) — only that form
 Bucket → format: Situation with the member's own story → **Why I Switched** · Problem / Situation → **Pain Point
 Series** · Model → **Model Breakdown** · Problem / Future deep teach → **Niche Breakdown** · Interview → the
 **intro (recorded last) + outro + joint CTA** (the question map and the guest's prep belong to `yt-interview`).
-Each playbook fixes the beats, the length, the hook formulas that fit, the proof and story pulls, and the lines
+Each playbook fixes the steps, the length, the hook formulas that fit, the proof and story pulls, and the lines
 that never appear.
 
 ## Step 3 — Write the long-form script (`references/script-format.md` + doctrine §8)
