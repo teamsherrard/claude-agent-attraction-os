@@ -15,6 +15,14 @@ Phrases: "build my business plan" · "my prep week plan" · "business planning" 
 - **Every week after.** "refresh my dashboard" re-renders the dashboard from the scorecard's actuals, so the rings fill as the cohort goes. The Friday check-in and the Daily Debrief write the actuals they already write; nothing new to log.
 - **Week 6 (scaling).** The plan is revisited: the same skill in update mode.
 
+## 2b. One launch, routed by state (the order and the sync)
+
+Launching the Brain plugin ("launch the AI Brain plugin", "set up my attraction brain", "build my business plan") always does the next thing and nothing else:
+- **Nothing built yet (prep week):** the business planning questions (section 3), then the Business Plan document and the Vision & Business Dashboard. Done for the week.
+- **Plan built, no Brain (Week 1):** one line, "I have your plan from prep week", then Mike's four conversations and the three voice answers, the Book, and the Brain Board (section 4d). The plan's numbers and WHY are already in and never re-asked.
+- **Both built:** refresh whichever board changed and say what's next.
+- **Skipped prep week:** launching in Week 1 runs the plan questions first, then rolls straight into the Brain in the same sitting or the next.
+
 ## 3. The interview (four short conversations, one question per message)
 
 Mike's rules apply: one plain question at a time, "your turn" at the end of each conversation, "I don't know" moves on, no agent-type question, no "where can you attract" question, no CRM, calendar, compliance or scheduling.
@@ -61,6 +69,9 @@ A single self-contained HTML file rendered by a new `shared/render_dashboard.py`
 ### 4c. The Brain seed (what Week 1 imports)
 Written into `~/attraction-brain/` (created if absent), in the template's own shapes: `identity/goals.md` (Status: planned in prep week; the targets, ratios, weekly activity, non-negotiables), `memory/scorecard.md` (the Targets block), `identity/profile.md` seeds (name, brokerage, market, organization size, hours), `identity/journey.md` seed (the WHY, the vision lines), and `business-plan.md` at the root pointing at the two files. Brain setup's Step 0 treats "a prep-week seed with no brain.md" as "import the plan, then start Conversation 1"; the sync to Drive happens when setup chooses the provider.
 
+### 4d. The Brain Board (the visual of the Brain itself)
+A second file from the same renderer, built the moment the Book renders and refreshed on demand ("refresh my brain board"): who they are at a glance · their story as a timeline of turning points · their unique approach as the skills they can teach · a proof wall (achievements, agents helped) · who their story speaks to · the numbers rings from the plan · their voice as three signature lines · what's next. As the weeks add the offer, the lead magnet, the pillars, the channel and the pipeline, those tiles light up, so by Week 6 the board is a picture of the whole system they built. Saved as "Brain Board · [Name].html" beside the Book.
+
 ## 5. Doctrine and guard rails
 - No earnings promise anywhere; every money figure labelled illustrative; the member's own numbers tagged as theirs.
 - Attract anywhere; no agent-type selection; the plan is about the member's skills, hours and targets.
@@ -68,9 +79,9 @@ Written into `~/attraction-brain/` (created if absent), in the template's own sh
 - Plain language; no file names or skill names out loud; demo mode tags figures and renders both outputs for the demo member.
 
 ## 6. What gets built (one agent pass, after the Brain rebuild lands)
-1. `plugins/attraction-ai-brain/skills/attraction-business-plan/` — SKILL.md + references: `interview-guide.md`, `plan-doc.md` (the document contract and floors), `dashboard-spec.md` (the sections, the data contract, the refresh rule).
-2. `plugins/attraction-ai-brain/shared/render_dashboard.py` — structured text in, one HTML file out; a demo render checked in.
-3. Brain setup: the prep-week seed branch in Step 0 and the Conversation 4 confirm; the Book's "Your numbers" reads goals.md as today.
+1. `plugins/attraction-ai-brain/skills/attraction-business-plan/` — SKILL.md + references: `interview-guide.md`, `plan-doc.md` (the document contract and floors), `dashboard-spec.md` (the sections, the data contract, the refresh rule) and `brain-board-spec.md` (the Brain Board's tiles and which Brain file feeds each).
+2. `plugins/attraction-ai-brain/shared/render_dashboard.py` — structured text in, one self-contained HTML file out, two layouts (the Vision & Business Dashboard, the Brain Board); demo renders of both checked in.
+3. Brain setup: the state router of section 2b (plan first, then the Brain, never re-asking), the Conversation 4 confirm, the Brain Board rendered after the Book; the Book's "Your numbers" reads goals.md as today.
 4. `attraction-goals` and `attraction-rev-share-calculator`: read the plan when present, update it rather than rebuild it.
 5. The scorecard writers (the Friday check-in, the Debrief) unchanged; "refresh my dashboard" reads what they write.
 6. Docs: setup guide Week 0 row, the Support desk's Week 0 (cohort-kb, stack-map, diagnose "I built my plan, now what"), the master plan, the contract (goals.md may be seeded in Week 0), the demo renders (docx + html) for Taylor.
