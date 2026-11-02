@@ -4,11 +4,11 @@
 
 ## 1. What it is, in one breath
 
-One skill in the Brain plugin, `attraction-business-plan`, that a member runs in prep week before any Brain exists. About 20 minutes, one question at a time. It produces three things: a Business Plan document, a Vision & Business Dashboard (one visual file that opens in a browser), and a seed the Week 1 Brain setup imports so the member is never asked their numbers twice.
+Phase 0 of the Brain process. The business plan is a component of the Agent Attraction Brain, not a separate product: one skill inside the Brain plugin, `attraction-business-plan`, that a member runs in prep week as the first sitting of building their Brain. Week 1's setup is the second sitting of the same process: it continues from the plan, never re-asks it, and the Book, the dashboard and the Brain's weekly skills all read and refresh the same files. About 20 minutes, one question at a time. It produces three things: a Business Plan document, a Vision & Business Dashboard (one visual file that opens in a browser), and a seed the Week 1 Brain setup imports so the member is never asked their numbers twice.
 
 Phrases: "build my business plan" · "my prep week plan" · "business planning" · "my vision board" · "refresh my dashboard".
 
-## 2. Where it sits
+## 2. Where it sits (one process, two sittings a week apart)
 
 - **Week 0 (prep).** Install Plugin 1, say "build my business plan". No Brain, no Drive required (Drive is offered, not required; without it the files land in the member's Downloads and the seed stays local).
 - **Week 1.** Brain setup's first step finds the prep-week seed and imports it: Mike's Conversation 4 (agents today, 12-month goal, long-term goal, hours) becomes a one-line confirm instead of four questions; the WHY from prep week pre-fills the WHY question. The Book's "Your numbers" section renders from the same plan.
