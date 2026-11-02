@@ -72,6 +72,8 @@ Written into `~/attraction-brain/` (created if absent), in the template's own sh
 ### 4d. The Brain Board (the visual of the Brain itself)
 A second file from the same renderer, built the moment the Book renders and refreshed on demand ("refresh my brain board"): who they are at a glance · their story as a timeline of turning points · their unique approach as the skills they can teach · a proof wall (achievements, agents helped) · who their story speaks to · the numbers rings from the plan · their voice as three signature lines · what's next. As the weeks add the offer, the lead magnet, the pillars, the channel and the pipeline, those tiles light up, so by Week 6 the board is a picture of the whole system they built. Saved as "Brain Board · [Name].html" beside the Book.
 
+**The refresh is automatic.** Every plugin already writes its results into the Brain's own files (the Week 2 plugin writes the offer and the lead magnet; Short-Form and YouTube write the pillars, the calendar and the channel; Conversion writes the pipeline; the Admin writes the scorecard actuals). Each of those plugins' closing step calls the Brain's board refresh ("your Brain Board is updated" in one line), so the board gets better every week without the member asking; "refresh my brain board" remains the manual way. The Week 2 refresh adds: the offer's name and one-liner, the framework steps, the lead magnet tile, the funnel link.
+
 ## 5. Doctrine and guard rails
 - No earnings promise anywhere; every money figure labelled illustrative; the member's own numbers tagged as theirs.
 - Attract anywhere; no agent-type selection; the plan is about the member's skills, hours and targets.
