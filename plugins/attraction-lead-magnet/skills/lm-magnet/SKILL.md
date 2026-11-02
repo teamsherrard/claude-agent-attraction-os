@@ -16,9 +16,10 @@ description: >
 
 # Lead Magnet Writer (Step 1 — content only)
 
-The free resource an opt-in gives away. Built **from the member's Partner Offer** — the magnet they picked
-from three recommendations, each built from their own unique value proposition — so it naturally leads toward
-partnering with them, and so the funnel (Step 2) has something specific, honest, and real to give away. No
+The free resource an opt-in gives away. Built **from the member's Partner Offer** — the ONE magnet the
+recommender put in front of them and they said yes to, built from their own unique value proposition — so it
+naturally leads toward partnering with them, and so the funnel (Step 2) has something specific, honest, and
+real to give away. No
 two members' magnets look alike, because no two offers do. What IS the same for every one of them is the
 architecture: the cover, the opening page, four to eight body pages, the "what to do next" page, the "how
 [first name] helps next" page, the back page — with word floors, three calls to action, and the labelled lines
@@ -43,7 +44,9 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
   and 90-day outcome (`## The program`; an older offer file without those blocks → the lines below, as before), the
   unique mechanism, the Teach-first lessons (lesson 1's template is usually the magnet's spine), the seven
   parts, the five-pains table, and — for the closing page — what's included (as outcomes), the first 30 days,
-  the booking line and "what the call is." Apply **house rules #2's three states** (seeds / missing /
+  the booking line and "what the call is." **Read the header's `Join-gated package allowed:` line** (house
+  rules #5): `no` or `unknown` (or missing) → the closing page leads with what the member teaches, their story
+  and their mentorship, never "join me and get X". Apply **house rules #2's three states** (seeds / missing /
   placeholder → the offer is built first, in this session, through the navigator's Step 1 — never a "come
   back later"; thin → build and sharpen after; finalized or built → go) — unless the navigator already
   checked it this session.
@@ -106,10 +109,10 @@ and take the first branch that matches:
   the page that gives it away first. Your next one comes right after."* — and hand to `lm-funnel`.
 - **No focus** (entered directly; or another system handed you a concept — a YouTube video's lead magnet
   idea, a captured `leadmagnet` row)? **The magnet is never picked by default and never written from a topic
-  alone** (house rules #11). Run the recommender — `lm-magnet-ideas` puts three in front of the member, built
-  from their offer (a concept handed in from another system is one of the candidates it sizes), the member
-  picks, the intake runs — and come back here with the focus and the answers. If the offer is still at seeds,
-  the navigator builds it first, in this session.
+  alone** (house rules #11). Run the recommender — `lm-magnet-ideas` puts ONE recommendation in front of the
+  member, built from their offer (a concept handed in from another system is one of the candidates it sizes),
+  the member says yes (or asks for the next best), the intake runs — and come back here with the focus and the
+  answers. If the offer is still at seeds, the navigator builds it first, in this session.
 
 **One promise is what lets the funnel's copy land.** Confirm it in one friendly line before writing.
 
@@ -168,7 +171,9 @@ never a `[` bracket token. The parts, in order:
    included otherwise) · the brokerage line ("and
    everything [Brokerage] provides — I walk you through that on a call") · `Proof:` one real, consented point
    if there is one (else omit the label) · the third `Call to action:` with the booking link — one of the two
-   places it belongs, with the thank-you page. No compensation, no "join [brokerage]," no urgency.
+   places it belongs, with the thank-you page. No compensation, no "join [brokerage]," no urgency. **At
+   `Join-gated package allowed: no` or `unknown`** the close is what the member teaches, their story and how
+   they mentor — offered to any agent who wants to learn it; nothing reads "join me and get X".
 6. **The back page — `THE BACK PAGE`.** `Contact:` (email · phone · website — only what the Brain holds) ·
    `Socials:` (real handles; omit the line if none) · `Last updated:` (when the shape states facts that can
    change) · `Compliance:` (brokerage name and license display as `compliance.md` requires; the disclaimer
@@ -245,7 +250,8 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
 6. The WHAT TO DO NEXT page is present and is the last PAGE block: the five-line `Checklist:`, the `Next
    step:` as an activity, 120 to 200 words.
 7. The closing page is present: 120 to 200 words, outcomes only from `offer.md`, the brokerage line, one
-   consented `Proof:` or none.
+   consented `Proof:` or none; in the register `Join-gated package allowed:` sets (`no` or `unknown` → the
+   teaching, the story, the mentorship; never "join me and get").
 8. The back page is present: `Contact:` and `Compliance:`; `Last updated:` when the shape needs it;
    `Socials:` only if real.
 9. No compensation, split, cap, fee, tier, stock, rev-share or income figure anywhere (the member's own plan

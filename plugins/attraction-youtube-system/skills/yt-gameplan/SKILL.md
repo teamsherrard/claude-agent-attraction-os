@@ -94,7 +94,13 @@ title method, the goal-math, the calendar, the stamp). Orchestrate — do not re
 chain) and `## The program`'s 90-day outcome is the promise a lane points at; the program's name appears in a title,
 a description or the channel bio only where the offer's own `How to talk about it` lines carry it — never its type or
 cadence; an older offer file without those blocks → the UVP line; the live resource
-is `memory/magnets.md → ## Current magnet` first when it exists, `offer.md` second; `Status: seeds` → "Week 2 builds
+is `memory/magnets.md → ## Current magnet` first when it exists, `offer.md` second; **`## Content branches`** — the
+UVP's 5 to 7 segments with three topics each — is the FIRST source of the niche lanes (Phase 3) and the title
+bank (Phase 6), the Brain's other signals second, research third, the starter bank last (Mike, 2026-11-02: the
+UVP is the foundation of the content; an offer file without the section → as before, and one line in
+Read-this-first that the branches arrive with the offer's next refine); the header's `Join-gated package
+allowed:` line — `no` or `unknown` keeps every CTA, description and Partner Call line in the open register (what
+the member teaches, their story, their mentorship — never "join me and get X"); `Status: seeds` → "Week 2 builds
 the offer"; never demand it) · `identity/journey.md` (`## The WHY`, `## The leader moment`, and `## Why join me` when
 Week 2 wrote it — the WHY below) · `memory/content-log.md` (what already exists). Per the framework: 100 videos → full read (which of the three categories are present, which absent; CTA
 present; playlists; packaging); 10 → the 2–3 highest-impact fixes; 1–2 → "too early to read"; 0 → skip. Always
@@ -137,8 +143,9 @@ checking what agents in your market search for and which channels work; about [N
 the one pass: the research method's queries scoped to the avatars, the niche, and the model (≤10) and the
 outlier scan (`yt-outliers` Part A, ≤8) — feeding Phases 3–6; log each query and page read with its date.
 Demo mode: no line, no searches; the Sources footer says so.
-From the Brain (avatars, pains, known-for, objections) + what agents search (research) + what won elsewhere
-(outliers), set **one named lane per bucket**, each for a named avatar, each tied to one of Mike's five pains,
+From the UVP's content branches first (`offer.md → ## Content branches` — each segment is a candidate lane or a
+run of titles inside one), then the Brain (avatars, pains, known-for, objections) + what agents search (research)
++ what won elsewhere (outliers), set **one named lane per bucket**, each for a named avatar, each tied to one of Mike's five pains,
 each with a playlist name and a one-line *"why this builds authority."* Future-lane content speaks to leverage
 and the next stage **without numbers**. Say in the plan that all three carry the **Authority** pillar (Story and
 Personality angles where the video is the member's own story), interviews carry **Proof**, model content
@@ -177,12 +184,13 @@ channel — or `unresearched`, Step 2's fallback). **Hard gates:** no compensati
 person · no protected-characteristic targeting · the old brokerage never named in Why I Switched · model titles
 dated with the year. Thumbnail text offered with a title is 3–5 words and differs from the title.
 
-**No titles of their own?** When `memory/ideas.md` holds no open `youtube` / `interview` rows, the channel is empty
-or thin, and research came back thin — seed the bank from `references/starter-title-bank.md` (open it now, not
-before): the agency's four-month arc, every title already compliance-cleaned and tagged with its lane, pillar, arc
-month, agent type, and pain, plus eight interview angles. The order never changes — the member's own ideas, then
-the Brain's signals, then fresh research, then the starter bank — and the member's captured ideas always lead the
-bank even when the arc fills the rest. Swap `[my brokerage]` (the name only where `compliance.md` allows it in
+**No titles of their own?** When `offer.md` carries no `## Content branches`, `memory/ideas.md` holds no open
+`youtube` / `interview` rows, the channel is empty or thin, and research came back thin — seed the bank from
+`references/starter-title-bank.md` (open it now, not before): the agency's four-month arc, every title already
+compliance-cleaned and tagged with its lane, pillar, arc month, agent type, and pain, plus eight interview angles.
+The order never changes — the UVP's content branches and the member's own ideas, then the Brain's signals, then
+fresh research, then the starter bank — and the branches and the member's captured ideas always lead the bank
+even when the arc fills the rest. Swap `[my brokerage]` (the name only where `compliance.md` allows it in
 public titles, otherwise "my brokerage"), `[year]`, and `[guest]` for real values; keep the lead-gen and CMA titles
 only where that skill sits inside the member's known-for; mark every seeded title's SIGNAL `starter` (the research
 pass upgrades it to `demand` when a search confirms it — a starter title is never presented as a demand signal).
@@ -254,7 +262,8 @@ lagging), CTR 6–10% after month one, compliance status.
 - [ ] Three niche lanes (the Problem · Situation · Future buckets), each for a named avatar and pain, each with a playlist; the pillar mapping stated
 - [ ] Interview lane with hook-and-transformation titles; pipeline rows seeded at `Candidate` in yt-interview's shape; no invented guests
 - [ ] Model lane answers what agents research; mechanics public, compensation private; comparison warning stated
-- [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal
+- [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal; the UVP's content branches lead
+      the lanes and the bank when the offer carries them
 - [ ] The WHY in the positioning band — three statements in the member's voice from the Brain, drafted and labeled
       where the Brain is empty, never a question box
 - [ ] Starter bank opened only when the member had no titles of their own; their captured ideas led; every seeded

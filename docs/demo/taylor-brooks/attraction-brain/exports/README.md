@@ -19,8 +19,11 @@ These are polished *outputs*, not the source of truth — the canonical data liv
 of Setup (the spec's STATE RULE: no offer row, the forward opener in Section 4, three bullets in Section 9, one demo
 line under each `SECTION` band, no `--accent` because the brand chat has not run in that state): `--title "Taylor's
 Agent Attraction Brain Book" --subtitle "Taylor · Austin, TX" --eyebrow "Agent Attraction Brain · Demo"`;
-`scorecard-DEMO-2026-10-08.txt`; `partner-offer-DEMO-2026-10-18.txt` — the Partner Offer in the readable shape of
-2026-10-18: `--title "The Sunday Table" --subtitle` the UVP line `--eyebrow "Partner Offer · Demo" --accent 1F4D3A`)
+`scorecard-DEMO-2026-10-08.txt`; `partner-offer-DEMO-2026-11-02.txt` — the Partner Offer in the readable shape of
+2026-10-18 plus the member's own pages of 2026-11-02 (the name re-run under the naming rule — "Buyers From Open Houses";
+The Sunday Table stays the group's name; `Join-gated package allowed: unknown`, so the public lines use the open register):
+`--title "Buyers From Open Houses" --subtitle` the UVP line `--eyebrow "Partner Offer · Demo" --accent 1F4D3A`; the
+2026-10-18 input and its docx were replaced by this one — newest date is current)
 so each render can be reproduced with `plugins/attraction-ai-brain/shared/render_doc.py`. The rendered `.docx`
 files are one folder up in `docs/demo/`. The older eighteen-chapter demo Books (2026-10-08) and their inputs were
 removed on 2026-11-02 — the Book is nine sections now. The gate's executable half lives with the renderer:

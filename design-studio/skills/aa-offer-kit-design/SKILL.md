@@ -151,7 +151,17 @@ out loud and what stays for the private call are the Book's "Your brokerage stor
 Positioning Sheet** in `05 · Offer` when it exists. Once the offer is built, the Book's "Your unique
 approach" also carries the UVP line and the program's name. No Partner Offer document yet → *"Your
 offer gets built in your Brain first — say 'build my partner offer' there"*; never invent a tier, a
-module or a program. The brand direction, the primary CTA and the booking line are the Design
+module or a program. **The offer's name on every piece is the program name exactly as the At a glance
+Program row carries it** — outcome-based marketing language (the outcome plus the mechanism, e.g.
+"Buyers From Open Houses"); the member's organization or community name (the group, the channel) is
+where the program lives and may sit beside it as a home line, never in its place as the title. **The
+free guide is ONE guide** — the one the Lead Magnet system recommended and the member said yes to; its
+name is the magnet doc's `Title:`; never a set of guides, never a tier per idea. **The Partner Offer's
+pages after the compliance line are the member's own** (how to create it · start with your upline · the
+brokerage rule · where to host it · the content branches): read them for context, never put a line of
+them on a piece an agent sees. When that document's brokerage page says the package is not (or not yet)
+allowed as a reason to join, every piece leads with what the member teaches, their story and their
+mentorship — never "join me and get". The brand direction, the primary CTA and the booking line are the Design
 Package brief's; the compliance line (the brokerage display rule, the licence display, the rev-share
 and income rule) is in the Design Package brief; when it reads NOT SET YET, say so and point the
 member at "paste my compliance link" in Cowork (two minutes) before anything public ships.
@@ -183,8 +193,8 @@ never re-ask a colour, a font, a logo, a headshot, or a cover. If the Design Sys
 and point them to `aa-style-sheet-design` first.
 
 Your first reply is ONLY a SHORT intake form for what nothing else holds. Prune every answered item;
-one confirmation line above the form ("From your Brain: Taylor Brooks · The Lakeline Collective ·
-offer 'The Open-House Engine' · product: The Sunday Follow-Up Playbook · cover built · compliance set —
+one confirmation line above the form ("From your Brain: Taylor Brooks · The Sunday Table (your group) ·
+offer 'Buyers From Open Houses' · product: The Sunday Follow-Up Playbook · cover built · compliance set —
 say the word to change any of these"); every creative choice has a "Decide for me"; end with **"Your
 turn."** Wait for the answers. "Just make it" = zero further questions; name your two or three
 assumptions in one line and build.

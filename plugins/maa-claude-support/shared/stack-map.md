@@ -78,7 +78,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
 | "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
 | "How do I position my brokerage without pitching / the 2-minute model script" | `attraction-model-positioning` | 1 |
-| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; shown as ONE offer card the member says yes to, then a readable document — a one-page At a glance first, 2,000–3,200 words) | `attraction-offer` | 1 |
+| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; shown as ONE offer card the member says yes to, then a readable document — a one-page At a glance first, the agent-facing pages 2,000–3,200 words. Since 2026-11-02: the name is outcome-based — the outcome plus the mechanism in an agent's words, two alternates offered, never a club, portal or collective; ONE question when the Brain can't answer it — does the brokerage restrict offering a package as a reason to join (`Join-gated package allowed: yes · no · unknown`; "I don't know" is fine); and the document ends with the member's own pages: how to create it, start with your upline, the brokerage rule, the marketing language, where to host it (Skool recommended, Circle the alternative), the content branches the Week 3–4 plans read first) | `attraction-offer` | 1 |
 | "What should I give away vs charge for" | `attraction-free-vs-paid` | 1 |
 | "Run my rev-share scenarios" (illustrative, never a promise) | `attraction-rev-share-calculator` | 1 |
 | "Set my attraction goals / lock my plan / my scorecard / am I on track" (on demand after setup — setup captures only the four numbers) | `attraction-goals` | 1 |
@@ -209,19 +209,29 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   `brand-visual`, `voice`).
   **Offer-first, one sitting (v0.2.0, 2026-10-10):** "launch my lead magnet plugin" builds the offer first if
   it is still at seeds (the navigator runs the Brain's `attraction-offer` inside the session — the member never
-  comes back later — one offer card, shown not asked), then recommends three lead magnets built from that
-  offer and Mike's lessons (`lm-magnet-ideas` — three different kinds: a tool, a plan, a decision or proof
-  piece; three download-ready cards, no lesson codes in chat), the member picks, and the magnet document and
-  the sales funnel outline follow. No
+  comes back later — one offer card, shown not asked), then recommends ONE lead magnet built from that
+  offer and Mike's lessons (`lm-magnet-ideas` — the three kinds weighed silently: a tool, a plan, a decision or
+  proof piece; one download-ready card under 120 words, no lesson codes in chat; "another idea" shows the next
+  best, one at a time — never three at once, Mike's ruling of 2026-11-02), the member says yes, and the magnet
+  document and the sales funnel outline follow. No
   default magnet; no two members' magnets alike (non-disparagement rules apply — cardinal rule #1; a
   comparison-shaped guide only when it fits the offer). Writes `identity/profiles.md` FIRST (the bios;
   Short-Form refreshes its five sections in Week 3); `memory/magnets.md → ## Current magnet` (mirrored as the
   `Live magnet:` line in `brain.md`) is what every Week 3–6 CTA reads.
+  **The Week 2 outcome, Mike's words (the plugin's opening message states it; Support repeats it verbatim):**
+  "By the end of this week you have ONE lead magnet, written and designed, with its funnel outline (tangible)
+  — and your unique value proposition broken down: your offer explained in detail and how to create it, its
+  name, the marketing language to use, and where to host it (intangible)."
 - Known modes: "it's asking me to build my offer" = the session order working (the offer gets built right
-  there, then the magnet — nothing to finish first); "it only gave me three options" = by design — say yes to
-  the first or name one; "it skipped the compliance step" = it folds compliance in right before the public
-  document, never earlier; the funnel link reads "not live yet" until the member's design step deploys the
-  page; the traffic engines (Short-Form W3, YouTube W4) plug in later — never "missing".
+  there, then the magnet — nothing to finish first); "it only gave me one option" = by design — say yes, or
+  "another idea" for the next best, one at a time (never three); "it asked me about my brokerage's rules" =
+  the one question Week 2 asks when the Brain can't answer it — whether a package may be offered as a reason
+  to join; "I don't know" is a fine answer (it checks the rules and keeps every public line in the
+  teach-first register until the compliance desk confirms); "it renamed my program" = the naming rule — the
+  name is outcome-based, the member can pick an alternate or keep their own; "it skipped the compliance step"
+  = it folds compliance in right before the public document, never earlier; the funnel link reads "not live
+  yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug
+  in later — never "missing".
 
 ### Plugin 4 — Short-Form (W3) — BUILT (the four-step journey, 2026-10-13)
 - Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live

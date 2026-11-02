@@ -90,8 +90,11 @@ Same structure, same gate.
 ## Phase 1 — Positioning for short-form (section 1 · 150+ words)
 **Read now:** `identity/profile.md` (name, what they're building, brokerage, market) · `strategy.md` (the known-for)
 · `positioning.md` (the one-line "why I'm here"; what stays for the private call — never in a Reel) · `offer.md`
-(the UVP one-liner and the `Comment keyword:` line; at `Status: seeds` the Partner Offer is Week 2 — build the one
-line from `strategy.md` + `avatars.md` and label it "(draft until your offer is built)"; never demand it) ·
+(the UVP one-liner and the `Comment keyword:` line; **`## Content branches`** — the UVP's 5 to 7 segments with
+three topics each, the foundation of Phase 2's angles and Phase 4's hooks; the header's `Join-gated package
+allowed:` line — `no` or `unknown` keeps every CTA and caption in the open register: what the member teaches,
+their story, their mentorship, never "join me and get X"; at `Status: seeds` the Partner Offer is Week 2 — build the
+one line from `strategy.md` + `avatars.md` and label it "(draft until your offer is built)"; never demand it) ·
 `journey.md` (`## Why join me` if written — the one breath that says why them) · `memory/magnets.md →
 ## Current magnet` (the live guide, built in Week 2; empty only when the member skipped that session) ·
 `operations.md` (the booking link).
@@ -111,10 +114,19 @@ why-line from `journey.md`, verbatim or drafted and labeled (`01-foundation-mind
 (tags `shortform` · `story`; the `## Past content (imported)` section's `pillars:` note — how they post today —
 and what they already published, so the angles never repeat it) · `memory/objections.md` · `memory/content-log.md`
 (empty is normal).
+**Order of sources, locked (Mike, 2026-11-02 — the UVP is the foundation of the content; all content is a branch
+of it):** `offer.md → ## Content branches` FIRST — each segment's three topics become angles under the pillar
+they belong to (a framework step or a tactical segment → Authority; what agents pay for versus what works →
+Perspective; the story's turning point → Story; a partner's result → Proof; the teaching method and the routines
+the member keeps → Personality) — the Brain's other signals SECOND (the story bank, proof, objections, the
+captured ideas, the conversations), the starter hook bank LAST (Phase 4, only where a pillar is still short).
+No `## Content branches` yet (an offer file from before 2026-11-02, or still at seeds) → the Brain's signals as
+before, and one line in the Read-this-first that the branches arrive with the offer's next refine. Never invent a
+pillar angle the offer does not carry.
 Build the five from the Brain — **develop, never transcribe** — each pillar: the name (exactly `Authority` ·
 `Perspective` · `Story` · `Proof` · `Personality`), a two-line summary of what it is *for this member*, and
 **three angles** — each a working hook (one breath), the agent it is for, the pain it answers, and what it carries
-(a story-bank hook, a win with consent, a routine they keep, a teach from the known-for): Authority = the niche
+(a content-branch topic, a story-bank hook, a win with consent, a routine they keep, a teach from the known-for): Authority = the niche
 dissected into tactical pieces, the tip of the iceberg (`06-content-framework/37`, `07-instagram/88`) ·
 Perspective = the takes they hold, the myths to bust, the questions agents ask — never about a named brokerage or
 person (`07-instagram/88`, `03-model-positioning/13`) · Story = the journey's turning points with "who relates to this", the
@@ -165,9 +177,9 @@ header lines and `## Weekly mix`, and write the batch day and time to the single
 agents actually asked; the richest source there is).
 Thirty hooks, **six per pillar**, each under 12 words, sayable in one breath, the first word doing the work; no two
 share a shape (question · contrarian · number/stakes · mistake · callout · curiosity-gap); never "stop scrolling",
-never "hey guys", never credentials first. **Order of sources, locked:** the member's own angles from Phase 2 and
-their captured ideas first → the Brain's signals (conversations, objections, the avatar's "biggest problem in their
-words") → **then** the starter hook bank (`sf-ideas/references/starter-hook-bank.md`, opened only now, only where a
+never "hey guys", never credentials first. **Order of sources, locked:** the member's own angles from Phase 2
+(built on the UVP's content branches) and their captured ideas first → the Brain's signals (conversations,
+objections, the avatar's "biggest problem in their words") → **then** the starter hook bank (`sf-ideas/references/starter-hook-bank.md`, opened only now, only where a
 pillar is still short; every seeded line marked `starter`, placeholders swapped per the bank's rules, never
 presented as something agents are asking). Label each hook with its pillar, the agent it is for, and the rung it
 would end on. Append the thirty as one dated block under `## Hooks bank` in `content-pillars.md` (the section
@@ -199,9 +211,10 @@ rows already mapped — the new window starts the day after the last mapped date
 never rewritten).
 **Say this once, then run the pass:** *"Give me a few minutes — I'm checking what agents in your lane are asking
 right now; about [N] searches, then your calendar."* ([N] = the real number inside the ≤ 8.) Demo mode: no line,
-no searches. Then build **twenty posts over four weeks** with `sf-ideas`' method and order: **the Brain's own
-stories and systems first** (the story bank, the proof with consent, the weekly call, the training, the member's
-captured ideas and this month's objections — Weeks 1–2), **fresh research second** (the graded findings, each
+no searches. Then build **twenty posts over four weeks** with `sf-ideas`' method and order: **the UVP's content
+branches and the Brain's own stories and systems first** (the branches' topics, the story bank, the proof with
+consent, the weekly call, the training, the member's captured ideas and this month's objections — Weeks 1–2),
+**fresh research second** (the graded findings, each
 cited by number in the Sources band), **the starter bank last** (`starter`, only to fill a short pillar). Every
 row: `#` · **date** (the first posting day on or after the batch day following today, then the cadence's posting
 days — real calendar dates, never "Day 1") · day · **format** (talking head · green screen · carousel · the story
@@ -278,8 +291,9 @@ sends them to the gate before anything posts.
 - [ ] At most two stops in setup (the pillars block, the cadence word) + the ManyChat question only when unanswered
 - [ ] Section 1: who they attract, the one line, the keyword, the two CTAs, the why — drafted and labeled where the
       Brain is empty, never a question box
-- [ ] Five pillars, exact names, three angles each, developed from the Brain — stories from the bank, proof with
-      consent, the former brokerage unnamed; `content-pillars.md` written and pushed on the yes
+- [ ] Five pillars, exact names, three angles each, developed from the UVP's content branches first, then the
+      Brain — stories from the bank, proof with consent, the former brokerage unnamed; the branches' absence said
+      once when the offer predates them; `content-pillars.md` written and pushed on the yes
 - [ ] The mix labeled "the OS default until Mike's decision"; the number honest to the hours; the batch day fitted
       to the filming window; the 15-minute routine present
 - [ ] Thirty hooks, six per pillar, under 12 words, shapes varied, the member's own first, `starter` marked

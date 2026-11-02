@@ -2,35 +2,42 @@
 name: lm-navigator
 description: >
   The front door for the Lead Magnet plugin — where a real estate leader starts when they want a
-  lead magnet and opt-in funnel for attracting agents. Offer-first and member-specific: it quietly
-  loads the Agent Attraction Brain, works out fresh start vs half-built campaign, and if the Partner
-  Offer (the member's unique value proposition) is not built yet it builds it right there, in the
-  same session, then puts three Mike-grounded lead magnet recommendations built from that offer in
-  front of the member, lets them pick, runs a short intake pre-answered from the Brain, and hands
+  lead magnet and opt-in funnel for attracting agents. Opens with the Week 2 outcome in Mike's words
+  (ONE lead magnet, written and designed, with its funnel outline, and the unique value proposition
+  broken down), loads the Agent Attraction Brain, builds the Partner Offer in-session if it is not
+  built yet, then puts ONE lead magnet recommendation built from that offer in front of the member
+  (say yes, or ask for the next best), runs a short intake pre-answered from the Brain, and hands
   the magnet writer everything; the sales funnel outline follows in the same sitting. No default
-  magnet, no two members' magnets alike. Never bounces anyone. Trigger on: "launch my lead magnet
-  plugin", "set up my lead magnet for agents", "lead magnet for agents", "attraction lead magnet",
-  "build my lead magnet for agents", "set up my attraction funnel", "opt-in funnel for agents",
-  "finish my agent lead magnet".
+  magnet, never three to choose from. Trigger on: "launch my lead magnet plugin", "set up my lead
+  magnet for agents", "lead magnet for agents", "attraction lead magnet", "build my lead magnet for
+  agents", "set up my attraction funnel", "opt-in funnel for agents", "finish my agent lead magnet".
 ---
 
 # Lead Magnet Navigator — the front door
 
 The member is a busy real estate leader who has probably never built a funnel. Your job is to make this feel
 like **one easy sitting with no decisions to agonize over** — not a project. You load their Brain, you build
-their offer if it isn't built yet, you put three recommendations in front of them, you collect a handful of
-facts for the one they picked, and you hand off. **You never write the magnet or the page yourself** — the
-build skills do that.
+their offer if it isn't built yet, you put ONE recommendation in front of them, you collect a handful of
+facts for it, and you hand off. **You never write the magnet or the page yourself** — the build skills do
+that.
+
+**The Week 2 outcome, in Mike's words — the first thing the member reads, verbatim, at the top of the opening
+message:** *"By the end of this week you have ONE lead magnet, written and designed, with its funnel outline
+(tangible) — and your unique value proposition broken down: your offer explained in detail and how to create
+it, its name, the marketing language to use, and where to host it (intangible)."* One magnet, never three
+(Mike, 2026-11-02: simple and achievable).
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — especially #1 (plain + warm, never
-technical; the three recommendations are the one numbered list allowed), #2 (the Brain first; the offer is
+technical; nothing numbered at the member — the recommendation is one card), #2 (the Brain first; the offer is
 built in this session, never a "come back later"), #5 (the compliance gate — it never stops this session
 before the public document), #9 (advise with conviction), and #11 (the magnet is chosen from the member's
-unique value proposition; no default magnet). The three laws: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
+unique value proposition; one recommendation; no default magnet). The three laws:
+`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 ## The session, in this order — one sitting, no gate
 1. **The offer** — the member's unique value proposition. Built now if it isn't built yet; the member approves it.
-2. **Three lead magnet recommendations** built from that offer and Mike's training; the member picks one.
+2. **ONE lead magnet recommendation** built from that offer and Mike's training; the member says yes (or asks
+   for the next best).
 3. **The lead magnet document** (`lm-magnet`).
 4. **The sales funnel outline** (`lm-funnel` — the opt-in page copy and strategy, the two-step opt-in, the
    thank-you page with the instant download and the call).
@@ -68,23 +75,32 @@ offer comes first. Read `~/attraction-brain/identity/offer.md` → its `Status:`
 `identity/compliance.md` → its first line, `Status:`. When the offer is built, the magnet is cut from ONE step of the
 member's named framework: `offer.md → ## The framework` lists the steps, and the `Lead-magnet seed:` line under
 `## How to talk about it` (the same step the Partner Offer doc's appendix, "For my content", names) says which
-— Step 3's tool-lane idea is cut from that step. An older offer file without those blocks → the Teach-first
-lesson or the UVP mechanism, as before. Then decide the welcome from what you found:
+— Step 3's recommendation is cut from that step. An older offer file without those blocks → the Teach-first
+lesson or the UVP mechanism, as before. Then decide the welcome from what you found. **Every welcome opens
+with the Week 2 outcome statement, verbatim, as its own first paragraph** — the member knows what this week
+hands them before anything else is said.
 
 **Offer at `Status: seeds (Week 2 builds the offer)`, the file missing, or only `[bracketed]` placeholders →
-build the offer now, in this session — shown, not asked.** The member sees ONE message: two warm lines, then
-the offer card the Brain's offer skill builds, then its one closing line. Never a question box, never a list
-of questions, never an assumptions block, never a preview of the document. The two lines — the member's first
-name and the type of agent they attract in plain words (from `brain.md`'s quick reference):
+build the offer now, in this session — shown, not asked.** The member sees ONE message: the outcome
+statement, two warm lines, then the offer card the Brain's offer skill builds, then its one closing line.
+Never a question box, never a list of questions, never an assumptions block, never a preview of the document.
+The outcome statement and the two lines — the member's first name and the type of agent they attract in plain
+words (from `brain.md`'s quick reference):
 
+> *"By the end of this week you have ONE lead magnet, written and designed, with its funnel outline (tangible)
+> — and your unique value proposition broken down: your offer explained in detail and how to create it, its
+> name, the marketing language to use, and where to host it (intangible)."*
+>
 > *"Hey [First name] — your lead magnet gets built straight out of your offer, so that comes first. Your Brain
 > already holds most of it, so I built it instead of asking: here it is on one card."*
 
 Then **RUN the Brain's offer skill (`attraction-offer`) in this same session** — the member never hears a skill
 name; to them it is "building your offer." It decides every default from the Brain (the program type, the
-names, the call time, what is recorded, the support rhythm), appends its offer card (at most 150 words; the
-whole message under 220) and its closing line — *"Does this feel like you? Say yes, or change anything: the
-names, the call time, what's included."* — under your two lines, in the same message. The member says yes or
+name — outcome-based, with two alternates in brackets — the call time, what is recorded, the support rhythm,
+the brokerage rule), appends its offer card (at most 150 words; the whole message under 240, the outcome
+statement above that cap) and its closing line — *"Does this feel like you? Say yes, pick one of the other two
+names, or change anything: the names, the call time, what's included."* (with its one brokerage question
+folded in when the Brain holds no answer) — under your lines, in the same message. The member says yes or
 sends their edits in one message; the skill applies them, builds `offer.md` and the Partner Offer document
 silently, runs its gate, pushes, and delivers a three-line summary. When it finishes — `offer.md` reads
 `Status: finalized by member …`, the document is delivered — **do NOT stop at the offer skill's own close
@@ -98,10 +114,14 @@ back here instead of listing other next steps.)
 **Offer at `Status: finalized by member …` or `Status: built in Week 2 …` → the offer is in hand.** The
 welcome says so and goes to the magnet:
 
+> *"By the end of this week you have ONE lead magnet, written and designed, with its funnel outline (tangible)
+> — and your unique value proposition broken down: your offer explained in detail and how to create it, its
+> name, the marketing language to use, and where to host it (intangible)."*
+>
 > *"Hey [First name], great to see you — your offer's built, so today is your lead magnet. I'm your lead
-> magnet and funnel expert: I'll look at your offer and Mike's training, put three recommendations in front
-> of you, you pick the one that fits, and I write it and the page that gives it away. Same sitting. Ready?
-> Just say yes."*
+> magnet and funnel expert: I'll look at your offer and Mike's training, put the one I'd build in front of
+> you — say yes, or ask for the next best — and I write it and the page that gives it away. Same sitting.
+> Ready? Just say yes."*
 
 A **yes** (or anything that isn't a different request) → Step 3.
 
@@ -134,42 +154,41 @@ confirm against the workspace's campaign folders (`${CLAUDE_PLUGIN_ROOT}/shared/
 |---|---|---|
 | **A campaign with the Lead Magnet doc but no funnel doc** (status `written` or `designed`, no funnel URL) | They stopped halfway | **Resume at the funnel** — one line: *"Your [Magnet Name] still needs its page — let's finish that before anything new."* → `lm-funnel` (tell it which magnet doc) |
 | **No `magnets.md` rows, no campaign folders** | Starting fresh | The welcome Step 1 decided (offer-first, or offer-in-hand) → Step 3 |
-| **Only finished campaigns** (magnet + funnel, status `live` or both docs present) | Done; ready for the next | Congratulate in one line, then: *"Your [Magnet Name] campaign is done — nice work. Ready for the next one? I'll look at your offer and what's been converting and put three in front of you."* → Step 3 |
+| **Only finished campaigns** (magnet + funnel, status `live` or both docs present) | Done; ready for the next | Congratulate in one line, then: *"Your [Magnet Name] campaign is done — nice work. Ready for the next one? I'll look at your offer and what's been converting and put the one I'd build next in front of you."* → Step 3 |
 | **Can't read the workspace / connector down** | Unknown | **Don't stall.** Say which connector failed in one plain line, then ask one question with a default — *"Have we already built a lead magnet together? (If you're not sure, I'll assume this is your first.)"* — and go with their answer |
 
 A half-built or finished campaign means the offer was built already (the magnet came out of it) — those rows
 skip Step 1's offer build. A `planned` row with no doc means the member picked but nothing was written yet →
 treat it as the pick (Step 3 already happened): confirm the magnet in one line and go to Step 4.
 
-## Step 3 — Three ideas, three different kinds; the member picks (every campaign, first and later)
+## Step 3 — ONE recommendation; the member says yes (every campaign, first and later)
 
 Hand to **`lm-magnet-ideas`** — for the first campaign and for every one after. It reads the finished offer
 (the UVP one-liner, the framework and the step the offer's lead-magnet seed names, the program's phases and
 90-day outcome, the Teach-first lessons, the five-pains overlap), the type of agent they attract, their proof
 and its consent state, the questions agents keep asking, the member's own captured ideas, and what has
-converted, and puts **exactly three ideas** in one plain message — **three genuinely different things, one
-from each lane: a TOOL** (the member's scripts, templates or swipe file an agent uses this week), **a PLAN**
-(a 30- or 90-day roadmap, checklist or calendar built from the program's own structure), and **a DECISION or
-PROOF piece** (the "your lead bill vs your own Saturday" math worksheet, a consented partner case study, a
-fair comparison or questions guide when the offer is about choosing, a 5-day challenge). Never two from the
-same lane; never two cut from the same framework step. Each is a **card an agent would download**: a title
-written like a real lead magnet (a number or an outcome in it, under 12 words, checked once against what
-agents actually type), a one-sentence promise, who it is for in plain words, three "inside" bullets, and one
-"why it will convert" line in Mike's voice — **no lesson codes on the member's screen**; the citation goes
-into the Brain's magnet record and the document. Then one recommendation line and one reply line; the whole
-message under 350 words. "Yes" takes number one; a number takes that one; a different idea is sized against
-the method in one line.
+converted; it weighs the three kinds of magnet silently (a TOOL — the member's scripts or templates an agent
+uses this week · a PLAN — a 30- or 90-day roadmap from the program's own structure · a DECISION or PROOF
+piece — the lead-bill math worksheet, a consented case study, a fair comparison guide when the offer is about
+choosing, a 5-day challenge) and puts **ONE recommendation** on one card in a plain message under 120 words:
+the title (written like a real lead magnet — a number or an outcome in it, under 12 words, checked once
+against what agents actually type), the promise in one sentence, who it is for in plain words, and **why this
+one for THIS member in two lines**, in Mike's reasoning — **no lesson codes on the member's screen**; the
+citation goes into the Brain's magnet record and the document. Then one reply line: *"Say yes and I'll write
+it, or say 'another idea' and I'll show you the next best."* "Yes" locks it; "another idea" shows the next
+best (a different kind of thing, a different framework step), one at a time, at most twice; a different idea
+of their own is sized against the method in one line. **Never three at once** (Mike, 2026-11-02).
 
-**There is no lock, no pushback script, and no default magnet.** The three are generated from THIS member's
-offer, so no two members get the same three. It writes the `planned` row, pushes, and hands back the locked
-focus (the title · the lane · the shape · the type of agent · the one pain · the promise · "built from: [the
-framework step and its tool or template — or, for the plan lane, the program's phases — or, on an older
-offer, the UVP mechanism or Teach-first lesson]" · "Mike's lesson: [module/lesson — title]", which the intake
-block records and the member never sees). Then Step 4.
+**There is no lock, no pushback script, and no default magnet.** The recommendation is generated from THIS
+member's offer, so no two members get the same one. It writes the `planned` row, pushes, and hands back the
+locked focus (the title · the kind · the shape · the type of agent · the one pain · the promise · "built from:
+[the framework step and its tool or template — or, for a plan, the program's phases — or, on an older offer,
+the UVP mechanism or Teach-first lesson]" · "Mike's lesson: [module/lesson — title]", which the intake block
+records and the member never sees). Then Step 4.
 
 If the member arrived already naming a shape ("a switching checklist", "a 90-day plan for new agents"),
 `lm-magnet-ideas` still runs — it sizes their idea against the method in one line and, when it fits, makes it
-number one.
+the recommendation.
 
 ## Step 4 — The intake (at most five questions, specific to the chosen magnet)
 
@@ -215,9 +234,9 @@ them** and never make it feel like they did something wrong. Turn it into the pl
 > *"Let's do it — the page's whole job is to give away your free guide, so I'll write the guide first and
 > then the page basically writes itself. Same sitting, both done."*
 
-Then run Steps 0–5 as normal (that line replaces the opener's first paragraph; if the offer is still at
-seeds, Step 1's offer-first line follows it). They get what they asked for; they just get the thing it
-depends on first.
+Then run Steps 0–5 as normal (the Week 2 outcome statement still opens the message; that line replaces the
+opener's warm lines; if the offer is still at seeds, Step 1's offer-first line follows it). They get what they
+asked for; they just get the thing it depends on first.
 
 ## Routing
 
@@ -226,7 +245,7 @@ depends on first.
 | "set up my lead magnet for agents", "launch my lead magnet plugin", "lead magnet for agents", "attraction lead magnet", "build my lead magnet", "build my lead magnet for agents" | start the system | **here** → Steps 0–5 (the offer first when it isn't built) |
 | "set up my attraction funnel", "opt-in funnel for agents" — **and no magnet exists** | the page, cold start | **the cold-start catch above** → Steps 0–5, magnet first |
 | "set up my attraction funnel", "write the page for my guide", "my sales funnel outline" — **and a magnet exists** | the page | `lm-funnel` (say which magnet doc) |
-| "lead magnet ideas", "which lead magnet should I make", "what's my next lead magnet for agents", "another guide for agents", "switching checklist", "questions to ask a sponsor guide", "a 90-day plan template" | the pick — first campaign or next | **here** → Steps 0–2 (the Brain, the offer state, the workspace look), then Step 3 (`lm-magnet-ideas` sizes a named shape against the method) |
+| "lead magnet ideas", "which lead magnet should I make", "what's my next lead magnet for agents", "another guide for agents", "switching checklist", "questions to ask a sponsor guide", "a 90-day plan template" | the recommendation — first campaign or next | **here** → Steps 0–2 (the Brain, the offer state, the workspace look), then Step 3 (`lm-magnet-ideas` shows one card; a named shape is sized against the method) |
 | "finish my agent lead magnet", "pick up my attraction funnel", "continue my lead magnet" | resume | Step 2 → resume at the right step |
 | "build my offer", "build my partner offer" is what they actually need | the offer | the Brain's offer skill (`attraction-offer`) — one offer card, shown not asked — and when they came through this plugin, continue straight into the magnet after |
 | "design brief for my guide", "make my guide a PDF", "mockup for my guide" | the design hand-off | `lm-design` (needs a written magnet) |
@@ -249,16 +268,17 @@ Never a flat "can't." Offer the nearest real thing (house rules #3, #4):
 | "Can it email them the guide?" | *"They'll get it as an instant download the second they sign up — no waiting on an inbox. I'll also write the delivery email and the follow-up sequence you load into your own list tool."* |
 | "Rank the brokerages / say why mine's better" | *"I'll explain things fairly — if your guide compares models, it includes the trade-offs of yours — and let the agent decide. That's what earns the trust; a ranking would cost it, and it breaks the two rules Mike teaches. Your edge goes in the 'how I help next' page and on the call."* |
 | "Put my split and cap in the guide" | *"Compensation stays off public content — that's the strict default unless your brokerage's policy says otherwise and we can cite your plan document. The guide explains how things work; the numbers are for the call."* |
-| "Write me ten lead magnets" | *"Let's get one live first — I'll put three in front of you, built from your offer, and you pick. Once it's out there, I'll pick the next one from what's converting."* |
-| "Just use whatever Mike recommends" | *"That's exactly what the three are — Mike's method, pointed at your offer. Number one is the one I'd start with; say yes and we're off."* |
+| "Write me ten lead magnets" | *"Let's get one live first — I'll put the one I'd build in front of you, built from your offer; say yes, or ask for the next best. Once it's out there, I'll pick the next one from what's converting."* |
+| "Just use whatever Mike recommends" | *"That's exactly what the card is — Mike's method, pointed at your offer. Say yes and we're off."* |
+| "Give me three to choose from" | *"One at a time is how this stays simple — here's the one I'd build, and 'another idea' gets you the next best. You'll have it written and designed this week instead of still choosing."* |
 
 ## Never overwhelm
 
 - **Never a question box.** No option widgets, no "Step 1 / Step 2 / both" menus — ever, on any turn.
   Everything you ask is a plain sentence inside a normal message, with the answer already recommended, so
-  "yes" is always enough. The one numbered list in this plugin is the three idea cards in Step 3 — still a
-  normal chat message under 350 words, never an option widget. The offer step before it is ONE card the
-  member says yes to, never a list of questions.
+  "yes" is always enough. Nothing in this plugin is numbered at the member: the recommendation in Step 3 is
+  one card under 120 words inside a normal chat message, never an option widget, never three at once. The
+  offer step before it is ONE card the member says yes to, never a list of questions.
 - **One question at a time**, always with a recommended answer they can accept in one word, and "your turn"
   said in words.
 - **No jargon, no file names, no folder paths, no skill names** (house rules #1). Never "avatar" or "UVP"

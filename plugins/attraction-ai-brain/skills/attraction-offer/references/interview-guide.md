@@ -15,7 +15,8 @@ slid one card across the table.
 | Decision | Decided from | The default rule (when the Brain is silent) |
 |---|---|---|
 | **Program type** (one of six) | what the member actually DOES today: `operations.md` (the weekly call, the onboarding steps), `strategy.md` Teach-it flags, `06 · Materials` (what is recorded) | the type rule in `SKILL.md` §5: a weekly call plus a 1:1 → mentorship program · recorded lessons plus a group → course plus community · a dated 90-day push with milestones → accelerator · scheduled 1:1 coaching as the spine → coaching program · a team with shared systems and a shared brand → team system · mostly the upline's and brokerage's assets plus access to the member → partnership program. Two fit → the one with the member's own live time in it |
-| **Program name** | an organization name already in use (`brand-visual.md` organization name, `profile.md`, the Instagram handle) | the branded name in use; none → the outcome in four words ("The No-Lead-Bill Program" shape); the comment keyword is coined from it and never changes once content has used it |
+| **Program name** (+ two alternates) | `## UVP` (the outcome and the mechanism) · `avatars.md` (the agent's own words for the result they are missing) · `strategy.md` (the member's phrase for the method) | **outcome-based marketing language — the OUTCOME the agent wants + the MECHANISM the member teaches, in words an agent says** (SKILL.md §5, the naming rule): two to six words; passes the "I need that" test and the "says what it solves" test; none of the banned name words (collective · club · portal · hub · network · circle · society · lounge · vault · academy) unless the word names an outcome; never a closings count or a dollar figure. Three names are built the same way; the strongest goes on the card with the other two in brackets; the member picks. An organization or community name already in use (`brand-visual.md`, the group, the channel, the Instagram name) is where the program LIVES — never its name unless it already names an outcome ("Open House Collective" fails: a portal, not an outcome; "Buyers From Open Houses" passes). The comment keyword is coined from the name or the mechanism and never changes once content has used it |
+| **Join-gated package allowed** (`yes` · `no` · `unknown`) | `compliance.md` → `Inducement rules reviewed:` and any stated brokerage rule on offering a package as a reason to join · `brokerage-model.md` → a stated rule from the member's materials | the Brain holds nothing → **this is the one question, folded into the card's closing line** (§3): *"Does your brokerage restrict offering a package as a reason to join? Say 'allowed', 'not allowed', or 'I don't know' and I'll check your brokerage's rules."* · "allowed" → `yes` · "not allowed" → `no` · "I don't know" → check both files once more, write `unknown`, add the compliance-desk open item, and use the open register (what the member teaches · their story · their mentorship — never "join me and get X") for every public line until it is `yes` |
 | **Framework name** (3–7 steps) | the phrase the member repeats (`strategy.md`, `journey.md`'s turning point, `voice.md` signature phrases, the Teach-first lesson) | the member's own phrase for the thing ("the Sunday routine" → "the Five-Step Sunday Routine"); never a generic name; the steps from the Teach-first lessons and the "Teach it: yes / partly" rows only |
 | **The 90-day outcome** | `avatars.md` Offer direction · `proof.md` for the shape of a real result · the Teach-first lesson | what the partner can SHOW by day 90 — the routine running without the member and the first result from it; never what they will earn; "no result is promised, the method is" |
 | **Cadence** (the weekly call's day · time · length · where; the chat; the 1:1 rhythm) | `operations.md` → Weekly model call · Response commitment · Organization list / group address · `goals.md` → Hours | silent → "a [weekday] call that starts when the first partner joins — [day], [time], 30 minutes, Zoom" with the day the member would keep · a Day 1 welcome call (45 minutes, 1:1, Zoom) · a group chat the day they join · a day-30 check · after day 30, one 1:1 a month. Always inside the hours in `goals.md`; never "24/7" |
@@ -28,14 +29,15 @@ slid one card across the table.
 Nothing in this table is asked. A decision the Brain cannot make at all (see §3) is the only thing that reaches
 the member, and it reaches them as one short question inside the card's closing line.
 
-## 2. The message (ONE, hard cap 220 words; the card itself at most 150)
+## 2. The message (ONE, hard cap 240 words; the card itself at most 150)
 
 ```
 [two lines: the welcome — the member's first name; that the Brain already holds most of the offer so it was
 built instead of asked; that the document follows the yes. When the Lead Magnet plugin started the session,
-its own two welcome lines replace these — the card follows them in the same message.]
+its Week 2 outcome statement and its own two welcome lines replace these — the card follows them in the same
+message; the outcome statement sits above the cap.]
 
-**[Program name]** — [the one-line promise: the outcome-led line]
+**[Program name]** — [the one-line promise: the outcome-led line]  (or: [Alternate name 1] · [Alternate name 2])
 **For:** [the primary type of agent, plain words — stage, situation, what they are paying for]
 **The method:** [the framework's name] — [the steps as a chain: Host → Ask → Text → Track → Table]
 **What you get:**
@@ -48,11 +50,16 @@ its own two welcome lines replace these — the card follows them in the same me
 Day 1, the first week, day 30, then monthly]
 **By day 90:** [the 90-day outcome — what the partner can show; never what they will earn]
 
-Does this feel like you? Say yes, or change anything: the names, the call time, what's included.
+Does this feel like you? Say yes, pick one of the other two names, or change anything: the names, the call
+time, what's included. [When the Brain holds no answer, the brokerage question follows here, in the same
+breath: "One thing your Brain doesn't hold — does your brokerage restrict offering a package as a reason to
+join? Say 'allowed', 'not allowed', or 'I don't know' and I'll check your brokerage's rules."]
 ```
 
 - **Five bullets under "What you get", every one an outcome**, never a feature ("the weekly call" is a feature;
   "every Tuesday you leave with one thing to do that gets you a client" is the outcome — `04-value-proposition/32`).
+- **The name is an outcome, with two alternates in brackets** — never a list of names to rate, never a
+  question about the name; "yes" takes the first, a pick takes that one, their own words take their own words.
 - **The method in one line** — the named framework and its chain. The step table is in the document.
 - **The lead line is picked, not offered.** The four ways to say it (the UVP in its locked shape, outcome-led,
   story-led, mechanism-led) are all written — into the document's appendix for content use. The card carries
@@ -67,7 +74,14 @@ Does this feel like you? Say yes, or change anything: the names, the call time, 
 
 ## 3. Genuine gaps — ONE short question, folded into the closing line, never a list
 
-A gap is genuine only when the Brain holds **nothing at all** on it and no default rule in §1 can decide it:
+**The standing question is the brokerage rule** (§1's last row): when neither `compliance.md` nor
+`brokerage-model.md` says whether the brokerage allows a package to be offered as a reason to join, that
+question is folded into the closing line — it is the only question Week 2 asks on a built Brain, and it
+decides the register of every public line. Any other gap then takes its default and a line under "What I
+assumed".
+
+When the Brain already holds the brokerage answer, one other gap may take the slot. A gap is genuine only
+when the Brain holds **nothing at all** on it and no default rule in §1 can decide it:
 - no weekly call AND no day the member has ever mentioned keeping;
 - no first lesson anywhere (no strategy named in Conversation 2, every Teach-it flag "not yet", no materials);
 - a result the member mentioned in passing that is not in `proof.md` (ask whether to use it — the only
@@ -79,10 +93,17 @@ Never a second question stop before the document exists.
 
 ## 4. The edit turn — one message back, then build
 
-- **"yes" / "looks right" / silence** → build.
-- **Edits come back in one message** ("call it The Table, Thursdays at 8, drop the monthly 1:1") → apply them
-  verbatim, say the changed lines back in one sentence, build. Never re-send the card unless the member changed
-  the **type** or the **program name** — then show the one changed line, not the card.
+- **"yes" / "looks right" / silence** → build, with the first name.
+- **A pick of an alternate name, or a name of their own** → that name, applied everywhere (the cover, the At a
+  glance Program row, `offer.md`, `brain.md`). A name of their own that fails the two tests gets ONE honest
+  line (*"'The Table' says where, not what you get — 'Buyers From Open Houses' says what an agent walks away
+  with. Your call."*) and their choice is final.
+- **The brokerage answer** ("allowed" · "not allowed" · "I don't know") → written to the header's `Join-gated
+  package allowed:` line (`yes` · `no` · `unknown`) and the register applied before the build; "I don't know"
+  gets the one-line note that the compliance desk confirms it and the public lines stay open until then.
+- **Edits come back in one message** ("call it Open House to Contract, Thursdays at 8, drop the monthly 1:1")
+  → apply them verbatim, say the changed lines back in one sentence, build. Never re-send the card unless the
+  member changed the **type** or the **program name** — then show the one changed line, not the card.
 - **"use defaults" / "you decide" / "just make it"** → build with what is on the card.
 - **"I don't know" on the one folded question** → consult in ONE line with a recommendation ("Tuesdays at 9 —
   it's the morning after your Monday call block"), take the recommendation, build.
@@ -105,4 +126,6 @@ Never a second question stop before the document exists.
 Splits, caps, fees, stock, rev share, income — not for the "what it costs you" line either. Anything the Brain
 answers. A list of questions. A list of assumptions in chat. Four one-liners to choose from. A preview of the
 document before it exists. "What's your offer?" — the member is here because they don't know yet. "What type of
-program is it?" as an open question — the type is decided and shown.
+program is it?" as an open question — the type is decided and shown. "What do you want to call it?" as an open
+question — three names are built and the strongest is shown. A name that sounds like a portal, a club or a
+room. A second question about the brokerage once it is answered or written as `unknown`.

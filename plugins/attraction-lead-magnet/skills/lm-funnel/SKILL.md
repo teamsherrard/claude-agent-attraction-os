@@ -48,7 +48,7 @@ This page gives away a specific lead magnet, so it must read it:
 - **If no magnet exists yet,** this is the cold start the front door owns: say its line verbatim (*"Let's do
   it — the page's whole job is to give away your free guide, so I'll write the guide first and then the page
   basically writes itself. Same sitting, both done."*) and run `lm-navigator` Steps 0–5 (the Brain pull, the
-  offer built first if it isn't, the three recommendations and the pick, the intake) — the magnet gets built,
+  offer built first if it isn't, the one recommendation and the yes, the intake) — the magnet gets built,
   then it comes back here. Never guess a magnet; the page and the guide must line up exactly.
 
 ## Step 2 — Load the Brain (lazy)
@@ -62,7 +62,11 @@ Brain** (house rules #2). Then:
   (the name, "One line") when they're written; the older `## The Partner Offer` block otherwise (the UVP
   one-liner, offer name, what's included, the deliverables table → the sneak peek, the first 30 days,
   onboarding Day 1 → "How it works" step three, "what the call is"). `## Support & community` and the five
-  parts line ("why now") feed the Organization and Why Join Me. Never compensation.
+  parts line ("why now") feed the Organization and Why Join Me. Never compensation. **Read the header's
+  `Join-gated package allowed:` line** (house rules #5): `no` or `unknown` (or missing) → the Offer and Why
+  Join Me sections, the Book-a-call area and the thank-you page lead with what the member teaches, their story
+  and their mentorship, offered to any agent — never "join me and get X", never a bundle gated on joining. The
+  30-second explanation under `## How to talk about it` is the Who I Am section's best raw material.
 - `identity/journey.md` — the three turning points (where I was · the hardest stretch · the turning point) for the
   Journey, and the `## Why join me` block (its `Status:`; the 60-second version and the one-breath version)
   for the Why Join Me statement — written from the offer's "why now" when that block isn't written yet.
@@ -150,9 +154,12 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
    peek inside [the program name]" · `Sneak peek:` six to eight one-sentence bullets from the deliverables
    table, outcomes not features · optional `Image idea:` (the offer stack object). **No splits, caps, tiers,
    fees, stock, rev share, or income** (house rules #5). Free vs paid said straight if it applies — never "free
-   coaching if you join [brokerage]."
+   coaching if you join [brokerage]." **At `Join-gated package allowed: no` or `unknown`:** the headline and
+   the bullets present what the member teaches and how they mentor, open to any agent who wants to learn it;
+   the sneak peek shows the program as the teaching it is; nothing is gated on joining.
 7. **WHY JOIN ME** (60+) — `Statement:` from `journey.md` → `## Why join me` when written, else from the
-   offer's "why now" and the UVP · optional `Pull quote:`.
+   offer's "why now" and the UVP · optional `Pull quote:`. At `no` or `unknown` the statement is the story and
+   the mentorship — why learn this from me — never a package as the reason to join.
 8. **PROOF** (40+, or one plain "none yet" line) — `Proof:` 2–4 consented results, numbers only as `proof.md`
    states them, upline proof labeled · `YouTube:` two or three `URL — one line` entries ONLY when the member's
    channel exists (else omit the label entirely) · `Image idea:` the photo strip (8–12 real photos, the types
@@ -226,7 +233,8 @@ theirs to share, say 'refresh my page'"*).
 6. `Why partner:` six to eight bullets; `Sneak peek:` six to eight bullets with its title; the Product bullets
    one per guide page; the FAQ three pairs.
 7. No compensation, split, cap, fee, tier, stock, rev-share or income figure; no fake scarcity or countdown;
-   no "free coaching if you join my brokerage."
+   no "free coaching if you join my brokerage"; at `Join-gated package allowed: no` or `unknown`, no "join me
+   and get" in any section, the pop-up or the thank-you page.
 8. No named brokerage other than the member's own, and that one only as a fact and as compliance requires;
    no former brokerage named.
 9. No other person or brokerage spoken against; no ranking.

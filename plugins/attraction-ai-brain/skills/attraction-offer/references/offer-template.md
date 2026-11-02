@@ -10,6 +10,17 @@ Partner Offer doc never may.
 `Teach first` · `What's included` · `First 30 days` · `Digital product promise` · `The Partner Offer` ·
 `Status:`. New in this shape and read by the doc and the Book: `Program name:` · `Program type:` ·
 `## The program` · `## The framework` · `## Structure` · `## Support & community` · `Onboarding: Day 1`.
+Added 2026-11-02 (Mike's Lead Magnet and UVP feedback): `Join-gated package allowed:` (read by every public
+writer — the magnet, the funnel, the bios, the content engines) · `## How to create it` · `## Start with your
+upline` · `## If your brokerage does not allow a join-gated package` · `## Where to host it` · `## Content
+branches` (read by the Short-Form and YouTube Game Plans FIRST when they build pillars, angles and titles) ·
+`The 30-second explanation:` · `Video intro line:` under `## How to talk about it`.
+
+**The name (the naming rule in `SKILL.md` §5):** `Offer name:` / `Program name:` is outcome-based marketing
+language — the OUTCOME the agent wants plus the MECHANISM the member teaches, in words an agent says ("Buyers
+From Open Houses"), never a place, a club, a portal or a label; it passes the "I need that" test and the "says
+what it solves" test. An organization or community name already in use is the `Community name:` under
+`## Where to host it`, never the program's name unless it already names an outcome.
 
 ```
 # Offer — [Member first name]
@@ -17,8 +28,9 @@ Status: finalized by member · [YYYY-MM-DD]
 (Setup writes `Status: seeds (Week 2 builds the offer)` — or `Status: finalized by member` when the member
 already had a written offer and said so in Conversation 2; this skill flips seeds to finalized once the
 member has reacted. Readers key on this line.)
-Offer name: [the name in use] · Program name: [the same name — the program and the offer share one name] · Program type: [one of six: partnership program · mentorship program · coaching program · accelerator · course plus community · team system] · Comment keyword: [ONEWORD]
+Offer name: [the outcome + the mechanism, in an agent's words — the naming rule] · Program name: [the same name — the program and the offer share one name] · Program type: [one of six: partnership program · mentorship program · coaching program · accelerator · course plus community · team system] · Comment keyword: [ONEWORD]
 Primary avatar: [one-line target from avatars.md]
+Join-gated package allowed: [yes | no | unknown — from compliance.md / brokerage-model.md, else the one Week 2 question; `no` or `unknown` = every public line leads with what the member teaches, their story and their mentorship, never "join me and get X"; `unknown` carries an open item for the compliance desk]
 
 ## UVP
 I help [agent] achieve [outcome] through [unique mechanism].
@@ -27,7 +39,7 @@ Bio-safe line: [one sentence]
 
 ## The program
 (defined like a product — every line filled; the doc's At a glance page and brain.md's `Program:` line render from here)
-Name: [program name]
+Name: [program name — the outcome + the mechanism; the two alternates offered on the card are listed in ## Open items only if the member asked to revisit, else under the doc's "What I assumed"]
 Type: [one of the six] — [one-line reason, from what the member actually does]
 For: [the primary type of agent in plain words; one line on the secondary type if any]
 90-day outcome: [what the partner can SHOW by day 90 — never earn; "no result is promised, the method is"]
@@ -96,13 +108,57 @@ Done at day 30: [the three things that are true]
 Why now: …
 
 ## How to talk about it
+(the marketing language — outcome-based, the member's voice, no hype words; every line in the register `Join-gated package allowed:` sets)
 The four lines: UVP · outcome-led · story-led · mechanism-led (one line each — the doc's "four ways to say it")
+The 30-second explanation: [60–90 words — what the member says when an agent asks "so what do you actually do?": who I help · what they get · how · what happens next]
 Three short lines (DM · caption · bio), first person, under 20 words each.
+Video intro line: [the first sentence on camera, under 20 words]
 Booking line: [from operations.md, or "not set yet"]
 Comment keyword: [ONEWORD] — "Comment [KEYWORD] and I'll send it."
 What the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]"]
 Lead-magnet seed: [which framework step the free magnet is cut from, and why it runs without the member — or the live magnet's name and keyword from memory/magnets.md once one exists]
 (The 60-second "why join me" story lives at the end of journey.md, owned by attraction-why-join-me, not here.)
+
+## How to create it
+(the build checklist for THEIR program — from ## Structure, Teach first, the deliverables and operations.md; every line something the member can do this week; what exists today reads "done — reuse it")
+Record: • [lesson 1 — what is on screen, the run time — tonight] • [lessons 2+ — live at the call first, recorded with the first partners]
+Write: • [the templates handed over] • [the welcome-call agenda] • [the Day 1 hand-over list] • [the community's welcome post]
+The first 30 days (the member's side): • [week 1] • [week 2] • [week 3] • [week 4]
+The weekly touchpoint: [the call — day · time · length · format · what happens on it · who runs it when the member cannot]
+
+## Start with your upline
+(Mike's rule: use the upline's package and your own skill to GET STARTED; the upline layer is Brain question 16)
+The upline's package (generic names, the access line): • … • …
+Your own skill added to it: [the one lesson the member can teach today]
+The offer you can run this week: [one line — the upline's package + that lesson]
+The three signs you are ready to build your own (each "true today" or "not yet", with the evidence):
+1. Agents have asked for your way of doing something: [true today / not yet — from proof.md, objections.md, conversations.md]
+2. Your process has a result you can stand behind: [true today / not yet — from strategy.md's Teach-it rows]
+3. The upline's package does not serve who your story speaks to: [true today / not yet — avatars.md against the upline layer]
+Verdict: [all three true → the program is your own, the upline's package a layer inside it · fewer → lead with the upline's package plus your one lesson; the sign to watch for]
+
+## If your brokerage does not allow a join-gated package
+Rule in force: [yes — allowed · no — not allowed · unknown — being checked] (mirrors the header line)
+What it means for the words: [`yes` → the program is what an agent receives when they partner with the member · `no` / `unknown` → the offer is what the member teaches, their story and their mentorship, offered to any agent who wants to learn it; nothing gated on joining; never "join me and get X"]
+The lines that change: [the for-line · the At a glance "What it costs you" row · the four ways to say it · the short lines · the funnel's Offer and Why Join Me sections · the bios — one line each on how they read in this register]
+The check (unknown only): [confirm with the compliance desk whether a package may be offered as a reason to join — closed by attraction-compliance]
+
+## Where to host it
+Host: [Skool (recommended — easiest) | Circle (the alternative) | the group chat for now | other]
+Community name: [the organization or community name in use, from brand-visual.md — else the program name]
+Set up in 20 minutes: • [the community created] • [the classroom: lesson 1 and the templates] • [the calendar: the weekly call] • [one welcome post]
+Keep it simple: one community, one welcome post, one weekly call.
+Link: [the community's link once it exists — or "not set up yet"]
+
+## Content branches
+(the UVP is the foundation of the content — all content is a branch of it; 5–7 segments, three example topics each; the Short-Form Game Plan (Week 3) and the YouTube Game Plan (Week 4) build pillars, angles and titles from these FIRST, the Brain's other signals second, their starter banks last; never a compensation topic)
+- **[Segment 1 — a framework step]** — [one line: what it is] · topics: [1] · [2] · [3]
+- **[Segment 2 — a framework step]** — … · topics: … · … · …
+- **[Segment 3 — a pain in the overlap]** — … · topics: … · … · …
+- **[Segment 4 — the member's perspective: what agents pay for vs what works]** — … · topics: … · … · …
+- **[Segment 5 — the story's turning point]** — … · topics: … · … · …
+- **[Segment 6 — the teaching method itself]** (optional) — … · topics: … · … · …
+- **[Segment 7]** (optional) — … · topics: … · … · …
 
 ## Value stack
 (owned by attraction-free-vs-paid — built by free-vs-paid)
@@ -125,5 +181,8 @@ agents are making: … · Why my agents joined me: … · Why I'm here (one line
 No compensation, splits, caps, stock, rev share, or income figures anywhere in content built from this
 file. Proof only as written here. Brokerage and upline named generically in public. Compliance per
 identity/compliance.md before anything public. The program's type, name and cadence are the same words
-here, in the Partner Offer doc, and in brain.md's `Program:` line — never three versions.
+here, in the Partner Offer doc, and in brain.md's `Program:` line — never three versions. Read
+`Join-gated package allowed:` before writing anything public: `no` or `unknown` means the words lead with
+what the member teaches, their story and their mentorship — never "join me and get X". Content pillars,
+angles and titles come from `## Content branches` first; nothing invents a pillar the offer does not carry.
 ```

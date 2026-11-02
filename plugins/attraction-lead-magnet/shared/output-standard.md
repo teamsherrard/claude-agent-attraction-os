@@ -36,8 +36,10 @@ and sequence that serve it always sit together:
           └── Partner Outreach Kit — 2026-12-17.docx            (lm-partnerships)
 ```
 
-A "campaign" = one magnet (the one the member picked from `lm-magnet-ideas`' three recommendations, built
-from their own offer — the example below is the demo member's) + the funnel and kits that serve it. Build several over time — each gets its own dated folder.
+A "campaign" = one magnet (the one `lm-magnet-ideas` recommended and the member said yes to — or the next
+best they asked for — built from their own offer; the example below is the demo member's) + the funnel and
+kits that serve it. One magnet per campaign, one campaign at a time; build several over time — each gets its
+own dated folder.
 Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS has nothing to do with either.
 
 ## 2. Naming convention (use everywhere — no exceptions)

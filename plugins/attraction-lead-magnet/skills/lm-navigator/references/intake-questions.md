@@ -131,7 +131,7 @@ brokerages are never named.*
   never a vendor named.
 - **The case-study breakdown** → **the partner and the written consent** — pre-fill from `proof.md` (the row
   with consent on file, first name only if that is the consent, and the three numbers that may be printed);
-  "ask first" is not consent — then the shape is not available and the recommender's next card runs.
+  "ask first" is not consent — then the shape is not available and the recommender shows its next best.
 - **The 5-day challenge** → **the five tasks in order** — pre-fill from the framework's steps (the smallest
   version of the method, one task a day) and `offer.md` → "First 30 days as a partner" week 1.
 - **The calendar** → the same swap as the plan or template (the week-one activity), with the dates blank.

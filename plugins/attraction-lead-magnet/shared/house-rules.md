@@ -34,11 +34,11 @@ simple, warm, encouraging — and narrate in plain language so they always know 
   not "where do you want to start," not "which shape," not "are you ready." Write it as a normal message:
   state the plan, then one plain yes-or-tell-me line. (The first message of a fresh start is the navigator's
   scripted welcome — use it word for word; when the offer still has to be built, the offer card follows those
-  two lines in the same message — one card to say yes to, never a list of questions or assumptions.) **The
-  one exception:** the three lead magnet ideas (`lm-magnet-ideas`) are written as three short numbered cards
-  inside a normal chat message, under 350 words all in — still never an option widget, still ending in one
-  plain yes-or-tell-me line, with number one recommended so "yes" works. Nothing else in this plugin is ever
-  numbered at the member.
+  two lines in the same message — one card to say yes to, never a list of questions or assumptions.) **No
+  exception for the lead magnet either** (Mike, 2026-11-02): `lm-magnet-ideas` shows ONE recommendation on
+  one card inside a normal chat message, under 120 words all in, ending in one plain line — "say yes, or
+  'another idea' for the next best" — never three at once, never a numbered list. Nothing in this plugin is
+  ever numbered at the member.
 - **A question is a handoff.** Say "your turn" in words; if they reply with confusion, nothing is stuck —
   re-ask only the one pending question in its shortest form.
 - **Be encouraging.** Most leaders have never built a funnel. Lower the stakes: *"this is just the words —
@@ -161,6 +161,13 @@ these are the parts this plugin lives by.
 - **No earnings claims, ever.** Nothing states, implies, or illustrates what a partner will earn. Results are
   framed as what the member will SHOW, never what an agent will EARN. Mike's own figures are quoted as his
   ("per Mike Sherrard's lesson"), never as typical.
+- **A package offered as a reason to join only when the offer allows it.** Read `identity/offer.md` →
+  `Join-gated package allowed:` before any public word. `yes` → the program is what an agent receives when
+  they partner with the member, as the offer says it. `no` or `unknown` → every public line this plugin writes
+  (the guide's closing page, the funnel's Offer and Why Join Me sections, the thank-you page, the bios, the
+  DMs, the emails) leads with what the member TEACHES, their STORY and their MENTORSHIP, offered to any agent
+  who wants to learn it — never "join me and get X", never a bundle gated on joining. The magnet is still
+  built either way: it is what they teach. The line is missing (an older offer file) → treat as `unknown`.
 - **Targeting is by career stage, production, model, and mindset** — never a protected characteristic. Any
   real-estate example describes properties, never who "belongs" somewhere.
 - **Real only.** Never invent a testimonial, a stat, a production number, an organization count, or a result.
@@ -180,7 +187,7 @@ these are the parts this plugin lives by.
    warmly: *"Before I write anything public, I need your compliance basics — how your brokerage name
    appears, your license display, and your brokerage's rule on talking about income. Say 'set up my
    attraction compliance' and it takes three minutes — then we pick straight back up."* **"If empty,
-   proceed" is banned.** Private work (the offer build, the three recommendations and the pick, the intake,
+   proceed" is banned.** Private work (the offer build, the one recommendation and the yes, the intake,
    an analytics read) still runs: the navigator reads the gate at the start, says once that the basics get
    set right before the guide is written, and runs the Brain's compliance skill immediately before
    `lm-magnet` writes the public document — it never stops the session early, and the magnet writer's own
@@ -264,24 +271,25 @@ on — never loop. Always tell the member where it is in plain words, and delive
 
 ---
 
-## 11. The magnet is chosen from the member's unique value proposition — three different ideas, the member picks
+## 11. The magnet is chosen from the member's unique value proposition — ONE recommendation, the member says yes
 
 Every member's magnet is built from their own offer (`identity/offer.md` — the UVP one-liner, the framework
 step the offer's seed line names, the program's phases, the Teach-first lessons, the five pains they genuinely
 solve), so **no two members' magnets look alike. There is no default magnet.** The flow, every campaign (the
-first and every one after): `lm-magnet-ideas` reads the offer and Mike's training and puts **exactly three**
-ideas in one plain message — **three genuinely different kinds of thing, one per lane: a TOOL** (the member's
-scripts, templates or swipe file an agent uses this week — one framework step cut out whole), **a PLAN** (a
-30- or 90-day roadmap, checklist or calendar built from the program's structure), **a DECISION or PROOF piece**
-(the "your lead bill vs your own Saturday" math worksheet, a consented partner case study, a fair comparison or
-questions guide only when the offer is about choosing, a 5-day challenge). Never two from the same lane,
-never two cut from the same framework step (the 2026-10-18 ruling — three variants of one asset is a
-failure). Each is a card an agent would download: a title with a number or an outcome in it, under 12 words,
-checked once against what agents type; a one-sentence promise; who it's for in plain words; three "inside"
-bullets; one "why it will convert" line in Mike's voice. **The lesson that grounds a card is cited as
-`module/lesson` only where it resolves in the Support plugin's lesson index, and only in the Brain's magnet
-record and the document — never on the member's screen.** It recommends number one so "yes" works; the
-member picks the one that resonates; a different idea is sized against the method in one line.
+first and every one after): `lm-magnet-ideas` reads the offer and Mike's training, weighs the three kinds of
+magnet silently — **a TOOL** (the member's scripts, templates or swipe file an agent uses this week — one
+framework step cut out whole), **a PLAN** (a 30- or 90-day roadmap, checklist or calendar built from the
+program's structure), **a DECISION or PROOF piece** (the "your lead bill vs your own Saturday" math worksheet,
+a consented partner case study, a fair comparison or questions guide only when the offer is about choosing, a
+5-day challenge) — and puts **ONE recommendation** on one card in a plain message under 120 words (Mike,
+2026-11-02: *"it currently recommends three lead magnets — make it one, simple and achievable"*): a title with
+a number or an outcome in it, under 12 words, checked once against what agents type; the promise in one
+sentence; who it's for in plain words; why this one for THIS member in two lines, in Mike's reasoning. "Yes"
+builds it; "another idea" shows the next best — a different kind of thing, a different framework step, one at
+a time, never three at once (the 2026-10-18 ruling still holds underneath: the next best is never a variant
+of the first). **The lesson that grounds the pick is cited as `module/lesson` only where it resolves in the
+Support plugin's lesson index, and only in the Brain's magnet record and the document — never on the member's
+screen.** A different idea of the member's own is sized against the method in one line.
 
 - **The comparison guide is one shape among many** — the fair, cited, dated comparison of brokerage model
   types with the questions to ask any sponsor — and it is recommended **only when it fits the UVP** (the
@@ -297,9 +305,10 @@ member picks the one that resonates; a different idea is sized against the metho
   captured row) is one of the candidates the recommender sizes — never a queue-jumper, never ignored.
 - **Compliance gate hard** (rule #5): the magnet is public; unset blocks the document; compensation numbers
   follow the strict default.
-- The navigator (`lm-navigator`) owns the session order (the offer → three recommendations → the pick → the
-  intake → the magnet → the funnel outline); the recommender owns the three; the magnet skill honours a
-  locked focus handed to it and runs the recommender itself when entered without one.
+- The navigator (`lm-navigator`) owns the session order (the Week 2 outcome statement → the offer → one
+  recommendation → the yes → the intake → the magnet → the funnel outline); the recommender owns the
+  recommendation and the next best; the magnet skill honours a locked focus handed to it and runs the
+  recommender itself when entered without one.
 
 ---
 
