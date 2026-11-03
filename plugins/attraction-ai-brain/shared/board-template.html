@@ -45,6 +45,7 @@ button.chip:hover{border-color:rgba(43,216,138,.5);color:var(--fg)}
 .tile .big{font-family:var(--display);font-weight:700;font-size:19px;line-height:1.28;text-wrap:balance}
 .tile .small{font-size:15px;color:var(--muted);line-height:1.45}
 .tile ol{margin:0;padding-left:18px;font-size:15px;color:var(--fg);line-height:1.4;display:flex;flex-direction:column;gap:3px}
+.tile .coderow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .tile code{font-family:var(--mono);font-size:14px;background:var(--code);padding:5px 9px;border-radius:7px;color:var(--accent2);display:inline-block;max-width:100%;white-space:normal;word-break:break-word;line-height:1.4}
 .ring{display:flex;align-items:center;gap:12px}
 .ring svg{width:64px;height:64px;flex:none;transform:rotate(-90deg)}
@@ -68,6 +69,7 @@ button.chip:hover{border-color:rgba(43,216,138,.5);color:var(--fg)}
 .legend{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:var(--dim);padding:2px 0 10px}
 .legend .on{color:var(--accent2)}.legend .now{color:var(--amber)}.legend .op{color:var(--amber)}
 .chips{display:none;flex-wrap:wrap;gap:8px;justify-content:center;padding:0 0 14px}
+.chips .chlab{width:100%;text-align:center;font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-top:8px}
 .chips button{font-family:var(--mono);font-size:13px;letter-spacing:.04em;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--fg);cursor:pointer}
 .chips button.now{border-color:rgba(242,184,75,.5);color:var(--amber)}
 .chips button.soon{color:var(--dim)}
@@ -137,7 +139,11 @@ body.open #panel{transform:none;visibility:visible;transition:transform .32s eas
 .pbar{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 18px;border-bottom:1px solid var(--line)}
 .pbar button{font-family:var(--mono);font-size:13px;letter-spacing:.06em;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--muted);cursor:pointer}
 .pbar button:hover{color:var(--fg);border-color:rgba(255,255,255,.25)}
+.pright{display:flex;align-items:center;gap:8px}
 .pnav{display:flex;align-items:center;gap:8px}
+.ptop{position:absolute;right:22px;bottom:calc(22px + env(safe-area-inset-bottom,0px));z-index:3;font-family:var(--mono);font-size:13px;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel2);color:var(--fg);box-shadow:0 8px 24px rgba(0,0,0,.18);cursor:pointer}
+.ptop:hover{border-color:var(--accent)}
+@media print{body{background:#fff;color:#000}#bg,.wrap,#toast,.pbar,.ptop,#pLinks,#pActions,.pfoot{display:none!important}#panel{position:static;width:auto;height:auto;transform:none;visibility:visible;box-shadow:none;border:0;display:block;color:#000}#panel::before{display:none}.pscroll{overflow:visible}.doc{max-width:none;padding:0}.doc details.raw{display:none}.doc *{color:#000!important}.doc h3{color:#000}}
 .pnav span{font-family:var(--mono);font-size:12.5px;color:var(--dim);letter-spacing:.06em}
 .pscroll{position:relative;z-index:1;flex:1;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .doc{padding:26px 32px 60px;max-width:72ch}
@@ -342,8 +348,9 @@ td:first-child{font-weight:600}
 <aside id="panel" data-state="built" aria-label="Document">
   <div class="pbar">
     <button type="button" id="pClose">✕ &nbsp;close</button>
-    <div class="pnav" id="pNav"><button type="button" id="pPrev" aria-label="Previous">←</button><span id="pPos"></span><button type="button" id="pNext" aria-label="Next">→</button></div>
+    <div class="pright"><button type="button" id="pPrint" hidden>Print this page</button><div class="pnav" id="pNav"><button type="button" id="pPrev" aria-label="Previous">←</button><span id="pPos"></span><button type="button" id="pNext" aria-label="Next">→</button></div></div>
   </div>
+  <button type="button" id="pTop" class="ptop" hidden>↑ Back to the top</button>
   <div class="pscroll" id="pScroll">
     <article class="doc">
       <div class="eyebrow" id="pEye"></div>
@@ -364,6 +371,7 @@ td:first-child{font-weight:600}
 'use strict';
 /* ───────────────────────── DATA: injected by shared/render_board.py from the member's Brain ───────────────────────── */
 const D=/*__BOARD_DATA__*/null;
+if(!D){document.body.innerHTML='<p style="padding:24px;font:17px system-ui;color:#EEF2F8">This board was saved without its data. Say \u201crefresh my brain board\u201d in Cowork to rebuild it from your Brain.</p>';throw new Error('board: no data');}
 const GOALS=D.GOALS,OPEN=D.OPEN,MOVES=D.MOVES,WEEK=D.WEEK,CHANGED=D.CHANGED,DAY=D.DAY,INNER=D.INNER,OUTER=D.OUTER,EXTRA=D.EXTRA,HDR=D.HEADER,T=D.TILES;
 const LS={get(k){try{return JSON.parse(localStorage.getItem('bb:'+k));}catch(e){return null;}},set(k,v){try{localStorage.setItem('bb:'+k,JSON.stringify(v));}catch(e){}},del(k){try{localStorage.removeItem('bb:'+k);}catch(e){}}};
 let doneMoves=LS.get('moves:'+DAY)||[],doneOpen=LS.get('open:'+D.STAMP)||[];
@@ -509,6 +517,7 @@ function closeDoc(){
   if(opener&&opener.focus){try{opener.focus({preventScroll:true});}catch(e){}}
 }
 document.getElementById('pClose').addEventListener('click',closeDoc);
+(function(){const pr=document.getElementById('pPrint');let top=false;try{top=window.top===window.self;}catch(e){top=false;}if(top&&typeof window.print==='function'){pr.hidden=false;pr.onclick=()=>window.print();}const pt=document.getElementById('pTop');pScroll.addEventListener('scroll',()=>{pt.hidden=pScroll.scrollTop<700;});pt.onclick=()=>{pScroll.scrollTo({top:0,behavior:'smooth'});};})();
 pPrev.addEventListener('click',()=>openDoc(pPrev.dataset.doc));
 pNext.addEventListener('click',()=>openDoc(pNext.dataset.doc));
 document.addEventListener('keydown',e=>{
@@ -522,10 +531,10 @@ function renderTiles(){
   document.getElementById('tiles').innerHTML=
     '<div class="tile" role="button" tabindex="0" data-doc="goals" aria-label="Your goals and your tracker"><div class="k"><span>Your goals</span><span class="r">tracker</span></div>'
    +'<div class="ring"><svg viewBox="0 0 64 64" aria-hidden="true"><circle class="rbg" cx="32" cy="32" r="26"/><circle class="rfg" cx="32" cy="32" r="26" stroke-dasharray="'+(C*p).toFixed(1)+' '+C.toFixed(1)+'"/></svg><div><div class="n">'+g.today+'<span>of '+g.twelve+'</span></div><div class="l">agents in your organization \u00b7 12-month goal</div></div></div>'
-   +'<div class="mini">'+T.goals.bars.map(b=>'<div class="mb"><div class="lab"><span>'+esc(b.label)+'</span><b>'+b.v+' of '+b.t+'</b></div><div class="t"><div class="f" style="width:'+(b.t>0?Math.max(0,Math.min(100,Math.round(b.v/b.t*100))):0)+'%"></div></div></div>').join('')+'</div>'
-   +'<div class="slice">'+T.goals.slice.map(s=>'<span class="sd '+s.s+'">'+esc(s.d)+'</span>').join('')+'<span class="sl">'+esc(T.goals.line)+'</span></div></div>'
+   +(T.goals.bars.every(b=>!b.t)?'<div class="small">'+esc(T.goals.empty||'No targets on file yet.')+'</div></div>':'<div class="mini">'+T.goals.bars.map(b=>'<div class="mb"><div class="lab"><span>'+esc(b.label)+'</span><b>'+b.v+' of '+b.t+'</b></div><div class="t"><div class="f" style="width:'+(b.t>0?Math.max(0,Math.min(100,Math.round(b.v/b.t*100))):0)+'%"></div></div></div>').join('')+'</div>'
+   +'<div class="slice">'+T.goals.slice.map(s=>'<span class="sd '+s.s+'">'+esc(s.d)+'</span>').join('')+'<span class="sl">'+esc(T.goals.line)+'</span></div></div>')
    +'<div class="tile" role="button" tabindex="0" data-doc="today" aria-label="Today"><div class="k"><span>Today</span><span class="r">'+esc(T.today.k)+'</span></div><div id="moveList"></div><div class="small" id="moveSum"></div></div>'
-   +'<div class="tile amber" role="button" tabindex="0" data-doc="'+esc(T.week.doc)+'" aria-label="This week"><div class="k"><span>This week</span><span class="r">'+esc(T.week.k)+'</span></div><div class="big">'+esc(T.week.big)+'</div><div class="small">'+esc(T.week.small)+'</div>'+(T.week.code?'<code>'+esc(T.week.code)+'</code>':'')+'</div>'
+   +'<div class="tile amber" role="button" tabindex="0" data-doc="'+esc(T.week.doc)+'" aria-label="This week"><div class="k"><span>This week</span><span class="r">'+esc(T.week.k)+'</span></div><div class="big">'+esc(T.week.big)+'</div><div class="small">'+esc(T.week.small)+'</div>'+(T.week.code?'<div class="coderow"><code>'+esc(T.week.code)+'</code><button type="button" class="copy tcopy" data-copy="'+esc(T.week.code)+'">copy</button></div>':'')+'</div>'
    +'<div class="tile amber" role="button" tabindex="0" data-doc="open-items" aria-label="Open items"><div class="k"><span>Waiting on you</span><span class="r">open items</span></div><div class="n2"><b id="openCount">0</b><span>things</span></div><div class="small" id="openSummary"></div></div>';
   document.getElementById('hName').textContent=HDR.name;
   document.getElementById('hWeek').textContent=HDR.weekLine;
@@ -535,6 +544,7 @@ function renderTiles(){
   document.title=HDR.title;
 }
 renderTiles();
+document.querySelectorAll('.tile .tcopy').forEach(b=>{b.addEventListener('click',e=>{e.stopPropagation();copyText(b.dataset.copy,b);});});
 document.querySelectorAll('header [data-doc], .tiles [data-doc]').forEach(b=>{b.addEventListener('click',e=>{if(e.target.closest('.tick'))return;openDoc(b.dataset.doc,b);});b.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target===b){e.preventDefault();openDoc(b.dataset.doc,b);}});});
 document.getElementById('stage').addEventListener('click',e=>{if(!e.target.closest('.node')&&!e.target.closest('.centre'))closeDoc();});
 
@@ -611,7 +621,7 @@ centreG.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preven
 
 /* phone: chips instead of labels */
 const chips=document.getElementById('chips');
-INNER.concat(OUTER).forEach(d=>{const b=document.createElement('button');b.type='button';b.className=d.state||'';b.textContent=title(d.label)+(d.week?' · '+d.week:'');b.addEventListener('click',()=>openDoc(d.id,b));chips.appendChild(b);});
+[['Your Brain',INNER],['Your systems',OUTER]].forEach(([lab,list])=>{const h=document.createElement('span');h.className='chlab';h.textContent=lab;chips.appendChild(h);list.forEach(d=>{const b=document.createElement('button');b.type='button';b.className=d.state||'';b.textContent=title(d.label)+(d.week?' · '+d.week:'');b.addEventListener('click',()=>openDoc(d.id,b));chips.appendChild(b);});});
 
 /* ───────────────────────── state: moves, open items, connections, search ───────────────────────── */
 function toggleMove(i){doneMoves=doneMoves.includes(i)?doneMoves.filter(x=>x!==i):doneMoves.concat([i]);LS.set('moves:'+DAY,doneMoves);renderMoves();}
@@ -643,7 +653,7 @@ let toastT=0;function toast(msg){const t=document.getElementById('toast');t.text
 document.getElementById('resetDemo').addEventListener('click',()=>{LS.del('moves:'+DAY);LS.del('open:'+D.STAMP);doneMoves=[];doneOpen=[];renderMoves();renderOpenState();toast('Checkmarks reset');});
 
 /* search: pages, and what to say */
-const INDEX=Object.values(DOCS).map(d=>({id:d.id,title:d.title,text:((d.tagline||'')+' '+d.body.replace(/^@.*$/gm,' ').replace(/[|#>]+/g,' ').replace(/\s+/g,' ')).trim()}));
+const INDEX=Object.values(DOCS).map(d=>({id:d.id,title:d.title,text:((d.tagline||'')+' '+d.body.replace(/^@.*$/gm,' ').replace(/[|#>]+/g,' ')+(d.id==='open-items'?' '+OPEN.map(o=>o.text).join(' '):'')+(d.id==='today'?' '+MOVES.join(' ')+' '+WEEK.map(w=>w.t).join(' '):'')).replace(/\s+/g,' ').trim()}));
 const PHRASES=[];(function(){const seen=new Set();Object.values(DOCS).forEach(d=>(d.actions||[]).forEach(a=>{if(!seen.has(a.p)){seen.add(a.p);PHRASES.push({id:d.id,p:a.p,n:a.n});}}));})();
 function snippet(text,v,i){const s=Math.max(0,i-60),e=Math.min(text.length,i+v.length+90);return (s>0?'…':'')+esc(text.slice(s,i))+'<mark>'+esc(text.slice(i,i+v.length))+'</mark>'+esc(text.slice(i+v.length,e))+(e<text.length?'…':'');}
 const qIn=document.getElementById('q'),qRes=document.getElementById('qres');

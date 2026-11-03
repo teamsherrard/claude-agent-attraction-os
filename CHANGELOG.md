@@ -2,6 +2,18 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.15.3] — 2026-11-02
+
+**The Brain Board, built for daily use.** In `plugins/attraction-ai-brain/shared/board-template.html` and
+`shared/render_board.py`: a "Print this page" button on every page when the board is opened as a file (hidden
+inside the claude.ai viewer, which cannot print) with a print stylesheet that prints only the open page; a
+floating "Back to the top" button once a long page is scrolled; a copy button beside the This-week phrase on the
+tile; search now also finds the open items and today's moves; a Brain with no locked targets gets a plain
+empty state on the goals tile instead of "0 of 0"; moves from a debrief older than a day are labelled with that
+debrief's date; the phone chips are grouped under "Your Brain" and "Your systems"; a board saved without its
+data says so instead of failing silently; and the renderer skips any Brain file that is still the shipped
+template, so a half-built Brain never shows placeholders. Demo re-rendered. Versions: attraction-ai-brain 0.5.3.
+
 ## [0.15.2] — 2026-11-02
 
 **The Brain Board, tidier pages.** The owner's note: the Partner Offer page opened on a wall of identical pills.

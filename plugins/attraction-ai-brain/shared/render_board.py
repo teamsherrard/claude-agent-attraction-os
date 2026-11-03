@@ -42,6 +42,10 @@ def clean(s, demo):
     s = re.sub(r'[ \t]+', ' ', s).strip()
     return s
 
+def is_template(text):
+    """A shipped template still full of [placeholders] is not member content."""
+    return len(re.findall(r'\[[^\]\n]{2,40}\]', (text or '')[:2500])) >= 4
+
 def strip_md_header(text):
     """Drop the DEMO line, the '# Title' and the leading italic owner notes of a Brain file."""
     lines = text.split('\n')
@@ -474,10 +478,10 @@ def build_inner(ctx):
             body = (body + '\n\n' if body else '') + '@link: goals | Open your goals and your tracker'
         if pid == 'whats-next':
             body = ctx['whats_next_body']
-        extra_md = files.get(fname, '') if fname else ''
+        extra_md = files.get(fname, '') if fname and not is_template(files.get(fname, '')) else ''
         if pid == 'your-voice':
             vp = files.get('identity/voice-print.md', '')
-            if vp: extra_md = (extra_md + '\n\n## How you talk\n' + strip_md_header(vp)) if extra_md else vp
+            if vp and not is_template(vp): extra_md = (extra_md + '\n\n## How you talk\n' + strip_md_header(vp)) if extra_md else vp
         if extra_md:
             conv = md_to_book(extra_md, demo, drop_sections=drop)
             if conv:
@@ -551,7 +555,7 @@ def build_outer(ctx):
                 if branches: body += '\n\n## Your pillars will come from your content branches first\nThe Game Plan builds its pillars, angles and titles from the branches of your offer before anything else, then from the rest of your Brain.\n' + '\n'.join('• ' + b[0] for b in branches)
                 body += '\n\n## What lands on this board when it’s done\nThis dot turns green. Your pillars and the next 30 days appear on this page, and your weekly content target starts counting on your Goals page.'
             else:
-                body = md_to_book(ctx['pillars_md'], demo)
+                body = md_to_book(ctx['pillars_md'], demo) if not is_template(ctx['pillars_md']) else '@note: Built; the pillars file is still being written.'
                 if cfg['blocks'].get('short-form'): body = '@note: ' + cfg['blocks']['short-form']['line'] + '\n\n' + body
         elif sysid == 'youtube':
             yt = ctx['yt_name']
@@ -565,7 +569,8 @@ def build_outer(ctx):
                 if ctx['goals']['twelve']: knows.append('Your goal-math starts from %d agents in twelve months.' % ctx['goals']['twelve'])
                 body = '## What you’ll have at the end of Week 4\n' + status_rows([('Your channel, optimized for the agents you attract, as copy-paste blocks', 'soon', ('channel name on file: ' + yt) if yt else ''), ('The YouTube Game Plan on Mike’s three categories, niche authority, interviews and model, and the 8-video cycle: three niche lanes, the interview lane from your organization and your Top 50, the model lane, about fifty titles, the goal-math from your numbers', 'soon', ''), ('The same Notion board, YouTube view: the next 30 days of videos mapped at your cadence', 'soon', ''), ('Three scheduled workflows from one consent card, the Monday Kickoff on by default; draft-only', 'soon', ''), ('Your first video: the idea, the research, the script in your voice, the thumbnail brief and the SEO package', 'soon', '')]) + '\n\n## What it already knows\n' + '\n'.join('• ' + k for k in knows) + '\n\n## What lands on this board when it’s done\nThis dot turns green. The channel link, the three lanes and the next 30 days of videos appear here.'
             else:
-                body = md_to_book(ctx['files'].get('identity/channel.md', ''), demo) or ('@note: ' + cfg['blocks'].get('youtube', {}).get('line', 'Built.'))
+                ch = ctx['files'].get('identity/channel.md', '')
+                body = (md_to_book(ch, demo) if ch and not is_template(ch) else '') or ('@note: ' + cfg['blocks'].get('youtube', {}).get('line', 'Built.'))
         elif sysid == 'conversion':
             tag = 'Lights up in Week 5. Conversations, calls and the partner call, run from your Brain and your Top 50.' if st == 'soon' else 'Your conversations, calls and the partner call, from your Brain.'
             line = 'Conversations, calls and the partner call. Lights up in Week 5.' if st == 'soon' else 'Built: the partner call machine.'
@@ -903,7 +908,9 @@ def main():
         sub = 'Follow-ups due: ' + '; '.join(re.sub(r'\s*—\s*20\d\d-\d\d-\d\d', '', x).strip() for x in db['lines']['follow-ups due'].split(' · ')[:2])
     elif not db:
         sub = 'No debrief yet. Say “run my debrief” tonight.'
-    tiles = {'goals': {'bars': [{'label': 'This week · conversations', 'v': gd['week']['conv'], 't': gd['week']['tconv']}, {'label': 'This week · calls booked', 'v': gd['week']['booked'], 't': gd['week']['tbooked']}, {'label': 'Quarter · joins', 'v': gd['sofar']['joins'], 't': gd['q90']['joins']}],
+    stale = db and (today - db['date']).days > 1
+    if stale: sub = ('From your debrief of %s. ' % nice_date(db['date'])) + sub
+    tiles = {'goals': {'empty': ('Your targets aren\u2019t locked yet. Say \u201cset my attraction goals\u201d and this tile starts counting.' if not gd['q90']['conv'] and not gd['week']['tconv'] else ''), 'bars': [{'label': 'This week · conversations', 'v': gd['week']['conv'], 't': gd['week']['tconv']}, {'label': 'This week · calls booked', 'v': gd['week']['booked'], 't': gd['week']['tbooked']}, {'label': 'Quarter · joins', 'v': gd['sofar']['joins'], 't': gd['q90']['joins']}],
                        'slice': gd['slice'], 'line': ('%d a day' % gd['slice_conv']) + ((' · day %d of 90' % gd['day']) if gd['day'] else '') + ((' · ' + gd['score']) if gd['score'] else '')},
              'today': {'k': nice_date(today), 'sub': sub}, 'week': tile_week}
     now_s = dt.datetime.now()
