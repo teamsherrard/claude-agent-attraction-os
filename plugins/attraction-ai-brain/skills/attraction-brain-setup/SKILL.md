@@ -2,15 +2,15 @@
 name: attraction-brain-setup
 description: >
   Agent Attraction Brain — Setup. The first skill an agent building an organization runs. One guided
-  chat: finds or creates their workspace (Drive or OneDrive), brings over a Realtor Brain, imports old
-  decks, then runs Mike's four conversations one plain question at a time (who you are as a leader ·
-  your unique approach · your story and your proof · your current and future state) plus three
-  spoken answers in their real voice; writes it all into the Brain, derives who their story speaks
-  to, renders the Brain Book, hands over the Project Seatbelt, names the brand chat and Week 2.
-  Never asks about CRM, booking links, scheduled tasks, compliance, operations, brand, agent type or
-  where they attract. Resumable; never re-interviews a built Brain. Trigger on: "set up my
-  attraction brain", "set up my agent attraction brain", "build my agent attraction brain", "launch
-  the agent attraction OS", "open my attraction brain", "onboard me to agent attraction". Realtor
+  chat: finds or creates their workspace, brings over a Realtor Brain, imports old decks, then runs
+  Mike's four conversations one plain question at a time (who you are as a leader · your unique
+  approach · your story and your proof · your current and future state) plus three spoken answers in
+  their real voice; writes it all into the Brain, derives who their story speaks to, renders the
+  Brain Book, hands over the Project Seatbelt, names the brand chat and Week 2. Never asks about
+  CRM, booking links, scheduled tasks, compliance, brand, agent type or where they attract; never
+  re-interviews a built Brain. Trigger on: "set up my attraction brain", "set up my agent attraction
+  brain", "build my agent attraction brain", "launch the agent attraction OS", "open my attraction
+  brain", "onboard me to agent attraction", "open my brain board", "refresh my brain board". Realtor
   phrases stay with the Realtor Brain.
 ---
 
@@ -239,6 +239,13 @@ Brain in the cloud with a fresh empty one** at the final push. So:
      the next thing to type · *"What do you want to build today?"* **Never** open with a list of
      problems, file names, counts, or version talk; **never** flag the by-design files as missing.
      Any structure tune-up is ONE plain line at the very end. **Never re-interview a built Brain.**
+   - **"open my brain board" / "refresh my brain board" / "my brain board"** → never re-interview. Render
+     the Brain Board from the current Brain — `python3 ${CLAUDE_PLUGIN_ROOT}/shared/render_board.py
+     ~/attraction-brain --out "<working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"` — push it to
+     `01 · AI Brain/` through `attraction-brain-sync` (dated filename, newest = current), and hand them the
+     link in one line: *"your Brain Board — the same Brain as a living map: your goals tracker, today's
+     three moves, what's waiting on you, and a page for every part. It rebuilds itself every time anything
+     in your Brain changes."* The sync skill already re-renders it on every push; this is the manual way.
    - **"Review it" / "show me my Brain" / "regenerate my Brain Book"** → don't re-interview; rebuild
      the **Agent Attraction Brain Book** from the current identity files (per
      `${CLAUDE_PLUGIN_ROOT}/shared/brain-book-spec.md`, the canonical contract — nine sections, at
@@ -578,6 +585,14 @@ Checkpoint: *"5 of 5 — I've got your voice. Building your Book now."* Push. St
    - **Hand them the DOC, not just the folder:** the direct link to the Book, with where it lives:
      *"Your **Agent Attraction Brain Book** is in your home base → 01 · AI Brain — here's the direct
      link. Everything the system knows about you, on about a dozen pages."*
+   - **Then the Brain Board, right after the Book.** Render it with `shared/render_board.py` (reads the
+     same files; one HTML page that opens in any browser: the map of their Brain, the goals tracker, today's
+     three moves, what's waiting on them, and a full page for every part and every weekly system). Name it
+     **"🧠 [Name]'s Brain Board — [YYYY-MM-DD]"** (demo brains: " — DEMO — [date]"), save it to
+     `01 · AI Brain/` beside the Book, and hand them that link too, one line: *"and your Brain Board — the
+     same Brain as a living map. It rebuilds itself every time anything in your Brain changes."* If
+     `python3` is not available, leave it out without comment; the sync skill renders it on the next push
+     from a machine that has it.
 5. **Hand them the Project Seatbelt.** Read `${CLAUDE_PLUGIN_ROOT}/shared/project-instructions.md`
    (stamp `aa-v1`) and deliver its paste block exactly as that file instructs (copyable code fence +
    the one-line explanation: *"your project seatbelt — paste it into any project's Project

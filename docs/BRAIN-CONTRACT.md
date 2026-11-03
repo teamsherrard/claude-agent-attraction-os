@@ -153,6 +153,10 @@ demand (`attraction-goals` — "set my attraction goals"); the money is on deman
   The Design Package brief is one of them: `attraction-brand-direction` saves it to `02 · Brand` as
   `Design Package Brief · [Name] · [date].md` through the storage connector, keeps it verbatim in
   `identity/brand-visual.md` (`## Design Package brief`), and reprints it on "show my design package brief".
+- **The Brain Board is always current.** `attraction-brain-sync` re-renders `🧠 [Name]'s Brain Board — [date].html`
+  (`plugins/attraction-ai-brain/shared/render_board.py`, stdlib only) on EVERY push and saves it to `01 · AI Brain`,
+  so a write from any plugin — the offer, the magnet, the pillars, the pipeline, a capture from the car — reaches
+  the board without anyone asking. The board is a read of the Brain, never a source: nothing edits it by hand.
 - Documents render through `shared/render_doc.py` per `shared/doc-formatting.md`; if the renderer prints
   `RENDERER-UNAVAILABLE`, install nothing — upload the structured text as a `.md` file and say so in one line.
 - Nothing sends, posts, publishes, schedules, or moves a pipeline stage on its own. Email is draft-only on both

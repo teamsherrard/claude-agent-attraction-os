@@ -32,6 +32,7 @@ only the *default label*. Locate it robustly:
 ├── _attraction-workspace.md     ← the marker (hidden from the member's attention; never deleted)
 ├── 01 · AI Brain/               ← what the AI knows + the member's key documents
 │   ├── 📕 [Name]'s Agent Attraction Brain Book — YYYY-MM-DD   ← the polished master doc (the member opens THIS)
+│   ├── 🧠 [Name]'s Brain Board — YYYY-MM-DD.html          ← the Brain as a living map; re-rendered on every push
 │   ├── 🎯 [Name]'s 90-Day Attraction Scorecard — YYYY-MM-DD
 │   └── _engine/                 ← raw brain files, the member never opens (identity/ memory/ brain.md config.md · snapshots/)
 ├── 02 · Brand/                  ← logo, headshots, the style sheet and brand kit from the Design Package
@@ -73,7 +74,7 @@ work inside that one member's Brain; it is not a multi-user system. The member's
   the connector cannot overwrite, so dating keeps regenerations from colliding; **the newest date is the current
   one.** After a verified push, the superseded older copy may be trashed (never snapshots).
 - **Where deliverables save:**
-  - **Brain Book** + **90-Day Attraction Scorecard** → `01 · AI Brain`.
+  - **Brain Book** + **Brain Board** + **90-Day Attraction Scorecard** → `01 · AI Brain`.
   - **Brand kit** (logo, style sheet, headshots, profile and banner graphics) → `02 · Brand`.
   - **Long-form** → `03 · Content/Long-Form`; **short-form** → `Short-Form`; **carousels / proof cards** → (thumbnails stay in the video's Long-Form folder)
     `Graphics`; **lead magnets and guides** → `Guides`; **event docs** → `03 · Content/Events/[code] · [Theme]/` —

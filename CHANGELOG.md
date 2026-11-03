@@ -2,6 +2,37 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.15.0] — 2026-11-02
+
+**The Brain Board — the member's Brain as a living map, always in sync.** The user's ruling: the board has to be
+valuable, something the agent opens daily and comes back to, show the business goals and the goals tracker from
+the plan, and update whenever anything in the Brain changes.
+
+- **New `plugins/attraction-ai-brain/shared/render_board.py`** (stdlib only, no python-docx) renders one
+  self-contained HTML page from a Brain folder: the map (the member in the centre, the nine parts of the Brain as
+  the inner ring, the eight weekly systems as the outer ring, lit by state); four tiles above it (the goals
+  tracker — the 12-month ring, this week's conversations and calls against target, the quarter's joins, the daily
+  slice; today's three moves from the last Debrief; this week's build with the phrase to type; the open items);
+  and a full right-hand DOCUMENT page for every dot, tile and the centre — the Book's nine sections verbatim plus
+  "everything on file", the Partner Offer in full with the member's own pages, the brand direction with swatches,
+  the lead magnet and its funnel, the coming systems with what they already know, the goals page from goals.md ·
+  execution-framework.md · scorecard.md · pipeline.md · organization.md, today from debriefs.md, and the open
+  items derived from real lines in the files (funnel not live, host not set up, join-gated rule unknown, a
+  drafted line to confirm, a partner's written OK, the brand kit, compliance set-not-confirmed, targets unlocked,
+  signature phrases drafted). Search over every page and every phrase to say; checkable moves and open items
+  (kept per browser); related nodes light up on the map; white paper pages over the dark map; phone layout.
+  `--week N` caps the lit systems for demos; `--today` sets the day. Money scenarios stay off the board.
+- **New `shared/board-template.html`** — the page the renderer fills (`/*__BOARD_DATA__*/`); never edit the output.
+- **Always current:** `attraction-brain-sync` re-renders the board on EVERY push (new PUSH step 4 and a Rule),
+  so a write from any plugin — the offer, the magnet, the pillars, the pipeline, a capture from the car —
+  reaches the board without anyone asking. `attraction-brain-setup` renders it right after the Book at the
+  close, and "open my brain board" / "refresh my brain board" is the manual way (front door + description).
+- **Docs:** the Brain Board in `shared/brain-contract.md` (documents produced), `shared/drive-map.md`
+  (`01 · AI Brain`), `docs/BRAIN-CONTRACT.md` (the write protocol), `docs/setup-guide.md` (what Week 1 hands
+  you), `docs/demo/brain-demo-checklist.md` (the close + the optional move), and the rendered demo
+  `docs/demo/🧠 Taylor Brooks's Brain Board — DEMO — 2026-10-08.html` (Week 2, day 10 of the demo quarter).
+- Versions: attraction-ai-brain 0.5.0.
+
 ## [0.14.0] — 2026-11-02
 
 ### The Lead Magnet and the offer on Mike's notes (the owner's written feedback on Week 2, 2026-11-02)

@@ -130,8 +130,17 @@ Members are encouraged to rename the workspace after their organization. Locate 
    per `shared/drive-map.md` — Book and Scorecard to `01 · AI Brain/`, brand files to `02 · Brand/`,
    content to `03 · Content/…`, prospect and organization documents to `04 · Agents/…`, offer and
    onboarding documents to `05 · Offer/`. Tell the member where it landed, with the link.
-4. Update **Last synced** in `config.md` (and push config too when it changed).
-5. Confirm quietly: *"Saved to your Drive."* / *"Saved to your OneDrive."*
+4. **The Brain Board rides on every push.** After the changed files are up, re-render the member's Brain
+   Board from the local Brain — `python3 ${CLAUDE_PLUGIN_ROOT}/shared/render_board.py ~/attraction-brain
+   --out "<the session's working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"` — and push that one
+   file to `01 · AI Brain/` exactly like the Book (dated filename, newest = current, a superseded copy is
+   housekeeping). It is a READ of the Brain (the map, the goals tracker, today's three moves, the open
+   items, a page for every part): nothing in it is edited by hand, and it is never pushed over a real
+   Brain file. Say it once per session, in one plain line (*"your Brain Board is updated"*), never per
+   push. If `python3` is missing, keep the previous board, say so once, and move on — a board that is
+   a day old is not a lost write. Demo brains render with `--week` and `--today` as the demo asks.
+5. Update **Last synced** in `config.md` (and push config too when it changed).
+6. Confirm quietly: *"Saved to your Drive."* / *"Saved to your OneDrive."*
 
 ## One owner per file (the Brain Contract, enforced here)
 This skill moves bytes; it does not arbitrate content. But it refuses one thing: **never push a
@@ -159,6 +168,9 @@ the copy — newest-wins keeps it harmless. Net: folders stay clean; snapshots r
   restored state as normal. A bad overwrite is always undoable.
 
 ## Rules
+- **The board is always current.** Any skill, in any plugin, that writes the Brain pushes through here, and
+  every push re-renders the Brain Board — so a change anywhere in the member's project reaches the board
+  without anyone asking. "refresh my brain board" (the setup skill's front door) is only the manual way.
 - **The cloud workspace is the source of truth.** When in doubt, PULL before you PUSH. Never delete
   the cloud copy.
 - **Freshness check before PUSH (two devices / two sessions / the Debrief running overnight).** If

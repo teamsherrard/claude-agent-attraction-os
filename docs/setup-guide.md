@@ -139,6 +139,7 @@ off?" and resumes at the right spot. It never re-interviews a finished Brain.
 - 📕 **Your Agent Attraction Brain Book** — everything the system knows about you, on about a dozen pages, in nine
   short sections: who you are · your story · your brokerage story · your unique approach · your proof · who your story
   speaks to · your numbers · your voice · what's next. You get the direct link.
+- 🧠 **Your Brain Board** — the same Brain as a living map, in one page that opens in any browser: your goals tracker, today's three moves, what's waiting on you, and a full page for every part of your Brain and every weekly system. It rebuilds itself every time anything in your Brain changes; "open my brain board" opens it.
 - **Your home base link** — one folder in your Drive or OneDrive: 01 · AI Brain (the Book), 02 · Brand, 03 · Content,
   04 · Agents, 05 · Offer, 06 · Materials. Bookmark it. Rename it anytime. One folder inside 01 · AI Brain holds the
   working files your AI reads — leave that one alone.
