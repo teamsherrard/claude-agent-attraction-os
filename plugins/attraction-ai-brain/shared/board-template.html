@@ -236,6 +236,24 @@ td:first-child{font-weight:600}
 .bar .bf{height:100%;background:var(--accent);border-radius:3px;min-width:2px}
 .tracker .tfoot{grid-column:1/-1;font-family:var(--mono);font-size:12.5px;color:var(--dim);letter-spacing:.03em;border-top:1px solid var(--line);padding-top:10px}
 .tracker .tfoot b{color:var(--accent2);font-weight:500}
+.pace{list-style:none;padding:0;margin:0 0 16px;display:flex;flex-direction:column}
+.pace li{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);align-items:start}
+.pace .sl{font-size:16.5px;line-height:1.45}.pace .sn{font-size:14px;color:var(--dim);margin-top:2px}
+.pill{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted);text-align:center;margin-top:2px}
+.pill.ahead{background:rgba(43,216,138,.16);border-color:rgba(43,216,138,.6);color:var(--accent2)}
+.pill.on-pace{border-color:rgba(43,216,138,.45);color:var(--accent2)}
+.pill.behind{background:rgba(242,184,75,.14);border-color:rgba(242,184,75,.6);color:var(--amber)}
+.funnel{display:flex;flex-direction:column;gap:7px;margin:4px 0 10px}
+.fr{display:grid;grid-template-columns:120px 1fr 34px;align-items:center;gap:10px;font-size:15px}
+.fs{font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;color:var(--muted)}
+.fb{height:12px;border-radius:6px;background:rgba(12,24,36,.08);overflow:hidden}.ff{height:100%;background:var(--accent);border-radius:6px;min-width:2px}
+.fr b{text-align:right;font-variant-numeric:tabular-nums}
+.chartbox{margin:4px 0 14px;padding:12px 14px 10px;border:1px solid var(--line);border-radius:12px;overflow-x:auto}
+.chart{width:100%;max-width:100%;height:auto;display:block}
+.chart .cb{fill:var(--accent)}.chart .cb.partial{fill:rgba(20,122,78,.35)}
+.chart .ct{stroke:var(--amber);stroke-width:1.5;stroke-dasharray:5 5}
+.chart .cl{font-family:var(--mono);font-size:11px;fill:var(--muted)}.chart .cv{font-family:var(--mono);font-size:12px;fill:var(--fg);font-weight:600}
+.chartbox .sn{font-size:13.5px;color:var(--dim);margin-top:6px}
 .pfoot{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-family:var(--mono);font-size:12.5px;color:var(--dim);line-height:1.6}
 
 /* header: search + week segments */
@@ -426,6 +444,25 @@ function trackerBlock(){
    +'<div class="bars">'+bar('Conversations',g.sofar.conv,g.q90.conv)+bar('Calls held',g.sofar.held,g.q90.held)+bar('Joins',g.sofar.joins,g.q90.joins)+bar('Content shipped',g.sofar.content,g.q90.content)+'</div>'
    +'<div class="tfoot">Day '+g.day+' of 90 \u00b7 quarter '+esc(g.quarter)+(g.score?' \u00b7 the Brain\u2019s score from your rows: <b>'+esc(g.score)+'</b>':'')+'</div></div>';
 }
+function paceBlock(){
+  const rows=GOALS.pace||[];if(!rows.length)return '';
+  return '<ul class="pace">'+rows.map(r=>'<li><span class="pill '+r.status.replace(' ','-')+'">'+esc(r.status)+'</span><div><div class="sl"><b>'+esc(r.label)+'</b>: '+r.actual+' so far</div><div class="sn">'+(r.expected>0?'the plan asks for about '+r.expected+' by today':'nothing due yet')+' \u00b7 '+r.d90+' by day 90</div></div></li>').join('')+'</ul>';
+}
+function funnelBlock(){
+  const f=GOALS.funnel||[];if(!f.length)return '';const mx=Math.max(1,...f.map(x=>x.n));
+  return '<div class="funnel">'+f.map(x=>'<div class="fr"><span class="fs">'+esc(x.stage)+'</span><div class="fb"><div class="ff" style="width:'+Math.round(x.n/mx*100)+'%"></div></div><b>'+x.n+'</b></div>').join('')+'</div><p class="note">The stages every system uses, in order. Parked means timing or fit, never a no.</p>';
+}
+function chartBlock(){
+  const w=GOALS.weeks||[],t=GOALS.wconv||0;if(!w.length)return '';
+  const W=Math.max(360,w.length*64+60),H=170,pad=36,bw=36,mx=Math.max(t||0,...w.map(x=>x.conv),1);
+  const y=v=>H-24-(v/mx)*(H-54);
+  let svg='<svg class="chart" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Conversations each week against your target">';
+  if(t)svg+='<line x1="'+pad+'" y1="'+y(t)+'" x2="'+(W-8)+'" y2="'+y(t)+'" class="ct"/><text x="'+(W-8)+'" y="'+(y(t)-6)+'" class="cl" text-anchor="end">target '+t+' a week</text>';
+  w.forEach((x,i)=>{const bx=pad+i*64;svg+='<rect x="'+bx+'" y="'+y(x.conv)+'" width="'+bw+'" height="'+(H-24-y(x.conv))+'" rx="4" class="cb'+(x.partial?' partial':'')+'"/><text x="'+(bx+bw/2)+'" y="'+(y(x.conv)-6)+'" class="cv" text-anchor="middle">'+x.conv+'</text><text x="'+(bx+bw/2)+'" y="'+(H-8)+'" class="cl" text-anchor="middle">'+esc(x.label)+(x.partial?' \u00b7':'')+'</text>';});
+  svg+='</svg>';
+  const tbl='<div class="tw"><table><thead><tr><th>Week of</th><th>Conversations</th><th>Calls booked</th><th>Calls held</th><th>Joins</th><th>Content</th></tr></thead><tbody>'+w.map(x=>'<tr><td>'+esc(x.label)+(x.partial?' (so far)':'')+'</td><td>'+x.conv+'</td><td>'+x.booked+'</td><td>'+x.held+'</td><td>'+x.joins+'</td><td>'+x.content+'</td></tr>').join('')+'</tbody></table></div>';
+  return '<div class="chartbox">'+svg+'<div class="sn">Conversations a week against your target. A dot after a week means it is still in progress.</div></div>'+tbl;
+}
 function render(text,id){
   const lines=text.split('\n');let out=[],para=[],i=0;
   const flush=()=>{if(para.length){out.push('<p>'+inl(para.join(' '))+'</p>');para=[];}};
@@ -450,6 +487,9 @@ function render(text,id){
     if(l==='@moves'){flush();out.push(movesHTML());i++;continue;}
     if(l==='@week'){flush();out.push(weekHTML());i++;continue;}
     if(l==='@changed'){flush();out.push(changedHTML());i++;continue;}
+    if(l==='@pace'){flush();out.push(paceBlock());i++;continue;}
+    if(l==='@funnel'){flush();out.push(funnelBlock());i++;continue;}
+    if(l==='@chart'){flush();out.push(chartBlock());i++;continue;}
     para.push(l);i++;
   }
   flush();
@@ -529,9 +569,9 @@ document.addEventListener('keydown',e=>{
 function renderTiles(){
   const g=GOALS,C=2*Math.PI*26,p=g.twelve>0?Math.max(0,Math.min(1,g.today/g.twelve)):0;
   document.getElementById('tiles').innerHTML=
-    '<div class="tile" role="button" tabindex="0" data-doc="goals" aria-label="Your goals and your tracker"><div class="k"><span>Your goals</span><span class="r">tracker</span></div>'
+    '<div class="tile" role="button" tabindex="0" data-doc="goals" aria-label="Your goals and your tracker"><div class="k"><span>Your business</span><span class="r">plan · tracker</span></div>'
    +'<div class="ring"><svg viewBox="0 0 64 64" aria-hidden="true"><circle class="rbg" cx="32" cy="32" r="26"/><circle class="rfg" cx="32" cy="32" r="26" stroke-dasharray="'+(C*p).toFixed(1)+' '+C.toFixed(1)+'"/></svg><div><div class="n">'+g.today+'<span>of '+g.twelve+'</span></div><div class="l">agents in your organization \u00b7 12-month goal</div></div></div>'
-   +(T.goals.bars.every(b=>!b.t)?'<div class="small">'+esc(T.goals.empty||'No targets on file yet.')+'</div></div>':'<div class="mini">'+T.goals.bars.map(b=>'<div class="mb"><div class="lab"><span>'+esc(b.label)+'</span><b>'+b.v+' of '+b.t+'</b></div><div class="t"><div class="f" style="width:'+(b.t>0?Math.max(0,Math.min(100,Math.round(b.v/b.t*100))):0)+'%"></div></div></div>').join('')+'</div>'
+   +(T.goals.bars.every(b=>!b.t)?'<div class="small">'+esc(T.goals.empty||'No targets on file yet.')+'</div></div>':'<div class="mini">'+T.goals.bars.map(b=>'<div class="mb"><div class="lab"><span>'+esc(b.label)+'</span><b>'+b.v+' of '+b.t+(b.s?' · '+esc(b.s):'')+'</b></div><div class="t"><div class="f" style="width:'+(b.t>0?Math.max(0,Math.min(100,Math.round(b.v/b.t*100))):0)+'%"></div></div></div>').join('')+'</div>'
    +'<div class="slice">'+T.goals.slice.map(s=>'<span class="sd '+s.s+'">'+esc(s.d)+'</span>').join('')+'<span class="sl">'+esc(T.goals.line)+'</span></div></div>')
    +'<div class="tile" role="button" tabindex="0" data-doc="today" aria-label="Today"><div class="k"><span>Today</span><span class="r">'+esc(T.today.k)+'</span></div><div id="moveList"></div><div class="small" id="moveSum"></div></div>'
    +'<div class="tile amber" role="button" tabindex="0" data-doc="'+esc(T.week.doc)+'" aria-label="This week"><div class="k"><span>This week</span><span class="r">'+esc(T.week.k)+'</span></div><div class="big">'+esc(T.week.big)+'</div><div class="small">'+esc(T.week.small)+'</div>'+(T.week.code?'<div class="coderow"><code>'+esc(T.week.code)+'</code><button type="button" class="copy tcopy" data-copy="'+esc(T.week.code)+'">copy</button></div>':'')+'</div>'

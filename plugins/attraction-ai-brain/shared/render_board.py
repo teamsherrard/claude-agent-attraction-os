@@ -584,7 +584,7 @@ def build_outer(ctx):
         elif sysid == 'ai-admin':
             tag = 'Lights up in Week 5. The Morning Brief, the pipeline and the follow-up queue, drafted every day, sent only by you.' if st == 'soon' else 'Your Morning Brief, your pipeline and your follow-up queue.'
             line = 'Your Morning Brief and the pipeline. Lights up in Week 5.' if st == 'soon' else 'The Morning Brief runs every day.'
-            tgt = ', '.join(ctx['goals']['weekly'][:3]) if ctx['goals']['weekly'] else 'your weekly activity'
+            tgt = ctx['goals_data']['activity'] or 'your weekly activity'
             body = ('## What you’ll have in Week 5\n' + status_rows([('Your first Morning Brief, handed to you before it asks anything: today’s calls with a prep line each, agent inquiries with reply drafts, the follow-ups due drafted in your voice, content due, the week so far, three moves, one coaching note', 'soon', ''), ('Your pipeline at a glance on the locked stages, with your CRM', 'soon', ''), ('One consent card: the Morning Brief and the Daily Follow-Up Queue every morning, plus your Daily Debrief if it isn’t on', 'soon', 'drafted, never sent without you'), ('The weekly scorecard and the Weekly Recruiting CEO Review; the Team Wins newsletter; VA task packs; the Monthly KPI Review', 'soon', '')]) + '\n\n## What it measures you against\nYour own numbers: ' + tgt + '. Under 400 words a morning, no questions.\n\n## What lands on this board when it’s done\nThis dot turns green. The Today tile starts coming from the Morning Brief instead of last night’s debrief, and the weekly rows on your Goals page are written for you every Friday.') if st == 'soon' else ('@note: ' + next((b['line'] for k, b in cfg['blocks'].items() if k.startswith('ai admin')), 'Built.'))
         elif sysid == 'events':
             tag = 'Lights up in Week 6. Live, virtual and evergreen events that teach, with the invite to a conversation as the close.' if st == 'soon' else 'Your events, from the brief to the follow-up.'
@@ -635,7 +635,50 @@ def derive_goals(ctx):
         st = 'done' if (row and row[0] >= sc['slice_conv']) else ('today' if d == today else '')
         slice_days.append({'d': 'MTWTF'[i], 's': st})
     agents_now = ctx['org']['count'] or g['today']
-    return {'today': agents_now, 'twelve': g['twelve'], 'longTerm': g['long'], 'hours': g['hours'], 'day': day, 'quarter': quarter, 'score': score,
+    # pace against the 30-60-90 ramp (piecewise linear from the lock to day 30, 60, 90)
+    def expected(start, d30, d60, d90, d):
+        pts = [(0, start), (30, d30), (60, d60), (90, d90)]
+        if d <= 0: return start
+        for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+            if d <= x1: return y0 + (y1 - y0) * (d - x0) / float(x1 - x0)
+        return d90
+    actual_map = {'conversations': so[0], 'calls held': so[2], 'joins': so[3], 'content shipped': so[4], 'agents in organization': agents_now}
+    pace = []
+    for r in g['rows_3060'][1:]:
+        if len(r) < 4 or not r[0]: continue
+        key = r[0].strip().lower()
+        if key not in actual_map: continue
+        start = g['today'] if key.startswith('agents') else 0
+        exp = expected(start, num(r[1]), num(r[2]), num(r[3]), day) if day else start
+        exp_i = int(exp + 0.5)
+        act = actual_map[key]
+        st = 'on pace' if (exp_i == 0 and act <= 0) or (act >= exp_i and not (exp_i > 0 and act >= 1.5 * exp_i)) else ('ahead' if (exp_i == 0 and act > 0) or (exp_i > 0 and act >= 1.5 * exp_i) else 'behind')
+        pace.append({'label': r[0].strip(), 'actual': act, 'expected': exp_i, 'd90': num(r[3]), 'status': st})
+    # the pipeline funnel, in the locked stage order
+    stages = ['Identified', 'Conversation', 'Call booked', 'Call held', '3-way', 'Joined', 'Onboarded', 'Active', 'Parked']
+    counts = {}
+    cl = ctx['pipeline']['counts']
+    for st_ in stages:
+        m = re.search(re.escape(st_) + r'\s+(\d+)', cl)
+        if m: counts[st_] = int(m.group(1))
+    if not counts:
+        for r in ctx['pipeline']['rows']:
+            for st_ in stages:
+                if r['stage'].lower().startswith(st_.lower()): counts[st_] = counts.get(st_, 0) + 1
+    funnel = [{'stage': st_, 'n': counts.get(st_, 0)} for st_ in stages if st_ != 'Parked'] + ([{'stage': 'Parked', 'n': counts['Parked']}] if counts.get('Parked') else [])
+    # week by week: the Friday rows, then the current partial week
+    weeks = [{'label': d.strftime('%b ') + str(d.day), 'conv': v[0], 'booked': v[1], 'held': v[2], 'joins': v[3], 'content': v[4], 'partial': False} for d, v, _ in sorted(weekly, key=lambda w: w[0])]
+    if any(d >= monday for d, _, _ in daily) and not any(w[0] == monday for w in weekly):
+        weeks.append({'label': monday.strftime('%b ') + str(monday.day), 'conv': wk[0], 'booked': wk[1], 'held': wk[2], 'joins': wk[3], 'content': wk[4], 'partial': True})
+    acts = []
+    if t.get('wconv'): acts.append('%d conversations' % t['wconv'])
+    if t.get('booked'): acts.append('%d calls booked' % t['booked'])
+    fu = re.search(r'Follow-ups:\s*(\d+)', ctx['files'].get('identity/goals.md', ''))
+    if fu: acts.append('%s follow-ups' % fu.group(1))
+    ctext = next((r[3] for r in sc['targets'][1:] if len(r) >= 4 and 'content' in r[0].lower()), '')
+    if ctext and ctext != '—': acts.append(ctext.strip() + ' of content')
+    activity = ' · '.join(acts) + (' · every week' if acts else '')
+    return {'activity': activity, 'pace': pace, 'funnel': funnel, 'weeks': weeks, 'wconv': t.get('wconv', 0),'today': agents_now, 'twelve': g['twelve'], 'longTerm': g['long'], 'hours': g['hours'], 'day': day, 'quarter': quarter, 'score': score,
             'q90': {'conv': t['conv'], 'held': t['held'], 'joins': t['joins'], 'content': t['content'], 'agents': t['agents']},
             'sofar': {'conv': so[0], 'booked': so[1], 'held': so[2], 'joins': so[3], 'content': so[4]},
             'week': {'conv': wk[0], 'booked': wk[1], 'held': wk[2], 'joins': wk[3], 'content': wk[4], 'tconv': t.get('wconv', 0), 'tbooked': t.get('booked', 0), 'tcontent': t.get('wcontent', 0)},
@@ -754,10 +797,19 @@ def build_extras(ctx):
         if f: docs.append('| %s | %s · %s |' % (label, where_, ('rendered ' + long_date(date_in(os.path.basename(f)))) if date_in(os.path.basename(f)) else 'on file'))
     if ctx['brand']['brief_date']: docs.append('| The Design Package brief | home base → 02 · Brand · issued %s |' % long_date(ctx['brand']['brief_date']))
     if ctx['magnets']['name']: docs.append('| %s, your guide | your Lead Magnet folder · %s |' % (ctx['magnets']['name'], ctx['magnets']['status'] or 'written'))
+    cfgmd = ctx['files'].get('config.md', '')
+    provider = {'google': 'Google Drive', 'microsoft': 'OneDrive'}.get((ctx['config']['provider'] or '').split(' ')[0].lower(), 'your cloud workspace')
+    dbtask = clean(kv(cfgmd, 'Daily Debrief task'), demo).lower()
+    dbtime = clean(kv(cfgmd, 'Debrief time'), demo).split(',')[0] or '6:00 pm'
+    debrief_on = bool(dbtask) and not dbtask.startswith(('declined', 'off', 'no', 'not'))
+    ctx['debrief_on'] = debrief_on; ctx['dbtime'] = dbtime
+    stays = ('Every time any of your systems writes to your Brain — your offer, your guide, your content plans, your pipeline, a capture from the car, the evening debrief — your Brain saves to %s and this board is rebuilt from it. You never update the board by hand.' % provider)
+    stays += (' Your daily debrief runs at %s, so the board also rebuilds every evening from your calendar and inbox, on days you never open Cowork.' % dbtime) if debrief_on else (' Your daily debrief is off. Say “turn on my daily debrief” and this board also rebuilds every evening at %s from your calendar and inbox, on days you never open Cowork.' % dbtime)
+    stays += ' Work you do in Claude Design, like your logo or your guide’s PDF, lands in your %s folders; the next time any system opens your Brain it notices and this board catches up.' % provider
     glance = {'eyebrow': 'YOUR BRAIN · AT A GLANCE', 'title': '%s’s Brain at a glance' % ctx['first'], 'tagline': 'What your Brain knows, where you are, and how to talk to it.',
               'meta': ['Week %d of 6' % week] + (['Day %d of your first quarter' % gd['day']] if gd['day'] else []) + ['%d of 9 sections written · %d of 8 systems built' % (ctx['sections_written'], len(built))],
               'actions': [{'p': 'open my attraction brain', 'n': 'The short brief: what it knows, the week you’re in, what to type next.'}, {'p': 'show me my Brain', 'n': 'Regenerates your Brain Book from what’s on file.'}, {'p': 'just talked to an agent', 'n': 'One line from the car; it lands in the right file.'}, {'p': 'check my attraction brain', 'n': 'The audit: what’s thin, and the one thing to add.'}],
-              'body': '## What your Brain knows\n' + '\n'.join(knows) + '\n\n## Where you are\n' + where + '\n@systems' + ('\n\n## New since last week\n@changed' if len(ctx['changed']) > 1 else '') + (('\n\n## Your streaks\n| %d conversations a day | %d day%s running. Today keeps it alive. |' % (gd['slice_conv'], streak, '' if streak == 1 else 's')) if streak else '') + (('\n\n## Your documents\n' + '\n'.join(docs)) if docs else '')}
+              'body': '## What your Brain knows\n' + '\n'.join(knows) + '\n\n## Where you are\n' + where + '\n@systems' + '\n\n## How this board stays current\n' + stays + ('\n\n## New since last week\n@changed' if len(ctx['changed']) > 1 else '') + (('\n\n## Your streaks\n| %d conversations a day | %d day%s running. Today keeps it alive. |' % (gd['slice_conv'], streak, '' if streak == 1 else 's')) if streak else '') + (('\n\n## Your documents\n' + '\n'.join(docs)) if docs else '')}
     # ── goals and the tracker ──
     vision = []
     twelve_pic = next((r[-1] for r in ctx['exec']['year'][1:] if r and r[0].lower().startswith('q4')), '')
@@ -785,7 +837,18 @@ def build_extras(ctx):
     orgline = ''
     if ctx['org']['rows']: orgline = 'Your organization: ' + ', '.join('%s (joined %s, %s)' % (r['agent'], r['joined'], r['status']) for r in ctx['org']['rows']) + '.'
     year = ['| Quarter | Focus | Joins | Agents at the end |'] + ['| %s | %s | %s | %s |' % (r[0], r[1], r[2], r[3]) for r in ctx['exec']['year'][1:] if len(r) >= 4]
-    goals_body = ('>> “%s”\n' % g['why'] if g['why'] else '') + '@tracker\n' + ('\n## Your vision\n' + '\n'.join(vision) if vision else '') + '\n\n## Your numbers\n' + '\n'.join(nums)
+    plan = []
+    if g['twelve']: plan.append('| Your 12-month goal | %d agents in your organization |' % g['twelve'])
+    if gd['q90']['joins'] or gd['q90']['conv']: plan.append('| Your 90-day target | %s |' % ' · '.join(x for x in [('%d joins' % gd['q90']['joins']) if gd['q90']['joins'] else '', ('%d agents in your organization' % gd['q90']['agents']) if gd['q90']['agents'] else '', ('%d conversations' % gd['q90']['conv']) if gd['q90']['conv'] else '', ('%d calls held' % gd['q90']['held']) if gd['q90']['held'] else ''] if x))
+    if gd['activity']: plan.append('| The activity you control | %s |' % gd['activity'])
+    if ctx['exec']['nonneg']: plan.append('| Your three non-negotiables | %s |' % ' · '.join(x.rstrip('.') for x in ctx['exec']['nonneg']))
+    plan.append('| The next step | %s |' % ctx['next_step'])
+    goals_body = ('>> “%s”\n' % g['why'] if g['why'] else '') + '@tracker\n'
+    if gd['pace']: goals_body += '\n## Where you stand against your plan\n@pace\n'
+    goals_body += '\n## Your plan at a glance\n' + '\n'.join(plan)
+    if gd['weeks']: goals_body += '\n\n## Week by week\n@chart\n'
+    goals_body += '\n## Your pipeline\n@funnel\n'
+    goals_body += ('\n## Your vision\n' + '\n'.join(vision) if vision else '') + '\n\n## Your numbers\n' + '\n'.join(nums)
     if len(stand) > 1: goals_body += '\n\n## Your first 90 days: where you stand\n' + '\n'.join(stand) + '\nRamped on purpose: month one builds the habit, month two compounds, month three converts.' + ((' The score is your Brain’s, from your own rows: %s.' % gd['score']) if gd['score'] else '')
     goals_body += '\n\n## This week, so far\n' + '\n'.join(thisweek)
     if rows: goals_body += '\n\n## Your rows so far\n' + '\n\n'.join(rows)
@@ -795,7 +858,7 @@ def build_extras(ctx):
     if g['intangibles']: goals_body += '\n\n## The intangibles you also track\n' + '\n'.join('• ' + x for x in g['intangibles'])
     goals_body += '\n\n## How the score works\nEvery evening the Daily Debrief counts the day and scores it against your daily slice: Ahead (150% of the slice or more), On pace, or Behind. Never a grade, never a percentage. Every Friday the weekly check-in rolls the days into one row and gives you one thing for next week. The first Monday of each month the audit replaces the assumed ratios with your real ones. At the end of the quarter the plan refreshes from what actually happened.' + ((' Ratios on file: %s.' % ctx['scorecard']['ratios']) if ctx['scorecard']['ratios'] else '')
     goals_body += '\n\n@note: The money scenarios from your plan stay off this board on purpose. They are private-call material, illustrative, and never a promise of what anyone will earn. Ask for your scorecard any time to see them.'
-    goals = {'eyebrow': 'YOUR GOALS · FROM YOUR BUSINESS PLAN', 'title': 'Your goals and your tracker', 'tagline': 'The numbers you set, the activity you control, and where you stand%s.' % ((' on day %d of 90' % gd['day']) if gd['day'] else ''),
+    goals = {'eyebrow': 'YOUR BUSINESS · THE PLAN AND THE TRACKER', 'title': 'Your business plan and tracker', 'tagline': 'Where you stand against the plan you set%s, what has to be true by day 30, 60 and 90, and the activity you control.' % ((' on day %d of 90' % gd['day']) if gd['day'] else ''),
              'meta': [('Targets ' + g['status'].split(' (')[0]) if g['status'] else 'Targets not locked yet', 'Rows written by your Daily Debrief and the Friday check-in'] + (['Every figure illustrative · demo'] if demo else []),
              'actions': [{'p': 'attraction weekly check-in', 'n': 'Friday: rolls the week into one row, scores it, and gives you one thing for next week.'}, {'p': 'am I on pace to my join target', 'n': 'The honest answer, in one line.'}, {'p': 'run my debrief', 'n': 'Counts today and writes tomorrow’s three moves.'}, {'p': 'refresh my attraction plan', 'n': 'End of quarter: the next 90 days from what actually happened.'}],
              'body': goals_body}
@@ -816,7 +879,7 @@ def build_extras(ctx):
             cells.append(str(dailymap[d][idx]) if d in dailymap else ('·' if d >= today else '0'))
         wkrows.append('| %s | %s | %d | %s |' % (label, ' | '.join(cells), [gd['week']['conv'], gd['week']['booked'], 0, 0, gd['week']['content']][idx], tgt))
     tbody += '\n\n## This week so far\n' + '\n'.join(wkrows) + '\n\n@link: goals | Open your goals and your tracker'
-    today_doc = {'eyebrow': 'TODAY · ' + nice_date(today).upper(), 'title': 'Your three moves today' if ctx['moves'] else 'Today', 'tagline': ('From last night’s debrief. Three moves, your week, and who is waiting on a reply.' if db else 'No debrief yet. Run one tonight and tomorrow’s three moves appear here.'),
+    today_doc = {'eyebrow': 'TODAY · ' + nice_date(today).upper(), 'title': 'Your three moves today' if ctx['moves'] else 'Today', 'tagline': (('From last night’s debrief. Three moves, your week, and who is waiting on a reply.' if db else 'No debrief yet. Run one tonight and tomorrow’s three moves appear here.') + ('' if ctx.get('debrief_on') else ' Your daily debrief is off: say “turn on my daily debrief” and this page writes itself every evening.')),
                  'meta': (['Written by your Daily Debrief, %s' % long_date(db['date']), 'Scored %s' % db['score'] + ((': ' + db['lines']['counted']) if db['lines'].get('counted') else '')] if db else ['No debrief on file']) + (['Demo'] if demo else []),
                  'actions': [{'p': 'run my debrief', 'n': 'Any evening, on demand: it counts the day and writes tomorrow’s three moves.'}, {'p': 'turn on my daily debrief', 'n': '6 pm every day as a scheduled task, only with your yes.'}, {'p': 'just talked to an agent', 'n': 'Log a conversation from the car; the stage moves on your word.'}],
                  'body': tbody}
@@ -892,6 +955,9 @@ def main():
     ctx['changed'] = derive_changed(ctx)
     ctx['sections_written'] = sum(1 for n in range(1, 10) if ctx['book'].get(n, {}).get('body')) or sum(1 for _, _, _, _, _, _, f, _ in INNER if f and files.get(f, '').strip() and '[' not in files.get(f, '')[:300])
     ctx['whats_next_body'] = build_whats_next(ctx)
+    _now = [t for i, _, _, t, _ in SYSTEMS if ctx['states'][i] == 'now']
+    _soon = sorted([(w, t) for i, _, w, t, _ in SYSTEMS if ctx['states'][i] == 'soon'])
+    ctx['next_step'] = ('Finish ' + _now[0].lower()) if _now else (('%s, in Week %d' % (_soon[0][1], _soon[0][0])) if _soon else 'Keep the weekly rhythm')
     inner = build_inner(ctx); outer = build_outer(ctx); extra = build_extras(ctx)
     gd = ctx['goals_data']
     now_sys = next((d for d in outer if d['state'] == 'now'), None)
@@ -910,14 +976,14 @@ def main():
         sub = 'No debrief yet. Say “run my debrief” tonight.'
     stale = db and (today - db['date']).days > 1
     if stale: sub = ('From your debrief of %s. ' % nice_date(db['date'])) + sub
-    tiles = {'goals': {'empty': ('Your targets aren\u2019t locked yet. Say \u201cset my attraction goals\u201d and this tile starts counting.' if not gd['q90']['conv'] and not gd['week']['tconv'] else ''), 'bars': [{'label': 'This week · conversations', 'v': gd['week']['conv'], 't': gd['week']['tconv']}, {'label': 'This week · calls booked', 'v': gd['week']['booked'], 't': gd['week']['tbooked']}, {'label': 'Quarter · joins', 'v': gd['sofar']['joins'], 't': gd['q90']['joins']}],
+    tiles = {'goals': {'empty': ('Your targets aren\u2019t locked yet. Say \u201cset my attraction goals\u201d and this tile starts counting.' if not gd['q90']['conv'] and not gd['week']['tconv'] else ''), 'bars': [{'label': 'This week · conversations', 'v': gd['week']['conv'], 't': gd['week']['tconv']}, {'label': 'This week · calls booked', 'v': gd['week']['booked'], 't': gd['week']['tbooked']}, {'label': 'Quarter · joins', 'v': gd['sofar']['joins'], 't': gd['q90']['joins'], 's': next((p['status'] for p in gd['pace'] if p['label'].lower() == 'joins'), '')}],
                        'slice': gd['slice'], 'line': ('%d a day' % gd['slice_conv']) + ((' · day %d of 90' % gd['day']) if gd['day'] else '') + ((' · ' + gd['score']) if gd['score'] else '')},
              'today': {'k': nice_date(today), 'sub': sub}, 'week': tile_week}
     now_s = dt.datetime.now()
     header = {'name': ctx['name'], 'first': ctx['first'], 'title': '%s’s Brain Board' % ctx['first'], 'weekLine': 'Week %d of 6' % ctx['week'] + ((' · day %d of your quarter' % gd['day']) if gd['day'] else ''),
               'segs': ['d'] * (ctx['week'] - 1) + ['n'] + [''] * (6 - ctx['week']), 'syncLine': 'Synced with your Brain · ' + now_s.strftime('%a %b ') + str(now_s.day) + now_s.strftime(', %I:%M %p').replace(' 0', ' '),
               'sections': ctx['sections_written'], 'foot': 'Your Brain Board rebuilds itself from your Brain every time anything in it changes' + ((' · Demo: %s is fictional and every figure is illustrative' % ctx['name']) if demo else '')}
-    data = {'HEADER': header, 'TILES': tiles, 'GOALS': {k: gd[k] for k in ('today', 'twelve', 'longTerm', 'hours', 'day', 'quarter', 'score', 'q90', 'sofar')}, 'OPEN': ctx['open'], 'MOVES': ctx['moves'], 'WEEK': ctx['week_strip'], 'CHANGED': ctx['changed'], 'DAY': today.isoformat(), 'STAMP': today.isoformat(), 'INNER': inner, 'OUTER': outer, 'EXTRA': extra}
+    data = {'HEADER': header, 'TILES': tiles, 'GOALS': {k: gd[k] for k in ('today', 'twelve', 'longTerm', 'hours', 'day', 'quarter', 'score', 'q90', 'sofar', 'pace', 'funnel', 'weeks', 'wconv')}, 'OPEN': ctx['open'], 'MOVES': ctx['moves'], 'WEEK': ctx['week_strip'], 'CHANGED': ctx['changed'], 'DAY': today.isoformat(), 'STAMP': today.isoformat(), 'INNER': inner, 'OUTER': outer, 'EXTRA': extra}
     tpl = read(a.template)
     if not tpl: print('NO-TEMPLATE: %s' % a.template); sys.exit(2)
     payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')

@@ -2,6 +2,28 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.15.4] — 2026-11-03
+
+**The Brain Board: a real business plan and tracker, and the board says how it stays current.** The owner's two
+notes: the goal tracking needed to be a proper business planning and tracking section, and the member must never
+have to update the board by hand. In `plugins/attraction-ai-brain/shared/render_board.py` and
+`shared/board-template.html`:
+- The goals page is now **Your business plan and tracker**: the why; the ring and bars; **Where you stand against
+  your plan** — every 30-60-90 measure scored Ahead / On pace / Behind against the ramp the member locked (the
+  plan's expected figure for today, the actual from their rows; the Brain's own three words, never a grade or a
+  percentage); **Your plan at a glance** (the 12-month goal, the 90-day target, the activity they control, the three
+  non-negotiables, the next step); **Week by week** — a bar chart of conversations a week against the target with
+  the Friday rows and the week in progress, plus the weekly table; **Your pipeline** as a funnel in the locked stage
+  order; then the vision, the numbers, the 30-60-90 table, this week, the rows, the prospects, the four quarters,
+  the non-negotiables, the intangibles, how the score works. The tile is now "Your business · plan · tracker" and
+  its quarter bar carries the pace word.
+- **How this board stays current** on the At-a-glance page, read from `config.md`: every write by any system
+  saves to the member's cloud and rebuilds the board; the daily debrief's state and time (with the one phrase to
+  turn it on when it is off); Claude Design work lands in the folders and the next Brain session catches up. The
+  Today page carries the same nudge when the debrief is off.
+- The weekly activity line is built from the scorecard's targets (no more raw list text). Demo re-rendered.
+  Versions: attraction-ai-brain 0.5.4.
+
 ## [0.15.3] — 2026-11-02
 
 **The Brain Board, built for daily use.** In `plugins/attraction-ai-brain/shared/board-template.html` and
