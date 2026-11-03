@@ -2,6 +2,20 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.16.0] — 2026-11-03
+
+**The launch cut: Plugins 1 and 2 only.** Cohort 1 is onboarded tomorrow; the owner's call is that members must not
+install plugins that are still being fixed and optimized. `main` and the marketplace now carry **attraction-ai-brain
+(0.5.4)** and **maa-claude-support (0.1.10)** only. The other seven plugins, the Design Studio skill set and the
+vendor script are parked, unchanged, on the **`wip/all-plugins`** branch (pushed; nothing is lost) and return to the
+marketplace one by one as the cohort reaches them.
+- `.claude-plugin/marketplace.json` lists the two plugins. `README.md` and `CLAUDE.md` say where the rest live.
+- `plugins/maa-claude-support/shared/stack-map.md` carries the launch note; every parked row reads **coming**, so the
+  desk never tells a member to install a plugin that is not there.
+- `scripts/check-release.sh` check 12 skips the content engines while they are parked.
+- Members install with: Customize → Personal Plugins → Browse Plugins → ＋ → Add marketplace →
+  `teamsherrard/claude-agent-attraction-os` → Install Plugin 1, Install Plugin 2, Sync automatically.
+
 ## [0.15.4] — 2026-11-03
 
 **The Brain Board: a real business plan and tracker, and the board says how it stays current.** The owner's two

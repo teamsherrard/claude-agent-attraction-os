@@ -8,6 +8,10 @@ Install the marketplace in Claude Cowork: **Customize → Personal Plugins → B
 
 ## The plugins (install in this order, one per cohort week)
 
+> **Available in the marketplace today: Plugins 1 and 2.** The rest are built and being fixed and optimized on the
+> `wip/all-plugins` branch; they are released into this marketplace one by one as the cohort reaches them. Install
+> Plugin 1 and Plugin 2, then stop.
+
 | # | Plugin | Week | What it is |
 |---|---|---|---|
 | 1 | `attraction-ai-brain` | 1 | The Agent Attraction Brain: who you are as a leader, who you attract, what you have to give, your numbers, your voice and brand, your rules. Every other system reads it. Includes the Daily Agent Attraction Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator, the Top-50 ledger, on-the-go Capture, and the Brain Board (the Brain as a living map with the goals tracker, re-rendered on every push). |

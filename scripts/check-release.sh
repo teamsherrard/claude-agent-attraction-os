@@ -220,6 +220,7 @@ python3 - <<'PY2' || FAIL=1
 import glob,os,re,sys
 bad=False
 for plug in ("attraction-shortform-system","attraction-youtube-system"):
+    if not os.path.isdir(f"plugins/{plug}"): continue  # parked on the wip/all-plugins branch (launch cut 2026-11-03)
     if not os.path.exists(f"plugins/{plug}/shared/composio-data-engine.md"):
         print(f"  ✗ {plug}: shared/composio-data-engine.md missing (Composio is a required connector)"); bad=True
     hits=[f for f in glob.glob(f"plugins/{plug}/skills/*analytics*/SKILL.md") if "composio" in open(f,encoding="utf-8").read().lower()]

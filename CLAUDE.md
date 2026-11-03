@@ -10,9 +10,9 @@ This is `teamsherrard/claude-agent-attraction-os`, Team Sherrard's PUBLIC Claude
 
 ## Layout
 - `.claude-plugin/marketplace.json` — the registry. Every plugin's version here must equal its `plugins/<name>/.claude-plugin/plugin.json`.
-- `plugins/` — attraction-ai-brain, attraction-ai-admin, attraction-lead-magnet, attraction-shortform-system, attraction-youtube-system, attraction-conversion-sales, attraction-events-workshops, maa-claude-support, and realtor-riverside-editor.
-- `plugins/realtor-riverside-editor` is VENDORED from `teamsherrard/claude-agent-os` by `scripts/vendor-riverside.sh`, which copies from a local clone of that repo and then re-applies this repo's small downstream patches (the Brain-home path and two description trims; read the script header). Fix editor bugs upstream first, then re-vendor; in a cloud session run the script against a fresh clone of claude-agent-os. Direct edits here are only for those documented downstream patches. (README's statement that this repo is independent of claude-agent-os has this one exception.)
-- `design-studio/` — the `aa-*-design` skills (Claude Design only).
+- `plugins/` — **on `main` today: attraction-ai-brain and maa-claude-support only (the launch cut of 2026-11-03).** The other seven plugins (attraction-ai-admin, attraction-lead-magnet, attraction-shortform-system, attraction-youtube-system, attraction-conversion-sales, attraction-events-workshops, realtor-riverside-editor), the `design-studio/` skill set and `scripts/vendor-riverside.sh` live on the `wip/all-plugins` branch while they are fixed and optimized. Work on them THERE (`git checkout wip/all-plugins`); bring a plugin back to `main` only when it is ready for members, with a release.
+- `plugins/realtor-riverside-editor` (on the branch) is VENDORED from `teamsherrard/claude-agent-os` by `scripts/vendor-riverside.sh` (also on the branch), which copies from a local clone of that repo and then re-applies this repo's small downstream patches. Fix editor bugs upstream first, then re-vendor. Direct edits are only for those documented downstream patches.
+- `design-studio/` — the `aa-*-design` skills (Claude Design only); on the `wip/all-plugins` branch until the launch cut lifts.
 - `scripts/check-release.sh` — the release gate. `scripts/build-plugin-zip.sh` — builds zips into `dist/` (gitignored, absent in a fresh clone).
 
 ## Release rules (the gate enforces most of these; the rest are house rules)
