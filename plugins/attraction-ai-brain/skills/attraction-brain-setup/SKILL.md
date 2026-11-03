@@ -240,12 +240,13 @@ Brain in the cloud with a fresh empty one** at the final push. So:
      problems, file names, counts, or version talk; **never** flag the by-design files as missing.
      Any structure tune-up is ONE plain line at the very end. **Never re-interview a built Brain.**
    - **"open my brain board" / "refresh my brain board" / "my brain board"** → never re-interview. Render
-     the Brain Board from the current Brain — `python3 ${CLAUDE_PLUGIN_ROOT}/shared/render_board.py
-     ~/attraction-brain --out "<working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"` — push it to
-     `01 · AI Brain/` through `attraction-brain-sync` (dated filename, newest = current), and hand them the
-     link in one line: *"your Brain Board — the same Brain as a living map: your goals tracker, today's
-     three moves, what's waiting on you, and a page for every part. It rebuilds itself every time anything
-     in your Brain changes."* The sync skill already re-renders it on every push; this is the manual way.
+     the Brain Board from the current Brain — `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_board.py"
+     ~/attraction-brain --today YYYY-MM-DD --out "<working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"`
+     (the member's date) — push it to `01 · AI Brain/` through `attraction-brain-sync` (dated filename,
+     newest = current), and hand them the link with how to open it: *"your Brain Board — the same Brain as
+     a living map: your goals tracker, today's three moves, what's waiting on you, and a page for every
+     part. Download it from that link and open the file; it opens in your browser. It rebuilds itself every
+     time anything in your Brain changes."* The sync skill already re-renders it on every push; this is the manual way.
    - **"Review it" / "show me my Brain" / "regenerate my Brain Book"** → don't re-interview; rebuild
      the **Agent Attraction Brain Book** from the current identity files (per
      `${CLAUDE_PLUGIN_ROOT}/shared/brain-book-spec.md`, the canonical contract — nine sections, at
@@ -587,12 +588,14 @@ Checkpoint: *"5 of 5 — I've got your voice. Building your Book now."* Push. St
      link. Everything the system knows about you, on about a dozen pages."*
    - **Then the Brain Board, right after the Book.** Render it with `shared/render_board.py` (reads the
      same files; one HTML page that opens in any browser: the map of their Brain, the goals tracker, today's
-     three moves, what's waiting on them, and a full page for every part and every weekly system). Name it
-     **"🧠 [Name]'s Brain Board — [YYYY-MM-DD]"** (demo brains: " — DEMO — [date]"), save it to
-     `01 · AI Brain/` beside the Book, and hand them that link too, one line: *"and your Brain Board — the
-     same Brain as a living map. It rebuilds itself every time anything in your Brain changes."* If
-     `python3` is not available, leave it out without comment; the sync skill renders it on the next push
-     from a machine that has it.
+     three moves, what's waiting on them, and a full page for every part and every weekly system; pass
+     `--today` with the member's date). Name it **"🧠 [Name]'s Brain Board — [YYYY-MM-DD]"** (demo brains:
+     " — DEMO — [date]"), save it to `01 · AI Brain/` beside the Book, and hand them that link too, with
+     how to open it, in two lines: *"and your Brain Board — the same Brain as a living map. It's a web
+     page: download it from that link and open the file, and it opens in your browser (your drive's preview
+     only shows the quick view at the top). It rebuilds itself every time anything in your Brain changes."*
+     The script runs in the session's code sandbox (Cowork provides it; nothing to install). If the sandbox
+     is unavailable, leave the board out without comment; the sync skill renders it on the next push.
 5. **Hand them the Project Seatbelt.** Read `${CLAUDE_PLUGIN_ROOT}/shared/project-instructions.md`
    (stamp `aa-v1`) and deliver its paste block exactly as that file instructs (copyable code fence +
    the one-line explanation: *"your project seatbelt — paste it into any project's Project

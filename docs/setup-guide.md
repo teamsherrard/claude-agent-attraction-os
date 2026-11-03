@@ -19,8 +19,8 @@ missing. Nobody starts over.
 
 **Required**
 
-- **A Claude account on a paid plan** — Pro or Max. Which one Mike recommends: `[NOT SET until Mike confirms]`.
-- **The Claude desktop app, with Cowork.** Cowork is where the plugins run. Chat on the web is not enough for setup.
+- **A Claude account on a paid plan** — Pro or Max. The free plan has no Cowork, so nothing here runs on it; Claude Code is not needed. Which one Mike recommends: `[NOT SET until Mike confirms]`.
+- **The Claude desktop app, with Cowork.** Cowork is where the plugins run; your tasks run on Anthropic's servers, so there is nothing to install beyond the app. Chat on the web is not enough for setup.
 - **A Google account** (Drive, Gmail, Google Calendar) **or a Microsoft 365 account** (OneDrive, Outlook mail and
   calendar). Your Brain lives in your own cloud storage, and you pick one world during setup. A free Google account
   is fine.
@@ -50,7 +50,7 @@ your help desk is installed, say `what does the whole stack cost` and it checks 
 All clicks, nothing to type:
 
 1. Open the Claude desktop app and go to **Cowork**.
-2. Click **Customize → Personal Plugins → Browse Plugins → ＋ → Add marketplace**.
+2. Click **Customize → Plugins**, then the **＋** beside **Personal plugins** → **Add marketplace**.
 3. Paste `teamsherrard/claude-agent-attraction-os` and add it. If your welcome email gives you an install link,
    use that one and only that one. `[NOT SET — the official install link in the welcome email]`
 4. Install **Plugin 1 — Agent Attraction Brain**.
@@ -139,7 +139,7 @@ off?" and resumes at the right spot. It never re-interviews a finished Brain.
 - 📕 **Your Agent Attraction Brain Book** — everything the system knows about you, on about a dozen pages, in nine
   short sections: who you are · your story · your brokerage story · your unique approach · your proof · who your story
   speaks to · your numbers · your voice · what's next. You get the direct link.
-- 🧠 **Your Brain Board** — the same Brain as a living map, in one page that opens in any browser: your goals tracker, today's three moves, what's waiting on you, and a full page for every part of your Brain and every weekly system. It rebuilds itself every time anything in your Brain changes; "open my brain board" opens it.
+- 🧠 **Your Brain Board** — the same Brain as a living map, in one page that opens in any browser (download it from the link and open the file; your drive's preview shows only the quick view at the top): your goals tracker, today's three moves, what's waiting on you, and a full page for every part of your Brain and every weekly system. It rebuilds itself every time anything in your Brain changes; "open my brain board" opens it.
 - **Your home base link** — one folder in your Drive or OneDrive: 01 · AI Brain (the Book), 02 · Brand, 03 · Content,
   04 · Agents, 05 · Offer, 06 · Materials. Bookmark it. Rename it anytime. One folder inside 01 · AI Brain holds the
   working files your AI reads — leave that one alone.
@@ -251,7 +251,7 @@ Brains, two help desks — and never overwrite each other.
 
 ## 8. Week by week: what you install, and the phrase that opens it
 
-Each plugin installs the same way: **Customize → Personal Plugins → Browse Plugins**, pick it from the Team
+Each plugin installs the same way: **Customize → Plugins**, pick it from the Team
 Sherrard marketplace, **Install**. Keep **Sync automatically** on. Scheduled agents are offered by the system that
 owns them and created only with your yes; every one is draft-only.
 

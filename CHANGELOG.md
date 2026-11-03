@@ -2,6 +2,35 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.16.1] — 2026-11-03
+
+**The Brain Board on every paid plan, with nothing to install.** The owner's check before onboarding: members on
+Pro — no Claude Code, no Max — must still get the board. Verified against Anthropic's current pages: Cowork is on
+every paid plan and not on the free plan; since October 6 tasks on Pro, Max and Ultra run in Anthropic's cloud,
+where plugins, connectors and scheduled tasks all run; and the renderer is Python only, no package, proven on
+Python 3.9 (older than the sandbox's). What changed so the board holds up away from this machine:
+- `plugins/attraction-ai-brain/shared/board-template.html` + `shared/render_board.py`: the page now carries a
+  **quick view** — plain text on a white page: where they stand, today's three moves, this week, what is waiting on
+  them, and how to open the full board — shown only where the board's scripts cannot run (a cloud-drive preview, a
+  mail viewer, a code viewer). A one-line script flags the document when scripts do run, so the quick view never
+  flashes on the real board.
+- The output is a complete document (`<!doctype html>`), so Safari, Chrome and Edge render it in standards mode —
+  the same mode as the artifact the owner reviewed.
+- The board is rendered on the **member's clock**: `config.md → Timezone` decides "today" and the sync line. A cloud
+  sandbox runs on UTC and would have flipped the day every evening. `--today` (the sync skill now passes it) wins; a
+  demo brain keeps its scorecard date; an unknown zone prints the date without a clock time.
+- `attraction-brain-sync` PUSH step 4 and `attraction-brain-setup`: pass `--today`; find `render_board.py` when
+  `${CLAUDE_PLUGIN_ROOT}` is empty; the honest line when the session's code sandbox is unavailable ("workspace
+  unavailable") — keep the previous board, say it once, never write the board by hand; and the hand-off tells the
+  member how to open it (download the file and open it; the drive's preview shows only the quick view).
+- `plugins/maa-claude-support/shared/error-codes.md`: two rows — the code sandbox that didn't start (files safe; new
+  chat; reopen the app; Windows needs virtualization on; the board rebuilds on the next save) and "my Brain Board is
+  just code / a blank page" (download and open; the quick view is deliberate).
+- Member docs (`README.md`, `START-HERE.md`, `docs/setup-guide.md`, the demo checklist): the install path matches the
+  current app — **Customize → Plugins → ＋ beside Personal plugins → Add marketplace**; the free plan has no Cowork
+  and Claude Code is not needed; tasks run on Anthropic's servers. Demo board re-rendered.
+  Versions: attraction-ai-brain 0.5.5 · maa-claude-support 0.1.11.
+
 ## [0.16.0] — 2026-11-03
 
 **The launch cut: Plugins 1 and 2 only.** Cohort 1 is onboarded tomorrow; the owner's call is that members must not

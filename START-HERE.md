@@ -4,7 +4,7 @@ Welcome to your **Agent Attraction Brain**. Three steps and you're running.
 
 ### 1. Install (one time)
 In Claude Cowork (all UI, nothing to type):
-**Customize → Personal Plugins → Browse Plugins → ＋ → Add marketplace →** paste
+**Customize → Plugins → ＋ (beside Personal plugins) → Add marketplace →** paste
 `teamsherrard/claude-agent-attraction-os` → **Install Plugin 1 (Agent Attraction Brain)** → toggle **Sync automatically**.
 *(Install the Support plugin too; the rest arrive as you reach them in your training.)*
 

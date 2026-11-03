@@ -3,7 +3,7 @@
 The plug-and-play AI systems behind the **Master Agent Attraction** cohort: for real estate agents who attract other agents into a
 cloud-brokerage organization (eXp, REAL, LPT, Epique, any cloud brokerage) or who build a local team or brokerage.
 
-Install the marketplace in Claude Cowork: **Customize → Personal Plugins → Browse Plugins → ＋ → Add marketplace →** paste
+Install the marketplace in Claude Cowork: **Customize → Plugins → ＋ (beside Personal plugins) → Add marketplace →** paste
 `teamsherrard/claude-agent-attraction-os`. Install Plugin 1 first, toggle **Sync automatically**, then say **"Set up my attraction brain."**
 
 ## The plugins (install in this order, one per cohort week)

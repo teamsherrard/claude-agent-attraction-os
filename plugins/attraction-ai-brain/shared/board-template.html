@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{{TITLE}}</title>
+<script>document.documentElement.classList.add('js')</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
@@ -328,8 +329,25 @@ td:first-child{font-weight:600}
 }
 @media (max-width:560px){.tiles{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.pulse,.rng{animation:none}.pulse{opacity:.35}.wrap,#panel{transition:none}}
+/* Quick view: shown only where the board's scripts cannot run (a cloud-drive preview, a mail viewer). Same data, plain text, white page, plus how to open the full board. */
+#static{display:none}
+html:not(.js) body{background:#fff;color:#131C26;font-size:19px;line-height:1.55}
+html:not(.js) body>:not(#static){display:none!important}
+html:not(.js) #static{display:block;max-width:720px;margin:0 auto;padding:28px 0 60px}
+#static h1{font-family:var(--display);font-size:30px;line-height:1.15;margin:0 0 6px;color:#131C26}
+#static .sub{color:#46525F;margin:0 0 22px;font-weight:600}
+#static .how{border:2px solid #147A4E;border-radius:14px;padding:18px 20px;margin:0 0 28px;background:#F0FAF5;color:#131C26}
+#static .how b{color:#0E6A43}
+#static h2{font-family:var(--display);font-size:22px;margin:28px 0 10px;color:#131C26}
+#static p{margin:0 0 10px}
+#static ul{padding-left:22px;margin:0 0 10px}
+#static li{margin:0 0 8px}
+#static .ok{color:#0E6A43;font-weight:700}
+#static .warn{color:#A86C0C;font-weight:700}
+#static .foot{color:#5F6B79;font-size:16px;margin-top:30px}
 </style>
 
+<div id="static"><!--__BOARD_STATIC__--></div>
 <canvas id="bg" aria-hidden="true"></canvas>
 <div class="wrap">
   <header>

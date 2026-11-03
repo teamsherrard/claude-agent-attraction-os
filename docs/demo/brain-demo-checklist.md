@@ -80,7 +80,7 @@ Expect: *5 of 5, I've got your voice. Building your Book now.*
 ### 7. The close (no questions)
 Expect, in this order:
 - The direct link to **📕 Taylor Brooks's Agent Attraction Brain Book — DEMO — [date]** in home base → 01 · AI Brain ("about a dozen pages").
-- The direct link to **🧠 Taylor Brooks's Brain Board — DEMO — [date]**, one line after the Book (needs python3 on the machine; otherwise it appears on the next push).
+- The direct link to **🧠 Taylor Brooks's Brain Board — DEMO — [date]**, one line after the Book (rendered in the session's code sandbox; if that is unavailable it appears on the next push).
 - The Project Seatbelt: one copyable block + one line on where to paste it.
 - The home base link once more.
 - *Two things next. This week, in a new chat, say "my attraction brand direction". Next week, your lead magnet plugin builds your offer, your unique value proposition, then your lead magnet; that's also when your booking link, CRM and tools get set up.*

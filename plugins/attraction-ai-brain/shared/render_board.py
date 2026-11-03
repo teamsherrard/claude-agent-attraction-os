@@ -13,11 +13,14 @@ Usage:
 
   --week   caps the lit systems at cohort week N (a system of a later week renders as "coming");
            default: config.md → Cohort week, else inferred from what is built.
-  --today  the date the board is rendered for; default: the newest daily scorecard row + 1 day,
-           else the real date.
+  --today  the date the board is rendered for (the sync skill passes the member's date); default:
+           today on the member's clock (config.md → Timezone), or for a demo brain the newest daily
+           scorecard row + 1 day.
+The output is one self-contained page: the board (needs scripts) plus a plain quick view that shows
+wherever scripts can't run, such as a cloud-drive preview. Python only, nothing to install.
 Exit 2 when brain.md is missing (never render an empty Brain). Prints the output path on success.
 """
-import re, os, sys, json, argparse, glob
+import re, os, sys, json, argparse, glob, html
 import datetime as dt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -239,6 +242,8 @@ def parse_offer_doc(txt, demo):
 # ───────────────────────── parsers: the Brain files ─────────────────────────
 def parse_config(md):
     c = {'demo': 'Demo brain:** yes' in md or '**Demo brain:** yes' in md, 'week': None, 'blocks': {}, 'provider': kv(md, 'Storage provider')}
+    tzm = re.search(r'\b(UTC|[A-Za-z]+/[A-Za-z0-9_+\-/]+)\b', kv(md, 'Timezone'))
+    c['tz'] = tzm.group(1) if tzm else ''
     w = kv(md, 'Cohort week')
     if w: c['week'] = num(w, None)
     for m in re.finditer(r'^## ([A-Za-z &\-]+?)\s*\(Week (\d)\)[^\n]*\n((?:(?!^## ).*\n?)*)', md, re.M):
@@ -903,6 +908,47 @@ def build_whats_next(ctx):
     lines += ['', '## Any time', '• "just talked to an agent" from the car. "show me my Brain" to refresh your Book. "run my debrief" to close the day.']
     return '\n'.join(lines)
 
+def member_now(tz):
+    """The member's clock: the config.md timezone when the system can resolve it, else this machine's clock (a cloud sandbox usually runs on UTC, so the date can be a day off in the evening — the sync skill passes --today for that)."""
+    if tz:
+        try:
+            from zoneinfo import ZoneInfo
+            return dt.datetime.now(ZoneInfo(tz)), True
+        except Exception:
+            pass
+    return dt.datetime.now(), False
+
+def build_static(data):
+    """The quick view: plain HTML shown only where the board's scripts cannot run (a cloud-drive preview, a mail viewer). Same data, nothing interactive, white page."""
+    E = html.escape
+    H, T, G = data['HEADER'], data['TILES'], data['GOALS']
+    out = ['<h1>%s</h1>' % E(H['title']), '<p class="sub">%s · %s</p>' % (E(H['weekLine']), E(H['syncLine']))]
+    out.append('<div class="how"><b>This is the quick view.</b> The full board — the map of your Brain, your tracker, a page for every part — opens in your web browser. <b>Download this file and open it</b> (the download button at the top of this preview), or say <b>“open my brain board”</b> to Claude.</div>')
+    out.append('<h2>Where you stand</h2>')
+    if T['goals']['empty']:
+        out.append('<p>%s</p>' % E(T['goals']['empty']))
+    else:
+        if G['quarter']: out.append('<p>Your 90 days: %s%s.</p>' % (E(G['quarter']), (' · day %d' % G['day']) if G['day'] else ''))
+        items = []
+        for p in G['pace']:
+            cls = 'warn' if p['status'] == 'behind' else 'ok'
+            items.append('<li>%s: <b>%s</b> of %s by day 90 · <span class="%s">%s</span>%s</li>' % (E(p['label']), p['actual'], p['d90'], cls, E(p['status']), (' (about %s expected by now)' % p['expected']) if p['expected'] else ''))
+        if items: out.append('<ul>%s</ul>' % ''.join(items))
+        if T['goals']['line']: out.append('<p>%s</p>' % E(T['goals']['line']))
+    out.append('<h2>%s</h2>' % ('Your three moves today' if data['MOVES'] else 'Today'))
+    if data['MOVES']: out.append('<ul>%s</ul>' % ''.join('<li>%s</li>' % E(m) for m in data['MOVES']))
+    else: out.append('<p>No debrief yet. Say “run my debrief” tonight and tomorrow’s three moves appear here.</p>')
+    if T['today'].get('sub'): out.append('<p>%s</p>' % E(T['today']['sub']))
+    w = T['week']
+    out.append('<h2>%s</h2><p><b>%s</b> %s%s</p>' % (E(w['k']), E(w['big']), E(w['small']), (' Say “%s”.' % E(w['code'])) if w.get('code') else ''))
+    out.append('<h2>Waiting on you</h2>')
+    if data['OPEN']:
+        out.append('<ul>%s</ul>' % ''.join('<li><b>%s.</b> %s%s%s</li>' % (E(o['short']), E(o['text']), (' (%s)' % E(o['how'])) if o.get('how') else '', (' Say “%s”.' % E(o['phrase'])) if o.get('phrase') else '') for o in data['OPEN']))
+    else:
+        out.append('<p>Nothing is waiting on you.</p>')
+    out.append('<p class="foot">%s</p>' % E(H['foot']))
+    return '\n'.join(out)
+
 def main():
     ap = argparse.ArgumentParser(description='Render the Brain Board from an Agent Attraction Brain folder.')
     ap.add_argument('brain'); ap.add_argument('--out', required=True); ap.add_argument('--week', type=int); ap.add_argument('--today'); ap.add_argument('--template', default=os.path.join(HERE, 'board-template.html'))
@@ -917,7 +963,8 @@ def main():
     goals = parse_goals(files['identity/goals.md'], demo)
     sc = parse_scorecard(files['memory/scorecard.md'], demo)
     daily_dates = [date_in(r[0]) for r in sc['daily'][1:] if date_in(r[0])]
-    today = date_in(a.today) if a.today else (max(daily_dates) + dt.timedelta(days=1) if daily_dates else dt.date.today())
+    now_s, tz_ok = member_now(config.get('tz', ''))
+    today = (date_in(a.today) if a.today else None) or ((max(daily_dates) + dt.timedelta(days=1)) if (demo and daily_dates) else now_s.date())
     ctx = {'brain': brain, 'files': files, 'config': config, 'demo': demo, 'today': today, 'brain_md': brain_md, 'goals': goals, 'scorecard': sc}
     ctx['name'] = clean(kv(brain_md, 'Name'), demo).split(' · ')[0] or 'You'
     ctx['first'] = ctx['name'].split(' ')[0]
@@ -979,17 +1026,18 @@ def main():
     tiles = {'goals': {'empty': ('Your targets aren\u2019t locked yet. Say \u201cset my attraction goals\u201d and this tile starts counting.' if not gd['q90']['conv'] and not gd['week']['tconv'] else ''), 'bars': [{'label': 'This week · conversations', 'v': gd['week']['conv'], 't': gd['week']['tconv']}, {'label': 'This week · calls booked', 'v': gd['week']['booked'], 't': gd['week']['tbooked']}, {'label': 'Quarter · joins', 'v': gd['sofar']['joins'], 't': gd['q90']['joins'], 's': next((p['status'] for p in gd['pace'] if p['label'].lower() == 'joins'), '')}],
                        'slice': gd['slice'], 'line': ('%d a day' % gd['slice_conv']) + ((' · day %d of 90' % gd['day']) if gd['day'] else '') + ((' · ' + gd['score']) if gd['score'] else '')},
              'today': {'k': nice_date(today), 'sub': sub}, 'week': tile_week}
-    now_s = dt.datetime.now()
+    sync_line = 'Synced with your Brain · ' + (nice_date(today) if (a.today or not tz_ok) else nice_date(now_s.date()) + now_s.strftime(', %I:%M %p').replace(', 0', ', '))
     header = {'name': ctx['name'], 'first': ctx['first'], 'title': '%s’s Brain Board' % ctx['first'], 'weekLine': 'Week %d of 6' % ctx['week'] + ((' · day %d of your quarter' % gd['day']) if gd['day'] else ''),
-              'segs': ['d'] * (ctx['week'] - 1) + ['n'] + [''] * (6 - ctx['week']), 'syncLine': 'Synced with your Brain · ' + now_s.strftime('%a %b ') + str(now_s.day) + now_s.strftime(', %I:%M %p').replace(' 0', ' '),
+              'segs': ['d'] * (ctx['week'] - 1) + ['n'] + [''] * (6 - ctx['week']), 'syncLine': sync_line,
               'sections': ctx['sections_written'], 'foot': 'Your Brain Board rebuilds itself from your Brain every time anything in it changes' + ((' · Demo: %s is fictional and every figure is illustrative' % ctx['name']) if demo else '')}
     data = {'HEADER': header, 'TILES': tiles, 'GOALS': {k: gd[k] for k in ('today', 'twelve', 'longTerm', 'hours', 'day', 'quarter', 'score', 'q90', 'sofar', 'pace', 'funnel', 'weeks', 'wconv')}, 'OPEN': ctx['open'], 'MOVES': ctx['moves'], 'WEEK': ctx['week_strip'], 'CHANGED': ctx['changed'], 'DAY': today.isoformat(), 'STAMP': today.isoformat(), 'INNER': inner, 'OUTER': outer, 'EXTRA': extra}
     tpl = read(a.template)
     if not tpl: print('NO-TEMPLATE: %s' % a.template); sys.exit(2)
     payload = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
-    html = tpl.replace('/*__BOARD_DATA__*/null', payload).replace('{{TITLE}}', header['title'].replace('<', ''))
+    page = tpl.replace('/*__BOARD_DATA__*/null', payload).replace('{{TITLE}}', header['title'].replace('<', '')).replace('<!--__BOARD_STATIC__-->', build_static(data))
+    page = '<!doctype html>\n<html lang="en">\n' + page + '\n</html>\n'
     os.makedirs(os.path.dirname(os.path.abspath(a.out)) or '.', exist_ok=True)
-    with open(a.out, 'w', encoding='utf-8') as f: f.write(html)
+    with open(a.out, 'w', encoding='utf-8') as f: f.write(page)
     print(a.out)
 
 if __name__ == '__main__':

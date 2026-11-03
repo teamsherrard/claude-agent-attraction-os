@@ -131,14 +131,20 @@ Members are encouraged to rename the workspace after their organization. Locate 
    content to `03 · Content/…`, prospect and organization documents to `04 · Agents/…`, offer and
    onboarding documents to `05 · Offer/`. Tell the member where it landed, with the link.
 4. **The Brain Board rides on every push.** After the changed files are up, re-render the member's Brain
-   Board from the local Brain — `python3 ${CLAUDE_PLUGIN_ROOT}/shared/render_board.py ~/attraction-brain
-   --out "<the session's working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"` — and push that one
-   file to `01 · AI Brain/` exactly like the Book (dated filename, newest = current, a superseded copy is
-   housekeeping). It is a READ of the Brain (the map, the goals tracker, today's three moves, the open
-   items, a page for every part): nothing in it is edited by hand, and it is never pushed over a real
-   Brain file. Say it once per session, in one plain line (*"your Brain Board is updated"*), never per
-   push. If `python3` is missing, keep the previous board, say so once, and move on — a board that is
-   a day old is not a lost write. Demo brains render with `--week` and `--today` as the demo asks.
+   Board from the local Brain — `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_board.py" ~/attraction-brain
+   --today YYYY-MM-DD --out "<the session's working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"`
+   (`--today` is the member's date, the same one you write into Last synced; if `${CLAUDE_PLUGIN_ROOT}` is
+   empty, the script is `shared/render_board.py` inside the installed attraction-ai-brain plugin folder —
+   find it, never retype it) — and push that one file to `01 · AI Brain/` exactly like the Book (dated
+   filename, newest = current, a superseded copy is housekeeping). It is a READ of the Brain (the map, the
+   goals tracker, today's three moves, the open items, a page for every part): nothing in it is edited by
+   hand, and it is never pushed over a real Brain file. Say it once per session, in one plain line
+   (*"your Brain Board is updated"*), never per push. The script runs in the session's code sandbox — Cowork
+   provides one on every paid plan, nothing to install, and the script needs nothing beyond Python itself.
+   If the sandbox is unavailable ("workspace unavailable", a command that never returns), keep the previous
+   board, say so once (*"your Brain Board couldn't rebuild this time — it will on the next save"*), and move
+   on — a board that is a day old is not a lost write; never write the board by hand. Demo brains render
+   with `--week` and `--today` as the demo asks.
 5. Update **Last synced** in `config.md` (and push config too when it changed).
 6. Confirm quietly: *"Saved to your Drive."* / *"Saved to your OneDrive."*
 
