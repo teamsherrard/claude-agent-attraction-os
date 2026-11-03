@@ -35,6 +35,7 @@ def clean(s, demo):
     s = (s or '').replace('\\"', '"').replace('\\#', '#').replace('\\-', '-').replace('\\_', '_')
     if demo:
         s = DEMO_TAG.sub('', s)
+        s = re.sub(r'\s*\[[^\]]*\bdemo\b[^\]]*\]', '', s, flags=re.I)
     s = re.sub(r'`([^`]*)`', r'\1', s)
     s = re.sub(r'\s*\*\(([^)]*)\)\*', r' (\1)', s)        # *(note)* → (note)
     s = re.sub(r'\[([^\]]+)\]\((?:https?:)?[^)]*\)', r'\1', s)  # [text](url) → text
@@ -69,7 +70,7 @@ def md_to_book(text, demo, drop_sections=(), keep_sections=None):
             cur = title
             keep = (keep_sections is None or any(title.lower().startswith(k.lower()) for k in keep_sections)) and not any(title.lower().startswith(d.lower()) for d in drop_sections)
             if keep:
-                out.append(''); out.append('## ' + title); prev_cols = None
+                out.append(''); out.append(('## ' if len(m.group(1)) == 2 else '### ') + title); prev_cols = None
             continue
         if not keep:
             continue
@@ -83,11 +84,18 @@ def md_to_book(text, demo, drop_sections=(), keep_sections=None):
                 out.append('')
             prev_cols = len(cells)
             out.append('| ' + ' | '.join(cells) + ' |'); continue
-        m = re.match(r'^[-*]\s+\*\*(.+?):\*\*\s*(.*)$', s) or re.match(r'^\*\*(.+?):\*\*\s*(.+)$', s)
-        if m and m.group(2).strip():
+        m = re.match(r'^[-*]\s+\*\*(.+?):\*\*\s*(.*)$', s) or re.match(r'^\*\*(.+?):\*\*\s*(.*)$', s)
+        if m:
+            label, val = clean(m.group(1), demo), clean(m.group(2), demo)
+            if not val:
+                out.append(''); out.append('### ' + label); prev_cols = None; continue
+            if len(label) > 48:
+                if prev_cols is not None: out.append('')
+                prev_cols = None
+                out.append('**' + label + ':** ' + val); continue
             if prev_cols not in (None, 2): out.append('')
             prev_cols = 2
-            out.append('| ' + clean(m.group(1), demo) + ' | ' + clean(m.group(2), demo) + ' |'); continue
+            out.append('| ' + label + ' | ' + val + ' |'); continue
         prev_cols = None
         m = re.match(r'^[-*]\s+(.*)$', s)
         if m:
@@ -219,7 +227,7 @@ def parse_offer_doc(txt, demo):
         if s.startswith('|'):
             body.append('| ' + ' | '.join(clean(c, demo) for c in s.strip('|').split('|')) + ' |'); continue
         m2 = re.match(r'^─+\s*(.+?)\s*─+$', s)
-        if m2: body.append(''); body.append('## ' + clean(m2.group(1), demo)); continue
+        if m2: body.append(''); body.append('### ' + clean(m2.group(1), demo)); continue
         body.append(clean(s, demo) if s else '')
     doc['body'] = re.sub(r'\n{3,}', '\n\n', '\n'.join(body)).strip('\n')
     return doc
@@ -478,7 +486,7 @@ def build_inner(ctx):
             body = '@note: Nothing is written here yet. Your Brain fills this page in Week 1.'
         tag = sec.get('tag', '')
         meta = ['Section %d of 9 in your Brain Book' % n, source] + (['Demo'] if demo else [])
-        pages.append({'id': pid, 'label': label, 'title': sec.get('title', title).title() if sec.get('title') and sec['title'].isupper() else title, 'tagline': tag, 'meta': meta, 'feeds': feeds, 'actions': [{'p': p, 'n': q} for p, q in actions], 'body': body})
+        pages.append({'id': pid, 'label': label, 'title': title, 'tagline': tag, 'meta': meta, 'feeds': feeds, 'actions': [{'p': p, 'n': q} for p, q in actions], 'body': body})
     return pages
 
 def build_outer(ctx):
@@ -511,7 +519,7 @@ def build_outer(ctx):
                 tag = 'Your Partner Offer: the program an agent partners with you for, and your own pages on how to build it, where to host it and how to talk about it.'
                 line = 'Named, defined and written.' + (' Lives inside %s.' % offer['community'] if offer['community'] else '')
                 if doc and doc['body']:
-                    body = '@toc\n' + ('>> ' + doc['oneliner'] + '\n\n' if doc['oneliner'] else '') + doc['body']
+                    body = ('>> ' + doc['oneliner'] + '\n\n' if doc['oneliner'] else '') + '@toc\n' + doc['body']
                 else:
                     body = md_to_book(ctx['files'].get('identity/offer.md', ''), demo)
             else:

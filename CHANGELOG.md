@@ -2,6 +2,18 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.15.2] — 2026-11-02
+
+**The Brain Board, tidier pages.** The owner's note: the Partner Offer page opened on a wall of identical pills.
+In `plugins/attraction-ai-brain/shared/board-template.html` and `shared/render_board.py`: the contents of a long
+page is now a numbered two-column "Contents" box, not pills; the Partner Offer's sub-bands and the Brain files'
+`###` headings render as sub-headings instead of top-level entries (16 entries, not 23); the promise quote comes
+before the contents; the "reads from your Brain" chips are lighter and sit in their own row; the section pages
+keep their sentence-case titles (the title-casing bug turned "What's next" into "What'S Next"); labels longer
+than 48 characters render as a bold lead instead of a cramped key column; a label with no value becomes a
+sub-heading; bracketed demo tags are stripped; the "Everything on file" block folds away by default and opens
+on a click; the two bottom map labels no longer touch. Demo re-rendered. Versions: attraction-ai-brain 0.5.2.
+
 ## [0.15.1] — 2026-11-02
 
 **The Brain Board, easier to see.** The owner's rule: most members are older agents, so the board reads at a

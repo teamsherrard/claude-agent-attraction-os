@@ -128,7 +128,7 @@ body.open #panel{transform:none;visibility:visible;transition:transform .32s eas
 #panel .bar .bt{background:rgba(12,24,36,.09)}
 #panel .sw .chipc{border-color:rgba(12,24,36,.15)}
 #panel .waiting{background:rgba(242,184,75,.10);border-color:rgba(168,108,12,.45)}
-#panel .copy:hover,#panel .toc button:hover{border-color:rgba(12,24,36,.35)}
+#panel .copy:hover{border-color:rgba(12,24,36,.35)}
 #panel .moves .tick{border-color:rgba(12,24,36,.3)}
 #panel .sd{border-color:rgba(12,24,36,.2)}
 #panel .wd.today{background:rgba(242,184,75,.10)}
@@ -146,6 +146,13 @@ body.open #panel{transform:none;visibility:visible;transition:transform .32s eas
 .doc h2{font-family:var(--display);font-weight:800;font-size:32px;line-height:1.12;letter-spacing:-.015em;margin:10px 0 8px;text-wrap:balance;outline:none}
 .doc .tagline{font-size:18.5px;color:var(--muted);margin:0 0 14px;line-height:1.45;text-wrap:pretty}
 .doc .meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:12.5px;color:var(--dim);letter-spacing:.03em;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.doc details.raw{margin:26px 0 10px;border:1px solid var(--line);border-radius:12px;padding:0 18px}
+.doc details.raw summary{cursor:pointer;list-style:none;font-family:var(--mono);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);padding:14px 0}
+.doc details.raw summary::-webkit-details-marker{display:none}
+.doc details.raw summary::before{content:'\25B8';display:inline-block;width:16px;color:var(--muted)}
+.doc details.raw[open] summary::before{content:'\25BE'}
+.doc details.raw[open]{padding-bottom:12px}
+.doc h4{font-family:var(--display);font-weight:700;font-size:16.5px;letter-spacing:-.01em;margin:22px 0 8px;text-wrap:balance}
 .doc h3{font-family:var(--mono);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:12px;margin:30px 0 12px;font-weight:500}
 .doc h3::after{content:'';flex:1;height:1px;background:var(--line)}
 #panel[data-state="now"] .doc h3{color:var(--amber)}
@@ -179,10 +186,15 @@ td:first-child{font-weight:600}
 .sw .chipc{width:34px;height:34px;border-radius:50%;flex:none;border:1px solid rgba(255,255,255,.15)}
 .sw .sl{font-size:15.5px;font-weight:600}
 .sw .sn{font-family:var(--mono);font-size:12px;color:var(--dim)}
-.toc{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 18px}
-.toc button{font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
-.toc button:hover{color:var(--fg);border-color:rgba(255,255,255,.3)}
-.links{display:flex;flex-direction:column;gap:8px;margin:14px 0 4px}
+.toc{margin:8px 0 24px;padding:14px 18px 10px;border:1px solid var(--line);border-radius:12px;background:rgba(12,24,36,.025);columns:2;column-gap:28px;counter-reset:toc}
+.toc::before{content:'Contents';display:block;column-span:all;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.toc button{display:block;width:100%;text-align:left;font-family:var(--body);font-size:15px;font-weight:500;line-height:1.35;padding:5px 0;border:0;border-radius:0;background:transparent;color:var(--fg);cursor:pointer;break-inside:avoid}
+.toc button::before{content:counter(toc) '. ';counter-increment:toc;color:var(--accent);font-family:var(--mono);font-size:12.5px}
+.toc button:hover{color:var(--accent2);text-decoration:underline}
+@media (max-width:560px){.toc{columns:1}}
+.links{display:flex;flex-direction:column;gap:8px;margin:16px 0 10px}
+.links .doclink{background:transparent;font-size:12.5px;padding:5px 10px;color:var(--muted)}
+.links .doclink:hover{color:var(--accent2)}
 .links .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .links .k{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-right:4px}
 .doclink{font-family:var(--mono);font-size:13px;letter-spacing:.02em;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg);cursor:pointer}
@@ -413,6 +425,7 @@ function render(text,id){
   while(i<lines.length){
     const l=lines[i].trim();
     if(!l){flush();i++;continue;}
+    if(l.startsWith('### ')){flush();out.push('<h4>'+inl(l.slice(4).trim())+'</h4>');i++;continue;}
     if(l.startsWith('## ')){flush();const t=l.slice(3).trim();out.push('<h3 id="h-'+id+'-'+slug(t)+'">'+inl(t)+'</h3>');i++;continue;}
     if(isT(l)){flush();const rows=[];while(i<lines.length&&isT(lines[i].trim())){const r=lines[i].trim();if(!/^\|\s*-+/.test(r))rows.push(r.slice(1,-1).split('|').map(c=>c.trim()));i++;}out.push(table(rows));continue;}
     if(l.startsWith('>> ')){flush();out.push('<blockquote>'+inl(l.slice(3))+'</blockquote>');i++;continue;}
@@ -476,6 +489,7 @@ function openDoc(id,from,opts){
   if(d.reads&&d.reads.length)links+=chipRow('Reads from your Brain',d.reads);
   pLinks.innerHTML=links;pLinks.hidden=!links;
   pBody.innerHTML=render(d.body,id);
+  (function fold(){const h=[...pBody.querySelectorAll('h3')].find(x=>x.textContent.trim().toLowerCase()==='everything on file');if(!h)return;const det=document.createElement('details');det.className='raw';const sum=document.createElement('summary');sum.textContent='Everything on file \u2014 the raw page your Brain keeps';det.appendChild(sum);let n=h.nextSibling;while(n){const nx=n.nextSibling;det.appendChild(n);n=nx;}h.replaceWith(det);})();
   pActions.innerHTML=(d.actions&&d.actions.length)?'<h3>Say this in Cowork</h3><div class="dos">'+d.actions.map(a=>'<div class="do"><div class="dc"><code>'+esc(a.p)+'</code><button type="button" class="copy" data-copy="'+esc(a.p)+'">copy</button></div><div class="dn">'+inl(a.n)+'</div></div>').join('')+'</div>':'';
   pFoot.textContent=d.ring==='inner'?'From your Agent Attraction Brain Book · this page regenerates whenever your Brain changes · demo: every figure is illustrative':'From your Agent Attraction Brain · this page regenerates whenever your Brain changes · demo: every figure is illustrative';
   wire(panel);
@@ -572,7 +586,8 @@ INNER.forEach((d,i)=>{
   signal(CX,CY,x,y,i*0.4);
   let lx,ly,anchor;
   if(Math.abs(c)>0.9){[lx,ly]=pos(R1+30,deg);anchor=c>0?'start':'end';}
-  else{lx=x;ly=y+(s<0?-28:32);anchor='middle';}
+  else if(Math.abs(c)<0.45&&Math.abs(c)>0.05){lx=x+(c>0?12:-12);ly=y+(s<0?-30:34);anchor=c>0?'start':'end';}
+  else{lx=x;ly=y+(s<0?-30:34);anchor='middle';}
   node(d,x,y,'inner',lx,ly,anchor);d._deg=deg;
 });
 OUTER.forEach((d,j)=>{
