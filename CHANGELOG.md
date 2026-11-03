@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.15.1] — 2026-11-02
+
+**The Brain Board, easier to see.** The owner's rule: most members are older agents, so the board reads at a
+glance. In `plugins/attraction-ai-brain/shared/board-template.html`: body text 17px at medium weight (Manrope 500),
+map labels 18px, every tile, chip, legend and document size up one to two steps, bigger checkboxes and day
+markers, brighter secondary text on the dark board and darker on the white pages; the "coming" systems are no
+longer faint grey hollows but mint-ringed discs with light labels, and their dashed spokes and ring are brighter.
+Demo re-rendered: `docs/demo/🧠 Taylor Brooks's Brain Board — DEMO — 2026-10-08.html`. Versions:
+attraction-ai-brain 0.5.1.
+
 ## [0.15.0] — 2026-11-02
 
 **The Brain Board — the member's Brain as a living map, always in sync.** The user's ruling: the board has to be
