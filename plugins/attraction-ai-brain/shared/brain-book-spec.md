@@ -205,8 +205,10 @@ demo Brain, a bridged Brain or a member who ran ahead can hold a built offer whi
    rules (in a demo build, the one demo line directly under each band); sub-bands (`──── Label ────`) inside a
    section only where the contract names them; `•` bullets; `Label:` lead-ins (the signature lines); `>> `
    lines for each section's one key line; pipe-row tables where the contract mandates them; generous blank-line
-   spacing. No Markdown `#`/`**`/backticks in the body. **Write it to the input file section by section — one
-   append per SECTION band, never one emission** (a cut-off emission renders as a clean two-page Book with no
+   spacing. No Markdown `#`/`**`/backticks in the body. **Write it to the input file — `~/attraction-brain/exports/brain-book-YYYY-MM-DD.txt` (a demo build:
+   `brain-book-DEMO-YYYY-MM-DD.txt`; the Brain Board re-reads this file for the member's pages and the sync skill
+   carries `exports/*.txt` to the cloud, so it is never a `/tmp` path) — section by section — one append per
+   SECTION band, never one emission** (a cut-off emission renders as a clean two-page Book with no
    error). **Structural pre-check — run on the input file before step 5, every build:** (1) the `[[TOC]] …
    [[/TOC]]` block holds exactly nine `SECTION n — TITLE :: summary` rows, numbered 1–9 in order, each summary
    at most twelve words, and no PART rows; (2) the body holds exactly nine `SECTION` bands numbered 1–9 with no

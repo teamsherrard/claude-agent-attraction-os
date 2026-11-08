@@ -130,8 +130,11 @@ def md_section(text, heading_prefix):
     return '\n'.join(out).strip()
 
 def kv(text, key):
-    """The value after **key:** on any line (up to the next ' · **' pair or the line end)."""
-    m = re.search(r'\*\*' + re.escape(key) + r':?\*\*:?\s*(.+)', text)
+    """The value after **key:** on any line, or after a plain `key:` that opens a line (the templates write
+    `Status: …`, `Join-gated package allowed: …`, `Host: …` unbolded) — up to the next ' · **' pair or the line end."""
+    bold = re.search(r'\*\*' + re.escape(key) + r':?\*\*:?\s*(.+)', text)
+    plain = re.search(r'^[ \t]*(?:[-*][ \t]+)?' + re.escape(key) + r':[ \t]*(\S.*)$', text, re.M)
+    m = min((x for x in (bold, plain) if x), key=lambda x: x.start(), default=None)  # the earliest line wins: a file's header Status beats a later section's
     if not m: return ''
     v = m.group(1)
     v = re.split(r'\s+·\s+\*\*', v)[0]

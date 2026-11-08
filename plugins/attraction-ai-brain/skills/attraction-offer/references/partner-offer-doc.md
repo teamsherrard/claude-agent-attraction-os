@@ -44,10 +44,13 @@ it); proof only from `identity/proof.md`; the cadence from `identity/operations.
 ## The render command
 
 ```
-python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/partner-offer.txt \
+python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/partner-offer-YYYY-MM-DD.txt \
   "Partner Offer · [Member] · [YYYY-MM-DD].docx" \
   --title "[Program name]" --subtitle "[the UVP one-liner]" --eyebrow "Partner Offer" [--accent HEX]
 ```
+- The input text lives at `~/attraction-brain/exports/partner-offer-YYYY-MM-DD.txt` (demo: `partner-offer-DEMO-…`), never
+  in `/tmp`: the Brain Board's offer page re-reads it on every rebuild, and the sync skill carries `exports/*.txt` to
+  `01 · AI Brain/_engine/exports/`.
 - `--title` is the PROGRAM NAME (the cover's headline); `--subtitle` is the UVP one-liner (the cover's second
   line and the footer's member line); `--eyebrow "Partner Offer"` (demo: `"Partner Offer · Demo"`).
 - `--accent HEX`: the member's primary brand colour when `identity/brand-visual.md` records one (the Final

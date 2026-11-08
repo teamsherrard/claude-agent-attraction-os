@@ -137,7 +137,7 @@ structure (plan §4):
 │   └── publishing.md  profiles.md  channel.md  sales-system.md    (scaffolded empty — Weeks 2–5 fill them)
 ├── memory/                           (every ledger starts empty and fills as they work)
 ├── config.md                         # provider, workspace ID/link, timezone, Schema: aa-1.0, Setup progress
-└── exports/                          # local staging for deliverables (cloud home per drive-map.md)
+└── exports/                          # the renderer inputs — the Book text, the Partner Offer text, the Scorecard text — synced to _engine/exports/ so the Brain Board re-reads them (the rendered .docx go to their drive-map folders)
 ```
 
 **The first-run completeness set — the TWELVE** (what resume and `attraction-brain-health` judge on):

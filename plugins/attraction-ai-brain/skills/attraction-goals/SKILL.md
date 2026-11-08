@@ -164,7 +164,7 @@ Assemble the structured text per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md
 earlier): title, meta line, CAPS bands, pipe-row tables for the targets, the 30-60-90, the weekly
 activity, and a one-page "how to use this weekly" band. No money table unless the calculator ran and the
 member asked for it in the document (then with the stamp line under it). Then:
-`python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/scorecard.txt "🎯 [Name]'s 90-Day Attraction Scorecard — [YYYY-MM-DD].docx" --title "90-Day Attraction Scorecard" --subtitle "[Name] · [Market]" --eyebrow "Agent Attraction Brain"`
+`python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/scorecard-YYYY-MM-DD.txt "🎯 [Name]'s 90-Day Attraction Scorecard — [YYYY-MM-DD].docx" --title "90-Day Attraction Scorecard" --subtitle "[Name] · [Market]" --eyebrow "Agent Attraction Brain"`
 Read the `.docx` text back (no `<w:` markup, every table present), upload it to the workspace's
 `01 · AI Brain/` per `${CLAUDE_PLUGIN_ROOT}/shared/drive-map.md`, and hand them the direct link.
 Dated filename; the newest is current. **If the renderer prints `RENDERER-UNAVAILABLE`, do exactly

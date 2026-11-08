@@ -34,7 +34,7 @@ only the *default label*. Locate it robustly:
 │   ├── 📕 [Name]'s Agent Attraction Brain Book — YYYY-MM-DD   ← the polished master doc (the member opens THIS)
 │   ├── 🧠 [Name]'s Brain Board — YYYY-MM-DD.html          ← the Brain as a living map; re-rendered on every push
 │   ├── 🎯 [Name]'s 90-Day Attraction Scorecard — YYYY-MM-DD
-│   └── _engine/                 ← raw brain files, the member never opens (identity/ memory/ brain.md config.md · snapshots/)
+│   └── _engine/                 ← raw brain files, the member never opens (identity/ memory/ brain.md config.md · exports/ — the Book and offer texts the Brain Board re-reads · snapshots/)
 ├── 02 · Brand/                  ← logo, headshots, the style sheet and brand kit from the Design Package
 ├── 03 · Content/                ← what they create and post
 │   ├── Long-Form/                (one folder per video: script, SEO, thumbnails → the video's folder)               (YouTube videos, interviews, model breakdowns)

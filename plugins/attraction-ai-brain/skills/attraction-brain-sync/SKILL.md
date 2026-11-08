@@ -85,6 +85,8 @@ Members are encouraged to rename the workspace after their organization. Locate 
      sales-funnel · magnets · list-growth · events · support-log · claude-updates), the `intel-reports/` subfolder, and any
      subfolder or file a plugin adds later
    - `editor/**` — the Riverside editor's plugin state (jobs, boards, checkpoint logs), text only
+   - `exports/*.txt` — the renderer inputs the Brain Board re-reads on every rebuild (the Book text, the Partner
+     Offer text, the Scorecard text); text only, never a rendered `.docx`
    → `~/attraction-brain/`, preserving structure.
    **The allowlist is exhaustive — everything else is NEVER pulled:** no `02 · Brand/`, `03 ·
    Content/`, `04 · Agents/`, `05 · Offer/`, `06 · Materials/`, no rendered `.docx` deliverables,
@@ -106,7 +108,9 @@ Members are encouraged to rename the workspace after their organization. Locate 
 > in every Agent Attraction OS plugin that writes the Brain pushes through this skill.
 1. **Push only what changed** this session (compare against what was pulled). The connector can't
    update in place, so every push **creates a new copy** — changed-only keeps the copies from piling
-   up. Engine `.md` files upload as **plain files with auto-conversion disabled**.
+   up. Engine `.md` files upload as **plain files with auto-conversion disabled**. The `exports/*.txt` renderer
+   inputs upload the same way, to `_engine/exports/` — they are what the Brain Board rebuilds the member's pages
+   and the offer page from in a later session.
    **Normalize before comparing (live-verified on the realtor system):** the connector returns `.md`
    text **markdown-escaped** (`\#`, `\-`, `\_`) — strip that escaping before diffing pulled-vs-local,
    or every file looks changed and every session pushes a phantom duplicate. Compare *meaning*, not

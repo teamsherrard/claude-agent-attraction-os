@@ -2,6 +2,25 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.17.1] — 2026-11-08
+
+**The Brain Board reads a real member's offer.** The owner's check: when an agent builds their offer and their
+lead magnet, the board must show it. The demo passed because its files bold every key; the real templates write
+`Status: …`, `Join-gated package allowed: …`, `Host: …`, `Community name: …`, `Link: …` and compliance's first line
+unbolded, which the renderer could not read — a member's finished offer would have rendered as "coming". Fixed
+and proven on a template-shaped Brain (`plugins/attraction-ai-brain/shared/render_board.py`, Brain 0.5.7): a key
+is read bold or plain, and the earliest line wins, so a file's header `Status:` beats a later section's.
+- **The board keeps its pages between sessions.** The Book text and the Partner Offer text are the renderer's
+  inputs for the member's pages and the offer page; they lived in `/tmp` and never reached the cloud, so every
+  rebuild after the first session fell back to the raw files. Now `plugins/attraction-ai-brain/shared/brain-book-spec.md`,
+  `plugins/attraction-ai-brain/skills/attraction-offer/references/partner-offer-doc.md` and
+  `plugins/attraction-ai-brain/skills/attraction-goals/SKILL.md` write them to `~/attraction-brain/exports/`, and
+  `plugins/attraction-ai-brain/skills/attraction-brain-sync/SKILL.md` carries `exports/*.txt` to
+  `01 · AI Brain/_engine/exports/` on every push and pulls them back (`plugins/attraction-ai-brain/shared/drive-map.md`
+  and the setup tree in `plugins/attraction-ai-brain/skills/attraction-brain-setup/SKILL.md` say so).
+- Demo board re-rendered after the demo's keyword became GUIDE everywhere.
+  Versions: attraction-ai-brain 0.5.7.
+
 ## [0.17.0] — 2026-11-08
 
 **Plugin 3 — the Lead Magnet — returns to the marketplace, audited against the Brain it reads.** Members built
