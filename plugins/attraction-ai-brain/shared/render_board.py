@@ -376,7 +376,7 @@ def parse_magnets(md, demo):
         mm = re.match(r'\*\*(.+?)\*\*', line)
         m['name'] = clean(mm.group(1), demo) if mm else ''
         for key in ('keyword', 'funnel URL', 'download link', 'for', 'as of'):
-            r = re.search(re.escape(key) + r':\s*([^·\n]+)', line)
+            r = re.search(re.escape(key) + r':?\s+([^·\n]+)', line)  # the locked shape writes "as of 2026-..." without a colon
             if r: m[{'funnel URL': 'funnel', 'download link': 'download', 'as of': 'asof'}.get(key, key)] = clean(r.group(1), demo)
     for r in table_under(md, 'Magnets')[1:]:
         if len(r) >= 5 and r[1].strip() and (not m['name'] or r[1].strip() == m['name']):

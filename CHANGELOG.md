@@ -2,6 +2,43 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.17.0] — 2026-11-08
+
+**Plugin 3 — the Lead Magnet — returns to the marketplace, audited against the Brain it reads.** Members built
+their Brains last week; Week 2 opens on the offer and the lead magnet. `plugins/attraction-lead-magnet` (0.6.0)
+comes back from `wip/all-plugins` with every reference checked against the Brain as it stands today (the
+2026-11-02 rebuild, the Brain Board, the cloud workspace), and `.claude-plugin/marketplace.json` lists it again.
+- **Everything lands in the member's own cloud.** The plugin's `shared/brain-contract.md` now states the law its
+  skills follow: every Brain write (`memory/magnets.md`, `memory/list-growth.md`, `identity/profiles.md`, the
+  `brain.md` line, the `config.md` block) pushes through `attraction-brain-sync` the moment it is written and
+  re-renders the member's Brain Board; every document is uploaded by the member's own Drive or OneDrive connector
+  into its drive-map folder with the link in chat; all three Brain files are on the sync skill's pull allowlist,
+  so a new session reads them back. `lm-profiles` and `lm-gbp` name the push step and say where the file landed;
+  `shared/output-standard.md`'s confirmation line names the real folder, not always Guides.
+- **The Brain Board reads the magnet.** `plugins/attraction-ai-brain/shared/render_board.py` (Brain 0.5.6)
+  accepts the locked `as of YYYY-MM-DD` form of the Current magnet line; the demo Brain gains
+  `docs/demo/taylor-brooks/attraction-brain/memory/magnets.md`, its keyword is GUIDE everywhere, and the demo
+  board is re-rendered. The navigator's close tells the member the magnet is on their board.
+- **Aligned with the Brain's rulings.** Compliance is read by its first line only — `Status:` is the verdict —
+  and the bracket scan that could override a `set` verdict is gone (`shared/house-rules.md`, `lm-magnet`).
+  Recruiting scope is anywhere, never a limit, never flagged (`lm-funnel`, `lm-delivery`, `lm-partnerships`).
+  The booking link, call length and cadence come from the Brain; when `identity/operations.md` still reads
+  "set in Week 2", every skill says the one phrase ("set up my attraction operations") once and falls back to
+  the DM or email channel instead of a bracket — the funnel's `Booking embed:` reads `none yet — Week 5`
+  (`lm-funnel` and its `references/funnel-guide.md`, `lm-magnet`, `lm-delivery`, `lm-nurture`, `lm-gbp`, the
+  navigator's `references/intake-questions.md`). The offer is read by its current sections — the program, the
+  framework, the core-promise line, and the upline and brokerage-rule pages whose wording the funnel, the bios
+  and the DMs reuse — and the avatar fields by their real names (`lm-profiles`, `lm-magnet-ideas`).
+- **One magnet, everywhere:** the last "recommends three, the member picks" passage, in
+  `skills/lm-magnet/references/magnet-guide.md`, now matches the ONE-card rule.
+- **No installed-plugin assumptions:** the design brief and the funnel outline stand on their own in Claude
+  Design (the Design Studio's skills read the same documents when the member has them); the Google kit speaks
+  of Reels "from Week 3"; the Events plugin is "Week 6" (`lm-design`, `lm-funnel`, `lm-gbp`, `lm-partnerships`).
+- Support (0.1.12): `plugins/maa-claude-support/shared/stack-map.md` lists Plugin 3 as live. `README.md`,
+  `docs/setup-guide.md` and `CLAUDE.md` name the three plugins on `main`. The Brain's `attraction-offer` reads
+  the avatar fields that exist.
+  Versions: attraction-lead-magnet 0.6.0 · attraction-ai-brain 0.5.6 · maa-claude-support 0.1.12.
+
 ## [0.16.1] — 2026-11-03
 
 **The Brain Board on every paid plan, with nothing to install.** The owner's check before onboarding: members on

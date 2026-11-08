@@ -37,7 +37,7 @@ DEMO BRAIN — fictional member, illustrative data — never publish.
 - **How to spot them (observable signals only):** "just got my license" posts · asking where to start · a headshot and a bio and no listings · hosting an open house and posting the photo, not the follow-up
 - **Objections to expect:** "I need a local office" · "I need local support" · "I love my broker" · "I don't want to recruit" · "I don't have money for another thing"
 - **Content that pulls them in:** "What I'd do in week one" series · the syllabus · Marcus's first thirty days (with consent) · the two-closings story
-- **The ask that fits:** grab the routine (keyword ROUTINE) → follow → book a call once they have hosted two open houses
+- **The ask that fits:** grab the routine (keyword GUIDE) → follow → book a call once they have hosted two open houses
 
 ### Avatar 3 — none *(keep to two for the first 90 days)*
 

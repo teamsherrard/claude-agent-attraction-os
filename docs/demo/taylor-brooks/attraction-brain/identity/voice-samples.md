@@ -41,7 +41,7 @@ Step one — every name gets one text by 6pm.
 Step two — every text asks one question.
 Step three is in the video.
 No lead bill. Just the routine.
-Comment ROUTINE and I'll send you the sheet.
+Comment GUIDE and I'll send you the sheet.
 
 *What's "them" about it:* counts and times instead of adjectives; one idea per line; "Here's what happens"; the steps on screen; one CTA, no hashtag wall, no emoji
 

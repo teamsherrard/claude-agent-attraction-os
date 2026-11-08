@@ -57,7 +57,8 @@ All clicks, nothing to type:
 5. Install **Plugin 2 — MAA Claude Support**.
 6. Turn on **Sync automatically**. Updates arrive on their own; you never reinstall.
 
-Stop there. The other plugins switch on week by week (section 8). Don't install ahead to be ready — a plugin that
+Stop there. **Plugin 3 — Lead Magnet** is in the marketplace too: install it in Week 2, after your offer session, the
+same way. The other plugins switch on week by week (section 8). Don't install ahead to be ready — a plugin that
 hasn't shipped yet isn't there to install. The marketplace numbers the plugins 1 to 9. The Design Studio is not in
 the marketplace at all: it is a set of design skills you upload into Claude Design (section 5).
 

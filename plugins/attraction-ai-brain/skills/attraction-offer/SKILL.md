@@ -72,7 +72,7 @@ Then **read `identity/offer.md` and its `Status:` line before anything else:**
 
 Then only these two up front — everything else loads at the step that uses it (named there):
 - `identity/avatars.md` — the primary type, the one-line target, **What they're struggling with** (the
-  ranked five with the member's strength and proof per row), **Offer direction**, **what they've tried**,
+  ranked five with the member's strength and proof per row), **What they'd need to hear to believe this member can help**, **what they've tried**,
   the **Not the right fit** line. No real avatar → stop: *"The offer is aimed at one type of agent — say
   'map my agent avatars' first, two short conversations."*
 - `identity/strategy.md` — the "What they can teach" table (the strategies they have used or are
@@ -204,7 +204,7 @@ rule for each.
 | Name | the program's name — the program and the offer share ONE name (`Offer name:` stays the label other plugins key on; `Program name:` carries the same name beside it) — **outcome-based marketing language: the OUTCOME the agent wants plus the MECHANISM the member teaches, in words an agent says** (the naming rule below); proposed WITH two alternates, the member picks | built from `## UVP` (the outcome and the mechanism) and `avatars.md` (the agent's words for the result they are missing); an organization or community name already in use (`brand-visual.md` organization name, the group, the channel, the Instagram name) is where the program LIVES, never its name — unless it already names an outcome; the comment keyword is coined from the name or the mechanism |
 | Type | exactly ONE of six: **partnership program · mentorship program · coaching program · accelerator · course plus community · team system** — with a one-line reason | the type rule below — decided, shown on the card as "a mentorship program: a weekly call, a 1:1 to start" |
 | For | the primary type of agent, in plain words; one line on the secondary type if there is one | `avatars.md` one-line target |
-| 90-day outcome | what the partner can SHOW by day 90 (the routine running, the first result from it) — never what they will earn; "no result is promised, the method is" | `avatars.md` Offer direction · `proof.md` for the shape of a real result · the Teach-first lesson |
+| 90-day outcome | what the partner can SHOW by day 90 (the routine running, the first result from it) — never what they will earn; "no result is promised, the method is" | `avatars.md` What they'd need to hear · The ask that fits · `proof.md` for the shape of a real result · the Teach-first lesson |
 | Format | the mix — live group call · 1:1 · recorded · in person — each named | `operations.md` · `strategy.md` Teach-it flags · `06 · Materials` (what is recorded) |
 | Cadence | the weekly call with its day, time, length and place · office hours if any · the group chat · the 1:1 rhythm (Day 1 · first week · day 30 · after) | `operations.md` (Weekly model call · Response commitment · Organization list / group address) → the cadence defaults below where it is silent |
 | Duration | a 90-day on-ramp (three phases), then the ongoing partnership — what continues in it | the default; the member may change the number, never drop the "then" |

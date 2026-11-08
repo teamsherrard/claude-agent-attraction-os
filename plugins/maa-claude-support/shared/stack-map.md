@@ -11,16 +11,17 @@ Studio, which is a Claude Design SKILL SET (uploaded zips), not a plugin** — C
 run plugins. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per
 Mike (2026-10-08): not a plugin, parked.
 
-> **Launch cut (2026-11-03): the marketplace carries Plugins 1 and 2 only.** The rest are built and parked on the
-> `wip/all-plugins` branch while they are fixed and optimized; they return to the marketplace one by one as the cohort
-> reaches them. Until a plugin is back, the desk says **"coming"** and never tells a member to install it.
+> **Launch cut (2026-11-03): the marketplace carries Plugins 1 and 2, and since 2026-11-08 Plugin 3 (Lead Magnet, Week 2).**
+> The rest are built and parked on the `wip/all-plugins` branch while they are fixed and optimized; they return to the
+> marketplace one by one as the cohort reaches them. Until a plugin is back, the desk says **"coming"** and never tells a
+> member to install it.
 
 | # | Plugin (install week) | Prefix | Skills | Status | Front door (say this) |
 |---|---|---|---|---|---|
 | 1 | **Agent Attraction Brain** (W1) | `attraction-` | 26 | **BUILT** | "Set up my **attraction** brain" |
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "MAA help" / "help" / "I'm stuck" / "what did Mike say about…" |
 | – | **Design Studio** (Claude Design skill set, NOT a plugin) — W1 Design Package (logo · style sheet · brand kit), W2 the offer kit · lead magnet · funnel · content, W3 the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's Brand HQ project (there is no thumbnail design skill) | `aa-…-design` | 10 | **coming** — the upload files are handed out with the Week 1 bonus assets, not from this repo (parked on `wip/all-plugins`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
-| 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
+| 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **live** — in the marketplace since 2026-11-08 (0.6.0); everything it writes lands in the member's cloud workspace and on their Brain Board | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
 | 4 | **Short-Form** (W3) | `sf-` | 15 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my attraction short-form" |
 | 5 | **AI Editor — Riverside** (W3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my video editor" / "edit my reel" |
 | 6 | **YouTube** (W4) | `yt-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my YouTube for agents" |

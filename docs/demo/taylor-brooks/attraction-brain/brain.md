@@ -56,7 +56,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - **This week's activity target:** 8 conversations · 2 calls booked · 10 follow-ups · 3 reels + 1 long-form (illustrative — demo)
 - **Organization today:** 2 agents · **12-month target:** 25 agents · **Long-term goal:** 100 agents · **Hours a week:** 8 (illustrative — demo)
 - **Booking link:** https://book.taylorbrooks.demo/call (illustrative — demo) · **Primary CTA:** "Book a call with me — https://book.taylorbrooks.demo/call" · **Socials:** @taylorbrooks.atx (Instagram) · YouTube "The Sunday Table" (Week 4) · LinkedIn: Taylor Brooks (all illustrative — demo)
-- **Live magnet:** The Five-Step Sunday Routine · keyword ROUTINE · funnel URL not live yet (illustrative — demo; built from the offer in the Week 2 lead magnet session — mirrors `memory/magnets.md → ## Current magnet`)
+- **Live magnet:** The Five-Step Sunday Routine · keyword GUIDE · funnel URL not live yet (illustrative — demo; built from the offer in the Week 2 lead magnet session — mirrors `memory/magnets.md → ## Current magnet`)
 - **Brand colors:** #F4EFE6 (cream) / #1F4D3A (board green) / #B8743A (copper) / #2B2B2B (charcoal) (illustrative — demo) · **Fonts:** Fraunces (heading) / Inter (body) — proposed, kit not yet built · **Logo:** refresh (keep the TB monogram, add a wordmark for The Sunday Table) — building this week
 - **Compliance:** set (2026-09-29; confirm with the brokerage's compliance desk) · **Locale:** USA · USD · sq ft — format every number and date to this (config.md)
 

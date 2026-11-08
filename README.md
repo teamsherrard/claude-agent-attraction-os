@@ -8,9 +8,9 @@ Install the marketplace in Claude Cowork: **Customize → Plugins → ＋ (besid
 
 ## The plugins (install in this order, one per cohort week)
 
-> **Available in the marketplace today: Plugins 1 and 2.** The rest are built and being fixed and optimized on the
+> **Available in the marketplace today: Plugins 1, 2 and 3.** The rest are built and being fixed and optimized on the
 > `wip/all-plugins` branch; they are released into this marketplace one by one as the cohort reaches them. Install
-> Plugin 1 and Plugin 2, then stop.
+> Plugin 1 and Plugin 2 in Week 1, Plugin 3 in Week 2, then stop.
 
 | # | Plugin | Week | What it is |
 |---|---|---|---|
