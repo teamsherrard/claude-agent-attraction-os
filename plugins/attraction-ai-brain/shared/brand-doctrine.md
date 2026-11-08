@@ -104,14 +104,14 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
   talk is how their brand should feel — "solved using voice mode"); the member is asked only what already exists
   (logo · colours and fonts · headshots · one brand or a separate leader brand · the organization's name), one
   plain question at a time, and can upload examples instead of describing anything (*"Drop anything you have made
-  before, your current Instagram, a logo, or screenshots of brands you admire into your Brand HQ project in
-  Claude Design; the design skills study them for direction and never copy."*). Then the Brain DERIVES the
+  before, your current Instagram, a logo, or screenshots of brands you admire to your Week 3 Claude Design session;
+  the design skills study them for direction and never copy."*). Then the Brain DERIVES the
   Creative direction (mood · energy 1–5 · type temperature · the colour story in plain names · the photo treatment
   · three motifs from the member's own story · the avoid list · three reference recipes from the house style looks
   in §7) from what it already holds — `voice-print.md`, `voice.md`, `voice-samples.md` (the three spoken answers),
   `avatars.md`, `journey.md`, `positioning.md` or the known-for line, `strategy.md` — and the member reacts in one
   message. No texture questions, no design vocabulary out loud.
-- **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 1 Design Package is `aa-logo-design` →
+- **The Design Studio (Claude Design, `ds-*` skills) owns the visuals:** the Week 3 Design Package is `aa-logo-design` →
   `aa-style-sheet-design` → `aa-brand-kit-design`, in that order, with the skip rule — **skip `aa-logo-design` when the member loves their
   logo as-is; refresh mode changes only what they flagged**. The finished kit is dropped into `02 · Brand`, and
   the editor, the thumbnails, and every graphic read it from there. The Design Studio reads the Brain through the

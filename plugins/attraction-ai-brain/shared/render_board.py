@@ -389,7 +389,7 @@ def parse_magnets(md, demo):
 
 # ───────────────────────── the shape of the board (what never changes) ─────────────────────────
 SYSTEMS = [
-    ('brand', 'BRAND', 1, 'Your brand direction', 'Plugin 1 · the Brain’s brand chat · the Design Studio in Claude Design'),
+    ('brand', 'BRAND', 3, 'Your brand direction', 'Plugin 1 · the Brain’s brand chat · the Design Studio in Claude Design'),
     ('offer', 'OFFER', 2, 'Your Partner Offer', 'Plugin 1 · the Brain’s offer builder'),
     ('lead-magnet', 'LEAD MAGNET', 2, 'Your lead magnet and its funnel', 'Plugin 3 · Lead Magnets & Opt-In Funnels'),
     ('short-form', 'SHORT-FORM', 3, 'Your short-form system', 'Plugin 4 · the Short-Form Attraction Engine'),
@@ -465,7 +465,7 @@ def state_of(sysid, ctx):
         st = 'built' if (any(k.startswith('events') for k in cfg['blocks']) or re.search(r'^## .*\d{4}-\d\d-\d\d', ctx['files'].get('memory/events.md', ''), re.M)) else 'soon'
     week = ctx['week']
     syswk = next(w for i, _, w, _, _ in SYSTEMS if i == sysid)
-    if week and syswk > week and st != 'soon':
+    if week and syswk > week and st != 'soon' and ctx['demo']:  # a demo renders its cohort week; a real member's built system is built
         st = 'soon'
     return st
 
@@ -509,7 +509,7 @@ def build_outer(ctx):
         tag, line, body = '', '', ''
         if sysid == 'brand':
             if st == 'built':
-                tag = '“%s”' % brand['feel'] if brand['feel'] else 'Decided in your Week 1 brand chat; the kit is built in Claude Design.'
+                tag = '“%s”' % brand['feel'] if brand['feel'] else 'Decided in your Week 3 brand chat; the kit is built in Claude Design.'
                 kit_left = [l for l, ok, note in brand['package'] if not ok]
                 line = 'Direction set' + (' and the brief issued' if brand['brief_date'] else '') + ('. The kit itself is not in 02 · Brand yet.' if kit_left else '. The kit is in 02 · Brand.')
                 rows = [('The brand chat: your inventory, one plain question at a time', 'done', ''), ('The creative direction, derived from your Brain and your three spoken answers', 'done', brand['reaction'] and ('your reaction: ' + brand['reaction']) or '')]
@@ -521,7 +521,7 @@ def build_outer(ctx):
                 if brand['swatches']: body += '\n\n## Colours (proposed by your Brain; the style sheet confirms)\n' + '\n'.join('@swatch: %s | %s | %s' % s for s in brand['swatches'])
                 body += '\n\n' + md_to_book(ctx['files'].get('identity/brand-visual.md', ''), demo)
             else:
-                tag = 'Your brand is its own Week 1 chat, run after your Brain is built.'
+                tag = 'Your brand is Week 3’s chat, run alongside Claude Design.'
                 line = 'Your creative direction, then the logo, the style sheet and the kit in Claude Design.'
                 body = status_rows([('The brand chat: your inventory, one plain question at a time', 'soon', ''), ('The creative direction, derived from your Brain and your three spoken answers', 'soon', 'you just say yes'), ('The Design Package brief for Claude Design', 'soon', ''), ('The logo, the style sheet and the brand kit', 'soon', 'three runs in Claude Design')]) + '\n\n## What lands on this board when it’s done\nThis dot turns green. Your colours, fonts, logo call and tagline appear on this page.'
         elif sysid == 'offer':

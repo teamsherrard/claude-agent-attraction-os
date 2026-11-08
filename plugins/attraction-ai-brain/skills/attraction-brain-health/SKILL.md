@@ -42,15 +42,15 @@ attraction goals") · voice · voice-samples (the three spoken answers) · voice
 avatars (DERIVED — ✅ when it names a primary group from the member's answers with the framing line;
 never judged on whether the member "chose").
 
-**Week 1 brand (two items, judged separately, never counted against the twelve):**
-- **Brand direction set** = `brand-visual.md` holds an Inventory and a Creative direction (the second Week
-  1 chat ran). ⬜ → *"your brand is the next thing — say 'my attraction brand direction' in a new chat, six
+**Week 3 brand (two items, judged separately, never counted against the twelve; before Week 3 — `config.md → Cohort week` under 3, or the offer still at seeds — both read "coming in Week 3, with Claude Design", never a nudge):**
+- **Brand direction set** = `brand-visual.md` holds an Inventory and a Creative direction (the Week 3
+  brand chat ran). ⬜ → *"your brand is the next thing — say 'my attraction brand direction' in a new chat, six
   minutes."*
 - **Brand kit present in `02 · Brand`** = a logo file + a style sheet + at least one profile graphic all
   exist there (the Design Package skills `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`).
   In front of the member it is always "your brand kit", never file names: ✅ *"your brand kit is in
   place"* · 🟡 (some of the three) *"your brand kit is partly there — [the missing piece] is next"* · ⬜
-  *"your brand kit is the next thing to build — paste your Design Package brief into Claude Design"* (the
+  *"your brand kit is the next thing to build — in Week 3, paste your Design Package brief into Claude Design"* (the
   brief is in `brand-visual.md`; `attraction-brand-direction` regenerates it on request). Headshot
   present in `02 · Brand`? Note it the same way, one line.
 

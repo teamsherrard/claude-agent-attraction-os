@@ -178,15 +178,16 @@ demo Brain, a bridged Brain or a member who ran ahead can hold a built offer whi
 
 - **Cohort week 1 — or no week recorded and `offer.md` at `Status: seeds` — the WEEK-1 STATE.** Section 1 carries
   no offer row. Section 4 opens with the one forward-looking line (*"Next week turns this page into your offer
-  …"*) and carries no one-liner and no program name. Section 9 is exactly three one-line bullets — the brand chat
-  this week · the lead magnet next week · one any-time line — and its callout is the one phrase to type:
-  **"my attraction brand direction"**. The `--accent` flag is omitted (the brand chat has not run in this state;
+  …"*) and carries no one-liner and no program name. Section 9 is exactly three one-line bullets — the offer and
+  the lead magnet next week · the brand chat and Claude Design in Week 3 · one any-time line — and its callout is
+  the one phrase to type when Week 2 opens: **"build my partner offer"**. The `--accent` flag is omitted (the brand chat has not run in this state;
   the Book picks the colour up on its next regeneration after it has).
 - **Cohort week 2 or later with the offer built — the POST-OFFER STATE.** Section 4's opener flips to the past
   tense (*"Next week turned this page into your offer: …"*, then the one-liner and the program's name, the same
-  words as `offer.md`) — never both the forward line and "your offer is built". Section 9's first bullet reads
-  "your brand direction is set" when `brand-visual.md` shows the brand chat has run, its second bullet points at
-  the offer and the magnet, and its callout is the next phrase to type for THAT week.
+  words as `offer.md`) — never both the forward line and "your offer is built". Section 9's first bullet points at
+  the lead magnet while it is not built, else at Week 3 — the brand chat and Claude Design ("your brand direction
+  is set" once `brand-visual.md` shows the brand chat has run) — its second bullet at the next system of the
+  cohort, and its callout is the next phrase to type for THAT week.
 - Everything else renders the same in both states. **The demo Book ships in the Week-1 state** — that is what a
   member holds at the end of Setup.
 

@@ -83,12 +83,12 @@ Expect, in this order:
 - The direct link to **🧠 Taylor Brooks's Brain Board — DEMO — [date]**, one line after the Book (rendered in the session's code sandbox; if that is unavailable it appears on the next push).
 - The Project Seatbelt: one copyable block + one line on where to paste it.
 - The home base link once more.
-- *Two things next. This week, in a new chat, say "my attraction brand direction". Next week, your lead magnet plugin builds your offer, your unique value proposition, then your lead magnet; that's also when your booking link, CRM and tools get set up.*
+- *That's Week 1 done. Next week is your offer, then your lead magnet — "build my partner offer" when Week 2 opens (or "launch my lead magnet plugin", which builds the offer first); that's also when your booking link, CRM and tools get set up. Your brand and Claude Design come in Week 3.*
 - [ ] Open the Book: cover · contents page · nine sections (Who you are · Your story · Your brokerage story · Your unique approach · Your proof · Who your story speaks to · Your numbers · Your voice · What's next) · at most fifteen pages · no money chapter, no compliance, no operations, no scorecard.
-- [ ] Section 8 holds the three spoken answers in Taylor's words. Section 9 names the brand chat and Week 2, nothing else.
+- [ ] Section 8 holds the three spoken answers in Taylor's words. Section 9 names Week 2 (the offer, then the lead magnet) and Week 3 (the brand chat), nothing else.
 - [ ] The close has no open-items list, no Debrief offer, no compliance line, no Design Package brief.
 
-## The second screen (Week 1, the other chat)
+## The brand screen (Week 3 — its own chat; demo it only when the audience is on Week 3)
 **Say, in a NEW chat:** `my attraction brand direction`
 Expect: one plain question (what should the brand feel like) plus the option to upload examples of past marketing; then the creative direction, saved as the Design Package brief in 02 · Brand (*show my design package brief* re-opens it). This is the brand; the Brain never asks about it.
 

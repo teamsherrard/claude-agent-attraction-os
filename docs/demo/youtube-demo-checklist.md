@@ -37,7 +37,7 @@ Run it on the demo Brain (Jack Smith) in Cowork. Everything the member hears is 
 - `run my attraction kickoff` — the Monday Kickoff on demand: this week's video drafted onto its card and 30 days topped up on the board.
 - `update my attraction video board` — the rolling 30-day top-up.
 - `SEO for my attraction video` — the description, chapters, tags, pinned comment for a given video.
-- `thumbnail brief` — the brief you paste into Brand HQ in Claude Design.
+- `thumbnail brief` — the brief you paste into your brand project in Claude Design.
 - `repurpose my attraction video` — shorts, posts, and conversation starters (hands the starters to Conversion).
 - `which videos brought me agents` — the analytics read (Composio connected) or the Studio-numbers path.
 

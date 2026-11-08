@@ -73,7 +73,7 @@ flagged unprompted, and never counted against a Brain's completeness:
 The completeness bar is the **first-run twelve** only: profile · journey · strategy · story-bank · proof ·
 offer (seeds) · positioning (the seed line) · goals (seeds) · voice · voice-samples · voice-print · avatars
 (derived). `attraction-brain-health` adds "brand direction set" and "brand kit present in `02 · Brand`" as
-Week 1 items once the brand chat and the Design Package have run — nudges, never defects.
+Week 3 items once the brand chat and the Design Package have run — nudges, never defects.
 
 ## 4. The week rule, out loud
 

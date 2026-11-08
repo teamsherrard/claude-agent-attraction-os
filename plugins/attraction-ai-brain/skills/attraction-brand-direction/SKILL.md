@@ -1,8 +1,8 @@
 ---
 name: attraction-brand-direction
 description: >
-  The visual brand of the leader agents will follow: the second Week 1 chat, run after the Brain is
-  built, never inside Brain setup. Takes the inventory one plain question at a time (logo: love it ·
+  The visual brand of the leader agents will follow: the Week 3 brand chat, run alongside Claude
+  Design, never inside Brain setup. Takes the inventory one plain question at a time (logo: love it ·
   not quite right · don't have one; colours and fonts; headshots; one brand or a separate leader
   brand; the organization's name), then derives the Creative direction itself from the Brain and the
   three spoken answers (mood, type, colour story, photos, reference looks) — no feel question; the
@@ -14,15 +14,16 @@ description: >
   attraction brand direction".
 ---
 
-# Attraction Brand Direction — the second Week 1 chat
+# Attraction Brand Direction — the Week 3 brand chat
 
 You are your brand, and the logo, colours, and fonts are not the brand; they are the vehicles that carry it
-(`04-value-proposition/29`). In this cohort the member builds the Brain in one chat and the brand in a second
-chat, the same week — exactly as the current cohort did it (the owner's ruling, 2026-11-02). So this skill is
+(`04-value-proposition/29`). In this cohort the member builds the Brain in Week 1 and the brand in Week 3, alongside
+Claude Design (the owner's ruling, 2026-11-08 — the earlier "same week" plan sent members to Claude Design two
+weeks early, and the community asked what a "Brand HQ" was). So this skill is
 not two questions at the end of setup: it is its own short session — an inventory of what exists, one plain
 question at a time; a Creative direction the Brain derives from the Brain and from how the member talks (the
 three spoken answers at setup — "solved using voice mode"); the member confirms in one message; and a
-hand-off that produces the actual brand kit this week through the Design Package. The Brain captures,
+hand-off that produces the actual brand kit in Claude Design through the Design Package. The Brain captures,
 derives, and briefs; **Claude Design** builds the visuals. **This skill never designs, renders, or produces
 a visual or a file** — the one file it saves is the brief itself. About 6 minutes; about 3 when they already
 love their brand.
@@ -59,12 +60,19 @@ Three things to hold from the Brain:
   yes to *authority* (can you help me?), *relatability* (do I connect with you?), and *aspiration* (do I
   want something you have or represent?). Every direction you derive is checked against all three.
 
+## Before the welcome — the week check (one line, never a block)
+If `identity/offer.md` still reads `Status: seeds` (Week 2's offer is not built), the member has arrived before
+Week 3. Say one line and let them choose: *"Your brand is Week 3's work, alongside Claude Design. Happy to do it
+now if you'd like — but Week 2 is your offer and your lead magnet, and nothing here is needed before then."* A
+yes continues; anything else closes with the Week 2 phrase (*"say 'build my partner offer' when Week 2 opens"*).
+Never tell a member to open Claude Design, create a project or upload skills before Week 3.
+
 ## The welcome line
 One plain line that orients and invites examples: *"Your brand, in about six minutes. Five quick questions
 about what you already have, one at a time — then I'll work out the creative direction from your Brain and
 how you talk, and you just say yes. If you have anything made before, your current Instagram, a logo, or
-screenshots of brands you admire, drop them into your Brand HQ project in Claude Design (you'll create it
-when you run the Design Package); the design skills study them for direction and never copy."*
+screenshots of brands you admire, share them here or keep them handy for your Claude Design session in Week 3; the design skills
+study them for direction and never copy."*
 
 ## The inventory — what you already have (five questions, ONE per turn, "your turn" after each)
 Short, plain, skippable; "none" is a real answer. If the Brand folder already answered an item (a logo file,
@@ -86,8 +94,8 @@ right?"* — and ask only the lines still empty.
 5. **Your organization's name:** does it have one, or is it just you? *(Many attractors run a group name
    alongside their own. Both can be captured; the Design Package can build a logo version for each.)*
 
-Also record, without a sixth question, whether examples are in Brand HQ (they said so, or the folder shows
-them): **Examples: uploaded to Brand HQ / none yet.**
+Also record, without a sixth question, whether examples exist (they shared some, or the Brand folder shows
+them): **Examples: shared / none yet.**
 
 ## Derive the Creative direction (0 questions — this is the consultant's work, and the feel is never asked)
 From what the Brain already holds — above all the three spoken answers and the voice print — derive every
@@ -98,7 +106,7 @@ line that could belong to any leader anywhere.
 |---|---|
 | **Mood** (one sentence) | how they talk: `voice-print.md`'s pace, energy and humour and the spoken answers' own phrases, sharpened with what they are known for (`strategy.md`) |
 | **Energy** (1–5, 1 calm → 5 bold) | `voice-print.md` (measured, warm, dry → 1–2; straight shooter, animated, fast → 4–5; helpful friend → 2–3) and who their story speaks to (`avatars.md` — newer agents read warmer and clearer; top producers more restrained) |
-| **Type** (classic · modern · bold) | the examples in Brand HQ when there are any (serif editorial → classic; clean geometric → modern; condensed, loud → bold), else the energy and the voice |
+| **Type** (classic · modern · bold) | the examples they shared when there are any (serif editorial → classic; clean geometric → modern; condensed, loud → bold), else the energy and the voice |
 | **Colour story** (dominant · support · accent, plain names, and why) | the colours they use today (Inventory), their story and routine (a place, an object they actually mention in the spoken answers), the organization's idea — held beside the brokerage's palette and shifted until distinct; also propose the 4–5 codes with roles for the Direction block |
 | **Photos** (clean cut-out · moody · bright) | the headshot state, energy, and how they teach (face-on at a table → clean; on stage → bright; a crew with grit → moody) |
 | **Three motifs** | 1. their routine (`journey.md` — the thing they did every week that worked) · 2. their story (the turning point, an object from it) · 3. the organization's idea or what they are known for (`strategy.md`, the organization's name) — never a place as a limit; a local motif only when the member's examples lean that way |
@@ -134,7 +142,7 @@ exists). Capture their words, never generic taste. Stamp *last updated*.
 
 ```
 AGENT ATTRACTION DESIGN PACKAGE — [First Last] · issued [YYYY-MM-DD]
-Run these three Claude Design skills this week, in this order, inside your Brand HQ project:
+In your Week 3 Claude Design session, run these three skills in this order (Mike walks you through where they live):
 1. aa-logo-design — SKIP THIS if you love your logo (use it exactly as-is). Refresh mode if it's "not quite
    right": change only [the one thing flagged]. Build mode if there's no logo: [logo direction].
 2. aa-style-sheet-design — palette [hex + roles], fonts [direction], feel [words], distinct from [brokerage palette].
@@ -150,9 +158,9 @@ Photos: [clean cut-out / moody / bright] — [why]
 Motifs: 1. [ ] · 2. [ ] · 3. [ ]
 Avoid: never looks like the brokerage · never a listing flyer · never a tech startup · never a luxury-only brand · [the member's own line]
 Reference recipes: 1. [look] — [why] · 2. [look] — [why] · 3. [look] — [why]
-Examples: [uploaded to Brand HQ / none yet]. Drop anything you have made before, your current Instagram, a logo,
-or screenshots of brands you admire into your Brand HQ project in Claude Design; the design skills study them
-for direction and never copy.
+Examples: [shared / none yet]. Bring anything you have made before, your current Instagram, a logo, or
+screenshots of brands you admire to the Claude Design session; the design skills study them for direction and
+never copy.
 Compliance on every public graphic: [brokerage-name display + license display from compliance.md]
   — or: NOT SET YET; say "paste my compliance link" in Cowork (two minutes) before any graphic is published.
 Upload your Brain Book as the "AI Brain file" when a skill asks for it (it tells the design skills who you are;
@@ -171,12 +179,12 @@ graphic read it.
    read-only (`Storage: READ-ONLY` in `config.md`), or the save fails:** say so plainly in one line — the brief is
    **not** in the folder, it is kept in the Brain, and here it is — stamp *[connector off — kept here only]*,
    and show it. Never fail silently, never retry in a loop.
-4. **Hand it over in chat as one copyable block**, then say plainly: *"Your brand direction is saved. Paste
-   this into Claude Design and run the three in order — skip the first if you love your logo. It's also saved
+4. **Hand it over in chat as one copyable block**, then say plainly: *"Your brand direction is saved. In Week 3's Claude Design session, paste
+   this in and run the three in order — skip the first if you love your logo. It's also saved
    in your Brand folder as 'Design Package Brief · [Name] · [date]', and you can say 'show my design package
    brief' any time to see it again. Drop the finished kit into your Brand folder; everything that makes a
    graphic for you reads from there."* **attraction-brain-health** counts the brand direction and the kit in
-   `02 · Brand` as Week 1 items. (The Brain Book carries no brand chapter — the brief is where the brand lives.)
+   `02 · Brand` as Week 3 items. (The Brain Book carries no brand chapter — the brief is where the brand lives.)
 
 This skill runs as its own chat; it is never called from inside Brain setup. Stop here.
 
@@ -199,4 +207,4 @@ never ask how the brand should feel — it is derived from the voice, and a memb
 ## Demo mode
 Only when the request explicitly frames a fictional member: same blocks, same brief, no real brand names as
 references, "(illustrative — demo)" on anything numeric, and the brief marked DEMO so it is never pasted into
-a real Brand HQ. A demo keyword aimed at the member's own brand is a real build.
+a real member's brand. A demo keyword aimed at the member's own brand is a real build.

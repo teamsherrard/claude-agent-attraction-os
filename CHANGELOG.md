@@ -2,6 +2,36 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.17.2] — 2026-11-08
+
+**Brand and Claude Design move to Week 3 — the fix for the community thread.** Members finishing their Brain were
+told, in the Brain setup's closing lines, to run "my attraction brand direction" the same week; that chat then sent
+them to Claude Design to create a "Brand HQ" project and upload design skills. None of that is in Mike's Week 1 or
+Week 2 training: Week 2 is the offer and the lead magnet, and the brand with Claude Design is Week 3. Every place
+the OS said otherwise now says Week 3, and "Brand HQ" is gone as an instruction (a project of any name).
+- `plugins/attraction-ai-brain/skills/attraction-brain-setup/SKILL.md`: the close names Week 2 ("build my partner
+  offer", or "launch my lead magnet plugin" which builds the offer first) and says brand and Claude Design are
+  Week 3 — nothing to do on them yet; the scaffold notes, the never-asks list and the front-door order agree.
+- `plugins/attraction-ai-brain/skills/attraction-brand-direction/SKILL.md`: the Week 3 brand chat. A member who
+  arrives while the offer is still at seeds hears one line — brand is Week 3's work, happy to do it now if they
+  want — and is never told to open Claude Design, create a project or upload skills before Week 3. The brief
+  reads "in your Week 3 Claude Design session"; examples are "shared", not "uploaded to Brand HQ".
+- The brand template (`skills/attraction-brain-setup/references/brain-template/attraction-brain/identity/brand-visual.md`),
+  `shared/brain-contract.md`, `shared/brand-doctrine.md`, `shared/how-we-speak.md`, `skills/attraction-brain-health/SKILL.md`
+  (before Week 3 the two brand items read "coming in Week 3", never a nudge) and `shared/brain-book-spec.md`
+  (the Book's Section 9: Week 2 first, the brand chat in Week 3; its callout is "build my partner offer").
+- `plugins/attraction-ai-brain/shared/render_board.py`: the brand system sits in Week 3 on the map; the cohort-week
+  cap applies to demo Brains only, so a real member's built system is never shown as "coming".
+- Support (0.1.13): `shared/cohort-kb.md` (Week 1 plugs in the Brain and Support only; Week 3 adds the brand chat
+  and the Design Package), `shared/stack-map.md`, `shared/faq.md`, `skills/maa-support-onboard/SKILL.md`, and a new
+  `shared/error-codes.md` row for "it told me to go to Claude Design / Brand HQ right after my Brain".
+- Member docs: `README.md`, `START-HERE.md`, `docs/setup-guide.md` (section 5 is Week 3; the checklist's brand
+  items sit under Week 3), `docs/demo/brain-demo-checklist.md`, `docs/demo/youtube-demo-checklist.md`, the demo
+  Brain's brand file.
+- Lead Magnet (0.6.1): `plugins/attraction-lead-magnet/skills/lm-design/SKILL.md` briefs a clean neutral look when
+  no brand exists yet (the normal Week 2 case) and says the Week 3 kit restyles it.
+  Versions: attraction-ai-brain 0.5.8 · maa-claude-support 0.1.13 · attraction-lead-magnet 0.6.1.
+
 ## [0.17.1] — 2026-11-08
 
 **The Brain Board reads a real member's offer.** The owner's check: when an agent builds their offer and their

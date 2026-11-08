@@ -1,7 +1,7 @@
 # [Member First Name] — Brand: Inventory & Direction
 *identity · the LEADER brand agents will follow · the Brain captures inventory and direction, derives the Creative direction, and issues the Design Package brief; Claude Design builds the visuals through the Design Package (`aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`)*
-*Owner: `attraction-brand-direction` — the second Week 1 chat ("my attraction brand direction"), run after the Brain is built, never inside Brain setup (the owner's ruling, 2026-11-02: Brain in one chat, brand in a second). Read by the Design Studio skills (the Design Package brief, saved to `02 · Brand`), the AI Editor (colors + fonts), every graphic. "show my design package brief" prints the brief block below any time.*
-*Status at setup: not started — "say 'my attraction brand direction' in a new chat this week". The direction is DERIVED from the Brain and the three spoken answers; the member is asked only what exists (logo · colours and fonts · headshots · one brand or separate · organization name), one question at a time, and reacts to the derived direction in one message.*
+*Owner: `attraction-brand-direction` — the Week 3 brand chat ("my attraction brand direction"), run alongside Claude Design, never inside Brain setup (the owner's ruling, 2026-11-08: Brain in Week 1, brand in Week 3). Read by the Design Studio skills (the Design Package brief, saved to `02 · Brand`), the AI Editor (colors + fonts), every graphic. "show my design package brief" prints the brief block below any time.*
+*Status at setup: not started — set in Week 3 ("my attraction brand direction", alongside Claude Design). The direction is DERIVED from the Brain and the three spoken answers; the member is asked only what exists (logo · colours and fonts · headshots · one brand or separate · organization name), one question at a time, and reacts to the derived direction in one message.*
 *Doctrine: `shared/brand-doctrine.md` — authority · relatability · aspiration; the leader brand stays visually distinct from the brokerage's own colors; the brokerage logo appears where the local board and the brokerage require it, as compliance.md says.*
 
 ## Inventory (the brand chat — what exists, one question at a time)
@@ -12,11 +12,11 @@
 - **Leader brand vs selling brand:** [one brand, my name, with a leader lane (default) · separate leader brand · separate and already built]
 - **Organization name:** [none — just me · "[name]" alongside my own name · both lockups wanted]
 - **Brokerage brand constraints:** [what must appear, where, how big — from compliance.md; the brokerage's colors: [hex] — ours stay distinct from these]
-- **Examples:** [uploaded to Brand HQ · none yet] — [what they dropped: past pieces · their current profile · a logo · screenshots of brands they admire; the design skills study them for direction and never copy]
+- **Examples:** [shared · none yet] — [what they dropped: past pieces · their current profile · a logo · screenshots of brands they admire; the design skills study them for direction and never copy]
 
 ## Direction (the brand chat — DERIVED from the Brain and the three spoken answers; nothing asked)
 **Feel (derived — the member reacts, never composes):** [how the brand should feel to the agents who relate most — drafted from voice-print.md and the spoken answers; the member's correction verbatim if they gave one]
-**References (admired, never copied):** [the examples the member dropped into Brand HQ, if any — what the Brain reads in them; otherwise the three house looks below are the references]
+**References (admired, never copied):** [the examples the member shared, if any — what the Brain reads in them; otherwise the three house looks below are the references]
 **Colors (direction — ~4–5 with hex + role; proposed by the Brain, confirmed by the style sheet):**
 - Dominant: [#hex] — [name] · Primary / brand: [#hex] · Accent (sparingly): [#hex] · Neutral / text: [#hex]
 **Font direction:** [classic · modern · bold — from the Creative direction] — proposed pairing: [Heading / Body]
@@ -35,13 +35,13 @@
 **Tests:** authority [how the direction answers it] · relatability [how] · aspiration [how]
 **Member's reaction:** [confirmed as proposed · changed: … · "(default — change anytime)" when they skipped]
 
-## The Design Package (Week 1) — status
+## The Design Package (Week 3) — status
 - [ ] `aa-logo-design` [skipped — logo loved as-is / done YYYY-MM-DD] · [ ] `aa-style-sheet-design` [done YYYY-MM-DD · locked look: [name]] · [ ] `aa-brand-kit-design` [done YYYY-MM-DD]
-- **Kit location:** `02 · Brand/` [present / not yet] — once present, `attraction-brain-health` counts it as a Week 1 item and every graphic and the editor read it from there (the Brain Book carries no brand chapter).
+- **Kit location:** `02 · Brand/` [present / not yet] — once present, `attraction-brain-health` counts it as a Week 3 item and every graphic and the editor read it from there (the Brain Book carries no brand chapter).
 
 ## Design Package brief (last issued YYYY-MM-DD · saved to `02 · Brand/Design Package Brief · [Name] · [date].md` [saved / connector off — kept here only])
 AGENT ATTRACTION DESIGN PACKAGE — [First Last] · issued [YYYY-MM-DD]
-Run these three Claude Design skills this week, in this order, inside your Brand HQ project:
+In your Week 3 Claude Design session, run these three skills in this order (Mike walks you through where they live):
 1. aa-logo-design — SKIP THIS if you love your logo (use it exactly as-is). Refresh mode if it's "not quite right": change only [the one thing flagged]. Build mode if there's no logo: [logo direction].
 2. aa-style-sheet-design — palette [hex + roles], fonts [direction], feel [words], distinct from [brokerage palette].
 3. aa-brand-kit-design — profile and banner graphics, [one logo version / two logo versions: member name + organization name].
@@ -56,7 +56,7 @@ Photos: [clean cut-out / moody / bright] — [why]
 Motifs: 1. [ ] · 2. [ ] · 3. [ ]
 Avoid: never looks like the brokerage · never a listing flyer · never a tech startup · never a luxury-only brand · [the member's own line]
 Reference recipes: 1. [look] — [why] · 2. [look] — [why] · 3. [look] — [why]
-Examples: [uploaded to Brand HQ / none yet]. Drop anything you have made before, your current Instagram, a logo, or screenshots of brands you admire into your Brand HQ project in Claude Design; the design skills study them for direction and never copy.
+Examples: [shared / none yet]. Bring anything you have made before, your current Instagram, a logo, or screenshots of brands you admire to the Claude Design session; the design skills study them for direction and never copy.
 Compliance on every public graphic: [brokerage-name display + license display from compliance.md] — or: NOT SET YET; say "paste my compliance link" in Cowork (two minutes) before any graphic is published.
 Upload your Brain Book as the "AI Brain file" when a skill asks for it (it tells the design skills who you are; this brief tells them your brand).
 When the kit is finished, drop every file into 02 · Brand so the editor, the thumbnails, and every graphic read it.

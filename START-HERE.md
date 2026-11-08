@@ -8,15 +8,15 @@ In Claude Cowork (all UI, nothing to type):
 `teamsherrard/claude-agent-attraction-os` → **Install Plugin 1 (Agent Attraction Brain)** → toggle **Sync automatically**.
 *(Install the Support plugin too; the rest arrive as you reach them in your training.)*
 
-### 2. Build your Brain and your brand (one time, Week 1)
+### 2. Build your Brain (one time, Week 1)
 Say:
 ```
 Set up my attraction brain
 ```
 About 45 minutes to an hour: four short conversations, one plain question at a time, then three answers out loud. You can pause
 anytime; it saves as you go. At the end you get your Agent Attraction Brain Book (nine short sections, about a dozen pages) and
-your home base folder in your own Google Drive or OneDrive. Then, in a second chat the same week, say `my attraction brand
-direction` for your brand and the brief for your brand kit in Claude Design.
+your home base folder in your own Google Drive or OneDrive. Week 2 is your offer and your lead magnet; your brand and Claude Design come in Week 3 (`my attraction brand
+direction`).
 
 ### 3. Use it
 Everything already knows you:

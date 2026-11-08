@@ -6,7 +6,7 @@ description: >
   Mike's four conversations one plain question at a time (who you are as a leader · your unique
   approach · your story and your proof · your current and future state) plus three spoken answers in
   their real voice; writes it all into the Brain, derives who their story speaks to, renders the
-  Brain Book, hands over the Project Seatbelt, names the brand chat and Week 2. Never asks about
+  Brain Book, hands over the Project Seatbelt, names Week 2. Never asks about
   CRM, booking links, scheduled tasks, compliance, brand, agent type or where they attract; never
   re-interviews a built Brain. Trigger on: "set up my attraction brain", "set up my agent attraction
   brain", "build my agent attraction brain", "launch the agent attraction OS", "open my attraction
@@ -131,7 +131,7 @@ structure (plan §4):
 │   ├── avatars.md                                                (who your story speaks to — DERIVED, never asked)
 │   ├── goals.md                                                  (today · 12 months · long term · hours)
 │   ├── voice.md  voice-samples.md  voice-print.md                (how you sound — from the three spoken answers)
-│   ├── brand-visual.md                                           (the brand chat, Week 1 — a second chat)
+│   ├── brand-visual.md                                           (the brand chat, Week 3 — with Claude Design)
 │   ├── compliance.md  operations.md                              (on demand · Week 2 — status lines only at setup)
 │   ├── prospect-intel.md  brokerage-model.md  leadership.md  execution-framework.md  content-pillars.md   (later, on demand)
 │   └── publishing.md  profiles.md  channel.md  sales-system.md    (scaffolded empty — Weeks 2–5 fill them)
@@ -143,7 +143,7 @@ structure (plan §4):
 **The first-run completeness set — the TWELVE** (what resume and `attraction-brain-health` judge on):
 `profile · journey · strategy · story-bank · proof · offer (seeds) · positioning (the seed line) ·
 goals · voice · voice-samples · voice-print · avatars (derived)`. Everything else is a legitimate
-placeholder after a perfect first run: `brand-visual` is the brand chat (this week, a second chat);
+placeholder after a perfect first run: `brand-visual` is the brand chat (Week 3, with Claude Design);
 `compliance` is on demand ("paste my compliance link"); `operations` is Week 2; `prospect-intel`,
 `brokerage-model`, `leadership`, `execution-framework` are later or on demand; `content-pillars` is
 Week 3; every `memory/` ledger fills as they work. Never count any of those against a Brain, never
@@ -153,7 +153,7 @@ report them as missing.
 booking links · scheduled tasks and their timing (the Daily Debrief is offered on demand and on the AI
 Admin's Week 5 card) · compliance (on demand — `attraction-compliance`, "paste my compliance link") ·
 the operations rhythm (Week 2 — `attraction-operations`; the booking page is built with the member by
-the Conversion plugin's `sales-booking-page`) · the brand (the second Week 1 chat —
+the Conversion plugin's `sales-booking-page`) · the brand (Week 3, alongside Claude Design —
 `attraction-brand-direction`) · which type of agent they attract · where they can attract · money math
 (`attraction-rev-share-calculator`, on demand, never in the Book). If a member raises one of these,
 answer in one line with the phrase that opens it, and continue.
@@ -605,20 +605,19 @@ Checkpoint: *"5 of 5 — I've got your voice. Building your Book now."* Push. St
    AI reads; leave that one alone"* — never the folder's name), then exactly this, in your own warm
    words:
 
-   > Two things next. **This week**, in a new chat, say **"my attraction brand direction"** — that's
-   > your brand (logo, colours, fonts, the brief for Claude Design), built from your Book and how you
-   > talk. **Next week**, your lead magnet plugin builds your offer — your unique value proposition —
-   > and then your lead magnet. That's also when your booking link, your CRM and your tools get set
-   > up.
+   > That's Week 1 done. **Next week** is your offer — your unique value proposition — and then your
+   > lead magnet: when Week 2 opens, say **"build my partner offer"** (or **"launch my lead magnet
+   > plugin"**, which builds the offer first). That's also when your booking link, your CRM and your
+   > tools get set up. Your brand and Claude Design come in **Week 3** — nothing to do on that yet.
 
    Nothing else: no open-items list, no scorecard, no Debrief offer, no compliance line, no Design
-   Package brief (the brand chat issues it), no READY BRIEF (that is for "open my attraction brain"
+   Package brief (the Week 3 brand chat issues it), no READY BRIEF (that is for "open my attraction brain"
    on a later day). If the member asks about any of those, one line with the phrase that opens it.
 
 *(Front-door rule: if a member with several Agent Attraction OS plugins installed says "set up
-everything" / "onboard me to agent attraction", Brain Setup runs FIRST — then name the brand chat
-and list the other systems' setups in cohort order: Lead Magnet (Week 2, after the offer) · Short-Form
-· Riverside · YouTube · Conversion & Sales · AI Admin · Events.)*
+everything" / "onboard me to agent attraction", Brain Setup runs FIRST — then name Week 2
+and list the other systems' setups in cohort order: Lead Magnet (Week 2, after the offer) · the brand chat,
+Short-Form and Riverside (Week 3) · YouTube · Conversion & Sales · AI Admin · Events.)*
 
 ---
 

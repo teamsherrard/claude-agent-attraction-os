@@ -34,9 +34,11 @@ magnet for agents' and the brief comes right after."* → `lm-navigator`. Never 
 - `identity/brand-visual.md` → **Final kit** (logo file in `02 · Brand`, colors with roles, fonts, headshot),
   **Direction** (feel in 2–3 words, references, tagline), **Brokerage brand constraints** (what must appear,
   where, how big — and the brokerage's own colors, which ours stay distinct from). If the Final kit is empty
-  (the Design Package hasn't run), say so in one line — *"Your brand kit isn't built yet — the Design Package
-  is Week 1's design session; I'll write the brief from your direction and the designer can run the kit
-  first."* — and brief from Direction. Never invent a hex code.
+  (the Design Package hasn't run), say so in one line — *"Your brand kit isn't built yet — that's Week 3, with Claude Design; I'll write the brief from what your
+  Brain knows, and the Week 3 kit restyles it later."* — and brief from Direction when the brand chat has run.
+  With no Direction at all (the normal Week 2 case), brief a clean neutral look: the member's headshot, one dark
+  text colour, one accent the member names (else none), the brokerage logo only where compliance requires it —
+  and say the Week 3 kit replaces it. Never invent a hex code.
 - `identity/compliance.md` → the stamp (brokerage name, license display, disclaimer verbatim) and the logo
   rule. The gate already passed when the magnet was written; re-check `Status` isn't `unset` — a design can't
   ship a guide that can't.
