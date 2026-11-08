@@ -45,7 +45,8 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
   unique mechanism, the Teach-first lessons (lesson 1's template is usually the magnet's spine), the seven parts
   (`## The seven parts`; an older offer carries them as the `Core promise · …` line under `## The Partner Offer`), the
   five-pains table, and — for the closing page — what's included (as outcomes), the first 30 days,
-  the booking line and "what the call is." **Read the header's `Join-gated package allowed:` line** (house
+  the booking line and "what the call is." Also `## Start with your upline`: the upline's package, labeled as the
+  upline's on the closing page ("we, not me"). **Read the header's `Join-gated package allowed:` line** (house
   rules #5): `no` or `unknown` (or missing) → the closing page leads with what the member teaches, their story
   and their mentorship, never "join me and get X". Apply **house rules #2's three states** (seeds / missing /
   placeholder → the offer is built first, in this session, through the navigator's Step 1 — never a "come
@@ -171,11 +172,15 @@ never a `[` bracket token. The parts, in order:
    its cadence from `## The program` and the deliverables table's rows as outcomes when the offer has them; what's
    included otherwise) · the brokerage line ("and
    everything [Brokerage] provides — I walk you through that on a call") · `Proof:` one real, consented point
-   if there is one (else omit the label) · the third `Call to action:` with the booking link (none on file yet → "reply to the email this came with
-   and I'll send you times"; house rules #2) — it belongs here, in the page's Book-a-call area and on the
-   thank-you page. No compensation, no "join [brokerage]," no urgency. **At
+   if there is one (else omit the label) · the third `Call to action:` with the booking link (none on file yet → "email me at [the address in
+   profile.md]" or "message me on Instagram @[handle]" — never "reply", a guide has nothing to reply to; house
+   rules #2) — it belongs here, in the page's Book-a-call area and on the thank-you page. No compensation, no
+   "join [brokerage]," no invented urgency (the offer's honest why-now may appear once, verbatim). **At
    `Join-gated package allowed: no` or `unknown`** the close is what the member teaches, their story and how
-   they mentor — offered to any agent who wants to learn it; nothing reads "join me and get X".
+   they mentor — offered to any agent who wants to learn it; nothing reads "join me and get X". The shape is
+   Mike's iceberg close (`15-advanced-scaling/73`): what's here is the tip; the full system, the mentorship and
+   the community sit below the water — free when you partner (at `yes`) or open to any agent who wants to learn
+   it (at `no`/`unknown`) — then the one call to action.
 6. **The back page — `THE BACK PAGE`.** `Contact:` (email · phone · website — only what the Brain holds) ·
    `Socials:` (real handles; omit the line if none) · `Last updated:` (when the shape states facts that can
    change) · `Compliance:` (brokerage name and license display as `compliance.md` requires; the disclaimer
@@ -184,7 +189,7 @@ never a `[` bracket token. The parts, in order:
 
 **The three calls to action — exactly three, written as `Call to action:` lines so the gate can count them.**
 All in the member's voice, all a conversation (book a call, "grab 20 minutes with me") — never compensation,
-never "join my brokerage," no urgency: (1) the soft mid-document line on ONE body page — the page that most
+never "join my brokerage," no invented urgency: (1) the soft mid-document line on ONE body page — the page that most
 needs a walkthrough (the numbers page, the template page, the step most agents get wrong): *"If you want me
 to walk you through this on your own numbers, grab 20 minutes with me — the link's on the last page."* (no
 link); (2) the "what to do next" page's line (no link); (3) the closing page's line with the booking link
@@ -235,6 +240,7 @@ COMPLIANCE` appendix. `Status: set` → one reminder to confirm with their broke
 paste a bracket token into the doc. If a line can't pass, rewrite it or cut it — never ship it.
 
 ## Phase 4b — The quality gate (run before saving — every check, every time)
+First the executable half: `python3 "${CLAUDE_PLUGIN_ROOT}/shared/measure_copy.py" <the structured text> --kind magnet` — words against the floors, exactly three calls to action, bracket tokens, leaks, the reading grade. Fix every ✗ and re-run; then the checks below by hand.
 Walk the finished document against this list. **If a check fails, fix it and re-run the list once.** If
 something still fails after the second pass, don't loop — ship what's honest and say in one plain line what
 is still thin and why (*"proof is light — I wrote it honestly without a number; when Priya's OK is in, say
@@ -272,13 +278,14 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
     activity targets, never income · mini-course: three "after this you can" lessons · questions guide: the
     member's real questions first · worksheet: the reader's rows blank, no income figure, no vendor named ·
     case study: consent on file, nothing improved · challenge: five activities, day five the check-in). The
-    `▸ NEXT` appendix carries the intake block's `Mike's lesson:` line once, for the member's reference —
-    never in the body, never in chat.
+    lesson that grounds the pick stays in the Brain's intake block — never in the document, never in chat.
 17. Demo mode only: every production, money, ratio or count figure tagged "(illustrative — demo)"; the
     document complete at every floor.
 
 ## Phase 5 — Deliver, save, log, hand off
-1. **Deliver in chat** — the full content, cleanly laid out and ready to use.
+1. **Deliver in chat** — the link to the saved document, the cover title and hook, and five lines on what is
+   inside; the full text only when the member asks ("show me the full guide"). Never a wall of text (house
+   rules #1) — a 70-year-old reads the link and the five lines.
 2. **Save to the workspace** following `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: the campaign
    folder `03 · Content/Guides/[YYYY-MM-DD · Magnet Name]/`, the doc `Lead Magnet — [Magnet Name]` (the
    output standard's "Guide Name" is the magnet's name — a checklist or a plan is still named this way;
@@ -287,8 +294,9 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
    saved, retry once, the chat copy is the deliverable; keep going.
 3. **Log it in the Brain (silently — never narrate this or name a file, house rules #1).** In
    `~/attraction-brain/memory/magnets.md` (create it from the locked shape in `shared/brain-contract.md` if
-   the Brain predates it): add the row — `[YYYY-MM-DD] · [Magnet Name] · [type of agent] · [pain] · written ·
-   [campaign folder] · — · GUIDE · — · — · [date]` (or move the `planned` row to `written`), and set
+   the Brain predates it): add the literal row — `| YYYY-MM-DD | Magnet Name | type of agent | pain | written | campaign folder |
+   not live yet | GUIDE | — | — | YYYY-MM-DD |` (a pipe row, never dots — the Brain Board reads the table; or
+   move the `planned` row to `written`), and set
    **`## Current magnet` to this magnet in the block's EXACT shape** — one line: `**[Magnet Name]** · keyword:
    GUIDE · funnel URL: not live yet · download link: not live yet · for: [type of agent] · as of [YYYY-MM-DD]`
    — this is how the Short-Form, YouTube, Conversion, and Events systems (they arrive in Weeks 3–6 and read it
@@ -300,11 +308,9 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
    plugin's `config.md` block if it isn't there. Then **attraction-brain-sync PUSH** (write → push → verify).
    This skill never writes `offer.md`, `content-log.md`, or `scorecard.md`.
 4. **Hand off to Step 2:** *"That's your [magnet, in plain words] done — [one line on what makes it only
-   yours: e.g. the exact routine you run, not a generic list]. Want me to write the page that gives it away —
-   your sales funnel outline? It'll present this exact guide."* (runs `lm-funnel`, pointing it at this
-   magnet doc). One line after: *"Once the page copy is done, say 'design brief for my guide' and I'll write
-   what your design step needs for the PDF and the mockup — the page needs the finished PDF before it can
-   go live."*
+   yours: e.g. the exact routine you run, not a generic list]. Now the page that gives it away — your sales funnel outline. Same sitting."* — and continue straight
+   into `lm-funnel` (pointing it at this magnet doc): no question, no stop. The navigator's close names what
+   comes after both; this skill adds nothing.
 
 ## Demo mode
 Only when the session is explicitly a fictional demo — the member framed a fictional member (the OS demo

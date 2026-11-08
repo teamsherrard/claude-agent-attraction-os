@@ -101,7 +101,7 @@
 | 3 | | | |
 | 4 | | | |
 **Done at day 30:** [the three things that are true]
-**How to talk about it:** the four lines — UVP · outcome-led · story-led · mechanism-led · three short lines under 20 words (DM · caption · bio) · booking line: [from operations.md, or "not set yet"] · **Comment keyword:** [ONEWORD] · what the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]"] · lead-magnet seed: [which framework step the free magnet is cut from — or the live magnet's name and keyword from `memory/magnets.md` once one exists]
+**How to talk about it:** the four lines — UVP · outcome-led · story-led · mechanism-led · three short lines under 20 words (DM · caption · bio) · booking line: [from operations.md, or "not set yet"] · **Comment keyword:** [ONEWORD] · **Lead-magnet seed:** Step [N] — [step name] (the framework step the free guide is cut from) · what the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]"] · lead-magnet seed: [which framework step the free magnet is cut from — or the live magnet's name and keyword from `memory/magnets.md` once one exists]
 
 ## Value stack (owned by `attraction-free-vs-paid`)
 **Rule (`04-value-proposition/31`):** anything evergreen that does not require their time is free to agents who join; anything that requires their time or a team is discounted, and the price is said up front.

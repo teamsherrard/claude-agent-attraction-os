@@ -34,7 +34,9 @@ public-facing), #9, #12 (draft-only). Copy standard: `${CLAUDE_PLUGIN_ROOT}/shar
 Pull the Brain (house rule 2). `identity/compliance.md` (**the gate — unset stops here**; recruiting scope;
 the inducement line — nothing the member writes offers a referral fee or an inducement), `identity/profile.md`
 (name, brokerage as required, market, booking link), `identity/offer.md` (what the member gives agents — as
-outcomes — and the UVP one-liner; this is what the partner needs to be able to repeat), `identity/avatars.md`
+outcomes — and the UVP one-liner; this is what the partner needs to be able to repeat; the header's `Join-gated
+package allowed:` line — at `no` or `unknown` the partner passes along what the member teaches and the free guide,
+never a package for joining), `identity/avatars.md`
 (the type of agent, so the partner knows who to send), `identity/proof.md` (one credibility line; agents
 helped, consent), `identity/voice.md` + `voice-samples.md`, `identity/operations.md` (signature, the weekly
 call — the thing partners can invite agents to), `memory/magnets.md` → `## Current magnet` (the guide they can
@@ -73,8 +75,8 @@ For each partner (or each role, if they'd rather personalize by hand), in the me
 1. Deliver in chat, one block per partner (or role), paste-ready.
 2. Save `Partner Outreach Kit — [YYYY-MM-DD]` into `04 · Agents/Prospects/` (output standard §4–§6; fallback
    applies).
-3. `memory/list-growth.md` → `## Partners`: a row per partner (`[first name] · [role] · listed · [what they
-   pass along] · 0 · —`); when the member says they sent it → `reached out`; an introduction → `Intros so far`
+3. `memory/list-growth.md` → `## Partners`: a row per partner (the pipe row `| first name | role | listed | what they pass
+   along | 0 | — |`); when the member says they sent it → `reached out`; an introduction → `Intros so far`
    +1 and `active`; a thank-you sent → `thanked`. **attraction-brain-sync PUSH.** Silent. (An agent a partner
    introduces becomes a Top-50 row through the Brain's capture skill — not this file.)
 4. Close: *"Send these in your own words from your own phone — they're drafts, and these are your people.

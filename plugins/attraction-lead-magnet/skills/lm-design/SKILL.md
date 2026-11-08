@@ -3,7 +3,7 @@ name: lm-design
 description: >
   Writes the paste-ready design brief that turns the member's written agent-attraction lead magnet
   into a styled PDF with a cover and a 3D mockup — for the Design Studio's aa-lead-magnet-design skill in
-  Claude Design (aa-offer-kit-design's product mockup piece for the mockup alone). Reads the finished magnet doc and the
+  Claude Design. Reads the finished magnet doc and the
   brand from identity/brand-visual.md (logo, colors, fonts, headshot; the leader brand distinct
   from the brokerage's colors; the brokerage logo where compliance requires it), names the files
   to upload (the magnet doc + the newest Brain Book), and states what the designer must not change
@@ -11,7 +11,8 @@ description: >
   in the campaign folder; marks the magnet "designed" once the member confirms the PDF. Brief only
   — never renders anything.
   Trigger on: "design brief for my guide", "make my guide a PDF", "mockup for my agent
-  lead magnet", "cover for my guide", "hand my guide to design", "3D mockup of my guide".
+  lead magnet", "cover for my guide", "hand my guide to design", "3D mockup of my guide", "the PDF is done",
+  "my guide is designed".
 ---
 
 # Design Brief — the hand-off to the Design Studio
@@ -53,13 +54,13 @@ In chat, as one block the member copies into Claude Design, **and** rendered to 
 ```
 DESIGN BRIEF — [GUIDE NAME]
 [Name] · [Brokerage] · [Date]
-Paste this into Claude Design — with the Design Studio's lead magnet skill (aa-lead-magnet-design) loaded if you have it; without it, this brief is complete on its own. Upload: Lead Magnet — [Guide Name].docx and 📕 [Name]'s Agent Attraction Brain Book — [newest date].docx.
+For your Week 3 design session in Claude Design (the Design Studio's lead magnet skill reads this same brief if you have it; without it the brief is complete on its own). Upload: the Lead Magnet — [Guide Name] document and 📕 [Name]'s Agent Attraction Brain Book — [newest date].docx.
 
 ────────────────────────────────────────────
 WHAT TO BUILD
 •  A styled PDF of the guide: cover + one interior page per "── PAGE N - TITLE ──" block + the closing page ("How [First name] helps next") + the compliance footer.
-•  A 3D mockup of the finished guide (cover art, slight angle, transparent background) for the opt-in page, Reels, and stories — plus a flat cover image.
-•  Format: letter / A4 per Locale, portrait; phone-readable at 100%.
+•  A cover image for the opt-in page, Reels and stories: the flat cover page, exported from the PDF. A 3D mockup only if the tool can export it as a picture (Claude Design exports PDF, not pictures — the flat cover is the dependable version).
+•  Format: letter or A4 to match where you are, portrait; phone-readable at 100%.
 
 ────────────────────────────────────────────
 WHO READS IT
@@ -88,11 +89,11 @@ INTERIOR RULES (the designer must not change these)
 
 ────────────────────────────────────────────
 THE MOCKUP
-3D book/booklet mockup of the cover, slight angle, soft shadow, transparent background (PNG) · a square crop for Instagram · a 9:16 crop for stories (the Short-Form plugin uses these from Week 3) · the flat cover as a separate PNG.
+The flat cover as its own page in the PDF (export that page as the cover image) · if the tool can export pictures: a square crop for Instagram, a 9:16 crop for stories (the Short-Form plugin uses these from Week 3) and a 3D booklet mockup with a soft shadow. The flat cover is enough to go live.
 
 ────────────────────────────────────────────
 WHEN IT'S DONE
-Save the PDF, the mockup PNGs, and the flat cover into 03 · Content/Guides/[campaign folder]/ · upload the PDF somewhere linkable (the thank-you page's download button points at it) · then tell me "the PDF is done" so I can mark it and the funnel can go live.
+Save the PDF (and any cover images) into the same Guides folder as the guide in your drive · share the PDF "anyone with the link" — that link is the thank-you page's download button · then tell me "the PDF is done" so I can mark it and the funnel can go live.
 
 ════════════════════════════════════════════
 ▸ COMPLIANCE
@@ -103,10 +104,12 @@ Write the real values in — never a `[` bracket token in the brief the member c
 write the Direction values and say "from your brand direction — the kit will replace these."
 
 ## Step 3 — Deliver, save, mark
-1. Deliver the brief in chat as one copyable block, then: *"Paste that into Claude Design and upload the two
-   files it names — it builds the PDF and the mockup from the brief. (If you've added the Design Studio's lead
-   magnet skill, it reads the same brief.) When it's done, say 'the PDF is done' and I'll mark it so your page can
-   go live."* Never make the member go find a skill first; the brief carries every spec.
+1. Deliver the brief in chat as one copyable block, then: *"Keep this for your Week 3 design session in Claude
+   Design — paste it in, upload the two files it names, and it builds the PDF and the cover from the brief. (If
+   you've added the Design Studio's lead magnet skill, it reads the same brief.) Until then, the clean PDF you
+   download from the guide document is the one to share. When the designed one is done, say 'the PDF is done' and
+   I'll mark it."* Never make the member go find a skill first; the brief carries every spec.
+   **"the PDF is done" / "my guide is designed" on a later day** → step 3 only; nothing is rewritten.
 2. Save `Design Brief — [Guide Name]` into the campaign folder (output standard §6; fallback applies).
 3. **When the member confirms the PDF exists:** in `memory/magnets.md`, move the row's Status to `designed`
    (never backwards) and set `## Current magnet` → download link if they give it. **attraction-brain-sync

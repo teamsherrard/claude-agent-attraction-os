@@ -62,7 +62,7 @@ as the Brain Book spec tags them in anything written to the Brain).
 - `memory/ideas.md` (tag `leadmagnet`, status open) — **the member's own ideas come first.**
 - `memory/magnets.md` — what exists, its status, opt-ins and calls booked so far (what converted).
 - `identity/compliance.md` — the compensation policy line (whether a rev-share explainer is even
-  available) and recruiting scope (whether a leader's guide can mention moving a team).
+  available) and the franchise look-period note for a broker-owner shape.
 - `${CLAUDE_PLUGIN_ROOT}/skills/lm-magnet/references/magnet-guide.md` → "The shapes" — every shape with its
   page structure, its lane and its default pairing of type and pain.
 
@@ -113,8 +113,8 @@ recommendation and the next best come from the kinds that do.
 4. **The member's own ideas** — an open `leadmagnet` idea that passes 1–2 outranks anything you'd invent, in
    whichever kind it belongs.
 5. **Compliance** — a rev-share explainer only if the policy line allows public rev-share content
-   (structure only, no figures, the income disclaimer appended); a leader's switching guide only inside the
-   recruiting scope, with the franchise look-period rule stated; nothing that names another brokerage; a
+   (structure only, no figures, the income disclaimer appended); a leader's switching guide with the franchise look-period rule stated (recruiting scope is anywhere — never
+   a limit); nothing that names another brokerage; a
    case study only with consent on file.
 6. **Achievable this week** — one document the member can get written, designed and on a page by Friday;
    the simpler of two equals wins (Mike: simple and achievable).
@@ -133,7 +133,7 @@ into a title.** One search for the recommendation; one more only when "another i
 then stop. **Demo brain → no search**; titles are written from the house list of what agents type (the three
 examples above and the shapes' promise lines).
 
-**Title rules:** under 12 words; a number or an outcome in it; the reader's words, never the member's jargon
+**Title rules:** seven words or fewer (the same words become the cover title, the campaign folder and the funnel headline — one name, set here); a number or an outcome in it; the reader's words, never the member's jargon
 or the framework's internal name; it becomes the magnet's name (the `## Current magnet` block, the campaign
 folder, the funnel headline), so it is final once the member says yes.
 
@@ -157,7 +157,8 @@ Why Mike would pick it" blocks, no second card in the same message. Cap: 120 wor
 
 **The reply:** a **yes** (or silence, or "you pick") → the recommendation is locked. **"Another idea"** → the
 next best, in the same card shape, one at a time — a different kind of thing, a different framework step — at
-most two rounds, then hold your pick kindly with one line why (house rules #9); the member always has the last
+most two rounds (the second card says so: *"this is the other one I'd consider — after this I'd go with my first
+pick"*), then hold your pick kindly with one line why (house rules #9); the member always has the last
 word. **A different idea of their own** → size it against Step 3 in one line; if it fits, take it (*"That
 works — it's something you've done and it answers the pain. Let's build it."*); if it breaks compliance or
 isn't something they can teach, say so kindly and hold your pick. A member who arrived naming a shape ("a
@@ -165,15 +166,16 @@ switching checklist", "a 90-day plan for new agents") gets it sized the same way
 recommendation.
 
 ## Step 5 — Lock it and hand off (silent write)
-Add a `planned` row to `memory/magnets.md` — `[YYYY-MM-DD] · [Magnet title] · [type of agent] · [pain] ·
-planned · — · — · GUIDE · — · — · [date]` (the locked row shape — it carries no citation column, so the lesson
-rides with the intake block below) — and, if the pick came from `memory/ideas.md`, mark that idea **used**
+Add a `planned` row to `memory/magnets.md` — the literal pipe row `| YYYY-MM-DD | Magnet title | type of agent |
+pain | planned | — | — | GUIDE | — | — | YYYY-MM-DD |` (create the file from the locked shape in
+`shared/brain-contract.md` if the Brain predates it; the row carries no citation column, so the lesson rides with
+the intake block below) — and, if the pick came from `memory/ideas.md`, mark that idea **used**
 (status column only). **attraction-brain-sync PUSH** (write → push → verify). Then hand back the **locked
 focus**: the title · the kind (tool · plan · decision or proof) · the shape · the type of agent · the one pain
 · the single core promise (the card's sentence) · "built from: [the framework step and its tool or template —
 or, for a plan, the program's phases — or, on an older offer, the UVP mechanism or Teach-first lesson]"
 · **"Mike's lesson: [module/lesson — title]"** — the ONE lesson that grounds the pick, cited only where it
-resolves in the Support plugin's lesson index (`plugins/maa-claude-support/shared/kb/kb-index.md`): the
+resolves in this plugin's `${CLAUDE_PLUGIN_ROOT}/shared/lesson-index.md`: the
 lead-magnet lessons `15-advanced-scaling/73 — Building an email list` and `12-simple-tech-stack/84 — Social
 Media to Nurture`; the grounding for WHICH magnet, `04-value-proposition/27 — Identifying Your Niche`, `/31 —
 Free vs. Paid`, `/32 — Features vs. Benefits`, `/33 — Building Your Irresistible Offer`; the type's lesson

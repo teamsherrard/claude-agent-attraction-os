@@ -123,7 +123,7 @@ PARTNER section and the call presentation. Read the first line of `identity/comp
 **Set / confirmed** → proceed under its rules. **Unset** → build and write the Brain file in full, deliver
 the document to the member, but hand over the public-facing lines (the one-liner, the four lines, the three
 short lines, the doc) with one plain sentence: *"Before any of this goes public, your compliance rules need
-setting — say 'set up my attraction compliance', five minutes."* An unset gate never means "go ahead".
+setting — say 'set up my attraction compliance', two minutes."* An unset gate never means "go ahead".
 
 ---
 
@@ -332,7 +332,7 @@ section in `offer.md`; none is asked except the one question below.
   a call), the public lines use the `no` register, and the section names the one check. **The band names never
   change** (downstream systems key on them); the register inside them does. The flag is read by every public
   writer — the Lead Magnet plugin's magnet and funnel, the bios, the content engines.
-- **The marketing language** (`## How to talk about it`, rendered in the appendix) — outcome-based, in the
+- **The marketing language** (`## How to talk about it`, rendered in the appendix; its last line is `Lead-magnet seed: Step N — [name]`, the framework step the free guide is cut from — the Lead Magnet plugin reads it) — outcome-based, in the
   member's voice (`voice.md`), none of the banned words, in the register the brokerage rule sets: the four ways
   to say it (the UVP · outcome-led · story-led · mechanism-led) · **the 30-second explanation** (60 to 90 words —
   what the member says when an agent asks "so what do you actually do?": who I help, what they get, how, what

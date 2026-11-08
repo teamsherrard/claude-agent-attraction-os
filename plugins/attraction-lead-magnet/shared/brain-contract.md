@@ -71,7 +71,7 @@ plugin never reads or writes it.
 ## What this plugin writes (one owner per file)
 | File | Owner skill | Also writes (designated section / append only) |
 |---|---|---|
-| `memory/magnets.md` | `lm-magnet` (creates the file on first run if the Brain predates it; writes the row and the intake block) | `lm-navigator` writes the intake block; `lm-magnet-ideas` adds a `planned` row; `lm-design` → Status `designed`; `lm-funnel` → funnel URL + Status `live` (once the member confirms the page is up); `lm-delivery` → keyword; `lm-analytics` → opt-ins, calls booked, last reviewed |
+| `memory/magnets.md` | `lm-magnet` (creates the file on first run if the Brain predates it; writes the row and the intake block) | `lm-navigator` writes the intake block; `lm-magnet-ideas` adds a `planned` row; `lm-design` → Status `designed` and the `## Current magnet` download link; `lm-funnel` → funnel URL + Status `live` and the intake block's `Funnel doc:` stamp (once the member confirms the page is up); `lm-delivery` → keyword; `lm-analytics` → opt-ins, calls booked, last reviewed |
 | `memory/list-growth.md` | `lm-nurture` (creates the file; the header, the nurture-sequence table, the newsletter status) | `lm-analytics` appends weekly rows; `lm-partnerships` owns the `## Partners` table |
 | `identity/profiles.md` | **`lm-profiles` (Week 2)** — writes it FIRST (the user's ruling, 2026-10-10): creates the file with the five Short-Form headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube`), the bio text inside each aligned to the funnel's CTA, then its own extra platforms appended AFTER the five; bios are Week 2 homework | the Short-Form plugin's `sf-setup` (Week 3) is the **updater of its five sections**: it refreshes the bio text inside those headings, preserves every extra section `lm-profiles` added and every italic update line, and never deletes or reorders a heading; `yt-setup` fills `## YouTube` (Week 4). A later `lm-profiles` run reads the file if present and refines inside the same headings |
 | `memory/ideas.md` | the Brain's `attraction-capture` | this plugin marks a `leadmagnet` row **used** — status column only, same row shape |
@@ -98,12 +98,13 @@ the weekly check-in reads it; it never appends a scorecard row itself), `memory/
 |---|---|---|---|---|---|---|---|---|---|---|
 
 ## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks)
-- Shape: [ ] · Lane: [tool · plan · decision or proof] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Mike's lesson: [module/lesson — title] · Taken: [ ]
+- Shape: [ ] · Lane: [tool · plan · decision or proof] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Mike's lesson: [module/lesson — title] · Funnel doc: [YYYY-MM-DD or —] · Taken: [ ]
 ```
 The `## Current magnet` block's one-line shape above is read by every other plugin (`sf-comment-to-dm`,
 `yt-leads`, `cv-conversation-starter`, the Events skills, the YouTube CTA line) — its field order never
 changes. The intake block is shape-generic (one per magnet; a comparison-shaped guide's "Draws from" holds
-the member's own trade-off and the model types covered). The `Lane:` and `Mike's lesson:` fields were added
+the member's own trade-off and the model types covered). The first real intake REPLACES the template's placeholder block (never kept beside it); `Funnel doc:` is stamped by
+`lm-funnel`. The `Lane:` and `Mike's lesson:` fields were added
 2026-10-18: the lesson that grounds the pick is cited here and in the magnet document's appendix, never on
 the member's screen (the locked row above has no citation column and does not change); an older block
 without them is read as before.
@@ -184,8 +185,10 @@ newest is current. Full naming and skeletons: `shared/output-standard.md`.
 
 ## `config.md` — this plugin's block
 Written once by the first skill that runs, under "Later plugins register here": `## Lead Magnet (Week 2)` with
-`Installed: YYYY-MM-DD` · `List tool: [name | none]` · `Live data: [connected | not connected | declined]`
-(the Composio read used by `lm-analytics`; never touched during a first run). The Brain never edits it.
+`Installed: YYYY-MM-DD` · `Live data: not connected` (→ `connected` · `declined`; the read `lm-analytics` may use —
+never touched during a first run) · `GBP: not yet` (→ `claimed YYYY-MM-DD`, written by `lm-gbp`) — three plain lines,
+no brackets, created by whichever skill of this plugin writes first (house rules, the write-back law). The list
+tool lives in `memory/list-growth.md`'s header, not here. The Brain never edits it.
 
 ## Privacy
 Everything in the Brain — agent names, conversations, the organization roster, the list numbers — is the

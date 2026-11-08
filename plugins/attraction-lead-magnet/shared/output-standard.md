@@ -58,7 +58,7 @@ Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS
 | Partner kit | `Partner Outreach Kit — YYYY-MM-DD` | |
 | GBP kit · Profiles | `📍 [Name]'s Google Business Profile Kit — YYYY-MM-DD` · `🪪 [Name]'s Platform Profiles — YYYY-MM-DD` | |
 
-Guide Name = the magnet's name, 2–6 plain words (Title Case) — a checklist or a plan is still named this way,
+Guide Name = the magnet's title exactly as the recommender locked it (seven words or fewer, Title Case) — a checklist or a plan is still named this way,
 and the Design Studio keys on these exact doc-name prefixes (`Lead Magnet — ` · `Opt-In Funnel — ` · `Design
 Brief — `), so they never change. The date is the build date (ISO, so folders sort on their own).
 Every doc in a campaign shares the same Guide Name so the set is unmistakable. Regenerated standing docs carry
@@ -76,7 +76,8 @@ the demo workspace — never into a real member's Guides folder.
   `_attraction-workspace.md` marker). Then find-or-create `03 · Content` → `Guides` → the campaign folder.
 - **Folder (Google):** `create_file` with `mimeType: application/vnd.google-apps.folder` and the right
   `parentId`; capture the returned `id` to use as the parent for what goes inside it. (Microsoft: the
-  connector's create-folder call under the same path.)
+  connector's create-folder call under the same path; if that fails, create the first file with the folder in its
+  path, else save flat — `shared/connectors.md`.)
 - **Document:** write the structured text to a temp file, then render it to a styled `.docx` and upload that:
   `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Name · Brokerage · City]" --eyebrow "Agent Attraction Lead Magnet"`,
   then upload the resulting **`.docx`** into the right folder. The structured text is only the renderer's
@@ -89,10 +90,11 @@ the demo workspace — never into a real member's Guides folder.
 The skill writes the **structured text** below; the shared renderer (`render_doc.py`) turns it into a clean,
 formatted Word doc — real headings, bullet lists, tables, light-grey rules — in **one neutral house style**
 (Arial, pure-black text, no colour, no per-client branding). *(If the script prints `RENDERER-UNAVAILABLE` —
-`python-docx` is not installed — do exactly what it says: **install nothing, never run pip, never retry the
-command**; save the same structured text as a `.md` FILE, upload THAT to the same folder, and tell the member
-in one plain line that the styled version needs the renderer. That is the whole fallback chain: render → `.md`
-upload + the note → done. No second renderer, no retry loop. A plain-text wall pasted into chat is still not an
+`python-docx` is not installed — or the code sandbox itself is unavailable ("workspace unavailable", a script that
+never returns): **install nothing, never run pip, never retry the command**; save the same structured text as a
+plain document (Google: a `text/plain` file, which Drive opens as a Google Doc; Microsoft: a `.txt`), upload THAT to
+the same folder, and tell the member in one plain line — *"saved as a plain version; the styled one comes next
+session"*. That is the whole fallback chain: render → plain upload + the line → done. No second renderer, no retry loop. A plain-text wall pasted into chat is still not an
 acceptable output at any step.)* Write the structured text like this:
 - **Title line**, a light **meta line** (name · brokerage · city · date), then **a one-line PURPOSE line** so
   the member instantly knows what this is and what to do with it — e.g. *"Your page copy + structure, ready
@@ -156,6 +158,7 @@ after a label is copy.
 | `Next step:` | inline | the page's one action | the page's closing strip |
 | `Call to action:` | inline | one of the guide's three calls to action (the closing page's carries the booking link) | a quiet strip on the two earlier pages; the ONE button on the closing page |
 | `Proof:` | list | real, consented results, one per line — or one plain line that there is none yet | a proof row on the page |
+| `Testimonial video:` | list | `URL — first name` per video, only with that agent's consent on file | the video testimonial block beside the proof row; omitted when absent |
 | `Pre-headline:` | inline | one attention line above the hero headline — a question or a fact aimed at the type of agent, never a scarcity claim | the small line above the headline |
 | `Headline:` | inline | the section's headline (the hero's is the page's promise) | the section's headline |
 | `Subhead:` | inline | the hero's supporting line | the hero's subhead |
@@ -289,7 +292,7 @@ Pull quote: ...               (optional)
 SECTION 3 — THE PRODUCT
 Headline: ...
 Bullets:
-   •  ...                     (one line per guide page, each a real outcome — never a tease; 4–9 lines)
+   •  ...                     (one line per guide page, each a real outcome — never a tease; 4–8 lines, one per body page)
 Why it's worth more than free: ...   (the one thing only this leader could have written)
 Image idea: the guide's mockup, LEFT or RIGHT of this stack
 CTA button: "Get the Free Guide"
@@ -401,10 +404,13 @@ Compliance: ...               (the stamp, verbatim)
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
 This doc is the copy + structure. Your design step — Claude Design (with the Design Studio's funnel skill when you have it), your web
-person or your site tool — builds the page from these exact sections and takes it live on Netlify (upload this
-doc, the magnet doc, and your newest Agent Attraction Brain Book); or host it yourself (your site /
-GoHighLevel / Carrd). The form must be a real static Netlify form (the rule is in the funnel guide) or no
-lead is ever captured — test-submit once before sending traffic.
+person or your site tool — builds the page from these exact sections in Week 3's design session (upload this doc, the magnet doc, and
+your newest Agent Attraction Brain Book); or your web person or your site tool builds it (your brokerage site /
+GoHighLevel / Carrd). Whoever builds it: the form must really send you the name and email — test-submit once before
+sending traffic; a page that looks right can still capture nothing.
+Your links: add ?utm_source=bio, google, partner or reel to the page link wherever you post it, so the report can
+tell which door agents came through.
+Swap test: a second pre-headline — [text] — try it for two weeks and tell me which pulled more opt-ins.
 Your video: (only when the Video line says to record) say "my why join me story" in your Brain and it writes the 60-second script; film it, upload it, and paste the link at the design step — until then the page shows your headshot in that spot. A longer 2-to-3-minute version of the same story works there too, once you have one.
 Assets to gather:  the guide's mockup/cover (The Product §3) · 8–12 proof-strip photos (Proof §8) · headshot (Hero and Who I Am) ·
    the video link (Hero §1, if filmed) · 2–3 YouTube links (Proof §8, only if you have a channel) · social handles (the footer, if used) · logo (header/footer) · the finished guide PDF
@@ -435,5 +441,5 @@ last. Their section lists live in each skill.
    hand-off). Never loop on retries, never upload the raw text, never treat a failed save as a failed build.
    The funnel can read the magnet from chat or from the member pasting it if the doc isn't in the workspace.
 
-Deliver the copy in chat too — the member often takes it straight to their design step. The workspace docs
-are the organized record they (and their assistant) can always find.
+In chat, deliver the link, the title and a five-line summary — the full text only when the member asks. The
+workspace docs are the deliverable and the organized record they (and their assistant) can always find.

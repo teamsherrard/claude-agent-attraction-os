@@ -43,13 +43,12 @@ Week 1 opens Tuesday, November 3, with onboarding and Mike's Q&A; the coaches' t
 | Foundation & Recruitment Mindset (13 lessons · 91 min) | Welcome to Master Agent Attraction · My Story and What You Can Learn From It · What Is Agent Attraction vs. Recruiting? · How to Navigate This Program · How to Guarantee Success and a Return on Investment · The New Age of Real Estate · The New Era of Cloud-Based Brokerages · From Agent to Leader: Shifting Your Identity · The Residual Income Vision · How to Set 30-60-90 Day Attraction Goals + 1 Year Milestones · 1 Agent Can Change Your Life · Get Clarity on Your WHY · Books I Recommend Reading |
 | Market Analysis & Prospect Targeting (9 lessons · 84 min) | Understanding Agent Movement Patterns · Videos Don't Attract Agents; Agents Attract Agents · Bridging the Gap (Not Pitching) · Persona 1: New Agents · Persona 2: Experienced Agents (Low Production) · Persona 3: Top Producers · Persona 4: Influencers · Persona 5: Team Leaders · Persona 6: Broker Owners |
 
-**What you plug in this week:** the AI Brain and the Support system (install first), then the brand chat and the Design Package. **Switched on whenever you ask:** the Daily Agent Attraction Debrief ("turn on my daily debrief" — it is never part of the Brain intake).
+**What you plug in this week:** the AI Brain and the Support system (install first), (the brand chat and the Design Package come in Week 3, with Claude Design). **Switched on whenever you ask:** the Daily Agent Attraction Debrief ("turn on my daily debrief" — it is never part of the Brain intake).
 
 ### What to have done by Friday
 
 - [ ] Claude, Cowork, and the Agent Attraction OS installed; your storage, Gmail and Calendar connected
 - [ ] The Brain intake run: your Agent Attraction Brain is built and your Brain Book is open
-- [ ] Your brand chat run ("my attraction brand direction") and your Design Package brief pasted into Claude Design
 - [ ] Your Personal Story & Experience Bank seeded from the intake
 - [ ] Your intro and your "before" posted in Circle
 
@@ -393,7 +392,7 @@ The biggest issue in any AI system is the voice. The only way to make yours accu
 
 Claude distils how you talk from these three answers — your pace, your phrases, how you explain things, the words you never say — and from how you typed every answer above. Everything the system writes for you from here on sounds like that.
 
-Then Claude builds your Brain Book, hands you the link, and says the two things next: the brand chat this week (**"my attraction brand direction"**, Section 6) and your offer and lead magnet next week.
+Then Claude builds your Brain Book, hands you the link, and says what is next: your offer and your lead magnet next week (**"build my partner offer"** when Week 2 opens), and your brand with Claude Design in Week 3 (Section 6).
 
 
 ### The Story & Experience Bank Worksheet
@@ -658,10 +657,10 @@ ____
 3. **Name your home base.** "Agent Attraction OS" works, or name it after your organization. Claude creates it in your Google Drive or OneDrive and saves as you go.
 4. **Answer the four conversations and the three voice questions** (Section 4). Skip anything; "I don't know" moves on; "just make it" builds from what exists.
 5. **At the end you receive** your **Agent Attraction Brain Book** (everything the system knows about you, nine short sections, about a dozen pages), the link to your home base, and your **Project Seatbelt** (a block you paste into any Claude project's instructions so every chat loads your Brain first).
-6. **The brand chat, the same week.** In a new Cowork chat say **"my attraction brand direction"** (about six minutes). It asks only what you already have — your logo (I love it · not quite right · don't have one), colours and fonts, headshots, one brand or a separate leader brand, your organization's name — one question at a time, then works out the creative direction from your Brain and the way you talked in your three voice answers; you say yes or change a line. It ends with your paste-ready **Design Package brief**. Paste it into Claude Design and run the three skills in order: **aa-logo-design → aa-style-sheet-design → aa-brand-kit-design**. Skip the first if you love your logo; refresh mode changes only what you flagged. Drop the finished kit into your Brand folder (02 · Brand) in your home base, so the editor, the thumbnails, and every graphic read it. The brief carries your brokerage-name and license display, or says plainly they must be set before any public graphic ships — **"paste my compliance link"** sets them in two minutes.
+6. **The brand chat, in Week 3.** In a new Cowork chat when Week 3 opens, say **"my attraction brand direction"** (about six minutes). It asks only what you already have — your logo (I love it · not quite right · don't have one), colours and fonts, headshots, one brand or a separate leader brand, your organization's name — one question at a time, then works out the creative direction from your Brain and the way you talked in your three voice answers; you say yes or change a line. It ends with your paste-ready **Design Package brief**. Paste it into Claude Design and run the three skills in order: **aa-logo-design → aa-style-sheet-design → aa-brand-kit-design**. Skip the first if you love your logo; refresh mode changes only what you flagged. Drop the finished kit into your Brand folder (02 · Brand) in your home base, so the editor, the thumbnails, and every graphic read it. The brief carries your brokerage-name and license display, or says plainly they must be set before any public graphic ships — **"paste my compliance link"** sets them in two minutes.
 7. **The Daily Agent Attraction Debrief, whenever you want it.** Say **"turn on my daily debrief"** (default 6 pm); it switches on only when you say yes — the intake never creates it. It reads your calendar and inbox (read-only), scores your day against your weekly activity, lists follow-ups due and agent needs, and leaves tomorrow's three moves. Nothing is sent, posted, or published. **"Run my debrief"** any time; **"change my debrief time"**; **"turn off my debrief."**
 
-**The next things to type, in order:** **"my attraction brand direction"** (a new chat) · paste your Design Package brief into Claude Design · **"build my top 50"** · **"set my attraction goals"** · (Week 2) **"run my prospect radar"** · (Week 2) **"build my partner offer"** · (Week 2) **"set up my attraction operations"** and **"write my booking page"** · **"attraction weekly check-in"** every Friday · **"just talked to an agent"** any time, from the car.
+**The next things to type, in order:** **"build my top 50"** · **"set my attraction goals"** · (Week 2) **"run my prospect radar"** · (Week 2) **"build my partner offer"** · (Week 2) **"set up my attraction operations"** and **"write my booking page"** · **"attraction weekly check-in"** every Friday · **"just talked to an agent"** any time, from the car.
 
 ### Opening your Brain each day
 
@@ -751,7 +750,7 @@ Three books, in this exact order, one a month for the next three months. Mike's 
 |---|---|---|---|---|
 | 1 | [ ] | Install Claude, Cowork, and the Agent Attraction OS; connect your storage, Gmail and Calendar | The Setup Guide; "I'm stuck" if you are | A working install |
 | 2 | [ ] | Run the Brain intake — four conversations, three voice answers | "set up my attraction brain" | Your Agent Attraction Brain, and your Brain Book |
-| 3 | [ ] | Run the brand chat and the Design Package | "my attraction brand direction" (a new chat), then the three Claude Design skills | Your Design Package brief, your logo, style sheet and brand kit |
+| 3 | [ ] | Week 3 — the brand chat and the Design Package (nothing to do this week) | "my attraction brand direction" (a new chat), then the three Claude Design skills | Your Design Package brief, your logo, style sheet and brand kit |
 | 4 | [ ] | Your Personal Story & Experience Bank | Seeded inside the intake, then "build my attraction story bank" to widen it | Six developed seeds, growing toward twelve |
 | 5 | [ ] | Know who your story speaks to | Derived inside the intake; "who should I attract" to refine | Who your story speaks to (one page), written for you |
 | 6 | [ ] | Post your intro and your "before" in Circle | — | Your starting line, on record |

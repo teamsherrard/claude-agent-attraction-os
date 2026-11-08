@@ -92,7 +92,8 @@ words (from `brain.md`'s quick reference):
 > name, the marketing language to use, and where to host it (intangible)."*
 >
 > *"Hey [First name] — your lead magnet gets built straight out of your offer, so that comes first. Your Brain
-> already holds most of it, so I built it instead of asking: here it is on one card."*
+> already holds most of it, so I built it instead of asking: here it is on one card. This whole session is about
+> an hour, and I go quiet for a few minutes while I write."*
 
 Then **RUN the Brain's offer skill (`attraction-offer`) in this same session** — the member never hears a skill
 name; to them it is "building your offer." It decides every default from the Brain (the program type, the
@@ -120,10 +121,14 @@ welcome says so and goes to the magnet:
 >
 > *"Hey [First name], great to see you — your offer's built, so today is your lead magnet. I'm your lead
 > magnet and funnel expert: I'll look at your offer and Mike's training, put the one I'd build in front of
-> you — say yes, or ask for the next best — and I write it and the page that gives it away. Same sitting.
-> Ready? Just say yes."*
+> you — say yes, or ask for the next best — and I write it and the page that gives it away. Same sitting, about
+> an hour; I go quiet for a few minutes while I write. Ready? Just say yes."*
 
 A **yes** (or anything that isn't a different request) → Step 3.
+
+**Finalized before 2026-11-02** (the header has no `Join-gated package allowed:` line — the upline, brokerage-rule,
+hosting and content pages don't exist yet, so the Week 2 promise can't be kept from it) → run the Brain's offer
+skill in refine mode now (one card: the member says yes or changes a line), then continue into the magnet.
 
 **Finalized but thin** (the five-pains table, the framework steps, or "What's included" is empty) → keep the build-first default:
 one line that the "what you actually give" part is light, that you'll build with what's there and sharpen the
@@ -131,14 +136,12 @@ offer after, then go — *"Your offer's in there, but the 'what you actually giv
 what you've got and sharpen the offer after — easy to swap in. Sound good?"* A yes, a shrug, or silence =
 build. Only a clear "let's fix the offer first" runs the offer skill's refine mode now, then continues.
 
-**Compliance — read now, never a stop.** `identity/compliance.md` → `Status:`. `set` or `confirmed` → nothing to
-say. `unset` (or bracket placeholders on the brokerage, license, or disclaimer lines) → one line folded into
-the welcome, and the session keeps going: *"One thing I'll fold in: your compliance basics — how your
-brokerage name shows, your license, your brokerage's rule on talking about income — get set right before the
-guide is written. Three minutes; I'll walk you through it then."* The offer and the pick are private
-(`offer.md` is not public), so they go ahead regardless. Then, **immediately before `lm-magnet` writes the
-public document** (Step 5, before the hand-off), run the Brain's `attraction-compliance` skill — a hand-off,
-then return here — and continue. The magnet writer's own hard gate stays: if the member declines to set it,
+**Compliance — read now, never a stop, never in the welcome.** `identity/compliance.md` → its first line,
+`Status:`. `set` or `confirmed` → nothing to say. `unset` → say nothing yet (the welcome already carries the outcome,
+two lines and the card — never a third ask); the offer and the pick are private (`offer.md` is not public), so they
+go ahead. **Immediately before `lm-magnet` writes the public document** (Step 5, before the hand-off), run the
+Brain's `attraction-compliance` skill — *"two minutes before the guide is written: paste your brokerage's compliance
+page link"* — then return here and continue. The magnet writer's own hard gate stays: if the member declines to set it,
 the public document is not written; say so plainly and name the way back (*"say 'set up my attraction
 compliance' and we pick straight back up"*).
 
@@ -219,11 +222,14 @@ I'll have your [magnet, in plain words]."* — and go.
    promise, "built from: [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]") plus the intake bundle — it skips its own
    Phase 1 and writes. When the magnet is done it hands off to **`lm-funnel`** on its own, which writes the
    sales funnel outline. You don't come back until both are done.
-3. **Close the session in one line** naming what comes next, with one suggestion at most:
-   *"Your lead magnet and its sales funnel outline are done — both are in your workspace under Content → Guides,
-   and your Brain Board shows the magnet and what's left. Whenever you're ready: the DMs and email that deliver
-   it, your bios pointed at the page, and your Google profile. I'd start with the delivery kit — say 'deliver my
-   guide'."*
+3. **Close the session with the finish line** — one short block, plain words, nothing numbered:
+   *"Done: your lead magnet and your sales funnel outline are in your workspace under Content → Guides, and your
+   Brain Board shows the magnet and what's left. This week: open the guide in Google Docs or Word and download it
+   as a PDF — that's your shareable version today (the branded design comes with Week 3's design session). Upload
+   that PDF to the same Guides folder, share it 'anyone with the link', and that link is your download button. Then
+   your bios — say 'update my attraction bios' (five minutes) — and the DM and email that send the guide — 'deliver
+   my guide'. Your page goes live in Week 3; until then you hand the guide out by DM and email. If we get cut off,
+   'finish my agent lead magnet' picks up exactly here."*
 
 ---
 
@@ -248,6 +254,9 @@ asked for; they just get the thing it depends on first.
 | "set up my attraction funnel", "write the page for my guide", "my sales funnel outline" — **and a magnet exists** | the page | `lm-funnel` (say which magnet doc) |
 | "lead magnet ideas", "which lead magnet should I make", "what's my next lead magnet for agents", "another guide for agents", "switching checklist", "questions to ask a sponsor guide", "a 90-day plan template" | the recommendation — first campaign or next | **here** → Steps 0–2 (the Brain, the offer state, the workspace look), then Step 3 (`lm-magnet-ideas` shows one card; a named shape is sized against the method) |
 | "finish my agent lead magnet", "pick up my attraction funnel", "continue my lead magnet" | resume | Step 2 → resume at the right step |
+| "my funnel is live", "here's my live page link", "my page is live" | the page went live | `lm-funnel` — its update branch only: records the URL, Status → `live`, the Brain's Live magnet line; nothing rewritten |
+| "the PDF is done", "my guide is designed" | the designed PDF exists | `lm-design` — its update branch only: Status → `designed`, the download link if given |
+| "refresh my guide" · "refresh my page" | a rewrite from the current Brain | `lm-magnet` · `lm-funnel` — a new dated copy, same campaign folder |
 | "build my offer", "build my partner offer" is what they actually need | the offer | the Brain's offer skill (`attraction-offer`) — one offer card, shown not asked — and when they came through this plugin, continue straight into the magnet after |
 | "design brief for my guide", "make my guide a PDF", "mockup for my guide" | the design hand-off | `lm-design` (needs a written magnet) |
 | "how do I deliver my guide", "ManyChat copy for my guide", "GUIDE keyword", "DM that sends the guide" | delivery | `lm-delivery` |
@@ -255,7 +264,7 @@ asked for; they just get the thing it depends on first.
 | "partner outreach", "reach out to lenders about agents", "strategic partners for attraction" | partners | `lm-partnerships` |
 | "how is my lead magnet doing", "opt-in rate", "list growth", "magnet-to-call" | numbers | `lm-analytics` |
 | "Google Business Profile for attraction", "position my Google profile for agents", "attraction GBP" | the Google kit | `lm-gbp` (standalone — no magnet required; it points at the funnel when one exists) |
-| "attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles to my funnel" | the bio stack | `lm-profiles` (standalone — no magnet required; CTA falls back to the booking link) |
+| "attraction bios", "my attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles to my funnel" | the bio stack | `lm-profiles` (standalone — no magnet required; CTA falls back to the booking link) |
 
 ## Out-of-scope asks → the closest thing we CAN do
 

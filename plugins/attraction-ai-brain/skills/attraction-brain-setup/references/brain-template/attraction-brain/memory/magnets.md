@@ -10,5 +10,5 @@
 |---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | |
 
-## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks — one block per magnet, any shape)
-- Shape: [ ] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Taken: [ ]
+## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks — one block per magnet, any shape; the first real intake REPLACES this placeholder block, never sits beside it)
+- Shape: [ ] · Lane: [tool · plan · decision or proof] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Mike's lesson: [module/lesson — title] · Funnel doc: [YYYY-MM-DD or —] · Taken: [ ]

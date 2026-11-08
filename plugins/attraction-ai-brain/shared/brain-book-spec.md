@@ -418,13 +418,14 @@ later (no command). The `>> ` callout is the member's single best spoken line.
 
 ### Section 9 — WHAT'S NEXT
 Exactly three one-line bullets, plain, in order — by the state rule. The Week-1 state:
-- **This week, in a new chat:** *say "my attraction brand direction"* — your brand (logo, colours, fonts), built
-  in its own chat from this Book and how you talk.
-- **Next week:** your lead magnet plugin builds your offer first, from Section 4, then your lead magnet and its
-  opt-in page.
+- **Next week:** *say "build my partner offer"* — your offer, built from Section 4 — then your lead magnet plugin
+  writes your lead magnet and its opt-in page.
+- **Week 3:** your brand (logo, colours, fonts) in its own chat, built from this Book and how you talk, then
+  Claude Design.
 - **Any time:** *"just talked to an agent"* from the car · *"show me my Brain"* to refresh this Book.
-Post-offer state: the first bullet reads *your brand direction is set; your Design Package brief is in 02 ·
-Brand* when `brand-visual.md` shows the brand chat has run; the second names the Partner Offer in `05 · Offer`
+Post-offer state: the first bullet names the Partner Offer in `05 · Offer` and the lead magnet (built, or the
+phrase to build it); the second reads *Week 3: your brand chat, then Claude Design* — or *your brand direction is
+set; your Design Package brief is in 02 · Brand* once `brand-visual.md` shows the brand chat has run
 and the magnet's state; the third is unchanged. At most three distinct command phrases in the section. No
 open-items list, no compliance note, no scheduled-task note, no booking-link / CRM / tools sentence. The `>> `
 callout is the one next thing to type — in the Week-1 state, **"my attraction brand direction"**.

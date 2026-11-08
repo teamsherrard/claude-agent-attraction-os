@@ -102,8 +102,9 @@ thank-you page.*
   `offer.md` → "How to talk about it" (the call: "30 minutes, about your business, no pitch").
 - **Ask like:** *"The last page points at one next step — book a call with you ([the booking link]), 'no
   pitch, I'll just answer your questions.' Same as the thank-you page. Keep it that way?"* No booking link on
-  file yet → pre-fill *"reply to this email and I'll send you times"* and say house rules #2's operations line once.
-- **Default:** yes. **Never:** "join [brokerage]," a second CTA, compensation, urgency.
+  file yet → pre-fill *"email me at [the address in profile.md]"* (a guide has nothing to reply to) and say house
+  rules #2's one line once (a free Calendly this week, then 'set up my attraction operations').
+- **Default:** yes. **Never:** "join [brokerage]," a second kind of ask, compensation, invented urgency.
 
 ### Shape-specific swaps (take Q2's or Q3's slot — never a sixth question)
 
@@ -150,13 +151,14 @@ magnet); no compensation figures; no named brokerage other than the member's own
 House rules' write-back law. Compare each answer to its pre-fill and append **only what the Brain didn't
 already hold** — a nod to the pre-fill still writes the block (so a wiped session never re-asks), but never
 duplicates a Brain fact into a second file. Write one block to `memory/magnets.md` (create the file from the
-locked shape in `shared/brain-contract.md` if the Brain predates it), one block per magnet:
+locked shape in `shared/brain-contract.md` if the Brain predates it; if the template's placeholder `## Intake ·
+[Magnet Name]` block is still there, REPLACE it — never keep both), one block per magnet:
 
 ```
 ## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks)
 - Shape: [system guide · checklist · plan/template · calendar · questions guide · comparison guide · mini-course · math worksheet · case study · 5-day challenge] · Lane: [tool · plan · decision or proof] · Built from: [the framework step and its tool or template — or, for the plan lane, the program's phases — or, on an older offer, the UVP mechanism or Teach-first lesson]
 - For: [the type, by stage] · The promise: [Q1] · Draws from: [Q2, or the shape swap] · Opening story: [Q3, or "off the page"] · Proof (consented): [Q4, or "none — written qualitatively"] · Next step: [Q5]
-- Materials on file: [the documents in 06 · Materials cited in brokerage-model.md, with dates — or the templates named in the Teach-first table — or "none yet; structure only, numbers on the call"] · Mike's lesson: [module/lesson — title, from the recommender; the citation lives here and in the document's appendix, never in chat] · Taken: [YYYY-MM-DD]
+- Materials on file: [the documents in 06 · Materials cited in brokerage-model.md, with dates — or the templates named in the Teach-first table — or "none yet; structure only, numbers on the call"] · Mike's lesson: [module/lesson — title, from the recommender; the citation lives here and in the document's appendix, never in chat] · Funnel doc: — · Taken: [YYYY-MM-DD]
 ```
 
 Then **attraction-brain-sync PUSH** (write → push → verify). Never narrate this or name the file (house rules #1).

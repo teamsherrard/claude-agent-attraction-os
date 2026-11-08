@@ -60,8 +60,8 @@ flagged unprompted, and never counted against a Brain's completeness:
   `execution-framework.md` — on demand; `content-pillars.md` — written by the Short-Form System in Week 3.
 - `compliance.md` at `unset` — set on demand ("paste my compliance link", two minutes); it is the one thing
   that blocks public output, so it is always the first *recommendation*, never a defect.
-- `brand-visual.md` — the brand is its own Week 1 chat ("my attraction brand direction"); until it runs, say so
-  in one line and name the phrase.
+- `brand-visual.md` — the brand is its own Week 3 chat ("my attraction brand direction", alongside Claude
+  Design); before Week 3 say so in one line — never a nudge.
 - `offer.md` at `Status: seeds`, `positioning.md` at seed, `goals.md` at seeds — **the Partner Offer is Week 2;
   "set my attraction goals" locks the plan.** Never say "your offer is missing"; say "your unique approach (so
   far)" and name the week.
@@ -81,7 +81,7 @@ Later-week deliverables are never demanded early and never described as absent. 
 in one line, and move on: *"That's Week 2's session."* Week 1 skills collect raw material; they never ask for
 the offer, the UVP, or the value proposition as if it should exist (the Week 1 rule: Brain setup's second
 conversation collects the seeds and says Week 2 builds the offer). The same goes for the booking link, the CRM
-and the tools — Week 2 — and the brand, which is its own Week 1 chat.
+and the tools — Week 2 — and the brand, which is its own Week 3 chat.
 
 ## 5. Housekeeping goes LAST, in one line
 

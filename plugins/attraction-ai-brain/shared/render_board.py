@@ -378,9 +378,9 @@ def parse_magnets(md, demo):
     if line and '[Magnet Name]' not in line:
         mm = re.match(r'\*\*(.+?)\*\*', line)
         m['name'] = clean(mm.group(1), demo) if mm else ''
-        for key in ('keyword', 'funnel URL', 'download link', 'for', 'as of'):
-            r = re.search(re.escape(key) + r':?\s+([^·\n]+)', line)  # the locked shape writes "as of 2026-..." without a colon
-            if r: m[{'funnel URL': 'funnel', 'download link': 'download', 'as of': 'asof'}.get(key, key)] = clean(r.group(1), demo)
+        for seg in line.split(' · ')[1:]:  # each segment after the bold name is "key: value" (the locked shape writes "as of 2026-…" without a colon)
+            r = re.match(r'\s*(keyword|funnel URL|download link|for|as of):?\s+(.+?)\s*$', seg.strip())
+            if r: m[{'funnel URL': 'funnel', 'download link': 'download', 'as of': 'asof'}.get(r.group(1), r.group(1))] = clean(r.group(2), demo)
     for r in table_under(md, 'Magnets')[1:]:
         if len(r) >= 5 and r[1].strip() and (not m['name'] or r[1].strip() == m['name']):
             m['status'] = clean(r[4], demo).split('(')[0].strip() if r[4] else m['status']
@@ -549,7 +549,7 @@ def build_outer(ctx):
                 body += '\n\n## The guide\n' + '\n'.join('| %s | %s |' % kvp for kvp in [('Name', mag['name'] or '—'), ('Keyword', (mag['keyword'] + ' — “Comment %s and I’ll send it.” It never changes once content has used it.' % mag['keyword']) if mag['keyword'] else '—'), ('For', mag['for'] or '—'), ('Funnel', mag['funnel'] or 'not live yet'), ('Download', mag['download'] or 'not live yet')] if kvp[1])
                 body += '\n\n## The funnel outline: the opt-in page, in the order it reads\n' + '\n'.join('%d. %s' % (i + 1, t) for i, t in enumerate(FUNNEL_ORDER)) + '\n\nEvery opt-in button opens the one pop-up (first name, email, phone). Submitting lands on the thank-you page with the instant download and the invitation to a call. The compliance stamp is the footer of both.'
                 mg = ctx['files'].get('memory/magnets.md', '')
-                if mg: body += '\n\n## On file\n' + md_to_book(mg, demo, drop_sections=('Current magnet',))
+                if mg: body += '\n\n## On file\n' + md_to_book(mg, demo, drop_sections=('Current magnet', 'Intake'))
             else:
                 tag = 'Week 2: ONE guide, written and designed, with its funnel. Built from your offer.'
                 line = 'ONE guide and its funnel, built from your offer. Week 2.'
@@ -983,7 +983,7 @@ def main():
     ctx['brand'] = parse_brand(files['identity/brand-visual.md'], demo)
     ctx['magnets'] = parse_magnets(files['memory/magnets.md'], demo)
     if not ctx['magnets']['name'] and ctx['brain_magnet']:
-        m = re.match(r'([^·]+)(?:·\s*keyword\s*([A-Z]+))?(?:\s*·\s*(.*))?', ctx['brain_magnet'])
+        m = re.match(r'([^·]+)(?:·\s*keyword:?\s*([A-Z]+))?(?:\s*·\s*(.*))?', ctx['brain_magnet'])
         if m:
             ctx['magnets']['name'] = m.group(1).strip(); ctx['magnets']['keyword'] = m.group(2) or ''
             ctx['magnets']['funnel'] = 'not live yet' if 'not live' in ctx['brain_magnet'].lower() else (re.search(r'https?://\S+', ctx['brain_magnet']).group(0) if re.search(r'https?://\S+', ctx['brain_magnet']) else '')

@@ -199,9 +199,12 @@ One `Statement:` in the member's voice, 60 to 120 words: past → transformation
 (`04-value-proposition/34`). From `journey.md` → `## Why join me` when its Status says written (condense the
 60-second version, or open up the one-breath version), otherwise written from the offer's "why now" (the
 five-parts line) and the UVP. It says why the member does this and who it's for. An optional `Pull quote:`.
-No compensation, no "join [brokerage]," no urgency.
+No compensation, no "join [brokerage]," no invented urgency — the offer's `Why now`, verbatim, is the one honest
+urgency and this is where it belongs.
 
 ## SECTION 8 — PROOF (let other agents do the convincing) — floor 40 words, or "none yet" said plainly
+- **`Testimonial video:`** (optional — HCC's own move: ask your partners to record a short video) — `URL — first
+  name` per video, only with that agent's consent on file (`proof.md`); omitted entirely otherwise.
 A *dedicated* proof block outranks proof sprinkled in passing — it's a top trust lever on the page. From
 `proof.md` (real only — never invent; consent on file):
 - **`Proof:` 2–4 short results** — first name or initials, the situation, what happened (*"Two years in, one
@@ -255,12 +258,21 @@ call's length, where, the slots) and `offer.md` ("what the call is"):
   90-day game plan · your questions about the model, answered on the call — never on a page · what happens
   next if it's a fit. Compensation stays "on the call."
 - **`Booking embed:`** the booking link (`operations.md` → Booking; `profile.md`). The design step embeds it
-  when it embeds (Calendly, GoHighLevel, Cal.com), else a button to it. No link on file yet → `none yet — Week 5`:
-  the design step shows a button that opens the DM or email channel `operations.md` names.
+  when it embeds (Calendly, GoHighLevel, Cal.com), else a button to it. No link on file yet → `none yet`: the button
+  reads "Email me" (the address in `profile.md`) or "Message me on Instagram" — never "reply", a page has nothing
+  to reply to — and the member hears house rules #2's one line (a free Calendly this week, then 'set up my
+  attraction operations').
 - **`CTA button:` "Book a call with me"** — the Book's primary CTA, the only button on the page that isn't the
   opt-in's; the member's own primary CTA phrase from the Brain wins when they set one. The KB's CTA phrase
   bank supplies the area's headline or the line above the button.
-No countdown, no "spots left," no urgency of any kind; no compensation; no "join [brokerage]."
+- **The booking tool, set once (Mike's own setup — `bonus/calendly` in `shared/lesson-index.md`):** a 30-minute
+  Zoom event · five required questions — "do you acknowledge this is a conversation about partnering with me at
+  [brokerage]? (don't book if you're already there or have chosen a sponsor)" · which brokerage are you with ·
+  where are you located · new agent, experienced, team leader or broker-owner · anything to help me prepare,
+  including why you're interested — · reminders at 24 hours, 1 hour and 10 minutes · wide-open availability early
+  on. The outline's appendix lists these for the member; the plugin never configures the tool.
+No countdown, no "spots left," no invented urgency (the offer's honest why-now may be the line above the button);
+no compensation; no "join [brokerage]."
 
 ## SECTION 11 — THE OPT-IN (the ask) — button → pop-up → thank-you page — floor 60 words
 Make grabbing the guide a no-brainer. The flow is **two steps** (house rules #4): every opt-in button on the
@@ -272,7 +284,8 @@ call offered under it. Write all three pieces:
 - **`Bullets:` the top 3 "what you'll get"** (the full stack is in §3 above; here just the highlights). These
   MUST match the guide's actual pages (alignment — house rules #7).
 - **`FAQ:` — three `question — answer` pairs, right at the ask.** The last-moment objections an agent has,
-  dissolved where they occur (an accordion or stacked pairs at the design step — never a separate section):
+  dissolved where they occur (an accordion or stacked pairs at the design step — never a separate section; the
+  three answers below are the shape — rewrite them in the member's voice from `voice-samples.md`):
   - *Is this a recruiting pitch?* — No — it's the guide, built from what I actually do. If you ever want to
     talk, the call's above; no pressure either way.
   - *Will anyone know I downloaded this?* — No — the list is private, nobody's contacted on your behalf, and

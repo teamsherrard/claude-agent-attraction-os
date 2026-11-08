@@ -38,8 +38,9 @@ that's okay."* This skill writes that.
 Pull the Brain (house rule 2). `identity/compliance.md` (**the gate — unset stops here**; the stamp for the
 signature; testimonial consent), `memory/magnets.md` → `## Current magnet` (the magnet the sequence follows;
 funnel URL), `memory/list-growth.md` (list tool, newsletter day, what's already drafted — create the file from
-the locked shape if the Brain predates it), `identity/voice-print.md` + `voice.md` + `voice-samples.md`
-(newsletters read like the member talks — the voice-print is the primary source here), `identity/avatars.md`
+the locked shape if the Brain predates it), `identity/voice.md` + `voice-samples.md` (the typed samples, 4 and later — emails are WRITTEN;
+`voice-print.md` only as a cadence check: sentence length, the phrases they repeat), `identity/offer.md` → the
+header's `Join-gated package allowed:` line (it sets the register of Day 10 and Day 16), `identity/avatars.md`
 (the type of agent, the pain, what they'd need to hear to believe), `identity/story-bank.md` (the real stories,
 tagged by pain — read only here: never stamp Used-where; note the story used in `list-growth.md` instead),
 `identity/proof.md` (agents helped — consent on file — and upline proof
@@ -50,9 +51,10 @@ included and the first 30 days), `identity/journey.md`
 (read only — this week's video or Reel to point the newsletter at), `memory/debriefs.md` (read only — what
 happened this week, for mode B).
 
-**First run only, one question (your turn — one word):** *"Which tool holds your email list — [the CRM from
-config.md if it does email] or something like Mailchimp, ConvertKit, GoHighLevel? (If none yet, I'll write
-everything so it drops into any of them.)"* Write the answer to `list-growth.md` → List tool. Never ask again.
+**First run only (the `List tool:` field is a placeholder or "none yet"), one question with the answer filled in
+(your turn — one word):** *"Which tool holds your email list — I'd guess [the CRM from config.md if it does
+email, else 'a free Mailchimp or MailerLite account']? If you have none yet, start there this week; I'll write
+everything so it drops straight in."* Write the answer to `list-growth.md` → List tool. Never ask again.
 
 ## Mode A — The sequence (7 emails, awareness → proof → CTA)
 One email every 2–3 days after the download; each ≤ 200 words, one idea, one link at most, fifth-grade
@@ -69,13 +71,18 @@ reading level, the member's voice. The arc:
 5. **Day 10 — what partnering actually looks like.** The Partner Offer as outcomes (`offer.md`): the program by name and
    type with its cadence (`## The program`), the framework in one line (`## The framework` → One line), what's
    included (the deliverables table's rows as outcomes), Day 1 and the first 30 days, free vs paid said straight. **No compensation, no model.** The brokerage line.
+   **At `Join-gated package allowed: no` or `unknown`:** Day 10 is what the member teaches and how they mentor, open
+   to any agent — the offer's own lines from `## If your brokerage does not allow a join-gated package`; never a
+   bundle for joining.
 6. **Day 13 — the questions.** The three questions agents ask most (`objections.md`), answered in one line
    each — the honest versions. Warm optional call line.
 7. **Day 16 — the CTA, warm.** Mike's register verbatim-adapted: *"If you'd like to chat about partnering
    with me and getting [the real things — the weekly call, the training, the onboarding] for free, book a
-   call and we'll see if I can help. If not, that's okay — the emails keep coming either way."* The booking
-   link (none on file yet → "reply to this email and I'll send you times"; house rules #2). Then they roll into
-   the weekly newsletter.
+   call and we'll see if I can help. If not, that's okay — the emails keep coming either way."* — that is the
+   `yes` register; at `no` or `unknown`: *"If you'd like to talk through where you're at and how I teach this,
+   book a call — no pitch. If not, that's okay — the emails keep coming either way."* The booking link (none on
+   file yet → "reply to this email and I'll send you times" — this IS an email, so reply works; house rules #2).
+   Then they roll into the weekly newsletter.
 Subject lines: specific, honest, no clickbait, no "[Brokerage]," no emoji walls. Every email: the privacy
 line in the footer ("you're getting this because you grabbed [the guide]; unsubscribe any time"), the
 signature block with the compliance stamp.
@@ -84,9 +91,12 @@ signature block with the compliance stamp.
 Mike's recipe (`/73`): the week's video(s) with one takeaway each · one straight-value insight (a lesson, a
 book, an event, a mindset shift — from `debriefs.md` / what the member tells you) · a success story of an
 agent in the organization when there is one (consent; "anybody that comes from them joins under the agent I
-interviewed" — say that to the member as the reason to feature partners) · one warm, optional call line. Same
-day every week (`list-growth.md` → Newsletter day; propose one if blank — the day after their main video
-drops). ≤ 300 words, skimmable, one idea per block, the member's spoken cadence. Never two asks.
+interviewed" — say that to the member as the reason to feature partners) · one warm, optional call line. Weekly
+is the floor; Mike sends value two or three times a week (`12-simple-tech-stack/84`) — record the member's cadence
+next to the Newsletter day and never nag above it. Same day every week (`list-growth.md` → Newsletter day;
+propose one if blank — the day after their main video drops). Topics for a quiet week (`/85`): a positive change
+in the brokerage's structure, a new tool, an agent's milestone, an event to invite them to, an industry shift and
+how the member reads it. ≤ 300 words, skimmable, one idea per block, the member's spoken cadence. Never two asks.
 Before writing: scan `content-log.md` for this week's content and `list-growth.md` for last week's topic so
 you never repeat. `story-bank.md` isn't this plugin's to write — note which story the newsletter used in the
 `list-growth.md` Note instead, so the next newsletter doesn't reuse it.
@@ -96,9 +106,9 @@ you never repeat. `story-bank.md` isn't this plugin's to write — note which st
 2. Save: Mode A → `Nurture Sequence — [Guide Name]` into the campaign folder; Mode B → `Weekly Newsletter —
    [YYYY-MM-DD]` into `03 · Content/Guides/` (output standard §4–§6; fallback applies).
 3. `memory/list-growth.md` (silent, then **attraction-brain-sync PUSH**): Mode A → a row in the sequence table
-   (`[magnet] · 7 · drafted · [doc] · [date]`); when the member says it's loaded → `loaded by the member`;
-   Mode B → Newsletter day set if it was blank, and a one-line Note on this week's topic under the weekly
-   rows' latest row (no numbers — `lm-analytics` owns the numbers).
+   (the pipe row `| magnet | 7 | drafted | doc | YYYY-MM-DD |`); when the member says it's loaded → `loaded by the member`;
+   Mode B → Newsletter day set if it was blank, and `**Last newsletter topic:** [topic · YYYY-MM-DD]` on the
+   header line (the weekly rows are `lm-analytics`'s — append-only, never touched here).
 4. Close (A): *"Load these into [their tool] as a sequence that starts the moment someone grabs the guide —
    one every two or three days. Then say 'write this week's agent email' every week and I'll draft the
    newsletter from what you did."* Close (B): *"Send it on [day]. Next week, say the same thing and bring me

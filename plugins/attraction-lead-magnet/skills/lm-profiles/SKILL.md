@@ -9,7 +9,7 @@ description: >
   what next) with ONE link (the funnel, else the booking link) and one identity line everywhere.
   Reads the Brain, saves the pack as a styled doc, creates identity/profiles.md (later runs refine
   inside the same headings). 3-state compliance gate; license display never cut. Copy only. Trigger
-  on: "update my attraction bios", "bios for attracting agents", "recruiter bio", "align my profiles
+  on: "update my attraction bios", "my attraction bios", "bios for attracting agents", "align my profiles
   to my funnel", "my Instagram bio for agents", "LinkedIn about for agent attraction", "optimize my
   profiles for attraction".
 ---
@@ -51,7 +51,7 @@ a bio only where the offer's own `Bio-safe line:` (under `## UVP`) carries it, n
 if Status is seeds, build the line from
 `positioning.md`'s seed and say Week 2 sharpens it; at `Join-gated package allowed: no` or `unknown` the bio's offer
 words come from `## If your brokerage does not allow a join-gated package` → the lines that change), `identity/avatars.md` (the type of agent, in plain
-words), `identity/voice.md` (tone + signature phrases), `identity/proof.md` (real numbers only, dated),
+words), `identity/voice.md` (tone + signature phrases) + `voice-samples.md` (the typed samples — a 2,600-character LinkedIn About is written copy), `identity/proof.md` (real numbers only, dated),
 `identity/brand-visual.md` (tagline), and `memory/magnets.md` → `## Current magnet` (the live funnel URL).
 **The CTA + link (one per bio):** the live funnel URL from `magnets.md` → else their booking link
 (`brain.md` quick-ref) → else a DM hook ("DM me GUIDE for the [guide, by name]"). Never more than one CTA per bio.
@@ -120,12 +120,12 @@ suggest four — the guide · how we work together · the community · the membe
    line, and — on an update run, for the five shared platforms — a one-line "what changed" note. Name: **"🪪 [Name]'s
    Platform Profiles — [YYYY-MM-DD]"** → save to the workspace's **`02 · Brand/`** (find-or-create), hand the
    DIRECT link. Compliance stamp per house rules #5 (`set` → one reminder).
-2. Write **`~/attraction-brain/identity/profiles.md`** the way the contract says. **First run (the file is
-   absent — the normal Week 2 case) → create it** from the shape in `shared/brain-contract.md`: the header, the
+2. Write **`~/attraction-brain/identity/profiles.md`** the way the contract says. **First run (the file is absent, OR present with only the template's `[bio]` placeholders — the normal Week 2
+   case, since every Brain ships the empty file) → create or fill it** from the shape in `shared/brain-contract.md`: the header, the
    five headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` ·
    `## YouTube`), the final bio text inside each (identity line first), then `## X` · `## Threads` ·
    `## Google Business Profile` · `## Brokerage site` · `## Email signature` AFTER the five (same heading
-   pattern). **Later run (the file exists) → update it:** keep the header and every `## <Platform>` heading
+   pattern). **Later run (real bios already inside the headings) → update it:** keep the header and every `## <Platform>` heading
    exactly as they are; replace only the bio text inside each section; append any of the additions that
    don't exist yet; never rename, reorder, or delete a heading. Either way, end each touched section with
    `*Updated by the Lead Magnet plugin on YYYY-MM-DD — CTA → [the funnel]*`. Then **attraction-brain-sync PUSH**

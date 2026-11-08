@@ -2,6 +2,69 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.17.3] — 2026-11-08
+
+**The Lead Magnet plugin's full quality pass (Lead Magnet 0.6.2).** Three independent reviews — the member's
+experience end to end, the technical contracts and sync, and the copy against Mike's doctrine — plus the owner's own
+checks. Everything confirmed is fixed; the decisions that are Mike's are listed in the review page.
+- **Week 2 now ends cleanly without Claude Design.** The navigator's finish line (`plugins/attraction-lead-magnet/skills/lm-navigator/SKILL.md`)
+  says what exists and where, how to export the guide as a clean PDF today and share it from the drive, the bios
+  phrase, the delivery phrase, that the page goes live in Week 3, and the resume phrase. `lm-design` briefs for
+  the Week 3 session, asks for a flat cover (Claude Design exports PDF, not pictures), and never names a skill id to
+  the member. `lm-funnel` closes on "your page gets built in Week 3's design session"; the member-facing appendix in
+  `shared/output-standard.md` names no Netlify. `lm-delivery` leads with the by-hand DM script; the ManyChat version
+  is labelled for Week 3.
+- **Mike's booking link, in Week 2.** No link on file → one line about a free Calendly (Mike's own setup, with his
+  five questions and reminders in `skills/lm-funnel/references/funnel-guide.md`) and "set up my attraction
+  operations"; every fallback reads "email me at …" or "message me on Instagram" — never "reply", since a page and
+  a guide have nothing to reply to (`shared/house-rules.md`, `lm-magnet`, `lm-funnel`, `lm-delivery`, the intake).
+- **The join-gated register everywhere.** `lm-nurture` (Day 10 and Day 16), `lm-delivery`, `lm-gbp` and
+  `lm-partnerships` now read `Join-gated package allowed:` and switch to "what I teach" at `no`/`unknown`.
+- **One honest why-now.** The blanket "no urgency" that contradicted Mike's offer anatomy is now "no invented
+  urgency" with the offer's `Why now` reused verbatim (`shared/copywriting-kb.md`, the funnel guide, `lm-magnet`).
+- **One name.** Title ≤ 7 words, set by `lm-magnet-ideas`, used as the cover title, the campaign folder and the
+  headline (`shared/output-standard.md`, `lm-funnel`). House rule #9 no longer offers "1–2 alternatives".
+- **Written voice for written things.** `lm-nurture` reads `voice.md` + the typed `voice-samples.md` (the
+  voice-print only as a cadence check); `lm-gbp` and `lm-profiles` load the voice files they never did.
+- **Shapes the board can read.** Every ledger row is shown as the literal pipe row (`lm-magnet`,
+  `lm-magnet-ideas`, `lm-nurture`, `lm-partnerships`); `lm-delivery` stops writing into `lm-analytics`'s column;
+  `lm-nurture` stops editing the append-only weekly table; the config block is three plain lines registered by
+  whichever skill writes first (`Installed` · `Live data: not connected` · `GBP`), and the list tool lives in
+  `memory/list-growth.md` only (`shared/brain-contract.md`, the Brain template's `config.md`).
+- **Resume and update phrases exist.** "my funnel is live", "here's my live page link", "the PDF is done", "my
+  guide is designed", "refresh my guide/page" now route (`lm-funnel`, `lm-design`, the navigator's table);
+  `lm-funnel` lists the campaign folder before writing so a second sitting never duplicates the outline; the
+  intake block carries `Funnel doc:`; `lm-profiles` treats the template's `[bio]` placeholders as a first write.
+- **No cross-plugin dependencies.** `shared/lesson-index.md` (the 19 lessons this plugin may cite, generated from
+  the Support KB index) replaces the reference to the Support plugin's file; `shared/connectors.md` ships here too.
+- **Measured, not guessed.** New `shared/measure_copy.py` (stdlib): words against the floors, exactly three calls
+  to action, bracket tokens, leaks (income, splits, "check your inbox", "beats"), the reading grade — the first
+  step of both quality gates (`lm-magnet`, `lm-funnel`).
+- **Less on the screen.** Documents arrive as the link, the title and five lines; the full text only on request
+  (`lm-magnet`, `lm-funnel`, `shared/output-standard.md`). The opener carries the outcome, two lines and the card —
+  the compliance ask moved to the gate, where it already ran; "about an hour; I go quiet while I write" is said up
+  front. The analytics ask is a sentence, not a numbered list. `lm-gbp`'s status question carries its default.
+- **Sandbox-unavailable path.** Any script failure → the structured text is uploaded as a plain document with one
+  line, never "not saved" while the connector works (`shared/output-standard.md`, `shared/house-rules.md`).
+- Also: the magnet guide's last "recommends three" passage; the REAL-naming quote replaced by the KB's wording;
+  Mike's iceberg close as the closing page's shape; `Start with your upline` read by the magnet; the opt-in form is
+  first name and email (phone optional); FAQ and trust lines marked "shape only — rewrite in the member's voice";
+  `Testimonial video:` label; UTM source tags and a pre-headline swap test in the funnel appendix; newsletter
+  cadence recorded (weekly floor, Mike's two to three a week); a two-round "another idea" cap the member hears;
+  the older-offer refine trigger; one compliance duration (two minutes).
+- **Brain (0.5.9):** `attraction-offer` writes `Lead-magnet seed: Step N — [name]` under `## How to talk about it`
+  (the line the plugin reads, now actually written — `skills/attraction-offer/SKILL.md`, its interview guide, the
+  Brain template's `identity/offer.md`); the offer card has a rejection branch (second no → keep seeds, name
+  "refine my partner offer") and a plain gloss on the one brokerage question; the renderer parses the Current
+  magnet line per field (a title containing " for " no longer breaks it), reads `keyword GUIDE` with or without
+  the colon, and never prints the intake block on the board (`shared/render_board.py`); the template's intake
+  block carries `Lane:`, `Mike's lesson:` and `Funnel doc:`.
+- **Support (0.1.14):** `shared/stack-map.md` and `shared/cohort-kb.md` say ONE recommendation, Week 3 design
+  assets, and how "designed" is kept this week; `shared/faq.md` likewise. New `docs/demo/lead-magnet-demo-checklist.md`
+  for Tuesday's Week 2 demo. `docs/setup-guide.md` names the email list tool and the Calendly link in Week 2;
+  `README.md` moves the Design Studio to Week 3.
+  Versions: attraction-lead-magnet 0.6.2 · attraction-ai-brain 0.5.9 · maa-claude-support 0.1.14.
+
 ## [0.17.2] — 2026-11-08
 
 **Brand and Claude Design move to Week 3 — the fix for the community thread.** Members finishing their Brain were

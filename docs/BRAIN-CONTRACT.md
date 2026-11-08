@@ -18,7 +18,7 @@ consent card → first video), its two `(YouTube)` sections of `memory/content-c
 retired and the scheduled count made thirteen 2026-10-13 · **the Brain setup rebuilt on the owner's verdict 2026-11-02:
 Mike's four conversations plus three spoken answers, one plain question at a time; `avatars.md` DERIVED, never asked;
 no location or agent-type question anywhere; compliance, operations, the Debrief offer, the money and the brand out of
-setup (the brand is a second Week 1 chat); the Brain Book cut to nine sections and at most fifteen pages** · **Mike's
+setup (the brand is its own chat in Week 3, alongside Claude Design); the Brain Book cut to nine sections and at most fifteen pages** · **Mike's
 Lead Magnet and UVP feedback applied 2026-11-02: the Lead Magnet recommends ONE magnet (never three — "another
 idea" shows the next best); the offer's name is outcome-based (the outcome plus the mechanism, in an agent's words,
 with two alternates on the card); `offer.md` gains the header line `Join-gated package allowed:` (every public writer
@@ -42,7 +42,7 @@ Brain pushes its own change: write → push → verify, one atomic step. One Bra
 ├── brain.md          ← the index — READ THIS FIRST, always (quick reference + the laws + the file map)
 ├── identity/         ← who the member is as a leader (set once, changes rarely)
 │     profile · journey (ends with ## Why join me) · strategy · avatars (DERIVED from the answers, never asked) · prospect-intel · positioning ·
-│     offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank · brand-visual (the second Week 1 chat) ·
+│     offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank · brand-visual (the Week 3 brand chat) ·
 │     content-pillars · goals · execution-framework · leadership · operations (Week 2) · compliance (on demand)
 │     + the later plugins' files, shipped empty in the template with their owners' locked shapes:
 │     profiles (W2, Lead Magnet; refreshed W3 by Short-Form) · publishing (W3, Short-Form) · channel (W4, YouTube) · sales-system (W5, Conversion)

@@ -194,7 +194,8 @@ the brokerage itself" line on page 1.
 - **Who it tends to fit** — by career stage, production, and goals only (never a protected characteristic).
   *"Agents who want a building and a broker down the hall"* is fine; *"agents with young families"* is not.
 - **What to love** — the honest strengths. Credit where due, exactly as Mike does on a call
-  (`03-model-positioning/13`: "Real is an incredible brokerage … here's what I can do to help you").
+  (`03-model-positioning/13`: give credit if it's a good person — "they're great, I've heard great things" — then
+  straight back to what you can do for them; never a brokerage named).
 - **The honest trade-off** — one or two, stated as trade-offs, not flaws. For the member's own model this is
   the intake's trade-off answer, verbatim. For the others, the trade-offs Mike himself names in the lessons,
   labeled.

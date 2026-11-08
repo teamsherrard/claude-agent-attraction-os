@@ -262,7 +262,7 @@ Say, in your own warm words, exactly this promise:
 > 45 minutes to an hour, one plain question at a time. At the end you get your **Agent Attraction
 > Brain Book** (everything the system knows about you, on about a dozen pages) and a **home base
 > folder** every tool reads from. We save as we go, so you can pause anytime and pick up exactly where
-> you left off. Your brand is its own chat later this week; your offer is next week.
+> you left off. Your offer is next week; your brand comes in Week 3.
 >
 > One tip before we start: run this on **Opus** at **Medium** effort (the model picker is at the
 > bottom of this window), in one sitting, early in your weekly window.
@@ -643,7 +643,7 @@ Short-Form and Riverside (Week 3) · YouTube · Conversion & Sales · AI Admin �
   magnet are Week 2 (with the booking link, the CRM and the tools); pillars Week 3; the channel Week
   4; the pipeline Week 5; onboarding Week 6. Collect raw material, say which week builds it, never
   imply a gap.
-- **The brand is its own chat this week.** Setup names it once at the close and never runs it.
+- **The brand is its own chat in Week 3.** Setup names Week 2 at the close and never runs the brand chat.
 - **Specific over generic.** The member's real phrases, their real routine, the agent they actually
   were. The delete test, the any-agent test, and the so-what test on everything they keep.
 - **The Brain is the product.** Everything written here powers every future session. Make it good.

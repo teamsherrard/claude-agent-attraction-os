@@ -39,18 +39,19 @@ builds it and run on the member's five numbers; never estimate from their absenc
 
 ## Step 1 — Get the numbers (manual first — always)
 One message, five numbers, their turn — each with where to find it, so it takes two minutes:
-> *"Five numbers for the week of [Monday's date] and I'll tell you what's working: (1) page visits — from
-> your page host (Netlify's analytics or your site tool); (2) opt-ins — the Forms tab, or your list tool's new
-> subscribers; (3) list size today — your list tool; (4) calls booked that came from the guide — your calendar
-> or booking tool (count the ones who grabbed the guide first; if you can't tell, give me total calls booked
-> and say so); (5) did the newsletter go out — yes or no. Rough is fine; 'don't know' is fine."*
+> *"Five numbers for the week of [Monday's date] and I'll tell you what's working: how many people visited the
+> page (your page tool shows it), how many grabbed the guide (your form or your list tool), how big your list is
+> today, how many calls got booked by people who grabbed the guide first (your calendar — if you can't tell, give
+> me total calls and say so), and whether the newsletter went out. Rough is fine; 'don't know' is fine."*
+> If the page link carries source tags (the funnel outline's appendix: bio, google, partner, reel), ask the page
+> tool for visits by source and name the strongest door in the report.
 "Don't know" → the cell stays blank; **never estimate**, never fill from a prior week. Opt-in rate is computed
 only when both visits and opt-ins are present.
 
 **Live data (only if `config.md` says `connected`, never on a first run):** the member's live data connection
 (Composio, read-only) can supply Instagram/YouTube-side numbers (link taps, profile actions, which Reel
 carried the GUIDE keyword) — never the page or the list numbers, which live in tools the connection doesn't
-read. Hard rules (identical to the Short-Form plugin's): **read-only, always** (never a write tool); the
+read. Hard rules (the same ones the content engines use from Week 3): **read-only, always** (never a write tool); the
 first call in a session may show a permission card — warn in plain words right before it; a field the
 connection didn't return is "not available," never a guess; cite pulls plainly (*"your Instagram data, pulled
 today"*). Card denied → manual path, silently, no nag. `not connected` → say once, plainly, how the cohort

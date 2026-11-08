@@ -37,15 +37,17 @@ and the labelled lines the design step turns into page elements — is `shared/o
    is better than ten adjectives. Proof from people *like them* (camera-shy, small market, three brokerages in) lands
    hardest (`/32`). If proof is thin, the upline's proof labeled as the upline's; if none, honest experience,
    said plainly — never padded.
-7. **Reduce friction.** The opt-in pop-up asks for exactly three things (first name, email, phone — nothing
-   more; never "brokerage" or "production"; the ONE optional qualifier only when the member switches it on,
+7. **Reduce friction.** The opt-in pop-up asks for two things (first name and email — Mike's trade: an asset for a name and
+   an email; never "brokerage" or "production"; phone or ONE other qualifier only when the member switches it on,
    and fewer fields win), and the guide is an instant download on the thank-you page. Reassure: free,
    instant, private, unsubscribe anytime. Every extra field or ounce of doubt costs opt-ins.
 8. **Sound like the member.** Match `identity/voice.md` + `identity/voice-samples.md` exactly; anything
    spoken on camera follows `voice-print.md`. If their voice is calm and plain, the copy is calm and plain —
    never guru-speak. Voice mismatch kills trust faster with agents than with anyone; they've heard every pitch.
 9. **Honest persuasion only.** No fake scarcity, no countdown, no hype, no guarantees, no manufactured
-   urgency, no income talk. Confidence comes from specificity and proof, not exclamation marks. (This also
+   urgency, no income talk. One HONEST why-now is allowed — it is Mike's offer anatomy (`04-value-proposition/33`:
+   "why now, not someday"): a real cohort or onboarding date, a season, the compounding argument, reused verbatim
+   from the offer's `Why now` — never invented. Confidence comes from specificity and proof, not exclamation marks. (This also
    keeps it compliant — house rules #5.)
 10. **Attraction, not recruiting.** Agents follow people, not companies (`03-model-positioning/17`). The copy
     leads with the member's story, skills, and support — never the brokerage's brand, never the model's
@@ -170,12 +172,12 @@ it, the first week, the template handed over, the group) · **the brokerage line
 [Brokerage] provides — I walk you through that on a call") · **one real proof point** (`Proof:` — consented,
 dated, or omitted) · **the third call to action with the booking link**, in Mike's register: *"If you'd like
 to talk through where you're at, book a call — no pitch, I'll just answer your questions. If not, that's
-okay."* Never urgency, never "join [brokerage]," never compensation, never a second link.
+okay."* Never invented urgency (the offer's honest why-now is fine), never "join [brokerage]," never compensation, never a second link.
 
 ## The three calls to action (exactly three in every guide)
 
 All three in the member's voice, all a conversation — book a call, or "grab 20 minutes with me" — never
-compensation, never "join my brokerage," never urgency:
+compensation, never "join my brokerage," never invented urgency:
 1. **The soft mid-document line** — on ONE body page only, the page that most needs a walkthrough (the
    numbers page, the template page, the step most agents get wrong): *"If you want me to walk you through
    this on your own numbers, grab 20 minutes with me — the link's on the last page."* No link here.
@@ -366,7 +368,8 @@ One statement in the member's voice (`Statement:`), 60 to 120 words: past → tr
 → vision (`04-value-proposition/34`). From the `## Why join me` block in `journey.md` when it's written (the
 60-second version condensed, or the one-breath version opened up), otherwise written from the offer's "why
 now" and the UVP. It says why the member does this and who it's for; the brokerage is the vehicle, the member
-is the reason (`03-model-positioning/17`). No compensation, no "join [brokerage]," no urgency.
+is the reason (`03-model-positioning/17`). No compensation, no "join [brokerage]," no invented urgency — the offer's
+honest why-now, verbatim, is the one allowed.
 
 ## Proof — let other agents do the convincing
 
@@ -415,12 +418,14 @@ competes with the guide above it. In the member's voice:
   answered on the call (never on a page) · what happens next if it's a fit. Compensation stays "on the call."
 - **The booking embed** — the booking link from `operations.md` / `profile.md`, embedded when it embeds, else
   a button: **"Book a call with me"** (the Book's primary CTA) — the only button on the page that isn't the
-  opt-in's. No countdown, no "spots left," no urgency of any kind.
+  opt-in's. No countdown, no "spots left," no invented urgency — the offer's honest why-now may sit in the line above
+  the button.
 
 ## The opt-in & CTA — make grabbing the guide a no-brainer
 
 The final section, then the pop-up, then the thank-you page (house rules #4). Write all three — plus the
-**FAQ**: three one-line Q&As right before the button, dissolving the last objections an agent has at the ask:
+**FAQ**: three one-line Q&As right before the button, dissolving the last objections an agent has at the ask (the answers below are the SHAPE — rewrite each in the
+member's voice from `voice-samples.md`, never the house lines verbatim):
 - *"Is this a recruiting pitch?"* → No — it's the guide, built from what I actually do. If you ever want to
   talk, the call's above; no pressure either way.
 - *"Will anyone know I downloaded this?"* → No — the list is private, nobody's contacted on your behalf, and

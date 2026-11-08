@@ -150,7 +150,7 @@ Seven links, in order — never skip ahead:
 6. Connect email + calendar + drive + your CRM when setup asks
 7. The brand chat and the Design Studio's Design Package (logo → style sheet → brand) in Week 3, with Claude
    Design — Week 1 is the Brain only; each week's plugins as that week opens (in Week 2 the Lead
-   Magnet plugin — after "build my partner offer" — and the offer assets in Design, Short-Form + Riverside in
+   Magnet plugin — after "build my partner offer" — — the offer's design assets come in Week 3 —, Short-Form + Riverside in
    Week 3…)
 
 Lost? Say "am I set up right" — I'll find where you are and we resume from the first missing

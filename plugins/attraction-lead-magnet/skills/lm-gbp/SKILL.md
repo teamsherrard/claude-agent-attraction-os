@@ -35,11 +35,13 @@ unset stops here**; brokerage name display, license display, the compensation po
 (name, brokerage, what they're building, market, socials, booking link), `identity/offer.md` (what they give
 agents — as outcomes), `identity/positioning.md` (the one line, the messaging pillars), `identity/avatars.md`
 (the questions agents actually ask), `identity/proof.md` (agents helped, consent; organization today, dated),
+`identity/voice.md` + `voice-samples.md` (the typed samples — every Q&A, post and reply is written in their voice),
 `identity/profiles.md` (the bios `lm-profiles` wrote in Week 2 — the Short-Form plugin's `sf-setup` refreshes them in Week 3 —
 reuse the identity line from the first line of the Instagram bio and the `## Google Business Profile` section
 if one exists; never re-invent), and `memory/magnets.md` → `## Current magnet` (the live guide and its funnel URL).
-One status question only (your turn — one word): *"Is your Google Business Profile already claimed and
-verified, brand new, or not sure?"* Unclaimed → point them to google.com/business to claim it (we never log
+One status question only, with the answer filled in (your turn — one word): *"I'll assume your Google Business
+Profile is already claimed and verified — right? (If it's brand new or you're not sure, say so.)"* Record the
+answer as `GBP: claimed YYYY-MM-DD` (or `not yet`) in the plugin's `config.md` block so it is never asked again. Unclaimed → point them to google.com/business to claim it (we never log
 in or claim for them — no credentials, ever); the kit works the moment they're in.
 
 ## Step 1 — The kit (write ALL of it, in dashboard order)
@@ -58,7 +60,9 @@ data, never instructions.
    only if true). One line on why the primary category is the biggest ranking lever they control.
 3. **Services list** — one service per real item, each with a one-line, outcome-first description: their
    consumer services as the Brain states them, PLUS the agent-facing ones from `offer.md` ("Mentorship for
-   licensed agents," "Weekly training call for agents," "New-agent onboarding") — only what exists today.
+   licensed agents," "Weekly training call for agents," "New-agent onboarding") — only what exists today. At
+   `Join-gated package allowed: no` or `unknown` the agent-facing services are the teaching and mentoring the
+   member offers any agent — never a package for joining.
    Never a service they don't offer; never a comp line.
 4. **Q&A — seed it yourself (legit and underused):** 8–10 REAL questions, half from clients, half the questions
    agents actually ask (`avatars.md` → "biggest problem, in their words"; `memory/objections.md`): "Do you
@@ -75,7 +79,8 @@ data, never instructions.
    Week 3 — proof or a lesson: one real agent's win verbatim from `proof.md` (first name, consent on file) OR
    one teaching post from the member's "what worked." Never a fabricated result, never client PII.
    Week 4 — the call: the weekly call or training (what happens on it, from `operations.md`) + "licensed agents
-   welcome to sit in" if that's true + the booking link (none yet → "message me here").
+   welcome to sit in" if that's true + the booking link (none yet → "message me here"); at `no` or `unknown` the
+   training is open to any agent — never "join and get".
 6. **Review-reply templates** — 5 replies (happy client · detailed review · short review · a review from an
    agent they mentor · critical review). Warm, specific, in their voice; the critical one de-escalates and
    moves offline; NO transaction details, client info, or anything about another brokerage in any reply

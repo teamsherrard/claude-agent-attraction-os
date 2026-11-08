@@ -32,19 +32,23 @@ DMs, and the newsletter." The three laws: `${CLAUDE_PLUGIN_ROOT}/shared/brain-co
 Pull the Brain (house rule 2). Read `memory/magnets.md` → `## Current magnet` (name, funnel URL, download
 link, keyword). **No live funnel URL yet** → write the kit anyway with the booking link as the fallback link
 and say in one line that the funnel link slots in the moment the page is up (never block delivery on design).
-**No booking link on file either** → the funnel link alone, and the call line reads "reply here and I'll send
-you times" (house rules #2's one line, once).
+**No booking link on file either** → the DM sends the guide's own shared link (the PDF in their drive, "anyone
+with the link"), and the call line reads "message me here and I'll send you times" (house rules #2's one line, once).
 **No written magnet** → `lm-navigator` with the way-back line.
 Read `identity/compliance.md` (**the gate — unset stops here**; a DM template is public), `identity/voice.md`
 + `voice-samples.md` Sample 4 and later (how they type — DMs are typed; Samples 1–3 are the spoken answers —
 for the spoken voice use `voice-print.md`), `identity/avatars.md` (the type of agent and the one
 qualifier question that mirrors their pain), `identity/operations.md` (follow-up cadence, the booking link,
-the email signature), `identity/profile.md` (handles).
+the email signature), `identity/profile.md` (handles), and `identity/offer.md` → the header's `Join-gated package
+allowed:` line (at `no` or `unknown` every hand-off line in the DMs is what the member teaches, never a package for
+joining — house rules #5).
 
-## Step 1 — The ManyChat GUIDE keyword flow (the member's own account)
-The cohort's ManyChat templates (PARTNER · GUIDE · SCALE · GROWTH) ship as importable flows; this skill writes
-the **message copy** for GUIDE, in the member's voice, so the imported flow sounds like them. Keyword rule of
-one: GUIDE delivers the magnet; nothing else rides on it. Write:
+## Step 1 — The DM that sends the guide (by hand today; the same copy loads into ManyChat in Week 3)
+Members don't have ManyChat in Week 2 — the cohort's templates (PARTNER · GUIDE · SCALE · GROWTH) arrive with
+Week 3's materials as importable flows. So the first block is the **by-hand DM script** the member sends from
+their own phone today, and the same copy becomes the GUIDE flow's messages when they import it (label the block
+"paste into ManyChat when you have it — Week 3"). Keyword rule of one: GUIDE delivers the magnet; nothing else
+rides on it. Write:
 1. **The public comment reply** (under their comment, ≤ 1 line): *"Sent it to your DMs 👋"* — in their voice.
 2. **DM 1 — the delivery** (the moment they comment): warm, one line of what the guide is, **the link** (the
    funnel URL — the opt-in captures the email; never a bare download link that skips the list), and the
@@ -79,9 +83,9 @@ brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set
 ## Step 4 — Deliver, save, log
 1. Deliver the kit in chat as three labeled blocks (ManyChat · Email · Story), paste-ready.
 2. Save `Delivery Kit — [Guide Name]` into the campaign folder (output standard §4–§6; fallback applies).
-3. In `memory/magnets.md`, set the row's Keyword to `GUIDE` if blank; note "delivery kit [date]" in the
-   row's Last reviewed. **attraction-brain-sync PUSH.** Silent.
-4. Close: *"Paste the DM copy into your ManyChat GUIDE flow, drop the email into your list tool as the first
+3. In `memory/magnets.md`, set the row's Keyword to `GUIDE` if blank (the Last reviewed column belongs to
+   `lm-analytics`). **attraction-brain-sync PUSH.** Silent.
+4. Close: *"Send the DM from your own phone this week — the same copy drops into your ManyChat GUIDE flow in Week 3 — drop the email into your list tool as the first
    message, and the story's ready to film. Say 'nurture sequence for agents' and I'll write what they get
    after this — the emails that keep you top of mind until they're ready."*
 

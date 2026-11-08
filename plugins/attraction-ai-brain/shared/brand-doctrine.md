@@ -120,7 +120,7 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
 - **Content execution** (pillars, cadence, hooks, formats) belongs to the Short-Form and YouTube plugins; this
   file never prescribes a posting mix.
 - **Hand-off:** `attraction-brand-direction` ends by handing the member the paste-ready Design Package brief and
-  the one instruction: run the three skills this week, drop the kit into `02 · Brand`, then say "show me my
+  the one instruction: in Week 3's Claude Design session run the three skills, drop the kit into `02 · Brand`, then say "show me my
   Brain" so the Book shows the kit. **The brief is never printed once and lost:** it is saved to `02 · Brand`
   through the storage connector as `Design Package Brief · [Name] · [date].md` (newest = current), kept verbatim
   in `brand-visual.md` under `## Design Package brief`, printed in full as the last thing the brand chat says, and
