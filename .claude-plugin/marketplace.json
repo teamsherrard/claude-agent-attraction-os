@@ -21,7 +21,7 @@
     {
       "name": "attraction-lead-magnet",
       "source": "./plugins/attraction-lead-magnet",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "description": "PLUGIN 3 — install in Week 2. Lead Magnets & Opt-In Funnels pointed at agents, offer-first in one sitting: builds your Partner Offer if it isn't built yet, recommends ONE lead magnet from your unique value proposition and Mike's lessons (say yes, or ask for the next best), writes the magnet and its sales funnel outline, and packs them into your Lead Magnet Package — the one file for Claude Design in Week 3. Then delivery, nurture, partners, Google profile, bios, analytics. Requires Plugin 1."
     }
   ]

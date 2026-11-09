@@ -27,7 +27,7 @@ say() { printf '%s\n' "$*"; }
 bad() { printf '  ✗ %s\n' "$*"; FAIL=1; }
 ok()  { printf '  ✓ %s\n' "$*"; }
 
-say "── 1. plugin.json version == marketplace registry version; marketplace entry descriptions ≤ 500"
+say "── 1. plugin.json version == marketplace registry version; marketplace entry descriptions ≤ 500; plugin.json descriptions ≤ 1024"
 python3 - <<'PY' || FAIL=1
 import json,sys,glob,os
 entries=json.load(open(".claude-plugin/marketplace.json"))["plugins"]
@@ -38,6 +38,8 @@ for p in entries:
         print(f"  ✗ {p['name']}: marketplace entry description {len(p['description'])} chars — Cowork caps it at 500 and warns on sync"); bad=True
 for f in sorted(glob.glob("plugins/*/.claude-plugin/plugin.json")):
     d=json.load(open(f)); n=d["name"]
+    if len(d.get("description",""))>1024:
+        print(f"  ✗ {n}: plugin.json description {len(d['description'])} chars — claude.ai refuses the plugin update above 1024 (0.18.0 shipped at 1096 and every member saw 'Plugin couldn't be updated')"); bad=True
     if n not in reg:
         print(f"  ✗ {n}: built but NOT registered in marketplace.json"); bad=True
     elif reg[n]!=d["version"]:

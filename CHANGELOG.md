@@ -2,6 +2,15 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.18.1] — 2026-11-09
+
+**Hotfix — the 0.18.0 update was refused (Lead Magnet 0.7.1).** Members saw "Plugin couldn't be updated. Try again."
+The one manifest that changed shape in 0.18.0 was `plugins/attraction-lead-magnet/.claude-plugin/plugin.json`: its
+description grew from 971 to 1096 characters, past the 1024-character field limit claude.ai applies to descriptions.
+- The plugin.json description is back under the limit (989 characters) with the Lead Magnet Package still named.
+- `check-release.sh` check 1 now blocks any plugin.json description over 1024, next to the existing 500-character
+  marketplace-card check and the 1024-character skill check.
+
 ## [0.18.0] — 2026-11-09
 
 **The Lead Magnet Package (Lead Magnet 0.7.0 · Brain 0.5.10 · Support 0.1.15).** Week 2 now ends with ONE downloadable
