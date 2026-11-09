@@ -1,7 +1,7 @@
 # Lead Magnet demo checklist — Week 2 on the Taylor Brooks demo Brain
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1). The demo Brain lives in
-`docs/demo/taylor-brooks/attraction-brain/`; every number in it is fictional and tagged. Plugin 3 (0.6.2).*
+`docs/demo/taylor-brooks/attraction-brain/`; every number in it is fictional and tagged. Plugin 3 (0.7.0).*
 
 ## Before the screen
 - [ ] Plugins 1, 2 and 3 installed and current (Check for updates); the demo Brain pulled (`Demo brain: yes`).
@@ -25,15 +25,19 @@
 - [ ] It continues straight into the page — no "want me to write the page?" question.
 - [ ] The sales funnel outline: the link, the headline and the eleven section names in one line; saved beside the
   guide as `Opt-In Funnel — [Title]`.
-- [ ] The finish line: what exists and where · export the guide as a PDF today, upload it to the same folder,
-  share "anyone with the link" · the bios phrase · the delivery phrase · the page goes live in Week 3 · the resume
-  phrase (`finish my agent lead magnet`).
+- [ ] The Lead Magnet Package: the link, the title and five lines (the five parts; the one file for Claude Design in
+  Week 3; "rebuild my package"); saved beside the guide as `Lead Magnet Package — [Title] — 2026-…`. No full text in
+  chat.
+- [ ] The finish line: what exists and where (the guide, the outline, the package) · the package is the Week 3 upload
+  · export the guide as a PDF today, upload it to the same folder, share "anyone with the link" · the bios phrase ·
+  the delivery phrase · the page goes live in Week 3 · the resume phrase (`finish my agent lead magnet`).
 
 ## After the screen (each one phrase, two minutes)
 - `open my brain board` — the Lead Magnet dot is lit "this week"; its page shows the guide on file and what is left.
 - `update my attraction bios` — the five platforms plus the extras, one pack, saved to Brand.
 - `deliver my guide` — the by-hand DM script first; the ManyChat version labelled for Week 3.
-- `design brief for my guide` — the brief for Week 3's Claude Design session; no "Brand HQ", no skill names.
+- `build my lead magnet package` — rebuilds the Week 3 file (one link, five lines); `what do I upload to Claude Design`
+  hands it back; no "Brand HQ", no skill names, no Claude Design before Week 3.
 
 ## What the demo must NOT show
 - Three ideas at once · a numbered menu · a wall of copy in chat · "check your inbox" · a booking page that does

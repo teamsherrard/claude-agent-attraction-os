@@ -263,7 +263,7 @@ theirs to share, say 'refresh my page'"*).
   and Status `live`, `## Current magnet` → the funnel URL, `brain.md`'s `**Live magnet:**` line → the URL;
   **attraction-brain-sync PUSH**; one line back (*"recorded — every system now points at it"*). Nothing else moves.
 - *"refresh my page"* → re-read the magnet doc and the Brain, rewrite what changed, save a new dated copy, stamp
-  `Funnel doc:`.
+  `Funnel doc:`, then `lm-package` rebuilds the package (silent).
 
 ## Phase 5 — Deliver + save (paired with the magnet)
 1. **Deliver in chat** — the link to the saved outline, the headline, and the eleven section names in one line;
@@ -273,16 +273,20 @@ theirs to share, say 'refresh my page'"*).
    keys on; to the member it is "your sales funnel outline" (rendered to a styled `.docx` via the shared
    renderer; read it back). Confirm the location in plain words. If the save fails, the output
    standard's fallback applies — say it's not saved, retry once, the chat copy is the deliverable; keep going.
+   **Keep the structured text** at `~/attraction-brain/exports/opt-in-funnel-[slug]-YYYY-MM-DD.txt` (`[slug]` per
+   output standard §2) — the Lead Magnet Package is assembled from it, and the Brain syncs `exports/*.txt`.
 3. **Log it (silently):** in `memory/magnets.md`, stamp `Funnel doc: YYYY-MM-DD` in the magnet's intake block (the
    Campaign folder column is already set; funnel URL stays "not live yet" until the member confirms the page is up, then
    it becomes the URL and Status → `live` and `## Current magnet` gets the URL — and `brain.md`'s
    `**Live magnet:**` quick-reference line gets the same URL, the one line in `brain.md` this plugin updates).
    **attraction-brain-sync PUSH** (write → push → verify). This skill never writes `content-log.md`.
 4. **Close the loop:** *"That's your sales funnel outline — the opt-in page section by section, the pop-up,
-   and the thank-you page with the download and the call. Your page gets built in Week 3's design session (or by
-   your web person or your site tool, from these exact sections). When it's live, test-submit the form once, then
-   tell me — say 'my funnel is live' with the link — and every other system points at it. Until then your guide
-   goes out by DM and email."* When the
+   and the thank-you page with the download and the call. Your page gets built in Week 3's design session from
+   your Lead Magnet Package (or by your web person or your site tool, from these exact sections). When it's live,
+   test-submit the form once, then tell me — say 'my funnel is live' with the link — and every other system
+   points at it. Until then your guide goes out by DM and email."* **Then the package:** when the navigator runs
+   this skill, `lm-package` follows on its own; on a standalone run or a refresh, run `lm-package` now (silent —
+   its Step 4) so the Week 3 file carries this version, and say so in one line. When the
    Video line says to record, add one line: *"And whenever you're ready for the video at the top, say 'my why
    join me story' — your Brain writes the 60-second script."*
 5. **Point traffic at it (one line, no new work):** the free places to put the link once it's live — the

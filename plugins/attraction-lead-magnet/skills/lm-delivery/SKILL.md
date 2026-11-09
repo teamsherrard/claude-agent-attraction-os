@@ -75,19 +75,24 @@ email; the plugin never sends.
 
 ## Step 3 — The 3-frame story (the member's own account, filmed or typed)
 Frame 1 — the pain, in the type of agent's words, as a question (*"Still paying for leads that don't
-close?"*). Frame 2 — the guide, with the mockup (from `lm-design`) and one line on why it's different (the
+close?"*). Frame 2 — the guide, with its cover (the flat cover of the PDF; the designed one from Week 3 once it
+exists) and one line on why it's different (the
 real thing, built from what I actually do). Frame 3 — the ask: *"DM me GUIDE and I'll send it"* (or the link sticker
 to the funnel). Spoken voice from `voice-print.md` if filmed. No model talk, no comp, nothing about any other
 brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set; say so in one line.
 
 ## Step 4 — Deliver, save, log
 1. Deliver the kit in chat as three labeled blocks (ManyChat · Email · Story), paste-ready.
-2. Save `Delivery Kit — [Guide Name]` into the campaign folder (output standard §4–§6; fallback applies).
+2. Save `Delivery Kit — [Guide Name]` into the campaign folder (output standard §4–§6; fallback applies). Keep
+   the structured text at `~/attraction-brain/exports/delivery-kit-[slug]-YYYY-MM-DD.txt` (output standard §6).
 3. In `memory/magnets.md`, set the row's Keyword to `GUIDE` if blank (the Last reviewed column belongs to
-   `lm-analytics`). **attraction-brain-sync PUSH.** Silent.
+   `lm-analytics`). **attraction-brain-sync PUSH.** Silent. Then, when the campaign already has a Lead Magnet
+   Package (the intake block's `Package doc:` is stamped), run `lm-package` silently (its Step 4) so the Week 3
+   file carries the DMs and the email; if that fails, one line names "rebuild my package" for later.
 4. Close: *"Send the DM from your own phone this week — the same copy drops into your ManyChat GUIDE flow in Week 3 — drop the email into your list tool as the first
-   message, and the story's ready to film. Say 'nurture sequence for agents' and I'll write what they get
-   after this — the emails that keep you top of mind until they're ready."*
+   message, and the story's ready to film. Your Lead Magnet Package is rebuilt, so Week 3 has these too. Say
+   'nurture sequence for agents' and I'll write what they get after this — the emails that keep you top of mind
+   until they're ready."* (Drop the package sentence when no package exists yet.)
 
 ## Compliance pass (every message)
 The two cardinal rules · no compensation, splits, rev share, stock, or income · no model explanation by DM ·

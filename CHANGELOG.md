@@ -2,6 +2,38 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.18.0] — 2026-11-09
+
+**The Lead Magnet Package (Lead Magnet 0.7.0 · Brain 0.5.10 · Support 0.1.15).** Week 2 now ends with ONE downloadable
+file the member uploads to Claude Design in Week 3 — the offer, the guide and the page word for word, the messaging and
+the design brief — so the Week 3 design session has everything in one upload (the owner's ask, 2026-11-09).
+- **New `lm-package`** (replaces the design-brief skill; the plugin keeps 11 skills): assembles the **Lead Magnet
+  Package** from the finished documents — Part I the offer as copy (`identity/offer.md`), Part II the page outline and
+  the guide verbatim, Part III the structure and the opt-in page + thank-you page verbatim, Part IV the messaging (the
+  one-liner, headline, hook, button, keyword, call line, the bios and the DMs when written, the words we don't use),
+  Part V the design brief (what to build, who reads it, the brand from the Design Package brief or a clean neutral
+  default, the cover, the page rules, the mockup, when it's done; it opens with the `DESIGN BRIEF — [GUIDE NAME]`
+  line the parked Design Studio skills key on). Never rewrites copy; never renders. Saved to the campaign folder as
+  `Lead Magnet Package — [Guide Name] — YYYY-MM-DD` (newest wins), kept in `~/attraction-brain/exports/`, stamped
+  `Package doc:` in the magnet's intake block. Also keeps the "the PDF is done" record branch.
+- **Wired into the sitting:** `lm-navigator` runs it after the funnel outline (session order step 5), resumes a
+  campaign that has both docs but no package, routes "build my lead magnet package" · "my lead magnet package" ·
+  "rebuild my package" · "what do I upload to Claude Design", and its finish line names the package as the Week 3
+  upload. `lm-magnet` and `lm-funnel` keep their structured text in `exports/` (`lead-magnet-[slug]-…` ·
+  `opt-in-funnel-[slug]-…`); `lm-delivery` and `lm-profiles` keep theirs too and rebuild the package silently after
+  they save, so the DMs and the bios ride along. "refresh my page" rebuilds it.
+- **Contracts:** `output-standard.md` (the folder tree, the naming row, the slug rule, the §5 appendices now point at
+  the package, the `exports/` step in §6), `house-rules.md` #3 ("which file do I upload" = the package + the Design
+  Package brief), `brain-contract.md` (both plugins; `Package doc:` in the intake block), `intake-questions.md`, the
+  Brain template and demo `magnets.md`.
+- **Week 3 hand-off, Brain side:** `attraction-brand-direction`'s brief and close name the package as the second
+  upload; `attraction-brain-health`'s brand nudge too; `render_board.py` offers "build my lead magnet package" on the
+  Lead Magnet page (demo board re-rendered).
+- **Support:** `stack-map.md`, `cohort-kb.md` (and its leftover Week 1 brand lines — the brand kit, the Design Package
+  walkthrough, the offer graphics — now read Week 3, consistent with 0.17.2), `faq.md` Q3, `maa-support-onboard`
+  (Week 2 uploads nothing to Claude Design).
+- Docs: `README.md`, `setup-guide.md` (§5 step 8, the Plugin 3 row, both checklists), `lead-magnet-demo-checklist.md`.
+
 ## [0.17.3] — 2026-11-08
 
 **The Lead Magnet plugin's full quality pass (Lead Magnet 0.6.2).** Three independent reviews — the member's

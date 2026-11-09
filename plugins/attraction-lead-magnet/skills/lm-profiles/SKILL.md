@@ -119,7 +119,8 @@ suggest four — the guide · how we work together · the community · the membe
    a section, the paste-ready text in a copy block, the character count under it, the 5-question check as one
    line, and — on an update run, for the five shared platforms — a one-line "what changed" note. Name: **"🪪 [Name]'s
    Platform Profiles — [YYYY-MM-DD]"** → save to the workspace's **`02 · Brand/`** (find-or-create), hand the
-   DIRECT link. Compliance stamp per house rules #5 (`set` → one reminder).
+   DIRECT link. Compliance stamp per house rules #5 (`set` → one reminder). Keep the structured text at
+   `~/attraction-brain/exports/platform-profiles-YYYY-MM-DD.txt` (output standard §6).
 2. Write **`~/attraction-brain/identity/profiles.md`** the way the contract says. **First run (the file is absent, OR present with only the template's `[bio]` placeholders — the normal Week 2
    case, since every Brain ships the empty file) → create or fill it** from the shape in `shared/brain-contract.md`: the header, the
    five headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` ·
@@ -129,9 +130,13 @@ suggest four — the guide · how we work together · the community · the membe
    exactly as they are; replace only the bio text inside each section; append any of the additions that
    don't exist yet; never rename, reorder, or delete a heading. Either way, end each touched section with
    `*Updated by the Lead Magnet plugin on YYYY-MM-DD — CTA → [the funnel]*`. Then **attraction-brain-sync PUSH**
-   (write → push → verify — the write-back law; the push also refreshes their Brain Board). `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
+   (write → push → verify — the write-back law; the push also refreshes their Brain Board). When the current
+   magnet already has a Lead Magnet Package (`memory/magnets.md` → its intake block's `Package doc:` is stamped),
+   run `lm-package` silently (its Step 4) so the Week 3 file carries the bios; if that fails, one line names
+   "rebuild my package" for later. `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
    fills `## YouTube` in Week 4. `lm-gbp` reuses the Google section; every other system now quotes the same
    identity.
-3. Close with the checklist: *"Paste each one into its platform — start with Instagram and LinkedIn. When
-   your guide goes live, your offer sharpens, or your brokerage changes, say 'update my attraction bios' and
-   I'll refresh the whole stack."*
+3. Close with the checklist: *"Paste each one into its platform — start with Instagram and LinkedIn. Your Lead
+   Magnet Package is rebuilt, so Week 3 has these too. When your guide goes live, your offer sharpens, or your
+   brokerage changes, say 'update my attraction bios' and I'll refresh the whole stack."* (Drop the package
+   sentence when no package exists yet.)

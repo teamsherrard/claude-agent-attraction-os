@@ -30,7 +30,8 @@ ever as good as the words it's built from.
 owns: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 > **We write the content; we never design (house rules #3).** This produces the magnet's *words* — the design
-> (the built PDF) is `lm-design`'s brief plus the Design Studio. Pour the effort here into making the magnet
+> (the built PDF) is Week 3's Claude Design session, working from the Lead Magnet Package `lm-package`
+> assembles at the end of the sitting. Pour the effort here into making the magnet
 > genuinely valuable, genuinely honest, and genuinely the member's.
 
 ---
@@ -217,16 +218,17 @@ brokerage — ask for the schedule in writing").
 
 ## Phase 3 — Note the assets (design is a SEPARATE skill)
 This skill ends at the **content** — that's the whole deliverable. **Do NOT write design direction here;**
-the labelled lines are copy and cues, not layout — `lm-design` writes the brief, and the Design Studio's
-**`aa-lead-magnet-design`** reads the doc (uploaded, or via the storage connector): the promise becomes the
+the labelled lines are copy and cues, not layout — `lm-package` packs this doc into the Lead Magnet Package, and
+the Week 3 design session (Claude Design, with the Design Studio's **`aa-lead-magnet-design`** when the member has
+it) reads it from there: the promise becomes the
 cover, each PAGE block one designed page, the close and the back page, copy verbatim, each label its matching
 element (the pull quote set large, the callout as a panel, the checklist with real boxes, template rows as
 fill-in lines, scripts as message bubbles, the source as a footnote, the image idea as the page's visual, the
 next step as the page's closing strip, the three calls to action as two quiet strips and the closing page's
 one button), labels never printed. Close the doc with the output standard's `▸ NEXT — HAND TO YOUR DESIGN
 STEP` appendix (assets to gather: logo · headshot · photos with the organization · the templates it hands
-over, if any) and the one line that `lm-design` writes the brief ("say 'design brief for my guide'"). The
-hand-off to the funnel happens in Phase 5.
+over, if any) and the one line that this guide travels to Week 3 inside the Lead Magnet Package (built at the end
+of the sitting; "rebuild my package" refreshes it). The hand-off to the funnel happens in Phase 5.
 
 ## Phase 4 — Compliance pass (house rules #5)
 Run the whole magnet through **house rules #5**: the two cardinal rules (nothing negative about any brokerage,
@@ -290,7 +292,9 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
    folder `03 · Content/Guides/[YYYY-MM-DD · Magnet Name]/`, the doc `Lead Magnet — [Magnet Name]` (the
    output standard's "Guide Name" is the magnet's name — a checklist or a plan is still named this way;
    rendered to a styled `.docx` via the shared renderer; read it back — full depth, no raw markup). Confirm
-   the location in plain words. If the save fails, the output standard's fallback applies — say it's not
+   the location in plain words. **Keep the structured text** at
+   `~/attraction-brain/exports/lead-magnet-[slug]-YYYY-MM-DD.txt` (`[slug]` per output standard §2) — the Lead
+   Magnet Package is assembled from it, and the Brain syncs `exports/*.txt`. If the save fails, the output standard's fallback applies — say it's not
    saved, retry once, the chat copy is the deliverable; keep going.
 3. **Log it in the Brain (silently — never narrate this or name a file, house rules #1).** In
    `~/attraction-brain/memory/magnets.md` (create it from the locked shape in `shared/brain-contract.md` if
@@ -337,7 +341,7 @@ keyword aimed at the member's own guide ("mock up my guide") is a real build.
 - [ ] Compensation: structure only; figures only for the member's own plan where the policy allows and the document is cited; no earnings talk anywhere
 - [ ] The labels used as the output standard defines them (inline vs list; `____` for a blank; no capitals; no bracket token); nothing printed as a label is meant to print
 - [ ] Voice matches `voice.md` + `voice-samples.md`; fifth-grade reading level; none of the banned filler
-- [ ] No design direction written (lm-design owns the brief); assets-to-gather noted instead
+- [ ] No design direction written (the package's design brief, `lm-package`, owns it); assets-to-gather noted instead
 - [ ] Compliance pass done per house rules #5 (claims always; the stamp on the back page and the appendix; no bracket tokens; set → one reminder)
 - [ ] The quality gate run; a failed check fixed and re-run once; anything still thin said plainly
 - [ ] Saved to the campaign folder (output standard) or the fallback said plainly; location confirmed

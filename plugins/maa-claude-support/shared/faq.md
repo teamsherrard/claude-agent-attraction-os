@@ -30,7 +30,9 @@ style sheet, brand kit), your offer kit (the stack, the mockup, the one-pager �
 magnet PDF, funnel pages, and content (carousels, win walls), your video brand kit (Week 3, with
 Riverside), your event graphics, and the Value Vault — your ebook, course, or playbook plus your
 partner onboarding roadmap (Week 6). Your Cowork skills write the brief (your brand direction,
-your offer); Design renders it. Words in Cowork, visuals in Design.
+your offer); Design renders it. Words in Cowork, visuals in Design. For your guide and your opt-in page the file
+you upload is your **Lead Magnet Package** from Week 2 (Content → Guides, beside your guide) — say "what do I upload
+to Claude Design" in Cowork and the Lead Magnet plugin hands it to you.
 
 **Q4. Why did my chat disappear? Did I lose my work?**
 No. Chats are workbenches, not filing cabinets — Cowork can start a session with a fresh desk.
@@ -575,16 +577,17 @@ Because it isn't one — on purpose. Claude Design can't run plugins; it uses up
 
 - The Design Studio is 10 `aa-…-design` skill zips you upload at claude.ai/customize/skills (Q30)
 - Then inside claude.ai/design: "design my attraction logo" / "build my brand style sheet" / "make my
-  brand kit", in Week 2 "design my offer kit" (or one piece: "my offer stack", "my product mockup"),
-  in Week 3 "design my video brand kit", and in Week 6 "design my value vault" ("my ebook", "my
+  brand kit", then in the same Week 3 session "design my offer kit" (or one piece: "my offer stack", "my
+  product mockup"), "design my lead magnet pdf" and "build my attraction funnel page" from your Lead Magnet
+  Package, "design my video brand kit", and in Week 6 "design my value vault" ("my ebook", "my
   course", "my playbook", "my onboarding roadmap")
 - Set up your design system in Design first (your colors, fonts, logo) — that's what makes every
   design wear your brand
 - Upload your Brain Book there once; Design can't read your brain folder
 
-Next step: upload the Design Studio zips from Circle (the Design Package in Week 3, the offer kit and the
-Week 2 set with Week 2, the video kit with Week 3, the Value Vault with Week 6), then say "help" if one is
-rejected (Q30 covers both reasons).
+Next step: upload the Design Studio zips from Circle (the Design Package, the offer kit, the lead magnet and
+funnel set and the video kit all in Week 3 — nothing in Week 1 or Week 2; the Value Vault with Week 6), then say
+"help" if one is rejected (Q30 covers both reasons).
 
 **Q48. What about the Thumbnail Employee / my AI clone / Higgsfield? And Descript? (Neither is in this OS.)**
 Not part of this OS — straight answer.

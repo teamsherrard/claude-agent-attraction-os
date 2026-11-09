@@ -25,7 +25,7 @@ and sequence that serve it always sit together:
 │       ├── 2026-12-16 · The Five-Step Sunday Routine/     (one campaign — created when the magnet is built)
 │       │     ├── Lead Magnet — The Five-Step Sunday Routine.docx           (lm-magnet, built first)
 │       │     ├── Opt-In Funnel — The Five-Step Sunday Routine.docx         (lm-funnel, built second)
-│       │     ├── Design Brief — The Five-Step Sunday Routine.docx          (lm-design)
+│       │     ├── Lead Magnet Package — The Five-Step Sunday Routine — 2026-12-16.docx   (lm-package — the one file for Week 3's Claude Design session; a rebuild is a new date)
 │       │     ├── Delivery Kit — The Five-Step Sunday Routine.docx          (lm-delivery)
 │       │     ├── Nurture Sequence — The Five-Step Sunday Routine.docx      (lm-nurture)
 │       │     └── Lead Magnet Report — The Five-Step Sunday Routine — 2027-01-13.docx   (lm-analytics)
@@ -49,7 +49,7 @@ Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS
 | Campaign folder | `YYYY-MM-DD · [Guide Name]` | `2026-12-16 · The Five-Step Sunday Routine` |
 | Lead magnet doc | `Lead Magnet — [Guide Name]` | `Lead Magnet — The Five-Step Sunday Routine` |
 | Funnel doc (the member hears "your sales funnel outline") | `Opt-In Funnel — [Guide Name]` | `Opt-In Funnel — The Five-Step Sunday Routine` |
-| Design brief | `Design Brief — [Guide Name]` | |
+| Lead Magnet Package | `Lead Magnet Package — [Guide Name] — YYYY-MM-DD` | the Week 3 upload; a rebuild is a new date, newest is current |
 | Delivery kit | `Delivery Kit — [Guide Name]` | |
 | Nurture sequence | `Nurture Sequence — [Guide Name]` | |
 | Per-magnet report | `Lead Magnet Report — [Guide Name] — YYYY-MM-DD` | |
@@ -59,8 +59,10 @@ Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS
 | GBP kit · Profiles | `📍 [Name]'s Google Business Profile Kit — YYYY-MM-DD` · `🪪 [Name]'s Platform Profiles — YYYY-MM-DD` | |
 
 Guide Name = the magnet's title exactly as the recommender locked it (seven words or fewer, Title Case) — a checklist or a plan is still named this way,
-and the Design Studio keys on these exact doc-name prefixes (`Lead Magnet — ` · `Opt-In Funnel — ` · `Design
-Brief — `), so they never change. The date is the build date (ISO, so folders sort on their own).
+and the Design Studio keys on these exact doc-name prefixes (`Lead Magnet — ` · `Opt-In Funnel — ` · `Lead Magnet
+Package — `; the package's Part V opens with the `DESIGN BRIEF — [GUIDE NAME]` line the design skills look for), so
+they never change. **The slug** of a Guide Name (used only in `~/attraction-brain/exports/` file names) is the name in
+lower case, spaces as hyphens, punctuation dropped: `the-five-step-sunday-routine`. The date is the build date (ISO, so folders sort on their own).
 Every doc in a campaign shares the same Guide Name so the set is unmistakable. Regenerated standing docs carry
 a new date; **the newest date is the current one** (the connector cannot overwrite). After a verified upload,
 the superseded older copy of a standing doc may be trashed; campaign docs are never trashed. A demo build
@@ -107,7 +109,8 @@ acceptable output at any step.)* Write the structured text like this:
   only. Emphasis is the design step's job.
 - **Keep the deliverable clean; push the hand-off + compliance to the END as a clearly-labelled appendix**
   (`▸ NEXT — HAND TO YOUR DESIGN STEP` and `▸ COMPLIANCE`). The reader goes top-to-bottom without tripping over
-  instructions. Only the `lm-design` brief contains design direction; every other doc just names the assets.
+  instructions. Only the Lead Magnet Package's design brief part (`lm-package`) contains design direction; every
+  other doc just names the assets.
 - **Generous blank-line spacing**; **bullets** with `•`, one idea per line; dates and counts as digits.
 - Label each piece (`Headline:`, `Subhead:`, `CTA button:`, `Subject:`) on its own line — the renderer bolds
   an inline label. The design-cue labels in §5 ("The labels") use the same form; a **list label** (`Checklist:`,
@@ -249,8 +252,9 @@ Compliance: ...                       (brokerage name and license display as com
 This doc is the guide content. Your design step — Claude Design (with the Design Studio's lead magnet skill when you have it), or your
 designer — turns it into the branded PDF: the promise becomes the cover, each PAGE block one
 page, the close and the back page, copy verbatim; the labelled lines (pull quotes, checklists, scripts,
-template rows, image ideas) become the page elements and never print as labels. Say "design brief for my
-guide" and I'll write the brief it needs. Upload this doc plus your newest Agent Attraction Brain Book.
+template rows, image ideas) become the page elements and never print as labels. This guide travels to Week 3 inside your Lead Magnet Package — the one file you upload to Claude Design, with your
+Design Package brief; it carries this guide word for word, your page and the build notes. (Say "rebuild my package"
+if you change the guide.)
 Assets to gather:  logo · headshot · any photos of you with your organization · the sheet or template the guide hands over, if you have it as a file.
 
 ════════════════════════════════════════════
@@ -404,8 +408,8 @@ Compliance: ...               (the stamp, verbatim)
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
 This doc is the copy + structure. Your design step — Claude Design (with the Design Studio's funnel skill when you have it), your web
-person or your site tool — builds the page from these exact sections in Week 3's design session (upload this doc, the magnet doc, and
-your newest Agent Attraction Brain Book); or your web person or your site tool builds it (your brokerage site /
+person or your site tool — builds the page from these exact sections in Week 3's design session (upload your Lead Magnet Package — it carries
+this page, your guide and the build notes — with your Design Package brief); or your web person or your site tool builds it (your brokerage site /
 GoHighLevel / Carrd). Whoever builds it: the form must really send you the name and email — test-submit once before
 sending traffic; a page that looks right can still capture nothing.
 Your links: add ?utm_source=bio, google, partner or reel to the page link wherever you post it, so the report can
@@ -421,16 +425,21 @@ Assets to gather:  the guide's mockup/cover (The Product §3) · 8–12 proof-st
 (same rule as the magnet doc — set or confirmed only; the page footer and the thank-you footer carry the stamp)
 ```
 
-**Every other doc** (design brief, delivery kit, nurture sequence, newsletter, partner kit, GBP kit, profiles,
+**Every other doc** (the Lead Magnet Package, the delivery kit, the nurture sequence, newsletter, partner kit, GBP kit, profiles,
 reports) uses the same grammar: title · meta · purpose line · CAPS bands · `Label:` lead-ins · the appendix
-last. Their section lists live in each skill.
+last. Their section lists live in each skill; the Lead Magnet Package's skeleton (Parts I–V, every inner heading a
+`──── sub-band ────`) lives in `lm-package`.
 
 ## 6. The save flow
 1. Build the doc's structured text following §4–§5; write it to a temp file (e.g. `/tmp/doc.txt`).
 2. Locate the workspace (§3), then find-or-create the folder §1 assigns (campaign docs: `03 · Content/Guides/`
    → `YYYY-MM-DD · [Guide Name]/`; the funnel and every kit save into the folder the magnet made).
 3. **Render** the text to a styled `.docx` via `${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py` (§3), then upload
-   that `.docx` with the §2 name. Read the finished `.docx` back once (§4's verify list).
+   that `.docx` with the §2 name. Read the finished `.docx` back once (§4's verify list). **Keep the structured
+   text** of the guide, the page outline, the delivery kit and the profiles pack in `~/attraction-brain/exports/`
+   (`lead-magnet-[slug]-YYYY-MM-DD.txt` · `opt-in-funnel-[slug]-YYYY-MM-DD.txt` · `delivery-kit-[slug]-YYYY-MM-DD.txt` ·
+   `platform-profiles-YYYY-MM-DD.txt`; the slug per §2): the Lead Magnet Package is assembled from them on any later
+   day, and the Brain syncs `exports/*.txt`.
 4. Confirm in plain language + give the location:
    *"Saved to your workspace → [the folder, in plain words: Content → Guides → [campaign] for campaign docs; Brand;
    Agents → Prospects]. Here's the doc: [link]."*

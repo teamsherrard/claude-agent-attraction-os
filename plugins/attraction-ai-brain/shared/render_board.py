@@ -411,7 +411,7 @@ READS = {
 SYS_ACTIONS = {
     'brand': [('show my design package brief', 'Re-opens the brief to paste into Claude Design.'), ('update my attraction brand direction', 'Change anything: a colour, the tagline, the logo call.')],
     'offer': [('refine my partner offer', 'Change the name, the steps, the first 30 days, the weekly rhythm. One card, say yes.'), ('paste my compliance link', 'Closes the open question on join-gated packages from your brokerage’s own rules.')],
-    'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('design brief for my guide', 'The brief for the styled PDF, the cover and the 3D mockup, for Claude Design.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.')],
+    'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('build my lead magnet package', 'One file: your offer, your guide, your page, your messaging and the build notes, ready for Claude Design in Week 3.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.')],
     'short-form': [('set up my attraction short-form', 'The whole Week 3 journey in one sitting, with nothing re-asked.')],
     'youtube': [('set up my YouTube for agents', 'One channel question, then no stops: the channel, the Game Plan, the board, the workflows, the first video.')],
     'conversion': [('launch conversion', 'Reads your Brain and your Top 50 and routes you: a call tomorrow, an objection you heard, a pasted transcript.'), ('set up my sales system', 'The Partner Call machine: the booking calendar, the application questions, the pipeline stages in your CRM, the reminders.')],
@@ -553,7 +553,7 @@ def build_outer(ctx):
             else:
                 tag = 'Week 2: ONE guide, written and designed, with its funnel. Built from your offer.'
                 line = 'ONE guide and its funnel, built from your offer. Week 2.'
-                body = status_rows([('ONE lead magnet recommended from your offer; you say yes', 'soon', 'never three to choose from'), ('The guide, written in your voice', 'soon', ''), ('The sales funnel outline: the opt-in page, the pop-up, the thank-you page', 'soon', ''), ('The design brief, the delivery flow, the nurture', 'soon', '')]) + '\n\n## What lands on this board when it’s done\nThis dot turns amber while the funnel is being built, then green when it is live.'
+                body = status_rows([('ONE lead magnet recommended from your offer; you say yes', 'soon', 'never three to choose from'), ('The guide, written in your voice', 'soon', ''), ('The sales funnel outline: the opt-in page, the pop-up, the thank-you page', 'soon', ''), ('Your Lead Magnet Package: the one file for Week 3’s design session', 'soon', ''), ('The delivery flow and the nurture', 'soon', '')]) + '\n\n## What lands on this board when it’s done\nThis dot turns amber while the funnel is being built, then green when it is live.'
         elif sysid == 'short-form':
             tag = 'Lights up in Week 3. This page shows what the system will hand you and what it already knows about you.' if st == 'soon' else 'Your pillars, your calendar and your weekly rhythm, from your Brain.'
             line = 'Your pillars, a 30-day calendar and the board. Lights up in Week 3.' if st == 'soon' else 'Pillars, the 30-day calendar and the board are built.'

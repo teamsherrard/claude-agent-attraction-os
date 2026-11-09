@@ -58,7 +58,7 @@ plugin never reads or writes it.
 | `identity/positioning.md` | the one-line "why I'm here"; what stays for the private call; messaging pillars |
 | `identity/proof.md` | real proof only — agents helped (with consent), organization today, upline proof labeled as the upline's |
 | `identity/compliance.md` | the 3-state gate; brokerage name, license display, disclaimer, the compensation marketing policy, recruiting scope, testimonial consent |
-| `identity/brand-visual.md` | the final kit (logo, colors, fonts, headshot) for the `lm-design` brief; tagline |
+| `identity/brand-visual.md` | the final kit (logo, colors, fonts, headshot) and the Design Package brief block for the package's design brief (`lm-package`); tagline |
 | `identity/voice.md` · `voice-samples.md` · `voice-print.md` | written voice for every deliverable; spoken voice for the welcome-video steps |
 | `identity/story-bank.md` | real stories tagged by type of agent and pain (the switch story, the mirror moment) |
 | `identity/profile.md` · `identity/journey.md` · `identity/operations.md` | name, brokerage, model type, booking link, socials; the journey's turning points; follow-up cadence, email signature, CRM — still "set in Week 2" or no booking link → say "set up my attraction operations" once and use the no-link fallbacks (house rules #2) |
@@ -71,7 +71,7 @@ plugin never reads or writes it.
 ## What this plugin writes (one owner per file)
 | File | Owner skill | Also writes (designated section / append only) |
 |---|---|---|
-| `memory/magnets.md` | `lm-magnet` (creates the file on first run if the Brain predates it; writes the row and the intake block) | `lm-navigator` writes the intake block; `lm-magnet-ideas` adds a `planned` row; `lm-design` → Status `designed` and the `## Current magnet` download link; `lm-funnel` → funnel URL + Status `live` and the intake block's `Funnel doc:` stamp (once the member confirms the page is up); `lm-delivery` → keyword; `lm-analytics` → opt-ins, calls booked, last reviewed |
+| `memory/magnets.md` | `lm-magnet` (creates the file on first run if the Brain predates it; writes the row and the intake block) | `lm-navigator` writes the intake block; `lm-magnet-ideas` adds a `planned` row; `lm-package` → the intake block's `Package doc:` stamp, and Status `designed` + the `## Current magnet` download link when the member reports the PDF; `lm-funnel` → funnel URL + Status `live` and the intake block's `Funnel doc:` stamp (once the member confirms the page is up); `lm-delivery` → keyword; `lm-analytics` → opt-ins, calls booked, last reviewed |
 | `memory/list-growth.md` | `lm-nurture` (creates the file; the header, the nurture-sequence table, the newsletter status) | `lm-analytics` appends weekly rows; `lm-partnerships` owns the `## Partners` table |
 | `identity/profiles.md` | **`lm-profiles` (Week 2)** — writes it FIRST (the user's ruling, 2026-10-10): creates the file with the five Short-Form headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube`), the bio text inside each aligned to the funnel's CTA, then its own extra platforms appended AFTER the five; bios are Week 2 homework | the Short-Form plugin's `sf-setup` (Week 3) is the **updater of its five sections**: it refreshes the bio text inside those headings, preserves every extra section `lm-profiles` added and every italic update line, and never deletes or reorders a heading; `yt-setup` fills `## YouTube` (Week 4). A later `lm-profiles` run reads the file if present and refines inside the same headings |
 | `memory/ideas.md` | the Brain's `attraction-capture` | this plugin marks a `leadmagnet` row **used** — status column only, same row shape |
@@ -88,7 +88,7 @@ the weekly check-in reads it; it never appends a scorecard row itself), `memory/
 **`memory/magnets.md`**
 ```
 # [Name] — Lead Magnets
-*memory · every magnet built, where it lives, what it converts · owner: the Lead Magnet plugin (lm-magnet writes the row; lm-magnet-ideas, lm-design, lm-funnel, lm-delivery, lm-analytics update only their own columns) · other plugins READ `## Current magnet` to point a CTA at the live guide*
+*memory · every magnet built, where it lives, what it converts · owner: the Lead Magnet plugin (lm-magnet writes the row; lm-magnet-ideas, lm-package, lm-funnel, lm-delivery, lm-analytics update only their own columns) · other plugins READ `## Current magnet` to point a CTA at the live guide*
 
 ## Current magnet (the one every CTA points at)
 **[Magnet Name]** · keyword: GUIDE · funnel URL: [url or "not live yet"] · download link: [url or "not live yet"] · for: [type of agent] · as of [YYYY-MM-DD]
@@ -98,13 +98,13 @@ the weekly check-in reads it; it never appends a scorecard row itself), `memory/
 |---|---|---|---|---|---|---|---|---|---|---|
 
 ## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks)
-- Shape: [ ] · Lane: [tool · plan · decision or proof] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Mike's lesson: [module/lesson — title] · Funnel doc: [YYYY-MM-DD or —] · Taken: [ ]
+- Shape: [ ] · Lane: [tool · plan · decision or proof] · Built from: [ ] · For: [ ] · The promise: [ ] · Draws from: [ ] · Opening story: [ ] · Proof (consented): [ ] · Next step: [ ] · Materials on file: [ ] · Mike's lesson: [module/lesson — title] · Funnel doc: [YYYY-MM-DD or —] · Package doc: [YYYY-MM-DD or —] · Taken: [ ]
 ```
 The `## Current magnet` block's one-line shape above is read by every other plugin (`sf-comment-to-dm`,
 `yt-leads`, `cv-conversation-starter`, the Events skills, the YouTube CTA line) — its field order never
 changes. The intake block is shape-generic (one per magnet; a comparison-shaped guide's "Draws from" holds
-the member's own trade-off and the model types covered). The first real intake REPLACES the template's placeholder block (never kept beside it); `Funnel doc:` is stamped by
-`lm-funnel`. The `Lane:` and `Mike's lesson:` fields were added
+the member's own trade-off and the model types covered). The first real intake REPLACES the template's placeholder block (never kept beside it); `Funnel doc:` is stamped by `lm-funnel`; `Package doc:` by `lm-package` (added 2026-11-09; an older block without it
+reads as before). The `Lane:` and `Mike's lesson:` fields were added
 2026-10-18: the lesson that grounds the pick is cited here and in the magnet document's appendix, never on
 the member's screen (the locked row above has no citation column and does not change); an older block
 without them is read as before.
@@ -177,7 +177,7 @@ is the magnet's name whatever its shape (a checklist or a plan is still named th
 Studio keys on these exact doc-name prefixes, so they never change; the member hears "your lead magnet" and
 "your sales funnel outline" (the saved title of the outline is `Opt-In Funnel — [Guide Name]`)
 (`YYYY-MM-DD · [Guide Name]/`): `Lead Magnet — [Guide Name]` · `Opt-In Funnel — [Guide Name]` ·
-`Design Brief — [Guide Name]` · `Delivery Kit — [Guide Name]` · `Nurture Sequence — [Guide Name]` ·
+`Lead Magnet Package — [Guide Name] — [YYYY-MM-DD]` (the Week 3 upload) · `Delivery Kit — [Guide Name]` · `Nurture Sequence — [Guide Name]` ·
 `Lead Magnet Report — [Guide Name] — [YYYY-MM-DD]`. Standing docs: `Weekly Newsletter — [YYYY-MM-DD]` and
 `List Growth Report — [YYYY-MM-DD]` → `03 · Content/Guides/`; `Partner Outreach Kit — [YYYY-MM-DD]` →
 `04 · Agents/Prospects/`; the GBP kit and the Platform Profiles pack → `02 · Brand/`. Dated filenames;

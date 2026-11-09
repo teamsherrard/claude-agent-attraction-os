@@ -50,7 +50,8 @@ never judged on whether the member "chose").
   exist there (the Design Package skills `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design`).
   In front of the member it is always "your brand kit", never file names: ✅ *"your brand kit is in
   place"* · 🟡 (some of the three) *"your brand kit is partly there — [the missing piece] is next"* · ⬜
-  *"your brand kit is the next thing to build — in Week 3, paste your Design Package brief into Claude Design"* (the
+  *"your brand kit is the next thing to build — in Week 3, paste your Design Package brief into Claude Design, then
+  upload your Lead Magnet Package there for the guide and the page"* (the
   brief is in `brand-visual.md`; `attraction-brand-direction` regenerates it on request). Headshot
   present in `02 · Brand`? Note it the same way, one line.
 

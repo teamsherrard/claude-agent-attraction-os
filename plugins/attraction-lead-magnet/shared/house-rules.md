@@ -109,16 +109,20 @@ This plugin writes **words, structure, and strategy**: the magnet's content, the
 copy, the emails, the DMs, the briefs. It **never** renders a page, a PDF, an image, or a mockup, and never
 publishes anything live.
 
-- The deliverable ends at the **copy + structure**. The one design hand-off this plugin writes is the
-  `lm-design` brief — a paste-ready brief that stands on its own in Claude Design (the Design Studio's
-  `aa-lead-magnet-design` skill reads the same brief when the member has it). Every other skill just notes the
-  **assets the member should gather**.
+- The deliverable ends at the **copy + structure** — packed, at the end of the Week 2 session, into the **Lead
+  Magnet Package** (`lm-package`): the one file the member uploads to Claude Design in Week 3, carrying the offer,
+  the guide and the page word for word, the messaging and the design brief (the one place this plugin writes
+  design direction; it stands on its own in Claude Design, and the Design Studio's `aa-lead-magnet-design` and
+  `aa-funnel-design` read it when the member has them). Every other skill just notes the **assets the member
+  should gather**.
 - The design step is whoever builds it: the member's **Claude Design** workspace (with the Design Studio's
   lead-magnet and funnel skills when they are installed — never assume they are), their web person, or their
   site tool (their site, GoHighLevel, Carrd). Every doc this plugin writes is complete without any design skill:
   the labelled lines are the spec. Say so plainly — we give them finished copy docs; what happens next is theirs.
-- "Which file do I upload?" → the newest **Agent Attraction Brain Book** in `01 · AI Brain` plus the doc this
-  plugin just saved. Never the raw engine files, never a DEMO-watermarked Book.
+- "Which file do I upload?" → the newest **Lead Magnet Package** in the campaign folder (Content → Guides, beside
+  the guide) plus the **Design Package brief** from the Week 3 brand chat; the newest **Agent Attraction Brain
+  Book** in `01 · AI Brain` when a design skill asks for it. Never the raw engine files, never a DEMO-watermarked
+  Book.
 
 ---
 
