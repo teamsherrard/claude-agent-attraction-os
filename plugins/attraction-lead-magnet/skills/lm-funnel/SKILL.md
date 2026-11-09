@@ -63,8 +63,9 @@ Brain** (house rules #2). Then:
   one-liner, offer name, what's included, the deliverables table → the sneak peek, the first 30 days,
   onboarding Day 1 → "How it works" step three, "what the call is"). `## Support & community` and the five
   parts line ("why now") feed the Organization and Why Join Me. Never compensation. **Read the header's
-  `Join-gated package allowed:` line** (house rules #5): `no` or `unknown` (or missing) → the Offer and Why
+  `Join-gated package allowed:` line** (house rules #5): `no` → the Offer and Why
   Join Me sections, the Book-a-call area and the thank-you page lead with what the member teaches, their story
+   (`unknown` or a missing line keeps Mike's join register, with the Brain's one open check — only `no` opens it);
   and their mentorship, offered to any agent — never "join me and get X", never a bundle gated on joining — reuse the
   member's own lines from `## If your brokerage does not allow a join-gated package` and label the upline's package
   as the upline's (`## Start with your upline`). The
@@ -157,11 +158,11 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
    peek inside [the program name]" · `Sneak peek:` six to eight one-sentence bullets from the deliverables
    table, outcomes not features · optional `Image idea:` (the offer stack object). **No splits, caps, tiers,
    fees, stock, rev share, or income** (house rules #5). Free vs paid said straight if it applies — never "free
-   coaching if you join [brokerage]." **At `Join-gated package allowed: no` or `unknown`:** the headline and
+   coaching if you join [brokerage]." **At `Join-gated package allowed: no`:** the headline and
    the bullets present what the member teaches and how they mentor, open to any agent who wants to learn it;
    the sneak peek shows the program as the teaching it is; nothing is gated on joining.
 7. **WHY JOIN ME** (60+) — `Statement:` from `journey.md` → `## Why join me` when written, else from the
-   offer's "why now" and the UVP · optional `Pull quote:`. At `no` or `unknown` the statement is the story and
+   offer's "why now" and the UVP · optional `Pull quote:`. At `no` the statement is the story and
    the mentorship — why learn this from me — never a package as the reason to join. The offer's `Why now` is the
    one honest urgency on the page: reuse it verbatim here or as the line above the Book-a-call button, never
    both, never invented.
@@ -208,9 +209,11 @@ pairs, the optional qualifier in the form only when switched on), labels never p
 standard's `▸ NEXT — HAND TO YOUR DESIGN STEP` appendix: the video note when the Video line says to record,
 the assets to gather (the guide mockup/cover · 8–12 proof-strip photos · headshot · the video link if filmed ·
 2–3 YouTube links if there's a channel · social handles · logo · the finished guide PDF uploaded somewhere
-linkable · the booking link) **and the static form rule** — the one line that no lead is ever captured without
-a real static Netlify form in the deployed HTML, with the test-submit canary. The full rule text is in
-`references/funnel-guide.md`; carry its "the rule" block into the appendix verbatim.
+linkable · the booking link) **and one plain line on the form** — the form must really send the member the name
+and the email; test-submit once before any traffic. **The technical form checklist in `references/funnel-guide.md`
+("the rule" block — the static form, the hidden detection form, the honeypot, the test entry) never goes into
+this member-facing document**: `lm-package` carries it in plain words at the end of the Lead Magnet Package's
+Part V, for whoever builds the page.
 
 ## Phase 4 — Compliance pass (house rules #5)
 Run the full page (and the pop-up + thank-you page) through **house rules #5**: the two cardinal rules · no
@@ -241,7 +244,7 @@ theirs to share, say 'refresh my page'"*).
 6. `Why partner:` six to eight bullets; `Sneak peek:` six to eight bullets with its title; the Product bullets
    one per guide page; the FAQ three pairs.
 7. No compensation, split, cap, fee, tier, stock, rev-share or income figure; no fake scarcity or countdown;
-   no "free coaching if you join my brokerage"; at `Join-gated package allowed: no` or `unknown`, no "join me
+   no "free coaching if you join my brokerage"; at `Join-gated package allowed: no`, no "join me
    and get" in any section, the pop-up or the thank-you page.
 8. No named brokerage other than the member's own, and that one only as a fact and as compliance requires;
    no former brokerage named.
@@ -252,7 +255,7 @@ theirs to share, say 'refresh my page'"*).
     switched one on.
 12. The member's voice — the KB's voice-match checklist run; fifth-grade reading level; none of the banned
     filler.
-13. Total 900 to 1,800 words of copy across the eleven sections, the pop-up and the thank-you page (labels,
+13. Total 900 to 2,400 words of copy across the eleven sections, the pop-up and the thank-you page (labels,
     the footer and the appendix excluded).
 14. Page promise = magnet promise = the Product bullets = what the guide delivers; the same type of agent.
 15. Demo mode only: every production, money, ratio or count figure tagged "(illustrative — demo)"; the page

@@ -6,7 +6,8 @@
 ## Before the screen
 - [ ] Plugins 1, 2 and 3 installed and current (Check for updates); the demo Brain pulled (`Demo brain: yes`).
 - [ ] Taylor's offer is already built (`Status: built in Week 2`) — the demo shows the offer-in-hand welcome. To
-  show the offer-first path instead, set `identity/offer.md` back to `Status: seeds (Week 2 builds the offer)`.
+  show the offer-first path instead, set `identity/offer.md` back to `Status: seeds (Week 2 builds the offer)`; that
+  path ends with the why-join-me story, the free-vs-paid sort and the Offer Package before the magnet (allow 15 more minutes).
 - [ ] Compliance `set` (the demo's default) so nothing stops before the guide.
 
 ## The screen (one sitting, about an hour live; say so)

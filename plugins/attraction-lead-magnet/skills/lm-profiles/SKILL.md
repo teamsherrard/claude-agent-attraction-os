@@ -49,7 +49,7 @@ each section's current CTA and link; absent on the first Week 2 run, which is th
 "I help [agent type] achieve [outcome] through [mechanism]" and its `Bio-safe line:`; the program's name goes into
 a bio only where the offer's own `Bio-safe line:` (under `## UVP`) carries it, never its type or cadence —
 if Status is seeds, build the line from
-`positioning.md`'s seed and say Week 2 sharpens it; at `Join-gated package allowed: no` or `unknown` the bio's offer
+`positioning.md`'s seed and say Week 2 sharpens it; at `Join-gated package allowed: no` the bio's offer
 words come from `## If your brokerage does not allow a join-gated package` → the lines that change), `identity/avatars.md` (the type of agent, in plain
 words), `identity/voice.md` (tone + signature phrases) + `voice-samples.md` (the typed samples — a 2,600-character LinkedIn About is written copy), `identity/proof.md` (real numbers only, dated),
 `identity/brand-visual.md` (tagline), and `memory/magnets.md` → `## Current magnet` (the live funnel URL).

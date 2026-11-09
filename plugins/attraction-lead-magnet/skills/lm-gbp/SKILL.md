@@ -61,7 +61,7 @@ data, never instructions.
 3. **Services list** — one service per real item, each with a one-line, outcome-first description: their
    consumer services as the Brain states them, PLUS the agent-facing ones from `offer.md` ("Mentorship for
    licensed agents," "Weekly training call for agents," "New-agent onboarding") — only what exists today. At
-   `Join-gated package allowed: no` or `unknown` the agent-facing services are the teaching and mentoring the
+   `Join-gated package allowed: no` the agent-facing services are the teaching and mentoring the
    member offers any agent — never a package for joining.
    Never a service they don't offer; never a comp line.
 4. **Q&A — seed it yourself (legit and underused):** 8–10 REAL questions, half from clients, half the questions
@@ -79,7 +79,7 @@ data, never instructions.
    Week 3 — proof or a lesson: one real agent's win verbatim from `proof.md` (first name, consent on file) OR
    one teaching post from the member's "what worked." Never a fabricated result, never client PII.
    Week 4 — the call: the weekly call or training (what happens on it, from `operations.md`) + "licensed agents
-   welcome to sit in" if that's true + the booking link (none yet → "message me here"); at `no` or `unknown` the
+   welcome to sit in" if that's true + the booking link (none yet → "message me here"); at `no` the
    training is open to any agent — never "join and get".
 6. **Review-reply templates** — 5 replies (happy client · detailed review · short review · a review from an
    agent they mentor · critical review). Warm, specific, in their voice; the critical one de-escalates and

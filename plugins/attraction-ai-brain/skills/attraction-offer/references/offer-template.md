@@ -30,7 +30,7 @@ already had a written offer and said so in Conversation 2; this skill flips seed
 member has reacted. Readers key on this line.)
 Offer name: [the outcome + the mechanism, in an agent's words — the naming rule] · Program name: [the same name — the program and the offer share one name] · Program type: [one of six: partnership program · mentorship program · coaching program · accelerator · course plus community · team system] · Comment keyword: [ONEWORD]
 Primary avatar: [one-line target from avatars.md]
-Join-gated package allowed: [yes | no | unknown — from compliance.md / brokerage-model.md, else the one Week 2 question; `no` or `unknown` = every public line leads with what the member teaches, their story and their mentorship, never "join me and get X"; `unknown` carries an open item for the compliance desk]
+Join-gated package allowed: [yes | no | unknown — from compliance.md / brokerage-model.md, else the one Week 2 question; `yes` and `unknown` = Mike's join register ("when you join me you don't just get the brokerage, you also get…"), `unknown` with an open item for the compliance desk; `no` = every public line leads with what the member teaches, their story and their mentorship, never "join me and get X"]
 
 ## UVP
 I help [agent] achieve [outcome] through [unique mechanism].
@@ -106,6 +106,9 @@ First 30 days as a partner:
 | Week | Partner does | [Member] does | Done when |
 Done at day 30: [the three things that are true]
 Why now: …
+Differentiator: [one line — what makes the member different from every other leader at their brokerage, which pain they solve that others don't, how they are uniquely equipped; answered from the Brain]
+Proof plan: [the founding-partner exchange — the first two or three partners get the member's time in return for a written OK on their result and a 60-second video at day 90; who, what they get, when the OK is asked for]
+What my partners can offer: [the program offered by the member's partners to the agents they attract — the same scripts, lessons and calls, the member helping them run their first call; co-sponsoring only where brokerage-model.md says the brokerage allows it]
 
 ## How to talk about it
 (the marketing language — outcome-based, the member's voice, no hype words; every line in the register `Join-gated package allowed:` sets)
@@ -113,6 +116,7 @@ The four lines: UVP · outcome-led · story-led · mechanism-led (one line each 
 The 30-second explanation: [60–90 words — what the member says when an agent asks "so what do you actually do?": who I help · what they get · how · what happens next]
 Three short lines (DM · caption · bio), first person, under 20 words each.
 Video intro line: [the first sentence on camera, under 20 words]
+Differentiator: [mirror of the line under ## The Partner Offer — the doc's "Why me:" line]
 Booking line: [from operations.md, or "not set yet"]
 Comment keyword: [ONEWORD] — "Comment [KEYWORD] and I'll send it."
 What the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]"]
@@ -139,7 +143,7 @@ Verdict: [all three true → the program is your own, the upline's package a lay
 
 ## If your brokerage does not allow a join-gated package
 Rule in force: [yes — allowed · no — not allowed · unknown — being checked] (mirrors the header line)
-What it means for the words: [`yes` → the program is what an agent receives when they partner with the member · `no` / `unknown` → the offer is what the member teaches, their story and their mentorship, offered to any agent who wants to learn it; nothing gated on joining; never "join me and get X"]
+What it means for the words: [`yes` and `unknown` → the program is what an agent receives when they partner with the member (Mike's join register; `unknown` keeps one open check) · `no` → the offer is what the member teaches, their story and their mentorship, offered to any agent who wants to learn it; nothing gated on joining; never "join me and get X"]
 The lines that change: [the for-line · the At a glance "What it costs you" row · the four ways to say it · the short lines · the funnel's Offer and Why Join Me sections · the bios — one line each on how they read in this register]
 The check (unknown only): [confirm with the compliance desk whether a package may be offered as a reason to join — closed by attraction-compliance]
 
@@ -166,6 +170,10 @@ Link: [the community's link once it exists — or "not set up yet"]
 ## Digital product
 (owned by attraction-free-vs-paid — built by free-vs-paid)
 
+## Offer Package
+(owned by attraction-offer-package — the one file for the offer kit in 05 · Offer)
+Status: [not built | built YYYY-MM-DD · Offer Package — [Program Name] — YYYY-MM-DD]
+
 ## Notes for Week 2
 (appended by attraction-capture — positioning notes and new angles, dated; never rewrites the sections above)
 
@@ -182,7 +190,8 @@ No compensation, splits, caps, stock, rev share, or income figures anywhere in c
 file. Proof only as written here. Brokerage and upline named generically in public. Compliance per
 identity/compliance.md before anything public. The program's type, name and cadence are the same words
 here, in the Partner Offer doc, and in brain.md's `Program:` line — never three versions. Read
-`Join-gated package allowed:` before writing anything public: `no` or `unknown` means the words lead with
-what the member teaches, their story and their mentorship — never "join me and get X". Content pillars,
+`Join-gated package allowed:` before writing anything public: `no` means the words lead with what the member
+teaches, their story and their mentorship — never "join me and get X"; `yes` and `unknown` keep the join
+register ("when you join me you don't just get the brokerage, you also get…"), `unknown` with one open check. Content pillars,
 angles and titles come from `## Content branches` first; nothing invents a pillar the offer does not carry.
 ```

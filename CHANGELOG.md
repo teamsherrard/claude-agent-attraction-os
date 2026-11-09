@@ -2,6 +2,42 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.19.0] — 2026-11-09
+
+**The offer is a package, and the package is promoted (Brain 0.6.0 · Lead Magnet 0.8.0 · Support 0.1.16).** The
+owner's review of the first live Week 2 outputs against Mike's five value-proposition lessons: a lead magnet is a
+door, not the offer; the offer an agent joins, the digital product and the assets that promote the offer were never
+produced in Week 2, and the "don't know" brokerage default hid the offer behind "what I teach".
+- **New `attraction-offer-package`** (Brain): one file for the offer, `Offer Package — [Program Name] — YYYY-MM-DD` in
+  `05 · Offer`. Part I the offer to join me (the why-join-me statement, the one line, why me, the five problems it
+  solves, the value stack sorted free · included · discounted with the free line and the up-front cost line, the
+  proof plan, the honest why now, what their partners can offer); Part II the digital product (version one now, the
+  full build in Week 6); Part III the copy for every asset that promotes the offer (the Join My Team one-pager, the
+  offer stack, the product mockup, the call deck, the welcome pack, bio line, captions, DM, the 60-second video
+  script); Part IV the design brief for the offer kit. Assembled, never rewritten; stamped `## Offer Package` in
+  `offer.md`; text kept in `exports/`.
+- **The offer session now ends with the whole offer.** `attraction-offer` runs `attraction-why-join-me` and
+  `attraction-free-vs-paid` in their new silent modes (zero questions) and then the package; both skills rebuild the
+  package when they change. The Partner Offer document gains THE FIVE PROBLEMS THIS SOLVES (lesson 28's page), a
+  twelve-row At a glance (What's free from day one · Why me), the `Proof plan:` (founding partners: a written OK and a
+  60-second video at day 90 — lesson 33's "earn the first case studies"), `What my partners can offer:` (lesson 28's
+  duplication), `Differentiator:` and the why-join-me statement in the appendix; the gate checks all of it.
+- **The register default follows Mike's model.** `Join-gated package allowed: unknown` now keeps the join register
+  ("when you join me you don't just get the brokerage, you also get…") with one open check; only a brokerage that
+  says no opens it. Every reader in both plugins updated (`offer-template.md`, `partner-offer-doc.md`,
+  `interview-guide.md`, `attraction-doctrine.md`, the Brain template, `brain-contract.md`, `lm-magnet`, `lm-funnel`,
+  `lm-delivery`, `lm-nurture`, `lm-gbp`, `lm-partnerships`, `lm-profiles`, `lm-package`).
+- **Lead Magnet fixes from the live run:** the technical form checklist no longer prints in the member-facing funnel
+  appendix (it lives in plain words at the end of the Lead Magnet Package's Part V, for whoever builds the page);
+  a `Reach:` question when the Brain holds no booking link, email or handle (never "message me on Instagram" with
+  no handle — `intake-questions.md`, `brain-contract.md`); the funnel's word ceiling 1,800 → 2,400 (`measure_copy.py`,
+  `lm-funnel`); the package quotes the why-join-me statement, the free line and the differentiator, keeps page
+  titles as written, opens Part V with the literal `DESIGN BRIEF —` line, and the Offer section gains `What's free:`
+  (`output-standard.md`); `lm-navigator` names both packages as the Week 3 uploads and routes "build my offer
+  package".
+- Support (`cohort-kb.md`, `faq.md`, `maa-support-onboard`, `stack-map.md`) and `setup-guide.md` say Week 2 ends
+  with two files; `render_board.py` offers "build my offer package"; `drive-map.md` places it.
+
 ## [0.18.1] — 2026-11-09
 
 **Hotfix — the 0.18.0 update was refused (Lead Magnet 0.7.1).** Members saw "Plugin couldn't be updated. Try again."

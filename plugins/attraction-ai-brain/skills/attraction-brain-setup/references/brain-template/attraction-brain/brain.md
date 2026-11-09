@@ -72,7 +72,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `identity/voice-print.md` — the SPOKEN voice (how they talk), distilled from the three spoken answers — read for every read-aloud script
 - `identity/proof.md` — achievements, agents already helped (named, with result), organization size, why their agents joined them, reviews FROM AGENTS
 - `identity/story-bank.md` — the Personal Story & Experience Bank (the almost-quit moment, the mistakes, the turning points, the agents helped), each story tagged persona · pain · use
-- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (derived from the voice) — written in the brand chat ("my attraction brand direction", the second Week 1 chat); the Design Package reads this
+- `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (derived from the voice) — written in the brand chat ("my attraction brand direction", the Week 3 brand chat); the Design Package reads this
 - `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 3; empty until then by design)
 - `identity/publishing.md` — the short-form layer: platforms, cadence, the keyword, posting tool, best times, content board, link in bio (Short-Form-owned, Week 3; YouTube reads `Content board:` and `Keyword:` here)
 - `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `lm-profiles` writes it in Week 2 (aligned to the funnel's CTA), `sf-setup` refreshes its five sections in Week 3, `yt-setup` fills YouTube in Week 4

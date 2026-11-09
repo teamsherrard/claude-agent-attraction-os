@@ -63,8 +63,11 @@ A part that exists nowhere is **skipped with one honest line inside the package*
 the page are never skipped (Step 0).
 
 From the Brain, read: `identity/offer.md` (`## The program`, the UVP one-liner, `## The framework` and its
-one line, the deliverables, the `Why now`, `## How to talk about it` — the 30-second explanation, the video intro
-line, the `Comment keyword:`, the `Lead-magnet seed:` line — and the header's `Join-gated package allowed:`);
+one line, the deliverables, the `Why now`, `Differentiator:`, `## Value stack` → the free line and the up-front cost
+line (when free-vs-paid has run), `## Offer Package` → its status, `## How to talk about it` — the 30-second
+explanation, the video intro line, the `Comment keyword:`, the `Lead-magnet seed:` line — and the header's
+`Join-gated package allowed:`); `identity/journey.md` → `## Why join me` (the one-breath statement, written in the
+offer session — "not written yet" is said honestly, never invented);
 `identity/brand-visual.md` (the Final kit · the Direction · the `## Design Package brief` block — before Week 3
 all three are normally empty, and that is fine); `identity/compliance.md` (the first line `Status:` — `unset`
 means the public documents could not have been written, so say so and stop at the way back — and the stamp:
@@ -102,8 +105,10 @@ WHAT'S INSIDE
 ────────────────────────────────────────────
 PART I — THE OFFER
 ──── WHAT THE GUIDE LEADS TO ────
+Why join me: [the one-breath statement from journey.md → ## Why join me, verbatim — or "not written yet — your offer session writes it; say 'why join me'"]
 Program: [name · type · for · the 90-day outcome · format · cadence — from ## The program]
 The one line: [the UVP one-liner]
+Why me: [the Differentiator line — omit the label when the offer predates it]
 The method: [## The framework → the one line]
 Steps:
    •  [step 1 — what you do · the tool or template]      (every step, in order; the step the guide is cut from marked "— this guide")
@@ -113,8 +118,11 @@ What an agent gets:
 Why now: [the offer's Why now, verbatim — the one honest reason; or omit the label]
 How I talk about it: [the 30-second explanation]
 Video intro: [the video intro line]
+The free line: [from ## Value stack — what is free from day one, one sentence; omit the label when the stack is not built]
+The up-front cost line: [what costs money, said plainly — or "nothing I offer costs anything beyond what the brokerage charges"; omit with the stack]
 Comment keyword: [the offer's keyword] · Guide keyword: GUIDE
-Register: [at Join-gated package allowed: yes → "the program is offered to agents who partner with me" · at no or unknown → "every public line is what I teach, my story and how I mentor — never a package for joining"]
+Register: [at Join-gated package allowed: yes or unknown → "the program is what an agent receives when they partner with me" (unknown adds: "one check is open with my brokerage's compliance desk") · at no → "every public line is what I teach, my story and how I mentor — never a package for joining"]
+The full offer: your Offer Package — the one file for your offer kit — sits in your Offer folder; this part is the summary the guide points at.
 
 ────────────────────────────────────────────
 PART II — THE LEAD MAGNET
@@ -124,7 +132,7 @@ Promise: [the subtitle line]
 Pages:
    •  Cover — [title] · [subtitle]
    •  Page 1 — [the opening title]: [one line on what it does]
-   •  Page N — [title]: [one line]      (one per PAGE block, in order)
+   •  Page N — [title]: [one line]      (one per PAGE block, in order; the title exactly as the guide writes it — never re-cased, never Title Case)
    •  How [First name] helps next — the close, with the one booking button
    •  The back page — contact, socials, the compliance line
 The copy follows, word for word, exactly as the guide document reads.
@@ -173,7 +181,7 @@ Why now: [the offer's Why now, verbatim — or omit the label]
 
 ────────────────────────────────────────────
 PART V — THE DESIGN BRIEF
-DESIGN BRIEF — [GUIDE NAME]
+DESIGN BRIEF — [GUIDE NAME]      (this line exactly, in capitals, the guide's name after the dash — the design skills key on it; never "Design brief for …")
 [Name] · [Brokerage] · [Date]
 ──── WHAT TO BUILD ────
 •  A styled PDF of the guide: the cover + one interior page per "── PAGE N - TITLE ──" block in Part II + the closing page ("How [First name] helps next") + the back page; the compliance footer on every page.
@@ -209,6 +217,10 @@ No ranking language, no stars, no "best", no other brokerage's name or logo anyw
 The flat cover as its own page in the PDF (export that page as the cover image) · if the tool exports pictures: a square crop for Instagram, a 9:16 crop for stories, and a 3D booklet mockup with a soft shadow. The flat cover is enough to go live.
 ──── WHEN IT'S DONE ────
 Save the PDF (and any cover images) into the same Guides folder as the guide in your drive · share the PDF "anyone with the link" — that link is the thank-you page's download button · tell me "the PDF is done" · when the page is live, test-submit the form once and tell me "my funnel is live" with the link.
+──── IF A WEB PERSON BUILDS THE PAGE ────
+•  A real form on the page itself — first name, email, phone (optional) — that sends the entry to the member before the thank-you shows; never a form drawn by a script after the page loads.
+•  A hidden "are you a robot" field, and a plain fallback (the member's email) if the send fails.
+•  Test-submit once and confirm the entry arrived before any traffic; a page that looks right can still capture nothing.
 
 ════════════════════════════════════════════
 ▸ COMPLIANCE
@@ -218,8 +230,8 @@ Save the PDF (and any cover images) into the same Guides folder as the guide in 
 Write the real values in — never a `[` bracket token in the file the member uploads. Where the brand kit is
 empty (the normal Week 2 case), write the neutral-look line and say the Week 3 kit replaces it; never invent a
 hex code, a font or a logo. The register line (Part I) and the "words we don't use" list (Part IV) are written
-from the offer's `Join-gated package allowed:` value — at `no` or `unknown` nothing in the package may read
-"join me and get X".
+from the offer's `Join-gated package allowed:` value — at `no` nothing in the package may read "join me and get
+X"; at `yes` and `unknown` the join register reads consistently, `unknown` with its one-check line.
 
 ## Step 3 — Save, deliver, log
 1. **Render** the text with the shared renderer (output standard §3–§4):
@@ -263,6 +275,7 @@ is rewritten or rebuilt.
 - [ ] Parts I–V all present; a missing optional part carries its one honest line and the phrase that writes it
 - [ ] Copy verbatim; the source appendices stripped; one `▸ COMPLIANCE` appendix at the end
 - [ ] Part bands as CAPS bands with rules; every inner heading a `──── sub-band ────`; no copy line in capitals; no `[` token
-- [ ] The register line and the "words we don't use" list match `Join-gated package allowed:`
+- [ ] The register line and the "words we don't use" list match `Join-gated package allowed:`; the why-join-me statement, the free line and the differentiator quoted or honestly marked
+- [ ] Page titles as the guide writes them; Part V opens with the literal `DESIGN BRIEF — [GUIDE NAME]` line; the builder notes close Part V
 - [ ] Rendered, uploaded to the campaign folder with the dated name, read back at full depth; the text kept in `exports/`
 - [ ] Chat = link + title + five lines; `Package doc:` stamped; pushed

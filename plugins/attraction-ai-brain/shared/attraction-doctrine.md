@@ -325,6 +325,18 @@ somewhere, anywhere, today" — a weekly script role-play call is a real offer.
 builds the stack against the five pains using only what the member has actually done; `attraction-free-vs-paid`
 applies 10b; every promise is written as an outcome; no splits, caps, stock, or earnings anywhere in it.
 
+**The register (the owner's ruling, 2026-11-09):** a package offered to agents who partner with the member is
+Mike's model and the default — "when you join me you don't just get the brokerage, you also get…" (`/31`, `/28`).
+When the Brain cannot tell whether the brokerage allows it (`Join-gated package allowed: unknown`) the offer is
+still written as a join package with one open check for the compliance desk; only a brokerage that says **no**
+moves every public line to the open register (what the member teaches, their story, their mentorship). The
+earlier default — treating "don't know" as "no" — hid the offer behind "what I teach" and is withdrawn. **The
+offer is a package, and the package is promoted:** the offer session ends with the Offer Package
+(`attraction-offer-package`) — the offer to join me, the digital product (version one now: a template plus one
+short recording, never a course to build — realtors are not course creators; the Value Vault grows it in Week 6),
+the copy for every asset that promotes the offer, and the design brief for the offer kit. A lead magnet
+is a door into the offer, never the offer itself.
+
 ---
 
 ## 11. Your personal story and the "why join me" (`04-value-proposition/34`)

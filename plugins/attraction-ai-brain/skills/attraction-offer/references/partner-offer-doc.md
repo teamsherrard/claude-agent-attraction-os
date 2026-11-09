@@ -87,7 +87,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/
 
 ---
 
-## The structure — the cover, At a glance, eleven sections, then the member's own pages
+## The structure — the cover, At a glance, twelve sections, then the member's own pages
 
 ### Cover
 - **The program name** as the title (`--title`) — outcome-based, the naming rule in `SKILL.md` §5 (the
@@ -105,7 +105,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/
 ### AT A GLANCE — 120+ words — the one-page summary
 Source: `## The program`, `## The framework` (the one line), `## Support & community`, `## Structure`, the
 deliverables table, `## How to talk about it`.
-One or two plain sentences, then a **ten-row label table** `| What | [Program name] |` with these rows in
+One or two plain sentences, then a **twelve-row label table** `| What | [Program name] |` with these rows in
 this order, **each cell one line**:
 1. `Program` — the name, then a dash and the type (exactly one of the six) in plain words: "a mentorship
    program: a weekly call, a 1:1 to start".
@@ -117,12 +117,16 @@ this order, **each cell one line**:
 7. `Your first 90 days` — the three phases by name with their days, and what day 90 looks like.
 8. `What you get` — the deliverables as a comma list of outcomes-in-hand; ends "and everything my brokerage
    provides".
-9. `What it costs you` — "nothing today — it comes with the partnership"; any discounted item named by
-   `## Value stack` once free-vs-paid has run; the brokerage's own charges are "a call, with the documents".
-   NEVER a compensation word. **At `Join-gated package allowed: no` or `unknown`** the row reads "nothing — I
-   teach it to any agent who asks; partnering with me is a separate conversation" (the open register: the
-   program is what the member teaches, never a package gated on joining).
-10. `Next step` — the booking line and "bring [the thing]", and the comment keyword.
+9. `What's free from day one` — the free line from `## Value stack` (free-vs-paid's silent run): the items
+   that cost the agent nothing, as one sentence; Mike's honest value line when a real price exists ("[item],
+   normally $[real price], free when you partner with me").
+10. `What it costs you` — the up-front cost line: "nothing today — it comes with the partnership", or the
+    discounted items named by `## Value stack` with their real price; the brokerage's own charges are "a call,
+    with the documents". NEVER a compensation word. **At `Join-gated package allowed: no`** the row reads
+    "nothing — I teach it to any agent who asks; partnering with me is a separate conversation" (the open
+    register: the program is what the member teaches, never a package gated on joining).
+11. `Why me` — the `Differentiator:` line, one sentence.
+12. `Next step` — the booking line and "bring [the thing]", and the comment keyword.
 The offer kit, the funnel and the call presentation build from this table; the rest of the document says the
 same thing with the detail.
 
@@ -175,9 +179,22 @@ Source: the deliverables in `## The Partner Offer` (`What's included`) + `## The
 - **The brokerage as one line**, the last line of the section: "And everything my brokerage provides — I walk
   you through that on a call, with the real documents."
 - Six or more rows across the two tables; every row real today or reads "built with my first partners".
-- **The register:** at `Join-gated package allowed: no` or `unknown` the opening sentence says the program
-  is taught to any agent who wants to learn it and that partnering is a separate conversation; the band name
-  stays (downstream systems key on it); nothing in the section reads "join me and get".
+- **What my partners can offer** — the last paragraph before the brokerage line: the `What my partners can
+  offer:` line from `## The Partner Offer`, in the register (join: "the day you've run it, it's yours to offer the
+  agents you attract"; open: "what I teach, you can teach").
+- **The register:** at `Join-gated package allowed: no` the opening sentence says the program is taught to any
+  agent who wants to learn it and that partnering is a separate conversation; at `yes` and `unknown` it says the
+  program is what an agent receives when they partner with the member; the band name stays (downstream systems
+  key on it).
+
+### THE FIVE PROBLEMS THIS SOLVES — 120+ words
+Band: `THE FIVE PROBLEMS THIS SOLVES`. Source: `## The problems this offer solves` (the five pains table) and the
+deliverables. One sentence in (Mike's frame: agents leave problems, not companies — `02-prospect-targeting/18`),
+then one `•` line per pain in Mike's order — financial uncertainty · lack of support, mentorship, training ·
+technology gaps · limited growth · work-life balance and recognition — each "[the pain in the agent's words] →
+[what you get] → [the outcome]"; a pain the member does not solve reads honestly: "my brokerage covers this — I
+walk you through it on a call" or "not my lane". Outcomes, never features (`04-value-proposition/32`); no
+compensation word; no brokerage named by brand as the solver (`04-value-proposition/28`).
 
 ### YOUR FIRST 30 DAYS — 200+ words
 Source: `## The Partner Offer` → `Onboarding: Day 1` lines and the `First 30 days` table.
@@ -203,6 +220,9 @@ initials, the result; a result whose consent is not on file is written as the me
 as a printed quote) · the organization today · upline proof labeled as the upline's. Zero proof → in words:
 "None yet — I'm building it with my first partners. Mike's own path: help agents for free and earn the first
 case study." Never manufactured credibility, never a bracket.
+- `Proof plan:` closes the section — the `Proof plan:` line from `## The Partner Offer`, one or two sentences:
+  the founding-partner exchange (who, what they get, the written OK and the 60-second video at day 90). Present on
+  every offer; at zero proof it is the section's second half.
 
 ### WHY NOW — 80 to 120 words
 Source: the seven parts → `Why now`. The honest reason to move this quarter (a first-partner window, a
@@ -221,10 +241,12 @@ terms. No countdown clocks, no fake scarcity.
 ### APPENDIX — FOR MY CONTENT — 200+ words — the member's own page, never handed to an agent
 Band: `APPENDIX — FOR MY CONTENT`. Source: `## UVP`, `## How to talk about it`, the card's silent decisions.
 **This is the marketing language** — outcome-based, the member's voice, no hype words, every line in the
-register the brokerage rule sets (at `no` or `unknown`: what the member teaches, their story, their
-mentorship — never "join me and get X").
-- `──── The four ways to say it ────` — four `Label:` lines: `The promise:` (the UVP, locked shape) ·
-  `Outcome-led:` · `Story-led:` · `Mechanism-led:`. Never concatenated into a paragraph.
+register the brokerage rule sets (at `no`: what the member teaches, their story, their mentorship — never
+"join me and get X"; at `yes` and `unknown`: the join register).
+- `──── The four ways to say it ────` — six `Label:` lines: `The promise:` (the UVP, locked shape) ·
+  `Outcome-led:` · `Story-led:` · `Mechanism-led:` · `Why me:` (the `Differentiator:` line) · `Why join me (one
+  breath):` (the one-breath statement from `journey.md → ## Why join me`, verbatim — written in the same session by
+  `attraction-why-join-me`'s silent run). Never concatenated into a paragraph.
 - `──── The 30-second explanation ────` — one paragraph, 60 to 90 words, what the member says when an agent
   asks "so what do you actually do?": who I help · what they get · how · what happens next.
 - `──── The short lines ────` — `DM:` · `Caption:` · `Bio:` · `Video intro:` — under 20 words each, first
@@ -268,13 +290,14 @@ Band: `IF YOUR BROKERAGE DOES NOT ALLOW A JOIN-GATED PACKAGE`. Source: the heade
 allowed:` line and `## If your brokerage does not allow a join-gated package`. Always present, written for the
 state in force. `Rule in force:` allowed · not allowed · being checked. One short paragraph on what it means:
 at `yes`, the program is what an agent receives when they partner with the member, and compensation still
-stays off every page; at `no`, the offer is what the member teaches, their story and their mentorship, offered
-to any agent who wants to learn it — nothing gated on joining, never "join me and get X"; at `unknown`, the
-same open register for every public line until the compliance desk confirms. `The lines that change:` `•`
-lines naming each — the for-line, the "What it costs you" row, the four ways to say it, the short lines, the
-funnel's Offer and Why Join Me sections, the bios — one line each on how it reads in this register. At
-`unknown`, `The check:` one line — confirm with the compliance desk whether a package may be offered as a
-reason to join. Never a brokerage named as the example; never a word against the brokerage's rule.
+stays off every page; at `unknown`, the same join register (Mike's model — the norm at eXp and REAL) with one open
+check, and the member flips it with 'my brokerage does not allow a join package' if the desk says no; at `no`,
+the offer is what the member teaches, their story and their mentorship, offered to any agent who wants to learn
+it — nothing gated on joining, never "join me and get X". `The lines that change:` `•` lines naming each — the
+for-line, the "What it costs you" row, the four ways to say it, the short lines, the funnel's Offer and Why Join
+Me sections, the bios — one line each on how it reads in the register in force. At `unknown`, `The check:` one
+line — confirm with the compliance desk whether a package may be offered as a reason to join. Never a brokerage
+named as the example; never a word against the brokerage's rule.
 
 ### WHERE TO HOST IT — 100+ words — a guide, not a comparison
 Band: `WHERE TO HOST IT`. Source: `## Where to host it`. `Label:` lines: `Recommended:` Skool — the easiest:

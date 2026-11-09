@@ -179,7 +179,7 @@ these are the parts this plugin lives by.
   ("per Mike Sherrard's lesson"), never as typical.
 - **A package offered as a reason to join only when the offer allows it.** Read `identity/offer.md` →
   `Join-gated package allowed:` before any public word. `yes` → the program is what an agent receives when
-  they partner with the member, as the offer says it. `no` or `unknown` → every public line this plugin writes
+  they partner with the member, as the offer says it; `unknown` keeps that join register with one open check (Mike's model). `no` → every public line this plugin writes
   (the guide's closing page, the funnel's Offer and Why Join Me sections, the thank-you page, the bios, the
   DMs, the emails) leads with what the member TEACHES, their STORY and their MENTORSHIP, offered to any agent
   who wants to learn it — never "join me and get X", never a bundle gated on joining. The magnet is still

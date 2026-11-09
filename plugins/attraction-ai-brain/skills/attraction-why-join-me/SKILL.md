@@ -8,7 +8,7 @@ description: >
   Follows Mike's five-part shape (past · transformation · mission · value · vision) and the "I know what
   it's like to…" template. Compensation never in it, former brokerages never named, no income claims,
   nothing invented. A Week 2 skill that reads the offer's status and never demands a finished offer: with
-  seeds only, the value line uses what they already have and says the offer session sharpens it. Trigger
+  seeds only, the value line uses what they already have and says the offer session sharpens it. Also runs silently after the offer. Trigger
   on: "why join me", "my why join me story", "60-second why join me", "why should an agent join me",
   "write my why I joined story", "update my why join me".
 ---
@@ -131,7 +131,17 @@ from it now. When your offer is finalized, say 'update my why join me' and I'll 
 
 ## Update mode (trigger: "update my why join me")
 Re-read the Brain, rebuild only the parts whose source changed (usually the value line after the offer
-session, or proof after an agent's win), keep the member's edits to the rest, push, confirm in one line.
+session, or proof after an agent's win), keep the member's edits to the rest, push, confirm in one line. Then
+run **attraction-offer-package** silently (its Step 3) when `offer.md → ## Offer Package` is stamped, so the
+Offer Package carries the new statement.
+
+## Silent mode (called by `attraction-offer` at the end of the offer session, or by `attraction-offer-package`)
+No welcome, no question, no chat delivery of the three versions: build them from the Brain exactly as above
+(the value line from the finalized offer — the program by name, the free line when the stack is built), write
+the `## Why join me` block, render the document to `05 · Offer`, push, and hand the three versions back to the
+caller, which names them in its own close (*"your why-join-me story is written — it's on page one of your Offer
+Package"*). A Brain whose `journey.md` is still a template → tell the caller in one line (it says so to the
+member and names "my leader profile"); never interview inside another skill's session.
 
 ## How every output uses this (the payoff)
 Content skills open the "why I joined" video and the first story reel from the 60-second version; call

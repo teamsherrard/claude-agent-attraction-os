@@ -101,6 +101,9 @@
 | 3 | | | |
 | 4 | | | |
 **Done at day 30:** [the three things that are true]
+**Differentiator:** [one line — what makes this member different from every other leader at their brokerage, which pain they solve that others don't, how they are uniquely equipped]
+**Proof plan:** [the founding-partner exchange — the first two or three partners get the member's time in return for a written OK on their result and a 60-second video at day 90]
+**What my partners can offer:** [the program offered by the member's partners to the agents they attract — the same scripts, lessons and calls; co-sponsoring only where the brokerage allows it]
 **How to talk about it:** the four lines — UVP · outcome-led · story-led · mechanism-led · three short lines under 20 words (DM · caption · bio) · booking line: [from operations.md, or "not set yet"] · **Comment keyword:** [ONEWORD] · **Lead-magnet seed:** Step [N] — [step name] (the framework step the free guide is cut from) · what the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]"] · lead-magnet seed: [which framework step the free magnet is cut from — or the live magnet's name and keyword from `memory/magnets.md` once one exists]
 
 ## Value stack (owned by `attraction-free-vs-paid`)
@@ -110,7 +113,10 @@
 | | | | |
 
 ## Digital product (owned by `attraction-free-vs-paid`)
-**The thing they GIVE agents who join (built in the Value Vault, Week 6):** [name · what it is · the outcome it produces · format]
+**The thing they GIVE agents who join (version one = the first lessons and templates now; the full build in the Value Vault, Week 6):** [name · what it is · the outcome it produces · format]
 **Status:** [not mapped | mapped YYYY-MM-DD | built YYYY-MM-DD]
+
+## Offer Package (owned by `attraction-offer-package`)
+**Status:** [not built | built YYYY-MM-DD · Offer Package — [Program Name] — YYYY-MM-DD] *(the one file for the offer kit in Claude Design in Week 3, saved to `05 · Offer`; rebuilt after the offer, the why-join-me story or the stack changes)*
 
 **Compliance line on every public mention:** results are framed as what the member will SHOW, never what a partner will EARN. No splits, caps, stock, or rev-share numbers here — private call only.

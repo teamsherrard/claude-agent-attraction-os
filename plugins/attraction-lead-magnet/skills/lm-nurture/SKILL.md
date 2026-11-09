@@ -71,7 +71,7 @@ reading level, the member's voice. The arc:
 5. **Day 10 — what partnering actually looks like.** The Partner Offer as outcomes (`offer.md`): the program by name and
    type with its cadence (`## The program`), the framework in one line (`## The framework` → One line), what's
    included (the deliverables table's rows as outcomes), Day 1 and the first 30 days, free vs paid said straight. **No compensation, no model.** The brokerage line.
-   **At `Join-gated package allowed: no` or `unknown`:** Day 10 is what the member teaches and how they mentor, open
+   **At `Join-gated package allowed: no`:** Day 10 is what the member teaches and how they mentor, open
    to any agent — the offer's own lines from `## If your brokerage does not allow a join-gated package`; never a
    bundle for joining.
 6. **Day 13 — the questions.** The three questions agents ask most (`objections.md`), answered in one line
@@ -79,7 +79,7 @@ reading level, the member's voice. The arc:
 7. **Day 16 — the CTA, warm.** Mike's register verbatim-adapted: *"If you'd like to chat about partnering
    with me and getting [the real things — the weekly call, the training, the onboarding] for free, book a
    call and we'll see if I can help. If not, that's okay — the emails keep coming either way."* — that is the
-   `yes` register; at `no` or `unknown`: *"If you'd like to talk through where you're at and how I teach this,
+   `yes` register; at `no`: *"If you'd like to talk through where you're at and how I teach this,
    book a call — no pitch. If not, that's okay — the emails keep coming either way."* The booking link (none on
    file yet → "reply to this email and I'll send you times" — this IS an email, so reply works; house rules #2).
    Then they roll into the weekly newsletter.

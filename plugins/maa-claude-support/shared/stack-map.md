@@ -18,7 +18,7 @@ Mike (2026-10-08): not a plugin, parked.
 
 | # | Plugin (install week) | Prefix | Skills | Status | Front door (say this) |
 |---|---|---|---|---|---|
-| 1 | **Agent Attraction Brain** (W1) | `attraction-` | 26 | **BUILT** | "Set up my **attraction** brain" |
+| 1 | **Agent Attraction Brain** (W1) | `attraction-` | 27 | **BUILT** | "Set up my **attraction** brain" |
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "MAA help" / "help" / "I'm stuck" / "what did Mike say about…" |
 | – | **Design Studio** (Claude Design skill set, NOT a plugin) — W3 the Design Package (logo · style sheet · brand kit) + the offer kit · lead magnet · funnel · content + the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's brand project in Claude Design (there is no thumbnail design skill) | `aa-…-design` | 10 | **coming** — the upload files are handed out with the Week 1 bonus assets, not from this repo (parked on `wip/all-plugins`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
 | 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **live** — in the marketplace since 2026-11-08 (0.6.0; 0.7.0 adds the Lead Magnet Package — the one file the member uploads to Claude Design in Week 3); everything it writes lands in the member's cloud workspace and on their Brain Board | "launch my lead magnet plugin" / "set up my lead magnet for agents" |

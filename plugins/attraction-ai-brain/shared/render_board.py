@@ -410,7 +410,7 @@ READS = {
 }
 SYS_ACTIONS = {
     'brand': [('show my design package brief', 'Re-opens the brief to paste into Claude Design.'), ('update my attraction brand direction', 'Change anything: a colour, the tagline, the logo call.')],
-    'offer': [('refine my partner offer', 'Change the name, the steps, the first 30 days, the weekly rhythm. One card, say yes.'), ('paste my compliance link', 'Closes the open question on join-gated packages from your brokerage’s own rules.')],
+    'offer': [('refine my partner offer', 'Change the name, the steps, the first 30 days, the weekly rhythm. One card, say yes.'), ('build my offer package', 'One file for your offer kit: the offer to join you, your digital product, the copy for every asset that promotes it, and the build notes for Claude Design in Week 3.'), ('paste my compliance link', 'Closes the open question on join-gated packages from your brokerage’s own rules.')],
     'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('build my lead magnet package', 'One file: your offer, your guide, your page, your messaging and the build notes, ready for Claude Design in Week 3.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.')],
     'short-form': [('set up my attraction short-form', 'The whole Week 3 journey in one sitting, with nothing re-asked.')],
     'youtube': [('set up my YouTube for agents', 'One channel question, then no stops: the channel, the Game Plan, the board, the workflows, the first video.')],

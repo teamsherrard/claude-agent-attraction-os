@@ -30,9 +30,11 @@ style sheet, brand kit), your offer kit (the stack, the mockup, the one-pager �
 magnet PDF, funnel pages, and content (carousels, win walls), your video brand kit (Week 3, with
 Riverside), your event graphics, and the Value Vault — your ebook, course, or playbook plus your
 partner onboarding roadmap (Week 6). Your Cowork skills write the brief (your brand direction,
-your offer); Design renders it. Words in Cowork, visuals in Design. For your guide and your opt-in page the file
-you upload is your **Lead Magnet Package** from Week 2 (Content → Guides, beside your guide) — say "what do I upload
-to Claude Design" in Cowork and the Lead Magnet plugin hands it to you.
+your offer); Design renders it. Words in Cowork, visuals in Design. Two files from Week 2 are what you upload: your
+**Offer Package** (Offer folder — the Join My Team one-pager, the offer stack, the product mockup, the call deck
+and the welcome pack) and your **Lead Magnet Package** (Content → Guides — the guide PDF and the opt-in page). Say
+"what do I upload for my offer kit" or "what do I upload to Claude Design" in Cowork and each plugin hands you its
+file.
 
 **Q4. Why did my chat disappear? Did I lose my work?**
 No. Chats are workbenches, not filing cabinets — Cowork can start a session with a fresh desk.

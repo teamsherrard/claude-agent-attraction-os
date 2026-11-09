@@ -175,7 +175,11 @@ The offer is checked part by part; a missing part is an open item, never invente
    framework in §5).
 4. **Proof** — success stories, case studies, examples. None yet → Mike's own path: help agents for free to
    earn the first case studies; the file says "[open item: first partner's result]" and the Partner Offer
-   says "built with my first partners" in words.
+   says "built with my first partners" in words. **The proof plan** (every offer; written as `Proof plan:` under
+   `## The Partner Offer`, rendered in PROOF and in How to create it, carried by the Offer Package): the
+   founding-partner exchange — the first two or three partners get the member's time (the Saturday, the 1:1s,
+   the mark-ups) in return for a written OK on their result and a 60-second video at day 90; the line names who,
+   what they get and when the OK is asked for. When proof is thin it is also the honest why-now.
 5. **Support** — what they get when they join: coaching, systems, culture, access to the member.
 6. **Why now** — the honest reason to move this quarter (a cohort starting, a first-partner spot, a
    season). Never fake scarcity.
@@ -322,19 +326,33 @@ section in `offer.md`; none is asked except the one question below.
   'I don't know' and I'll check your brokerage's rules."* "I don't know" → check `compliance.md` and
   `brokerage-model.md` once more, write `unknown` if neither says, add the open item "confirm with the
   compliance desk whether a package may be offered as a reason to join" (closed by `attraction-compliance`), and
-  use the open register for every public line until it is `yes`. **The registers:** `yes` → the program is what
+  build in the join register with the check named once (the owner's ruling, 2026-11-09: the earlier default
+  treated "don't know" as "no" and hid the offer behind "what I teach"). **The registers:** `yes` → the program is what
   an agent receives when they partner with the member, as written. `no` → **the offer is what the member
   TEACHES, their STORY and their MENTORSHIP, offered to any agent who wants to learn it** — nothing is gated on
   joining, never "join me and get X"; the At a glance "What it costs you" row reads "nothing — I teach it to any
   agent who asks; partnering with me is a separate conversation"; the for-line, the promise, the marketing
   language, the funnel's Offer and Why Join Me sections, the bios and the captions lead with the teaching, the
-  story and the mentorship. `unknown` → the document is built as the program (it is what the member explains on
-  a call), the public lines use the `no` register, and the section names the one check. **The band names never
+  story and the mentorship. `unknown` → **the join register, Mike's model** (a package offered to agents who
+  partner with the member is the norm at eXp and REAL — `04-value-proposition/31`, `/28`): the document and every
+  public line read as at `yes`, the section names the one check, and the member can flip it any time with 'my
+  brokerage does not allow a join package' (→ `no`, the public lines rewritten). **The band names never
   change** (downstream systems key on them); the register inside them does. The flag is read by every public
   writer — the Lead Magnet plugin's magnet and funnel, the bios, the content engines.
+- **What my partners can offer** (`What my partners can offer:` under `## The Partner Offer`, rendered as the
+  last paragraph of WHAT YOU GET before the brokerage line, and in the Offer Package) — Mike's duplication rule
+  (`04-value-proposition/28`): the program is built so the member's partners can offer it to the agents they
+  attract — the same scripts, lessons and calls, the member helping them run their first call. In the join
+  register: "the day you've run it, it's yours to offer the agents you attract"; in the open register: "what I
+  teach, you can teach". Co-sponsoring is named only where `brokerage-model.md` says the brokerage allows it.
 - **The marketing language** (`## How to talk about it`, rendered in the appendix; its last line is `Lead-magnet seed: Step N — [name]`, the framework step the free guide is cut from — the Lead Magnet plugin reads it) — outcome-based, in the
   member's voice (`voice.md`), none of the banned words, in the register the brokerage rule sets: the four ways
-  to say it (the UVP · outcome-led · story-led · mechanism-led) · **the 30-second explanation** (60 to 90 words —
+  to say it (the UVP · outcome-led · story-led · mechanism-led) · **`Differentiator:`** (one line: what makes the
+  member different from every other leader at their brokerage, which pain they solve that others don't, how they
+  are uniquely equipped — `04-value-proposition/34`'s four questions answered from the Brain, never invented) ·
+  **the why-join-me statement** (the one-breath version `attraction-why-join-me` writes to `journey.md → ## Why join
+  me` in silent mode at the end of this session; the appendix prints it under the four ways) · **the 30-second
+  explanation** (60 to 90 words —
   what the member says when an agent asks "so what do you actually do?": who I help, what they get, how, what
   happens next) · the DM line · the caption · the bio · **the video intro line** (the first sentence on camera,
   under 20 words). Every line says the outcome before the feature (`04-value-proposition/32`).
@@ -505,8 +523,9 @@ and check ALL of:
 8. **The agent-facing document is 2,000 to 3,200 words** (the cover through Your next step) and **the member's
    own pages 900 to 1,800** (the appendix through Your content branches), every section at or above its floor
    (At a glance 120 · Who 80 · Promise 150 · Method 200 · Inside 250 · What you get 200 · First 30 days 200 ·
-   How we work 120 · Proof 60 · Why now 80 · Next step 80 · Appendix 200 · How to create it 150 · Start with
-   your upline 120 · If your brokerage 100 · Where to host it 100 · Content branches 150), no section that is a
+   How we work 120 · Proof 60 · Why now 80 · Next step 80 · Five problems 120 · Appendix 200 · How to create it
+   150 · Start with your upline 120 · If your brokerage 100 · Where to host it 100 · Content branches 150), no
+   section that is a
    heading over one stray line. Over a ceiling → cut prose (the Promise, Inside, What you get paragraphs
    first), never a table, never a checklist line.
 9. **The compliance line closes the agent-facing document** — the last line before the appendix band,
@@ -516,9 +535,9 @@ and check ALL of:
 11. **Proof only from `proof.md`** — every result, name and number in Proof, in The promise and on the At a
     glance page traces to a line there; a result whose consent is "ask first" appears as the member says it
     on calls, never as a printed quote; a result not in the file is cut, never softened.
-12. **All seventeen bands present, in order, none numbered**: AT A GLANCE · WHO THIS IS FOR · THE PROMISE · THE
+12. **All eighteen bands present, in order, none numbered**: AT A GLANCE · WHO THIS IS FOR · THE PROMISE · THE
     [METHOD], IN [N] STEPS · INSIDE [PROGRAM]: YOUR FIRST 90 DAYS · WHAT YOU GET WHEN YOU PARTNER WITH ME ·
-    YOUR FIRST 30 DAYS · HOW WE WORK TOGETHER · PROOF · WHY NOW · YOUR NEXT STEP · APPENDIX — FOR MY
+    THE FIVE PROBLEMS THIS SOLVES · YOUR FIRST 30 DAYS · HOW WE WORK TOGETHER · PROOF · WHY NOW · YOUR NEXT STEP · APPENDIX — FOR MY
     CONTENT · HOW TO CREATE IT · START WITH YOUR UPLINE · IF YOUR BROKERAGE DOES NOT ALLOW A JOIN-GATED
     PACKAGE · WHERE TO HOST IT · YOUR CONTENT BRANCHES; the cover carries the program name, the UVP line, the
     tagline, the by-line, the for-line and the member · brokerage · date line; no `<w:` markup; renderer
@@ -534,7 +553,7 @@ and check ALL of:
     filename anywhere = automatic FAIL; rebuild from the Brain files.
 15. **The Brain agrees** — the type, the name, the cadence and the keyword in the doc are the same words as
     `offer.md` and `brain.md`.
-16. **The appendix is complete** — the four lines labelled, the 30-second explanation, the four short lines
+16. **The appendix is complete** — the four lines labelled plus `Why me:` and `Why join me (one breath):`, the 30-second explanation, the four short lines
     (DM · caption · bio · video intro), the comment keyword, the "free guide is cut from" line naming one
     framework step, and "What I assumed (change any of these)" with a line for every default the card decided
     (type · name with its two alternates · framework name · call day and time · recorded vs live · support
@@ -545,9 +564,10 @@ and check ALL of:
     cover, the At a glance Program row, `offer.md` and `brain.md`; an organization or community name in use
     appears only as the home of the program.
 18. **The brokerage rule holds** — `offer.md`'s `Join-gated package allowed:` line is `yes`, `no` or `unknown`;
-    at `no` or `unknown` no public line (the appendix's marketing language, the for-line, Your next step) says
-    or implies "join me and get"; the brokerage section names the register in force and, at `unknown`, the one
-    check.
+    at `no` no public line (the appendix's marketing language, the for-line, Your next step) says or implies
+    "join me and get"; at `yes` and `unknown` the join register reads consistently across the document; the
+    brokerage section names the register in force and, at `unknown`, the one check. `Proof plan:` and `What my
+    partners can offer:` are rendered, and THE FIVE PROBLEMS THIS SOLVES carries all five pains in Mike's order.
 19. **The member's pages are real** — How to create it lists only things the member can do this week and marks
     what exists as done; Start with your upline carries the three signs each marked true today or not yet;
     Where to host it names one host and the four things to set up; Your content branches has 5 to 7 segments
@@ -569,12 +589,17 @@ Three lines, then the next step — never a tour of the document:
 is [the framework name] — [the step chain]. It's saved to your Drive → [workspace] → 05 · Offer → [name]; the
 At a glance page is the one to read first, and the last pages are yours alone: how to create it, how to start
 with your upline, the words to use, where to host it, and the content branches everything else grows from."*
-Then one suggestion at most, no file names: *"Next this week: say 'map my digital product' and we decide what
-you give agents who join and what you charge for; 'build my why join me story' for the 60-second version; and
-the Design Package turns the stack into your offer graphic."* **When the Lead Magnet plugin started this
-session** (its navigator ran this skill as the offer step), skip the suggestion and hand straight back: *"Your
-offer's built. Now the lead magnet."* — it continues in the same sitting, and its one recommendation reads the
-framework step the appendix named.
+**Then, before the close, the rest of the offer — silently, no questions:** run **attraction-why-join-me** in
+silent mode (the statement and the 60-second story, from the Brain) → **attraction-free-vs-paid** in silent mode
+(the stack sorted free · included · discounted, the free line, the up-front cost line, version one of the digital
+product) → **attraction-offer-package** (the one file: the offer to join me, the product, the copy for every asset
+that promotes the offer, the design brief for the offer kit — saved to 05 · Offer). Add one line to the close:
+*"Your why-join-me story, what's free and what costs, and your Offer Package are saved beside it — the package is
+the one file for your offer kit in Claude Design in Week 3."* Then one suggestion at most, no file names: *"Next
+this week: your lead magnet — say 'launch my lead magnet plugin'."* **When the Lead Magnet plugin started this
+session** (its navigator ran this skill as the offer step), the silent chain still runs, then skip the suggestion
+and hand straight back: *"Your offer's built. Now the lead magnet."* — it continues in the same sitting, and its
+one recommendation reads the framework step the appendix named.
 
 ---
 
@@ -599,9 +624,10 @@ minutes and nothing in it explains itself).
 - **The name is an outcome, said the way an agent says it.** The outcome plus the mechanism; the two tests;
   the banned name words; two alternates on the card; an organization or community name in use is the home,
   never the name. A name that sounds like a portal is not finished.
-- **The brokerage rule decides the register.** One question when the Brain cannot answer it; `no` or
-  `unknown` means every public line leads with what the member teaches, their story and their mentorship —
-  never "join me and get X".
+- **The brokerage rule decides the register.** One question when the Brain cannot answer it; `no` means every
+  public line leads with what the member teaches, their story and their mentorship — never "join me and get X";
+  `yes` and `unknown` keep Mike's join register ("when you join me you don't just get the brokerage, you also
+  get…"), `unknown` with one open check.
 - **Start with the upline when the "you" layer is thin.** The upline's package plus one lesson is a real
   offer this week; the three signs say when to build their own.
 - **The UVP is the foundation of the content.** The content branches are written here, once; the content
@@ -623,8 +649,9 @@ minutes and nothing in it explains itself).
 - **One owner per section:** this skill writes `identity/offer.md` — including the header's `Join-gated
   package allowed:` line and the five member-page sections (`## How to create it` · `## Start with your upline`
   · `## If your brokerage does not allow a join-gated package` · `## Where to host it` · `## Content branches`)
-  — except the two sections `attraction-free-vs-paid` owns and the `## Notes for Week 2` section capture
-  appends to; in `brain.md` it writes only the `Offer status:`, `UVP (one line):` and `Program:` lines; it
+  and the `Differentiator:` · `Proof plan:` · `What my partners can offer:` lines — except the two sections
+  `attraction-free-vs-paid` owns, the `## Offer Package` section `attraction-offer-package` owns, and the
+  `## Notes for Week 2` section capture appends to; in `brain.md` it writes only the `Offer status:`, `UVP (one line):` and `Program:` lines; it
   writes nothing else. The content engines read `## Content branches`; they never write it.
 - **The gate runs every time**, and a failed check is fixed once, then said plainly — never hidden, never
   looped.

@@ -48,7 +48,7 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
   five-pains table, and — for the closing page — what's included (as outcomes), the first 30 days,
   the booking line and "what the call is." Also `## Start with your upline`: the upline's package, labeled as the
   upline's on the closing page ("we, not me"). **Read the header's `Join-gated package allowed:` line** (house
-  rules #5): `no` or `unknown` (or missing) → the closing page leads with what the member teaches, their story
+  rules #5): `no` (or missing) → the closing page leads with what the member teaches, their story
   and their mentorship, never "join me and get X". Apply **house rules #2's three states** (seeds / missing /
   placeholder → the offer is built first, in this session, through the navigator's Step 1 — never a "come
   back later"; thin → build and sharpen after; finalized or built → go) — unless the navigator already
@@ -177,7 +177,7 @@ never a `[` bracket token. The parts, in order:
    profile.md]" or "message me on Instagram @[handle]" — never "reply", a guide has nothing to reply to; house
    rules #2) — it belongs here, in the page's Book-a-call area and on the thank-you page. No compensation, no
    "join [brokerage]," no invented urgency (the offer's honest why-now may appear once, verbatim). **At
-   `Join-gated package allowed: no` or `unknown`** the close is what the member teaches, their story and how
+   `Join-gated package allowed: no`** the close is what the member teaches, their story and how
    they mentor — offered to any agent who wants to learn it; nothing reads "join me and get X". The shape is
    Mike's iceberg close (`15-advanced-scaling/73`): what's here is the tip; the full system, the mentorship and
    the community sit below the water — free when you partner (at `yes`) or open to any agent who wants to learn
@@ -260,7 +260,7 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
 6. The WHAT TO DO NEXT page is present and is the last PAGE block: the five-line `Checklist:`, the `Next
    step:` as an activity, 120 to 200 words.
 7. The closing page is present: 120 to 200 words, outcomes only from `offer.md`, the brokerage line, one
-   consented `Proof:` or none; in the register `Join-gated package allowed:` sets (`no` or `unknown` → the
+   consented `Proof:` or none; in the register `Join-gated package allowed:` sets (`no` → the
    teaching, the story, the mentorship; never "join me and get").
 8. The back page is present: `Contact:` and `Compliance:`; `Last updated:` when the shape needs it;
    `Socials:` only if real.

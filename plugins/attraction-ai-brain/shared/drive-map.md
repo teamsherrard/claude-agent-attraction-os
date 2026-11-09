@@ -45,7 +45,7 @@ only the *default label*. Locate it robustly:
 ├── 04 · Agents/                 ← the people side
 │   ├── Prospects/               (Prospect Radar reports, agent-landscape research, call prep)
 │   └── My Organization/         (onboarding records, recognition, org analyses)
-├── 05 · Offer/                  ← the Partner Offer doc, the value stack, teach-first lessons, onboarding docs, Why Join Me
+├── 05 · Offer/                  ← the Partner Offer doc, the Offer Package (the Week 3 upload for the offer kit), the value stack, teach-first lessons, onboarding docs, Why Join Me
 └── 06 · Materials/              ← the member's existing stuff: old recruiting decks, bios, the brokerage's onboarding doc, CRM exports, past videos — the AI reads these
 ```
 The system **auto-creates all of this at setup** — the member never builds a folder. The six top-level folders
@@ -83,7 +83,7 @@ work inside that one member's Brain; it is not a multi-user system. The member's
     the Events plugin creates when it opens the event; nothing event-related is saved anywhere else.
   - **Prospect Radar reports, agent-landscape research, call prep, intel reports** → `04 · Agents/Prospects`.
     **Onboarding records, recognition, org analyses, surveys** → `04 · Agents/My Organization`.
-  - **Offer Doc, Why Join Me, teach-first lessons, onboarding docs, the value-stack sheet, Value Vault products** → `05 · Offer`.
+  - **Offer Doc, the Offer Package, Why Join Me, teach-first lessons, onboarding docs, the value-stack sheet, Value Vault products** → `05 · Offer`.
   - **The member's own material** → `06 · Materials` (they drop; `attraction-import` reads after they confirm).
 - **Hand the member the link.** At the end of setup, give them the **direct link** to their workspace folder and
   tell them to **bookmark it** — that is their home base.

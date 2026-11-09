@@ -103,7 +103,12 @@ thank-you page.*
 - **Ask like:** *"The last page points at one next step — book a call with you ([the booking link]), 'no
   pitch, I'll just answer your questions.' Same as the thank-you page. Keep it that way?"* No booking link on
   file yet → pre-fill *"email me at [the address in profile.md]"* (a guide has nothing to reply to) and say house
-  rules #2's one line once (a free Calendly this week, then 'set up my attraction operations').
+  rules #2's one line once (a free Calendly this week, then 'set up my attraction operations'). **No booking link,
+  no email and no Instagram handle anywhere in the Brain** → Q5 becomes the one real question of the intake:
+  *"Where should an agent reach you after the guide — your Instagram handle (with the @) or your email?"* The
+  answer is written as `Reach:` in the intake block and every public line uses it — the guide's close, the page's
+  Book-a-call area and thank-you page, the DMs, the package. Never print "message me on Instagram" without the
+  handle or "email me" without the address: a line nobody can act on is not a call to action.
 - **Default:** yes. **Never:** "join [brokerage]," a second kind of ask, compensation, invented urgency.
 
 ### Shape-specific swaps (take Q2's or Q3's slot — never a sixth question)
@@ -158,7 +163,7 @@ locked shape in `shared/brain-contract.md` if the Brain predates it; if the temp
 ## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks)
 - Shape: [system guide · checklist · plan/template · calendar · questions guide · comparison guide · mini-course · math worksheet · case study · 5-day challenge] · Lane: [tool · plan · decision or proof] · Built from: [the framework step and its tool or template — or, for the plan lane, the program's phases — or, on an older offer, the UVP mechanism or Teach-first lesson]
 - For: [the type, by stage] · The promise: [Q1] · Draws from: [Q2, or the shape swap] · Opening story: [Q3, or "off the page"] · Proof (consented): [Q4, or "none — written qualitatively"] · Next step: [Q5]
-- Materials on file: [the documents in 06 · Materials cited in brokerage-model.md, with dates — or the templates named in the Teach-first table — or "none yet; structure only, numbers on the call"] · Mike's lesson: [module/lesson — title, from the recommender; the citation lives here and in the document's appendix, never in chat] · Funnel doc: — · Package doc: — · Taken: [YYYY-MM-DD]
+- Materials on file: [the documents in 06 · Materials cited in brokerage-model.md, with dates — or the templates named in the Teach-first table — or "none yet; structure only, numbers on the call"] · Mike's lesson: [module/lesson — title, from the recommender; the citation lives here and in the document's appendix, never in chat] · Reach: [the booking link · the email · @handle] · Funnel doc: — · Package doc: — · Taken: [YYYY-MM-DD]
 ```
 
 Then **attraction-brain-sync PUSH** (write → push → verify). Never narrate this or name the file (house rules #1).
@@ -172,7 +177,7 @@ FOCUS (locked): [Magnet Name] — the [shape], [lane] · for [the type of agent 
 Q2 draws from:          [the lesson + the template handed over — or the shape swap: my model's trade-off verbatim + the model types · the questions · the mistake · the week-one activity · the three lessons · the worksheet rows · the consented partner · the five tasks]
 Q3 opening story:       [one line, or "off the page"]
 Q4 proof (consented):   [the results, as proof.md states them — or "none — qualitative"]
-Q5 next step:           [the booking link + the call line]
+Q5 next step:           [the booking link + the call line — or the Reach: answer: the email or the @handle, never a bare "message me on Instagram"]
 Materials on file:      [cited documents + dates · the Teach-first templates · or "structure only — numbers on the call"]
 Compliance:             [set / confirmed — the policy line on public compensation numbers, quoted]
 ```

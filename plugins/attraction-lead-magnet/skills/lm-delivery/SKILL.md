@@ -40,7 +40,7 @@ Read `identity/compliance.md` (**the gate — unset stops here**; a DM template 
 for the spoken voice use `voice-print.md`), `identity/avatars.md` (the type of agent and the one
 qualifier question that mirrors their pain), `identity/operations.md` (follow-up cadence, the booking link,
 the email signature), `identity/profile.md` (handles), and `identity/offer.md` → the header's `Join-gated package
-allowed:` line (at `no` or `unknown` every hand-off line in the DMs is what the member teaches, never a package for
+allowed:` line (at `no` every hand-off line in the DMs is what the member teaches, never a package for
 joining — house rules #5).
 
 ## Step 1 — The DM that sends the guide (by hand today; the same copy loads into ManyChat in Week 3)

@@ -172,6 +172,7 @@ after a label is copy.
 | `Bullets:` | list | one line per item | the section's list or cards |
 | `Why partner title:` · `Why partner:` | inline · list (6–8) | "Why partner with [first name]" and the short credibility bullets under it | a credibility block beside the headshot |
 | `Sneak peek title:` · `Sneak peek:` | inline · list (6–8) | "A sneak peek inside [the program name]" and one sentence per thing an agent gets | the program's peek-inside block (cards or a list) |
+| `What's free:` | inline | the free line from the Brain's value stack, one sentence | a quiet strip under the Offer section's bullets |
 | `How it works:` | list (3) | the three steps to join, in plain words | three numbered steps inside the Book-a-call area |
 | `What we'll cover:` | list (5–6) | what the call covers, in the member's voice | the list beside the booking embed, repeated under the thank-you page's call line |
 | `Booking embed:` | inline | the booking link | the embedded calendar when the link embeds, else a button to it |
@@ -330,6 +331,7 @@ Bullets:
 The framework: ...            (one line — offer.md "## The framework" → "One line")
 The first 30 days: ...        (one line)
 The brokerage line: ...       ("and everything [Brokerage] provides — I walk you through that on a call")
+What\'s free: ...               (the free line from the Brain\'s value stack — what costs the agent nothing from day one; omit the label when the stack is not built)
 Sneak peek title: ...         ("A sneak peek inside [the program name]")
 Sneak peek:
    •  ...                     (6–8 one-sentence bullets of what an agent gets — the Partner Offer's deliverables table, each an outcome, not a feature; only what exists today or "built with my first partners")

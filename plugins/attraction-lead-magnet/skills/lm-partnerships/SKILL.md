@@ -35,7 +35,7 @@ Pull the Brain (house rule 2). `identity/compliance.md` (**the gate — unset st
 the inducement line — nothing the member writes offers a referral fee or an inducement), `identity/profile.md`
 (name, brokerage as required, market, booking link), `identity/offer.md` (what the member gives agents — as
 outcomes — and the UVP one-liner; this is what the partner needs to be able to repeat; the header's `Join-gated
-package allowed:` line — at `no` or `unknown` the partner passes along what the member teaches and the free guide,
+package allowed:` line — at `no` the partner passes along what the member teaches and the free guide,
 never a package for joining), `identity/avatars.md`
 (the type of agent, so the partner knows who to send), `identity/proof.md` (one credibility line; agents
 helped, consent), `identity/voice.md` + `voice-samples.md`, `identity/operations.md` (signature, the weekly

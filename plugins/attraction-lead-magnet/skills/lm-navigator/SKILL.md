@@ -106,7 +106,9 @@ statement above that cap) and its closing line — *"Does this feel like you? Sa
 names, or change anything: the names, the call time, what's included."* (with its one brokerage question
 folded in when the Brain holds no answer) — under your lines, in the same message. The member says yes or
 sends their edits in one message; the skill applies them, builds `offer.md` and the Partner Offer document
-silently, runs its gate, pushes, and delivers a three-line summary. When it finishes — `offer.md` reads
+silently, runs its gate, pushes, writes the why-join-me story, sorts what is free and what costs, saves the Offer
+Package (the one file for the offer kit — the digital product kept small: a template plus one short recording),
+and delivers a three-line summary. When it finishes — `offer.md` reads
 `Status: finalized by member …`, the document is delivered — **do NOT stop at the offer skill's own close
 line.** Continue in the same breath:
 
@@ -230,9 +232,10 @@ I'll have your [magnet, in plain words]."* — and go.
    the one file for Week 3. You don't come back until all three are done.
 3. **Close the session with the finish line** — one short block, plain words, nothing numbered:
    *"Done: your lead magnet, your sales funnel outline and your Lead Magnet Package are in your workspace under
-   Content → Guides, and your Brain Board shows the magnet and what's left. The package is the one file you upload
-   to Claude Design in Week 3, with your brand brief — it holds the words, the structure and the build notes, so
-   the design gets made from it; download it from that folder when the week opens. This week: open the guide in
+   Content → Guides, and your Brain Board shows the magnet and what's left. Your Offer Package from the offer
+   session sits in your Offer folder. Those two packages are the two files you upload to Claude Design in Week 3,
+   with your brand brief — they hold the words, the structure and the build notes, so the design gets made from
+   them; download them from those folders when the week opens. This week: open the guide in
    Google Docs or Word and download it as a PDF — that's your shareable version today (the branded design comes in
    Week 3). Upload that PDF to the same Guides folder, share it 'anyone with the link', and that link is your
    download button. Then your bios — say 'update my attraction bios' (five minutes) — and the DM and email that
@@ -266,7 +269,8 @@ asked for; they just get the thing it depends on first.
 | "my funnel is live", "here's my live page link", "my page is live" | the page went live | `lm-funnel` — its update branch only: records the URL, Status → `live`, the Brain's Live magnet line; nothing rewritten |
 | "the PDF is done", "my guide is designed" | the designed PDF exists | `lm-package` — its record branch only: Status → `designed`, the download link if given |
 | "refresh my guide" · "refresh my page" | a rewrite from the current Brain | `lm-magnet` · `lm-funnel` — a new dated copy, same campaign folder; then `lm-package` rebuilds the package |
-| "build my offer", "build my partner offer" is what they actually need | the offer | the Brain's offer skill (`attraction-offer`) — one offer card, shown not asked — and when they came through this plugin, continue straight into the magnet after |
+| "build my offer", "build my partner offer" is what they actually need | the offer | the Brain's offer skill (`attraction-offer`) — one offer card, shown not asked; it ends with the why-join-me story, the free-vs-paid sort and the Offer Package — and when they came through this plugin, continue straight into the magnet after |
+| "build my offer package", "my offer package", "what do I upload for my offer kit" | the offer's one file | the Brain's `attraction-offer-package` (needs a built offer) |
 | "build my lead magnet package", "my lead magnet package", "rebuild my package", "what do I upload to Claude Design", "design brief for my guide", "make my guide a PDF", "mockup for my guide" | the Week 3 file | `lm-package` (needs the written magnet and its page outline; it writes the page first if that is missing) |
 | "how do I deliver my guide", "ManyChat copy for my guide", "GUIDE keyword", "DM that sends the guide" | delivery | `lm-delivery` |
 | "nurture sequence for agents", "my weekly newsletter for agents", "email my list" | the list | `lm-nurture` |
