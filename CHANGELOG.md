@@ -2,6 +2,28 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.24.0] — 2026-11-09
+
+**The Design Studio comes to main, rewired for the three Week 3 files (Support 0.1.20).** The ten Claude Design skills
+(`design-studio/`) were written for seven separate Week 2 documents, a Week 1 brand and a "Brand HQ" project. They now
+read the Week 3 Kit by chapter and band, the guide file and the Design Package brief (the contract:
+`design-studio/_build/REWIRE-BRIEF-2026-11-09.md`); all design work is Week 3 in one member-named project, events and
+the Value Vault Week 6. Two owner rulings applied everywhere: digital-only (no print pieces — business cards, signs,
+flyers, postcards, letterhead are gone; a Zoom background and a title frame replace them) and a COACHING brand for
+agents, never a realtor brand for consumers (house, key, skyline and "sold" cues banned; the member's face, the method
+and the program name instead). The offer kit leads with the DIGITAL PRODUCT MOCKUP ("design my digital product", "mock
+up my offer"), version one = template + one recording, never a course box unless chapter 2 says so; the model
+comparison sheet is gone and the opportunity deck is the kit's call deck. The content skill is the SOCIAL GRAPHICS skill
+with three modes: the six kit posts ("design my posts"), the team and promo templates ("design my team posts": welcome a
+new partner, agent win, team milestone, quote card, weekly call reminder, reel cover, program promo) and the carousel
+and recognition side doors. The video kit adds the POP-UP SET ("design my pop-ups": name card, guide pop-up, call pop-up,
+two end cards, transparent, both orientations) beside the Riverside Video Brand Kit v3 contract. The register rule, the
+verbatim law, the compliance stamp and the exact Cowork phrases to say back ("the logo is done" … "my offer kit is
+designed" … "the PDF is done" … "my funnel is live" … "register my video brand kit") are in every skill. New Week 3
+Start Here and README; the Design System file says whose brand this is; `build.sh` builds the ten zips and two map files
+into `_dist/` (committed; attached to the GitHub release). Setup guide §5, the Support cohort KB and stack map point
+members at the release and the new phrases.
+
 ## [0.23.3] — 2026-11-09
 
 **Pre-demo audit of the Week 2 sitting — two independent read-throughs, 60 findings fixed (Brain 0.9.3 · Lead Magnet

@@ -37,8 +37,7 @@ the member has not installed yet: say so honestly — *"that one switches on in 
 plugins are the whole stack"* — never pretend a skill exists. The front-door phrases above are each plugin's real trigger phrases.
 
 **Install order:** Plugin 1 FIRST (everything reads it) → Plugin 2 → then each week's plugins
-as that week opens — Week 2 adds Plugin 3 (the Lead Magnet), run AFTER "build my partner offer". The Design Studio skills are uploaded at claude.ai/customize/skills (zips),
-not installed from the marketplace.
+as that week opens — Week 2 adds Plugin 3 (the Lead Magnet) — one sitting that builds the offer first if it isn't built. The Design Studio skills are uploaded at claude.ai/customize/skills (ten zips from the Design Studio release, https://github.com/teamsherrard/claude-agent-attraction-os/releases/latest), not installed from the marketplace.
 
 **Not part of this OS at all:** the realtor marketplace's Listing Launch, Market System, Descript
 editor, realtor YouTube / short-form / AI admin / lead capture plugins. They belong to the Social

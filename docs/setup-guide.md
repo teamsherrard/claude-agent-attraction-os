@@ -176,15 +176,17 @@ a paste-ready block for Claude Design, and saves it in your 02 · Brand folder.
 **Claude Design** builds the visuals. It lives at claude.ai/design, not in Cowork, and it reads your Brain Book
 (the document) plus the brief, not your Brain directly.
 
-1. **Upload the three Design Package skills.** Get the Design Package from your Week 3 materials
-   `[NOT SET — where members download the Design Package]`. In claude.ai click **Customize → Skills → Upload a
-   skill** and upload the three files: `01-aa-logo-design.zip`, `02-aa-style-sheet-design.zip`, `03-aa-brand-kit-design.zip`.
+1. **Upload the Design Studio skills.** Download them from your Week 3 materials (the cohort posts the files; the
+   source is the Design Studio release at https://github.com/teamsherrard/claude-agent-attraction-os/releases/latest — the ten numbered zips plus
+   `00-START-HERE.md` and `00-agent-attraction-design-system.md`). In claude.ai click **Customize → Skills → Upload a
+   skill** and upload the eight Week 3 zips as they are (never unzipped): `01-aa-logo-design.zip` through
+   `08-aa-video-kit-design.zip`; `09` and `10` wait for Week 6. Read `00-START-HERE.md` first — it is the map.
 2. **One project for your brand.** Open claude.ai/design and create one project for your brand (any name — your own
    name works). Run every design skill inside it, always — that is how each skill finds your logo, colours, fonts,
    and headshot.
-3. **Attach two things to every chat:** the **Agent Attraction Design System** file (it comes with the Design
-   Package) and your **Brain Book** (download the newest one from 01 · AI Brain, or let the skill read it through
-   your Drive connection). After the style sheet step, the Design System becomes *your* "[Your Name] Design
+3. **Attach the Design System and your three files to every chat:** the **Agent Attraction Design System** file
+   (`00-agent-attraction-design-system.md`), your **Week 3 Kit**, your **guide** and your **Design Package brief**; your
+   **Brain Book** only when a skill asks for it. After the style sheet step, the Design System becomes *your* "[Your Name] Design
    System" — attach that one from then on. Never a demo-watermarked Book.
 4. **Paste your Design Package brief** into a new chat in that project. Lost it? In Cowork say `my attraction brand
    direction` and it hands you the brief again.
@@ -195,8 +197,10 @@ a paste-ready block for Claude Design, and saves it in your 02 · Brand folder.
    - `build my brand style sheet` — two directions side by side: a palette distinct from your brokerage's, fonts,
      spacing and usage rules, a "book a call with me" graphic, and your Design System, locked.
    - `make my brand kit` — profile pictures; banners for Instagram, Facebook, LinkedIn, and YouTube; highlight
-     covers; win, teaching, and call-to-action post templates; stories; the "Join My Team" cover; email signature;
-     end screen.
+     covers; win, teaching and call-to-action post templates; stories; a Zoom background; a title frame; the one-pager
+     cover; email signature; end screen. Everything is for screens — no print pieces — and it is a coaching brand for
+     agents, never a listing brand. After each: say `the logo is done`, `the style sheet is done — colours and fonts
+     locked`, `the kit is done` in Cowork.
 6. **Drop the kit into 02 · Brand.** When a piece is approved, say `push this to my Drive` and it files everything
    into your home base's 02 · Brand folder (without a Drive or OneDrive connection it hands you an export list
    instead). Claude Design's Export menu has no picture option, so the logo and brand kit boards end with a
@@ -206,9 +210,10 @@ a paste-ready block for Claude Design, and saves it in your 02 · Brand folder.
    `check my attraction brain` — it counts the kit as your Week 3 brand item.
 8. **Your offer kit, your guide and your opt-in page.** In the same project, upload your **Week 3 Kit** and your
    **guide** from Week 2 (the kit in your home base folder beside your Brain Book, the guide in your Guides folder; in
-   Cowork `what do I upload to Claude Design` hands you the kit and names the guide) and ask for the pieces one at a
-   time, copy verbatim: the Join My Team one-pager, the offer stack, the product mockup,
-   the guide PDF with its cover, the opt-in page, the thank-you page, then the call deck and the welcome pack. Save
+   Cowork `what do I upload to Claude Design` hands you the kit and names the guide) and ask for the pieces one at a time, copy verbatim: your digital product mockup (`design my digital product`), the
+   offer stack, the one-pager, the guide PDF with its cover, the opt-in page, the thank-you page, the six social posts
+   (`design my posts`), the video pop-up set (`design my pop-ups`), then the call deck and the welcome pack; `design my
+   team posts` gives you the welcome-a-new-partner, agent-win, quote-card and call-reminder templates you reuse all year. Save
    the offer pieces to your Offer folder (`my offer kit is designed`) and the PDF to your Guides folder, shared
    "anyone with the link" (`the PDF is done`); when the page is live, `my funnel is live` with the link.
 
