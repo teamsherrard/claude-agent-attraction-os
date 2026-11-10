@@ -33,8 +33,7 @@
 - [ ] The Week 3 Kit: one line and the link — `Week 3 Kit — Taylor Brooks — 2026-… — DEMO` in the home base folder
   beside the Brain Book. No full text in chat. OPEN IT: a cover page, a CONTENTS page where every line is a link, then
   chapter 1 — the two-page summary (the offer table, the guide outline, the sales funnel outline, where everything
-  lives, how to use it in Week 3). Eight chapters, each on its own page; **under 25 pages** (count them). Click "Your
-  bios" in the contents and land on Instagram, Facebook, LinkedIn, YouTube with the character counts. The guide's full
+  lives, how to use it in Week 3). Eight chapters, each on its own page; **under 25 pages** (count them). Click "Bios" in the contents and land on Instagram, Facebook, LinkedIn, YouTube with the character counts. The guide's full
   text is NOT in the kit — the guide is its own file and is uploaded beside the kit in Week 3.
 - [ ] The Partner Offer (if built this sitting): a cover, a linked contents page, At a glance, eleven sections, about
   8 to 10 pages — agent-facing only; the member's own pages are chapter 8 of the kit.

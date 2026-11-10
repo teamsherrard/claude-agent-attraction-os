@@ -85,38 +85,19 @@ Compensation is never in either register.
 ## Step 1 — Assemble the kit (structured text, `shared/doc-formatting.md`)
 Every line is copied from the Brain (Part I) or from the Lead Magnet plugin's text (Part II) — the same words as
 `offer.md`, `journey.md` and the Partner Offer document; nothing added, nothing "punched up", no new claims, no new
-numbers. **The kit is a book** (the renderer's book grammar): a cover page, a linked CONTENTS page from the `[[TOC]]`
-block, `CHAPTER n — TITLE` bands that each start on a new page with a small kicker, `PART I` / `PART II` opener
-pages, and **every heading inside a chapter a sub-band `──── LIKE THIS ────`**; the guide's own `── PAGE N - TITLE ──`
-lines stay as they are. Chapter 1 is the two-page summary the member actually reads; the TOC summaries are the
-plain-words line under each entry. Never a line of copy in capitals; never a `[` bracket token; no skill ids
-anywhere in the file. Chapter 1's two outline blocks are copied from the Lead Magnet plugin's chapter 4 idea-and-outline and chapter 5
-structure sub-bands; chapter 8 is rendered from `offer.md`'s member sections (`## How to talk about it`, `## What I assumed`, `##
-How to create it`, `## Start with your upline`, `## If your brokerage does not allow a join-gated package`, `## Where
-to host it`, `## Content branches`) — the pages that used to sit at the back of the Partner Offer document. **The
-guide's full copy is never in the kit** (the guide is its own file, uploaded beside the kit); chapter 4 carries its
-idea, its outline, the picture idea for each page and the design brief. Eight chapters in the member's order — what
-they read first (2 to 6), the designer's chapter (7), their private pages (8) — no PART opener pages, fewer breaks.
-The Lead Magnet plugin's text (chapters 4 to 6) is inserted between chapter 3 and chapter 7.
-
-```
-Week 3 Kit — [First Last]
-[Name] · [Brokerage] · [City] · [Date]   ·   Built from: Partner Offer [date] · Why join me [date] · Value stack [date] · Lead magnet [date, or "not yet"] · Page copy [date, or "not yet"] · Bios [date, or "not yet"]
-Upload this file and your guide to Claude Design in Week 3, with your Design Package brief. You do not have to read it cover to cover: chapter 1 is your two-page summary, and the contents page finds anything in one click. Chapters 2 to 6 are yours; chapter 7 is for the designer; chapter 8 is your private pages.
-
-[[TOC]]
-CHAPTER 1 — YOUR WEEK 2 AT A GLANCE :: your offer, your guide and your page on two pages, and the three Week 3 steps
-CHAPTER 2 — YOUR OFFER :: the program, the five problems it solves, what you get and what's free, proof, why now, your small digital product
-CHAPTER 3 — YOUR WHY JOIN ME STATEMENT, AND THE WORDS TO USE :: the statement in one breath and in 60 seconds, the one line, why me, the 30-second explanation, the short lines
-CHAPTER 4 — YOUR LEAD MAGNET: THE IDEA AND THE OUTLINE :: the idea you said yes to and why, the outline page by page, the picture ideas, the design brief (the guide itself is its own file)
-CHAPTER 5 — YOUR SALES FUNNEL OUTLINE :: the eleven sections word for word, the pop-up, the thank-you page, the words for the guide, and how to build the page
-CHAPTER 6 — YOUR BIOS :: Instagram, Facebook, LinkedIn, YouTube and more, each sized to its platform, ready to paste
-CHAPTER 7 — WHAT PROMOTES YOUR OFFER, FOR THE DESIGNER :: the Join My Team one-pager, the offer stack, the product mockup, the call deck, the welcome pack, the social lines, the design brief for the offer kit
-CHAPTER 8 — FOR YOUR EYES ONLY :: what I assumed, how to create it, start with your upline, the brokerage rule, where to host it, your content branches
+numbers. **The kit is a book** (the renderer's book grammar): a cover page, a linked CONTENTS page from the `[[TOC]]
+CHAPTER 1 — SUMMARY :: the whole week on two pages
+CHAPTER 2 — YOUR OFFER :: the program, what you get, what's free, proof, why now
+CHAPTER 3 — WHY JOIN ME :: the statement, and the words to use
+CHAPTER 4 — LEAD MAGNET :: the idea, the outline, the design brief
+CHAPTER 5 — SALES FUNNEL :: the page, word for word, and how to build it
+CHAPTER 6 — BIOS :: every platform, ready to paste
+CHAPTER 7 — DESIGN ASSETS :: the one-pager, stack, mockup, deck, welcome pack
+CHAPTER 8 — YOUR NOTES :: assumptions, how to create it, hosting, content branches
 [[/TOC]]
 
 ────────────────────────────────────────────
-CHAPTER 1 — YOUR WEEK 2 AT A GLANCE
+CHAPTER 1 — SUMMARY
 ────────────────────────────────────────────
 Your offer, your guide and your page, on two pages. Everything else in this file is the same words again, laid out for you and for the designer.
 | What | [Program name] |
@@ -174,7 +155,7 @@ Version one, this month:  [the template or sheet the member already uses, plus O
 The full version:  [grown in Week 6 with the Value Vault only if the first partners ask, or "exists — in 05 · Offer"] · Status:  [mapped YYYY-MM-DD · version one by [date] · built YYYY-MM-DD]
 
 ────────────────────────────────────────────
-CHAPTER 3 — YOUR WHY JOIN ME STATEMENT, AND THE WORDS TO USE
+CHAPTER 3 — WHY JOIN ME
 ────────────────────────────────────────────
 ──── WHY JOIN ME ────
 [the one-breath version, verbatim from journey.md → ## Why join me]
@@ -190,12 +171,12 @@ Comment keyword:  [KEYWORD] — "Comment [KEYWORD] and I'll send it." · The fre
 [the Lead Magnet plugin's kit text, verbatim and whole — its own CHAPTER 4, CHAPTER 5 and CHAPTER 6 bands and sub-bands — inserted HERE, between chapter 3 and chapter 7]
    — or, when no kit text exists yet, this one chapter and nothing else in its place:
 ────────────────────────────────────────────
-CHAPTER 4 — YOUR LEAD MAGNET: THE IDEA AND THE OUTLINE
+CHAPTER 4 — LEAD MAGNET
 ────────────────────────────────────────────
 Your lead magnet, your page and your bios join this file at the end of your lead magnet session this week — say "launch my lead magnet plugin".
 
 ────────────────────────────────────────────
-CHAPTER 7 — WHAT PROMOTES YOUR OFFER, FOR THE DESIGNER
+CHAPTER 7 — DESIGN ASSETS
 ────────────────────────────────────────────
 ──── THE JOIN MY TEAM ONE-PAGER ────
 Headline:  [the outcome-led line]
@@ -246,7 +227,7 @@ The rules:  copy verbatim from chapters 2, 3 and 7; no compensation, splits, rev
 When it's done:  save every file into your Offer folder · tell me "my offer kit is designed".
 
 ────────────────────────────────────────────
-CHAPTER 8 — FOR YOUR EYES ONLY
+CHAPTER 8 — YOUR NOTES
 ────────────────────────────────────────────
 These pages are yours — never handed to an agent.
 ──── WHAT I ASSUMED (CHANGE ANY OF THESE) ────

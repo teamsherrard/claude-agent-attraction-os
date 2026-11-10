@@ -2,6 +2,12 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.23.1] — 2026-11-09
+
+**Shorter chapter names (Brain 0.9.1 · Lead Magnet 0.12.1).** The kit's contents page now reads: Summary · Your Offer · Why
+Join Me · Lead Magnet · Sales Funnel · Bios · Design Assets · Your Notes, each with a one-line gloss under ten words
+(`attraction-week3-kit`, `lm-package`). Same chapters, same order, same budget.
+
 ## [0.23.0] — 2026-11-09
 
 **Twenty-five pages, the bios inside (Brain 0.9.0 · Lead Magnet 0.12.0 · Support 0.1.18).** The owner's cap: the Week 3

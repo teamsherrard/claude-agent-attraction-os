@@ -84,7 +84,7 @@ anywhere.
 
 ```
 ────────────────────────────────────────────
-CHAPTER 4 — YOUR LEAD MAGNET: THE IDEA AND THE OUTLINE
+CHAPTER 4 — LEAD MAGNET
 ────────────────────────────────────────────
 ──── THE IDEA YOU SAID YES TO ────
 Title:  [the guide's title, exactly] · Promise:  [the subtitle line]
@@ -113,7 +113,7 @@ The mockup:  the flat cover as its own page in the PDF (export that page as the 
 When it's done:  save the PDF and any cover images into your Guides folder · share the PDF "anyone with the link" — that link is the thank-you page's download button · tell me "the PDF is done".
 
 ────────────────────────────────────────────
-CHAPTER 5 — YOUR SALES FUNNEL OUTLINE
+CHAPTER 5 — SALES FUNNEL
 ────────────────────────────────────────────
 ──── THE STRUCTURE ────
 The page reads in this order; every opt-in button opens the one pop-up; submitting lands on the thank-you page.
@@ -135,7 +135,7 @@ In Claude Design:  sections in the order above, copy verbatim, every section's o
 If a web person builds it:  a real form on the page itself — first name, email, phone (optional) — that sends the entry to the member before the thank-you shows, never a form drawn by a script after the page loads · a hidden "are you a robot" field, and a plain fallback (the member's email) if the send fails · test-submit once and confirm the entry arrived before any traffic.
 
 ────────────────────────────────────────────
-CHAPTER 6 — YOUR BIOS
+CHAPTER 6 — BIOS
 ────────────────────────────────────────────
 Paste each one into its platform this week. Every bio says who you are, who you help, what you help them do, why believe you and what to do next, and carries ONE link — your page when it is live, your booking link until then. The identity line is the same everywhere.
 ──── INSTAGRAM (150 CHARACTERS) ────

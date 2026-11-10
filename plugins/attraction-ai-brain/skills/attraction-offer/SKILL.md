@@ -422,7 +422,7 @@ The doc is the program, written to be read **by an agent** — a cover page, a l
 glance page and eleven sections, each at or above its floor, exactly per `references/partner-offer-doc.md`. **The
 member's own pages (the marketing language, what I assumed, how to create it, start with your upline, the brokerage
 rule, where to host it, the content branches) are no longer in this document**: they are written to `offer.md` as
-before and rendered by `attraction-week3-kit` as chapter 8 of the Week 3 Kit, "Your offer, for your eyes only" (the
+before and rendered by `attraction-week3-kit` as chapter 8 of the Week 3 Kit, "Your notes" (the
 owner's ruling, 2026-11-09: a 13-page offer document overwhelmed the test run). The document ends at the compliance
 line.
 
