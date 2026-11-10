@@ -2,6 +2,25 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.22.0] — 2026-11-09
+
+**Find anything in one click (Brain 0.8.0 · Lead Magnet 0.11.0).** The owner's second review of the live Week 2 files:
+the Week 3 Kit was 25 pages of headings with no way in, and the Partner Offer was 13 pages because the member's own
+pages sat behind the agent's. "If I want my lead magnet outline I have to scroll and scroll."
+- **The Week 3 Kit is a book** (`attraction-week3-kit`, `lm-package`): a cover page that says "upload this, you do not
+  have to read it", a CONTENTS page where every line is a link, then **chapter 1, the two-page summary** — the offer in
+  one table, the lead magnet outline, the sales funnel outline, where everything lives, how to use it in Week 3 —
+  before anything else. Part I (chapters 2–6) is the offer, Part II (chapters 7–10) the lead magnet; every chapter
+  starts on its own page with a small kicker. The renderer's book grammar does this (`[[TOC]]`, `PART`/`CHAPTER` bands),
+  so nothing changed in `render_doc.py`.
+- **The Partner Offer is agent-facing only**: a cover, a linked contents page, At a glance and eleven sections, about
+  8 to 10 pages. The member's pages — the marketing language, what I assumed, how to create it, start with your upline,
+  the brokerage rule, where to host it, the content branches — stay in `offer.md` (new `## What I assumed` section in
+  `offer-template.md` and the Brain template) and render as chapter 6 of the kit, "Your offer, for your eyes only".
+  `attraction-offer`'s gate checks twelve bands and the contents block; `partner-offer-doc.md` carries the block.
+- Support (`cohort-kb.md`) and `lead-magnet-demo-checklist.md` describe the new shape; the demo now says to open the kit
+  and click a contents link.
+
 ## [0.21.0] — 2026-11-09
 
 **The guide renders as a guide (Lead Magnet 0.10.0 · Brain 0.7.1).** The first live `Lead Magnet — …` document read like a

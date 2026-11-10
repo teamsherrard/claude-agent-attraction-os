@@ -21,6 +21,9 @@
 ## The mistakes agents are making right now (Setup Conversation 2, question 17 — verbatim)
 [the biggest mistakes the member sees agents making, and why they — or joining their brokerage — can be the solution. `attraction-offer` reads these as the pains the offer answers; `attraction-persona-map` reads them as the agents who will relate.]
 
+## What I assumed (Week 2 — owned by `attraction-offer`; one line per default the offer card decided; renders in the Week 3 Kit's chapter 6)
+- [ ]
+
 ## Notes for Week 2 (appended by capture — never rewrites the above)
 - [YYYY-MM-DD] [ ]
 
@@ -117,6 +120,6 @@
 **Status:** [not mapped | mapped YYYY-MM-DD | built YYYY-MM-DD]
 
 ## Week 3 Kit (owned by `attraction-week3-kit`)
-**Status:** [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: A | A + B] *(the ONE file for Claude Design in Week 3, saved to `01 · AI Brain` beside the Brain Book — Part A the offer, Part B the lead magnet; rebuilt whenever a part changes; the older copy trashed)*
+**Status:** [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: I | I + II] *(the ONE file for Claude Design in Week 3, saved to `01 · AI Brain` beside the Brain Book — a book: a linked contents page, chapter 1 the two-page summary, Part I the offer, Part II the lead magnet; rebuilt whenever a part changes; the older copy trashed)*
 
 **Compliance line on every public mention:** results are framed as what the member will SHOW, never what a partner will EARN. No splits, caps, stock, or rev-share numbers here — private call only.

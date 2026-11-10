@@ -87,7 +87,32 @@ python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/
 
 ---
 
-## The structure — the cover, At a glance, twelve sections, then the member's own pages
+## The structure — the cover, a linked contents page, At a glance, then eleven sections (agent-facing only)
+
+The member's own pages (the appendix, how to create it, start with your upline, the brokerage rule, where to host
+it, the content branches) are **no longer in this document** — `offer.md` holds them and the Week 3 Kit renders them
+as chapter 6. This document is what an agent reads, about 8 to 10 pages, and it ends at the compliance line.
+
+### The contents block (the renderer's book grammar — a cover page and a linked CONTENTS page)
+Right after the head lines (the title line, the meta line, the tagline), before the first band:
+```
+[[TOC]]
+AT A GLANCE :: the whole offer on one page
+WHO THIS IS FOR :: the agent this is written for, and who it is not for
+THE PROMISE :: the story, told once
+THE [METHOD NAME], IN [N] STEPS :: the method, in full
+INSIDE [PROGRAM NAME]: YOUR FIRST 90 DAYS :: the three phases and the first lessons
+WHAT YOU GET WHEN YOU PARTNER WITH ME :: from me, from my organization, from the brokerage
+THE FIVE PROBLEMS THIS SOLVES :: the five pains and what you get for each
+YOUR FIRST 30 DAYS :: Day 1 and the four weeks
+HOW WE WORK TOGETHER :: the weekly rhythm
+PROOF :: real results, and the proof plan
+WHY NOW :: the honest reason
+YOUR NEXT STEP :: the call, and what to bring
+[[/TOC]]
+```
+Every entry matches a band word for word (the bracketed names filled in); the renderer links each to its heading.
+The summaries are plain words, under twelve each.
 
 ### Cover
 - **The program name** as the title (`--title`) — outcome-based, the naming rule in `SKILL.md` §5 (the
@@ -233,95 +258,19 @@ terms. No countdown clocks, no fake scarcity.
 - The ask in the member's voice: the booking line and what to bring · what the call is and is not (one
   sentence each) · the comment keyword line · one sentence on what happens after the call (Day 1, in one
   line).
-- **The compliance line closes the agent-facing document — the last line of this section, verbatim, nothing
-  after it before the appendix band:** *Compensation isn't on this page on purpose — it's a private,
+- **The compliance line closes the document — the last line of this section, verbatim, nothing after it:** *Compensation isn't on this page on purpose — it's a private,
   brokerage-approved conversation. Before this goes anywhere public, check your brokerage's advertising and
   rev-share marketing rules.*
 
-### APPENDIX — FOR MY CONTENT — 200+ words — the member's own page, never handed to an agent
-Band: `APPENDIX — FOR MY CONTENT`. Source: `## UVP`, `## How to talk about it`, the card's silent decisions.
-**This is the marketing language** — outcome-based, the member's voice, no hype words, every line in the
-register the brokerage rule sets (at `no`: what the member teaches, their story, their mentorship — never
-"join me and get X"; at `yes` and `unknown`: the join register).
-- `──── The four ways to say it ────` — six `Label:` lines: `The promise:` (the UVP, locked shape) ·
-  `Outcome-led:` · `Story-led:` · `Mechanism-led:` · `Why me:` (the `Differentiator:` line) · `Why join me (one
-  breath):` (the one-breath statement from `journey.md → ## Why join me`, verbatim — written in the same session by
-  `attraction-why-join-me`'s silent run). Never concatenated into a paragraph.
-- `──── The 30-second explanation ────` — one paragraph, 60 to 90 words, what the member says when an agent
-  asks "so what do you actually do?": who I help · what they get · how · what happens next.
-- `──── The short lines ────` — `DM:` · `Caption:` · `Bio:` · `Video intro:` — under 20 words each, first
-  person, in the member's voice; the video intro is the first sentence on camera.
-- `Comment keyword:` the ONE word in caps — "Comment [KEYWORD] and I'll send it."
-- `The free guide is cut from:` which framework step (or steps) the free lead magnet is cut from and why that
-  step runs without the member — the seed `lm-magnet-ideas` reads. When a magnet is already live
-  (`memory/magnets.md → ## Current magnet`), name it and its keyword here instead of re-seeding.
-- `──── What I assumed (change any of these) ────` — `•` lines, one per default the offer card decided
-  silently: the program type · the program name, with the two alternates that were offered and why this one ·
-  the framework name · the weekly call's day and time · what is recorded vs live · the support rhythm and
-  response time · the 90-day outcome · the first lesson · the "what it costs you" line · the comment keyword ·
-  the brokerage answer (allowed · not allowed · being checked). One line each, the value and where it came
-  from in plain words ("from what you do today", "from the outcome in your one-liner"). This is the only list
-  of assumptions anywhere — never in chat.
-
-### HOW TO CREATE IT — 150+ words — the member's build checklist
-Band: `HOW TO CREATE IT`. Source: `## How to create it` (from `## Structure`, the Teach-first table, the
-deliverables, `operations.md`). One sentence in, then four `Label:` lead-ins each followed by `•` lines:
-`Record:` (lesson 1 tonight — what is on screen, the run time; lessons 2 and up live first, recorded with the
-first partners) · `Write:` (the templates handed over, the welcome-call agenda, the Day 1 hand-over list, the
-community's welcome post) · `The first 30 days:` (the member's side of the weeks table, one line per week) ·
-`The weekly touchpoint:` (the call — day, time, length, format, what happens on it, who runs it when the
-member cannot). Every line is something the member can do this week; a thing that exists today reads "done —
-reuse it", never as a to-do. No numbered lines, no values, no compensation.
-
-### START WITH YOUR UPLINE — 120+ words
-Band: `START WITH YOUR UPLINE`. Source: `## Start with your upline` (the upline layer — Brain question 16 —
-`proof.md`'s upline proof, `operations.md`'s 3-way partner, `avatars.md`, `strategy.md`). Mike's rule in one
-sentence (use your upline's package and your own skill to get started; build your own over time). Then
-`Label:` lines: `My upline's package:` (generic names, the access line) · `My own skill added to it:` (the one
-lesson) · `The offer I can run this week:` (one line). Then **the three signs you are ready to build your
-own**, as three `•` lines, each ending "— true today" or "— not yet" with the evidence in plain words: you have
-attracted agents who ask for your way of doing something · your process has a result you can stand behind ·
-the upline's package does not serve who your story speaks to. Close with the verdict line: all three true →
-"this program is yours; my upline's package is a layer inside it"; fewer → which sign to watch for. The upline
-by first name only, labeled as the upline's; never a word against the upline's package.
-
-### IF YOUR BROKERAGE DOES NOT ALLOW A JOIN-GATED PACKAGE — 100+ words
-Band: `IF YOUR BROKERAGE DOES NOT ALLOW A JOIN-GATED PACKAGE`. Source: the header's `Join-gated package
-allowed:` line and `## If your brokerage does not allow a join-gated package`. Always present, written for the
-state in force. `Rule in force:` allowed · not allowed · being checked. One short paragraph on what it means:
-at `yes`, the program is what an agent receives when they partner with the member, and compensation still
-stays off every page; at `unknown`, the same join register (Mike's model — the norm at eXp and REAL) with one open
-check, and the member flips it with 'my brokerage does not allow a join package' if the desk says no; at `no`,
-the offer is what the member teaches, their story and their mentorship, offered to any agent who wants to learn
-it — nothing gated on joining, never "join me and get X". `The lines that change:` `•` lines naming each — the
-for-line, the "What it costs you" row, the four ways to say it, the short lines, the funnel's Offer and Why Join
-Me sections, the bios — one line each on how it reads in the register in force. At `unknown`, `The check:` one
-line — confirm with the compliance desk whether a package may be offered as a reason to join. Never a brokerage
-named as the example; never a word against the brokerage's rule.
-
-### WHERE TO HOST IT — 100+ words — a guide, not a comparison
-Band: `WHERE TO HOST IT`. Source: `## Where to host it`. `Label:` lines: `Recommended:` Skool — the easiest:
-one community, the classroom for the recorded lessons and the templates, the calendar for the weekly call,
-one welcome post · `The alternative:` Circle — the same four things, a little more to configure · `Your
-community's name:` the organization or community name in use (else the program name) · `Set up in 20
-minutes:` four `•` lines (create the community · add lesson 1 and the templates to the classroom · put the
-weekly call on the calendar · write the welcome post) · `Keep it simple:` one community, one welcome post, one
-weekly call · `The group chat:` stays the chat. **The Skool link line:** this reference carries the
-placeholder `[Skool link — set by the cohort]`; when the cohort sets the affiliate link it replaces the
-placeholder here and the line renders as `Skool:` + the link. Until then the rendered line reads, in words,
-"Skool — the cohort's link is in your Week 2 materials" — **never a bracket in the document** (gate check 7).
-No platform comparison, no pricing, no other platform named.
-
-### YOUR CONTENT BRANCHES — 150+ words — the UVP as the foundation of the content
-Band: `YOUR CONTENT BRANCHES`. Source: `## Content branches`, the same words. One sentence in (all content is
-a branch of the UVP — tactical, valuable information from one segment of it at a time), then 5 to 7 `Label:`
-lines, one per segment (the framework's steps, the pains in the overlap, the member's perspective on what
-agents pay for versus what works, the story's turning point, the teaching method itself), each followed by
-its three example topics as one line separated by middle dots — specific, tactical, a result or a number in
-each, never compensation. One closing sentence: the Short-Form Game Plan (Week 3) and the YouTube Game Plan
-(Week 4) build their pillars and titles from these branches first.
-
----
+### The member's own pages — not here
+The appendix (the marketing language: the six labelled lines, the 30-second explanation, the short lines, the comment
+keyword, the lead-magnet seed; and "What I assumed"), HOW TO CREATE IT, START WITH YOUR UPLINE, IF YOUR BROKERAGE DOES
+NOT ALLOW A JOIN-GATED PACKAGE, WHERE TO HOST IT and YOUR CONTENT BRANCHES are written to `offer.md` by the skill
+(`## How to talk about it` · `## What I assumed` · `## How to create it` · `## Start with your upline` · `## If your
+brokerage does not allow a join-gated package` · `## Where to host it` · `## Content branches`) with the same rules
+as before — real steps only, the three signs each true today or not yet, one host and four set-up steps, 5 to 7
+branches with three topics each, never a compensation topic — and **rendered by `attraction-week3-kit` as chapter 6
+of the Week 3 Kit**. They never appear in the agent-facing document.
 
 ## Voice rules (the gate reads for these)
 - First person, confident, no filler. No sentence explains why a section exists ("so neither of us has to

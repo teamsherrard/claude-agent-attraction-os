@@ -172,7 +172,11 @@ Link: [the community's link once it exists — or "not set up yet"]
 
 ## Week 3 Kit
 (owned by attraction-week3-kit — the ONE file for Claude Design in Week 3, in 01 · AI Brain beside the Brain Book; Part A the offer, Part B the lead magnet)
-Status: [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: A | A + B]
+Status: [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: I | I + II]
+
+## What I assumed
+(owned by attraction-offer — one line per default the offer card decided: type · name with its two alternates · framework name · call day and time · recorded vs live · support rhythm · the 90-day outcome · the first lesson · the costs line · the keyword · the brokerage answer; renders in the Week 3 Kit's chapter 6, never in the agent-facing document)
+• …
 
 ## Notes for Week 2
 (appended by attraction-capture — positioning notes and new angles, dated; never rewrites the sections above)

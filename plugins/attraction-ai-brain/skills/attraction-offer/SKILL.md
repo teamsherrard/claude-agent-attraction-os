@@ -407,7 +407,9 @@ program block, the framework table, the structure, the deliverables, Day 1 and t
 community, proof, why now, the marketing language (the 30-second explanation, the three short lines, the
 video intro line) and the keyword, then the member's own pages from §6 (how to create it · start with your
 upline · the brokerage rule's section · where to host it · the content branches); write `identity/offer.md`;
-render the Partner Offer; run the gate; push; deliver. Open items are marked in the file, never in the doc.
+write `## What I assumed` (one line per default the card decided — the only list of assumptions anywhere; it renders
+in the Week 3 Kit's chapter 6, never in the agent-facing document); render the Partner Offer; run the gate; push;
+deliver. Open items are marked in the file, never in the doc.
 
 The comment keyword is coined from the program name before the build, so the document carries it. Every
 later skill uses that one name; the keyword never changes once content has used it.
@@ -416,9 +418,13 @@ later skill uses that one name; the keyword never changes once content has used 
 
 ## The Partner Offer (what the member hands an agent)
 
-The doc is the program, written to be read — the cover, the At a glance page, eleven agent-facing sections,
-then the member's own pages (the appendix and five short sections) in this order, each at or above its floor,
-exactly per `references/partner-offer-doc.md`:
+The doc is the program, written to be read **by an agent** — a cover page, a linked contents page, the At a
+glance page and eleven sections, each at or above its floor, exactly per `references/partner-offer-doc.md`. **The
+member's own pages (the marketing language, what I assumed, how to create it, start with your upline, the brokerage
+rule, where to host it, the content branches) are no longer in this document**: they are written to `offer.md` as
+before and rendered by `attraction-week3-kit` as chapter 6 of the Week 3 Kit, "Your offer, for your eyes only" (the
+owner's ruling, 2026-11-09: a 13-page offer document overwhelmed the test run). The document ends at the compliance
+line.
 
 - **Cover** — the program name as the title · the UVP one-liner · the outcome-led tagline · "by [First
   Last]" · "for [the type of agent, plain words]" · member · brokerage (as compliance allows) · date · demo
@@ -442,20 +448,11 @@ exactly per `references/partner-offer-doc.md`:
 - **Why now** — 80 to 120 words.
 - **Your next step** — the call line, what the call is and isn't, the comment keyword line; then the
   compliance last line verbatim, closing the agent-facing document.
-- **Appendix — For my content** — the marketing language: the four ways to say it as a labelled list, the
-  30-second explanation, the DM / caption / bio / video intro lines, the comment keyword, which framework step
-  the free lead magnet is cut from, and "What I assumed (change any of these)" — the only list of assumptions
-  anywhere (the name with its two alternates and the brokerage answer are on it).
-- **How to create it** — the build checklist in four groups: record · write · the first 30 days · the weekly
-  touchpoint.
-- **Start with your upline** — the upline's package plus the member's own skill as the way to start this week;
-  the three signs they are ready to build their own, each marked true today or not yet.
-- **If your brokerage does not allow a join-gated package** — the brokerage rule as decided (`yes` · `no` ·
-  `unknown`), the register it sets, the lines that change, and the one check when it is unknown.
-- **Where to host it** — Skool (recommended), Circle (the alternative), the 20-minute setup, one community ·
-  one welcome post · one weekly call.
-- **Your content branches** — the UVP as the foundation of the content: 5 to 7 segments, three example topics
-  each — what the content engines build from.
+- **Not in this document, by design** — the appendix (the marketing language, the assumptions), how to create it,
+  start with your upline, the brokerage rule, where to host it and the content branches: all written to `offer.md`
+  (`## How to talk about it` · `## What I assumed` · `## How to create it` · `## Start with your upline` · `## If your
+  brokerage does not allow a join-gated package` · `## Where to host it` · `## Content branches`) and rendered in the
+  Week 3 Kit's chapter 6.
 
 Compensation appears nowhere. If the member asks for splits, caps, stock, rev share, or income figures in
 the offer: one line — *"I'll leave that off the page; compensation belongs on a private, brokerage-approved
@@ -520,28 +517,25 @@ and check ALL of:
    member's own items first, the brokerage as the section's last line, every row real today or "built with
    my first partners"; no price, no value, no "free or discounted" column on the page.
 7. **No bracket placeholders anywhere** — no `[` … `]` in the rendered text, real or demo.
-8. **The agent-facing document is 2,000 to 3,200 words** (the cover through Your next step) and **the member's
-   own pages 900 to 1,800** (the appendix through Your content branches), every section at or above its floor
-   (At a glance 120 · Who 80 · Promise 150 · Method 200 · Inside 250 · What you get 200 · First 30 days 200 ·
-   How we work 120 · Proof 60 · Why now 80 · Next step 80 · Five problems 120 · Appendix 200 · How to create it
-   150 · Start with your upline 120 · If your brokerage 100 · Where to host it 100 · Content branches 150), no
-   section that is a
+8. **The document is 2,000 to 3,200 words** (the cover through Your next step — it is agent-facing only; the
+   member's pages live in the Week 3 Kit), every section at or above its floor (At a glance 120 · Who 80 · Promise
+   150 · Method 200 · Inside 250 · What you get 200 · First 30 days 200 · How we work 120 · Proof 60 · Why now 80 ·
+   Next step 80 · Five problems 120), no section that is a
    heading over one stray line. Over a ceiling → cut prose (the Promise, Inside, What you get paragraphs
    first), never a table, never a checklist line.
-9. **The compliance line closes the agent-facing document** — the last line before the appendix band,
-   verbatim, nothing between it and the band.
+9. **The compliance line closes the document** — the last line of Your next step, verbatim, nothing after it.
 10. **No compensation, split, cap, stock, rev-share, revenue-share, income, commission or fee word**
     anywhere (the compliance line is the one sanctioned mention); no brokerage figure.
 11. **Proof only from `proof.md`** — every result, name and number in Proof, in The promise and on the At a
     glance page traces to a line there; a result whose consent is "ask first" appears as the member says it
     on calls, never as a printed quote; a result not in the file is cut, never softened.
-12. **All eighteen bands present, in order, none numbered**: AT A GLANCE · WHO THIS IS FOR · THE PROMISE · THE
+12. **All twelve bands present, in order, none numbered**: AT A GLANCE · WHO THIS IS FOR · THE PROMISE · THE
     [METHOD], IN [N] STEPS · INSIDE [PROGRAM]: YOUR FIRST 90 DAYS · WHAT YOU GET WHEN YOU PARTNER WITH ME ·
-    THE FIVE PROBLEMS THIS SOLVES · YOUR FIRST 30 DAYS · HOW WE WORK TOGETHER · PROOF · WHY NOW · YOUR NEXT STEP · APPENDIX — FOR MY
-    CONTENT · HOW TO CREATE IT · START WITH YOUR UPLINE · IF YOUR BROKERAGE DOES NOT ALLOW A JOIN-GATED
-    PACKAGE · WHERE TO HOST IT · YOUR CONTENT BRANCHES; the cover carries the program name, the UVP line, the
-    tagline, the by-line, the for-line and the member · brokerage · date line; no `<w:` markup; renderer
-    stderr shows zero warnings. The band names never change with the brokerage register.
+    THE FIVE PROBLEMS THIS SOLVES · YOUR FIRST 30 DAYS · HOW WE WORK TOGETHER · PROOF · WHY NOW · YOUR NEXT STEP;
+    a `[[TOC]]` block lists the same twelve with a plain one-line summary each, so the rendered document opens on a
+    cover page and a CONTENTS page whose every entry is a link (zero `WARNING: TOC entry` lines on stderr); the cover
+    carries the program name, the UVP line, the tagline, the by-line, the for-line and the member · brokerage · date
+    line; no `<w:` markup. The band names never change with the brokerage register.
 13. **The voice rules hold**: no sentence that explains why a section exists; the only "this is not" lines
     are the two in "Who this is for" (no taxonomy of what the program is not); the method's step table
     appears once and the steps are elsewhere only the one-line chain or the name; paragraphs of at most three
@@ -553,11 +547,12 @@ and check ALL of:
     filename anywhere = automatic FAIL; rebuild from the Brain files.
 15. **The Brain agrees** — the type, the name, the cadence and the keyword in the doc are the same words as
     `offer.md` and `brain.md`.
-16. **The appendix is complete** — the four lines labelled plus `Why me:` and `Why join me (one breath):`, the 30-second explanation, the four short lines
-    (DM · caption · bio · video intro), the comment keyword, the "free guide is cut from" line naming one
-    framework step, and "What I assumed (change any of these)" with a line for every default the card decided
-    (type · name with its two alternates · framework name · call day and time · recorded vs live · support
-    rhythm · the 90-day outcome · the first lesson · the costs line · the keyword · the brokerage answer).
+16. **`offer.md` carries the member's pages in full** (they render in the Week 3 Kit, not here) — `## How to talk
+    about it` with the four lines plus `Differentiator:`, the 30-second explanation, the four short lines (DM ·
+    caption · bio · video intro), the comment keyword and the `Lead-magnet seed:` line; and `## What I assumed` with a
+    line for every default the card decided (type · name with its two alternates · framework name · call day and
+    time · recorded vs live · support rhythm · the 90-day outcome · the first lesson · the costs line · the keyword ·
+    the brokerage answer).
 17. **The name passes both tests** — the "I need that" test and the "says what it solves" test — carries no
     banned name word (collective · club · portal · hub · network · circle · society · lounge · vault · academy)
     unless the word names an outcome, carries no closings count or dollar figure, and is the same words on the
@@ -568,10 +563,10 @@ and check ALL of:
     "join me and get"; at `yes` and `unknown` the join register reads consistently across the document; the
     brokerage section names the register in force and, at `unknown`, the one check. `Proof plan:` and `What my
     partners can offer:` are rendered, and THE FIVE PROBLEMS THIS SOLVES carries all five pains in Mike's order.
-19. **The member's pages are real** — How to create it lists only things the member can do this week and marks
-    what exists as done; Start with your upline carries the three signs each marked true today or not yet;
-    Where to host it names one host and the four things to set up; Your content branches has 5 to 7 segments
-    with three topics each, none a compensation topic, the same words as `offer.md → ## Content branches`.
+19. **The member's pages are real, in `offer.md`** — How to create it lists only things the member can do this
+    week and marks what exists as done; Start with your upline carries the three signs each marked true today or
+    not yet; Where to host it names one host and the four things to set up; Content branches has 5 to 7 segments
+    with three topics each, none a compensation topic. The Week 3 Kit renders them (chapter 6).
 
 **If a check fails: fix the structured text and re-render ONCE.** Brackets, a compensation word, a result
 not in `proof.md`, a missing band, the compliance line out of place, a second explanation of the method, an
@@ -586,9 +581,10 @@ Like the Brain Book's gate: bounded, visible when it stops, never a loop.
 ## Deliver
 Three lines, then the next step — never a tour of the document:
 *"Your offer's built — [program name], a [type] for [the type of agent]: [the one-line promise]. The method
-is [the framework name] — [the step chain]. It's saved to your Drive → [workspace] → 05 · Offer → [name]; the
-At a glance page is the one to read first, and the last pages are yours alone: how to create it, how to start
-with your upline, the words to use, where to host it, and the content branches everything else grows from."*
+is [the framework name] — [the step chain]. It's saved to your Drive → [workspace] → 05 · Offer → [name]; it's the
+document you walk an agent through, and the At a glance page is the one to read first. Your own pages — how to
+create it, how to start with your upline, the words to use, where to host it, the content branches — are in
+chapter 6 of your Week 3 Kit."*
 **Then, before the close, the rest of the offer — silently, no questions:** run **attraction-why-join-me** in
 silent mode (the statement and the 60-second story, from the Brain — no document of its own) → **attraction-free-vs-paid**
 in silent mode (the stack sorted free · included · discounted, the free line, the up-front cost line, version one of

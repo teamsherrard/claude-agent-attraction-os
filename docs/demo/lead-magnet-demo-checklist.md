@@ -30,7 +30,12 @@
 - [ ] The sales funnel outline: the headline and the eleven section names in one line, and that it lives in the
   Week 3 Kit — NO document of its own.
 - [ ] The Week 3 Kit: one line and the link — `Week 3 Kit — Taylor Brooks — 2026-… — DEMO` in the home base folder
-  beside the Brain Book, offer and lead magnet together. No full text in chat.
+  beside the Brain Book, offer and lead magnet together. No full text in chat. OPEN IT: a cover page, a CONTENTS page
+  where every line is a link, then chapter 1 — the two-page summary (the offer table, the lead magnet outline, the
+  sales funnel outline, where everything lives, how to use it in Week 3). Every chapter after that starts on its own
+  page. Click "Your guide, word for word" in the contents and land on it — no scrolling.
+- [ ] The Partner Offer (if built this sitting): a cover, a linked contents page, At a glance, eleven sections, about
+  8 to 10 pages — agent-facing only; the member's own pages are chapter 6 of the kit.
 - [ ] The finish line: three files — the offer, the guide, the kit — and where each lives · the kit is the Week 3
   upload · export the guide as a PDF today, upload it to the same folder, share "anyone with the link" · the bios
   phrase · the delivery phrase · the page goes live in Week 3 · the resume phrase (`finish my agent lead magnet`).

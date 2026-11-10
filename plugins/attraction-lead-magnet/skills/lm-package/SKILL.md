@@ -67,17 +67,24 @@ been written, so say so and stop at the way back — and the stamp), `identity/p
 required, headshot location, handles), `brain.md` quick reference (the booking link), `memory/magnets.md` →
 `## Current magnet` (keyword, funnel URL, download link) and the intake block's `Reach:`.
 
-## Step 2 — Write Part B (structured text, output standard §4)
+## Step 2 — Write Part II (structured text, output standard §4)
 Copy is **verbatim** from the parts — nothing added, nothing cut, no "punching up", no title changed, page titles
 exactly as the guide writes them (never re-cased). Strip each source document's own appendix (its `▸ NEXT …` and
-`▸ COMPLIANCE` bands); the kit carries one appendix at its end. **Every heading is a sub-band `──── LIKE THIS ────`**
-(the kit's PART B band is written by the kit builder); the guide's `── PAGE N - TITLE ──` lines stay as they are.
-Never a line of copy in capitals; never a `[` bracket token; no skill ids anywhere.
+`▸ COMPLIANCE` bands); the kit carries one appendix at its end. **The kit is a book**: Part II is four chapters —
+`CHAPTER 7` to `CHAPTER 10`, CAPS bands wrapped by rules, each starting on its own page in the rendered kit — and
+**every heading inside a chapter is a sub-band `──── LIKE THIS ────`** (the kit's `PART II` opener is written by the
+kit builder); the guide's `── PAGE N - TITLE ──` lines stay as they are. The outline block and the structure block are
+also copied by the kit builder into chapter 1, the member's two-page summary, so write them tight: one line per page,
+one line per section with its headline. Never a line of copy in capitals; never a `[` bracket token; no skill ids
+anywhere.
 
 ```
+────────────────────────────────────────────
+CHAPTER 7 — YOUR GUIDE, WORD FOR WORD
+────────────────────────────────────────────
 ──── YOUR GUIDE: THE OUTLINE ────
-What it leads to: [the program's name and type · the UVP one-liner — one line]
-Title: [the guide's title, exactly] · Promise: [the subtitle line]
+What it leads to:  [the program's name and type · the UVP one-liner — one line]
+Title:  [the guide's title, exactly] · Promise:  [the subtitle line]
 Pages:
    •  Cover — [title] · [subtitle]
    •  Page 1 — [the opening title, exactly as written]: [one line on what it does]
@@ -93,22 +100,30 @@ The copy follows, word for word, exactly as the guide document reads.
 [verbatim]
 ──── THE BACK PAGE ────
 [verbatim]
-──── THE OPT-IN PAGE AND THE THANK-YOU PAGE: THE STRUCTURE ────
+
+────────────────────────────────────────────
+CHAPTER 8 — THE OPT-IN PAGE AND THE THANK-YOU PAGE
+────────────────────────────────────────────
+──── THE STRUCTURE ────
 The page reads in this order; every opt-in button opens the one pop-up; submitting lands on the thank-you page.
-   •  1 Hero · 2 The problem · 3 The product · 4 Who I am · 5 The journey · 6 The offer · 7 Why join me · 8 Proof · 9 The organization · 10 Book a call · 11 The opt-in
+   •  1 Hero — [its headline] · 2 The problem — [headline] · 3 The product — [headline] · 4 Who I am — [headline] · 5 The journey — [headline] · 6 The offer — [headline] · 7 Why join me — [headline] · 8 Proof — [headline] · 9 The organization — [headline] · 10 Book a call — [headline] · 11 The opt-in — [headline]      (one line per section)
    •  The pop-up: first name · email · phone (optional) · the reassurance line · the button
    •  The thank-you page: the confirmation · the instant download button · the call, offered · where to find me · the footer
 The copy follows, word for word, exactly as the sales funnel outline reads.
 ──── SECTION 1 — HERO ────
 [verbatim]
 ... (every section band, THE OPT-IN POP-UP, THE THANK-YOU PAGE and FOOTER, verbatim, in order)
+
+────────────────────────────────────────────
+CHAPTER 9 — THE MESSAGING
+────────────────────────────────────────────
 ──── THE MESSAGING FOR THE GUIDE ────
-Headline: [the hero headline] · Pre-headline: [ ] · Subhead: [ ]
+Headline:  [the hero headline] · Pre-headline:  [ ] · Subhead:  [ ]
 Hook:
    •  [the cover's three lines]
-Attraction line: [from the hero]
-CTA button: "Get the Free Guide" · Keyword: GUIDE
-The call: [the closing page's call to action — the booking link, or the Reach: answer (the email or the @handle) exactly as the guide carries it]
+Attraction line:  [from the hero]
+CTA button:  "Get the Free Guide" · Keyword:  GUIDE
+The call:  [the closing page's call to action — the booking link, or the Reach: answer (the email or the @handle) exactly as the guide carries it]
 ──── THE BIOS ────
 [each platform's bio from the Platform Profiles pack, verbatim, one labelled block per platform — or the one honest line]
 ──── THE DMS AND THE DELIVERY EMAIL ────
@@ -119,16 +134,20 @@ The call: [the closing page's call to action — the booking link, or the Reach:
    •  [the register line — at yes or unknown: "the program is what an agent receives when they partner with me" · at no: "every public line is what I teach, my story and how I mentor"]
    •  No invented urgency — the one honest why-now is the only one.
    •  The type of agent is a career stage, production level, model or mindset — never a protected characteristic.
+
+────────────────────────────────────────────
+CHAPTER 10 — THE DESIGN BRIEF FOR THE GUIDE AND THE PAGE
+────────────────────────────────────────────
 ──── DESIGN BRIEF — [GUIDE NAME] ────
-What to build: a styled PDF of the guide — the cover, one interior page per "── PAGE N - TITLE ──" block, the closing page ("How [First name] helps next"), the back page, the compliance footer on every page · the opt-in page, section for section, every opt-in button opening the one pop-up · the thank-you page with the instant download button pointing at the finished PDF, the call offered, the footer · a cover image for the opt-in page, Reels and stories (the flat cover page exported from the PDF; a 3D mockup only if the tool exports pictures) · letter or A4, portrait, phone-readable at 100%.
-Who reads it: [the type of agent, by stage, in one line] · on a phone, from a Reel or a bio link · tone: [the feel from the Design Package brief when it exists — else "calm and useful, never salesy"].
-The brand: from your Design Package brief (do not improvise) — or, before the Week 3 brand chat, a clean neutral look: the member's headshot, one dark text colour, no accent unless the member names one, the brokerage logo only where compliance requires it. Brokerage mark: [where it must appear — from the compliance file]; the brokerage's own colours are not the palette.
-The cover: Title: [exactly] · Subtitle: [exactly] · "By [Name], [Brokerage as required]" · "Last updated [Month YYYY]" when the guide carries that line. No ranking language, no stars, no "best", no other brokerage's name or logo anywhere.
-The guide pages: copy verbatim — every word, including the notes in parentheses · one page per PAGE block, in order (a comparison-shaped guide's model pages in the same layout; a checklist page with real boxes; template rows as fill-in lines; a mini-course lesson page with its template in full) · the labelled lines become page elements and never print as labels (the pull quote set large, the callout a panel, the checklist real boxes, template rows fill-in lines, scripts message bubbles, the source a footnote, the image idea the page's visual, the next step the closing strip) · the page the reader will screenshot legible in one phone screenshot · the closing page carries the booking link as the ONE button, plus the social handles · the compliance footer on every page: [the stamp] · photos: the member's headshot on the closing page, real photos of the organization only if supplied — never stock people · body text 11pt or larger.
-The opt-in page and the thank-you page: sections in the order above, copy verbatim, every section's own headline · the Hero's video embed, or the cut-out headshot where the Video line says to record · the Book-a-call area as the booking embed or a button to the link · every opt-in button opens the one pop-up (first name · email · phone optional), the button words exactly "Get the Free Guide" · the form must really send the name and email — test-submit once before any traffic · the thank-you page's download is an instant download of the finished PDF, never "check your inbox" · the compliance stamp is the footer of both pages.
-The mockup: the flat cover as its own page in the PDF (export that page as the cover image) · if the tool exports pictures: a square crop for Instagram, a 9:16 crop for stories, a 3D booklet mockup with a soft shadow.
-When it's done: save the PDF and any cover images into your Guides folder · share the PDF "anyone with the link" — that link is the thank-you page's download button · tell me "the PDF is done" · when the page is live, test-submit the form once and tell me "my funnel is live" with the link.
-If a web person builds the page: a real form on the page itself — first name, email, phone (optional) — that sends the entry to the member before the thank-you shows, never a form drawn by a script after the page loads · a hidden "are you a robot" field, and a plain fallback (the member's email) if the send fails · test-submit once and confirm the entry arrived before any traffic.
+What to build:  a styled PDF of the guide — the cover, one interior page per "── PAGE N - TITLE ──" block, the closing page ("How [First name] helps next"), the back page, the compliance footer on every page · the opt-in page, section for section, every opt-in button opening the one pop-up · the thank-you page with the instant download button pointing at the finished PDF, the call offered, the footer · a cover image for the opt-in page, Reels and stories (the flat cover page exported from the PDF; a 3D mockup only if the tool exports pictures) · letter or A4, portrait, phone-readable at 100%.
+Who reads it:  [the type of agent, by stage, in one line] · on a phone, from a Reel or a bio link · tone: [the feel from the Design Package brief when it exists — else "calm and useful, never salesy"].
+The brand:  from your Design Package brief (do not improvise) — or, before the Week 3 brand chat, a clean neutral look: the member's headshot, one dark text colour, no accent unless the member names one, the brokerage logo only where compliance requires it. Brokerage mark: [where it must appear — from the compliance file]; the brokerage's own colours are not the palette.
+The cover:  Title: [exactly] · Subtitle: [exactly] · "By [Name], [Brokerage as required]" · "Last updated [Month YYYY]" when the guide carries that line. No ranking language, no stars, no "best", no other brokerage's name or logo anywhere.
+The guide pages:  copy verbatim — every word, including the notes in parentheses · one page per PAGE block, in order (a comparison-shaped guide's model pages in the same layout; a checklist page with real boxes; template rows as fill-in lines; a mini-course lesson page with its template in full) · the labelled lines become page elements and never print as labels (the pull quote set large, the callout a panel, the checklist real boxes, template rows fill-in lines, scripts message bubbles, the source a footnote, the image idea the page's visual, the next step the closing strip) · the page the reader will screenshot legible in one phone screenshot · the closing page carries the booking link as the ONE button, plus the social handles · the compliance footer on every page: [the stamp] · photos: the member's headshot on the closing page, real photos of the organization only if supplied — never stock people · body text 11pt or larger.
+The opt-in page and the thank-you page:  sections in chapter 8's order, copy verbatim, every section's own headline · the Hero's video embed, or the cut-out headshot where the Video line says to record · the Book-a-call area as the booking embed or a button to the link · every opt-in button opens the one pop-up (first name · email · phone optional), the button words exactly "Get the Free Guide" · the form must really send the name and email — test-submit once before any traffic · the thank-you page's download is an instant download of the finished PDF, never "check your inbox" · the compliance stamp is the footer of both pages.
+The mockup:  the flat cover as its own page in the PDF (export that page as the cover image) · if the tool exports pictures: a square crop for Instagram, a 9:16 crop for stories, a 3D booklet mockup with a soft shadow.
+When it's done:  save the PDF and any cover images into your Guides folder · share the PDF "anyone with the link" — that link is the thank-you page's download button · tell me "the PDF is done" · when the page is live, test-submit the form once and tell me "my funnel is live" with the link.
+If a web person builds the page:  a real form on the page itself — first name, email, phone (optional) — that sends the entry to the member before the thank-you shows, never a form drawn by a script after the page loads · a hidden "are you a robot" field, and a plain fallback (the member's email) if the send fails · test-submit once and confirm the entry arrived before any traffic.
 ```
 
 Write the real values in — never a `[` bracket token. The `──── DESIGN BRIEF — [GUIDE NAME] ────` line is written
@@ -162,5 +181,5 @@ designed. When the page is live, say 'my funnel is live' with the link and every
 
 ## Quality checklist
 - [ ] The guide and the page outline present; compliance `set` or `confirmed`; the register read
-- [ ] Part B complete; a missing optional part carries its one honest line and the phrase that writes it; copy verbatim; page titles as written; every heading a sub-band; the `DESIGN BRIEF —` line literal
+- [ ] Chapters 7–10 complete; a missing optional part carries its one honest line and the phrase that writes it; copy verbatim; page titles as written; every inner heading a sub-band; the `DESIGN BRIEF —` line literal; the outline and structure blocks tight enough for the summary page
 - [ ] Text kept in exports/; the kit builder run; `Kit doc:` stamped; pushed; one line in chat
