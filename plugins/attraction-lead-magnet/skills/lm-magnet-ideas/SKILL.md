@@ -71,11 +71,14 @@ Every candidate is something the member can teach from experience (`04-value-pro
 qualified to help the person you used to be) and something an agent would trade an email for
 (`15-advanced-scaling/73`: guides, checklists, scripts, prompts, mini-courses are the assets that build a
 list). Build the best candidate in each kind, so the recommendation and the next best are genuinely different
-things — never two cut from the same framework step, never two versions of one asset:
+things — never two versions of one asset. **The default recommendation is the complete blueprint of the member's
+method (Mike, 2026-11-10):** every framework step — prepare · do · capture · follow up — with the scripts, templates
+and checklists inside it, the step an agent can use tonight first. A single tactic ("3 texts to send") is one page
+of the blueprint, never the magnet; with the Brain behind it the guide can carry the whole system, so it does.
 
-1. **A TOOL** — the member's own scripts, templates or swipe file: the thing an agent uses THIS WEEK. ONE
-   framework step cut out whole with its tool or template (the step the offer's seed line names comes first)
-   or, on an older offer, Teach-first lesson 1 — the sign-in sheet and the five texts, the sphere script, the
+1. **A BLUEPRINT** (the tool kind) — the member's whole method as a system guide: every framework step with its
+   tool or template handed over in full (the step the offer's seed line names comes first, the one an agent uses
+   tonight), or, on an older offer, the mechanism end to end with Teach-first lesson 1 inside it — the sign-in sheet and the five texts, the sphere script, the
    expired script, the listing-launch sheet, the prompt list. Shapes: the system guide · the mini-course outline
    · the prompt list or script · a checklist that IS the tool.
 2. **A PLAN** — a 30-day or 90-day roadmap, a checklist of stages, or a calendar, built from the program's
@@ -172,8 +175,8 @@ pain | planned | — | — | GUIDE | — | — | YYYY-MM-DD |` (create the file 
 the intake block below) — and, if the pick came from `memory/ideas.md`, mark that idea **used**
 (status column only). **attraction-brain-sync PUSH** (write → push → verify). Then hand back the **locked
 focus**: the title · the kind (tool · plan · decision or proof) · the shape · the type of agent · the one pain
-· the single core promise (the card's sentence) · "built from: [the framework step and its tool or template —
-or, for a plan, the program's phases — or, on an older offer, the UVP mechanism or Teach-first lesson]"
+· the single core promise (the card's sentence) · "built from: [the whole framework — every step with its tool or template, the seed step first — or, for a plan,
+the program's phases — or, on an older offer, the UVP mechanism end to end]"
 · **"Mike's lesson: [module/lesson — title]"** — the ONE lesson that grounds the pick, cited only where it
 resolves in this plugin's `${CLAUDE_PLUGIN_ROOT}/shared/lesson-index.md`: the
 lead-magnet lessons `15-advanced-scaling/73 — Building an email list` and `12-simple-tech-stack/84 — Social

@@ -2,6 +2,24 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.25.0] — 2026-11-09
+
+**Mike's Week 2 review, applied (Brain 0.9.5 · Lead Magnet 0.12.4 · Support 0.1.21).** Doctrine §10e, obeyed by every
+skill that writes the offer, the magnet or anything that promotes them. (1) SCALABLE BY DESIGN: every deliverable
+works for ten partners as well as one — recorded lessons, templates, scripts, checklists, a community, ONE recurring
+group call, a self-serve Day 1; in-person shadowing becomes a recorded walkthrough, a group chat the community, 1:1
+rhythms the weekly call and a recorded day-30 self-check; the skill says in one line what it converted. The
+cadence defaults, the deliverables rule, the type rule, the stack's "included" rule and the Partner Offer's
+never-list all changed; the full digital product grows into a short recorded course. (2) THE UPLINE FIRST: when the
+member's own assets are thin, the stack, the one-pager and the offer card lead with the upline's package so the
+member can run the offer this week. (3) A REAL BOOKING LINK: the intake's last question sets up a free Calendly with
+the member — one 30-minute Zoom event, Mike's five qualifying questions, reminders — and the pasted link is written
+to the Brain; "email me" is only the fallback until then. (4) THE WHOLE METHOD: the ONE recommendation is the
+complete blueprint of the member's framework (prepare · do · capture · follow up, every script and template inside,
+the tonight-step first), one body page per step, 2,200 to 4,500 words; a single tactic is a page, never the magnet.
+(5) The `no` register's output is stated plainly in the offer's close and in the Support FAQ: the same three files,
+open to any agent, the invitation still the call.
+
 ## [0.24.1] — 2026-11-09
 
 **Brain Board: the Lead Magnet page now shows the whole Week 2 (Brain 0.9.4).** The page opens with "Your three files"

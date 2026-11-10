@@ -179,9 +179,7 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
     and your week · the training and the weekly call · onboarding · your 90-day game plan · your questions
     about the model, answered on the call, never on a page · what happens next if it's a fit) · `Booking
     embed:` the booking link — or, when none is on file yet, exactly `none yet`, so the design step shows the
-    intake block's `Reach:` answer as the button ("Email me at …" or "Message me on Instagram"), the same one
-    the guide's close carries, instead — never "reply", a page
-    has nothing to reply to · `CTA button: "Book a call with me"` (no link yet → "Email me and I'll send you times") (the member's own primary CTA phrase from
+    intake block's `Reach:` answer as the button ("Email me at …" or "Message me on Instagram"), the same one the guide's close carries, instead — never "reply", a page has nothing to reply to; the build notes say the button becomes the Calendly embed the day the link arrives · `CTA button: "Book a call with me"` (no link yet → "Email me and I'll send you times") (the member's own primary CTA phrase from
     the Brain wins when they set one; the KB's phrase bank supplies the headline or the line above the
     button). No pressure, no countdown, no "spots."
 11. **THE OPT-IN** (60+) — `Headline:` the magnet named + its promise · `Bullets:` the top 3 you'll get ·

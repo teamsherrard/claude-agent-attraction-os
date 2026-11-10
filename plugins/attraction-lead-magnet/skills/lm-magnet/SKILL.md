@@ -39,9 +39,9 @@ owns: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 ## Step 1 — Load the Brain (lazy — open only what this step needs)
 Read `~/attraction-brain/brain.md` first. **If `~/attraction-brain/` is missing, pull it first — never assume no
 Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud goes to Setup). Then:
-- `identity/offer.md` — **the anchor.** The magnet is built from the Partner Offer: the UVP one-liner, the
-  framework step it is cut from (`## The framework` — that row's tool or template is the magnet's spine when the
-  offer has one; the `Lead-magnet seed:` line under `## How to talk about it` names the step), the program's name
+- `identity/offer.md` — **the anchor.** The magnet is built from the Partner Offer: the UVP one-liner, the whole framework (`## The framework` — every step with its tool or template is a page; the `Lead-magnet seed:`
+  line under `## How to talk about it` names the step that comes first, the one an agent uses tonight — Mike,
+  2026-11-10: the guide is the complete blueprint, never one tactic), the program's name
   and 90-day outcome (`## The program`; an older offer file without those blocks → the lines below, as before), the
   unique mechanism, the Teach-first lessons (lesson 1's template is usually the magnet's spine), the seven parts
   (`## The seven parts`; an older offer carries them as the `Core promise · …` line under `## The Partner Offer`), the
@@ -151,7 +151,7 @@ never a `[` bracket token. The parts, in order:
    one and `proof.md` holds it consented; otherwise none. For a shape that states facts that can change, the
    "verify current" line sits here. It ends with `How to use this:` — two `•` lines. Optional: `Pull quote:`,
    `Image idea:`.
-3. **The body pages — `── PAGE 2 ──` to at most `── PAGE 9 ──`, 4 to 8 of them, 180 to 350 words each.** The
+3. **The body pages — `── PAGE 2 ──` to at most `── PAGE 11 ──`, one per framework step plus the templates, 5 to 10 of them, 180 to 350 words each.** The
    shape's pages from the reference, each carrying ONE idea and the same shape: a plain, specific title · the
    idea in a sentence · the how — the steps, the script word for word (`Script:`), the template rows
    (`Template rows:`, `____` for a blank), the sheet, the checklist (`Checklist:`, 3–7 items) · a real example
@@ -161,8 +161,8 @@ never a `[` bracket token. The parts, in order:
    page.** Optional on any page: `Pull quote:` (the sentence a reader would screenshot), `Callout:` (the aside
    the member would say in person), `Image idea:` (one plain line — "the sign-in sheet with the one question
    circled", "a phone showing the three texts"). Pages hand to each other (the KB's transitions) — never "in
-   this section." Built from the framework step (what the partner does · what they get · the tool or template
-   handed over) or, on an older offer, the Teach-first lesson or the mechanism: what's on screen, the sheet or template
+   this section." Built from the framework, one step per page (what the agent does · what they get · the tool or template handed
+   over in full — prepare · do · capture · follow up) or, on an older offer, the mechanism end to end: what's on screen, the sheet or template
    handed over in full, the first week, the questions, the fill-in rows — the member's real routine, not a
    generic list. **Facts carry their source:** the member's own experience needs none; the member's plan →
    "(my brokerage's [document], [Month YYYY])"; a generic mechanic → "(per Mike Sherrard's lesson)" and
@@ -277,7 +277,7 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
     doesn't hold.
 13. No `[` bracket placeholder; no copy line in capitals; every `── PAGE N - TITLE ──` line under 70
     characters between the dashes; every number not the member's own experience has a `Source:`.
-14. Total 1,800 to 3,500 words of copy (labels, source notes and the appendix excluded).
+14. Total 2,200 to 4,500 words of copy (labels, source notes and the appendix excluded).
 15. The member's voice — the KB's voice-match checklist run; fifth-grade reading level; none of the banned
     filler.
 16. The shape's rules honoured (comparison: every model in the same shape, the member's own trade-off said

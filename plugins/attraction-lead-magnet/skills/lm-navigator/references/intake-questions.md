@@ -102,8 +102,16 @@ thank-you page.*
   `offer.md` → "How to talk about it" (the call: "30 minutes, about your business, no pitch").
 - **Ask like:** *"The last page points at one next step — book a call with you ([the booking link]), 'no
   pitch, I'll just answer your questions.' Same as the thank-you page. Keep it that way?"* No booking link on
-  file yet → pre-fill *"email me at [the address in profile.md]"* (a guide has nothing to reply to) and say house
-  rules #2's one line once (a free Calendly this week, then 'set up my attraction operations'). **No booking link,
+  file yet → **set it up now, with them (Mike, 2026-11-10 — a real link, never an email address as the design):** one
+  card, plain words: *"Your last page and your thank-you page point at one next step: book a call with you. Five
+  minutes, free, and it's set for good: calendly.com → one event, 'Partner Call with [First Last]', 30 minutes on Zoom
+  → five required questions: 1. Do you acknowledge this is a conversation about partnering with me at [brokerage]?
+  (Don't book if you're already there or have chosen a sponsor.) 2. Which brokerage are you with? 3. Where are you
+  located? 4. New agent, experienced, team leader or broker-owner? 5. Anything to help me prepare, including why
+  you're interested? → reminders at 24 hours, 1 hour and 10 minutes → paste the link here."* A pasted link is
+  written to `brain.md`'s quick reference `Booking link:` line (and `operations.md`'s when the label exists), pushed,
+  and used everywhere. "Later" → the fallback below for now, and the finish line says *"paste your Calendly link any
+  time with 'my booking link is …' and every page points at it"*. **No booking link,
   no email and no Instagram handle anywhere in the Brain** → Q5 becomes the one real question of the intake:
   *"Where should an agent reach you after the guide — your Instagram handle (with the @) or your email?"* The
   answer is written as `Reach:` in the intake block and every public line uses it — the guide's close, the page's

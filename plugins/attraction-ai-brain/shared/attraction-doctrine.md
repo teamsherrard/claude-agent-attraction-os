@@ -340,6 +340,32 @@ the lead magnet, written by the Lead Magnet plugin. A lead magnet is a door into
 Partner Offer document), the guide (the PDF agents download) and the kit. The why-join-me story, the value stack,
 the page copy and the design briefs are never documents of their own.
 
+
+### 10e. Scalable by design, the upline first, a real booking link, the whole method (Mike, 2026-11-10)
+Mike's review of the first Week 2 output: *"a Saturday next to me" isn't scalable; neither is a group chat. The
+program must be something the member builds once and that works without their time after that — a pre-recorded
+course or lessons, templates, scripts, checklists — plus, at most, an online community and one recurring group
+call.* Rules for every skill that writes the offer, the magnet or anything that promotes them:
+- **Every deliverable must work for ten partners as well as for one.** Allowed: short recorded lessons, templates,
+  scripts, checklists, sheets, a community (Skool or Circle), ONE recurring group call, a self-serve Day 1 (a welcome
+  video, the templates, the community invite, the first lesson). Converted, never promised: in-person shadowing → a
+  recorded walkthrough of that day; a group chat → the community; 1:1 calls and "I answer my phone" → the weekly
+  call and the community; a day-30 1:1 → a recorded day-30 self-check. The skill says in one line what it converted
+  and why ("so it works for ten partners as well as one").
+- **The upline's package is the fastest start.** When the member's own built assets are thin, the stack, the
+  one-pager and the offer card lead with the upline's package (named generically, "I'll introduce you"), then the
+  member's own lessons — the offer the member can run THIS WEEK. The three signs decide when the member's own
+  program leads.
+- **A real booking link, with Mike's five qualifying questions.** The Week 2 sitting sets up a free Calendly with the
+  member: one 30-minute Zoom event, the five required questions, reminders at 24 hours, 1 hour and 10 minutes.
+  "Email me" is the fallback only until the link exists, never the design.
+- **The lead magnet is the whole method, not one step.** The guide is a complete blueprint of the member's
+  framework — prepare · do · capture · follow up — with every script, template and checklist inside it, the step an
+  agent can use tonight first. A single tactic ("3 texts") is one page of the blueprint, never the magnet.
+- **At `Join-gated package allowed: no`** the output is the same three files in the open register: the program is
+  what the member teaches, their story and how they mentor, offered to any agent; nothing is gated on joining; the
+  product reads "free to any agent who asks"; the invitation is still the call.
+
 ---
 
 ## 11. Your personal story and the "why join me" (`04-value-proposition/34`)

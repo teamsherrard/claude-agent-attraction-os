@@ -180,8 +180,7 @@ Hand to **`lm-magnet-ideas`** — for the first campaign and for every one after
 (the UVP one-liner, the framework and the step the offer's lead-magnet seed names, the program's phases and
 90-day outcome, the Teach-first lessons, the five-pains overlap), the type of agent they attract, their proof
 and its consent state, the questions agents keep asking, the member's own captured ideas, and what has
-converted; it weighs the three kinds of magnet silently (a TOOL — the member's scripts or templates an agent
-uses this week · a PLAN — a 30- or 90-day roadmap from the program's own structure · a DECISION or PROOF
+converted; it weighs the three kinds of magnet silently (a BLUEPRINT — the member's whole method, every step with its scripts, templates and checklists, the step an agent uses tonight first · a PLAN — a 30- or 90-day roadmap from the program's own structure · a DECISION or PROOF
 piece — the lead-bill math worksheet, a consented case study, a fair comparison guide when the offer is about
 choosing, a 5-day challenge) and puts **ONE recommendation** on one card in a plain message under 120 words:
 the title (written like a real lead magnet — a number or an outcome in it, seven words or fewer, checked once

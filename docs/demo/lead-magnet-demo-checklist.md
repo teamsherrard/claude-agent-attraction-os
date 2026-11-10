@@ -15,11 +15,10 @@
 - [ ] First paragraph = the Week 2 outcome, Mike's words, verbatim. Then two warm lines and *"Ready? Just say yes."*
   No question box, no list, no mention of compliance in the welcome.
 **Say:** `yes`
-- [ ] ONE card under 120 words: the title (seven words or fewer, a number or an outcome), the promise, who it is
-  for, two lines of Mike's reasoning — no lesson code. Reply line: *yes, or 'another idea'*.
+- [ ] ONE card under 120 words: the title (seven words or fewer, a number or an outcome), the promise, who it is for, two lines of Mike's reasoning — no lesson code. It is the COMPLETE blueprint of the method (every step, the scripts and templates inside), never one tactic. Reply line: *yes, or 'another idea'*.
 **Optional:** `another idea` → a different kind (plan or proof piece), one card, says it is the other one considered.
 **Say:** `yes`
-- [ ] At most five intake questions, one per message, each pre-answered from Taylor's Brain; "you pick" works.
+- [ ] At most five intake questions, one per message, each pre-answered from Taylor's Brain; "you pick" works. With no booking link on file, the last one is the five-minute Calendly card (Mike's five qualifying questions); "later" keeps the fallback.
 - [ ] One progress line, then quiet while it writes (two to five minutes).
 - [ ] The guide: in chat only the link, the cover title and hook, five lines on what is inside. The document is in
   Content → Guides → `2026-… · [Title]` as `Lead Magnet — [Title]` — and it OPENS AS A GUIDE: a cover page (title,

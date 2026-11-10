@@ -68,8 +68,8 @@ writes is built from it.
   `brain.md`'s quick reference and `identity/operations.md`, never a question. If `operations.md` still reads
   "set in Week 2" (the normal state before the tools conversation) or holds no booking link, say it once, in
   one line — *"a booking link is this week's small setup: a free Calendly, one 30-minute Zoom event with the five
-  questions Mike uses (they're in your kit's build notes) — then say 'set up my attraction operations'
-  and I'll record it"* — and keep going: until the link exists, every "book a call" line becomes *"email me at
+  questions Mike uses — the intake sets it up with you in five minutes; paste the link with 'my booking link is …'
+  and every page points at it"* — and keep going: until the link exists, every "book a call" line becomes *"email me at
   [the address in profile.md]"* or *"message me on Instagram @[handle]"* — never "reply", because a page and a
   guide have nothing to reply to. The Conversion plugin designs the full booking page in Week 5; the link comes
   first. Never a bracket token where a link should be.

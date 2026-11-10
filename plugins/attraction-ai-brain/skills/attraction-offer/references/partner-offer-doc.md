@@ -300,8 +300,9 @@ its own rules):
 ## What never appears
 Splits, caps, fees, tiers, stock, rev share, income figures, commission (the compliance last line is the one
 sanctioned mention of compensation); another brokerage's name as a comparison; a former brokerage by name; a
-claim not in `proof.md`; a lesson, module, call or product that does not exist and is not marked "built with
-my first partners"; bracketed template text (the Skool placeholder included); a numbered or middle-dotted band;
+claim not in `proof.md`; a lesson, module, call or product that does not exist and is not marked "built with my first partners"; an in-person
+commitment ("a Saturday beside me"), a group chat, a 1:1 rhythm or a response-time promise (doctrine §10e — each
+appears in its recorded or community form); bracketed template text (the Skool placeholder included); a numbered or middle-dotted band;
 a section that is a heading over one line; `>> ` lines; Markdown; the method explained a second time; a list
 of assumptions anywhere but the appendix; "join me and get" in any form at `Join-gated package allowed: no` (at `yes` and `unknown` the join register reads
 consistently); a platform comparison or a price in Where to host it; a program name that is a club, a portal, a

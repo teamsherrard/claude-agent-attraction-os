@@ -610,3 +610,17 @@ Week 7 is for fast-action buyers only — people who paid in full, live on the w
   forever
 
 Next step: unsure what you bought → say "escalate this" and I'll draft the question for the portal.
+
+**Q50. My brokerage doesn't allow a package as a reason to join — what does the Lead Magnet plugin give me?**
+The same three files, written in the open register: your Partner Offer document is what you teach, your story and
+how you mentor, offered to any agent who wants to learn it; nothing is gated on joining; your digital product reads
+"free to any agent who asks"; the guide, the page, the bios and the kit all use that wording; and the invitation is
+still the call. Say 'my brokerage does not allow a join package' in your Brain and every public line is rewritten
+in two minutes. "I don't know" keeps Mike's model (the join package) with one check open for your compliance desk.
+
+**Q51. Why does the sitting make me set up Calendly?**
+Because "email me" is a dead end on a page. The intake walks you through a free Calendly in five minutes: one
+30-minute Zoom event with Mike's five qualifying questions (acknowledge this is about partnering · which brokerage ·
+where · stage · what to prepare) and reminders. Paste the link with 'my booking link is …' and your guide, your page
+and your thank-you page all point at it. You can say "later" and set it up any day.
+

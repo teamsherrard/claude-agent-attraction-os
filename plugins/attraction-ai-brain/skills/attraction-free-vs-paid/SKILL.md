@@ -100,9 +100,9 @@ pains. Only real items; "building" is a status, not a bluff.
 - **Layer**: brokerage · upline · me. Brokerage and upline items are named generically ("my brokerage's
   training library", "our group's weekly calls") with the access line.
 - **Free or discounted**: `free` for anything that doesn't take the member's time; `discounted ([amount or
-  %] for my agents)` for anything that does, with the real price stated if they charge one; `included`
-  for the member's time they're choosing to give (the weekly call, the first-week 1:1) — written exactly
-  as it exists ("a weekly call starting when the first partner joins").
+  %] for my agents)` for anything that does, with the real price stated if they charge one; `included` for the ONE recurring thing the member gives (the weekly group call) — written exactly as it exists
+  ("a weekly call starting when the first partner joins"); never a 1:1 rhythm, a group chat or an in-person day
+  (doctrine §10e: those rows appear in their recorded or community form).
 - **What it does for them**: the benefit, in Mike's chain (`04-value-proposition/32`) — feature → benefit
   → outcome, fifth-grade reading level, tied to growth, freedom, or security.
 - **Hits pain #**: Mike's five, canonical wording first, the workshop's plain alias in parentheses
@@ -145,7 +145,9 @@ Format choice: a **guide** when there's one lesson they can teach today; a **pla
 templates and a routine; a **course** only when three or more lessons are already recorded — never a course the
 member still has to record. Version one is a template plus one short recording. Smaller and finished is better
 than bigger and promised; realtors are not course creators, and Mike's own first offer was a weekly call and three
-rough tutorials (`04-value-proposition/33`).
+rough tutorials (`04-value-proposition/33`). The full version grows into a short recorded course — three to six
+lessons of 10 to 15 minutes — over the first 90 days, because the product must work without the member's time
+(doctrine §10e); it is never live-dependent.
 
 ---
 

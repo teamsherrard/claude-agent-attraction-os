@@ -210,17 +210,17 @@ rule for each.
 | For | the primary type of agent, in plain words; one line on the secondary type if there is one | `avatars.md` one-line target |
 | 90-day outcome | what the partner can SHOW by day 90 (the routine running, the first result from it) — never what they will earn; "no result is promised, the method is" | `avatars.md` What they'd need to hear · The ask that fits · `proof.md` for the shape of a real result · the Teach-first lesson |
 | Format | the mix — live group call · 1:1 · recorded · in person — each named | `operations.md` · `strategy.md` Teach-it flags · `06 · Materials` (what is recorded) |
-| Cadence | the weekly call with its day, time, length and place · office hours if any · the group chat · the 1:1 rhythm (Day 1 · first week · day 30 · after) | `operations.md` (Weekly model call · Response commitment · Organization list / group address) → the cadence defaults below where it is silent |
+| Cadence | the weekly group call with its day, time, length and place · the community · a self-serve Day 1 · the recorded day-30 self-check — never a 1:1 rhythm, a group chat or an in-person day (doctrine §10e) | `operations.md` (Weekly model call · Response commitment · Organization list / group address) → the cadence defaults below where it is silent |
 | Duration | a 90-day on-ramp (three phases), then the ongoing partnership — what continues in it | the default; the member may change the number, never drop the "then" |
 | Costs the agent | "nothing today — it comes with the partnership" · any discounted item `## Value stack` priced, said plainly, once free-vs-paid has run · the brokerage's own charges are "a call, with the documents" | `## Value stack` when built, else the default line. **Never compensation** — no split, cap, stock, rev share, income, and not the word "fees" |
 | Not this | two lines — the two things this type of agent might wrongly expect | `avatars.md` "what they've tried" and "Not the right fit" |
 
 **The type rule — pick by what the member actually DOES today, never by what sounds biggest:**
-- a weekly call plus a 1:1 to start → **mentorship program**
+- a weekly group call plus recorded lessons and a community → **mentorship program**
 - recorded lessons plus a group (the teaching is on video, the group is where it is discussed) → **course
   plus community**
 - a dated 90-day push with milestones and a cohort start → **accelerator**
-- scheduled 1:1 coaching as the spine (the member's time, every week, per partner) → **coaching program**
+- scheduled 1:1 coaching as the spine (the member's time, every week, per partner) → **coaching program** — only when it already exists and is priced in the stack; never the default (doctrine §10e)
 - a team with shared systems, shared staff or leads, and a shared brand → **team system** (the type names
   the shape, never the money — compensation and the team's economics stay off the page as always)
 - the member mainly plugs the agent into the upline's and brokerage's assets and adds access to themselves
@@ -269,16 +269,22 @@ invented to reach three — a member with one lesson and a weekly call still has
 lesson 1), run it with me (the first live cycle), own it (the partner runs it alone and presents at the call).
 
 **Cadence defaults** — used only where `operations.md` is silent, shown on the card, and always inside the
-hours in `goals.md`: a weekly call that "starts when the first partner joins" — written exactly that way,
-with the day the member would keep · a Day 1 welcome call (45 minutes, 1:1, Zoom) · a group chat the day
-they join · replies within one business day · a day-30 check · after day 30, one 1:1 a month. Never "24/7",
-never a cadence the member cannot keep for a year.
+hours in `goals.md`: a weekly group call that "starts when the first partner joins" — written exactly that way, with the
+day the member would keep · a self-serve Day 1 (the welcome video, the templates, the community invite and the first
+lesson, all inside the community) · the community for questions, answered on the weekly call · a recorded day-30
+self-check. Never a 1:1 commitment, a group chat, "I answer my phone" or an in-person day (doctrine §10e: a partner
+who wants more time brings it to the weekly call); never "24/7", never a cadence the member cannot keep for a year.
 
 **The deliverables rule.** Six or more rows in `| What | What it is | Format | Free or discounted | Exists
 today? |` (the Brain file keeps the Free-or-discounted column; the document drops it — nothing on the page is
-priced): the member's own items first (the templates, the recorded lesson, the calls, the chat, the checks),
-then the upline's (generic names, the access line), then ONE generic brokerage row ("everything my brokerage
-provides — walked through on a call"). Every row is real today or reads "built with my first partners";
+priced): the member's own items first (the templates, the recorded lessons, the weekly call, the community, the
+day-30 self-check) — unless `## Start with your upline` says to lead with the upline's package, in which case the
+upline's rows come first with the access line (Mike, 2026-11-10) — then the upline's (generic names, the access line),
+then ONE generic brokerage row ("everything my brokerage provides — walked through on a call"). **The scalability
+rule (doctrine §10e):** every row works for ten partners as well as one — recorded lessons, templates, scripts,
+checklists, the community, ONE recurring group call; in-person shadowing becomes a recorded walkthrough of that day, a
+group chat becomes the community, 1:1 rhythms become the weekly call and a recorded day-30 self-check; say in one
+line what was converted and why. Every row is real today or reads "built with my first partners";
 nothing promised that will not exist. `Free or discounted` follows `## Value stack` once free-vs-paid has
 run; before that every member item is "included".
 
@@ -316,8 +322,9 @@ section in `offer.md`; none is asked except the one question below.
   `conversations.md`); (2) your process has a result you can stand behind (`strategy.md`'s "result they can
   stand behind" on a "Teach it: yes" row); (3) the upline's package does not serve who your story speaks to
   (`avatars.md` against the upline layer). All three true → the program is the member's own and the upline's
-  package stays a layer inside it; fewer → the program leads with the upline's package plus the member's one
-  lesson, honestly, and the section says which sign to watch for.
+  package stays a layer inside it; fewer → the program leads with the upline's package plus the member's one lesson, honestly, and the section says
+  which sign to watch for — and the WHAT YOU GET table, the stack, the one-pager and the offer card list the upline's
+  rows FIRST ("I'll introduce you"), so the member can run the offer this week (Mike, 2026-11-10).
 - **The brokerage rule** (`Join-gated package allowed: yes | no | unknown` on the header; the section `## If your
   brokerage does not allow a join-gated package`) — some brokerages do not allow a package to be offered as a
   reason to join them. Decided from the Brain when it can be (`compliance.md`, `brokerage-model.md`); otherwise
@@ -333,7 +340,9 @@ section in `offer.md`; none is asked except the one question below.
   joining, never "join me and get X"; the At a glance "What it costs you" row reads "nothing — I teach it to any
   agent who asks; partnering with me is a separate conversation"; the for-line, the promise, the marketing
   language, the funnel's Offer and Why Join Me sections, the bios and the captions lead with the teaching, the
-  story and the mentorship. `unknown` → **the join register, Mike's model** (a package offered to agents who
+  story and the mentorship — the member still ends with the same three files, and the close says so in one line:
+  *"Your brokerage doesn't allow a package as a reason to join, so your offer is written as what you teach, open to
+  any agent — the invitation is still the call."* `unknown` → **the join register, Mike's model** (a package offered to agents who
   partner with the member is the norm at eXp and REAL — `04-value-proposition/31`, `/28`): the document and every
   public line read as at `yes`, the section names the one check, and the member can flip it any time with 'my
   brokerage does not allow a join package' (→ `no`, the public lines rewritten). **The band names never

@@ -132,7 +132,7 @@ The promise:  [the UVP one-liner]
 ──── THE FIVE PROBLEMS IT SOLVES ────
 [one line per pain, Mike's order: the pain in the agent's words → what you get → the outcome · the honest rows: "my brokerage covers this — I walk you through it on a call" or "not my lane"]
 ──── WHAT YOU GET, AND WHAT'S FREE ────
-[the value stack rows in order: free · included · discounted — "what you get · what it does for you · free / included / discounted ([the real price] for my partners)"]
+[the value stack rows in order: free · included · discounted — the upline's rows first when `## Start with your upline` says to lead with them; every row scalable (doctrine §10e) — "what you get · what it does for you · free / included / discounted ([the real price] for my partners)"]
 The free line:  [the one sentence the member says on a call about what is free from day one]
 The up-front cost line:  [what costs money, said plainly — or "nothing I offer costs anything beyond what the brokerage charges"]
 Honest value line:  [only when a real price exists — never inflated; omit the label otherwise]
