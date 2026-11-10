@@ -2,6 +2,22 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.25.1] — 2026-11-09
+
+**Scalability, verified file by file; the method map; the blueprint gate (Brain 0.9.6 · Lead Magnet 0.12.5).** A
+sweep found the old cadence shape still written into the Brain template, the offer template, the interview guide,
+the Partner Offer floors, the kit's welcome-pack calendar line, the funnel and copy references and nine design
+references: a welcome call, a group chat, a 1:1 rhythm, a response-time promise, "the first Saturday". Every one is
+now the scalable form — a welcome video, the community, a self-serve Day 1, the recorded day-30 self-check — and
+the weekly group call appears only when the member already runs one (Mike: no additional effort once it is built;
+never invented as a default). The labels other skills key on (`Onboarding: Day 1`, `Group chat:`) keep their names
+and change their contents. The offer skill gains THE METHOD MAP: every member's own system reconstructed from what
+they actually do, each step with its action, timing, asset and countable output, a depth test (a partner could run
+it without the member) and one question when the method is thin. The magnet skills gain INDIVIDUAL CRAFT (no two
+members get the same guide; the next best is a different packaging, never a different topic) and THE BLUEPRINT
+ARCHITECTURE with the "effectively done" gate: one page per framework step with the asset in full, the mistake and
+the number to watch, every paragraph specific, fluff words banned, 2,500 to 5,500 words.
+
 ## [0.25.0] — 2026-11-09
 
 **Mike's Week 2 review, applied (Brain 0.9.5 · Lead Magnet 0.12.4 · Support 0.1.21).** Doctrine §10e, obeyed by every

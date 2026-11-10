@@ -167,6 +167,23 @@ agents making in `strategy.md` / `offer.md`) that one of the member's *teachable
 hit at least two of the five; the rest are covered honestly by the brokerage and upline layers, or by
 "not my lane — here's who covers it".
 
+### The method map — every member's own system, the heart of the offer and of the free guide (2026-11-10)
+Every member's method is different — open houses for one, the sphere for another, video, expireds, investors,
+relocation, listing launches — and the offer is only as good as the method behind it. The framework in §5 is
+reconstructed from what the member actually does, never from a default: `memory/conversations.md` and Setup's
+Conversation 2 (what they do, start to finish, and what worked), `strategy.md` (the Teach-it rows), the story bank
+(the turning point), `06 · Materials` (the templates that exist). The example in this plugin's documents (an
+open-house system) is an example, never a template. **Each step carries four things:** the action in the member's
+words · its timing (the day, the hour, the trigger) · the asset — the script, the template, the checklist or the
+sheet, named if it exists, "built with my first partners" if not (and then listed under `## How to create it`) ·
+the output you can count (sign-ins, replies, calls). **The depth test:** a partner could run the whole method from
+the framework table and its assets alone, without the member in the room — because the free guide (the Lead Magnet
+plugin's blueprint) is cut from exactly this map, step for step. Fewer than three steps with a real asset → ONE
+question, before the card: *"Walk me through what you actually do, start to finish, the last time you [the
+mechanism] — the day, what you send, the sheet you use, what happens after."* The steps come from the answer, in the
+member's words; nothing is invented to fill a slot. The `Lead-magnet seed:` line names the step an agent can run
+tonight.
+
 ### 3. Mike's Irresistible Offer — the seven parts (`04-value-proposition/33`)
 The offer is checked part by part; a missing part is an open item, never invented.
 1. **The question it answers** — why you, and why now.
@@ -177,8 +194,8 @@ The offer is checked part by part; a missing part is an open item, never invente
    earn the first case studies; the file says "[open item: first partner's result]" and the Partner Offer
    says "built with my first partners" in words. **The proof plan** (every offer; written as `Proof plan:` under
    `## The Partner Offer`, rendered in PROOF and in How to create it, carried by the Week 3 Kit): the
-   founding-partner exchange — the first two or three partners get the member's time (the Saturday, the 1:1s,
-   the mark-ups) in return for a written OK on their result and a 60-second video at day 90; the line names who,
+   founding-partner exchange — the first two or three partners get the member's attention (on the weekly call and in the community, the
+   mark-ups) in return for a written OK on their result and a 60-second video at day 90; the line names who,
    what they get and when the OK is asked for. When proof is thin it is also the honest why-now.
 5. **Support** — what they get when they join: coaching, systems, culture, access to the member.
 6. **Why now** — the honest reason to move this quarter (a cohort starting, a first-partner spot, a
@@ -209,14 +226,14 @@ rule for each.
 | Type | exactly ONE of six: **partnership program · mentorship program · coaching program · accelerator · course plus community · team system** — with a one-line reason | the type rule below — decided, shown on the card as "a mentorship program: a weekly call, a 1:1 to start" |
 | For | the primary type of agent, in plain words; one line on the secondary type if there is one | `avatars.md` one-line target |
 | 90-day outcome | what the partner can SHOW by day 90 (the routine running, the first result from it) — never what they will earn; "no result is promised, the method is" | `avatars.md` What they'd need to hear · The ask that fits · `proof.md` for the shape of a real result · the Teach-first lesson |
-| Format | the mix — live group call · 1:1 · recorded · in person — each named | `operations.md` · `strategy.md` Teach-it flags · `06 · Materials` (what is recorded) |
+| Format | recorded lessons · templates · the community · a weekly group call only if the member already runs one — never 1:1, never in person (doctrine §10e) | `operations.md` · `strategy.md` Teach-it flags · `06 · Materials` (what is recorded) |
 | Cadence | the weekly group call with its day, time, length and place · the community · a self-serve Day 1 · the recorded day-30 self-check — never a 1:1 rhythm, a group chat or an in-person day (doctrine §10e) | `operations.md` (Weekly model call · Response commitment · Organization list / group address) → the cadence defaults below where it is silent |
 | Duration | a 90-day on-ramp (three phases), then the ongoing partnership — what continues in it | the default; the member may change the number, never drop the "then" |
 | Costs the agent | "nothing today — it comes with the partnership" · any discounted item `## Value stack` priced, said plainly, once free-vs-paid has run · the brokerage's own charges are "a call, with the documents" | `## Value stack` when built, else the default line. **Never compensation** — no split, cap, stock, rev share, income, and not the word "fees" |
 | Not this | two lines — the two things this type of agent might wrongly expect | `avatars.md` "what they've tried" and "Not the right fit" |
 
 **The type rule — pick by what the member actually DOES today, never by what sounds biggest:**
-- a weekly group call plus recorded lessons and a community → **mentorship program**
+- recorded lessons plus a community, with the weekly group call the member already runs → **mentorship program**
 - recorded lessons plus a group (the teaching is on video, the group is where it is discussed) → **course
   plus community**
 - a dated 90-day push with milestones and a cohort start → **accelerator**
@@ -269,8 +286,8 @@ invented to reach three — a member with one lesson and a weekly call still has
 lesson 1), run it with me (the first live cycle), own it (the partner runs it alone and presents at the call).
 
 **Cadence defaults** — used only where `operations.md` is silent, shown on the card, and always inside the
-hours in `goals.md`: a weekly group call that "starts when the first partner joins" — written exactly that way, with the
-day the member would keep · a self-serve Day 1 (the welcome video, the templates, the community invite and the first
+hours in `goals.md`: no live call unless `operations.md` names a weekly call the member already runs (then it "starts when the
+first partner joins", written exactly that way, with the day the member keeps) · a self-serve Day 1 (the welcome video, the templates, the community invite and the first
 lesson, all inside the community) · the community for questions, answered on the weekly call · a recorded day-30
 self-check. Never a 1:1 commitment, a group chat, "I answer my phone" or an in-person day (doctrine §10e: a partner
 who wants more time brings it to the weekly call); never "24/7", never a cadence the member cannot keep for a year.
@@ -282,7 +299,7 @@ day-30 self-check) — unless `## Start with your upline` says to lead with the 
 upline's rows come first with the access line (Mike, 2026-11-10) — then the upline's (generic names, the access line),
 then ONE generic brokerage row ("everything my brokerage provides — walked through on a call"). **The scalability
 rule (doctrine §10e):** every row works for ten partners as well as one — recorded lessons, templates, scripts,
-checklists, the community, ONE recurring group call; in-person shadowing becomes a recorded walkthrough of that day, a
+checklists, the community, the weekly group call only when the member already runs one; in-person shadowing becomes a recorded walkthrough of that day, a
 group chat becomes the community, 1:1 rhythms become the weekly call and a recorded day-30 self-check; say in one
 line what was converted and why. Every row is real today or reads "built with my first partners";
 nothing promised that will not exist. `Free or discounted` follows `## Value stack` once free-vs-paid has
@@ -368,7 +385,7 @@ section in `offer.md`; none is asked except the one question below.
 - **Where to host it** (`## Where to host it`) — a short hosting guide, not a comparison: **Skool, recommended**
   (the easiest — one community; the classroom holds the recorded lessons and the templates; the calendar holds
   the weekly call; one welcome post; set up in 20 minutes) · **Circle, the alternative** (the same four things,
-  a little more to configure) · the group chat stays the chat · **keep it simple: one community, one welcome
+  a little more to configure) · a group chat is never offered — the community is the chat · **keep it simple: one community, one welcome
   post, one weekly call.** A community name already in use becomes the community's name. The cohort's Skool
   link line follows `references/partner-offer-doc.md` (never a bracket in the rendered document). The
   Lead Magnet plugin's digital product and the Value Vault (Week 6) land inside this community.
@@ -389,7 +406,7 @@ program name with its two alternates, recorded vs live, the cadence, the support
 from the Brain and the default rules — silently. Then send ONE message: a two-line welcome, the card (at most
 150 words: the program name and the one-line promise, with the two alternate names in brackets on the same
 line · who it is for · the method in one line as the named framework and its step chain · what you get as five
-outcome bullets · the weekly rhythm — the call, the chat, the 1:1 · the 90-day outcome), and the closing line
+outcome bullets · the weekly rhythm — the community, the weekly call if any, the day-30 self-check · the 90-day outcome), and the closing line
 *"Does this feel like you? Say yes, pick one of the other two names, or change anything: the names, the call
 time, what's included."* — with the one brokerage question folded into it when the Brain holds no answer
 (§6). Hard cap: 240 words in the whole message; the Week 2 outcome statement, when the Lead Magnet plugin opens
@@ -451,8 +468,8 @@ line.
 - **What you get when you partner with me** — the deliverables grouped: from me · from my organization · the
   brokerage as one line. No values, no compensation.
 - **Your first 30 days** — Day 1 as five short lines, the weeks table, the done-when line.
-- **How we work together** — the weekly call, the chat, the 1:1 rhythm, the response time, who else is in
-  the room; 120 to 180 words.
+- **How we work together** — the weekly group call if any, the community, how questions get answered, the day-30
+  self-check, who else is in the room; 120 to 180 words. Nothing that costs the member time per partner.
 - **Proof** — real only; "none yet, building it with my first partners" when none.
 - **Why now** — 80 to 120 words.
 - **Your next step** — the call line, what the call is and isn't, the comment keyword line; then the
@@ -492,7 +509,7 @@ template keeps those two sections and the `## Notes for Week 2` capture section 
 Write → push via `attraction-brain-sync` → verify, one step. In the same push, refresh the three
 quick-reference lines in `brain.md` this skill owns — `**Offer status:**`, `**UVP (one line):**` (the
 one-liner) and `**Program:**` (`[name] · [type] · [cadence]` — e.g. `Buyers From Open Houses · mentorship
-program · Tuesdays 9:00 am, 30 min on Zoom + a Day 1 welcome call`) — so every skill that reads `brain.md` first sees
+program · recorded lessons + the community + Tuesdays 9:00 am on Zoom`) — so every skill that reads `brain.md` first sees
 the offer and the program without opening `offer.md`. If the push fails: say it is NOT saved, keep the
 content visible, retry once, stop.
 

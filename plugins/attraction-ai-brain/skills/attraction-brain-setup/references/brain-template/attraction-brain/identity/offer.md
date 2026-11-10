@@ -16,7 +16,7 @@
 ## The three layers (Setup Conversation 2, unpolished)
 - **What the brokerage gives every agent (as far as they know):** [not asked at setup — the Brokerage Model Expert fills it in Week 2 ("explain my model to me"); an import or a bridged deck may pre-fill it]
 - **What the upline provides that they could point an agent to today (question 16, the clear breakdown):** ["nothing I know of" is fine — this layer blends with the member's strategies into the unique value proposition]
-- **What THEY give (today):** [from questions 14–15 and 22 — a weekly call · a template · 1:1 onboarding · a group chat of three — real and small is better than big and promised]
+- **What THEY give (today):** [from questions 14–15 and 22 — raw material only; the offer converts anything that needs the member\'s time per partner into its recorded or community form (doctrine §10e) — a weekly call · a template · 1:1 onboarding · a group chat of three — real and small is better than big and promised]
 
 ## The mistakes agents are making right now (Setup Conversation 2, question 17 — verbatim)
 [the biggest mistakes the member sees agents making, and why they — or joining their brokerage — can be the solution. `attraction-offer` reads these as the pains the offer answers; `attraction-persona-map` reads them as the agents who will relate.]
@@ -48,8 +48,8 @@
 - **Type:** [one of six: partnership program · mentorship program · coaching program · accelerator · course plus community · team system] — [one-line reason, from what the member actually does: a weekly call plus a 1:1 is a mentorship program; recorded lessons plus a group is a course plus community; a dated 90-day push with milestones is an accelerator; a team with shared systems and a shared brand is a team system — compensation still off the page]
 - **For:** [the primary type of agent in plain words; one line on the secondary type if any]
 - **90-day outcome:** [what the partner can SHOW by day 90 — never earn; "no result is promised, the method is"]
-- **Format:** [the mix — live group call · 1:1 · recorded · in person — each named]
-- **Cadence:** [the weekly call: day · time · length · where] · [office hours, or "none"] · [the group chat] · [the 1:1 rhythm: Day 1 · first week · day 30 · after]
+- **Format:** [recorded lessons · templates · the community · a weekly group call only if you already run one — never a 1:1 or an in-person commitment (doctrine §10e)]
+- **Cadence:** [the weekly group call, if you already run one: day · time · length · where] · [the community: where questions get answered] · [the recorded day-30 self-check]
 - **Duration:** [the 90-day on-ramp (three phases), then the ongoing partnership — what continues]
 - **Costs the agent:** ["nothing today — comes with the partnership" · any discounted item named under `## Value stack` once built · never compensation, never the brokerage's charges]
 - **Not this:** [two lines — what the program is NOT]
@@ -70,8 +70,8 @@
 
 ## Support & community (Week 2 — from operations.md; the same words the doc's section 8 carries)
 - **Weekly call:** [name · day · time · length · where · what happens on it]
-- **Group chat:** [who is in it today · what it is for]
-- **1:1 cadence:** [Day 1 · the first week · day 30 · after that]
+- **Group chat:** [write the COMMUNITY here — its name · who is in it today · what it is for; a group chat is never offered (doctrine §10e)]
+- **1:1 cadence:** [none — the self-serve rhythm: Day 1 the welcome video, the templates, the community invite and the first lesson · the first week · the recorded day-30 self-check · after that (doctrine §10e)]
 - **Response expectation:** [in plain words — never "24/7"]
 - **Who else is in the room:** [the upline / a mentor — first names, labeled as the upline's]
 - **The organization's rhythm:** [the recognition moment · the monthly check · what repeats]
@@ -91,7 +91,7 @@
 | | | | | |
 **Module 1 / first lesson:** [concrete enough to record tonight]
 **Digital product promise:** [name · format · one-line promise · "first version built in Week 6" if true — mapped in detail under `## Digital product` by `attraction-free-vs-paid`]
-**Onboarding: Day 1:** [the welcome call — length · where · what to bring]
+**Onboarding: Day 1:** [the welcome video — what it hands over; never a 1:1 call (doctrine §10e)]
 **Onboarding: Day 1 setup:** [what is handed over on the call]
 **Onboarding: Day 1 first lesson:** [sent, or watched together]
 **Onboarding: Day 1 group:** [the chat and the weekly-call invite, the same day]

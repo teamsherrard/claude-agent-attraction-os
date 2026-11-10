@@ -19,9 +19,9 @@ slid one card across the table.
 | **Join-gated package allowed** (`yes` · `no` · `unknown`) | `compliance.md` → `Inducement rules reviewed:` and any stated brokerage rule on offering a package as a reason to join (to the member, in plain words: *"does your brokerage let you offer agents something extra only if they join under you?"*) · `brokerage-model.md` → a stated rule from the member's materials | the Brain holds nothing → **this is the one question, folded into the card's closing line** (§3): *"Does your brokerage restrict offering a package as a reason to join? Say 'allowed', 'not allowed', or 'I don't know' and I'll check your brokerage's rules."* · "allowed" → `yes` · "not allowed" → `no` · "I don't know" → check both files once more, write `unknown`, add the compliance-desk open item, and build in Mike's join register (the norm at eXp and REAL) with the check named once — only `no` moves the public lines to the open register (what the member teaches · their story · their mentorship) |
 | **Framework name** (3–7 steps) | the phrase the member repeats (`strategy.md`, `journey.md`'s turning point, `voice.md` signature phrases, the Teach-first lesson) | the member's own phrase for the thing ("the Sunday routine" → "the Five-Step Sunday Routine"); never a generic name; the steps from the Teach-first lessons and the "Teach it: yes / partly" rows only |
 | **The 90-day outcome** | `avatars.md` What they'd need to hear · The ask that fits · `proof.md` for the shape of a real result · the Teach-first lesson | what the partner can SHOW by day 90 — the routine running without the member and the first result from it; never what they will earn; "no result is promised, the method is" |
-| **Cadence** (the weekly call's day · time · length · where; the chat; the 1:1 rhythm) | `operations.md` → Weekly model call · Response commitment · Organization list / group address · `goals.md` → Hours | silent → "a [weekday] call that starts when the first partner joins — [day], [time], 30 minutes, Zoom" with the day the member would keep · a Day 1 welcome call (45 minutes, 1:1, Zoom) · a group chat the day they join · a day-30 check · after day 30, one 1:1 a month. Always inside the hours in `goals.md`; never "24/7" |
+| **Cadence** (the weekly group call if the member already runs one; the community; the day-30 self-check — never a 1:1 rhythm, doctrine §10e) | `operations.md` → Weekly model call · Response commitment · Organization list / group address · `goals.md` → Hours | silent → "a [weekday] call that starts when the first partner joins — [day], [time], 30 minutes, Zoom" with the day the member would keep · a Day 1 welcome call (45 minutes, 1:1, Zoom) · a group chat the day they join · a day-30 check · after day 30, one 1:1 a month. Always inside the hours in `goals.md`; never "24/7" |
 | **Recorded vs live** | `strategy.md` Teach-it flags · `06 · Materials` · `## Value stack` if free-vs-paid ran first | what exists on file is "recorded"; everything else "taught live at the [call]; recorded with my first partners" — a lesson the member "will record this week" is still written that way until the file exists |
-| **Support rhythm and response time** | `operations.md` → Response commitment · the 7 pm rule or its equivalent in `strategy.md` constraints | silent → "within one business day; the weekly call for everything that can wait" |
+| **Support rhythm** (the community; questions answered on the call — never a response-time promise) | `operations.md` → Response commitment · the 7 pm rule or its equivalent in `strategy.md` constraints | silent → "within one business day; the weekly call for everything that can wait" |
 | **The first lesson** | the drafted "Teach first" line in `offer.md` seeds (from the strategy and the unique method the member described in Conversation 2), the "Teach it: yes" row that maps to the avatar's #1 pain | the lesson with the sheet or template the member can put on camera tonight; the rest are lessons 2 and 3 |
 | **What it costs you** | `## Value stack` when built | "nothing today — it comes with the partnership"; the brokerage's own charges are "a call, with the documents"; never a compensation word |
 | **The three layers** (brokerage · upline · you) | `brokerage-model.md` → the `offer.md` seeds (the upline breakdown from Conversation 2; the brokerage layer was never asked) → materials | generic, outcome-phrased names; a thin "you" layer gets an honest, smaller offer carried by the other two |
@@ -44,10 +44,9 @@ message; the outcome statement sits above the cap.]
 • [outcome 1 — the templates handed over on Day 1]
 • [outcome 2 — the recorded lesson; the rest live and recorded with the first partners]
 • [outcome 3 — the member's live time: the first Sunday, the first call]
-• [outcome 4 — the weekly call and the chat]
-• [outcome 5 — the day-30 check and the monthly 1:1]
-**The weekly rhythm:** [the call — day, time, length, where] · [the chat — what it is for] · [the 1:1 rhythm —
-Day 1, the first week, day 30, then monthly]
+• [outcome 4 — the weekly call if any, and the community]
+• [outcome 5 — the recorded day-30 self-check]
+**The weekly rhythm:** [the weekly group call if any — day, time, length, where] · [the community — where questions get answered] · [the recorded day-30 self-check]
 **By day 90:** [the 90-day outcome — what the partner can show; never what they will earn]
 
 Does this feel like you? Say yes, pick one of the other two names, or change anything: the names, the call
@@ -102,7 +101,7 @@ Never a second question stop before the document exists.
   package allowed:` line (`yes` · `no` · `unknown`) and the register applied before the build; "I don't know"
   gets the one-line note that the compliance desk confirms it, and the offer is still written as a join package
   (Mike's model) until a `no` arrives.
-- **Edits come back in one message** ("call it Open House to Contract, Thursdays at 8, drop the monthly 1:1")
+- **Edits come back in one message** ("call it Open House to Contract, Thursdays at 8, drop the day-30 self-check")
   → apply them verbatim, say the changed lines back in one sentence, build. Never re-send the card unless the
   member changed the **type** or the **program name** — then show the one changed line, not the card.
 - **"use defaults" / "you decide" / "just make it"** → build with what is on the card.
@@ -122,7 +121,7 @@ Never a second question stop before the document exists.
 | They say | Ask, in one line |
 |---|---|
 | "Add training and support" | *"Which training — what does an agent do differently after it?"* |
-| "Say I'll be there for them" | *"What does that look like on a calendar — a weekly slot, a first-week 1:1, a group?"* |
+| "Say I'll be there for them" | *"What does that look like without your time — a recorded lesson, a template, the community, a weekly group slot you already keep?"* |
 | "Put in everything the brokerage has" | *"Name three things an agent uses in their first month, in plain words — the rest stays 'everything my brokerage provides'."* |
 | "I'm good at marketing — add that" | *"Which one thing produced the most business, and could you show someone the exact setup?"* |
 

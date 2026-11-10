@@ -97,6 +97,29 @@ program is what an agent receives when they partner with the member). Apply **ho
 
 ---
 
+## The blueprint architecture, and the "effectively done" gate (Mike, 2026-11-10)
+Mike's review of the first guide: *"this is just about 3 texts to send — couldn't it be a complete open house
+blueprint: how to prepare, how to host it properly, INCLUDE the 3 texts, follow up? With AI this is bland and
+wouldn't convert."* So the guide is the member's **whole method as a blueprint**, cut from `offer.md → ## The
+framework` step for step, and the member's method decides the chapters — open houses, the sphere, video, expireds,
+investors, relocation, whatever it is. Never the example in this plugin's references, never a page that could sit
+in another member's guide.
+- **The pages, in order:** the cover (the promise) · why this exists (the member's turning point, one page) · the
+  whole system on one page (every step with its timing, as the checklist an agent screenshots) · **one page per
+  framework step**, in the method's order (prepare → do → capture → follow up → repeat, in the member's words), each
+  with: the goal in one line · the how, numbered · **the asset in full** — the script word for word with two or three
+  variants, the checklist of 5 to 12 items, the template with three sample rows filled from the member's own
+  routine, the sheet · the mistake most agents make at this step · the number to watch · `Next step:` · the first
+  30 days (or the first run) day by day · what to do next (five lines) · how [First name] helps next · the back
+  page. 2,500 to 5,500 words of copy.
+- **The "effectively done" gate — the guide ships only when every line is true:** (1) an agent could run the whole
+  method this week from the guide alone, without the member in the room; (2) no page is generic — every paragraph
+  carries a specific: a time, a number, a name, a script line, a tool; (3) every asset is complete — never "a
+  script", "see template" or "ask me"; (4) every example is the member's own routine, from the Brain; (5) the page
+  titles are the member's step names; (6) banned unless followed by the exact how: "be consistent", "provide
+  value", "stay top of mind", "build relationships", "engage", "leverage", "follow up" (as a bare instruction).
+  A guide that fails a line is rewritten before it is saved, never delivered with a note.
+
 ## Phase 1 — The focus (skip this phase when it was handed to you)
 
 **First: do you have the locked focus and the intake in hand?** If `lm-navigator` (or `lm-magnet-ideas`)
@@ -277,7 +300,7 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
     doesn't hold.
 13. No `[` bracket placeholder; no copy line in capitals; every `── PAGE N - TITLE ──` line under 70
     characters between the dashes; every number not the member's own experience has a `Source:`.
-14. Total 2,200 to 4,500 words of copy (labels, source notes and the appendix excluded).
+14. Total 2,500 to 5,500 words of copy (labels, source notes and the appendix excluded).
 15. The member's voice — the KB's voice-match checklist run; fifth-grade reading level; none of the banned
     filler.
 16. The shape's rules honoured (comparison: every model in the same shape, the member's own trade-off said

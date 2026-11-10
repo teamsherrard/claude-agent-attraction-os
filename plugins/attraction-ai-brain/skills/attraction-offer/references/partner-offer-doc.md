@@ -76,7 +76,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/
 - **Pipe tables** (`| a | b |` one row per line) for At a glance, the method, the phases, the first three
   lessons, the deliverables, the weeks. Never a table as a wall of prose.
 - **`•` bullets** for lists; **numbered lines** `1.  …` for Day 1 — open each with a plain word (`1.  The
-  welcome call — 45 minutes …`), never a capital run the renderer reads as a bold lead (`1. A 45-minute call`
+  welcome video — 12 minutes …`), never a capital run the renderer reads as a bold lead (`1. A 45-minute call`
   splits as "A 45-").
 - Plain text in the body: no Markdown `#`, `**`, backticks; no `>> ` lines; no line beginning with `[`; no
   ALL-CAPS line except the bands; no `...` (the renderer reads dotted leaders as a metric table).
@@ -130,12 +130,12 @@ deliverables table, `## How to talk about it`.
 One or two plain sentences, then a **twelve-row label table** `| What | [Program name] |` with these rows in
 this order, **each cell one line**:
 1. `Program` — the name, then a dash and the type (exactly one of the six) in plain words: "a mentorship
-   program: a weekly call, a 1:1 to start".
+   program: recorded lessons, the templates and the community".
 2. `For` — the primary type of agent by stage, production and situation (never a protected characteristic).
 3. `The promise` — the outcome-led line.
 4. `The method` — the framework's name and the step chain (the one-line version, under 20 words).
-5. `Format` — the mix: live group call · 1:1 · recorded · in person, each named.
-6. `Weekly rhythm` — the call (day, time, length, where) · the chat · the 1:1 rhythm.
+5. `Format` — recorded lessons · templates · the community · the weekly group call if any (never 1:1 or in person — doctrine §10e).
+6. `Weekly rhythm` — the weekly group call if any (day, time, length, where) · the community · the recorded day-30 self-check.
 7. `Your first 90 days` — the three phases by name with their days, and what day 90 looks like.
 8. `What you get` — the deliverables as a comma list of outcomes-in-hand; ends "and everything my brokerage
    provides".
@@ -220,20 +220,23 @@ compensation word; no brokerage named by brand as the solver (`04-value-proposit
 
 ### YOUR FIRST 30 DAYS — 200+ words
 Source: `## The Partner Offer` → `Onboarding: Day 1` lines and the `First 30 days` table.
-- One sentence in, then `──── Day 1 ────` and **five short numbered lines** (4+): the welcome call (length,
-  where, what to bring) · the setup (what is handed over) · the first lesson (sent or watched together) · the
-  group (the chat, the weekly-call invite) · the calendar (the first date put on it before the call ends).
-- The week-by-week table `| Week | You | Me | Done when |` — all four weeks; week 1 is always the 1:1
-  onboarding and lesson 1's setup together; week 4 ends with the partner's first result or an honest reset.
+- One sentence in, then `──── Day 1 ────` and **five short numbered lines** (4+), all self-serve (doctrine §10e): the
+  welcome video (what it hands over) · the setup (the templates, inside the community) · the first lesson (recorded,
+  linked the same day) · the community (the invite; the weekly-call invite if one exists) · the calendar (the first
+  weekly call date, or the day-30 self-check date). Never a 1:1 call.
+- The week-by-week table `| Week | You | Me | Done when |` — all four weeks; week 1 is always the first lesson
+  and the first template in use; the "Me" column is what the recorded lessons, the templates and the community do
+  (never the member's time per partner); week 4 ends with the partner's first result or an honest reset.
 - A `Done when:` line for the month — the three things that are true at day 30.
 
 ### HOW WE WORK TOGETHER — 120 to 180 words
 Source: `## Support & community` in `offer.md` (from `operations.md`).
-`Label:` lines, one each: the weekly call (name, day, time, length, what happens on it) · the group chat (who
-is in it today, what it is for) · the 1:1 rhythm (Day 1, the first week, day 30, after that) · the response
-time in plain words ("I reply the same day on weekdays; Sunday evening for anything about a sign-in sheet";
-never "24/7") · who else is in the room (the upline, a mentor — first names only, labeled as the upline's) ·
-the organization's rhythm (the recognition moment, the monthly check, what repeats).
+`Label:` lines, one each: the weekly group call, if the member already runs one (name, day, time, length, what
+happens on it — otherwise the line reads that questions are answered in the community) · the community (its name,
+who is in it today, what it is for — never a group chat) · how questions get answered (in the community, and on the
+call; never a response-time promise, never "24/7") · the recorded day-30 self-check · who else is in the room (the
+upline, a mentor — first names only, labeled as the upline's) · the organization's rhythm (the recognition moment,
+what repeats). Nothing here costs the member time per partner (doctrine §10e).
 
 ### PROOF — 60+ words
 Source: `identity/proof.md` ONLY.

@@ -266,7 +266,7 @@ never income, the reader's own numbers never the member's, consent on file for a
   math** (`Template rows:` — open houses hosted · sign-ins · texts sent · conversations · showings, on the
   reader's own ratios; the member's ratios appear only as `proof.md` states them, labelled as theirs) · **the
   decision page** — three outcomes the tally can show and what the member would do at each, said straight ·
-  **the first Saturday** — the smallest version of the method run once, as activities. The mid-document
+  **the first run** — the smallest version of the method run once, as activities (the first weekend, the first week, the first video — whatever the method's unit is). The mid-document
   `Call to action:` sits on the decision page ("on your own numbers"). Never a vendor named; never a
   projection; never an income figure.
 - **The case-study breakdown** — a real partner's first 30 days, step by step. **Only when `proof.md` holds

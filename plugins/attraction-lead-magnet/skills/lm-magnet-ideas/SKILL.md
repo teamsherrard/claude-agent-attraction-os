@@ -104,6 +104,17 @@ of the blueprint, never the magnet; with the Brain behind it the guide can carry
 A kind with no honest fit at all (a plan with no structure to build from) simply has no candidate; the
 recommendation and the next best come from the kinds that do.
 
+## Individual craft — every member's blueprint is their own (2026-11-10)
+No two members get the same magnet, because no two methods are the same: the blueprint's chapters are the
+member's framework steps in the member's words (`offer.md → ## The framework`), its title names the member's own
+outcome and mechanism, its examples are the member's own routine, its scripts and templates are the member's own
+assets handed over in full. An open-house blueprint for a sphere-based attractor, a generic "lead generation" guide,
+or any title that could sit on another member's page is a failure. The three kinds collapse into the blueprint as
+sections — the plan is its "first 30 days" page, the proof piece is its "what it did for me" page — so the next
+best is a different PACKAGING of the same method (the one-page checklist version, the 5-day challenge version),
+never a different topic. The card says, in one line, why the whole method and not one tactic: an agent can run it
+this week from the guide alone, and that is what makes them want the call.
+
 ## Step 3 — Score silently, never out loud
 1. **UVP fit** — must be teachable from the offer (a framework step, a Teach-first lesson, the mechanism, or
    a "Teach it: yes" strategy). A magnet the member can't back with real experience is a pitch — out.

@@ -43,8 +43,8 @@ Name: [program name — the outcome + the mechanism; the two alternates offered 
 Type: [one of the six] — [one-line reason, from what the member actually does]
 For: [the primary type of agent in plain words; one line on the secondary type if any]
 90-day outcome: [what the partner can SHOW by day 90 — never earn; "no result is promised, the method is"]
-Format: [the mix — live group call · 1:1 · recorded · in person — each named]
-Cadence: [the weekly call: day · time · length · where] · [office hours or "none"] · [the group chat] · [the 1:1 rhythm: Day 1 · first week · day 30 · after]
+Format: [recorded lessons · templates · the community · a weekly group call only if you already run one — never a 1:1 or an in-person commitment (doctrine §10e)]
+Cadence: [the weekly group call, if you already run one: day · time · length · where] · [the community: where questions get answered] · [the recorded day-30 self-check]
 Duration: [the 90-day on-ramp (phases 1–3), then the ongoing partnership — what continues]
 Costs the agent: ["nothing today — comes with the partnership" · any discounted item named by ## Value stack once built · never compensation, never the brokerage's charges]
 Not this: [two lines — what the program is NOT]
@@ -63,8 +63,8 @@ Lessons beyond the first three (outline): • [lesson — live / recorded — ph
 
 ## Support & community
 Weekly call: [name · day · time · length · where · what happens on it]
-Group chat: [who is in it today · what it is for]
-1:1 cadence: [Day 1 · the first week · day 30 · after that]
+Group chat: [write the COMMUNITY here — its name · who is in it today · what it is for; a group chat is never offered (doctrine §10e)]
+1:1 cadence: [none — the self-serve rhythm: Day 1 the welcome video, the templates, the community invite and the first lesson · the first week · the recorded day-30 self-check · after that (doctrine §10e)]
 Response expectation: [in plain words, from operations.md — never "24/7"]
 Who else is in the room: [the upline / a mentor — first names, labeled as the upline's]
 The organization's rhythm: [the recognition moment · the monthly check · what repeats]
@@ -97,11 +97,11 @@ Teach first (the first three lessons):
 | Lesson | After this you can… | What's on screen | Template handed over | Run time |
 What my organization and brokerage provide: • … "I walk you through all of it on a call."
 Digital product promise: [name · format · one-line promise · "first version built in Week 6" if true]
-Onboarding: Day 1: [the welcome call — length · where · what to bring]
-Onboarding: Day 1 setup: [what is handed over on the call]
-Onboarding: Day 1 first lesson: [sent, or watched together]
-Onboarding: Day 1 group: [the chat and the weekly-call invite, the same day]
-Onboarding: Day 1 calendar: [the first date put on the calendar before the call ends]
+Onboarding: Day 1: [the welcome video — what it hands over; never a 1:1 call (doctrine §10e)]
+Onboarding: Day 1 setup: [what is handed over on Day 1 — the templates, inside the community]
+Onboarding: Day 1 first lesson: [the first recorded lesson, linked on Day 1]
+Onboarding: Day 1 group: [the community invite, and the weekly-call invite if one exists, the same day]
+Onboarding: Day 1 calendar: [the first weekly call date if one exists, or the day-30 self-check date]
 First 30 days as a partner:
 | Week | Partner does | [Member] does | Done when |
 Done at day 30: [the three things that are true]
@@ -126,7 +126,7 @@ Lead-magnet seed: [which framework step the free magnet is cut from, and why it 
 ## How to create it
 (the build checklist for THEIR program — from ## Structure, Teach first, the deliverables and operations.md; every line something the member can do this week; what exists today reads "done — reuse it")
 Record: • [lesson 1 — what is on screen, the run time — tonight] • [lessons 2+ — live at the call first, recorded with the first partners]
-Write: • [the templates handed over] • [the welcome-call agenda] • [the Day 1 hand-over list] • [the community's welcome post]
+Write: • [the templates handed over] • [the welcome video script] • [the Day 1 hand-over list] • [the community's welcome post]
 The first 30 days (the member's side): • [week 1] • [week 2] • [week 3] • [week 4]
 The weekly touchpoint: [the call — day · time · length · format · what happens on it · who runs it when the member cannot]
 
@@ -148,7 +148,7 @@ The lines that change: [the for-line · the At a glance "What it costs you" row 
 The check (unknown only): [confirm with the compliance desk whether a package may be offered as a reason to join — closed by attraction-compliance]
 
 ## Where to host it
-Host: [Skool (recommended — easiest) | Circle (the alternative) | the group chat for now | other]
+Host: [Skool (recommended — easiest) | Circle (the alternative) | other]
 Community name: [the organization or community name in use, from brand-visual.md — else the program name]
 Set up in 20 minutes: • [the community created] • [the classroom: lesson 1 and the templates] • [the calendar: the weekly call] • [one welcome post]
 Keep it simple: one community, one welcome post, one weekly call.

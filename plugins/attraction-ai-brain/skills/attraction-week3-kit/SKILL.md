@@ -213,7 +213,7 @@ Status line:  ["Included when you partner with me" · "Coming this quarter" · a
 Welcome letter:  [120 words in the member's voice — what happens today, this week, by day 30]
 Day 1 checklist:
    •  [the five Onboarding: Day 1 lines]
-First lesson:  [the first lesson's name and what it hands over] · Calendar:  [the weekly call · the first 1:1 · the first Saturday or session]
+First lesson:  [the first lesson's name and what it hands over] · Calendar:  [the weekly group call if any · the day-30 self-check date]
 ──── SOCIAL GRAPHIC POSTS ────
 Six posts for the two weeks after your page goes live, one every two or three days, then monthly with new proof. Carousels and single graphics are 1080 by 1350; stories 1080 by 1920, text clear of the top and bottom 250 pixels. One ask per post, from the calls to action below; the stamp on the last slide or in the caption.
 Post 1 — The guide:  a carousel, 5 slides.

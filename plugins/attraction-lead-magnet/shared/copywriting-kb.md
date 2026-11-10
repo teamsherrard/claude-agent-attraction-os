@@ -393,7 +393,7 @@ Tie it straight to the reader's pain: "agents who felt exactly what you're feeli
 The section that flips the page from "recruiting" to "real," and the strongest answer to "every sponsor says
 that." From `offer.md` (what's included), `operations.md` (the weekly call, onboarding steps), `proof.md`
 (organization today):
-- **What we do together** — the recurring call, the group chat, the training, recognition. Only what exists
+- **What we do together** — the recurring call if any, the community, the training, recognition. Only what exists
   today. A weekly script role-play call is a real thing to say; "a world-class ecosystem" is not.
 - **Who's in it** — the kinds of agents by stage ("mostly agents in years one to five"); the count only if
   `proof.md` states it, with its date; never "fastest-growing" without a dated source.
@@ -411,7 +411,7 @@ competes with the guide above it. In the member's voice:
 - **The three questions the call answers** — the three the reader is actually asking (`objections.md`,
   `avatars.md`), each one line.
 - **How it works** — the three steps to join, in plain words: grab the guide or book the call → the
-  20-minute (or 30-minute, as `operations.md` says) call → onboarding Day 1 (the welcome call, what's handed
+  20-minute (or 30-minute, as `operations.md` says) call → onboarding Day 1 (the welcome video, what's handed
   over, the first lesson, the group, the first date on the calendar — from the Partner Offer's Day 1 sequence).
 - **What we'll cover on the call** — five or six bullets: your business and your week · how the training and
   the weekly call work · what onboarding looks like · your 90-day game plan · your questions about the model,

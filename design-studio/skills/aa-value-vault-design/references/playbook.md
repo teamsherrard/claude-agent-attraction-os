@@ -36,11 +36,11 @@ the recording page carries, in order) · `Cover line:` · `Subtitle:` · `Three 
 cover — reused from the offer kit, designed here only when none exists) · `Version one, this month:`
 (THE piece: which template, which recording) · `The full version:` (whether the side door is open) ·
 `Status:`. **THE PROGRAM** (`Program:` · `The method:`) gives the welcome page its one line about the
-program; **WHAT YOU GET, AND WHAT'S FREE** names the weekly call, the community or the group chat when
+program; **WHAT YOU GET, AND WHAT'S FREE** names the weekly call, the community when
 the member offers them; **`The register:`** decides the words (join register: the kit's wording as
 written; open register: nothing reads "join", the status line reads "Free to any agent who asks").
 **Chapter 7 (DESIGN ASSETS) → THE PRODUCT MOCKUP** → `Status line:` is the status word on the imprint;
-**THE WELCOME PACK (DAY 1)** → `Calendar:` (the weekly call · the first 1:1 · the first session) and
+**THE WELCOME PACK (DAY 1)** → `Calendar:` (the weekly call · the first lesson · the first session) and
 `First lesson:` fill the where-to-ask page; **THE JOIN MY TEAM ONE-PAGER** → `Call to action:` is the
 booking line. The kit's last line is the **compliance stamp** (`▸ COMPLIANCE`). The **Design Package
 brief** (`AGENT ATTRACTION DESIGN PACKAGE — [First Last] · issued [YYYY-MM-DD]`) and the member's
@@ -185,8 +185,8 @@ member speaks as "I" ("here's the exact text I send at 7 pm"), the reader is "yo
 who this is for (`For:`), the promise (`Promise:`), the program's one line (`Program:`), what to do
 first — and, when the member wants it, one line from the Book's "Your story" (former brokerages never
 named). The where-to-ask page (`13-team-building-duplication/65`: make it impossible for them to feel
-alone): the weekly call, the first 1:1 and the first session from `Calendar:`, the first lesson from
-`First lesson:`, the group chat or community from chapter 2's stack rows, the booking line from `Call
+alone): the weekly call, the first lesson and the day-30 self-check from `Calendar:`, the first lesson from
+`First lesson:`, the community from chapter 2's stack rows, the booking line from `Call
 to action:`, who to message when stuck — from the kit; anything the kit doesn't carry is written as an
 "ask me" line, never left blank, never guessed. Never: a compensation, split, cap, stock, rev-share, or
 income word; an outcome promise ("you'll close three deals") — the skill statement is the form ("after
@@ -235,8 +235,8 @@ The compliance stamp is the kit's closing line (`▸ COMPLIANCE`) — or the Des
   the LAYOUT QUOTA met?
 - Fillable pages genuinely fillable (lines, boxes, squares at real sizes); the worksheet one page with
   its own footer; the checklist 8–14 verb-led items with real boxes (the FRIDGE TEST)?
-- The where-to-ask page present with the weekly call, the first 1:1 and the first session, the first
-  lesson, the group chat, the booking line and the who-to-ask line — from the kit, unset lines as "ask
+- The where-to-ask page present with the weekly call, the first lesson and the day-30 self-check, the first
+  lesson, the community, the booking line and the who-to-ask line — from the kit, unset lines as "ask
   me"?
 - No compensation or income word anywhere; no outcome promise; former brokerages never named; agent
   examples with consent only?

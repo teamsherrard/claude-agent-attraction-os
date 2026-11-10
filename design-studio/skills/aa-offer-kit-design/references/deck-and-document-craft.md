@@ -128,7 +128,7 @@ verbatim. One page, always; every word the kit's.
 3. **Day 1** — the `Day 1 checklist:` (five lines) as a checklist with real checkbox squares, each line's
    bold lead-in kept as the kit writes it.
 4. **The first lesson and the calendar** — `First lesson:` as the page's one idea; `Calendar:` as a
-   designed strip (the weekly call · the first 1:1 · the first Saturday or session), link slots left
+   designed strip (the weekly call · the first lesson · the day-30 self-check), link slots left
    blank for the member to fill.
 5. **Your first 30 days** — slide 8's four weeks (THE CALL DECK, SLIDE BY SLIDE) as four designed rows;
    omitted when the kit's slide 8 is honestly empty — never invented.

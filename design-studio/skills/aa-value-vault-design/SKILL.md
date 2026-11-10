@@ -138,7 +138,7 @@ comes after).
    sheet, the script, the checklist — a file or pasted; **required**; never written by you) · the
    recording's name and where it lives (a link — or "not recorded yet": the title card comes first so
    they record with it) · the product's cover (found in the project or the Offer folder, or designed
-   here and announced as canonical) · the group chat's name and how a partner gets in, when chapter 2's
+   here and announced as canonical) · the community's name and how a partner gets in, when chapter 2's
    stack rows don't say · real photos, dropped into the CHAT (the member teaching, their agents at a
    training with permission — never stock) · anything to feature or avoid. One confirmation line above
    it ("From your kit: 'The 7 pm Follow-Up Sheet' · version one · the sheet plus a 12-minute recording ·
@@ -317,9 +317,9 @@ compliance line; they say the same thing. Read it first:
    brokerages never named; agent examples with consent only; the member's own method only.
 4. The template locked and held across every page; the LAYOUT QUOTA met; fillable pages genuinely
    fillable; the FRIDGE TEST on every one-page sheet and on the checklist.
-5. The where-to-ask page and the roadmap's "where to show up" card carry the weekly call, the first 1:1
+5. The where-to-ask page and the roadmap's "where to show up" card carry the weekly call, the first lesson
    and the first session from `Calendar:`, the first lesson from `First lesson:`, the booking line and
-   the group chat — from the kit; unset lines written as "ask me".
+   the community — from the kit; unset lines written as "ask me".
 6. Every PDF's pages in reading order, complete, nothing outside the page edge; every picture ONE
    inline `<svg data-file="…">` at its exact size.
 7. Real photos only; zero app UI; never a drawn seal that mimics an official body.

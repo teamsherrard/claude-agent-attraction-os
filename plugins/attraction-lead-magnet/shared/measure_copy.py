@@ -15,7 +15,7 @@ Exit code 0 always: the skill reads the ✗ lines and fixes the text, then re-ru
 """
 import re, sys
 
-FLOORS = {'magnet': (2200, 4500), 'funnel': (900, 2400), 'email': (120, 2400), 'other': (0, 10**9)}
+FLOORS = {'magnet': (2500, 5500), 'funnel': (900, 2400), 'email': (120, 2400), 'other': (0, 10**9)}
 BAND = re.compile(r'^[A-Z0-9][A-Z0-9 ,.&:\'’—–\-()/]{4,}$')
 LEAKS = [
     (r'\bbeats\b', 'the banned word "beats"'),

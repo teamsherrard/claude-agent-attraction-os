@@ -48,7 +48,7 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - **Why I'm here (one line, out loud):** [the drafted seed from positioning.md — "(drafted — confirm)" until Week 2]
 - **Offer status:** [seeds (Week 2 builds the offer) / finalized by member]
 - **UVP (one line):** [not built yet (Week 2) — `attraction-offer` writes the one-liner here when the offer is finalized: "I help [agent] achieve [outcome] through [mechanism]"]
-- **Program:** [not built yet (Week 2) — `attraction-offer` writes `[name] · [type] · [cadence]` here when the offer is finalized, e.g. "The Sunday Table · mentorship program · Tuesdays 9:00 am, 30 min on Zoom + a Day 1 welcome call"; it mirrors `identity/offer.md → ## The program`, which stays the source of truth]
+- **Program:** [not built yet (Week 2) — `attraction-offer` writes `[name] · [type] · [cadence]` here when the offer is finalized, e.g. "The Sunday Table · mentorship program · Tuesdays 9:00 am, 30 min on Zoom + the community"; it mirrors `identity/offer.md → ## The program`, which stays the source of truth]
 - **Voice in one line:** [from the three spoken answers — e.g., "Calm, practical, teacher energy — never hype"]
 - **This week's activity target:** [proposed at setup: N conversations/week — "set my attraction goals" locks it; then from goals.md]
 - **Organization today:** [N agents] · **12-month target:** [N agents] · **Long-term goal:** [N agents] · **Hours a week:** [N]

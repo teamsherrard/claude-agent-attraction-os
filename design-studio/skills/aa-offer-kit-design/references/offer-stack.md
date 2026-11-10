@@ -77,7 +77,7 @@ set — say the word to change any of these"); every creative choice has a "Deci
 4. **Where will you show it first?** *(multi-select, default all)* — on a call (screen share) · your
    one-pager · your opt-in page · a post. (Decides which version leads.)
 5. **Pictures of the real things** *(optional — drop them into the CHAT, not a form box)* — a
-   screenshot of your weekly call, the group chat, one of your templates. They become the faces of the
+   screenshot of your weekly call, the community, one of your templates. They become the faces of the
    tiers. None → designed objects, which is always better than a fake screenshot.
 6. **Anything to feature or avoid?** *(optional)*.
 
@@ -135,9 +135,9 @@ Map each stack item to a dimensional object so the pile reads as real things, no
 | Item (from chapter 2) | The object |
 |---|---|
 | the digital product — version one (a template plus one short recording) | its 3D mockup from the product mockup piece (a booklet or workbook; a course box only when chapter 2's `Format:` says course AND its `Status:` says built) — the **top tier**; no mockup yet → a designed cover from chapter 2's `Cover line:` and `Subtitle:`, same rules |
-| a weekly call, coaching, a first-week 1:1 | a video-call card: a framed screen carrying the call's name and day |
+| a weekly group call | a video-call card: a framed screen carrying the call's name and day |
 | templates, scripts, checklists, a sheet | a short stack of sheets, the top one titled |
-| a community or group chat | a phone card carrying the group's name |
+| a community | a phone card carrying the group's name |
 | a training library or recordings | a playlist card with three titled rows |
 | onboarding · the first 30 days | a four-week calendar strip |
 | an event, a mastermind, a role-play | a ticket or badge card |

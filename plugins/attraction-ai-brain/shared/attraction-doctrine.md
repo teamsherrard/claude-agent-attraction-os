@@ -347,7 +347,8 @@ program must be something the member builds once and that works without their ti
 course or lessons, templates, scripts, checklists — plus, at most, an online community and one recurring group
 call.* Rules for every skill that writes the offer, the magnet or anything that promotes them:
 - **Every deliverable must work for ten partners as well as for one.** Allowed: short recorded lessons, templates,
-  scripts, checklists, sheets, a community (Skool or Circle), ONE recurring group call, a self-serve Day 1 (a welcome
+  scripts, checklists, sheets, a community (Skool or Circle), a weekly group call ONLY when the member already runs
+  one (never invented as a default — Mike: "no additional effort once it's built"), a self-serve Day 1 (a welcome
   video, the templates, the community invite, the first lesson). Converted, never promised: in-person shadowing → a
   recorded walkthrough of that day; a group chat → the community; 1:1 calls and "I answer my phone" → the weekly
   call and the community; a day-30 1:1 → a recorded day-30 self-check. The skill says in one line what it converted

@@ -229,7 +229,7 @@ Tie it straight back to the reader's pain.
 This is what a recruiting deck can NEVER produce, and what flips the whole page from "pitch" to "real." From
 `offer.md` (`## Support & community`, what's included), `operations.md` (the weekly call, onboarding steps),
 `proof.md` (organization today):
-- **What we do together** — the recurring call (day and what happens on it), the group chat, the training,
+- **What we do together** — the recurring call if any (day and what happens on it), the community, the training,
   recognition. Specific and small is better than big and vague.
 - **Who's in it** — the kinds of agents by stage ("mostly agents in years one to five, a few team leaders");
   the count only if `proof.md` states it, with its date; never "fastest-growing" without a dated source.
@@ -250,7 +250,7 @@ call's length, where, the slots) and `offer.md` ("what the call is"):
 - **The three questions the call answers — `Bullets:`** — the three the reader is actually asking
   (`objections.md`, `avatars.md` → "objections to expect"), one line each.
 - **`How it works:` — exactly three steps to join, in plain words:** grab the guide or book the call → the
-  20-minute call (or the length `operations.md` sets) → onboarding Day 1 (the welcome call, what's handed
+  20-minute call (or the length `operations.md` sets) → onboarding Day 1 (the welcome video, what's handed
   over, the first lesson, the group and the weekly-call invite, the first date on the calendar — the Partner
   Offer's Day 1 sequence, as it's written there).
 - **`What we'll cover:` — five or six bullets in the member's voice:** your business and your week (your

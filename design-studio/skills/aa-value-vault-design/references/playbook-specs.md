@@ -11,7 +11,7 @@ Read in full before building any page.
 | 3 Welcome | the member's headshot in the Design System's frame · `For:` · `Promise:` · the program's one line (`Program:`) · what to do first ("watch the recording, then use the sheet this week") |
 | 4 The recording | the recording title card as a figure · "after this you can…" — the `Outline:` lines, in order, as a numbered list · where to watch (the link in full plain text; "coming" when not yet recorded) · the length ("12 minutes") |
 | 5–n The template | the member's sheet, script or checklist set as the thing itself (§4's script sheet or table on a plate, the member's own note under it); a fillable copy where an agent fills it in; one template per spread at most |
-| n+1 Where to ask | "You're not doing this alone": the weekly call · the first 1:1 · the first session (`Calendar:`) · the first lesson (`First lesson:`) · the group chat or community (chapter 2's stack row, or "ask me") · the booking line (`Call to action:`) · who to message when stuck |
+| n+1 Where to ask | "You're not doing this alone": the weekly call · the first lesson · the first session (`Calendar:`) · the first lesson (`First lesson:`) · the community (chapter 2's stack row, or "ask me") · the booking line (`Call to action:`) · who to message when stuck |
 | Back cover | the organization's logo (or the member's) · the member's name and role · contact in full plain text · the compliance stamp · the one-breath why from chapter 3 when the member wants it |
 
 6–12 pages; one accent; the footer carries `Product:` left and the page number right. Companion picture:
@@ -53,7 +53,7 @@ Three or more RECORDED lessons → the course piece, only when the kit's `Format
 8. **The worksheets** — every fillable sheet the training asks for (§4), each one page.
 9. **The plug-in page** (`13-team-building-duplication/65`) — "You're not doing this alone": the weekly
    call (day · time · link), the community (what it is · how to get in), who to message when stuck, the
-   first three things to do this week, the member's one line. From the kit — `Calendar:` and `First lesson:` (chapter 7, THE WELCOME PACK (DAY 1)), the group chat row of chapter 2's WHAT YOU GET, AND WHAT'S FREE, the booking line (`Call to action:`); anything the kit doesn't carry becomes an "ask me" line.
+   first three things to do this week, the member's one line. From the kit — `Calendar:` and `First lesson:` (chapter 7, THE WELCOME PACK (DAY 1)), the community row of chapter 2's WHAT YOU GET, AND WHAT'S FREE, the booking line (`Call to action:`); anything the kit doesn't carry becomes an "ask me" line.
 10. **Back cover** — the organization's logo (or the member's), the member's name and role, contact in
     full plain text, the compliance line, the one-breath why from the Book.
 

@@ -77,7 +77,7 @@ Fold in everything `offer.md` already lists (the deliverables table first — ea
 Format column says what is recorded); ask only what's missing:
 1. *"What do you have that doesn't take your time — recordings, templates, docs, a checklist, a group you
    don't personally run? 'Nothing yet' is normal."*
-2. *"What takes your time — a weekly call, 1:1s, something you do for people? And is there a team behind
+2. *"Is there anything you already run live every week — a group call? (1:1s, shadow days and group chats never go in the offer — they become recorded lessons and the community.) And is there a team behind
    any of it (an editor, a designer, a VA)?"*
 3. *"Anything you sell, or plan to sell, to agents — coaching, a course, a service? Real price, if there
    is one."*
@@ -182,7 +182,7 @@ lives inside it (Part A) — no separate brief file.
 
 ## Silent mode (called by `attraction-offer` at the end of the offer session, or by `attraction-week3-kit`)
 No orientation line, no questions: Stop 1's four answers are decided from the Brain — (1) and (2) from the
-deliverables table and `## Structure` (recorded or a document = no time; a call, a 1:1, a Saturday = time);
+deliverables table and `## Structure` (recorded or a document = no time; the weekly group call the member already runs = the one live thing allowed; a 1:1 or a Saturday never appears — it is converted, doctrine §10e);
 (3) "nothing I sell to agents today" unless `06 · Materials`, `proof.md` or `strategy.md` name a priced course,
 coaching or service, in which case that item is `discounted` with its real price and an open item to confirm the
 discount; (4) the product = the smallest real thing: the template or sheet the member already hands over, plus ONE

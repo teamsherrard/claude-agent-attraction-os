@@ -109,7 +109,7 @@ This plugin writes **words, structure, and strategy**: the magnet's content, the
 copy, the emails, the DMs, the briefs. It **never** renders a page, a PDF, an image, or a mockup, and never
 publishes anything live.
 
-- The deliverable ends at the **copy + structure**. At the end of the Week 2 session the guide and the page go into
+- The guide is the member's whole method as a blueprint, individually built from their own framework (the "effectively done" gate in `lm-magnet`; Mike, 2026-11-10). The deliverable ends at the **copy + structure**. At the end of the Week 2 session the guide and the page go into
   the member's **Week 3 Kit** — the one file they upload to Claude Design in Week 3: `lm-package` writes the lead
   magnet half (the guide's outline and brief, the page word for word, the bios, the messaging — the one place this plugin
   writes design direction) and the Brain's `attraction-week3-kit` saves the one file, offer and lead magnet together.
