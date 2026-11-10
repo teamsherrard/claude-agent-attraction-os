@@ -410,8 +410,8 @@ READS = {
 }
 SYS_ACTIONS = {
     'brand': [('show my design package brief', 'Re-opens the brief to paste into Claude Design.'), ('update my attraction brand direction', 'Change anything: a colour, the tagline, the logo call.')],
-    'offer': [('refine my partner offer', 'Change the name, the steps, the first 30 days, the weekly rhythm. One card, say yes.'), ('build my Week 3 kit', 'The one file for Claude Design in Week 3: your offer, everything that promotes it, and your guide and page once they are written.'), ('paste my compliance link', 'Closes the open question on join-gated packages from your brokerage’s own rules.')],
-    'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('add my guide to my kit', 'Puts the guide and the page into your Week 3 Kit, the one file for Claude Design.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.')],
+    'offer': [('refine my partner offer', 'Change the name, the steps, the first 30 days, the weekly rhythm. One card, say yes.'), ('build my Week 3 kit', 'Your Week 3 Kit: the offer, everything that promotes it, and the lead magnet chapters once they are written. In Week 3 you upload it with your guide to Claude Design.'), ('paste my compliance link', 'Closes the open question on join-gated packages from your brokerage’s own rules.')],
+    'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('add my guide to my kit', 'Refreshes the lead magnet chapters of your Week 3 Kit; in Week 3 you upload the kit with your guide.'), ('update my attraction bios', 'Rewrites your bios for every platform; chapter 6 of the kit follows.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.'), ('what do I upload to Claude Design', 'Hands back your Week 3 Kit and names the guide beside it.')],
     'short-form': [('set up my attraction short-form', 'The whole Week 3 journey in one sitting, with nothing re-asked.')],
     'youtube': [('set up my YouTube for agents', 'One channel question, then no stops: the channel, the Game Plan, the board, the workflows, the first video.')],
     'conversion': [('launch conversion', 'Reads your Brain and your Top 50 and routes you: a call tomorrow, an objection you heard, a pasted transcript.'), ('set up my sales system', 'The Partner Call machine: the booking calendar, the application questions, the pipeline stages in your CRM, the reminders.')],
@@ -437,7 +437,7 @@ INNER = [
      [('refresh my attraction voice print', 'After a few weeks of content, re-read how you actually talk.'), ('add my writing samples to my attraction brain', 'A text, a caption, an email, a post: how you write to agents.')], 'identity/voice.md', ()),
     ('whats-next', 'WHAT’S NEXT', 'What’s next', 'Rewritten every time a week lands', [], [], '', ()),
 ]
-FUNNEL_ORDER = ['Hero — the pre-headline, your video, the attraction line, and the opt-in button.', 'Problem — the pain in the agent’s own words.', 'Product — the guide and what’s inside; the opt-in button again.', 'Who I am.', 'Journey — your story, the turning point.', 'Offer — what you teach and your weekly call, in the register your brokerage allows.', 'Why join me — the lesson and the mentorship, never a package.', 'Proof — your results as your Brain states them; a partner’s result only with their written OK.', 'The organization — what you do together, and who’s in it.', 'Book a call — the second path, for the agent who is already ready.', 'Opt-in — the last button, the same words every time.']
+FUNNEL_ORDER = ['Hero — the pre-headline, your video, the attraction line, and the opt-in button.', 'Problem — the pain in the agent’s own words.', 'Product — the guide and what’s inside; the opt-in button again.', 'Who I am.', 'Journey — your story, the turning point.', 'Offer — the program and what you get, in your register.', 'Why join me — your story, and why you do this.', 'Proof — your results as your Brain states them; a partner’s result only with their written OK.', 'The organization — what you do together, and who’s in it.', 'Book a call — the second path, for the agent who is already ready.', 'Opt-in — the last button, the same words every time.']
 
 def state_of(sysid, ctx):
     """built · now · soon for a system, from the Brain's own files (then capped by the cohort week)."""
@@ -541,19 +541,46 @@ def build_outer(ctx):
                 body = status_rows([('The offer card: an outcome-based name with two alternates, the type, who it is for, the 90-day outcome, the format and cadence, a named framework of 3 to 7 steps', 'soon', 'shown, not asked'), ('The Partner Offer document (agent-facing), and your Week 3 Kit with your pages: how to create it, start with your upline, the brokerage rule, where to host it, the marketing language, your content branches', 'soon', '')]) + ('\n\n## What it will build from\n' + seeds if seeds else '')
         elif sysid == 'lead-magnet':
             if st in ('built', 'now'):
+                lm = ctx['lm']
                 title = 'Your lead magnet and its funnel'
                 tag = ('%s, written. The funnel is live.' % mag['name']) if st == 'built' else ('%s, written. The funnel is not live yet.' % (mag['name'] or 'Your guide'))
-                line = 'The guide is written; the funnel is live.' if st == 'built' else 'The guide is written. Design, the page and delivery are left.'
-                rows = [('Your Partner Offer', 'done' if ctx['offer_built'] else 'soon', offer['name'] or ''), ('ONE lead magnet recommended; you said yes', 'done', mag['name'] or ''), ('The guide, written', 'done' if mag['status'] in ('written', 'designed', 'live') or mag['name'] else 'soon', ''), ('The guide, designed in Claude Design', 'done' if mag['status'] in ('designed', 'live') else 'soon', ''), ('The opt-in page, live', 'done' if st == 'built' else 'soon', mag['funnel'] if mag['funnel'] and 'not live' not in mag['funnel'] else 'the outline is the copy; the design keys on it'), ('Delivery: the keyword flow, the delivery email, the 3-frame story', 'done' if st == 'built' else 'soon', '')]
-                body = ('>> By the end of this week you have ONE lead magnet, written and designed, with its funnel outline — and your unique value proposition broken down: your offer explained in detail and how to create it, its name, the marketing language to use, and where to host it.\n@note: Mike’s words for Week 2.\n\n' if (ctx['week'] or 0) <= 2 else '') + '## Where it stands\n' + status_rows(rows)
-                body += '\n\n## The guide\n' + '\n'.join('| %s | %s |' % kvp for kvp in [('Name', mag['name'] or '—'), ('Keyword', (mag['keyword'] + ' — “Comment %s and I’ll send it.” It never changes once content has used it.' % mag['keyword']) if mag['keyword'] else '—'), ('For', mag['for'] or '—'), ('Funnel', mag['funnel'] or 'not live yet'), ('Download', mag['download'] or 'not live yet')] if kvp[1])
-                body += '\n\n## The funnel outline: the opt-in page, in the order it reads\n' + '\n'.join('%d. %s' % (i + 1, t) for i, t in enumerate(FUNNEL_ORDER)) + '\n\nEvery opt-in button opens the one pop-up (first name, email, phone). Submitting lands on the thank-you page with the instant download and the invitation to a call. The compliance stamp is the footer of both.'
+                if st == 'built': line = 'The guide is written; the funnel is live.'
+                elif lm['kit_date']: line = 'The guide, the page outline and your Week 3 Kit are written. Week 3 designs them.'
+                else: line = 'The guide is written. Design, the page and delivery are left.'
+                guide_done = bool(mag['status'] in ('written', 'designed', 'live') or mag['name'] or lm['guide_file'])
+                outline_done = bool(lm['sections'] or lm['funnel_file'])
+                files_rows = [('Your Partner Offer', 'done' if ctx['offer_built'] else 'soon', (offer['name'] + ' · your Offer folder') if (ctx['offer_built'] and offer['name']) else ('your Offer folder' if ctx['offer_built'] else 'say “build my partner offer”')),
+                              ('Your guide', 'done' if guide_done else 'soon', ((mag['name'] + ' · ') if mag['name'] else '') + 'Content → Guides · export it as a PDF this week' if guide_done else 'written in your lead magnet sitting'),
+                              ('Your Week 3 Kit', 'done' if lm['kit_date'] else 'soon', ('your home base folder, beside your Brain Book · built ' + long_date(lm['kit_date'])) if lm['kit_date'] else 'built at the end of your lead magnet sitting')]
+                rows = [('ONE lead magnet recommended; you said yes', 'done', mag['name'] or ''),
+                        ('The guide, written', 'done' if guide_done else 'soon', ''),
+                        ('The sales funnel outline, written', 'done' if outline_done else 'soon', 'the words for your opt-in page, inside the kit' if outline_done else ''),
+                        ('Your bios, written', 'done' if lm['bios'] else 'soon', 'chapter 6 of your kit, sized to each platform' if lm['bios'] else ''),
+                        ('Your Week 3 Kit, built', 'done' if lm['kit_date'] else 'soon', ''),
+                        ('The guide, designed in Claude Design', 'done' if mag['status'] in ('designed', 'live') else 'soon', 'Week 3'),
+                        ('The opt-in page, live', 'done' if st == 'built' else 'soon', mag['funnel'] if mag['funnel'] and 'not live' not in mag['funnel'] else 'Week 3 — the outline is the copy'),
+                        ('Delivery: the keyword flow, the delivery email, the 3-frame story', 'done' if (st == 'built' or lm['delivery']) else 'soon', '' if (st == 'built' or lm['delivery']) else 'say “deliver my guide”')]
+                body = ('>> By the end of this week you have ONE lead magnet, written and designed, with its funnel outline — and your unique value proposition broken down: your offer explained in detail and how to create it, its name, the marketing language to use, and where to host it.\n@note: Mike’s words for Week 2.\n\n' if (ctx['week'] or 0) <= 2 else '')
+                body += '## Your three files\n' + status_rows(files_rows) + '\n\n## Where it stands\n' + status_rows(rows)
+                body += '\n\n## The guide\n' + '\n'.join('| %s | %s |' % kvp for kvp in [('Name', mag['name'] or '—'), ('Keyword', (mag['keyword'] + ' — “Comment %s and I’ll send it.” It never changes once content has used it.' % mag['keyword']) if mag['keyword'] else '—'), ('For', mag['for'] or '—'), ('Where', 'Content → Guides · the Word file; export it as a PDF and share it “anyone with the link”'), ('Funnel', mag['funnel'] or 'not live yet'), ('Download', mag['download'] or 'not live yet')] if kvp[1])
+                body += '\n\n## Your Week 3 Kit\n'
+                if lm['kit_date']:
+                    body += 'In your home base folder beside your Brain Book, built %s. In Week 3 you upload it with your guide to Claude Design, with your brand brief. Eight chapters, each on its own page, under 25 pages:\n' % long_date(lm['kit_date'])
+                    body += '\n'.join('%d. %s' % (n + 1, c) for n, c in enumerate(['Summary — the whole week on two pages', 'Your Offer — the program, what you get, what’s free, proof, why now', 'Why Join Me — your statement and the words to use', 'Lead Magnet — the idea, the outline, the design brief', 'Sales Funnel — your page word for word, and how to build it', 'Bios — every platform, ready to paste', 'Design Assets — the one-pager, the stack, the deck, six posts, the pop-ups, every call to action', 'Your Notes — assumptions, how to create it, hosting, content branches']))
+                else:
+                    body += 'Built at the end of your lead magnet sitting: the offer chapters, your guide’s outline, your page, your bios and the design briefs in one file you upload with your guide to Claude Design in Week 3. Say “rebuild my kit” any time something changes.'
+                body += '\n\n## The sales funnel outline: your opt-in page, in the order it reads\n'
+                if lm['sections']:
+                    body += '\n'.join('%d. %s — %s' % (n, nm.lower().capitalize(), hl) if hl else '%d. %s' % (n, nm.lower().capitalize()) for n, nm, hl in lm['sections'])
+                else:
+                    body += '\n'.join('%d. %s' % (i2 + 1, t) for i2, t in enumerate(FUNNEL_ORDER))
+                body += '\n\nEvery opt-in button opens the one pop-up (first name, email, phone). Submitting lands on the thank-you page with the instant download and the invitation to a call. The compliance stamp is the footer of both.'
                 mg = ctx['files'].get('memory/magnets.md', '')
                 if mg: body += '\n\n## On file\n' + md_to_book(mg, demo, drop_sections=('Current magnet', 'Intake'))
             else:
                 tag = 'Week 2: ONE guide, written and designed, with its funnel. Built from your offer.'
                 line = 'ONE guide and its funnel, built from your offer. Week 2.'
-                body = status_rows([('ONE lead magnet recommended from your offer; you say yes', 'soon', 'never three to choose from'), ('The guide, written in your voice', 'soon', ''), ('The sales funnel outline: the opt-in page, the pop-up, the thank-you page', 'soon', ''), ('Your guide and page go into your Week 3 Kit, the one file for Claude Design', 'soon', ''), ('The delivery flow and the nurture', 'soon', '')]) + '\n\n## What lands on this board when it’s done\nThis dot turns amber while the funnel is being built, then green when it is live.'
+                body = status_rows([('ONE lead magnet recommended from your offer; you say yes', 'soon', 'never three to choose from'), ('The guide, written in your voice', 'soon', ''), ('The sales funnel outline: the opt-in page, the pop-up, the thank-you page', 'soon', ''), ('Your bios, every platform', 'soon', ''), ('Your Week 3 Kit — the offer, the guide’s outline, the page, the bios and the design briefs in one file; upload it with your guide in Week 3', 'soon', ''), ('The delivery flow and the nurture', 'soon', '')]) + '\n\n## What lands on this board when it’s done\nThis dot turns amber while the funnel is being built, then green when it is live.'
         elif sysid == 'short-form':
             tag = 'Lights up in Week 3. This page shows what the system will hand you and what it already knows about you.' if st == 'soon' else 'Your pillars, your calendar and your weekly rhythm, from your Brain.'
             line = 'Your pillars, a 30-day calendar and the board. Lights up in Week 3.' if st == 'soon' else 'Pillars, the 30-day calendar and the board are built.'
@@ -804,7 +831,8 @@ def build_extras(ctx):
         f = latest_export(ctx['brain'], prefix)
         if f: docs.append('| %s | %s · %s |' % (label, where_, ('rendered ' + long_date(date_in(os.path.basename(f)))) if date_in(os.path.basename(f)) else 'on file'))
     if ctx['brand']['brief_date']: docs.append('| The Design Package brief | home base → 02 · Brand · issued %s |' % long_date(ctx['brand']['brief_date']))
-    if ctx['magnets']['name']: docs.append('| %s, your guide | your Lead Magnet folder · %s |' % (ctx['magnets']['name'], ctx['magnets']['status'] or 'written'))
+    if ctx['magnets']['name']: docs.append('| %s, your guide | Content → Guides · %s |' % (ctx['magnets']['name'], ctx['magnets']['status'] or 'written'))
+    if ctx.get('lm', {}).get('kit_date'): docs.append('| Your Week 3 Kit | home base → 01 · AI Brain · built %s |' % long_date(ctx['lm']['kit_date']))
     cfgmd = ctx['files'].get('config.md', '')
     provider = {'google': 'Google Drive', 'microsoft': 'OneDrive'}.get((ctx['config']['provider'] or '').split(' ')[0].lower(), 'your cloud workspace')
     dbtask = clean(kv(cfgmd, 'Daily Debrief task'), demo).lower()
@@ -988,6 +1016,28 @@ def main():
             ctx['magnets']['name'] = m.group(1).strip(); ctx['magnets']['keyword'] = m.group(2) or ''
             ctx['magnets']['funnel'] = 'not live yet' if 'not live' in ctx['brain_magnet'].lower() else (re.search(r'https?://\S+', ctx['brain_magnet']).group(0) if re.search(r'https?://\S+', ctx['brain_magnet']) else '')
     ctx['pillars_md'] = files['identity/content-pillars.md']
+    files.setdefault('identity/profiles.md', read(os.path.join(brain, 'identity/profiles.md')))
+    lm = {'guide_file': latest_export(brain, 'lead-magnet-'), 'funnel_file': latest_export(brain, 'opt-in-funnel-'), 'delivery': bool(latest_export(brain, 'delivery-kit-')), 'bios': False, 'kit_date': None, 'sections': []}
+    prof_md = files.get('identity/profiles.md', '')
+    lm['bios'] = bool(latest_export(brain, 'platform-profiles-')) or (bool(prof_md.strip()) and not is_template(prof_md) and '[' not in prof_md[:400])
+    kf = latest_export(brain, 'week3-kit-')
+    kd = date_in(os.path.basename(kf)) if kf else None
+    if not kd: kd = date_in(md_section(files['identity/offer.md'], 'Week 3 Kit'))
+    if not kd:
+        mk = re.search(r'Kit doc:\s*(20\d\d-\d\d-\d\d)', files.get('memory/magnets.md', ''))
+        kd = date_in(mk.group(1)) if mk else None
+    lm['kit_date'] = kd
+    if lm['funnel_file']:
+        cur = None
+        for ln in read(lm['funnel_file']).split('\n'):
+            t = ln.strip()
+            m1 = re.match(r'^(?:─+\s*)?SECTION\s+(\d+)\s+—\s+([^─\n]+?)\s*(?:─+)?$', t)
+            if m1:
+                cur = [int(m1.group(1)), m1.group(2).strip(), '']; lm['sections'].append(cur); continue
+            if cur is not None and not cur[2]:
+                m2 = re.match(r'^Headline:\s*(.+)$', t)
+                if m2: cur[2] = clean(m2.group(1), demo)
+    ctx['lm'] = lm
     ctx['pipeline'] = parse_pipeline(files['memory/pipeline.md'], demo)
     ctx['org'] = parse_org(files['memory/organization.md'], demo)
     ctx['debrief'] = parse_debriefs(files['memory/debriefs.md'], demo)

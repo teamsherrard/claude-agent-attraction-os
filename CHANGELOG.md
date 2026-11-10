@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.24.1] — 2026-11-09
+
+**Brain Board: the Lead Magnet page now shows the whole Week 2 (Brain 0.9.4).** The page opens with "Your three files"
+(the offer, the guide, the Week 3 Kit — each with where it lives and a tick), "Where it stands" gains the sales
+funnel outline, the bios and the kit as their own rows, a "Your Week 3 Kit" section lists the eight chapters and the
+build date, and the funnel outline prints the member's REAL section headlines from the page text (the generic
+descriptions only when no page exists yet; their wording is register-neutral now). The documents table lists the kit;
+the lead magnet actions add "update my attraction bios" and "what do I upload to Claude Design". Found during the
+live demo: the board had rendered the old generic page after the sitting, so the kit and the bios were invisible.
+
 ## [0.24.0] — 2026-11-09
 
 **The Design Studio comes to main, rewired for the three Week 3 files (Support 0.1.20).** The ten Claude Design skills
