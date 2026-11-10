@@ -2,6 +2,20 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.23.2] — 2026-11-09
+
+**Chapter 7 gets the social posts and every call to action (Brain 0.9.2 · Lead Magnet 0.12.2).** The Week 3 Kit's
+Design Assets chapter now carries six social graphic post outlines (the guide carousel · five problems, five fixes ·
+my story · what you get · proof · book the call, with slides, captions and sizes) and a CALLS TO ACTION table: the
+guide ask and the call ask for captions, the two comment keywords (GUIDE and the offer's word), mid-video pop-ups,
+spoken lines, end cards, stories, the bio link and the DM reply, with pop-up rules (six words, three seconds, never
+over the face, the name card in the first three seconds). The design brief orders the posts and a transparent pop-up
+set. The page budget is now measured, not guessed: a full demo kit rendered through Pages lands at 370 words a page
+plus the cover and the contents page, so the kit holds at most 8,500 words; chapter targets re-set (7 ≤ 1,900),
+chapter 5 no longer repeats the outline chapter 1 carries, chapter 8's content branches are names only, chapter 4's
+picture ideas sit in the outline, bios capped (LinkedIn About 900 characters, Google 500). Fixed: the bios band label
+that exceeded the renderer's 80-character cap and printed as body text. Demo build: 8,595 words → 25 pages.
+
 ## [0.23.1] — 2026-11-09
 
 **Shorter chapter names (Brain 0.9.1 · Lead Magnet 0.12.1).** The kit's contents page now reads: Summary · Your Offer · Why

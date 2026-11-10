@@ -75,11 +75,10 @@ three chapters — `CHAPTER 4`, `CHAPTER 5` and `CHAPTER 6`, CAPS bands wrapped 
 in the rendered kit; the Brain's kit builder inserts them between its chapter 3 and chapter 7 — and **every heading
 inside a chapter is a sub-band `──── LIKE THIS ────`**. **The guide's full copy is NOT in the kit**: the guide is its own
 file and is uploaded beside the kit; chapter 4 carries the idea the member said yes to and why (from the intake block's
-Built from and Lane, in plain words), the outline, the picture idea for each page and the design brief (≤ 450 words).
-Chapter 5 is the page word for word (as written, ≤ 2,400 words) plus the words for the guide, the DMs when written and
-the build notes (≤ 300 more); chapter 6 is the bios from the profiles text (≤ 700 words). The
-outline block and the structure block are also copied by the kit builder into chapter 1, the member's two-page summary,
-so write them tight: one line per page, one line per section with its headline. Never a line of copy in capitals; never a `[` bracket token; no skill ids
+Built from and Lane, in plain words), the outline with each page's picture idea, and the design brief (≤ 700 words).
+Chapter 5 is the page word for word (as written, ≤ 2,400 words) plus the words for the guide, the DMs when written and the build notes (≤ 250 more); chapter 6 is the bios from the profiles text (≤ 750 words). The
+outline block is copied by the kit builder into chapter 1, the member's two-page summary, and chapter 1's funnel outline
+is built from the section bands' Headline lines, so chapter 5 never repeats the outline; write the outline tight: one line per page. Never a line of copy in capitals; never a `[` bracket token; no skill ids
 anywhere.
 
 ```
@@ -96,31 +95,23 @@ Hook:
    •  [the cover's three lines]
 Pages:
    •  Cover — [title] · [subtitle] · By [the byline]
-   •  Page 1 — [the opening title, exactly as written]: [one line on what it does]
-   •  Page N — [title, exactly as written]: [one line]      (one per PAGE block, in order)
+      •  Page 1 — [the opening title, exactly as written]: [one line on what it does] · picture: [the Image idea: line, verbatim; the pull quote in brackets after it when the page has one]
+   •  Page N — [title, exactly as written]: [one line] · picture: [ ]      (one per PAGE block, in order)
    •  How [First name] helps next — the close, with the one booking button
    •  The back page — contact, socials, the compliance line
-──── THE PICTURE IDEA FOR EACH PAGE ────
-   •  Page 1 — [the Image idea: line, verbatim]      (one per page that has one; the pull quote in brackets after it when the page has one)
-   •  Page N — [ ]
 ──── DESIGN BRIEF — [GUIDE NAME] ────
 What to build:  a styled PDF of the guide — the cover, one interior page per page in the outline, the closing page, the back page, the compliance footer on every page · a cover image for the opt-in page, Reels and stories (the flat cover page exported from the PDF; a 3D mockup only if the tool exports pictures) · letter or A4, portrait, phone-readable at 100%.
 Who reads it:  [the type of agent, by stage, in one line] · on a phone, from a Reel or a bio link · tone: [the feel from the Design Package brief when it exists — else "calm and useful, never salesy"].
-The brand:  from your Design Package brief (do not improvise) — or, before the Week 3 brand chat, a clean neutral look: the member's headshot, one dark text colour, no accent unless the member names one, the brokerage logo only where compliance requires it. Brokerage mark: [where it must appear — from the compliance file]; the brokerage's own colours are not the palette.
+The brand:  as the offer kit's brief in chapter 7 — your Design Package brief, or the clean neutral look before the Week 3 brand chat. Brokerage mark: [where it must appear — from the compliance file].
 The cover:  the title, the subtitle and the three hook lines exactly as the guide file shows them · "By [Name], [Brokerage as required]" · "Last updated [Month YYYY]" when the guide carries that line. No ranking language, no stars, no "best", no other brokerage's name or logo anywhere.
-The pages:  copy verbatim from the guide file — every word, including the notes in parentheses · one page per section, in order · what the guide shows as a quote is set large; a shaded box is a callout panel; a box list is a real checklist; a line of blanks is a fill-in row; a shaded speech line is a message bubble; small grey text is a footnote · the page the reader will screenshot legible in one phone screenshot · the closing page carries the booking link as the ONE button, plus the social handles · the compliance footer on every page: [the stamp] · photos: the member's headshot on the closing page, real photos of the organization only if supplied — never stock people · body text 11pt or larger.
+The pages:  copy verbatim from the guide file, one page per section, in order · a quote set large, a shaded box as a callout panel, a box list as a real checklist, blanks as fill-in rows, a shaded speech line as a message bubble, small grey text as a footnote · the page the reader will screenshot legible in one phone screenshot · the closing page carries the booking link as the ONE button, plus the social handles · the compliance footer on every page: [the stamp] · the member's headshot on the closing page; real photos only, never stock people · body text 11pt or larger.
 The mockup:  the flat cover as its own page in the PDF (export that page as the cover image) · if the tool exports pictures: a square crop for Instagram, a 9:16 crop for stories, a 3D booklet mockup with a soft shadow.
 When it's done:  save the PDF and any cover images into your Guides folder · share the PDF "anyone with the link" — that link is the thank-you page's download button · tell me "the PDF is done".
 
 ────────────────────────────────────────────
 CHAPTER 5 — SALES FUNNEL
 ────────────────────────────────────────────
-──── THE STRUCTURE ────
-The page reads in this order; every opt-in button opens the one pop-up; submitting lands on the thank-you page.
-   •  1 Hero — [its headline] · 2 The problem — [headline] · 3 The product — [headline] · 4 Who I am — [headline] · 5 The journey — [headline] · 6 The offer — [headline] · 7 Why join me — [headline] · 8 Proof — [headline] · 9 The organization — [headline] · 10 Book a call — [headline] · 11 The opt-in — [headline]      (one line per section)
-   •  The pop-up: first name · email · phone (optional) · the reassurance line · the button
-   •  The thank-you page: the confirmation · the instant download button · the call, offered · where to find me · the footer
-The copy follows, word for word, exactly as the sales funnel outline reads.
+The copy follows, word for word, exactly as the sales funnel outline reads; chapter 1 of the kit carries the one-line-per-section outline.
 ──── SECTION 1 — HERO ────
 [verbatim]
 ... (every section band, THE OPT-IN POP-UP, THE THANK-YOU PAGE and FOOTER, verbatim, in order)
@@ -129,10 +120,10 @@ Headline:  [the hero headline] · Pre-headline:  [ ] · Subhead:  [ ] · Attract
 CTA button:  "Get the Free Guide" · Keyword:  GUIDE
 The call:  [the closing page's call to action — the booking link, or the Reach: answer (the email or the @handle) exactly as the guide carries it]
 The DM and the delivery email:  [the Delivery Kit's comment reply, DM 1–3, the delivery email, the 3-frame story — verbatim — or the one honest line: "not written yet — say 'deliver my guide' and they join this chapter"]
-Words we don't use:  no compensation, splits, revenue share, stock or income figures anywhere public · no ranking, no stars, no "best", no other brokerage's name or logo · [the register line — at yes or unknown: "the program is what an agent receives when they partner with me" · at no: "every public line is what I teach, my story and how I mentor"] · no invented urgency · the type of agent is a career stage, production level, model or mindset — never a protected characteristic.
+Words we don't use:  the rules in chapter 7's design brief and the register line in chapter 2 · no invented urgency · the type of agent is a career stage, production level, model or mindset — never a protected characteristic.
 ──── HOW TO BUILD THE PAGE ────
 In Claude Design:  sections in the order above, copy verbatim, every section's own headline · the Hero's video embed, or the cut-out headshot where the Video line says to record · the Book-a-call area as the booking embed or a button to the link · every opt-in button opens the one pop-up (first name · email · phone optional), the button words exactly "Get the Free Guide" · the thank-you page's download is an instant download of the finished PDF, never "check your inbox" · the compliance stamp is the footer of both pages · test-submit the form once before any traffic, then tell me "my funnel is live" with the link.
-If a web person builds it:  a real form on the page itself — first name, email, phone (optional) — that sends the entry to the member before the thank-you shows, never a form drawn by a script after the page loads · a hidden "are you a robot" field, and a plain fallback (the member's email) if the send fails · test-submit once and confirm the entry arrived before any traffic.
+If a web person builds it:  a real form on the page itself (first name, email, phone optional) that sends the entry before the thank-you shows, never drawn by a script after the page loads · a hidden "are you a robot" field and a plain fallback (the member's email) if the send fails · test-submit once before any traffic.
 
 ────────────────────────────────────────────
 CHAPTER 6 — BIOS
@@ -142,12 +133,12 @@ Paste each one into its platform this week. Every bio says who you are, who you 
 [the bio, verbatim — the count under it: "148 characters"]
 ──── FACEBOOK (101 CHARACTERS INTRO · THE ABOUT) ────
 [the intro line and the About, verbatim, counts shown]
-──── LINKEDIN (220-CHARACTER HEADLINE · 2,600-CHARACTER ABOUT) ────
-[the headline and the About, verbatim, counts shown]
+──── LINKEDIN (220-CHARACTER HEADLINE · THE ABOUT) ────
+[the headline and the About, verbatim, counts shown — the About at most 900 characters here (LinkedIn allows 2,600; the kit has a page budget)]
 ──── YOUTUBE (1,000 CHARACTERS) ────
 [the channel description, verbatim, count shown]
-──── TIKTOK · X · THREADS · GOOGLE BUSINESS PROFILE · YOUR BROKERAGE SITE · EMAIL SIGNATURE ────
-[each, verbatim, its limit and count on one line above it — or the one honest line that they are not written yet]
+──── TIKTOK · X · THREADS · GOOGLE BUSINESS · YOUR SITE · EMAIL SIGNATURE ────
+[each, verbatim, its limit and count on one line above it — the Google Business Profile text at most 500 characters, the brokerage-site paragraph at most 60 words — or the one honest line that they are not written yet]
 ```
 
 Write the real values in — never a `[` bracket token. The `──── DESIGN BRIEF — [GUIDE NAME] ────` line is written

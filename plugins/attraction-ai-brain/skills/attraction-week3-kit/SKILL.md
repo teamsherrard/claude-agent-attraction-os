@@ -1,12 +1,12 @@
 ---
 name: attraction-week3-kit
 description: >
-  Builds the member's WEEK 3 KIT: the ONE file they upload to Claude Design in Week 3, saved in their home
-  base folder beside the Brain Book. Part A, the offer: the offer to join me in Mike's anatomy (why join
+  Builds the member's WEEK 3 KIT: the ONE file they upload to Claude Design in Week 3, beside their Brain
+  Book. Part A, the offer: the offer to join me in Mike's anatomy (why join
   me, the one line, why me, the five problems it solves, the value stack with the free line and the
   up-front cost line, the proof plan, why now, what their partners can offer), the digital product kept
   small, the copy for every asset that promotes the offer (one-pager, offer stack, product mockup, call
-  deck, welcome pack, bio line, captions, DM, video script) and the offer-kit design brief. Part B, the
+  deck, welcome pack, six social post outlines, the video pop-ups, every call to action) and the offer-kit design brief. Part B, the
   lead magnet: the guide and the page word for word with their build notes, written by the Lead Magnet
   plugin and included verbatim. Assembled, never rewritten; newest wins; runs on its own after the offer
   session and whenever a part changes. Trigger on: "build my Week 3 kit", "my Week 3 kit", "rebuild my
@@ -92,7 +92,7 @@ CHAPTER 3 — WHY JOIN ME :: the statement, and the words to use
 CHAPTER 4 — LEAD MAGNET :: the idea, the outline, the design brief
 CHAPTER 5 — SALES FUNNEL :: the page, word for word, and how to build it
 CHAPTER 6 — BIOS :: every platform, ready to paste
-CHAPTER 7 — DESIGN ASSETS :: the one-pager, stack, mockup, deck, welcome pack
+CHAPTER 7 — DESIGN ASSETS :: one-pager, stack, deck, posts, pop-ups, calls to action
 CHAPTER 8 — YOUR NOTES :: assumptions, how to create it, hosting, content branches
 [[/TOC]]
 
@@ -112,7 +112,7 @@ Your offer, your guide and your page, on two pages. Everything else in this file
 ──── YOUR LEAD MAGNET ────
 [copied from chapter 4's idea and outline blocks — the title, the promise, who it is for, one line per page — or the one honest line that the lead magnet joins this file at the end of the lead magnet session]
 ──── YOUR SALES FUNNEL OUTLINE ────
-[copied from chapter 5's structure block — the eleven sections one line each with their headline, the pop-up, the thank-you page — or the same honest line]
+[built from chapter 5 — the eleven section bands, one line each with their Headline, then the pop-up and the thank-you page — or the same honest line]
 ──── WHERE EVERYTHING LIVES ────
 •  Your offer — the Partner Offer document, in your Offer folder: the pages you walk an agent through.
 •  Your guide — in your Guides folder: open it in Word or Google Docs and download it as a PDF to hand out this week.
@@ -120,8 +120,8 @@ Your offer, your guide and your page, on two pages. Everything else in this file
 •  This kit — in your home base folder beside your Brain Book: with your guide, the two files you upload to Claude Design in Week 3.
 ──── HOW TO USE THIS IN WEEK 3 ────
 •  Open Claude Design, start one project, and upload three things: this file, your guide, and your Design Package brief (your brand, from the Week 3 brand chat; without it the briefs below use the clean neutral look).
-•  Ask for the pieces one at a time, in this order: the Join My Team one-pager, the offer stack, the product mockup, the guide PDF with its cover, the opt-in page, the thank-you page, then the call deck and the welcome pack. Say "copy verbatim".
-•  Save every file into your drive — the offer pieces in your Offer folder, the guide PDF and its cover in your Guides folder — and tell me "my offer kit is designed" and "the PDF is done".
+•  Ask for the pieces one at a time, in this order: the Join My Team one-pager, the offer stack, the product mockup, the guide PDF with its cover, the opt-in page, the thank-you page, the six social posts, the video pop-up set, then the call deck and the welcome pack. Say "copy verbatim".
+•  Save every file into your drive — the offer pieces, the posts and the pop-ups in your Offer folder, the guide PDF and its cover in your Guides folder — and tell me "my offer kit is designed" and "the PDF is done".
 
 ────────────────────────────────────────────
 CHAPTER 2 — YOUR OFFER
@@ -192,12 +192,12 @@ Why me:  [the differentiator line]
 Call to action:  [the booking line — or "email me at …" / "message me on Instagram @…" exactly as the Brain holds it]
 Compliance:  [the stamp]
 ──── THE OFFER STACK ────
-Stack title:  [the program name]
+Stack title:  [the program name] · the product on top
 Items:
-   •  [each stack row, in order — free first, then included, then discounted — "[what you get] — [the outcome]" with its tag]
+   •  [each row of chapter 2's WHAT YOU GET, AND WHAT'S FREE, in that order — free first, then included, then discounted — shortened to "[what you get] — [the outcome] · [tag]"]
 The free line:  [as chapter 2] · The up-front cost line:  [as chapter 2]
 ──── THE PRODUCT MOCKUP ────
-Product:  [name] · Format:  [ ] · Cover line:  [ ] · Subtitle:  [ ] · Three promises:  [ ] · [ ] · [ ]
+Product:  [name] · Format:  [ ] · Cover line, subtitle and three promises:  as chapter 2
 Status line:  ["Included when you partner with me" · "Coming this quarter" · at the open register: "Free to any agent who asks"]
 ──── THE CALL DECK, SLIDE BY SLIDE ────
    •  Slide 1 — Who I am: [one line from the story's past]
@@ -215,13 +215,48 @@ Welcome letter:  [120 words in the member's voice — what happens today, this w
 Day 1 checklist:
    •  [the five Onboarding: Day 1 lines]
 First lesson:  [the first lesson's name and what it hands over] · Calendar:  [the weekly call · the first 1:1 · the first Saturday or session]
-──── SOCIAL LINES ABOUT THE OFFER ────
-Bio line:  [ ] · Caption 1:  [ ] · Caption 2:  [ ] · Caption 3:  [ ]      (each under 20 words, outcome first, in the register)
-DM:  [the DM line] · Comment keyword:  [the offer's keyword]
-Video script (60 seconds):  [the 60-second why join me, verbatim]
+──── SOCIAL GRAPHIC POSTS ────
+Six posts for the two weeks after your page goes live, one every two or three days, then monthly with new proof. Carousels and single graphics are 1080 by 1350; stories 1080 by 1920, text clear of the top and bottom 250 pixels. One ask per post, from the calls to action below; the stamp on the last slide or in the caption.
+Post 1 — The guide:  a carousel, 5 slides.
+   •  Slide 1:  [the hero's pre-headline — chapter 5, SECTION 1]
+   •  Slides 2 to 4:  [the opt-in's three bullets, one per slide — SECTION 11]
+   •  Slide 5:  Comment [GUIDE keyword] and I'll send it.
+   •  Caption:  [the hero's subhead] + the guide ask
+Post 2 — Five problems, five fixes:  a carousel, 7 slides.
+   •  Slide 1:  [a hook in the agent's words, cut from the first problem's pain line — chapter 2]
+   •  Slides 2 to 6:  [one problem per slide — the pain in the agent's words with the fix under it, chapter 2's five rows in order]
+   •  Slide 7:  the guide ask
+   •  Caption:  [SECTION 2's headline] + the guide ask
+Post 3 — My story:  a carousel, 5 slides, one line per part of the why-join-me statement.
+   •  Slide 1:  [where I was — chapter 3's story-led line]
+   •  Slides 2 to 4:  [what I tried · what changed · where I am now — one line each, figures as proof.md states them]
+   •  Slide 5:  [why I do this, one line] + "If any of this sounds like your year, message me."
+   •  Caption:  [the one-breath statement] + the call ask
+Post 4 — What you get:  a single graphic, the offer stack.
+   •  Title:  [the program name] · Rows:  the stack items above, free first, then included · Footer:  the free line
+   •  Caption:  the up-front cost line + the call ask
+Post 5 — Proof:  a single quote card.
+   •  Quote:  [the member's own result, as proof.md states it] · Under it:  [one more consented line, or the proof plan's one honest line] · the headshot
+   •  Caption:  [the method in one line] + the guide ask      (no result on file yet → the card carries the framework's one line as its steps instead)
+Post 6 — Book the call:  a story and a single graphic.
+   •  Headline:  [SECTION 10's headline] · Three lines:  [SECTION 10's three questions]
+   •  Call to action:  [the booking line] · Story sticker:  "Reply and I'll send you the link."
+   •  Caption:  [SECTION 10's "what the call is" and "what it isn't", in one line] + the booking line
+──── CALLS TO ACTION ────
+Two asks, everywhere. The guide: comment [GUIDE keyword] and the DM sends it. The call: [the booking line]. One ask per piece — the guide in most posts and videos, the call in about one of four and on every proof piece. The same words every time; a keyword never changes once content has used it.
+| Where it goes | Ask for the guide | Ask for the call |
+| Caption, last line | Comment [GUIDE] and I'll send you [the guide, in three words]. | [the booking line, as a sentence] |
+| Comment keywords | [GUIDE] → the DM with the download link | [the offer's keyword] → the one-pager and the invitation to talk |
+| Video pop-up, mid-video | Comment [GUIDE] · free guide | [the call in six words or fewer, from the booking line — "30 minutes · message me", "30-minute call · link in bio"] |
+| Spoken, in the video | "[what the guide holds, one clause]. Comment [GUIDE] and I'll send it." | "If you want to talk through [the thing they bring], [the booking line]." |
+| End card, last 5 seconds | [the guide's title] · Comment [GUIDE] · the stamp | [SECTION 10's headline] · [the booking line] · the stamp |
+| Story | Reply [GUIDE] and I'll send it. | Reply and I'll send you the link. |
+| Bio, the one link | Free guide: [the guide's title] ↓ | [the booking line] |
+| DM, when someone comments | [the Delivery Kit's comment reply — or "not written yet — say 'deliver my guide'"] | "Happy to. Bring [the thing they bring] and [the booking line]." |
+Pop-up rules:  six words or fewer, two lines at most, on screen for three seconds · never over the face, never in the lower quarter of a vertical video where captions sit · the name card, [First Last · Brokerage · City], in the first three seconds of every video · the stamp on every end card · [at the open register: no public line says "join me"] · no public line says what the model pays, ever.
 ──── DESIGN BRIEF — [PROGRAM NAME] OFFER KIT ────
-What to build:  the Join My Team one-pager (letter or A4, portrait, phone-readable) · the offer stack graphic (every item in the order above, every label verbatim, the product on top) · the product mockup (the cover line, the subtitle, the three promises; a flat cover first, a 3D mockup if the tool exports pictures) · the call deck, one slide per line, slide 9 with no figure · the welcome pack as one PDF · square and 9:16 crops of the one-pager's headline and the stack.
-Who sees each:  the one-pager and the stack, an agent weighing a move, on a phone · the deck, a 30-minute call · the welcome pack, a new partner on Day 1.
+What to build:  the Join My Team one-pager (letter or A4, portrait, phone-readable) · the offer stack graphic (every item in the order above, every label verbatim, the product on top) · the product mockup (the cover line, the subtitle, the three promises; a flat cover first, a 3D mockup if the tool exports pictures) · the six social posts (every slide and caption verbatim, 1080 by 1350; the story at 1080 by 1920) · the video pop-up set as PNGs with transparent backgrounds, at 1080 by 1920 and 1920 by 1080: the name card, the guide pop-up, the call pop-up and the two end cards, text verbatim from the calls to action · the call deck, one slide per line, slide 9 with no figure · the welcome pack as one PDF · square and 9:16 crops of the one-pager's headline and the stack.
+Who sees each:  the one-pager, the stack and the posts, an agent weighing a move, on a phone · the pop-ups, inside the member's Reels and videos · the deck, a 30-minute call · the welcome pack, a new partner on Day 1.
 The brand:  from your Design Package brief (logo · colours · fonts · headshot · tagline) — or, before the Week 3 brand chat, a clean neutral look: the member's headshot, one dark text colour, no accent unless named, the brokerage logo only where compliance requires it. Brokerage mark: [where it must appear — from the compliance file]; the brokerage's own colours are not the palette.
 The rules:  copy verbatim from chapters 2, 3 and 7; no compensation, splits, revenue share, stock or income anywhere; no other brokerage's name or logo; no ranking, no "best"; proof lines only as written; real photos only; the compliance stamp on every public piece: [the stamp].
 When it's done:  save every file into your Offer folder · tell me "my offer kit is designed".
@@ -239,7 +274,7 @@ These pages are yours — never handed to an agent.
 ──── THE BROKERAGE RULE, AND WHERE TO HOST IT ────
 [from ## If your brokerage does not allow a join-gated package: the rule in force · what it means for the words · the check, at unknown — three lines] · [from ## Where to host it: the host, the community's name, the 20-minute set-up in four bullets]
 ──── YOUR CONTENT BRANCHES ────
-[from ## Content branches: 5 to 7 segments, each one line: "segment — topic · topic · topic"]
+[from ## Content branches: the 5 to 7 segment names on one line, "segment · segment · segment" — the topics live in your Brain; the Week 3 Short-Form plan and the Week 4 YouTube plan build from them]
 
 ════════════════════════════════════════════
 ▸ COMPLIANCE
@@ -247,23 +282,27 @@ These pages are yours — never handed to an agent.
 ```
 
 ## The page budget (25 pages is the hard cap — the owner's ruling, 2026-11-09)
-Pages ≈ words ÷ 330, plus one for each chapter break. The guide is **not** copied into the kit (it is its own file and
-is uploaded beside the kit); the page copy is. Word targets per chapter: 1 ≤ 450 · 2 ≤ 600 · 3 ≤ 400 · 4 ≤ 450 ·
-5 the page copy as written (≤ 2,400) plus ≤ 300 of words and build notes · 6 ≤ 700 · 7 ≤ 950 · 8 ≤ 700 — about 6,900
-words, 21 pages plus 8 breaks.
+Measured on a real build (2026-11-09, a full demo kit rendered through Pages): **pages ≈ words ÷ 370, plus 2** for the
+cover and the contents page — the chapter breaks are already inside that average. So the kit holds **at most 8,500
+words**. The guide is **not** copied into the kit (it is its own file and is uploaded beside the kit); the page copy is,
+once — chapter 1 carries the one-line outlines, chapter 5 never repeats them. Word targets per chapter: 1 ≤ 650 ·
+2 ≤ 900 · 3 ≤ 550 · 4 ≤ 700 · 5 the page copy as written (≤ 2,400; 1,900 is typical) plus ≤ 250 of words and build
+notes · 6 ≤ 750 · 7 ≤ 1,900 · 8 ≤ 700. A typical build lands near 8,200 words, 24 pages.
 **Measure after assembling**, with the standard library only:
-`python3 -c "import re;t=open('/tmp/kit.txt').read();p=re.split(r'\n─+\n(CHAPTER \d+ — [^\n]+)\n─+\n',t);w=lambda s:len(re.findall(r\"[A-Za-z0-9'’]+\",s));print(w(t),'words total');[print(p[i][:48],w(p[i+1])) for i in range(1,len(p)-1,2)]"`
-Over 7,400 words in total, or a chapter over its target → trim **in this order, once, then re-measure**: the call deck
-to 8 slides · the welcome letter to 100 words · the social lines to one caption · chapter 8's content branches to 5
-segments and its upline block to the three signs · chapter 7's one-pager "What you get" to 4 bullets · chapter 3's
-60-second version dropped (the one-breath stays). **Never trim** the summary, the page copy, the bios, the briefs'
-rules or anything an agent reads. Still over after the pass → deliver, and say in one plain line which chapter is
-long and why ("your page copy runs long because your offer has eight deliverables").
-
+`python3 -c "import re;t=open('/tmp/kit.txt').read();p=re.split(r'\n─+\n(CHAPTER \d+ — [^\n]+)\n─+\n',t);w=lambda s:len(re.findall(r\"[A-Za-z0-9'’]+\",s));print(w(t),'words total — about',w(t)//370+2,'pages');[print(p[i][:48],w(p[i+1])) for i in range(1,len(p)-1,2)]"`
+Over 8,500 words in total, or a chapter over its target → trim **in this order, once, then re-measure**: every post's
+caption to one line · the call deck to 8 slides · the welcome letter to 100 words · chapter 8's upline block to the
+three signs and the verdict · chapter 7's one-pager "What you get" to 4 bullets · chapter 6's LinkedIn About to 120
+words · chapter 3's 60-second version dropped (the one-breath stays). **Never trim** the summary, the page copy, the
+bios' short forms, the calls to action, the briefs' rules or anything an agent reads. Still over after the pass →
+deliver, and say in one plain line which chapter is long and why ("your page copy runs long because your offer has
+eight deliverables").
 
 Write the real values in — never a `[` bracket token in the member's file. A line whose source is honestly empty
 (no consented proof, no priced item) carries its one honest line; it is never invented and never padded. The
-`DESIGN BRIEF —` sub-band lines are written exactly, in capitals (the design skills key on them).
+`DESIGN BRIEF —` sub-band lines are written exactly, in capitals (the design skills key on them). The social posts and
+the calls to action are assembled from lines that already exist — the hero, the opt-in bullets, the five problems, the
+statement, the stack, the keyword and the booking line — never a new claim; the only new words are the ask itself.
 
 ## Step 2 — Save, deliver, log
 1. **Render** with the shared renderer (`shared/doc-formatting.md`):
