@@ -7,10 +7,9 @@ description: >
   up-front cost line, the proof plan, why now, what their partners can offer), the digital product kept
   small, the copy for every asset that promotes the offer (one-pager, offer stack, product mockup, call
   deck, welcome pack, six social post outlines, the video pop-ups, every call to action) and the offer-kit design brief. Part B, the
-  lead magnet: the guide and the page word for word with their build notes, written by the Lead Magnet
-  plugin and included verbatim. Assembled, never rewritten; newest wins; runs on its own after the offer
-  session and whenever a part changes. Trigger on: "build my Week 3 kit", "my Week 3 kit", "rebuild my
-  kit", "what do I upload to Claude Design", "what do I upload for my offer kit".
+  lead magnet: the guide's outline and brief, the page word for word with its build notes and the bios,
+  written by the Lead Magnet plugin and included verbatim. Assembled, never rewritten; newest wins. Trigger on: "build my Week 3 kit", "my Week 3 kit", "rebuild my
+  kit", "what do I upload to Claude Design", "what do I upload for my offer kit", "my offer kit is designed".
 ---
 
 # The Week 3 Kit — the one file for Claude Design
@@ -51,7 +50,7 @@ error is never "no Brain"). Then:
   Offer` (the deliverables, Teach first, Onboarding Day 1, the first 30 days, `Differentiator:`, `Proof plan:`,
   `What my partners can offer:`), `## How to talk about it`, `## Value stack`, `## Digital product`, `## Where to
   host it`, `## What I assumed`, `## How to create it`, `## Start with your upline`, `## If your brokerage does not allow a
-  join-gated package`, `## Content branches` (chapter 6), `## Week 3 Kit` (the last build).
+  join-gated package`, `## Content branches` (chapter 8), `## Week 3 Kit` (the last build).
 - `identity/journey.md` → `## Why join me`. **Not written** → run **attraction-why-join-me** in silent mode now,
   then continue. The statement is the heartbeat of the offer; the kit never ships without it.
 - `## Value stack` and `## Digital product` **empty** → run **attraction-free-vs-paid** in silent mode now, then
@@ -349,3 +348,9 @@ retry loop.
 - [ ] Proof only from the proof file; the proof plan, the free line and the up-front cost line present; the product small
 - [ ] Rendered, uploaded to 01 · AI Brain with the dated name, read back; the older kit trashed; the text kept in exports/
 - [ ] Chat = one line + the link; `## Week 3 Kit` stamped; pushed
+
+## "my offer kit is designed" (Week 3, record only)
+The member says it in Cowork after the Week 3 design session. Stamp `identity/offer.md → ## Week 3 Kit` with
+`Designed: YYYY-MM-DD` (never backwards), **attraction-brain-sync PUSH**, and say one line: *"Recorded — your offer kit is
+designed. Drop every file into your Offer folder and your Brand folder so everything that makes a graphic for you reads
+from there."* No rebuild, no questions.

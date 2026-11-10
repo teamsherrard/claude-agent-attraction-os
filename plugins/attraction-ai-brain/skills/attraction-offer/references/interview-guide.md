@@ -62,10 +62,10 @@ join? Say 'allowed', 'not allowed', or 'I don't know' and I'll check your broker
   question about the name; "yes" takes the first, a pick takes that one, their own words take their own words.
 - **The method in one line** — the named framework and its chain. The step table is in the document.
 - **The lead line is picked, not offered.** The four ways to say it (the UVP in its locked shape, outcome-led,
-  story-led, mechanism-led) are all written — into the document's appendix for content use. The card carries
+  story-led, mechanism-led) are all written — into `offer.md → ## How to talk about it`; the Week 3 Kit's chapter 3 prints them. The card carries
   the outcome-led line; the cover carries the UVP. The member is never shown four options to choose from.
-- **No numbered list, no "what I'm assuming" block, no program essay, no "my pick" lines.** The assumptions are
-  listed exactly once, at the end of the document, under "What I assumed (change any of these)".
+- **No numbered list, no "what I'm assuming" block, no program essay, no "my pick" lines.** The assumptions are listed exactly once, in `offer.md → ## What I assumed`, printed in the Week 3 Kit's chapter 8 — never
+  in the agent-facing document or in chat.
 - **Your turn** is the closing line itself — it names what they can change, so "yes" and "make the call
   Thursdays at 8" are both complete answers.
 - **Demo mode (`Demo brain: yes`)** keeps the `Jack says:` helper line — at most ONE italic line per member

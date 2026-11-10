@@ -51,7 +51,9 @@ line:
   line and the stack, as before.
 - **No `offer.md` at all** → same as seeds, from `profile.md` and `strategy.md` alone.
 The brokerage is part of the value line as the platform, never as the reason: *"you don't just get [the
-brokerage]; you also get…"*.
+brokerage]; you also get…"*. Read the offer header's `Join-gated package allowed:` first: `yes` or `unknown` → that
+value line as written; `no` → the value line is what the member teaches and how they mentor, offered to any agent —
+never "when you join me you get".
 
 ## Step 3 — Build the story (the five parts, Mike's shape)
 Read now, for the build: `identity/proof.md` (agents helped, organization size, reviews from agents — the
@@ -114,8 +116,8 @@ line on where each is used · one line on what sharpens it next (the offer sessi
 session, a story from the bank). Then: *"Anything that doesn't sound like you? Tell me and I'll redo it."*
 
 **No document of its own.** The story lives in the Brain (`journey.md → ## Why join me`), in the Partner Offer's
-appendix (the one-breath statement) and in the Week 3 Kit (the one-breath and the 60-second versions, and the
-60-second script under the social lines). A member finishing Week 2 holds three files — the offer, the guide, the
+appendix (the one-breath statement) and in the Week 3 Kit (chapter 3: the one-breath and the 60-second versions;
+chapter 7's story carousel is cut from it). A member finishing Week 2 holds three files — the offer, the guide, the
 kit — never a fourth.
 
 ## Step 5 — Write to the Brain and push
@@ -139,13 +141,13 @@ the new statement.
 No welcome, no question, no chat delivery of the three versions: build them from the Brain exactly as above
 (the value line from the finalized offer — the program by name, the free line when the stack is built), write
 the `## Why join me` block, push, and hand the three versions back to the caller, which names them in its own
-close (*"your why-join-me story is written — it opens your Week 3 Kit"*). A Brain whose `journey.md` is still a template → tell the caller in one line (it says so to the
+close (*"your why-join-me story is written — it's chapter 3 of your Week 3 Kit"*). A Brain whose `journey.md` is still a template → tell the caller in one line (it says so to the
 member and names "my leader profile"); never interview inside another skill's session.
 
 ## How every output uses this (the payoff)
 Content skills open the "why I joined" video and the first story reel from the 60-second version; call
 prep reads it as the member's own answer to "why you?"; the bio and profile rewrite in Week 2 pull the
-one-breath version; the Week 3 Kit (home base folder) and the Partner Offer's appendix are where the member
+one-breath version; the Week 3 Kit's chapter 3 (home base folder) is where the member
 finds it (the Brain Book does not carry it). None of them invent a reason to join; they read this one.
 
 ## Demo mode

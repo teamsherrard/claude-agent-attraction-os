@@ -11,11 +11,10 @@ itself (`lm-magnet-ideas`, `lm-magnet`), the funnel's product image and WHY PART
 (`cv-presentation`), the content engines' pillars and titles (`sf-gameplan`, `yt-gameplan` — from the content
 branches). The **At a glance** page is the one-page summary those systems can build from.
 
-**The member's own pages (Mike, 2026-11-02).** After the agent-facing document closes on the compliance line,
-the document carries the pages only the member reads — the intangible half of Week 2's outcome: the marketing
-language (in the appendix), how to create the program, how to start with the upline's package, what changes
-when the brokerage does not allow a join-gated package, where to host it, and the content branches. Each is
-one short section, written from `offer.md`, never a lecture.
+**The member's own pages (Mike, 2026-11-02; moved 2026-11-09).** The intangible half of Week 2's outcome — the marketing
+language, how to create the program, how to start with the upline's package, what changes when the brokerage does not
+allow a join-gated package, where to host it, the content branches — is written to `offer.md` and rendered by
+`attraction-week3-kit` as chapter 8 of the Week 3 Kit. It is never in this document, which closes on the compliance line.
 
 **The 2026-10-18 ruling (after a live run):** the old render had the right content and read like a spec —
 numbered caps labels ("1 · THE PROMISE", "2 · WHAT THIS IS"), a taxonomy lecture on what the program is not,
@@ -28,8 +27,8 @@ Written in the member's first-person voice (`identity/voice.md`), fifth-grade re
 features (`04-value-proposition/32`). It is **not the Brain Book**: a legacy render (no `[[TOC]]`, no
 `PART`/`CHAPTER` bands, no `>> ` lines — in a one-off document `>> ` is a script cue, not an insight box).
 
-**Length: the agent-facing document 2,000 to 3,200 words (the cover through YOUR NEXT STEP); the member's own
-pages 900 to 1,800 (the appendix through YOUR CONTENT BRANCHES).** Every section has a floor (below). Under a
+**Length: 2,000 to 3,200 words (the cover through YOUR NEXT STEP); the member's own pages live in the Week 3 Kit, not
+here.** Every section has a floor (below). Under a
 floor, under a range, or a section that is a heading over one line is a FAILED render; over a ceiling is also a
 fail — the document is meant to be read, so prose is cut (never the tables, never a checklist line) and it is
 re-rendered once. The verification gate in `SKILL.md` runs on every build before delivery.
@@ -67,8 +66,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/
   takes `--title` over it) · the UVP one-liner (`--subtitle` dedupes it) · the outcome-led tagline · `by
   [First Last]` · `for [the type of agent, plain words]` · `[Member] · [brokerage — generic if compliance
   requires] · [Month D, YYYY]` · demo only: `Demo: every figure is illustrative`. Seven lines at most.
-- **Section bands**: `────…────` rule, the band text in CAPS, `────…────` rule, blank line. Seventeen bands in
-  the order below — eleven agent-facing, then the member's six. **Never a number, never a middle dot in a
+- **Section bands**: `────…────` rule, the band text in CAPS, `────…────` rule, blank line. Twelve bands in the order below (AT A GLANCE through YOUR NEXT STEP; the member's pages are chapter 8 of the Week 3 Kit). **Never a number, never a middle dot in a
   band** — the headings sell, they do not index. The band names never change with the brokerage register
   (downstream systems key on them); the words inside them do.
 - **Sub-headings** inside a section: `──── Label ────` (label ≤ 80 characters), used for the two tables inside
@@ -305,6 +303,6 @@ sanctioned mention of compensation); another brokerage's name as a comparison; a
 claim not in `proof.md`; a lesson, module, call or product that does not exist and is not marked "built with
 my first partners"; bracketed template text (the Skool placeholder included); a numbered or middle-dotted band;
 a section that is a heading over one line; `>> ` lines; Markdown; the method explained a second time; a list
-of assumptions anywhere but the appendix; "join me and get" in any form at `Join-gated package allowed: no` or
-`unknown`; a platform comparison or a price in Where to host it; a program name that is a club, a portal, a
+of assumptions anywhere but the appendix; "join me and get" in any form at `Join-gated package allowed: no` (at `yes` and `unknown` the join register reads
+consistently); a platform comparison or a price in Where to host it; a program name that is a club, a portal, a
 place or a label.

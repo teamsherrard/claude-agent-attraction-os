@@ -37,8 +37,8 @@ no default magnet; a comparison guide is one shape among many). The three laws:
 Pull the Brain (house rule 2). Read `identity/offer.md` → `Status:`. **Seeds, missing, or placeholders** →
 the offer comes first, in this session: hand to `lm-navigator` Step 1 (it shows the offer card, takes the yes,
 builds the document, and returns here). Never recommend a magnet from an unbuilt offer — there is nothing to
-build it from. Read `memory/magnets.md`: a row `written` or `designed` with no funnel URL → finish that first
-(one line, then `lm-funnel`); a `planned` row with no doc → the pick already happened; confirm it in one line
+build it from. Read `memory/magnets.md`: a row `written` or `designed` whose intake block reads `Funnel doc: —` → finish the page first
+(one line, then `lm-funnel`); `Kit doc: —` → `lm-package`; a `planned` row with no doc → the pick already happened; confirm it in one line
 and hand off. `config.md` → `Demo brain: yes` keeps the whole run in demo mode (no live search; figures tagged
 as the Brain Book spec tags them in anything written to the Brain).
 
@@ -46,7 +46,7 @@ as the Brain Book spec tags them in anything written to the Brain).
 - `identity/offer.md` — **the source of every candidate:** the UVP one-liner (the `## UVP` section's first
   line), the framework (`## The framework` — the named steps, each with what the partner does, what they get
   and the tool or template; the step the `Lead-magnet seed:` line under `## How to talk about it` names — the
-  same step the Partner Offer doc's appendix "For my content" names — is the first candidate), the program
+  step the offer's `Lead-magnet seed:` line names — is the first candidate), the program
   (`## The program` — the name, the type and the 90-day outcome a magnet points toward), `## Structure` (the
   phases — a plan's spine), the Teach-first lessons (lesson 1 first), the seven parts (`## The seven parts`, or the `Core promise · …` line under `## The Partner Offer` on an older offer — core promise, proof,
   support), the five-pains table — which pains the member genuinely solves and with what — and the header's
@@ -181,7 +181,7 @@ Media to Nurture`; the grounding for WHICH magnet, `04-value-proposition/27 — 
 Free vs. Paid`, `/32 — Features vs. Benefits`, `/33 — Building Your Irresistible Offer`; the type's lesson
 (`02-prospect-targeting/21`–`/26`) for the pain. Never a lesson number you haven't seen in the index. The
 navigator writes the lesson into the `## Intake · [Magnet title]` block's `Mike's lesson:` field (so the
-magnet writer carries it into the document's appendix and nothing re-asks it); the member never sees it.
+magnet writer carries it into the kit's chapter 4 ("Why this one") and nothing re-asks it); the member never sees it.
 - Came through `lm-navigator` → it runs the intake (its Step 4) and hands `lm-magnet` the focus plus the answers.
 - Entered directly → run the navigator's intake yourself
   (`${CLAUDE_PLUGIN_ROOT}/skills/lm-navigator/references/intake-questions.md`: saved intake first, at most
@@ -193,9 +193,9 @@ magnet writer carries it into the document's appendix and nothing re-asks it); t
 - A default magnet, or the same recommendation for two members. The card is built from THEIR offer.
 - The next best from the same kind or the same framework step as the recommendation; two versions of one asset.
 - A lesson code, a module name or a lesson title in the member's chat.
-- A title over 12 words, or one in the member's jargon; a title copied from a search result.
+- A title over seven words, or one in the member's jargon; a title copied from a search result.
 - A question box; a message over 120 words; more than two "another idea" rounds.
 - A magnet the member can't teach from experience; a case study without written consent on file.
 - Compensation figures, rankings, a named brokerage, a protected characteristic in the target.
-- A second magnet before the first one's page is live — finish, then start.
+- A second magnet before the first one's page outline is written and in the kit — finish, then start.
 - A lesson citation that doesn't resolve in the index.

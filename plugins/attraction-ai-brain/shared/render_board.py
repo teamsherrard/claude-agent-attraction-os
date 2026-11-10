@@ -528,7 +528,7 @@ def build_outer(ctx):
             if st == 'built':
                 doc = ctx['offer_doc']
                 title = offer['name'] or (doc and doc['name']) or title
-                tag = 'Your Partner Offer: the program an agent partners with you for, and your own pages on how to build it, where to host it and how to talk about it.'
+                tag = 'Your Partner Offer: the program an agent partners with you for; your own pages are chapter 8 of your Week 3 Kit.'
                 line = 'Named, defined and written.' + (' Lives inside %s.' % offer['community'] if offer['community'] else '')
                 if doc and doc['body']:
                     body = ('>> ' + doc['oneliner'] + '\n\n' if doc['oneliner'] else '') + '@toc\n' + doc['body']
@@ -538,7 +538,7 @@ def build_outer(ctx):
                 tag = 'Built in Week 2 from what you can teach: one card, you say yes, the document builds.'
                 line = 'Your program: named, defined and written. Week 2.'
                 seeds = md_to_book(ctx['files'].get('identity/offer.md', ''), demo, keep_sections=('What worked for them', 'The three layers', 'The mistakes agents'))
-                body = status_rows([('The offer card: an outcome-based name with two alternates, the type, who it is for, the 90-day outcome, the format and cadence, a named framework of 3 to 7 steps', 'soon', 'shown, not asked'), ('The Partner Offer document, with your pages: how to create it, start with your upline, the brokerage rule, where to host it, the marketing language, your content branches', 'soon', '')]) + ('\n\n## What it will build from\n' + seeds if seeds else '')
+                body = status_rows([('The offer card: an outcome-based name with two alternates, the type, who it is for, the 90-day outcome, the format and cadence, a named framework of 3 to 7 steps', 'soon', 'shown, not asked'), ('The Partner Offer document (agent-facing), and your Week 3 Kit with your pages: how to create it, start with your upline, the brokerage rule, where to host it, the marketing language, your content branches', 'soon', '')]) + ('\n\n## What it will build from\n' + seeds if seeds else '')
         elif sysid == 'lead-magnet':
             if st in ('built', 'now'):
                 title = 'Your lead magnet and its funnel'
@@ -738,9 +738,9 @@ def derive_open(ctx):
         items.append({'node': 'lead-magnet', 'short': 'Funnel not live', 'text': 'Your funnel is not live. %s is written; the design, the page build and the delivery flow are the steps left.' % (mag['name'] or 'The guide'), 'phrase': 'finish my agent lead magnet'})
     if ctx['offer_built'] and offer['link'] and 'not set up' in offer['link'].lower():
         host = offer['host'].split(' (')[0].strip() or 'your community platform'
-        items.append({'node': 'offer', 'short': host + ' not set up', 'text': '%s is not set up on %s yet. The 20-minute list is on your Partner Offer page under Where to host it.' % (offer['community'] or 'Your community', host), 'how': '20 minutes, by hand; the cohort’s link is in your Week 2 materials'})
+        items.append({'node': 'offer', 'short': host + ' not set up', 'text': '%s is not set up on %s yet. The 20-minute list is in chapter 8 of your Week 3 Kit (Your Notes).' % (offer['community'] or 'Your community', host), 'how': '20 minutes, by hand; the cohort’s link is in your Week 2 materials'})
     if ctx['offer_built'] and offer['join_gated'].lower().startswith('unknown'):
-        items.append({'node': 'offer', 'short': 'The brokerage rule', 'text': 'Your brokerage’s rule on join-gated packages is still being checked. Until the desk confirms, every public line leads with what you teach, your story and your mentorship.', 'phrase': 'paste my compliance link'})
+        items.append({'node': 'offer', 'short': 'The brokerage rule', 'text': 'Your brokerage’s rule on join-gated packages is still being checked. Your offer is written as a join package (Mike’s model) with one check open: confirm with your brokerage’s compliance desk that a package may be offered as a reason to join.', 'phrase': 'paste my compliance link'})
     prof = files.get('identity/profile.md', '')
     m = re.search(r'"([^"\n]{12,})"\s*\(drafted', prof) or re.search(r'"([^"\n]{12,})"[^\n]*drafted — confirm', ctx['book'].get(1, {}).get('body', ''))
     if m:
@@ -800,7 +800,7 @@ def build_extras(ctx):
     while d in daily and daily[d] >= gd['slice_conv']:
         streak += 1; d -= dt.timedelta(days=1)
     docs = []
-    for prefix, label, where_ in (('brain-book', 'Your Agent Attraction Brain Book', 'home base → 01 · AI Brain'), ('partner-offer', 'Your Partner Offer', 'home base → 01 · AI Brain'), ('scorecard', 'Your 90-Day Attraction Scorecard', 'home base → 01 · AI Brain')):
+    for prefix, label, where_ in (('brain-book', 'Your Agent Attraction Brain Book', 'home base → 01 · AI Brain'), ('partner-offer', 'Your Partner Offer', 'home base → 05 · Offer'), ('scorecard', 'Your 90-Day Attraction Scorecard', 'home base → 01 · AI Brain')):
         f = latest_export(ctx['brain'], prefix)
         if f: docs.append('| %s | %s · %s |' % (label, where_, ('rendered ' + long_date(date_in(os.path.basename(f)))) if date_in(os.path.basename(f)) else 'on file'))
     if ctx['brand']['brief_date']: docs.append('| The Design Package brief | home base → 02 · Brand · issued %s |' % long_date(ctx['brand']['brief_date']))

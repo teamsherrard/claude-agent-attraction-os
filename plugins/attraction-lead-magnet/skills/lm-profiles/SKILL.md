@@ -117,7 +117,7 @@ suggest four — the guide · how we work together · the community · the membe
 ## Step 4 — Deliver + write back (atomic)
 1. **No document of its own.** Write the pack as structured text — one `──── PLATFORM (LIMIT) ────` sub-band per
    platform, the paste-ready text, the character count under it as "148 characters" — to
-   `~/attraction-brain/exports/platform-profiles-YYYY-MM-DD.txt` (output standard §6). It becomes **chapter 6 of the Week 3 Kit, "Your bios"**, linked from the kit's contents page; that is where the member finds the bios. On a
+   `~/attraction-brain/exports/platform-profiles-YYYY-MM-DD.txt` (output standard §6). It becomes **chapter 6 of the Week 3 Kit, "Bios"**, linked from the kit's contents page; that is where the member finds the bios. On a
    standalone run, also show the pack in chat as copy blocks (that is how they paste). Compliance stamp per house
    rules #5 (`set` → one reminder).
 2. Write **`~/attraction-brain/identity/profiles.md`** the way the contract says. **First run (the file is absent, OR present with only the template's `[bio]` placeholders — the normal Week 2
@@ -141,6 +141,8 @@ suggest four — the guide · how we work together · the community · the membe
    stack."*
 
 ## Silent mode (called by `lm-navigator` after the page outline, before the kit)
-No welcome, no question, no chat delivery: Steps 0–3 as written (the Brain answers everything — the offer, the market
+No welcome, no question, no chat delivery: Steps 0–3 as written — except Step 1's doctrine line and its
+confirmation are skipped; the identity line is built from the offer's `Bio-safe line:` and `brain.md` without a
+question (the Brain answers everything — the offer, the market
 from `profile.md`, the funnel's call to action and link), Step 4's text to `exports/`, `identity/profiles.md` written
 and pushed, the pack handed to `lm-package`. The navigator's finish line tells the member the bios are chapter 6 of their kit.

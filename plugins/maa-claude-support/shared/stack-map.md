@@ -76,14 +76,14 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Who am I as a leader / my story / my journey / my why" | `attraction-brand-persona` | 1 |
 | "Capture my voice" (spoken) / "add my writing samples" (written) / "add my proof / agents I've helped" | `attraction-voice-print` / `attraction-voice-proof` | 1 |
 | "Add a story to my bank / my story bank" | `attraction-story-bank` | 1 |
-| "My attraction brand direction" / my visual brand / the Design Package brief (the SECOND Week 1 chat, after the Brain) | `attraction-brand-direction` | 1 |
+| "My attraction brand direction" / my visual brand / the Design Package brief (the Week 3 brand chat, alongside Claude Design — never before Week 3) | `attraction-brand-direction` | 3 |
 | "My 60-second why-join-me story" | `attraction-why-join-me` | 1 |
 | "Who should I attract / who does my story speak to / refine my agent avatars" (derived from the Brain — never a type to pick; on demand) | `attraction-persona-map` | 1 |
 | "Who's moving in my market / agent movement / where do agents gather" · "scan agent movement" (the news scan, on demand) | `attraction-prospect-radar` | 1 |
 | "My top 50 / add [name] to my list / who's next" | `attraction-top-50` | 1 |
 | "How does my model actually work / explain rev share / caps / stock" (private-call material) | `attraction-brokerage-model` | 1 |
 | "How do I position my brokerage without pitching / the 2-minute model script" | `attraction-model-positioning` | 1 |
-| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; shown as ONE offer card the member says yes to, then a readable document — a one-page At a glance first, the agent-facing pages 2,000–3,200 words. Since 2026-11-02: the name is outcome-based — the outcome plus the mechanism in an agent's words, two alternates offered, never a club, portal or collective; ONE question when the Brain can't answer it — does the brokerage restrict offering a package as a reason to join (`Join-gated package allowed: yes · no · unknown`; "I don't know" is fine); and the document ends with the member's own pages: how to create it, start with your upline, the brokerage rule, the marketing language, where to host it (Skool recommended, Circle the alternative), the content branches the Week 3–4 plans read first) | `attraction-offer` | 1 |
+| "Build my UVP / my partner offer / my value stack" (Week 2 — the Partner Offer is a program definition: name and type, the framework, the structure, the deliverables, Day 1; shown as ONE offer card the member says yes to, then a readable document — a one-page At a glance first, the agent-facing pages 2,000–3,200 words. Since 2026-11-02: the name is outcome-based — the outcome plus the mechanism in an agent's words, two alternates offered, never a club, portal or collective; ONE question when the Brain can't answer it — does the brokerage restrict offering a package as a reason to join (`Join-gated package allowed: yes · no · unknown`; "I don't know" is fine); and the member's own pages are chapter 8 of the Week 3 Kit, not the document: how to create it, start with your upline, the brokerage rule, the marketing language, where to host it (Skool recommended, Circle the alternative), the content branches the Week 3–4 plans read first) | `attraction-offer` | 1 |
 | "What should I give away vs charge for" | `attraction-free-vs-paid` | 1 |
 | "Run my rev-share scenarios" (illustrative, never a promise) | `attraction-rev-share-calculator` | 1 |
 | "Set my attraction goals / lock my plan / my scorecard / am I on track" (on demand after setup — setup captures only the four numbers) | `attraction-goals` | 1 |
@@ -95,7 +95,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "Run my debrief / what requires my attention today" · the Daily Agent Attraction Debrief | `attraction-debrief` | 1 |
 | "What did Mike say about ___" / "ask Mike" / "which lesson covers ___" | `maa-support-cohort` (the Ask-Mike lane → `shared/kb/kb-index.md`) | 2 |
 | "Help" / "I'm stuck" / any Claude question or breakage | `maa-support-navigator` | 2 |
-| "design my attraction logo" / my style sheet / my brand kit / my offer kit (the stack, the mockup, the one-pager, the deck) / my carousel / my win wall / my video brand kit / my event flyer / my value vault (my playbook, my course, my ebook, my onboarding roadmap) | an `aa-…-design` skill INSIDE Claude Design — `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design` · `aa-offer-kit-design` · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` · `aa-video-kit-design` · `aa-event-design` · `aa-value-vault-design` (the Brain's brand-direction skill writes the Week 1 brief; a thumbnail is a `yt-thumbnail` brief pasted into the brand project in Claude Design) | – |
+| "design my attraction logo" / my style sheet / my brand kit / my offer kit (the stack, the mockup, the one-pager, the deck) / my carousel / my win wall / my video brand kit / my event flyer / my value vault (my playbook, my course, my ebook, my onboarding roadmap) | an `aa-…-design` skill INSIDE Claude Design — `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design` · `aa-offer-kit-design` · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` · `aa-video-kit-design` · `aa-event-design` · `aa-value-vault-design` (the Brain's brand-direction skill writes the Week 3 brief; a thumbnail is a `yt-thumbnail` brief pasted into the brand project in Claude Design) | – |
 | "set up my attraction short-form" (the whole Week 3 journey: profiles → the Game Plan → the board with 30 days mapped → the workflows → the first Reel) · "optimize my profiles for agents" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
 | "build my short-form game plan" · "plan my next 30 days of reels" · "update my short-form game plan" | `sf-gameplan` (the Short-Form Game Plan — pillars with angles, the hook bank, the keyword, the dated 30-day calendar; built inside setup, updated on demand) | 4 |
 | "map my next 30 days" · "my attraction content board" · "update my short-form board" | `sf-board` (mapping mode seeds the calendar as dated cards on the one shared Notion board) | 4 |
@@ -190,15 +190,15 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   the content pillars is collecting raw material and saying which week builds it. "It skipped my
   offer" in Week 1 = working as designed.
 - The Daily Debrief is a Cowork scheduled task created ONLY with the member's yes — on demand ("turn on my daily debrief") or from the AI Admin's Week 5 card, never inside Brain setup (the owner's ruling, 2026-11-02).
-- **The Week 1 shape (2026-11-02):** Brain setup is four conversations (who you are as a leader · your unique approach · your story and your proof · your current and future state) asked ONE plain question at a time — Mike's 26 questions — plus three spoken answers that build the voice; it never asks which type of agent they attract (derived: "your skills attract any agent; these are the agents who'll relate most"), where they can attract, their CRM, booking link, compliance, scheduled tasks, operations or brand. The brand is a SECOND chat the same week ("my attraction brand direction"); compliance is on demand ("paste my compliance link" reads their brokerage's page); the tools conversation is Week 2. The Brain Book is nine short sections, at most fifteen pages. "It didn't ask about my brand / CRM / compliance" in Week 1 = working as designed.
+- **The Week 1 shape (2026-11-02):** Brain setup is four conversations (who you are as a leader · your unique approach · your story and your proof · your current and future state) asked ONE plain question at a time — Mike's 26 questions — plus three spoken answers that build the voice; it never asks which type of agent they attract (derived: "your skills attract any agent; these are the agents who'll relate most"), where they can attract, their CRM, booking link, compliance, scheduled tasks, operations or brand. The brand is a Week 3 chat ("my attraction brand direction"), alongside Claude Design ("my attraction brand direction"); compliance is on demand ("paste my compliance link" reads their brokerage's page); the tools conversation is Week 2. The Brain Book is nine short sections, at most fifteen pages. "It didn't ask about my brand / CRM / compliance" in Week 1 = working as designed.
 
 ### Plugin 2 — MAA Claude Support — BUILT (this plugin)
 - Needs nothing to help. Needs a Brain to log and to track weeks (`maa-support-setup`).
 - Its only writes: `memory/support-log.md`, `memory/claude-updates.md`, the config block.
 
-### Design Studio — Claude Design skill set (W1 · W2 · W3 · W6) — BUILT
+### Design Studio — Claude Design skill set (W3 · W6) — BUILT
 - NOT a plugin. 10 `aa-…-design` zips uploaded at claude.ai/customize/skills + the Agent Attraction
-  Design System set up inside Claude Design: Week 1 `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design`;
+  Design System set up inside Claude Design: Week 3 `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design`;
   Week 3 (with the Design Package) `aa-offer-kit-design` (the product mockup, the offer stack, the one-pager, the deck, the welcome pack, the
   comparison sheet) · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` (carousels + recognition);
   Week 3 `aa-video-kit-design` (the Riverside editor's overlays — upload with the Riverside plugin; "register my video
@@ -231,8 +231,8 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   there, then the magnet — nothing to finish first); "it only gave me one option" = by design — say yes, or
   "another idea" for the next best, one at a time (never three); "it asked me about my brokerage's rules" =
   the one question Week 2 asks when the Brain can't answer it — whether a package may be offered as a reason
-  to join; "I don't know" is a fine answer (it checks the rules and keeps every public line in the
-  teach-first register until the compliance desk confirms); "it renamed my program" = the naming rule — the
+  to join; "I don't know" is a fine answer (the offer is still written as a join package, Mike's model, with one check open for
+  the compliance desk; only "not allowed" moves the public lines to what the member teaches); "it renamed my program" = the naming rule — the
   name is outcome-based, the member can pick an alternate or keep their own; "it skipped the compliance step"
   = it folds compliance in right before the public document, never earlier; the funnel link reads "not live
   yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug

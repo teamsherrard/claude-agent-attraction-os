@@ -1,7 +1,7 @@
 ---
 name: lm-magnet
 description: >
-  Step 1 of the Lead Magnet plugin — writes the member's lead magnet for attracting agents, in their
+  The guide writer of the Lead Magnet plugin — writes the member's lead magnet for attracting agents, in their
   voice, from the Partner Offer in their Brain, in whatever shape they picked: a system guide,
   checklist, plan or template, questions guide, fair comparison guide (cited, dated, no ranking) or
   mini-course outline. One architecture with word floors: a cover with a lived three-line hook, an
@@ -11,7 +11,7 @@ description: >
   compliance gate. Hands off to the funnel. CONTENT ONLY — never designs the PDF. Trigger on: "write
   my lead magnet for agents", "write the guide agents download", "agent attraction lead magnet",
   "write my switching checklist", "write my 90-day plan for agents", "write my questions guide for
-  agents".
+  agents", "refresh my guide".
 ---
 
 # Lead Magnet Writer (Step 1 — content only)
@@ -30,8 +30,8 @@ ever as good as the words it's built from.
 owns: `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 > **We write the content; we never design (house rules #3).** This produces the magnet's *words* — the design
-> (the built PDF) is Week 3's Claude Design session, working from the Week 3 Kit `lm-package` fills at the end of
-> the sitting. Pour the effort here into making the magnet
+> (the built PDF) is Week 3's Claude Design session, working from the guide file uploaded beside the Week 3 Kit (`lm-package` puts the guide's outline and brief into the kit at the end of
+> the sitting). Pour the effort here into making the magnet
 > genuinely valuable, genuinely honest, and genuinely the member's.
 
 ---
@@ -48,8 +48,9 @@ Brain** (house rules #2: attraction-brain-sync PULL; only a truly empty cloud go
   five-pains table, and — for the closing page — what's included (as outcomes), the first 30 days,
   the booking line and "what the call is." Also `## Start with your upline`: the upline's package, labeled as the
   upline's on the closing page ("we, not me"). **Read the header's `Join-gated package allowed:` line** (house
-  rules #5): `no` (or missing) → the closing page leads with what the member teaches, their story
-  and their mentorship, never "join me and get X". Apply **house rules #2's three states** (seeds / missing /
+  rules #5): `no` → the closing page leads with what the member teaches, their story
+and their mentorship, never "join me and get X"; `yes`, `unknown` or a missing line → the join register (the
+program is what an agent receives when they partner with the member). Apply **house rules #2's three states** (seeds / missing /
   placeholder → the offer is built first, in this session, through the navigator's Step 1 — never a "come
   back later"; thin → build and sharpen after; finalized or built → go) — unless the navigator already
   checked it this session.
@@ -103,6 +104,10 @@ routed here with the focus locked — the shape · the type of agent · the one 
 [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]" — plus the intake bundle, **skip this phase entirely**: the focus is
 set and the bundle joins the Brain as your source material. Go straight to Phase 2. A `planned` row in
 `memory/magnets.md` with its `## Intake` block is the same thing.
+
+**"refresh my guide"** → the newest `written` or `designed` row and its intake block are the locked focus: rewrite
+from the current Brain, save a new dated copy in the same campaign folder, keep the row (update Built and Last
+reviewed only), re-export the text, then run `lm-package` so the kit's chapter 4 follows.
 
 **Otherwise, look at `memory/magnets.md` and the workspace** (the campaign folders per the output standard §1)
 and take the first branch that matches:
@@ -180,8 +185,8 @@ never a `[` bracket token. The parts, in order:
    `Join-gated package allowed: no`** the close is what the member teaches, their story and how
    they mentor — offered to any agent who wants to learn it; nothing reads "join me and get X". The shape is
    Mike's iceberg close (`15-advanced-scaling/73`): what's here is the tip; the full system, the mentorship and
-   the community sit below the water — free when you partner (at `yes`) or open to any agent who wants to learn
-   it (at `no`/`unknown`) — then the one call to action.
+   the community sit below the water — free when you partner (at `yes` or `unknown`) or open to any agent who wants to learn
+   it (at `no`) — then the one call to action.
 6. **The back page — `THE BACK PAGE`.** `Contact:` (email · phone · website — only what the Brain holds) ·
    `Socials:` (real handles; omit the line if none) · `Last updated:` (when the shape states facts that can
    change) · `Compliance:` (brokerage name and license display as `compliance.md` requires; the disclaimer
@@ -218,17 +223,17 @@ brokerage — ask for the schedule in writing").
 
 ## Phase 3 — Note the assets (design is a SEPARATE skill)
 This skill ends at the **content** — that's the whole deliverable. **Do NOT write design direction here;**
-the labelled lines are copy and cues, not layout — `lm-package` puts this doc into the Week 3 Kit, and the Week 3
+the labelled lines are copy and cues, not layout — `lm-package` puts this doc's outline and brief into the Week 3 Kit, and the Week 3
 design session (Claude Design, with the Design Studio's **`aa-lead-magnet-design`** when the member has it) reads
-it from there: the promise becomes the
+the guide itself from its file beside the kit: the promise becomes the
 cover, each PAGE block one designed page, the close and the back page, copy verbatim, each label its matching
 element (the pull quote set large, the callout as a panel, the checklist with real boxes, template rows as
 fill-in lines, scripts as message bubbles, the source as a footnote, the image idea as the page's visual, the
 next step as the page's closing strip, the three calls to action as two quiet strips and the closing page's
 one button), labels never printed. Close the doc with the output standard's `▸ NEXT — HAND TO YOUR DESIGN
 STEP` appendix (assets to gather: logo · headshot · photos with the organization · the templates it hands
-over, if any) and the one line that this guide travels to Week 3 inside the Week 3 Kit (filled at the end of the
-sitting; "add my guide to my kit" refreshes it). The hand-off to the funnel happens in Phase 5.
+over, if any) and the one line that this guide is uploaded beside the Week 3 Kit in Week 3 (the kit carries its outline and brief, filled at the end of the
+sitting; "add my guide to my kit" refreshes them). The hand-off to the funnel happens in Phase 5.
 
 ## Phase 4 — Compliance pass (house rules #5)
 Run the whole magnet through **house rules #5**: the two cardinal rules (nothing negative about any brokerage,
@@ -300,8 +305,8 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
    and both `▸` appendices, centres the back page and puts the compliance line in the footer. Read it back: no label
    word printed ("Pull quote:", "Image idea:", "Title:"), a cover, one heading per page, the structured text still
    complete (it is what the kit carries). Confirm the location in plain words. **Keep the structured text** at
-   `~/attraction-brain/exports/lead-magnet-[slug]-YYYY-MM-DD.txt` (`[slug]` per output standard §2) — the Lead
-   Magnet Package is assembled from it, and the Brain syncs `exports/*.txt`. If the save fails, the output standard's fallback applies — say it's not
+   `~/attraction-brain/exports/lead-magnet-[slug]-YYYY-MM-DD.txt` (`[slug]` per output standard §2) — chapter 4
+   of the Week 3 Kit is assembled from it, and the Brain syncs `exports/*.txt`. If the save fails, the output standard's fallback applies — say it's not
    saved, retry once, the chat copy is the deliverable; keep going.
 3. **Log it in the Brain (silently — never narrate this or name a file, house rules #1).** In
    `~/attraction-brain/memory/magnets.md` (create it from the locked shape in `shared/brain-contract.md` if

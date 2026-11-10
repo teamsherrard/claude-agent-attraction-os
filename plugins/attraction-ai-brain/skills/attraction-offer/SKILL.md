@@ -429,8 +429,8 @@ line.
 - **Cover** — the program name as the title · the UVP one-liner · the outcome-led tagline · "by [First
   Last]" · "for [the type of agent, plain words]" · member · brokerage (as compliance allows) · date · demo
   only: the one line "Demo: every figure is illustrative".
-- **At a glance** — the ten-row label table (Program · For · The promise · The method · Format · Weekly
-  rhythm · Your first 90 days · What you get · What it costs you · Next step), each cell one line. The
+- **At a glance** — the twelve-row label table (Program · For · The promise · The method · Format · Weekly
+  rhythm · Your first 90 days · What you get · What's free from day one · What it costs you · Why me · Next step), each cell one line. The
   one-page summary a member reads in a minute and the offer kit builds from.
 - **Who this is for** — the primary type, the secondary if any, and the two "This is not…" lines (the only
   place the document says what it is not).
@@ -583,22 +583,21 @@ Three lines, then the next step — never a tour of the document:
 *"Your offer's built — [program name], a [type] for [the type of agent]: [the one-line promise]. The method
 is [the framework name] — [the step chain]. It's saved to your Drive → [workspace] → 05 · Offer → [name]; it's the
 document you walk an agent through, and the At a glance page is the one to read first. Your own pages — how to
-create it, how to start with your upline, the words to use, where to host it, the content branches — are in
-chapter 8 of your Week 3 Kit."*
+create it, how to start with your upline, the words to use, where to host it, the content branches — go into
+chapter 8 of your Week 3 Kit, built at the end of this sitting."*
 **Then, before the close, the rest of the offer — silently, no questions:** run **attraction-why-join-me** in
 silent mode (the statement and the 60-second story, from the Brain — no document of its own) → **attraction-free-vs-paid**
 in silent mode (the stack sorted free · included · discounted, the free line, the up-front cost line, version one of
-the digital product, kept small — no document of its own) → **attraction-week3-kit** (the ONE file for Claude Design
-in Week 3: Part A the offer to join me, the product, the copy for every asset that promotes the offer and the offer-kit
-design brief; Part B joins when the lead magnet is written — saved to the home base folder beside the Brain Book). The
-member ends a standalone offer session with TWO files: the offer and the kit. Add one line to the close: *"Your
-why-join-me story and what's free and what costs are inside it, and your Week 3 Kit — the one file for Claude Design —
-is in your home base folder beside your Brain Book."* Then one suggestion at most, no file names: *"Next this week:
+the digital product, kept small — no document of its own) → **attraction-week3-kit** (the kit the member uploads with their guide to Claude Design
+in Week 3: chapters 2, 3, 7 and 8 from the offer; chapters 4 to 6 join when the lead magnet is written — saved to the home
+base folder beside the Brain Book). The
+member ends a standalone offer session with TWO files: the offer and the kit. Add one line to the close: *"Your Week 3 Kit is in your home base folder beside your Brain Book; your why-join-me story and what's free and
+what costs are inside it."* Then one suggestion at most, no file names: *"Next this week:
 your lead magnet — say 'launch my lead magnet plugin'; it goes into the same kit."* **When the Lead Magnet plugin
-started this session** (its navigator ran this skill as the offer step), run the story and the stack silently but
+started this session** (its navigator ran this skill as the offer step, or handed this skill the line "Lead Magnet sitting — skip the kit"), run the story and the stack silently but
 **skip the kit** — the Lead Magnet plugin builds the one kit at the end of the sitting with both parts — then skip the
 suggestion and hand straight back: *"Your offer's built. Now the lead magnet."* — it continues in the same sitting, and
-its one recommendation reads the framework step the appendix named.
+its one recommendation reads the `Lead-magnet seed:` line.
 
 ---
 
@@ -655,3 +654,18 @@ minutes and nothing in it explains itself).
 - **The gate runs every time**, and a failed check is fixed once, then said plainly — never hidden, never
   looped.
 - Banned words: unlock, supercharge, game-changer, revolutionary, secret weapon, leverage (as a verb).
+
+## Shape upgrade (silent) — an offer built before 2026-11-09
+`offer.md` is at `finalized by member` or `built in Week 2` but lacks any of `Differentiator:`, `Proof plan:`, `What my
+partners can offer:`, `## What I assumed`, `Lead-magnet seed:` or `## Week 3 Kit` — or its public lines read the open
+register while the header says `yes` or `unknown`. The Lead Magnet navigator's Step 1 and "refine my partner offer" call
+this first. **No interview, no card:** derive every missing line from what the Brain already holds — `Differentiator:`
+from the UVP's mechanism and the `Why me` line (or the story-led line); `Proof plan:` the founding-partner exchange
+(the first two or three partners get the member's time in return for a written OK on their result and a 60-second video
+at day 90); `What my partners can offer:` the stack handed down (the same scripts, lessons and calls); `## What I
+assumed` from the header's defaults, one line each; `Lead-magnet seed:` the framework step the free guide is cut from
+(the step an agent can use alone); `## Week 3 Kit` empty. Apply the register once: `yes` or `unknown` → every public
+line in the join register, with the one check line at `unknown`; `no` → leave the open lines. Re-render the Partner
+Offer document (twelve bands, the twelve-row At a glance) as a new dated copy, trash the superseded copy after it is
+verified, **attraction-brain-sync PUSH**, and say one line: *"Your offer was built with an older shape — I've brought it
+up to date (two minutes); nothing you decided has changed."* Then continue with whatever called it.

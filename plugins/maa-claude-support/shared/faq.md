@@ -26,7 +26,7 @@ touch a terminal.
 The design room at claude.ai/design — and where the **Design Studio** lives. Important: the
 Design Studio is NOT a plugin (Design can't run plugins). Its 10 `aa-…-design` skills are zip files you
 UPLOAD at claude.ai/customize/skills (Q30), then use inside Design: the Design Package (logo,
-style sheet, brand kit), your offer kit (the stack, the mockup, the one-pager — Week 2), your lead
+style sheet, brand kit), your offer kit (the stack, the mockup, the one-pager — Week 3, from your Week 3 Kit), your lead
 magnet PDF, funnel pages, and content (carousels, win walls), your video brand kit (Week 3, with
 Riverside), your event graphics, and the Value Vault — your ebook, course, or playbook plus your
 partner onboarding roadmap (Week 6). Your Cowork skills write the brief (your brand direction,
@@ -153,7 +153,7 @@ Seven links, in order — never skip ahead:
 6. Connect email + calendar + drive + your CRM when setup asks
 7. The brand chat and the Design Studio's Design Package (logo → style sheet → brand) in Week 3, with Claude
    Design — Week 1 is the Brain only; each week's plugins as that week opens (in Week 2 the Lead
-   Magnet plugin — after "build my partner offer" — — the offer's design assets come in Week 3 —, Short-Form + Riverside in
+   Magnet plugin — in one sitting, the offer first if it isn't built — the offer's design assets come in Week 3 — Short-Form + Riverside in
    Week 3…)
 
 Lost? Say "am I set up right" — I'll find where you are and we resume from the first missing
@@ -562,7 +562,7 @@ Next step: try "what did Mike say about 3-way calls."
 Scheduled agents only exist if you said yes when their owner skill offered them — and they only
 ever DRAFT.
 
-- The Debrief is offered at the end of Brain setup; the content report in Week 3; the follow-up
+- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; the content report in Week 3; the follow-up
   queue and call prep in Week 5. Two things are on demand, never scheduled: the Prospect Radar's
   news scan ("scan agent movement") and the CEO review ("run my CEO review") — just say the phrase
 - Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase)
@@ -579,8 +579,7 @@ Because it isn't one — on purpose. Claude Design can't run plugins; it uses up
 - The Design Studio is 10 `aa-…-design` skill zips you upload at claude.ai/customize/skills (Q30)
 - Then inside claude.ai/design: "design my attraction logo" / "build my brand style sheet" / "make my
   brand kit", then in the same Week 3 session "design my offer kit" (or one piece: "my offer stack", "my
-  product mockup"), "design my lead magnet pdf" and "build my attraction funnel page" from your Lead Magnet
-  Package, "design my video brand kit", and in Week 6 "design my value vault" ("my ebook", "my
+  product mockup"), "design my lead magnet pdf" and "build my attraction funnel page" from your Week 3 Kit, "design my video brand kit", and in Week 6 "design my value vault" ("my ebook", "my
   course", "my playbook", "my onboarding roadmap")
 - Set up your design system in Design first (your colors, fonts, logo) — that's what makes every
   design wear your brand

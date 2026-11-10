@@ -7,8 +7,7 @@ description: >
   discounted; any cost is said up front. Builds the value stack (every item across the brokerage,
   upline, and member layers: free or discounted, the outcome, whether it exists today) and maps the
   digital product the member will GIVE agents who join, the Week 2 promise the Week 6 Value Vault
-  builds. Writes both sections into the Brain's offer file and hands a brief to the Design Package's
-  offer-stack and product-mockup skills. Never compensation or inflated value figures. Trigger on:
+  builds. Writes both sections into the Brain's offer file and feeds the Week 3 Kit's stack, mockup and one-pager. Never compensation or inflated value figures. Trigger on:
   "free vs paid", "what should I give away", "what should I charge for", "build my value stack",
   "map my digital product", "my digital product is built", "what do I give agents who join",
   "value stack brief".
@@ -65,7 +64,7 @@ Then only what this skill uses:
 Read the first line of `identity/compliance.md` (`Status:`). **Set / confirmed** → proceed under its rules. **Unset** → write the Brain
 sections in full and show the member the stack, but hold the design brief with one plain line: *"The
 offer graphic goes public, so your compliance rules need setting first — say 'set up my attraction compliance',
-five minutes — then I'll hand the brief to the Design Package."* An unset gate never means "go ahead".
+two minutes — the stack goes public through your Week 3 Kit in Week 3."* An unset gate never means "go ahead".
 
 ---
 
@@ -165,33 +164,10 @@ Claude Design). A member finishing Week 2 holds three files — the offer, the g
 
 ---
 
-## The brief the Week 3 Kit carries (Part A of `attraction-week3-kit`)
-
-The offer stack, the product mockup and the Join My Team one-pager are designed in Week 3 from the **Week 3
-Kit** — one file, built by `attraction-week3-kit` from the sections this skill writes. The block below is
-the shape it carries for those three pieces (no separate brief file is saved any more; compliance gate applies).
-
-```
-FOR aa-offer-kit-design (the offer stack)
-Offer name: … · Program: [name · type · cadence — from ## The program; omit on an older offer] · UVP: … · Primary agent: …
-Stack items (the deliverables table's rows — each with its verdict — as outcome lines, in this order): 1. … 2. … 3. … (free items first, then "included", then
-  "discounted for my agents"; brokerage and upline items named generically)
-The free line: … · The up-front cost line: …
-Brand: [from brand-visual.md — logo status, colours, type; or "Design Package builds it first:
-  aa-logo-design → aa-style-sheet-design → aa-brand-kit-design"]
-Never on the graphic: splits, caps, stock, rev share, income, another brokerage's name.
-
-FOR aa-offer-kit-design (the product mockup)
-Product: [name] · Format: [course / playbook / guide / ebook] · Cover line: … · Subtitle: …
-Three bullet promises: • … • … • …
-Status line for the graphic: ["Included when you partner with me" / "Coming this quarter"]
-Brand: [as above]
-
-FOR aa-offer-kit-design (the "Join My Team" one-pager)
-Pull from: the Partner Offer doc in 05 · Offer (its At a glance page — the program's name, type and cadence,
-and the method row's one-line chain) · the UVP · the free line · the booking line · the
-comment keyword.
-```
+## What the Week 3 Kit carries from this skill
+The kit's chapter 7 carries the stack, the mockup and the one-pager in its own shape (`attraction-week3-kit`, Step 1); this
+skill writes only `## Value stack` and `## Digital product` in `offer.md` — no brief block, no skill ids, nothing the
+member uploads separately.
 
 ---
 

@@ -113,7 +113,7 @@ never guide click-paths from memory).
 | Cowork best practices | https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork |
 | Navigating the desktop app | https://claude.com/resources/tutorials/navigating-the-claude-desktop-app |
 
-### Claude Design (the Design Studio skill set + every `ds-` brief; also `yt-thumbnail`, `lm-design`)
+### Claude Design (the Design Studio skill set + every `ds-` brief; also `yt-thumbnail`, the Week 3 Kit's `DESIGN BRIEF` bands)
 | Topic | URL |
 |---|---|
 | Get started with Design | https://support.claude.com/en/articles/14604416-get-started-with-claude-design |

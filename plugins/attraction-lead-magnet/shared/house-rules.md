@@ -68,7 +68,7 @@ writes is built from it.
   `brain.md`'s quick reference and `identity/operations.md`, never a question. If `operations.md` still reads
   "set in Week 2" (the normal state before the tools conversation) or holds no booking link, say it once, in
   one line — *"a booking link is this week's small setup: a free Calendly, one 30-minute Zoom event with the five
-  questions Mike uses (`shared/lesson-index.md` → bonus/calendly) — then say 'set up my attraction operations'
+  questions Mike uses (they're in your kit's build notes) — then say 'set up my attraction operations'
   and I'll record it"* — and keep going: until the link exists, every "book a call" line becomes *"email me at
   [the address in profile.md]"* or *"message me on Instagram @[handle]"* — never "reply", because a page and a
   guide have nothing to reply to. The Conversion plugin designs the full booking page in Week 5; the link comes
@@ -111,7 +111,7 @@ publishes anything live.
 
 - The deliverable ends at the **copy + structure**. At the end of the Week 2 session the guide and the page go into
   the member's **Week 3 Kit** — the one file they upload to Claude Design in Week 3: `lm-package` writes the lead
-  magnet half (the guide and the page word for word, the messaging, the design brief — the one place this plugin
+  magnet half (the guide's outline and brief, the page word for word, the bios, the messaging — the one place this plugin
   writes design direction) and the Brain's `attraction-week3-kit` saves the one file, offer and lead magnet together.
   **A member finishing Week 2 holds three files — the offer, the guide, the kit — never more**: the page copy, the
   bios, the messaging and the brief are never documents of their own. **The kit is capped at 25 pages** — the guide
@@ -209,8 +209,7 @@ these are the parts this plugin lives by.
    appears, your license display, and your brokerage's rule on talking about income. Say 'set up my
    attraction compliance' and it takes two minutes — then we pick straight back up."* **"If empty,
    proceed" is banned.** Private work (the offer build, the one recommendation and the yes, the intake,
-   an analytics read) still runs: the navigator reads the gate at the start, says once that the basics get
-   set right before the guide is written, and runs the Brain's compliance skill immediately before
+   an analytics read) still runs: the navigator reads the gate at the start, says nothing yet, and runs the Brain's compliance skill immediately before
    `lm-magnet` writes the public document — it never stops the session early, and the magnet writer's own
    hard gate stays.
 2. **`Status: set`** → apply every rule, append the stamp, and remind the member **once per session** to
@@ -306,7 +305,7 @@ program's structure), **a DECISION or PROOF piece** (the "your lead bill vs your
 a consented partner case study, a fair comparison or questions guide only when the offer is about choosing, a
 5-day challenge) — and puts **ONE recommendation** on one card in a plain message under 120 words (Mike,
 2026-11-02: *"it currently recommends three lead magnets — make it one, simple and achievable"*): a title with
-a number or an outcome in it, under 12 words, checked once against what agents type; the promise in one
+a number or an outcome in it, seven words or fewer, checked once against what agents type; the promise in one
 sentence; who it's for in plain words; why this one for THIS member in two lines, in Mike's reasoning. "Yes"
 builds it; "another idea" shows the next best — a different kind of thing, a different framework step, one at
 a time, never three at once (the 2026-10-18 ruling still holds underneath: the next best is never a variant

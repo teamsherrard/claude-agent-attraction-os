@@ -265,12 +265,12 @@ call's length, where, the slots) and `offer.md` ("what the call is"):
 - **`CTA button:` "Book a call with me"** — the Book's primary CTA, the only button on the page that isn't the
   opt-in's; the member's own primary CTA phrase from the Brain wins when they set one. The KB's CTA phrase
   bank supplies the area's headline or the line above the button.
-- **The booking tool, set once (Mike's own setup — `bonus/calendly` in `shared/lesson-index.md`):** a 30-minute
+- **The booking tool, set once (Mike's own setup):** a 30-minute
   Zoom event · five required questions — "do you acknowledge this is a conversation about partnering with me at
   [brokerage]? (don't book if you're already there or have chosen a sponsor)" · which brokerage are you with ·
   where are you located · new agent, experienced, team leader or broker-owner · anything to help me prepare,
   including why you're interested — · reminders at 24 hours, 1 hour and 10 minutes · wide-open availability early
-  on. The outline's appendix lists these for the member; the plugin never configures the tool.
+  on. Chapter 5 of the kit lists these for the member; the plugin never configures the tool.
 No countdown, no "spots left," no invented urgency (the offer's honest why-now may be the line above the button);
 no compensation; no "join [brokerage]."
 

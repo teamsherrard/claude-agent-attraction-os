@@ -12,8 +12,7 @@ doc is clean and scannable — never a wall of text.**
 ## 1. Where it goes — the workspace folder structure
 
 Campaign docs live in the member's workspace under **`03 · Content/Guides/`** (the Brain's drive map assigns
-lead magnets and guides there) — one dated campaign folder per magnet, so a magnet and the page, brief, kit,
-and sequence that serve it always sit together:
+lead magnets and guides there) — one dated campaign folder per magnet, so a magnet and the page text, the delivery text and the sequence that serve it always sit together:
 
 ```
 [Workspace]/                                   (located by ID — see §3)
@@ -24,7 +23,7 @@ and sequence that serve it always sit together:
 │       ├── 2026-12-16 · The Five-Step Sunday Routine/     (one campaign — created when the magnet is built)
 │       │     ├── Lead Magnet — The Five-Step Sunday Routine.docx           (lm-magnet, built first)
 │       │     │   (the page outline has no document of its own: its text lives in the Brain's exports/ and inside the Week 3 Kit)
-│       │     ├── Delivery Kit — The Five-Step Sunday Routine.docx          (lm-delivery)
+│       │     │   (the delivery kit has no document of its own: its text lives in exports/ and in chapter 5 of the Week 3 Kit)
 │       │     ├── Nurture Sequence — The Five-Step Sunday Routine.docx      (lm-nurture)
 │       │     └── Lead Magnet Report — The Five-Step Sunday Routine — 2027-01-13.docx   (lm-analytics)
 │       ├── Weekly Newsletter — 2026-12-18.docx                 (lm-nurture — standing, dated)
@@ -48,7 +47,7 @@ Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS
 | Lead magnet doc | `Lead Magnet — [Guide Name]` | `Lead Magnet — The Five-Step Sunday Routine` |
 | The page outline (the member hears "your sales funnel outline") | no document — `exports/opt-in-funnel-[slug]-YYYY-MM-DD.txt`, carried word for word inside the Week 3 Kit | |
 | The Week 3 Kit | `Week 3 Kit — [First Last] — YYYY-MM-DD` | built by the Brain's `attraction-week3-kit` into `01 · AI Brain`; `lm-package` writes its lead magnet half; newest is current, the older copy trashed |
-| Delivery kit | `Delivery Kit — [Guide Name]` | |
+| Delivery kit | no document — text at `exports/delivery-kit-[slug]-date.txt` and in chapter 5 of the Week 3 Kit | |
 | Nurture sequence | `Nurture Sequence — [Guide Name]` | |
 | Per-magnet report | `Lead Magnet Report — [Guide Name] — YYYY-MM-DD` | |
 | Newsletter | `Weekly Newsletter — YYYY-MM-DD` | |
@@ -84,8 +83,7 @@ the demo workspace — never into a real member's Guides folder.
   input; the deliverable is the `.docx` — **never upload the raw text.** **The guide is the exception to the
   house grammar's look:** `lm-magnet` renders `Lead Magnet — [Guide Name]` with `--guide` (and no `--subtitle`),
   so the member's document is the guide an agent reads — a cover from THE PROMISE, one page per PAGE block, the
-  labels as page elements, no image ideas, no appendices — while the same structured text, labels and all, is
-  what the Week 3 Kit carries for the designer.
+  labels as page elements, no image ideas, no appendices — while the kit carries its outline, picture ideas and brief; the designer reads the guide file itself.
 - **Find-or-create:** before creating any folder, list the parent and reuse it if it already exists. Every
   campaign doc saves into the **same campaign folder** the magnet created.
 
@@ -255,8 +253,8 @@ Compliance: ...                       (brokerage name and license display as com
 This doc is the guide content. Your design step — Claude Design (with the Design Studio's lead magnet skill when you have it), or your
 designer — turns it into the branded PDF: the promise becomes the cover, each PAGE block one
 page, the close and the back page, copy verbatim; the labelled lines (pull quotes, checklists, scripts,
-template rows, image ideas) become the page elements and never print as labels. This guide travels to Week 3 inside your Week 3 Kit — the one file you upload to Claude Design, with your Design
-Package brief; it carries this guide word for word, your page and the build notes. (Say "add my guide to my kit" if
+template rows, image ideas) become the page elements and never print as labels. In Week 3 you upload this guide beside your Week 3 Kit and your Design Package brief; the kit carries this
+guide's outline, your page and the build notes. (Say "add my guide to my kit" if
 you change the guide.)
 Assets to gather:  logo · headshot · any photos of you with your organization · the sheet or template the guide hands over, if you have it as a file.
 
@@ -267,7 +265,7 @@ the income disclaimer only if earnings were mentioned (they should not be).   (O
 set or confirmed — unset blocks the whole doc; never paste a bracket token.)
 ```
 
-**Opt-In Funnel doc** — the opt-in page copy, section by section, in the page's order. Eleven sections, then
+**The sales funnel outline text** (kept at `exports/opt-in-funnel-[slug]-date.txt` and carried as chapter 5 of the Week 3 Kit — never a document of its own) — the opt-in page copy, section by section, in the page's order. Eleven sections, then
 the pop-up, the thank-you page, and the footer. The opt-in is the page's primary job and its button repeats
 top (§1), middle (§3) and bottom (§11) with the same words; the Book-a-call area (§10) is the secondary path for
 the agent who is already ready. Every section carries its own `Headline:` so the design step never has to
@@ -275,7 +273,7 @@ invent one. The floors are in `lm-funnel`:
 ```
 OPT-IN FUNNEL — [GUIDE NAME]
 [Name] · [Brokerage] · [City] · [Date]   ·   Gives away: [the magnet above]
-Your sales funnel outline — the opt-in page copy + strategy, section by section, the pop-up, and the thank-you page — ready for your design step. This doc is the words; the page is built separately.
+Your sales funnel outline — the opt-in page copy + strategy, section by section, the pop-up, and the thank-you page — ready for your design step. These are the words; the page is built separately.
 
 ────────────────────────────────────────────
 SECTION 1 — HERO
@@ -412,8 +410,8 @@ Compliance: ...               (the stamp, verbatim)
 ════════════════════════════════════════════
 ▸ NEXT — HAND TO YOUR DESIGN STEP
 This doc is the copy + structure. Your design step — Claude Design (with the Design Studio's funnel skill when you have it), your web
-person or your site tool — builds the page from these exact sections in Week 3's design session (upload your Week 3 Kit — it carries this
-page, your guide and the build notes — with your Design Package brief); or your web person or your site tool builds it (your brokerage site /
+person or your site tool — builds the page from these exact sections in Week 3's design session (upload your Week 3 Kit and your guide — the kit carries this
+page and the build notes — with your Design Package brief); or your web person or your site tool builds it (your brokerage site /
 GoHighLevel / Carrd). Whoever builds it: the form must really send you the name and email — test-submit once before
 sending traffic; a page that looks right can still capture nothing.
 Your links: add ?utm_source=bio, google, partner or reel to the page link wherever you post it, so the report can

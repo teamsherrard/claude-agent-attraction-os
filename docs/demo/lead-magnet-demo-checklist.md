@@ -1,7 +1,7 @@
 # Lead Magnet demo checklist — Week 2 on the Taylor Brooks demo Brain
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1). The demo Brain lives in
-`docs/demo/taylor-brooks/attraction-brain/`; every number in it is fictional and tagged. Plugin 3 (0.7.0).*
+`docs/demo/taylor-brooks/attraction-brain/`; every number in it is fictional and tagged. Lead Magnet plugin 0.12.2 · Brain 0.9.2.*
 
 ## Before the screen
 - [ ] Plugins 1, 2 and 3 installed and current (Check for updates); the demo Brain pulled (`Demo brain: yes`).
@@ -33,7 +33,7 @@
 - [ ] The Week 3 Kit: one line and the link — `Week 3 Kit — Taylor Brooks — 2026-… — DEMO` in the home base folder
   beside the Brain Book. No full text in chat. OPEN IT: a cover page, a CONTENTS page where every line is a link, then
   chapter 1 — the two-page summary (the offer table, the guide outline, the sales funnel outline, where everything
-  lives, how to use it in Week 3). Eight chapters, each on its own page; **under 25 pages** (count them). Click "Bios" in the contents and land on Instagram, Facebook, LinkedIn, YouTube with the character counts. The guide's full
+  lives, how to use it in Week 3). Eight chapters, each on its own page; **under 25 pages** (count them). Click "Bios" in the contents and land on Instagram, Facebook, LinkedIn, YouTube with the character counts. Click "Design Assets": the one-pager, the stack, the deck, the welcome pack, then SIX social post outlines and the CALLS TO ACTION table (captions, keywords, video pop-ups, end cards, stories, bio, DM). The guide's full
   text is NOT in the kit — the guide is its own file and is uploaded beside the kit in Week 3.
 - [ ] The Partner Offer (if built this sitting): a cover, a linked contents page, At a glance, eleven sections, about
   8 to 10 pages — agent-facing only; the member's own pages are chapter 8 of the kit.

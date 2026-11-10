@@ -1,7 +1,7 @@
 ---
 name: lm-funnel
 description: >
-  Step 2 of the Lead Magnet plugin — writes the member's SALES FUNNEL OUTLINE: the opt-in page copy
+  The page writer of the Lead Magnet plugin — writes the member's SALES FUNNEL OUTLINE: the opt-in page copy
   and strategy that gives their agent-attraction lead magnet away. Reads the finished magnet so the
   page presents exactly what it delivers, then writes eleven sections in order with floors, each line
   labelled for the design step: Hero (pre-headline, video, attraction line), Problem, Product, Who I
@@ -38,7 +38,7 @@ the page's Book-a-call area is its one secondary path (house rules #4). The thre
 ## Step 1 — Get the magnet first (alignment is non-negotiable — house rules #7)
 This page gives away a specific lead magnet, so it must read it:
 - Read `~/attraction-brain/memory/magnets.md` → the row with status `written` or `designed` and no funnel URL
-  (or the one the navigator or the magnet skill named), then open its **Lead Magnet doc** in the campaign
+  (or the one the navigator or the magnet skill named) and its intake block's `Reach:` line, then open its **Lead Magnet doc** in the campaign
   folder (`03 · Content/Guides/[campaign]/`, output standard §1). If several qualify and none was named, take
   the one without a funnel, else the newest. **Check the Brain's exports first:** an
   `opt-in-funnel-[slug]-*.txt` already there → one line, *"your page copy exists — refresh it, or leave it?"*; a
@@ -89,7 +89,7 @@ Brain** (house rules #2). Then:
 - `identity/operations.md` — the booking link, the call's length and where (Book a Call), the follow-up
   cadence (the pop-up's honest contact line), the weekly call and onboarding steps (the Organization; How it
   works step three), the email signature (the footer's contact lines). **Still "set in Week 2", or no booking
-  link → house rules #2's one line ("set up my attraction operations") and the no-link fallbacks below; never stop.**
+  link → house rules #2's one line ("set up my attraction operations") and the no-link fallbacks below; never stop. The intake block's `Reach:` answer wins over `profile.md`.**
 - `memory/objections.md` — the questions agents actually ask (the three questions the call answers; the FAQ).
 - `memory/content-log.md` (read only) — a logged why-join-me video or a video sales letter with its URL, if
   one exists, pre-fills the Video line.
@@ -104,7 +104,7 @@ Brain** (house rules #2). Then:
   appendix. The strategy is what separates an "okay" page from one that converts.
 - `${CLAUDE_PLUGIN_ROOT}/shared/copywriting-kb.md` — **Part Two, "The page"**: how to write each section so it
   persuades, not just informs; the hook test; the pop-up micro-copy; the CTA phrase bank.
-- `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §5 — the Opt-In Funnel doc grammar and **"The labels"**
+- `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §5 — the sales funnel outline text grammar and **"The labels"**
   (every labelled line the design step turns into a page element).
 
 ---
@@ -178,8 +178,9 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
     Day 1, from the Partner Offer's Day 1 sequence) · `What we'll cover:` five or six bullets (your business
     and your week · the training and the weekly call · onboarding · your 90-day game plan · your questions
     about the model, answered on the call, never on a page · what happens next if it's a fit) · `Booking
-    embed:` the booking link — or, when none is on file yet, exactly `none yet`, so the design step shows an
-    "Email me" button (the address in `profile.md`) or "Message me on Instagram" instead — never "reply", a page
+    embed:` the booking link — or, when none is on file yet, exactly `none yet`, so the design step shows the
+    intake block's `Reach:` answer as the button ("Email me at …" or "Message me on Instagram"), the same one
+    the guide's close carries, instead — never "reply", a page
     has nothing to reply to · `CTA button: "Book a call with me"` (no link yet → "Email me and I'll send you times") (the member's own primary CTA phrase from
     the Brain wins when they set one; the KB's phrase bank supplies the headline or the line above the
     button). No pressure, no countdown, no "spots."
@@ -283,7 +284,8 @@ theirs to share, say 'refresh my page'"*).
    it becomes the URL and Status → `live` and `## Current magnet` gets the URL — and `brain.md`'s
    `**Live magnet:**` quick-reference line gets the same URL, the one line in `brain.md` this plugin updates).
    **attraction-brain-sync PUSH** (write → push → verify). This skill never writes `content-log.md`.
-4. **Close the loop:** *"That's your sales funnel outline — the opt-in page section by section, the pop-up,
+4. **Close the loop** (inside the Week 2 sitting, when the navigator called you, skip steps 4 and 5 — its finish
+   line carries them, and it runs `lm-profiles` and `lm-package` next)**:** *"That's your sales funnel outline — the opt-in page section by section, the pop-up,
    and the thank-you page with the download and the call. Your page gets built in Week 3's design session from
    your Week 3 Kit (or by your web person or your site tool, from these exact sections). When it's live,
    test-submit the form once, then tell me — say 'my funnel is live' with the link — and every other system
@@ -326,7 +328,7 @@ A demo keyword aimed at the member's own page ("mock up my opt-in page") is a re
 - [ ] BOOK A CALL: what it is / isn't · the three questions · How it works (3) · What we'll cover (5–6) · the booking embed · the button — no pressure, no countdown
 - [ ] FAQ three pairs in the opt-in section, the member's voice; the pop-up = First name · Email · Phone + the optional qualifier `off` unless switched on + the honest contact line + reassurance; the thank-you page = the instant download FIRST, then the call offered with the booking link
 - [ ] Voice matches `voice.md` + `voice-samples.md`; fifth-grade reading level; honest where others pitch; no copy line in capitals; no bracket token
-- [ ] No design direction written (aa-funnel-design owns it); assets-to-gather + the video note + the static form rule in the appendix
+- [ ] No design direction written (the kit's design brief owns it); assets-to-gather + the video note + the static form rule in the appendix
 - [ ] Compliance pass done per house rules #5 (the stamp on the page footer and the thank-you footer; no bracket tokens; set → one reminder)
 - [ ] The quality gate run; a failed check fixed and re-run once; anything still thin said plainly
 - [ ] The page text kept in exports/ (no document of its own) and handed to the kit; magnets.md updated and pushed; `brain.md`'s Live magnet line carries the URL once the page is live

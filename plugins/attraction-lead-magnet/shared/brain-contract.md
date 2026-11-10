@@ -177,7 +177,7 @@ is the magnet's name whatever its shape (a checklist or a plan is still named th
 Studio keys on these exact doc-name prefixes, so they never change; the member hears "your lead magnet" and
 "your sales funnel outline" (no document of its own — its text lives in `exports/` and inside the Week 3 Kit)
 (`YYYY-MM-DD · [Guide Name]/`): `Lead Magnet — [Guide Name]` (the page outline and the lead magnet half of the Week 3 Kit live in `exports/`, never as documents; the kit itself is the Brain's, in `01 · AI Brain`) ·
-`Delivery Kit — [Guide Name]` · `Nurture Sequence — [Guide Name]` ·
+(the delivery kit is text only, in `exports/` and the kit's chapter 5) · `Nurture Sequence — [Guide Name]` ·
 `Lead Magnet Report — [Guide Name] — [YYYY-MM-DD]`. Standing docs: `Weekly Newsletter — [YYYY-MM-DD]` and
 `List Growth Report — [YYYY-MM-DD]` → `03 · Content/Guides/`; `Partner Outreach Kit — [YYYY-MM-DD]` →
 `04 · Agents/Prospects/`; the GBP kit → `02 · Brand/`; the bios are chapter 6 of the Week 3 Kit (no document of their own). Dated filenames;

@@ -2,6 +2,24 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.23.3] — 2026-11-09
+
+**Pre-demo audit of the Week 2 sitting — two independent read-throughs, 60 findings fixed (Brain 0.9.3 · Lead Magnet
+0.12.3 · Support 0.1.19).** Demo-breakers: the guide's closing page treated `unknown` as the open register (every
+member without a brokerage answer would have had a guide contradicting their page and kit) — now `yes`/`unknown` = the
+join register everywhere, including the Brain Board's open item, the Support router and the nurture CTA; the kit
+skill's own description said the kit carries the guide "word for word" (it never does — the guide is its own file)
+and so did the Lead Magnet plugin's description, house rules, output standard and the Brain kit builder; the silent
+bios step would have asked a question mid-sitting. Consistency: the Lead Magnet navigator now hands the offer skill
+an explicit "Lead Magnet sitting — skip the kit" line; the offer skill gained a silent SHAPE UPGRADE for offers built
+before 2026-11-09 (adds Differentiator, Proof plan, What my partners can offer, What I assumed, Lead-magnet seed, the
+register) so an older Brain never prints empty lines into the kit; "refresh my guide" is a real trigger; the funnel
+reads the intake's `Reach:` answer so the guide and the page point at the same place; the funnel's own close is
+silent inside the sitting; the delivery kit is text only (the three-files rule); the UTM tags and the booking-tool
+five questions now sit in the kit's build notes; the title cap is seven words everywhere; the Partner Offer reference
+no longer describes member pages inside the document; "my offer kit is designed" is a real Week 3 trigger; Support's
+week map (brand = Week 3), the Brain Board's labels and a dozen stale document names fixed.
+
 ## [0.23.2] — 2026-11-09
 
 **Chapter 7 gets the social posts and every call to action (Brain 0.9.2 · Lead Magnet 0.12.2).** The Week 3 Kit's

@@ -79,7 +79,7 @@ reading level, the member's voice. The arc:
 7. **Day 16 — the CTA, warm.** Mike's register verbatim-adapted: *"If you'd like to chat about partnering
    with me and getting [the real things — the weekly call, the training, the onboarding] for free, book a
    call and we'll see if I can help. If not, that's okay — the emails keep coming either way."* — that is the
-   `yes` register; at `no`: *"If you'd like to talk through where you're at and how I teach this,
+   join register (`yes` or `unknown`); at `no`: *"If you'd like to talk through where you're at and how I teach this,
    book a call — no pitch. If not, that's okay — the emails keep coming either way."* The booking link (none on
    file yet → "reply to this email and I'll send you times" — this IS an email, so reply works; house rules #2).
    Then they roll into the weekly newsletter.

@@ -83,7 +83,7 @@ brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set
 
 ## Step 4 — Deliver, save, log
 1. Deliver the kit in chat as three labeled blocks (ManyChat · Email · Story), paste-ready.
-2. Save `Delivery Kit — [Guide Name]` into the campaign folder (output standard §4–§6; fallback applies). Keep
+2. No document of its own (the three-files rule — the chat blocks and the kit carry it). Keep
    the structured text at `~/attraction-brain/exports/delivery-kit-[slug]-YYYY-MM-DD.txt` (output standard §6).
 3. In `memory/magnets.md`, set the row's Keyword to `GUIDE` if blank (the Last reviewed column belongs to
    `lm-analytics`). **attraction-brain-sync PUSH.** Silent. Then, when the guide is already in the kit (the intake

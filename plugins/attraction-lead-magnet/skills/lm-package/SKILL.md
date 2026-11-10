@@ -1,12 +1,12 @@
 ---
 name: lm-package
 description: >
-  Writes the LEAD MAGNET half of the member's Week 3 Kit — the one file they upload to Claude Design in
-  Week 3 — and hands it to the Brain's kit builder: the guide's page outline and the guide word for word,
-  the opt-in page and the thank-you page word for word with their structure, the bios sized to each
-  platform, the messaging (headline, hook, button, keyword, call line, the DMs when written, the words we
-  don't use) and the design briefs; the guide itself stays its own file, so the kit holds its outline. Assembled from the finished
-  documents, never rewritten; no document of its own — the kit is the deliverable. Runs on its own at
+  Writes the LEAD MAGNET half of the member's Week 3 Kit — the kit they upload with their guide to Claude
+  Design in Week 3 — and hands it to the Brain's kit builder: the guide's outline with each page's picture
+  idea and its design brief (never the guide's copy — the guide is its own file), the opt-in page and the
+  thank-you page word for word, the bios sized to each platform, the messaging (headline, hook, button,
+  keyword, call line, the DMs when written, the words we don't use). Assembled from the finished
+  text, never rewritten; no document of its own — the kit is the deliverable. Runs on its own at
   the end of the Week 2 sitting and again when the bios or the delivery kit are written. Also records
   "the PDF is done" (Status designed, the download link). Trigger on: "add my guide to my kit", "rebuild
   my lead magnet package", "my lead magnet package", "design brief for my guide", "make my guide a PDF",
@@ -17,8 +17,7 @@ description: >
 
 A member finishing Week 2 holds **three things**: their offer, their guide (the PDF agents download) and **one
 Week 3 Kit** they upload to Claude Design. The kit is built by the Brain's `attraction-week3-kit`; its Part A is
-the offer, its Part B is the lead magnet — the guide and the page word for word, the messaging and the design brief
-for the guide and the page. **This skill writes Part B's text and hands it to the kit builder. It saves no document
+the offer, its Part B is the lead magnet — the guide's outline and brief, the page word for word, the bios and the messaging. **This skill writes Part B's text and hands it to the kit builder. It saves no document
 of its own, never rewrites a word of copy, and never renders a page, a PDF, an image or a mockup.**
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — #1, #3 (this is the ONE skill in the
@@ -67,7 +66,7 @@ been written, so say so and stop at the way back — and the stamp), `identity/p
 required, headshot location, handles), `brain.md` quick reference (the booking link), `memory/magnets.md` →
 `## Current magnet` (keyword, funnel URL, download link) and the intake block's `Reach:`.
 
-## Step 2 — Write Part II (structured text, output standard §4)
+## Step 2 — Write Part B, chapters 4–6 (structured text, output standard §4)
 Copy is **verbatim** from the parts — nothing added, nothing cut, no "punching up", no title changed, page titles
 exactly as the guide writes them (never re-cased). Strip each source document's own appendix (its `▸ NEXT …` and
 `▸ COMPLIANCE` bands); the kit carries one appendix at its end. **The kit is a book with a 25-page cap**: this plugin writes
@@ -124,6 +123,8 @@ Words we don't use:  the rules in chapter 7's design brief and the register line
 ──── HOW TO BUILD THE PAGE ────
 In Claude Design:  sections in the order above, copy verbatim, every section's own headline · the Hero's video embed, or the cut-out headshot where the Video line says to record · the Book-a-call area as the booking embed or a button to the link · every opt-in button opens the one pop-up (first name · email · phone optional), the button words exactly "Get the Free Guide" · the thank-you page's download is an instant download of the finished PDF, never "check your inbox" · the compliance stamp is the footer of both pages · test-submit the form once before any traffic, then tell me "my funnel is live" with the link.
 If a web person builds it:  a real form on the page itself (first name, email, phone optional) that sends the entry before the thank-you shows, never drawn by a script after the page loads · a hidden "are you a robot" field and a plain fallback (the member's email) if the send fails · test-submit once before any traffic.
+Your links:  add ?utm_source=bio, google, partner or reel to the page link wherever you post it, so the report can tell which door agents came through.
+Your booking tool, set once:  a free Calendly, one 30-minute Zoom event with five questions — do you acknowledge this is a conversation about partnering with me (don't book if you're already with my brokerage or have chosen a sponsor) · which brokerage are you with · where are you located · new agent, experienced, team leader or broker-owner · anything to help me prepare — reminders at 24 hours, 1 hour and 10 minutes; then say "set up my attraction operations" in your Brain so the link is recorded and every page points at it.
 
 ────────────────────────────────────────────
 CHAPTER 6 — BIOS
@@ -155,8 +156,8 @@ reads consistently.
    line (*"update your Brain plugin — Check for updates — and say 'rebuild my kit'"*); never render a kit here.
 3. **Log it (silently):** in `memory/magnets.md` the row's intake block gets `Kit doc: YYYY-MM-DD` (replace an older
    stamp). **attraction-brain-sync PUSH** (write → push → verify). Never narrate this or name the file.
-4. **Say one line** (the navigator's finish line carries it when it called you): *"Your guide and your page are in
-   your Week 3 Kit — the one file for Claude Design, in your home base folder beside your Brain Book."* Never the
+4. **Say one line** (the navigator's finish line carries it when it called you): *"Your guide's outline and your page are in
+   your Week 3 Kit, in your home base folder beside your Brain Book; in Week 3 you upload it with your guide to Claude Design."* Never the
    full text in chat.
 
 ## Step 4 — "the PDF is done" / "my guide is designed" (record only)
@@ -172,5 +173,5 @@ designed. When the page is live, say 'my funnel is live' with the link and every
 
 ## Quality checklist
 - [ ] The guide and the page outline present; compliance `set` or `confirmed`; the register read
-- [ ] Chapters 4–6 complete; the guide's copy NOT included (the idea, the outline, the picture ideas, the brief); the bios chapter from the profiles text; a missing optional part carries its one honest line and the phrase that writes it; copy verbatim; page titles as written; every inner heading a sub-band; the `DESIGN BRIEF —` line literal; the outline and structure blocks tight enough for the summary page; chapters within their word targets
+- [ ] Chapters 4–6 complete; the guide's copy NOT included (the idea, the outline, the picture ideas, the brief); the bios chapter from the profiles text; a missing optional part carries its one honest line and the phrase that writes it; copy verbatim; page titles as written; every inner heading a sub-band; the `DESIGN BRIEF —` line literal; the outline block (chapter 4) and the sections' `Headline:` lines (chapter 5) tight enough for the summary page; chapters within their word targets
 - [ ] Text kept in exports/; the kit builder run; `Kit doc:` stamped; pushed; one line in chat

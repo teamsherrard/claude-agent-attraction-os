@@ -185,7 +185,7 @@ Newsletter (`admin-newsletter`, `attraction-admin-team-wins`), Post-Event Follow
 📕 [Name]'s Agent Attraction Brain Book (nine sections, at most fifteen pages — `shared/brain-book-spec.md`) ·
 🧠 [Name]'s Brain Board (one HTML page rendered by `shared/render_board.py` from the Brain: the map, the goals tracker, today's three moves, the open items, a page per part and per weekly system; rendered after the Book and re-rendered by `attraction-brain-sync` on EVERY push, so a change anywhere in the member's project reaches it; never edited by hand) → `01 · AI Brain` ·
 🎯 [Name]'s 90-Day Attraction Scorecard (on demand, from `attraction-goals` — not a setup deliverable) → `01 · AI Brain` ·
-Prospect Radar reports → `04 · Agents/Prospects` · Why Join Me · the Offer Doc → `05 · Offer` · the Design
+Prospect Radar reports → `04 · Agents/Prospects` · the Partner Offer document → `05 · Offer` · the Week 3 Kit → `01 · AI Brain` (the why-join-me story and the value stack live inside it, never as documents) · the Design
 Package brief (paste-ready, in chat AND saved through the storage connector to `02 · Brand` as
 `Design Package Brief · [Name] · [date].md`, newest = current; kept verbatim in `identity/brand-visual.md`;
 reprinted by "show my design package brief"; a connector that is off or read-only means the Brain says so and

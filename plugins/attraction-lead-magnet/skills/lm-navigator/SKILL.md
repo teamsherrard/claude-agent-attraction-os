@@ -7,8 +7,8 @@ description: >
   broken down), loads the Agent Attraction Brain, builds the Partner Offer in-session if it is not
   built yet, then puts ONE lead magnet recommendation built from that offer in front of the member
   (say yes, or ask for the next best), runs a short intake pre-answered from the Brain, and hands
-  the magnet writer everything; the sales funnel outline follows and both go into the Week 3 Kit (the
-  one file for Claude Design) in the same sitting. No default magnet, never three. Trigger on: "launch my lead magnet plugin", "set up my lead
+  the magnet writer everything; the sales funnel outline follows; the page and the guide's outline go into the Week 3 Kit in the same
+  sitting. No default magnet, never three. Trigger on: "launch my lead magnet plugin", "set up my lead
   magnet for agents", "lead magnet for agents", "attraction lead magnet", "build my lead magnet for
   agents", "set up my attraction funnel", "opt-in funnel for agents", "finish my agent lead magnet".
 ---
@@ -80,7 +80,7 @@ The magnet is built **straight out of the Partner Offer** — the member's uniqu
 offer comes first. Read `~/attraction-brain/identity/offer.md` → its `Status:` line, and read
 `identity/compliance.md` → its first line, `Status:`. When the offer is built, the magnet is cut from ONE step of the
 member's named framework: `offer.md → ## The framework` lists the steps, and the `Lead-magnet seed:` line under
-`## How to talk about it` (the same step the Partner Offer doc's appendix, "For my content", names) says which
+`## How to talk about it` says which
 — Step 3's recommendation is cut from that step. An older offer file without those blocks → the Teach-first
 lesson or the UVP mechanism, as before. Then decide the welcome from what you found. **Every welcome opens
 with the Week 2 outcome statement, verbatim, as its own first paragraph** — the member knows what this week
@@ -117,7 +117,7 @@ line.** Continue in the same breath:
 
 > *"Your offer's built. Now the lead magnet."*
 
-→ Step 3. (The offer skill knows the Lead Magnet plugin started the session, so its close hands straight
+→ Step 3. (Hand the offer skill one line first — *Lead Magnet sitting — skip the kit; close with "Your offer's built. Now the lead magnet."* — so the offer skill knows the Lead Magnet plugin started the session, so its close hands straight
 back here instead of listing other next steps.)
 
 **Offer at `Status: finalized by member …` or `Status: built in Week 2 …` → the offer is in hand.** The
@@ -134,9 +134,10 @@ welcome says so and goes to the magnet:
 
 A **yes** (or anything that isn't a different request) → Step 3.
 
-**Finalized before 2026-11-02** (the header has no `Join-gated package allowed:` line — the upline, brokerage-rule,
-hosting and content pages don't exist yet, so the Week 2 promise can't be kept from it) → run the Brain's offer
-skill in refine mode now (one card: the member says yes or changes a line), then continue into the magnet.
+**Built with an older shape** (the header has no `Join-gated package allowed:` line, or `offer.md` lacks `Proof plan:`,
+`Differentiator:` or `Lead-magnet seed:`, or its public lines read the open register while the header says `yes` or
+`unknown`) → run the Brain's offer skill's **silent shape upgrade** now (no card, no question; it says one line that
+the offer was brought up to date), then continue into the magnet.
 
 **Finalized but thin** (the five-pains table, the framework steps, or "What's included" is empty) → keep the build-first default:
 one line that the "what you actually give" part is light, that you'll build with what's there and sharpen the
@@ -159,7 +160,7 @@ Someone saying "set up my lead magnet for agents" might be starting fresh **or**
 half-built. Find out before you ask them anything — a returning member should never be asked a question you
 could have answered yourself. Read `~/attraction-brain/memory/magnets.md` first (the Status column), then
 confirm against the workspace's campaign folders (`${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §1 —
-`03 · Content/Guides/`). **Four states — check them in this order; the first match wins:**
+`03 · Content/Guides/`). **Five states — check them in this order; the first match wins:**
 
 | What you find | What it means | What you do |
 |---|---|---|
@@ -183,7 +184,7 @@ converted; it weighs the three kinds of magnet silently (a TOOL — the member's
 uses this week · a PLAN — a 30- or 90-day roadmap from the program's own structure · a DECISION or PROOF
 piece — the lead-bill math worksheet, a consented case study, a fair comparison guide when the offer is about
 choosing, a 5-day challenge) and puts **ONE recommendation** on one card in a plain message under 120 words:
-the title (written like a real lead magnet — a number or an outcome in it, under 12 words, checked once
+the title (written like a real lead magnet — a number or an outcome in it, seven words or fewer, checked once
 against what agents actually type), the promise in one sentence, who it is for in plain words, and **why this
 one for THIS member in two lines**, in Mike's reasoning — **no lesson codes on the member's screen**; the
 citation goes into the Brain's magnet record and the document. Then one reply line: *"Say yes and I'll write
@@ -221,7 +222,7 @@ never ask something the Brain can answer.
   `Mike's lesson:` field the recommender handed over, so the writer can cite it in the document and no one
   prints it in chat.
 
-Close the intake with one confirming line — *"Perfect, that's everything I need. Give me a few minutes and
+Close the intake with one confirming line — *"Perfect, that's everything I need for the guide. Give me a few minutes and
 I'll have your [magnet, in plain words]."* — and go.
 
 ## Step 5 — Hand off, then close the session
@@ -290,7 +291,7 @@ Never a flat "can't." Offer the nearest real thing (house rules #3, #4):
 
 | They ask for | Say |
 |---|---|
-| "Design the PDF / build the page for me" | *"I write all the words and lay out every section, and they go into your Week 3 Kit — the one file you upload to Claude Design in Week 3, with the build notes inside. The pretty version gets made there. You'll have everything."* |
+| "Design the PDF / build the page for me" | *"I write all the words and lay out every section, and the page goes into your Week 3 Kit with the build notes, and in Week 3 you upload the kit and your guide to Claude Design. The pretty version gets made there. You'll have everything."* |
 | "Can you put it live / host it?" | *"I'll get the docs ready to go; your design step can take the page live, or you host it wherever you like — your site, GoHighLevel, wherever you're comfortable."* |
 | "Put a 'book a call' button on the page" | *"It's there — the page's main job is the guide, so the opt-in sits top, middle and bottom, and near the bottom there's a book-a-call area for the agent who's already sure. The thank-you page offers the call again the moment they grab the guide."* |
 | "Can it email them the guide?" | *"They'll get it as an instant download the second they sign up — no waiting on an inbox. I'll also write the delivery email and the follow-up sequence you load into your own list tool."* |

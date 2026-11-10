@@ -1,6 +1,6 @@
 # Brain Doc Formatting — render deliverables as clean, formatted .docx
 
-How the Brain's skills save documents (the Partner Offer, the Scorecard, the Why Join Me doc, the Model Positioning Sheet) so
+How the Brain's skills save documents (the Partner Offer, the Week 3 Kit, the Scorecard, the Model Positioning Sheet) so
 they're organized in Drive and genuinely look good. When a skill says "save as a clean doc (doc-formatting
 standard)," it means this. **Every deliverable is rendered to a formatted `.docx` in one neutral house style —
 the same clean look for every member (no colour, no per-member branding).**

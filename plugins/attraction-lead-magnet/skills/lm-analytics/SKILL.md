@@ -43,7 +43,7 @@ One message, five numbers, their turn — each with where to find it, so it take
 > page (your page tool shows it), how many grabbed the guide (your form or your list tool), how big your list is
 > today, how many calls got booked by people who grabbed the guide first (your calendar — if you can't tell, give
 > me total calls and say so), and whether the newsletter went out. Rough is fine; 'don't know' is fine."*
-> If the page link carries source tags (the funnel outline's appendix: bio, google, partner, reel), ask the page
+> If the page link carries source tags (your kit's build notes: bio, google, partner, reel), ask the page
 > tool for visits by source and name the strongest door in the report.
 "Don't know" → the cell stays blank; **never estimate**, never fill from a prior week. Opt-in rate is computed
 only when both visits and opt-ins are present.

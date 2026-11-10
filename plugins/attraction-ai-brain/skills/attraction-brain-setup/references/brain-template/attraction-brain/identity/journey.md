@@ -37,7 +37,7 @@
 - The why-line → `goals.md` opens with it
 
 ## Why join me
-*Owner: `attraction-why-join-me` (Week 2). Shape: past → transformation → mission → value → vision (`04-value-proposition/34`). Rendered inside the Week 3 Kit and the Partner Offer's appendix — never a document of its own, never in the Brain Book. No compensation numbers; the brokerage is the vehicle, the member is the reason.*
+*Owner: `attraction-why-join-me` (Week 2). Shape: past → transformation → mission → value → vision (`04-value-proposition/34`). Rendered inside the Week 3 Kit (chapter 3) — never a document of its own, never in the Brain Book. No compensation numbers; the brokerage is the vehicle, the member is the reason.*
 **Status:** [not written yet (Week 2) | written YYYY-MM-DD | updated after the offer YYYY-MM-DD]
 **60-second version (said on camera or a call):** [ ]
 **Long version (bio, "about", the partner-call opener):** [ ]
