@@ -41,12 +41,14 @@ unique value proposition; one recommendation; no default magnet). The three laws
 3. **The lead magnet document** (`lm-magnet`).
 4. **The sales funnel outline** (`lm-funnel` — the opt-in page copy and strategy, the two-step opt-in, the
    thank-you page with the instant download and the call).
-5. **The Week 3 Kit** (`lm-package` writes the lead magnet half — the guide and the page word for word, the
-   messaging, the design brief — and the Brain's `attraction-week3-kit` saves the ONE file, offer and lead magnet
-   together, in the home base folder beside the Brain Book). The member ends Week 2 with three files: the offer, the
+5. **The bios** (`lm-profiles` in silent mode — every bio sized to its platform, from the offer, who they are and
+   where they live, pointed at the page or the booking link; no document of its own).
+6. **The Week 3 Kit** (`lm-package` writes chapters 4–6 — the guide's outline and picture ideas with its design brief,
+   the page word for word, the bios, the messaging — and the Brain's `attraction-week3-kit` saves the ONE file, under
+   25 pages, in the home base folder beside the Brain Book). The member ends Week 2 with three files: the offer, the
    guide, the kit — never more.
-6. Then, as separate asks whenever they're ready: delivery, nurture, bios, Google Business Profile,
-   partnerships, analytics (the bios and the delivery kit go into the package on their own).
+7. Then, as separate asks whenever they're ready: delivery, nurture, Google Business Profile, partnerships,
+   analytics (the delivery kit goes into the kit's chapter 5 on its own).
 
 ---
 
@@ -228,18 +230,20 @@ I'll have your [magnet, in plain words]."* — and go.
 2. Pass to **`lm-magnet`** with the focus **already locked** (the shape, the type of agent, the one pain, the
    promise, "built from: [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]") plus the intake bundle — it skips its own
    Phase 1 and writes. When the magnet is done it hands off to **`lm-funnel`** on its own, which writes the
-   sales funnel outline. **Then run `lm-package`** (silent) with the two texts just written: it writes the lead
-   magnet half of the **Week 3 Kit** and the Brain's kit builder saves the one kit — the offer and the lead magnet
-   together — in the home base folder. You don't come back until all three are done.
+   sales funnel outline. **Then run `lm-profiles`** (silent mode — the bios, no questions, no document), **then
+   `lm-package`** (silent) with the texts just written: it writes chapters 4–6 of the **Week 3 Kit** and the Brain's
+   kit builder saves the one kit — the offer, the page, the bios — in the home base folder, under 25 pages. You don't
+   come back until all four are done.
 3. **Close the session with the finish line** — one short block, plain words, nothing numbered:
    *"Done. You now have three files: your offer, in your Offer folder; your guide, under Content → Guides; and your
-   Week 3 Kit, in your home base folder beside your Brain Book — the one file you upload to Claude Design in Week 3,
-   with your brand brief. The kit holds your offer, your guide, your page copy and the build notes, so the design
-   gets made from it. Your Brain Board shows the magnet and what's left. This week: open the guide in
+   Week 3 Kit, in your home base folder beside your Brain Book. Chapter 1 of the kit is your two-page summary, and
+   chapter 6 is your bios — Instagram, Facebook, LinkedIn, YouTube and more, each sized to its platform; paste them in
+   this week. In Week 3 you upload the kit and your guide to Claude Design, with your brand brief. Your Brain Board
+   shows the magnet and what's left. This week: open the guide in
    Google Docs or Word and download it as a PDF — that's your shareable version today (the branded design comes in
    Week 3). Upload that PDF to the same Guides folder, share it 'anyone with the link', and that link is your
-   download button. Then your bios — say 'update my attraction bios' (five minutes) — and the DM and email that
-   send the guide — 'deliver my guide'; both go into your kit on their own. Your page goes live in Week 3;
+   download button. Then the DM and email that send the guide — say 'deliver my guide'; they go into your kit on
+   their own. Your page goes live in Week 3;
    until then you hand the guide out by DM and email. If we get cut off, 'finish my agent lead magnet' picks up
    exactly here."*
 

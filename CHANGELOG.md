@@ -2,6 +2,28 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.23.0] — 2026-11-09
+
+**Twenty-five pages, the bios inside (Brain 0.9.0 · Lead Magnet 0.12.0 · Support 0.1.18).** The owner's cap: the Week 3
+Kit may not pass 25 pages, with nothing of substance lost; and the bios must be written automatically and live in the
+kit as their own linked chapter.
+- **The guide is no longer copied into the kit.** It is its own finished file, so Week 3 uploads two files — the kit and
+  the guide — plus the Design Package brief. Chapter 4 of the kit keeps the guide's outline, the picture idea for each
+  page and its design brief (`lm-package`, `attraction-week3-kit`, `house-rules.md` #3, the brand chat and health nudge,
+  Support, `setup-guide.md`).
+- **Eight chapters, no part-opener pages, a word budget per chapter and a fixed trimming order** (`attraction-week3-kit`
+  "The page budget": the call deck, the welcome letter, the social lines and the content branches trim first; the
+  summary, the page copy, the bios and the briefs' rules never). A standard-library one-liner measures words per chapter
+  after assembling.
+- **The bios are a step in the sitting and chapter 6 of the kit.** `lm-navigator` runs `lm-profiles` in a new silent mode
+  after the page outline; every bio is sized to its platform (Instagram 150, Facebook intro 101, LinkedIn headline 220
+  and About 2,600, YouTube 1,000, and the rest) with the count shown, built from the offer, who the member is and where
+  they live, pointed at the page or the booking link. The separate "Platform Profiles" document is gone
+  (`output-standard.md`, `brain-contract.md`); a standalone "update my attraction bios" shows the pack in chat and
+  rebuilds chapter 7.
+- The finish line names the two Week 3 uploads and the bios chapter; `lead-magnet-demo-checklist.md` says to count the
+  pages and click "Your bios" in the contents.
+
 ## [0.22.0] — 2026-11-09
 
 **Find anything in one click (Brain 0.8.0 · Lead Magnet 0.11.0).** The owner's second review of the live Week 2 files:
@@ -16,7 +38,7 @@ pages sat behind the agent's. "If I want my lead magnet outline I have to scroll
 - **The Partner Offer is agent-facing only**: a cover, a linked contents page, At a glance and eleven sections, about
   8 to 10 pages. The member's pages — the marketing language, what I assumed, how to create it, start with your upline,
   the brokerage rule, where to host it, the content branches — stay in `offer.md` (new `## What I assumed` section in
-  `offer-template.md` and the Brain template) and render as chapter 6 of the kit, "Your offer, for your eyes only".
+  `offer-template.md` and the Brain template) and render as chapter 8 of the kit, "Your offer, for your eyes only".
   `attraction-offer`'s gate checks twelve bands and the contents block; `partner-offer-doc.md` carries the block.
 - Support (`cohort-kb.md`) and `lead-magnet-demo-checklist.md` describe the new shape; the demo now says to open the kit
   and click a contents link.

@@ -90,8 +90,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" ~/attraction-brain/exports/
 ## The structure — the cover, a linked contents page, At a glance, then eleven sections (agent-facing only)
 
 The member's own pages (the appendix, how to create it, start with your upline, the brokerage rule, where to host
-it, the content branches) are **no longer in this document** — `offer.md` holds them and the Week 3 Kit renders them
-as chapter 6. This document is what an agent reads, about 8 to 10 pages, and it ends at the compliance line.
+it, the content branches) are **no longer in this document** — `offer.md` holds them and the Week 3 Kit renders them as chapter 8. This document is what an agent reads, about 8 to 10 pages, and it ends at the compliance line.
 
 ### The contents block (the renderer's book grammar — a cover page and a linked CONTENTS page)
 Right after the head lines (the title line, the meta line, the tagline), before the first band:
@@ -269,8 +268,7 @@ NOT ALLOW A JOIN-GATED PACKAGE, WHERE TO HOST IT and YOUR CONTENT BRANCHES are w
 (`## How to talk about it` · `## What I assumed` · `## How to create it` · `## Start with your upline` · `## If your
 brokerage does not allow a join-gated package` · `## Where to host it` · `## Content branches`) with the same rules
 as before — real steps only, the three signs each true today or not yet, one host and four set-up steps, 5 to 7
-branches with three topics each, never a compensation topic — and **rendered by `attraction-week3-kit` as chapter 6
-of the Week 3 Kit**. They never appear in the agent-facing document.
+branches with three topics each, never a compensation topic — and **rendered by `attraction-week3-kit` as chapter 8 of the Week 3 Kit**. They never appear in the agent-facing document.
 
 ## Voice rules (the gate reads for these)
 - First person, confident, no filler. No sentence explains why a section exists ("so neither of us has to

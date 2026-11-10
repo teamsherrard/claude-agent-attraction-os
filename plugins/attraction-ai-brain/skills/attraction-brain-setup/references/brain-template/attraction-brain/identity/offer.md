@@ -21,7 +21,7 @@
 ## The mistakes agents are making right now (Setup Conversation 2, question 17 — verbatim)
 [the biggest mistakes the member sees agents making, and why they — or joining their brokerage — can be the solution. `attraction-offer` reads these as the pains the offer answers; `attraction-persona-map` reads them as the agents who will relate.]
 
-## What I assumed (Week 2 — owned by `attraction-offer`; one line per default the offer card decided; renders in the Week 3 Kit's chapter 6)
+## What I assumed (Week 2 — owned by `attraction-offer`; one line per default the offer card decided; renders in the Week 3 Kit's chapter 8)
 - [ ]
 
 ## Notes for Week 2 (appended by capture — never rewrites the above)

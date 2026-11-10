@@ -29,13 +29,15 @@
 - [ ] It continues straight into the page — no "want me to write the page?" question.
 - [ ] The sales funnel outline: the headline and the eleven section names in one line, and that it lives in the
   Week 3 Kit — NO document of its own.
+- [ ] The bios: written silently after the page — no question, no document card; they are chapter 6 of the kit.
 - [ ] The Week 3 Kit: one line and the link — `Week 3 Kit — Taylor Brooks — 2026-… — DEMO` in the home base folder
-  beside the Brain Book, offer and lead magnet together. No full text in chat. OPEN IT: a cover page, a CONTENTS page
-  where every line is a link, then chapter 1 — the two-page summary (the offer table, the lead magnet outline, the
-  sales funnel outline, where everything lives, how to use it in Week 3). Every chapter after that starts on its own
-  page. Click "Your guide, word for word" in the contents and land on it — no scrolling.
+  beside the Brain Book. No full text in chat. OPEN IT: a cover page, a CONTENTS page where every line is a link, then
+  chapter 1 — the two-page summary (the offer table, the guide outline, the sales funnel outline, where everything
+  lives, how to use it in Week 3). Eight chapters, each on its own page; **under 25 pages** (count them). Click "Your
+  bios" in the contents and land on Instagram, Facebook, LinkedIn, YouTube with the character counts. The guide's full
+  text is NOT in the kit — the guide is its own file and is uploaded beside the kit in Week 3.
 - [ ] The Partner Offer (if built this sitting): a cover, a linked contents page, At a glance, eleven sections, about
-  8 to 10 pages — agent-facing only; the member's own pages are chapter 6 of the kit.
+  8 to 10 pages — agent-facing only; the member's own pages are chapter 8 of the kit.
 - [ ] The finish line: three files — the offer, the guide, the kit — and where each lives · the kit is the Week 3
   upload · export the guide as a PDF today, upload it to the same folder, share "anyone with the link" · the bios
   phrase · the delivery phrase · the page goes live in Week 3 · the resume phrase (`finish my agent lead magnet`).
@@ -44,7 +46,7 @@
 
 ## After the screen (each one phrase, two minutes)
 - `open my brain board` — the Lead Magnet dot is lit "this week"; its page shows the guide on file and what is left.
-- `update my attraction bios` — the five platforms plus the extras, one pack, saved to Brand.
+- `update my attraction bios` — refreshes the bios (shown in chat as copy blocks; chapter 6 of the kit rebuilt); no document.
 - `deliver my guide` — the by-hand DM script first; the ManyChat version labelled for Week 3.
 - `what do I upload to Claude Design` — hands back the one Week 3 Kit (one line, one link); no "Brand HQ", no skill
   names, no Claude Design before Week 3.

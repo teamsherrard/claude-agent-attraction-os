@@ -19,7 +19,6 @@ and sequence that serve it always sit together:
 [Workspace]/                                   (located by ID — see §3)
 ├── 02 · Brand/
 │     ├── 📍 [Name]'s Google Business Profile Kit — 2026-12-16.docx     (lm-gbp)
-│     └── 🪪 [Name]'s Platform Profiles — 2026-12-16.docx              (lm-profiles)
 ├── 03 · Content/
 │   └── Guides/
 │       ├── 2026-12-16 · The Five-Step Sunday Routine/     (one campaign — created when the magnet is built)
@@ -55,7 +54,8 @@ Find-or-create; never duplicate a folder. No `Listings`, no `Market` — this OS
 | Newsletter | `Weekly Newsletter — YYYY-MM-DD` | |
 | List report | `List Growth Report — YYYY-MM-DD` | |
 | Partner kit | `Partner Outreach Kit — YYYY-MM-DD` | |
-| GBP kit · Profiles | `📍 [Name]'s Google Business Profile Kit — YYYY-MM-DD` · `🪪 [Name]'s Platform Profiles — YYYY-MM-DD` | |
+| GBP kit | `📍 [Name]'s Google Business Profile Kit — YYYY-MM-DD` | |
+| The bios | no document — `exports/platform-profiles-YYYY-MM-DD.txt`, rendered as chapter 6 of the Week 3 Kit | |
 
 Guide Name = the magnet's title exactly as the recommender locked it (seven words or fewer, Title Case) — a checklist or a plan is still named this way,
 and the Design Studio keys on the exact prefix `Lead Magnet — ` and, inside the Week 3 Kit, on the sub-bands

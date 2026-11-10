@@ -408,7 +408,7 @@ community, proof, why now, the marketing language (the 30-second explanation, th
 video intro line) and the keyword, then the member's own pages from §6 (how to create it · start with your
 upline · the brokerage rule's section · where to host it · the content branches); write `identity/offer.md`;
 write `## What I assumed` (one line per default the card decided — the only list of assumptions anywhere; it renders
-in the Week 3 Kit's chapter 6, never in the agent-facing document); render the Partner Offer; run the gate; push;
+in the Week 3 Kit's chapter 8, never in the agent-facing document); render the Partner Offer; run the gate; push;
 deliver. Open items are marked in the file, never in the doc.
 
 The comment keyword is coined from the program name before the build, so the document carries it. Every
@@ -422,7 +422,7 @@ The doc is the program, written to be read **by an agent** — a cover page, a l
 glance page and eleven sections, each at or above its floor, exactly per `references/partner-offer-doc.md`. **The
 member's own pages (the marketing language, what I assumed, how to create it, start with your upline, the brokerage
 rule, where to host it, the content branches) are no longer in this document**: they are written to `offer.md` as
-before and rendered by `attraction-week3-kit` as chapter 6 of the Week 3 Kit, "Your offer, for your eyes only" (the
+before and rendered by `attraction-week3-kit` as chapter 8 of the Week 3 Kit, "Your offer, for your eyes only" (the
 owner's ruling, 2026-11-09: a 13-page offer document overwhelmed the test run). The document ends at the compliance
 line.
 
@@ -452,7 +452,7 @@ line.
   start with your upline, the brokerage rule, where to host it and the content branches: all written to `offer.md`
   (`## How to talk about it` · `## What I assumed` · `## How to create it` · `## Start with your upline` · `## If your
   brokerage does not allow a join-gated package` · `## Where to host it` · `## Content branches`) and rendered in the
-  Week 3 Kit's chapter 6.
+  Week 3 Kit's chapter 8.
 
 Compensation appears nowhere. If the member asks for splits, caps, stock, rev share, or income figures in
 the offer: one line — *"I'll leave that off the page; compensation belongs on a private, brokerage-approved
@@ -566,7 +566,7 @@ and check ALL of:
 19. **The member's pages are real, in `offer.md`** — How to create it lists only things the member can do this
     week and marks what exists as done; Start with your upline carries the three signs each marked true today or
     not yet; Where to host it names one host and the four things to set up; Content branches has 5 to 7 segments
-    with three topics each, none a compensation topic. The Week 3 Kit renders them (chapter 6).
+    with three topics each, none a compensation topic. The Week 3 Kit renders them (chapter 8).
 
 **If a check fails: fix the structured text and re-render ONCE.** Brackets, a compensation word, a result
 not in `proof.md`, a missing band, the compliance line out of place, a second explanation of the method, an
@@ -584,7 +584,7 @@ Three lines, then the next step — never a tour of the document:
 is [the framework name] — [the step chain]. It's saved to your Drive → [workspace] → 05 · Offer → [name]; it's the
 document you walk an agent through, and the At a glance page is the one to read first. Your own pages — how to
 create it, how to start with your upline, the words to use, where to host it, the content branches — are in
-chapter 6 of your Week 3 Kit."*
+chapter 8 of your Week 3 Kit."*
 **Then, before the close, the rest of the offer — silently, no questions:** run **attraction-why-join-me** in
 silent mode (the statement and the 60-second story, from the Brain — no document of its own) → **attraction-free-vs-paid**
 in silent mode (the stack sorted free · included · discounted, the free line, the up-front cost line, version one of

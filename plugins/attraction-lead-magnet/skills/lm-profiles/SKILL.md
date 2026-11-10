@@ -7,9 +7,9 @@ description: >
   brokerage site, and an email signature — each sized to the platform's real limit (count shown),
   passing the 5-question profile test (who you are · who you help · the outcome · why believe you ·
   what next) with ONE link (the funnel, else the booking link) and one identity line everywhere.
-  Reads the Brain, saves the pack as a styled doc, creates identity/profiles.md (later runs refine
-  inside the same headings). 3-state compliance gate; license display never cut. Copy only. Trigger
-  on: "update my attraction bios", "my attraction bios", "bios for attracting agents", "align my profiles
+  Reads the Brain, writes identity/profiles.md and chapter 6 of the Week 3 Kit (no document of its own;
+  runs silently inside the Week 2 sitting). 3-state compliance gate; license display never cut. Copy
+  only. Trigger on: "update my attraction bios", "my attraction bios", "bios for attracting agents", "align my profiles
   to my funnel", "my Instagram bio for agents", "LinkedIn about for agent attraction", "optimize my
   profiles for attraction".
 ---
@@ -115,12 +115,11 @@ and carry the mirror in one line (former brokerage never named). Instagram highl
 suggest four — the guide · how we work together · the community · the member as a person.
 
 ## Step 4 — Deliver + write back (atomic)
-1. Render ONE doc per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §4 (render_doc.py): each platform as
-   a section, the paste-ready text in a copy block, the character count under it, the 5-question check as one
-   line, and — on an update run, for the five shared platforms — a one-line "what changed" note. Name: **"🪪 [Name]'s
-   Platform Profiles — [YYYY-MM-DD]"** → save to the workspace's **`02 · Brand/`** (find-or-create), hand the
-   DIRECT link. Compliance stamp per house rules #5 (`set` → one reminder). Keep the structured text at
-   `~/attraction-brain/exports/platform-profiles-YYYY-MM-DD.txt` (output standard §6).
+1. **No document of its own.** Write the pack as structured text — one `──── PLATFORM (LIMIT) ────` sub-band per
+   platform, the paste-ready text, the character count under it as "148 characters" — to
+   `~/attraction-brain/exports/platform-profiles-YYYY-MM-DD.txt` (output standard §6). It becomes **chapter 6 of the Week 3 Kit, "Your bios"**, linked from the kit's contents page; that is where the member finds the bios. On a
+   standalone run, also show the pack in chat as copy blocks (that is how they paste). Compliance stamp per house
+   rules #5 (`set` → one reminder).
 2. Write **`~/attraction-brain/identity/profiles.md`** the way the contract says. **First run (the file is absent, OR present with only the template's `[bio]` placeholders — the normal Week 2
    case, since every Brain ships the empty file) → create or fill it** from the shape in `shared/brain-contract.md`: the header, the
    five headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` ·
@@ -130,12 +129,18 @@ suggest four — the guide · how we work together · the community · the membe
    exactly as they are; replace only the bio text inside each section; append any of the additions that
    don't exist yet; never rename, reorder, or delete a heading. Either way, end each touched section with
    `*Updated by the Lead Magnet plugin on YYYY-MM-DD — CTA → [the funnel]*`. Then **attraction-brain-sync PUSH**
-   (write → push → verify — the write-back law; the push also refreshes their Brain Board). When the current
-   magnet is already in the kit (`memory/magnets.md` → its intake block's `Kit doc:` is stamped), run `lm-package`
-   silently so the Week 3 Kit carries the bios; if that fails, one line names "add my guide to my kit" for later. `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
+   (write → push → verify — the write-back law; the push also refreshes their Brain Board). Then hand the pack to
+   the kit: inside the Week 2 sitting the navigator runs `lm-package` next; on a standalone run, run `lm-package`
+   silently now so chapter 6 of the Week 3 Kit carries the new bios; if that fails, one line names "add my guide to my
+   kit" for later. `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
    fills `## YouTube` in Week 4. `lm-gbp` reuses the Google section; every other system now quotes the same
    identity.
-3. Close with the checklist: *"Paste each one into its platform — start with Instagram and LinkedIn. Your Week 3
-   Kit is rebuilt, so these are in it too. When your guide goes live, your offer sharpens, or your brokerage
-   changes, say 'update my attraction bios' and I'll refresh the whole stack."* (Drop the kit sentence when the
-   guide is not in the kit yet.)
+3. Close (standalone runs only — inside the sitting the navigator's finish line says it): *"Paste each one into its
+   platform — start with Instagram and LinkedIn. They're also chapter 6 of your Week 3 Kit. When your guide goes
+   live, your offer sharpens, or your brokerage changes, say 'update my attraction bios' and I'll refresh the whole
+   stack."*
+
+## Silent mode (called by `lm-navigator` after the page outline, before the kit)
+No welcome, no question, no chat delivery: Steps 0–3 as written (the Brain answers everything — the offer, the market
+from `profile.md`, the funnel's call to action and link), Step 4's text to `exports/`, `identity/profiles.md` written
+and pushed, the pack handed to `lm-package`. The navigator's finish line tells the member the bios are chapter 6 of their kit.

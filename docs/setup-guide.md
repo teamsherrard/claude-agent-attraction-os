@@ -204,9 +204,10 @@ a paste-ready block for Claude Design, and saves it in your 02 · Brand folder.
    thumbnails, and every later graphic read your brand from 02 · Brand.
 7. **Back in Cowork:** say `update my attraction brand direction` so your Brain knows the kit is done, then
    `check my attraction brain` — it counts the kit as your Week 3 brand item.
-8. **Your offer kit, your guide and your opt-in page.** In the same project, upload your **Week 3 Kit** from Week 2
-   (your home base folder, beside your Brain Book; in Cowork `what do I upload to Claude Design` hands it to you) and
-   ask for the pieces one at a time, copy verbatim: the Join My Team one-pager, the offer stack, the product mockup,
+8. **Your offer kit, your guide and your opt-in page.** In the same project, upload your **Week 3 Kit** and your
+   **guide** from Week 2 (the kit in your home base folder beside your Brain Book, the guide in your Guides folder; in
+   Cowork `what do I upload to Claude Design` hands you the kit and names the guide) and ask for the pieces one at a
+   time, copy verbatim: the Join My Team one-pager, the offer stack, the product mockup,
    the guide PDF with its cover, the opt-in page, the thank-you page, then the call deck and the welcome pack. Save
    the offer pieces to your Offer folder (`my offer kit is designed`) and the PDF to your Guides folder, shared
    "anyone with the link" (`the PDF is done`); when the page is live, `my funnel is live` with the link.
@@ -350,7 +351,7 @@ welcome email and the Circle calendar]`.
 - [ ] `build my top 50` — your first named prospects
 - [ ] `set my attraction goals` — lock this quarter's target and your weekly activity; then `attraction weekly check-in` every Friday
 - [ ] `just talked to an agent` — from the car, anytime
-- [ ] Week 2: `launch my lead magnet plugin` — it builds your offer first if it isn't built yet, then ONE lead magnet (say yes to the one it recommends, or ask for the next best) and its sales funnel outline, one sitting; the guide and the page go into your Week 3 Kit — three files in all for the week: your offer, your guide, your kit (`build my partner offer` on its own still works; the plugin then goes straight to the magnet) · the same week, your tools: `set up my attraction operations` (with your Calendly link)
+- [ ] Week 2: `launch my lead magnet plugin` — it builds your offer first if it isn't built yet, then ONE lead magnet (say yes to the one it recommends, or ask for the next best) and its sales funnel outline, one sitting; the page, your bios and the guide's outline go into your Week 3 Kit (under 25 pages) — three files in all for the week: your offer, your guide, your kit (`build my partner offer` on its own still works; the plugin then goes straight to the magnet) · the same week, your tools: `set up my attraction operations` (with your Calendly link)
 
 **Week 3 — your brand (with Claude Design)**
 
@@ -360,7 +361,7 @@ welcome email and the Circle calendar]`.
 - [ ] `design my attraction logo` — or skipped because you love yours
 - [ ] `build my brand style sheet` · `make my brand kit` · `push this to my Drive` → 02 · Brand
 - [ ] `update my attraction brand direction` · `check my attraction brain`
-- [ ] Week 3 Kit uploaded to the same Claude Design project · one-pager, offer stack, product mockup, call deck, welcome pack, guide PDF, opt-in page and thank-you page designed from it · `my offer kit is designed` · `the PDF is done`
+- [ ] Week 3 Kit and the guide uploaded to the same Claude Design project · one-pager, offer stack, product mockup, call deck, welcome pack, guide PDF, opt-in page and thank-you page designed from them · `my offer kit is designed` · `the PDF is done`
 
 Everything here is assistance, not legal advice: check every public piece against your brokerage's advertising and
 revenue-share marketing rules.

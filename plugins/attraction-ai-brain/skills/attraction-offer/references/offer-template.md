@@ -175,7 +175,7 @@ Link: [the community's link once it exists — or "not set up yet"]
 Status: [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: I | I + II]
 
 ## What I assumed
-(owned by attraction-offer — one line per default the offer card decided: type · name with its two alternates · framework name · call day and time · recorded vs live · support rhythm · the 90-day outcome · the first lesson · the costs line · the keyword · the brokerage answer; renders in the Week 3 Kit's chapter 6, never in the agent-facing document)
+(owned by attraction-offer — one line per default the offer card decided: type · name with its two alternates · framework name · call day and time · recorded vs live · support rhythm · the 90-day outcome · the first lesson · the costs line · the keyword · the brokerage answer; renders in the Week 3 Kit's chapter 8, never in the agent-facing document)
 • …
 
 ## Notes for Week 2

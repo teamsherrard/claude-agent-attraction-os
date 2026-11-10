@@ -114,15 +114,18 @@ publishes anything live.
   magnet half (the guide and the page word for word, the messaging, the design brief — the one place this plugin
   writes design direction) and the Brain's `attraction-week3-kit` saves the one file, offer and lead magnet together.
   **A member finishing Week 2 holds three files — the offer, the guide, the kit — never more**: the page copy, the
-  messaging and the brief are never documents of their own. Every other skill just notes the **assets the member
+  bios, the messaging and the brief are never documents of their own. **The kit is capped at 25 pages** — the guide
+  is uploaded beside it, never copied into it. Every other skill just notes the **assets the member
   should gather**.
 - The design step is whoever builds it: the member's **Claude Design** workspace (with the Design Studio's
   lead-magnet and funnel skills when they are installed — never assume they are), their web person, or their
   site tool (their site, GoHighLevel, Carrd). Every doc this plugin writes is complete without any design skill:
   the labelled lines are the spec. Say so plainly — we give them finished copy docs; what happens next is theirs.
-- "Which file do I upload?" → the newest **Week 3 Kit** in the home base folder (`01 · AI Brain`, beside the Brain
-  Book) plus the **Design Package brief** from the Week 3 brand chat; the newest **Agent Attraction Brain Book**
-  when a design skill asks for it. Never the raw engine files, never a DEMO-watermarked Book.
+- "Which file do I upload?" → three things: the newest **Week 3 Kit** in the home base folder (`01 · AI Brain`,
+  beside the Brain Book), **the guide** (`Lead Magnet — [Guide Name]` in its Guides folder — the kit holds only its
+  outline, so the designer needs the guide itself) and the **Design Package brief** from the Week 3 brand chat; the
+  newest **Agent Attraction Brain Book** when a design skill asks for it. Never the raw engine files, never a
+  DEMO-watermarked Book.
 
 ---
 

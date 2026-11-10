@@ -9,19 +9,19 @@
     {
       "name": "attraction-ai-brain",
       "source": "./plugins/attraction-ai-brain",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "description": "PLUGIN 1 — install first. The Agent Attraction Brain: one shared brain (who you are as a leader, your story, what you can teach, who your story speaks to, your numbers, your voice) every other system reads. 'Set up my attraction brain' is four short conversations and three answers in your own voice, one plain question at a time; then every tool knows you and you get your Brain Book. Also the Daily Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator and Capture."
     },
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "description": "PLUGIN 2 — install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about…\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
       "name": "attraction-lead-magnet",
       "source": "./plugins/attraction-lead-magnet",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "description": "PLUGIN 3 — install in Week 2. Lead Magnets & Opt-In Funnels pointed at agents, offer-first in one sitting: builds your Partner Offer if it isn't built yet, recommends ONE lead magnet from your unique value proposition and Mike's lessons (say yes, or ask for the next best), writes the magnet and its sales funnel outline, and puts them into your Week 3 Kit — the one file for Claude Design in Week 3. Then delivery, nurture, partners, Google profile, bios, analytics. Requires Plugin 1."
     }
   ]
