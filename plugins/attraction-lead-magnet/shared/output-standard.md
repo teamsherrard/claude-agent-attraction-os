@@ -81,7 +81,11 @@ the demo workspace — never into a real member's Guides folder.
 - **Document:** write the structured text to a temp file, then render it to a styled `.docx` and upload that:
   `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Name · Brokerage · City]" --eyebrow "Agent Attraction Lead Magnet"`,
   then upload the resulting **`.docx`** into the right folder. The structured text is only the renderer's
-  input; the deliverable is the `.docx` — **never upload the raw text.**
+  input; the deliverable is the `.docx` — **never upload the raw text.** **The guide is the exception to the
+  house grammar's look:** `lm-magnet` renders `Lead Magnet — [Guide Name]` with `--guide` (and no `--subtitle`),
+  so the member's document is the guide an agent reads — a cover from THE PROMISE, one page per PAGE block, the
+  labels as page elements, no image ideas, no appendices — while the same structured text, labels and all, is
+  what the Week 3 Kit carries for the designer.
 - **Find-or-create:** before creating any folder, list the parent and reuse it if it already exists. Every
   campaign doc saves into the **same campaign folder** the magnet created.
 
@@ -117,7 +121,7 @@ acceptable output at any step.)* Write the structured text like this:
   label becomes a page element and never prints as a label.
 - **Build + verify, every document:** read the finished `.docx` text back — no raw `<w:` markup, no literal
   `────` lines as body text, every band a heading, and **full depth** (a guide renders its complete content,
-  never a summary).
+  never a summary). In guide mode also: no label word printed, a cover page, one heading per PAGE block.
 
 ## 5. The document skeletons
 

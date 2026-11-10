@@ -23,6 +23,8 @@ REAL HEADING STYLES (v2)
 Every heading is a real Word style so Word's navigation pane and the Google Docs
 outline work:
   • PART / CHAPTER band titles, the CONTENTS title and legacy CAPS bands → Heading 1
+  • --guide: a lead magnet rendered as a reader-ready guide (cover from THE PROMISE, one page per PAGE
+    block, labels as page elements, no appendices) — see _guide_render
   • sub-bands ("──── Label ────") and ALL-CAPS sub-labels              → Heading 2
   • the cover / title-block title                                        → Title
 The built-in styles are overridden to the house look (Arial, near-black 111111, no
@@ -615,6 +617,121 @@ class Doc:
         p = self.d.add_paragraph(); _sp(p, 8, 0); _border(p, "D9D9D9", 6, 6)
         cp = self.d.add_paragraph(); _sp(cp, 4, 0); _run(cp, text, HF_PT, MUTED, italic=True)
 
+
+    # ---- GUIDE MODE elements (the member's lead magnet as a reader-ready document) --------------
+    def guide_cover(self, title, subtitle, hooks, byline, date_line, eyebrow=None):
+        """Cover page of a guide: air → eyebrow → title → accent rule → subtitle → the hook lines →
+        byline → date → PAGE BREAK. Built from THE PROMISE block, never from labels."""
+        air = self.d.add_paragraph(); air.paragraph_format.space_before = Pt(120); air.paragraph_format.space_after = Pt(0)
+        if eyebrow:
+            p = self.d.add_paragraph(); _sp(p, 0, 10); _keep(p)
+            _run(p, eyebrow.upper(), SMALL_PT, MUTED, bold=True, track=160)
+        p = self.d.add_paragraph(style='Title'); _sp(p, 0, 6, 1.04); _keep(p)
+        _run(p, title, COVER_TITLE_PT, INK, bold=True, track=-8)
+        rp = self.d.add_paragraph(); _sp(rp, 2, 12); _border(rp, self.accent, 8, 7)
+        if subtitle:
+            p = self.d.add_paragraph(); _sp(p, 0, 16, 1.2)
+            _run(p, subtitle, 13.5, MUTED, track=10)
+        for h in hooks:
+            p = self.d.add_paragraph(); _sp(p, 0, 5, 1.2)
+            p.paragraph_format.left_indent = Inches(0.25)
+            _border(p, self.accent, 12, 8, side='left')
+            _run(p, h, 12.5, INK, italic=True)
+        if byline:
+            p = self.d.add_paragraph(); _sp(p, 26, 2)
+            _run(p, byline, 11, INK)
+        if date_line:
+            p = self.d.add_paragraph(); _sp(p, 0, 0)
+            _run(p, date_line, SMALL_PT, MUTED)
+        self.d.add_page_break()
+
+    def guide_chapter(self, title_text, page_break=True, kicker=None):
+        """One guide page per printed page: optional small kicker, then the Title-Case heading
+        with the hairline rule; page-breaks before itself except for the first page after the cover."""
+        if kicker:
+            p = self.d.add_paragraph(); _sp(p, 0, 4, 1.0); _keep(p)
+            if page_break: p.paragraph_format.page_break_before = True
+            _run(p, kicker.upper(), SMALL_PT, MUTED, bold=True, track=140)
+        hp = self.d.add_paragraph(style='Heading 1'); _sp(hp, 0, 10, 1.05); _keep(hp, together=True)
+        if page_break and not kicker: hp.paragraph_format.page_break_before = True
+        _run(hp, title_text, CHAPTER_PT, INK, bold=True, track=-4)
+        _border(hp, RULE, 6, 7)
+
+    def pullquote(self, text):
+        p = self.d.add_paragraph(); _sp(p, 10, 12, 1.25); _keep(p, next_=False, together=True)
+        pf = p.paragraph_format; pf.left_indent = Inches(0.3); pf.right_indent = Inches(0.3)
+        _border(p, self.accent, 18, 10, side='left')
+        _run(p, text, 14, INK, italic=True)
+
+    def cta_box(self, text):
+        t = self.d.add_table(rows=1, cols=1); t.autofit = False
+        c = t.rows[0].cells[0]; c.width = self.usable; c.text = ""
+        p = c.paragraphs[0]; _sp(p, 4, 4, 1.2)
+        _run(p, text, BODY_PT, INK, bold=True)
+        _cell_bg(c, self.callout_tint); _cell_borders(c, "E6E3DC"); _cell_margins(c, 120, 120, 180, 180)
+        self.d.add_paragraph().paragraph_format.space_after = Pt(4)
+
+    def next_step(self, text):
+        k = self.d.add_paragraph(); _sp(k, 12, 2, 1.0); _keep(k)
+        _border(k, RULE, 6, 6, side='top')
+        _run(k, "NEXT STEP", SMALL_PT, MUTED, bold=True, track=140)
+        p = self.d.add_paragraph(); _sp(p, 0, 8, 1.2)
+        _run(p, text, BODY_PT, INK, bold=True)
+
+    def kicker(self, text):
+        p = self.d.add_paragraph(); _sp(p, 10, 3, 1.0); _keep(p)
+        _run(p, text.upper(), SMALL_PT, MUTED, bold=True, track=140)
+
+    def checkbox(self, text, lead=None):
+        p = self.d.add_paragraph(); _sp(p, 0, 5, 1.2); _keep(p, next_=False)
+        p.paragraph_format.left_indent = Inches(0.32); p.paragraph_format.first_line_indent = Inches(-0.32)
+        _run(p, "□   ", 12, INK)
+        if lead: _run(p, lead, BODY_PT, INK, bold=True)
+        _run(p, text, BODY_PT)
+
+    def fill_line(self, lead, rest=""):
+        p = self.d.add_paragraph(); _sp(p, 4, 6, 1.4); _keep(p, next_=False)
+        if lead: _run(p, lead + "  ", BODY_PT, INK, bold=True)
+        rest = (rest or "").strip()
+        if not rest or set(rest) <= set("_ "):
+            rest = "_" * max(22, 44 - len(lead or ""))
+        _run(p, rest, BODY_PT, MUTED)
+
+    def bubble(self, text, lead=None):
+        p = self.d.add_paragraph(); _sp(p, 2, 5, 1.2); _keep(p, next_=False, together=True)
+        pf = p.paragraph_format; pf.left_indent = Inches(0.35); pf.right_indent = Inches(1.3)
+        _pshade(p, COOL_FILL); _border(p, "E6E3DC", 4, 6, side='left')
+        if lead: _run(p, lead + " ", BODY_PT, INK, bold=True)
+        _run(p, text, BODY_PT, BODY)
+
+    def back_page(self, lines):
+        """The guide's last page: a small centred block (contact · socials · last updated · the compliance line)."""
+        self.d.add_page_break()
+        air = self.d.add_paragraph(); air.paragraph_format.space_before = Pt(150)
+        for lead, text in lines:
+            p = self.d.add_paragraph(); _sp(p, 2, 4, 1.25); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            if lead: _run(p, lead + "  ", SMALL_PT, MUTED, bold=True)
+            _run(p, text, 10.5 if lead != "Compliance" else SMALL_PT, INK if lead != "Compliance" else MUTED)
+
+    def guide_header_footer(self, title, stamp):
+        """Header right: the title. Footer: the compliance stamp left, 'Page X of Y' right; nothing on the cover."""
+        s = self.d.sections[0]
+        s.different_first_page_header_footer = True
+        s.first_page_header.is_linked_to_previous = False
+        s.first_page_footer.is_linked_to_previous = False
+        h = s.header; h.is_linked_to_previous = False
+        hp = h.paragraphs[0] if h.paragraphs else h.add_paragraph()
+        hp.text = ""; hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT; _sp(hp, 0, 0, 1.0)
+        _run(hp, title or "", HF_PT, MUTED)
+        f = s.footer; f.is_linked_to_previous = False
+        fp = f.paragraphs[0] if f.paragraphs else f.add_paragraph()
+        fp.text = ""; fp.alignment = WD_ALIGN_PARAGRAPH.LEFT; _sp(fp, 6, 0, 1.0)
+        fp.paragraph_format.tab_stops.add_tab_stop(self.usable, WD_TAB_ALIGNMENT.RIGHT)
+        _run(fp, stamp or "", HF_PT, MUTED)
+        _run(fp, "\t", HF_PT, MUTED)
+        _run(fp, "Page ", HF_PT, MUTED); self._field(fp, 'PAGE')
+        _run(fp, " of ", HF_PT, MUTED); self._field(fp, 'NUMPAGES')
+
     def save(self, path): self.d.save(path)
 
 # ---------- parsing the house-style structured text ----------
@@ -923,7 +1040,9 @@ def _render_body(lines, i, doc, book_mode, collect=None, slug_iter=None, part_li
         doc.body(line, keep_next=(is_label or len(line) <= 90) and table_follows(i + 1)); i += 1
     flush_part()
 
-def render(lines, doc, title=None, subtitle=None, eyebrow=None, book=False):
+def render(lines, doc, title=None, subtitle=None, eyebrow=None, book=False, guide=False):
+    if guide:
+        _guide_render(lines, doc, title=title, eyebrow=eyebrow); return
     lines, toc_entries, has_toc = _extract_toc(lines)
     book_mode = bool(book or has_toc)
     doc.book = book_mode
@@ -959,6 +1078,137 @@ def render(lines, doc, title=None, subtitle=None, eyebrow=None, book=False):
     _render_body(lines, i, doc, True, slug_iter=iter(slugs), part_lists=part_lists)
     doc.header_footer(t, sub, eyebrow)
 
+
+# ---------- GUIDE MODE: the lead magnet as a reader-ready document (--guide) ----------
+_SMALL = {"a", "an", "the", "of", "in", "on", "at", "to", "for", "and", "or", "but", "by", "as", "if", "vs"}
+_GUIDE_PAGE = re.compile(r'^\s*[─═—-]{2,}\s*PAGE\s+(\d+)\s*[-–—:]\s*(.+?)\s*[─═—-]{2,}\s*$', re.I)
+_LIST_LABELS = {"checklist": "check", "template rows": "fill", "script": "script", "how to use this": "kicker",
+                "proof": "kicker", "testimonial video": "kicker", "hook": "skip", "bullets": "plain",
+                "what we'll cover": "kicker", "how it works": "kicker"}
+
+def _titlecase(s):
+    s = s.strip()
+    letters = [c for c in s if c.isalpha()]
+    if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.6:
+        return s                                   # already mixed case — the writer meant it
+    words = s.split(" "); out = []
+    for i, w in enumerate(words):
+        if not w: continue
+        core = w.lower()
+        after_colon = i > 0 and words[i - 1].endswith((":", "—", "–"))
+        if core in _SMALL and 0 < i < len(words) - 1 and not after_colon:
+            out.append(core); continue
+        out.append("-".join(part[:1].upper() + part[1:] for part in core.split("-")))
+    return " ".join(out)
+
+def _guide_sections(lines):
+    """Split the structured text into [(heading or None, [lines])] on CAPS bands (rule → heading → rule)."""
+    n = len(lines); i = 0; sections = []; cur = (None, [])
+    while i < n:
+        if is_band(lines[i]) and i + 1 < n and lines[i + 1].strip() and not is_band(lines[i + 1]) \
+                and not SUBBAND.match(lines[i + 1]) and heading_like(lines[i + 1].strip()):
+            sections.append(cur); cur = (lines[i + 1].strip(), [])
+            i += 2
+            if i < n and is_band(lines[i]): i += 1
+            continue
+        cur[1].append(lines[i]); i += 1
+    sections.append(cur)
+    return sections
+
+def _guide_render(lines, doc, title=None, eyebrow=None):
+    sections = _guide_sections(lines)
+    head = [l.strip() for l in (sections[0][1] if sections and sections[0][0] is None else []) if l.strip()]
+    cover = {"title": None, "subtitle": None, "byline": None, "hooks": []}
+    back = []
+    body_sections = []
+    for heading, body in sections:
+        h = (heading or "").strip().upper()
+        if heading is None: continue
+        if h.startswith("▸"): continue                       # appendices are for the builder, never the reader
+        if h == "THE PROMISE":
+            mode = None
+            for raw in body:
+                line = raw.strip()
+                if not line: continue
+                m = _LABEL.match(line)
+                if m:
+                    k = m.group(1).strip().lower(); v = m.group(2).strip()
+                    if k == "title": cover["title"] = v
+                    elif k == "subtitle": cover["subtitle"] = v
+                    elif k == "byline": cover["byline"] = v
+                    mode = None; continue
+                if line.lower().rstrip(":") == "hook": mode = "hook"; continue
+                if line.startswith("•") and mode == "hook": cover["hooks"].append(line[1:].strip()); continue
+            continue
+        if h == "THE BACK PAGE":
+            for raw in body:
+                line = raw.strip()
+                m = _LABEL.match(line)
+                if m: back.append((m.group(1).strip(), m.group(2).strip()))
+            continue
+        body_sections.append((heading, body))
+    t = cover["title"] or title or (head[0] if head else "Guide")
+    byline = cover["byline"]
+    if byline and not byline.lower().startswith("by "): byline = "By " + byline
+    date_line = next((x for x in head if re.search(r'\b(20\d\d)\b', x) and re.search(r'[A-Z][a-z]+ \d{1,2}, 20\d\d', x)), None)
+    if date_line:
+        md = re.search(r'[A-Z][a-z]+ \d{1,2}, 20\d\d', date_line); date_line = md.group(0) if md else None
+    doc.guide_cover(t, cover["subtitle"], cover["hooks"], byline, date_line, eyebrow=eyebrow)
+
+    first_heading = True
+    for heading, body in body_sections:
+        h = heading.strip().upper()
+        if h != "THE GUIDE":
+            doc.guide_chapter(_titlecase(heading), page_break=not first_heading); first_heading = False
+        mode = None            # the active list label: check · fill · script · kicker · plain · skip
+        for raw in body:
+            line = raw.strip()
+            if not line: mode = None if mode in ("skip",) else mode; continue
+            mp = _GUIDE_PAGE.match(raw)
+            if mp:
+                doc.guide_chapter(_titlecase(mp.group(2)), page_break=not first_heading); first_heading = False
+                mode = None; continue
+            msb = SUBBAND.match(raw)
+            if msb: doc.subheading(_titlecase(msb.group(1))); mode = None; continue
+            if line.startswith("•"):
+                bt = line[1:].strip()
+                mm = re.match(r'^([^:]{2,60}):\s*(.*)$', bt)
+                lead, rest = (mm.group(1).strip(), mm.group(2).strip()) if mm and len(mm.group(1)) < 45 else (None, bt)
+                if mode == "skip": continue
+                if mode == "check": doc.checkbox(rest if lead else bt, lead=(lead + ":  ") if lead else None); continue
+                if mode == "fill" or (set((rest or "").strip()) <= set("_") and rest and lead):
+                    doc.fill_line(lead + ":" if lead else "", rest); continue
+                if mode == "script":
+                    if lead and lead.lower() in ("me", "agent", "you", "them"): doc.bubble(rest, lead=lead + ":")
+                    else: doc.bubble(bt)
+                    continue
+                if lead and len(lead) < 45: doc.bullet(rest, lead=lead + ":  ")
+                else: doc.bullet(bt)
+                continue
+            mlist = re.match(r'^([A-Za-z][A-Za-z\' ]{2,30}):\s*$', line)
+            if mlist:
+                key = mlist.group(1).strip().lower()
+                mode = _LIST_LABELS.get(key, "plain")
+                if mode == "kicker": doc.kicker(mlist.group(1).strip())
+                continue
+            m = _LABEL.match(line)
+            if m and len(m.group(1)) < 38:
+                k = m.group(1).strip().lower(); v = m.group(2).strip(); mode = None
+                if k == "image idea": continue                 # a design cue, never on the reader's page
+                if k == "pull quote": doc.pullquote(v); continue
+                if k == "callout": doc.insight(v); continue
+                if k == "next step": doc.next_step(v); continue
+                if k == "call to action": doc.cta_box(v); continue
+                if k == "source": doc.cue("Source: " + v); continue
+                if k == "last updated": doc.cue("Last updated " + v); continue
+                doc.body(line); continue
+            mode = None
+            doc.body(line)
+    if back:
+        doc.back_page([(lead if lead.lower() != "compliance" else "Compliance", text) for lead, text in back])
+    stamp = next((text for lead, text in back if lead.lower() == "compliance"), None) or (cover["byline"] or "")
+    doc.guide_header_footer(t, stamp)
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("input"); ap.add_argument("output")
@@ -971,9 +1221,15 @@ def main():
     ap.add_argument("--book", action="store_true",
                     help="Force book mode (cover page break, chapter page breaks, footer page numbers) "
                          "even without a [[TOC]] block. A [[TOC]] block turns book mode on by itself.")
+    ap.add_argument("--guide", action="store_true",
+                    help="GUIDE MODE for a lead magnet: a cover built from THE PROMISE (title, subtitle, hook, byline), "
+                         "one printed page per '── PAGE N - TITLE ──' block in Title Case, labels rendered as page "
+                         "elements (pull quotes, callouts, checkboxes, fill-in lines, script bubbles, next-step strips, "
+                         "call-to-action boxes), image ideas and the ▸ appendices left out, the back page centred, the "
+                         "compliance line in the footer. The result is the shareable guide, not a spec sheet.")
     a = ap.parse_args()
     lines = open(a.input, encoding="utf-8").read().split("\n")
-    doc = Doc(accent=a.accent); render(lines, doc, a.title, a.subtitle, a.eyebrow, book=a.book); doc.save(a.output)
+    doc = Doc(accent=a.accent); render(lines, doc, a.title, a.subtitle, a.eyebrow, book=a.book, guide=a.guide); doc.save(a.output)
     print("rendered:", a.output)
 
 if __name__ == "__main__":

@@ -290,9 +290,16 @@ is still thin and why (*"proof is light — I wrote it honestly without a number
    rules #1) — a 70-year-old reads the link and the five lines.
 2. **Save to the workspace** following `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: the campaign
    folder `03 · Content/Guides/[YYYY-MM-DD · Magnet Name]/`, the doc `Lead Magnet — [Magnet Name]` (the
-   output standard's "Guide Name" is the magnet's name — a checklist or a plan is still named this way;
-   rendered to a styled `.docx` via the shared renderer; read it back — full depth, no raw markup). Confirm
-   the location in plain words. **Keep the structured text** at
+   output standard's "Guide Name" is the magnet's name — a checklist or a plan is still named this way). **Render
+   it in GUIDE MODE** — this document is the guide an agent reads, not a spec sheet:
+   `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/guide.txt "Lead Magnet — [Guide Name].docx" --guide --eyebrow "A free guide from [First Last]"`
+   — the renderer builds the cover from THE PROMISE (title, subtitle, the three hook lines, the byline, the date),
+   prints one page per `── PAGE N - TITLE ──` block with the title in Title Case, turns the labels into page
+   elements (pull quotes large, callouts as panels, checklists with boxes, template rows as fill-in lines, scripts
+   as bubbles, the next step as a strip, the call to action as a box, sources small), leaves out every `Image idea:`
+   and both `▸` appendices, centres the back page and puts the compliance line in the footer. Read it back: no label
+   word printed ("Pull quote:", "Image idea:", "Title:"), a cover, one heading per page, the structured text still
+   complete (it is what the kit carries). Confirm the location in plain words. **Keep the structured text** at
    `~/attraction-brain/exports/lead-magnet-[slug]-YYYY-MM-DD.txt` (`[slug]` per output standard §2) — the Lead
    Magnet Package is assembled from it, and the Brain syncs `exports/*.txt`. If the save fails, the output standard's fallback applies — say it's not
    saved, retry once, the chat copy is the deliverable; keep going.
@@ -344,6 +351,7 @@ keyword aimed at the member's own guide ("mock up my guide") is a real build.
 - [ ] No design direction written (the kit's design brief for the guide and the page, `lm-package`, owns it); assets-to-gather noted instead
 - [ ] Compliance pass done per house rules #5 (claims always; the stamp on the back page and the appendix; no bracket tokens; set → one reminder)
 - [ ] The quality gate run; a failed check fixed and re-run once; anything still thin said plainly
+- [ ] Rendered in guide mode: a cover, one page per PAGE block in Title Case, no label or image idea printed, no appendix in the member's document — the PDF they export is the guide itself
 - [ ] Saved to the campaign folder (output standard) or the fallback said plainly; location confirmed
 - [ ] Logged in `memory/magnets.md` (row + `## Current magnet` in the exact shape) and mirrored in `brain.md`'s `Live magnet:` line, pushed; ideas marked used
 - [ ] Handed off to the funnel (the sales funnel outline)

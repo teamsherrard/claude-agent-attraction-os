@@ -2,6 +2,22 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.21.0] — 2026-11-09
+
+**The guide renders as a guide (Lead Magnet 0.10.0 · Brain 0.7.1).** The first live `Lead Magnet — …` document read like a
+spec sheet: "Pull quote:", "Image idea:" and "Next step:" printed as bold labels, page headings in capitals, a
+"ready for your design step" line on page one and a builder appendix at the end — not something a member could
+export and hand to an agent, although the finish line told them to.
+- **`render_doc.py` gains `--guide`** (shared, byte-identical in both plugins): a cover built from THE PROMISE
+  (title, subtitle, the three hook lines, the byline, the date), one printed page per `── PAGE N - TITLE ──` block
+  with the title in Title Case, the labels rendered as page elements (pull quotes large with an accent bar,
+  callouts as panels, checklists with boxes, template rows as fill-in lines, scripts as bubbles, the next step as
+  a strip, the call to action as a box, sources small), every `Image idea:` and both `▸` appendices left out, the
+  back page centred, the compliance line in the footer. Book mode and the legacy look are untouched.
+- `lm-magnet` renders the guide with `--guide --eyebrow "A free guide from [First Last]"` and reads it back for
+  leaked labels; `output-standard.md` names the exception; `lead-magnet-demo-checklist.md` says what the opened
+  document must look like.
+
 ## [0.20.0] — 2026-11-09
 
 **Three files, never seven (Brain 0.7.0 · Lead Magnet 0.9.0 · Support 0.1.17).** The first live run of 0.19.0 ended

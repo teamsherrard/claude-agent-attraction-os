@@ -22,7 +22,10 @@
 - [ ] At most five intake questions, one per message, each pre-answered from Taylor's Brain; "you pick" works.
 - [ ] One progress line, then quiet while it writes (two to five minutes).
 - [ ] The guide: in chat only the link, the cover title and hook, five lines on what is inside. The document is in
-  Content → Guides → `2026-… · [Title]` as `Lead Magnet — [Title]`.
+  Content → Guides → `2026-… · [Title]` as `Lead Magnet — [Title]` — and it OPENS AS A GUIDE: a cover page (title,
+  subtitle, the three hook lines, "By …"), one page per section with a Title Case heading, checkboxes and fill-in
+  lines where the text has them, no "Pull quote:" / "Image idea:" labels, no design appendix. Export it as a PDF
+  and it is ready to hand to an agent.
 - [ ] It continues straight into the page — no "want me to write the page?" question.
 - [ ] The sales funnel outline: the headline and the eleven section names in one line, and that it lives in the
   Week 3 Kit — NO document of its own.
