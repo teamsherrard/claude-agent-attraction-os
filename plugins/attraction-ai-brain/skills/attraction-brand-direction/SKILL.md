@@ -164,8 +164,8 @@ never copy.
 Compliance on every public graphic: [brokerage-name display + license display from compliance.md]
   — or: NOT SET YET; say "paste my compliance link" in Cowork (two minutes) before any graphic is published.
 Upload your Brain Book as the "AI Brain file" when a skill asks for it (it tells the design skills who you are;
-this brief tells them your brand). For your guide PDF and your opt-in page, also upload your Lead Magnet Package
-from Week 2 (in your Guides folder, beside your guide) — it carries the words, the structure and the build notes.
+this brief tells them your brand). For your offer kit, your guide PDF and your opt-in page, also upload your Week 3 Kit
+from Week 2 (in your home base folder, beside your Brain Book) — it carries the words, the structure and the build notes.
 When the kit is finished, drop every file into 02 · Brand so the editor, the thumbnails, and every
 graphic read it.
 ```
@@ -181,8 +181,8 @@ graphic read it.
    **not** in the folder, it is kept in the Brain, and here it is — stamp *[connector off — kept here only]*,
    and show it. Never fail silently, never retry in a loop.
 4. **Hand it over in chat as one copyable block**, then say plainly: *"Your brand direction is saved. In Week 3's Claude Design session, paste
-   this in and run the three in order — skip the first if you love your logo. Then upload your Lead Magnet
-   Package from Week 2 — it's in your Guides folder — for the guide PDF and the opt-in page. The brief is also saved
+   this in and run the three in order — skip the first if you love your logo. Then upload your Week 3 Kit
+   from Week 2 — it's in your home base folder beside your Brain Book — for your offer kit, the guide PDF and the opt-in page. The brief is also saved
    in your Brand folder as 'Design Package Brief · [Name] · [date]', and you can say 'show my design package
    brief' any time to see it again. Drop the finished kit into your Brand folder; everything that makes a
    graphic for you reads from there."* **attraction-brain-health** counts the brand direction and the kit in

@@ -331,11 +331,14 @@ When the Brain cannot tell whether the brokerage allows it (`Join-gated package 
 still written as a join package with one open check for the compliance desk; only a brokerage that says **no**
 moves every public line to the open register (what the member teaches, their story, their mentorship). The
 earlier default — treating "don't know" as "no" — hid the offer behind "what I teach" and is withdrawn. **The
-offer is a package, and the package is promoted:** the offer session ends with the Offer Package
-(`attraction-offer-package`) — the offer to join me, the digital product (version one now: a template plus one
-short recording, never a course to build — realtors are not course creators; the Value Vault grows it in Week 6),
-the copy for every asset that promotes the offer, and the design brief for the offer kit. A lead magnet
-is a door into the offer, never the offer itself.
+offer is a package, and the package is promoted:** the offer session ends with the Week 3 Kit
+(`attraction-week3-kit`) — ONE file for Claude Design: Part A the offer to join me, the digital product (version one
+now: a template plus one short recording, never a course to build — realtors are not course creators; the Value
+Vault grows it in Week 6), the copy for every asset that promotes the offer and the offer-kit design brief; Part B
+the lead magnet, written by the Lead Magnet plugin. A lead magnet is a door into the offer, never the offer itself.
+**Three files, never seven (the owner's ruling, 2026-11-09):** a member finishing Week 2 holds the offer (the
+Partner Offer document), the guide (the PDF agents download) and the kit. The why-join-me story, the value stack,
+the page copy and the design briefs are never documents of their own.
 
 ---
 

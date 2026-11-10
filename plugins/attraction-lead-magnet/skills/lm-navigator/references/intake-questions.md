@@ -163,7 +163,7 @@ locked shape in `shared/brain-contract.md` if the Brain predates it; if the temp
 ## Intake · [Magnet Name] (written by lm-navigator so a wiped session never re-asks)
 - Shape: [system guide · checklist · plan/template · calendar · questions guide · comparison guide · mini-course · math worksheet · case study · 5-day challenge] · Lane: [tool · plan · decision or proof] · Built from: [the framework step and its tool or template — or, for the plan lane, the program's phases — or, on an older offer, the UVP mechanism or Teach-first lesson]
 - For: [the type, by stage] · The promise: [Q1] · Draws from: [Q2, or the shape swap] · Opening story: [Q3, or "off the page"] · Proof (consented): [Q4, or "none — written qualitatively"] · Next step: [Q5]
-- Materials on file: [the documents in 06 · Materials cited in brokerage-model.md, with dates — or the templates named in the Teach-first table — or "none yet; structure only, numbers on the call"] · Mike's lesson: [module/lesson — title, from the recommender; the citation lives here and in the document's appendix, never in chat] · Reach: [the booking link · the email · @handle] · Funnel doc: — · Package doc: — · Taken: [YYYY-MM-DD]
+- Materials on file: [the documents in 06 · Materials cited in brokerage-model.md, with dates — or the templates named in the Teach-first table — or "none yet; structure only, numbers on the call"] · Mike's lesson: [module/lesson — title, from the recommender; the citation lives here and in the document's appendix, never in chat] · Reach: [the booking link · the email · @handle] · Funnel doc: — · Kit doc: — · Taken: [YYYY-MM-DD]
 ```
 
 Then **attraction-brain-sync PUSH** (write → push → verify). Never narrate this or name the file (house rules #1).

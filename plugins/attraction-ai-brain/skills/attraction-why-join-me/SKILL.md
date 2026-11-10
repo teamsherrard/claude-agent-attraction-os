@@ -113,10 +113,10 @@ Deliver in chat in this order: the 60-second version · the long version · the 
 line on where each is used · one line on what sharpens it next (the offer session, a voice-print
 session, a story from the bank). Then: *"Anything that doesn't sound like you? Tell me and I'll redo it."*
 
-**Save a clean doc** per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`: structured text rendered through
-`shared/render_doc.py` to a styled `.docx` named `Why Join Me · [First Last] · [YYYY-MM-DD]`, saved to
-the Offer folder of the workspace per `shared/drive-map.md`. The fallback chain is the one that file states;
-never upload the raw structured text, never install packages in a loop.
+**No document of its own.** The story lives in the Brain (`journey.md → ## Why join me`), in the Partner Offer's
+appendix (the one-breath statement) and in the Week 3 Kit (the one-breath and the 60-second versions, and the
+60-second script under the social lines). A member finishing Week 2 holds three files — the offer, the guide, the
+kit — never a fourth.
 
 ## Step 5 — Write to the Brain and push
 Write the three versions under a `## Why join me` block at the end of `identity/journey.md` (the member's
@@ -132,22 +132,21 @@ from it now. When your offer is finalized, say 'update my why join me' and I'll 
 ## Update mode (trigger: "update my why join me")
 Re-read the Brain, rebuild only the parts whose source changed (usually the value line after the offer
 session, or proof after an agent's win), keep the member's edits to the rest, push, confirm in one line. Then
-run **attraction-offer-package** silently (its Step 3) when `offer.md → ## Offer Package` is stamped, so the
-Offer Package carries the new statement.
+run **attraction-week3-kit** silently (its Step 3) when `offer.md → ## Week 3 Kit` is stamped, so the kit carries
+the new statement.
 
-## Silent mode (called by `attraction-offer` at the end of the offer session, or by `attraction-offer-package`)
+## Silent mode (called by `attraction-offer` at the end of the offer session, or by `attraction-week3-kit`)
 No welcome, no question, no chat delivery of the three versions: build them from the Brain exactly as above
 (the value line from the finalized offer — the program by name, the free line when the stack is built), write
-the `## Why join me` block, render the document to `05 · Offer`, push, and hand the three versions back to the
-caller, which names them in its own close (*"your why-join-me story is written — it's on page one of your Offer
-Package"*). A Brain whose `journey.md` is still a template → tell the caller in one line (it says so to the
+the `## Why join me` block, push, and hand the three versions back to the caller, which names them in its own
+close (*"your why-join-me story is written — it opens your Week 3 Kit"*). A Brain whose `journey.md` is still a template → tell the caller in one line (it says so to the
 member and names "my leader profile"); never interview inside another skill's session.
 
 ## How every output uses this (the payoff)
 Content skills open the "why I joined" video and the first story reel from the 60-second version; call
 prep reads it as the member's own answer to "why you?"; the bio and profile rewrite in Week 2 pull the
-one-breath version; the Why Join Me document in `05 · Offer` is where the member finds it (the Brain Book
-does not carry it). None of them invent a reason to join; they read this one.
+one-breath version; the Week 3 Kit (home base folder) and the Partner Offer's appendix are where the member
+finds it (the Brain Book does not carry it). None of them invent a reason to join; they read this one.
 
 ## Demo mode
 Only when the request explicitly frames a fictional member: same five parts, every number "(illustrative

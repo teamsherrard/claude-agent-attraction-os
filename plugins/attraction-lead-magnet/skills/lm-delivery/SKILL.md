@@ -86,13 +86,13 @@ brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set
 2. Save `Delivery Kit — [Guide Name]` into the campaign folder (output standard §4–§6; fallback applies). Keep
    the structured text at `~/attraction-brain/exports/delivery-kit-[slug]-YYYY-MM-DD.txt` (output standard §6).
 3. In `memory/magnets.md`, set the row's Keyword to `GUIDE` if blank (the Last reviewed column belongs to
-   `lm-analytics`). **attraction-brain-sync PUSH.** Silent. Then, when the campaign already has a Lead Magnet
-   Package (the intake block's `Package doc:` is stamped), run `lm-package` silently (its Step 4) so the Week 3
-   file carries the DMs and the email; if that fails, one line names "rebuild my package" for later.
+   `lm-analytics`). **attraction-brain-sync PUSH.** Silent. Then, when the guide is already in the kit (the intake
+   block's `Kit doc:` is stamped), run `lm-package` silently so the Week 3 Kit carries the DMs and the email; if that
+   fails, one line names "add my guide to my kit" for later.
 4. Close: *"Send the DM from your own phone this week — the same copy drops into your ManyChat GUIDE flow in Week 3 — drop the email into your list tool as the first
-   message, and the story's ready to film. Your Lead Magnet Package is rebuilt, so Week 3 has these too. Say
+   message, and the story's ready to film. Your Week 3 Kit is rebuilt, so these are in it too. Say
    'nurture sequence for agents' and I'll write what they get after this — the emails that keep you top of mind
-   until they're ready."* (Drop the package sentence when no package exists yet.)
+   until they're ready."* (Drop the kit sentence when the guide is not in the kit yet.)
 
 ## Compliance pass (every message)
 The two cardinal rules · no compensation, splits, rev share, stock, or income · no model explanation by DM ·

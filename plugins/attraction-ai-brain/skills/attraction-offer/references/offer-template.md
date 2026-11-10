@@ -170,9 +170,9 @@ Link: [the community's link once it exists — or "not set up yet"]
 ## Digital product
 (owned by attraction-free-vs-paid — built by free-vs-paid)
 
-## Offer Package
-(owned by attraction-offer-package — the one file for the offer kit in 05 · Offer)
-Status: [not built | built YYYY-MM-DD · Offer Package — [Program Name] — YYYY-MM-DD]
+## Week 3 Kit
+(owned by attraction-week3-kit — the ONE file for Claude Design in Week 3, in 01 · AI Brain beside the Brain Book; Part A the offer, Part B the lead magnet)
+Status: [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: A | A + B]
 
 ## Notes for Week 2
 (appended by attraction-capture — positioning notes and new angles, dated; never rewrites the sections above)

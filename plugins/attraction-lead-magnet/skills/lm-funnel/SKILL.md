@@ -15,8 +15,8 @@ description: >
 
 # Sales Funnel Outline (Step 2 — the opt-in page copy + strategy, never design)
 
-The sales funnel outline — the member hears it by that name; the saved document keeps its title
-`Opt-In Funnel — [Guide Name]`, which the design step keys on. Inside it: the opt-in page, eleven sections in
+The sales funnel outline — the member hears it by that name; it is kept as text in the Brain's exports and carried
+word for word inside the Week 3 Kit, which the design step reads; it is never a document of its own. Inside it: the opt-in page, eleven sections in
 a fixed order, then the pop-up, the thank-you page, and the footer. **The opt-in is the page's primary job**
 — its button repeats top, middle and bottom with the same words — and **the Book-a-call area near the bottom
 is the secondary path** for the agent who is already ready. The opt-in itself is a **two-step flow**: every
@@ -40,9 +40,10 @@ This page gives away a specific lead magnet, so it must read it:
 - Read `~/attraction-brain/memory/magnets.md` → the row with status `written` or `designed` and no funnel URL
   (or the one the navigator or the magnet skill named), then open its **Lead Magnet doc** in the campaign
   folder (`03 · Content/Guides/[campaign]/`, output standard §1). If several qualify and none was named, take
-  the one without a funnel, else the newest. **List the campaign folder first:** an `Opt-In Funnel — [Guide Name]`
-  doc already there → one line, *"your page copy exists — refresh it, or leave it?"*; a refresh saves a new dated
-  copy and stamps `Funnel doc: YYYY-MM-DD` in the intake block; never a second copy by accident. Read it — its **cover title and promise** drive the headline, its
+  the one without a funnel, else the newest. **Check the Brain's exports first:** an
+  `opt-in-funnel-[slug]-*.txt` already there → one line, *"your page copy exists — refresh it, or leave it?"*; a
+  refresh writes a new dated text and stamps `Funnel doc: YYYY-MM-DD` in the intake block; never a second copy by
+  accident. Read it — its **cover title and promise** drive the headline, its
   **PAGE titles and `Next step:` lines** drive the Product bullets, and its **type of agent and the pain on its
   opening page** are what the Problem section speaks to (house rules #7).
 - **If no magnet exists yet,** this is the cold start the front door owns: say its line verbatim (*"Let's do
@@ -212,8 +213,8 @@ the assets to gather (the guide mockup/cover · 8–12 proof-strip photos · hea
 linkable · the booking link) **and one plain line on the form** — the form must really send the member the name
 and the email; test-submit once before any traffic. **The technical form checklist in `references/funnel-guide.md`
 ("the rule" block — the static form, the hidden detection form, the honeypot, the test entry) never goes into
-this member-facing document**: `lm-package` carries it in plain words at the end of the Lead Magnet Package's
-Part V, for whoever builds the page.
+the member's words**: `lm-package` carries it in plain words at the end of the kit's design brief for the guide and
+the page, for whoever builds the page.
 
 ## Phase 4 — Compliance pass (house rules #5)
 Run the full page (and the pop-up + thank-you page) through **house rules #5**: the two cardinal rules · no
@@ -266,18 +267,17 @@ theirs to share, say 'refresh my page'"*).
   and Status `live`, `## Current magnet` → the funnel URL, `brain.md`'s `**Live magnet:**` line → the URL;
   **attraction-brain-sync PUSH**; one line back (*"recorded — every system now points at it"*). Nothing else moves.
 - *"refresh my page"* → re-read the magnet doc and the Brain, rewrite what changed, save a new dated copy, stamp
-  `Funnel doc:`, then `lm-package` rebuilds the package (silent).
+  `Funnel doc:`, then `lm-package` rebuilds the kit (silent).
 
 ## Phase 5 — Deliver + save (paired with the magnet)
-1. **Deliver in chat** — the link to the saved outline, the headline, and the eleven section names in one line;
-   the full copy only when the member asks ("show me the full page copy"). Never a wall of text.
-2. **Save to the workspace** following `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: into the **same
-   campaign folder** as the magnet, save `Opt-In Funnel — [Guide Name]` — the saved title the design step
-   keys on; to the member it is "your sales funnel outline" (rendered to a styled `.docx` via the shared
-   renderer; read it back). Confirm the location in plain words. If the save fails, the output
-   standard's fallback applies — say it's not saved, retry once, the chat copy is the deliverable; keep going.
-   **Keep the structured text** at `~/attraction-brain/exports/opt-in-funnel-[slug]-YYYY-MM-DD.txt` (`[slug]` per
-   output standard §2) — the Lead Magnet Package is assembled from it, and the Brain syncs `exports/*.txt`.
+1. **Deliver in chat** — the headline and the eleven section names in one line, and that the outline lives inside
+   the Week 3 Kit; the full copy only when the member asks ("show me the full page copy"). Never a wall of text.
+2. **No document of its own.** The page outline is **kept as text** at
+   `~/attraction-brain/exports/opt-in-funnel-[slug]-YYYY-MM-DD.txt` (`[slug]` per output standard §2; the Brain syncs
+   `exports/*.txt`) and carried word for word inside the Week 3 Kit by `lm-package` and the Brain's kit builder. To the
+   member it is "your sales funnel outline, in your Week 3 Kit". A member finishing Week 2 holds three files — the
+   offer, the guide, the kit — and this is not a fourth. If the text cannot be written (sandbox unavailable), keep the
+   copy in the session for `lm-package` and say so in one line; keep going.
 3. **Log it (silently):** in `memory/magnets.md`, stamp `Funnel doc: YYYY-MM-DD` in the magnet's intake block (the
    Campaign folder column is already set; funnel URL stays "not live yet" until the member confirms the page is up, then
    it becomes the URL and Status → `live` and `## Current magnet` gets the URL — and `brain.md`'s
@@ -285,11 +285,11 @@ theirs to share, say 'refresh my page'"*).
    **attraction-brain-sync PUSH** (write → push → verify). This skill never writes `content-log.md`.
 4. **Close the loop:** *"That's your sales funnel outline — the opt-in page section by section, the pop-up,
    and the thank-you page with the download and the call. Your page gets built in Week 3's design session from
-   your Lead Magnet Package (or by your web person or your site tool, from these exact sections). When it's live,
+   your Week 3 Kit (or by your web person or your site tool, from these exact sections). When it's live,
    test-submit the form once, then tell me — say 'my funnel is live' with the link — and every other system
-   points at it. Until then your guide goes out by DM and email."* **Then the package:** when the navigator runs
-   this skill, `lm-package` follows on its own; on a standalone run or a refresh, run `lm-package` now (silent —
-   its Step 4) so the Week 3 file carries this version, and say so in one line. When the
+   points at it. Until then your guide goes out by DM and email."* **Then the kit:** when the navigator runs this
+   skill, `lm-package` follows on its own; on a standalone run or a refresh, run `lm-package` now (silent) so the
+   Week 3 Kit carries this version, and say so in one line. When the
    Video line says to record, add one line: *"And whenever you're ready for the video at the top, say 'my why
    join me story' — your Brain writes the 60-second script."*
 5. **Point traffic at it (one line, no new work):** the free places to put the link once it's live — the
@@ -329,4 +329,4 @@ A demo keyword aimed at the member's own page ("mock up my opt-in page") is a re
 - [ ] No design direction written (aa-funnel-design owns it); assets-to-gather + the video note + the static form rule in the appendix
 - [ ] Compliance pass done per house rules #5 (the stamp on the page footer and the thank-you footer; no bracket tokens; set → one reminder)
 - [ ] The quality gate run; a failed check fixed and re-run once; anything still thin said plainly
-- [ ] Saved into the same campaign folder as the magnet (or the fallback said plainly); magnets.md updated and pushed; `brain.md`'s Live magnet line carries the URL once the page is live
+- [ ] The page text kept in exports/ (no document of its own) and handed to the kit; magnets.md updated and pushed; `brain.md`'s Live magnet line carries the URL once the page is live

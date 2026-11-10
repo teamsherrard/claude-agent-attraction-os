@@ -7,8 +7,8 @@ description: >
   broken down), loads the Agent Attraction Brain, builds the Partner Offer in-session if it is not
   built yet, then puts ONE lead magnet recommendation built from that offer in front of the member
   (say yes, or ask for the next best), runs a short intake pre-answered from the Brain, and hands
-  the magnet writer everything; the sales funnel outline and the Lead Magnet Package (the one file
-  for Claude Design in Week 3) follow in the same sitting. No default magnet, never three. Trigger on: "launch my lead magnet plugin", "set up my lead
+  the magnet writer everything; the sales funnel outline follows and both go into the Week 3 Kit (the
+  one file for Claude Design) in the same sitting. No default magnet, never three. Trigger on: "launch my lead magnet plugin", "set up my lead
   magnet for agents", "lead magnet for agents", "attraction lead magnet", "build my lead magnet for
   agents", "set up my attraction funnel", "opt-in funnel for agents", "finish my agent lead magnet".
 ---
@@ -41,9 +41,10 @@ unique value proposition; one recommendation; no default magnet). The three laws
 3. **The lead magnet document** (`lm-magnet`).
 4. **The sales funnel outline** (`lm-funnel` — the opt-in page copy and strategy, the two-step opt-in, the
    thank-you page with the instant download and the call).
-5. **The Lead Magnet Package** (`lm-package` — the one file the member uploads to Claude Design in Week 3: the
-   offer, the guide and the page word for word, the messaging and the design brief; assembled from the finished
-   documents, never rewritten).
+5. **The Week 3 Kit** (`lm-package` writes the lead magnet half — the guide and the page word for word, the
+   messaging, the design brief — and the Brain's `attraction-week3-kit` saves the ONE file, offer and lead magnet
+   together, in the home base folder beside the Brain Book). The member ends Week 2 with three files: the offer, the
+   guide, the kit — never more.
 6. Then, as separate asks whenever they're ready: delivery, nurture, bios, Google Business Profile,
    partnerships, analytics (the bios and the delivery kit go into the package on their own).
 
@@ -106,9 +107,9 @@ statement above that cap) and its closing line — *"Does this feel like you? Sa
 names, or change anything: the names, the call time, what's included."* (with its one brokerage question
 folded in when the Brain holds no answer) — under your lines, in the same message. The member says yes or
 sends their edits in one message; the skill applies them, builds `offer.md` and the Partner Offer document
-silently, runs its gate, pushes, writes the why-join-me story, sorts what is free and what costs, saves the Offer
-Package (the one file for the offer kit — the digital product kept small: a template plus one short recording),
-and delivers a three-line summary. When it finishes — `offer.md` reads
+silently, runs its gate, pushes, writes the why-join-me story, sorts what is free and what costs (the digital product
+kept small: a template plus one short recording — no documents of their own; the kit comes at the end of this
+sitting), and delivers a three-line summary. When it finishes — `offer.md` reads
 `Status: finalized by member …`, the document is delivered — **do NOT stop at the offer skill's own close
 line.** Continue in the same breath:
 
@@ -160,10 +161,10 @@ confirm against the workspace's campaign folders (`${CLAUDE_PLUGIN_ROOT}/shared/
 
 | What you find | What it means | What you do |
 |---|---|---|
-| **A campaign with the Lead Magnet doc but no funnel doc** (status `written` or `designed`, no funnel URL) | They stopped halfway | **Resume at the funnel** — one line: *"Your [Magnet Name] still needs its page — let's finish that before anything new."* → `lm-funnel` (tell it which magnet doc) |
-| **The Lead Magnet doc and the funnel doc, but no package** (the intake block reads `Package doc: —`; no `Lead Magnet Package — …` doc in the folder) | They stopped before the Week 3 file | **Build the package** — one line: *"Your [Magnet Name] and its page are done — let me pack them into your Week 3 file."* → `lm-package` |
+| **A campaign with the Lead Magnet doc but no page outline** (status `written` or `designed`, the intake block reads `Funnel doc: —`) | They stopped halfway | **Resume at the funnel** — one line: *"Your [Magnet Name] still needs its page — let's finish that before anything new."* → `lm-funnel` (tell it which magnet doc) |
+| **The guide and the page outline, but not in the kit** (the intake block reads `Kit doc: —`) | They stopped before the Week 3 file | **Add them to the kit** — one line: *"Your [Magnet Name] and its page are done — let me put them in your Week 3 Kit."* → `lm-package` |
 | **No `magnets.md` rows, no campaign folders** | Starting fresh | The welcome Step 1 decided (offer-first, or offer-in-hand) → Step 3 |
-| **Only finished campaigns** (magnet + funnel + package, or status `live`) | Done; ready for the next | Congratulate in one line, then: *"Your [Magnet Name] campaign is done — nice work. Ready for the next one? I'll look at your offer and what's been converting and put the one I'd build next in front of you."* → Step 3 |
+| **Only finished campaigns** (magnet + page + in the kit, or status `live`) | Done; ready for the next | Congratulate in one line, then: *"Your [Magnet Name] campaign is done — nice work. Ready for the next one? I'll look at your offer and what's been converting and put the one I'd build next in front of you."* → Step 3 |
 | **Can't read the workspace / connector down** | Unknown | **Don't stall.** Say which connector failed in one plain line, then ask one question with a default — *"Have we already built a lead magnet together? (If you're not sure, I'll assume this is your first.)"* — and go with their answer |
 
 A half-built or finished campaign means the offer was built already (the magnet came out of it) — those rows
@@ -227,19 +228,18 @@ I'll have your [magnet, in plain words]."* — and go.
 2. Pass to **`lm-magnet`** with the focus **already locked** (the shape, the type of agent, the one pain, the
    promise, "built from: [the framework step and its tool or template — or, on an older offer, the UVP mechanism or Teach-first lesson]") plus the intake bundle — it skips its own
    Phase 1 and writes. When the magnet is done it hands off to **`lm-funnel`** on its own, which writes the
-   sales funnel outline. **Then run `lm-package`** (silent — its Step 4) with the two texts just written: it
-   packs the offer, the guide, the page, the messaging and the design brief into the **Lead Magnet Package**,
-   the one file for Week 3. You don't come back until all three are done.
+   sales funnel outline. **Then run `lm-package`** (silent) with the two texts just written: it writes the lead
+   magnet half of the **Week 3 Kit** and the Brain's kit builder saves the one kit — the offer and the lead magnet
+   together — in the home base folder. You don't come back until all three are done.
 3. **Close the session with the finish line** — one short block, plain words, nothing numbered:
-   *"Done: your lead magnet, your sales funnel outline and your Lead Magnet Package are in your workspace under
-   Content → Guides, and your Brain Board shows the magnet and what's left. Your Offer Package from the offer
-   session sits in your Offer folder. Those two packages are the two files you upload to Claude Design in Week 3,
-   with your brand brief — they hold the words, the structure and the build notes, so the design gets made from
-   them; download them from those folders when the week opens. This week: open the guide in
+   *"Done. You now have three files: your offer, in your Offer folder; your guide, under Content → Guides; and your
+   Week 3 Kit, in your home base folder beside your Brain Book — the one file you upload to Claude Design in Week 3,
+   with your brand brief. The kit holds your offer, your guide, your page copy and the build notes, so the design
+   gets made from it. Your Brain Board shows the magnet and what's left. This week: open the guide in
    Google Docs or Word and download it as a PDF — that's your shareable version today (the branded design comes in
    Week 3). Upload that PDF to the same Guides folder, share it 'anyone with the link', and that link is your
    download button. Then your bios — say 'update my attraction bios' (five minutes) — and the DM and email that
-   send the guide — 'deliver my guide'; both go into your package on their own. Your page goes live in Week 3;
+   send the guide — 'deliver my guide'; both go into your kit on their own. Your page goes live in Week 3;
    until then you hand the guide out by DM and email. If we get cut off, 'finish my agent lead magnet' picks up
    exactly here."*
 
@@ -268,10 +268,11 @@ asked for; they just get the thing it depends on first.
 | "finish my agent lead magnet", "pick up my attraction funnel", "continue my lead magnet" | resume | Step 2 → resume at the right step |
 | "my funnel is live", "here's my live page link", "my page is live" | the page went live | `lm-funnel` — its update branch only: records the URL, Status → `live`, the Brain's Live magnet line; nothing rewritten |
 | "the PDF is done", "my guide is designed" | the designed PDF exists | `lm-package` — its record branch only: Status → `designed`, the download link if given |
-| "refresh my guide" · "refresh my page" | a rewrite from the current Brain | `lm-magnet` · `lm-funnel` — a new dated copy, same campaign folder; then `lm-package` rebuilds the package |
-| "build my offer", "build my partner offer" is what they actually need | the offer | the Brain's offer skill (`attraction-offer`) — one offer card, shown not asked; it ends with the why-join-me story, the free-vs-paid sort and the Offer Package — and when they came through this plugin, continue straight into the magnet after |
-| "build my offer package", "my offer package", "what do I upload for my offer kit" | the offer's one file | the Brain's `attraction-offer-package` (needs a built offer) |
-| "build my lead magnet package", "my lead magnet package", "rebuild my package", "what do I upload to Claude Design", "design brief for my guide", "make my guide a PDF", "mockup for my guide" | the Week 3 file | `lm-package` (needs the written magnet and its page outline; it writes the page first if that is missing) |
+| "refresh my guide" · "refresh my page" | a rewrite from the current Brain | `lm-magnet` (a new dated copy, same campaign folder) · `lm-funnel` (new text); then `lm-package` rebuilds the kit |
+| "build my offer", "build my partner offer" is what they actually need | the offer | the Brain's offer skill (`attraction-offer`) — one offer card, shown not asked; it ends with the why-join-me story and the free-vs-paid sort (in the Brain) and, standalone, the Week 3 Kit — and when they came through this plugin, continue straight into the magnet after |
+| "build my Week 3 kit", "what do I upload for my offer kit" | the one Week 3 file | the Brain's `attraction-week3-kit` (needs a built offer) |
+| "add my guide to my kit", "rebuild my lead magnet package", "my lead magnet package", "design brief for my guide", "make my guide a PDF", "mockup for my guide" | the guide's half of the Week 3 Kit | `lm-package` (needs the written magnet and its page outline; it writes the page first if that is missing), then the Brain's kit builder |
+| "what do I upload to Claude Design", "my Week 3 kit", "rebuild my kit" | the one Week 3 file | the Brain's `attraction-week3-kit` (it hands back the kit; builds it first if none exists) |
 | "how do I deliver my guide", "ManyChat copy for my guide", "GUIDE keyword", "DM that sends the guide" | delivery | `lm-delivery` |
 | "nurture sequence for agents", "my weekly newsletter for agents", "email my list" | the list | `lm-nurture` |
 | "partner outreach", "reach out to lenders about agents", "strategic partners for attraction" | partners | `lm-partnerships` |
@@ -285,7 +286,7 @@ Never a flat "can't." Offer the nearest real thing (house rules #3, #4):
 
 | They ask for | Say |
 |---|---|
-| "Design the PDF / build the page for me" | *"I write all the words and lay out every section, and I pack them into your Lead Magnet Package — the one file you upload to Claude Design in Week 3, with the build notes inside. The pretty version gets made there. You'll have everything."* |
+| "Design the PDF / build the page for me" | *"I write all the words and lay out every section, and they go into your Week 3 Kit — the one file you upload to Claude Design in Week 3, with the build notes inside. The pretty version gets made there. You'll have everything."* |
 | "Can you put it live / host it?" | *"I'll get the docs ready to go; your design step can take the page live, or you host it wherever you like — your site, GoHighLevel, wherever you're comfortable."* |
 | "Put a 'book a call' button on the page" | *"It's there — the page's main job is the guide, so the opt-in sits top, middle and bottom, and near the bottom there's a book-a-call area for the agent who's already sure. The thank-you page offers the call again the moment they grab the guide."* |
 | "Can it email them the guide?" | *"They'll get it as an instant download the second they sign up — no waiting on an inbox. I'll also write the delivery email and the follow-up sequence you load into your own list tool."* |

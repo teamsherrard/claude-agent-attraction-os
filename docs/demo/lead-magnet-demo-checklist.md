@@ -7,7 +7,7 @@
 - [ ] Plugins 1, 2 and 3 installed and current (Check for updates); the demo Brain pulled (`Demo brain: yes`).
 - [ ] Taylor's offer is already built (`Status: built in Week 2`) — the demo shows the offer-in-hand welcome. To
   show the offer-first path instead, set `identity/offer.md` back to `Status: seeds (Week 2 builds the offer)`; that
-  path ends with the why-join-me story, the free-vs-paid sort and the Offer Package before the magnet (allow 15 more minutes).
+  path writes the why-join-me story and the free-vs-paid sort silently (no documents of their own) before the magnet; the kit is built once, at the end (allow 15 more minutes).
 - [ ] Compliance `set` (the demo's default) so nothing stops before the guide.
 
 ## The screen (one sitting, about an hour live; say so)
@@ -24,21 +24,22 @@
 - [ ] The guide: in chat only the link, the cover title and hook, five lines on what is inside. The document is in
   Content → Guides → `2026-… · [Title]` as `Lead Magnet — [Title]`.
 - [ ] It continues straight into the page — no "want me to write the page?" question.
-- [ ] The sales funnel outline: the link, the headline and the eleven section names in one line; saved beside the
-  guide as `Opt-In Funnel — [Title]`.
-- [ ] The Lead Magnet Package: the link, the title and five lines (the five parts; the one file for Claude Design in
-  Week 3; "rebuild my package"); saved beside the guide as `Lead Magnet Package — [Title] — 2026-…`. No full text in
-  chat.
-- [ ] The finish line: what exists and where (the guide, the outline, the package) · the package is the Week 3 upload
-  · export the guide as a PDF today, upload it to the same folder, share "anyone with the link" · the bios phrase ·
-  the delivery phrase · the page goes live in Week 3 · the resume phrase (`finish my agent lead magnet`).
+- [ ] The sales funnel outline: the headline and the eleven section names in one line, and that it lives in the
+  Week 3 Kit — NO document of its own.
+- [ ] The Week 3 Kit: one line and the link — `Week 3 Kit — Taylor Brooks — 2026-… — DEMO` in the home base folder
+  beside the Brain Book, offer and lead magnet together. No full text in chat.
+- [ ] The finish line: three files — the offer, the guide, the kit — and where each lives · the kit is the Week 3
+  upload · export the guide as a PDF today, upload it to the same folder, share "anyone with the link" · the bios
+  phrase · the delivery phrase · the page goes live in Week 3 · the resume phrase (`finish my agent lead magnet`).
+- [ ] **Count the file cards Cowork shows at the end: three** (the offer only if it was built this sitting). Seven
+  was the failure the owner caught on 2026-11-09.
 
 ## After the screen (each one phrase, two minutes)
 - `open my brain board` — the Lead Magnet dot is lit "this week"; its page shows the guide on file and what is left.
 - `update my attraction bios` — the five platforms plus the extras, one pack, saved to Brand.
 - `deliver my guide` — the by-hand DM script first; the ManyChat version labelled for Week 3.
-- `build my lead magnet package` — rebuilds the Week 3 file (one link, five lines); `what do I upload to Claude Design`
-  hands it back; no "Brand HQ", no skill names, no Claude Design before Week 3.
+- `what do I upload to Claude Design` — hands back the one Week 3 Kit (one line, one link); no "Brand HQ", no skill
+  names, no Claude Design before Week 3.
 
 ## What the demo must NOT show
 - Three ideas at once · a numbered menu · a wall of copy in chat · "check your inbox" · a booking page that does

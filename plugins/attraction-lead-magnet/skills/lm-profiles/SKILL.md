@@ -131,12 +131,11 @@ suggest four — the guide · how we work together · the community · the membe
    don't exist yet; never rename, reorder, or delete a heading. Either way, end each touched section with
    `*Updated by the Lead Magnet plugin on YYYY-MM-DD — CTA → [the funnel]*`. Then **attraction-brain-sync PUSH**
    (write → push → verify — the write-back law; the push also refreshes their Brain Board). When the current
-   magnet already has a Lead Magnet Package (`memory/magnets.md` → its intake block's `Package doc:` is stamped),
-   run `lm-package` silently (its Step 4) so the Week 3 file carries the bios; if that fails, one line names
-   "rebuild my package" for later. `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
+   magnet is already in the kit (`memory/magnets.md` → its intake block's `Kit doc:` is stamped), run `lm-package`
+   silently so the Week 3 Kit carries the bios; if that fails, one line names "add my guide to my kit" for later. `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
    fills `## YouTube` in Week 4. `lm-gbp` reuses the Google section; every other system now quotes the same
    identity.
-3. Close with the checklist: *"Paste each one into its platform — start with Instagram and LinkedIn. Your Lead
-   Magnet Package is rebuilt, so Week 3 has these too. When your guide goes live, your offer sharpens, or your
-   brokerage changes, say 'update my attraction bios' and I'll refresh the whole stack."* (Drop the package
-   sentence when no package exists yet.)
+3. Close with the checklist: *"Paste each one into its platform — start with Instagram and LinkedIn. Your Week 3
+   Kit is rebuilt, so these are in it too. When your guide goes live, your offer sharpens, or your brokerage
+   changes, say 'update my attraction bios' and I'll refresh the whole stack."* (Drop the kit sentence when the
+   guide is not in the kit yet.)

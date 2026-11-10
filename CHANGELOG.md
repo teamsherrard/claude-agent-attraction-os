@@ -2,6 +2,35 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.20.0] — 2026-11-09
+
+**Three files, never seven (Brain 0.7.0 · Lead Magnet 0.9.0 · Support 0.1.17).** The first live run of 0.19.0 ended
+with seven document cards in one chat — the Partner Offer, a Why Join Me doc, a Value Stack doc, the Offer Package, the
+guide, the Opt-In Funnel doc and the Lead Magnet Package. The owner's ruling: that overwhelms a real estate agent. A
+member finishing Week 2 now holds **the offer** (the Partner Offer document), **the guide** (the PDF agents download)
+and **one Week 3 Kit** (the one file for Claude Design). Everything else lives inside those or in the Brain.
+- **`attraction-week3-kit`** (Brain; replaces the day-old offer-package skill): `Week 3 Kit — [First Last] — YYYY-MM-DD`
+  in `01 · AI Brain` beside the Brain Book. Part A the offer (the why-join-me statement, the one line, why me, the five
+  problems it solves, the stack with the free line and the up-front cost line, the proof plan, why now, what partners
+  can offer, the small digital product, the copy for the one-pager · stack · mockup · call deck · welcome pack · social
+  lines, the offer-kit design brief). Part B the lead magnet, written by the Lead Magnet plugin and included verbatim
+  (the guide, the page, the messaging, the design brief with plain builder notes). Newest wins and the superseded copy
+  is trashed, so the folder holds one kit. Stamped `## Week 3 Kit` in `offer.md`.
+- **No more documents of their own:** `attraction-why-join-me` and `attraction-free-vs-paid` write the Brain only
+  (the story and the stack appear in the Partner Offer's appendix and At a glance, and in the kit); `lm-funnel`
+  keeps the page outline in `exports/` only (the member hears "your sales funnel outline is in your Week 3 Kit");
+  `lm-package` writes the kit's lead magnet half and calls the Brain's kit builder instead of saving a Lead Magnet
+  Package. The offer session skips the kit when the Lead Magnet plugin started the sitting, so the kit is built once,
+  at the end, with both parts.
+- Readers updated: `lm-navigator` (session order, resume table, finish line with the three files, routing — "what do I
+  upload to Claude Design" is the Brain's), `lm-magnet`, `lm-delivery`, `lm-profiles` ("add my guide to my kit"),
+  `house-rules.md` #3, `output-standard.md` (tree, naming, prefixes, appendices), `brain-contract.md` (both plugins;
+  `Kit doc:` replaces `Package doc:` in the intake block, template and demo), `intake-questions.md`, `offer-template.md`,
+  the Brain template (`offer.md`, `journey.md`), `attraction-doctrine.md`, `drive-map.md`, `render_board.py` (demo board
+  re-rendered), `attraction-brand-direction`, `attraction-brain-health`; Support (`cohort-kb.md`, `faq.md`,
+  `maa-support-onboard`, `stack-map.md`); `README.md`, `setup-guide.md`, `lead-magnet-demo-checklist.md` (count the
+  cards: three).
+
 ## [0.19.0] — 2026-11-09
 
 **The offer is a package, and the package is promoted (Brain 0.6.0 · Lead Magnet 0.8.0 · Support 0.1.16).** The

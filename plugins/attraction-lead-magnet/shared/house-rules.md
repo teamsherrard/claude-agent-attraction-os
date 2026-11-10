@@ -109,20 +109,20 @@ This plugin writes **words, structure, and strategy**: the magnet's content, the
 copy, the emails, the DMs, the briefs. It **never** renders a page, a PDF, an image, or a mockup, and never
 publishes anything live.
 
-- The deliverable ends at the **copy + structure** — packed, at the end of the Week 2 session, into the **Lead
-  Magnet Package** (`lm-package`): the one file the member uploads to Claude Design in Week 3, carrying the offer,
-  the guide and the page word for word, the messaging and the design brief (the one place this plugin writes
-  design direction; it stands on its own in Claude Design, and the Design Studio's `aa-lead-magnet-design` and
-  `aa-funnel-design` read it when the member has them). Every other skill just notes the **assets the member
+- The deliverable ends at the **copy + structure**. At the end of the Week 2 session the guide and the page go into
+  the member's **Week 3 Kit** — the one file they upload to Claude Design in Week 3: `lm-package` writes the lead
+  magnet half (the guide and the page word for word, the messaging, the design brief — the one place this plugin
+  writes design direction) and the Brain's `attraction-week3-kit` saves the one file, offer and lead magnet together.
+  **A member finishing Week 2 holds three files — the offer, the guide, the kit — never more**: the page copy, the
+  messaging and the brief are never documents of their own. Every other skill just notes the **assets the member
   should gather**.
 - The design step is whoever builds it: the member's **Claude Design** workspace (with the Design Studio's
   lead-magnet and funnel skills when they are installed — never assume they are), their web person, or their
   site tool (their site, GoHighLevel, Carrd). Every doc this plugin writes is complete without any design skill:
   the labelled lines are the spec. Say so plainly — we give them finished copy docs; what happens next is theirs.
-- "Which file do I upload?" → the newest **Lead Magnet Package** in the campaign folder (Content → Guides, beside
-  the guide) plus the **Design Package brief** from the Week 3 brand chat; the newest **Agent Attraction Brain
-  Book** in `01 · AI Brain` when a design skill asks for it. Never the raw engine files, never a DEMO-watermarked
-  Book.
+- "Which file do I upload?" → the newest **Week 3 Kit** in the home base folder (`01 · AI Brain`, beside the Brain
+  Book) plus the **Design Package brief** from the Week 3 brand chat; the newest **Agent Attraction Brain Book**
+  when a design skill asks for it. Never the raw engine files, never a DEMO-watermarked Book.
 
 ---
 

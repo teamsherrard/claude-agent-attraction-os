@@ -159,18 +159,16 @@ offer file), append both at the end, before `## Open items`, and leave the rest 
 Write → push via `attraction-brain-sync` → verify, one step. If the push fails: say it is NOT saved,
 keep the content visible, retry once, stop.
 
-**Deliverable:** the stack and the product map as structured text through
-`${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py` per `shared/doc-formatting.md`, saved as
-`Value Stack · [Member] · [YYYY-MM-DD].docx` to `05 · Offer` (newest date is current). If the renderer
-reports it is unavailable, do not install anything: save the structured text as a `.md`, upload that, and
-say in one line that the styled version needs the renderer.
+**No document of its own.** The stack and the product live in the Brain, in the Partner Offer (At a glance's
+"What's free from day one" and "What it costs you", the deliverables) and in the Week 3 Kit (the one file for
+Claude Design). A member finishing Week 2 holds three files — the offer, the guide, the kit — never a fourth.
 
 ---
 
-## The brief the Offer Package carries (Part III and Part IV of `attraction-offer-package`)
+## The brief the Week 3 Kit carries (Part A of `attraction-week3-kit`)
 
-The offer stack, the product mockup and the Join My Team one-pager are designed in Week 3 from the **Offer
-Package** — one file, built by `attraction-offer-package` from the sections this skill writes. The block below is
+The offer stack, the product mockup and the Join My Team one-pager are designed in Week 3 from the **Week 3
+Kit** — one file, built by `attraction-week3-kit` from the sections this skill writes. The block below is
 the shape it carries for those three pieces (no separate brief file is saved any more; compliance gate applies).
 
 ```
@@ -200,11 +198,11 @@ comment keyword.
 ## Close
 *"Sorted: [n] things free from day one, [n] discounted and said up front, and your [product name] is
 mapped — version one is your first lessons and templates; the Value Vault builds the full version in Week 6.
-It's all in your Offer Package, the one file for your offer kit in Claude Design in Week 3."* One suggestion
-at most; no file names. Then run **attraction-offer-package** silently (its Step 3) so the package carries the
-stack and the product; the brief block above lives inside it (Part III and Part IV) — no separate brief file.
+It's all in your Week 3 Kit, the one file for Claude Design."* One suggestion at most; no file names. Then run
+**attraction-week3-kit** silently (its Step 3) so the kit carries the stack and the product; the brief block above
+lives inside it (Part A) — no separate brief file.
 
-## Silent mode (called by `attraction-offer` at the end of the offer session, or by `attraction-offer-package`)
+## Silent mode (called by `attraction-offer` at the end of the offer session, or by `attraction-week3-kit`)
 No orientation line, no questions: Stop 1's four answers are decided from the Brain — (1) and (2) from the
 deliverables table and `## Structure` (recorded or a document = no time; a call, a 1:1, a Saturday = time);
 (3) "nothing I sell to agents today" unless `06 · Materials`, `proof.md` or `strategy.md` name a priced course,
@@ -214,8 +212,8 @@ short recording of the first lesson (10 to 15 minutes, a phone or Zoom screen re
 template carries it, a guide otherwise; a course only when three recordings already exist, never a promise to
 record one (realtors are not course creators — Mike's first offer was a weekly call and three rough tutorials);
 the cover line from the program name, the three promises from the deliverables as outcomes, `Status: mapped ·
-version one by [the Set Up phase's end]`. Write the two sections, render the Value
-Stack document, push, and hand the free line, the up-front cost line and the product block back to the caller.
+version one by [the Set Up phase's end]`. Write the two sections, push, and hand the free line, the up-front cost
+line and the product block back to the caller — no document.
 The member changes any row later with "free vs paid".
 
 ---
@@ -246,4 +244,4 @@ cut it until it's specific) · the so-what test (every item ends in an outcome) 
 
 
 ## "My digital product is built" (Week 6)
-When the member says the Value Vault finished the product, update `identity/offer.md → ## Digital product` with `Status: built · [date] · [product name] · saved in 05 · Offer/[Product]/` and push. One line back: "Logged — your offer now points at a real product." Then run **attraction-offer-package** silently so the package's Part II reads "built". Nothing else changes.
+When the member says the Value Vault finished the product, update `identity/offer.md → ## Digital product` with `Status: built · [date] · [product name] · saved in 05 · Offer/[Product]/` and push. One line back: "Logged — your offer now points at a real product." Then run **attraction-week3-kit** silently so the kit's product block reads "built". Nothing else changes.

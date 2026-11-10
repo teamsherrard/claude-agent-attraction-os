@@ -176,7 +176,7 @@ The offer is checked part by part; a missing part is an open item, never invente
 4. **Proof** — success stories, case studies, examples. None yet → Mike's own path: help agents for free to
    earn the first case studies; the file says "[open item: first partner's result]" and the Partner Offer
    says "built with my first partners" in words. **The proof plan** (every offer; written as `Proof plan:` under
-   `## The Partner Offer`, rendered in PROOF and in How to create it, carried by the Offer Package): the
+   `## The Partner Offer`, rendered in PROOF and in How to create it, carried by the Week 3 Kit): the
    founding-partner exchange — the first two or three partners get the member's time (the Saturday, the 1:1s,
    the mark-ups) in return for a written OK on their result and a 60-second video at day 90; the line names who,
    what they get and when the OK is asked for. When proof is thin it is also the honest why-now.
@@ -340,7 +340,7 @@ section in `offer.md`; none is asked except the one question below.
   change** (downstream systems key on them); the register inside them does. The flag is read by every public
   writer — the Lead Magnet plugin's magnet and funnel, the bios, the content engines.
 - **What my partners can offer** (`What my partners can offer:` under `## The Partner Offer`, rendered as the
-  last paragraph of WHAT YOU GET before the brokerage line, and in the Offer Package) — Mike's duplication rule
+  last paragraph of WHAT YOU GET before the brokerage line, and in the Week 3 Kit) — Mike's duplication rule
   (`04-value-proposition/28`): the program is built so the member's partners can offer it to the agents they
   attract — the same scripts, lessons and calls, the member helping them run their first call. In the join
   register: "the day you've run it, it's yours to offer the agents you attract"; in the open register: "what I
@@ -590,16 +590,19 @@ is [the framework name] — [the step chain]. It's saved to your Drive → [work
 At a glance page is the one to read first, and the last pages are yours alone: how to create it, how to start
 with your upline, the words to use, where to host it, and the content branches everything else grows from."*
 **Then, before the close, the rest of the offer — silently, no questions:** run **attraction-why-join-me** in
-silent mode (the statement and the 60-second story, from the Brain) → **attraction-free-vs-paid** in silent mode
-(the stack sorted free · included · discounted, the free line, the up-front cost line, version one of the digital
-product) → **attraction-offer-package** (the one file: the offer to join me, the product, the copy for every asset
-that promotes the offer, the design brief for the offer kit — saved to 05 · Offer). Add one line to the close:
-*"Your why-join-me story, what's free and what costs, and your Offer Package are saved beside it — the package is
-the one file for your offer kit in Claude Design in Week 3."* Then one suggestion at most, no file names: *"Next
-this week: your lead magnet — say 'launch my lead magnet plugin'."* **When the Lead Magnet plugin started this
-session** (its navigator ran this skill as the offer step), the silent chain still runs, then skip the suggestion
-and hand straight back: *"Your offer's built. Now the lead magnet."* — it continues in the same sitting, and its
-one recommendation reads the framework step the appendix named.
+silent mode (the statement and the 60-second story, from the Brain — no document of its own) → **attraction-free-vs-paid**
+in silent mode (the stack sorted free · included · discounted, the free line, the up-front cost line, version one of
+the digital product, kept small — no document of its own) → **attraction-week3-kit** (the ONE file for Claude Design
+in Week 3: Part A the offer to join me, the product, the copy for every asset that promotes the offer and the offer-kit
+design brief; Part B joins when the lead magnet is written — saved to the home base folder beside the Brain Book). The
+member ends a standalone offer session with TWO files: the offer and the kit. Add one line to the close: *"Your
+why-join-me story and what's free and what costs are inside it, and your Week 3 Kit — the one file for Claude Design —
+is in your home base folder beside your Brain Book."* Then one suggestion at most, no file names: *"Next this week:
+your lead magnet — say 'launch my lead magnet plugin'; it goes into the same kit."* **When the Lead Magnet plugin
+started this session** (its navigator ran this skill as the offer step), run the story and the stack silently but
+**skip the kit** — the Lead Magnet plugin builds the one kit at the end of the sitting with both parts — then skip the
+suggestion and hand straight back: *"Your offer's built. Now the lead magnet."* — it continues in the same sitting, and
+its one recommendation reads the framework step the appendix named.
 
 ---
 
@@ -650,7 +653,7 @@ minutes and nothing in it explains itself).
   package allowed:` line and the five member-page sections (`## How to create it` · `## Start with your upline`
   · `## If your brokerage does not allow a join-gated package` · `## Where to host it` · `## Content branches`)
   and the `Differentiator:` · `Proof plan:` · `What my partners can offer:` lines — except the two sections
-  `attraction-free-vs-paid` owns, the `## Offer Package` section `attraction-offer-package` owns, and the
+  `attraction-free-vs-paid` owns, the `## Week 3 Kit` section `attraction-week3-kit` owns, and the
   `## Notes for Week 2` section capture appends to; in `brain.md` it writes only the `Offer status:`, `UVP (one line):` and `Program:` lines; it
   writes nothing else. The content engines read `## Content branches`; they never write it.
 - **The gate runs every time**, and a failed check is fixed once, then said plainly — never hidden, never

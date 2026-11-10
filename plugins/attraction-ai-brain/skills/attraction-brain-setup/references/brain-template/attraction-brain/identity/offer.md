@@ -116,7 +116,7 @@
 **The thing they GIVE agents who join (version one = the first lessons and templates now; the full build in the Value Vault, Week 6):** [name · what it is · the outcome it produces · format]
 **Status:** [not mapped | mapped YYYY-MM-DD | built YYYY-MM-DD]
 
-## Offer Package (owned by `attraction-offer-package`)
-**Status:** [not built | built YYYY-MM-DD · Offer Package — [Program Name] — YYYY-MM-DD] *(the one file for the offer kit in Claude Design in Week 3, saved to `05 · Offer`; rebuilt after the offer, the why-join-me story or the stack changes)*
+## Week 3 Kit (owned by `attraction-week3-kit`)
+**Status:** [not built | built YYYY-MM-DD · Week 3 Kit — [First Last] — YYYY-MM-DD · parts: A | A + B] *(the ONE file for Claude Design in Week 3, saved to `01 · AI Brain` beside the Brain Book — Part A the offer, Part B the lead magnet; rebuilt whenever a part changes; the older copy trashed)*
 
 **Compliance line on every public mention:** results are framed as what the member will SHOW, never what a partner will EARN. No splits, caps, stock, or rev-share numbers here — private call only.
