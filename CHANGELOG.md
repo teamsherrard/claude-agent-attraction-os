@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.25.2] — 2026-11-09
+
+**The Brain Board always rebuilds at the end of the Lead Magnet sitting (Brain 0.9.7 · Lead Magnet 0.12.6).** Found in
+the live demo: the sitting had pulled only the files it needed, so the final push could not draw the board from a
+whole Brain and skipped it. Now a PULL is always the whole Brain (every identity, memory and exports file; a partial
+local Brain counts as missing), the sync's board step completes the pull before rendering and never skips, the
+sitting's last push (the kit's) rebuilds the board, and the finish line only claims an updated board when it is true.
+
 ## [0.25.1] — 2026-11-09
 
 **Scalability, verified file by file; the method map; the blueprint gate (Brain 0.9.6 · Lead Magnet 0.12.5).** A

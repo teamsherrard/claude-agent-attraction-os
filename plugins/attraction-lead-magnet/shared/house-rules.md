@@ -61,7 +61,9 @@ writes is built from it.
 - **If `~/attraction-brain/` is missing locally, PULL it first — never assume there's no Brain.** Every fresh
   session starts with an empty sandbox while the Brain lives in the member's cloud workspace (Google Drive or
   OneDrive). Run **attraction-brain-sync** (PULL — its locate ladder finds the workspace by ID, then by the
-  `_attraction-workspace.md` marker, never by name). **Only if the cloud truly has no Brain either**, send
+  `_attraction-workspace.md` marker, never by name) — and pull the WHOLE Brain, every file, never just the ones this
+  skill reads: the Brain Board is re-rendered from the local copy at every push, and a partial Brain draws a partial
+  board (2026-11-10). **Only if the cloud truly has no Brain either**, send
   them to Brain setup — *"say 'set up my attraction brain'"* — warmly, with the way back: *"…when that's done, just say 'set
   up my lead magnet for agents' and we'll pick straight back up."* A tool error is never "no Brain."
 - **The booking link, the call's length, the follow-up cadence and the signature come from the Brain** —

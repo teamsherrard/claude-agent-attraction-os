@@ -233,7 +233,11 @@ I'll have your [magnet, in plain words]."* — and go.
    sales funnel outline. **Then run `lm-profiles`** (silent mode — the bios, no questions, no document), **then
    `lm-package`** (silent) with the texts just written: it writes chapters 4–6 of the **Week 3 Kit** and the Brain's
    kit builder saves the one kit — the offer, the page, the bios — in the home base folder, under 25 pages. You don't
-   come back until all four are done.
+   come back until all four are done. **The sitting's last push (the kit's) rebuilds the Brain Board** — the sync's
+   step 4, from the whole local Brain (Step 0 pulled all of it; if any file is missing locally, the sync completes the
+   pull first). The finish line's "Your Brain Board shows the magnet and what's left" must be true when you say it; if
+   the board could not rebuild, say instead *"your Brain Board rebuilds on the next save — say 'refresh my brain board'
+   any time"*.
 3. **Close the session with the finish line** — one short block, plain words, nothing numbered:
    *"Done. You now have three files: your offer, in your Offer folder; your guide, under Content → Guides; and your
    Week 3 Kit, in your home base folder beside your Brain Book. Chapter 1 of the kit is your two-page summary, and

@@ -70,6 +70,11 @@ Members are encouraged to rename the workspace after their organization. Locate 
      create the workspace properly first — never invent a destination.
 
 ## PULL — cloud → local *(at session start, or before any Brain operation if local is missing)*
+
+**A PULL is the WHOLE Brain — `brain.md`, `config.md`, every `identity/` and `memory/` file, `exports/*.txt` —
+never just the files the calling skill needs (2026-11-10: a Lead Magnet sitting that pulled a subset left the
+Brain Board unable to rebuild at the end). A partial local Brain is treated as missing: complete it before any
+write, and always before a render.**
 1. Locate the workspace (above). The Brain's engine always lives at **`01 · AI Brain/_engine/`**
    inside it (there is no legacy root layout in this system).
 2. **Download ONLY the Brain's text files — the sync allowlist:**
@@ -134,8 +139,10 @@ Members are encouraged to rename the workspace after their organization. Locate 
    per `shared/drive-map.md` — Book and Scorecard to `01 · AI Brain/`, brand files to `02 · Brand/`,
    content to `03 · Content/…`, prospect and organization documents to `04 · Agents/…`, offer and
    onboarding documents to `05 · Offer/`. Tell the member where it landed, with the link.
-4. **The Brain Board rides on every push.** After the changed files are up, re-render the member's Brain
-   Board from the local Brain — `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_board.py" ~/attraction-brain
+4. **The Brain Board rides on every push — and the LAST push of a sitting always renders it.** First check the
+   local Brain is whole (every template file that exists in the cloud exists locally; `exports/*.txt` present);
+   if not, complete the PULL now — a board is never drawn from a partial Brain, and never skipped for that reason.
+   Then re-render the member's Brain Board from the local Brain — `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_board.py" ~/attraction-brain
    --today YYYY-MM-DD --out "<the session's working folder>/🧠 [Name]'s Brain Board — [YYYY-MM-DD].html"`
    (`--today` is the member's date, the same one you write into Last synced; if `${CLAUDE_PLUGIN_ROOT}` is
    empty, the script is `shared/render_board.py` inside the installed attraction-ai-brain plugin folder —

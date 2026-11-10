@@ -155,7 +155,9 @@ reads consistently.
    trashes the superseded copy, and hands back the link. If the Brain plugin predates the kit builder, say so in one
    line (*"update your Brain plugin — Check for updates — and say 'rebuild my kit'"*); never render a kit here.
 3. **Log it (silently):** in `memory/magnets.md` the row's intake block gets `Kit doc: YYYY-MM-DD` (replace an older
-   stamp). **attraction-brain-sync PUSH** (write → push → verify). Never narrate this or name the file.
+   stamp). **attraction-brain-sync PUSH** (write → push → verify) — inside the Week 2 sitting this is the last push, so
+   it rebuilds the Brain Board from the whole local Brain (the sync's step 4; the Lead Magnet page now shows the three
+   files, the kit's chapters and the real section headlines). Never narrate this or name the file.
 4. **Say one line** (the navigator's finish line carries it when it called you): *"Your guide's outline and your page are in
    your Week 3 Kit, in your home base folder beside your Brain Book; in Week 3 you upload it with your guide to Claude Design."* Never the
    full text in chat.
