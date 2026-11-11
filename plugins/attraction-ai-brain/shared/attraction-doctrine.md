@@ -248,7 +248,10 @@ questions the video can't answer. The right way:
    years that his agents could invite prospects to, so he controlled the narrative.
 
 **Doctrine for skills:** the CTA is a call, the Brain stores the booking link, and the Conversion plugin
-(Week 5) owns the call itself. The Brain's `positioning.md` holds the 2-minute model script for that call.
+(Week 5) owns the call itself. **The call-to-action law (Mike, 2026-11-10):** every call CTA is angled at partnering
+with the PERSON to get their help, free, to run the method — the lessons, the templates, the community — never at
+the brokerage; at the open register, "I'll walk you through it, free, no strings". The Lead Magnet plugin's house
+rules carry the two register shapes word for word. The Brain's `positioning.md` holds the 2-minute model script for that call.
 
 ---
 

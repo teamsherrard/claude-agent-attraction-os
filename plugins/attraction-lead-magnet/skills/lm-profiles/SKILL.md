@@ -146,3 +146,8 @@ confirmation are skipped; the identity line is built from the offer's `Bio-safe 
 question (the Brain answers everything — the offer, the market
 from `profile.md`, the funnel's call to action and link), Step 4's text to `exports/`, `identity/profiles.md` written
 and pushed, the pack handed to `lm-package`. The navigator's finish line tells the member the bios are chapter 6 of their kit.
+
+## The call-to-action law
+Every bio's "what to do next" line follows house rules' call-to-action law (Mike, 2026-11-10): the person · their help ·
+free · to run this — *"Want my help running [the method], free? Grab the guide ↓ / message me"* at the join register;
+*"I'll walk you through it, free"* at the open register. Never the brokerage as the reason, never "join [brokerage]".

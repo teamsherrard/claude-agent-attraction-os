@@ -217,12 +217,16 @@ never a `[` bracket token. The parts, in order:
 7. **The appendix** — the output standard's `▸ NEXT — HAND TO YOUR DESIGN STEP` and `▸ COMPLIANCE`.
 
 **The three calls to action — exactly three, written as `Call to action:` lines so the gate can count them.**
-All in the member's voice, all a conversation (book a call, "grab 20 minutes with me") — never compensation,
-never "join my brokerage," no invented urgency: (1) the soft mid-document line on ONE body page — the page that most
-needs a walkthrough (the numbers page, the template page, the step most agents get wrong): *"If you want me
-to walk you through this on your own numbers, grab 20 minutes with me — the link's on the last page."* (no
-link); (2) the "what to do next" page's line (no link); (3) the closing page's line with the booking link
-(the KB's canonical shape, the member's words; "If not, that's okay").
+All in the member's voice, all a conversation, all in **the call-to-action law's shape (house rules: the person · their
+help · free · to run this)** — never compensation, never "join my brokerage," no invented urgency: (1) the soft
+mid-document line on ONE body page — the page that most needs a walkthrough (the numbers page, the template page,
+the step most agents get wrong): *"If you want me to walk you through this on your own numbers, grab 20 minutes
+with me — the link's on the last page."* (no link); (2) the "what to do next" page's line (no link): *"Run this once.
+Then, if you want my help running it every week, grab 20 minutes with me — last page."*; (3) the closing page's line
+with the booking link, in the law's register shape: at `yes`/`unknown` *"If you want my help running this — the
+lessons, the templates, the community, everything I teach — partner with me and it's free. Grab [the call] and
+we'll see if it's a fit. If not, that's okay."*; at `no` *"If you want my help running this, grab [the call] — I'll
+walk you through it, free, no strings."* The member's words, the method named.
 
 **Shape rules that bind** (the reference has each in full): a **comparison guide** writes every model in the
 SAME shape, the member's own included with the intake's trade-off said straight — no ranking, no verdict, no

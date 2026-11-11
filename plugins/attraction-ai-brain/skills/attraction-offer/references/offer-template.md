@@ -119,7 +119,7 @@ Video intro line: [the first sentence on camera, under 20 words]
 Differentiator: [mirror of the line under ## The Partner Offer — the doc's "Why me:" line]
 Booking line: [from operations.md, or "not set yet"]
 Comment keyword: [ONEWORD] — "Comment [KEYWORD] and I'll send it."
-What the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]"]
+What the call is: [one sentence — "30 minutes, about your business, no pitch — bring your [thing]; if it's a fit, you partner with me and get my help running this, free" (open register: "I'll walk you through it, free, no strings")]
 Lead-magnet seed: [which framework step the free magnet is cut from, and why it runs without the member — or the live magnet's name and keyword from memory/magnets.md once one exists]
 (The 60-second "why join me" story lives at the end of journey.md, owned by attraction-why-join-me, not here.)
 

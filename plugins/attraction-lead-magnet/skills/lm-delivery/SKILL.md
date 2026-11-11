@@ -98,3 +98,9 @@ brokerage. The Short-Form plugin's story rotation (Week 3) reuses this frame set
 The two cardinal rules · no compensation, splits, rev share, stock, or income · no model explanation by DM ·
 no earnings talk · the privacy line present · the compliance file's cross-border note applied as written
 (recruiting scope is anywhere — never a limit) · the stamp on the email · `set` → one reminder. Never a bracket token.
+
+## The call-to-action law
+DM 3 (the human hand-off) and the delivery email's call line follow house rules' call-to-action law (Mike,
+2026-11-10): the person · their help · free · to run this — *"If you want my help running this, partner with me and
+it's free — grab [the call]. If not, that's okay."* (open register: *"I'll walk you through it, free, no strings."*).
+Compensation and the model stay off DMs; the brokerage is never the reason.

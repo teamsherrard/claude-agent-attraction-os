@@ -382,3 +382,19 @@ on every document name, and nothing saved into a real member's folders.
 missing: never say "not saved" while the connector works — upload the structured text itself as a plain document
 in the same folder, say in one line *"saved as a plain version; the styled one comes next session"*, and keep
 going. The Brain writes still push.
+
+## The call-to-action law (Mike, 2026-11-10) — every call CTA, everywhere this plugin writes
+Mike: *"the CTAs must be accurate and focused on partnering with the PERSON to get their direct help for free to
+implement the strategy — not on partnering with the brokerage."* So every call to action that points at the call —
+the guide's three, the page's Book-a-call area and thank-you line, the bios' next step, the DMs, the nurture, the
+kit's calls to action — has one shape, in the member's voice: **the person · their help · free · to run this.**
+- **Join register (`yes` or `unknown`):** *"If you want my help running this — the lessons, the templates, the
+  community, everything I teach — partner with me and it's free. Grab [the call] and we'll see if it's a fit. If not,
+  that's okay."* The help is the member's program (recorded lessons, templates, the community, the weekly call if one
+  exists — doctrine §10e), never a 1:1 promise; "free" is the free line from the offer.
+- **Open register (`no`):** *"If you want my help running this, grab [the call] — I'll walk you through it, free, no
+  strings."* No "partner" line, nothing gated on joining.
+- The brokerage is never the object of a CTA ("join [brokerage]", "free coaching if you join", the brokerage's name
+  as the reason). The method the guide teaches is always named in the CTA ("running this", "your first weekend",
+  "your open houses"), so the reader knows what the help is FOR. Compensation never. The member's own primary CTA
+  from the Brain wins when it already carries this shape; otherwise it is adapted to it, not pasted.

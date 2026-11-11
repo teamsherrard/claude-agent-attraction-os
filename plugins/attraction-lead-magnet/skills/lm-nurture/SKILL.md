@@ -77,7 +77,7 @@ reading level, the member's voice. The arc:
 6. **Day 13 — the questions.** The three questions agents ask most (`objections.md`), answered in one line
    each — the honest versions. Warm optional call line.
 7. **Day 16 — the CTA, warm.** Mike's register verbatim-adapted: *"If you'd like to chat about partnering
-   with me and getting [the real things — the weekly call, the training, the onboarding] for free, book a
+   with me and getting [the real things — the lessons, the templates, the community, the weekly call if one exists] for free, book a
    call and we'll see if I can help. If not, that's okay — the emails keep coming either way."* — that is the
    join register (`yes` or `unknown`); at `no`: *"If you'd like to talk through where you're at and how I teach this,
    book a call — no pitch. If not, that's okay — the emails keep coming either way."* The booking link (none on

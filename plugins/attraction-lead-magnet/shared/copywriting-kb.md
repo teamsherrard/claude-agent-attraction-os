@@ -182,10 +182,13 @@ compensation, never "join my brokerage," never invented urgency:
    numbers page, the template page, the step most agents get wrong): *"If you want me to walk you through
    this on your own numbers, grab 20 minutes with me — the link's on the last page."* No link here.
 2. **The "what to do next" page's line** — the first step is theirs, the second is a conversation if they
-   want one: *"Run this once. Then, if you want a second set of eyes on your week, grab 20 minutes with me —
-   last page."* No link here.
+   want one: *"Run this once. Then, if you want my help running it every week, grab 20 minutes with me — last
+   page."* No link here.
 3. **The closing page's line, with the booking link** — the only link in the guide (the thank-you page
-   carries the same one). The canonical shape is above; the words are the member's.
+   carries the same one), in the call-to-action law's shape (below): the person · their help · free · to run
+   this — *"If you want my help running this — the lessons, the templates, the community, everything I teach —
+   partner with me and it's free. Grab [the call] and we'll see if it's a fit. If not, that's okay."* (open
+   register: *"…grab [the call] — I'll walk you through it, free, no strings."*). The words are the member's.
 Written as `Call to action:` lines so the gate can count them: three, no more, no fewer.
 
 ## The design cues are part of the writing
@@ -405,9 +408,11 @@ that." From `offer.md` (what's included), `operations.md` (the weekly call, onbo
 
 For the agent who is already ready. It sits after the Organization and before the final opt-in, and it never
 competes with the guide above it. In the member's voice:
-- **What the call is** — length, where, what to bring: *"Thirty minutes on Zoom, about your business, not
-  mine. Bring your last three months."* **What it isn't** — *"Not a pitch. Not a presentation. If it's not a
-  fit, I'll tell you and point you somewhere better."*
+- **What the call is** — length, where, what to bring, and what it leads to (the call-to-action law): *"Thirty
+  minutes on Zoom, about your business, not mine. Bring your last three months. If it's a fit, you partner with me
+  and get my help running this — free."* **What it isn't** — *"Not a pitch. Not a presentation. If it's not a
+  fit, I'll tell you and point you somewhere better."* (open register: *"…if it's a fit, I'll walk you through
+  it, free, no strings."*)
 - **The three questions the call answers** — the three the reader is actually asking (`objections.md`,
   `avatars.md`), each one line.
 - **How it works** — the three steps to join, in plain words: grab the guide or book the call → the
@@ -478,9 +483,9 @@ calls to action, the DMs and the emails. **The member's own primary CTA from the
 → "Booking link / primary CTA"; `brand-visual.md`); the bank is for when the Brain holds none, or the member
 asks for options; the skill adapts a line to the member's voice and the offer's outcome rather than pasting
 it. Every line is cleared of brokerage-promo and compensation words — keep it that way when you adapt one:
-1. "Book your free 1-on-1 growth strategy session"
+1. "Want my help running this, free? Partner with me — grab 20 minutes"
 2. "Want to partner with me? Grab 20 minutes"
-3. "Ready to get off the hamster wheel? Let's talk"
+3. "Get my help with your [method] — free, 20 minutes"
 4. "Learn what partnering with [first name] looks like"
 5. "Collaborate with me to get [the offer's outcome]"
 6. "Let's map your next 90 days — 20 minutes, no pitch"
@@ -565,3 +570,19 @@ splits, caps, tiers, fees, stock, rev-share, or income anywhere public · "best 
 tables · anything negative about a named brokerage, sponsor, or person · a former brokerage named in a story ·
 targeting by a protected characteristic · a call button anywhere above the Book-a-call area · "free coaching
 if you join [brokerage]" · "check your inbox" · a copy line in capitals · a bracket token · rendering a design.
+
+## The call-to-action law (Mike, 2026-11-10) — every call CTA, everywhere this plugin writes
+Mike: *"the CTAs must be accurate and focused on partnering with the PERSON to get their direct help for free to
+implement the strategy — not on partnering with the brokerage."* So every call to action that points at the call —
+the guide's three, the page's Book-a-call area and thank-you line, the bios' next step, the DMs, the nurture, the
+kit's calls to action — has one shape, in the member's voice: **the person · their help · free · to run this.**
+- **Join register (`yes` or `unknown`):** *"If you want my help running this — the lessons, the templates, the
+  community, everything I teach — partner with me and it's free. Grab [the call] and we'll see if it's a fit. If not,
+  that's okay."* The help is the member's program (recorded lessons, templates, the community, the weekly call if one
+  exists — doctrine §10e), never a 1:1 promise; "free" is the free line from the offer.
+- **Open register (`no`):** *"If you want my help running this, grab [the call] — I'll walk you through it, free, no
+  strings."* No "partner" line, nothing gated on joining.
+- The brokerage is never the object of a CTA ("join [brokerage]", "free coaching if you join", the brokerage's name
+  as the reason). The method the guide teaches is always named in the CTA ("running this", "your first weekend",
+  "your open houses"), so the reader knows what the help is FOR. Compensation never. The member's own primary CTA
+  from the Brain wins when it already carries this shape; otherwise it is adapted to it, not pasted.

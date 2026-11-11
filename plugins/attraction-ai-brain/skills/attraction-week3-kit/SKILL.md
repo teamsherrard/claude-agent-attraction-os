@@ -244,14 +244,15 @@ Post 6 — Book the call:  a story and a single graphic.
 ──── CALLS TO ACTION ────
 Two asks, everywhere. The guide: comment [GUIDE keyword] and the DM sends it. The call: [the booking line]. One ask per piece — the guide in most posts and videos, the call in about one of four and on every proof piece. The same words every time; a keyword never changes once content has used it.
 | Where it goes | Ask for the guide | Ask for the call |
-| Caption, last line | Comment [GUIDE] and I'll send you [the guide, in three words]. | [the booking line, as a sentence] |
+| Caption, last line | Comment [GUIDE] and I'll send you [the guide, in three words]. | Want my help running this, free? [the booking line] |
 | Comment keywords | [GUIDE] → the DM with the download link | [the offer's keyword] → the one-pager and the invitation to talk |
-| Video pop-up, mid-video | Comment [GUIDE] · free guide | [the call in six words or fewer, from the booking line — "30 minutes · message me", "30-minute call · link in bio"] |
-| Spoken, in the video | "[what the guide holds, one clause]. Comment [GUIDE] and I'll send it." | "If you want to talk through [the thing they bring], [the booking line]." |
+| Video pop-up, mid-video | Comment [GUIDE] · free guide | My help, free · [the call in three words — "message me", "link in bio"] |
+| Spoken, in the video | "[what the guide holds, one clause]. Comment [GUIDE] and I'll send it." | "If you want my help running this, free, [the booking line]." |
 | End card, last 5 seconds | [the guide's title] · Comment [GUIDE] · the stamp | [SECTION 10's headline] · [the booking line] · the stamp |
 | Story | Reply [GUIDE] and I'll send it. | Reply and I'll send you the link. |
 | Bio, the one link | Free guide: [the guide's title] ↓ | [the booking line] |
 | DM, when someone comments | [the Delivery Kit's comment reply — or "not written yet — say 'deliver my guide'"] | "Happy to. Bring [the thing they bring] and [the booking line]." |
+Every call ask follows the call-to-action law (the person · their help · free · to run this; the brokerage never the reason; at the open register "I'll walk you through it, free" replaces "partner with me").
 Pop-up rules:  six words or fewer, two lines at most, on screen for three seconds · never over the face, never in the lower quarter of a vertical video where captions sit · the name card, [First Last · Brokerage · City], in the first three seconds of every video · the stamp on every end card · [at the open register: no public line says "join me"] · no public line says what the model pays, ever.
 ──── DESIGN BRIEF — [PROGRAM NAME] OFFER KIT ────
 What to build:  the Join My Team one-pager (letter or A4, portrait, phone-readable) · the offer stack graphic (every item in the order above, every label verbatim, the product on top) · the product mockup (the cover line, the subtitle, the three promises; a flat cover first, a 3D mockup if the tool exports pictures) · the six social posts (every slide and caption verbatim, 1080 by 1350; the story at 1080 by 1920) · the video pop-up set as PNGs with transparent backgrounds, at 1080 by 1920 and 1920 by 1080: the name card, the guide pop-up, the call pop-up and the two end cards, text verbatim from the calls to action · the call deck, one slide per line, slide 9 with no figure · the welcome pack as one PDF · square and 9:16 crops of the one-pager's headline and the stack.

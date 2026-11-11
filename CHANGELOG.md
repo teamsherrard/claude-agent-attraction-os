@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.25.4] — 2026-11-09
+
+**The call-to-action law (Lead Magnet 0.12.8 · Brain 0.9.8).** Mike: the CTAs must be angled at partnering with the
+PERSON to get their direct help, free, to implement the strategy — never at the brokerage. One shape now, in every
+call CTA the plugin writes (the guide's three, the page's Book-a-call area and thank-you line, the bios, the DMs,
+the nurture, the kit's calls-to-action table, the offer's "what the call is"): the person · their help · free · to
+run this — at the join register "partner with me and it's free", at the open register "I'll walk you through it,
+free, no strings"; the method named every time; the brokerage never the reason; the help is the program's scalable
+assets, never a 1:1 promise. The phrase bank's "1-on-1 session" line is gone.
+
 ## [0.25.3] — 2026-11-09
 
 **No video question (Lead Magnet 0.12.7; the funnel design skill's zip rebuilt).** Mike's note: the "do you have a video

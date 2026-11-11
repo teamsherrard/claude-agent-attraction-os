@@ -168,7 +168,9 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
    named; fewer than ~6 → omit). **Never invent; never pad.**
 9. **THE ORGANIZATION** (60+) — `What we do together:` · `Who's in it:` (the count only if `proof.md` states
    it, dated) · `Why that matters to you:` · optional `Image idea:`. Only what exists today.
-10. **BOOK A CALL** (60+) — `What the call is:` · `What it isn't:` · `Bullets:` the three questions the call
+10. **BOOK A CALL** (60+) — `What the call is:` (length, where, what to bring, and the call-to-action law's angle:
+    "if it's a fit, you partner with me and get my help running this — free"; open register: "I'll walk you through
+    it, free, no strings") · `What it isn't:` · `Bullets:` the three questions the call
     answers · `How it works:` exactly three steps (grab the guide or book the call → the call → onboarding
     Day 1, from the Partner Offer's Day 1 sequence) · `What we'll cover:` five or six bullets (your business
     and your week · the training and the weekly call · onboarding · your 90-day game plan · your questions
@@ -187,7 +189,7 @@ bracket token. The floors are words of copy (labels, the footer and the appendix
       `Contact line:` one honest sentence under Phone from `operations.md`'s follow-up cadence · `Reassurance:`
       · `Submit button: "Get the Free Guide"`. Micro-copy rules: the copywriting KB.
     - **THE THANK-YOU PAGE** — `Confirmation:` warm, in the member's voice · `Download button:` the direct link
-      to the guide PDF, an instant download, FIRST (never "check your inbox") · `The call, offered:` one warm,
+      to the guide PDF, an instant download, FIRST (never "check your inbox") · `The call, offered:` one warm line in the call-to-action law's shape (my help, free, to run this),
       optional line + the booking link (*"Want to talk through where you're at? Book a call — no pitch, I'll
       just answer your questions."*; the design step repeats §10's "What we'll cover" under it) · `Where to find
       me:` · `Footer:` the same compliance stamp as the page. The download never depends on booking.
