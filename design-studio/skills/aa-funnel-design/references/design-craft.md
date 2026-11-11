@@ -95,7 +95,7 @@ The kit's `Video:` line decides it:
   video, or their cut-out on the brand ground when no frame exists), an on-brand play button, the
   `Attraction line:` set bold directly beneath. A plain lazy `<iframe>` with the privacy-enhanced embed
   URL, `allowfullscreen`, **never autoplay with sound**, never a rival CTA on it.
-- **`record the 60-second why-join-me`**: the member's cut-out headshot in the SAME footprint — a brand
+- **`headshot` (or the older `record the 60-second why-join-me`)**: the member's cut-out headshot in the SAME footprint — a brand
   field behind it, the attraction line still beneath it (the kit wrote it; it reads as the member's
   promise either way), never an empty frame, never a "video coming soon" badge. The hand-off tells the
   member how to get the script and that "here's my video" swaps the embed in.

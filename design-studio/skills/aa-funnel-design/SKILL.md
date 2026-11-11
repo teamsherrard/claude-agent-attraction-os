@@ -139,9 +139,7 @@ turn."**
 4. **Real photos — drop them into the CHAT, not a form box** — the proof-strip photos the kit's Proof
    section names (the weekly call, events, agents' wins — with their permission). Fewer than ~6 → no
    strip, and I'll say so. None → brand fields and your cut-out; never a fabricated crowd.
-5. **Your video link** *(optional — only when the kit's `Video:` line says "record" and you've filmed it
-   since)* — paste the YouTube, Vimeo or Loom link and it goes at the top; nothing yet → your headshot
-   sits there and the hand-off reminds you where the script is (chapter 3, the sixty-second version).
+5. *(no video question — the top of the page is the member's cut-out headshot unless the kit's `Video:` line is already a link; never ask, never flag it as missing.)*
 6. **Your booking link** *(optional — only when the kit's `Booking embed:` line says "none yet" and
    you've set one up since)* — paste the Calendly, GoHighLevel or Cal.com link and the Book-a-call area
    embeds it; nothing yet → the button carries the kit's words ("Message me on Instagram").
@@ -195,7 +193,7 @@ element is; the text after it is the copy. `Image idea:`, `Video:` (when it says
 
 | Chapter 5 band | Builds this on the page |
 |---|---|
-| SECTION 1 — HERO | the pre-headline small above the headline · headline · subhead · **the video block** (a responsive 16:9 embed of the `Video:` link with a poster and an on-brand play button; `record the 60-second why-join-me` → the member's cut-out headshot in the same footprint, never an empty frame) · the attraction line bold under it · **"Get the Free Guide"** · the trust line small under the button |
+| SECTION 1 — HERO | the pre-headline small above the headline · headline · subhead · **the video block** (a responsive 16:9 embed of the `Video:` link with a poster and an on-brand play button; `headshot` (or the older `record the 60-second why-join-me`) → the member's cut-out headshot in the same footprint, never an empty frame) · the attraction line bold under it · **"Get the Free Guide"** · the trust line small under the button |
 | SECTION 2 — THE PROBLEM | a short high-contrast band right under the hero: the pain in the reader's words, the cost line, the turn — 3–5 lines, generous air, NO button; the pull quote set large when the kit has one |
 | SECTION 3 — THE PRODUCT | the page-by-page bullets as a list or cards, the guide's canonical 3D mockup on the side the kit names (LEFT / RIGHT), the worth-more-than-free line, the mid-page CTA |
 | SECTION 4 — WHO I AM | the headshot large; the three lines (what I do · who I help · the credential); then the **"Why partner with [first name]"** block — the title verbatim + the 6–8 bullets as a two-column list or cards |
@@ -298,8 +296,7 @@ it loudly if not. A bilingual brand gets ONE PAGE PER LANGUAGE, two clean deploy
    element and no label printed; the mockup on the side the kit names; the FAQ inside the opt-in
    section; the YouTube block only when the kit carries it; the optional qualifier only when the kit
    switches it on.
-7. **The video block is never empty:** the embed when the kit gives a link, the cut-out headshot when it
-   says to record — the same footprint either way; never autoplay with sound; never a rival CTA on it.
+7. **The video block is never empty and never asked about:** the embed when the kit's `Video:` line is a link, the cut-out headshot when it reads `headshot` (or the older `headshot` (or the older `record the 60-second why-join-me`)) — the same footprint either way; never autoplay with sound; never a rival CTA on it; nothing in the hand-off mentions a video.
 8. **No compensation, no countdown or fake scarcity, no named former brokerage, no other brokerage's
    weakness, no invented proof, no call button above the Book-a-call area, no "check your inbox".**
 9. **The guide PDF bundled at `assets/guide.pdf`** and both links resolving — or the placeholder warned

@@ -102,7 +102,7 @@ the literal `{{`. Even ONE means you built the wrong file. Zero is the finish li
 15. **Embeds never break the page or the form.** The hero video and the Proof section's YouTube block are
     plain `<iframe>`s inside a responsive 16:9 wrapper, `loading="lazy"`, `allowfullscreen`, the
     privacy-enhanced embed URL (`youtube-nocookie.com/embed/<id>`, or the Vimeo / Loom embed URL), never
-    autoplay. The kit's `record the 60-second why-join-me` note means NO iframe — the cut-out headshot
+    autoplay. The kit's `headshot` (or the older `record the 60-second why-join-me`) note means NO iframe — the cut-out headshot
     renders in that footprint, and `READ-ME-FIRST.md` lists the spot as a placeholder to fill. The booking
     embed (`Booking embed:`) is a lazy `<iframe>` (Calendly · GoHighLevel · Cal.com) in its own section
     with the kit's booking words as a plain link under it as the fallback; when the link doesn't embed, or

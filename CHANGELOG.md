@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.25.3] — 2026-11-09
+
+**No video question (Lead Magnet 0.12.7; the funnel design skill's zip rebuilt).** Mike's note: the "do you have a video
+link?" question comes out of nowhere and leaves members wishing they had one. The funnel writer now asks nothing: the
+top of the page is the member's cut-out headshot (`Video: headshot`), a link is used only when the Brain already
+holds one, and no close line, build note, asset list or design hand-off mentions a video or a script. The `Video:`
+label stays so older kits and the design step keep working.
+
 ## [0.25.2] — 2026-11-09
 
 **The Brain Board always rebuilds at the end of the Lead Magnet sitting (Brain 0.9.7 · Lead Magnet 0.12.6).** Found in

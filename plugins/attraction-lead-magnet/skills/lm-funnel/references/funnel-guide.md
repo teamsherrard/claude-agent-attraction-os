@@ -93,15 +93,8 @@ one to two short lines.
 - **Subhead** (1–2 lines) — expand the promise, name who it's for by stage, remove doubt. A system guide:
   *"The five steps I run every Sunday, the sheet I hand new partners, and your first week mapped — for agents
   paying for leads that don't close. Written by a working agent and leader, not a recruiting department."*
-- **The video block** — `Video:` the URL of the member's video: the 2-to-3-minute video sales letter when they
-  have one (their story · who they help · what the guide gives · no pitch), else the 60-second why-join-me
-  (the Brain's why-join-me skill writes that script; `journey.md` → `## Why join me` holds it once written).
-  Nothing filmed yet → the line reads exactly `record the 60-second why-join-me`; the page shows the cut-out
-  headshot in that spot and the appendix tells the member how to get the script. Never ask the member
-  mid-build whether they have one — one question with a default in Phase 1 (`lm-funnel`), then write. Never
-  autoplays with sound; never a rival CTA.
-- **Attraction line** — one bold sentence under the video that tells them why to press play, in the reader's
-  words: *"Two minutes on how I help agents like you get buyers from their own Saturdays."* The outcome, not
+- **The video block** — `Video:` a URL only when the Brain already holds one (`content-log.md`: a logged why-join-me video or a video sales letter — their story · who they help · what the guide gives · no pitch); otherwise the line reads exactly `headshot` and the page shows the member's cut-out headshot in that spot. **Never ask the member about a video, and never mention one** (Mike, 2026-11-10: the question comes out of nowhere and makes members wish they had one). A video that exists later replaces the headshot at the design step. Never autoplays with sound; never a rival CTA.
+- **Attraction line** — one bold sentence under the video or the headshot that tells them why to keep reading, in the reader's words: *"Two minutes on how I help agents like you get buyers from their own Saturdays."* The outcome, not
   the member's credentials.
 - **CTA button** — the one canonical phrase, exactly (copywriting KB): *"Get the Free Guide."*
 - **Trust line** — one small line under the button: who wrote this and that it's free and private. *"Written

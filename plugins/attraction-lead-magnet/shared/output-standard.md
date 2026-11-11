@@ -140,7 +140,7 @@ as a label** — the text after it is the copy, verbatim. Two forms, and every l
   the next label. A fill-in blank inside an item is written as `____` (four underscores).
 
 Every label is optional unless a skeleton says otherwise; a label with nothing true to say is **omitted**, never
-left empty or placeholdered. The text after `Image idea:`, `Video:` (when it says to record) and `Booking embed:`
+left empty or placeholdered. The text after `Image idea:`, `Video:` (when it reads `headshot`) and `Booking embed:`
 is direction for the designer or an asset, not copy — it never appears on the designed page; everything else
 after a label is copy.
 
@@ -165,8 +165,8 @@ after a label is copy.
 | `Pre-headline:` | inline | one attention line above the hero headline — a question or a fact aimed at the type of agent, never a scarcity claim | the small line above the headline |
 | `Headline:` | inline | the section's headline (the hero's is the page's promise) | the section's headline |
 | `Subhead:` | inline | the hero's supporting line | the hero's subhead |
-| `Video:` | inline | the URL of the member's video — the 2-to-3-minute video sales letter when they have one, else the 60-second why-join-me — or exactly `record the 60-second why-join-me` | a responsive embed; with the record note, the cut-out headshot in its place |
-| `Attraction line:` | inline | one bold sentence under the video that tells them why to press play | the bold line under the embed (or the headshot) |
+| `Video:` | inline | a URL only when the Brain already holds one (never asked); otherwise exactly `headshot` | a responsive embed when a URL; otherwise the cut-out headshot in its place, never flagged as missing |
+| `Attraction line:` | inline | one bold sentence under the video or the headshot that tells them why to keep reading | the bold line under the embed (or the headshot) |
 | `CTA button:` | inline | the button's words in quotes | the button |
 | `Trust line:` | inline | one line under the hero button | the small line under the button |
 | `Bullets:` | list | one line per item | the section's list or cards |
@@ -280,8 +280,8 @@ SECTION 1 — HERO
 Pre-headline: ...             (one line above the headline — a question or a fact aimed at the type of agent; never a scarcity claim)
 Headline: ...                 (the promise in the reader's words — the magnet's title or its promise line; passes the hook test)
 Subhead: ...                  (who it is for, by stage, and the result — one or two short lines)
-Video: ...                    (the URL of the member's video — the 2-to-3-minute video sales letter when they have one, else the 60-second why-join-me — or exactly: record the 60-second why-join-me)
-Attraction line: ...          (one bold sentence under the video that tells them why to press play)
+Video: ...                    (a URL only when the Brain already holds one — never asked; otherwise exactly: headshot)
+Attraction line: ...          (one bold sentence under the video or the headshot that tells them why to keep reading)
 CTA button: "Get the Free Guide"
 Trust line: ...               (one line under the button — who wrote this, that it is free and private)
 
@@ -417,7 +417,6 @@ sending traffic; a page that looks right can still capture nothing.
 Your links: add ?utm_source=bio, google, partner or reel to the page link wherever you post it, so the report can
 tell which door agents came through.
 Swap test: a second pre-headline — [text] — try it for two weeks and tell me which pulled more opt-ins.
-Your video: (only when the Video line says to record) say "my why join me story" in your Brain and it writes the 60-second script; film it, upload it, and paste the link at the design step — until then the page shows your headshot in that spot. A longer 2-to-3-minute version of the same story works there too, once you have one.
 Assets to gather:  the guide's mockup/cover (The Product §3) · 8–12 proof-strip photos (Proof §8) · headshot (Hero and Who I Am) ·
    the video link (Hero §1, if filmed) · 2–3 YouTube links (Proof §8, only if you have a channel) · social handles (the footer, if used) · logo (header/footer) · the finished guide PDF
    uploaded somewhere linkable (the thank-you page's download button points at it) · your booking link (Book a Call §10 and the thank-you page).   Real people + real photos only.
