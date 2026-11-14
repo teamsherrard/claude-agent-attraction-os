@@ -6,7 +6,7 @@
 > **After creating content:** append one row. Status = Idea / Scripted / Recorded / Edited / Published.
 > **One row per piece — a batch or a weekly set logs one row per pillar it covers, never one row for the whole batch.** Pillar is one of the five OS names (Authority · Perspective · Story · Proof · Personality), never anything else. Nobody edits another plugin's row (the AI Editor flipping Status to `Edited` is the one exception).
 
-| Date | Platform | Format (long-form · reel · story · carousel · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |
+| Date | Platform | Format (long-form · reel · story · carousel · graphic · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |
 |---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | |
 

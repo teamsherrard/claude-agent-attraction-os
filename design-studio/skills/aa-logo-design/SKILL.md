@@ -21,17 +21,32 @@ directions** for the member so they can pick one, then build the chosen one out 
 Do not design anything else here (no style sheet, no banners, no posts — those are `aa-style-sheet-design`
 and `aa-brand-kit-design`).
 
-**WHERE THIS RUNS — CHECK FIRST.** This skill only works inside Claude Design (claude.ai/design),
-where you can draw on a canvas and export files. If you are anywhere else — a normal Claude chat, a
-Project, or Cowork — do NOT attempt a logo, a mock-up, an HTML page, or a description of one. Say
-exactly this and stop: *"This one only works in Claude Design. Open claude.ai/design, open the
-project you made for your brand (or start one and name it), paste your Design Package brief, attach
-your Brain Book if you have it handy, and type: 'design my attraction logo'."*
+**WHERE THIS RUNS — CHECK FIRST.** This skill needs a design canvas, and it runs in either of two places:
+1. **Claude Design (claude.ai/design)** — the member's brand project. Everything below applies as written.
+2. **Cowork, on a Design canvas** — the Claude desktop app's Design tab, or a Design artifact open beside the chat
+   (the Artifact tool can create one from the Design type; name it `[First Last] — Brand` and keep every Week 3 piece
+   in that one canvas). Read the artifact first (its type instructions say where the content lives) and build the
+   concepts, the files and the export page inside it, in place — never as a separate HTML file, never as a
+   description. Wherever this skill says "Claude Design" or "the project", read "the design canvas". Files: build the
+   export page and its download button exactly as this skill's export reference says; if the button cannot download
+   from the Cowork canvas, render the same files (transparent PNG + SVG, or the PDF) in the workspace under the same
+   names, deliver them in the chat, and save them to the member's Brand folder.
+**A canvas in front of you means you are in the right place: carry on, never send the member away.** A brief or a file
+not attached yet is not a wrong place — ask for it in plain chat — never through a question card or a form box (a form field cuts the brief off at a few
+hundred characters; seen live 2026-11-14) — *"Attach the file **Design Package Brief · [your name]** from your Brand
+folder (the + button — your Drive or your computer), or paste the whole block straight into this chat. No brief yet?
+In Cowork, say 'my attraction brand direction' — six minutes."*; if they have neither and want to go now, say *"say
+'no brief yet' and I'll ask you three things"* (their name as it appears on their brand · their program's name · the look they want, in
+one sentence) and proceed on those answers. Only with NO canvas at all and no way to create one — a plain Claude chat
+or a Project chat without a Design artifact — say exactly: *"This one needs a design canvas. Open Claude Design
+(claude.ai/design) or start a Design canvas in Cowork, then open the
+project you made for your brand (or start one and name it), attach your Design Package Brief file from your Brand folder (or paste the whole block into the chat — never into a form box), attach your Brain Book if you have it handy, and type: 'design my attraction logo'."* — and stop.
 
 ## WEEK 3 — THE RULES THE THREE BRAND SKILLS SHARE (read once, obey everywhere)
 
-- **When and where.** Every design piece is Week 3 work, inside ONE Claude Design project the member
-  creates and names themselves. The three brand skills run first, in this order: the logo (skipped
+- **When and where.** Every design piece is Week 3 work, inside ONE design project the member creates and names
+  themselves — at claude.ai/design or on a Design canvas in Cowork; either counts, and the week stays in the one they
+  started so each piece builds on the files before it. The three brand skills run first, in this order: the logo (skipped
   when the member loves theirs — it is used exactly as-is) → the style sheet → the brand kit. After
   them, in the same project: the offer kit, the guide PDF with its cover, the opt-in and thank-you
   pages, the six social posts, the video pop-up set, the video brand kit.

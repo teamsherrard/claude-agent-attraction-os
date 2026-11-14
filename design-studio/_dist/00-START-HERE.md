@@ -23,7 +23,7 @@ designs them from three files you upload once.
 3. **Your Design Package brief** — the block that starts `AGENT ATTRACTION DESIGN PACKAGE — [Your Name]
    · issued [date]`. Your Brain hands it to you when you say **"my attraction brand direction"** in
    Cowork (**"show my design package brief"** reprints it any time; a copy sits in your Brand folder).
-   Paste it into your first chat.
+   Attach it to your first chat as the file your Brain saved (`Design Package Brief · [Name] · [date]`, in your Brand folder) — or paste the whole block into the message box. Never into a question box: it cuts the brief off.
 
 Optional: your **Brain Book** ("the AI Brain file"), when a skill asks for it — it tells the skills who
 you are.
@@ -58,13 +58,13 @@ magnet plugin"** — the kit arrives at the end of that sitting, with the guide 
 1. In claude.ai → **Customize → Skills → Upload a skill**, upload the files from `_dist/` —
    `01-aa-logo-design.zip` through `08-aa-video-kit-design.zip` now, `09` and `10` in Week 6. Every skill
    is one zip; upload it as-is.
-2. Open **claude.ai/design**, create your project (any name), and attach
+2. Open **Claude Design** (claude.ai/design — or a Design canvas inside Cowork: the Design tab, or a design opened beside your chat), create your project (any name), and attach
    `00-agent-attraction-design-system.md` (from `_dist/`), your **Week 3 Kit**, your **guide**, and your
    examples (anything you have made, your current profile, brands you like — the skills study them for
    direction and never copy).
 3. In Cowork, say **"my attraction brand direction"** and copy the **Design Package brief** your Brain
    hands you.
-4. Paste the brief into your first chat and type the first phrase below.
+4. Attach the brief file to your first chat (or paste the whole block into the message — never into a question box, which cuts it off) and type the first phrase below.
 
 ## WEEK 3 — the ten skills, in the order you ask for them
 

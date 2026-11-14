@@ -36,7 +36,7 @@
 ## Weekly activity (the controllables, inside the hours above)
 - **Proposed at setup (not yet confirmed):** [a first-quarter join target of about 15% of the 12-month number, minimum one · the conversations a week it implies at the default ratios] — "say 'set my attraction goals' to lock it"
 - Conversations: [x]/week   - Calls: [y]/week   - Follow-ups: [z]/week   *(locked by `attraction-goals`)*
-- Content: [from identity/content-pillars.md when built; until Week 3: "set with the Short-Form system in Week 3"]
+- Content: [from identity/content-pillars.md when built; until Week 4: "set with the Short-Form system in Week 4"]
 - Daily slice (for the Debrief): [weekly ÷ working days from operations.md, default 5]
 - Does this feel realistic? [member's answer — adjust the target or the hours, not the math]
 

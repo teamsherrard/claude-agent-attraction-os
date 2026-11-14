@@ -22,12 +22,12 @@ Mike (2026-10-08): not a plugin, parked.
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "MAA help" / "help" / "I'm stuck" / "what did Mike say about…" |
 | – | **Design Studio** (Claude Design skill set, NOT a plugin) — W3 the Design Package (logo · style sheet · brand kit) + the offer kit · lead magnet · funnel · content + the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's brand project in Claude Design (there is no thumbnail design skill) | `aa-…-design` | 10 | **coming** — the upload files are handed out with the Week 1 bonus assets, not from this repo (parked on `wip/all-plugins`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
 | 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **live** — in the marketplace since 2026-11-08 (0.6.0; since 0.9.0 the guide and the page go into the Week 3 Kit — the one file the member uploads to Claude Design — and the page outline has no document of its own); everything it writes lands in the member's cloud workspace and on their Brain Board | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
-| 4 | **Short-Form** (W3) | `sf-` | 15 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my attraction short-form" |
-| 5 | **AI Editor — Riverside** (W3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my video editor" / "edit my reel" |
-| 6 | **YouTube** (W4) | `yt-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my YouTube for agents" |
-| 7 | **Conversion & Sales** (W5) | `cv-` / `sales-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "launch conversion" / "I have a call with [name]" / "set up my sales system" |
-| 8 | **AI Admin** (W5) | `admin-` | 8 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my attraction admin" |
-| 9 | **Events & Workshops** (W6) | `ev-` | 10 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "plan my workshop" / "plan my agent event" |
+| 4 | **Short-Form** (W4) | `sf-` | 15 | **live** — in the marketplace since 2026-11-14 (0.3.0): one sitting, two keywords, the kit's six posts first, Notion board, twelve draft-only workflows (five recommended on) | "set up my attraction short-form" |
+| 5 | **AI Editor — Riverside** (W4, with Short-Form — its video kit is designed in Week 3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **live** — in the marketplace since 2026-11-14 (0.4.5; vendored from the realtor marketplace with the Brain-home patch) | "set up my video editor" / "edit my reel" |
+| 6 | **YouTube** (W5 — date to be confirmed) | `yt-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my YouTube for agents" |
+| 7 | **Conversion & Sales** (W6 — date to be confirmed) | `cv-` / `sales-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "launch conversion" / "I have a call with [name]" / "set up my sales system" |
+| 8 | **AI Admin** (W6 — date to be confirmed) | `admin-` | 8 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my attraction admin" |
+| 9 | **Events & Workshops** (W7, bonus — date to be confirmed) | `ev-` | 10 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "plan my workshop" / "plan my agent event" |
 
 (The cohort doc's Creative Studio and Team & Retention plugins were both removed on 2026-10-08. The numbers above are the
 marketplace's — 1 Brain · 2 Support · 3 Lead Magnet · 4 Short-Form · 5 Riverside · 6 YouTube · 7 Conversion & Sales · 8 AI
@@ -95,10 +95,10 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "What did Mike say about ___" / "ask Mike" / "which lesson covers ___" | `maa-support-cohort` (the Ask-Mike lane → `shared/kb/kb-index.md`) | 2 |
 | "Help" / "I'm stuck" / any Claude question or breakage | `maa-support-navigator` | 2 |
 | "design my attraction logo" / my style sheet / my brand kit / my offer kit (the stack, the mockup, the one-pager, the deck) / my carousel / my win wall / my video brand kit / my event flyer / my value vault (my playbook, my course, my ebook, my onboarding roadmap) | an `aa-…-design` skill INSIDE Claude Design — `aa-logo-design` · `aa-style-sheet-design` · `aa-brand-kit-design` · `aa-offer-kit-design` · `aa-lead-magnet-design` · `aa-funnel-design` · `aa-content-design` · `aa-video-kit-design` · `aa-event-design` · `aa-value-vault-design` (the Brain's brand-direction skill writes the Week 3 brief; a thumbnail is a `yt-thumbnail` brief pasted into the brand project in Claude Design) | – |
-| "set up my attraction short-form" (the whole Week 3 journey: profiles → the Game Plan → the board with 30 days mapped → the workflows → the first Reel) · "optimize my profiles for agents" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
+| "set up my attraction short-form" (the whole Week 4 journey: profiles and keywords confirmed → the Game Plan, opening with the kit's six posts → the Notion board with 30 days mapped → the workflows → the first Reel) · "optimize my profiles for agents" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
 | "build my short-form game plan" · "plan my next 30 days of reels" · "update my short-form game plan" | `sf-gameplan` (the Short-Form Game Plan — pillars with angles, the hook bank, the keyword, the dated 30-day calendar; built inside setup, updated on demand) | 4 |
 | "map my next 30 days" · "my attraction content board" · "update my short-form board" | `sf-board` (mapping mode seeds the calendar as dated cards on the one shared Notion board) | 4 |
-| "run my week plan" · "turn on my Monday week plan" · "stop my Monday week plan" · "my attraction workflows" (the three short-form workflows, their status, the one-sentence stop) | `sf-week-plan` (the Monday Week Plan) | 4 |
+| "run my week plan" · "turn on my Monday week plan" · "stop my Monday week plan" · "my attraction workflows" (the eleven short-form workflows — six recommended on — their status, the one-sentence stop) | `sf-week-plan` (the Monday Week Plan) | 4 |
 | "turn on my daily stories" · "stop my daily stories" (optional, off by default) | `sf-stories` | 4 |
 | "how is my attraction content doing" · "set up my Friday performance note" (the Weekly Content Performance workflow) | `sf-analytics` | 4 |
 | "edit my reel" / "edit my YouTube video" / "edit my interview" · "set up my video editor" · any edit ask | `studio-navigator` (it translates + routes: `studio-reel`, `studio-longform`, `studio-interview`, `studio-setup`) | 5 |
@@ -157,9 +157,11 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
-Thirteen in all (`docs/BRAIN-CONTRACT.md`; eleven on by default where the member says yes, two off by default — Daily
-Stories and the Monthly Channel Review; nine until 2026-10-13). The three Short-Form workflows are offered together on
-`sf-setup`'s ONE consent card (Monday on · Friday on · daily stories off) and each is created only on its yes — "the
+Twenty-two in all since 2026-11-14 (`docs/BRAIN-CONTRACT.md`): the Short-Form plugin alone offers twelve on
+`sf-setup`'s ONE consent card — five recommended on (Monday Week Plan · Sunday Batch Prep · Daily Engagement List ·
+Friday performance note · Monthly Calendar Refill) and seven optional (keyword follow-up queue · brokerage news
+watch · mid-week nudge · win and milestone posts · monthly deep dive · daily stories · quarterly profile audit) —
+each created only on its yes, each draft-only, each ending with a push that rebuilds the Brain Board — "the
 Monday plan never ran" usually means the card said "not yet" (`Week Plan task: declined`) or the task was never created
 (tree #10). The YouTube workflows are offered together on `yt-setup`'s ONE consent card (the Monday Kickoff on · the
 YouTube section of the Friday note on — `YouTube section: pending` until the Friday task exists, appended on the YouTube
@@ -220,7 +222,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   document and the sales funnel outline follow. No
   default magnet; no two members' magnets alike (non-disparagement rules apply — cardinal rule #1; a
   comparison-shaped guide only when it fits the offer). Writes `identity/profiles.md` FIRST (the bios;
-  Short-Form refreshes its five sections in Week 3); `memory/magnets.md → ## Current magnet` (mirrored as the
+  Short-Form confirms and refreshes its five sections in Week 4); `memory/magnets.md → ## Current magnet` (mirrored as the
   `Live magnet:` line in `brain.md`) is what every Week 3–6 CTA reads.
   **The Week 2 outcome, Mike's words (the plugin's opening message states it; Support repeats it verbatim):**
   "By the end of this week you have ONE lead magnet, written and designed, with its funnel outline (tangible)
@@ -237,15 +239,19 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug
   in later — never "missing".
 
-### Plugin 4 — Short-Form (W3) — BUILT (the four-step journey, 2026-10-13)
+### Plugin 4 — Short-Form (W4) — LIVE 0.3.0 (rewired 2026-11-14: Week 4, two keywords, the kit first, twelve workflows, the Brain Board on every push)
 - Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live
   lead magnet). Publishing = bring-your-own (Metricool, or manual). The ManyChat sequences are a bonus-asset import
   on the member's own ManyChat account, not a plugin feature. Notion is bring-your-own for the board — without it the
   calendar lives in the Game Plan doc and the Brain, nothing is lost.
-- **The one phrase is the whole session, in order:** profiles optimized (one copy-paste pack) → the Short-Form Game
-  Plan (a real document, like the YouTube one: pillars with angles, thirty hooks, the keyword, the next 30 days
-  dated) → the content board with those 30 days mapped → three scheduled workflows on ONE consent card (Monday Week
-  Plan · Friday performance note · daily stories, off by default) → the first Reel scripted. Each step is announced
+- **The one phrase is the whole session, in order:** profiles and the two keywords confirmed (the bios were written in
+  Week 2; GUIDE opens the guide, the offer's own word is the invitation) → the Short-Form Game Plan (a real document:
+  pillars with angles from the content branches, thirty hooks, the next 30 days dated, opening with the six posts
+  designed in Week 3) → the Notion content board with those 30 days mapped → the scheduled workflows on ONE consent
+  card (recommended on: Monday Week Plan · Sunday Batch Prep · Daily Engagement List · Friday performance note ·
+  Monthly Calendar Refill; optional: keyword follow-up queue, brokerage news watch, mid-week nudge, win posts, monthly
+  deep dive, daily stories, quarterly profile audit — all draft-only) → the first Reel scripted → the Brain Board
+  rebuilt. Each step is announced
   before it runs; a second call resumes where it left off (the `Short-form setup:` line in `publishing.md`).
 - Known modes: nothing auto-posts — approval is the last gate; "it didn't post" is usually an unapproved queue ·
   "it skipped the board" = Notion not connected (it says how, never blocks; "map my next 30 days" once connected) ·

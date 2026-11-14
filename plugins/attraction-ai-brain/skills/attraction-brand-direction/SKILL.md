@@ -180,8 +180,7 @@ graphic read it.
    read-only (`Storage: READ-ONLY` in `config.md`), or the save fails:** say so plainly in one line — the brief is
    **not** in the folder, it is kept in the Brain, and here it is — stamp *[connector off — kept here only]*,
    and show it. Never fail silently, never retry in a loop.
-4. **Hand it over in chat as one copyable block**, then say plainly: *"Your brand direction is saved. In Week 3's Claude Design session, paste
-   this in and run the three in order — skip the first if you love your logo. Then upload your Week 3 Kit
+4. **Hand it over in chat as one copyable block**, then say plainly: *"Your brand direction is saved. In Week 3's Claude Design session — claude.ai/design, or a Design canvas inside Cowork — attach the brief file from your Brand folder (or paste this whole block into the chat, never into a form box: it cuts the brief off) and run the three in order — skip the first if you love your logo. Then upload your Week 3 Kit
    and your guide from Week 2 — the kit is in your home base folder beside your Brain Book, the guide in your Guides folder — for your offer kit, the guide PDF and the opt-in page. The brief is also saved
    in your Brand folder as 'Design Package Brief · [Name] · [date]', and you can say 'show my design package
    brief' any time to see it again. Drop the finished kit into your Brand folder; everything that makes a

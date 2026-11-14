@@ -93,7 +93,7 @@ book, or move a pipeline stage.
      question has appeared twice this week (check yesterday's entries), add the one-line nudge:
      answer it once, write it down once, so it never needs answering live again.
    - CONTENT DUE — from the content log when it exists: what is due this week and not shipped. If
-     no content system exists yet, one line: "Content comes in Week 3 with the Short-Form system."
+     no content system exists yet, one line: "Content comes in Week 4 with the Short-Form system."
    - TOMORROW — the calendar in time order (time · what · who), then THE THREE MOVES: the three
      highest-impact attraction actions for tomorrow, anchored to the weekly activity in `goals.md`
      (which controllable each advances — conversations, calls, follow-ups, content — with the

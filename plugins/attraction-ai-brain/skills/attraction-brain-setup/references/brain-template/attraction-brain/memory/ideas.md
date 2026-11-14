@@ -8,6 +8,6 @@
 | | | | | |
 
 ## Past content (imported)
-*Written only by `attraction-import` — the one memory append it owns (it creates this section if absent). The pieces the member already published, one line each, so the content skills never repeat a topic; never `memory/content-log.md` (that ledger belongs to the content plugins). A note on how or what they post is held here tagged `pillars` for `sf-setup` in Week 3.*
+*Written only by `attraction-import` — the one memory append it owns (it creates this section if absent). The pieces the member already published, one line each, so the content skills never repeat a topic; never `memory/content-log.md` (that ledger belongs to the content plugins). A note on how or what they post is held here tagged `pillars` for `sf-setup` in Week 4.*
 - [YYYY-MM-DD] · [platform] · [title or hook] · [link]
-- pillars: [how / what they post today — read by sf-setup in Week 3]
+- pillars: [how / what they post today — read by sf-setup in Week 4]

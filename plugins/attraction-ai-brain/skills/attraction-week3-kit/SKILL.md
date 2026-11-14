@@ -274,7 +274,7 @@ These pages are yours — never handed to an agent.
 ──── THE BROKERAGE RULE, AND WHERE TO HOST IT ────
 [from ## If your brokerage does not allow a join-gated package: the rule in force · what it means for the words · the check, at unknown — three lines] · [from ## Where to host it: the host, the community's name, the 20-minute set-up in four bullets]
 ──── YOUR CONTENT BRANCHES ────
-[from ## Content branches: the 5 to 7 segment names on one line, "segment · segment · segment" — the topics live in your Brain; the Week 3 Short-Form plan and the Week 4 YouTube plan build from them]
+[from ## Content branches: the 5 to 7 segment names on one line, "segment · segment · segment" — the topics live in your Brain; the Short-Form plan (Week 4) and the YouTube plan after it build from them]
 
 ════════════════════════════════════════════
 ▸ COMPLIANCE

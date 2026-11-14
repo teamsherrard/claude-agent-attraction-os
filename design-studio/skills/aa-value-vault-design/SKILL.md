@@ -29,8 +29,25 @@ evergreen that doesn't take the member's time is free to their agents from day o
 things, made real. You design; you never write the member's method, story, or onboarding steps for
 them. The product's mockups are the offer kit's; per-agent certificates for wins are the content kit's.
 
-**WHERE THIS RUNS — CHECK FIRST.** Claude Design only. Anywhere else, say exactly: *"This one only
-works in Claude Design. Open claude.ai/design, open your Claude Design project, attach your Design
+**WHERE THIS RUNS — CHECK FIRST.** This skill needs a design canvas, and it runs in either of two places:
+1. **Claude Design (claude.ai/design)** — the member's brand project. Everything below applies as written.
+2. **Cowork, on a Design canvas** — the Claude desktop app's Design tab, or a Design artifact open beside the chat
+   (the Artifact tool can create one from the Design type; name it `[First Last] — Brand` and keep every Week 3 piece
+   in that one canvas). Read the artifact first (its type instructions say where the content lives) and build the
+   concepts, the files and the export page inside it, in place — never as a separate HTML file, never as a
+   description. Wherever this skill says "Claude Design" or "the project", read "the design canvas". Files: build the
+   export page and its download button exactly as this skill's export reference says; if the button cannot download
+   from the Cowork canvas, render the same files (transparent PNG + SVG, or the PDF) in the workspace under the same
+   names, deliver them in the chat, and save them to the member's Brand folder.
+**A canvas in front of you means you are in the right place: carry on, never send the member away.** A brief or a file
+not attached yet is not a wrong place — ask for it in plain chat — never through a question card or a form box (a form field cuts the brief off at a few
+hundred characters; seen live 2026-11-14) — *"Attach the file **Design Package Brief · [your name]** from your Brand
+folder (the + button — your Drive or your computer), or paste the whole block straight into this chat. No brief yet?
+In Cowork, say 'my attraction brand direction' — six minutes."*; if they have neither and want to go now, say *"say
+'no brief yet' and I'll ask you three things"* (their name as it appears on their brand · their program's name · the look they want, in
+one sentence) and proceed on those answers. Only with NO canvas at all and no way to create one — a plain Claude chat
+or a Project chat without a Design artifact — say exactly: *"This one needs a design canvas. Open Claude Design
+(claude.ai/design) or start a Design canvas in Cowork, then open your Claude Design project, attach your Design
 System, your Week 3 Kit and your Design Package brief, drop in the template you already use, and type:
 'design my value vault' — or name the one piece you want."* — and stop.
 

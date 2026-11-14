@@ -1,6 +1,6 @@
 # Design Studio — a Claude Design skill set, not a plugin
 
-Claude Design (claude.ai/design) cannot run Cowork plugins; it accepts uploaded skill files. This
+Claude Design (claude.ai/design) cannot run Cowork plugins; it accepts uploaded skill files, and the same uploaded skills also run inside Cowork on a Design canvas (the Design tab, or a Design artifact beside the chat). This
 folder is the Agent Attraction Design Studio: the 10 `aa-…-design` skills that build and run the member's
 LEADER brand — **a coaching brand for agents** (a coach, mentor or team leader who teaches agents),
 never a realtor brand for buyers and sellers — plus the **Agent Attraction Design System** every skill

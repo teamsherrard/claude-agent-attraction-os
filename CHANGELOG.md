@@ -2,6 +2,27 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.26.0] — 2026-11-14
+
+**The Short-Form plugin comes to main, rewired for Week 4 (Short-Form 0.3.0 · Brain 0.9.9 · Support 0.1.22).** Short-form
+is WEEK 4 (the owner, 2026-11-14; Week 3 is the brand); YouTube and the later plugins shift a week, dates to be
+confirmed. Plugin 4 rewired to the contract `docs/plans/shortform-rewire-2026-11-14.md`: one Week 4 sitting (profiles
+and the two keywords confirmed — the bios were written in Week 2 — the Game Plan built from the offer's content
+branches and the Week 3 Kit, whose six designed posts open the 30-day calendar, the Notion content board kept as the
+working surface, one consent card, the first Reel, the Brain Board rebuilt at the close). Two keywords only (GUIDE and
+the offer's own invitation word; PARTNER/SCALE/GROWTH retired); Mike's call-to-action law in every caption and ask;
+scalable deliverables in every script and story prompt; carousels handed to Claude Design as lean build sheets.
+Eleven draft-only scheduled workflows, six recommended on: the Monday Week Plan (which now also drafts any welcome or
+win post the Brain earned that week, behind the consent gate), Sunday Batch Prep, the Daily Engagement List, the
+Wednesday Brokerage News Watch (three to six REAL headlines from the last 30 days, cited with their links, a
+30-second take each, onto the Notion board), the Friday performance note and the Monthly Calendar Refill; optional:
+the keyword follow-up queue, the mid-week nudge, the monthly deep dive, daily stories, the quarterly profile audit.
+"Email me": one short email to the member's own address when a workflow leaves something ready; every run leaves its
+Cowork note and rebuilds the Brain Board. The owner's board rulings the same day: three Reels a week is the default for the first month (twelve dated posts — the six designed in Week 3 plus six to film; five is the step-up the Friday note proposes), the Notion board opens on a This Week tab (Short-Form, YouTube and Calendar are the other tabs, so the later YouTube plugin never mixes into the short-form list), every card page follows one locked layout (the hook, the script, the caption, the ask, filming notes, sources, after it's out), the news watch fills the week's green-screen card with the best story and keeps the alternates inside it (one card, never one per headline), and the config keys the workflows write are one locked list. The Brain Board's Short-Form page now shows the two keywords, the pillars,
+this week's posts, the workflows switched on, the board link and the last Friday note. Setup guide, Support syllabus
+(Week 3 = the brand and Design Package, Week 4 = short-form), stack map and the Brain template moved with it.
+**The Riverside editor ships with it (Plugin 5, 0.4.5)** — vendored from the realtor marketplace as the same plugin, never a fork (the owner, 2026-11-14), with exactly two downstream patches: the Brain-home patch and its description trimmed under the 1,024 limit; its week labels, keyword examples and the Video Brand Kit path (`02 · Brand/Video Brand Kit`) already fit this OS — checked, nothing to change. Improvements to the editor happen upstream, then it is re-vendored; `scripts/vendor-riverside.sh` comes to main with the two-patch list. **Design Studio fix:** the ten skills' "where this runs" rule now counts Cowork's Design canvas (the Design tab, or a Design artifact beside the chat) as Claude Design and builds there in place, with a file-export fallback — the old rule refused inside the Claude app and sent members to claude.ai/design (found live 2026-11-14); a missing brief is asked for in plain chat, never a dead end and never through a question card (Claude Design's form fields cap at 400 characters and cut the Brain's brief off — seen live); the brief arrives as the file the Brain saves in the Brand folder, or pasted whole into the chat; the brand-week rule reads "one design project, either place"; zips rebuilt.
+
 ## [0.25.4] — 2026-11-09
 
 **The call-to-action law (Lead Magnet 0.12.8 · Brain 0.9.8).** Mike: the CTAs must be angled at partnering with the

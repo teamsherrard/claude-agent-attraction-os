@@ -42,5 +42,5 @@ connector for storage + email + calendar (`shared/connectors.md`). Email is draf
 *Lead Magnet (Week 2) · Short-Form (Week 3) · AI Editor (Week 3) · YouTube (Week 4) · Conversion & Sales (Week 5) ·
 AI Admin (Week 5) · Events (Week 6). An empty block means "not installed yet", never "broken".*
 
-## Short-Form (Week 3) — demo
+## Short-Form (Week 4) — demo
 - **sf-setup:** content pillars written 2026-10-06 (demo) · keyword: GUIDE · posting tool: manual

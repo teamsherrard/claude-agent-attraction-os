@@ -9,8 +9,8 @@
 **Partner-call block:** [set in Week 2 — n slots/week · days + times]
 **3-way call partner (upline):** [set in Week 2 — name · how to loop them in — or "nobody yet"; the person in the upline who explains the model best, not necessarily the sponsor (`02-prospect-targeting/19`)]
 **Weekly model call:** [set in Week 2 — day/time · link — or "none yet"; the "model explained + my value" call agents' prospects are invited to]
-**Filming window:** [written by the Short-Form Game Plan when the batch day is set (Week 3) — the batch-filming day + time; the Short-Form and YouTube plugins read this by name]
-**Friday note time:** [set in Week 3 — when the Weekly Content Performance note should land; default the last working hour on Friday; `sf-analytics` reads this by name]
+**Filming window:** [written by the Short-Form Game Plan when the batch day is set (Week 4) — the batch-filming day + time; the Short-Form and YouTube plugins read this by name]
+**Friday note time:** [set in Week 4 — when the Weekly Content Performance note should land; default the last working hour on Friday; `sf-analytics` reads this by name]
 **Organization list / group address:** [set in Week 2 — the one email or group address that reaches the whole organization — or "none yet"; the Team Wins newsletter's To field reads this]
 **CRM:** [set in Week 2 — GoHighLevel / Follow Up Boss / Google Sheets / none] · tags: [set in Week 2] · exports to 06 · Materials/CRM exports/ · the CRM is the system of record; the Brain's ledgers are the AI's working memory
 

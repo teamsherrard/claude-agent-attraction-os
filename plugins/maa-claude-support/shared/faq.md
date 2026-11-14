@@ -23,7 +23,7 @@ tutorial online shows terminal commands, that's not your path — your system wa
 touch a terminal.
 
 **Q3. What's Claude Design and when do I use it?**
-The design room at claude.ai/design — and where the **Design Studio** lives. Important: the
+The design room at claude.ai/design — also open inside Cowork as a Design canvas beside your chat — and where the **Design Studio** lives. Important: the
 Design Studio is NOT a plugin (Design can't run plugins). Its 10 `aa-…-design` skills are zip files you
 UPLOAD at claude.ai/customize/skills (Q30), then use inside Design: the Design Package (logo,
 style sheet, brand kit), your offer kit (the stack, the mockup, the one-pager — Week 3, from your Week 3 Kit), your lead
@@ -562,7 +562,7 @@ Next step: try "what did Mike say about 3-way calls."
 Scheduled agents only exist if you said yes when their owner skill offered them — and they only
 ever DRAFT.
 
-- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; the content report in Week 3; the follow-up
+- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; the content report in Week 4; the follow-up
   queue and call prep in Week 5. Two things are on demand, never scheduled: the Prospect Radar's
   news scan ("scan agent movement") and the CEO review ("run my CEO review") — just say the phrase
 - Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase)
@@ -577,7 +577,7 @@ Next step: say "help, my debrief never ran" and I'll walk the four checks.
 Because it isn't one — on purpose. Claude Design can't run plugins; it uses uploaded skills.
 
 - The Design Studio is 10 `aa-…-design` skill zips you upload at claude.ai/customize/skills (Q30)
-- Then inside claude.ai/design: "design my attraction logo" / "build my brand style sheet" / "make my
+- Then inside Claude Design (claude.ai/design, or a Design canvas in Cowork): "design my attraction logo" / "build my brand style sheet" / "make my
   brand kit", then in the same Week 3 session "design my offer kit" (or one piece: "my offer stack", "my
   product mockup"), "design my lead magnet pdf" and "build my attraction funnel page" from your Week 3 Kit, "design my video brand kit", and in Week 6 "design my value vault" ("my ebook", "my
   course", "my playbook", "my onboarding roadmap")
@@ -624,3 +624,45 @@ Because "email me" is a dead end on a page. The intake walks you through a free 
 where · stage · what to prepare) and reminders. Paste the link with 'my booking link is …' and your guide, your page
 and your thank-you page all point at it. You can say "later" and set it up any day.
 
+**Q52. Short-form: which keyword do I put on my Reels?**
+Two words only, set in Week 2 and confirmed in Week 4: **GUIDE** (comment it and the DM sends your guide) and your own
+invitation word from your offer (it sends the one-pager and the invitation to talk). Everything else — PARTNER, SCALE,
+GROWTH — is retired. One ask per post; the call ask is always "partner with me and get my help, free, to run this".
+
+**Q53. What are the short-form workflows, and do they post for me?**
+They never post, send or schedule anything; every one drafts and leaves it for you. Six are recommended on from one
+consent card in Week 4: the Monday week plan (your week's posts onto your board, plus any welcome or win post your Brain
+earned), Sunday batch prep (your film-day sheet), the daily engagement list (ten agents to engage with today), the
+Wednesday brokerage news watch (three to six real, linked headlines with a 30-second take each), the Friday note (what
+started conversations) and the monthly calendar refill. Optional: the keyword follow-up queue, the mid-week nudge, the
+monthly deep dive, daily stories, the quarterly profile audit. Say "my attraction workflows" to see, pause or switch any
+on. Each run leaves a note in Cowork, rebuilds your Brain Board, and — if you said yes to "email me" — sends you one short
+email at your own address.
+
+**Q54. The news watch — are the articles real?**
+Yes, or the item is dropped. Each headline comes from a live search of the last 30 days and carries the outlet, the date
+and the link; the take never misquotes it. If you ever see one without a link, tell the desk — that is a bug, not a
+feature.
+
+**Q55. I don't use Notion. Does short-form still work?**
+Yes. The board is bring-your-own and never required: your 30-day calendar lives in your Game Plan document and in your
+Brain, the Monday plan drafts from it, and the Brain Board shows this week's posts. Connect Notion any time and say
+"map my next 30 days" to get the board.
+
+**Q56. How do I connect Metricool or GoHighLevel?**
+Metricool: in Cowork open Customize → Connectors, add the Metricool connector (a browser sign-in, no keys), then say
+"connect my posting tool"; posts go to Metricool for YOUR approval inside Metricool before anything is published.
+GoHighLevel: you create a Private Integration token in your own sub-account and paste it, with your location, into the
+connector settings yourself — never into chat. Copy-paste stays the default when neither is connected.
+
+**Q57. Twelve posts a month, twenty — how many is it, and is that too much?**
+Three Reels a week is the default for your first month, so twelve dated posts: the six you designed in Week 3 (post,
+don't make) and six to film, two batch sessions. Five a week (twenty posts) is the step-up the Friday note proposes once
+a month at three has held; say "change my cadence" any time. Stories are never counted as posts, and the Wednesday news
+watch fills one of the week's slots rather than adding to them.
+
+**Q58. In a later week YouTube goes on the same board — won't that be chaos?**
+No. It is one board with tabs: This Week (what you do in the next seven days, three to seven cards), Short-Form,
+YouTube and Calendar. Every card carries its format, so a YouTube video never shows in your Short-Form tab, and YouTube
+only puts its next 30 days on the board (four to nine cards), never its whole backlog. Click any card and you get the
+same page every time: the hook, the script, the caption, the ask, filming notes, sources, and how it did.

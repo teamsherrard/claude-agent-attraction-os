@@ -617,7 +617,7 @@ Checkpoint: *"5 of 5 — I've got your voice. Building your Book now."* Push. St
 *(Front-door rule: if a member with several Agent Attraction OS plugins installed says "set up
 everything" / "onboard me to agent attraction", Brain Setup runs FIRST — then name Week 2
 and list the other systems' setups in cohort order: Lead Magnet (Week 2, after the offer) · the brand chat,
-Short-Form and Riverside (Week 3) · YouTube · Conversion & Sales · AI Admin · Events.)*
+Short-Form and Riverside (Week 4) · YouTube · Conversion & Sales · AI Admin · Events.)*
 
 ---
 

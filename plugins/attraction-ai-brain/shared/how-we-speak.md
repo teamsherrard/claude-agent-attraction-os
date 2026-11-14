@@ -57,7 +57,7 @@ flagged unprompted, and never counted against a Brain's completeness:
 
 - `prospect-intel.md`, `brokerage-model.md` — researched in Week 2 or on demand.
 - `operations.md` — set in Week 2 (the booking page, the CRM, the rhythm); `leadership.md`,
-  `execution-framework.md` — on demand; `content-pillars.md` — written by the Short-Form System in Week 3.
+  `execution-framework.md` — on demand; `content-pillars.md` — written by the Short-Form System in Week 4.
 - `compliance.md` at `unset` — set on demand ("paste my compliance link", two minutes); it is the one thing
   that blocks public output, so it is always the first *recommendation*, never a defect.
 - `brand-visual.md` — the brand is its own Week 3 chat ("my attraction brand direction", alongside Claude

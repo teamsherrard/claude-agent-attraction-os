@@ -394,7 +394,7 @@ section in `offer.md`; none is asked except the one question below.
   and AI as two segments of one UVP). Write 5 to 7 segments: the framework's steps (each step is a segment), the
   pains in the overlap, the member's perspective (what agents pay for versus what works), their story's turning
   point, the teaching method itself — each with **three example topics** an agent would click (specific,
-  tactical, a result or a number in it; never compensation). The Short-Form Game Plan (Week 3) and the YouTube
+  tactical, a result or a number in it; never compensation). The Short-Form Game Plan (Week 4) and the YouTube
   Game Plan (Week 4) build their pillars, angles and titles from these first, the Brain's other signals second,
   their starter banks last. The same words in `offer.md` and in the document's `YOUR CONTENT BRANCHES`.
 

@@ -29,10 +29,10 @@ missing. Nobody starts over.
 
 - **Somewhere to keep the agents you talk to** (Week 2) — GoHighLevel, Follow Up Boss, or a Google Sheet. A Google
   Sheet is free and a real answer.
-- **Riverside** (Week 3, your own account) — the AI Editing Studio records, edits, and publishes through it.
-- **ManyChat** (Week 3, your own account, free plan first) — only if you run the comment-to-DM keyword sequences.
-  The sequence templates are a Week 3 bonus asset you import into your own account; there is no plugin for it.
-- **Metricool** (Week 3) — only if you want posts scheduled for you. Posting by hand is free.
+- **Riverside** (Week 4, your own account) — the AI Editing Studio records, edits, and publishes through it.
+- **ManyChat** (Week 4, your own account, free plan first) — only if you run the comment-to-DM keyword sequences.
+  The sequence templates are a Week 4 bonus asset you import into your own account; there is no plugin for it.
+- **Metricool** (Week 4) — only if you want posts scheduled for you. Posting by hand is free.
 - **An email list tool** (Week 2) — your CRM's email if it has one; otherwise a free Mailchimp or MailerLite account. The
   guide's follow-up emails load into it.
 - **A booking link for your partner call** (Week 2) — a free Calendly (one 30-minute Zoom event), or the one inside GoHighLevel; many brokerages and
@@ -60,7 +60,7 @@ All clicks, nothing to type:
 6. Turn on **Sync automatically**. Updates arrive on their own; you never reinstall.
 
 Stop there. **Plugin 3 — Lead Magnet** is in the marketplace too: install it in Week 2, after your offer session, the
-same way. The other plugins switch on week by week (section 8). Don't install ahead to be ready — a plugin that
+same way. The other plugins switch on week by week (section 9). Don't install ahead to be ready — a plugin that
 hasn't shipped yet isn't there to install. The marketplace numbers the plugins 1 to 9. The Design Studio is not in
 the marketplace at all: it is a set of design skills you upload into Claude Design (section 5).
 
@@ -103,7 +103,7 @@ run it in one sitting, and start it early in your weekly usage window — not th
 **The first two minutes.** It checks which world you're in (Google or Microsoft) and asks only if both or neither
 are connected. It asks what to call your home base — "Agent Attraction OS" works, or your organization's name; you
 can rename it anytime. If it finds a Realtor AI Brain on your account, its next question is whether to bring over
-your name, market, voice, brand basics and proof so you skip those questions (section 7). Then it offers to read
+your name, market, voice, brand basics and proof so you skip those questions (section 8). Then it offers to read
 anything you already have: an old recruiting deck, a bio, your brokerage's onboarding doc, a CRM export, past videos.
 Paste them or drop them in your Materials folder and you type less — or say "skip" and you just talk.
 
@@ -148,7 +148,7 @@ off?" and resumes at the right spot. It never re-interviews a finished Brain.
   working files your AI reads — leave that one alone.
 - **Your project seatbelt** — a short block to paste into the Project Instructions of any Claude project, so every
   chat there loads your Brain first. Optional, ten seconds per project.
-- **Next** — your offer and your lead magnet in Week 2 (section 8). Your brand and Claude Design come in Week 3 (section 5).
+- **Next** — your offer and your lead magnet in Week 2 (section 9). Your brand and Claude Design come in Week 3 (section 5).
 
 **Then, two minutes more.** Say `set up MAA support`. It records your cohort start date and whether you're a
 fast-action buyer, so `what week am I in` and the catch-up plan work for you.
@@ -173,22 +173,20 @@ name — then works out the creative direction from your Brain and the way you t
 and shows it to you in one card. You say yes or change a line. It ends by handing you your **Design Package brief**,
 a paste-ready block for Claude Design, and saves it in your 02 · Brand folder.
 
-**Claude Design** builds the visuals. It lives at claude.ai/design, not in Cowork, and it reads your Brain Book
-(the document) plus the brief, not your Brain directly.
+**Claude Design** builds the visuals. It is a design canvas: claude.ai/design, or the Design canvas right inside Cowork (the Design tab, or a design opened beside your chat) — either works, and the same uploaded skills run in both. It reads your Brain Book (the document) plus the brief, not your Brain directly.
 
 1. **Upload the Design Studio skills.** Download them from your Week 3 materials (the cohort posts the files; the
    source is the Design Studio release at https://github.com/teamsherrard/claude-agent-attraction-os/releases/latest — the ten numbered zips plus
    `00-START-HERE.md` and `00-agent-attraction-design-system.md`). In claude.ai click **Customize → Skills → Upload a
    skill** and upload the eight Week 3 zips as they are (never unzipped): `01-aa-logo-design.zip` through
    `08-aa-video-kit-design.zip`; `09` and `10` wait for Week 6. Read `00-START-HERE.md` first — it is the map.
-2. **One project for your brand.** Open claude.ai/design and create one project for your brand (any name — your own
-   name works). Run every design skill inside it, always — that is how each skill finds your logo, colours, fonts,
+2. **One project for your brand.** Open Claude Design (claude.ai/design, or a Design canvas in Cowork) and create one project for your brand (any name — your own name works). Run every design skill inside it, always — that is how each skill finds your logo, colours, fonts,
    and headshot.
 3. **Attach the Design System and your three files to every chat:** the **Agent Attraction Design System** file
    (`00-agent-attraction-design-system.md`), your **Week 3 Kit**, your **guide** and your **Design Package brief**; your
    **Brain Book** only when a skill asks for it. After the style sheet step, the Design System becomes *your* "[Your Name] Design
    System" — attach that one from then on. Never a demo-watermarked Book.
-4. **Paste your Design Package brief** into a new chat in that project. Lost it? In Cowork say `my attraction brand
+4. **Attach your Design Package Brief file** (your Brain saved it in your Brand folder as `Design Package Brief · [Name] · [date]`) to a new chat in that project — or paste the whole block into the message, never into a question box, which cuts it off at a few hundred characters. Lost it? In Cowork say `my attraction brand
    direction` and it hands you the brief again.
 5. **Run the three in order.** Skip the logo if you love yours: start at the style sheet, upload your logo, and it is
    used exactly as-is, never redesigned.
@@ -227,7 +225,50 @@ Attach the Design System and your Brain Book first. Always.
 
 ---
 
-## 6. Turn on your Daily Debrief (whenever you want it)
+## 6. Week 4: your short-form engine and your editor (one sitting in Cowork, about 25 minutes)
+
+Install **Plugin 4 · Short-Form** and **Plugin 5 · AI Editing Studio (Riverside)** from the marketplace when Week 4 opens.
+Then, in a new Cowork chat, type:
+
+```
+set up my attraction short-form
+```
+
+It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it asks almost nothing. In order:
+
+1. **Your profiles and your two keywords, confirmed.** Your bios were written in Week 2 (chapter 6 of your kit). It
+   confirms the identity line and the one link, asks only which platforms you post on, and confirms your two keywords:
+   **GUIDE** (comment it and the DM sends your guide) and your own invitation word from your offer. Nothing else.
+2. **Your Short-Form Game Plan.** Your five pillars come from the content branches of your offer; your 30-day calendar
+   opens with the six posts you designed in Week 3 ("post, don't make"), then your Reels; every ask is one of your two
+   keywords or the call, in Mike's words: partner with me and get my help, free, to run this. Two short stops: the pillars as one block, your cadence in one word — three Reels a week to start, so your first month is twelve posts: the six you designed and six to film. The document lands in Content → Short-Form.
+3. **Your content board** in your own Notion: one dashboard, the thirty days as dated cards; it opens on a This Week tab, and every card opens to the same page (the hook, the script, the caption, the ask, filming notes, sources). YouTube gets its own tab in a later week, so the two never mix. Optional — without Notion
+   your calendar lives in the Game Plan and your Brain.
+4. **Your workflows, one card.** Six are recommended: the Monday week plan (your week's posts drafted onto your board,
+   plus any welcome or win post your Brain earned), Sunday batch prep (your film-day sheet), the daily engagement
+   list (ten agents to engage with today), the Wednesday brokerage news watch (three to six real, linked headlines
+   with a 30-second take each), the Friday note and the monthly calendar refill. Say yes to the ones you want, and
+   whether to email you when something is ready. Every workflow only drafts; nothing posts on its own. `my
+   attraction workflows` shows, pauses or switches any of them, any day.
+5. **Your first Reel**, scripted on the spot: `script my first attraction reel`.
+
+It closes by rebuilding your Brain Board: the Short-Form dot turns green and its page shows your keywords, this
+week's posts and your workflows.
+
+**Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
+`register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a
+recording. It edits inside your own Riverside account, every change checkable, and never publishes without your yes.
+
+**Posting.** Copy-paste works from day one. To have posts scheduled for you: Metricool (in Cowork open Customize →
+Connectors, add the Metricool connector — a browser sign-in, no keys — then say `connect my posting tool`; your posts
+wait for your approval inside Metricool) or GoHighLevel (you create a Private Integration token in your own account and
+paste it, with your location, into the connector settings yourself, never into chat).
+
+**Day to day:** `run my week plan` · `script my attraction reels` · `today's stories` · `attraction carousel` (the copy
+plus a build sheet for Claude Design) · `green screen on brokerage news` · `how's my content doing` · `plan my
+attraction week` · `my attraction workflows`.
+
+## 7. Turn on your Daily Debrief (whenever you want it)
 
 Setup never creates a scheduled task. When you want your Daily Agent Attraction Debrief, say `turn on my daily
 debrief` (the default is 6 pm) — your yes creates it as a scheduled task in Cowork. The AI Admin offers it again on
@@ -246,7 +287,7 @@ From Week 5 the AI Admin's Morning Brief extends this debrief — it never becom
 
 ---
 
-## 7. Already running the Social Agent OS? The two-Brains note
+## 8. Already running the Social Agent OS? The two-Brains note
 
 Some of you also have Mike's realtor plugins. Both systems live side by side on purpose — two home bases, two
 Brains, two help desks — and never overwrite each other.
@@ -265,7 +306,7 @@ Brains, two help desks — and never overwrite each other.
 
 ---
 
-## 8. Week by week: what you install, and the phrase that opens it
+## 9. Week by week: what you install, and the phrase that opens it
 
 Each plugin installs the same way: **Customize → Plugins**, pick it from the Team
 Sherrard marketplace, **Install**. Keep **Sync automatically** on. Scheduled agents are offered by the system that
@@ -278,19 +319,19 @@ owns them and created only with your yes; every one is draft-only.
 | 1 | **Compliance, when you need it** — paste your brokerage's compliance page link; it reads the rules out for you | `paste my compliance link` | — |
 | **2** | **Your Brain first:** the offer — one card you say yes to, then the Partner Offer document, your why-join-me story, what's free and what costs, and your **Week 3 Kit** (the offer to join you, your digital product, the copy for the Join My Team one-pager, the offer stack, the product mockup, the call deck, the welcome pack, six social posts and every call to action — the file you upload with your guide to Claude Design in Week 3; your guide and page join it in the lead magnet session) — your model, your prospect list, your numbers locked — and the tools conversation (your CRM, your working hours, who you three-way with; your booking link — a free Calendly this week; the Conversion plugin designs the full booking page in Week 5) | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` · `set my attraction goals` · `set up my attraction operations` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
 | 2 | **Plugin 3 · Lead Magnet** — install this week. One phrase is a complete Week 2 session: it builds your offer first if it isn't built yet (your unique value proposition — named for the outcome it produces, with your own pages on how to create it, where to host it and the words to use), recommends ONE lead magnet built from it (say yes, or ask for the next best), and writes the magnet and its sales funnel outline, then puts both into your Week 3 Kit (the one file for Claude Design in Week 3) — then your bios aligned to the funnel. (Already built your offer with `build my partner offer`? It goes straight to the magnet.) **By the end of this week you have ONE lead magnet, written and designed, with its funnel outline (tangible) — and your unique value proposition broken down: your offer explained in detail and how to create it, its name, the marketing language to use, and where to host it (intangible).** | `launch my lead magnet plugin` | — |
-| 3 | **Design Studio — the offer and lead magnet set** (Week 3, with the Design Package) — the offer kit (one skill: the product mockup, the 3D offer stack, the "Join My Team" one-pager, the opportunity deck, the welcome pack, the model comparison sheet), the guide PDF and its opt-in page once your guide is written, the Partner Call booking page, and the content kit (your "Why Join Me" carousel now; carousels and win walls every week after). Upload when they are released | `my offer kit` (or one piece: `my offer stack`, `my product mockup`, `design my join my team one-pager`) · `design my lead magnet pdf` · `build my attraction funnel page` · `design my carousel` | — |
+| 3 | **Design Studio — the offer, guide, page and posts** — Claude Design skills, uploaded, not installed (section 5): your digital product mockup, the offer stack and one-pager, the guide PDF, the opt-in and thank-you pages, the six social posts, the video pop-ups, the call deck and welcome pack — all from your Week 3 Kit and your guide | `design my digital product` → `design my offer kit` → `design my guide pdf` → `design my funnel page` → `design my posts` → `design my pop-ups` | — |
 | **3** | **The brand chat** — a Cowork chat when Week 3 opens: what you already have, then the direction derived from how you talk, then your Design Package brief (section 5) | `my attraction brand direction` | — |
 | 3 | **The Design Package** — three Claude Design skills, uploaded, not installed (section 5) | `design my attraction logo` → `build my brand style sheet` → `make my brand kit` | — |
-| 3 | **Plugin 4 · Short-Form** — one phrase is the whole Week 3 session, in order: every profile you use optimized for the agents you attract (one copy-paste pack), your Short-Form Game Plan (pillars, hooks, the keyword, your next 30 days with a date on every post), your content board in Notion with those 30 days on it, your scheduled workflows, then your first Reel scripted | `set up my attraction short-form` | from one consent card: the Monday Week Plan (your week's posts drafted every Monday — recommended on) · Weekly Content Performance (Fridays — recommended on) · Daily Stories (three story ideas each morning — off unless you want it) |
-| 3 | **Plugin 5 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace | `set up riverside`, then `edit my video` or `make me a reel` | — |
-| 3 | **Design Studio video kit** — one Claude Design skill, uploaded with Riverside: the overlays your editor lays over every video (hook banner, name strip, pop-up, call-to-action banners in your words, end screen, icons) and the spec your editor reads. It can run any time after your style sheet exists | `design my video brand kit` in Claude Design, then `register my video brand kit` in Cowork | — |
-| 3 | **ManyChat sequence templates** — a bonus asset you import into your own ManyChat account; not a plugin | — | — |
-| **4** | **Plugin 6 · YouTube** — one sitting: your channel optimized, your Game Plan, your next 30 days on your board, your workflows, your first video | `set up my YouTube for agents` | Monday Kickoff (Mondays, on by default with your yes) · the Friday report now covers YouTube too · Monthly Channel Review (off until you say `turn on my monthly YouTube review`) |
-| 4 | **No new upload.** Your YouTube plugin writes each thumbnail brief; paste it into your brand project in Claude Design (there is no separate thumbnail skill) | `thumbnail brief` | — |
-| **5** | **Plugin 7 · Conversion & Sales** | `launch conversion` — and `set up my sales system` for your booking page and pipeline stages | Call Block Prep (daily) · Cold-Lead Reactivation (every 30 days) |
-| 5 | **Plugin 8 · AI Admin** — one phrase, two messages: your first Morning Brief built from your Brain, calendar and inbox (today's calls with prep, inquiries with reply drafts, follow-ups drafted in your voice, content due, the week so far, three moves, one coaching note) and your pipeline at a glance — then one yes. Nothing is asked that your Brain already knows | `set up my attraction admin` | from one consent card: Morning Brief (extends your Debrief) · Daily Follow-Up Queue right after it · your Daily Debrief, if it isn't on yet |
-| **6** | **Plugin 9 · Events & Workshops** | `plan my workshop` | Post-Event Follow-Up |
-| 6 | **The Value Vault and your events** — two Design Studio skills: the Value Vault (your playbook, course, or ebook, plus your partner onboarding roadmap — the Day 1 → Day 30 poster, the new-partner checklist, the "where to show up" card) and the event graphics. Upload when released | `design my value vault` (or one piece: `design my playbook`, `design my course`, `design my ebook`, `design my onboarding roadmap`) · `my attraction event flyer` · and, from your content kit, `my win wall` | from the AI Admin: Monthly KPI Review · Team Wins Newsletter (Thursdays). Your Weekly Recruiting CEO Review runs whenever you say `run my CEO review` |
+| **4** | **Plugin 4 · Short-Form** — one phrase is the whole Week 4 session, in order (section 6): your profiles and two keywords confirmed, your Short-Form Game Plan (pillars from your offer, your calendar opening with the six posts you designed in Week 3), your Notion board, your workflows from one card, your first Reel | `set up my attraction short-form` | Monday week plan · Sunday batch prep · daily engagement list · Wednesday news watch · Friday note · monthly calendar refill (each with your yes; all draft-only) |
+| 4 | **Plugin 5 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace; it reads the Video Brand Kit you designed in Week 3 | `set up riverside`, then `edit my video` or `make me a reel` | — |
+| 3 | **Design Studio video kit** — one Claude Design skill (zip 08): the overlays your editor lays over every video (name card, the guide and call pop-ups, end cards, call-to-action banners in your words) and the spec your editor reads; registered with your editor in Week 4 (`register my video brand kit`) | `design my pop-ups` · `design my video kit` | — |
+| 4 | **ManyChat sequence templates** — a bonus asset for your two keywords, imported into your own ManyChat account; not a plugin | — | — |
+| **5** (date to be confirmed) | **Plugin 6 · YouTube** — one sitting: your channel optimized, your Game Plan, your next 30 days on your board, your workflows, your first video | `set up my YouTube for agents` | Monday Kickoff (Mondays, on by default with your yes) · the Friday report now covers YouTube too · Monthly Channel Review (off until you say `turn on my monthly YouTube review`) |
+| 5 | **No new upload.** Your YouTube plugin writes each thumbnail brief; paste it into your brand project in Claude Design (there is no separate thumbnail skill) | `thumbnail brief` | — |
+| **6** (date to be confirmed) | **Plugin 7 · Conversion & Sales** | `launch conversion` — and `set up my sales system` for your booking page and pipeline stages | Call Block Prep (daily) · Cold-Lead Reactivation (every 30 days) |
+| 6 | **Plugin 8 · AI Admin** — one phrase, two messages: your first Morning Brief built from your Brain, calendar and inbox (today's calls with prep, inquiries with reply drafts, follow-ups drafted in your voice, content due, the week so far, three moves, one coaching note) and your pipeline at a glance — then one yes. Nothing is asked that your Brain already knows | `set up my attraction admin` | from one consent card: Morning Brief (extends your Debrief) · Daily Follow-Up Queue right after it · your Daily Debrief, if it isn't on yet |
+| **7** (bonus week, date to be confirmed) | **Plugin 9 · Events & Workshops** | `plan my workshop` | Post-Event Follow-Up |
+| 7 | **The Value Vault and your events** — two Design Studio skills: the Value Vault (your playbook, course, or ebook, plus your partner onboarding roadmap — the Day 1 → Day 30 poster, the new-partner checklist, the "where to show up" card) and the event graphics. Upload when released | `design my value vault` (or one piece: `design my playbook`, `design my course`, `design my ebook`, `design my onboarding roadmap`) · `my attraction event flyer` · and, from your content kit, `my win wall` | from the AI Admin: Monthly KPI Review · Team Wins Newsletter (Thursdays). Your Weekly Recruiting CEO Review runs whenever you say `run my CEO review` |
 
 Two rules of thumb: **Week 1 and Week 2 are never skipped** — every later system reads your Brain, who your story
 speaks to, your offer, and your lead magnet (every later system points its CTAs at your guide). And if a plugin isn't in the marketplace yet, it switches on in its week; until then your Brain and
@@ -298,7 +339,7 @@ this week's systems are the whole stack.
 
 ---
 
-## 9. When you're stuck
+## 10. When you're stuck
 
 Your help desk (Plugin 2) answers everything about Claude and everything in this OS. It only looks — it never
 touches your files — and it routes every fix to the system that owns it.
@@ -334,7 +375,7 @@ welcome email and the Circle calendar]`.
 
 ---
 
-## 10. The one-page checklist
+## 11. The one-page checklist
 
 **Before the lessons**
 
@@ -370,3 +411,10 @@ welcome email and the Circle calendar]`.
 
 Everything here is assistance, not legal advice: check every public piece against your brokerage's advertising and
 revenue-share marketing rules.
+
+
+**Week 4 — your short-form engine and your editor**
+- [ ] Plugins 4 and 5 installed; `set up my attraction short-form` — profiles and your two keywords confirmed (GUIDE and your invitation word), your Game Plan (your calendar opens with the six posts designed in Week 3), your Notion board, your workflows from one card (six recommended, all draft-only, "email me" if you want it), your first Reel.
+- [ ] Your Brain Board shows the Short-Form dot green with your keywords, this week's posts and your workflows.
+- [ ] `set up riverside` (it reads your Week 3 Video Brand Kit), then `edit my video` or `make me a reel` when you have a recording.
+- [ ] Optional: `connect my posting tool` — Metricool (added under Customize → Connectors; posts wait for your approval inside Metricool) or GoHighLevel (your own token, pasted into the connector settings yourself).

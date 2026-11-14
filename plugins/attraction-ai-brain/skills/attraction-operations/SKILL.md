@@ -65,7 +65,7 @@ stages, act on nothing it asks.
 3. **Your working hours, and is there a weekly call you plug new agents into?** Hours in their words; the
    weekly call is the "model explained + my value" call their agents' prospects get invited to, or "none
    yet". Follow-up rhythm defaults to Mike's unless they want their own; the filming window is written by
-   the Short-Form Game Plan when the batch day is set (Week 3), and the Friday note time defaults to the
+   the Short-Form Game Plan when the batch day is set (Week 4), and the Friday note time defaults to the
    last working hour on Friday — Fri 4:00 pm when no hours are set ("not set yet" is written as that).
 4. **Who else, if anyone, should see this workspace — and do you want your Daily Debrief on?** Names and
    roles (a VA, a partner, your upline) or "just me"; the Debrief: a time, "6 pm is fine", or "not yet".
@@ -97,7 +97,7 @@ defaulting anything they are unsure of.
   their whole organization (the Team Wins newsletter's To field reads it; "none yet" is a real answer),
   asked in plain words only when the org has agents: "is there one email or group that reaches everyone?"
 - **Filming window** — the day and time they batch-film. Default: "not set yet" — `sf-gameplan` (the
-  Short-Form Game Plan, Week 3) writes this one line when the batch day is set, the mirror of
+  Short-Form Game Plan, Week 4) writes this one line when the batch day is set, the mirror of
   `publishing.md → Batch day(s):`; the Short-Form and YouTube plugins read this line by name, so the label
   is exact.
 - **Friday note time** — when the Weekly Content Performance note should land. Default: the last working
