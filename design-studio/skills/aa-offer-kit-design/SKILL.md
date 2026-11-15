@@ -25,7 +25,7 @@ partner with me, free first, the product on top), the **one-pager**, the **call 
 **welcome pack** — each in the member's locked brand, each from the kit's chapter 7 bands with the
 words of chapter 2. The words are the kit's; the design is yours. The free guide's PDF and its opt-in
 page are `aa-lead-magnet-design`'s and `aa-funnel-design`'s; the six posts are `aa-content-design`'s;
-the pop-up set is `aa-video-kit-design`'s; the product itself grows in Week 6 with
+the pop-up set is `aa-video-kit-design`'s; the product itself grows in a later week with
 `aa-value-vault-design` from the cover you make here, only if the first partners ask. There is no
 sheet that compares brokerage models: the model is talked through on the call (slide 9), never ranked.
 
@@ -35,23 +35,48 @@ sheet that compares brokerage models: the model is talked through on the call (s
    (the Artifact tool can create one from the Design type; name it `[First Last] — Brand` and keep every Week 3 piece
    in that one canvas). Read the artifact first (its type instructions say where the content lives) and build the
    concepts, the files and the export page inside it, in place — never as a separate HTML file, never as a
-   description. Wherever this skill says "Claude Design" or "the project", read "the design canvas". Files: build the
+   description. Wherever this skill says "Claude Design" or "the project", read "the design canvas".
+   **In Cowork you can reach the member's Brain and workspace — read your inputs yourself, never ask for them:** the
+   Design Package brief from `~/attraction-brain/identity/brand-visual.md` → `## Design Package brief (last issued …)`
+   (pull the Brain first if it is not local) or the newest `Design Package Brief · …` file in the member's `02 · Brand`
+   folder; the Week 3 Kit from `~/attraction-brain/exports/week3-kit-*.txt` or the kit document in the home base
+   folder; the guide from the Guides folder; the Design System and the logo files from `02 · Brand`. Say in one line
+   what you found ("I have your brief, your kit and your logo") and start. Files: build the
    export page and its download button exactly as this skill's export reference says; if the button cannot download
    from the Cowork canvas, render the same files (transparent PNG + SVG, or the PDF) in the workspace under the same
-   names, deliver them in the chat, and save them to the member's Brand folder.
+   names, deliver them in the chat, and save them to the member's Offer folder (the guide's shots to their Guides folder).
 **A canvas in front of you means you are in the right place: carry on, never send the member away.** A brief or a file
-not attached yet is not a wrong place — ask for it in plain chat — never through a question card or a form box (a form field cuts the brief off at a few
+not attached yet is not a wrong place — **look for it yourself first** (the project's attached files, this
+conversation, and in Cowork the member's Brain and workspace, as above); only when it is truly nowhere, ask for it in
+plain chat — never through a question card or a form box (a form field cuts the brief off at a few
 hundred characters; seen live 2026-11-14) — *"Attach the file **Design Package Brief · [your name]** from your Brand
-folder (the + button — your Drive or your computer), or paste the whole block straight into this chat. No brief yet?
-In Cowork, say 'my attraction brand direction' — six minutes."*; if they have neither and want to go now, say *"say
-'no brief yet' and I'll ask you three things"* (their name as it appears on their brand · their program's name · the look they want, in
-one sentence) and proceed on those answers. Only with NO canvas at all and no way to create one — a plain Claude chat
+folder (the + button — your Drive or your computer), or paste the whole block straight into this chat."* **No brief
+anywhere is never a fault and never said like one — it only means the Week 3 brand chat has not run yet, and that
+chat is the step before this one.** Say one line and carry on: *"Your brand chat is what makes your brief — in Cowork, say 'my attraction brand direction' (about five minutes). I'm building this in a clean neutral look meanwhile, and I'll dress it in your brand once your style sheet exists."* (On a
+Cowork canvas the member says it right in this chat.) **This skill never waits for the brief.** With the member's Design System in the project it builds from that. With neither a Design System nor a brief, it builds in the clean neutral look the Week 3 Kit's own design brief names (the member's headshot, one dark text colour, no accent unless named) and says once, in that same line, that the pieces get re-dressed in the member's brand the moment the brand chat and the style sheet are done — *"say 'build my brand style sheet' here once your brief exists, then 'refresh my pieces'"*. Never build a brand from a few quick questions, and never guess a direction the Brain has not derived. Only with NO canvas at all and no way to create one — a plain Claude chat
 or a Project chat without a Design artifact — say exactly: *"This one needs a design canvas. Open Claude Design
 (claude.ai/design) or start a Design canvas in Cowork, then open your Claude Design project (the one you named in
 Week 3), attach your Design System, upload your Week 3 Kit, and type: 'design my offer kit' — or name
 the one piece you want, like 'design my digital product'."* — and stop.
 
+## WHAT MAKES THIS ONE GOOD (the five things that decide it — hold them through every step)
+
+1. **The product looks like something you can hold.** One canonical cover, one light direction, one shadow
+   recipe, reused exactly on every piece.
+2. **The stack reads top to bottom at phone size** — every row in the kit's order, every label verbatim, the
+   product on top.
+3. **The one-pager has a single reading path** that ends on one action. If the eye wanders, cut.
+4. **The deck is one idea a slide,** large enough to read on a shared screen, every slide from one master —
+   no drift between slide 3 and slide 13.
+5. **No invented proof.** A missing number, logo or quote is a designed space or nothing — never a star
+   rating, a badge or a made-up result.
+
 ## THE PIECES AND THEIR REFERENCES — read a piece's file before building it (they are part of this skill — never skip them)
+
+**references/craft-standard.md — read FIRST, before any other reference and before you build anything.** The
+order of work; how you open (told, not asked — there is no intake form); the type, layout, colour and photo craft;
+how to build so nothing breaks; the look loop (see the real render, fix it, look again); and the gate every piece
+passes before the member sees it. It is the floor under everything below.
 
 | # | Piece (kit order) | The kit bands it reads | Read first | Then | Its own phrase |
 |---|---|---|---|---|---|
@@ -62,7 +87,7 @@ the one piece you want, like 'design my digital product'."* — and stop.
 | 5 | **The welcome pack** — what a new partner receives on day one | chapter 7 THE WELCOME PACK (DAY 1) | `references/offer-assets.md` (Piece 3) | `references/deck-and-document-craft.md` Part B | "my welcome pack for new partners" |
 | — | **The export page** (every piece that leaves as a picture) | — | `references/export-page.md` | — | — |
 
-Each reference carries its piece's kit fields, intake questions, premise, steps, copy rules,
+Each reference carries its piece's kit fields, its opening (what it looks for, and the defaults), premise, steps, copy rules,
 non-negotiables, self-check, canonical file names, export constants, folder, tweaks, and hand-off —
 in full. Nothing in a reference is optional; this file holds what the five pieces share. The rules for
 all five are the kit's own `DESIGN BRIEF — [PROGRAM NAME] OFFER KIT` band (`What to build:` · `Who sees
@@ -80,14 +105,14 @@ each:` · `The brand:` · `The rules:` · `When it's done:`) — read it before 
   mode (chapter 4's `The mockup:` line).
 - **"design my offer kit" · "my offer kit"** → **THE KIT RUN** (below): all five, in order, one
   checkpoint. The default whenever the member asks for the kit or for "everything".
-- **A phrase that names one other piece → that piece alone**, with its reference's own intake, and
+- **A phrase that names one other piece → that piece alone**, with its reference's own opening line, and
   nothing else built. "my offer stack" · "design my offer stack" · "my attraction offer stack" · "3D
   offer stack" · "offer stack graphic for agents" · "what my partner offer includes as a graphic" ·
   "what you get when you partner with me, as a graphic" → piece 2. "design my join my team one-pager" ·
   "build my join my team one-pager" · "my one-pager" → piece 3. "design my call deck" · "my call deck" ·
   "the deck for my calls" → piece 4. "my welcome pack for new partners" · "my welcome pack" → piece 5.
 - **"my attraction offer assets"** → pieces 3–5 in their order (the one-pager, the call deck, the
-  welcome pack); the reference's intake decides which (default: the one-pager).
+  welcome pack) — all three; never a question about which.
 - **The kit decides when the phrase doesn't:** a member who points at a chapter 7 band gets that band's
   piece — THE PRODUCT MOCKUP (or chapter 4's `The mockup:` line) → piece 1; THE OFFER STACK → piece 2;
   THE JOIN MY TEAM ONE-PAGER → piece 3; THE CALL DECK, SLIDE BY SLIDE → piece 4; THE WELCOME PACK
@@ -96,11 +121,10 @@ each:` · `The brand:` · `The rules:` · `When it's done:`) — read it before 
 - **A sheet that compares brokerage models is not a piece.** Asked for one, say in one plain line that
   the model is talked through on the call, with the documents (that is what slide 9 of the deck says),
   and nothing ranks one brokerage against another — then offer the call deck.
-- **Only a genuinely ambiguous ask** ("the offer graphics") earns ONE question, in plain words, naming
-  the five pieces with the kit as the default — never a menu when the phrase or the kit already
-  decided.
-- One run, one intake form: a single piece uses its reference's form; the kit run uses the merged form
-  below. Never two forms in one run.
+- **A genuinely ambiguous ask** ("the offer graphics") gets the default — the kit run, named in your
+  opening line — never a question, never a menu of the five pieces.
+- **One run, one opening line.** A single piece opens with its reference's line; the kit run opens with the
+  one below. Never a form, and never two openings in one run.
 
 ## THE KIT RUN — "design my offer kit" (the masters, ONE checkpoint, then everything)
 
@@ -110,14 +134,14 @@ object the one-pager and the deck reuse, the product on top) → **3 the one-pag
 deck** → **5 the welcome pack**. It is the order chapter 1's HOW TO USE THIS IN WEEK 3 gives, minus
 the pieces other skills own.
 
-1. **ONE intake form**, merged from the five references and pruned of everything the kit, the Design
-   Package brief, the Book, the Design System, and the project already answer: the **Week 3 Kit**
+1. **READ, SAY ONE LINE, START** (told, not asked — there is no intake form). Read the **Week 3 Kit**
    (newest — chapter 7 for every piece's words, chapter 2 for the stack rows, the product and `The
-   register:`, chapter 4's `The mockup:` line for the guide's shots) · the **Design Package brief**
-   (the brand; without it, the clean neutral look chapter 7's brief names) · an existing product cover,
-   if one exists · real photos and real screenshots, dropped into the CHAT · anything to feature or
-   avoid. One confirmation line above it; every creative choice has a "Decide for me"; end with
-   **"Your turn."** "Just make it" = zero questions; name your assumptions in one line and build.
+   register:`, chapter 4's `The mockup:` line for the guide's shots), the **Design Package brief** and the
+   Design System (the brand; with neither, the clean neutral look chapter 7's brief names), any existing
+   product cover, and every real photo and screenshot in the chat and the project. Then one line — *"I have
+   your kit and your brand: The Sunday Follow-Up Playbook, five rows in your stack. I'm building your
+   product's cover and your offer stack first."* — and build the masters in the same reply. Nothing is
+   asked; the member corrects a wrong fact in that line with a word.
 2. **THE MASTERS.** Build the canonical product cover (`product-cover-flat.png`, the THUMBNAIL TEST,
    reused exactly when a cover already exists; version one's cover — never a course box) and the
    transparent stack object (`offer-stack-object.png`, every row in chapter 2's order, every label
@@ -181,7 +205,8 @@ re-ask a line one carries:
   Attraction Brain*: it tells you WHO the member is (Who you are · Your story · Your voice · Who your
   story speaks to · Your proof). It carries no brand, no offer and no compliance; those are the two
   files above. Wrong-file guard: a file that reads like none of the three (no leader, no chapters, no
-  story) → say so and confirm before designing. Demo guard: a **DEMO** kit without a demo request =
+  story) → say so in one line and build from the files that are right (no real kit → the no-kit line
+  below). Demo guard: a **DEMO** kit without a demo request =
   stop and ask for the real one.
 
 **The register (read once, obeyed everywhere).** Chapter 2's `The register:` line decides the words.
@@ -198,7 +223,7 @@ template the member already uses plus ONE short recording (10 to 15 minutes) —
 one, this month:`. The mockup is that version's cover: `Cover line:` · `Subtitle:` · `Three promises:`,
 a flat cover first, a 3D mockup only if the tool exports pictures. Never a course box, a bundle, a stack
 of binders, a device wall or "12 modules" unless chapter 2's `Format:` says course AND its `Status:`
-says built. The Value Vault grows it in Week 6 only if the first partners ask.
+says built. The Value Vault grows it in a later week only if the first partners ask.
 
 Every line of the kit is the member's own decision: the order is the order, the wording is the wording.
 Never reorder, never add a row or a block, never retitle the product. **The offer's name on every piece
@@ -214,27 +239,25 @@ lead magnet joins it when you say 'launch my lead magnet plugin'). Upload it her
 from it."* Never build a stack, a cover, or a deck from seeds; never invent a row, a product, a promise
 or a slide to fill a gap.
 
-### Use the locked brand, then ask only what's new
+### Use the locked brand — read, say one line, build
 
-**PLAIN-LANGUAGE LAW — every question you show the member speaks human.** No "lockup", "hex",
+**PLAIN-LANGUAGE LAW — every line you say to the member speaks human.** No "lockup", "hex",
 "isometric", "alpha", "bleed", "master slide", "gutter" as a label — say "your colour codes", "the
 angle the stack sits at", "a version with a see-through background", "the page edge", "the look every
-slide copies". A technical term may appear only in brackets AFTER a plain label. The design vocabulary
-inside this skill and its references is for YOU, not the form.
+slide copies". A technical term may appear only in brackets AFTER a plain label. The design vocabulary inside this skill and its references is for YOU, never for the member.
 
 By the time a member runs this, `aa-logo-design` (or their loved logo), `aa-style-sheet-design`, and
 usually `aa-brand-kit-design` have locked their brand: the **Design System** in this project holds the
 logo files, colours, fonts, headshot treatment, toolkit, voice cards, and the compliance block;
 `aa-brand-kit-design` left `cover-join-my-team.png` in `02 · Brand` and in this project. USE all of it —
 never re-ask a colour, a font, a logo, a headshot, or a cover. If the Design System is missing, say so
-and point them to `aa-style-sheet-design` first.
+and point them to 'build my brand style sheet' first.
 
-Your first reply is ONLY a SHORT intake form for what nothing else holds. Prune every answered item;
-one confirmation line above the form ("From your kit: Taylor Brooks · The Sunday Table (your group) ·
-offer 'Buyers From Open Houses' · product: The Sunday Follow-Up Playbook · cover built · compliance set —
-say the word to change any of these"); every creative choice has a "Decide for me"; end with **"Your
-turn."** Wait for the answers. "Just make it" = zero further questions; name your two or three
-assumptions in one line and build.
+**No intake form — told, not asked** (`references/craft-standard.md` §1). Read everything yourself, then open
+with ONE line and start building in the same reply: what you found, what you are building now, and any assumption you made — for example *"From your kit: Taylor Brooks · The Sunday Table (your group) · offer 'Buyers From Open Houses' · product: The Sunday Follow-Up Playbook · cover built · compliance set. Building it now."*
+Each piece's reference lists **what you look for, and the default you use when it is not there** — never shown to
+the member as questions, never a form, never a menu. A required item that is truly nowhere gets one plain line
+in chat (never a question card); everything else takes its default without a word. When you hand over finished work that needs their word, give your pick first and close with **"Your turn."**
 
 ### The five golden rules (the Studio's — the same five the Start Here page carries)
 
@@ -286,7 +309,7 @@ A product has exactly ONE cover. A designed cover already exists (in this projec
 the guide's folder, or uploaded) → reuse it EXACTLY on every shot, tier, slide, and page — never
 redesign, restyle, "improve", or recolour it. None exists → piece 1 designs it from chapter 2's cover
 line and subtitle, saves it as `product-cover-flat.png`, and announces it as the product's cover from
-now on: `aa-value-vault-design` builds the product under it in Week 6; the stack puts its 3D shot on top;
+now on: `aa-value-vault-design` builds the product under it in a later week; the stack puts its 3D shot on top;
 the one-pager, the deck, and `aa-funnel-design` reuse the shots. Two different covers in one project is a
 failure: find the newer, confirm with the member in one line, retire the other from every piece. When
 the cover changes, re-render every shot from the new flat cover under the SAME file names.
@@ -341,6 +364,11 @@ rules:`, and the Design Package brief's compliance line (the Book carries no com
 
 ## KIT-WIDE NON-NEGOTIABLES (each reference carries its piece's full list — verify every one)
 
+**First the look loop, then the gate** (`references/craft-standard.md` §8 and §10) — on every master and every
+piece you present: see the real render at full size and at the size an agent meets it; fix what is broken, wrong,
+weak, loose or generic; look again; score the five lines and rebuild anything under a 4. Only then run this
+piece's own checks below.
+
 1. The canonical cover, reused exactly; the transparent stack object, reused exactly; the cover
    `aa-brand-kit-design` built, kept as the one-pager's template — never redrawn.
 2. No compensation word anywhere: no split, cap, stock, tier, rev share, income, or dollar figure the
@@ -377,7 +405,7 @@ nothing.
 On "push / save this to my Drive" (Google Drive or OneDrive): with a FILE-UPLOAD Drive connector,
 export and push every file into the member's workspace under the canonical names — the product
 mockup set into the product's own folder inside **`05 · Offer`** (`05 · Offer/[Product name]/` — the
-folder the Value Vault reads in Week 6; the free guide's shots go into the guide's own folder in
+folder the Value Vault reads in a later week; the free guide's shots go into the guide's own folder in
 **`03 · Content/Guides/`** instead); the stack, the one-pager, the call deck and the welcome pack into
 **`05 · Offer/`** (search for their actual folders first — they may have renamed the workspace; create
 only if missing; never duplicate). If the connector is READ-ONLY or absent, say so plainly and hand
@@ -386,7 +414,7 @@ the member these are "your Offer folder" and "your Guides folder" — say folder
 never as a path.** **Why the folders matter:** the member sends the one-pager and the deck after a
 call and the welcome pack the day an agent joins; `aa-funnel-design` reads the stack object and the
 shots; `aa-content-design` reads the stack for Post 4; `aa-value-vault-design` reads the flat cover in
-Week 6; the brand itself still lives in `02 · Brand` ("your Brand folder").
+a later week; the brand itself still lives in `02 · Brand` ("your Brand folder").
 
 ## TWEAKS — EXPOSE THESE INTERACTIVE CONTROLS
 
@@ -414,7 +442,7 @@ After the push: *"Your offer kit is in your Offer folder — your product's cove
 stack, the one-pager, the call deck and the welcome pack. Back in Cowork, tell your Brain: "my offer
 kit is designed" (say it again once your six posts and your pop-up set are in the same folder). Next:
 'design my lead magnet pdf' builds your guide's PDF; then 'build my opt-in page for my agent guide';
-then 'design my posts'. In Week 6, 'design my value vault' grows the product under this cover if your
+then 'design my posts'. In a later week, 'design my value vault' grows the product under this cover if your
 first partners ask."* A single piece hands back with its reference's own line. The compliance line NOT
 SET YET → add the one plain line: *"Nothing here may be published until you say 'paste my compliance
 link' in Cowork."*
@@ -438,7 +466,7 @@ build.
   from the kit they fix in their Brain ("refine my partner offer", then "rebuild my kit"). Never
   sharpen a line yourself.
 - **The honesty test:** would the member be comfortable if an agent who joined on these pictures opened
-  the product in Week 6? If a piece promises more than the Brain maps, pull it back.
+  the product in a later week? If a piece promises more than the Brain maps, pull it back.
 - **The so-what test:** every piece makes the next step obvious — book a call, or, for the welcome
   pack, show up to the first call.
 - **No hedging, no filler headings, no banned words** (unlock · supercharge · game-changer ·

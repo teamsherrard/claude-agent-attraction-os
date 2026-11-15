@@ -25,7 +25,7 @@ trap 'rm -rf "$STAGE"' EXIT
 
 # The 10 skills of the Studio, in upload order (zip numbers 01-10). Numbers stay stable as later weeks ship.
 #   01-08 Week 3 (ALL design work, in the Start Here order: the brand three · the offer kit · the guide PDF · the opt-in page ·
-#         the posts · the pop-ups + the video kit, uploaded with the Riverside plugin) · 09-10 Week 6 (events · the Value Vault)
+#         the posts · the pop-ups + the video kit, uploaded with the Riverside plugin) · 09-10 a later week (events · the Value Vault)
 ORDER=(aa-logo-design aa-style-sheet-design aa-brand-kit-design aa-offer-kit-design aa-lead-magnet-design aa-funnel-design aa-content-design
        aa-video-kit-design aa-event-design aa-value-vault-design)
 

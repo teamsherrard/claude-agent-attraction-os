@@ -232,7 +232,7 @@ Radar's news scan runs on demand, say "scan agent movement"; "my CEO review neve
 my CEO review". Neither has a task; that is by design, not a failure.
 
 1. **Was the yes ever given?** Ask one question: "When you set up [the Brain / Short-Form / the
-   Admin…], did it ask whether to switch on the [Daily Debrief / Friday performance note / Morning
+   Admin…], did it ask whether to switch on the [Daily Debrief / Monday week plan / Morning
    Brief] — and did you say yes?" Many members skipped it on purpose (fine) or were never offered it
    (the Daily Debrief is never offered inside Brain setup — it is switched on by "turn on my daily
    debrief" or the AI Admin's Week 5 card). No yes → route the OWNER skill to provision it now

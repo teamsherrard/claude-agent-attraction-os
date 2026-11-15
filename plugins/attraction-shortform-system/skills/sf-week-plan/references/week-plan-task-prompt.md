@@ -29,7 +29,7 @@ message and continue.
    storage connector for the marker and download the Brain's text files from `01 · AI Brain/_engine/` (identity/, memory/, exports/, brain.md, config.md), preserving subfolders. Only if the storage search SUCCEEDED and found no marker
    anywhere, output: "Your Agent Attraction Brain isn't set up yet — say 'set up my attraction brain' to begin,"
    and stop. **A tool ERROR is never "not found":** if a connector call fails, still draft the week from what
-   loaded — name the failed connector, say "open Settings → Connectors, reconnect, then say 'run my week plan'",
+   loaded — name the failed connector, say "open Customize → Connectors, reconnect, then say 'run my week plan'",
    and mark the result partial. Never suggest re-running setup because of an error.
 2. **Read:** `brain.md`; `config.md` (timezone, locale; the `## Short-Form (Week 4)` block — an older heading with the earlier week number is the same block — for its `Email me:` line); `memory/content-calendar.md` (the rows dated this week —
    Monday to Sunday of today — and the whole mapped window); `identity/publishing.md` (`Content board:`, `Keyword:` —
@@ -59,10 +59,10 @@ message and continue.
    time (no standing one-on-one, no chat group, no "I pick up every call" — the help is the recorded lessons, the
    templates, the community; the weekly group call only when the member already runs one); the brokerage is never
    the reason for any ask.
-5. **Draft each row dated this week.** **A kit post row first** (its Format or Carries cell says `kit post`, or its title is one of the six — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call) — it sits at `Recorded` from the day the calendar was written and this step still handles it; it is **post, don't make**: no hook, no script — the
+5. **Draft each row dated this week.** **A kit post row first** (its Format or Carries cell says `kit post`, or its title is one of the six — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call) — it sits at `Ready to Post` from the day the calendar was written and this step still handles it; it is **post, don't make**: no hook, no script — the
    designed file is in the member's Offer folder; draft only its caption from chapter 7's outline (the post's
    `Caption:` line and its ask from the CALLS TO ACTION table), the platform lines, the stamp, and a one-line posting
-   note (which file, which size); never re-design or rewrite the slides; its Status stays `Recorded` (designed; only the posting is left — never downgrade it). Any other row already at `Scripted` or later: leave it and say so. For every other row, in the member's spoken voice: THE BRIEF (pillar · for whom · the story or win it carries · rung +
+   note (which file, which size); never re-design or rewrite the slides; its Status stays `Ready to Post` (designed; only the posting is left — never downgrade it; nothing was recorded; posting flips it to `Published`). Any other row already at `Scripted` or later: leave it and say so. For every other row, in the member's spoken voice: THE BRIEF (pillar · for whom · the story or win it carries · rung +
    the word) · THE HOOK —
    3 WAYS (styles labeled: question · contrarian · number/stakes · mistake · callout · curiosity-gap; the strongest
    marked with one line why; never three of the same) · THE SCRIPT (talking head: word for word, 30–60 seconds,
@@ -119,9 +119,10 @@ message and continue.
    `[YYYY-MM-DD] · Week Plan` in `03 · Content/Short-Form/[YYYY-MM · Month]/` (find-or-create the month folder), and
    keep its text at `~/attraction-brain/exports/week-plan-YYYY-MM-DD.txt` (the Brain Board reads this week's rows
    from it; its date is the next run's "since"). Before pushing, re-check the cloud for a newer copy of each Brain
-   file and re-apply on top; push via `attraction-brain-sync` (or the storage connector into `01 · AI
-   Brain/_engine/`, preserving subfolders — `exports/` included) and confirm the new copy exists — the push
-   re-renders the member's Brain Board. If the push fails after one retry, the last section says the week is NOT
+   file and re-apply on top; push via `attraction-brain-sync` marked as the run's closing push (or the storage
+   connector into `01 · AI Brain/_engine/`, preserving subfolders — `exports/` included) and confirm the new copy
+   exists — the push rebuilds the member's Brain Board and refreshes their Brain Book's "What's next" page; keep the
+   two links it returns for the report. If the push fails after one retry, the last section says the week is NOT
    saved and includes the drafts in full. Never write `pipeline.md`, `top-50.md`, `conversations.md`,
    `organization.md`, `debriefs.md`, `proof.md`, or any other identity file; never move a stage; never rewrite a Game
    Plan section.
@@ -132,7 +133,7 @@ message and continue.
    the address in `identity/profile.md`, else the signed-in account's own) — subject: "Your week is drafted — [n]
    posts on your board", body: the same two or three lines (the posts, the stories, any recognition post and whose
    OK it needs — "plus a welcome post for Priya — needs her OK") and the doc link; never to anyone else, never a
-   campaign, never a second message; `no`, `not offered yet`, no line, or no connected mail → skip the email silently
+   campaign, never a second message; `no`, `no (no mail connected)`, no line, or no connected mail → skip the email silently
    (the note and the board carry it); (c) **the push** — `attraction-brain-sync` PUSH, done in step 8, so the Brain
    Board shows the run. Send the email BEFORE composing the report: nothing follows the report.
 9. **Compose the report** — plain text, capitalised heads, short, omit empty sections:
@@ -147,9 +148,11 @@ message and continue.
      in Claude Design." Omit if none.
    - LEFT FOR YOU — anything undrafted and why (a story not in your bank, a win without an okay, compliance not
      set). Omit if none.
-   - One closing line: "Say 'edit my reel' once the first one is recorded and you have the editor installed, 'my
-     keyword sheet' for the replies, 'plan my attraction week' for the rhythm around these. Your Brain Board is
-     updated."
+   - One closing line: "When a Reel is filmed: open a new chat and say 'edit my reel' — your AI Editing Studio
+     (Plugin 5) edits it in your own Riverside account (not installed yet? install Plugin 5 from the same
+     marketplace, then say 'set up riverside' once). 'My keyword sheet' for the replies, 'plan my attraction week'
+     for the rhythm around these. Your Brain Board and your Brain Book are updated — here they are: [the Board link]
+     · [the Book link]." (A rebuild that failed is named plainly with "refresh my brain board" — never claimed.)
 10. **Delivery:** the report must be your FINAL output — compose it and stop; no tool calls or sync notes after it.
     NEVER post, schedule, or send anything to anyone but the one email to the member's own address — the member
     films, approves, and posts.

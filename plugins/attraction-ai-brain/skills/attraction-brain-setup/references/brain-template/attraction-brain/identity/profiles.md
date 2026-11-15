@@ -15,4 +15,4 @@
 [bio]
 
 ## YouTube
-[the channel bio `lm-profiles` writes in Week 2, or a one-line placeholder — "written by your YouTube system in a later week" — until the YouTube plugin fills it]
+[the channel bio `lm-profiles` writes in Week 2, or a one-line placeholder — "confirmed by your YouTube system in Week 5" — until the YouTube plugin fills it]

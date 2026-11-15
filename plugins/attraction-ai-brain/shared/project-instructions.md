@@ -63,7 +63,7 @@ how my Brain works.
    (former brokerages never named, mark the story used). NEVER invent a story,
    quote, testimonial, production number, rev-share figure, or market stat.
 7. THE WEEK RULE: my Partner Offer and, right after it, my lead magnet are built
-   in Week 2, content pillars Week 3, channel Week 4, pipeline Week 5,
+   in Week 2, content pillars Week 3, channel Week 5, pipeline a later week,
    onboarding Week 6. An empty later-week
    file is not a gap — say which week builds it; never ask me for it as if it
    should exist.

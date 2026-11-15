@@ -156,6 +156,19 @@ write, and always before a render.**
    board, say so once (*"your Brain Board couldn't rebuild this time — it will on the next save"*), and move
    on — a board that is a day old is not a lost write; never write the board by hand. Demo brains render
    with `--week` and `--today` as the demo asks.
+4b. **The sitting's close — hand over the Board AND the Book (the owner, 2026-11-14).** When the calling skill marks
+   this push as its sitting's CLOSING push (a weekly system's setup just finished: the Lead Magnet sitting, the
+   Short-Form sitting, the YouTube sitting, and the later systems), then after step 4's Board render: run the Book's
+   **What's-next refresh** (`attraction-brain-setup`'s refresh mode, `shared/brain-book-spec.md` → Regeneration rules:
+   Section 9 only, Sections 1 to 8 carried over untouched, about a minute) and **return both links to the calling
+   skill** — the Board (`01 · AI Brain/🧠 [Name]'s Brain Board — [date].html`) and the Book (`01 · AI Brain/`, its
+   dated name). The calling skill says the hand-over line before its breadcrumb: *"Your Brain Board and your Brain
+   Book are updated — here they are: [Board link] · [Book link]. Download the Board and open the file; it opens in
+   your browser."* — then what the member will see on it (the system's dot green, its page). When the session can
+   show a file in the chat, show the Board file itself as well as the link. Never claim an update that did not
+   happen: a Board or a Book that could not rebuild is said plainly with the phrase that retries it ("refresh my
+   brain board" · "show me my Brain"), and the previous copy's link is handed over instead. Once per sitting,
+   never per push; a demo Brain gets the same close (its files carry the DEMO tag).
 5. Update **Last synced** in `config.md` (and push config too when it changed).
 6. Confirm quietly: *"Saved to your Drive."* / *"Saved to your OneDrive."*
 

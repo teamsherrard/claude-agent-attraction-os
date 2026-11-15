@@ -6,7 +6,7 @@ Read in full before building any piece.
 
 Build each piece as its OWN frame at the exact pixel dimensions below, clearly labelled with the
 platform + size, grouped by platform, so the member can export each one ready to post. Respect every
-safe area. Only build the platforms the member selected.
+safe area. Build all four platforms, always (Instagram, Facebook, LinkedIn, YouTube).
 
 **The size contract:** each frame's canvas is EXACTLY the stated pixels — never letterboxed, padded,
 or "close" — and type is sized for the piece's real display size. A wrong-sized frame is a failed
@@ -15,6 +15,10 @@ piece no matter how pretty it is.
 **Screens only.** Every piece here reaches an agent on a screen — no business cards, signs, flyers,
 postcards, letterhead or brochures, no print bleed, no CMYK. This is a coaching brand for agents, not
 a realtor brand for consumers: no house, roof, key, skyline or "sold" cue on any piece.
+
+**The photo you actually have.** Wherever a spec below says "cut-out", read it through the craft
+standard's §6: a true cut-out only when the file itself has a see-through background; a normal headshot
+is framed or run as a panel — never faked into a cut-out.
 
 **Build in priority order** (so an interrupted run still leaves a usable core): 1) profile pictures,
 2) banners, 3) the three post templates, 4) stories, 5) highlight covers, 6) the one-pager cover,
@@ -56,7 +60,7 @@ SUMMARY table (chapter 1), placed:**
 7. The **CTA button** — "Book a call with me" (the booking line of chapter 1's `Next step` row,
    verbatim). *(what to do next)*
 8. The **contact line** — booking link · @handle (· email).
-9. The **member's photo, large** — the cut-out (see photo treatment).
+9. The **member's photo, large** — the cut-out, or the panel for a normal headshot (see photo treatment).
 10. The **compliance strip** — brokerage name and license exactly as the brief's compliance line requires, the brokerage chip anchored in a corner or the contact cluster if required — the single
     thin, least-important line on the banner.
 11. A **rich background** — the member's treated culture photo when provided, else the brand gradient +
@@ -64,8 +68,9 @@ SUMMARY table (chapter 1), placed:**
 
 If any of items 2–10 is missing, the banner is WRONG — add it before presenting.
 
-**Photo treatment (fix the "weird headshot").** A clean **cut-out of the member (background removed)**
-placed in its own column and sized large, OR a straight rounded-rectangle photo panel — NOT a tall
+**Photo treatment (fix the "weird headshot").** A clean **cut-out of the member** placed in its own column and sized large — only when the file truly has a
+see-through background — OR, for a normal headshot, a straight rounded-rectangle photo panel (the craft
+standard's §6: never fake a cut-out) — NOT a tall
 awkward arch, a partial outline, or an odd mask. **THE FULL-HEAD RULE:** the ENTIRE head is visible —
 top of the hair to the shoulders — with clear air above. If the composition would clip the head, scale
 the photo DOWN or reposition it. Expressive shots on content pieces; the clean headshot on trust pieces.
@@ -96,8 +101,8 @@ the photo DOWN or reposition it. Expressive shots on content pieces; the clean h
 columns. **LEFT (~30%):** logo + role line + who-you-help row, stacked, at banner-row weight. **CENTRE
 (~40%):** the name huge + the positioning line + the CTA button with the contact line under it + the
 proof chip — the full cluster, together, aligned. **RIGHT (~30%): THE PHOTO COLUMN — reserved
-exclusively for the cut-out.** No button, text, or logo may enter the photo column, and the photo may
-not leave it — that boundary is what kills the recurring truncated-button failure. The cut-out fills its
+exclusively for the photo (the cut-out, or the panel for a normal headshot).** No button, text, or logo may enter the photo column, and the photo may
+not leave it — that boundary is what kills the recurring truncated-button failure. The photo fills its
 column bottom-anchored, full head with air. The compliance strip runs along the bottom edge of the
 left or centre column, never under the photo. (Instagram has no banner; its profile is the picture, the
 bio, and the highlight covers.)

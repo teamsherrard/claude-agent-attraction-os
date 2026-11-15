@@ -51,21 +51,23 @@ waits; one of the two present → build the stops it gives and flag the rest. A 
 the kit marks "not set up yet" / "ask me" becomes an **"ask me" line** on the card ("the weekly call:
 ask me for the day — it starts with my first partners"), never a blank and never a guess.
 
-**The intake (pruned of everything the kit answers; one confirmation line above it — "From your kit:
-Taylor Brooks · The Lakeline Collective · Day 1 checklist (5 lines) · four weeks mapped · Tuesday call ·
-first lesson: The Sunday Follow-Up — say the word to change any of these"; every creative choice has a
-"Decide for me"; end with "Your turn."):**
+**The opening — told, not asked (there is no intake form).** One line — *"From your kit: Taylor Brooks · The
+Lakeline Collective · Day 1 checklist (5 lines) · four weeks mapped · Tuesday call · first lesson: The Sunday
+Follow-Up. Building your roadmap now."* — then build. What you look for, and the default when it is not
+there (never shown as questions):
 
-1. **Your Week 3 Kit** *(if not already in this project; newest date wins)* — the roadmap reads your
-   welcome pack and your first-30-days line from it.
-2. **Your community** *(only when your kit doesn't name it)* — what it's called and how a new partner
-   gets in. "Not set up yet" is a real answer — it becomes an "ask me" line.
-3. **Who to message when stuck** *(default: you — or the person in your organization who onboards)*.
-4. **A real photo** *(optional — drop it into the CHAT)* — you with your agents at a training, the
-   weekly call on screen. Never stock.
-5. **Anything to feature or avoid?** *(optional)*.
+1. **The Week 3 Kit** *(required; newest date wins)* — in the project, or read through the Drive
+   connector; the roadmap reads the welcome pack and the first-30-days line from it. Truly nowhere →
+   one plain line: *"Your first 30 days come from your Week 3 Kit — in Cowork say 'build my partner
+   offer'; the kit comes at the end of that sitting. Then upload it here."*
+2. **The community** — what it is called and how a new partner gets in, from chapter 2's stack row.
+   The kit doesn't name one → an "ask me" line on the card; never asked.
+3. **Who to message when stuck** — the member, or the person the kit or the Book names as the one who
+   onboards.
+4. **A real photo** — whatever is in the chat and the project: the member with their agents at a
+   training, the weekly call on screen. None → brand fields; never stock.
 
-"Just make it" = zero further questions; name your assumptions in one line and build.
+Name any assumption you made inside your one opening line, and build.
 
 ## THE PIECES & TRUE SIZES (`playbook-specs.md` §3 applies to all three)
 

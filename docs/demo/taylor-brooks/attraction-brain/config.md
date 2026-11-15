@@ -39,7 +39,7 @@ connector for storage + email + calendar (`shared/connectors.md`). Email is draf
 - [ ] **Zoom** — meeting links on partner calls *(demo: Zoom is the call room; Google Meet is the fallback)*
 
 ## Later plugins register here (one block each, written by that plugin's setup; the Brain never edits them)
-*Lead Magnet (Week 2) · Short-Form (Week 3) · AI Editor (Week 3) · YouTube (Week 4) · Conversion & Sales (Week 5) ·
+*Lead Magnet (Week 2) · Short-Form (Week 4) · AI Editor (Week 4) · YouTube (Week 5) · Conversion & Sales (a later week) ·
 AI Admin (Week 5) · Events (Week 6). An empty block means "not installed yet", never "broken".*
 
 ## Short-Form (Week 4) — demo

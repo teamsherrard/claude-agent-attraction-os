@@ -4,14 +4,14 @@ description: >
   The Short-Form Game Plan for attracting agents, Week 4's flagship document. Reads the member's kit
   (the six designed posts, the calls to action) and the offer's content branches first, then writes
   positioning for short-form (who they attract, the one line, the two keywords and CTAs), five
-  pillars with three angles each, the mix and cadence, a 30-hook bank, the comment-to-DM flow, a
-  dated 30-day calendar that opens with the six kit posts ("post, don't make") then the Reels, the
-  Friday numbers, the scheduled workflows, next steps. Gated; saved to the workspace; the pillars,
-  publishing lines and calendar written into the Brain. Runs inside setup or on demand; re-runs
-  update, never rebuild; the Monthly Calendar Refill is its scheduled mode. Trigger on: "build my
-  short-form game plan", "my attraction short-form game plan", "short-form game plan for agents",
-  "plan my next 30 days of reels", "update my short-form game plan", "refill my attraction calendar",
-  "turn on my calendar refill".
+  pillars with three angles each, the mix and cadence, a 30-hook bank, the comment-to-DM flow with
+  ManyChat told (never asked), a dated 30-day calendar that opens with the six kit posts ("post,
+  don't make") then the Reels, what we measure, the scheduled workflows, next steps. Gated; saved to
+  the workspace; the pillars, publishing lines and calendar written into the Brain. Runs inside setup
+  or on demand; re-runs update, never rebuild; the Monthly Calendar Refill (the last Friday, 5:00 pm)
+  is its scheduled mode. Trigger on: "build my short-form game plan", "my attraction short-form game
+  plan", "plan my next 30 days of reels", "update my short-form game plan", "refill my attraction
+  calendar", "turn on my calendar refill".
 ---
 
 # Short-Form Game Plan — the flagship document of Week 4
@@ -53,25 +53,29 @@ and only where the member's own material leaves a pillar short — the rank ther
 
 ## Three ways it runs
 - **Inside setup** (`sf-setup` Step 3 — the normal Week 4 path): the member just heard *"now I'm going to build
-  your Short-Form Game Plan"*; the two keywords and the profiles are already confirmed. Build the plan with at most
-  **two short stops** (the pillars block, the cadence word), deliver, save, anchor, then hand straight back to
-  setup (the board is next). No menu, no "come back later".
+  your Short-Form Game Plan"*; the two keywords, the platforms and the profiles are already confirmed. Build the
+  plan with **no stop and no question** (the owner, 2026-11-14: all the member says in the sitting is the consent card's one Yes) — the pillars and the cadence are stated in one short message and the plan is built in the same reply; ManyChat is told,
+  never asked (Phase 5) — deliver, save, anchor, then hand straight back to setup (which hands over the ManyChat
+  build sheet, then the board). No menu, no "come back later".
 - **On demand** — **BUILD** when no `## Game Plan anchors` block exists in `content-pillars.md`; **UPDATE** when
   one does ("update my short-form game plan", "plan my next 30 days of reels"): refresh only what changed (a new
   30-day calendar from the day after the last mapped date; new research; a pillar the member asked to change),
   keep every section they confirmed, save a new dated copy — **update, never rebuild.** "Plan my next 30 days of
   reels" is UPDATE mode scoped to section 6 (and the board, if they have one).
 - **Scheduled — the Monthly Calendar Refill** (task id `attraction-sf-calendar-refill`; the last Friday of the
-  month; the prompt `${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/references/calendar-refill-task-prompt.md`, verbatim):
-  UPDATE scoped to section 6, run unattended — the next thirty days from the pillars, the branches and what
-  performed, the board refilled, draft-only, nothing posted; **every run ends with a push** so the Brain Board shows
-  it. Created only on the member's yes (setup's consent card, where it is recommended on, or "turn on my calendar
-  refill" / "refill my attraction calendar" said in chat): `list_scheduled_tasks` first (adopt, never a twin), else
-  `create_scheduled_task` with the prompt verbatim, verify (present, enabled, a `nextRunAt`), write `Calendar Refill
-  task: attraction-sf-calendar-refill` to `config.md → ## Short-Form (Week 4)` (an older `(Week 3)` heading is the
-  same block), push. "Not now" → `Calendar Refill task: declined`, never re-offered, available on demand. Stoppable
-  in one sentence ("stop my calendar refill" → the task deleted or disabled, the line → `declined`, push). Never claim
-  a schedule that did not save; a demo Brain never gets a task.
+  month, 5:00 pm; the prompt
+  `${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/references/calendar-refill-task-prompt.md`, verbatim): UPDATE scoped to
+  section 6, run unattended — the next thirty days from the pillars, the branches and what performed, the board
+  refilled, draft-only, nothing posted; **the cadence step-up lives here** (the owner, 2026-11-14): when the log shows
+  a month at three Reels a week has held (three posted each of the last four weeks), the refill proposes five in one
+  line — the member's word ("five a week") flips `Cadence:` through an UPDATE run, never the refill itself; **every run
+  ends with a push** so the Brain Board shows it. Switched on by setup's one Yes (the consent card), or by phrase
+  ("turn on my calendar refill" / "refill my attraction calendar" — a statement, never an offer): `list_scheduled_tasks`
+  first (adopt, never a twin), else `create_scheduled_task` with the prompt verbatim, verify (present, enabled, a
+  `nextRunAt`), write `Calendar Refill task: attraction-sf-calendar-refill` to `config.md → ## Short-Form (Week 4)` (an
+  older `(Week 3)` heading is the same block), push. "Stop my calendar refill" → the task deleted or disabled, the line
+  → `paused`, push, one line; still available by its phrase. Never claim a schedule that did not save; a demo Brain
+  never gets a task.
 
 ## Step 1 — Load the Brain (read; never re-ask)
 Read `~/attraction-brain/brain.md` first (pull with `attraction-brain-sync` if the local copy is missing — a tool
@@ -120,8 +124,13 @@ Same structure, same gate.
   setup-time Game Plan makes zero calls to it (`shared/composio-data-engine.md`, "never during setup"); web
   search only. Research unavailable or empty → build from the Brain, label the affected rows `unresearched`,
   say so once in the Read-this-first, and put the re-run on next steps. Never invent a demand signal.
-- **The stops: at most two in setup** (the pillars block · the cadence word), plus the ManyChat question only
-  when `publishing.md` has no answer yet. Everything else is proposed from the Brain and stated, never asked.
+- **No stops in setup (the owner, 2026-11-14: "all that the student has to say is 'Yes'" — and that one Yes is the
+  consent card's, in `sf-setup` Step 5).** The pillars and the cadence are STATED in one short message and the plan is
+  built in the same reply — never a Yes line, never a wait: *"Your five pillars, from your offer: [one line each]. Your
+  week: three posts a week — your first two weeks are the six posts you already have designed. I'm building your Game
+  Plan on these now; tell me any time if you want one changed."* ManyChat is told, never asked (Phase 5); the platforms
+  are stated (Phase 3); nothing is asked. A member who names a change gets it applied and the document rebuilt
+  ("update my pillars" · "change my cadence").
 
 ---
 
@@ -151,7 +160,7 @@ brokerage never the reason). No kit → the same two built from `magnets.md` and
 labeled "(from your Brain — your kit's wording replaces it)". **Why I'm building this** — the why-line from
 `journey.md`, verbatim or drafted and labeled (`01-foundation-mindset/10`). Never a question box.
 
-## Phase 2 — The five pillars, three angles each (section 2 · 400+ words) — ONE stop
+## Phase 2 — The five pillars, three angles each (section 2 · 400+ words) — stated, never a stop
 **Lazy-load doctrine §5–§6.** **Read now:** `identity/story-bank.md` · `proof.md` (consent column) · `brand-visual.md`
 (the "leader brand vs selling brand" line) · `brokerage-model.md` (facts only; never a figure) · `memory/ideas.md`
 (tags `shortform` · `story`; the `## Past content (imported)` section's `pillars:` note — how they post today —
@@ -180,22 +189,23 @@ former brokerage never named (`06-content-framework/39`, `/40`) · Proof = agent
 otherwise first name or initials), the weekly call, the training, the events — "it's not us saying our culture is
 incredible, you're seeing it" (`06-content-framework/38`); zero proof → one honest line and the upline's proof
 labeled as the upline's · Personality = passions, routines, family lines they are willing to share (`07-instagram/88`,
-`/89` — the patio-beer test). **If the Brain holds nothing for Personality**, this is the one stop of questions in
-the phase (2–4 together): *"Three quick ones so your personal side isn't a blank: (1) What do you do outside real
-estate that other agents would relate to — sport, family, faith, a hobby? (2) One routine or discipline you keep?
-(3) Anything that's off-limits to post? Your turn."* Hesitation → propose from the Brain, let them confirm in a word.
-Present the five as **one block** (name · summary · the three hooks), then: *"That's your plan. Your turn — say
-'good' or tell me what's off."* On the yes, **write `identity/content-pillars.md` now** in the contract's shape
+`/89` — the patio-beer test). **If the Brain holds nothing for Personality**, never a question in the
+sitting: draft the three angles from what the Brain does hold (the profile's "before real estate" line, the journey,
+the WHY) and label them *"(draft — tell me what you do off the clock and I'll sharpen these)"*; on demand ("update my
+pillars") one plain question at a time fills them.
+**State the five in one short message — never a Yes line, never a wait** (the owner, 2026-11-14): *"Your five pillars,
+from your offer: [one line each]."* — it runs straight into Phase 3's line and the plan is built in the same reply;
+a member who names a change gets it applied and the document rebuilt. Then **write `identity/content-pillars.md` now** in the contract's shape
 (the template's header lines kept and filled · the one-line anchors · the five sections headed exactly by the
 pillar names, three angles each · `## Game Plan anchors` · `## Weekly mix` · `## Hooks bank`), **push, verify.**
 *"Saved — your pillars are in your Brain."* (Inside setup the header lines `Cadence` and `The two CTAs` line 2
 fill at Phases 3 and 5 of this same run.)
 
-## Phase 3 — The format mix and the weekly cadence (section 3 · 200+ words) — ONE word
+## Phase 3 — The format mix and the weekly cadence (section 3 · 200+ words) — stated, never a stop
 **Lazy-load doctrine §7, §9b, §9d.** **Read now:** `identity/goals.md` (the hours per week committed in Week 1;
 its `Content:` line defers to this plan — never ask for hours the Brain holds) · `strategy.md` (`Constraints /
 capacity`, already open) · `operations.md` (`Filming window:`, already open).
-Propose, from those: **the number — three Reels a week is the default for the first month** (the owner, 2026-11-14: twenty posts at once overwhelms; Mike's own path is three to five, working up to five — `07-instagram/88`); propose five only when `goals.md`'s hours carry it or the member asks, and let the Friday note propose the step to five once a month at three has held; honest capacity outranks ambition · **the mix** — *"one attraction · one authority · one story at three a week (2 · 2 · 1 at five), stories daily —
+Propose, from those: **the number — three Reels a week is the default for the first month** (the owner, 2026-11-14: twenty posts at once overwhelms; Mike's own path is three to five, working up to five — `07-instagram/88`); five only when the member names it — the step to five is proposed by the Monthly Calendar Refill and the Monthly Deep Dive once a month at three has held, never here; honest capacity outranks ambition · **the mix** — *"one attraction · one authority · one story at three a week (2 · 2 · 1 at five), stories daily —
 the OS default"* (label it exactly so; attraction = Proof + Personality, authority = Authority
 + Perspective, story = Story — doctrine §9d; Mike's sample week — Monday value · Tuesday recognition · Wednesday
 leadership insight · Thursday culture or event recap · Friday personal or opinion — `07-instagram/90` — is the
@@ -203,14 +213,18 @@ fallback shape when their number is lower) · **the formats and what each is for
 batchable core, 30–60 s, hook → value → one CTA, raw is better than polished — `07-instagram/90`), the green screen (a take
 on brokerage or industry news, facts with a source, never a dig), the carousel (the no-filming format; a LinkedIn
 document post when the member attracts team leaders or broker-owners), stories (one to five a day, never a day
-without — `07-instagram/89`) · **the platforms in priority order** (Instagram Reels first; one video reposted to
-TikTok, YouTube Shorts, Facebook Reels — `07-instagram/90`; LinkedIn for the carousel) · **the batch day** (Mike's
+without — `07-instagram/89`) · **the platforms — stated, never asked** (the owner, 2026-11-14; the doc's line reads
+*"Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when you attract
+team leaders; TikTok and YouTube Shorts take the same video any time you want more reach"* — Facebook Reels is the
+same video reposted; TikTok and Shorts are optional reposts, nothing new to make; LinkedIn on only when
+`identity/avatars.md` includes team leaders or broker-owners, otherwise one line that it stays off; Mike's lesson that
+one video covers every short-form platform — `07-instagram/90` — is the why) · **the batch day** (Mike's
 simple week: Monday plan · Tuesday record one to two hours · Wednesday edit · post or schedule from Thursday — or his
 alternate Saturdays; fitted to the filming window) · **the 15-minute routine** (same time every day: reply to every
 comment with a question, answer every DM the same day, tag the agents featured so they reshare, one interactive
 story element, five real comments on agents' posts in the lane, never a negative one — an OS default built on
 `07-instagram/89` and `05-big-picture/36`).
-Confirm in one word: *"Default plan: three Reels a week — one attraction, one authority, one story — stories every day; batch day [day]. Keep it, or change the number?"* (at five a week the mix reads one attraction · one authority · one story at three a week (2 · 2 · 1 at five)) Then write `Platforms (priority order):` · `Cadence:` · `Weekly
+Stated, never a stop (the owner, 2026-11-14): *"Your week: three posts a week — your first two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a week, stories every day; batch day [day]. I'm building your Game Plan on these now; tell me any time if you want one changed."* (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
 mix:` · `Batch day(s):` to `publishing.md` (the source), mirror `Cadence` and `Platforms` into `content-pillars.md`'s
 header lines and `## Weekly mix`, and write the batch day and time to the single `Filming window:` line of
 `identity/operations.md` (this plugin's one write there, by the Brain contract's permission — the mirror of
@@ -244,14 +258,20 @@ at most once a month (an OS rule: the call comes after a conversation — doctri
 say as little as you have to in text; the model is explained on a call, never in a DM). The ask map by pillar
 (Authority → Comment / Resource · Perspective → Follow / save / share · Story → DM · Proof → DM · Personality →
 Follow only), five spoken ask lines in the member's voice — one per pillar, each ending on GUIDE or the offer's
-word, never a third. **The one question, only if `ManyChat:` is still empty:** *"Do you use ManyChat? Your two
-words import into your own account — optional. Without it they still work: you reply by hand, and the keyword
-follow-up queue, when you switch it on, surfaces the comments it can see — through a connected Instagram — or the ones you paste. Your turn."* Write `Keyword:` (if this run
-set it) · `What it opens:` (GUIDE → the guide's title · [WORD] → the one-pager and the call) · `ManyChat:`
-(`set up YYYY-MM-DD` / `not yet — replying by hand` / `declined`) to `publishing.md`; mirror the two words and
-what each opens into `content-pillars.md`'s `The two CTAs` line 2. The full CTA bank, the DM copy bank and the
-ManyChat paste sheet stay `sf-comment-to-dm`'s — one line at the end of the section: *"the ask lines and your DM
-replies: say 'my keyword sheet'."*
+word, never a third. **ManyChat — told, never asked (the owner, 2026-11-14); the section's ManyChat line reads, in
+this shape:** *"ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free
+plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates
+from your Materials folder, put GUIDE and [WORD] in with your links — your build sheet walks you through it step by
+step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live,
+reply by hand from your DM bank."* Never a question, never an opt-out, never "connected". Write
+`Keyword:` (if this run set it) · `What it opens:` (GUIDE → the guide's title · [WORD] → the one-pager and the call)
+to `publishing.md`; the `ManyChat:` line is written by `sf-comment-to-dm` (Job E — `not yet — set it up this week
+(build sheet YYYY-MM-DD)` when the sheet is written, `set up YYYY-MM-DD` on the member's word that it is live; inside
+setup the build sheet is handed over right after this plan) — this plan writes the line only when it is still empty
+and the sheet does not exist yet, as `not yet — set it up this week`; mirror the two words and what each opens into
+`content-pillars.md`'s `The two CTAs` line 2. The full CTA bank, the DM copy bank and the ManyChat Build Sheet stay
+`sf-comment-to-dm`'s — one line at the end of the section: *"the ask lines and your DM replies: say 'my keyword
+sheet'; the ManyChat steps: 'my ManyChat build sheet'."*
 
 ## Phase 6 — The 30-day calendar (section 6 · 400+ words · twelve dated rows at the default three a week (twenty at five), the six kit posts among them)
 **Lazy-load doctrine §9b–§9d and `${CLAUDE_PLUGIN_ROOT}/skills/sf-talkinghead/references/calendar-guide.md`
@@ -261,7 +281,9 @@ never a week of it).** **Read now:** `memory/intel.md` (dated, sourced news for 
 `memory/content-performance.md` (what worked — skip if empty) · `memory/content-calendar.md` (UPDATE mode: the
 rows already mapped — the new window starts the day after the last mapped date; rows at `Scripted` or later are
 never rewritten).
-**The first rows are the six kit posts — "post, don't make."** They were designed in Claude Design in Week 3, so
+**The first rows are the six kit posts — "post, don't make."** In the doc they sit under the band **GRAPHICS — THE
+SIX POSTS YOU ALREADY HAVE (post, don't make — the Graphics tab on your board)**; the Reels follow under **REELS — [n]
+rows at your cadence (the Reels tab)** (the owner, 2026-11-14). They were designed in Claude Design in Week 3, so
 nothing is written for them here: rows 1–6 carry the kit's posts in the kit's order (Post 1 — The guide · Post 2 —
 Five problems, five fixes · Post 3 — My story · Post 4 — What you get · Post 5 — Proof · Post 6 — Book the call),
 dated one every two or three days from the first posting day — the kit's own rhythm — across the first two weeks;
@@ -270,7 +292,7 @@ dated one every two or three days from the first posting day — the kit's own r
 Authority · my story → Story · what you get and proof → Proof · book the call → Proof, the call rung) · **working
 title** the post's name · **hook** the post's slide 1 or headline, verbatim · **CTA** the post's ask as the kit
 wrote it (`Comment · GUIDE` for the guide ask; `Call · [the offer's word]` for the call ask — the kit's call posts
-keep their ask; the once-a-month call rule counts the Reels) · **carries** `kit post n` · Status **`Recorded`** (the copy is final and the file exists — nothing to draft or film, only the caption to paste and the posting; the Monday Week Plan counts them as "post, don't make", the board seeds them as cards) · a System ID like every row. No kit → no kit rows, said once in the Read-this-first.
+keep their ask; the once-a-month call rule counts the Reels) · **carries** `kit post n` · Status **`Ready to Post`** (the owner, 2026-11-14: a designed post never gets the filmed status — nothing was recorded; the copy is final and the file exists — nothing to draft or film, only the caption to paste and the posting; the Monday Week Plan writes their captions and leaves the status; posting flips them to `Published`; the board seeds them as cards on the Graphics tab) · a System ID like every row. No kit → no kit rows, said once in the Read-this-first.
 **Then the Reels. Say this once, then run the pass:** *"Give me a few minutes — I'm checking what agents in your lane
 are asking right now; about [N] searches, then your calendar."* ([N] = the real number inside the ≤ 8.) Demo mode:
 no line, no searches. Then fill the remaining posting days of the four weeks with `sf-ideas`' method and order so the month holds **twelve rows at the default three a week (twenty at five) — the six kit posts counted among them, so the first month asks for six Reels filmed**: **the UVP's content
@@ -293,39 +315,42 @@ append the new window below the old, never rewriting a row at `Scripted` or late
 rows are not logged to `content-log.md` — a row enters the log when a piece is scripted (the Monday Week Plan or a
 content skill writes it); a kit post's row enters the log when it goes out.
 
-## Phase 7 — What we measure and the Friday check (section 7 · 100+ words)
-The five numbers `sf-analytics` reads every Friday — people who saw you · Reels posted of the cadence · story days
-of seven · keyword comments · conversations started (from the log) — plus calls booked from content once the
-funnel ledger exists; the member's own median is the benchmark, never a borrowed one; growth is today minus the
-last baseline. One line on where the numbers come from (live data once connected after setup, the posting tool,
-or "add my numbers" screenshots — never estimated, "not available" is a real value). The compliance line from
-Step 1b. Views are not the score; conversations are.
+## Phase 7 — What we measure (section 7 · 100+ words)
+The section opens *"Any time you ask 'how's my content doing', and each month in your deep dive, five numbers: …"*
+(the owner, 2026-11-14 — no weekly note): people who saw you · Reels posted of the cadence · story days of seven ·
+keyword comments · conversations started (from the log) — plus calls booked from content once the funnel ledger
+exists; the member's own median is the benchmark, never a borrowed one; growth is today minus the last baseline. One
+line on where the numbers come from (live data once connected after setup, the posting tool, or "add my numbers"
+screenshots — never estimated, "not available" is a real value). The compliance line from Step 1b. Views are not
+the score; conversations are.
 
 ## Phase 8 — Your scheduled workflows (section 8 · 100+ words)
 **Read now:** `config.md` (the `## Short-Form (Week 4)` block — an older `## Short-Form (Week 3)` heading is the
-same block — its task lines and `Email me:`; a missing block or `not offered yet` = "offered at the end of setup").
+same block — its task lines and `Email me:`; a missing block = the workflows are switched on at the end of setup).
 Describe them in plain words, by the brief's names, each with when it runs, what it produces, and that it only
-drafts — **the six recommended**: the **Monday Week Plan** (Mondays, the member's hour — this week's scripts,
-captions and stories drafted onto the board with a week brief, and any welcome or win post the week earned) ·
-**Sunday Batch Prep** (the evening before the batch day — the teleprompter doc: this week's scripts grouped by
-outfit and location, hooks three ways, the keyword on each) · the **Daily Engagement List** (each weekday morning —
-ten agents to engage with today, one comment starter each) · the **Brokerage News Watch** (Wednesdays — three to six
-real headlines, each with a 30-second green-screen take) · the **Friday Performance Note** (Fridays, the Friday slot
-— what started agent conversations, the one change, next week's rows (three at the default cadence, five at five), the post to repurpose) · the **Monthly
-Calendar Refill** (the last Friday of the month — the next thirty days from the pillars, the branches and what
-performed, the board refilled; this skill's scheduled mode) — then **the extras in one sentence** (the Keyword
-Follow-up Queue, the Mid-week Nudge, the Monthly Deep Dive, the Daily Stories Prompt, the Quarterly Profile Audit —
-"say the word any time"), and whether the member asked to be emailed when something is ready (`Email me:`). State
-each one's status honestly from `config.md`: *on since [date]* · *offered at the end of setup — recommended on* ·
-*declined* · *say the word any time*. Nothing posts, sends, schedules, or moves a stage on its own.
+drafts — **the four switched on**: the **Monday Week Plan** (Mondays, 7:00 am — this week's scripts, captions and
+stories drafted onto the board with a week brief, and any welcome or win post the week earned) · **Sunday Batch
+Prep** (the evening before the batch day, 6:00 pm — the teleprompter doc: this week's scripts grouped by outfit and
+location, hooks three ways, the keyword on each) · the **Wednesday Brokerage News Watch** (Wednesdays, 8:00 am — three
+to six real headlines, each with a 30-second green-screen take, on the board) · the **Monthly Calendar Refill** (the
+last Friday of the month, 5:00 pm — the next thirty days from the pillars, the branches and what performed, the board
+refilled; this skill's scheduled mode) — then **the five extras in one sentence** (the Keyword Follow-up Queue, the
+Mid-week Nudge, the Monthly Deep Dive, the Daily Stories Prompt, the Quarterly Profile Audit — "they're there if you
+want them; say the word any time"), and the email line as a statement — *"I'll email you a short note at your own
+address when something's ready"* (`Email me: yes`), or *"no mail is connected yet, so your notes stay in Cowork"*
+(`no (no mail connected)`). State each one's status honestly from `config.md`: *on since [date]* · *switched on at
+the end of setup* (no block yet) · *stopped* (`paused`) · *say the word any time* (`later`). Never "offered at the
+end of setup", never the two workflows retired on 2026-11-14. Nothing posts, sends, schedules,
+or moves a stage on its own.
 
 ## Phase 9 — Next steps (section 9 · 50+ words)
 Inside setup: *"Next: your content board and these 30 days mapped onto it, then your workflows, then your first
 Reel."* On demand: the six kit posts, posted as dated (*"your first two weeks are post, don't make"*), the first
 Reel (*"script my first attraction reel"* — the first talking-head row after the kit posts), the board (`sf-board`
-— map the calendar, or update it), the keyword sheet (`sf-comment-to-dm`), the film day (`sf-batch-publish`), and
-the research re-run if any row is `unresearched` (*"what are agents asking right now"*). If compliance is `unset`:
-the one line that sends them to the gate before anything posts.
+— map the calendar, or update it), the keyword sheet (`sf-comment-to-dm`), the film day (`sf-batch-publish`), the
+research re-run if any row is `unresearched` (*"what are agents asking right now"*), and the performance read any
+time (*"how's my content doing"*). If compliance is `unset`: the one line that sends them to the gate before
+anything posts.
 
 ## Phase 10 — Gate, assemble, deliver, save, anchor, hand off
 1. **The gate (hard — fix, never ship past it):** every section present at its floor (1 · 150 · 2 · 400 · 3 · 200 ·
@@ -337,8 +362,10 @@ the one line that sends them to the gate before anything posts.
    one-to-one line) · no compensation, split, cap, stock, rev-share, or income figure anywhere · no brokerage named
    other than the member's own, and that one only as `compliance.md` allows · no `[bracket]` placeholder · no
    negative word about any brokerage or person · every named agent consented · every number sourced or tagged
-   "(illustrative — demo)" · "Week 4" wherever the week is named, never "Week 3" for short-form work. Count before
-   delivering.
+   "(illustrative — demo)" · "Week 4" wherever the week is named, never "Week 3" for short-form work · section 3's
+   platform line, section 5's ManyChat line, section 6's two bands, section 7's opening and section 8's four
+   workflows in the owner's shapes (2026-11-14) — no weekly note, no engagement list, ManyChat told. Count
+   before delivering.
 2. **Assemble** on the Short-Form Game Plan skeleton in `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` §5a —
    the title and meta line, READ THIS FIRST (the verdict in three sentences · the first post to film · the
    batch day), the nine sections, the SOURCES band (every search and page read, dated; `starter` and `unresearched`
@@ -360,8 +387,8 @@ the one line that sends them to the gate before anything posts.
    `Short-form setup: game plan done`; `memory/content-calendar.md` — the window; the exports text. Push via
    `attraction-brain-sync`, verify — **the push re-renders the Brain Board**.
 6. **Hand off.** Inside setup → return to `sf-setup` Step 4 without a question (setup's close names the Brain
-   Board). On demand → *"Your Brain Board is updated. Want these thirty days on your content board? Say 'map my next
-   30 days'. Or say 'script my first attraction reel' for your first Reel."*
+   Board). On demand → *"Your Brain Board is updated. Say 'map my next 30 days' and these thirty days go onto your
+   content board; 'script my first attraction reel' scripts your first Reel."*
 
 ## Quality checklist
 - [ ] Brain read — the kit first (chapter 7's six posts and the CALLS TO ACTION table), three files at Step 1, the
@@ -369,24 +396,30 @@ the one line that sends them to the gate before anything posts.
       never touched during a setup-time run
 - [ ] Compliance three-state read first; `unset` named once on section 7 and routed after delivery, never blocking
       the private plan
-- [ ] At most two stops in setup (the pillars block, the cadence word) + the ManyChat question only when unanswered
+- [ ] No stop and no question in setup — the pillars and the cadence stated in one short message, the plan built in
+      the same reply ("tell me any time if you want one changed"); ManyChat told in the owner's shape, never
+      asked; the platforms stated, never asked
 - [ ] Section 1: who they attract, the one line, the two keywords, the two CTAs verbatim from the kit's table (the
       guide; the call in the CTA law's shape), the why — drafted and labeled where the Brain is empty, never a
       question box
 - [ ] Five pillars, exact names, three angles each, developed from the UVP's content branches and the framework's
       steps first, then the Brain — stories from the bank, proof with consent, the former brokerage unnamed; no
       angle promising the member's time per partner; the branches' absence said once when the offer predates them;
-      `content-pillars.md` written and pushed on the yes
+      `content-pillars.md` written and pushed at once (no Yes line)
 - [ ] The mix labeled "the OS default"; the number honest to the hours; the batch day fitted
-      to the filming window; the 15-minute routine present
+      to the filming window; the 15-minute routine present (the engagement routine lives here as text — never a task);
+      the platform line in the owner's shape (Instagram and Facebook both; LinkedIn only for team leaders; TikTok and
+      Shorts as optional reposts)
 - [ ] Thirty hooks, six per pillar, under 12 words, shapes varied, the member's own first, `starter` marked
 - [ ] The ladder, the ask map, the five ask lines ending on GUIDE or the offer's word, the call line in the law's
-      shape (the kit's call posts; at most one Reel a month), what each word opens; ManyChat state recorded
-- [ ] Twenty dated rows (or twelve, said plainly) — the six kit posts as rows 1–6 at `Recorded` with the kit's asks,
-      then the Reels; Week 1 establishes who they are; the calendar-guide rules kept; System IDs written; the stories
-      line, the batch plan, the three to film first; research ≤ 8, cited, dated, or `unresearched` labeled with the
-      re-run on next steps
-- [ ] Sections 7–9 present; section 8 names the six recommended workflows and the extras by the brief's names, the
+      shape (the kit's call posts; at most one Reel a month), what each word opens; the ManyChat line in the owner's
+      shape ("you don't connect ManyChat to Claude"; set it up this week; no opt-out)
+- [ ] Twelve dated rows at the default three a week (twenty at five, said plainly) — the six kit posts as rows 1–6 at `Ready to Post` under the
+      GRAPHICS band with the kit's asks, then the Reels under the REELS band; Week 1 establishes who they are; the
+      calendar-guide rules kept; System IDs written; the stories line, the batch plan, the three to film first;
+      research ≤ 8, cited, dated, or `unresearched` labeled with the re-run on next steps
+- [ ] Sections 7–9 present; section 7 opens on "how's my content doing" and the deep dive (no Friday); section 8
+      names the four switched-on workflows, the five extras in one sentence and the email note as statements, the
       statuses read from `config.md`, never assumed
 - [ ] The gate passed and counted; saved dated to `03 · Content/Short-Form`; the text kept in `exports/`; anchors,
       hooks, publishing lines, and the calendar pushed and verified (the Brain Board re-rendered); handed back to

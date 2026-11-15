@@ -155,7 +155,7 @@ Keep it simple: one community, one welcome post, one weekly call.
 Link: [the community's link once it exists — or "not set up yet"]
 
 ## Content branches
-(the UVP is the foundation of the content — all content is a branch of it; 5–7 segments, three example topics each; the Short-Form Game Plan (Week 3) and the YouTube Game Plan (Week 4) build pillars, angles and titles from these FIRST, the Brain's other signals second, their starter banks last; never a compensation topic)
+(the UVP is the foundation of the content — all content is a branch of it; 5–7 segments, three example topics each; the Short-Form Game Plan (Week 4) and the YouTube Game Plan (Week 5) build pillars, angles and titles from these FIRST, the Brain's other signals second, their starter banks last; never a compensation topic)
 - **[Segment 1 — a framework step]** — [one line: what it is] · topics: [1] · [2] · [3]
 - **[Segment 2 — a framework step]** — … · topics: … · … · …
 - **[Segment 3 — a pain in the overlap]** — … · topics: … · … · …

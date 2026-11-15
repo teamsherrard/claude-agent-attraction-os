@@ -60,7 +60,8 @@ pitch, and it breaks the cardinal rules the moment it compares).
 8. **CTA** — GUIDE (the guide ask, as above) or "save this for the next time someone tells you that."
 
 ## The LinkedIn document-post version (team leaders and broker-owners)
-When `publishing.md` lists LinkedIn or an avatar is a team leader / broker-owner, write the same piece as a
+When `identity/avatars.md` includes team leaders or broker-owners (the LinkedIn clause of `publishing.md`'s
+`Platforms` line is on — the only condition, never asked), write the same piece as a
 **PDF document post**: 8–12 pages, one idea per page, bigger type, landscape or 1080×1350. Reframe for a leader
 who carries a team: the "adult daycare" exhaustion, retention, leverage, "two steps back to take twenty forward"
 (Mike's vocabulary — the Brain plugin's `attraction-doctrine.md` §16). Plus the **post copy**: 150–200 words, a first line that stands alone

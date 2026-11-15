@@ -1,6 +1,6 @@
 # Copy Formulas — part of the aa-funnel-design skill
 
-Read while placing the copy. The copy arrives LOCKED in chapter 5 of the Week 3 Kit (and, for a Week 6
+Read while placing the copy. The copy arrives LOCKED in chapter 5 of the Week 3 Kit (and, for a later week's
 registration page, in the event document) — these formulas are the FALLBACK for the rare page with no
 kit, and the discipline you hold the layout to. Never offer "2–3 headline options" when the kit exists.
 The kit's labelled lines tell you what each element is; the label itself never prints.
@@ -12,7 +12,7 @@ The kit's labelled lines tell you what each element is; the label itself never p
 - The opt-in page's Book-a-call area: SECTION 10's `CTA button:` line, verbatim — a booking button when a
   link exists, "Message me on Instagram" (or whatever the kit says) until then. The only button on the
   opt-in page that isn't the opt-in's. The thank-you's call line is `The call, offered:`, verbatim.
-- Workshop registration (Week 6): **"Save my seat"** (or the event document's phrase, verbatim).
+- Workshop registration (a later week): **"Save my seat"** (or the event document's phrase, verbatim).
 - The thank-you's download button names the ACTUAL guide: *"Download the Five-Step Sunday Routine"* —
   never a generic "your guide".
 - The call, offered on the opt-in thank-you (the kit's line, in this register): *"Want to talk through
@@ -48,7 +48,7 @@ never estimate a figure. Vague reads as recruiting; specific reads as a leader.
 
 - Fields: **First name · Email · Phone** — three, nothing else; never "brokerage", never "production"
   (the opt-in shape adds ONE optional dropdown — `years licensed`, or `where are you today: new · 1 to 3
-  years · 3 plus` — ONLY when the kit's `Optional qualifier:` line isn't `off`; a Week 6 registration
+  years · 3 plus` — ONLY when the kit's `Optional qualifier:` line isn't `off`; a later week's registration
   page adds the event document's one sorting question, "Which best describes you?", and the one-thing
   question when the document carries it — never more than five fields).
 - **The honest contact line under Phone**, from the kit: *"I'll text or call once to make sure you got
@@ -100,7 +100,7 @@ two headings you may set in this area; everything under them is the kit's words.
 ## THE GOHIGHLEVEL-READY BLOCKS (the `page-copy.md` shape)
 
 ```
-PAGE COPY — [Guide name]   (a Week 6 registration page: PAGE COPY — [Workshop name])
+PAGE COPY — [Guide name]   (a later week's registration page: PAGE COPY — [Workshop name])
 [Name] · [Brokerage as required] · [Date]   ·   Use these blocks in the page's order.
 
 ── TOP BAR ──

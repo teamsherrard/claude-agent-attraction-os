@@ -102,7 +102,8 @@ Two legitimate shapes, captured once in `brand-visual.md` → Inventory:
   (the owner's ruling, 2026-11-02: Brain in one chat, brand in a second). **It asks the member nothing about the
   feel.** The direction is DERIVED from the Brain and the three spoken answers the member gave at setup (how they
   talk is how their brand should feel — "solved using voice mode"); the member is asked only what already exists
-  (logo · colours and fonts · headshots · one brand or a separate leader brand · the organization's name), one
+  (logo · colours and fonts · headshots · the organization's name — each skipped when the Brain or the Brand folder
+  already answers it; one brand with a leader lane is stated as the default, never asked), one
   plain question at a time, and can upload examples instead of describing anything (*"Drop anything you have made
   before, your current Instagram, a logo, or screenshots of brands you admire to your Week 3 Claude Design session;
   the design skills study them for direction and never copy."*). Then the Brain DERIVES the

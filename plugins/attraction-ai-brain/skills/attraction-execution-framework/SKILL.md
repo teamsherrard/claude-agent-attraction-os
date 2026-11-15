@@ -49,7 +49,7 @@ actually happened against the targets). The rest load at the step that uses them
 
 | What the numbers show | What it usually means | What to fix, and where |
 |---|---|---|
-| Low conversations | not enough attraction activity, not enough valuable content | activity target + the content engine (Short-Form Week 3, YouTube Week 4) |
+| Low conversations | not enough attraction activity, not enough valuable content | activity target + the content engine (Short-Form Week 4, YouTube Week 5) |
 | High conversations, low conversions | messaging, model explanation, objection handling | Brokerage Model Expert now; Conversion plugin (objection coach, call audits) Week 5 |
 | Good recruiting, poor retention | onboarding, no tight community | operations' onboarding steps now; the Week 6 Retention & Duplication lessons |
 | Low duplication | the member is the only one attracting; agents are not being taught to attract | the Week 6 duplication lessons (`13-team-building-duplication/63`, `/66`) |

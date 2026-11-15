@@ -24,6 +24,14 @@ house / roof / key / skyline / "sold" motifs, no listing-flyer layouts, no "loca
 taglines, no MLS imagery, no brokerage-palette defaults; the member's face, the method's name and the
 program's name carry the brand).
 
+**Quality pass 2026-11-14.** Every skill now carries the shared `references/craft-standard.md`
+(byte-identical in all ten): the order of work, told-not-asked openings, the type, layout, colour and
+photo craft, the look loop and the gate every piece passes before the member sees it. Every intake form
+was removed — a skill reads the three files, opens with one line (what it found, what it is building)
+and builds in the same reply; defaults replace questions. The logo skill presents three directions with
+a recommendation. Photo handling is honest: a cut-out only when the file itself has a see-through
+background, otherwise the photo is framed or run as a panel — never a faked cut-out.
+
 ## The three files a member uploads (the brief's §1)
 
 1. **The Week 3 Kit** — `Week 3 Kit — [First Last] — YYYY-MM-DD.docx`, built by the Brain
@@ -50,7 +58,7 @@ exists" and never names them by skill id to the member.
 
 | # | Skill | Week | Reads (kit chapters and bands · the guide · the Design Package brief) | Lands in |
 |---|---|---|---|---|
-| 01 | `aa-logo-design` | 3 | the Design Package brief (line 1 and the skip rule; brand name(s); CREATIVE DIRECTION) + the member's examples in the project; three front doors: build · refresh · love it (skip) | `02 · Brand` |
+| 01 | `aa-logo-design` | 3 | the Design Package brief (line 1 and the skip rule; brand name(s); CREATIVE DIRECTION) + the member's examples in the project; three front doors: build · refresh · love it (skip); a build presents three directions with a recommendation | `02 · Brand` |
 | 02 | `aa-style-sheet-design` | 3 | the brief (line 2; CREATIVE DIRECTION → ONE locked look from the Design System's §12); writes "[Name] Design System" from `design-system/agent-attraction-design-system.md` | `02 · Brand` |
 | 03 | `aa-brand-kit-design` | 3 | the brief (line 3) + the Design System; the copy spine from the kit — chapter 3 THE WORDS TO USE (`Bio:` · `Caption:`), chapter 6 BIOS (the banners' copy spine), chapter 7 CALLS TO ACTION (the one link, the keyword) | `02 · Brand` |
 | 04 | `aa-offer-kit-design` | 3 | chapter 7 DESIGN ASSETS — THE PRODUCT MOCKUP first (the canonical cover from chapter 2's `Cover line:` · `Subtitle:` · `Three promises:`; flat first, 3D only if the tool exports pictures; never a course box unless `Format:` course + `Status:` built) · THE JOIN MY TEAM ONE-PAGER (what prints is its `Headline:`) · THE OFFER STACK · THE CALL DECK, SLIDE BY SLIDE (slide 9 never a figure) · THE WELCOME PACK (DAY 1) · `DESIGN BRIEF — [PROGRAM NAME] OFFER KIT`; chapter 2 YOUR OFFER for the stack rows and `The register:` | `05 · Offer` |
@@ -58,20 +66,21 @@ exists" and never names them by skill id to the member.
 | 06 | `aa-funnel-design` | 3 | chapter 5 SALES FUNNEL — `SECTION 1 — HERO` … `SECTION 11 — THE OPT-IN`, THE OPT-IN POP-UP, THE THANK-YOU PAGE, FOOTER, THE WORDS FOR THE GUIDE, HOW TO BUILD THE PAGE — plus the guide's mockup from 05; side door: a registration page when the Events plugin's registration brief exists | `03 · Content/Guides` (a registration page: the event's folder) |
 | 07 | `aa-content-design` | 3 (used every week after) | three modes: chapter 7 SOCIAL GRAPHIC POSTS (six posts, `Slide N:` lines, `Caption:`) + CALLS TO ACTION (one ask per post; the stamp on the last slide; captions as one `post-captions.md`) — post 3 "My story" is the five-slide story carousel; the team and promo templates from the Design System (welcome to the team · agent win · team milestone · quote card · weekly call reminder · reel cover · program promo); side doors when those documents exist — the Short-Form carousel doc, an event carousel from the Events promo brief, recognition from the Admin's wins brief | `05 · Offer` (the six posts); `03 · Content/Graphics/[month]` (templates, later content; recognition in `Graphics/Wins`; an event carousel in the event's folder) |
 | 08 | `aa-video-kit-design` | 3 | chapter 7 CALLS TO ACTION (the table) + `Pop-up rules:` → the pop-up set (the name card `[First Last · Brokerage · City]`, the guide pop-up, the call pop-up, two end cards; transparent PNGs at 1080×1920 and 1920×1080); the Design System + the brief (the compliance line) + chapter 3 `Comment keyword:` + chapter 5 `Keyword:` → the video brand kit on the Riverside Video Brand Kit v3 contract (`plugins/realtor-riverside-editor/shared/brand-wiring.md`: canonical names, zones, the eight `cta_pack` keys, `video-brand-spec.md`); the member says "register my video brand kit" in Cowork afterwards | `05 · Offer` (the pop-ups); `02 · Brand/Video Brand Kit` |
-| 09 | `aa-event-design` | 6 | `FOR aa-event-design (promo set for [event name])` and `FOR aa-event-design (workshop slides — [event name])` — the Events plugin's briefs, which arrive with it (side doors until then; never a requirement); the brand from the brief + the Design System; the program's words from chapter 2 THE PROGRAM and WHAT YOU GET, AND WHAT'S FREE (the iceberg close), chapter 3 THE ONE LINE, FOUR WAYS, chapter 7 CALLS TO ACTION (`Ask for the call`) and the one-pager's `Call to action:`; digital only (the print flyer and the event banner were removed) | the event's folder in `03 · Content/Events` |
-| 10 | `aa-value-vault-design` | 6 | chapter 2 YOUR DIGITAL PRODUCT (`Product:` · `Format:` · `Promise:` · `Outline:` · `Cover line:` · `Subtitle:` · `Three promises:` · `Version one, this month:` · `The full version:` · `Status:`) → the **version-one playbook** (the member's template + ONE 10-to-15-minute recording) under the canonical cover; the course and the ebook are side doors only when `Format:` names them and `Status:` says built; chapter 7 THE WELCOME PACK (DAY 1) (`Welcome letter:` · `Day 1 checklist:` · `First lesson:` · `Calendar:`) + THE CALL DECK's `Slide 8 — Your first 30 days:` → the onboarding roadmap (page · checklist · "where to show up" card) — never a separate offer upload | `05 · Offer/[Product]` (the roadmap: `05 · Offer/Onboarding`) |
+| 09 | `aa-event-design` | later | `FOR aa-event-design (promo set for [event name])` and `FOR aa-event-design (workshop slides — [event name])` — the Events plugin's briefs, which arrive with it (side doors until then; never a requirement); the brand from the brief + the Design System; the program's words from chapter 2 THE PROGRAM and WHAT YOU GET, AND WHAT'S FREE (the iceberg close), chapter 3 THE ONE LINE, FOUR WAYS, chapter 7 CALLS TO ACTION (`Ask for the call`) and the one-pager's `Call to action:`; digital only (the print flyer and the event banner were removed) | the event's folder in `03 · Content/Events` |
+| 10 | `aa-value-vault-design` | later | chapter 2 YOUR DIGITAL PRODUCT (`Product:` · `Format:` · `Promise:` · `Outline:` · `Cover line:` · `Subtitle:` · `Three promises:` · `Version one, this month:` · `The full version:` · `Status:`) → the **version-one playbook** (the member's template + ONE 10-to-15-minute recording) under the canonical cover; the course and the ebook are side doors only when `Format:` names them and `Status:` says built; chapter 7 THE WELCOME PACK (DAY 1) (`Welcome letter:` · `Day 1 checklist:` · `First lesson:` · `Calendar:`) + THE CALL DECK's `Slide 8 — Your first 30 days:` → the onboarding roadmap (page · checklist · "where to show up" card) — never a separate offer upload | `05 · Offer/[Product]` (the roadmap: `05 · Offer/Onboarding`) |
 
-Every skill reads the three files first and asks only what they cannot answer, in plain language; when
-it finishes it prints the exact line the member says back in Cowork (the brief's §6): **"the logo is
-done"** · **"the style sheet is done — colours and fonts locked"** · **"the kit is done"** · **"my offer
-kit is designed"** (the offer kit, the six posts and the pop-up set) · **"the PDF is done"** · **"my funnel
-is live"** + the link · **"register my video brand kit"** · Week 6: the line the Events plugin names
-(until it ships, "my event set is designed"), **"my digital product is built"** (the Brain's own phrase
-— it records the product and rebuilds the kit) and **"my onboarding roadmap is designed"**. The register
-(chapter 2's `The register:`) is read once and obeyed everywhere; the kit's copy is already in the right
-register and no skill adds a join line, a tier, a headline or a status of its own (§3). Compliance is
-three-state: the kit's stamp or the brief's compliance line on every public piece; NOT SET YET = build,
-but nothing is published until "paste my compliance link" in Cowork (§5).
+Every skill reads the three files first, opens with one line (what it found, what it is building) and
+builds — told, not asked, in plain language; when it finishes it prints the exact line the member says
+back in Cowork (the brief's §6): **"the logo is done"** · **"the style sheet is done — colours and fonts
+locked"** · **"the kit is done"** · **"my offer kit is designed"** (the offer kit, the six posts and the
+pop-up set) · **"the PDF is done"** · **"my funnel is live"** + the link · **"register my video brand
+kit"** · a later week: the line the Events plugin names (until it ships, "my event set is designed"),
+**"my digital product is built"** (the Brain's own phrase — it records the product and rebuilds the kit)
+and **"my onboarding roadmap is designed"**. The register (chapter 2's `The register:`) is read once and
+obeyed everywhere; the kit's copy is already in the right register and no skill adds a join line, a
+tier, a headline or a status of its own (§3). Compliance is three-state: the kit's stamp or the brief's
+compliance line on every public piece; NOT SET YET = build, but nothing is published until "paste my
+compliance link" in Cowork (§5).
 
 **The kit pattern (the three merged skills).** One directory, one SKILL.md holding the shared rules
 (the three files first, the register, compliance, the verbatim law, exports, folders, the five golden
@@ -100,7 +109,7 @@ Cowork); **no Studio skill claims either of those weeks for design work.** Week 
 Design project the member names: the Design Package brief → the brand three (logo · style sheet · brand
 kit; skip the logo if they love it) → the offer kit (the product mockup first; one-pager, stack, deck,
 welcome pack) → the guide PDF with its cover → the opt-in page and the thank-you page → the six social
-posts → the video pop-up set → the video brand kit (with the Riverside editor plugin). Week 6 = events
+posts → the video pop-up set → the video brand kit (with the Riverside editor plugin). A later week = events
 and the Value Vault.
 
 ## Layout
@@ -116,15 +125,15 @@ design-studio/
 │                                              handshake: the three files + the finish phrases, §12 the looks);
 │                                              aa-style-sheet-design instantiates "[Name] Design System" from it;
 │                                              every brand colour is a member value — no Mike-brand colours
-├── skills/
+├── skills/                          (every skill also carries references/craft-standard.md — the shared craft standard)
 │   ├── aa-logo-design/              SKILL.md + references/{style-and-craft,refresh-mode,export-page}.md
 │   ├── aa-style-sheet-design/       SKILL.md + references/brand-directions.md
 │   ├── aa-brand-kit-design/         SKILL.md + references/{asset-specs,export-page}.md
 │   ├── aa-offer-kit-design/         SKILL.md + references/{product-mockup,mockup-craft,offer-stack,offer-assets,deck-and-document-craft,export-page}.md
 │   ├── aa-lead-magnet-design/       SKILL.md + references/{guide-craft,mockup-craft,export-page}.md
 │   ├── aa-funnel-design/            SKILL.md + references/{design-craft,copy-formulas,deploy-rules}.md  (the site packer, no export-page)
-│   ├── aa-content-design/           SKILL.md + references/{carousel,carousel-craft,recognition,recognition-specs,export-page}.md
-│   ├── aa-video-kit-design/         SKILL.md + references/{video-kit-specs,export-page}.md
+│   ├── aa-content-design/           SKILL.md + references/{kit-posts,team-templates,carousel,carousel-craft,recognition,recognition-specs,export-page}.md
+│   ├── aa-video-kit-design/         SKILL.md + references/{pop-up-set,video-kit-specs,export-page}.md
 │   ├── aa-event-design/             SKILL.md + references/{event-specs,export-page}.md
 │   └── aa-value-vault-design/       SKILL.md + references/{playbook,playbook-specs,course,course-specs,ebook,ebook-specs,onboarding-roadmap,export-page}.md
 ├── _build/build.sh                ← packages + asserts; run it, leave _dist/ populated
@@ -132,10 +141,11 @@ design-studio/
                                      01-aa-logo-design.zip … 10-aa-value-vault-design.zip
 ```
 
-`references/export-page.md` is byte-identical across the 8 skills that carry it (the build asserts it;
-it is never edited skill by skill); each skill sets its own `KIT_REQUIRED` / `ZIP_NAME` /
-`EXPORT_NOTES_FILE` (the video kit's `EXPORT_NOTES_FILE` is `video-brand-spec.md`, the file the editor
-reads). `mockup-craft.md` is shared by `aa-offer-kit-design` and `aa-lead-magnet-design` the same way.
+`references/craft-standard.md` is byte-identical across all ten skills and `references/export-page.md`
+across the 8 skills that carry it (the build asserts both; neither is ever edited skill by skill); each
+skill sets its own `KIT_REQUIRED` / `ZIP_NAME` / `EXPORT_NOTES_FILE` (the video kit's
+`EXPORT_NOTES_FILE` is `video-brand-spec.md`, the file the editor reads). `mockup-craft.md` is shared by
+`aa-offer-kit-design` and `aa-lead-magnet-design` the same way.
 
 ## Packaging and `_dist/` (the realtor suite's shape)
 
@@ -143,7 +153,7 @@ reads). `mockup-craft.md` is shared by `aa-offer-kit-design` and `aa-lead-magnet
 skill's folder — `<name>/SKILL.md` + `<name>/references/*.md` — when the skill has `references/` (all ten
 do today), a bare `.md` with YAML frontmatter when it has none; no nested zips; no spaces, `&`, `(` or `)`
 in zip-internal paths. The zips are numbered by the ORDER array in the script — `01`–`08` the Week 3
-skills in the Start Here order, `09`–`10` the Week 6 two — and the numbers stay stable as later weeks
+skills in the Start Here order, `09`–`10` the later-week two — and the numbers stay stable as later weeks
 ship. It asserts every `description` is a `description: >` block scalar ≤1024 characters (target ≤1000)
 and carries trigger phrases, `name:` equals the directory, no hyphenated word split across a folded line,
 no banned words, no realtor-side leaks (listings, market, the retired editor), the shared
@@ -159,9 +169,10 @@ member's upload set is always current.
 
 The three-path front door (fresh · refresh · love it) · an existing logo used exactly as-is, never
 redesigned · the logo anchors the palette · two style-sheet options side by side · the Design System
-file the other skills consume · intake pruning from the files already in the project · the
-plain-language law on every question · one Claude Design project the member names · attach the Design
-System + the three files to every chat · "push this to my Drive" with the read-only export-list fallback
+file the other skills consume · every input read from the files already in the project (the intake
+form itself was removed 2026-11-14 — told, not asked) · the plain-language law on every line said to the
+member · one Claude Design project the member names · attach the Design System + the three files to every
+chat · "push this to my Drive" with the read-only export-list fallback
 · masters first, never stop to ask (the kit skills stop exactly once, after the masters) · the
 non-negotiables list · true-size specs and safe zones · the in-board exporter (Claude Design has no
 picture export) · tweak panels with plain labels · refresh modes · demo mode · the verbatim law on every

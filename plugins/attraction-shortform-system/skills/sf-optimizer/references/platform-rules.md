@@ -13,6 +13,11 @@ Follows `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`: 3–5 searchable hash
 captions and hooks never say "stop scrolling"; captions are simple, clear, and end on one ask
 (`07-instagram/90`).
 
+**The platforms are never asked (the owner, 2026-11-14):** Instagram and Facebook, both, every Reel and every graphic
+(one caption serves both — Facebook Reels is the same video reposted); the TikTok and YouTube Shorts blocks are
+produced for the optional reposts of the same video — nothing new to make, never a question; the LinkedIn block only
+when `identity/avatars.md` includes team leaders or broker-owners (the LinkedIn clause of `publishing.md → Platforms`).
+
 ---
 
 ## Instagram Reels + Facebook Reels

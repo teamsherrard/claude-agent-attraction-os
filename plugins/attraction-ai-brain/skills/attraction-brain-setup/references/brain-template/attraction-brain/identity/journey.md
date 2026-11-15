@@ -33,7 +33,7 @@
 
 ## Use it
 - The hardest stretch → the first story reel and the first question on a partner call ("what happens for you after you cap?")
-- The turning point → the "Why join me" block below and the YouTube "why I joined" video (Week 4)
+- The turning point → the "Why join me" block below and the YouTube "why I joined" video (Week 5)
 - The why-line → `goals.md` opens with it
 
 ## Why join me

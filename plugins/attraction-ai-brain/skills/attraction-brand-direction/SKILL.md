@@ -1,15 +1,15 @@
 ---
 name: attraction-brand-direction
 description: >
-  The visual brand of the leader agents will follow: the Week 3 brand chat, run alongside Claude
-  Design, never inside Brain setup. Takes the inventory one plain question at a time (logo: love it ·
-  not quite right · don't have one; colours and fonts; headshots; one brand or a separate leader
-  brand; the organization's name), then derives the Creative direction itself from the Brain and the
-  three spoken answers (mood, type, colour story, photos, reference looks) — no feel question; the
-  member just says yes. Writes brand-visual.md, hands over the paste-ready Design Package brief
-  naming aa-logo-design → aa-style-sheet-design → aa-brand-kit-design with the skip rule, saves it
-  to the Brand folder, reprints it any time. Designs nothing. Trigger on: "my attraction brand
-  direction", "my leader brand", "brand direction for agent attraction", "design package brief",
+  The visual brand of the leader agents will follow: the Week 3 brand chat. Asks only what the Brain
+  and the Brand folder cannot answer, one question at a time (logo: love it · not quite right ·
+  don't have one; colours and fonts; headshots; the organization's name); one brand with a leader
+  lane is stated, never asked. Then derives the Creative direction from the Brain and the three
+  spoken answers; the member just says yes. Writes brand-visual.md, hands over the Design Package
+  brief for the three brand skills (logo, style sheet, brand kit) with the skip rule, saves it to
+  the Brand folder, reprints it any time; asked for a brief that does not exist yet, it runs the
+  chat on the spot. Designs nothing. Trigger on: "my attraction brand direction", "my leader brand",
+  "brand direction for agent attraction", "design package brief", "give me my design package brief",
   "show my design package brief", "my design brief", "lock my attraction brand", "update my
   attraction brand direction".
 ---
@@ -22,11 +22,17 @@ Claude Design (the owner's ruling, 2026-11-08 — the earlier "same week" plan s
 weeks early, and the community asked what a "Brand HQ" was). So this skill is
 not two questions at the end of setup: it is its own short session — an inventory of what exists, one plain
 question at a time; a Creative direction the Brain derives from the Brain and from how the member talks (the
-three spoken answers at setup — "solved using voice mode"); the member confirms in one message; and a
-hand-off that produces the actual brand kit in Claude Design through the Design Package. The Brain captures,
+three spoken answers at setup — "solved using voice mode"); the member confirms in one message; and a hand-off that produces the actual brand kit in Claude Design through the Design Package. The Brain captures,
 derives, and briefs; **Claude Design** builds the visuals. **This skill never designs, renders, or produces
-a visual or a file** — the one file it saves is the brief itself. About 6 minutes; about 3 when they already
+a visual or a file** — the one file it saves is the brief itself. About 5 minutes; about 3 when they already
 love their brand.
+
+**No brief yet is the normal state — never an error, never said like one.** Nobody has a Design Package brief
+until this chat has run: it is the first step of Week 3, not something Brain setup made in Week 1. A member who
+asks for their brief before then ("give me my design package brief", "show my design package brief"), or who
+arrives from a design skill that could not find one, did nothing wrong and nothing is missing — walk them straight
+into the chat (see "Show my design package brief", below). Never "there's no brief", never "it hasn't been done",
+never a hint that a step was skipped or failed.
 
 *Follow `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md` (honour "skip" with a safe, on-brand default) and
 `shared/how-we-speak.md`. No design vocabulary out loud: the member hears "colours", "fonts", "feel", "photos",
@@ -68,15 +74,18 @@ yes continues; anything else closes with the Week 2 phrase (*"say 'build my part
 Never tell a member to open Claude Design, create a project or upload skills before Week 3.
 
 ## The welcome line
-One plain line that orients and invites examples: *"Your brand, in about six minutes. Five quick questions
+One plain line that orients and invites examples: *"Your brand, in about five minutes. A few quick questions
 about what you already have, one at a time — then I'll work out the creative direction from your Brain and
 how you talk, and you just say yes. If you have anything made before, your current Instagram, a logo, or
 screenshots of brands you admire, share them here or keep them handy for your Claude Design session in Week 3; the design skills
 study them for direction and never copy."*
 
-## The inventory — what you already have (five questions, ONE per turn, "your turn" after each)
-Short, plain, skippable; "none" is a real answer. If the Brand folder already answered an item (a logo file,
-headshots), say so in one line and skip it. If `brand-visual.md`'s Inventory already holds real answers (the
+## The inventory — what you already have (at most four questions, ONE per turn, "your turn" after each)
+**Asked only when neither the Brain nor the Brand folder can answer it** (told, not asked — the owner,
+2026-11-14: a member is asked for facts only they hold, never for a process choice). Short, plain, skippable;
+"none" is a real answer. If the Brand folder already answered an item (a logo file, headshots), say so in one
+line and skip it. If the Brain already names the member's group (`profile.md`, `strategy.md`, the Book's "Who
+you are"), say it in one line (*"Your group is [name] — I'll build a version for it too."*) and skip question 4. If `brand-visual.md`'s Inventory already holds real answers (the
 Realtor Brain bridge or an earlier run), confirm them in one line — *"Here's what I already have: … still
 right?"* — and ask only the lines still empty.
 1. **Your logo:** do you have one today? *I have one and I love it* (we use it exactly as-is, never redesign)
@@ -86,13 +95,17 @@ right?"* — and ask only the lines still empty.
    like…", or "none — help me pick."
 3. **Headshots and photos:** recent professional headshots, phone photos only, or nothing usable yet? (Drop
    anything you have in the Brand folder.)
-4. **One brand or two:** is the brand agents will follow the same as the one your buyers and sellers see, or
-   separate? *(Default: one brand, your name, with a leader lane; whatever you pick stays visually distinct
-   from your brokerage's own colours. Either answer is fine — the question text never cites a lesson; for the
-   writer: some leaders run two, as Mike's example of a production brand and a separate attraction brand
-   shows, `04-value-proposition/29`.)*
-5. **Your organization's name:** does it have one, or is it just you? *(Many attractors run a group name
+4. **Your organization's name:** does it have one, or is it just you? *(Many attractors run a group name
    alongside their own. Both can be captured; the Design Package can build a logo version for each.)*
+
+**One brand — stated, never asked.** The earlier fifth question ("one brand or two?") is gone: it asked a member
+to make a process choice in words most of them had never heard. The answer is the default — **one brand, the
+member's own name, with a leader lane**, visually distinct from the brokerage's own colours — and it is written
+into the card below as one line the member can change with a word: *"One brand: your name, with a lane for the
+agents you lead. Already run a separate brand just for agents? Say 'two brands'."* A member who says so (here or
+in any answer above — "my team brand is separate") is recorded as `separate leader brand`; everyone else as `one
+brand, my name, with a leader lane (default)`. For the writer only: some leaders do run two, as Mike's example of
+a production brand and a separate attraction brand shows (`04-value-proposition/29`) — never cited to the member.
 
 Also record, without a sixth question, whether examples exist (they shared some, or the Brand folder shows
 them): **Examples: shared / none yet.**
@@ -115,9 +128,9 @@ line that could belong to any leader anywhere.
 | **Tagline** | two or three proposed from the seed line (`positioning.md`) and their signature phrases; no compensation words, no income promise, nothing about another brokerage; "parked" is fine |
 | **Tests** | authority · relatability · aspiration — one phrase each on how the direction answers it |
 
-**Present it in ONE chat message**, in plain words, as a short card: the mood line · energy "3 of 5" · the type
-word · the three colours with their why · the photo treatment · the three motifs · the avoid list · the three
-looks, named ("the gold-on-black organization look", "the clean editorial leader look", "the bold gradient
+**Present it in ONE chat message**, in plain words, as a short card: the one-brand line (above) · the mood line ·
+energy "3 of 5" · the type word · the three colours with their why · the photo treatment · the three motifs · the
+avoid list · the three looks, named ("the gold-on-black organization look", "the clean editorial leader look", "the bold gradient
 coach look" — say the name and the one-line why, nothing more technical) · the tagline options · one closing
 line: *"**Your turn** — say yes, or change any line."* **The member reacts in one message.** "Yes", "use
 defaults", "you decide" = confirmed as proposed; a change is applied verbatim; a skipped line keeps the derived
@@ -193,9 +206,12 @@ This skill runs as its own chat; it is never called from inside Brain setup. Sto
 Read `brand-visual.md` → `## Design Package brief (last issued …)` and print the block **verbatim** as one
 copyable block, followed by one line: where the saved copy lives (`02 · Brand`, the dated name) or that it is
 kept in the Brain only. If Inventory or the Creative direction changed after the last issue (compare the
-*last updated* and *last issued* stamps), re-issue it first (step 2–3 above) and say so in one line. If there
-is no brief block yet, say warmly that the brand direction hasn't been captured yet and run the inventory and
-the derivation. Zero questions on a plain reprint.
+*last updated* and *last issued* stamps), re-issue it first (step 2–3 above) and say so in one line. **If there
+is no brief block yet, that is the normal state before the brand chat — say exactly one warm line and start:**
+*"Your brief comes out of your brand chat — the first step of Week 3. It takes about five minutes; let's do it
+now and I'll hand you the brief at the end."* Then the week check, the welcome line, the inventory and the
+derivation, as above. Never "there's no brief to show", never "your brand direction hasn't been done" — the member
+skipped nothing. Zero questions on a plain reprint.
 
 ## Update mode (trigger: "update my attraction brand direction")
 Read `brand-visual.md`, ask what changed, rewrite only that line in Inventory, Direction, or the Creative

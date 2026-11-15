@@ -175,7 +175,9 @@ them in chat. Add what the doc doesn't carry:
   franchise ("Agent Attraction Notes — No. 7"), same small cover treatment every week.
 - **Every later run: same system, new content.** A new doc pours into the locked template; only the
   value-slide layouts vary as the content demands. A later run in a fresh chat rebuilds the system from
-  the card; if you can't see the first carousel OR the card, ask for the card — never guess from memory.
+  the card; if neither the first carousel nor the card is in the project, lock the template again from the
+  Design System as a first run and say so in the opening line — never guess the old template from memory,
+  never stop to ask.
 - **Refresh on request only** ("refresh my carousel style"): evolve the template once, confirm, lock the
   new version.
 - **Quick edits welcome:** change ONLY what's asked ("tighter cover", "swap slide 4's layout", "brighter
@@ -184,8 +186,9 @@ them in chat. Add what the doc doesn't carry:
 ## LANGUAGE — DESIGN IN THE BRAND'S LANGUAGE(S)
 
 The slides are designed in the member's brand language(s) from the Design System; the doc arrives in
-that language. If the doc is written in a different language than the brand, ask which language this
-post should be in before designing (they may be testing a new audience). Every fragment translates — the
+that language. If the doc is written in a different language than the brand, design this
+post in the doc's language — the copy is locked, and they may be testing a new audience — and say so in the
+opening line; never ask. Every fragment translates — the
 swipe cue, slide labels, the "MYTH" tag, the CTA, the sticker-plate label; accents survive all-caps
 headlines; numbers localized; a bilingual brand gets two matched sets, never both languages on one slide.
 

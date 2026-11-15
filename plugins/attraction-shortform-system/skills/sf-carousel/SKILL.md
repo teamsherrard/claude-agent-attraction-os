@@ -69,9 +69,10 @@ Read `~/attraction-brain/brain.md` first, then:
 - `identity/content-pillars.md` — the pillars and their angles (written by the Game Plan inside setup; missing →
   "say 'set up my attraction short-form'" in one warm line)
 - `memory/content-calendar.md` — a carousel row dated this week is the default topic
-- `identity/publishing.md` — the two keywords (`Keyword: GUIDE · [the offer's word]`), what each opens, platforms (is
-  LinkedIn on the list?), `Content board:`
-- `identity/avatars.md` — who it's for; their problem in their words; team leader / broker-owner present?
+- `identity/publishing.md` — the two keywords (`Keyword: GUIDE · [the offer's word]`), what each opens, the LinkedIn
+  clause of `Platforms` (on only when the avatars hold team leaders or broker-owners — never asked), `Content board:`
+- `identity/avatars.md` — who it's for; their problem in their words; team leader / broker-owner present? (the one
+  condition for the LinkedIn version)
 - `identity/journey.md` — the three turning points + the `## Why join me` block (the Why-I-Left spine, if written)
 - `identity/story-bank.md` — the real stories; the "why I left" story if it's there; stamp Used-where after
 - `identity/positioning.md` — the one line "why I'm here"; what stays for the private call
@@ -107,7 +108,8 @@ a **pain-point** on the avatar's #1 pain if they're light on Authority; a **myth
 came up this month. One line of why, then the backups. Decide the **rung**: GUIDE (comment, the guide) for
 pain-point and myth-busting; for Why I Left, "save this and send it to an agent who's where I was" on the last slide
 and the call line in the caption (the kit's story close — *"If any of this sounds like your year, message me."* — then
-*"Want my help running this, free? [the booking line]"*). Confirm in one friendly line — *"your turn"*.
+*"Want my help running this, free? [the booking line]"*). One line, a statement, never a menu and never a Yes line: *"I'm writing [the type] —
+[why]; name another any time."* — then write it.
 
 ## Phase 2 — Write the carousel (the words), then the lean build sheet
 **Read `references/carousel-guide.md`.** Write the copy first, as clean copyable text:
@@ -119,7 +121,8 @@ and the call line in the caption (the kit's story close — *"If any of this sou
 - **FINAL SLIDE — the CTA** — one rung, one of the two keywords: *"Comment **GUIDE** and I'll send you [the guide, in
   three words]."* / *"Save this. Send it to an agent who's where I was."* (Why I Left). Never the model, never numbers,
   never a third word.
-- **THE LINKEDIN VERSION** (when LinkedIn is on their platforms or an avatar is a team leader / broker-owner) —
+- **THE LINKEDIN VERSION** (only when `identity/avatars.md` includes team leaders or broker-owners — the LinkedIn
+  clause of `Platforms` is on; never asked) —
   the same story reframed for a leader who carries a team ("adult daycare", retention, leverage): 8–12 pages,
   one idea per page, bigger type; plus the **LinkedIn post copy** (150–200 words, a first line that stands on
   its own, no hashtag wall, the ask = "message me" or "comment GUIDE" typed in a reply — LinkedIn has no comment
@@ -158,7 +161,7 @@ why (GUIDE for the guide; the call line where the piece earns it) · what to wat
 comments for a teach, DMs for the call). Close with the hand-off, in plain words:
 > "Here's your carousel. Open your Claude Design content skill, upload the build sheet I saved (Content → Graphics →
 > [month]) and say **'design my carousel'** — it builds the slides in your brand. Then post with the caption below.
-> Want another one?"
+> Say 'another carousel' any time."
 If a posting tool is connected (`identity/publishing.md`), offer to schedule it once the slides exist, per
 `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` (carousels usually take the hybrid path) — only with explicit
 approval. Offer the content board (house rules #10): Format `Carousel`, status `Scripted` until the slides exist.

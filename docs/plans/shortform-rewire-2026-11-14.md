@@ -6,6 +6,17 @@ written in Week 2, the brand and all Claude Design work are Week 3, the offer is
 action follows Mike's law, and **short-form is WEEK 4** (the owner's ruling, 2026-11-14). This brief is the contract
 the plugin is rewired to. Where a skill's text contradicts it, this brief wins.
 
+> **Addendum — the owner's live-run rulings, 2026-11-14 evening (bind over anything below that disagrees).** (1) Process
+> steps are TOLD, not asked: the consent card is one statement closed by "Say Yes"; no "all, some, or not yet", no "want
+> me to email you", no platform or ManyChat questions; extras stated, never offered. (2) The email note is part of the
+> process: `Email me:` = `yes YYYY-MM-DD` when mail is connected, else `no (no mail connected)` — never asked. (3) The
+> Daily Engagement List and the Friday Performance Note are REMOVED from the OS (short-form switches on four: Monday Week
+> Plan · Sunday Batch Prep · Wednesday News Watch · Monthly Calendar Refill; five by phrase; YouTube switches on two: the
+> Monday Kickoff and the Monthly Channel Review — no Friday YouTube section). (4) The board tabs are Graphics · Reels ·
+> YouTube (Week 5) · Calendar — no "This Week", no "Short-Form" tab. (5) A designed post is `Ready to Post`, never
+> `Recorded`. (6) ManyChat is required, told, never connected to Claude (free plan to start). (7) Platforms are never
+> asked: Instagram and Facebook both; TikTok/Shorts optional reposts; LinkedIn from the avatars; the bio link = the guide.
+
 ## 1. The week, and what the member already holds when it opens
 
 Short-form is **Week 4**. Never "Week 3" for anything in this plugin; the brand chat, the Design Package and every
@@ -102,8 +113,6 @@ ends with a push, so the Brain Board shows it (§6).** The task ids and owners:
 |---|---|---|---|---|
 | Monday Week Plan — the week's scripts, captions and stories drafted onto the board + a week brief | `attraction-sf-week-plan` | `sf-week-plan` | **on** | Mondays, the member's hour (7:00 am) |
 | Sunday Batch Prep — the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | `attraction-sf-batch-prep` | `sf-batch-publish` | **on** | the evening before the batch day |
-| Daily Engagement List — ten agents to engage with today (the Top 50, recent commenters, the keyword comments), one comment starter each; Mike's engagement routine | `attraction-sf-engagement` | `sf-comment-to-dm` | **on** | each weekday morning |
-| Friday Performance Note — what started agent conversations, the one change, next week's rows (three at the default cadence, five at five), the post to repurpose | `attraction-sf-weekly-performance` | `sf-analytics` | **on** | Fridays, the Friday slot |
 | Monthly Calendar Refill — the next thirty days from the pillars, the branches and what performed; the board refilled | `attraction-sf-calendar-refill` | `sf-gameplan` | **on** | the last Friday of the month |
 | Keyword Follow-up Queue — who commented or DMed the keyword since last time, the next DM in the ladder drafted | `attraction-sf-keyword-queue` | `sf-comment-to-dm` | optional | Tuesdays and Thursdays |
 | Brokerage News Watch (the owner, 2026-11-14: "important") — three to six REAL headlines from the last 30 days, each cited (title · outlet · date · the link) and verified by a live web search, never invented, each with a 30-second green-screen take in the member's angle; saved as one doc, the week's green-screen card on the Notion board filled with the best take and the alternates kept inside it with their links (one card, never one per headline — the owner, 2026-11-14), and the member told two ways: the one email to their own address ("Hey [First], your green-screen shorts are ready — [n] stories") when `Email me:` is yes, and the task's own note in Cowork; ends with a push (the Brain Board) | `attraction-sf-news-watch` | `sf-greenscreen` | **on** | Wednesdays |

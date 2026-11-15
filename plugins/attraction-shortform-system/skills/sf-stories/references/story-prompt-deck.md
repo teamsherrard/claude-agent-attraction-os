@@ -92,8 +92,9 @@ your answer." — two words only, never a third.
 A reply is the DM rung of the ladder. Two keywords exist and no more (`identity/publishing.md → Keyword: GUIDE · [the
 offer's word]`): a story that hands out the guide asks "Reply GUIDE and I'll send it"; every other story asks for a
 plain reply — "Reply and I'll send you the link" (the call, the law's shape), "Reply with your answer". The retired
-short words (CALL · LIST · SCRIPT · WIN · YES) never return. GUIDE is the story-reply sequence's trigger when ManyChat
-is connected; otherwise the member replies by hand the same day. A real conversation hands to `sf-comment-to-dm`
+short words (CALL · LIST · SCRIPT · WIN · YES) never return. GUIDE is the story-reply sequence's trigger once ManyChat
+is set up in the member's own account (`publishing.md → ManyChat: set up`; it is never connected to Claude); until
+then the member replies by hand the same day from the DM bank. A real conversation hands to `sf-comment-to-dm`
 (which logs the row, via `attraction-capture` when present, until the Conversion and Admin plugins exist) — never
 logged here.
 

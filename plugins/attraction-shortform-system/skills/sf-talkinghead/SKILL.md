@@ -90,7 +90,7 @@ brain."
 **Read `references/topic-guide.md`.** **Open now:** `memory/ideas.md` (tags `shortform`, `story` — the member's own
 ideas go to the TOP; mark `used` once scripted) · `memory/content-log.md` (what's covered; which pillar is light this
 week/month) · `memory/objections.md` (an objection heard this month is a Perspective Reel waiting to happen) ·
-`memory/content-performance.md` (what worked — the Friday ledger from `sf-analytics`; lean on it for hooks, pillars,
+`memory/content-performance.md` (what worked — the performance ledger from `sf-analytics`; lean on it for hooks, pillars,
 and rungs; skip if it doesn't exist yet) · `identity/publishing.md` (the keyword, what it opens, the weekly mix).
 Produce ~8–10 topics the member can choose from: this week's calendar rows still at `Idea` first (the plan they
 already said yes to), then the member's own ideas (from `ideas.md`), then the pillar they're lightest on this
@@ -98,10 +98,10 @@ month, then the rest — never more than three from one pillar. Each topic: a wo
 line) · the **story or proof it can carry** (a story-bank hook, a win with consent, or "none — straight teach")
 · the **rung** it ends on · one line of **why this is strong for you**. Speak to an agent's *problem*, never a
 brokerage feature. Present simply:
-> "Here are strong ones for this week — I've leaned on [pillar] because you've been light there. Tell me the
-> numbers you want to film and I'll script them. Your turn."
-**If they're unsure or say "you pick"** (house rules #8 + `${CLAUDE_PLUGIN_ROOT}/shared/advisor-playbook.md`):
-choose the top 3 yourself — one line of why each — and offer to script them now.
+> "Here are strong ones for this week — I've leaned on [pillar] because you've been light there. I'd script [#, #
+> and #] first — I'm scripting those now; name other numbers any time."
+A statement, then the scripts — never a Yes line, never an open menu (the owner, 2026-11-14: told, not asked). **If they're unsure or say "you pick"**
+(house rules #8 + `${CLAUDE_PLUGIN_ROOT}/shared/advisor-playbook.md`): the top 3 are already named — script them now.
 
 ## Phase 2 — Scripts (for the chosen topics; default five, or the one they named)
 **Read `references/script-guide.md`.** **Open now — the writing step:** `identity/voice-print.md` (their SPOKEN voice:
@@ -165,11 +165,15 @@ income); no earnings claims; no "#1/best" without a source; consent on any named
 unnamed; any real-estate example fair-housing safe. Strip or rewrite; never ship risky lines.
 
 ## Phase 5 — Deliver
-Clean copy-paste packages, friendly chat around them, short. Offer, in one line each and only where it applies:
-the editor, when they have it installed (*"record it and say 'edit my reel' — captions, clean cut, done"*; never
-named as a requirement); scheduling
-through their tool per `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` — only with explicit approval; the
-content board (house rules #10).
+Clean copy-paste packages, friendly chat around them, short. **Called by `sf-setup` Step 6 (the first Reel of the
+setup sitting)? Deliver the script and stop there — skip the editing paragraph below and the closing lines of
+Phase 6; setup's close says the editing step, the Brain Board and the Brain Book exactly once.** Otherwise, then
+**the editing step, stated** (the owner, 2026-11-14 — Plugin 5 is installed in Week 4 with this plugin; never hedged): *"When
+it's filmed: open a new chat and say 'edit my reel' — that opens your AI Editing Studio (Plugin 5), which edits inside
+your own Riverside account and reads the Video Brand Kit you designed in Week 3. Not installed yet? Install Plugin 5
+from the same marketplace first, then say 'set up riverside' once."* Then, in one line each and only where it applies:
+scheduling through their tool per `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` — only with explicit approval;
+the content board (house rules #10).
 
 ## Phase 6 — Save + log + push
 For each scripted Reel:
@@ -184,9 +188,16 @@ For each scripted Reel:
 3. **Stamp** the story's `Used-where` in `identity/story-bank.md`; flip any `ideas.md` row used to `used` (open it
    now if no earlier phase did).
 4. **Push** (write → push → verify) through `attraction-brain-sync` the moment the rows are written — every write
-   pushes immediately; the push re-renders the member's Brain Board. Then: *"Saved your [N] Reels to your workspace
-   (Content → Short-Form → [month]) and logged them so we never repeat a story — your Brain Board shows them."* If a
-   save fails: say it's not saved, keep it visible, retry once, stop.
+   pushes immediately. **When this push ends a sitting this skill owns (the last Reel of a batch — never setup's first Reel:
+   inside setup this push is an ordinary push and `sf-setup` Step 6 runs the closing push), mark it
+   as the sitting's closing push** (the owner, 2026-11-14): the sync rebuilds the Brain Board and refreshes the Brain
+   Book's "What's next" page and returns their two links — relay them in this shape: *"Saved your [N] Reels to your
+   workspace (Content → Short-Form → [month]) and logged them so we never repeat a story. Your Brain Board and your
+   Brain Book are updated — here they are: [the Board link] · [the Book link]. Open the Board in your browser: your
+   Short-Form dot is green, and its page shows your two keywords, this week's posts and your workflows."* Show the
+   Board file in the chat when the session can; a rebuild that failed is named plainly with "refresh my brain board" /
+   "show me my Brain" — never claimed. Inside setup: say only *"Your first Reel is saved"*, never the Board and Book line, and hand back to `sf-setup` Step 6, which says the close once. If a save
+   fails: say it's not saved, keep it visible, retry once, stop.
 
 ---
 
@@ -204,4 +215,6 @@ For each scripted Reel:
 - [ ] Captions via the optimizer rules; the CTA line carries one of the two keywords; a kit post is never re-scripted
 - [ ] A calendar ask handed to the Game Plan (UPDATE, section 6) — never a second calendar built here; a Reel
       scripted from a row flips the row to `Scripted`
-- [ ] Saved to `03 · Content/Short-Form`, logged in the locked row shape, pushed; text only
+- [ ] Saved to `03 · Content/Short-Form`, logged in the locked row shape, pushed; text only; the editing step stated
+      ("edit my reel" in a new chat — Plugin 5), never hedged; a sitting's last push marked as the closing push and
+      the Brain Board + Brain Book links relayed — "here they are"

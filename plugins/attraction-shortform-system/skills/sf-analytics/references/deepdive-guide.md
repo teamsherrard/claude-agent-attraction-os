@@ -104,7 +104,11 @@ under-posted pillar in 2·2·1 belongs in Part 5's FIX list.
   Reels a week and story days vs the routine. Offer to script the first four now.
 - **The post to repurpose** — the one post of the window that started conversations or was saved and shared most,
   and the one way to give it a second life (a carousel of its steps, a story set, a follow-up Reel answering its
-  best comment, a re-cut through the editor when the member has it installed); never a new claim.
+  best comment, a re-cut in the AI Editing Studio — "edit my reel" in a new chat); never a new claim.
+- **The step up** (the owner, 2026-11-14) — only when `Cadence:` is three and the window's log shows three Reels
+  posted in each week: propose five in one line (*"a month at three a week has held — you're ready for five; say
+  'five a week' and I'll remap the month on it"*); the member's word flips `Cadence:` through the Game Plan, never
+  the dive. The Monthly Calendar Refill carries the same proposal.
 - **THE ONE MOVE** — repeated word for word.
 
 ## Appendix — the full numbers

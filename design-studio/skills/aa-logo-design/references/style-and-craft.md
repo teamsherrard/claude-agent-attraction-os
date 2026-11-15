@@ -86,7 +86,7 @@ cream, or a pale tint of the brand colour. Two hard rules with numbers:
   leather, smoke, marble — whichever the look names) and the white row plain or with the faintest paper
   grain. The grid is the presentation standard for the chosen family and the one the style sheet reuses.
 - **Two grounds, one file:** the PNG and SVG files carry no ground, no texture, no sheen — the texture is
-  the board's. The reversed version is built per the colour-on-dark rules below, not by inverting.
+  the board's. The reversed version is built per the colour-on-dark rules above, not by inverting.
 - **The brokered-by lockup:** member's mark → a 1px hairline divider at the mark's full cap height (or
   the emblem's height) with clear space of at least half the mark height on each side → a tracked
   "BROKERED BY" eyebrow at about 20–25% of the brokerage mark's height, set in the descriptor face →
@@ -123,8 +123,8 @@ it with a contrasting partner (bold caps sans or high-contrast serif) so block a
 each other. Use the script for ONE word only; never the whole name or the descriptor.
 
 Treat the type like a designer would: pair ONE distinctive face (the name) with ONE quiet supporting
-line (the descriptor) in a simple tracked-out sans, so the two never compete. Give the name generous,
-even letter-spacing — wide tracking almost always looks more premium than tight.
+line (the descriptor) in a simple tracked-out sans, so the two never compete. Space the name by what it is — the numbers are in CASTING THE TYPE, below: caps open up, heavy display
+faces stay tight, a script is never spaced out.
 
 **The proportions that make a lockup read professionally set (use these numbers):**
 - **Descriptor scale:** the descriptor's cap height is 25–35% of the name's cap height, with wide, even
@@ -145,3 +145,79 @@ actually rendered — and it must cover the brand language's full character set.
 **Colour within the mark:** restraint reads premium. Work primarily in one brand colour; introduce a
 second only with purpose (a two-tone monogram where one letter carries the accent). The mark must
 still hold up perfectly as a single flat colour.
+
+## CONSTRUCTION — how a mark is really built (read before you draw)
+
+A logo drawn as "some shapes that look about right" reads as machine-made at a glance. Build it.
+
+- **The grid.** Draw every mark as vector on a square field — a `0 0 240 240` viewBox, an 8-unit step —
+  and keep every point on a step. Few angles (0° · 45° · 60° · 90°), few radii (one, or two in a 1:2
+  ratio). Symmetry is exact: draw one half and mirror it, never eyeball both sides.
+- **One stroke weight per mark**, taken from the name beside it (the heaviest stroke of the name's face).
+  Round ends and corners with a soft face, square ones with a sharp face — the mark and the type should
+  look cut by the same tool.
+- **A monogram is constructed. Six moves — use ONE, cleanly:**
+  1. *Shared stroke* — the two letters own one vertical or one diagonal between them.
+  2. *Nested* — the smaller letter sits inside the bowl or the open side of the larger.
+  3. *Interlocked* — one letter passes over the other, and the lower one is cut away around it with an
+     even gap (about half the stroke), like two links.
+  4. *Stacked under one bar* — one letter above the other, joined by a shared horizontal.
+  5. *The hidden letter* — the second initial is made by the empty space inside or beside the first.
+  6. *One line* — both letters drawn as a single continuous stroke.
+  Then the test: is it still clearly both letters, in the right order, at a glance? An unreadable monogram
+  is decoration, and two font letters merely standing next to each other are not a monogram at all.
+- **A frame is the last thing added and the first thing questioned.** If a ring, a shield or a badge is
+  doing the work, the letters inside are not finished. A frame that stays matches the letters' stroke and
+  keeps an inner margin of at least one and a half strokes all round.
+- **An idea mark is three to seven shapes.** Reduce the idea (a rising line, a north point, a table, a
+  bridge, a beacon, a path) until taking one more shape away would lose it. More than seven shapes is an
+  illustration, and it will not survive a profile circle.
+- **Correct by eye, the way type designers do:** round and pointed shapes reach 2–3% past the flat ones (or
+  they look small); a horizontal stroke is drawn about a tenth thinner than a vertical to look the same; a
+  mark above a name is centred on the name's visual middle, not on its box.
+- **Simple proportions.** The mark sits in a square or a 4:5 field; the widest line of the lockup sets the
+  width, and the other lines relate to it simply (the descriptor the full width of the name, or centred at
+  two thirds of it).
+- **The 40-pixel proof, every time.** Before a direction is kept: render the mark in a 40px circle and at
+  16px, in one flat colour, on dark and on light — and LOOK at those renders. Shapes that close up get
+  opened; strokes that vanish go one weight heavier; detail that turns to noise is removed. The small
+  version may be a simpler drawing of the same idea — it is still the same mark.
+- **One flat colour first.** A second colour, a foil or a gradient goes only onto a mark that already works
+  as a solid shape.
+- **Clean files.** Shapes as paths and simple primitives, no stray points, nothing hidden behind a clipping
+  mask, no picture embedded in the vector, a see-through background, and the artwork tight to its own
+  bounds — the clear space belongs to the layout, never to the file.
+
+## CASTING THE TYPE — real faces, real numbers
+
+The name's typeface is a casting decision: the same name reads as a different person in a different face.
+Cast from faces that really load (every one below is a Google Font); the brief's Type line and its first
+reference recipe say which shelf to start on.
+
+| The brief says | Cast the name from | The line under it |
+|---|---|---|
+| classic · calm authority · editorial | Playfair Display · Cormorant Garamond (600–700) · DM Serif Display · Bodoni Moda · Fraunces · Marcellus (caps) | Montserrat · Josefin Sans · Jost — 500–600, caps |
+| classic · established · trusted | Libre Baskerville · EB Garamond · Libre Caslon Display · Spectral · Cinzel (caps only) | Inter · Source Sans 3 — 600, caps |
+| modern · clean · systems-minded | Montserrat · Poppins · Plus Jakarta Sans · Manrope · Outfit · Sora · Urbanist · Josefin Sans | the same family — 500–600, caps |
+| warm · mentor · approachable | Fraunces · Lora · Nunito Sans · Work Sans · Source Sans 3 · Zilla Slab | Inter · Work Sans — 500–600, caps |
+| bold · high energy · builder | Bebas Neue · Anton · Oswald (600–700) · Archivo Black · Barlow Condensed (700–800) · League Spartan · Big Shoulders Display | Montserrat · Barlow — 600–700, caps |
+| the script word of a two-face name | elegant: Great Vibes · Allura · Alex Brush · Parisienne · Pinyon Script — signature: Mrs Saint Delafield · Herr Von Muellerhoff — brush: Kaushan Script · Yellowtail — single line: Sacramento | — |
+
+**Setting the name (the numbers):**
+- **Caps in a serif or a light sans:** letter-spacing +0.06 to +0.14em — the lighter the weight, the wider.
+- **Caps in a heavy geometric sans:** +0.02 to +0.08em. **Heavy condensed caps** (Bebas Neue, Anton): 0 to +0.03em.
+- **A name in mixed case:** the face's own spacing, at most −0.01em on a large heavy setting. Never spaced wide.
+- **A script word:** 0, always. Spacing a script apart breaks its joins and is the fastest way to look cheap.
+- **The line under the name:** caps, +0.2 to +0.3em, weight 500–600 — and when it is centred, nudge it right
+  by half its letter-spacing (the spacing is added after the last letter too, so a spaced line sits visibly
+  left of centre unless you correct it).
+- **Close the gaps a font leaves** in a name set large: the pairs that gape (A V · A W · T o · L T · P a ·
+  r a) are tightened by eye until the space between every pair of letters looks equal. Kerning and ligatures
+  stay switched on.
+- **A thin script dies small.** A hairline signature face is only ever the second voice beside a bold word —
+  never the whole logo, and never the version that goes in the profile circle; that surface gets the mark or
+  the bold word.
+- **Two faces need real contrast** — a serif with a sans, a script with a block, heavy with light. Two similar
+  sans faces side by side read as a mistake.
+- **Check the name's own letters.** A face with a beautiful R and an awkward K is the wrong face for a
+  Katherine. Set the member's actual name before you fall for the font.

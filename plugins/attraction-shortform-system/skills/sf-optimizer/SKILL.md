@@ -95,8 +95,11 @@ rung and confirm them in one line.
   former brokerage is "a franchise" or "an independent."
 
 ## Step 5 — PACKAGE: the platform versions
-Produce every block the member's priority platforms need (`publishing.md`), per
-`references/platform-rules.md`:
+The platforms are never asked (the owner, 2026-11-14): **Instagram + Facebook always** (both — every Reel and every
+graphic; Facebook Reels is the same video reposted); the **TikTok and YouTube Shorts blocks ride along** for the
+optional reposts of the same video — produced, never asked about, nothing new to make; **LinkedIn only when
+`identity/avatars.md` includes team leaders or broker-owners** (the LinkedIn clause of `publishing.md → Platforms`).
+Produce the blocks per `references/platform-rules.md`:
 - **Video assets** (video formats only): cover text (3–6 words) and 2–3 on-screen cues (≤6 words each);
   text instructions for the editor, never rendered.
 - **Instagram + Facebook** — caption (hook line first, 2–4 lines of substance, the ask last — the kit's caption
@@ -122,10 +125,11 @@ claim to avoid. "If empty, proceed" is banned; a `[Brokerage Name]` placeholder 
 
 ## Step 7 — Deliver
 Copy-paste-ready blocks, labeled, no preamble inside them: the rewritten hook and ask with the one-line why
-· VIDEO ASSETS · INSTAGRAM + FACEBOOK · TIKTOK · YOUTUBE SHORTS · LINKEDIN (if used). If a posting tool is
-connected (`identity/publishing.md`), offer once: *"want me to schedule this at your best time?"* and hand
-to `sf-publish`; never schedule without a yes. This skill writes no Brain row; the skill that ships the post
-does.
+· VIDEO ASSETS · INSTAGRAM + FACEBOOK · TIKTOK · YOUTUBE SHORTS · LINKEDIN (if used). With the posting tool connected
+(`identity/publishing.md → Posting tool: … connected`), one line in the Yes shape — *"Scheduling this at your best time
+— say Yes."* — and hand to `sf-publish`; never schedule without the Yes; the tool not yet connected → `sf-publish`
+Job A (the posting tool is not optional; copy-paste only as the fallback line). This skill writes no Brain row; the
+skill that ships the post does.
 
 ## Quality checklist
 - [ ] Brain read; nothing re-asked; voice matched to the samples; the post speaks to one avatar

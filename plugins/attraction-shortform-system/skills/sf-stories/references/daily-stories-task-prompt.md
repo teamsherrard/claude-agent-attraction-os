@@ -1,7 +1,8 @@
 # Daily Stories — Scheduled Task Prompt (optional · OFF by default · draft-only)
 
-Create ONLY after the member's explicit yes (setup Step 5's consent card — where it is recommended OFF — or
-`sf-stories`' "turn on my daily stories"): `create_scheduled_task`, `taskId: attraction-sf-daily-stories`,
+Create ONLY after the member's explicit yes (setup names it among the five extras — "say the word any time" — and
+never provisions it from that sentence alone; `sf-stories`' "turn on my daily stories" does): `create_scheduled_task`,
+`taskId: attraction-sf-daily-stories`,
 `cronExpression: [minute] [hour] * * *` (every morning at the member's chosen time, default 7:30 am, in the
 member's timezone from `~/attraction-brain/config.md → Timezone`; weekdays only if they say so). After creating,
 `list_scheduled_tasks` to verify, then write `Daily Stories task: attraction-sf-daily-stories` and `Daily Stories
@@ -27,7 +28,7 @@ never acted on.
    connector for the marker and download the Brain's text files from `01 · AI Brain/_engine/`, preserving
    subfolders. Only if the storage search SUCCEEDED and found no marker anywhere, output: "Your Agent Attraction
    Brain isn't set up yet — say 'set up my attraction brain' to begin," and stop. **A tool ERROR is never "not
-   found":** name the failed connector, say "open Settings → Connectors, reconnect, then say 'today's stories'",
+   found":** name the failed connector, say "open Customize → Connectors, reconnect, then say 'today's stories'",
    and still leave three ideas from what loaded, marked partial. Never suggest re-running setup because of an error.
 2. **Read:** `brain.md`; `config.md` (timezone, locale; the `## Short-Form (Week 4)` block's `Email me:` line — an
    older Brain's block may carry the previous week number in its heading, read it the same); `identity/content-pillars.md`
@@ -67,7 +68,7 @@ never acted on.
 6. **Tell the member, when they asked to be told.** If the config block says `Email me: yes`, send ONE short email to
    the member's OWN address (the one on their connected Gmail or Outlook — never any other recipient, never a campaign)
    through that connected mail: subject "Your three stories for today", body = the three overlays with their stickers
-   and reply lines, nothing else. `Email me:` is `no`, `not offered yet` or missing → no email. No connected mail → one
+   and reply lines, nothing else. `Email me:` is `no`, `no (no mail connected)` or missing → no email. No connected mail → one
    line in the message says so; the Cowork note carries everything.
 7. **Push** through the `attraction-brain-sync` skill (PUSH, then verify) even though nothing new was written — the push
    re-renders the member's Brain Board so it is current. If it fails after one retry, say so in one line.

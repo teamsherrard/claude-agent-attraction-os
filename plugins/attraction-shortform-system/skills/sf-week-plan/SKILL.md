@@ -48,31 +48,33 @@ scalability rule bind every line (Rules, below).
 
 ## Job A — Provision only on a yes; stop in one sentence (the Week Plan and the Mid-week Nudge)
 The block is `~/attraction-brain/config.md → ## Short-Form (Week 4)` (an older heading with the earlier week number is the same block
-— read it, never create a second one). Each workflow has one line: a task id · `declined` · `later` · `not offered
-yet`. This skill's lines: `Week Plan task:` · `Week Plan slot:` · `Midweek Nudge task:` (update a line in place, never add a twin; a line is also found by its task id value).
-1. **The Monday Week Plan** — read its line. **A task id** → it is on; say so in one line. **`declined`** → they said
-   no; never re-offer (they can ask any time). **`not offered yet` / `later` / no line** → offer once, in one plain
-   line: *"Want this week's posts drafted and waiting every Monday morning — scripts, captions, and your stories for
-   the week, on your board? Nothing posts on its own. Yes, and what time?"* **Your turn.** (The yes given on setup's
-   consent card IS this consent — do not ask again there.)
-2. **Yes** → `list_scheduled_tasks` first (adopt an existing `attraction-sf-week-plan`, never a twin), else
+— read it, never create a second one). Each workflow has one line holding exactly one of three values: a task id (on) · `paused` (the
+member stopped it; its phrase brings it back) · `later` (not switched on yet); any other value in an older block reads as
+not on. This skill's lines: `Week Plan task:` · `Week Plan slot:` · `Midweek Nudge task:` (update a line in place, never add a twin; a line is also found by its task id value).
+1. **The Monday Week Plan** — read its line. **A task id** → it is on; say so in one line. **`paused`** → they stopped it;
+   honored (its phrase brings it back). **`later` / no line / any other value** (setup's one Yes normally switched it on)
+   → on the member's phrase ("turn on my Monday week plan") switch
+   it on as a statement, never an offer, never a question (the owner, 2026-11-14: told, not asked): *"Switching on
+   your Monday Week Plan — Mondays, 7:00 am; name another time any time."* (The Yes given on setup's consent card IS
+   this consent — setup provisions it without asking.)
+2. **On the phrase (or setup's Yes)** → `list_scheduled_tasks` first (adopt an existing `attraction-sf-week-plan`, never a twin), else
    `create_scheduled_task` with `taskId: attraction-sf-week-plan`, `cronExpression: 0 [hour] * * 1` (the hour they
    chose, default 7:00 am, in `config.md → Timezone`, no timezone math), and the `prompt` set **verbatim** from
    `references/week-plan-task-prompt.md`. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`); not
    there → say so plainly, never claim a schedule that did not save. Write `Week Plan task:
    attraction-sf-week-plan` and `Week Plan slot: Mondays [time]`, push via `attraction-brain-sync`, verify.
    Confirm once: *"On. Say 'stop my Monday week plan' any time."*
-3. **No** → `Week Plan task: declined`; push; never re-offer.
-4. **Stop / pause** → `delete_scheduled_task` (or disable for pause) on the saved id; write `declined` (or `paused`);
+3. **Stop / pause** → `delete_scheduled_task` (or disable for pause) on the saved id; write `paused`;
    push; confirm in one line. Never a second task. A demo Brain never gets a task.
-5. **The Mid-week Nudge (optional — off unless asked):** "turn on my mid-week nudge" → read `Midweek Nudge task:` (a
-   task id → on; `declined` → honored, they can still ask). Yes → `list_scheduled_tasks` first (adopt an existing
-   `attraction-sf-midweek-nudge`), else `create_scheduled_task` with `taskId: attraction-sf-midweek-nudge`,
-   `cronExpression: 0 [hour] * * 3` (Wednesdays, the Week Plan's hour unless they name one), the `prompt`
-   **verbatim** from `references/midweek-nudge-task-prompt.md`; verify; write `Midweek Nudge task:
+4. **The Mid-week Nudge (by phrase — one of the five extras):** "turn on my mid-week nudge" → read `Midweek Nudge
+   task:` (a task id → on, say so; `paused` → they stopped it, the phrase brings it back). On the phrase →
+   state it (*"Switching on your mid-week nudge — Wednesdays, [the Week Plan's hour]."*), `list_scheduled_tasks` first
+   (adopt an existing `attraction-sf-midweek-nudge`), else `create_scheduled_task` with `taskId:
+   attraction-sf-midweek-nudge`, `cronExpression: 0 [hour] * * 3` (Wednesdays, the Week Plan's hour unless they name
+   one), the `prompt` **verbatim** from `references/midweek-nudge-task-prompt.md`; verify; write `Midweek Nudge task:
    attraction-sf-midweek-nudge`; push; confirm: *"On. Say 'stop my mid-week nudge' any time."* Stop → delete,
-   `declined`, push, one line. Setup's consent card names this one only in its "say the word any time" sentence; it
-   is never provisioned from that sentence alone.
+   `paused`, push, one line. Setup states the five extras in one sentence ("they're there if you want them — say the
+   word any time"); none is provisioned from that sentence alone.
 
 ## Job B — The week, drafted (the scheduled run does exactly this)
 **Read:** `brain.md` · `config.md` (timezone, locale; the Short-Form block's `Email me:` line) ·
@@ -107,10 +109,10 @@ moved, renamed, or deleted are their decisions.
    booking line]."* — the law's shape, the person · their help · free · to run this; open register *"I'll walk you
    through it, free, no strings"*) on about one in four and every Proof piece; never the brokerage as the reason ·
    **the captions** per the optimizer's rules (Instagram + Facebook with the ask as the last line, TikTok one line,
-   YouTube Shorts title/description/tags, cover text). **A kit post row first** (its Format or Carries cell says `kit post`, or its title is one of the six — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call) — it sits at `Recorded` from the day the calendar was written, and this step still handles it: it is **post, don't make**:
+   YouTube Shorts title/description/tags, cover text). **A kit post row first** (its Format or Carries cell says `kit post`, or its title is one of the six — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call) — it sits at `Ready to Post` from the day the calendar was written, and this step still handles it: it is **post, don't make**:
    no hook, no script — the designed file is in the member's Offer folder. Draft only its caption from chapter 7's
    outline (the post's `Caption:` line and its ask from the CALLS TO ACTION table), the platform lines, the stamp,
-   and a one-line posting note (which file, which size); never re-design or rewrite the slides; its Status stays `Recorded` (designed; only the posting is left — never downgrade it). Then every other row: one already at `Scripted` or later → leave it; say so.
+   and a one-line posting note (which file, which size); never re-design or rewrite the slides; its Status stays `Ready to Post` (designed; only the posting is left — never downgrade it; nothing was recorded; posting flips it to `Published`). Then every other row: one already at `Scripted` or later → leave it; say so.
 4. **The week's story set**: seven days of story prompts on the four-category rotation (one line each: what to
    capture · overlay ≤ 15 words · sticker · reply CTA — the kit's story lines, *"Reply GUIDE and I'll send it."* ·
    *"Reply and I'll send you the link."*), the weekly group call's story proposed on its day only when the member
@@ -142,47 +144,56 @@ moved, renamed, or deleted are their decisions.
    `Scripted`; a dated block under `## Week briefs` in `memory/content-calendar.md` (the week's titles · the story set in one line · what was left undrafted and why); the story-bank Used-where; `ideas.md` rows → `used`. Save the
    week's doc per the output standard as `[YYYY-MM-DD] · Week Plan` in `03 · Content/Short-Form/[YYYY-MM · Month]/`,
    and keep its text at `~/attraction-brain/exports/week-plan-YYYY-MM-DD.txt` (the Brain Board reads this week's
-   rows from it). Push via `attraction-brain-sync`, verify — the push re-renders the Brain Board. A failed push: say
-   it is NOT saved, keep the drafts visible, retry once, stop. The scheduled run then tells the member the owner's
-   three ways (the note in Cowork · one email to their own address only when `Email me:` is `yes` · the push) — the
-   task prompt carries the steps verbatim; in chat, the close below is the note.
+   rows from it). Push via `attraction-brain-sync` **marked as the run's closing push**, verify — the sync rebuilds
+   the Brain Board and refreshes the Brain Book's "What's next" page and gives back their two links; relay them. A
+   failed push: say it is NOT saved, keep the drafts visible, retry once, stop. The scheduled run then tells the
+   member the owner's three ways (the note in Cowork · one email to their own address only when `Email me:` is `yes` ·
+   the push) — the task prompt carries the steps verbatim; in chat, the close below is the note.
 7. **Close** (the scheduled run leaves this as its final message; in chat, say it): *"Your week is drafted — [N]
    posts on the board, [the kit posts] ready to post, your stories for the week, filming day [day]; plus a welcome
    post for [First] — needs her OK (the graphic is a name-and-photo swap in Claude Design: say 'my welcome post for
-   [First]'). Say 'edit my reel' when the first one is recorded and you have the editor installed, 'my keyword
-   sheet' for the replies, 'plan my attraction week' for the rhythm around them. Your Brain Board is updated."*
-   (Drop the clauses that do not apply.)
+   [First]'). When a Reel is filmed: open a new chat and say 'edit my reel' — your AI Editing Studio (Plugin 5) edits
+   it inside your own Riverside account with the Video Brand Kit you designed in Week 3 (not installed yet? install
+   Plugin 5 from the same marketplace, then say 'set up riverside' once). 'My keyword sheet' for the replies, 'plan my
+   attraction week' for the rhythm around them. Your Brain Board and your Brain Book are updated — here they are:
+   [the Board link] · [the Book link]."* (Drop the clauses that do not apply; a rebuild that failed is named plainly
+   with "refresh my brain board" — never claimed.)
 
 ## Job C — The registry (every short-form workflow)
 Read `config.md`'s Short-Form block, call `list_scheduled_tasks`, and show — in plain words, never task ids:
 
-| Workflow | When | Default | Owner | Task id |
+| Workflow | When | Switched on | Owner | Task id |
 |---|---|---|---|---|
-| Monday Week Plan (with the recognition scan) | Mondays, the member's hour (7:00 am) | on | this skill | `attraction-sf-week-plan` |
-| Sunday Batch Prep | the evening before the batch day | on | `sf-batch-publish` | `attraction-sf-batch-prep` |
-| Daily Engagement List | each weekday morning | on | `sf-comment-to-dm` | `attraction-sf-engagement` |
-| Friday Performance Note | Fridays, the Friday slot | on | `sf-analytics` | `attraction-sf-weekly-performance` |
-| Monthly Calendar Refill | the last Friday of the month | on | `sf-gameplan` | `attraction-sf-calendar-refill` |
-| Brokerage News Watch | Wednesdays | on | `sf-greenscreen` | `attraction-sf-news-watch` |
-| Keyword Follow-up Queue | Tuesdays and Thursdays | optional | `sf-comment-to-dm` | `attraction-sf-keyword-queue` |
-| Mid-week Nudge | Wednesdays | optional | this skill | `attraction-sf-midweek-nudge` |
-| Monthly Deep Dive | the 1st of the month | optional | `sf-analytics` | `attraction-sf-deep-dive` |
-| Daily Stories Prompt | each morning | optional | `sf-stories` | `attraction-sf-daily-stories` |
-| Quarterly Profile Audit | quarterly | optional | `sf-setup` | `attraction-sf-profile-audit` |
+| Monday Week Plan (with the recognition scan) | Mondays, 7:00 am | by setup's one Yes | this skill | `attraction-sf-week-plan` |
+| Sunday Batch Prep | the evening before the batch day, 6:00 pm | by setup's one Yes | `sf-batch-publish` | `attraction-sf-batch-prep` |
+| Wednesday Brokerage News Watch | Wednesdays, 8:00 am | by setup's one Yes | `sf-greenscreen` | `attraction-sf-news-watch` |
+| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | by setup's one Yes | `sf-gameplan` | `attraction-sf-calendar-refill` |
+| Keyword Follow-up Queue | Tuesdays and Thursdays | by phrase | `sf-comment-to-dm` | `attraction-sf-keyword-queue` |
+| Mid-week Nudge | Wednesdays | by phrase | this skill | `attraction-sf-midweek-nudge` |
+| Monthly Deep Dive | the 1st of the month | by phrase | `sf-analytics` | `attraction-sf-deep-dive` |
+| Daily Stories Prompt | each morning | by phrase | `sf-stories` | `attraction-sf-daily-stories` |
+| Quarterly Profile Audit | quarterly | by phrase | `sf-setup` | `attraction-sf-profile-audit` |
 
-Each workflow's line in the block is found by its label (the locked label — `Week Plan task:` · `Weekly Content Performance task:` · `Daily Stories task:` and the rest of the contract's list) or by its task id value; a line missing is `not offered yet`. The Win & Milestone posts are not a task
-of their own: they ride inside the Monday Week Plan (Job B, 4b), and "write a win post for [Name]" is on demand in
-`sf-stories`. Show each with its status (on · off · declined · later · missing — the Brain says on but the task is
-gone → say so and offer to re-create through its owner) and the one-sentence stop, then the `Email me:` line
-(*"your workflows email you when something is ready: on / off"*). "Email me my notes" → write `Email me: yes
-YYYY-MM-DD`; "stop emailing me" → `Email me: no`; push; one line. The rule for every workflow: offer once, create
-only on an explicit yes, adopt an existing task rather than a twin, verify after creating, write the line and push,
-honor `declined`, never claim a schedule that did not save, every run ends with a push so the Brain Board shows it.
+Each workflow's line in the block is found by its label (the locked label — `Week Plan task:` · `News Watch task:` ·
+`Daily Stories task:` and the rest of the contract's list) or by its task id value; a line missing is `later`. The two
+workflows retired on 2026-11-14 are never listed; their lines in an older block are deleted on this skill's next write
+of its own lines (the engagement routine is the Game Plan's 15-minute text; the performance read is on demand —
+"how's my content doing" — and in the Monthly Deep Dive). The Win & Milestone posts are not a task of their own: they
+ride inside the Monday Week Plan (Job B, 4b), and "write a win post for [Name]" is on demand in `sf-stories`. Show
+each with its status (on · stopped · later · missing — the Brain says on but the task is gone → say so and re-create it
+through its owner, stated) and the one-sentence stop, then the `Email me:` line (*"your notes reach your own inbox
+when something's ready"* / *"no mail is connected yet, so your notes stay in Cowork"*). "Email me my notes" → mail
+connected → `Email me: yes YYYY-MM-DD`; no mail → say so, `Email me: no (no mail connected)`; "stop emailing me" →
+`Email me: no`; push; one line. The rule for every workflow: the four are switched on by setup's one Yes, the five by
+the member's phrase — a statement, never an offer; adopt an existing task rather than a twin, verify after creating,
+write the line and push, honor `paused`, never claim a schedule that did not save, every run ends with a push so the
+Brain Board shows it.
 
 ## Job D — The Mid-week Nudge (Wednesdays — optional; on demand any day: "what's due this week")
 Mid-week, the honest count and the next thing to film: *"two posts due this week; here is today's script."*
 1. **Read:** `memory/content-calendar.md` (the rows dated this week) · `memory/content-log.md` (their Status —
-   `Published`, `Recorded` and `Edited` count as done; `Scripted` and `Idea` are due) · this week's
+   `Published`, `Recorded` and `Edited` count as done; `Scripted` and `Idea` are due;
+   a kit post at `Ready to Post` is due to post, not to film) · this week's
    `exports/week-plan-*.txt` (the Monday drafts) · the board when `publishing.md` carries a URL (a card the member
    moved is the truth).
 2. **The count**, one line: posts due this week (a kit post still to post is "post, don't make").
@@ -192,10 +203,11 @@ Mid-week, the honest count and the next thing to film: *"two posts due this week
    `Scripted`, flip the calendar row, push. A kit post → the caption and the posting note, nothing to film.
 4. **Nothing due** → one warm line ("you're ahead — stories today, nothing else") and stop.
 5. **Save + push:** nothing new is written unless step 3 drafted; then push via `attraction-brain-sync` (the board
-   re-renders). Draft-only; never posts or schedules. Close: *"Say 'edit my reel' when it's recorded and you have the
-   editor installed, 'schedule this' to queue it."* The scheduled run (`references/midweek-nudge-task-prompt.md`)
-   ends the owner's three ways: the note, the one email when `Email me:` is `yes`, the push.
-Provision and stop: Job A, item 5.
+   re-renders). Draft-only; never posts or schedules. Close: *"Filmed? New chat → 'edit my reel' — your AI Editing
+   Studio takes it from there. 'Schedule this' to queue it."* The scheduled run
+   (`references/midweek-nudge-task-prompt.md`) ends the owner's three ways: the note, the one email when `Email me:`
+   is `yes`, the push.
+Provision and stop: Job A, item 4.
 
 ## Rules
 - Draft-only. Never posts, schedules, sends, DMs, or moves a pipeline stage; never a web search or a live-data call
@@ -213,12 +225,14 @@ Provision and stop: Job A, item 5.
   own batch-filming day is their routine and is fine.
 - Two keywords only — GUIDE and the offer's word; any other word in an older calendar row is replaced by the one its
   rung calls for, and said so in one line.
-- Plain, warm language; "your week plan", never a task id or a file name in front of the member; other plugins by
-  condition ("when you have the editor installed"), never by name.
+- Plain, warm language; "your week plan", never a task id or a file name in front of the member; the editing step
+  stated, never hedged — "when it's filmed: open a new chat and say 'edit my reel' — your AI Editing Studio (Plugin
+  5)"; the other plugins by condition, never by name.
 
 ## Quality checklist
-- [ ] Provisioned only on an explicit yes (setup's card or Job A), by the exact task ids; existing task adopted;
-      verified; the config lines written in the `(Week 4)` block and pushed; stop and pause honored in one sentence
+- [ ] Provisioned by setup's one Yes or the member's phrase in Job A (a statement, never an offer or a question), by
+      the exact task ids; existing task adopted; verified; the config lines written in the `(Week 4)` block and
+      pushed; stop and pause honored in one sentence; the two retired workflows never listed
 - [ ] The week's rows taken from the calendar, never invented; rows already at `Scripted` left alone; kit post rows
       get a caption and a posting note only — never a re-designed slide
 - [ ] Each draft: brief · hook ×3 · script or talking points · bullet version · the CTA with one of the two words in
@@ -230,5 +244,6 @@ Provision and stop: Job A, item 5.
 - [ ] Board cards filled by System ID, Status `Scripted`, sections replaced; 30 days kept visible and count-checked;
       no board → silent
 - [ ] Content-log rows, calendar statuses, the week brief, Used-where, and `used` stamps written; the week doc
-      saved and its text kept in `exports/`; pushed and verified (the Brain Board re-rendered); the closing line
-      said; a scheduled run told the member the three ways (the note · the one email when asked · the push)
+      saved and its text kept in `exports/`; the closing push made and verified (the Brain Board and the Brain Book
+      rebuilt, their links relayed — "here they are"); the closing line said with the editing step stated; a
+      scheduled run told the member the three ways (the note · the one email when `Email me:` is yes · the push)

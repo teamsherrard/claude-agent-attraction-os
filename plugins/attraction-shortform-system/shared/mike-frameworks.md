@@ -147,7 +147,10 @@ the attraction-specific pieces cite their lesson.
   simple; captions are the only mandatory edit; vertical, phone-filmed, one person.
 - **One video, every short-form platform.** Post the Instagram Reel to TikTok, YouTube Shorts, and Facebook
   Reels — "now you cover all short-form platforms with one video" (`07/90`). LinkedIn carries the carousel as a
-  document post for team leaders and broker-owners (master plan).
+  document post for team leaders and broker-owners (master plan). **The OS reads it as (the owner, 2026-11-14 —
+  platforms are never asked):** Instagram and Facebook, both, every Reel and every graphic (Facebook Reels is the same
+  video reposted); TikTok and YouTube Shorts as optional reposts of the same video — nothing new to make; LinkedIn for
+  the carousels and story posts only when the member attracts team leaders or broker-owners, otherwise off.
 - **Captions simple, clear, with a call to action** (`07/90`). **3–5 searchable hashtags, never a wall**
   (Mike's realtor short-form rule; the optimizer's `platform-rules.md` applies it). Hashtags lean to the
   agent audience (#realtorlife, #realestateagent, the brokerage-agnostic agent tags) — never the brokerage
@@ -178,9 +181,11 @@ ends on exactly **one** rung, named out loud and repeated in the caption.
   last line. Every other default keyword is retired (house rules #12). With ManyChat set up in the member's OWN
   account (ManyChat has no connector in Cowork — `sf-comment-to-dm` writes the ManyChat Build Sheet, the member
   clicks) the two words trigger their sequences (Mike's template, installed in their account and keyed to the two
-  words, plus the story reply and the DM qualifier). Without ManyChat the keywords still work: the member replies by hand with
-  the DM bank, the Keyword Follow-up Queue drafts the next DM, and once the AI Admin is installed (a later week) its
-  Daily Follow-Up Queue surfaces the comments. **ManyChat is optional; the keyword is not.**
+  words, plus the story reply and the DM qualifier). Until ManyChat is live the keywords still work: the member replies
+  by hand with the DM bank, the Keyword Follow-up Queue drafts the next DM, and once the AI Admin is installed (a later
+  week) its Daily Follow-Up Queue surfaces the comments. **ManyChat is part of the program (the owner, 2026-11-14) —
+  set up this week in the member's own account from the build sheet, never connected to Claude, never "optional",
+  never asked about; the keyword carries every Reel.**
 - **Never skip rungs.** A Reel never jumps from a first-time viewer to "book a call" — the call comes after a
   conversation (`02-prospect-targeting/19`: get them on a private call as quickly as possible, but say as little
   as you have to in text and never explain the model by DM).
@@ -270,7 +275,7 @@ highlights must spark curiosity and credibility.
 - **The Week 4 default mix (short-form cohort doc, `sf-weekly-routine`): one attraction · one authority · one story at three a week (2 · 2 · 1 at five) a week, stories
   daily.** The OS reads it as: *attraction* = Proof + Personality (culture, recognition, the person); *authority*
   = Authority + Perspective (teaching, takes); *story* = Story. Reset to the sample week whenever the member's
-  real cadence is lower — three Reels minimum (`/88`). **The OS starts every member at three** (one attraction · one authority · one story, stories daily) and the Friday note proposes five after a month at three — the owner's ruling, 2026-11-14: twenty posts at once overwhelms a working leader.
+  real cadence is lower — three Reels minimum (`/88`). **The OS starts every member at three** (one attraction · one authority · one story, stories daily) and the Monthly Calendar Refill and the Monthly Deep Dive propose five after a month at three has held — the owner's ruling, 2026-11-14: twenty posts at once overwhelms a working leader.
 - **Your own ideas, over time.** Prompts and AI help at the start; "over time you want to put your own spin on
   it… 50% of my ideas come from AI, 50% will forever come from myself" — the member's conversations, coaching
   calls, and the questions agents ask are the best source (`/90`). The Brain's `memory/ideas.md` and
@@ -315,9 +320,11 @@ banned. A skill asked to "call out" a brokerage or a person says so in one line 
 ## 12. Coaching answers (advise exactly like this when the member asks)
 - **How often should I post?** Three to five Reels a week, working up to five (`07/88`); stories every single
   day, one to five (`07/89`). Consistency outranks production quality (`07/90`).
-- **Which platform?** Instagram Reels first — "the platform most people are on… put a lot of emphasis on it"
-  (`07/88`); repost every Reel to TikTok, YouTube Shorts, and Facebook Reels (`07/90`). LinkedIn for team leaders
-  and broker-owners (carousel document posts). YouTube is the long-form engine (a later week).
+- **Which platform?** Never asked (the owner, 2026-11-14) — stated: Instagram and Facebook, both, every Reel and
+  every graphic (Mike: Instagram Reels is "the platform most people are on… put a lot of emphasis on it" — `07/88`;
+  Facebook Reels is the same video reposted — `07/90`); TikTok and YouTube Shorts take the same video any time the
+  member wants more reach (optional reposts, nothing new to make); LinkedIn for the carousels and story posts only
+  when the member attracts team leaders or broker-owners. YouTube is the long-form engine (a later week).
 - **Should I talk about my brokerage?** Woven through the pillars, never the feed (launching doc). Speak to
   problems, not features (§6). The model is explained on a call, never in a Reel or a DM (`02/19`).
 - **Should I show the money?** No. Compensation stays off content (§11). What you *show* is proof of

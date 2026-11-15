@@ -31,8 +31,7 @@ Agent Attraction OS/
       │     │     ├── 2026-11-18 · ManyChat Build Sheet                 (Doc — sf-comment-to-dm; followed in the member's own ManyChat)
       │     │     └── 2026-11-19 · Stories · Tuesday Set                (Doc)
       │     └── Performance/
-      │           ├── 2026-11-01–14 · Performance Review               (Doc — sf-analytics)
-      │           ├── 2026-11-21 · Weekly Content Performance          (Doc — the Friday note)
+      │           ├── 2026-11-01–14 · Performance Review               (Doc — sf-analytics, the on-demand read when a doc is asked for)
       │           └── 2026-11-30 · Short-Form Deep Dive                (Doc — sf-analytics, monthly)
       └── Graphics/
             └── 2026-11 · November/
@@ -42,9 +41,10 @@ Agent Attraction OS/
 **Beside the Drive doc — the Brain's `exports/`.** The texts the Brain Board shows are also kept at
 `~/attraction-brain/exports/` (the Brain syncs `exports/*.txt`; the board is re-rendered from them on every push):
 the Game Plan as `short-form-game-plan-YYYY-MM-DD.txt` (`sf-gameplan`), each Week Plan as `week-plan-YYYY-MM-DD.txt`
-(`sf-week-plan`), each Friday note as `short-form-performance-YYYY-MM-DD.txt` (`sf-analytics`), the keyword sheet as
-`keyword-sheet-YYYY-MM-DD.txt` and the ManyChat build sheet as `manychat-build-sheet-YYYY-MM-DD.txt` (`sf-comment-to-dm`),
-each news watch as `news-watch-YYYY-MM-DD.txt` (`sf-greenscreen`).
+(`sf-week-plan`), each performance read ("how's my content doing") as `short-form-performance-YYYY-MM-DD.txt`
+(`sf-analytics`), the keyword sheet as `keyword-sheet-YYYY-MM-DD.txt` and the ManyChat build sheet as
+`manychat-build-sheet-YYYY-MM-DD.txt` (`sf-comment-to-dm`), each news watch as `news-watch-YYYY-MM-DD.txt`
+(`sf-greenscreen`).
 Written in the same run as the doc, then pushed; never instead of the doc. Read, never written: `week3-kit-*.txt`.
 
 Don't pre-create empty month folders — create the current month's folder the first time you save into it.
@@ -65,8 +65,7 @@ Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.m
 | News watch (the Wednesday workflow — three to six cited headlines with a take each) | `YYYY-MM-DD · Green Screen · News Watch` | `2026-11-19 · Green Screen · News Watch` |
 | Story set | `YYYY-MM-DD · Stories · [Day / theme]` | `2026-11-19 · Stories · Tuesday Set` |
 | Carousel / LinkedIn doc (a lean build sheet) | `YYYY-MM-DD · Carousel · [Short Topic]` | `2026-11-20 · Carousel · Why I Left` |
-| Performance doc | `YYYY-MM-DD–DD · Performance Review` | `2026-11-01–14 · Performance Review` |
-| Friday note | `YYYY-MM-DD · Weekly Content Performance` | `2026-11-21 · Weekly Content Performance` |
+| Performance doc (the on-demand read, when a doc is asked for) | `YYYY-MM-DD–DD · Performance Review` | `2026-11-01–14 · Performance Review` |
 | Deep dive | `YYYY-MM-DD · Short-Form Deep Dive` | `2026-11-30 · Short-Form Deep Dive` |
 | Weekly ideas + hook bank | `YYYY-MM-DD · Attraction Ideas + Hook Bank` | `2026-11-17 · Attraction Ideas + Hook Bank` |
 | Weekly routine | `YYYY-MM-DD · Weekly Routine` | `2026-11-17 · Weekly Routine` |
@@ -76,15 +75,14 @@ Storage-agnostic: the same map on Google Drive or OneDrive (`shared/connectors.m
 | Publishing queue | `YYYY-MM-DD · Publishing Queue` | `2026-11-24 · Publishing Queue` |
 | Brain export — the Game Plan's text (`sf-gameplan`) | `exports/short-form-game-plan-YYYY-MM-DD.txt` | `exports/short-form-game-plan-2026-11-17.txt` |
 | Brain export — a Week Plan's text (`sf-week-plan`) | `exports/week-plan-YYYY-MM-DD.txt` | `exports/week-plan-2026-11-23.txt` |
-| Brain export — a Friday note's text (`sf-analytics`) | `exports/short-form-performance-YYYY-MM-DD.txt` | `exports/short-form-performance-2026-11-21.txt` |
+| Brain export — a performance read's text ("how's my content doing", `sf-analytics`) | `exports/short-form-performance-YYYY-MM-DD.txt` | `exports/short-form-performance-2026-11-21.txt` |
 | Brain export — the keyword sheet's text (`sf-comment-to-dm`) | `exports/keyword-sheet-YYYY-MM-DD.txt` | `exports/keyword-sheet-2026-11-18.txt` |
 | Brain export — the ManyChat build sheet's text (`sf-comment-to-dm`) | `exports/manychat-build-sheet-YYYY-MM-DD.txt` | `exports/manychat-build-sheet-2026-11-18.txt` |
 | Brain export — a news watch's text (`sf-greenscreen`) | `exports/news-watch-YYYY-MM-DD.txt` | `exports/news-watch-2026-11-19.txt` |
 
 Everything in the Short-Form bucket except the Game Plan and the performance documents lives in the month folder
 (`03 · Content/Short-Form/[YYYY-MM · Month]/`); the Game Plan lives at the bucket root (dated, newest is current);
-the performance review, the Friday note, and the deep dive live in `03 · Content/Short-Form/Performance/` (no month
-folder).
+the performance review and the deep dive live in `03 · Content/Short-Form/Performance/` (no month folder).
 
 Topic = 3–6 plain words (Title Case), no punctuation soup. Dates are ISO (`YYYY-MM-DD`) so files sort on their
 own. **Dated filenames; the newest is current** — the storage connectors are create-only, so a regenerated doc
@@ -212,7 +210,7 @@ PERSPECTIVE — what I believe · STORY — where I've been · PROOF — what's 
 3. THE FORMAT MIX AND THE WEEKLY CADENCE
 [N] Reels a week — three to start, five the step-up · the mix: one attraction · one authority · one story (2 · 2 · 1 at five), stories daily (the OS default)
 Formats: talking head [what for] · green screen [what for] · carousel [what for] · stories [what for]
-Platforms, in order: [Instagram Reels → TikTok → YouTube Shorts → Facebook Reels · LinkedIn for the carousel]
+Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when you attract team leaders; TikTok and YouTube Shorts take the same video any time you want more reach
 Batch day: [day · the rhythm]   ·   The 15-minute routine: [the moves, the time of day]
 
 ———————————————————————————————
@@ -224,28 +222,29 @@ AUTHORITY: 1–6 · PERSPECTIVE: 1–6 · STORY: 1–6 · PROOF: 1–6 · PERSON
 The ladder: Follow / save / share → Comment → DM → Resource → Conversation → Call   ·   one Reel, one rung, one of the two keywords
 | Where it goes | Ask for the guide | Ask for the call |   (caption, last line · comment keywords · video pop-up · spoken line · end card · story · bio link · DM reply — the table's rows, copied)
 The ask map: [pillar → rung, five lines] · the guide (GUIDE) on most posts; the call on about one post in four and every proof piece, in the law's shape
-The two keywords: GUIDE → the guide · [the offer's word] → the one-pager and the invitation · by hand / ManyChat: [state]   ·   the full keyword sheet: "my keyword sheet"
+The two keywords: GUIDE → the guide · [the offer's word] → the one-pager and the invitation   ·   the full keyword sheet: "my keyword sheet"
+ManyChat: ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links — your build sheet walks you through it step by step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live, reply by hand from your DM bank.   ·   the steps: "my ManyChat build sheet"
 
 ———————————————————————————————
 6. THE 30-DAY CALENDAR   ([date] → [date])
-FIRST — THE SIX POSTS YOU ALREADY HAVE   (designed in Week 3, waiting in your Offer folder — post, don't make)
+GRAPHICS — THE SIX POSTS YOU ALREADY HAVE   (post, don't make — the Graphics tab on your board; designed in Week 3, waiting in your Offer folder)
 | # | Date | Day | Format | Pillar | Working title | Hook | CTA (rung · WORD) | Carries |
-[six rows — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call; one every two or three days; the table's ask on each]
-THEN THE REELS   ([n] rows at your cadence — six at the default three a week, fourteen at five; the first Reels cover the pillars the kit posts don't: Personality, Perspective, the Authority teach)
+[six rows — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call; one every two or three days; the table's ask on each; Status Ready to Post]
+REELS — [n] ROWS AT YOUR CADENCE   (the Reels tab — six at the default three a week, fourteen at five; the first Reels cover the pillars the kit posts don't: Personality, Perspective, the Authority teach)
 [the Reel rows, dated, in the same table]
 STORIES, DAILY: [the four-category rotation · morning / midday / evening]
 THE BATCH PLAN: [sessions · what films together · hours]
 THE THREE TO FILM FIRST: 1. [#, why]  2. [#, why]  3. [#, why]
 
 ———————————————————————————————
-7. WHAT WE MEASURE AND THE FRIDAY CHECK
-[the five Friday numbers · calls booked from content · the benchmark · where the numbers come from · the compliance line]
+7. WHAT WE MEASURE
+Any time you ask "how's my content doing", and each month in your deep dive, five numbers: [people who saw you · Reels posted of the cadence · story days of seven · keyword comments · conversations started] · calls booked from content · the benchmark · where the numbers come from · the compliance line
 
 ———————————————————————————————
-8. YOUR SCHEDULED WORKFLOWS   (all draft-only — nothing posts, sends, or schedules on its own; each [when · what it produces · on / off / not yet])
-Recommended: Monday Week Plan · Sunday Batch Prep · Daily Engagement List · Brokerage News Watch (Wednesdays) · Friday Performance Note · Monthly Calendar Refill
-Optional, say the word: Keyword Follow-up Queue · Mid-week Nudge · Monthly Deep Dive · Daily Stories Prompt · Quarterly Profile Audit
-Email me: [yes — one short note to your own address when something is ready · no]
+8. YOUR SCHEDULED WORKFLOWS   (all draft-only — nothing posts, sends, or schedules on its own; each [when · what it produces · on since / stopped])
+Switched on: Monday Week Plan (Mondays, 7:00 am) · Sunday Batch Prep (the evening before your batch day, 6:00 pm) · Wednesday Brokerage News Watch (Wednesdays, 8:00 am) · Monthly Calendar Refill (the last Friday of the month, 5:00 pm)
+There are five more — a keyword follow-up queue, a mid-week nudge, a monthly deep dive, a daily stories prompt and a quarterly profile check — they're there if you want them; say the word any time.
+I'll email you a short note at your own address when something's ready.   [or: No mail is connected yet, so your notes stay in Cowork.]
 
 ———————————————————————————————
 9. NEXT STEPS
@@ -407,7 +406,7 @@ KEYWORD SHEET + DM BANK
 THE TWO KEYWORDS   (one page — never a third word)
 GUIDE → the guide, instantly (the DM with the download link) · said on camera at the end · the caption's last line · pinned as the first comment
 [THE OFFER'S WORD] → the one-pager and the invitation to talk (the call link) · the invitation word, on about one post in four
-ManyChat: [set up — Mike's template installed, the build sheet followed / replying by hand / declined] — the member's own account; no connector in Cowork
+ManyChat: [set up YYYY-MM-DD — Mike's template installed, the build sheet followed / not yet — set it up this week; replying by hand from the DM bank until it's live] — the member's own account; you don't connect ManyChat to Claude
 
 ———————————————————————————————
 THE CTA BANK   (fifteen lines, three per pillar, each on its rung)
@@ -430,13 +429,19 @@ COMPLIANCE
 ```
 
 **ManyChat Build Sheet** (`sf-comment-to-dm` — `YYYY-MM-DD · ManyChat Build Sheet`; the member follows it in their OWN
-ManyChat account after installing Mike's template — ManyChat has no connector in Cowork, so the plugin writes the
-sheet and never claims to run it, never says "connected") — floor: the two keywords and the story reply, each with
-trigger · message 1 · button text · message 2 · the tag · the human follow-up; ~400–700 words. **Its text is also kept
-at `~/attraction-brain/exports/manychat-build-sheet-YYYY-MM-DD.txt`**, then pushed.
+ManyChat account this week after installing Mike's template — ManyChat is part of the program and is never connected
+to Claude: the plugin writes the sheet and never claims to run it, never says "connected", never "optional"; setup
+hands it over inside its Game Plan step and "my ManyChat build sheet" prints it any time) — floor: the owner's opening
+line, the two keywords and the story reply, each with trigger · message 1 · button text · message 2 · the tag · the human
+follow-up; ~400–700 words. **Its text is also kept at `~/attraction-brain/exports/manychat-build-sheet-YYYY-MM-DD.txt`**,
+then pushed.
 ```
 MANYCHAT BUILD SHEET
 [Member Name] · [Organization] · [Date]
+
+———————————————————————————————
+WHY, IN ONE BREATH
+ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links — this sheet walks you through it step by step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live, reply by hand from your DM bank.
 
 ———————————————————————————————
 BEFORE YOU START
@@ -464,17 +469,19 @@ COMPLIANCE
 [the stamp — the brokerage name as required in the DM signature, if any]
 ```
 
-**Weekly Content Performance — the Friday note** (`sf-analytics`' scheduled agent; also "review my attraction
-week") — floor: one page, ~250–400 words, every number sourced or "not available". **Its text is also kept at
-`~/attraction-brain/exports/short-form-performance-YYYY-MM-DD.txt`**, then pushed (the Brain Board shows its numbers).
+**The Performance Read** (`sf-analytics`, on demand — "how's my content doing", "review my attraction week"; the same
+five numbers each month inside the deep dive; no weekly note — the owner, 2026-11-14) — floor: one page,
+~250–400 words, every number sourced or "not available". Delivered in chat and **its text kept at
+`~/attraction-brain/exports/short-form-performance-YYYY-MM-DD.txt`**, then pushed (the Brain Board shows its numbers); a
+doc (`YYYY-MM-DD–DD · Performance Review`) only when the member asks for one.
 ```
-WEEKLY CONTENT PERFORMANCE · [WEEK OF DATE]
-[Member Name] · [Organization] · [Friday date]
+PERFORMANCE READ · [WEEK OF DATE]
+[Member Name] · [Organization] · [date]
 
 ———————————————————————————————
 THIS WEEK IN FIVE NUMBERS
 People who saw you: [n] · Reels posted: [n] of [cadence] · Story days: [n] of 7 · Keyword comments: [n] · Conversations started: [n] (from your log)
-Source: [your Instagram, pulled Friday / the posting tool / "numbers not available this week — add them Monday"]
+Source: [your Instagram, pulled today / the posting tool / "numbers not available this week — add them"]
 
 ———————————————————————————————
 WHAT STARTED CONVERSATIONS
@@ -493,8 +500,12 @@ NEXT WEEK'S ROWS   (the mix in force)
 1. [hook · pillar · format · rung · keyword]   [...]   5. [...]
 
 ———————————————————————————————
-YOUTUBE SECTION
-[appended by your YouTube system in a later week; omitted until then]
+THE POST TO REPURPOSE
+[the one post · the one way to give it a second life — a carousel of its steps, a story set, a follow-up Reel, a re-cut ("edit my reel" in a new chat)]
+
+———————————————————————————————
+THE STEP UP   (only when a month at three a week has held — three Reels posted in each of the last four weeks; omitted otherwise)
+A month at three a week has held — you're ready for five. Say "five a week" and I'll remap the month on it.
 ```
 
 **Weekly Routine** (`sf-weekly-routine`) — floor: the seven-day table, the batch block with a start time, seven
@@ -644,9 +655,11 @@ The stamp is a byline + footer only — never inside a caption, bio, or script b
 4. Confirm in plain language + give the location:
    *"Saved to your workspace → Content → Short-Form → November. Here's the doc: [link]."*
 5. The content-log row (the workflow already writes it, then pushes) is the index; the Doc is the readable copy.
-6. **The Brain Board's texts:** the Game Plan, a Week Plan, a Friday note, the keyword sheet, the ManyChat build sheet and a news watch also
+6. **The Brain Board's texts:** the Game Plan, a Week Plan, a performance read, the keyword sheet, the ManyChat build sheet and a news watch also
    write their text to `~/attraction-brain/exports/` under the names in §2, in the same run — then the push (write →
-   push → verify) re-renders the Brain Board. A doc saved without its export is half-saved.
+   push → verify) re-renders the Brain Board. A doc saved without its export is half-saved. The push that closes a
+   sitting is marked as the closing push; the sync returns the Brain Board's and the Brain Book's links, which the
+   close relays — "here they are".
 
 Keep delivering the copy-paste version in chat too — the member often films or posts right away. The doc is
 the organized record they (and anyone helping them) can always find.

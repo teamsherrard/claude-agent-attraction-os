@@ -188,7 +188,14 @@ demo Brain, a bridged Brain or a member who ran ahead can hold a built offer whi
   the lead magnet while it is not built, else at Week 3 — the brand chat and Claude Design ("your brand direction
   is set" once `brand-visual.md` shows the brand chat has run) — its second bullet at the next system of the
   cohort, and its callout is the next phrase to type for THAT week.
-- Everything else renders the same in both states. **The demo Book ships in the Week-1 state** — that is what a
+- **A weekly system built — the SYSTEM STATES (2026-11-14).** Once a system's block is registered in `config.md`
+  (Short-Form, YouTube, and the later systems), Section 9's first bullet names the system that just went live in one
+  line of facts from the Brain (Short-Form: the cadence, the two keywords, the workflows switched on · YouTube: the
+  cadence, the lanes, the Monday Kickoff); its second bullet names the NEXT system in cohort order whose block is not
+  registered yet (lead magnet → the brand chat and Claude Design → short-form → YouTube → the sales system → the AI
+  Admin → events) with the one phrase that opens it — a week number only for Weeks 1 to 5, "a later week" after;
+  its third bullet is unchanged; the callout is that next phrase. Still exactly three one-line bullets.
+- Everything else renders the same in every state. **The demo Book ships in the Week-1 state** — that is what a
   member holds at the end of Setup.
 
 ---
@@ -426,8 +433,7 @@ Exactly three one-line bullets, plain, in order — by the state rule. The Week-
 Post-offer state: the first bullet names the Partner Offer in `05 · Offer` and the lead magnet (built, or the
 phrase to build it); the second reads *Week 3: your brand chat, then Claude Design* — or *your brand direction is
 set; your Design Package brief is in 02 · Brand* once `brand-visual.md` shows the brand chat has run
-and the magnet's state; the third is unchanged. At most three distinct command phrases in the section. No
-open-items list, no compliance note, no scheduled-task note, no booking-link / CRM / tools sentence. The `>> `
+and the magnet's state; the third is unchanged. System states (a weekly system built): per the state rule — the system that just went live · the next system and its phrase · any time. At most three distinct command phrases in the section. No open-items list, no compliance note, no scheduled-task note, no booking-link / CRM / tools sentence. The `>> `
 callout is the one next thing to type — in the Week-1 state, **"my attraction brand direction"**.
 
 ---
@@ -520,6 +526,17 @@ corrective re-upload of the already-rendered `.docx`; **push verify-fails** = TW
   (the story updated, a second group derived, the voice refreshed). The brand chat does NOT regenerate the
   Book on its own (the Book carries no brand) — it updates on the next trigger. **A build's OWN write-backs**
   are never a material change and never trigger another regenerate — one build per trigger, always.
+- **The What's-next refresh — the close of a weekly system's sitting (the owner, 2026-11-14: every sitting ends
+  with "your Brain Board and your Brain Book are updated — here they are").** Called by `attraction-brain-sync` on a
+  sitting's CLOSING push (the Lead Magnet, Short-Form and YouTube sittings, and the later systems), never by the
+  member. **Section 9 only:** Sections 1 to 8, the cover and their contents rows are carried over
+  character-for-character from the newest `exports/brain-book-*.txt` — never re-derived, never re-read from the
+  identity files, so the member's Book does not drift; Section 9's body and its contents-row summary are rewritten by
+  the state rule; the text is written to a new dated `exports/brain-book-YYYY-MM-DD.txt`; then pipeline steps 5 to 7
+  as always (render with the same `--accent` rule · `measure_book.py` · upload beside the old copy · return the
+  link). One pass, about a minute, no interview, no research. No Book text on file → no refresh: return the newest
+  Book's link as it stands and say so in one line ("show me my Brain" is the full rebuild). A measure FAIL keeps the
+  previous Book and is said plainly. A build's own write-backs never trigger another.
 - **Refresh, don't fork:** same name pattern, new date, saved beside the old — newest = current; the old dated
   copies are the version history (the superseded copy may be trashed after a verified push; snapshots never).
 - **No research, ever.** The Book never triggers a Prospect Radar run; the landscape lives in

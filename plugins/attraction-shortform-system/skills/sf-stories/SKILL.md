@@ -53,8 +53,9 @@ Read `~/attraction-brain/brain.md` first, then:
   passions and routines they're willing to share, what's off-limits); written by the Game Plan inside setup —
   missing → "say 'set up my attraction short-form'" in one warm line
 - `memory/content-calendar.md` — today's planned post, if any (a "recording day" story proposes itself)
-- `identity/publishing.md` — the two keywords (`Keyword: GUIDE · [the offer's word]`), ManyChat state (`set up` →
-  the story-reply flow keys on GUIDE and the offer's word; otherwise by hand), the highlights list, `Content board:`
+- `identity/publishing.md` — the two keywords (`Keyword: GUIDE · [the offer's word]`), the ManyChat state (`set up
+  YYYY-MM-DD` → the story-reply flow keys on GUIDE and the offer's word; `not yet — set it up this week` → by hand from
+  the DM bank until it's live; never asked), the highlights list, `Content board:`
 - `identity/avatars.md` — who's watching; what a quick win looks like for them
 - `identity/proof.md` — agent wins with consent — the **Agents helped** rows (name · what you did · what happened ·
   dated) and their consent column (a win without consent is told as "one of my agents", never named); **Organization**
@@ -123,9 +124,10 @@ The story-reply flow is the DM rung of the ladder. Two words only: **GUIDE** whe
 Reply and I'll send you the link."*), a question (*"Reply with the number of deals you're at — I'll tell you the one
 thing I'd change"*), a vote (*"Vote, then reply and tell me why."*). Never a third word. The CTA is a question the
 viewer answers by replying. If `publishing.md` says `ManyChat: set up` → GUIDE triggers the **story-reply**
-sequence (Mike's bonus asset, imported into the member's account) and the offer's word opens the invitation; write
-the CTA around those. Otherwise → the member replies by hand within the day (say so once); once the AI Admin is
-installed (a later week) its follow-up queue surfaces replies. A reply that turns into a real conversation is
+sequence (Mike's bonus asset, imported into the member's own account — never connected to Claude) and the offer's
+word opens the invitation; write the CTA around those. `not yet — set it up this week` → the member replies by hand
+from the DM bank within the day (say so once, with *"your build sheet has the steps — 'my ManyChat build sheet'"*);
+once the AI Admin is installed (a later week) its follow-up queue surfaces replies. A reply that turns into a real conversation is
 handed to `sf-comment-to-dm` — the one short-form skill that logs a conversation row (through `attraction-capture`
 when present) until the Conversion and Admin plugins exist; this skill never logs one.
 
@@ -189,24 +191,24 @@ any day. This skill writes the words; the graphic is the member's, in Claude Des
    when held (`HELD — needs First's OK`); push via `attraction-brain-sync` at once (write → push → verify) — the Brain
    Board shows it. A win that is also proof for the member's own story: "say 'attraction win' so it's remembered".
 
-## The scheduled workflow — Daily Stories (optional; OFF by default; this skill owns it)
+## The scheduled workflow — Daily Stories (by phrase — one of the five extras; this skill owns it)
 Three story ideas each morning as a draft — for the member who wants the day started for them. **Provisioned
-only with the member's explicit yes, never silently.** The normal path is **setup's consent card** (`sf-setup`
-Step 5 — recommended off there; a yes to it is this consent, and setup runs the provisioning without asking
-again). Otherwise "turn on my daily stories" → read `config.md`'s `Daily Stories task:` line first (the `## Short-Form
-(Week 4)` block; an older Brain's block may carry the previous week number in its heading — read it the same): a task
-id → it is on, say nothing; `declined` → never re-offer; `later` / `not offered yet` / no line → offer once, in one
-plain line: *"want three story ideas waiting for you every morning — on your rotation, from what's actually
-happening in your week? Nothing posts on its own. Yes, and what time?"* **Your turn.**
-- **Yes** → `list_scheduled_tasks` first (adopt `attraction-sf-daily-stories` if it exists, never a twin), else
+only with the member's explicit yes, never silently.** Setup states it among the five extras in one sentence
+("they're there if you want them — say the word any time") and never provisions it from that sentence alone. "Turn on
+my daily stories" → read `config.md`'s `Daily Stories task:` line first (the `## Short-Form (Week 4)` block; an older
+Brain's block may carry the previous week number in its heading — read it the same): a task id → it is on, say so;
+`paused` → they stopped it, its phrase brings it back; `later` / no line / any other value → on the phrase, a statement, never an
+offer or a question (the owner, 2026-11-14: told, not asked): *"Switching on your daily stories — every morning,
+7:30 am; name another time any time."*
+- **On the phrase** → `list_scheduled_tasks` first (adopt `attraction-sf-daily-stories` if it exists, never a twin), else
   `create_scheduled_task` with `taskId: attraction-sf-daily-stories`, every morning at their time (default
   7:30 am, in `config.md → Timezone`), the `prompt` set **verbatim** from `references/daily-stories-task-prompt.md`.
   Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — never claim a schedule that did not save.
   Write `Daily Stories task: attraction-sf-daily-stories` and `Daily Stories time: [time]` to the `## Short-Form
   (Week 4)` block of `config.md`; push via `attraction-brain-sync`; confirm once: *"On. Say 'stop my daily stories'
   any time."*
-- **No** → `Daily Stories task: declined`; push; never re-offer. **Stop / pause** → `delete_scheduled_task` (or
-  disable) on the saved id; write `declined` (or `paused`); push; one line. A demo Brain never gets a task.
+- **Stop / pause** → `delete_scheduled_task` (or disable) on the saved id; write `paused`; push; one
+  line. A demo Brain never gets a task.
 - The scheduled run writes nothing to the Brain's files — it leaves the three ideas as its closing message; the
   member says "post these" in chat and this skill logs them (Phase 5). **Telling the member:** when the config block
   says `Email me: yes` the run sends ONE short email to the member's OWN address through their connected mail (never to
@@ -245,6 +247,6 @@ happening in your week? Nothing posts on its own. Yes, and what time?"* **Your t
 - [ ] No compensation, no earnings, no negative word about any brokerage or person; compliance three-state applied;
       "a cap" as a milestone only where the rev-share marketing policy allows
 - [ ] Logged one row per pillar in the locked shape (one value per Pillar cell), pushed; text only
-- [ ] The Daily Stories workflow provisioned only on a yes (setup's card or here), adopted not twinned, verified;
-      the two config lines written to `## Short-Form (Week 4)` and pushed; off by default; draft-only; the run emails
-      the member only when `Email me: yes`, and ends with a push
+- [ ] The Daily Stories workflow provisioned by the member's phrase (a statement, never an offer), adopted not
+      twinned, verified; the two config lines written to `## Short-Form (Week 4)` and pushed; by phrase only;
+      draft-only; the run emails the member only when `Email me: yes`, and ends with a push

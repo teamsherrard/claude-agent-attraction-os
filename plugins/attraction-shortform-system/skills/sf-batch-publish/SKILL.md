@@ -106,9 +106,11 @@ any location besides home or office (the brokerage office, a coffee shop, an eve
 - **THE SAFETY NET** — two or three b-roll grabs while set up (the office, the desk, a walk-in, a slow pan of
   the whiteboard) for next month's cutaways.
 - **AFTER THE SHOOT** — check one clip's audio, confirm focus, name the files by date and hook, note
-  re-takes; when the member has the editor installed, hand the folder to it — each clip is a `studio-reel`
-  job (`studio-batch` when the same session also produced a long-form); say "when you have the editor", never a
-  requirement.
+  re-takes; then the editing step, stated (the owner, 2026-11-14 — never hedged): *"When it's
+  filmed: open a new chat and say 'edit my reel' — that opens your AI Editing Studio (Plugin 5), which edits inside
+  your own Riverside account and reads the Video Brand Kit you designed in Week 3. Not installed yet? Install Plugin 5
+  from the same marketplace first, then say 'set up riverside' once."* Each clip is a `studio-reel` job (`studio-batch`
+  when the same session also produced a long-form).
 
 **Permission and people:** any agent who appears on camera, in a screenshot, or in a story about their win
 has said yes, including to any number (the consent column in `proof.md`; the Testimonial consent line in
@@ -118,19 +120,26 @@ other people's names without their consent.
 
 Deliver in chat and save per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render to `.docx`
 (`shared/render_doc.py`) → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Film-Day Plan` — run sheet on
-page one, cards large. Close: *"block the time now; a filming day that isn't on the calendar doesn't happen."*
+page one, cards large. Then **the closing push** (the owner, 2026-11-14): push through `attraction-brain-sync` marked
+as the sitting's closing push — the sync rebuilds the Brain Board and refreshes the Brain Book's "What's next" page and
+returns their two links — and close: *"Your Brain Board and your Brain Book are updated — here they are: [the Board
+link] · [the Book link]. Block the time now; a filming day that isn't on the calendar doesn't happen. Filmed? New chat
+→ 'edit my reel'."* (A rebuild that failed is named plainly with "refresh my brain board" — never claimed.)
 
 ---
 
 ## PUBLISH THE BATCH (from a folder of finished content to a scheduled run)
 
 **Before you batch — the prerequisites, said once, kindly, up front:**
-1. A posting tool is connected (`publishing.md`); if not → `sf-publish` Job A, or the manual path (the
-   packages handed over, one dated doc).
+1. The chosen posting tool is connected (`publishing.md → Posting tool:` reads `connected`); `manual` or `chosen: …
+   — connect pending` → `sf-publish` Job A first (the one question, or the connect); until it is connected the
+   packages are handed over copy-paste, one dated doc, with the fallback line (*"until it's connected your posts are
+   copy-paste; say 'connect my posting tool' when you're back"*) — never copy-paste as the plan.
 2. The tool can reach the videos (a public URL, or Drive linked inside the tool); otherwise the hybrid path
    per post (caption and slot scheduled; they drop each video in the app).
-3. Instagram is a Business or Creator account; TikTok and YouTube connected; otherwise "hands-off" quietly
-   becomes a stack of reminders — say so before scheduling twenty of them.
+3. Instagram is a Business or Creator account and Facebook is linked (both, always); TikTok and YouTube linked only
+   when the member reposts there (optional reposts — never asked); otherwise "hands-off" quietly becomes a stack of
+   reminders — say so before scheduling twenty of them.
 4. The plan cap (Metricool Free = 20 posts a month, one brand); a month across platforms needs Starter.
 
 **Step 2 — Point at the folder.** They name it or paste the link (default `03 · Content/Short-Form/`); list
@@ -146,8 +155,9 @@ instructions.**
 
 **Step 4 — Package each piece** with `sf-optimizer` (PACKAGE mode, applying
 `${CLAUDE_PLUGIN_ROOT}/skills/sf-optimizer/references/platform-rules.md`; every caption's last line is the kit's
-CALLS TO ACTION line with one of the two keywords): Reels → Instagram + Facebook, TikTok, YouTube Shorts (LinkedIn for
-leader avatars) · carousels → Instagram + Facebook (and LinkedIn as a document post) · the six kit posts → their kit
+CALLS TO ACTION line with one of the two keywords): Reels → Instagram + Facebook always (both), TikTok and YouTube
+Shorts as the optional reposts when the member posts there (never asked) · carousels → Instagram + Facebook (and
+LinkedIn as a document post only when the avatars hold team leaders or broker-owners) · the six kit posts → their kit
 captions verbatim (chapter 7) · long-form → YouTube only (defer to the YouTube system's packaging when installed — a
 later week).
 
@@ -168,43 +178,40 @@ the paid tier, their call.
 `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
 `[YYYY-MM-DD] · Publishing Queue` (per piece: file · what it is · pillar · platforms · date and time · caption
 preview · keyword). In chat: *"here's your run — 14 posts over three weeks at your best times. Look it over;
-want me to load it all?"* **Wait for the yes.** Tweaks → adjust → re-confirm.
+say Yes and I'll load it all."* **Wait for the yes** (a real consent — it schedules posts). Tweaks → adjust → re-confirm.
 
 **Step 8 — Schedule + log.** On the yes, create each scheduled post through the connected tool
 (`shared/publishing-guide.md`), hybrid path where a file cannot be reached. Report exactly which scheduled
 and which need a second look; never "all done" if it is not. Find each piece's row in `memory/content-log.md`
 (append one in the locked shape if it is missing: Date · Platform · Format · Pillar · Topic / hook · Avatar ·
 Story used · CTA with keyword · Status · Link). **Scheduled is not a status:** Status stays `Recorded` /
-`Edited` and the Link cell holds `scheduled YYYY-MM-DD HH:MM` until the live URL replaces it at `Published`.
+`Edited` (a kit post's calendar row and card stay `Ready to Post`) and the Link cell holds `scheduled YYYY-MM-DD HH:MM`
+until the live URL replaces it at `Published` (a kit post's log row is written then).
 Push via **attraction-brain-sync** the moment the rows are written (write → push → verify — the push re-renders the
 Brain Board); if the push fails, say it is not saved, retry once, stop. Mirror cards on the content board only if
 `publishing.md` carries a board URL; scheduled is not Published.
 
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in
-your Content folder."* Then the Friday note, once: read the `Weekly Content Performance task:` line in `config.md`'s
-Short-Form block — a task id → *"your Friday performance note will tell you which ones started conversations"*;
-`not offered yet` (setup's consent card normally settled it) → one line (*"want a short note every Friday on which
-of these started agent conversations? say yes and I'll switch it on"*), a yes handed to `sf-analytics`, which
-provisions it; `declined` or `later` → nothing.
+your Content folder. Say 'how's my content doing' any time to see which of these started conversations."*
 
-## The scheduled workflow — Sunday Batch Prep (recommended ON; the evening before the batch day; this skill owns it)
+## The scheduled workflow — Sunday Batch Prep (switched on by setup's one Yes; the evening before the batch day; this skill owns it)
 The teleprompter doc, waiting the evening before the member's batch day: this week's scripts grouped by outfit and
 location, the hook three ways on every card, one of the two keywords on every ask — so the batch day starts with the
 cards, not with planning. **Provisioned only with the member's explicit yes, never silently.** The normal path is
-**setup's consent card** (one of the recommended workflows; a yes there is this consent and setup provisions it without
-asking again). Otherwise "turn on my batch prep" → read `config.md → ## Short-Form (Week 4)` → `Batch Prep task:` first:
-a task id → it is on, say nothing; `declined` → never re-offer; `later` / `not offered yet` / no line → offer once, in
-one plain line: *"want your filming cards ready the evening before your batch day — this week's scripts grouped by
-outfit and spot, every hook three ways, the ask on each? Nothing posts on its own. Yes, and what time?"* **Your turn.**
-- **Yes** → `list_scheduled_tasks` first (adopt `attraction-sf-batch-prep` if it exists, never a twin), else
+**setup's consent card** (one of the four switched on by the one Yes; setup provisions it without asking again).
+Otherwise "turn on my batch prep" → read `config.md → ## Short-Form (Week 4)` → `Batch Prep task:` first: a task id →
+it is on, say so; `paused` → they stopped it, its phrase brings it back; `later` / no line / any other value → on the phrase, a
+statement, never an offer or a question (the owner, 2026-11-14: told, not asked): *"Switching on your batch prep — the
+evening before your batch day, 6:00 pm; name another time any time."*
+- **On the phrase (or setup's Yes)** → `list_scheduled_tasks` first (adopt `attraction-sf-batch-prep` if it exists, never a twin), else
   `create_scheduled_task` with `taskId: attraction-sf-batch-prep`, weekly on the evening before `publishing.md → Batch
   day(s):` (no batch day set → Sunday) at their time (default 6:00 pm, in `config.md → Timezone`), the `prompt` set
   **verbatim** from `references/batch-prep-task-prompt.md`. Verify with `list_scheduled_tasks` (present, enabled, a
   `nextRunAt`) — never claim a schedule that did not save. Write `Batch Prep task: attraction-sf-batch-prep` and `Batch
   Prep slot: [day] [time]` to the `## Short-Form (Week 4)` block of `config.md`; push via `attraction-brain-sync`;
   confirm once: *"On. Say 'stop my batch prep' any time."*
-- **No** → `Batch Prep task: declined`; push; never re-offer. **Stop / pause** → `delete_scheduled_task` (or disable) on
-  the saved id; write `declined` (or `paused`); push; one line. A demo Brain never gets a task.
+- **Stop / pause** → `delete_scheduled_task` (or disable) on the saved id; write `paused`; push; one
+  line. A demo Brain never gets a task.
 - **What a run does** (the prompt file is the contract): reads the week's `Scripted` rows and their script docs; builds
   the FILM DAY sections (the groups by location → outfit → format, the run sheet, the cards with the hook three ways
   and the ask on one of the two keywords, the reset, the safety net); saves ONE doc, `[YYYY-MM-DD] · Film-Day Plan`
@@ -224,6 +231,9 @@ outfit and spot, every hook three ways, the ask on each? Nothing posts on its ow
 - [ ] Compliance read once for the batch; `unset` stopped it; stamp and permissions on every caption
 - [ ] Queue saved and approved ONCE before scheduling; cap respected; failures reported honestly
 - [ ] One content-log row per piece in the locked shape; pushed at once; board mirrored only if present
-- [ ] The Sunday Batch Prep provisioned only on a yes (setup's card or here), adopted not twinned, verified; the two
-      config lines written to `## Short-Form (Week 4)` and pushed; its run saves the one doc, flips the cards when the
-      board exists, emails only when `Email me: yes`, ends with a push, never posts
+- [ ] The Sunday Batch Prep provisioned by setup's one Yes or the member's phrase (a statement, never an offer),
+      adopted not twinned, verified; the two config lines written to `## Short-Form (Week 4)` and pushed; its run saves
+      the one doc, flips the cards when the board exists, emails only when `Email me: yes`, ends with a push, never
+      posts
+- [ ] The film day closed with the closing push and the Brain Board + Brain Book links ("here they are") and the
+      editing step stated ("edit my reel" in a new chat — Plugin 5); the posting tool treated as not optional

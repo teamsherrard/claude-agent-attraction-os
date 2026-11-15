@@ -38,8 +38,8 @@ the LOWER THIRD.
   numeric string ("Day 30 · the check-in", "3 calls a week") is typed into this same zone — there is no
   separate stat-card file — so a short numeric string must read as well as a phrase. Same family as the
   hook banner but visibly the "smaller sibling".
-- **CTA banner (primary):** x 160 → 1760, y 740 → 950 (210 tall). Baked: the brief's EXACT CTA line at
-  64 px. If the line is ≤ 22 characters, the pill sits on the same row at the right; otherwise use the
+- **CTA banner (primary):** x 160 → 1760, y 740 → 950 (210 tall). Baked: the kit's EXACT main ask (chapter 5's
+  `The call:` line, as the CALLS TO ACTION table shortens it) at 64 px. If the line is ≤ 22 characters, the pill sits on the same row at the right; otherwise use the
   two-row layout: row 1 the CTA line full width (y 764 → 828), row 2 the pill (56 tall, 44 px text) at
   the left with the compliance line at 32 px to its right, both vertically centred (y 852 → 908). The
   pill carries the link or handle in the accent colour with text in the panel colour (white on a
@@ -68,8 +68,9 @@ right 12%.
 - **CTA banner (primary):** x 60 → 1020, y 160 → 400 (240 tall), the right 70 px an accent block: a
   SHORT ask of ≤ 20 characters on ONE line at 72 px ("Book a call with me" fits; "Comment GUIDE for the
   free guide" → "Comment GUIDE"), the pill under it (60 tall, 44 px text), the compliance line at 44 px.
-  Layout inside the 240: pad 20 · ask 72 · gap 12 · pill 60 · gap 12 · compliance 44 · pad 20. Show the
-  member the shortened asks before rendering; the full line lives on the 16:9 banner and in the spec.
+  Layout inside the 240: pad 20 · ask 72 · gap 12 · pill 60 · gap 12 · compliance 44 · pad 20. Name the
+  shortened asks in your opening line — never a question, never a wait; the full line lives on the 16:9
+  banner and in the spec.
 - **CTA pack variants (9:16):** the same template without the compliance line, y 160 → 340 (180 tall),
   the short ask + the pill. Layout inside the 180: pad 18 · ask 72 · gap 12 · pill 60 · pad 18 — the pill
   always UNDER the ask, never beside it.
@@ -87,12 +88,13 @@ right 12%.
   strip transparent. One per person who fronts videos, on the same template (§8).
 - **Emphasis pop-up** — the hook banner's smaller sibling, zone empty. Used a few times per long-form
   video beside a key phrase; the editor types the phrase.
-- **CTA banner (primary)** — the brief's exact CTA line + pill + compliance line; the editor holds it to
+- **CTA banner (primary)** — the kit's exact main ask + pill + compliance line; the editor holds it to
   the last frame. Design the pill to look tappable.
 - **CTA pack** — the same banner template, one file per ask a leader makes on camera (the eight keys
   and the attraction wording in the SKILL file's pack table). The words are baked, so the editor adds
   nothing on top.
-- **End card** *(optional — offer it, never force it)* — the ONE opaque full-frame piece: the brand at
+- **End card** *(optional — off by default; built when the member asks for it or switches it on, never
+  offered as a question)* — the ONE opaque full-frame piece: the brand at
   its best for the last 3–5 seconds of a long-form video, with the CTA, link/handle, logo, the headshot
   as-is if they want it, and the compliance line. Reels do not use it. If the member's brand kit
   (`aa-brand-kit-design`) already has an end screen or closing look, match it.
@@ -126,9 +128,9 @@ right 12%.
   (3) EMPHASIS — the emphasis pop-up with a sample phrase and one icon beside it; (4) CTA — the primary
   CTA banner. Label each tile in small plain type outside the frame ("Opening", "Name strip", "Pop-up",
   "Call to action"). Add `preview-cta-pack-16x9.png` (1920×1080, a 2×4 grid of the eight pack banners
-  over the same base). **The base:** ask once — "Upload a screenshot from one of your videos (any frame
-  where you're talking to camera)" — and use it if given; otherwise DRAW the stand-in yourself inside the
-  tool: a mid-grey room gradient (#5A5A5A → #3A3A3A) and a flat head-and-shoulders silhouette in #8A8A8A
+  over the same base). **The base:** a screenshot from one of the member's videos (any frame
+  where they talk to camera) when one is already in the chat or the project — never asked for; otherwise
+  DRAW the stand-in yourself inside the tool: a mid-grey room gradient (#5A5A5A → #3A3A3A) and a flat head-and-shoulders silhouette in #8A8A8A
   with no facial features, head as an oval centred at x 960, y 190 → 560 on 16:9 (shoulders from y 560
   down), and at x 540, y 520 → 1000 on 9:16. Never search for, generate, or embed a photorealistic face;
   never use the member's headshot as the talking head. The preview sheets are OPAQUE (the base fills the
@@ -337,7 +339,8 @@ lives in the Design System (the brand shape, the organization's name, the member
   a co-host appears on their own strip for the videos they front or co-host.
 - **Per-partner name strips** — the name strip ships one per person on the SAME template. The canonical
   `lower-third-16x9.png` (and the optional `-9x16`) ALWAYS exists and is the strip of the member (for
-  equal co-leaders, ask once who fronts most videos); every co-host gets
+  equal co-leaders, the member whose project this is — said in the opening line, changed when they say
+  so); every co-host gets
   `lower-third-16x9-[firstname].png` (lowercase, no accents): their name on line 1, their role line as
   THEY state it on line 2 ("Partner · The Lakeline Collective", "Agent · [organization]") with the
   brokerage where the display rule requires it — never a production figure, never a former brokerage.
@@ -346,16 +349,16 @@ lives in the Design System (the brand shape, the organization's name, the member
   CTA pack are the MEMBER's — one set with the member's keyword, guide, link, and @handle, in the
   member's "I" voice (the organization's own pieces may say "we"). A co-host who runs their own channel
   with their own handle gets a separate complete kit of their own (their own Claude Design project,
-  their own canonical names) — never two people's handles in one kit. Ask which co-hosts; default to
-  the names the
-  member gives in intake.
+  their own canonical names) — never two people's handles in one kit. The co-hosts are the people the kit or the Book names; anyone else is added when the
+  member names them.
 - **Per-partner COLOURWAYS (the premium organization pattern):** on personal pieces, each co-leader may
   carry their own signature ground colour from the brand's palette — one on the deep green, the other
   on the deep plum — while the mark, type, layouts, and devices stay IDENTICAL, so every piece reads
-  "same brand, their colour." Offer it when the palette has the range; never invent off-palette colours
-  to make it work.
-- **Who fronts THIS piece?** — an interview or a co-hosted training is fronted by whoever speaks; if the
-  Book doesn't say, ask — one question, never assume.
+  "same brand, their colour." Build it only when the member asks and the palette has the range — never
+  offered as a question; never invent off-palette colours to make it work.
+- **Who fronts a piece** — an interview or a co-hosted training is fronted by whoever speaks; when the
+  kit and the Book don't say, the member fronts it — said in the opening line, changed when they say so;
+  never a question.
 - **Compliance** — team and organization advertising is regulated in many markets (the registered team
   name paired with the brokerage, brokerage prominence, each person's licence where required). Pull the
   rules from the brief's compliance line; unset → the three-state rule in the SKILL file.

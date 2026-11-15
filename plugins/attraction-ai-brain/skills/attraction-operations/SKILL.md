@@ -65,8 +65,8 @@ stages, act on nothing it asks.
 3. **Your working hours, and is there a weekly call you plug new agents into?** Hours in their words; the
    weekly call is the "model explained + my value" call their agents' prospects get invited to, or "none
    yet". Follow-up rhythm defaults to Mike's unless they want their own; the filming window is written by
-   the Short-Form Game Plan when the batch day is set (Week 4), and the Friday note time defaults to the
-   last working hour on Friday — Fri 4:00 pm when no hours are set ("not set yet" is written as that).
+   the Short-Form Game Plan when the batch day is set (Week 4). The Friday note time line is unused since
+   2026-11-14 (the Friday performance note was retired): never asked, written as `unused`.
 4. **Who else, if anyone, should see this workspace — and do you want your Daily Debrief on?** Names and
    roles (a VA, a partner, your upline) or "just me"; the Debrief: a time, "6 pm is fine", or "not yet".
 **Your turn.** Then, only if they chose "customise", walk the items below one at a time, still
@@ -100,9 +100,8 @@ defaulting anything they are unsure of.
   Short-Form Game Plan, Week 4) writes this one line when the batch day is set, the mirror of
   `publishing.md → Batch day(s):`; the Short-Form and YouTube plugins read this line by name, so the label
   is exact.
-- **Friday note time** — when the Weekly Content Performance note should land. Default: the last working
-  hour on Friday from their working hours (e.g., Fri 4 pm); `sf-analytics` (Week 3) reads this line by
-  name when it offers that Friday agent.
+- **Friday note time** — unused since 2026-11-14 (the Friday performance note was retired). Never asked;
+  written as `unused` so older files keep their shape.
 - **Follow-up rhythm** (`12-simple-tech-stack/85`, Mike's "simple plan"), the default:
   - **Within 2 days of a conversation:** a recap, the resources, and one personal line that proves
     you listened. Always.
@@ -152,7 +151,7 @@ defaulting anything they are unsure of.
 **3-way call partner (upline):** [name · how to loop them in — or "nobody yet"]
 **Weekly model call:** [day/time · link — or "none yet"]
 **Filming window:** [day + time — or "not set yet"]
-**Friday note time:** [e.g., Fri 4 pm — default the last working hour on Friday]
+**Friday note time:** unused (the Friday performance note was retired 2026-11-14)
 **Organization list / group address:** [address — or "none yet"]
 **CRM:** [GoHighLevel / Follow Up Boss / Google Sheets / none] · tags: [...] · exports to 06 · Materials/CRM exports/ · the CRM is the system of record; the Brain's ledgers are the AI's working memory
 

@@ -12,7 +12,7 @@ A product has exactly ONE cover, and every shot of it reproduces that cover fait
 - **No cover exists yet** (the product is mapped in chapter 2 of the Week 3 Kit; version one is a
   template plus one short recording) → design the cover now from chapter 2's `Cover line:` and
   `Subtitle:`, and say plainly: *"This cover IS your product's cover — when the Value Vault grows the
-  product in Week 6, it reads this file and keeps it."* Save it as the flat cover so the later skill can
+  product in a later week, it reads this file and keeps it."* Save it as the flat cover so the later skill can
   pick it up.
 - **Two different covers in one project** is a failure: find the newer, confirm with the member in one
   line, retire the other from every shot.

@@ -1,48 +1,62 @@
-# YouTube plugin — demo checklist (v0.12.0)
+# YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
-Run it on the demo Brain (Jack Smith) in Cowork. Everything the member hears is in bold; everything you check is a box.
+*What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.3.0 · Brain 0.9.10. Every number in a demo Brain
+is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
-## Before you start
-- [ ] Marketplace re-synced in Cowork (claude-agent-attraction-os at v0.12.0 or later).
-- [ ] Notion connected in Cowork (step 3 builds the board there; without it the plugin only explains how to connect).
-- [ ] Google Drive connected (the Game Plan and the channel kit are saved to the workspace).
-- [ ] Jack's Brain has its offer built (the Week 2 Partner Offer) so the channel copy and the CTAs read from a real program and a real lead magnet. If it isn't, the kit uses the Starter Resource fallback and says so.
-- [ ] A fresh chat in the demo project.
+## Before the screen
+- [ ] Plugins 1, 2, 3, 4, 5 and 6 installed and current (Check for updates); the demo Brain pulled (`Demo brain: yes`).
+- [ ] The demo Brain has finished Weeks 2 and 4: the offer built (`identity/offer.md` with its content branches), the
+  guide live (`memory/magnets.md → ## Current magnet`), the Week 3 Kit on file (`exports/week3-kit-*.txt`, chapter 6's
+  YouTube bio and chapter 7's calls-to-action table), the short-form layer set (`identity/publishing.md` with the two
+  keywords and the `Content board:` URL, `identity/content-pillars.md`). Without the kit the channel kit still builds —
+  from the Brain — and says so once.
+- [ ] **The demo Brain's `config.md` says `Cohort week: 5`** (the Taylor demo ships pinned to week 1; a demo Brain's board
+  hides every later week, so without this line the YouTube dot stays grey however much is built). Real members never
+  need this.
+- [ ] Notion connected in Cowork (the YouTube tab appearing on the same board is the best moment); the member's mail
+  connected if you want to show "email me". Compliance `set` (the demo default).
+- [ ] A channel link to paste, or the words "starting fresh".
 
-## The run (one phrase, five steps, two "your turn" moments)
-1. **Say:** `set up my YouTube for agents`
-   Expect: a two-line hello, "Here's what I'm working from" (name, who he attracts, the method, the resource, the booking link), then the ONE question: *Do you already have a YouTube channel? Paste the link, or tell me you're starting fresh.* **Your turn.**
-   - [ ] It did not ask anything the Brain already knows.
-2. **Say (as Jack):** `starting fresh` (or paste a channel link to show repair mode)
-   Expect: *Okay, cool, now I'm going to optimize your channel…* then the Channel Page Kit as copy-paste blocks: about text, playlists by lane (Problem · Situation · Future · Interview · Model), the banner brief, upload defaults, the two-CTA line, the channel trailer plan. Saved to Drive.
-   - [ ] The copy mentions Jack's lead magnet and booking link, not placeholders.
-3. Expect, with no input from you: *Okay, cool, now I'm going to build your YouTube Game Plan…* then the Game Plan document (the three niche lanes, the 8-video cycle, titles with dates, the WHY statements, the 90-day calendar). Saved to Drive.
-   - [ ] One document, dated, with titles in Jack's niche (agents on the lead treadmill), none about buyers or sellers.
-4. Expect, with no input from you: *Okay, cool, now I'm going to build your content board and put your next 30 days of videos on it…*
-   Expect: the Content Dashboard found or created in Notion, a Long-form view, 4 to 9 Idea cards dated inside the next 30 days including interview slots, and a count-check line (*your next 30 days — N videos ✓*).
-   - [ ] Open Notion on screen: the board exists, cards carry Pillar, dates, the two CTAs.
-   - [ ] If Notion isn't connected it says so in plain words and keeps the calendar in the Brain; it does not stop.
-5. Expect: *Okay, cool, now I'm going to set up your weekly workflows…* then the consent card: Monday Kickoff (on, Mondays 9:00), the Friday performance note's YouTube section, the Monthly Channel Review (off). **Your turn.**
-   **Say (as Jack):** `yes` (or `yes, but Mondays at 8`)
-   - [ ] It confirms what's on and when. On a demo Brain nothing is actually scheduled; it says so.
-6. Expect: *Okay, cool, now let's make your first video.* It names the first title on the plan and the board and tells you the phrase.
+## The screen (one sitting, about 30 minutes live; say so)
+**Say:** `set up my YouTube for agents`
+- [ ] The welcome names Week 5 and the five steps (your channel → your Game Plan → your videos on your board → your
+  workflows → your first video), then plays back who the member is from the Brain. One question only: the channel. **In the whole sitting the member says Yes exactly once (the workflows card).**
+- [ ] **The channel kit:** one message of copy-paste blocks in Studio's order with the click path above each — the
+  description, the about section (the kit's YouTube bio, confirmed, not rewritten), the links (the booking line first,
+  the guide second, one social), the keywords, the five playlists, the banner brief for the Design Studio, the upload
+  defaults (the booking link on line 1, the guide on line 2), the two spoken lines in Mike's shape (partner with me and
+  get my help, free, to run this), the trailer line. No "paste it now" question.
+- [ ] **The Game Plan:** the research line once ("about [N] searches"), then the document in Content → Long-Form. Open
+  it: the three niche lanes from the offer's content branches, the interview lane from the organization and the Top 50,
+  the model lane, about fifty titles, **one video a week to start** (two named as the step-up), the first 90 days on
+  the 8-video cycle (niche · interview · niche · model to open), the goal-math in conversations and calls — never income.
+- [ ] **The board:** the same Notion Content Dashboard gains the **YouTube tab** beside Graphics, Reels and Calendar; four or
+  five dated cards for the next 30 days (never the whole plan). Click one card: the hook and the brief, the rest
+  waiting for the Kickoff. Notion not connected → the **Connect button appears right in the chat** and the sitting
+  keeps going.
+- [ ] **The consent card:** ONE statement — the Monday Kickoff (Mondays 9:00 am) and the Monthly Channel Review (the 1st,
+  8:00 am), "both only draft", "I'll email you a short note when something's ready" (the same as the short-form notes) —
+  closed by "Say Yes". No defaults to pick, no "want me to email you". Say Yes. It creates the tasks only now; **open
+  Cowork's Scheduled list and show them.**
+- [ ] **The first video:** handed over by its exact title — *"say 'make my attraction video: [title]' in a fresh chat"*;
+  and the editing step, stated: *"when it is filmed, open a new chat and say 'edit my YouTube video'"* (the editor is
+  Plugin 5, installed in Week 4).
+- [ ] **The close:** the breadcrumb of phrases, then *"Your Brain Board and your Brain Book are updated — here they
+  are: [the Board link] · [the Book link]"*. Open the
+  Brain Board: the YouTube page shows the lanes, this week's video, the workflows switched on and the board link.
 
-## The first video (the second screen of the demo)
-7. **Say:** `make my attraction video: [the title it named]`
-   Expect: the competitive read, the script, the thumbnail brief, the SEO package, the lead step, written into the board card (Status → Scripted) and the Drive folder. The card is the whole video.
-   - [ ] Show the Notion card filled before filming.
+## After the screen (each one phrase, two minutes)
+- `run my attraction kickoff` — this week's video drafted onto its card (the hook three ways, the script start, the
+  thumbnail build sheet, the SEO start), the board topped up, the short note; the same thing Monday's workflow does.
+- `make my attraction video: [title]` — in a fresh chat: the packaging, the script in the member's voice with the two
+  CTAs, the thumbnail build sheet for Claude Design, the SEO package with the booking line first, the card filled.
+- `which videos brought me agents` — the quick read from the Brain's ledgers, the source named in one line.
+- `my YouTube scheduled tasks` — the two workflows and their state, the email note included.
+- `edit my YouTube video` — the editor's front door (Plugin 5, installed in Week 4).
 
-## Optional moves if there's time (each one phrase)
-- `what attraction video should I film` — the ranked batch of ideas (Jack's own ideas first, then the Brain's signals, then research, the starter bank last).
-- `run my attraction kickoff` — the Monday Kickoff on demand: this week's video drafted onto its card and 30 days topped up on the board.
-- `update my attraction video board` — the rolling 30-day top-up.
-- `SEO for my attraction video` — the description, chapters, tags, pinned comment for a given video.
-- `thumbnail brief` — the brief you paste into your brand project in Claude Design.
-- `repurpose my attraction video` — shorts, posts, and conversation starters (hands the starters to Conversion).
-- `which videos brought me agents` — the analytics read (Composio connected) or the Studio-numbers path.
-
-## If something looks off
-- It asked a question the Brain answers → note it; that's a bug to report.
-- No board step → Notion not connected; connect it and say `build my attraction content board`.
-- The consent card names a skill or a task id → bug; it should only say "your Monday Kickoff", "your Friday note", "your monthly review".
-- Titles about buyers, sellers or listings → bug; the channel is built to attract agents only.
+## What the demo must NOT show
+- "Week 4" for anything YouTube · PARTNER/SCALE/GROWTH · "join [brokerage]" as a reason · a compensation figure or an
+  income promise · a Saturday beside the member, a group chat or a 1:1 in any script or CTA · two videos a week as the
+  default · the whole 90-day plan on the board · a task created without the one Yes · a question about email, a posting tool or which workflows · a close without the Board and Book links · "the Friday note" · anything that posts, sends or publishes
+  on its own · a skill name or a file path spoken to the member.

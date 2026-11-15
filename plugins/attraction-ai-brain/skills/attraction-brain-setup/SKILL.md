@@ -251,6 +251,12 @@ Brain in the cloud with a fresh empty one** at the final push. So:
      the **Agent Attraction Brain Book** from the current identity files (per
      `${CLAUDE_PLUGIN_ROOT}/shared/brain-book-spec.md`, the canonical contract — nine sections, at
      most fifteen pages), save it to `01 · AI Brain/` with a dated filename, and share the link.
+   - **The What's-next refresh** (called by `attraction-brain-sync` on a sitting's closing push — never a member
+     phrase, never a rebuild): Section 9 only, exactly as the spec's Regeneration rules say — Sections 1 to 8 carried
+     over character-for-character from the newest `exports/brain-book-*.txt`, Section 9 rewritten by the state rule
+     (the system that just went live · the next system and its phrase · any time), a new dated export, render,
+     `measure_book.py`, upload beside the old copy, and return the link to the sync skill. No interview, no
+     questions, one pass.
 
 ---
 

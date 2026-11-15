@@ -126,12 +126,12 @@ the shapes are, never whether words are in them.
 ## THE RUN — the masters, ONE checkpoint, then everything
 
 1. Read chapter 7's table and `Pop-up rules:`, chapter 2's register, the stamp, chapters 1, 3, 4 and
-   5 for the cross-checks; the brief and the Design System. **The intake form is nearly empty:** one
-   confirmation line (*"From your kit: the name card [First Last · Brokerage · City] · the guide
-   pop-up 'Comment GUIDE · free guide' · the call pop-up '[the cell]' · the end cards [the guide's
-   title] / [SECTION 10's headline] · stamp set — say the word to change any of these"*), then only:
-   where your face usually sits in your vertical videos (middle, or high — this picks the upper
-   third or the side band), anything to avoid. **"Your turn."** "Just make it" = zero questions.
+   5 for the cross-checks; the brief and the Design System. **There is no intake form** (told, not asked): open with one line (*"From your kit: the name card [First
+   Last · Brokerage · City] · the guide pop-up 'Comment GUIDE · free guide' · the call pop-up '[the cell]' ·
+   the end cards [the guide's title] / [SECTION 10's headline] · stamp set. Building your pop-ups now."*)
+   and build. Where the member's face usually sits in their vertical videos (middle, or high — this picks
+   the upper third or the side band) is read from any reel still or video cover in the project; with none,
+   use the upper third and say so in that line — they change it after seeing the set.
 2. **THE MASTERS:** the 9:16 name card and the 9:16 guide pop-up, each on its stage. Show both.
 3. **THE ONE CHECKPOINT:** *"These two set the look for the whole pop-up set — your name card and
    your guide pop-up, as they'll sit on a vertical video. Say yes, or name the one change."* Wait.

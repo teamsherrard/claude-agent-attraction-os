@@ -15,7 +15,6 @@ design. The kit's six posts (`references/kit-posts.md`), posts with the brand ki
 (`aa-brand-kit-design`), and video (the editor) are other pieces'. This is a side door: it opens only
 when the carousel doc or the promo brief exists — never the default, never asked for.
 
-
 ## THE DOC FIRST — what the Short-Form system already decided
 
 Members arrive with the carousel doc their Short-Form system saved as **`[YYYY-MM-DD] · Carousel ·
@@ -41,7 +40,8 @@ event's promise headline with the **Event** line (name · date · time · timezo
 agent]); the value slides ← **What they leave with (three real things)**, one per slide, verbatim; the
 CTA slide ← **Registration** ("Save your seat" + the page link, or "comment the word [KEYWORD]") with
 the date chip — the ONE rung, never a second ask; **Seats or deadline (real)** → a seat line only when
-the brief states one; **Hosts** → the member's cut-out (a guest speaker only with consent on file); the
+the brief states one; **Hosts** → the member's photo (a cut-out only when the file is a true
+one — the craft standard's §6; a guest speaker only with consent on file); the
 strip ← **Required line (verbatim)**; **Brokerage-neutral: yes** → no brokerage anywhere but the strip;
 the brief's **Never on the graphic** line and its **Ad note** hold on every slide and caption. Same
 craft (the reference), same verbatim law, same LinkedIn PDF law (the carousel's feed caption from the
@@ -78,37 +78,38 @@ say 'carousel for agents' there once it is installed; it hands me a doc and I de
 say 'promo for my agent event' there; its brief carries the carousel's lines."*
 Never write a carousel's copy here; never invent a story, a pain, a myth, a number, or an event's promise.
 
-## STEP 1 — USE THE LOCKED BRAND, THEN ASK ONLY WHAT'S NEW
+## STEP 1 — USE THE LOCKED BRAND, THEN BUILD (TOLD, NOT ASKED)
 
-**PLAIN-LANGUAGE LAW — every question you show the member speaks human.** No "hex", "4:5", "bleed",
+**PLAIN-LANGUAGE LAW — every line you say to the member speaks human.** No "hex", "4:5", "bleed",
 "scrim", "safe zone" as a label — say "your colour codes", "the tall post shape", "the dark fade behind
 the words", "the part the grid shows". A technical term may appear only in brackets AFTER a plain label.
-The vocabulary inside this skill is for YOU, not the form.
+The vocabulary inside this skill is for YOU, never for the member.
 
 The **Design System** in this project holds the logo files, colours, fonts, headshot treatment, the
 toolkit, the voice cards, and the compliance block; `aa-brand-kit-design` left the kit's cut-outs and backgrounds
 in `02 · Brand`. USE all of it — never re-ask a colour, a font, a logo, or a headshot. The doc's design
 brief names colours and fonts in words; where it and the Design System disagree on an execution value,
-the Design System wins — say so in one line. Missing Design System → `aa-style-sheet-design` first.
+the Design System wins — say so in one line. Missing Design System → `aa-style-sheet-design` first
+(to the member: *"say 'build my brand style sheet' first"* — never the skill's id).
 
-Your first reply is ONLY a SHORT intake form for what nothing else holds. Prune every answered item;
-one confirmation line above the form ("From your doc: Why I Left · Story · for agents 2–5 years in
-paying for leads · 9 slides · LinkedIn reframe written · rung: save/share · compliance set — say the
-word to change any of these"); every creative choice has a "Decide for me"; end with **"Your turn."**
+**No intake form — told, not asked** (`references/craft-standard.md` §1). Read everything yourself, then open
+with ONE line and start building in the same reply: what you found, and what you are building now — for example *"From your doc: Why I Left · Story · for agents 2–5 years in paying for leads · 9 slides · LinkedIn reframe written · rung: save/share · compliance set. Building it now."*
+The list below is **what you look for, and the default you use when it is not there** — it is never shown to
+the member as questions, never a form, never a menu. A required item that is truly nowhere gets one plain line
+in chat (never a question card); everything else takes its default without a word.
 
-1. **Your Brain Book** *(if not already in this project; newest date wins)*.
-2. **Your carousel doc** — upload it, or say your Drive connector is connected and name the topic; I'll
-   read it from your Graphics folder. For an event carousel: paste your promo brief instead (the event
-   intake above).
-3. **Your series template card** *(only from the second carousel on)* — paste it, or say "it's in this
-   project". None and no first carousel visible → I'll ask for it once rather than guess.
-4. **Real photos for the story slides** *(optional — drop them into the CHAT, not a form box)* — a
-   photo from the "where I was" years, the weekly call, your agents at a training (with their
-   permission). None → brand grounds and your cut-out from the kit; never a fabricated scene.
-5. **Anything to feature or avoid?** *(optional)*.
-
-Wait for the answers. "Just make it" = zero further questions; name your assumptions in one line and
-build.
+1. **The Brain Book** *(optional; newest date wins)* — in the project or the member's Drive.
+2. **The carousel doc** *(required)* — in the project or the chat, or read through the Drive connector
+   from the Graphics folder; for an event carousel, the promo brief instead (the event intake above).
+   Truly nowhere → the matching "No doc" line above.
+3. **The series template card** *(from the second carousel on)* — in the project or the chat, or the
+   first carousel itself on the board. Neither there → lock the template again from the Design System,
+   as a first run, and say so in the opening line (the member drops the card in to match the earlier
+   look exactly); never guess the old template from memory.
+4. **Real photos for the story slides** (the chat, the project, the Brand folder) — a photo from the
+   "where I was" years, the weekly call, the member's agents at a training (with their permission).
+   None → brand grounds and the member's photo from the kit, treated honestly (the craft standard's
+   §6); never a fabricated scene. Say once that photos can be dropped in any time.
 
 ## THE PREMISE — what a carousel does for a leader (and what it must never do)
 
@@ -168,8 +169,9 @@ re-render THAT batch before moving on.
 
 **The craft, in one paragraph:** one cohesive set — same ground system, type hierarchy, accent, and
 margins on every slide; bold, legible type readable in 3 seconds; one focal point per slide; the
-member's cut-out from the kit on the cover and the CTA (and the "where I was" slide when a real photo
-exists); a dark gradient scrim behind any text over a photo; the toolkit's devices carrying the value
+member's photo from the kit on the cover and the CTA — a cut-out only when the file is a true one, otherwise
+the framed portrait (the craft standard's §6) — and on the "where I was" slide when a real photo
+exists; a dark gradient scrim behind any text over a photo; the toolkit's devices carrying the value
 slides; the two registers of the Design System alternating with intent across a series so the grid
 visibly varies; restraint reads premium.
 
@@ -290,7 +292,7 @@ the whole set changes together. An optional in-board quick strip may carry at mo
 - **theme** *(Dark-led / Light-led, default alternating by the series)*.
 - **accentColor** *(the palette colours)*.
 - **graphicAccents** *(from the toolkit: Pattern / Arcs / Bars / Minimal, default to brand fit)*.
-- **showHeadshot** *(toggle, default on)* — the member's cut-out on the cover and the CTA slide.
+- **showHeadshot** *(toggle, default on)* — the member's photo on the cover and the CTA slide.
 - **storyEcho** *(toggle, default on)* — the story-size teaser frame.
 - **linkedinType** *(Same slides / The leader version, default The leader version when the doc has one;
   disabled with the label "Your Short-Form system writes the LinkedIn version" otherwise)*.

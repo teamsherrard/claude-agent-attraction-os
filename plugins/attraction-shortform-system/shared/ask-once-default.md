@@ -95,3 +95,13 @@ homework."* Make the member feel guided, not quizzed. They should be able to fin
 defaults, and still get a file that looks like a pro built it for them. The money conversation (the Rev Share
 Calculator, on demand — never part of Brain setup) in particular: *"Every number here is an example built from
 your own assumptions — nothing is a promise, and you adjust the target or the hours, never the math."*
+
+## Process steps are told, not asked (the owner, 2026-11-14 — binding for every plugin)
+Members follow the program. A step that is part of the process is announced as what will be built — never offered as
+a choice. No "all, some, or not yet"; no "want me to email you?"; no "which platforms do you post on"; no "do you use
+ManyChat"; no menu of defaults to pick from. The consent card for scheduled workflows is ONE statement — what switches
+on, when, that every one only drafts, that a short email comes to their own address when something is ready — closed
+by one line the member answers with "Yes" (that yes is the explicit consent every scheduled task needs; nothing is
+created before it). Extras are stated ("they're there if you want them — say the word any time"), never offered. The
+only questions left are facts the Brain cannot hold (a channel link, a booking link); everything else is defaulted
+from the Brain, said in one line, and closed with "change it any time".

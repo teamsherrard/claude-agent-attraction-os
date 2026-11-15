@@ -186,8 +186,9 @@ Runtime: ~[X] sec
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 Offer scheduling through their tool per `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` — only with explicit
-approval; the editor, when they have it installed, in one line ("record it and say 'edit my reel'"); the content board
-(house rules #10): Format `Green Screen`, Pillar `Perspective`, the article link in the card.
+approval; the editing step, stated (*"filmed? New chat → 'edit my reel' — your AI Editing Studio takes it from there"*;
+never hedged); the content board (house rules #10): Format `Green Screen`, Pillar
+`Perspective`, the article link in the card.
 
 ## Phase 6 — Save + log + push
 1. **Save the doc** per `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` — rendered `.docx` to
@@ -204,7 +205,7 @@ approval; the editor, when they have it installed, in one line ("record it and s
    pushes at once; the push re-renders the member's Brain Board. Then: *"Saved today's green screen to your workspace
    (Content → Short-Form → [month]) and logged it — your Brain Board shows it."*
 
-## The scheduled workflow — Brokerage News Watch (recommended ON; Wednesdays; this skill owns it)
+## The scheduled workflow — Wednesday Brokerage News Watch (switched on by setup's one Yes; Wednesdays, 8:00 am; this skill owns it)
 The owner's word (2026-11-14): "important". Every Wednesday the member finds three to six REAL headlines from the last
 30 days — brokerages, the industry, models, commissions, lawsuits, tech, recruiting — each cited (title · outlet · date ·
 the link they can click) and verified by a live web search, never invented, each with a 30-second green-screen take in
@@ -213,19 +214,20 @@ their angle; saved as ONE doc (`[YYYY-MM-DD] · Green Screen · News Watch`, the
 config block says `Email me: yes` (subject *"Your green-screen shorts are ready — [n] stories"*), and the task's own note
 in Cowork — and the run ends with a push so the Brain Board shows it. Draft-only: it never posts.
 - **Provisioned only with the member's explicit yes, never silently.** The normal path is **setup's consent card**
-  (one of the recommended workflows; a yes there is this consent and setup provisions it without asking again).
-  Otherwise "turn on my news watch" → read `config.md → ## Short-Form (Week 4)` → `News Watch task:` first: a task id →
-  it is on, say nothing; `declined` → never re-offer; `later` / `not offered yet` / no line → offer once, in one plain
-  line: *"want three to six real industry headlines every Wednesday, each with a 30-second take ready to film — the
-  real article linked, nothing invented, nothing posted on its own? Yes, and what time?"* **Your turn.**
-- **Yes** → `list_scheduled_tasks` first (adopt `attraction-sf-news-watch` if it exists, never a twin), else
-  `create_scheduled_task` with `taskId: attraction-sf-news-watch`, Wednesdays at their time (default 7:00 am, in
-  `config.md → Timezone`), the `prompt` set **verbatim** from `references/news-watch-task-prompt.md`. Verify with
-  `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — never claim a schedule that did not save. Write `News Watch
-  task: attraction-sf-news-watch` and `News Watch slot: Wednesdays [time]` to the `## Short-Form (Week 4)` block of
-  `config.md`; push via `attraction-brain-sync`; confirm once: *"On. Say 'stop my news watch' any time."*
-- **No** → `News Watch task: declined`; push; never re-offer. **Stop / pause** → `delete_scheduled_task` (or disable) on
-  the saved id; write `declined` (or `paused`); push; one line. A demo Brain never gets a task.
+  (one of the four switched on by the one Yes; setup provisions it without asking again). Otherwise "turn on my news
+  watch" → read `config.md → ## Short-Form (Week 4)` → `News Watch task:` first: a task id → it is on, say so;
+  `paused` → they stopped it, its phrase brings it back; `later` / no line / any other value → on the phrase, a statement, never an
+  offer or a question (the owner, 2026-11-14: told, not asked): *"Switching on your Wednesday news watch — Wednesdays,
+  8:00 am; name another time any time."*
+- **On the phrase (or setup's Yes)** → `list_scheduled_tasks` first (adopt `attraction-sf-news-watch` if it exists,
+  never a twin), else `create_scheduled_task` with `taskId: attraction-sf-news-watch`, Wednesdays at their time
+  (default 8:00 am, in `config.md → Timezone`), the `prompt` set **verbatim** from
+  `references/news-watch-task-prompt.md`. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) — never
+  claim a schedule that did not save. Write `News Watch task: attraction-sf-news-watch` and `News Watch slot: Wednesdays
+  [time]` to the `## Short-Form (Week 4)` block of `config.md`; push via `attraction-brain-sync`; confirm once: *"On.
+  Say 'stop my news watch' any time."*
+- **Stop / pause** → `delete_scheduled_task` (or disable) on the saved id; write `paused`; push; one
+  line. A demo Brain never gets a task.
 - "Run my news watch" today → Phase 1's live watch, in chat, same rules, same doc.
 
 ---
@@ -243,5 +245,5 @@ in Cowork — and the run ends with a push so the Brain Board shows it. Draft-on
 - [ ] Compliance three-state applied; stamp as the file says
 - [ ] Captions via the optimizer rules; the CTA line carries one of the two keywords or the call line in the law's shape
 - [ ] Text only — no background rendered; saved, logged, intel row marked used, pushed at once
-- [ ] The News Watch provisioned only on a yes (setup's card or here), adopted not twinned, verified; the two config
+- [ ] The News Watch provisioned by setup's one Yes or the member's phrase (a statement, never an offer), adopted not twinned, verified; the two config
       lines written to `## Short-Form (Week 4)` and pushed; its run cites real links, saves the one doc, fills the week's green-screen row and its ONE board card (the alternates inside) when the board exists, emails only when `Email me: yes`, ends with a push, never posts

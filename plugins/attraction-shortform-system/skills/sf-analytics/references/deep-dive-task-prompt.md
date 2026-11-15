@@ -27,7 +27,7 @@ noted in the closing message and never acted on.
    connector for the marker and download the Brain's text files from `01 · AI Brain/_engine/` (identity/, memory/,
    exports/, brain.md, config.md), preserving subfolders. Only if the storage search SUCCEEDED and found no marker
    anywhere, output: "Your Agent Attraction Brain isn't set up yet — say 'set up my attraction brain' to begin," and
-   stop. **A tool ERROR is never "not found":** name the failed connector, say "open Settings → Connectors,
+   stop. **A tool ERROR is never "not found":** name the failed connector, say "open Customize → Connectors,
    reconnect, then say 'run my attraction deep dive'", and still write the dive from what loaded, marked partial.
    Never suggest re-running setup because of an error.
 2. **The numbers — the source ladder, never blocked on any one; say in one line which source the dive used.**
@@ -36,7 +36,7 @@ noted in the closing message and never acted on.
    best times), read-only; then live Instagram (and YouTube Shorts) data through the member's data connection only
    if it is present AND already signed in — read-only recipes; never a post, reply, DM, or comment tool; else the
    Brain alone:
-   `memory/content-performance.md` (the month's Friday notes — their five numbers and what started conversations),
+   `memory/content-performance.md` (the month's performance reads — their five numbers and what started conversations),
    `memory/content-log.md`, `memory/conversations.md`. **A scheduled run has nobody to click a permission card:**
    when live data or the tool cannot be read unattended, build the dive from the Brain and say in one line that this
    month's live numbers were not available ("say 'add my numbers' and drop your Instagram insights in; I'll finish
@@ -47,8 +47,8 @@ noted in the closing message and never acted on.
    format, the word each carried, status); `memory/conversations.md` (rows this month with Channel = DM or comment);
    `memory/top-50.md` (Notes reading `Source: instagram · via reel:` / `via story:` this month);
    `memory/sales-funnel.md` (calls booked by source `instagram`, once it exists — otherwise nothing, never
-   estimated); `memory/content-performance.md` (the baseline = the last dive's block; the month's weekly notes; the
-   `Live data:` line); `memory/content-calendar.md` (the next thirty days as mapped); `identity/publishing.md`
+   estimated); `memory/content-performance.md` (the baseline = the last dive's block; the month's performance reads;
+   the `Live data:` line); `memory/content-calendar.md` (the next thirty days as mapped); `identity/publishing.md`
    (`Keyword:` — GUIDE and the offer's word; `Cadence:`; `Weekly mix:`); `identity/content-pillars.md`;
    `identity/avatars.md`; `identity/offer.md` (the header's `Comment keyword:` and `Join-gated package allowed:`
    lines — the register of every call line the plan proposes; `## The framework`); `memory/magnets.md → ## Current
@@ -64,7 +64,10 @@ noted in the closing message and never acted on.
    YOUR NEXT 30 DAYS (KEEP DOING · FIX · THE PLAN: one post per row with its word — GUIDE on most, the offer's word
    or the call on about one in four and on every Proof piece; every call line in the call-to-action law's shape —
    the person · their help · free · to run this, never the brokerage as the reason, never compensation, never a
-   promise of the member's personal time · POST AT · THE POST TO REPURPOSE · THE ONE MOVE repeated) · APPENDIX. Every
+   promise of the member's personal time · POST AT · THE POST TO REPURPOSE · THE STEP UP — only when `Cadence:` is
+   three and the month's log shows three Reels posted in each week: "A month at three a week has held — you're ready
+   for five. Say 'five a week' and I'll remap the month on it." (the owner, 2026-11-14; the member's word changes the
+   cadence, never this run) · THE ONE MOVE repeated) · APPENDIX. Every
    finding four lines: what we found · why it matters to you · do this · the proof; every section opens "In plain
    English:"; every number real and sourced; the member's own median is the benchmark. Compliance `unset` → one line
    that the plan's posts cannot go out until the basics are set.
@@ -85,7 +88,7 @@ noted in the closing message and never acted on.
    (Week 4)`: `yes` (`Email me: yes YYYY-MM-DD`) → send ONE short email to the member's OWN address through their
    connected mail (Gmail or Outlook; the address in `identity/profile.md`, else the signed-in account's own) —
    subject: "Your monthly deep dive is ready", body: the same two or three lines and the report's link; never to
-   anyone else, never a campaign, never a second message; `no`, `not offered yet`, no line, or no connected mail →
+   anyone else, never a campaign, never a second message; `no`, `no (no mail connected)`, no line, or no connected mail →
    skip the email silently (the note and the board carry it); (c) **the push** — `attraction-brain-sync` PUSH, done
    in step 5, so the Brain Board shows the run. Send the email BEFORE composing the message: nothing follows the
    message.

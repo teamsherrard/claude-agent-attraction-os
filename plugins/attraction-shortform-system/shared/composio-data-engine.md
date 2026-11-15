@@ -14,7 +14,7 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
 | Skill | Uses | Never |
 |---|---|---|
 | `yt-analytics` (YouTube System) | the capability map + recipes 1, 2, 3, 4 (inside a dive), 5, 6, 7 and S — the long-form deep dive and quick reads | — |
-| `sf-analytics` (Short-Form System) | recipe 8 (Instagram + Shorts) + recipes 2, 3, 6, 7 and S — the short-form deep dive, quick reads, the Friday note | — |
+| `sf-analytics` (Short-Form System) | recipe 8 (Instagram + Shorts) + recipes 2, 3, 6, 7 and S — the short-form deep dive and the quick reads ("how's my content doing") | — |
 | `sf-ideas` (research, read-only) | section C only — the search / trends / news stack, which needs no sign-in — when the tools are already in the session, inside its own search budget | the connection tool, the signed-in toolkits |
 | every other skill, setup above all | nothing: the classic paths (public reads, the Studio pack, screenshots, the posting tool); `sf-greenscreen` reads `memory/intel.md` | call, offer, check, list, or mention the connection |
 
@@ -249,7 +249,7 @@ Report it as a table per read, then two sentences: the one phrase to own next, a
 page or profile that would make AI engines cite them).
 
 ### 8. Short-form performance + the comparison set (Instagram + YouTube Shorts) — `sf-analytics`
-The read layer behind `sf-analytics` (the quick reads, the monthly deep dive, and the Friday note — one skill).
+The read layer behind `sf-analytics` (the quick reads and the monthly deep dive — one skill; the Friday note was retired 2026-11-14).
 **READ-ONLY** (HARD RULE #1) — never touch the write / DM-send / comment / reply tools these toolkits also
 carry. Instagram + YouTube are the two connected short-form surfaces; every slug below was verified live
 2026-09-25. The question every number answers: *which Reels and stories brought agents closer?*

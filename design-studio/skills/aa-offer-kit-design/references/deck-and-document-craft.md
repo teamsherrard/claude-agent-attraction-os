@@ -49,7 +49,8 @@ chapter 7 of the Week 3 Kit — these pages say how they are laid out, never wha
   the proof and the path (7–8) and the close (9–10); a divider carries a kit lead-in as its title ("The
   method", "What you get"), never a line of your own — full-bleed or accent-ground slides that reset
   attention.
-- **Deliberate layout variety:** slide 1 the member (the cut-out, the kit's one line) · slide 2 the
+- **Deliberate layout variety:** slide 1 the member (the cut-out — or the framed portrait, the craft
+  standard's §6 — and the kit's one line) · slide 2 the
   problem (the agent's words, large, quoted) · slide 3 the turning point (a photo or the cut-out with the
   kit's line) · slide 4 the method as a designed one-line chain · slide 5 the program as a strip (name ·
   type · cadence) · slide 6 the stack slide (the transparent object from the offer stack piece, the kit's

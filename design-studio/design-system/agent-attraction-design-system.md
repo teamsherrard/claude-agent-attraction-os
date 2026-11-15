@@ -187,7 +187,10 @@ never inside the logo file.
 
 - **Frame:** the member's headshot sits in `headshot.shape`, tinted or bordered in a brand colour.
 - **Cut-outs:** background removed, full head with air, standing INTO the design; exit the frame at the
-  bottom edge only or fade deliberately.
+  bottom edge only or fade deliberately. **Only from a file that truly has a see-through background** (or
+  after a clean removal that was checked at double size). A normal headshot takes the framed portrait or the
+  panel instead — the photo filling the brand frame, or running full height down one side with its inner edge
+  dissolved into the ground and the brand wash over it. Never a faked cut-out.
 - **Treatment law:** a real photo never sits raw behind text — it wears `[duotone wash in colour.primary
   · darkened toward colour.dark · a scrim where text sits]`.
 - **Trust surfaces vs content surfaces:** the clean headshot on the profile picture, the signature, and
@@ -308,7 +311,7 @@ the kit. When a piece is done the member tells Cowork in these exact words, and 
 the finish: **"the logo is done"** · **"the style sheet is done — colours and fonts locked"** · **"the kit
 is done"** · **"my offer kit is designed"** (the offer kit, the six posts and the pop-up set) · **"the PDF
 is done"** (the guide) · **"my funnel is live"** with the link · **"register my video brand kit"** (with
-the Riverside editor plugin) · and in Week 6, the line the Events plugin names (until then "my event
+the Riverside editor plugin) · and in a later week, the line the Events plugin names (until then "my event
 set is designed"), **"my digital product is built"** and **"my onboarding roadmap is designed"**.
 Nothing here is edited in the Brain's files by a design skill; nothing in the Brain is edited by this
 file.

@@ -63,7 +63,7 @@ Fine to allow:
 - Reading your calendar / inbox / drive through YOUR connectors
 - Creating docs in the Agent Attraction OS workspace folders our skills use
 - The action a skill just told you it's doing
-- Creating a scheduled task you just said yes to (your Daily Debrief, your Friday performance note)
+- Creating a scheduled task you just said yes to (your Daily Debrief, your Monday week plan)
 
 STOP and ask me first:
 - Anything DELETING or overwriting files it didn't create
@@ -196,7 +196,7 @@ Two small steps, once — and neither happens during setup (setup never asks):
 1. **Add the Composio connector in Claude (2 minutes):** Customize → Connectors → the **+** → **Add custom
    connector** → name it **Composio**, paste **https://connect.composio.dev/mcp**, click **Connect**, approve
    in the browser window that opens. Same clicks on the web, the desktop app, and Cowork.
-2. **Sign in when the report offers it:** say "set up my Friday performance note" in the Short-Form plugin (Week 3), or the YouTube version once Week 4 opens.
+2. **Sign in when the report offers it:** say "how's my content doing" in the Short-Form plugin (Week 4), or "which videos brought me agents" in the YouTube plugin (Week 5).
    The first time, it asks *"want me to hook into live data?"* — say yes, click the sign-in link it gives
    you (YouTube; in Short-Form, Instagram too — a Business or Creator account), log in, come back and say
    "done." A small "Allow" box may pop up before the first pull — click Allow.
@@ -627,17 +627,18 @@ and your thank-you page all point at it. You can say "later" and set it up any d
 **Q52. Short-form: which keyword do I put on my Reels?**
 Two words only, set in Week 2 and confirmed in Week 4: **GUIDE** (comment it and the DM sends your guide) and your own
 invitation word from your offer (it sends the one-pager and the invitation to talk). Everything else — PARTNER, SCALE,
-GROWTH — is retired. One ask per post; the call ask is always "partner with me and get my help, free, to run this".
+GROWTH — is retired. One ask per post; the call ask is always "partner with me and get my help, free, to run this". The two words answer
+themselves through ManyChat — your own account, the free plan to start, Mike's templates imported, the build sheet your
+plugin writes; you never connect ManyChat to Claude, and no paid ManyChat plan is needed for that.
 
 **Q53. What are the short-form workflows, and do they post for me?**
-They never post, send or schedule anything; every one drafts and leaves it for you. Six are recommended on from one
-consent card in Week 4: the Monday week plan (your week's posts onto your board, plus any welcome or win post your Brain
-earned), Sunday batch prep (your film-day sheet), the daily engagement list (ten agents to engage with today), the
-Wednesday brokerage news watch (three to six real, linked headlines with a 30-second take each), the Friday note (what
-started conversations) and the monthly calendar refill. Optional: the keyword follow-up queue, the mid-week nudge, the
-monthly deep dive, daily stories, the quarterly profile audit. Say "my attraction workflows" to see, pause or switch any
-on. Each run leaves a note in Cowork, rebuilds your Brain Board, and — if you said yes to "email me" — sends you one short
-email at your own address.
+They never post, send or schedule anything; every one drafts and leaves it for you. Setup tells you what it is switching
+on and you say Yes once: the Monday week plan (your week's posts onto your board, plus any welcome or win post your
+Brain earned), Sunday batch prep (your film-day sheet), the Wednesday brokerage news watch (three to six real, linked
+headlines with a 30-second take each) and the monthly calendar refill. By phrase, any time: the keyword follow-up queue,
+the mid-week nudge, the monthly deep dive, daily stories, the quarterly profile check. Say "my attraction workflows" to
+see or pause any of them. Each run leaves a note in Cowork, rebuilds your Brain Board, and sends you one short email at
+your own address when something is ready (if your mail is connected).
 
 **Q54. The news watch — are the articles real?**
 Yes, or the item is dropped. Each headline comes from a live search of the last 30 days and carries the outlet, the date
@@ -645,24 +646,59 @@ and the link; the take never misquotes it. If you ever see one without a link, t
 feature.
 
 **Q55. I don't use Notion. Does short-form still work?**
-Yes. The board is bring-your-own and never required: your 30-day calendar lives in your Game Plan document and in your
-Brain, the Monday plan drafts from it, and the Brain Board shows this week's posts. Connect Notion any time and say
-"map my next 30 days" to get the board.
+Your board is part of the program and it lives in your own Notion (a free Notion account is enough). If Notion is
+not connected when setup reaches the board, a Connect button appears right in the chat: click it, sign in, say
+"connected", and the board is built. Nothing is lost in the meantime — your 30-day calendar also lives in your Game
+Plan document and in your Brain, the Monday plan drafts from it, and the Brain Board shows this week's posts. Say
+"map my next 30 days" any time to build or refresh the board.
 
 **Q56. How do I connect Metricool or GoHighLevel?**
-Metricool: in Cowork open Customize → Connectors, add the Metricool connector (a browser sign-in, no keys), then say
-"connect my posting tool"; posts go to Metricool for YOUR approval inside Metricool before anything is published.
-GoHighLevel: you create a Private Integration token in your own sub-account and paste it, with your location, into the
-connector settings yourself — never into chat. Copy-paste stays the default when neither is connected.
+Setup asks one straight question — Metricool or GoHighLevel — and puts the Connect button for the one you name right
+in the chat. Metricool: click Connect and sign in in your browser (no keys); or open Customize → Connectors → Metricool
+→ Connect, then say "connect my posting tool". Posts go to Metricool for YOUR approval inside Metricool before
+anything is published. GoHighLevel: you create a Private Integration token in your own sub-account and paste it, with
+your location, into the connector's own settings — never into the chat. A posting tool is part of the program;
+copy-paste is only what you do until yours is connected.
 
 **Q57. Twelve posts a month, twenty — how many is it, and is that too much?**
-Three Reels a week is the default for your first month, so twelve dated posts: the six you designed in Week 3 (post,
-don't make) and six to film, two batch sessions. Five a week (twenty posts) is the step-up the Friday note proposes once
+Three posts a week is the default for your first month, so twelve dated posts: the six you designed in Week 3 (post,
+don't make) and six to film, two batch sessions. Five a week (twenty posts) is the step-up your monthly refill proposes once
 a month at three has held; say "change my cadence" any time. Stories are never counted as posts, and the Wednesday news
 watch fills one of the week's slots rather than adding to them.
 
 **Q58. In a later week YouTube goes on the same board — won't that be chaos?**
-No. It is one board with tabs: This Week (what you do in the next seven days, three to seven cards), Short-Form,
-YouTube and Calendar. Every card carries its format, so a YouTube video never shows in your Short-Form tab, and YouTube
+No. It is one board with tabs by what the thing is: Graphics (your designed posts), Reels, YouTube and Calendar (the week
+view). Every card carries its format, so a YouTube video never shows among your Reels, and YouTube
 only puts its next 30 days on the board (four to nine cards), never its whole backlog. Click any card and you get the
 same page every time: the hook, the script, the caption, the ask, filming notes, sources, and how it did.
+
+**Q59. YouTube: do I really have to film two videos a week?**
+No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos on the 8-video
+cycle (a niche video, an interview, a niche video, your model breakdown). Two a week is Mike's recommendation and the
+step-up your monthly channel review proposes once a month at one has held; say "change my cadence" any time. Interviews can be
+recorded two in one sitting, so the ratio holds even when your filming time is tight.
+
+**Q60. Where do my YouTube videos live on the board?**
+On the same Notion content board as your Reels, under its own YouTube tab (the tabs sit at the top of the board: Graphics, Reels,
+YouTube, Calendar). The tab holds your next 30 days only — four or five cards at one a week — never
+the whole 90-day plan; that stays in your Game Plan document. Every card opens to the same page: the hook, the script,
+the thumbnail brief, the SEO package, the resource, the three videos to watch first, the guest, notes, and how it did.
+
+**Q61. What does the Monday Kickoff actually do, and will it email me?**
+Every Monday it reads your plan and your board, drafts this week's video onto its card — the brief, the start of the
+script or the interview guide, the thumbnail brief, the start of the SEO package — notes it in your Brain and your
+video's folder, keeps your next 30 days on the board, and leaves a short note in Cowork, and sends you one short email at your own address
+(the same as your short-form notes; nothing if no mail is connected). It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat.
+
+**Q62. Do I switch the workflows on one by one, or pick which ones I want?**
+Neither. Setup tells you what it is switching on — four for short-form, two for YouTube — and you say Yes once; that
+one Yes is the consent every scheduled task needs, and nothing is created before it. There is no "all, some, or not
+yet" and no "do you want emails": the email note is part of the process when your mail is connected. The extras exist
+by phrase; nothing posts, sends or schedules on its own.
+
+**Q63. It says I have no Design Package brief. Did something go wrong?**
+No. Nobody has a brief until their Week 3 brand chat — it was never part of building your Brain in Week 1. In Cowork,
+say "my attraction brand direction": about five minutes, a few questions about what you already have (a logo, your
+colours, your photos), then your Brain works out the look from how you talk and you say yes. It hands you the brief
+and saves it in your Brand folder; "show my design package brief" reprints it any time. Do this first in Week 3,
+before any design skill.

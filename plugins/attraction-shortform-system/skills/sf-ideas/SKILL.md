@@ -171,7 +171,7 @@ Build, in this order:
   **attraction-brain-sync** the moment the cells are written — write → push → verify; every write pushes at once and
   the push re-renders the member's Brain Board. If the save fails, say it is not saved, keep the content visible,
   retry once, stop.
-- Close with one offer: *"want me to script this week's five? Say 'script these' and I'll write them ready to film."*
+- Close with the next step, stated: *"Say 'script these' and I'll write this week's Reels ready to film."*
   Captions and hashtags are not written here (`sf-optimizer` owns them); the ask lines the Reels end on are the kit's
   CALLS TO ACTION lines (the keyword sheet, `sf-comment-to-dm`, carries the same two words).
 
@@ -199,4 +199,4 @@ Build, in this order:
 
 
 ## The close (one phrase to the next step)
-End every weekly run with: *"Want these five scripted? Say 'script my attraction reels' and I'll write all five in one go — then 'edit my reel' sends them to your editor."* One session: research → five ideas → five scripts.
+End every weekly run with: *"Say 'script my attraction reels' and I'll write this week's Reels in one go — filmed? New chat → 'edit my reel'."* One session: research → the week's picks → their scripts.

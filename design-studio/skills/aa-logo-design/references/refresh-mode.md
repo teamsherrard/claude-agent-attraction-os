@@ -1,6 +1,6 @@
 # Refresh Mode — part of the aa-logo-design skill
 
-Read in full the moment the member's path is "I have a logo but it's not quite right".
+Read in full the moment the brief's line 1 says Refresh mode (the member has a logo that is not quite right).
 
 ## REFRESH MODE — EVOLVE AN EXISTING LOGO, DON'T REPLACE IT
 
@@ -10,33 +10,33 @@ Recognition is the whole point; the member's audience already knows this mark.
 
 **The brief already told you the scope.** The Design Package brief says *"change only [the one thing
 flagged]"* — that one thing (the font feels dated · the colours are off · it needs a small emblem · it
-looks cheap · the spacing) is the entire scope. If the brief has no flagged item, ask the ONE
-question: *"What's the one thing you'd change?"* and record only that.
+looks cheap · the spacing) is the entire scope. If the brief has no flagged item, nothing is asked:
+the evolution options below each touch a different thing, and the member's pick tells you what bothered them.
 
-**The refresh brief (replaces the from-scratch questions):**
-- **Upload your current logo** — the best file they have (a transparent PNG or the original logo file — SVG, AI, or PDF — is better than a
-  screenshot; take whatever they've got; check the project and the member's Brand folder first — if
-  it's already there, use it).
-- **What do you LIKE about it?** *(multi-select)* — the name treatment · the symbol · the colours ·
-  the overall layout · the feeling of it. Everything they like is LOCKED.
-- **What bugs you?** *(only if the brief didn't say)* — the font feels dated · the colours are off · it
-  needs a small emblem · it looks cheap or clip-art · the spacing/proportions · "not sure — just make
-  it better."
-- **How far can I go?** *(default Moderate)* — Light touch (spacing, weights, colour polish — nothing
-  structural) · Moderate (swap the font, refine the mark, keep the structure) · Bold but recognizable
-  (new type + a refined mark, same core idea and layout).
+**What you read (there are no refresh questions — told, not asked):**
+- **The current logo** — in the project, the chat or the member's Brand folder. Nowhere → one plain line:
+  *"Drop your current logo into this chat — the best file you have"* (the original logo file — SVG, AI, or
+  PDF — or a see-through PNG beats a screenshot; take whatever they have).
+- **What stays:** everything the brief did not flag is LOCKED — the name treatment, the symbol, the colours,
+  the layout, the feeling of it.
+- **What changes:** the one thing the brief flagged. With nothing flagged, the options answer it (each
+  touches a different thing — the refresh rules below).
+- **How far:** **Moderate**, always, as the starting point — swap the font, refine the mark, keep the
+  structure. Show it beside the original; after they have seen it the member says "lighter touch" (spacing,
+  weights, colour polish only) or "go further" (new type and a refined mark, same core idea and layout).
 
 **The refresh rules:**
 - **Rebuild faithfully first, then improve.** An uploaded logo is usually a flattened image, so
   recreate it CLEANLY as a matching baseline (closest really-available fonts, exact colours) and then
   apply the improvements — and tell the member that's the process. The baseline must be honest: if a
   perfect font match isn't available, name the closest match you actually used.
-- **Change ONLY what they flagged** (within the degree they chose). Never change the name's spelling
-  or casing without asking. Never add a house or a key "while you're in there".
+- **Change ONLY what they flagged** (within the degree in play). Never change the name's spelling
+  or casing unless the member asks for it. Never add a house or a key "while you're in there".
 - **Present 3–4 EVOLUTION options, each as a BEFORE / AFTER pair** — their current logo beside the
   refreshed version — so the improvement is visible and the recognition is provable. Options differ in
   WHAT they touch (type-only refresh · colour-refined · same logo + a small new emblem · the full
-  chosen-degree evolution) — never four unrelated new logos.
+  moderate evolution) — never four unrelated new logos. Lead with the one you would choose and why,
+  in their terms, then **"Your turn."**
 - **The recognition test replaces the distinctiveness test:** at a glance, is this obviously the SAME
   brand, upgraded? If a version reads as a brand-new logo, it's out of bounds — pull it back.
 - **The brokerage check still applies:** if the member's current lead colour sits inside their

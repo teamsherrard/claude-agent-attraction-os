@@ -53,13 +53,14 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
   buttons identical everywhere.
 - **Strong hierarchy, generous whitespace** — one dominant headline per section, calm spacing, never a
   wall of text.
-- **Real, legible imagery** — the member's video at the top (or their cut-out standing in for it), the
-  cut-out (from the kit), the guide's canonical mockup, the offer stack object, the member's real photos
+- **Real, legible imagery** — the member's video at the top (or their headshot standing in for it), the
+  member's photo from the kit (a cut-out only when the file itself has a see-through background; otherwise the
+  framed portrait or the panel — the craft standard's §6), the guide's canonical mockup, the offer stack object, the member's real photos
   (the weekly call, events, agents' wins — with their permission), the toolkit's devices, simple icons.
   Never repeat one photo to fill space.
 - **Use ONLY the member's uploaded photos for realistic imagery — never fabricate it.** This tool can't
   fetch stock or render believable photos; with none, design with brand fields, gradients, the pattern,
-  the logo, and the headshot cut-out. A clean brand-colour layout is always better than a fake-looking crowd.
+  the logo, and the member's headshot. A clean brand-colour layout is always better than a fake-looking crowd.
 - **RESERVE ZONES — nothing overlaps.** Headline, subhead, video, form, button, photo, mockup, embed, and
   footer each get clear space with real gaps; text never runs under a photo, a video, or a button. The #1
   cause of a messy page.
@@ -67,7 +68,7 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
   everywhere; the primary CTA the most prominent element on each screen, in the brand's brightest accent
   even if that is the one place it appears. A button that blends into its section kills conversion.
 - **Balance every section — no awkward dead space.** In the hero, the headline + CTA on one side and the
-  video on the other, both filling their side and vertically centred; the video or cut-out sized to
+  video on the other, both filling their side and vertically centred; the video or headshot sized to
   anchor its half. A section that looks empty gets its content enlarged or its layout tightened.
 - **Premium, not template-y** — polished, restrained, the kind of page that says "this person has a
   standard".
@@ -82,8 +83,9 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
   On mobile the headline + CTA lead and the video sits right under them, full width; the attraction line
   stays glued to the video. A light directional cue (the member's gaze in the poster, an arrow) points at
   the button.
-- **Workshop registration (the Week 6 side door):** the workshop's promise as the headline, the date · time · format line as
-  a designed strip, the member's cut-out (and the co-host's when there is one), the button
+- **Workshop registration (a later week's side door):** the workshop's promise as the headline, the date · time · format line as
+  a designed strip, the member's photo (and the co-host's when there is one; cut-outs only when the
+  files are true ones — the craft standard's §6), the button
   **"Save my seat"**, a quiet "free · live on Zoom / at [venue]" line. Honest urgency only — a real
   date, a real seat count the member stated.
 
@@ -92,11 +94,12 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
 The kit's `Video:` line decides it:
 - **A link** (YouTube, Vimeo, Loom — the 2-to-3-minute video sales letter or the 60-second why-join-me):
   a responsive 16:9 frame in the brand's radius with a soft shadow, a poster (the member's frame from the
-  video, or their cut-out on the brand ground when no frame exists), an on-brand play button, the
+  video, or their headshot on the brand ground when no frame exists), an on-brand play button, the
   `Attraction line:` set bold directly beneath. A plain lazy `<iframe>` with the privacy-enhanced embed
   URL, `allowfullscreen`, **never autoplay with sound**, never a rival CTA on it.
-- **`headshot` (or the older `record the 60-second why-join-me`)**: the member's cut-out headshot in the SAME footprint — a brand
-  field behind it, the attraction line still beneath it (the kit wrote it; it reads as the member's
+- **`headshot` (or the older `record the 60-second why-join-me`)**: the member's headshot in the SAME footprint — a true
+  cut-out on a brand field when the file itself has a see-through background, otherwise the framed portrait or
+  the panel (the craft standard's §6) — the attraction line still beneath it (the kit wrote it; it reads as the member's
   promise either way), never an empty frame, never a "video coming soon" badge. The hand-off tells the
   member how to get the script and that "here's my video" swaps the embed in.
 Both versions share one footprint so the swap never reflows the hero.

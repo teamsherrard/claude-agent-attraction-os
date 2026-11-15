@@ -233,17 +233,12 @@ I'll have your [magnet, in plain words]."* — and go.
    sales funnel outline. **Then run `lm-profiles`** (silent mode — the bios, no questions, no document), **then
    `lm-package`** (silent) with the texts just written: it writes chapters 4–6 of the **Week 3 Kit** and the Brain's
    kit builder saves the one kit — the offer, the page, the bios — in the home base folder, under 25 pages. You don't
-   come back until all four are done. **The sitting's last push (the kit's) rebuilds the Brain Board** — the sync's
-   step 4, from the whole local Brain (Step 0 pulled all of it; if any file is missing locally, the sync completes the
-   pull first). The finish line's "Your Brain Board shows the magnet and what's left" must be true when you say it; if
-   the board could not rebuild, say instead *"your Brain Board rebuilds on the next save — say 'refresh my brain board'
-   any time"*.
+   come back until all four are done. **The sitting's last push (the kit's) is the CLOSING push** — marked as such to `attraction-brain-sync`, which rebuilds the Brain Board from the whole local Brain (its step 4; Step 0 pulled all of it — a missing file is pulled first), refreshes the Brain Book's What's-next page (its step 4b) and returns both links. The finish line's hand-over must be true when you say it; if the Board or the Book could not rebuild, say which, plainly, with the phrase that retries it (*"refresh my brain board"* · *"show me my Brain"*) and hand over the previous copy's link.
 3. **Close the session with the finish line** — one short block, plain words, nothing numbered:
    *"Done. You now have three files: your offer, in your Offer folder; your guide, under Content → Guides; and your
    Week 3 Kit, in your home base folder beside your Brain Book. Chapter 1 of the kit is your two-page summary, and
    chapter 6 is your bios — Instagram, Facebook, LinkedIn, YouTube and more, each sized to its platform; paste them in
-   this week. In Week 3 you upload the kit and your guide to Claude Design, with your brand brief. Your Brain Board
-   shows the magnet and what's left. This week: open the guide in
+   this week. Week 3 opens with your brand chat — in Cowork, say 'my attraction brand direction' (about five minutes); it makes your brand brief. Then you upload the kit, your guide and that brief to Claude Design. Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book link]; download the Board and open the file, and it shows the magnet and what's left. This week: open the guide in
    Google Docs or Word and download it as a PDF — that's your shareable version today (the branded design comes in
    Week 3). Upload that PDF to the same Guides folder, share it 'anyone with the link', and that link is your
    download button. Then the DM and email that send the guide — say 'deliver my guide'; they go into your kit on

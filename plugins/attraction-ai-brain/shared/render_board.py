@@ -413,7 +413,7 @@ SYS_ACTIONS = {
     'offer': [('refine my partner offer', 'Change the name, the steps, the first 30 days, the weekly rhythm. One card, say yes.'), ('build my Week 3 kit', 'Your Week 3 Kit: the offer, everything that promotes it, and the lead magnet chapters once they are written. In Week 3 you upload it with your guide to Claude Design.'), ('paste my compliance link', 'Closes the open question on join-gated packages from your brokerage’s own rules.')],
     'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('add my guide to my kit', 'Refreshes the lead magnet chapters of your Week 3 Kit; in Week 3 you upload the kit with your guide.'), ('update my attraction bios', 'Rewrites your bios for every platform; chapter 6 of the kit follows.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.'), ('what do I upload to Claude Design', 'Hands back your Week 3 Kit and names the guide beside it.')],
     'short-form': [('set up my attraction short-form', 'The whole Week 4 journey in one sitting: your profiles and keywords confirmed, your Game Plan, your board, your workflows, your first Reel.'), ('run my week plan', 'This week\u2019s posts drafted onto your board, any day.'), ('script my attraction reels', 'The next Reels from your calendar, hook three ways.'), ('today\u2019s stories', 'Three stories you can post in five minutes.'), ('how\u2019s my content doing', 'What started agent conversations, and the one change.'), ('my attraction workflows', 'See, pause or switch on any of your scheduled workflows.')],
-    'youtube': [('set up my YouTube for agents', 'One channel question, then no stops: the channel, the Game Plan, the board, the workflows, the first video.')],
+    'youtube': [('set up my YouTube for agents', 'The whole Week 5 journey in one sitting: your channel, your Game Plan, the YouTube tab on your board, your workflows, your first video.'), ('run my attraction kickoff', 'This week\u2019s video drafted onto its card, any day.'), ('make my attraction video: [title]', 'One chat, one video: the script in your voice, the thumbnail build sheet, the SEO package, the card filled.'), ('which videos brought me agents', 'The quick read from your own ledgers.'), ('my YouTube scheduled tasks', 'See, pause or switch on any of the three workflows.')],
     'conversion': [('launch conversion', 'Reads your Brain and your Top 50 and routes you: a call tomorrow, an objection you heard, a pasted transcript.'), ('set up my sales system', 'The Partner Call machine: the booking calendar, the application questions, the pipeline stages in your CRM, the reminders.')],
     'ai-admin': [('set up my attraction admin', 'Reads your Brain, calendar and inbox and hands you the first brief before it asks anything.'), ('my morning brief', 'On demand, any day.')],
     'events': [('plan my agent event', 'One recommendation with the why; it resumes wherever an event already stands.')],
@@ -437,6 +437,20 @@ INNER = [
      [('refresh my attraction voice print', 'After a few weeks of content, re-read how you actually talk.'), ('add my writing samples to my attraction brain', 'A text, a caption, an email, a post: how you write to agents.')], 'identity/voice.md', ()),
     ('whats-next', 'WHAT’S NEXT', 'What’s next', 'Rewritten every time a week lands', [], [], '', ()),
 ]
+SYS_ACTIONS_START = {
+    # A system that has not started offers the phrase that STARTS it — never a phrase for something that does not exist
+    # yet (a member told to "show my design package brief" before the brand chat was told there was no brief; 2026-11-14).
+    'brand': [('my attraction brand direction', 'Your brand chat, the first step of Week 3: about five minutes. It ends with your Design Package brief, saved in your Brand folder.')],
+    'offer': [('build my partner offer', 'Your Partner Offer, built from your Brain: one card, you say yes.')],
+    'lead-magnet': [('launch my lead magnet plugin', 'One lead magnet recommended from your offer, then the guide, the page outline and your Week 3 Kit.')],
+}
+
+def actions_for(sysid, state):
+    """The phrases a system's page offers: its starting phrase while it has not started, its working phrases after."""
+    if state == 'soon' and sysid in SYS_ACTIONS_START:
+        return SYS_ACTIONS_START[sysid]
+    return SYS_ACTIONS[sysid]
+
 FUNNEL_ORDER = ['Hero — the pre-headline, your video, the attraction line, and the opt-in button.', 'Problem — the pain in the agent’s own words.', 'Product — the guide and what’s inside; the opt-in button again.', 'Who I am.', 'Journey — your story, the turning point.', 'Offer — the program and what you get, in your register.', 'Why join me — your story, and why you do this.', 'Proof — your results as your Brain states them; a partner’s result only with their written OK.', 'The organization — what you do together, and who’s in it.', 'Book a call — the second path, for the agent who is already ready.', 'Opt-in — the last button, the same words every time.']
 
 def state_of(sysid, ctx):
@@ -523,7 +537,7 @@ def build_outer(ctx):
             else:
                 tag = 'Your brand is Week 3’s chat, run alongside Claude Design.'
                 line = 'Your creative direction, then the logo, the style sheet and the kit in Claude Design.'
-                body = status_rows([('The brand chat: your inventory, one plain question at a time', 'soon', ''), ('The creative direction, derived from your Brain and your three spoken answers', 'soon', 'you just say yes'), ('The Design Package brief for Claude Design', 'soon', ''), ('The logo, the style sheet and the brand kit', 'soon', 'three runs in Claude Design')]) + '\n\n## What lands on this board when it’s done\nThis dot turns green. Your colours, fonts, logo call and tagline appear on this page.'
+                body = status_rows([('The brand chat: about five minutes, a few plain questions about what you already have', 'soon', 'say “my attraction brand direction”'), ('The creative direction, derived from your Brain and your three spoken answers', 'soon', 'you just say yes'), ('The Design Package brief for Claude Design', 'soon', 'made by the brand chat; nobody has one before it'), ('The logo, the style sheet and the brand kit', 'soon', 'three runs in Claude Design')]) + '\n\n## What lands on this board when it’s done\nThis dot turns green. Your colours, fonts, logo call and tagline appear on this page.'
         elif sysid == 'offer':
             if st == 'built':
                 doc = ctx['offer_doc']
@@ -587,7 +601,7 @@ def build_outer(ctx):
             line = 'Your Game Plan, your board, your workflows and your first Reel. Lights up in Week 4.' if st == 'soon' else ('Set up on %s. Your week is drafted for you.' % sf['installed'] if sf['installed'] else 'Pillars, the 30-day calendar and the board are built.')
             branches = ctx['offer_md']['branches']
             if st == 'soon':
-                body = '## What you\u2019ll have at the end of Week 4\n' + status_rows([('Your profiles and your two keywords confirmed (your bios were written in Week 2)', 'soon', 'step 1'), ('The Short-Form Game Plan: who you attract, the one line, the two keywords, five pillars with three angles each from your content branches, the week you can keep, thirty hooks, a dated 30-day calendar that opens with your six designed posts', 'soon', 'step 2'), ('Your Notion content board with the next 30 days mapped as dated cards', 'soon', 'step 3'), ('Your scheduled workflows, from one consent card: the Monday week plan, Sunday batch prep, a daily engagement list, the Friday note, the monthly calendar refill \u2014 drafted, never posted without you', 'soon', 'step 4'), ('Your first Reel: the script, the hook three ways, the caption and the keyword', 'soon', 'step 5')])
+                body = '## What you\u2019ll have at the end of Week 4\n' + status_rows([('Your profiles and your two keywords confirmed (your bios were written in Week 2)', 'soon', 'step 1'), ('The Short-Form Game Plan: who you attract, the one line, the two keywords, five pillars with three angles each from your content branches, the week you can keep, thirty hooks, a dated 30-day calendar that opens with your six designed posts', 'soon', 'step 2'), ('Your Notion content board with the next 30 days mapped as dated cards', 'soon', 'step 3'), ('Your scheduled workflows, from one consent card: the Monday week plan, Sunday batch prep, Wednesday news watch, the monthly calendar refill \u2014 drafted, never posted without you', 'soon', 'step 4'), ('Your first Reel: the script, the hook three ways, the caption and the keyword', 'soon', 'step 5')])
                 if branches: body += '\n\n## Your pillars will come from your content branches first\nThe Game Plan builds its pillars, angles and titles from the branches of your offer before anything else, then from the rest of your Brain.\n' + '\n'.join('\u2022 ' + b[0] for b in branches)
                 body += '\n\n## What lands on this board when it\u2019s done\nThis dot turns green. Your keywords, your pillars, this week\u2019s posts and your workflows appear on this page, and your weekly content target starts counting on your Goals page.'
             else:
@@ -596,7 +610,7 @@ def build_outer(ctx):
                         ('Your content board', 'done' if sf['board'].startswith('http') else 'soon', sf['board'] if sf['board'].startswith('http') else 'your calendar lives in your Game Plan until Notion is connected'),
                         ('Your workflows', 'done' if sf['tasks_on'] else 'soon', ', '.join(sf['tasks_on']) if sf['tasks_on'] else 'say \u201cmy attraction workflows\u201d'),
                         ('Your first Reel', 'done' if 'complete' in sf['stage'].lower() else 'soon', ''),
-                        ('Posting', 'done' if sf['tool'] and not sf['tool'].lower().startswith(('manual', 'declined')) else 'soon', sf['tool'] or 'by hand, from the drafts')]
+                        ('Posting', 'done' if sf['tool'] and not sf['tool'].lower().startswith(('manual', 'declined', 'chosen')) else 'soon', sf['tool'] or 'by hand, from the drafts')]
                 body = '## Where it stands\n' + status_rows(rows)
                 if sf['keyword']:
                     body += '\n\n## Your two keywords\n' + '\n'.join('| %s | %s |' % kvp for kvp in [('Keywords', sf['keyword']), ('What they open', sf['opens'] or 'the guide, and the invitation to talk')])
@@ -604,25 +618,41 @@ def build_outer(ctx):
                     body += '\n\n## This week\n' + '\n'.join('| %s | %s | %s |' % (r[0], r[1], r[2]) for r in [('Day', 'Post', 'Status')] + sf['week_rows'])
                 body += '\n\n## Your pillars\n' + (md_to_book(ctx['pillars_md'], demo) if (ctx['pillars_md'] and not is_template(ctx['pillars_md'])) else '@note: The Game Plan writes your pillars; say \u201cbuild my short-form game plan\u201d if this is empty.')
                 if sf['perf']:
-                    body += '\n\n## Your last Friday note\n' + sf['perf']
+                    body += '\n\n## Your last performance read\n' + sf['perf']
                 if sf['news'] or sf['batch_date']:
                     body += '\n\n## From your workflows\n'
                     if sf['news'] and sf['news'][0]: body += 'Wednesday\u2019s green-screen stories (%s):\n' % long_date(sf['news'][0]) + '\n'.join('\u2022 ' + l[:110] for l in sf['news'][1]) + '\n'
                     if sf['batch_date']: body += 'Your film-day sheet is ready for %s \u2014 Content \u2192 Short-Form.' % long_date(sf['batch_date'])
         elif sysid == 'youtube':
             yt = ctx['yt_name']
-            tag = ('Lights up in a later week.' + (' Your channel is already named: %s.' % yt if yt else '')) if st == 'soon' else 'Your channel, your Game Plan and your board, from your Brain.'
-            line = 'Your channel, the Game Plan and your first video. Lights up in a later week.' if st == 'soon' else 'The channel, the Game Plan and the board are built.'
+            tag = ('Lights up in Week 5.' + (' Your channel is already named: %s.' % yt if yt else '')) if st == 'soon' else 'Your channel, your Game Plan, this week’s video and your workflows, from your Brain.'
+            line = 'Your channel, the Game Plan and your first video. Lights up in Week 5.' if st == 'soon' else 'The channel, the Game Plan, the YouTube tab and your workflows, from your Brain.'
             if st == 'soon':
                 knows = []
                 if ctx['org']['rows']: knows.append('Your interview lane starts with ' + ' and '.join(r['agent'] for r in ctx['org']['rows'][:2]) + ', and the agents on your Top 50.')
                 if ctx['offer_md']['branches']: knows.append('Your niche lanes come from your content branches: ' + ', '.join(b[0].lower() for b in ctx['offer_md']['branches'][:3]) + '.')
                 knows.append('Your model lane is your brokerage story, told the way you tell it.')
                 if ctx['goals']['twelve']: knows.append('Your goal-math starts from %d agents in twelve months.' % ctx['goals']['twelve'])
-                body = '## What you’ll have at the end of Week 4\n' + status_rows([('Your channel, optimized for the agents you attract, as copy-paste blocks', 'soon', ('channel name on file: ' + yt) if yt else ''), ('The YouTube Game Plan on Mike’s three categories, niche authority, interviews and model, and the 8-video cycle: three niche lanes, the interview lane from your organization and your Top 50, the model lane, about fifty titles, the goal-math from your numbers', 'soon', ''), ('The same Notion board, YouTube view: the next 30 days of videos mapped at your cadence', 'soon', ''), ('Three scheduled workflows from one consent card, the Monday Kickoff on by default; draft-only', 'soon', ''), ('Your first video: the idea, the research, the script in your voice, the thumbnail brief and the SEO package', 'soon', '')]) + '\n\n## What it already knows\n' + '\n'.join('• ' + k for k in knows) + '\n\n## What lands on this board when it’s done\nThis dot turns green. The channel link, the three lanes and the next 30 days of videos appear here.'
+                body = '## What you’ll have at the end of Week 5\n' + status_rows([('Your channel, optimized for the agents you attract, as copy-paste blocks', 'soon', ('channel name on file: ' + yt) if yt else ''), ('The YouTube Game Plan on Mike’s three categories, niche authority, interviews and model, and the 8-video cycle: three niche lanes, the interview lane from your organization and your Top 50, the model lane, about fifty titles, the goal-math from your numbers', 'soon', ''), ('The same Notion board, its YouTube tab: the next 30 days of videos mapped at your cadence — one a week to start', 'soon', ''), ('Two scheduled workflows switched on with your one yes — the Monday Kickoff and the monthly channel review — plus a short email when something’s ready; draft-only', 'soon', ''), ('Your first video: the idea, the research, the script in your voice, the thumbnail brief and the SEO package', 'soon', '')]) + '\n\n## What it already knows\n' + '\n'.join('• ' + k for k in knows) + '\n\n## What lands on this board when it’s done\nThis dot turns green. The channel link, the three lanes and the next 30 days of videos appear here.'
             else:
-                ch = ctx['files'].get('identity/channel.md', '')
-                body = (md_to_book(ch, demo) if ch and not is_template(ch) else '') or ('@note: ' + cfg['blocks'].get('youtube', {}).get('line', 'Built.'))
+                y = ctx['yt']
+                rows = [('Your channel kit', 'done' if (y['setup'] or y['url']) else 'soon', ('pasted' if y['pasted'].lower().startswith('all') else 'copy-paste blocks waiting in Content → Long-Form') if y['setup'] else ''),
+                        ('Your YouTube Game Plan', 'done' if (y['plan_date'] or y['lanes']) else 'soon', (('built ' + y['plan_date'] + ' · ') if y['plan_date'] else '') + (('one video a week' if y['cadence'].startswith('1') else y['cadence'] + ' a week') if y['cadence'] else 'Content → Long-Form')),
+                        ('Your videos on your board', 'done' if y['board'].startswith('http') else 'soon', 'the YouTube tab of your content board' if y['board'].startswith('http') else 'your calendar lives in your Game Plan until Notion is connected'),
+                        ('Your workflows', 'done' if y['tasks_on'] else 'soon', (', '.join(y['tasks_on']) + (' · email on' if y['email'].lower().startswith('yes') else '')) if y['tasks_on'] else 'say “my YouTube scheduled tasks”'),
+                        ('Your first video', 'done' if ('complete' in y['setup'].lower() or y['any_done']) else 'soon', '')]
+                body = '## Where it stands\n' + status_rows(rows)
+                if y['lanes'] or y['playlists']:
+                    body += '\n\n## Your lanes\n' + (('• ' + y['lanes'] + '\n') if y['lanes'] else '') + '\n'.join('• ' + p_ for p_ in y['playlists'])
+                if y['week_rows']:
+                    body += '\n\n## This week’s video\n' + '\n'.join('| %s | %s | %s | %s |' % r for r in [('Date', 'Video', 'Lane', 'Status')] + y['week_rows'])
+                if y['kickoff']:
+                    body += '\n\n## From your Monday Kickoff\n' + (('Week of %s:\n' % long_date(y['kickoff'][0])) if y['kickoff'][0] else '') + '\n'.join('• ' + l_ for l_ in y['kickoff'][1])
+                if y['review']:
+                    body += '\n\n## Your last monthly review\n' + '\n'.join('• ' + l_ for l_ in y['review'][1])
+                if not (y['lanes'] or y['week_rows'] or y['tasks_on']):
+                    ch = ctx['files'].get('identity/channel.md', '')
+                    body += '\n\n' + ((md_to_book(ch, demo) if ch and not is_template(ch) else '') or ('@note: ' + cfg['blocks'].get('youtube', {}).get('line', 'Built.')))
         elif sysid == 'conversion':
             tag = 'Lights up in Week 5. Conversations, calls and the partner call, run from your Brain and your Top 50.' if st == 'soon' else 'Your conversations, calls and the partner call, from your Brain.'
             line = 'Conversations, calls and the partner call. Lights up in Week 5.' if st == 'soon' else 'Built: the partner call machine.'
@@ -644,7 +674,7 @@ def build_outer(ctx):
             first = ('A workshop on %s, live, the way you teach it. The guide is the hand-out; the call is the close. Proposed from your offer; the Event Brief decides it with you.' % (ctx['known_for'] or 'what you teach')) if ctx['known_for'] else ''
             body = ('## What you’ll have in Week 6\n' + status_rows([('The Event Brief: the objective, the audience from who your story speaks to, the transformation, the topic aligned with your offer, brokerage-neutral positioning', 'soon', ''), ('The format, recommended with the why: a live local workshop, a virtual training on Zoom, or an evergreen webinar', 'soon', 'never a menu'), ('The run-of-show, the registration copy, the promo calendar, drafted and never sent', 'soon', ''), ('The follow-up sequence into your pipeline, and the analytics', 'soon', '')]) + (('\n\n## The obvious first event, from your Brain\n' + first) if first else '') + '\n\n## What lands on this board when it’s done\nThis dot turns green, and by then the whole outer ring is lit: the picture of the system you built in six weeks.') if st == 'soon' else (md_to_book(ctx['files'].get('memory/events.md', ''), demo) or '@note: Built.')
         meta = ['Week %d · %s' % (week, {'built': 'built', 'now': 'this week', 'soon': 'coming'}[st]), plugin] + (['Demo'] if demo else [])
-        pages.append({'id': sysid, 'label': label, 'week': 'W%d' % week, 'state': st, 'title': title, 'tagline': tag, 'line': line, 'meta': meta, 'reads': READS[sysid], 'actions': [{'p': p, 'n': q} for p, q in SYS_ACTIONS[sysid]], 'body': body})
+        pages.append({'id': sysid, 'label': label, 'week': 'W%d' % week, 'state': st, 'title': title, 'tagline': tag, 'line': line, 'meta': meta, 'reads': READS[sysid], 'actions': [{'p': p, 'n': q} for p, q in actions_for(sysid, st)], 'body': body})
     return pages
 
 # ───────────────────────── the numbers, the day, the week ─────────────────────────
@@ -944,15 +974,15 @@ def build_whats_next(ctx):
     soon = sorted([(w, i, t) for i, _, w, t, _ in SYSTEMS if ctx['states'][i] == 'soon'])
     lines = ['## This week']
     if now:
-        for i, t in now: lines.append('• Finish %s: say "%s".' % (t.lower(), SYS_ACTIONS[i][0][0]))
+        for i, t in now: lines.append('• Finish %s: say "%s".' % (t.lower(), actions_for(i, 'now')[0][0]))
     elif soon:
-        w, i, t = soon[0]; lines.append('• %s: say "%s".' % (t, SYS_ACTIONS[i][0][0]))
+        w, i, t = soon[0]; lines.append('• %s: say "%s".' % (t, actions_for(i, 'soon')[0][0]))
     for o in ctx['open'][:3]:
         lines.append('• ' + o['text'].split('. ')[0] + '.')
     if soon:
         nxt = [s for s in soon if not now or s[1] != now[0][0]]
         if nxt:
-            w, i, t = nxt[0]; lines += ['', '## Next', '• %s, in Week %d: say "%s".' % (t, w, SYS_ACTIONS[i][0][0])]
+            w, i, t = nxt[0]; lines += ['', '## Next', '• %s, in Week %d: say "%s".' % (t, w, actions_for(i, 'soon')[0][0])]
     lines += ['', '## Any time', '• "just talked to an agent" from the car. "show me my Brain" to refresh your Book. "run my debrief" to close the day.']
     return '\n'.join(lines)
 
@@ -1066,7 +1096,7 @@ def main():
         sf['installed'] = clean(kv(blk, 'Installed'), demo)
         for mm in re.finditer(r'^-?\s*\**([A-Za-z][A-Za-z ]+?) task:\**\s*(attraction-sf-[a-z0-9-]+)', blk, re.M):
             lab = mm.group(1).strip().lower()
-            lab = {'week plan': 'Monday week plan', 'batch prep': 'Sunday batch prep', 'engagement': 'daily engagement list', 'news watch': 'Wednesday news watch', 'weekly content performance': 'Friday note', 'calendar refill': 'monthly calendar refill', 'keyword queue': 'keyword follow-up queue', 'midweek nudge': 'mid-week nudge', 'deep dive': 'monthly deep dive', 'daily stories': 'daily stories', 'profile audit': 'quarterly profile audit'}.get(lab, lab)
+            lab = {'week plan': 'Monday week plan', 'batch prep': 'Sunday batch prep', 'news watch': 'Wednesday news watch', 'calendar refill': 'monthly calendar refill', 'keyword queue': 'keyword follow-up queue', 'midweek nudge': 'mid-week nudge', 'deep dive': 'monthly deep dive', 'daily stories': 'daily stories', 'profile audit': 'quarterly profile audit'}.get(lab, lab)
             sf['tasks_on'].append(lab)
         cal = re.split(r'^## (?:Week briefs|Long-form|Kickoff briefs)', files.get('memory/content-calendar.md', ''), maxsplit=1, flags=re.M)[0]  # the short-form table only
     rows_ = [[c.strip() for c in l.strip().strip('|').split('|')] for l in cal.split('\n') if l.strip().startswith('|')]
@@ -1093,6 +1123,43 @@ def main():
     else: sf['news'] = None
     bp = latest_export(brain, 'batch-prep-'); sf['batch_date'] = date_in(os.path.basename(bp)) if bp else None
     ctx['sf'] = sf
+    ch_ = files.get('identity/channel.md') or read(os.path.join(brain, 'identity/channel.md'))
+    def _f(text, key):
+        m_ = re.search(re.escape(key) + r':\s*([^·\n]+)', text); v_ = (m_.group(1).strip() if m_ else '')
+        return '' if ('[' in v_ or not v_) else clean(v_, demo)
+    yt = {'url': _f(ch_, 'URL'), 'setup': _f(ch_, 'Setup'), 'pasted': _f(ch_, 'Pasted'), 'cadence': _f(ch_, 'Cadence'), 'plan_date': _f(ch_, 'Plan date'), 'lanes': '', 'playlists': [], 'tasks_on': [], 'section': '', 'email': '', 'week_rows': [], 'any_done': False, 'kickoff': None, 'review': None, 'board': sf['board']}
+    m_ = re.search(r'Lane names:\s*([^\n]+)', ch_); yt['lanes'] = '' if (not m_ or '[' in m_.group(1)) else clean(m_.group(1).strip(), demo)
+    lp_ = re.search(r'^## Lanes and playlists[^\n]*\n((?:(?!^## ).*\n?)*)', ch_, re.M)
+    if lp_:
+        for l_ in lp_.group(1).split('\n'):
+            c_ = [x.strip() for x in l_.strip().strip('|').split('|')]
+            if len(c_) >= 2 and c_[0] and c_[0].lower() != 'bucket' and not set(c_[0]) <= set('-: ') and c_[1] and '[' not in c_[1]: yt['playlists'].append(clean(c_[1], demo))
+    yb_ = list(re.finditer(r'^## YouTube \(Week \d\)[^\n]*\n((?:(?!^## ).*\n?)*)', files.get('config.md', ''), re.M))
+    if yb_:
+        blk_ = yb_[-1].group(1)
+        for mm in re.finditer(r'^-?\s*\**([A-Za-z][A-Za-z ]+?) task:\**\s*(attraction-[a-z-]+)', blk_, re.M):
+            yt['tasks_on'].append({'monday kickoff': 'Monday Kickoff', 'monthly review': 'monthly channel review'}.get(mm.group(1).strip().lower(), mm.group(1).strip().lower()))
+        
+        yt['email'] = clean(kv(blk_, 'Email me'), demo)
+    lf_ = re.search(r'^## Long-form \(YouTube\)[^\n]*\n((?:(?!^## ).*\n?)*)', files.get('memory/content-calendar.md', ''), re.M)
+    if lf_:
+        yrows = [[c.strip() for c in l.strip().strip('|').split('|')] for l in lf_.group(1).split('\n') if l.strip().startswith('|')]
+        yrows = [r for r in yrows if len(r) >= 9 and r[0] and r[0] != '#' and not set(r[0]) <= set('-: ') and r[6] and '[' not in r[6]]
+        yt['any_done'] = any(r[8].strip().lower() in ('recorded', 'published') for r in yrows)
+        ydated = sorted([((date_in(r[2]) or date_in(r[1]) or dt.date.max), r) for r in yrows], key=lambda x: x[0])
+        yweek = [r for d_, r in ydated if today <= d_ < today + dt.timedelta(days=7)]
+        yup = yweek or [r for d_, r in ydated if d_ >= today][:3] or [r for _, r in ydated][:3]
+        yt['week_rows'] = [(clean(r[2] or r[1], demo), clean(r[6], demo)[:70], clean(r[5], demo), clean(r[8], demo)) for r in yup[:5]]
+    for key_, pre_ in (('kickoff', 'youtube-kickoff-'), ('review', 'youtube-review-')):
+        f_ = latest_export(brain, pre_)
+        if f_:
+            ls_ = [l.strip() for l in read(f_).split('\n') if l.strip() and not l.strip().startswith(('─', '═', '—', '[[', '▸'))]
+            yt[key_] = (date_in(os.path.basename(f_)), ls_[1:7])
+    pd_ = date_in(yt['plan_date']) if yt['plan_date'] else None
+    if not pd_:
+        gp_ = latest_export(brain, 'youtube-game-plan-'); pd_ = date_in(os.path.basename(gp_)) if gp_ else None
+    yt['plan_date'] = long_date(pd_) if pd_ else ''
+    ctx['yt'] = yt
     ctx['pipeline'] = parse_pipeline(files['memory/pipeline.md'], demo)
     ctx['org'] = parse_org(files['memory/organization.md'], demo)
     ctx['debrief'] = parse_debriefs(files['memory/debriefs.md'], demo)

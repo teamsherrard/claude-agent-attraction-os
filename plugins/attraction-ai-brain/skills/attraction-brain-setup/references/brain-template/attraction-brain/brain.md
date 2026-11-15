@@ -34,7 +34,7 @@
    brokerages are never named in a story ("a franchise", "an independent"). Never fabricate a voice, a story,
    a quote, a testimonial, a production number, or a rev-share figure.
 5. **THE WEEK RULE.** The Partner Offer and, right after it, the lead magnet and the bios are Week 2; content
-   pillars and the publishing layer Week 4; the channel Week 4; the sales system, the pipeline, and the AI Admin
+   pillars and the publishing layer Week 4; the channel Week 5; the sales system, the pipeline, and the AI Admin
    Week 5; onboarding Week 6. A later-week file that is empty is not a gap; say which week builds it.
 
 If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** first. A tool error is never
@@ -75,8 +75,8 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `identity/brand-visual.md` — Inventory (logo state, colors, fonts, headshots, name, leader vs selling brand) + Direction (derived from the voice) — written in the brand chat ("my attraction brand direction", the Week 3 brand chat); the Design Package reads this
 - `identity/content-pillars.md` — attraction content pillars, cadence, the two CTAs (written by the Short-Form System in Week 4; empty until then by design)
 - `identity/publishing.md` — the short-form layer: platforms, cadence, the keyword, posting tool, best times, content board, link in bio (Short-Form-owned, Week 4; YouTube reads `Content board:` and `Keyword:` here)
-- `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `lm-profiles` writes it in Week 2 (aligned to the funnel's CTA), `sf-setup` confirms its five sections in Week 4, `yt-setup` fills YouTube in a later week
-- `identity/channel.md` — the YouTube channel: lanes and playlists, the CTA line, upload defaults, baseline, the Game Plan anchors, dated `## Performance` blocks (YouTube-owned, a later week)
+- `identity/profiles.md` — THE bios file, one `##` per platform (Instagram · Facebook · TikTok · LinkedIn · YouTube) — `lm-profiles` writes it in Week 2 (aligned to the funnel's CTA), `sf-setup` confirms its five sections in Week 4, `yt-setup` confirms YouTube in Week 5
+- `identity/channel.md` — the YouTube channel: lanes and playlists, the CTA line, upload defaults, baseline, the Game Plan anchors, dated `## Performance` blocks (YouTube-owned, Week 5)
 - `identity/sales-system.md` — the Partner Call machine: calendar, the five application-form questions, the "no" rule, CRM stage mapping, reminders (Conversion-owned, a later week; mirrors the booking link in operations.md)
 - `identity/goals.md` — the four numbers from setup (today · 12 months · long term · hours), then the 12-month milestones, 30-60-90 targets and weekly activity once locked; the money scenarios (illustrative, on demand, never in the Book)
 - `identity/execution-framework.md` — the 12-month plan, weekly KPIs, monthly metrics, the CEO rhythm (built after goals lock)
@@ -96,9 +96,9 @@ If `~/attraction-brain/` is missing, pull it with **attraction-brain-sync** firs
 - `memory/ideas.md` — content ideas captured on the go (read before generating new ideas; mark Used)
 - `memory/intel.md` — brokerage and industry news from the Prospect Radar's news scan (on demand) and captures (dated, sourced)
 - `memory/intel-reports/` — per-prospect pre-call briefs and the dated follow-up / reactivation plan files (the Conversion plugin writes them in a later week)
-- `memory/interview-pipeline.md` — the YouTube interview guest list and where each interview stands (YouTube-owned, a later week)
-- `memory/content-performance.md` — the Friday ledger: which Reels, stories, and keywords started agent conversations (Short-Form-owned, Week 4; YouTube appends its section in a later week)
-- `memory/content-calendar.md` — one calendar, two engines: the short-form table — the next 30 days of posts with a date on every one, from the Short-Form Game Plan (Short-Form-owned, Week 4; the Monday Week Plan drafts from it) — and, in a later week, the YouTube Game Plan's dated calendar in its `## Long-form (YouTube)` section (YouTube-owned; the Monday Kickoff drafts from it and appends `## Kickoff briefs (YouTube)`); the content board mirrors both
+- `memory/interview-pipeline.md` — the YouTube interview guest list and where each interview stands (YouTube-owned, Week 5)
+- `memory/content-performance.md` — the performance ledger: which Reels, stories, and keywords started agent conversations ("how's my content doing" and the monthly deep dive; Short-Form-owned, Week 4; YouTube appends its block in Week 5)
+- `memory/content-calendar.md` — one calendar, two engines: the short-form table — the next 30 days of posts with a date on every one, from the Short-Form Game Plan (Short-Form-owned, Week 4; the Monday Week Plan drafts from it) — and, in Week 5, the YouTube Game Plan's dated calendar in its `## Long-form (YouTube)` section (YouTube-owned; the Monday Kickoff drafts from it and appends `## Kickoff briefs (YouTube)`); the content board mirrors both
 - `memory/follow-up-queue.md` — every prospect due a touch, with the reason, tomorrow's confirmations, the touch log (AI Admin-owned, a later week)
 - `memory/sales-funnel.md` — the weekly funnel by source: booked → held → 3-ways → joins, the constraint (Conversion-owned, a later week)
 - `memory/magnets.md` — every lead magnet and `## Current magnet`, the one every CTA points at (Lead Magnet-owned, Week 2; readers take the live guide from here first)

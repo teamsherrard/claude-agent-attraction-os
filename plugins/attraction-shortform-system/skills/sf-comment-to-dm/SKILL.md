@@ -5,13 +5,12 @@ description: >
   (the guide, sent with the copy the lead magnet plugin wrote) and the offer's comment keyword (the
   invitation word). Writes the one-page keyword sheet, the CTA bank in the kit's words, the DM bank
   for both words plus the story reply, and the ManyChat Build Sheet the member follows in their own
-  account; never a pitch or compensation, the brokerage never the reason. Owns the Daily Engagement
-  List (weekday mornings) and the optional Keyword Follow-up Queue (Tue/Thu; reads keyword comments
-  when Instagram is connected); draft-only, on only with a yes. Trigger on: "keyword for this reel",
-  "comment to DM for agents", "my DM bank", "set up my ManyChat", "my ManyChat copy", "keyword
-  automation", "my keyword sheet", "an agent commented my keyword", "an agent DMed me from a reel",
-  "my engagement list", "turn on my daily engagement list", "my keyword follow-ups", "turn on my
-  keyword queue".
+  account this week (ManyChat is part of the program, never connected to Claude, never asked about);
+  never a pitch or compensation, the brokerage never the reason. Owns the Keyword Follow-up Queue
+  (Tue/Thu, by phrase; reads keyword comments when Instagram is connected); draft-only. Trigger on:
+  "keyword for this reel", "comment to DM for agents", "my DM bank", "set up my ManyChat", "my ManyChat
+  build sheet", "my ManyChat copy", "keyword automation", "my keyword sheet", "an agent commented my
+  keyword", "an agent DMed me from a reel", "my keyword follow-ups", "turn on my keyword queue".
 ---
 
 # Comment to DM — the two keywords, the ask ladder and the DM bank (Week 4)
@@ -29,9 +28,10 @@ private call) — and the brokerage is never the reason to talk.
 **Apply** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`
 §8 (the ladder). Every DM template here is **public-facing** (an agent outside the organization reads it), so
 the compliance gate applies before any of it is delivered. The Brain Contract
-(`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`) names what this skill writes: the `Keyword:` line of
-`identity/publishing.md`, interim conversation rows, its two task lines in `config.md`, and its texts in
-`~/attraction-brain/exports/`. To the member: plain words — never a skill id, a file name, or a path.
+(`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`) names what this skill writes: the `Keyword:` and `ManyChat:`
+lines of `identity/publishing.md`, interim conversation rows, its one task line (`Keyword Queue task:`) in
+`config.md`, and its texts in `~/attraction-brain/exports/`. To the member: plain words — never a skill id, a file
+name, or a path; told, not asked (the owner, 2026-11-14) — a question only for a fact the Brain cannot hold.
 
 ## The two keywords (the rule every writer follows)
 
@@ -62,19 +62,24 @@ and logs as written below. To the member it is "when that plugin is installed", 
   refresh it when the offer, the guide or the funnel URL changes.
 - **C · A CONVERSATION STARTED** — "an agent commented GUIDE", "she DMed me from the reel": write the human
   reply, qualify, and hand off or log.
-- **D · THE DAILY ENGAGEMENT LIST** — "my engagement list", "who should I engage with today", "turn on / stop
-  my daily engagement list": today's ten agents with a comment starter each (Step 6).
-- **E · THE KEYWORD FOLLOW-UP QUEUE** — "my keyword follow-ups", "turn on / stop my keyword queue": who used a
-  keyword since last time, the next DM drafted (Step 7).
-- **F · SET UP MY MANYCHAT** — "set up my ManyChat", "my ManyChat copy", "keyword automation": the ManyChat Build
-  Sheet the member follows in their own account (Step 3b). Cowork has no ManyChat connector; nothing here is
-  required for the engine to work — without it the member DMs by hand from the queue.
+- **D · THE KEYWORD FOLLOW-UP QUEUE** — "my keyword follow-ups", "turn on / stop my keyword queue": who used a
+  keyword since last time, the next DM drafted (Step 6).
+- **E · SET UP MY MANYCHAT** — "set up my ManyChat", "my ManyChat build sheet", "my ManyChat copy", "keyword
+  automation": the ManyChat Build Sheet the member follows in their own account (Step 3b). ManyChat is part of the
+  program (the owner, 2026-11-14): set up this week, never connected to Claude — nothing here needs its connector or a
+  paid plan for it; until it is live the member replies by hand from the DM bank. Setup runs this job right after the
+  Game Plan and hands the sheet over in one line.
+
+The daily engagement routine — fifteen minutes, same time every day — is the Game Plan's text (section 3) and the
+weekly routine planner's checklist, never a scheduled list of agents (the owner, 2026-11-14). "Who should I engage
+with today" → one line pointing at the routine; a conversation that starts from it is Job C.
 
 ## Step 1 — Load the Brain
 Read `~/attraction-brain/brain.md` first (pull via **attraction-brain-sync** if the local copy is empty — a
 pull is the whole Brain, `exports/*.txt` included). Then only what the job needs:
 - `identity/publishing.md` — `Keyword:` (`GUIDE · [the offer's word]`), `What it opens:`, `ManyChat:`
-  (`set up` → the flows run; otherwise the member replies by hand — asked once at setup; never re-ask)
+  (`set up YYYY-MM-DD` → the flows run; `not yet — set it up this week (build sheet YYYY-MM-DD)` → the member replies
+  by hand from the DM bank until it is live; never asked, never "optional", no opt-out value)
 - `identity/offer.md` — the header's `Comment keyword:` and `Join-gated package allowed:` lines (the register
   of every call line: `yes` or `unknown` = the join register, `no` = the open register), `## The framework`
   (the method the help is FOR — named in every call ask), `## Value stack` (what "my help" is: the recorded
@@ -86,8 +91,8 @@ pull is the whole Brain, `exports/*.txt` included). Then only what the job needs
   line, the story reply, the bio link and the DM reply for each of the two asks, taken **verbatim**; absent →
   the lines are built on the same shapes from the offer and the magnet, and one line says "rebuild my kit"
 - `memory/content-calendar.md` — the rows this week (Job A: the rung and word a row already carries is that
-  Reel's default); `memory/content-log.md` — the posts of the last fourteen days (Jobs D and E)
-- **The member's Instagram comments, when connected** (Jobs D and E only): the data engine
+  Reel's default); `memory/content-log.md` — the posts of the last fourteen days (Job D)
+- **The member's Instagram comments, when connected** (Job D only): the data engine
   (`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`) exposes them for a Business or Creator account —
   `INSTAGRAM_GET_IG_USER_MEDIA` (the member's recent posts) → `INSTAGRAM_GET_IG_MEDIA_COMMENTS` (text · username ·
   timestamp per comment). Read-only: `INSTAGRAM_POST_IG_COMMENT_REPLIES` exists and is **never used** — nothing is
@@ -101,10 +106,10 @@ pull is the whole Brain, `exports/*.txt` included). Then only what the job needs
 - `identity/operations.md` — the booking link and the call cadence
 - `identity/compliance.md` — its first line, `Status:` — the gate (Step 4)
 - `memory/top-50.md` + `memory/conversations.md` — before replying to a named agent, check whether they are
-  already in a conversation (never restart one that exists); Jobs D and E read them whole
+  already in a conversation (never restart one that exists); Job D reads them whole
 - `memory/objections.md` — the answers that worked, for a reply that hits a known objection
 - `config.md` — the `## Short-Form (Week 4)` block (an older heading with the earlier week number is the same block) for this
-  skill's two task lines and `Email me:`; `Timezone`
+  skill's one task line (`Keyword Queue task:`) and `Email me:`; `Timezone`
 
 ## Step 2 — The ladder (every Reel sits on exactly one rung, with one of the two words)
 
@@ -158,7 +163,7 @@ The reply:  thank · answer in one line · one question back; GUIDE → the Deli
 
 ———————————————————————————————
 Exactly these — two words and the story reply — trigger a DM; nothing else.
-BY HAND OR MANYCHAT:  [replying by hand · built — say 'set up my ManyChat']     THE STAMP:  [from compliance.md]
+MANYCHAT:  [set up YYYY-MM-DD · not yet — set it up this week; say 'my ManyChat build sheet' for the steps]     THE STAMP:  [from compliance.md]
 ```
 Kept at `~/attraction-brain/exports/keyword-sheet-YYYY-MM-DD.txt` (the Brain Board reads the two words and their
 lines from it), then pushed.
@@ -210,15 +215,21 @@ community) · no walls of text · no corporate recruiting language ("opportunity
 personalization (if you have not read their profile, do not pretend you have) · no forced Zoom · no income
 promises; the model, the money, and the paperwork are "a call conversation."
 
-**The ManyChat hand-over (bring-your-own account):** two automations and the story reply — nothing else; any other
-flow in the cohort's template asset stays unused. The copy goes to the member as the **ManyChat Build Sheet**
-(Step 3b); this skill writes copy and build steps, it never connects to, configures, or sends through ManyChat
-(Cowork has no ManyChat connector). One note for the member: Instagram's automation rules change — check ManyChat's
-current policy on comment-triggered DMs before switching an automation on.
+**The ManyChat hand-over (the member's own account — part of the program, the owner, 2026-11-14):** two automations
+and the story reply — nothing else; any other flow in the cohort's template asset stays unused. The copy goes to the
+member as the **ManyChat Build Sheet** (Step 3b), to be followed this week; this skill writes copy and build steps, it
+never connects to, configures, or sends through ManyChat — the member never connects ManyChat to Claude, and nothing
+here needs its connector or a paid plan for it. One note for the member: Instagram's automation rules change — check
+ManyChat's current policy on comment-triggered DMs before switching an automation on.
 
-## Step 3b — The ManyChat Build Sheet (Job F — the member follows it in their own ManyChat)
-Plain words, in this order, nothing the member has to figure out; nothing in it says ManyChat is required (without
-it they DM by hand from the queue):
+## Step 3b — The ManyChat Build Sheet (Job E — the member follows it in their own ManyChat, this week)
+Plain words, in this order, nothing the member has to figure out. The sheet — and the chat hand-over — open with the
+owner's line (2026-11-14), in this shape: *"ManyChat is how your two keywords answer themselves. Set it up this week:
+install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations),
+import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links — your build sheet walks
+you through it step by step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for
+it. Until it's live, reply by hand from your DM bank."* Never a question, never an opt-out, never
+"connected". Then the steps:
 1. **Install the template first** — Mike's sequence template, the cohort's bonus asset in the member's Materials
    folder (`06 · Materials`): import it into their own ManyChat account before building anything.
 2. **Automation one — GUIDE.** Trigger: a comment containing GUIDE on any post, a DM containing GUIDE, or the story
@@ -236,12 +247,17 @@ it they DM by hand from the queue):
 4. **The story-reply trigger:** the story's sticker text is the ask ("Reply GUIDE and I'll send it." · "Reply and
    I'll send you the link."); the reply fires the matching automation; anything else the member answers by hand.
 5. **The one-line test:** *"comment GUIDE on your own post from a second account and watch the DM arrive."*
-6. **The free plan, said once:** the free plan caps contacts and adds its own branding to messages; the member checks
-   ManyChat's current pricing page the day they set it up — never a number from memory.
+6. **The plan, said once:** the free plan starts you; upgrade only if ManyChat itself asks you to for Instagram
+   automations — never a price from memory.
 Deliver in chat as the numbered sheet; save it beside the keyword sheet as `YYYY-MM-DD · ManyChat Build Sheet`
 (`03 · Content/Short-Form/[YYYY-MM · Month]/`, per the output standard) and keep its text at
-`~/attraction-brain/exports/manychat-build-sheet-YYYY-MM-DD.txt`; when the member says it is live ("ManyChat's set up", "I did the ManyChat"), write `ManyChat: set up YYYY-MM-DD` to `identity/publishing.md` — the one `ManyChat:` write this skill owns beside the Game Plan's question (the contract grants it; `not yet — replying by hand` and `declined` stay the Game Plan's); push (**attraction-brain-sync**). Compliance (Step 4) applies: every message
-in the sheet is public-facing.
+`~/attraction-brain/exports/manychat-build-sheet-YYYY-MM-DD.txt`. **The `ManyChat:` line of `identity/publishing.md`
+is this skill's** (the contract grants it): when the sheet is written → `ManyChat: not yet — set it up this week
+(build sheet YYYY-MM-DD)`; when the member says it is live ("ManyChat's set up", "I did the ManyChat") → `ManyChat:
+set up YYYY-MM-DD`; there is no opt-out value — ManyChat is part of the program. Push (**attraction-brain-sync**). Inside
+setup this job runs right after the Game Plan; setup says the hand-over line and "my ManyChat build sheet" prints the
+sheet any time. Compliance (Step 4) applies: every message in the sheet is public-facing — at `unset` the sheet waits
+for the gate and the line still reads `not yet — set it up this week`.
 
 ## Step 4 — Compliance (three-state, before anything is delivered)
 Read the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`).
@@ -271,49 +287,10 @@ appears because no template mentions income. "If empty, proceed" is banned.
      **attraction-brain-sync**; if the push fails, say it is not saved, retry once, stop.
 4. Never send anything. The member sends every DM themselves; this writes the words.
 
-## Step 6 — The Daily Engagement List (Job D — Mike's engagement routine, prepared for them)
-Fifteen minutes a day, same time every day, turns attention into conversations (`05-big-picture/36`,
-`07-instagram/89`). This list makes the fifteen minutes easy: **ten agents to engage with today, one comment
-starter each.** On demand any day; on a schedule each weekday morning — the Daily Engagement List,
-`attraction-sf-engagement`, recommended on; setup's consent card offers it.
-**Build the ten, in this order, until there are ten** (fewer is fine — say so, never pad):
-1. **Keyword comments and DMs not yet answered** — `memory/conversations.md` rows of the last seven days with
-   Channel = comment or DM and no next step done (the member's own reports and the capture skill's rows).
-2. **Recent commenters** — when the member's Instagram is connected through the data engine, the real list:
-   `INSTAGRAM_GET_IG_USER_MEDIA` (the posts of the last fourteen days) → `INSTAGRAM_GET_IG_MEDIA_COMMENTS` (username
-   · text · timestamp), read-only, the reply tool never used; otherwise the agents the member named on this week's
-   posts (`memory/content-log.md` rows this week, their own words) — never a guess at a name.
-3. **The Top-50** — `memory/top-50.md` rows at Stage `Identified` or `Conversation`, a `Due` date today or past
-   first, then the oldest `Last touch`; never an agent at `Call booked` or later (that lane belongs to the
-   conversion plugin), never a new partner (recognition posts are `sf-stories`' job).
-**For each:** the name and handle · why today (one clause: "commented GUIDE on Tuesday's Reel", "no touch in
-three weeks", "her post about open houses") · **one comment starter** in the member's typed voice — a real
-observation or question about *their* recent post or comment, never a compliment template, never a pitch, never
-a keyword push (the comment earns the DM; the DM earns the resource) · the rung they are on. Plus the day's two
-habits in one line each: reply to every comment with a question; answer every DM the same day. Nothing is sent;
-nothing is written to the Top-50 by this skill.
-**Save + push:** today's list to `~/attraction-brain/exports/engagement-list-YYYY-MM-DD.txt` (one line per
-agent; newest is current), then **attraction-brain-sync PUSH** so the Brain Board shows the run. Close: *"Ten for
-today — about fifteen minutes. Say 'an agent commented GUIDE' when one does and I'll write the reply."* The
-scheduled run ends the owner's three ways (the task prompt carries them verbatim): the note in Cowork, ONE email
-to the member's own address only when the block's `Email me:` line is `yes`, the push.
-**Provision / stop:** read the `Engagement task:` line in `config.md`'s Short-Form block (a line is
-found by its label or by its task id). A task id → on; say so. `declined` → never re-offer. `not offered yet` /
-`later` / no line → offer once, plainly: *"Want ten agents to engage with each weekday morning — who to comment
-on today and a first line for each? Nothing is sent. Yes, and what time?"* **Your turn.** Yes →
-`list_scheduled_tasks` first (adopt an existing `attraction-sf-engagement`, never a twin), else
-`create_scheduled_task` with `taskId: attraction-sf-engagement`, `cronExpression: [minute] [hour] * * 1-5`
-(weekday mornings at their hour, default 8:00 am, in `config.md → Timezone`), the `prompt` **verbatim** from
-`references/engagement-task-prompt.md`. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) —
-never claim a schedule that did not save. Write `Engagement task: attraction-sf-engagement` and `Engagement time: [time]`, push, verify; confirm once: *"On. Say 'stop my daily engagement list' any time."*
-No → `declined`; push. Stop / pause → `delete_scheduled_task` (or disable), write `declined` (or `paused`), push,
-one line. The yes given on setup's consent card IS this consent — never ask again there. Never a second task. A
-demo Brain never gets a task.
-
-## Step 7 — The Keyword Follow-up Queue (Job E — optional, Tuesdays and Thursdays)
+## Step 6 — The Keyword Follow-up Queue (Job D — by phrase, Tuesdays and Thursdays)
 Who commented or DMed a keyword since last time, with **the next DM in the ladder drafted — never sent.** On
-demand ("my keyword follow-ups") or on a schedule (`attraction-sf-keyword-queue` — off unless the member asks;
-setup names it in its one "say the word any time" sentence).
+demand ("my keyword follow-ups") or on a schedule (`attraction-sf-keyword-queue` — one of the five extras setup
+states in one sentence, "they're there if you want them; say the word any time"; switched on by the member's phrase).
 1. **Since when:** the newest `exports/keyword-queue-*.txt` date (none → the last seven days).
 2. **Who — real when Instagram is connected through the data engine:** `INSTAGRAM_GET_IG_USER_MEDIA` (the posts of
    the last fourteen days) → `INSTAGRAM_GET_IG_MEDIA_COMMENTS` (text · username · timestamp) → keep the comments
@@ -333,11 +310,19 @@ setup names it in its one "say the word any time" sentence).
    tells this skill ("she replied"), and Job C takes it from there. The scheduled run ends the owner's three ways
    (verbatim in the task prompt): the note in Cowork, ONE email to the member's own address only when `Email me:`
    is `yes`, the push.
-**Provision / stop:** the `Keyword Queue task:` line; the same rules as Step 6 — offered only when asked
-("turn on my keyword queue"), `list_scheduled_tasks` first, `create_scheduled_task` with `taskId:
-attraction-sf-keyword-queue`, `cronExpression: [minute] [hour] * * 2,4` (Tuesdays and Thursdays, default 9:00
-am, `config.md → Timezone`), the `prompt` **verbatim** from `references/keyword-queue-task-prompt.md`, verify,
-write the line, push; stop in one sentence ("stop my keyword queue").
+**Provision / stop:** read the `Keyword Queue task:` line in `config.md`'s Short-Form block (a line is found by its
+label or by its task id). A task id → on; say so. `paused` → they stopped it; the phrase brings it back (`later` or any other value → not on). It is
+created only with the member's yes — their phrase is the consent — and never silently. On the
+member's phrase ("turn on my keyword queue") → a statement, never an offer or a question (the owner, 2026-11-14:
+told, not asked): *"Switching on your keyword follow-up queue — Tuesdays and Thursdays, 9:00 am; name another time
+any time."* Then `list_scheduled_tasks` first (adopt an existing `attraction-sf-keyword-queue`, never a twin), else
+`create_scheduled_task` with `taskId: attraction-sf-keyword-queue`, `cronExpression: [minute] [hour] * * 2,4`
+(Tuesdays and Thursdays, default 9:00 am, `config.md → Timezone`), the `prompt` **verbatim** from
+`references/keyword-queue-task-prompt.md`. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`) —
+never claim a schedule that did not save. Write `Keyword Queue task: attraction-sf-keyword-queue`, push, verify;
+confirm once: *"On. Say 'stop my keyword queue' any time."* Stop / pause → `delete_scheduled_task` (or disable), write
+`paused`, push, one line. Never a second task. A demo Brain never gets a task. An older block's
+two retired engagement lines (the contract names them) are deleted on this skill's next write.
 
 ## Step 8 — Save
 Deliver in chat. The keyword sheet's text always goes to `exports/keyword-sheet-YYYY-MM-DD.txt` and is pushed
@@ -345,7 +330,7 @@ Deliver in chat. The keyword sheet's text always goes to `exports/keyword-sheet-
 words). Offer to save the full set (the CTA bank first, then the keyword sheet, then the DM bank) per
 `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md`: render to `.docx` (`shared/render_doc.py`) →
 `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Keyword Sheet + DM Bank`; the ManyChat Build
-Sheet (Job F) beside it as `[YYYY-MM-DD] · ManyChat Build Sheet`, its text in
+Sheet (Job E) beside it as `[YYYY-MM-DD] · ManyChat Build Sheet`, its text in
 `exports/manychat-build-sheet-YYYY-MM-DD.txt`. Close with the one next step: *"say the word on camera at the end of every Reel — GUIDE on most, [WORD] on the ones that invite;
 I'll write the human replies as they come in. Your Brain Board is updated."*
 
@@ -360,14 +345,17 @@ I'll write the human replies as they come in. Your Brain Board is updated."*
 - [ ] The keyword sheet one page — exactly the two words and the story reply; its text in `exports/`; the CTA lines
       the kit's lines verbatim; every call line in the law's shape (the person · their help · free · to run this),
       never the brokerage, never the member's time
-- [ ] The ManyChat Build Sheet in order (the template first · GUIDE · the invitation word · the story reply · the
-      test · the free plan once), the GUIDE messages quoted from the Delivery Kit, saved beside the keyword sheet and
-      its text in `exports/`; ManyChat never named as required
+- [ ] The ManyChat Build Sheet in order (the owner's opening line · the template first · GUIDE · the invitation word ·
+      the story reply · the test · the plan once), the GUIDE messages quoted from the Delivery Kit, saved beside the
+      keyword sheet and its text in `exports/`; ManyChat told as part of the program — set up this week, never
+      connected to Claude, no opt-out, never asked about; the `ManyChat:` line written (`not yet — set it up this
+      week (build sheet YYYY-MM-DD)` → `set up YYYY-MM-DD`)
 - [ ] Comments read only through the member's connected Instagram (the two read tools; the reply tool never), else
       from what the member logged, said in one line
 - [ ] Compliance read first; `unset` blocked delivery; no compensation anywhere
 - [ ] Conversation handed to `cv-dm-flow` by name when installed, or logged in the locked shape and added to the
       Top-50; nothing sent
-- [ ] The two workflows provisioned only on a yes, by their exact task ids; existing tasks adopted; verified;
-      their lines written and pushed; stop honored in one sentence; every run saved to `exports/` and pushed so
-      the Brain Board shows it
+- [ ] The Keyword Follow-up Queue provisioned by the member's phrase (a statement, never an offer), by its exact
+      task id; an existing task adopted; verified; its line written and pushed; stop honored in one sentence; every
+      run saved to `exports/` and pushed so the Brain Board shows it; no engagement list anywhere (the routine is the
+      Game Plan's text)

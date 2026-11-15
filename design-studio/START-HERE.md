@@ -5,7 +5,7 @@ Ten Claude Design skills that build the visual brand agents will follow — the 
 makes is digital: profile pictures, banners, highlight covers, story and reel frames, a Zoom background,
 an email signature graphic, slides, the guide PDF, the opt-in page, posts, pop-ups and the video kit.
 This page is the map. **All design work happens in Week 3, in one Claude Design project, in the order on
-this page. Two more skills join in Week 6** (events and the Value Vault).
+this page. Two more skills join in a later week** (events and the Value Vault).
 
 This is a Claude Design **skill set**, not a Cowork plugin. Claude Design cannot run plugins; it accepts
 uploaded skill files. Your Brain and your Lead Magnet plugin (in Cowork) write the words; Claude Design
@@ -25,20 +25,24 @@ designs them from three files you upload once.
    Cowork (**"show my design package brief"** reprints it any time; a copy sits in your Brand folder).
    Attach it to your first chat as the file your Brain saved (`Design Package Brief · [Name] · [date]`, in your Brand folder) — or paste the whole block into the message box. Never into a question box: it cuts the brief off.
 
-Optional: your **Brain Book** ("the AI Brain file"), when a skill asks for it — it tells the skills who
-you are.
+Optional: your **Brain Book** ("the AI Brain file") — it tells the skills who you are.
 
 Don't have the kit or the guide yet? In Cowork, say **"build my partner offer"** and **"launch my lead
 magnet plugin"** — the kit arrives at the end of that sitting, with the guide beside it.
 
 ## THE FIVE GOLDEN RULES (everything depends on these)
 
+**The skills do not interview you.** Each one reads your three files, tells you in one line what it
+found, and builds. You react to real work and say what to change. Your brand chat in Cowork comes first
+— say **"my attraction brand direction"** (about five minutes) — because it makes your Design Package
+brief.
+
 1. **ONE project.** Create a single Claude Design project — name it anything you like — and run EVERY
    skill inside it. That is how each skill finds your logo, colours, fonts and headshot automatically.
 2. **Attach your Design System and the three files to every chat:** your **Design System** (start with
    the Agent Attraction Design System file in this folder; after the style sheet it becomes *your*
    "[Name] Design System"), your **Week 3 Kit**, your **guide** and your **Design Package brief**; your
-   Brain Book when a skill asks. Never a DEMO-watermarked file.
+   Brain Book is optional. Never a DEMO-watermarked file.
 3. **The brand three first.** Logo → style sheet → brand kit lock the brand — colours, fonts, your name
    and your organization's name, one brand or a separate leader brand, language. Everything after
    inherits it and never re-asks. *(Love your logo? Skip it — start at the style sheet and upload your
@@ -56,27 +60,28 @@ magnet plugin"** — the kit arrives at the end of that sitting, with the guide 
 ## SET-UP (ten minutes, once)
 
 1. In claude.ai → **Customize → Skills → Upload a skill**, upload the files from `_dist/` —
-   `01-aa-logo-design.zip` through `08-aa-video-kit-design.zip` now, `09` and `10` in Week 6. Every skill
+   `01-aa-logo-design.zip` through `08-aa-video-kit-design.zip` now, `09` and `10` in a later week. Every skill
    is one zip; upload it as-is.
 2. Open **Claude Design** (claude.ai/design — or a Design canvas inside Cowork: the Design tab, or a design opened beside your chat), create your project (any name), and attach
    `00-agent-attraction-design-system.md` (from `_dist/`), your **Week 3 Kit**, your **guide**, and your
    examples (anything you have made, your current profile, brands you like — the skills study them for
    direction and never copy).
-3. In Cowork, say **"my attraction brand direction"** and copy the **Design Package brief** your Brain
-   hands you.
+3. In Cowork, say **"my attraction brand direction"** (about five minutes) and copy the **Design Package
+   brief** your Brain hands you.
 4. Attach the brief file to your first chat (or paste the whole block into the message — never into a question box, which cuts it off) and type the first phrase below.
 
-## WEEK 3 — the ten skills, in the order you ask for them
+## WEEK 3 — the eight skills, in the order you ask for them
 
-Every skill reads the same Design System and the same three files, asks only what they cannot answer,
-and when it finishes prints the one line to say back in Cowork so your Brain knows the piece exists.
+Every skill reads the same Design System and the same three files, tells you in one line what it found
+and builds, and when it finishes prints the one line to say back in Cowork so your Brain knows the piece
+exists.
 **The kit skills (the offer kit, the posts, the Value Vault) build one piece when you name it, or the
 whole set when you say the set phrase: they show you the masters first, wait for one yes, then build
 everything else without stopping.**
 
 | # | File | Skill | Type this | What you get | Lands in | Say back in Cowork |
 |---|---|---|---|---|---|---|
-| 1 | `01-aa-logo-design.zip` | `aa-logo-design` | "design my attraction logo" — skip this skill if you love your logo | 3–5 leader-logo concepts on your name (and your organization's name — a version with each), from the creative direction in your brief and your examples; shown over dark and over white; refresh mode for a logo that's not quite right; then every final file (transparent PNG + SVG, dark and one-colour versions, the content header, the "brokered by" version only where your rules require it) | your Brand folder | **"the logo is done"** |
+| 1 | `01-aa-logo-design.zip` | `aa-logo-design` | "design my attraction logo" — skip this skill if you love your logo | three leader-logo directions on your name (and your organization's name — a version with each), with the one it recommends first, from the creative direction in your brief and your examples; shown over dark and over white; refresh mode for a logo that's not quite right; then every final file (transparent PNG + SVG, dark and one-colour versions, the content header, the "brokered by" version only where your rules require it) | your Brand folder | **"the logo is done"** |
 | 2 | `02-aa-style-sheet-design.zip` | `aa-style-sheet-design` | "build my brand style sheet" | your brand sheet, two options side by side — the look it picks from your brief (you never choose a texture), your logo in six variations, colour cards with every code, fonts and text sizes, the three graphic elements, three to five flat mockups — and YOUR Design System, locked | your Brand folder | **"the style sheet is done — colours and fonts locked"** |
 | 3 | `03-aa-brand-kit-design.zip` | `aa-brand-kit-design` | "make my brand kit" | profile pictures; banners (Instagram, Facebook, LinkedIn, YouTube) that say who you are · who you help · what you help them do · why listen · what to do next; highlight covers; teaching and agent-win post templates; story frames; the email signature graphic; the end screen; Zoom and presentation backgrounds — plus your organization family when your group has a name | your Brand folder | **"the kit is done"** |
 | 4 | `04-aa-offer-kit-design.zip` | `aa-offer-kit-design` | first piece: "design my digital product" or "mock up my offer" (the product mockup) · then "design my offer kit" — or one piece: "design my join my team one-pager", "design my offer stack", "my welcome pack for new partners" | from chapter 7 of your kit (DESIGN ASSETS) and chapter 2 (YOUR OFFER): the **digital product mockup first** — the one canonical cover every later skill reuses, a flat cover from your `Cover line:`, `Subtitle:` and `Three promises:` (a 3D view only where the tool can export it; never a course box unless your kit says course and built) — then the offer stack (what you get and what's free, in plain words, never a figure), the one-pager (its `Headline:` line, in your register), the ten-slide call deck (slide 9 never carries a figure) and the Day 1 welcome pack | your Offer folder | **"my offer kit is designed"** — once the six posts and the pop-up set (skills 7 and 8) are done too |
@@ -85,11 +90,11 @@ everything else without stopping.**
 | 7 | `07-aa-content-design.zip` | `aa-content-design` | "design my posts" (the six kit posts — or one: "design post 3", "my story carousel", "my proof post", "my book-a-call story") · the team and promo templates — name the one you want: welcome to the team · agent win · team milestone · quote card · weekly call reminder · reel cover · program promo · later, when those documents exist: "design my carousel" (from your Short-Form plan), "design my win wall" (from your Admin's wins brief) | three modes: **the six posts** from chapter 7 (SOCIAL GRAPHIC POSTS — every slide verbatim, one ask per post from CALLS TO ACTION, the stamp on the last slide, the captions handed back in one file beside the pictures; post 3 is your five-slide story carousel); **the team and promo templates** in your brand; and **the side doors** — a carousel or recognition graphics once your Short-Form and Admin plugins write them | your Offer folder (the six posts); your Graphics folder (templates and later content) | **"my offer kit is designed"** (the six posts count toward it) |
 | 8 | `08-aa-video-kit-design.zip` | `aa-video-kit-design` | "design my pop-ups" (also "my video pop-up set", "my end cards", "my name card") · "design my video brand kit" | **the pop-up set** from chapter 7's CALLS TO ACTION table and `Pop-up rules:` — your name card, the guide pop-up, the call pop-up and two end cards as see-through pictures for vertical and wide video (six words or fewer, never over the face, never in the lower quarter) — and **the video brand kit** your editor lays over every video (hook banner, name strip, emphasis pop-up, call-to-action banners, end screen, icons and the spec your editor reads) | your Offer folder (the pop-ups); the Video Brand Kit folder inside your Brand folder (the video kit) | **"my offer kit is designed"** (the pop-ups) · **"register my video brand kit"** (needs the Riverside editor plugin; without it the files simply wait in your Brand folder) |
 
-## WEEK 6 — two more skills
+## A LATER WEEK — two more skills
 
 | # | File | Skill | Type this | What you get | Lands in | Say back in Cowork |
 |---|---|---|---|---|---|---|
-| 9 | `09-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" · "workshop slides for agents" · "countdown stories for my event" | your event's graphics — the feed and story flyers, the registration post, the seven countdown stories, the Zoom background and starting-soon screen, the replay graphic and the workshop slides with the pitch-free close — from the event brief your Week 6 Events plugin hands you; the brand from your Design System and your Design Package brief; the words about your program from your kit (chapter 2 THE PROGRAM, chapter 3 THE ONE LINE, FOUR WAYS, chapter 7 CALLS TO ACTION). Digital only — no printed flyer, no banner | your event's folder in your Content folder | the line your Events plugin names — until it ships, **"my event set is designed"** |
+| 9 | `09-aa-event-design.zip` | `aa-event-design` | "my attraction event flyer" · "workshop slides for agents" · "countdown stories for my event" | your event's graphics — the feed and story flyers, the registration post, the seven countdown stories, the Zoom background and starting-soon screen, the replay graphic and the workshop slides with the pitch-free close — from the event brief your Events plugin (a later week) hands you; the brand from your Design System and your Design Package brief; the words about your program from your kit (chapter 2 THE PROGRAM, chapter 3 THE ONE LINE, FOUR WAYS, chapter 7 CALLS TO ACTION). Digital only — no printed flyer, no banner | your event's folder in your Content folder | the line your Events plugin names — until it ships, **"my event set is designed"** |
 | 10 | `10-aa-value-vault-design.zip` | `aa-value-vault-design` | "design my value vault" — or one piece: "design my playbook", "design my onboarding roadmap" ("design my course" or "design my ebook" only when chapter 2 of your kit says that format is built) | version one of your digital product as a designed PDF under the cover from Week 3 — the template you already use plus your one 10-to-15-minute recording (chapter 2, YOUR DIGITAL PRODUCT → `Version one, this month:`) — and your partner onboarding roadmap: the first-30-days page, the new-partner checklist and the "where to show up" card from chapter 7's THE WELCOME PACK (DAY 1) | your Offer folder (the product in its own folder; the roadmap in the Onboarding folder inside it) | **"my digital product is built"** · **"my onboarding roadmap is designed"** |
 
 ## WHERE FILES LIVE
@@ -108,14 +113,14 @@ date is the current one).
 
 - **"It forgot my brand"** → attach your Design System to the chat and say "use my design system".
 - **Wrong colours or fonts appear** → same fix; the Design System always wins.
-- **It asked me things my kit already says** → attach the Week 3 Kit (newest) and the Design Package
-  brief; the skills prune every question those answer.
+- **It asked for something my kit already says** → attach the Week 3 Kit (newest) and the Design Package
+  brief; the skills read those first and are built to tell you what they found, not to question you.
 - **It used words that aren't mine** → say "copy verbatim"; every word comes from your kit or your
   guide, never from the designer.
 - **A piece looks off** → ask for the ONE change ("make the headline bigger"); skills change only what
   you ask, never rebuild.
-- **It asked me which piece I wanted** → name it ("my offer stack", "post 3"); a kit skill only asks when
-  neither your phrase nor your kit says which piece — and the set phrase builds them all.
+- **It built the whole set and I wanted one piece** → name it ("my offer stack", "post 3"); a kit skill
+  builds the one piece you name, and the set phrase builds them all.
 - **"Where are my picture files?"** → Claude Design's Export menu has no picture option; every skill
   that makes pictures puts a **Download** button on the board's last page that packs every file into
   one zip. PDFs — the style sheet, your guide, a deck, a playbook — come from the Export menu.
@@ -138,7 +143,7 @@ date is the current one).
 ## THE WEEK 3 CHECKLIST
 
 - [ ] One project created and named; the Design System file + your Week 3 Kit + your guide attached; the
-      Design Package brief pasted (from "my attraction brand direction" in Cowork)
+      Design Package brief attached or pasted (from "my attraction brand direction" in Cowork)
 - [ ] 1 · logo files in your Brand folder — or skipped because you love your logo → "the logo is done"
 - [ ] 2 · the style sheet + "[Your Name] Design System" saved → "the style sheet is done — colours and
       fonts locked"
@@ -149,7 +154,7 @@ date is the current one).
 - [ ] 6 · the opt-in page live and test-submitted → "my funnel is live" + the link
 - [ ] 8 · the video brand kit → "register my video brand kit" (with the Riverside editor plugin)
 
-**Week 6:** upload 09 and 10 when your Events plugin and the Value Vault open.
+**In a later week:** upload 09 and 10 when your Events plugin and the Value Vault open.
 
 Everything here is assistance, not legal advice: check every public piece against your brokerage's
 advertising and revenue-share marketing rules, and never post a graphic whose brokerage and licence

@@ -4,7 +4,7 @@ Read in full before building any piece.
 
 ## 1. THE EVENT BRIEFS (the two shapes the Events plugin writes — the producers own the field names)
 
-The Events plugin ships in Week 6; its `ev-promo` skill writes the first block (the graphics) and `ev-runofshow` the second (the slides) — until a member holds one of these blocks there is no event to design, and this skill never invents one. Both arrive pasted in chat and also sit in the event's folder (`03 · Content/Events/[code] · [Theme]/`): the DESIGN
+The Events plugin ships in a later week; its `ev-promo` skill writes the first block (the graphics) and `ev-runofshow` the second (the slides) — until a member holds one of these blocks there is no event to design, and this skill never invents one. Both arrive pasted in chat and also sit in the event's folder (`03 · Content/Events/[code] · [Theme]/`): the DESIGN
 BRIEF band of `Promo Calendar & Copy · [code] · [date]` and the SLIDE BRIEF band of `Run-of-Show ·
 [code] · [date]`. Read the fields exactly as written below — never rename one, never ask for one the
 block already carries.
@@ -60,7 +60,7 @@ Never on a slide: splits, caps, stock, rev share, income, another brokerage's na
 | Event: Zoom / venue + address | the where line (§4 item 4) — the venue name and address in full on the flyers; "on Zoom — link after you register"; "watch on demand" |
 | Event: free | the FREE chip (§4 item 2) |
 | Event: for [type of agent — career stage / production] | the who-it's-for line (§4 item 5), verbatim |
-| Hosts: the member + co-hosts | the hosts' cut-outs (§4 item 6) — the member fronts the flyer, co-hosts at matching scale |
+| Hosts: the member + co-hosts | the hosts' photos (§4 item 6) — the member fronts the flyer, co-hosts at matching scale |
 | Hosts: Guest speakers (name · credential as they state it · consent on file · photo supplied — or none) | one speaker card per guest (§3) and the countdown's speaker frame (§5): the credential verbatim, the photo as-is (none supplied → a typographic card), no consent on file → no card; "none" → no speaker cards, and the speaker frame carries the member |
 | What they leave with (three real things) | the three leave-with lines on the flyers (§4 item 7); the same three lines the carousel's value slides carry (built by `aa-content-design`) |
 | Registration: the page link — or "comment the word [KEYWORD]" | the ONE ask on every piece (§4 item 8) — "Save your seat" + the link, or "comment [KEYWORD]"; the link sticker plate on every story |
@@ -101,7 +101,8 @@ Never on a slide: splits, caps, stock, rev share, income, another brokerage's na
 | Never on a slide | §9 plus "opportunity" — read back slide by slide |
 
 The registration page's copy goes to the funnel skill (its own `FOR aa-funnel-design (registration shape — …)` block from `ev-registration`, when that document exists — a side door, never a requirement); this skill hands the funnel skill the design block in §8. A brief in another shape is
-read for these fields; only the missing ones are asked.
+read for these fields; a missing one that is printed on a piece and cannot be defaulted (the date, the time and its
+timezone, where, the registration link) is asked in one plain line — nothing else is asked.
 
 ## 2. THE THREE FORMATS (`15-advanced-scaling/74` · `75` · `76`)
 
@@ -143,8 +144,9 @@ never under ~32 px · the compliance strip the only small line (~24 px). Slides:
    "watch on demand" (evergreen).
 5. **Who it's for** — one line, a type of agent by career stage or production; never a protected
    characteristic; never a brokerage.
-6. **The hosts** — the member's expressive cut-out, full head with air, treated; co-hosts and guests
-   at matching scale with consent (the brief's Hosts line: consent on file, photo supplied — or none).
+6. **The hosts** — the member's expressive photo, full head with air, treated (a true cut-out only when
+   the file itself has a see-through background; otherwise the framed portrait or the panel — the craft
+   standard's §6); co-hosts and guests at matching scale with consent (the brief's Hosts line: consent on file, photo supplied — or none).
 7. **What you'll leave with** — three short lines, each a real thing ("the 3-video YouTube starter
    plan", "my open-house follow-up script", "a 30-day content calendar").
 8. **The ask** — "Save your seat" as the CTA button + the link or "comment [WORD]" (the brief's
@@ -164,8 +166,8 @@ posts: virtual T-13 → T-0, live T-21 → T-0); each carries ≤2 lines of on-s
 sticker to use. Those seven frames ARE the set. On every frame: one ground (the flyer's register flipped,
 so the feed and the stories alternate), the title treatment and the date chip, the brief's lines verbatim
 as the one copy slot, a designed tinted plate (never a dashed box) where the named sticker goes, the
-link sticker plate wherever the frame asks for the link, the member's small cut-out where the frame has
-no other face. Key text out of the top and bottom ~250 px. Every frame 1080×1920.
+link sticker plate wherever the frame asks for the link, the member's small photo (cut-out or framed —
+the craft standard's §6) where the frame has no other face. Key text out of the top and bottom ~250 px. Every frame 1080×1920.
 
 | # | Frame | File | The one copy slot (the brief's ≤2 lines) | The plate |
 |---|---|---|---|---|
@@ -234,8 +236,8 @@ text walls; scrims under text on photos; talking points per slide in chat (2–4
 REGISTRATION PAGE DESIGN — for aa-funnel-design (registration shape)
 Event: [title] · Format · When · Where (as on the flyer)
 Title treatment: [font · size relation · the accent word] · Colour pairing: [ground · type · accent]
-Hero: the feed flyer's composition (the member's cut-out [side] · the headline · the date chip)
-Hosts treatment: [cut-out · matching scale for guests · consent noted]
+Hero: the feed flyer's composition (the member's photo [side] · the headline · the date chip)
+Hosts treatment: [cut-out or framed portrait · matching scale for guests · consent noted]
 Promise lines (three): • … • … • …
 Form fields (from ev-registration): [First name · Email · Phone · "Which best describes you?" (six options) · the one-thing question when the doc carries it]
 Thank-you state: "You're in — add it to your calendar" + the calendar link + "share this with an agent who needs it"

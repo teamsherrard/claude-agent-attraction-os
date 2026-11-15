@@ -1,16 +1,17 @@
 ---
 name: sf-weekly-routine
 description: >
-  The Week 4 Weekly Routine Planner for the member's short-form attraction engine: three Reels a week to start (one attraction, one authority, one story — 2·2·1 at five), stories every
-  day, the member's own batch day,
-  idea capture, one video reposted to every short-form platform, and the daily engagement routine that
-  turns comments into conversations. Plans the week from the Brain and the Game Plan's calendar (around
-  the Monday Week Plan's drafts when it ran) and checks it in at the end; writes nothing to the member's
-  identity and logs nothing itself. Trigger on: "plan my attraction week", "my short-form routine for
-  agents", "weekly routine planner", "my attraction posting routine", "set my batch day", "how did my
-  attraction week go", "what's my engagement routine", "my content week for my organization", or any
-  request to plan or review the weekly short-form rhythm for attracting agents. (Ideas = sf-ideas; the
-  calendar = sf-gameplan; the Monday drafts = sf-week-plan; scheduling = sf-publish.)
+  The Week 4 Weekly Routine Planner for the member's short-form attraction engine: three Reels a week
+  to start (one attraction, one authority, one story), stories every day, the member's own batch day,
+  idea capture, Instagram and Facebook both (TikTok and Shorts as optional reposts), and the daily
+  engagement routine that turns comments into conversations. Plans the week from the Brain and the
+  Game Plan's calendar (around the Monday Week Plan's drafts when it ran) and checks it in at the end;
+  writes nothing to the member's identity and logs nothing itself. Trigger on: "plan my attraction
+  week", "my short-form routine for agents", "weekly routine planner", "my attraction posting
+  routine", "set my batch day", "how did my attraction week go", "what's my engagement routine", "my
+  content week for my organization", or any request to plan or review the weekly short-form rhythm
+  for attracting agents. (Ideas = sf-ideas; the calendar = sf-gameplan; the Monday drafts =
+  sf-week-plan; scheduling = sf-publish.)
 ---
 
 # The Weekly Routine Planner
@@ -32,10 +33,13 @@ film it, what to post each day, and the fifteen minutes that turn attention into
 - **Scalable by design.** No row, story prompt or routine line promises the member's time per partner — no in-person
   days beside the member, no chat group, no one-to-one calls, no "call me any time"; the weekly group call appears
   only when `identity/operations.md` shows the member already runs one. The member's OWN batch day is their routine.
-- **The workflows around this plan** (switched on only with the member's yes, read from `config.md → ## Short-Form
+- **The workflows around this plan** (switched on by setup's one Yes, read from `config.md → ## Short-Form
   (Week 4)`): the Monday Week Plan drafts the week; the Sunday Batch Prep leaves the teleprompter doc the evening
   before the batch day (`Batch Prep task:` holds a task id → say *"your cards are waiting in your Content folder"*
-  instead of re-planning them); the Friday note scores the week. Never claim a workflow that is not switched on.
+  instead of re-planning them); "how's my content doing" scores the week any time (the on-demand read; no weekly
+  note). Never claim a workflow that is not switched on.
+- **The engagement routine is text, not a task** (the owner, 2026-11-14): the fifteen minutes live here and in the
+  Game Plan's section 3 — never a scheduled list of agents.
 
 **The Monday Week Plan and this planner, one line each way:** the Monday Week Plan (`sf-week-plan`, scheduled
 with the member's yes) drafts the week's posts from the Game Plan's calendar every Monday; this planner is the
@@ -59,9 +63,9 @@ Open only:
 - `identity/operations.md` — working hours, the booking link, when they are usually free to film
 - `identity/publishing.md` — the posting tool and connected platforms, `Cadence:`, `Weekly mix:`, `Batch day(s):`,
   the `Keyword:` line (`GUIDE · [the offer's word]` — the two keywords)
-- `config.md → ## Short-Form (Week 4)` — which workflows are on (`Week Plan task:` · `Batch Prep task:` · `Weekly
-  Content Performance task:` — a task id means on; an older Brain's block may carry the previous week number in its
-  heading — read it the same)
+- `config.md → ## Short-Form (Week 4)` — which workflows are on (`Week Plan task:` · `Batch Prep task:` · `News Watch
+  task:` · `Calendar Refill task:` — a task id means on; an older Brain's block may carry the previous week number in
+  its heading — read it the same; its retired lines are ignored)
 - `memory/content-log.md` — what shipped last week, by pillar (the check-in reads this; the plan avoids
   repeats)
 - `memory/ideas.md` (tag `shortform`) — their own captured ideas get first claim on this week's slots
@@ -81,9 +85,12 @@ plan a week of unwritten videos as if they existed.
   the Reels.
 - **Stories: every day, one to five**, a mix of personal and value; never a day without one
   (`07-instagram/89`). Reels build width and awareness; stories build depth and connection.
-- **One video covers every short-form platform** — film for Instagram Reels, repost to TikTok, YouTube
-  Shorts, and Facebook Reels (`07-instagram/90`). Editing stays simple: captions are the only mandatory
-  edit; raw and genuine outperforms sensory overload.
+- **One video covers every short-form platform** (`07-instagram/90`) — the OS reads it as: Instagram and Facebook,
+  both, every Reel and every graphic (Facebook Reels is the same video reposted); TikTok and YouTube Shorts take the
+  same video any time the member wants more reach (optional reposts — nothing new to make, never asked); LinkedIn
+  for the carousels only when they attract team leaders (the owner, 2026-11-14). Editing stays simple: captions are
+  the only mandatory edit; raw and genuine outperforms sensory overload — *"filmed? New chat → 'edit my reel'"* (the
+  AI Editing Studio, Plugin 5).
 - **The batch day** — Mike's simple option: **Monday** brainstorm the three to five topics · **Tuesday**
   record them (one to two hours, all in one sitting) · **Wednesday** edit or hand to the editor · post from
   Thursday or schedule the week (`07-instagram/90`). Mike's own version is bi-weekly Saturdays (plan one
@@ -121,8 +128,8 @@ plan a week of unwritten videos as if they existed.
 - **THE ENGAGEMENT ROUTINE** — the fifteen-minute checklist above, with the time of day they will do it.
 - **THE CHECK-IN TABLE** — empty, for Friday: Reels filmed · Reels posted · story days · comments replied
   · DMs answered · conversations started · calls booked.
-- **ONE CALENDAR BLOCK** — offer once to put the batch block and the daily engagement slot on their
-  calendar (Google Calendar or Outlook, per the Brain's connector). Only with a yes; never silently.
+- **ONE CALENDAR BLOCK** — one line, the Yes shape: *"Say Yes and I'll put the batch block and the daily engagement
+  slot on your calendar."* (Google Calendar or Outlook, per the Brain's connector). Only on the Yes; never silently.
 
 ## Step 3 — CHECK-IN: score the week and set the next one
 Read `memory/content-log.md` (rows this week, by pillar), `memory/conversations.md` (rows with Channel =

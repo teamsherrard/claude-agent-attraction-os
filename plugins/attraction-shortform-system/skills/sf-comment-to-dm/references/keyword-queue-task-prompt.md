@@ -32,7 +32,7 @@ noted in the closing message and never acted on.
    connector for the marker and download the Brain's text files from `01 · AI Brain/_engine/` (identity/, memory/,
    exports/, brain.md, config.md), preserving subfolders. Only if the storage search SUCCEEDED and found no marker
    anywhere, output: "Your Agent Attraction Brain isn't set up yet — say 'set up my attraction brain' to begin," and
-   stop. **A tool ERROR is never "not found":** name the failed connector, say "open Settings → Connectors,
+   stop. **A tool ERROR is never "not found":** name the failed connector, say "open Customize → Connectors,
    reconnect, then say 'my keyword follow-ups'", and still build the queue from what loaded, marked partial. Never
    suggest re-running setup because of an error.
 2. **Read:** `brain.md`; `config.md` (timezone, locale; the `## Short-Form (Week 4)` block — an older heading with the earlier week number is the same block — for its `Email me:` line; a `## Conversion & Sales` block means the conversion plugin
@@ -79,8 +79,8 @@ noted in the closing message and never acted on.
    `config.md → ## Short-Form (Week 4)`: `yes` (`Email me: yes YYYY-MM-DD`) → send ONE short email to the member's
    OWN address through their connected mail (Gmail or Outlook; the address in `identity/profile.md`, else the
    signed-in account's own) — subject: "Your keyword follow-ups are ready — [n] next messages", body: the same two
-   or three lines and the drafts; never to anyone else, never a campaign, never a second message; `no`, `not offered
-   yet`, no line, or no connected mail → skip the email silently (the note and the board carry it); (c) **the push**
+   or three lines and the drafts; never to anyone else, never a campaign, never a second message; `no`, `no (no mail
+   connected)`, no line, or no connected mail → skip the email silently (the note and the board carry it); (c) **the push**
    — `attraction-brain-sync` PUSH, done in step 5, so the Brain Board shows the run. Send the email BEFORE composing
    the message: nothing follows the message.
 7. **Compose the message** — plain text, short, no task ids or file names:

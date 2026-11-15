@@ -37,8 +37,9 @@ month is 12 Reels: 1 attraction · 1 authority · 1 story each week — say so p
   head · green screen · carousel) · pillar · working title · hook · for whom · what it carries (story hook / win /
   teach / finding #) · rung + keyword · System ID (`sf-YYYY-MM-DD-NN`). Rules:
   - **The six kit posts come first** when a window opens and they are still unposted: the Game Plan's first rows, one
-    every two or three days, Format `Graphic` or `Carousel`, Status `Ready to Film` is wrong for them — they are
-    designed already (Week 3, the member's Offer folder): "post, don't make". Then the Reels.
+    every two or three days, Format `Graphic` or `Carousel`, Status `Ready to Post` (never `Ready to Film` — nothing
+    was recorded; the owner, 2026-11-14) — they are designed already (Week 3, the member's Offer
+    folder): "post, don't make"; posting flips them to `Published`. Then the Reels.
   - **The first Reels establish who they are:** the kit posts already carry Story and Proof, so the first Reels are Personality, Perspective and the Authority teach (a Story Reel — the hardest stretch or the turning point — when the cadence allows). An agent who finds them this month should be able to answer the five profile questions from the feed alone.
   - The member's own ideas and this month's objections land in the first two weeks of Reels, not the last.
   - No story is used twice in the month; no pillar has more than two Reels in a week.

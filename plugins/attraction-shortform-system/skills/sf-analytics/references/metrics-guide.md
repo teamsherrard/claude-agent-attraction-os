@@ -65,10 +65,11 @@ offer to act:
   is two Perspective Reels on brokerage news (facts, your take) and one agent-win. *The proof:* the audience
   table, pulled today.
 
-## The weekly review (the Friday note's structure)
+## The performance read ("how's my content doing" — on demand; the same shape each month inside the deep dive)
 
 | Item | What to surface |
 |---|---|
+| **The five numbers** | people who saw you · Reels posted of the cadence · story days of seven · keyword comments · conversations started (from the log); the source named in one line |
 | **Best post** | pillar + hook + why it won |
 | **Weakest post** | the weak link on the diagnosis path |
 | **Best pillar** | by conversations started, then by reach |
@@ -76,8 +77,9 @@ offer to act:
 | **What started conversations** | the posts and the word each carried (GUIDE or the offer's word), from `conversations.md` and the DM count |
 | **Calls booked from content** | from the booking form's "which video" answer; "not tracked yet" if none |
 | **Make more of** | two or three things to repeat |
-| **The post to repurpose** | the one post to give a second life next week — a carousel of its steps, a story set, a follow-up Reel answering its best comment, a re-cut when the editor is installed; never a new claim |
+| **The post to repurpose** | the one post to give a second life next week — a carousel of its steps, a story set, a follow-up Reel answering its best comment, a re-cut in the AI Editing Studio ("edit my reel" in a new chat); never a new claim |
 | **The one change** | exactly one |
+| **The step up** | only when a month at three Reels a week has held (three posted in each of the last four weeks): propose five in one line — the member's word flips the cadence through the Game Plan; the Monthly Calendar Refill and the deep dive carry the same proposal |
 
 Then the dated block in `~/attraction-brain/memory/content-performance.md`:
 ```

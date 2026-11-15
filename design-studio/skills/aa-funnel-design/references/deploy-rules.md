@@ -23,7 +23,7 @@ the review file's name above, and the real site inside `deploy/`.
 **THE `{{` CANARY.** Before shipping, open the exported `deploy/index.html` and search the raw file for
 the literal `{{`. Even ONE means you built the wrong file. Zero is the finish line.
 
-## THE DEPLOY FILE — fourteen rules
+## THE DEPLOY FILE — seventeen rules
 
 1. **ONE self-contained, fully responsive HTML file.** Real CSS `@media` breakpoints that reflow for
    phones automatically — NOT the fixed-width review frames, NOT a layout that switches by a toggle or
@@ -102,8 +102,8 @@ the literal `{{`. Even ONE means you built the wrong file. Zero is the finish li
 15. **Embeds never break the page or the form.** The hero video and the Proof section's YouTube block are
     plain `<iframe>`s inside a responsive 16:9 wrapper, `loading="lazy"`, `allowfullscreen`, the
     privacy-enhanced embed URL (`youtube-nocookie.com/embed/<id>`, or the Vimeo / Loom embed URL), never
-    autoplay. The kit's `headshot` (or the older `record the 60-second why-join-me`) note means NO iframe — the cut-out headshot
-    renders in that footprint, and `READ-ME-FIRST.md` lists the spot as a placeholder to fill. The booking
+    autoplay. The kit's `headshot` (or the older `record the 60-second why-join-me`) note means NO iframe — the member's headshot
+    renders in that footprint (a cut-out only when the file is a true one — the craft standard's §6), and `READ-ME-FIRST.md` lists the spot as a placeholder to fill. The booking
     embed (`Booking embed:`) is a lazy `<iframe>` (Calendly · GoHighLevel · Cal.com) in its own section
     with the kit's booking words as a plain link under it as the fallback; when the link doesn't embed, or
     the kit's `Booking embed:` says none yet, the section's `CTA button:` alone (e.g. "Message me on
@@ -182,7 +182,7 @@ zip code (the `crc32` and `makeZip` functions are the same ones every ds- export
 <script type="text/plain" id="deploy-copy"><!-- page-copy.md — the GoHighLevel-ready blocks --></script>
 <script>
 // ---- Design Studio: site packer. No libraries. ----
-const SITE_ZIP = 'funnel-opt-in.zip';   // a Week 6 registration page: 'funnel-[slug].zip'
+const SITE_ZIP = 'funnel-opt-in.zip';   // a later week's registration page: 'funnel-[slug].zip'
 const DEPLOY_ASSETS = [ { path: 'deploy/assets/guide.pdf', href: '<the uploaded PDF' + 's URL in this project>' },
   { path: 'deploy/assets/logo.png', href: '<...>' }, { path: 'deploy/assets/headshot.jpg', href: '<...>' } ];   // every file index.html references, relative paths kept
 const REVIEW_BOARD_HREF = '<this board' + 's own exported file, if available — else omit>';

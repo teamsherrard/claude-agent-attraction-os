@@ -118,7 +118,7 @@ Your offer, your guide and your page, on two pages. Everything else in this file
 •  Your bios — chapter 6 of this file: paste each one into its platform this week.
 •  This kit — in your home base folder beside your Brain Book: with your guide, the two files you upload to Claude Design in Week 3.
 ──── HOW TO USE THIS IN WEEK 3 ────
-•  Open Claude Design, start one project, and upload three things: this file, your guide, and your Design Package brief (your brand, from the Week 3 brand chat; without it the briefs below use the clean neutral look).
+•  Open Claude Design, start one project, and upload three things: this file, your guide, and your Design Package brief — your brand, made by your Week 3 brand chat (in Cowork, say "my attraction brand direction" first; about five minutes). Without it the briefs below use the clean neutral look.
 •  Ask for the pieces one at a time, in this order: the Join My Team one-pager, the offer stack, the product mockup, the guide PDF with its cover, the opt-in page, the thank-you page, the six social posts, the video pop-up set, then the call deck and the welcome pack. Say "copy verbatim".
 •  Save every file into your drive — the offer pieces, the posts and the pop-ups in your Offer folder, the guide PDF and its cover in your Guides folder — and tell me "my offer kit is designed" and "the PDF is done".
 
@@ -316,7 +316,7 @@ statement, the stack, the keyword and the booking line — never a new claim; th
    superseded `Week 3 Kit — …` copy so the folder holds one kit. A demo build carries ` — DEMO`.
 2. **Keep the text** at `~/attraction-brain/exports/week3-kit-YYYY-MM-DD.txt` (the Brain syncs `exports/*.txt`).
 3. **Deliver in chat — one line and the link, never a tour:** *"Your Week 3 Kit is in your home base folder beside
-   your Brain Book — with your guide, it's what you upload to Claude Design in Week 3, with your brand brief. Chapter 1
+   your Brain Book — with your guide, it's what you upload to Claude Design in Week 3, with your brand brief (your Week 3 brand chat makes it — say 'my attraction brand direction' when Week 3 opens). Chapter 1
    is your two-page summary; chapter 6 is your bios. [lead magnet present: "Your page, your bios and your offer are all in it." · absent: "Your
    lead magnet, your page and your bios join it at the end of your lead magnet session."] Say 'rebuild my kit' any time
    something changes."* Never the full text in chat; never a path spoken as a

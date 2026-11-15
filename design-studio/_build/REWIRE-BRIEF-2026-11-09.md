@@ -81,7 +81,7 @@ work, in this order inside one Claude Design project the member names themselves
 Package brief → the brand three (logo · style sheet · brand kit; skip the logo if they love it) → the offer kit
 (one-pager, stack, mockup, deck, welcome pack) → the guide PDF with its cover → the opt-in page and the thank-you
 page → the six social posts → the video pop-up set → the video brand kit (with the Riverside editor plugin).
-Week 6 = events and the Value Vault. No skill may say "Week 1" or "Week 2" for design work.
+a later week = events and the Value Vault. No skill may say "Week 1" or "Week 2" for design work.
 
 ## 3. The register (read once, obeyed everywhere)
 
@@ -163,7 +163,7 @@ characters, `name:` equal to the directory name, never a hyphenated word split a
 
 ## 10. Done means
 
-Every skill: reads the three files by the names in §1 · says Week 3 (or Week 6) and nothing else · obeys §3–§5 ·
+Every skill: reads the three files by the names in §1 · says Week 3 (or a later week) and nothing else · obeys §3–§5 ·
 prints its §6 phrase at the finish · passes §7 · keeps §8 · its description re-written to name the kit chapters it
 reads and its real phrases. The Start Here and the README describe exactly this, in this order, with the three
 files at the top.
