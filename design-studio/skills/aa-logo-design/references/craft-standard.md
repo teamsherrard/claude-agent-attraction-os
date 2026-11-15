@@ -61,6 +61,12 @@ be interviewed by a design tool, and a form field cuts a pasted brief off after 
 
 - **Two families at most** (a heading face and a text face), plus the look's script or hand accent for
   one short line when the look names one. Three weights at most on a piece.
+- **One short scale per board.** Anything the member reads as a whole — a set of concepts, a style sheet, a kit
+  laid out for review — uses at most FOUR text sizes for its own titles, captions and labels, each size with one
+  job, and the same two families throughout. The pieces shown on the board keep their own scale; the board
+  around them stays quiet. Sizes that wander and fonts that change from tile to tile are what an owner called
+  "all over the place" (2026-11-14). Calm beats complete: what the member does not need to decide goes on a
+  second page.
 - **The fonts must really load.** Use the faces the Design System records, loaded the way this canvas
   loads web fonts, each with a fallback of the same shape (a condensed face falls back to a condensed
   face, a serif to a serif). After the first render, check: a headline that came out in a default serif

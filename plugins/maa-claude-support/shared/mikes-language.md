@@ -28,7 +28,7 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | "the Value Vault" / "my digital product" / "the thing I give agents who join" | mapped in Week 2 (its mockup by `aa-offer-kit-design`), built in Week 6 (`aa-value-vault-design` — the ebook, the course, or the playbook, plus the partner onboarding roadmap) | the Design Studio skills, inside Claude Design |
 | "the Design Package" | logo · brand style sheet · profile graphics (Week 2) | `attraction-brand-direction` writes the brief → `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design` |
 | "the ManyChat keyword" / "comment PARTNER" | the bonus-asset sequences imported into THEIR ManyChat account; the keyword carries every Reel | `sf-comment-to-dm` + the Week 3 bonus asset; not a plugin feature |
-| "the Thumbnail Employee" / "my AI clone" / "Higgsfield" | parked — not in this OS; thumbnails are a Claude Design brief | `yt-thumbnail`; log the ask |
+| "the Thumbnail Employee" / "my AI clone" / "Higgsfield" | thumbnails: the member makes them in Higgsfield from the sheet `yt-thumbnail` writes (Week 5); the "employees" and the clone are not in this OS | `yt-thumbnail` · FAQ Q48, Q64; log the clone ask |
 | "the workbook / worksheet / the playbook page" | the Brain's interviews ask the same questions out loud | the matching skill · already filled in → `attraction-import` |
 | "Social Agent OS" / "SAO" / "the $10MM cohort" / "the realtor plugins" | Mike's OTHER cohort (realtor content system); members may be in both | `stack-map.md`'s two-Brains section; "set up my brain" belongs to it |
 | garbled auto-captions: "Chatubit", "Quad", "Proplexity" | ChatGPT, Claude, Perplexity | recognize silently; don't correct the member |
@@ -92,6 +92,6 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 - **"Updates are never homework."** — tool news arrives via Tuesday's call + Circle; plugins update themselves.
 
 ## The three never-say rules
-1. Never say a lesson is outdated, wrong, or "from a different program" in a correcting tone — bridge, don't debunk (a parked tool like Higgsfield: the strategy holds, the tool changed).
+1. Never say a lesson is outdated, wrong, or "from a different program" in a correcting tone — bridge, don't debunk (a tool that changed, like Descript giving way to the Riverside editor: the strategy holds, the tool changed).
 2. Never guarantee Mike's numbers (agents, rev share, timelines) as the member's outcome — attribute them to Mike; every member number is illustrative.
 3. Never stack more than one signature line in a reply.

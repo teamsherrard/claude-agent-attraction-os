@@ -168,7 +168,7 @@ member's upload set is always current.
 ## Mechanics kept from the realtor suite (proven in live tests there)
 
 The three-path front door (fresh · refresh · love it) · an existing logo used exactly as-is, never
-redesigned · the logo anchors the palette · two style-sheet options side by side · the Design System
+redesigned · the logo anchors the palette · two small direction cards first, then one calm style sheet · the Design System
 file the other skills consume · every input read from the files already in the project (the intake
 form itself was removed 2026-11-14 — told, not asked) · the plain-language law on every line said to the
 member · one Claude Design project the member names · attach the Design System + the three files to every

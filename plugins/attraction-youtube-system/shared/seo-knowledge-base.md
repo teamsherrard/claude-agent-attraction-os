@@ -72,8 +72,11 @@ outranks complex and clever. Then the mechanics:
   anything. Never "join [brokerage]", never a word about compensation.
 - **Line 2 = the guide** — the Week 2 guide's funnel URL (`memory/magnets.md → ## Current magnet`; the spoken line
   in the video may say "comment GUIDE"); only if the member skipped that session, the Starter Resource "Questions to
-  Ask Before You Choose a Sponsor" that `yt-leads` builds once in Week 5 as the fallback; never the call twice. Line
-  3, only if `operations.md` lists it: one contact line.
+  Ask Before You Choose a Sponsor" that `yt-leads` builds once in Week 5 as the fallback; never the call twice.
+- **Line 3 = the compliance and contact line** — the brokerage name and license display as `compliance.md`
+  requires, then the contact line `operations.md` lists (the handles, a phone or an email — only what is on file).
+  One order in every file: line 1 the call with the booking link, line 2 the guide, line 3 the compliance and
+  contact line; the full disclosure block stays the LAST block of the description.
 - Then a **150–300 word** summary in the member's voice, written for the viewer: who it's for, what they'll get,
   the niche phrase 2–3×, secondary phrases once each, natural language. **No compensation words — no splits, caps,
   fees, rev-share tiers, stock or income. No brokerage as the pitch** — the brokerage name appears where
@@ -92,10 +95,11 @@ secondaries (the niche phrase, the model phrase, the avatar phrase). 2–5 words
 words, never a competitor's name as a tag, never misleading.
 
 ## Thumbnails (doctrine §9 is the source of truth)
-This plugin writes **thumbnail text** (3–5 words, different from the title) and the brief — a lean build sheet:
-page order, final copy, placeholders (house rules #18) — the member pastes into their brand project in Claude Design
-(claude.ai/design, or a Design canvas inside Cowork; via `yt-thumbnail`; there is no separate thumbnail design
-skill) — the member's face with a real expression, branded
+This plugin writes **thumbnail text** (3–5 words, different from the title) and the **thumbnail sheet** (via
+`yt-thumbnail` — one shape; house rules #18): for each of the three directions the image prompt to paste, which of
+the member's own photos to upload, and the words to add. The cohort's members make their thumbnails in
+**Higgsfield** (the owner, 2026-11-14) — the sheet goes there and nowhere else. The look: the member's face with a
+real expression, branded
 contrasting colours, simple, visuals that support the title without repeating it. Three per video; let YouTube
 test. Interview thumbnails: both faces, the transformation in 3–5 words. Model thumbnails: the model's name is
 fine, numbers are not.

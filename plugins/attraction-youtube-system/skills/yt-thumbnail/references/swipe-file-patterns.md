@@ -3,8 +3,9 @@
 *Source: `08-youtube/97` (Titles & Thumbnails). Mike's Thumbnail Swipe File (the YouTube vault's bonus asset) is
 **PENDING** — when it lands, its pattern notes replace Section 2 of this file. Until then, Section 2 says so
 plainly and the scoring runs on Section 1 only. Never present a pattern as "from Mike's swipe file" that is
-not in this file. Scoring and pattern talk stay in the chat; the build sheet carries only the layout, the words,
-the expression and the brand tokens (the lean build sheet rule, 2026-11-14).*
+not in this file. Scoring and pattern talk stay in the chat; the thumbnail sheet carries only, for each direction,
+the image prompt to paste, the photo to upload and the words to add (the sheet is for Higgsfield — the owner,
+2026-11-14).*
 
 ## 1. The rules from the lesson (confirmed, citable)
 - **Click-through rate is the gate.** A beautiful video nobody clicks gets 17 views. Aim for a 6–10% CTR
@@ -32,11 +33,11 @@ the expression family, the background treatment, which bucket (lane) it served, 
 Until then, tell the member: "Mike's swipe file is still on its way; these directions follow his lesson rules,
 and I'll re-score them against his actual winners once the file is in."*
 
-## 3. Composition defaults (from the lesson rules; Claude Design owns the final layout, built from the sheet)
+## 3. Composition defaults (from the lesson rules; they are written into each Higgsfield prompt on the sheet)
 - Face: roughly a third of the frame, cut out, on the brand background; eyes toward the text.
 - Text: upper or side block opposite the face, 3–5 words, the Final kit's display font, highest-contrast pairing.
 - One supporting element max (a guest's face for interviews; a brokerage wordmark only where
   `compliance.md`'s logo rule allows it; never a second brokerage's logo).
 - Mobile check: legible at 320px wide; if not, fewer words.
-- The sheet names the tokens (colour name · hex, font name, headshot set) from the Final kit; it never restates
-  the brand's rationale or the Design Package's prose.
+- Each prompt names the Final kit's colours in plain words with the hex in brackets, and the photo to upload by its
+  name in the Brand folder; it never restates the brand's rationale or the Design Package's prose.

@@ -25,28 +25,37 @@ connected (Gmail or Outlook tools present in this session). Three facts decide t
   `no (no mail connected)` → `yes YYYY-MM-DD`;
 - no Short-Form line, mail connected → `Email me: yes YYYY-MM-DD`;
 - no Short-Form line, no mail connected → `Email me: no (no mail connected)`; the card's email sentence becomes one
-  plain line: *"your notes wait for you in Cowork and on your Brain Board — connect Gmail or Outlook any time and they
-  come to your inbox too."*
+  plain line: *"Your notes wait in Cowork and on your Brain Board — connect Gmail or Outlook to get them by email."*
 The times are Mondays 9:00 am and the 1st at 8:00 am, the member's local time (`config.md → Timezone`). A member who
 names another time inside their Yes ("yes — Tuesdays at 7") gets that time; nothing about the times is asked.
 
-## The card (said once — this shape; the member's own details fill the brackets)
-> "Here's what I'm switching on for you: your **Monday Kickoff** (Mondays 9:00 am — this week's video drafted onto its
-> card: the hook three ways, the brief, the script start or the interview guide, the thumbnail brief, the SEO start;
-> your board topped up to 30 days) and your **Monthly Channel Review** (the 1st, 8:00 am — your month by lane, which
-> videos brought agent conversations, the one move). Both only draft; nothing posts, sends or publishes on its own.
-> [I'll also email you a short note at your own address when something's ready — the same way your short-form notes
-> come. | I'll also email you a short note at your own address when something's ready. | Your notes wait for you in
-> Cowork and on your Brain Board — connect Gmail or Outlook any time and they come to your inbox too. | Your notes
-> wait for you in Cowork and on your Brain Board, the same way your short-form notes do.] Say **Yes** and
-> I'll set them up."
+## The card (said once — its own message, at most 70 words before "Say Yes")
+**The card is its own short message** (the owner's review, 2026-11-14): nothing else is in that message — no
+announce line above it, no recap, no housekeeping — and nothing follows "Say Yes and I'll set them up." Inside
+setup it is the last thing in the turn, sent once the board step's work has finished. Plain words only ("your month
+by topic" — never "month by lane", never "the hook", never "SEO"). This shape; the member's own times fill it:
+> "Here's what I'm switching on for you. **Your Monday Kickoff** — Mondays at 9:00 am: this week's video, drafted
+> on its card. **Your Monthly Channel Review** — the 1st at 8:00 am: your month by topic and the one move. Both only
+> draft; nothing posts or publishes on its own. [the email sentence] Say **Yes** and I'll set them up."
+**The email sentence — one of four, by the facts above:**
+- mail connected, no Short-Form line → *"I'll email you a short note when each is ready."*
+- the Short-Form block's line is `yes …` → *"I'll email you a short note when each is ready, the same way your
+  short-form notes come."*
+- no mail connected → *"Your notes wait in Cowork and on your Brain Board — connect Gmail or Outlook to get them by
+  email."*
+- an older plain `no` mirrored from the Short-Form block → *"Your notes wait for you in Cowork and on your Brain
+  Board, the same way your short-form notes do."*
+The longest version is 67 words before "Say Yes"; never add a clause that takes the card past 70.
+
 Wait for the Yes — the one reply this card needs, and the explicit yes every scheduled workflow needs. Nothing is
 created before it. **Anything but a Yes:** a question about the card → one plain answer, then only the card's last
 line again ("Say Yes and I'll set them up."); "not now" or a no → nothing is created, both task lines are written
 `later`, one line — *"Nothing's switched on. Say 'turn on my attraction Monday kickoff' or 'turn on my monthly
 YouTube review' any time."* — and whatever was running carries on (inside setup: straight to the first video); the
-card is never said a second time. A demo Brain never gets a task (the card is said, the Yes noted, no task made,
-the lines stay `later` — say so in one line).
+card is never said a second time. **A demo Brain never gets a task:** the card is said and the Yes noted, no task is
+made, both lines stay `later`, and in place of the confirming line below say one line — *"This is a demo, so nothing
+is scheduled — on a real Brain your Monday Kickoff and your Monthly Channel Review start here."* — and nothing after
+it, anywhere in the sitting, says that something runs on Mondays or on the 1st.
 
 ## On the Yes — provision both, in this order, then push once
 1. **Monday Kickoff** — `list_scheduled_tasks`; adopt `attraction-monday-kickoff` if it exists (never a twin), else
@@ -61,7 +70,8 @@ the lines stay `later` — say so in one line).
 3. **`Email me:`** — the value decided above, written now (mirrored, `yes YYYY-MM-DD`, or `no (no mail connected)`).
    Nothing is sent during setup; the Kickoff and the Review each send ONE short email per run to the member's own
    address while the line says yes.
-4. Push via `attraction-brain-sync` (the push rebuilds the Brain Board) and confirm in one line: *"Set. Mondays your
+4. Push via `attraction-brain-sync` (the push rebuilds the Brain Board) and confirm in one line (never on a demo
+   Brain — no task was made): *"Set. Mondays your
    week's video is drafted onto its card; the 1st, your channel review lands[; a short note comes to your inbox each
    time]. Say 'stop my attraction kickoff' or 'stop my monthly YouTube review' any time."*
 A task that failed to save is named in one line and its line reads `later` — never a schedule that did not save;

@@ -41,7 +41,7 @@ two model videos in one cycle; never a batch that is all one bucket.
   step or the 90-day outcome — shown, never earned). Written out word for word later by `yt-script` — here one
   line.
 - **Thumbnail text:** 3–5 words, **different from the title**; the expression it needs. Surfaces in the video
-  chat for `yt-thumbnail`'s build sheet.
+  chat for `yt-thumbnail`'s thumbnail sheet (the member makes the thumbnail in Higgsfield).
 - **Bucket → pillar for the eventual row:** Problem / Situation / Future → Authority · Interview → Proof ·
   Model → Perspective.
 - **Hard gates:** no compensation figures or earnings implied · no negative word about a brokerage, sponsor, or

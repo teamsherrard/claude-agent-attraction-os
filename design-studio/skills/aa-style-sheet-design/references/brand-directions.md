@@ -24,7 +24,8 @@ in plain words, and still never ask.
 
 **2. Commit fully.** Drive EVERYTHING from it together — background darkness or lightness, the
 palette, textures and finishes, type personality, accent shapes, headshot treatment, mood.
-Half-committing is what makes a sheet look unfinished.
+Half-committing is what makes a sheet look unfinished. On the style sheet, commitment means a few
+things done fully inside the calm rules (SKILL.md, STEP 2) — never more bands, colours, faces or finishes.
 
 **3. Honour custom input verbatim.** If the member gives exact codes, specific fonts, or clear
 inspiration, follow THAT even if it matches no recipe. Blend two directions when asked.
@@ -41,6 +42,10 @@ Outer Sans): silently substituting while printing the fancy name poisons the mem
 spec. The font name printed MUST be the font rendered, and it must cover the brand language's full
 character set. Favour widely available faces so the brand reproduces easily in Canva, Google Docs,
 Riverside, and every video tool.
+
+**TWO FAMILIES ON THE SHEET.** Page 1 of the style sheet shows exactly two: the headline face and the text
+face. Where a look or a recipe below names a script or hand-written accent (or a mono face), record it on
+page 2 for the later pieces — it is never set on page 1 and never shown as a third font.
 
 **THE HOUSE LOOKS COME FIRST.** The seven looks in the Design System's §12 (the gold-on-black
 organization look · the clean editorial leader look · the bold gradient coach look · the brushed-stroke
@@ -107,10 +112,14 @@ locked look (its recipe names them), rendered as real artwork in the palette —
 
 Keep finishes consistent; one cohesive finish system is better than a pile of effects.
 
+**Where it goes on the style sheet:** ONE finish, once, at real strength on page 1 (the header or the one dark
+band, plus its specimen tile) — and it never changes the ground's colour: the paper under a grain still matches
+the background swatch. A second finish, a metallic swatch and every spec label live on page 2.
+
 **THE PERSON-NOT-PLATFORM TEST (textures must smell like a leader, not a product or a listing):** every
 texture and pattern must read as craft and people — paper, linen, stone, wood, grain, contour lines,
 a hand-drawn rule. Never a skyline silhouette, a roofline, a key or a "sold" sign: this is a coaching
 brand for agents, not a realtor brand for consumers. Circuit-board grids, dot matrices, pixel motifs, and
 dashboard graph-paper read "software company", and the brand is a person agents will follow. Even a
-modern, systems-minded member gets a grid softened toward drafting paper — and offered as a TWEAK so
-they can compare two texture reads.
+modern, systems-minded member gets a grid softened toward drafting paper — the texture-strength tweak lets
+them see it quiet or full; they are never offered a choice between two textures.

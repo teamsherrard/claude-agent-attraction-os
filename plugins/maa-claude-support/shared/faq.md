@@ -116,13 +116,16 @@ Two footnotes:
 Claude's paid plan is the only REQUIRED subscription. Everything else is bring-your-own and
 optional by design:
 
-- **Riverside** — the AI Editor runs on your own Riverside account (Week 3)
+- **Riverside** — the AI Editor runs on your own Riverside account (Week 4)
 - **ManyChat** — the comment-to-DM sequences import into your own account; the free plan first
 - **Metricool** — only for auto-publishing (manual posting is free)
 - **Your CRM** — GoHighLevel or Follow Up Boss if you have one; Google Sheets is the free option
 - **Notion** — only if you want a content board
 
-Not in this system, so never a cost: Descript, Higgsfield, Netlify, Zapier.
+Not in this system, so never a cost: Descript, Netlify, Zapier.
+
+- **Higgsfield** — from Week 5, where you make your YouTube thumbnails (your own account; your YouTube plugin
+  writes the sheet you paste in). Its price is on Higgsfield's own site
 
 Ask me for today's prices on any of them and I'll check live. **[check live]**
 
@@ -231,7 +234,7 @@ To check versions: open that settings panel and screenshot it for me — I'll re
 if anything looks off.
 
 **Q20. The editor stopped / can't see my recording.**
-Your editor is Riverside, on your own account (Week 3) — your edit lives there, so nothing is lost
+Your editor is Riverside, on your own account (Week 4) — your edit lives there, so nothing is lost
 by a stopped chat. Re-open with "edit my reel" and name the recording. Can't see it at all?
 Nine times in ten it's a different Riverside studio or login than the one you connected, or it's
 still processing on Riverside's side. Say "help, Riverside can't see my recording" and I'll check
@@ -589,12 +592,12 @@ Next step: upload the Design Studio zips from Circle (the Design Package, the of
 funnel set and the video kit all in Week 3 — nothing in Week 1 or Week 2; the Value Vault with Week 6), then say
 "help" if one is rejected (Q30 covers both reasons).
 
-**Q48. What about the Thumbnail Employee / my AI clone / Higgsfield? And Descript? (Neither is in this OS.)**
-Not part of this OS — straight answer.
+**Q48. What about the Thumbnail Employee / my AI clone? And is Descript part of this OS?**
+Straight answer.
 
-- The two Higgsfield "employees" were parked before launch; thumbnails are a Claude Design brief
-  (Week 4) and there's no clone step
-- Descript is the REALTOR cohort's editor; yours is Riverside (Week 3)
+- Thumbnails: you make them in Higgsfield, from the sheet your YouTube plugin writes for each video (Week 5 — Q64).
+  There is no "employee" to install and no clone step in this OS; nothing here connects to Higgsfield
+- Descript is the REALTOR cohort's editor; yours is the Riverside editor (Week 4)
 - If a playbook page or an older video mentions either, the strategy holds — the tool changed
 
 Next step: nothing to buy. Say "help" if you want me to log the ask for Mike.
@@ -682,7 +685,8 @@ recorded two in one sitting, so the ratio holds even when your filming time is t
 On the same Notion content board as your Reels, under its own YouTube tab (the tabs sit at the top of the board: Graphics, Reels,
 YouTube, Calendar). The tab holds your next 30 days only — four or five cards at one a week — never
 the whole 90-day plan; that stays in your Game Plan document. Every card opens to the same page: the hook, the script,
-the thumbnail brief, the SEO package, the resource, the three videos to watch first, the guest, notes, and how it did.
+the thumbnail sheet, the SEO package, the resource, your reference video, the guest, notes, your publish checklist, and
+how it did.
 
 **Q61. What does the Monday Kickoff actually do, and will it email me?**
 Every Monday it reads your plan and your board, drafts this week's video onto its card — the brief, the start of the
@@ -702,3 +706,39 @@ say "my attraction brand direction": about five minutes, a few questions about w
 colours, your photos), then your Brain works out the look from how you talk and you say yes. It hands you the brief
 and saves it in your Brand folder; "show my design package brief" reprints it any time. Do this first in Week 3,
 before any design skill.
+
+**Q64. Where do I make my YouTube thumbnails?**
+In Higgsfield, the same place the cohort makes them. Say "thumbnail for my attraction video" and you get a short
+sheet for each of three directions: the prompt to paste, which of your own photos to upload, and the three to five
+words to put on it. Make it in Higgsfield, drop the finished picture into that video's folder and say "my thumbnail is
+done". Your channel banner is different: it was made with your brand kit in Week 3 and is already in your Brand folder.
+
+**Q65. Does YouTube add to my short-form workload?**
+No, it feeds it. After a video is out, say "repurpose my attraction video": it writes three short clip scripts from
+that video and queues them. The next Monday plan turns up to two of them into that week's Reels, so the video fills
+slots you already had instead of adding new ones. At least one Reel a week stays an original from your plan.
+
+**Q66. What is the "reference video" on my YouTube cards? Is it a real video?**
+Yes, always real. Every video on your board comes with one real YouTube video that is close to your idea, so you can
+watch a realistic example, and see what other people who make videos for agents are doing, before you plan yours.
+It is found on YouTube and checked before it goes on your card; a link is never made up. You find it as the last
+column of your YouTube tab, and it plays right on the card. A few plain facts:
+
+- It was matched on its title and who made it. Watch it with your own eyes; it is an example, not a script to copy
+- View counts appear only when your live numbers are connected (Q68). Otherwise none is shown, because none is guessed
+- If nothing close was found, the card says so and gives you YouTube's own search for the topic instead
+- When you say "make my attraction video: [title]", two more are added, with the one thing to do better
+
+**Q67. I filmed and edited my video. How do I upload it properly?**
+Open the video's card on your board and scroll to "Publish it". Six tick boxes, in the order YouTube Studio shows
+them: title, description, thumbnail, playlist, end screen, pinned comment. Each one says where to click and exactly
+what to paste, already written for that video. Tick them as you go. When all six are ticked, say "my video is
+published" with the link, and the card moves to Published. Nothing uploads or publishes for you.
+
+**Q68. Can it read my real YouTube numbers?**
+Yes, when you want it. It is a separate two-minute step, never part of setup: open a new chat and say "connect my
+YouTube numbers". It shows you exactly where to click, you sign in to YouTube once, and it only ever reads. After
+that your reviews and your reference videos carry real view counts. Without it everything still works; your monthly
+review asks you for three screenshots from YouTube Studio instead. Your Monday and monthly workflows never use this
+connection on their own.
+

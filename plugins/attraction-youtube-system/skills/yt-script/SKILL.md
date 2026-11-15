@@ -73,9 +73,12 @@ and §10 (the two CTAs) only if a line needs re-grounding. Never the whole doctr
   video answers) · `memory/intel.md` (a dated fact to cite, if relevant).
 - **Research facts** — only sourced ones from the Brief or the member (`title · outlet · date · link`); anything
   else is `[double-check before filming]`, never a guess.
-- **Compliance, 3-state (`identity/compliance.md` — read at Step 1, its first line `Status:`):** a script is
-  public. **unset → stop:** *"Before I write anything you'll say on camera, I need your compliance basics —
-  three minutes"* → `attraction-compliance`. set → write, apply, remind once. confirmed → write, apply.
+- **Compliance, 3-state (`identity/compliance.md` — read at Step 1, its first line `Status:`) — never a stop,
+  never a detour:** a script is public, so **unset → write it anyway**, deliver and save it **stamped "hold until
+  your compliance basics are set"** (the line under the script's title; the brokerage's wording never invented),
+  and say ONE line at the close of the chat: *"One thing before you film this: say 'paste my compliance link' — two
+  minutes — so your brokerage's wording is on it."* (inside `yt-make-video`, that chat's close says its own one
+  line and this skill stays silent). set → write, apply, remind once at the close. confirmed → write, apply.
 - Missing local Brain → `attraction-brain-sync` first; a tool error is never "no Brain."
 
 ## Step 2 — Choose the format (`references/format-playbooks.md`)
@@ -166,8 +169,9 @@ more is written here.
    keep the script visible, retry once, stop.
 
 ## Hand-off
-*"Script's ready. Next: the thumbnail build sheet (so you film the expression it needs), then the SEO package and
-your resource lines (the starter resource first, only if you have no guide yet). When it's filmed: open a new chat
+*"Script's ready. Next: your thumbnail sheet (so you film the expression it needs — you make the thumbnail in
+Higgsfield), then your title and description and your resource lines (the starter resource first, only if you
+have no guide yet). When it's filmed: open a new chat
 and say 'edit my YouTube video' (or 'edit my interview') — that opens your AI Editing Studio (Plugin 5), which edits
 inside your own Riverside account. Not installed yet? Install Plugin 5 from the same marketplace first, then say 'set
 up riverside' once."* → `yt-thumbnail` · `yt-seo` · `yt-leads`. Interviews → `yt-interview` for the question map

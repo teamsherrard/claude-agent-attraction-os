@@ -107,7 +107,8 @@ The kb's catch-up doctrine, in this order:
 ## "What does this cost / what do I need to buy?"
 
 The kb's honest money answer VERBATIM (required = a paid Claude plan, full stop; Riverside,
-ManyChat, Metricool, the CRM are optional and feature-tied; no Higgsfield, no Descript), then hand
+ManyChat, Metricool, the CRM are optional and feature-tied; Higgsfield is the member's own account for YouTube
+thumbnails from Week 5; no Descript), then hand
 exact current prices to `maa-support-account` (which fetches live — house rule #3 — and treats
 third-party sites as their own authority).
 

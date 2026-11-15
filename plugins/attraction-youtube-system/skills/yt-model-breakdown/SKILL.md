@@ -131,7 +131,7 @@ List what you changed, in one line, so the member sees the rule working.
   outlet · date · link`; the member's teleprompter safety net; the editor's on-screen citations).
 - **The outline** on the structure above, with the two CTAs placed and quoted from the kit.
 - **Title set** — three titles from the research list, the viewer's own words first (`97`); thumbnail text
-  different from the title → `yt-thumbnail`.
+  different from the title → `yt-thumbnail` (the thumbnail sheet; the member makes the thumbnail in Higgsfield).
 - **Re-make reminder** — the file's `Last reviewed` date + "re-make this when the model changes or in 12
   months; each re-make is a new deposit in search" (`96`), then the phrase that keeps the date — stated, never
   offered: *"To be reminded, say 'capture this for my attraction brain: re-make [title] by [Month YYYY]'."* On
@@ -143,12 +143,14 @@ skeleton). Append the `memory/content-log.md` row (Platform `YouTube` · Format 
 `resource: [the guide's name] · call` · Status `Idea` → `yt-script` updates this same row at Scripted, never a
 second one). Push via `attraction-brain-sync`.
 
-## Compliance gate (3-state, before anything public)
-`identity/compliance.md`'s first line, `Status:` (read at Step 0): `unset` → the outline stays private; say plainly
-that the compliance rules are not set and that any public model content waits for them — this video type is the
-one most likely to be watched by the brokerage's compliance desk. `set` → apply, remind once to confirm.
-`confirmed` → apply. Append the rev-share marketing policy line and the earnings disclaimer to the description
-brief.
+## Compliance (3-state — never a stop, never a detour)
+`identity/compliance.md`'s first line, `Status:` (read at Step 0): **`unset`** → the outline and the fact sheet are
+still written, delivered and saved, **stamped "hold until your compliance basics are set"**, and ONE line is said
+at the close: *"One thing before this video goes out: say 'paste my compliance link' — two minutes — so your
+brokerage's wording is on it. This is the video your brokerage's compliance desk is most likely to watch."* (inside
+`yt-make-video`, that chat's close says its own one line and this skill stays silent). **`set`** → apply, remind
+once at the close to confirm. **`confirmed`** → apply. Append the rev-share marketing policy line and the earnings
+disclaimer to the description brief (their place held, never invented, while `unset`).
 
 ## Rules
 - Never run a web search to "fill in" a model fact; send the member to the Model Expert instead.

@@ -4,7 +4,7 @@ description: >
   The scheduled-workflow registry and the timely-angle reader for the Agent Attraction YouTube System
   (Week 5). Lists exactly two workflows — the Monday Kickoff and the Monthly Channel Review — both
   switched on at setup with the member's one Yes, draft-only, stoppable in one sentence, plus the
-  email note that comes with every run; owns the Monthly Channel Review (the 1st: the month by lane,
+  email note that comes with every run; owns the Monthly Channel Review (the 1st: the month by topic,
   which videos brought agent conversations, the one move, the step to two a week when due). Also
   turns dated industry news from the Brain's intel file into cited, timely video angles for agents —
   never local real-estate events, never a negative word about a brokerage. Trigger on: "my YouTube
@@ -35,7 +35,7 @@ dropped on the next write; no brackets in the block (the Brain Board reads a tas
 | Workflow | When | Switched on | Owner | `config.md` line and its values |
 |---|---|---|---|---|
 | Monday Kickoff — this week's video drafted onto its card, the Brain and the video's folder; the board topped up to 30 days; the short note | Mondays, the member's hour (9:00 am) | at setup, with the member's one Yes | `yt-briefing` — task id `attraction-monday-kickoff` | `Monday Kickoff task:` → `attraction-monday-kickoff · runs Mondays [time]` · `paused` · `later` |
-| Monthly Channel Review — the month by lane, which videos brought agent conversations, the one move, the step-up when due; writes each published card's 📊 AFTER IT'S OUT and a dated YouTube block in the Brain's performance ledger | the 1st, the member's hour (8:00 am) | at setup, with the same Yes | this skill — task id `attraction-monthly-youtube-review` | `Monthly review task:` → `attraction-monthly-youtube-review · runs the 1st [time]` · `paused` · `later` |
+| Monthly Channel Review — the month by topic, which videos brought agent conversations, the one move, the step-up when due; uses the month's Studio screenshots when they are on record and always ends with the three-screenshots step; writes each published card's 📊 AFTER IT'S OUT and a dated YouTube block in the Brain's performance ledger | the 1st, the member's hour (8:00 am) | at setup, with the same Yes | this skill — task id `attraction-monthly-youtube-review` | `Monthly review task:` → `attraction-monthly-youtube-review · runs the 1st [time]` · `paused` · `later` |
 | **The email line** — one short email to the member's own address when a run finishes | with every run | part of the process, never asked | the consent card writes it; any run may flip it | `Email me:` → `yes YYYY-MM-DD` · `no (no mail connected)` (an older plain `no` mirrored from the Short-Form block is honoured) |
 
 Both are switched on together, once, on `yt-setup`'s one card
@@ -68,12 +68,22 @@ connected)` when it is not. Any YouTube run that finds no connected mail at send
 plain `no` mirrored from the Short-Form block is honoured). This skill never writes the Short-Form block.
 
 ### Monthly Channel Review (this skill owns it — switched on at setup, draft-only)
-What it is, in the member's words: *"on the 1st, your month by lane, which videos brought agent conversations
+What it is, in the member's words: *"on the 1st, your month by topic, which videos brought agent conversations
 or booked calls, your interview pipeline, one packaging fix, and the one move — written for you, nothing
-posted."* It also writes 📊 AFTER IT'S OUT on each long-form card published in the month (the live link, the
+posted."* **The review needs numbers the live connection cannot read** (it reads public data only; click-through
+rate, watch time and traffic sources live inside YouTube Studio), so it asks for them the told-not-asked way:
+the document and the note always END with the stated step — *"To make next month's review sharper, take three
+screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my
+attraction Studio numbers': 1. Analytics → Content — the video table (impressions, click-through rate, average view
+duration, views). 2. Analytics → Reach — traffic source types and YouTube search terms. 3. Analytics → Engagement —
+the retention graph of your top video."* When the month's screenshots ARE on record (the performance ledger holds a
+`YouTube Studio numbers` block for the month — `yt-analytics` writes it), the review uses them and says so; when
+they are not, it says in one line which three would have sharpened it. The Monday Kickoff that falls in the last
+seven days of a month carries the same three in one line of its note. It also writes 📊 AFTER IT'S OUT on each long-form card published in the month (the live link, the
 numbers on record with their source, the agents who named the video), appends its dated YouTube block to the Brain's
-performance ledger (`memory/content-performance.md`), and makes the step-up proposal — one video a week to two —
-when a month at one has held (once a month at most; a video read earlier in the same month defers to it). **Turn on
+performance ledger (`memory/content-performance.md`), and makes the step-up proposal — one video a week to two,
+by the one phrase "change my YouTube cadence" — when a month at one has held (once a month at most; a video read
+earlier in the same month defers to it). **Turn on
 / resume** ("turn on my monthly YouTube review", from `paused` or `later` — the phrase is the member's explicit yes):
 the Monthly row of the consent reference — `list_scheduled_tasks` (adopt `attraction-monthly-youtube-review`), else
 `create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, `cronExpression: 0 8 1 * *` (their day and
@@ -87,6 +97,9 @@ disable the task (`update_scheduled_task`, or delete it), write `paused`, push, 
 any time. The scheduled run ends the owner's three ways (the note · one email to the member's own address while
 `Email me:` says yes — "Your monthly channel review is ready — [month]" · the push). The full monthly deep dive with
 live data is `yt-analytics` ("run my attraction YouTube deep dive") — the review points to it; it never replaces it.
+**Neither scheduled workflow ever calls the live data connection** (the owner, 2026-11-14) — an unattended run
+cannot answer a permission box; both read what the Brain already holds. Connecting is the member's own step, by
+phrase, in its own short chat: "connect my YouTube numbers" (`yt-analytics`).
 
 ## Job 2 — Timely angles (from intel, not from the local news)
 Read `brain.md`, then `memory/intel.md` — nothing else — the Prospect Radar's news scan's dated, sourced rows
@@ -97,7 +110,7 @@ row holds them; never invented, never completed from memory** — with the cardi
 `"🔥 THIS WEEK — [title · outlet · date · link] → 'What [change] means if you're a [type of agent]' (Problem · facts
 only; no negative word about [brokerage]; numbers on a call)"`.
 Rules: an angle must be something an agent would search or ask, not a headline slogan; a row with no link or no
-date is offered as "unsourced — confirm before filming", never as a video's basis; stale items (>30 days) are
+date is labelled "unsourced — confirm before filming", never used as a video's basis; stale items (>30 days) are
 flagged; a comparison angle gets `yt-model-breakdown`'s caution; an unverified row (`Verified?` empty) is never the
 basis of a video. Deliver in chat; the member picks; `yt-ideation` ranks them with the rest; mark the intel row
 `Used? yes` only when a video is actually made (`yt-make-video` does that — this skill proposes). The Monday

@@ -8,8 +8,9 @@ fails, and who fixes what. **Support routes here instead of answering "how do I 
 
 Sales copy says "12 systems." The honest count: **9 Cowork marketplace plugins + the Design
 Studio, which is a Claude Design SKILL SET (uploaded zips), not a plugin** — Claude Design cannot
-run plugins. The Creative Studio (the two Higgsfield employees) is REMOVED from this build per
-Mike (2026-10-08): not a plugin, parked.
+run plugins. The Creative Studio plugin (the two Higgsfield "employees") is NOT part of this build
+(Mike, 2026-10-08) — but the cohort's members do make their YouTube thumbnails in Higgsfield themselves, on
+their own account, from the sheet `yt-thumbnail` writes (the owner, 2026-11-14).
 
 > **Launch cut (2026-11-03): the marketplace carries Plugins 1 and 2, and since 2026-11-08 Plugin 3 (Lead Magnet, Week 2).**
 > The rest are built and parked on the `wip/all-plugins` branch while they are fixed and optimized; they return to the
@@ -20,11 +21,11 @@ Mike (2026-10-08): not a plugin, parked.
 |---|---|---|---|---|---|
 | 1 | **Agent Attraction Brain** (W1) | `attraction-` | 27 | **BUILT** | "Set up my **attraction** brain" |
 | 2 | **MAA Claude Support** (W1) — this plugin | `maa-support-` | 9 | **BUILT** | "MAA help" / "help" / "I'm stuck" / "what did Mike say about…" |
-| – | **Design Studio** (Claude Design skill set, NOT a plugin) — W3 the Design Package (logo · style sheet · brand kit) + the offer kit · lead magnet · funnel · content + the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); a Week 4 thumbnail is a brief from `yt-thumbnail` pasted into the member's brand project in Claude Design (there is no thumbnail design skill) | `aa-…-design` | 10 | **coming** — the upload files are handed out with the Week 1 bonus assets, not from this repo (parked on `wip/all-plugins`) | paste a brief into claude.ai/design; "design my attraction logo" inside Design |
+| – | **Design Studio** (Claude Design skill set, NOT a plugin) — W3 the Design Package (logo · style sheet · brand kit) + the offer kit · lead magnet · funnel · content + the video kit (uploaded with Riverside), W6 events · the Value Vault (incl. the partner onboarding roadmap); YouTube thumbnails are NOT designed here — the member makes them in Higgsfield from the sheet `yt-thumbnail` writes (there is no thumbnail design skill) | `aa-…-design` | 10 | **live** — ten upload zips the member gets from Circle and uploads at claude.ai/customize/skills in Week 3 (on `main` since 0.24.0; rebuilt for quality 2026-11-14) | "design my attraction logo" inside Claude Design, or a Design canvas in Cowork |
 | 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **live** — in the marketplace since 2026-11-08 (0.6.0; since 0.9.0 the guide and the page go into the Week 3 Kit — the one file the member uploads to Claude Design — and the page outline has no document of its own); everything it writes lands in the member's cloud workspace and on their Brain Board | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
-| 4 | **Short-Form** (W4) | `sf-` | 15 | **live** — in the marketplace since 2026-11-14 (0.3.0): one sitting, two keywords, the kit's six posts first, Notion board, twelve draft-only workflows (five recommended on) | "set up my attraction short-form" |
+| 4 | **Short-Form** (W4) | `sf-` | 15 | **live** — in the marketplace since 2026-11-14 (0.3.0): one sitting, two keywords, the kit's six posts first, Notion board, nine draft-only workflows (four switched on with the member's one Yes, five by phrase) | "set up my attraction short-form" |
 | 5 | **AI Editor — Riverside** (W4, with Short-Form — its video kit is designed in Week 3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **live** — in the marketplace since 2026-11-14 (0.4.5; vendored from the realtor marketplace with the Brain-home patch) | "set up my video editor" / "edit my reel" |
-| 6 | **YouTube** (W5 — date to be confirmed) | `yt-` | 19 | **live** 0.3.0 (returned to main 2026-11-14, rewired per `docs/plans/youtube-rewire-2026-11-14.md`) | "set up my YouTube for agents" |
+| 6 | **YouTube** (W5 — date to be confirmed) | `yt-` | 19 | **live** 0.4.0 (returned to main 2026-11-14, rewired per `docs/plans/youtube-rewire-2026-11-14.md`) | "set up my YouTube for agents" |
 | 7 | **Conversion & Sales** (W6 — date to be confirmed) | `cv-` / `sales-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "launch conversion" / "I have a call with [name]" / "set up my sales system" |
 | 8 | **AI Admin** (W6 — date to be confirmed) | `admin-` | 8 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my attraction admin" |
 | 9 | **Events & Workshops** (W7, bonus — date to be confirmed) | `ev-` | 10 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "plan my workshop" / "plan my agent event" |
@@ -98,7 +99,7 @@ the reserved phrase; hand them "set up my attraction brain." A realtor Brain is 
 | "set up my attraction short-form" (the whole Week 4 journey: profiles and keywords confirmed → the Game Plan, opening with the kit's six posts → the Notion board with 30 days mapped → the workflows → the first Reel) · "optimize my profiles for agents" · "attraction reel ideas" · "script my attraction reels" · "attraction stories" · "attraction carousel" · "plan my attraction week" · "comment to DM for agents" | `sf-setup` · `sf-ideas` · `sf-talkinghead` · `sf-stories` · `sf-carousel` · `sf-weekly-routine` · `sf-comment-to-dm` | 4 |
 | "build my short-form game plan" · "plan my next 30 days of reels" · "update my short-form game plan" | `sf-gameplan` (the Short-Form Game Plan — pillars with angles, the hook bank, the keyword, the dated 30-day calendar; built inside setup, updated on demand) | 4 |
 | "map my next 30 days" · "my attraction content board" · "update my short-form board" | `sf-board` (mapping mode seeds the calendar as dated cards on the one shared Notion board) | 4 |
-| "run my week plan" · "turn on my Monday week plan" · "stop my Monday week plan" · "my attraction workflows" (the eleven short-form workflows — six recommended on — their status, the one-sentence stop) | `sf-week-plan` (the Monday Week Plan) | 4 |
+| "run my week plan" · "turn on my Monday week plan" · "stop my Monday week plan" · "my attraction workflows" (the nine short-form workflows — four switched on with the member's one Yes, five by phrase — their status, the one-sentence stop) | `sf-week-plan` (the Monday Week Plan) | 4 |
 | "turn on my daily stories" · "stop my daily stories" (by phrase, not on the card) | `sf-stories` | 4 |
 | "how is my attraction content doing" · "run my attraction deep dive" (the Monthly Deep Dive, by phrase) | `sf-analytics` | 4 |
 | "edit my reel" / "edit my YouTube video" / "edit my interview" · "set up my video editor" · any edit ask | `studio-navigator` (it translates + routes: `studio-reel`, `studio-longform`, `studio-interview`, `studio-setup`) | 5 |
@@ -231,7 +232,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug
   in later — never "missing".
 
-### Plugin 4 — Short-Form (W4) — LIVE 0.4.1 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
+### Plugin 4 — Short-Form (W4) — LIVE 0.5.0 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
 - Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live
   lead magnet). Publishing = bring-your-own (Metricool, or manual). The ManyChat sequences are a bonus-asset import
   on the member's own ManyChat account, not a plugin feature. Notion is bring-your-own for the board — without it the
@@ -254,12 +255,13 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - Known modes: connector connected but reads fail → tree #12; edits persist in Riverside, state in
   the Brain's `editor/` allowlist.
 
-### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.3.1 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
+### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.4.0 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
 - Depends on: Brain + the Week 2 files (the offer's content branches, the guide, the Week 3 Kit's calls-to-action table, the YouTube bio from the kit) + the Short-Form setup from Week 4 (`content-pillars`, the Notion board — "YouTube wants my pillars" means run the short-form setup first). House rhythm: one chat = one video. Cadence: one video a week for the first month, two the step-up the monthly review proposes.
 - **Journey:** kit → Game Plan → the YouTube tab on the board (30 days — four or five videos at one a week) → the two workflows + the email note, one Yes → first video; resumes from
   `channel.md`'s `Setup:` stamp; the Kickoff drafts the week's video every Monday. Known modes: "it skipped the board" =
   Notion not connected (it says how, never blocks) · "my Monday kickoff never ran" = the member never said Yes on the card, or the task was never created (tree #10).
-- Thumbnails are a lean Claude Design build sheet (`yt-thumbnail`) pasted into the member's brand project (claude.ai/design or a Design canvas in Cowork), not a Higgsfield job. The edit is the Riverside editor when installed ("edit my YouTube video").
+- Thumbnails are made by the member in Higgsfield, from the sheet `yt-thumbnail` writes (three directions: the prompt to paste, which of their own photos to upload, the three to five words) — never a Claude Design job (the owner, 2026-11-14). The channel banner is the brand kit's, from Week 3.
+- **On every video card** (0.4.0): one real reference video to watch first (found on YouTube and checked before it is written; the last column of the YouTube tab; "it gave me no reference" = nothing close was found, the card carries YouTube's own search and the next Kickoff looks again) · a six-step publish checklist for YouTube Studio ("my video is published" moves the card). **Live numbers** are a separate two-minute step by phrase ("connect my YouTube numbers") — never part of setup, never used by a scheduled run. **Clips:** "repurpose my attraction video" queues three clip scripts; the Monday Week Plan turns up to two into that week's Reels. The edit is the Riverside editor when installed ("edit my YouTube video").
 
 ### Plugin 7 — Conversion & Sales (W5) — BUILT
 - Depends on: Brain (`top-50`, `avatars`, `offer`, `positioning`, `brokerage-model`, `objections`,
@@ -299,7 +301,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 | Docs come out unstyled/ugly | Deliverables render via the shared styled-doc pipeline | Log as bug via `maa-support-escalate` |
 | A skill wants a tool the member skipped (ManyChat, Metricool, Notion…) | Bring-your-own tools are optional by design | Offer the setup path, or the manual path |
 | "It says it sent/saved/booked it — I can't find it" | Claimed-done ≠ done: verify with one cheap read | Diagnostics tree #9 |
-| "Do I need Higgsfield / the AI clone / the Thumbnail Employee?" | Parked — not in this OS | Honest answer; log the ask |
+| "Do I need Higgsfield / the AI clone / the Thumbnail Employee?" | Higgsfield: yes, for YouTube thumbnails from Week 5 — the member's own account, `yt-thumbnail` writes the sheet. The AI clone and the "employees": not in this OS | FAQ Q48 · Q64; log the ask for the clone |
 | "Where's the listing / market update skill?" | Not part of agent attraction; those are realtor-cohort plugins | Honest answer; if they're in both cohorts, that's the realtor stack |
 
 

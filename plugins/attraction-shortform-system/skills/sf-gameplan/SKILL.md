@@ -344,7 +344,9 @@ appear in the document. **A week made only of designed posts carries the one lin
 nothing to film."* (the first two weeks of a first window).
 Write **`memory/content-calendar.md`** in the contract's locked shape — the eleven columns `# | Date | Day | Format |
 Pillar | Working title | Hook | CTA | Carries | Status | System ID`, untouched; only the document's table is the five
-member-facing columns — (BUILD: create it from the header; UPDATE:
+member-facing columns — (BUILD: create it from the header — and when the file
+is already there because the YouTube System created it for a member who ran Week 5 first, keep its three `(YouTube)`
+sections exactly as they are and write only the window line and the short-form table above them; UPDATE:
 append the new window below the old, never rewriting a row at `Scripted` or later), push at Phase 10. Calendar
 rows are not logged to `content-log.md` — a row enters the log when a piece is scripted (the Monday Week Plan or a
 content skill writes it); a kit post's row enters the log when it goes out.

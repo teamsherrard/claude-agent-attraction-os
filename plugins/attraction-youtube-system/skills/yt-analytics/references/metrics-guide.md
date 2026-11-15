@@ -60,7 +60,8 @@ opening (rewrite it — call out the agent, the tension, the promise, a reason t
 slide after a strong open = the middle (one idea per section, get to the payoff, cut length).
 
 **Without the Studio pack** (live only): views vs the channel's median + length is your proxy. Say so. Never
-invent CTR or retention numbers — offer the "add my attraction Studio numbers" path that adds them.
+invent CTR or retention numbers — state the path that adds them: *"Drop your Studio screenshots into a chat with
+the words 'add my attraction Studio numbers' and I fill these in."*
 
 ## Classify by intent, not just performance
 A low-view video can still be a win. Tag each: **awareness** · **trust-building** · **high-intent lead-gen**
@@ -69,7 +70,7 @@ An interview with 600 views that booked two agent calls outranks a 10k-view vide
 
 ## Turn it into advice (always — in the four-line shape)
 Every finding: **what we found → why it matters to you → do this → the proof.** Tie it to their actual
-videos and offer to act:
+videos and state the next step with the phrase that does it — a statement, never "want me to…?":
 - *What we found:* your interviews pull 3× your typical video. *Why it matters:* that's the proof lane —
   the videos agents watch right before they book. *Do this:* two more interviews next month, the turnaround
   story first. *The proof:* 4,800 and 3,900 views vs a typical 1,400 (illustrative — demo).

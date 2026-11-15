@@ -64,7 +64,7 @@ they hit — never as the company they left.*
 *Pull back the curtain, simplify what others overcomplicate, answer what they're already researching (`/96`,
 `/93` draft). Requires `brokerage-model.md`; empty → route to `attraction-brokerage-model` first.*
 - **Pull:** `brokerage-model.md` (mechanics as the member's materials state them, dated) · the Brain plugin's
-  `shared/brokerage-models.md` · `memory/intel.md` (dated changes, each `title · outlet · date · link`) ·
+  brokerage-models reference · `memory/intel.md` (dated changes, each `title · outlet · date · link`) ·
   `objections.md` (the myths and fears agents raise) · `positioning.md` (positioned, not pitched) · `offer.md`
   (`## The program` — the member's own lessons, templates and community that fill the model's gaps).
 - **Steps (Mike's structure, `/96`):** overview and positioning (brief history, who it's built for) → how

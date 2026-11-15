@@ -78,8 +78,8 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
 - **The CRM options** — GoHighLevel, Follow Up Boss, or a Google Sheet; the Brain's `config.md`
   CRM line records which; the AI Admin reads it in Week 5. Sheets is the free, zero-setup default;
   the others are bring-your-own with their own logins. Never recommend buying a CRM for the cohort.
-- **Riverside** — the editor, on their own account (Week 3); Claude directs, Riverside renders,
-  they approve. No Descript, no Higgsfield (FAQ Q48).
+- **Riverside** — the editor, on their own account (Week 4); Claude directs, Riverside renders,
+  they approve. No Descript. Higgsfield is where they make YouTube thumbnails from Week 5 (FAQ Q48, Q64).
 - **The compliance gate and the no-earnings rule** — not a limitation, the thing that makes the
   system safe to hand their reputation to (doctrine §8, FAQ Q22).
 

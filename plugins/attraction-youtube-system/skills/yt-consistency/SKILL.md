@@ -49,7 +49,8 @@ status), `memory/content-calendar.md` → `## Long-form (YouTube)` (the Game Pla
 Brain; the section absent → the Game Plan doc from `yt-gameplan`). `memory/interview-pipeline.md` (who is booked)
 opens at batch day and at a check-in that counts interviews.
 **Opened later:** batch day and "plan my month" → `identity/operations.md` (hours, the days they film) and the board
-if `identity/publishing.md` has a link — **the board already carries the next 30 days at the cadence** (mapped at
+if the board line has a link (`identity/publishing.md → Content board:`; that file absent → `identity/channel.md →
+Board:`) — **the board already carries the next 30 days at the cadence** (mapped at
 setup, kept full by the Monday Kickoff, which also drafts this week's video onto its card every Monday): read it
 as the month, never re-seed it here · check-ins → `memory/scorecard.md` (its word only) · a step-up question →
 `identity/goals.md` (the hours).

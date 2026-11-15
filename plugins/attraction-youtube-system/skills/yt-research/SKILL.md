@@ -78,7 +78,18 @@ reachable that way, so the member pastes the autocomplete suggestions they see, 
    exact question: `link · channel · ~views (as seen) · date seen · what works · what's missing · how the member's
    version is more useful for [avatar]`. Same concept for the same agent audience first; another audience only
    as the labeled fallback. **Never a competitor's flaw, never a negative characterization, never copy a look** —
-   describe the pattern that worked and the gap left open. These double as the card's 📚 REFERENCES.
+   describe the pattern that worked and the gap left open. The closest of them is the card's 📚 REFERENCE VIDEO —
+   WATCH THIS FIRST; the other two sit under it ("Two more worth your time").
+5. **The reference video for a card** — ONE real YouTube video, as close as possible to that card's idea, on the
+   card from the day it is created (the owner, 2026-11-15). Its steps are in `references/research-method.md` → "The
+   reference video — ONE real video for every card" and are followed exactly by whichever skill creates the card:
+   a web search limited to youtube.com, a check that the video is real and public before anything is written, a
+   clean link, an honest label, one search a card. A link is never invented and a view count is never guessed.
+- **Live numbers only when they are already there** (lanes 1 and 4, and the reference video in a chat the member
+  is in): `identity/channel.md → Live data: active …` on file and the tools in the session → real view counts and
+  dates through `${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md` (recipes 2, 3, 4 and 6, read-only). Not
+  active → the web paths above, silently; never a sign-in, a connection check or an ask in the middle of the
+  research, and at most one closing line naming *"connect my YouTube numbers"*.
 
 ## Step 3 — Rules (non-negotiable)
 - **`title · outlet · date · link` on every item.** News older than ~60 days is flagged stale; search signals are
@@ -106,6 +117,8 @@ column (designated append, `brain-contract.md`). A brokerage fact the member sho
 - **At ideation time** — the first invisible step whenever the member asks for ideas (budget ≤8 there).
 - **On demand** — "what are agents asking about [topic]?" / "any brokerage news for my channel?"
 - **Inside make-video** — the competitive read for one locked title (≤5 searches).
+- **For a card** — the reference video: one search a card (a second, reworded, only when the first found
+  nothing); run by `yt-board` and the Monday Kickoff, by the steps in the method.
 
 ## Hand-off
 The Brief feeds → **ideation** (signals → ranked ideas), the **Game Plan** (the lanes and the title bank),

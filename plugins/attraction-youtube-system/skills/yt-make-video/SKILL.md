@@ -2,15 +2,16 @@
 name: yt-make-video
 description: >
   Make This Attraction Video — the end-to-end production flow of the Agent Attraction YouTube
-  System (Week 5). One chat = one video: locks the packaging (title, hook, bucket), picks up the
+  System (Week 5). One chat = one video: locks the packaging (title, hook, lane), picks up the
   Monday Kickoff's drafts, writes the script in the member's voice with the two CTAs (the Week 2
-  guide, the call in the law's shape), builds the thumbnail build sheet and the SEO package, fills the
-  board card in its locked order, states the editing next step (the editor, Plugin 5), and after
-  publish writes the content-log row and hands Reels and carousels to the short-form system by phrase.
-  Never posts or publishes; compliance gate before anything public. Trigger on: "make my attraction
-  video", "produce my attraction video", "let's make the agent video", "build this attraction video",
-  "make this agent interview video", "make this model breakdown video for agents", "start the
-  attraction video for this idea", or a chosen attraction idea pasted into a fresh chat.
+  guide, the call in the law's shape), writes the thumbnail sheet for Higgsfield and the SEO package,
+  fills the board card in its locked order, states the editing next step (the editor, Plugin 5), and
+  after publish writes the content-log row and hands Reels and carousels to the short-form system by
+  phrase. Never posts or publishes; compliance read before anything public, never a stop. Trigger
+  on: "make my attraction video", "produce my attraction video", "let's make the agent video",
+  "build this attraction video", "make this agent interview video", "make this model breakdown video
+  for agents", "start the attraction video for this idea", "my video is published", or a chosen
+  attraction idea pasted into a fresh chat.
 ---
 
 # Make This Video — one chat = one video
@@ -45,10 +46,12 @@ between steps — and everything saves to this video's folder. The member only e
   default for the first month, two the step-up. This chat makes one video regardless.
 - **Member-facing words:** Week 5; "your content board", "the YouTube tab at the top of your board"; the editing next
   step stated, never hedged (Plugin 5 — "when it's filmed: 'edit my YouTube video'"); the short-form system by
-  phrase; never a skill id, a file path or a task id in a sentence to the member.
+  phrase; never a skill id, a file path or a task id in a sentence to the member; plain words — "your thumbnail
+  sheet" (the member makes the thumbnail in Higgsfield), "your title and description" (never "the SEO package"),
+  "three ways to open" (never "the hook three ways"), "your eight-video plan", "your Channel Page".
 
-> If the member wants one piece only (just the script, just the SEO, just the thumbnail build sheet), jump to
-> that skill; never force the whole sequence.
+> If the member wants one piece only (just the script, just the title and description, just the thumbnail sheet),
+> jump to that skill; never force the whole sequence.
 
 ## Step 0 — Set up the video
 State the idea/title and its **bucket** — no title in the member's words → this week's video: the calendar row
@@ -63,11 +66,17 @@ Resolve the save spot: `03 · Content/Long-Form/{YYYY-MM-DD · Title}/` (naming 
 suggest naming the chat after the video. Missing local Brain → `attraction-brain-sync` first; a tool error is
 never "no Brain".
 
+**The channel trailer** ("make my attraction video: my channel trailer" — a new channel's first row on the plan,
+week one's first row, a card like any other): the same flow, sized down — a 60 to 90 second script (who you help ·
+what you cover · the invite, in the law's shape), one thumbnail sheet, the title and description; its content-log
+row carries Pillar `Authority` and `[Trailer]` at the start of the Topic cell (it is not one of the eight), and its
+card's Pillar cell stays empty (the spec's options are never extended).
+
 **Drafted by the Monday Kickoff already?** This video's content-log row is at `Scripted` with Link `—` and no
 `Script` doc in its folder, or its board card sits at `Scripted` with a script START (not a full script), or the
 folder holds a `Kickoff Brief — [title] — …` → **pick up the drafts, never redo them:** the brief's title, bucket,
 story, and CTAs are the package (Step 1 only confirms them and runs the competitive read); the script start's
-hook and CTA lines open the script (Step 2 writes the rest); the thumbnail build sheet stands unless the title
+hook and CTA lines open the script (Step 2 writes the rest); the thumbnail sheet stands unless the title
 changed (Step 3 is a check, not a rewrite); the SEO start is completed with the chapters (Step 4). Say so in one
 line: *"your Monday Kickoff already drafted the start — I'm picking up from there."* Setup's first video arrives
 the same way when the board was seeded: the card exists at `Idea`; the title is locked, nothing else is drafted.
@@ -95,13 +104,25 @@ Week 2 session) → one warm line, *"say 'launch my lead magnet plugin' and your
 video hands out"*; meanwhile `yt-leads` builds the Starter Resource (its 1a) once, the fallback, so the script,
 the description and the pinned comment in this chat still name a real file. Never a demand; never the call as
 the resource.
+**Start from the card's reference video** (the owner, 2026-11-15: every card already carries one real YouTube
+video close to its idea — the row's `Reference video` cell in `memory/content-calendar.md → ## Long-form (YouTube)`,
+or the card's `Reference Video` link). Re-run the "is it real" check on it once
+(`${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`, the reference-video steps): gone → it is
+replaced by the read below; still there → it is the first candidate. No reference on file (an ad-hoc title, an
+older row) → the read below finds all three.
 Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3 (2–4) real videos agents
 find for this exact question — `link · channel · ~views (as seen) · date seen · what works · what's missing · the
-one thing we do better`. Real links only; a count that cannot be seen is left off; the cardinal rules apply to how
-other channels are described (what is missing, never what is wrong with them). Then lock the **title** (the
+one thing we do better`. Real links only — each returned by a search in this chat and checked as a real, public
+video; a count that cannot be seen is left off; the cardinal rules apply to how other channels are described (what
+is missing, never what is wrong with them). **The closest of the three is the card's reference video:** the one
+already there is confirmed, or a closer one replaces it — then the row's cell and the card's `Reference Video` link
+are updated. **Live numbers only when they are already there:** `identity/channel.md → Live data: active …` on
+file and the tools in this session → the data engine's recipe 4 gives exact views and dates
+(`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`); otherwise the web search, silently — never a sign-in or
+an ask here, at most one closing line naming *"connect my YouTube numbers"*. Then lock the **title** (the
 viewer's question, pain or desire named — `97`), the **hook** (the first 15–30 s, straight into the question, no
 "welcome back"), and the **story** from the bank. Give the member the references in chat: *"watch these three
-before you film — here's what each does well."*
+before you film — the first is the one on your card; here's what each does well."*
 Once the title locks — still the start of the video chat, never pick time — if the idea came from
 `~/attraction-brain/memory/ideas.md`, open it and mark that row Used now (this is where an idea becomes a video);
 if it drew on a `memory/intel.md` row, mark that row's `Used?` column now too.
@@ -118,16 +139,19 @@ content-log row at Scripted and stamps the story's Used-where. Save as **Script*
 moment for the first Short (your AI Editing Studio cuts it at the edit; the Reels themselves are the short-form
 system's — Step 9).
 
-## Step 3 — Thumbnail build sheet
-`yt-thumbnail`: three directions scored in the chat, one chosen, and the LEAN BUILD SHEET — the layout chosen,
-the 3–5 words, the expression to shoot, the brand tokens from `identity/brand-visual.md`'s Final kit,
-placeholders — which the member pastes into their brand project in Claude Design (claude.ai/design, or a Design
-canvas inside Cowork). There is no separate thumbnail design skill. Do this BEFORE filming so the member shoots
-the expression the sheet needs.
+## Step 3 — The thumbnail sheet (for Higgsfield)
+`yt-thumbnail`: three directions scored in the chat, one recommended, and the ONE sheet — for each direction the
+image prompt to paste (the scene, the expression, the background, the brand's colours in plain words, a 16:9 frame
+at 1280×720 with clear space for the words), which of the member's own photos to upload, and the 3 to 5 words to
+add. The member makes the thumbnail in Higgsfield — say it in the sheet's own words: *"Take this to Higgsfield,
+where you make your thumbnails: upload your photo, paste the prompt, add the words. Drop the finished thumbnail
+into this video's folder and say 'my thumbnail is done'."* A thumbnail sheet is never pasted anywhere else. Do
+this BEFORE filming so the member shoots the expression the sheet needs.
 
 ## Step 4 — SEO package
-`yt-seo`: three titles, the description — line 1 the booking link in the law's shape, line 2 the guide's funnel
-URL, line 3 the handles — chapters, tags, hashtags, the pinned comment (the guide's link + "comment GUIDE"),
+`yt-seo`: three titles, the description — line 1 the call in the law's shape with the booking link, line 2 the
+guide's funnel URL, line 3 the compliance and contact line — chapters, tags, hashtags, the pinned comment (the
+guide's link + "comment GUIDE"),
 playlist and end-screen notes. Save as **SEO Package**.
 
 ## Step 5 — The resource
@@ -136,12 +160,27 @@ playlist and end-screen notes. Save as **SEO Package**.
 law's shape. Save as **Lead Map** only when the Week 2 guide exists; the Starter Resource needs no map.
 
 ## Step 6 — The board card (if they have the board — before filming)
-Open `identity/publishing.md`'s `Content board:` line now; a URL → find this video's card (System ID → exact
+Open the board line now — `identity/publishing.md → Content board:`; that file absent (the member skipped Week
+4) → `identity/channel.md → Board:`. A URL → find this video's card (System ID → exact
 title → near match) and write the card page in the locked order of `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`
 — **🎯 THE HOOK** (the hook three ways, the chosen one first and in bold; the title) · **🎬 SCRIPT** (the full
-script) · **🖼 THUMBNAIL BRIEF** (the build sheet) · **🔍 SEO PACKAGE** · **🧲 THE RESOURCE** (the guide, GUIDE,
-the funnel URL, the booking line) · **📚 REFERENCES — WATCH THESE 3 FIRST** (Step 1's read, each with the one thing
-to do better) · **🎙 GUEST** (interviews only) · **📋 ASSETS & NOTES** (b-roll, the compliance lines to say) ·
+script) · **🖼 THUMBNAIL BRIEF** (the thumbnail sheet for Higgsfield) · **🔍 SEO PACKAGE** · **🧲 THE RESOURCE** (the guide, GUIDE,
+the funnel URL, the booking line) · **📚 REFERENCE VIDEO — WATCH THIS FIRST** (the closest video first, as the spec lays it out — the
+titled link, the video playable on the card, Why this one — now with **the one thing to do better**, written from
+what Step 1 actually read; then the line **Two more worth your time** and the other two, each `titled link ·
+channel · the one thing to do better`; the `References` field holds the three; never a negative word about a
+channel or its brokerage) · **🎙 GUEST** (interviews only) · **📋 ASSETS & NOTES** (b-roll, the compliance lines to
+say) · **✅ PUBLISH IT — SIX STEPS IN YOUTUBE STUDIO** (the owner, 2026-11-14: uploading is where older members get
+stuck — six real to-do items, `- [ ]`, in Studio's own order, each with its click path and THIS video's own values:
+**1 Title** — Details → Title: the chosen title, printed · **2 Description** — Details → Description: the
+description, with line 1 the call and the booking link, line 2 the guide, line 3 the compliance and contact line ·
+**3 Thumbnail** — Details → Thumbnail → Upload file: the thumbnail made in Higgsfield, from this video's folder ·
+**4 Playlist** — Details → Playlists: the playlist by its exact name (the lane's, from `channel.md`) · **5 End
+screen** — Video elements → Add an end screen: the next video and the playlist the SEO package names (a first
+video: the playlist alone), and Subscribe ·
+**6 Pinned comment** — after it is public: the pinned comment from the SEO package, then ⋮ → Pin; under the six,
+*"All six ticked? Say 'my video is published' and I'll move this card to Published."* Boxes the member already
+ticked stay ticked; the system never ticks one) ·
 **📊 AFTER IT'S OUT** (left empty — the Monthly Channel Review, or "how did my video do", writes it). A section already there (the Kickoff's
 start) is **replaced in place, never stacked**; the workspace links go in the columns; Status → `Scripted`; the
 card's Topic renamed to the final title if it changed. No board or `declined` → skip silently, never nag.
@@ -158,7 +197,12 @@ the video waits to go out → flip the calendar row and the card to `Ready to Po
 `Edited`, the editor's word; the board says `Ready to Post`); push.
 
 ## Step 8 — Publish → the content-log row (the fix this fork carries)
-When the member says it is live, ask for the link, then **update this video's `memory/content-log.md` row**
+**The phrase is "my video is published"** (the card's own last line says it; "it's live", "I uploaded it" and the
+like are the same thing). Which video: the one this chat is about; in a fresh chat, the card at `Ready to Post` or
+`Recorded` with the nearest date — said in one line, never asked unless two fit equally. **The six boxes never
+block it:** read the card's ✅ PUBLISH IT; anything still unticked → one plain line naming it (*"Two steps are still
+open on its card: the end screen and the pinned comment."*), and carry on.
+When the member says it is live, ask for the link once (only when they did not give it), then **update this video's `memory/content-log.md` row**
 (the one written at script): Status `Published`, Link, the CTA used (`resource: [the guide's name] · call`), the
 story used; if no row exists, append one in the locked shape (Date · Platform `YouTube` · Format `long-form` or
 `interview` · Pillar = Authority / Proof / Perspective by the bucket · Topic/hook = `[bucket] final title` · Avatar ·
@@ -184,16 +228,21 @@ distribution sentences (`yt-interview` Step 6).
 Then: *"next week, say 'what's my next attraction video' and we pick from the plan — or wait for Monday: your
 Kickoff drafts it onto your board for you."*
 
-## Compliance gate
-Before the script, the SEO package, or the thumbnail build sheet leaves the chat: `identity/compliance.md`'s first
-line, `Status:` (read at Step 0) — `unset` → stop at that step, say plainly the rules are not set, keep drafts
-private; `set` → apply and remind once; `confirmed` → apply. Never "if empty, proceed". Apply = the two cardinal
-rules · no compensation figures · the former brokerage unnamed · the brokerage name and license as the file says
-· a named agent only with consent · nothing that promises the member's time per partner.
+## Compliance (3-state — never a stop, never a detour)
+`identity/compliance.md`'s first line, `Status:` (read at Step 0). **`unset`** → make the whole video package
+anyway: the script, the thumbnail sheet, the title and description are written, delivered and saved, each **stamped
+"hold until your compliance basics are set"** (the line under the document's title; the disclosure block's place
+kept as one bracketed line, never invented), and the member is told ONCE, at the close of the chat — never in the
+middle of a step: *"One thing before this video goes out: say 'paste my compliance link' — two minutes — so your
+brokerage's wording is on it."* **`set`** → apply, and remind once at the close to confirm with the brokerage.
+**`confirmed`** → apply. Never "if empty, proceed" without the stamp and the line; never a hand-off to the
+compliance skill mid-video. Apply, in every state = the two cardinal rules · no compensation figures · the former
+brokerage unnamed · the brokerage name and license as the file says (or their held place) · a named agent only
+with consent · nothing that promises the member's time per partner.
 
 ## Rules
 - One step at a time, each stated and built; "your turn" only on a fact the Brain cannot hold (the live link at
   publish), one at a time; no file paths, skill names or task ids in front of the member.
 - Never post, publish, send, or schedule. Never invent a view count, a stat, or a quote. Every CTA quotes the kit.
-- Done = the folder holds Script · Thumbnail Brief · SEO Package · (Lead Map) · the written repurpose pieces, the
-  card page is in the locked order, the content-log row is Published, the Brain is pushed.
+- Done = the folder holds Script · Thumbnail Brief (the thumbnail sheet) · SEO Package · (Lead Map) · the written
+  repurpose pieces, the card page is in the locked order, the content-log row is Published, the Brain is pushed.

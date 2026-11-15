@@ -39,7 +39,8 @@ missing. Nobody starts over.
   CRMs include one.
 - **Zoom** for the private call — Google Meet or Teams works too.
 
-**Not needed:** Higgsfield and Descript. This OS does not use either.
+**Not needed:** Descript. This OS does not use it. (Higgsfield is where you make your YouTube thumbnails from
+Week 5 — your YouTube plugin writes the sheet you paste into it; nothing in this OS connects to it.)
 
 **What it costs each month.** The paid Claude plan is the only required subscription. The honest monthly line for
 the whole stack: `[NOT SET until Mike confirms]`. For any optional tool, its own pricing page is the authority — once
@@ -175,6 +176,8 @@ works out the creative direction from your Brain and the way you talked in your 
 you in one card. You say yes or change a line. It ends by handing you your **Design Package brief**, a ready block
 for Claude Design, and saves it in your 02 · Brand folder.
 
+**If Claude Design shows a banner saying it is moving on December 14,** click its "Review and move" button to move your project into Claude and keep working on it; the same uploaded skills run on a Design canvas inside Claude.
+
 **Claude Design** builds the visuals. It is a design canvas: claude.ai/design, or the Design canvas right inside Cowork (the Design tab, or a design opened beside your chat) — either works, and the same uploaded skills run in both. It reads your Brain Book (the document) plus the brief, not your Brain directly.
 
 1. **Upload the Design Studio skills.** Download them from your Week 3 materials (the cohort posts the files; the
@@ -194,7 +197,7 @@ for Claude Design, and saves it in your 02 · Brand folder.
    used exactly as-is, never redesigned.
    - `design my attraction logo` — three directions on your name (and your organization's name if it has
      one), a refresh mode for a logo that's not quite right, then every final file.
-   - `build my brand style sheet` — two directions side by side: a palette distinct from your brokerage's, fonts,
+   - `build my brand style sheet` — two quick directions to choose from, then one clear sheet: three colours distinct from your brokerage's, two fonts,
      spacing and usage rules, a "book a call with me" graphic, and your Design System, locked.
    - `make my brand kit` — profile pictures; banners for Instagram, Facebook, LinkedIn, and YouTube; highlight
      covers; win, teaching and call-to-action post templates; stories; a Zoom background; a title frame; the one-pager
@@ -280,8 +283,11 @@ set up my YouTube for agents
 It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it asks one thing — your channel link, or
 "starting fresh" — and then does five things with you, announcing each before it runs:
 
-1. **Your channel, optimized for the agents you attract.** Your description, about section, links, keywords, playlists,
-   upload defaults and the two lines you say in every video, all as copy-paste blocks with the click path above each.
+1. **Your channel, optimized for the agents you attract.** Your whole Channel Page Kit is saved as a document: your
+   description, about section, links, keywords, playlists, upload defaults and the two lines you say in every video,
+   each with the click path above it. In the chat you get only **the three to paste today** (your description and
+   about section, your links, your upload defaults). Say `walk me through my channel page` for the rest, one at a
+   time. Your banner is the one your brand kit made in Week 3 — it is already in your Brand folder.
    Your YouTube bio comes from chapter 6 of your kit; the links are your booking line first and your guide second; the
    spoken lines are your kit's calls to action, in Mike's shape (partner with me and get my help, free, to run this).
 2. **Your YouTube Game Plan.** Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
@@ -290,17 +296,32 @@ It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it 
    document lands in Content → Long-Form.
 3. **Your videos on your board.** The same Notion board as your Reels gets a YouTube tab with your next 30 days as dated
    cards — four or five at one a week, never the whole plan. Every card opens to the same page: the hook, the script,
-   the thumbnail brief, the SEO package, the resource, references, the guest, notes, how it did.
+   the thumbnail sheet, the SEO package, the resource, your reference video, the guest, notes, your publish checklist,
+   how it did.
+   **A real video to watch first, on every card.** Each card carries one real YouTube video that is close to your
+   idea — found on YouTube and checked before it goes on your board — so you see a realistic example, and what other
+   people who make videos for agents are doing, before you plan yours. The link is the last column of your YouTube
+   tab, and the video plays right on the card. When you make the video, two more are added.
+   **Your publish checklist, on every card.** Six tick boxes for YouTube Studio — title, description, thumbnail,
+   playlist, end screen, pinned comment — each with where to click and exactly what to paste. When all six are
+   ticked, say `my video is published` and the card moves to Published.
 4. **Your workflows, switched on for you.** Two, with your one Yes: the Monday Kickoff (this week's video drafted
    onto its card every Monday) and the Monthly Channel Review (your month by lane, which videos brought agent
    conversations, the one move). It emails you a short note at your own address when something is ready — the same
    as your short-form notes. Nothing posts or sends on its own.
 5. **Your first video.** The first title on your plan, handed over as a phrase: `make my attraction video: [title]`.
-   Open a fresh chat for it; it scripts in your voice, briefs the thumbnail, builds the SEO package and fills the card.
+   Open a fresh chat for it; it scripts in your voice, writes your thumbnail sheet for Higgsfield (where you make your
+   thumbnails: the prompt, which photo to upload, the words), builds the SEO package and fills the card.
    When it is filmed, open a new chat and say `edit my YouTube video` — your editor (Plugin 5, installed in Week 4) edits it.
 
 The close hands you your Brain Board and your Brain Book with their links: the YouTube dot turns green and its page
 shows your lanes, this week's video and your workflows.
+
+**One step for later, in its own short chat: your live numbers.** Setup never asks you to connect anything extra.
+When you want your real view counts read for you — on your own videos and on the reference videos — open a new chat
+and say `connect my YouTube numbers`. It is about two minutes: it shows you exactly where to click, you sign in to
+YouTube once, and it only ever reads. Without it everything still works; your monthly review asks you for three
+screenshots from YouTube Studio instead.
 
 ## 8. Turn on your Daily Debrief (whenever you want it)
 
@@ -361,7 +382,7 @@ owns them and created only with your yes; every one is draft-only.
 | 3 | **Design Studio video kit** — one Claude Design skill (zip 08): the overlays your editor lays over every video (name card, the guide and call pop-ups, end cards, call-to-action banners in your words) and the spec your editor reads; registered with your editor in Week 4 (`register my video brand kit`) | `design my pop-ups` · `design my video kit` | — |
 | 4 | **ManyChat sequence templates** — required for your two keywords: install ManyChat yourself (the free plan starts you), import Mike's templates into your own account, follow the build sheet your short-form plugin writes. You never connect ManyChat to Claude | `my ManyChat build sheet` | — |
 | **5** (date to be confirmed) | **Plugin 6 · YouTube** — one phrase is the whole Week 5 sitting (section 7): your channel optimized for the agents you attract, your YouTube Game Plan on the 8-video cycle (one video a week to start), your next 30 days on the YouTube tab of your board, your workflows and "email me", your first video | `set up my YouTube for agents` | Monday Kickoff (Mondays) · Monthly Channel Review (the 1st) — both switched on with your one yes; a short email to your own address when something is ready |
-| 5 | **No new upload.** Your YouTube plugin writes each thumbnail brief; paste it into your brand project in Claude Design (there is no separate thumbnail skill) | `thumbnail brief` | — |
+| 5 | **No new upload.** Your YouTube plugin writes each thumbnail sheet; you make the thumbnail in Higgsfield with it (the prompt to paste, which photo to upload, the words). Your banner is the one your brand kit made in Week 3 | `thumbnail brief for my attraction video` | — |
 | **6** (date to be confirmed) | **Plugin 7 · Conversion & Sales** | `launch conversion` — and `set up my sales system` for your booking page and pipeline stages | Call Block Prep (daily) · Cold-Lead Reactivation (every 30 days) |
 | 6 | **Plugin 8 · AI Admin** — one phrase, two messages: your first Morning Brief built from your Brain, calendar and inbox (today's calls with prep, inquiries with reply drafts, follow-ups drafted in your voice, content due, the week so far, three moves, one coaching note) and your pipeline at a glance — then one yes. Nothing is asked that your Brain already knows | `set up my attraction admin` | from one consent card: Morning Brief (extends your Debrief) · Daily Follow-Up Queue right after it · your Daily Debrief, if it isn't on yet |
 | **7** (bonus week, date to be confirmed) | **Plugin 9 · Events & Workshops** | `plan my workshop` | Post-Event Follow-Up |
@@ -451,6 +472,6 @@ revenue-share marketing rules.
 - [ ] Plugins 4 and 5 installed; `set up my attraction short-form` — profiles and your two keywords confirmed (GUIDE and your invitation word), your Game Plan (your calendar opens with the six posts designed in Week 3), your Notion board, your four workflows switched on with your one yes (all draft-only; a short email to your own address when something is ready), your posting tool connected (Metricool or GoHighLevel — the Connect button appears in the chat), your first Reel.
 - [ ] The sitting closed by handing you your Brain Board and your Brain Book with their links; the Board shows the Short-Form dot green with your keywords, this week's posts and your workflows.
 - [ ] `set up riverside` (it reads your Week 3 Video Brand Kit), then `edit my video` or `make me a reel` when you have a recording.
-- [ ] **Week 5 (date to be confirmed):** Plugin 6 installed; `set up my YouTube for agents` — your channel kit as copy-paste blocks, your YouTube Game Plan (one video a week to start), the YouTube tab on your board, the Monday Kickoff and the monthly review switched on with your one yes, your first video handed over by title; your Brain Board shows the YouTube dot green.
+- [ ] **Week 5 (date to be confirmed):** Plugin 6 installed; `set up my YouTube for agents` — your channel kit as copy-paste blocks, your YouTube Game Plan (one video a week to start), the YouTube tab on your board (a real video to watch first and a six-step publish checklist on every card), the Monday Kickoff and the monthly review switched on with your one yes, your first video handed over by title; your Brain Board shows the YouTube dot green.
 - [ ] Your posting tool connected — `connect my posting tool` any time it is not: Metricool (one click from the Connect button; posts wait for your approval inside Metricool) or GoHighLevel (your own token, pasted into the connector's settings yourself, never into the chat).
 - [ ] ManyChat set up in your own account from your build sheet (`my ManyChat build sheet`) — never connected to Claude.

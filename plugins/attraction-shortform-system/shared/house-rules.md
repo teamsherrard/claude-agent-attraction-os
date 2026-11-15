@@ -397,6 +397,14 @@ and drafts the recognition post and story inside the week's drafts, using the te
 the consent gate holds: an agent is named or pictured only with their written OK (`proof.md`'s consent column),
 otherwise first name or initials; and "write a win post for [Name]" is on demand in `sf-stories`.
 
+**Clips from a video fill the week's Reel slots — they never add posts** (the owner, 2026-11-14): the Monday Week Plan
+reads the calendar's `## Clips from your videos (YouTube)` section first and drafts up to two of this week's `talking
+head` Reels still at `Idea` from queued clips (newest video first; the clip's hook and script, `Carries` → `clip:
+[System ID]`, the row's ask kept) — at least one Reel stays the plan's own, the six kit posts and the green-screen
+news slot are never replaced, the displaced topic returns to `memory/ideas.md` (`returned from [date]`), three posts a
+week stays three, and the note says it once: *"Two of this week's Reels are clips from '[video title]' — film them
+straight from the script."* (the contract's clip queue has the whole rule).
+
 The rules every task obeys:
 - **One Yes, told not asked.** The consent card at setup is a statement in the owner's shape — *"Here's what I'm
   switching on for you: [the four, each with its day and time]. Every one only drafts; nothing posts, sends or

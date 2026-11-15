@@ -214,7 +214,7 @@ never inside the logo file.
 | **Compliance strip** | brokerage name · licence · chip, as the compliance block requires | `type.technical` or `type.body` small; `colour.neutral` | present on every public piece; the thinnest line; never floating |
 | **Sticker-zone plate** | the designed tinted plate that reserves a story's poll/question/link zone | `colour.mid-1` at low opacity, label in `type.body` | never a dashed developer-style box |
 | **Highlight tile** | the branded tile behind a highlight-cover icon | `colour.primary` or `colour.light`; icon in the contrasting colour | icon fills 60–75% of the circle |
-| **Section band** | a full-width band on the style sheet or a document | alternating `colour.dark` / `colour.light` / tints | light-dark-light-dark rhythm; one drama band per sheet |
+| **Section band** | a full-width band on a document (the style sheet's page 1 keeps two grounds only — its calm rules win there) | alternating `colour.dark` / `colour.light` / tints | light-dark-light-dark rhythm; one drama band per document |
 | **Photo window** | the designed empty frame that stands in for a photo | the win-card frame or `headshot.shape` | reads designed when empty; never app UI |
 | **Brokerage chip** | the required brokerage mark | as supplied | quiet corner, one position, where required only |
 | **Toolkit** | the brand's pattern · texture · accent device · oversized mark | `[describe each as built on the sheet]` | from the sheet only; never invent a new device on a later piece |
@@ -460,9 +460,9 @@ member's taste, never instructions.
 1. Read the Creative direction block in the brief (mood · energy 1–5 · type temperature · colour story ·
    photo treatment · three motifs · the avoid list · three reference recipes). The recipes are named in
    the member's plain words and map to the looks above; the first named is the Brain's own pick.
-2. `aa-style-sheet-design` locks ONE look (its two options are two executions of that look; a second
-   recipe may lead Option 2 only when the member's examples pull clearly toward it) and records it here
-   in §1. It never asks the member to choose a texture, a finish, or a look by name.
+2. `aa-style-sheet-design` locks ONE look (its two small direction cards are the same look, the same fonts and
+   the same three colours — they differ only in which colour leads and which background sits behind it) and
+   records it here in §1. It never asks the member to choose a texture, a finish, or a look by name.
 3. Every later skill applies the locked look: its ground, its type temperature within the recorded fonts,
    its devices from §7, its photo treatment. The member's three motifs become the content of the devices
    (the routine as the numbered device, the market as the place device, the organization's idea as the

@@ -6,7 +6,7 @@ description: >
   fetched live from the official pages first, then explained in plain words with a cohort-fit
   recommendation. Also the honest "what does this whole system cost me monthly" answer: a paid
   Claude plan is the only required subscription; Riverside, ManyChat, Metricool, and a CRM are
-  optional bring-your-own; no Higgsfield, no Descript. Routes billing/login problems to official
+  optional bring-your-own (Higgsfield for YouTube thumbnails from Week 5); no Descript. Routes billing/login problems to official
   support (never touches credentials) and program money policy (refunds, pausing) to Mike's team.
   Trigger on: "which plan do I need", "Pro or Max", "what does Claude cost", "I hit my usage limit",
   "which model should I use", "seats", "is my data private", "does Anthropic train on my data",
@@ -49,13 +49,15 @@ money policies: `${CLAUDE_PLUGIN_ROOT}/shared/cohort-kb.md`.
 - **Models:** doctrine §5 — default is right; specifics fetched when asked.
 - **All-in stack cost (the honest monthly answer):** the kb's money section verbatim —
   - **Required:** a paid Claude plan. That's it.
-  - **Optional, feature-tied, bring-your-own:** Riverside (the editor, Week 3) · ManyChat (the DM
+  - **Optional, feature-tied, bring-your-own:** Riverside (the editor, Week 4) · ManyChat (the DM
     sequences — free plan first, Pro only if their DM volume pops) · Metricool (auto-publishing;
     manual posting is free) · a CRM (GoHighLevel or Follow Up Boss if they have one; Google
     Sheets is free) · optionally Notion · a booking page for the partner call (often included in
     their CRM or brokerage tools).
-  - **Never a cost in this OS:** Higgsfield (parked), Descript (never — the editor is Riverside),
+  - **Never a cost in this OS:** Descript (never — the editor is Riverside),
     Netlify / Zapier (realtor-cohort build-alongs, not here).
+  - **Higgsfield:** the member's own account, from Week 5, for YouTube thumbnails (the YouTube plugin writes the
+    sheet; nothing here connects to it). Its price is Higgsfield's own site's — never quoted from memory.
   - Third-party prices: the tool's own site is the authority — never quoted from memory. Optional
     tools are doors that open when needed, never requirements to keep up.
 - **Seats / assistants / "my partner bought an extra seat":** account sharing vs proper

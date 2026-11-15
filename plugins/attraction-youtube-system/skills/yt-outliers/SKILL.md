@@ -64,7 +64,12 @@ that channel's own typical video. Small absolute numbers are not proven demand. 
 
 ### Steps
 1. Channels: 3–7 relevant ones (the sources above). Public reads only — the member never handles keys,
-   credentials, or connections.
+   credentials, or connections. **Live numbers only when they are already there:** when
+   `identity/channel.md → Live data: active …` is on file, the tools are in this session and the member is in the
+   chat, read the real view and subscriber counts through
+   `${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md` (recipes 2 and 3, read-only) — the three-part test then
+   runs on exact numbers, and the counts drop the `~`. Not active → the public read, silently: never a sign-in, a
+   connection check or an ask here; at most one closing line naming *"connect my YouTube numbers"*.
 2. Scan recent uploads against the three-part test (approximate counts, as seen, dated).
 3. For each true outlier, the **pattern read**: `link · channel · ~views (as seen) · date seen · the title shape
    (which of the seven formulas it resembles) · the hook move · the structure · where the CTA sits · the thumbnail

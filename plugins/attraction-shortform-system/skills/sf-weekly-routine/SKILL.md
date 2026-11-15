@@ -57,8 +57,9 @@ Open only:
 - `identity/content-pillars.md` — the pillars and their angles (the Game Plan writes it inside setup; if
   missing, use the defaults below and say which week fills it)
 - `memory/content-calendar.md` — the Game Plan's rows dated this week (the week's posts — three at the default cadence; their Status says what
-  the Monday Week Plan already drafted; a row that is one of the six kit posts is a designed graphic — "post it") and
-  the newest `## Week briefs` block
+  the Monday Week Plan already drafted; a row that is one of the six kit posts is a designed graphic — "post it"; a
+  row whose `Carries` cell begins `clip:` is a Reel the Monday plan drafted from one of the member's videos — one of
+  the week's Reels, never an extra: "film it from the script") and the newest `## Week briefs` block
 - `identity/goals.md` — the content commitment they set in Week 1 (never ask for a number that is here)
 - `identity/operations.md` — working hours, the booking link, when they are usually free to film
 - `identity/publishing.md` — the posting tool and connected platforms, `Cadence:`, `Weekly mix:`, `Batch day(s):`,

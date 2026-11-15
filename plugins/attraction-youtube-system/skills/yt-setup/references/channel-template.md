@@ -7,8 +7,15 @@ Situation · Future · Interview · Model); the OS **pillars** (Authority · Per
 Personality) live in `identity/content-pillars.md` and are never restated here.
 
 **The `Setup:` line** is the setup journey's resume stamp (`yt-setup` Step 0): `kit done` → `plan done` →
-`board done` → `workflows done` → `complete YYYY-MM-DD`. A member who leaves mid-journey resumes at the next
-step; a `complete` stamp means the READY BRIEF, never the journey again. Written only by `yt-setup`.
+`board done` → `workflows done` → `complete YYYY-MM-DD` (`kit done` = the Channel Page is saved; the stamp's word is
+internal and never shown). A member who leaves mid-journey resumes at the next step; a `complete` stamp means the
+READY BRIEF, never the journey again — unless the member says "start over", which writes `not started` and runs
+the whole journey again, everything updated in place. Written only by `yt-setup`.
+
+**The `Board:` line** exists only for a member with no `identity/publishing.md` (they skipped Week 4): the content
+board's link then has no other home, so `yt-board` keeps it here. Every reader looks at `publishing.md → Content
+board:` first and at this line second; once `publishing.md` exists, the link is written there too and this line
+stays as it is.
 
 **The CTA line block** carries the two spoken CTAs exactly as the Week 3 Kit's chapter 7 CALLS TO ACTION table
 wrote them (`exports/week3-kit-*.txt`, the "Spoken, in the video" row) — the resource line names the live guide;
@@ -24,9 +31,10 @@ member's time per partner.
 *Last updated: YYYY-MM-DD*
 
 ## Channel
-- URL: [https://youtube.com/@handle]  ·  Handle: [@handle]  ·  Status: [active / empty / none → created YYYY-MM-DD]
+- URL: [https://youtube.com/@handle — `to add` while the channel is not created yet]  ·  Handle: [@handle — `to add` until the member pastes it]  ·  Status: [active / empty / none → created YYYY-MM-DD]
 - Mode at setup: [new / existing]  ·  Live data: [not connected / active YYYY-MM-DD / declined YYYY-MM-DD]
-- Setup: [kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
+- Setup: [not started (a start-over only) / kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
+- Board: [the content board's link — this line only when identity/publishing.md does not exist; otherwise the link lives on publishing.md → Content board:]
 
 ## Positioning (from the Brain — restated as the channel's one line)
 - For: [primary avatar, in their words]  ·  Known for: [niche / known-for]
@@ -51,7 +59,7 @@ member's time per partner.
 - Category: [Education]  ·  Language: [ ]
 
 ## Channel page
-- Kit delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: …]  ·  Banner: [brief handed to the brand project in Claude Design YYYY-MM-DD / live]  ·  Bio: [the kit's chapter 6 YouTube bio — stood YYYY-MM-DD / refreshed YYYY-MM-DD]
+- Channel Page delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: the pieces not yet in]  ·  Banner: [made in Week 3 — banner-youtube.png in the Brand folder / comes with the brand kit — not made yet / live]  ·  Bio: [the kit's chapter 6 YouTube bio — stood YYYY-MM-DD / refreshed YYYY-MM-DD]
 - Trailer: [the named video / "make my attraction video: my channel trailer" pending]
 
 ## Baseline (as of YYYY-MM-DD)
@@ -68,8 +76,8 @@ member's time per partner.
 ```
 
 Rules: the Brain's `how-we-speak.md` applies — the member never sees this file's name; they hear "your channel
-is saved to your Brain." A `Status: none` channel is normal, not a defect — the kit builds first, the channel
-is created when they paste. The `Cadence:` anchor is the YouTube cadence every skill reads (one a week is the
+is saved to your Brain." A `Status: none` channel is normal, not a defect — the Channel Page builds first, the
+member is told how to create the channel in one stated line, and the handle is added when they paste it. The `Cadence:` anchor is the YouTube cadence every skill reads (one a week is the
 default for the first month; two a week the step-up the Monthly Channel Review proposes after a month at one, or
 sooner when `identity/goals.md`'s hours clearly carry it or the member asks); `identity/content-pillars.md`'s
 cadence line is the short-form cadence and is never read as this one. The Brain template ships the same shape as

@@ -64,9 +64,11 @@ rest at the numbered line that uses them:
    instructions).
 5. **Who is ready to interview** (open now): `memory/interview-pipeline.md` at Stage `Candidate` / `Invited` /
    `Booked` — the interview slot in the batch names a real guest or says "invite [guest]".
-6. **The board** (open `identity/publishing.md` now): a URL → what is due, what is stuck (a card the Monday
+6. **The board** (open the board line now — `identity/publishing.md → Content board:`; that file absent →
+   `identity/channel.md → Board:`): a URL → what is due, what is stuck (a card the Monday
    Kickoff drafted to `Scripted` is this week's video — finishing it leads the batch), cards the member added by
-   hand are their ideas — offer to produce them; top up the next 30 days
+   hand are their ideas — they lead the batch, each with the phrase that makes it ("make my attraction video:
+   [title]"), stated, never offered; top up the next 30 days
    (`${CLAUDE_PLUGIN_ROOT}/skills/yt-board/references/thirty-day-mapping.md`, the rolling rule).
 7. **Fresh signals, budgeted (≤8 searches) — research is third:** `yt-research`'s method (web search and page
    fetch; autocomplete only as the member pastes it or as a `youtube [phrase]` search; the top videos; "people also
@@ -102,7 +104,8 @@ Run `references/idea-method.md` (the rubric scored silently, packaging-first) wi
 
 ## Step 4 — Present a tight list (never a wall)
 First, `identity/compliance.md` — the first line, `Status:`. An idea list is private, so the batch builds in any
-state; **unset** → one plain line at the end that titles can't ship until the compliance basics are set.
+state and nothing stops; **unset** → one line at the end, once: *"One thing before a title goes out: say 'paste my
+compliance link' — two minutes — so your brokerage's wording is on it."*
 For EACH idea, two lines only:
 - **The title** — with its bucket in brackets after it: `[Situation]`, `[Interview · guest]`, `[Model]`
 - One line: the **data-backed why** + **who it's for** (the avatar, in plain words). Truthful; no invented numbers.

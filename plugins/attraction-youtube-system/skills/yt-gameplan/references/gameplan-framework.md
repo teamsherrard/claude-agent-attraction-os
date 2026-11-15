@@ -17,47 +17,59 @@ step-up).
 ---
 
 ## The document structure (assemble in this order — the skeleton is in `shared/doc-format.md`)
+**The document is for the member** (the owner, 2026-11-14 — the Short-Form Game Plan's treatment; only the document
+changed, the Brain's files keep their locked shapes). One member word for a content lane — "lane": five lanes, the
+three niche ones always "your three topics". None of the system's words in the document: no "bucket", "SIGNAL",
+"FOR · PAIN · SIGNAL", "cycle position", "anchors", "unresearched", "starter", "rung", "avatar". Dates in words
+("Mon, Dec 7"). The codes stay in the Brain: each title's working note is kept in the TITLE NOTES block of
+`exports/youtube-game-plan-YYYY-MM-DD.txt`, never printed.
 1. **Title + stamp** — `YOUTUBE GAME PLAN — [Name]` · known for · attracting · prepared · the stamp.
 2. **Read this first** — four parts: where the channel is and the verdict (active-but-not-attracting: *"strong
    output, no agents — the problem isn't effort, it's that nobody can tell who this channel is for"*; fresh:
    *"clean slate, clear plan — most leaders never get this far"*) · the insight · the plan in one line, with the
    cadence (*"one video a week for the first month; two a week is the step-up your monthly review proposes once a
-   month at one has held"*) · the 90-day target in conversations and calls. Then **your next 7 days**: the first
-   video (exact title), the first interview to invite, the one channel fix.
-3. **Channel audit** — scaled (below). Positioning read included.
-4. **Your positioning** — for whom · known for · the one line ("[Name] helps [avatar] [outcome] through
-   [mechanism]" — from `offer.md`'s UVP when Week 2 built it, with the framework's one-line version (`## The framework` → One
-   line) as hook material; otherwise built from `strategy.md` + `avatars.md`
-   and labeled "draft until Week 2") · **the two CTAs** — the guide (the kit's spoken resource line; the funnel
-   URL on description line 2 and in the pinned comment) and the call (the kit's spoken call line in the law's shape
-   for the register; the booking link on description line 1), both verbatim from the Week 3 Kit's chapter 7 CALLS
-   TO ACTION table · **the WHY, three statements in the member's voice** — why I'm building this ·
-   what's missing for the agents I attract and how I bridge it (never a word against another team or brokerage —
-   `03-model-positioning/13`) · why me, for a new agent and for a seasoned one — read from `journey.md` (`## The
-   WHY`, `## The leader moment`, `## Why join me`), `positioning.md`, `leadership.md`; drafted and labeled where the
-   Brain has not written them; never a question box (`01-foundation-mindset/10`).
-5. **The three niche lanes** — the Problem · Situation · Future buckets, each named, each for a named avatar and
-   pain, each with a playlist and a one-line "why it builds authority." (All three carry the Authority pillar in
-   the content log; interviews Proof; model Perspective — the Brain's five pillars, `content-pillars.md`.)
-6. **The interview lane** — the playlist, 6–10 candidates with hook-and-transformation titles, source, sequenced
-   by relatability.
-7. **The model lane** — the playlist, the answer-what-they-research list, the comparison warning.
-8. **The title bank** — ~50 titles in five buckets with `FOR · PAIN · SIGNAL` notes (seeded from
-   `starter-title-bank.md` — SIGNAL `starter` — only when the member has no titles of their own; their captured
-   ideas lead regardless).
-9. **Your goal → the plan** — the math (below).
-10. **The video structure** — doctrine §8 with the member's two CTAs in their places (`channel.md → ## The CTA
-    line`, the kit's wording): the hook · the guide inside minute one · value · the call a third to halfway in, in
-    the law's shape · payoff · the next video.
-11. **The first 90 days** — the cycle calendar at the cadence, one video per row; the first 30 days marked (the
-    board's window); the step-up checkpoint at the end of month one.
-12. **Days 91–180** — the direction (double down · compounding assets · the machine).
-13. **The scoreboard** — leading and lagging from `goals.md`, CTR after month one, compliance status.
-14. **Sources** — what was searched and when: every query and page read, dated; the outlier channels read; the
-    member's own signal used; budget used of 18 (≤10 research + ≤8 outlier scan); `unresearched` and `starter`
-    titles counted; demo → "nothing searched". The plan never hides its research.
-15. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
-    chapter twenty, `08-youtube/92`) and the stamp.
+   month at one has held"*) · the 90-day target in conversations and calls. Plus, only when true, one plain line
+   each: some titles are not yet checked against search · the title list starts from the starting list · the two
+   calls to action come from the offer until the kit is rebuilt.
+3. **YOUR NEXT 7 DAYS** — its own block, right after Read this first: exactly three numbered lines — the first
+   video by exact title (with its recording day, in words) · the first agent to invite for an interview · the one
+   channel fix. Never a fourth line.
+4. **Channel audit** — scaled (below). The first-impression read included.
+5. **Your positioning** — for whom · known for · the one line ("[Name] helps [the type of agent] [outcome] through
+   [how]" — from `offer.md`'s UVP when Week 2 built it, with the framework's one-line version (`## The framework` →
+   One line) as hook material; otherwise built from `strategy.md` + `avatars.md` and labeled "draft until Week 2")
+   · **the two calls to action** — the guide (the kit's spoken resource line; the funnel URL on description line 2
+   and in the pinned comment) and the call (the kit's spoken call line in the law's shape for the register; the
+   booking link on description line 1), both verbatim from the Week 3 Kit's chapter 7 CALLS TO ACTION table · **the
+   WHY, three statements in the member's voice** — why I'm building this · what's missing for the agents I attract
+   and how I bridge it (never a word against another team or brokerage — `03-model-positioning/13`) · why me, for a
+   new agent and for a seasoned one — read from `journey.md` (`## The WHY`, `## The leader moment`, `## Why join
+   me`), `positioning.md`, `leadership.md`; drafted and labeled where the Brain has not written them; never a
+   question box (`01-foundation-mindset/10`).
+6. **Your three topics** — the three niche lanes (Problem · Situation · Future), each named, each for a named type
+   of agent and pain, each with a playlist and a one-line "why it builds trust." (All three carry the Authority
+   pillar in the content log; interviews Proof; model Perspective — the Brain's five pillars, `content-pillars.md`.)
+7. **Your interview lane** — the playlist, 6–10 guests in a plain table (guest · their story as the title · where
+   they come from), in the order to invite them.
+8. **Your model lane** — the playlist, the answer-what-they-research list, the comparison warning.
+9. **Your goal, in four lines** — the math (below), written as four plain lines.
+10. **The video structure** — doctrine §8 with the member's two calls to action in their places (`channel.md →
+    ## The CTA line`, the kit's wording): the opening · the guide inside minute one · the teaching · the call a third
+    to halfway in, in the law's shape · the payoff · the next video.
+11. **Your cadence** — one a week for the first month; two the step-up ("change my YouTube cadence").
+12. **Your first 90 days** — one plain table (Week of · Video · Kind · Guest), the first 30 days marked (the
+    board's window), the order of the eight in one line, the step-up checkpoint at the end of month one.
+13. **Days 91–180** — the direction (double down · compounding assets · the machine).
+14. **The scoreboard** — what they do and what follows, from `goals.md`; click-through rate after month one;
+    compliance status.
+15. **What I checked, and when** — every query and page read, dated in words; the channels read; the member's own
+    signal used; searches run of 18 (≤10 research + ≤8 outlier scan); the titles not yet checked against search,
+    counted; demo → "nothing searched". The plan never hides its research.
+16. **More titles when you need them** — LAST: the rest of the ~50 titles, grouped by lane, plain titles, nothing
+    beside them (seeded from `starter-title-bank.md` only when the member has no titles of their own; their captured
+    ideas lead regardless).
+17. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
+    chapter twenty, `08-youtube/92`) and the stamp. Then, **in the export only**, the TITLE NOTES block.
 
 ---
 
@@ -107,7 +119,7 @@ first interview is the machine's first deposit. The guest's outro CTA and the in
 promise the member's time per partner. Never a fabricated guest, result, or quote.
 
 ## The model lane (doctrine §6)
-Build from `brokerage-model.md` (the mechanics as the member's materials state them) and `shared/brokerage-models.md`
+Build from `brokerage-model.md` (the mechanics as the member's materials state them) and the brokerage-models reference
 in the Brain plugin; dated. Titles: "[Model] explained ([year])" · "Should you join [brokerage]? Who it's for"
 · "How [rev share / co-sponsorship / the cap] actually works — the concept" · "Before choosing a sponsor at
 [brokerage], ask these N questions" · "Do NOT join [brokerage] if…" · "[N] myths about [brokerage]" · fit by
@@ -118,8 +130,9 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 - **Formulas by number** (doctrine §9 / `shared/idea-templates.md`); one promise; ≤70 characters; the viewer
   named ("real estate agent", the avatar type) when the search needs it.
 - **Per bucket:** Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 ≈ 50.
-- **Each title's note:** `FOR [avatar] · PAIN [one of five] · SIGNAL [demand / news (dated) / asked / proven / gap /
-  unresearched / starter]` (the bucket heading already fixes the pillar the content-log row will carry; `unresearched` =
+- **Each title's note — the Brain's copy only, never printed in the document** (one line per title in the TITLE
+  NOTES block of the export): `[lane] · title · for [the type of agent] · [pain, one of five] · [demand / news
+  (dated) / asked / proven / gap / unresearched / starter]` (the lane fixes the pillar the content-log row will carry; `unresearched` =
   built from the Brain because research returned nothing usable — the plan says so once and schedules the re-run;
   `starter` = seeded from `starter-title-bank.md`, the agency's four-month arc — agency-curated, not researched for
   this member; the research pass upgrades it to `demand` when a search confirms it).
@@ -137,7 +150,7 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
   a brokerage, sponsor, or person; former brokerage unnamed in Why I Switched; no protected-characteristic
   targeting; "#1 / fastest-growing" only with a dated source; model titles carry the year; no title or note promises
   the member's time per partner; a CTA in a title's note is in the law's shape.
-- **Thumbnail text** offered alongside a title: 3–5 words that differ from the title (`/97`).
+- **Thumbnail text** given alongside a title: 3–5 words that differ from the title (`/97`).
 
 ## The goal-math (conversations and calls — never income)
 ```
@@ -148,6 +161,10 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
     rising across the 180 days as the library compounds)
   ÷ videos in 90 days at their cadence (≈ 13 at one a week · ≈ 26 at two)   → conversations PER VIDEO
 ```
+- **In the document: four plain lines, never the formula** — (1) the 90-day goal in calls held · (2) the calls to
+  book and how many of ten happen · (3) the conversations to start and how many it takes for one call · (4)
+  YouTube's part this quarter and what that means a video — each with the member's own numbers, and every number
+  the member did not state labelled **"(an assumption — change it any time)"**.
 - Use the Brain's numbers; label every assumption the member did not state. **No target in the Brain at all**
   (`goals.md` empty, no scorecard Targets) → never a question: the math runs on a labeled default target, marked
   `default — not your number yet`, and one line says "set my attraction goals" locks the member's own. If the
@@ -161,19 +178,29 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 
 ## The 90-day calendar (doctrine §7, §13 — the cadence default of 2026-11-14)
 - **At the member's cadence from the anchor** — **one a week is the default for the first month** (the owner,
-  2026-11-14: too much at once overwhelms a working leader): about 13 rows in 90 days — one full cycle in eight
-  weeks, then the start of the second. **Two a week** (Mike's recommendation, `/94`) is the step-up the Monthly
+  2026-11-14: too much at once overwhelms a working leader): about 13 rows in 90 days — once round the eight in
+  eight weeks, then the start of the second. **Two a week** (Mike's recommendation, `/94`) is the step-up the Monthly
   Channel Review proposes once a month at one has held — or sooner when `goals.md`'s hours clearly carry it or
-  the member asks: about 26 rows, a cycle every four weeks. Interviews may be batched (two recorded in one sitting,
-  published on the plan).
-- **Cycle order at one a week — the first four rows: niche · interview · niche · model**; the second four:
-  interview · niche · interview · interview (the two interviews closing the cycle recorded in one sitting if the
-  member likes). At two a week the same sequence, two rows per week, niche first within the week. Why I Switched
-  early in cycle one when `journey.md` holds the story (Mike's exception); the channel trailer in week one for a new
-  channel.
-- One video per row: `Week · Video · exact title · bucket (· guest)`; the Brain's rows carry the dates and the
-  System IDs (`brain-contract.md`'s locked shape).
-- **The first 30 days are marked** — the rows the board cards: four or five at one a week, eight or nine at two.
+  the member asks ("change my YouTube cadence"): about 26 rows, the eight every four weeks. Interviews may be
+  batched (two recorded in one sitting, published on the plan).
+- **The first-date rule (the owner's review, 2026-11-14 — a card never says "record today"):** video 1's Recording
+  date is the member's next filming day at least three days after the day the plan is built (`identity/operations.md
+  → Filming window:` or the batch day; none on file → the Saturday after next, 8 to 14 days out); its Publish date
+  is two days after that; every later row follows from it (one a week: seven days after the row before; two a
+  week: two rows a week on that filming day, out two and five days later). Week 1 is the week of video 1's
+  Recording date. A `Booked` guest's own date wins for that row.
+- **The locked order at one a week — the same in every file:** **niche · interview · niche · model · interview ·
+  niche · interview · interview** (the two interviews closing the eight recorded in one sitting if the member
+  likes). At two a week the same sequence, two rows per week, niche first within the week. Why I Switched takes an
+  early niche slot when `journey.md` holds the story (Mike's exception).
+- **A new channel's trailer** is week one's first row — a row and a card like any other, 60 to 90 seconds, not one
+  of the eight: at one a week it is week one's row and the eight start the week after; at two a week it takes week
+  one's first slot. Setup's first-video line names it.
+- **In the document, one plain table:** `Week of` (the Monday of the week, in words — "Mon, Dec 7") · `Video` (the
+  exact title) · `Kind` (Niche / Interview / Model; Trailer for a new channel's first row) · `Guest`. The Brain's
+  rows carry the real dates, the lane and the System IDs (`brain-contract.md`'s locked shape) — never the table.
+- **The first 30 days are marked** — the rows the board cards: four or five at one a week, eight or nine at two
+  (right after setup often three or four, because the first video is at least three days out).
   **The step-up checkpoint** sits at the end of month one, in one line.
 - Seeded from the starter bank: the bank's order fills the slots (Month 1 niche titles first, M3-01 the first model
   slot, M1-I1 the first interview); the month tags are arc positions — the ratio never bends to them.

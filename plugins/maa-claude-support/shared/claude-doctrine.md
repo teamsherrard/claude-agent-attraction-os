@@ -153,8 +153,9 @@ Knowing the edges prevents "it's broken" reports that are actually "it's not sup
   skills never render logos, offer stacks, or the Value Vault directly (that's the Design room's job).
 - **The editor directs THEIR Riverside account** — Claude directs, Riverside renders, the member
   approves. Same bring-your-own pattern for Metricool (publishing), ManyChat (the DM sequences),
-  their CRM (GoHighLevel / Follow Up Boss / Google Sheets). Nothing in this OS uses Descript or
-  Higgsfield.
+  their CRM (GoHighLevel / Follow Up Boss / Google Sheets). Nothing in this OS uses Descript. Higgsfield is
+  the member's own account for YouTube thumbnails (Week 5): the YouTube plugin writes the sheet, the member makes
+  the picture there, and nothing in this OS connects to it.
 - **No income promises, ever.** Rev-share numbers are illustrative scenarios, labelled as such; no
   skill will tell a member (or an agent they're talking to) what they'll earn. Stats, quotes,
   testimonials, production numbers are never invented — if it can't be verified, the skill says so.

@@ -14,23 +14,23 @@ verifies they match). **Beside every document, its text goes to `~/attraction-br
 ```
 [Organization] OS/
 ├── 01 · AI Brain/                   ← the Brain (`_engine/`, incl. exports/) and the Week 3 Kit — READ here, pushed through attraction-brain-sync
-├── 02 · Brand/                      ← the banner (built in the member's brand project in Claude Design by the brand-kit skill) lands here, by the member
+├── 02 · Brand/                      ← READ here: the YouTube banner the Week 3 brand kit already made (`banner-youtube.png`) — the Channel Page points the member to it; this plugin writes nothing here
 ├── 03 · Content/
 │   ├── Long-Form/                   ← THIS PLUGIN'S HOME
 │   │   ├── 🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD      (yt-gameplan; dated; newest is current; text → exports/youtube-game-plan-YYYY-MM-DD.txt)
-│   │   ├── Channel Page Kit — YYYY-MM-DD                   (yt-setup; text → exports/channel-kit-YYYY-MM-DD.txt)
+│   │   ├── Channel Page — [Name] — YYYY-MM-DD              (yt-setup; text → exports/channel-kit-YYYY-MM-DD.txt — the export's older file name is kept)
 │   │   ├── YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD      (yt-analytics; dated; text → exports/youtube-read-YYYY-MM-DD.txt)
 │   │   ├── Monthly Channel Review — [Month YYYY] — YYYY-MM-DD (yt-triggers' scheduled run; dated; text → exports/youtube-review-YYYY-MM-DD.txt)
 │   │   └── YYYY-MM-DD · [Video Title]/                     (created when the video is drafted or made, never before)
-│   │         ├── Kickoff Brief — [title] — YYYY-MM-DD      (the Monday Kickoff — the brief, the script start or the interview guide, the thumbnail brief, the SEO start; text → exports/youtube-kickoff-YYYY-MM-DD.txt)
+│   │         ├── Kickoff Brief — [title] — YYYY-MM-DD      (the Monday Kickoff — the brief, the script start or the interview guide, the thumbnail sheet, the title-and-description start; the Kickoff's NOTE → exports/youtube-kickoff-YYYY-MM-DD.txt)
 │   │         ├── Script                                    (yt-script)
 │   │         ├── SEO Package — [title] — YYYY-MM-DD        (yt-seo)
-│   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail — or the Monday Kickoff, when it drafted the week's video)
+│   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail — the thumbnail sheet for Higgsfield; or the Monday Kickoff, when it drafted the week's video)
 │   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when the guide exists, built in Week 2)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
 │   │         ├── Model Breakdown — [title] — YYYY-MM-DD    (yt-model-breakdown — model videos only)
 │   │         ├── Interview Prep — [guest] — YYYY-MM-DD     (yt-interview — interviews only)
-│   │         └── the three thumbnails (1280×720)           (built in Claude Design from the brief; the member pushes or drops them here)
+│   │         └── the three thumbnails (1280×720)           (made by the member in Higgsfield from the thumbnail sheet; the member drops them here and says "my thumbnail is done")
 │   ├── Graphics/                    ← carousels, designed posts, proof cards (the Design Studio) — never a video's thumbnails
 │   └── Guides/
 │         └── Starter Resource — YYYY-MM-DD   (yt-leads — ONCE, in Week 5, the fallback while no Week 2 guide exists; a loose dated file beside the Lead Magnet plugin's campaign folders (Week 2 onward), never inside one)
@@ -41,7 +41,7 @@ chat-driven and reads state live (the Brain, the content log, the channel, the b
 
 ## Naming (exact — predictable, sortable)
 - Game Plan: `🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD` (demo: `… — DEMO — YYYY-MM-DD`)
-- Channel kit: `Channel Page Kit — YYYY-MM-DD`
+- Channel page: `Channel Page — [Name] — YYYY-MM-DD` (to the member "your Channel Page" — never a kit; its export keeps the file name `channel-kit-YYYY-MM-DD.txt`)
 - Video folder: `YYYY-MM-DD · [Video Title]` (date = the day the Kickoff Brief or the script was made, whichever came first; Title Case; no emojis or slashes)
 - Deep dive: `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`
 - Monthly review (the scheduled run): `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`
@@ -64,7 +64,8 @@ Dates are always `YYYY-MM-DD` so folders sort. Same name, same spot, every time.
   status and dated performance blocks → `identity/channel.md` (`yt-analytics`); the setup journey's resume stamp
   → `identity/channel.md`'s `Setup:` line
 - Interview guests and status → `memory/interview-pipeline.md`
-- Filming dates → the content board if they have one, or their real calendar — never a spreadsheet
+- Filming dates → the plan's dated rows (the first video at least three days after the plan is built — `yt-gameplan`'s first-date rule), mirrored on the content board if they have one, or their real calendar — never a spreadsheet
+- The board's link → `identity/publishing.md → Content board:`; that file absent (the member skipped Week 4) → `identity/channel.md → Board:` — every reader looks in that order
 - The scheduled workflows' task ids and the email answer → `config.md`'s `## YouTube (Week 5)` block only (an older
   `## YouTube (Week 4)` heading is the same block, renamed on the next write)
 - The two CTAs → the Week 3 Kit's chapter 7 CALLS TO ACTION table (`exports/week3-kit-*.txt`), mirrored into

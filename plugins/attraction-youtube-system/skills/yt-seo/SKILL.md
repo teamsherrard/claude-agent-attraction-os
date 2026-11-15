@@ -8,7 +8,7 @@ description: >
   chapters, a handful of specific tags, hashtags, the pinned comment (the guide's link + comment
   GUIDE), playlist and end-screen notes — in the member's voice; every CTA line is the Week 3 Kit's.
   Keywords from the attraction SEO knowledge base, never guessed volumes. Saves the SEO Package;
-  compliance gate before anything public. Trigger on: "SEO for my attraction video", "description for
+  compliance read before anything public. Trigger on: "SEO for my attraction video", "description for
   my agent video", "SEO package for my agent interview", "SEO for my model breakdown for agents",
   "write my attraction description", "chapters and pinned comment for my agent video", "optimize my
   attraction video".
@@ -58,7 +58,8 @@ model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-yo
   the keywords — `identity/publishing.md` → the `Keyword:` line first (its single source: `GUIDE · [the offer's
   word]`), `identity/content-pillars.md`'s CTA line second (it mirrors it), nothing third (no `Keyword:` line yet
   → the short-form system sets it in its own setup, Week 4; GUIDE rides in `## Current magnet` meanwhile) ·
-  `identity/profile.md` (handles) · `identity/profiles.md → ## YouTube` (the one-line bio the summary may close on).
+  `identity/profile.md` and `identity/operations.md` (the contact line — the handles, a phone or an email, only
+  what is on file) · `identity/profiles.md → ## YouTube` (the one-line bio the summary may close on).
 - **Live demand check, budgeted (≤5 searches):** `yt-research`'s method — web search and page fetch; YouTube
   autocomplete only as the member pastes it or as a `youtube [phrase]` search — for the topic in the agent's
   words ("[brokerage] explained", "should I switch brokerages", "questions to ask a sponsor"); "people also ask"
@@ -71,13 +72,15 @@ model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-yo
    characters, keyword in the first 30. Voice-matched; no clickbait if `voice.md` forbids it. The cardinal
    rules apply to titles: never a negative framing of another brokerage or person.
 2. **Description** — open the Step 2 files now (the guide, the register, the kit's lines, the keywords, the
-   handles; `compliance.md`'s disclosure fields for the block at the end).
+   contact line; `compliance.md`'s disclosure fields for line 3 and for the block at the end).
    - **First three lines = the two CTAs, warm and inviting (`98`):** **line 1 the call** — the kit's call line in
      the law's shape, the method named, the booking link at its end (join register: *"If you want my help running
      [the method] — the lessons, the templates, the community — partner with me and it's free. Book here:
      [link]"*; open register: *"I'll walk you through it, free, no strings: [link]"*); **line 2 the guide** —
      *"Free guide — [the guide's title]: [funnel URL] (or comment GUIDE and I'll send it)"* (the Starter Resource's
-     download link only as the fallback); **line 3 the member's handles.** Above the fold, before any summary.
+     download link only as the fallback); **line 3 the compliance and contact line** — the brokerage name and
+     license display as `compliance.md` requires, then the contact line (the handles, a phone or an email — only
+     what is on file); the one order in every file. Above the fold, before any summary.
      Never the brokerage as the reason, never a compensation word, never a line that promises the member's time.
    - A 150–250 word summary in the member's voice with the video's keyword set used naturally (primary 2–3×),
      speaking to the avatar's situation, never "real estate agents" in general; it may close on the YouTube bio's
@@ -94,8 +97,11 @@ model · the bingeworthy channel) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-yo
 5. **Pinned comment** — the guide's funnel URL + "comment GUIDE and I'll send it" (the kit's wording), then one
    real question for the viewer to answer (comments are a ranking signal and the start of a conversation). For
    interviews: a line of thanks to the guest by name. Never the brokerage as the reason.
-6. **Watch-time extras** — the playlist (by lane; the Explained playlist first on the channel page — `99`),
-   end screen = the next logical video + subscribe, one card at the point the script points elsewhere; the end
+6. **Watch-time extras** — the playlist (by lane, **named by its exact name on the channel** — the lane's row in
+   `identity/channel.md`; the Explained playlist first on the channel page — `99`),
+   end screen = the next logical video + subscribe (**a first video: the playlist alone**), one card at the point
+   the script points elsewhere — **these two lines are what steps 4 and 5 of the card's publish checklist paste, so
+   they are never left vague or left out**; the end
    card's text is the kit's (the guide's title · Comment GUIDE · the stamp, or the call headline · the booking
    line · the stamp).
 7. **Why these (for the member)** — three plain sentences: the keyword the title targets and the evidence,
@@ -110,15 +116,19 @@ When they have the board, the package goes into the card's 🔍 SEO PACKAGE sect
 card; replaced in place, never stacked — a Kickoff start is completed, not duplicated). Push via
 `attraction-brain-sync` (write → push → verify; a failed push is said out loud, retried once, never silent).
 
-## Compliance gate (3-state, before the package leaves the chat)
-`identity/compliance.md`: `unset` → the package stays in chat as a draft, with a plain line that the
-compliance rules are not set yet; `set` → apply, remind once to confirm; `confirmed` → apply. Checks: no
+## Compliance (3-state — never a stop, never a detour)
+`identity/compliance.md`'s first line, `Status:` — **`unset`** → the package is still written, delivered and
+saved, **stamped "hold until your compliance basics are set"** (the line under its title; line 3 and the
+disclosure block keep their place as one bracketed line each, never invented), and ONE line is said at the close:
+*"One thing before this goes on a video: say 'paste my compliance link' — two minutes — so your brokerage's wording
+is on it."* (inside `yt-make-video`, that chat's close says its own one line and this skill stays silent). **`set`**
+→ apply, remind once at the close to confirm; **`confirmed`** → apply. Checks, in every state: no
 income or rev-share earnings claims, no compensation numbers, no "#1 / best / fastest-growing" without a
 dated source, the two cardinal rules in titles and summary, brokerage name + license display, AI-likeness
 disclosure if a clone appears in the video, Meta Employment note if any line becomes an ad, nothing that promises
 the member's time per partner.
 
 ## Hand-off
-Pairs with `yt-thumbnail` (text ≠ title) and `yt-leads` (the resource lines the description carries). After
+Pairs with `yt-thumbnail` (text ≠ title; the thumbnail sheet goes to Higgsfield) and `yt-leads` (the resource lines the description carries). After
 publish → `yt-repurpose` writes the pack; the Reels and the carousel are then the short-form system's by phrase
 (*"script my attraction reels from [title]"*).

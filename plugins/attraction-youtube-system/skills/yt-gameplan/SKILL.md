@@ -4,14 +4,14 @@ description: >
   The flagship of the Agent Attraction YouTube System (Week 5): the YouTube Game Plan for
   attracting agents on Mike's three categories (niche authority · interviews · model) and the
   8-video cycle (3 niche · 1 model · 4 interviews). Reads the kit's calls to action and the offer's
-  content branches first, audits the channel at any size, sets the three niche lanes (Problem ·
-  Situation · Future), the interview lane, the model lane, ~50 titles bucketed, the goal-math in
-  conversations and calls (never income), the cadence (one video a week for the first month, two the
-  step-up), the first 90 days as a dated calendar in the Brain, the 180-day direction — one premium
-  doc. Runs inline inside setup (no question stops) or on demand; demo mode. Triggers on "build my
-  attraction game plan", "my attraction game plan for YouTube", "my attraction channel plan", "my
-  attraction YouTube strategy", "refresh my attraction game plan", "map my attraction channel",
-  "180-day plan for my attraction channel", "change my YouTube cadence".
+  content branches first, audits the channel at any size, sets the three topics, the interview lane,
+  the model lane, ~50 titles by lane, the goal in conversations and calls (never income), the
+  cadence (one video a week for the first month, two the step-up), the first 90 days as a dated
+  calendar in the Brain, the 180-day direction — one member-readable doc. Runs inline inside setup
+  (no question stops) or on demand; demo mode. Triggers on "build my attraction game plan", "my
+  attraction game plan for YouTube", "my attraction channel plan", "my attraction YouTube
+  strategy", "refresh my attraction game plan", "map my attraction channel", "180-day plan for my
+  attraction channel", "change my YouTube cadence".
 ---
 
 # YouTube Game Plan — the flagship document of Week 5
@@ -57,6 +57,29 @@ YouTube page reads it) — nothing else in the Brain. Every write is pushed thro
   phrase ("script my attraction reels"); never a skill id or a
   file path in a line the member reads.
 
+- **The document is for the member; the codes are for the Brain** (the owner, 2026-11-14 — the Short-Form Game
+  Plan's treatment). Only the DOCUMENT changed: the Brain's files keep their locked shapes (`identity/channel.md →
+  ## Game Plan anchors`, the rows of `memory/content-calendar.md → ## Long-form (YouTube)`). In the document: one
+  member word for a content lane — "lane" (five lanes: the three topics, the interview lane, the model lane) — and
+  none of the system's words ("bucket", "SIGNAL", "FOR · PAIN · SIGNAL", "cycle position", "anchors",
+  "unresearched", "starter", "rung", "avatar"); dates in words ("Mon, Dec 7"); **YOUR NEXT 7 DAYS** as its own
+  block right after Read this first, three numbered lines; the 90-day calendar as one plain table (Week of ·
+  Video · Kind · Guest); the goal as four plain lines with every assumed number labelled "(an assumption — change it
+  any time)"; the title list LAST, under **MORE TITLES WHEN YOU NEED THEM**, by lane, plain titles. Each title's
+  working notes live only in the Brain's copy — the TITLE NOTES block of the export
+  (`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` has both shapes).
+- **In every sentence the member hears:** "your eight-video plan" (never "the 3-1-4 cycle"), "your three topics"
+  (never "niche lanes"), "your title and description" (never "SEO"), "your Channel Page" (never a kit).
+- **The first-date rule** (the owner's review, 2026-11-14 — a card never says "record today"). Video 1's Recording
+  date is the member's next filming day that is **at least three days after the day the plan is built**
+  (`identity/operations.md → Filming window:` or the batch day recorded there; none on file → **the Saturday after
+  next** — the second Saturday after the sitting, 8 to 14 days out); its Publish date is two days after that; and
+  **every later row follows from it** — one a week: seven days after the row before; two a week: two rows a week
+  on that filming day (or the window's two days when it names two), out two and five days later. A `Booked`
+  guest's own recording date wins for that row. Week 1 on the plan is the week of video 1's Recording date — never
+  the week of the sitting unless the filming day allows it. A refresh or a cadence change re-dates the un-started
+  rows by the same rule, counted from the day it runs.
+
 **Lazy-load:** `references/gameplan-framework.md` at Step 2 (the backbone). Doctrine sections only when the
 phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phase 5), §9 (Phase 6), §10 (Phase 1's two
 CTAs), §13–§14 (Phases 7–9). `references/starter-title-bank.md` at Phase 6 only, and only when the member has no
@@ -65,15 +88,17 @@ titles of their own (the rule is stated there). Never the whole doctrine up fron
 **Run from setup (`yt-setup` Step 6 — the journey's second step).** The member has just heard *"now I'm going
 to build your YouTube Game Plan"*; the plan runs straight through with **no question stops**: the cadence is
 stated, not asked (Phase 2 — one video a week for the first month, two the step-up); goals at `seeds` are used
-and labeled, never asked for (Phase 7); the board is not offered (Phase 9 step 6 — setup's next step adds the
-YouTube tab and maps the next 30 days); the closing hand-off is replaced by handing back to setup (Phase 9 step
-7). The research line (Phase 3) is still said once — it is a progress line, not a question. On demand, every stop
-below behaves as written.
+and labeled, never asked for (Phase 7); the board step is skipped (Phase 9 step 6 — setup's next step adds the
+YouTube tab and maps the next 30 days); **no chat summary of its own** (Phase 9 step 3 — setup hands the plan over
+in two lines pointing at the document: no topic list, no title list, no calendar, no goal numbers in the chat);
+the closing hand-off is replaced by handing back to setup (Phase 9 step 7); compliance `unset` is not mentioned
+here (setup's close says the one line). The research line (Phase 3) is still said once — setup says it with its
+announce line; it is a progress line, not a question. On demand, every stop below behaves as written.
 
 **"Change my YouTube cadence" (on demand — the one phrase that changes the pace; never the whole plan again).**
 The member's own words set the pace (one a week ↔ two a week — nothing is asked). No audit, no research, no new
 titles: the lanes and the bank stand. Rewrite the cadence line and re-date the un-started rows of the 90-day
-calendar at the new pace, then run Phase 9 as a refresh — the plan re-saved dated with its text in `exports/`,
+calendar at the new pace (the first-date rule, counted from today), then run Phase 9 as a refresh — the plan re-saved dated with its text in `exports/`,
 the `Cadence:` anchor with today's date and the `Step-up:` line (step 5), the Brain's calendar (step 5b —
 `Scripted` and later rows never move), the board by the rolling rule (step 6), the push — and say in one line
 what moved.
@@ -94,13 +119,16 @@ TO ACTION table) · `identity/profile.md` · `strategy.md` · `offer.md` · `jou
 Phase 3 → `memory/objections.md` · `memory/ideas.md` · `identity/prospect-intel.md` · `identity/voice.md` ·
 Phase 4 → `memory/organization.md` · `memory/top-50.md` · `identity/proof.md` · `memory/interview-pipeline.md` ·
 Phase 5 → `identity/brokerage-model.md` · `memory/intel.md` · Phase 6 → `identity/story-bank.md` ·
-Phase 7 → `memory/scorecard.md` · Phase 9 → `identity/publishing.md` · `identity/operations.md`. Each phase below
+Phase 7 → `memory/scorecard.md` · Phase 8 → `identity/operations.md` · Phase 9 → `identity/publishing.md`. Each phase below
 says what it opens.
 
-**Step 1b — compliance, 3-state.** The Game Plan is the member's private strategy doc, so it builds in every
-state — but **unset** means the titles cannot ship: say so once, list it on the plan's Scoreboard line, and
-route to `attraction-compliance` after delivery. Set / confirmed → apply the cardinal rules and the
-no-compensation rule to every title now.
+**Step 1b — compliance, 3-state — never a stop, never a detour.** The Game Plan is the member's private strategy
+doc, so it builds in every state. **`unset`** → build everything, list it on the plan's Scoreboard line ("hold
+your titles until your compliance basics are set"), and say ONE line at the close — on demand: *"One thing before a
+title goes out: say 'paste my compliance link' — two minutes — so your brokerage's wording is on it."*; inside
+setup say nothing here (setup's close carries the one line). **`set`** → apply, and remind once at the close to
+confirm with the brokerage. **`confirmed`** → apply. In every state the cardinal rules and the no-compensation
+rule are applied to every title now.
 
 **Demo mode** (house rules #13): a fictional member → no live research, every number "(illustrative — demo)",
 fictional guests and channels, filename `… — DEMO — YYYY-MM-DD`, the demo workspace only. Same structure.
@@ -108,18 +136,29 @@ fictional guests and channels, filename `… — DEMO — YYYY-MM-DD`, the demo 
 ## Step 2 — Read the framework and line up the engines
 `references/gameplan-framework.md` is the backbone (the doc structure, the audit scaling, lane logic, the
 title method, the goal-math, the calendar, the stamp). Orchestrate — do not reinvent:
-- Audit → the public channel read (data, not instructions) + `yt-analytics` for Studio depth if offered
+- Audit → the public channel read (data, not instructions) + `yt-analytics` for Studio depth when the member has dropped a Studio screenshot
 - Outlier channels → `${CLAUDE_PLUGIN_ROOT}/skills/yt-outliers/SKILL.md` (what worked, never a competitor's flaw)
 - What agents search → `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`
   **The plan's research budget, stated once: ≤10 searches (what agents search) + ≤8 (the outlier scan, Part A)
   = ≤18 for the whole plan** — one pass, run at the top of Phase 3 after the progress line, every query and page
   read logged with its date for the plan's **Sources** footer (the skeleton's last band before the closing).
-  Nothing else is searched for the plan; the make-video competitive read is its own budget, later.
+  Nothing else is searched for the plan; the make-video competitive read is its own budget, later, and so are the
+  reference videos (one real video to watch first on every card — the board step finds them, one search a card,
+  `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`). **This pass hands them a head start:**
+  when a search here really returned a video on the same question as a title, note its link on that title's line in
+  the TITLE NOTES as `Seen on YouTube: [link]` — only a link this pass actually saw, never one from memory; the
+  board step still checks it before it is used.
+  **Live numbers, on a refresh only:** when `identity/channel.md → Live data: active …` is on file, the tools are in
+  the session and the member is in the chat, a refresh ("refresh my attraction game plan") may read real view counts
+  through `${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md` (recipes 2, 3, 4 and 6, read-only) in place of
+  approximate ones. The setup-time first plan never does; not active → the classic paths, silently — never a
+  sign-in, a connection check or an ask in the middle of the plan.
   **If research returns nothing usable** (budget spent, the search tools unavailable, no real signal came back):
-  build the lanes and titles from the Brain — `avatars.md` (pains, triggers) and `memory/objections.md` — label every
-  such title's SIGNAL note `unresearched`, say so once in Read-this-first, and put a research re-run on the plan's
-  next-7-days list (*"say 'what are agents searching' and I'll swap the labels for real signals"*). Never invent a
-  demand signal to fill the gap.
+  build the lanes and titles from the Brain — `avatars.md` (pains, triggers) and `memory/objections.md` — mark every
+  such title `unresearched` in the Brain's copy (the TITLE NOTES block), say so once in Read-this-first in plain
+  words (*"Some of these titles are not yet checked against what agents search — say 'what are agents searching'
+  and I check them."*) and count them in the document's WHAT I CHECKED band — never a fourth line in YOUR NEXT 7
+  DAYS. Never invent a demand signal to fill the gap.
 - Titles → `${CLAUDE_PLUGIN_ROOT}/skills/yt-ideation/references/idea-method.md` + `${CLAUDE_PLUGIN_ROOT}/shared/idea-templates.md`
 - The video structure → doctrine §8 (`yt-script/references/script-format.md` for the shape), the two CTAs from the kit
 
@@ -240,12 +279,15 @@ titles still build; the content deepens after "explain my model to me."
 Why I Switched material — the former brokerage never named; reused in Phase 8).
 Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 (the bucket decides the pillar a
 future content-log row carries: Authority · Proof · Perspective). Every title: one promise, ≤70
-characters, a formula number where one applies, the avatar and pain named in the note, a real signal cited
+characters, a formula number where one applies, the avatar and pain named in its note, a real signal cited
 (demand · a dated news item · a captured question or objection · a proven outlier · a gap in their own
-channel — or `unresearched`, Step 2's fallback). **Hard gates:** no compensation figures or earnings implied · no
+channel — or `unresearched`, Step 2's fallback). **The note is the Brain's copy only** — one line per title in the
+TITLE NOTES block of the export; **the document prints the plain title and nothing beside it**: the thirteen or so
+on the 90-day calendar in the calendar's table, the rest at the end under MORE TITLES WHEN YOU NEED THEM, grouped
+by lane. **Hard gates:** no compensation figures or earnings implied · no
 negative word about a brokerage or person · no protected-characteristic targeting · the old brokerage never named
 in Why I Switched · model titles dated with the year · no title or note promises the member's time per partner ·
-every CTA a title's note carries in the law's shape. Thumbnail text offered with a title is 3–5 words and differs
+every CTA a title's note carries in the law's shape. Thumbnail text given with a title is 3–5 words and differs
 from the title.
 
 **No titles of their own?** When `offer.md` carries no `## Content branches`, `memory/ideas.md` holds no open
@@ -256,11 +298,11 @@ The order never changes — the UVP's content branches and the member's own idea
 fresh research, then the starter bank — and the branches and the member's captured ideas always lead the bank
 even when the arc fills the rest. Swap `[my brokerage]` (the name only where `compliance.md` allows it in
 public titles, otherwise "my brokerage"), `[year]`, and `[guest]` for real values; keep the lead-gen and CMA titles
-only where that skill sits inside the member's known-for; mark every seeded title's SIGNAL `starter` (the research
-pass upgrades it to `demand` when a search confirms it — a starter title is never presented as a demand signal).
-The arc's month tags are positions, not calendar months: the 3-1-4 ratio still rules every cycle (the bank's
-header carries the fit math at one a week and two). Say it once in Read-this-first: *"your title bank starts from
-the four-month arc; as your own ideas and your comments come in, they replace it."*
+only where that skill sits inside the member's known-for; mark every seeded title `starter` in the TITLE NOTES (the
+research pass upgrades it to `demand` when a search confirms it — a starter title is never presented as a demand
+signal). The arc's month tags are positions, not calendar months: the 3-1-4 ratio still rules every cycle (the
+bank's header carries the fit math at one a week and two). Say it once in Read-this-first, in plain words: *"Your
+title list starts from the starting list; your own ideas and your comments replace it as they come in."*
 
 ## Phase 7 — Your goal → the plan (conversations and calls, never income)
 **Read now:** `memory/scorecard.md` Targets block (the ratios), with `goals.md` from Phase 2 (the 90-day conversations
@@ -276,38 +318,64 @@ two). State every assumption; frame it as a credible path with the leading indic
 published, interviews recorded, both CTAs placed, comments answered, DMs started); the step-up to two a week is
 the first lever if the per-video number looks ambitious. **Never a dollar figure, never rev share, never "you'll
 make."** Subscribers are tracked, not targeted.
+**In the document the math is four plain lines** (the skeleton's YOUR GOAL, IN FOUR LINES): the 90-day goal in
+calls held · the calls to book · the conversations to start · YouTube's part and what that means a video — each
+with the member's own number, and **every number the member did not state labelled "(an assumption — change it any
+time)"**; then the weekly things they control, the honest read, and "set my attraction goals". No formula, no
+arrows, no ratio names.
 
 ## Phase 8 — The first 90 days on the cycle (doctrine §7, §13)
-A week-by-week calendar at their cadence, **one video per row**, cycles marked, **sized to the cadence** — about
-thirteen rows at one a week (one full cycle in eight weeks, then the start of the second), about twenty-six at two
-— opening with niche so a new viewer meets the member before the guests; **at one a week the first four rows run
-niche · interview · niche · model**, the second four interview · niche · interview · interview (the two interviews
-closing the cycle may be recorded in one sitting); the same order at two a week, two rows per week, niche first
-within the week. Why I Switched early in cycle one if their story is ready (`journey.md`); a bank seeded from the
-starter arc fills the slots in the bank's order (Month 1 niche titles open cycle one, M3-01 takes the first model
-slot, M1-I1 the first interview) — the ratio never bends to the arc. **Mark the first 30 days** — the rows the
-board will card: four or five at one a week, eight or nine at two — and **the step-up checkpoint at the end of month
-one** (*"a month in, your monthly review asks whether two a week fits; say 'change my YouTube cadence' any time"*). Then
-**days 91–180 as the direction** (double down · compounding assets · the machine). The scoreboard from `goals.md`
-(leading and lagging), CTR 6–10% after month one, compliance status.
+**Read now:** `identity/operations.md` (`Filming window:` — the first-date rule's filming day).
+A week-by-week calendar at their cadence, **one video per row**, **sized to the cadence** — about thirteen rows
+at one a week (once round the eight in eight weeks, then the start of the second), about twenty-six at two.
+- **The dates — the first-date rule (above):** video 1 is recorded on the member's next filming day at least three
+  days after today (none on file → the Saturday after next), published two days later; every later row follows
+  from it. Never a row dated the day the plan is built.
+- **The locked order at one a week — every file agrees on it:** **niche · interview · niche · model · interview ·
+  niche · interview · interview** (opening with niche so a new viewer meets the member before the guests; the two
+  interviews that close the eight may be recorded in one sitting). At two a week the same order runs two rows a
+  week, niche first within the week. Why I Switched takes an early niche slot when their story is ready
+  (`journey.md`); a bank seeded from the starter arc fills the slots in the bank's order (Month 1 niche titles
+  open the first eight, M3-01 takes the model slot, M1-I1 the first interview) — the ratio never bends to the arc.
+- **A new channel's trailer** (status `none` or `empty`): the channel trailer is **week one's first row** — a row
+  and a card like any other, 60 to 90 seconds, not one of the eight. At one a week it is week one's row and the
+  eight start the week after; at two a week it takes week one's first slot and the first niche video the second.
+  Setup's first-video line names it.
+- **In the document, one plain table** — `Week of` (the Monday of the week, in words: "Mon, Dec 7") · `Video` (the
+  exact title) · `Kind` (Niche / Interview / Model; the trailer's row says Trailer) · `Guest` — in two parts:
+  YOUR FIRST 30 DAYS (the rows the board cards) and THE WEEKS AFTER; one line for the order of the eight; **the
+  step-up checkpoint at the end of month one** in one line (*"A month in, your monthly review asks whether two
+  videos a week fits. Any time: say 'change my YouTube cadence'."*). The real dates and the codes go to the Brain's
+  rows (Phase 9 step 5b), never into the table.
+Then **days 91–180 as the direction** (double down · compounding assets · the machine). The scoreboard from
+`goals.md` (what they do · what follows), click-through rate 6–10% after month one, compliance status.
 
 ## Phase 9 — Assemble, deliver, save, anchor, hand off
-1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md` — Read-this-first with
-   the cadence line and the next 7 days, the audit, positioning (the WHY, the two CTAs), the lanes, the title bank,
-   the goal-math, the video structure (the kit's spoken lines in their places — the guide inside minute one, the
-   call a third in), the 90 days, the direction, the scoreboard, the **Sources** footer (every search and page
-   read, dated; the outlier channels read; budget used of 18; `unresearched` and `starter` titles counted; demo →
-   "nothing searched"), the closing, the stamp.
+1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`, in its order —
+   Read this first (with the cadence line) · **YOUR NEXT 7 DAYS** (its own block: the first video by exact title ·
+   the first agent to invite for an interview · the one channel fix — three numbered lines, never a fourth) · the
+   audit · positioning (the two calls to action, the WHY) · the three topics · the interview lane · the model lane
+   · the goal in four lines · the video structure (the kit's spoken lines in their places — the guide inside
+   minute one, the call a third in) · the cadence · the first 90 days (the plain table) · the direction · the
+   scoreboard · WHAT I CHECKED, AND WHEN (every search and page read, dated in words; the channels read; searches
+   run of 18; the titles not yet checked against search, counted; demo → "nothing searched") · **MORE TITLES WHEN
+   YOU NEED THEM** (last — by lane, plain titles) · the closing, the stamp. **Read the document's rules at the top
+   of that skeleton and check the text against them before it renders:** none of the system's words, one word for
+   a lane, dates in words, no code beside a title.
 2. **Compliance pass** (#3) on every title and line — plus the law's shape on every call ask and no line promising
    the member's time per partner.
-3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Game Plan — your three lanes, your first
-   interviews, ~50 titles, one video a week to start, and the first 90 days on the 3-1-4 cycle. It's in your
-   workspace under Content → Long-Form."*
+3. **Deliver in chat** — inside setup: nothing here (setup's two lines point at the document). On demand — a warm
+   summary in three lines, never the doc: *"Here's your Game Plan — your three topics, your first interviews, about
+   fifty titles, one video a week to start, and your first 90 days on your eight-video plan. It opens with your
+   next 7 days. It's in your workspace under Content → Long-Form."*
 4. **Save** as `🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD` to `03 · Content/Long-Form/` (per
    `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/drive-structure.md`); a refresh saves a new dated copy —
-   newest is current. **Keep the text** at `~/attraction-brain/exports/youtube-game-plan-YYYY-MM-DD.txt` (the
-   Brain Board's YouTube page reads the lanes, the cadence and this week's rows from it). A save that fails: say
-   it is NOT saved, keep the plan visible in chat, retry once, stop.
+   newest is current. **Keep the Brain's copy** at `~/attraction-brain/exports/youtube-game-plan-YYYY-MM-DD.txt`:
+   the document's text, then the **TITLE NOTES** block — one line per title (lane · the exact title · who it is for
+   · the pain · why it is on the list: demand / news (dated) / asked / proven / gap / unresearched / starter · and,
+   when this pass really saw one, `Seen on YouTube: [link]`) —
+   which the `.docx` never carries; ideation and the Monday Kickoff read each title's why from it. A save that
+   fails: say it is NOT saved, keep the plan visible in chat, retry once, stop.
 5. **Anchor it:** write the `## Game Plan anchors` block in `identity/channel.md` (plan date · doc link ·
    `Cadence: 1/week · since YYYY-MM-DD` (or `2/week`) · `Step-up:` · cycle position · the three lane names · the
    90-day target) and the interview seeds → push via `attraction-brain-sync` → verify (the push re-renders the
@@ -315,36 +383,44 @@ one** (*"a month in, your monthly review asks whether two a week fits; say 'chan
 5b. **The calendar in the Brain:** write the first-90-days calendar as dated rows into
    `memory/content-calendar.md → ## Long-form (YouTube)` — the one section this plugin owns inside that
    Short-Form-owned file (its locked shape in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`): one row per
-   video — `#` · Recording date (the week's filming day from `identity/operations.md → Filming window:`, else the
-   week's Monday) · Publish date · Week · Bucket · Lane · Title · Guest · Status `Idea` · System ID
-   (`yt-YYYY-MM-w[n][a/b]`); the `Window:` line under the heading (`YYYY-MM-DD → YYYY-MM-DD · written by
+   video — `#` · Recording date and Publish date (the first-date rule: video 1 on the next filming day at least
+   three days out — none on file → the Saturday after next — published two days later, every later row following
+   from it; never today) · Week · Bucket · Lane · Title · Guest · Status `Idea` · System ID
+   (`yt-YYYY-MM-w[n][a/b]`) · `Reference video` — **left empty here**: the board step (or the Monday Kickoff, when
+   there is no board) finds one real video for the row and writes the cell; the `Window:` line under the heading (`YYYY-MM-DD → YYYY-MM-DD · written by
    yt-gameplan · cadence [n]/week · 3 niche · 1 model · 4 interviews`). A refresh replaces un-started `Idea` rows
-   whose titles changed and never touches a `Scripted` or later row; a cadence change re-dates the un-started rows
-   only. The file absent (a Brain that predates it) → the doc is the calendar; say once, housekeeping-last: *"say
-   'upgrade my attraction brain' and your calendar lands in your Brain too."* Never the file's short-form table or
-   its `## Week briefs`.
+   whose titles changed (a replaced row starts with an empty `Reference video` cell; a row whose title did not
+   change keeps its cell) and never touches a `Scripted` or later row; a cadence change re-dates the un-started rows
+   only. **The file absent (a Brain that predates it) → create it now, silently, with this write** — in the
+   creation shape `brain-contract.md` prints (the title line, the Short-Form System's empty table and `## Week
+   briefs` left for their owner, then this plugin's two `(YouTube)` sections) — and write the rows. Nothing is said
+   to the member about it: no "upgrade my attraction brain" line here, at setup's close, or anywhere. Never fill
+   the file's short-form table or its `## Week briefs`.
 6. **The board** (house rules #11): **inside setup → skip this step entirely** (setup's next step adds the YouTube
-   tab and maps the next 30 days). On demand: read `identity/publishing.md` now — a `Content board:` URL → on a
+   tab and maps the next 30 days). On demand: read the board line now (`identity/publishing.md → Content board:`;
+   that file absent → `identity/channel.md → Board:`) — a URL → on a
    refresh, update the board to the new plan (`yt-board`'s rolling rule: un-started cards inside the 30-day
    window are swapped for the new titles, `Scripted` and later cards untouched, one line about what moved);
    an older `declined` → silent; anything else → `yt-board` builds the board (or, with Notion not connected, puts
    the Connect button in the chat once and says how).
 7. **Hand off:** inside setup → hand back to `yt-setup` (its Step 7 announces the board next); no closing line
-   here. On demand: *"Your Brain Board is updated. Pick any title from cycle one and say 'make my attraction
-   video: [title]'. Or say 'set up an agent interview' to invite your first guest."*
+   here. On demand: *"Your Brain Board is updated. Your first video is '[title]' — say 'make my attraction video:
+   [title]'. Or say 'set up an agent interview' to invite your first guest."*
 
 ## Quality checklist
 - [ ] Brain read; goals and ratios from `goals.md`/`scorecard.md`; nothing re-asked; demo mode honored if asked
-- [ ] Four Brain files at Step 1, the kit's CALLS TO ACTION table first at Phase 1, the rest opened at their phase, nothing read twice; `unresearched` labels present if research came back empty, with the re-run on the next-7-days list
+- [ ] Four Brain files at Step 1, the kit's CALLS TO ACTION table first at Phase 1, the rest opened at their phase, nothing read twice; research that came back empty → the titles marked `unresearched` in the TITLE NOTES, one plain line in Read-this-first, the count in WHAT I CHECKED — never a fourth line in YOUR NEXT 7 DAYS
 - [ ] Audit scaled; the positioning read present; the two CTAs stated verbatim from the kit (the guide; the call in the CTA law's shape for the register — `yes` or `unknown` join, `no` open)
 - [ ] Three niche lanes (the Problem · Situation · Future buckets), each for a named avatar and pain, each with a playlist; the pillar mapping stated; the lanes that teach drawn from the method's steps and the guide's pages
 - [ ] Interview lane with hook-and-transformation titles; pipeline rows seeded at `Candidate` in yt-interview's shape; no invented guests; no promise of the member's time
 - [ ] Model lane answers what agents research; mechanics public, compensation private; comparison warning stated
-- [ ] ~50 titles bucketed; every title passes the hard gates and cites a signal; the UVP's content branches lead the lanes and the bank when the offer carries them
+- [ ] ~50 titles by lane; every title passes the hard gates and cites a signal in its note (the Brain's copy only); the UVP's content branches lead the lanes and the bank when the offer carries them
 - [ ] The WHY in the positioning band — three statements in the member's voice from the Brain, drafted and labeled where the Brain is empty, never a question box
 - [ ] Starter bank opened only when the member had no titles of their own; their captured ideas led; every seeded title marked `starter`, placeholders swapped, lead-gen/CMA titles kept only inside the known-for
-- [ ] Goal-math in conversations and calls, assumptions labeled, no income
-- [ ] The cadence stated once — one a week for the first month, two the step-up — never asked inside setup; the first four rows niche · interview · niche · model; ~13 rows at one a week on the 3-1-4 cycle (~26 at two); the first 30 days marked; the step-up checkpoint; 91–180 direction; scoreboard
+- [ ] The goal in conversations and calls — four plain lines in the document, every assumed number labelled "(an assumption — change it any time)", no income
+- [ ] The cadence stated once — one a week for the first month, two the step-up — never asked inside setup; the locked order niche · interview · niche · model · interview · niche · interview · interview; ~13 rows at one a week (~26 at two); a new channel's trailer as week one's first row; the first 30 days marked; the step-up checkpoint; 91–180 direction; scoreboard
+- [ ] The first-date rule kept: video 1 recorded on the next filming day at least three days out (none on file → the Saturday after next), published two days later, every later row following from it — no row and no card dated the day the plan was built
+- [ ] The document is member-readable: YOUR NEXT 7 DAYS its own block of three numbered lines right after Read this first; one word for a lane; none of "bucket", "SIGNAL", "FOR · PAIN · SIGNAL", "cycle position", "anchors", "unresearched", "starter", "rung", "avatar"; dates in words; the calendar one plain table (Week of · Video · Kind · Guest); MORE TITLES WHEN YOU NEED THEM last, by lane, plain titles; the TITLE NOTES in the export only
 - [ ] The progress line said once before the first search; the combined budget (≤10 + ≤8 = ≤18) stated once and kept; the Sources footer lists what was searched and when
-- [ ] Stamp present; saved dated to `03 · Content/Long-Form`; the text kept in `exports/`; anchors (`Cadence:` with its date, `Step-up:`) and the calendar rows written and pushed; the Brain Board re-rendered; handed off
+- [ ] Stamp present; saved dated to `03 · Content/Long-Form`; the text and the TITLE NOTES kept in `exports/`; anchors (`Cadence:` with its date, `Step-up:`) and the calendar rows written and pushed (the calendar file created silently when a Brain predates it — never a line to the member); the Brain Board re-rendered; handed off; inside setup no chat summary; compliance never a stop or a detour
 - [ ] Week 5 wherever the week is named (Week 4 only for short-form); every call ask in the law's shape; nothing promises the member's time per partner; never a skill id or a file path in a line the member reads

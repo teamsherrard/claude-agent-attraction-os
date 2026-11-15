@@ -16,9 +16,27 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
 | `yt-analytics` (YouTube System) | the capability map + recipes 1, 2, 3, 4 (inside a dive), 5, 6, 7 and S — the long-form deep dive and quick reads | — |
 | `sf-analytics` (Short-Form System) | recipe 8 (Instagram + Shorts) + recipes 2, 3, 6, 7 and S — the short-form deep dive and the quick reads ("how's my content doing") | — |
 | `sf-ideas` (research, read-only) | section C only — the search / trends / news stack, which needs no sign-in — when the tools are already in the session, inside its own search budget | the connection tool, the signed-in toolkits |
-| every other skill, setup above all | nothing: the classic paths (public reads, the Studio pack, screenshots, the posting tool); `sf-greenscreen` reads `memory/intel.md` | call, offer, check, list, or mention the connection |
+| `yt-outliers` · `yt-research` · `yt-make-video` (its reference step) · `yt-gameplan` on a refresh · `yt-board` (a card's reference video, in a chat the member is in) — the YouTube research skills, read-only | recipes 2, 3, 4 and 6 — **only when the connection is already active** (`identity/channel.md → Live data: active …` and the tools are in the session): real view counts for the comparison set, the gap read, each card's reference video and the three reference videos. Not active → the classic paths, silently, and at most one closing line per run naming the connect phrase | the connection tool (never add, list or check); any call during the setup sitting; any call from a scheduled run |
+| every other skill, setup above all | nothing: the classic paths (public reads, the Studio pack, screenshots, the posting tool); `sf-greenscreen` reads `memory/intel.md`. `yt-setup` may NAME the connect step once, in its close — nothing more | call, offer a sign-in, check or list the connection |
 
-## When it activates (LATER — never during onboarding)
+## When it activates (LATER — never during onboarding, never from a scheduled run)
+- **THE NAMED CONNECT STEP — right after setup, in its own short chat (the owner, 2026-11-14).** The YouTube setup's
+  close names it once, as ONE plain line under its three numbered steps — never a fourth step, never a question:
+  *"Later, when you want your real view counts read for you: open a new chat and say 'connect my YouTube numbers'.
+  About two minutes."* That phrase belongs to `yt-analytics` and is the deliberate version of its connector check, three
+  cases, each told, never asked: (1) **the tools are not in the session** → the exact clicks, in one message:
+  *"In the left sidebar click Customize → Connectors → the + button → Add custom connector. Name it Composio, paste
+  https://connect.composio.dev/mcp, click Connect and approve in your browser. Then come back and say
+  'connected'."*; (2) **the tools are here but YouTube is not signed in** → the warning line (*"a permission box will
+  pop up so I can read your channel's numbers — hit Allow"*), then the sign-in link from the connection tool, the
+  member signs in and says "done", the connection is confirmed `active`, and `Live data: active YYYY-MM-DD` is
+  written to `identity/channel.md`; (3) **already active** → one line, and one small read as proof (*"I can see your
+  channel: [N] videos, [N] subscribers."*). It reads public numbers only and never posts; click-through rate and
+  watch time still come from the three Studio screenshots. It is never run inside the setup sitting.
+- **NEVER from a scheduled run.** The Monday Kickoff, the Monthly Channel Review and every Short-Form scheduled
+  workflow make ZERO calls to the connection: an unattended run cannot answer a permission box, and a stalled task
+  is worse than a thinner note. They read what the Brain already holds — the ledger blocks the member's on-demand
+  reads wrote ("how did my video do", the deep dive, "add my attraction Studio numbers").
 - **NEVER during setup.** Onboarding (`sf-setup`, `yt-setup`, and the setup-time first Game Plan alike) makes
   ZERO calls to the data connection — no listing connections, no availability checks, no sign-in offers, no
   tool calls. A technical permission card mid-onboarding confuses members. Cohort feedback, locked.
@@ -199,9 +217,12 @@ or a script still comes from a sourced fact in the Brain, never from the search 
 `YOUTUBE_GET_VIDEO_DETAILS_BATCH` on the candidates → apply the quality bar (same concept, for the same agent
 audience · performed vs its channel's size · recent · watchable) → deliver `link · channel · views · the one
 thing to do better` — views exact from the API, not approximate. Same-audience first; a general-audience or
-different-model video only as the labeled fallback. Used inside the deep dive (the openings); the production
-skills (`yt-research`, run by `yt-make-video`) build references from public reads and never call the
-connection.
+different-model video only as the labeled fallback. Used inside the deep dive (the openings), and — **only when `Live data: active` is already on file and
+the member is in the chat** — by the research skills in place of a web search: the card's **Reference Video** (one
+real video on every card, `yt-research`'s reference-video steps) and `yt-make-video`'s three then carry exact views
+and the publish date. Not connected → those skills build references from a YouTube-only web search and a check that
+the video is real, with no numbers at all; they never ask the member to connect, and a scheduled run never calls
+the connection.
 
 ### 5. Analytics + coaching (Growth) — the attraction scoreboard
 The public layer (per-video views/likes/dates vs the channel's own median) pulls live via recipe #1 — no export
