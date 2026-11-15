@@ -6,7 +6,7 @@ description: >
   confirmed (the Week 2 bios shown, refreshed only if something changed; GUIDE and the offer's word;
   platforms stated); (2) the Short-Form Game Plan with the ManyChat build sheet; (3) the Notion board
   with the next 30 days mapped; (4) four scheduled workflows switched on with the one Yes (Monday Week
-  Plan, Sunday Batch Prep, Wednesday News Watch, Monthly Calendar Refill; five extras stated; the
+  Plan, Batch Prep, Wednesday News Watch, Monthly Calendar Refill; five extras stated; the
   email note part of the process), then the one question, Metricool or GoHighLevel; (5) the first
   Reel, then the Brain Board and Brain Book handed over. Never re-asks the Brain; a second call
   resumes one part. Trigger on: "set up my attraction short-form", "launch my attraction short-form",
@@ -117,7 +117,7 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
      already in `content-pillars.md` are read by the Game Plan, never rewritten here.
    - **`complete`** → the **READY BRIEF** (one line that it's loaded, naming 3–4 things you know about them — who
      they attract, their two words, this week's posts from `memory/content-calendar.md`, which workflows are on; at
-     most ONE upgrade suggestion; *"What do you want to make?"*). Then route a named part — "confirm my attraction
+     most ONE upgrade suggestion; then a statement of what is next and its phrase — *"Next on your calendar: [title], [day]. 'Script my attraction reels' writes it."* — never an open question). Then route a named part — "confirm my attraction
      profiles" / "check my attraction profiles" → Step 2 only · "audit my attraction profiles" → **Profile mode**
      (below) · "set / change my keyword" / "my attraction keywords" → Step 2's keyword part only (write `Keyword:` ·
      `What it opens:` for the two words, mirror into `content-pillars.md`, push) · "update my pillars" →
@@ -298,12 +298,12 @@ week — say so in one line only if they ask.
 > or schedules on its own."
 
 **Open now:** `config.md` (timezone; the existing `## Short-Form (Week 4)` block, or the older `(Week 3)` heading
-read as the same block) · `publishing.md → Batch day(s):` (set by the Game Plan at Step 3 — the day the Sunday Batch
+read as the same block) · `publishing.md → Batch day(s):` (set by the Game Plan at Step 3 — the day the Batch
 Prep precedes). The mail check from Step 0.5 decides the card's email sentence. **ONE consent card, in plain words,
 before creating anything — a statement, ending in the one Yes:**
 > *"Here's what I'm switching on for you: the **Monday Week Plan** — Mondays, 7:00 am: your week's scripts,
 > captions and stories drafted onto your board with a week brief, and any welcome or win post the week earned;
-> **Sunday Batch Prep** — [the evening before your batch day], 6:00 pm: your teleprompter doc, this week's scripts
+> **Batch Prep** — [the evening before your batch day], 6:00 pm: your teleprompter doc, this week's scripts
 > grouped by outfit and location, hooks three ways, the keyword on each; the **Wednesday Brokerage News Watch** —
 > Wednesdays, 8:00 am: three to six real brokerage headlines with a 30-second green-screen take each, on your board;
 > and the **Monthly Calendar Refill** — the last Friday of the month, 5:00 pm: your next thirty days from your
@@ -323,7 +323,7 @@ check — they're there if you want them; say the word any time."* The nine, the
 | Workflow | Task id | Owner · the prompt | Switched on · when | `config.md` line |
 |---|---|---|---|---|
 | Monday Week Plan (the week's welcome and win posts inside it) | `attraction-sf-week-plan` | `sf-week-plan` · `${CLAUDE_PLUGIN_ROOT}/skills/sf-week-plan/references/week-plan-task-prompt.md` | by the Yes · Mondays 7:00 am | `Week Plan task:` · `Week Plan slot: Mondays [time]` |
-| Sunday Batch Prep | `attraction-sf-batch-prep` | `sf-batch-publish` · `${CLAUDE_PLUGIN_ROOT}/skills/sf-batch-publish/references/batch-prep-task-prompt.md` | by the Yes · the evening before the batch day, 6:00 pm | `Batch Prep task:` · `Batch Prep slot: [the evening before the batch day, time]` |
+| Batch Prep | `attraction-sf-batch-prep` | `sf-batch-publish` · `${CLAUDE_PLUGIN_ROOT}/skills/sf-batch-publish/references/batch-prep-task-prompt.md` | by the Yes · the evening before the batch day, 6:00 pm | `Batch Prep task:` · `Batch Prep slot: [the evening before the batch day, time]` |
 | Wednesday Brokerage News Watch | `attraction-sf-news-watch` | `sf-greenscreen` · `${CLAUDE_PLUGIN_ROOT}/skills/sf-greenscreen/references/news-watch-task-prompt.md` | by the Yes · Wednesdays 8:00 am | `News Watch task:` · `News Watch slot: Wednesdays [time]` |
 | Monthly Calendar Refill | `attraction-sf-calendar-refill` | `sf-gameplan` · `${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/references/calendar-refill-task-prompt.md` | by the Yes · the last Friday of the month, 5:00 pm | `Calendar Refill task:` |
 | Keyword Follow-up Queue | `attraction-sf-keyword-queue` | `sf-comment-to-dm` · `${CLAUDE_PLUGIN_ROOT}/skills/sf-comment-to-dm/references/keyword-queue-task-prompt.md` | by phrase · Tuesdays and Thursdays | `Keyword Queue task:` |
@@ -405,23 +405,26 @@ and gives back two links — both files live in the member's `01 · AI Brain` fo
 relays what it returns.
 
 **The close — a fixed, visible step, never a passing mention.** Before the breadcrumb, in this shape:
-> *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book link]. Open the
-> Board in your browser: your Short-Form dot is green, and its page shows your two keywords, this week's posts and
+> *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book link]. Download the Board and open the file — it opens in your browser: your Short-Form dot is green, and its page shows your two keywords, this week's posts and
 > your workflows."*
 When the session can show a file in the chat, show the Board file itself as well as the link. If the Board or the
 Book could not rebuild, say which, plainly, with the phrase that retries it (*"refresh my brain board"* / *"show me
 my Brain"*) — never claim an update that did not happen. A demo Brain gets the same close (the files are tagged
-DEMO). **Then the breadcrumb, in this order** — the six designed posts → the batch day → the editing step → the
-ManyChat build sheet → the workflows:
-> *"Post your six designed posts on their dates — they're on your Graphics tab, ready to post. Film on your batch
-> day, [day]; the evening before, your teleprompter doc is waiting. When it's filmed: open a new chat and say 'edit my
-> reel' — that opens your AI Editing Studio (Plugin 5), which edits inside your own Riverside account and reads the
-> Video Brand Kit you designed in Week 3. Not installed yet? Install Plugin 5 from the same marketplace first, then say
-> 'set up riverside' once. 'My ManyChat build sheet' prints your ManyChat steps. 'My attraction workflows' shows or
-> stops your Monday plan, your batch prep, your Wednesday headlines and your monthly refill. Reels: 'script my
-> attraction reels'. Stories: 'today's stories'. How it's going: 'how's my content doing'."*
+DEMO). **Before the close, look once at what got connected during the sitting:** Notion connected now and no board
+yet → build it (Step 4) first; a posting tool still at `chosen: … — connect pending` whose tools are now in the
+session → verify it and write the connected line. **Then the breadcrumb — five short numbered lines, never a
+paragraph** (a member reads a list, not a wall):
+> 1. **Post** your six designed posts on their dates — they're on your Graphics tab, ready to post.
+> 2. **Film** on your batch day, [day]. The evening before, your teleprompter doc is waiting.
+> 3. **When it's filmed:** open a new chat and say "edit my reel" — that opens your AI Editing Studio.
+> 4. **Set up ManyChat** this week from your build sheet — say "my ManyChat build sheet" to see it.
+> 5. **"My attraction workflows"** shows or pauses your Monday plan, your batch prep, your Wednesday headlines and
+>    your monthly refill.
+Line 3 adds *"Install Plugin 5 from the same marketplace first, then say 'set up riverside' once"* only when the
+editor is not installed. The other phrases ("script my attraction reels", "today's stories", "how's my content
+doing") are on the Brain Board's Short-Form page — they are not said here.
 Name only the workflows that saved. No board yet → "they're in your Game Plan's calendar" replaces "on your Graphics
-tab" in both lines. Compliance `unset` → the breadcrumb opens with the one line *"Before anything is posted, say 'set up
+tab" in both lines. Compliance `unset` → the compliance line is said ONCE in the whole sitting: when a held bio already said it at Step 2, it is not repeated; otherwise the breadcrumb opens with the one line *"Before anything is posted, say 'set up
 my attraction compliance' — three minutes"*, said once. The editing step is part of the process (Plugin 5 is installed in Week 4 with
 this plugin) — never hedged.
 

@@ -107,7 +107,7 @@ the reason; fewer than the cadence mapped → say "say 'plan my next 30 days of 
 carousel of its steps, a story set, a follow-up Reel answering its best comment, a re-cut in the AI Editing Studio —
 "edit my reel" in a new chat; never a new claim) · **THE STEP UP** — only when `Cadence:` is three and the log shows
 three Reels posted in each of the last four weeks: *"a month at three a week has held — you're ready for five; say
-'five a week' and I'll remap the month on it"* (the owner, 2026-11-14; the member's word flips the cadence through the
+'change my cadence' and I'll remap the month on five a week"* (the owner, 2026-11-14; the member's word flips the cadence through the
 Game Plan, never this read). Every number real and sourced; the member's own median is the benchmark; thin data, a
 fluke spike, a gate (a personal account, under 1,000 followers) said plainly.
 **Save + push (every performance read):** append the dated block to `memory/content-performance.md` (the metrics
@@ -147,11 +147,11 @@ once. The report, in order:
 - **PART 4 — THE OPENINGS** (3–5 four-line cards: what we found · why it matters to you · do this — hook ·
   format · pillar · week · the proof)
 - **PART 5 — YOUR NEXT 30 DAYS:** KEEP DOING · FIX · THE PLAN (the week's mix from `publishing.md` — one of each at three a week, 2 · 2 · 1 at five — by
-  pillar, one post per row, each with its word — GUIDE on most, the offer's word or the call on about one in four
-  and every Proof piece; every call line in the law's shape, the person · their help · free · to run this, never
+  pillar, one post per row, each with its one ask — GUIDE on most, the invitation (the offer's word or the call line)
+  on about one post in four, most naturally a Proof piece or a "what you get" piece; every call line in the law's shape, the person · their help · free · to run this, never
   the brokerage as the reason; stories daily) · POST AT (the three best slots) · THE POST TO REPURPOSE · **THE STEP
   UP** (only when `Cadence:` is three and the window's log shows three Reels posted in each week — *"a month at three
-  a week has held — you're ready for five; say 'five a week' and I'll remap the month on it"*; the member's word
+  a week has held — you're ready for five; say 'change my cadence' and I'll remap the month on five a week"*; the member's word
   changes the cadence through the Game Plan, never the dive) · THE ONE MOVE repeated
 - **APPENDIX — THE FULL NUMBERS** (A. every post, best to worst · B. your audience in full · C. the search
   results we pulled)

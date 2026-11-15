@@ -82,12 +82,14 @@ rung and confirm them in one line.
 - **Retention (the middle).** One idea per video, taught in full: an Authority post has to work on its own,
   never "DM me for the rest." Cut throat-clearing; front-load the value; two or three on-screen cues at the
   moments that reinforce the spoken line; 30–60 seconds.
-- **The ask (the last line only).** One rung from the ladder in `sf-comment-to-dm`; one of the two keywords, said
-  once, written once; the words from the kit's CALLS TO ACTION table. Authority and Perspective posts deliver the
-  guide (*"Comment GUIDE and I'll send you [the guide, in three words]."*); Story and Proof posts carry the call line
-  in the law's shape (*"Want my help running this, free? [the booking line]"* — the person, their help, free, to run
-  this; never the brokerage); Personality posts ask for a follow at most. The guide on most posts, the call on about one
-  in four and on every Proof post (the kit's cadence); never the call on a Personality post. **No compensation, rev
+- **The ask (the last line only).** One ask from the ladder in `sf-comment-to-dm`, said once, written once; the
+  words from the kit's CALLS TO ACTION table. **The call-ask rule (house rules #13):** GUIDE is the ask on most posts
+  (*"Comment GUIDE and I'll send you [the guide, in three words]."*); the invitation — the offer's own word, or the
+  kit's call line in the law's shape (*"Want my help running this, free? [the booking line]"* — the person, their
+  help, free, to run this; never the brokerage) — is the ask on about one post in four, most naturally a Proof piece
+  or a "what you get" piece (a Proof piece may carry the guide instead); never two asks on one post; a kit post keeps
+  exactly the ask the kit printed. By pillar: Authority → GUIDE · Perspective → follow, save or share (or GUIDE) ·
+  Story → GUIDE or the invitation · Proof → the invitation or GUIDE · Personality → follow. **No compensation, rev
   share, splits, caps, or income words anywhere; nothing that promises the member's time per partner.**
 - **The leader test and the any-agent test** on the whole thing: a prospect sees a leader; no line could
   have been written by any leader at any brokerage.

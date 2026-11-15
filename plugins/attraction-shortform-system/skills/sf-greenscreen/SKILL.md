@@ -197,7 +197,7 @@ never hedged); the content board (house rules #10): Format `Green Screen`, Pilla
    `~/attraction-brain/exports/news-watch-YYYY-MM-DD.txt` so the Brain Board can show it).
 2. **Log it:** one row in `~/attraction-brain/memory/content-log.md`, locked shape (a watch's unscripted items are
    not logged — a row enters the log when its piece is scripted):
-   `| [date] | Instagram · TikTok · Shorts · FB | reel | Perspective | [green screen] [hook] | [avatar] | [story or —] | [rung · GUIDE or the call] | Scripted | — |`
+   `| [date] | Instagram · Facebook | reel | Perspective | [green screen] [hook] | [avatar] | [story or —] | [rung · GUIDE or the call] | Scripted | — |`
    (the Link cell is the live URL once published; the article link lives in the doc and on the card, and the outlet is named in the hook cell)
 3. **Mark the intel row** `Used? = yes [date]` in `memory/intel.md` (the one column this skill writes there);
    stamp a story's Used-where if one was used.

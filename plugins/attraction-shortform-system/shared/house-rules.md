@@ -78,8 +78,7 @@ positioning, their proof, their voice, and their compliance rules.
 - If `~/attraction-brain/` is missing, **pull it first** with `attraction-brain-sync` — a fresh session starts
   with an empty sandbox while the Brain lives safely in their workspace. A tool error is never "no Brain".
 - If something is genuinely missing and this plugin owns the file, ask for it **once**, use it, save it back,
-  and push (write → push → verify). If another skill owns it, say which skill adds it ("say 'build my story
-  bank'") — never write a file you don't own.
+  and push (write → push → verify). If another skill owns it, say which skill adds it ("say 'build my attraction story bank'") — never write a file you don't own.
 
 ---
 
@@ -123,9 +122,10 @@ flag it — never ship it. "If empty, proceed" is banned.
 
 Captions, hashtags, titles, descriptions, tags, the on-screen text, and the CTA line all come from one place:
 `${CLAUDE_PLUGIN_ROOT}/skills/sf-optimizer/references/platform-rules.md`. Every workflow applies it so posts are
-packaged the same proven way everywhere; every caption carries the rung and ONE of the two keywords from
-`identity/publishing.md` (rule #12), and when the rung is the call its line is the kit's CALLS TO ACTION table's,
-verbatim (rule #15), in the call-to-action law's shape (rule #13). (Behind the scenes — never mention the file.)
+packaged the same proven way everywhere; every caption carries ONE ask (the call-ask rule, rule #13) — a keyword
+ask uses one of the two keywords from `identity/publishing.md` (rule #12), a Personality post asks for a follow
+only — and when the ask is the call its line is the kit's CALLS TO ACTION table's, verbatim (rule #15), in the
+call-to-action law's shape (rule #13). (Behind the scenes — never mention the file.)
 
 ---
 
@@ -138,8 +138,9 @@ verbatim (rule #15), in the call-to-action law's shape (rule #13). (Behind the s
   features (§6). Brokerage content woven through, never the feed.
 - **The video:** hook (~3s, never "stop scrolling") → value → one CTA; 30–60s; raw is better than polished; captions
   the only mandatory edit; one video to every short-form platform (§7).
-- **The ladder:** Follow → Comment → DM → Resource → Conversation → Call; one rung per Reel; one of the two
-  keywords carries every Reel (§8; rule #12); the Call rung speaks in the call-to-action law's shape (rule #13).
+- **The ladder:** Follow → Comment → DM → Resource → Conversation → Call; one rung per Reel — one ask, never two;
+  one of the two keywords carries every keyword ask (§8; rule #12) and a Personality Reel asks for a follow only; the
+  Call rung speaks in the call-to-action law's shape, on the call-ask rule's cadence (rule #13).
 - **Instagram rules:** profile = recruiting landing page; 3–5 Reels/week; stories daily, never a day without;
   the weekly routine; three Reels a week is the default for the first month — one attraction · one authority · one story (2 · 2 · 1 at five; the owner, 2026-11-14: twenty posts at once overwhelms) (§9).
 - **The cardinal rules** in every piece (§11).
@@ -282,8 +283,8 @@ Read `identity/offer.md`'s `Join-gated package allowed:` line first; it decides 
   "your open houses"), so the reader knows what the help is FOR. Compensation never. The member's own primary CTA
   from the Brain wins when it already carries this shape; otherwise it is adapted to it, not pasted.
 Captions and end cards take their call line from the kit's CALLS TO ACTION table (rule #15) — the same words every
-time. The call is the ask on about one post in four and on every proof piece; the guide (GUIDE) is the ask
-everywhere else (rule #12).
+time. **The call-ask rule — the ONE rule every skill in this plugin writes:** GUIDE is the ask on most posts. The invitation (the offer's own word, or the kit's call line) is the ask on about one post in four — most naturally a Proof piece or a "what you get" piece. A Proof piece may carry the guide instead. Never two asks on one post. The six designed kit posts keep exactly the asks the kit printed. **The ask by
+pillar:** Authority → GUIDE · Perspective → follow, save or share (or GUIDE) · Story → GUIDE or the invitation · Proof → the invitation or GUIDE · Personality → follow, and nothing more (rule #12 for the two words).
 
 ---
 
@@ -346,7 +347,7 @@ the whole Brain, every file; a partial pull is completed first). Therefore:
   Board AND refreshes the Brain Book's "What's next" page and gives back two links (both files live in the member's
   `01 · AI Brain` folder) — this plugin only calls it and relays what it returns. The skill then says, in this shape,
   before the breadcrumb: *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the
-  Book link]. Open the Board in your browser: your Short-Form dot is green, and its page shows your two keywords, this
+  Book link]. Download the Board and open the file — it opens in your browser: your Short-Form dot is green, and its page shows your two keywords, this
   week's posts and your workflows."* When the session can show a file in the chat, show the Board file itself as well
   as the link. If the Board or the Book could not rebuild, say which, plainly, with the phrase that retries it
   ("refresh my brain board" / "show me my Brain") — never claim an update that did not happen. A demo Brain gets the
@@ -381,7 +382,7 @@ Monthly Calendar Refill and the Monthly Deep Dive.
 | Workflow | Task id | Owner | Switched on | When |
 |---|---|---|---|---|
 | Monday Week Plan — the week's scripts, captions and stories drafted onto the board + a week brief; the win and welcome posts inside it | `attraction-sf-week-plan` | `sf-week-plan` | **by the one Yes** | Mondays, 7:00 am |
-| Sunday Batch Prep — the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | `attraction-sf-batch-prep` | `sf-batch-publish` | **by the one Yes** | the evening before the batch day, 6:00 pm |
+| Batch Prep — the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | `attraction-sf-batch-prep` | `sf-batch-publish` | **by the one Yes** | the evening before the batch day, 6:00 pm |
 | Wednesday Brokerage News Watch (the owner, 2026-11-14: "important") — three to six REAL headlines from the last 30 days, found by a live web search and cited (title · outlet · date · the link), never invented, each with a 30-second green-screen take in the member's angle; one doc, ONE card on the Notion board (the week's green-screen slot filled with the best take, the alternates inside it with their links — never one card per headline), the text in `exports/` | `attraction-sf-news-watch` | `sf-greenscreen` | **by the one Yes** | Wednesdays, 8:00 am |
 | Monthly Calendar Refill — the next thirty days from the pillars, the branches and what performed; the board refilled; the step to five proposed once a month at three has held | `attraction-sf-calendar-refill` | `sf-gameplan` | **by the one Yes** | the last Friday of the month, 5:00 pm |
 | Keyword Follow-up Queue — who commented or DMed a keyword since last time, the next DM in the ladder drafted | `attraction-sf-keyword-queue` | `sf-comment-to-dm` | by phrase | Tuesdays and Thursdays |

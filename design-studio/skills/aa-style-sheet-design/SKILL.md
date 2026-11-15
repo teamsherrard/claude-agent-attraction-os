@@ -223,7 +223,8 @@ present the two options.
 - **Three tests decide the direction.** The sheet should make an agent answer yes to **authority**
   (can this person help me?), **relatability** (do I connect with them?), and **aspiration** (do I
   want the standard they represent?). The Book's "Who you are" section names which of the three is
-  strongest today; the sheet leans into that one and never fakes the others (a newer leader's sheet
+  strongest today when it carries that line — when it does not, read it from the brief's mood and motifs
+  and the Book's story, and never ask; the sheet leans into that one and never fakes the others (a newer leader's sheet
   reads "learning in public, with a system", not "empire").
 - **Brand shape, recorded once.** From the brief: *one brand, my name, with a leader lane* (buyers,
   sellers, and agents see one identity; the attraction content is a lane) or *separate leader brand*
@@ -302,12 +303,18 @@ Never build one sheet. EVERY run produces **two complete variations side by side
 
 ## STEP 2 — CANVAS & SIZING (CRITICAL — GET THIS RIGHT FIRST)
 
-A TALL, NARROW, VERTICAL document — portrait, roughly 1:3 to 1:3.5, around 800px wide, growing taller
-as needed rather than cramming. Every section is a full-width horizontal BAND stacked vertically. Never
+A TALL, NARROW, VERTICAL document — portrait, around 800px wide and as tall as the ten bands need
+(expect about 1:8 to 1:10, 6,500 to 8,000px; a dry run of seven bands alone ran 1:7.5 — never squeeze it
+toward a shorter ratio), growing taller as needed rather than cramming. Every section is a full-width horizontal BAND stacked vertically. Never
 a landscape rectangle, a square, or a multi-column mood-board grid. **Centre it and make it viewable:**
 the finished sheet opens horizontally centred with even margins on a calm neutral ground, comfortably
 zoomable and scrollable — never pinned to a corner as a tiny strip. A perfect design delivered as a
 miniature column is a FAILED render; fix the wrapper, not the design.
+
+**The sheet's own numbers (at 800px wide):** outer margin 56px; every band 64px of padding top and bottom;
+section labels 13–14px bold spaced caps; notes, codes and usage lines 15–17px medium in the text colour —
+never under 14px, never grey. One hero only: the header's tagline or the drama band's line is the largest
+type on the sheet, and no specimen row outranks it.
 
 ## ART DIRECTION — MAKE IT LOOK PAID-FOR (not a template)
 
@@ -361,9 +368,11 @@ the execution, never the skeleton):
    its quiet corner.
 2. **Brand info** — **tone of voice in three words** (from the Book's "Your voice" section — the three words a
    stranger would use), **the mission or the one-line why** (the Book's one-liner, verbatim), and the
-   **4–6 brand words** displayed large; plus the slim strip that records *Brand shape* (one brand, leader
+   **4–6 brand words** displayed large (the member's own — from the brief's mood and feel words and the
+   Book's voice line — never invented); plus the slim strip that records *Brand shape* (one brand, leader
    lane / separate leader brand) · *Brand language(s)* · *Leads with* (authority / relatability /
-   aspiration — the one the Book says is strongest) and two "sounds like / never sounds like" lines, so
+   aspiration — the one the Book says is strongest, or the one you read from the brief and the story when
+   it does not say) and two "sounds like / never sounds like" lines, so
    the sheet carries the voice, not just the look.
 3. **Logo variations — the 3×2 grid** — three variations (stacked · horizontal · mark or wordmark
    alone) over the look's **textured dark ground**, the same three over **white** beneath; with two
@@ -386,7 +395,9 @@ the execution, never the skeleton):
    build the palette from the brief's colour story and the look's recipe: a dark anchor, a light tint
    ground, one or two brand hues, an accent or metallic, a neutral — 4 to 6 cards. **THE
    BROKERAGE-DISTINCT CHECK, printed:** a small line under the cards — "Stays distinct from
-   [brokerage]'s [colour family]" — so the rule travels with the sheet. **THE PAIRING TEST — print it,
+   [brokerage]'s [colour family]" — so the rule travels with the sheet. When the brief says the brokerage's
+   palette is not recorded, print no such line — never a claim you cannot check, never the brokerage's
+   colours from memory — and say once at the hand-over that the check runs when the palette is in the brief. **THE PAIRING TEST — print it,
    then prove it:** each card's label set in the colour that actually goes on it; if a label isn't
    comfortably readable, the pairing FAILS. Body-size text is only ever dark-on-light or light-on-dark;
    gold, champagne, blush, sage, and other light or metallic accents NEVER carry white text; no two
@@ -401,7 +412,8 @@ the execution, never the skeleton):
    extra letter spacing. **Optional TECHNICAL role** for members whose content is numbers-heavy: a clean
    mono face reserved for figures and dates — never headlines.
 6. **Text styles with real sizes** — five labelled rows set in the actual faces at the actual sizes
-   for a 1080px post: **Title** (110–150px, heavy), **Subtitle** (56–72px), **Body** (34–40px, never
+   for a 1080px post, drawn on a 1080px-wide strip scaled down to the sheet's width (about two-thirds — at
+   full size the Title row becomes the biggest thing on the sheet and beats the header): **Title** (110–150px, heavy), **Subtitle** (56–72px), **Body** (34–40px, never
    under ~32px), **Caption / eyebrow** (24–28px bold, high contrast), **Button** (the pill, 40–48px
    label); each row shows the style rendered, its size and weight printed beside it, and the one line
    on where it is used. These are the sizes the brand kit inherits.
@@ -420,8 +432,9 @@ the execution, never the skeleton):
 8. **The method and keyword devices** — two tiles in the look's geometry: the **method plate** (the
    name of the member's method or program — the Book's "Your unique approach" — set as a label plate
    or a stamp the posts and title frames reuse) and the **keyword pill** (the shape every "Comment
-   [WORD]" ask will use; the word itself comes later from the member's Week 3 Kit, so show it as
-   "Comment [WORD]"). Never a skyline strip, a landmark set, a map pin or a scope line ("partners
+   [WORD]" ask will use — the word is the Week 3 Kit's keyword, chapter 1's `Next step` row, when the kit is
+   in the project; without the kit the pill shows the one word "Comment" beside an empty ruled slot drawn as
+   part of the device — never a bracket or a stand-in word inside the artwork). Never a skyline strip, a landmark set, a map pin or a scope line ("partners
    statewide") — a coaching brand for agents is placeless and sells no houses.
 9. **Applications — three to five FLAT mockups**, straight-on, each filling its frame like a design file
    (never a phone, a 3D render, a photographed product, or a print piece — no cards, signs, flyers or
@@ -454,7 +467,8 @@ The applications band always includes ONE flat, ready-to-post CTA graphic design
 brand — the post a leader actually publishes to start conversations with agents. FLAT, straight-on,
 filling its frame like the design file — NOT a phone, NOT a 3D render, NOT a mockup scene.
 
-- **Format:** square (1080×1080) or portrait (4:5).
+- **Format:** portrait 1080×1350 by default (the brand kit's default); square 1080×1080 only when the
+  member asks.
 - **Layout:** the member's logo at the top; their photo prominent to one side or the bottom (a true
   cut-out, or the framed portrait or the panel for a normal headshot — the craft standard's §6);
   the rest a clean brand-colour field or two-tone split using a divider from the toolkit.
@@ -464,6 +478,10 @@ filling its frame like the design file — NOT a phone, NOT a 3D render, NOT a m
   line written here: no join line, no tier, no headline of your own (the register rule); never a
   line about another brokerage or person; never a compensation or income word; never a consumer
   realtor line.
+- **Support line (one):** under the headline, one more line the member already owns, verbatim, so a
+  stranger knows what the call is about — when the headline is the tagline, the Book's one line or the
+  kit's `The promise` row; when the headline is already the promise, none is needed. A tagline alone over
+  a button reads as decoration.
 - **CTA:** "Book a call with me" as a pill or highlighted line — the ask every leader's kit carries;
   the exact booking line is the kit's (chapter 1's `Next step` row) when the kit is in the project.
 - **Contact bar:** a slim bottom bar with the booking link · handle · email, the brokerage name and
@@ -530,8 +548,8 @@ piece's own checks below.
 - The visual quotas: ≥3 non-white body bands, the accent working in every band, one drama moment,
   textures at real strength, bands alternating, the thumbnail reading as a designed poster?
 - The showcase FLAT and head-on, with the logo, the member's photo prominent (a true cut-out, a framed
-  portrait or a panel — the craft standard's §6), a headline aimed at the primary
-  type of agent, "Book a call with me", and a contact bar with the compliance strip?
+  portrait or a panel — the craft standard's §6), a headline the member already owns with a support
+  line that says what the call is about, "Book a call with me", and a contact bar with the compliance strip?
 - The elements trio named in plain words (the mark device · the shape device · the texture or gradient
   device), the win-card frame and the quote device present, the member's motifs visible in them?
 - The brand-words band records brand shape, language, and which of the three tests leads?

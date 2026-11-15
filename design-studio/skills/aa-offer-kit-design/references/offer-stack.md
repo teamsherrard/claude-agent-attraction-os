@@ -141,6 +141,10 @@ Map each stack item to a dimensional object so the pile reads as real things, no
 
 **Count:** 4–8 tiers read at a glance. More than 8 → keep the kit's order and group into three bands
 (*day one* · *included* · *discounted*), each band one object with its items listed on its face.
+**Sizes on the band path (the 2400 canvas):** the band's name 84px or more — with the product's title it is
+all a phone can read; each item's lead line 40–44px bold over a 34–38px second line, the tag a small pill at
+the row's end — these read on the wide version, the one-pager and a shared screen, never on a phone, so never
+shrink the band names to fit more rows.
 **Every object is designed** — consistent geometry, one angle, one light — never clip-art, never an
 icon dropped in a box. The member's real screenshots are textures only when they dropped them; a
 designed face is always better than a fabricated screenshot.
@@ -151,7 +155,7 @@ Build every piece as ONE inline `<svg data-file="…">` at its exact size from i
 export-page contract), in STAGES with a checkpoint after each — never one giant render:
 
 1. **`offer-stack-object.png` — the stack alone, TRANSPARENT.** 2400×2400 canvas, the pile centred
-   with margin, no ground, no headline — only the objects and their tier labels. This is the object the
+   with at least 100px clear on every side, no ground, no headline — only the objects and their tier labels. This is the object the
    1-pager, the deck, and the funnel reuse, so it ships first. CHECKPOINT: every row present in
    chapter 2's order, every label verbatim, nothing truncated, the product on top matching its canonical
    cover exactly.
@@ -172,8 +176,12 @@ export-page contract), in STAGES with a checkpoint after each — never one gian
   the same side, with a soft contact shadow — never a pile where each tier was rendered differently.
 - **Stepped, not buried.** Offset the tiers so every label reads; the top tier is the largest and the
   nearest; nothing hides behind the tier above it.
-- **Labels obey the type scale:** tier name BOLD, never under ~36px at 1080 width (the wide version
-  scales proportionally); the value line smaller, high contrast, never tone-on-tone; the accent on ONE
+- **Reads on both grounds.** The object is reused on the dark register and the light one, so no tier borrows
+  its outline from the ground: every face carries its own lighter top edge and darker side. Look at it once
+  on each ground before it ships (a green tier vanishes on a green slide).
+- **Labels obey the type scale:** the tier's lead line — the outcome, its first letter capitalised — BOLD,
+  never under ~36px at 1080 width (the wide version scales proportionally; on the band path that floor is
+  the band's name); what the thing is, and its tag, smaller, high contrast, never tone-on-tone; the accent on ONE
   thing per piece (the CTA, or the hero tier's edge) — never every tier in a different colour.
 - **Finish:** clean vector geometry with a tasteful depth — soft gradients and shadows, never glow,
   harsh drop shadows, warped perspective, or photoreal clutter. **The fallback:** if a dimensional

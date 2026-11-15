@@ -62,7 +62,7 @@ magnet pdf'."* — and stop.
 
 ## WHAT MAKES THIS ONE GOOD (the five things that decide it — hold them through every step)
 
-1. **The cover sells the read at thumbnail size.** The title is legible when the cover is 200 pixels wide,
+1. **The cover sells the read at thumbnail size.** The title is legible when the cover is 150 pixels wide,
    because that is how most agents first meet it.
 2. **A real book grid.** The same margins, the same footer, the same heading rhythm on every page; body text at
    a comfortable reading size and line length.
@@ -389,6 +389,13 @@ files"** button (zip: `guide-files.zip`). Set the constants for this skill: `KIT
 `guide-notes.md`; `ZIP_NAME` = `guide-files.zip`; `EXPORT_NOTES_FILE` = `guide-notes.md` (the guide
 name, the promise line, the page list, the cover's colours and fonts, one line of alt text per picture,
 and the standing line *"This cover is canonical — every mockup reproduces it."*).
+
+**One cover, built once.** `guide-cover.png` IS the PDF's cover page: build the cover as the inline
+`<svg data-file="guide-cover.png" width="1700" height="2200" viewBox="0 0 2550 3300">` the button exports,
+and show that same SVG, scaled to the frame, as the first page — never a second, redrawn cover. Inside
+every picture the button exports, the words are real SVG text with the line breaks set by hand — never
+`<foreignObject>` (the button stops with "Tainted canvases may not be exported"; tested in Chrome,
+2026-11-14).
 
 Then tell the member: export the PDF from the Export menu under that name; click **Download your guide
 files** on the board's last page; the status line must end in "complete"; do the 30-second transparency

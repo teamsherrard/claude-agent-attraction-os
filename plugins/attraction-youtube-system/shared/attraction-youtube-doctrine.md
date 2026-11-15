@@ -460,8 +460,9 @@ conversations and calls per video, never income.
 - **CTR benchmark (`/97`):** 6–10% after the first month; re-title and re-thumbnail the laggards; test three
   thumbnails.
 - **The attraction metrics (VIP day, this OS):** which videos produced agent DMs, comments, conversations, and
-  booked calls — logged per video by `yt-leads` and `yt-analytics` into `memory/content-log.md` and the
-  scorecard's weekly rows. Ask every new conversation "which video made you reach out?"
+  booked calls — logged per video by `yt-leads` and `yt-analytics` into `memory/content-log.md`. The scorecard is
+  the Brain's: this system only READS it (the Targets, the weekly rows, its word — Ahead · On pace · Behind) and
+  never writes a row there. Ask every new conversation "which video made you reach out?"
 - **Iterate (`/94`):** get started, don't overcomplicate, embrace the journey, "done is better than perfect."
 
 ## 15. The cardinal rules, and what never goes in public content

@@ -50,7 +50,9 @@ SUMMARY table (chapter 1), placed:**
 3. The **role line** under the name — the bios' identity line or chapter 1's `Program` row ("Team
    leader · The Lakeline Collective", "Mentor to new agents"). *(who you are)*
 4. The **who-you-help row** — chapter 1's `For` row in plain words with chevron bullets ("New agents ·
-   Agents paying for leads · Top producers"). *(who you help)*
+   Agents paying for leads · Top producers"). A `For` row written as one sentence is split at its own
+   commas, one chevron row per clause, words unchanged; where the clauses will not fit, keep the first one
+   or two — never a paraphrase. *(who you help)*
 5. The **positioning line** — chapter 1's `The promise` row, verbatim: who you help + what you help
    them do in one sentence ("I help agents in years 2–5 build a pipeline that doesn't need a lead
    bill"). *(what you help them do)*
@@ -68,20 +70,33 @@ SUMMARY table (chapter 1), placed:**
 
 If any of items 2–10 is missing, the banner is WRONG — add it before presenting.
 
+**Ten items, one thin strip — rank them, never shrink them all alike** (a dry run, 2026-11-14: nine equal items
+collided in 423px and the positioning line fell to fine print on a phone). The name, the positioning line, the CTA
+with its link, and the photo get the height and sit in the centre. The role line, the who-you-help rows, the proof
+chip and the handle are quiet single columns at the two outer ends. When the strip is still too full, things give
+way in this order: the who-you-help rows shorten to their first clause, then the handle joins the contact line,
+then the chip goes — nothing in the centre ever gives way, and the compliance strip always stays.
+
 **Photo treatment (fix the "weird headshot").** A clean **cut-out of the member** placed in its own column and sized large — only when the file truly has a
 see-through background — OR, for a normal headshot, a straight rounded-rectangle photo panel (the craft
 standard's §6: never fake a cut-out) — NOT a tall
-awkward arch, a partial outline, or an odd mask. **THE FULL-HEAD RULE:** the ENTIRE head is visible —
+awkward arch, a partial outline, or an odd mask. **On a banner the photo keeps its own shape:** as wide
+as the full head allows at the banner's height (about 300–450px on the 423px YouTube strip) — the framed
+portrait, the look's own photo device (the taped print) or a panel that narrow — never a panel stretched
+across a third of the banner, which crops the head. **THE FULL-HEAD RULE:** the ENTIRE head is visible —
 top of the hair to the shoulders — with clear air above. If the composition would clip the head, scale
 the photo DOWN or reposition it. Expressive shots on content pieces; the clean headshot on trust pieces.
 
 - **YouTube banner — 2560 × 1440 full canvas, ALL content inside the centred 2560 × 423 safe strip**
   (`banner-youtube.png`). YouTube rejects uploads smaller than 2048×1152, so the file is the full
   canvas — but every element lives inside the vertically centred 2560×423 strip, because that strip is
-  all that shows on desktop (TVs see the full canvas; phones slightly more than the strip). Design the
-  strip exactly like the other banners — one wide, fully filled band: logo + role line + who-you-help
-  row (left), **name + positioning line + CTA + contact + proof chip** (centre), the **large photo**
-  (right). Then EXTEND the brand background (gradient, texture, the treated photo, the ghost mark —
+  all that shows on desktop (TVs see the full canvas; **a phone shows only the centre 1546×423**). Design the
+  strip as one wide, fully filled band, **built from the centre out**: the centre 1546px (x 507 to 2053)
+  holds the **name + positioning line + CTA with the booking link + the photo at its right end** and the
+  compliance strip; the outer 507px on each side — desktop and TV only — hold what a phone can lose: the
+  logo + role line + who-you-help row (left), the proof chip + the handle (right), each a whole element,
+  never straddling the 507 or the 2053 line (a word cut in half on a phone is a failed banner). Rows in
+  the outer zones may drop to 24–28px bold; a phone never shows them. Then EXTEND the brand background (gradient, texture, the treated photo, the ghost mark —
   background art only, never content) to fill the full 1440 height edge to edge. NEVER draw a dashed
   safe-area box, guide lines, or empty margins.
 - **THE BLEED IS DESIGNED, NOT EMPTY.** The canvas outside the strip is finished background art at
@@ -123,16 +138,21 @@ face) sit inside the centre-square region; footer and CTA bands may run to the e
 
 1. **The Agent-win post** (`post-win.png`) — the culture, proven. **The formula:** (a) **Full-bleed** —
    the agent's photo (with permission) fills the top 55–70% and FADES into a rich brand band below; or
-   (b) **Framed window** — the photo sits in the win-card frame from the Design System on a rich brand
-   ground. **The zones INTERLOCK** (the photo fading into the band, the frame overlapping it, or the
+   (b) **Framed window** — the photo sits in the win-card frame from the Design System (the window 55–70%
+   of the canvas height) on a rich brand ground. **The zones INTERLOCK** (the photo fading into the band, the frame overlapping it, or the
    member's small cut-out across the seam) — two stacked rectangles that never touch is a failed post.
    **The status word is the type hero** — "WELCOME", "FIRST DEAL", "MILESTONE", "CLOSED #10", "AWARD" (via
    the winStatus tweak; "CAPPED" only where the compliance line's rev-share marketing policy
-   allows it) — two-tone or metallic, with the agent's first name beside it, a one-line detail
+   allows it) — in the locked look's own type and case (a classic, quiet look sets "Milestone" in its
+   serif, mixed case; caps, two-tone or metallic only where the look's recipe uses them and the brief's
+   avoid list allows), with the agent's first name beside or under it, a one-line detail
    ("3 buyers under contract in her first 60 days" — the member's own words, never an invented number),
    and ONE slim contact bar with the compliance strip. **The empty template still looks DESIGNED:** the
    placeholder IS the framed window with a small "Your agent's photo" label in brand type; NEVER app UI
-   in the artwork. Nothing about what the agent earns.
+   in the artwork. **No agent with permission yet:** the name slot reads "Your agent's first name" and the
+   detail line "What happened, in your words", in the same quiet brand type as the photo label — designed
+   slots, never a bracket, never a real name without permission, never an invented result. Nothing about
+   what the agent earns.
 2. **The Teaching post** (`post-teach.png`) — authority. The member's expressive cut-out on a clean
    brand ground, a big headline that is ONE real thing they teach (chapter 1's `The method` row, or
    without the kit the Book's known-for line or the strategy in "Your unique approach" — "The 7pm text

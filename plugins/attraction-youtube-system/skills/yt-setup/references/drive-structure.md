@@ -7,7 +7,8 @@ Drive or OneDrive — the provider is in `config.md`; the operation mapping is
 `${CLAUDE_PLUGIN_ROOT}/shared/connectors.md` (a byte-identical copy of the Brain's `connectors.md`; a release check
 verifies they match). **Beside every document, its text goes to `~/attraction-brain/exports/`** (the Brain syncs
 `exports/*.txt`; the Brain Board's YouTube page reads them): `channel-kit-YYYY-MM-DD.txt` ·
-`youtube-game-plan-YYYY-MM-DD.txt` · `youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt`.
+`youtube-game-plan-YYYY-MM-DD.txt` · `youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt` ·
+`youtube-read-YYYY-MM-DD.txt` (the deep dive and the on-demand video read — `yt-analytics`).
 
 ## The buckets this plugin uses
 ```
@@ -18,7 +19,7 @@ verifies they match). **Beside every document, its text goes to `~/attraction-br
 │   ├── Long-Form/                   ← THIS PLUGIN'S HOME
 │   │   ├── 🎬 [Name]'s YouTube Game Plan — YYYY-MM-DD      (yt-gameplan; dated; newest is current; text → exports/youtube-game-plan-YYYY-MM-DD.txt)
 │   │   ├── Channel Page Kit — YYYY-MM-DD                   (yt-setup; text → exports/channel-kit-YYYY-MM-DD.txt)
-│   │   ├── YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD      (yt-analytics; dated)
+│   │   ├── YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD      (yt-analytics; dated; text → exports/youtube-read-YYYY-MM-DD.txt)
 │   │   ├── Monthly Channel Review — [Month YYYY] — YYYY-MM-DD (yt-triggers' scheduled run; dated; text → exports/youtube-review-YYYY-MM-DD.txt)
 │   │   └── YYYY-MM-DD · [Video Title]/                     (created when the video is drafted or made, never before)
 │   │         ├── Kickoff Brief — [title] — YYYY-MM-DD      (the Monday Kickoff — the brief, the script start or the interview guide, the thumbnail brief, the SEO start; text → exports/youtube-kickoff-YYYY-MM-DD.txt)
@@ -49,7 +50,7 @@ chat-driven and reads state live (the Brain, the content log, the channel, the b
   `Thumbnail Brief — [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
   `Interview Prep — [guest] — YYYY-MM-DD` · `Model Breakdown — [title] — YYYY-MM-DD`
 - Exports (the text beside the document, in `~/attraction-brain/exports/`): `channel-kit-YYYY-MM-DD.txt` · `youtube-game-plan-YYYY-MM-DD.txt` ·
-  `youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt`
+  `youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt` · `youtube-read-YYYY-MM-DD.txt`
 Dates are always `YYYY-MM-DD` so folders sort. Same name, same spot, every time.
 
 ## Where state lives (the system is essentially stateless)

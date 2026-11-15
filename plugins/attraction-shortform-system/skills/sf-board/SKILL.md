@@ -41,7 +41,7 @@ exist.
 
 ## Three modes (detect from the message)
 - **A · CONNECT / FIND** — "my attraction content board", "attraction content dashboard": Steps 1–2.
-- **B · A PIECE** — a workflow finished a Reel, story set, green screen, or carousel and the member wants it
+- **B · A PIECE** — a workflow finished a Reel, a green screen or a carousel (never a story set — stories are not cards) and the member wants it
   tracked ("put my reels on the board"): Step 3.
 - **C · MAP THE NEXT 30 DAYS** — "map my next 30 days", "map my reels onto my board", or run from setup Step 4
   / after the Game Plan: Steps 1–2, then Step 4. "Update my short-form board" = Step 4's reconcile.
@@ -73,12 +73,11 @@ immediately and push** (the YouTube system shares it in a later week and adds it
 Brain Board).
 
 ## Step 3 — Cards for pieces (how the workflows use this)
-When a workflow finishes a piece (Reel script, story set, green screen, carousel) and the member wants it tracked:
+When a workflow finishes a piece (Reel script, green screen, carousel — never a story set) and the member wants it tracked:
 - **Find first, never duplicate** (spec two-way sync): match by System ID (the calendar row's `sf-YYYY-MM-DD-NN`
   when the piece came from the calendar; otherwise a fresh `sf-YYYY-MM-DD-xx`), then exact title, then
   near-match; found → update that card (sections in the body replaced, never stacked); not found → add a card:
-  **Topic** (the hook) · **Format** (`Talking Head` for a Reel, `Green Screen`, `Carousel`, `Graphic` for a story
-  set or a designed post — the Format places the card on its tab) · **Pillar** — the OS name, written directly (the
+  **Topic** (the hook) · **Format** (`Talking Head` for a Reel, `Green Screen`, `Carousel`, `Graphic` for a designed post — the Format places the card on its tab) · **Pillar** — the OS name, written directly (the
   Pillar column, below) · **Context** (`• For:` the agent type / `• Rung:` the CTA rung + keyword) · **Post Package**
   link (the workspace doc) · Status `Ready to Film` (or `Scripted` for a carousel awaiting design; `Ready to Post` for
   a designed graphic whose file exists) · **Publishing Date** (its calendar slot).

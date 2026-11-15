@@ -95,16 +95,18 @@ Text instructions only; never rendered here.
 
 ---
 
-## The ask map (one rung per post, from `sf-comment-to-dm`'s ladder)
+## The ask map (one ask per post, from `sf-comment-to-dm`'s ladder)
 
-| Pillar | Default rung | The ask (the kit's CALLS TO ACTION line, verbatim) |
+**The call-ask rule (house rules #13 — the one rule everywhere):** GUIDE is the ask on most posts. The invitation (the offer's own word, or the kit's call line) is the ask on about one post in four — most naturally a Proof piece or a "what you get" piece. A Proof piece may carry the guide instead. Never two asks on one post. The six designed kit posts keep exactly the asks the kit printed.
+
+| Pillar | The ask | The words (the kit's CALLS TO ACTION line, verbatim) |
 |---|---|---|
-| **Authority** (what I teach — one step of the method) | Resource | "Comment GUIDE and I'll send you [the guide, in three words]." — the guide is the resource (`memory/magnets.md → ## Current magnet`); no live guide yet → the call line below, never a demanded guide |
-| **Perspective** (industry take) | Comment | "agree or disagree? tell me below" · "follow for the next one" — or the guide line when the take leads to it |
-| **Story** (the journey) | DM → the call | "If any of this sounds like your year, message me." then "Want my help running this, free? [the booking line]" |
-| **Proof** (agent wins, culture) | the call | "Want my help running this, free? [the booking line]" — permissioned wins only; the call is on every Proof piece |
-| **Personality** | Follow | "follow for the real side" — nothing more; never the call |
-| **The call ask** — about one post in four and every Proof post (the kit's cadence) | Call | the law's shape: the person · their help · free · to run this — join register "partner with me and it's free. Grab [the call]"; open register "I'll walk you through it, free, no strings." — never the brokerage as the reason, never compensation |
+| **Authority** (what I teach — one step of the method) | GUIDE | "Comment GUIDE and I'll send you [the guide, in three words]." — the guide is the resource (`memory/magnets.md → ## Current magnet`); no live guide yet → the call line below, never a demanded guide |
+| **Perspective** (industry take) | follow, save or share (or GUIDE) | "agree or disagree? tell me below" · "follow for the next one" — or the guide line when the take leads to it |
+| **Story** (the journey) | GUIDE or the invitation | the guide line when the story teaches; when the story is the why-join-me moment, ONE of "If any of this sounds like your year, message me." · "Want my help running this, free? [the booking line]" — never both |
+| **Proof** (agent wins, culture) | the invitation or GUIDE | "Want my help running this, free? [the booking line]" — permissioned wins only; a Proof piece is the most natural place for the invitation and may carry the guide line instead |
+| **Personality** | follow | "follow for the real side" — nothing more; never a keyword, never the call |
+| **The invitation** — about one post in four, most naturally a Proof piece or a "what you get" piece | the call line, or the offer's word | the law's shape: the person · their help · free · to run this — join register "partner with me and it's free. Grab [the call]"; open register "I'll walk you through it, free, no strings." — never the brokerage as the reason, never compensation |
 
 Rules: one keyword per post, said once on camera and written once in the caption; the keyword is pinned as the
 first comment; every resource ask points to something that exists; **no compensation, rev share, splits, caps,

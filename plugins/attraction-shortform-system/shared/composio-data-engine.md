@@ -36,7 +36,7 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
   stays silent. (2) The toolkits have an **active connection** — the member signed in through it
   (`sf-analytics`: Instagram, a Business/Creator account, plus YouTube; `yt-analytics`: YouTube). The
   search/execute response says when they don't ("no active connection"): that is the ONE moment for the
-  offer-once sign-in, and **only the analytics skill may make it** — `COMPOSIO_MANAGE_CONNECTIONS` with
+  one-time sign-in (stated once as the next step, never asked twice), and **only the analytics skill may make it** — `COMPOSIO_MANAGE_CONNECTIONS` with
   `{"toolkits":[{"name":"instagram","action":"add"},{"name":"youtube","action":"add"}]}` (`yt-analytics`:
   the `youtube` entry only) → show each returned link as a markdown link → the member logs in and says
   "done" → `action: "list"` to confirm `active` → pull. Record the answer once, in the analytics skill's own
@@ -158,7 +158,7 @@ PRO tier is switched on.
 6. **Channel page** — `YOUTUBE_LIST_USER_PLAYLISTS` + `YOUTUBE_LIST_CHANNEL_SECTIONS` (`mine=true`): do the
    playlists mirror the lanes (model · interview · Problem · Situation · Future); is the homepage laid out in
    the doctrine's order — the "[Model] explained" playlist first, then interviews, then the niche lanes? The
-   fix is `yt-setup`'s ("update my channel").
+   fix is `yt-setup`'s ("repair my channel for agents").
 7. **Comments** — try `YOUTUBE_LIST_COMMENT_THREADS2` (`videoId`, `order=relevance`, `maxResults=50`,
    `textFormat=plainText`) on the top 3 videos ONCE; read for prospect agents (intent or curiosity — answer
    today), the questions that repeat (→ next videos, counted), and unanswered comments; 403 → note it and

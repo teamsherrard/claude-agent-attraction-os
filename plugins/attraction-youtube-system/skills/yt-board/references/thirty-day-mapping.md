@@ -88,7 +88,7 @@ video reads write 📊 AFTER IT'S OUT; `yt-make-video` completes the card before
   `🗓 BOARD: next 30 days topped up ([n] cards)`.
 - **`yt-make-video` at publish** and **"update my attraction video board"**: the same count and pull.
 - **A plan refresh** (`yt-gameplan` on "refresh my attraction game plan") or **a cadence change** ("change my
-  cadence" — the step-up to two a week, or back to one): the new calendar's rows replace un-started `Idea` rows and
+  YouTube cadence" — the step-up to two a week, or back to one): the new calendar's rows replace un-started `Idea` rows and
   cards inside the window only when the titles or dates changed; `Scripted` and later rows and cards are never
   touched; the member hears one line about what moved.
 - **Status, one truth:** a row's Status in the Brain's calendar and its card's Status on the board move together —

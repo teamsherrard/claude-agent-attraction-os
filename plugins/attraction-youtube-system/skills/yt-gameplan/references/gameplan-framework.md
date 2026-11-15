@@ -148,9 +148,11 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
     rising across the 180 days as the library compounds)
   ÷ videos in 90 days at their cadence (≈ 13 at one a week · ≈ 26 at two)   → conversations PER VIDEO
 ```
-- Use the Brain's numbers; label every assumption the member did not state. If the per-video number looks
-  ambitious, say so and show the two levers: the cadence (the step-up to two a week after a month at one) and CTA
-  placement — never "make more income."
+- Use the Brain's numbers; label every assumption the member did not state. **No target in the Brain at all**
+  (`goals.md` empty, no scorecard Targets) → never a question: the math runs on a labeled default target, marked
+  `default — not your number yet`, and one line says "set my attraction goals" locks the member's own. If the
+  per-video number looks ambitious, say so and show the two levers: the cadence (the step-up to two a week after
+  a month at one) and CTA placement — never "make more income."
 - Translate to the leading indicators they control (videos published, interviews recorded, both CTAs in every
   video, comments answered, DMs started) and the lagging ones they watch (CTR 6–10% after month one, watch
   time, inbound DMs, calls booked, agents partnered — from `goals.md`).
@@ -177,7 +179,7 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
   slot, M1-I1 the first interview); the month tags are arc positions — the ratio never bends to them.
 - Days 91–180 as the direction only: which topics to cluster if they win · the evergreen model and
   career-transition videos · the machine rhythm (one or two videos a week + the short-form cadence + one or two
-  interviews a month + the weekly review).
+  interviews a month + the Monthly Channel Review).
 
 ## Tone + premium feel
 Honest, confident, encouraging, specific — a strategist who has done this a hundred times, not a hype guru.

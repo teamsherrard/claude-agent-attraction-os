@@ -61,7 +61,11 @@ Step 2 → `identity/offer.md` (the rest) · `identity/positioning.md` · `ident
 **Read now:** `identity/avatars.md` (who the video is for) · `memory/intel.md` (dated industry items — `title ·
 outlet · date · link` — that justify a re-make) · `identity/offer.md → ## Content branches` (the model video sits on
 the member's "what agents pay for vs what works" branch when there is one).
-Offer the list with one line of why each works; the member picks (or `yt-ideation` already did):
+**State the pick — never a menu.** A title the plan, the board, `yt-ideation` or the member's own request already
+names IS the video. Otherwise pick it here: the first type below that `memory/content-log.md` does not hold yet,
+top to bottom (a comparison only when the member asks for one), said in one line with its why, then built — *"I'm
+building '[Brokerage] Explained' — it's the video agents search before they move, and your channel doesn't have
+one yet. Tell me any time if you want a different one."* The types, in order, each with why it works:
 - **[Brokerage] Explained** — the full model, the flagship; re-made every year.
 - **[Brokerage] for new agents / for team leaders / for broker-owners** — the model through one avatar's eyes.
 - **Should you join [brokerage]? (the honest fit test)** — who it is right for and who it is not.
@@ -129,8 +133,9 @@ List what you changed, in one line, so the member sees the rule working.
 - **Title set** — three titles from the research list, the viewer's own words first (`97`); thumbnail text
   different from the title → `yt-thumbnail`.
 - **Re-make reminder** — the file's `Last reviewed` date + "re-make this when the model changes or in 12
-  months; each re-make is a new deposit in search" (`96`). Offer to add a row to `memory/deadlines.md` only
-  if the member says yes (through `attraction-capture` — this skill does not write that file).
+  months; each re-make is a new deposit in search" (`96`), then the phrase that keeps the date — stated, never
+  offered: *"To be reminded, say 'capture this for my attraction brain: re-make [title] by [Month YYYY]'."* On
+  that phrase the row in `memory/deadlines.md` is `attraction-capture`'s — this skill does not write that file.
 Save the outline + fact sheet as **Model Breakdown — [title] — YYYY-MM-DD** in `03 · Content/Long-Form/`
 inside this video's folder, rendered through `shared/render_doc.py` per `shared/doc-format.md` (the Model Breakdown
 skeleton). Append the `memory/content-log.md` row (Platform `YouTube` · Format `long-form` · **Pillar

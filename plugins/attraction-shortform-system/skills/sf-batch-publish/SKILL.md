@@ -3,15 +3,14 @@ name: sf-batch-publish
 description: >
   The Week 4 batch department for attraction content: the film-day plan that turns a pile of scripts
   into ONE recording session (grouped by location and outfit, in shot order, teleprompter cards on one
-  of the two keywords); the Sunday Batch Prep workflow that leaves those cards
-  waiting the evening before the batch day (on with the member's yes); and the batch publish that takes
-  a folder of FINISHED Reels, carousels, and stories, packages each per platform, and
-  schedules the whole run into the member's own tool after ONE review and ONE yes. Trigger on: "film
-  day for my attraction reels", "batch my attraction content", "plan my recording day for agents",
-  "teleprompter cards for my attraction scripts", "schedule my attraction batch", "schedule my folder of
-  attraction reels", "queue my month of attraction content", "publish this attraction batch", "turn on
-  my batch prep", "stop my batch prep", "run my batch prep", or any batch of short-form attraction
-  content. (One post = sf-publish.)
+  of the two keywords); the Batch Prep workflow that leaves those cards waiting the evening before the
+  batch day (on with the member's yes); and the batch publish that takes a folder of FINISHED Reels,
+  carousels, and stories, packages each per platform, and schedules the whole run into the member's
+  own tool after ONE review and ONE yes. Trigger on: "film day for my attraction reels", "batch my
+  attraction content", "plan my recording day for agents", "teleprompter cards for my attraction
+  scripts", "schedule my attraction batch", "schedule my folder of attraction reels", "queue my month
+  of attraction content", "publish this attraction batch", "turn on my batch prep", "stop my batch
+  prep", "run my batch prep", or any batch of short-form attraction content. (One post = sf-publish.)
 ---
 
 # Batch — the film day, then the whole run scheduled at once
@@ -56,14 +55,16 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
   `Comment keyword:` line; `Join-gated package allowed:` — the register of the call line), `memory/magnets.md → ## Current
   magnet` (the guide — GUIDE), the newest `exports/week3-kit-*.txt` (chapter 7's CALLS TO ACTION table — the spoken
   line, the pop-up, the end card, the caption line — and the six posts, finished graphics)
-- `config.md → ## Short-Form (Week 4)` — `Batch Prep task:` (a task id means the Sunday prep is on; its doc is in the
+- `config.md → ## Short-Form (Week 4)` — `Batch Prep task:` (a task id means Batch Prep is on; its doc is in the
   Content folder) · `Email me:`; an older Brain's block may carry the previous week number in its heading — read it
   the same
-- `identity/content-pillars.md` — the platforms and the pillar names; the 2·2·1 mix per week
+- `identity/content-pillars.md` — the platforms and the pillar names; the week's mix (`## Weekly mix`, the mirror of
+  `publishing.md → Weekly mix:` — 1 · 1 · 1 at the default three a week, 2 · 2 · 1 at five)
 - `memory/content-calendar.md` — the Game Plan's rows for the window (FILM DAY: the scripts the Monday Week Plan
   drafted are the default list; PUBLISH: each file's calendar date is its slot)
-- `identity/publishing.md` — `Batch day(s):`, the two keywords (`Keyword: GUIDE · [the offer's word]`), `Content
-  board:`, the posting tool and platforms (PUBLISH half)
+- `identity/publishing.md` — `Batch day(s):`, `Cadence:` and `Weekly mix:` (how many Reels a week and on what mix —
+  three on 1 · 1 · 1 by default), the two keywords (`Keyword: GUIDE · [the offer's word]`), `Content board:`, the
+  posting tool and platforms (PUBLISH half)
 - `identity/brand-visual.md` — outfit and background notes if the Design Package set them (FILM half)
 - `memory/content-log.md` — to match files to scripts (PUBLISH) and to avoid repeats
 - `identity/compliance.md` — the gate (Step 5)
@@ -72,7 +73,7 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
 
 ## FILM DAY (from scripts to recorded Reels)
 
-**The Sunday Batch Prep ran?** `config.md → Batch Prep task:` holds a task id and a `[YYYY-MM-DD] · Film-Day Plan`
+**Batch Prep ran?** `config.md → Batch Prep task:` holds a task id and a `[YYYY-MM-DD] · Film-Day Plan`
 dated this batch day sits in `03 · Content/Short-Form/[month]/` → open it, refresh only what changed since (a new
 script, a dropped one), and deliver; never rebuild from scratch. Otherwise:
 **Find the scripts first** — the `sf-talkinghead` / `sf-carousel` / `sf-greenscreen` output above you, in
@@ -169,10 +170,12 @@ minutes."* `set` → apply and remind once. `confirmed` → apply. The stamp (ho
 that promises the member's time per partner; permission confirmed on every named agent. "If empty, proceed" is banned.
 
 **Step 6 — Best times + the schedule.** Pull best-time-per-network from the tool; spread the pieces across
-the days at **three to five Reels a week on the 2·2·1 mix** (`07-instagram/88`), never two in one hour. If
-the folder is lopsided (all Authority, no Story; all Proof, no Personality), say so and suggest what is
-missing; do not block. Cap respected: never silently drop a post; trim to the strongest, fewer platforms, or
-the paid tier, their call.
+the days at **the member's cadence on the member's mix** — `publishing.md → Cadence:` and `Weekly mix:`: three a week
+on 1 · 1 · 1 by default, five on 2 · 2 · 1 only when the line says five (`07-instagram/88`) — never two in one
+hour. If the folder is lopsided (all Authority, no Story; all Proof, no Personality), say so and suggest what is
+missing; do not block. Cap respected: never silently drop a post — state the default in one line (the strongest
+posts queued on Instagram and Facebook up to the cap, the rest handed over as copy-paste packs; the paid tier
+lifts the cap), never a menu.
 
 **Step 7 — ONE review + ONE yes.** Save the proposed queue as a calendar doc per
 `${CLAUDE_PLUGIN_ROOT}/shared/output-standard.md` → `03 · Content/Short-Form/[YYYY-MM · Month]/`, named
@@ -194,7 +197,7 @@ Brain Board); if the push fails, say it is not saved, retry once, stop. Mirror c
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in
 your Content folder. Say 'how's my content doing' any time to see which of these started conversations."*
 
-## The scheduled workflow — Sunday Batch Prep (switched on by setup's one Yes; the evening before the batch day; this skill owns it)
+## The scheduled workflow — Batch Prep (switched on by setup's one Yes; the evening before the batch day; this skill owns it)
 The teleprompter doc, waiting the evening before the member's batch day: this week's scripts grouped by outfit and
 location, the hook three ways on every card, one of the two keywords on every ask — so the batch day starts with the
 cards, not with planning. **Provisioned only with the member's explicit yes, never silently.** The normal path is
@@ -226,12 +229,13 @@ evening before your batch day, 6:00 pm; name another time any time."*
       never filmed, queued as-is
 - [ ] Film day: honest time, cut to fit; grouped location → outfit → format; cards with the hook three ways, one of the
       two keywords on every ask (the call in the law's shape), the pop-up and end-card cue; reset, safety net,
-      permissions; nothing promises the member's time per partner; the Sunday doc opened, not rebuilt, when it exists
-- [ ] Publish: prerequisites said up front; every piece packaged per platform; 2·2·1 mix across the run
+      permissions; nothing promises the member's time per partner; the Batch Prep doc opened, not rebuilt, when it exists
+- [ ] Publish: prerequisites said up front; every piece packaged per platform; the member's mix across the run
+      (`Weekly mix:` — 1·1·1 at three a week, 2·2·1 at five)
 - [ ] Compliance read once for the batch; `unset` stopped it; stamp and permissions on every caption
 - [ ] Queue saved and approved ONCE before scheduling; cap respected; failures reported honestly
 - [ ] One content-log row per piece in the locked shape; pushed at once; board mirrored only if present
-- [ ] The Sunday Batch Prep provisioned by setup's one Yes or the member's phrase (a statement, never an offer),
+- [ ] Batch Prep provisioned by setup's one Yes or the member's phrase (a statement, never an offer),
       adopted not twinned, verified; the two config lines written to `## Short-Form (Week 4)` and pushed; its run saves
       the one doc, flips the cards when the board exists, emails only when `Email me: yes`, ends with a push, never
       posts

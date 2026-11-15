@@ -159,8 +159,9 @@ in chat (never a question card); everything else takes its default without a wor
    Events plugin writes it ("promo for my agent event" for the graphics, "run of show for my agent
    event" for the slides). Truly nowhere → ONE plain line in chat:
    *"Your Events plugin writes your event brief — say 'promo for my agent event' there. To start today,
-   tell me the title, the date and time with the time zone, where it is, who it's for and the link
-   people register at."* With those facts in hand, design the promo set and say the slides wait for
+   tell me the title, the date and time with the time zone, where it is and the link people register
+   at."* (Who it is for is never asked: read it from the Book's "Who your story speaks to" — a type of
+   agent, by career stage.) With those facts in hand, design the promo set and say the slides wait for
    the run of show; never invent an event, a date or a link.
 2. **Photos — whatever is in the chat and the project** — the member's expressive shots (mid-teach, on
    stage), the guest speakers' photos (with their OK), and for a repeat event the photos from last time
@@ -235,9 +236,11 @@ the Studio is digital-only — say so in one line.
 
 ## ART DIRECTION — ONE EVENT, ONE LOOK; ONE BRAND, EVERY EVENT
 
-- **The event has a title treatment** (set once on the feed flyer) that every piece and every slide
-  repeats — the member's brand type at a confident size, the accent on one word, the date chip in the
-  brand's pill. A member who runs a monthly event keeps the treatment and swaps the date (refresh mode).
+- **The event has a title treatment** (set once on the feed flyer) that every promo piece, every screen
+  and the deck's title slide repeat — the member's brand type at a confident size, the accent on one
+  word, the date chip in the brand's pill. Inside the deck the event's name rides in the footer only: a
+  date chip on a teaching slide is a second dark shape with no job. A member who runs a monthly event
+  keeps the treatment and swaps the date (refresh mode).
 - **Dark and light registers both appear** across the set (the flyer dark, the countdown light, or
   the reverse); type, accent, logo treatment, and devices identical, so the launch reads as one brand.
 - **The member fronts the flyer** — the expressive photo, full head with air, treated (a true cut-out only
@@ -309,11 +312,12 @@ piece's own checks below.
 - Every piece at its exact size, ONE inline `svg[data-file]` each (the deck as 1920×1080 frames in
   order, exported as a PDF)?
 - The copy spine complete on the flyers: topic as a benefit · FREE · date · time · TIMEZONE · where ·
-  who it's for · hosts · "Save your seat" + link or keyword · the compliance strip?
+  who it's for · hosts · what they leave with · "Save your seat" + link or keyword · the compliance
+  strip?
 - Brokerage-neutral on a live local event: no brokerage in the title, hero, or venue line; the strip
   only?
-- The title treatment and date chip identical across every piece and every slide; both registers
-  present across the set?
+- The title treatment and date chip identical across every promo piece, every screen and the title
+  slide (teaching slides: the event's name in the footer only); both registers present across the set?
 - The member's face treated, full head with air; guests with consent; no stock crowd; nothing
   overlaps or truncates; stories' key text out of the UI zones; the Zoom background's centre clear?
 - The countdown: the seven content frames in the brief's order, the brief's lines verbatim on each,
@@ -383,7 +387,9 @@ so all pieces change together.
   the timezone rule, and which screens exist.
 - **register** *(Dark-led / Light-led, default from the Design System)*.
 - **accentColor** *(the palette colours)*.
-- **heroStyle** *(Member cut-out / Room photo / Brand graphic, default Member cut-out)*.
+- **heroStyle** *(Member photo / Room photo / Brand graphic, default Member photo — a cut-out only when
+  the file itself has a see-through background; otherwise the framed portrait, the panel or the look's
+  window, the craft standard's §6)*.
 - **dateChip** *(editable text — the date · time · timezone line; changes it everywhere at once)*.
 - **showProofChip** *(toggle — enabled only when the Book holds a real credential)*.
 - **slideDensity** *(Spacious / Standard, default Spacious)*.

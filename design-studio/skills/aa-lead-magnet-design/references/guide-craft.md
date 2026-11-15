@@ -57,7 +57,7 @@ guide; when it is there, it renders like this — exactly as chapter 4's `The pa
 |---|---|
 | the cover page (`Title:` · `Subtitle:` · `Byline:` · `Hook:`) | the cover (above) |
 | the two "how to use this" lines on the opening page (`How to use this:`) | the opening page's closing strip — two short lines in a quiet band |
-| a quote set large (`Pull quote:`) | the page's one line set large — display size, the accent, generous air; the sentence a reader would screenshot |
+| a quote set large (`Pull quote:`) | the page's one line set large — display size, the accent (its deeper shade when the accent itself is under 4.5 to 1 on the page, as a mid copper or gold on cream is), generous air; the sentence a reader would screenshot |
 | a shaded box (`Callout:`) | a callout panel — a tinted box or a rule-bound aside, the brand's radius, body size |
 | a box list (`Checklist:`; 3–7 items, the next-step page's is 5) | real empty checkbox squares, one per item, grouped as the guide groups them; the tweak decides boxes vs numbered boxes |
 | blanks — `____` fill-in lines (`Template rows:`) | fill-in rows a reader can write on — a row label and a ruled line per blank, phone-legible at 100% |
@@ -135,8 +135,14 @@ bubbles or the card.
   own clearly labelled frame, in order ("Cover", "Page 1 — Why I wrote this", …, "What to do next",
   "Closing page", "Back page"); content inside a safe margin (~0.5–0.75 in); nothing touching an edge;
   nothing sitting outside the frame edge to be clipped when it becomes a PDF page.
+- **Sizes on this canvas are set in px, never in `pt`.** The frame is 300 px to the inch, so one point
+  is 4.17 px (a CSS `11pt` renders at a quarter of the size you meant): body 11–12pt = 46–50 px,
+  footnotes and the footer 9pt = 38 px, the safe margin 0.5–0.75 in = 150–225 px.
 - **Phone-readable at 100%:** body ≥ 11pt (chapter 4's floor), footnotes ≥ 9pt, contrast that passes on
   a phone, headers that read at a glance when the PDF opens small.
+- **A page the reader will screenshot is set bigger than body:** on the at-a-glance page, a checklist
+  page and the "what to do next" page, the lines to keep are 20pt or more (84 px and up) — the
+  screenshot test shows the whole page about 390 px wide, where body size no longer reads.
 - Build it as one cohesive document: the same grid, margins, type scale, accent, page numbers, the
   running footer, and the same element styles on every page.
 
@@ -217,7 +223,8 @@ frame of the PDF.
 ## LANGUAGE — THE GUIDE SPEAKS THE BRAND'S LANGUAGE(S)
 
 Designed cover-to-back in the member's brand language(s) from the Design System; the guide arrives in
-that language — if it doesn't, confirm which language the finished guide should be in before designing.
+that language — if it doesn't, design it in the guide's own language (the words are locked, never
+translated here) and say so in the opening line; never ask.
 Native copy throughout; numbers and dates formatted as the locale writes them; the regulated title with
 the member's name where the region has one (Québec: "courtier immobilier" / "courtière immobilière",
 never a literal translation); accents surviving headers and all-caps; a bilingual brand gets two guides,

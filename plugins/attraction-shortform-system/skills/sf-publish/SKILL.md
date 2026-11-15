@@ -7,7 +7,7 @@ description: >
   the two keywords, best-time slots, and a post drafted for the member's approval — on Metricool the
   review flow by default, so nothing posts without their yes even with a tool connected; the queue and
   the delivery verified. Logs the row to the Brain and pushes so the Brain Board shows it. Trigger on:
-  "schedule my attraction reel", "post this for agents", "connect my posting tool", "connected", "is my
+  "schedule my attraction reel", "post this for agents", "connect my posting tool", "is my
   attraction posting connected", "what's in my attraction queue", "did my attraction posts go out",
   "export my attraction posts", "set my best times for agents", or any request to schedule, connect,
   check, or verify the posting of short-form attraction content. (A whole folder or month =
@@ -104,7 +104,7 @@ during the setup journey itself — the connect is the member's click.
    stacked in one hour.
 4. **Media:** the video attaches by public URL or through the tool's linked Drive; otherwise the hybrid
    path: schedule the caption and slot and tell them plainly to drop the video onto it in the app.
-5. **Confirm in one line and wait:** *"posting your 'year-two' Reel to Instagram and TikTok tomorrow at
+5. **Confirm in one line and wait:** *"posting your 'year-two' Reel to Instagram and Facebook tomorrow at
    10am — good?"* A specific instruction ("schedule this Friday 2pm") is the yes; confirm and go. Anything
    vaguer, wait for the word.
 6. **Create it through the connected tool — the review flow is the default.** On Metricool:
@@ -121,7 +121,7 @@ Pull the range they asked for (`getScheduledPosts` on Metricool; the planner's l
 plain calendar list (date · time · platforms · the post in one line · "awaiting your review" / "scheduled"). Move or
 space posts on request (`updateScheduledPost`). Removing a post: show exactly what will be removed, get a yes, then
 remove where the connector can — or tell them plainly to delete it in the app (the Metricool connector has no
-delete). Flag an overloaded day or an empty week against the routine's three to five a week, and the free-plan cap
+delete). Flag an overloaded day or an empty week against the member's cadence (`Cadence:` — three a week by default), and the free-plan cap
 when the month's count is near it.
 
 ## Job D — Verify delivery + fix failures

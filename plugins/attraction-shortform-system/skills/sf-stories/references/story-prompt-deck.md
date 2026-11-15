@@ -19,7 +19,7 @@ Evening: the reflection or the personal moment. One to five a day; never a day w
 3. The routine — the 5am alarm, the gym, the prospecting block. "Discipline on a Tuesday."
 4. Planning an event — the venue, the list, the spreadsheet. "Something's coming for my agents."
 5. A question from the community, answered for everyone (with their okay) — "one problem, one fix — the lesson's in the vault."
-6. Recording day — the tripod, the notes. "Five Reels, one hour. Here's the plan."
+6. Recording day — the tripod, the notes. "Three Reels, one hour. Here's the plan."
 7. Building new training — the slide deck screenshot. "New lesson for my partners — dropping Friday."
 8. The morning after a hard day — "yesterday was rough. Here's what I'm doing about it today."
 9. A leader's desk — "what my Monday actually looks like."
@@ -55,7 +55,7 @@ Reply CTAs: "Reply with your win this week — I'll share it, with your OK" · "
 6. The down day — "not every day is a highlight. Here's what I do with the bad ones."
 7. Food for thought — a line from a book, a podcast, a conversation. "Chew on this."
 8. The thing from before real estate — the old job, the old town, the old you.
-9. A value, plainly — "why I still return every call the same day."
+9. A value, plainly — "why I still write every thank-you note by hand."
 10. The reason — the WHY line from the journey, on a quiet evening.
 Stickers: poll ("coffee or tea?" — small, human), question box ("what do you do outside of real estate?"), quiz.
 Reply CTAs: "Reply if you ride too" · "Reply with the book that changed your year."

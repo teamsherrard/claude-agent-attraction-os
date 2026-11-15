@@ -6,11 +6,12 @@ description: >
   first month, two as the step-up once one has held; interviews counted inside the 8-video cycle of 3
   niche · 1 model · 4 interviews), runs batch-day planning (which scripted videos to film together, the
   run-of-show, the interview bookings to line up), gentle check-ins against what actually shipped, the
-  month plan on the cycle, and the first-cycle ramp for a new channel. Calendar blocks only with the
-  member's yes. Reads the content-log and the interview pipeline; never nags. Trigger on: "plan my
-  attraction batch day", "keep me consistent on YouTube for agents", "am I on track with my attraction
-  videos", "plan my attraction month", "my attraction YouTube cadence", "what's my first 8-video cycle
-  for agents", "film day for my agent videos", "I fell off my attraction YouTube cadence".
+  month plan on the cycle, and the first-cycle ramp for a new channel. Calendar blocks only on the
+  member's own phrase. Reads the content-log and the interview pipeline; never nags. Trigger on: "plan
+  my attraction batch day", "keep me consistent on YouTube for agents", "am I on track with my
+  attraction videos", "plan my attraction month", "my attraction YouTube cadence", "what's my first
+  8-video cycle for agents", "film day for my agent videos", "block my attraction filming day", "I fell
+  off my attraction YouTube cadence".
 ---
 
 # Consistency Engine — the leader who keeps going wins
@@ -25,7 +26,7 @@ Channels do not fail on content; they fail because the leader stops. Trust is bu
   default is **one video a week for the first month** (the owner, 2026-11-14: twenty things at once overwhelms a
   working leader); Mike's **two a week** is the recommendation the plan names as the **step-up** — proposed by the
   Monthly Channel Review once a month at one has held, or sooner when `identity/goals.md`'s hours clearly carry it
-  or the member asks ("change my cadence"). The 8-video cycle holds at either pace (one cycle in eight weeks at one
+  or the member asks ("change my YouTube cadence"). The 8-video cycle holds at either pace (one cycle in eight weeks at one
   a week, four at two). `identity/content-pillars.md`'s cadence line is the short-form (Week 4) cadence — never
   read as the YouTube one.
 - **The two CTAs recorded together** are the kit's lines (the Week 3 Kit's chapter 7 CALLS TO ACTION table) — the
@@ -65,8 +66,10 @@ plan (default 3–4 — a month at one a week):
 - Produce the filming order and run-of-show: same setup groupings, the intros and the two CTAs (the kit's
   lines) recorded together, the interview intro recorded AFTER each interview (`95`), a shot checklist per video,
   the expression each thumbnail sheet asked for.
-- Offer a "Filming Day" block on their calendar — created only on an explicit yes, with the storage
-  provider's calendar connector; never silently.
+- Close with the filming day and the phrase that puts it on their calendar — stated, never offered: *"Your
+  filming day is [day]. Say 'block my attraction filming day' and it goes on your calendar."* The "Filming Day"
+  block is created only when the member says that phrase (their explicit yes), with the storage provider's
+  calendar connector; never silently.
 
 ## Check-ins ("am I on track")
 Compare shipped (content-log, Published rows) against the cadence and the cycle mix: how many of the last
@@ -75,14 +78,16 @@ line, no guilt: *"good to see you — your next video is '[title]'; say 'make my
 minutes."*
 Open `memory/scorecard.md` now and read its word (Ahead · On pace · Behind) if present; never recompute it here.
 One a week held for a month and the member asks about more → read `identity/goals.md`'s hours and say in one
-line whether two a week fits them; the change itself is "change my cadence" (the Game Plan writes the anchor).
+line whether two a week fits them; the change itself is "change my YouTube cadence" (the Game Plan writes the anchor).
 
 ## Plan my month
 Spread the next slots of the cycle across the member's weeks at their cadence (four at one a week: which bucket
 each week, which interview guest, which model video if the slot lands this month) — from the board's next 30 days
 when there is one (the dated cards ARE the month; read them, never re-seed), else from the Game Plan's calendar;
-suggest one batch day and the interview recording days; offer calendar blocks (consent) and the first video
-(`yt-make-video`). A simple plan in chat — never a spreadsheet.
+name one batch day and the interview recording days; close with the two next steps — stated, never offered:
+*"Say 'block my attraction filming day' and those days go on your calendar. Say 'make my attraction video:
+[title]' to start the first one."* (the calendar blocks only on that phrase — the member's explicit yes; the
+video is `yt-make-video`'s). A simple plan in chat — never a spreadsheet.
 
 ## The first cycle (new channels)
 At one a week the first month is **niche · interview · niche · model** — authority first, proof inside the first
@@ -93,5 +98,6 @@ into what produced conversations. The 180-day plan lives in the doctrine; delive
 
 ## Rules
 - Never nag, never guilt; momentum over pressure.
-- Nothing is scheduled, posted, or sent here. Calendar blocks only on a yes.
+- Nothing is scheduled, posted, or sent here. Calendar blocks only when the member says the phrase ("block my
+  attraction filming day") — named once as a statement, never offered, never silent.
 - Plain language: "your plan", "your next video" — never file names or skill names.

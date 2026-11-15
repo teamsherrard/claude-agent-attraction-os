@@ -192,7 +192,7 @@ before a page layout `notion://docs/database-page-layouts`, before page content 
   ID), **the first cards the six Week 3 Kit posts** (designed already — Format `Carousel` for the carousels,
   `Graphic` for the single graphics, Status `Ready to Post`: designed, only the posting is left — never `Recorded`), then the Reels; the Monday Week
   Plan keeps 30 days visible, and the Wednesday news watch fills that week's green-screen card with the best take and keeps the other takes inside the card as alternates, each with its link — ONE card a week, never one per headline (the owner, 2026-11-14: the board stays calm). Each
-  workflow (talking head / green screen / carousel / stories) **adds its post's row** when the piece is made
+  workflow (talking head / green screen / carousel — never stories: stories are not cards) **adds its post's row** when the piece is made
   (`Ready to Film`, or `Scripted` for a carousel still waiting on its slides; Format + Pillar set, the package link
   attached, the full package in the body) and flips it to `Published` when the member confirms it went out
   (`sf-publish` / `sf-batch-publish`: scheduling sets the Publishing Date only). The Brain's `memory/content-log.md`

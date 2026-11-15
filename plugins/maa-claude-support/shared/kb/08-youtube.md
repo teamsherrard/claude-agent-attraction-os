@@ -1,4 +1,4 @@
-# YouTube (Week 4)
+# YouTube (Week 5)
 
 YouTube is Mike's king platform for agent attraction: intent-based, evergreen, compounding, and the channel that made him the top attractor at his brokerage every year. This module tells his journey (157 views after year one, 1,700 subscribers after three years, zero deals, then everything changed), the three content types that attract (niche value, agent interviews, model breakdowns), how to build niche content and never run out of ideas, how to run interviews where the agent is the star, how to do fair model breakdowns, why titles and thumbnails matter most, the warm casual call to action that turns views into booked calls, and how to build a binge-worthy channel.
 

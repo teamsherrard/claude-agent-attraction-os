@@ -24,11 +24,14 @@ the LOWER THIRD.
   small tab ABOVE the bar's right corner (x 1600 → 1760, y 710 → 766), never inside the bar.
   High-contrast field (a dark panel for white type, or light for dark type — pick from the brand and
   keep it for every piece).
-- **Name strip:** bottom-left, x 96 → 1150 (about 55% of the frame), y 860 → 1010 (150 tall). Line 1:
+- **Name strip:** bottom-left, x 96 → 1150 at most (about 55% of the frame; the panel ends 48 px after
+  its longest line — a short name on the full bar leaves a dead panel), y 860 → 1010 (150 tall). Line 1:
   the name, 64 px+ bold. Line 2: the role line · the brokerage on ONE line at 40 px+ ("Team leader ·
   The Lakeline Collective · Real Broker, LLC" — the role line is who the member is to agents, from the Book's "Who you are" lines; the regulated title only where the Book confirms it; the brokerage only
-  where the member's rules require it on video). About 48 characters fit at 40 px: when the role line
-  plus the required brokerage runs longer, shorten the role line ("Team leader · Real Broker, LLC") —
+  where the member's rules require it on video). About 40 characters fit at 40 px beside the mark (the
+  strip less the 150 px mark and 32 px of padding each side is 840 px; a character runs about 0.52 × the
+  size — a 45-character line, rendered, ran off the panel): when the role line plus the required brokerage
+  runs longer — the example above does — shorten the role line ("Team leader · Real Broker, LLC") —
   never the brokerage, never the type. Logo mark or headshot circle at the left end, no taller than the
   strip. The licence number, where required, lives on the CTA banner and the end card — the strip stays
   two lines, 150 tall. This is the piece agents notice first on other leaders' videos; make it feel like
@@ -43,7 +46,10 @@ the LOWER THIRD.
   two-row layout: row 1 the CTA line full width (y 764 → 828), row 2 the pill (56 tall, 44 px text) at
   the left with the compliance line at 32 px to its right, both vertically centred (y 852 → 908). The
   pill carries the link or handle in the accent colour with text in the panel colour (white on a
-  saturated accent fails 4.5:1). If a headshot is attached and showHeadshot is on, a 120 px circle crop
+  saturated accent fails 4.5:1). Measure that pair too: where the panel colour on the accent is also
+  under 4.5:1 (a mid-tone accent on a dark panel — copper on a deep green is about 2.6:1), the pill takes
+  the kit's light colour with the panel colour as its text, and the accent stays on the stripe. If a
+  headshot is attached and showHeadshot is on, a 120 px circle crop
   sits at the left end and the ask shifts right by 150 px; if NO headshot is attached, build without the
   circle and say so — never a placeholder, stock face, or generated face on an exported piece. It
   appears while the member SAYS the CTA and holds to the last frame, so it must read in three seconds.
@@ -74,8 +80,12 @@ right 12%.
 - **CTA pack variants (9:16):** the same template without the compliance line, y 160 → 340 (180 tall),
   the short ask + the pill. Layout inside the 180: pad 18 · ask 72 · gap 12 · pill 60 · pad 18 — the pill
   always UNDER the ask, never beside it.
-- **Name strip (optional, default NOT built):** top-left, x 60 → 700, y 160 → 320. Build it only if the
-  member asks; mark it "not built" in the manifest and spec.
+- **Name strip (optional, default NOT built):** top-left, x 60 → 700, y 160 → 370 at most. Three short
+  lines, never the 16:9 strip's one long second line (at the 44 px floor "role line · brokerage" runs
+  hundreds of px off a 640 px strip): the name 64 px+ bold · the role line or the organization at 44 px
+  · the brokerage, where required, on its own line at 44 px. About 19 characters a line fit beside the
+  mark; a longer line drops the mark before it shrinks the type, and nothing passes x 950. Build it
+  only if the member asks; mark it "not built" in the manifest and spec.
 - **Safe margin:** left 5% (54 px), **right 12% (nothing past x 950 except an accent block)**, top y 0 →
   160 clear (platform chrome), bottom 25% clear (captions + platform buttons).
 
@@ -201,6 +211,13 @@ ON, zoomed to fit, the overview row at the top.
 - **No hairlines or fine texture** (they shimmer at video compression); solid shapes, confident
   weights, one corner style everywhere. **bannerEdge by energy level:** Calm & premium → Straight;
   Balanced → Rounded (24 px); Bold & punchy → Angled (left edge cut ~12°, plus a 48 px accent block).
+- **Solid does not mean anonymous** (a dry run, 2026-11-14: the kit came out correct and legible, and plain). Every
+  strip and pop-up carries ONE bold device from the member's locked look, drawn as a solid shape that survives
+  compression: a thick accent block or stripe (8 px or more), the mark as a solid chip, the look's taped corner or
+  torn edge as a solid silhouette, a two-tone plate in the brand's two darkest colours. The name is set in the
+  brand's own heading face at a heavy weight, never a system-looking sans. The test: with the sound off and the
+  words blurred, an agent who follows this member would still know whose video it is. A bare rectangle with text
+  on it is a failed kit piece.
 - **The face is sacred.** Nothing in the middle of the frame on either format. On 16:9 the banners
   start at y 740 or lower; on 9:16 they end at y 400 or higher.
 - **Transparency is real — and here is how.** Every overlay frame has NO background fill at all, and

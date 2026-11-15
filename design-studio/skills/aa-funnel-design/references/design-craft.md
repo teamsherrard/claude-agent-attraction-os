@@ -10,10 +10,15 @@ sceptical, and tired of sponsors.
   gutters; a 12-column grid; everything aligned to it. Colour bands run full-bleed; their inner content
   stays in the column. Nothing floats off-grid or drifts to one side.
 - **Type scale (a real hierarchy).** Hero H1 huge and tight — ~64–80px desktop / ~36–44px mobile,
-  line-height ~1.05, heavy, with ONE word in the accent (the Design System's `type.heading`). The
-  pre-headline above it ~16–18px, letter-spaced or in the accent. Section H2 ~36–44px. Body ~17–18px at
-  line-height ~1.6. A small **eyebrow label** above each headline (~13px, uppercase, letter-spaced, in
-  the accent — "03 · THE PRODUCT"). Max two brand fonts; contrast with weight and size, not extra fonts.
+  line-height ~1.05, heavy, with ONE word in the accent (the Design System's `type.heading`). A headline
+  that would run past three lines at that size is set in two levels at its own dash or colon — the part
+  before it at the H1 size, the rest at about half — every word kept, never five lines of one size. The
+  pre-headline above it ~16–18px, in the accent, in sentence case (it is a sentence — never letter-spaced
+  caps). Section H2 ~36–44px. Body ~17–18px at line-height ~1.6. A small **eyebrow label** above each
+  headline (~13px, uppercase, letter-spaced, in the accent — "03 · THE PRODUCT"). **Accent text must pass
+  4.5 to 1 on its ground** (the craft standard's §5): a mid-tone accent (copper, gold, brass) on a light
+  ground takes its deeper shade for the pre-headline, the eyebrows and the accent word on a phone, and its
+  lighter tint on the dark band. Max two brand fonts; contrast with weight and size, not extra fonts.
 - **Spacing & rhythm (8-pt system).** ~100–140px vertical padding per section on desktop (~56–72px
   mobile), consistent gaps, a steady rhythm down the page. Whitespace reads premium; cramped or random
   spacing is the #1 amateur tell.
@@ -66,7 +71,9 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
   cause of a messy page.
 - **Buttons look clickable** — solid high-contrast fill, generous padding, a clear label, consistent
   everywhere; the primary CTA the most prominent element on each screen, in the brand's brightest accent
-  even if that is the one place it appears. A button that blends into its section kills conversion.
+  even if that is the one place it appears. When no label colour reaches 4.5 to 1 on that accent (common
+  with copper, gold or brass), deepen the fill — the accent mixed toward the ink — until a light label
+  passes; the button stays in the accent's family. A button that blends into its section kills conversion.
 - **Balance every section — no awkward dead space.** In the hero, the headline + CTA on one side and the
   video on the other, both filling their side and vertically centred; the video or headshot sized to
   anchor its half. A section that looks empty gets its content enlarged or its layout tightened.
@@ -80,7 +87,8 @@ visibly distinct from the brokerage's own; the brokerage's mark only where the c
   thing the eye hits beside the headline · the `Attraction line:` bold directly under the video · the
   button **"Get the Free Guide"** · the `Trust line:` small under the button. The guide's mockup lives in
   the Product section, not the hero (unless the kit's hero carries an `Image idea:` that names it small).
-  On mobile the headline + CTA lead and the video sits right under them, full width; the attraction line
+  On mobile the headline + CTA lead (pre-headline → headline → subhead → button → trust line, the button
+  still on the first screen) and the video sits right under them, full width; the attraction line
   stays glued to the video. A light directional cue (the member's gaze in the poster, an arrow) points at
   the button.
 - **Workshop registration (a later week's side door):** the workshop's promise as the headline, the date · time · format line as
@@ -99,7 +107,11 @@ The kit's `Video:` line decides it:
   URL, `allowfullscreen`, **never autoplay with sound**, never a rival CTA on it.
 - **`headshot` (or the older `record the 60-second why-join-me`)**: the member's headshot in the SAME footprint — a true
   cut-out on a brand field when the file itself has a see-through background, otherwise the framed portrait or
-  the panel (the craft standard's §6) — the attraction line still beneath it (the kit wrote it; it reads as the member's
+  the panel (the craft standard's §6). **A portrait headshot never fills the 16:9 footprint edge to edge —
+  that crop cuts off the top of the head.** The footprint is a brand field: the photo is a panel down one
+  side of it (about 40% of its width, full height, the whole head in view) or sits in the look's own window
+  (the taped print, the arch), and the rest of the field carries one of the look's devices — never words of
+  your own, never an empty half. The attraction line still beneath it (the kit wrote it; it reads as the member's
   promise either way), never an empty frame, never a "video coming soon" badge. The hand-off tells the
   member how to get the script and that "here's my video" swaps the embed in.
 Both versions share one footprint so the swap never reflows the hero.
@@ -163,13 +175,17 @@ decides. Compact: it sits between the top-3 recap and the button, never a sectio
 ## THE OPT-IN POP-UP AND THE OPTIONAL QUALIFIER
 
 The one modal: the kit's pop-up headline, `First name` · `Email` · `Phone`, the honest contact line
-under Phone, the reassurance by the button, the submit. When the kit's `Optional qualifier:` line is not
+under Phone, the reassurance by the button, the submit. Sizes: on desktop a card about 480px wide, centred
+on a dark scrim; on a phone the card runs full width less 16px gutters and sits at the TOP of the screen
+(the keyboard covers the bottom half); labels above the fields, fields ~52px tall, the submit full width,
+a close button 44px or more. When the kit's `Optional qualifier:` line is not
 `off`, ONE extra `<select>` — `years licensed` (a short range dropdown) or `where are you today` with the
 three options the kit names — sits under Phone, same component style; when it is `off`, nothing. Never
 a text box, never "brokerage", never "production".
 
 ## THE STICKY MOBILE CTA
 
-A persistent bottom bar on phones carrying the opt-in CTA only (full-width, ~48px tall, the accent), in
-the easy thumb zone — never covering the form's submit button, the booking embed, or the thank-you's
-download button; never the call button.
+A bottom bar on phones carrying the opt-in CTA only (full-width, ~48px tall, the accent), in
+the easy thumb zone. It appears once the hero's button has scrolled off the screen — never two identical
+buttons on one screen — and hides while the pop-up is open; never covering the form's submit button, the
+booking embed, or the thank-you's download button; never the call button.

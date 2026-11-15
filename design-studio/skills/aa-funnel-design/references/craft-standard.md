@@ -87,16 +87,12 @@ be interviewed by a design tool, and a form field cuts a pasted brief off after 
   lines are never shortened, never squeezed (no tracking below −0.03em, no horizontal scaling), never cut
   off with dots. Fit them by choosing the size from the length of the longest line, by planning a second
   line, or by giving the line more width. Estimate before you render — line width ≈ characters × size ×
-  the face's width factor (plus tracking): condensed caps 0.42–0.48 · regular sans in mixed case
-  0.52–0.58 · wide geometric sans in caps 0.66–0.74 · text serif in mixed case 0.48–0.54 — then confirm
-  in the render. A long name gets its own planned layout (two lines, first over last), never a smaller
-  everything.
+  the face's width factor (plus tracking): condensed caps 0.42–0.48 · regular sans in mixed case 0.52–0.58 · wide geometric sans in caps 0.66–0.74 · text serif in mixed case 0.48–0.54 · display serif in mixed case (Fraunces, Playfair Display, DM Serif Display) 0.40–0.46 — then confirm in the render. **The factors are only a first guess: measure the real line** (ask the page for the text's own measured length and compare it with its box) before you trust a size. A long name gets its own planned layout (two lines, first over last), never a smaller everything.
 
 ## 4. Layout — a grid, one hero, and air
 
 - **Write the grid down first:** columns and margins, then place. Every edge sits on a column line or a
-  multiple of the 8px unit. Outer margin at least 6.5% of the short side on a post (72px at 1080), at
-  least 5% inside a banner's safe strip, at least 0.75in on a document page.
+  multiple of the 8px unit. Outer margin at least 6.5% of the short side on a post (72px at 1080); inside a banner's safe strip, at least 5% of the strip's height top and bottom (about 24px on YouTube's 423px strip) and 72px or more from the strip's two ends; at least 0.75in on a document page.
 - **One hero.** One element is unmistakably the biggest — at least twice the visual weight of anything
   else. If two things fight, the piece has no hierarchy; make one of them small or remove it.
 - **A reading path.** The eye enters at the hero (or the face), moves in one direction, and ends on the
@@ -105,8 +101,7 @@ be interviewed by a design tool, and a form field cuts a pasted brief off after 
   40 or more between). Every gap comes from one scale: 8 · 16 · 24 · 40 · 64 · 96 · 144.
 - **Few alignment lines.** One alignment per text block; two, at most three, shared vertical edges on a
   piece. Almost-aligned (off by 2 to 10px) is the commonest flaw there is — snap it.
-- **Air is a material.** Around a third of a graphic is ground with nothing on it. Never fill a gap with
-  an ornament; move the margins or enlarge the hero instead.
+- **Air is a material.** Around a third of a graphic is ground with nothing on it. Never fill a gap with an ornament; move the margins or enlarge the hero instead. When a piece's own anatomy lists more than fits with that much air, things yield in this order: decoration first, then secondary rows, then support lines — never the hero, the action, the compliance line or the margins.
 - **Edges are decisions.** Nothing important inside the safe margin; anything that leaves the canvas
   leaves it boldly (15% or more of it hidden), never by a few accidental pixels. No tangents: an edge
   never just kisses another edge or the frame.
@@ -119,9 +114,7 @@ be interviewed by a design tool, and a form field cuts a pasted brief off after 
 
 - **Only the Design System's colours, in their roles.** The accent is the smallest amount on the piece;
   one accent hit per zone.
-- **Contrast is measured, not felt.** Text against its ground: 4.5 to 1 or better; heavy type at 48px
-  and up: 3 to 1 or better. The accent carries text only where it passes. A photo behind text gets a
-  scrim or a plate until the text passes.
+- **Contrast is measured, not felt.** Text against its ground: 4.5 to 1 or better; heavy display type (about 4.5% of the piece's width and up — 48px on a 1080 canvas, 115px on a 2550 page): 3 to 1 or better. The accent carries text only where it passes. **A mid-tone accent (a copper, a brass, a sage) usually fails as small text on BOTH the light and the dark ground:** use it for rules, shapes, large display type and button fills, and set small text in the dark anchor, the light ground, or the accent deepened toward the dark anchor until it passes; a button filled with a mid-tone accent takes dark text when white fails. A photo behind text gets a scrim or a plate until the text passes.
 - **It must read in grey.** Squint, or look at the render without colour: the hero is still the first
   thing seen. If everything is the same mid tone, add light-dark contrast, not another colour.
 - **Tints and shades come from the palette** — the brand colour mixed toward the ground
@@ -147,9 +140,8 @@ Wherever a skill says "cut-out", read it through this section.
    - **The framed portrait** — the photo fills the brand's frame (arch, circle, rounded rectangle) edge
      to edge, eyes about a third of the way down, with a brand rule round it or a colour block offset
      behind it.
-   - **The panel** — the photo runs full height down one side (35–45% of the width); its inner edge
-     dissolves into the ground through a gradient mask, and the whole photo wears the brand wash (a
-     duotone, or darkened toward the ground) so the room behind the member becomes texture.
+   - **The panel** — the photo runs full height down one side (35–45% of the width on a post; on a wide banner only as wide as it takes to show the whole head inside the safe strip, often about a fifth of the banner); its inner edge
+     dissolves into the ground through a gradient mask, and the whole photo wears the brand wash — darkened toward the ground, or a duotone in the brand's own dark tone that keeps skin believable — so the room behind the member becomes texture.
    - **The window** — the photo sits in one of the look's own devices (the taped print, a tilted card).
    Then say once, plainly, and carry on: *"For the look where you stand right in the design, I need your
    photo with the background removed. On an iPhone: open the photo, press and hold on yourself, tap
@@ -176,6 +168,8 @@ Wherever a skill says "cut-out", read it through this section.
   never broken mid-word, and a web address is shown without `https://` or `www.`.
 - **Images:** a set size, cropped to fill, with the focal point named (a face held near the top). A
   missing image leaves a designed ground, never a broken-picture icon.
+- **A piece that is saved as a picture is one SVG with its words set as SVG text** — every line placed by you, which is also how line breaks get designed. HTML text inside an SVG fails to save in some browsers, and a piece that cannot be downloaded is not delivered. Pages and documents (the opt-in page, the guide, a deck) are ordinary HTML and flow normally.
+- **Sizes are in pixels on a pixel canvas.** A print unit such as `11pt` renders far too small on a large page canvas; convert it (points × the page's pixels-per-inch ÷ 72) and check the size in the render.
 - **Vector for everything drawn:** marks, icons, devices, textures. Icons from ONE drawn family — one
   stroke weight, one corner style. Never an emoji as an icon or a bullet. Never two icon styles.
 - **Textures are real artwork** — a drawn pattern, grain, contour lines, a brushed stroke — at visible
@@ -186,8 +180,7 @@ Wherever a skill says "cut-out", read it through this section.
 ## 8. The look loop — you cannot judge a design from its code
 
 1. **Render it and look at the real picture** — a screenshot or a preview of the canvas at full size,
-   then at the size an agent will meet it: a post about 400px wide, a banner as the thin strip it is, a
-   profile picture at 40px, a page on a phone.
+   then at the size an agent will meet it: a post about 400px wide, a banner as the thin strip it is (a phone shows only the centre 1546×423 of a YouTube banner), a profile picture at 40px, a page on a phone, a see-through object over both a light and a dark ground. When a piece has several real sizes, the smallest one governs.
 2. **Name what is wrong, in this order.** Stop at the first class that fails, fix it, render, look again.
    - **Broken** — text clipped or spilling out of its box or off the canvas · things overlapping that
      should not · a font that fell back · a picture that did not load · a cropped head · a stray scroll

@@ -96,7 +96,7 @@ above); the content skills never do. An agent who surfaces from a Reel is added 
 - **`memory/content-log.md` row** (the template's shape, never extended):
   `| Date | Platform | Format (long-form · reel · story · carousel · graphic · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
   (`email` and `blog` are the YouTube plugin's values, added by the coordinator's ruling; this plugin writes only `reel` / `story` / `carousel` / `graphic`.)
-  Short-form conventions inside that shape: Platform = `Instagram` (add `· TikTok · Shorts · FB` when cross-posted) or `LinkedIn`; Format = `reel` / `story` / `carousel` / `graphic` (a designed single-image post — the kit's posts 4 to 6); the Topic / hook cell begins with the content type in brackets — `[talking head]`, `[green screen]`, `[story set]`, `[LinkedIn doc]`, `[kit post]` (one of the six);
+  Short-form conventions inside that shape: Platform = `Instagram · Facebook` (both, always; add `· TikTok · Shorts` only when the member reposted there) or `LinkedIn`; Format = `reel` / `story` / `carousel` / `graphic` (a designed single-image post — the kit's posts 4 to 6); the Topic / hook cell begins with the content type in brackets — `[talking head]`, `[green screen]`, `[story set]`, `[LinkedIn doc]`, `[kit post]` (one of the six);
   Pillar = one of `Authority · Perspective · Story · Proof · Personality`; CTA = the rung + one of the two keywords (`Comment · GUIDE`, or `Comment · [the offer's word]`; the Call rung `Call · the booking line`); Status = `Idea / Scripted / Recorded / Edited / Published`; Link = the live URL once published (before that, a scheduled slot may sit there as `scheduled YYYY-MM-DD HH:MM`).
 - **Pipeline stages** (never touched here, named correctly when handing off): Identified → Conversation →
   Call booked → Call held → 3-way → Joined → Onboarded → Active.
@@ -218,7 +218,7 @@ a task. The two workflows retired above are never listed.
 | Workflow | When | Owner (the prompt) | Task id | Switched on | `config.md` line |
 |---|---|---|---|---|---|
 | **Monday Week Plan** — the week's scripts, captions and stories drafted from the calendar onto the board cards (Status → `Scripted`; a kit row keeps `Ready to Post`) + a week brief in the Brain; keeps 30 days visible; scans the Brain for new partners and wins and drafts their recognition posts inside the week's drafts | Mondays, 7:00 am | `sf-week-plan` (`references/week-plan-task-prompt.md`) | `attraction-sf-week-plan` | **by the one Yes** | `Week Plan task:` · `Week Plan slot:` |
-| **Sunday Batch Prep** — the teleprompter doc for the batch day (the Film-Day Plan): this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | the evening before the batch day (`publishing.md → Batch day(s):`), 6:00 pm | `sf-batch-publish` (`references/batch-prep-task-prompt.md`) | `attraction-sf-batch-prep` | **by the one Yes** | `Batch Prep task:` · `Batch Prep slot:` |
+| **Batch Prep** — the teleprompter doc for the batch day (the Film-Day Plan): this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | the evening before the batch day (`publishing.md → Batch day(s):`), 6:00 pm | `sf-batch-publish` (`references/batch-prep-task-prompt.md`) | `attraction-sf-batch-prep` | **by the one Yes** | `Batch Prep task:` · `Batch Prep slot:` |
 | **Wednesday Brokerage News Watch** (the owner, 2026-11-14: "important") — three to six REAL headlines from the last 30 days, found by a live web search and cited (title · outlet · date · the link), never invented, each with a 30-second green-screen take in the member's angle; one doc (`YYYY-MM-DD · Green Screen · News Watch`), the week's green-screen calendar row and board card filled with the best take (a new dated row only when the week has none), the other takes inside the card as alternates with their links — ONE card, never one per headline (the owner, 2026-11-14) — the text in `exports/news-watch-YYYY-MM-DD.txt` | Wednesdays, 8:00 am | `sf-greenscreen` (`references/news-watch-task-prompt.md`) | `attraction-sf-news-watch` | **by the one Yes** | `News Watch task:` · `News Watch slot:` |
 | **Monthly Calendar Refill** — the next thirty days from the pillars, the branches and what performed; the board refilled; the step from three to five Reels a week proposed once a month at three has held (the member's word changes the cadence) | the last Friday of the month, 5:00 pm | `sf-gameplan` (`references/calendar-refill-task-prompt.md`) | `attraction-sf-calendar-refill` | **by the one Yes** | `Calendar Refill task:` |
 | **Keyword Follow-up Queue** — who commented or DMed a keyword since last time (comments through the data engine when connected; DMs from what the member logs), the next DM in the ladder drafted — never sent | Tuesdays and Thursdays | `sf-comment-to-dm` (`references/keyword-queue-task-prompt.md`) | `attraction-sf-keyword-queue` | by phrase | `Keyword Queue task:` |
@@ -255,7 +255,7 @@ a sitting hands over the Brain Board and the Brain Book** (the owner, 2026-11-14
 after the first Reel — is made through the sync **marked as the sitting's closing push**; the Brain plugin's sync then
 rebuilds the Brain Board AND refreshes the Brain Book's "What's next" page and returns two links (both files live in
 the member's `01 · AI Brain` folder) — this plugin only calls it and relays them: *"Your Brain Board and your Brain Book
-are updated — here they are: [the Board link] · [the Book link]. Open the Board in your browser: your Short-Form dot is
+are updated — here they are: [the Board link] · [the Book link]. Download the Board and open the file — it opens in your browser: your Short-Form dot is
 green, and its page shows your two keywords, this week's posts and your workflows."*; the Board file shown in the chat
 when the session can; a rebuild that failed named plainly with its retry phrase ("refresh my brain board" / "show me
 my Brain"), never claimed; a demo Brain gets the same close with DEMO-tagged files. `sf-talkinghead`'s hand-off,
@@ -275,7 +275,7 @@ read-only map.
 ## Documents this plugin produces (per the Brain's `shared/drive-map.md`, located by Workspace ID)
 - `[Name]'s Short-Form Game Plan — YYYY-MM-DD` (`sf-gameplan`; dated, newest is current) → `03 · Content/Short-Form/` (the bucket root)
 - Reel scripts, the week plan (the Monday workflow's doc), a calendar-only refresh, green-screen packages, story sets, the weekly ideas + hook bank, the weekly
-  routine, the keyword sheet + DM bank, the film-day plan (also the Sunday Batch Prep's doc), the publishing queue → `03 · Content/Short-Form/[YYYY-MM · Month]/`
+  routine, the keyword sheet + DM bank, the film-day plan (also the Batch Prep's doc), the publishing queue → `03 · Content/Short-Form/[YYYY-MM · Month]/`
 - Carousel specs and LinkedIn document-post copy → `03 · Content/Graphics/[YYYY-MM · Month]/`
 - The ManyChat Build Sheet (`sf-comment-to-dm`) → `03 · Content/Short-Form/[YYYY-MM · Month]/` as `YYYY-MM-DD · ManyChat Build Sheet` — the member follows it in their own ManyChat account after installing Mike's template; ManyChat has no connector in Cowork, so the plugin writes the sheet and never claims to run it
 - The Wednesday news watch (`sf-greenscreen`'s Brokerage News Watch) → `03 · Content/Short-Form/[YYYY-MM · Month]/` as `YYYY-MM-DD · Green Screen · News Watch`
@@ -289,7 +289,7 @@ Brain's `exports/` texts (the sync rule above) are written in the same run as th
 (gate unset) · `attraction-story-bank` (a story the member wants to add) · `attraction-week3-kit` ("rebuild my kit" — a
 missing or stale kit text) · `sf-gameplan` (the Game Plan; the 30-day calendar — BUILD inside setup, UPDATE on demand;
 the Monthly Calendar Refill) · `sf-week-plan` (the Monday Week Plan, the win posts inside it, the Mid-week Nudge; the
-workflows registry) · `sf-ideas` (hook bank, weekly ideas) · `sf-batch-publish` (the Film-Day Plan; the Sunday Batch
+workflows registry) · `sf-ideas` (hook bank, weekly ideas) · `sf-batch-publish` (the Film-Day Plan; the Batch
 Prep) · `sf-comment-to-dm` (the two keywords per Reel, the DM bank for GUIDE and the offer's word, the keyword sheet, the ManyChat Build Sheet,
 the Keyword Follow-up Queue → `cv-dm-flow` when the Conversion plugin is installed) ·
 `sf-optimizer` (captions, hashtags, the CTA line from the kit's table) · `sf-publish` / `sf-batch-publish` (scheduling

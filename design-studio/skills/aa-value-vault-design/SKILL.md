@@ -189,8 +189,9 @@ comes after).
    — *"Drop in the sheet you already use — a file, a photo or pasted text — and I'll set it."*
 2. **THE MASTERS.** The canonical cover (reused EXACTLY when `product-cover-flat.png` exists; designed
    by the piece's cover rules and the THUMBNAIL TEST when none does) and the first inside page that
-   locks the template — the playbook's welcome page + the recording page (the grid, margins, type
-   scale, kicker, accent, footer). A side door's masters are its reference's. Show them on one board.
+   locks the template — the playbook's welcome page (page 3; the imprint, page 2, comes after the
+   checkpoint), with the recording page beside it (the grid, margins, type scale, kicker, accent,
+   footer). A side door's masters are its reference's. Show them on one board.
 3. **THE ONE CHECKPOINT.** Say: *"These set the template for every page that follows — your cover and
    the first inside page. Say yes, or name the one change."* Wait for the yes. A change → re-render that
    master, show it again, wait again. **This is the only time the run stops.**
@@ -202,7 +203,9 @@ comes after).
    product and any correction is applied across it. Never more than ~6 full-size pages per render; a
    page that comes out incomplete or off-template is fixed before any new page is added.
 5. **A piece whose material doesn't exist is skipped, not invented.** No template uploaded → the
-   playbook waits (one line: *"drop in the sheet you already use — a photo or a file"*). No
+   masters are still built and shown (the cover and the welcome page need only the kit's lines) and
+   the template pages wait (one line under the masters: *"drop in the sheet you already use — a photo
+   or a file"*). No
    `Slide 8 — Your first 30 days:` line and no `Day 1 checklist:` in the kit → the roadmap waits (*"your
    first 30 days live in your offer — say 'build my partner offer' in Cowork, then 'rebuild my kit'"*).
    Never write a lesson, a step, a story or a week to fill a gap (THE THIN-LESSON RULE, in every

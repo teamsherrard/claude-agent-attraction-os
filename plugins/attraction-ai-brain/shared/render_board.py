@@ -601,7 +601,7 @@ def build_outer(ctx):
             line = 'Your Game Plan, your board, your workflows and your first Reel. Lights up in Week 4.' if st == 'soon' else ('Set up on %s. Your week is drafted for you.' % sf['installed'] if sf['installed'] else 'Pillars, the 30-day calendar and the board are built.')
             branches = ctx['offer_md']['branches']
             if st == 'soon':
-                body = '## What you\u2019ll have at the end of Week 4\n' + status_rows([('Your profiles and your two keywords confirmed (your bios were written in Week 2)', 'soon', 'step 1'), ('The Short-Form Game Plan: who you attract, the one line, the two keywords, five pillars with three angles each from your content branches, the week you can keep, thirty hooks, a dated 30-day calendar that opens with your six designed posts', 'soon', 'step 2'), ('Your Notion content board with the next 30 days mapped as dated cards', 'soon', 'step 3'), ('Your scheduled workflows, from one consent card: the Monday week plan, Sunday batch prep, Wednesday news watch, the monthly calendar refill \u2014 drafted, never posted without you', 'soon', 'step 4'), ('Your first Reel: the script, the hook three ways, the caption and the keyword', 'soon', 'step 5')])
+                body = '## What you\u2019ll have at the end of Week 4\n' + status_rows([('Your profiles and your two keywords confirmed (your bios were written in Week 2)', 'soon', 'step 1'), ('The Short-Form Game Plan: who you attract, the one line, the two keywords, five pillars with three angles each from your content branches, the week you can keep, thirty hooks, a dated 30-day calendar that opens with your six designed posts', 'soon', 'step 2'), ('Your Notion content board with the next 30 days mapped as dated cards', 'soon', 'step 3'), ('Your scheduled workflows, from one consent card: the Monday week plan, batch prep, Wednesday news watch, the monthly calendar refill \u2014 drafted, never posted without you', 'soon', 'step 4'), ('Your first Reel: the script, the hook three ways, the caption and the keyword', 'soon', 'step 5')])
                 if branches: body += '\n\n## Your pillars will come from your content branches first\nThe Game Plan builds its pillars, angles and titles from the branches of your offer before anything else, then from the rest of your Brain.\n' + '\n'.join('\u2022 ' + b[0] for b in branches)
                 body += '\n\n## What lands on this board when it\u2019s done\nThis dot turns green. Your keywords, your pillars, this week\u2019s posts and your workflows appear on this page, and your weekly content target starts counting on your Goals page.'
             else:
@@ -1096,7 +1096,7 @@ def main():
         sf['installed'] = clean(kv(blk, 'Installed'), demo)
         for mm in re.finditer(r'^-?\s*\**([A-Za-z][A-Za-z ]+?) task:\**\s*(attraction-sf-[a-z0-9-]+)', blk, re.M):
             lab = mm.group(1).strip().lower()
-            lab = {'week plan': 'Monday week plan', 'batch prep': 'Sunday batch prep', 'news watch': 'Wednesday news watch', 'calendar refill': 'monthly calendar refill', 'keyword queue': 'keyword follow-up queue', 'midweek nudge': 'mid-week nudge', 'deep dive': 'monthly deep dive', 'daily stories': 'daily stories', 'profile audit': 'quarterly profile audit'}.get(lab, lab)
+            lab = {'week plan': 'Monday week plan', 'batch prep': 'batch prep', 'news watch': 'Wednesday news watch', 'calendar refill': 'monthly calendar refill', 'keyword queue': 'keyword follow-up queue', 'midweek nudge': 'mid-week nudge', 'deep dive': 'monthly deep dive', 'daily stories': 'daily stories', 'profile audit': 'quarterly profile audit'}.get(lab, lab)
             sf['tasks_on'].append(lab)
         cal = re.split(r'^## (?:Week briefs|Long-form|Kickoff briefs)', files.get('memory/content-calendar.md', ''), maxsplit=1, flags=re.M)[0]  # the short-form table only
     rows_ = [[c.strip() for c in l.strip().strip('|').split('|')] for l in cal.split('\n') if l.strip().startswith('|')]
@@ -1127,7 +1127,7 @@ def main():
     def _f(text, key):
         m_ = re.search(re.escape(key) + r':\s*([^·\n]+)', text); v_ = (m_.group(1).strip() if m_ else '')
         return '' if ('[' in v_ or not v_) else clean(v_, demo)
-    yt = {'url': _f(ch_, 'URL'), 'setup': _f(ch_, 'Setup'), 'pasted': _f(ch_, 'Pasted'), 'cadence': _f(ch_, 'Cadence'), 'plan_date': _f(ch_, 'Plan date'), 'lanes': '', 'playlists': [], 'tasks_on': [], 'section': '', 'email': '', 'week_rows': [], 'any_done': False, 'kickoff': None, 'review': None, 'board': sf['board']}
+    yt = {'url': _f(ch_, 'URL'), 'setup': _f(ch_, 'Setup'), 'pasted': _f(ch_, 'Pasted'), 'cadence': _f(ch_, 'Cadence'), 'plan_date': _f(ch_, 'Plan date'), 'lanes': '', 'playlists': [], 'tasks_on': [], 'section': '', 'email': '', 'week_rows': [], 'any_done': False, 'kickoff': None, 'review': None, 'read': None, 'board': sf['board']}
     m_ = re.search(r'Lane names:\s*([^\n]+)', ch_); yt['lanes'] = '' if (not m_ or '[' in m_.group(1)) else clean(m_.group(1).strip(), demo)
     lp_ = re.search(r'^## Lanes and playlists[^\n]*\n((?:(?!^## ).*\n?)*)', ch_, re.M)
     if lp_:
@@ -1150,7 +1150,7 @@ def main():
         yweek = [r for d_, r in ydated if today <= d_ < today + dt.timedelta(days=7)]
         yup = yweek or [r for d_, r in ydated if d_ >= today][:3] or [r for _, r in ydated][:3]
         yt['week_rows'] = [(clean(r[2] or r[1], demo), clean(r[6], demo)[:70], clean(r[5], demo), clean(r[8], demo)) for r in yup[:5]]
-    for key_, pre_ in (('kickoff', 'youtube-kickoff-'), ('review', 'youtube-review-')):
+    for key_, pre_ in (('kickoff', 'youtube-kickoff-'), ('review', 'youtube-review-'), ('read', 'youtube-read-')):
         f_ = latest_export(brain, pre_)
         if f_:
             ls_ = [l.strip() for l in read(f_).split('\n') if l.strip() and not l.strip().startswith(('─', '═', '—', '[[', '▸'))]

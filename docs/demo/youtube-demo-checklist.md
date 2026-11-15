@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.3.0 · Brain 0.9.10. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.3.1 · Brain 0.9.11. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen

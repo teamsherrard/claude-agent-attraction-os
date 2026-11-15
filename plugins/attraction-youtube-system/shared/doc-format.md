@@ -20,6 +20,9 @@ Word formatting — headings, bullet lists, tables — automatically. **Do NOT s
    structured text to `~/attraction-brain/exports/` — `channel-kit-YYYY-MM-DD.txt` · `youtube-game-plan-YYYY-MM-DD.txt`
    · `youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt` (the Brain syncs `exports/*.txt`) — then
    push. The export sits beside the `.docx`, never instead of it; a doc saved without its export is half-saved.
+   **A fifth text is kept the same way:** each YouTube Deep Dive, and each on-demand video read, as
+   `youtube-read-YYYY-MM-DD.txt` (`yt-analytics`) — its own name, never `youtube-review-*`, which is the Monthly
+   Channel Review's alone (`yt-triggers`).
 
 **If the renderer prints `RENDERER-UNAVAILABLE`** (python-docx is not in this environment): do exactly what it
 says — **do not install anything, do not run pip, do not retry the command** (a package install can block for
@@ -233,7 +236,7 @@ DAYS 91–180   (the direction)
 ════════════════════════════════════════════
    91–120  Double down — {the topics to cluster if they win}
    121–150 Compounding assets — {the evergreen model and career-transition videos to make}
-   151–180 The machine — {1/week + 4–5 short-form/week + 1–2 interviews/month + weekly review}
+   151–180 The machine — {1/week + 4–5 short-form/week + 1–2 interviews/month + the Monthly Channel Review}
 
 
 ════════════════════════════════════════════
@@ -557,7 +560,7 @@ THE CALL CTA (the law's shape) + NEXT VIDEO
 Cardinal-rules read-back — {what was changed}.   Compliance — no compensation figures · disclosure in the description · [status].  ✓
 ```
 
-### YouTube Deep Dive (`yt-analytics` — saved as `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`; no credibility stamp)
+### YouTube Deep Dive (`yt-analytics` — saved as `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-read-YYYY-MM-DD.txt` — its own name, never `youtube-review-*`; no credibility stamp)
 ```
 YOUTUBE DEEP DIVE — [MEMBER NAME] — [MONTH YYYY]
 Window: {last 90 days}  ·  Data: {live / Studio pack in or not / public reads}  ·  {YYYY-MM-DD}

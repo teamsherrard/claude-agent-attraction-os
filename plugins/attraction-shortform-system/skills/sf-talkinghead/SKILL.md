@@ -53,7 +53,7 @@ Three modes (pick from what they said; never ask which):
 ---
 
 ## Front door rule
-"What should I film this week?" is answered by the member's own plan first: `memory/content-calendar.md`'s rows dated this week (the Game Plan dated them; the Monday Week Plan may already have drafted them — a row at `Scripted` has its script on the board and in the Content folder). When the week has rows, Phase 1 lists them (plus the member's own `ideas.md` rows) and offers to script the ones still at `Idea` — a row that is one of the six kit posts (the Game Plan's first rows) is a designed graphic, not a Reel: *"that one's already made — it's in your Offer folder; post it"*, never scripted here. When the week has no rows, say one line — "Let's find this week's five first" — and hand to `sf-ideas` (research + the week's five + the hook bank), or "plan my next 30 days of reels" to map the month.
+"What should I film this week?" is answered by the member's own plan first: `memory/content-calendar.md`'s rows dated this week (the Game Plan dated them; the Monday Week Plan may already have drafted them — a row at `Scripted` has its script on the board and in the Content folder). When the week has rows, Phase 1 lists them (plus the member's own `ideas.md` rows) and offers to script the ones still at `Idea` — a row that is one of the six kit posts (the Game Plan's first rows) is a designed graphic, not a Reel: *"that one's already made — it's in your Offer folder; post it"*, never scripted here. When the week has no rows, say one line — "Let's find this week's Reels first" — and hand to `sf-ideas` (research + the week's picks at the member's cadence, three by default + the hook bank), or "plan my next 30 days of reels" to map the month.
 
 ## Step 1 — Load the Brain (the core files; the rest open at the phase that uses them)
 Read `~/attraction-brain/brain.md` first (follow its laws), then only these:
@@ -103,7 +103,7 @@ brokerage feature. Present simply:
 A statement, then the scripts — never a Yes line, never an open menu (the owner, 2026-11-14: told, not asked). **If they're unsure or say "you pick"**
 (house rules #8 + `${CLAUDE_PLUGIN_ROOT}/shared/advisor-playbook.md`): the top 3 are already named — script them now.
 
-## Phase 2 — Scripts (for the chosen topics; default five, or the one they named)
+## Phase 2 — Scripts (for the chosen topics: the week's Reels at the member's cadence — three by default — or the one they named)
 **Read `references/script-guide.md`.** **Open now — the writing step:** `identity/voice-print.md` (their SPOKEN voice:
 scripts are read aloud, so write for the ear in their cadence and signature phrases; empty → `voice.md` alone; never
 fabricate) · `identity/voice.md` + `identity/voice-samples.md` (tone + their real phrasing) · `identity/journey.md`
@@ -126,11 +126,12 @@ For EACH Reel, use these exact section names:
   this — give it equal weight.
 - **THE SHOTS** — one line per step: where to stand, what to show, the one b-roll to grab (a screenshot of the
   call for Proof, the kitchen table for Story — simple, phone-filmed).
-- **THE CTA** — one rung per Reel, one of the two keywords, the words from the kit's CALLS TO ACTION table (the
+- **THE CTA** — one ask per Reel (a keyword ask uses one of the two keywords), the words from the kit's CALLS TO ACTION table (the
   spoken line): the guide — *"[what the guide holds, one clause]. Comment **GUIDE** and I'll send it."*; the invitation
   — *"If you want my help running this, free, [the booking line]."* (the law's shape; open register: *"I'll walk you
-  through it, free, no strings."*). The guide on most Reels; the call on about one in four and on every Proof Reel
-  (the kit's cadence). The brokerage is never the reason; never the model by DM. The keyword sheet (`sf-comment-to-dm`)
+  through it, free, no strings."*). GUIDE on most Reels; the invitation on about one post in four — most naturally a
+  Proof Reel or a "what you get" Reel (a Proof Reel may carry the guide instead); a Personality Reel asks for a follow
+  only; never two asks on one Reel (house rules #13). The brokerage is never the reason; never the model by DM. The keyword sheet (`sf-comment-to-dm`)
   carries the same two words — never a third.
 - **THE POP-UP + END CARD** — from the same table and the member's pop-up set (designed in Week 3, in their Offer
   folder): the name card in the first three seconds · one mid-video pop-up, six words or fewer, two lines at most, three
@@ -147,7 +148,7 @@ first. A **Story** Reel pulls its story from the bank, told in their words, form
 
 ## Phase 3 — The 30-day calendar (lives in the Game Plan)
 The calendar is section 6 of the member's Short-Form Game Plan and `memory/content-calendar.md` is its home —
-twelve to twenty dated posts over four weeks (the cadence × four — three a week to start) on the weekly mix, the daily stories line, the batch plan, the three to film
+twelve dated posts over four weeks at the default three a week (twenty only at five — the cadence × four) on the weekly mix, the daily stories line, the batch plan, the three to film
 first (the rules are in `references/calendar-guide.md`, which the Game Plan reads). Asked for here ("my 30-day
 attraction calendar", "plan my month of attraction reels"): say one line — *"your calendar lives in your Game
 Plan — I'll map the next thirty days there"* — and run `${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/SKILL.md` in
@@ -181,7 +182,7 @@ For each scripted Reel:
    `03 · Content/Short-Form/[YYYY-MM · Month]/`, named `[YYYY-MM-DD] · Reel · [Short Topic]` (a batch:
    `· Reels · [Batch name]`).
 2. **Log it:** append one row per Reel to `~/attraction-brain/memory/content-log.md` in the locked shape:
-   `| [date] | Instagram · TikTok · Shorts · FB | reel | [Pillar] | [talking head] [hook] | [avatar] | [story hook or —] | [rung · GUIDE or the offer's word] | Scripted | |`
+   `| [date] | Instagram · Facebook | reel | [Pillar] | [talking head] [hook] | [avatar] | [story hook or —] | [rung · GUIDE or the offer's word] | Scripted | |`
    A Reel scripted from a calendar row: flip that row's Status to `Scripted` in `memory/content-calendar.md`
    (the one cell this skill writes there) and, when they have the board, fill the row's card by its System ID
    (house rules #10).
@@ -193,7 +194,7 @@ For each scripted Reel:
    as the sitting's closing push** (the owner, 2026-11-14): the sync rebuilds the Brain Board and refreshes the Brain
    Book's "What's next" page and returns their two links — relay them in this shape: *"Saved your [N] Reels to your
    workspace (Content → Short-Form → [month]) and logged them so we never repeat a story. Your Brain Board and your
-   Brain Book are updated — here they are: [the Board link] · [the Book link]. Open the Board in your browser: your
+   Brain Book are updated — here they are: [the Board link] · [the Book link]. Download the Board and open the file — it opens in your browser: your
    Short-Form dot is green, and its page shows your two keywords, this week's posts and your workflows."* Show the
    Board file in the chat when the session can; a rebuild that failed is named plainly with "refresh my brain board" /
    "show me my Brain" — never claimed. Inside setup: say only *"Your first Reel is saved"*, never the Board and Book line, and hand back to `sf-setup` Step 6, which says the close once. If a save

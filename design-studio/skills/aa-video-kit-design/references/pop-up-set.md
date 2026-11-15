@@ -70,7 +70,10 @@ and never collide with the editor's registered kit (`hook-`, `lower-third-`, `em
   nothing past x 950 but a colour block.
   - **Upper third (default):** a panel x 60 → 950, inside y 160 → 640 (the top 160 px is platform
     chrome). Name card: y 180 → 400, two lines (the name 72 px bold · brokerage · city 48 px). Guide
-    and call pop-ups: y 200 → 420, one or two lines at 72 px, the keyword in caps. End cards: a
+    and call pop-ups: y 200 → 420, one or two lines at 72 px, the keyword in caps — beside the glyph
+    block a line holds about 15 characters at 72 px (a caps keyword runs wide; measure it), so a
+    longer cell breaks at its `·` first, then after "Comment", and the longest line keeps at least
+    40 px of panel after it — never a line that kisses the edge. End cards: a
     taller panel y 180 → 620 — line 1 the title or headline (72 px, two lines at most), line 2 the
     ask (64 px), line 3 the stamp (44 px).
   - **Side band (the tweak):** a vertical panel on the left, x 60 → 520, inside y 640 → 1400 — for a
@@ -78,9 +81,12 @@ and never collide with the editor's registered kit (`hook-`, `lower-third-`, `em
     rail), never below y 1400.
 - **16:9 (1920×1080).** The face sits upper-centre; the lower third is the editor's band for
   everything (`video-kit-specs.md` §1).
-  - **Lower third (default):** the kit's banner geometry — x 160 → 1760; the pop-ups and the name
-    card y 770 → 920 (one line at 64 px; the name card's second line at 40 px inside the same 150);
-    the end cards y 740 → 960 (title 64 px · ask 56 px · stamp 32 px). Nothing starts above y 740.
+  - **Lower third (default):** the kit's banner band, never wider than x 160 → 1760. The pop-ups and
+    the name card y 770 → 920 (one line at 64 px; the name card's second line at 40 px inside the
+    same 150), each panel HUGGING its words — the glyph block or the mark, 40 px, the longest line,
+    48 px — and centred on x 960 (about x 360 → 1560, the kit's emphasis pop-up position): a four-word
+    line on the full 1,600 px bar leaves a third of it empty. The end cards y 740 → 960 (title 64 px ·
+    ask 56 px · stamp 32 px). Nothing starts above y 740.
   - **Side band (the tweak):** a panel x 96 → 700, y 200 → 880, stacked words — never across the
     centre.
 - **The face is sacred** in both: nothing in the middle of the frame, ever. The stage
@@ -151,7 +157,9 @@ sits (the zone, in plain words: "top of a vertical video, never over your face o
 the pop-ups: three seconds while you say the ask; the end cards: the last five seconds) · the kit's
 `Pop-up rules:` line, verbatim · one honest line: these are pictures the member or their editor
 places by hand; the registered Video Brand Kit's `guide`, `comment`, `call` and `book` banners are
-the asks the editor pops automatically when it hears them, and both can live on one video.
+the asks the editor pops automatically when it hears them, and both can live on one video. One rule
+of use, in the notes too: the name card and the registered kit's name strip do the same job in
+overlapping bands — one of them on a video, never both.
 
 ## CANONICAL FILE NAMES AND THE EXPORT CONSTANTS
 

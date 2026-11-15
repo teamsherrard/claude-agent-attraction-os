@@ -66,7 +66,7 @@ number the source didn't return.
 - **1.8 How often you post & your channel page** — uploads/week vs the `Cadence:` anchor (one a week is the default for the first month, two the step-up; interviews counted; 3+1+4 over eight videos at either pace), said kindly — a week on plan is a week on plan, never "behind"; longest gap; interviews actually shipped?; playlists by lane and the Explained playlist first on the homepage (recipe 1 step 6) → the channel-page fix (hand to `yt-setup`).
 
 ## Part 2 — Other attraction channels
-3–5 channels from `identity/strategy.md` + `identity/prospect-intel.md` (ask once if thin; discover with "[brokerage] explained" / "should I switch brokerages"). The cardinal rules apply: what they do well and what is missing — never what is wrong with them or their brokerage. Recipe 2. Per channel one dotted row: subs · typical video · their
+3–5 channels from `identity/strategy.md` + `identity/prospect-intel.md` (thin → never a question: use what is on record, discover the rest with "[brokerage] explained" / "should I switch brokerages", and say in one line what was missing). The cardinal rules apply: what they do well and what is missing — never what is wrong with them or their brokerage. Recipe 2. Per channel one dotted row: subs · typical video · their
 standout video with the multiple of *their own* normal (a small local channel over-performing counts
 double). Then three short sub-bands: *What they do that you don't* (the move → why it works → how you'd do
 it), *What you do better*, *Where you sit* (two sentences). Never an empty row; cap at 5.

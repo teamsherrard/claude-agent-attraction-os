@@ -63,8 +63,8 @@ the one piece you want, like 'design my digital product'."* — and stop.
 
 1. **The product looks like something you can hold.** One canonical cover, one light direction, one shadow
    recipe, reused exactly on every piece.
-2. **The stack reads top to bottom at phone size** — every row in the kit's order, every label verbatim, the
-   product on top.
+2. **The stack reads top to bottom at phone size** — the product on top and each tier's lead line (with
+   more than eight rows, each band's name); every row is there in the kit's order, every label verbatim.
 3. **The one-pager has a single reading path** that ends on one action. If the eye wanders, cut.
 4. **The deck is one idea a slide,** large enough to read on a shared screen, every slide from one master —
    no drift between slide 3 and slide 13.

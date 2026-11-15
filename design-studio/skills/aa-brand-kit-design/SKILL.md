@@ -353,17 +353,21 @@ single character; no element is ever partially hidden by another or by the canva
   @handle line under it, and the proof chip if a real one exists.
 - **Right:** the member's **photo** — REQUIRED whenever one exists, and prominent. A true cut-out
   (head-and-shoulders or half-body, the file's own see-through background) stands over a rich ground (brand
-  gradient, the treated culture photo, or the toolkit texture); a normal headshot runs as **the panel** —
-  full height, its inner edge dissolved into the ground, the brand wash over it (the craft standard's §6).
+  gradient, the treated culture photo, or the toolkit texture); a normal headshot is **the framed portrait, the look's own
+  photo device or a narrow panel** — only as wide as the full head allows at the banner's height, the brand
+  wash over it (the craft standard's §6; the asset specs give the width).
   Never a faked cut-out, a weird arch or an odd crop. **FILL the whole banner edge to edge.**
 - **The compliance strip** sits as the single least-important line (brokerage name · license as the
   rule says) with the brokerage chip anchored in a corner or inside the contact cluster — never floating.
 
-**BIG, BOLD, READABLE — the banner type laws (judge on a PHONE):** at most ~5 text elements; every
+**BIG, BOLD, READABLE — the banner type laws (judge on a PHONE):** at most ~5 text elements in the part
+a phone shows (on YouTube the centre 1546×423; the rest of the checklist sits in the outer zones — the asset
+specs say where); every
 content line BOLD (600+) at real size — in the 2560-wide strip the role and who-you-help rows at
 ≈34–44px, weight 700, full-contrast — never thin, letter-spaced, mid-tone; high contrast or a plate,
 never tone-on-tone; the technical/mono face never carries banner copy; **THE PHONE-CROP TEST** on the
-centre slice; **NOTHING SITS UNDER THE PHOTO and nothing gets truncated** ("BOOK A CALL WITH M…" is an
+centre slice (YouTube: the centre 1546×423; Facebook: the centre 1200×624 — nothing cut mid-word, the face in
+view); **NOTHING SITS UNDER THE PHOTO and nothing gets truncated** ("BOOK A CALL WITH M…" is an
 instant fail); **cut-outs exit the frame at the BOTTOM edge only** or fade deliberately; **no dead
 zones** bigger than ~25% of the canvas.
 
@@ -493,7 +497,8 @@ piece you present: see the real render at full size and at the size an agent mee
 weak, loose or generic; look again; score the five lines and rebuild anything under a 4. Only then run this
 piece's own checks below.
 
-- The YouTube banner the FULL 2560×1440 canvas with ALL content inside the centred 2560×423 strip, the
+- The YouTube banner the FULL 2560×1440 canvas with ALL content inside the centred 2560×423 strip — the name,
+  the positioning line, the button, the link and the photo inside its centre 1546px — the
   background art extended to fill the full height, no dashed boxes or guides; every other piece at its
   exact size?
 - Do ALL THREE banners carry the five lines — logo, name LARGE, role line, who-you-help row,
@@ -514,7 +519,7 @@ piece's own checks below.
   pointing device, the bottom scrub zone clear?
 - Feed posts: type at the stated scale (body never under ~32px), eyebrows bold, the CTA band
   uncramped, eyebrow + full headline + face inside the centre-square safe region?
-- The win template's formula holds: the agent's photo window 55–70%, zones INTERLOCKED, the status word
+- The win template's formula holds: the agent's photo window 55–70% of the height, zones INTERLOCKED, the status word
   the type hero, one slim contact bar, zero app UI?
 - The three posts pass THE AVATAR TEST — each speaks to a different type of agent from the Book (or,
   with one avatar, to a different pain of the five), each with a single one-step CTA?

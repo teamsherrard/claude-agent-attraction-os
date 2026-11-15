@@ -33,10 +33,12 @@ left for the call. Compensation never appears in a Reel.
   with a source. Nothing invented — mark where the member fills a detail.
 - **Has a clear angle** — a take, a mistake, a myth, "here's what nobody tells new agents."
 - **Fits 30–60 seconds** — one idea per Reel; three big points are three Reels.
-- **Ends on a rung** (`mike-frameworks.md` §8) with one of the two keywords: Follow / save / share for Perspective and
-  Personality; GUIDE (the guide) for Authority; the call ask — the kit's spoken line in the law's shape (*"If you want
-  my help running this, free, [the booking line]"*) — on about one Reel in four and on every Proof Reel; a Story Reel
-  may end on it as the why-join-me moment. Never a third word; never the brokerage as the reason.
+- **Ends on one ask** (`mike-frameworks.md` §8; house rules #13): GUIDE (the guide) for Authority; follow, save or
+  share for Perspective (or GUIDE when the take leads to the guide); a follow only for Personality; the invitation —
+  the offer's word, or the kit's spoken line in the law's shape (*"If you want my help running this, free, [the
+  booking line]"*) — on about one post in four, most naturally a Proof Reel or a "what you get" Reel (a Proof Reel
+  may carry the guide instead); a Story Reel ends on GUIDE, or on the invitation as the why-join-me moment. Never two
+  asks on one Reel; never a third word; never the brokerage as the reason.
 - **Scalable** — the topic never promises the member's time per partner (no in-person days beside the member, no chat
   group, no one-to-one calls); partners get recorded lessons, templates, the community, the weekly group call only when
   the member runs one.

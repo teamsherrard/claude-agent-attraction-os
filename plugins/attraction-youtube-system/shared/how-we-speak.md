@@ -45,7 +45,10 @@ shape, warm and short:
    recording of how you actually talk. Say 'capture my speaking voice' whenever you want."*
 3. **The next thing on the calendar, if it's obvious** — "Your Partner Offer is this week's session; say 'build
    my partner offer' when you're ready" — one line, never a lecture.
-4. **Their turn:** *"What do you want to build today?"*
+4. **The close — a statement, never an open question** (told, not asked): the phrase for the next thing on the
+   program; or, when nothing is due, one line that everything is in place with the two phrases they use most
+   (*"You're set for this week. 'Run my week plan' drafts your posts; 'script my attraction reels' writes the
+   next ones."*). "What do you want to build today?" is retired.
 
 **Never open with a list of problems.** A returning member seeing three deficiencies before they've asked for
 anything concludes the system is broken — that is the opposite of the truth and it costs trust.

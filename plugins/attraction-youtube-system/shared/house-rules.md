@@ -298,7 +298,7 @@ whole Brain, every file; a partial pull is completed first). Therefore:
   sitting's closing push**: the sync rebuilds the Brain Board AND refreshes the Brain Book's "What's next" page and
   hands back two links (both files in the member's `01 · AI Brain` folder). The close is a fixed, visible step (the
   owner, 2026-11-14 evening), never a passing mention — in this shape, before the breadcrumb: *"Your Brain Board and
-  your Brain Book are updated — here they are: [the Board link] · [the Book link]. Open the Board in your browser:
+  your Brain Book are updated — here they are: [the Board link] · [the Book link]. Download the Board and open the file — it opens in your browser:
   your YouTube dot is green, and its page shows your lanes, this week's video and your workflows."* (the Board is a
   file: "download it and open it — it opens in your browser".) When the session
   can show a file in the chat, the Board file is shown as well as the link. A Board or Book that could not rebuild is
@@ -307,8 +307,9 @@ whole Brain, every file; a partial pull is completed first). Therefore:
 - **The texts the board shows live in `~/attraction-brain/exports/`** (the Brain syncs `exports/*.txt`), written
   beside the `.docx` in the same run: the Channel Page Kit as `channel-kit-YYYY-MM-DD.txt` (`yt-setup`), the Game Plan
   as `youtube-game-plan-YYYY-MM-DD.txt` (`yt-gameplan`), each Kickoff Brief as `youtube-kickoff-YYYY-MM-DD.txt`
-  (`yt-briefing`), each Monthly Channel Review as `youtube-review-YYYY-MM-DD.txt` (`yt-triggers`). A doc saved without
-  its export is half-saved.
+  (`yt-briefing`), each Monthly Channel Review as `youtube-review-YYYY-MM-DD.txt` (`yt-triggers`), each deep dive and
+  each on-demand video read as `youtube-read-YYYY-MM-DD.txt` (`yt-analytics` — never the review's name). A doc saved
+  without its export is half-saved.
 - The board's YouTube page (rendered by the Brain plugin, never by this one) shows where the member stands (channel
   optimized and pasted · Game Plan · board · workflows · first video), the three lanes and the playlists, this week's
   video, the workflows switched on, the last Monday Kickoff and the last monthly review — so what this plugin writes

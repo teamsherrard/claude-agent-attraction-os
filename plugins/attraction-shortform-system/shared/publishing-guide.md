@@ -111,10 +111,7 @@ isn't here, never guess a name:
 7. **Analytics** — `getAnalyticsAvailableMetrics` first (what this brand and network can report), then
    `getAnalyticsDataByMetrics` for the numbers; `sf-analytics` owns the reading (below).
 
-**Free-plan guardrail:** Metricool Free = **20 posts/month + 1 brand** and 3 months of analytics history. A full
-multi-platform month (3–5 Reels × 4 platforms) blows past 20 fast, so a real batch needs **Starter (~$20/mo,
-unlimited publishing)**. If a month would exceed the cap, say so up front and offer to trim to the strongest,
-post to fewer platforms, or upgrade. Never silently drop posts. (Plan limits are Metricool's and change —
+**Free-plan guardrail:** Metricool Free = **20 posts/month + 1 brand** and 3 months of analytics history. Three posts a week on Instagram and Facebook is about 24 scheduled posts a month, so a full month goes just past the free cap; **Starter (~$20/mo, unlimited publishing)** lifts it. If a month would exceed the cap, say so up front and state what happens — never a menu: the month's posts are scheduled to Instagram first, Facebook gets as many as the cap allows, and the rest are handed over as copy-paste with one line that Metricool's paid plan removes the limit. Never silently drop posts. (Plan limits are Metricool's and change —
 confirm on their pricing page if it matters.)
 
 **Platforms:** Instagram, Facebook, TikTok, YouTube Shorts, LinkedIn (+ X, Threads, Pinterest, Bluesky, GBP).

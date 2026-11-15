@@ -58,7 +58,7 @@ and logs as written below. To the member it is "when that plugin is installed", 
 ## Five jobs (detect from the message)
 - **A · THE KEYWORD FOR THIS REEL** — "what's the ask on this reel", "keyword for this reel": pick the rung
   and the word for one post (the calendar row's `CTA (rung · KEYWORD)` cell is the default).
-- **B · THE KEYWORD SHEET + DM BANK** — "my keyword sheet", "my DM bank", "ManyChat copy": build the set once;
+- **B · THE KEYWORD SHEET + DM BANK** — "my keyword sheet", "my DM bank": build the set once;
   refresh it when the offer, the guide or the funnel URL changes.
 - **C · A CONVERSATION STARTED** — "an agent commented GUIDE", "she DMed me from the reel": write the human
   reply, qualify, and hand off or log.
@@ -128,12 +128,13 @@ brokerage is never the reason; compensation never. **Scalable by design (doctrin
 recorded lessons, the templates, the community (the weekly group call only when the member already runs one) —
 never the member's personal time, never a standing one-on-one, never "I pick up every call".
 
-**The rule of one:** one Reel, one word, one rung. The word is said on camera at the end, written as the
-caption's last line, and pinned as the first comment. **Which word, by pillar** (the kit's ratio: the guide on
-most posts, the call on about one in four and on every Proof piece): Authority → Comment / Resource with GUIDE
-· Perspective → follow / save / share · Story → DM with the offer's word, or GUIDE when the story teaches ·
-Proof → the offer's word (the call ask) · Personality → follow only. The six kit posts carry the ask their
-outline names (Posts 1, 2 and 5 the guide; Posts 3, 4 and 6 the call). Never skip rungs: a first-time viewer
+**The rule of one:** one Reel, one ask — never two. The word is said on camera at the end, written as the
+caption's last line, and pinned as the first comment. **Which ask, by pillar** (the call-ask rule, house rules #13:
+GUIDE is the ask on most posts; the invitation — the offer's own word, or the kit's call line — on about one post in
+four, most naturally a Proof piece or a "what you get" piece; a Proof piece may carry the guide instead): Authority →
+GUIDE · Perspective → follow, save or share (or GUIDE) · Story → GUIDE or the invitation · Proof → the invitation or
+GUIDE · Personality → follow only. The six designed kit posts keep exactly the asks the kit printed (Posts 1, 2 and
+5 the guide; Posts 3, 4 and 6 the call). Never skip rungs: a first-time viewer
 is never told "book a call" — the call comes after a conversation (`mike-frameworks.md` §8).
 
 ## Step 3 — The keyword sheet and the DM bank (Job B; Job A picks one row)
@@ -173,10 +174,10 @@ each on the rung that fits (the ask map in `${CLAUDE_PLUGIN_ROOT}/skills/sf-opti
 read on the two words) — the spoken line (one breath, the word said once) and its caption line (the word written
 once, last line). The guide lines and the call lines are the kit's CALLS TO ACTION lines **verbatim** (the same
 words every time); a pillar variant changes only the clause before the ask. Authority → GUIDE (*"comment GUIDE
-and I'll send you the one-page version we use"*) · Perspective → follow / save / share (*"send this to the agent
-who's panicking about it"*) · Story → DM with the offer's word (*"if this is where you are, DM me [WORD]"*) ·
-Proof → the call ask (*"want to know what she changed? If you want my help running this, free, [the booking
-line]."*) · Personality → follow only. Every line is tied to a thing that exists (the guide in `## Current
+and I'll send you the one-page version we use"*) · Perspective → follow, save or share (*"send this to the agent
+who's panicking about it"*), or GUIDE · Story → GUIDE, or the invitation with the offer's word (*"if this is where
+you are, DM me [WORD]"*) · Proof → the invitation (*"want to know what she changed? If you want my help running
+this, free, [the booking line]."*), or GUIDE · Personality → follow only. Every line is tied to a thing that exists (the guide in `## Current
 magnet`; the one-pager and the call from the offer); none names the model or the money. `sf-talkinghead`,
 `sf-carousel`, `sf-greenscreen`, `sf-week-plan`, `sf-publish` and `sf-optimizer` take their CTA line from this
 bank once it exists; until then they take it from the kit's table on the same rules.
@@ -324,7 +325,7 @@ confirm once: *"On. Say 'stop my keyword queue' any time."* Stop / pause → `de
 `paused`, push, one line. Never a second task. A demo Brain never gets a task. An older block's
 two retired engagement lines (the contract names them) are deleted on this skill's next write.
 
-## Step 8 — Save
+## Step 7 — Save
 Deliver in chat. The keyword sheet's text always goes to `exports/keyword-sheet-YYYY-MM-DD.txt` and is pushed
 (**attraction-brain-sync** — write → push → verify; the push re-renders the Brain Board, which shows the two
 words). Offer to save the full set (the CTA bank first, then the keyword sheet, then the DM bank) per
@@ -338,8 +339,8 @@ I'll write the human replies as they come in. Your Brain Board is updated."*
 - [ ] Brain loaded; the offer's word, the guide, the register, the voice and the booking link taken from it,
       nothing re-asked; seeds and an empty magnet respected with one line each
 - [ ] Two words only — GUIDE and the offer's word; no retired default anywhere (the `Keyword:` line fixed and
-      pushed if it held one); one word per Reel, matched to the rung and the pillar; the call ask on about one
-      post in four and every Proof piece
+      pushed if it held one); one ask per Reel, matched to the pillar; the invitation on about one post in four
+      (most naturally a Proof piece or a "what you get" piece), never two asks on one post
 - [ ] The GUIDE flow quoted from the Delivery Kit, never rewritten; the offer word's six messages under 60 words
       in the member's voice; the story reply; the NEVER list kept on every one
 - [ ] The keyword sheet one page — exactly the two words and the story reply; its text in `exports/`; the CTA lines

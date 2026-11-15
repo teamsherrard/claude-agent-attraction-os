@@ -5,15 +5,16 @@ the output stays detailed and strategic even when they barely type. The goal: **
 member, the highest-quality file for the Brain.**
 
 ## The rule
-1. **Ask each question once**, conversationally — in small groups of **2–4 related questions per stop** (the
-   question card holds four), never a 20-field form. Every turn replays the whole context, so fewer stops = a
-   faster setup AND a fraction of the usage. Warm, grouped by topic, never a form. **The one exception, by the
-   owner's ruling (2026-11-02): the Brain setup (`attraction-brain-setup`) asks ONE plain question per turn** —
-   its 26 questions plus three spoken answers — because a question that bundles four asks is a question nobody
-   can answer. Inside the Brain setup, "I don't know" is a placeholder and the next question (a consult only
-   on the four questions the setup skill lists: the WHY, the sponsor, the strategy and the 12-month number);
-   no open follow-up after a chip selection; no "one block to confirm" — the setup skill's own rules override
-   this file wherever they differ. Every other skill groups.
+1. **Ask only what the Brain cannot hold — and ask each such question once, ONE plain question per turn**, in
+   chat, never through a form or a question card with several fields (the owner, 2026-11-02 and 2026-11-14: a
+   question that bundles four asks is a question nobody can answer, and process steps are told, never asked —
+   the section below). Every turn replays the whole context, so fewer questions = a faster sitting AND a
+   fraction of the usage. The Brain setup (`attraction-brain-setup`) is the one long interview — its 26
+   questions plus three spoken answers, one per turn; inside it, "I don't know" is a placeholder and the next
+   question (a consult only on the four questions the setup skill lists: the WHY, the sponsor, the strategy and
+   the 12-month number); no open follow-up after a chip selection; no "one block to confirm" — the setup
+   skill's own rules override this file wherever they differ. Every other skill asks at most the one or two
+   facts its own file names.
 2. **If the member answers → use it verbatim.** Never overwrite a real answer with a guess.
 3. **If they hesitate / "I don't know" / "you pick" / "not sure" → generate a sensible default** from their
    Brain (or the attraction doctrine's standard) and let them confirm in one word.

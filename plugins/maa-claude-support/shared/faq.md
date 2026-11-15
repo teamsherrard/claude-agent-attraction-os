@@ -634,7 +634,7 @@ plugin writes; you never connect ManyChat to Claude, and no paid ManyChat plan i
 **Q53. What are the short-form workflows, and do they post for me?**
 They never post, send or schedule anything; every one drafts and leaves it for you. Setup tells you what it is switching
 on and you say Yes once: the Monday week plan (your week's posts onto your board, plus any welcome or win post your
-Brain earned), Sunday batch prep (your film-day sheet), the Wednesday brokerage news watch (three to six real, linked
+Brain earned), batch prep (your film-day sheet), the Wednesday brokerage news watch (three to six real, linked
 headlines with a 30-second take each) and the monthly calendar refill. By phrase, any time: the keyword follow-up queue,
 the mid-week nudge, the monthly deep dive, daily stories, the quarterly profile check. Say "my attraction workflows" to
 see or pause any of them. Each run leaves a note in Cowork, rebuilds your Brain Board, and sends you one short email at
@@ -675,7 +675,7 @@ same page every time: the hook, the script, the caption, the ask, filming notes,
 **Q59. YouTube: do I really have to film two videos a week?**
 No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos on the 8-video
 cycle (a niche video, an interview, a niche video, your model breakdown). Two a week is Mike's recommendation and the
-step-up your monthly channel review proposes once a month at one has held; say "change my cadence" any time. Interviews can be
+step-up your monthly channel review proposes once a month at one has held; say "change my YouTube cadence" any time. Interviews can be
 recorded two in one sitting, so the ratio holds even when your filming time is tight.
 
 **Q60. Where do my YouTube videos live on the board?**

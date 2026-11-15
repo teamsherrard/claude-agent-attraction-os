@@ -65,7 +65,7 @@ never acted on.
 5. **Compose the message** — plain text, short: one-line greeting ("Three stories for today — thirty seconds each"),
    the three blocks, one closing line: "Post them from your phone as the day happens; say 'post these' and I'll log
    them, or 'today's stories' for a fresh set."
-6. **Tell the member, when they asked to be told.** If the config block says `Email me: yes`, send ONE short email to
+6. **Tell the member.** If the config block says `Email me: yes`, send ONE short email to
    the member's OWN address (the one on their connected Gmail or Outlook — never any other recipient, never a campaign)
    through that connected mail: subject "Your three stories for today", body = the three overlays with their stickers
    and reply lines, nothing else. `Email me:` is `no`, `no (no mail connected)` or missing → no email. No connected mail → one

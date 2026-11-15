@@ -55,6 +55,13 @@ closing message and continue.
    `identity/goals.md` (the hours line — the step-up read); `identity/profile.md` (the member's own email
    address). Format dates to `config.md → Locale`. The first month has no previous block — say so; never fake a
    trend.
+2a. **Keep the email line true to the facts — never asked.** Look at the tools in this session. The YouTube
+   block's `Email me:` line reads `no (no mail connected)` and a mail tool (Gmail or Outlook) is present now →
+   write `Email me: yes YYYY-MM-DD` (today's date) on that line in `config.md` — it goes up with step 7's push —
+   and send this run's email in step 8. The line reads `yes …` and no mail tool is present → write
+   `Email me: no (no mail connected)` on that line (the same push) and skip the email silently — the next run
+   that finds mail connected turns it back on. A plain `no` mirrored from the Short-Form block is honoured:
+   never rewritten, no email. Only this one line, only in the YouTube block — never the Short-Form block's line.
 3. **The month, counted — never estimated:** videos published vs the rows dated in the month and the `Cadence:`
    anchor, said kindly (one video a week is the default for the first month; a month on plan is a month on plan —
    never "behind", never a grade) · the lane mix shipped vs 3 niche · 1 model · 4 interviews on the cycle (the
@@ -106,7 +113,7 @@ closing message and continue.
    write any other ledger, never move a stage, never touch `identity/channel.md` (the dated `## Performance` block
    belongs to the deep dive), never write `content-calendar.md` or `content-log.md`.
 8. **Tell the member — the same three steps every workflow ends with (the owner, 2026-11-14):** (a) **the note in
-   Cowork** — the task's own result, the note in step 9; (b) **one short email, while the line says yes** — the `Email me:` line:
+   Cowork** — the task's own result, the note in step 9; (b) **one short email, while the line says yes** — the `Email me:` line, as step 2a left it:
    the `## YouTube (Week 5)` block's line; no line (an older install) → the `## Short-Form (Week 4)` block's
    `Email me:`, which the YouTube line mirrors. `yes` (`Email me: yes YYYY-MM-DD`) → send ONE
    short email to the member's OWN address through their connected mail (Gmail or Outlook; the address in

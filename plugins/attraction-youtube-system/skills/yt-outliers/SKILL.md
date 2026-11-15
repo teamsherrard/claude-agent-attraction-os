@@ -84,7 +84,8 @@ The deeper sweep for **durable** demand:
 3. The **recreate list**: the concept · why it is proven (channel · rough view scale · age, as seen · date seen)
    · the member's version (their title, their branch, their angle, their proof; the bucket and the formula) · the
    yearly-remake note for model videos (`/96`).
-4. Offer to take any pick straight into *"make my attraction video: [title]."*
+4. Close with the next step — stated, never offered: *"To make one of these, open a fresh chat and say 'make my
+   attraction video: [title]'."*
 
 ### If clean numbers are out of reach — teach the 5-minute manual way
 > "Search YouTube for '[model] explained' or '[your niche] for real estate agents' → open each channel with

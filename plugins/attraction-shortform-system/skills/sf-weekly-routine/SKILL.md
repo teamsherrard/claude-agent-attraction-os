@@ -34,7 +34,7 @@ film it, what to post each day, and the fifteen minutes that turn attention into
   days beside the member, no chat group, no one-to-one calls, no "call me any time"; the weekly group call appears
   only when `identity/operations.md` shows the member already runs one. The member's OWN batch day is their routine.
 - **The workflows around this plan** (switched on by setup's one Yes, read from `config.md → ## Short-Form
-  (Week 4)`): the Monday Week Plan drafts the week; the Sunday Batch Prep leaves the teleprompter doc the evening
+  (Week 4)`): the Monday Week Plan drafts the week; the Batch Prep leaves the teleprompter doc the evening
   before the batch day (`Batch Prep task:` holds a task id → say *"your cards are waiting in your Content folder"*
   instead of re-planning them); "how's my content doing" scores the week any time (the on-demand read; no weekly
   note). Never claim a workflow that is not switched on.
@@ -44,7 +44,7 @@ film it, what to post each day, and the fifteen minutes that turn attention into
 **The Monday Week Plan and this planner, one line each way:** the Monday Week Plan (`sf-week-plan`, scheduled
 with the member's yes) drafts the week's posts from the Game Plan's calendar every Monday; this planner is the
 member-run rhythm around those drafts — the batch block, the daily story habit, the engagement slot, the check-in
-— and when the Monday plan ran this week, it plans around those five instead of re-choosing them.
+— and when the Monday plan ran this week, it plans around those drafts instead of re-choosing them.
 
 ## Two modes (detect from the message)
 - **PLAN** (default) — "plan my attraction week", "set my batch day": build the week.
@@ -56,7 +56,7 @@ Read `~/attraction-brain/brain.md` first (pull with **attraction-brain-sync** if
 Open only:
 - `identity/content-pillars.md` — the pillars and their angles (the Game Plan writes it inside setup; if
   missing, use the defaults below and say which week fills it)
-- `memory/content-calendar.md` — the Game Plan's rows dated this week (the plan's five; their Status says what
+- `memory/content-calendar.md` — the Game Plan's rows dated this week (the week's posts — three at the default cadence; their Status says what
   the Monday Week Plan already drafted; a row that is one of the six kit posts is a designed graphic — "post it") and
   the newest `## Week briefs` block
 - `identity/goals.md` — the content commitment they set in Week 1 (never ask for a number that is here)
@@ -78,7 +78,8 @@ plan a week of unwritten videos as if they existed.
 ## The rhythm (Mike's lessons, carried whole — the two OS defaults labeled as such)
 - **Reels: three to five a week** — start at three, work up to five (`07-instagram/88`). The default mix
   every week — the cohort's Week 4 standard, not a lesson of Mike's (his sample week is in Step 2; confirm the
-  mix with him, `mike-frameworks.md` §15): **2 attraction · 2 authority · 1 story** at five a week — one of each at the default three — attraction = a Proof or
+  mix with him, `mike-frameworks.md` §15): **1 attraction · 1 authority · 1 story** at the default three a week (2 · 2 · 1
+  only at five, the step-up) — attraction = a Proof or
   Personality Reel; authority = an Authority or Perspective Reel (one step of the member's method, `offer.md → ## The
   framework`, per teaching Reel — the guide as where the rest lives); story = a Story Reel (`mike-frameworks.md` §9d).
   Static posts — the six kit posts first, then recognition and personal moments — are spliced in; they do not replace
@@ -113,20 +114,20 @@ plan a week of unwritten videos as if they existed.
 ## Step 2 — PLAN: the week (use these exact section names)
 - **THE WEEK AT A GLANCE** — one table, Monday to Sunday: day · what posts (the calendar row's working title
   and pillar — the Game Plan's dates are the default — a kit post's day reads "post [Post n] — already designed"; or
-  "stories only") · the story prompt for that day · the ask (GUIDE, or the call line on the Proof day) · the
+  "stories only") · the story prompt for that day · the ask (GUIDE on most days; the invitation on about one post in four — most naturally the Proof day; "follow" on a Personality day) · the
   engagement slot · minutes. Mike's sample
   calendar (`07-instagram/90`) is the default shape: Mon value (Authority) · Tue recognition (Proof) · Wed
   leadership insight (Perspective) · Thu culture or event recap (Proof or Personality) · Fri personal or
   opinion (Story or Perspective). Rebalance to the mix in force (one of each at three; 2·2·1 at five) and to their realistic number.
 - **THE BATCH BLOCK** — the day, the start time, the length (one to two hours), the three to five titles
-  in film order, the one setup (phone at eye level, natural light, one outfit). When the Sunday Batch Prep is on, say
+  in film order, the one setup (phone at eye level, natural light, one outfit). When the Batch Prep is on, say
   the teleprompter cards will be waiting the evening before; otherwise point at the film-day plan ("film day for my
   attraction reels") for a full run sheet when they have more than five.
 - **THE DAILY STORY HABIT** — seven prompts, one per day, from `sf-stories`' four categories (behind the
   scenes of leading · agent wins · personal · opportunity); each under ten words; one interactive element; a reply ask
   is "Reply GUIDE" or a plain reply — never a third word; no prompt promises the member's time per partner.
 - **THE ENGAGEMENT ROUTINE** — the fifteen-minute checklist above, with the time of day they will do it.
-- **THE CHECK-IN TABLE** — empty, for Friday: Reels filmed · Reels posted · story days · comments replied
+- **THE CHECK-IN TABLE** — empty, for the end of the week: Reels filmed · Reels posted · story days · comments replied
   · DMs answered · conversations started · calls booked.
 - **ONE CALENDAR BLOCK** — one line, the Yes shape: *"Say Yes and I'll put the batch block and the daily engagement
   slot on your calendar."* (Google Calendar or Outlook, per the Brain's connector). Only on the Yes; never silently.

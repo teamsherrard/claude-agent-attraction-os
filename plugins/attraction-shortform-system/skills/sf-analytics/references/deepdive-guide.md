@@ -91,13 +91,16 @@ one profile or page fix) · **3.3 What's rising** (direction of the niche phrase
 Three to five four-line cards (*What we found · Why it matters to you · Do this — the exact hook, pillar,
 keyword, week · The proof*): questions agents keep asking that no leader in the lane answers well; a pillar
 the member has not used; a hook shape that works for the admired leaders and not yet for the member. The
-under-posted pillar in 2·2·1 belongs in Part 5's FIX list.
+under-posted pillar in the member's mix (`publishing.md → Weekly mix:` — 1 · 1 · 1 at three a week, 2 · 2 · 1 at
+five) belongs in Part 5's FIX list.
 
 ## Part 5 — Your next 30 days
 - **Keep doing** — three strengths with the proving number. **Fix** — three fixes: what's wrong · why it costs
   you · do this.
-- **The plan (2·2·1 by pillar)** — one post per row (hook · pillar · format · the word — GUIDE on most, the offer's
-  word or the call on about one in four and every Proof piece · week), seeded from the winning hooks and the
+- **The plan (the mix read from `Weekly mix:`, by pillar — 1 · 1 · 1 at three a week, 2 · 2 · 1 at five)** — one
+  post per row (hook · pillar · format · the ask — GUIDE on most, the invitation (the offer's word or the call line)
+  on about one post in four, most naturally a Proof piece or a "what you get" piece, "follow" only on a Personality
+  row · week), seeded from the winning hooks and the
   openings, ready for `sf-talkinghead` / `sf-carousel` / `sf-greenscreen` / `sf-stories`; every call line in the
   call-to-action law's shape (the person · their help · free · to run this — never the brokerage as the reason,
   never compensation, never a promise of the member's time); **Post at:** the three slots from 1.5; **Output:**
@@ -107,7 +110,7 @@ under-posted pillar in 2·2·1 belongs in Part 5's FIX list.
   best comment, a re-cut in the AI Editing Studio — "edit my reel" in a new chat); never a new claim.
 - **The step up** (the owner, 2026-11-14) — only when `Cadence:` is three and the window's log shows three Reels
   posted in each week: propose five in one line (*"a month at three a week has held — you're ready for five; say
-  'five a week' and I'll remap the month on it"*); the member's word flips `Cadence:` through the Game Plan, never
+  'change my cadence' and I'll remap the month on five a week"*); the member's word flips `Cadence:` through the Game Plan, never
   the dive. The Monthly Calendar Refill carries the same proposal.
 - **THE ONE MOVE** — repeated word for word.
 

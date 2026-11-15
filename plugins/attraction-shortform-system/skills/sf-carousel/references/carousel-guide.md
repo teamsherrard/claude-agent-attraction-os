@@ -14,7 +14,7 @@ that come after them. Every ask below uses one of the two keywords — `GUIDE` (
 The most-shared post a leader can make, and the one that goes wrong most often. The rules first:
 - **The former brokerage is never named.** "A franchise." "An independent." "A big team." (`journey.md` rule;
   `03-model-positioning/13`.)
-- **Not one negative word about it or anyone there.** The post is about the *problem* — the cap that never moved,
+- **Not one negative word about it or anyone there.** The post is about the *problem* — the leads that never called back,
   the lead bill with no closings, the training that explained forms but not clients — never about the company.
   Give credit where it's true ("they taught me the paperwork").
 - **No compensation.** Why they left is a problem; where they went is "the vehicle"; what they built is the point.

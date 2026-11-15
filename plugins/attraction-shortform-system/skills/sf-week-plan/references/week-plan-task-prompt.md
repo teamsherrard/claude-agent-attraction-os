@@ -70,7 +70,9 @@ message and continue.
    slide-by-slide copy and the LinkedIn document line) · THE BULLET VERSION (five riff lines, hook and CTA word for
    word) · THE SHOTS (one line per step) · THE CTA (one rung, one of the two words, the kit's line verbatim — the guide:
    "[what the guide holds, one clause]. Comment GUIDE and I'll send it." on most posts; the call: "If you want my
-   help running this, free, [the booking line]." on about one in four and every Proof piece — the call-to-action
+   help running this, free, [the booking line]." on about one post in four, most naturally a Proof piece or a "what
+   you get" piece (a Proof piece may carry the guide instead; a Personality post asks for a follow only; never two
+   asks on one post) — the call-to-action
    law's shape, the person · their help · free · to run this; at the open register "I'll walk you through it, free,
    no strings"; never the brokerage as the reason) · THE CAPTIONS (Instagram +
    Facebook with the ask as the last line and 3–5 hashtags; TikTok one line, no line breaks; YouTube Shorts title,
@@ -98,7 +100,7 @@ message and continue.
    team posts" / "my welcome post for [Name]"); the report says that in one line. Nothing new → draft nothing, say
    nothing.
 7. **The board** — only if `identity/publishing.md → Content board:` holds a URL. For each drafted row: find the card
-   by its System ID (then exact title, then near-match); write the full package into the card page under the spec's locked headings — 🎯 THE HOOK · 📝 THE SCRIPT · 💬 THE CAPTION · 📣 THE ASK · 🎬 FILMING NOTES · 📎 SOURCES (replace a section that exists, never stack two); set Status to `Scripted`; leave the Publishing Date as
+   by its System ID (then exact title, then near-match); write the full package into the card page under the spec's locked headings — 🎯 THE HOOK · 📝 THE SCRIPT · 💬 THE CAPTION · 📣 THE ASK · 🎬 FILMING NOTES · 📎 SOURCES · 📊 AFTER IT'S OUT (the last one left empty for the performance read; replace a section that exists, never stack two); set Status to `Scripted`; leave the Publishing Date as
    the calendar has it; never create a second card for the same post; a card the member deleted stays deleted (note
    it once). Not found → create it with the row's Topic (the hook), Format (`Talking Head` · `Green Screen` · `Carousel` · `Graphic`), Pillar (the OS name), Context (`• For:` · `• Rung:`), Recording Date (the batch day), Publishing
    Date, Resource Assets (the two CTAs), and the row's System ID. **Keep thirty days visible:** if fewer than thirty
@@ -109,7 +111,7 @@ message and continue.
    the board are the truth — reflect them in the calendar rather than overwriting the board. No board → skip this
    step silently.
 8. **Housekeeping FIRST, silently** — so the report is the last thing you output. Append one row per drafted post to
-   `memory/content-log.md` in its locked shape (Date · Platform `Instagram · TikTok · Shorts · FB` (or `LinkedIn`
+   `memory/content-log.md` in its locked shape (Date · Platform `Instagram · Facebook` (add `· TikTok · Shorts` only when the member reposted there; or `LinkedIn`
    for a document post) · Format `reel` / `carousel` · Pillar · Topic / hook beginning `[talking head]` / `[green
    screen]` / `[LinkedIn doc]` · Avatar · Story used · CTA (rung · KEYWORD) · Status `Scripted` · Link empty). In
    `memory/content-calendar.md`: flip the drafted rows' Status to `Scripted`; append a dated block under `## Week
@@ -128,7 +130,7 @@ message and continue.
    Plan section.
 8b. **Tell the member — the same three steps every workflow ends with (the owner, 2026-11-14):** (a) **the note in
    Cowork** — the task's own result, the report in step 9: the two or three lines that matter and the doc link; (b)
-   **one email, only if asked** — the `Email me:` line of `config.md → ## Short-Form (Week 4)`: `yes` (`Email me: yes
+   **one email, when the email line says yes** — the `Email me:` line of `config.md → ## Short-Form (Week 4)`: `yes` (`Email me: yes
    YYYY-MM-DD`) → send ONE short email to the member's OWN address through their connected mail (Gmail or Outlook;
    the address in `identity/profile.md`, else the signed-in account's own) — subject: "Your week is drafted — [n]
    posts on your board", body: the same two or three lines (the posts, the stories, any recognition post and whose

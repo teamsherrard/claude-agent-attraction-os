@@ -103,12 +103,14 @@ async function svgToXml(svgEl, fontCSS) {
 }
 
 async function xmlToPng(xml, w, h, name) {
-  const url = URL.createObjectURL(new Blob([xml], { type: 'image/svg+xml;charset=utf-8' }));
+  // a data: URL, never a blob: URL — a piece with HTML text inside its SVG (<foreignObject>) taints the canvas when it
+  // is loaded from a blob, and the download then fails with nothing saved (seen in a dry run, 2026-11-14)
+  const url = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(xml);
   const img = new Image();
   await new Promise((res, rej) => { img.onload = res; img.onerror = () => rej(new Error('could not render ' + name)); img.src = url; });
   const c = document.createElement('canvas'); c.width = w; c.height = h;
-  c.getContext('2d').drawImage(img, 0, 0, w, h); URL.revokeObjectURL(url);
-  return new Promise(res => c.toBlob(res, 'image/png'));
+  c.getContext('2d').drawImage(img, 0, 0, w, h);
+  return new Promise((res, rej) => c.toBlob(b => b ? res(b) : rej(new Error('could not save ' + name)), 'image/png'));
 }
 
 function crc32(u8) { let crc = 0xFFFFFFFF; for (let i = 0; i < u8.length; i++) { let c = (crc ^ u8[i]) & 0xFF; for (let k = 0; k < 8; k++) c = c & 1 ? (c >>> 1) ^ 0xEDB88320 : c >>> 1; crc = (crc >>> 8) ^ c; } return (crc ^ 0xFFFFFFFF) >>> 0; }

@@ -77,4 +77,5 @@ an empty placeholder (the coordinator mirrors any change here into it); a Brain 
 `Setup:` line is read by `yt-setup` Step 0's fallback (anchors filled → `plan done`, else `kit done`), and the
 line is added on the next stamp. The text of every document this plugin saves is kept beside it in
 `~/attraction-brain/exports/` (`channel-kit-YYYY-MM-DD.txt` · `youtube-game-plan-YYYY-MM-DD.txt` ·
-`youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt`) so the Brain Board's YouTube page can read it.
+`youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt` · `youtube-read-YYYY-MM-DD.txt`) so the Brain
+Board's YouTube page can read it.

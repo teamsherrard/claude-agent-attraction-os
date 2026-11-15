@@ -18,8 +18,9 @@ For each chosen topic, deliver a package the member can film immediately. Everyt
    `exports/week3-kit-*.txt`), the spoken line: the guide — *"[what the guide holds, one clause]. Comment **GUIDE** and
    I'll send it."* · the invitation — *"If you want my help running this, free, [the booking line]."* (the law's shape:
    the person · their help · free · to run this; open register — `offer.md → Join-gated package allowed: no` — *"I'll
-   walk you through it, free, no strings."*) · *"Save this for the next time you feel stuck."* One rung per Reel; the
-   guide on most, the call on about one in four and on every Proof Reel. The model, the money, the brokerage as the
+   walk you through it, free, no strings."*) · *"Save this for the next time you feel stuck."* One ask per Reel; GUIDE
+   on most, the invitation on about one post in four — most naturally a Proof Reel or a "what you get" Reel (a Proof
+   Reel may carry the guide instead); a Personality Reel asks for a follow only. The model, the money, the brokerage as the
    reason, and any promise of the member's time per partner never appear — that is the private call.
 
 ## Length — 30–60 seconds (the attraction Reel)
@@ -59,8 +60,7 @@ whiteboard for Authority, the kitchen table or the gym for Personality. Phone, v
 - A Proof Reel names an agent only when `proof.md` says OK to use publicly; otherwise first name or initials, or
   "one of my agents". Numbers are the member's stated numbers, nothing projected. "No story too big or too
   small" (`06-content-framework/40`) — one deal in 30 days is the relatable one.
-- No story on file for this moment → write the Reel without one and mark `[your story here — say 'build my
-  story bank' to add it]`.
+- No story on file for this moment → write the Reel without one and mark `[your story here — say 'build my attraction story bank' to add it]`.
 
 ## Rules that keep it good
 - **The read-aloud test governs:** if a line can't be said in one breath while walking, rewrite it.

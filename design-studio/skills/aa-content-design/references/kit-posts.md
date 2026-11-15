@@ -91,7 +91,11 @@ chapter 3 for the full statement.
 
 ## POST BY POST — the craft that is specific to each
 
-- **Post 1 — The guide.** The cover is the pre-headline alone, the biggest text in the set; run the
+- **Post 1 — The guide.** The cover's only words are the pre-headline, the biggest text in the set
+  (beside the lockup and the footer; the member's photo rides small, in the look's own window, when
+  showHeadshot is on — type on flat colour alone fails the three tests). A pre-headline longer than
+  about eight words keeps every word and is set in two levels — its first clause as the billboard,
+  the rest about half that size — never five lines of one size; run the
   COVER TEST (`carousel-craft.md`). Slides 2 to 4 are three value slides with three DIFFERENT
   layouts (the layout quota); each carries one bullet, verbatim. Slide 5 is the CTA slide: the kit's
   line, the keyword in caps as printed, the member's lockup, the stamp.
@@ -147,8 +151,10 @@ chapter 3 for the full statement.
 ## SIZES & SAFE ZONES
 
 - **Carousels and singles 1080×1350** (4:5 portrait), every slide the exact same size; key text
-  ~100 px inside the edges; **GRID-SAFE COVER** — the headline, any face and the footer inside the
-  central ~1012 px width and inside the central 1080×1080 (the grid tile crops to 3:4).
+  ~100 px inside the edges; **GRID-SAFE COVER** — the headline and any face inside the
+  central ~1012 px width and inside the central 1080×1080 (y 135 → 1215); the footer inside the
+  central ~1012 px width, in the same band as on every other slide (the grid tile crops to 3:4, so
+  only the sides are lost — a footer lifted into the square would jump from slide to slide).
 - **The story 1080×1920** — text clear of the top and bottom 250 px (y 250 → 1670); nothing in the
   right 12% but a colour block (the platform's icon rail).
 - **TEXT-SIZE FLOOR:** nothing under ~36 px except footers, source lines and the stamp (~28 px).

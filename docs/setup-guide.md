@@ -246,7 +246,7 @@ It already knows you from your Brain, your offer, your guide and your Week 3 Kit
    keywords or the call, in Mike's words: partner with me and get my help, free, to run this. No stops: it states your five pillars and your week — three posts a week to start, so your first month is twelve posts: the six you designed and six to film — and builds; say so any time if you want one changed. It also hands you your ManyChat build sheet: ManyChat is how your two keywords answer themselves, you set it up in your own account this week, and it is never connected to Claude. The document lands in Content → Short-Form.
 3. **Your content board** in your own Notion: one dashboard, the thirty days as dated cards; its tabs are Graphics (your designed posts), Reels and Calendar — YouTube gets its own tab in Week 5, so the two never mix — and every card opens to the same page (the hook, the script, the caption, the ask, filming notes, sources). Your designed posts sit at Ready to Post until they go out. If Notion is not connected yet, a Connect button appears right in the chat; click it, sign in, say "connected", and the board is built.
 4. **Your workflows, switched on for you.** It tells you what it is setting up — the Monday week plan (your week's
-   posts drafted onto your board, plus any welcome or win post your Brain earned), Sunday batch prep (your film-day
+   posts drafted onto your board, plus any welcome or win post your Brain earned), batch prep (your film-day
    sheet), the Wednesday brokerage news watch (three to six real, linked headlines with a 30-second take each) and the
    monthly calendar refill — and that it will email you a short note at your own address when something is ready. You
    say Yes. Every workflow only drafts; nothing posts on its own. Extras exist by phrase (keyword follow-up queue,
@@ -297,10 +297,10 @@ It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it 
    as your short-form notes. Nothing posts or sends on its own.
 5. **Your first video.** The first title on your plan, handed over as a phrase: `make my attraction video: [title]`.
    Open a fresh chat for it; it scripts in your voice, briefs the thumbnail, builds the SEO package and fills the card.
-   When you have the editor, `edit my YouTube video` edits it.
+   When it is filmed, open a new chat and say `edit my YouTube video` — your editor (Plugin 5, installed in Week 4) edits it.
 
-The close rebuilds your Brain Board: the YouTube dot turns green and its page shows your lanes, this week's video and
-your workflows.
+The close hands you your Brain Board and your Brain Book with their links: the YouTube dot turns green and its page
+shows your lanes, this week's video and your workflows.
 
 ## 8. Turn on your Daily Debrief (whenever you want it)
 
@@ -356,7 +356,7 @@ owns them and created only with your yes; every one is draft-only.
 | 3 | **Design Studio — the offer, guide, page and posts** — Claude Design skills, uploaded, not installed (section 5): your digital product mockup, the offer stack and one-pager, the guide PDF, the opt-in and thank-you pages, the six social posts, the video pop-ups, the call deck and welcome pack — all from your Week 3 Kit and your guide | `design my digital product` → `design my offer kit` → `design my guide pdf` → `design my funnel page` → `design my posts` → `design my pop-ups` | — |
 | **3** | **The brand chat** — a Cowork chat when Week 3 opens: what you already have, then the direction derived from how you talk, then your Design Package brief (section 5) | `my attraction brand direction` | — |
 | 3 | **The Design Package** — three Claude Design skills, uploaded, not installed (section 5) | `design my attraction logo` → `build my brand style sheet` → `make my brand kit` | — |
-| **4** | **Plugin 4 · Short-Form** — one phrase is the whole Week 4 session, in order (section 6): your profiles and two keywords confirmed, your Short-Form Game Plan (pillars from your offer, your calendar opening with the six posts you designed in Week 3), your Notion board, your workflows from one card, your first Reel | `set up my attraction short-form` | Monday week plan · Sunday batch prep · Wednesday news watch · monthly calendar refill (all four with your yes; all draft-only) |
+| **4** | **Plugin 4 · Short-Form** — one phrase is the whole Week 4 session, in order (section 6): your profiles and two keywords confirmed, your Short-Form Game Plan (pillars from your offer, your calendar opening with the six posts you designed in Week 3), your Notion board, your workflows from one card, your first Reel | `set up my attraction short-form` | Monday week plan · batch prep · Wednesday news watch · monthly calendar refill (all four with your yes; all draft-only) |
 | 4 | **Plugin 5 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace; it reads the Video Brand Kit you designed in Week 3 | `set up riverside`, then `edit my video` or `make me a reel` | — |
 | 3 | **Design Studio video kit** — one Claude Design skill (zip 08): the overlays your editor lays over every video (name card, the guide and call pop-ups, end cards, call-to-action banners in your words) and the spec your editor reads; registered with your editor in Week 4 (`register my video brand kit`) | `design my pop-ups` · `design my video kit` | — |
 | 4 | **ManyChat sequence templates** — required for your two keywords: install ManyChat yourself (the free plan starts you), import Mike's templates into your own account, follow the build sheet your short-form plugin writes. You never connect ManyChat to Claude | `my ManyChat build sheet` | — |

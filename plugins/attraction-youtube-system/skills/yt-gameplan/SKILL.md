@@ -1,7 +1,7 @@
 ---
 name: yt-gameplan
 description: >
-  The flagship document of the Agent Attraction YouTube System (Week 5): the YouTube Game Plan for
+  The flagship of the Agent Attraction YouTube System (Week 5): the YouTube Game Plan for
   attracting agents on Mike's three categories (niche authority · interviews · model) and the
   8-video cycle (3 niche · 1 model · 4 interviews). Reads the kit's calls to action and the offer's
   content branches first, audits the channel at any size, sets the three niche lanes (Problem ·
@@ -11,7 +11,7 @@ description: >
   doc. Runs inline inside setup (no question stops) or on demand; demo mode. Triggers on "build my
   attraction game plan", "my attraction game plan for YouTube", "my attraction channel plan", "my
   attraction YouTube strategy", "refresh my attraction game plan", "map my attraction channel",
-  "180-day plan for my attraction channel".
+  "180-day plan for my attraction channel", "change my YouTube cadence".
 ---
 
 # YouTube Game Plan — the flagship document of Week 5
@@ -69,6 +69,14 @@ and labeled, never asked for (Phase 7); the board is not offered (Phase 9 step 6
 YouTube tab and maps the next 30 days); the closing hand-off is replaced by handing back to setup (Phase 9 step
 7). The research line (Phase 3) is still said once — it is a progress line, not a question. On demand, every stop
 below behaves as written.
+
+**"Change my YouTube cadence" (on demand — the one phrase that changes the pace; never the whole plan again).**
+The member's own words set the pace (one a week ↔ two a week — nothing is asked). No audit, no research, no new
+titles: the lanes and the bank stand. Rewrite the cadence line and re-date the un-started rows of the 90-day
+calendar at the new pace, then run Phase 9 as a refresh — the plan re-saved dated with its text in `exports/`,
+the `Cadence:` anchor with today's date and the `Step-up:` line (step 5), the Brain's calendar (step 5b —
+`Scripted` and later rows never move), the board by the rolling rule (step 6), the push — and say in one line
+what moved.
 
 ---
 
@@ -181,7 +189,7 @@ it or the member asks. The 8-video cycle holds at either pace (one cycle in eigh
 two); **the first four videos at one a week run niche · interview · niche · model** (Why I Switched allowed early,
 Mike's own exception). On demand: state the pick and why in one line and build on it — a
 statement, never a "does that work?". **Inside setup: no question — state the pick and why in one line,
-move on, and say "change my cadence" is one phrase away.** It becomes the `Cadence:` anchor every other skill
+move on, and say "change my YouTube cadence" is one phrase away.** It becomes the `Cadence:` anchor every other skill
 reads (Phase 9 — `1/week · since YYYY-MM-DD`, the step-up noted) and the pace the board's 30-day window is mapped
 at: **four or five cards at one a week, eight or nine at two.** Say why not every video is brokerage content.
 
@@ -256,10 +264,11 @@ the four-month arc; as your own ideas and your comments come in, they replace it
 
 ## Phase 7 — Your goal → the plan (conversations and calls, never income)
 **Read now:** `memory/scorecard.md` Targets block (the ratios), with `goals.md` from Phase 2 (the 90-day conversations
-and calls-held targets). If goals are `seeds`, use the seed numbers and label them; if empty, ask ONCE for the one
-number ("how many agent conversations a week feels real?") and say `attraction-goals` saves it for everything else
-— **inside setup, never a question: use the seeds (or a labeled default) and say in the plan that "set my
-attraction goals" locks them.**
+and calls-held targets). **The goal is read from the Brain, never asked — on demand and inside setup alike.**
+Locked → the Brain's numbers. `seeds` → the seed numbers, labeled. Neither file holds a target → the framework's
+labeled default (`references/gameplan-framework.md`, the goal-math), stated plainly as a default. Seeds or
+default: say once, in the plan and in chat, that it can be changed — *"these are starting numbers — say 'set my
+attraction goals' to lock your own."* A statement, never a question.
 Per the framework's math: the 90-day calls-held target from `goals.md` → calls booked needed (÷ show rate) →
 conversations needed (÷ the Brain's conversations→calls ratio) → YouTube's share this quarter (the member's
 split; default labeled) → per-video conversations at their cadence (≈ 13 videos in 90 days at one a week; ≈ 26 at
@@ -278,7 +287,7 @@ within the week. Why I Switched early in cycle one if their story is ready (`jou
 starter arc fills the slots in the bank's order (Month 1 niche titles open cycle one, M3-01 takes the first model
 slot, M1-I1 the first interview) — the ratio never bends to the arc. **Mark the first 30 days** — the rows the
 board will card: four or five at one a week, eight or nine at two — and **the step-up checkpoint at the end of month
-one** (*"a month in, your monthly review asks whether two a week fits; say 'change my cadence' any time"*). Then
+one** (*"a month in, your monthly review asks whether two a week fits; say 'change my YouTube cadence' any time"*). Then
 **days 91–180 as the direction** (double down · compounding assets · the machine). The scoreboard from `goals.md`
 (leading and lagging), CTR 6–10% after month one, compliance status.
 

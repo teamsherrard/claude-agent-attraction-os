@@ -18,7 +18,7 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | "my agent avatars" / "my persona" / "Persona 3" | the 1–3 Agent Avatars built from the six agent types | `attraction-persona-map` |
 | "my story bank" / "my experience bank" | the Personal Story & Experience Bank (12+ stories, tagged) | `attraction-story-bank` |
 | "my UVP" / "the I-help sentence" / "my partner offer" / "the offer stack" | `identity/offer.md` (Week 2) + the Design Studio's offer assets | `attraction-offer` · `aa-offer-kit-design` |
-| "the Brokerage Model Expert" / "the model breakdown" | the Brain's brokerage-model skill (private-call material) | `attraction-brokerage-model` · `yt-model-breakdown` (Week 4, public) |
+| "the Brokerage Model Expert" / "the model breakdown" | the Brain's brokerage-model skill (private-call material) | `attraction-brokerage-model` · `yt-model-breakdown` (Week 5, public) |
 | "Prospect Radar" / "the Agent Movement Watcher" / "who's moving in my market" | the Brain's radar skill + its news scan, run on demand ("scan agent movement" — not a scheduled agent) | `attraction-prospect-radar` |
 | "my top 50" / "my list" | `memory/top-50.md` | `attraction-top-50` |
 | "Agent Intel" / "the intel report" | a 1-page report per prospect before outreach (Week 5) | `cv-agent-intel` |
@@ -62,9 +62,9 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 - **"Speak to agent problems, not brokerage features."** (Week 3) — the content version of features-vs-benefits.
 - **Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation.** (Week 3) — what short form is FOR; for "my Reels get views but nothing happens."
 - **Escalating CTAs: Follow → Comment → DM → Resource → Conversation → Call**, with the ManyChat keyword carrying every Reel (Week 3).
-- **"Reach content vs. trust content."** (Week 4) — short form gets you discovered; long form is where an agent decides. "20 to 100+ minutes consumed before a conversation ever happens."
-- **The 8-video cycle: 3 niche videos + 1 model breakdown + 4 interviews.** (Week 4) — the YouTube plan shape; interviews are content + proof + recognition + retention + recruiting at once.
-- **"Every video has a next step."** (Week 4) — YouTube → resource or community → conversation → Partner Call.
+- **"Reach content vs. trust content."** (Week 5) — short form gets you discovered; long form is where an agent decides. "20 to 100+ minutes consumed before a conversation ever happens."
+- **The 8-video cycle: 3 niche videos + 1 model breakdown + 4 interviews.** (Week 5) — the YouTube plan shape; interviews are content + proof + recognition + retention + recruiting at once.
+- **"Every video has a next step."** (Week 5) — YouTube → resource or community → conversation → Partner Call.
 
 ## Conversation & conversion (Week 5)
 - **"Don't recruit — start conversations."** Relevant, personalized, selfless, value-driven, low pressure (Week 5).

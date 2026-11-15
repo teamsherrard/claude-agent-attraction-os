@@ -7,11 +7,11 @@ description: >
   and end cards; and, only when Week 2 was skipped, the fallback Starter Resource, built once. (2)
   Comment triage on REAL comments — read through the live data connection when connected, else what
   the member pastes: prospects, questions, thanks, trolls skipped; replies in the member's voice;
-  prospects to the Top-50 on a yes. (3) What agents keep asking becomes video ideas. Drafts only —
-  nothing is posted. Trigger on: "resource for my attraction video", "CTA for this agent video",
-  "lead map for my attraction video", "build my starter resource", "triage my attraction comments",
-  "reply to agents in my comments", "who in my comments is a prospect", "what are agents asking in
-  my comments", "an agent commented".
+  prospects to the Top-50 on the member's phrase. (3) What agents keep asking becomes video ideas.
+  Drafts only — nothing is posted. Trigger on: "resource for my attraction video", "CTA for this
+  agent video", "lead map for my attraction video", "build my starter resource", "triage my
+  attraction comments", "reply to agents in my comments", "who in my comments is a prospect", "what
+  are agents asking in my comments", "an agent commented".
 ---
 
 # Lead Engine — the conversations are already happening
@@ -140,9 +140,11 @@ Triage into four piles (counts first, then work them in this order):
   through it, free, no strings; the call's in the description"*) — never a promise of the member's time, never
   "I'll call you tonight". Then the DM draft that follows the public reply — the kit's DM row (*"Happy to. Bring
   [the thing they bring] and [the booking line]."*). Tell the member plainly: **these are prospects — reply
-  today, then DM.** Offer to add each to the Top-50 via `attraction-top-50` (name · type if stated · Source
+  today, then DM.** Then the next step, with the phrase that does it — stated, never offered, never asked:
+  *"To keep [name] on your Top-50, say 'add [name] to my list'."* On that phrase the add is
+  `attraction-top-50`'s, carrying this row (name · type if stated · Source
   `youtube via comment on "[video]"` — from the locked list `youtube · instagram · referral · sphere · event ·
-  lead-magnet · other`, provenance after `via` · Stage Identified · Next move "reply + DM"). Only on a yes; this
+  lead-magnet · other`, provenance after `via` · Stage Identified · Next move "reply + DM"); this
   skill never writes `top-50.md` itself. When the member's sales system arrives (a later week), it carries the DM
   conversation from here; until then the reply and the DM draft are the whole hand-off — say so by condition,
   never by name.
@@ -162,8 +164,9 @@ count and the source used. Nothing is posted by the system — ever.
 
 ## Job 3 — The mine (what agents keep asking)
 Cluster the real questions across the sweep, count them, quote one or two per theme, and turn the top themes
-into 3–5 video ideas in the agent's own words (the model Q&A themes go to `yt-model-breakdown`'s list). Offer
-once to save them — only on a yes, and through `attraction-capture` ("attraction video idea"), which owns
+into 3–5 video ideas in the agent's own words (the model Q&A themes go to `yt-model-breakdown`'s list). Close
+with the phrase that keeps one — stated once, never offered: *"To keep one for your plan, say 'attraction video
+idea: [the idea]'."* On that phrase the save is `attraction-capture`'s, which owns
 `memory/ideas.md` (tag `youtube`, source: comments); this skill never writes that file. Note the lead
 signal for `yt-analytics`: which videos draw agent questions versus silence.
 

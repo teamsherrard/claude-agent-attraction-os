@@ -63,18 +63,22 @@ cells), and a **30-day page** that mirrors the kit's `Day 1 checklist:` and `Sli
 
 ## 3. PAGE MECHANICS (a letter-size PDF a partner reads on a screen or prints at home)
 
-- **Trim US Letter 8.5×11 in portrait** (A4 210×297 mm via tweak); **bleed 0.125 in** on every edge for
-  anything that runs to the edge (openers, tabs, grounds); **safe margin 0.5–0.75 in** for all type.
-  300 DPI. Print-safe colour.
+- **US Letter 8.5×11 in portrait** (A4 210×297 mm via tweak). **On the canvas each page is ONE frame of
+  816×1056 px** (96 px to the inch; A4 794×1123), and the exported PDF page IS that frame — so there is
+  no bleed to add and no DPI to set: openers, tabs and grounds run to the frame's edge, and all type
+  keeps a **safe margin of 0.5–0.75 in (48–72 px)**. 1 pt = 1.333 px: body 11–12 pt is 15–16 px, a 3×
+  heading 44–48 px. A cover designed here is drawn on the same frame and exports as
+  `product-cover-flat.png` at 1700×2200 px (the offer kit's size).
 - **Type:** body 11–12 pt at 1.35–1.5 leading; headings roughly 3× body; a kicker above every heading
-  (small caps or tracked, the accent colour); section numbers large on openers; the script face never
+  (small caps or tracked, in the accent — or its deeper shade, mixed toward the text colour, wherever
+  the accent itself is under 4.5 to 1 on the page's ground); section numbers large on openers; the script face never
   body text; all-caps headings get a touch of extra letter spacing.
 - **Reversed type** (light on the dark register) ≥ 8 pt at a regular-or-heavier weight; no hairlines,
   no fine white detail on dark.
 - **Page numbers and a running footer** on every page after the imprint (the product name left, the
   page number right, or the Design System's footer rule).
 - **Section tabs:** a 0.4–0.6 in tab on the outer edge of every page in a section, in that section's
-  tint, the section name set vertically; the contents page repeats the colours. Tabs run into the bleed.
+  tint, the section name set vertically; the contents page repeats the colours. Tabs run to the page edge.
 - **Grounds alternate:** openers dark, working pages on the light tint (never default white), figures on
   a plate.
 
@@ -89,7 +93,9 @@ cells), and a **30-day page** that mirrors the kit's `Day 1 checklist:` and `Sli
 | Script sheet | the lines the agent says on a plate, the cue in the kicker colour, a blank line under each for their own version |
 | Rating scale | 1–5 circles 0.2 in, labels under the ends only |
 
-A fillable page keeps 60–70% of its area as writing space; a prompt with no room fails the page.
+A fillable page keeps 60–70% of its area as writing space; a prompt with no room fails the page. On the
+816×1056 frame 1 in is 96 px: ruled lines every 34–38 px, a 17 px checkbox, answer boxes 115 px and
+288 px tall.
 
 ## 5. THE WORKSHEET (one page, the fridge test)
 

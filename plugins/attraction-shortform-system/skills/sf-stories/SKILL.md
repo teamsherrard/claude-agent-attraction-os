@@ -140,9 +140,7 @@ or person; brokerage name/license where the file says it must appear; any real-e
 
 ## Phase 4 — Deliver
 A clean copy-paste set, in order, with a one-line plan: *"Morning: the call screenshot. Lunch: the poll.
-Evening: the dog. Thirty seconds each."* If the member has the content board (house rules #10), one card for the
-day's set (Format `Graphic`; Pillar = the set's lead pillar, one OS name, never two — the log carries one row per
-pillar; Context per `sf-board`). Never schedule stories through a tool — they're posted live from the phone; say
+Evening: the dog. Thirty seconds each."* **Stories are never board cards** — the daily rhythm is one line in the plan; the log carries one row per pillar and nothing goes on the board. Never schedule stories through a tool — they're posted live from the phone; say
 so if asked.
 
 ## On demand — the win, welcome and team-milestone posts (the words; the Week 3 team templates' shape)
@@ -175,13 +173,14 @@ any day. This skill writes the words; the graphic is the member's, in Claude Des
      hold.
    For each: **the slide copy** (the status word · the name · the one line — three lines, verbatim for the template's
    swaps; the headshot noted as "[First]'s photo — written OK on file" or "needs OK") · **the caption** (two to four
-   lines in the member's voice, the agent tagged so they reshare, ending on the kit's call line — every proof piece
-   carries the call: *"Want my help running this, free? [the booking line]"*, the law's shape, open register *"I'll
-   walk you through it, free, no strings"*) · **the story line** (≤15 words, the mention sticker, *"Reply and I'll send
+   lines in the member's voice, the agent tagged so they reshare, ending on ONE ask — the kit's call line, a proof
+   piece being the most natural place for the invitation: *"Want my help running this, free? [the booking line]"*,
+   the law's shape, open register *"I'll walk you through it, free, no strings"*; or the guide ask instead when the
+   week's invitation is already used — never both) · **the story line** (≤15 words, the mention sticker, *"Reply and I'll send
    you the link."*). No compensation, no negative word about any brokerage or person; the stamp on every public piece.
 4. **The board card** (only when `publishing.md` carries a `Content board:` URL, per `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`):
    Topic = the status word + the first name · Format `Graphic` · Pillar `Proof` · Status `Scripted` (`Ready to Film` is
-   wrong for a graphic) · Context `• For: [the avatar]` · `• Rung: the call` · the full words in the page body · a fresh
+   wrong for a graphic) · Context `• For: [the avatar]` · `• Rung: the call` (`• Rung: Comment GUIDE` when the caption carries the guide ask) · the full words in the page body · a fresh
    System ID. A held draft's Topic starts with "HELD —" until the OK arrives.
 5. **Deliver + the one line about the graphic:** the three pieces in chat, then: *"The graphic is yours to make in your
    Claude Design: say 'my welcome post for [First]' (or 'win post for [First]', 'design my team posts') — your Week 3

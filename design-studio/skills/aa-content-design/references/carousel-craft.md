@@ -56,8 +56,9 @@ the slides side by side and see the same words in the same order.
 - **Slides — 1080×1350 (4:5 portrait), the default the Short-Form brief names;** square 1080×1080 via
   the tweak. EVERY slide the exact same size. Keep key text ~100px inside the edges.
 - **GRID-SAFE COVER (Instagram):** the profile grid shows a 3:4 tile and crops ~34px off each side of a
-  4:5 post — keep the cover's headline, any face, and the footer inside the central ~1012px width AND
-  inside the central 1080×1080 so the tile never beheads the hook.
+  4:5 post — keep the cover's headline and any face inside the central ~1012px width AND
+  inside the central 1080×1080 (y 135 → 1215) so the tile never beheads the hook; the footer stays in its
+  usual band, inside the central ~1012px width — the same place on every slide.
 - **THE LINKEDIN VERSION LAW.** LinkedIn has no swipe carousel — carousels post there as a PDF
   "document post", and team leaders and broker-owners live on LinkedIn. So EVERY carousel ships a
   LinkedIn PDF: when the doc carries THE LINKEDIN VERSION (the leader reframe: retention, the exhaustion

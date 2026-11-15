@@ -128,7 +128,9 @@ energy; honor every never-say and hard-avoid. Read it aloud as them — a line t
 un-sayable in their mouth gets rewritten (the two CTA lines stay the kit's words; only the lead-in bends).
 **Stories:** use a banked story in the open or the close before any example you would invent; anonymize agents
 and clients unless consent is on file; **stamp its Used-where** in `story-bank.md`. A new story the member tells
-in chat → use it and offer to bank it (`attraction-story-bank`). **Ship it complete — no blanks, no homework:**
+in chat → use it, then say in one line how it is kept — stated, never offered: *"That story is worth keeping —
+say 'add an attraction story' and it goes in your story bank."* (`attraction-story-bank` banks it on that
+phrase). **Ship it complete — no blanks, no homework:**
 never `[add your story]`; every line filmable as written.
 
 ## Step 5 — The first Short (the moment, not the Reel)

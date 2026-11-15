@@ -107,7 +107,9 @@ moved, renamed, or deleted are their decisions.
    CTA line** — one of the two words, the kit's line verbatim: the guide (*"[what the guide holds, one clause].
    Comment GUIDE and I'll send it."*) on most posts; the call (*"If you want my help running this, free, [the
    booking line]."* — the law's shape, the person · their help · free · to run this; open register *"I'll walk you
-   through it, free, no strings"*) on about one in four and every Proof piece; never the brokerage as the reason ·
+   through it, free, no strings"*) on about one post in four — most naturally a Proof piece or a "what you get"
+   piece (a Proof piece may carry the guide instead); a Personality post asks for a follow only; never two asks on
+   one post; never the brokerage as the reason ·
    **the captions** per the optimizer's rules (Instagram + Facebook with the ask as the last line, TikTok one line,
    YouTube Shorts title/description/tags, cover text). **A kit post row first** (its Format or Carries cell says `kit post`, or its title is one of the six — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call) — it sits at `Ready to Post` from the day the calendar was written, and this step still handles it: it is **post, don't make**:
    no hook, no script — the designed file is in the member's Offer folder. Draft only its caption from chapter 7's
@@ -165,7 +167,7 @@ Read `config.md`'s Short-Form block, call `list_scheduled_tasks`, and show — i
 | Workflow | When | Switched on | Owner | Task id |
 |---|---|---|---|---|
 | Monday Week Plan (with the recognition scan) | Mondays, 7:00 am | by setup's one Yes | this skill | `attraction-sf-week-plan` |
-| Sunday Batch Prep | the evening before the batch day, 6:00 pm | by setup's one Yes | `sf-batch-publish` | `attraction-sf-batch-prep` |
+| Batch Prep | the evening before the batch day, 6:00 pm | by setup's one Yes | `sf-batch-publish` | `attraction-sf-batch-prep` |
 | Wednesday Brokerage News Watch | Wednesdays, 8:00 am | by setup's one Yes | `sf-greenscreen` | `attraction-sf-news-watch` |
 | Monthly Calendar Refill | the last Friday of the month, 5:00 pm | by setup's one Yes | `sf-gameplan` | `attraction-sf-calendar-refill` |
 | Keyword Follow-up Queue | Tuesdays and Thursdays | by phrase | `sf-comment-to-dm` | `attraction-sf-keyword-queue` |

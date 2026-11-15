@@ -156,7 +156,7 @@ means the yes was never given or the Cowork task was never created — diagnosti
 | Team Wins Newsletter | Thu | `admin-newsletter` | 6 |
 | Post-Event Follow-Up | after each event | `ev-followup` | 6 |
 
-Fifteen in all since 2026-11-14 evening (`docs/BRAIN-CONTRACT.md`): the Short-Form plugin alone runs nine — four switched on by the member's one Yes on `sf-setup`'s card (Monday Week Plan · Sunday Batch Prep · Wednesday Brokerage News Watch · Monthly Calendar Refill) and five by phrase (keyword follow-up queue · mid-week nudge · monthly deep dive · daily stories · quarterly profile audit; win and milestone posts ride inside the Monday plan; the Daily Engagement List and the Friday performance note were retired that evening) —
+Fifteen in all since 2026-11-14 evening (`docs/BRAIN-CONTRACT.md`): the Short-Form plugin alone runs nine — four switched on by the member's one Yes on `sf-setup`'s card (Monday Week Plan · Batch Prep · Wednesday Brokerage News Watch · Monthly Calendar Refill) and five by phrase (keyword follow-up queue · mid-week nudge · monthly deep dive · daily stories · quarterly profile audit; win and milestone posts ride inside the Monday plan; the Daily Engagement List and the Friday performance note were retired that evening) —
 each created on that one Yes, each draft-only, each ending with a push that rebuilds the Brain Board — "the
 Monday plan never ran" usually means the card said "not yet" (`Week Plan task: declined`) or the task was never created
 (tree #10). The YouTube workflows — the Monday Kickoff and the Monthly Channel Review — are both switched on by the member's one Yes on `yt-setup`'s card and recorded in the `## YouTube (Week 5)` block with its `Email me:` line (mirrored from the Short-Form block when it exists; set from the connected mail, never asked) — "my Monday kickoff never ran" is the same diagnosis (`Monday Kickoff task: declined`, or no task). The Weekly Attraction Ideas note was retired 2026-10-13 (the Kickoff carries the ideas). Two things members may
@@ -231,7 +231,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug
   in later — never "missing".
 
-### Plugin 4 — Short-Form (W4) — LIVE 0.4.0 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
+### Plugin 4 — Short-Form (W4) — LIVE 0.4.1 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
 - Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live
   lead magnet). Publishing = bring-your-own (Metricool, or manual). The ManyChat sequences are a bonus-asset import
   on the member's own ManyChat account, not a plugin feature. Notion is bring-your-own for the board — without it the
@@ -240,7 +240,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   Week 2; GUIDE opens the guide, the offer's own word is the invitation) → the Short-Form Game Plan (a real document:
   pillars with angles from the content branches, thirty hooks, the next 30 days dated, opening with the six posts
   designed in Week 3) → the Notion content board with those 30 days mapped → the scheduled workflows on ONE consent
-  card — stated, then one Yes (switched on: Monday Week Plan · Sunday Batch Prep · Wednesday Brokerage News Watch · Monthly Calendar Refill; by phrase: keyword follow-up queue, mid-week nudge, monthly deep dive, daily stories, quarterly profile audit — all draft-only; win posts ride inside the Monday plan; a short email to the member's own address when something is ready) → the first Reel scripted → the Brain Board
+  card — stated, then one Yes (switched on: Monday Week Plan · Batch Prep · Wednesday Brokerage News Watch · Monthly Calendar Refill; by phrase: keyword follow-up queue, mid-week nudge, monthly deep dive, daily stories, quarterly profile audit — all draft-only; win posts ride inside the Monday plan; a short email to the member's own address when something is ready) → the first Reel scripted → the Brain Board
   rebuilt. Each step is announced
   before it runs; a second call resumes where it left off (the `Short-form setup:` line in `publishing.md`).
 - Known modes: nothing auto-posts — approval is the last gate; "it didn't post" is usually an unapproved queue ·
@@ -254,7 +254,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - Known modes: connector connected but reads fail → tree #12; edits persist in Riverside, state in
   the Brain's `editor/` allowlist.
 
-### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.3.0 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
+### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.3.1 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
 - Depends on: Brain + the Week 2 files (the offer's content branches, the guide, the Week 3 Kit's calls-to-action table, the YouTube bio from the kit) + the Short-Form setup from Week 4 (`content-pillars`, the Notion board — "YouTube wants my pillars" means run the short-form setup first). House rhythm: one chat = one video. Cadence: one video a week for the first month, two the step-up the monthly review proposes.
 - **Journey:** kit → Game Plan → the YouTube tab on the board (30 days — four or five videos at one a week) → the two workflows + the email note, one Yes → first video; resumes from
   `channel.md`'s `Setup:` stamp; the Kickoff drafts the week's video every Monday. Known modes: "it skipped the board" =

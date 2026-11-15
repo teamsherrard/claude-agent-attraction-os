@@ -187,8 +187,10 @@ Powered by Mike Sherrard Coaching Inc Frameworks
 
 ———————————————————————————————
 READ THIS FIRST
-[three sentences: where your short-form is today and the verdict · the insight · the plan in one line]
-First post to film: [the first Reel row after the kit posts — working title · date]   ·   Batch day: [day]   ·   Compliance: [status — one line if unset]
+[the opening sentence: where your short-form is today, and the verdict]
+Your first two weeks: post the six you already have designed — nothing to film yet.
+[two more sentences: the insight · the plan in one line]
+First post to film: [the first Reel after the six designed posts — working title · date, written "Tue, Dec 1"]   ·   Batch day: [day]   ·   Compliance: [status — one line if unset]
 
 ———————————————————————————————
 1. POSITIONING FOR SHORT-FORM
@@ -196,45 +198,52 @@ Who I'm talking to: [the agent, their pain in their words, the mirror moment]
 The one line: "[Name] helps [agent] [outcome] through [mechanism]"
 The job of short form: Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation
 The two keywords: GUIDE → the guide (the DM sends it)   ·   [the offer's word] → the one-pager and the invitation to talk
-The two CTAs (the kit's CALLS TO ACTION table, verbatim): 1. Book a call — [the booking line, in the call-to-action law's shape]   2. The guide — "Comment GUIDE and I'll send you [the guide, in three words]."
+The two CTAs: 1. Book a call — [the booking line, word for word from the kit]   2. The guide — "Comment GUIDE and I'll send you [the guide, in three words]."
 Why I'm building this: [the why-line, in their voice]
 
 ———————————————————————————————
 2. THE FIVE PILLARS — THREE ANGLES EACH
 AUTHORITY — what I teach
 [two-line summary]
-• [hook] · for [agent] · [pain] · carries [teach / story / win]   (×3)
+• [hook] · for [agent] · [pain] · built on [a teach / a story / a win]   (×3)
 PERSPECTIVE — what I believe · STORY — where I've been · PROOF — what's happening in my world · PERSONALITY — who I am off the clock   (same shape)
 
 ———————————————————————————————
 3. THE FORMAT MIX AND THE WEEKLY CADENCE
-[N] Reels a week — three to start, five the step-up · the mix: one attraction · one authority · one story (2 · 2 · 1 at five), stories daily (the OS default)
+[N] posts a week — three to start, five the step-up · the mix: one attraction · one authority · one story (two · two · one at five), stories every day
 Formats: talking head [what for] · green screen [what for] · carousel [what for] · stories [what for]
 Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when you attract team leaders; TikTok and YouTube Shorts take the same video any time you want more reach
 Batch day: [day · the rhythm]   ·   The 15-minute routine: [the moves, the time of day]
 
 ———————————————————————————————
-4. THE HOOK BANK   (thirty — six per pillar, under 12 words, no two the same shape)
-AUTHORITY: 1–6 · PERSPECTIVE: 1–6 · STORY: 1–6 · PROOF: 1–6 · PERSONALITY: 1–6   (each: hook · for whom · rung; `starter` where seeded)
+4. THE HOOK BANK
+THE HOOKS FOR YOUR DATED POSTS
+[one line per dated post, in date order: the date, written "Tue, Nov 17" · the hook · who it is for]
+MORE HOOKS WHEN YOU NEED THEM
+[the rest of the thirty, grouped AUTHORITY · PERSPECTIVE · STORY · PROOF · PERSONALITY — each: the hook · who it is for · the ask in words ("Comment GUIDE" / "Comment [WORD]" / "Follow")]
 
 ———————————————————————————————
-5. THE TWO CTAs AND THE COMMENT-TO-DM FLOW   (the kit's CALLS TO ACTION table, verbatim — the guide and the call)
-The ladder: Follow / save / share → Comment → DM → Resource → Conversation → Call   ·   one Reel, one rung, one of the two keywords
-| Where it goes | Ask for the guide | Ask for the call |   (caption, last line · comment keywords · video pop-up · spoken line · end card · story · bio link · DM reply — the table's rows, copied)
-The ask map: [pillar → rung, five lines] · the guide (GUIDE) on most posts; the call on about one post in four and every proof piece, in the law's shape
+5. THE TWO CTAs AND THE COMMENT-TO-DM FLOW
+The ladder: Follow / save / share → Comment → DM → Resource → Conversation → Call   ·   one post, one ask
+| Where it goes | Ask for the guide | Ask for the call |
+[the rows — caption, last line · comment keywords · video pop-up · spoken line · end card · story · bio link · DM reply — copied word for word from the kit]
+What each kind of post asks for: Authority — "Comment GUIDE" · Perspective — a follow, a save or a share (or "Comment GUIDE") · Story — "Comment GUIDE" or the invitation · Proof — the invitation or "Comment GUIDE" · Personality — "Follow"
+The rule: "Comment GUIDE" is the ask on most posts. The invitation — "Comment [WORD]", or your call line — is the ask on about one post in four, most naturally a proof post or a "what you get" post. Never two asks on one post. Your six designed posts keep exactly the asks printed on them.
 The two keywords: GUIDE → the guide · [the offer's word] → the one-pager and the invitation   ·   the full keyword sheet: "my keyword sheet"
 ManyChat: ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links — your build sheet walks you through it step by step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live, reply by hand from your DM bank.   ·   the steps: "my ManyChat build sheet"
 
 ———————————————————————————————
 6. THE 30-DAY CALENDAR   ([date] → [date])
 GRAPHICS — THE SIX POSTS YOU ALREADY HAVE   (post, don't make — the Graphics tab on your board; designed in Week 3, waiting in your Offer folder)
-| # | Date | Day | Format | Pillar | Working title | Hook | CTA (rung · WORD) | Carries |
-[six rows — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call; one every two or three days; the table's ask on each; Status Ready to Post]
-REELS — [n] ROWS AT YOUR CADENCE   (the Reels tab — six at the default three a week, fourteen at five; the first Reels cover the pillars the kit posts don't: Personality, Perspective, the Authority teach)
-[the Reel rows, dated, in the same table]
+| Date | What | The hook | The ask | Status |
+[six rows — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call; one every two or three days — Date written "Tue, Nov 17" · What = the format and the working title ("Carousel — The guide") · The hook = the post's first slide or headline · The ask in words, exactly as the kit printed it ("Comment GUIDE" / "Comment [WORD]") · Status Ready to Post]
+This week you only post — nothing to film.   [the one line under every week made only of designed posts]
+REELS — [n] ROWS AT YOUR CADENCE   (the Reels tab on your board)
+| Date | What | The hook | The ask | Status |
+[the Reel rows in the same five columns — six at the default three a week, fourteen at five; What = "Reel — [working title]" (or "Green screen — …", "Carousel — …") · The ask in words: "Comment GUIDE", "Comment [WORD]" or "Follow" · no Reel dated earlier than the day after the batch day that films it; the first Reels cover what the six designed posts don't]
 STORIES, DAILY: [the four-category rotation · morning / midday / evening]
 THE BATCH PLAN: [sessions · what films together · hours]
-THE THREE TO FILM FIRST: 1. [#, why]  2. [#, why]  3. [#, why]
+THE THREE TO FILM FIRST: 1. [the Reel's title, why]  2. [...]  3. [...]
 
 ———————————————————————————————
 7. WHAT WE MEASURE
@@ -242,13 +251,17 @@ Any time you ask "how's my content doing", and each month in your deep dive, fiv
 
 ———————————————————————————————
 8. YOUR SCHEDULED WORKFLOWS   (all draft-only — nothing posts, sends, or schedules on its own; each [when · what it produces · on since / stopped])
-Switched on: Monday Week Plan (Mondays, 7:00 am) · Sunday Batch Prep (the evening before your batch day, 6:00 pm) · Wednesday Brokerage News Watch (Wednesdays, 8:00 am) · Monthly Calendar Refill (the last Friday of the month, 5:00 pm)
+Switched on: Monday Week Plan (Mondays, 7:00 am) · Batch Prep (the evening before your batch day, 6:00 pm) · Wednesday Brokerage News Watch (Wednesdays, 8:00 am) · Monthly Calendar Refill (the last Friday of the month, 5:00 pm)
 There are five more — a keyword follow-up queue, a mid-week nudge, a monthly deep dive, a daily stories prompt and a quarterly profile check — they're there if you want them; say the word any time.
 I'll email you a short note at your own address when something's ready.   [or: No mail is connected yet, so your notes stay in Cowork.]
 
 ———————————————————————————————
 9. NEXT STEPS
-[the first Reel · the board · the keyword sheet · the film day · the research re-run if any row is unresearched]
+1. Post your six designed posts on their dates.
+2. Film on your batch day, [day].
+3. When it's filmed, open a new chat and say "edit my reel".
+4. Set up ManyChat from your build sheet — say "my ManyChat build sheet" and I'll print it.
+[then, one line each and only where it applies: compliance not set · ideas built without a fresh search]
 
 ———————————————————————————————
 SOURCES
@@ -259,6 +272,11 @@ SOURCES
 COMPLIANCE
 [the stamp]
 ```
+
+**Member-facing words only in this document.** The Brain file `memory/content-calendar.md` keeps its locked eleven
+columns (`# | Date | Day | Format | Pillar | Working title | Hook | CTA | Carries | Status | System ID`); in the document
+the calendar is the five columns above, dates are written "Tue, Nov 17" (never 2026-11-17), and none of "rung",
+"carries", "branch", "the OS default", "the kit's CALLS TO ACTION table, verbatim" or a System ID appears anywhere.
 
 **The bios have no document** (the owner's ruling, 2026-11-14 — the former profile pack is retired): they live in
 chapter 6 of the kit and in `identity/profiles.md`. A bio `sf-setup` refreshes (only when the offer, the proof or the
@@ -341,8 +359,8 @@ THE MONTH AT A GLANCE
 
 ———————————————————————————————
 THE SIX KIT POSTS, THEN THE REELS   (the kit posts carry Story and Proof; the first Reels cover Personality, Perspective and the Authority teach — an agent who finds you this month can answer the five profile questions from the feed)
-| # | Date | Day | Format | Pillar | Working title | Hook | For | Carries (story / win / teach) | Rung · keyword |
-[six kit rows, then the Reel rows at the cadence — six at the default three a week, fourteen at five; the member's own ideas and this month's objections land in the first two weeks of Reels]
+| Date | What | The hook | The ask | Status |
+[the same five member-facing columns as the Game Plan's section 6, dates written "Tue, Nov 17"; "This week you only post — nothing to film." under a week made only of designed posts — six kit rows, then the Reel rows at the cadence — six at the default three a week, fourteen at five; the member's own ideas and this month's objections land in the first two weeks of Reels]
 
 ———————————————————————————————
 STORIES, DAILY
@@ -361,7 +379,7 @@ COMPLIANCE
 [the stamp]
 ```
 
-**Attraction Ideas + Hook Bank** (`sf-ideas`) — floor: exactly 5 + 15 + 30, five to eight cited findings; ~1,200–1,600 words.
+**Attraction Ideas + Hook Bank** (`sf-ideas`) — floor: exactly 3 + 15 + 30 at the default three a week (5 + 15 + 30 only when `Cadence:` says five), five to eight cited findings; ~1,200–1,600 words.
 ```
 ATTRACTION IDEAS + HOOK BANK · [WEEK OF DATE]
 [Member Name] · [Organization] · [Date]
@@ -372,9 +390,9 @@ WHAT AGENTS ARE ASKING RIGHT NOW
 [five to eight — the citations every idea below points at by number]
 
 ———————————————————————————————
-THIS WEEK'S FIVE
-1. [the title the way a person would say it] · [the angle, one line] · [pillar] · [for whom] · [format] · [rung · keyword] · [finding #]
-[five, on the mix in force]
+THIS WEEK'S THREE   [THIS WEEK'S FIVE only when the cadence is five]
+1. [the title the way a person would say it] · [the angle, one line] · [pillar] · [for whom] · [format] · [the ask — GUIDE · the invitation · follow] · [finding #]
+[three at the default cadence, on one attraction · one authority · one story — five, on 2 · 2 · 1, only at five a week]
 
 ———————————————————————————————
 THE BANK   (fifteen more, three per pillar, same columns)
@@ -405,13 +423,14 @@ KEYWORD SHEET + DM BANK
 ———————————————————————————————
 THE TWO KEYWORDS   (one page — never a third word)
 GUIDE → the guide, instantly (the DM with the download link) · said on camera at the end · the caption's last line · pinned as the first comment
-[THE OFFER'S WORD] → the one-pager and the invitation to talk (the call link) · the invitation word, on about one post in four
+[THE OFFER'S WORD] → the one-pager and the invitation to talk (the call link) · the invitation word, on about one post in four — most naturally a Proof piece or a "what you get" piece
 ManyChat: [set up YYYY-MM-DD — Mike's template installed, the build sheet followed / not yet — set it up this week; replying by hand from the DM bank until it's live] — the member's own account; you don't connect ManyChat to Claude
 
 ———————————————————————————————
 THE CTA BANK   (fifteen lines, three per pillar, each on its rung)
-AUTHORITY — Comment / Resource:   Spoken: [...]   Caption: [...]   (×3)
-PERSPECTIVE — Follow / save / share (×3) · STORY — DM (×3) · PROOF — DM (×3) · PERSONALITY — Follow (×3)
+AUTHORITY — GUIDE:   Spoken: [...]   Caption: [...]   (×3)
+PERSPECTIVE — follow, save or share (or GUIDE) (×3) · STORY — GUIDE or the invitation (×3) · PROOF — the invitation or GUIDE (×3) · PERSONALITY — follow (×3)
+THE RULE: GUIDE is the ask on most posts. The invitation (the offer's own word, or the kit's call line) is the ask on about one post in four — most naturally a Proof piece or a "what you get" piece. A Proof piece may carry the guide instead. Never two asks on one post. The six designed kit posts keep exactly the asks the kit printed.
 THE CALL LINE (the call-to-action law's shape — the person · their help · free · to run this; copied from the kit's CALLS TO ACTION table): [...]
 
 ———————————————————————————————
@@ -497,7 +516,7 @@ THE ONE CHANGE
 
 ———————————————————————————————
 NEXT WEEK'S ROWS   (the mix in force)
-1. [hook · pillar · format · rung · keyword]   [...]   5. [...]
+1. [hook · pillar · format · the ask]   [... one row per post at the cadence — three by default]
 
 ———————————————————————————————
 THE POST TO REPURPOSE
@@ -505,7 +524,7 @@ THE POST TO REPURPOSE
 
 ———————————————————————————————
 THE STEP UP   (only when a month at three a week has held — three Reels posted in each of the last four weeks; omitted otherwise)
-A month at three a week has held — you're ready for five. Say "five a week" and I'll remap the month on it.
+A month at three a week has held — you're ready for five. Say "change my cadence" and I'll remap the month on five a week.
 ```
 
 **Weekly Routine** (`sf-weekly-routine`) — floor: the seven-day table, the batch block with a start time, seven
@@ -520,15 +539,15 @@ THE WEEK AT A GLANCE
 [Monday → Sunday]
 
 ———————————————————————————————
-THE BATCH BLOCK · THE DAILY STORY HABIT (seven prompts, one interactive element) · THE ENGAGEMENT ROUTINE (the time of day) · THE CHECK-IN TABLE (empty, for Friday)
+THE BATCH BLOCK · THE DAILY STORY HABIT (seven prompts, one interactive element) · THE ENGAGEMENT ROUTINE (the time of day) · THE CHECK-IN TABLE (empty, for the end of the week)
 
 ———————————————————————————————
 COMPLIANCE
 ```
 
-**Film-Day Plan** (`sf-batch-publish`, FILM DAY — also the Sunday Batch Prep workflow's doc, the evening before the
+**Film-Day Plan** (`sf-batch-publish`, FILM DAY — also the Batch Prep workflow's doc, the evening before the
 batch day) — floor: a run sheet row and a teleprompter card per video (the keyword on each, large), an honest total
-time; ~600–900 words for five Reels.
+time; ~400–900 words (three Reels at the default cadence, five at five).
 ```
 FILM-DAY PLAN · [DATE]
 [Member Name] · [Organization] · [Date]

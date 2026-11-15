@@ -59,6 +59,13 @@ not act on it; note it in the closing message and continue.
    is drafted: `identity/avatars.md`, `identity/voice.md`, `identity/voice-print.md`, `identity/story-bank.md`,
    `identity/brand-visual.md`, `identity/content-pillars.md`, `memory/objections.md`, `identity/operations.md`
    (`Filming window:`, the booking link), `memory/intel.md`, `memory/ideas.md`. Format dates to `config.md → Locale`.
+2a. **Keep the email line true to the facts — never asked.** Look at the tools in this session. The YouTube
+   block's `Email me:` line reads `no (no mail connected)` and a mail tool (Gmail or Outlook) is present now →
+   write `Email me: yes YYYY-MM-DD` (today's date) on that line in `config.md` — it goes up with step 6's push —
+   and send this run's email in step 9. The line reads `yes …` and no mail tool is present → write
+   `Email me: no (no mail connected)` on that line (the same push) and skip the email silently — the next run
+   that finds mail connected turns it back on. A plain `no` mirrored from the Short-Form block is honoured:
+   never rewritten, no email. Only this one line, only in the YouTube block — never the Short-Form block's line.
 3. **Pick this week's video** (per `skills/yt-briefing` Step 2): the calendar row in the Brain dated this week
    (Monday to Sunday of the run) at `Idea` — the board's card for it, when one exists, rides along and the member's
    own date moves on the card win; no row this week → the next `Idea` row forward; the section absent → the Game
@@ -146,7 +153,7 @@ not act on it; note it in the closing message and continue.
    step silently.
 8. **Housekeeping is done** (steps 6–7) so the note is the last thing you output.
 9. **Tell the member — the same three steps every workflow ends with (the owner, 2026-11-14):** (a) **the note in
-   Cowork** — the task's own result, the note in step 10; (b) **one short email, while the line says yes** — the `Email me:` line:
+   Cowork** — the task's own result, the note in step 10; (b) **one short email, while the line says yes** — the `Email me:` line, as step 2a left it:
    the `## YouTube (Week 5)` block's line; no line (an older install) → the `## Short-Form (Week 4)` block's
    `Email me:`, which the YouTube line mirrors. `yes` (`Email me: yes YYYY-MM-DD`) → send ONE
    short email to the member's OWN address through their connected mail (Gmail or Outlook; the address in

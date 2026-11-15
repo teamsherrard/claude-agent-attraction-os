@@ -75,7 +75,7 @@ noted in the closing message and never acted on.
    file; never mark a message as sent; never move a stage.
 6. **Tell the member — the same three steps every workflow ends with (the owner, 2026-11-14):** (a) **the note in
    Cowork** — the task's own result, the message in step 7: the two or three lines that matter (how many agents, the
-   first draft, where it came from); (b) **one email, only if asked** — the `Email me:` line of
+   first draft, where it came from); (b) **one email, when the email line says yes** — the `Email me:` line of
    `config.md → ## Short-Form (Week 4)`: `yes` (`Email me: yes YYYY-MM-DD`) → send ONE short email to the member's
    OWN address through their connected mail (Gmail or Outlook; the address in `identity/profile.md`, else the
    signed-in account's own) — subject: "Your keyword follow-ups are ready — [n] next messages", body: the same two

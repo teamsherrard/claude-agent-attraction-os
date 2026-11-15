@@ -14,7 +14,7 @@ plugin's `shared/kb/kb-index.md`); where none does, the cell says `—`.
 1. **The member's own captured ideas** — `memory/ideas.md` rows tagged `shortform` / `story` with Status open.
 2. **The week's research** — `sf-ideas` Step 2, graded HIGH / MEDIUM / EMERGING and cited.
 3. **The Brain's own signals** — `memory/conversations.md`, `memory/objections.md` (read-only), `memory/intel.md` (dated).
-4. **This bank** — read only when 1–3 leave a pillar short in the five, the fifteen, or the thirty. A seeded line is
+4. **This bank** — read only when 1–3 leave a pillar short in the week's picks, the fifteen, or the thirty. A seeded line is
    marked `starter` in its where-seen cell and is never presented as something agents are asking right now.
 
 **Placeholders (swap every one; never emit a bracket):** `[my brokerage]` → the brokerage's name **only where
@@ -23,7 +23,8 @@ appears where the file requires it — the stamp, the bio). `[guest]`, `[N]`, `[
 weekly-call day from `proof.md` / `operations.md` **with consent on file**; no consent → first name or initials, or
 the member's own behind-the-scenes. `[model]` → the model's name as `brokerage-model.md` states it (never its figures). `[KEYWORD]` → **GUIDE** (the guide,
 `memory/magnets.md → ## Current magnet`) wherever the ask is a resource; the offer's `Comment keyword:` only where the
-angle is the invitation itself. Two words, never a third.
+angle is the invitation itself — about one post in four, most naturally a Proof row (a Proof row may carry GUIDE
+instead). Two words, never a third; a Personality row carries no keyword — its ask is "follow" and nothing more.
 
 **The compliance pass this bank already passed (re-run it on every swap):** no compensation, rev share, splits,
 caps, stock, or income anywhere (`mike-frameworks.md` §6, §11) — "six figures", "millionaire", "7-figure", and
@@ -56,8 +57,8 @@ hook → the turn → 2–3 steps → one rung). For = the agent type (new agent
 producer · influencer · team leader · broker-owner). Pain = one of Mike's five (financial uncertainty · lack of
 support, mentorship, training · technology gaps · limited growth · work-life balance and recognition). Rung = one
 rung of the ladder (§8): Follow / save / share · Comment **[KEYWORD]** (= GUIDE) · DM · the call, in the law's shape
-(the person · their help · free · to run this — never the brokerage), on about one piece in four and on every Proof
-piece (the kit's cadence). Scalable on every line: nothing promises the member's time per partner — partners get
+(the person · their help · free · to run this — never the brokerage), on about one piece in four — most naturally a Proof piece or a
+"what you get" piece; a Proof piece may carry the guide instead (the kit's own posts show it). Scalable on every line: nothing promises the member's time per partner — partners get
 recorded lessons, templates, the community, the weekly group call only when the member already runs one. Traces to = the source title (`M#-##` in the YouTube bank) or the principle
 it came from, plus the lesson that resolves it.
 
@@ -89,7 +90,7 @@ it came from, plus the lesson that resolves it.
 
 | # | Hook | The angle (one Reel) | For | Pain | Rung | Traces to |
 |---|---|---|---|---|---|---|
-| S1 | My first month as an agent: no clients, no plan, no clue. | The member's own first month (`journey.md` turning point 1) — the specific thing that was missing, and the one move that started to fix it | new agent | financial uncertainty | Follow · DM [KEYWORD] | M1-02 · `06-content-framework/39`: struggles and how you overcame them |
+| S1 | My first month as an agent: no clients, no plan, no clue. | The member's own first month (`journey.md` turning point 1) — the specific thing that was missing, and the one move that started to fix it | new agent | financial uncertainty | Follow | M1-02 · `06-content-framework/39`: struggles and how you overcame them |
 | S2 | My biggest year-one mistake — and what it cost me. | One mistake from the bank, what it cost in time or deals (never a dollar figure), what the member does differently now | new agent | lack of support, mentorship, training | Save / share | M1-06 · `06-content-framework/39`: the mistakes and what you learned make you human |
 | S3 | I was broke in this business once. Here's what changed. | The hardest stretch (`journey.md` turning point 2) → the turning point → the point; "six figures" and "millionaire" are gone — the change is the habit, the plan, the people | experienced, low production · new agent | financial uncertainty | DM [KEYWORD] | M1-05, M2-03 (figures removed) · `04-value-proposition/34`: past → transformation |
 | S4 | Why I switched brokerages — the real reason, no names. | The wall the member hit → what they went looking for → what changed since; the former brokerage is "a franchise" / "an independent"; the reason is the problem solved, never the company | experienced, low production · new agent | the member's own wall (one of the five, from `journey.md`) | the call, in the law's shape — the why-join-me moment ("If you want my help running this, free, [the booking line]") | M3-07 · `08-youtube/92`: the "why I joined" video brought Mike's first 30 agents; `03-model-positioning/13` |
@@ -115,23 +116,23 @@ it came from, plus the lesson that resolves it.
 | PE2 | The morning routine I kept through my worst year in real estate. | The discipline moment — the routine, the year it carried them, what it says about how they lead now | experienced, low production | work-life balance and recognition | Save | M2-01 (the schedule as a personal moment) · `06-content-framework/39`: daily habits, discipline |
 | PE3 | The year-one mistake that still makes me laugh. | The light version of the mistakes Reel — one human moment, the lesson in a line, no self-flagellation | new agent | — | Follow | M1-06 · `06-content-framework/39`: "so people see you're not a robot" |
 | PE4 | What my family said when I went all-in on real estate. | The start of the member's story through the people around them — **only if the story is in `story-bank.md`**; otherwise skip, never invent | new agent | financial uncertainty | Follow | M1-05 (the start of "my real estate story") · `06-content-framework/39`: family, values |
-| PE5 | [N] years in, here's what I'd tell myself on day one. | One line of advice to the day-one version of themselves — the tip from the member's own chapter one, in their register | new agent | lack of support, mentorship, training | Follow · Comment [KEYWORD] | M1-04 (the tips, personal register) · `08-youtube/92` via the YouTube doctrine: chapter one vs chapter twenty |
+| PE5 | [N] years in, here's what I'd tell myself on day one. | One line of advice to the day-one version of themselves — the tip from the member's own chapter one, in their register | new agent | lack of support, mentorship, training | Follow | M1-04 (the tips, personal register) · `08-youtube/92` via the YouTube doctrine: chapter one vs chapter twenty |
 | PE6 | A week in my life as an agent building something bigger. | Five unpolished moments from a real week — a call, a coffee, a kid's game, a win celebrated — "building something bigger than transactions" | every type | limited growth | Follow | the WHY principle (building a team) · `07-instagram/86`: the feed says "we're building something bigger than transactions"; `07-instagram/88`: personal Reels |
 
 ---
 
-## The eight-principle check (`sf-ideas` runs it on this week's five, silently, before they are shown)
+## The eight-principle check (`sf-ideas` runs it on this week's picks — three at the default cadence — silently, before they are shown)
 
-The agency's eight content principles, as a check on the five picks. **Four are hard gates** — a pick that fails
+The agency's eight content principles, as a check on the week's picks. **Four are hard gates** — a pick that fails
 one is swapped or rewritten before the member sees it. **Four are rewrite prompts** — they sharpen a pick, never
 drop it.
 
-| # | Gate | The check on the five | Principle · lesson |
+| # | Gate | The check on the week's picks | Principle · lesson |
 |---|---|---|---|
 | 1 | **Pain named** (hard) | every pick names one agent's pain, in the agent's words, from Mike's five — never a brokerage feature | identify agents' pain points and address them · `02-prospect-targeting/18`; §6 |
-| 2 | **Resource offered** (hard) | at least two of the five end on the keyword rung with a **real** resource — the live magnet (`memory/magnets.md → ## Current magnet`, then `offer.md`'s free thing); none yet → the free thing the member gives today or "book a call", never a demanded guide | offer valuable resources · `07-instagram/87`; `04-value-proposition/31` |
+| 2 | **Resource offered** (hard) | at least one of the week's picks at three a week (two at five) ends on the keyword rung with a **real** resource — the live magnet (`memory/magnets.md → ## Current magnet`, then `offer.md`'s free thing); none yet → the free thing the member gives today or "book a call", never a demanded guide | offer valuable resources · `07-instagram/87`; `04-value-proposition/31` |
 | 3 | **Proof when consented** (hard) | the Proof pick names an agent only with consent in `proof.md`; otherwise first name or initials, or the member's own behind-the-scenes; no win invented, no figure projected | highlight success stories of agents you have helped · `06-content-framework/40` |
-| 4 | **CTA present** (hard) | every pick ends on exactly one rung of the ladder, said on camera and in the caption, carrying the keyword; the call only as a why-join-me moment | always a clear call to action · §8 |
+| 4 | **CTA present** (hard) | every pick ends on exactly one ask, said on camera and in the caption — GUIDE on most picks; the invitation (the offer's own word, or the kit's call line) on about one post in four — most naturally the Proof pick, which may carry the guide instead; "follow" only on a Personality pick; never two asks on one post | always a clear call to action · §8 |
 | 5 | One thing to do today | the Authority pick(s) give a step the agent can use this week — the tip of the iceberg, taught for real | educational content with actionable advice · `06-content-framework/37`; `07-instagram/88` |
 | 6 | Only this member could post it | the any-agent test — the member's lane, story, avatar, or organization is in the line | showcase what sets you apart · `04-value-proposition/34` (the differentiator) |
 | 7 | A reason to reply | at least one pick asks a question or invites a comment the member will answer in the first hour (the keyword rung needs them present) | engage the audience — questions, comments, replies · `07-instagram/89` (polls, AMAs) |

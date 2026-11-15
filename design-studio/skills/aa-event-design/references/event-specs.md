@@ -119,7 +119,7 @@ reference); the deck is 1920×1080 frames exported as a PDF from the Export menu
 
 | Piece | File | Size | Notes |
 |---|---|---|---|
-| Feed flyer | `flyer-post.png` | 1080×1350 | the master; headline, face, and the ask inside the central 1080×1080 and ~1012 px width |
+| Feed flyer | `flyer-post.png` | 1080×1350 | the master; headline, face, and the ask inside the central 1080×1080 (the square crop, y 135 → 1215) and the central ~1012 px of the width (the profile grid's 3:4 crop trims about 34 px off each side — the 72 px outer margin already clears it) |
 | Story flyer | `flyer-story.png` | 1080×1920 | designed plate for the link sticker; key text out of the top/bottom ~250 px |
 | Registration post | `registration-post.png` | 1080×1080 | one job: save your seat |
 | Countdown stories ×7 (+1) | `countdown-01-pain-poll.png` · `-02-promise` · `-03-speaker` · `-04-do-this-now` · `-05-whos-coming` · `-06-countdown` · `-07-doors-open` (· `-08-replay` only with a replay line) | 1080×1920 | the brief's ≤2 lines on each, verbatim; the plate for the sticker each names (§5) |
@@ -130,14 +130,19 @@ reference); the deck is 1920×1080 frames exported as a PDF from the Export menu
 | Replay graphics | `replay-post.png` · `replay-story.png` | 1080×1080 · 1080×1920 | "missed it? the replay" / "watch now" (evergreen) |
 | Slide deck | `[event-slug]-slides.pdf` via the Export menu | 1920×1080 per slide | waves of ~6; the no-drift test |
 
-Type floors at 1080 width: headline 96–140 px heavy · the date chip 48–60 px bold · support 34–40 px,
-never under ~32 px · the compliance strip the only small line (~24 px). Slides: titles 64–88 px; dividers
-96–120 px; big numbers 160–260 px; body 28–36 px; footer 16–20 px.
+Type floors at 1080 width: headline 96 px or more, heavy — sized from its longest line to fill the
+measure (two short lines usually land at 140–170 px; a headline left at two-thirds of the width is
+too small) · the date chip 48–60 px bold · support 34–40 px at ONE size, never under ~32 px · the
+compliance strip the only small line (~24 px). Slides are read in a small Zoom window (a 1920 px slide
+shown 480 px wide turns 40 px into 10): titles 96–120 px; dividers 120–160 px; big numbers 160–260 px;
+body and the one line 44–56 px; kickers and labels 32 px or more; footer 18–20 px, the only small line.
 
 ## 4. THE FLYER — ANATOMY (the copy spine, placed)
 
 1. **The topic as a benefit headline** (the hero) — the member's words from the brief; the accent on
-   one word.
+   one word. When the event's name and the brief's headline are two different lines, only ONE is the
+   hero: the headline when the name is a bare label (the name then rides above it as the small title
+   line), the name when it already says the benefit — never both at display size.
 2. **FREE** as a chip beside the headline (Mike: free, real value, no cost to share what's working).
 3. **The date chip** — date · time · TIMEZONE (virtual: mandatory; live: the local zone is fine).
 4. **Where** — the venue name and address (live), "on Zoom — link after you register" (virtual),
@@ -154,6 +159,13 @@ never under ~32 px · the compliance strip the only small line (~24 px). Slides:
 9. **The proof chip** — one real credential from the Book, or none.
 10. **The compliance strip** — the brokerage name as the display rule says; the chip where required;
     the only place the brokerage appears on a local event's flyer.
+
+**Ten items, three reads.** The headline, then the date chip, then the ask; everything else is support
+at one size. When the ten will not fit with air, they give way in this order — never by shrinking type
+below its floor: the proof chip goes first; a leave-with line that will not fit is cut to its first
+clause; who it's for folds into the sub-line when the brief's sub-line already names the agent ("a free
+workshop for agents"); the member's photo may stand over the ask band. The photo is never the piece
+that shrinks to a thumbnail.
 
 **Brokerage-neutral (live local):** the title, the hero, the venue line, and the who-it's-for line carry
 no brokerage name or mark; "agents from every brokerage welcome" may be said; co-hosts from other
@@ -205,7 +217,9 @@ into days ("7 days · 3 days · tomorrow") — the brief's content order is the 
    in the member's words (mentorship · systems · community, and the call cadence — the kit's chapter 2, THE PROGRAM and WHAT YOU GET, AND WHAT'S FREE, and `Calendar:` in chapter 7's THE WELCOME PACK (DAY 1)). Never money; no brokerage name as the pitch; no "come join us at [brokerage]".
 9. **Book a call / Come talk to us** — the invitation: "if you want the how behind this, let's have a
    conversation" + the QR + the booking link; live:
-   "come find me after".
+   "come find me after". The QR is made from the real link by a script (a QR library), never drawn by
+   hand — a pattern that only looks like a code scans to nothing; where none can be made, the slide
+   carries the link alone, large.
 10. **Your resource** — the guide or the slides; the keyword or the QR (the brief's registration link
     or keyword); the replay slide here when the event has one.
 11. **Thank you + the speakers' names** — the speakers by name, the member's contact, the compliance

@@ -242,7 +242,7 @@ Post 6 — Book the call:  a story and a single graphic.
    •  Call to action:  [the booking line] · Story sticker:  "Reply and I'll send you the link."
    •  Caption:  [SECTION 10's "what the call is" and "what it isn't", in one line] + the booking line
 ──── CALLS TO ACTION ────
-Two asks, everywhere. The guide: comment [GUIDE keyword] and the DM sends it. The call: [the booking line]. One ask per piece — the guide in most posts and videos, the call in about one of four and on every proof piece. The same words every time; a keyword never changes once content has used it.
+Two asks, everywhere. The guide: comment [GUIDE keyword] and the DM sends it. The call: [the booking line]. One ask per piece — the guide in most posts and videos, the call in about one of four — most naturally a proof piece or the piece about what they get. The same words every time; a keyword never changes once content has used it.
 | Where it goes | Ask for the guide | Ask for the call |
 | Caption, last line | Comment [GUIDE] and I'll send you [the guide, in three words]. | Want my help running this, free? [the booking line] |
 | Comment keywords | [GUIDE] → the DM with the download link | [the offer's keyword] → the one-pager and the invitation to talk |

@@ -61,12 +61,13 @@ noted in the closing message and never acted on.
    · your best hooks · who's watching — agents or consumers · when to post · what turns into conversations, by post
    and word · stories · what agents are asking · the one break · how often you post) · PART 2 (skipped unattended —
    say so) · PART 3 only from what the connection returned · PART 4 — THE OPENINGS (3–5 four-line cards) · PART 5 —
-   YOUR NEXT 30 DAYS (KEEP DOING · FIX · THE PLAN: one post per row with its word — GUIDE on most, the offer's word
-   or the call on about one in four and on every Proof piece; every call line in the call-to-action law's shape —
+   YOUR NEXT 30 DAYS (KEEP DOING · FIX · THE PLAN: one post per row with its one ask — GUIDE on most, the invitation
+   (the offer's word or the call line) on about one post in four, most naturally a Proof piece or a "what you get"
+   piece; a Personality row asks for a follow only; every call line in the call-to-action law's shape —
    the person · their help · free · to run this, never the brokerage as the reason, never compensation, never a
    promise of the member's personal time · POST AT · THE POST TO REPURPOSE · THE STEP UP — only when `Cadence:` is
    three and the month's log shows three Reels posted in each week: "A month at three a week has held — you're ready
-   for five. Say 'five a week' and I'll remap the month on it." (the owner, 2026-11-14; the member's word changes the
+   for five. Say 'change my cadence' and I'll remap the month on five a week." (the owner, 2026-11-14; the member's word changes the
    cadence, never this run) · THE ONE MOVE repeated) · APPENDIX. Every
    finding four lines: what we found · why it matters to you · do this · the proof; every section opens "In plain
    English:"; every number real and sourced; the member's own median is the benchmark. Compliance `unset` → one line
@@ -84,7 +85,7 @@ noted in the closing message and never acted on.
    `top-50.md`, `content-calendar.md`, or any identity file.
 6. **Tell the member — the same three steps every workflow ends with (the owner, 2026-11-14):** (a) **the note in
    Cowork** — the task's own result, the message in step 7: the two or three lines that matter (the verdict, THE ONE
-   MOVE, where the report is); (b) **one email, only if asked** — the `Email me:` line of `config.md → ## Short-Form
+   MOVE, where the report is); (b) **one email, when the email line says yes** — the `Email me:` line of `config.md → ## Short-Form
    (Week 4)`: `yes` (`Email me: yes YYYY-MM-DD`) → send ONE short email to the member's OWN address through their
    connected mail (Gmail or Outlook; the address in `identity/profile.md`, else the signed-in account's own) —
    subject: "Your monthly deep dive is ready", body: the same two or three lines and the report's link; never to
