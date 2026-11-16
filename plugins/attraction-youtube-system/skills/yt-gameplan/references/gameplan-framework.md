@@ -185,7 +185,7 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
   batched (two recorded in one sitting, published on the plan).
 - **The first-date rule (the owner's review, 2026-11-14 — a card never says "record today"):** video 1's Recording
   date is the member's next filming day at least three days after the day the plan is built (`identity/operations.md
-  → Filming window:` or the batch day; none on file → the Saturday after next, 8 to 14 days out); its Publish date
+  → Filming window:` or the batch day; the day the member gave at setup, `channel.md → Filming day:`, comes first; none on file → the Saturday after next, 8 to 14 days out); its Publish date
   is two days after that; every later row follows from it (one a week: seven days after the row before; two a
   week: two rows a week on that filming day, out two and five days later). Week 1 is the week of video 1's
   Recording date. A `Booked` guest's own date wins for that row.

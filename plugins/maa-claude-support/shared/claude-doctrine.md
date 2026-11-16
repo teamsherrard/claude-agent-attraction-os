@@ -143,28 +143,27 @@ mapped personalization articles live before describing exact behavior.
   `source-map.md` — with the page open, never from memory. What we can say durably: this system
   was built so the member's business data lives in files THEY own and control.
 
-## 7b. Why the content setups ask questions and wait (Weeks 4 and 5)
+## 7b. How the content setups work — a Yes at each step, and two questions (Weeks 4 and 5)
 
-Members meet this in Week 4 and it surprises some of them, because Weeks 1 to 3 taught them that the system
-already knows them. Teach it in one breath: **"It knows your story. It doesn't know what you'd say tomorrow — so
-it asks, and builds on your own words."**
-- **It works like an interview.** Four short questions in each sitting — about them, never about the machinery.
-  Short-form: what agents ask them first on the phone · how they'd explain the first step of their method · what
-  they do off the clock · the day and place they can film. YouTube: the topic they could talk about for twenty
-  minutes · who they'd sit down with on camera first · which story to tell at full length · the day they can film.
-- **It never repeats Week 1.** Each question first reads back what their Brain already holds, then asks for the
-  one new thing.
-- **Their words come back.** The next reply quotes them and says what their answer became; in the plan those
-  pieces say "(your words)". That is the point of the questions: their first three Reels and first three videos
-  are things they said, so the content sounds like them and not like everyone else's.
+Members meet this in Week 4. Teach it in one breath: **"It builds from what you already told your Brain, shows
+you each piece, and waits for your Yes. It only asks you two new things — the same two everyone gets."**
+- **It builds from the Brain.** Who they attract, their method, their story, their wins — all of that was asked in
+  Weeks 1 and 2 and is never asked again. It is read back to them ("from the story you told in Week 1") so they
+  can say "that's me" or change it.
+- **Two questions, the same for every member.** Short-form: what they do off the clock · the day and place they
+  can film. YouTube: which of their three topics they could talk about for twenty minutes · the day they can film
+  a full video. Nothing else.
+- **Why only those two (the owner, 2026-11-16):** a question has to be one that every member can answer —
+  including someone who has never attracted an agent — and one the Brain does not already hold. So it never asks
+  what agents say to them, or who they have helped.
 - **It waits.** One step per reply, then "Your turn." Nothing is built while they are away, and they can leave
-  mid-sitting and come back to the same place.
-- **Each reply names what they did** (the "✓" line) and ends with "what you did today" — it is their work, with
-  the heavy lifting done for them.
-- **"Skip" is always fine** and never asked twice; "do it all" builds from the Brain without the questions.
-- The scheduled workflows never ask anything — they draw on the answers already saved.
-The picture for picture people: *a good interviewer who has read your book — she doesn't ask where you grew up,
-she asks what you'd tell that one agent sitting across from you.*
+  mid-sitting and come back to the same place ("continue my short-form setup").
+- **Each reply names what they did** (the "✓" line) and the sitting ends with "what you did today" — it is their
+  work, with the heavy lifting done for them.
+- **"Skip" is always fine** and never asked twice; "do it all" builds from the Brain without the stops.
+- The scheduled workflows never ask anything, and no script is ever held up by a question.
+The picture for picture people: *a good assistant who has read your whole file — she lays the plan on your desk,
+asks which day you film, and waits for your nod.*
 
 ## 8. What the system deliberately does NOT do
 

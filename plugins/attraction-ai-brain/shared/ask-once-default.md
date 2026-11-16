@@ -14,8 +14,8 @@ member, the highest-quality file for the Brain.**
    question (a consult only on the four questions the setup skill lists: the WHY, the sponsor, the strategy and
    the 12-month number); no open follow-up after a chip selection; no "one block to confirm" — the setup
    skill's own rules override this file wherever they differ. Every other skill asks at most the one or two
-   facts its own file names — except the two content sittings, which are interviews of their own (the last
-   section of this file).
+   facts its own file names — the two content sittings ask two blanket questions each (the last section of this
+   file).
 2. **If the member answers → use it verbatim.** Never overwrite a real answer with a guess.
 3. **If they hesitate / "I don't know" / "you pick" / "not sure" → generate a sensible default** from their
    Brain (or the attraction doctrine's standard) and let them confirm in one word.
@@ -108,24 +108,27 @@ created before it). Extras are stated ("they're there if you want them — say t
 the process, the only questions left are facts the Brain cannot hold (a channel link, a booking link); everything else is defaulted
 from the Brain, said in one line, and closed with "change it any time".
 
-## The content sittings are interviews (the owner, 2026-11-15 — the short-form and YouTube plugins)
-"Told, not asked" is about the machine: the workflows, the email, the platforms, the tools. It was never meant to
-take the member out of their own work. The owner, after watching a sitting build everything by itself: *"it should
-WAIT for me"*; then: *"the student also needs to feel a WIN that they did something to achieve the result"*; then:
-the sitting has to *"feel almost like an interview"* — the member *"involved… a part of making it happen and
-bringing that system, that product to life."* So in the Week 4 and Week 5 sittings, and whenever a script is
-written with the member in the chat:
-- **Ask about the member, never about the machine.** An interview question asks for something only they hold and
-  their content needs: what agents ask them, how they would say a thing out loud, the one step they would teach
-  first, what they do off the clock, the day they can film, which opening sounds like them. Never an admin question.
-- **Never a re-ask.** What the Brain already holds is played back first, and the question asks for the next layer.
-- **One question a reply, numbered** ("Question 2 of 4"), answerable in a sentence or two, typed or spoken —
-  never the "2–4 related questions held together" that the handoff section above allows elsewhere, and no "anything
-  to add?" follow-up after the member picks something: their pick is used and the sitting moves on.
-- **Every answer is heard back and put to work where the member can see it:** the next reply quotes their own
-  words and says what they became; the words are saved verbatim; whatever is built on them is marked "your words".
-- **"Skip" always works** — the Brain fills it, said in one line, never asked twice. At most one "say a little
-  more" in a sitting. **Inside an interview, "I don't know", "you pick" and "not sure" are a skip too** — no menu
-  of options, no "confirm in one word" (rule 3 above is for the Brain's own phases): the Brain fills it and the
-  next question follows. The member can answer it later with the update phrase the sitting names.
-- **A scheduled run never asks;** it draws on the answers already saved.
+## The content sittings ask two blanket questions (the owner, 2026-11-15 and 2026-11-16 — the short-form and YouTube plugins)
+"Told, not asked" is about the machine: the workflows, the email, the platforms, the tools. The member is still
+part of their own work at every step. The owner, in order: *"it should WAIT for me"*; *"the student also needs to
+feel a WIN that they did something to achieve the result"*; the sitting should *"feel almost like an interview"*,
+the member *"involved… a part of making it happen"*; and then, after the first live run asked a member what agents
+say to them on the phone: *"the questions could be different for each person… There are a lot of people in this
+group that are first-time agent attractors, and they've never attracted an agent in their life… We need to make
+sure that they're blanket questions and the questions are the same across the board. Also, we don't really need
+more questions because they've already gone through a lot of this when they were building their AI brain."* So,
+in the Week 4 and Week 5 sittings:
+- **Two questions each, printed in the sitting's own skill, word for word the same for every member.** Never
+  reworded for a member, never a personal line built into the question, never a third.
+- **The test a question must pass:** every member can answer it, including one who has never attracted an agent ·
+  the Brain does not already hold it · the build cannot be made without it.
+- **Never a question that assumes experience** — what agents say to them, who they have helped, calls they have
+  had, results they have got.
+- **Everything else is read back from the Brain** in the member's own words, for a Yes or a change. That is the
+  involvement: they see what they said put to work, and they steer it.
+- **One question a reply, numbered** ("Question 1 of 2"), answerable in a sentence, typed or spoken; heard back in
+  the next reply; saved verbatim; no "anything to add?" after a pick.
+- **"Skip", "I don't know" and "you pick" always work** — the Brain fills it, said in one line, never asked twice
+  (rule 3's options-and-confirm is for the Brain's own phases).
+- **No skill asks a question before writing a script, and a scheduled run never asks;** the member's own wording
+  is always welcome, never required.

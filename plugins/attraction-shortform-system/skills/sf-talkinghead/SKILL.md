@@ -101,8 +101,8 @@ line) · the **story or proof it can carry** (a story-bank hook, a win with cons
 brokerage feature. Present simply:
 > "Here are strong ones for this week — I've leaned on [pillar] because you've been light there. I'm scripting [#, #
 > and #] — name other numbers any time."
-A statement, then the one question (Phase 2), then the scripts — never a Yes line, never an open menu (the owner,
-2026-11-14: told, not asked — about the machine; 2026-11-15: the member's own words are asked for). **If they're unsure or say "you pick"**
+A statement, then the scripts — never a Yes line, never an open menu, never a question first (the owner,
+2026-11-14: told, not asked; 2026-11-16: "we don't really need more questions"). **If they're unsure or say "you pick"**
 (house rules #8 + `${CLAUDE_PLUGIN_ROOT}/shared/advisor-playbook.md`): the top 3 are already named — script them now.
 
 ## Phase 2 — Scripts (for the chosen topics: the week's Reels at the member's cadence — three by default — or the one they named)
@@ -114,28 +114,22 @@ fabricate) · `identity/voice.md` + `identity/voice-samples.md` (tone + their re
 consent for Proof Reels; first name / initials otherwise) · `identity/offer.md` and `memory/magnets.md` if Step 1 left them closed (the Resource rung is the
 guide — GUIDE; an older `offer.md` at `Status: seeds` with no live guide → the ask is the call line in the law's shape,
 never a demanded guide) · `identity/publishing.md` (the two keywords, what each opens) if Phase 1 didn't open it.
-**THE ONE QUESTION — the member's words first (the owner, 2026-11-15: making content has to "feel almost like an
-interview" — the member part of bringing it to life; on demand only).** With the member in the chat, the FIRST Reel
-being scripted whose row does not already carry `your words` gets one question before a word of it is written —
-said in the same reply as Phase 1's statement, and the reply stops there:
-> "Before I write '[working title]': if an agent asked you this across the table, what would you say first? One or
-> two sentences — type it, or just talk. Or say **skip** and I'll write it from your Brain. **Your turn.**"
-Their answer is heard back in one line (*"✓ "[their words]" — that's your opening."*), saved under
-`identity/content-pillars.md → ## In your words` (`- **[working title]** (YYYY-MM-DD): "[verbatim]" → [the Reel]`,
-pushed with Phase 6), leads THE HOOK as option 1 marked *your words* (tidied only to be sayable in one breath —
-never a claim added; a named brokerage or person and any income figure left out, said once), and shapes the first
-step of THE SCRIPT; the row's `Carries` cell gains `your words YYYY-MM-DD`. **"Skip" / "you pick"** → written from
-the Brain, never asked again for that Reel. The other Reels of the batch are written in the same reply, from the
-Brain and `## In your words` — one question a chat, never three — and the batch closes with a statement, never an
-offer: *"Tell me how you'd open either of the others and I'll rewrite it around your words."* **Never asked:**
-inside setup (the member chose their opening at `sf-setup` Step 5), in a scheduled run (the Monday Week Plan drafts
-from the answers already saved), or for a row that already carries `your words`.
+**NO QUESTION BEFORE A SCRIPT (the owner, 2026-11-16: "we don't really need more questions because they've already
+gone through a lot of this when they were building their AI brain").** The scripts are written from the member's
+Brain — their voice, their story, their method, and `## In your words` — with nothing asked first. The member's own
+wording is always welcome and never required: the batch closes with ONE line, a statement, never an offer and
+never a question — *"Tell me how you'd open any of these and I'll rewrite it around your words."* When they do,
+their sentence leads THE HOOK as option 1 marked *your words* (tidied only to be sayable in one breath — never a
+claim added; a named brokerage or person and any income figure left out, said once), it is appended to
+`identity/content-pillars.md → ## In your words` (`- **[working title]** (YYYY-MM-DD): "[verbatim]"`, pushed with
+Phase 6) and the row's `Carries` cell gains `your words YYYY-MM-DD`.
 
 For EACH Reel, use these exact section names:
 - **THE BRIEF** — pillar · for whom · story used (hook from the bank, or none) · rung + keyword · *built on your
   words* when it is.
 - **THE HOOK — 3 ways** — three options (**option 1 is the member's own sentence, marked *your words*, whenever the
-  row carries `your words`, the member answered the one question, or setup handed over an opening they WROTE; an
+  row carries `your words`, the member gave their own wording for this Reel, or setup handed over an opening they
+  WROTE; an
   opening they only picked from three is listed first and marked *your pick* — never *your words***; one
   may come from `content-pillars.md → ## Hooks bank` when a bank hook fits this Reel), each sayable in one breath (~8–12 words), styles labelled (question ·
   contrarian · number/stakes · mistake · callout · curiosity-gap — never three of the same), the strongest marked

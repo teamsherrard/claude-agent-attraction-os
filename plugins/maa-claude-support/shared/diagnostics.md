@@ -304,19 +304,26 @@ my CEO review". Neither has a task; that is by design, not a failure.
 
 ## Tree #13 — "My short-form / YouTube setup stopped, is asking me things, or did it all without me"
 
-Since 2026-11-15 both content sittings run as an interview and wait after every step (Short-Form 0.6.0 and
-0.7.0, YouTube 0.6.0 and 0.7.0). Most "it's broken" reports here are the design working. Cheapest check first.
+Both content sittings do one step a reply and wait (since 0.6.0), and each asks exactly TWO questions, the same
+for every member (since Short-Form 0.8.0 and YouTube 0.8.0). Most "it's broken" reports here are the design
+working. Cheapest check first.
 
 1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
    - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A numbered question → they answer it in a
      sentence or two, or say "skip". "Say Yes and I'll…" → they say Yes, or say what to change. Done.
    - It ends mid-sentence, or with an error → a cut-off reply: have them say "continue" once; twice → a fresh
      chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
-2. **"It's asking me questions — I thought it knew me."** By design (FAQ Q71). One check that it is behaving:
-   the question must be about THEM — what agents ask them, how they would say something, what they do off the
-   clock, their filming day; for YouTube the topic they could talk about for twenty minutes, who they would sit
-   down with, which story, their filming day. **If it asked about email, platforms, which workflows, ManyChat, or
-   anything they answered in Week 1, that is a defect: `maa-support-escalate`, with the question quoted.**
+2. **"It's asking me questions — I thought it knew me."** Two questions are by design (FAQ Q71), and they are
+   word for word the same for every member. Short-form: *"What do you do off the clock that the people around you
+   know you for?"* and *"Which day could you film every week — and where?"* YouTube: *"Which of your three topics
+   could you talk about for twenty minutes with no notes?"* and *"Which day could you film a full video every
+   week?"* Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
+   opens). **Anything else is wrong:**
+   - *"What's the first thing agents ask you on the phone?"*, *"Who would you sit down with?"*, "Question 1 of 4"
+     → they are on an older version (0.7.x). Update the plugin (Customize → Plugins) and say "continue my
+     short-form setup" / "continue my YouTube setup".
+   - A question about email, platforms, which workflows or ManyChat, or anything they answered in Week 1 → a
+     defect: `maa-support-escalate`, with the question quoted.
 3. **"It built everything while I was away."** An older version (before 0.6.0). They update the plugin
    (Customize → Plugins), open a new chat and say the setup phrase. Nothing they have is lost; a finished setup is
    not run again unless they say "redo my short-form setup" / "redo my YouTube setup".
@@ -329,9 +336,10 @@ Since 2026-11-15 both content sittings run as an interview and wait after every 
    they said it → show where it surfaces: the Brain Board, "(your words)" beside the Reel or video in the plan,
    the top of its card (FAQ Q75). A name or a number missing from the public piece is the privacy rule working
    (FAQ Q76). The meaning itself changed → a defect: log both versions.
-6. **"The numbers at the end are wrong"** (the close's "you answered four questions… three of your pillars").
-   Count the entries that are not `skipped`, and the calendar rows whose `Carries` cell holds `your words`. A
-   mismatch → log it with the counts; never argue the number with the member.
+6. **"What it says I did at the end is wrong"** (the close's "what you did today"). Each line must match the
+   sitting: the two answers under `## In your words` (a `skipped` one is not something they told it), the number
+   of posts a week they chose, their filming day. A mismatch → log it with the entries; never argue it with the
+   member.
 7. **"I chose two posts a week and the plan looks odd."** Any pace is allowed: the six designed posts go out
    first (three weeks at two a week), then the Reels in turn. If the plan still says "your first two weeks" for a
    pace that is not three a week, log it.

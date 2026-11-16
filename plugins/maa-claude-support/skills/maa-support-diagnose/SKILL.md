@@ -47,7 +47,8 @@ are WORKING AS DESIGNED) · #6 sessions/"it forgot" · #7 folder access · #8 "I
 #9 claimed-sent · **#10 a scheduled agent never ran** · **#11 Claude Design zip won't upload /
 isn't in Design** · **#12 Riverside connector** · **#13 a short-form or YouTube setup that stopped, is asking
 questions, built everything unattended, or differs from a friend's** (usually the design working: both sittings
-run as an interview and wait after every step since 2026-11-15 — check the last line on their screen first). A pasted error or screenshot with an error banner
+do one step a reply, wait, and ask exactly two questions that are the same for every member — check the last line
+on their screen first; "Question 1 of 4" means an older version). A pasted error or screenshot with an error banner
 → decode via `error-codes.md` first; the row usually names the tree. When two trees could apply,
 run the CHEAPER first check of each — the answers disambiguate. **"It worked yesterday" symptoms:**
 read the whatsnew digest (`memory/claude-updates.md`) as one suspect among others — a product

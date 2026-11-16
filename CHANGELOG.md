@@ -2,6 +2,35 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.34.0] — 2026-11-16
+
+**Two blanket questions, the same for every member (Short-Form 0.8.0 · YouTube 0.8.0 · Support 0.2.1 · Brain 0.9.18 · Lead Magnet 0.12.14).** The owner ran the short-form sitting live and it asked: *"You attract agents one to four years in… When one of them gets you on the phone, what's the first thing they ask you?"* The owner: *"this worries me… the questions could be different for each person, depending on what their situation is. There are a lot of people in this group that are first-time agent attractors, and they've never attracted an agent in their life. What would the question be in their situation? We need to make sure that they're blanket questions and the questions are the same across the board. Also, we don't really need more questions because they've already gone through a lot of this when they were building their AI brain."* The four-question interview added in 0.31.0 and 0.32.0 is replaced.
+
+**The rule now, in both sittings.**
+- **Exactly two questions, word for word the same for every member**, in the same order — nothing from the member's Brain is built into the question, and there is never a third.
+- **A question must pass three tests:** every member can answer it, including one who has never attracted an agent · the Brain does not already hold it · the plan cannot be built without it.
+- **Never a question that assumes experience** — what agents say to them, who they have helped, who they would sit down with.
+- **Everything else is built from the Brain and read back** for a Yes or a change, each piece with where it came from ("from the story you told in Week 1"). That is how the member stays part of every step without a second interview.
+- One step a reply, the win line, "your part" and the stop are unchanged. "Skip" still always works.
+
+**Short-Form 0.8.0 — the two questions.** *"What do you do off the clock that the people around you know you for? Only what you're happy to have on camera."* (the Personality pillar — the one thing the Brain never asked) and *"Which day could you film every week — about an hour, in the same spot — and where is that?"* (the filming day). Then the five pillars are shown, each with where in the member's own Brain it came from, and the week; "Does that sound like you?"; then the plan. The questions about what agents ask them and about the first step of their method are gone — the Brain holds both. The first Reel is the plan's first Reel; the member still chooses how it opens. `sf-talkinghead` no longer asks a question before a script (it closes with "tell me how you'd open any of these and I'll rewrite it around your words"). The close no longer counts answers.
+
+**YouTube 0.8.0 — the two questions.** *"Your channel covers three topics — they're the playlists on your Channel Page: [A], [B] and [C]. Which one could you talk about for twenty minutes with no notes?"* and *"Which day could you film a full video every week — about an hour? The same day as your Reels is fine."* The questions about who they would sit down with and which story to tell are gone: a guest is named in the plan only when the Brain already holds an agent they have helped (otherwise the plan says it starts the day they name someone), and the story comes from the Brain. `yt-script` no longer asks a question before a script, and "script my first three videos" writes all three again.
+
+**Also in YouTube 0.8.0 — the rest of its walk-through** (a fresh reader followed the sitting reply by reply).
+- **The member's filming day now drives every date.** It was saved but never read; the dates still came from the old rule. It is written to `channel.md → Filming day:` the moment it is given, and the first-date rule reads it first in all seven places.
+- **Nothing is claimed that is not so:** no "your board is done" or "drafted on its card" for a member without Notion; no "there's a real video on your first card" when none was found; the Kickoff's "keeps your board 30 days ahead" is said after the Yes that switches it on, not before.
+- **A new channel:** the first row of the plan is the trailer, so the topic the member picked is "your first full video" everywhere, not "your first video".
+- A guest with no story on file is titled "A conversation with [first name]" instead of an invented transformation. Answering a skipped question later rebuilds only that video and moves no date. A skipped entry is never quoted or marked "your words". The workflows' confirming line is said once.
+
+**Both setups:** "continue my short-form setup" and "continue my YouTube setup" are trigger phrases, and the sitting says so once, so a member who stops part-way knows how to come back.
+
+**Shared `ask-once-default.md` (four plugins):** its last section is now "The content sittings ask two blanket questions". **Brain 0.9.18:** the channel template carries `Filming day:`.
+
+**Docs and Support 0.2.1.** The setup guide (Weeks 4 and 5), both demo checklists, the stack map, the week guide, the doctrine page, tree #13 (the exact four sentences a setup may ask; "Question 1 of 4" means an older version) and FAQ Q69, Q70, Q71, Q74, Q75 and Q79.
+
+**Not yet run live in Cowork.**
+
 ## [0.33.0] — 2026-11-15
 
 **The support plugin catches up with everything, and both interview sittings are hardened by two independent walk-throughs (Support 0.2.0 · Short-Form 0.7.3 · YouTube 0.7.2 · Brain 0.9.17 · Lead Magnet 0.12.13).**

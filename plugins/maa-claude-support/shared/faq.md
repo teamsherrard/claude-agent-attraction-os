@@ -743,9 +743,8 @@ connection on their own.
 
 **Q69. Can I film several videos in one day?**
 Yes, and it is the easiest way to start. Say "script my first three videos": it writes the three videos you film on
-your own, one at a time. A video you already answered a question about in your setup is written straight from your
-own words; for the others it asks you one question first ("if an agent asked you this over coffee, what would you
-say first?"). Say "write all three" if you would rather it wrote them in one go. You also get a one-page film-day
+your own, all three in one sitting, with nothing asked first. Want one in your own words? Tell it how you would
+open it and it rewrites that script around your sentence. You also get a one-page film-day
 sheet — camera at eye level, face a window, your script
 beside the lens, change your top between videos. Film all three on one day; each still goes out on its own week.
 After filming, one video at a time, say "make my attraction video: [title]" and your thumbnail sheet, your title and
@@ -755,22 +754,23 @@ booked with "book my agent interview".
 **Q70. It built everything while I stepped away. Can it wait for me?**
 It does now. Your short-form setup and your YouTube setup go one step at a time: each step shows you what it built
 (or what it is about to build on — your pillars and your week, your three topics and your pace) and then waits. Say
-"Yes" to move on, or tell it what to change and it changes that and waits again. Both setups also ask you four
-short questions of their own along the way (Q71). If you walk away, nothing more
+"Yes" to move on, or tell it what to change and it changes that and waits again. Both setups also ask you two
+short questions along the way — the same two every member gets (Q71). If you walk away, nothing more
 happens until you are back. If you would rather it ran straight through, say "do it all" — it then stops only for
 your Yes on the workflows.
 
 **Q71. Why are my short-form and YouTube setups asking me questions? I thought they already knew me.**
-It does know you — it never asks again for anything you told it in Week 1. The four questions are new ones that only
-you can answer, and they are what make your content yours: the first thing agents ask you when they get you on the
-phone, the one step of your method you would tell an agent to start with this week, what you do off the clock, and
-the day and place you can film every week. Answer in a sentence or two — type it, or tap the microphone and just
-talk. After each answer it reads your own words back and shows you what they became: your first three Reels are
-your three answers, marked "(your words)" on your plan, and the very first is the question agents ask you. If a
-question stumps you, say "skip" — it builds that part from your Brain and never asks twice. You can put any of them
-in your own words later by saying "update my pillars". Your YouTube setup (Week 5) does the same with four
-questions of its own — the topic you could talk about for twenty minutes, who you would sit down with on camera
-first, the story to tell at full length, and your filming day — and your first three videos are built on them.
+They do know you — they never ask again for anything you told your Brain, and they build from it. Each setup asks
+just two new things, and they are the same two for every member, whether you have attracted fifty agents or none
+yet:
+- **Short-form:** what you do off the clock that people know you for, and which day (and where) you can film.
+- **YouTube:** which of your three topics you could talk about for twenty minutes, and which day you can film a
+  full video.
+Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
+it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
+your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", or
+says "Question 1 of 4" — you are on an older version: update the plugin (Customize → Plugins) and say "continue
+my short-form setup".
 
 **Q72. What does "✓ Step 2 of 5 — done" mean, and what is "your part"?**
 Your setups are built to be done together, not done for you. Each reply opens with a short line that says what you
@@ -789,12 +789,13 @@ setup phrase again — it picks up at the same place and nothing is lost.
 **Q74. I skipped a question, or said "I don't know". Can I answer it later?**
 Yes. Skipping is always fine — it builds that part from your Brain and never asks twice. To put it in your own words
 later: for short-form say "update my pillars"; for YouTube say "refresh my attraction game plan". It asks the
-question you skipped, then rebuilds that one piece around your answer.
+question you skipped, then rebuilds that one piece around your answer — nothing else on your plan moves.
 
 **Q75. Where do my answers go? Can I see them?**
-Three places. On your Brain Board, with your pillars, under "In your words" (your YouTube answers sit with your
-channel). In your Game Plan, where each Reel or video built on an answer says "(your words)". And at the top of that
-Reel's or video's card on your content board. They are saved exactly as you said them.
+On your Brain Board, with your pillars, under "In your words" (your YouTube answers sit with your channel), saved
+exactly as you said them. What you do off the clock becomes your Personality pillar — the Reels where agents meet
+you, not a pitch — and the Reel built on it says "(your words)" in your plan. Your filming day is the day every
+date on your plan is counted from.
 
 **Q76. I mentioned a person, another brokerage or a number in my answer. Will that be posted?**
 No. Your answer is saved privately, word for word, but a named brokerage or person and any income, split or earnings
@@ -815,6 +816,8 @@ and waits again. After setup: "update my pillars", "change my cadence" or "set m
 
 **Q79. My setup behaves differently from the one a friend in the cohort described.**
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
-YouTube setups wait after every step and ask you four questions of your own. Update your plugins (Customize →
+YouTube setups wait after every step and ask you two questions — the same two every member gets. (For a few days
+they asked four; if yours says "Question 1 of 4", it is that older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
-is never run again unless you ask: "redo my short-form setup" or "redo my YouTube setup".
+is never run again unless you ask: "redo my short-form setup" or "redo my YouTube setup". Stopped part-way? "Continue my
+short-form setup" or "continue my YouTube setup" picks up exactly where you were.

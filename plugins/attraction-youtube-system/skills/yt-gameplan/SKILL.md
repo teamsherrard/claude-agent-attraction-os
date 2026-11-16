@@ -85,23 +85,25 @@ phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phas
 CTAs), §13–§14 (Phases 7–9). `references/starter-title-bank.md` at Phase 6 only, and only when the member has no
 titles of their own (the rule is stated there). Never the whole doctrine up front.
 
-**Run from setup (`yt-setup` Step 6b — after the member's Yes).** Setup's Step 6a has already ASKED the member its
-four questions (the owner, 2026-11-15: the sitting has to "feel almost like an interview"), saved the answers under
-`identity/channel.md → ## In your words`, PROPOSED what the plan stands on — the three topics, the first three
-videos, the pace, the filming day — and waited ("it should WAIT for me"); this skill starts only on the member's Yes
-and builds on what they approved or changed there. **The member's answers lead the plan:** read `## In your words`
-first — **the first niche video** (video 1; on a new channel, the one right after the trailer) is the topic they
-said they could talk about for twenty minutes (its script opens on their own line when they gave one — at setup
-or at `yt-script`'s one question); **the first guest slot** (Phase 4, Phase 8) is the person they named, top of the candidates, a
-first name only; **the early story slot** (Phase 8 — where Why I Switched goes) is the story they chose; the pace
-and the filming day are theirs. `identity/content-pillars.md → ## In your words` (the Week 4 answers, read-only) is
-a source for the title bank: the question agents ask the member becomes a title in the agents' own words. In the
-document a video built on an answer shows **"(your words)"** after its title; the `→` part of each entry is filled
-with its video's title. A skipped answer leaves its slot to the phases' own rules. **On demand, a refresh ("refresh my attraction game
-plan") first looks at `## In your words`:** an entry that reads `skipped` is asked now, ONE question a reply, in
-`yt-setup` Step 6a's wording with its seed; the answer replaces the entry (this skill writes it), the video it
-shapes is rebuilt on it and marked "(your words)", and the reply says what it became. From that
-Yes the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
+**Run from setup (`yt-setup` Step 6b — after the member's Yes).** Setup's Step 6a has already asked the member its
+TWO blanket questions — the same two for every member (the owner, 2026-11-16: "blanket questions… the same across
+the board", and "we don't really need more questions because they've already gone through a lot of this when
+they were building their AI brain") — saved the answers under `identity/channel.md → ## In your words`, PROPOSED
+what the plan stands on — the three topics, the first videos, the pace, the filming day — and waited ("it should
+WAIT for me"); this skill starts only on the member's Yes and builds on what they approved or changed there.
+**What the two answers decide:** the first niche video (video 1; on a new channel, the one right after the
+trailer) is on the topic they picked — the `→` part of that entry is filled with its title; every date is counted
+from the day they gave (`channel.md → ## Channel → Filming day:`). **Everything else comes from the Brain by this
+skill's own phases, never from a question:** the first guest slot (Phase 4 — an agent the Brain holds, or the
+honest line that the first conversation starts when the member names someone), the early story slot (Phase 8 —
+the story `journey.md` marks as the "why join me" story, else the first of the member's own in the story bank),
+the model video. `identity/content-pillars.md → ## In your words` (the Week 4 answers, read-only) is a source for
+the trailer and the story video. A skipped answer leaves its slot to the phases' own rules. **No question is ever
+asked that assumes the member has attracted an agent** — who they have helped, who they would sit down with.
+**On demand, a refresh ("refresh my attraction game plan") with a `skipped` entry on file** asks that one question
+first, exactly as `yt-setup` Step 6a prints it; the answer replaces the entry (this skill writes it), ONLY the
+video it shapes is rebuilt, and no date moves unless the member also asks for a new plan. From the member's Yes
+at setup's proposal the plan runs through with **no further stops**Yes the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
 week unless the member chose two), never asked again; goals at `seeds` are used
 and labeled, never asked for (Phase 7); the board step is skipped (Phase 9 step 6 — setup's next step adds the
 YouTube tab and maps the next 30 days); **no chat summary of its own** (Phase 9 step 3 — setup hands the plan over
@@ -248,8 +250,8 @@ Channel Review proposes after a month at one has held — or sooner when `identi
 it or the member asks. The 8-video cycle holds at either pace (one cycle in eight weeks at one a week, in four at
 two); **the first four videos at one a week run niche · interview · niche · model** (Why I Switched allowed early,
 Mike's own exception). On demand: state the pick and why in one line and build on it — a
-statement, never a "does that work?". **Inside setup: no question — state the pick and why in one line,
-move on, and say "change my YouTube cadence" is one phrase away.** It becomes the `Cadence:` anchor every other skill
+statement, never a "does that work?". **Inside setup: no question and no chat line — the cadence approved at 6a goes into the document** (the phrase
+"change my YouTube cadence" lives in the document, not in the chat). It becomes the `Cadence:` anchor every other skill
 reads (Phase 9 — `1/week · since YYYY-MM-DD`, the step-up noted) and the pace the board's 30-day window is mapped
 at: **four or five cards at one a week, eight or nine at two.** Say why not every video is brokerage content.
 
@@ -284,7 +286,9 @@ or a peer with a unique method — and the honest line that the first interview 
 and the guest's outro CTA follow the law (the person · their help · free · to run the method) and never promise
 the member's time per partner. Seed `memory/interview-pipeline.md` rows at Stage `Candidate` in `yt-interview`'s
 shape (repeated in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`; create the file with its header if it does
-not exist, never touch existing rows). Never invent a guest or a result.
+not exist, never touch existing rows). Never invent a guest or a result. **A guest with no result on file** (the member named
+someone the Brain knows nothing about) → the row and the card are titled *"A conversation with [first name]"* until
+the invitation chat learns their story — never a transformation nobody told you.
 
 ## Phase 5 — The model lane (doctrine §6)
 **Read now:** `identity/brokerage-model.md` (the model lane; empty = "say 'explain my model to me' and the model lane
@@ -350,7 +354,7 @@ arrows, no ratio names.
 A week-by-week calendar at their cadence, **one video per row**, **sized to the cadence** — about thirteen rows
 at one a week (once round the eight in eight weeks, then the start of the second), about twenty-six at two.
 - **The dates — the first-date rule (above):** video 1 is recorded on the member's next filming day at least three
-  days after today (none on file → the Saturday after next), published two days later; every later row follows
+  days after today (the day the member gave at setup, `channel.md → Filming day:`, comes first; none on file → the Saturday after next), published two days later; every later row follows
   from it. Never a row dated the day the plan is built.
 - **The locked order at one a week — every file agrees on it:** **niche · interview · niche · model · interview ·
   niche · interview · interview** (opening with niche so a new viewer meets the member before the guests; the two
@@ -405,7 +409,7 @@ Then **days 91–180 as the direction** (double down · compounding assets · th
    `memory/content-calendar.md → ## Long-form (YouTube)` — the one section this plugin owns inside that
    Short-Form-owned file (its locked shape in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`): one row per
    video — `#` · Recording date and Publish date (the first-date rule: video 1 on the next filming day at least
-   three days out — none on file → the Saturday after next — published two days later, every later row following
+   three days out — the day the member gave at setup, `channel.md → Filming day:`, comes first; none on file → the Saturday after next — published two days later, every later row following
    from it; never today) · Week · Bucket · Lane · Title · Guest · Status `Idea` · System ID
    (`yt-YYYY-MM-w[n][a/b]`) · `Reference video` — **left empty here**: the board step (or the Monday Kickoff, when
    there is no board) finds one real video for the row and writes the cell; the `Window:` line under the heading (`YYYY-MM-DD → YYYY-MM-DD · written by
@@ -440,7 +444,7 @@ Then **days 91–180 as the direction** (double down · compounding assets · th
 - [ ] Starter bank opened only when the member had no titles of their own; their captured ideas led; every seeded title marked `starter`, placeholders swapped, lead-gen/CMA titles kept only inside the known-for
 - [ ] The goal in conversations and calls — four plain lines in the document, every assumed number labelled "(an assumption — change it any time)", no income
 - [ ] The cadence stated once — one a week for the first month, two the step-up — never asked inside setup; the locked order niche · interview · niche · model · interview · niche · interview · interview; ~13 rows at one a week (~26 at two); a new channel's trailer as week one's first row; the first 30 days marked; the step-up checkpoint; 91–180 direction; scoreboard
-- [ ] The first-date rule kept: video 1 recorded on the next filming day at least three days out (none on file → the Saturday after next), published two days later, every later row following from it — no row and no card dated the day the plan was built
+- [ ] The first-date rule kept: video 1 recorded on the next filming day at least three days out (the day the member gave at setup, `channel.md → Filming day:`, comes first; none on file → the Saturday after next), published two days later, every later row following from it — no row and no card dated the day the plan was built
 - [ ] The document is member-readable: YOUR NEXT 7 DAYS its own block of three numbered lines right after Read this first; one word for a lane; none of "bucket", "SIGNAL", "FOR · PAIN · SIGNAL", "cycle position", "anchors", "unresearched", "starter", "rung", "avatar"; dates in words; the calendar one plain table (Week of · Video · Kind · Guest); MORE TITLES WHEN YOU NEED THEM last, by lane, plain titles; the TITLE NOTES in the export only
 - [ ] The progress line said once before the first search; the combined budget (≤10 + ≤8 = ≤18) stated once and kept; the Sources footer lists what was searched and when
 - [ ] Stamp present; saved dated to `03 · Content/Long-Form`; the text and the TITLE NOTES kept in `exports/`; anchors (`Cadence:` with its date, `Step-up:`) and the calendar rows written and pushed (the calendar file created silently when a Brain predates it — never a line to the member); the Brain Board re-rendered; handed off; inside setup no chat summary; compliance never a stop or a detour

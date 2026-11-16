@@ -1,16 +1,15 @@
 ---
 name: sf-setup
 description: >
-  One-time onboarding for the Agent Attraction Short-Form System, the Week 4 layer on the member's
-  Brain. It runs like an interview: one step at a time, four real questions answered in the member's
-  own words, every answer shown at work, then it waits. (1) Profiles and the two keywords confirmed
+  Onboarding for the Agent Attraction Short-Form System, Week 4, on the member's Brain. One step at a time, and it waits after each: what the member told their Brain is read back for
+  a Yes or a change, plus two questions that are the same for every member. (1) Profiles and the two keywords confirmed
   (GUIDE and the offer's word); (2) the
-  Short-Form Game Plan, built on the member's answers, with the ManyChat build sheet; (3) the Notion
+  Short-Form Game Plan with the ManyChat build sheet; (3) the Notion
   board with the next 30 days mapped; (4) four scheduled workflows switched on with a Yes (Monday
   Week Plan, Batch Prep, News Watch, Calendar Refill; five extras stated), then
   Metricool or GoHighLevel; (5) the first Reel, then the Brain Board and Brain Book handed over.
   Never re-asks the Brain; a second call resumes one part. Trigger on: "set up my attraction
-  short-form", "launch my attraction short-form", "redo my short-form setup", "confirm my attraction profiles", "audit my
+  short-form", "launch my attraction short-form", "continue my short-form setup", "redo my short-form setup", "confirm my attraction profiles", "audit my
   attraction profiles", "my attraction keywords", "set my keyword", "turn on my profile audit".
 ---
 
@@ -22,13 +21,13 @@ the Brain (Week 1), the three Week 2 files — the Partner Offer, the guide, the
 whose chapter 6 is the bios and chapter 7 the six designed social posts and the CALLS TO ACTION table) — and the
 brand from Week 3. By the end they hold five things in this sequence: **their profiles and their two keywords
 confirmed → their Short-Form Game Plan (and their ManyChat build sheet) → their content board with the next 30 days
-on it → their four scheduled workflows → their first Reel.** One sitting, about thirty-five minutes; **one step at a time — every step ends by waiting for the member — and it
-runs like an interview: the member is asked for what only they hold, and sees each answer put to work** (the
-owner, 2026-11-15).
+on it → their four scheduled workflows → their first Reel.** One sitting, about thirty minutes; **one step at a time — every step ends by waiting for the member — and the
+member is part of it at every step: what they told their Brain is read back for a Yes or a change, and two
+questions, the same for every member, fill what the Brain cannot hold** (the owner, 2026-11-15 and 2026-11-16).
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — above all #1: plain and warm, never
-technical, **told, not asked** about the machine (every build step a statement of what is being built), **an interview**
-about the member (four real questions in the Game Plan step, each answer heard back and put to work), **one step,
+technical, **told, not asked** about the machine (every build step a statement of what is being built), **two blanket
+questions** about the member (the same two for everyone, each answer heard back and put to work), **one step,
 then wait** (the stop at the end of every reply), breadcrumbs. This is the member's first impression of the plugin. The
 Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
@@ -40,7 +39,7 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   to email you?", no platform question, no ManyChat question, no open-ended menu. Every step is a
   statement of what will be built; the consent card ends in ONE line the member answers with "Yes" — the one explicit
   yes the scheduled-task rule needs. Extras are stated, never offered as a menu. That is the machine. **The member's own
-  content is the opposite — it is asked for: the interview, below.**
+  content comes from their Brain, read back to them — plus the two blanket questions below.**
 - **ONE STEP, THEN WAIT (the owner, 2026-11-15 — this rule wins over every older "no stop" line).** The owner ran
   the sitting, walked away, and came back to find everything built: *"it ends up doing the entire work for me rather
   than waiting for me to give direction or feedback or answers… it should WAIT for me."* So:
@@ -50,7 +49,7 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
     away comes back to exactly that line — nothing more has happened.
   - **The stop line is always the last line, always this shape:** *"Say **Yes** and I'll [the next step, in plain
     words] — or tell me what you'd change. **Your turn.**"* Each step below prints its own. **Where the next thing
-    needed is the member's own words, the stop IS the interview question** (below) — a question is a stop; never a
+    needed is the member's own words, the stop IS the question** (one of the two, below) — a question is a stop; never a
     question and a stop line in the same reply.
   - **Direction comes before a big build.** What shapes a document is shown first and waits: the five pillars and
     the week are proposed, the member says Yes or changes them, and only then is the Game Plan built.
@@ -59,10 +58,10 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
     once, and wait. Never read silence, a "hmm" or a question as a Yes.
   - **Never an admin stop.** The stop is never a menu and never one of the old questions (no "all, some or not
     yet", no "want me to email you?", no platform or ManyChat question): at a build step the step states what was
-    built and the only word needed is **Yes**; at an interview step the member answers in their own words.
+    built and the only word needed is **Yes**; at one of the two questions the member answers in their own words.
   - **"Do it all" / "don't stop" / "finish it without me"** — only when the member says so — → run the remaining
     steps without the stops, pausing only for the consent card's Yes and the posting-tool question. Never offered.
-    Interview questions not yet asked are filled from the Brain and said so in one line (*"I've built those from
+    A question not yet asked is filled from the Brain and said so in one line (*"I've built those from
     your Brain — say 'update my pillars' any time to put them in your own words."*).
   - Each step still saves and stamps the moment it is built, so a member who leaves loses nothing and the next call
     opens on that step's stop line.
@@ -76,44 +75,41 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
      true (never a number that was not counted, never an income or results claim, never hype), and it says "you",
      never "I".
   2. **What I prepared** — the step's work, shown short.
-  3. **Your part** — ONE real thing that is the member's, named as theirs: **an interview question** (the Game Plan
-     step — the rule below), a choice about their own content (which opening sounds like them, which Reel comes
+  3. **Your part** — ONE real thing that is the member's, named as theirs: **one of the two blanket questions** (the
+     Game Plan step — the rule below), a choice about their own content (which opening sounds like them, which Reel comes
      first, a pillar to change) or a two-minute action in their own account (open the plan, open the board). Never
-     an admin question (email, platforms, which workflows), never a quiz, never more than one. After an interview
-     answer the win line is the member's own words, quoted, and what they just became.
+     an admin question (email, platforms, which workflows), never a quiz, never more than one. After a
+     question the win line is the member's own words, quoted, and what they just became.
   4. **The stop line** (above).
   The five steps the member counts: **1** your profiles and your two words · **2** your Game Plan · **3** your
   board · **4** your workflows · **5** your first Reel. The close is the biggest win of all: **WHAT YOU DID TODAY**
   — the member's decisions listed back to them — and **the first win they can have this week**, a post that is
   already designed and only needs posting (Step 6).
-- **IT IS AN INTERVIEW — ASK, LISTEN, BUILD (the owner, 2026-11-15, the same evening: the sitting has to "feel
-  almost like an interview" — the member "involved… a part of making it happen and bringing that system, that
-  product to life. That experience is a very important part of this process").** Waiting for a Yes is not
-  involvement. The member is the source; this skill is the pen. So the Game Plan is not proposed from the Brain and
-  approved — it is asked for (Step 3a), and the rules of the asking are fixed:
-  - **About the member, never about the machine.** A question asks for something only they hold and their content
-    needs — what agents ask them, the one step they would teach first, what they do off the clock, the day they
-    can film, which opening sounds like them. The 2026-11-14 ruling stands in full: no admin question, no menu,
-    nothing about email, platforms, workflows or ManyChat.
-  - **Never a re-ask.** Week 1 asked 26 questions; none is asked again. What the Brain holds is played back first
-    (*"You attract agents who…"*) and the question asks for the next layer — the spoken sentence, the first step,
-    the fresh thing.
-  - **One question a reply, numbered** (*"Question 2 of 4"*), short, answerable in a sentence or two. The line
-    *"Type it, or tap the microphone and just talk — a sentence or two is plenty."* is said with Question 1 only.
-  - **Heard back, then put to work where they can see it.** The next reply opens with their own words, quoted
-    short and exact, and what they just became (*"✓ "How do you get buyers without paying for leads?" — that's
-    your first Reel, in the words agents actually use."*). The words are saved verbatim; everything built on them
-    is marked **your words** in the plan and on the board; the close counts them.
-  - **Their words stay theirs.** Tidied only to be sayable in one breath when a line becomes a hook; never a claim
-    added, never the meaning moved. A named brokerage or person in an answer → the name is left out of everything
-    public, said once (*"I'll keep the name out of it — that's the rule for anything public."*); an income, split
-    or earnings figure → the figure is left out, said once.
-  - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll build that one from your Brain. Say
-    'update my pillars' any time to put it in your own words."*; the entry is saved as skipped, never asked twice,
-    never a guilt line. An answer too thin to use → ONE *"Say a little more — in your own words."* in the
-    whole interview, then whatever comes is taken.
-  - **Saved the moment it is given** (`## In your words`, pushed) — a member who leaves after Question 2 comes
-    back to Question 3.
+- **TWO BLANKET QUESTIONS — THE SAME FOR EVERY MEMBER (the owner, 2026-11-16 — this replaces the four-question
+  interview of the day before).** The first live run asked a member *"When one of them gets you on the phone,
+  what's the first thing they ask you?"* The owner: *"this worries me… the questions could be different for each
+  person, depending on what their situation is. There are a lot of people in this group that are first-time agent
+  attractors, and they've never attracted an agent in their life. What would the question be in their situation?
+  We need to make sure that they're blanket questions and the questions are the same across the board. Also, we
+  don't really need more questions because they've already gone through a lot of this when they were building
+  their AI brain."* So:
+  - **The sitting asks exactly TWO questions, printed in Step 3a, word for word the same for every member, in the
+    same order.** Never reworded for a member, never a personal line built into the question, never a third.
+  - **The test a question must pass — all three:** every member can answer it, including one who has never
+    attracted an agent, has no team and nobody's story to tell · their Brain does not already hold it · the plan
+    cannot be built without it.
+  - **Never a question that assumes experience** — nothing about what agents say to them, calls they have had,
+    who they have helped or what results they have got.
+  - **Everything else is built from what they already said** in Weeks 1 and 2, and is READ BACK to them in their
+    own words (*"from the story you told in Week 1"*). Their part there is to say "that's me" or change it. That
+    is how the sitting stays a conversation — the member involved at every step (the owner, 2026-11-15) — without
+    becoming a second interview.
+  - **How the two are asked:** one a reply, numbered (*"Question 1 of 2"*), answerable in a sentence, typed or
+    spoken. The answer is heard back in the next reply (their own words, quoted short and exact), saved verbatim
+    under `## In your words` and pushed at once — a member who leaves after Question 1 comes back to Question 2.
+    A named person or brokerage and any income figure in an answer are left out of everything public, said once.
+  - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll take that from your Brain."*; saved as
+    skipped, never asked twice, never a guilt line.
 - **Never name what the member does not hold, never claim what did not happen.** Every line that mentions the six
   designed posts, the bios, the second keyword, the board, a connected tool or a switched-on workflow is built from
   what is really on file at that moment — each such line below carries its other form in brackets. A member who
@@ -149,12 +145,12 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   now", never a third option, never `declined`.
 - **Public needs compliance.** A refreshed bio and the ManyChat messages are public → the three-state gate before
   they are written. The Game Plan is private and builds in every state; posting waits.
-- **What the member says in this sitting: their answers, a Yes, and one fact.** The interview's four questions and
-  the opening of their first Reel are answered in their own words (the owner, 2026-11-15); every build step ends on
-  its stop line and needs only a **Yes** (the owner, 2026-11-14: "all that the student has to say is 'Yes'" — still
-  true of everything about the machine); the consent card's Yes (Step 5) is also the consent every scheduled
-  workflow needs; the one fact question is the posting tool, Metricool or GoHighLevel (Step 5's last item). A
-  refreshed bio is shown and stands unless they change it. Nothing else is asked in this journey.
+- **What the member says in this sitting: two answers, one pick, a Yes at each step, and one fact.** The two
+  blanket questions (what they do off the clock · the day and place they film); the opening of their first Reel (a
+  pick from three, or their own words); every build step ends on its stop line and needs only a **Yes** (the
+  owner, 2026-11-14: "all that the student has to say is 'Yes'"); the consent card's Yes (Step 5) is also the
+  consent every scheduled workflow needs; the one fact is the posting tool, Metricool or GoHighLevel (Step 5's last
+  item). A refreshed bio is shown and stands unless they change it. Nothing else is asked in this journey.
 - **The CTA law and the scalable offer bind every line.** Every call ask is the person · their help · free · to run
   the method (join register: *"If you want my help running this — the lessons, the templates, the community —
   partner with me and it's free."*; open register, `Join-gated package allowed: no`: *"I'll walk you through it,
@@ -169,8 +165,8 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   marked as the closing push; the sync returns the two links; the close says "here they are" with both, shows the
   Board file when it can, and never claims an update that did not happen.
 - **Ask once, default if unsure** (`ask-once-default.md`, read by reference): propose from the Brain and state it;
-  a genuine question — an interview question, or a fact the Brain cannot hold — is a handoff, "your turn"; an
-  interview question answered with "skip" is filled from the Brain and said so.
+  a genuine question — one of the two blanket questions, or a fact the Brain cannot hold — is a handoff, "your
+  turn"; one answered with "skip" is filled from the Brain and said so.
 
 ---
 
@@ -184,15 +180,13 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
    - **missing / `not started`** → the full journey (Steps 1–6).
    - **`profiles pending compliance`** → a refreshed bio was held because compliance was `unset`: read it again
      now; `set` or `confirmed` → write the held bio back (Step 2.5); still `unset` → one plain line. Either way the
-     journey then resumes exactly as `profiles done` does (the next line) — the interview is never skipped.
-   - **`profiles done`** → Step 3, wherever the interview stopped. Read `identity/content-pillars.md → ## In your
-     words`: **no entries** → *"Welcome back — your profiles and your two words are confirmed. Next is the part only
-     you can do: a few questions, and your answers become your content. **Question 1 of [N]:** [Question 1, with
-     its seed]. **Your turn.**"* · **some entries** → *"Welcome back — we're on **Question [q] of [N]:** [that
-     question, with its seed]. **Your turn.**"* — [q] is the first question with NO entry (a skipped question has an
-     entry and is never asked again); [N] is 3 when `operations.md → Filming window:` is filled, else 4; the line
-     never counts "answers", so a skip is never called an answer · **every question has an entry** → the
-     proposal (Step 3a's last reply).
+     journey then resumes exactly as `profiles done` does (the next line) — the two questions are never skipped.
+   - **`profiles done`** → Step 3, wherever the two questions stopped. Read `identity/content-pillars.md → ## In your
+     words`: **no entries** → *"Welcome back — your profiles and your two words are confirmed. Two quick
+     questions, the same two every member gets, then I show you your plan. **Question 1 of 2:** [Question 1, as
+     printed]. **Your turn.**"* · **one entry** → *"Welcome back — we're on **Question 2 of 2:** [Question 2, as
+     printed]. **Your turn.**"* (a skipped question has an entry and is never asked again) · **both have an
+     entry** → the proposal (Step 3a's last reply).
    - **`game plan done`** → *"Welcome back — your Game Plan is saved. Say **Yes** and I'll put your next thirty
      days on your content board. **Your turn.**"* → wait; on the Yes, Step 4.
    - **`board done`** → read `publishing.md → Content board:` first. A link → *"Welcome back — your board is mapped.
@@ -238,13 +232,13 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
    the `Email me:` line at Step 5 and the email sentence on the consent card.
 
 ## Step 1 — Welcome (name the five steps, play the member back, then WAIT)
-> "Let's switch on your short-form engine — and we build it together. It works like an interview: I ask you a
-> few questions, you answer in your own words, and after each answer I show you what I built from it. [You already
-> hold more than you think — your offer, your guide, your six designed posts and your bios — and] I know you from
-> your Brain, so I won't ask you any of that again. Five steps, one at a time, and I wait for you after each:
-> your profiles and the two words your Reels will use; your Short-Form Game Plan — that's where your answers go;
-> your content board with your next thirty days on it; the workflows that draft your week and the tool that
-> schedules your posts; and your first Reel — you'll pick how it opens."
+> "Let's switch on your short-form engine — and we build it together. Here's how it works: at each step I show
+> you what I built from what you've already told me, and you tell me if it's right — or what to change. [You
+> already hold more than you think — your offer, your guide, your six designed posts and your bios — and] I know
+> you from your Brain, so I won't ask you any of that again; there are just two new questions, the same two every
+> member gets. Five steps, one at a time, and I wait for you after each: your profiles and the two words your
+> Reels will use; your Short-Form Game Plan; your content board with your next thirty days on it; the workflows
+> that draft your week and the tool that schedules your posts; and your first Reel — you'll pick how it opens."
 
 **The bracketed clause names only what is really on file — never an asset the member lacks** (the files below are
 opened BEFORE the welcome is written; the welcome and the play-back are one reply): *your offer* — `identity/offer.md`
@@ -351,97 +345,93 @@ heading and earlier update line byte-for-byte; never rename, reorder or drop a h
 Brain. What the step found is said ONCE, in the Step-1-of-5 line below — never a separate "your profiles stand"
 sentence above it.
 
-**The reply ends on Question 1 of the interview — the question is the stop; nothing of Step 3 is built:**
+**The reply ends on Question 1 — the question is the stop; nothing of Step 3 is built:**
 > "✓ **Step 1 of 5 — done.** [Your profiles stand | Your [platform] bio is refreshed and saved | Your bios come
 > with your lead magnet sitting], [your two words are set | your word GUIDE is set — your second word arrives with
 > your partner offer], and your platforms are set.
-> Now the part only you can do. I have four questions, and your answers become your content — your five pillars
-> (the five kinds of post you'll make) and the opening lines of your first Reels. Type it, or tap the microphone
-> and just talk; a sentence or two is plenty.
-> **Question 1 of 4:** You attract [the primary type] — agents who [their pain, in their words]. When one of them
-> gets you on the phone, what's the first thing they ask you? Say it the way they say it. **Your turn.**"
+> Next, your Game Plan. Most of it comes from what you've already told me, so I have just two questions — the
+> same two every member gets. Type your answer, or tap the microphone and just talk; a sentence is plenty. (If
+> you have to stop, say "continue my short-form setup" any time and we pick up right here.)
+> **Question 1 of 2:** What do you do off the clock that the people around you know you for? Only what you're
+> happy to have on camera. **Your turn.**"
 (The Step-1-of-5 line is built from what this step actually found — one choice from each bracket, never a claim
-the step just contradicted. Question 1's seed and wording are row 1 of Step 3a's table; "of 4" reads "of 3" when
-the filming day is already on file.) A change to this step instead of an answer (*"add LinkedIn"*, *"that bio isn't right"*, *"my link is
-different"*) → make it inside this step's own rules (two keywords only; a bio change is a refresh, inside its
-limit, through the gate), show only what changed, save, push, and ask Question 1 again.
+the step just contradicted. **The question is said exactly as printed, to every member** — nothing from their
+Brain is built into it.) A change to this step instead of an answer (*"add LinkedIn"*, *"that bio isn't right"*,
+*"my link is different"*) → make it inside this step's own rules (two keywords only; a bio change is a refresh,
+inside its limit, through the gate), show only what changed, save, push, and ask Question 1 again.
 
-## Step 3 — Now your Short-Form Game Plan (same session — the interview first, then your direction, then the build)
-**3a — THE INTERVIEW: four questions, ONE per reply.** Nothing is proposed and nothing is built until the member
-has been asked (the rule above). Step 2's reply asked Question 1. Every reply in this part does three things and
-stops:
-1. **Hears the answer back** — it opens with the member's own words, quoted short and exact, and what they just
-   became: *"✓ "How do you get buyers without paying for leads?" — that's your first Reel, in the words agents
-   actually use."*
+## Step 3 — Now your Short-Form Game Plan (same session — two questions, then your direction, then the build)
+**3a — THE TWO BLANKET QUESTIONS, one per reply (the rule above: the same two for every member, word for word).**
+Step 2's reply asked Question 1. The reply to its answer does three things and stops:
+1. **Hears the answer back** — the member's own words, quoted short and exact, and what they became: *"✓ "I coach
+   my granddaughter's softball team" — that's the person agents will get to know. It's your Personality pillar."*
 2. **Saves it** — verbatim and dated, under `## In your words` in `identity/content-pillars.md` (the shape below;
    the section sits after the five pillar sections, or at the end of the file while those are not written yet — no
    other line of the file is touched), pushed at once.
-3. **Asks the next question** — numbered, the Brain's seed played back first. No pillar list, no plan and no second
-   question in the same reply; about sixty words.
+3. **Asks Question 2** — exactly as printed. No pillar list, no plan; about forty words.
 
-| # | The question — said as printed, after its seed | The seed (what the Brain already holds — played back, never asked) | What the answer becomes |
-|---|---|---|---|
-| 1 | **The question agents ask you.** *"When one of them gets you on the phone, what's the first thing they ask you? Say it the way they say it."* | `identity/avatars.md` — the primary type and the pain in their words: *"You attract [type] — agents who [the pain]."* (`memory/objections.md` is read too: an answer already on file there is welcomed, never corrected — it is theirs) | the working title and the hook of **their first Reel** · angle one under **Perspective** |
-| 2 | **The one step — how you'd say it.** `Teach first:` is on file (the normal case) → *"How would you say that to an agent across the table? A sentence or two."* Not on file → *"Which ONE of those would you tell an agent to start with this week — and what would you say to them about it? A sentence or two."* | `identity/offer.md` — the framework's step names and the `Teach first:` line (what they said in Week 1 they would show a brand-new agent first): *"Your method has [n] steps, and you'd start an agent with [teach first]."* The step they would start with is on file, so it is played back and never asked again — only the spoken sentence is new. No `Teach first:` → *"Your method has [n] steps: [the names]."* No framework either → the known-for from `identity/strategy.md`: *"You're known for [known-for]."* and the question reads *"What's the first step of it you'd tell an agent to start with this week — and what would you say to them about it?"* | their first **Authority** Reel — one step, taught in their words (a pick with no sentence is still an answer: the step is theirs, and the script's own question asks for the sentence later) |
-| 3 | **Off the clock.** *"Agents join a person, not a logo. What do you do off the clock that the people around you know you for? Only what you're happy to have on camera."* | `identity/profile.md` — the "before real estate" line when it holds one: *"I know you [did X] before real estate."* | angle one under **Personality** · their first Personality Reel |
-| 4 | **Your week.** *"Which day could you film every single week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?"* | `identity/goals.md` — the hours a week committed in Week 1: *"You gave this [n] hours a week."* **When `identity/operations.md` or `identity/goals.md` already names a weekly block for content** (a routine line such as "the Sunday block, 6:00–7:30 pm") **the seed plays THAT back and the question becomes a confirmation:** *"You set aside [Sunday evenings] for content. Is that when you'd film every week — and where?"* — a "yes" is a full answer. **`identity/operations.md → Filming window:` already filled → this question is not asked**: the interview is three questions (say "of 3" from the start) and the proposal plays the day back | the filming day, and the place on every Reel's shot line |
+| # | The question — said exactly as printed, to every member | What the answer becomes |
+|---|---|---|
+| 1 | *"What do you do off the clock that the people around you know you for? Only what you're happy to have on camera."* | the **Personality** pillar — the Reels where agents meet the person, not the pitch |
+| 2 | *"Which day could you film every week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?"* | the filming day on the plan, and the place on every Reel's shot line |
 
-**The rules of the asking** are the rule block's (about the member, never the machine · never a re-ask · one a
-reply · heard back · their words stay theirs · "skip" always works · saved at once). Three things only this step
-knows: **a long answer** (a whole story) is saved whole and one line of it is quoted back · **an answer that
-changes an earlier one** replaces it, said in one line · **a question from the member instead of an answer** gets
-one plain answer and the same question again.
+**Why these two and no others.** Neither assumes the member has ever attracted an agent; both are things their
+Brain does not hold (Week 1 asked for their hours, not their day; it asked what they did before real estate, not
+what they do now); and the plan cannot be right without them. **Everything else the plan needs is already in the
+Brain** — who they attract and what those agents struggle with, their method and the first thing they would
+teach, their story, their wins — and is read back in the proposal below, never asked again. A long answer is
+saved whole and one line of it is quoted back; an answer that changes an earlier one replaces it; a question from
+the member gets one plain answer and the same question again.
 
 **`## In your words` — the shape** (in `identity/content-pillars.md`; the member reads it on their Brain Board):
 ```
 ## In your words
 *What you told me — your own words. They lead your hooks and your scripts.*
-- **The question agents ask you** (YYYY-MM-DD): "[verbatim]" → [the Reel it became — its working title]
-- **The one step** (YYYY-MM-DD): "[verbatim]" → [the Reel]
-- **Off the clock** (YYYY-MM-DD): "[verbatim]" → [the Reel]
+- **Off the clock** (YYYY-MM-DD): "[verbatim]"
 - **Your week** (YYYY-MM-DD): "[verbatim]" → filming [day], [place]
 ```
-A skipped one reads `skipped — built from your Brain`; a name or a figure kept out of public posts is noted after
-the quote as `(kept private: [what])`. The `→` part is filled when the plan is built (3b). Later answers — the
-opening the member chose for their first Reel, a line they gave before a script — are appended below in the same
-shape by the skill that asked.
+A skipped one reads `skipped — built from your Brain` (it is nobody's words: never quoted, never marked "your
+words"); a name or a figure kept out of public posts is noted after the quote as `(kept private: [what])`. Later
+entries — the opening the member wrote for their first Reel, a line they give when they ask for a script to be
+rewritten in their words — are appended below in the same shape by the skill that took them.
 
-**The proposal — the reply after the last answer: their direction, built from what they said; then WAIT.** Run
+**The proposal — the reply after Question 2: their direction, read back from their own Brain; then WAIT.** Run
 **`${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/SKILL.md`** now, inside this session, **up to the end of its Phase 3
-only** — it reads `## In your words` FIRST (each answer is angle one of its pillar; the filming day is the
-member's), then the kit (chapter 7's six posts and the CALLS TO ACTION table; `offer.md → ## Content branches` and
-`## The framework`), the two keywords, the platforms and the profiles just confirmed, and never re-asks any of it.
-It saves the pillars and the week to the Brain as it does today, and the reply shows them short — the member's
-own words visible in it:
+only** — it reads `## In your words` (the off-the-clock answer is angle one of Personality; the filming day is the
+member's), the kit (chapter 7's six posts and the CALLS TO ACTION table; `offer.md → ## Content branches` and
+`## The framework`), the two keywords, the platforms and the profiles just confirmed, and never re-asks any of
+it. It saves the pillars and the week to the Brain as it does today, and the reply shows them short — each pillar
+with where in the member's own Brain it came from, in plain words:
 > "✓ [Day]s, in your [place] — that's your filming day.
-> Here's what your answers built. **Your five pillars:**
-> • **Authority** — [one line] · *your words: "[the one step, six words or so]"*
-> • **Perspective** — [one line] · *your words: "[the question]"*
+> Here's your direction — built from what you've told me. **Your five pillars** (the five kinds of post you'll
+> make):
+> • **Authority** — [one line] · *from your method: "[the first thing they said they would teach, six words or so]"*
+> • **Perspective** — [one line] · *from what you said agents get wrong*
 > • **Story** — [one line] · *from the story you told in Week 1*
-> • **Proof** — [one line] · *from your wins*
-> • **Personality** — [one line] · *your words: "[off the clock]"*
+> • **Proof** — [one line] · *from your wins* [no agent wins on file yet → *your own results for now — agent wins join as they come*]
+> • **Personality** — [one line] · *your words today: "[off the clock]"*
 > **Your week:** [three] posts a week — [your first [two] weeks are the six posts you already have designed; then]
 > three kinds of Reel in turn: one that teaches (Authority or Perspective), one story, and one that shows who you
 > are (Proof or Personality) — stories every day; filming on [day]s."
-(The first line hears the LAST answer back, whichever question it was. A skipped answer's pillar reads *from your
-Brain*. Nothing here is a number that was not counted. **The clause about the six designed posts is said only when
-the kit's six posts are on file** — no kit → it is left out and the calendar starts with the Reels. **"[two]
-weeks"** is how long the six posts last at the member's number: two weeks at three a week, three at two a week,
-six at one a week — `sf-gameplan` Phase 3 works it out; never the fixed word "two".) **The reply ends on the stop line — the plan document is
-NOT built yet:**
+(The first line hears the filming-day answer back. Each "from…" label names a part of their Brain in plain words —
+never a file name — and quotes their own short phrase when the Brain holds one; a part the Brain holds thinly reads
+*a first draft — tell me what to change*; a skipped off-the-clock answer reads *from your Brain*. Nothing here is a
+number that was not counted. **The clause about the six designed posts is said only when the kit's six posts are
+on file** — no kit → it is left out and the calendar starts with the Reels. **"[two] weeks"** is how long the six
+posts last at the member's number: two weeks at three a week, three at two a week, six at one a week —
+`sf-gameplan` Phase 3 works it out; never the fixed word "two".) **The reply ends on the stop line — the plan
+document is NOT built yet:**
 > "**Does that sound like you?** Say **Yes** and I'll build your thirty-day plan on it — or tell me what to
-> change: a pillar, how many posts a week, your filming day, or an answer you'd give differently. **Your turn.**"
+> change: a pillar, how many posts a week, or your filming day. **Your turn.**"
 A change → `sf-gameplan` applies it by its own rules (still five pillars from the OS's five; the cadence the
 member names — ANY number: Phase 3's "any other number" rule gives the mix and how long the designed posts last;
-the filming day they name; a new answer replaces the old one in `## In your words`), shows only what changed —
-the whole "Your week" line again when the number changed — saves, and stops again with the same line.
+the filming day they name), shows only what changed — the whole "Your week" line again when the number changed —
+saves, and stops again with the same line.
 
 **3b — on the Yes: the plan is built, handed over, then WAIT.**
 **Opens with the win line for the member's direction** — in their own choices: *"✓ That's your direction: five
-pillars — your own words in [three] of them — [three] posts a week, filming on [their day]."* (the first number is
-the PILLARS whose first angle carries `your words` — Questions 1 to 3 only, never the filming-day answer, never
-more than three, and the same count the close uses; none → the clause is left out. The second is the number the
-member chose. A change they made is named: *"…filming on Thursdays — your change."*) Then:
+pillars, [three] posts a week, filming on [their day]."* (the number is the one the member chose; a change they
+made is named: *"…filming on Thursdays — your change."*) Then:
 > "Building your Game Plan now: who you're talking to, your pillars with real angles, thirty hooks, the two words
 > that turn a comment into a conversation, and your next thirty days with a date on every post[ — starting with
 > the six posts you already have designed, so your first [two] weeks are post, don't make]."
@@ -449,9 +439,8 @@ member chose. A change they made is named: *"…filming on Thursdays — your ch
 
 `sf-gameplan` runs its remaining phases; ManyChat is told, never asked; it
 writes `identity/content-pillars.md`, the strategy lines of `publishing.md` and `memory/content-calendar.md` (the six
-kit posts as rows 1–6 at `Ready to Post`, then the Reels — **the Reels built on the member's answers come first
-among them, the one built on Question 1 first of all, each carrying `your words YYYY-MM-DD`**; the `→` part of each
-`## In your words` entry is filled with its Reel's working title), saves `[Name]'s Short-Form Game Plan — YYYY-MM-DD` to
+kit posts as rows 1–6 at `Ready to Post`, then the Reels — the Personality Reel built on the member's off-the-clock answer carries `your words
+YYYY-MM-DD`), saves `[Name]'s Short-Form Game Plan — YYYY-MM-DD` to
 `03 · Content/Short-Form/`, keeps the text at `exports/short-form-game-plan-YYYY-MM-DD.txt` (the Brain Board reads
 it), and sets `Short-form setup: game plan done`.
 
@@ -460,13 +449,11 @@ session: it writes `YYYY-MM-DD · ManyChat Build Sheet` beside the Game Plan's m
 `exports/manychat-build-sheet-YYYY-MM-DD.txt`) and sets `publishing.md → ManyChat: not yet — set it up this week
 (build sheet YYYY-MM-DD)`, pushed. Compliance `unset` → the sheet's messages are public, so the sheet waits for the
 gate — the Game Plan still stands; say so in the line below. When it hands back, the hand-over lines — never "come back later", never a pasting session in between:
-> *"Your Game Plan is in your workspace under Content → Short-Form: [the link]. [k] of your Reels are built on what
-> you told me today — they're marked "your words"[, and the first one is the question agents ask you]. ManyChat is how your two keywords
+> *"Your Game Plan is in your workspace under Content → Short-Form: [the link]. It's built from what you told me in Week 1 and today. ManyChat is how your two keywords
 > answer themselves — set it up this week from your build sheet, saved right beside the plan (say 'my ManyChat build
 > sheet' any time and I'll print it). You don't connect ManyChat to Claude. Until it's live, reply by hand — the ready-made replies are in your Game Plan, in the part about
 > your two words."*
-([k] is counted from the calendar's rows that carry `your words`; every answer skipped → that sentence is left
-out, never a zero. The bracketed clause is said only when Question 1 was answered, not skipped.)
+
 
 **The reply ends here, on the stop line — nothing of Step 4 is started:**
 > "**Your part:** open your Game Plan and read the first page — it starts with what goes out first. Say **Yes** and I'll put your
@@ -476,8 +463,7 @@ only), one line of what changed, and the same stop line again.
 
 ## Step 4 — Now your content board and your next 30 days
 **Opens with the win line for Step 2 of 5:** *"✓ Step 2 of 5 — done. You have a thirty-day plan: [n] posts[, six of
-them already designed][, [k] built on your own words]. That plan is yours — built on your answers and the week you
-chose."* ([n] is the count on the calendar, never a round guess; "six of them already designed" only with the
+them already designed]. That plan is yours — built from what you told me and the week you chose."* ([n] is the count on the calendar, never a round guess; "six of them already designed" only with the
 kit's posts on file.) Then:
 > "Okay, cool — now your content board: I'll put your next thirty days on a board in your own Notion — the tabs at
 > the top are Graphics[, your six designed posts]; Reels; and a Calendar, where this week lives — one card per post
@@ -631,20 +617,18 @@ own settings):
 
 **The step ends on the stop line — the first Reel is NOT scripted yet, and the member chooses how it opens** (said
 once the posting tool is connected, or its one fallback line has been said). Write the three openings for the
-calendar's first Reel now — the Reel built on the question the member gave at Question 1 (that answer skipped → the
-first talking-head row) — reading `## In your words` first so the openings sound like what they said, by
+calendar's first Reel now — the first talking-head row — by
 `sf-talkinghead`'s own hook rules (Phase 2 — THE HOOK, 3 ways: three different styles,
 each sayable in one breath, in the member's spoken voice from `identity/voice-print.md` and `voice.md`) — the three
 lines only, nothing else of the script:
-> "Last step, and it's the fun one: your first Reel — '[its title]', the question you told me agents ask you. **One
-> more for you:** how would you open it? Which of these sounds most like you?
+> "Last step, and it's the fun one: your first Reel — '[its title]'. **One pick for you:** how would you open it?
+> Which of these sounds most like you?
 > **1.** "[opening one]"
 > **2.** "[opening two]"
 > **3.** "[opening three]"
 > Say **1**, **2** or **3** — or tell me how you'd say it yourself, or name a different Reel from your plan. **Your
 > turn.**"
-(Question 1 was skipped → the clause *", the question you told me agents ask you"* is left out — never credit
-the member with words they did not give.) **Their own wording** → that IS the opening, tidied only for one breath and
+**Their own wording** → that IS the opening, tidied only for one breath and
 read back to them; it is appended to `## In your words` (`- **Your first Reel's opening** (YYYY-MM-DD): "[the
 opening]" → [the title]`) and listed first in the script with the first two offered openings under it. **A number
 or a plain "Yes"** → the opening they picked (a Yes = the first), appended the same way with `(your pick)` after
@@ -675,13 +659,14 @@ what happened in this sitting (a step that did not happen is left out; a change 
 short lines:
 > **✓ Step 5 of 5 — done. Here's what you did today:**
 > • You confirmed [your profiles and your two words | your two words — your bios come with your lead magnet sitting | your word GUIDE].
-> • You answered [four] questions — and your own words now lead [three] of your five pillars and [k] of your first Reels.
+> • You told me what you do off the clock and when you film — the two things only you could.
 > • You set your week: [the number they chose] posts a week, filming on [their day].
 > • You approved your thirty-day plan and put it on your board.
 > • You switched on the four workflows that draft your week[ and connected [Metricool / GoHighLevel]].
 > • You [wrote | chose] the opening of your first Reel — and its script is ready to film.
-(Line 1 is built from what Step 2 found — the same brackets as the Step-1-of-5 line. Every number is counted — the questions answered, not skipped; the pillars and the Reels that carry `your words`.
-Everything skipped → the second line reads *"You set your direction — five pillars, built from your Brain."*)
+(Line 1 is built from what Step 2 found — the same brackets as the Step-1-of-5 line. Line 2 names only what they
+answered: one skipped → *"You told me [what you do off the clock | when you film]"*; both skipped → the line is
+left out.)
 Then the Board and the Book, in this shape:
 > *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book link]. Download the Board and open the file — it opens in your browser: your Short-Form dot is green, and its page shows your two keywords, this week's posts and
 > your workflows."*
@@ -743,14 +728,14 @@ profiles" in chat. A whole-stack rewrite (a new offer, a new brokerage) is the L
 ## Completion checklist
 - [ ] Brain located (pulled first if empty); the reflection files and the kit text at Step 1, the rest at the step that used them; reflected back — **nothing re-asked**
 - [ ] Second call routed: resume the unfinished step or one named part — **the journey never re-ran**
-- [ ] **IT WAS AN INTERVIEW** — the member was asked the four questions (three when the filming day was on file), ONE per reply, each numbered, each after its seed from the Brain; nothing the Brain holds was re-asked and nothing about the machine was asked; every answer was heard back in the member's own words, saved verbatim under `## In your words` and pushed at once; "skip" was taken the first time; the proposal showed their words inside their pillars; the Reels built on their answers lead the calendar and carry `your words`; the first Reel is the question they gave; the close counted their answers truthfully
-- [ ] **THE MEMBER FELT THE WIN WAS THEIRS** — every reply after the first opened with a win line that named what the member decided or did ("✓ Step n of 5 — done. You…"), true and in their own choices; every reply named ONE thing that was theirs (an interview question, a choice about their content or a two-minute action in their own account — never an admin question); the member chose the opening of their first Reel; the close listed WHAT YOU DID TODAY in "You…" lines and named the first win of the week
-- [ ] **ONE STEP PER REPLY, AND EVERY STEP ENDED ON ITS STOP LINE** — after the welcome, each interview question (the profiles reply ends on Question 1), the pillars-and-week proposal, the built Game Plan, the board, the consent card and the posting tool; nothing of the next step was read, built, saved or said before the member answered; a change was made, shown and followed by the same stop line; silence or a question was never read as a Yes; "do it all" was honoured only when the member said it
+- [ ] **ONLY THE TWO BLANKET QUESTIONS WERE ASKED** — "what do you do off the clock…" and "which day could you film…", word for word as printed, ONE per reply, the same for every member; no question assumed the member has ever attracted an agent; nothing the Brain holds was asked again and nothing about the machine was asked; each answer was heard back in the member's own words, saved verbatim under `## In your words` and pushed at once; "skip" was taken the first time; the proposal read their direction back from their own Brain, each pillar with where it came from
+- [ ] **THE MEMBER FELT THE WIN WAS THEIRS** — every reply after the first opened with a win line that named what the member decided or did ("✓ Step n of 5 — done. You…"), true and in their own choices; every reply named ONE thing that was theirs (one of the two questions, a choice about their content or a two-minute action in their own account — never an admin question); the member chose the opening of their first Reel; the close listed WHAT YOU DID TODAY in "You…" lines and named the first win of the week
+- [ ] **ONE STEP PER REPLY, AND EVERY STEP ENDED ON ITS STOP LINE** — after the welcome, each of the two questions (the profiles reply ends on Question 1), the pillars-and-week proposal, the built Game Plan, the board, the consent card and the posting tool; nothing of the next step was read, built, saved or said before the member answered; a change was made, shown and followed by the same stop line; silence or a question was never read as a Yes; "do it all" was honoured only when the member said it
 - [ ] Each step announced in one breath before it started; **told, not asked** — no menu, no "all, some or not yet", no "want me to", no platform or ManyChat question; about the machine the only word the member had to say was Yes; the ONE fact question is the posting tool; Week 4 in every line, never "Week 3" for short-form work, never a skill id or a path in a line the member reads
 - [ ] Profiles **confirmed, not rewritten**: the identity line and the one link shown; the change test run per bio; a refresh only where the offer, the proof or the funnel URL changed — shown as a copy block, written back inside its heading with the update line (stated, no Yes); no bio written from scratch; `## YouTube` untouched; no pack document saved
 - [ ] **Two keywords exactly** — GUIDE and the offer's `Comment keyword:` — shown in one line; no third word proposed; `publishing.md` created in the full shape, `Keyword:` carrying both words, `What it opens:` for each
 - [ ] **Platforms stated, never asked**: Instagram and Facebook both; TikTok and Shorts as optional reposts; LinkedIn only when the avatars hold team leaders or broker-owners; the one link in bio; `Platforms (priority order):` written in the locked value; compliance three-state applied only to a refreshed bio; `unset` held it, set `profiles pending compliance`, and continued to the Game Plan
-- [ ] The pillars and the week PROPOSED from the member's answers and the Game Plan built only on the member's Yes, in the same session, by `sf-gameplan` — the kit read first, the six kit posts as rows 1–6 at `Ready to Post`, then the Reels; pillars, publishing lines, the calendar written; the doc saved; the text in `exports/`; `game plan done`; **the ManyChat build sheet written and handed over in one line** (set it up this week; never connected to Claude; "my ManyChat build sheet" prints it)
+- [ ] The pillars and the week PROPOSED from the member's Brain (and their two answers) and the Game Plan built only on the member's Yes, in the same session, by `sf-gameplan` — the kit read first, the six kit posts as rows 1–6 at `Ready to Post`, then the Reels; pillars, publishing lines, the calendar written; the doc saved; the text in `exports/`; `game plan done`; **the ManyChat build sheet written and handed over in one line** (set it up this week; never connected to Claude; "my ManyChat build sheet" prints it)
 - [ ] The board mapped in Notion — the Graphics, Reels and Calendar tabs; the kit posts seeded first on Graphics at `Ready to Post`; the Brain Board named as the read-only map; or the Notion Connect card put in the chat (the click path as the fallback), never blocking, never asked; an older `declined` honored, never written; `board done`
 - [ ] ONE consent card in the owner's shape: the four with their days and times, "every one only drafts", the email sentence (or the no-mail line), **"Say Yes and I'll set them up"**; all four created on the Yes, adopted not twinned, verified, each from its owner's prompt file; the five extras stated in one sentence; `Email me:` set from the mail check, never asked; the `config.md` `## Short-Form (Week 4)` block with the nine task lines, the slot and time lines and `Email me:` in the locked order, the retired lines deleted — pushed; `workflows done`
 - [ ] Posting tool asked as the one straight question (Metricool or GoHighLevel — never optional, never a third option) and connected: the Connect card in the chat for Metricool (the click path only as the fallback, never a URL), the exact steps for GoHighLevel (token and location into the connector's own fields, never into chat); verified on "connected"; the `Posting tool:` line one of the four values, pushed; copy-paste said only as the fallback line

@@ -230,7 +230,7 @@ Attach the Design System and your Brain Book first. Always.
 
 ---
 
-## 6. Week 4: your short-form engine and your editor (one sitting in Cowork, about 35 minutes)
+## 6. Week 4: your short-form engine and your editor (one sitting in Cowork, about 30 minutes)
 
 Install **Plugin 4 · Short-Form** and **Plugin 5 · AI Editing Studio (Riverside)** from the marketplace when Week 4 opens.
 Then, in a new Cowork chat, type:
@@ -239,19 +239,17 @@ Then, in a new Cowork chat, type:
 set up my attraction short-form
 ```
 
-It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. **It works like an interview, and you build it together.** It asks you four short questions that only you can answer; after each answer it reads your own words back and shows you what it made from them. **It goes one step at a time and waits for you after each one** — nothing is built while you are away. Answer in a sentence or two: type it, or tap the microphone and just talk. If a question stumps you, say "skip" and it builds that part from your Brain. About the machinery it asks only one thing: which tool schedules your posts. In order:
+It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. **You build it together, one step at a time: at each step it shows you what it built from what you have already told it, and you say Yes or tell it what to change.** Nothing is built while you are away. It asks you just two new questions — the same two every member gets, whether you have attracted fifty agents or none yet: what you do off the clock, and which day you can film. Answer in a sentence: type it, or tap the microphone and just talk; say "skip" if you would rather it chose. About the machinery it asks only one thing: which tool schedules your posts. In order:
 
 1. **Your profiles and your two keywords, confirmed.** Your bios were written in Week 2 (chapter 6 of your kit). It
    confirms the identity line and the one link, states your platforms (Instagram and Facebook, both, always; LinkedIn only if you attract team leaders), and confirms your two keywords:
    **GUIDE** (comment it and the DM sends your guide) and your own invitation word from your offer. Nothing else.
-2. **Your Short-Form Game Plan — built on your answers.** First the four questions, one at a time: the first thing
-   agents ask you when they get you on the phone; the one step of your method you would tell an agent to start with
-   this week; what you do off the clock; and the day and place you can film every week. Then it shows you your five
-   pillars with your own words inside them, and your week — three posts a week to start — and asks "Does that sound
-   like you?" Change anything; when you say Yes it builds the plan. Your 30-day calendar opens with the six posts
-   you designed in Week 3 ("post, don't make"), then your Reels — the first three are your own three answers,
-   marked "(your words)", and the very first is the question agents ask you. Every ask is one of your two keywords
-   or the call, in Mike's words: partner with me and get my help, free, to run this. It also hands you your ManyChat build sheet: ManyChat is how your two keywords answer themselves, you set it up in your own account this week, and it is never connected to Claude. The document lands in Content → Short-Form.
+2. **Your Short-Form Game Plan.** First the two questions, one at a time. Then it shows you your five pillars — the
+   five kinds of post you will make — each one built from what you told it in Weeks 1 and 2, with your week (three
+   posts a week to start, filming on your day), and asks "Does that sound like you?" Change anything: a pillar, how
+   many posts a week, your filming day. When you say Yes it builds the plan. Your 30-day calendar opens with the six
+   posts you designed in Week 3 ("post, don't make"), then your Reels. Every ask is one of your two keywords or the
+   call, in Mike's words: partner with me and get my help, free, to run this. It also hands you your ManyChat build sheet: ManyChat is how your two keywords answer themselves, you set it up in your own account this week, and it is never connected to Claude. The document lands in Content → Short-Form.
 3. **Your content board** in your own Notion: one dashboard, the thirty days as dated cards; its tabs are Graphics (your designed posts), Reels and Calendar — YouTube gets its own tab in Week 5, so the two never mix — and every card opens to the same page (the hook, the script, the caption, the ask, filming notes, sources). Your designed posts sit at Ready to Post until they go out. If Notion is not connected yet, a Connect button appears right in the chat; click it, sign in, say "connected", and the board is built.
 4. **Your workflows, switched on for you.** It tells you what it is setting up — the Monday week plan (your week's
    posts drafted onto your board, plus any welcome or win post your Brain earned), batch prep (your film-day
@@ -263,7 +261,7 @@ It already knows you from your Brain, your offer, your guide and your Week 3 Kit
 5. **Your first Reel — you choose how it opens.** It shows you three ways to open it; pick one, or say it your own
    way, and it writes the script around your opening.
 
-It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. (Skipped a question? Say `update my pillars` any time and it asks it again. Want the whole sitting again from the top? Say `redo my short-form setup`.) Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
+It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. (Had to stop part-way? Say `continue my short-form setup`. Skipped a question? `update my pillars` asks it again. Want the whole sitting again from the top? `redo my short-form setup`.) Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
 
 **Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
 `register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a
@@ -278,7 +276,7 @@ paste it, with your location, into the connector settings yourself, never into c
 plus a build sheet for Claude Design) · `green screen on brokerage news` · `how's my content doing` · `plan my
 attraction week` · `my attraction workflows`.
 
-## 7. Week 5: your YouTube engine (one sitting in Cowork, about 40 minutes — the week's date is to be confirmed)
+## 7. Week 5: your YouTube engine (one sitting in Cowork, about 35 minutes — the week's date is to be confirmed)
 
 Install Plugin 6 (Check for updates first). Then one phrase opens the whole sitting:
 
@@ -287,11 +285,12 @@ set up my YouTube for agents
 ```
 
 It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. It
-asks for one fact — your channel link, or "starting fresh" — and then **it works like an interview, and you build
-it together**: four short questions only you can answer, each one read back to you in your own words and turned
-into something you can see. Five things, **one step at a time: it shows you each one and waits for your answer,
-your Yes, or your changes, before the next**. Type your answers or tap the microphone and just talk; say "skip" if
-a question stumps you.
+asks for one fact — your channel link, or "starting fresh" — and then **you build it together**: at each step it shows you
+what it built from what you have already told it, and you say Yes or tell it what to change. It asks just two new
+questions — the same two every member gets: which of your three topics you could talk about for twenty minutes,
+and which day you can film a full video. Five things, **one step at a time: it shows you each one and waits for
+you before the next**. Type your answers or tap the microphone and just talk; say "skip" if you would rather it
+chose. (Had to stop part-way? Say `continue my YouTube setup`.)
 
 1. **Your channel, optimized for the agents you attract.** Your whole Channel Page Kit is saved as a document: your
    description, about section, links, keywords, playlists, upload defaults and the two lines you say in every video,
@@ -300,9 +299,9 @@ a question stumps you.
    time. Your banner is the one your brand kit made in Week 3 — it is already in your Brand folder.
    Your YouTube bio comes from chapter 6 of your kit; the links are your booking line first and your guide second; the
    spoken lines are your kit's calls to action, in Mike's shape (partner with me and get my help, free, to run this).
-2. **Your YouTube Game Plan — built on your answers.** First the four questions, one at a time: which of your three
-   topics you could talk about for twenty minutes with no notes; who you would love to sit down with on camera
-   first; which of your stories to tell at full length first; and the day you can film a full video. Then it shows you your first three videos — your own answers — and asks "Does that sound like you?" When
+2. **Your YouTube Game Plan.** First the two questions, one at a time. Then it shows you your first videos — one on
+   the topic you picked, a conversation with an agent you have helped (when your Brain holds one), and your own
+   story at full length — with your pace and your filming day, and asks "Does that sound like you?" When
    you say Yes it builds the plan: Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
    (3 niche · 1 model · 4 interviews), your lanes from the content branches of your offer, about fifty titles, your
    first 90 days. **One video a week to start**; two is the step-up your monthly channel review proposes after a month. The

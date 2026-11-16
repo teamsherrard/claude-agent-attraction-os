@@ -7,6 +7,7 @@
 - URL: [https://youtube.com/@handle — `to add` while the channel is not created yet]  ·  Handle: [@handle — `to add` until the member pastes it]  ·  Status: [active / empty / none → created YYYY-MM-DD]
 - Mode at setup: [new / existing]  ·  Live data: [not connected / active YYYY-MM-DD / declined YYYY-MM-DD]
 - Setup: [not started (a start-over only) / kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
+- Filming day: [the day the member films a full video — their answer to setup's second question; every date on the plan is counted from it; empty → `identity/operations.md → Filming window:` is used]
 - Board: [the content board's link — this line only when identity/publishing.md does not exist; otherwise the link lives on publishing.md → Content board:]
 
 ## Positioning (from the Brain — restated as the channel's one line)
@@ -39,8 +40,8 @@
 - Subscribers: [n]  ·  Videos: [n]  ·  Most-viewed: "[title]" (~[n])  ·  Cadence observed: [n/wk]
 
 ## In your words
-*What you told me — your own words. They open your videos.* (written by yt-setup's interview and by yt-script's one question; a rewrite of this file keeps the section exactly)
-- (empty until your YouTube sitting asks its four questions)
+*What you told me — your own words. They open your videos.* (written by yt-setup — its two blanket questions — and by yt-script when the member gives their own wording for a script; a rewrite of this file keeps the section exactly)
+- (empty until your YouTube sitting asks its two questions)
 
 ## Game Plan anchors (written by yt-gameplan only)
 - Plan date: [YYYY-MM-DD]  ·  Doc: [workspace link]  ·  Cadence: [1 or 2]/week · since YYYY-MM-DD  ·  Step-up: [the monthly review proposes two a week after a month at one / proposed YYYY-MM-DD / taken YYYY-MM-DD]  ·  Cycle position: [cycle 1, video 1 of 8]

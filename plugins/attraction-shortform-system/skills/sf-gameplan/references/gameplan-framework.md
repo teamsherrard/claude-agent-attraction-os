@@ -78,8 +78,8 @@ prospect see a leader worth joining from this post?) and the any-agent test; bro
 woven through the pillars, never the feed; compensation never appears (doctrine §6, §11); **the scalability test**
 (doctrine §10e) — no summary or angle promises the member's time per partner: no "stand next to me on a Saturday",
 no group-chat or one-to-one line, no "I answer my phone" — the deliverables named are the recorded lessons, the
-templates, the community, the weekly group call only when the member already runs one. The member's interview answers lead (`## In your words` — each is angle one of its pillar, marked `your words`). One stop, before the document: the five
-are PROPOSED from those answers in one short message and the reply stops there — the plan is built on the member's Yes (the owner, 2026-11-15); Personality is the interview's third question, and only when it was skipped and the Brain holds nothing is the pillar
+templates, the community, the weekly group call only when the member already runs one. The member's off-the-clock answer leads Personality (`## In your words` — angle one, marked `your words`); every other pillar comes from the Brain. One stop, before the document: the five
+are PROPOSED in one short message, each with where in the member's Brain it came from, and the reply stops there — the plan is built on the member's Yes (the owner, 2026-11-15); Personality is the first of setup's two blanket questions (the owner, 2026-11-16: the same two for every member, no others), and only when it was skipped and the Brain holds nothing is the pillar
 drafted and labeled, never asked a second time (on demand, one plain question at a time). Write
 `content-pillars.md` at once — the file shape is the contract's; the header lines are kept.
 

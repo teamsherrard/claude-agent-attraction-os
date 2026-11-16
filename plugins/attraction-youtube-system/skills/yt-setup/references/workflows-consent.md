@@ -34,12 +34,14 @@ set it for 7."*); nothing about the times is asked.
 ## The card (said once — its own message, at most 70 words before "Say Yes")
 **The card is its own short message** (the owner's review, 2026-11-14): nothing else is in that message — no
 announce line, no recap, no housekeeping; inside setup ONE line stands above it, the win line for the board step
-the member just finished (*"✓ Step 3 of 5 — done. Your next 30 days are on your board."*) — and nothing follows "Say
+the member just finished, by what is true (the board was built → *"✓ Step 3 of 5 — done. Your next 30 days are on
+your board."* · the board is waiting on Notion → *"✓ Your next 30 days are mapped in your plan — your board is
+built the moment you connect Notion."*) — and nothing follows "Say
 Yes and I'll set them up." Inside
 setup it is the last thing in the turn, sent once the board step's work has finished. Plain words only ("your month
 by topic" — never "month by lane", never "the hook", never "SEO"). This shape; the member's own times fill it:
 > "Here's what I'm switching on for you. **Your Monday Kickoff** — Mondays at 9:00 am: this week's video, drafted
-> on its card. **Your Monthly Channel Review** — the 1st at 8:00 am: your month by topic and the one move. Both only
+> [on its card | for you]. **Your Monthly Channel Review** — the 1st at 8:00 am: your month by topic and the one move. Both only
 > draft; nothing posts or publishes on its own. [the email sentence] Say **Yes** and I'll set them up."
 **The email sentence — one of four, by the facts above:**
 - mail connected, no Short-Form line → *"I'll email you a short note when each is ready."*
@@ -80,8 +82,11 @@ it, anywhere in the sitting, says that something runs on Mondays or on the 1st.
    address while the line says yes.
 4. Push via `attraction-brain-sync` (the push rebuilds the Brain Board) and confirm in one line (never on a demo
    Brain — no task was made): *"Set. Mondays your
-   week's video is drafted onto its card; the 1st, your channel review lands[; a short note comes to your inbox each
-   time]. Say 'stop my attraction kickoff' or 'stop my monthly YouTube review' any time."*
+   week's video is drafted [onto its card | for you] — and it keeps your board 30 days ahead; the 1st, your channel
+   review lands[; a short note comes to your inbox each time]. Say 'stop my attraction kickoff' or 'stop my monthly
+   YouTube review' any time."* ("on its card" / "onto its card" / the 30-days clause only when a board exists.
+   **Inside setup this line is said ONCE — as the win line that opens the close**, with its last sentence, never
+   here and there both.)
 A task that failed to save is named in one line and its line reads `later` — never a schedule that did not save;
 its phrase ("turn on my attraction Monday kickoff" · "turn on my monthly YouTube review") retries it.
 

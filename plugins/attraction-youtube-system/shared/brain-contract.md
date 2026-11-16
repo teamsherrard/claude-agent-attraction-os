@@ -257,8 +257,8 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   step-up is taken (eight or nine rows in 30 days). **The locked order at one a week, the same in every file:
   niche · interview · niche · model · interview · niche · interview · interview.** **The first-date rule** (the
   owner's review, 2026-11-14): video 1's Recording date is the member's next filming day at least three days after
-  the day the plan is built (`identity/operations.md → Filming window:` or the batch day; none on file → the
-  Saturday after next); its Publish date is two days later; every later row follows from it — no row is ever dated
+  the day the plan is built (`identity/operations.md → Filming window:` or the batch day; the day the member gave at setup, `channel.md → Filming day:`, comes first; none on
+  file → the Saturday after next); its Publish date is two days later; every later row follows from it — no row is ever dated
   the day of the sitting. Week 1 is the week of video 1's Recording date.
   **The creation shape — only when a Brain predates the file** (`yt-gameplan` writes it silently; the first part is
   the Short-Form System's, copied empty from the Brain's template and never filled here):
@@ -293,9 +293,9 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   `yt-setup`; the word `kit` in the stamp is internal — the member's document is "your Channel Page" · `Board:` —
   the content board's link, only when `identity/publishing.md` does not exist) · Positioning · Lanes
   and playlists · The CTA line (the kit's two lines, verbatim) · Upload defaults · Channel page · Baseline ·
-  **`## In your words`** (the owner, 2026-11-15 — the member's own answers to the Week 5 interview and to the one
-  question before a script written in chat, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
-  verbatim]" → [the video it became]`; `skipped — built from your Brain` when they passed; `(kept private: …)` for a
+  **`## In your words`** (the owner, 2026-11-15 and 2026-11-16 — the member's answers to the Week 5 sitting's two blanket
+  questions, and any wording they give for a script, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
+  verbatim]" → [the video it became]`; `skipped — built from your Brain` when they passed — nobody's words, never quoted, never marked "your words"; `(kept private: …)` for a
   name or a figure left out of public videos; appended by `yt-setup` and `yt-script`; `yt-gameplan` fills each entry's `→` part and, on a refresh, replaces a
   `skipped` entry with the answer it then asks for — nobody else writes the section; read by `yt-gameplan`,
   `yt-script`, `yt-make-video`, `yt-board` and the Monday Kickoff, which mark what they build on an entry "your
