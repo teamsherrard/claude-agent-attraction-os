@@ -95,7 +95,8 @@ for; `## Content branches`; the program name) · `exports/week3-kit-*.txt` (newe
 and the **CALLS TO ACTION** table, whose lines every ask takes verbatim; absent → the asks come from the keyword
 sheet or the offer on the same shapes, and one line says "rebuild my kit") · `exports/keyword-sheet-*.txt`
 (newest — the two words and their lines) · the newest `exports/week-plan-*.txt` (its date is "since the last run")
-· `identity/content-pillars.md` (the angles, the hooks bank) · `identity/compliance.md` (the first line, `Status:`).
+· `identity/content-pillars.md` (the angles, `## In your words` — the member's own answers lead a hook where one
+fits, marked "your words"; the hooks bank) · `identity/compliance.md` (the first line, `Status:`).
 Then, per post, only the files the draft needs: `identity/voice-print.md` · `voice.md` · `voice-samples.md` ·
 `avatars.md` · `story-bank.md` (the story the row carries; stamp Used-where) · `proof.md` (the `OK to use publicly?`
 column; `## Seeds`) · `memory/organization.md` (joins since the last run) · `memory/debriefs.md` (wins named since
@@ -204,7 +205,11 @@ moved, renamed, or deleted are their decisions.
    failed push: say it is NOT saved, keep the drafts visible, retry once, stop. The scheduled run then tells the
    member the owner's three ways (the note in Cowork · one email to their own address only when `Email me:` is `yes` ·
    the push) — the task prompt carries the steps verbatim; in chat, the close below is the note.
-7. **Close** (the scheduled run leaves this as its final message; in chat, say it): *"Your week is drafted — [N]
+7. **Close** (the scheduled run leaves this as its final message; in chat, say it). **It opens with the member's
+   win when there is one** (the owner, 2026-11-15 — the student has to feel the win was theirs; the task prompt
+   prints the counting rule): *"Last week you got all [m] out — a full week."* / *"Last week you got [n] of [m] out
+   — '[a title]' is live."* — counted from the calendar's `Published` rows of last week; no line when none went out
+   or it is the first week; never a guilt line, never a view count. Then: *"Your week is drafted — [N]
    posts on the board, [the kit posts] ready to post, your stories for the week, filming day [day]. Two of this
    week's Reels are clips from '[video title]' — film them straight from the script. Plus a welcome
    post for [First] — needs her OK (the graphic is a name-and-photo swap in Claude Design: say 'my welcome post for

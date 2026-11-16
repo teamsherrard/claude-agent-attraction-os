@@ -232,6 +232,10 @@ does the same every week). **Every card this skill creates is recorded** — the
 made in Step 6 for a video that had none: append one short block under `memory/content-calendar.md → ## Kickoff
 briefs (YouTube)`, `Board — YYYY-MM-DD · carded: [System IDs]`, in the same push — the record that lets a later run
 tell a card that was never made from one the member took off the board. Push via `attraction-brain-sync` and say the save happened, or that it did not.
+**Open the reply with the member's win — they did this** (the owner, 2026-11-15): *"✓ '[title]' is published —
+that's your [n]th video out. You scripted it, filmed it and put it live."* ([n] = the YouTube rows at `Published`
+in the content log, this one included — counted, never guessed; the first one: *"…that's your first video out."*)
+Never a view count, never a results or income claim.
 Remind them of the one paste: the pinned comment from the SEO package (the guide's funnel URL + "comment GUIDE").
 For an interview, move its `memory/interview-pipeline.md` row to Published and hand the guest their three
 distribution sentences (`yt-interview` Step 6).

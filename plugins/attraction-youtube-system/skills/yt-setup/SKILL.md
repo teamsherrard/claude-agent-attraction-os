@@ -106,8 +106,23 @@ ask about their niche, who they attract, their offer, their resource, or their v
     the step states what it built.
   - **"Do it all" / "don't stop" / "finish it without me"** — only when the member says so — → run the remaining
     steps without the stops, pausing only for the workflows card's Yes. Never offered.
-  - Each step still saves and stamps the moment it is built, so a member who leaves loses nothing and the next call
+    - Each step still saves and stamps the moment it is built, so a member who leaves loses nothing and the next call
     opens on that step's stop line.
+- **THE MEMBER'S PART AND THE WIN (the owner, 2026-11-15: "the student also needs to feel a WIN that they did
+  something to achieve the result" · "we need to make sure there is a proper customer journey").** The member is the
+  one who builds this channel; the system does the heavy lifting. Every step has four beats, in this order:
+  1. **The win line — it opens the reply** (every reply after the first): one plain, true sentence that says "you"
+     and names what the member just decided or did and what they now have, with the count — *"✓ Step 2 of 5 — done.
+     You set your three topics and your pace: one video a week, filming on Saturdays."* Never hype, never a number
+     that was not counted, never a views, results or income claim.
+  2. **What I prepared** — the step's work, shown short.
+  3. **Your part** — ONE real thing that is the member's to decide or do: a choice about their own channel (a
+     topic, their pace, their filming day, which video comes first) or a few minutes in their own account (paste
+     the three pieces, open the plan, play the video on their first card). Never an admin question, never a quiz.
+  4. **The stop line.**
+  The five steps the member counts: **1** your channel · **2** your Game Plan · **3** your board · **4** your
+  workflows · **5** your first video. The close opens with **WHAT YOU DID TODAY** — the member's decisions listed
+  back to them — and names **the first win they can have this week** (Step 9).
 - **Told, not asked**: every process step is a statement of what will be built — never "all, some, or not yet",
   never "want me to email you?", never a menu or a choice between defaults; extras are stated, never offered.
 - **Announce every step in one line before doing it** — *"Okay, cool, now I'm going to…"* — so the member
@@ -284,7 +299,9 @@ time ("my channel is …") and this skill writes it into the `## Channel` block,
 asks for it again.
 
 ## Step 4 — Optimize the channel: the Channel Page (nine pieces in the document, three to paste today in the chat)
-Announce it in one line: *"Okay, cool — now I'm optimizing your channel for the agents you attract: your Channel
+**The reply opens with the win line for what the member just gave:** a link → *"✓ Got it — [@handle]. That's the one
+thing only you could give me."* · starting fresh → *"✓ Starting fresh — a clean channel, built right from day
+one."* · the play-back confirmed → *"✓ That's you — confirmed."* Then announce it in one line: *"Okay, cool — now I'm optimizing your channel for the agents you attract: your Channel
 Page, built from the bio and the calls to action you already have."* (The bio or the kit's calls to action not on
 file → end the line at "your Channel Page" — never name a source that is missing.)
 
@@ -404,9 +421,10 @@ in one message is a wall). Sent after Step 5 has saved, in this order:
   page' and I'll take you through them one at a time."*
 These three are **the only copy blocks of the journey.** Never the other six as blocks here, never one piece at a
 time inside the journey, never "tell me when it's pasted" — pasting is the member's own time, never a gate.
-**The reply ends here, on the stop line — nothing of Step 6 is started:**
-> "Say **Yes** and I'll lay out what your YouTube Game Plan stands on — your three topics and your pace — or tell me
-> what you'd change on your Channel Page. **Your turn.**"
+**Your part, then the stop line — the reply ends here; nothing of Step 6 is started:**
+> "**Your part:** paste the three blocks above into YouTube Studio — about five minutes, and your channel says who
+> you help and how to reach you. Say **done** when they're in, or **Yes** to keep going and paste them later — or
+> tell me what you'd change on your Channel Page. **Your turn.**"
 A change (*"my description isn't right"*, *"that's not my booking link"*, a topic renamed) → fix that piece in the
 document and in `channel.md`, show the corrected copy block only, save, push, and the same stop line again.
 
@@ -450,21 +468,25 @@ document and in `channel.md`, show the corrected copy block only, save, push, an
    edit of that block, pushed.
 
 ## Step 6 — Your YouTube Game Plan (TWO replies: the member's direction first, then the build)
-**6a — what the plan stands on: proposed, then WAIT.** No research and no document yet. One short message from what
-the Brain and Step 4 already hold:
+**6a — what the plan stands on: proposed, then WAIT.** No research and no document yet. **The reply opens with the
+win line for Step 1 of 5:** "done" → *"✓ Step 1 of 5 — done. Your channel now tells agents who you help and where to
+book you — you just put that live."* · "Yes" → *"✓ Step 1 of 5 — done. Your Channel Page is saved and your three
+pieces are ready to paste."* Then one short message from what the Brain and Step 4 already hold:
 > "Okay, cool — now your YouTube Game Plan. Before I build it, here's what it stands on: **your three topics** —
 > [the three playlist names from Step 4]; **your pace** — one video a week to start (two is the step-up, later);
 > **your filming day** — [the day on file; none → "Saturdays, until you tell me another"]. Interviews with your own
 > agents and one video explaining your model are part of every plan."
 **The reply ends here, on the stop line:**
-> "Say **Yes** and I'll build your plan on these — a few minutes of research, then your document — or tell me what
-> to change: a topic, your pace, or your filming day. **Your turn.**"
+> "**Your part:** this is your call — your topics, your pace, your day. Say **Yes** and I'll build your plan on
+> these — a few minutes of research, then your document — or tell me what to change. **Your turn.**"
 A change → apply it (a topic renamed is rewritten in `channel.md → ## Lanes and playlists` and in the Channel Page
 document, said in one line; a pace of two a week is the member's to choose; a new filming day is written to
 `identity/operations.md → Filming window:` only when that line is empty — otherwise say the phrase that changes
 it), show only what changed, and the same stop line again.
 
-**6b — on the Yes: the research and the build, then WAIT.** Say the research line — a progress line, never a
+**6b — on the Yes: the research and the build, then WAIT.** **The reply opens with the win line for the member's
+decision** — *"✓ You set it: [their three topics], one video a week, filming on [their day]."* (a change they made
+is named: *"…two a week — your call."*) Then say the research line — a progress line, never a
 question: *"Building it now — about [N] searches, then your plan."*
 Run `${CLAUDE_PLUGIN_ROOT}/skills/yt-gameplan/SKILL.md` now **in its setup mode** (its "Run from setup" rule:
 the cadence is stated, not asked — one video a week for the first month, two a week named as the step-up the
@@ -483,14 +505,17 @@ list, no calendar, no goal numbers; the document holds them): *"Your Game Plan i
 [the link]. It opens with your next 7 days — your first video is '[title]', recording [the day, in words]."* Then
 stamp `Setup: plan done` in `channel.md`, push, verify.
 **The reply ends here, on the stop line — nothing of Step 7 is started:**
-> "Open your plan and have a look. Say **Yes** and I'll put your next 30 days on your content board — or tell me
-> what to change in the plan. **Your turn.**"
+> "**Your part:** open your plan — it starts with your next 7 days — and decide whether '[the first title]' is the
+> right video to start with. Say **Yes** and I'll put your next 30 days on your content board — or tell me what
+> to change: your first video, a title, a date. **Your turn.**"
 A change (a title swapped, the first video changed, a date moved) → `yt-gameplan` updates that one part (a new
 dated copy; un-started rows only), one line of what changed, and the same stop line again.
 
 ## Step 7 — Your videos on your board: the YouTube tab and the next 30 days (its own reply — three short lines, then the stop line)
-Read the board line first — `identity/publishing.md → Content board:`; that file absent (the member skipped Week
-4) → `identity/channel.md → Board:` — then announce in ONE line, by what is true (the owner's review, 2026-11-14):
+**The reply opens with the win line for Step 2 of 5:** *"✓ Step 2 of 5 — done. You have a ninety-day plan, and
+your first video is '[title]' — your choice."* Then read the board line — `identity/publishing.md → Content
+board:`; that file absent (the member skipped Week 4) → `identity/channel.md → Board:` — and announce in ONE line, by
+what is true (the owner's review, 2026-11-14):
 - **A board exists** (a link on file) → *"Okay, cool — now I'm adding a YouTube tab to your content board, with
   your next 30 days of videos on it."*
 - **No board yet** (no line, an empty line, a `not connected — …` note, or no `publishing.md` at all) and Notion is
@@ -531,7 +556,8 @@ their Brain Board is the read-only map of the same month, re-rendered on every p
 Then stamp `Setup: board done` (the step is done either way — the board is built, or its Connect card is in the
 chat), push, verify.
 **The reply ends here, on the stop line — the workflows card is NOT said yet:**
-> "Open your board and have a look. Say **Yes** and I'll show you the two workflows that keep it moving — or tell me
+> "**Your part:** open your board and click your first video's card — there's one real video on it to watch
+> before you plan yours. Say **Yes** and I'll show you the two workflows that keep your board moving — or tell me
 > what to change. **Your turn.**"
 (No board yet — the Connect card is in the chat — → *"Your board is waiting on Notion. Say **Yes** and we go on to
 your workflows — or say 'connected' once Notion is connected and I'll build it first. **Your turn.**"*) A change (a
@@ -543,8 +569,9 @@ line again.
 older `(Week 3)` heading is the same block, read as such and never renamed here). Check once whether the member's
 mail is connected (Gmail or Outlook tools present). Read
 `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md` now and run it exactly.
-**The card is its own short message — the whole reply, sent after the member's Yes at the board step's stop.
-Nothing else is in that message:** no "now I'm going to…" line above it (the card announces itself), no recap, no
+**The card is its own short message — the whole reply, sent after the member's Yes at the board step's stop. ONE
+line stands above it, the win line for Step 3 of 5** (*"✓ Step 3 of 5 — done. Your next 30 days are on your board —
+[n] videos, each with a real video to watch first."*) **— and nothing else is in that message:** no "now I'm going to…" line above it (the card announces itself), no recap, no
 housekeeping, nothing after "Say Yes" — and it is **at most 70 words before "Say Yes"**. Said once, in the
 reference's words:
 > "Here's what I'm switching on for you. **Your Monday Kickoff** — Mondays at 9:00 am: this week's video, drafted
@@ -571,7 +598,12 @@ channel trailer (week one's first row — a row and a card like any other; 60 to
 channel it is the first niche video. Its dates are the plan's own — recording on the member's next filming day at
 least three days after this sitting, out two days later; never today.
 
-**1 · The first-video line** (right after the reference's confirming line, when the Yes came) — it says how week
+**0 · The win line for Step 4 of 5 opens the close** — the reference's confirming line, said as the member's own
+doing: *"✓ Step 4 of 5 — done. You switched on your Monday Kickoff and your Monthly Channel Review — Mondays your
+week's video is drafted onto its card; the 1st, your channel review lands[; a short note comes to your inbox each
+time]."* (No Yes was given, or a demo Brain → the reference's line for that case, and no "you switched on".)
+
+**1 · The first-video line** (right after it, when the Yes came) — it says how week
 1's video gets made and when the Monday Kickoff starts:
 > "Your first video is **'[title]'** — you record it [the day, in words — "Sat, Nov 28"] and it goes out [the
 > day]. This first one starts with you: open a fresh chat, name it after the video, and say **'make my attraction
@@ -591,6 +623,16 @@ never when the card got no Yes** (then the sentence is left out; the "turn on" l
 and say the fresh-chat habit is for next time.) The editing step is stated, never hedged (the owner, 2026-11-14
 evening — Plugin 5 was installed in Week 4; it is part of the process).
 
+**1b · WHAT YOU DID TODAY — the member's own decisions, listed back to them** (the owner, 2026-11-15: the student
+has to feel the win was theirs). Four or five short lines, each beginning "You", each true to this sitting (a step
+that did not happen is left out; a change they made is named):
+> **Here's what you did today:**
+> • You gave your channel a page that says who you help and where to book you[ — and put it live].
+> • You set your three topics and your pace: one video a week, filming on [their day].
+> • You approved your plan and chose your first video: '[title]'.
+> • You put your next 30 days on your board[, each with a real video to watch first].
+> • You switched on the two workflows that keep it moving.
+
 **2 · The Board-and-Book line — a fixed, visible step (the owner, 2026-11-14 evening), never a passing mention.**
 Stamp `Setup: complete YYYY-MM-DD`, then push through `attraction-brain-sync` marked as **the sitting's closing
 push**: the sync rebuilds the member's Brain Board AND refreshes their Brain Book's "What's next" page (a partial
@@ -602,8 +644,12 @@ When the session can show a file in the chat, show the Board file itself as well
 Book could not rebuild, say which, plainly, with the phrase that retries it (*"refresh my brain board"* / *"show
 me my Brain"*) — never claim an update that did not happen.
 
-**3 · At most three short numbered next steps — the last thing in the close but for the compliance line:**
-1. *"Paste the three channel pieces — they're above, and in your Channel Page."* (left out when `Pasted:` is `all`)
+**3 · At most three short numbered next steps — the last thing in the close but for the compliance line. The first
+one is the member's first win of the week** (something that takes minutes and shows on their real channel):
+1. *"**Your first win this week:** paste the three channel pieces — they're above, and in your Channel Page. Five
+   minutes, and your channel is working for you."* (already pasted — `Pasted:` is `all`, or they said "done" →
+   *"**Your first win this week:** play the video on your first card — one real example, ten minutes — then make
+   yours."*)
 2. *"Make your first video — open a new chat and say 'make my attraction video: [title]'. To film your first three
    in one day, say 'script my first three videos' instead."*
 3. *"Invite your first interview guest — say 'set up an agent interview'."* (with the guest's first name when the
@@ -657,6 +703,7 @@ rebuilt, nothing is researched; the Game Plan and the rest of the journey never 
 - [ ] Brain read and reflected — **nothing re-asked**; `~/attraction-brain/` pulled first if missing; the welcome named only what is on file (offer · guide · bios), never a missing file; the usage tip in its plain wording, first line, fresh session only
 - [ ] Compliance 3-state read before any channel text — **never a stop, never a detour**: `unset` → everything built, saved and stamped "hold until your compliance basics are set", the one line said once, at the close; `set` → one reminder at the close; `confirmed` → nothing
 - [ ] The one question asked (channel) — skipped when the Brain already holds the link or handle; existing page read as data; an unreadable page said in one line, never a second question; "starting fresh" → the create-your-channel line, stated, the handle left for the member to add later
+- [ ] **THE MEMBER FELT THE WIN WAS THEIRS** — every reply after the first opened with a win line naming what the member decided or did ("✓ Step n of 5 — done. You…"), true and in their own choices; every step named ONE "Your part" (a choice about their channel or a few minutes in their own account — never an admin question); the close listed WHAT YOU DID TODAY in "You…" lines and named the first win of the week
 - [ ] **ONE STEP PER REPLY, AND EVERY STEP ENDED ON ITS STOP LINE** — after the Channel Page, the Game Plan's proposal, the built plan and the board; the workflows card said only after the board's Yes; nothing of the next step was read, built, saved or said before the member answered; a change was made, shown and followed by the same stop line; silence or a question was never read as a Yes; "do it all" honoured only when the member said it; no "ready?", no "confirm?", no "paste it now?"; each reply about 120 words outside the copy blocks; at most ONE caveat line, naming what was missing and the phrase that fixes each
 - [ ] Every step announced in one plain line before it ran; Week 5 in every line, never "Week 4" for YouTube work; never a skill id or a path in a line the member reads; "your Channel Page" (never a kit), "your eight-video plan", "your three topics", "three ways to open", "your title and description", "your month by topic"
 - [ ] The Channel Page built as one document — nine pieces in Studio's order, the click path above each — and saved BEFORE the chat message; the chat showed the saved line, THE THREE TO PASTE TODAY as the only copy blocks (description with about · links · upload defaults) and the one line about the rest; the about section opened with the kit's chapter 6 YouTube bio, refreshed only where the offer, the proof or the funnel URL changed; links = booking · the guide's funnel URL · one social; the spoken lines, pop-ups and end cards verbatim from chapter 7; the call in the law's shape; no paste question

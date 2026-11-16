@@ -105,7 +105,9 @@ have their card from the Monday Week Plan or a workflow — find and leave them;
   system owns (dates, Context, Resource Assets); the member's edits win. Not found → create it:
   **Topic** (the working title — the hook is the Topic when the title is the hook) · **Format** (`Talking Head` ·
   `Green Screen` · `Carousel` · `Graphic` for a kit post — never a story card for the daily rhythm) · **Pillar** (the
-  OS name, exactly) · **Context** (`• Pillar: [name]` · `• For: [the agent type]` · `• Hook: [the hook, ≤ 12 words]`
+  OS name, exactly) · **Context** (**a row whose `Carries` cell holds `your words` opens with `• Your words: "[the member's own answer, from
+  identity/content-pillars.md → ## In your words]"`** — the member sees their own sentence on their card (the owner,
+  2026-11-15) — then `• Pillar: [name]` · `• For: [the agent type]` · `• Hook: [the hook, ≤ 12 words]`
   · `• Rung: [the CTA rung + GUIDE or the offer's word]` — each bullet ≤ 12 words) · **Recording Date** (the batch
   day before the row's date, from `publishing.md → Batch day(s):`; none for a kit post) · **Publishing Date** (the
   row's date) · **Resource Assets** (the two asks from `content-pillars.md` — GUIDE and what it opens · the call

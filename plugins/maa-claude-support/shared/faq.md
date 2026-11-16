@@ -753,7 +753,24 @@ booked with "book my agent interview".
 **Q70. It built everything while I stepped away. Can it wait for me?**
 It does now. Your short-form setup and your YouTube setup go one step at a time: each step shows you what it built
 (or what it is about to build on — your pillars and your week, your three topics and your pace) and then waits. Say
-"Yes" to move on, or tell it what to change and it changes that and waits again. If you walk away, nothing more
+"Yes" to move on, or tell it what to change and it changes that and waits again. Your short-form setup also asks
+you four short questions of its own along the way (Q71). If you walk away, nothing more
 happens until you are back. If you would rather it ran straight through, say "do it all" — it then stops only for
 your Yes on the workflows.
 
+**Q71. Why is my short-form setup asking me questions? I thought it already knew me.**
+It does know you — it never asks again for anything you told it in Week 1. The four questions are new ones that only
+you can answer, and they are what make your content yours: the first thing agents ask you when they get you on the
+phone, the one step of your method you would tell an agent to start with this week, what you do off the clock, and
+the day and place you can film every week. Answer in a sentence or two — type it, or tap the microphone and just
+talk. After each answer it reads your own words back and shows you what they became: your first three Reels are
+your three answers, marked "(your words)" on your plan, and the very first is the question agents ask you. If a
+question stumps you, say "skip" — it builds that part from your Brain and never asks twice. You can put any of them
+in your own words later by saying "update my pillars".
+
+**Q72. What does "✓ Step 2 of 5 — done" mean, and what is "your part"?**
+Your setups are built to be done together, not done for you. Each reply opens with a short line that says what you
+just decided or did (that is the "✓" line), and each reply hands you one thing that is yours — a question to answer
+in your own words, a choice about your own content, or a two-minute action such as opening your plan. The sitting
+closes with "what you did today", your answers and decisions listed back to you, and names the first win you can
+have this week: a post that is already designed and only needs posting.

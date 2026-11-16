@@ -33,7 +33,9 @@ set it for 7."*); nothing about the times is asked.
 
 ## The card (said once — its own message, at most 70 words before "Say Yes")
 **The card is its own short message** (the owner's review, 2026-11-14): nothing else is in that message — no
-announce line above it, no recap, no housekeeping — and nothing follows "Say Yes and I'll set them up." Inside
+announce line, no recap, no housekeeping; inside setup ONE line stands above it, the win line for the board step
+the member just finished (*"✓ Step 3 of 5 — done. Your next 30 days are on your board."*) — and nothing follows "Say
+Yes and I'll set them up." Inside
 setup it is the last thing in the turn, sent once the board step's work has finished. Plain words only ("your month
 by topic" — never "month by lane", never "the hook", never "SEO"). This shape; the member's own times fill it:
 > "Here's what I'm switching on for you. **Your Monday Kickoff** — Mondays at 9:00 am: this week's video, drafted

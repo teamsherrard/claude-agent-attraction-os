@@ -2,6 +2,28 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.31.0] — 2026-11-15
+
+**The short-form sitting is an interview, and the member feels the win (Short-Form 0.7.0 · YouTube 0.6.1 · Brain 0.9.14 · Lead Magnet 0.12.11 · Support 0.1.28).** Three things the owner said after 0.30.0 made the sitting wait: *"we need to make sure there is a proper customer journey"*; *"the student also needs to feel a WIN that they did something to achieve the result"*; and that the short-form and YouTube plugins have to *"feel almost like an interview"* — the member *"involved… a part of making it happen and bringing that system, that product to life. That experience is a very important part of this process."* Waiting for a Yes is not involvement. This release rebuilds the Week 4 sitting around the member as the source.
+
+**Short-Form 0.7.0 — the interview (`sf-setup` Step 3a, `sf-gameplan`, the house rules).**
+- **Four questions, one per reply, numbered**, each asked after a line that plays back what the Brain already holds — so nothing from Week 1's 26 questions is asked again: (1) the first thing agents ask the member when they get them on the phone; (2) the one step of their method they would tell an agent to start with this week; (3) what they do off the clock; (4) the day and the place they can film every week (not asked when a filming day is already on file).
+- **Heard back, then put to work where the member can see it.** Each next reply opens with the member's own words, quoted, and what they just became. The answers are saved verbatim and dated in a new section of the member's pillars file, `## In your words`, pushed the moment they are given — the Brain Board prints it with the pillars.
+- **The plan is built on the answers.** The pillars are proposed with the member's words inside the pillars they answered for, then "Does that sound like you?" — nothing is built before their Yes. Each answer is angle one of its pillar; the three Reels built on them lead the calendar (the very first is the question agents ask them), carry `your words` in the calendar and show "(your words)" in the plan document; the board card of such a Reel opens with the member's own sentence.
+- **The rules of the asking.** About the member, never about the machine (the 2026-11-14 ruling stands: no admin question, no menu, nothing about email, platforms, workflows or ManyChat) · one question a reply · typed or spoken, a sentence or two · their words stay theirs (tidied only to be sayable in one breath; a named brokerage or person and any income figure left out of everything public) · "skip" always works, is never asked twice and never draws a guilt line · at most one "say a little more" in a sitting · a member who leaves after Question 2 comes back to Question 3.
+- **The member's part and the win.** Every reply after the first opens with a win line naming what the member just said or decided; every reply hands them one thing that is theirs (a question, a choice about their own content, or a two-minute action); the member chooses the opening of their first Reel (three options, or their own words) before it is scripted; the close opens with WHAT YOU DID TODAY — "You…" lines with real counts — and names the first win of the week, a designed post that only needs posting.
+- **After the sitting.** `sf-talkinghead` asks ONE question before a script written with the member in the chat ("if an agent asked you this across the table, what would you say first?") — never in a scheduled run, never three in a chat. The Monday Week Plan and the Monthly Calendar Refill read `## In your words` and never ask; the Monday note opens with "Last week you got [n] of [m] out" when something went out; publishing a post is acknowledged ("✓ Your first one is out").
+
+**YouTube 0.6.1 — the win lines and "your part"** on every step of the Week 5 sitting, the same close (what you did today; your first win), and "✓ '[title]' is published — that's your [n]th video out" when a video goes live. The YouTube sitting's own interview follows in the next release.
+
+**Shared (all four plugins that carry it).** `ask-once-default.md` gains its last section, "The content sittings are interviews": told-not-asked is about the machine; the member's own content is asked for.
+
+**Brain 0.9.14 · Lead Magnet 0.12.11.** The shared file above; the Brain's contract names `## In your words` and who may append to it.
+
+**Docs and Support 0.1.28.** The setup guide's Week 4 section, the short-form demo checklist (the interview, the win lines, what a demo must not show) and FAQ Q70, the new Q71 ("Why is my short-form setup asking me questions?") and Q72 ("What does '✓ Step 2 of 5 — done' mean?").
+
+**Not yet run live in Cowork.**
+
 ## [0.30.0] — 2026-11-15
 
 **One step, then wait (Short-Form 0.6.0 · YouTube 0.6.0 · Support 0.1.27).** The owner launched the Week 4 short-form sitting, stepped away, and came back to find everything built — the profiles, the Game Plan, the board, right up to the workflows card: *"it ends up doing the entire work for me rather than waiting for me to give direction or feedback or answers… it should WAIT for me."* Both setup sittings are rewritten around that.

@@ -230,7 +230,7 @@ Attach the Design System and your Brain Book first. Always.
 
 ---
 
-## 6. Week 4: your short-form engine and your editor (one sitting in Cowork, about 25 minutes)
+## 6. Week 4: your short-form engine and your editor (one sitting in Cowork, about 35 minutes)
 
 Install **Plugin 4 · Short-Form** and **Plugin 5 · AI Editing Studio (Riverside)** from the marketplace when Week 4 opens.
 Then, in a new Cowork chat, type:
@@ -239,14 +239,19 @@ Then, in a new Cowork chat, type:
 set up my attraction short-form
 ```
 
-It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it tells you what it is building at each step instead of asking. **It goes one step at a time and waits for you after each one:** it shows you what it built, and you say **Yes** to move on — or tell it what to change. Nothing is built while you are away. The only thing it asks is which tool schedules your posts. In order:
+It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. **It works like an interview, and you build it together.** It asks you four short questions that only you can answer; after each answer it reads your own words back and shows you what it made from them. **It goes one step at a time and waits for you after each one** — nothing is built while you are away. Answer in a sentence or two: type it, or tap the microphone and just talk. If a question stumps you, say "skip" and it builds that part from your Brain. About the machinery it asks only one thing: which tool schedules your posts. In order:
 
 1. **Your profiles and your two keywords, confirmed.** Your bios were written in Week 2 (chapter 6 of your kit). It
    confirms the identity line and the one link, states your platforms (Instagram and Facebook, both, always; LinkedIn only if you attract team leaders), and confirms your two keywords:
    **GUIDE** (comment it and the DM sends your guide) and your own invitation word from your offer. Nothing else.
-2. **Your Short-Form Game Plan.** Your five pillars come from the content branches of your offer; your 30-day calendar
-   opens with the six posts you designed in Week 3 ("post, don't make"), then your Reels; every ask is one of your two
-   keywords or the call, in Mike's words: partner with me and get my help, free, to run this. No stops: it states your five pillars and your week — three posts a week to start, so your first month is twelve posts: the six you designed and six to film — and builds; say so any time if you want one changed. It also hands you your ManyChat build sheet: ManyChat is how your two keywords answer themselves, you set it up in your own account this week, and it is never connected to Claude. The document lands in Content → Short-Form.
+2. **Your Short-Form Game Plan — built on your answers.** First the four questions, one at a time: the first thing
+   agents ask you when they get you on the phone; the one step of your method you would tell an agent to start with
+   this week; what you do off the clock; and the day and place you can film every week. Then it shows you your five
+   pillars with your own words inside them, and your week — three posts a week to start — and asks "Does that sound
+   like you?" Change anything; when you say Yes it builds the plan. Your 30-day calendar opens with the six posts
+   you designed in Week 3 ("post, don't make"), then your Reels — the first three are your own three answers,
+   marked "(your words)", and the very first is the question agents ask you. Every ask is one of your two keywords
+   or the call, in Mike's words: partner with me and get my help, free, to run this. It also hands you your ManyChat build sheet: ManyChat is how your two keywords answer themselves, you set it up in your own account this week, and it is never connected to Claude. The document lands in Content → Short-Form.
 3. **Your content board** in your own Notion: one dashboard, the thirty days as dated cards; its tabs are Graphics (your designed posts), Reels and Calendar — YouTube gets its own tab in Week 5, so the two never mix — and every card opens to the same page (the hook, the script, the caption, the ask, filming notes, sources). Your designed posts sit at Ready to Post until they go out. If Notion is not connected yet, a Connect button appears right in the chat; click it, sign in, say "connected", and the board is built.
 4. **Your workflows, switched on for you.** It tells you what it is setting up — the Monday week plan (your week's
    posts drafted onto your board, plus any welcome or win post your Brain earned), batch prep (your film-day
@@ -255,9 +260,10 @@ It already knows you from your Brain, your offer, your guide and your Week 3 Kit
    say Yes. Every workflow only drafts; nothing posts on its own. Extras exist by phrase (keyword follow-up queue,
    mid-week nudge, monthly deep dive, daily stories, quarterly profile check). `my attraction workflows` shows or
    pauses any of them, any day. Then one straight question: **Metricool or GoHighLevel** — whichever schedules your posts. Name one and its Connect button appears in the chat.
-5. **Your first Reel**, scripted on the spot: `script my first attraction reel`.
+5. **Your first Reel — you choose how it opens.** It shows you three ways to open it; pick one, or say it your own
+   way, and it writes the script around your opening.
 
-It closes with your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`) and hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
+It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
 
 **Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
 `register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a

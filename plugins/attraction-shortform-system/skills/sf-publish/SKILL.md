@@ -131,7 +131,9 @@ with the plain cause and the fix: Instagram personal account → switch to Creat
 in the tool or use the hybrid path · nothing after a date → the free-plan cap · still "awaiting review" → approve it
 in the app. Offer to reschedule. **Never say "all posted" without reading the statuses.** Flip each published post's
 row in `content-log.md` to `Published` with the link (a kit post: its calendar row and its card too — `Ready to Post`
-→ `Published`). After the member's first verified publish, one line, stated: *"say 'how's my content doing' any time
+→ `Published`). **Open the reply with the member's win — they did this** (the owner, 2026-11-15): the first verified publish →
+*"✓ Your first one is out — you posted it."*; any later one → *"✓ That's out — [n] this week."* ([n] = this
+week's calendar rows at `Published`, counted; never a view count, never a results claim.) After the member's first verified publish, one line, stated: *"say 'how's my content doing' any time
 — five numbers, what started conversations, the one change."*
 
 ## Job E — Best times

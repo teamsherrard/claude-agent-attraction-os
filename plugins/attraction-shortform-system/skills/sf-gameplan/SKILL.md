@@ -54,11 +54,14 @@ and only where the member's own material leaves a pillar short — the rank ther
 ## Three ways it runs
 - **Inside setup** (`sf-setup` Step 3 — the normal Week 4 path): the member just heard *"now I'm going to build
   your Short-Form Game Plan"*; the two keywords, the platforms and the profiles are already confirmed. **It runs in TWO
-  replies (the owner, 2026-11-15: "it should WAIT for me"):** first Phases 1 to 3 — the pillars and the week are
-  PROPOSED in one short message, saved, and the reply stops on setup's stop line (the document is NOT built yet);
+  replies, AFTER setup's interview (the owner, 2026-11-15: "it should WAIT for me" · it has to "feel almost like an
+  interview"):** `sf-setup` Step 3a has asked the member its four questions and saved the answers under
+  `identity/content-pillars.md → ## In your words`; first Phases 1 to 3 — the pillars and the week are PROPOSED
+  from those answers in one short message, saved, and the reply stops on setup's stop line (the document is NOT
+  built yet);
   then, on the member's Yes (or after their changes), Phases 4 to 9 — the plan is built, saved and anchored, and
-  the skill hands back to setup, which says its own stop line. ManyChat is told, never asked (Phase 5); nothing
-  else is a question. No menu, no "come back later".
+  the skill hands back to setup, which says its own stop line. ManyChat is told, never asked (Phase 5); the
+  interview's questions are setup's, never repeated here. No menu, no "come back later".
 - **On demand** — **BUILD** when no `## Game Plan anchors` block exists in `content-pillars.md`; **UPDATE** when
   one does ("update my short-form game plan", "plan my next 30 days of reels"): refresh only what changed (a new
   30-day calendar from the day after the last mapped date; new research; a pillar the member asked to change),
@@ -133,17 +136,20 @@ Same structure, same gate.
   setup-time Game Plan makes zero calls to it (`shared/composio-data-engine.md`, "never during setup"); web
   search only. Research unavailable or empty → build from the Brain, label the affected rows `unresearched`,
   say so once in the Read-this-first, and put the re-run on next steps. Never invent a demand signal.
-- **One stop in setup, before the document (the owner, 2026-11-15: "it should WAIT for me… to give direction or
-  feedback"; 2026-11-14: "all that the student has to say is 'Yes'").** The pillars and the week are PROPOSED in one
-  short message — *"Your five pillars, from your offer: [one line each]. Your week: three posts a week — your first
-  two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a
-  week, stories every day; your filming day is [day]."* — and the reply ENDS on setup's stop line: *"Say **Yes** and
-  I'll build your Game Plan on these — or tell me what to change: a pillar, how many posts a week, or your filming
-  day. **Your turn.**"* Nothing of Phase 4 onward runs until the member answers. **A change** → apply it inside the
+- **The member's answers first, then one stop before the document (the owner, 2026-11-15: "it should WAIT for
+  me… to give direction or feedback or answers" · the sitting has to "feel almost like an interview").** Read
+  `identity/content-pillars.md → ## In your words` before anything else: the member's answers to setup's
+  interview (the question agents ask them · the one step · off the clock · their week). The pillars and the week
+  are PROPOSED from them in one short message, in the shape `sf-setup` Step 3a prints — each pillar one line, the
+  member's own words shown inside the pillars they answered for, then the week with their filming day — and the
+  reply ENDS on setup's stop line: *"**Does that sound like you?** Say **Yes** and I'll build your thirty-day plan
+  on it — or tell me what to change: a pillar, how many posts a week, your filming day, or an answer you'd give
+  differently. **Your turn.**"* Nothing of Phase 4 onward runs until the member answers. **A change** → apply it inside the
   rules (the five OS pillars stay five; the cadence and the filming day are the member's to set), show only what
   changed, save, and stop again with the same line. ManyChat is told, never asked (Phase 5); the platforms are
-  stated (Phase 3); nothing else is a question. On demand the same proposal-then-Yes applies to a first BUILD;
-  an UPDATE changes the one part the member named and says so.
+  stated (Phase 3); nothing else is a question. On demand the same applies to a first BUILD: when `## In your words` is absent the four questions are asked first,
+  one per reply, by `sf-setup` Step 3a's table and rules (this skill then saves the answers itself); then the
+  proposal, then the Yes. An UPDATE changes the one part the member named and says so.
 
 ---
 
@@ -179,6 +185,12 @@ labeled "(from your Brain — your kit's wording replaces it)". **Why I'm buildi
 (tags `shortform` · `story`; the `## Past content (imported)` section's `pillars:` note — how they post today —
 and what they already published, so the angles never repeat it) · `memory/objections.md` · `memory/content-log.md`
 (empty is normal).
+**The member's own answers lead (the owner, 2026-11-15).** `## In your words` is read first: each answer is ANGLE
+ONE of its pillar — "the question agents ask you" under Perspective, "the one step" under Authority, "off the
+clock" under Personality — its hook the member's own sentence (tidied only to be sayable in one breath, never a
+claim added, a named brokerage or person and any income figure left out), and it carries `your words YYYY-MM-DD`
+(printed in the document as *built on what you told me*). A skipped answer leaves its pillar to the sources below.
+The other angles follow the locked order.
 **Order of sources, locked (Mike, 2026-11-02 — the UVP is the foundation of the content; all content is a branch
 of it):** `offer.md → ## Content branches` FIRST — each segment's three topics become angles under the pillar
 they belong to (a framework step or a tactical segment → Authority; what agents pay for versus what works →
@@ -204,15 +216,17 @@ former brokerage never named (`06-content-framework/39`, `/40`) · Proof = agent
 otherwise first name or initials), the weekly call, the training, the events — "it's not us saying our culture is
 incredible, you're seeing it" (`06-content-framework/38`); zero proof → one honest line and the upline's proof
 labeled as the upline's · Personality = passions, routines, family lines they are willing to share (`07-instagram/88`,
-`/89` — the patio-beer test). **If the Brain holds nothing for Personality**, never a question in the
-sitting: draft the three angles from what the Brain does hold (the profile's "before real estate" line, the journey,
+`/89` — the patio-beer test). **Personality is the interview's third question** ("off the clock") — its answer is angle one. **Skipped, and the
+Brain holds nothing for Personality** → never a second ask: draft the three angles from what the Brain does hold (the profile's "before real estate" line, the journey,
 the WHY) and label them *"(draft — tell me what you do off the clock and I'll sharpen these)"*; on demand ("update my
 pillars") one plain question at a time fills them.
-**State the five in one short message** — *"Your five pillars, from your offer: [one line each]."* — it runs
+**State the five in one short message** — setup's proposal shape, the member's own words shown inside the pillars
+they answered for (*"• **Perspective** — [one line] · your words: "[the question]""*) — it runs
 straight into Phase 3's line (the week), and after that line the reply STOPS and waits for the member (the rule
 above); a member who names a change gets it applied before anything is built. Then **write `identity/content-pillars.md` now** in the contract's shape
 (the template's header lines kept and filled · the one-line anchors · the five sections headed exactly by the
-pillar names, three angles each · `## Game Plan anchors` · `## Weekly mix` · `## Hooks bank`), **push, verify.**
+pillar names, three angles each · **`## In your words`, kept exactly as the interview wrote it** · `## Game Plan
+anchors` · `## Weekly mix` · `## Hooks bank`), **push, verify.**
 *"Saved — your pillars are in your Brain."* (Inside setup the header lines `Cadence` and `The two CTAs` line 2
 fill at Phases 3 and 5 of this same run.)
 
@@ -234,13 +248,14 @@ without — `07-instagram/89`) · **the platforms — stated, never asked** (the
 team leaders; TikTok and YouTube Shorts take the same video any time you want more reach"* — Facebook Reels is the
 same video reposted; TikTok and Shorts are optional reposts, nothing new to make; LinkedIn on only when
 `identity/avatars.md` includes team leaders or broker-owners, otherwise one line that it stays off; Mike's lesson that
-one video covers every short-form platform — `07-instagram/90` — is the why) · **the batch day** (Mike's
+one video covers every short-form platform — `07-instagram/90` — is the why) · **the batch day — the member's own answer to "your week" in `## In your words` (the day and the place they named);
+only when that answer was skipped, fitted from the filming window by** (Mike's
 simple week: Monday plan · Tuesday record one to two hours · Wednesday edit · post or schedule from Thursday — or his
 alternate Saturdays; fitted to the filming window) · **the 15-minute routine** (same time every day: reply to every
 comment with a question, answer every DM the same day, tag the agents featured so they reshare, one interactive
 story element, five real comments on agents' posts in the lane, never a negative one — an OS default built on
 `07-instagram/89` and `05-big-picture/36`).
-Proposed, in one line: *"Your week: three posts a week — your first two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a week, stories every day; your filming day is [day]."* **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"Say **Yes** and I'll build your Game Plan on these — or tell me what to change: a pillar, how many posts a week, or your filming day. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
+Proposed, in one line: *"Your week: three posts a week — your first two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a week, stories every day; filming on [day]s."* **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"**Does that sound like you?** Say **Yes** and I'll build your thirty-day plan on it — or tell me what to change: a pillar, how many posts a week, your filming day, or an answer you'd give differently. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
 mix:` · `Batch day(s):` to `publishing.md` (the source), mirror `Cadence` and `Platforms` into `content-pillars.md`'s
 header lines and `## Weekly mix`, and write the batch day and time to the single `Filming window:` line of
 `identity/operations.md` (this plugin's one write there, by the Brain contract's permission — the mirror of
@@ -327,7 +342,12 @@ pages, the story bank, the proof with consent, the weekly call, the training, th
 month's objections — Weeks 1–2), **fresh research second** (the graded findings, each cited by number in the Sources
 band), **the starter bank last** (`starter`, only to fill a short pillar). Week 1 still establishes who they are: the
 kit's story and proof posts cover Story and Proof, so the first Reels are Personality, Perspective and the Authority
-teach. Every row: `#` · **date** (real calendar dates, never "Day 1", on the cadence's posting days — **a Reel's
+teach. **Those three are the member's own answers** (`## In your words` — the owner, 2026-11-15): the FIRST Reel row
+is the question agents ask them (Perspective), then the one step (Authority), then off the clock (Personality) —
+each row's working title and hook from the member's own sentence, each `Carries` cell reading `your words
+YYYY-MM-DD` (with whatever else the row carries after it), and the `→` part of each `## In your words` entry filled
+with its row's working title. A skipped answer's slot is filled by the order above and carries no mark. THE THREE
+TO FILM FIRST are these three. Every row: `#` · **date** (real calendar dates, never "Day 1", on the cadence's posting days — **a Reel's
 publishing date is never earlier than the day after the batch day that films it**: the first Reel lands on the first
 posting day AFTER the first batch day that follows today and that a kit post does not take, and every later Reel after
 the batch day that films it) · day · **format** (talking head · green screen ·
@@ -346,7 +366,8 @@ own batch-filming day), and **THE THREE TO FILM FIRST** (Reels only — the kit 
 "Tue, Nov 17", never 2026-11-17) · `What` (the format and the working title — "Carousel — The guide", "Reel — The year
 I almost quit") · `The hook` · `The ask` (in words: "Comment GUIDE" · "Comment [WORD]" · "Follow") · `Status`. The row
 number, the weekday column, the pillar, what a row is built on and the System ID stay in the Brain file and never
-appear in the document. **A week made only of designed posts carries the one line** *"This week you only post —
+appear in the document — with one exception the member should see: **a row built on their own answer shows
+"(your words)" after its working title** in the `What` column. **A week made only of designed posts carries the one line** *"This week you only post —
 nothing to film."* (the first two weeks of a first window).
 Write **`memory/content-calendar.md`** in the contract's locked shape — the eleven columns `# | Date | Day | Format |
 Pillar | Working title | Hook | CTA | Carries | Status | System ID`, untouched; only the document's table is the five
@@ -459,6 +480,9 @@ their own phrases and are said in chat, not in this section.
 - [ ] Section 1: who they attract, the one line, the two keywords, the two CTAs verbatim from the kit's table (the
       guide; the call in the CTA law's shape), the why — drafted and labeled where the Brain is empty, never a
       question box
+- [ ] `## In your words` read first: each answer the member gave is angle one of its pillar, in their own sentence,
+      marked `your words`; the three Reels built on them lead the calendar (the question agents ask them first)
+      and show "(your words)" in the document; the section kept exactly through every rewrite
 - [ ] Five pillars, exact names, three angles each, developed from the UVP's content branches and the framework's
       steps first, then the Brain — stories from the bank, proof with consent, the former brokerage unnamed; no
       angle promising the member's time per partner; the branches' absence said once when the offer predates them;

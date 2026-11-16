@@ -46,9 +46,9 @@ the phase that needs them.
 Three modes (pick from what they said; never ask which):
 - **"What should I film?"** → the calendar first (the front door rule below): this week's rows from the Game Plan
   are the list; `sf-ideas` when the week has no rows or they want fresh research.
-- **"Script these" / a named topic / "my first attraction reel"** → Phase 2 (setup hands over the first talking-head row after the six kit posts as the topic — one Reel, no question stop; the kit posts are never scripted here).
+- **"Script these" / a named topic / "my first attraction reel"** → Phase 2 (setup hands over the first talking-head row after the six kit posts as the topic, **together with the opening the member chose at setup's last stop — that opening leads THE HOOK, marked "your pick", and the script is written around it**; one Reel, no further stop; the kit posts are never scripted here).
 - **"My 30-day calendar" / "plan my month"** → Phase 3: the calendar lives in the Short-Form Game Plan — hand to
-  `sf-gameplan` (UPDATE mode, section 6), then offer to script the first three.
+  `sf-gameplan` (UPDATE mode, section 6), then state the phrase that scripts the first three ("script my attraction reels").
 
 ---
 
@@ -57,8 +57,9 @@ Three modes (pick from what they said; never ask which):
 
 ## Step 1 — Load the Brain (the core files; the rest open at the phase that uses them)
 Read `~/attraction-brain/brain.md` first (follow its laws), then only these:
-- `identity/content-pillars.md` — the five pillars with their angles and the hooks bank (written by the Game Plan
-  inside the short-form setup). **Missing →** this plugin's setup hasn't run: *"Let's set your pillars first — say
+- `identity/content-pillars.md` — the five pillars with their angles, **`## In your words` (the member's own
+  answers — read before the hooks bank; a Reel built on one is marked *your words*)** and the hooks bank (written by
+  the Game Plan inside the short-form setup). **Missing →** this plugin's setup hasn't run: *"Let's set your pillars first — say
   'set up my attraction short-form'; then every Reel knows what it's for."* Don't improvise pillars here.
 - `memory/content-calendar.md` — the Game Plan's rows (this week's first; a row carries its pillar, hook, CTA,
   story, and System ID — the script is written against the row and the board card is found by that ID)
@@ -98,9 +99,10 @@ month, then the rest — never more than three from one pillar. Each topic: a wo
 line) · the **story or proof it can carry** (a story-bank hook, a win with consent, or "none — straight teach")
 · the **rung** it ends on · one line of **why this is strong for you**. Speak to an agent's *problem*, never a
 brokerage feature. Present simply:
-> "Here are strong ones for this week — I've leaned on [pillar] because you've been light there. I'd script [#, #
-> and #] first — I'm scripting those now; name other numbers any time."
-A statement, then the scripts — never a Yes line, never an open menu (the owner, 2026-11-14: told, not asked). **If they're unsure or say "you pick"**
+> "Here are strong ones for this week — I've leaned on [pillar] because you've been light there. I'm scripting [#, #
+> and #] — name other numbers any time."
+A statement, then the one question (Phase 2), then the scripts — never a Yes line, never an open menu (the owner,
+2026-11-14: told, not asked — about the machine; 2026-11-15: the member's own words are asked for). **If they're unsure or say "you pick"**
 (house rules #8 + `${CLAUDE_PLUGIN_ROOT}/shared/advisor-playbook.md`): the top 3 are already named — script them now.
 
 ## Phase 2 — Scripts (for the chosen topics: the week's Reels at the member's cadence — three by default — or the one they named)
@@ -112,10 +114,29 @@ fabricate) · `identity/voice.md` + `identity/voice-samples.md` (tone + their re
 consent for Proof Reels; first name / initials otherwise) · `identity/offer.md` and `memory/magnets.md` if Step 1 left them closed (the Resource rung is the
 guide — GUIDE; an older `offer.md` at `Status: seeds` with no live guide → the ask is the call line in the law's shape,
 never a demanded guide) · `identity/publishing.md` (the two keywords, what each opens) if Phase 1 didn't open it.
+**THE ONE QUESTION — the member's words first (the owner, 2026-11-15: making content has to "feel almost like an
+interview" — the member part of bringing it to life; on demand only).** With the member in the chat, the FIRST Reel
+being scripted whose row does not already carry `your words` gets one question before a word of it is written —
+said in the same reply as Phase 1's statement, and the reply stops there:
+> "Before I write '[working title]': if an agent asked you this across the table, what would you say first? One or
+> two sentences — type it, or just talk. Or say **skip** and I'll write it from your Brain. **Your turn.**"
+Their answer is heard back in one line (*"✓ "[their words]" — that's your opening."*), saved under
+`identity/content-pillars.md → ## In your words` (`- **[working title]** (YYYY-MM-DD): "[verbatim]" → [the Reel]`,
+pushed with Phase 6), leads THE HOOK as option 1 marked *your words* (tidied only to be sayable in one breath —
+never a claim added; a named brokerage or person and any income figure left out, said once), and shapes the first
+step of THE SCRIPT; the row's `Carries` cell gains `your words YYYY-MM-DD`. **"Skip" / "you pick"** → written from
+the Brain, never asked again for that Reel. The other Reels of the batch are written in the same reply, from the
+Brain and `## In your words` — one question a chat, never three — and the batch closes with a statement, never an
+offer: *"Tell me how you'd open either of the others and I'll rewrite it around your words."* **Never asked:**
+inside setup (the member chose their opening at `sf-setup` Step 5), in a scheduled run (the Monday Week Plan drafts
+from the answers already saved), or for a row that already carries `your words`.
+
 For EACH Reel, use these exact section names:
-- **THE BRIEF** — pillar · for whom · story used (hook from the bank, or none) · rung + keyword.
-- **THE HOOK — 3 ways** — three options (one may come from `content-pillars.md → ## Hooks bank` when a bank hook
-  fits this Reel), each sayable in one breath (~8–12 words), styles labelled (question ·
+- **THE BRIEF** — pillar · for whom · story used (hook from the bank, or none) · rung + keyword · *built on your
+  words* when it is.
+- **THE HOOK — 3 ways** — three options (**option 1 is the member's own sentence, marked *your words*, whenever the
+  row carries `your words`, the member answered the one question, or setup handed over the opening they chose**; one
+  may come from `content-pillars.md → ## Hooks bank` when a bank hook fits this Reel), each sayable in one breath (~8–12 words), styles labelled (question ·
   contrarian · number/stakes · mistake · callout · curiosity-gap — never three of the same), the strongest marked
   with one line why. The first word is the hook. Never "stop scrolling", never "hey guys", never credentials first.
 - **THE SCRIPT** — word-for-word, written for speech, **30–60 seconds (~80–150 words, show the count)**. Shape:

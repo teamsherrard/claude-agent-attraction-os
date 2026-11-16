@@ -42,7 +42,8 @@ message and continue.
    every ask takes verbatim; absent → the asks come from the keyword sheet or the offer on the same shapes);
    `exports/keyword-sheet-*.txt` (newest — the two words and their lines); the newest `exports/week-plan-*.txt` (its
    date is "since the last run"; none → the last seven days); `identity/content-pillars.md` (the five pillars'
-   angles, `## Hooks bank`); `identity/profile.md` (the member's own email address); `identity/compliance.md` (the
+   angles; `## In your words` — the member's own answers: where one fits a draft it leads that draft's hook,
+   marked "your words", and nothing is asked, because nobody is here to answer; `## Hooks bank`); `identity/profile.md` (the member's own email address); `identity/compliance.md` (the
    first line, `Status:`, is the gate). Then, only as each draft needs it: `identity/voice-print.md`, `voice.md`,
    `voice-samples.md` (the drafts are read aloud — their cadence), `identity/avatars.md` (the agent each post is
    for), `identity/story-bank.md` (the story a row carries), `identity/proof.md` (the `OK to use publicly?` column;
@@ -186,6 +187,13 @@ message and continue.
    - One-line greeting: "Your week is drafted — n posts for the week of [date], [k] kit posts ready to post, your
      stories for seven days, filming day [day]; plus a welcome post for [First] — needs her OK." (Board present:
      "all n on your board, marked Scripted; 30 days still visible ✓". Drop the clauses that do not apply.)
+   - **YOUR WIN, one line — the member did this, so say it first (the owner, 2026-11-15: the student has to feel
+     the win was theirs).** Count the calendar rows dated last week that are not `dropped` ([m]) and how many of them
+     read `Published` ([n]). All of them, and at least one → "Last week you got all [m] out — a full week.[ That's
+     [k] full weeks in a row.]" (the bracket only when the weeks before were full too, counted the same way). Some →
+     "Last week you got [n] of [m] out — [the title of one that went out] is live." None, or the plan's first week →
+     no line at all: never a guilt line, never a nag. Only what the Brain shows: never a view count, never reach,
+     never an income or results claim.
    - One line, only when step 4b placed a clip: "Two of this week's Reels are clips from '[video title]' — film
      them straight from the script." (One clip: "One of this week's Reels is a clip from '[video title]' — film
      it straight from the script." Two videos: both titles.) Said once; never a count of what is still waiting,
