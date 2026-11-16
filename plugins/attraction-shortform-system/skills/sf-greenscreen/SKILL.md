@@ -205,7 +205,7 @@ never hedged); the content board (house rules #10): Format `Green Screen`, Pilla
    pushes at once; the push re-renders the member's Brain Board. Then: *"Saved today's green screen to your workspace
    (Content → Short-Form → [month]) and logged it — your Brain Board shows it."*
 
-## The scheduled workflow — Wednesday Brokerage News Watch (switched on by setup's one Yes; Wednesdays, 8:00 am; this skill owns it)
+## The scheduled workflow — Wednesday Brokerage News Watch (switched on by the consent card's Yes; Wednesdays, 8:00 am; this skill owns it)
 The owner's word (2026-11-14): "important". Every Wednesday the member finds three to six REAL headlines from the last
 30 days — brokerages, the industry, models, commissions, lawsuits, tech, recruiting — each cited (title · outlet · date ·
 the link they can click) and verified by a live web search, never invented, each with a 30-second green-screen take in
@@ -214,7 +214,7 @@ their angle; saved as ONE doc (`[YYYY-MM-DD] · Green Screen · News Watch`, the
 config block says `Email me: yes` (subject *"Your green-screen shorts are ready — [n] stories"*), and the task's own note
 in Cowork — and the run ends with a push so the Brain Board shows it. Draft-only: it never posts.
 - **Provisioned only with the member's explicit yes, never silently.** The normal path is **setup's consent card**
-  (one of the four switched on by the one Yes; setup provisions it without asking again). Otherwise "turn on my news
+  (one of the four switched on by the consent card's Yes; setup provisions it without asking again). Otherwise "turn on my news
   watch" → read `config.md → ## Short-Form (Week 4)` → `News Watch task:` first: a task id → it is on, say so;
   `paused` → they stopped it, its phrase brings it back; `later` / no line / any other value → on the phrase, a statement, never an
   offer or a question (the owner, 2026-11-14: told, not asked): *"Switching on your Wednesday news watch — Wednesdays,
@@ -245,5 +245,5 @@ in Cowork — and the run ends with a push so the Brain Board shows it. Draft-on
 - [ ] Compliance three-state applied; stamp as the file says
 - [ ] Captions via the optimizer rules; the CTA line carries one of the two keywords or the call line in the law's shape
 - [ ] Text only — no background rendered; saved, logged, intel row marked used, pushed at once
-- [ ] The News Watch provisioned by setup's one Yes or the member's phrase (a statement, never an offer), adopted not twinned, verified; the two config
+- [ ] The News Watch provisioned by the consent card's Yes or the member's phrase (a statement, never an offer), adopted not twinned, verified; the two config
       lines written to `## Short-Form (Week 4)` and pushed; its run cites real links, saves the one doc, fills the week's green-screen row and its ONE board card (the alternates inside) when the board exists, emails only when `Email me: yes`, ends with a push, never posts

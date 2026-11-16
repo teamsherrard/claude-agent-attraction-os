@@ -2,7 +2,7 @@
 name: yt-briefing
 description: >
   The Monday Kickoff for the Agent Attraction YouTube System (Week 5) — the weekly workflow, switched
-  on at setup with the member's one Yes, draft-only. Every Monday it reads the Game Plan's calendar,
+  on at setup with the member's Yes, draft-only. Every Monday it reads the Game Plan's calendar,
   the board, the log and the interview pipeline, picks this week's video (one a week) and
   drafts it onto its card — three ways to open, the script start or the interview guide, the
   thumbnail sheet for Higgsfield, the title and description, the two CTAs in Mike's shape — into the
@@ -23,7 +23,7 @@ cadence) and §8 (the video structure) of `${CLAUDE_PLUGIN_ROOT}/shared/attracti
 `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The call-to-action law and the scalability rule (Rules, below)
 bind every line this skill drafts.
 
-> **Two ways it runs.** On a schedule — switched on at setup's one card with the member's one Yes (or by
+> **Two ways it runs.** On a schedule — switched on at setup's one card with the member's Yes on the workflows card (or by
 > "turn on my attraction Monday kickoff", from `paused` or `later`), created only with that explicit yes, `taskId:
 > attraction-monday-kickoff`, Mondays 9:00 am local unless they chose a time, the prompt verbatim from
 > `references/weekly-task-prompt.md`. Or on demand, any day ("run my attraction kickoff") — the same workflow,

@@ -17,7 +17,7 @@ description: >
 # Ideation — where every attraction video starts
 
 The member's front door — **on demand by design.** They ask when they are ready to film; nothing is scheduled
-unless the Monday Kickoff is on (switched on at setup with their one Yes), and the data is fresh at the moment they ask.
+unless the Monday Kickoff is on (switched on at setup with their Yes on the workflows card), and the data is fresh at the moment they ask.
 Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — all of it (the doctrine #1, the Brain #2, plain talk #4,
 the Game Plan #10, the board #11). All machinery runs invisibly; the member sees four lines, not a process.
 
@@ -122,7 +122,7 @@ logged when the video chat starts.
 
 ## Modes
 On demand is the core — this skill never schedules anything. The scheduled front door is the **Monday Kickoff**
-(`yt-briefing`, switched on at setup with the member's one Yes): every Monday it takes this week's
+(`yt-briefing`, switched on at setup with the member's Yes on the workflows card): every Monday it takes this week's
 slot from the plan and drafts the video onto its card, so the member rarely needs a fresh batch — they come here
 for more ideas, a swap, or a timely angle. A member who asks for "weekly attraction ideas" on a schedule is
 pointed to the Kickoff in one line ("run my attraction kickoff"); there is no separate weekly ideas note.

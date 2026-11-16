@@ -130,8 +130,8 @@ rest open at the step that uses them. Research is budgeted (the per-skill budget
 costs one search (a second, reworded, only when the first found nothing) and at most three checks; setup's board
 step covers the cards it creates — three to five.
 One chat = one video — with one exception: the first batch ("script my first three videos": three scripts and a
-film-day sheet in one sitting, scripts only, never more than three; each video's own chat still does the rest). Inside setup: no question stops beyond the channel question and the card's Yes; the research line said
-once. Any feature that adds turns or front-loaded reading is a cost regression — cut it.
+film-day sheet in one sitting, scripts only, never more than three; each video's own chat still does the rest). Inside setup: one question (the channel); every step ends on its stop line and waits for the member (rule #23);
+the research line said once. Any feature that adds turns or front-loaded reading is a cost regression — cut it.
 
 ## 9. The credibility stamp (the Game Plan only)
 The YouTube Game Plan carries `Powered by Mike Sherrard Coaching Inc Frameworks` as a byline under the title and
@@ -198,9 +198,11 @@ the Brain Board (rule #20) is the read-only map** — never the other way round.
 
 ## 12. The setup journey (one order, announced out loud — Week 5)
 `yt-setup` runs five steps the member hears one at a time — *"Okay, cool, now I'm going to…"* — with one question
-(the channel) and exactly ONE Yes (the workflows card — the email note stated, never asked) in the whole journey,
-about thirty minutes. Every other confirmation is a statement of what was decided from the Brain, followed by the
-building in the same reply — never "ready?", never "confirm?", never a wait between steps.
+(the channel), about thirty minutes of work. **One step per reply, and every step ends on its stop line** (rule
+#23: *"Say **Yes** and I'll [the next step] — or tell me what you'd change. **Your turn.**"*) — the Channel Page,
+the Game Plan's proposal (the three topics, the pace, the filming day — shown BEFORE the plan is built), the built
+plan, the board, then the workflows card and its Yes. Never "ready?", never "confirm?", never a menu — and never
+two steps in one reply.
 **The welcome** names Week 5 and the five steps — and only the files that are really on file (the offer · the guide
 · the bios; a missing one is never claimed); the usage tip, in a fresh session, in plain words ("leave the effort
 setting on Medium — the picker beside the model name"). Then:
@@ -214,20 +216,22 @@ setting on Medium — the picker beside the model name"). Then:
    Brand folder — found → one line; not found → one line naming "make my brand kit", plus the short words; never a
    new brief — rule #18). A member starting fresh is told, in one stated line, how to create the channel. No Starter
    Resource unless the member skipped Week 2 (then `yt-leads` builds it, as before). Compliance never stops it
-   (rule #3).
-2. **The Game Plan**, inline, no stop (rule #10) — the research line said once; the hand-over two lines pointing at
-   the document; the first video dated at least three days out (rule #19).
+   (rule #3). **Then the stop line — and the reply ends.**
+2. **The Game Plan, in two replies** (rule #10): first what it stands on — the three topics, the pace, the filming
+   day — proposed, **then the stop line**; on the member's Yes, the research line said once, the build, the
+   hand-over two lines pointing at the document, the first video dated at least three days out (rule #19) — **then
+   the stop line.**
 3. **The board** — the one Content Dashboard gains its 🎬 YouTube tab and the next 30 days (rule #11), each card
    with one real video to watch first (found by search and checked; one statement about them, by what is true);
    the line is said by what is true ("adding a YouTube tab to your content board" · "building your content board
-   with a YouTube tab").
-4. **The card** — told, not asked (rule #23): its own short message, nothing else in it, at most 70 words before
+   with a YouTube tab"). **Then the stop line.**
+4. **The card** — said only after the member's Yes at the board's stop; told, not asked (rule #23): its own short message, nothing else in it, at most 70 words before
    "Say Yes" (rule #21); provision both on the Yes; record every line in the config block; never
    claim a schedule that did not save; anything but a Yes → both task lines read `later` and the journey carries on.
 5. **The first win**: the first video on the plan (a new channel's trailer when that is the first row), handed over
    with its exact title ("make my attraction video: [title]"), its recording and publishing days, the Monday the
    Kickoff starts drafting, the editing next step stated, never hedged (rule #22).
-**Between the channel answer and "Say Yes" the member reads about 350 words outside the three paste blocks, with at most ONE caveat line** (rule
+**Each reply is one step and short — about 120 words outside the copy blocks — with at most ONE caveat line in the whole sitting** (rule
 #24). **The close** is a fixed, visible step: the first-video line · the Board-and-Book line from the sitting's
 closing push, both links handed over — "here they are" (rule #20) · at most three short numbered next steps (paste
 the three channel pieces · make your first video · invite your first interview guest) · one plain line for later —
@@ -389,19 +393,19 @@ whole Brain, every file; a partial pull is completed first). Therefore:
 The Brain Board is the read-only map; Notion (rule #11) is the working board. To the member it is "your Brain
 Board" — never a file, never a path.
 
-## 21. Scheduled workflows — two, draft-only, both on the one Yes — and telling the member
+## 21. Scheduled workflows — two, draft-only, both on the card's Yes — and telling the member
 
 Cowork scheduled tasks run in the cloud on the member's clock. The two, by name, task id, owner and time (the
 contract's `## Scheduled workflows` section carries the same table); there is no optional set:
 
 | Workflow | Task id | Owner | Switched on | When |
 |---|---|---|---|---|
-| Monday Kickoff — this week's video drafted onto its card (three ways to open, the brief, the script start or the interview guide, the thumbnail sheet, the title and description), into the Brain and the video's folder; the board topped up to 30 days; a note of at most seven lines | `attraction-monday-kickoff` | `yt-briefing` | at setup, with the member's one Yes | Mondays, the member's hour (default 9:00 am) |
+| Monday Kickoff — this week's video drafted onto its card (three ways to open, the brief, the script start or the interview guide, the thumbnail sheet, the title and description), into the Brain and the video's folder; the board topped up to 30 days; a note of at most seven lines | `attraction-monday-kickoff` | `yt-briefing` | at setup, with the member's Yes on the workflows card | Mondays, the member's hour (default 9:00 am) |
 | Monthly Channel Review — the month by topic, which videos brought agent conversations, the one move; the month's Studio screenshots used when they are on record, and the three-screenshots step stated at the end of every review; the step-up proposal once a month at one has held; each published card's 📊 AFTER IT'S OUT; a dated YouTube block in the Brain's performance ledger | `attraction-monthly-youtube-review` | `yt-triggers` | at setup, with the same Yes | the 1st, the member's hour (default 8:00 am) |
 
 The weekly numbers are the member's on demand ("how did my video do", "which videos brought me agents" —
 `yt-analytics`), never a scheduled report. The rules every task obeys:
-- **One Yes, told not asked (rule #23).** The one card at the journey's fourth step (`yt-setup` Step 8) states both workflows in plain words with their
+- **The card's Yes, told not asked (rule #23).** The one card at the journey's fourth step (`yt-setup` Step 8) states both workflows in plain words with their
   times and the email note, and closes with "Say Yes" — never "all, some, or not yet", never a choice of defaults.
   **The card is its own short message — nothing else in it, at most 70 words before "Say Yes"** (the owner's
   review; `skills/yt-setup/references/workflows-consent.md` holds its words). A
@@ -480,8 +484,16 @@ never an open-ended menu, never a choice between defaults, never "keep the defau
 Extras are stated, never offered; a workflow is switched on, never proposed; the email note is part of the process;
 a connector the member lacks gets the Connect button in the chat, not a question (`yt-board` Step 1 — the click
 path is always "Customize → Connectors → [name] → Connect", in the left sidebar). **All the member has to say is
-"Yes" — once per sitting**: a line that only confirms what is about to be made (the lanes, the cadence, a topic, a
-title, the next step) is a statement plus the making; the one real Yes is the consent a schedule needs. The only
+"Yes"** — and since 2026-11-15 they say it **at the end of each step**, because the owner ran a sitting, walked
+away and found everything built: *"it ends up doing the entire work for me rather than waiting for me to give
+direction or feedback or answers… it should WAIT for me."* **ONE STEP, THEN WAIT** (this wins over every older "no
+stop" line): one step per reply; the reply shows what was built or what is proposed and ends on the stop line —
+*"Say **Yes** and I'll [the next step, in plain words] — or tell me what you'd change. **Your turn.**"*; nothing of
+the next step is read, built, saved or said until the member answers; what shapes a document is proposed before
+the document is built; a change → make it, show only what changed, the same stop line again; a question → one
+plain answer, then the stop line; silence is never a Yes. The stop is a statement of what was built, never a menu
+and never one of the old questions. "Do it all" / "don't stop" runs the rest without the stops only when the member
+says it — never offered. The workflows card's Yes is also the consent a schedule needs. The only
 questions left are facts the Brain cannot hold — here the channel link (or "starting fresh"), a guest's name, which
 video a comment came from. "Your turn" appears on those alone. On-demand hand-offs at the end of a piece ("say 'make
 my attraction video: [title]'") are breadcrumbs, not questions. YouTube never asks about a posting tool: publishing
@@ -491,10 +503,10 @@ is the member pasting in their own Studio; the posting-tool question belongs to 
 
 The simulated Week 5 sitting printed about 2,300 words before the Yes, five bullets of caveats, dates that made no
 sense and three different "kits". So, in every skill of this plugin:
-- **Short on screen; the documents hold the detail.** Inside setup, everything between the channel answer and "Say
-  Yes" fits in about 350 words outside the three paste-today blocks (the only copy blocks — never cut, never counted), the Game Plan hand-over is
-  two or three lines pointing at the document, the board is three short lines (the progress line is the first to
-  drop), the card is its own message. Everywhere
+- **Short on screen; the documents hold the detail.** Inside setup each reply is ONE step, about 120 words outside
+  the three paste-today blocks (the only copy blocks — never cut, never counted): the Game Plan hand-over is two or
+  three lines pointing at the document, the board is three short lines, the card is its own message — and every
+  step ends on its stop line (rule #23). Everywhere
   else the same habit: the verdict and the next step in the chat, the rest in the document; never a document's
   contents repeated in the chat; never an account of what was read or which files were opened.
 - **At most ONE caveat line a sitting** — it names what was missing and the one phrase that fixes each (*"Your kit

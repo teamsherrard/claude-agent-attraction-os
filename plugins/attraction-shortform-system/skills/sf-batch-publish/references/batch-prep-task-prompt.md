@@ -1,6 +1,6 @@
-# Batch Prep — Scheduled Task Prompt (switched on by setup's one Yes · the evening before the batch day · draft-only)
+# Batch Prep — Scheduled Task Prompt (switched on by the consent card's Yes · the evening before the batch day · draft-only)
 
-Create ONLY after the member's explicit yes (setup's consent card — one of the four switched on by the one Yes — or
+Create ONLY after the member's explicit yes (setup's consent card — one of the four switched on by the consent card's Yes — or
 `sf-batch-publish`'s "turn on my batch prep"): `create_scheduled_task`, `taskId: attraction-sf-batch-prep`,
 `cronExpression: [minute] [hour] * * [the weekday before the batch day]` (weekly, the evening before
 `identity/publishing.md → Batch day(s):` — no batch day set → Sunday, `0`; default 6:00 pm, in the member's timezone from

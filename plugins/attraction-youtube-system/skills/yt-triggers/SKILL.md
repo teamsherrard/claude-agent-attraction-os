@@ -3,7 +3,7 @@ name: yt-triggers
 description: >
   The scheduled-workflow registry and the timely-angle reader for the Agent Attraction YouTube System
   (Week 5). Lists exactly two workflows — the Monday Kickoff and the Monthly Channel Review — both
-  switched on at setup with the member's one Yes, draft-only, stoppable in one sentence, plus the
+  switched on at setup with the member's Yes on the workflows card, draft-only, stoppable in one sentence, plus the
   email note that comes with every run; owns the Monthly Channel Review (the 1st: the month by topic,
   which videos brought agent conversations, the one move, the step to two a week when due). Also
   turns dated industry news from the Brain's intel file into cited, timely video angles for agents —
@@ -34,7 +34,7 @@ dropped on the next write; no brackets in the block (the Brain Board reads a tas
 
 | Workflow | When | Switched on | Owner | `config.md` line and its values |
 |---|---|---|---|---|
-| Monday Kickoff — this week's video drafted onto its card, the Brain and the video's folder; the board topped up to 30 days; the short note | Mondays, the member's hour (9:00 am) | at setup, with the member's one Yes | `yt-briefing` — task id `attraction-monday-kickoff` | `Monday Kickoff task:` → `attraction-monday-kickoff · runs Mondays [time]` · `paused` · `later` |
+| Monday Kickoff — this week's video drafted onto its card, the Brain and the video's folder; the board topped up to 30 days; the short note | Mondays, the member's hour (9:00 am) | at setup, with the member's Yes on the workflows card | `yt-briefing` — task id `attraction-monday-kickoff` | `Monday Kickoff task:` → `attraction-monday-kickoff · runs Mondays [time]` · `paused` · `later` |
 | Monthly Channel Review — the month by topic, which videos brought agent conversations, the one move, the step-up when due; uses the month's Studio screenshots when they are on record and always ends with the three-screenshots step; writes each published card's 📊 AFTER IT'S OUT and a dated YouTube block in the Brain's performance ledger | the 1st, the member's hour (8:00 am) | at setup, with the same Yes | this skill — task id `attraction-monthly-youtube-review` | `Monthly review task:` → `attraction-monthly-youtube-review · runs the 1st [time]` · `paused` · `later` |
 | **The email line** — one short email to the member's own address when a run finishes | with every run | part of the process, never asked | the consent card writes it; any run may flip it | `Email me:` → `yes YYYY-MM-DD` · `no (no mail connected)` (an older plain `no` mirrored from the Short-Form block is honoured) |
 

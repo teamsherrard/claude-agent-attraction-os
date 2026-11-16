@@ -1,6 +1,6 @@
 # Monday Kickoff — Scheduled Task Prompt (Week 5 · Brain-native, workspace-backed, draft-only)
 
-Create ONLY after the member's explicit yes — the one Yes on `yt-setup`'s card (the journey's fourth step) or
+Create ONLY after the member's explicit yes — the Yes on `yt-setup`'s workflows card (the journey's fourth step) or
 "turn on my attraction Monday kickoff" (`yt-briefing` Step 5, from `paused` or `later`) — per
 `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md`: `list_scheduled_tasks` first (adopt
 `attraction-monday-kickoff` if it exists, never a twin), else `create_scheduled_task` with

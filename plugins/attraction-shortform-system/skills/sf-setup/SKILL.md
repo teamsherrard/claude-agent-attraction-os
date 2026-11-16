@@ -2,12 +2,12 @@
 name: sf-setup
 description: >
   One-time onboarding for the Agent Attraction Short-Form System, the Week 4 layer on the member's
-  Brain: one sitting, told not asked, the member says Yes once. (1) Profiles and the two keywords
-  confirmed (the Week 2 bios shown, refreshed only if something changed; GUIDE and the offer's word;
-  platforms stated); (2) the Short-Form Game Plan with the ManyChat build sheet; (3) the Notion board
-  with the next 30 days mapped; (4) four scheduled workflows switched on with the one Yes (Monday Week
-  Plan, Batch Prep, Wednesday News Watch, Monthly Calendar Refill; five extras stated; the
-  email note part of the process), then the one question, Metricool or GoHighLevel; (5) the first
+  Brain: one sitting, one step at a time — each step is shown, then it waits for the member's Yes or
+  their changes. (1) Profiles and the two keywords confirmed (the Week 2 bios shown, refreshed only if
+  something changed; GUIDE and the offer's word; platforms stated); (2) the Short-Form Game Plan with
+  the ManyChat build sheet; (3) the Notion board with the next 30 days mapped; (4) four scheduled
+  workflows switched on with a Yes (Monday Week Plan, Batch Prep, Wednesday News Watch, Monthly
+  Calendar Refill; five extras stated), then the one question, Metricool or GoHighLevel; (5) the first
   Reel, then the Brain Board and Brain Book handed over. Never re-asks the Brain; a second call
   resumes one part. Trigger on: "set up my attraction short-form", "launch my attraction short-form",
   "confirm my attraction profiles", "audit my attraction profiles", "my attraction keywords", "set my
@@ -22,12 +22,12 @@ the Brain (Week 1), the three Week 2 files — the Partner Offer, the guide, the
 whose chapter 6 is the bios and chapter 7 the six designed social posts and the CALLS TO ACTION table) — and the
 brand from Week 3. By the end they hold five things in this sequence: **their profiles and their two keywords
 confirmed → their Short-Form Game Plan (and their ManyChat build sheet) → their content board with the next 30 days
-on it → their four scheduled workflows → their first Reel.** One sitting, about twenty-five minutes; each step is
-announced before it starts.
+on it → their four scheduled workflows → their first Reel.** One sitting, about twenty-five minutes of work; **one
+step at a time — every step ends by waiting for the member** (the owner, 2026-11-15).
 
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`) — above all #1: plain and warm, never
 technical, **told, not asked** (every step a statement of what is being built; a question only for a fact the Brain
-cannot hold; the one Yes on the consent card), breadcrumbs. This is the member's first impression of the plugin. The
+cannot hold) and **one step, then wait** (the stop at the end of every step), breadcrumbs. This is the member's first impression of the plugin. The
 Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 ## ⭐ THE RULES THAT SHAPE THIS SKILL
@@ -39,6 +39,26 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   statement of what will be built; the consent card ends in ONE line the member answers with "Yes" — the one explicit
   yes the scheduled-task rule needs. Extras are stated, never offered as a menu. The only questions left are facts
   the Brain cannot hold.
+- **ONE STEP, THEN WAIT (the owner, 2026-11-15 — this rule wins over every older "no stop" line).** The owner ran
+  the sitting, walked away, and came back to find everything built: *"it ends up doing the entire work for me rather
+  than waiting for me to give direction or feedback or answers… it should WAIT for me."* So:
+  - **One step per reply.** Each reply does ONE step, shows what it built or what it proposes, and ends with **the
+    stop line**. Nothing of the next step is read, built, saved or said until the member answers. A member who walks
+    away comes back to exactly that line — nothing more has happened.
+  - **The stop line is always the last line, always this shape:** *"Say **Yes** and I'll [the next step, in plain
+    words] — or tell me what you'd change. **Your turn.**"* Each step below prints its own.
+  - **Direction comes before a big build.** What shapes a document is shown first and waits: the five pillars and
+    the week are proposed, the member says Yes or changes them, and only then is the Game Plan built.
+  - **A change instead of a Yes** → make it, show only what changed, save it, and end with the same stop line
+    again. **A question** → one plain answer, then the stop line again. **Anything unclear** → ask what they mean,
+    once, and wait. Never read silence, a "hmm" or a question as a Yes.
+  - **Still told, not asked.** The stop is never a menu and never one of the old questions (no "all, some or not
+    yet", no "want me to email you?", no platform or ManyChat question): the step states what was built, and the
+    only word the member ever has to say is **Yes**.
+  - **"Do it all" / "don't stop" / "finish it without me"** — only when the member says so — → run the remaining
+    steps without the stops, pausing only for the consent card's Yes and the posting-tool question. Never offered.
+  - Each step still saves and stamps the moment it is built, so a member who leaves loses nothing and the next call
+    opens on that step's stop line.
 - **The journey is the product.** Confirm profiles and keyword → Game Plan → board and 30 days → workflows and the
   posting tool → the first Reel. Each step is announced in one breath (*"Okay, cool — now I'm going to…"*) and runs
   without a menu. Nothing is "an optional afterthought".
@@ -69,11 +89,12 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   now", never a third option, never `declined`.
 - **Public needs compliance.** A refreshed bio and the ManyChat messages are public → the three-state gate before
   they are written. The Game Plan is private and builds in every state; posting waits.
-- **ONE Yes and ONE fact question in the whole sitting (the owner, 2026-11-14: "all that the student has to say is
-  'Yes'").** The Yes is the consent card's (Step 5 — the consent every scheduled workflow needs); the question is the
-  posting tool, Metricool or GoHighLevel (Step 5's last item — a fact the Brain cannot hold). The pillars, the
-  cadence and a refreshed bio are stated, saved, and closed with "tell me any time if you want one changed" — never a
-  Yes line, never a wait. Nothing else is asked in this journey.
+- **All the member ever has to say is "Yes" — at the end of each step — and ONE fact question (the owner,
+  2026-11-14: "all that the student has to say is 'Yes'"; 2026-11-15: "it should WAIT for me").** Every step ends on
+  its stop line; the consent card's Yes (Step 5) is also the consent every scheduled workflow needs; the one question
+  is the posting tool, Metricool or GoHighLevel (Step 5's last item — a fact the Brain cannot hold). The pillars, the
+  cadence and a refreshed bio are proposed and wait for the Yes — a member who wants one changed says so at the stop.
+  Nothing else is asked in this journey.
 - **The CTA law and the scalable offer bind every line.** Every call ask is the person · their help · free · to run
   the method (join register: *"If you want my help running this — the lessons, the templates, the community —
   partner with me and it's free."*; open register, `Join-gated package allowed: no`: *"I'll walk you through it,
@@ -103,14 +124,16 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
    - **`profiles pending compliance`** → a refreshed bio was held because compliance was `unset`: read it again
      now; `set` or `confirmed` → write the held bio back (Step 2.5), then continue where the journey left off;
      still `unset` → one plain line, then the next unfinished step (the Game Plan is private).
-   - **`profiles done`** → *"Welcome back — your profiles and your two words are confirmed. Next: your Short-Form
-     Game Plan."* → Step 3.
-   - **`game plan done`** → *"Welcome back — your Game Plan is saved. Next: your content board and your next 30
-     days."* → Step 4.
-   - **`board done`** → *"Welcome back — your board is mapped. Next: your scheduled workflows."* → Step 5.
-   - **`workflows done`** → *"Welcome back — everything's switched on. Let's make your first Reel."* → Step 6 —
-     but first read `publishing.md → Posting tool:`: while it still reads `manual` or `chosen: … — connect pending`,
-     finish Step 5's last item (the one posting-tool question, or the chosen tool's connect), then Step 6.
+   - **`profiles done`** → *"Welcome back — your profiles and your two words are confirmed. Say **Yes** and I'll lay
+     out your five pillars and your week. **Your turn.**"* → wait; on the Yes, Step 3.
+   - **`game plan done`** → *"Welcome back — your Game Plan is saved. Say **Yes** and I'll put your next thirty
+     days on your content board. **Your turn.**"* → wait; on the Yes, Step 4.
+   - **`board done`** → *"Welcome back — your board is mapped. Say **Yes** and I'll show you the four workflows that
+     keep it filled. **Your turn.**"* → wait; on the Yes, Step 5.
+   - **`workflows done`** → first read `publishing.md → Posting tool:`: while it still reads `manual` or `chosen: …
+     — connect pending`, finish Step 5's last item (the one posting-tool question, or the chosen tool's connect).
+     Then *"Welcome back — everything's switched on. Say **Yes** and I'll script your first Reel, '[title]'. **Your
+     turn.**"* → wait; on the Yes, Step 6.
    - **a legacy value** (`pillars done` · `bios done` · `keyword done` from an earlier version) → resume at
      Step 2, keeping whatever exists: a `Keyword:` line already holding the two words is never re-asked (an older
      single word — a retired default or a resource word — is replaced by the two, said in one line); pillars
@@ -132,8 +155,9 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
      whole short-form setup again, from the top — I'll update what you already have, never duplicate it."*), set
      `Short-form setup: not started`, push, and run the full journey (Steps 1–6). Everything is updated in place:
      the Game Plan is rebuilt under today's date, the board is upgraded and re-mapped by System ID (never a second
-     board), a scheduled task that already exists is adopted (never a twin), the consent card is said again and the
-     one Yes is asked again, and the posting-tool line is kept when a tool is already connected.
+     board), a scheduled task that already exists is adopted (never a twin), the consent card is said again and its
+     Yes is asked again, every step stops and waits as on a first run, and the posting-tool line is kept when a tool
+     is already connected.
 3. Read the first line of `identity/compliance.md` — `Status:` (the Brain writes `Status:` first, then `Gate:`)
    once now; it decides whether a refreshed bio and the ManyChat messages are written today.
 4. Read `config.md` for the `## Short-Form (Week 4)` block — an older `## Short-Form (Week 3)` heading is the same
@@ -142,13 +166,12 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 5. Check once whether the member's mail is connected (Gmail or Outlook tools present in the session) — it decides
    the `Email me:` line at Step 5 and the email sentence on the consent card.
 
-## Step 1 — Welcome (name the five steps and the first win)
+## Step 1 — Welcome (name the five steps, play the member back, then WAIT)
 > "Let's switch on your short-form engine. You already hold more than you think — your offer, your guide, your
-> six designed posts and your bios — and I know you from your Brain, so this is quick. We'll go in order: first
-> I'll confirm your profiles and the two words your Reels will use; then I'll build your Short-Form Game Plan;
-> then your content board with your next thirty days mapped onto it; then I'll switch on the workflows that
-> draft your week for you and connect the tool that schedules your posts. And we finish by scripting your first
-> Reel. About twenty-five minutes — let's go."
+> six designed posts and your bios — and I know you from your Brain, so this is quick. We'll go one step at a
+> time, and I'll wait for you after each one: first your profiles and the two words your Reels will use; then
+> your Short-Form Game Plan; then your content board with your next thirty days on it; then the workflows that
+> draft your week for you and the tool that schedules your posts; and we finish by scripting your first Reel."
 
 Then open only the files the reflection needs: `identity/profile.md` (name, what they're building, brokerage,
 market, handles) · `identity/avatars.md` (the primary type they attract; whether team leaders or broker-owners are
@@ -160,6 +183,12 @@ open — never re-read one. Reflect back in one breath so it's clear nothing wil
 > "Here's what I've got: you're [name], building [what] at [brokerage] in [market]; you attract [the primary
 > type, one line]; you're known for [known-for]; your voice is [one line]; your guide is [its title]. I won't ask
 > you any of that again."
+
+**The reply ends here, on the stop line — nothing of Step 2 is started:**
+> "Is that still right? Say **Yes** and I'll start with your profiles — or tell me what's changed. **Your turn.**"
+A correction (a new brokerage, a different agent they attract, a renamed guide) → say one line that it goes in
+their Brain (*"say 'update my attraction brain' and I change it there"* — this skill never rewrites identity
+files), carry the corrected fact through this sitting, and stop again.
 
 ## Step 2 — Confirm your profiles and keyword (never rewrite, never ask)
 > "Okay, cool — first your profiles. Your bios are already written and pointed at your guide, so I'm checking them
@@ -218,7 +247,7 @@ bios, the two words and the platforms needs no gate): `confirmed` → go · `set
 confirm with the brokerage · `unset` → hold the refreshed bio: *"Your two words and your Game Plan are private, so
 we keep moving — a refreshed bio is public, so before I write it back I need your compliance basics. Say 'set up my
 attraction compliance' (three minutes) and I'll finish it."* Write the keyword and platform lines (Step 2.5) now, set
-`Short-form setup: profiles pending compliance`, push, and go to Step 3. The held bio is written back on the next
+`Short-form setup: profiles pending compliance`, push, and end the step on its stop line (below) like any other. The held bio is written back on the next
 call once the gate opens.
 
 **5. Write, save, push:** `identity/publishing.md` — create it now in the contract's full shape if absent (every
@@ -237,16 +266,35 @@ heading and earlier update line byte-for-byte; never rename, reorder or drop a h
 refreshed and saved], your two words are set, your platforms are set."* No document is saved — the bios live in the
 kit and the Brain.
 
-## Step 3 — Now your Short-Form Game Plan (same session, no stop)
-> "Okay, cool — now I'm going to build your Short-Form Game Plan: who you're talking to, your five pillars with
-> real angles, the week you can actually keep, thirty hooks, the two words that turn a comment into a
-> conversation, and your next thirty days with a date on every post — starting with the six posts you already
-> have designed, so your first two weeks are post, don't make."
+**The reply ends here, on the stop line — nothing of Step 3 is started:**
+> "Say **Yes** and I'll lay out your five pillars and your week — or tell me what you'd change here. **Your
+> turn.**"
+A change (*"add LinkedIn"*, *"that bio isn't right"*, *"my link is different"*) → make it inside this step's own
+rules (two keywords only; a bio change is a refresh, inside its limit, through the gate), show only what changed,
+save, push, and stop again with the same line.
 
-Run **`${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/SKILL.md`** now, inside this session — it reads the kit first
-(chapter 7's six posts and the CALLS TO ACTION table; `offer.md → ## Content branches` and `## The framework`), then
-the two keywords, the platforms and the profiles you just confirmed, and never re-asks them; it has no stop and asks nothing — the
-pillars and the cadence are stated in one short message and the plan is built in the same reply; ManyChat is told, never asked; it
+## Step 3 — Now your Short-Form Game Plan (same session — TWO replies: your direction first, then the build)
+**3a — the pillars and the week: proposed, then WAIT (the member's direction comes before the document).**
+> "Okay, cool — now your Short-Form Game Plan. Before I build it, here's what it stands on — your five pillars and
+> the week you can actually keep."
+
+Run **`${CLAUDE_PLUGIN_ROOT}/skills/sf-gameplan/SKILL.md`** now, inside this session, **up to the end of its Phase 3
+only** — it reads the kit first (chapter 7's six posts and the CALLS TO ACTION table; `offer.md → ## Content
+branches` and `## The framework`), then the two keywords, the platforms and the profiles you just confirmed, and
+never re-asks them. It shows the five pillars (one line each) and the week (how many posts, the mix, the filming
+day), saves both to the Brain as it does today, and **the reply ends on the stop line — the plan document is NOT
+built yet:**
+> "Say **Yes** and I'll build your Game Plan on these — or tell me what to change: a pillar, how many posts a
+> week, or your filming day. **Your turn.**"
+A change → `sf-gameplan` applies it by its own rules (still five pillars from the OS's five; the cadence the
+member names; the filming day they name), shows only what changed, saves, and stops again with the same line.
+
+**3b — on the Yes: the plan is built, handed over, then WAIT.**
+> "Building your Game Plan now: who you're talking to, your pillars with real angles, thirty hooks, the two words
+> that turn a comment into a conversation, and your next thirty days with a date on every post — starting with
+> the six posts you already have designed, so your first two weeks are post, don't make."
+
+`sf-gameplan` runs its remaining phases; ManyChat is told, never asked; it
 writes `identity/content-pillars.md`, the strategy lines of `publishing.md` and `memory/content-calendar.md` (the six
 kit posts as rows 1–6 at `Ready to Post`, then the Reels), saves `[Name]'s Short-Form Game Plan — YYYY-MM-DD` to
 `03 · Content/Short-Form/`, keeps the text at `exports/short-form-game-plan-YYYY-MM-DD.txt` (the Brain Board reads
@@ -256,12 +304,17 @@ it), and sets `Short-form setup: game plan done`.
 session: it writes `YYYY-MM-DD · ManyChat Build Sheet` beside the Game Plan's month folder (its text in
 `exports/manychat-build-sheet-YYYY-MM-DD.txt`) and sets `publishing.md → ManyChat: not yet — set it up this week
 (build sheet YYYY-MM-DD)`, pushed. Compliance `unset` → the sheet's messages are public, so the sheet waits for the
-gate — the Game Plan still stands; say so in the line below. When it hands back, one line, then straight to Step 4 —
-never "come back later", never a pasting session in between:
-> *"Your Game Plan is in your workspace under Content → Short-Form. ManyChat is how your two keywords answer
-> themselves — set it up this week from your build sheet, saved right beside the plan (say 'my ManyChat build sheet'
-> any time and I'll print it). You don't connect ManyChat to Claude. Until it's live, reply by hand from your DM
-> bank."*
+gate — the Game Plan still stands; say so in the line below. When it hands back, the hand-over lines — never "come back later", never a pasting session in between:
+> *"Your Game Plan is in your workspace under Content → Short-Form: [the link]. ManyChat is how your two keywords
+> answer themselves — set it up this week from your build sheet, saved right beside the plan (say 'my ManyChat build
+> sheet' any time and I'll print it). You don't connect ManyChat to Claude. Until it's live, reply by hand from your
+> DM bank."*
+
+**The reply ends here, on the stop line — nothing of Step 4 is started:**
+> "Open your Game Plan and have a look. Say **Yes** and I'll put your next thirty days on your content board — or
+> tell me what to change in the plan. **Your turn.**"
+A change → `sf-gameplan` in its UPDATE mode for that one part (a new dated copy; the calendar's un-started rows
+only), one line of what changed, and the same stop line again.
 
 ## Step 4 — Now your content board and your next 30 days
 > "Okay, cool — now your content board: I'll put your next thirty days on a board in your own Notion — the tabs at
@@ -293,14 +346,22 @@ their Brain Board is the read-only map of the same month, re-rendered on every p
 Set `Short-form setup: board done`, push, verify. The YouTube system adds its own tab to the same board in a later
 week — say so in one line only if they ask.
 
-## Step 5 — Now your scheduled workflows (one consent card, one Yes)
+**The reply ends here, on the stop line — nothing of Step 5 is started:**
+> "Open your board and have a look: [the link]. Say **Yes** and I'll show you the four workflows that keep it
+> filled — or tell me what to change. **Your turn.**"
+(No board yet — the Connect card is in the chat — → *"Your board is waiting on Notion. Say **Yes** and we go on to
+your workflows — or say 'connected' once you've connected Notion and I'll build it first. **Your turn.**"*) A
+change (a date, a post swapped, a card removed) → make it on the board and in the calendar row, one line, and the
+same stop line again.
+
+## Step 5 — Now your scheduled workflows (one consent card and its Yes; then the posting tool; then WAIT)
 > "Okay, cool — now your scheduled workflows. Four run for you, and every one only drafts — nothing posts, sends,
 > or schedules on its own."
 
 **Open now:** `config.md` (timezone; the existing `## Short-Form (Week 4)` block, or the older `(Week 3)` heading
 read as the same block) · `publishing.md → Batch day(s):` (set by the Game Plan at Step 3 — the day the Batch
 Prep precedes). The mail check from Step 0.5 decides the card's email sentence. **ONE consent card, in plain words,
-before creating anything — a statement, ending in the one Yes:**
+before creating anything — a statement, ending in its Yes:**
 > *"Here's what I'm switching on for you: the **Monday Week Plan** — Mondays, 7:00 am: your week's scripts,
 > captions and stories drafted onto your board with a week brief, and any welcome or win post the week earned;
 > **Batch Prep** — [the evening before your batch day], 6:00 pm: your teleprompter doc, this week's scripts
@@ -384,19 +445,27 @@ own settings):
   `https://services.leadconnectorhq.com/mcp/` → paste the token and your location id into the connector's own fields
   (never into this chat) → Connect. Then come back and say 'connected'."* On "connected": verify (the connected social
   accounts read back), write `Posting tool: gohighlevel · connected YYYY-MM-DD · location [name]`, push, one line.
-- **The connect fails, cannot be read back, or the member walks away** → never a wait: straight on to Step 6 with one line, the only place copy-paste is said: *"until it's
-  connected your posts are copy-paste; say 'connect my posting tool' when you're back."* The line keeps `chosen: …
+- **The connect fails or cannot be read back** → one line, the only place copy-paste is said: *"until it's
+  connected your posts are copy-paste; say 'connect my posting tool' when you're back."* **The member walks away
+  mid-connect** → nothing more happens; the sitting waits where it is. The line keeps `chosen: …
   — connect pending`; `declined` is gone. Both lines always exist — `Posting tool:` and `Best times:`; `sf-publish`
   updates only those two (`manual` is the placeholder from file creation at Step 2 until this step runs, the same
   sitting). No live-data connection is ever touched during setup; the connect itself is the member's click.
 
-## Step 6 — The first win: script the first Reel RIGHT NOW
-> "Okay, cool — now let's make your first one. Your first two weeks open with the six posts you already have
+**The step ends on the stop line — the first Reel is NOT scripted yet** (said once the posting tool is connected,
+or its one fallback line has been said):
+> "Last step: your first Reel — '[the first talking-head title on your calendar]'. Say **Yes** and I'll script it
+> now — or name a different one from your plan. **Your turn.**"
+Another title named → that row becomes the first Reel (it must be a row on the calendar; an idea that is not on it
+goes through "script my attraction reels" later — say so in one line), and the same stop line again.
+
+## Step 6 — The first win: script the first Reel (on the member's Yes)
+> "Okay, cool — here's your first one. Your first two weeks open with the six posts you already have
 > designed — post, don't make; they're on your Graphics tab, ready to post. Your first Reel is [title] — I'm
 > scripting it now, from your story, hook three ways, keyword and all."
 
 Hand to **`sf-talkinghead`** (Phase 2, with the calendar's first Reel row — the first talking-head row after the six
-kit posts, the first of THE THREE TO FILM FIRST — as the topic: one Reel, no question stop; **inside setup it skips its own editing paragraph, its own closing push
+kit posts, the first of THE THREE TO FILM FIRST — as the topic (or the row the member named at Step 5's stop): one Reel, no further stop inside the script; **inside setup it skips its own editing paragraph, its own closing push
 and its own Board-and-Book line — this step's close says each of them exactly once**). They finish holding a real, ready-to-film piece — not a checklist. When it's delivered: set
 `Short-form setup: complete YYYY-MM-DD`, then **the sitting's closing push** (the owner, 2026-11-14) — push through
 `attraction-brain-sync` **marked as the sitting's closing push**: the Brain plugin's sync rebuilds the Brain Board AND
@@ -461,15 +530,16 @@ profiles" in chat. A whole-stack rewrite (a new offer, a new brokerage) is the L
 ## Completion checklist
 - [ ] Brain located (pulled first if empty); the reflection files and the kit text at Step 1, the rest at the step that used them; reflected back — **nothing re-asked**
 - [ ] Second call routed: resume the unfinished step or one named part — **the journey never re-ran**
-- [ ] Each step announced in one breath before it started; **told, not asked** — no menu, no "all, some or not yet", no "want me to", no platform or ManyChat question; the ONE Yes is the consent card's and the ONE question is the posting tool — the pillars, the cadence and a refreshed bio are stated, never a stop; Week 4 in every line, never "Week 3" for short-form work, never a skill id or a path in a line the member reads
+- [ ] **ONE STEP PER REPLY, AND EVERY STEP ENDED ON ITS STOP LINE** — after the welcome, the profiles, the pillars-and-week proposal, the built Game Plan, the board, the consent card and the posting tool; nothing of the next step was read, built, saved or said before the member answered; a change was made, shown and followed by the same stop line; silence or a question was never read as a Yes; "do it all" was honoured only when the member said it
+- [ ] Each step announced in one breath before it started; **told, not asked** — no menu, no "all, some or not yet", no "want me to", no platform or ManyChat question; the only word the member had to say was Yes; the ONE fact question is the posting tool; Week 4 in every line, never "Week 3" for short-form work, never a skill id or a path in a line the member reads
 - [ ] Profiles **confirmed, not rewritten**: the identity line and the one link shown; the change test run per bio; a refresh only where the offer, the proof or the funnel URL changed — shown as a copy block, written back inside its heading with the update line (stated, no Yes); no bio written from scratch; `## YouTube` untouched; no pack document saved
 - [ ] **Two keywords exactly** — GUIDE and the offer's `Comment keyword:` — shown in one line; no third word proposed; `publishing.md` created in the full shape, `Keyword:` carrying both words, `What it opens:` for each
 - [ ] **Platforms stated, never asked**: Instagram and Facebook both; TikTok and Shorts as optional reposts; LinkedIn only when the avatars hold team leaders or broker-owners; the one link in bio; `Platforms (priority order):` written in the locked value; compliance three-state applied only to a refreshed bio; `unset` held it, set `profiles pending compliance`, and continued to the Game Plan
-- [ ] The Game Plan built in the same session by `sf-gameplan` — the kit read first, the six kit posts as rows 1–6 at `Ready to Post`, then the Reels; pillars, publishing lines, the calendar written; the doc saved; the text in `exports/`; `game plan done`; **the ManyChat build sheet written and handed over in one line** (set it up this week; never connected to Claude; "my ManyChat build sheet" prints it)
+- [ ] The pillars and the week PROPOSED first and the Game Plan built only on the member's Yes, in the same session, by `sf-gameplan` — the kit read first, the six kit posts as rows 1–6 at `Ready to Post`, then the Reels; pillars, publishing lines, the calendar written; the doc saved; the text in `exports/`; `game plan done`; **the ManyChat build sheet written and handed over in one line** (set it up this week; never connected to Claude; "my ManyChat build sheet" prints it)
 - [ ] The board mapped in Notion — the Graphics, Reels and Calendar tabs; the kit posts seeded first on Graphics at `Ready to Post`; the Brain Board named as the read-only map; or the Notion Connect card put in the chat (the click path as the fallback), never blocking, never asked; an older `declined` honored, never written; `board done`
 - [ ] ONE consent card in the owner's shape: the four with their days and times, "every one only drafts", the email sentence (or the no-mail line), **"Say Yes and I'll set them up"**; all four created on the Yes, adopted not twinned, verified, each from its owner's prompt file; the five extras stated in one sentence; `Email me:` set from the mail check, never asked; the `config.md` `## Short-Form (Week 4)` block with the nine task lines, the slot and time lines and `Email me:` in the locked order, the retired lines deleted — pushed; `workflows done`
 - [ ] Posting tool asked as the one straight question (Metricool or GoHighLevel — never optional, never a third option) and connected: the Connect card in the chat for Metricool (the click path only as the fallback, never a URL), the exact steps for GoHighLevel (token and location into the connector's own fields, never into chat); verified on "connected"; the `Posting tool:` line one of the four values, pushed; copy-paste said only as the fallback line
-- [ ] The first Reel scripted from the first talking-head row with no question stop; `Short-form setup: complete` — the sitting's closing push made through the sync, marked as such, verified
+- [ ] The first Reel scripted only after the member's Yes at Step 5's stop, from the first talking-head row (or the row they named); `Short-form setup: complete` — the sitting's closing push made through the sync, marked as such, verified
 - [ ] **The close handed over the Brain Board and the Brain Book with their links — "here they are"** (the Board file shown too when the session can; a rebuild that failed named plainly with its retry phrase); then the breadcrumb in the owner's order — the six designed posts · the batch day · "edit my reel" in a new chat (Plugin 5, the AI Editing Studio; install it first if missing) · "my ManyChat build sheet" · "my attraction workflows" — naming only the workflows that saved
 - [ ] Every call ask in the CTA law's shape; nothing promised the member's time per partner; every write followed by a push
 - [ ] Whole thing felt fast, warm, value-first, non-technical — the member heard each step coming

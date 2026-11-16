@@ -2,6 +2,26 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.30.0] — 2026-11-15
+
+**One step, then wait (Short-Form 0.6.0 · YouTube 0.6.0 · Support 0.1.27).** The owner launched the Week 4 short-form sitting, stepped away, and came back to find everything built — the profiles, the Game Plan, the board, right up to the workflows card: *"it ends up doing the entire work for me rather than waiting for me to give direction or feedback or answers… it should WAIT for me."* Both setup sittings are rewritten around that.
+
+**The rule (`sf-setup`, `yt-setup`, both plugins' house rules; it wins over every older "no stop" line).**
+- **One step per reply.** Each reply does one step, shows what it built or what it proposes, and ends on a stop line: *"Say **Yes** and I'll [the next step, in plain words] — or tell me what you'd change. **Your turn.**"* Nothing of the next step is read, built, saved or said until the member answers. A member who walks away comes back to exactly that line.
+- **Direction comes before a big build.** What shapes a document is shown first and waits: the five pillars and the week before the Short-Form Game Plan; the three topics, the pace and the filming day before the YouTube Game Plan. The document is built on the member's Yes.
+- **A change instead of a Yes** is made, shown (only what changed), saved, and followed by the same stop line. A question gets one plain answer and the stop line again. Silence is never a Yes.
+- **Still told, not asked** (2026-11-14: "all that the student has to say is 'Yes'"). The stop is never a menu and never one of the old questions — no "all, some or not yet", no "want me to email you?", no platform or ManyChat question. The only word a member has to say is Yes — now at the end of each step instead of once.
+- **"Do it all" / "don't stop"** runs the remaining steps without the stops, pausing only for the workflows card's Yes (and, in short-form, the posting-tool question) — only when the member says it; never offered.
+- Each step still saves and stamps when it is built, so nothing is lost if the member leaves, and a later call opens on that step's stop line.
+
+**Short-Form 0.6.0 — where it now stops.** After the welcome and the play-back ("Is that still right?") · after the profiles and the two words · after the pillars and the week are proposed (the Game Plan is NOT built yet) · after the Game Plan is built · after the board · the workflows card and its Yes · the posting tool · before the first Reel is scripted (the member can name a different one). `sf-gameplan` runs in two replies inside setup — Phases 1 to 3, the stop, then the build. "The one Yes" in the workflow tables now reads "the consent card's Yes", so no rule can be read as "only one stop". The house rule that a question is "2–4 related facts in one stop" is corrected to one plain question at a time.
+
+**YouTube 0.6.0 — where it now stops.** After the channel question (or, with the channel on file, after the play-back) · after the Channel Page and its three pieces to paste · after the Game Plan's proposal (three topics, pace, filming day — nothing researched or built yet) · after the plan is built · after the board · then the workflows card and its Yes, and the close. The "about 350 words before the Yes" budget is replaced by "one step a reply, about 120 words outside the copy blocks". `yt-gameplan` starts only on the member's Yes and builds on what they approved or changed.
+
+**Docs and Support.** The setup guide (Weeks 4 and 5), both demo checklists (each step's stop, and "two steps in one reply" added to what a demo must not show) and FAQ Q53, Q62 and the new Q70 ("It built everything while I stepped away. Can it wait for me?").
+
+**Not proven yet.** Written from the owner's live run of the old behaviour; the new sittings have not been run in Cowork.
+
 ## [0.29.0] — 2026-11-15
 
 **The YouTube plugin, audited by three independent readers and tightened (YouTube 0.5.0 · Short-Form 0.5.1 · Brain 0.9.13 · Support 0.1.26).** After 0.28.0 three read-only audits walked the plugin as the model that has to follow it — the setup sitting, one video's life from the Monday Kickoff to "my video is published", and the numbers, reviews and shared rules. They returned 75 findings; every one that was real is fixed here. One feature was added: the first batch.

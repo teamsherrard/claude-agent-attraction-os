@@ -1,6 +1,6 @@
-# Wednesday Brokerage News Watch — Scheduled Task Prompt (switched on by setup's one Yes · Wednesdays, 8:00 am · draft-only · real headlines only)
+# Wednesday Brokerage News Watch — Scheduled Task Prompt (switched on by the consent card's Yes · Wednesdays, 8:00 am · draft-only · real headlines only)
 
-Create ONLY after the member's explicit yes (setup's consent card — one of the four switched on by the one Yes — or
+Create ONLY after the member's explicit yes (setup's consent card — one of the four switched on by the consent card's Yes — or
 `sf-greenscreen`'s "turn on my news watch"): `create_scheduled_task`, `taskId: attraction-sf-news-watch`,
 `cronExpression: [minute] [hour] * * 3` (every Wednesday at the member's chosen time, default 8:00 am, in the member's
 timezone from `~/attraction-brain/config.md → Timezone`). After creating, `list_scheduled_tasks` to verify (present,

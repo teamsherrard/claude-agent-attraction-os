@@ -239,7 +239,7 @@ Then, in a new Cowork chat, type:
 set up my attraction short-form
 ```
 
-It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it tells you what it is building at each step instead of asking. **In the whole sitting you say Yes once, and you name your posting tool.** In order:
+It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it tells you what it is building at each step instead of asking. **It goes one step at a time and waits for you after each one:** it shows you what it built, and you say **Yes** to move on — or tell it what to change. Nothing is built while you are away. The only thing it asks is which tool schedules your posts. In order:
 
 1. **Your profiles and your two keywords, confirmed.** Your bios were written in Week 2 (chapter 6 of your kit). It
    confirms the identity line and the one link, states your platforms (Instagram and Facebook, both, always; LinkedIn only if you attract team leaders), and confirms your two keywords:
@@ -281,7 +281,8 @@ set up my YouTube for agents
 ```
 
 It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it asks one thing — your channel link, or
-"starting fresh" — and then does five things with you, announcing each before it runs:
+"starting fresh" — and then does five things with you, **one step at a time: it shows you each one and waits for
+your Yes, or your changes, before the next**:
 
 1. **Your channel, optimized for the agents you attract.** Your whole Channel Page Kit is saved as a document: your
    description, about section, links, keywords, playlists, upload defaults and the two lines you say in every video,
@@ -305,7 +306,7 @@ It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it 
    **Your publish checklist, on every card.** Six tick boxes for YouTube Studio — title, description, thumbnail,
    playlist, end screen, pinned comment — each with where to click and exactly what to paste. When all six are
    ticked, say `my video is published` and the card moves to Published.
-4. **Your workflows, switched on for you.** Two, with your one Yes: the Monday Kickoff (this week's video drafted
+4. **Your workflows, switched on for you.** Two, with your Yes on that one card: the Monday Kickoff (this week's video drafted
    onto its card every Monday) and the Monthly Channel Review (your month by lane, which videos brought agent
    conversations, the one move). It emails you a short note at your own address when something is ready — the same
    as your short-form notes. Nothing posts or sends on its own.

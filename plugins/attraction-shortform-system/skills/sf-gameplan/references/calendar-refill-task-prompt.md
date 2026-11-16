@@ -1,6 +1,6 @@
 # Monthly Calendar Refill — Scheduled Task Prompt (the last Friday of the month · Brain-native, workspace-backed, draft-only)
 
-Create ONLY after the member's explicit yes (setup Step 5's consent card — one of the four switched on by the one Yes
+Create ONLY after the member's explicit yes (setup Step 5's consent card — one of the four switched on by the consent card's Yes
 — or "turn on my calendar refill" / "refill my attraction calendar" said in chat): `create_scheduled_task`, `taskId:
 attraction-sf-calendar-refill` (adopt an existing one first — never a twin), `cronExpression: [minute] [hour] * * 5` (every Friday — never a day-of-month range beside it: cron ORs the two fields, so `22-31 * 5` would fire on every day from the 22nd as well; step 0 of the prompt keeps only the LAST Friday of the month — standard cron has no "last Friday" field — at the member's chosen time, default 5:00 pm (the owner, 2026-11-14: the last Friday, 5:00 pm), in the
 member's timezone from `~/attraction-brain/config.md → Timezone`). After creating, `list_scheduled_tasks` to verify

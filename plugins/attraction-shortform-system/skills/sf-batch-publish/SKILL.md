@@ -197,11 +197,11 @@ Brain Board); if the push fails, say it is not saved, retry once, stop. Mirror c
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in
 your Content folder. Say 'how's my content doing' any time to see which of these started conversations."*
 
-## The scheduled workflow — Batch Prep (switched on by setup's one Yes; the evening before the batch day; this skill owns it)
+## The scheduled workflow — Batch Prep (switched on by the consent card's Yes; the evening before the batch day; this skill owns it)
 The teleprompter doc, waiting the evening before the member's batch day: this week's scripts grouped by outfit and
 location, the hook three ways on every card, one of the two keywords on every ask — so the batch day starts with the
 cards, not with planning. **Provisioned only with the member's explicit yes, never silently.** The normal path is
-**setup's consent card** (one of the four switched on by the one Yes; setup provisions it without asking again).
+**setup's consent card** (one of the four switched on by the consent card's Yes; setup provisions it without asking again).
 Otherwise "turn on my batch prep" → read `config.md → ## Short-Form (Week 4)` → `Batch Prep task:` first: a task id →
 it is on, say so; `paused` → they stopped it, its phrase brings it back; `later` / no line / any other value → on the phrase, a
 statement, never an offer or a question (the owner, 2026-11-14: told, not asked): *"Switching on your batch prep — the
@@ -235,7 +235,7 @@ evening before your batch day, 6:00 pm; name another time any time."*
 - [ ] Compliance read once for the batch; `unset` stopped it; stamp and permissions on every caption
 - [ ] Queue saved and approved ONCE before scheduling; cap respected; failures reported honestly
 - [ ] One content-log row per piece in the locked shape; pushed at once; board mirrored only if present
-- [ ] Batch Prep provisioned by setup's one Yes or the member's phrase (a statement, never an offer),
+- [ ] Batch Prep provisioned by the consent card's Yes or the member's phrase (a statement, never an offer),
       adopted not twinned, verified; the two config lines written to `## Short-Form (Week 4)` and pushed; its run saves
       the one doc, flips the cards when the board exists, emails only when `Email me: yes`, ends with a push, never
       posts

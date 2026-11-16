@@ -85,9 +85,11 @@ phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phas
 CTAs), §13–§14 (Phases 7–9). `references/starter-title-bank.md` at Phase 6 only, and only when the member has no
 titles of their own (the rule is stated there). Never the whole doctrine up front.
 
-**Run from setup (`yt-setup` Step 6 — the journey's second step).** The member has just heard *"now I'm going
-to build your YouTube Game Plan"*; the plan runs straight through with **no question stops**: the cadence is
-stated, not asked (Phase 2 — one video a week for the first month, two the step-up); goals at `seeds` are used
+**Run from setup (`yt-setup` Step 6b — after the member's Yes).** Setup's Step 6a has already PROPOSED what the
+plan stands on — the three topics, the pace, the filming day — and waited (the owner, 2026-11-15: "it should WAIT
+for me"); this skill starts only on the member's Yes and builds on what they approved or changed there. From that
+Yes the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
+week unless the member chose two), never asked again; goals at `seeds` are used
 and labeled, never asked for (Phase 7); the board step is skipped (Phase 9 step 6 — setup's next step adds the
 YouTube tab and maps the next 30 days); **no chat summary of its own** (Phase 9 step 3 — setup hands the plan over
 in two lines pointing at the document: no topic list, no title list, no calendar, no goal numbers in the chat);

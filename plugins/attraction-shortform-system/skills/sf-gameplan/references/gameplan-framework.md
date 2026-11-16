@@ -78,8 +78,8 @@ prospect see a leader worth joining from this post?) and the any-agent test; bro
 woven through the pillars, never the feed; compensation never appears (doctrine §6, §11); **the scalability test**
 (doctrine §10e) — no summary or angle promises the member's time per partner: no "stand next to me on a Saturday",
 no group-chat or one-to-one line, no "I answer my phone" — the deliverables named are the recorded lessons, the
-templates, the community, the weekly group call only when the member already runs one. No stop (the owner, 2026-11-14): the five
-are stated in one short message and the plan is built in the same reply; a Personality pillar the Brain cannot fill
+templates, the community, the weekly group call only when the member already runs one. One stop, before the document: the five
+are PROPOSED in one short message and the reply stops there — the plan is built on the member's Yes (the owner, 2026-11-15); a Personality pillar the Brain cannot fill
 is drafted and labeled, never asked in the sitting (on demand, one plain question at a time). Write
 `content-pillars.md` at once — the file shape is the contract's; the header lines are kept.
 
@@ -221,10 +221,10 @@ Named in the doc exactly as the brief of 2026-11-14 §5 names them; the member s
 task id.
 | Workflow | When | Owner | Produces | Switched on |
 |---|---|---|---|---|
-| Monday Week Plan | Mondays, 7:00 am (`Week Plan slot:`) | `sf-week-plan` | the week's scripts, captions and stories drafted onto the board + a week brief; any welcome or win post the week earned (no task of its own) | by setup's one Yes |
-| Batch Prep | the evening before the batch day, 6:00 pm (`Batch Prep slot:`) | `sf-batch-publish` | the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | by setup's one Yes |
-| Wednesday Brokerage News Watch | Wednesdays, 8:00 am (`News Watch slot:`) | `sf-greenscreen` | three to six real, cited headlines, each with a 30-second green-screen take, on the board | by setup's one Yes |
-| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | `sf-gameplan` (this skill's scheduled mode, `references/calendar-refill-task-prompt.md`) | the next thirty days from the pillars, the branches and what performed; the board refilled; the step to five Reels a week proposed once a month at three has held | by setup's one Yes |
+| Monday Week Plan | Mondays, 7:00 am (`Week Plan slot:`) | `sf-week-plan` | the week's scripts, captions and stories drafted onto the board + a week brief; any welcome or win post the week earned (no task of its own) | by the consent card's Yes |
+| Batch Prep | the evening before the batch day, 6:00 pm (`Batch Prep slot:`) | `sf-batch-publish` | the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | by the consent card's Yes |
+| Wednesday Brokerage News Watch | Wednesdays, 8:00 am (`News Watch slot:`) | `sf-greenscreen` | three to six real, cited headlines, each with a 30-second green-screen take, on the board | by the consent card's Yes |
+| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | `sf-gameplan` (this skill's scheduled mode, `references/calendar-refill-task-prompt.md`) | the next thirty days from the pillars, the branches and what performed; the board refilled; the step to five Reels a week proposed once a month at three has held | by the consent card's Yes |
 | Keyword Follow-up Queue · Mid-week Nudge · Monthly Deep Dive · Daily Stories Prompt · Quarterly Profile Audit | Tue/Thu · Wednesdays · the 1st · each morning · quarterly | `sf-comment-to-dm` · `sf-week-plan` · `sf-analytics` · `sf-stories` · `sf-setup` | the five extras, stated in one sentence — "they're there if you want them; say the word any time" | by phrase |
 Plus the email line as a statement — *"I'll email you a short note at your own address when something's ready"*
 (`Email me: yes YYYY-MM-DD`), or *"no mail is connected yet, so your notes stay in Cowork"* (`no (no mail connected)`)

@@ -1,4 +1,4 @@
-# The one card — two workflows and the email note, switched on with one Yes
+# The one card — two workflows and the email note, switched on with the card's Yes
 
 `yt-setup` Step 8 (the journey's fourth step) says this card ONCE and the member answers "Yes". The same card is said
 by `yt-briefing` (Step 5) and `yt-triggers` (Job 1) on an older install whose block holds no task lines yet — this file

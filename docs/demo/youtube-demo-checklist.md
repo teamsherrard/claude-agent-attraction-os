@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.5.0 · Brain 0.9.13. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.6.0 · Brain 0.9.13. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen
@@ -22,14 +22,16 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 **Say:** `set up my YouTube for agents`
 - [ ] **The welcome** names Week 5 and the five things, in order (your channel → your Game Plan → your videos on your
   board → your workflows → your first video), names only what is really on file (your offer, your guide, your bios),
-  and asks one thing: the channel. **In the whole sitting the member says Yes exactly once (the workflows card).**
+  and asks one thing: the channel. **ONE STEP PER REPLY: every step ends on "Say Yes and I'll … — or tell me what you'd change. Your turn." and nothing more is built until the member answers** — after the Channel Page, the Game Plan's three topics and pace (shown BEFORE the plan is built), the built plan, and the board; then the workflows card and its Yes. Walk away mid-sitting and come back: it is exactly where you left it.
 - [ ] **Your Channel Page:** saved as one document under Content → Long-Form, and in the chat only **the three to paste
   today**, each as a copy block with its click path above it: the channel description with the about section, the
   links (the booking link first, the guide second), the upload defaults. One line says the other pieces (keywords,
   playlists, banner, spoken lines, trailer) are in the document, and that `walk me through my channel page` takes them
   one at a time. The banner is the one the brand kit made in Week 3. No "paste it now" question, no wait.
-- [ ] **The Game Plan:** one line with the research ("about [N] searches"), then two lines pointing at the document —
-  never the plan in the chat. Open it: three niche lanes from the offer's content branches, the interview lane, the
+- [ ] **The Game Plan, in two replies:** first what it stands on — your three topics, your pace (one video a week), your
+  filming day — and a **stop**: "Say Yes and I'll build your plan on these — or tell me what to change". Nothing is
+  researched or built yet. On the Yes: one line with the research ("about [N] searches"), then two lines pointing at
+  the document — never the plan in the chat — and a second stop. Open it: three niche lanes from the offer's content branches, the interview lane, the
   model lane, about fifty titles, **one video a week to start** (two named as the step-up), the first 90 days on the
   8-video cycle, the goal in conversations and calls — never income. **The first video is never dated today:** it is
   recorded on the next filming day at least three days out.
@@ -82,6 +84,6 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   income promise · a Saturday beside the member, a group chat or a 1:1 in any script or CTA · two videos a week as the
   default · the whole 90-day plan on the board · nine copy blocks in one chat message · a first video dated today · a
   reference link that does not open, a view count nobody saw, or a card with a made-up video · a thumbnail brief "for
-  Claude Design" · a question about connecting live numbers during setup · a task created without the one Yes · a
+  Claude Design" · a question about connecting live numbers during setup · a task created without the Yes on the workflows card · two steps in one reply, or anything built before you answered · a
   question about email, a posting tool or which workflows · a close without the Board and Book links · anything that
   posts, sends or publishes on its own · a skill name or a file path spoken to the member.

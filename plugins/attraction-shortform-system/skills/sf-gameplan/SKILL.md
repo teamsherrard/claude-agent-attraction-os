@@ -53,10 +53,12 @@ and only where the member's own material leaves a pillar short — the rank ther
 
 ## Three ways it runs
 - **Inside setup** (`sf-setup` Step 3 — the normal Week 4 path): the member just heard *"now I'm going to build
-  your Short-Form Game Plan"*; the two keywords, the platforms and the profiles are already confirmed. Build the
-  plan with **no stop and no question** (the owner, 2026-11-14: all the member says in the sitting is the consent card's one Yes) — the pillars and the cadence are stated in one short message and the plan is built in the same reply; ManyChat is told,
-  never asked (Phase 5) — deliver, save, anchor, then hand straight back to setup (which hands over the ManyChat
-  build sheet, then the board). No menu, no "come back later".
+  your Short-Form Game Plan"*; the two keywords, the platforms and the profiles are already confirmed. **It runs in TWO
+  replies (the owner, 2026-11-15: "it should WAIT for me"):** first Phases 1 to 3 — the pillars and the week are
+  PROPOSED in one short message, saved, and the reply stops on setup's stop line (the document is NOT built yet);
+  then, on the member's Yes (or after their changes), Phases 4 to 9 — the plan is built, saved and anchored, and
+  the skill hands back to setup, which says its own stop line. ManyChat is told, never asked (Phase 5); nothing
+  else is a question. No menu, no "come back later".
 - **On demand** — **BUILD** when no `## Game Plan anchors` block exists in `content-pillars.md`; **UPDATE** when
   one does ("update my short-form game plan", "plan my next 30 days of reels"): refresh only what changed (a new
   30-day calendar from the day after the last mapped date; new research; a pillar the member asked to change),
@@ -74,7 +76,7 @@ and only where the member's own material leaves a pillar short — the rank ther
   refilled, draft-only, nothing posted; **the cadence step-up lives here** (the owner, 2026-11-14): when the log shows
   a month at three Reels a week has held (three posted each of the last four weeks), the refill proposes five in one
   line — the member's phrase ("change my cadence") flips `Cadence:` through an UPDATE run, never the refill itself; **every run
-  ends with a push** so the Brain Board shows it. Switched on by setup's one Yes (the consent card), or by phrase
+  ends with a push** so the Brain Board shows it. Switched on by the consent card's Yes (the consent card), or by phrase
   ("turn on my calendar refill" / "refill my attraction calendar" — a statement, never an offer): `list_scheduled_tasks`
   first (adopt, never a twin), else `create_scheduled_task` with the prompt verbatim, verify (present, enabled, a
   `nextRunAt`), write `Calendar Refill task: attraction-sf-calendar-refill` to `config.md → ## Short-Form (Week 4)` (an
@@ -131,13 +133,17 @@ Same structure, same gate.
   setup-time Game Plan makes zero calls to it (`shared/composio-data-engine.md`, "never during setup"); web
   search only. Research unavailable or empty → build from the Brain, label the affected rows `unresearched`,
   say so once in the Read-this-first, and put the re-run on next steps. Never invent a demand signal.
-- **No stops in setup (the owner, 2026-11-14: "all that the student has to say is 'Yes'" — and that one Yes is the
-  consent card's, in `sf-setup` Step 5).** The pillars and the cadence are STATED in one short message and the plan is
-  built in the same reply — never a Yes line, never a wait: *"Your five pillars, from your offer: [one line each]. Your
-  week: three posts a week — your first two weeks are the six posts you already have designed. I'm building your Game
-  Plan on these now; tell me any time if you want one changed."* ManyChat is told, never asked (Phase 5); the platforms
-  are stated (Phase 3); nothing is asked. A member who names a change gets it applied and the document rebuilt
-  ("update my pillars" · "change my cadence").
+- **One stop in setup, before the document (the owner, 2026-11-15: "it should WAIT for me… to give direction or
+  feedback"; 2026-11-14: "all that the student has to say is 'Yes'").** The pillars and the week are PROPOSED in one
+  short message — *"Your five pillars, from your offer: [one line each]. Your week: three posts a week — your first
+  two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a
+  week, stories every day; your filming day is [day]."* — and the reply ENDS on setup's stop line: *"Say **Yes** and
+  I'll build your Game Plan on these — or tell me what to change: a pillar, how many posts a week, or your filming
+  day. **Your turn.**"* Nothing of Phase 4 onward runs until the member answers. **A change** → apply it inside the
+  rules (the five OS pillars stay five; the cadence and the filming day are the member's to set), show only what
+  changed, save, and stop again with the same line. ManyChat is told, never asked (Phase 5); the platforms are
+  stated (Phase 3); nothing else is a question. On demand the same proposal-then-Yes applies to a first BUILD;
+  an UPDATE changes the one part the member named and says so.
 
 ---
 
@@ -167,7 +173,7 @@ brokerage never the reason). No kit → the same two built from `magnets.md` and
 labeled "(from your Brain — your kit's wording replaces it)". **Why I'm building this** — the why-line from
 `journey.md`, verbatim or drafted and labeled (`01-foundation-mindset/10`). Never a question box.
 
-## Phase 2 — The five pillars, three angles each (section 2 · 400+ words) — stated, never a stop
+## Phase 2 — The five pillars, three angles each (section 2 · 400+ words) — proposed here; the stop comes after Phase 3
 **Lazy-load doctrine §5–§6.** **Read now:** `identity/story-bank.md` · `proof.md` (consent column) · `brand-visual.md`
 (the "leader brand vs selling brand" line) · `brokerage-model.md` (facts only; never a figure) · `memory/ideas.md`
 (tags `shortform` · `story`; the `## Past content (imported)` section's `pillars:` note — how they post today —
@@ -202,15 +208,15 @@ labeled as the upline's · Personality = passions, routines, family lines they a
 sitting: draft the three angles from what the Brain does hold (the profile's "before real estate" line, the journey,
 the WHY) and label them *"(draft — tell me what you do off the clock and I'll sharpen these)"*; on demand ("update my
 pillars") one plain question at a time fills them.
-**State the five in one short message — never a Yes line, never a wait** (the owner, 2026-11-14): *"Your five pillars,
-from your offer: [one line each]."* — it runs straight into Phase 3's line and the plan is built in the same reply;
-a member who names a change gets it applied and the document rebuilt. Then **write `identity/content-pillars.md` now** in the contract's shape
+**State the five in one short message** — *"Your five pillars, from your offer: [one line each]."* — it runs
+straight into Phase 3's line (the week), and after that line the reply STOPS and waits for the member (the rule
+above); a member who names a change gets it applied before anything is built. Then **write `identity/content-pillars.md` now** in the contract's shape
 (the template's header lines kept and filled · the one-line anchors · the five sections headed exactly by the
 pillar names, three angles each · `## Game Plan anchors` · `## Weekly mix` · `## Hooks bank`), **push, verify.**
 *"Saved — your pillars are in your Brain."* (Inside setup the header lines `Cadence` and `The two CTAs` line 2
 fill at Phases 3 and 5 of this same run.)
 
-## Phase 3 — The format mix and the weekly cadence (section 3 · 200+ words) — stated, never a stop
+## Phase 3 — The format mix and the weekly cadence (section 3 · 200+ words) — proposed; then the STOP
 **Lazy-load doctrine §7, §9b, §9d.** **Read now:** `identity/goals.md` (the hours per week committed in Week 1;
 its `Content:` line defers to this plan — never ask for hours the Brain holds) · `strategy.md` (`Constraints /
 capacity`, already open) · `operations.md` (`Filming window:`, already open).
@@ -234,7 +240,7 @@ alternate Saturdays; fitted to the filming window) · **the 15-minute routine** 
 comment with a question, answer every DM the same day, tag the agents featured so they reshare, one interactive
 story element, five real comments on agents' posts in the lane, never a negative one — an OS default built on
 `07-instagram/89` and `05-big-picture/36`).
-Stated, never a stop (the owner, 2026-11-14): *"Your week: three posts a week — your first two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a week, stories every day; batch day [day]. I'm building your Game Plan on these now; tell me any time if you want one changed."* (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
+Proposed, in one line: *"Your week: three posts a week — your first two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a week, stories every day; your filming day is [day]."* **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"Say **Yes** and I'll build your Game Plan on these — or tell me what to change: a pillar, how many posts a week, or your filming day. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
 mix:` · `Batch day(s):` to `publishing.md` (the source), mirror `Cadence` and `Platforms` into `content-pillars.md`'s
 header lines and `## Weekly mix`, and write the batch day and time to the single `Filming window:` line of
 `identity/operations.md` (this plugin's one write there, by the Brain contract's permission — the mirror of
@@ -437,8 +443,8 @@ their own phrases and are said in chat, not in this section.
    budget used) and the hooks block; `publishing.md` — the strategy lines from Phases 3 and 5 and, inside setup,
    `Short-form setup: game plan done`; `memory/content-calendar.md` — the window; the exports text. Push via
    `attraction-brain-sync`, verify — **the push re-renders the Brain Board**.
-6. **Hand off.** Inside setup → return to `sf-setup` Step 4 without a question (setup's close names the Brain
-   Board). On demand → *"Your Brain Board is updated. Say 'map my next 30 days' and these thirty days go onto your
+6. **Hand off.** Inside setup → return to `sf-setup` Step 3b, which hands the plan over and says its stop line (the
+   board is NOT started in this reply; setup's close names the Brain Board). On demand → *"Your Brain Board is updated. Say 'map my next 30 days' and these thirty days go onto your
    content board; 'script my first attraction reel' scripts your first Reel."*
 
 ## Quality checklist
@@ -447,8 +453,8 @@ their own phrases and are said in chat, not in this section.
       never touched during a setup-time run
 - [ ] Compliance three-state read first; `unset` named once on section 7 and routed after delivery, never blocking
       the private plan
-- [ ] No stop and no question in setup — the pillars and the cadence stated in one short message, the plan built in
-      the same reply ("tell me any time if you want one changed"); ManyChat told in the owner's shape, never
+- [ ] In setup: the pillars and the week PROPOSED in one short message and the reply stopped on the stop line; the
+      plan built only on the member's Yes (or after their changes); ManyChat told in the owner's shape, never
       asked; the platforms stated, never asked
 - [ ] Section 1: who they attract, the one line, the two keywords, the two CTAs verbatim from the kit's table (the
       guide; the call in the CTA law's shape), the why — drafted and labeled where the Brain is empty, never a

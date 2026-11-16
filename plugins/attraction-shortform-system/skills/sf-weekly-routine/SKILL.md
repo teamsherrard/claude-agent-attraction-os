@@ -33,7 +33,7 @@ film it, what to post each day, and the fifteen minutes that turn attention into
 - **Scalable by design.** No row, story prompt or routine line promises the member's time per partner — no in-person
   days beside the member, no chat group, no one-to-one calls, no "call me any time"; the weekly group call appears
   only when `identity/operations.md` shows the member already runs one. The member's OWN batch day is their routine.
-- **The workflows around this plan** (switched on by setup's one Yes, read from `config.md → ## Short-Form
+- **The workflows around this plan** (switched on by the consent card's Yes, read from `config.md → ## Short-Form
   (Week 4)`): the Monday Week Plan drafts the week; the Batch Prep leaves the teleprompter doc the evening
   before the batch day (`Batch Prep task:` holds a task id → say *"your cards are waiting in your Content folder"*
   instead of re-planning them); "how's my content doing" scores the week any time (the on-demand read; no weekly

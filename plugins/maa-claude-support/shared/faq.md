@@ -636,7 +636,7 @@ plugin writes; you never connect ManyChat to Claude, and no paid ManyChat plan i
 
 **Q53. What are the short-form workflows, and do they post for me?**
 They never post, send or schedule anything; every one drafts and leaves it for you. Setup tells you what it is switching
-on and you say Yes once: the Monday week plan (your week's posts onto your board, plus any welcome or win post your
+on and you say Yes to that card: the Monday week plan (your week's posts onto your board, plus any welcome or win post your
 Brain earned), batch prep (your film-day sheet), the Wednesday brokerage news watch (three to six real, linked
 headlines with a 30-second take each) and the monthly calendar refill. By phrase, any time: the keyword follow-up queue,
 the mid-week nudge, the monthly deep dive, daily stories, the quarterly profile check. Say "my attraction workflows" to
@@ -695,8 +695,8 @@ video's folder, keeps your next 30 days on the board, and leaves a short note in
 (the same as your short-form notes; nothing if no mail is connected). It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat.
 
 **Q62. Do I switch the workflows on one by one, or pick which ones I want?**
-Neither. Setup tells you what it is switching on — four for short-form, two for YouTube — and you say Yes once; that
-one Yes is the consent every scheduled task needs, and nothing is created before it. There is no "all, some, or not
+Neither. Setup tells you what it is switching on — four for short-form, two for YouTube — and you say Yes to that
+card; that Yes is the consent every scheduled task needs, and nothing is created before it. There is no "all, some, or not
 yet" and no "do you want emails": the email note is part of the process when your mail is connected. The extras exist
 by phrase; nothing posts, sends or schedules on its own.
 
@@ -749,4 +749,11 @@ beside the lens, change your top between videos. Film all three on one day; each
 After filming, one video at a time, say "make my attraction video: [title]" and your thumbnail sheet, your title and
 description and your publish checklist are added around the script. Interviews are not part of a batch: a guest is
 booked with "book my agent interview".
+
+**Q70. It built everything while I stepped away. Can it wait for me?**
+It does now. Your short-form setup and your YouTube setup go one step at a time: each step shows you what it built
+(or what it is about to build on — your pillars and your week, your three topics and your pace) and then waits. Say
+"Yes" to move on, or tell it what to change and it changes that and waits again. If you walk away, nothing more
+happens until you are back. If you would rather it ran straight through, say "do it all" — it then stops only for
+your Yes on the workflows.
 

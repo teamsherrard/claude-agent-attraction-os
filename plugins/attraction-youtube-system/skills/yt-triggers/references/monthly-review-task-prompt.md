@@ -1,6 +1,6 @@
 # Monthly Channel Review — Scheduled Task Prompt (Week 5 · Brain-native, workspace-backed, draft-only)
 
-Switched on at setup with the member's one Yes — `yt-setup`'s card (the Monthly row of
+Switched on at setup with the member's Yes on the workflows card — `yt-setup`'s card (the Monthly row of
 `${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md`) — or resumed on "turn on my monthly YouTube
 review" (`yt-triggers` Job 1), from `paused` or `later`. Create ONLY after that explicit yes: `list_scheduled_tasks` first (adopt `attraction-monthly-youtube-review` if it exists, never a twin), else
 `create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, `cronExpression: 0 8 1 * *` (the 1st at

@@ -55,7 +55,7 @@ The block is `~/attraction-brain/config.md → ## Short-Form (Week 4)` (an older
 member stopped it; its phrase brings it back) · `later` (not switched on yet); any other value in an older block reads as
 not on. This skill's lines: `Week Plan task:` · `Week Plan slot:` · `Midweek Nudge task:` (update a line in place, never add a twin; a line is also found by its task id value).
 1. **The Monday Week Plan** — read its line. **A task id** → it is on; say so in one line. **`paused`** → they stopped it;
-   honored (its phrase brings it back). **`later` / no line / any other value** (setup's one Yes normally switched it on)
+   honored (its phrase brings it back). **`later` / no line / any other value** (the consent card's Yes normally switched it on)
    → on the member's phrase ("turn on my Monday week plan") switch
    it on as a statement, never an offer, never a question (the owner, 2026-11-14: told, not asked): *"Switching on
    your Monday Week Plan — Mondays, 7:00 am; name another time any time."* (The Yes given on setup's consent card IS
@@ -222,10 +222,10 @@ Read `config.md`'s Short-Form block, call `list_scheduled_tasks`, and show — i
 
 | Workflow | When | Switched on | Owner | Task id |
 |---|---|---|---|---|
-| Monday Week Plan (with the recognition scan) | Mondays, 7:00 am | by setup's one Yes | this skill | `attraction-sf-week-plan` |
-| Batch Prep | the evening before the batch day, 6:00 pm | by setup's one Yes | `sf-batch-publish` | `attraction-sf-batch-prep` |
-| Wednesday Brokerage News Watch | Wednesdays, 8:00 am | by setup's one Yes | `sf-greenscreen` | `attraction-sf-news-watch` |
-| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | by setup's one Yes | `sf-gameplan` | `attraction-sf-calendar-refill` |
+| Monday Week Plan (with the recognition scan) | Mondays, 7:00 am | by the consent card's Yes | this skill | `attraction-sf-week-plan` |
+| Batch Prep | the evening before the batch day, 6:00 pm | by the consent card's Yes | `sf-batch-publish` | `attraction-sf-batch-prep` |
+| Wednesday Brokerage News Watch | Wednesdays, 8:00 am | by the consent card's Yes | `sf-greenscreen` | `attraction-sf-news-watch` |
+| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | by the consent card's Yes | `sf-gameplan` | `attraction-sf-calendar-refill` |
 | Keyword Follow-up Queue | Tuesdays and Thursdays | by phrase | `sf-comment-to-dm` | `attraction-sf-keyword-queue` |
 | Mid-week Nudge | Wednesdays | by phrase | this skill | `attraction-sf-midweek-nudge` |
 | Monthly Deep Dive | the 1st of the month | by phrase | `sf-analytics` | `attraction-sf-deep-dive` |
@@ -242,7 +242,7 @@ each with its status (on · stopped · later · missing — the Brain says on bu
 through its owner, stated) and the one-sentence stop, then the `Email me:` line (*"your notes reach your own inbox
 when something's ready"* / *"no mail is connected yet, so your notes stay in Cowork"*). "Email me my notes" → mail
 connected → `Email me: yes YYYY-MM-DD`; no mail → say so, `Email me: no (no mail connected)`; "stop emailing me" →
-`Email me: no`; push; one line. The rule for every workflow: the four are switched on by setup's one Yes, the five by
+`Email me: no`; push; one line. The rule for every workflow: the four are switched on by the consent card's Yes, the five by
 the member's phrase — a statement, never an offer; adopt an existing task rather than a twin, verify after creating,
 write the line and push, honor `paused`, never claim a schedule that did not save, every run ends with a push so the
 Brain Board shows it.
@@ -294,7 +294,7 @@ Provision and stop: Job A, item 4.
   5)"; the other plugins by condition, never by name.
 
 ## Quality checklist
-- [ ] Provisioned by setup's one Yes or the member's phrase in Job A (a statement, never an offer or a question), by
+- [ ] Provisioned by the consent card's Yes or the member's phrase in Job A (a statement, never an offer or a question), by
       the exact task ids; existing task adopted; verified; the config lines written in the `(Week 4)` block and
       pushed; stop and pause honored in one sentence; the two retired workflows never listed
 - [ ] The week's rows taken from the calendar, never invented; rows already at `Scripted` left alone; kit post rows

@@ -25,7 +25,7 @@ their own account, from the sheet `yt-thumbnail` writes (the owner, 2026-11-14).
 | 3 | **Lead Magnet** (W2 — install this week, run AFTER "build my partner offer") | `lm-` | 11 | **live** — in the marketplace since 2026-11-08 (0.6.0; since 0.9.0 the guide and the page go into the Week 3 Kit — the one file the member uploads to Claude Design — and the page outline has no document of its own); everything it writes lands in the member's cloud workspace and on their Brain Board | "launch my lead magnet plugin" / "set up my lead magnet for agents" |
 | 4 | **Short-Form** (W4) | `sf-` | 15 | **live** — in the marketplace since 2026-11-14 (0.3.0): one sitting, two keywords, the kit's six posts first, Notion board, nine draft-only workflows (four switched on with the member's one Yes, five by phrase) | "set up my attraction short-form" |
 | 5 | **AI Editor — Riverside** (W4, with Short-Form — its video kit is designed in Week 3; the SAME plugin as the realtor marketplace, install once) | `studio-` | 28 | **live** — in the marketplace since 2026-11-14 (0.4.5; vendored from the realtor marketplace with the Brain-home patch) | "set up my video editor" / "edit my reel" |
-| 6 | **YouTube** (W5 — date to be confirmed) | `yt-` | 19 | **live** 0.5.0 (returned to main 2026-11-14, rewired per `docs/plans/youtube-rewire-2026-11-14.md`) | "set up my YouTube for agents" |
+| 6 | **YouTube** (W5 — date to be confirmed) | `yt-` | 19 | **live** 0.6.0 (returned to main 2026-11-14, rewired per `docs/plans/youtube-rewire-2026-11-14.md`) | "set up my YouTube for agents" |
 | 7 | **Conversion & Sales** (W6 — date to be confirmed) | `cv-` / `sales-` | 19 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "launch conversion" / "I have a call with [name]" / "set up my sales system" |
 | 8 | **AI Admin** (W6 — date to be confirmed) | `admin-` | 8 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "set up my attraction admin" |
 | 9 | **Events & Workshops** (W7, bonus — date to be confirmed) | `ev-` | 10 | **coming** — not in the marketplace yet (launch cut 2026-11-03); built, parked on `wip/all-plugins` | "plan my workshop" / "plan my agent event" |
@@ -232,7 +232,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug
   in later — never "missing".
 
-### Plugin 4 — Short-Form (W4) — LIVE 0.5.1 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
+### Plugin 4 — Short-Form (W4) — LIVE 0.6.0 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
 - Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live
   lead magnet). Publishing = bring-your-own (Metricool, or manual). The ManyChat sequences are a bonus-asset import
   on the member's own ManyChat account, not a plugin feature. Notion is bring-your-own for the board — without it the
@@ -255,7 +255,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - Known modes: connector connected but reads fail → tree #12; edits persist in Riverside, state in
   the Brain's `editor/` allowlist.
 
-### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.5.0 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
+### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.6.0 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
 - Depends on: Brain + the Week 2 files (the offer's content branches, the guide, the Week 3 Kit's calls-to-action table, the YouTube bio from the kit) + the Short-Form setup from Week 4 (`content-pillars`, the Notion board — "YouTube wants my pillars" means run the short-form setup first). House rhythm: one chat = one video. Cadence: one video a week for the first month, two the step-up the monthly review proposes.
 - **Journey:** kit → Game Plan → the YouTube tab on the board (30 days — four or five videos at one a week) → the two workflows + the email note, one Yes → first video; resumes from
   `channel.md`'s `Setup:` stamp; the Kickoff drafts the week's video every Monday. Known modes: "it skipped the board" =

@@ -324,7 +324,7 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   were retired from the OS on 2026-11-14 (the owner's evening ruling) — that work now lives in the Monthly Channel
   Review and the on-demand video reads, and nothing in this plugin reads or writes that key.
 
-## Scheduled workflows this plugin touches (two — both switched on by the member's one Yes at setup)
+## Scheduled workflows this plugin touches (two — both switched on by the member's Yes on the workflows card at setup)
 Both are switched on together, once, on `yt-setup`'s one card (the journey's fourth step —
 `skills/yt-setup/references/workflows-consent.md` holds the card, the provisioning order, the line values, stop ·
 pause · change) — **told, not asked** (the owner, 2026-11-14 evening): the card is one statement of what is switched
@@ -473,7 +473,7 @@ install Plugin 5 from the same marketplace, then 'set up riverside' once").
     (one card, one statement, "Say Yes"; the email note stated, never asked; extras stated, never offered; a missing
     connector gets the Connect button in the chat); the weekly note is gone from the OS and with it this plugin's
     weekly section (its work moved to the Monthly Channel Review and the on-demand video reads — the step-up
-    proposal, 📊 AFTER IT'S OUT, the performance-ledger block); two workflows, both on the one Yes; the config block's
+    proposal, 📊 AFTER IT'S OUT, the performance-ledger block); two workflows, both on the workflows card's Yes; the config block's
     six locked lines (`Email me:` = `yes YYYY-MM-DD` · `no (no mail connected)`, an older plain `no` mirrored from the
     Short-Form block honoured; a task line = a task id · `paused` · `later`); the board's four tabs — Graphics · Reels · YouTube · Calendar; the Status select
     gains `Ready to Post`; the sitting's closing push hands over the Brain Board and the Brain Book with their links;

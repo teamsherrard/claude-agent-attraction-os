@@ -1,7 +1,7 @@
 # Short-Form demo checklist — Week 4 on a demo Brain that finished Weeks 1 to 3
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1) and
-`lead-magnet-demo-checklist.md` (Week 2). Short-Form plugin 0.5.1 · Riverside editor 0.4.5 · Brain 0.9.13. Every number
+`lead-magnet-demo-checklist.md` (Week 2). Short-Form plugin 0.6.0 · Riverside editor 0.4.5 · Brain 0.9.13. Every number
 in a demo Brain is fictional and tagged.*
 
 ## Before the screen
@@ -20,13 +20,13 @@ in a demo Brain is fictional and tagged.*
 ## The screen (one sitting, about 25 minutes live; say so)
 **Say:** `set up my attraction short-form`
 - [ ] The welcome names Week 4 and the five steps (profiles and keywords → Game Plan → board → workflows → first Reel),
-  then plays back who the member is from the Brain. No question box. **In the whole sitting the member says Yes exactly once (the workflows card) and names their posting tool.**
+  then plays back who the member is from the Brain. No question box. **ONE STEP PER REPLY: every step ends on "Say Yes and I'll … — or tell me what you'd change. Your turn." and nothing more is built until the member answers** — after the welcome, the profiles, the five pillars and the week (shown BEFORE the Game Plan is built), the built Game Plan, the board, the workflows card and the posting tool. Walk away mid-sitting and come back: it is exactly where you left it. Try a change at one stop ("make my filming day Thursday"): it changes that, shows it, and waits again.
 - [ ] **Profiles and keywords:** it shows the identity line and the one link, says the bios were written in Week 2, and
-  asks NOTHING: Instagram and Facebook both (every Reel and graphic), LinkedIn only when the avatars include team leaders,
+  asks no question about them: Instagram and Facebook both (every Reel and graphic), LinkedIn only when the avatars include team leaders,
   the bio link = the guide. It states exactly TWO keywords: GUIDE (the guide) and the offer's own invitation word, and
-  says ManyChat is required (your own account, free plan to start, never connected to Claude). No document.
-- [ ] **The Game Plan:** no stop at all — it states the five pillars and the week (three a week is the default: twelve dated posts, six already designed, six to film) and builds in the same breath. The document lands
-  in Content → Short-Form. Open it: the pillars come from the offer's content branches; **the 30-day calendar opens
+  says ManyChat is required (your own account, free plan to start, never connected to Claude). No document. **Then it stops:** "Say Yes and I'll lay out your five pillars and your week — or tell me what you'd change here."
+- [ ] **The Game Plan, in two replies:** first it PROPOSES the five pillars and the week (three a week is the default: twelve dated posts, six already designed, six to film; your filming day) and **stops** — "Say Yes and I'll build your Game Plan on these — or tell me what to change". Nothing is built yet. Say Yes (or change the filming day first and watch it adjust): now it builds, and the document lands
+  in Content → Short-Form, followed by a second stop ("Open your Game Plan and have a look…"). Open it: the pillars come from the offer's content branches; **the 30-day calendar opens
   with the six posts designed in Week 3** ("post, don't make"), then the Reels; section 5's two asks are the guide
   (GUIDE) and the call in Mike's shape (partner with me and get my help, free, to run this).
 - [ ] **The board:** the Notion Content Dashboard with its tabs — Graphics (opens first: the six kit posts at Ready to Post, never Recorded), Reels, Calendar (YouTube joins in Week 5). Click one card: the hook, the script, the caption, the ask, filming notes, sources, in that order. Without Notion the **Connect button appears right in the chat** ("Click Connect, sign in, then say 'connected'") and the sitting keeps going; nothing is lost.
@@ -58,6 +58,6 @@ in a demo Brain is fictional and tagged.*
 
 ## What the demo must NOT show
 - A third keyword (PARTNER, SCALE, GROWTH) · "join [brokerage]" as a reason · a Saturday beside the member, a group
-  chat or a 1:1 in any script · an invented headline or a link that does not open · a task created without the one Yes · a question about platforms, ManyChat, email or which workflows to switch on · the posting tool offered as optional or as "copy-paste" · a close without the editing step and the Board and Book links · "Recorded" on a designed post ·
+  chat or a 1:1 in any script · an invented headline or a link that does not open · a task created without the Yes on the workflows card · two steps in one reply, or anything built before you answered · a question about platforms, ManyChat, email or which workflows to switch on · the posting tool offered as optional or as "copy-paste" · a close without the editing step and the Board and Book links · "Recorded" on a designed post ·
   anything that posts, sends or schedules on its own · a skill name or a file path spoken to the member · "Week 3"
   for anything short-form.
