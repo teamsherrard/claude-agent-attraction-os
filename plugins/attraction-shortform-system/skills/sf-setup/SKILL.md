@@ -110,7 +110,7 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
     or earnings figure → the figure is left out, said once.
   - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll build that one from your Brain. Say
     'update my pillars' any time to put it in your own words."*; the entry is saved as skipped, never asked twice,
-    never a guilt line. An answer too thin to use → ONE *"Say a little more — what do they actually say?"* in the
+    never a guilt line. An answer too thin to use → ONE *"Say a little more — in your own words."* in the
     whole interview, then whatever comes is taken.
   - **Saved the moment it is given** (`## In your words`, pushed) — a member who leaves after Question 2 comes
     back to Question 3.
@@ -228,14 +228,22 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
 
 ## Step 1 — Welcome (name the five steps, play the member back, then WAIT)
 > "Let's switch on your short-form engine — and we build it together. It works like an interview: I ask you a
-> few questions, you answer in your own words, and after each answer I show you what I built from it. You already
-> hold more than you think — your offer, your guide, your six designed posts and your bios — and I know you from
+> few questions, you answer in your own words, and after each answer I show you what I built from it. [You already
+> hold more than you think — your offer, your guide, your six designed posts and your bios — and] I know you from
 > your Brain, so I won't ask you any of that again. Five steps, one at a time, and I wait for you after each:
 > your profiles and the two words your Reels will use; your Short-Form Game Plan — that's where your answers go;
 > your content board with your next thirty days on it; the workflows that draft your week and the tool that
 > schedules your posts; and your first Reel — you'll pick how it opens."
 
-Then open only the files the reflection needs: `identity/profile.md` (name, what they're building, brokerage,
+**The bracketed clause names only what is really on file — never an asset the member lacks** (the files below are
+opened BEFORE the welcome is written; the welcome and the play-back are one reply): *your offer* — `identity/offer.md`
+is built (its `Status:` is not `seeds`) · *your guide* — `memory/magnets.md → ## Current magnet` holds a real guide
+· *your six designed posts* — the newest `exports/week3-kit-*.txt` exists and holds chapter 7 · *your bios* —
+`identity/profiles.md` exists. Name the ones on file, in that order; **fewer than two → the whole clause is
+dropped** and the sentence reads *"I know you from your Brain, so I won't ask you any of that again."* The welcome
+never says what is missing; the step that needs it does, in one warm line with the phrase that creates it.
+
+Open only the files the reflection needs: `identity/profile.md` (name, what they're building, brokerage,
 market, handles) · `identity/avatars.md` (the primary type they attract; whether team leaders or broker-owners are
 among them — it decides LinkedIn) · `identity/strategy.md` (the known-for) · `identity/voice.md` (their voice in one
 line) · the newest `exports/week3-kit-*.txt` once (chapter 6 — BIOS — for the bios' identity line; chapter 7 — SOCIAL
@@ -255,9 +263,11 @@ files), carry the corrected fact through this sitting, and stop again.
 ## Step 2 — Confirm your profiles and keyword (never rewrite, never ask)
 **Opens with the win line for the play-back the member just confirmed:** *"✓ That's you — confirmed."* (a correction
 they made: *"✓ Got it — [what they changed], in your words."*) Then:
-> "Okay, cool — first your profiles. Your bios are already written and pointed at your guide, so I'm checking them
-> against what's changed since, confirming the two words your Reels will use, and setting your platforms — nothing
-> for you to answer unless something changed."
+> "Okay, cool — first your profiles. [Your bios are already written and pointed at your guide, so I'm checking them
+> against what's changed since, | Your bios get written in your lead magnet sitting, so for now I'm] confirming the
+> two words your Reels will use[,] and setting your platforms — nothing for you to answer unless something changed."
+(The files are opened first — the announcement says "your bios are already written" only when
+`identity/profiles.md` exists; with no file it takes the second form, and point 1's "No file" line follows.)
 
 **Lazy-load `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` §8–§9a** (the ladder and the keyword; the profile is
 the recruiting landing page — `07-instagram/87`). **Open now:** `identity/profiles.md` **if it exists** (normally it
@@ -326,18 +336,22 @@ attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the loc
 **only when a bio was refreshed** (and the gate in point 4 is open — no Yes is asked): replace the text inside that one `## [Platform]` heading, end
 the section with `*Updated by the Short-Form System on YYYY-MM-DD — [what changed]*`, keep every other section,
 heading and earlier update line byte-for-byte; never rename, reorder or drop a heading; `## YouTube` untouched.
-**Push, verify** (the push re-renders their Brain Board). Say: *"Your profiles stand [or: your [platform] bio is
-refreshed and saved], your two words are set, your platforms are set."* No document is saved — the bios live in the
-kit and the Brain.
+**Push, verify** (the push re-renders their Brain Board). No document is saved — the bios live in the kit and the
+Brain. What the step found is said ONCE, in the Step-1-of-5 line below — never a separate "your profiles stand"
+sentence above it.
 
 **The reply ends on Question 1 of the interview — the question is the stop; nothing of Step 3 is built:**
-> "✓ **Step 1 of 5 — done.** Your profiles and your two words are confirmed.
-> Now the part only you can do. I have four questions, and your answers become your content — your pillars, your
-> hooks and your first Reels. Type it, or tap the microphone and just talk; a sentence or two is plenty.
+> "✓ **Step 1 of 5 — done.** [Your profiles stand | Your [platform] bio is refreshed and saved | Your bios come
+> with your lead magnet sitting], [your two words are set | your word GUIDE is set — your second word arrives with
+> your partner offer], and your platforms are set.
+> Now the part only you can do. I have four questions, and your answers become your content — your five pillars
+> (the five kinds of post you'll make) and the opening lines of your first Reels. Type it, or tap the microphone
+> and just talk; a sentence or two is plenty.
 > **Question 1 of 4:** You attract [the primary type] — agents who [their pain, in their words]. When one of them
 > gets you on the phone, what's the first thing they ask you? Say it the way they say it. **Your turn.**"
-(Question 1's seed and wording are row 1 of Step 3a's table; "of 4" reads "of 3" when the filming day is already
-on file.) A change to this step instead of an answer (*"add LinkedIn"*, *"that bio isn't right"*, *"my link is
+(The Step-1-of-5 line is built from what this step actually found — one choice from each bracket, never a claim
+the step just contradicted. Question 1's seed and wording are row 1 of Step 3a's table; "of 4" reads "of 3" when
+the filming day is already on file.) A change to this step instead of an answer (*"add LinkedIn"*, *"that bio isn't right"*, *"my link is
 different"*) → make it inside this step's own rules (two keywords only; a bio change is a refresh, inside its
 limit, through the gate), show only what changed, save, push, and ask Question 1 again.
 
@@ -357,7 +371,7 @@ stops:
 | # | The question — said as printed, after its seed | The seed (what the Brain already holds — played back, never asked) | What the answer becomes |
 |---|---|---|---|
 | 1 | **The question agents ask you.** *"When one of them gets you on the phone, what's the first thing they ask you? Say it the way they say it."* | `identity/avatars.md` — the primary type and the pain in their words: *"You attract [type] — agents who [the pain]."* (`memory/objections.md` is read too: an answer already on file there is welcomed, never corrected — it is theirs) | the working title and the hook of **their first Reel** · angle one under **Perspective** |
-| 2 | **The one step.** *"Which ONE of those would you tell an agent to start with this week — and how would you explain it across the table, in a minute?"* | `identity/offer.md → ## The framework` — the step names: *"Your method has [n] steps: [the names]."* No framework yet → the known-for from `identity/strategy.md`: *"You're known for [known-for]. What's the first step of it you'd tell an agent to start with this week — and how would you explain it across the table?"* | their first **Authority** Reel — one step, taught in their words |
+| 2 | **The one step — how you'd say it.** `Teach first:` is on file (the normal case) → *"How would you say that to an agent across the table? A sentence or two."* Not on file → *"Which ONE of those would you tell an agent to start with this week — and what would you say to them about it? A sentence or two."* | `identity/offer.md` — the framework's step names and the `Teach first:` line (what they said in Week 1 they would show a brand-new agent first): *"Your method has [n] steps, and you'd start an agent with [teach first]."* The step they would start with is on file, so it is played back and never asked again — only the spoken sentence is new. No `Teach first:` → *"Your method has [n] steps: [the names]."* No framework either → the known-for from `identity/strategy.md`: *"You're known for [known-for]."* and the question reads *"What's the first step of it you'd tell an agent to start with this week — and what would you say to them about it?"* | their first **Authority** Reel — one step, taught in their words (a pick with no sentence is still an answer: the step is theirs, and the script's own question asks for the sentence later) |
 | 3 | **Off the clock.** *"Agents join a person, not a logo. What do you do off the clock that the people around you know you for? Only what you're happy to have on camera."* | `identity/profile.md` — the "before real estate" line when it holds one: *"I know you [did X] before real estate."* | angle one under **Personality** · their first Personality Reel |
 | 4 | **Your week.** *"Which day could you film every single week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?"* | `identity/goals.md` — the hours a week committed in Week 1: *"You gave this [n] hours a week."* **`identity/operations.md → Filming window:` already filled → this question is not asked**: the interview is three questions (say "of 3" from the start) and the proposal plays the day back | the filming day, and the place on every Reel's shot line |
 

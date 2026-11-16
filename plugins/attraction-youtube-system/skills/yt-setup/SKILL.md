@@ -110,8 +110,8 @@ ask about their niche, who they attract, their offer, their resource, or their v
     the member's own words.
   - **"Do it all" / "don't stop" / "finish it without me"** — only when the member says so — → run the remaining
     steps without the stops, pausing only for the workflows card's Yes. Never offered. Interview questions not yet
-    asked are filled from the Brain and said so in one line (*"I've built those from your Brain — say 'update my
-    YouTube game plan' any time to put them in your own words."*).
+    asked are filled from the Brain and said so in one line (*"I've built those from your Brain — say 'refresh my
+    attraction game plan' any time to put them in your own words."*).
     - Each step still saves and stamps the moment it is built, so a member who leaves loses nothing and the next call
     opens on that step's stop line.
 - **THE MEMBER'S PART AND THE WIN (the owner, 2026-11-15: "the student also needs to feel a WIN that they did
@@ -150,8 +150,8 @@ ask about their niche, who they attract, their offer, their resource, or their v
   - **Their words stay theirs.** Tidied only to be sayable; never a claim added, never the meaning moved. A named
     brokerage in an answer → the name is left out of everything public, said once; an income, split or earnings
     figure → left out, said once. A guest is a first name and a candidate — never published, never contacted here.
-  - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll build that one from your Brain."*; the
-    entry is saved as skipped, never asked twice, never a guilt line. An answer too thin to use → ONE *"Say a
+  - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll build that one from your Brain. Say 'refresh my
+    attraction game plan' any time to put it in your own words."*; the entry is saved as skipped, never asked twice, never a guilt line. An answer too thin to use → ONE *"Say a
     little more — what would you actually say?"* in the whole interview, then whatever comes is taken.
   - **Saved the moment it is given**, pushed — a member who leaves after Question 2 comes back to Question 3.
 - **Told, not asked**: every process step is a statement of what will be built — never "all, some, or not yet",
@@ -536,7 +536,10 @@ that file and never writes it.
 reply · heard back · their words stay theirs · "skip" always works · saved at once). A guest is a first name and a
 candidate — nothing about them is published and nobody is contacted here (the invitation is its own chat, later).
 A long answer is saved whole and one line of it is quoted back; an answer that changes an earlier one replaces it;
-a question from the member gets one plain answer and the same question again.
+a question from the member gets one plain answer and the same question again. **Half an answer is an answer:** a
+topic with no first line, or a name with nothing about what changed, is taken as given — never a follow-up for the
+other half (the first line is asked when that video's script is written; what changed for a guest comes from
+`identity/proof.md` when it is on file).
 
 **`## In your words` — the shape** (in `identity/channel.md`, its own section just before `## Game Plan anchors`):
 ```

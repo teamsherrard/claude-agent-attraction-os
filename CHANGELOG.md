@@ -2,6 +2,19 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.32.1] — 2026-11-15
+
+**The first findings of an independent walk-through of the short-form interview (Short-Form 0.7.2 · YouTube 0.7.1 · Brain 0.9.16 · Lead Magnet 0.12.12 · Support 0.1.30).** A fresh reader followed `sf-setup` reply by reply for the demo member. What it found in the first four replies, fixed:
+- **The welcome named things a member may not hold.** "Your offer, your guide, your six designed posts and your bios" was fixed text. It is now built from what is really on file, and dropped when fewer than two are there.
+- **The profiles step claimed what it had just contradicted.** "Your bios are already written" and "your profiles and your two words are confirmed" were said even when there were no bios or only one keyword. The announcement and the "Step 1 of 5" line are now built from what the step found, and the duplicated "your profiles stand" sentence is gone.
+- **"Pillars" and "hooks" were used before they were explained.** The first mention now reads "your five pillars (the five kinds of post you'll make) and the opening lines of your first Reels".
+- **Question 2 asked two things and re-asked one of them.** The step the member would start an agent with is already in their Brain (`Teach first`), so it is played back and the question asks only for how they would say it — "a sentence or two", no longer "in a minute".
+- **"I don't know" and "you pick" are a skip inside an interview** — the shared ask-once file said to offer options and ask for a confirm; its interview section now says otherwise.
+- **A skipped answer can be given later.** "Update my pillars" (short-form) and "refresh my attraction game plan" (YouTube) now ask a skipped question first, and rebuild what it shapes on the answer.
+- **YouTube: half an answer is an answer** — a topic with no first line, or a guest's name with nothing more, is taken as given.
+
+**Not yet run live in Cowork.** The walk-through is still in progress.
+
 ## [0.32.0] — 2026-11-15
 
 **The YouTube sitting is an interview too (YouTube 0.7.0 · Short-Form 0.7.1 · Brain 0.9.15 · Support 0.1.29).** The owner's ruling named both plugins: the short-form *and* the long-form YouTube plugin have to "feel almost like an interview" — the member "a part of making it happen". 0.31.0 rebuilt the Week 4 sitting; this release does the same for Week 5.

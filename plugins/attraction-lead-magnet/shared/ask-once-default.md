@@ -123,5 +123,7 @@ written with the member in the chat:
 - **Every answer is heard back and put to work where the member can see it:** the next reply quotes their own
   words and says what they became; the words are saved verbatim; whatever is built on them is marked "your words".
 - **"Skip" always works** — the Brain fills it, said in one line, never asked twice. At most one "say a little
-  more" in a sitting.
+  more" in a sitting. **Inside an interview, "I don't know", "you pick" and "not sure" are a skip too** — no menu
+  of options, no "confirm in one word" (rule 3 above is for the Brain's own phases): the Brain fills it and the
+  next question follows. The member can answer it later with the update phrase the sitting names.
 - **A scheduled run never asks;** it draws on the answers already saved.

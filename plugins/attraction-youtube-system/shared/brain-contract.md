@@ -296,7 +296,8 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   **`## In your words`** (the owner, 2026-11-15 — the member's own answers to the Week 5 interview and to the one
   question before a script written in chat, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
   verbatim]" → [the video it became]`; `skipped — built from your Brain` when they passed; `(kept private: …)` for a
-  name or a figure left out of public videos; appended by `yt-setup` and `yt-script` only; read by `yt-gameplan`,
+  name or a figure left out of public videos; appended by `yt-setup` and `yt-script`; `yt-gameplan` fills each entry's `→` part and, on a refresh, replaces a
+  `skipped` entry with the answer it then asks for — nobody else writes the section; read by `yt-gameplan`,
   `yt-script`, `yt-make-video`, `yt-board` and the Monday Kickoff, which mark what they build on an entry "your
   words"; the Week 4 answers in `identity/content-pillars.md → ## In your words` are the Short-Form System's —
   read here, never written) ·

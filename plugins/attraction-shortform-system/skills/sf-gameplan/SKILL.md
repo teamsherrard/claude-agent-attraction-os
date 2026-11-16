@@ -66,7 +66,9 @@ and only where the member's own material leaves a pillar short — the rank ther
   one does ("update my short-form game plan", "plan my next 30 days of reels"): refresh only what changed (a new
   30-day calendar from the day after the last mapped date; new research; a pillar the member asked to change),
   keep every section they confirmed, save a new dated copy — **update, never rebuild.** "Plan my next 30 days of
-  reels" is UPDATE mode scoped to section 6 (and the board, if they have one). **"Update my pillars"** is UPDATE
+  reels" is UPDATE mode scoped to section 6 (and the board, if they have one). **"Update my pillars"** — first looks at `## In your words`: an entry that reads `skipped` is asked now, ONE
+  question, in `sf-setup` Step 3a's wording with its seed; the answer replaces the entry, becomes angle one of
+  its pillar marked `your words`, and the reply says what it became. Then it is UPDATE
   scoped to section 2 (the pillar the member names; where the Brain is empty, one plain question at a time).
   **"Change my cadence"** is UPDATE scoped to sections 3 and 6 — stated, never asked: three becomes five only as
   the step-up the Monthly Calendar Refill or the Monthly Deep Dive proposed (five goes back to three any time);

@@ -96,7 +96,10 @@ first name only; **the early story slot** (Phase 8 — where Why I Switched goes
 and the filming day are theirs. `identity/content-pillars.md → ## In your words` (the Week 4 answers, read-only) is
 a source for the title bank: the question agents ask the member becomes a title in the agents' own words. In the
 document a video built on an answer shows **"(your words)"** after its title; the `→` part of each entry is filled
-with its video's title. A skipped answer leaves its slot to the phases' own rules. From that
+with its video's title. A skipped answer leaves its slot to the phases' own rules. **On demand, a refresh ("refresh my attraction game
+plan") first looks at `## In your words`:** an entry that reads `skipped` is asked now, ONE question a reply, in
+`yt-setup` Step 6a's wording with its seed; the answer replaces the entry (this skill writes it), the video it
+shapes is rebuilt on it and marked "(your words)", and the reply says what it became. From that
 Yes the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
 week unless the member chose two), never asked again; goals at `seeds` are used
 and labeled, never asked for (Phase 7); the board step is skipped (Phase 9 step 6 — setup's next step adds the
