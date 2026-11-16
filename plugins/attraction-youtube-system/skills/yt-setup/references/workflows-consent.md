@@ -35,7 +35,7 @@ set it for 7."*); nothing about the times is asked.
 **The card is its own short message** (the owner's review, 2026-11-14): nothing else is in that message — no
 announce line, no recap, no housekeeping; inside setup ONE line stands above it, the win line for the board step
 the member just finished, by what is true (the board was built → *"✓ Step 3 of 5 — done. Your next 30 days are on
-your board."* · the board is waiting on Notion → *"✓ Your next 30 days are mapped in your plan — your board is
+your board."* · the board is waiting on Notion → *"✓ Step 3 of 5 — your next 30 days are mapped in your plan; your board is
 built the moment you connect Notion."*) — and nothing follows "Say
 Yes and I'll set them up." Inside
 setup it is the last thing in the turn, sent once the board step's work has finished. Plain words only ("your month

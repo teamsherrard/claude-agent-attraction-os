@@ -163,7 +163,7 @@ READ THIS FIRST
 YOUR NEXT 7 DAYS
 ════════════════════════════════════════════
    1.  YOUR FIRST VIDEO — "{the exact title}" · record it {the day, in words — "Sat, Nov 28"} · say "make my attraction video: {title}"
-   2.  YOUR FIRST INTERVIEW — invite {the guest's first name}: {their story in one line} · say "set up an agent interview"   {no guest named yet: "invite the first agent you have helped"}
+   2.  YOUR FIRST INTERVIEW — invite {the guest's first name}: {their story in one line} · say "set up an agent interview"   {no guest on file — a member who has not attracted an agent yet: this line reads "2.  YOUR FIRST CONVERSATION WITH AN AGENT — it gets its date the day you name someone · say \"which agent should I interview\"" — never "the first agent you have helped"}
    3.  YOUR ONE CHANNEL FIX — {the one fix, in plain words — a channel not pasted yet: "paste the three pieces marked 'paste today' in your Channel Page"}
 
 
@@ -202,11 +202,15 @@ YOUR THREE TOPICS   (three lanes on your channel, one playlist each — your Aut
 ════════════════════════════════════════════
 YOUR INTERVIEW LANE   (your Proof pillar)
 ════════════════════════════════════════════
-Playlist: "{Agent success stories}"
+Playlist: "{Agent success stories — or "Conversations with agents" when no agent is on file yet}"
 | # | Guest | Their story — the title | Where they come from |
 |---|---|---|---|
 | 1 | {name} | {How … built … while …} | {your organization / your Top 50} |
 {6–10 guests, in the order to invite them}
+{NOBODY ON FILE — a member who has not attracted an agent yet: no table and no invented names. Print this one
+paragraph instead: "You have not recorded a conversation yet — every member starts here. Your first guests will be:
+the next agent you help, a winner from your upline's team (named as your upline's), or a peer with a method worth
+sharing. Say "which agent should I interview" the day you have someone in mind."}
 
 
 ════════════════════════════════════════════
@@ -251,11 +255,11 @@ plan holds at either pace — once round in eight weeks at one a week, in four a
 YOUR FIRST 90 DAYS   (your eight-video plan: 3 niche · 1 model · 4 interviews — one a week to start)
 ════════════════════════════════════════════
 The order of your eight: niche · interview · niche · model · interview · niche · interview · interview — then it starts again.
-   ──── YOUR FIRST 30 DAYS   (these are on your content board) ────
+      ──── YOUR FIRST 30 DAYS   (these go on your content board) ────
 | Week of | Video | Kind | Guest |
 |---|---|---|---|
 | {Mon, Dec 7} | {exact title} | Niche | — |
-| {Mon, Dec 14} | {exact title} | Interview | {the guest's first name} |
+| {Mon, Dec 14} | {exact title — or "A conversation with an agent — guest to be named" when nobody is on file} | Interview | {the guest's first name — or "—"} |
 | {Mon, Dec 21} | {exact title} | Niche | — |
 | {Mon, Dec 28} | {exact title} | Model | — |
    ──── THE WEEKS AFTER ────

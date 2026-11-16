@@ -2,6 +2,31 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.34.2] — 2026-11-16
+
+**Two read-throughs as a first-time attractor: what a member with no agents, no bios, no kit and no board would have heard (Short-Form 0.8.2 · YouTube 0.8.2 · Support 0.2.3).** Each read-through played two members through the whole sitting: the demo member, and someone who has never attracted an agent. The two questions held — nothing else is asked. What was wrong were sentences around them.
+
+**Short-Form 0.8.2**
+- **"Your bios are already written" was said to members with no bios.** The test was whether the profiles file exists, and the Brain creates that file empty in Week 1. It now tests for a real bio. The same for the setup stamp, which the Brain also scaffolds.
+- **Proof for a member with no agent wins yet.** The proposal promised "your own results for now", but the Game Plan had no rule to build it from. Proof is now built from the member's own results, their method working in their own business and what they are building in the open — never "you have no proof", never an invented win.
+- **"Two words" to a member with one, "your board" to a member without Notion, "six designed posts" to a member without the kit** — each remaining line (the welcome, the plan hand-over, the consent card, the board's count line, the close) now has its true form. The step count stays whole without a board ("Step 3 of 5 — your thirty days are safe in your Game Plan").
+- **The first script** no longer points at a calls-to-action table or a pop-up set the member does not hold, and no longer says "with your keyword on the end" for a Reel whose ask is "follow".
+- **"Update my pillars" asks nothing new.** It used to fill an empty pillar "one plain question at a time" — for a first-timer's Proof pillar that could only be "who have you helped?". It now rebuilds from the Brain and reads it back.
+- **The welcome is a numbered list of the five steps**, in the same words the "Step n of 5" lines use, with "two questions, the same two every member gets" on its own line. The owner: "I'm still kind of confused with this process."
+- "Does that sound like you?" is now a statement — "If that sounds like you, say Yes…" — so a sitting that promises two questions asks two. "Sign in" lines say a free account can be made in the same window. The welcome-or-win-post clause is said only to a member who has someone on their team. `unknown` on the join register reads as join in every line.
+
+**YouTube 0.8.2**
+- **The plan a first-timer opens no longer tells them to "invite the first agent you have helped".** With nobody on file: the first-week line keeps a place for a conversation and names the phrase; the guest table is one honest paragraph (the next agent they help, a winner from their upline's team, a peer); conversation rows read "guest to be named"; the playlist is "Conversations with agents", not "Agent success stories"; the close's third step does not say "invite your first guest".
+- **Question 2 is now truly blanket:** "Which day could you film a full video every week — about an hour?" The remark about Reels is gone from the question (a member who skipped Week 4 has none).
+- **The member's filming day is the rule itself**, not a patch beside it: the first-date rule and the 90-day phase read `Filming day:` first, so a later refresh or pace change keeps their day.
+- No board: the announce line, the workflows card, the confirming line and "fill its card" each have a form that is true. A new channel: every "first video" line says which video it means (the trailer first). "Your two calls to action" is not printed above a block that holds one. The welcome is a numbered list.
+
+**Both:** the phrases to come back or start again are now "continue my attraction short-form" · "redo my attraction short-form" · "continue my attraction YouTube setup" · "redo my attraction YouTube setup" — the word "attraction" keeps them out of the realtor plugins on a machine that has both.
+
+**Support 0.2.3:** the same phrases and wording in the FAQ, the stack map and tree #13.
+
+**Not yet run live in Cowork.**
+
 ## [0.34.1] — 2026-11-16
 
 **Nothing speaks as if the member has already attracted agents (Short-Form 0.8.1 · YouTube 0.8.1 · Support 0.2.2 · Brain 0.9.19 · Lead Magnet 0.12.15).** The owner's worry on 0.34.0 was the first-time attractor: "a lot of people in this group… have never attracted an agent in their life." A read-through that plays such a member found the questions were now blanket, but some sentences were not.

@@ -1,7 +1,7 @@
 # Short-Form demo checklist — Week 4 on a demo Brain that finished Weeks 1 to 3
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1) and
-`lead-magnet-demo-checklist.md` (Week 2). Short-Form plugin 0.8.1 · Riverside editor 0.4.5 · Brain 0.9.19. Every number
+`lead-magnet-demo-checklist.md` (Week 2). Short-Form plugin 0.8.2 · Riverside editor 0.4.5 · Brain 0.9.19. Every number
 in a demo Brain is fictional and tagged.*
 
 ## Before the screen
@@ -36,13 +36,13 @@ two-minute action), and **the stop** ("Your turn.").
   people around you know you for? Only what you're happy to have on camera." · (2) "Which day could you film every
   week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?" The next reply
   quotes the answer back and says what it became. Try **"skip"** on one: it takes that from the Brain and never
-  asks twice. Walk away after Question 1 and come back ("continue my short-form setup"): it resumes at Question 2.
+  asks twice. Walk away after Question 1 and come back ("continue my attraction short-form"): it resumes at Question 2.
   **Nothing else is asked** — not what agents say to the member, not who they have helped, nothing from Week 1,
   nothing about email, platforms or ManyChat.
 - [ ] **Your direction, then the Game Plan:** after Question 2 it shows the five pillars — each with where in the
   member's own Brain it came from ("from your method", "from the story you told in Week 1"), Personality in the
-  words they just gave — and the week (three posts a week; their filming day), and stops: "Does that sound like
-  you?" Nothing is built yet. Change something ("make it two posts a week") and watch it adjust and wait again.
+  words they just gave — and the week (three posts a week; their filming day), and stops: "If that sounds like you, say
+  Yes…" Nothing is built yet. Change something ("make it two posts a week") and watch it adjust and wait again.
   Say Yes: now it builds, and the document lands in Content → Short-Form. Open it: **the 30-day calendar opens with
   the six posts designed in Week 3** ("post, don't make"), then the Reels; section 5's two asks are the guide
   (GUIDE) and the call in Mike's shape (partner with me and get my help, free, to run this).

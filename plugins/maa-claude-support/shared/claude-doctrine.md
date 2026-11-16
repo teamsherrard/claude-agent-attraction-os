@@ -157,7 +157,7 @@ you each piece, and waits for your Yes. It only asks you two new things — the 
   including someone who has never attracted an agent — and one the Brain does not already hold. So it never asks
   what agents say to them, or who they have helped.
 - **It waits.** One step per reply, then "Your turn." Nothing is built while they are away, and they can leave
-  mid-sitting and come back to the same place ("continue my short-form setup").
+  mid-sitting and come back to the same place ("continue my attraction short-form").
 - **Each reply names what they did** (the "✓" line) and the sitting ends with "what you did today" — it is their
   work, with the heavy lifting done for them.
 - **"Skip" is always fine** and never asked twice; "do it all" builds from the Brain without the stops.

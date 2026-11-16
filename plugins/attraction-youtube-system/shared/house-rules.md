@@ -225,7 +225,7 @@ setting on Medium — the picker beside the model name"). Then:
    ONE per reply (which of their three topics they could talk about for twenty minutes · the day they can film a
    full video), each answer heard back and saved; then what the plan stands on — the three topics, the first
    videos (the guest and the story from the Brain), the pace, the filming day — proposed,
-   **then the stop line** ("Does that sound like you?"); on the member's Yes, the research line said once, the build, the
+   **then the stop line** ("If that sounds like you, say Yes"); on the member's Yes, the research line said once, the build, the
    hand-over two lines pointing at the document, the first video dated at least three days out (rule #19) — **then
    the stop line.**
 3. **The board** — the one Content Dashboard gains its 🎬 YouTube tab and the next 30 days (rule #11), each card
@@ -241,7 +241,9 @@ setting on Medium — the picker beside the model name"). Then:
 **Each reply is one step and short — about 120 words outside the copy blocks for the question, proposal, hand-over and board replies; the welcome, the Channel Page message and the close run as printed — with at most ONE caveat line in the whole sitting** (rule
 #24). **The close** is a fixed, visible step: the first-video line · the Board-and-Book line from the sitting's
 closing push, both links handed over — "here they are" (rule #20) · at most three short numbered next steps (paste
-the three channel pieces · make your first video · invite your first interview guest) · one plain line for later —
+the three channel pieces · make your first video · invite your first interview guest — or, for a member with no agent on file yet, the line
+that keeps the place open: "when there is an agent you'd like to talk with on camera, say 'which agent should I
+interview'") · one plain line for later —
 "connect my YouTube numbers", never a fourth step (rule #25) · the compliance line, once, only when the status is
 not `confirmed` — and nothing after it. A member who leaves resumes at the next step from
 the `Setup:` stamp in `identity/channel.md`; "start over" runs the whole journey again and updates everything in

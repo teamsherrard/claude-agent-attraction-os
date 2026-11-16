@@ -72,7 +72,8 @@ YouTube page reads it) — nothing else in the Brain. Every write is pushed thro
   (never "niche lanes"), "your title and description" (never "SEO"), "your Channel Page" (never a kit).
 - **The first-date rule** (the owner's review, 2026-11-14 — a card never says "record today"). Video 1's Recording
   date is the member's next filming day that is **at least three days after the day the plan is built**
-  (`identity/operations.md → Filming window:` or the batch day recorded there; none on file → **the Saturday after
+  (**`identity/channel.md → ## Channel → Filming day:` first — the day the member gave at setup**; then
+  `identity/operations.md → Filming window:` or the batch day recorded there; none on file → **the Saturday after
   next** — the second Saturday after the sitting, 8 to 14 days out); its Publish date is two days after that; and
   **every later row follows from it** — one a week: seven days after the row before; two a week: two rows a week
   on that filming day (or the window's two days when it names two), out two and five days later. A `Booked`
@@ -280,9 +281,13 @@ one strategy, not two.
 only, consent column) · `memory/interview-pipeline.md` (existing rows — never touched).
 From `organization.md` and `top-50.md` (plus the member's `ideas.md` tag `interview`): 6–10 candidate guests
 with the **hook-and-transformation title** each ("How [guest] built … while …"), sequenced for relatability
-across types (new agent · experienced · top producer · team leader · broker-owner · switched). Zero
-organization yet → the lane is agents the member has helped, their upline's winners (labeled as the upline's),
-or a peer with a unique method — and the honest line that the first interview starts the machine. The invitation
+across types (new agent · experienced · top producer · team leader · broker-owner · switched). **Zero
+organization and no agent helped yet — the normal state of a member attracting for the first time (the owner,
+2026-11-16)** → no guest table and no invented names: the lane block is the one paragraph `doc-format.md` prints
+("You have not recorded a conversation yet — every member starts here…": the next agent they help, a winner from
+their upline's team named as the upline's, a peer with a method worth sharing), the playlist is called
+"Conversations with agents", every Interview row on the calendar is titled *"A conversation with an agent — guest
+to be named"* with Guest "—", and no `interview-pipeline` row is seeded. The invitation
 and the guest's outro CTA follow the law (the person · their help · free · to run the method) and never promise
 the member's time per partner. Seed `memory/interview-pipeline.md` rows at Stage `Candidate` in `yt-interview`'s
 shape (repeated in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`; create the file with its header if it does
@@ -350,7 +355,8 @@ time)"**; then the weekly things they control, the honest read, and "set my attr
 arrows, no ratio names.
 
 ## Phase 8 — The first 90 days on the cycle (doctrine §7, §13)
-**Read now:** `identity/operations.md` (`Filming window:` — the first-date rule's filming day).
+**Read now:** `identity/channel.md` (`Filming day:` — the member's own answer, the first-date rule's first source)
+· `identity/operations.md` (`Filming window:` — the fallback).
 A week-by-week calendar at their cadence, **one video per row**, **sized to the cadence** — about thirteen rows
 at one a week (once round the eight in eight weeks, then the start of the second), about twenty-six at two.
 - **The dates — the first-date rule (above):** video 1 is recorded on the member's next filming day at least three
@@ -378,7 +384,8 @@ Then **days 91–180 as the direction** (double down · compounding assets · th
 ## Phase 9 — Assemble, deliver, save, anchor, hand off
 1. Assemble on the **Game Plan skeleton** in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`, in its order —
    Read this first (with the cadence line) · **YOUR NEXT 7 DAYS** (its own block: the first video by exact title ·
-   the first agent to invite for an interview · the one channel fix — three numbered lines, never a fourth) · the
+   the first agent to invite for an interview (nobody on file → the first-conversation line `doc-format.md` prints,
+   never "the first agent you have helped") · the one channel fix — three numbered lines, never a fourth) · the
    audit · positioning (the two calls to action, the WHY) · the three topics · the interview lane · the model lane
    · the goal in four lines · the video structure (the kit's spoken lines in their places — the guide inside
    minute one, the call a third in) · the cadence · the first 90 days (the plain table) · the direction · the

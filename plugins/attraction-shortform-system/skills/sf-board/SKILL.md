@@ -117,8 +117,10 @@ have their card from the Monday Week Plan or a workflow — find and leave them;
   · the card icon per Format.
 - **A card the member deleted stays deleted** — note it once (*"skipping [title] — you took it off the board"*)
   and never re-create it unless they ask; mark the calendar row `dropped` only when they confirm.
-- **Count-check and say so plainly:** *"your next 30 days are on your board — [N] posts, dated, one card each; your
-  six designed posts open the Graphics tab, your Reels are on theirs, and this week is on the Calendar ✓."*
+- **Count-check and say so plainly:** *"your next 30 days are on your board — [N] posts, dated, one card each; [your
+  six designed posts open the Graphics tab, ]your Reels are on the Reels tab, and this week is on the Calendar ✓."*
+  (the bracket only when the calendar holds kit rows; none → the board opens on the Reels tab and Graphics is
+  never mentioned as holding anything)
   A write that failed is named and retried once; never claim a count you did not read back.
 - **The rolling rule:** the board's short-form window is **30 days** (the user's ruling, 2026-10-13); every card
   carries a date — the spec's rule that the board is a schedule, never an idea dump, holds (the YouTube tab
@@ -128,8 +130,8 @@ have their card from the Monday Week Plan or a workflow — find and leave them;
   reconciles the board from the calendar and the content log (fill gaps, fix statuses, re-date what the member moved)
   — never the reverse.
 - Inside setup: hand back to `sf-setup` Step 4 with the count line. On demand: *"Mondays your week's cards fill
-  themselves; your six designed posts are the first cards on your Graphics tab — post, don't make; say 'script my
-  first attraction reel' for your first Reel."*
+  themselves; [your six designed posts are the first cards on your Graphics tab — post, don't make; ]say 'script
+  my first attraction reel' for your first Reel."* (the bracket only with kit rows on the calendar)
 
 ### The Pillar column (the shared spec's short-form options ARE the five OS pillars)
 Write the pillar name directly — `Authority · Perspective · Story · Proof · Personality` — exactly as the content-log

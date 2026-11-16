@@ -246,7 +246,7 @@ It already knows you from your Brain, your offer, your guide and your Week 3 Kit
    **GUIDE** (comment it and the DM sends your guide) and your own invitation word from your offer. Nothing else.
 2. **Your Short-Form Game Plan.** First the two questions, one at a time. Then it shows you your five pillars — the
    five kinds of post you will make — each one built from what you told it in Weeks 1 and 2, with your week (three
-   posts a week to start, filming on your day), and asks "Does that sound like you?" Change anything: a pillar, how
+   posts a week to start, filming on your day), and says "If that sounds like you, say Yes" Change anything: a pillar, how
    many posts a week, your filming day. When you say Yes it builds the plan. Your 30-day calendar opens with the six
    posts you designed in Week 3 ("post, don't make"), then your Reels. Every ask is one of your two keywords or the
    call, in Mike's words: partner with me and get my help, free, to run this. It also hands you your ManyChat build sheet: ManyChat is how your two keywords answer themselves, you set it up in your own account this week, and it is never connected to Claude. The document lands in Content → Short-Form.
@@ -261,7 +261,7 @@ It already knows you from your Brain, your offer, your guide and your Week 3 Kit
 5. **Your first Reel — you choose how it opens.** It shows you three ways to open it; pick one, or say it your own
    way, and it writes the script around your opening.
 
-It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. (Had to stop part-way? Say `continue my short-form setup`. Skipped a question? `update my pillars` asks it again. Want the whole sitting again from the top? `redo my short-form setup`.) Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
+It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. (Had to stop part-way? Say `continue my attraction short-form`. Skipped a question? `update my pillars` asks it again. Want the whole sitting again from the top? `redo my attraction short-form`.) Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
 
 **Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
 `register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a
@@ -290,7 +290,7 @@ what it built from what you have already told it, and you say Yes or tell it wha
 questions — the same two every member gets: which of your three topics you could talk about for twenty minutes,
 and which day you can film a full video. Five things, **one step at a time: it shows you each one and waits for
 you before the next**. Type your answers or tap the microphone and just talk; say "skip" if you would rather it
-chose. (Had to stop part-way? Say `continue my YouTube setup`.)
+chose. (Had to stop part-way? Say `continue my attraction YouTube setup`.)
 
 1. **Your channel, optimized for the agents you want to attract.** Your whole Channel Page Kit is saved as a document: your
    description, about section, links, keywords, playlists, upload defaults and the two lines you say in every video,
@@ -301,7 +301,7 @@ chose. (Had to stop part-way? Say `continue my YouTube setup`.)
    spoken lines are your kit's calls to action, in Mike's shape (partner with me and get my help, free, to run this).
 2. **Your YouTube Game Plan.** First the two questions, one at a time. Then it shows you your first videos — one on
    the topic you picked, a conversation with an agent you have helped (when your Brain holds one), and your own
-   story at full length — with your pace and your filming day, and asks "Does that sound like you?" When
+   story at full length — with your pace and your filming day, and says "If that sounds like you, say Yes" When
    you say Yes it builds the plan: Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
    (3 niche · 1 model · 4 interviews), your lanes from the content branches of your offer, about fifty titles, your
    first 90 days. **One video a week to start**; two is the step-up your monthly channel review proposes after a month. The

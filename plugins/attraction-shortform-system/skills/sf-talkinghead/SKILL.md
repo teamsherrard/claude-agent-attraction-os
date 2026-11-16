@@ -137,7 +137,7 @@ For EACH Reel, use these exact section names:
 - **THE SCRIPT** — word-for-word, written for speech, **30–60 seconds (~80–150 words, show the count)**. Shape:
   hook → the turn → 2–3 steps of real substance (the story's point, the teach, the take, the proof; an Authority
   Reel teaches ONE step of `## The framework` or one page of the guide in full and names the guide as where the rest
-  lives) → the CTA line with one of the two keywords, said plainly. Every line sayable in one breath; in their spoken cadence.
+  lives) → the CTA line — the row's one ask (a keyword, the invitation, or "follow" on a Personality Reel), said plainly. Every line sayable in one breath; in their spoken cadence.
 - **THE BULLET VERSION** — the same Reel as 5 riff lines (hook and CTA word-for-word). Most members film from
   this — give it equal weight.
 - **THE SHOTS** — one line per step: where to stand, what to show, the one b-roll to grab (a screenshot of the
@@ -149,6 +149,10 @@ For EACH Reel, use these exact section names:
   Proof Reel or a "what you get" Reel (a Proof Reel may carry the guide instead); a Personality Reel asks for a follow
   only; never two asks on one Reel (house rules #13). The brokerage is never the reason; never the model by DM. The keyword sheet (`sf-comment-to-dm`)
   carries the same two words — never a third.
+- **No kit on file** (the member has not built the Week 3 kit — no `exports/week3-kit-*.txt`) → THE CTA is built
+  from the guide and the booking line in the law's shape, and the pop-up section reads *"On screen: your name in the
+  first three seconds, and one six-word line mid-video — your designed pop-ups join when your kit is built."* Never
+  point a member at a table or a pop-up set they do not hold.
 - **THE POP-UP + END CARD** — from the same table and the member's pop-up set (designed in Week 3, in their Offer
   folder): the name card in the first three seconds · one mid-video pop-up, six words or fewer, two lines at most, three
   seconds (`Comment GUIDE · free guide` or `My help, free · [the call in three words]`) · the end card in the last five

@@ -769,8 +769,7 @@ yet:
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
 it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
 your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", or
-says "Question 1 of 4" — you are on an older version: update the plugin (Customize → Plugins) and say "continue
-my short-form setup".
+says "Question 1 of 4" — you are on an older version: update the plugin (Customize → Plugins) and say "continue my attraction short-form".
 
 **Q72. What does "✓ Step 2 of 5 — done" mean, and what is "your part"?**
 Your setups are built to be done together, not done for you. Each reply opens with a short line that says what you
@@ -809,7 +808,7 @@ for which tool schedules your posts), and tells you which parts it filled in for
 sound like you and not like everyone else, so add them later whenever you like (Q74).
 
 **Q78. Can I change an answer, a pillar, my posting pace or my filming day?**
-Yes, any time. During setup, at "Does that sound like you?", say what to change — a pillar, how many posts a week
+Yes, any time. During setup, at "If that sounds like you, say Yes", say what to change — a pillar, how many posts a week
 (any number that is honest for you), your filming day, or an answer you would give differently — and it changes that
 and waits again. After setup: "update my pillars", "change my cadence" or "set my batch day" for short-form;
 "refresh my attraction game plan" or "change my YouTube cadence" for YouTube.
@@ -819,5 +818,4 @@ One of you is on an older version. The plugins are updated during the cohort: si
 YouTube setups wait after every step and ask you two questions — the same two every member gets. (For a few days
 they asked four; if yours says "Question 1 of 4", it is that older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
-is never run again unless you ask: "redo my short-form setup" or "redo my YouTube setup". Stopped part-way? "Continue my
-short-form setup" or "continue my YouTube setup" picks up exactly where you were.
+is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.

@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.8.1 · Brain 0.9.19. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.8.2 · Brain 0.9.19. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen
@@ -29,16 +29,15 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   playlists, banner, spoken lines, trailer) are in the document, and that `walk me through my channel page` takes them
   one at a time. The banner is the one the brand kit made in Week 3. No "paste it now" question, no wait.
 - [ ] **The two blanket questions, ONE per reply, exactly these words:** (1) "Your channel covers three topics —
-  they're the playlists on your Channel Page: [A], [B] and [C]. Which one could you talk about for twenty minutes
-  with no notes?" · (2) "Which day could you film a full video every week — about an hour? The same day as your
-  Reels is fine." The next reply quotes the answer back. Try "skip" on one: it takes that from the Brain and never
+  they're three of the playlists on your Channel Page: [A], [B] and [C]. Which one could you talk about for twenty minutes
+  with no notes?" · (2) "Which day could you film a full video every week — about an hour?" The next reply quotes the answer back. Try "skip" on one: it takes that from the Brain and never
   asks twice. **Nothing else is asked** — not who the member would sit down with, not who they have helped, nothing
   from Week 1 or Week 4.
 - [ ] **Your direction, then the Game Plan:** after Question 2 it shows your three topics and **your first videos** (one on
   the topic you picked; a conversation with an agent only when the Brain holds one you have helped — otherwise a
   line that it goes on the plan the day you name someone; your story at full length) with your pace and your
-  filming day, and a **stop**: "Does that sound like
-  you?" Nothing is researched or built yet. On the Yes: one line with the research ("about [N] searches"), then two lines pointing at
+  filming day, and a **stop**: "If that sounds like you, say
+  Yes…" Nothing is researched or built yet. On the Yes: one line with the research ("about [N] searches"), then two lines pointing at
   the document — never the plan in the chat — and a second stop. Open it: three niche lanes from the offer's content branches, the interview lane, the
   model lane, about fifty titles, **one video a week to start** (two named as the step-up), the first 90 days on the
   8-video cycle, the goal in conversations and calls — never income. **The first video is never dated today:** it is

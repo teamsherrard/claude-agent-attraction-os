@@ -320,13 +320,12 @@ working. Cheapest check first.
    week?"* Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
    opens). **Anything else is wrong:**
    - *"What's the first thing agents ask you on the phone?"*, *"Who would you sit down with?"*, "Question 1 of 4"
-     → they are on an older version (0.7.x). Update the plugin (Customize → Plugins) and say "continue my
-     short-form setup" / "continue my YouTube setup".
+     → they are on an older version (0.7.x). Update the plugin (Customize → Plugins) and say "continue my attraction short-form" / "continue my attraction YouTube setup".
    - A question about email, platforms, which workflows or ManyChat, or anything they answered in Week 1 → a
      defect: `maa-support-escalate`, with the question quoted.
 3. **"It built everything while I was away."** An older version (before 0.6.0). They update the plugin
    (Customize → Plugins), open a new chat and say the setup phrase. Nothing they have is lost; a finished setup is
-   not run again unless they say "redo my short-form setup" / "redo my YouTube setup".
+   not run again unless they say "redo my attraction short-form" / "redo my attraction YouTube setup".
 4. **"I came back and it asked the same question again."** Read the stamp, never guess: short-form →
    `identity/publishing.md → Short-form setup:` and `identity/content-pillars.md → ## In your words`; YouTube →
    `identity/channel.md → Setup:` and its `## In your words`. An entry on file for that question (an answer, or

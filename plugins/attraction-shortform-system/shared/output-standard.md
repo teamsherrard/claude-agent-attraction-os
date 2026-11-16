@@ -182,7 +182,7 @@ angles each, thirty hooks; ~3,500–5,000 words. Demo mode tags every figure "(i
 kept at `~/attraction-brain/exports/short-form-game-plan-YYYY-MM-DD.txt`**, then pushed (the Brain Board reads it).
 ```
 [NAME]'S SHORT-FORM GAME PLAN
-Attracting: [the primary type] · [the second]  ·  Known for: [niche]  ·  Prepared [Month Year]
+Attracting: [the primary type] · [the second]  ·  Wants to be known for: [niche]  ·  Prepared [Month Year]
 Powered by Mike Sherrard Coaching Inc Frameworks
 
 ———————————————————————————————
