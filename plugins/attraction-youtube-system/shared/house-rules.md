@@ -130,7 +130,8 @@ rest open at the step that uses them. Research is budgeted (the per-skill budget
 costs one search (a second, reworded, only when the first found nothing) and at most three checks; setup's board
 step covers the cards it creates — three to five.
 One chat = one video — with one exception: the first batch ("script my first three videos": three scripts and a
-film-day sheet in one sitting, scripts only, never more than three; each video's own chat still does the rest). Inside setup: one question (the channel); every step ends on its stop line and waits for the member (rule #23);
+film-day sheet in one sitting, scripts only, never more than three; each video's own chat still does the rest). Inside setup: one fact question (the channel) and the interview's four questions about the member's own videos
+(rule #23 — they are the product, never a cost to cut); every reply ends on its stop and waits for the member;
 the research line said once. Any feature that adds turns or front-loaded reading is a cost regression — cut it.
 
 ## 9. The credibility stamp (the Game Plan only)
@@ -483,8 +484,9 @@ for you…"*, *"now I'm going to…"* — ending, where a yes is needed at all, 
 never an open-ended menu, never a choice between defaults, never "keep the defaults or tell me which to change".
 Extras are stated, never offered; a workflow is switched on, never proposed; the email note is part of the process;
 a connector the member lacks gets the Connect button in the chat, not a question (`yt-board` Step 1 — the click
-path is always "Customize → Connectors → [name] → Connect", in the left sidebar). **All the member has to say is
-"Yes"** — and since 2026-11-15 they say it **at the end of each step**, because the owner ran a sitting, walked
+path is always "Customize → Connectors → [name] → Connect", in the left sidebar). **About the machine, all the member has to say is
+"Yes"** — and since 2026-11-15 they say it **at the end of each build step** (their own videos are asked for — the
+interview paragraph at the end of this rule), because the owner ran a sitting, walked
 away and found everything built: *"it ends up doing the entire work for me rather than waiting for me to give
 direction or feedback or answers… it should WAIT for me."* **ONE STEP, THEN WAIT** (this wins over every older "no
 stop" line): one step per reply; the reply shows what was built or what is proposed and ends on the stop line —
@@ -509,6 +511,25 @@ questions left are facts the Brain cannot hold — here the channel link (or "st
 video a comment came from. "Your turn" appears on those alone. On-demand hand-offs at the end of a piece ("say 'make
 my attraction video: [title]'") are breadcrumbs, not questions. YouTube never asks about a posting tool: publishing
 is the member pasting in their own Studio; the posting-tool question belongs to the short-form plugin alone.
+
+**AN INTERVIEW — about the member (the owner, 2026-11-15: the long-form YouTube plugin has to "feel almost like an
+interview" — the member "involved… a part of making it happen and bringing that system, that product to life. That
+experience is a very important part of this process").** Told-not-asked is about the machine. The member's own
+videos are the opposite: they are asked for. Whenever the member is in the chat and their videos are being planned
+or written, they are ASKED for what only they hold and they SEE it put to work: **about them, never the machine**
+(the topic they could talk about for twenty minutes, who they would sit down with, the story to tell at full
+length, the day they can film, what they would say first) · **never a re-ask** (what the Brain and the Week 4
+answers hold is played back first; the question asks for the next layer) · **one question a reply**, numbered when
+there are several, answerable in a few sentences, typed or spoken · **heard back** (the next reply opens with their
+own words, quoted short and exact, and what they just became) · **their words stay theirs** (saved verbatim under
+`identity/channel.md → ## In your words`; never a claim added; a named brokerage and any income figure left out of
+everything public, said once; a guest is a first name and a candidate) · **marked** (whatever is built on an answer
+says "your words", in the plan and on the card) · **"skip" always works** (the Brain fills it, said in one line,
+never asked twice, never a guilt line; at most one "say a little more" in a sitting). In the Week 5 sitting this is
+the four questions of `yt-setup` Step 6a; when a script is written with the member in the chat it is **the one
+question** before the script (`yt-script`). **A scheduled run never asks** — the Monday Kickoff draws on the answers
+already saved. (The sitting's manner, not the interview VIDEOS a member records with agents — those are
+`yt-interview`'s.)
 
 ## 24. What the member sees — short replies, one caveat line, one "kit", plain words (the owner's review, 2026-11-14)
 

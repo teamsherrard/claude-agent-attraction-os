@@ -232,7 +232,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   yet" until the member's design step deploys the page; the traffic engines (Short-Form W3, YouTube W4) plug
   in later — never "missing".
 
-### Plugin 4 — Short-Form (W4) — LIVE 0.7.0 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
+### Plugin 4 — Short-Form (W4) — LIVE 0.7.1 (rewired 2026-11-14: Week 4, two keywords, the kit first, nine workflows — four on with one Yes — three Reels a week to start, Graphics · Reels · Calendar tabs, the Brain Board on every push)
 - Depends on: Brain (avatars, positioning, story-bank, proof, compliance; the Week 2 offer's keyword and the live
   lead magnet). Publishing = bring-your-own (Metricool, or manual). The ManyChat sequences are a bonus-asset import
   on the member's own ManyChat account, not a plugin feature. Notion is bring-your-own for the board — without it the
@@ -255,7 +255,7 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
 - Known modes: connector connected but reads fail → tree #12; edits persist in Riverside, state in
   the Brain's `editor/` allowlist.
 
-### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.6.1 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
+### Plugin 6 — YouTube (W5, date to be confirmed) — LIVE 0.7.0 (rewired 2026-11-14: Week 5, the two CTAs in Mike's shape, one video a week to start, the YouTube tab, two workflows + the email note, the Brain Board on every push)
 - Depends on: Brain + the Week 2 files (the offer's content branches, the guide, the Week 3 Kit's calls-to-action table, the YouTube bio from the kit) + the Short-Form setup from Week 4 (`content-pillars`, the Notion board — "YouTube wants my pillars" means run the short-form setup first). House rhythm: one chat = one video. Cadence: one video a week for the first month, two the step-up the monthly review proposes.
 - **Journey:** kit → Game Plan → the YouTube tab on the board (30 days — four or five videos at one a week) → the two workflows + the email note, one Yes → first video; resumes from
   `channel.md`'s `Setup:` stamp; the Kickoff drafts the week's video every Monday. Known modes: "it skipped the board" =

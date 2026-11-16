@@ -409,7 +409,8 @@ what changed, saves, and stops again with the same line.
 **3b — on the Yes: the plan is built, handed over, then WAIT.**
 **Opens with the win line for the member's direction** — in their own choices: *"✓ That's your direction: five
 pillars — your own words in [three] of them — three posts a week, filming on [their day]."* (the number is the
-answers given, not skipped; a change they made is named: *"…filming on Thursdays — your change."*) Then:
+answers given, not skipped — every one skipped → the clause is left out; a change they made is named: *"…filming on
+Thursdays — your change."*) Then:
 > "Building your Game Plan now: who you're talking to, your pillars with real angles, thirty hooks, the two words
 > that turn a comment into a conversation, and your next thirty days with a date on every post — starting with
 > the six posts you already have designed, so your first two weeks are post, don't make."
@@ -599,7 +600,9 @@ lines only, nothing else of the script:
 > **3.** "[opening three]"
 > Say **1**, **2** or **3** — or tell me how you'd say it yourself, or name a different Reel from your plan. **Your
 > turn.**"
-Their own wording → that IS the opening, tidied only for one breath and read back to them. Whatever they choose is
+(Question 1 was skipped → the clause *", the question you told me agents ask you"* is left out — never credit
+the member with words they did not give.) Their own wording → that IS the opening, tidied only for one breath and
+read back to them. Whatever they choose is
 appended to `## In your words` (`- **Your first Reel's opening** (YYYY-MM-DD): "[the opening]" → [the title]`) and
 pushed with Step 6's save. Another title named →
 that row becomes the first Reel (it must be a row on the calendar; an idea that is not on it goes through "script my

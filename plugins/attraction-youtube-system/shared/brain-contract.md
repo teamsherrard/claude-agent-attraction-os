@@ -293,6 +293,13 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   `yt-setup`; the word `kit` in the stamp is internal — the member's document is "your Channel Page" · `Board:` —
   the content board's link, only when `identity/publishing.md` does not exist) · Positioning · Lanes
   and playlists · The CTA line (the kit's two lines, verbatim) · Upload defaults · Channel page · Baseline ·
+  **`## In your words`** (the owner, 2026-11-15 — the member's own answers to the Week 5 interview and to the one
+  question before a script written in chat, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
+  verbatim]" → [the video it became]`; `skipped — built from your Brain` when they passed; `(kept private: …)` for a
+  name or a figure left out of public videos; appended by `yt-setup` and `yt-script` only; read by `yt-gameplan`,
+  `yt-script`, `yt-make-video`, `yt-board` and the Monday Kickoff, which mark what they build on an entry "your
+  words"; the Week 4 answers in `identity/content-pillars.md → ## In your words` are the Short-Form System's —
+  read here, never written) ·
   `## Game Plan anchors` (yt-gameplan only — `Cadence:` among them) · `## Performance` (yt-analytics only, dated
   blocks appended, newest last).
 - **The content board — the ONE Content Dashboard** (the shared spec `shared/notion-board-spec.md`, byte-identical

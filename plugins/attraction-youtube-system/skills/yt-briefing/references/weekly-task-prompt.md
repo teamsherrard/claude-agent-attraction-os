@@ -40,7 +40,9 @@ not act on it; say so in the note's bracketed notice (step 10) and continue.
    because of an error.
 2. **Read:** `brain.md`; `config.md` (timezone, locale; the `## YouTube (Week 5)` block — an older `## YouTube
    (Week 4)` heading is the same block — for its `Email me:` line, and the `## Short-Form (Week 4)` block's
-   `Email me:` line as the fallback); `identity/channel.md` (the `## Game Plan anchors` block — the `Cadence:`
+   `Email me:` line as the fallback); `identity/channel.md` (`## In your words` — the member's own answers: when one names this week's video, the
+   script start opens on their line and the note says "built on your words"; nothing is asked, because nobody is
+   here to answer · the `## Game Plan anchors` block — the `Cadence:`
    anchor, cycle position, lane names, the plan's doc link — and the CTA line); `memory/content-calendar.md` —
    the `## Long-form (YouTube)` section (the Game Plan's dated calendar in the Brain: this week's rows and the
    whole window; if the section is absent, the Game Plan doc in the workspace's `03 · Content/Long-Form/` — newest

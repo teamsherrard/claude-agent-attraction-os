@@ -2,6 +2,27 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.32.0] — 2026-11-15
+
+**The YouTube sitting is an interview too (YouTube 0.7.0 · Short-Form 0.7.1 · Brain 0.9.15 · Support 0.1.29).** The owner's ruling named both plugins: the short-form *and* the long-form YouTube plugin have to "feel almost like an interview" — the member "a part of making it happen". 0.31.0 rebuilt the Week 4 sitting; this release does the same for Week 5.
+
+**YouTube 0.7.0 — the interview (`yt-setup` Step 6a, `yt-gameplan`, the house rules).**
+- **Four questions, one per reply, numbered**, each asked after a line that plays back what is already on file: (1) which of the member's three topics they could talk about for twenty minutes with no notes — and the first thing they would say; (2) who they would love to sit down with on camera first, and what changed for that agent (a first name is enough); (3) which of their stories to tell at full length first; (4) their filming day, and whether one video a week is honest for them.
+- **Nothing is asked twice.** Week 1's 26 questions and Week 4's four are never repeated: when the short-form answers are on file the sitting plays one back ("Last week you told me agents ask you '…' — people search for that, and it's going on your plan as a video") instead of asking.
+- **Heard back, then put to work.** Each next reply opens with the member's own words, quoted, and what they became. The answers are saved verbatim and dated in a new section of the channel file, `## In your words`, pushed the moment they are given.
+- **The plan is built on the answers.** The proposal shows the member's first three videos — their twenty-minute topic (video 1, its script opening on their own first line), their first guest, their story at full length — with their pace and filming day, then "Does that sound like you?"; nothing is researched or built before their Yes. In the plan document a video built on an answer shows "(your words)"; its board card opens with the member's own sentence.
+- **The same rules of the asking** as short-form: about the member, never the machine · one question a reply · their words stay theirs (a named brokerage and any income figure left out of everything public; a guest is a first name and a candidate — never published, never contacted in the sitting) · "skip" always works and is never asked twice · a member who leaves after Question 2 comes back to Question 3.
+- **After the sitting.** `yt-script` asks ONE question before a script written with the member in the chat ("if an agent asked you this over coffee, what would you say first?") unless their words for that video are already on file; "script my first three videos" now writes one script a reply, each from the member's own words. The Monday Kickoff reads `## In your words` and never asks.
+- The welcome says "we build it together — it works like an interview"; the sitting is about forty minutes.
+
+**Short-Form 0.7.1 — two skipped-answer cases.** When the member skipped the first question, the first Reel is no longer described as "the question you told me agents ask you"; when every answer was skipped, the direction line no longer claims their words are in the pillars.
+
+**Brain 0.9.15.** The channel file's template gains the empty `## In your words` section.
+
+**Docs and Support 0.1.29.** The setup guide's Week 5 section, the YouTube demo checklist (the four questions, the proposal) and FAQ Q70 and Q71 (both setups).
+
+**Not yet run live in Cowork.**
+
 ## [0.31.0] — 2026-11-15
 
 **The short-form sitting is an interview, and the member feels the win (Short-Form 0.7.0 · YouTube 0.6.1 · Brain 0.9.14 · Lead Magnet 0.12.11 · Support 0.1.28).** Three things the owner said after 0.30.0 made the sitting wait: *"we need to make sure there is a proper customer journey"*; *"the student also needs to feel a WIN that they did something to achieve the result"*; and that the short-form and YouTube plugins have to *"feel almost like an interview"* — the member *"involved… a part of making it happen and bringing that system, that product to life. That experience is a very important part of this process."* Waiting for a Yes is not involvement. This release rebuilds the Week 4 sitting around the member as the source.

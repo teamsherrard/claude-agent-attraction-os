@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.6.1 · Brain 0.9.14. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.7.0 · Brain 0.9.15. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen
@@ -22,15 +22,22 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 **Say:** `set up my YouTube for agents`
 - [ ] **The welcome** names Week 5 and the five things, in order (your channel → your Game Plan → your videos on your
   board → your workflows → your first video), names only what is really on file (your offer, your guide, your bios),
-  and asks one thing: the channel. **ONE STEP PER REPLY: every step ends on "Say Yes and I'll … — or tell me what you'd change. Your turn." and nothing more is built until the member answers** — after the Channel Page, the Game Plan's three topics and pace (shown BEFORE the plan is built), the built plan, and the board; then the workflows card and its Yes. Walk away mid-sitting and come back: it is exactly where you left it.
+  says "we build it together — it works like an interview", and asks one fact: the channel. **ONE STEP PER REPLY — and it runs like an interview (the owner, 2026-11-15):** every reply opens with a win line ("✓ …" — what the member just said or did), hands the member one thing that is theirs (a question, a choice, or a few minutes in their own account) and stops on "Your turn." Nothing more is built until the member answers — after the Channel Page, each of the four questions, the proposal (shown BEFORE the plan is built), the built plan, and the board; then the workflows card and its Yes. Walk away mid-sitting and come back: it is exactly where you left it.
 - [ ] **Your Channel Page:** saved as one document under Content → Long-Form, and in the chat only **the three to paste
   today**, each as a copy block with its click path above it: the channel description with the about section, the
   links (the booking link first, the guide second), the upload defaults. One line says the other pieces (keywords,
   playlists, banner, spoken lines, trailer) are in the document, and that `walk me through my channel page` takes them
   one at a time. The banner is the one the brand kit made in Week 3. No "paste it now" question, no wait.
-- [ ] **The Game Plan, in two replies:** first what it stands on — your three topics, your pace (one video a week), your
-  filming day — and a **stop**: "Say Yes and I'll build your plan on these — or tell me what to change". Nothing is
-  researched or built yet. On the Yes: one line with the research ("about [N] searches"), then two lines pointing at
+- [ ] **The interview — four questions, ONE per reply, each after a line that plays back what is already on file:**
+  (1) which of your three topics you could talk about for twenty minutes with no notes, and the first thing you'd
+  say · (2) who you'd love to sit down with on camera first (a first name is enough) · (3) which of your stories to
+  tell at full length first · (4) your filming day and whether one video a week is honest for you. **Each next reply
+  quotes your own words back and says what they became.** Try "skip" on one: it builds that one from your Brain
+  and never asks twice. If the short-form sitting was done first, it plays back the question agents ask you ("last
+  week you told me…") instead of asking it again.
+- [ ] **Your direction, then the Game Plan:** after the last answer it shows your three topics and **your first three
+  videos — built on your answers** — with your pace and your filming day, and a **stop**: "Does that sound like
+  you?" Nothing is researched or built yet. On the Yes: one line with the research ("about [N] searches"), then two lines pointing at
   the document — never the plan in the chat — and a second stop. Open it: three niche lanes from the offer's content branches, the interview lane, the
   model lane, about fifty titles, **one video a week to start** (two named as the step-up), the first 90 days on the
   8-video cycle, the goal in conversations and calls — never income. **The first video is never dated today:** it is

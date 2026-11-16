@@ -83,6 +83,23 @@ and §10 (the two CTAs) only if a line needs re-grounding. Never the whole doctr
   line and this skill stays silent). set → write, apply, remind once at the close. confirmed → write, apply.
 - Missing local Brain → `attraction-brain-sync` first; a tool error is never "no Brain."
 
+## Step 1b — THE ONE QUESTION: the member's words first (on demand only)
+The owner, 2026-11-15: making a video has to "feel almost like an interview" — the member part of bringing it to
+life. So with the member in the chat, a script starts from one thing they say — unless their words for this video
+are already on file.
+- **Read `identity/channel.md → ## In your words` first.** An entry that names this video (its `→` part) is the
+  member's own words for it: use them — the HOOK opens on their line — and ask nothing.
+- **No entry for this video** → one question before a word is written, and the reply stops there:
+  > "Before I write '[title]': if an agent asked you this over coffee, what would you say first? A few sentences —
+  > type it, or tap the microphone and just talk. Or say **skip** and I'll write it from your Brain. **Your turn.**"
+  Their answer is heard back in one line (*"✓ "[their words]" — that's how it opens."*), appended to `## In your
+  words` (`- **[title]** (YYYY-MM-DD): "[verbatim]" → [title]`, pushed at Step 7), opens the HOOK (tidied only to
+  be sayable — never a claim added; a named brokerage and any income figure left out, said once) and steers the
+  first section of the body. The script's top line says **Built on your words**.
+- **"Skip" / "you pick"** → written from the Brain, never asked again for that video.
+- **Never asked:** in a scheduled run (the Monday Kickoff drafts from the answers already saved), for a guest
+  video's intro and outro (the guest's story leads — `yt-interview`), or a second time in the same chat.
+
 ## Step 2 — Choose the format (`references/format-playbooks.md`)
 Open the chosen format's **Pull** files now (the Step 1 list) — only that format's.
 Bucket → format: Situation with the member's own story → **Why I Switched** · Problem / Situation → **Pain Point
@@ -180,7 +197,13 @@ does the rest. Told, never asked: no "which three?", no "ready?".
    plain line. Fewer than three solo videos on the plan → script what there is and say the count. No plan yet →
    one line: *"Your Game Plan comes first — say 'set up my YouTube for agents'."* Say the three in one line:
    *"Your first three to film on your own: '[A]', '[B]' and '[C]'. Your interviews are booked separately."*
-2. **Read once, write three.** Step 1's gathering runs ONCE for all three (the Brain files are opened one time).
+2. **Read once, write three — one at a time, each from the member's own words.** Step 1's gathering runs ONCE for
+   all three (the Brain files are opened one time). **Each script is its own reply** (the owner, 2026-11-15: one
+   step, then wait · it has to feel like an interview): a video with an `## In your words` entry is written
+   straight away from it; a video without one gets Step 1b's one question first, and the reply stops. After each
+   script: *"✓ That's [1] of 3 — '[title]', built on your words. **Next: '[title B]'** — [Step 1b's question for
+   it, or "it's built on what you told me in your setup — say **Yes** and I'll write it."] **Your turn.**"* "Skip"
+   or "write all three" → the rest are written from the Brain in one reply, and said so.
    No web research here — the scripts are built from the member's own method, stories and proof; each card already
    carries its reference video for the member to watch first. Then Steps 2 to 6 for each script, in date order:
    its own format by bucket, **a different story from the bank for each** (each stamped Used-where), **three

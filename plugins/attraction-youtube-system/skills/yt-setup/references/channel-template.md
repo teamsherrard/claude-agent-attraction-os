@@ -65,6 +65,10 @@ member's time per partner.
 ## Baseline (as of YYYY-MM-DD)
 - Subscribers: [n]  ·  Videos: [n]  ·  Most-viewed: "[title]" (~[n])  ·  Cadence observed: [n/wk]
 
+## In your words
+*What you told me — your own words. They open your videos.* (written by yt-setup's interview and by yt-script's one question; a rewrite of this file keeps the section exactly)
+- (empty until your YouTube sitting asks its four questions)
+
 ## Game Plan anchors (written by yt-gameplan only)
 - Plan date: [YYYY-MM-DD]  ·  Doc: [workspace link]  ·  Cadence: [1 or 2]/week · since YYYY-MM-DD  ·  Step-up: [the monthly review proposes two a week after a month at one / proposed YYYY-MM-DD / taken YYYY-MM-DD]  ·  Cycle position: [cycle 1, video 1 of 8]
 - Lane names: Problem "[…]" · Situation "[…]" · Future "[…]"

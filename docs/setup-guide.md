@@ -278,7 +278,7 @@ paste it, with your location, into the connector settings yourself, never into c
 plus a build sheet for Claude Design) · `green screen on brokerage news` · `how's my content doing` · `plan my
 attraction week` · `my attraction workflows`.
 
-## 7. Week 5: your YouTube engine (one sitting in Cowork, about 30 minutes — the week's date is to be confirmed)
+## 7. Week 5: your YouTube engine (one sitting in Cowork, about 40 minutes — the week's date is to be confirmed)
 
 Install Plugin 6 (Check for updates first). Then one phrase opens the whole sitting:
 
@@ -286,9 +286,12 @@ Install Plugin 6 (Check for updates first). Then one phrase opens the whole sitt
 set up my YouTube for agents
 ```
 
-It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it asks one thing — your channel link, or
-"starting fresh" — and then does five things with you, **one step at a time: it shows you each one and waits for
-your Yes, or your changes, before the next**:
+It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. It
+asks for one fact — your channel link, or "starting fresh" — and then **it works like an interview, and you build
+it together**: four short questions only you can answer, each one read back to you in your own words and turned
+into something you can see. Five things, **one step at a time: it shows you each one and waits for your answer,
+your Yes, or your changes, before the next**. Type your answers or tap the microphone and just talk; say "skip" if
+a question stumps you.
 
 1. **Your channel, optimized for the agents you attract.** Your whole Channel Page Kit is saved as a document: your
    description, about section, links, keywords, playlists, upload defaults and the two lines you say in every video,
@@ -297,7 +300,11 @@ your Yes, or your changes, before the next**:
    time. Your banner is the one your brand kit made in Week 3 — it is already in your Brand folder.
    Your YouTube bio comes from chapter 6 of your kit; the links are your booking line first and your guide second; the
    spoken lines are your kit's calls to action, in Mike's shape (partner with me and get my help, free, to run this).
-2. **Your YouTube Game Plan.** Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
+2. **Your YouTube Game Plan — built on your answers.** First the four questions, one at a time: which of your three
+   topics you could talk about for twenty minutes with no notes (and the first thing you'd say); who you would love
+   to sit down with on camera first; which of your stories to tell at full length first; and your filming day and
+   pace. Then it shows you your first three videos — your own answers — and asks "Does that sound like you?" When
+   you say Yes it builds the plan: Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
    (3 niche · 1 model · 4 interviews), your lanes from the content branches of your offer, about fifty titles, your
    first 90 days. **One video a week to start**; two is the step-up your monthly channel review proposes after a month. The
    document lands in Content → Long-Form.

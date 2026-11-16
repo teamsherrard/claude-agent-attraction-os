@@ -85,9 +85,18 @@ phase needs them: §3 and §7 (Phase 2), §4 (Phase 3), §5 (Phase 4), §6 (Phas
 CTAs), §13–§14 (Phases 7–9). `references/starter-title-bank.md` at Phase 6 only, and only when the member has no
 titles of their own (the rule is stated there). Never the whole doctrine up front.
 
-**Run from setup (`yt-setup` Step 6b — after the member's Yes).** Setup's Step 6a has already PROPOSED what the
-plan stands on — the three topics, the pace, the filming day — and waited (the owner, 2026-11-15: "it should WAIT
-for me"); this skill starts only on the member's Yes and builds on what they approved or changed there. From that
+**Run from setup (`yt-setup` Step 6b — after the member's Yes).** Setup's Step 6a has already ASKED the member its
+four questions (the owner, 2026-11-15: the sitting has to "feel almost like an interview"), saved the answers under
+`identity/channel.md → ## In your words`, PROPOSED what the plan stands on — the three topics, the first three
+videos, the pace, the filming day — and waited ("it should WAIT for me"); this skill starts only on the member's Yes
+and builds on what they approved or changed there. **The member's answers lead the plan:** read `## In your words`
+first — **the first niche video** (video 1; on a new channel, the one right after the trailer) is the topic they
+said they could talk about for twenty minutes, and its script opens on their own first line; **the first guest slot** (Phase 4, Phase 8) is the person they named, top of the candidates, a
+first name only; **the early story slot** (Phase 8 — where Why I Switched goes) is the story they chose; the pace
+and the filming day are theirs. `identity/content-pillars.md → ## In your words` (the Week 4 answers, read-only) is
+a source for the title bank: the question agents ask the member becomes a title in the agents' own words. In the
+document a video built on an answer shows **"(your words)"** after its title; the `→` part of each entry is filled
+with its video's title. A skipped answer leaves its slot to the phases' own rules. From that
 Yes the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
 week unless the member chose two), never asked again; goals at `seeds` are used
 and labeled, never asked for (Phase 7); the board step is skipped (Phase 9 step 6 — setup's next step adds the
