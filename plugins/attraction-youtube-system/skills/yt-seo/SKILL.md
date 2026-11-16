@@ -130,5 +130,6 @@ the member's time per partner.
 
 ## Hand-off
 Pairs with `yt-thumbnail` (text ≠ title; the thumbnail sheet goes to Higgsfield) and `yt-leads` (the resource lines the description carries). After
-publish → `yt-repurpose` writes the pack; the Reels and the carousel are then the short-form system's by phrase
-(*"script my attraction reels from [title]"*).
+publish → `yt-repurpose` writes the pack and queues its three clips for the week's Reels (never a phrase that
+scripts more Reels on top); the carousel and the stories are the short-form system's by phrase (*"attraction
+carousel from [title]"*).

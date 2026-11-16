@@ -81,6 +81,19 @@ changed (Step 3 is a check, not a rewrite); the SEO start is completed with the 
 line: *"your Monday Kickoff already drafted the start — I'm picking up from there."* Setup's first video arrives
 the same way when the board was seeded: the card exists at `Idea`; the title is locked, nothing else is drafted.
 
+**Scripted in the first batch already?** ("script my first three videos" — `yt-script`): the folder holds a full
+`Script` document, and the card's 🎬 SCRIPT reads *"full script — written in your first batch"* → **the script is
+never rewritten.** Say one line — *"Your script is already written — I'm building the rest around it."* — then
+Step 1 (the competitive read), skip Step 2's writing (a read-through only, for a fact that changed), and Steps 3
+to 6: the thumbnail sheet, the title and description, the resource lines, the card with its publish checklist.
+**Filmed or not is read from the date, never asked:** today is on or after the row's Recording date → it is
+treated as filmed — say one line (*"I've marked it as filmed — tell me if it isn't yet."*); **the title and the
+hook are fixed** (they are on camera); the three references are given as *"three to watch before your next one"*;
+the thumbnail sheet names the five photos taken on film day; the card and the calendar row go to `Recorded`,
+never back to `Scripted`; and Step 7 says only the editing line. Today is before the Recording date → not filmed
+yet: the usual "before you film" lines apply, the title and hook may still change after the read (said in one
+line), and the Status stays `Scripted`.
+
 **Opened later:** Step 1 → `identity/offer.md` · `identity/voice.md` · `identity/story-bank.md` ·
 `memory/magnets.md` (the live guide) · the newest `exports/week3-kit-*.txt` (chapter 7) · (an interview)
 `memory/interview-pipeline.md` · (only if the idea came from them) `memory/ideas.md` · `memory/intel.md` · Step 2
@@ -111,8 +124,9 @@ or the card's `Reference Video` link). Re-run the "is it real" check on it once
 replaced by the read below; still there → it is the first candidate. No reference on file (an ad-hoc title, an
 older row) → the read below finds all three.
 Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3 (2–4) real videos agents
-find for this exact question — `link · channel · ~views (as seen) · date seen · what works · what's missing · the
-one thing we do better`. Real links only — each returned by a search in this chat and checked as a real, public
+find for this exact question — `link · channel · ~views (only when seen) · what the title promises · the one
+thing we do better`; what works or is missing INSIDE a video is written only when it was really read (the member
+pasted a transcript or described it) — otherwise say once that these were matched on their titles. Real links only — each returned by a search in this chat and checked as a real, public
 video; a count that cannot be seen is left off; the cardinal rules apply to how other channels are described (what
 is missing, never what is wrong with them). **The closest of the three is the card's reference video:** the one
 already there is confirmed, or a closer one replaces it — then the row's cell and the card's `Reference Video` link
@@ -121,8 +135,9 @@ file and the tools in this session → the data engine's recipe 4 gives exact vi
 (`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`); otherwise the web search, silently — never a sign-in or
 an ask here, at most one closing line naming *"connect my YouTube numbers"*. Then lock the **title** (the
 viewer's question, pain or desire named — `97`), the **hook** (the first 15–30 s, straight into the question, no
-"welcome back"), and the **story** from the bank. Give the member the references in chat: *"watch these three
-before you film — the first is the one on your card; here's what each does well."*
+"welcome back"), and the **story** from the bank. Give the member the references in chat: *"Watch these three
+before you film — the first is the one on your card. I matched them on their titles; you'll see how each one
+opens and where it asks for something."*
 Once the title locks — still the start of the video chat, never pick time — if the idea came from
 `~/attraction-brain/memory/ideas.md`, open it and mark that row Used now (this is where an idea becomes a video);
 if it drew on a `memory/intel.md` row, mark that row's `Used?` column now too.
@@ -174,7 +189,8 @@ say) · **✅ PUBLISH IT — SIX STEPS IN YOUTUBE STUDIO** (the owner, 2026-11-1
 stuck — six real to-do items, `- [ ]`, in Studio's own order, each with its click path and THIS video's own values:
 **1 Title** — Details → Title: the chosen title, printed · **2 Description** — Details → Description: the
 description, with line 1 the call and the booking link, line 2 the guide, line 3 the compliance and contact line ·
-**3 Thumbnail** — Details → Thumbnail → Upload file: the thumbnail made in Higgsfield, from this video's folder ·
+**3 Thumbnail** — Details → Thumbnail → Upload file: the thumbnail made in Higgsfield, from this video's folder
+(all three made, and Studio shows Test & compare there → upload the three and YouTube picks the winner) ·
 **4 Playlist** — Details → Playlists: the playlist by its exact name (the lane's, from `channel.md`) · **5 End
 screen** — Video elements → Add an end screen: the next video and the playlist the SEO package names (a first
 video: the playlist alone), and Subscribe ·
@@ -198,8 +214,9 @@ the video waits to go out → flip the calendar row and the card to `Ready to Po
 
 ## Step 8 — Publish → the content-log row (the fix this fork carries)
 **The phrase is "my video is published"** (the card's own last line says it; "it's live", "I uploaded it" and the
-like are the same thing). Which video: the one this chat is about; in a fresh chat, the card at `Ready to Post` or
-`Recorded` with the nearest date — said in one line, never asked unless two fit equally. **The six boxes never
+like are the same thing). Which video: the one this chat is about; in a fresh chat, the card — with no board, the calendar row — at `Ready
+to Post`, `Recorded` or `Scripted` whose Publishing Date is nearest to today; said in one line (*"Marking '[title]'
+as published."*), asked only when two fit equally. **The six boxes never
 block it:** read the card's ✅ PUBLISH IT; anything still unticked → one plain line naming it (*"Two steps are still
 open on its card: the end screen and the pinned comment."*), and carry on.
 When the member says it is live, ask for the link once (only when they did not give it), then **update this video's `memory/content-log.md` row**
@@ -211,7 +228,10 @@ to `Published`, flip the board card to `Published` (📊 AFTER IT'S OUT is writt
 "how did my video do"), and top up
 the board to its next 30 days from the Game Plan
 (`${CLAUDE_PLUGIN_ROOT}/skills/yt-board/references/thirty-day-mapping.md`, the rolling rule — the Monday Kickoff
-does the same every week). Push via `attraction-brain-sync` and say the save happened, or that it did not.
+does the same every week). **Every card this skill creates is recorded** — the top-up's cards here, and a card
+made in Step 6 for a video that had none: append one short block under `memory/content-calendar.md → ## Kickoff
+briefs (YouTube)`, `Board — YYYY-MM-DD · carded: [System IDs]`, in the same push — the record that lets a later run
+tell a card that was never made from one the member took off the board. Push via `attraction-brain-sync` and say the save happened, or that it did not.
 Remind them of the one paste: the pinned comment from the SEO package (the guide's funnel URL + "comment GUIDE").
 For an interview, move its `memory/interview-pipeline.md` row to Published and hand the guest their three
 distribution sentences (`yt-interview` Step 6).
@@ -220,9 +240,11 @@ distribution sentences (`yt-interview` Step 6).
 - `yt-repurpose` writes the pack from the script or transcript — the three Shorts moments, the carousel spec, the
   story frames, the email to the member's agent list, the blog post, the three conversation starters — every ask
   one of the two CTAs in the law's shape, and its content-log rows. Written assets only.
-- **The Reels, the carousel and the stories** are then the short-form system's (on their machine since Week 4) —
-  hand by phrase, with this video's title: *"say 'script my attraction reels from [title]', or 'attraction
-  carousel from [title]', or 'attraction stories from [title]'"*. The first Short is the moment the edit flagged.
+- **The Reels come from the clip queue, never from a phrase:** the pack's three clip scripts are queued, and the
+  short-form system's Monday plan turns up to two of them into the week's Reels — say the pack's own closing line
+  (*"Your three clips are queued…"*), never "script my attraction reels from…", which would add posts on top.
+  **The carousel and the stories** go by phrase, with this video's title: *"say 'attraction carousel from [title]'
+  or 'attraction stories from [title]'"*. The first Short is the moment the edit flagged.
 - **The conversation starters** go to the sales system *"when it arrives — until then they sit in your ideas
   file"* (`yt-repurpose` appends them there).
 Then: *"next week, say 'what's my next attraction video' and we pick from the plan — or wait for Monday: your

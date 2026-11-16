@@ -68,8 +68,8 @@ rest at the numbered line that uses them:
    `identity/channel.md → Board:`): a URL → what is due, what is stuck (a card the Monday
    Kickoff drafted to `Scripted` is this week's video — finishing it leads the batch), cards the member added by
    hand are their ideas — they lead the batch, each with the phrase that makes it ("make my attraction video:
-   [title]"), stated, never offered; top up the next 30 days
-   (`${CLAUDE_PLUGIN_ROOT}/skills/yt-board/references/thirty-day-mapping.md`, the rolling rule).
+   [title]"), stated, never offered. This skill only READS the board — it never creates a card: fewer than 30 days showing →
+   one closing line, *"say 'update my attraction video board' and I top it up"*.
 7. **Fresh signals, budgeted (≤8 searches) — research is third:** `yt-research`'s method (web search and page
    fetch; autocomplete only as the member pastes it or as a `youtube [phrase]` search; the top videos; "people also
    ask") for what agents are searching on the batch's candidate topics; `yt-outliers`'s weekly scan if it has not

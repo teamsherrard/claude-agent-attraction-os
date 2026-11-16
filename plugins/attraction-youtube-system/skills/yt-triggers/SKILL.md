@@ -86,7 +86,8 @@ by the one phrase "change my YouTube cadence" — when a month at one has held (
 earlier in the same month defers to it). **Turn on
 / resume** ("turn on my monthly YouTube review", from `paused` or `later` — the phrase is the member's explicit yes):
 the Monthly row of the consent reference — `list_scheduled_tasks` (adopt `attraction-monthly-youtube-review`), else
-`create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, `cronExpression: 0 8 1 * *` (their day and
+`create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, the `title` and `description` the consent
+reference prints (`Your Monthly Channel Review`), `cronExpression: 0 8 1 * *` (their day and
 hour, local time), the prompt **verbatim** from `references/monthly-review-task-prompt.md`; verify; write `Monthly
 review task: attraction-monthly-youtube-review · runs the 1st [time]`; push; confirm once: *"On. Say 'stop my monthly
 YouTube review' any time."* **Run now** ("run my monthly YouTube review"): the same prompt's steps 2–7 and 9 in chat,

@@ -172,7 +172,8 @@ the Brain Board); say what saved and what did not, then the pack's closing line 
 last thing the member reads.
 
 ## Compliance gate (3-state)
-`identity/compliance.md`'s first line, `Status:`, before the pack leaves the chat: `unset` → draft stays private,
-plain line that the rules are not set, and nothing is queued (a private draft is not a clip — the rows are written
-when the pack is saved); `set` → apply, remind once; `confirmed` → apply. No earnings claims,
+`identity/compliance.md`'s first line, `Status:`, before the pack leaves the chat: `unset` → never a stop: the pack is written, saved and stamped "hold until your compliance basics are set"; **the
+three clip rows are NOT queued** (a held draft is not a clip), and the closing line is this one instead of the two
+above: *"One thing before these go out: say 'paste my compliance link' — two minutes. Then say 'repurpose my
+attraction video' again and your clips are queued."*; `set` → apply, remind once; `confirmed` → apply. No earnings claims,
 brokerage name and license display where the file requires it on posts, AI-likeness disclosure on any clone clip.

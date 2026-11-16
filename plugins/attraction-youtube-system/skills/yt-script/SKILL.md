@@ -11,7 +11,7 @@ description: >
   mechanics, never figures. Saves the script; writes the content-log row at Scripted. Triggers on
   "write my attraction script", "script my why I switched video for agents",
   "write my model breakdown script for agents", "script my pain point video for agents", "script my
-  agent interview intro", "write my attraction script for [title]".
+  agent interview intro", "script my first three videos".
 ---
 
 # Script Studio — the video, in the member's voice, ready to read
@@ -48,6 +48,8 @@ and §10 (the two CTAs) only if a line needs re-grounding. Never the whole doctr
 
 > **One chat = one video.** Normally Step 2 of make-video. A member can also come straight here with their own
 > idea ("script my why I switched video") — this chat becomes the video's chat. Gather what is missing, plainly.
+> **One exception, and only this one: the first batch** ("script my first three videos" — the section near the end):
+> three scripts in one sitting, so a new member can film a first batch in one day.
 
 ## Step 1 — Gather (read; never re-ask)
 - **The idea package** — from ideation / make-video (title · bucket · hook · avatar · pain · signal · thumbnail
@@ -138,9 +140,8 @@ never `[add your story]`; every line filmable as written.
 
 ## Step 5 — The first Short (the moment, not the Reel)
 Name the strongest 30–45 s moment — the pain in line one → one point → the ask with one of the two keywords —
-with its timestamps, so your AI Editing Studio cuts it at the edit. The Reels themselves (hooks,
-captions, the batch) are the short-form system's: *"say 'script my attraction reels from [title]'"*. Nothing
-more is written here.
+with its timestamps, so your AI Editing Studio cuts it at the edit. The Reels themselves come later, from the clip queue: after the video is out, *"say 'repurpose my attraction
+video'"* writes three clip scripts and queues them for the week's Reels. Nothing more is written here.
 
 ## Step 6 — Compliance + fact-check (before saving)
 1. Every stat, quote, brokerage fact, or agent result is sourced `(title · outlet · date · link)` or flagged
@@ -167,6 +168,51 @@ more is written here.
    card's 🎬 SCRIPT section (make-video Step 6 writes the card; replaced in place, never stacked).
 3. Stamp the story's Used-where. Push via `attraction-brain-sync`; verify. Save fails → say it is not saved,
    keep the script visible, retry once, stop.
+
+## The first batch — "script my first three videos" (three scripts in one sitting; the owner, 2026-11-15)
+**Why it exists:** a member who has just finished setup films best in one go — camera out once, three videos
+recorded, three weeks covered. This writes the three scripts, and only the scripts; each video's own chat still
+does the rest. Told, never asked: no "which three?", no "ready?".
+1. **Which three — the next three the member films ALONE.** Read `memory/content-calendar.md → ## Long-form
+   (YouTube)`: the rows at `Idea`, or at `Scripted` with only a script start, in date order, **skipping interviews**
+   (a guest is booked, never batched). A new channel's trailer counts as one of the three. A model breakdown whose
+   facts are not on file (`identity/brokerage-model.md` not built) is skipped for the next solo video, with one
+   plain line. Fewer than three solo videos on the plan → script what there is and say the count. No plan yet →
+   one line: *"Your Game Plan comes first — say 'set up my YouTube for agents'."* Say the three in one line:
+   *"Your first three to film on your own: '[A]', '[B]' and '[C]'. Your interviews are booked separately."*
+2. **Read once, write three.** Step 1's gathering runs ONCE for all three (the Brain files are opened one time).
+   No web research here — the scripts are built from the member's own method, stories and proof; each card already
+   carries its reference video for the member to watch first. Then Steps 2 to 6 for each script, in date order:
+   its own format by bucket, **a different story from the bank for each** (each stamped Used-where), **three
+   different ways of opening** (never the same hook shape twice in the batch), the two CTAs in the kit's words in
+   every script, the compliance and fact check on each. The trailer is 60 to 90 seconds; the others the usual
+   length. In the chat, show each script's title, its opening line and its length in minutes — never three full
+   scripts in the chat; the documents hold them.
+3. **Save each one where its video lives** (Step 7, three times, ONE push at the end): the `Script` document in
+   each video's own folder; the content-log row at `Scripted` (update, never a second row); with a board, each
+   card's 🎬 SCRIPT section — the full script, labelled *"full script — written in your first batch"* — replacing a
+   script start, and the card's Status → `Scripted`; each row of the calendar → `Scripted`. **The filming day:**
+   set the three rows' and cards' Recording Date to ONE day — the first of the three's own recording day (the
+   plan's date, never today and never sooner than three days out) — and leave every Publishing Date as the plan
+   wrote it, one a week. A row or a card the member has already moved keeps the member's date.
+4. **The film-day sheet** — one short document, `First Batch — Film Day — YYYY-MM-DD`, in `03 · Content/Long-Form/`
+   (the skeleton is in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`), and the same lines in the chat:
+   the day · the three videos in filming order (the trailer last — the member is warmed up by then) with each
+   one's length · **before you record** — the camera at eye level · face a window · a quiet room, or the
+   microphone you already have · the script in large type beside the lens · a ten-second test, watched back ·
+   **between videos** — change your top, so three weeks of videos do not look like one afternoon · **after each
+   video** — five photos of your face for the thumbnail: a big smile, surprised, serious, pointing left, pointing
+   right. Nothing in it promises anyone the member's time.
+5. **The close — three numbered lines, and nothing after them:**
+   1. *"Watch the video on each card first — one real example for each of your three."* (left out with no board)
+   2. *"Film all three on [the day, in words]. Say 'block my attraction filming day' and it goes on your calendar."*
+   3. *"After filming, one video at a time: open a new chat and say 'make my attraction video: [title]' — your
+      script is already written, so I add your thumbnail sheet, your title and description, and your publish
+      checklist. Then 'edit my YouTube video'."*
+   A save that failed is said plainly, with what was not saved. Compliance `unset` → the scripts are written and
+   stamped "hold until your compliance basics are set", and the one line is said once, last.
+**After the first batch it is one chat per video again** — the phrase works once the plan has three solo videos
+unscripted (a later month's batch is the same three-script sitting, never more than three).
 
 ## Hand-off
 *"Script's ready. Next: your thumbnail sheet (so you film the expression it needs — you make the thumbnail in

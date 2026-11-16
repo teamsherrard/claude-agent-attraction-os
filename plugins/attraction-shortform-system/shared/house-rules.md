@@ -412,7 +412,10 @@ The rules every task obeys:
   set them up."* — and all four are provisioned on that Yes; the five extras are stated in one sentence ("they're
   there if you want them — say the word any time") and switched on by the member's phrase ("turn on my …"), each as a
   statement, never an offer ("want …? yes, and what time?" is gone). A task is provisioned with
-  `create_scheduled_task` with its prompt the verbatim file in the owning skill's `references/`, verified with
+  `create_scheduled_task` with its prompt the verbatim file in the owning skill's `references/`, **a plain `title`
+  the member will recognise in their Scheduled list — the workflow's own name, "Your Monday Week Plan", "Your Batch
+  Prep", "Your Brokerage News Watch", "Your Monthly Calendar Refill" — and the one-line `description` the tool
+  requires (what it drafts, and "draft only")**, verified with
   `list_scheduled_tasks` (adopt an existing twin, never create a second). Never claim a schedule that did not save.
   A demo Brain never gets a task.
 - **Recorded in `config.md → ## Short-Form (Week 4)`** — one line per task, locked spelling and order (the

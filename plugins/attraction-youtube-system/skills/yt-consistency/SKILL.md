@@ -61,7 +61,10 @@ chat = one video — scripts are written in each video's own chat by `yt-make-vi
 plan (default 3–4 — a month at one a week):
 - Check each has a Script in its folder (content-log Status ≥ Scripted — a row the Monday Kickoff set to
   `Scripted` holds only the script start; the full script still needs the video chat). Missing → *"[title] isn't
-  scripted yet — open a fresh chat and say 'make my attraction video: [title]'."* Never script here.
+  scripted yet — open a fresh chat and say 'make my attraction video: [title]'."* Never script here. **The one
+  exception is the first batch:** when three solo videos are still unscripted, say the one phrase instead —
+  *"Say 'script my first three videos' and all three scripts are written in one sitting, ready for your filming
+  day."* (`yt-script` owns it; interviews are never part of it.)
 - **Interviews are booked, not batched:** list the pipeline rows at Invited/Booked with dates; flag any slot
   in the cycle with no guest and point to `yt-interview`.
 - Produce the filming order and run-of-show: same setup groupings, the intros and the two CTAs (the kit's

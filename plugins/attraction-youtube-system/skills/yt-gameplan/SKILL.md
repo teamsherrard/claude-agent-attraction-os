@@ -93,7 +93,13 @@ YouTube tab and maps the next 30 days); **no chat summary of its own** (Phase 9 
 in two lines pointing at the document: no topic list, no title list, no calendar, no goal numbers in the chat);
 the closing hand-off is replaced by handing back to setup (Phase 9 step 7); compliance `unset` is not mentioned
 here (setup's close says the one line). The research line (Phase 3) is still said once — setup says it with its
-announce line; it is a progress line, not a question. On demand, every stop below behaves as written.
+announce line; it is a progress line, not a question. **Also not done from setup:** the public channel page is not
+read a second time (the baseline `yt-setup` Step 3 wrote in `channel.md` is the audit's read); the Studio-screenshot
+line and the "'change my YouTube cadence' is one phrase away" line are not said (both live in the document); and
+**the three topic names and their playlist names already in `identity/channel.md → ## Lanes and playlists` are kept
+word for word** — the member pasted them on their channel minutes ago; research fills the titles, never renames a
+topic (on demand, a renamed topic is written back to that table and said in one line). On demand, every stop below
+behaves as written.
 
 **"Change my YouTube cadence" (on demand — the one phrase that changes the pace; never the whole plan again).**
 The member's own words set the pace (one a week ↔ two a week — nothing is asked). No audit, no research, no new

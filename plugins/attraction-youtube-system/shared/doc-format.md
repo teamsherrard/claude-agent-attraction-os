@@ -5,6 +5,14 @@ every member (no colour, no per-member branding). The skill writes the **structu
 section bands, `•` bullets, `Label:` lead-ins, simple aligned tables); the shared renderer turns that into real
 Word formatting — headings, bullet lists, tables — automatically. **Do NOT save flat `text/plain`.**
 
+**How to read this file — it is long; never read it whole (usage discipline, house rule #8).** Read the part above
+`## Per-doc skeletons` once (the saving steps, the look, the grammar). Then read ONLY the skeleton you are about to
+fill: search this file for its heading and read from that heading to the next `###`. The skeletons, by heading:
+`### YouTube Game Plan` · `### Script` · `### First Batch — Film Day` · `### Channel Page` · `### Kickoff Brief` ·
+`### SEO Package` · `### Interview Prep` · `### Thumbnail Sheet` · `### Lead Map` · `### Starter Resource` ·
+`### Model Breakdown` · `### YouTube Deep Dive` · `### Monthly Channel Review` · `### Repurposing Pack`. A skeleton
+you are not filling in this run is never opened.
+
 ## Saving — render the structured text to a styled `.docx`
 1. Assemble the doc as structured text (the skeletons below); write it to a temp file in the session's
    scratchpad (never the member's workspace), e.g. `doc.txt`.
@@ -316,12 +324,44 @@ TITLE NOTES   (the Brain's copy — not printed in the document)
 ```
 
 ### Script (the four formats + interview)
-TITLE/meta → bands for `HOOK · 0:00` → `RESOURCE CTA · ~0:45` → numbered `1 · LABEL · MM:SS` body sections
-(3–5) → `CALL CTA · ~{1/3 in}` → `PAYOFF` → `NEXT VIDEO` → heavy band `CHAPTERS` → heavy band `45-SECOND SHORT` →
+TITLE/meta → bands for `HOOK · 0:00` → `THE GUIDE ASK · ~0:45` → numbered `1 · LABEL · MM:SS` body sections
+(3–5) → `THE CALL ASK · ~{1/3 in}` → `PAYOFF` → `NEXT VIDEO` → heavy band `CHAPTERS` → heavy band `THE FIRST SHORT` →
 footer with the stories used and the compliance line — both CTAs the kit's CALLS TO ACTION lines, verbatim, in the
 law's shape (house rules #15 and #17): the guide inside minute one, the call a third in. Interview scripts carry `INTRO (record last)` ·
 `QUESTION MAP` · `OUTRO + JOINT CTA`. Detailed skeleton:
 `${CLAUDE_PLUGIN_ROOT}/skills/yt-script/references/script-format.md`.
+
+### First Batch — Film Day (`yt-script`, "script my first three videos" — saved as `First Batch — Film Day — YYYY-MM-DD` in `03 · Content/Long-Form/`; no export)
+Member-facing, one page, large and plain: the day, the three videos, and what to do before, between and after.
+```
+YOUR FIRST BATCH — FILM DAY
+{the day, in words — "Sat, Dec 12"}  ·  three videos, about {n} minutes of talking in all
+
+──────────────── THE THREE, IN FILMING ORDER ────────────────
+1.  {title} — about {n} minutes  ·  script: in this video's folder, and on its card
+2.  {title} — about {n} minutes
+3.  {title — the channel trailer goes last, when you are warmed up} — about {n} minutes
+{each goes out on its own week — the dates on your plan do not change}
+
+──────────────── BEFORE YOU RECORD ────────────────
+•  Camera at eye level
+•  Face a window — the light in front of you, never behind
+•  A quiet room, or the microphone you already have
+•  Your script in large type, right beside the lens
+•  Record ten seconds and watch it back before you start
+
+──────────────── BETWEEN VIDEOS ────────────────
+•  Change your top, so three weeks of videos do not look like one afternoon
+•  A sip of water; read the first line of the next script out loud once
+
+──────────────── AFTER EACH VIDEO ────────────────
+•  Five photos of your face for your thumbnail: a big smile · surprised · serious · pointing left · pointing right
+
+──────────────── WHAT HAPPENS NEXT ────────────────
+One video at a time: open a new chat and say "make my attraction video: {title}" — your script is already written,
+so your thumbnail sheet, your title and description and your publish checklist are added. Then "edit my YouTube video".
+```
+Never a line that promises anyone the member's time; no interview is ever on this sheet (a guest is booked).
 
 ### Channel Page (`yt-setup` — the document "Channel Page — [Name]", saved as `Channel Page — [Name] — YYYY-MM-DD`; the text also kept at `exports/channel-kit-YYYY-MM-DD.txt` — the export's file name is unchanged because other files read it — so the Brain Board can read it)
 To the member this document is **"your Channel Page"** — never a "kit": "your kit" always means the Week 3 Kit, and
@@ -405,10 +445,10 @@ Title:  {the exact title}
 
 ──────────────── SCRIPT START   (finish it: say "make my attraction video: {title}") ────────────────
 [HOOK — 0:00]   {the chosen hook, written word for word}
-[RESOURCE CTA — inside minute 1]   {the kit's spoken resource line, verbatim — the guide: "comment GUIDE" / "link in the description"}
+[THE GUIDE ASK — inside minute 1]   {the kit's spoken resource line, verbatim — the guide: "comment GUIDE" / "link in the description"}
 SECTION MAP:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 · {…}   (3–5; the method's steps from the offer's ## The framework are the teaching material)
-[CALL CTA — ~1/3 in]   {the kit's spoken call line, verbatim, in the call-to-action law's shape — the person · their help · free · to run this; never the brokerage, never a promise of your time}
-   {an interview slot: INTERVIEW GUIDE instead — the outcome sentence · the five steps with the type-specific questions · the edification lines · the casual CTA in the law's shape · the invite draft · the consent line · the distribution ask}
+[THE CALL ASK — ~1/3 in]   {the kit's spoken call line, verbatim, in the call-to-action law's shape — the person · their help · free · to run this; never the brokerage, never a promise of your time}
+   {an interview slot: this block holds your own hook and the two ask lines only — the whole guide is in the GUEST block}
 
 ──────────────── THUMBNAIL BRIEF ────────────────
 {your thumbnail sheet for Higgsfield — for each of the three directions the image prompt to paste, which of your photos to upload and the 3 to 5 words to add; one recommended — the same sheet saved as its own doc (the Thumbnail Sheet skeleton)}
@@ -416,7 +456,7 @@ SECTION MAP:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 ·
 ──────────────── SEO PACKAGE START ────────────────
 Title options (3):  {…}
 Description, lines 1–3:  {line 1 the kit's call line + the booking link (the law's shape) · line 2 the guide's funnel URL · line 3 the compliance and contact line}   ·   Summary (~150 words):  {…}
-Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {the guide's funnel URL + one question}   ·   Chapters: after the script   ·   Disclosure block: last
+Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {the guide's funnel URL + "comment GUIDE and I'll send it" + one question}   ·   Chapters: after the script   ·   Disclosure block: last
 
 ──────────────── THE RESOURCE ────────────────
 {this video's resource — the guide by name, the keyword GUIDE, the funnel URL, where it lives (memory/magnets.md → ## Current magnet) · the call: the booking link}
@@ -428,7 +468,7 @@ Watch for:  how it opens · where it asks for something · what it leaves out th
 {the card's own reference video, already on the card — the Kickoff re-checks the link still opens and finds a new one if it does not; a card with none gets one now (one search, the check); none found → "No close video found yet — here is YouTube's own search for this topic: {the search link}". Two more arrive with the full script (yt-make-video). Never a link that a search did not return and the check did not confirm; never a view count that was not seen.}
 
 ──────────────── GUEST   (interviews only) ────────────────
-{the guest · the transformation the title promises · the question map · their three distribution sentences · the consent state}
+{the guest · the transformation the title promises · the outcome sentence · the five steps with the type-specific questions · the edification lines · the call line in the law's shape · the invite draft · the consent line and its state · the distribution ask (their three sentences)}
 
 ──────────────── ASSETS & NOTES   (the brief) ────────────────
 Who it's for and the pain:  {the type of agent · one of the five pains, in their words}
@@ -440,7 +480,7 @@ B-roll and filming notes:  {…}   ·   Compliance lines to say:  {license displ
 {six tick boxes, in Studio's own order, each with where to click — the video's own values arrive when the full package is written ("make my attraction video"); never ticked by the system}
 ☐ 1 · Title — Details → Title: paste your chosen title
 ☐ 2 · Description — Details → Description: paste your description (line 1 your call and booking link · line 2 your guide · line 3 your compliance and contact line)
-☐ 3 · Thumbnail — Details → Thumbnail → Upload file: the thumbnail you made in Higgsfield, from this video's folder
+☐ 3 · Thumbnail — Details → Thumbnail → Upload file: the thumbnail you made in Higgsfield, from this video's folder (made all three, and Studio shows "Test & compare" there? Use it and upload the three — YouTube picks the winner)
 ☐ 4 · Playlist — Details → Playlists: tick {the playlist's exact name}
 ☐ 5 · End screen — Video elements → Add an end screen: the next video and the playlist your SEO package names (your first video: the playlist alone), and Subscribe
 ☐ 6 · Pinned comment — after it is public: post your pinned comment, then ⋮ → Pin
@@ -470,7 +510,7 @@ For {the type of agent}  ·  Lane: {Problem / Situation / Future / Interview / M
 {line 1: the kit's call line, verbatim, + the booking link — the law's shape: the person · their help · free · to run this (the join register on Join-gated package allowed: yes or unknown; the open register only on no) — never the brokerage}
 {line 2: the guide → its funnel URL ("Free: [the guide's name] → [funnel URL]"; "Questions to Ask Before You Choose a Sponsor" only when the Week 2 guide was skipped)}
 {line 3: the compliance and contact line — the brokerage name and license display as compliance.md requires, then the contact line operations.md lists (the handles, a phone or an email — only what is on file); the full disclosure block stays the LAST block}
-{150–300 word summary in the member's voice — no compensation words (splits, caps, fees, rev-share tiers, stock, income), no promise of your time}
+{150–250 word summary in the member's voice — no compensation words (splits, caps, fees, rev-share tiers, stock, income), no promise of your time}
 
    CHAPTERS
    00:00  {…}
@@ -486,7 +526,7 @@ For {the type of agent}  ·  Lane: {Problem / Situation / Future / Interview / M
 #{…}  #{…}  #{…}
 
 ──────────────── PINNED COMMENT ────────────────
-"{the guide's funnel URL + one question inviting agents to comment their situation — never a keyword of the plugin's own}"
+"{the guide's funnel URL + "comment GUIDE and I'll send it" + one question inviting agents to comment their situation — never a keyword of the plugin's own}"
 
 ──────────────── END SCREEN + CARD ────────────────
 End screen:  {the next logical video — a first video: the playlist alone} + subscribe  ·  Card:  {the resource, at the moment the script points to it}  ·  Playlist:  {the lane's playlist, by its exact name on the channel — the publish checklist's steps 4 and 5 paste these two}
@@ -652,10 +692,10 @@ For {the type of agent}  ·  Lane: Model  ·  Model file last reviewed {YYYY-MM-
    •  {fact used} — {source document, date}   (every fact; compensation figures never appear here or on camera)
 
 ──────────────── THE OUTLINE   (one band each — the two CTAs placed) ────────────────
-HOOK (the question they typed) · RESOURCE CTA · OVERVIEW (history, positioning) · HOW COMPENSATION IS STRUCTURED
+HOOK (the question they typed) · THE GUIDE ASK · OVERVIEW (history, positioning) · HOW COMPENSATION IS STRUCTURED
 (the concepts, no figures — "the exact numbers on a call") · TOOLS + THE GAPS YOUR VALUE PROPOSITION FILLS ·
 SUPPORT + TRAINING · BEYOND CLOSINGS (the concepts) · CULTURE + COMMUNITY · WHO IT'S FOR · WHO IT'S NOT ·
-THE CALL CTA (the law's shape) + NEXT VIDEO
+THE CALL ASK (the law's shape) + NEXT VIDEO
 
 ──────────────── THE MYTHS THIS ANSWERS   (what agents keep asking, in their words) ────────────────
    •  "{the myth or fear}" → {the fact, with its source}
@@ -703,7 +743,7 @@ PART 3 — WHERE YOU SHOW UP WHEN AGENTS SEARCH
 PART 4 — THE OPENINGS   (3–5 four-line cards)
 ════════════════════════════════════════════
 ════════════════════════════════════════════
-PART 5 — YOUR NEXT 30 DAYS   (keep · fix · the next eight exact titles of your eight-video plan, four or five of them inside 30 days at one a week · THE ONE MOVE, repeated)
+PART 5 — YOUR NEXT 30 DAYS   (keep · fix · the exact titles at your cadence — four or five at one a week, eight or nine at two · THE ONE MOVE, repeated)
 ════════════════════════════════════════════
 ════════════════════════════════════════════
 APPENDIX — THE FULL NUMBERS

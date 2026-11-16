@@ -16,7 +16,7 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
 | `yt-analytics` (YouTube System) | the capability map + recipes 1, 2, 3, 4 (inside a dive), 5, 6, 7 and S — the long-form deep dive and quick reads | — |
 | `sf-analytics` (Short-Form System) | recipe 8 (Instagram + Shorts) + recipes 2, 3, 6, 7 and S — the short-form deep dive and the quick reads ("how's my content doing") | — |
 | `sf-ideas` (research, read-only) | section C only — the search / trends / news stack, which needs no sign-in — when the tools are already in the session, inside its own search budget | the connection tool, the signed-in toolkits |
-| `yt-outliers` · `yt-research` · `yt-make-video` (its reference step) · `yt-gameplan` on a refresh · `yt-board` (a card's reference video, in a chat the member is in) — the YouTube research skills, read-only | recipes 2, 3, 4 and 6 — **only when the connection is already active** (`identity/channel.md → Live data: active …` and the tools are in the session): real view counts for the comparison set, the gap read, each card's reference video and the three reference videos. Not active → the classic paths, silently, and at most one closing line per run naming the connect phrase | the connection tool (never add, list or check); any call during the setup sitting; any call from a scheduled run |
+| `yt-outliers` · `yt-research` · `yt-make-video` (its reference step) · `yt-gameplan` on a refresh · `yt-board` (a card's reference video, in a chat the member is in) · `yt-leads` (recipe 1 step 7 — reading comments) — the YouTube research skills, read-only | recipes 2, 3, 4 and 6 — **only when the connection is already active** (`identity/channel.md → Live data: active …` and the tools are in the session): real view counts for the comparison set, the gap read, each card's reference video and the three reference videos. Not active → the classic paths: nothing is said mid-task; ONE closing line naming the connect phrase is allowed, at most once a run, and never when the line reads `declined` | the connection tool (never add, list or check); any call during the setup sitting; any call from a scheduled run |
 | every other skill, setup above all | nothing: the classic paths (public reads, the Studio pack, screenshots, the posting tool); `sf-greenscreen` reads `memory/intel.md`. `yt-setup` may NAME the connect step once, in its close — nothing more | call, offer a sign-in, check or list the connection |
 
 ## When it activates (LATER — never during onboarding, never from a scheduled run)
@@ -32,7 +32,12 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
   member signs in and says "done", the connection is confirmed `active`, and `Live data: active YYYY-MM-DD` is
   written to `identity/channel.md`; (3) **already active** → one line, and one small read as proof (*"I can see your
   channel: [N] videos, [N] subscribers."*). It reads public numbers only and never posts; click-through rate and
-  watch time still come from the three Studio screenshots. It is never run inside the setup sitting.
+  watch time still come from the three Studio screenshots. It is never run inside the setup sitting. **For the
+  YouTube System the click path and the sign-in live ONLY here** (the owner, 2026-11-15): inside a dive or a read,
+  `yt-analytics` uses the connection only when the tools are present AND `Live data: active` is already on file;
+  otherwise it takes the next source down and ends with one line naming the phrase — never a sign-in link or a click
+  path in the middle of a dive. (`sf-analytics` keeps the in-dive check described below: the Short-Form System has
+  no separate connect step.)
 - **NEVER from a scheduled run.** The Monday Kickoff, the Monthly Channel Review and every Short-Form scheduled
   workflow make ZERO calls to the connection: an unattended run cannot answer a permission box, and a stalled task
   is worse than a thinner note. They read what the Brain already holds — the ledger blocks the member's on-demand
@@ -41,20 +46,22 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
   ZERO calls to the data connection — no listing connections, no availability checks, no sign-in offers, no
   tool calls. A technical permission card mid-onboarding confuses members. Cohort feedback, locked.
 - **From the first real data job AFTER onboarding** (an analytics read, the deep dive, or the ideas skill's
-  research step): if the Composio tools are present in the session, use them for the job. **The first call in
+  research step): if the Composio tools are present in the session, use them for the job (**the YouTube System:
+  only when `Live data: active` is already on file** — its sign-in happens in the named connect step, above). **The first call in
   a session may pop a one-time permission card — warn the member in plain words RIGHT BEFORE it:** *"quick one
   — a permission box will pop up so I can pull your live numbers; hit Allow and we're set."* Never let the card
   appear unexplained.
 - **Availability has two parts — and only the analytics skill may act on the second.** (1) The Composio tools
   are present in the session: the member added the Composio connector in Claude once (Customize → Connectors →
   **+** → Add custom connector → name `Composio`, URL `https://connect.composio.dev/mcp` → Connect → approve in
-  the browser; the same clicks sit in the cohort install guide and the support desk's FAQ). No tools → the
-  analytics skill's **connector check (its Step 0)** tells the member plainly, in chat, how to add it — the
-  exact clicks — and offers the screenshot path meanwhile; a deep dive never fails silently. Every other skill
+  the browser; the same clicks sit in the cohort install guide and the support desk's FAQ). No tools → `sf-analytics`'s **connector check (its Step 0)** tells the member plainly, in chat, how to add it — the
+  exact clicks — and offers the screenshot path meanwhile; `yt-analytics` takes the next source down and names the
+  connect phrase in one closing line (its clicks live in the named connect step); a deep dive never fails silently. Every other skill
   stays silent. (2) The toolkits have an **active connection** — the member signed in through it
   (`sf-analytics`: Instagram, a Business/Creator account, plus YouTube; `yt-analytics`: YouTube). The
   search/execute response says when they don't ("no active connection"): that is the ONE moment for the
-  one-time sign-in (stated once as the next step, never asked twice), and **only the analytics skill may make it** — `COMPOSIO_MANAGE_CONNECTIONS` with
+  one-time sign-in (stated once as the next step, never asked twice), and **only the analytics skill may make it —
+  `sf-analytics` inside its dive, `yt-analytics` inside the named connect step and nowhere else** — `COMPOSIO_MANAGE_CONNECTIONS` with
   `{"toolkits":[{"name":"instagram","action":"add"},{"name":"youtube","action":"add"}]}` (`yt-analytics`:
   the `youtube` entry only) → show each returned link as a markdown link → the member logs in and says
   "done" → `action: "list"` to confirm `active` → pull. Record the answer once, in the analytics skill's own
@@ -132,8 +139,7 @@ GoSquared, Crowterminal) need their own paid accounts and are NOT part of this p
    audience retention*).
 Each one fills a named section of the dive (Content → the CTR column and the packaging verdict · Retention →
 hook vs middle · Traffic sources + search terms and Audience → where viewers come from and who they are). None
-provided → the report says exactly what's missing under DATA COVERAGE and how to add it later (*"say 'add my
-Studio numbers' and drop them in"*). Never invent any of these numbers.
+provided → the report says exactly what's missing under DATA COVERAGE and how to add it later (*"say 'add my attraction Studio numbers' and drop them in"*). Never invent any of these numbers.
 
 ### C. The search & answer stack (no sign-in needed — Composio-hosted)
 | Tool | What it returns | Used for |
@@ -221,12 +227,12 @@ different-model video only as the labeled fallback. Used inside the deep dive (t
 the member is in the chat** — by the research skills in place of a web search: the card's **Reference Video** (one
 real video on every card, `yt-research`'s reference-video steps) and `yt-make-video`'s three then carry exact views
 and the publish date. Not connected → those skills build references from a YouTube-only web search and a check that
-the video is real, with no numbers at all; they never ask the member to connect, and a scheduled run never calls
-the connection.
+the video is real, with no numbers at all; they say nothing about connecting mid-task (one closing line naming the phrase is allowed, at most once a run, never
+when `Live data: declined`), and a scheduled run never calls the connection.
 
 ### 5. Analytics + coaching (Growth) — the attraction scoreboard
 The public layer (per-video views/likes/dates vs the channel's own median) pulls live via recipe #1 — no export
-needed for the monthly read. The Studio pack (section B) remains the add-on for private depth. **Then the
+needed for the on-demand deep dive (a scheduled review never calls the connection). The Studio pack (section B) remains the add-on for private depth. **Then the
 number that matters:** per video, agent comments · conversations that named it (`memory/conversations.md`) ·
 calls booked that named it · Top-50 rows whose Source names it · joins where it was in the story — counted
 from the ledgers, never estimated (hard rule 5). The Coach (`yt-coach`) and batch-day planning
@@ -338,6 +344,5 @@ agents finding the channel through search, and is the binge path working, with s
 coming off the member's own videos?) · the search terms that found them (free keyword research; consumer terms
 = the titles drifted away from agents; agent terms they don't own yet = new titles) · audience geography
 (inside the states or provinces the member can attract in? — reported as returned, never a protected
-characteristic in any recommendation) · when viewers are on YouTube (publish-time fix). Provided later? **"add
-my Studio numbers"** re-opens the latest dive, fills the packaging verdict, the hook-vs-middle read, and the
+characteristic in any recommendation) · when viewers are on YouTube (publish-time fix). Provided later? **"add my attraction Studio numbers"** re-opens the latest dive, fills the packaging verdict, the hook-vs-middle read, and the
 traffic/audience section, and re-saves it under a new dated name (newest is current).

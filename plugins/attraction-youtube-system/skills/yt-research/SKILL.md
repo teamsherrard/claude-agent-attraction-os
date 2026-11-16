@@ -75,8 +75,9 @@ reachable that way, so the member pastes the autocomplete suggestions they see, 
    DMs, `conversations.md` read-only (which questions recur), `ideas.md`. Each recurring question = a video
    (doctrine §14).
 4. **The competitive read (for the strongest 2–3 candidates)** — the top 3 (2–4) real videos agents find for that
-   exact question: `link · channel · ~views (as seen) · date seen · what works · what's missing · how the member's
-   version is more useful for [avatar]`. Same concept for the same agent audience first; another audience only
+   exact question: `link · channel · ~views (only when seen) · what the title promises · how the member's
+   version is more useful for [avatar]` — and what works or what is missing INSIDE a video only when it was
+   really read (a pasted transcript, the member's own description); otherwise the read says it matched on titles. Same concept for the same agent audience first; another audience only
    as the labeled fallback. **Never a competitor's flaw, never a negative characterization, never copy a look** —
    describe the pattern that worked and the gap left open. The closest of them is the card's 📚 REFERENCE VIDEO —
    WATCH THIS FIRST; the other two sit under it ("Two more worth your time").

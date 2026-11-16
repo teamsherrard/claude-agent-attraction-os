@@ -742,3 +742,11 @@ that your reviews and your reference videos carry real view counts. Without it e
 review asks you for three screenshots from YouTube Studio instead. Your Monday and monthly workflows never use this
 connection on their own.
 
+**Q69. Can I film several videos in one day?**
+Yes, and it is the easiest way to start. Say "script my first three videos": the three videos you film on your own
+are scripted in one sitting, and you get a one-page film-day sheet — camera at eye level, face a window, your script
+beside the lens, change your top between videos. Film all three on one day; each still goes out on its own week.
+After filming, one video at a time, say "make my attraction video: [title]" and your thumbnail sheet, your title and
+description and your publish checklist are added around the script. Interviews are not part of a batch: a guest is
+booked with "book my agent interview".
+

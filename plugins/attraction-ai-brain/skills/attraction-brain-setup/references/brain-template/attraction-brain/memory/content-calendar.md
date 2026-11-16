@@ -21,7 +21,7 @@
 | | | | | | | | | | | |
 
 ## Kickoff briefs (YouTube)
-*Appended by the Monday Kickoff, one dated block per run, newest last, never edited — this week's video and what was drafted, the interview to book, the board count, what was left undrafted and why.*
+*Appended by the Monday Kickoff, one dated block per run, newest last, never edited — this week's video and what was drafted, the interview to book, the board count, `carded:` the System ID of every card the run created, what was left undrafted and why. The board step appends a short block of its own when it creates cards (`Board — YYYY-MM-DD · carded: …`): the record that tells a card that was never made from one the member took off the board.*
 
 ## Clips from your videos (YouTube)
 *Appended by the YouTube System's repurposing pack ("repurpose my attraction video"), one row per clip script, never edited afterwards. A clip is QUEUED until a short-form row above carries its System ID in `Carries` (`clip: [System ID]`) — the Monday Week Plan drafts up to two of the week's Reels from queued clips, so a video feeds the week instead of adding to it. Nobody marks a row here as used: the short-form row is the mark.*

@@ -75,7 +75,7 @@ before writing to it.
 | **Context** | `• Pillar: Authority` (niche lanes; `· Story angle` noted for a Why I Switched) / `• Pillar: Proof` (Interview) / `• Pillar: Perspective` (Model) first; then `• What: …` and `• Outcome: …` from this title's line in the plan's TITLE NOTES (the Brain's copy of the plan), ≤12 words a bullet |
 | **Recording Date** | the calendar row's own Recording date (the plan's first-date rule: never the day the plan was built — the first video is at least three days out); a `Booked` interview → its Recording date |
 | **Publishing Date** | the calendar row's own Publish date — two days after recording by the plan's rule; never earlier than recording |
-| **Resource Assets** | the two CTAs, copied from the Week 3 Kit's chapter 7 CALLS TO ACTION table as `channel.md → ## The CTA line` holds them: the guide ask (*"… Comment GUIDE and I'll send it."* · the guide's title · its funnel URL — description line 2 and the pinned comment) · the call line in the CTA law's shape for the register (join: *"If you want my help running this — the lessons, the templates, the community — partner with me and it's free. Grab [the call]."*; open: *"I'll walk you through it, free, no strings."* · the booking link — description line 1) · the two words from `publishing.md → Keyword:`; no kit → `identity/content-pillars.md`'s two CTAs line, labeled "(from your Brain — your kit's wording replaces it)". Never the brokerage as the reason; nothing that promises the member's time per partner |
+| **Resource Assets** | the two CTAs, copied from the Week 3 Kit's chapter 7 CALLS TO ACTION table as `channel.md → ## The CTA line` holds them: the guide ask (*"… Comment GUIDE and I'll send it."* · the guide's title · its funnel URL — description line 2 and the pinned comment) · the call line in the CTA law's shape for the register (join: *"If you want my help running this — the lessons, the templates, the community — partner with me and it's free. Grab [the call]."*; open: *"I'll walk you through it, free, no strings."* · the booking link — description line 1) · the two words from `publishing.md → Keyword:`; always copied from `channel.md → ## The CTA line` (with no kit, setup built the two lines there, labeled "(from your Brain — your kit's wording replaces it)"); `identity/content-pillars.md`'s two CTAs line only when that block is empty. Never the brokerage as the reason; nothing that promises the member's time per partner |
 | **System ID** | the calendar row's own (`yt-YYYY-MM-w[n][a/b]` — the plan's week and slot, `yt-2026-11-w2a`); a fresh one only when the row has none, written back to the row; never changed after; never in the title |
 | **Reference Video** | the clean watch link of ONE real YouTube video close to this card's idea — the row's `Reference video` cell, or found now (§3a) — `https://www.youtube.com/watch?v=[id]`, nothing else in the cell; empty only when two searches found nothing that passed the check |
 | **References** | the one-line note for that video: `[its real title] — [channel] · [closest match / close, not exact / for the format]` (`yt-make-video` later writes the three here) |
@@ -107,7 +107,8 @@ example before planning their own. The steps are ONE place — `${CLAUDE_PLUGIN_
   first for each of them…"* — and nothing per card.
 - **Honest numbers:** no view count and no date unless they were really seen (`Live data: active` on file, the
   tools in the session, and the member in the chat → the data engine's recipe 4; never in a scheduled run). Not
-  connected → title and channel only, silently; never ask the member to connect here.
+  connected → title and channel only, silently; never ask the member to connect here. **Inside the setup sitting:
+  always the search path, even when live numbers are active** (setup never calls that connection).
 - **Nothing found** → the `Reference Video` field stays empty, the card page carries the plain line and YouTube's
   own search link, the row's cell stays empty, and the next Monday Kickoff looks again. Never a made-up link.
 - **A demo Brain** gets real reference videos too (one search a card, the same check); everything else in a demo
@@ -118,11 +119,21 @@ example before planning their own. The steps are ONE place — `${CLAUDE_PLUGIN_
 
 ## 4. Find-first, count-check, say so
 - Before creating any card: System ID → exact title → near match (the spec's two-way sync). Found → update, never a
-  twin. A card the member deleted stays deleted (note it once: *"skipping [title] — you took it off the board"*).
+  twin.
+- **The carded test — how a run tells "never carded" from "the member took it off the board".** Every run that
+  creates long-form cards records them in the Brain: one dated block appended under `memory/content-calendar.md →
+  ## Kickoff briefs (YouTube)` holding the line `carded: [the System ID of each card created]` (the board step at
+  setup, "update my attraction video board", and `yt-make-video` when it creates a card or tops up at publish write
+  a short block of their own — `Board — YYYY-MM-DD · carded: …`; the Monday Kickoff adds the line to its own
+  block, whose first line is `Kickoff — YYYY-MM-DD · [title]`). **A row with no card:** its System ID is in an earlier
+  `carded:` line → the member removed that card — it stays off the board, nothing is re-created, and it is said
+  once (*"skipping [title] — you took it off the board"*; in a Kickoff, inside the note's bracketed notice). Never
+  listed → the card was never made: create it now, with the row's own System ID. A Brain with no `carded:` line at
+  all (a board built before 2026-11-15) → treat a missing card inside the 30 days as never carded, once, and start
+  the record with this run.
 - After the batch: count the cards in the window and say it plainly — *"your next 30 days — [n] videos, [n] of them
   interviews — are on your board, under the YouTube tab at the top."* Then the one statement about the reference
-  videos, by what is true: every card has one → *"Each video on your board has one real video to watch first — a
-  close match I found on YouTube and checked."* · some have none → *"[n] of your [m] videos have one real video to
+  videos, by what is true: every card has one → *"Each video on your board has one real video to watch first — found on YouTube and checked."* · some have none → *"[n] of your [m] videos have one real video to
   watch first; for the others I put YouTube's own search on the card."* A failed write is named and retried once;
   never silent; never a count you did not read back.
 - Never a card without a date; never the whole 90 days; never a loose idea; never a tag or an id in a title.

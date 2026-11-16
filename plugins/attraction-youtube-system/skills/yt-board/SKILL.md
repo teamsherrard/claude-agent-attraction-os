@@ -72,7 +72,7 @@ too and leaves `Board:` as it is — one board, two pointers, never two boards:
   2026-11-14 evening — these four, nothing else), each with the spec's own filter and sort: 🖼 **Graphics** — the
   first tab (the Short-Form System's: `Format = Carousel` or `Graphic`, the designed posts; create it only if
   missing) · 🎞 **Reels** (the Short-Form System's: `Format = Talking Head` or `Green Screen`; create it only if
-  missing) · 🎬 **YouTube** — THIS plugin's tab, placed before Calendar: filter `Format = Long-Form`, grouped by
+  missing) · 🎬 **YouTube** — THIS plugin's tab (before Calendar on a board built new; on an existing board it lands after Calendar — the connection cannot reorder tabs, and the board is never rebuilt for it): filter `Format = Long-Form`, grouped by
   Status (the pipeline is the point), sorted by Recording Date; visible columns Topic · Pillar · Guest · Status ·
   Recording Date · Publishing Date · Reference Video (the spec's list for this tab — the last column is the link to
   the video to watch first), everything else hidden · 🗓 **Calendar** — a calendar on Publishing Date, everything, both
@@ -96,8 +96,10 @@ too and leaves `Board:` as it is — one board, two pointers, never two boards:
   create per the spec: the page + database (`[Member Name] — Content Dashboard`, icon 🎬, the one description
   line, a cover from Notion's own gallery), the columns, all four tabs — Graphics first, then Reels, YouTube,
   Calendar — then write the URL
-  into the Brain immediately (`publishing.md → Content board:`, or `channel.md → Board:` when that file is absent)
-  and push via `attraction-brain-sync` (the push re-renders the Brain Board).
+  into the Brain (`publishing.md → Content board:`, or `channel.md → Board:` when that file is absent). **On
+  demand: push it at once** (`attraction-brain-sync`; the push re-renders the Brain Board), so a board is never
+  built without its link on file. **Inside setup: ONE push for the whole board step** — the link, the rows' cells,
+  the `carded:` block and setup's `board done` stamp go up together.
 
 ## Step 3 — Map the next 30 days (the rolling window)
 Read `references/thirty-day-mapping.md` now, then open: `memory/content-calendar.md` → `## Long-form (YouTube)`
@@ -126,8 +128,10 @@ mapping reference:
   following from it; a card never says "record today"; a `Booked` guest's date wins) · **Resource Assets** (the two CTAs copied from the Week
   3 Kit's chapter 7 CALLS TO ACTION table — the guide ask with GUIDE and the call line in the CTA law's shape, as
   `channel.md → ## The CTA line` holds them; the two words confirmed by `publishing.md → Keyword:`; the guide's title
-  and funnel URL from `memory/magnets.md → ## Current magnet`; no kit → `identity/content-pillars.md`'s two CTAs
-  line, labeled) · the calendar row's **System ID** (a fresh one only when the row has none, written back to the
+  and funnel URL from `memory/magnets.md → ## Current magnet`. **The card always copies `channel.md → ## The CTA
+  line`** — with no kit on file, setup built those two lines from the guide and the booking line and saved them
+  there, so the cards and the Channel Page never carry different asks; `identity/content-pillars.md`'s two CTAs line
+  is used, labeled, only when that block is empty — a board built before the channel step ever ran) · the calendar row's **System ID** (a fresh one only when the row has none, written back to the
   row) · **Reference Video** — the clean watch link of ONE real YouTube video close to this card's idea, with its
   one-line note in **References** (the next bullet) · the card icon 🎬.
 - **The reference video — found and checked BEFORE the card is created (the owner, 2026-11-15: "a video on YouTube
@@ -156,12 +160,14 @@ mapping reference:
   two more reference videos, and the publish checklist filled with that video's own values. A section is replaced in
   place, never stacked; the reference section is never deleted by a later writer; references are real links only.
 - Find-first (System ID → exact title → near match): a video already carded, or already `Scripted` / `Published`
-  in the log, is skipped — never duplicated; a card the member deleted stays deleted (*"skipping [title] — you took
-  it off the board"*).
+  in the log, is skipped — never duplicated; a card the member took off the board stays off (*"skipping [title] —
+  you took it off the board"*) — the carded test in `references/thirty-day-mapping.md` §4 tells the two apart, and
+  **every run that creates cards appends its `carded:` line to the Brain** (`## Kickoff briefs (YouTube)`, a short
+  dated block: `Board — YYYY-MM-DD · carded: [System IDs]`), pushed with the run's push.
 - **Count-check and say so plainly:** *"your next 30 days — [n] videos, [n] of them interviews — are on your board,
   under the YouTube tab at the top."* ([n] is the count read back — right after setup often three or four, because
   the first video is at least three days out.) Then the one statement about the reference videos, by what is true:
-  *"Each video on your board has one real video to watch first — a close match I found on YouTube and checked."* —
+  *"Each video on your board has one real video to watch first — found on YouTube and checked."* —
   or, when some have none, *"[n] of your [m] videos have one real video to watch first; for the others I put
   YouTube's own search on the card."* A failed write is named and retried once; never claim a count you
   did not read back. No Game Plan yet → say so; the plan comes first ("build my attraction game plan"), then the board.
@@ -184,13 +190,13 @@ Ready to Film → Recorded → Ready to Post → Published` (`Ready to Film` and
 at `Edited` is a card at `Ready to Post`; a YouTube card seeded from the calendar is `Idea`; the Kickoff → `Scripted`;
 filmed → `Recorded`; edited and waiting to go out → `Ready to Post`; live → `Published`).
 
-## Step 4 — Confirm in plain words
+## Step 4 — Confirm in plain words (on demand only — inside setup say nothing here: `yt-setup` Step 7 says the count line, and nothing may promise a Monday Kickoff before the member's Yes)
 *"YouTube is on your content board — the tabs at the top are Graphics, Reels, YouTube and Calendar, and
 your next 30 days of videos are on it with filming dates and your interview guests. Every Monday your kickoff
 drafts that week's video onto its card and keeps the 30 days topped up; when we make a video together, its card
 fills with the script, your thumbnail sheet, your title and description, two more videos to watch, and a six-step
 checklist for publishing it. Each card already has one real video to watch first. Here's the link."*
-Inside setup: hand back to the next step with the count line. On demand: *"Mondays your week's video fills its
+Inside setup: none of the above — hand back to `yt-setup` Step 7 with the counts it needs. On demand: *"Mondays your week's video fills its
 card; say 'make my attraction video: [the first title]' to start the first one."*
 
 ## Ongoing
@@ -213,7 +219,11 @@ video do") write 📊 AFTER IT'S OUT; statuses flip as things happen (filmed →
 - Works without it: no Notion loses nothing — the Game Plan, the Brain, the Brain Board and chat remain the full
   experience; the Monday Kickoff drafts from the plan with or without a board.
 - The only Brain writes this skill makes: the `Content board:` line in `identity/publishing.md` (or, when that file
-  is absent, the `Board:` line of `identity/channel.md`'s `## Channel` block) and a missing
-  System ID written back to a calendar row — each followed at once by an `attraction-brain-sync` push (the push
+  is absent, the `Board:` line of `identity/channel.md`'s `## Channel` block); in `memory/content-calendar.md`, a
+  missing System ID and the `Reference video` cell written to a long-form row, and its short dated block under
+  `## Kickoff briefs (YouTube)` (`Board — YYYY-MM-DD · carded: …`) — all in ONE `attraction-brain-sync` push at the
+  end of the run (the push
   re-renders the Brain Board, the read-only map).
 - Inside setup: no offer, no question — build, or put the Connect button in the chat and say how, then hand back.
+  The reference videos always take the search path inside setup, even when live numbers are already active (setup
+  never calls that connection).

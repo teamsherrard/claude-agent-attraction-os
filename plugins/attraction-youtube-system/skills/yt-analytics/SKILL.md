@@ -24,11 +24,17 @@ Size the answer to the ask: a scoped question gets a quick read; "deep dive" get
 dive once, as a statement, if it has been about a month ("say 'run my attraction YouTube deep dive'"). To the member: plain words — "your channel",
 "your content board", "your Brain Board" — never a skill id, a file name, a path, or a connector's name.
 
-## Step 0 — The connector check (every deep dive)
-Look at the tools in this session. **No Composio tools** → say so plainly with the one-time clicks (Customize →
-Connectors → Add custom connector · name Composio · URL https://connect.composio.dev/mcp · Connect), name the
-screenshot path, and carry on with the next source down — a dive never waits and never fails silently. **Tools present, no YouTube connection** → put the sign-in in the chat ONCE in
-Step 1 (a statement and the link — never a question). **Active** → carry on. Never during setup; never nag. This skill is the connection's only home.
+## Step 0 — Live numbers: use them only when they are already there (every dive, every read)
+Read the `Live data:` line of `identity/channel.md` first, then look at the tools in this session.
+- **`active` on file AND the tools are here** → use them for this job (the data engine, read-only). The first call
+  in a session may pop a permission box — say so one line before it.
+- **Anything else** (`not connected`, `declined`, no line, or `active` on file but the tools are not in this
+  session) → take the next source down, silently, and carry on; a dive never waits and never fails silently. **No
+  click path, no sign-in link and no connection call inside a dive or a read** — connecting is the member's own
+  step, in its own chat (the next section). Add ONE closing line, at the very end of the job, and only when the
+  line does not read `declined`: *"When you want your real view counts read for you: open a new chat and say
+  'connect my YouTube numbers'. About two minutes."*
+Never during setup; never nag. This skill is the connection's only home.
 
 ## THE CONNECT STEP — "connect my YouTube numbers" (its own short chat; this skill owns the phrase)
 The owner's ruling (2026-11-14): connecting is a named step the member takes on purpose, right after setup or any
@@ -45,9 +51,12 @@ once; this is what the phrase does. Told, never asked — look at the session an
    YYYY-MM-DD` on the `Live data:` line of `identity/channel.md`, push, and go to case 3's proof.
 3. **Already active** → one line and one small read as proof: *"Your live numbers are connected. I can see your
    channel: [N] videos, [N] subscribers."* (the two numbers read just now — never from memory).
-Then one closing line, by what is true: *"From now on your reviews and your reference videos carry real view
-counts. Click-through rate and watch time still come from three Studio screenshots — say 'add my attraction Studio
-numbers' when you have them."* It reads public numbers only and never posts. A member who says "not now" at any
+**"Done" said, but the connection is still not active** → one line — *"It didn't go through. Say 'connect my
+YouTube numbers' to try again."* — write nothing, stop; never the link a second time in the same message.
+Then one closing line, by what is true: *"From now on, when you ask 'how did my video do' or run your deep dive,
+your view counts are real — and so are the ones on your reference videos. Your monthly review reads what those
+leave on file. Click-through rate and watch time still come from three Studio screenshots — say 'add my attraction
+Studio numbers' when you have them."* It reads public numbers only and never posts. A member who says "not now" at any
 point → `Live data: declined YYYY-MM-DD`, one warm line, and it is not raised again unless they say the phrase.
 **Your scheduled workflows never use this connection** — the Monday Kickoff and the Monthly Channel Review read
 what your Brain already holds.
@@ -72,10 +81,10 @@ quick read opens only the file the question needs; the video read (below) names 
 **Sources, best first, never blocked on any one — and every read says in one line which source it used:**
 1. **The live data connection** (`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`, read-only): channel
    stats, the upload catalog, per-video views/likes/length/date, playlists, comments (once; a 403 is said),
-   competitor channels as outliers. First call: warn that a permission box will pop. Put the sign-in in the chat
-   once, as a statement (`COMPOSIO_MANAGE_CONNECTIONS`, `youtube`, `add`) → markdown link → "done" → confirm
-   `active`; record `Live data: active YYYY-MM-DD` or `declined YYYY-MM-DD` on the `Live data:` line of
-   `identity/channel.md`'s `## Channel` block; never shown a second time. **Read-only, always**: never a post, reply, or comment tool.
+   competitor channels as outliers — **only when Step 0 found it already active**; otherwise this source is skipped
+   without a word here (Step 0's one closing line names the connect phrase). The sign-in itself — the click path,
+   the link, the `Live data:` line being written — happens only in THE CONNECT STEP. **Read-only, always**: never
+   a post, reply, or comment tool.
 2. **The Studio pack** (the only source of CTR, watch time, retention, traffic sources, search terms — the live
    connection reads public data only): name it once, in plain words, as a statement — four screenshots (Content
    table · Reach: traffic sources + search terms · Audience · retention of the top 3), dropped in now or any time;
@@ -97,7 +106,7 @@ why it matters to you · do this · the proof; every metric explained the first 
   booked that named it · joins where it was in the story. The habit that makes this real (`99`): *"ask every
   agent who books: which video made you reach out — and tell me."* Thin data is said, never padded.
 - **Part 1 — Your channel** (measured against the Game Plan anchors in `channel.md`): growth · what pulls by lane
-  (niche vs interview vs model — the 3+1+4 mix vs what actually shipped) · what shipped vs the plan's calendar,
+  (niche vs model vs interview — 3 niche · 1 model · 4 interviews, against what actually shipped) · what shipped vs the plan's calendar,
   said kindly (one a week is the default for the first month; a week on plan is a week on plan — never
   "behind") · packaging (CTR after 30 days vs the 6–10% band, `97`; three re-titles) · hooks (verbatim best
   openings) · where viewers come from (Studio pack) · what agents say in comments · the one break between views
@@ -172,7 +181,7 @@ the month. Open only what the question needs: the video's `memory/content-log.md
 `memory/content-calendar.md → ## Long-form (YouTube)` (what was planned in the window), `memory/interview-pipeline.md`,
 `identity/publishing.md` (the `Content board:` line; that file absent → `identity/channel.md → Board:`), `identity/goals.md` (the hours line), and — read-only —
 `memory/conversations.md`, `memory/top-50.md` (Source cells reading `youtube via comment on "[video]"`),
-`memory/pipeline.md`. Numbers come from the live data connection when it is present AND already signed in (read-only;
+`memory/pipeline.md`. Numbers come from the live data connection when Step 0 found it active (`Live data: active` on file and the tools in this session — read-only;
 never a post, reply, or comment tool), else the Studio screenshots the member drops in, else the public channel read —
 say which in one line; never invent a number; "not available" is a real value. Report, in plain words: **VIDEOS THIS
 WEEK** — published vs the rows dated this week, said kindly (one video a week is the plan's default for the first
@@ -192,7 +201,7 @@ imposed; `goals.md`'s hours clearly short → say the pace is right; otherwise o
 URL (`publishing.md → Content board:`, else `channel.md → Board:`) and Notion is available — the live link · the numbers read, with their source · the agents who named it —
 replacing the section in place, never stacking, never touching another section or a card the member made; no board →
 skip silently. (2) **One dated YouTube block** appended to `memory/content-performance.md` (the Short-Form System's
-ledger; this block is the one YouTube write — newest last, never edited; the file absent → skip) when the read
+ledger; this block is a YouTube write — newest last, never edited; the file absent → skip) when the read
 carried numbers: `## YYYY-MM-DD · YouTube video read` with `- Videos read:` · `- Long-form views:` · `- Subscribers:`
 (when on record) · `- Videos agents named:` · `- Calls booked from YouTube:`. (3) **The read's text** kept at
 `~/attraction-brain/exports/youtube-read-YYYY-MM-DD.txt` — this skill's own export, the name the deep dive writes

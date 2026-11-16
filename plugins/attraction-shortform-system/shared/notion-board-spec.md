@@ -57,7 +57,7 @@ by your AI system."* *(The YouTube and Short-Form systems both write here.)*
 | **Script** | URL | Link to the script doc in their workspace (added when the script is made) |
 | **SEO / Post Package** | URL | Link to the SEO package (long-form) or the post package (short-form) in the workspace |
 | **Reference Video** | URL | **Long-form cards: ONE real YouTube video, as close as possible to this card's idea — on the card from the day the card exists** (the owner, 2026-11-15: the member watches a realistic example before planning their own, and sees what other people who make videos for agents are doing). Found by real research and **checked as a real, public video before it is written** (the reference-video recipe in `yt-research`'s method — the YouTube System runs it whenever it creates a card). The cell holds the clean watch link and nothing else: `https://www.youtube.com/watch?v=[id]`. **NEVER invented, never written from memory, never built by hand**; never a Short, a playlist, a channel page or a search page; the same video is never the reference on two cards. Empty only when two searches found nothing that passed the check — the card then says so in plain words and carries a search to browse. Always empty on short-form cards. |
-| **References** | Text | The notes behind the Reference Video. **At seed, one line:** `[the video's real title] — [channel] · [closest match / close, not exact / for the format]`. **After `yt-make-video`'s competitive read: the top 3 (2–4) PROVEN videos on this exact topic**, the closest first — real YouTube links (`yt-research`'s method): same concept **for the same agent audience first** (a video for agents about the same question); another lane's or a general-audience video only as the labeled fallback. Each as `link · channel · ~views · the one thing to do better` (e.g. *"their title wins but they never show the sponsor question — we'll answer it in the first minute"*). Quality bar: same concept · genuinely performed vs its channel's own normal (outlier logic, not just big channels) · recent (~2–3 yrs unless an evergreen ranker). REAL links actually found in search — NEVER invented; a view count that can't be seen is left off, never guessed. "The one thing to do better" is about the member's video — never a knock on the other channel or its brokerage. These are gold: watch them before filming, then do better. |
+| **References** | Text | The notes behind the Reference Video. **At seed, one line:** `[the video's real title] — [channel] · [closest match / close, not exact / for the format]`. **After `yt-make-video`'s competitive read: the top 3 (2–4) PROVEN videos on this exact topic**, the closest first — real YouTube links (`yt-research`'s method): same concept **for the same agent audience first** (a video for agents about the same question); another lane's or a general-audience video only as the labeled fallback. Each as `link · channel · ~views · the one thing to do better` (e.g. *"its title promises a checklist — yours answers the one question agents forget to ask, in the first minute"*; it speaks about the title's promise unless the video was really watched or its transcript read — never a claim about what another video says or leaves out). Quality bar: same concept · genuinely performed vs its channel's own normal (outlier logic, not just big channels) · recent (~2–3 yrs unless an evergreen ranker). REAL links actually found in search — NEVER invented; a view count that can't be seen is left off, never guessed. "The one thing to do better" is about the member's video — never a knock on the other channel or its brokerage. These are gold: watch them before filming, then do better. |
 | **Resource Assets** | Text | The two CTAs for this piece — the call line and the guide ask, copied from the Week 3 Kit's CALLS TO ACTION table (the two keywords on the `Keyword:` line in `identity/publishing.md` — `GUIDE · [the offer's word]`; the live magnet from `memory/magnets.md → ## Current magnet`) — plus b-roll notes and the thumbnail text idea |
 | **Recording Date** | Date | When they plan to film (from the calendar / cadence) |
 | **Publishing Date** | Date | When it goes (or went) live |
@@ -68,11 +68,11 @@ a piece gets made, the system writes the actual deliverables into the row's page
 member opens one card and has everything:
 **Long-form rows — the locked card page** (the same order on every card; a section replaced in place, never stacked):
 - **🎯 THE HOOK** — the hook three ways, the chosen one first and in bold; the title it was chosen for.
-- **🎬 SCRIPT** — the full script (hook → the call ask → sections → the resource ask), word-for-word, ready
-  to read off the card.
+- **🎬 SCRIPT** — the full script (the hook → the guide ask inside minute one → the sections → the call ask about a
+  third of the way in → the payoff → the next video), word-for-word, ready to read off the card.
 - **🖼 THUMBNAIL BRIEF** — long-form: the thumbnail sheet for Higgsfield, where the cohort's members make their
-  thumbnails (`yt-thumbnail`: the direction chosen, the prompt to paste, which of the member's photos to upload,
-  the 3–5 words, the expression to shoot). Never a sheet for Claude Design.
+  thumbnails (`yt-thumbnail`: three directions, one recommended — for each, the prompt to paste, which of the member's own
+  photos to upload, and the 3 to 5 words to add). Never a sheet for Claude Design.
 - **🔍 SEO PACKAGE** — title options, the description (the two CTAs in the first 3 lines), chapters, tags,
   hashtags, pinned comment.
 - **🧲 THE RESOURCE** — this piece's resource + CTA lines (the keyword, the booking link), and where the
@@ -94,7 +94,11 @@ member opens one card and has everything:
   no video passed the check) → one plain line and a search to browse, never a made-up link: *"No close video found
   yet — here is YouTube's own search for this topic: [Search YouTube for this topic](https://www.youtube.com/results?search_query=the+topic+in+plain+words)."*
   — the next Monday Kickoff, or the video's own chat, looks again. (An older card's `📚 REFERENCES — WATCH THESE 3
-  FIRST` heading is this same section: renamed in place the next time the card is written.)
+  FIRST` heading is this same section: renamed in place the next time the card is written.) **The section's three
+  states, so no writer guesses:** *seeded* — the four items above; *after the Monday Kickoff* — the same four,
+  untouched, plus one line written once, *"Two more arrive with your full script."*; *after `yt-make-video`* — the
+  titled link · the player · Why this one · **The one thing to do better** (in place of Watch for) · the line **Two
+  more worth your time** and the other two.
 - **🎙 GUEST** — interviews only: the guest, the transformation the title promises, the question map, their
   three distribution sentences (`yt-interview`).
 - **📋 ASSETS & NOTES** — b-roll/filming notes, compliance lines to say (license display, brokerage name),
@@ -106,6 +110,7 @@ member opens one card and has everything:
   2. **Description** — Details → Description: paste the description from 🔍 SEO PACKAGE (line 1 the call and the
      booking link, line 2 the guide, line 3 the compliance and contact line).
   3. **Thumbnail** — Details → Thumbnail → Upload file: the thumbnail made in Higgsfield, from this video's folder.
+     All three made, and Studio shows **Test & compare** there → use it and upload the three; YouTube picks the winner.
   4. **Playlist** — Details → Playlists: tick the playlist named here (this video's topic playlist, by its exact name).
   5. **End screen** — Video elements → Add an end screen: the next video and the playlist that 🔍 SEO PACKAGE names
      (a first video: the playlist alone), and Subscribe.
@@ -146,7 +151,7 @@ at the top of your board".
    Week 3 Kit posts, the team posts), grouped by Status, sorted by Publishing Date.
 2. **🎞 Reels** — filter `Format = Talking Head` or `Green Screen`, grouped by Status, sorted by Publishing Date.
 3. **🎬 YouTube** — created by the YouTube System in Week 5 (its date to be confirmed), never before: filter
-   `Format = Long-Form`, grouped by Status (the pipeline is the point), sorted by Recording Date; placed before Calendar.
+   `Format = Long-Form`, grouped by Status (the pipeline is the point), sorted by Recording Date; placed before Calendar when the board is built new (the tabs are created in that order); on a board that already exists the tab is added where Notion puts it — after Calendar — because the connection cannot reorder tabs, and the board is never rebuilt for it.
 4. **🗓 Calendar** — calendar view on Publishing Date (everything, both engines — "this week" lives here).
 
 **Visible columns (per view) — hide everything else.** A table showing every property is a wall of empty
@@ -163,7 +168,7 @@ date"*).
 - **Every card title is a sentence a person would say** — the hook or the working title, in sentence case, under twelve
   words; never a System ID, a bracket tag, a file name, a date or ALL CAPS in the title. The kit's six posts carry the
   kit's own post titles.
-- **Five columns showing, the rest hidden** (the visible-columns rule above); the first tab is 🖼 Graphics; every tab is grouped by Status so the pipeline reads top to bottom (Idea → Scripted → Ready to Film → Recorded → Ready to Post → Published).
+- **Five columns showing on Graphics and Reels, seven on YouTube, the rest hidden** (the visible-columns rule above); the first tab is 🖼 Graphics; every tab is grouped by Status so the pipeline reads top to bottom (Idea → Scripted → Ready to Film → Recorded → Ready to Post → Published).
 - **Every card opens the same way:** the title, then four pills pinned under it — Status · Format · Pillar · Publishing Date — then the locked sections as headings; the other fields sit in the side panel, empty ones hidden (the build recipe sets this once for the whole board).
 - **Colors mean something and never change** (Notion's own option colors only — gray, brown, orange, yellow, green, blue, purple, pink, red): Status — Idea gray · Scripted blue · Ready to Film yellow · Recorded orange · Ready to Post purple · Published green; Format — Talking Head blue · Green Screen green · Carousel purple · Graphic pink · Long-Form red; Pillar — Authority purple · Perspective blue · Story pink · Proof green · Personality yellow · the three niche lanes brown · Interview orange · Model red. They are set in the build recipe's schema, once.
 - **No instructions on the board.** Nothing explains itself on the surface; the card page carries the work, the columns
@@ -213,7 +218,7 @@ before a page layout `notion://docs/database-page-layouts`, before page content 
   plan**: the board carries the **next 30 days of planned videos** from the Game Plan's dated calendar in the
   Brain (`memory/content-calendar.md → ## Long-form (YouTube)`; at their cadence: 1/wk → 4–5 cards, 2/wk → 8–9;
   interviews count), each an `Idea` card with Topic, Pillar = the lane, Guest (for
-  an interview), Context (`• Pillar:` first, then what / outcome), Recording Date, Resource Assets (the two CTAs from the Week 3 Kit's CALLS TO ACTION table — `exports/week3-kit-*.txt` — in the law's shape; `identity/content-pillars.md` only as the labeled fallback when the kit is missing), **its Reference Video — one real video, found and checked by the reference-video recipe, on the card from day one** — and a fresh System ID. **The full 90-day backlog stays in the Game
+  an interview), Context (`• Pillar:` first, then what / outcome), Recording Date, Resource Assets (the two CTAs from the Week 3 Kit's CALLS TO ACTION table — `exports/week3-kit-*.txt` — in the law's shape; `identity/content-pillars.md` only as the labeled fallback when the kit is missing), **its Reference Video — one real video, found and checked by the reference-video recipe, on the card from day one** — and the calendar row's own System ID (a fresh one only for a row that has none, written back to the row). **The full 90-day backlog stays in the Game
   Plan doc** — the board is the actionable now, never a wall of empty future cards. **Top-up:** whenever a
   card reaches `Published`, or planning/check-ins run ("what's my next attraction video", the Monday Kickoff,
   "update my attraction video board"), pull the next planned title(s) onto the board so 30 days stay visible — the
@@ -245,7 +250,7 @@ video/post (the seed means near-term long-form cards usually ALREADY exist). Mat
 2. then exact title, then near-match (seeded title vs. a slightly refined one).
 - **Found** → UPDATE that card (if the title was refined during packaging, rename the card's Topic to the
   final title — same card, better title). **Never create a second card for the same piece.**
-- **Not found** → create it, with a fresh System ID (an off-plan video still gets a card).
+- **Not found** → create it, with the calendar row's own System ID (a fresh one only for an off-plan video or a row that has none — an off-plan video still gets a card).
 
 **Card bodies: REPLACE, never stack.** When re-writing a section that already exists in the card body (a
 revised script, an updated SEO package), replace that section in place — a card must never end up with two

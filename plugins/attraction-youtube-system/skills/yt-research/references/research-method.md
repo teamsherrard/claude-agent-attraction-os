@@ -48,10 +48,18 @@ Nothing here needs a key, a login, or a connector. (A search limited to `youtube
 
 ## The competitive read — top 3 (2–4) videos on one question (the cardinal rules, applied)
 For the strongest candidates, search the exact question on YouTube and read the top real results:
-- **Capture per video:** `link · channel · ~views (as seen) · date seen · length`, then the read: **title pattern ·
-  hook · structure · the CTA and where it sits · thumbnail pattern · what works · what's missing** · and the line
+- **Capture per video:** `link · channel` — plus `~views`, the date and the length **only when they were really
+  seen** (live numbers, a search result's own text, or a screenshot the member dropped; a web search and a page
+  fetch do not show them) — then the read: **the title pattern and the promise it makes** · and the line
   that matters: **how the member's version is more useful for [avatar]** — a different angle, a clearer
   explanation, the member's own proof, the next step the viewer actually needs.
+- **Only what was really read (zero fabrication — checked 2026-11-15).** Nobody has watched these videos for the
+  member: a search and a page fetch show the title and the channel, not what is said inside. So the read is about
+  the TITLE and its promise. **The hook, the structure, where the call to action sits, and "what is missing" are
+  written only when they were really seen** — the member pasted the transcript or described the video, or a search
+  result's own text shows it. Otherwise say so in plain words (*"I matched these on their titles — I have not
+  watched them"*), and "the one thing to do better" is the angle the member's video takes that the title does not
+  promise — never a claim about what another video says, shows or leaves out.
 - **Same audience first:** a video for agents about the same question; another lane's or a general-audience video
   only as the labeled fallback.
 - **Never:** a competitor's flaw, a negative characterization of a channel, brokerage, or person; never "theirs is
@@ -59,7 +67,8 @@ For the strongest candidates, search the exact question on YouTube and read the 
   thing to do better" is about the member's video, never a knock on the other channel or its brokerage.
 - **Quality bar:** the same concept (not just the same keyword) · performed relative to its channel's size ·
   recent enough to reflect today's YouTube (~2–3 years; evergreen monsters allowed) · a real video.
-- **Honesty:** links actually opened; views marked `~`; if a count isn't visible, leave it off.
+- **Honesty:** every link returned by a search and checked as real; views marked `~` and only when seen; nothing
+  about a video's content that was not read.
 - Deliver 3 (2–4 fine), best teacher first. These double as the references the member watches before filming —
   the card's 📚 REFERENCE VIDEO — WATCH THIS FIRST section (`yt-make-video` writes them: the closest first, the other two under "Two more worth your time").
 
@@ -88,16 +97,19 @@ the Monday Kickoff finds the week's video its reference and puts it in the note.
    `youtube.com/watch` or `youtu.be` link. **Budget: one search a card; a second, reworded, only when the first
    gave no candidate — never more than two.**
 4. **Shortlist up to three** from the result titles: the same question, made for agents.
-5. **Check each candidate is real before it goes anywhere.** Fetch
-   `https://www.youtube.com/oembed?url=[the watch link]&format=json`. A real, public video answers with its `title`
+5. **Clean the link FIRST** — the check below fails on a raw search link (checked 2026-11-15: a real video's link
+   in the form `watch?pp=…&v=[id]` answers the check with an error; the clean form answers correctly).
+   `https://www.youtube.com/watch?v=[id]` and nothing after the id — the id is the value of `v=` wherever it sits in
+   the link the search gave; no `&pp=`, `&t=`, `&vl=`, no `m.youtube.com`, no shortened link. A link with `/shorts/`
+   in it is a Short: never a reference for a long video. Never a playlist, a channel page, a live stream's replay,
+   or a search page in the video's place.
+6. **Check the clean link is a real, public video before it goes anywhere.** Fetch
+   `https://www.youtube.com/oembed?url=[the clean link]&format=json`. A real, public video answers with its `title`
    and its `author_name` (the channel). An error (a deleted, private or mistyped video answers with an error, never
-   a title) → drop the candidate. **The title and the channel written on the card are the ones this check returned**
-   — never the search result's wording, never memory. A check that cannot run at all (no page fetch in this run) →
-   the video is NOT written; use the "nothing found" line below.
-6. **Clean the link.** `https://www.youtube.com/watch?v=[id]` and nothing after the id — the id is the value of
-   `v=` wherever it sits in the link the search gave (results arrive as `watch?pp=…&v=[id]` too); no `&pp=`, `&t=`,
-   `&vl=`, no `m.youtube.com`, no shortened link. A link with `/shorts/` in it is a Short: never a reference for a long
-   video. Never a playlist, a channel page, a live stream's replay, or a search page in the video's place.
+   a title) → drop the candidate. **Check the one you would pick first; only when it fails, the next** — a card
+   usually costs one search and one check, never more than three checks. **The title and the channel written on
+   the card are the ones this check returned** — never the search result's wording, never memory. A check that
+   cannot run at all (no page fetch in this run) → a new video is NOT written; use the "nothing found" line below.
 7. **Pick ONE, by closeness — and label it honestly:**
    - **closest match** — the same question, made for the same audience (agents);
    - **close, not exact** — the same question for a wider audience, or the neighbouring question for agents (say
@@ -109,11 +121,11 @@ the Monday Kickoff finds the week's video its reference and puts it in the note.
    newer one when a title carries its year. **A video
    whose title carries an income claim, an earnings figure or a compensation number is skipped** — its real title
    could not be written on the card (the cardinal rules) — and the next closest is taken.
-8. **Honest numbers.** A web search and the check in step 5 show the title and the channel — **not** the views, the
+8. **Honest numbers.** A web search and the check in step 6 show the title and the channel — **not** the views, the
    date or the length. So without the live data connection the card carries title · channel only, and nothing is
    said about how the video performed. With `Live data: active`, in a chat the member is in (never a scheduled
-   run): the data engine's recipe 4 in place of steps 3–5, and the card may carry exact views and the date.
-9. **Nothing found** (two searches, no candidate passed step 5): never a made-up link. The card's `Reference Video`
+   run, and never inside the setup sitting — setup always takes the search path, even on a start-over): the data engine's recipe 4 in place of steps 3–6, and the card may carry exact views and the date.
+9. **Nothing found** (two searches, no candidate passed step 6): never a made-up link. The card's `Reference Video`
    stays empty and the card page says, in plain words: *"No close video found yet — here is YouTube's own search for
    this topic:"* with a link to `https://www.youtube.com/results?search_query=[the phrase, + for spaces]` named
    **Search YouTube for this topic**. The next Monday Kickoff, or the video's own chat, looks again.
@@ -128,7 +140,7 @@ the Monday Kickoff finds the week's video its reference and puts it in the note.
   it leaves out that you would say — the same three on every card, because the video has not been watched for the
   member yet; `yt-make-video` writes the specific "one thing to do better" after its read).
 - **Still there?** A video can be taken down between the day it was found and the week it is needed. The Monday
-  Kickoff re-runs the check of step 5 on this week's reference before it prints it; a video that no longer answers
+  Kickoff re-runs the check of step 6 on this week's reference before it prints it; a video that no longer answers
   is replaced by a fresh search, and the row and the card are updated. `yt-make-video` does the same when it opens
   the card.
 - **The cardinal rules:** never a negative word about the channel, the person or their brokerage; never a
@@ -138,7 +150,7 @@ the Monday Kickoff finds the week's video its reference and puts it in the note.
   link is never written and a demo board with no reference shows nothing. Everything else in a demo stays
   illustrative.
 - **What the member hears** (one statement, in the close of whatever built the cards): *"Each video on your board
-  has one real video to watch first — a close match I found on YouTube and checked."* When some have none:
+  has one real video to watch first — found on YouTube and checked."* When some have none:
   *"[n] of your [m] videos have one; for the others I put YouTube's own search on the card."*
 
 ## Freshness and trust

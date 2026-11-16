@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.4.0 · Brain 0.9.12. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.5.0 · Brain 0.9.13. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen
@@ -38,7 +38,7 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   column is `Reference Video`: one real YouTube video, close to that card's idea, on every card.** Click the link: it is
   a real video, on the topic. Click a card: the hook, **the reference video with its player, "Why this one" and "Watch
   for"**, and the brief; the rest waits for the Kickoff. The chat says it in one line: *"Each video on your board has
-  one real video to watch first — a close match I found on YouTube and checked."* (A demo's reference videos are real
+  one real video to watch first — found on YouTube and checked."* (A demo's reference videos are real
   ones too; nothing else in a demo is.) Notion not connected → the **Connect button appears right in the chat** and the
   sitting keeps going.
 - [ ] **The consent card:** ONE short statement — the Monday Kickoff (Mondays 9:00 am) and the Monthly Channel Review
@@ -60,6 +60,9 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 - `run my attraction kickoff` — this week's video drafted onto its card (the hook three ways, the script start, the
   thumbnail sheet, the SEO start, the six publish boxes), the board topped up, the short note with its **▶ WATCH FIRST**
   line; the same thing Monday's workflow does.
+- `script my first three videos` — the first batch: the three videos the member films alone, scripted in one
+  sitting (titles, opening lines and lengths in the chat; the scripts in each video's folder and on its card), one
+  filming day set on the three cards, and a one-page film-day sheet. No interview is ever in it.
 - `make my attraction video: [title]` — in a fresh chat: the packaging, the script in the member's voice with the two
   CTAs, the thumbnail sheet for Higgsfield, the SEO package with the booking line first, two more reference videos with
   "the one thing to do better", and **the publish checklist filled with this video's own title, description, playlist,

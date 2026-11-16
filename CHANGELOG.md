@@ -2,6 +2,35 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.29.0] — 2026-11-15
+
+**The YouTube plugin, audited by three independent readers and tightened (YouTube 0.5.0 · Short-Form 0.5.1 · Brain 0.9.13 · Support 0.1.26).** After 0.28.0 three read-only audits walked the plugin as the model that has to follow it — the setup sitting, one video's life from the Monday Kickoff to "my video is published", and the numbers, reviews and shared rules. They returned 75 findings; every one that was real is fixed here. One feature was added: the first batch.
+
+**New: "script my first three videos" — the first batch.** The three videos a member films alone (interviews are booked, never batched) are scripted in one sitting: three different stories, three different ways of opening, the two calls to action in every script. Each script is saved in its video's folder and on its card; the three cards share ONE filming day while every publishing date stays on its own week; and a one-page film-day sheet says what to set up, what to change between videos and which five photos to take for the thumbnail. `yt-make-video` then builds the thumbnail sheet, the title and description and the publish checklist around a script it never rewrites, and reads "filmed or not" from the date instead of asking. Setup's close names the phrase in its second step.
+
+**The reference video — what the audits changed.**
+- **Clean the link first, then check it.** A raw search link (`watch?pp=…&v=[id]`) fails YouTube's check even for a real video, so real videos were being dropped; the two steps are swapped, and the usual card now costs one search and one check.
+- **Nothing is claimed about a video nobody watched.** A search shows a title and a channel, not what is said inside. The competitive read, the outlier scan and "the one thing to do better" now speak about the title's promise unless the member pasted a transcript or described the video; a view count is written only when it was really seen (live numbers, a search result's own text, a screenshot). The outlier test is no longer run on counts that are not there: the member is shown the one-minute screenshot way instead.
+- "Each has one real video to watch first — found on YouTube and checked." replaces "a close match", which overclaimed for a trailer or an interview slot; the card's own "Why this one" line carries the honest label. Inside setup the reference videos always take the search path.
+
+**The Monday Kickoff — an unattended run that now agrees with itself.**
+- **The pick.** `Scripted` meant three things, so the status alone no longer decides: already drafted this week → repeat that week's note and stop; a video to record this week → draft it; a video already packaged → say it is ready to film, never jump ahead; a first-batch script going out soon → finish what is missing and never touch the script; otherwise the next one forward.
+- **One save, last.** The board is topped up before anything is saved, so the single push carries every row the run wrote.
+- **The note cannot overflow.** Notices (no kit, no Notion, a failed save, no mail, a card taken off the board…) have one home — a bracket at the end of the first line, two at most — and never a line of their own. Two-video weeks and a check that cannot run are covered.
+- **A card the member took off the board stays off.** Every run that creates cards records them (`carded:` under the calendar's Kickoff briefs), so a later run can tell "never made" from "removed"; a new card carries its calendar row's own ID.
+
+**Live numbers — the last loopholes closed.** A deep dive or a read never puts a sign-in link or a click path in the middle of the job: it uses live numbers only when they are already active and otherwise ends with one line naming "connect my YouTube numbers". The contract, the house rules and both scheduled prompts now say the same thing — a scheduled run never calls the connection, whatever the `Live data:` line says — and the monthly review defines "numbers on record" once.
+
+**Setup.** A word budget that can be met (about 350 words outside the three paste blocks, with a stated order of what to drop); one rule for a failed save; a welcome that does not promise a question when the channel is already on file; the three topic names chosen by the Game Plan's rule at the channel step and kept word for word by the plan; the first Kickoff's date read from the task itself; no promise of a tab order Notion cannot set on an existing board; the two scheduled tasks created with a plain title ("Your Monday Kickoff", "Your Monthly Channel Review") and the description the tool requires.
+
+**Also.** Clips never add posts: four places that handed out "script my attraction reels from…" now point to the clip queue. The repurposing pack is written and held when compliance is unset, like every other skill. A model comparison names trade-offs only for the member's own model and never uses what agents who left have said. One set of script band names; the pinned comment always carries "comment GUIDE"; the publish checklist's thumbnail step mentions YouTube's Test & compare when all three were made.
+
+**Lighter to run.** `doc-format.md` and `brain-contract.md` — the two longest shared files — now open with a reading rule: a skill reads the part it needs (its skeleton, its row, the shape it writes), never the whole file.
+
+**Short-Form 0.5.1 · Brain 0.9.13 · Support 0.1.26.** The shared board spec and data engine carry the fixes above (identical in both content plugins); scheduled tasks get a plain title in the member's list; the Brain Board lists the first-batch phrase; FAQ Q69 ("Can I film several videos in one day?"), the setup guide and the demo checklist follow.
+
+**Not proven yet.** Nothing here has been run live in Cowork. The audits read the files; they did not run a sitting.
+
 ## [0.28.0] — 2026-11-15
 
 **YouTube, after a full simulated sitting and the owner's review (YouTube 0.4.0 · Short-Form 0.5.0 · Brain 0.9.12 · Support 0.1.25 · the Design Studio's style sheet).** The Week 5 sitting was run end to end for the demo member — the transcript, the Channel Page, the Game Plan, the board, a Monday Kickoff, a monthly review and one video — and everything it exposed is fixed here, together with five improvements and four owner rulings: thumbnails are made in Higgsfield, one real reference video on every card, a publish checklist on every card, and live numbers as a named step of their own.

@@ -27,7 +27,9 @@ connected (Gmail or Outlook tools present in this session). Three facts decide t
 - no Short-Form line, no mail connected → `Email me: no (no mail connected)`; the card's email sentence becomes one
   plain line: *"Your notes wait in Cowork and on your Brain Board — connect Gmail or Outlook to get them by email."*
 The times are Mondays 9:00 am and the 1st at 8:00 am, the member's local time (`config.md → Timezone`). A member who
-names another time inside their Yes ("yes — Tuesdays at 7") gets that time; nothing about the times is asked.
+names another hour inside their Yes ("yes — Mondays at 7") gets that hour; the day never changes (the Kickoff is
+Mondays, the review the 1st — a member who names another day gets the hour and one line: *"It runs Mondays — I've
+set it for 7."*); nothing about the times is asked.
 
 ## The card (said once — its own message, at most 70 words before "Say Yes")
 **The card is its own short message** (the owner's review, 2026-11-14): nothing else is in that message — no
@@ -59,12 +61,16 @@ it, anywhere in the sitting, says that something runs on Mondays or on the 1st.
 
 ## On the Yes — provision both, in this order, then push once
 1. **Monday Kickoff** — `list_scheduled_tasks`; adopt `attraction-monday-kickoff` if it exists (never a twin), else
-   `create_scheduled_task` with `taskId: attraction-monday-kickoff`, `cronExpression: 0 9 * * 1` (or the member's
+   `create_scheduled_task` with `taskId: attraction-monday-kickoff`, `title: Your Monday Kickoff` (the name the
+   member sees in their Scheduled list), `description: Drafts this week's YouTube video onto its card every Monday
+   — draft only, nothing is published.` (the tool requires one), `cronExpression: 0 9 * * 1` (or the member's
    hour), local time, the prompt **verbatim** from
    `${CLAUDE_PLUGIN_ROOT}/skills/yt-briefing/references/weekly-task-prompt.md`. Verify (present, enabled, a
    `nextRunAt`). Write `Monday Kickoff task: attraction-monday-kickoff · runs Mondays [time]`.
 2. **Monthly Channel Review** — the same: adopt `attraction-monthly-youtube-review`, else `create_scheduled_task` with
-   that `taskId`, `cronExpression: 0 8 1 * *` (or the member's hour), the prompt **verbatim** from
+   that `taskId`, `title: Your Monthly Channel Review`, `description: Reads last month's YouTube work against your
+   plan on the 1st and names the one move — draft only.`, `cronExpression: 0 8 1 * *` (or the member's hour), the
+   prompt **verbatim** from
    `${CLAUDE_PLUGIN_ROOT}/skills/yt-triggers/references/monthly-review-task-prompt.md`. Verify. Write `Monthly review
    task: attraction-monthly-youtube-review · runs the 1st [time]`.
 3. **`Email me:`** — the value decided above, written now (mirrored, `yes YYYY-MM-DD`, or `no (no mail connected)`).

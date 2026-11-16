@@ -313,6 +313,9 @@ It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it 
    Open a fresh chat for it; it scripts in your voice, writes your thumbnail sheet for Higgsfield (where you make your
    thumbnails: the prompt, which photo to upload, the words), builds the SEO package and fills the card.
    When it is filmed, open a new chat and say `edit my YouTube video` — your editor (Plugin 5, installed in Week 4) edits it.
+   **Want to film a first batch in one day?** Say `script my first three videos` instead: the three videos you film
+   on your own are scripted in one sitting, with a one-page film-day sheet (what to set up, what to change between
+   videos). Each still goes out on its own week. Interviews are booked separately.
 
 The close hands you your Brain Board and your Brain Book with their links: the YouTube dot turns green and its page
 shows your lanes, this week's video and your workflows.
@@ -472,6 +475,6 @@ revenue-share marketing rules.
 - [ ] Plugins 4 and 5 installed; `set up my attraction short-form` — profiles and your two keywords confirmed (GUIDE and your invitation word), your Game Plan (your calendar opens with the six posts designed in Week 3), your Notion board, your four workflows switched on with your one yes (all draft-only; a short email to your own address when something is ready), your posting tool connected (Metricool or GoHighLevel — the Connect button appears in the chat), your first Reel.
 - [ ] The sitting closed by handing you your Brain Board and your Brain Book with their links; the Board shows the Short-Form dot green with your keywords, this week's posts and your workflows.
 - [ ] `set up riverside` (it reads your Week 3 Video Brand Kit), then `edit my video` or `make me a reel` when you have a recording.
-- [ ] **Week 5 (date to be confirmed):** Plugin 6 installed; `set up my YouTube for agents` — your channel kit as copy-paste blocks, your YouTube Game Plan (one video a week to start), the YouTube tab on your board (a real video to watch first and a six-step publish checklist on every card), the Monday Kickoff and the monthly review switched on with your one yes, your first video handed over by title; your Brain Board shows the YouTube dot green.
+- [ ] **Week 5 (date to be confirmed):** Plugin 6 installed; `set up my YouTube for agents` — your Channel Page (three pieces to paste today), your YouTube Game Plan (one video a week to start), the YouTube tab on your board (a real video to watch first and a six-step publish checklist on every card), the Monday Kickoff and the monthly review switched on with your one yes, your first video handed over by title; your Brain Board shows the YouTube dot green.
 - [ ] Your posting tool connected — `connect my posting tool` any time it is not: Metricool (one click from the Connect button; posts wait for your approval inside Metricool) or GoHighLevel (your own token, pasted into the connector's settings yourself, never into the chat).
 - [ ] ManyChat set up in your own account from your build sheet (`my ManyChat build sheet`) — never connected to Claude.

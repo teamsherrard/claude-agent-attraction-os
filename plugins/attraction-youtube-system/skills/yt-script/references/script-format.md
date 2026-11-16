@@ -93,8 +93,8 @@ pitch. Both feel like invitations, which is why they work.
 THE FIRST SHORT — {MM:SS–MM:SS}
 ════════════════════════════════════════════
 {the pain in line one, straight in → one point → the ask with one of the two keywords (GUIDE · the offer's word)}
-Your AI Editing Studio (Plugin 5) cuts it at the edit. The Reels themselves are the short-form system's
-("script my attraction reels from {title}").
+Your AI Editing Studio (Plugin 5) cuts it at the edit. The Reels themselves come from the clip queue, after the
+video is out ("repurpose my attraction video").
 ```
 
 ## Footer (every script)

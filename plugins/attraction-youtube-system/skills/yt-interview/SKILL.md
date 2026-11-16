@@ -217,8 +217,9 @@ retry once, stop.
   for the description — the booking line on line 1 in the law's shape, the guide's funnel URL on line 2, the
   compliance and contact line on line 3, thanks to the guest by name in the pinned comment.
 - **After publish:** `yt-repurpose` writes the pack (the Shorts moments, the carousel spec, the stories, the
-  email, the blog, the three conversation starters); the Reels and the carousel are then the short-form system's
-  by phrase (*"script my attraction reels from [title]"*); the starters go to the sales system when it arrives —
+  email, the blog, the three conversation starters); its three clips are queued for the week's Reels (never a phrase
+  that scripts more Reels on top), and the carousel is the short-form system's by phrase (*"attraction carousel from
+  [title]"*); the starters go to the sales system when it arrives —
   until then the ideas file; the join-and-win rows go to `attraction-capture` for `organization.md` recognition
   notes.
 

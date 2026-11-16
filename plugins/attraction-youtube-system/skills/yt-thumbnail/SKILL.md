@@ -129,8 +129,9 @@ noted — say which in one line; "your turn" only when two videos fit. Look in t
 files. **Found** → note them on the card's 🖼 THUMBNAIL BRIEF section, one line under the sheet, replaced in place,
 never stacked: `Thumbnail made: [the file name(s)] · [the date, in words]` (the card found by System ID → exact
 title → near match; the board line read from `identity/publishing.md → Content board:`, then `identity/channel.md →
-Board:`; no board → nothing to write). Then one line, no question: *"Noted — your thumbnail is with this video.
-Upload all three as a test in YouTube Studio when you publish, and we read the click-through after a month."*
+Board:`; no board → nothing to write). Then one line, no question: *"Noted — your thumbnail is with this video."* — and, only
+when three thumbnail files are in the folder, one more sentence: *"When you publish, upload all three if YouTube
+Studio shows 'Test & compare' — YouTube picks the winner."*
 **Not found** → one line: *"I don't see it in the folder yet — drop it into Content → Long-Form → [video] and say
 'my thumbnail is done' again."* Nothing else is written; no Brain file changes.
 

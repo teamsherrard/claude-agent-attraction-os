@@ -123,7 +123,7 @@ Save the Lead Map as **Lead Map — [title] — YYYY-MM-DD** in the video's fold
 the content-log row's CTA column (written by `yt-script` / updated by `yt-make-video`).
 
 ## Job 2 — Comment triage (REAL comments only)
-**The source, said in one line:** when the live data connection is in the session and signed in
+**The source, said in one line:** when `identity/channel.md → Live data: active …` is on file and the live data tools are in this session (never a connection check, a sign-in or an ask here)
 (`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`, recipe 1 step 7 — read-only; never a reply, like, or
 comment tool; a 403 is said and the paste path stated), read the comments of the last 2–3 videos or the one
 they name; otherwise ask the easy way: *"open the video, screenshot the comments, drop them here"* — or paste the

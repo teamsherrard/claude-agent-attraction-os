@@ -107,12 +107,14 @@ Hand the outline to `yt-script` for the full script in the member's voice (the M
 Mike's own position (`96`): comparisons work, and he does not recommend them — a CEO once demanded one come
 down even though every fact was right. If the member still wants one: days of research, not an hour; every
 line sourced and dated (`title · outlet · date · link`, or the brokerage's own document and date); objective tone;
-strengths AND weaknesses of each; outcomes agents care about (income category, support, growth, freedom); end with
+what each model offers and who it fits, from each brokerage's own published pages — **a trade-off is named only for
+the member's own model, never for another brokerage's**; outcomes agents care about (income category, support,
+growth, freedom); end with
 the call ask in the law's shape — *"which model fits your goals is your call; if you want my help running [the
 method] — the lessons, the templates, the community — partner with me and it's free."* Never a negative
 characterization of the other brokerage, its leadership, or any sponsor. Facts about another brokerage come only
-from its own published materials, cited and dated; hearsay from agents who left is reported as "agents who moved
-over have told me…", never asserted as fact (`14`). If the member cannot source a claim, it is cut.
+from its own published materials, cited and dated; **what agents who left have said is never used — not as a fact
+and not as "agents have told me…"** (`14`). If the member cannot source a claim, it is cut.
 
 ## The cardinal-rules read-back (hard gate, every breakdown)
 Before the outline leaves this chat, read every line back against `03-model-positioning/13`:

@@ -41,16 +41,18 @@ closing message and continue.
    (Week 4)` heading is the same block — for its `Email me:` line; no line → the `## Short-Form (Week 4)` block's
    `Email me:`, which the YouTube line mirrors); `identity/publishing.md` (the `Content board:` line — the board the
    📊 AFTER IT'S OUT sections are written on; that file absent — the member skipped Week 4 — → the `Board:` line of
-   `identity/channel.md`'s `## Channel` block); `memory/content-performance.md` (the newest block — the baseline;
-   this run appends one — **and any `YouTube Studio numbers` block for the month under review**: a block dated
-   inside that month, or whose `Month covered:` line names it — the Studio screenshots the member added with "add
-   my attraction Studio numbers"); `identity/channel.md` (the `## Game Plan anchors` — the `Cadence:` anchor, cycle
+   `identity/channel.md`'s `## Channel` block); `memory/content-performance.md` — **the numbers on record, defined once for this whole run:** the newest
+   `## Performance` block in `identity/channel.md`, plus every YouTube block in this ledger for the month under
+   review — `YouTube video read` (what "how did my video do" left), `YouTube Studio numbers` (the Studio
+   screenshots the member added with "add my attraction Studio numbers": a block dated inside the month, or whose
+   `Month covered:` line names it) and the last `YouTube monthly review` (the baseline; this run appends the next
+   one). A short-form block is never the YouTube baseline; `identity/channel.md` (the `## Game Plan anchors` — the `Cadence:` anchor, cycle
    position, lane names, the 90-day target — and the latest `## Performance` block, if any);
    `memory/content-log.md` (the YouTube rows of the last 30 days and the 30 before — scripted, published, by
    bucket and pillar); `memory/interview-pipeline.md` (booked, recorded, published, overdue, declined); then,
    only when naming which videos agents mentioned, read-only: `memory/conversations.md`, `memory/top-50.md`
    (Source cells reading `youtube via comment on "[video]"`), `memory/pipeline.md` (stage moves that name a
-   video); `memory/scorecard.md` (the word — Ahead · On pace · Behind — read only, never recomputed);
+   video); 
    `identity/compliance.md` (the first line, `Status:`); `memory/content-calendar.md` → `## Long-form (YouTube)`
    (the Game Plan's dated calendar — what was planned for the month, and the `## Kickoff briefs (YouTube)` blocks
    for what the Monday Kickoff drafted; the section absent → the Game Plan doc in the workspace);
@@ -73,8 +75,8 @@ closing message and continue.
    said, never padded) · the drafts the Monday Kickoff left that never became a video (cards still at `Scripted`,
    by title) · the short-form pieces repurposed from a video (the `[repurposed]` rows). No live data in this run
    (the live connection reads public data only; click-through rate, watch time and traffic sources live inside
-   YouTube Studio): no views, no click-through unless a `## Performance` block or the ledger's Studio block
-   already holds them — then quote them with their date.
+   YouTube Studio): no views, no click-through unless the numbers on record (step 2's definition) hold them — then quote them
+   with their source and date.
 3a. **The month's Studio numbers — use them when they are on record, and say so.** The ledger holds a `YouTube
    Studio numbers` block for the month → the review USES it: each video's impressions, click-through rate,
    average view duration and views; where viewers came from and what they typed; where they left the top video —
@@ -112,7 +114,7 @@ closing message and continue.
    is not loaded in this session: install nothing, upload the structured text as a `.md`, say so in one line.
    **Then two more writes, before the push:** (a) **the board** — when the board line holds a URL (`identity/publishing.md
    → Content board:`, else `identity/channel.md → Board:`) and the Notion connection is present, write **📊 AFTER IT'S OUT** on each long-form card published this month:
-   the live link · the numbers on record (a `## Performance` block or a Studio top-up, with their source and date — no
+   the live link · the numbers on record (step 2's definition, with their source and date — no
    live pull in this run; "not available" is a real value) · the agents who named it — replacing the section in place,
    never stacking, never touching another section or a card the member made; no board or no Notion → skip silently;
    (b) **the ledger** — append ONE dated block to `memory/content-performance.md` (the Short-Form System's file; this
@@ -144,7 +146,8 @@ closing message and continue.
    who books which video made them reach out") · INTERVIEWS (one line) · DRAFTS WAITING (one line, or omit) · THE
    PACKAGING FIX (one line, or omit) · WHERE MOMENTUM SLOWED (one) · THE ONE MOVE (one) · NEXT MONTH (the slots
    in order; the step-up proposal in one line when due) · the link to the doc · "say 'run my attraction YouTube
-   deep dive' for the full read with your live numbers, or 'how did my video do' any week" · one encouraging close (the channel compounds — three
+   deep dive' for the full read, or 'how did my video do' any week" (add "with your live numbers" after "the full
+   read" only when `identity/channel.md → Live data:` reads `active`) · one encouraging close (the channel compounds — three
    years, not three weeks) · "Your Brain Board is updated." · **and the note ENDS with the stated step, word for
    word — told, never asked:** "To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my attraction Studio numbers': 1. Analytics → Content — the video table (impressions, click-through rate, average view duration, views). 2. Analytics → Reach — traffic source types and YouTube search terms. 3. Analytics → Engagement — the retention graph of your top video." Never a grade, never anyone else's numbers, never guilt, never income.
 10. **Delivery:** the note must be your FINAL output — compose it and stop; no tool calls or sync notes after it.

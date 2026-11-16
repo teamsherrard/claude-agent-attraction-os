@@ -63,18 +63,27 @@ ALL THREE: (1) more than 2,000 views, AND (2) views ≥ 3× the channel's subscr
 that channel's own typical video. Small absolute numbers are not proven demand. When in doubt, leave it out.
 
 ### Steps
-1. Channels: 3–7 relevant ones (the sources above). Public reads only — the member never handles keys,
+1. Channels: 3–5 relevant ones (the sources above). Public reads only — the member never handles keys,
    credentials, or connections. **Live numbers only when they are already there:** when
    `identity/channel.md → Live data: active …` is on file, the tools are in this session and the member is in the
    chat, read the real view and subscriber counts through
    `${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md` (recipes 2 and 3, read-only) — the three-part test then
    runs on exact numbers, and the counts drop the `~`. Not active → the public read, silently: never a sign-in, a
    connection check or an ask here; at most one closing line naming *"connect my YouTube numbers"*.
-2. Scan recent uploads against the three-part test (approximate counts, as seen, dated).
+2. Scan recent uploads against the three-part test — **only with numbers that were really seen.** A web search
+   and a page fetch show a video's title and channel, not its views or the channel's subscribers (checked
+   2026-11-15). So: **live numbers active** → the test on exact counts. **Not active** → a count is used only when
+   it is literally in a search result's own text (`~`, "as seen in search on [date]") or on a screenshot the member
+   dropped; with no counts in hand, do NOT run the test and do NOT write a views figure — list the candidates as
+   `link · channel · the title shape · what it leaves open`, say plainly *"I can see these videos but not their
+   view counts from here"*, and give the one-minute way: *"Open one of these channels on YouTube, click Videos,
+   then Popular, and drop a screenshot of the top row here — I read the views from your screenshot."* Never a
+   guessed count.
 3. For each true outlier, the **pattern read**: `link · channel · ~views (as seen) · date seen · the title shape
-   (which of the seven formulas it resembles) · the hook move · the structure · where the CTA sits · the thumbnail
-   principle · the bucket it belongs to · the member's branch it fits · what it leaves open for [the member's
-   avatar]`.
+   (which of the seven formulas it resembles) · the bucket it belongs to · the member's branch it fits · the angle
+   it leaves open for [the member's avatar]` — and the hook move, the structure, where the CTA sits and the
+   thumbnail principle **only when they were really seen** (a transcript or a screenshot the member dropped);
+   nobody has watched the video for the member, so nothing about its inside is ever inferred from its title.
 4. Translate into **the member's stronger version**: a new title in their voice (one promise, ≤70 characters,
    the hard gates), the branch and the framework step it teaches, the angle that is more useful for their avatar,
    the proof or story from their Brain that makes it theirs. Never the same video twice; a new angle on a proven
