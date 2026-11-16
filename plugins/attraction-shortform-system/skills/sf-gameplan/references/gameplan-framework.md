@@ -22,7 +22,7 @@ so and this framework labels the rule an OS default.
 | — | Title + meta + READ THIS FIRST | — | `[NAME]'S SHORT-FORM GAME PLAN` · attracting · known for · prepared · the stamp. Then the opening sentence — the verdict (where their short-form is today — a feed that pulls clients, a blank slate, a consistent leader with no keyword); right after it the one plain line *"Your first two weeks: post the six you already have designed — nothing to film yet."* (no kit → the one warm line naming "rebuild my kit" instead); then the insight and the plan in one line; then the first post to film (the first Reel, after the six designed posts), the batch day, and the compliance line if `unset`. |
 | 1 | Positioning for short-form | 150+ | who they attract (the type, the pain in their words, the mirror moment) · the one line · the short-form job (Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation) · the two keywords · the two CTAs (the guide · the call, verbatim from the kit's CALLS TO ACTION table) · why I'm building this |
 | 2 | The five pillars, three angles each | 400+ | Authority · Perspective · Story · Proof · Personality — exact names; per pillar a two-line summary and three angles (hook · for whom · pain · what it carries) |
-| 3 | The format mix and the weekly cadence | 200+ | the number · the mix (in plain words — the label "the OS default" is never printed in the document) · the formats and what each is for · the platforms, stated ("Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when you attract team leaders; TikTok and YouTube Shorts take the same video any time you want more reach") · the batch day · the 15-minute routine (the engagement routine lives here as text — never a task) |
+| 3 | The format mix and the weekly cadence | 200+ | the number · the mix (in plain words — the label "the OS default" is never printed in the document) · the formats and what each is for · the platforms, stated ("Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the same video any time you want more reach") · the batch day · the 15-minute routine (the engagement routine lives here as text — never a task) |
 | 4 | The hook bank | 250+ · exactly 30 | six per pillar in the Brain's block (pillar · for whom · rung on every line; `starter` where seeded); in the document, two parts — THE HOOKS FOR YOUR DATED POSTS first (the date · the hook · who it is for), then the rest under the plain heading "More hooks when you need them" (the hook · who it is for · the ask in words) |
 | 5 | CTAs and the comment-to-DM flow | 150+ | the ladder · the rule of one · the ask by pillar · five ask lines · the call line in the CTA law's shape · the call-ask rule (GUIDE on most posts; the invitation on about one post in four, most naturally a Proof piece or a "what you get" piece; never two asks on one post; the kit posts keep exactly the asks the kit printed) · the two keywords and what each opens · the ManyChat line in the owner's shape (set it up this week from the build sheet; you don't connect it to Claude; by hand from the DM bank until it's live) |
 | 6 | The 30-day calendar | 400+ · 12 dated rows at the default three a week (20 at five; the six kit posts among them) | GRAPHICS — THE SIX POSTS YOU ALREADY HAVE (post, don't make — the Graphics tab on your board) · REELS — [n] rows at your cadence (the Reels tab) · STORIES, DAILY · THE BATCH PLAN · THE THREE TO FILM FIRST — each band a five-column table in the document (Date, written "Tue, Nov 17" · What · The hook · The ask · Status); "This week you only post — nothing to film." under every week made only of designed posts |
@@ -31,7 +31,7 @@ so and this framework labels the rule an OS default.
 | 9 | Next steps | 50+ | four lines, in this order: post the six designed posts on their dates · film on your batch day · when it's filmed, open a new chat and say "edit my reel" · set up ManyChat from your build sheet ("my ManyChat build sheet") — then, only where it applies, the compliance line and the research re-run |
 | — | SOURCES · closing · stamp | — | every search and page read, dated; budget used of 8; `starter` and `unresearched` rows counted; demo → "nothing searched"; one honest closing paragraph; the stamp |
 
-Member-facing lines say *your Authority pillar*, *the agents you attract* — never "avatar", never "leads",
+Member-facing lines say *your Authority pillar*, *the agents you want to attract* — never "avatar", never "leads",
 never a file or skill name. The pillar names are the OS vocabulary and are never renamed in the doc.
 **Internal words never appear in the document:** "rung", "carries", "branch", "the OS default", "the kit's CALLS TO
 ACTION table, verbatim", a System ID, a date written 2026-11-17. The document says "the ask", "built on", "your offer",
@@ -100,7 +100,7 @@ drafted and labeled, never asked a second time (on demand, one plain question at
   graphic (Facebook Reels is the same video reposted); TikTok and YouTube Shorts only as optional reposts of the same
   video — nothing new to make; LinkedIn for the carousels and story posts only when `identity/avatars.md` includes team
   leaders or broker-owners, otherwise off — one line. The doc's line: *"Platforms: Instagram and Facebook, both — every
-  Reel and every graphic; LinkedIn for the carousels when you attract team leaders; TikTok and YouTube Shorts take the
+  Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the
   same video any time you want more reach."* Mike's lesson that one video covers every short-form platform
   (`07-instagram/90`) is the why. `publishing.md → Platforms (priority order):` carries the locked value
   (`Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok /
@@ -300,6 +300,6 @@ only; nothing written to a real Brain. Same structure, same gate.
 ## Tone + premium feel
 Honest, confident, encouraging, specific — a coach who has watched a hundred leaders start posting, not a hype
 guru. Bespoke on every line (their lane, their agent, their stories, their organization). In the member's voice.
-Plain language in front of them — "the agents you attract", never "leads", "recruits", or "avatar". The premium
+Plain language in front of them — "the agents you want to attract", never "leads", "recruits", or "avatar". The premium
 feel is depth + structure + the stamp, delivered as a clean doc; for a designed showpiece the member takes it to
 Claude Design (words only from here).

@@ -131,7 +131,7 @@ before it saves:
   thing. The Week 4 pillars, when named, are "your Authority pillar", "your Proof pillar", "your Perspective pillar".
 - **None of the system's own words anywhere in the document:** no "bucket", "SIGNAL", "FOR · PAIN · SIGNAL", "cycle
   position", "anchors", "unresearched", "starter", "rung", "avatar"; no skill name, no file name, no code or note
-  beside a title. Plain replacements: "the agents you attract" · "your two calls to action" · "click-through rate" ·
+  beside a title. Plain replacements: "the agents you want to attract" · "your two calls to action" · "click-through rate" ·
   "not yet checked against search" · "from the starting list" · "your eight-video plan".
 - **Dates in words** — "Mon, Dec 7" — never `YYYY-MM-DD` inside the document (the Brain's rows keep the real dates).
 - **YOUR NEXT 7 DAYS is its own ruled block, right after READ THIS FIRST** — exactly three numbered lines, never a
@@ -179,12 +179,12 @@ CHANNEL AUDIT
 ════════════════════════════════════════════
 YOUR POSITIONING
 ════════════════════════════════════════════
-Who the channel is for:  {the agents you attract, in their words}
+Who the channel is for:  {the agents you want to attract, in their words}
 What you'll be known for:  {from strategy.md / offer.md}
 The one line:  {"[Name] helps [the type of agent] [outcome] through [how]"}
 Your two calls to action:  1. The guide — "{the spoken guide line, word for word from the kit — '… Comment GUIDE and I'll send it.'}"   2. The call — "{the spoken call line, word for word from the kit, in the call-to-action law's shape}"
 Why I'm building this:  {the why-line from journey.md → ## The WHY, in the member's voice — drafted and labeled "(draft)" when the Brain has not written it; never a question}
-What's missing for {the agents you attract} — and how I bridge it:  {the bridge-the-gap line — the agents' problem, never a word against another team or brokerage}
+What's missing for {the agents you want to attract} — and how I bridge it:  {the bridge-the-gap line — the agents' problem, never a word against another team or brokerage}
 Why me — for a new agent · for a seasoned agent:  {from ## Why join me / leadership.md; one line each}
 
 

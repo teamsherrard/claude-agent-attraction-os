@@ -212,7 +212,7 @@ PERSPECTIVE — what I believe · STORY — where I've been · PROOF — what's 
 3. THE FORMAT MIX AND THE WEEKLY CADENCE
 [N] posts a week — three to start, five the step-up · the mix: one attraction · one authority · one story (two · two · one at five), stories every day
 Formats: talking head [what for] · green screen [what for] · carousel [what for] · stories [what for]
-Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when you attract team leaders; TikTok and YouTube Shorts take the same video any time you want more reach
+Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the same video any time you want more reach
 Batch day: [day · the rhythm]   ·   The 15-minute routine: [the moves, the time of day]
 
 ———————————————————————————————

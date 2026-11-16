@@ -134,7 +134,7 @@ then only three more files now — the rest open at the phase that uses them, ne
 - `identity/compliance.md` — the first line, `Status:` (Step 1b)
 - `identity/channel.md` (channel URL, status, baseline, the kit's playlists, `## The CTA line` — Step 3's audit read)
 - `identity/avatars.md` (the 1–3 types they attract, their pains, their triggers — every lane and title is for a
-  named avatar; never "avatar" out loud — "the agents you attract")
+  named avatar; never "avatar" out loud — "the agents you want to attract")
 
 **Opened later, at the phase that uses them:** Phase 1 → the newest `exports/week3-kit-*.txt` (chapter 7's CALLS
 TO ACTION table) · `identity/profile.md` · `strategy.md` · `offer.md` · `journey.md` (the WHY) ·

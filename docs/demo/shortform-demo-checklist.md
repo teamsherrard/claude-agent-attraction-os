@@ -1,7 +1,7 @@
 # Short-Form demo checklist — Week 4 on a demo Brain that finished Weeks 1 to 3
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1) and
-`lead-magnet-demo-checklist.md` (Week 2). Short-Form plugin 0.8.0 · Riverside editor 0.4.5 · Brain 0.9.18. Every number
+`lead-magnet-demo-checklist.md` (Week 2). Short-Form plugin 0.8.1 · Riverside editor 0.4.5 · Brain 0.9.19. Every number
 in a demo Brain is fictional and tagged.*
 
 ## Before the screen

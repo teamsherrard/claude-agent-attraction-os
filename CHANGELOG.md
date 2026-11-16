@@ -2,6 +2,17 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.34.1] — 2026-11-16
+
+**Nothing speaks as if the member has already attracted agents (Short-Form 0.8.1 · YouTube 0.8.1 · Support 0.2.2 · Brain 0.9.19 · Lead Magnet 0.12.15).** The owner's worry on 0.34.0 was the first-time attractor: "a lot of people in this group… have never attracted an agent in their life." A read-through that plays such a member found the questions were now blanket, but some sentences were not.
+- **The welcome's play-back** said "you attract [type]" and "you're known for [X]" as facts. It now reads "your story speaks to [type]; you want to be known for [X]" — the Brain's own words for those two fields — for every member. YouTube: "you're here to help [type]…".
+- **"The agents you attract" is now "the agents you want to attract"** wherever a member reads it, in both plugins, the setup guide and the shared `how-we-speak.md` (four plugins). "LinkedIn… because you attract team leaders" reads "because team leaders are among the agents you want to attract".
+- **A rule in both setups and both house-rule files:** never a sentence that assumes the member has attracted agents, has a team, or has agents they have helped; such a line is said only when the Brain holds one, and otherwise takes its honest other form — never a gap list, never an apology for being new.
+- **The profiles step says a missing piece once, not three times.** No bios, or one keyword, is named once in the "Step 1 of 5" line with the phrase that creates it.
+- **Keywords:** when the offer's word is also GUIDE the line reads "Your word is GUIDE — it sends your guide and opens the conversation" (it used to print GUIDE twice); a built offer with no word of its own is pointed at "refine my partner offer", not told to build an offer it already built.
+
+**Not yet run live in Cowork.**
+
 ## [0.34.0] — 2026-11-16
 
 **Two blanket questions, the same for every member (Short-Form 0.8.0 · YouTube 0.8.0 · Support 0.2.1 · Brain 0.9.18 · Lead Magnet 0.12.14).** The owner ran the short-form sitting live and it asked: *"You attract agents one to four years in… When one of them gets you on the phone, what's the first thing they ask you?"* The owner: *"this worries me… the questions could be different for each person, depending on what their situation is. There are a lot of people in this group that are first-time agent attractors, and they've never attracted an agent in their life. What would the question be in their situation? We need to make sure that they're blanket questions and the questions are the same across the board. Also, we don't really need more questions because they've already gone through a lot of this when they were building their AI brain."* The four-question interview added in 0.31.0 and 0.32.0 is replaced.

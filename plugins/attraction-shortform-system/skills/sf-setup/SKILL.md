@@ -110,6 +110,12 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
     A named person or brokerage and any income figure in an answer are left out of everything public, said once.
   - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll take that from your Brain."*; saved as
     skipped, never asked twice, never a guilt line.
+- **Never speak as if the member has already attracted agents (the owner, 2026-11-16: "a lot of people in this
+  group… have never attracted an agent in their life").** To every member: "the agents you want to attract",
+  "the agents your story speaks to" — never "you attract…", "the agents you've attracted", "your agents ask
+  you…", "your team". A line about agents they have helped, a partner's win or their organization is said only
+  when the Brain holds one, and otherwise takes its honest other form (*"your own results for now — agent wins
+  join as they come"*). Never a gap list, never an apology for being new.
 - **Never name what the member does not hold, never claim what did not happen.** Every line that mentions the six
   designed posts, the bios, the second keyword, the board, a connected tool or a switched-on workflow is built from
   what is really on file at that moment — each such line below carries its other form in brackets. A member who
@@ -255,9 +261,12 @@ line) · the newest `exports/week3-kit-*.txt` once (chapter 6 — BIOS — for t
 GRAPHIC POSTS and the CALLS TO ACTION table — for the Game Plan at Step 3; absent → the kit is built at the end of the
 offer sitting: note it, say nothing yet). Everything else opens at the step that uses it; a file already open stays
 open — never re-read one. Reflect back in one breath so it's clear nothing will be re-asked:
-> "Here's what I've got: you're [name], building [what] at [brokerage] in [market]; you attract [the primary
-> type, one line]; you're known for [known-for]; your voice is [one line]; your guide is [its title]. I won't ask
-> you any of that again."
+> "Here's what I've got: you're [name], building [what] at [brokerage] in [market]; your story speaks to [the
+> primary type, one line]; you want to be known for [known-for]; your voice is [one line]; your guide is [its
+> title]. I won't ask you any of that again."
+(Said this way to every member. **Never "you attract…" or "you're known for…" as a fact** — many members are
+attracting for the first time, and the Brain's own fields are "who your story speaks to" and "what you want to be
+known for".)
 
 **The reply ends here, on the stop line — nothing of Step 2 is started:**
 > "Is that still right? Say **Yes** and I'll start with your profiles — or tell me what's changed. **Your turn.**"
@@ -272,7 +281,9 @@ they made: *"✓ Got it — [what they changed], in your words."*) Then:
 > against what's changed since, | Your bios get written in your lead magnet sitting, so for now I'm] confirming the
 > two words your Reels will use[,] and setting your platforms — nothing for you to answer unless something changed."
 (The files are opened first — the announcement says "your bios are already written" only when
-`identity/profiles.md` exists; with no file it takes the second form, and point 1's "No file" line follows.)
+`identity/profiles.md` exists; with no file it takes the second form. **A missing piece is said ONCE in this
+reply** — in the Step-1-of-5 line at the end, with the phrase that creates it — never in the announcement, the
+step's body and the closing line all three: to a member who is new that reads as a list of gaps.)
 
 **Lazy-load `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md` §8–§9a** (the ladder and the keyword; the profile is
 the recruiting landing page — `07-instagram/87`). **Open now:** `identity/profiles.md` **if it exists** (normally it
@@ -299,23 +310,24 @@ method], free? Grab the guide ↓"*, or *"I'll walk you through it, free"* at th
 as the reason), inside the platform's hard limit with the count shown (Instagram 150 · Facebook intro 101 · TikTok
 80 · LinkedIn headline 220), every other word kept, the compliance line never cut; show it as a **copy block in
 chat** — a statement, never a Yes line: *"Your [platform] bio, refreshed because [what changed] — it's saved to your Brain; paste this into [platform]."* (the save follows the gate in point 4) **No file**
-(they skipped the Week 2 lead magnet sitting) → one warm line — *"Your bios get written in your lead magnet sitting —
-say 'launch my lead magnet plugin' and they're done in one go. Your Game Plan doesn't wait for them."* — and
+(they skipped the Week 2 lead magnet sitting) → nothing is said here; the Step-1-of-5 line carries it once — and
 continue; never write a bio from scratch here, never fill `## YouTube` (a later week).
 
 **2. The two keywords — shown in one line, never asked, never more than two.** **GUIDE** (the magnet's keyword, set
 in Week 2 — delivers the guide) and the offer's **`Comment keyword:`** (the invitation word — opens the one-pager and
 the call). *"Your two words: GUIDE sends your guide; [WORD] opens the conversation about partnering with you."*
-Never a third word, never a retired default, never a brokerage name. `Comment keyword:` missing (an offer at
-`Status: seeds`) → GUIDE alone for now, one line that the second word arrives with "build my partner offer". No live
+Never a third word, never a retired default, never a brokerage name. **The offer's word IS GUIDE** (the same word does both jobs) → *"Your word is GUIDE — it sends your guide and opens
+the conversation."* — never "GUIDE … and GUIDE", never "your two words". `Comment keyword:` missing: an offer at
+`Status: seeds` → GUIDE alone for now, and the second word arrives with "build my partner offer"; **an offer that
+is BUILT but carries no word** → GUIDE alone for now, and "refine my partner offer" adds it — never "build my
+partner offer" to a member who already built one. Either way it is said once, in the Step-1-of-5 line. No live
 magnet → the offer's word alone, one line that "launch my lead magnet plugin" writes GUIDE. (ManyChat, the DM bank
 and the keyword sheet are the Game Plan's section 5 and `sf-comment-to-dm`'s — one of the two words each time.)
 
 **3. The platforms — stated, never asked (the owner, 2026-11-14).** One breath, from the Brain: *"Your platforms:
 Instagram and Facebook, both — every Reel and every graphic; Facebook Reels is the same video reposted. TikTok and
 YouTube Shorts take the same video any time you want more reach — nothing new to make. [LinkedIn carries your
-carousels and story posts, because you attract team leaders. | LinkedIn stays off — you're attracting agents, not team
-leaders.] Your link in bio is [the guide's funnel link | the link-in-bio tool your bios already name], one link."*
+carousels and story posts, because team leaders are among the agents you want to attract. | LinkedIn stays off — your content is for agents, not team leaders.] Your link in bio is [the guide's funnel link | the link-in-bio tool your bios already name], one link."*
 LinkedIn is on only when `identity/avatars.md` includes team leaders or broker-owners; the link in bio is the guide's
 funnel URL (`memory/magnets.md → ## Current magnet`) — the booking link until the page is live — or the link-in-bio
 tool the bios in `identity/profiles.md` already name. No question, no menu. A YouTube channel belongs to a later week
@@ -347,8 +359,9 @@ sentence above it.
 
 **The reply ends on Question 1 — the question is the stop; nothing of Step 3 is built:**
 > "✓ **Step 1 of 5 — done.** [Your profiles stand | Your [platform] bio is refreshed and saved | Your bios come
-> with your lead magnet sitting], [your two words are set | your word GUIDE is set — your second word arrives with
-> your partner offer], and your platforms are set.
+> with your lead magnet sitting — say 'launch my lead magnet plugin' when you're ready], [your two words are set |
+> your word is GUIDE | your word GUIDE is set — your second word arrives with your partner offer | your word GUIDE
+> is set — say 'refine my partner offer' to add your own], and your platforms are set.
 > Next, your Game Plan. Most of it comes from what you've already told me, so I have just two questions — the
 > same two every member gets. Type your answer, or tap the microphone and just talk; a sentence is plenty. (If
 > you have to stop, say "continue my short-form setup" any time and we pick up right here.)
@@ -658,7 +671,7 @@ relays what it returns.
 what happened in this sitting (a step that did not happen is left out; a change they made is named) — five or six
 short lines:
 > **✓ Step 5 of 5 — done. Here's what you did today:**
-> • You confirmed [your profiles and your two words | your two words — your bios come with your lead magnet sitting | your word GUIDE].
+> • You confirmed [your profiles and your two words | your profiles and your word GUIDE | your two words | your word GUIDE].
 > • You told me what you do off the clock and when you film — the two things only you could.
 > • You set your week: [the number they chose] posts a week, filming on [their day].
 > • You approved your thirty-day plan and put it on your board.

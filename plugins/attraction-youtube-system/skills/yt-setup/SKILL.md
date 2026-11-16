@@ -72,7 +72,7 @@ ask about their niche, who they attract, their offer, their resource, or their v
   the Short-Form system exists by now —
   hand to it by phrase ("script my attraction reels").
 - **Plain and warm in every phrase the member hears:** no file names, skill names, step numbers, "sync", "task
-  id", "database", "views", or "avatar" (say "the agents you attract", "the type of agent"); "your content board",
+  id", "database", "views", or "avatar" (say "the agents you want to attract", "the type of agent"); "your content board",
   "the tabs at the top of your board", "your Brain Board".
 - **One "kit", and plain words** (the owner's review, 2026-11-14). To the member the document this skill saves is
   **"your Channel Page"** — never a "kit": "your kit" always means the Week 3 Kit, and "your brand kit" the Week 3
@@ -156,6 +156,11 @@ ask about their niche, who they attract, their offer, their resource, or their v
   - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll take that from your Brain."*; saved as
     skipped, never asked twice, never a guilt line.
   - (To the member the sitting is never called an interview — in this plugin that word means a video with a guest.)
+- **Never speak as if the member has already attracted agents (the owner, 2026-11-16: "a lot of people in this
+  group… have never attracted an agent in their life").** To every member: "the agents you want to attract",
+  "you're here to help…" — never "you attract…", "the agents you've attracted", "your team". A guest, an agent
+  they have helped or a partner's win is named only when the Brain holds one, and otherwise takes its honest other
+  form. Never a gap list, never an apology for being new.
 - **Told, not asked**: every process step is a statement of what will be built — never "all, some, or not yet",
   never "want me to email you?", never a menu or a choice between defaults; extras are stated, never offered.
 - **Announce every step in one line before doing it** — *"Okay, cool, now I'm going to…"* — so the member
@@ -255,7 +260,7 @@ attraction YouTube system"):
 > what I built from what you've already told me, and you tell me if it's right — or what to change. I already
 > know you from your Brain[, and your offer, your guide and your bios are written], so I won't ask you any of that
 > again; there are just two new questions, the same two every member gets. Five things, one step at a time, and I
-> wait for you after each: your channel optimized for the agents you attract, your YouTube Game Plan, your videos
+> wait for you after each: your channel optimized for the agents you want to attract, your YouTube Game Plan, your videos
 > on your content board, your workflows, and your first video. About thirty-five minutes."
 
 **The bracketed clause is built from what is actually on file — name only what exists, never a file that is
@@ -286,7 +291,7 @@ guide built in Week 2: its title, its keyword GUIDE, its funnel URL — or, only
 the Starter Resource once the first video's lead step has built the fallback; empty until then is normal), otherwise
 `offer.md` (the offer; `Status: seeds` means Week 2 builds the offer — never demand it).
 Reflect it back in two lines so it is clear nothing will be re-asked:
-> "Here's what I'm working from: you're [name], you help [the type of agent] [outcome] through [known-for],
+> "Here's what I'm working from: you're [name], you're here to help [the type of agent] [outcome] through [known-for],
 > your guide is [the guide's title], and your booking link is [link]."
 (The welcome above already said nothing will be asked again — the promise is made once in the message.)
 **Only what is on file goes in the sentence** — no guide on file → no guide clause; the booking link blank in
@@ -345,7 +350,7 @@ asks for it again.
 ## Step 4 — Optimize the channel: the Channel Page (nine pieces in the document, three to paste today in the chat)
 **The reply opens with the win line for what the member just gave:** a link → *"✓ Got it — [@handle]. That's the one
 thing only you could give me."* · starting fresh → *"✓ Starting fresh — a clean channel, built right from day
-one."* · the play-back confirmed → *"✓ That's you — confirmed."* Then announce it in one line: *"Okay, cool — now I'm optimizing your channel for the agents you attract: your Channel
+one."* · the play-back confirmed → *"✓ That's you — confirmed."* Then announce it in one line: *"Okay, cool — now I'm optimizing your channel for the agents you want to attract: your Channel
 Page, built from the bio and the calls to action you already have."* (The bio or the kit's calls to action not on
 file → end the line at "your Channel Page" — never name a source that is missing.)
 

@@ -211,6 +211,6 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 ## Tone + premium feel
 Honest, confident, encouraging, specific — a strategist who has done this a hundred times, not a hype guru.
 Bespoke on every line (their avatar, their niche, their guests, their model). In the member's voice. Plain
-language in front of them — "the agents you attract," never "leads" or "recruits." The premium feel is depth +
+language in front of them — "the agents you want to attract," never "leads" or "recruits." The premium feel is depth +
 structure + the stamp, delivered as a clean doc. For a designed showpiece, the member takes the doc to their brand
 project in Claude Design (claude.ai/design, or a Design canvas inside Cowork — words only from here).

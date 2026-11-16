@@ -262,8 +262,8 @@ batchable core, 30–60 s, hook → value → one CTA, raw is better than polish
 on brokerage or industry news, facts with a source, never a dig), the carousel (the no-filming format; a LinkedIn
 document post when the member attracts team leaders or broker-owners), stories (one to five a day, never a day
 without — `07-instagram/89`) · **the platforms — stated, never asked** (the owner, 2026-11-14; the doc's line reads
-*"Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when you attract
-team leaders; TikTok and YouTube Shorts take the same video any time you want more reach"* — Facebook Reels is the
+*"Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to
+attract; TikTok and YouTube Shorts take the same video any time you want more reach"* — Facebook Reels is the
 same video reposted; TikTok and Shorts are optional reposts, nothing new to make; LinkedIn on only when
 `identity/avatars.md` includes team leaders or broker-owners, otherwise one line that it stays off; Mike's lesson that
 one video covers every short-form platform — `07-instagram/90` — is the why) · **the batch day — the member's own answer to "your week" in `## In your words` (the day and the place they named);
