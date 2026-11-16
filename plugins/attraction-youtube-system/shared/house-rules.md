@@ -198,8 +198,10 @@ silently); the calendar in the Brain and the Game Plan doc are the window. Bring
 the Brain Board (rule #20) is the read-only map** — never the other way round.
 
 ## 12. The setup journey (one order, announced out loud — Week 5)
-`yt-setup` runs five steps the member hears one at a time — *"Okay, cool, now I'm going to…"* — with one question
-(the channel), about thirty minutes of work. **One step per reply, and every step ends on its stop line** (rule
+`yt-setup` runs five steps the member hears one at a time — *"Okay, cool, now I'm going to…"* — with one fact
+question (the channel) and **the four interview questions of its Step 6a, one per reply** (rule #23's interview
+paragraph), about forty minutes. **One step per reply, and every reply ends on its stop** — an interview question,
+or the stop line (rule
 #23: *"Say **Yes** and I'll [the next step] — or tell me what you'd change. **Your turn.**"*) — the Channel Page,
 the Game Plan's proposal (the three topics, the pace, the filming day — shown BEFORE the plan is built), the built
 plan, the board, then the workflows card and its Yes. Never "ready?", never "confirm?", never a menu — and never
@@ -218,8 +220,11 @@ setting on Medium — the picker beside the model name"). Then:
    new brief — rule #18). A member starting fresh is told, in one stated line, how to create the channel. No Starter
    Resource unless the member skipped Week 2 (then `yt-leads` builds it, as before). Compliance never stops it
    (rule #3). **Then the stop line — and the reply ends.**
-2. **The Game Plan, in two replies** (rule #10): first what it stands on — the three topics, the pace, the filming
-   day — proposed, **then the stop line**; on the member's Yes, the research line said once, the build, the
+2. **The Game Plan — the interview, the proposal, then the build** (rule #10): first the four questions, ONE per
+   reply (the topic they could talk about for twenty minutes · who they would sit down with first · the story to
+   tell at full length · their filming day — each asks ONE thing), each answer heard back and saved; then what the plan stands
+   on — the three topics, the first three videos built on the answers, the pace, the filming day — proposed,
+   **then the stop line** ("Does that sound like you?"); on the member's Yes, the research line said once, the build, the
    hand-over two lines pointing at the document, the first video dated at least three days out (rule #19) — **then
    the stop line.**
 3. **The board** — the one Content Dashboard gains its 🎬 YouTube tab and the next 30 days (rule #11), each card
@@ -232,7 +237,7 @@ setting on Medium — the picker beside the model name"). Then:
 5. **The first win**: the first video on the plan (a new channel's trailer when that is the first row), handed over
    with its exact title ("make my attraction video: [title]"), its recording and publishing days, the Monday the
    Kickoff starts drafting, the editing next step stated, never hedged (rule #22).
-**Each reply is one step and short — about 120 words outside the copy blocks — with at most ONE caveat line in the whole sitting** (rule
+**Each reply is one step and short — about 120 words outside the copy blocks for the interview, proposal, hand-over and board replies; the welcome, the Channel Page message and the close run as printed — with at most ONE caveat line in the whole sitting** (rule
 #24). **The close** is a fixed, visible step: the first-video line · the Board-and-Book line from the sitting's
 closing push, both links handed over — "here they are" (rule #20) · at most three short numbered next steps (paste
 the three channel pieces · make your first video · invite your first interview guest) · one plain line for later —
@@ -536,7 +541,8 @@ already saved. (The sitting's manner, not the interview VIDEOS a member records 
 The simulated Week 5 sitting printed about 2,300 words before the Yes, five bullets of caveats, dates that made no
 sense and three different "kits". So, in every skill of this plugin:
 - **Short on screen; the documents hold the detail.** Inside setup each reply is ONE step, about 120 words outside
-  the three paste-today blocks (the only copy blocks — never cut, never counted): the Game Plan hand-over is two or
+  the three paste-today blocks (the only copy blocks — never cut, never counted) — the welcome, the Channel Page
+  message and the close are the exceptions and run as printed: the Game Plan hand-over is two or
   three lines pointing at the document, the board is three short lines, the card is its own message — and every
   step ends on its stop line (rule #23). Everywhere
   else the same habit: the verdict and the next step in the chat, the rest in the document; never a document's

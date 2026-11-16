@@ -11,7 +11,8 @@ built one (and they also run Mike's realtor plugins) → #1b · "can't see my em
 me / output is off / it won't say the number" → #5 · "chat too long / disappeared" → #6 · "can't
 read my folder" → #7 · "I don't see Cowork" → #8 · "it says it sent it but nothing arrived" → #9A
 · "my debrief / scheduled agent never ran" → #10 · "my Claude Design skill won't upload /
-isn't in Design" → #11 · "Riverside won't connect / can't see my recording" → #12. **No tree
+isn't in Design" → #11 · "Riverside won't connect / can't see my recording" → #12 · "my short-form / YouTube setup stopped,
+is asking me questions, built everything without me, or is different from my friend's" → #13. **No tree
 fits?** Don't force one — fall back to the navigator's rule: T2 lookup via the source map's
 official indexes, and if confidence stays low, `maa-support-escalate`. Never bend a tree around a
 symptom it wasn't built for.
@@ -223,7 +224,7 @@ almost always a PHRASE or a FOLDER mix-up, never data loss.
    the PUSH didn't (an unsynced write is a lost write) → `attraction-brain-sync` push from the
    machine that has it; recurring → escalate as a sync bug.
 
-## Tree #10 — "My scheduled agent never ran" (Debrief, Weekly Content Performance, any owned agent)
+## Tree #10 — "My scheduled agent never ran" (Debrief, Monday Week Plan, Monday Kickoff, any owned agent)
 
 Every scheduled agent in this OS is created by its OWNER skill (`stack-map.md` table) only after
 the member says yes, and it's draft-only. "Never ran" has four causes, cheapest first — but first
@@ -231,13 +232,17 @@ rule out the two that were never scheduled: "my agent movement watcher never ran
 Radar's news scan runs on demand, say "scan agent movement"; "my CEO review never ran" → say "run
 my CEO review". Neither has a task; that is by design, not a failure.
 
-1. **Was the yes ever given?** Ask one question: "When you set up [the Brain / Short-Form / the
-   Admin…], did it ask whether to switch on the [Daily Debrief / Monday week plan / Morning
-   Brief] — and did you say yes?" Many members skipped it on purpose (fine) or were never offered it
-   (the Daily Debrief is never offered inside Brain setup — it is switched on by "turn on my daily
-   debrief" or the AI Admin's Week 5 card). No yes → route the OWNER skill to provision it now
-   (`attraction-debrief`, `sf-analytics`, `admin-attraction-setup`…). Support never creates a
-   scheduled task itself.
+1. **Was the yes ever given?** Ask one question: "When you set up [Short-Form / YouTube / the
+   Admin…], did it show you a card listing what it was switching on — and did you say Yes to it?" The
+   short-form and YouTube setups show ONE card (four workflows; two workflows) and create nothing before that
+   Yes; a member who answered the card with "not now" has them set aside, by design. (The Daily Debrief is never
+   offered inside Brain setup — it is switched on by "turn on my daily debrief" or the AI Admin's card in a
+   later week.) No yes → hand them the phrase that switches it on, through its OWNER skill: "turn on my daily
+   debrief" (`attraction-debrief`) · "turn on my Monday week plan" (`sf-week-plan`) · "turn on my batch prep" ·
+   "turn on my news watch" · "turn on my calendar refill" · "turn on my attraction Monday kickoff"
+   (`yt-briefing`) · "turn on my monthly YouTube review" (`yt-triggers`). "My attraction workflows" / "my
+   attraction YouTube workflows" shows which are on. Support never creates a scheduled task itself, and a demo
+   Brain never gets one.
 2. **Does the task EXIST?** Cowork's scheduled-tasks panel (screenshot if unsure; the member's
    panel is the truth, support can't list it for them). Yes was given but no task → the creation
    step failed silently → owner skill again, watch it confirm; fails twice → escalate.
@@ -245,8 +250,11 @@ my CEO review". Neither has a task; that is by design, not a failure.
    the run hour (tree #2) · usage limit hit at the run hour (`maa-support-account`) · brain unsynced
    on the machine where it runs (tree #1) · the Debrief reads `top-50`/`conversations`/`scorecard`
    — all empty = it ran and had nothing to say (check `memory/debriefs.md` for a dated row).
-4. **It "sent" something** → it can't; every agent is draft-only. A member expecting an email or
-   post from an agent is expecting a feature the OS deliberately doesn't have (doctrine §8).
+4. **"It never emailed me" / "it sent something"** → every agent is draft-only: it never posts, publishes or
+   emails anyone else (doctrine §8). The ONE thing it sends is a short note to the member's OWN address when
+   something is ready — and only when their mail (Gmail or Outlook) is connected (`config.md → Email me: yes`).
+   No note → their mail is not connected, or they said "stop emailing me"; "email me my notes" turns it back on
+   once mail is connected. The draft itself is always in Cowork and on their board.
 5. Schedule fine, deps fine, still silent → re-create via the owner skill → still dead →
    **`maa-support-escalate`** with the task name, cadence, and the last run date they see.
 
@@ -293,3 +301,39 @@ my CEO review". Neither has a task; that is by design, not a failure.
 5. **Riverside's own outage / plan limit / export failure** → Riverside's status and support
    (third-party row in `escalation.md`); Mike's team can't fix Riverside's side. Draft the message.
 6. Two failed reconnects → **`maa-support-escalate`** with the connector state and the project name.
+
+## Tree #13 — "My short-form / YouTube setup stopped, is asking me things, or did it all without me"
+
+Since 2026-11-15 both content sittings run as an interview and wait after every step (Short-Form 0.6.0 and
+0.7.0, YouTube 0.6.0 and 0.7.0). Most "it's broken" reports here are the design working. Cheapest check first.
+
+1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
+   - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A numbered question → they answer it in a
+     sentence or two, or say "skip". "Say Yes and I'll…" → they say Yes, or say what to change. Done.
+   - It ends mid-sentence, or with an error → a cut-off reply: have them say "continue" once; twice → a fresh
+     chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
+2. **"It's asking me questions — I thought it knew me."** By design (FAQ Q71). One check that it is behaving:
+   the question must be about THEM — what agents ask them, how they would say something, what they do off the
+   clock, their filming day; for YouTube the topic they could talk about for twenty minutes, who they would sit
+   down with, which story, their filming day. **If it asked about email, platforms, which workflows, ManyChat, or
+   anything they answered in Week 1, that is a defect: `maa-support-escalate`, with the question quoted.**
+3. **"It built everything while I was away."** An older version (before 0.6.0). They update the plugin
+   (Customize → Plugins), open a new chat and say the setup phrase. Nothing they have is lost; a finished setup is
+   not run again unless they say "redo my short-form setup" / "redo my YouTube setup".
+4. **"I came back and it asked the same question again."** Read the stamp, never guess: short-form →
+   `identity/publishing.md → Short-form setup:` and `identity/content-pillars.md → ## In your words`; YouTube →
+   `identity/channel.md → Setup:` and its `## In your words`. An entry on file for that question (an answer, or
+   `skipped`) and it was asked again → a defect: log it with the stamp and the entries. No entry → the answer was
+   never saved (the chat closed first): they answer once more, and that is normal.
+5. **"My answer isn't in my plan" / "it changed my words."** Find the entry under `## In your words`. Saved as
+   they said it → show where it surfaces: the Brain Board, "(your words)" beside the Reel or video in the plan,
+   the top of its card (FAQ Q75). A name or a number missing from the public piece is the privacy rule working
+   (FAQ Q76). The meaning itself changed → a defect: log both versions.
+6. **"The numbers at the end are wrong"** (the close's "you answered four questions… three of your pillars").
+   Count the entries that are not `skipped`, and the calendar rows whose `Carries` cell holds `your words`. A
+   mismatch → log it with the counts; never argue the number with the member.
+7. **"I chose two posts a week and the plan looks odd."** Any pace is allowed: the six designed posts go out
+   first (three weeks at two a week), then the Reels in turn. If the plan still says "your first two weeks" for a
+   pace that is not three a week, log it.
+8. Two fixes that do not work → **`maa-support-escalate`** with the stamp, the `## In your words` section and the
+   last line on their screen.

@@ -263,7 +263,7 @@ It already knows you from your Brain, your offer, your guide and your Week 3 Kit
 5. **Your first Reel — you choose how it opens.** It shows you three ways to open it; pick one, or say it your own
    way, and it writes the script around your opening.
 
-It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
+It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. (Skipped a question? Say `update my pillars` any time and it asks it again. Want the whole sitting again from the top? Say `redo my short-form setup`.) Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
 
 **Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
 `register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a
@@ -301,9 +301,8 @@ a question stumps you.
    Your YouTube bio comes from chapter 6 of your kit; the links are your booking line first and your guide second; the
    spoken lines are your kit's calls to action, in Mike's shape (partner with me and get my help, free, to run this).
 2. **Your YouTube Game Plan — built on your answers.** First the four questions, one at a time: which of your three
-   topics you could talk about for twenty minutes with no notes (and the first thing you'd say); who you would love
-   to sit down with on camera first; which of your stories to tell at full length first; and your filming day and
-   pace. Then it shows you your first three videos — your own answers — and asks "Does that sound like you?" When
+   topics you could talk about for twenty minutes with no notes; who you would love to sit down with on camera
+   first; which of your stories to tell at full length first; and the day you can film a full video. Then it shows you your first three videos — your own answers — and asks "Does that sound like you?" When
    you say Yes it builds the plan: Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
    (3 niche · 1 model · 4 interviews), your lanes from the content branches of your offer, about fifty titles, your
    first 90 days. **One video a week to start**; two is the step-up your monthly channel review proposes after a month. The

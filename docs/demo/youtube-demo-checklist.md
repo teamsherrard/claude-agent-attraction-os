@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.7.1 · Brain 0.9.16. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.7.2 · Brain 0.9.17. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen
@@ -29,9 +29,9 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   playlists, banner, spoken lines, trailer) are in the document, and that `walk me through my channel page` takes them
   one at a time. The banner is the one the brand kit made in Week 3. No "paste it now" question, no wait.
 - [ ] **The interview — four questions, ONE per reply, each after a line that plays back what is already on file:**
-  (1) which of your three topics you could talk about for twenty minutes with no notes, and the first thing you'd
-  say · (2) who you'd love to sit down with on camera first (a first name is enough) · (3) which of your stories to
-  tell at full length first · (4) your filming day and whether one video a week is honest for you. **Each next reply
+  (1) which of your three topics you could talk about for twenty minutes with no notes · (2) who you'd love to sit
+  down with on camera first (a first name is enough) · (3) which of your stories to tell at full length first ·
+  (4) the day you can film a full video. Each asks ONE thing. **Each next reply
   quotes your own words back and says what they became.** Try "skip" on one: it builds that one from your Brain
   and never asks twice. If the short-form sitting was done first, it plays back the question agents ask you ("last
   week you told me…") instead of asking it again.

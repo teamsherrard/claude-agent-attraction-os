@@ -28,7 +28,8 @@ work on MY device," fetch the mapped Cowork-surfaces article live rather than an
 this paragraph.)
 
 **Voice:** voice mode lets them TALK to Claude — the phone is the sweet spot (capture skill from
-the car: "I just talked to an agent at the open house…"), and in Week 5 it's the objection
+the car: "I just talked to an agent at the open house…"), in Weeks 4 and 5 it's the easy way to answer a setup's questions (tap the microphone in the message box and
+say a sentence or two — nobody has to type), and in Week 6 it's the objection
 role-play surface (Claude plays the agent, they practice out loud). Talking is an input method;
 the same brain and rules apply.
 (Which surfaces have voice mode today: fetch the mapped voice article live, then guide.)
@@ -44,8 +45,7 @@ the same brain and rules apply.
 - **A connector** is a cable from the house to one of THEIR accounts (Google Calendar, Gmail,
   Drive, their CRM, Riverside, Metricool…). Their account, their login, their data — Claude is granted
   a supervised key.
-- **A scheduled agent** (the Daily Debrief, the Weekly Content Performance, the Daily Follow-Up
-  Queue…) is an appliance on a timer: it runs on its own schedule and leaves a DRAFT — it
+- **A scheduled agent** (the Daily Debrief, the Monday Week Plan, the Monday Kickoff…) is an appliance on a timer: it runs on its own schedule and leaves a DRAFT — it
   never sends, posts, or publishes. It only exists if the member said yes when its owner skill
   offered it.
 - **The Brain** (`~/attraction-brain/`) is the filing cabinet every room reads: who they are as a
@@ -142,6 +142,29 @@ mapped personalization articles live before describing exact behavior.
 - What Anthropic does with conversation data is answered ONLY from the live privacy pages in
   `source-map.md` — with the page open, never from memory. What we can say durably: this system
   was built so the member's business data lives in files THEY own and control.
+
+## 7b. Why the content setups ask questions and wait (Weeks 4 and 5)
+
+Members meet this in Week 4 and it surprises some of them, because Weeks 1 to 3 taught them that the system
+already knows them. Teach it in one breath: **"It knows your story. It doesn't know what you'd say tomorrow — so
+it asks, and builds on your own words."**
+- **It works like an interview.** Four short questions in each sitting — about them, never about the machinery.
+  Short-form: what agents ask them first on the phone · how they'd explain the first step of their method · what
+  they do off the clock · the day and place they can film. YouTube: the topic they could talk about for twenty
+  minutes · who they'd sit down with on camera first · which story to tell at full length · the day they can film.
+- **It never repeats Week 1.** Each question first reads back what their Brain already holds, then asks for the
+  one new thing.
+- **Their words come back.** The next reply quotes them and says what their answer became; in the plan those
+  pieces say "(your words)". That is the point of the questions: their first three Reels and first three videos
+  are things they said, so the content sounds like them and not like everyone else's.
+- **It waits.** One step per reply, then "Your turn." Nothing is built while they are away, and they can leave
+  mid-sitting and come back to the same place.
+- **Each reply names what they did** (the "✓" line) and ends with "what you did today" — it is their work, with
+  the heavy lifting done for them.
+- **"Skip" is always fine** and never asked twice; "do it all" builds from the Brain without the questions.
+- The scheduled workflows never ask anything — they draw on the answers already saved.
+The picture for picture people: *a good interviewer who has read your book — she doesn't ask where you grew up,
+she asks what you'd tell that one agent sitting across from you.*
 
 ## 8. What the system deliberately does NOT do
 

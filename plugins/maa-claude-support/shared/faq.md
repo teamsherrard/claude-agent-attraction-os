@@ -193,24 +193,22 @@ can change from here, and nothing you did wrong:
 
 Say "escalate this" and we'll do the letter.
 
-**Q17a. How do I hook up live YouTube / Instagram data for the Weekly Content Performance report?**
-Two small steps, once — and neither happens during setup (setup never asks):
+**Q17a. How do I get my real YouTube and Instagram numbers into my reviews?**
+You never need to for the system to work — every review runs without them. When you want them, it is a short step
+you take on purpose, never part of a setup sitting:
 
-1. **Add the Composio connector in Claude (2 minutes):** Customize → Connectors → the **+** → **Add custom
-   connector** → name it **Composio**, paste **https://connect.composio.dev/mcp**, click **Connect**, approve
-   in the browser window that opens. Same clicks on the web, the desktop app, and Cowork.
-2. **Sign in when the report offers it:** say "how's my content doing" in the Short-Form plugin (Week 4), or "which videos brought me agents" in the YouTube plugin (Week 5).
-   The first time, it asks *"want me to hook into live data?"* — say yes, click the sign-in link it gives
-   you (YouTube; in Short-Form, Instagram too — a Business or Creator account), log in, come back and say
-   "done." A small "Allow" box may pop up before the first pull — click Allow.
+- **YouTube (Week 5):** open a new chat and say "connect my YouTube numbers". It shows you exactly where to click,
+  you sign in once, and it only ever reads (Q68)
+- **Short-form (Week 4):** say "how's my content doing". If your posting tool (Metricool) is connected it reads your
+  numbers from there. For live Instagram numbers it tells you once, inside that review, how to sign in (a Business
+  or Creator account). Skip it and it works from the numbers you add ("add my numbers")
+- **The connector, when it asks for it (two minutes):** Customize → Connectors → the **+** → **Add custom
+  connector** → name it **Composio**, paste **https://connect.composio.dev/mcp**, click **Connect** and approve in
+  the browser window that opens. Same clicks on the web, the desktop app and Cowork
 
-From then on it pulls their real numbers automatically. Said no, or skipped the connector? Nothing breaks —
-the report runs on a YouTube Studio screenshot (or Instagram insights screenshots) instead. (Exact
-wiring is confirmed when the Short-Form plugin ships in Week 3 — if it offers a different door, the
-plugin wins.) **"It never
-offered the sign-in"** almost always means step 1 wasn't done. Under 1,000 Instagram followers = Instagram
-holds back per-post numbers; screenshots cover it. It's read-only: it can never post, reply, or change
-anything.
+Good to know: under 1,000 Instagram followers, Instagram holds back per-post numbers, so screenshots cover it. It
+is read-only: it can never post, reply or change anything. Your scheduled workflows never use this connection on
+their own.
 
 ## The system
 
@@ -388,15 +386,16 @@ Yes — the system is brokerage-agnostic by design, and so is the method.
 
 Next step: upload your brokerage's materials with "build my brokerage model expert" (Week 2) so the system explains YOUR model.
 
-**Q35. How do I set up the "comment PARTNER" auto-DM? And where do the conversations go?**
+**Q35. How do I set up the comment-keyword auto-DM (ManyChat)? And where do the conversations go?**
 Two halves — a bonus asset you import, and your system that writes around it.
 
-- The **ManyChat Agent Attraction Sequences** (Week 3 bonus asset) are importable flow templates — PARTNER, GUIDE, SCALE, GROWTH, story reply, DM qualifier, event, follow-up — plus the copy bank and keyword sheet. They import into YOUR ManyChat account; ManyChat isn't a plugin and isn't a connector
-- Your Short-Form plugin's comment-to-DM skill writes the keyword into every Reel's caption and script, and the resource the DM hands over
-- Where conversations go: your CRM (GoHighLevel, Follow Up Boss, or a Google Sheet — whichever you set in your Brain), and anything real gets captured to your top 50 ("capture this")
-- Wire acting up? Test it like an agent: comment the keyword yourself, watch where it stops — that's the break; ManyChat-side problems go to ManyChat's support
+- **Two keywords, never more:** GUIDE sends your guide; your own invitation word (from your offer) opens the conversation about partnering with you. The older words — PARTNER, SCALE, GROWTH — are retired (Q52)
+- The **ManyChat Agent Attraction Sequences** (the Week 4 bonus asset) are importable flow templates for those two keywords, the story reply and the DM qualifier. They import into YOUR ManyChat account. ManyChat is required for the two keywords to answer themselves, the free plan starts you, and it is never connected to Claude
+- Your short-form setup writes your **ManyChat build sheet** (say "my ManyChat build sheet" any time) and puts one of the two words on every Reel
+- Where conversations go: anything real gets captured to your top 50 ("capture this")
+- Acting up? Test it like an agent: comment the keyword yourself and watch where it stops — that's the break; ManyChat-side problems go to ManyChat's support
 
-Next step: import the templates from the Week 3 Circle space, set your keyword, then say "set up my short-form engine." Still stuck → say "escalate this."
+Next step: import the templates from the Week 4 Circle space and follow your build sheet. Short-form not set up yet? Say "set up my attraction short-form." Still stuck → say "escalate this."
 
 **Q36. Mike said attraction "costs nothing but time" — but you're telling me I need a paid Claude plan. Which is it?**
 Both are true — they're about different wallets.
@@ -405,7 +404,7 @@ Both are true — they're about different wallets.
 - The Claude plan is the one subscription running your WHOLE system — Brain, offer, content, intel reports, debriefs — and you already have it for the cohort
 - Starting the content weeks adds no new cost; Riverside and ManyChat are bring-your-own with free tiers
 
-Next step: you're set — say "set up my short-form engine" when Week 3 opens.
+Next step: you're set — say "set up my attraction short-form" when Week 4 opens.
 
 **Q37. Mike said attraction is "a slower burn in the beginning" — so when does anything happen?**
 Straight from Mike (Attraction vs. Recruiting, Week 1): agents coming to you is slower at the start and exponential over time — that's the trade, and it's why the first weeks are Brain and positioning, not outreach.
@@ -516,7 +515,7 @@ picture:
 
 Next step: tell me which "team" you meant, and I'll take you down the right path.
 
-**Q43. Do the ManyChat sequences work on FREE ManyChat? (Week 3)**
+**Q43. Do the ManyChat sequences work on FREE ManyChat? (Week 4)**
 Start on the free plan — the templates are built so the keyword flow runs there.
 
 - **Comment keyword → DM → the button hands over the resource** (your guide, your lead magnet
@@ -530,7 +529,7 @@ Start on the free plan — the templates are built so the keyword flow runs ther
 - Hit the cap mid-month? That's success, not breakage — Pro becomes YOUR choice at that point,
   never a requirement; its price is on ManyChat's site, never from memory
 
-Next step: import the templates from the Week 3 Circle space, set your keyword, test it yourself,
+Next step: import the templates from the Week 4 Circle space, follow your build sheet, test it yourself,
 and say "help" if a block shows a PRO badge you're unsure about.
 
 ## The two-cohort and scheduled-agent questions (new to this OS)
@@ -743,8 +742,11 @@ review asks you for three screenshots from YouTube Studio instead. Your Monday a
 connection on their own.
 
 **Q69. Can I film several videos in one day?**
-Yes, and it is the easiest way to start. Say "script my first three videos": the three videos you film on your own
-are scripted in one sitting, and you get a one-page film-day sheet — camera at eye level, face a window, your script
+Yes, and it is the easiest way to start. Say "script my first three videos": it writes the three videos you film on
+your own, one at a time. A video you already answered a question about in your setup is written straight from your
+own words; for the others it asks you one question first ("if an agent asked you this over coffee, what would you
+say first?"). Say "write all three" if you would rather it wrote them in one go. You also get a one-page film-day
+sheet — camera at eye level, face a window, your script
 beside the lens, change your top between videos. Film all three on one day; each still goes out on its own week.
 After filming, one video at a time, say "make my attraction video: [title]" and your thumbnail sheet, your title and
 description and your publish checklist are added around the script. Interviews are not part of a batch: a guest is
@@ -776,3 +778,43 @@ just decided or did (that is the "✓" line), and each reply hands you one thing
 in your own words, a choice about your own content, or a two-minute action such as opening your plan. The sitting
 closes with "what you did today", your answers and decisions listed back to you, and names the first win you can
 have this week: a post that is already designed and only needs posting.
+
+**Q73. It stopped and says "Your turn." Is it stuck?**
+No — it is waiting for you. Your short-form and YouTube setups do one step, then stop until you answer. Read the last
+line: it is either a question for you (answer in a sentence or two — type it, or tap the microphone and talk), or "Say
+Yes and I'll…" (say Yes, or say what you would change). Came back after a break and not sure what it asked? Say
+"what's my question?" and it repeats only that. If the chat has grown long and slow, open a new chat and say the
+setup phrase again — it picks up at the same place and nothing is lost.
+
+**Q74. I skipped a question, or said "I don't know". Can I answer it later?**
+Yes. Skipping is always fine — it builds that part from your Brain and never asks twice. To put it in your own words
+later: for short-form say "update my pillars"; for YouTube say "refresh my attraction game plan". It asks the
+question you skipped, then rebuilds that one piece around your answer.
+
+**Q75. Where do my answers go? Can I see them?**
+Three places. On your Brain Board, with your pillars, under "In your words" (your YouTube answers sit with your
+channel). In your Game Plan, where each Reel or video built on an answer says "(your words)". And at the top of that
+Reel's or video's card on your content board. They are saved exactly as you said them.
+
+**Q76. I mentioned a person, another brokerage or a number in my answer. Will that be posted?**
+No. Your answer is saved privately, word for word, but a named brokerage or person and any income, split or earnings
+figure are left out of everything public — it tells you once when it does this. A guest you name for a YouTube video
+is kept as a first name and a candidate: nothing about them is published and nobody is contacted until you book them
+yourself ("book my agent interview").
+
+**Q77. I would rather it built everything without the questions. Can it?**
+Yes — say "do it all". It builds from your Brain, stops only for your Yes on the workflows card (and, in short-form,
+for which tool schedules your posts), and tells you which parts it filled in for you. Your own words are what make it
+sound like you and not like everyone else, so add them later whenever you like (Q74).
+
+**Q78. Can I change an answer, a pillar, my posting pace or my filming day?**
+Yes, any time. During setup, at "Does that sound like you?", say what to change — a pillar, how many posts a week
+(any number that is honest for you), your filming day, or an answer you would give differently — and it changes that
+and waits again. After setup: "update my pillars", "change my cadence" or "set my batch day" for short-form;
+"refresh my attraction game plan" or "change my YouTube cadence" for YouTube.
+
+**Q79. My setup behaves differently from the one a friend in the cohort described.**
+One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
+YouTube setups wait after every step and ask you four questions of your own. Update your plugins (Customize →
+Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
+is never run again unless you ask: "redo my short-form setup" or "redo my YouTube setup".

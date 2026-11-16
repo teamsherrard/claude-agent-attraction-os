@@ -26,8 +26,8 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | "the CEO review" / "my weekly review" | the Weekly Recruiting CEO Review (Week 6) — the member runs it, "run my CEO review"; not a scheduled agent | `admin-recruiting-scorecard` |
 | "the Objection Handling Coach" / "role-play" | randomized objection practice in Claude Voice (Week 5) | `cv-objection-coach` |
 | "the Value Vault" / "my digital product" / "the thing I give agents who join" | mapped in Week 2 (its mockup by `aa-offer-kit-design`), built in Week 6 (`aa-value-vault-design` — the ebook, the course, or the playbook, plus the partner onboarding roadmap) | the Design Studio skills, inside Claude Design |
-| "the Design Package" | logo · brand style sheet · profile graphics (Week 2) | `attraction-brand-direction` writes the brief → `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design` |
-| "the ManyChat keyword" / "comment PARTNER" | the bonus-asset sequences imported into THEIR ManyChat account; the keyword carries every Reel | `sf-comment-to-dm` + the Week 3 bonus asset; not a plugin feature |
+| "the Design Package" | logo · brand style sheet · profile graphics (Week 3) | `attraction-brand-direction` writes the brief → `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design` |
+| "the ManyChat keyword" / "comment GUIDE" (an older lesson may say "comment PARTNER" — that word is retired) | exactly TWO words: GUIDE sends the guide, the member's own invitation word (from their offer) opens the conversation; the bonus-asset sequences are imported into THEIR ManyChat account and one of the two words is on every Reel | `sf-comment-to-dm` ("my ManyChat build sheet") + the Week 4 bonus asset; ManyChat is never connected to Claude |
 | "the Thumbnail Employee" / "my AI clone" / "Higgsfield" | thumbnails: the member makes them in Higgsfield from the sheet `yt-thumbnail` writes (Week 5); the "employees" and the clone are not in this OS | `yt-thumbnail` · FAQ Q48, Q64; log the clone ask |
 | "the workbook / worksheet / the playbook page" | the Brain's interviews ask the same questions out loud | the matching skill · already filled in → `attraction-import` |
 | "Social Agent OS" / "SAO" / "the $10MM cohort" / "the realtor plugins" | Mike's OTHER cohort (realtor content system); members may be in both | `stack-map.md`'s two-Brains section; "set up my brain" belongs to it |
@@ -58,10 +58,10 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 ## Content (Weeks 3–4)
 - **"Attracting vs. chasing."** (`05-big-picture/35`) — chasing feels pushy, transactional, desperate and creates resistance; attraction builds trust before the first conversation so agents lean in. For the member stuck in outreach mode.
 - **"Become the leader agents seek out."** (`05-big-picture/35`) — "your presence pretty much gets the deal done" is the DESTINATION after years of consistency, told as Mike's story, never promised on a timeline.
-- **The five pillars: Authority · Perspective · Story · Proof · Personality.** Not every post is instructional (Week 3 doc). For "I only know how to post tips."
-- **"Speak to agent problems, not brokerage features."** (Week 3) — the content version of features-vs-benefits.
-- **Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation.** (Week 3) — what short form is FOR; for "my Reels get views but nothing happens."
-- **Escalating CTAs: Follow → Comment → DM → Resource → Conversation → Call**, with the ManyChat keyword carrying every Reel (Week 3).
+- **The five pillars: Authority · Perspective · Story · Proof · Personality.** Not every post is instructional (the Week 4 doc). For "I only know how to post tips."
+- **"Speak to agent problems, not brokerage features."** (Week 4) — the content version of features-vs-benefits.
+- **Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation.** (Week 4) — what short form is FOR; for "my Reels get views but nothing happens."
+- **Escalating CTAs: Follow → Comment → DM → Resource → Conversation → Call**, with one of the member's two keywords on every Reel (Week 4).
 - **"Reach content vs. trust content."** (Week 5) — short form gets you discovered; long form is where an agent decides. "20 to 100+ minutes consumed before a conversation ever happens."
 - **The 8-video cycle: 3 niche videos + 1 model breakdown + 4 interviews.** (Week 5) — the YouTube plan shape; interviews are content + proof + recognition + retention + recruiting at once.
 - **"Every video has a next step."** (Week 5) — YouTube → resource or community → conversation → Partner Call.

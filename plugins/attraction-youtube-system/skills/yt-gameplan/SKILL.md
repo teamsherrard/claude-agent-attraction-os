@@ -91,7 +91,8 @@ four questions (the owner, 2026-11-15: the sitting has to "feel almost like an i
 videos, the pace, the filming day — and waited ("it should WAIT for me"); this skill starts only on the member's Yes
 and builds on what they approved or changed there. **The member's answers lead the plan:** read `## In your words`
 first — **the first niche video** (video 1; on a new channel, the one right after the trailer) is the topic they
-said they could talk about for twenty minutes, and its script opens on their own first line; **the first guest slot** (Phase 4, Phase 8) is the person they named, top of the candidates, a
+said they could talk about for twenty minutes (its script opens on their own line when they gave one — at setup
+or at `yt-script`'s one question); **the first guest slot** (Phase 4, Phase 8) is the person they named, top of the candidates, a
 first name only; **the early story slot** (Phase 8 — where Why I Switched goes) is the story they chose; the pace
 and the filming day are theirs. `identity/content-pillars.md → ## In your words` (the Week 4 answers, read-only) is
 a source for the title bank: the question agents ask the member becomes a title in the agents' own words. In the

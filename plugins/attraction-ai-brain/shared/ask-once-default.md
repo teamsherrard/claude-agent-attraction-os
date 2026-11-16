@@ -119,7 +119,9 @@ written with the member in the chat:
   their content needs: what agents ask them, how they would say a thing out loud, the one step they would teach
   first, what they do off the clock, the day they can film, which opening sounds like them. Never an admin question.
 - **Never a re-ask.** What the Brain already holds is played back first, and the question asks for the next layer.
-- **One question a reply, numbered** ("Question 2 of 4"), answerable in a sentence or two, typed or spoken.
+- **One question a reply, numbered** ("Question 2 of 4"), answerable in a sentence or two, typed or spoken —
+  never the "2–4 related questions held together" that the handoff section above allows elsewhere, and no "anything
+  to add?" follow-up after the member picks something: their pick is used and the sitting moves on.
 - **Every answer is heard back and put to work where the member can see it:** the next reply quotes their own
   words and says what they became; the words are saved verbatim; whatever is built on them is marked "your words".
 - **"Skip" always works** — the Brain fills it, said in one line, never asked twice. At most one "say a little

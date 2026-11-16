@@ -2,6 +2,36 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.33.0] — 2026-11-15
+
+**The support plugin catches up with everything, and both interview sittings are hardened by two independent walk-throughs (Support 0.2.0 · Short-Form 0.7.3 · YouTube 0.7.2 · Brain 0.9.17 · Lead Magnet 0.12.13).**
+
+**MAA Claude Support 0.2.0 — a full pass against the plugins as they are today.** The owner asked for the agent-attraction support plugin to be updated for every change made so far. An audit of its 3,500 lines against the live skills found content that predated the last two weeks of changes, not only today's.
+- **The interview, the waiting and the win** are now explained everywhere a member might ask: the stack map's notes for Plugins 4 and 6 (the order of each sitting, how every reply is built, what it asks and never asks, the known modes), the week guide for Weeks 4 and 5, the doctrine page (a new section, "Why the content setups ask questions and wait", with the one-breath answer and the picture for picture people) and the plain-language table.
+- **A new troubleshooting tree, #13** — "my setup stopped, is asking me things, or did it all without me" — starting from the last line on the member's screen, and saying exactly which reports are the design working and which are defects to log.
+- **A new table, "What changed lately — and what a member will notice"**, so support can answer "why is it different now?" and "my friend's didn't do this" (an older version: update the plugin).
+- **FAQ:** seven new answers (Q73 "It stopped and says 'Your turn' — is it stuck?" · Q74 answering a skipped question later · Q75 where the answers go · Q76 a person, a brokerage or a number in an answer · Q77 "do it all" · Q78 changing an answer, a pillar, the pace or the filming day · Q79 "my setup is different from my friend's"), and four rewritten: Q17a (real numbers — "connect my YouTube numbers" and "how's my content doing", no weekly report that no longer exists), Q35 and Q43 (ManyChat: two keywords only, a Week 4 asset, the build sheet; the retired PARTNER / SCALE / GROWTH words are gone), Q36 and Q69 (the first batch writes one script a reply).
+- **Every command a member is told to say was checked against the real skills.** Dead phrases replaced: "set up my short-form engine" → "set up my attraction short-form" · "optimize my profiles for agents" → "confirm my attraction profiles" · "how is my attraction content doing" → "how's my content doing" · "build my interview pipeline" → "build my agent interview pipeline" · "model breakdown video" · "thumbnail brief". New rows for "script my first three videos", "my video is published", "connect my YouTube numbers", "update my pillars", "refresh my attraction game plan", "redo my short-form setup" and "redo my YouTube setup".
+- **Weeks corrected** to the map in force since 2026-11-14: short-form and the editor are Week 4 (several lines still said Week 3), YouTube is Week 5, Conversion & Sales and the AI Admin are Week 6, Events is Week 7; the vault's module-by-week summary; the scheduled-agent table (now with Batch Prep, the News Watch and the Calendar Refill).
+- **Other stale lines:** thumbnails are a sheet for Higgsfield, never "a Claude Design brief"; the posting tool, ManyChat and Notion are part of the program, not "optional by design"; task lines read `later` or `paused`, never `declined`; the scheduled-agent tree now names the right switch-on phrase for each workflow and says truthfully that a short note IS emailed to the member's own address when their mail is connected.
+
+**Short-Form 0.7.3 — the walk-through's remaining seventeen findings** (a fresh reader followed `sf-setup` reply by reply; 25 findings in all, eight fixed in 0.32.1).
+- **Any posting pace is now defined** (the one serious gap). A member who says "two posts a week" at "Does that sound like you?" was promised it, but only three and five were defined. Now: the six designed posts go out first and last ⌈6 ÷ pace⌉ weeks; the Reels then rotate one that teaches · one story · one that shows who they are; the member's answered Reels take the first Reel rows; and every line that said "your first two weeks" uses the computed number.
+- **Counts are true.** "Your own words in [n] of your five pillars" counts pillars (questions 1 to 3), never the filming-day answer, and matches the close; "You set your week" states the number the member chose, not the size of the calendar.
+- **Nothing is claimed that is not so:** no "six designed posts" for a member with no kit (five lines); no "your board is done" for a board waiting on Notion, now or on a later visit; no "you switched on" on a demo Brain or after a "not now"; an opening the member only picked is "your pick", never "your words".
+- **The consent card** answers a question or applies a change and asks again, instead of setting all four workflows aside for anything that is not a Yes. Its wording is plainer ("the page you read from while you film", "your filming day").
+- **Resume** names the question to answer ("we're on Question 3 of 4") and never calls a skip an answer; a held bio no longer bypasses the interview.
+- **The week is described in the pillar names the member was just shown**, not a second vocabulary. The Game Plan no longer repeats its own summary inside setup. "DM bank" is explained where it is first said.
+- "redo my short-form setup" is now a trigger phrase.
+
+**YouTube 0.7.2 — the first findings of its own walk-through** (still in progress).
+- **Each of the four questions now asks ONE thing.** Three of them asked two ("which topic — and what's the first thing you'd say?"). Now: which topic · who they would sit down with · which story · which day. What the member would say first is asked where it is used, before that video's script is written; anything they volunteer is saved and used.
+- A channel NAME on file with no link is played back and only the link is asked. A guide whose page is not live yet no longer leaves a placeholder link in a block the member pastes today. "Done" after pasting is recorded, so a later visit never tells them to paste again. Five pieces are left after the three, not six. House rule 12 now describes the interview. The 120-word guide applies to the short replies only. "redo my YouTube setup" is now a trigger phrase.
+
+**Shared.** `ask-once-default.md`: inside an interview there is one question a reply and no follow-up after a pick.
+
+**Not yet run live in Cowork.**
+
 ## [0.32.1] — 2026-11-15
 
 **The first findings of an independent walk-through of the short-form interview (Short-Form 0.7.2 · YouTube 0.7.1 · Brain 0.9.16 · Lead Magnet 0.12.12 · Support 0.1.30).** A fresh reader followed `sf-setup` reply by reply for the demo member. What it found in the first four replies, fixed:

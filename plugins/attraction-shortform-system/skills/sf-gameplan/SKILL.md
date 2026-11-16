@@ -229,7 +229,8 @@ above); a member who names a change gets it applied before anything is built. Th
 (the template's header lines kept and filled · the one-line anchors · the five sections headed exactly by the
 pillar names, three angles each · **`## In your words`, kept exactly as the interview wrote it** · `## Game Plan
 anchors` · `## Weekly mix` · `## Hooks bank`), **push, verify.**
-*"Saved — your pillars are in your Brain."* (Inside setup the header lines `Cadence` and `The two CTAs` line 2
+*"Saved — your pillars are in your Brain."* — **on demand only; inside setup this line is not said** (setup's
+proposal is the only thing the member reads here, and it ends on the stop line). (Inside setup the header lines `Cadence` and `The two CTAs` line 2
 fill at Phases 3 and 5 of this same run.)
 
 ## Phase 3 — The format mix and the weekly cadence (section 3 · 200+ words) — proposed; then the STOP
@@ -237,7 +238,16 @@ fill at Phases 3 and 5 of this same run.)
 its `Content:` line defers to this plan — never ask for hours the Brain holds) · `strategy.md` (`Constraints /
 capacity`, already open) · `operations.md` (`Filming window:`, already open).
 Propose, from those: **the number — three Reels a week is the default for the first month** (the owner, 2026-11-14: twenty posts at once overwhelms; Mike's own path is three to five, working up to five — `07-instagram/88`); five only when the member names it — the step to five is proposed by the Monthly Calendar Refill and the Monthly Deep Dive once a month at three has held, never here; honest capacity outranks ambition · **the mix** — *"one attraction · one authority · one story a week, stories every day"* at the default three
-(2 · 2 · 1 only at five) — the cohort's standard, not a lesson of Mike's: never attributed to him, and printed in plain
+(2 · 2 · 1 only at five; **any other number the member names — one, two or four a week — is theirs to choose, and
+this is its rule (the owner, 2026-11-15: the week is the member's call):** the six designed posts go out first, one
+per posting day, so they last ⌈6 ÷ the number⌉ weeks — six weeks at one a week, three at two, two at four with
+Reels filling the second week's spare days; after them the Reels rotate in turn — one that teaches (Authority or
+Perspective) → one story → one that shows who they are (Proof or Personality) — so every three Reels cover the
+three kinds whatever the pace; the Reels built on the member's own answers take the first Reel rows, in the order
+question · one step · off the clock, and any that do not fit this thirty-day window open the next one (the
+Monthly Calendar Refill reads the unused entries); the window holds the posting days the dates give, about the
+number × four; and every sentence that says how long the designed posts last uses the computed number — "your
+first three weeks are the six posts you already have designed" — never the fixed word "two") — the cohort's standard, not a lesson of Mike's: never attributed to him, and printed in plain
 words (the document never carries the label "the OS default"; attraction = Proof + Personality, authority = Authority
 + Perspective, story = Story — doctrine §9d; Mike's sample week — Monday value · Tuesday recognition · Wednesday
 leadership insight · Thursday culture or event recap · Friday personal or opinion — `07-instagram/90` — is the
@@ -257,7 +267,7 @@ alternate Saturdays; fitted to the filming window) · **the 15-minute routine** 
 comment with a question, answer every DM the same day, tag the agents featured so they reshare, one interactive
 story element, five real comments on agents' posts in the lane, never a negative one — an OS default built on
 `07-instagram/89` and `05-big-picture/36`).
-Proposed, in one line: *"Your week: three posts a week — your first two weeks are the six posts you already have designed; then one attraction, one authority and one story Reel a week, stories every day; filming on [day]s."* **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"**Does that sound like you?** Say **Yes** and I'll build your thirty-day plan on it — or tell me what to change: a pillar, how many posts a week, your filming day, or an answer you'd give differently. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
+Proposed, in one line: *"Your week: [three] posts a week — [your first [two] weeks are the six posts you already have designed; then] three kinds of Reel in turn: one that teaches (Authority or Perspective), one story, and one that shows who you are (Proof or Personality) — stories every day; filming on [day]s."* (the member hears the three kinds in the pillar names they were just shown — never "attraction" or "authority" as a kind; the clause about the six designed posts only when the kit's posts are on file; "[two]" computed from their number by the rule above) **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"**Does that sound like you?** Say **Yes** and I'll build your thirty-day plan on it — or tell me what to change: a pillar, how many posts a week, your filming day, or an answer you'd give differently. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
 mix:` · `Batch day(s):` to `publishing.md` (the source), mirror `Cadence` and `Platforms` into `content-pillars.md`'s
 header lines and `## Weekly mix`, and write the batch day and time to the single `Filming window:` line of
 `identity/operations.md` (this plugin's one write there, by the Brain contract's permission — the mirror of
@@ -451,10 +461,13 @@ their own phrases and are said in chat, not in this section.
    two parts, section 6 in the five member-facing columns, section 9 as the four lines in order —, the SOURCES band (every search and page read, dated; `starter` and `unresearched`
    rows counted; demo → "nothing searched"), the closing paragraph (consistency before cleverness — "be consistent,
    not complicated", `07-instagram/89`), the stamp per house rules #4 (byline and footer only).
-3. **Deliver in chat** — a warm summary, not the doc: *"Here's your Short-Form Game Plan — who you're talking to,
+3. **Deliver in chat — on demand only; inside setup nothing is said here** (`sf-setup` Step 3b's own hand-over
+   lines are the only ones the member reads — never the inventory twice, never the location twice) — a warm
+   summary, not the doc: *"Here's your Short-Form Game Plan — who you're talking to,
    your five pillars with real angles, [N] Reels a week on [batch day], thirty hooks, the two words that turn a
-   comment into a conversation, and your next thirty days with a date on every post — your six designed posts
-   first, so the first two weeks are post, don't make. It's in your workspace under Content → Short-Form."*
+   comment into a conversation, and your next thirty days with a date on every post[ — your six designed posts
+   first, so the first [two] weeks are post, don't make]. It's in your workspace under Content → Short-Form."*
+   (the bracket only with the kit's posts on file; "[two]" computed from the member's number)
 4. **Save** per the output standard: render through `shared/render_doc.py` and upload as
    **`[Name]'s Short-Form Game Plan — YYYY-MM-DD`** to `03 · Content/Short-Form/` (the bucket root, not the month
    folder; dated — newest is current; demo: `… — DEMO — YYYY-MM-DD`). **Keep the text** at

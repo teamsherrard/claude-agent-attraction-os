@@ -108,7 +108,9 @@ have their card from the Monday Week Plan or a workflow — find and leave them;
   OS name, exactly) · **Context** (**a row whose `Carries` cell holds `your words` opens with `• Your words: "[the member's own answer, from
   identity/content-pillars.md → ## In your words]"`** — the member sees their own sentence on their card (the owner,
   2026-11-15) — then `• Pillar: [name]` · `• For: [the agent type]` · `• Hook: [the hook, ≤ 12 words]`
-  · `• Rung: [the CTA rung + GUIDE or the offer's word]` — each bullet ≤ 12 words) · **Recording Date** (the batch
+  · `• Rung: [the CTA rung + GUIDE or the offer's word]` — each bullet ≤ 12 words, **except `• Your words`, which
+  keeps the member's sentence whole (one sentence — when their answer was a whole story, the one line the sitting
+  quoted back) and always comes first, above `• Pillar`**) · **Recording Date** (the batch
   day before the row's date, from `publishing.md → Batch day(s):`; none for a kit post) · **Publishing Date** (the
   row's date) · **Resource Assets** (the two asks from `content-pillars.md` — GUIDE and what it opens · the call
   line in the CTA law's shape) · **System ID** (the row's, verbatim) · Status `Idea` (`Ready to Post` for a kit post)
@@ -131,7 +133,8 @@ have their card from the Monday Week Plan or a workflow — find and leave them;
 
 ### The Pillar column (the shared spec's short-form options ARE the five OS pillars)
 Write the pillar name directly — `Authority · Perspective · Story · Proof · Personality` — exactly as the content-log
-row carries it, and repeat it as the first line of the card's Context (`• Pillar: Perspective`). One pillar per card.
+row carries it, and repeat it as the first line of the card's Context (`• Pillar: Perspective`) — the second line on a card that
+opens with `• Your words`. One pillar per card.
 The long-form cards use the member's five lane names (`yt-board` writes those); the board spec (byte-identical with the
 YouTube plugin's copy, never edited here) lists both sets.
 

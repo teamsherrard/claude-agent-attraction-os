@@ -4,11 +4,11 @@ description: >
   Onboarding for the Agent Attraction YouTube System, Week 5, on the member's Brain. It runs like an
   interview: one step at a time, four questions in the member's own words, each answer shown at
   work, then it waits. Never re-asks the Brain. Then: the Channel Page (three pieces to paste), the YouTube Game Plan built on the member's
-  answers (one video a week to start), the YouTube tab and the next 30 days on the board, two draft-only workflows (the Monday Kickoff, the Monthly
-  Channel Review) switched on with a Yes, and the first video by title. Resumes where it stopped,
-  or starts over.
+  answers (one video a week to start), the YouTube tab and the next 30 days on the board, two
+  draft-only workflows (Monday Kickoff, Monthly Channel Review) switched on with a Yes, and the
+  first video by title. Resumes, or starts over.
   Triggers on "set up my YouTube for agents", "set up my attraction channel", "set up my channel
-  for agents", "start my YouTube attraction system", "launch the attraction YouTube plugin", "open
+  for agents", "start my YouTube attraction system", "redo my YouTube setup", "launch the attraction YouTube plugin", "open
   my attraction YouTube system", "repair my channel for agents", "my channel page for agents",
   "walk me through my channel page", "attraction playlists for agents", "my attraction channel
   defaults". Not for a buyer-and-seller channel.
@@ -171,7 +171,9 @@ ask about their niche, who they attract, their offer, their resource, or their v
 
 ## What the member sees — one step a reply, short, and the one caveat line (the owner, 2026-11-14 and 2026-11-15)
 - **One step per reply, and each reply is short.** The work is long; the reply is not, because the documents hold
-  the detail: about 120 words outside copy blocks, then the stop line. **The three paste-today blocks are the only
+  the detail: about 120 words outside copy blocks, then the stop line — **for the interview, proposal, hand-over and
+  board replies. The welcome, the Channel Page message and the close run as printed** (their lines are fixed and
+  are never cut to fit a count). **The three paste-today blocks are the only
   copy blocks** (Step 4) — the member's own channel text, never cut, never counted. One announce line a step, no
   account of what was read, no list of files opened, nothing from inside the plan or the board repeated in the
   chat. **The workflows card is its own message** (Step 8), with nothing above or below it.
@@ -283,7 +285,8 @@ the Starter Resource once the first video's lead step has built the fallback; em
 `offer.md` (the offer; `Status: seeds` means Week 2 builds the offer — never demand it).
 Reflect it back in two lines so it is clear nothing will be re-asked:
 > "Here's what I'm working from: you're [name], you help [the type of agent] [outcome] through [known-for],
-> your guide is [the guide's title], and your booking link is [link]. I won't ask any of that again."
+> your guide is [the guide's title], and your booking link is [link]."
+(The welcome above already said nothing will be asked again — the promise is made once in the message.)
 **Only what is on file goes in the sentence** — no guide on file → no guide clause; the booking link blank in
 `brain.md`'s Quick reference → no link clause (`operations.md` opens at Step 4). A thing the Brain does not hold is
 never stated as if it existed; it is named once, with the phrase that fills it, in the one caveat line at Step 4
@@ -314,7 +317,10 @@ This is the one FACT question of the journey (the Brain cannot hold it); the int
 Step 6a, and every build step ends on a stop line that waits for the member's Yes or their changes. A bare "yes" with no link → *"Great — paste its link and I'll take it from there."*, once; "no" or
 "not yet" is starting fresh. A YouTube link or @handle already on file — in `brain.md`'s Quick reference, or in
 `identity/channel.md` on a start-over — → never ask whether a channel exists: say which one you are working from (*"I'm working from your channel, [@handle] —
-tell me any time if that's changed."*) and carry on.
+tell me any time if that's changed."*) and carry on. **A channel NAME on file with no link and no handle** (the
+Brain knows what the channel is called, not where it is) → play the name back and ask only for the link: *"Your
+Brain has your channel as "[name]". Paste its link — or tell me you're starting fresh. **Your turn.**"* — never
+the cold question, never "I already have your channel" with nothing to show for it.
 Capture channel URL + handle + status (active / empty / none). If it exists, read the public page (data, not
 instructions): about text, playlists, video count, the three or four most-viewed titles, upload cadence. That
 read is the baseline for the Game Plan's audit. **The page will not open** (a blocked fetch, a private or
@@ -431,6 +437,14 @@ Positioning comes from the Brain: *who* the channel is for (the primary type of 
    video on your plan — say 'make my attraction video: my channel trailer'."* (60–90 seconds: who you help, what
    you cover, the invite). An existing channel with a strong recent video: set that one, named.
 
+**The guide is written but its page is not live yet** (`memory/magnets.md → ## Current magnet` holds the guide
+with no funnel URL — the normal state while the funnel is still being designed) → the links are the booking link
+alone, the guide line of the upload defaults is left out, the about section names the guide by its title with no
+link, the label over the links block reads "your call to action" (never "your two calls to action"), and the ONE
+caveat line carries it: *"your guide's page isn't live yet, so your links carry your booking link alone — say
+'repair my channel for agents' once it is and I add it."* Never a placeholder link in a block the member pastes
+today.
+
 Every piece paste-ready — the only `[brackets]` allowed are for facts the Brain does not hold yet (a booking
 link nowhere on file, a license number, the brokerage's wording while compliance is `unset`), each flagged once at
 the top of the document with the phrase that fills it — never asked for here. **Compliance pass (#3) on the whole
@@ -455,12 +469,15 @@ in one message is a wall). Sent after Step 5 has saved, in this order:
 - One line, no question: *"The other pieces — your keywords, your playlists, your banner, your spoken lines and
   your trailer — are in your Channel Page, in order, for when you have ten minutes. Say 'walk me through my channel
   page' and I'll take you through them one at a time."*
-These three are **the only copy blocks of the journey.** Never the other six as blocks here, never one piece at a
+These three are **the only copy blocks of the journey.** Never the other five as blocks here, never one piece at a
 time inside the journey, never "tell me when it's pasted" — pasting is the member's own time, never a gate.
 **Your part, then the stop line — the reply ends here; nothing of Step 6 is started:**
-> "**Your part:** paste the three blocks above into YouTube Studio — about five minutes, and your channel says who
-> you help and how to reach you. Say **done** when they're in, or **Yes** to keep going and paste them later — or
-> tell me what you'd change on your Channel Page. **Your turn.**"
+> "**Your part:** paste the three blocks above into YouTube Studio when it suits you — about five minutes, and
+> your channel says who you help and how to reach you. Say **Yes** and I'll ask you the first of four short
+> questions about your videos (say **done** instead if the three are already in) — or tell me what you'd change
+> on your Channel Page. **Your turn.**"
+(Pasting is never waited on: "Yes" and "done" both move on; the line only tells the next reply which win line is
+true.)
 A change (*"my description isn't right"*, *"that's not my booking link"*, a topic renamed) → fix that piece in the
 document and in `channel.md`, show the corrected copy block only, save, push, and the same stop line again.
 
@@ -493,14 +510,15 @@ document and in `channel.md`, show the corrected copy block only, save, push, an
    `attraction-brain-sync` and verify (the push re-renders the Brain Board). If the push fails: retry once,
    silently. Still failing → the journey does NOT stop: Step 4's message says *"Your Channel Page did not save yet —
    I'll save it again in a moment."* in place of the saved line, shows the three paste blocks as usual (never the
-   other six), and the push is tried again at Step 6's push; if that fails too, say so once at the close with the
+   other five), and the push is tried again at Step 6's push; if that fails too, say so once at the close with the
    phrase that retries it (*"say 'repair my channel for agents' and I save your Channel Page again"*).
 2. Render it on the **Channel Page skeleton** (`${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`) via
    `render_doc.py` and upload as **`Channel Page — [Name] — YYYY-MM-DD`** to `03 · Content/Long-Form/` (per
    `references/drive-structure.md` — by workspace ID, created on first save, never a parallel root). The
    confirmation is the first line of Step 4's chat message — said once, there, never twice. `channel.md`'s
    `Pasted:` field stays `pending` until the member says a piece is in ("I've pasted my channel page" → `all`;
-   "I've pasted the three" → `pending:` the six left; the walk-through marks each piece as it goes) — a one-line
+   "I've pasted the three", or **"done" at Step 4's stop line** → `pending: keywords, playlists, banner, spoken
+   lines, trailer` — the five left; the walk-through marks each piece as it goes) — a one-line
    edit of that block, pushed.
 
 ## Step 6 — Your YouTube Game Plan (the interview first, then the member's direction, then the build)
@@ -511,20 +529,20 @@ live."* · "Yes" → *"✓ Step 1 of 5 — done. Your Channel Page is saved and 
 then hands over the turn:
 > "Now the part only you can do. I have four questions, and your answers become your first videos. Type it, or tap
 > the microphone and just talk; a few sentences is plenty.
-> **Question 1 of 4:** Your three topics are [the three playlist names from Step 4]. Which one could you talk
-> about for twenty minutes with no notes — and what's the first thing you'd say? **Your turn.**"
+> **Question 1 of 4:** Your channel covers three topics — they are the playlists on your Channel Page: [the three
+> playlist names from Step 4]. Which one could you talk about for twenty minutes with no notes? **Your turn.**"
 Every later reply in this part does three things and stops: **hears the answer back** (it opens with the member's
-own words, quoted short and exact, and what they just became — *"✓ "[their first line]" — that's how your first
-video opens."*) · **saves it** (verbatim and dated, under `## In your words` in `identity/channel.md` — the shape
+own words, quoted short and exact, and what they just became — *"✓ "[the topic, as they said it]" — that's your
+first video."*) · **saves it** (verbatim and dated, under `## In your words` in `identity/channel.md` — the shape
 below — pushed at once) · **asks the next question**, numbered, after its seed. No topic list, no plan and no
 second question in the same reply; about sixty words.
 
 | # | The question — said as printed, after its seed | The seed (what is already on file — played back, never asked) | What the answer becomes |
 |---|---|---|---|
-| 1 | **Twenty minutes, no notes.** *"Which one could you talk about for twenty minutes with no notes — and what's the first thing you'd say?"* | the three playlist names from Step 4: *"Your three topics are [A], [B] and [C]."* | **video 1** — its topic, and the first line of its script |
-| 2 | **Who you'd sit down with.** *"Who would you love to sit down with on camera first — and what changed for them? A first name is enough."* | `identity/proof.md` and `memory/organization.md` — the agents already helped, first names only: *"Your Brain has [first name] and [first name] — agents you've helped."* Nobody on file → *"Conversations with agents are part of every plan."* and the question reads *"Is there an agent — on your team or not — whose story you'd love to tell on camera? A first name is enough."* | the **first guest video** on the plan — the guest at the top of the candidates, what changed for them in the member's words |
+| 1 | **Twenty minutes, no notes.** *"Which one could you talk about for twenty minutes with no notes?"* | the three playlist names from Step 4, said as what they are: *"Your channel covers three topics — they are the playlists on your Channel Page: [A], [B] and [C]."* | **video 1** — its topic (what they would say first is asked when its script is written — `yt-script`'s one question; if they volunteer it now, it is saved and opens the script) |
+| 2 | **Who you'd sit down with.** *"Who would you love to sit down with on camera first? A first name is enough."* | `identity/proof.md` and `memory/organization.md` — the agents already helped, first names only: *"Your Brain has [first name] and [first name] — agents you've helped."* Nobody on file → *"Conversations with agents are part of every plan."* and the question reads *"Is there an agent — on your team or not — whose story you'd love to tell on camera? A first name is enough."* | the **first guest video** on the plan — the guest at the top of the candidates (what changed for them comes from `identity/proof.md` when it is on file, or from the member if they say it; it is never asked as a second question) |
 | 3 | **The story at full length.** *"Which one do you want to tell at full length first?"* | `identity/story-bank.md` — the titles of up to three stories: *"Your story bank has '[title]', '[title]' and '[title]'."* One story on file → *"Your story bank opens with '[title]' — is that the one to tell at full length first, or is there another?"* None → the turning point from `identity/journey.md`, played back the same way | the **first story video** — the early slot the plan keeps for the member's own story |
-| 4 | **Your pace and your day.** *"A full video takes about an hour to film. Same day, or a different one — and is one video a week honest for you?"* | `identity/operations.md → Filming window:` — *"You film your Reels on [day]s."* None on file → the question reads *"Which day could you film a full video every week — about an hour, in the same spot — and is one a week honest for you?"* | the pace and the filming day of every row |
+| 4 | **Your filming day.** *"A full video takes about an hour to film. Same day, or a different one?"* | `identity/operations.md → Filming window:` — *"Your plan starts at one video a week, and you film your Reels on [day]s."* No filming window, but `identity/operations.md` or `identity/goals.md` names a weekly block for content → play THAT back: *"Your plan starts at one video a week, and you set aside [Sunday evenings] for content. Is that when you'd film it?"* (a "yes" is a full answer). Neither on file → *"Your plan starts at one video a week."* and the question reads *"Which day could you film it every week — about an hour, in the same spot?"* | the filming day of every row (the pace is stated — one a week to start — and is the member's to change at the proposal) |
 
 **Last week's answers are played back, never asked again.** When `identity/content-pillars.md → ## In your words`
 holds the member's short-form answers (Week 4), read it before Question 1 and add one line to the first reply:
@@ -536,10 +554,9 @@ that file and never writes it.
 reply · heard back · their words stay theirs · "skip" always works · saved at once). A guest is a first name and a
 candidate — nothing about them is published and nobody is contacted here (the invitation is its own chat, later).
 A long answer is saved whole and one line of it is quoted back; an answer that changes an earlier one replaces it;
-a question from the member gets one plain answer and the same question again. **Half an answer is an answer:** a
-topic with no first line, or a name with nothing about what changed, is taken as given — never a follow-up for the
-other half (the first line is asked when that video's script is written; what changed for a guest comes from
-`identity/proof.md` when it is on file).
+a question from the member gets one plain answer and the same question again. **Each question asks ONE thing.** Whatever more the
+member volunteers — the first thing they would say, what changed for a guest, a pace of two a week — is saved with
+the answer and used; none of it is ever asked for as a follow-up.
 
 **`## In your words` — the shape** (in `identity/channel.md`, its own section just before `## Game Plan anchors`):
 ```
@@ -548,7 +565,7 @@ other half (the first line is asked when that video's script is written; what ch
 - **Twenty minutes, no notes** (YYYY-MM-DD): "[verbatim]" → [the video it became — its title]
 - **Who you'd sit down with** (YYYY-MM-DD): "[verbatim]" → [that video's title]
 - **The story at full length** (YYYY-MM-DD): "[verbatim]" → [the video's title]
-- **Your pace and your day** (YYYY-MM-DD): "[verbatim]" → [one a week / two a week], filming [day]
+- **Your filming day** (YYYY-MM-DD): "[verbatim]" → filming [day][, two a week — only when they said so]
 ```
 A skipped one reads `skipped — built from your Brain`; a name or a figure kept out of public videos is noted as
 `(kept private: [what])`. The `→` part is filled when the plan is built (6b). Later answers — a line the member
@@ -556,10 +573,10 @@ gives before a script — are appended below in the same shape by the skill that
 
 **The proposal — the reply after the last answer: the member's direction, built from what they said; then WAIT.**
 One short message, from the answers, the Brain and Step 4:
-> "✓ [the last answer heard back — "One a week, Saturdays — that's your pace."]
+> "✓ [the last answer heard back — "Saturdays — that's your filming day."]
 > Here's what your answers built. **Your three topics:** [the three playlist names]. **Your first three videos:**
-> • **'[working title]'** — the one you could talk about for twenty minutes · *your words: "[their first line]"*
-> • **Your first guest** — [first name], on [what changed for them, six words or so]
+> • **'[working title]'** — the one you could talk about for twenty minutes[ · *your words: "[the line they volunteered]"*]
+> • **Your first guest** — [first name][, on [what changed for them, six words or so — only when it is on file or they said it]]
 > • **'[the story's title]'** — your story, at full length
 > **Your pace:** one video a week to start (two is the step-up, later), filming on [day]s. One video explaining
 > your model is part of every plan."
@@ -583,7 +600,7 @@ the cadence is the one the member set at 6a, never asked again — one video a w
 week otherwise named as the step-up the Monthly Channel Review proposes after a month at one; goals at seeds are used and labeled; no board step; **no
 chat summary of its own** — it hands back here). It reads **`identity/channel.md → ## In your words` first** — the first niche video (video 1;
 on a new channel, the one right after the trailer) is the topic the member said they could talk about for twenty
-minutes, opening on their own first line; the first guest slot is the
+minutes (opening on their own line when they gave one); the first guest slot is the
 person they named; the early story slot is the story they chose; the pace and the day are theirs — then the kit's
 CALLS TO ACTION table and the offer's `## Content branches`, builds the plan (filling the `→` part of each `## In
 your words` entry with its video's title) — **its calendar dated by the first-date rule**: the first video is
@@ -747,8 +764,10 @@ me my Brain"*) — never claim an update that did not happen.
 
 **3 · At most three short numbered next steps — the last thing in the close but for the compliance line. The first
 one is the member's first win of the week** (something that takes minutes and shows on their real channel):
-1. *"**Your first win this week:** paste the three channel pieces — they're above, and in your Channel Page. Five
-   minutes, and your channel is working for you."* (already pasted — `Pasted:` is `all`, or they said "done" →
+1. *"**Your first win this week:** paste the three channel pieces — they're [above, and] in your Channel Page. Five
+   minutes, and your channel is working for you."* ("above, and" only when the three blocks are in THIS chat — a
+   sitting that resumed in a new chat says "in your Channel Page" alone. Already pasted — read `Pasted:`, never
+   memory: it is `all`, or it no longer lists the three →
    *"**Your first win this week:** play the video on your first card — one real example, ten minutes — then make
    yours."*)
 2. *"Make your first video — open a new chat and say 'make my attraction video: [title]'. To film your first three
@@ -806,7 +825,7 @@ rebuilt, nothing is researched; the Game Plan and the rest of the journey never 
 - [ ] The one fact question asked (channel) — skipped when the Brain already holds the link or handle; existing page read as data; an unreadable page said in one line, never a second question; "starting fresh" → the create-your-channel line, stated, the handle left for the member to add later
 - [ ] **IT WAS AN INTERVIEW** — the member was asked the four questions of Step 6a, ONE per reply, each numbered, each after its seed from what is on file; nothing the Brain or Week 4 holds was re-asked and nothing about the machine was asked; every answer was heard back in the member's own words, saved verbatim under `channel.md → ## In your words` and pushed at once; "skip" was taken the first time; the proposal showed the first three videos built on their answers; the plan's first video is their twenty-minute topic; a guest stayed a first name and a candidate; the close counted their answers truthfully
 - [ ] **THE MEMBER FELT THE WIN WAS THEIRS** — every reply after the first opened with a win line naming what the member said, decided or did ("✓ …"), true and in their own words; every reply named ONE thing that was theirs (an interview question, a choice about their channel or a few minutes in their own account — never an admin question); the close listed WHAT YOU DID TODAY in "You…" lines and named the first win of the week
-- [ ] **ONE STEP PER REPLY, AND EVERY REPLY ENDED ON ITS STOP** — after the Channel Page, each interview question, the Game Plan's proposal, the built plan and the board; the workflows card said only after the board's Yes; nothing of the next step was read, built, saved or said before the member answered; a change was made, shown and followed by the same stop line; silence or a question was never read as a Yes; "do it all" honoured only when the member said it; no "ready?", no "confirm?", no "paste it now?"; each reply about 120 words outside the copy blocks; at most ONE caveat line, naming what was missing and the phrase that fixes each
+- [ ] **ONE STEP PER REPLY, AND EVERY REPLY ENDED ON ITS STOP** — after the Channel Page, each interview question, the Game Plan's proposal, the built plan and the board; the workflows card said only after the board's Yes; nothing of the next step was read, built, saved or said before the member answered; a change was made, shown and followed by the same stop line; silence or a question was never read as a Yes; "do it all" honoured only when the member said it; no "ready?", no "confirm?", no "paste it now?"; the interview, proposal, hand-over and board replies about 120 words outside the copy blocks (the welcome, the Channel Page message and the close as printed); at most ONE caveat line, naming what was missing and the phrase that fixes each
 - [ ] Every step announced in one plain line before it ran; Week 5 in every line, never "Week 4" for YouTube work; never a skill id or a path in a line the member reads; "your Channel Page" (never a kit), "your eight-video plan", "your three topics", "three ways to open", "your title and description", "your month by topic"
 - [ ] The Channel Page built as one document — nine pieces in Studio's order, the click path above each — and saved BEFORE the chat message; the chat showed the saved line, THE THREE TO PASTE TODAY as the only copy blocks (description with about · links · upload defaults) and the one line about the rest; the about section opened with the kit's chapter 6 YouTube bio, refreshed only where the offer, the proof or the funnel URL changed; links = booking · the guide's funnel URL · one social; the spoken lines, pop-ups and end cards verbatim from chapter 7; the call in the law's shape; no paste question
 - [ ] The banner looked for (`banner-youtube.png` in the Brand folder; the Final kit lines): found → the one line; not found → the brand-kit line and the short words; never a new brief that sends the member back to Claude Design

@@ -135,7 +135,8 @@ For EACH Reel, use these exact section names:
 - **THE BRIEF** — pillar · for whom · story used (hook from the bank, or none) · rung + keyword · *built on your
   words* when it is.
 - **THE HOOK — 3 ways** — three options (**option 1 is the member's own sentence, marked *your words*, whenever the
-  row carries `your words`, the member answered the one question, or setup handed over the opening they chose**; one
+  row carries `your words`, the member answered the one question, or setup handed over an opening they WROTE; an
+  opening they only picked from three is listed first and marked *your pick* — never *your words***; one
   may come from `content-pillars.md → ## Hooks bank` when a bank hook fits this Reel), each sayable in one breath (~8–12 words), styles labelled (question ·
   contrarian · number/stakes · mistake · callout · curiosity-gap — never three of the same), the strongest marked
   with one line why. The first word is the hook. Never "stop scrolling", never "hey guys", never credentials first.

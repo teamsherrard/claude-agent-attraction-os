@@ -144,7 +144,7 @@ never guide click-paths from memory).
 | File uploads | https://support.claude.com/en/articles/8241126 |
 | Projects in Cowork | https://support.claude.com/en/articles/14116274 |
 | Scheduled tasks in Cowork (the Debrief, the Monday week plan, every scheduled agent) | https://support.claude.com/en/articles/13854387 |
-| Voice mode (also the objection role-play surface for Week 5) | https://support.claude.com/en/articles/11101966 |
+| Voice mode (how many members answer their setup questions out loud; also the objection role-play surface of Week 6) | https://support.claude.com/en/articles/11101966 |
 
 ### Privacy & trust (answer with the page open, never paraphrase policy from memory)
 | Topic | URL |
