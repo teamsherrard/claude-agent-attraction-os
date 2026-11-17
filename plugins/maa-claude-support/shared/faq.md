@@ -817,8 +817,8 @@ and waits again. After setup: "update my pillars", "change my cadence" or "set m
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
 YouTube setups wait after every step and ask only a question or two — the same for every member (short-form: your
 filming day; YouTube: your topic and your filming day), always in plain chat. (For a few days they asked four, and
-short-form then asked what you do off the clock; if yours says "Question 1 of 4", asks about "off the clock" or
-shows a pop-up with choices to tap, it is an older version.) Update your plugins (Customize →
+short-form then asked what you do off the clock; if yours says "Question 1 of 4" or asks about "off the clock", it is an older
+version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
 is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.
 

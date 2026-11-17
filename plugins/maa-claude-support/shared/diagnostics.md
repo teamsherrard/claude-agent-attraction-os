@@ -316,9 +316,8 @@ working. Cheapest check first.
      chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
 2. **"It's asking me questions — I thought it knew me."** A question or two is by design (FAQ Q71), word for
    word the same for every member. Short-form, one: *"Which day could you film every week — and where?"* — a member
-   asked *"What do you do off the clock…"*, shown a question on a card with choices to tap, or shown a line like
-   "Builds the thirty-day plan and the ManyChat build sheet" is on a version before 0.9.0: update the plugin, new
-   chat, "continue my attraction short-form". YouTube, two: *"Which of your three topics
+   asked *"What do you do off the clock…"* is on a version before 0.9.0: update the plugin, new chat, "continue my
+   attraction short-form". YouTube, two: *"Which of your three topics
    could you talk about for twenty minutes with no notes?"* and *"Which day could you film a full video every
    week?"* Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
    opens). **Anything else is wrong:**

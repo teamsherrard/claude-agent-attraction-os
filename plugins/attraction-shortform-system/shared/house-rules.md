@@ -53,12 +53,11 @@ assistant — never the machinery. **Vocabulary:** "the member" is the person we
   and what is built on the member's own words says "your words"; "skip" always works and is never asked twice. No
   skill asks a question before writing a script — the member's own wording is always welcome, never required. **A
   scheduled run never asks.**
-- **PLAIN CHAT ONLY — never a question card, a form or buttons (the owner, 2026-11-17).** A question, a stop line
+- **PLAIN CHAT ONLY — never a question card, a form or buttons (it follows from "told, not asked" — no menus).** A question, a stop line
   and a pick are sentences in the reply; the member answers by typing or speaking. No skill of this plugin puts
   one into a question card, a pop-up, buttons, chips or a multiple-choice box, or calls a question tool
-  (`AskUserQuestion` or anything like it): a card needs options, and an option or a description made up to fill
-  it (*"Builds the thirty-day plan and the ManyChat build sheet"* — the owner: "what is this?") is a line nobody
-  wrote and no member can answer. The only cards are the tools' own Connect cards.
+  (`AskUserQuestion` or anything like it): a card needs options, and an option made up to fill it is a
+  line nobody wrote and no member can answer. The only cards are the tools' own Connect cards.
 - **ONE STEP, THEN WAIT (the owner, 2026-11-15 — it wins over every older "no stop" line).** The owner launched the
   Week 4 sitting, walked away, and came back to everything built: *"it ends up doing the entire work for me rather
   than waiting for me to give direction or feedback or answers… it should WAIT for me."* So a sitting of several
@@ -309,7 +308,7 @@ reply by hand from your DM bank."* **The steps are written only when the member 
 `sf-comment-to-dm` then writes the **ManyChat Build Sheet** (`YYYY-MM-DD · ManyChat Build Sheet`; its text in
 `exports/manychat-build-sheet-YYYY-MM-DD.txt`) — the two keywords and the story reply, each with its trigger, messages,
 button text and tag. **The setup sitting never builds it, never hands it over and never says the words "build
-sheet"** (the owner, 2026-11-17, shown it in a live run: "what is this? I don't think we need this"). The plugin never says "connected", never builds an automation, never sends a DM; the
+sheet"** (the owner, 2026-11-17, reading the Game Plan step: "what is this? I don't think we need this"). The plugin never says "connected", never builds an automation, never sends a DM; the
 `ManyChat:` line in `publishing.md` reads `set up YYYY-MM-DD` · `not yet — set it up this week (build sheet YYYY-MM-DD)`.
 
 ---

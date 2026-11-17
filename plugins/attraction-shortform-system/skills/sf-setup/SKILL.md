@@ -94,8 +94,8 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   group that are first-time agent attractors, and they've never attracted an agent in their life. What would the
   question be in their situation? We need to make sure that they're blanket questions and the questions are the
   same across the board. Also, we don't really need more questions because they've already gone through a lot of
-  this when they were building their AI brain."* The next run asked *"What do you do off the clock that the people
-  around you know you for?"* The owner: *"makes no sense remove it."* So:
+  this when they were building their AI brain."* The two-question version that followed asked *"What do you do off the
+  clock that the people around you know you for?"* The owner, reading it on 2026-11-17: *"makes no sense remove it."* So:
   - **The sitting asks exactly ONE question — the filming day — printed in Step 3a, word for word the same for
     every member.** Never reworded for a member, never a personal line built into it, never a second question.
     **The "off the clock" question is deleted: it is never asked, in any wording, here or in any skill of this
@@ -116,12 +116,12 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
     answer are left out of everything public, said once.
   - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll take that from your Brain."*; saved as
     skipped, never asked twice, never a guilt line.
-- **PLAIN CHAT ONLY — NEVER A QUESTION CARD, A FORM OR BUTTONS (the owner, 2026-11-17).** The one question, every
+- **PLAIN CHAT ONLY — NEVER A QUESTION CARD, A FORM OR BUTTONS (it follows from "told, not asked" — no menus).** The one question, every
   stop line and the opening pick are sentences in the reply; the member answers by typing or speaking. Never put
   any of them into a question card, a pop-up, buttons, chips or a multiple-choice box, and never call a question
-  tool (`AskUserQuestion` or anything like it) in this sitting: a card needs options, and an option or a
-  description made up on the spot to fill it — the owner was shown *"Builds the thirty-day plan and the ManyChat
-  build sheet"* and asked "what is this?" — is a line nobody wrote and no member can answer. No task list or
+  tool (`AskUserQuestion` or anything like it) in this sitting: a card needs options, and an option made up on
+  the spot to fill it is a line nobody wrote and no member can answer — and a menu is exactly what "told, not
+  asked" rules out (the owner, 2026-11-14: "all that the student has to say is 'Yes'"). No task list or
   progress panel of this sitting's own either; if the app shows one, its lines are the five step names from the
   welcome, word for word, with nothing added. The only cards in this sitting are the tools' own Connect cards
   (Notion, Metricool).
@@ -155,8 +155,8 @@ Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
   otherwise off; the link in bio is the guide's funnel URL (one link) or the link-in-bio tool the Brain's bios already
   name. All stated, in one line each.
 - **ManyChat is told in one line, never asked, never connected to Claude — and NO build sheet is made in this
-  sitting (the owner, 2026-11-17, shown "the ManyChat build sheet" in a live run: "what is this? I don't think we
-  need this").** The Game Plan's keyword part and the close's next steps each carry one plain line: set ManyChat up
+  sitting (the owner, 2026-11-17, reading this step described as "Builds the thirty-day plan and the ManyChat
+  build sheet": "what is this? I don't think we need this").** The Game Plan's keyword part and the close's next steps each carry one plain line: set ManyChat up
   this week, in your own account; "set up my ManyChat" writes out the steps when the member wants them. Nothing
   else about ManyChat is built, saved or handed over here, and the words "build sheet" are never said to the
   member. Nothing needs its connector or a paid plan for it; until it is live they reply by hand from the

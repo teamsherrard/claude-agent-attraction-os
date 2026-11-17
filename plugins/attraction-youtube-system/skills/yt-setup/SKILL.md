@@ -156,7 +156,7 @@ ask about their niche, who they attract, their offer, their resource, or their v
   - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll take that from your Brain."*; saved as
     skipped, never asked twice, never a guilt line.
   - (To the member the sitting is never called an interview — in this plugin that word means a video with a guest.)
-- **PLAIN CHAT ONLY — NEVER A QUESTION CARD, A FORM OR BUTTONS (the owner, 2026-11-17).** The two questions, every
+- **PLAIN CHAT ONLY — NEVER A QUESTION CARD, A FORM OR BUTTONS (it follows from "told, not asked" — no menus).** The two questions, every
   stop line and every pick are sentences in the reply; the member answers by typing or speaking. Never put one into
   a question card, a pop-up, buttons, chips or a multiple-choice box, and never call a question tool
   (`AskUserQuestion` or anything like it) in this sitting: a card needs options, and an option or a description

@@ -2,13 +2,20 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.36.1] — 2026-11-17
+
+**A correction to 0.36.0's own wording — the behaviour is unchanged (Short-Form 0.9.1 · YouTube 0.8.4 · Support 0.2.6).** 0.36.0 said the owner had been shown a made-up line on a question card in a live run. That was wrong: the owner was reading the Member Journey Map, where the Week 4 Game Plan step was described as "Builds the thirty-day plan and the ManyChat build sheet". The sitting still asks one question, in plain chat, and makes no ManyChat build sheet. What changed:
+- The setup skill and the house rules no longer cite an incident that did not happen; the plain-chat rule is attributed to "told, not asked" (no menus), in the short-form and the YouTube setups.
+- The support plugin no longer tells a member that a pop-up with choices, or that line, means an older version. A question about "off the clock" is the one true sign.
+- In the sitting the plan has one name, **Game Plan** ("say Yes and I'll build your Game Plan on it — your next thirty days of posts").
+
 ## [0.36.0] — 2026-11-17
 
-**One question, in plain chat: the "off the clock" question is gone, and so is the ManyChat build sheet from the Week 4 sitting (Short-Form 0.9.0 · YouTube 0.8.3 · Support 0.2.5 · Brain 0.9.20 · Lead Magnet 0.12.16).** The owner ran the short-form sitting again. It asked *"What do you do off the clock that the people around you know you for?"* — "makes no sense remove it" — and showed a line nobody wrote, *"Builds the thirty-day plan and the ManyChat build sheet"* — "what is this? I don't think we need this."
+**One question, in plain chat: the "off the clock" question is gone, and so is the ManyChat build sheet from the Week 4 sitting (Short-Form 0.9.0 · YouTube 0.8.3 · Support 0.2.5 · Brain 0.9.20 · Lead Magnet 0.12.16).** The owner read the Week 4 sitting through. Its first question, *"What do you do off the clock that the people around you know you for?"* — "makes no sense remove it" — and the Game Plan step, described as *"Builds the thirty-day plan and the ManyChat build sheet"* — "what is this? I don't think we need this." (Corrected in 0.36.1: this entry first said the owner had seen that line on a question card in a live run. They had read it on the Member Journey Map.)
 
 **Short-Form 0.9.0**
 - **The sitting asks ONE question — the filming day.** *"Which day could you film every week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?"* The "off the clock" question is deleted from the setup, the Game Plan and the house rules: no skill asks it, in any wording, and none asks who the member is, what they like or what they are known for. The Personality pillar is built from the Brain (life outside real estate, the "before real estate" line, the story bank) and read back with the other four for a Yes or a change; where the Brain holds little it is labelled a first draft. An answer a member already gave to an earlier version is kept and still used, and is never asked for again.
-- **Plain chat only.** The question, every "Say Yes" line and the opening pick are sentences in the reply — never a question card, a pop-up, buttons or a multiple-choice box, and never a question tool. The line the owner was shown is not in the plugin: it was made up on the spot to fill a card. The sitting keeps no task list of its own either.
+- **Plain chat only.** The question, every "Say Yes" line and the opening pick are sentences in the reply — never a question card, a pop-up, buttons or a multiple-choice box, and never a question tool. A menu is what "told, not asked" rules out, and a card needs options. The sitting keeps no task list of its own either.
 - **No ManyChat build sheet in the sitting.** It is no longer written or handed over after the Game Plan, and the words "build sheet" are no longer said to the member. ManyChat is one plain line in the plan and in the close — set it up this week — and "set up my ManyChat" writes out the steps when the member asks.
 - **The first Reel is the one that teaches the member's own method** (it was the Reel built on the off-the-clock answer).
 - The welcome ("just one new question — which day you can film"), the resume lines, the close ("You chose your filming day…") and the completion checklist all say one question.
@@ -17,7 +24,7 @@ All notable changes to the Agent Attraction OS marketplace. Versions are per plu
 
 **The shared ask-once rule** (word for word in four plugins — the reason the Brain and the Lead Magnet plugin carry a new number): the content sittings ask only blanket questions, one in Week 4 and two in Week 5, in plain chat.
 
-**Support 0.2.5.** The stack map, a new row in "What changed lately", the FAQ (the setup questions and the ManyChat answers), tree #13, the doctrine and the cohort notes: one question for short-form; "off the clock", a pop-up with choices and the build-sheet line are signs of an older version; "set up my ManyChat" is the phrase for the ManyChat steps.
+**Support 0.2.5.** The stack map, a new row in "What changed lately", the FAQ (the setup questions and the ManyChat answers), tree #13, the doctrine and the cohort notes: one question for short-form; a question about "off the clock" is the sign of an older version; "set up my ManyChat" is the phrase for the ManyChat steps.
 
 **Docs.** The setup guide and the short-form demo checklist.
 
