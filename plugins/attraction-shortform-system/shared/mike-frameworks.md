@@ -179,13 +179,14 @@ ends on exactly **one** rung, named out loud and repeated in the caption.
   one-pager and the invitation to talk). Confirmed in one line at setup's keyword step, saved in
   `identity/publishing.md → Keyword:` as `GUIDE · [the offer's word]`, said on camera and written as the caption's
   last line. Every other default keyword is retired (house rules #12). With ManyChat set up in the member's OWN
-  account (ManyChat has no connector in Cowork — `sf-comment-to-dm` writes the ManyChat Build Sheet, the member
-  clicks) the two words trigger their sequences (Mike's template, installed in their account and keyed to the two
+  account (ManyChat has no connector in Cowork — `sf-comment-to-dm` writes out the steps when the member says "set up my
+  ManyChat", the member clicks) the two words trigger their sequences (Mike's template, installed in their account and keyed to the two
   words, plus the story reply and the DM qualifier). Until ManyChat is live the keywords still work: the member replies
   by hand with the DM bank, the Keyword Follow-up Queue drafts the next DM, and once the AI Admin is installed (a later
   week) its Daily Follow-Up Queue surfaces the comments. **ManyChat is part of the program (the owner, 2026-11-14) —
-  set up this week in the member's own account from the build sheet, never connected to Claude, never "optional",
-  never asked about; the keyword carries every Reel.**
+  set up this week in the member's own account, never connected to Claude, never "optional", never asked about; the
+  steps are written only when the member asks ("set up my ManyChat") and never inside the setup sitting (the owner,
+  2026-11-17); the keyword carries every Reel.**
 - **Never skip rungs.** A Reel never jumps from a first-time viewer to "book a call" — the call comes after a
   conversation (`02-prospect-targeting/19`: get them on a private call as quickly as possible, but say as little
   as you have to in text and never explain the model by DM).
@@ -381,7 +382,7 @@ scrolling"; a pitch before value.
 - **The "one attraction · one authority · one story at three a week (2 · 2 · 1 at five)" mix** is named in the cohort doc without definitions; §9d states
   the OS's reading. Confirm with Mike.
 - **The ManyChat keyword mechanics and the sequence copy** are Mike's bonus asset, exported from his account;
-  this plugin names the two keywords (GUIDE · the offer's word), writes the CTA lines and the ManyChat Build Sheet the
+  this plugin names the two keywords (GUIDE · the offer's word), writes the CTA lines and, when the member asks ("set up my ManyChat"), the steps the
   member follows in their own account — it never runs ManyChat (no connector in Cowork).
 - **The Story Prompt Deck and the Hook Bank** are listed as new cohort assets (not yet written by Mike); this
   plugin authors the deck from `07/89–90` and the hook bank from `07/88` and the workshop's green-screen lines.

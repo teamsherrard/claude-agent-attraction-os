@@ -67,8 +67,8 @@ and logs as written below. To the member it is "when that plugin is installed", 
 - **E · SET UP MY MANYCHAT** — "set up my ManyChat", "my ManyChat build sheet", "my ManyChat copy", "keyword
   automation": the ManyChat Build Sheet the member follows in their own account (Step 3b). ManyChat is part of the
   program (the owner, 2026-11-14): set up this week, never connected to Claude — nothing here needs its connector or a
-  paid plan for it; until it is live the member replies by hand from the DM bank. Setup runs this job right after the
-  Game Plan and hands the sheet over in one line.
+  paid plan for it; until it is live the member replies by hand from the DM bank. **This job runs only when
+  the member asks for it — never inside the setup sitting (the owner, 2026-11-17).**
 
 The daily engagement routine — fifteen minutes, same time every day — is the Game Plan's text (section 3) and the
 weekly routine planner's checklist, never a scheduled list of agents (the owner, 2026-11-14). "Who should I engage
@@ -164,7 +164,7 @@ The reply:  thank · answer in one line · one question back; GUIDE → the Deli
 
 ———————————————————————————————
 Exactly these — two words and the story reply — trigger a DM; nothing else.
-MANYCHAT:  [set up YYYY-MM-DD · not yet — set it up this week; say 'my ManyChat build sheet' for the steps]     THE STAMP:  [from compliance.md]
+MANYCHAT:  [set up YYYY-MM-DD · not yet — set it up this week; say 'set up my ManyChat' for the steps]     THE STAMP:  [from compliance.md]
 ```
 Kept at `~/attraction-brain/exports/keyword-sheet-YYYY-MM-DD.txt` (the Brain Board reads the two words and their
 lines from it), then pushed.
@@ -255,9 +255,8 @@ Deliver in chat as the numbered sheet; save it beside the keyword sheet as `YYYY
 `~/attraction-brain/exports/manychat-build-sheet-YYYY-MM-DD.txt`. **The `ManyChat:` line of `identity/publishing.md`
 is this skill's** (the contract grants it): when the sheet is written → `ManyChat: not yet — set it up this week
 (build sheet YYYY-MM-DD)`; when the member says it is live ("ManyChat's set up", "I did the ManyChat") → `ManyChat:
-set up YYYY-MM-DD`; there is no opt-out value — ManyChat is part of the program. Push (**attraction-brain-sync**). Inside
-setup this job runs right after the Game Plan; setup says the hand-over line and "my ManyChat build sheet" prints the
-sheet any time. Compliance (Step 4) applies: every message in the sheet is public-facing — at `unset` the sheet waits
+set up YYYY-MM-DD`; there is no opt-out value — ManyChat is part of the program. Push (**attraction-brain-sync**). This job
+never runs inside setup (the owner, 2026-11-17) — the member asks for it: "set up my ManyChat". Compliance (Step 4) applies: every message in the sheet is public-facing — at `unset` the sheet waits
 for the gate and the line still reads `not yet — set it up this week`.
 
 ## Step 4 — Compliance (three-state, before anything is delivered)

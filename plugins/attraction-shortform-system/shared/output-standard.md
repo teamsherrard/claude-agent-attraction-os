@@ -230,7 +230,7 @@ The ladder: Follow / save / share → Comment → DM → Resource → Conversati
 What each kind of post asks for: Authority — "Comment GUIDE" · Perspective — a follow, a save or a share (or "Comment GUIDE") · Story — "Comment GUIDE" or the invitation · Proof — the invitation or "Comment GUIDE" · Personality — "Follow"
 The rule: "Comment GUIDE" is the ask on most posts. The invitation — "Comment [WORD]", or your call line — is the ask on about one post in four, most naturally a proof post or a "what you get" post. Never two asks on one post. Your six designed posts keep exactly the asks printed on them.
 The two keywords: GUIDE → the guide · [the offer's word] → the one-pager and the invitation   ·   the full keyword sheet: "my keyword sheet"
-ManyChat: ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links — your build sheet walks you through it step by step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live, reply by hand from your DM bank.   ·   the steps: "my ManyChat build sheet"
+ManyChat: ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live, reply by hand from your DM bank.   ·   the steps: "set up my ManyChat"
 
 ———————————————————————————————
 6. THE 30-DAY CALENDAR   ([date] → [date])
@@ -260,7 +260,7 @@ I'll email you a short note at your own address when something's ready.   [or: N
 1. Post your six designed posts on their dates.
 2. Film on your batch day, [day].
 3. When it's filmed, open a new chat and say "edit my reel".
-4. Set up ManyChat from your build sheet — say "my ManyChat build sheet" and I'll print it.
+4. Set up ManyChat this week — say "set up my ManyChat" and I'll write out the steps.
 [then, one line each and only where it applies: compliance not set · ideas built without a fresh search]
 
 ———————————————————————————————
@@ -424,7 +424,7 @@ KEYWORD SHEET + DM BANK
 THE TWO KEYWORDS   (one page — never a third word)
 GUIDE → the guide, instantly (the DM with the download link) · said on camera at the end · the caption's last line · pinned as the first comment
 [THE OFFER'S WORD] → the one-pager and the invitation to talk (the call link) · the invitation word, on about one post in four — most naturally a Proof piece or a "what you get" piece
-ManyChat: [set up YYYY-MM-DD — Mike's template installed, the build sheet followed / not yet — set it up this week; replying by hand from the DM bank until it's live] — the member's own account; you don't connect ManyChat to Claude
+ManyChat: [set up YYYY-MM-DD — Mike's template installed / not yet — set it up this week; replying by hand from the DM bank until it's live] — the member's own account; you don't connect ManyChat to Claude
 
 ———————————————————————————————
 THE CTA BANK   (fifteen lines, three per pillar, each on its rung)
@@ -449,8 +449,8 @@ COMPLIANCE
 
 **ManyChat Build Sheet** (`sf-comment-to-dm` — `YYYY-MM-DD · ManyChat Build Sheet`; the member follows it in their OWN
 ManyChat account this week after installing Mike's template — ManyChat is part of the program and is never connected
-to Claude: the plugin writes the sheet and never claims to run it, never says "connected", never "optional"; setup
-hands it over inside its Game Plan step and "my ManyChat build sheet" prints it any time) — floor: the owner's opening
+to Claude: the plugin writes the sheet and never claims to run it, never says "connected", never "optional"; written only when the member asks — "set up my ManyChat" — and never
+inside the setup sitting: the owner, 2026-11-17) — floor: the owner's opening
 line, the two keywords and the story reply, each with trigger · message 1 · button text · message 2 · the tag · the human
 follow-up; ~400–700 words. **Its text is also kept at `~/attraction-brain/exports/manychat-build-sheet-YYYY-MM-DD.txt`**,
 then pushed.

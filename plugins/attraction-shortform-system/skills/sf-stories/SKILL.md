@@ -126,7 +126,7 @@ thing I'd change"*), a vote (*"Vote, then reply and tell me why."*). Never a thi
 viewer answers by replying. If `publishing.md` says `ManyChat: set up` → GUIDE triggers the **story-reply**
 sequence (Mike's bonus asset, imported into the member's own account — never connected to Claude) and the offer's
 word opens the invitation; write the CTA around those. `not yet — set it up this week` → the member replies by hand
-from the DM bank within the day (say so once, with *"your build sheet has the steps — 'my ManyChat build sheet'"*);
+from the DM bank within the day (say so once, with *"say 'set up my ManyChat' and I'll write out the steps"*);
 once the AI Admin is installed (a later week) its follow-up queue surfaces replies. A reply that turns into a real conversation is
 handed to `sf-comment-to-dm` — the one short-form skill that logs a conversation row (through `attraction-capture`
 when present) until the Conversion and Admin plugins exist; this skill never logs one.

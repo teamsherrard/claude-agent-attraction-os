@@ -391,11 +391,11 @@ Two halves — a bonus asset you import, and your system that writes around it.
 
 - **Two keywords, never more:** GUIDE sends your guide; your own invitation word (from your offer) opens the conversation about partnering with you. The older words — PARTNER, SCALE, GROWTH — are retired (Q52)
 - The **ManyChat Agent Attraction Sequences** (the Week 4 bonus asset) are importable flow templates for those two keywords, the story reply and the DM qualifier. They import into YOUR ManyChat account. ManyChat is required for the two keywords to answer themselves, the free plan starts you, and it is never connected to Claude
-- Your short-form setup writes your **ManyChat build sheet** (say "my ManyChat build sheet" any time) and puts one of the two words on every Reel
+- Your short-form setup puts one of the two words on every Reel. When you are ready to set ManyChat up, say "set up my ManyChat" and it writes out the steps for your own account
 - Where conversations go: anything real gets captured to your top 50 ("capture this")
 - Acting up? Test it like an agent: comment the keyword yourself and watch where it stops — that's the break; ManyChat-side problems go to ManyChat's support
 
-Next step: import the templates from the Week 4 Circle space and follow your build sheet. Short-form not set up yet? Say "set up my attraction short-form." Still stuck → say "escalate this."
+Next step: import the templates from the Week 4 Circle space and say "set up my ManyChat" for the steps. Short-form not set up yet? Say "set up my attraction short-form." Still stuck → say "escalate this."
 
 **Q36. Mike said attraction "costs nothing but time" — but you're telling me I need a paid Claude plan. Which is it?**
 Both are true — they're about different wallets.
@@ -529,7 +529,7 @@ Start on the free plan — the templates are built so the keyword flow runs ther
 - Hit the cap mid-month? That's success, not breakage — Pro becomes YOUR choice at that point,
   never a requirement; its price is on ManyChat's site, never from memory
 
-Next step: import the templates from the Week 4 Circle space, follow your build sheet, test it yourself,
+Next step: import the templates from the Week 4 Circle space, say "set up my ManyChat" for the steps, test it yourself,
 and say "help" if a block shows a PRO badge you're unsure about.
 
 ## The two-cohort and scheduled-agent questions (new to this OS)
@@ -630,8 +630,8 @@ and your thank-you page all point at it. You can say "later" and set it up any d
 Two words only, set in Week 2 and confirmed in Week 4: **GUIDE** (comment it and the DM sends your guide) and your own
 invitation word from your offer (it sends the one-pager and the invitation to talk). Everything else — PARTNER, SCALE,
 GROWTH — is retired. One ask per post; the call ask is always "partner with me and get my help, free, to run this". The two words answer
-themselves through ManyChat — your own account, the free plan to start, Mike's templates imported, the build sheet your
-plugin writes; you never connect ManyChat to Claude, and no paid ManyChat plan is needed for that.
+themselves through ManyChat — your own account, the free plan to start, Mike's templates imported, and the steps your
+plugin writes when you say "set up my ManyChat"; you never connect ManyChat to Claude, and no paid ManyChat plan is needed for that.
 
 **Q53. What are the short-form workflows, and do they post for me?**
 They never post, send or schedule anything; every one drafts and leaves it for you. Setup tells you what it is switching
@@ -761,9 +761,9 @@ your Yes on the workflows.
 
 **Q71. Why are my short-form and YouTube setups asking me questions? I thought they already knew me.**
 They do know you — they never ask again for anything you told your Brain, and they build from it. Each setup asks
-just two new things, and they are the same two for every member, whether you have attracted fifty agents or none
+only a question or two, and they are the same for every member, whether you have attracted fifty agents or none
 yet:
-- **Short-form:** what you do off the clock that people know you for, and which day (and where) you can film.
+- **Short-form:** one question — which day (and where) you can film.
 - **YouTube:** which of your three topics you could talk about for twenty minutes, and which day you can film a
   full video.
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
@@ -792,9 +792,9 @@ question you skipped, then rebuilds that one piece around your answer — nothin
 
 **Q75. Where do my answers go? Can I see them?**
 On your Brain Board, with your pillars, under "In your words" (your YouTube answers sit with your channel), saved
-exactly as you said them. What you do off the clock becomes your Personality pillar — the Reels where agents meet
-you, not a pitch — and the Reel built on it says "(your words)" in your plan. Your filming day is the day every
-date on your plan is counted from.
+exactly as you said them. Your filming day is the day every date on your plan is counted from, and an opening you
+wrote for a Reel says "(your words)" in your plan. (If an earlier version asked what you do off the clock, that
+answer is still there and still used — it is simply no longer asked.)
 
 **Q76. I mentioned a person, another brokerage or a number in my answer. Will that be posted?**
 No. Your answer is saved privately, word for word, but a named brokerage or person and any income, split or earnings
@@ -815,8 +815,10 @@ and waits again. After setup: "update my pillars", "change my cadence" or "set m
 
 **Q79. My setup behaves differently from the one a friend in the cohort described.**
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
-YouTube setups wait after every step and ask you two questions — the same two every member gets. (For a few days
-they asked four; if yours says "Question 1 of 4", it is that older version.) Update your plugins (Customize →
+YouTube setups wait after every step and ask only a question or two — the same for every member (short-form: your
+filming day; YouTube: your topic and your filming day), always in plain chat. (For a few days they asked four, and
+short-form then asked what you do off the clock; if yours says "Question 1 of 4", asks about "off the clock" or
+shows a pop-up with choices to tap, it is an older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
 is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.
 

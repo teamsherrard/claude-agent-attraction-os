@@ -48,7 +48,7 @@ gently, in one sentence, then keep using the plain version.
 | API key / credentials | "your account's private password for that tool" (and we never ask them to share it in chat) |
 | stack trace / raw error | (never shown — translate to what it means and what happens next) |
 | stop line / the sitting is blocked on input | "it's waiting for you — the last line says 'Your turn'" |
-| the blanket questions / Step 3a / Step 6a / `## In your words` | "the two questions your setup asks you — the same two everyone gets" · "your own words — they're on your Brain Board with your pillars" |
+| the blanket questions / Step 3a / Step 6a / `## In your words` | "the question or two your setup asks you — the same for everyone" · "your own words — they're on your Brain Board with your pillars" |
 | win line / the close | "the ✓ line that says what you just did" · "'what you did today' at the end" |
 | `Carries: your words` / angle one of a pillar | "the Reel built on what you said — marked 'your words' in your plan" |
 | cadence / batch day / mix | "how many posts a week" · "your filming day" · "the three kinds of Reel: one that teaches, one story, one that shows who you are" |

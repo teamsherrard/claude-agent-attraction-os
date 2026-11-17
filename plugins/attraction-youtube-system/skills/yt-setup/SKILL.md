@@ -156,6 +156,12 @@ ask about their niche, who they attract, their offer, their resource, or their v
   - **"Skip", "you pick", "I don't know" always work** → *"No problem — I'll take that from your Brain."*; saved as
     skipped, never asked twice, never a guilt line.
   - (To the member the sitting is never called an interview — in this plugin that word means a video with a guest.)
+- **PLAIN CHAT ONLY — NEVER A QUESTION CARD, A FORM OR BUTTONS (the owner, 2026-11-17).** The two questions, every
+  stop line and every pick are sentences in the reply; the member answers by typing or speaking. Never put one into
+  a question card, a pop-up, buttons, chips or a multiple-choice box, and never call a question tool
+  (`AskUserQuestion` or anything like it) in this sitting: a card needs options, and an option or a description
+  made up on the spot to fill it is a line nobody wrote and no member can answer. The only cards here are the
+  tools' own Connect cards.
 - **Never speak as if the member has already attracted agents (the owner, 2026-11-16: "a lot of people in this
   group… have never attracted an agent in their life").** To every member: "the agents you want to attract",
   "you're here to help…" — never "you attract…", "the agents you've attracted", "your team". A guest, an agent

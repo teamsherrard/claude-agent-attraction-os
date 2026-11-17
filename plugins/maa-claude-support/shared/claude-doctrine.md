@@ -143,17 +143,19 @@ mapped personalization articles live before describing exact behavior.
   `source-map.md` — with the page open, never from memory. What we can say durably: this system
   was built so the member's business data lives in files THEY own and control.
 
-## 7b. How the content setups work — a Yes at each step, and two questions (Weeks 4 and 5)
+## 7b. How the content setups work — a Yes at each step, and a question or two (Weeks 4 and 5)
 
 Members meet this in Week 4. Teach it in one breath: **"It builds from what you already told your Brain, shows
-you each piece, and waits for your Yes. It only asks you two new things — the same two everyone gets."**
+you each piece, and waits for your Yes. It only asks you a question or two — the same for everyone."**
 - **It builds from the Brain.** Who they attract, their method, their story, their wins — all of that was asked in
   Weeks 1 and 2 and is never asked again. It is read back to them ("from the story you told in Week 1") so they
   can say "that's me" or change it.
-- **Two questions, the same for every member.** Short-form: what they do off the clock · the day and place they
-  can film. YouTube: which of their three topics they could talk about for twenty minutes · the day they can film
+- **Only blanket questions, the same for every member.** Short-form, one: the day and place they can film (the
+  "off the clock" question was removed on 2026-11-17 — the owner: "makes no sense"). YouTube, two: which of their three topics they could talk about for twenty minutes · the day they can film
   a full video. Nothing else.
-- **Why only those two (the owner, 2026-11-16):** a question has to be one that every member can answer —
+- **Plain chat, never a card.** The question and every "Say Yes" line are ordinary sentences in the chat; the
+  setups never show a question card or choices to tap.
+- **Why so few (the owner, 2026-11-16):** a question has to be one that every member can answer —
   including someone who has never attracted an agent — and one the Brain does not already hold. So it never asks
   what agents say to them, or who they have helped.
 - **It waits.** One step per reply, then "Your turn." Nothing is built while they are away, and they can leave

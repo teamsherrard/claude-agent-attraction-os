@@ -2,6 +2,27 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.36.0] — 2026-11-17
+
+**One question, in plain chat: the "off the clock" question is gone, and so is the ManyChat build sheet from the Week 4 sitting (Short-Form 0.9.0 · YouTube 0.8.3 · Support 0.2.5 · Brain 0.9.20 · Lead Magnet 0.12.16).** The owner ran the short-form sitting again. It asked *"What do you do off the clock that the people around you know you for?"* — "makes no sense remove it" — and showed a line nobody wrote, *"Builds the thirty-day plan and the ManyChat build sheet"* — "what is this? I don't think we need this."
+
+**Short-Form 0.9.0**
+- **The sitting asks ONE question — the filming day.** *"Which day could you film every week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?"* The "off the clock" question is deleted from the setup, the Game Plan and the house rules: no skill asks it, in any wording, and none asks who the member is, what they like or what they are known for. The Personality pillar is built from the Brain (life outside real estate, the "before real estate" line, the story bank) and read back with the other four for a Yes or a change; where the Brain holds little it is labelled a first draft. An answer a member already gave to an earlier version is kept and still used, and is never asked for again.
+- **Plain chat only.** The question, every "Say Yes" line and the opening pick are sentences in the reply — never a question card, a pop-up, buttons or a multiple-choice box, and never a question tool. The line the owner was shown is not in the plugin: it was made up on the spot to fill a card. The sitting keeps no task list of its own either.
+- **No ManyChat build sheet in the sitting.** It is no longer written or handed over after the Game Plan, and the words "build sheet" are no longer said to the member. ManyChat is one plain line in the plan and in the close — set it up this week — and "set up my ManyChat" writes out the steps when the member asks.
+- **The first Reel is the one that teaches the member's own method** (it was the Reel built on the off-the-clock answer).
+- The welcome ("just one new question — which day you can film"), the resume lines, the close ("You chose your filming day…") and the completion checklist all say one question.
+
+**YouTube 0.8.3.** The same plain-chat rule in the Week 5 sitting. Its two questions are unchanged.
+
+**The shared ask-once rule** (word for word in four plugins — the reason the Brain and the Lead Magnet plugin carry a new number): the content sittings ask only blanket questions, one in Week 4 and two in Week 5, in plain chat.
+
+**Support 0.2.5.** The stack map, a new row in "What changed lately", the FAQ (the setup questions and the ManyChat answers), tree #13, the doctrine and the cohort notes: one question for short-form; "off the clock", a pop-up with choices and the build-sheet line are signs of an older version; "set up my ManyChat" is the phrase for the ManyChat steps.
+
+**Docs.** The setup guide and the short-form demo checklist.
+
+**Not yet run live in Cowork.**
+
 ## [0.35.0] — 2026-11-16
 
 **The Design Studio catches up: every design skill waits for a Yes, and nothing is designed as if the member already has agents (the ten `aa-…-design` skills · Support 0.2.4).** The owner asked for the Claude Design skills "based on all the updates that we've made so far". An audit of the ten found them untouched since 0.28.0 — and found that five of them still built their whole set in one go, the same "it did it all without me" the owner had named in the Cowork sittings.

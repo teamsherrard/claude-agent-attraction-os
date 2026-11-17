@@ -304,8 +304,9 @@ my CEO review". Neither has a task; that is by design, not a failure.
 
 ## Tree #13 — "My short-form / YouTube setup stopped, is asking me things, or did it all without me"
 
-Both content sittings do one step a reply and wait (since 0.6.0), and each asks exactly TWO questions, the same
-for every member (since Short-Form 0.8.0 and YouTube 0.8.0). Most "it's broken" reports here are the design
+Both content sittings do one step a reply and wait (since 0.6.0), and ask only blanket questions, the same
+for every member — ONE in short-form (since Short-Form 0.9.0; two from 0.8.0) and two in YouTube (since YouTube
+0.8.0) — always in plain chat, never on a card with options. Most "it's broken" reports here are the design
 working. Cheapest check first.
 
 1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
@@ -313,9 +314,11 @@ working. Cheapest check first.
      sentence or two, or say "skip". "Say Yes and I'll…" → they say Yes, or say what to change. Done.
    - It ends mid-sentence, or with an error → a cut-off reply: have them say "continue" once; twice → a fresh
      chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
-2. **"It's asking me questions — I thought it knew me."** Two questions are by design (FAQ Q71), and they are
-   word for word the same for every member. Short-form: *"What do you do off the clock that the people around you
-   know you for?"* and *"Which day could you film every week — and where?"* YouTube: *"Which of your three topics
+2. **"It's asking me questions — I thought it knew me."** A question or two is by design (FAQ Q71), word for
+   word the same for every member. Short-form, one: *"Which day could you film every week — and where?"* — a member
+   asked *"What do you do off the clock…"*, shown a question on a card with choices to tap, or shown a line like
+   "Builds the thirty-day plan and the ManyChat build sheet" is on a version before 0.9.0: update the plugin, new
+   chat, "continue my attraction short-form". YouTube, two: *"Which of your three topics
    could you talk about for twenty minutes with no notes?"* and *"Which day could you film a full video every
    week?"* Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
    opens). **Anything else is wrong:**
@@ -336,7 +339,7 @@ working. Cheapest check first.
    the top of its card (FAQ Q75). A name or a number missing from the public piece is the privacy rule working
    (FAQ Q76). The meaning itself changed → a defect: log both versions.
 6. **"What it says I did at the end is wrong"** (the close's "what you did today"). Each line must match the
-   sitting: the two answers under `## In your words` (a `skipped` one is not something they told it), the number
+   sitting: the answers under `## In your words` (a `skipped` one is not something they told it), the number
    of posts a week they chose, their filming day. A mismatch → log it with the entries; never argue it with the
    member.
 7. **"I chose two posts a week and the plan looks odd."** Any pace is allowed: the six designed posts go out

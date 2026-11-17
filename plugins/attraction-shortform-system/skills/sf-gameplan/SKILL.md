@@ -54,26 +54,24 @@ and only where the member's own material leaves a pillar short — the rank ther
 ## Three ways it runs
 - **Inside setup** (`sf-setup` Step 3 — the normal Week 4 path): the member just heard *"now I'm going to build
   your Short-Form Game Plan"*; the two keywords, the platforms and the profiles are already confirmed. **It runs in TWO
-  replies, AFTER setup's two blanket questions (the owner, 2026-11-15: "it should WAIT for me"; 2026-11-16: the
+  replies, AFTER setup's one blanket question (the owner, 2026-11-15: "it should WAIT for me"; 2026-11-16: the
   questions are "blanket… the same across the board", and "we don't really need more questions because they've
-  already gone through a lot of this when they were building their AI brain"):** `sf-setup` Step 3a has asked the
-  member its two questions — what they do off the clock, and the day and place they film — and saved the answers
-  under `identity/content-pillars.md → ## In your words`; first Phases 1 to 3 — the pillars and the week are
-  PROPOSED from the member's Brain and those two answers in one short message, saved, and the reply stops on setup's stop line (the document is NOT
+  already gone through a lot of this when they were building their AI brain"; 2026-11-17, on the "off the clock"
+  question: "makes no sense remove it"):** `sf-setup` Step 3a has asked the member its one question — the day and
+  place they film — and saved the answer under `identity/content-pillars.md → ## In your words`; first Phases 1 to
+  3 — the pillars and the week are PROPOSED from the member's Brain and that answer in one short message, saved, and the reply stops on setup's stop line (the document is NOT
   built yet);
   then, on the member's Yes (or after their changes), Phases 4 to 9 — the plan is built, saved and anchored, and
   the skill hands back to setup, which says its own stop line. ManyChat is told, never asked (Phase 5); the
-  two questions are setup's, never repeated here, and no other question is ever added. No menu, no "come back later".
+  one question is setup's, never repeated here, and no other question is ever added. No menu, no "come back later".
 - **On demand** — **BUILD** when no `## Game Plan anchors` block exists in `content-pillars.md`; **UPDATE** when
   one does ("update my short-form game plan", "plan my next 30 days of reels"): refresh only what changed (a new
   30-day calendar from the day after the last mapped date; new research; a pillar the member asked to change),
   keep every section they confirmed, save a new dated copy — **update, never rebuild.** "Plan my next 30 days of
-  reels" is UPDATE mode scoped to section 6 (and the board, if they have one). **"Update my pillars"** — first looks at `## In your words`: an entry that reads `skipped` is asked now, ONE
-  question, exactly as `sf-setup` Step 3a prints it; the answer replaces the entry, and the reply says what it
-  became (the off-the-clock answer is angle one of Personality, marked `your words`). Then it is UPDATE
+  reels" is UPDATE mode scoped to section 6 (and the board, if they have one). **"Update my pillars"** is UPDATE
   scoped to section 2: the pillar the member names is rebuilt from the Brain and read back for a Yes or a change. **No
-  new question is ever asked here** (the owner, 2026-11-16) — the only questions that exist are setup's two printed
-  ones (a skipped one, once, as printed); the member's own wording is welcome, never asked for.
+  new question is ever asked here** (the owner, 2026-11-16 and 2026-11-17) — the only question that exists is
+  setup's one printed question, the filming day; the member's own wording is welcome, never asked for.
   **"Change my cadence"** is UPDATE scoped to sections 3 and 6 — stated, never asked: three becomes five only as
   the step-up the Monthly Calendar Refill or the Monthly Deep Dive proposed (five goes back to three any time);
   `Cadence:` and `Weekly mix:` are rewritten (1 · 1 · 1 at three, 2 · 2 · 1 at five) and the rows from the next
@@ -142,22 +140,23 @@ Same structure, same gate.
   setup-time Game Plan makes zero calls to it (`shared/composio-data-engine.md`, "never during setup"); web
   search only. Research unavailable or empty → build from the Brain, label the affected rows `unresearched`,
   say so once in the Read-this-first, and put the re-run on next steps. Never invent a demand signal.
-- **The Brain first, the member's two answers with it, then one stop before the document (the owner, 2026-11-15:
+- **The Brain first, the member's one answer with it, then one stop before the document (the owner, 2026-11-15:
   "it should WAIT for me… to give direction or feedback or answers"; 2026-11-16: blanket questions only, and no
   more of them — the Brain already holds the rest).** Read `identity/content-pillars.md → ## In your words`: the
-  member's two answers (off the clock · their week). The pillars and the week are PROPOSED in one short message,
+  member's answer about their week (and an `Off the clock` line, where an earlier version saved one). The pillars
+  and the week are PROPOSED in one short message,
   in the shape `sf-setup` Step 3a prints — each pillar one line with where in the member's own Brain it came from
-  ("from your method", "from the story you told in Week 1"), Personality in the words they gave today, then the
-  week with their filming day — and the reply ENDS on setup's stop line: *"**If that sounds like you, say Yes** and I'll build your thirty-day plan on it — or tell me what to change: a
-  pillar, how many posts a week, or your filming day. **Your turn.**"* (a statement, not a third question — the
-  sitting promised two) **No question is ever asked that assumes the member has attracted an
+  ("from your method", "from the story you told in Week 1"), then the
+  week with their filming day — and the reply ENDS on setup's stop line: *"**If that sounds like you, say Yes** and I'll build your Game Plan on it — your next thirty days of posts — or tell me what to change: a pillar, how many posts a week, or your filming day. **Your turn.**"* (a statement, not a second question — the
+  sitting promised one) **No question is ever asked that assumes the member has attracted an
   agent** — what agents say to them, who they have helped, calls they have had — and none about what the Brain
   already holds. Nothing of Phase 4 onward runs until the member answers. **A change** → apply it inside the
   rules (the five OS pillars stay five; the cadence and the filming day are the member's to set), show only what
   changed, save, and stop again with the same line. ManyChat is told, never asked (Phase 5); the platforms are
-  stated (Phase 3); nothing else is a question. On demand the same applies to a first BUILD: when `## In your words` is absent the two blanket questions are
-  asked first, one per reply, exactly as `sf-setup` Step 3a prints them (this skill then saves the answers
-  itself); then the proposal, then the Yes. An UPDATE changes the one part the member named and says so.
+  stated (Phase 3); nothing else is a question. On demand the same applies to a first BUILD: when `## In your
+  words` holds no `Your week` entry the one blanket question is asked first, exactly as `sf-setup` Step 3a prints
+  it and in plain chat — never on a question card, never with options (this skill then saves the answer itself);
+  then the proposal, then the Yes. An UPDATE changes the one part the member named and says so.
 
 ---
 
@@ -193,11 +192,12 @@ labeled "(from your Brain — your kit's wording replaces it)". **Why I'm buildi
 (tags `shortform` · `story`; the `## Past content (imported)` section's `pillars:` note — how they post today —
 and what they already published, so the angles never repeat it) · `memory/objections.md` · `memory/content-log.md`
 (empty is normal).
-**The member's off-the-clock answer leads Personality (the owner, 2026-11-15 and 2026-11-16).** `## In your
-words` is read first: the "off the clock" answer is ANGLE ONE of Personality — its hook the member's own sentence
-(tidied only to be sayable in one breath, never a claim added, a named person and any income figure left out) —
-and it carries `your words YYYY-MM-DD` (printed in the document as *built on what you told me*). Skipped → the
-pillar is left to the sources below. Every other pillar is built from the Brain by the locked order — the
+**Personality comes from the Brain — it is never asked for (the owner, 2026-11-17: the "off the clock" question
+is removed).** `## In your words` is read first: where an earlier version saved an `Off the clock` line, that
+answer is still ANGLE ONE of Personality — its hook the member's own sentence (tidied only to be sayable in one
+breath, never a claim added, a named person and any income figure left out) — and it carries `your words
+YYYY-MM-DD` (printed in the document as *built on what you told me*). No such line — every member from now on —
+→ the pillar is built from the sources below. Every pillar is built from the Brain by the locked order — the
 member was already asked about their agents, their method, their story and their wins in Weeks 1 and 2, and is
 never asked again.
 **Order of sources, locked (Mike, 2026-11-02 — the UVP is the foundation of the content; all content is a branch
@@ -229,14 +229,14 @@ the method working in their own business, and what they are building in the open
 first open house run their way) — three real angles, printed *your own results for now — agent wins join as they
 come*; never "you have no proof", never an invented agent or win, never a gap sentence in the document; the
 upline's proof may be added only labeled as the upline's · Personality = passions, routines, family lines they are willing to share (`07-instagram/88`,
-`/89` — the patio-beer test). **Personality is setup's first blanket question** ("off the clock") — its answer is angle one. **Skipped, and the
-Brain holds nothing for Personality** → never a second ask: draft the three angles from what the Brain does hold (the profile's "before real estate" line, the journey,
-the WHY) and label them *"(draft — tell me what you do off the clock and I'll sharpen these)"*; on demand ("update my
-pillars") the pillar is rebuilt from the Brain and read back — a skipped off-the-clock question is asked once, as
-printed; nothing else is asked.
+`/89` — the patio-beer test). **Personality is never asked for** (the owner, 2026-11-17): it is built from
+`identity/profile.md → Outside real estate:` when that line is filled, then the profile's "before real estate" line,
+the journey, the story bank and the WHY. **The Brain holds little for Personality** → never a question: draft the
+three angles from what it does hold and label them *"(a first draft — tell me what to change)"*; on demand ("update
+my pillars") the pillar is rebuilt from the Brain and read back; nothing is asked.
 **State the five in one short message** — setup's proposal shape, each pillar with where in the member's Brain it
-came from (*"• **Story** — [one line] · from the story you told in Week 1"*; Personality: *"your words today:
-"[off the clock]""*) — it runs
+came from (*"• **Story** — [one line] · from the story you told in Week 1"*; Personality: *"from what you
+told me about your life outside real estate"*) — it runs
 straight into Phase 3's line (the week), and after that line the reply STOPS and waits for the member (the rule
 above); a member who names a change gets it applied before anything is built. Then **write `identity/content-pillars.md` now** in the contract's shape
 (the template's header lines kept and filled · the one-line anchors · the five sections headed exactly by the
@@ -256,7 +256,7 @@ this is its rule (the owner, 2026-11-15: the week is the member's call):** the s
 per posting day, so they last ⌈6 ÷ the number⌉ weeks — six weeks at one a week, three at two, two at four with
 Reels filling the second week's spare days; after them the Reels rotate in turn — one that teaches (Authority or
 Perspective) → one story → one that shows who they are (Proof or Personality) — so every three Reels cover the
-three kinds whatever the pace; the Reel built on the member's off-the-clock answer takes the first Reel row; the window holds the posting days the dates give, about the
+three kinds whatever the pace; the first Reel row is the one that teaches the member's own method; the window holds the posting days the dates give, about the
 number × four; and every sentence that says how long the designed posts last uses the computed number — "your
 first three weeks are the six posts you already have designed" — never the fixed word "two") — the cohort's standard, not a lesson of Mike's: never attributed to him, and printed in plain
 words (the document never carries the label "the OS default"; attraction = Proof + Personality, authority = Authority
@@ -278,7 +278,7 @@ alternate Saturdays; fitted to the filming window) · **the 15-minute routine** 
 comment with a question, answer every DM the same day, tag the agents featured so they reshare, one interactive
 story element, five real comments on agents' posts in the lane, never a negative one — an OS default built on
 `07-instagram/89` and `05-big-picture/36`).
-Proposed, in one line: *"Your week: [three] posts a week — [your first [two] weeks are the six posts you already have designed; then] three kinds of Reel in turn: one that teaches (Authority or Perspective), one story, and one that shows who you are (Proof or Personality) — stories every day; filming on [day]s."* (the member hears the three kinds in the pillar names they were just shown — never "attraction" or "authority" as a kind; the clause about the six designed posts only when the kit's posts are on file; "[two]" computed from their number by the rule above) **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"**If that sounds like you, say Yes** and I'll build your thirty-day plan on it — or tell me what to change: a pillar, how many posts a week, or your filming day. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
+Proposed, in one line: *"Your week: [three] posts a week — [your first [two] weeks are the six posts you already have designed; then] three kinds of Reel in turn: one that teaches (Authority or Perspective), one story, and one that shows who you are (Proof or Personality) — stories every day; filming on [day]s."* (the member hears the three kinds in the pillar names they were just shown — never "attraction" or "authority" as a kind; the clause about the six designed posts only when the kit's posts are on file; "[two]" computed from their number by the rule above) **Then the stop line, and the reply ends** (inside setup, `sf-setup` Step 3a's line; on demand the same words): *"**If that sounds like you, say Yes** and I'll build your Game Plan on it — your next thirty days of posts — or tell me what to change: a pillar, how many posts a week, or your filming day. **Your turn.**"* The lines below are written now (they are the proposal on file); a change at the stop rewrites them before Phase 4 starts. (at five a week the mix reads 2 · 2 · 1; "change my cadence" changes it later) Then write `Platforms (priority order): Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional reposts)` (the locked value — `LinkedIn off` in its clause when the avatars hold no team leaders; setup normally wrote it already — never rewrite a filled line) · `Cadence:` · `Weekly
 mix:` · `Batch day(s):` to `publishing.md` (the source), mirror `Cadence` and `Platforms` into `content-pillars.md`'s
 header lines and `## Weekly mix`, and write the batch day and time to the single `Filming window:` line of
 `identity/operations.md` (this plugin's one write there, by the Brain contract's permission — the mirror of
@@ -323,17 +323,16 @@ on that map: Personality's is "follow for the next one" and nothing more (never 
 word. **ManyChat — told, never asked (the owner, 2026-11-14); the section's ManyChat line reads, in
 this shape:** *"ManyChat is how your keyword[s] answer[s] [itself | themselves]. Set it up this week: install ManyChat (the free
 plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates
-from your Materials folder, put GUIDE [and [WORD]] in with your links — your build sheet walks you through it step by
-step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live,
+from your Materials folder, put GUIDE [and [WORD]] in with your links. Say 'set up my ManyChat' and I'll write out the
+steps. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live,
 reply by hand from your DM bank."* Never a question, never an opt-out, never "connected". Write
 `Keyword:` (if this run set it) · `What it opens:` (GUIDE → the guide's title · [WORD] → the one-pager and the call)
-to `publishing.md`; the `ManyChat:` line is written by `sf-comment-to-dm` (Job E — `not yet — set it up this week
-(build sheet YYYY-MM-DD)` when the sheet is written, `set up YYYY-MM-DD` on the member's word that it is live; inside
-setup the build sheet is handed over right after this plan) — this plan writes the line only when it is still empty
-and the sheet does not exist yet, as `not yet — set it up this week`; mirror the two words and what each opens into
-`content-pillars.md`'s `The two CTAs` line 2. The full CTA bank, the DM copy bank and the ManyChat Build Sheet stay
+to `publishing.md`; the `ManyChat:` line — this plan writes it only when it is still empty, as `not yet — set it up
+this week`; from there it is `sf-comment-to-dm`'s (Job E, which runs only when the member asks — "set up my ManyChat" —
+and never inside setup: the owner, 2026-11-17; `set up YYYY-MM-DD` on the member's word that it is live); mirror the two words and what each opens into
+`content-pillars.md`'s `The two CTAs` line 2. The full CTA bank, the DM copy bank and the ManyChat steps stay
 `sf-comment-to-dm`'s — one line at the end of the section: *"the ask lines and your DM replies: say 'my keyword
-sheet'; the ManyChat steps: 'my ManyChat build sheet'."*
+sheet'; the ManyChat steps: 'set up my ManyChat'."*
 
 ## Phase 6 — The 30-day calendar (section 6 · 400+ words · twelve dated rows at the default three a week (twenty at five), the six kit posts among them)
 **Lazy-load doctrine §9b–§9d and `${CLAUDE_PLUGIN_ROOT}/skills/sf-talkinghead/references/calendar-guide.md`
@@ -365,9 +364,9 @@ pages, the story bank, the proof with consent, the weekly call, the training, th
 month's objections — Weeks 1–2), **fresh research second** (the graded findings, each cited by number in the Sources
 band), **the starter bank last** (`starter`, only to fill a short pillar). Week 1 still establishes who they are: the
 kit's story and proof posts cover Story and Proof, so the first Reels are Personality, Perspective and the Authority
-teach. **The Personality Reel is built on the member's own off-the-clock answer** (`## In your words`): its hook is their
-sentence and its `Carries` cell reads `your words YYYY-MM-DD` (with whatever else the row carries after it);
-skipped → the order above fills it and it carries no mark. The Perspective and Authority Reels come from the Brain
+teach. **The Personality Reel is built from the Brain, never from a question**: the order above fills it and it
+carries no mark — only where an earlier version saved an `Off the clock` line under `## In your words` is its hook
+that sentence and its `Carries` cell `your words YYYY-MM-DD` (with whatever else the row carries after it). The Perspective and Authority Reels come from the Brain
 — the agents' pains in their words, the first thing the member said they would teach. Every row: `#` · **date** (real calendar dates, never "Day 1", on the cadence's posting days — **a Reel's
 publishing date is never earlier than the day after the batch day that films it**: the first Reel lands on the first
 posting day AFTER the first batch day that follows today and that a kit post does not take, and every later Reel after
@@ -433,7 +432,7 @@ The section names four steps, in this order, as four short numbered lines — th
    the phrase that builds it instead — "say 'rebuild my kit'").
 2. *Film on your batch day, [day]* (the first Reel named by its working title).
 3. *When it's filmed, open a new chat and say "edit my reel".*
-4. *Set up ManyChat from your build sheet — say "my ManyChat build sheet" and I'll print it.*
+4. *Set up ManyChat this week — say "set up my ManyChat" and I'll write out the steps.*
 Then, one line each and only where it applies: compliance `unset` → *"Before anything is posted, say 'set up my
 attraction compliance'."* · rows built without research → *"Say 'what are agents asking right now' and I'll check
 what agents are searching."* Nothing else is listed here — the board, the keyword sheet and the performance read keep
@@ -504,9 +503,9 @@ their own phrases and are said in chat, not in this section.
 - [ ] Section 1: who they attract, the one line, the two keywords, the two CTAs verbatim from the kit's table (the
       guide; the call in the CTA law's shape), the why — drafted and labeled where the Brain is empty, never a
       question box
-- [ ] `## In your words` read first: the off-the-clock answer is angle one of Personality, in the member's own
-      sentence, marked `your words` and shown "(your words)" in the document; the filming day is the one they
-      gave; no question beyond setup's two was asked, and none that assumes they have attracted an agent; the
+- [ ] `## In your words` read first: the filming day is the one they gave; Personality built from the Brain and
+      never asked for (an `Off the clock` line from an earlier version still leads it, marked `your words`); no
+      question beyond setup's one was asked, and none that assumes they have attracted an agent; the
       section kept exactly through every rewrite
 - [ ] Five pillars, exact names, three angles each, developed from the UVP's content branches and the framework's
       steps first, then the Brain — stories from the bank, proof with consent, the former brokerage unnamed; no
@@ -532,7 +531,7 @@ their own phrases and are said in chat, not in this section.
 - [ ] Sections 7–9 present; section 7 opens on "how's my content doing" and the deep dive (no Friday); section 8
       names the four switched-on workflows, the five extras in one sentence and the email note as statements, the
       statuses read from `config.md`, never assumed; section 9 is the four steps in order (post the six designed posts
-      on their dates · film on the batch day · "edit my reel" in a new chat · ManyChat from the build sheet)
+      on their dates · film on the batch day · "edit my reel" in a new chat · ManyChat this week, "set up my ManyChat")
 - [ ] READ THIS FIRST carries "Your first two weeks: post the six you already have designed — nothing to film yet."
       right after its opening sentence; the hook bank shows the dated posts' hooks first, the rest under "More hooks
       when you need them"; no internal word in the document ("rung", "carries", "branch", "the OS default", "the kit's

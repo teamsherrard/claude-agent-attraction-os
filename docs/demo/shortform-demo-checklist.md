@@ -22,26 +22,25 @@ in a demo Brain is fictional and tagged.*
 
 **What to watch for all the way through (the owner, 2026-11-15 and 2026-11-16):** the member is part of it at
 every step, and it asks very little. At each step it shows what it built from what the member already told their
-Brain and waits for a Yes or a change. It asks only TWO questions — word for word the same for every member, and
-answerable by someone who has never attracted an agent. Three things mark every reply: **a win line** ("✓ …" —
-what the member just said or decided), **one thing that is theirs** (one of the two questions, a choice, or a
+Brain and waits for a Yes or a change. It asks only ONE question — the filming day, word for word the same for
+every member — in plain chat, never on a card with choices to tap. Three things mark every reply: **a win line** ("✓ …" —
+what the member just said or decided), **one thing that is theirs** (the one question, a choice, or a
 two-minute action), and **the stop** ("Your turn.").
-- [ ] **The welcome** says "we build it together" and "just two new questions, the same two every member gets",
+- [ ] **The welcome** says "we build it together" and "just one new question for you along the way — which day you can film",
   names Week 4 and the five steps (profiles and keywords → Game Plan → board → workflows → first Reel), then plays
   back who the member is from the Brain and stops: "Is that still right?" Say Yes.
 - [ ] **Profiles and keywords — shown, never asked:** the identity line and the one link, the bios from Week 2,
   Instagram and Facebook both, LinkedIn only when the avatars include team leaders, exactly TWO keywords (GUIDE and
-  the offer's own word). No document. The reply closes "✓ Step 1 of 5 — done" and ends on **Question 1 of 2**.
-- [ ] **The two blanket questions, ONE per reply, exactly these words:** (1) "What do you do off the clock that the
-  people around you know you for? Only what you're happy to have on camera." · (2) "Which day could you film every
-  week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?" The next reply
-  quotes the answer back and says what it became. Try **"skip"** on one: it takes that from the Brain and never
-  asks twice. Walk away after Question 1 and come back ("continue my attraction short-form"): it resumes at Question 2.
-  **Nothing else is asked** — not what agents say to the member, not who they have helped, nothing from Week 1,
-  nothing about email, platforms or ManyChat.
-- [ ] **Your direction, then the Game Plan:** after Question 2 it shows the five pillars — each with where in the
-  member's own Brain it came from ("from your method", "from the story you told in Week 1"), Personality in the
-  words they just gave — and the week (three posts a week; their filming day), and stops: "If that sounds like you, say
+  the offer's own word). No document. The reply closes "✓ Step 1 of 5 — done" and ends on **the one question**.
+- [ ] **The one blanket question, exactly these words, as plain text in the chat:** "Which day could you film
+  every week — about an hour, in the same spot — and where is that: your office, your kitchen, your car?" No card,
+  no choices to tap. Try **"skip"**: it takes the day from the Brain and never asks twice. Walk away before
+  answering and come back ("continue my attraction short-form"): it asks the same question again.
+  **Nothing else is asked** — not what the member does off the clock, not what agents say to them, not who they
+  have helped, nothing from Week 1, nothing about email, platforms or ManyChat.
+- [ ] **Your direction, then the Game Plan:** the reply to the answer quotes the filming day back and shows the
+  five pillars — each with where in the member's own Brain it came from ("from your method", "from the story you
+  told in Week 1"), Personality from their life outside real estate — and the week (three posts a week; their filming day), and stops: "If that sounds like you, say
   Yes…" Nothing is built yet. Change something ("make it two posts a week") and watch it adjust and wait again.
   Say Yes: now it builds, and the document lands in Content → Short-Form. Open it: **the 30-day calendar opens with
   the six posts designed in Week 3** ("post, don't make"), then the Reels; section 5's two asks are the guide
@@ -79,7 +78,7 @@ two-minute action), and **the stop** ("Your turn.").
 
 ## What the demo must NOT show
 - A third keyword (PARTNER, SCALE, GROWTH) · "join [brokerage]" as a reason · a Saturday beside the member, a group
-  chat or a 1:1 in any script · an invented headline or a link that does not open · a task created without the Yes on the workflows card · two steps in one reply, or anything built before you answered · two questions in one reply · a third question · a question worded differently for this member · a question that
+  chat or a 1:1 in any script · an invented headline or a link that does not open · a task created without the Yes on the workflows card · two steps in one reply, or anything built before you answered · a second question · a question about what the member does off the clock · a question on a card with choices to tap · a line about a "ManyChat build sheet" in the sitting · a question worded differently for this member · a question that
   assumes the member has attracted an agent ("what do agents ask you", "who have you helped") · a question the
   Brain already answers (anything from Week 1) · a "skip" that gets asked again · a question about platforms, ManyChat, email or which workflows to switch on · the posting tool offered as optional or as "copy-paste" · a close without the editing step and the Board and Book links · "Recorded" on a designed post ·
   anything that posts, sends or schedules on its own · a skill name or a file path spoken to the member · "Week 3"

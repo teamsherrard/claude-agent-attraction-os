@@ -24,11 +24,11 @@ so and this framework labels the rule an OS default.
 | 2 | The five pillars, three angles each | 400+ | Authority · Perspective · Story · Proof · Personality — exact names; per pillar a two-line summary and three angles (hook · for whom · pain · what it carries) |
 | 3 | The format mix and the weekly cadence | 200+ | the number · the mix (in plain words — the label "the OS default" is never printed in the document) · the formats and what each is for · the platforms, stated ("Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the same video any time you want more reach") · the batch day · the 15-minute routine (the engagement routine lives here as text — never a task) |
 | 4 | The hook bank | 250+ · exactly 30 | six per pillar in the Brain's block (pillar · for whom · rung on every line; `starter` where seeded); in the document, two parts — THE HOOKS FOR YOUR DATED POSTS first (the date · the hook · who it is for), then the rest under the plain heading "More hooks when you need them" (the hook · who it is for · the ask in words) |
-| 5 | CTAs and the comment-to-DM flow | 150+ | the ladder · the rule of one · the ask by pillar · five ask lines · the call line in the CTA law's shape · the call-ask rule (GUIDE on most posts; the invitation on about one post in four, most naturally a Proof piece or a "what you get" piece; never two asks on one post; the kit posts keep exactly the asks the kit printed) · the two keywords and what each opens · the ManyChat line in the owner's shape (set it up this week from the build sheet; you don't connect it to Claude; by hand from the DM bank until it's live) |
+| 5 | CTAs and the comment-to-DM flow | 150+ | the ladder · the rule of one · the ask by pillar · five ask lines · the call line in the CTA law's shape · the call-ask rule (GUIDE on most posts; the invitation on about one post in four, most naturally a Proof piece or a "what you get" piece; never two asks on one post; the kit posts keep exactly the asks the kit printed) · the two keywords and what each opens · the ManyChat line in the owner's shape (set it up this week; "set up my ManyChat" writes out the steps; you don't connect it to Claude; by hand from the DM bank until it's live) |
 | 6 | The 30-day calendar | 400+ · 12 dated rows at the default three a week (20 at five; the six kit posts among them) | GRAPHICS — THE SIX POSTS YOU ALREADY HAVE (post, don't make — the Graphics tab on your board) · REELS — [n] rows at your cadence (the Reels tab) · STORIES, DAILY · THE BATCH PLAN · THE THREE TO FILM FIRST — each band a five-column table in the document (Date, written "Tue, Nov 17" · What · The hook · The ask · Status); "This week you only post — nothing to film." under every week made only of designed posts |
 | 7 | What we measure | 100+ | opens "Any time you ask 'how's my content doing', and each month in your deep dive, five numbers: …" · the five numbers · calls booked from content · the benchmark · the sources · the compliance line |
 | 8 | Your scheduled workflows | 100+ | the four switched on (Monday Week Plan · Batch Prep · Wednesday Brokerage News Watch · Monthly Calendar Refill) · the five extras in one sentence · "I'll email you a short note at your own address when something's ready" — when, what each produces, draft-only, status |
-| 9 | Next steps | 50+ | four lines, in this order: post the six designed posts on their dates · film on your batch day · when it's filmed, open a new chat and say "edit my reel" · set up ManyChat from your build sheet ("my ManyChat build sheet") — then, only where it applies, the compliance line and the research re-run |
+| 9 | Next steps | 50+ | four lines, in this order: post the six designed posts on their dates · film on your batch day · when it's filmed, open a new chat and say "edit my reel" · set up ManyChat this week ("set up my ManyChat") — then, only where it applies, the compliance line and the research re-run |
 | — | SOURCES · closing · stamp | — | every search and page read, dated; budget used of 8; `starter` and `unresearched` rows counted; demo → "nothing searched"; one honest closing paragraph; the stamp |
 
 Member-facing lines say *your Authority pillar*, *the agents you want to attract* — never "avatar", never "leads",
@@ -71,16 +71,16 @@ ACTION table, verbatim", a System ID, a date written 2026-11-17. The document sa
 | **Perspective** — what I believe | the takes the member holds (the "one thing they wish struggling agents understood"), the objections heard (`memory/objections.md`), three myths to bust; never about a named brokerage or person | `07-instagram/88` · `03-model-positioning/13` |
 | **Story** — where I've been | the story's three turning points with "who relates to this", the `## Why join me` breath, the story-bank hooks tagged for a Reel; former brokerages never named ("a franchise", "an independent") | `06-content-framework/39` · `/40` |
 | **Proof** — what's happening in my world | agents already helped (`proof.md`, consent column — otherwise first name or initials), the weekly call, the training, the events, the recognition; the upline's proof labeled as the upline's; no agent wins yet (a first-time attractor) → Proof is the member's OWN results from `proof.md`, the method working in their own business and what they are building in the open, printed "your own results for now — agent wins join as they come"; never a gap sentence, never an invented win (the long game is `04-value-proposition/33`: earn it by helping agents free) | `06-content-framework/38` · `07-instagram/88` |
-| **Personality** — who I am off the clock | the profile's "before real estate" line, the journey, the passions and routines they will share; the off-limits list | `07-instagram/88` · `/89` |
+| **Personality** — who I am off the clock | built from the Brain, never asked for: `identity/profile.md → Outside real estate:` when it is filled, the profile's "before real estate" line, the journey, the story bank, the passions and routines they will share; the off-limits list | `07-instagram/88` · `/89` |
 
 Rules: develop, never transcribe (the echo test); every angle passes the leader test (`07-instagram/86`: would a
 prospect see a leader worth joining from this post?) and the any-agent test; brokerage and opportunity content is
 woven through the pillars, never the feed; compensation never appears (doctrine §6, §11); **the scalability test**
 (doctrine §10e) — no summary or angle promises the member's time per partner: no "stand next to me on a Saturday",
 no group-chat or one-to-one line, no "I answer my phone" — the deliverables named are the recorded lessons, the
-templates, the community, the weekly group call only when the member already runs one. The member's off-the-clock answer leads Personality (`## In your words` — angle one, marked `your words`); every other pillar comes from the Brain. One stop, before the document: the five
-are PROPOSED in one short message, each with where in the member's Brain it came from, and the reply stops there — the plan is built on the member's Yes (the owner, 2026-11-15); Personality is the first of setup's two blanket questions (the owner, 2026-11-16: the same two for every member, no others), and only when it was skipped and the Brain holds nothing is the pillar
-drafted and labeled, never asked a second time (on demand, one plain question at a time). Write
+templates, the community, the weekly group call only when the member already runs one. Every pillar comes from the Brain, Personality included — it is never asked for (the owner, 2026-11-17: the "off the clock" question is removed; an `Off the clock` line an earlier version saved under `## In your words` still leads it, marked `your words`). One stop, before the document: the five
+are PROPOSED in one short message, each with where in the member's Brain it came from, and the reply stops there — the plan is built on the member's Yes (the owner, 2026-11-15); setup asks one blanket question only — the filming day (the owner, 2026-11-16 and 2026-11-17) — and where the Brain holds little for a pillar it is
+drafted and labeled *a first draft — tell me what to change*, never asked for. Write
 `content-pillars.md` at once — the file shape is the contract's; the header lines are kept.
 
 ## Section 3 — The mix and the cadence (doctrine §7, §9b, §9d)
@@ -148,11 +148,11 @@ drafted and labeled, never asked a second time (on demand, one plain question at
 - The two keywords and what each opens; then **the ManyChat line, told, never asked (the owner, 2026-11-14), in
   this shape:** *"ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the
   free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's
-  templates from your Materials folder, put GUIDE and [WORD] in with your links — your build sheet walks you through
-  it step by step. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it.
+  templates from your Materials folder, put GUIDE and [WORD] in with your links. Say 'set up my ManyChat' and
+  I'll write out the steps. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it.
   Until it's live, reply by hand from your DM bank."* Never a question, never an opt-out. The full CTA
-  bank, the DM bank and the ManyChat Build Sheet are `sf-comment-to-dm`'s — the keyword sheet (one page, two words)
-  and the build sheet ("my ManyChat build sheet") pointed at, never duplicated.
+  bank, the DM bank and the ManyChat steps are `sf-comment-to-dm`'s — the keyword sheet (one page, two words)
+  and the steps ("set up my ManyChat") pointed at, never duplicated.
 
 ## Section 6 — The 30-day calendar (doctrine §9b–§9d; the rules in `sf-talkinghead/references/calendar-guide.md`)
 - **The six kit posts come first — "post, don't make."** The section's two bands are **GRAPHICS — THE SIX POSTS YOU
@@ -237,8 +237,8 @@ when a source was not reachable; every run ends with a push so the Brain Board s
 ## Section 9 — Next steps
 Four short numbered lines, in this order — the same inside setup and on demand: **1.** post your six designed posts
 on their dates · **2.** film on your batch day (the full run sheet any time: "film day for my attraction reels") ·
-**3.** when it's filmed, open a new chat and say "edit my reel" · **4.** set up ManyChat from your build sheet ("my
-ManyChat build sheet"). Then, one line each and only where it applies: the compliance gate when `unset` ("set up my
+**3.** when it's filmed, open a new chat and say "edit my reel" · **4.** set up ManyChat this week ("set up my
+ManyChat"). Then, one line each and only where it applies: the compliance gate when `unset` ("set up my
 attraction compliance") and the research re-run when rows were built without research ("what are agents asking
 right now"). No kit → line 1 is the phrase that builds it ("rebuild my kit"). The board, the keyword sheet and the
 performance read keep their own phrases and are said in chat, not listed in this section.
