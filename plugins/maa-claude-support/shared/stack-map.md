@@ -202,9 +202,14 @@ and no config key. (Heidi's Wednesday Circle post is a Team-Mike scheduled task,
   Week 3 `aa-video-kit-design` (the Riverside editor's overlays — upload with the Riverside plugin; "register my video
   brand kit" in Cowork afterwards); Week 6 `aa-event-design` · `aa-value-vault-design` (playbook · course · ebook · the
   partner onboarding roadmap). Each kit skill runs one piece by its phrase, or the whole kit with one checkpoint. Reads the uploaded Brain Book, never `~/attraction-brain/`.
+- **Every skill shows the first piece or two and WAITS (the set dated 2026-11-16):** the brand kit after its YouTube banner and first post, the guide after its cover and two pages, the opt-in page after its top section, the video kit after its first preview, the event set after its flyer, the offer kit / posts / Value Vault after their masters; the logo and the style sheet open with a choice (three directions; two looks). The member says Yes or names one change; after the Yes the whole set is built without another stop, the reply opens with what they decided ("✓ That's your look — approved"), and the close names the first thing to do with the work. **Nothing is designed as if the member already has agents** — a welcome post, a win post or a team milestone is a ready template until their Book records someone; no invented agent, photo, number or quote.
 - Known modes: a zip rejected = description over 1024 chars or a nested zip (tree #11); "the skill
   isn't in Design's list" = wrong account/workspace (FAQ Q38); "it doesn't look like my brand" =
-  the design system was never set up in Design (the root fix).
+  the design system was never set up in Design (the root fix) · **"it made one or two pieces and stopped"** = by
+  design: it is waiting for their Yes or one change (FAQ Q80) · **"it built everything without showing me
+  first"** = they uploaded an older set: replace all ten skill files with the set dated 16 November 2026 or later
+  (the Design Studio release) · **"my welcome post has an empty photo frame"** = by design for a member with nobody
+  on their team yet: it is a template, and the frame takes a real photo the day an agent joins.
 
 ### Plugin 3 — Lead Magnet (W2, after the Partner Offer session) — BUILT
 - Depends on: Brain (`offer` — the Partner Offer, a program definition since Brain 0.3.0: the magnet is cut from ONE
@@ -287,6 +292,7 @@ A member who updates a plugin mid-cohort meets a sitting that behaves differentl
 These are the changes they can feel, newest first. Answer in their words, never in version numbers unless they ask.
 | Since | What changed | What the member notices | Where to send them |
 |---|---|---|---|
+| 0.35.0 (the Design Studio set of 16 Nov 2026) | Every design skill shows its first piece or two and waits for a Yes; people-pieces are templates until the member has agents | "It showed me my banner and one post and stopped" · "my welcome post has an empty photo frame" | FAQ Q80 · the Design Studio notes above |
 | 0.34.0 (Short-Form 0.8.0 · YouTube 0.8.0) | **Two blanket questions, the same for every member** — the four-question interview of 0.31 to 0.33 is gone (it asked things a first-time attractor could not answer, and re-trod the Brain) | "It asked me two things: what I do off the clock, and when I film" (YouTube: which topic, and when I film) · "it showed me my pillars from what I said in Week 1" · "it says ✓ and tells me what I did" | FAQ Q71 · Q72 · Q73–Q79 |
 | 0.31.0 to 0.33.0 (Short-Form 0.7.x · YouTube 0.7.x) — superseded | Four questions per sitting | "It asked me what agents ask me on the phone" → an older version: update the plugin | FAQ Q79 |
 | 0.30.0 (Short-Form 0.6.0 · YouTube 0.6.0) | One step a reply, then it waits | "It stopped and said 'Your turn'" · "it didn't build anything while I was away" | FAQ Q70 · tree #13 |

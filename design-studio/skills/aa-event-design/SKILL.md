@@ -21,7 +21,8 @@ attract agents. This is a **later-week** skill: it runs beside the member's **Ev
 into a finished, on-brand set — the pieces that fill the room, the countdown that keeps the date
 alive, the screens the room sees, and the slides the member teaches from. Mike's formula governs
 every piece (`15-advanced-scaling/74`, `75`, `76`): pick a hot topic agents care about, market it
-locally and get your agents to share it, deliver free, real, high-value training (never the tip of the
+locally and get your agents to share it (a member with no agents yet shares it through the people who already
+know them), deliver free, real, high-value training (never the tip of the
 iceberg with nothing usable), keep it interactive, and close without selling — *"what you learned
 today is the tip of the iceberg; if you want the systems, mentorship, and community below the surface,
 let's have a conversation."* Never a brokerage pitch slide, ever. **Digital only:** every piece here
@@ -196,9 +197,12 @@ Name any assumption you made inside your one opening line, and build.
 
 ## THE PIECES (promo first, screens second, slides when the run of show is in)
 
-Read `references/event-specs.md` now. Build in priority order; **masters first, then roll — never stop
-to ask**: the feed flyer locks the event's title treatment, the date chip, and the colour pairing;
-every later piece matches it. The turn never ends at a checkpoint; "say go" phrasing is banned.
+Read `references/event-specs.md` now. Build in priority order; **the master first, ONE checkpoint, then
+roll**: the feed flyer locks the event's title treatment, the date chip, and the colour pairing. **THE ONE
+CHECKPOINT (craft standard §11):** show the flyer and stop once — *"This flyer sets the look for your whole event
+set. Say **Yes** and I'll build the rest — or name the one change. **Your turn.**"* Wait for the Yes; a change →
+re-render it, show it, wait again. On the Yes every later piece matches it and the run does not stop again — the
+turn never ends at an internal checkpoint, and "say go" phrasing is banned.
 Never more than ~6 full-size frames per render; a 30-slide deck builds in waves of ~6 with the
 no-drift test after each wave.
 
@@ -407,7 +411,8 @@ same canonical names into the new event's folder.
 ## HAND BACK TO COWORK — print the phrase at the finish
 
 After the push: *"Your event set is in your event's folder in your Content folder. Post in the order in
-the notes file; your agents share the story flyer; after the event, your Events plugin runs the
+the notes file; [your agents share the story flyer | share the story flyer yourself and ask a few agents you know
+to pass it on — the second form for a member with nobody on their team yet]; after the event, your Events plugin runs the
 follow-up and the replay graphic goes out with it. Back in Cowork, say the line your Events plugin names
 for this set — until it names one, **'my event set is designed'**."* One line for the Brain if the
 event produced a win or a story: "remember this moment".

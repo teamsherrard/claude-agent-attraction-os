@@ -819,3 +819,13 @@ YouTube setups wait after every step and ask you two questions — the same two 
 they asked four; if yours says "Question 1 of 4", it is that older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
 is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.
+
+**Q80. My design skill made one or two pieces and stopped. Is it stuck? (Week 3)**
+No — it is waiting for you, and that is new on purpose. Every Design Studio skill now builds the first piece or two
+(your YouTube banner and your first post, the cover of your guide, the top of your page), shows them, and waits:
+say "Yes" and it builds the rest of the set in that look, or tell it the one thing to change. That way you steer
+before the whole set is built, not after. After your Yes it finishes everything without asking again. If yours
+built everything in one go, you have an older set: download the ten files again from the Design Studio release and
+replace the ones you uploaded. One more thing you may notice: if nobody has joined you yet, your welcome post and
+win post arrive as ready templates with an empty photo frame — nothing is invented, and they are waiting for the
+day your first agent joins.

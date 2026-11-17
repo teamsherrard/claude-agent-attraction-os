@@ -286,9 +286,13 @@ page matches the flyer. Same verbatim law, same form law, same compliance states
 - **Show each page in FULL on the review board** — every frame at the entire page height; a cropped
   "scrolls" box that shows only the hero is a failure.
 - Build the hero first as its own clean frame, then the page as stacked section bands (the render
-  rules in deploy-rules.md). CHECKPOINT after the hero, after every 3–4 bands, after the pop-up and
-  thank-you, after the deploy file. **THE TURN NEVER ENDS AT A CHECKPOINT** — a stage that passes is
-  followed by the next in the same response; "say go and I'll continue" is banned.
+  rules in deploy-rules.md). **THE ONE MEMBER CHECKPOINT comes after the hero (craft standard §11 — the
+  owner, 2026-11-15: "it should WAIT for me"):** show the hero, desktop and mobile, and stop — *"This is the top of
+  your page — the first thing an agent sees. Say **Yes** and I'll build the rest of the page — or name the one
+  change. **Your turn.**"* Wait for the Yes; a change → re-render the hero, show it, wait again. Your own
+  CHECKPOINTS follow after every 3–4 bands, after the pop-up and thank-you, after the deploy file — **after the
+  Yes the turn never ends at a checkpoint**: a stage that passes is followed by the next in the same response;
+  "say go and I'll continue" is banned.
 
 ## THE DEPLOY PACKAGE (read deploy-rules.md now — every rule, every time)
 

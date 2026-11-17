@@ -141,7 +141,7 @@ Read `references/playbook-specs.md` now (§0 for version one). Then:
 4. A page that comes out incomplete or off-template is fixed before any new page is added. Never more
    than ~6 full-size pages per render.
 
-**Masters first, then roll — never stop to ask.** The turn never ends at a checkpoint; "say go"
+**Masters first, the ONE member checkpoint (craft standard §11), then roll without another stop.** The turn never ends at a checkpoint; "say go"
 phrasing is banned. The member reviews the finished product and corrections apply across it.
 
 ## THE COVER — ONE COVER, EVERYWHERE (the canonical rule with the offer kit's product mockup piece)

@@ -1,5 +1,11 @@
 # START HERE — The Agent Attraction Design Studio (Week 3)
 
+*This set: 16 November 2026. What is new — every skill now shows you its first piece or two and waits for your
+Yes before it builds the rest; each reply tells you what you decided; and nothing is designed as if you already
+have agents on your team (those pieces are ready templates until you do). If you uploaded an older set, replace
+all ten skill files with these.*
+
+
 Ten Claude Design skills that build the visual brand agents will follow — the brand of YOU as a leader.
 **This is a coaching brand for agents, not a realtor brand for buyers and sellers**, and everything it
 makes is digital: profile pictures, banners, highlight covers, story and reel frames, a Zoom background,
@@ -35,8 +41,15 @@ move your project into Claude and keep working on it. The same skills run on a D
 
 ## THE FIVE GOLDEN RULES (everything depends on these)
 
-**The skills do not interview you.** Each one reads your three files, tells you in one line what it
-found, and builds. You react to real work and say what to change. Your brand chat in Cowork comes first
+**The skills do not interview you — and they wait for you.** Each one reads your three files, tells you in one
+line what it found, and builds the first piece or two. **Then it stops and shows you:** say **Yes** and it
+builds the rest in that look, or tell it the one thing to change. You steer before the big build, not after it.
+After your Yes it finishes the whole set without asking again, tells you what you decided, and names the first
+thing to do with it today.
+
+**New to attracting agents?** The skills design for where you are. A piece about people who have joined you — a
+welcome post, a win post, a team milestone — is built as a ready template for the day your first agent joins.
+Nothing is invented: no made-up agent, photo, number or quote. Your brand chat in Cowork comes first
 — say **"my attraction brand direction"** (about five minutes) — because it makes your Design Package
 brief.
 
@@ -78,9 +91,10 @@ brief.
 Every skill reads the same Design System and the same three files, tells you in one line what it found
 and builds, and when it finishes prints the one line to say back in Cowork so your Brain knows the piece
 exists.
-**The kit skills (the offer kit, the posts, the Value Vault) build one piece when you name it, or the
-whole set when you say the set phrase: they show you the masters first, wait for one yes, then build
-everything else without stopping.**
+**Every skill that builds a set works the same way: it shows you the first piece or two, waits for your one
+Yes (or your one change), then builds everything else without stopping.** The kit skills (the offer kit, the
+posts, the Value Vault) build one piece when you name it, or the whole set when you say the set phrase. The logo
+and the style sheet open with a choice instead — three logo directions, two looks — and wait for your pick.
 
 | # | File | Skill | Type this | What you get | Lands in | Say back in Cowork |
 |---|---|---|---|---|---|---|

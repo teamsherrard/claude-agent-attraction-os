@@ -129,7 +129,7 @@ Read `references/recognition-specs.md` now. In priority order:
    first name · status word), the organization name, the member's one line. Only wins already
    posted with consent; never a tile for a held win.
 
-**Masters first, then roll — never stop to ask.** The first win post locks the look (it is the kit's
+**Masters first, the ONE member checkpoint (craft standard §11), then roll without another stop.** The first win post locks the look (it is the kit's
 template, so the lock is fast); everything else in the same run follows it. The turn never ends at a
 checkpoint; "say go" phrasing is banned. Never more than ~6 full-size frames per render.
 

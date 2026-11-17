@@ -23,7 +23,10 @@ Week 3 Kit — SOCIAL GRAPHIC POSTS, one ask per post from its CALLS TO ACTION t
 carousels, two singles and a story, the captions handed back beside the pictures; Post 3 — My story
 is the member's five-slide story carousel. **The team templates**: a reusable set in the member's
 brand (welcome, agent win, milestone count, quote card, weekly call reminder, reel cover, program
-promo) the member re-uses with the tweak controls, every fixed word from the kit. **The side
+promo) the member re-uses with the tweak controls, every fixed word from the kit. **For a member whose Book
+records nobody on their team yet, they are handed over as exactly that — templates, "ready for the day your first
+agent joins"** (craft standard §1): the welcome and win posts carry the framed photo window, never an invented
+agent; the milestone count waits until there is a number; never "your team" said as a fact. **The side
 doors**, only when that document exists: a carousel from a Short-Form carousel doc or an event's
 promo brief (each with its LinkedIn PDF and story echo), and recognition graphics from a Win Wall
 brief (win posts and stories, welcome graphics, the private card, certificates, the roundup —

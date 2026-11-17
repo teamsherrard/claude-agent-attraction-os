@@ -216,7 +216,7 @@ in chat (never a question card); everything else takes its default without a wor
    layout quota lives on the pages that aren't bound to be identical, and the labels give each page its
    own room.
 
-## STEP 3 — RENDER (stages, checkpoints, the whole guide)
+## STEP 3 — RENDER (the first three pages, ONE checkpoint, then the whole guide)
 
 Build every page as its own frame at 2550×3300 (A4 when the brief says so), in the guide's order, in the
 three stages the reference sets — the cover + page 1 + one body page first (the template lock, the
@@ -225,8 +225,12 @@ models, because the other model pages must match it), then the remaining body pa
 comparison guide's model pages together, so they stay identical), then the "what to do next" page, the
 story page if any, the closing page and the back page. CHECKPOINT after each stage: every page complete
 top to bottom, on the locked template, the words verbatim, every element rendered as chapter 4's `The
-pages:` line says and no label printed, any model pages identical in layout and length. **THE TURN NEVER ENDS AT A
-CHECKPOINT** — a stage that passes is followed by the next in the same response; "say go and I'll
+pages:` line says and no label printed, any model pages identical in layout and length. **THE ONE MEMBER CHECKPOINT comes after the
+FIRST stage (craft standard §11 — the owner, 2026-11-15: "it should WAIT for me").** Show the cover, page 1 and the
+one body page on one board and stop: *"These three pages set the look for your whole guide — the cover, the first
+page and one inside page. Say **Yes** and I'll build the rest — or name the one change. **Your turn.**"* Wait for
+the Yes; a change → re-render that page, show it, wait again. **After the Yes the turn never ends at a
+checkpoint** — a stage that passes is followed by the next in the same response; "say go and I'll
 continue" is banned. A degraded page (soft type, drifted margins, a missing footer) is re-rendered before
 the next stage.
 

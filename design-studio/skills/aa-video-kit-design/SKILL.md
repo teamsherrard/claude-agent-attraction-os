@@ -322,8 +322,12 @@ kit: with the six posts beside it, the member tells their Brain **"my offer kit 
 
 ## BUILD ORDER (never more than ~6 full-size frames per render — kits rendered all at once die mid-render)
 
-Build in stages, self-checking each stage hard, and roll straight through without stopping to ask —
-the turn never ends at a stage, and "say go" phrasing is BANNED. When the pop-up set is asked for in
+Build in stages, self-checking each stage hard. **THE ONE MEMBER CHECKPOINT comes after Stage 1a (craft standard
+§11 — the owner, 2026-11-15: "it should WAIT for me"):** show `preview-16x9.png` — the hook banner, the name strip,
+the pop-up and the main call-to-action banner over a video frame — and stop: *"These set the look for every
+graphic on your videos. Say **Yes** and I'll build the rest of the kit — or name the one change. **Your turn.**"*
+Wait for the Yes; a change → re-render that piece, show the preview again, wait again. After the Yes roll straight
+through the remaining stages without stopping — the turn never ends at a stage, and "say go" phrasing is BANNED. When the pop-up set is asked for in
 the same session, it comes first — its own masters, its one checkpoint, its export page (the
 reference) — and then the kit's stages below roll as written. Build every overlay frame WITH its
 stage from its first render and drop it straight into its row (THE BOARD, in the reference): a frame

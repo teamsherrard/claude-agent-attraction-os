@@ -91,7 +91,7 @@ a finish line.
 
 ## THE PACKAGE (build order — what the member records with first)
 
-**Masters first, then roll — never stop to ask.** The lesson title card for Module 1, Lesson 1 and the
+**Masters first, the ONE member checkpoint (craft standard §11), then roll without another stop.** The lesson title card for Module 1, Lesson 1 and the
 outline page lock the course's title treatment, module colours, and type; everything else matches. The
 turn never ends at a checkpoint; "say go" phrasing is banned. Never more than ~6 full-size frames per
 render; workbooks build in batches of 3–4 pages.

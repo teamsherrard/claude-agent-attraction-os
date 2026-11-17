@@ -2,6 +2,23 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.35.0] — 2026-11-16
+
+**The Design Studio catches up: every design skill waits for a Yes, and nothing is designed as if the member already has agents (the ten `aa-…-design` skills · Support 0.2.4).** The owner asked for the Claude Design skills "based on all the updates that we've made so far". An audit of the ten found them untouched since 0.28.0 — and found that five of them still built their whole set in one go, the same "it did it all without me" the owner had named in the Cowork sittings.
+
+**The shared craft standard (`craft-standard.md`, word for word in all ten skills).**
+- **The one checkpoint is now in the order of work for every set-building run** (the owner, 2026-11-15: "it should WAIT for me to give direction or feedback"): build the master or two, show them, and stop — *"These two set the look for everything else. Say Yes and I'll build the rest — or name the one change. Your turn."* A change is re-rendered and shown, and the skill waits again. On the Yes the rest is built without another stop. Where a skill or a reference still says "the turn never ends at a checkpoint", that now means its internal stages after the Yes.
+- **The win line and the close** (the owner: "the student also needs to feel a WIN"): the reply after a Yes, a pick or a change opens by saying what the member decided; after the finished set the close names what they did and one first use that takes minutes.
+- **Never design as if the member already has agents** (the owner, 2026-11-16: "a lot of people in this group… have never attracted an agent in their life"): a welcome post, a win post, a milestone, a team photo or a testimonial is a ready template until the Book records someone, and is called that; never an invented agent, name, photo, number or quote; "the agents you want to attract"; a kit may carry one keyword, and one is what gets designed.
+
+**The five skills that never stopped now have their checkpoint.** The brand kit (after the YouTube banner and the first post — for a member with nobody on their team yet, their welcome-post template), the lead magnet guide (after the cover, page 1 and one inside page), the opt-in page (after the hero, desktop and mobile), the video kit (after the first preview sheet) and the event set (after the feed flyer). The offer kit, the posts and the Value Vault already had it; the logo and the style sheet already open with a choice.
+
+**Smaller.** The brand kit's "thumbnail master" is described as what it is — a look reference; each video's thumbnail is made in Higgsfield. "Drop a photo of your agents" reads "a photo from your next training or open house". The event hand-back has a form for a member with no agents to share the flyer. The Start Here page opens with a dated "what is new" line and says to replace an older set.
+
+**Support 0.2.4.** The Design Studio notes, the known modes ("it made one or two pieces and stopped" · "it built everything without showing me first" = an older set · "my welcome post has an empty photo frame"), a row in "What changed lately", and FAQ Q80.
+
+**The ten upload files are attached to this release.** Not yet run live in Claude Design.
+
 ## [0.34.2] — 2026-11-16
 
 **Two read-throughs as a first-time attractor: what a member with no agents, no bios, no kit and no board would have heard (Short-Form 0.8.2 · YouTube 0.8.2 · Support 0.2.3).** Each read-through played two members through the whole sitting: the demo member, and someone who has never attracted an agent. The two questions held — nothing else is asked. What was wrong were sentences around them.

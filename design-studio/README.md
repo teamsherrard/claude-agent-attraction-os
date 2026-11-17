@@ -88,7 +88,13 @@ rules), a MODE ROUTER that never asks a menu when the phrase or the kit already 
 a KIT RUN that builds the pieces in a fixed order with ONE member checkpoint after the masters (the
 offer kit: the canonical product cover and the transparent stack object; the content kit: post 1's cover
 + slide 2; the Value Vault: the cover and the first inside page), then everything else without
-stopping. Each piece's craft lives in `references/<piece>.md`, moved verbatim from the retired skill it
+stopping. **Since 2026-11-16 every set-building skill has that one checkpoint** (the shared craft standard,
+§0 and §11 — the owner: "it should WAIT for me to give direction or feedback"): the brand kit after its YouTube
+banner and first post, the guide after its cover and first two pages, the opt-in page after its hero, the video
+kit after its first preview sheet, the event set after its flyer. The reply after the Yes opens with a win line,
+and the close names what the member decided and the first thing to do with the work. The same standard now
+forbids designing as if the member already has agents: people-pieces are ready templates until the Book
+records someone. Each piece's craft lives in `references/<piece>.md`, moved verbatim from the retired skill it
 came from, so a piece stays callable alone by its own phrase.
 
 **The two new modes (the brief's §9).** `aa-content-design` — **"design my posts"** (also "design my six
