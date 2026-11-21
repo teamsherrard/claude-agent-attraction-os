@@ -212,7 +212,7 @@ ChatGPT-era "Minimum Tech Stack" video; ChatGPT prompt assets were updated for C
 ## The honest money answer (maa-support-account reads this)
 
 - **Required:** a paid Claude plan (the desktop app + Cowork). That's it.
-- **Optional, bring-your-own, feature-tied:** Riverside (the AI Editor — their own account) ·
+- **Optional, bring-your-own, feature-tied:** Riverside (the AI Editor — their own account; or Instagram's free Edits app on their Mac) ·
   ManyChat (the comment-to-DM sequences; the bonus templates import into THEIR account; free plan
   first, Pro only when their DM volume pops) · Metricool (auto-publishing; manual posting is free)
   · their CRM (GoHighLevel / Follow Up Boss / Google Sheets — Sheets is free; the Brain's

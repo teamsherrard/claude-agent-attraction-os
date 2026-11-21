@@ -29,7 +29,7 @@ missing. Nobody starts over.
 
 - **Somewhere to keep the agents you talk to** (Week 2) — GoHighLevel, Follow Up Boss, or a Google Sheet. A Google
   Sheet is free and a real answer.
-- **Riverside** (Week 4, your own account) — the AI Editing Studio records, edits, and publishes through it.
+- **Riverside** (Week 4, your own account) — the AI Editing Studio records, edits, and publishes through it. Or pick Instagram's free Edits app on your Mac instead (Claude Code on that Mac; it never posts).
 - **ManyChat** (Week 4, your own account, free plan first) — only if you run the comment-to-DM keyword sequences.
   The sequence templates are a Week 4 bonus asset you import into your own account; there is no plugin for it.
 - **Metricool** (Week 4) — only if you want posts scheduled for you. Posting by hand is free.
@@ -265,7 +265,8 @@ It closes with **what you did today** — your answers and your decisions, liste
 
 **Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
 `register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a
-recording. It edits inside your own Riverside account, every change checkable, and never publishes without your yes.
+recording. It asks once which editor is yours: your own Riverside account, or Instagram's free Edits app on your Mac
+(Claude Code on that Mac only). Either way every change is checkable and nothing is published without your yes.
 
 **Posting.** Copy-paste works from day one. To have posts scheduled for you: Metricool (in Cowork open Customize →
 Connectors, add the Metricool connector — a browser sign-in, no keys — then say `connect my posting tool`; your posts

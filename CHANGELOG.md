@@ -2,6 +2,23 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.37.0] — 2026-11-21
+
+**The editor gains a second engine: Instagram's free Edits app for Mac (Editor 0.5.1 · Support 0.2.7).** The AI Editing Studio (Plugin 5, Week 4) is still ONE plugin with the same 28 skills — now a member picks the engine that does the rendering. Riverside works exactly as before. The new engine is Instagram's Edits app on the member's own Mac: free, no per-edit fees (the only cost is their Claude plan), driven from Claude Code on that same Mac. It exports the finished video and never posts or schedules; the member shares it, or the Short-Form plugin's posting tool takes the file. It does not run in Cowork, on claude.ai, on an iPad or on Windows.
+
+**Editor 0.5.1** (vendored from the realtor marketplace's 0.5.0 by `scripts/vendor-riverside.sh`, with exactly the two documented downstream patches re-applied: the Brain-home patch and the plugin description trimmed under 1,024 characters; the version is one patch above the source, as before)
+- **Setup asks one question — which engine** (`default_engine`: `riverside` or `edits`) — and connects it: Riverside as before, or the Edits install on the Mac. Saying an engine's name in a request always wins ("edit this in Edits"); "switch my editor to edits" changes it. "set up my video editor" and "set up riverside" both still start setup.
+- **26 of the 28 skills carry an Engine section** (setup and the navigator handle the engine choice themselves), so the same craft rules (clean cut, hook, captions, music, B-roll, brand graphics, quality gates) run on either engine; the new references `edits-engine.md`, `edits-tool-map.md`, `edits-catalogs.md`, `edits-quirks.md`, `edits-grade-strategy.md` and `edits-tool-reference.md` say how each craft is done on Edits.
+- **New `scripts/edits/` folder** (Python 3, standard library only, plus two small Swift helpers): the reel builder (plan, build, resume), the driver, the card renderer and the frame measurer. Edits runs are checked on rendered frames and the exported file, the way Riverside runs are checked on revision diffs.
+- **Edits limits stated plainly:** no stock search inside Edits' server (own footage under the Movies folder, or free stock downloads with an optional free key); only royalty-free songs export with sound, so the music skill checks the licence flag first.
+- The compliance wording still names both setup phrases ("set up my compliance" / "set up my attraction compliance"), and the Brain-home rule still resolves `~/attraction-brain/` first.
+
+**Support 0.2.7.** One short entry for the engine choice: the stack map (the Plugin 5 row, a "Two engines" note and a new row in "What changed lately"), FAQ Q81 ("Do I have to use Riverside? Can I use Instagram's Edits app?"), a line in Q11 (costs) and Q20 (where an Edits project lives), and the cohort notes.
+
+**Docs.** The README plugin table and the setup guide's Week 4 lines.
+
+**Not yet run live in Cowork** (the Edits engine is not reachable from Cowork by design — it is a Claude Code on a Mac path).
+
 ## [0.36.1] — 2026-11-17
 
 **A correction to 0.36.0's own wording — the behaviour is unchanged (Short-Form 0.9.1 · YouTube 0.8.4 · Support 0.2.6).** 0.36.0 said the owner had been shown a made-up line on a question card in a live run. That was wrong: the owner was reading the Member Journey Map, where the Week 4 Game Plan step was described as "Builds the thirty-day plan and the ManyChat build sheet". The sitting still asks one question, in plain chat, and makes no ManyChat build sheet. What changed:
