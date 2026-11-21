@@ -126,7 +126,7 @@ for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
     m=re.match(r'^---\n(.*?)\n---',txt,re.S)
     if not m: print(f"  ✗ {f}: no frontmatter"); bad=True; continue
     d=os.path.basename(os.path.dirname(f))
-    vendored = "/realtor-riverside-editor/" in f
+    vendored = "/realtor-ai-editing-studio/" in f
     try: fm=yaml.safe_load(m.group(1))
     except Exception as e:
         if vendored:
@@ -180,7 +180,7 @@ for f in glob.glob(REALTOR+"/*/skills/*/SKILL.md"):
     for t in triggers(f): theirs.setdefault(t,f.split("/plugins/")[1])
 bad=[]; info=[]
 for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
-    if "/realtor-riverside-editor/" in f: continue   # the SAME plugin, vendored from the realtor marketplace
+    if "/realtor-ai-editing-studio/" in f: continue   # the SAME plugin, vendored from the realtor marketplace
     for t in triggers(f):
         if t in theirs:
             if "/maa-claude-support/" in f: info.append(t)   # two help desks by design; the navigator's two-desks rule routes
@@ -201,7 +201,7 @@ import glob,os,re,sys
 bad=False
 for plug in sorted(glob.glob("plugins/*/")):
     name=os.path.basename(plug.rstrip("/"))
-    if name=="realtor-riverside-editor":  # vendored as-is; carries house-rules.md Brain-home rule instead
+    if name=="realtor-ai-editing-studio":  # vendored as-is; carries house-rules.md Brain-home rule instead
         if not os.path.exists(plug+"shared/house-rules.md") or "Brain-home rule" not in open(plug+"shared/house-rules.md").read():
             print(f"  ✗ {name}: vendored Studio is missing the Brain-home rule in shared/house-rules.md"); bad=True
         continue
@@ -230,7 +230,7 @@ for plug in ("attraction-shortform-system","attraction-youtube-system"):
 pat=re.compile(r"\b(cs-(clone-setup|clone-styles|clone-reel|thumbnail-employee|thumbnail-score|headshots|broll|ad-creatives|product-animation|setup)|team-(onboarding|plug-in|duplication-kit|teach-to-attract|recognition|win-wall|culture-audit|community|survey|exit-interview|1on1)|org-analysis|realtor-ai-editor|edit-longform|edit-shortform|editor-navigator)\b")
 allow=re.compile(r"removed|parked|not (in|part of) this|retired|never",re.I)
 for f in glob.glob("plugins/**/*.md",recursive=True):
-    if "realtor-riverside-editor" in f: continue
+    if "realtor-ai-editing-studio" in f: continue
     for n,l in enumerate(open(f,encoding="utf-8"),1):
         if pat.search(l) and not allow.search(l): print(f"  ✗ {f}:{n}: routes to a removed/retired system: {l.strip()[:90]}"); bad=True
 if not bad: print("  ✓ Composio kept in both content engines; no routes to removed systems")
@@ -252,7 +252,7 @@ say "── 14. the Support stack-map's plugin table matches the installed plugi
 python3 - <<'PY2' || FAIL=1
 import re,os,glob,sys
 sm=open("plugins/maa-claude-support/shared/stack-map.md",encoding="utf-8").read()
-names={"Agent Attraction Brain":"attraction-ai-brain","MAA Claude Support":"maa-claude-support","Short-Form":"attraction-shortform-system","AI Editor":"realtor-riverside-editor","YouTube":"attraction-youtube-system","Conversion & Sales":"attraction-conversion-sales","AI Admin":"attraction-ai-admin","Lead Magnet":"attraction-lead-magnet","Events & Workshops":"attraction-events-workshops"}
+names={"Agent Attraction Brain":"attraction-ai-brain","MAA Claude Support":"maa-claude-support","Short-Form":"attraction-shortform-system","AI Editor":"realtor-ai-editing-studio","YouTube":"attraction-youtube-system","Conversion & Sales":"attraction-conversion-sales","AI Admin":"attraction-ai-admin","Lead Magnet":"attraction-lead-magnet","Events & Workshops":"attraction-events-workshops"}
 bad=False
 for label,plug in names.items():
     if not os.path.isdir(f"plugins/{plug}"): continue

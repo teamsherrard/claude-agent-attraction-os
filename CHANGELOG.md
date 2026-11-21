@@ -2,6 +2,22 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.38.0] — 2026-11-21
+
+**The editor plugin has a new name — The AI Editing Studio — and a readiness round (Editor 0.6.1 · Support 0.2.8).** The editor is one plugin with two engines (Riverside, or Instagram's free Edits app on the member's Mac), so "Riverside" no longer belongs in its id. The plugin is now `realtor-ai-editing-studio` and its listing reads "The AI Editing Studio (Plugin 10)". The skills, their phrases and the member's saved settings are unchanged.
+
+**What a member who already installed it does, once:** open Customize → Plugins, remove the old editor plugin (its id was realtor-riverside-editor; its listing began "The AI Editing Studio - Riverside"), and install "The AI Editing Studio" from this marketplace. The editor's settings, brand block and checkpoint logs live in the Brain, so nothing has to be set up again ("set up my video editor" only confirms what is there). A member installing for the first time is not affected.
+
+**Editor 0.6.1** (vendored from the realtor marketplace's 0.6.0, with exactly the two documented downstream patches re-applied; the folder, the marketplace entry, the release gate and the vendor script all follow the new id; the version stays one patch above the source)
+- **A 33-point readiness audit applied across the skills and shared references:** limits that only belong to Riverside are now scoped to Riverside; every quality-gate blocker names its proof on Edits (a rendered frame or the exported file) as well as on Riverside; the long-form and trailer lines now have their Edits version; Edits trigger phrases ("edit this in Edits") are on the director skills; setup asks only the questions that engine needs.
+- **The Edits reel builder keeps a checkpoint log**, takes a start and an end for a span of the recording, and resumes a stopped run without being told the clip again.
+- **The example config no longer carries a block for the retired editor.**
+- **One downstream trim:** the source's `studio-publish` description is 1,030 characters; here it is 981 (the "usually reached through the navigator" tail is dropped), because claude.ai cuts at 1,024.
+
+**Support 0.2.8.** A new row in "What changed lately" (the new name, remove the old listing and install the new one once, settings untouched), a sentence on it in FAQ Q81, and the stack-map's Plugin 5 row.
+
+**Not yet run live in Cowork.**
+
 ## [0.37.0] — 2026-11-21
 
 **The editor gains a second engine: Instagram's free Edits app for Mac (Editor 0.5.1 · Support 0.2.7).** The AI Editing Studio (Plugin 5, Week 4) is still ONE plugin with the same 28 skills — now a member picks the engine that does the rendering. Riverside works exactly as before. The new engine is Instagram's Edits app on the member's own Mac: free, no per-edit fees (the only cost is their Claude plan), driven from Claude Code on that same Mac. It exports the finished video and never posts or schedules; the member shares it, or the Short-Form plugin's posting tool takes the file. It does not run in Cowork, on claude.ai, on an iPad or on Windows.

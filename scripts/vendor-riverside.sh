@@ -6,11 +6,11 @@
 # Downstream patches re-applied after each vendor:
 #   1. Brain-home patch — shared/house-rules.md "The Brain-home rule" + every `<Brain home>` path (resolves ~/attraction-brain/ first).
 #   2. .claude-plugin/plugin.json — description trimmed to ≤ 1,000 characters (claude.ai refuses plugin updates above 1,024) and the
-#      version bumped one patch above the realtor source (0.4.4 → 0.4.5), equal to the marketplace registry entry.
+#      version bumped one patch above the realtor source (0.5.0 → 0.5.1), equal to the marketplace registry entry.
 set -euo pipefail
-SRC="${1:-/Users/riyabidani/Downloads/realtor-ai-brain/plugins/realtor-riverside-editor}"
+SRC="${1:-/Users/riyabidani/Downloads/realtor-ai-brain/plugins/realtor-ai-editing-studio}"
 cd "$(dirname "$0")/.."
-rm -rf plugins/realtor-riverside-editor && cp -R "$SRC" plugins/realtor-riverside-editor
+rm -rf plugins/realtor-ai-editing-studio && cp -R "$SRC" plugins/realtor-ai-editing-studio
 echo "Vendored from $SRC — now re-apply the Brain-home patch if the source does not carry it yet (see git log for the patch commit)."
 
 # claude.ai stores a skill description cut at 1024 characters and Cowork warns on every sync. The realtor source carries
@@ -18,7 +18,7 @@ echo "Vendored from $SRC — now re-apply the Brain-home patch if the source doe
 # Re-apply the trims (git log for the commit) for anything listed here, then run scripts/check-release.sh.
 python3 - <<'PYCHK'
 import glob,re
-for f in sorted(glob.glob("plugins/realtor-riverside-editor/skills/*/SKILL.md")):
+for f in sorted(glob.glob("plugins/realtor-ai-editing-studio/skills/*/SKILL.md")):
     fm=re.match(r'^---\n(.*?)\n---',open(f,encoding="utf-8").read(),re.S)
     m=re.search(r'^description:\s*>?\s*\n?((?:.*\n?)*?)(?=^[a-z_-]+:|\Z)',fm.group(1),re.M|re.S) if fm else None
     n=len(" ".join((m.group(1) if m else "").split()))

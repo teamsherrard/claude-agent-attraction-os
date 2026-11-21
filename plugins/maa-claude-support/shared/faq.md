@@ -840,4 +840,6 @@ free app for your Mac: it needs the Edits app on your own Mac and Claude Code on
 in Cowork, on claude.ai or on an iPad — and there are no per-edit fees beyond your Claude plan. Edits exports the
 finished video and never posts it; you share it yourself. Either way the editing rules are the same and nothing is
 published without your yes. To switch, say "set up my video editor" again, or name the engine in the request ("edit
-this in Edits"). Don't see the question? Update your plugins (Customize → Plugins) and start a new chat.
+this in Edits"). Don't see the question? Update your plugins (Customize → Plugins) and start a new chat. The editor plugin is now called
+"The AI Editing Studio": if your list still shows the old Riverside editor, remove it and install the new one once —
+your saved editor settings stay as they are.
