@@ -12,10 +12,10 @@ run plugins. The Creative Studio plugin (the two Higgsfield "employees") is NOT 
 (Mike, 2026-10-08) — but the cohort's members do make their YouTube thumbnails in Higgsfield themselves, on
 their own account, from the sheet `yt-thumbnail` writes (the owner, 2026-11-14).
 
-> **Launch cut (2026-11-03): the marketplace carries Plugins 1 and 2, and since 2026-11-08 Plugin 3 (Lead Magnet, Week 2).**
-> The rest are built and parked on the `wip/all-plugins` branch while they are fixed and optimized; they return to the
-> marketplace one by one as the cohort reaches them. Until a plugin is back, the desk says **"coming"** and never tells a
-> member to install it.
+> **The marketplace carries Plugins 1 to 6** (launch cut 2026-11-03 with Plugins 1 and 2; Plugin 3 returned 2026-11-08;
+> Plugins 4, 5 and 6 returned 2026-11-14). Plugins 7 to 9 are built and parked on the `wip/all-plugins` branch while they
+> are fixed and optimized; they return to the marketplace one by one as the cohort reaches them. Until a plugin is back,
+> the desk says **"coming"** and never tells a member to install it.
 
 | # | Plugin (install week) | Prefix | Skills | Status | Front door (say this) |
 |---|---|---|---|---|---|

@@ -8,9 +8,10 @@ Install the marketplace in Claude Cowork: **Customize → Plugins → ＋ (besid
 
 ## The plugins (install in this order, one per cohort week)
 
-> **Available in the marketplace today: Plugins 1, 2 and 3.** The rest are built and being fixed and optimized on the
-> `wip/all-plugins` branch; they are released into this marketplace one by one as the cohort reaches them. Install
-> Plugin 1 and Plugin 2 in Week 1, Plugin 3 in Week 2, then stop.
+> **Available in the marketplace today: Plugins 1 to 6.** (The Design Studio is a Claude Design skill set you upload, not
+> a plugin you install.) Plugins 7 to 9 are built and being fixed and optimized on the `wip/all-plugins` branch; they
+> return to this marketplace one by one as the cohort reaches them. Install Plugins 1 and 2 in Week 1, Plugin 3 in
+> Week 2, Plugins 4 and 5 in Week 4, Plugin 6 in Week 5 — each one as its week arrives, not before.
 
 | # | Plugin | Week | What it is |
 |---|---|---|---|

@@ -2,6 +2,12 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.38.1] — 2026-11-21
+
+**A correction to the README and to the Support desk's stack map — behaviour unchanged (Support 0.2.9).** Both still said the marketplace carried only Plugins 1 to 3, with the rest parked on the wip branch. Plugins 4 (Short-Form), 5 (The AI Editing Studio) and 6 (YouTube) have been on main since 2026-11-14 and the registry lists all six; a member reading either text would have thought the editor was not out yet.
+- The README callout now reads "Available in the marketplace today: Plugins 1 to 6", names the Design Studio as an uploaded skill set rather than a plugin, and gives each plugin's install week (1 and 2 in Week 1, 3 in Week 2, 4 and 5 in Week 4, 6 in Week 5).
+- **Support 0.2.9:** the stack map's lead-in says the same — Plugins 1 to 6 carried, 7 to 9 parked and "coming". Its plugin table and the "What changed lately" rows were already right and are unchanged.
+
 ## [0.38.0] — 2026-11-21
 
 **The editor plugin has a new name — The AI Editing Studio — and a readiness round (Editor 0.6.1 · Support 0.2.8).** The editor is one plugin with two engines (Riverside, or Instagram's free Edits app on the member's Mac), so "Riverside" no longer belongs in its id. The plugin is now `realtor-ai-editing-studio` and its listing reads "The AI Editing Studio (Plugin 10)". The skills, their phrases and the member's saved settings are unchanged.
