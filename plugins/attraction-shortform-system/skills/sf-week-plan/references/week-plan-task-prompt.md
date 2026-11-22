@@ -194,8 +194,7 @@ message and continue.
      "Last week you got [n] of [m] out — [the title of one that went out] is live." None, or the plan's first week →
      no line at all: never a guilt line, never a nag. Only what the Brain shows: never a view count, never reach,
      never an income or results claim.
-   - One line, only when step 4b placed a clip: "Two of this week's Reels are clips from '[video title]' — film
-     them straight from the script." (One clip: "One of this week's Reels is a clip from '[video title]' — film
+   - One line, only when step 4b placed a clip: "Two of this week's Reels are clip scripts from '[video title]' — film them as written." (One clip: "One of this week's Reels is a clip from '[video title]' — film
      it straight from the script." Two videos: both titles.) Said once; never a count of what is still waiting,
      never the words "System ID".
    - THIS WEEK — one line per post: day · the hook · pillar · the ask with its word · "on your board" / "in your

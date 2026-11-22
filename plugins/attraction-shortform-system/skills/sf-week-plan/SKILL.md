@@ -211,7 +211,7 @@ moved, renamed, or deleted are their decisions.
    — '[a title]' is live."* — counted from the calendar's `Published` rows of last week; no line when none went out
    or it is the first week; never a guilt line, never a view count. Then: *"Your week is drafted — [N]
    posts on the board, [the kit posts] ready to post, your stories for the week, filming day [day]. Two of this
-   week's Reels are clips from '[video title]' — film them straight from the script. Plus a welcome
+   week's Reels are clip scripts from '[video title]' — film them as written. Plus a welcome
    post for [First] — needs her OK (the graphic is a name-and-photo swap in Claude Design: say 'my welcome post for
    [First]'). When a Reel is filmed: open a new chat and say 'edit my reel' — your AI Editing Studio (Plugin 5) edits
    it inside your own Riverside account with the Video Brand Kit you designed in Week 3 (not installed yet? install

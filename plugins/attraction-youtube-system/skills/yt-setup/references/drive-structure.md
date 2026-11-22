@@ -47,7 +47,7 @@ chat-driven and reads state live (the Brain, the content log, the channel, the b
 - Monthly review (the scheduled run): `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`
 - Starter resource: `Starter Resource — YYYY-MM-DD` (`yt-leads`; `03 · Content/Guides/`; the fallback — built once, in Week 5, only while no Week 2 guide exists)
 - Docs inside a video folder — FIXED names: `Kickoff Brief — [title] — YYYY-MM-DD` · `Script` · `SEO Package — [title] — YYYY-MM-DD` ·
-  `Thumbnail Brief — [title] — YYYY-MM-DD` · `Lead Map — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
+  `Thumbnail Brief — [title] — YYYY-MM-DD` · `Repurposing Pack — [title] — YYYY-MM-DD` ·
   `Interview Prep — [guest] — YYYY-MM-DD` · `Model Breakdown — [title] — YYYY-MM-DD`
 - Exports (the text beside the document, in `~/attraction-brain/exports/`): `channel-kit-YYYY-MM-DD.txt` · `youtube-game-plan-YYYY-MM-DD.txt` ·
   `youtube-kickoff-YYYY-MM-DD.txt` · `youtube-review-YYYY-MM-DD.txt` · `youtube-read-YYYY-MM-DD.txt`
@@ -78,6 +78,10 @@ Dates are always `YYYY-MM-DD` so folders sort. Same name, same spot, every time.
    the Monday Kickoff creates it for the Kickoff Brief; `yt-script` reuses it).
 3. Before creating a doc, check the folder for one of that name — a re-run of an undated doc saves `Script — v2`
    (the connector cannot overwrite) and tells the member; dated docs simply get today's date, newest is current.
+   **A dated doc changed or re-made on the same day** (a fix after it was saved, a repair, a start-over): save the
+   new copy, verify it, then move the older copy of that day to the trash (`shared/connectors.md`, hard truth 1 —
+   recoverable; a session that cannot trash names the new one `… — v2`), write the new link wherever the Brain
+   holds the old one, and give the member the NEW link — never a stale one.
 4. Render through `shared/render_doc.py` per `shared/doc-format.md`; upload the `.docx`; write the same text to the
    document's `exports/` file; push via `attraction-brain-sync` (the push re-renders the Brain Board); confirm the
    location in plain words: *"Saved in your workspace under Content → Long-Form → [video]."* Never a path, never an ID.

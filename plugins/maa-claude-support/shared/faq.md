@@ -79,7 +79,7 @@ Golden rule: nothing in this system auto-sends — Claude drafts, you approve.
 **Q8. Can I talk to it instead of typing?**
 Yes — voice mode. Your phone is the sweet spot: driving back from a showing, say "I just talked
 to an agent, capture this…" and the capture skill files it in your top 50 and conversations. In
-Week 5 voice is also how you practice objections: Claude plays the agent, you answer out loud. You
+Week 6 voice is also how you practice objections: Claude plays the agent, you answer out loud. You
 can also just dictate into any chat like a voice memo. Exactly which devices have voice mode
 today: I'll check the official page — it's still rolling out. **[check live for surfaces]**
 
@@ -156,8 +156,8 @@ Seven links, in order — never skip ahead:
 6. Connect email + calendar + drive + your CRM when setup asks
 7. The brand chat and the Design Studio's Design Package (logo → style sheet → brand) in Week 3, with Claude
    Design — Week 1 is the Brain only; each week's plugins as that week opens (in Week 2 the Lead
-   Magnet plugin — in one sitting, the offer first if it isn't built — the offer's design assets come in Week 3 — Short-Form + Riverside in
-   Week 3…)
+   Magnet plugin — in one sitting, the offer first if it isn't built — the offer's design assets come in Week 3 — Short-Form + the AI Editing Studio in
+   Week 4, YouTube in Week 5…)
 
 Lost? Say "am I set up right" — I'll find where you are and we resume from the first missing
 step. Never start over.
@@ -411,7 +411,7 @@ Next step: you're set — say "set up my attraction short-form" when Week 4 open
 Straight from Mike (Attraction vs. Recruiting, Week 1): agents coming to you is slower at the start and exponential over time — that's the trade, and it's why the first weeks are Brain and positioning, not outreach.
 
 - Short form builds Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation; long form is where an agent decides (20 to 100+ minutes consumed before a conversation)
-- Week 5 is where conversations START on purpose: Prospect Radar + Agent Intel + personalized conversation starters — so you're not waiting on content alone
+- Week 6 is where conversations START on purpose: Prospect Radar + Agent Intel + personalized conversation starters — so you're not waiting on content alone
 - Mike's own timeline (five-plus years to "my presence gets the deal done") is HIS story, not your deadline
 - The #1 failure Mike names is quitting before the compound kicks in — and "1 agent can change your life" is the lesson for the dip
 
@@ -565,8 +565,8 @@ Next step: try "what did Mike say about 3-way calls."
 Scheduled agents only exist if you said yes when their owner skill offered them — and they only
 ever DRAFT.
 
-- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; the content report in Week 4; the follow-up
-  queue and call prep in Week 5. Two things are on demand, never scheduled: the Prospect Radar's
+- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; the four short-form workflows on one card in Week 4; the Monday Kickoff and the
+  Monthly Channel Review on one card in Week 5; the follow-up queue and call prep in Week 6. Two things are on demand, never scheduled: the Prospect Radar's
   news scan ("scan agent movement") and the CEO review ("run my CEO review") — just say the phrase
 - Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase)
   and it offers again — I never create one for you
@@ -597,7 +597,7 @@ Straight answer.
 
 - Thumbnails: you make them in Higgsfield, from the sheet your YouTube plugin writes for each video (Week 5 — Q64).
   There is no "employee" to install and no clone step in this OS; nothing here connects to Higgsfield
-- Descript is the REALTOR cohort's editor; yours is the Riverside editor (Week 4)
+- Descript is the REALTOR cohort's editor; yours is the AI Editing Studio (Week 4) — it edits in your own Riverside account, or in Instagram's Edits app from the Code tab on a Mac (Q81)
 - If a playbook page or an older video mentions either, the strategy holds — the tool changed
 
 Next step: nothing to buy. Say "help" if you want me to log the ask for Mike.
@@ -676,23 +676,26 @@ only puts its next 30 days on the board (four to nine cards), never its whole ba
 same page every time: the hook, the script, the caption, the ask, filming notes, sources, and how it did.
 
 **Q59. YouTube: do I really have to film two videos a week?**
-No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos on the 8-video
-cycle (a niche video, an interview, a niche video, your model breakdown). Two a week is Mike's recommendation and the
-step-up your monthly channel review proposes once a month at one has held; say "change my YouTube cadence" any time. Interviews can be
-recorded two in one sitting, so the ratio holds even when your filming time is tight.
+No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos, in this
+order: a topic video, an interview, a topic video, your model video. Two a week is Mike's recommendation and the
+step-up your Monthly Channel Review proposes once a month at one has held; to change your pace any time, say "change my YouTube pace". Interviews can be
+recorded two in one sitting, so the mix holds even when your filming time is tight. If you have nobody to
+interview yet, that week takes the next video from your three topics, so no week is ever empty; your first
+interview goes on your plan the day you name someone ("set up an agent interview").
 
 **Q60. Where do my YouTube videos live on the board?**
 On the same Notion content board as your Reels, under its own YouTube tab (the tabs sit at the top of the board: Graphics, Reels,
-YouTube, Calendar). The tab holds your next 30 days only — four or five cards at one a week — never
-the whole 90-day plan; that stays in your Game Plan document. Every card opens to the same page: the hook, the script,
-the thumbnail sheet, the SEO package, the resource, your reference video, the guest, notes, your publish checklist, and
-how it did.
+YouTube, Calendar). The tab holds your next 30 days only — four or five cards at one a week (three or four on your
+first day, because your first video is at least three days out) — never all ninety days; the rest stays in your Game
+Plan. Every card opens to the same page: how it opens, the script, your thumbnail sheet, your title and description,
+the resource, your reference video, the guest, notes, your publish checklist, and how it did.
 
 **Q61. What does the Monday Kickoff actually do, and will it email me?**
-Every Monday it reads your plan and your board, drafts this week's video onto its card — the brief, the start of the
-script or the interview guide, the thumbnail brief, the start of the SEO package — notes it in your Brain and your
-video's folder, keeps your next 30 days on the board, and leaves a short note in Cowork, and sends you one short email at your own address
-(the same as your short-form notes; nothing if no mail is connected). It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat.
+Every Monday it reads your Game Plan and your board, drafts this week's video onto its card — three ways to open it, the start of the
+script or the interview guide, your thumbnail sheet, the start of your title and description — notes it in your Brain and your
+video's folder, keeps your next 30 days on the board, leaves a short note in Cowork, and sends you one short email at your own address
+(the same as your short-form notes; nothing if no mail is connected). On an interview week with no guest named yet, it drafts the next video
+from your three topics instead, so no week is ever empty. It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat, in three short steps (Q70).
 
 **Q62. Do I switch the workflows on one by one, or pick which ones I want?**
 Neither. Setup tells you what it is switching on — four for short-form, two for YouTube — and you say Yes to that
@@ -714,8 +717,9 @@ words to put on it. Make it in Higgsfield, drop the finished picture into that v
 done". Your channel banner is different: it was made with your brand kit in Week 3 and is already in your Brand folder.
 
 **Q65. Does YouTube add to my short-form workload?**
-No, it feeds it. After a video is out, say "repurpose my attraction video": it writes three short clip scripts from
-that video and queues them. The next Monday plan turns up to two of them into that week's Reels, so the video fills
+No, it feeds it. Three short clip scripts are written from each video — on your Yes right after "my video is
+published", or any time with "repurpose my attraction video". You film them like any Reel, and they are queued:
+the next Monday plan turns up to two of them into that week's Reels, so the video fills
 slots you already had instead of adding new ones. At least one Reel a week stays an original from your plan.
 
 **Q66. What is the "reference video" on my YouTube cards? Is it a real video?**
@@ -733,13 +737,14 @@ column of your YouTube tab, and it plays right on the card. A few plain facts:
 Open the video's card on your board and scroll to "Publish it". Six tick boxes, in the order YouTube Studio shows
 them: title, description, thumbnail, playlist, end screen, pinned comment. Each one says where to click and exactly
 what to paste, already written for that video. Tick them as you go. When all six are ticked, say "my video is
-published" with the link, and the card moves to Published. Nothing uploads or publishes for you.
+published" with the link, and the card moves to Published. It then waits for your Yes before it writes your three short
+clip scripts. Your YouTube plugin never uploads or publishes a video for you.
 
 **Q68. Can it read my real YouTube numbers?**
 Yes, when you want it. It is a separate two-minute step, never part of setup: open a new chat and say "connect my
 YouTube numbers". It shows you exactly where to click, you sign in to YouTube once, and it only ever reads. After
-that your reviews and your reference videos carry real view counts. Without it everything still works; your monthly
-review asks you for three screenshots from YouTube Studio instead. Your Monday and monthly workflows never use this
+that your reviews and your reference videos carry real view counts. Without it everything still works; your Monthly
+Channel Review asks you for three screenshots from YouTube Studio instead. Your Monday and monthly workflows never use this
 connection on their own.
 
 **Q69. Can I film several videos in one day?**
@@ -758,13 +763,16 @@ It does now. Your short-form setup and your YouTube setup go one step at a time:
 "Yes" to move on, or tell it what to change and it changes that and waits again. Both setups also ask you one
 short question along the way — the day you can film (Q71). If you walk away, nothing more
 happens until you are back. If you would rather it ran straight through, say "do it all" — it then stops only for
-your Yes on the workflows.
+your Yes on the workflows. Making a video works the same way: "make my attraction video" shows you the direction and
+waits, then your script and waits, then finishes the rest.
 
 **Q71. Why are my short-form and YouTube setups asking me questions? I thought they already knew me.**
 They do know you — they never ask again for anything you told your Brain, and they build from it. Each setup asks
 only one question, the same for every member, whether you have attracted fifty agents or none yet:
 - **Short-form:** which day (and where) you can film.
-- **YouTube:** which day you can film a full video.
+- **YouTube:** which day you can film a full video. If your Brain already holds your filming day from Week 4, it does
+  not ask at all — it reads that day back to you for a Yes or a change. So "it asked me nothing but my channel" is
+  how it is meant to work.
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
 it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
 your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", "what do you do off the clock?", "which
@@ -777,7 +785,8 @@ Your setups are built to be done together, not done for you. Each reply opens wi
 just decided or did (that is the "✓" line), and each reply hands you one thing that is yours — a question to answer
 in your own words, a choice about your own content, or a two-minute action such as opening your plan. The sitting
 closes with "what you did today", your answers and decisions listed back to you, and names the first win you can
-have this week: a post that is already designed and only needs posting.
+have this week — in short-form, a post that is already designed and only needs posting; in YouTube, your three
+channel pieces, ready to paste.
 
 **Q73. It stopped and says "Your turn." Is it stuck?**
 No — it is waiting for you. Your short-form and YouTube setups do one step, then stop until you answer. Read the last
@@ -789,7 +798,8 @@ setup phrase again — it picks up at the same place and nothing is lost.
 **Q74. I skipped a question, or said "I don't know". Can I answer it later?**
 Yes. Skipping is always fine — it builds that part from your Brain and never asks twice. To put it in your own words
 later: for short-form say "update my pillars"; for YouTube say "refresh my attraction game plan". It asks the
-question you skipped, then rebuilds that one piece around your answer — nothing else on your plan moves.
+question you skipped, then rebuilds that one piece around your answer — nothing else on your plan moves (in YouTube,
+your filming day also re-dates the videos you have not started yet).
 
 **Q75. Where do my answers go? Can I see them?**
 On your Brain Board, with your pillars, under "In your words" (your YouTube answers sit with your channel), saved
@@ -812,7 +822,7 @@ sound like you and not like everyone else, so add them later whenever you like (
 Yes, any time. During setup, at "If that sounds like you, say Yes", say what to change — a pillar, how many posts a week
 (any number that is honest for you), your filming day, or an answer you would give differently — and it changes that
 and waits again. After setup: "update my pillars", "change my cadence" or "set my batch day" for short-form;
-"refresh my attraction game plan" or "change my YouTube cadence" for YouTube.
+"refresh my attraction game plan" or "change my YouTube pace" for YouTube.
 
 **Q79. My setup behaves differently from the one a friend in the cohort described.**
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and

@@ -50,7 +50,7 @@ by your AI system."* *(The YouTube and Short-Form systems both write here.)*
 |---|---|---|
 | **Topic** | Title | The exact video/post title — long-form: the search-intent title (the question an agent actually types); short-form: the hook |
 | **Format** | Select | `Long-Form` · `Green Screen` · `Talking Head` · `Carousel` · `Graphic` (a Reel = `Talking Head`; stories are never cards — the daily rhythm is one line in the plan) |
-| **Status** | Select | `Idea` → `Scripted` → `Ready to Film` → `Recorded` → `Ready to Post` → `Published` — the OS-wide vocabulary (Idea → Scripted → Recorded → Published) with two board steps: `Ready to Film` (the short-form workflows) and `Ready to Post` (a designed graphic, or an edited video, that only needs posting). **A designed post is never `Recorded` — nothing was recorded** (the owner, 2026-11-14): the six kit posts and every team graphic are seeded at `Ready to Post`. `Edited` exists only in the content-log (the Riverside editor sets it), never on the board. **Scheduled is not a status**: scheduling sets the Publishing Date and leaves Status where it is. |
+| **Status** | Select | `Idea` → `Scripted` → `Ready to Film` → `Recorded` → `Ready to Post` → `Published` — the OS-wide vocabulary (Idea → Scripted → Recorded → Published) with two board steps: `Ready to Film` (the short-form workflows) and `Ready to Post` (a designed graphic, or an edited video, that only needs posting). **A designed post is never `Recorded` — nothing was recorded** (the owner, 2026-11-14): the six kit posts and every team graphic are seeded at `Ready to Post`. `Edited` exists only in the content-log (the AI Editing Studio sets it), never on the board. **Scheduled is not a status**: scheduling sets the Publishing Date and leaves Status where it is. |
 | **Pillar** | Select | **STRICT — never invent options.** **Short-form cards: EXACTLY the five OS pillars — `Authority` · `Perspective` · `Story` · `Proof` · `Personality`.** **Long-form cards: EXACTLY the Game Plan's lane names as `yt-board` writes them — `Niche: Problem` · `Niche: Situation` · `Niche: Future` · `Interview` · `Model`** (the three lanes: niche, interview, model) — with the true OS pillar as the first line of Context (`• Pillar: Authority` for the niche lanes, with the Story angle noted for a Why I Switched; `• Pillar: Proof` for Interview; `• Pillar: Perspective` for Model). Nothing else — no content types, no avatars, no ad-hoc labels: mixed options make every filter meaningless. `memory/content-log.md` always carries the OS pillar name. |
 | **Guest** | Text | Interviews only: the guest's name, from `memory/interview-pipeline.md`. Empty for everything else. |
 | **Context** | Text | Short bullets, Mike-style — **HARD CAP ~12 words per bullet** (one line each; detail lives on the card page, never in the cell). Long-form: `• Pillar: …` first, then `• What: …` `• Outcome: …`. Short-form: `• For: [the avatar]` · `• Rung: [the CTA rung + KEYWORD]` (the pillar may lead here too). |
@@ -106,15 +106,24 @@ member opens one card and has everything:
 - **✅ PUBLISH IT — SIX STEPS IN YOUTUBE STUDIO** (the owner, 2026-11-14: uploading is where older members get
   stuck) — six tick boxes, written as real to-do items (`- [ ]`) so the member ticks them on the card, each with the
   click path and exactly what to paste or upload for THIS video:
-  1. **Title** — Details → Title: paste the chosen title from 🔍 SEO PACKAGE.
+  1. **Title** — top right, Create → Upload videos → choose your edited file; then Details → Title: paste your
+     title from 🔍 SEO PACKAGE. (A first video adds: *"The first time, YouTube asks you to verify your account by a
+     text or a call, at youtube.com/verify — you need it once, to add your own thumbnail and to upload a video longer
+     than fifteen minutes."*)
   2. **Description** — Details → Description: paste the description from 🔍 SEO PACKAGE (line 1 the call and the
-     booking link, line 2 the guide, line 3 the compliance and contact line).
+     booking link, line 2 the guide, line 3 the compliance and contact line). *"If the box already holds your default
+     lines, select everything in it and paste this over it."*
   3. **Thumbnail** — Details → Thumbnail → Upload file: the thumbnail made in Higgsfield, from this video's folder.
      All three made, and Studio shows **Test & compare** there → use it and upload the three; YouTube picks the winner.
-  4. **Playlist** — Details → Playlists: tick the playlist named here (this video's topic playlist, by its exact name).
+  4. **Playlist** — Details → Playlists: tick the playlist named here (this video's topic playlist, by its exact
+     name). *"If it is not in the list yet, create it there, with this exact name."* Then, lower on the same screen,
+     Audience: *"No, it's not 'Made for Kids'"* — YouTube will not go on without an answer.
   5. **End screen** — Video elements → Add an end screen: the next video and the playlist that 🔍 SEO PACKAGE names
      (a first video: the playlist alone), and Subscribe.
-  6. **Pinned comment** — after it is public: post the pinned comment from 🔍 SEO PACKAGE, then ⋮ → Pin.
+  6. **Pinned comment** — first make it public: Visibility → Public, then the button at the bottom right (Publish or
+     Save); then, on the video's own page: post the pinned comment from 🔍 SEO PACKAGE, then ⋮ → Pin.
+  (Click paths checked against YouTube Help, 2026-11-21. To the member the 🔍 section is always "your title and
+  description" and the 🖼 section "your thumbnail sheet" — the headings are the card's labels, never said in chat.)
   Under the six: one line — *"All six ticked? Say 'my video is published' and I'll move this card to Published."*
   Written by `yt-make-video` when it fills the card; a card the Monday Kickoff only drafted carries the six boxes
   with the click paths, and the video's own values arrive when the package is written. Never ticked by the system:
@@ -271,17 +280,20 @@ the member explicitly asks for that video again.
 **Conflicts:** the member's own edits win on dates and forward status moves (they moved filming to Thursday —
 that's the new truth; reflect it in the plan and say so in one line). Strategy stays with the Game Plan + Brain: if
 the board has drifted far from the plan, say so plainly and name the phrase that reconciles them ("update my attraction video
-board" / "update my short-form board" / "refresh my plan") — never silently overwrite either side.
+board" / "update my short-form board") — never silently overwrite either side.
 
 ## Connecting Notion (when it isn't connected — told, never asked, never blocking)
 
-1. Keep the sitting moving — the calendar lives in the Game Plan and the Brain meanwhile; the board is built the moment
-   Notion is connected.
+1. Keep the sitting moving — the calendar lives in the Game Plan and the Brain meanwhile; the board is built when
+   Notion is connected AND the member says so (connecting by itself builds nothing).
 2. **Put the Connect button in the chat.** Notion is in Claude's connector directory: when the connector-directory tools
    are in the session, search the directory for "notion" and show its suggestion card, so the member sees a **Connect**
-   button right here. Say one line: *"Your content board lives in your own Notion. Click Connect, sign in, then say
-   'connected' and I'll build it."* No card available → the click path, in the app's own words: *"In the left sidebar
-   click **Customize** → **Connectors** → **Notion** → **Connect**, sign in and approve, then say 'connected'."*
+   button right here. Say one line: *"Your content board lives in Notion — a free app that holds your board. Click Connect, sign in
+   (or make a free account), then say 'connected' and I'll build it."* No card available → the click path, in the
+   app's own words: *"In the left sidebar click **Customize** → **Connectors** → **Notion** → **Connect**, sign in and
+   approve, then say 'connected'."* **"Connected" works only in the chat that showed the button.** In any later chat
+   the member says the board phrase of the system they are in — "put my attraction plan in Notion" for their videos,
+   "map my next 30 days" for their short-form — and the line that sends them away names that phrase.
 3. One reassurance: *"I only create and update your content board — nothing else in your Notion, and nothing
    publishes on its own."*
 - Update conduct: rows the member edited by hand keep their edits — update only the fields the system owns

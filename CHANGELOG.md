@@ -2,6 +2,52 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.41.0] — 2026-11-21
+
+**The whole YouTube plugin, audited against the owner's rulings and corrected (YouTube 0.10.0 · Support 0.2.12 · Brain 0.9.22 · Lead Magnet 0.12.18 · Short-Form 0.9.3).** After the question removed in 0.39.0 the owner asked for an audit of the entire plugin: "I don't want to be telling you this stupid feedback." Ten read-only readers went through it — seven across the nineteen skills and the shared files, three walking the setup reply by reply as a first-time attractor, a member with everything on file, and the owner's own path on the demo Brain. They returned about 320 findings, many of them one defect seen from two sides. Each was checked against the text before it was changed; the two that rest on outside facts (YouTube Studio's menus) were checked against YouTube Help on 2026-11-21. Nothing here has been run live in Cowork.
+
+**The setup sitting (`yt-setup`)**
+- **A filming day already given in Week 4 is read back, never asked again.** The one question is asked only when no filming day is on file; the welcome no longer counts questions.
+- **YouTube Studio's click paths are today's.** The description, links and banner are under Customization → Profile and are saved with Publish; the trailer is under Customization → Home tab. Links are given one per line (title, then address); the third piece to paste is the default video description alone.
+- **Compliance not set** (how most Brains start): the three channel pieces are shown to read, not to paste, and the first win is "paste my compliance link", then "repair my channel for agents". No more "hold" and "paste" in the same reply.
+- **A value still in [brackets] is empty**, so a new member is never welcomed back and a placeholder is never taken for a channel or a board.
+- **The close is shorter and counts to five**: the Step 4 win line, the first video as "Step 5 of 5", what you did today, the Board and the Book, at most three next steps. The editing line names no engine and no plugin number: "your AI Editing Studio edits it."
+- **Notion is said once**, with what it is and the phrase that works in any later chat ("put my attraction plan in Notion"). "Built the moment you connect" is gone.
+- A Yes to one workflow only switches on that one. A pace of two a week chosen at the proposal is carried through. A topic renamed after pasting names the piece to paste again. A changed document comes back with its new link. "Redo" keeps and states what was already decided and asks nothing twice. A correction the member makes about themselves is passed to the Brain.
+- **"If the member asks"**: six one-line answers (why the filming day, what a channel trailer, a workflow, the Game Plan, Notion and Higgsfield are). **On a demo Brain** it says once that it skips the live research and schedules nothing, and the close claims no workflow.
+- "Repair my channel for agents" no longer sends a finished member back into the sitting. A channel that speaks to buyers and sellers gets one stated line before the pieces. No "Is that still your channel, and is the rest right?".
+
+**Making a video (`yt-make-video`, `yt-script`, `yt-thumbnail`, `yt-seo`, `yt-research`, `yt-ideation`, `yt-outliers`)**
+- **"Make my attraction video" waits.** Three replies: the direction (title, how it opens, the story, what to watch) and a stop; the script and a stop; then the thumbnail sheet, the title and description, the card and the close. It used to build everything in one go.
+- **"My video is published" stops before the clips**: the three clip scripts are written only on a Yes.
+- **The six publish steps are complete and never lost**: starting the upload, the "made for kids" answer, making it public, a playlist that does not exist yet; with no board they are the last block of the title and description.
+- Scripts have an honest form for a member with no proof and no agents. The read on what agents search no longer prints "YOUR AGENTS". The thumbnail step shows one sheet, not fifteen attribute lines and twenty-seven scores. No views, search volumes or benchmarks without live numbers. The title and idea banks lost every income or results claim, every line that runs down another brokerage and every buyer-and-seller topic.
+
+**The plan and the board (`yt-gameplan`, `yt-board`)**
+- **A member with nobody to interview is never left with an empty week.** A slot with no guest is "A conversation with an agent — guest to be named" on the plan and on the card; when that week arrives with no guest, the week's video is the next one from the member's three topics, and the interview moves to the first open week after a guest is named.
+- On demand the plan ends on a stop line and touches the board only on a Yes. The plan and the cards no longer promise the Monday Kickoff or the monthly review before the member has switched them on. The goal prints only numbers the Brain holds. The member's words in the document are "your three topics" and "your pace".
+
+**The two workflows and the numbers (`yt-briefing`, `yt-triggers`, `yt-analytics`, `yt-coach`, `yt-consistency`)**
+- **The Monthly Channel Review is short when nothing is published yet** — the plan, the first video, the one next step — instead of a list of zeros.
+- **The Monday Kickoff never drafts an invite to nobody.** The screenshot paths follow YouTube Studio's new "Insights" menu. The email note is the last thing a run does and never stalls it. The coach and the consistency check no longer state viewers, results or a Monday draft they have not read.
+
+**Interviews, viewers, the model video, clips (`yt-interview`, `yt-leads`, `yt-model-breakdown`, `yt-repurpose`)**
+- An interview's prep works for a guest who never joined the member (a peer, an agent from their sponsor's team). No dollar figure in a title or on camera, even one the guest volunteers. No extra "Lead Map" document per video. "Three clip scripts", never "three clips are queued". A comparison names trade-offs of the member's own model only.
+
+**Shared rule files:** the house rules, the Brain Contract and every document skeleton in `doc-format.md` now say what the skills do; the member's documents print "topics", "pace", today's click paths and no number the Brain does not hold.
+
+**Shared across plugins:** `connectors.md` (Brain, Lead Magnet, YouTube) — email to anyone else is still a draft; a scheduled workflow's own short note to the member's own address is sent. `composio-data-engine.md` and `notion-board-spec.md` (Short-Form, YouTube) — the new Studio paths, the connect sentence that says what Composio is, the corrected publish steps, and "connected" working only in the chat that showed the button. `how-we-speak.md` (four plugins) — the voice phrase that really triggers.
+
+**New phrases that work:** "change my YouTube pace" · "go to two videos a week" · "start with a different video" · "turn on / run / stop my monthly channel review" · "title and description for my attraction video" · "my thumbnail sheet".
+
+**Brain 0.9.22:** the Brain Board's YouTube page says "Your topics", "your title and description" and nothing about "your organization"; "Your first video" shows done only when a video is. The channel template mirrors the YouTube plugin's. **Lead Magnet 0.12.18:** short-form is Week 4 and YouTube Week 5 in its three stale lines. **Short-Form 0.9.3:** the shared files, and "clip scripts" in the Monday plan's line.
+
+**Support 0.2.12 and the docs:** the desk, the setup guide and the demo checklist describe all of the above; thumbnails are routed to Higgsfield; Week 5 carries no date; the lesson index puts YouTube in Week 5 and the three conversion modules in Week 6. The marketplace card says what the plugin needs (Plugin 1) and builds on (3 and 4).
+
+**Calls made by the maintainer, not by the owner:** the interview-week fallback to a topic video; three waits in "make my attraction video" (not five); the one stated line for a buyer-and-seller channel; the first-video rule of 0.39.0.
+
+**Known and not changed here:** the card headings and saved file names "Thumbnail Brief" and "SEO Package" (the editor reads the second by name); the board's "Niche: …" options (a change to boards that already exist); the editor's own lines "Say 'SEO for this'" and "(Plugin 10)" (vendored — fix upstream); chips and bundled questions in the shared ask-once file (the Brain's); "show me my Brain" in three other plugins; the demo Brain's own data, which is behind the rules; whether an unattended run's first email stops on a permission box.
+
 ## [0.40.0] — 2026-11-21
 
 **Riverside is the main path; Instagram Edits is the optional second engine, set up from the Code tab (Editor 0.7.2 · Support 0.2.11).** Members work in Cowork, and Cowork cannot reach an app on a member's Mac, so the editor's onboarding now says what is true, in plain words. Setup connects Riverside first, from anywhere, in two clicks (Customize → Connectors → Riverside → Connect) and mentions Edits once. In the Code tab on a Mac it asks the one question (Riverside, Edits, or both), recommendation first. A member who asks for Edits in Cowork is told how to open the Code tab of the same Claude app (included in their plan, nothing extra to buy) and say "set up Instagram Edits" there, never given an error. The Edits install is five guided steps, four done by Claude; the token is pasted in a terminal in three numbered moves, never in chat.
@@ -13,6 +59,7 @@ All notable changes to the Agent Attraction OS marketplace. Versions are per plu
 **Not yet run live in Cowork.**
 
 ## [0.39.0] — 2026-11-21
+
 
 **The YouTube sitting asks one question — the filming day (YouTube 0.9.0 · Support 0.2.10 · Short-Form 0.9.2 · Brain 0.9.21 · Lead Magnet 0.12.17).** The owner ran the Week 5 sitting live and stopped at its first question, *"Your channel covers three topics… Which one could you talk about for twenty minutes with no notes?"*: "this question doesn't really make sense. I'm a bit confused about how to answer it or why it is important. Why is this needed?" It was not needed. It only decided which topic the first full video is on, and the plan can decide that itself and show it.
 

@@ -14,20 +14,23 @@ law (the rewire brief, 2026-11-14), §15 what never goes public. The steps per f
   the script gives both: the hook verbatim, the body as spoken lines with bullet-friendly delivery.
 
 ## Verified facts only (never false on camera)
-- Only facts with a source: `(title · outlet · date · link)` tags the member does not read aloud. A brokerage fact
-  cites the member's materials or the brokerage's own page, dated. An agent's result cites `proof.md` with consent.
-- Anything unverifiable → `[double-check before filming]`, never a guess. Ranges and principles outrank invented
-  precision.
+- Only facts with a source — and the source `(title · outlet · date · link)` goes in the footer, never inside a
+  spoken line. A brokerage fact cites the member's materials or the brokerage's own page, dated. An agent's result
+  cites `proof.md` with consent — no such row, no such line.
+- Anything unverifiable is left out of the script — never a guess, never a flag for the member to check. Ranges
+  and principles outrank invented precision.
 - **Never a compensation figure, rev-share tier, stock number, or income claim** — the call carries numbers.
 
 ## Long-form structure (the content ORDER; `shared/doc-format.md` is the look)
 ```
 TITLE: {final title}
-Runtime ~{N} min  ·  For: {avatar}  ·  Bucket: {Problem / Situation / Future / Interview / Model}  ·  Format: {…}  ·  {date}
+About {N} minutes  ·  For: {the type of agent, in plain words}  ·  {date in words}
+Read the plain lines out loud. A line that starts with >> is words on screen — your editor adds them. A line in [square brackets] is a note for you; don't read it.
 
-[HOOK — 0:00]   (written word for word — the only part Mike scripts fully)
-{Call out the viewer's situation → the tension / question → what they'll have by the end. Pain in the first
- ten seconds. Never "welcome back," never a long intro, never credentials first. Matches the title's promise.}
+[YOUR OPENING — 0:00]
+{Written word for word. Call out the viewer's situation → the tension / question → what they'll have by the
+ end. Pain in the first ten seconds. Never "welcome back," never a long intro, never credentials first. Matches
+ the title's promise.}
 >> on-screen (first 3 s): the name card — {First Last · Brokerage · City}, as the kit's pop-up rules say
 
 [THE GUIDE ASK — inside minute 1]
@@ -38,8 +41,9 @@ Runtime ~{N} min  ·  For: {avatar}  ·  Bucket: {Problem / Situation / Future /
 
 [SECTION 1 — {label} — ~MM:SS]
 {Spoken lines; bullets for lists. What they need to know · why it matters · what to do. One step of the
- member's own method, taught in full; the guide named as where the rest lives. A real story or an agent's win
- where it lands. Facts tagged (title · outlet · date · link).}
+ member's own method, taught in full; the guide named as where the rest lives. A real story where it lands; an
+ agent's win only when proof.md holds one with consent; neither → the member's own experience as an agent,
+ never an invented one. A fact's source goes in the footer.}
 
 [SECTION 2 …] [SECTION 3 …]   (3–5 sections — enough to deliver, never to pad; the steps per format in format-playbooks.md)
 
@@ -48,8 +52,10 @@ Runtime ~{N} min  ·  For: {avatar}  ·  Bucket: {Problem / Situation / Future /
 {The kit's spoken call line in the law's shape, the method named. Join register: "If you want my help running
  {the method} — the lessons, the templates, the community — partner with me and it's free. {the booking line}."
  Open register (Join-gated package allowed: no): "I'll walk you through it, free, no strings. {the booking
- line}." Never the brokerage as the pitch; never a promise of the member's time per partner. The words are the
- kit's; only the sentence leading into them bends to the video.}
+ line}." Nothing recorded in the offer's Value stack (Status: seeds): "If you want my help with this, it's free.
+ {the booking line}." — no lessons, templates or community named. Never the brokerage as the pitch; never a
+ promise of the member's time per partner. The words are the kit's; only the sentence leading into them bends
+ to the video.}
 
 [PAYOFF — ~MM:SS]
 {Deliver the promise; the reassurance the avatar came for; the one thing to do this week.}
@@ -60,15 +66,18 @@ Runtime ~{N} min  ·  For: {avatar}  ·  Bucket: {Problem / Situation / Future /
 >> on-screen (last 5 s): the end card — {the guide's title · Comment GUIDE · the stamp} or {the call headline ·
    the booking line · the stamp}, verbatim from the kit
 
-CHAPTERS (paste into the description):
-00:00 {Hook} · {MM:SS Section} · …   (descriptive, search-friendly labels)
+CHAPTERS (planned — the real times come from your edit):
+00:00 {Opening} · {MM:SS Section} · …   (descriptive, search-friendly labels)
 ```
 
 ## Teleprompter conventions
 - Spoken words the way the member talks — contractions, their rhythm, their signature phrases (`voice-print.md`).
-- `[brackets]` = delivery / b-roll cues (not spoken). `>>` = on-screen text (not spoken). `(source, date)` = not
-  spoken.
-- Full sentences for parts read verbatim (hook, the two asks, the close); bullets for list content.
+- `[brackets]` = delivery and extra-footage notes (not spoken). `>>` = on-screen text (not spoken). A source is
+  never inside a spoken line — it goes in the footer. The legend under the title says this to the member in plain
+  words, on every script.
+- Never printed in a script: "hook" (the band is YOUR OPENING), "b-roll" (say "extra footage"), a bucket, a lane,
+  a format name, or the word "member".
+- Full sentences for parts read verbatim (the opening, the two asks, the close); bullets for list content.
 - Pop-up rules (the kit's): six words or fewer, two lines at most, three seconds on screen; never over the face;
   the name card in the first three seconds; the stamp on every end card.
 
@@ -82,7 +91,8 @@ CHAPTERS (paste into the description):
    coaching, mentorship…") are adapted into the program's scalable assets — the recorded lessons, the templates,
    the community, the weekly group call only when the member already runs one — never a promise of the member's
    time per partner. The brokerage name raises the guard (`/94`) — never "if you want to join [brokerage], click
-   below." Compensation never.
+   below." Compensation never. Nothing recorded in the offer's `## Value stack` (its `Status:` reads `seeds`) →
+   the call line names no lessons, templates or community: *"If you want my help with this, it's free."*
 Both lines come from the Week 3 Kit's chapter 7 CALLS TO ACTION table (the newest `exports/week3-kit-*.txt`),
 verbatim; `identity/channel.md`'s CTA line mirrors them. A light reminder at the close is fine; never a third
 pitch. Both feel like invitations, which is why they work.
@@ -93,16 +103,19 @@ pitch. Both feel like invitations, which is why they work.
 THE FIRST SHORT — {MM:SS–MM:SS}
 ════════════════════════════════════════════
 {the pain in line one, straight in → one point → the ask with one of the two keywords (GUIDE · the offer's word)}
-Your AI Editing Studio (Plugin 5) cuts it at the edit. The Reels themselves come from the clip queue, after the
-video is out ("repurpose my attraction video").
+After the edit, say "cut reels from this" and your AI Editing Studio cuts this moment. After the video is out, say
+"repurpose my attraction video" and three clip scripts are written for your week.
 ```
 
 ## Footer (every script)
 ```
 ────────────────────────────────────────────
-Stories used — {story-bank hook(s)} (stamped).   Facts verified — {claim} ({title · outlet · date · link}).
-Compliance — cardinal rules · no compensation figures · former brokerage unnamed · nothing promises the member's time per partner · disclosure in the description · [status].  ✓
+Story used: {its name — or "none: built on your own experience"}.   Facts checked: {claim} — {title · outlet · date · link}.
+Your brokerage's wording goes in the description, not in what you say.
 ```
+The compliance check itself — cardinal rules · no compensation figures · former brokerage unnamed · nothing
+promises the member's time per partner — is run before saving (`yt-script` Step 6) and is never printed. Compliance
+`unset` → the one stamp line under the title, "hold until your compliance basics are set".
 
 ## Voice guardrails
 Mirror `voice.md` + `voice-print.md`. No hype, no pressure, no clickbait unless the voice genuinely calls for

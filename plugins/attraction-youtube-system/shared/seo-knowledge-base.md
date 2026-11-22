@@ -9,10 +9,15 @@ description carries are the guide and the call (house rules #14 and #15); the tw
 `identity/publishing.md → Keyword:` (`GUIDE · [the offer's word]`) — nothing else is ever proposed, and no line
 promises the member's time (house rules #16).
 
+**Background for the writer, never a script for the member.** Nothing here is quoted to a member as a number, a
+benchmark or a promise — never "this will rank", never a search volume or a view count that was not seen with live
+data. To the member the package this file feeds is "your title and description" — never "SEO", "retention" (say
+"how long people keep watching") or "CTR" ("how many people click").
+
 ## Ranking factors (priority order)
 1. Watch time · 2. Audience retention · 3. CTR (thumbnail + title) · 4. Engagement (comments, shares, saves,
 subs) · 5. Metadata relevance · 6. Search-intent satisfaction. YouTube ranks on **satisfying intent, not keyword
-density**; a majority of views come from recommendations, and CTR + retention decide reach. Mike's three
+density**; how many people click and how long they keep watching decide how far a video is shown. Mike's three
 (`/94`): impressions · click-through rate · average view duration.
 
 ## What agents search (classify every video)
@@ -32,6 +37,10 @@ density**; a majority of views come from recommendations, and CTR + retention de
 Favor **long-tail** (3+ words): less competition, better-fit viewers. A new channel lives on long-tail.
 
 ## The agent-search keyword library (swap in the member's niche, model, and avatar)
+*What agents type — not titles to copy. `[brokerage]` is the member's OWN brokerage: a phrase that names another
+company, a "vs", a "review" or a "pros and cons" is a search the member's own video can answer with facts about
+their own model, never a title or a line that judges someone else's (comparisons only on the member's explicit
+choice — `yt-model-breakdown`). No phrase here becomes a promise of income or of a result.*
 - **Brokerage and model:** "[brokerage] explained", "[brokerage] review [year]", "[brokerage] vs [brokerage]",
   "should I join [brokerage]", "[brokerage] for new agents", "how does revenue share work", "rev share real
   estate explained", "cloud brokerage vs traditional brokerage", "how to choose a sponsor [brokerage]",
@@ -44,24 +53,26 @@ Favor **long-tail** (3+ words): less competition, better-fit viewers. A new chan
 - **Niche skills (the member's known-for):** "[niche] for real estate agents" (social media · YouTube ·
   Instagram · AI · lead generation · listings · luxury · open houses · database · video), "[niche] real estate
   agent [year]", "how to get leads [niche]"
-- **Future / leverage:** "passive income for real estate agents", "how to build a real estate team", "real
+- **Future / leverage:** "how real estate agents build leverage", "how to build a real estate team", "real
   estate agent exit strategy", "agent attraction real estate", "building an organization real estate"
-- **Interviews (searchable angle):** "[outcome] part time real estate", "[guest's niche] real estate success
-  story", "how [type of agent] closed [N] deals"
+- **Interviews (searchable angle — a real guest's own stated result, with consent; never an income figure):**
+  "[outcome] part time real estate", "[guest's niche] real estate success story", "how [type of agent] got
+  started in [niche]"
 Mike's rule holds here too: never broad single words ("realtor", "real estate"); video- and
 niche-specific phrases only.
 
 ## Titles (doctrine §9 is the source of truth)
 Use the seven formulas (§9) and the psychology of the click: curiosity · emotion · clarity; bold and emotional
 outranks complex and clever. Then the mechanics:
-- **Front-load the primary phrase** in the first ~30 characters; **50–65 characters** (one promise, never two
-  ideas stapled with a colon).
+- **Front-load the primary phrase** in the first ~30 characters; **about 50–60 characters, never over 70** (one
+  promise, never two ideas stapled with a colon).
 - "real estate agent(s)" / "as a real estate agent" / the agent type when the search needs it — the viewer is
   an agent, and the phrase is what they type.
-- Numbers lift CTR; `(year)` on model and "explained" videos so the yearly remake ranks (`/96`).
+- A number in the title is one of Mike's formulas (§9); `(year)` on model and "explained" videos, for the yearly
+  remake (`/96`).
 - 1–2 honest power words at most (truth · honest · exact · mistakes · explained). Never clickbait you don't deliver.
 - Avoid: the phrase at the end, > 70 characters, clever-but-unsearchable, two ideas in one title, a brokerage or
-  person named negatively, any compensation figure or earnings implication.
+  person named negatively, any compensation figure or earnings implication, any result promised to the viewer.
 - Dated model titles get re-titled yearly; the "why I switched" and "N months in" videos get their year updated
   (`/92` — the publish date proves the history).
 
@@ -77,22 +88,24 @@ outranks complex and clever. Then the mechanics:
   requires, then the contact line `operations.md` lists (the handles, a phone or an email — only what is on file).
   One order in every file: line 1 the call with the booking link, line 2 the guide, line 3 the compliance and
   contact line; the full disclosure block stays the LAST block of the description.
-- Then a **150–300 word** summary in the member's voice, written for the viewer: who it's for, what they'll get,
+- Then a **150–250 word** summary in the member's voice, written for the viewer: who it's for, what they'll get,
   the niche phrase 2–3×, secondary phrases once each, natural language. **No compensation words — no splits, caps,
   fees, rev-share tiers, stock or income. No brokerage as the pitch** — the brokerage name appears where
   `compliance.md` requires it (the disclosure block), not as the ask. No promise of the member's time — the help
   named is the program's scalable assets (house rules #16).
-- **Chapters** that are descriptive and search-friendly ("How rev share actually works" not "Part 2").
-- **Related videos** — the next logical video and the lane's playlist (§11), then 3–5 hashtags, then — always
+- **Chapters** that are descriptive and search-friendly ("How rev share actually works" not "Part 2") — the names
+  are written before filming; the times come only from the editor's section map, after the edit (`yt-seo`).
+- **Related videos** — the next logical video and the lane's playlist (§11; a first video: this block is left
+  out — never a link to a video that does not exist), then 3–5 hashtags, then — always
   the LAST block of the description — the disclosure block (brokerage name and license display as required, the
   disclaimer verbatim, the income disclaimer only if earnings were mentioned, the AI-likeness line on clone content).
 - **Pinned comment:** the guide's funnel URL + one question that invites agents to comment their situation (comments
   are a ranking signal and a lead source for `yt-leads`). Never a keyword of the plugin's own.
 
 ## Tags (not a meaningful lever — don't oversell them)
-A short, specific set in rough priority: the exact primary phrase · one variation · the long-tail version · 3–5
-secondaries (the niche phrase, the model phrase, the avatar phrase). 2–5 words each. Never single generic
-words, never a competitor's name as a tag, never misleading.
+A short, specific set in rough priority — four to six in all: the exact primary phrase · one variation · the
+long-tail version · one to three secondaries (the niche phrase, the model phrase, the avatar phrase). 2–5 words
+each. Never single generic words, never a competitor's name as a tag, never misleading.
 
 ## Thumbnails (doctrine §9 is the source of truth)
 This plugin writes **thumbnail text** (3–5 words, different from the title) and the **thumbnail sheet** (via
@@ -121,7 +134,9 @@ from `yt-repurpose`: #Shorts + 2–4 niche + 1–2 timely.
 ## Advanced (engagement + watch time)
 - Chapters → key moments in Google and better retention. Accurate captions (upload an SRT) → a clean
   transcript the algorithm and AI assistants read. Playlists per lane (one per bucket) → auto-play next, longer sessions. End
-  screens (last 5–20s) → the next video and the playlist; cards → the resource mid-video. Reply to every
+  screens (last 5–20s) → the next video and the playlist; an info card mid-video → another video or a playlist
+  (a card that links off YouTube needs the YouTube Partner Program — YouTube Help, checked 2026-11-21 — so the
+  guide's link lives in the description and the pinned comment, never promised on a card). Reply to every
   comment; `yt-leads` triages them.
 - **AI search:** Mike's point in `/91` — agents now ask AI assistants "best sponsor at [brokerage]" and
   "[brokerage] explained," and videos get cited. Accurate captions, clear on-screen text (held 1–3 s), a

@@ -11,15 +11,24 @@ guide (`memory/magnets.md → ## Current magnet`, GUIDE); the call ask is the ki
 shape — join register *"If you want my help running this — the lessons, the templates, the community — partner
 with me and it's free. Grab [the call]."*, open register (`Join-gated package allowed: no`) *"I'll walk you
 through it, free, no strings."* — the method named, the brokerage never the reason, compensation never; nothing
-promises the member's time per partner (no in-person days, no chat group, no one-to-one calls); the whole method
-is the guide's — the video teaches one step of `offer.md → ## The framework` in full and names the guide as where
-the rest lives; the 90-day outcome (`## The program`) is shown, never earned.
+promises the member's time per partner (no in-person days, no chat group, no one-to-one calls); the help named is
+only what the offer's `## Value stack` records (its `Status:` at `seeds` → *"If you want my help with this, it's
+free."*, no lessons, templates or community named); the whole method is the guide's — the video teaches one step of
+`offer.md → ## The framework` in full and names the guide as where the rest lives; the 90-day outcome (`## The
+program`) is what a partner can show by day ninety — named as what the video teaches toward, never promised
+("you will…"), never a number of agents, deals, views or dollars.
+
+**True for a member with nothing (the owner, 2026-11-16).** Every "agent's win", "case study" and "proof" below is
+written only when the Brain holds that person or that result, with consent. Nothing on file — the normal state of a
+member attracting for the first time — → the member's own years as an agent (`journey.md`), or a line straight to
+the viewer ("If you're the agent who…"); never an invented agent, client, name, number or win, and never a blank.
 
 ---
 
 ## 1. Why I Switched  (bucket: Situation · pillar in the log: Authority, Story angle · 8–12 min)
-*The video that brought Mike his first 30 agents in 30 days (`/92`). The member's own move, told as the wall
-they hit — never as the company they left.*
+*The video that brought Mike his first 30 agents in 30 days (`/92` — Mike's own result, from his lesson: never
+said to the member as what they will get). The member's own move, told as the wall they hit — never as the
+company they left.*
 - **Pull:** `journey.md` (the three turning points: where they started · the hardest stretch · the turning point;
   the `## Why join me` block — the Week 2 spine of this video) · `story-bank.md` (the moment they almost quit,
   the first win after) · `proof.md` (what changed, with real lines) · `offer.md` (`## The program` — what they
@@ -46,11 +55,13 @@ they hit — never as the company they left.*
 - **Pull:** `avatars.md` (the pain in their words; what they've tried) · `objections.md` (the question this
   answers; the hidden fear) · `offer.md` (`## The framework` — the step that fixes this pain, taught in full;
   `## Content branches` — the branch this video serves) · `strategy.md` (the member's actual method) ·
-  `story-bank.md` (a story that proves the point) · `proof.md` (an agent who did it, with consent) · the guide
+  `story-bank.md` (a story that proves the point) · `proof.md` (an agent who did it — only when the file holds
+  one, with consent) · the guide
   (`## Current magnet` — the page the fix lives on).
 - **Steps:** name the pain and the agent who has it → why it keeps happening (the honest diagnosis, no blame)
-  → the 3–5 moves — one framework step, each move with what · why · how → the story or the agent's win that
-  shows it works → the one thing to do this week → the call ask.
+  → the 3–5 moves — one framework step, each move with what · why · how → a banked story that shows it works, or
+  an agent's win only when `proof.md` holds one with consent (neither → the member's own experience as an agent)
+  → the one thing to do this week → the call ask.
 - **Hooks that fit:** formula 1 ("why most agents can't… and how to be the exception"), formula 2 ("the N
   mistakes keeping agents stuck at…"), formula 7 ("N signs you've outgrown…", "if you're a struggling agent, do
   this for the next 90 days").
@@ -83,8 +94,8 @@ they hit — never as the company they left.*
   join … if…"), formula 3 ("the truth about … no one tells you").
 - **Comparisons ("[brokerage] vs [brokerage]")** — only on the member's explicit choice, built by
   `yt-model-breakdown` with Mike's warning repeated (`/96`: he took his own down; not recommended); facts only,
-  dated and sourced, strengths and weaknesses of each model stated fairly, no negative word about a brokerage,
-  sponsor, or person; compliance-gated.
+  dated and sourced — how each model works and who it suits, never a weakness and never a negative word about a
+  brokerage, sponsor, or person; compliance-gated.
 - **Never:** splits, caps, fees, tiers, percentages, stock amounts, income or projections in the script; "#1 /
   fastest-growing" without a dated source; any disparagement; the brokerage name as the CTA. The disclosure block
   goes in the description (`yt-seo`). Remake or re-title yearly (`/96`).
@@ -93,14 +104,16 @@ they hit — never as the company they left.*
 *The deep teach on the thing the member is known for — "cast a wide net around your niche so whatever they
 search, they find you" (`/93`, draft). The Future bucket when it points at leverage and the next stage.*
 - **Pull:** `offer.md` (`## The framework` — the method, step by step; its one line is the hook; `## Content
-  branches` — the branch; `## The program` — the 90-day outcome, shown never earned) · `strategy.md` (known for) ·
-  `proof.md` (results from the method — the member's own, labeled as theirs, or an agent's with consent) ·
+  branches` — the branch; `## The program` — the 90-day outcome, what a partner can show, never promised) ·
+  `strategy.md` (known for) · `proof.md` (results from the method — the member's own, labeled as theirs, or an
+  agent's with consent; only what is on file) ·
   `story-bank.md` · `avatars.md` · the guide (`## Current magnet` — the blueprint the video points at).
 - **Steps:** the outcome and who it's for → the method, step by step (the exact system the member uses — the
-  chosen step taught in full, the rest named with the guide as where it lives) → the case study woven in ("this
-  is legit": an agent who used it, or the member's own numbers stated honestly as production facts — only where
-  `compliance.md`'s rev-share/income policy line allows production figures, the member's own and cited, never
-  in the title by default, never income promises) → the mistakes that break it → the next stage (Future: what
+  chosen step taught in full, the rest named with the guide as where it lives) → the case study woven in, only
+  when the Brain holds one ("this is legit": an agent in `proof.md` with consent, or the member's own numbers
+  stated honestly as production facts; nothing on file → no case study, the member's own experience carries it —
+  production figures only where `compliance.md`'s rev-share/income policy line allows them, the member's own and
+  cited, never in the title by default, never income promises) → the mistakes that break it → the next stage (Future: what
   this makes possible — leverage, a team, an organization — concepts only) → the call ask in the law's shape
   (the recorded lessons, the templates, the community — partnering, free).
 - **Hooks that fit:** formula 4 ("the top N things to … as a real estate agent"), formula 1, formula 5 as a
@@ -124,7 +137,8 @@ distribution ask; this playbook writes only the two spoken pieces.*
   (`03-model-positioning/17`: recognition is retention) → the guide ask in one breath ("comment GUIDE and I'll
   send it") → "let's get into it."
 - **Outro steps:** thank the guest and name the one thing to take from them → the **casual call ask** in the
-  law's shape, the guest's example as the lead-in: *"if you want my help running what [guest] just walked you
+  law's shape, the guest's example as the lead-in only for a guest the Brain says joined the member (any other
+  guest: the call line with no lead-in about them — `yt-interview`'s guard): *"if you want my help running what [guest] just walked you
   through — the lessons, the templates, the community — partner with me and it's free. [the booking line]."*
   (open register: *"I'll walk you through it, free, no strings."*) — never a promise of the guest's time or the
   member's → the next video (another interview on the same pain, or the model explained) → the end screen.
@@ -136,6 +150,7 @@ distribution ask; this playbook writes only the two spoken pieces.*
 ## Lines every format carries
 - The guide ask inside minute one; the call ask a third to halfway in (the kit's words, the law's shape); the
   next video last (doctrine §8).
-- One story from the bank where it lands, stamped Used-where; one real proof line where honest.
+- One story from the bank where it lands, stamped Used-where; one real proof line only when `proof.md` holds
+  one — never an invented story, agent or result to fill the place.
 - Nothing that promises the member's time per partner; the compliance footer; the disclosure block in the
   description, not the script.

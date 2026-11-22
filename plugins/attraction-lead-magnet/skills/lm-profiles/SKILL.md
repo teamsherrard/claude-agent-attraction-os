@@ -25,9 +25,9 @@ The three laws and who owns `profiles.md`: `${CLAUDE_PLUGIN_ROOT}/shared/brain-c
 skill, in Week 2**, right after the Partner Offer session — bios are Week 2 homework. It creates the file with
 the five Short-Form headings in `sf-setup`'s order — `## Instagram` · `## Facebook` · `## TikTok` ·
 `## LinkedIn` · `## YouTube` — the bio text inside each aligned to the funnel's CTA, then appends its own extra
-platforms AFTER the five. The Short-Form plugin's `sf-setup` (Week 3) is the **updater of those five
+platforms AFTER the five. The Short-Form plugin's `sf-setup` (Week 4) is the **updater of those five
 sections**: it refreshes the bio text inside them, preserves every extra section this skill added, and never
-deletes or reorders a heading; `yt-setup` fills `## YouTube` in Week 4. On a later run this skill reads the
+deletes or reorders a heading; `yt-setup` confirms `## YouTube` in Week 5. On a later run this skill reads the
 file if present and refines **inside the same `## <Platform>` section headings** — never renames, reorders, or
 deletes one.
 
@@ -133,7 +133,7 @@ suggest four — the guide · how we work together · the community · the membe
    the kit: inside the Week 2 sitting the navigator runs `lm-package` next; on a standalone run, run `lm-package`
    silently now so chapter 6 of the Week 3 Kit carries the new bios; if that fails, one line names "add my guide to my
    kit" for later. `sf-setup` refreshes the five sections in Week 3 and keeps everything else; `yt-setup`
-   fills `## YouTube` in Week 4. `lm-gbp` reuses the Google section; every other system now quotes the same
+   confirms `## YouTube` in Week 5. `lm-gbp` reuses the Google section; every other system now quotes the same
    identity.
 3. Close (standalone runs only — inside the sitting the navigator's finish line says it): *"Paste each one into its
    platform — start with Instagram and LinkedIn. They're also chapter 6 of your Week 3 Kit. When your guide goes

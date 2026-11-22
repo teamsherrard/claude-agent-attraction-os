@@ -10,7 +10,9 @@ Personality) live in `identity/content-pillars.md` and are never restated here.
 `board done` → `workflows done` → `complete YYYY-MM-DD` (`kit done` = the Channel Page is saved; the stamp's word is
 internal and never shown). A member who leaves mid-journey resumes at the next step; a `complete` stamp means the
 READY BRIEF, never the journey again — unless the member says "start over", which writes `not started` and runs
-the whole journey again, everything updated in place. Written only by `yt-setup`.
+the whole journey again: what the member already decided is kept and stated, never asked again (the channel — or
+`Status: none`, "starting fresh" — `Filming day:`, `First full video:`, the three topic names, `## In your words`);
+everything else is updated in place. Written only by `yt-setup`.
 
 **The `Board:` line** exists only for a member with no `identity/publishing.md` (they skipped Week 4): the content
 board's link then has no other home, so `yt-board` keeps it here. Every reader looks at `publishing.md → Content
@@ -34,7 +36,7 @@ member's time per partner.
 - URL: [https://youtube.com/@handle — `to add` while the channel is not created yet]  ·  Handle: [@handle — `to add` until the member pastes it]  ·  Status: [active / empty / none → created YYYY-MM-DD]
 - Mode at setup: [new / existing]  ·  Live data: [not connected / active YYYY-MM-DD / declined YYYY-MM-DD]
 - Setup: [not started (a start-over only) / kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
-- Filming day: [the day the member films a full video — their answer to setup's one question; every date on the plan is counted from it; empty → `identity/operations.md → Filming window:` is used]
+- Filming day: [the day the member films a full video — read from Week 4's `identity/operations.md → Filming window:` when it holds a day, otherwise their answer to setup's one question; every date on the plan is counted from it; empty → the first-date rule's fallback is used]
 - First full video: [the topic the first full video is on — one of the three topics below; chosen from the Brain at setup and read back to the member, never asked: `[topic] · [from your guide / from your method / the first of your three / your choice] YYYY-MM-DD`; empty → the plan applies the same rule and writes it]
 - Board: [the content board's link — this line only when identity/publishing.md does not exist; otherwise the link lives on publishing.md → Content board:]
 
@@ -46,7 +48,7 @@ member's time per partner.
 | Bucket | Playlist (lane) name | Maps to pillar | One-line description |
 |---|---|---|---|
 | Model | [Model] explained | Perspective | … |
-| Interview | Agent success stories | Proof | … |
+| Interview | [Agent success stories — only when the Brain holds an agent the member has helped; otherwise Conversations with agents] | Proof | … |
 | Problem | [name] | Authority | … |
 | Situation | [name] | Authority (Story angle) | … |
 | Future | [name] | Authority | … |
@@ -83,11 +85,14 @@ member's time per partner.
 
 Rules: the Brain's `how-we-speak.md` applies — the member never sees this file's name; they hear "your channel
 is saved to your Brain." A `Status: none` channel is normal, not a defect — the Channel Page builds first, the
-member is told how to create the channel in one stated line, and the handle is added when they paste it. The `Cadence:` anchor is the YouTube cadence every skill reads (one a week is the
+member is told how to create the channel in one stated line, and the handle is added when they bring the link back
+(the close's first win says how: "repair my channel for agents" with the link). The `Cadence:` anchor is the YouTube cadence every skill reads (one a week is the
 default for the first month; two a week the step-up the Monthly Channel Review proposes after a month at one, or
 sooner when `identity/goals.md`'s hours clearly carry it or the member asks); `identity/content-pillars.md`'s
 cadence line is the short-form cadence and is never read as this one. The Brain template ships the same shape as
-an empty placeholder (the coordinator mirrors any change here into it); a Brain whose `channel.md` predates the
+an empty placeholder (the coordinator mirrors any change here into it) — **a value still in `[brackets]` is an empty
+value: a bracketed `Setup:` line means setup has not run, and a bracketed URL, handle or board line is never "on
+file"** (`yt-setup` Step 0); a Brain whose `channel.md` predates the
 `Setup:` line is read by `yt-setup` Step 0's fallback (anchors filled → `plan done`, else `kit done`), and the
 line is added on the next stamp. The text of every document this plugin saves is kept beside it in
 `~/attraction-brain/exports/` (`channel-kit-YYYY-MM-DD.txt` · `youtube-game-plan-YYYY-MM-DD.txt` ·

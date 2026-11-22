@@ -7,7 +7,8 @@ Short-Form plugins (the release gate checks the two are byte-identical) — chan
 
 **Vocabulary.** *The member* is the leader whose Brain this is — the person whose channel and Instagram get
 read. *An agent* is a prospect, a viewer, a commenter: the people the member attracts. **To the member this is
-"your live data connection" — never "Composio", "API", "toolkit", or tool names.**
+"your live data connection" — never "Composio", "API", "toolkit", or tool names — except once, in the connect
+step, where the member has to type the name; that sentence says what it is.**
 
 **Who calls what (the only callers):**
 
@@ -23,15 +24,20 @@ read. *An agent* is a prospect, a viewer, a commenter: the people the member att
 - **THE NAMED CONNECT STEP — right after setup, in its own short chat (the owner, 2026-11-14).** The YouTube setup's
   close names it once, as ONE plain line under its three numbered steps — never a fourth step, never a question:
   *"Later, when you want your real view counts read for you: open a new chat and say 'connect my YouTube numbers'.
-  About two minutes."* That phrase belongs to `yt-analytics` and is the deliberate version of its connector check, three
+  About five minutes."* That phrase belongs to `yt-analytics` and is the deliberate version of its connector check, three
   cases, each told, never asked: (1) **the tools are not in the session** → the exact clicks, in one message:
-  *"In the left sidebar click Customize → Connectors → the + button → Add custom connector. Name it Composio, paste
-  https://connect.composio.dev/mcp, click Connect and approve in your browser. Then come back and say
-  'connected'."*; (2) **the tools are here but YouTube is not signed in** → the warning line (*"a permission box will
+  *"This uses a service called Composio — it is what lets me read your YouTube numbers, and it only reads. In the
+  left sidebar click Customize → Connectors → the + button → Add custom connector. Name it Composio, paste
+  https://connect.composio.dev/mcp and click Connect. A browser page opens — approve it. Then come back and say
+  'connected'."* (said once — "connected" said while the tools are still not in the session → *"It's added. Open a
+  new chat and say 'connect my YouTube numbers' once more — a new chat picks it up."*, never the clicks twice); (2) **the tools are here but YouTube is not signed in** → the warning line (*"a permission box will
   pop up so I can read your channel's numbers — hit Allow"*), then the sign-in link from the connection tool, the
   member signs in and says "done", the connection is confirmed `active`, and `Live data: active YYYY-MM-DD` is
-  written to `identity/channel.md`; (3) **already active** → one line, and one small read as proof (*"I can see your
-  channel: [N] videos, [N] subscribers."*). It reads public numbers only and never posts; click-through rate and
+  written to `identity/channel.md`; (3) **already active** → one line, and one small read as proof (*"Your live numbers are
+  connected. I can see your channel '[channel name]': [N] videos, [N] subscribers. Not your channel? Say 'wrong
+  channel'."* · no channel comes back → *"You're connected. There's no YouTube channel on that Google account yet —
+  that's fine: the day your first video is up I can read it."* · "wrong channel" → *"Say 'connect my YouTube
+  numbers' and sign in with the Google account your channel is on."*). It reads public numbers only and never posts; click-through rate and
   watch time still come from the three Studio screenshots. It is never run inside the setup sitting. **For the
   YouTube System the click path and the sign-in live ONLY here** (the owner, 2026-11-15): inside a dive or a read,
   `yt-analytics` uses the connection only when the tools are present AND `Live data: active` is already on file;
@@ -131,12 +137,15 @@ demographics (age, gender, geography) · when viewers are on YouTube · subscrib
 GoSquared, Crowterminal) need their own paid accounts and are NOT part of this product — ignore them.
 
 **So the deep dive asks for the Studio pack, once, in plain words — four screenshots (or the CSV exports):**
-1. **Content** — Studio → Analytics → Content, the video table with *impressions, click-through rate, average
-   view duration, views* for the window (Advanced mode → Export → CSV also works).
-2. **Traffic sources** — Analytics → Reach → *Traffic source types* and *YouTube search terms*.
-3. **Audience** — Analytics → Audience: *age & gender, top geographies, when your viewers are on YouTube*.
-4. **Retention** — the retention graph of the top 3 videos (Analytics → Engagement → *Key moments for
-   audience retention*).
+(YouTube Studio's left menu now says **Insights** where it used to say Analytics — checked against YouTube Help,
+2026-11-21. Reach and Engagement are tabs of ONE video's Insights, not of the channel's.)
+1. **Content** — in the left menu click Insights, then the Content tab: the video table with *impressions,
+   click-through rate, average view duration, views* for the window (Advanced mode → Export → CSV also works).
+2. **Traffic sources** — in the left menu click Content, point at the most-watched video and click Insights, then
+   the Reach tab: *Traffic source types* and *YouTube search terms*.
+3. **Audience** — Insights → the Audience tab: *age & gender, top geographies, when your viewers are on YouTube*.
+4. **Retention** — the same video's Insights → the Engagement tab: the retention graph (*Key moments for audience
+   retention*); the next two most-watched videos the same way.
 Each one fills a named section of the dive (Content → the CTR column and the packaging verdict · Retention →
 hook vs middle · Traffic sources + search terms and Audience → where viewers come from and who they are). None
 provided → the report says exactly what's missing under DATA COVERAGE and how to add it later (*"say 'add my attraction Studio numbers' and drop them in"*). Never invent any of these numbers.

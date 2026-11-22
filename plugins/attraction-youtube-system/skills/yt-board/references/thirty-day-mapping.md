@@ -23,8 +23,10 @@ anchors (cadence, cycle position) and the content log. Read by `yt-board` (Step 
    never re-card it; the window begins at the first calendar row with no row in the log (or an `Idea` row only).
 4. **`memory/interview-pipeline.md`** — the guest for each interview slot (Stage `Candidate` / `Invited` / `Booked`
    / `Recorded`), their working title, their Recording date when booked.
-5. **`identity/operations.md` → `Filming window:`** — the member's filming day and time (the Short-Form Game Plan
-   writes it when the batch day is set; `not set yet` is a real answer — the plan then dated its rows on Saturdays).
+5. **The filming day** — `identity/channel.md → ## Channel → Filming day:` first (the day the member gave at
+   setup), then `identity/operations.md → Filming window:` (the Short-Form Game Plan writes it when the batch day is
+   set; `not set yet` is a real answer — the plan then dated its rows on Saturdays). Read only to explain a date: a
+   card's dates are its row's own (§2) and are never recomputed here.
    `identity/publishing.md → Keyword:` — the two words (GUIDE · the offer's word); `memory/magnets.md → ## Current
    magnet` — the guide's title and funnel URL.
 6. **The board's link** — `identity/publishing.md → Content board:` first; that file absent (the member skipped
@@ -50,19 +52,30 @@ before writing to it.
   the calendar's re-dated rows.
 - **Interview slots count** — the 3-1-4 ratio is inside the cadence, never on top of it. A slot whose guest is
   `Booked` with a Recording date → that date wins (even if it sits outside the week's filming day). A slot at
-  `Candidate` / `Invited` → card it as the plan wrote it, Guest = the named candidate, the Context's second line
-  `• Invite: [guest] — not yet confirmed`. A slot with no candidate at all → Topic **"Book your next agent
-  interview"** (a plain sentence — never a bracket tag in a title), Guest empty, so the week is never a blank; the
-  Monday Kickoff turns it into the invite draft and renames the card to the hook-and-transformation title once a
-  guest is named.
+  `Candidate` / `Invited` → card it as the plan wrote it, Guest = the named candidate, with
+  `• Invite: [guest] — not yet confirmed` in the Context right after the pillar line. **A slot with no guest → the
+  card keeps the plan's own title, exactly: "A conversation with an agent — guest to be named"** (the row's title —
+  never "Book your next agent interview", never a to-do or a bracket tag in a title), Guest empty; the card is
+  renamed to the guest's title once a guest is named.
+- **An interview week with no guest** (the owner's decision, 2026-11-21 — the normal first-time member). When that
+  week arrives and no guest is named: the week's video is the next video from the member's three topics, and the
+  interview moves to the first open week after a guest is named. No week is ever empty; no invite, guide or note is
+  drafted to nobody; nobody is ever contacted without the member's yes. On the board: this week's video is the next
+  `Idea` row forward from the member's three topics — by the plan's rule (`yt-gameplan` Phase 8, "An interview week
+  with no guest", the same as the Monday Kickoff's) that row takes the Recording and Publishing dates the
+  conversation row carried, and its card takes them too. The conversation row and its card stay exactly as they are
+  until a guest is named (then `yt-interview` writes the guest and their date on the earliest card still titled
+  "guest to be named"). Never a second card, never a card without a date. What the member reads, word for word: *"No guest named yet, so this week's video is
+  '[title]', from your topics. Your first interview goes on your plan the day you name someone — say 'set up an
+  agent interview'."*
 - **The channel trailer** (a new channel only): it is **week one's first row** — the plan writes it there — and a
   card like any other: Topic "My channel trailer", Format `Long-Form`, the Pillar cell left empty (the spec's
   options are never extended) with `• Pillar: Authority` as the Context's first line, its own Recording and
   Publishing dates. It is not one of the eight; setup's first-video line names it when it is first.
 - **Batching** (two interviews recorded in one sitting, published on the plan): the Recording Dates share the
   sitting; the Publishing Dates keep the plan's weeks.
-- When the plan runs short (fewer rows left than the window needs), card what exists and say so: *"your plan has
-  [n] videos left — say 'refresh my attraction game plan' when you want the next 90 mapped."*
+- When the plan runs short (fewer rows left than the window needs), card what exists and say so: *"Your Game Plan has
+  [n] videos left — say 'refresh my attraction game plan' when you want the next ninety days planned."*
 
 ## 3. The card (the spec's vocabulary, exactly)
 | Field | What goes in |
@@ -71,8 +84,8 @@ before writing to it.
 | **Format** | `Long-Form` |
 | **Status** | `Idea` (the Monday Kickoff moves this week's to `Scripted` when it drafts it; filmed → `Recorded`; edited and waiting to go out → `Ready to Post`; live → `Published`) |
 | **Pillar** | the lane name — `Niche: Problem` · `Niche: Situation` · `Niche: Future` · `Interview` · `Model` — never an OS pillar name here |
-| **Guest** | interviews only — the guest's name from the pipeline (or the candidate to invite) |
-| **Context** | **a video the member gave their own WORDING for (an `identity/channel.md → ## In your words` entry that is a line of theirs for this video) opens with `• Your words: "[their sentence]"`** — a topic pick, a filming day, a name alone or a `skipped` entry is never quoted on a card; then `• Pillar: Authority` (niche lanes; `· Story angle` noted for a Why I Switched) / `• Pillar: Proof` (Interview) / `• Pillar: Perspective` (Model) first; then `• What: …` and `• Outcome: …` from this title's line in the plan's TITLE NOTES (the Brain's copy of the plan), ≤12 words a bullet |
+| **Guest** | interviews only — the guest's name from the pipeline (or the candidate to invite), and only a guest named under the plan's rule (`yt-gameplan` Phase 4: the member named them, or the Brain holds them as an agent the member has helped — never a name the plan itself took from the Top 50); empty for a slot with no guest |
+| **Context** | `• Pillar: Authority` (niche lanes; `· Story angle` noted for a Why I Switched) / `• Pillar: Proof` (Interview) / `• Pillar: Perspective` (Model) first — the spec's rule; then, **only for a video the member gave their own WORDING for (an `identity/channel.md → ## In your words` entry that is a line of theirs for this video), `• Your words: "[their sentence]"`** — a topic pick, a filming day, a name alone or a `skipped` entry is never quoted on a card; then `• Invite: [guest] — not yet confirmed` for a guest not yet booked; then `• What: …` (the title's promise in a few words) and `• Outcome: …` (what the viewer can do after it), written from the title and the "for" and "pain" of its line in the plan's TITLE NOTES — that note holds no What or Outcome of its own, and its codes are never copied onto a card; ≤12 words a bullet |
 | **Recording Date** | the calendar row's own Recording date (the plan's first-date rule: never the day the plan was built — the first video is at least three days out); a `Booked` interview → its Recording date |
 | **Publishing Date** | the calendar row's own Publish date — two days after recording by the plan's rule; never earlier than recording |
 | **Resource Assets** | the two CTAs, copied from the Week 3 Kit's chapter 7 CALLS TO ACTION table as `channel.md → ## The CTA line` holds them: the guide ask (*"… Comment GUIDE and I'll send it."* · the guide's title · its funnel URL — description line 2 and the pinned comment) · the call line in the CTA law's shape for the register (join: *"If you want my help running this — the lessons, the templates, the community — partner with me and it's free. Grab [the call]."*; open: *"I'll walk you through it, free, no strings."* · the booking link — description line 1) · the two words from `publishing.md → Keyword:`; always copied from `channel.md → ## The CTA line` (with no kit, setup built the two lines there, labeled "(from your Brain — your kit's wording replaces it)"); `identity/content-pillars.md`'s two CTAs line only when that block is empty. Never the brokerage as the reason; nothing that promises the member's time per partner |
@@ -83,13 +96,16 @@ before writing to it.
 Card icon 🎬. **The card page at seed holds 🎯 THE HOOK, 📚 REFERENCE VIDEO — WATCH THIS FIRST and 📋 ASSETS & NOTES only** (the spec's locked long-form
 layout — 🎯 THE HOOK · 🎬 SCRIPT · 🖼 THUMBNAIL BRIEF · 🔍 SEO PACKAGE · 🧲 THE RESOURCE · 📚 REFERENCE VIDEO — WATCH THIS
 FIRST · 🎙 GUEST · 📋 ASSETS & NOTES · ✅ PUBLISH IT · 📊 AFTER IT'S OUT; the same order on every card, a section replaced in place,
-never stacked): 🎯 the working hook from the plan's title promise, one line, labeled *"working — your Monday Kickoff
-writes it three ways"*; 📚 the reference video exactly as the spec lays it out — the titled link (`▶ [the video's
+never stacked): 🎯 one working opening line from the plan's title promise, labeled *"working line — three ways to
+open are written when this video is planned"* (never a promise of the Monday Kickoff: a card is seeded before the
+member has said Yes to any workflow); 📚 the reference video exactly as the spec lays it out — the titled link (`▶ [the video's
 real title](link) — [channel]`), the video playable on the card (`<video source="[link]">Watch this before you plan
 yours.</video>`; a player the connection refuses is skipped silently), **Why this one** (the honest label, in a
 sentence) and **Watch for** (how it opens · where it asks for something · what it leaves out that you would say) —
-or, when nothing was found, the one plain line with YouTube's own search for the topic; 📋 the brief, in plain words — the lane · who it is for · the pain · why it is on your plan ·
-the filming date · your two calls to action · the compliance line to say. The Monday Kickoff fills the rest; the Monthly Channel Review and the on-demand
+or, when nothing was found, the one plain line with YouTube's own search for the topic; 📋 the brief, in plain words — which of your three topics it belongs to, by the topic's
+own name (an interview or a model video says so) · who it is for · the problem it answers · why it is on your plan,
+as a sentence (`yt-board` Step 3 holds the sentences — never the note's code, never "lane", "niche", "bucket" or
+"pillar") · the filming date · your two calls to action · the compliance line to say. The Monday Kickoff fills the rest; the Monthly Channel Review and the on-demand
 video reads write 📊 AFTER IT'S OUT; `yt-make-video` completes the card before filming.
 
 ### 3a. The reference video — found and checked before the card is created (the owner, 2026-11-15)
@@ -103,7 +119,7 @@ example before planning their own. The steps are ONE place — `${CLAUDE_PLUGIN_
   only when the first gave no candidate; at most three "is it real" checks a card. Write the cell on the row, then
   create the card with it.
 - **The budget, stated once:** one search a card (two at most), three checks a card; setup's board step covers the
-  cards it creates (three to five). Say one plain progress line while it runs — *"Finding one real video to watch
+  cards it creates (three or four right after setup). Say one plain progress line while it runs — *"Finding one real video to watch
   first for each of them…"* — and nothing per card.
 - **Honest numbers:** no view count and no date unless they were really seen (`Live data: active` on file, the
   tools in the session, and the member in the chat → the data engine's recipe 4; never in a scheduled run). Not
@@ -121,8 +137,8 @@ example before planning their own. The steps are ONE place — `${CLAUDE_PLUGIN_
 - Before creating any card: System ID → exact title → near match (the spec's two-way sync). Found → update, never a
   twin.
 - **The carded test — how a run tells "never carded" from "the member took it off the board".** Every run that
-  creates long-form cards records them in the Brain: one dated block appended under `memory/content-calendar.md →
-  ## Kickoff briefs (YouTube)` holding the line `carded: [the System ID of each card created]` (the board step at
+  creates long-form cards records them in the Brain: one dated block appended under
+  `memory/content-calendar.md → ## Kickoff briefs (YouTube)` holding the line `carded: [the System ID of each card created]` (the board step at
   setup, "update my attraction video board", and `yt-make-video` when it creates a card or tops up at publish write
   a short block of their own — `Board — YYYY-MM-DD · carded: …`; the Monday Kickoff adds the line to its own
   block, whose first line is `Kickoff — YYYY-MM-DD · [title]`). **A row with no card:** its System ID is in an earlier
@@ -131,21 +147,24 @@ example before planning their own. The steps are ONE place — `${CLAUDE_PLUGIN_
   listed → the card was never made: create it now, with the row's own System ID. A Brain with no `carded:` line at
   all (a board built before 2026-11-15) → treat a missing card inside the 30 days as never carded, once, and start
   the record with this run.
-- After the batch: count the cards in the window and say it plainly — *"your next 30 days — [n] videos, [n] of them
-  interviews — are on your board, under the YouTube tab at the top."* Then the one statement about the reference
-  videos, by what is true: every card has one → *"Each video on your board has one real video to watch first — found on YouTube and checked."* · some have none → *"[n] of your [m] videos have one real video to
-  watch first; for the others I put YouTube's own search on the card."* A failed write is named and retried once;
-  never silent; never a count you did not read back.
+- After the batch: count the cards in the window and read the count back. A failed write is named and retried once;
+  never silent; never a count you did not read back. **The count is said once, by the reply's owner** — inside setup
+  `yt-setup` Step 7's own count line; on demand `yt-board` Step 4's one reply: *"✓ Your next 30 days are on your
+  content board — [n] videos, under the YouTube tab at the top: [link]."* Then the one statement about the
+  reference videos, by what is true: every card has one → *"Each has one real video to watch first — found on
+  YouTube and checked."* · some have none → *"[n] of them have one real video to watch first; for the others I put
+  YouTube's own search on the card."* Never an interview count in the line, never "your interview guests" — a
+  guest is mentioned only when a card's Guest cell holds a name.
 - Never a card without a date; never the whole 90 days; never a loose idea; never a tag or an id in a title.
 
 ## 5. The rolling rule — who tops it up, when
 - **The Monday Kickoff** (every run, scheduled or on demand): after drafting this week's video, re-count the window
   from today at the cadence anchor; pull the next calendar row(s) until 30 days are visible — each new card with its
   reference video (§3a; a scheduled run uses the web search and the check only, never the live data connection); one line in its note,
-  in this wording — the same in every file: `🗓 BOARD: your next 30 days are on your board ({n} videos)`.
+  in this wording — the same in every file: `🗓 BOARD: your next 30 days are on your content board ({n} videos)`.
 - **`yt-make-video` at publish** and **"update my attraction video board"**: the same count and pull.
 - **A plan refresh** (`yt-gameplan` on "refresh my attraction game plan") or **a cadence change** ("change my
-  YouTube cadence" — the step-up to two a week, or back to one): the new calendar's rows replace un-started `Idea` rows and
+  YouTube pace" — the step-up to two a week, or back to one): the new calendar's rows replace un-started `Idea` rows and
   cards inside the window only when the titles or dates changed; `Scripted` and later rows and cards are never
   touched; the member hears one line about what moved.
 - **Status, one truth:** a row's Status in the Brain's calendar and its card's Status on the board move together —
@@ -157,6 +176,8 @@ example before planning their own. The steps are ONE place — `${CLAUDE_PLUGIN_
   and the Monday Kickoff drafts straight from it.
 
 ## 6. Plain words (what the member hears)
-"your next 30 days", "your board", "the tabs at the top of your board", "the YouTube tab", "filming date", "your
-interview slot" — never "window", "System ID", "properties", "views", "database", "the spec". If they ask what the
+"your next 30 days", "your content board", "the tabs at the top of your board", "the YouTube tab", "its card",
+"your filming day", "your Game Plan", "your three topics" — never "window", "System ID", "properties", "views",
+"database", "the spec"; never "lane", "niche", "bucket", "pillar" or "cadence" (say "your pace"), never "the hook"
+(say "how it opens"); never "your guests", "your interview guests" or "your agents" as a fact. If they ask what the
 small tag in the side column is: *"that's how I find your card even if you rename it — just leave it be."*

@@ -110,7 +110,7 @@ almost always a PHRASE or a FOLDER mix-up, never data loss.
    Cowork. In Chat → that's the whole answer; move them to Cowork.)
 2. **Does that plugin exist YET?** `stack-map.md`: Plugins 1 and 2 are built; the rest switch on
    with their week. A Week 1 member asking for `yt-script` isn't broken — *"the YouTube engine
-   switches on in Week 4; this week it's the Brain."* Say it warmly, log the ask. (A Design
+   switches on in Week 5; this week it's the Brain."* Say it warmly, log the ask. (A Design
    Studio `ds-*` ask → that's an upload into Claude Design, not a plugin install — tree #11.)
 3. **Is the plugin installed?** Check whether the owning plugin's skills appear in YOUR available
    skill listing (`stack-map.md` knows the owner; if its skills aren't in your context, it isn't
@@ -240,7 +240,7 @@ my CEO review". Neither has a task; that is by design, not a failure.
    later week.) No yes → hand them the phrase that switches it on, through its OWNER skill: "turn on my daily
    debrief" (`attraction-debrief`) · "turn on my Monday week plan" (`sf-week-plan`) · "turn on my batch prep" ·
    "turn on my news watch" · "turn on my calendar refill" · "turn on my attraction Monday kickoff"
-   (`yt-briefing`) · "turn on my monthly YouTube review" (`yt-triggers`). "My attraction workflows" / "my
+   (`yt-briefing`) · "turn on my monthly channel review" (`yt-triggers`). "My attraction workflows" / "my
    attraction YouTube workflows" shows which are on. Support never creates a scheduled task itself, and a demo
    Brain never gets one.
 2. **Does the task EXIST?** Cowork's scheduled-tasks panel (screenshot if unsure; the member's
@@ -305,19 +305,23 @@ my CEO review". Neither has a task; that is by design, not a failure.
 ## Tree #13 — "My short-form / YouTube setup stopped, is asking me things, or did it all without me"
 
 Both content sittings do one step a reply and wait (since 0.6.0), and ask only blanket questions, the same
-for every member — ONE in short-form (since Short-Form 0.9.0; two from 0.8.0) and two in YouTube (since YouTube
-0.8.0) — always in plain chat, never on a card with options. Most "it's broken" reports here are the design
+for every member — ONE in each: short-form (since Short-Form 0.9.0; two from 0.8.0) and YouTube (since YouTube
+0.9.0; two from 0.8.0) — always in plain chat, never on a card with options. Most "it's broken" reports here are the design
 working. Cheapest check first.
 
 1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
    - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A question → they answer it in a
      word or a sentence, or say "skip". "Say Yes and I'll…" → they say Yes, or say what to change. Done.
+   - The same stop appears outside setup, by design: "make my attraction video" waits after the direction and
+     again after the script; "my video is published" waits for a Yes before it writes the clip scripts.
    - It ends mid-sentence, or with an error → a cut-off reply: have them say "continue" once; twice → a fresh
      chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
 2. **"It's asking me questions — I thought it knew me."** One question is by design (FAQ Q71), word for
    word the same for every member. Short-form: *"Which day could you film every week — and where?"* — a member
    asked *"What do you do off the clock…"* is on a version before 0.9.0: update the plugin, new chat, "continue my
-   attraction short-form". YouTube: *"Which day could you film a full video every week?"* — a member asked *"Which
+   attraction short-form". YouTube: *"Which day could you film a full video every week?"* — and not even that when the Brain already
+   holds their filming day from Week 4: it is read back for a Yes or a change, so "it asked me nothing but my
+   channel" is by design. A member asked *"Which
    one could you talk about for twenty minutes with no notes?"*, or shown "Question 1 of 2", is on a version before
    0.9.0: update the plugin, new chat, "continue my attraction YouTube setup". Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
    opens). **Anything else is wrong:**
@@ -331,7 +335,8 @@ working. Cheapest check first.
 4. **"I came back and it asked the same question again."** Read the stamp, never guess: short-form →
    `identity/publishing.md → Short-form setup:` and `identity/content-pillars.md → ## In your words`; YouTube →
    `identity/channel.md → Setup:` and its `## In your words`. An entry on file for that question (an answer, or
-   `skipped`) and it was asked again → a defect: log it with the stamp and the entries. No entry → the answer was
+   `skipped`) and it was asked again → a defect: log it with the stamp and the entries (YouTube: the same when a filming day
+   was already on file from Week 4 and it asked anyway — it should have read it back). No entry → the answer was
    never saved (the chat closed first): they answer once more, and that is normal.
 5. **"My answer isn't in my plan" / "it changed my words."** Find the entry under `## In your words`. Saved as
    they said it → show where it surfaces: the Brain Board, "(your words)" beside the Reel or video in the plan,

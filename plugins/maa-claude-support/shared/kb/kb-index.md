@@ -93,7 +93,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 | 89 | Stories | https://www.loom.com/share/f43b345f7ab845faa6b130a0eb10688f | they ask what to post on Stories |
 | 90 | Posting Routine | https://www.loom.com/share/5eed0e1e3b4e4f16a2be6698caf8b9d4 | they ask for a weekly Instagram routine / cadence |
 
-## YouTube — module file `08-youtube.md` · Week 4
+## YouTube — module file `08-youtube.md` · Week 5
 
 | # | Lesson | Loom (rewatch) | Ask this when… |
 |---|---|---|---|
@@ -107,7 +107,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 | 98 | Turning Views into Calls | https://www.loom.com/share/7416861bcb3d4cd59f56bdc0b60013ab | they ask how views become calls — CTAs, descriptions, next steps |
 | 99 | Bingeworthy Content | https://www.loom.com/share/c43ca0be4524465a88319bbfe99846c0 | they ask how to build a channel that converts over time |
 
-## Presentation & Delivery — module file `10-presentation-delivery.md` · Week 5
+## Presentation & Delivery — module file `10-presentation-delivery.md` · Week 6
 
 | # | Lesson | Loom (rewatch) | Ask this when… |
 |---|---|---|---|
@@ -116,7 +116,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 | 43 | 3-way calls | https://www.loom.com/share/f1b224ce1423467c85010ab72637cbda | they ask about 3-way calls — why, when, how to run them with an upline |
 | 44 | Strategic Questions | https://www.loom.com/share/2ffac2002b8d4860ac55c3f589d78e98 | they ask what questions to ask on a partner call — questions control conversations |
 
-## Objection Handling — module file `11-objection-handling.md` · Week 5
+## Objection Handling — module file `11-objection-handling.md` · Week 6
 
 | # | Lesson | Loom (rewatch) | Ask this when… |
 |---|---|---|---|
@@ -136,7 +136,7 @@ to a cue, confirm with the title, and let the module file (not this index) suppl
 | 61 | I Just Switched Brokerages. | https://www.loom.com/share/6974898ff416463f8df7daa65f0f168b | an agent said they just switched brokerages |
 | 62 | I love my broker | https://www.loom.com/share/82f298802cee41298a8614c9c9270671 | an agent said 'I love my broker' |
 
-## Simple Tech Stack — module file `12-simple-tech-stack.md` · Week 5
+## Simple Tech Stack — module file `12-simple-tech-stack.md` · Week 6
 
 | # | Lesson | Loom (rewatch) | Ask this when… |
 |---|---|---|---|

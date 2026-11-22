@@ -13,10 +13,11 @@ none does, the "why Mike would run it" cell says `—` instead of inventing one.
 2. **The Brain's own signals** — `memory/objections.md`, `memory/intel.md` (dated), pasted comments, `interview-pipeline.md`.
 3. **Fresh research** — `yt-research`'s pass (what agents search, the top videos, "people also ask").
 4. **This bank** — the default four-month arc when the member has no titles of their own, and the fill for any
-   slot the three sources above left empty. `yt-gameplan` offers it as the default arc; `yt-ideation` reads it last.
+   slot the three sources above left empty. `yt-gameplan` seeds from it, without asking, when the member has no titles of their own; `yt-ideation` reads it
+   last.
 
 **SIGNAL rule.** A title seeded from here carries the SIGNAL note `starter` in the Game Plan's title bank and in an
-ideation "why" (*"from the starter arc — not yet researched for your market"*). It is agency-curated, not a demand
+ideation "why" (*"from the starting set — not yet checked against search"*). It is agency-curated, not a demand
 signal for this member: the research pass upgrades it to `demand` when a search confirms it; nothing here is ever
 presented as a search volume, a view count, or a trend.
 
@@ -25,14 +26,20 @@ presented as a search volume, a view count, or a trend.
 appears where the file requires it — the description's disclosure block, the about section). `[year]` → the
 current year (model titles carry it so the yearly remake ranks — `08-youtube/96`). `[guest]`, `[N]`, `[method]`,
 `[milestone]` → a real guest, number, or method from `memory/interview-pipeline.md` / `proof.md` with consent —
-never invented. `[model]` → the model's name as `brokerage-model.md` states it (the name is public; the figures are
+never invented. **No guest named → an interview angle is not printed at all** — not in the title list, not on the
+calendar, not on a card: the slot reads "A conversation with an agent — guest to be named". `[model]` → the model's name as `brokerage-model.md` states it (the name is public; the figures are
 not). `[state/province]` → inside the recruiting scope `compliance.md` sets.
 
 **The compliance pass this bank already passed (re-run it on every swap anyway):**
-- **Figures out of titles.** "Six figures", "millionaire", "7-figure", "$150,000" are gone. The one exception the
-  doctrine allows (§9, formula 5): `compliance.md`'s income policy line explicitly allows production figures AND
-  the figure is the **member's own, cited** — then, and only then, the variant marked *(own-figure variant)* may run.
-  A figure that promises the **viewer's** earnings ("make over $150,000") is never restored under any policy.
+- **Figures out of titles — no exception in this bank.** "Six figures", "millionaire", "7-figure", "$150,000" are
+  gone, and no title here carries an income figure — not the viewer's ("make over $150,000") and not the member's
+  own (the owner's ruling, 2026-11-21: no income, earnings or results claim in a title; the doctrine's own-figure
+  variant, §9 formula 5, is not used here). The member's own numbers belong on the private call.
+- **True for a member with no agents yet.** No title says agents join, ask or follow the member unless the Brain
+  holds them: the title that ships is the first-timer's honest form, and a "my organization" / "in their words"
+  variant runs only with agents in `organization.md` (and consent in `proof.md`). Nothing is credited to "joining
+  me" or to "our systems", no result is put on a clock, and a story title (broke, switched) runs only when
+  `journey.md` holds that chapter.
 - **"Why I left [brokerage]" is now "Why I switched brokerages (and what I'd look for now)."** The former
   brokerage is never named — in the title, the script, the description, or a guest's story (`03-model-positioning/13`).
 - **The brokerage name appears only where compliance allows** (the placeholder rule above); the brokerage is
@@ -57,9 +64,11 @@ Authority Reel, not a long-form video. Nothing else was dropped; every other tit
 Plan draws on `shared/idea-templates.md` and the member's own signals, never on invented titles here. The list
 also has **no interview titles**; the eight interview angles below are built from `08-youtube/95` (who to
 interview), `/93` (the hidden strategy), `06-content-framework/40` (no story too small), and `13-team-building-
-duplication/64` — they are **angles, not guests**: the guest comes from `interview-pipeline.md`, the organization,
-or the Top-50; no guest → the doctrine's fallback (agents the member helped for free, upline winners labeled as
-the upline's, a peer with a unique method — `yt-gameplan` Phase 4). Lead-generation and CMA titles (M1-07, M1-09,
+duplication/64` — they are **angles, not guests**: the guest comes from `interview-pipeline.md` — a person
+the member named, or an agent the Brain holds as helped by the member (never a name the plan itself took from
+the Top 50); no guest named → no angle is printed and nobody is invented: the slot reads "A conversation with an
+agent — guest to be named" (`yt-gameplan` Phase 4 — a good first guest is an agent the member knows and admires, or
+anyone with a method worth sharing). Lead-generation and CMA titles (M1-07, M1-09,
 M2-06) are realtor-skill teaching — they stay only where that skill sits inside the member's known-for
 (`strategy.md`); otherwise the Problem lane takes the member's niche instead.
 
@@ -82,10 +91,11 @@ title fills each slot first.
 What the quarter does not use is not wasted: the remaining model titles are the **yearly remakes** and the
 **second avatar's variants** (`/96`: every remake is another deposit in search); the remaining niche titles are the
 next quarter's cycles. **At one a week the first four slots run niche · interview · niche · model** — the first Month 1
-niche title (or the member's own), M1-I1, the second Month 1 niche title, M3-01 — then interview · niche · interview ·
+niche title (or the member's own), M1-I1 (only with a named guest — nobody on file → "A conversation with an agent
+— guest to be named"), the second Month 1 niche title (the member's own story when one is on file), M3-01 — then interview · niche · interview ·
 interview closes the cycle. **Why I Switched (M3-07) may go early in cycle one** when `journey.md` holds the story —
 Mike's own exception (`08-youtube/92`). Pairs that are near-siblings (M1-08 / M2-02 · M1-07 / M1-09 · M3-06 /
-M4-02) seed **one per quarter**; the other becomes the remake or the series' second episode when the first wins
+M4-02 · M1-04 / M4-01) seed **one per quarter**; the other becomes the remake or the series' second episode when the first wins
 (doctrine §14: do more of what works).
 
 **Tag legend.** Lane = the YouTube bucket (Problem · Situation · Future · Model · Interview). Pillar = the OS
@@ -93,8 +103,9 @@ pillar the content-log row carries (Problem / Situation / Future → **Authority
 is the member's own story · Model → **Perspective** · Interview → **Proof**). For = the agent type the title
 serves (new agent · experienced, low production · top producer · influencer · team leader · broker-owner).
 Pain = one of Mike's five (financial uncertainty · lack of support, mentorship, training · technology gaps ·
-limited growth · work-life balance and recognition). Every title ≤ 70 characters with a real name in the
-placeholder; a formula number from doctrine §9 where one applies.
+limited growth · work-life balance and recognition). Every title ≤ 70 characters once the placeholders are swapped —
+re-count after the swap and shorten the title when a long brokerage or guest name pushes it over; a formula number
+from doctrine §9 where one applies.
 
 ---
 
@@ -106,7 +117,7 @@ placeholder; a formula number from doctrine §9 where one applies.
 | M1-02 | Your first month as a new real estate agent — what actually happens | The first month as a new agent | Situation · Authority (Story angle when told from the member's own first month) | new agent | lack of support, mentorship, training | The Situation bucket's job is "he understands exactly where I'm at" (doctrine §4); new agents arrive with unrealistic expectations and no direction (`02-prospect-targeting/21`) |
 | M1-03 | The truth about becoming a real estate agent no one tells you | Becoming a new realtor: here's what you need to know, the truth | Situation · Authority | new agent (pre-licence or brand new) | financial uncertainty | Formula 3 is one of Mike's own title patterns — "the truth about … no one tells you" (`08-youtube/97`) |
 | M1-04 | The top 10 things to do in your first year as a real estate agent | Top 10 tips for success as a new real estate agent | Problem · Authority | new agent | lack of support, mentorship, training | Formula 4 (`08-youtube/97`); tactical training is the first niche bucket (`/94`); give them "a 30/60/90-day path" (`02-prospect-targeting/21`) |
-| M1-05 | My real estate story: how I went from zero to a full-time business *(own-figure variant, only where compliance allows: "… from zero to six figures")* | My real estate success story, how I went from zero to six figures | Situation · Authority (Story angle) | new agent · experienced, low production | financial uncertainty | Past → transformation → mission → value → vision: "facts tell, stories sell" (`04-value-proposition/34`); Mike's own journey video is the pattern (`08-youtube/92`) — his numbers stay his |
+| M1-05 | My real estate story: how I went from zero to a full-time business | My real estate success story, how I went from zero to six figures | Situation · Authority (Story angle) — the member's own story, from `journey.md`; **no income figure, ever** (the source's "six figures" is never restored) | new agent · experienced, low production | financial uncertainty | Past → transformation → mission → value → vision: "facts tell, stories sell" (`04-value-proposition/34`); Mike's own journey video is the pattern (`08-youtube/92`) — his numbers stay his |
 | M1-06 | The biggest mistakes I made in my first year as an agent | Biggest mistakes I made in my first year | Situation · Authority (Story angle) | new agent | lack of support, mentorship, training | "The mistakes you made and what you learned" make you relatable (`06-content-framework/39`); formula 2's shape, told first-person (`08-youtube/97`) |
 | M1-07 | 25 lead generation ideas for real estate agents ([year]) | 25 powerful lead generation ideas | Problem · Authority — **only inside the member's known-for** | new agent · experienced, low production | financial uncertainty | Tactical training (scripts, social, lead gen) is Mike's first niche bucket (`08-youtube/94`); give more free than the gurus charge for (`/91`) |
 | M1-08 | How to get your first deal as a new real estate agent | How to get your first deal as a new agent | Problem · Authority | new agent | financial uncertainty | New agents' first pain is zero income — "they want leads" (`02-prospect-targeting/21`); "one deal in 30 days" is the relatable story (`06-content-framework/40`) |
@@ -120,8 +131,8 @@ placeholder; a formula number from doctrine §9 where one applies.
 |---|---|---|---|---|---|---|
 | M2-01 | The daily schedule of a successful real estate agent (hour by hour) | Daily schedule for successful agents | Problem · Authority | new agent · experienced, low production | work-life balance and recognition | "Terrible time management, no clear process" are the experienced-but-struggling agent's pains — the schedule is the plan (`02-prospect-targeting/22`); the member's own discipline is what makes them attractive (`05-big-picture/36`) |
 | M2-02 | 5 ways to land your first deal as a new real estate agent | 5 ways to get your first deal | Problem · Authority — sibling of M1-08, one per quarter | new agent | financial uncertainty | Same lesson as M1-08 (`02-prospect-targeting/21`); the second episode when the first wins (doctrine §14) |
-| M2-03 | From broke agent to building a business: my 10 biggest lessons *(own-figure variant only where compliance allows)* | Broke to becoming a millionaire agent, top 10 lessons | Situation · Authority (Story angle) | experienced, low production · new agent | financial uncertainty → limited growth | The member's past-to-transformation story (`04-value-proposition/34`); Mike's own "broke, door-knocking, posting every day" chapter is the pattern (`01-foundation-mindset/1`) — his figures cited as his |
-| M2-04 | Real estate agent vs broker — what's actually the difference? | Real estate agent vs broker, what's the difference | Problem · Authority | new agent | lack of support, mentorship, training | New agents are "uneducated" on how brokerages work (`02-prospect-targeting/21`); "when you make complex things simple, agents want to join you" (`08-youtube/93`, draft) |
+| M2-03 | From broke agent to building a business: my 10 biggest lessons *(only when `journey.md` holds that chapter; otherwise: "My 10 biggest lessons from building a real estate business")* | Broke to becoming a millionaire agent, top 10 lessons | Situation · Authority (Story angle) — **no income figure, ever** (the source's "millionaire" is never restored) | experienced, low production · new agent | financial uncertainty → limited growth | The member's past-to-transformation story (`04-value-proposition/34`); Mike's own "broke, door-knocking, posting every day" chapter is the pattern (`01-foundation-mindset/1`) — his figures cited as his |
+| M2-04 | Real estate agent vs broker — what a new agent needs to know | Real estate agent vs broker, what's the difference | Problem · Authority | new agent | lack of support, mentorship, training | New agents are "uneducated" on how brokerages work (`02-prospect-targeting/21`); "when you make complex things simple, agents want to join you" (`08-youtube/93`, draft) |
 | M2-05 | 5 strategies to break past your ceiling as a real estate agent | 5 strategies to become a 7-figure agent | Future · Authority (concepts only — no numbers) | top producer · experienced, low production | limited growth | The top producer's pain is the plateau and "carrying all the weight" (`02-prospect-targeting/23`); Future-bucket content shows the next stage without numbers (doctrine §4) |
 | M2-06 | How to do a CMA as a new real estate agent (step by step) | How to do a CMA | Problem · Authority — **only inside the member's known-for** | new agent | lack of support, mentorship, training | Fill the gaps in the brokerage's own training (`02-prospect-targeting/18`); tactical teach (`08-youtube/94`) |
 | M2-07 | How to stay on top of industry news and local trends as an agent | Staying informed about local trends and industry news | Problem · Authority | new agent · experienced, low production | lack of support, mentorship, training | Future-focus content shows you are "ahead of the curve" (`07-instagram/88`); every recurring question is a video (`08-youtube/94`) |
@@ -136,10 +147,10 @@ placeholder; a formula number from doctrine §9 where one applies.
 | M3-01 | [My brokerage] explained ([year]) — how the model actually works | [Brokerage] explained, what it is about | Model · Perspective | every type (the flagship) | lack of support, mentorship, training (clarity) | "The majority of agents at any brokerage suck at explaining the model" — clarity, not hype, wins; remade yearly (`08-youtube/96`); mechanics public, figures on the call |
 | M3-02 | [My brokerage] in [state/province]: who it's built for | Intro to [brokerage] [state] | Model · Perspective — inside the recruiting scope only | new agent · experienced, low production | lack of support, mentorship, training | New agents "care about a local office and local support" (`02-prospect-targeting/21`); fit by avatar (`08-youtube/96`) |
 | M3-03 | How joining [my brokerage] actually works — the steps, start to finish | How to join [brokerage] | Model · Perspective | new agent · experienced, low production | lack of support, mentorship, training | Answer what they are already researching (`08-youtube/96`); the steps are public, the numbers and the decision are a private call — never "join through this video" (`02-prospect-targeting/19`); the CTA names the value, never the brokerage (`/94`, `/98`) |
-| M3-04 | The questions agents ask me most about [my brokerage] — answered | Answering the most frequently asked questions about [brokerage] | Model · Perspective | every type | lack of support, mentorship, training | "Every recurring comment question is a video" (`08-youtube/94`); myths and misconceptions (`/96`) — the questions come from `memory/objections.md` and pasted comments, never invented |
+| M3-04 | The questions agents ask most about [my brokerage] — answered | Answering the most frequently asked questions about [brokerage] | Model · Perspective | every type | lack of support, mentorship, training | "Every recurring comment question is a video" (`08-youtube/94`); myths and misconceptions (`/96`) — the questions come from `memory/objections.md`, pasted comments and what the research pass saw agents ask — never invented, and never "ask me" before agents have asked the member |
 | M3-05 | An honest look at [my brokerage]: 4 things to know before you join | Honest review: 4 things you need to know before joining | Model · Perspective | experienced, low production · new agent | financial uncertainty ("hoping this is the last switch") | "Transparency builds authority" — point out what isn't the best and how the value proposition fills it (`08-youtube/96`, `/93`) |
 | M3-06 | [My brokerage] for new agents — is it the right fit? (an honest look) | [Brokerage] for new agents, best brokerage yet? | Model · Perspective — sibling of M4-02, one per quarter | new agent | lack of support, mentorship, training | The breakdown "through one avatar's eyes" — best fit for new agents (`08-youtube/96`); the superlative dropped, the fit question kept |
-| M3-07 | Why I switched brokerages (and what I'd look for now) | Why I left [brokerage] and joined [brokerage] | Situation · Authority (Story angle) — the **Why I Switched** format (doctrine §12), published on the model lane's playlist | experienced, low production · new agent | the wall the member hit (one of the five, from `journey.md`) | The "why I joined" video brought Mike his first 30 agents in 30 days; re-titled yearly (`08-youtube/92`); the former brokerage never named — the story is the wall, not the company (`03-model-positioning/13`) |
+| M3-07 | Why I switched brokerages (and what I'd look for now) | Why I left [brokerage] and joined [brokerage] | Situation · Authority (Story angle) — the **Why I Switched** format (doctrine §12), published on the model lane's playlist — **only when `journey.md` holds a switch; never printed otherwise** | experienced, low production · new agent | the wall the member hit (one of the five, from `journey.md`) | The "why I joined" video brought Mike his first 30 agents in 30 days; re-titled yearly (`08-youtube/92`); the former brokerage never named — the story is the wall, not the company (`03-model-positioning/13`) |
 | M3-08 | 7 things that surprised me about [my brokerage] ([N] months in) | 7 things you will love about [brokerage] | Model · Perspective | every type | work-life balance and recognition (culture) | Mike's three-month review brought "the next hundred" agents (`08-youtube/92`); honest, dated, remade as the brokerage changes (`/96`) — the member's own experience, never a promise about the viewer's |
 | M3-09 | The [model] model, simplified for new agents | The model simplified for new agents | Model · Perspective | new agent | lack of support, mentorship, training | "Simplify what most people overcomplicate" (`08-youtube/93`, draft); new agents are "uneducated on caps and splits" — the concepts are taught, the figures are not (`02-prospect-targeting/21`) |
 | M3-10 | Should you join [my brokerage]? Who it's for — and who it isn't for | Is joining [brokerage] a good choice? | Model · Perspective | every type | limited growth | "Should you join [brokerage]?" plus the honest fit test — "agents want clarity, not hype when considering a move" (`08-youtube/96`) |
@@ -150,19 +161,19 @@ placeholder; a formula number from doctrine §9 where one applies.
 
 | # | Title (as it ships) | Source title | Lane · pillar | For | Pain | Why Mike would run it |
 |---|---|---|---|---|---|---|
-| M4-01 | Do these 10 things in your first year as a real estate agent | Do these 10 things to make over $150,000 in your first year | Problem · Authority — **the dollar promise is never restored** (a viewer-earnings claim, not the member's own figure) | new agent | financial uncertainty | "Give them a 30/60/90-day path" (`02-prospect-targeting/21`); tactical, no fluff (`08-youtube/94`); no income promises, ever (doctrine §15) |
+| M4-01 | Do these 10 things in your first year as a real estate agent | Do these 10 things to make over $150,000 in your first year | Problem · Authority — **the dollar promise is never restored** (a viewer-earnings claim, not the member's own figure); sibling of M1-04, one per quarter | new agent | financial uncertainty | "Give them a 30/60/90-day path" (`02-prospect-targeting/21`); tactical, no fluff (`08-youtube/94`); no income promises, ever (doctrine §15) |
 | M4-02 | Is [my brokerage] right for a new agent? The honest fit test ([year]) | Is [brokerage] really the best choice for new agents | Model · Perspective — sibling of M3-06 | new agent | lack of support, mentorship, training | Fit by avatar (`08-youtube/96`); "best" dropped — a fit question agents trust |
 | M4-03 | Do NOT join [my brokerage] as a new agent if… (watch before deciding) *(plain variant: "New agents: watch this before you join [my brokerage]")* | Should new agents join [brokerage], watch before deciding | Model · Perspective | new agent | lack of support, mentorship, training | Mike's best-performing model video — "agents run from pain more than toward pleasure"; honest, about fit, never a dig (`08-youtube/96`) |
-| M4-04 | Why new agents in my organization chose [my brokerage] — in their words | Here's why new agents are joining [brokerage] | Model · Perspective — **consented quotes from `proof.md` only**; no consent → the member's own reasons ("why I'd choose it again as a new agent"); never a trend claim without a dated source | new agent | lack of support, mentorship, training | "Agents follow people, not companies" — the reasons are the member, not the logo (`03-model-positioning/17`); success stories across every type by design (`06-content-framework/40`) |
-| M4-05 | Your first 30 days with me at [my brokerage] — exactly what happens | Your first 30 days with [brokerage] | Model · Perspective | new agent · experienced, low production | lack of support, mentorship, training ("fear of being just a number") | "The first 30 days define the relationship" — showing the onboarding IS the value proposition (`13-team-building-duplication/64`); plugging in keeps them in (`/65`) |
-| M4-06 | 5 reasons agents join my organization (and who it's not for) | Top 5 reasons to join | Model · Perspective | every type | lack of support, mentorship, training | The member is the reason, the brokerage is the platform (`03-model-positioning/17`); "who it's not for" is the honest fit test (`08-youtube/96`); the five reasons are the value proposition (`offer.md`), never compensation |
+| M4-04 | Why I'd choose [my brokerage] again as a new agent *(only with agents in `organization.md` AND consented quotes in `proof.md`: "Why new agents in my organization chose [my brokerage] — in their words")* | Here's why new agents are joining [brokerage] | Model · Perspective — the member's own reasons by default (true for a member with no agents yet); the "in their words" variant needs agents on file and consent; never a trend claim without a dated source | new agent | lack of support, mentorship, training | "Agents follow people, not companies" — the reasons are the member, not the logo (`03-model-positioning/17`); success stories across every type by design (`06-content-framework/40`) |
+| M4-05 | Your first 30 days at [my brokerage] — what to expect | Your first 30 days with [brokerage] | Model · Perspective | new agent · experienced, low production | lack of support, mentorship, training ("fear of being just a number") | "The first 30 days define the relationship" — showing the onboarding IS the value proposition (`13-team-building-duplication/64`); plugging in keeps them in (`/65`); the title promises nothing about the member's own time and nothing that has not happened yet |
+| M4-06 | 5 things you get when you partner with me (and who it's not for) *(only with agents in `organization.md`: "5 reasons agents join my organization (and who it's not for)")* | Top 5 reasons to join | Model · Perspective | every type | lack of support, mentorship, training | The member is the reason, the brokerage is the platform (`03-model-positioning/17`); "who it's not for" is the honest fit test (`08-youtube/96`); the five reasons are the value proposition (`offer.md`), never compensation |
 | M4-07 | The first 5 things to do after you join [my brokerage] | Top 5 things to do after joining | Model · Perspective | new agent | lack of support, mentorship, training | "Most agents leave because they don't even know what they have access to" — plug in, produce, stay (`13-team-building-duplication/65`); the onboarding roadmap (`/64`) |
-| M4-I1 | How [guest] went from signing to [first result] in 90 days with me | *(added)* | Interview · Proof | new agent · experienced, low production (a recent join) | lack of support, mentorship, training | Proof of the onboarding promise — the first 30–90 days (`13-team-building-duplication/64`); new agents closing fast are the first guests (`08-youtube/95`) |
-| M4-I2 | How [guest] scaled past [plateau, in deals] with our systems — [constraint] | *(added)* | Interview · Proof | top producer · experienced, low production | limited growth | "Top producers who scaled further with the member's support" (`08-youtube/95`); the plateau is the top producer's pain (`02-prospect-targeting/23`); the guest's own stated milestone, with consent, never dollars |
+| M4-I1 | How [guest] got started at [my brokerage] — their first 90 days | *(added)* | Interview · Proof | new agent · experienced, low production (a recent join) | lack of support, mentorship, training | Proof of the onboarding promise — the first 30–90 days (`13-team-building-duplication/64`); new agents closing fast are the first guests (`08-youtube/95`) — told as the guest's own story: no result on a clock, nothing credited to joining the member |
+| M4-I2 | How [guest] grew past [plateau, in deals] — and what changed | *(added)* | Interview · Proof | top producer · experienced, low production | limited growth | "Top producers who scaled further with the member's support" (`08-youtube/95`); the plateau is the top producer's pain (`02-prospect-targeting/23`); the guest's own stated milestone, with consent, never dollars — and never credited to "our systems": the guest says what changed |
 
 ---
 
-## Counts (for the Game Plan's Sources footer and the coach)
+## Counts (for the Game Plan's WHAT I CHECKED band and the coach)
 - **By month:** Month 1 — 9 titles + 2 interview angles · Month 2 — 8 + 2 · Month 3 — 10 + 2 · Month 4 — 7 + 2
   (1 dropped). **42 entries**: 34 of the 35 source titles kept, 8 interview angles added.
 - **By lane:** Problem 12 · Situation 6 · Future 1 · Model 15 · Interview 8.
@@ -170,16 +181,17 @@ placeholder; a formula number from doctrine §9 where one applies.
   M2-03, M3-07 — and M1-02 carries it when told from the member's own first month) · Perspective 15 · Proof 8.
 - **By agent type served (named on a title, any position):** new agent 32 · experienced, low production 18 ·
   top producer 2 · team leader 1 · broker-owner 1 · influencer 0 · "every type" 5 (the model flagships). The source
-  list is a new-agent arc — say so to a member whose avatar is a team leader, broker-owner, or influencer, and build
-  that lane from `idea-templates.md` and the Brain.
+  list is a new-agent arc — for a member who wants to attract team leaders, broker-owners or influencers, build
+  those titles from `idea-templates.md` and the Brain, and say one line: *"Most of the starting titles speak to new
+  agents; yours are written for [the type of agent]."*
 - **By pain (primary):** lack of support, mentorship, training 20 · financial uncertainty 13 · limited growth 4 ·
   work-life balance and recognition 4 · the member's own wall from `journey.md` 1 (M3-07) · technology gaps 0 (the
   source list never names a technology pain — a member whose known-for is systems or AI builds that lane from the
   Brain, not from here).
 
 ## The eight content principles (the agency's, kept with the arc — for the coach, not for pasting)
-Identify the agents' pains and address them · highlight the success stories of agents you have helped (consent on
-file) · offer valuable resources (the live magnet from `memory/magnets.md`, or the Starter Resource) · educational
+Identify the agents' pains and address them · highlight the success stories of agents you have helped, once there are any
+(consent on file) · offer valuable resources (the live magnet from `memory/magnets.md`, or the Starter Resource) · educational
 content with actionable advice · showcase what sets you apart (the member's lane — the any-agent test) · engage
 the audience (answer comments; every recurring question is a video — `08-youtube/94`) · demonstrate authority
 (the leader test — `/94`) · always a clear call to action (the two CTAs — the guide, and the call in the CTA law's
@@ -189,8 +201,8 @@ these as a checklist on its weekly picks (`attraction-shortform-system/skills/sf
 ## "What is your WHY" — carried into the Game Plan's positioning (never a question box)
 The agency's list opens with the WHY: *why you are building a team · what is missing in the market or on other
 teams and how you bridge it · why you are the right leader for a new or seasoned agent — enthusiasm and passion
-carry the message.* In this OS the WHY is never asked in a document: it is **read from the Brain** — `journey.md →
-## The WHY` (the why-line, who it is for), `## The leader moment`, and `## Why join me` when Week 2 wrote it;
+carry the message.* In this OS the WHY is never asked in a document: it is **read from the Brain** —
+`journey.md → ## The WHY` (the why-line, who it is for), `## The leader moment`, and `## Why join me` when Week 2 wrote it;
 `positioning.md`'s one line and bridge-the-gap line; `leadership.md` — and written into the Game Plan's YOUR
 POSITIONING band as three statements in the member's voice (`yt-gameplan` Phase 1). "What's missing on other
 teams" is always the agents' problem, never a word against another team or brokerage (`03-model-positioning/13`).

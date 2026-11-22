@@ -21,10 +21,10 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 | "the Brokerage Model Expert" / "the model breakdown" | the Brain's brokerage-model skill (private-call material) | `attraction-brokerage-model` · `yt-model-breakdown` (Week 5, public) |
 | "Prospect Radar" / "the Agent Movement Watcher" / "who's moving in my market" | the Brain's radar skill + its news scan, run on demand ("scan agent movement" — not a scheduled agent) | `attraction-prospect-radar` |
 | "my top 50" / "my list" | `memory/top-50.md` | `attraction-top-50` |
-| "Agent Intel" / "the intel report" | a 1-page report per prospect before outreach (Week 5) | `cv-agent-intel` |
+| "Agent Intel" / "the intel report" | a 1-page report per prospect before outreach (Week 6) | `cv-agent-intel` |
 | "the Daily Debrief" / "what requires my attention today" | the Daily Agent Attraction Debrief scheduled agent | `attraction-debrief` |
 | "the CEO review" / "my weekly review" | the Weekly Recruiting CEO Review (Week 6) — the member runs it, "run my CEO review"; not a scheduled agent | `admin-recruiting-scorecard` |
-| "the Objection Handling Coach" / "role-play" | randomized objection practice in Claude Voice (Week 5) | `cv-objection-coach` |
+| "the Objection Handling Coach" / "role-play" | randomized objection practice in Claude Voice (Week 6) | `cv-objection-coach` |
 | "the Value Vault" / "my digital product" / "the thing I give agents who join" | mapped in Week 2 (its mockup by `aa-offer-kit-design`), built in Week 6 (`aa-value-vault-design` — the ebook, the course, or the playbook, plus the partner onboarding roadmap) | the Design Studio skills, inside Claude Design |
 | "the Design Package" | logo · brand style sheet · profile graphics (Week 3) | `attraction-brand-direction` writes the brief → `aa-logo-design` → `aa-style-sheet-design` → `aa-brand-kit-design` |
 | "the ManyChat keyword" / "comment GUIDE" (an older lesson may say "comment PARTNER" — that word is retired) | exactly TWO words: GUIDE sends the guide, the member's own invitation word (from their offer) opens the conversation; the bonus-asset sequences are imported into THEIR ManyChat account and one of the two words is on every Reel | `sf-comment-to-dm` ("my ManyChat build sheet") + the Week 4 bonus asset; ManyChat is never connected to Claude |
@@ -66,11 +66,11 @@ Members arrive speaking the lessons' vocabulary. Translate silently; never say "
 - **The 8-video cycle: 3 niche videos + 1 model breakdown + 4 interviews.** (Week 5) — the YouTube plan shape; interviews are content + proof + recognition + retention + recruiting at once.
 - **"Every video has a next step."** (Week 5) — YouTube → resource or community → conversation → Partner Call.
 
-## Conversation & conversion (Week 5)
-- **"Don't recruit — start conversations."** Relevant, personalized, selfless, value-driven, low pressure (Week 5).
+## Conversation & conversion (Week 6)
+- **"Don't recruit — start conversations."** Relevant, personalized, selfless, value-driven, low pressure (Week 6).
 - **"Objections are not rejection — they're a request for more clarity."** (`11-objection-handling/46`) — and Mike's game framing: an obstacle course you get better at. The seven archetypes each hide a fear (change feels risky · disruption · short-term cost…).
 - **Listen → Validate → Reframe → Invite.** (bonus objection framework) — the move for every objection.
-- **The partner call: Discovery → Diagnosis → Fit → Positioning → Questions → Next Step.** (Week 5) — "questions control conversations" (`10-presentation-delivery/44`).
+- **The partner call: Discovery → Diagnosis → Fit → Positioning → Questions → Next Step.** (Week 6) — "questions control conversations" (`10-presentation-delivery/44`).
 - **"Influence, not pressure."** (`10-presentation-delivery/41`) — the enrollment psychology.
 - **The 3-way call** (`10-presentation-delivery/43`) — borrowing an upline's credibility; the third voice closes what the first can't.
 - **"Never 'just checking in.'"** (`12-simple-tech-stack/85`) — follow-up always carries a reason to respond.

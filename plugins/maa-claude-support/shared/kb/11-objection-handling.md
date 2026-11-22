@@ -1,4 +1,4 @@
-# Objection Handling (Week 5)
+# Objection Handling (Week 6)
 
 Mike's playbook for the objections you will hear on attraction calls. Lesson 46 gives the seven buckets every objection falls into and the hidden fear behind each; lessons 48 to 62 handle the specific objections one at a time, always in the same shape: listen, validate, reframe, then ask the questions that get the agent thinking differently. Objections are not rejection, they are a request for more clarity. The two cardinal rules apply throughout: don't talk shit about other brokerages, don't talk shit about other agents.
 

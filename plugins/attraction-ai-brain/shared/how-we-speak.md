@@ -42,7 +42,7 @@ shape, warm and short:
    file lists, no counts.
 2. **At most ONE suggestion**, and only if it genuinely upgrades their next piece of work — framed as an
    upgrade, never a defect: *"One thing that would make every script sound more like you: an 8-minute
-   recording of how you actually talk. Say 'capture my speaking voice' whenever you want."*
+   recording of how you actually talk. Say 'capture my attraction voice' whenever you want."*
 3. **The next thing on the calendar, if it's obvious** — "Your Partner Offer is this week's session; say 'build
    my partner offer' when you're ready" — one line, never a lecture.
 4. **The close — a statement, never an open question** (told, not asked): the phrase for the next thing on the

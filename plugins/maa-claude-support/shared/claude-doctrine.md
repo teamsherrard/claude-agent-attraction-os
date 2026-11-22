@@ -12,7 +12,7 @@ Think of Claude as one brain with four rooms:
 |---|---|---|
 | **Chat** (claude.ai) | A conversation you steer turn by turn | Quick questions, thinking out loud, one-off writing |
 | **Cowork** | Delegation: describe the job, Claude works across your files and tools, you come back to finished work | **Home base — 95% of the system lives here.** All 9 Agent Attraction OS plugins run here |
-| **Claude Design** (claude.ai/design, or a Design canvas inside Cowork) | Turning words into visual design on a live canvas | **The Design Studio lives here** — the `ds-` skills are UPLOADED zips (Design can't run plugins): the Design Package (logo, style sheet, brand), the offer stack and product mockup, the Value Vault (ebook, course, playbook), plus briefs from `yt-thumbnail` and the Lead Magnet plugin |
+| **Claude Design** (claude.ai/design, or a Design canvas inside Cowork) | Turning words into visual design on a live canvas | **The Design Studio lives here** — the `ds-` skills are UPLOADED zips (Design can't run plugins): the Design Package (logo, style sheet, brand), the offer stack and product mockup, the Value Vault (ebook, course, playbook), plus the briefs from the Lead Magnet plugin (never a YouTube thumbnail — the member makes those in Higgsfield from the sheet `yt-thumbnail` writes) |
 | **Claude Code** | The engineering room (a terminal) | Members basically never. That's where Mike's team builds the plugins |
 
 **The canonical Cowork vs Chat line (memorize):** *Chat is a conversation you steer turn by turn.
@@ -151,7 +151,7 @@ you each piece, and waits for your Yes. It only asks you one question — the da
   Weeks 1 and 2 and is never asked again. It is read back to them ("from the story you told in Week 1") so they
   can say "that's me" or change it.
 - **Only blanket questions, the same for every member.** Short-form, one: the day and place they can film (the
-  "off the clock" question was removed on 2026-11-17 — the owner: "makes no sense"). YouTube, one: the day they can film a full video (the question about which topic they could talk about for
+  "off the clock" question was removed on 2026-11-17 — the owner: "makes no sense"). YouTube, one: the day they can film a full video — and when the Brain already holds their filming day from Week 4 it is not asked at all, it is read back for a Yes or a change (the question about which topic they could talk about for
   twenty minutes was removed on 2026-11-21 — the owner: "Why is this needed?"; the plan now picks the first video's
   topic from their guide or their method and shows it for a Yes or a change). Nothing else.
 - **Plain chat, never a card.** The question and every "Say Yes" line are ordinary sentences in the chat; the
@@ -160,7 +160,9 @@ you each piece, and waits for your Yes. It only asks you one question — the da
   including someone who has never attracted an agent — and one the Brain does not already hold. So it never asks
   what agents say to them, or who they have helped.
 - **It waits.** One step per reply, then "Your turn." Nothing is built while they are away, and they can leave
-  mid-sitting and come back to the same place ("continue my attraction short-form").
+  mid-sitting and come back to the same place ("continue my attraction short-form" · "continue my attraction YouTube
+  setup"). Making a video waits the same way: "make my attraction video" shows the direction and waits, then the
+  script and waits, then finishes; "my video is published" waits for a Yes before the clip scripts are written.
 - **Each reply names what they did** (the "✓" line) and the sitting ends with "what you did today" — it is their
   work, with the heavy lifting done for them.
 - **"Skip" is always fine** and never asked twice; "do it all" builds from the Brain without the stops.

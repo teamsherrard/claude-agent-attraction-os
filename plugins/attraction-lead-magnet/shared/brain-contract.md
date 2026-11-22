@@ -30,7 +30,7 @@ and `docs/BRAIN-CONTRACT.md`; the master plan §1 is the source of the reads/own
   continues into the magnet — the Status line decides the order of the session, never whether it happens
   (`finalized by member …` or `built in Week 2 …` = go straight to the magnet). The traffic engines arrive
   later and plug into the funnel then — the
-  Short-Form System in Week 3, the YouTube System in Week 4; until then the link lives in the bios
+  Short-Form System in Week 4, the YouTube System in Week 5; until then the link lives in the bios
   (`lm-profiles`), the Google Business Profile (`lm-gbp`), partnerships (`lm-partnerships`), DMs, and the
   booking page.
 - Draft-only: nothing is sent, posted, scheduled, or published by this plugin. No scheduled agent is owned here.
@@ -73,7 +73,7 @@ plugin never reads or writes it.
 |---|---|---|
 | `memory/magnets.md` | `lm-magnet` (creates the file on first run if the Brain predates it; writes the row and the intake block) | `lm-navigator` writes the intake block; `lm-magnet-ideas` adds a `planned` row; `lm-package` → the intake block's `Kit doc:` stamp, and Status `designed` + the `## Current magnet` download link when the member reports the PDF; `lm-funnel` → funnel URL + Status `live` and the intake block's `Funnel doc:` stamp (once the member confirms the page is up); `lm-delivery` → keyword; `lm-analytics` → opt-ins, calls booked, last reviewed |
 | `memory/list-growth.md` | `lm-nurture` (creates the file; the header, the nurture-sequence table, the newsletter status) | `lm-analytics` appends weekly rows; `lm-partnerships` owns the `## Partners` table |
-| `identity/profiles.md` | **`lm-profiles` (Week 2)** — writes it FIRST (the user's ruling, 2026-10-10): creates the file with the five Short-Form headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube`), the bio text inside each aligned to the funnel's CTA, then its own extra platforms appended AFTER the five; bios are Week 2 homework | the Short-Form plugin's `sf-setup` (Week 3) is the **updater of its five sections**: it refreshes the bio text inside those headings, preserves every extra section `lm-profiles` added and every italic update line, and never deletes or reorders a heading; `yt-setup` fills `## YouTube` (Week 4). A later `lm-profiles` run reads the file if present and refines inside the same headings |
+| `identity/profiles.md` | **`lm-profiles` (Week 2)** — writes it FIRST (the user's ruling, 2026-10-10): creates the file with the five Short-Form headings in `sf-setup`'s order (`## Instagram` · `## Facebook` · `## TikTok` · `## LinkedIn` · `## YouTube`), the bio text inside each aligned to the funnel's CTA, then its own extra platforms appended AFTER the five; bios are Week 2 homework | the Short-Form plugin's `sf-setup` (Week 4) is the **updater of its five sections**: it refreshes the bio text inside those headings, preserves every extra section `lm-profiles` added and every italic update line, and never deletes or reorders a heading; `yt-setup` confirms `## YouTube` (Week 5). A later `lm-profiles` run reads the file if present and refines inside the same headings |
 | `memory/ideas.md` | the Brain's `attraction-capture` | this plugin marks a `leadmagnet` row **used** — status column only, same row shape |
 | `brain.md` → the **`**Live magnet:**` quick-reference line only** | the Brain's `attraction-brain-setup` owns the file | `lm-magnet` writes the line when it logs a magnet (`[Magnet Name] · keyword GUIDE · funnel URL not live yet`); `lm-funnel` updates it when the page goes live (the URL). The one line in `brain.md` the Brain's contract assigns to this plugin — a mirror of `## Current magnet`, so skills that read `brain.md` first see the live magnet without opening files; nothing else in `brain.md` is ever touched here |
 
@@ -144,7 +144,7 @@ whatever header and headings already exist are preserved byte-for-byte outside t
 (the file is absent — the normal Week 2 case), `lm-profiles` creates it as:
 ```
 # [Name] — Platform Profiles
-*identity · the bios, one section per platform · owner: the Lead Magnet plugin's lm-profiles (Week 2) writes it first · the Short-Form System's sf-setup (Week 3) refreshes the bio text inside the five sections · yt-setup fills ## YouTube (Week 4) · the Brain never writes this file*
+*identity · the bios, one section per platform · owner: the Lead Magnet plugin's lm-profiles (Week 2) writes it first · the Short-Form System's sf-setup (Week 4) refreshes the bio text inside the five sections · yt-setup confirms ## YouTube (Week 5) · the Brain never writes this file*
 
 ## Instagram
 [bio]

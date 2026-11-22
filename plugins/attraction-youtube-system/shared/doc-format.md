@@ -9,7 +9,7 @@ Word formatting — headings, bullet lists, tables — automatically. **Do NOT s
 `## Per-doc skeletons` once (the saving steps, the look, the grammar). Then read ONLY the skeleton you are about to
 fill: search this file for its heading and read from that heading to the next `###`. The skeletons, by heading:
 `### YouTube Game Plan` · `### Script` · `### First Batch — Film Day` · `### Channel Page` · `### Kickoff Brief` ·
-`### SEO Package` · `### Interview Prep` · `### Thumbnail Sheet` · `### Lead Map` · `### Starter Resource` ·
+`### SEO Package` · `### Interview Prep` · `### Thumbnail Sheet` · `### Starter Resource` ·
 `### Model Breakdown` · `### YouTube Deep Dive` · `### Monthly Channel Review` · `### Repurposing Pack`. A skeleton
 you are not filling in this run is never opened.
 
@@ -17,7 +17,7 @@ you are not filling in this run is never opened.
 1. Assemble the doc as structured text (the skeletons below); write it to a temp file in the session's
    scratchpad (never the member's workspace), e.g. `doc.txt`.
 2. Render it:
-   `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Member · Niche]"`
+   `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" doc.txt "[Doc Name].docx" --title "[Title]" --subtitle "[Member · what they are known for]"`
    → the house style automatically: **Arial**, **near-black** text, real **headings** (from the bands), real
    **bullet lists** and **tables**, thin light-grey rules.
 3. Upload the **`.docx`** to the right folder of the member's workspace (per the Brain's `drive-map.md`, this
@@ -25,7 +25,7 @@ you are not filling in this run is never opened.
    `03 · Content/Guides/`) — the structured text was only the renderer's input; the deliverable is the `.docx`.
 4. **Four texts are kept for the Brain Board** (the owner, 2026-11-14), written to `~/attraction-brain/exports/`
    in the same run and then pushed (the Brain syncs `exports/*.txt`): the Channel Page as
-   `channel-kit-YYYY-MM-DD.txt` (the file name is unchanged — other files read it) · the YouTube Game Plan as
+   `channel-kit-YYYY-MM-DD.txt` (the file name is unchanged — `yt-setup`'s own walk-through reads it) · the YouTube Game Plan as
    `youtube-game-plan-YYYY-MM-DD.txt` (the document's text **plus the TITLE NOTES block** — the per-title working
    notes the document never prints; the Game Plan skeleton has its shape) · the Monday Kickoff as
    `youtube-kickoff-YYYY-MM-DD.txt` — **the Kickoff's note**, the short lines the Brain Board shows; one name and one
@@ -37,18 +37,19 @@ you are not filling in this run is never opened.
    Channel Review's alone (`yt-triggers`).
    **And a sixth:** the three clip scripts of each repurposed video, as `youtube-clips-[the video's System ID].txt`
    (`yt-repurpose`) — each clip word for word with its ask, its caption and its hashtags; the Short-Form System's
-   Monday Week Plan drafts the week's Reels from it, and the clips are queued in the Brain's calendar
+   Monday Week Plan drafts the week's Reels from it, and the clip scripts are queued in the Brain's calendar
    (`memory/content-calendar.md → ## Clips from your videos (YouTube)`).
 
-**If the renderer prints `RENDERER-UNAVAILABLE`** (python-docx is not in this environment): do exactly what it
-says — **do not install anything, do not run pip, do not retry the command** (a package install can block for
-many minutes in a sandbox and looks like a hang). Build the same `.docx` ONCE with the **docx skill**, matching
-the look below. If that also fails, STOP and tell the member plainly that the document renderer is unavailable
-in this session, keep the full content visible in chat so nothing is lost, and state the next step — *"Everything
-is here in the chat. Ask for it again in a new chat and it saves as a document."* — a statement, never a question.
-Never "just upload the text."
+**If the renderer prints `RENDERER-UNAVAILABLE`** (python-docx is not in this environment): **install nothing, do
+not run pip, do not retry the command** (a package install can block for many minutes in a sandbox and looks like a
+hang). The renderer's own message suggests uploading the text; **in a chat, do this instead:** build the same
+`.docx` ONCE with the **docx skill**, matching the look below. If that also fails, STOP, keep the full content
+visible in chat so nothing is lost, and say — a statement, never a question, and never the word "renderer":
+*"I couldn't save this as a document this time. Everything is here in the chat — ask for it again in a new chat and
+it saves."* Never "just upload the text" in a chat. **A scheduled run is the one exception** (nobody is there to ask
+again): it uploads the structured text as a `.md` file and says so in its note, as its task prompt says.
 
-**NEVER upload the raw structured text as the deliverable.** The CAPS bands and `────`/`════` rules are the
+**In a chat, NEVER upload the raw structured text as the deliverable.** The CAPS bands and `────`/`════` rules are the
 RENDERER'S INPUT, not a document — if a saved doc ever shows literal dash lines as text, the raw input was
 uploaded: that is a FAILED delivery. Re-render and upload the `.docx` (ONE corrective re-upload; if it fails
 again, stop and say so — never loop).
@@ -78,20 +79,20 @@ rebuild with the full content. Members pay a premium; the documents must feel li
 **Title line** — first line, the doc's name in CAPS. Then a **meta line** of ` · `-separated facts, blank line:
 ```
 WHY MOST NEW AGENTS QUIT IN YEAR ONE — AND HOW TO BE THE EXCEPTION
-Runtime ~12 min  ·  For: the 0–2 year agent  ·  Lane: Situation  ·  2026-12-04
+About 12 minutes  ·  For: agents in their first two years  ·  Fri, Dec 4
 ```
 
 **Section band** — standard header wrapped top + bottom by a 44-char `─` rule, label in CAPS, ` · ` timestamp:
 ```
 ────────────────────────────────────────────
-HOOK  ·  0:00
+YOUR OPENING  ·  0:00
 ────────────────────────────────────────────
 ```
 
 **Major block** — for big structural blocks (Chapters, the Short, top-level parts) use the heavy `═` rule:
 ```
 ════════════════════════════════════════════
-CHAPTERS   (paste into the description)
+CHAPTERS   (planned — the real times come from your edit)
 ════════════════════════════════════════════
 ```
 
@@ -99,17 +100,21 @@ CHAPTERS   (paste into the description)
 ```
    >> ON SCREEN:  Taylor Brooks · Austin
    [PAUSE]
-   FACT:  from the brokerage's onboarding guide, 2026-09
+   FACT:  from the brokerage's onboarding guide, September 2026
 ```
 
 **Bullets** — 3-space indent, `•`, two spaces: `   •  First point.`
 
-**Footer** — a `─` rule, then sourcing + compliance:
+**Footer** — a `─` rule, then the sourcing line:
 ```
 ────────────────────────────────────────────
-Facts verified — {claim} ({source}, {date}).
-Compliance — cardinal rules · no compensation figures · disclosure present · [status: set / confirmed].  ✓
+Facts checked — {claim} ({source}, {the date, in words}).
 ```
+**The compliance check is run before saving and is never printed** — nothing negative about any brokerage or
+person · no pay figures (no split, cap, fee, tier, stock or income number) · the brokerage's wording where the
+member's compliance file asks for it. Its words ("cardinal rules", the status values `unset` / `set` / `confirmed`)
+never reach a document. **Compliance `unset`** → a piece that goes public carries the one stamp line under its
+title — "hold until your compliance basics are set" — and a document says it once, never twice.
 The Game Plan also carries the **credibility stamp** (house rules #9): `Powered by Mike Sherrard Coaching Inc
 Frameworks` — once as a byline under the title, once as the final footer line. Never inside a copy block the
 member pastes out.
@@ -126,21 +131,34 @@ hierarchy · use only `─` (U+2500), `═` (U+2550), `•` (U+2022). Tight and 
 Plan got). Only the document changed; the Brain's files keep their locked shapes (`identity/channel.md → ## Game
 Plan anchors`, the rows of `memory/content-calendar.md → ## Long-form (YouTube)`). The rules of the document, checked
 before it saves:
-- **One member word for a content lane: "lane".** A channel has five lanes — the three topics, the interview lane,
-  the model lane — and the three niche ones are always **"your three topics"**. Never a second word for the same
-  thing. The Week 4 pillars, when named, are "your Authority pillar", "your Proof pillar", "your Perspective pillar".
-- **None of the system's own words anywhere in the document:** no "bucket", "SIGNAL", "FOR · PAIN · SIGNAL", "cycle
-  position", "anchors", "unresearched", "starter", "rung", "avatar"; no skill name, no file name, no code or note
-  beside a title. Plain replacements: "the agents you want to attract" · "your two calls to action" · "click-through rate" ·
-  "not yet checked against search" · "from the starting list" · "your eight-video plan".
+- **The member's words, and no grouping word at all:** "your three topics" (one of them is "a topic video"), "your
+  interviews", "your model videos", "your pace". Never "lane", "niche", "bucket", "pillar" or "cadence" in a printed
+  line — the Brain's rows and the board keep their own codes (`Bucket`, `Lane`, `Cadence:`). The phrase that changes the pace is printed exactly as the member says it, "change my YouTube pace".
+- **None of the system's own words anywhere in the document:** no "SIGNAL", "FOR · PAIN · SIGNAL", "cycle
+  position", "anchors", "unresearched", "starter", "rung", "avatar", "SEO", "packaging", "hook", "CTR", "retention";
+  no skill name, no file name, no code or note beside a title. Plain replacements: "the agents you want to attract"
+  · "your two calls to action" · "how many people click" · "how long people keep watching" · "how it opens" · "not
+  yet checked against search" · "a starting set" · "your eight-video plan".
 - **Dates in words** — "Mon, Dec 7" — never `YYYY-MM-DD` inside the document (the Brain's rows keep the real dates).
 - **YOUR NEXT 7 DAYS is its own ruled block, right after READ THIS FIRST** — exactly three numbered lines, never a
-  fourth: the first video by exact title · the first agent to invite for an interview · the one channel fix.
+  fourth: the first video by exact title · the first interview (a first name only when a guest is named) · the one
+  channel fix.
 - **The 90-day calendar is one plain table** — `Week of` (the Monday of the week, in words) · `Video` (the exact
-  title) · `Kind` (Niche / Interview / Model; a new channel's first row is its Trailer) · `Guest`.
-- **The goal is four plain lines** with the member's numbers; every number the member did not state is labelled
-  "(an assumption — change it any time)".
-- **The title list is the LAST band** — MORE TITLES WHEN YOU NEED THEM — grouped by lane, plain titles only.
+  title) · `Kind` (Topic / Interview / Model; a new channel's first row is its Trailer) · `Guest`. (`Kind` is the
+  printed word only — the Brain's row keeps its own `Bucket` and `Lane` cells.)
+- **A guest is named only when the member named them** (an idea they saved for an interview, a guest they set up)
+  **or the Brain holds them as an agent the member has helped** (`organization.md`, `proof.md`). A name from the
+  Top 50 is never put on the plan as a guest by the plan itself. Nobody under that rule → the nobody-named form,
+  everywhere: each interview row is titled exactly "A conversation with an agent — guest to be named", there is no
+  guest table and no invented name, and nothing is drafted to nobody.
+- **The goal prints only numbers the Brain holds** (`identity/goals.md`, the scorecard's Targets). Never a default
+  number, an assumed rate, a share or a per-video figure; never a benchmark range; nothing that reads as a promised
+  result. No target in the Brain → the one "not set yet" line.
+- **Nothing promises a workflow.** The plan is written before the member has said Yes to the Monday Kickoff or the
+  Monthly Channel Review, so the document names neither.
+- **One missing thing is said once; three or more → one general line, never a list.**
+- **The title list is the LAST band** — MORE TITLES WHEN YOU NEED THEM — grouped under the three topics, the
+  interviews and the model videos, plain titles only.
 - **The codes stay in the Brain.** Each title's working notes (who it is for · the pain · why it is on the list)
   are never printed. They are kept in the Brain's copy of the plan only: the **TITLE NOTES** block appended to
   `exports/youtube-game-plan-YYYY-MM-DD.txt` after the document's text (its shape is under the skeleton) — where
@@ -148,29 +166,29 @@ before it saves:
 Everything inside `{…}` below is a note to the writer and is never printed.
 ```
 YOUTUBE GAME PLAN — [MEMBER NAME]
-Known for: [what you're known for]  ·  Attracting: [the first type of agent] · [the second]  ·  Prepared [Month Year]
+Known for: [what you're known for]  ·  For: [the first type of agent] · [the second]  ·  Prepared [Month Year]
 Powered by Mike Sherrard Coaching Inc Frameworks
 
 
 ════════════════════════════════════════════
 READ THIS FIRST
 ════════════════════════════════════════════
-{where your channel is today, and the verdict · the insight · the plan in one line · your pace: one video a week for the first month, two the step-up · your 90-day goal in conversations and calls}
-{only when it applies, one plain line each: "Some of these titles are not yet checked against what agents search — say 'what are agents searching' and I check them." · "Your title list starts from the starting list; your own ideas and your comments replace it as they come in." · "Your two calls to action come from your offer for now — your kit's wording replaces them."}
+{where your channel is today — one true sentence from what was read, never a verdict nobody measured · the plan in one line · your pace: {one video a week to start — two a week is the next step | two videos a week — the pace you chose} · your 90-day goal in conversations and calls — only when your goals hold it}
+{only when it applies, one plain line each — at most two; when all three apply, print this one line instead: "A few pieces are still to come — each is named where it belongs below.": "Some of these titles are not yet checked against what agents search — say "refresh my attraction game plan" and I check them." · "These titles are a starting set. Your own ideas, and the questions agents leave in your comments, replace them over time." · "Your two calls to action are written from your offer for now; your Week 3 Kit's wording replaces them when it is built."}
 
 
 ════════════════════════════════════════════
 YOUR NEXT 7 DAYS
 ════════════════════════════════════════════
-   1.  YOUR FIRST VIDEO — "{the exact title}" · record it {the day, in words — "Sat, Nov 28"} · say "make my attraction video: {title}"
-   2.  YOUR FIRST INTERVIEW — invite {the guest's first name}: {their story in one line} · say "set up an agent interview"   {no guest on file — a member who has not attracted an agent yet: this line reads "2.  YOUR FIRST CONVERSATION WITH AN AGENT — it gets its date the day you name someone · say \"which agent should I interview\"" — never "the first agent you have helped"}
-   3.  YOUR ONE CHANNEL FIX — {the one fix, in plain words — a channel not pasted yet: "paste the three pieces marked 'paste today' in your Channel Page"}
+   1.  YOUR FIRST VIDEO — "{the exact title}" · plan it this week: say "make my attraction video: {title}" · you film it {the day, in words — "Sat, Nov 28"}
+   2.  YOUR FIRST INTERVIEW — invite {the guest's first name}: {their story in one line} · say "set up an agent interview"   {no guest named — the normal first-time member — this line reads: "2.  YOUR FIRST INTERVIEW — it goes on your plan the day you name someone · say \"set up an agent interview\"" — never "the first agent you have helped"}
+   3.  YOUR ONE CHANNEL FIX — {the one fix, in plain words — a channel not pasted yet: "paste the three pieces marked 'paste today' in your Channel Page"; while your brokerage's wording is not on file yet: "say \"paste my compliance link\" (two minutes), then \"repair my channel for agents\", then paste the three pieces marked 'paste today' in your Channel Page"}   {nothing left to fix — this line reads: "3.  YOUR CHANNEL — set. Nothing to fix this week."}
 
 
 ════════════════════════════════════════════
-CHANNEL AUDIT
+YOUR CHANNEL TODAY
 ════════════════════════════════════════════
-{scaled to the number of videos — for a new channel a short "starting clean" note}
+{scaled to the number of videos — a new channel: no rows, this one line: "You are starting clean — nothing to fix yet."}
    What's working ......... {…}
    What's missing ......... {which of the three kinds of video is absent · the two calls to action · playlists · titles and thumbnails}
    First impression ....... {can a first-time visitor tell who the channel is for and why to reach out?}
@@ -182,92 +200,90 @@ YOUR POSITIONING
 Who the channel is for:  {the agents you want to attract, in their words}
 What you'll be known for:  {from strategy.md / offer.md}
 The one line:  {"[Name] helps [the type of agent] [outcome] through [how]"}
-Your two calls to action:  1. The guide — "{the spoken guide line, word for word from the kit — '… Comment GUIDE and I'll send it.'}"   2. The call — "{the spoken call line, word for word from the kit, in the call-to-action law's shape}"
+Your two calls to action:  1. The guide — "{the spoken guide line, word for word from the kit — '… Comment GUIDE and I'll send it.'}"   2. The call — "{the spoken call line, word for word from the kit, in the call-to-action law's shape}"   {no guide on file yet: the guide's line is left out — never "comment GUIDE" for a guide that does not exist}
 Why I'm building this:  {the why-line from journey.md → ## The WHY, in the member's voice — drafted and labeled "(draft)" when the Brain has not written it; never a question}
 What's missing for {the agents you want to attract} — and how I bridge it:  {the bridge-the-gap line — the agents' problem, never a word against another team or brokerage}
 Why me — for a new agent · for a seasoned agent:  {from ## Why join me / leadership.md; one line each}
 
 
 ════════════════════════════════════════════
-YOUR THREE TOPICS   (three lanes on your channel, one playlist each — your Authority pillar)
+YOUR THREE TOPICS   (one playlist each)
 ════════════════════════════════════════════
-   THE PROBLEM TOPIC — {its name}  ·  Playlist: "{playlist}"
-   Who it's for: {the type of agent} · The pain it answers: {one of the five, in their words} · Why it builds trust: {one line}
-   THE SITUATION TOPIC — {its name}  ·  Playlist: "{playlist}"
+   TOPIC 1 — {its name}  ·  Playlist: "{playlist}"
+   Who it's for: {the type of agent} · The pain it answers: {in their words} · Why it builds trust: {one line}
+   TOPIC 2 — {its name}  ·  Playlist: "{playlist}"
    {…}
-   THE FUTURE TOPIC — {its name}  ·  Playlist: "{playlist}"
+   TOPIC 3 — {its name}  ·  Playlist: "{playlist}"
    {…}
 
 
 ════════════════════════════════════════════
-YOUR INTERVIEW LANE   (your Proof pillar)
+YOUR INTERVIEWS
 ════════════════════════════════════════════
 Playlist: "{Agent success stories — or "Conversations with agents" when no agent is on file yet}"
 | # | Guest | Their story — the title | Where they come from |
 |---|---|---|---|
-| 1 | {name} | {How … built … while …} | {your organization / your Top 50} |
-{6–10 guests, in the order to invite them}
-{NOBODY ON FILE — a member who has not attracted an agent yet: no table and no invented names. Print this one
-paragraph instead: "You have not recorded a conversation yet — every member starts here. Your first guests will be:
-the next agent you help, a winner from your upline's team (named as your upline's), or a peer with a method worth
-sharing. Say "which agent should I interview" the day you have someone in mind."}
+| 1 | {name} | {How … built … while …} | {your organization / an agent you have helped / someone you named} |
+{6–10 guests, in the order to invite them — only guests the rule above allows; "your organization" is printed only for a guest the Brain's organization file holds}
+{NOBODY NAMED — the normal first-time member: no table and no invented names. Print this one paragraph instead: "You have not recorded an interview yet — every member starts here. Each interview week is kept on your plan as "A conversation with an agent — guest to be named". Until you name a guest, that week's video is the next one from your three topics, so no week is empty. A good first guest is an agent you know and admire, or anyone with a method worth sharing. Your first interview goes on your plan the day you name someone — say "set up an agent interview"."}
 
 
 ════════════════════════════════════════════
-YOUR MODEL LANE   (your Perspective pillar)
+YOUR MODEL VIDEOS   (how your brokerage's model works)
 ════════════════════════════════════════════
 Playlist: "{[Model] explained}"
-   {the videos that answer what agents are already researching: explained · should you join · how [one part] works · questions to ask a sponsor · do NOT join if}
+   {the videos that answer what agents are already looking up — only the ones that fit the member's own model: explained · should you join · how [one part] works · questions to ask a sponsor · do NOT join if}
    {Mike's comparison warning, one line — comparisons only on the member's explicit choice}
 
 
 ════════════════════════════════════════════
-YOUR GOAL, IN FOUR LINES   (conversations and calls — never income)
+YOUR GOAL   (conversations and calls)
 ════════════════════════════════════════════
-   1.  Your 90-day goal: {n} calls held with agents.   {(from your goals) — or: (an assumption — change it any time)}
-   2.  To hold {n} calls you book about {n} — about {x} of every 10 booked calls happen.   {(your own number) — or: (an assumption — change it any time)}
-   3.  To book {n} calls you start about {n} conversations — about one call for every {y} conversations.   {(your own number) — or: (an assumption — change it any time)}
-   4.  YouTube's part this quarter: about {n} of those conversations — roughly {n} a video at {one video a week}.   {(your own split) — or: (an assumption — change it any time)}
-What you control each week: videos published · interviews recorded · both calls to action in every video · comments answered · messages started.
-{one honest line — reachable, or ambitious; when ambitious, the first lever: two videos a week after a month at one · never a promise}   To lock your own numbers, say "set my attraction goals".
+{print only numbers the Brain holds — never a default, an assumed rate, a share or a per-video figure}
+   1.  Your 90-day goal: {n} calls held with agents.   (from your goals)
+   2.  That takes about {n} conversations — about one call for every {y}.   {only when your goals hold that ratio — otherwise this line is left out}
+   3.  Your videos' job is to start those conversations. Count them each week — after a month you have your own numbers.
+{no target in the Brain — print this one line and none of the three above: "Your goal is not set yet — say "set my attraction goals" and this section fills in."}
+What you control each week: videos published · interviews recorded, once a guest is named · both calls to action in every video · comments answered · messages started.
+{your goals are on file but not locked yet — one line: To lock your own numbers, say "set my attraction goals".}
 
 
 ════════════════════════════════════════════
 THE VIDEO STRUCTURE   (every video)
 ════════════════════════════════════════════
    THE OPENING (0:00–0:15) — {the pain point, in the member's voice — written word for word}
-   THE GUIDE (inside minute 1) — {the kit's spoken guide line, word for word — "comment GUIDE" / "link in the description"}
+   THE GUIDE (inside minute 1) — {the kit's spoken guide line, word for word — "comment GUIDE" / "link in the description"; no guide on file yet → this part is left out}
    THE TEACHING — {as long as it needs to be, as short as it can be; the steps of the member's method are the teaching material}
    THE CALL (about a third in) — {the kit's spoken call line, word for word, in the call-to-action law's shape — the person · their help · free · to run this (house rules #15) — never the brokerage, never a promise of your time}
    THE PAYOFF + THE NEXT VIDEO — {deliver the promise; point to the next logical video}
 
 
 ════════════════════════════════════════════
-YOUR CADENCE
+YOUR PACE
 ════════════════════════════════════════════
-One video a week for the first month — {the honest read from goals.md's hours}. Two a week is the step-up Mike
-recommends (his team read about four times the growth of one); your monthly review proposes it once a month at one
-has held, or sooner when your hours clearly carry it or you ask — say "change my YouTube cadence". Your eight-video
-plan holds at either pace — once round in eight weeks at one a week, in four at two. {your short-form rhythm is separate — this is your YouTube pace}
+{one a week — the start for every member who did not choose otherwise:} One video a week to start — {the honest read from goals.md's hours}. Two a week is the next step Mike recommends, after a good month at one a week, or sooner when you ask. To change your pace, say "change my YouTube pace". Your eight-video plan works at either pace: eight weeks at one a week, four weeks at two.
+{two a week — only when the member chose it: print this instead:} Two videos a week — the pace you chose. Your eight-video plan goes once round in four weeks. To change your pace any time, say "change my YouTube pace".
+{only when the Brain holds a short-form plan (identity/content-pillars.md), one more line: "Your short-form posts keep their own rhythm — this is your YouTube pace."}
 
 
 ════════════════════════════════════════════
-YOUR FIRST 90 DAYS   (your eight-video plan: 3 niche · 1 model · 4 interviews — one a week to start)
+YOUR FIRST 90 DAYS   (your eight-video plan: 3 topic videos · 1 model video · 4 interviews)
 ════════════════════════════════════════════
-The order of your eight: niche · interview · niche · model · interview · niche · interview · interview — then it starts again.
-      ──── YOUR FIRST 30 DAYS   (these go on your content board) ────
+The order of your eight: topic · interview · topic · model · interview · topic · interview · interview — then it starts again.
+      ──── YOUR FIRST 30 DAYS ────
 | Week of | Video | Kind | Guest |
 |---|---|---|---|
-| {Mon, Dec 7} | {exact title} | Niche | — |
-| {Mon, Dec 14} | {exact title — or "A conversation with an agent — guest to be named" when nobody is on file} | Interview | {the guest's first name — or "—"} |
-| {Mon, Dec 21} | {exact title} | Niche | — |
+| {Mon, Dec 7} | {exact title} | Topic | — |
+| {Mon, Dec 14} | {exact title — or, when no guest is named, exactly: A conversation with an agent — guest to be named} | Interview | {the guest's first name — or "—"} |
+| {Mon, Dec 21} | {exact title} | Topic | — |
 | {Mon, Dec 28} | {exact title} | Model | — |
    ──── THE WEEKS AFTER ────
 | Week of | Video | Kind | Guest |
 |---|---|---|---|
 | {Mon, Jan 4} | {exact title} | Interview | {guest} |
-{one row per video to about week thirteen, in the order above — interview · niche · interview · interview close the first eight; two interviews may be recorded in one sitting; at two a week two rows share a week}
-A month in, your monthly review asks whether two videos a week fits. Any time: say "change my YouTube cadence".
+{one row per video to about week thirteen, in the order above — interview · topic · interview · interview close the first eight; two interviews may be recorded in one sitting; at two a week two rows share a week}
+{no guest named — one line under the table: "No guest named yet: until you name one, an interview week's video is the next one from your three topics, so no week is empty. Your first interview goes on your plan the day you name someone — say "set up an agent interview"."}
+{one a week only — one line: After a good month at one a week, two a week is the next step. To change your pace any time, say "change my YouTube pace".}
 {a new channel only — its first row, before the eight: | {the week of the first filming day} | My channel trailer | Trailer | — |   and one line under the table: "Your trailer is 60 to 90 seconds; your eight-video plan starts the week after."}
 {the week of the first row is the week of the first filming day — at least three days after the plan was built (yt-gameplan's first-date rule); never the day of the sitting}
 
@@ -275,48 +291,48 @@ A month in, your monthly review asks whether two videos a week fits. Any time: s
 ════════════════════════════════════════════
 DAYS 91–180   (the direction)
 ════════════════════════════════════════════
-   91–120  Double down — {the topics to cluster if they win}
-   121–150 Compounding assets — {the evergreen model and career-transition videos to make}
-   151–180 The machine — {one or two videos a week + your short-form rhythm + 1–2 interviews a month + your Monthly Channel Review}
+   91–120  More of what worked — {the topics to make more of, if they started conversations}
+   121–150 Videos that keep working — {the model videos and career-change videos that stay useful for years}
+   151–180 Keep the rhythm — {one or two videos a week + one or two interviews a month}
 
 
 ════════════════════════════════════════════
-THE SCOREBOARD   (90 days, from your goals)
+THE SCOREBOARD   (90 days)
 ════════════════════════════════════════════
-   What you do:  videos published {n} · interviews recorded {n} · conversations from YouTube {n} · calls booked {n}
-   What follows:  click-through rate 6–10% after month one · average view duration {tracked} · subscribers {tracked, not targeted} · agents partnered {from goals}
-   Compliance:  {status · anything that must be set before a video goes out}
+   What you do:  {n} videos published at your pace · interviews recorded, as soon as a guest is named {a guest is named: the count} · {only when your goals hold it: {n} calls held}
+   What you watch (never a promise):  how many people click your video when YouTube shows it · how long people keep watching · subscribers · the agents who reach out
+   {only while your brokerage's wording is not on file, and only when line 3 of YOUR NEXT 7 DAYS has not already said it — one line, never the status word: Before your first video goes out: say "paste my compliance link" — two minutes — so your brokerage's wording is on it.}
 
 
 ════════════════════════════════════════════
 WHAT I CHECKED, AND WHEN
 ════════════════════════════════════════════
-   What agents search ..... {each phrase searched → what was seen · as seen {the date, in words}}   (up to 10 searches)
-   Channels that work ..... {the channels read · the videos that stood out · views as seen · {the date}}   (up to 8 searches)
-   What you told me ....... {the objections you hear · the ideas you captured · your comments · the news you saved}
-   Searches run:  {n} of 18  ·  Titles not yet checked against search: {n, or "none"}   {when some are unchecked: Say "what are agents searching" and I check them.}
+   What agents search ..... {each phrase searched → what was seen · as seen {the date, in words}}
+   Channels that work ..... {the channels read · the videos that stood out · {the date, in words}}   {a view count only when live numbers were read}
+   What you told me ....... {only what is on file: the ideas you saved · the questions agents asked you · your comments · the news you saved}
+   Titles not yet checked against search:  {n, or "none"}   {when some are unchecked: Say "refresh my attraction game plan" and I check them.}
    {demo mode: "Demo — nothing searched; every example is illustrative"}
 
 
 ════════════════════════════════════════════
-MORE TITLES WHEN YOU NEED THEM   (by lane — plain titles; pick any)
+MORE TITLES WHEN YOU NEED THEM   (pick any, then say "make my attraction video: [the title]")
 ════════════════════════════════════════════
-   ──── {THE PROBLEM TOPIC'S NAME} ────
+   ──── {TOPIC 1'S NAME} ────
    •  {exact title}
-   •  {…}   {12–15 in all for this lane, the calendar's included}
-   ──── {THE SITUATION TOPIC'S NAME} ────
+   •  {…}   {12–15 in all for this topic, the calendar's included}
+   ──── {TOPIC 2'S NAME} ────
    •  {…}   {12–15}
-   ──── {THE FUTURE TOPIC'S NAME} ────
+   ──── {TOPIC 3'S NAME} ────
    •  {…}   {6–8}
-   ──── YOUR INTERVIEW LANE ────
-   •  {…}   {8–10 — the guest list above, titled}
-   ──── YOUR MODEL LANE ────
+   ──── YOUR INTERVIEWS ────
+   •  {…}   {6–10 — the guest list above, titled}   {nobody named → no titles; print this one line: "Your interview titles are written the day you name a guest."}
+   ──── YOUR MODEL VIDEOS ────
    •  {…}   {6–8}
-{nothing beside a title — no code, no note, no bracket; a title already on the 90-day calendar is not repeated here; about fifty titles across the calendar and this list}
+{nothing beside a title — no code, no note, no bracket; a title already on the 90-day calendar is not repeated here; about fifty titles across the calendar and this list when there is a guest list, fewer without one — never padded}
 
 
 ────────────────────────────────────────────
-{closing — one honest paragraph: consistency before optimization; three years; chapter one}
+{closing — one honest paragraph: consistency before optimization; this is a long game and this is chapter one; never a promised result}
 Powered by Mike Sherrard Coaching Inc Frameworks
 ```
 **The Brain's copy only** — appended to `exports/youtube-game-plan-YYYY-MM-DD.txt` after the closing, never rendered
@@ -328,21 +344,26 @@ TITLE NOTES   (the Brain's copy — not printed in the document)
 ```
 
 ### Script (the four formats + interview)
-TITLE/meta → bands for `HOOK · 0:00` → `THE GUIDE ASK · ~0:45` → numbered `1 · LABEL · MM:SS` body sections
-(3–5) → `THE CALL ASK · ~{1/3 in}` → `PAYOFF` → `NEXT VIDEO` → heavy band `CHAPTERS` → heavy band `THE FIRST SHORT` →
-footer with the stories used and the compliance line — both CTAs the kit's CALLS TO ACTION lines, verbatim, in the
-law's shape (house rules #15 and #17): the guide inside minute one, the call a third in. Interview scripts carry `INTRO (record last)` ·
-`QUESTION MAP` · `OUTRO + JOINT CTA`. Detailed skeleton:
-`${CLAUDE_PLUGIN_ROOT}/skills/yt-script/references/script-format.md`.
+TITLE and one meta line (about how many minutes · who it is for · the date, in words — never a kind code) → the one
+line that tells the member how to read the page → bands for `YOUR OPENING · 0:00` → `THE GUIDE ASK · inside minute
+1` → the body sections (3–5) → `THE CALL ASK · about a third in` → `PAYOFF` → `NEXT VIDEO` → `CHAPTERS (planned — the
+real times come from your edit)` → heavy band `THE FIRST SHORT` → the footer (the story used and the facts checked —
+the compliance check is never printed). Both calls to action are the kit's CALLS TO ACTION lines, verbatim, in the
+law's shape (house rules #15 and #17): the guide inside minute one, the call a third in. Interview scripts carry
+`INTRO (record last)` · `QUESTION MAP` · `OUTRO`. **The printed words are the detailed skeleton's** —
+`${CLAUDE_PLUGIN_ROOT}/skills/yt-script/references/script-format.md` — and where this summary and that file
+differ, that file wins. Nothing in a script names the kind of video ("Bucket:", "Lane:"), says "hook" or "b-roll"
+to the member ("your opening", "extra footage"), or speaks of "the member".
 
 ### First Batch — Film Day (`yt-script`, "script my first three videos" — saved as `First Batch — Film Day — YYYY-MM-DD` in `03 · Content/Long-Form/`; no export)
 Member-facing, one page, large and plain: the day, the three videos, and what to do before, between and after.
+Everything inside `{…}` is a note to the writer and is never printed.
 ```
 YOUR FIRST BATCH — FILM DAY
 {the day, in words — "Sat, Dec 12"}  ·  three videos, about {n} minutes of talking in all
 
 ──────────────── THE THREE, IN FILMING ORDER ────────────────
-1.  {title} — about {n} minutes  ·  script: in this video's folder, and on its card
+1.  {title} — about {n} minutes  ·  script: in this video's folder{with a content board, add: ", and on its card"}
 2.  {title} — about {n} minutes
 3.  {title — the channel trailer goes last, when you are warmed up} — about {n} minutes
 {each goes out on its own week — the dates on your plan do not change}
@@ -360,253 +381,306 @@ YOUR FIRST BATCH — FILM DAY
 
 ──────────────── AFTER EACH VIDEO ────────────────
 •  Five photos of your face for your thumbnail: a big smile · surprised · serious · pointing left · pointing right
+•  Keep them on your phone — you upload one to Higgsfield for each thumbnail
 
 ──────────────── WHAT HAPPENS NEXT ────────────────
 One video at a time: open a new chat and say "make my attraction video: {title}" — your script is already written,
-so your thumbnail sheet, your title and description and your publish checklist are added. Then "edit my YouTube video".
+so your thumbnail sheet, your title and description and your publish checklist are added.
+When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.
 ```
 Never a line that promises anyone the member's time; no interview is ever on this sheet (a guest is booked).
 
-### Channel Page (`yt-setup` — the document "Channel Page — [Name]", saved as `Channel Page — [Name] — YYYY-MM-DD`; the text also kept at `exports/channel-kit-YYYY-MM-DD.txt` — the export's file name is unchanged because other files read it — so the Brain Board can read it)
+### Channel Page (`yt-setup` — the document "Channel Page — [Name]", saved as `Channel Page — [Name] — YYYY-MM-DD`; the text also kept at `exports/channel-kit-YYYY-MM-DD.txt` — the export's file name is unchanged because `yt-setup`'s own walk-through reads it)
 To the member this document is **"your Channel Page"** — never a "kit": "your kit" always means the Week 3 Kit, and
-"your brand kit" the Week 3 design pieces. It holds all nine pieces, in Studio's order, the click path above each;
-the three the member pastes today are marked "paste today" (the chat shows only those three — `yt-setup` Step 4).
+"your brand kit" the Week 3 design pieces. (The public page on YouTube is "your channel on YouTube" — never "your
+channel page", which would give one name to two things.) It holds all nine pieces, in Studio's order, the click
+path above each. **Three are marked "paste today"** — piece 1 (piece 2 goes with it, in the same box), piece 3 and
+piece 7 — and the chat shows only those three (`yt-setup` Step 4).
 **Plain words only in every printed line:** no skill name, no file path, no folder code — "your guide", "your kit",
-"your Brand folder", "your booking link". Everything inside `{…}` below is a note to the writer and is never printed.
+"your Brand folder", "your booking link". **Never a bracket or a placeholder link in a piece the member pastes
+today:** a fact the Brain does not hold (no booking link, no guide yet) leaves its line out; the one bracket allowed
+is the held place for the brokerage's wording while compliance is `unset`. **The click paths are YouTube Studio's
+own, checked against YouTube Help on 2026-11-21:** the description, the links, the banner and the picture are under
+Customization → Profile and are saved with Publish (top right); the channel trailer is under Customization → Home
+tab; Settings → Upload defaults ends with Save and applies only to videos uploaded from a computer's browser.
+Everything inside `{…}` below is a note to the writer and is never printed.
 ```
 CHANNEL PAGE — [MEMBER NAME]
 [Channel handle, or "your new channel"]  ·  Known for: [what you're known for]  ·  [the date, in words]
-{only while compliance is unset, one line:}  HOLD UNTIL YOUR COMPLIANCE BASICS ARE SET — say "paste my compliance link" (two minutes), then paste.
+{only while compliance is unset, one line — said here once and nowhere else in the document:}  HOLD UNTIL YOUR COMPLIANCE BASICS ARE SET — say "paste my compliance link" (two minutes), then "repair my channel for agents", then paste.
 {only for a channel that does not exist yet, one line:}  First, create your channel — on YouTube click your picture, choose "Create a channel", and name it [the channel name]. Everything below pastes into it.
 
-──────────────── 1 · CHANNEL DESCRIPTION   (paste today) ────────────────
-   >> PASTE INTO:  Studio → Customization → Basic info → Description — the opening paragraph
+──────────────── 1 · CHANNEL DESCRIPTION   (paste today — with piece 2, in one box) ────────────────
+   >> PASTE INTO:  studio.youtube.com (YouTube Studio) → Customization → Profile → Description — the opening paragraph; then click Publish, top right
 {2–3 sentences: who it's for · what they'll learn · the rhythm ("a new video every week")}
 
-──────────────── 2 · ABOUT SECTION   (paste today — the same field) ────────────────
-   >> PASTE INTO:  the same Description field, directly below the opening paragraph
-{opens with the YouTube bio from the kit, as written — refreshed only when the offer, the proof or the guide's link changed · who it serves · the lanes by name · one real proof line · the call line in the law's shape + the booking link · the guide + its link · the brokerage's wording, or its held place · pieces 1 and 2 together fit YouTube's 1,000-character description field}
+──────────────── 2 · ABOUT SECTION   (goes with piece 1 — the same box) ────────────────
+   >> PASTE INTO:  the same Description box, directly below the opening paragraph; then Publish
+{opens with the YouTube bio from the kit, as written — refreshed only when the offer, the proof or the guide's link changed · who it serves · the three topics by name · one real proof line, only when the Brain holds one · the call line in the law's shape + the booking link · the guide + its link · the brokerage's wording, or its held place · pieces 1 and 2 together fit YouTube's 1,000-character description box}
 
 ──────────────── 3 · LINKS   (paste today) ────────────────
-   >> PASTE INTO:  Studio → Customization → Basic info → Links
-   •  {the booking link} — the call   (first)
-   •  {the guide's link} — your free guide   (second; only when the Week 2 guide was skipped: the starter guide's link, once it exists)
-   •  {ONE social}
+   >> ADD IN:  Customization → Profile → Links → "Add link", one link at a time (its title, then its address); then Publish
+   •  {the call's title} — {the booking link}   {each bullet is written Title — address; this one first; no booking link on file → this bullet is left out, never a bracket}
+   •  {the guide's title} — {the guide's link}   {second; only when the Week 2 guide was skipped: the starter guide's link, once it exists; no guide yet → left out}
+   •  {ONE social — its name} — {its link}
 
 ──────────────── 4 · CHANNEL KEYWORDS ────────────────
-   >> PASTE INTO:  Studio → Settings → Channel → Basic info → Keywords
+   >> PASTE INTO:  Settings → Channel → Basic info → Keywords; then Save
 {8–12 phrases agents search}
 
 ──────────────── 5 · PLAYLISTS ────────────────
-   >> CREATE IN:  Studio → Content → Playlists → New playlist   (in this order — it is your homepage order)
+   >> CREATE IN:  Content → Playlists → New playlist   (in this order — it is the order on your channel's home page)
    •  {Model explained}:  {one-line description}
-   •  {Agent success stories}:  {…}
-   •  {the Problem topic's playlist}:  {…}
-   •  {the Situation topic's playlist}:  {…}
-   •  {the Future topic's playlist}:  {…}
+   •  {Agent success stories — or "Conversations with agents" when no agent is on file}:  {…}
+   •  {topic 1's playlist}:  {…}
+   •  {topic 2's playlist}:  {…}
+   •  {topic 3's playlist}:  {…}
 
 ──────────────── 6 · CHANNEL BANNER ────────────────
-   >> UPLOAD IN:  Studio → Customization → Branding → Banner
-{the banner is found — this one line, nothing else:}  Your YouTube banner is already made — it's in your Brand folder from Week 3 (banner-youtube.png). Upload it in Studio: Customization → Branding → Banner.
+   >> UPLOAD IN:  Customization → Profile → Banner image, then Publish
+{the banner is found — this one line, nothing else:}  Your YouTube banner is already made — it's in your Brand folder from Week 3 (banner-youtube.png). Upload it in YouTube Studio: Customization → Profile → Banner image, then Publish.
+{the brand kit is on record but the file is not in the folder — this one line:}  Your YouTube banner was made with your brand kit in Week 3 — it's the file banner-youtube.png, where you saved your brand kit. Upload it in YouTube Studio: Customization → Profile → Banner image, then Publish.
 {the banner is not found — this one line, then the three lines of words to hand over:}  Your banner comes from your brand kit — in your Claude Design project say "make my brand kit" and it builds your YouTube banner first; then upload it here.
 {not found only}  Headline:  {who it's for + what they get}
 {not found only}  Subline:  {the rhythm, or the invite in the law's shape}
 {not found only}  Keep the words in the centre — TV, desktop and phone crop the banner differently.
 
-──────────────── 7 · UPLOAD DEFAULTS   (paste today) ────────────────
-   >> SET ONCE IN:  Studio → Settings → Upload defaults
-{the default description: line 1 the kit's call line + the booking link (the law's shape) · line 2 the guide + its link · line 3 the compliance and contact line · the brokerage's wording last, or its held place · default tags · category Education · visibility · language}
+──────────────── 7 · UPLOAD DEFAULTS   (paste today — your default video description) ────────────────
+   >> SET ONCE IN:  Settings → Upload defaults → Description; then Save (YouTube applies it only to videos uploaded from a computer's browser)
+{the default description, and only that, as the one block to paste: line 1 the kit's call line + the booking link (the law's shape; no booking link on file → line 1 is left out, never a bracket) · line 2 the guide + its link · line 3 the compliance and contact line · the brokerage's wording last, or its held place}
+Set these by hand on the same page — each has its own box:
+   •  Tags:  {a small default set}
+   •  Category:  Education
+   •  Visibility:  {…}
+   •  Language:  {…}
 
-──────────────── 8 · YOUR SPOKEN LINES   (every video — word for word from your kit) ────────────────
+──────────────── 8 · YOUR SPOKEN LINES   (every video) ────────────────
    >> SAY IN:  every video — nothing to paste
-The guide (inside the first minute):  "{the kit's spoken guide line — 'comment GUIDE' / 'link in the description'}"
-The call (a third of the way in):  "{the kit's spoken call line, in the law's shape — join register: 'If you want my help running this — the lessons, the templates, the community — partner with me and it's free. Grab [the call].' · open register: 'I'll walk you through it, free, no strings.' — never the brokerage}"
+The guide (inside the first minute):  "{the kit's spoken guide line — 'comment GUIDE' / 'link in the description' — no kit on file: built from the guide's own record}"
+The call (a third of the way in):  "{the kit's spoken call line, in the law's shape — join register: 'If you want my help running this — the lessons, the templates, the community — partner with me and it's free. Grab [the call].' · open register: 'I'll walk you through it, free, no strings.' — never the brokerage; no kit on file: the law's shape from the offer}"
 Pop-ups:  {the kit's video pop-up lines — the guide's and the call's}   ·   End cards:  {the kit's end-card lines}
+Pop-ups are the few words that come up on screen while you say each line; the end card is your video's last screen. Both are added when the video is edited.
 
-──────────────── 9 · CHANNEL TRAILER ────────────────
-   >> SET IN:  Studio → Customization → Layout → Video spotlight
+──────────────── 9 · CHANNEL TRAILER   (the short video a new visitor sees first) ────────────────
+   >> SET IN:  Customization → Home tab — the channel trailer is added there; then Publish
 {a new channel:}  Your trailer is the first video on your plan — say "make my attraction video: my channel trailer".   {an existing channel: the strongest recent video, named}
 
-────────────────────────────────────────────
-Compliance — cardinal rules · no compensation figures · your brokerage's wording present · [status].  ✓   {unset → "Compliance — hold until your compliance basics are set · cardinal rules · no compensation figures · your brokerage's wording still to add."}
+{before saving, the compliance check — never printed: nothing negative about any brokerage or person · no pay figures · the brokerage's wording in place, or its held place while compliance is unset}
 ```
 
 ### Kickoff Brief (the Monday Kickoff — `yt-briefing`, scheduled or on demand; saved as `Kickoff Brief — [title] — YYYY-MM-DD` in the video's folder; the Brain Board's text is the Kickoff's NOTE, kept at `exports/youtube-kickoff-YYYY-MM-DD.txt` — never the brief; the same sections are written into the video's board card under the card page's emoji headings, Status → Scripted)
 Member-facing: the start of the week's video, done for them — never a full production run. The script START is
 labeled as a start; the full script, the chapters, and the competitive read belong to the video's own chat. The
-sections run in the locked long-form card page's order (`notion-board-spec.md`): 🎯 THE HOOK · 🎬 SCRIPT · 🖼 THUMBNAIL
-BRIEF · 🔍 SEO PACKAGE · 🧲 THE RESOURCE · 📚 REFERENCE VIDEO · 🎙 GUEST · 📋 ASSETS & NOTES · ✅ PUBLISH IT · 📊 AFTER IT'S OUT — on the card
-each section is replaced in place, never stacked; a card seeded from the calendar already holds THE HOOK, the
-REFERENCE VIDEO and ASSETS & NOTES (the brief), and the Kickoff fills the rest — it never deletes or rewrites the
-reference video, and it lays down the six publish boxes with their click paths.
+sections run in the locked long-form card page's order (`notion-board-spec.md`). **The document's bands are in the
+member's words; the card keeps the shared spec's headings** (a card-section heading is never renamed here) — band
+→ card section: THREE WAYS TO OPEN → 🎯 THE HOOK · SCRIPT START → 🎬 SCRIPT · YOUR THUMBNAIL SHEET → 🖼 THUMBNAIL
+BRIEF · YOUR TITLE AND DESCRIPTION → 🔍 SEO PACKAGE · YOUR GUIDE AND YOUR CALL → 🧲 THE RESOURCE · REFERENCE VIDEO
+— WATCH THIS FIRST → 📚 REFERENCE VIDEO · GUEST → 🎙 GUEST · NOTES FOR FILMING → 📋 ASSETS & NOTES · PUBLISH IT →
+✅ PUBLISH IT · AFTER IT'S OUT → 📊 AFTER IT'S OUT. On the card each section is replaced in place, never stacked; a
+card seeded from the calendar already holds THE HOOK, the REFERENCE VIDEO and ASSETS & NOTES (the brief), and the
+Kickoff fills the rest — it never deletes or rewrites the reference video, and it lays down the six publish boxes
+with their click paths. **An interview week with no guest named gets no brief of its own** (nothing is drafted to
+nobody): the week's video is the next one from the member's three topics, and this brief is written for that
+video. Everything inside `{…}` is a note to the writer and is never printed.
 ```
 KICKOFF BRIEF — "{title}"
-Week of {Monday's date}  ·  For: {the type of agent}  ·  Lane: {Problem / Situation / Future / Interview / Model}  ·  Recording: {date}  ·  Publishing: {date}
+Week of {Monday's date, in words}  ·  For: {the type of agent}  ·  {A topic video: {the topic's name} / An interview / A model video / Your channel trailer}  ·  Recording: {the day, in words}  ·  Publishing: {the day, in words}
 
-──────────────── THE HOOK ────────────────
+──────────────── THREE WAYS TO OPEN ────────────────
 Title:  {the exact title}
 {three ways to open — the chosen one first and in bold: the viewer's situation → the tension → what they'll have by the end}
 
 ──────────────── SCRIPT START   (finish it: say "make my attraction video: {title}") ────────────────
-[HOOK — 0:00]   {the chosen hook, written word for word}
-[THE GUIDE ASK — inside minute 1]   {the kit's spoken resource line, verbatim — the guide: "comment GUIDE" / "link in the description"}
-SECTION MAP:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 · {…}   (3–5; the method's steps from the offer's ## The framework are the teaching material)
-[THE CALL ASK — ~1/3 in]   {the kit's spoken call line, verbatim, in the call-to-action law's shape — the person · their help · free · to run this; never the brokerage, never a promise of your time}
-   {an interview slot: this block holds your own hook and the two ask lines only — the whole guide is in the GUEST block}
+[YOUR OPENING — 0:00]   {the chosen opening, written word for word}
+[THE GUIDE ASK — inside minute 1]   {the kit's spoken resource line, verbatim — the guide: "comment GUIDE" / "link in the description"; no guide on file yet → this line is left out}
+YOUR SECTIONS:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 · {…}   {3–5; the steps of the member's own method are the teaching material}
+[THE CALL ASK — about a third in]   {the kit's spoken call line, verbatim, in the call-to-action law's shape — the person · their help · free · to run this; never the brokerage, never a promise of your time}
+   {an interview with a named guest: this block holds your own opening and the two ask lines only — the whole guide is in the GUEST block}
 
-──────────────── THUMBNAIL BRIEF ────────────────
+──────────────── YOUR THUMBNAIL SHEET ────────────────
 {your thumbnail sheet for Higgsfield — for each of the three directions the image prompt to paste, which of your photos to upload and the 3 to 5 words to add; one recommended — the same sheet saved as its own doc (the Thumbnail Sheet skeleton)}
 
-──────────────── SEO PACKAGE START ────────────────
-Title options (3):  {…}
-Description, lines 1–3:  {line 1 the kit's call line + the booking link (the law's shape) · line 2 the guide's funnel URL · line 3 the compliance and contact line}   ·   Summary (~150 words):  {…}
-Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {the guide's funnel URL + "comment GUIDE and I'll send it" + one question}   ·   Chapters: after the script   ·   Disclosure block: last
+──────────────── YOUR TITLE AND DESCRIPTION   (started) ────────────────
+Your title:  {the exact title}   ·   Spare titles (only if this one is slow after a month):  {two}
+Description, lines 1–3:  {line 1 the kit's call line + the booking link (the law's shape) · line 2 the guide's link · line 3 the compliance and contact line}   ·   Summary (about 150 words):  {…}
+Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {the guide's link + "comment GUIDE and I'll send it" + one question}   ·   Chapters:  their names come with your script, their times after your edit
+{the disclosure block is always the last block of the description}
 
-──────────────── THE RESOURCE ────────────────
-{this video's resource — the guide by name, the keyword GUIDE, the funnel URL, where it lives (memory/magnets.md → ## Current magnet) · the call: the booking link}
+──────────────── YOUR GUIDE AND YOUR CALL ────────────────
+{this video's two calls to action — the guide by name, its keyword GUIDE and its link (from the Brain's current-guide record) · the call: the booking link; no guide on file yet → the call alone}
 
 ──────────────── REFERENCE VIDEO — WATCH THIS FIRST ────────────────
 ▶ {the video's real title} — {channel} — {the clean watch link}
 Why this one:  {closest match by title: the same question, made for agents / close, not exact: what differs / for the format: how a video like yours is run}
 Watch for:  how it opens · where it asks for something · what it leaves out that you would say
-{the card's own reference video, already on the card — the Kickoff re-checks the link still opens and finds a new one if it does not; a card with none gets one now (one search, the check); none found → "No close video found yet — here is YouTube's own search for this topic: {the search link}". Two more arrive with the full script (yt-make-video). Never a link that a search did not return and the check did not confirm; never a view count that was not seen.}
+{the card's own reference video, already on the card — the Kickoff re-checks the link still opens and finds a new one if it does not; a card with none gets one now (one search, the check); none found → "No close video found yet — here is YouTube's own search for this topic: {the search link}". Two more arrive with the full script. Never a link that a search did not return and the check did not confirm; never a view count that was not seen.}
 
-──────────────── GUEST   (interviews only) ────────────────
-{the guest · the transformation the title promises · the outcome sentence · the five steps with the type-specific questions · the edification lines · the call line in the law's shape · the invite draft · the consent line and its state · the distribution ask (their three sentences)}
+──────────────── GUEST ────────────────
+{this band only for an interview with a NAMED guest: the guest · the story the title promises · the outcome sentence · the five steps with the questions for this kind of guest · the two lines that introduce them · the call line in the law's shape · the invite draft · their okay to publish and its state · what to ask them to share (the three sentences) — no guest named → this band is left out and nothing is drafted to nobody}
 
-──────────────── ASSETS & NOTES   (the brief) ────────────────
-Who it's for and the pain:  {the type of agent · one of the five pains, in their words}
-Why this week:  {the plan's reason for this title, in plain words — what agents search · a dated news item · an objection you heard · a video that worked elsewhere · a gap on your channel · "from the starting list — not yet checked against search"}
-Story to use:  {the story-bank hook — unused recently}
-B-roll and filming notes:  {…}   ·   Compliance lines to say:  {license display · brokerage name, as compliance.md says}
+──────────────── NOTES FOR FILMING ────────────────
+Who it's for and the pain:  {the type of agent · the pain, in their words}
+Why this week:  {the plan's reason for this title, in plain words — what agents search · a dated news item · a question an agent asked you · a video that worked elsewhere · a gap on your channel · "from the starting set — not yet checked against search"}
+Story to use:  {one of your stories, not used recently — none on file → this line is left out}
+Extra footage and filming notes:  {…}   ·   Your brokerage's lines to say:  {license display · brokerage name, as your compliance wording says}
+When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.
 
 ──────────────── PUBLISH IT — SIX STEPS IN YOUTUBE STUDIO ────────────────
 {six tick boxes, in Studio's own order, each with where to click — the video's own values arrive when the full package is written ("make my attraction video"); never ticked by the system}
-☐ 1 · Title — Details → Title: paste your chosen title
-☐ 2 · Description — Details → Description: paste your description (line 1 your call and booking link · line 2 your guide · line 3 your compliance and contact line)
-☐ 3 · Thumbnail — Details → Thumbnail → Upload file: the thumbnail you made in Higgsfield, from this video's folder (made all three, and Studio shows "Test & compare" there? Use it and upload the three — YouTube picks the winner)
-☐ 4 · Playlist — Details → Playlists: tick {the playlist's exact name}
-☐ 5 · End screen — Video elements → Add an end screen: the next video and the playlist your SEO package names (your first video: the playlist alone), and Subscribe
-☐ 6 · Pinned comment — after it is public: post your pinned comment, then ⋮ → Pin
-All six ticked? Say "my video is published" and I'll move this card to Published.
+☐ 1 · Title — top right, Create → Upload videos → choose your edited file; then Details → Title: paste your title   {a first video only, add: "The first time, YouTube asks you to verify your account by a text or a call, at youtube.com/verify — you need it once, to add your own thumbnail and to upload a video longer than fifteen minutes."}
+☐ 2 · Description — Details → Description: paste your description (line 1 your call and booking link · line 2 your guide · line 3 your compliance and contact line). If the box already holds your default lines, select everything in it and paste this over it.
+☐ 3 · Thumbnail — Details → Thumbnail → Upload file: the thumbnail you made in Higgsfield, from this video's folder. If Studio shows "Test & compare" there and you made all three, upload the three — YouTube picks the winner.
+☐ 4 · Playlist — Details → Playlists: tick {the playlist's exact name}. If it is not in the list yet, create it there, with this exact name. Then, lower on the same screen, Audience: "No, it's not 'Made for Kids'" — YouTube will not go on without an answer.
+☐ 5 · End screen — Video elements → Add an end screen: the next video and the playlist named in your title and description (your first video: the playlist alone), and Subscribe
+☐ 6 · Pinned comment — first make it public: Visibility → Public, then the button at the bottom right (Publish or Save); then, on the video's own page, post your pinned comment, then ⋮ → Pin
+All six ticked? Say "my video is published"{with a content board, add: " and I'll move its card to Published"}.
 
 ──────────────── AFTER IT'S OUT ────────────────
-{empty — your Monthly Channel Review, or "how did my video do", writes the live link, the numbers and the agents who named the video}
+{left empty — it is filled after the video is out: "how did my video do" writes the live link, the numbers and the agents who named the video; the Monthly Channel Review writes the same when it is switched on}
 
-────────────────────────────────────────────
-Compliance — cardinal rules · no compensation figures · former brokerage unnamed · disclosure in the description · [status].  ✓
+{before saving, the compliance check — never printed: nothing negative about any brokerage or person · no pay figures · no former brokerage named · the disclosure block in the description}
 ```
 
 ### SEO Package
+The member's words for this document are **"your title and description"** — the printed title and every band say
+so. The `### SEO Package` heading above and the saved file's name, `SEO Package — [title] — YYYY-MM-DD`, are the
+names other files find it by and stay as they are. The title is never re-chosen here: the one already chosen is
+printed first, word for word, and the two spares sit under it. Everything inside `{…}` is a note to the writer
+and is never printed.
 ```
-{VIDEO TITLE} — SEO PACKAGE
-For {the type of agent}  ·  Lane: {Problem / Situation / Future / Interview / Model}  ·  {YYYY-MM-DD}
+{VIDEO TITLE} — YOUR TITLE AND DESCRIPTION
+For {the type of agent}  ·  {A topic video: {the topic's name} / An interview / A model video}  ·  {the date, in words}
+{only while compliance is unset, one line:}  HOLD UNTIL YOUR COMPLIANCE BASICS ARE SET — say "paste my compliance link" (two minutes) before this video goes out.   {line 3 and the disclosure block then keep their place as one bracketed line each, never invented}
 
-──────────────── TITLE OPTIONS ────────────────
-1.  {option — formula #}
-2.  {option}
-3.  {option}
+──────────────── YOUR TITLE ────────────────
+{the title already chosen, word for word — the one the script and the thumbnail were built on; none chosen yet → the recommended one, stated, never offered as a choice}
 
-──────────────── THUMBNAIL TEXT ────────────────
+──────────────── SPARE TITLES   (only if this one is slow after a month) ────────────────
+1.  {a spare title}
+2.  {a spare title}
+
+──────────────── THUMBNAIL WORDS ────────────────
 {3–5 words, different from the title}  ·  (the three thumbnails are made in Higgsfield from your thumbnail sheet)
 
 ──────────────── DESCRIPTION ────────────────
-{line 1: the kit's call line, verbatim, + the booking link — the law's shape: the person · their help · free · to run this (the join register on Join-gated package allowed: yes or unknown; the open register only on no) — never the brokerage}
-{line 2: the guide → its funnel URL ("Free: [the guide's name] → [funnel URL]"; "Questions to Ask Before You Choose a Sponsor" only when the Week 2 guide was skipped)}
-{line 3: the compliance and contact line — the brokerage name and license display as compliance.md requires, then the contact line operations.md lists (the handles, a phone or an email — only what is on file); the full disclosure block stays the LAST block}
-{150–250 word summary in the member's voice — no compensation words (splits, caps, fees, rev-share tiers, stock, income), no promise of your time}
-
-   CHAPTERS
-   00:00  {…}
-   01:00  {…}
+{line 1: the kit's call line, verbatim, + the booking link — the law's shape: the person · their help · free · to run this (the join register on Join-gated package allowed: yes or unknown; the open register only on no) — never the brokerage; no booking link on file → left out, never a bracket}
+{line 2: the guide — "Free guide — {the guide's title}: {its link} (or comment GUIDE and I'll send it)"; "Questions to Ask Before You Choose a Sponsor" and its download link only when the Week 2 guide was skipped; no guide yet → left out}
+{line 3: the compliance and contact line — the brokerage name and license display as the member's compliance file requires, then the contact line their Brain lists (the handles, a phone or an email — only what is on file); the full disclosure block stays the LAST block}
+{150–250 word summary in the member's voice — no pay words (splits, caps, fees, rev-share tiers, stock, income), no promise of your time}
+{after the edit only: the chapters with their real times, the first at 00:00 — moved here from the block below}
 
    WATCH NEXT
-   {the next logical video} · {the lane's playlist}
+   {2–3 of the member's own videos, the next logical one first; a first video, or none published yet → this block is left out — never a link to a video that does not exist}
+
+──────────────── CHAPTERS — ADD AFTER YOUR EDIT ────────────────
+{before the edit: the chapter NAMES alone, in order — outside the text to paste; a time is never estimated from a script. After the edit: the real times go beside the names, the block moves into the description above, and this band is left out}
 
 ──────────────── TAGS ────────────────
-{tag, tag, tag, …}
+{four to six, specific — never a broad one}
 
 ──────────────── HASHTAGS ────────────────
 #{…}  #{…}  #{…}
 
 ──────────────── PINNED COMMENT ────────────────
-"{the guide's funnel URL + "comment GUIDE and I'll send it" + one question inviting agents to comment their situation — never a keyword of the plugin's own}"
+"{the guide's link + "comment GUIDE and I'll send it" + one real question inviting agents to comment their situation — never a keyword of the plugin's own; an interview: a line of thanks to the guest by name; no guide yet → the question and the call alone}"
 
-──────────────── END SCREEN + CARD ────────────────
-End screen:  {the next logical video — a first video: the playlist alone} + subscribe  ·  Card:  {the resource, at the moment the script points to it}  ·  Playlist:  {the lane's playlist, by its exact name on the channel — the publish checklist's steps 4 and 5 paste these two}
+──────────────── PLAYLIST AND END SCREEN ────────────────
+Playlist:  {this video's playlist, by its exact name on the channel — step 4 of the publish steps uses it}
+End screen:  {the next logical video — a first video: the playlist alone} + subscribe   {step 5 of the publish steps uses it}
+Info card:  {another of your videos, or the playlist, at the moment the script points to it — never the guide and never an outside link; nothing to point to yet → this line is left out}
 
 ──────────────── WHY THESE   (three plain sentences, for you — not for pasting) ────────────────
-{the phrase the title targets and the evidence seen · which tags carry real demand · why the description order is the conversion order}
+{the phrase the title uses and where it was seen · why the description opens with the call and then the guide · the tags are simply the phrases agents type. Never a claim about demand, ranking or views that was not seen}
 
 ──────────────── DISCLOSURE BLOCK   (always the LAST block of the description) ────────────────
 {brokerage name + license as required · the brokerage disclaimer verbatim · income disclaimer only if earnings were mentioned · AI-likeness line on clone content}
+
+{no content board only — the six publish steps are printed here as the last block, with this video's own values and the editing line above them (the same six lines as in the Kickoff Brief skeleton, without the tick boxes' card wording); with a board they are on its card and this block is left out:}
+──────────────── PUBLISH IT — SIX STEPS IN YOUTUBE STUDIO ────────────────
+When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.
+{the six steps}
 ```
 
 ### Interview Prep (`yt-interview` — saved as `Interview Prep — [guest] — YYYY-MM-DD` in the video's folder)
 Every section below is something `yt-interview` Steps 3–6 produce; a prep with only the question map is a thin
-doc and a failed render.
+doc and a failed render. **Written only for a NAMED guest.** Nobody named → no Interview Prep is written and
+nothing is drafted to nobody; the member reads, word for word: *"No guest named yet, so this week's video is
+'[title]', from your topics. Your first interview goes on your plan the day you name someone — say 'set up an
+agent interview'."* Two kinds of guest, two sets of questions: **an agent who joined the member**, and **any other
+guest** (a peer, an agent from the member's sponsor's team, anyone they simply want to talk with) — the second
+kind is never asked what made them move or what it has been like "since partnering", and their title never says
+they used the member's method. Everything inside `{…}` is a note to the writer and is never printed.
 ```
 INTERVIEW PREP — {GUEST NAME}
-Transformation: {the title hook}  ·  Type: {new agent / turnaround / top producer / team leader / broker-owner / attracted their first agent / guest expert}  ·  For: {the type of agent this story lands with}  ·  Record: {date}  ·  Consent: {on file / asked YYYY-MM-DD / pending}
+The story: {what the title promises}  ·  For: {the type of agent this story lands with}  ·  Recording: {the day, in words}  ·  Their okay to publish: {on file / asked {the date, in words} / not asked yet}
 
 ──────────────── THE OUTCOME THIS VIDEO DELIVERS ────────────────
 {one line — "by the end, a {type of agent} watching should believe {X}" — what a viewer who has never heard of the guest leaves with}
 
-──────────────── TITLE OPTIONS   (hook AND transformation — never "tell me your story") ────────────────
-1.  {How {first name} {transformation} — and used {the mechanism}}   ← recommended
+──────────────── TITLE OPTIONS   (what changed for them) ────────────────
+1.  {never a "tell me your story" title — an agent who joined you: How {first name} {what changed} — and used {the mechanism} · any other guest: How {first name} {does the thing} — {the constraint}}   ← recommended
 2.  {…}
 3.  {…}
-Thumbnail text (differs from the title, both faces):  {3–5 words}
+Thumbnail words (different from the title; both faces on it):  {3–5 words}
 
-──────────────── EDIFICATION LINES   (before the guest speaks — true facts only) ────────────────
-{two lines in your voice: their stated result · who they were a year ago · why you wanted them on}
+──────────────── HOW YOU INTRODUCE YOUR GUEST   (before they speak — true facts only) ────────────────
+{two lines in your voice — an agent who joined you: what they have said changed · who they were a year ago · why you wanted them on; any other guest: who they are and why you asked them}
 
 ──────────────── QUESTION MAP   (not a script — the five steps, any order) ────────────────
+{an agent who joined you:}
    BEFORE — {what business was like before: 2–3 open questions}
    THE SHIFT — {what made them decide to move, what the hesitation was: 2–3}
    SINCE — {what it has been like since partnering — support, training, community, in their words: 2–3}
-   THE RESULTS — {outcomes in their words — freedom, support, the category of result; never a figure they did not volunteer: 1–2}
+   THE RESULTS — {what changed, in their words — freedom, time, support, a milestone; never a dollar or income figure: 1–2}
    ADVICE — {for an agent standing where they stood: 1–2}
-   {TYPE-SPECIFIC STEPS — new agent: the first-30-days routine · turnaround: what was missing before (no names, no blame) · top producer: what changed in leverage and time · team leader / broker-owner: what they kept, what overhead disappeared · first agent attracted: how that conversation happened}
-   Interviewer rules:  the guest is the star · never interrupt · let emotion sit · add a layer only after they finish · redirect on camera if they knock a brokerage or a person (that part is cut)
+{any other guest — these five instead, never the five above:}
+   THEIR START — {how they got into the business: 1–2}
+   THE METHOD — {the one thing they do that other agents should hear, step by step: 2–3}
+   THE MISTAKE — {what they would skip if they started again: 1–2}
+   WHAT IT CHANGED — {in their words, no figure: 1–2}
+   ADVICE — {for an agent starting it this week: 1–2}
+   {the extra steps for a guest who joined you — new agent: the first-30-days routine · turnaround: what they changed first (no names, no blame) · top producer: what changed in their time · team leader / broker-owner: what they kept, what overhead disappeared · attracted their first agent: how that conversation happened}
+   While you film:  the guest is the star · never interrupt · let emotion sit · add a layer only after they finish · redirect on camera if they knock a brokerage or a person (that part is cut)
 
 ──────────────── INTRO   (record LAST, after you know the story — 45–75 s) ────────────────
-{the transformation as the title promises it → who this is for → two or three specific things coming → one honest line edifying the guest → the resource CTA in one breath → "let's get into it"}
+{the story as the title promises it → who this is for → two or three specific things coming → one honest line about the guest → the guide ask in one breath (only when a guide is on file) → "let's get into it"}
 
-──────────────── OUTRO + JOINT CTA   (30–45 s) ────────────────
-{thank the guest and name the one thing to take from them → the joint call line in the law's shape — join register: "if you want my help running this the way {guest} did — the lessons, the templates, the community — partner with me and it's free; grab the call in the description" · open register: "I'll walk you through it, free, no strings — the link is in the description" — never the brokerage, never a promise of your time → the next video (another interview on the same pain, or the model explained) → the end screen}
+──────────────── OUTRO + YOUR INVITATION   (30–45 s) ────────────────
+{thank the guest and name the one thing to take from them → your call line — the kit's spoken call line, word for word (no kit on file: the law's shape; the lessons, the templates and the community named only when the offer's value stack lists them) — with the lead-in "the way {guest} did" only for a guest who joined you; never the brokerage, never a promise of your time → the next video → the end screen}
 
 ──────────────── THE INVITE   (DM or email, in your voice — you send it) ────────────────
-{why them · the 30–45 minute format · the recording link · "you are the story" · the one prep line: "think about where you were before and the moment things changed"}
-Consent line:  {the plain okay to publish, use clips, and share their name as written}
+{why them · the 30–45 minute format · one line that the recording link comes the day before · "you are the story" · the one prep line — a guest who joined you: "think about where you were before and the moment things changed"; any other guest: "think about the one thing you do that other agents should hear"}
+Their okay, in one line:  {the plain okay to publish, use clips, and share their name as written — and, for a guest who has not joined you, one honest sentence that the video ends with your own invitation to agents}
 
 ──────────────── WHEN THEY SAY YES   (the booking — filled when the guest agrees) ────────────────
 Two recording times:  {slot 1 — the day, in words, and the time}   ·   {slot 2}
 The reply to send:  "{two lines in the member's voice: the two times, 'pick whichever suits you', the recording link comes the day before}"
-Guest prep note:  {the copy block the member sends — what to expect · 30 to 45 minutes · the three questions they get first · how to look and sound good on camera}
-On the day:  open a new chat and say "prep me for a guest recording"; when it's recorded, say "edit my interview".
+Guest prep note:  {the copy block the member sends — what to expect · 30 to 45 minutes · the first three questions of THIS guest's own question map, word for word · how to look and sound good on camera}
+The day before:  open a new chat and say "prep me for a guest recording" — your AI Editing Studio sets up the recording and gives you the link to send {guest}. When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.
 Booked:  {the date, the time and the calendar title — "on your calendar" only when the member said yes to the hold}
 
-──────────────── THE GUEST'S DISTRIBUTION ASK   (send when it goes live) ────────────────
-{the three sentences: share it to your story · post it with a line of your own · send it to three agents who are where you were — with the link and the clips}
+──────────────── WHAT TO ASK YOUR GUEST TO SHARE   (send when it goes live) ────────────────
+{the three sentences: share it to your story · post it with a line of your own · send it to three agents — a guest who joined you: who are where you were; any other guest: who would use it — with the link and the clips}
 
-────────────────────────────────────────────
-Compliance — cardinal rules on every cut (the guest's answers too) · no compensation figures · former brokerage unnamed · consent recorded · disclosure in the description · [status].  ✓
+{before saving, the compliance check — never printed: nothing negative about any brokerage or person in any cut (the guest's answers too) · no pay figures · no former brokerage named · their okay recorded · the disclosure block in the description}
 ```
 
 ### Thumbnail Sheet (`yt-thumbnail` — the ONE shape, for Higgsfield; saved as `Thumbnail Brief — [title] — YYYY-MM-DD` in the video's folder — the file name is unchanged so the board and the Kickoff find it)
 The cohort's members make their thumbnails in **Higgsfield** (the owner, 2026-11-14) — nowhere else. The
 sheet carries, for each of the three directions, what the member takes there: the image prompt to paste, which of
-their own photos to upload, and the 3 to 5 words to add. Strategy — the scores, the why, the patterns — stays in the
-chat. This plugin writes words and prompts; it never makes an image. To the member it is "your thumbnail sheet".
+their own photos to upload, and the 3 to 5 words to add. One line of why for each direction stays in the chat; the
+scoring is silent — no score, no why and no pattern note ever goes on the sheet. This plugin writes words and
+prompts; it never makes an image. To the member it is "your thumbnail sheet". The kind of video is written in
+plain words ("a topic video", "a conversation with an agent", "your brokerage, explained") — never a bucket or a
+lane word. Everything inside `{…}` is a note to the writer and is never printed.
 ```
 THUMBNAIL SHEET — "{VIDEO TITLE}"
 For Higgsfield, where you make your thumbnails: upload your photo, paste the prompt, add the words.
-Video: {lane} · for {the type of agent} · the feeling: {the fear to avoid / the outcome to reach}
+Video: {the kind of video, in plain words — "a topic video" / "a conversation with an agent" / "your brokerage, explained"} · for {the type of agent} · the feeling: {the fear to avoid / the outcome to reach}
 All three: a 16:9 frame at 1280×720, with clear space where the words go.
 
 ──────────────── THUMBNAIL 1   (the recommended one) ────────────────
-Photo to upload:  {which of the member's own photos — named the way it is in their Brand folder — or, when the expression is missing, "take this one first: {the expression to shoot}"}
+Photo to upload:  {which of the member's own photos — named the way it is in their Brand folder, or, after a first batch, one of the five from film day named by what it shows ("your surprised photo from film day") — or, when the expression is missing, "take this one first: {the expression to shoot}"}
 Prompt to paste:
 {one ready-to-paste paragraph: the scene · your expression · where you sit in the frame (about a third of it, left or right, eyes toward the open side) · the background · your brand's colours in plain words (the hex in brackets) · "16:9 frame, 1280×720, clear space on the {left / right / top} for text, no text in the image"}
 Words to add (3–5):  {the words — never the title's}
@@ -624,39 +698,24 @@ Prompt to paste:
 Words to add (3–5):  {…}
 
 ────────────────────────────────────────────
-Rules — 3 to 5 words · the words differ from the title · your face about a third of the frame · one supporting element at most · readable on a phone · {compliance: your brokerage's mark where required; no other brokerage's mark; your AI-picture line where your compliance wording asks for one}
+Rules — 3 to 5 words · the words differ from the title · your face about a third of the frame · one supporting element at most · readable on a phone{only where the member's brokerage rules ask for it, add: " · your brokerage's mark, never another brokerage's · say it is an AI-made picture if your brokerage's rules ask you to"}
 When they're made: drop the finished thumbnails into this video's folder (Content → Long-Form → {video}) and say "my thumbnail is done".
-```
-
-### Lead Map (`yt-leads` — only when the lead magnet exists, built in Week 2; the Starter Resource needs no map)
-```
-{VIDEO TITLE} — LEAD MAP
-Offer {from offer.md}  ·  Avatar pain {one of the five}  ·  CTA {booking link}
-
-──────────────── THE RESOURCE ────────────────
-Name:     {title}
-Format:   {checklist / playbook / guide}
-Promise:  {the one outcome it delivers — the "give enough to get started" rule}
-
-──────────────── PAGE-BY-PAGE ────────────────
-PAGE 1 — {purpose}
-   •  {content}
-
-──────────────── CTA / NEXT STEP ────────────────
-{the call line in the law's shape — your kit's, verbatim — + the booking link}
-(We map the content; your Lead Magnet system — the Week 2 plugin — writes and designs it as a later campaign.)
 ```
 
 ### Starter Resource (`yt-leads` — the fallback for a member who skipped the Week 2 lead magnet: built ONCE, in Week 5, while `## Current magnet` is empty; saved as `Starter Resource — YYYY-MM-DD` in `03 · Content/Guides/`)
 Questions only — the doc never answers them, never names a brokerage as the answer, never carries a figure. One
-page, in the member's voice, for the primary avatar. Ten to twelve questions; the standard twelve live in
-`yt-leads` 1a. Sub-band labels stay under 70 characters.
+page, in the member's voice, for the primary avatar. Ten to twelve questions — fewer when a question about a track
+record the member does not have yet, or about something their own model does not have, is left out; never padded;
+the standard twelve live in `yt-leads` 1a. Sub-band labels stay under 70 characters. **This page is handed to
+agents, so nothing but its own words prints on it** — no check line, no note to the writer. Everything inside
+`{…}` is a note to the writer and is never printed.
 ```
 QUESTIONS TO ASK BEFORE YOU CHOOSE A SPONSOR
-From {Member Name}  ·  For {the type of agent, in their words}  ·  {YYYY-MM-DD}
+From {Member Name}  ·  For {the type of agent, in their words}  ·  {Month Year}
+{only while compliance is unset, one line — for the member, removed before the page is shared:}  HOLD UNTIL YOUR COMPLIANCE BASICS ARE SET — say "paste my compliance link" (two minutes) before you share this page.
 
 ──────────────── WHY THESE QUESTIONS ────────────────
-{3–4 sentences in the member's voice: you're choosing a sponsor, not just a brokerage · the brokerage is the vehicle, the leader is the growth · ask these of anyone you're considering — including me}
+{3–4 sentences in the member's voice: you're choosing a sponsor, not just a brokerage · the brokerage is the vehicle, the leader is the growth · ask these of anyone you're considering}
 
 ──────────────── THE MODEL   (how it works, who it fits) ────────────────
    1.  {question}
@@ -677,48 +736,76 @@ From {Member Name}  ·  For {the type of agent, in their words}  ·  {YYYY-MM-DD
    10.  {question}
    11.  {question}
    12.  {question}
-   (questions only — no split, cap, fee, tier, stock, or income figure appears here, not even as an example)
+{questions only — no split, cap, fee, tier, stock or income figure appears here, not even as an example}
 
 ──────────────── THE NEXT STEP ────────────────
-{one warm line in the member's voice, in the law's shape — "want these answered for your situation? grab a call — I'll walk you through it, free, no strings" → the booking link}
+{one warm line in the member's voice, in the law's shape — "want these answered for your situation? grab a call — I'll walk you through it, free, no strings" → the booking link; no booking link on file → the member's own way to be reached, as the Brain holds it}
 
 ────────────────────────────────────────────
-{the disclosure footer: brokerage name and license as compliance.md requires · the brokerage disclaimer verbatim · no income disclaimer — no earnings are mentioned}
-Compliance — cardinal rules · brokerage-agnostic · no compensation figures · disclosure present · [status].  ✓
+{the disclosure footer: brokerage name and license as the member's compliance file requires · the brokerage disclaimer verbatim · no income disclaimer — no earnings are mentioned; compliance unset → its held place, never invented}
+{before saving, the compliance check — never printed on this page: nothing negative about any brokerage, sponsor or person · no brokerage named as the answer · no pay figures · the disclosure footer present}
 ```
 
 ### Model Breakdown (`yt-model-breakdown` — saved as `Model Breakdown — [title] — YYYY-MM-DD` in the video's folder)
+To the member the file behind this video is "your model notes". A part about something the member's model does
+not have (no revenue share, no sponsor, no equity in the model notes) is left out — never written as if it
+existed. Everything inside `{…}` is a note to the writer and is never printed.
 ```
 {VIDEO TITLE} — MODEL BREAKDOWN
-For {the type of agent}  ·  Lane: Model  ·  Model file last reviewed {YYYY-MM-DD}  ·  {YYYY-MM-DD}
+For {the type of agent}  ·  A model video  ·  Your model notes were last checked {Month Year}  ·  {the date, in words}
 
-──────────────── THE SOURCED FACT SHEET ────────────────
-   •  {fact used} — {source document, date}   (every fact; compensation figures never appear here or on camera)
+──────────────── THE FACTS, WITH THEIR SOURCES ────────────────
+   •  {fact used} — {source document, date}
+{every fact the outline uses is listed here; pay figures never appear here or on camera}
 
-──────────────── THE OUTLINE   (one band each — the two CTAs placed) ────────────────
-HOOK (the question they typed) · THE GUIDE ASK · OVERVIEW (history, positioning) · HOW COMPENSATION IS STRUCTURED
-(the concepts, no figures — "the exact numbers on a call") · TOOLS + THE GAPS YOUR VALUE PROPOSITION FILLS ·
-SUPPORT + TRAINING · BEYOND CLOSINGS (the concepts) · CULTURE + COMMUNITY · WHO IT'S FOR · WHO IT'S NOT ·
-THE CALL ASK (the law's shape) + NEXT VIDEO
+──────────────── THE OUTLINE ────────────────
+{each part below is its own sub-band, in this order, with its lines under it — the two calls to action in their places, quoted from the kit:}
+   ──── YOUR OPENING ────
+   {the question they typed, answered honestly — no "welcome back"}
+   ──── THE GUIDE ASK ────
+   {the kit's spoken guide line — only when a guide is on file}
+   ──── OVERVIEW ────
+   {history, and how the brokerage describes itself}
+   ──── HOW PAY IS STRUCTURED ────
+   {the ideas, no figures — "the actual numbers for your situation — we go through those on the call"}
+   ──── TOOLS AND TECHNOLOGY ────
+   {what is included · a gap is named only when the member's own program holds what fills it}
+   ──── SUPPORT AND TRAINING ────
+   {the brokerage's support, then the member's program as the offer states it}
+   ──── BEYOND CLOSINGS ────
+   {only what the model notes hold — the ideas, never a projected value or an earnings figure}
+   ──── CULTURE AND COMMUNITY ────
+   {what it actually feels like}
+   ──── WHO IT'S FOR ────
+   {said fairly}
+   ──── WHO IT'S NOT FOR ────
+   {said fairly}
+   ──── THE CALL ASK ────
+   {the kit's spoken call line, the method named, then "and the numbers for your situation — on the call" · the next video, only when a published video exists to point at}
 
 ──────────────── THE MYTHS THIS ANSWERS   (what agents keep asking, in their words) ────────────────
+{only when the Brain holds what agents keep asking — nothing on file → this band is left out, never invented}
    •  "{the myth or fear}" → {the fact, with its source}
-   {comparison videos only: Mike's caution stated to the member — facts only, sourced and dated, strengths and weaknesses of each, never a negative word about a brokerage or person}
+   {comparison videos only: Mike's caution stated to the member — facts only, sourced and dated, what each offers and who it fits, a trade-off named only for the member's own model; never a negative word about a brokerage or person}
 
 ──────────────── TITLE SET ────────────────
-1.  {title}   2.  {title}   3.  {title}   ·  thumbnail text (differs from the title): {3–5 words}
+1.  {title}   2.  {title}   3.  {title}   ·  thumbnail words (different from the title): {3–5 words}
 
-──────────────── RE-MAKE REMINDER ────────────────
-{re-make when the model changes or in 12 months — from the file's Last reviewed date}
+──────────────── WHEN TO RE-MAKE IT ────────────────
+Re-make this video when your brokerage changes its model, or in a year — your model notes were last checked {Month Year}.
 
-────────────────────────────────────────────
-Cardinal-rules read-back — {what was changed}.   Compliance — no compensation figures · disclosure in the description · [status].  ✓
+{before saving, the compliance check — never printed: nothing negative about any brokerage or person, by name or by hint · no pay figures · the disclosure block in the description}
 ```
 
 ### YouTube Deep Dive (`yt-analytics` — saved as `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-read-YYYY-MM-DD.txt` — its own name, never `youtube-review-*`; no credibility stamp)
+**Written only when at least one video is published.** Nothing published yet → no document, no table of zeros and
+no list of what is missing: the member reads the skill's own three lines (what they have built, their first video
+by title and its recording day, and the phrase that makes it). The band names are the deep-dive guide's (one
+difference until the guide follows: 1.8 says "your channel on YouTube", because "your Channel Page" is the name of
+the member's document). Everything inside `{…}` is a note to the writer and is never printed.
 ```
 YOUTUBE DEEP DIVE — [MEMBER NAME] — [MONTH YYYY]
-Window: {last 90 days}  ·  Data: {live / Studio pack in or not / public reads}  ·  {YYYY-MM-DD}
+The last 90 days  ·  Read from: {your live numbers / your Studio screenshots / what is public on your channel}  ·  {the date, in words}
 
 ════════════════════════════════════════════
 READ THIS FIRST
@@ -726,16 +813,18 @@ READ THIS FIRST
 {the verdict — three plain sentences}
    THE ONE MOVE ......... {exactly one action}
    DO THESE THREE THIS WEEK ......... 1. {…}  2. {…}  3. {…}
-   YOUR NUMBERS AT A GLANCE   (each with its plain meaning)
-   WHAT'S IN THIS REPORT   (pulled live · Studio pack · not available)
+   YOUR NUMBERS AT A GLANCE
+   {each number with its plain meaning — "how many people click", "how long people keep watching"}
+   WHAT'S IN THIS REPORT
+   {for each part, one of: read live · from your Studio screenshots · not available}
 
 ════════════════════════════════════════════
 PART 1 — YOUR CHANNEL
 ════════════════════════════════════════════
-   1.1 How you grew  ·  1.2 What's pulling — by lane  ·  1.3 Titles & thumbnails  ·  1.4 Your best openings
+   1.1 How you grew  ·  1.2 What's pulling — by content type  ·  1.3 Titles & thumbnails  ·  1.4 Your best openings
    1.5 Where viewers come from  ·  1.6 What viewers are saying  ·  1.7 Where views stop turning into calls
-   1.8 How often you post & your channel page
-   (every finding: what we found · why it matters to you · do this · the proof; numbers in tables)
+   1.8 How often you post & your channel on YouTube
+{every finding: what we found · why it matters to you · do this · the proof; numbers in tables}
 
 ════════════════════════════════════════════
 PART 2 — OTHER ATTRACTION CHANNELS   (what they do well, never what is wrong with them)
@@ -744,96 +833,137 @@ PART 2 — OTHER ATTRACTION CHANNELS   (what they do well, never what is wrong w
 PART 3 — WHERE YOU SHOW UP WHEN AGENTS SEARCH
 ════════════════════════════════════════════
 ════════════════════════════════════════════
-PART 4 — THE OPENINGS   (3–5 four-line cards)
+PART 4 — THE OPENINGS
 ════════════════════════════════════════════
+{three to five openings, each a four-line card: what we found · why it matters to you · do this · the proof}
 ════════════════════════════════════════════
-PART 5 — YOUR NEXT 30 DAYS   (keep · fix · the exact titles at your cadence — four or five at one a week, eight or nine at two · THE ONE MOVE, repeated)
+PART 5 — YOUR NEXT 30 DAYS
 ════════════════════════════════════════════
+{keep · fix · the exact titles at your pace — four or five at one a week, eight or nine at two · THE ONE MOVE, repeated}
 ════════════════════════════════════════════
 APPENDIX — THE FULL NUMBERS
 ════════════════════════════════════════════
 ```
 Structure and method: `${CLAUDE_PLUGIN_ROOT}/skills/yt-analytics/references/deepdive-guide.md`.
 
-### Monthly Channel Review (`yt-triggers`'s scheduled run, or "run my monthly YouTube review" in chat — saved as `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-review-YYYY-MM-DD.txt` so the Brain Board can read it; no live data unless connected; no credibility stamp; the same run writes each published card's 📊 AFTER IT'S OUT and one dated YouTube block in the Brain's performance ledger)
-The live connection reads public data only; click-through rate, watch time and traffic sources live inside YouTube
-Studio. So the review **uses the month's Studio screenshots when they are on record** (a `YouTube Studio numbers`
-block for the month in the performance ledger — written by "add my attraction Studio numbers") **and says so**; when
-they are not, it says in one line which three would have sharpened it; and **it always ends with the stated step**
-that asks for next month's — told, never asked. Plain words: "by topic", "your eight-video plan", never "lane mix"
-or "cycle position".
+### Monthly Channel Review (`yt-triggers`'s scheduled run, or "run my monthly channel review" in chat — saved as `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-review-YYYY-MM-DD.txt` so the Brain Board can read it; no live data unless connected; no credibility stamp; the same run writes each published card's 📊 AFTER IT'S OUT and one dated YouTube block in the Brain's performance ledger)
+The live connection reads public data only; how many people click, how long they keep watching and how they found
+a video live inside YouTube Studio. So the review **uses the month's Studio screenshots when they are on record** (a
+`YouTube Studio numbers` block for the month in the performance ledger — written by "add my attraction Studio
+numbers") **and says so**; when they are not, it says nothing about them in the body — the closing band is the one
+place the screenshots are named (a missing thing is said once) — and **it ends with the stated step once a video is
+published**, told, never asked. **The band names below are the task prompt's, word for word — the task prompt is
+the source** (`skills/yt-triggers/references/monthly-review-task-prompt.md`, step 7); where this skeleton and the
+prompt differ, the prompt wins. A band with nothing to say is left out — never "none", never a zero. Plain words:
+"your three topics", "a topic video", "interviews", "your model video", "your Game Plan", "your pace" — never
+"lane", "niche", "cadence", "packaging", "pipeline", "ledger", "retention" or "click-through rate". Everything
+inside `{…}` is a note to the writer and is never printed — a band's "only when" note is one of them, so a band
+label carries its name and nothing else.
 ```
 MONTHLY CHANNEL REVIEW — [MEMBER NAME] — [MONTH YYYY]
-Window: {the month}  ·  Data: {the content log · the calendar · the interview pipeline · the conversations and the Top 50 · your Studio screenshots of {month}, or "no Studio screenshots this month"}  ·  {the date, in words}
+{the month, in words}  ·  {only when they are on record: with your Studio screenshots of {month}}  ·  {the date, in words}
 
 ──────────────── THE MONTH IN ONE LINE ────────────────
-   {one sentence, kindly — a month on plan is a month on plan}
+   {one sentence, kindly — a month on plan is a month on plan; never "behind", never a grade}
 
-──────────────── WHAT SHIPPED ────────────────
-   {pipe table: planned · published · by topic — niche · interview · model; where you are in your eight-video plan; the pace held or not}
+──────────────── WHAT YOU PUT OUT ────────────────
+   {pipe table: planned · published · by kind — topic videos · interviews · your model video; whether your pace held}
+   {no new video in the month → no table, this one sentence instead: "No new video in {Month} — your next one is '{title}', set for {the day}."}
 
-──────────────── THE ATTRACTION SCOREBOARD ────────────────
-   {pipe table: video · comments · conversations · calls booked — counted from the ledgers, never estimated; the agents who named a video}
+──────────────── WHO REACHED OUT ────────────────
+   {this band only when a video was named — no video named → the band is left out}
+   {pipe table: video · comments · conversations · calls booked — counted from the Brain's records, never estimated}
 
-──────────────── YOUR STUDIO NUMBERS   (only when this month's screenshots are on record) ────────────────
+──────────────── YOUR STUDIO NUMBERS ────────────────
+   {this band only when this month's screenshots are on record}
    From the Studio screenshots you added on {the date, in words}:
-   {pipe table: video · impressions · click-through rate · average view duration · views}
-   {one line: where your viewers came from and what they typed to find you · one line: where they left your top video}
+   {pipe table: video · how often YouTube showed it · how many people clicked · how long people kept watching · views}
+   {one line: how people found the videos and what they typed · one line: where people stopped watching the most-watched video}
 
-──────────────── THE INTERVIEW PIPELINE ────────────────
-   {candidates · invited · booked · recorded · published; who is overdue; the next guest to invite}
+──────────────── YOUR INTERVIEWS ────────────────
+   {this band only when a guest is named — nobody named → the band is left out and nothing about interviews is counted or said}
+   {invited · booked · recorded · published; the next guest to invite}
 
-──────────────── THE DRAFTS WAITING ────────────────
-   {the Monday Kickoff's drafts still at Scripted, by title — or omit}
+──────────────── DRAFTS WAITING ────────────────
+   {this band only when there is one — otherwise left out}
+   {the Monday Kickoff's drafts that are not made into a video yet, by title — three or more → one general line, never a list}
 
-──────────────── THE PACKAGING FIX ────────────────
-   {one title or thumbnail to redo, and why — from this month's Studio numbers when they are on record; a month of click-through, never day one}
-   {no Studio numbers for the month → this one line instead:}  No Studio screenshots this month — the Content table, the Reach page and your top video's retention graph would have told me which title to redo, where your viewers came from and where they left.
+──────────────── ONE TITLE TO REDO ────────────────
+   {this band only when a click number is on record and calls for it}
+   {one new title and the thumbnail note, and why — from this month's Studio numbers; a month of clicks, never day one; the 6–10% guide is named as Mike's own, from his lesson, never as an industry number}
 
 ──────────────── WHERE MOMENTUM SLOWED ────────────────
-   {name ONE — publishing · interviews · the break between views and conversations · the comment sweep}
+   {this band only when the Brain's records show it — a month that went to plan → the band is left out}
+   {name ONE, kindly — publishing · interviews, only when a guest is named · views that did not turn into conversations}
+   {fewer than three months of videos → one line instead: in the first three months making the videos is what counts. Never guilt.}
 
-──────────────── THE ONE MOVE ────────────────
-   {exactly one action for next month}
+──────────────── YOUR ONE NEXT STEP ────────────────
+   {exactly one action for next month — one sentence, doable, tied to the next videos on the Game Plan}
 
-──────────────── NEXT MONTH'S SLOTS ────────────────
-   {the titles in order from the calendar, the interview to book first — four or five at one a week, eight or nine at two}
-   {THE STEP-UP, when due — one line: two a week proposed, as a proposal the member answers: say "change my YouTube cadence"}
+──────────────── NEXT ON YOUR PLAN ────────────────
+   {the titles in order from the calendar — four or five at one a week, eight or nine at two; a guest to invite first only when one is named; an interview row with no guest named gives its week to the next topic video and nothing is said about it here}
+   {the move to two a week, when due — the task prompt's fixed words, a proposal the member answers with "change my YouTube pace"}
 
 ──────────────── TO MAKE NEXT MONTH'S REVIEW SHARPER ────────────────
+   {this band only when at least one video is published — the stated step, the task prompt's words:}
 To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words "add my attraction Studio numbers":
-   1.  Analytics → Content — the video table (impressions, click-through rate, average view duration, views).
-   2.  Analytics → Reach — traffic source types and YouTube search terms.
-   3.  Analytics → Engagement — the retention graph of your top video.
+1.  In the left menu click Insights (it used to say Analytics), then the Content tab — screenshot that page.
+2.  In the left menu click Content, point at your most-watched video and click Insights, then the Reach tab — screenshot it.
+3.  Same video, the Engagement tab — screenshot it.
 
-────────────────────────────────────────────
-Compliance — cardinal rules · no compensation figures · [status].  ✓
+{before saving, the compliance check — never printed: no "cardinal rules" line and no status word at the foot of the review}
+```
+**Nothing published yet — the short review** (the task prompt's step 2b: no YouTube row at `Published` in the
+content log — the normal state of a member's first weeks). The document has four bands and nothing else — THE MONTH
+IN ONE LINE · YOUR NEXT VIDEO · NEXT ON YOUR PLAN · YOUR ONE NEXT STEP: no table, no counts, no Studio band, no
+"drafts waiting", no "where momentum slowed", no screenshots step and no two-a-week line. Never a table of zeros,
+never guilt, never an apology for being new. The lines are the task prompt's own; where this skeleton and the
+prompt differ, the prompt wins:
+```
+MONTHLY CHANNEL REVIEW — [MEMBER NAME] — [MONTH YYYY]
+{the month, in words}  ·  {the date, in words}
+
+──────────────── THE MONTH IN ONE LINE ────────────────
+   Your Game Plan is built and your first video is ready to make: "{title}", set for {the recording day, in words}.
+   {{title} is the first row on the plan that is not an interview with no guest named; a date already past → "ready whenever you are" in place of "set for …" — never "overdue", never "behind"}
+   {no calendar and no Game Plan document → this one line instead, and the three bands below are left out: Your first video is next — say "build my attraction game plan" and I map it.}
+
+──────────────── YOUR NEXT VIDEO ────────────────
+   "{title}" — {the recording day, in words — or "ready whenever you are"}
+
+──────────────── NEXT ON YOUR PLAN ────────────────
+   {the next titles, in order}
+
+──────────────── YOUR ONE NEXT STEP ────────────────
+   Record "{title}" — say "make my attraction video: {title}" to get it ready to film.
 ```
 
 ### Repurposing Pack
+**Only the bands of the pieces that were written** (`yt-repurpose`): the three clip scripts and the three
+conversation starters, always; one email only when the member has a list to send it to; a blog post only when the
+member asked for one. No swipe-post band and no stories band — the short-form system writes its own. To the member
+the three are "your three clip scripts"; their band keeps the heading `SHORTS (3)` and the labels `SHORT 1` · `SHORT
+2` · `SHORT 3`, because the Monday plan reads them from the pack's export by those names. Everything inside `{…}`
+is a note to the writer and is never printed.
 ```
 {VIDEO TITLE} — REPURPOSING PACK
-From the long-form script  ·  {YYYY-MM-DD}
+From your video's script  ·  {the date, in words}
 
 ════════════════ SHORTS (3) ════════════════
 SHORT 1 — {angle}
-   {hook → one point → the ask: "comment GUIDE", or the kit's call line}
+   {how it opens → one point → the ask: "comment GUIDE", or the kit's call line → the caption and hashtags}
 
-════════════════ CAROUSEL (1) ════════════════
-Slide 1 {…} | Slide 2 {…} | …   (copy only — designed from this in your short-form system, or in your brand project in Claude Design — claude.ai/design, or a Design canvas inside Cowork)
-
-════════════════ STORIES (5) ════════════════
-   1.  {…}
-
+{only when the member has a list:}
 ════════════════ EMAIL (1) ════════════════
 Subject:  {…}
-{body + the kit's call line, in the law's shape}
+{body + the ask in the law's shape — the guide, or the kit's call line}
 
+{only when the member asked for one:}
 ════════════════ BLOG (1) ════════════════
 Title:  {…}
 {body}
 
-════════════════ CONVERSATION STARTERS (3)   (personalised per agent — you send) ════════════════
+════════════════ CONVERSATION STARTERS (3)   (ready to send to an agent you know — you send) ════════════════
    1.  {an opener the member can send an agent who'd care about this video — no pitch}
 ```
 

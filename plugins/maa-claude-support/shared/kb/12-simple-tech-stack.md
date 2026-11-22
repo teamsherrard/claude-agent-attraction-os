@@ -1,4 +1,4 @@
-# Simple Tech Stack (Week 5)
+# Simple Tech Stack (Week 6)
 
 Mike's deliberately minimal tooling for attraction and the follow-up philosophy that goes with it. No CRM, no drip campaigns: G Suite, Zoom, Loom, ChatGPT, and Calendly cover almost everything, social media does the quiet nurturing, and follow-up is personal, value-driven, and triggered by real events rather than a schedule. Simple is what your agents can copy.
 

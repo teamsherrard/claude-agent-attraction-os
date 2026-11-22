@@ -7,7 +7,7 @@
 - URL: [https://youtube.com/@handle — `to add` while the channel is not created yet]  ·  Handle: [@handle — `to add` until the member pastes it]  ·  Status: [active / empty / none → created YYYY-MM-DD]
 - Mode at setup: [new / existing]  ·  Live data: [not connected / active YYYY-MM-DD / declined YYYY-MM-DD]
 - Setup: [not started (a start-over only) / kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
-- Filming day: [the day the member films a full video — their answer to setup's one question; every date on the plan is counted from it; empty → `identity/operations.md → Filming window:` is used]
+- Filming day: [the day the member films a full video — read from Week 4's `identity/operations.md → Filming window:` when it holds a day, otherwise their answer to setup's one question; every date on the plan is counted from it; empty → the first-date rule's fallback is used]
 - First full video: [the topic the first full video is on — one of the three topics below; chosen from the Brain at setup and read back to the member, never asked: `[topic] · [from your guide / from your method / the first of your three / your choice] YYYY-MM-DD`; empty → the plan applies the same rule and writes it]
 - Board: [the content board's link — this line only when identity/publishing.md does not exist; otherwise the link lives on publishing.md → Content board:]
 
@@ -19,7 +19,7 @@
 | Bucket | Playlist (lane) name | Maps to pillar | One-line description |
 |---|---|---|---|
 | Model | [Model] explained | Perspective | … |
-| Interview | Agent success stories | Proof | … |
+| Interview | [Agent success stories — only when the Brain holds an agent the member has helped; otherwise Conversations with agents] | Proof | … |
 | Problem | [name] | Authority | … |
 | Situation | [name] | Authority (Story angle) | … |
 | Future | [name] | Authority | … |

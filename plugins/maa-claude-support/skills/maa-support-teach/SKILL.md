@@ -69,14 +69,14 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
   claude.ai/customize/skills; set up the design system in Design first; upload the Brain Book
   there because Design can't read the brain folder (FAQ Q3, Q30, Q47). Two upload failure modes:
   description over 1024 chars, nested zip.
-- **Claude Voice for objection practice** — voice is an input method (doctrine §1); in Week 5
+- **Claude Voice for objection practice** — voice is an input method (doctrine §1); in Week 6
   `cv-objection-coach` runs randomized role-play in voice: Claude plays the agent, they answer out
   loud, Listen → Validate → Reframe → Invite. Fetch the voice article live before guiding setup.
 - **The ManyChat templates** — a bonus asset imported into THEIR ManyChat account (free plan
   first), not a plugin or connector; the keyword carries every Reel; the PRO-badge truth test
   (FAQ Q35, Q43). Price always from ManyChat's site.
 - **The CRM options** — GoHighLevel, Follow Up Boss, or a Google Sheet; the Brain's `config.md`
-  CRM line records which; the AI Admin reads it in Week 5. Sheets is the free, zero-setup default;
+  CRM line records which; the AI Admin reads it in Week 6. Sheets is the free, zero-setup default;
   the others are bring-your-own with their own logins. Never recommend buying a CRM for the cohort.
 - **Riverside** — the editor, on their own account (Week 4); Claude directs, Riverside renders,
   they approve. No Descript. Higgsfield is where they make YouTube thumbnails from Week 5 (FAQ Q48, Q64).
@@ -98,7 +98,7 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
   is optional, the system working for them is the point. A plugin that hasn't shipped yet → say
   which week, warmly.
 - **Voice mode questions** → doctrine §1: phone voice + the capture skill is the everyday combo;
-  Week 5 adds the role-play. Note: the capture skill needs a Brain to file into.
+  Week 6 adds the role-play. Note: the capture skill needs a Brain to file into.
 
 ## The mini-curriculum (when they ask for "the basics")
 

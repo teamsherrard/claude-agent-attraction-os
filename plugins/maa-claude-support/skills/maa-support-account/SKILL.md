@@ -41,7 +41,7 @@ money policies: `${CLAUDE_PLUGIN_ROOT}/shared/cohort-kb.md`.
 ## Standing answers (frames, with live fill-ins)
 
 - **Pro vs Max:** default = start Pro, upgrade on a real signal (hitting limits 2+ times weekly,
-  usually content-batch weeks, Week 5's intel reports, or several scheduled agents running
+  usually content-batch weeks, Week 6's intel reports, or several scheduled agents running
   daily). Never present Max as required for the cohort.
 - **Usage limit hit:** FAQ Q10 verbatim: wait (it refills) · lighter model for drafts · upgrade if
   it's weekly. Always: work + Brain are untouched. A scheduled agent that hit the limit at its run

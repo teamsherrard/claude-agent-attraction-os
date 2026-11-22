@@ -17,7 +17,9 @@ and is cited as such wherever it is used.
 - The realtor YouTube doctrine (buyers, sellers, listings, market updates, home tours, relocation) does not
   apply here. This channel attracts **agents**. The viewer is a licensed real estate agent deciding who to follow.
 - Vocabulary (from `shared/how-we-speak.md`): "the member" is the person we serve; "agents" are the people
-  they attract. In front of the member say "you"; never "leads", "recruits", or "downline" out loud.
+  they attract. In front of the member say "you"; never "leads", "recruits", or "downline" out loud. To a member
+  the default is always "the agents you want to attract" — never "your agents", "your team", "your organization",
+  "your guests" or "agents you've helped" as a fact, unless the Brain holds such a person.
 - **Pillars vs buckets (locked OS-wide).** The five **content pillars** are the Brain's, by these exact names:
   **Authority · Perspective · Story · Proof · Personality** (`identity/content-pillars.md`, written by `sf-gameplan`).
   The five YouTube **buckets** — **Problem · Situation · Future · Interview · Model** — are an idea taxonomy, not
@@ -104,6 +106,9 @@ and opportunity content) → CREATE CONVERSATIONS (CTA + resource + DM) → CONV
 for 180 days. Mike's one-line summary (`/93`): "Value-driven content attracts interest. Interviews build trust.
 Model breakdowns create clarity and action. Publishing consistently creates a recruiting machine."
 
+**A member with no agents yet — the normal first-time member:** category 2 is never described to them as "your
+organization" or "your agents"; §5 has the line they read.
+
 **Buckets → pillars (the OS lock).** The three categories become five buckets for tagging, and each bucket maps
 to one of the Brain's five pillars:
 
@@ -156,8 +161,9 @@ Every Problem/Situation/Future title is tied to one of the member's avatars and 
 technology gaps · limited growth · work-life balance and recognition). Future-bucket content touches leverage and
 recurring income **without numbers** (§15). (Future-bucket content is still Authority in the log.)
 
-**How to never run out of topics (`/94`):** ask your agents and prospects what challenges they face — every
-challenge is a video. Search YouTube for "[topic] for real estate agents" and study the auto-suggest and the
+**How to never run out of topics (`/94`):** ask agents what challenges they face — the agents you talk with now,
+and your own partners once you have them — every challenge is a video. Search YouTube for "[topic] for real
+estate agents" and study the auto-suggest and the
 videos that show up; make yours better with your own spin. Only recreate videos that already have a lot of
 views — they have proven demand. Keep a running idea list; a great idea forgotten on the way back to work is
 gone. (The OS keeps it in `memory/ideas.md`; the member's own ideas come first.)
@@ -191,6 +197,12 @@ value proposition?* Mike emails his whole organization every quarter: "if you've
 YouTube interview." As the group grows, leaders send him the up-and-comers. (The OS keeps the list in
 `memory/interview-pipeline.md`, fed by `memory/organization.md` and `memory/top-50.md`.)
 
+**A member with no agents yet — the normal first-time member — is never told any of this as a fact about them**
+(never "your organization", "your agents", "agents you've helped"): their interview slot reads "A conversation with
+an agent — guest to be named", that week's video is the next one from their three topics, the first interview goes
+on the plan the day they name someone — a peer, an agent from their sponsor's team, anyone they want to talk with —
+and the quarterly note is drafted only when the Brain holds agents who joined them.
+
 **The structure (`/95`)** — hit every point, any order:
 1. **Introduction — recorded LAST.** Record the interview first, learn their story, then record the intro that
    hooks viewers with the best things you now know are coming; editing puts it at the front. ("A ninja strategy.")
@@ -204,13 +216,16 @@ YouTube interview." As the group grows, leaders send him the up-and-comers. (The
 
 **The title rule (VIP day).** An interview is never "tell me your story." It has a specific hook and
 transformation so it has standalone value for a viewer who has never heard of the guest: *"How Kevin built a
-six-figure business cold calling part-time — and used social media to convert more expired listings."*
+six-figure business cold calling part-time — and used social media to convert more expired listings."* (Mike's
+own example. In this OS an interview title never carries an income or dollar figure — a milestone or a deal count
+the guest stated, or none: `yt-interview` Step 3.)
 
 **How to be a good interviewer (`/95`):** the guest is the star — never interrupt, never make it about you, even
 when you know the answer better than they do. No written questions: know the outcome the video must deliver and
 guide toward it in real time; nod, listen, unpack the interesting thing they just said. Keep nervous or newer
 guests focused. Make the story the hero; let them share emotion, not just numbers ("I've had people cry");
-focus on the outcomes every agent craves — more freedom, more income, more support. Record on Zoom or Riverside
+focus on the outcomes every agent craves — more freedom, more income, more support (in the guest's own words —
+never a dollar or income figure on camera or in a title). Record on Zoom or Riverside
 (Mike uses Riverside now); repurpose into clips. In this OS the edit goes to `studio-interview`.
 
 **What interviews give (VIP day):** proof · education · social proof · relationship-building · content leverage —
@@ -250,8 +265,11 @@ right, and still took the video down after a CEO threatened legal action — "I 
 recommend them.** If a member insists: facts only, days of research, objective tone, strengths and weaknesses of
 each, outcomes agents care about (income, support, growth, freedom), end with "which aligns with your goals —
 reach out and let's chat" — and never a negative word about another brokerage or sponsor. In this OS a
-comparison is built by `yt-model-breakdown` from `brokerage-model.md` and the Brain plugin's brokerage-models reference, dated and
-sourced, compliance-gated, with the warning repeated to the member.
+comparison is built by `yt-model-breakdown` from `brokerage-model.md` and the other brokerage's own published
+pages, supplied by the member, dated and sourced, compliance-gated, with the warning repeated to the member —
+**and it names a trade-off only for the member's own model**: Mike's "strengths and weaknesses of each" becomes
+"what each offers and who it fits", a weakness of another brokerage is never written, and income is never
+compared.
 
 **The outcome (`/96`):** from recruiter to educator; comparison sparks curiosity; the member becomes the go-to
 resource for understanding the model — "if you give them the understanding, they book a call and they join."
@@ -377,7 +395,9 @@ free to book a call, link in the description" · "If this resonates and you want
 next level… I'd love to hear your goals" · "Everything I shared today is just the surface — if you want free
 access to the full system, training, tools, mentorship, and coaching, click the link in the description" ·
 "If you're curious what it could look like together… my calendar's in the link below. I can't wait to hear your
-story." Write them in the member's voice (`voice-print.md`), never pasted.
+story." Write them in the member's voice (`voice-print.md`), never pasted. **Never "our agents are getting
+results" — or any line about the member's own agents or their results — unless the Brain holds such agents and
+their stated, consented results; the default is "the agents you want to attract", and no result is promised.**
 
 **The call-to-action law (Mike, 2026-11-10) — how this OS adapts every line above.** Every call ask is angled at
 partnering with the PERSON to get their help, free, to run the method — never the brokerage. Read `identity/offer.md`'s
@@ -475,8 +495,8 @@ conversations and calls per video, never income.
   competitor's weakness.
 - **No compensation numbers in public content.** Splits, caps, fees, rev-share tiers or percentages, stock
   amounts, income, "what you'll make" — all private-call material (`compliance-doctrine.md` §2, §4). Public model
-  content explains *how it works* and *who it fits*. Any figure that must appear is illustrative and labeled, with
-  the income disclaimer from `compliance.md`.
+  content explains *how it works* and *who it fits*. No figure appears in public content — not as an example,
+  not labeled: examples are private-call material (the rule `yt-model-breakdown` and `yt-leads` already keep).
 - **No income promises, no earnings claims, no lifestyle-as-income.** Mike's own numbers in §2 are his, cited to
   his lesson, never implied as the member's outcome.
 - **Former brokerages are never named** in the member's story ("a franchise," "an independent").
@@ -549,3 +569,6 @@ clever" · "three to five words, different from the title" · "your description 
 "bingeworthy" · "never let them leave without one more video" · "the library effect" · "commit for three years"
 · "chapter one vs chapter twenty" · "not if, when" · "done is better than perfect" · "Partner Call" (the OS's
 name for the private one-on-one Zoom).
+
+His words are about his own channel. In anything a member says in public, none of them is turned on another
+leader, coach, team or brokerage — "the gurus" stays out of a member's script.

@@ -1,21 +1,21 @@
 # Monthly Channel Review — Scheduled Task Prompt (Week 5 · Brain-native, workspace-backed, draft-only)
 
 Switched on at setup with the member's Yes on the workflows card — `yt-setup`'s card (the Monthly row of
-`${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md`) — or resumed on "turn on my monthly YouTube
+`${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md`) — or resumed on "turn on my monthly channel
 review" (`yt-triggers` Job 1), from `paused` or `later`. Create ONLY after that explicit yes: `list_scheduled_tasks` first (adopt `attraction-monthly-youtube-review` if it exists, never a twin), else
 `create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, `cronExpression: 0 8 1 * *` (the 1st at
-8:00 am, or the member's day and hour, in their local time from `~/attraction-brain/config.md → Timezone`), the block
+8:00 am, or the member's hour — the day never changes — in their local time from `~/attraction-brain/config.md → Timezone`), the block
 below as the task `prompt` **verbatim**. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`), write
 `Monthly review task: attraction-monthly-youtube-review · runs the 1st [time]` to `config.md`'s `## YouTube (Week 5)`
 block (an older `## YouTube (Week 4)` heading is the same block — rename it on this write, update the line in place),
-push via `attraction-brain-sync`. "Run my monthly YouTube review" runs steps 2–7 and 9 in chat with no task and no
+push via `attraction-brain-sync`. "Run my monthly channel review" runs steps 2–7 and 9 in chat with no task and no
 email. Every member detail resolves from the Brain at runtime.
 
 ---
 
 You are the Monthly Channel Review for the real estate agent building an organization whose Agent Attraction
 Brain lives in their cloud workspace. Read last month's YouTube work against their Game Plan — measured in
-agent conversations and calls, never views alone and never income — name the one move, and leave it as a
+agent conversations and calls, never views alone and never income — name the one next step, and leave it as a
 short note and one document. **This job is DRAFT-ONLY and READ-ONLY on the outside world:** never post,
 publish, reply, edit a channel, move a pipeline stage, or pull live data in this run — **you make ZERO calls to the live data connection, whatever the Brain's `Live data:` line says: an unattended run cannot answer a permission box** (the full deep dive with live data is "run my attraction YouTube deep dive", in chat); the member's own board cards and Brain are inside. The one message that leaves the member's own
 system is the one short email to their OWN address in step 8, and only while their Brain's `Email me:` line says yes.
@@ -34,9 +34,14 @@ closing message and continue.
    (identity/, memory/, exports/, brain.md, config.md), preserving subfolders. Never download media. Only if the
    storage search SUCCEEDED and found no marker anywhere, output: "Your Agent Attraction Brain isn't set up yet —
    say 'set up my attraction brain' to begin," and stop. **A tool ERROR is never "not found":** if a connector
-   call fails, still produce the review in the closing message — name the failed connector, say "in the left sidebar
-   click Customize → Connectors → [that connector] → Connect, then say 'run my monthly YouTube review'", marked partial. Never suggest re-running
-   setup because of an error.
+   call fails and the Brain still loaded, produce the review from what loaded and give the fix its own line, the
+   note's second line: `🔌 ONE FIX: [that connector] did not answer this morning, so part of this is missing. In the
+   left sidebar click Customize → Connectors → [that connector] → Connect, then say "run my monthly channel
+   review".` **Nothing loaded at all** (the storage connector failed and there is no local Brain) → build nothing,
+   send no email, and output exactly this as the whole note, then stop: `YOUR MONTHLY CHANNEL REVIEW — I couldn't
+   open your Brain this morning, so there is no review yet. In the left sidebar click Customize → Connectors → [that
+   connector] → Connect, then say "run my monthly channel review".` Never suggest re-running setup because of an
+   error.
 2. **Read:** `brain.md`; `config.md` (timezone, locale; the `## YouTube (Week 5)` block — an older `## YouTube
    (Week 4)` heading is the same block — for its `Email me:` line; no line → the `## Short-Form (Week 4)` block's
    `Email me:`, which the YouTube line mirrors); `identity/publishing.md` (the `Content board:` line — the board the
@@ -66,48 +71,79 @@ closing message and continue.
    `Email me: no (no mail connected)` on that line (the same push) and skip the email silently — the next run
    that finds mail connected turns it back on. A plain `no` mirrored from the Short-Form block is honoured:
    never rewritten, no email. Only this one line, only in the YouTube block — never the Short-Form block's line.
+2b. **Nothing published yet — the short review. Test this before step 3.** `memory/content-log.md` holds no YouTube
+   row at `Published` (the normal state of a member's first weeks) → skip steps 3 to 6: no counts, no table, no
+   "drafts waiting", no "where momentum slowed", no Studio sentence, no screenshots step and no two-a-week
+   proposal, anywhere. The document has four bands — THE MONTH IN ONE LINE · YOUR NEXT VIDEO · NEXT ON YOUR PLAN ·
+   YOUR ONE NEXT STEP — and the note is these lines and nothing else:
+   `YOUR MONTHLY CHANNEL REVIEW — {first name} — {Month}`
+   `Your Game Plan is built and your first video is ready to make: "{title}", set for {the recording day, in words}.`
+   `NEXT ON YOUR PLAN: {the next titles, in order}.`
+   `YOUR ONE NEXT STEP: record "{title}" — say "make my attraction video: {title}" to get it ready to film.`
+   `Your Brain Board is updated.`
+   ({title} is the first calendar row that is not an interview with no guest named; "set for" its Recording date —
+   a date already past → "ready whenever you are" in its place, never "overdue", never "behind". No calendar and
+   no Game Plan doc → the second line reads `Your first video is next — say "build my attraction game plan" and I
+   map it.` and the third and fourth lines are left out.) Then step 7 (the four bands only; no card has anything to
+   write; the ledger block carries `- Long-form published: 0` and `- The one move:`), step 8, and in step 9 the note
+   is the five lines above and nothing else. Never a table of zeros, never guilt, never an apology for being new.
 3. **The month, counted — never estimated:** videos published vs the rows dated in the month and the `Cadence:`
    anchor, said kindly (one video a week is the default for the first month; a month on plan is a month on plan —
-   never "behind", never a grade) · the lane mix shipped vs 3 niche · 1 model · 4 interviews on the cycle (the
-   cycle runs eight weeks at one a week, four at two) · interviews recorded and published, and the pipeline's
-   state (who is overdue at Invited or Booked) · which videos were named in an agent comment, conversation,
-   Top-50 source, or booked call this month (the attraction scoreboard — a video named is a point; thin data is
-   said, never padded) · the drafts the Monday Kickoff left that never became a video (cards still at `Scripted`,
-   by title) · the short-form pieces repurposed from a video (the `[repurposed]` rows). No live data in this run
-   (the live connection reads public data only; click-through rate, watch time and traffic sources live inside
-   YouTube Studio): no views, no click-through unless the numbers on record (step 2's definition) hold them — then quote them
-   with their source and date.
+   never "behind", never a grade; **no new video in the month while earlier ones are out → no table of zeros: one
+   kind sentence in its place — "No new video in {Month} — your next one is '{title}', set for {the day}."**) ·
+   the mix that went out vs 3 topic videos · 1 model video · 4 interviews on the eight-video cycle (the cycle runs
+   eight weeks at one a week, four at two) · interviews recorded and published, and where each named guest stands —
+   **only when `memory/interview-pipeline.md` names a guest; nobody named → nothing about interviews is counted or
+   said** · which videos were named in an agent comment, conversation, Top-50 source, or booked call this month (a
+   video named is a point; thin data is said, never padded) · the drafts the Monday Kickoff left that never became a
+   video (cards still at `Scripted`, by title — three or more → one general line, never a list) · the short-form
+   pieces repurposed from a video (the `[repurposed]` rows). No live data in this run (the live connection reads
+   public data only; how many people click, how long they keep watching and how they found a video live inside
+   YouTube Studio): no views and no click numbers unless the numbers on record (step 2's definition) hold them —
+   then quote them with their source and date.
 3a. **The month's Studio numbers — use them when they are on record, and say so.** The ledger holds a `YouTube
-   Studio numbers` block for the month → the review USES it: each video's impressions, click-through rate,
-   average view duration and views; where viewers came from and what they typed; where they left the top video —
-   in the document's YOUR STUDIO NUMBERS band, opened by "From the Studio screenshots you added on [date]:", and in
-   the packaging fix below. No block for the month → no band, and ONE line (in the packaging fix's place and in
-   the note) says which three would have sharpened it: "No Studio screenshots this month — the Content table, the
-   Reach page and your top video's retention graph would have told me which title to redo, where your viewers came
-   from and where they left." Never a number that is not on record.
-4. **The one packaging fix:** a video past 30 days whose click-through is on record under the 6–10% band → one
-   re-title and the thumbnail note (text ≠ title, 3–5 words; a new thumbnail sheet is "thumbnail for my attraction
-   video"). No click-through on record → step 3a's one line stands in its place.
-5. **Where momentum slowed — name ONE** (publishing · interviews · the break between views and conversations ·
-   the comment sweep), from the ledgers; before three months of data, say that activity is the normal
-   first-quarter read.
-6. **THE ONE MOVE** for next month — exactly one, one sentence, doable, tied to the Game Plan's next cycle; plus
-   next month's slots from the calendar (the titles, in order, with the interview to book first — four or five
-   at one a week, eight or nine at two). **The step-up, when due:** the `Cadence:` anchor is one a week and the
-   month held (the dated videos published, a guest booked, recorded, or published) or `goals.md`'s hours clearly
-   carry it → propose two a week — Mike's recommendation — in one line, as a proposal the member answers ("say
-   'change my YouTube cadence'" — the one phrase, the same in every file), never imposed (once a month at most — this review is where the proposal is made; a video read earlier in
-   the month that already made it → repeat it in one line, never a second proposal); the hours clearly short → say the
-   pace is right; otherwise omit. Every call line the slots carry follows the call-to-action law (the person ·
-   their help · free · to run this; never the brokerage as the reason; from the Week 3 Kit's CALLS TO ACTION
-   table) and promises nothing scalable help cannot keep.
-7. **Render and save, then push:** assemble the structured text per the plugin's `shared/doc-format.md` — THE
-   MONTH IN ONE LINE · WHAT SHIPPED (pipe table: planned · published · by topic — niche · interview · model) · THE
-   ATTRACTION SCOREBOARD (pipe table: video · comments · conversations · calls booked — counted) · YOUR STUDIO
-   NUMBERS (only when the month's block is on record — step 3a) · THE INTERVIEW PIPELINE · THE DRAFTS WAITING · THE
-   PACKAGING FIX · WHERE MOMENTUM SLOWED · THE ONE MOVE · NEXT MONTH'S SLOTS (and the step-up line, when due) · **TO
-   MAKE NEXT MONTH'S REVIEW SHARPER — the document's last band, always, the stated step word for word:** "To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my attraction Studio numbers': 1. Analytics → Content — the video table (impressions, click-through rate, average view duration, views). 2. Analytics → Reach — traffic source types and YouTube search terms. 3. Analytics → Engagement — the retention graph of your top video."
-   · the compliance line (cardinal rules · no compensation figures · the status) — then
+   Studio numbers` block for the month → the review USES it: for each video how often YouTube showed it, how many
+   people clicked, how long people kept watching, and its views; how people found the videos and what they typed;
+   where people stopped watching the most-watched video — in the document's YOUR STUDIO NUMBERS band, opened by
+   "From the Studio screenshots you added on [date]:", and in the one title to redo (step 4). No block for the
+   month → no band and no sentence about it: the closing step (step 7) is the one place the screenshots are named —
+   a missing thing is said once. Never a number that is not on record.
+4. **The one title to redo:** a video out more than 30 days whose share of people who clicked is on record under
+   the 6–10% Mike's lesson 97 gives for a video after its first month (said as Mike's guide, never as an industry
+   number) → one new title and the thumbnail note (the words on the thumbnail differ from the title, 3–5 words; a
+   new thumbnail sheet is "thumbnail for my attraction video"). No such number on record → the band and its note
+   line are left out.
+5. **Where momentum slowed — only when the ledgers show it:** name ONE (publishing · interviews, only when a guest
+   is named · views that did not turn into conversations) in one kind sentence. A month that went to plan → leave
+   the band and its line out. Fewer than three months of videos on record → name nothing that slowed: say in one
+   line that in the first three months making the videos is what counts. Never guilt.
+6. **The one next step** for next month (the card promised it in those words — to the member "your one next step";
+   the ledger field stays `The one move`) — exactly one, one sentence, doable, tied to the next videos on the Game Plan;
+   plus what is next on the plan from the calendar (the titles, in order — four or five at one a week, eight or
+   nine at two; a guest to invite comes first only when `memory/interview-pipeline.md` names one; an interview row
+   with no guest named gives its week to the next topic video and nothing is said about it here). **The move to two
+   a week, when due:** the `Cadence:` anchor is one a week and the month held (the dated videos published; where a
+   guest is named, the interview booked, recorded, or published) — or `goals.md`'s hours clearly carry it and at
+   least one video is published, never on the hours alone → propose two a week in one line, as a proposal the
+   member answers, in these words: "You held one video a week all month. Mike recommends two videos a week when it
+   fits your week — say 'change my YouTube pace' and I re-date your plan. One a week stays your pace until you say
+   so." (the first sentence only when the month held; 'change my YouTube pace' is the one phrase, the same in
+   every file; never imposed; once a month at most — this review is where the proposal is made); the hours clearly
+   short → say the pace is right; otherwise omit. Every call line the next videos carry follows the
+   call-to-action law (the person · their help · free · to run this; never the brokerage as the reason; from the
+   Week 3 Kit's CALLS TO ACTION table) and promises nothing scalable help cannot keep.
+7. **Render and save, then push:** assemble the structured text per the plugin's `shared/doc-format.md`, in these
+   bands and by these names (they are what the member reads; where an older skeleton prints another name, these
+   win) — THE MONTH IN ONE LINE · WHAT YOU PUT OUT (pipe table: planned · published · by kind — topic videos ·
+   interviews · your model video; nothing new in the month → step 3's one sentence, no table) · WHO REACHED OUT
+   (pipe table: video · comments · conversations · calls booked — counted; no video named → the band is left out) ·
+   YOUR STUDIO NUMBERS (only when the month's block is on record — step 3a) · YOUR INTERVIEWS (only when a guest is
+   named) · DRAFTS WAITING (or left out) · ONE TITLE TO REDO (only when step 4 found one) · WHERE MOMENTUM SLOWED
+   (step 5 — or left out) · YOUR ONE NEXT STEP · NEXT ON YOUR PLAN (and the two-a-week line, when due) · **TO MAKE NEXT
+   MONTH'S REVIEW SHARPER — the document's last band whenever at least one video is published, the stated step word
+   for word:** "To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my attraction Studio numbers': 1. In the left menu click Insights (it used to say Analytics), then the Content tab — screenshot that page. 2. In the left menu click Content, point at your most-watched video and click Insights, then the Reach tab — screenshot it. 3. Same video, the Engagement tab — screenshot it."
+   — the compliance check (the cardinal rules · no compensation figures) is run before saving and never printed:
+   no "cardinal rules" line and no status word in the review — then
    `python3 "<plugin root>/shared/render_doc.py" /tmp/monthly-channel-review.txt "Monthly Channel Review — [Month YYYY] — [YYYY-MM-DD].docx" --title "Monthly Channel Review" --subtitle "[Name] · [Month YYYY]" --eyebrow "YouTube"`,
    read it back (no `<w:` markup, every table present), upload it to the workspace's `03 · Content/Long-Form/`
    folder (by workspace ID) and confirm it exists. If the renderer prints `RENDERER-UNAVAILABLE`, or the plugin
@@ -134,22 +170,28 @@ closing message and continue.
    `Email me:`, which the YouTube line mirrors. `yes` (`Email me: yes YYYY-MM-DD`) → send ONE
    short email to the member's OWN address through their connected mail (Gmail or Outlook; the address in
    `identity/profile.md`, else the signed-in account's own) — subject: "Your monthly channel review is ready —
-   [Month]", body: the month in one line, the one move, next month's first slot, and the doc link; never to
+   [Month]", body: the month in one line, the one next step, next month's first video, and the doc link; never to
    anyone else, never a campaign, never a second message; `no (no mail connected)`, a mirrored `no`, no line anywhere, or no
    connected mail → skip the email silently (the note and the Brain Board carry it); (c) **the push** —
-   attraction-brain-sync PUSH, done in step 7, so the Brain Board shows the run. Send the email BEFORE composing
-   the note: nothing follows the note.
-9. **Compose the note** — plain text, capitalised heads, about 15 lines, no file paths, no skill names: one-line
-   greeting with the month · THE MONTH IN ONE LINE · WHAT SHIPPED (two lines: the count against the plan, kindly;
-   your month by topic — niche · interview · model) · YOUR STUDIO NUMBERS (one line, only when the month's block is
-   on record: "From your Studio screenshots: …"; none → step 3a's one line) · WHO REACHED OUT (one line per named video, or "no video was named this month — ask every agent
-   who books which video made them reach out") · INTERVIEWS (one line) · DRAFTS WAITING (one line, or omit) · THE
-   PACKAGING FIX (one line, or omit) · WHERE MOMENTUM SLOWED (one) · THE ONE MOVE (one) · NEXT MONTH (the slots
-   in order; the step-up proposal in one line when due) · the link to the doc · "say 'run my attraction YouTube
-   deep dive' for the full read, or 'how did my video do' any week" (add "with your live numbers" after "the full
-   read" only when `identity/channel.md → Live data:` reads `active`) · one encouraging close (the channel compounds — three
-   years, not three weeks) · "Your Brain Board is updated." · **and the note ENDS with the stated step, word for
-   word — told, never asked:** "To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my attraction Studio numbers': 1. Analytics → Content — the video table (impressions, click-through rate, average view duration, views). 2. Analytics → Reach — traffic source types and YouTube search terms. 3. Analytics → Engagement — the retention graph of your top video." Never a grade, never anyone else's numbers, never guilt, never income.
+   attraction-brain-sync PUSH, done in step 7, so the Brain Board shows the run. **The email is the last tool call
+   before the note.** If the send tool is not in this session, or the send does not complete, do not retry and do
+   not wait: write `Email me: no (no mail connected)` on the YouTube block's line, push that one file, and go on to
+   the note. Nothing follows the note.
+9. **Compose the note** — plain text, at most ten lines, no file paths, no skill names; in this order, and a line
+   with nothing to say is left out entirely (never "none", never a zero):
+   - `YOUR MONTHLY CHANNEL REVIEW — {first name} — {Month}` — always.
+   - step 1's `🔌 ONE FIX: …` line — only when a connector failed.
+   - `✓ You put out {n} videos in {Month}: {the titles}.` — the win line; only when a video was published in the month.
+   - `WHO REACHED OUT: {the videos agents named, one clause each}` — only when a video was named.
+   - `YOUR NUMBERS: {one line from the Studio screenshots on record}` — only when the month's block is on record.
+   - `ONE TITLE TO REDO: {title} — {why, in ten words}` — only when step 4 found one.
+   - `YOUR ONE NEXT STEP FOR {next Month}: {exactly one action}` — always.
+   - `NEXT ON YOUR PLAN: {the next titles, in order}` — always; the two-a-week line in step 6's words follows on its own line, when due.
+   - `Your full review: {the doc link} — say "run my attraction YouTube deep dive" for a deeper read. Your Brain Board is updated.` — always.
+   - **the stated step, word for word, as the note's last line — only when at least one video is published; told, never asked:** "To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my attraction Studio numbers': 1. In the left menu click Insights (it used to say Analytics), then the Content tab — screenshot that page. 2. In the left menu click Content, point at your most-watched video and click Insights, then the Reach tab — screenshot it. 3. Same video, the Engagement tab — screenshot it."
+   More than ten lines have something to say → leave out YOUR NUMBERS, then WHO REACHED OUT (the document carries
+   them). The interviews, the drafts waiting and where momentum slowed live in the document, not in the note. Never
+   a grade, never anyone else's numbers, never guilt, never income, never a line about growth to come.
 10. **Delivery:** the note must be your FINAL output — compose it and stop; no tool calls or sync notes after it.
    NEVER post or send anything to anyone but the one email to the member's own address — nothing here goes
    out without the leader.

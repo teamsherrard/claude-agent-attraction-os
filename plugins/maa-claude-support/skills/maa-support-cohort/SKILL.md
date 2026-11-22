@@ -36,7 +36,10 @@ calendar, week map, doors, policies, the 3-state placeholder rule — live in
    is answered, and only once a Brain exists.
 1. Otherwise: `Cohort start` from config (a Tuesday; cohort 1 = 2026-11-03) → today's date in
    their timezone → count lesson weeks, **skipping the off week** (cohort 1: Nov 23–29 → "catch-up
-   week, no new lessons; Week 4 opens Tue Dec 1"). After graduation (Thu Dec 17) → "post-cohort":
+   week, no new lessons; Week 4 opens Tue Dec 1"). **Week 5 (YouTube) has no date yet — the count stops at
+   Week 4:** from Dec 8 say *"Week 4 opened Tue Dec 1. Week 5 — YouTube — opens on a date Mike's team is
+   confirming."* Never a date for Week 5, never "you're in Week 5" on the count alone; a member who says the team
+   has opened it is taken at their word. After graduation (Thu Dec 17) → "post-cohort":
    the plugins keep working forever; the next doors are the ascension offer and Attraction OS
    continuity. Jan 4–10, 2027 → bonus Week 7 **only for fast-action buyers** (`Fast-action buyer`
    in config: yes → Week 7; no → post-cohort; `[NOT SET]` → say Week 7 exists for pay-in-full
@@ -72,7 +75,7 @@ The method is fixed — `source-map.md`'s knowledge-base rule, in full:
 6. A lesson that references a parked tool or an older name → bridge, never debunk (the strategy
    holds; the tool changed).
 7. Then the forward step: the skill that DOES the thing Mike described (the objection → `cv-objection-coach`
-   in Week 5; the offer → `attraction-offer`; the avatar → `attraction-persona-map`), or "that
+   in Week 6; the offer → `attraction-offer`; the avatar → `attraction-persona-map`), or "that
    plugin arrives in Week N."
 
 Log with category `ask-mike` — these rows tell Mike which lessons members keep reaching for.

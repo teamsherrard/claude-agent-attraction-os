@@ -99,8 +99,8 @@ writes is built from it.
      A yes, a shrug, or silence = build. Only a clear "let's fix the offer first" runs the offer skill's
      refine mode first, then continues.
 - **Later-week files are never "missing."** `brokerage-model.md` empty → "researched on demand — say 'explain
-  my model to me'"; `content-pillars.md` empty → Week 3. The content engines that drive traffic to the funnel
-  arrive in Week 3 (Short-Form) and Week 4 (YouTube) and plug in then; until then the link lives in the bios,
+  my model to me'"; `content-pillars.md` empty → Week 4. The content engines that drive traffic to the funnel
+  arrive in Week 4 (Short-Form) and Week 5 (YouTube) and plug in then; until then the link lives in the bios,
   the Google Business Profile, partnerships, DMs, and the booking page. Say the week, keep moving.
 
 ---

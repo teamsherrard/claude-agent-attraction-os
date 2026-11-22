@@ -1,4 +1,4 @@
-# Presentation & Delivery (Week 5)
+# Presentation & Delivery (Week 6)
 
 How Mike runs the attraction call itself: the mindset (you are enrolling, not recruiting), the exact chain of events from the Calendly booking to the welcome email, how to run a three-way call with your upline, and the three types of questions that get the agent to sell themselves. Everything here is about making the call about them, not you.
 

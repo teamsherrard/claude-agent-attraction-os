@@ -32,7 +32,9 @@ at run time.
    it, say one line** (the Short-Form plugin's rule, applied here by the owner on 2026-11-14): every piece is
    written, delivered and saved, each public one stamped "hold until your compliance basics are set", the
    brokerage's wording never invented, and the member is told ONCE, at the close — *"say 'paste my compliance link'
-   — two minutes — so your brokerage's wording is on it."* A sitting never stops and never detours to the
+   — two minutes — so your brokerage's wording is on it."* (at setup the line is the close's first win, with
+   "then 'repair my channel for agents'", and the three channel pieces are shown to read, not to paste — house rule
+   #3). A sitting never stops and never detours to the
    compliance skill; a scheduled run puts the one line last in its note. "If empty, proceed" — without the stamp
    and the line — is banned.
 
@@ -54,8 +56,8 @@ at run time.
   `identity/profiles.md` (the bios, `## YouTube` included), `memory/magnets.md → ## Current magnet`, the kit's
   text `exports/week3-kit-*.txt`; the brand (Week 3) — `identity/brand-visual.md`, the Video Brand Kit the editor
   lays over every video, the designed guide; short-form (Week 4) — `identity/publishing.md`,
-  `identity/content-pillars.md`, the Notion Content Dashboard (its Graphics · Reels · Calendar tabs), the Riverside editor
-  (the AI Editing Studio, Plugin 5 — installed in Week 4, part of the process). A later-week file is never "missing": say which week builds it, in one line, and name the phrase
+  `identity/content-pillars.md`, the Notion Content Dashboard (its Graphics · Reels · Calendar tabs), the AI Editing
+  Studio (the editor — installed in Week 4, part of the process). A later-week file is never "missing": say which week builds it, in one line, and name the phrase
   ("build my partner offer" · "rebuild my kit" · "launch my lead magnet plugin"). `offer.md` still at `Status:
   seeds` means the member skipped the Week 2 sitting — the register is the join register (`unknown` is never read
   as `no`), the asks fall back to the guide when one exists, otherwise to the call alone; never a keyword of our
@@ -83,6 +85,9 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   Model.** Mapping (doctrine §3): Problem / Situation / Future → **Authority** (with Story and Personality angles
   when the video is the member's own story or a personal moment) · Interview → **Proof** · Model → **Perspective**.
 - **Lanes** are playlists — one per bucket on the channel (`identity/channel.md`).
+- **Bucket, lane, niche, pillar and cadence are the Brain's words** — field names and codes, kept exactly as they
+  are in the files. A member never reads them: to the member they are "your three topics", "a topic video", "your
+  interviews", "your model videos", "your pace" (house rule #4; 2026-11-21).
 - **The two CTAs** every video carries: the **resource** = the Week 2 guide (`memory/magnets.md → ## Current
   magnet`; its funnel URL on description line 2 and in the pinned comment; the spoken line may say "comment
   GUIDE") and the **call** = the booking link on description line 1, in the call-to-action law's shape (the person ·
@@ -92,6 +97,10 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   only `no` → the open register. Every title, description, pinned comment and script CTA reads it.
 - **The cadence:** one video a week is the default for the first month; two a week is the step-up the plan names
   (the owner, 2026-11-14). The anchor is `Cadence:` in `identity/channel.md → ## Game Plan anchors`, never assumed.
+- **An interview with no guest named** (2026-11-21): its calendar row and its card are titled exactly "A
+  conversation with an agent — guest to be named", Guest `—`. When that week arrives and no guest is named, the
+  week's video is the next topic video and the interview moves to the first open week after a guest is named — no
+  week is ever empty, nothing is drafted to nobody, nobody is contacted without the member's yes (house rule #19).
 - **Pipeline stages** (agents, never videos; never written here): Identified → Conversation → Call booked →
   Call held → 3-way → Joined → Onboarded → Active.
 - **Content board statuses** (the shared Notion spec, byte-identical with the Short-Form plugin; `Ready to Post`
@@ -134,12 +143,14 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   which `yt-setup` looks for and points the member to; the colours and the photos a thumbnail sheet names).
 - **The Week 4 short-form layer:** `identity/publishing.md` (`Keyword:` = `GUIDE · [the offer's word]` — the two
   keywords' single source; `Content board:` — the board's link; empty or a `not connected — …` note = not built yet; an older `declined YYYY-MM-DD` honoured silently; **the file itself absent** — the member skipped Week 4 — → the board's link is this plugin's own `Board:` line in `identity/channel.md`, the second place every reader looks; its cadence lines
-  are short-form, never YouTube) · `identity/content-pillars.md` (the five pillars, `The two CTAs:`; its cadence
+  are short-form, never YouTube) · `identity/content-pillars.md` (the five pillars, `The two CTAs:`; its
+  `## In your words` section — the Week 4 answers, the filming day among them; its cadence
   line is the short-form cadence — the YouTube cadence is the `Cadence:` anchor in `identity/channel.md`) ·
   `memory/content-calendar.md` (the short-form table and `## Week briefs` read-only; the three `(YouTube)` sections are
   this plugin's, see "owns") · `memory/content-performance.md` (the performance ledger — the newest block is the
   baseline; this plugin appends its own dated YouTube block, see "also writes"; skip if absent) ·
-  `identity/operations.md` (the booking link, hours, `Filming window:`).
+  `identity/operations.md` (the booking link, hours, `Filming window:` — Week 4's filming day: `yt-setup` reads it
+  first, and a day that is there is never asked for).
 - **The Brain's identity and memory:** `identity/profile.md` · `strategy.md` · `avatars.md` · `positioning.md` ·
   `brokerage-model.md` (mechanics for model videos; figures never surface in public content) · `prospect-intel.md` ·
   `proof.md` (consent column respected) · `story-bank.md` (stories pulled; Used-where stamped — see "also writes") ·
@@ -151,7 +162,10 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
   `memory/organization.md` (the interview guest lane; a Source of `youtube via comment on "[video]"` is the
   attraction signal) · `memory/conversations.md` and `memory/pipeline.md` (read-only: which videos get named) ·
   `memory/scorecard.md` (Targets block and weekly rows — read only) · `memory/sales-funnel.md` (read-only, once the
-  Conversion plugin exists).
+  Conversion plugin exists) · `memory/list-growth.md` (the Lead Magnet plugin's — read-only: the list tool and the
+  list's size; `yt-repurpose` writes an email only when there is a list) · the editor's own `editor/config.json` in
+  the Brain (read-only: `default_engine` — `yt-interview` reads it only to know whether the member's editor records
+  a guest).
 - **The member's live numbers** (`shared/composio-data-engine.md`): YouTube Data for `yt-analytics`, and for the
   research skills only when `Live data: active` is already on file and the member is in the chat — **never a
   scheduled run, never setup**; connecting is the member's own step ("connect my YouTube numbers"). Not connected →
@@ -163,12 +177,12 @@ found by `Workspace ID` in `config.md`, then the marker, never by name) → `01 
 
 | File | Owner skill | Also writes (designated block / append only) |
 |---|---|---|
-| `identity/channel.md` | `yt-setup` (creates it: channel, positioning, lanes and playlists, the CTA line — the kit's two lines —, upload defaults, channel-page status, baseline, the `Setup:` stamp — `not started` only on a start-over) | `yt-board` → the `Board:` line of the `## Channel` block, and only when `identity/publishing.md` does not exist (the board link's second home) · `yt-gameplan` → the `## Game Plan anchors` block only (`Cadence:` = one a week to start, the step-up named) · `yt-analytics` → the `Live data:` line and a **dated `## Performance` block appended** per deep dive (newest last; earlier blocks never edited) · `yt-setup` "repair my channel for agents" edits one block |
+| `identity/channel.md` | `yt-setup` (creates it: channel — with the `Filming day:` and `First full video:` lines —, positioning, lanes and playlists, the CTA line — the kit's two lines —, upload defaults, channel-page status, baseline, the `## In your words` entries, the `Setup:` stamp — `not started` only on a start-over) | `yt-board` → the `Board:` line of the `## Channel` block, and only when `identity/publishing.md` does not exist (the board link's second home) · `yt-gameplan` → the `## Game Plan anchors` block (`Cadence:` = one a week to start, the step-up named) and, only in the cases its own file names: the `Filming day:` and `First full video:` lines of `## Channel`, the `→` part of an `## In your words` entry, and a topic the member renamed in `## Lanes and playlists` · `yt-analytics` → the `Live data:` line and a **dated `## Performance` block appended** per deep dive (newest last; earlier blocks never edited) · `yt-setup` "repair my channel for agents" edits one block |
 | `memory/interview-pipeline.md` | `yt-interview` (rows, Stage moves — `Booked` with the Recording date when the guest has picked one of the two times it stated; creates the file on first use if the Brain template lacks it) | `yt-gameplan` seeds candidate rows at Stage `Candidate`; `yt-setup` creates the empty file with the header; the Monday Kickoff (`yt-briefing`) appends `kickoff guide YYYY-MM-DD` to a row's Notes when it drafts the interview guide (never a Stage move); `yt-make-video` moves a row to `Published` |
 | `identity/profiles.md` — the **`## YouTube` section only** (confirm / refresh) | `lm-profiles` (the Lead Magnet plugin, Week 2) writes the channel bio inside the heading; `yt-setup` (Week 5, the channel page step) **confirms it, never rewrites by default**: the about section's entity line is the kit's chapter 6 YouTube bio; it refreshes the text only when the offer, the proof or the funnel URL changed since it was written (or when the heading still holds the placeholder line), shows the new text in chat as a copy block, writes back inside `## YouTube` only, keeps `lm-profiles`'s italic update line, and never renames, reorders or drops a heading; if neither `lm-profiles` (Week 2) nor `sf-setup` (Week 4) created the file, create it in the template's five-section shape with the other four sections on their placeholder lines | a later `lm-profiles` run may refine the text again inside the same heading; nobody else |
 | `memory/content-log.md` — **YouTube rows only** | `yt-script` (the row at `Scripted`) · **the Monday Kickoff** (`yt-briefing`, scheduled or on demand — this week's row at `Scripted` when it drafts the video's start; `yt-script` updates that same row, never a second) · `yt-make-video` (flips to `Published`, adds the Link) · `yt-interview` / `yt-model-breakdown` (a row at `Idea` when they run before the script — `yt-script` updates that row, never a second) · `yt-seo` / `yt-leads` (the CTA cell) · `yt-repurpose` (rows for the derived pieces) | Short-Form, the AI Editor, and Events own their rows; the Editor may flip a YouTube row to `Edited` |
 | `config.md` — the `## YouTube (Week 5)` block only (readers accept an older `## YouTube (Week 4)` heading as the same block and rename it on their next write) | `yt-setup` creates the block with EXACTLY these lines, in this order, and nothing else, ever: `Installed:` date · `Plugin version:` · `Layer: identity/channel.md` · `Monday Kickoff task:` · `Monthly review task:` · `Email me:` — the first three, the two task lines as `later`, and `Email me:` at the channel page step (`Email me:` from the facts, never asked: the `## Short-Form (Week 4)` block's line mirrored when it exists; else `yes YYYY-MM-DD` when the member's mail is connected, else `no (no mail connected)`), the two task ids on the member's one Yes at its card (`skills/yt-setup/references/workflows-consent.md`). The Brain Board reads a task line as `<Label> task: <task id> …`; no brackets in the block | `yt-briefing` → `Monday Kickoff task:` (`attraction-monday-kickoff · runs Mondays [time]` · `paused` · `later`) · `yt-triggers` → `Monthly review task:` (`attraction-monthly-youtube-review · runs the 1st [time]` · `paused` · `later`) · any YouTube run → `Email me:` flipped to `no (no mail connected)` when it finds no connected mail, back to `yes YYYY-MM-DD` when mail is connected again (an older plain `no` mirrored from the Short-Form block is honoured). **A task line holds exactly one of three values:** a task id (on) · `paused` (the member stopped it; its phrase brings it back) · `later` (not switched on yet: the card did not get its Yes); a reader treats any value that is not a task id as not on, so an older file's placeholder still reads correctly. **Retired (2026-11-14):** the two lines beyond these six that an older block may carry — the weekly-note line and the delivery line (a drafted message nobody sends is not telling the member) — are dropped on the next write, as was the `Weekly ideas task` line (2026-10-13) |
-| `memory/content-calendar.md` — the **`## Long-form (YouTube)` section, the `## Kickoff briefs (YouTube)` section and the `## Clips from your videos (YouTube)` section only** (the file is Short-Form-owned — `sf-gameplan` writes its short-form table and `sf-week-plan` its `## Week briefs`; this plugin never touches those; the `profiles.md → ## YouTube` precedent) | `yt-gameplan` (the first-90-days calendar as dated rows — one per video at the cadence anchor, dated by the first-date rule: video 1 on the member's next filming day at least three days after the plan is built, never the day of the sitting — and the section's `Window:` line, at anchor time; a refresh replaces un-started `Idea` rows only) | the Monday Kickoff (`yt-briefing`) flips a row's Status to `Scripted` and appends one dated block per run to `## Kickoff briefs (YouTube)` (newest last, never edited; it carries the run's `carded:` line) · `yt-board`, and `yt-make-video` when it creates a card or tops up at publish, append a short block of their own there whenever they create cards (`Board — YYYY-MM-DD · carded: [System IDs]`; the Kickoff's own block opens `Kickoff — YYYY-MM-DD · [title]`) · `yt-make-video` flips `Recorded` · `Ready to Post` · `Published` · `yt-script` in its first-batch mode ("script my first three videos") flips the three rows it scripted to `Scripted` and sets their Recording date to the one filming day (Publish dates untouched; a date the member moved is kept) · `yt-board` writes a System ID back to a row that has none · **each row's `Reference video` cell** (one real YouTube video close to the row's idea, found and checked before it is written — never invented; empty = none found yet) is written by `yt-board` when it creates the row's card and by the Monday Kickoff (its top-up, and this week's row when the cell is still empty; no board → the Kickoff still fills this week's), and confirmed or replaced by `yt-make-video` · `yt-repurpose` appends one row per clip script to `## Clips from your videos (YouTube)` (never edited afterwards; a clip is queued until a short-form row carries its System ID in `Carries` as `clip: [System ID]` — the Short-Form System's Monday Week Plan writes that row, never this plugin) · rows are never deleted (a dropped video is `Status: dropped`) · **the file absent (a Brain that predates it) → `yt-gameplan` creates it silently with its own write, in the creation shape under "Locked shapes" — the Short-Form System's table left empty for its owner — and nothing is said to the member**; a reader that runs before the plan exists falls back to the Game Plan doc, also silently (the owner's review, 2026-11-14: never an "upgrade my attraction brain" aside) |
+| `memory/content-calendar.md` — the **`## Long-form (YouTube)` section, the `## Kickoff briefs (YouTube)` section and the `## Clips from your videos (YouTube)` section only** (the file is Short-Form-owned — `sf-gameplan` writes its short-form table and `sf-week-plan` its `## Week briefs`; this plugin never touches those; the `profiles.md → ## YouTube` precedent) | `yt-gameplan` (the first-90-days calendar as dated rows — one per video at the cadence anchor, dated by the first-date rule: video 1 on the member's next filming day at least three days after the plan is built, never the day of the sitting — and the section's `Window:` line, at anchor time; a refresh replaces un-started `Idea` rows only) | the Monday Kickoff (`yt-briefing`) flips a row's Status to `Scripted` and appends one dated block per run to `## Kickoff briefs (YouTube)` (newest last, never edited; it carries the run's `carded:` line and its `said:` list) · **an interview week with no guest (2026-11-21):** the next `Idea` topic row takes the Recording and Publishing dates the conversation row carried — written by the Monday Kickoff when the week arrives, and by `yt-gameplan`'s own rule on a refresh, a pace change or a board run; the conversation row is left exactly as it is; `yt-make-video` and `yt-interview` say the line and never re-date a row · `yt-board`, and `yt-make-video` when it creates a card or tops up at publish, append a short block of their own there whenever they create cards (`Board — YYYY-MM-DD · carded: [System IDs]`; the Kickoff's own block opens `Kickoff — YYYY-MM-DD · [title]`) · `yt-make-video` flips `Recorded` · `Ready to Post` · `Published` · `yt-script` in its first-batch mode ("script my first three videos") flips the three rows it scripted to `Scripted` and sets their Recording date to the one filming day (Publish dates untouched; a date the member moved is kept) · `yt-board` writes a System ID back to a row that has none · **each row's `Reference video` cell** (one real YouTube video close to the row's idea, found and checked before it is written — never invented; empty = none found yet) is written by `yt-board` when it creates the row's card and by the Monday Kickoff (its top-up, and this week's row when the cell is still empty; no board → the Kickoff still fills this week's), and confirmed or replaced by `yt-make-video` · `yt-repurpose` appends one row per clip script to `## Clips from your videos (YouTube)` (never edited afterwards; a clip is queued until a short-form row carries its System ID in `Carries` as `clip: [System ID]` — the Short-Form System's Monday Week Plan writes that row, never this plugin) · rows are never deleted (a dropped video is `Status: dropped`) · **the file absent (a Brain that predates it) → `yt-gameplan` creates it silently with its own write, in the creation shape under "Locked shapes" — the Short-Form System's table left empty for its owner — and nothing is said to the member**; a reader that runs before the plan exists falls back to the Game Plan doc, also silently (the owner's review, 2026-11-14: never an "upgrade my attraction brain" aside) |
 | `memory/magnets.md` — the **`## Current magnet` block only, and only while it is empty** (nothing, or the template's `[Magnet Name]` placeholder) | `yt-leads` (writes the Starter Resource block once — the template's line shape plus `Type: starter resource (Week 5)`; never a Magnets-table row, never the Intake block; creates the file in the template's exact shape only if the Brain predates it) | the file stays **Lead Magnet-owned** — `lm-magnet` replaces the block as the owner the moment the member builds their guide (the Week 2 session, run any time), and no YouTube skill touches it again |
 | `~/attraction-brain/exports/` — this plugin's six texts | `yt-setup` → `channel-kit-YYYY-MM-DD.txt` · `yt-gameplan` → `youtube-game-plan-YYYY-MM-DD.txt` · `yt-briefing` → `youtube-kickoff-YYYY-MM-DD.txt` (each run) · `yt-triggers` → `youtube-review-YYYY-MM-DD.txt` (each run — the Monthly Channel Review's name alone) · `yt-analytics` → `youtube-read-YYYY-MM-DD.txt` (each deep dive and each on-demand video read; never `youtube-review-*`) · `yt-repurpose` → `youtube-clips-[the video's System ID].txt` (the three clip scripts of one video, word for word, with each one's ask, caption and hashtags — the text the Monday Week Plan drafts the Reels from) — each written in the same run as its document, then pushed (the Brain syncs `exports/*.txt`; the Brain Board reads them): **the Channel Page's text** (the export's file name stays `channel-kit-…` — other files read it) · **the Game Plan's text plus its TITLE NOTES block** (each title's who-for, pain and why — the codes the member-readable document never prints) · **the Monday Kickoff's NOTE** — one name, `exports/youtube-kickoff-YYYY-MM-DD.txt`, and one meaning in every file: the note, never the Kickoff Brief · the review's and the deep dive's document text (the video read has no document: its text is the read as said in chat) | read, never written here: `week3-kit-*.txt` (the Brain plugin's), `kit-magnet-*.txt` (the Lead Magnet plugin's), the Short-Form System's exports |
 
@@ -178,8 +192,10 @@ script used · `memory/ideas.md` → flip a `youtube` / `interview` idea's Statu
 text + "conversation starter from [video title] — [the hook it came from]", Avatar / pain, Status `open`),
 appended directly in the file's locked row shape — `yt-repurpose` is the designated appender the OS contract
 (`docs/BRAIN-CONTRACT.md`) and the template's own header name — only while the Conversion plugin is not
-installed (`cv-conversation-starter` takes the hand-off in the session when it is, and marks the rows used; to the
-member: "when your sales system arrives — until then the starters go to your ideas file"); `yt-repurpose` never
+installed (`cv-conversation-starter` takes the hand-off in the session when it is, and marks the rows used). Those
+rows are bookkeeping for a later plugin and are never mentioned; to the member, one true line: "Your three
+conversation starters are in your pack — each is ready to send, in your own words, to an agent you know." — never
+"your sales system", never "your ideas file"; `yt-repurpose` never
 owns a send-queue · `memory/intel.md` → the `Used?` column of a row a video drew on · `identity/publishing.md` →
 **only** the `Content board:` line, and only when `yt-board` creates or records the board (the same designated line
 `sf-board` writes; the file stays Short-Form-owned) · `memory/content-performance.md` → **one dated YouTube block
@@ -204,7 +220,7 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
 
 ## Locked shapes this plugin uses
 - **`memory/content-log.md` row** (the template's shape, never extended):
-  `| Date | Platform | Format (long-form · reel · story · carousel · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
+  `| Date | Platform | Format (long-form · reel · story · carousel · graphic · interview · live · email · blog) | Pillar | Topic / hook | Avatar | Story used | CTA | Status | Link |`
   (`email` and `blog` were added to the Format enum by the coordinator's ruling for repurpose rows.)
   YouTube conventions inside that shape: Platform = `YouTube`; Format = `long-form` or `interview`; **Pillar =
   one of `Authority · Perspective · Story · Proof · Personality`** (by the mapping above); **the Topic / hook cell
@@ -217,12 +233,15 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   - **At script** (`yt-script`): write the row at `Scripted` — or update the `Idea` row `yt-interview` /
     `yt-model-breakdown` already wrote, or the `Scripted` row the Monday Kickoff wrote. Never two rows for one video.
   - **At publish** (`yt-make-video`): find the row by Topic / hook, set `Published`, add the Link.
-  - **At repurpose** (`yt-repurpose`): one row per derived piece, **YouTube-owned**: Platform = the target
-    (`Shorts / Reels`, `Instagram`, `LinkedIn`, `Email`, `Blog`); Format = `reel` / `carousel` / `story` / `email` / `blog`; Topic / hook = `[repurposed] from "[source title]"
-    — [angle]`; Pillar and Avatar from the source row; Status `Scripted`; Link = the Repurposing Pack. The
-    Short-Form System never edits these rows; when the member says a piece went live, `yt-repurpose` or
-    `yt-leads` flips it. A piece the member re-makes through the Short-Form system ("script my attraction reels")
-    gets its own row there — say so once, never both.
+  - **At repurpose** (`yt-repurpose`): one row per derived piece that was written and is this plugin's to log,
+    **YouTube-owned**: the three clip scripts only when the Short-Form System is not set up (three `reel` rows,
+    Platform `Shorts / Reels`) — a clip script queued for the Short-Form System is logged once, by its Monday Week
+    Plan, when it is drafted into a Reel slot (one clip, one row, never two); one `email` row (Platform `Email`)
+    when an email was written — only for a member with a list; one `blog` row (Platform `Blog`) when the member
+    asked for one. No carousel row and no story row: the pack holds neither. Topic / hook = `[repurposed] from
+    "[source title]" — [angle]`; Pillar and Avatar from the source row; Status `Scripted`; Link = the Repurposing
+    Pack. The conversation starters are not logged here. The Short-Form System never edits these rows; when the
+    member says a piece went live, `yt-repurpose` or `yt-leads` flips it.
 - **`memory/content-calendar.md → ## Long-form (YouTube)`** (the section this plugin owns inside the Short-Form
   System's calendar file — the template ships the file with its short-form table and `## Week briefs`; the
   coordinator adds the three empty `(YouTube)` sections there):
@@ -250,6 +269,13 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   `${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`; never invented, never written from
   memory; an empty cell means none was found yet, and a row written before 2026-11-15 without the cell is read the
   same way. A clip's System ID is its video's plus `-c1` / `-c2` / `-c3`.
+  **The Kickoff's block** (one per run under `## Kickoff briefs (YouTube)`; its first line is
+  `Kickoff — YYYY-MM-DD · [title]`) carries, beside `carded:`, a **`said:`** list (2026-11-21) — the one-time lines that run printed, by
+  their short names: `no guest` (the no-guest line), `kit` (the kit notice), `turn-on` (the not-switched-on
+  notice). A later run reads the earlier blocks' `said:` lists and never prints one of those lines a second time.
+  **An interview row with no guest named** is titled exactly "A conversation with an agent — guest to be named",
+  Guest `—`; when its week arrives it stays as it is and the next `Idea` topic row takes its two dates (the rule
+  under "owns").
   Bucket = Problem · Situation · Future · Interview · Model (a new channel's first row, its trailer: `Trailer`, no
   lane — week one's first row, a row and a card like any other, not one of the eight); Lane = the playlist name
   from `channel.md`; System ID = `yt-YYYY-MM-w[n][a/b]` (the plan's week and slot); the board card for a row carries
@@ -290,20 +316,30 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
 - **`identity/channel.md`** — the template is `skills/yt-setup/references/channel-template.md`. Blocks: Channel
   (URL · handle · status · `Live data:` · `Setup:` — the setup journey's resume stamp, `kit done` → `plan done`
   → `board done` → `workflows done` → `complete YYYY-MM-DD`, plus `not started` on a start-over; written only by
-  `yt-setup`; the word `kit` in the stamp is internal — the member's document is "your Channel Page" · `Filming
-  day:` — the member's answer to setup's one question, the day every date is counted from; written by `yt-setup`,
-  and by `yt-gameplan` when a refresh takes the answer · `First full video:` — the topic the first niche video is on,
+  `yt-setup`; the word `kit` in the stamp is internal — the member's document is "your Channel Page" ·
+  `Mode at setup:` · `Filming day:` — the member's filming day, the day every date is counted from. **A day already
+  on file is never asked for** (2026-11-21): `yt-setup` looks first in Week 4's
+  `identity/operations.md → Filming window:` (a value still in brackets is empty; then the filming-day answer in
+  the `## In your words` section of `identity/content-pillars.md`), writes the day it finds on this line and reads
+  it back in its proposal; only when none is on file does it ask its one question, and the answer is written here. Skipped → the line stays empty and the first-date rule's
+  fallback dates the plan. Written by `yt-setup`, and by `yt-gameplan` on the member's own refresh while the day is
+  still skipped: a day the Brain now holds is written and read back, never asked; only when there is none does it
+  ask the one question and write the answer · `First full video:` — the topic the first niche video is on,
   chosen by the first-video rule and read back at setup's proposal, never asked: `[the topic] · [from your guide |
   from your method | the first of your three | your choice] YYYY-MM-DD`; written by `yt-setup` on the proposal's Yes
   and by `yt-gameplan` when it applies the rule on demand or the member names another topic · `Board:` —
   the content board's link, only when `identity/publishing.md` does not exist) · Positioning · Lanes
-  and playlists · The CTA line (the kit's two lines, verbatim) · Upload defaults · Channel page · Baseline ·
+  and playlists · The CTA line (the kit's two lines, verbatim) · Upload defaults · Channel page
+  (`Channel Page delivered:` · `Pasted:` — `all` or `pending: …`; the walk-through and the Brain Board read it) · Baseline ·
   **`## In your words`** (the owner, 2026-11-15 to 2026-11-21 — the member's answer to the Week 5 sitting's one blanket
-  question (the filming day), an answer an earlier version saved (`Twenty minutes, no notes` — kept, read by the
-  first-video rule, never asked again), and any wording they give for a script, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
-  verbatim]" → [the video it became]`; `skipped — built from your Brain` when they passed — nobody's words, never quoted, never marked "your words"; `(kept private: …)` for a
-  name or a figure left out of public videos; appended by `yt-setup` and `yt-script`; `yt-gameplan` fills each entry's `→` part and, on a refresh, replaces a
-  `skipped` entry with the answer it then asks for — nobody else writes the section; read by `yt-gameplan`,
+  question (the filming day) **when it was asked** — a day read from the Brain is not an answer and makes no entry —,
+  an answer an earlier version saved (`Twenty minutes, no notes` — kept, read by the
+  first-video rule, never asked again), and any wording they give for a script, and the pace when the member chose two a week at setup's proposal (`- **Your pace** (YYYY-MM-DD): "[verbatim]" → two videos a week` — the one place a pace is kept before the plan writes its `Cadence:` anchor), each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
+  verbatim]" → [the video it became]`; the filming-day entry ends `→ filming [day]` and is complete when `yt-setup`
+  writes it; `skipped — built from your Brain` when they passed — nobody's words, never quoted, never marked "your words"; `(kept private: …)` for a
+  name or a figure left out of public videos; appended by `yt-setup` and `yt-script`; `yt-gameplan` fills the `→`
+  part of an entry that names a video (the earlier version's entry, a wording given for a script) and, on the
+  member's own refresh, replaces a `skipped` entry with the answer when it had to ask for one — nobody else writes the section; read by `yt-gameplan`,
   `yt-script`, `yt-make-video`, `yt-board` and the Monday Kickoff, which mark what they build on an entry "your
   words"; the Week 4 answers in `identity/content-pillars.md → ## In your words` are the Short-Form System's —
   read here, never written) ·
@@ -314,7 +350,8 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
   System's board and this plugin's are the same database; this plugin adds the **🎬 YouTube tab**
   (filter `Format = Long-Form`, grouped by Status, sorted by Recording Date; before Calendar only on a board built new) and makes sure
   the 🖼 Graphics, 🎞 Reels and 🗓 Calendar tabs exist (the four tabs — the owner's ruling of 2026-11-14 evening). The tab holds the next **30 days** of planned long-form videos at the cadence anchor, interview
-  slots included, as dated `Idea` cards mapped from the Game Plan calendar — **four or five at one a week, eight or
+  slots included (a slot with no guest named is carded under the plan's own title, exactly "A conversation with an
+  agent — guest to be named", Guest empty), as dated `Idea` cards mapped from the Game Plan calendar — **four or five at one a week, eight or
   nine at two**, never the 90-day backlog — seeded by `yt-board` (setup's third step or on demand), kept full by
   the Monday Kickoff, `yt-make-video` at publish, and "update my attraction video board". **Every long-form card
   page follows the spec's locked layout**, in this order, a section replaced in place and never stacked: 🎯 THE
@@ -354,8 +391,8 @@ videos brought me agents" — `yt-analytics`).
 
 | Workflow | When | Owner (the prompt) | Task id | Switched on | `config.md` line |
 |---|---|---|---|---|---|
-| **Monday Kickoff** — reads the Game Plan calendar, the board, the content log and the interview pipeline; drafts this week's video (three ways to open, the brief, the script start or the interview guide, the thumbnail sheet for Higgsfield, the title and description) onto its card (Status → `Scripted`), into the Brain (the content-log row at `Scripted`; a dated block under `## Kickoff briefs (YouTube)`) and into the video's folder (the Kickoff Brief; its text in `exports/youtube-kickoff-YYYY-MM-DD.txt`); tops the board up to 30 days; leaves a note of at most seven lines (a line with nothing to say left out; in the last seven days of a month one line asking for the three Studio screenshots; the compliance line last, only when the status is not `confirmed`) | Mondays, the member's hour (default 9:00 am) | `yt-briefing` (`references/weekly-task-prompt.md`) | `attraction-monday-kickoff` | at setup, with the one Yes | `Monday Kickoff task:` |
-| **Monthly Channel Review** — the month by topic, which videos brought agent conversations or booked calls, the interview pipeline, the one packaging fix, the one move, the step-up proposal when a month at one has held ("change my YouTube cadence"); reads the month's `YouTube Studio numbers` block when one is on record and says so, else says in one line which three screenshots would have sharpened it; the document and the note end with the stated three-screenshots step; writes each published card's 📊 AFTER IT'S OUT and one dated YouTube block in `memory/content-performance.md`; one note and one doc (its text in `exports/youtube-review-YYYY-MM-DD.txt`); never the live data connection — scheduled or run in chat, the review reads what is on record | the 1st, the member's hour (default 8:00 am) | `yt-triggers` (`references/monthly-review-task-prompt.md`) | `attraction-monthly-youtube-review` | at setup, with the same Yes ("run my monthly YouTube review" runs it in chat with no task) | `Monthly review task:` |
+| **Monday Kickoff** — reads the Game Plan calendar, the board, the content log and the interview pipeline; drafts this week's video (three ways to open, the brief, the script start or the interview guide, the thumbnail sheet for Higgsfield, the title and description) onto its card (Status → `Scripted`), into the Brain (the content-log row at `Scripted`; a dated block under `## Kickoff briefs (YouTube)`) and into the video's folder (the Kickoff Brief; its text in `exports/youtube-kickoff-YYYY-MM-DD.txt`); tops the board up to 30 days; leaves a note of at most seven lines (a line with nothing to say left out; a conversation week with no guest named drafts nothing to nobody — the week takes the next topic video and the no-guest line is said once; the comments line, and in the last seven days of a month the one line stating the three Studio screenshots, only once a video is published; the compliance line last, only when the status is not `confirmed`); its block under `## Kickoff briefs (YouTube)` carries `carded:` and `said:` | Mondays, the member's hour (default 9:00 am) | `yt-briefing` (`references/weekly-task-prompt.md`) | `attraction-monday-kickoff` | at setup, with the one Yes | `Monday Kickoff task:` |
+| **Monthly Channel Review** — what went out in the month, which videos brought agent conversations or booked calls, the interviews (only when a guest is named), one title to redo (only when a click number is on record), the one next step (to the member "your one next step"; the ledger field stays `The one move`), the move to two a week when a month at one has held ("change my YouTube pace"); **a member with nothing published gets the short review** — four bands, no counts, no table of zeros, no screenshots step; reads the month's `YouTube Studio numbers` block when one is on record and says so, else says nothing about it in the body; once a video is published the document and the note end with the stated three-screenshots step; writes each published card's 📊 AFTER IT'S OUT and one dated YouTube block in `memory/content-performance.md`; one note of at most ten lines and one doc (its text in `exports/youtube-review-YYYY-MM-DD.txt`); never the live data connection — scheduled or run in chat, the review reads what is on record | the 1st, the member's hour (default 8:00 am) | `yt-triggers` (`references/monthly-review-task-prompt.md`) | `attraction-monthly-youtube-review` | at setup, with the same Yes ("run my monthly channel review" runs it in chat with no task) | `Monthly review task:` |
 
 **Telling the member (the owner, 2026-11-14).** Every run leaves its note in Cowork (the task's own result: what is
 ready, the doc link, the two or three lines that matter), writes its text to `exports/` (above), and ends with a push
@@ -366,7 +403,13 @@ mail is connected (Gmail or Outlook) and `no (no mail connected)` when it is not
 line says yes, the Kickoff sends ONE short email to the member's OWN address through their connected mail — "Your
 week's video is drafted — [title]", the doc link and the same two or three lines; the monthly review likewise.
 Never to anyone else, never a campaign, never a second message. No connected mail at send time → the run says so
-once, writes `no (no mail connected)`, and the Cowork note and the board carry it.
+once, writes `no (no mail connected)`, and the Cowork note and the board carry it. **The email is the run's last tool
+call before its note (2026-11-21):** if the send tool is not in the session, or the send does not complete, the run
+does not retry and does not wait — it writes `Email me: no (no mail connected)`, pushes that one file, and goes on to
+the note. Email to anyone but the member is always a draft, never sent.
+**Nothing promises a workflow that is not on (2026-11-21):** a skill says what the Monday Kickoff or the Monthly
+Channel Review will do only when it has read a task id on that workflow's line in the `## YouTube (Week 5)` block;
+`later`, `paused`, no line, or a demo Brain → the sentence is left out.
 
 The Weekly Attraction Ideas note (the retired `Weekly ideas task`) no longer exists: the Monday Kickoff carries
 this week's video and the ideas; the old "weekly attraction ideas" phrases are retired — a member who asks for ideas on a schedule is pointed to the Kickoff in one line (`yt-ideation`). "My YouTube
@@ -380,7 +423,8 @@ closing push — after the first video — goes through the sync marked as the s
 the Brain Board AND refreshes the Brain Book's "What's next" page and returns two links (both files in `01 · AI
 Brain`), which the close hands over before the breadcrumb (*"Your Brain Board and your Brain Book are updated — here
 they are: [the Board link] · [the Book link]"*; the Board file shown in the chat when the session can; a failed
-rebuild named with its retry phrase — "refresh my brain board" / "show me my Brain" — never claimed); (2) every scheduled run ends with a push; (3) the
+rebuild named with the retry phrase — "refresh my brain board" — never claimed; nothing about the Board's page is
+said that is not true of it — house rule #20); (2) every scheduled run ends with a push; (3) the
 texts the board shows are kept in `~/attraction-brain/exports/` (the Brain syncs `exports/*.txt`), written beside the
 Drive doc in the same run — `channel-kit-YYYY-MM-DD.txt` (`yt-setup`) · `youtube-game-plan-YYYY-MM-DD.txt`
 (`yt-gameplan`) · `youtube-kickoff-YYYY-MM-DD.txt` (`yt-briefing`, each run) · `youtube-review-YYYY-MM-DD.txt`
@@ -388,10 +432,10 @@ Drive doc in the same run — `channel-kit-YYYY-MM-DD.txt` (`yt-setup`) · `yout
 video read; never the review's name); read, never written here: `week3-kit-*.txt` (the Brain plugin's), `kit-magnet-*.txt` (the
 Lead Magnet plugin's), the Short-Form System's exports. The board's YouTube page (rendered by the Brain plugin's
 `render_board.py`, never by this plugin) shows: where the member stands (channel optimized and pasted · Game Plan ·
-board · workflows · first video — the `Setup:` stamp in `identity/channel.md`), the three lanes and the playlists
-(`identity/channel.md → ## Game Plan anchors`), this week's video (`memory/content-calendar.md → ## Long-form
+board · workflows · first video — the `Setup:` stamp in `identity/channel.md`), the member's three topics and their
+playlists (`identity/channel.md → ## Game Plan anchors`; the page says "Your topics"), this week's video (`memory/content-calendar.md → ## Long-form
 (YouTube)`, the rows due in the next seven days), the workflows switched on (the `## YouTube (Week 5)` block), the
-last Monday Kickoff (`exports/youtube-kickoff-*.txt`) and the last monthly review (`exports/youtube-review-*.txt`).
+last Monday Kickoff (`exports/youtube-kickoff-*.txt`) and the last Monthly Channel Review (`exports/youtube-review-*.txt`).
 The system's dot is Week 5. Notion is the working board; the Brain Board is the read-only map.
 
 ## Documents this plugin produces (per the Brain's `drive-map.md`, located by Workspace ID)
@@ -404,9 +448,10 @@ at `exports/youtube-read-YYYY-MM-DD.txt`) · `Monthly Channel Review —
 [Month YYYY] — YYYY-MM-DD` (the scheduled run, `yt-triggers`; text also at `exports/youtube-review-YYYY-MM-DD.txt`) ·
 one folder per video `YYYY-MM-DD · [Title]/` (created by the Monday Kickoff when it drafts the week's video, or by
 `yt-script`) holding `Kickoff Brief — [title] — YYYY-MM-DD` (the Monday Kickoff; the Kickoff's NOTE is what is kept at
-`exports/youtube-kickoff-YYYY-MM-DD.txt`) · `Script` · `SEO Package — [title] — YYYY-MM-DD` · `Thumbnail Brief —
-[title] — YYYY-MM-DD` (the thumbnail sheet for Higgsfield — one shape) · `Lead Map — [title] —
-YYYY-MM-DD` (only when the lead magnet exists — built in Week 2) · `Repurposing Pack — [title] — YYYY-MM-DD` ·
+`exports/youtube-kickoff-YYYY-MM-DD.txt`) · `Script` · `SEO Package — [title] — YYYY-MM-DD` (to the member "your
+title and description") · `Thumbnail Brief — [title] — YYYY-MM-DD` (to the member "your thumbnail sheet", for
+Higgsfield — one shape; both file names are kept until they are renamed in every file at once) ·
+`Repurposing Pack — [title] — YYYY-MM-DD` ·
 `Interview Prep — [guest] — YYYY-MM-DD` (`yt-interview`) · `Model Breakdown — [title] — YYYY-MM-DD`
 (`yt-model-breakdown`). Thumbnail images (made by the member in Higgsfield from the sheet) → the video's own
 folder, next to the sheet (the Brain's drive map); the banner is the brand kit's own file in `02 · Brand`
@@ -421,20 +466,25 @@ flow) · `attraction-story-bank` (a story to bank) · `attraction-goals`
 (no targets yet) · `attraction-persona-map` (no avatar yet) · `attraction-brokerage-model` ("explain my model to
 me") · `attraction-offer` (an offer still at seeds — "build my partner offer") · `attraction-week3-kit` (a missing or
 stale kit text — "rebuild my kit") · `lm-profiles` (a later bios refinement, inside the same headings) ·
-`yt-interview` → `studio-record` (the recording — "on the day, open a new chat and say 'prep me for a guest
-recording'") and `studio-interview` (the edit — stated as the next step, never hedged: "when it's recorded, say
-'edit my interview'" — the AI Editing Studio, Plugin 5) ·
+`yt-interview` → `studio-record` (the recording — "the day before, open a new chat and say 'prep me for a guest
+recording'") and `studio-interview` (the edit — stated as the next step, never hedged: "When it's filmed, open a new chat and say 'edit my YouTube video' (or 'edit my interview') — your AI Editing Studio edits it.") ·
 `yt-thumbnail` → **Higgsfield** (the member takes the thumbnail sheet there — upload the photo, paste the prompt,
 add the words — and says "my thumbnail is done"; nothing is called from here and a sheet is never pasted anywhere
 else) · the channel banner → the Week 3 brand kit (`aa-brand-kit-design`, in the member's Claude Design project,
 already made `banner-youtube.png`; `yt-setup` points at it, or names "make my brand kit" when it is missing —
-never a new brief) · `yt-repurpose` → the Short-Form System by phrase
-("script my attraction reels" — it exists by Week 5) and `cv-conversation-starter` ("when your sales system arrives
-— until then the starters go to your ideas file") · `yt-leads` → the Conversion plugin (the same condition) ·
+never a new brief) · `yt-repurpose` → the Short-Form System **through the clip queue** (the three clip scripts —
+never a phrase the member must say), and only when it is installed (`config.md` holds a `## Short-Form (Week 4)`
+block — never assumed because it is Week 5); its swipe post and stories by phrase ("attraction carousel",
+"attraction stories"), named once · `yt-repurpose` → `cv-conversation-starter`, only when the Conversion plugin is
+in the session (to the member, either way: "Your three conversation starters are in your pack — each is ready to
+send, in your own words, to an agent you know.") · `yt-leads` → the Conversion plugin (only when it is installed) ·
 `yt-board` (the Notion board — the
-YouTube tab on the one Content Dashboard) · `studio-longform` (the edit — stated as the next step, never hedged: "when it's filmed, open a new chat and say
-'edit my YouTube video' — your AI Editing Studio, Plugin 5, inside your own Riverside account; not installed yet →
-install Plugin 5 from the same marketplace, then 'set up riverside' once").
+YouTube tab on the one Content Dashboard) · `studio-longform` (the edit — stated as the next step, never hedged,
+word for word (2026-11-21): "When it's filmed, open a new chat and say 'edit my YouTube video' (or 'edit my
+interview') — your AI Editing Studio edits it." Only where the skill can see the editor is missing — no AI Editing
+Studio skill in the session — one sentence more: "Install the AI Editing Studio from the same place you installed
+this plugin, then say 'set up my video editor' once." Never a plugin number, an engine's name, "marketplace" or a
+"not installed yet?" question).
 
 ## Coordinator rulings applied (SEAM-LOG, 2026-10-08; the rewire, 2026-11-14)
 1. `identity/channel.md` and `memory/interview-pipeline.md` are YouTube-owned; the Brain template gains empty
@@ -491,7 +541,7 @@ install Plugin 5 from the same marketplace, then 'set up riverside' once").
     six locked lines (`Email me:` = `yes YYYY-MM-DD` · `no (no mail connected)`, an older plain `no` mirrored from the
     Short-Form block honoured; a task line = a task id · `paused` · `later`); the board's four tabs — Graphics · Reels · YouTube · Calendar; the Status select
     gains `Ready to Post`; the sitting's closing push hands over the Brain Board and the Brain Book with their links;
-    the editing next step (Plugin 5) is stated, never hedged; YouTube never asks about a posting tool.
+    the editing next step (the AI Editing Studio) is stated, never hedged; YouTube never asks about a posting tool.
 
 13. **The owner's rulings after the simulated Week 5 sitting (2026-11-14, late — bind over everything above):**
     compliance never stops or detours a sitting (build, stamp "hold until your compliance basics are set", one line
@@ -504,9 +554,23 @@ install Plugin 5 from the same marketplace, then 'set up riverside' once").
     place (`Setup: not started`); the board link's second home is `channel.md → Board:`; the calendar file is
     created silently when a Brain predates it; the Monthly Channel Review asks for three Studio screenshots and
     reads the `YouTube Studio numbers` block; an interview's yes becomes a booking (two times, a prep note, the
-    recording step, `Booked`); one step-up phrase — "change my YouTube cadence"; description line 3 is the
+    recording step, `Booked`); one step-up phrase — "change my YouTube pace"; description line 3 is the
     compliance and contact line; the Kickoff's note is at most seven lines; the card is its own message of at most
     70 words; about 350 words between the channel answer and "Say Yes", the three paste blocks not counted; at most one caveat line.
+14. **The owner's decisions after the full review (2026-11-21 — bind over everything above):** one name per thing,
+    in the member's words ("your Game Plan", "your three topics", "your pace", "your filming day", "your title and
+    description", "your thumbnail sheet", "your content board"); the Brain's own words (lane, bucket, niche,
+    pillar, cadence) stay in its fields and codes and are never read by a member; the pace phrase is "change my YouTube pace"; the editor is "your AI Editing Studio", its hand-off line fixed;
+    YouTube Studio's click paths as checked that day (Customization → Profile · Home tab · Insights); an interview
+    slot with no guest is "A conversation with an agent — guest to be named", and its week takes the next topic
+    video; nothing is said as a fact about agents, guests or viewers the member may not have; nothing promises a
+    workflow that is not on; no invented number or benchmark, and the goal prints only what the Brain holds; one
+    missing thing is said once, three or more as one general line; a member with nothing published gets a short,
+    true line, never a table of zeros; never more waits than real decisions; a run's one email is its last tool
+    call before its note and is never retried; the filming day is asked only when none is on file (a Week 4 day is
+    read back, never asked); the Kickoff's block carries a `said:` list; the Lead Map is retired; the repurposing
+    pack holds three clip scripts and three conversation starters (an email only with a list, a blog only when
+    asked).
 
 ## Privacy
 Everything in the Brain — agent names, wins, conversations, interview guests — is the member's private data. It
