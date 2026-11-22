@@ -34,7 +34,7 @@ set it for 7."*); nothing about the times is asked.
 **The card is its own short message** (the owner's review, 2026-11-14): nothing else is in that message — no
 announce line, no recap, no housekeeping; inside setup ONE line stands above it, the win line for the board step
 the member just finished, by what is true (the board was built → *"✓ Step 3 of 5 — done. You approved your plan,
-and your next 30 days are on your board."* · the board is waiting on Notion, or an older `declined` skipped it →
+and your next 30 days are on your content board."* · the board is waiting on Notion, or an older `declined` skipped it →
 *"✓ Step 3 of 5 — done. You approved your plan — your next 30 days are mapped in it."* — nothing about Notion here: it was said
 once, at the board step) — and nothing follows "Say
 Yes and I'll set them up." Inside
@@ -91,8 +91,8 @@ runs on Mondays or on the 1st. (Inside setup each of these lines is said once, a
    `Email me: no (no mail connected)` and goes on to its note).
 4. Push via `attraction-brain-sync` (the push rebuilds the Brain Board) and confirm in one line (never on a demo
    Brain — no task was made): *"Set. Mondays your
-   week's video is drafted [onto its card | for you] — and it keeps your board 30 days ahead; the 1st, your channel
-   review is waiting in your workspace[; a short note comes to your inbox each time]. Say 'stop my attraction kickoff' or 'stop my monthly channel review' any time."* ("onto its card" and the 30-days clause only when a board exists. **One only** → the
+   week's video is drafted [onto its card | for you] — and it keeps your board 30 days ahead; the 1st, your Monthly Channel
+   Review is waiting in your workspace[; a short note comes to your inbox each time]. Say 'stop my attraction kickoff' or 'stop my monthly channel review' any time."* ("onto its card" and the 30-days clause only when a board exists. **One only** → the
    line names that one and its stop phrase alone, and ends on the other's turn-on phrase, once: *"…Your [Monthly
    Channel Review | Monday Kickoff] stays off — say '[turn on my monthly channel review | turn on my attraction
    Monday kickoff]' any time."*

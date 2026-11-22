@@ -124,7 +124,7 @@ column (designated append, `brain-contract.md`). A brokerage fact the member sho
 ## Modes
 - **At ideation time** — the first invisible step whenever the member asks for ideas (budget ≤8 there).
 - **On demand** — "what are agents asking about [topic]?" / "any brokerage news for my channel?"
-- **Inside make-video** — the competitive read for one locked title (≤5 searches).
+- **Inside make-video** — the competitive read for one title (≤5 searches).
 - **For a card** — the reference video: one search a card (a second, reworded, only when the first found
   nothing); run by `yt-board` and the Monday Kickoff, by the steps in the method.
 

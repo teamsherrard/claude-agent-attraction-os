@@ -198,7 +198,7 @@ Pull only what is asked — open only the Brain file the question needs (the cha
 row, the scoreboard files for "which video booked the call"); say the source in one line; compare each video to
 the member's own typical video (three or more out — fewer → say it is too early to compare); join to what the video
 was; diagnose in the metrics guide's plain names (few people click → the title and thumbnail · people click but leave
-early → the opening or the pace · strong across → a proven topic, repeat from a new angle); always end with the
+early → the opening or the middle · strong across → a proven topic, repeat from a new angle); always end with the
 habit, as a statement — *"When an agent books, ask which video made them reach out."* — and one next action. Nothing
 is asked. Store nothing unless notable.
 

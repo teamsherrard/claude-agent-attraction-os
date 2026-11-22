@@ -71,7 +71,8 @@ Step 2 → `identity/offer.md` (the rest) · `identity/positioning.md` · `ident
 outlet · date · link` — that justify a re-make) · `identity/offer.md → ## Content branches` (the model video sits on
 the member's "what agents pay for vs what works" branch when there is one).
 **State the pick — never a menu.** A title the plan, the board, `yt-ideation` or the member's own request already
-names IS the video: say so in one line and build — the member has already chosen, so there is no stop. Otherwise
+names IS the video: say so in one line and build — the member has already chosen, so there is no stop (inside
+`yt-make-video` the build waits for the Yes that ends that chat's first reply — nothing is saved before it). Otherwise
 pick it here: the first type below that `memory/content-log.md` does not hold yet, top to bottom (a comparison only
 when the member asks for one; a type about something the member's model does not have — no revenue share, no
 sponsor — is skipped, never written as if it existed), said in one line with its why — and the reply ends on the
@@ -150,7 +151,7 @@ Before the outline leaves this chat, read every line back against `03-model-posi
   public script at all.
 - No "#1", "best", "fastest-growing" without a dated, verifiable source in the file.
 - No line promises the member's time per partner; the brokerage is never the reason to partner.
-Note what you changed, in one line, for the document's last line. In the chat it is said only when the line
+What you changed is never printed in the document. In the chat it is said, in one line, only when the line
 changed was the member's own wording — never an account of edits to a draft they have not seen.
 
 ## Output (in chat, then saved)
@@ -165,9 +166,9 @@ changed was the member's own wording — never an account of edits to a draft th
   your brokerage changes its model, or in a year — your model notes were last checked [Month YYYY]." (`96`) No
   reminder is promised — nothing here can deliver one — and no phrase is handed over.
 **What the member reads — short:** the reply opens with the win when the pick was theirs — *"✓ You chose your
-model video — '[title]'."* — then the three titles, where the document is, and the one next step (inside
-`yt-make-video` that chat carries on to the script; on its own: *"Say 'make my attraction video: [title]' and I'll
-write the script."*). The outline and the fact sheet are in the document — never pasted into the chat.
+model video — '[title]'."* — then the three titles, where the document is, and the one next step (on its own:
+*"Say 'make my attraction video: [title]' and I'll write the script."*; inside `yt-make-video` none of this is said —
+that chat's own replies carry it). The outline and the fact sheet are in the document — never pasted into the chat.
 Save the outline + fact sheet as **Model Breakdown — [title] — YYYY-MM-DD** in `03 · Content/Long-Form/`
 inside this video's folder, rendered through `shared/render_doc.py` per `shared/doc-format.md` (the Model Breakdown
 skeleton). Append the `memory/content-log.md` row (Platform `YouTube` · Format `long-form` · **Pillar

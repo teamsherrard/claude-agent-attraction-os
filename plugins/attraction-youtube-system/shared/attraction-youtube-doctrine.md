@@ -550,7 +550,7 @@ in the video must be real; no stock "culture."
   input, not yet in the repo). `yt-thumbnail` consumes it when it arrives — its patterns shape the prompts on the
   thumbnail sheet the member takes to Higgsfield.
 - **Equipment, filming, and editing standards** are not in the YouTube vault (Mike points to the Social Agent
-  Academy). The Riverside editor plugin owns the edit; this doctrine only says what `/92` says: start with what
+  Academy). The AI Editing Studio owns the edit; this doctrine only says what `/92` says: start with what
   you have, upgrade every year.
 - **The starter title bank** (`skills/yt-gameplan/references/starter-title-bank.md`) is Mike's agency's four-month
   video list adapted to this doctrine, not a vault lesson: the Game Plan seeds from it only when the member has no

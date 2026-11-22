@@ -11,8 +11,8 @@ Cohort feedback, verbatim: *"it's just so much information that I have no idea w
    "Do this" is the exact thing to film, change, or paste — nothing the member has to translate.
 2. **Every section opens with `In plain English:`** — one sentence a friend would say across a table.
 3. **Numbers live in tables and dotted rows, not sentences.** A sentence carries at most two numbers.
-4. **Explain every metric the first time it appears**, in the same line: *"click-through rate — of the people
-   who saw your thumbnail, how many clicked."* The plain names are in `metrics-guide.md`; use them.
+4. **Explain every metric the first time it appears**, in the same line: *"how many people click — of everyone
+   who saw your thumbnail."* The plain names are in `metrics-guide.md`; use them.
 5. **No marketing words without the plain phrase next to them:** "the ask at the end" not "CTA"; "a video
    that did far better than that channel's normal" not "an outlier"; "where views stop turning into calls"
    not "the funnel"; "how many people click" not "CTR"; "how long people keep watching" not "retention"; "the title

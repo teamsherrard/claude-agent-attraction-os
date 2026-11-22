@@ -15,7 +15,7 @@
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.2.12",
+      "version": "0.2.13",
       "description": "PLUGIN 2 — install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about…\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
@@ -39,7 +39,7 @@
     {
       "name": "attraction-youtube-system",
       "source": "./plugins/attraction-youtube-system",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "description": "PLUGIN 6 — install in Week 5 (date to be confirmed). The Long-Form Authority Engine: one sitting sets up your channel for the agents you want to attract, builds your YouTube Game Plan (one video a week to start), puts your next 30 days on the YouTube tab of your content board — each card with a publish checklist and, when one is found, a real video to watch first — switches on two draft-only workflows with your one Yes and hands you your first video. Requires Plugin 1; builds on Plugins 3 and 4."
     }
   ]

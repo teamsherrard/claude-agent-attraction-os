@@ -265,6 +265,6 @@ video do") write 📊 AFTER IT'S OUT; statuses flip as things happen (filmed →
   end of the run (the push
   re-renders the Brain Board, the read-only map). The one row re-dated for an interview week with no guest is
   `yt-gameplan`'s write, made by its Phase 8 rule before the card is updated — never a write of this skill's own.
-- Inside setup: no offer, no question — build, or put the Connect button in the chat and say how, then hand back.
-  The reference videos always take the search path inside setup, even when live numbers are already active (setup
-  never calls that connection).
+- Inside setup: no offer, no question — build, or put the Connect button in the chat (`yt-setup` Step 7 says how),
+  then hand back. The reference videos always take the search path inside setup, even when live numbers are
+  already active (setup never calls that connection).

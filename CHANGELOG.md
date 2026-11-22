@@ -2,7 +2,19 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.41.1] — 2026-11-22
+
+**The last checks of the YouTube audit — polish, behaviour unchanged (YouTube 0.10.1 · Support 0.2.13).** Three final read-throughs were still running when 0.41.0 went out. They judged the shipped files safe and made these small corrections.
+- **Documents (`doc-format.md`):** the Kickoff brief's script band no longer prints stray dashes once a real title is filled in; the Game Plan's last heading no longer prints a bracket; an empty "after it's out" heading is gone; the interview prep no longer promises a recording link to a member whose editor does not record guests.
+- **House rules and the contract:** two rules that still described the old behaviour ("ask for it once"; the copy-paste version handed over in chat) now match the skills; three quoted lines match them word for word.
+- **Setup (`yt-setup`):** the resume lines and the "start over" line say only what is on file; "your content board" throughout; a demo Brain is never told a workflow is waiting to be switched on.
+- **Other skills:** no "comment GUIDE" where no guide exists; "the lessons, the templates and the community" only when the offer lists them, in the Kickoff too; the nothing-published review says "your first video on this plan" for a channel that already has videos; the comment triage does not ask which video when only one is published.
+- **Support 0.2.13:** the editor is installed in Week 4 (the desk said Week 3) and has two engines (the desk said Riverside only).
+
+**Known, unchanged:** the editor still tells members to say "SEO for this" in seven lines; that phrase cannot be added as a trigger here because it collides with the realtor marketplace. Until the editor is changed upstream, the phrase that works is "title and description for my attraction video".
+
 ## [0.41.0] — 2026-11-21
+
 
 **The whole YouTube plugin, audited against the owner's rulings and corrected (YouTube 0.10.0 · Support 0.2.12 · Brain 0.9.22 · Lead Magnet 0.12.18 · Short-Form 0.9.3).** After the question removed in 0.39.0 the owner asked for an audit of the entire plugin: "I don't want to be telling you this stupid feedback." Ten read-only readers went through it — seven across the nineteen skills and the shared files, three walking the setup reply by reply as a first-time attractor, a member with everything on file, and the owner's own path on the demo Brain. They returned about 320 findings, many of them one defect seen from two sides. Each was checked against the text before it was changed; the two that rest on outside facts (YouTube Studio's menus) were checked against YouTube Help on 2026-11-21. Nothing here has been run live in Cowork.
 

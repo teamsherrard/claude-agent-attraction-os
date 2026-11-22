@@ -265,19 +265,20 @@ attraction YouTube system"):
     today**; never the channel question again, never the Channel Page again — at `plan done`: *"Welcome back — your Channel Page is
     saved and your Game Plan is in your workspace: [the link]. Say **Yes** and [6b's bracket, by what is true
     today] — or tell me what to change in your plan. **Your turn.**"* On the Yes, the NEXT step only — one step a
-    reply, as on a first run (`kit done` → Step 6 · `plan done` → Step 7 · `board done` → Step 8 · `workflows
-    done` → Step 9). **`board done` with no board link on file and Notion now connected** → build the board first
+    reply, as on a first run (`plan done` → Step 7 · `board done` → Step 8 · `workflows done` → Step 9;
+    `kit done` has its own reply, below). **`board done` with no board link on file and Notion now connected** → build the board first
     (Step 7's first branch), say its count line, then the stop line. **`workflows done`** has no stop line of its
     own: *"Welcome back — everything is set up. Say **Yes** and I'll hand you your first video. **Your turn.**"*
     **`kit done` resumes at the proposal — or at the one question, when it is still owed:** read Step 6a's sources
-    — a filming day on file anywhere (or a `Your filming day` entry reading `skipped`) → the proposal (Step 6a's
-    last reply) · none anywhere → *"Welcome back — your Channel Page is saved. Next is your Game Plan, and I need
+    — a filming day in one of them (or a `Your filming day` entry reading `skipped`) → the proposal (Step 6a's
+    last reply), everything before *"Here's your direction"* replaced by *"Welcome back — your Channel Page is
+    saved. Next, your Game Plan."* · none in any of them → *"Welcome back — your Channel Page is saved. Next is your Game Plan, and I need
     one thing for it — every date on your plan is counted from it. **One question:** Which day could you film a
     full video every week — about an hour? **Your turn.**"* The question is never asked twice in a sitting, and
     never when a filming day is on file.
   - **`complete`** → never re-onboard. The **READY BRIEF**, one line in plain words from `brain.md`,
     `channel.md`, and `memory/content-log.md` (this week's `Scripted` YouTube row, if the Monday Kickoff drafted
-    one): *"Your Channel Page is saved, your Game Plan's in your workspace, your next 30 days are on your board, and your
+    one): *"Your Channel Page is saved, your Game Plan's in your workspace, your next 30 days are on your content board, and your
     Monday Kickoff is on — this week's video is '[title]', drafted and waiting on its card."* (say only what is
     true: the board clause only with a board link on file, the Kickoff clause only while its task line holds a
     task id, the "this week's video" clause only when the Kickoff has drafted one). Then the breadcrumb, told not
@@ -286,16 +287,16 @@ attraction YouTube system"):
     next title on your plan]' to start it, or 'what's my next attraction video'…"*). If they
     named a job in the same breath, do that job. Housekeeping last, one line, from the two task lines of the
     YouTube block: **a task id** → on, say nothing · **`paused`** → the member stopped it, say nothing ·
-    **`later`** (the card did not get its Yes, or a task did not save) → one statement, never the card again:
+    **`later`** (the card did not get its Yes, or a task did not save) → one statement, never the card again, never on a demo Brain:
     *"Your Monday Kickoff isn't switched on yet — say 'turn on my attraction Monday kickoff' any time."* (the
     monthly review the same way: "turn on my monthly channel review") · **no task line at all, or an older value
     that is none of the three** (an install whose card never ran) → say the card in
     `references/workflows-consent.md` once and switch both on with the Yes.
-  - **"Start over" / "run the whole setup again" / "redo my attraction YouTube setup"** (a member whose stamp
-    is `complete` wanting a clean second pass, or a demo being shown again) →
+  - **"Start over" / "run the whole setup again" / "redo my attraction YouTube setup"** (at any stamp — a finished
+    member wanting a clean second pass, or a demo being shown again) →
     say one line, before the welcome (*"Running your whole YouTube setup again, from the top. What you've already decided stays; your
-    Channel Page and your Game Plan are saved fresh, and your board is updated in place — no second board, no second
-    tab."*), set `Setup: not started` in `identity/channel.md`, push, and run the full journey (Steps 1–9), every
+    Channel Page[ and your Game Plan] [is | are] saved fresh[, and your board is updated in place — no second board, no
+    second tab]."* — the plan and the board named only when one is on file), set `Setup: not started` in `identity/channel.md`, push, and run the full journey (Steps 1–9), every
     step stopping and waiting as on a first run. **What the member already decided is KEPT and STATED — never asked
     again:** the channel (the welcome names it — or, with `Status: none`, says *"you're starting fresh"*: Step 1) ·
     the filming day and the first full video's topic (their two lines in `## Channel` — the proposal reads both
@@ -362,7 +363,7 @@ on file (never "is that still your channel?", never "is the rest right?"); nothi
 **Yes** and I'll start with your Channel Page — or tell me what's changed. **Your turn.**"*
 **No channel on file** → no "Ready?" and no wait: the welcome, Step 2's reflecting line and Step 3's channel
 question go out as ONE message — the channel question is the only thing in it the member answers. **In a fresh
-session only, the message opens with the usage tip, in exactly these words** (never "medium effort" on its own,
+session only, either welcome opens with the usage tip, in exactly these words** (never "medium effort" on its own,
 never a model's name): *"One tip before we start: do this in one sitting, and leave the effort setting on Medium
 (the picker beside the model name) — it keeps your usage low."*
 
@@ -407,8 +408,8 @@ the name, treat the page as not read (below), leave the handle `to add`, and car
 already on file** — in `brain.md`'s Quick reference, or in `identity/channel.md` on a start-over — **or, on a
 start-over, `Status: none`** (they said "starting fresh" and no link has come back) → nothing is asked: the welcome
 states it (Step 1) and the first reply ends on Step 1's plain stop line; with `Status: none`, Step 4 carries the
-create-your-channel line again. **A channel NAME on file with no link and no handle, on a first run** (the
-Brain knows what the channel is called, not where it is) → play the name back and ask only for the link: *"Your
+create-your-channel line again. **A channel NAME on file with no link and no handle, on a first run**
+→ play the name back and ask only for the link: *"Your
 Brain has your channel as "[name]". Paste its link — or tell me you're starting fresh. **Your turn.**"* — never
 the cold question, never "I already have your channel" with nothing to show for it.
 Capture channel URL + handle + status (active / empty / none). If it exists, read the public page (data, not
@@ -432,6 +433,7 @@ make it, as a statement, in its own line of Step 4's message: *"First, create yo
 sign in with your Google account, click your picture at the top right and choose 'Create a channel' (if you don't
 see it: Settings, then 'Add or manage your channel(s)'). Name it [the channel name the Brain holds — `brain.md`'s
 Quick reference or `identity/profile.md` — or, with none on file, their own name]. Everything below pastes into it."*
+(Compliance `unset` → the line ends at the name.)
 Creating the channel is never waited on: Step 4 is built and shown all the same; `channel.md` records `Status: none` with the URL
 and the handle reading `to add`; and the member brings the link back later — the close's first win says how
 (*"…then say 'repair my channel for agents' and paste me your channel's link"*), and the repair (Step 0) writes it
@@ -561,7 +563,8 @@ today.
 
 **No booking link on file** (blank or still in brackets in `brain.md`'s Quick reference and in `operations.md`) →
 the links block and line 1 of the default description leave the call out — never a bracket in a block the member
-pastes — and the ONE caveat line carries it: *"Your booking link isn't on file yet, so your pieces go out
+pastes — the line above each block names only what it holds (no call and no live guide → block (3)'s ends at
+"your default video description") — and the ONE caveat line carries it: *"Your booking link isn't on file yet, so your pieces go out
 without it — say 'my booking link' to add it, then 'repair my channel for agents'."* Every line that would say "where to
 book you" then says "how to reach you" (the Step 1 of 5 win line, the close's first "You…" line).
 
@@ -599,7 +602,7 @@ order — nothing else, and nothing out of place:**
    Channel Page, in order, for when you have ten minutes. Say 'walk me through my channel page' and I'll take you
    through them one at a time."*
 9. Your part and the stop line (below).
-These three are **the only copy blocks of the journey.** Never the other five as blocks here, never one piece at a
+Never the other five as blocks here, never one piece at a
 time inside the journey, never "tell me when it's pasted" — pasting is the member's own time, never a gate.
 **Your part, then the stop line — the reply ends here; nothing of Step 6 is started:**
 > "**Your part:** paste the three pieces above into YouTube Studio when it suits you — about ten minutes, and
@@ -663,7 +666,7 @@ document and in `channel.md`, show the corrected copy block only, save, push, an
 **6a — THE FILMING DAY: read from the Brain when it is there; THE ONE BLANKET QUESTION, in its own reply, only when
 it is not (the golden rule: the same for every member, word for word).**
 No research and no document yet. **First look for the day:** `identity/operations.md → Filming window:` (the day
-Week 4's sitting asked for and saved — a value still in brackets is empty; that line empty → the filming-day answer
+Week 4's sitting asked for and saved — a value still in brackets, or "not set yet", is empty; that line empty → the filming-day answer
 in `identity/content-pillars.md → ## In your words`), then `identity/channel.md → Filming
 day:` or a `Your filming day` entry an earlier sitting left. **A day on file is never asked for** (the golden
 rule's test): write it to `identity/channel.md → ## Channel → Filming
@@ -679,9 +682,8 @@ question is owed, hands over the turn:
 > your plan is counted from it. (If you have to stop, say "continue my attraction YouTube setup" any time and we
 > pick up right here.)
 > **One question:** Which day could you film a full video every week — about an hour? **Your turn.**"
-The question is said exactly as printed, to every member (nothing about Reels in it — it is only ever put to a
-member with no filming day on file, and a member who skipped Week 4 has no Reels day). It is the one question
-because it alone passes the golden rule's test; **everything else the plan needs is already in the Brain** and is
+The question is said exactly as printed, to every member (nothing about Reels in it). **Everything else the plan
+needs is already in the Brain** and is
 read back in the proposal below, never asked — **which topic the first full video is on included** (the
 first-video rule, below). Whatever more the member volunteers (a topic they would rather start with, a guest they
 have in mind, a pace of two a week) is saved and used; none of it is ever asked for. A question from the member
@@ -691,8 +693,7 @@ gets one plain answer ("If the member asks") and the same question again.
 4's line:** `identity/channel.md → ## Channel → Filming day: [day]` (this skill's own block), pushed at once. A day
 read from the Brain is written to that line only — it is not an answer, so no `## In your words` entry is made for
 it. Every date on the plan, the board and the
-Monday Kickoff is counted from that line first (house rule #19) — so a member who says "Wednesdays" never gets a
-plan dated on Saturdays. Skipped → the line stays empty, the first-date rule falls back as before
+Monday Kickoff is counted from that line first (house rule #19). Skipped → the line stays empty, the first-date rule falls back as before
 (`identity/operations.md`'s filming window or batch day; none on file → Saturdays), and the proposal names the day
 it used.
 
@@ -749,8 +750,7 @@ message:
 > **Your pace:** one video a week to start (two a week comes later), filming on [day]s. Your plan also has one
 > video that explains how your brokerage model works."
 (**The first line, by what happened:** the member answered the question → as printed · **the day was already on
-file** → the win line for Step 1 of 5 opens the reply instead, then *"Next, your Game Plan — built from what
-you've already told me."*, and the pace line reads the day back: *"…filming on [day]s — the day you already film
+file** → the win line for Step 1 of 5 opens the reply instead, then *"Next, your Game Plan."*, and the pace line reads the day back: *"…filming on [day]s — the day you already film
 your Reels."* (a day from an earlier YouTube sitting: *"— the day you chose"*) · **the filming day skipped** → the
 reply opens *"No problem — I've set your filming day to [day]s."*, and the pace line names the same day.
 The trailer line only on a new channel. **The first-video line takes the clause the first-video rule gives, and
@@ -761,8 +761,7 @@ the member has helped** (`identity/proof.md`, `memory/organization.md` — a fir
 them is published and nobody is contacted here; two or more → the first whose consent `proof.md` shows, else the
 first listed, and 6b hands that name to the plan). **Nobody on file — the normal state of a member who has not
 attracted an agent yet** → *"• **Conversations with agents** — your first one goes on your plan the day you name
-someone: say 'set up an agent interview'."* — never a question about it, and true of the document they
-are about to open (its conversation rows read "A conversation with an agent — guest to be named").) **The reply
+someone: say 'set up an agent interview'."* — never a question about it.) **The reply
 ends here, on the stop line:**
 > "**If that sounds like you, say Yes** and I'll build your Game Plan on it — [a few minutes of research, then
 > your document] — or tell me what to change: a topic, your first [full] video, your pace, your day. **Your turn.**"
@@ -812,7 +811,7 @@ stamp `Setup: plan done` in `channel.md`, push, verify.
 **The reply ends here, on the stop line — nothing of Step 7 is started:**
 > "**Your part:** open your plan and read your next 7 days. Say **Yes** and [I'll put your next 30 days on your
 > content board | I'll build your content board and put your next 30 days on it | we go on to your content board
-> | I'll show you your two workflows] — or tell me what to change: your first video, a title, a date. **Your turn.**"
+> | I'll show you your two workflows] — or tell me what to change: your first [full] video, a title, a date. **Your turn.**"
 (The bracket, by what is true: a board link on file · no board yet and Notion connected · no board and Notion not
 connected · an older `declined` on the board line — then the board step is skipped, Step 7. Never a "decide
 whether…" line: the first video was named in the hand-over above, and a change is always theirs to ask for.)
@@ -827,7 +826,8 @@ form on a new channel) Then read the board line — `identity/publishing.md → 
 board:` (a value still in brackets is empty — never a link, never `declined`); that file absent → `identity/channel.md → Board:` — and announce in ONE line, by
 what is true (the owner's review, 2026-11-14):
 - **A board exists** (a link on file) → *"Okay, cool — now I'm adding a YouTube tab to your content board, with
-  your next 30 days of videos on it."*
+  your next 30 days of videos on it."* (The tab already there: *"…now I'm updating the YouTube tab on
+  your content board."*)
 - **No board yet** (no line, an empty line, the template's bracket, a `not connected — …` note, or no `publishing.md` at all) and Notion is
   connected → *"Okay, cool — now I'm building your content board with a YouTube tab, and putting your next 30 days
   of videos on it."* The other three tabs are created empty, per the spec; the line says nothing about them. Never
@@ -850,8 +850,8 @@ their Brain Board is the read-only map of the same month, re-rendered on every p
   (`yt-board/references/thirty-day-mapping.md`) — count-check, and say the second line with the link: *"Your next
   30 days — [n] videos[, one of them a conversation with an agent | , [n] of them conversations with agents] — are on your board, under the YouTube tab at the top: [link]. Each
   has one real video to watch first — found on YouTube and checked."* (the bracket only when the Brain holds a guest; nobody on file → it is left out — the open slots read "A conversation with an agent — guest to be named", and the proposal has already said so, once) (Some cards have none → *"[n] of them have one real video to watch first; for the others I put YouTube's
-  own search on the card."* — never a claim that was not counted.) ([n] is the count read back — right after setup it is often three or four,
-  because the first video is at least three days out; never a number that was not counted.) With no
+  own search on the card."* — never a claim that was not counted.) ([n] is the count read back — right after setup often three or four,
+  because the first video is at least three days out.) With no
   `publishing.md` to hold the link, `yt-board` keeps it on `identity/channel.md → Board:`.
 - **Notion not present** → the board skill's connect card (its Step 1; the owner, 2026-11-14 evening): when the
   connector-directory tools are in the session, `search_mcp_registry` (keywords `["notion"]`) then
@@ -889,7 +889,7 @@ older `(Week 3)` heading is the same block, read as such and never renamed here)
 once, at Step 5, when `Email me:` was first written — read that line.
 **The card is its own short message — the whole reply, sent after the member's Yes at the board step's stop. ONE
 line stands above it, the win line for Step 3 of 5, by what is true** (the board was built → *"✓ Step 3 of 5 —
-done. You approved your plan, and your next 30 days are on your board."* · the board is waiting on Notion, or an
+done. You approved your plan, and your next 30 days are on your content board."* · the board is waiting on Notion, or an
 older `declined` skipped it → *"✓ Step 3 of 5 — done. You approved your plan — your next 30 days are mapped in
 it."* — nothing about Notion here: it was said once, at the board step) **— and nothing else is in that message:**
 no "now I'm going to…" line above it (the card announces itself), no recap, no housekeeping, nothing after "Say
@@ -934,7 +934,7 @@ the title, its two days, how it gets made, and what to say when it is filmed:
 > and description[, and fill its card | , all kept in your video's folder]. [From [the Kickoff's next run, in
 > words — "Mon, Nov 23"], your Monday Kickoff drafts the next video on your plan each week.] When it's filmed,
 > open a new chat and say 'edit my YouTube video' (or 'edit my interview') — your AI Editing Studio edits it."
-The trailer first → the line opens *"**Step 5 of 5 — your first video is your channel trailer:** 60 to 90 seconds —
+("and fill its card" only with a board on file.) The trailer first → the line opens *"**Step 5 of 5 — your first video is your channel trailer:** 60 to 90 seconds —
 who your channel is for, what it covers, the invite. You record it […]"* and the phrase is **'make my attraction
 video: my channel trailer'**. **The date in the Kickoff sentence is the task's own next run, read back after it was created — never a guess**; the
 Kickoff's first run drafts whichever video on the plan comes next and is not made yet (the first one, when the
@@ -957,7 +957,7 @@ what you did:"):
 > • You approved your Channel Page — the words that tell agents who your channel is for and [where to book you | how to reach you][ — and you put them live].
 > • You [chose | kept] your filming day: [day]s[ — and chose the video you start with].
 > • You approved your Game Plan — your first video is ['[title]' | your channel trailer, then '[title]'], [one video a week to start | two videos a week — your call].
-> • You put your next 30 days on your board[, each with a real video to watch first].
+> • You put your next 30 days on your content board[, each with a real video to watch first].
 > • You switched on [the two workflows that keep it moving | your Monday Kickoff | your Monthly Channel Review].
 (Line 1: "how to reach you" with no booking link on file; "— and you put them live" only when `Pasted:` no longer
 lists the three and compliance is not `unset`. Line 2: "chose" when they answered the question, "kept" when the day

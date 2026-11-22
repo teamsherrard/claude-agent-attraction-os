@@ -100,7 +100,8 @@ that channel's own typical video. Small absolute numbers are not proven demand. 
 It needs subscriber counts, view counts and upload dates, so it runs only when `identity/channel.md → Live data:
 active …` is on file. Not active → it does not run and nothing is guessed: one plain line — *"I can't see which
 older videos are still being watched from here. Say 'connect my YouTube numbers' and I can."* — then Part A's
-plain list for the same topics. The deeper sweep for **durable** demand:
+plain list for the same topics, without its closing line (the phrase is said once). The deeper sweep for
+**durable** demand:
 1. Map the channels serving agents in the member's niche or model with **2,000+ subscribers**.
 2. For each, the most popular videos that are **2+ years old** — still pulling views = durable search demand
    (model explainers, "how to choose a sponsor," career-transition videos, the definitive niche tutorials —

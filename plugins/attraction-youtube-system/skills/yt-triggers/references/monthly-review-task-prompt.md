@@ -82,11 +82,13 @@ closing message and continue.
    `YOUR ONE NEXT STEP: record "{title}" — say "make my attraction video: {title}" to get it ready to film.`
    `Your Brain Board is updated.`
    ({title} is the first calendar row that is not an interview with no guest named; "set for" its Recording date —
-   a date already past → "ready whenever you are" in its place, never "overdue", never "behind". No calendar and
-   no Game Plan doc → the second line reads `Your first video is next — say "build my attraction game plan" and I
-   map it.` and the third and fourth lines are left out.) Then step 7 (the four bands only; no card has anything to
-   write; the ledger block carries `- Long-form published: 0` and `- The one move:`), step 8, and in step 9 the note
-   is the five lines above and nothing else. Never a table of zeros, never guilt, never an apology for being new.
+   a date already past → "ready whenever you are" in its place, never "overdue", never "behind". A channel whose
+   baseline in `identity/channel.md` shows videos already out → "your first video on this plan", never plain
+   "your first video". No calendar and no Game Plan doc → the second line reads
+   `Your first video is next — say "build my attraction game plan" and I map it.` and the third and fourth lines
+   are left out.) Then step 7 (the four bands only; no card has anything to write; the ledger block carries
+   `- Long-form published: 0` and `- The one move:`), step 8, and in step 9 the note is the five lines above and
+   nothing else. Never a table of zeros, never guilt, never an apology for being new.
 3. **The month, counted — never estimated:** videos published vs the rows dated in the month and the `Cadence:`
    anchor, said kindly (one video a week is the default for the first month; a month on plan is a month on plan —
    never "behind", never a grade; **no new video in the month while earlier ones are out → no table of zeros: one

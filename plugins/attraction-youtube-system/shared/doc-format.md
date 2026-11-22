@@ -315,8 +315,9 @@ WHAT I CHECKED, AND WHEN
 
 
 ════════════════════════════════════════════
-MORE TITLES WHEN YOU NEED THEM   (pick any, then say "make my attraction video: [the title]")
+MORE TITLES WHEN YOU NEED THEM
 ════════════════════════════════════════════
+Pick any, then say "make my attraction video:" and its title.
    ──── {TOPIC 1'S NAME} ────
    •  {exact title}
    •  {…}   {12–15 in all for this topic, the calendar's included}
@@ -385,7 +386,7 @@ YOUR FIRST BATCH — FILM DAY
 
 ──────────────── WHAT HAPPENS NEXT ────────────────
 One video at a time: open a new chat and say "make my attraction video: {title}" — your script is already written,
-so your thumbnail sheet, your title and description and your publish checklist are added.
+so your thumbnail sheet, your title and description and your six publish steps are added.
 When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.
 ```
 Never a line that promises anyone the member's time; no interview is ever on this sheet (a guest is booked).
@@ -408,7 +409,7 @@ Everything inside `{…}` below is a note to the writer and is never printed.
 CHANNEL PAGE — [MEMBER NAME]
 [Channel handle, or "your new channel"]  ·  Known for: [what you're known for]  ·  [the date, in words]
 {only while compliance is unset, one line — said here once and nowhere else in the document:}  HOLD UNTIL YOUR COMPLIANCE BASICS ARE SET — say "paste my compliance link" (two minutes), then "repair my channel for agents", then paste.
-{only for a channel that does not exist yet, one line:}  First, create your channel — on YouTube click your picture, choose "Create a channel", and name it [the channel name]. Everything below pastes into it.
+{only for a channel that does not exist yet, one line:}  First, create your channel — on YouTube click your picture, choose "Create a channel", and name it {the channel name the Brain holds — or, with none on file, their own name}. Everything below pastes into it.   {while compliance is unset the line ends at the name}
 
 ──────────────── 1 · CHANNEL DESCRIPTION   (paste today — with piece 2, in one box) ────────────────
    >> PASTE INTO:  studio.youtube.com (YouTube Studio) → Customization → Profile → Description — the opening paragraph; then click Publish, top right
@@ -490,7 +491,7 @@ Week of {Monday's date, in words}  ·  For: {the type of agent}  ·  {A topic vi
 Title:  {the exact title}
 {three ways to open — the chosen one first and in bold: the viewer's situation → the tension → what they'll have by the end}
 
-──────────────── SCRIPT START   (finish it: say "make my attraction video: {title}") ────────────────
+──────────────── SCRIPT START   (say "make my attraction video" and I finish it) ────────────────
 [YOUR OPENING — 0:00]   {the chosen opening, written word for word}
 [THE GUIDE ASK — inside minute 1]   {the kit's spoken resource line, verbatim — the guide: "comment GUIDE" / "link in the description"; no guide on file yet → this line is left out}
 YOUR SECTIONS:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 · {…}   {3–5; the steps of the member's own method are the teaching material}
@@ -502,8 +503,8 @@ YOUR SECTIONS:   1 · {label} — {what it delivers}   ·   2 · {…}   ·   3 
 
 ──────────────── YOUR TITLE AND DESCRIPTION   (started) ────────────────
 Your title:  {the exact title}   ·   Spare titles (only if this one is slow after a month):  {two}
-Description, lines 1–3:  {line 1 the kit's call line + the booking link (the law's shape) · line 2 the guide's link · line 3 the compliance and contact line}   ·   Summary (about 150 words):  {…}
-Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {the guide's link + "comment GUIDE and I'll send it" + one question}   ·   Chapters:  their names come with your script, their times after your edit
+Description, lines 1–3:  {line 1 the kit's call line + the booking link (the law's shape) · line 2 the guide's link — no guide on file yet → left out · line 3 the compliance and contact line}   ·   Summary (about 150 words):  {…}
+Tags:  {…}   ·   Hashtags:  {…}   ·   Pinned comment:  {the guide's link + "comment GUIDE and I'll send it" + one question; no guide on file yet → the question and the call alone}   ·   Chapters:  their names come with your script, their times after your edit
 {the disclosure block is always the last block of the description}
 
 ──────────────── YOUR GUIDE AND YOUR CALL ────────────────
@@ -536,7 +537,7 @@ When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my i
 All six ticked? Say "my video is published"{with a content board, add: " and I'll move its card to Published"}.
 
 ──────────────── AFTER IT'S OUT ────────────────
-{left empty — it is filled after the video is out: "how did my video do" writes the live link, the numbers and the agents who named the video; the Monthly Channel Review writes the same when it is switched on}
+{in the document this band is left out — a band with nothing in it is never printed (house rules #24); on the card its section stays, empty, until the video is out: "how did my video do" writes the live link, the numbers and the agents who named the video; the Monthly Channel Review writes the same when it is switched on}
 
 {before saving, the compliance check — never printed: nothing negative about any brokerage or person · no pay figures · no former brokerage named · the disclosure block in the description}
 ```
@@ -656,7 +657,7 @@ Their okay, in one line:  {the plain okay to publish, use clips, and share their
 Two recording times:  {slot 1 — the day, in words, and the time}   ·   {slot 2}
 The reply to send:  "{two lines in the member's voice: the two times, 'pick whichever suits you', the recording link comes the day before}"
 Guest prep note:  {the copy block the member sends — what to expect · 30 to 45 minutes · the first three questions of THIS guest's own question map, word for word · how to look and sound good on camera}
-The day before:  open a new chat and say "prep me for a guest recording" — your AI Editing Studio sets up the recording and gives you the link to send {guest}. When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.
+The day before:  open a new chat and say "prep me for a guest recording" — your AI Editing Studio sets up the recording and gives you the link to send {guest}. When it's filmed, open a new chat and say "edit my YouTube video" (or "edit my interview") — your AI Editing Studio edits it.   {only when the member's editor does not record a guest (yt-interview Step 6b, item 3), the first sentence reads instead: "Record this one on any video call that saves the recording, and send {guest} that link the day before."}
 Booked:  {the date, the time and the calendar title — "on your calendar" only when the member said yes to the hold}
 
 ──────────────── WHAT TO ASK YOUR GUEST TO SHARE   (send when it goes live) ────────────────
@@ -800,9 +801,9 @@ Re-make this video when your brokerage changes its model, or in a year — your 
 ### YouTube Deep Dive (`yt-analytics` — saved as `YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-read-YYYY-MM-DD.txt` — its own name, never `youtube-review-*`; no credibility stamp)
 **Written only when at least one video is published.** Nothing published yet → no document, no table of zeros and
 no list of what is missing: the member reads the skill's own three lines (what they have built, their first video
-by title and its recording day, and the phrase that makes it). The band names are the deep-dive guide's (one
-difference until the guide follows: 1.8 says "your channel on YouTube", because "your Channel Page" is the name of
-the member's document). Everything inside `{…}` is a note to the writer and is never printed.
+by title and its recording day, and the phrase that makes it). The band names are the deep-dive guide's (1.8
+says "your channel on YouTube", because "your Channel Page" is the name of the member's document). Everything
+inside `{…}` is a note to the writer and is never printed.
 ```
 YOUTUBE DEEP DIVE — [MEMBER NAME] — [MONTH YYYY]
 The last 90 days  ·  Read from: {your live numbers / your Studio screenshots / what is public on your channel}  ·  {the date, in words}
@@ -846,7 +847,7 @@ APPENDIX — THE FULL NUMBERS
 ```
 Structure and method: `${CLAUDE_PLUGIN_ROOT}/skills/yt-analytics/references/deepdive-guide.md`.
 
-### Monthly Channel Review (`yt-triggers`'s scheduled run, or "run my monthly channel review" in chat — saved as `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-review-YYYY-MM-DD.txt` so the Brain Board can read it; no live data unless connected; no credibility stamp; the same run writes each published card's 📊 AFTER IT'S OUT and one dated YouTube block in the Brain's performance ledger)
+### Monthly Channel Review (`yt-triggers`'s scheduled run, or "run my monthly channel review" in chat — saved as `Monthly Channel Review — [Month YYYY] — YYYY-MM-DD`; the text also kept at `exports/youtube-review-YYYY-MM-DD.txt` so the Brain Board can read it; never the live data connection — it reads what is on record; no credibility stamp; the same run writes each published card's 📊 AFTER IT'S OUT and one dated YouTube block in the Brain's performance ledger)
 The live connection reads public data only; how many people click, how long they keep watching and how they found
 a video live inside YouTube Studio. So the review **uses the month's Studio screenshots when they are on record** (a
 `YouTube Studio numbers` block for the month in the performance ledger — written by "add my attraction Studio
@@ -925,7 +926,7 @@ MONTHLY CHANNEL REVIEW — [MEMBER NAME] — [MONTH YYYY]
 
 ──────────────── THE MONTH IN ONE LINE ────────────────
    Your Game Plan is built and your first video is ready to make: "{title}", set for {the recording day, in words}.
-   {{title} is the first row on the plan that is not an interview with no guest named; a date already past → "ready whenever you are" in place of "set for …" — never "overdue", never "behind"}
+   {{title} is the first row on the plan that is not an interview with no guest named; a date already past → "ready whenever you are" in place of "set for …" — never "overdue", never "behind"; a channel whose baseline shows videos already out → "your first video on this plan", never plain "your first video"}
    {no calendar and no Game Plan document → this one line instead, and the three bands below are left out: Your first video is next — say "build my attraction game plan" and I map it.}
 
 ──────────────── YOUR NEXT VIDEO ────────────────

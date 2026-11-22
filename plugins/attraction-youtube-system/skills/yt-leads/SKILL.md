@@ -150,8 +150,9 @@ connection check, a sign-in or an ask here) is one read tried first
 (`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`, recipe 1 step 7 — read-only; never a reply, like, or
 comment tool), for the last 2–3 videos or the one they name; when it does not come back, say so in plain words
 and state the paste path — *"I couldn't read your comments from here — open the video, screenshot the comments
-and drop them in."* — never an error number. Screenshots that do not show which video they are from → the one
-question, in these words: *"Which video are these comments on? **Your turn.**"*
+and drop them in."* — never an error number. Screenshots that do not show which video they are from → only one
+video is at `Published` in the content log → that one, never asked; otherwise the one question, in these words:
+*"Which video are these comments on? **Your turn.**"*
 **Never invent, paraphrase from memory, or "example" a comment.** **No comments yet** (none pasted, none on the
 video) → one short, true line, and nothing after it: *"No comments on this one yet — that's normal for a new
 channel. Nothing to do here today. When one comes in, say 'reply to agents in my comments' and paste it — I'll

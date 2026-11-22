@@ -26,7 +26,6 @@ verifies they match). **Beside every document, its text goes to `~/attraction-br
 │   │         ├── Script                                    (yt-script)
 │   │         ├── SEO Package — [title] — YYYY-MM-DD        (yt-seo)
 │   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail — the thumbnail sheet for Higgsfield; or the Monday Kickoff, when it drafted the week's video)
-│   │         ├── Lead Map — [title] — YYYY-MM-DD           (yt-leads — only when the guide exists, built in Week 2)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
 │   │         ├── Model Breakdown — [title] — YYYY-MM-DD    (yt-model-breakdown — model videos only)
 │   │         ├── Interview Prep — [guest] — YYYY-MM-DD     (yt-interview — interviews only)
