@@ -2,14 +2,37 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
-## [0.42.0] — 2026-11-22
+## [0.42.1] — 2026-11-22
 
 **The Video Brand Kit on Instagram Edits, and an install warning fixed (Editor 0.7.3 · Support 0.2.14).** Re-vendored from the realtor marketplace's 0.7.2 with the usual Brain-home patch, the trimmed descriptions and the version one patch above.
 - **Install warning fixed:** `studio-energy` shipped with the first line of its description indented three spaces under a folded description, so its front matter did not parse; a Cowork sync of 0.40.0 showed "1 with warnings" on the editor plugin and skipped that one skill. Fixed upstream. The release gate's check 8 now fails on any skill whose front matter does not parse, the vendored editor included (it used to fall back to a regex for the vendored copy, which is how this shipped).
 - **The kit on Edits:** the Edits reel build (`build_reel.py`) reads the registered Video Brand Kit and places the hook banner with the member's words typed into its zone, the CTA banner held to the last frame (a still in Edits lasts three seconds and is never extended, so it is placed back to back), and the emphasis panel on pop-ups; with no kit it renders the cards natively as before. `studio-setup` says how the kit files get onto the Mac and records the 9:16 zones. Checked against the kit's 9:16 cards; the real kit has not yet been placed in a live Edits run.
 - **Support 0.2.14:** FAQ Q81 covers the kit on both engines and the sync warning; a "What changed lately" row.
 
+## [0.42.0] — 2026-11-22
+
+**Mike's simplicity rework of the short-form plugin (Short-Form 0.10.0 · Support 0.2.15).** Mike reviewed the Week 4 sitting's output on a recording: *"less is more… they should be getting straight to camera, like, now… we specifically said in the short-form breakdown… 90% of your content not having a sales-driven, conversion-focused call-to-action… it needs to be flipped… one scheduled task a week… simplicity is the name of the game… get them posting three times a week with two reels and one carousel, just to get into momentum."* Everything below follows those words.
+
+**Short-Form 0.10.0**
+- **The week is two Reels the member films and one carousel they post — three posts, every week, from week one.** No more run of six designed posts before the first Reel; the kit's designed posts are the week's carousel, one a week, in the kit's order. The Game Plan is four weeks, one band per week, twelve rows.
+- **The 90/10 rule.** About one post in ten carries a keyword ask (Comment GUIDE, or the offer's word with the call line); in a month of twelve posts, one — the kit's guide carousel. Every other post builds trust and asks only for a follow, a save, a share or a comment on the topic. The old rule ("GUIDE on most posts, the invitation on one in four") was the reverse of Mike's training and is retired everywhere — the plan, the Monday drafts, the scripts, the ideas, the optimizer, the keyword sheet, the house rules.
+- **ONE scheduled workflow — the Monday Week Plan, the week in one package:** the two Reel scripts (the cards the member reads from while they film), the carousel's caption, at most one industry story to react to when there is a good one, the four weeks kept mapped. **Retired as tasks:** Batch Prep, the Wednesday Brokerage News Watch and the Monthly Calendar Refill — their work rides inside the Monday package; an older Brain's three tasks and config lines are removed on the next write. The five by-phrase workflows still exist and are never named in the sitting.
+- **The one question is honest:** *"Which day could you block about three hours every week to film, in the same spot — and where is that: your office or your home?"* — three hours, never "an hour"; no "your car". The plan says three hours wherever it names the time.
+- **Metricool is stated, never a choice.** *"Your posts go out through Metricool — it's free to start. Click Connect…"* GoHighLevel's steps only for a member who says they already run it.
+- **The teleprompter app is named:** Instagram's free Edits app on the phone — teleprompter built in: paste the script, press record, read. On every script, every card and in the plan.
+- **The sitting ends at the first Reel.** Its script, then a short close: what you did today (four lines), the Brain Board and the Brain Book, and THIS WEEK — film your two Reels on [day], post your carousel, "edit my reel" when filmed. Nothing after that: no ManyChat line in the chat ("set up my ManyChat" still works on demand), no list of extra workflows, no phrases to learn, no stories routine (stories are one optional line in the plan).
+- **Less talk.** The welcome no longer plays the Brain back; the proposal shows one line per pillar with no source labels; win lines are one clause.
+- **Green screen:** industry news, lead generation, new agents struggling — never a brokerage headline; at most one a week, inside the Monday package.
+- The editing line everywhere reads "your AI Editing Studio edits it" (no plugin number, no engine's name).
+
+**Support 0.2.15 and the docs:** the desk, the setup guide, the short-form demo checklist, the Brain Contract's Short-Form row, the README row and the marketplace card describe the new sitting; "four workflows", "Batch Prep", a Metricool-or-GoHighLevel question or the "an hour… your car" question now mean a version before 0.10.0.
+
+**Calls made by the maintainer, not by Mike:** the teleprompter app (Instagram's free Edits app — confirmed to have a built-in teleprompter; Mike named none); stories dropped from the sitting and made one optional line in the plan (Mike's "two reels and one carousel, that's it"); the ManyChat line kept only inside the Game Plan document; the YouTube plugin left as it is in this release (its changes follow).
+
+**Not run live.** The whole sitting is rewritten from Mike's review; the first live run is the real test.
+
 ## [0.41.1] — 2026-11-22
+
 
 **The last checks of the YouTube audit — polish, behaviour unchanged (YouTube 0.10.1 · Support 0.2.13).** Three final read-throughs were still running when 0.41.0 went out. They judged the shipped files safe and made these small corrections.
 - **Documents (`doc-format.md`):** the Kickoff brief's script band no longer prints stray dashes once a real title is filled in; the Game Plan's last heading no longer prints a bracket; an empty "after it's out" heading is gone; the interview prep no longer promises a recording link to a member whose editor does not record guests.

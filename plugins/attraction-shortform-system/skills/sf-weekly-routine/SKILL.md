@@ -2,7 +2,7 @@
 name: sf-weekly-routine
 description: >
   The Week 4 Weekly Routine Planner for the member's short-form attraction engine: three Reels a week
-  to start (one attraction, one authority, one story), stories every day, the member's own batch day,
+  — two Reels and one carousel a week (Mike's cohort week), stories optional, the member's own batch day,
   idea capture, Instagram and Facebook both (TikTok and Shorts as optional reposts), and the daily
   engagement routine that turns comments into conversations. Plans the week from the Brain and the
   Game Plan's calendar (around the Monday Week Plan's drafts when it ran) and checks it in at the end;
@@ -35,7 +35,7 @@ film it, what to post each day, and the fifteen minutes that turn attention into
   only when `identity/operations.md` shows the member already runs one. The member's OWN batch day is their routine.
 - **The workflows around this plan** (switched on by the consent card's Yes, read from `config.md → ## Short-Form
   (Week 4)`): the Monday Week Plan drafts the week; the Batch Prep leaves the teleprompter doc the evening
-  before the batch day (`Batch Prep task:` holds a task id → say *"your cards are waiting in your Content folder"*
+  before the filming day — the cards come inside the Monday package (never a separate Batch Prep task since 2026-11-22);
   instead of re-planning them); "how's my content doing" scores the week any time (the on-demand read; no weekly
   note). Never claim a workflow that is not switched on.
 - **The engagement routine is text, not a task** (the owner, 2026-11-14): the fifteen minutes live here and in the
@@ -64,9 +64,9 @@ Open only:
 - `identity/operations.md` — working hours, the booking link, when they are usually free to film
 - `identity/publishing.md` — the posting tool and connected platforms, `Cadence:`, `Weekly mix:`, `Batch day(s):`,
   the `Keyword:` line (`GUIDE · [the offer's word]` — the two keywords)
-- `config.md → ## Short-Form (Week 4)` — which workflows are on (`Week Plan task:` · `Batch Prep task:` · `News Watch
-  task:` · `Calendar Refill task:` — a task id means on; an older Brain's block may carry the previous week number in
-  its heading — read it the same; its retired lines are ignored)
+- `config.md → ## Short-Form (Week 4)` — which workflows are on (`Week Plan task:` — the one switched on at setup; the five by-phrase lines — a task id
+  means on; an older Brain's block may carry the previous week number in its heading — read it the same; its
+  retired lines, Batch Prep, News Watch and Calendar Refill among them, are ignored)
 - `memory/content-log.md` — what shipped last week, by pillar (the check-in reads this; the plan avoids
   repeats)
 - `memory/ideas.md` (tag `shortform`) — their own captured ideas get first claim on this week's slots
@@ -77,13 +77,13 @@ If the week's calendar rows are still at `Idea` (nothing scripted yet), say so a
 plan a week of unwritten videos as if they existed.
 
 ## The rhythm (Mike's lessons, carried whole — the two OS defaults labeled as such)
-- **Reels: three to five a week** — start at three, work up to five (`07-instagram/88`). The default mix
+- **Reels: two a week, plus one carousel** — Mike's cohort week (2026-11-22), until momentum is real. The default mix
   every week — the cohort's Week 4 standard, not a lesson of Mike's (his sample week is in Step 2; confirm the
   mix with him, `mike-frameworks.md` §15): **1 attraction · 1 authority · 1 story** at the default three a week (2 · 2 · 1
   only at five, the step-up) — attraction = a Proof or
   Personality Reel; authority = an Authority or Perspective Reel (one step of the member's method, `offer.md → ## The
   framework`, per teaching Reel — the guide as where the rest lives); story = a Story Reel (`mike-frameworks.md` §9d).
-  Static posts — the six kit posts first, then recognition and personal moments — are spliced in; they do not replace
+  Static posts — the week's carousel (a kit post while they last), then recognition and personal moments — are spliced in; they do not replace
   the Reels.
 - **Stories: every day, one to five**, a mix of personal and value; never a day without one
   (`07-instagram/89`). Reels build width and awareness; stories build depth and connection.
@@ -92,8 +92,8 @@ plan a week of unwritten videos as if they existed.
   same video any time the member wants more reach (optional reposts — nothing new to make, never asked); LinkedIn
   for the carousels only when they attract team leaders (the owner, 2026-11-14). Editing stays simple: captions are
   the only mandatory edit; raw and genuine outperforms sensory overload — *"filmed? New chat → 'edit my reel'"* (the
-  AI Editing Studio, Plugin 5).
-- **The batch day** — Mike's simple option: **Monday** brainstorm the three to five topics · **Tuesday**
+  AI Editing Studio).
+- **The batch day** — Mike's simple option: **Monday** brainstorm the two Reel topics · **Tuesday**
   record them (one to two hours, all in one sitting) · **Wednesday** edit or hand to the editor · post from
   Thursday or schedule the week (`07-instagram/90`). Mike's own version is bi-weekly Saturdays (plan one
   Saturday, record the next, long-form and short-form alternating). Offer the simple option first; fit it
@@ -115,12 +115,12 @@ plan a week of unwritten videos as if they existed.
 ## Step 2 — PLAN: the week (use these exact section names)
 - **THE WEEK AT A GLANCE** — one table, Monday to Sunday: day · what posts (the calendar row's working title
   and pillar — the Game Plan's dates are the default — a kit post's day reads "post [Post n] — already designed"; or
-  "stories only") · the story prompt for that day · the ask (GUIDE on most days; the invitation on about one post in four — most naturally the Proof day; "follow" on a Personality day) · the
+  "stories only") · the story prompt for that day · the ask (the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; "follow" on a Personality day) · the
   engagement slot · minutes. Mike's sample
   calendar (`07-instagram/90`) is the default shape: Mon value (Authority) · Tue recognition (Proof) · Wed
   leadership insight (Perspective) · Thu culture or event recap (Proof or Personality) · Fri personal or
   opinion (Story or Perspective). Rebalance to the mix in force (one of each at three; 2·2·1 at five) and to their realistic number.
-- **THE BATCH BLOCK** — the day, the start time, the length (one to two hours), the three to five titles
+- **THE BATCH BLOCK** — the day, the start time, the length (about three hours), the two titles
   in film order, the one setup (phone at eye level, natural light, one outfit). When the Batch Prep is on, say
   the teleprompter cards will be waiting the evening before; otherwise point at the film-day plan ("film day for my
   attraction reels") for a full run sheet when they have more than five.
@@ -159,7 +159,7 @@ filming day that isn't on the calendar doesn't happen."*
 
 ## Quality checklist
 - [ ] Brain loaded; weekly number, hours, and pillars taken from it, not asked
-- [ ] Three Reels to start (one of each; 2·2·1 at five); the kit posts first while unposted; stories every day; one batch block;
+- [ ] Two Reels and one carousel a week; the week's carousel a kit post while they last; stories optional; one batch block;
       one video to all platforms; the two keywords only; nothing promises the member's time per partner
 - [ ] The fifteen-minute engagement routine with a time of day; agents tagged and reshared
 - [ ] Check-in scored from the log, not from memory; exactly one change for next week

@@ -140,13 +140,14 @@ For EACH Reel, use these exact section names:
   lives) → the CTA line — the row's one ask (a keyword, the invitation, or "follow" on a Personality Reel), said plainly. Every line sayable in one breath; in their spoken cadence.
 - **THE BULLET VERSION** — the same Reel as 5 riff lines (hook and CTA word-for-word). Most members film from
   this — give it equal weight.
-- **THE SHOTS** — one line per step: where to stand, what to show, the one b-roll to grab (a screenshot of the
-  call for Proof, the kitchen table for Story — simple, phone-filmed).
+- **THE SHOTS** — one line per step: where to stand, what to show, the one extra shot to grab (a screenshot of the
+  call for Proof, the kitchen table for Story — simple, phone-filmed) — and the filming line, once, word for word
+  (Mike, 2026-11-22: name the app): *"Film on your phone in Instagram's free Edits app — it has a teleprompter built
+  in: paste the script, press record, read."*
 - **THE CTA** — one ask per Reel (a keyword ask uses one of the two keywords), the words from the kit's CALLS TO ACTION table (the
   spoken line): the guide — *"[what the guide holds, one clause]. Comment **GUIDE** and I'll send it."*; the invitation
   — *"If you want my help running this, free, [the booking line]."* (the law's shape; open register: *"I'll walk you
-  through it, free, no strings."*). GUIDE on most Reels; the invitation on about one post in four — most naturally a
-  Proof Reel or a "what you get" Reel (a Proof Reel may carry the guide instead); a Personality Reel asks for a follow
+  through it, free, no strings."*). the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; a Personality Reel asks for a follow
   only; never two asks on one Reel (house rules #13). The brokerage is never the reason; never the model by DM. The keyword sheet (`sf-comment-to-dm`)
   carries the same two words — never a third.
 - **No kit on file** (the member has not built the Week 3 kit — no `exports/week3-kit-*.txt`) → THE CTA is built
@@ -190,9 +191,9 @@ Clean copy-paste packages, friendly chat around them, short. **Called by `sf-set
 setup sitting)? Deliver the script and stop there — skip the editing paragraph below and the closing lines of
 Phase 6; setup's close says the editing step, the Brain Board and the Brain Book exactly once.** Otherwise, then
 **the editing step, stated** (the owner, 2026-11-14 — Plugin 5 is installed in Week 4 with this plugin; never hedged): *"When
-it's filmed: open a new chat and say 'edit my reel' — that opens your AI Editing Studio (Plugin 5), which edits inside
-your own Riverside account and reads the Video Brand Kit you designed in Week 3. Not installed yet? Install Plugin 5
-from the same marketplace first, then say 'set up riverside' once."* Then, in one line each and only where it applies:
+it's filmed, open a new chat and say 'edit my reel' — your AI Editing Studio edits it."* (the install sentence only
+when no AI Editing Studio skill is in the session: *"Install the AI Editing Studio from the same place you installed
+this plugin, then say 'set up my video editor' once."*) Then, in one line each and only where it applies:
 scheduling through their tool per `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md` — only with explicit approval;
 the content board (house rules #10).
 

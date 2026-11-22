@@ -2,22 +2,27 @@
 name: sf-batch-publish
 description: >
   The Week 4 batch department for attraction content: the film-day plan that turns a pile of scripts
-  into ONE recording session (grouped by location and outfit, in shot order, teleprompter cards on one
-  of the two keywords); the Batch Prep workflow that leaves those cards waiting the evening before the
-  batch day (on with the member's yes); and the batch publish that takes a folder of FINISHED Reels,
-  carousels, and stories, packages each per platform, and schedules the whole run into the member's
-  own tool after ONE review and ONE yes. Trigger on: "film day for my attraction reels", "batch my
-  attraction content", "plan my recording day for agents", "teleprompter cards for my attraction
-  scripts", "schedule my attraction batch", "schedule my folder of attraction reels", "queue my month
-  of attraction content", "publish this attraction batch", "turn on my batch prep", "stop my batch
-  prep", "run my batch prep", or any batch of short-form attraction content. (One post = sf-publish.)
+  into ONE recording session (grouped by location and outfit, in shot order, teleprompter cards — filmed in
+  Instagram's free Edits app); and the batch publish that takes a folder of FINISHED Reels and carousels,
+  packages each per platform, and schedules the whole run into the member's own tool after ONE review and
+  ONE yes. The Batch Prep is no longer a scheduled task (2026-11-22): the cards ride inside the Monday Week
+  Plan; "run my batch prep" writes them on demand. Trigger on: "film day for my attraction reels", "batch my
+  attraction content", "plan my recording day for agents", "teleprompter cards for my attraction scripts",
+  "schedule my attraction batch", "schedule my folder of attraction reels", "queue my month of attraction
+  content", "publish this attraction batch", "turn on my batch prep", "stop my batch prep", "run my batch
+  prep", or any batch of short-form attraction content. (One post = sf-publish.)
 ---
 
 # Batch — the film day, then the whole run scheduled at once
 
-Two halves of the same promise: record three to five Reels in one sitting (`07-instagram/90`: one to two
-hours, once a week), then schedule the finished batch in one review. The member never manages a calendar
-post by post.
+Two halves of the same promise: record the week's two Reels in one sitting (Mike, 2026-11-22: two Reels and one
+carousel a week; block about three hours — a beginner takes longer than an hour), then schedule the finished batch
+in one review. The member never manages a calendar post by post. **The Batch Prep scheduled task was retired on
+2026-11-22** (Mike: "why does the prep need to be on a separate day?") — the teleprompter cards ride inside the
+Monday Week Plan's package; this skill writes a film-day plan on demand ("run my batch prep", "film day for my
+attraction reels"), and "turn on my batch prep" gets one line: *"Your cards come every Monday inside your week's
+package now — say 'run my batch prep' any day for a film-day plan."* The filming line on every card: *"Film on your
+phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read."*
 
 **Apply** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` and `${CLAUDE_PLUGIN_ROOT}/shared/mike-frameworks.md`.
 
@@ -55,7 +60,7 @@ only if the cloud has none, send them to the Agent Attraction Brain setup). Open
   `Comment keyword:` line; `Join-gated package allowed:` — the register of the call line), `memory/magnets.md → ## Current
   magnet` (the guide — GUIDE), the newest `exports/week3-kit-*.txt` (chapter 7's CALLS TO ACTION table — the spoken
   line, the pop-up, the end card, the caption line — and the six posts, finished graphics)
-- `config.md → ## Short-Form (Week 4)` — `Batch Prep task:` (a task id means Batch Prep is on; its doc is in the
+- `config.md → ## Short-Form (Week 4)` — `Batch Prep task:` (retired 2026-11-22 — a task id here means an older Brain: delete the task and the line on the next write; the cards ride in the Monday package)
   Content folder) · `Email me:`; an older Brain's block may carry the previous week number in its heading — read it
   the same
 - `identity/content-pillars.md` — the platforms and the pillar names; the week's mix (`## Weekly mix`, the mirror of
@@ -109,7 +114,7 @@ any location besides home or office (the brokerage office, a coffee shop, an eve
 - **AFTER THE SHOOT** — check one clip's audio, confirm focus, name the files by date and hook, note
   re-takes; then the editing step, stated (the owner, 2026-11-14 — never hedged): *"When it's
   filmed: open a new chat and say 'edit my reel' — that opens your AI Editing Studio (Plugin 5), which edits inside
-  your own Riverside account and reads the Video Brand Kit you designed in Week 3. Not installed yet? Install Plugin 5
+  the editor you set up in Week 4."* (the install sentence only when the editor is missing)
   from the same marketplace first, then say 'set up riverside' once."* Each clip is a `studio-reel` job (`studio-batch`
   when the same session also produced a long-form).
 
@@ -197,7 +202,7 @@ Brain Board); if the push fails, say it is not saved, retry once, stop. Mirror c
 **Step 9 — Confirm.** *"done — 14 posts scheduled through [date] at your best times; the calendar is saved in
 your Content folder. Say 'how's my content doing' any time to see which of these started conversations."*
 
-## The scheduled workflow — Batch Prep (switched on by the consent card's Yes; the evening before the batch day; this skill owns it)
+## The scheduled workflow — Batch Prep (RETIRED 2026-11-22 — the cards ride inside the Monday Week Plan; never create this task; an older Brain's `Batch Prep task:` is deleted on the next write and its task removed)
 The teleprompter doc, waiting the evening before the member's batch day: this week's scripts grouped by outfit and
 location, the hook three ways on every card, one of the two keywords on every ask — so the batch day starts with the
 cards, not with planning. **Provisioned only with the member's explicit yes, never silently.** The normal path is

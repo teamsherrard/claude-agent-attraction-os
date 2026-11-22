@@ -1,29 +1,34 @@
 ---
 name: sf-week-plan
 description: >
-  The Monday Week Plan (Week 4), the scheduled workflow that drafts the week: each Monday it reads
-  the Game Plan's calendar and the content board, drafts this week's posts (hooks, scripts,
-  captions, stories) onto the board and into a week brief, fills up to two Reel slots from clips of
-  the member's videos first (never an extra post), writes captions for the six designed kit posts
-  (post, don't make), drafts recognition words for a new partner or consented win, puts a keyword
-  and the call line in Mike's shape on every ask, and keeps 30 days visible. Also owns the optional
-  Mid-week Nudge and the registry of every short-form workflow. Draft-only; on only with the
-  member's yes; stoppable in one sentence; runs on demand too. Trigger on: "run my week plan",
-  "draft this week's attraction posts", "my attraction week plan", "turn on my Monday week plan",
-  "stop my Monday week plan", "turn on my mid-week nudge", "what's due this week", "my short-form
-  scheduled workflows", "my attraction workflows", "email me my notes".
+  The Monday Week Plan (Week 4) — the ONE scheduled workflow, the week in one package: each Monday it
+  drafts this week's three posts from the Game Plan's calendar — the scripts for the two Reels (the cards the
+  member films from), the carousel's caption (a designed kit post while they last), at most one industry
+  story to react to when there is a good one — keeps the four weeks mapped, fills one Reel slot from a clip
+  of the member's videos first (never an extra post), drafts recognition words for a new partner or
+  consented win, and puts the asks on the 90/10 rule. Also owns the optional Mid-week Nudge and the
+  registry of every short-form workflow. Draft-only; on only with the member's yes; runs on demand too.
+  Trigger on: "run my week plan", "draft this week's attraction posts", "my attraction week plan", "turn on
+  my Monday week plan", "stop my Monday week plan", "turn on my mid-week nudge", "what's due this week", "my
+  short-form scheduled workflows", "my attraction workflows", "email me my notes".
 ---
 
-# The Monday Week Plan — the week, drafted before the member sits down (Week 4)
+# The Monday Week Plan — the week in one package (Week 4)
 
-Mike's simple week starts with Monday's brainstorm (`07-instagram/90`). This workflow does the Monday for them:
-the posts the Game Plan already dated for this week, drafted and waiting — on the board when they have one, in
-the Brain always — so Tuesday is a filming day, not a thinking day. The first weeks of the calendar carry the six
-kit posts the member designed in the brand week ("post, don't make" — this drafts their captions from the kit's
-outlines, never the slides); every ask takes one of the two keywords and the kit's CALLS TO ACTION lines; and each
-Monday run also scans the Brain for a new partner or a consented win and drafts the recognition words. **And when
-the member's videos have clips waiting, up to two of the week's Reels are drafted from those clips first** — a
-video feeds the week, it never adds a post (Job B, step 2b). It is the
+**Mike, 2026-11-22: "one, where it's like, here's your weekly package that has the prep and has any sort of green
+screen articles."** This is the ONE scheduled workflow of the short-form system. Each Monday it drafts the week the
+Game Plan already dated — **two Reels and one carousel**: the two Reel scripts (the cards the member reads from while
+they film, word for word, with the filming line: *"Film on your phone in Instagram's free Edits app — it has a
+teleprompter built in: paste the script, press record, read."*), the carousel's caption (a designed kit post while
+the six last — "post, don't make"; otherwise its slides), and **at most one industry story to react to when there is
+a good one** (industry news, lead generation, new agents struggling — never a brokerage headline; nothing when there
+is nothing good) — on the board when they have one, in the Brain always. It keeps the four weeks mapped (the
+monthly refill, the Batch Prep cards and the Wednesday news watch all ride inside it now; those three tasks were
+retired on 2026-11-22). **The asks follow the 90/10 rule** (house rules #13): the month's one keyword post asks for
+the guide or the call; every other post asks for a follow, a save, a share or a comment. Each run also scans the
+Brain for a new partner or a consented win and drafts the recognition words. **When the member's videos have clips
+waiting, one of the week's two Reels may be drafted from a clip first** — a video feeds the week, it never adds a
+post (Job B, step 2b). It is the
 scheduled half of the short-form rhythm; `sf-weekly-routine` is the member-run half (the batch block, the
 engagement slot, the check-in) and plans around these drafts when this ran.
 
@@ -69,15 +74,14 @@ not on. This skill's lines: `Week Plan task:` · `Week Plan slot:` · `Midweek N
    Confirm once: *"On. Say 'stop my Monday week plan' any time."*
 3. **Stop / pause** → `delete_scheduled_task` (or disable for pause) on the saved id; write `paused`;
    push; confirm in one line. Never a second task. A demo Brain never gets a task.
-4. **The Mid-week Nudge (by phrase — one of the five extras):** "turn on my mid-week nudge" → read `Midweek Nudge
+4. **The Mid-week Nudge (by phrase — one of the five by-phrase workflows — never named in the sitting):** "turn on my mid-week nudge" → read `Midweek Nudge
    task:` (a task id → on, say so; `paused` → they stopped it, the phrase brings it back). On the phrase →
    state it (*"Switching on your mid-week nudge — Wednesdays, [the Week Plan's hour]."*), `list_scheduled_tasks` first
    (adopt an existing `attraction-sf-midweek-nudge`), else `create_scheduled_task` with `taskId:
    attraction-sf-midweek-nudge`, `cronExpression: 0 [hour] * * 3` (Wednesdays, the Week Plan's hour unless they name
    one), the `prompt` **verbatim** from `references/midweek-nudge-task-prompt.md`; verify; write `Midweek Nudge task:
    attraction-sf-midweek-nudge`; push; confirm: *"On. Say 'stop my mid-week nudge' any time."* Stop → delete,
-   `paused`, push, one line. Setup states the five extras in one sentence ("they're there if you want them — say the
-   word any time"); none is provisioned from that sentence alone.
+   `paused`, push, one line. Setup never names the five by-phrase workflows (Mike, 2026-11-22); each switches on by its phrase.
 5. **Keep the saved task current.** Whenever this skill runs in chat and `Week Plan task:` holds a task id:
    `list_scheduled_tasks`, read that task's saved prompt (its `path`), and when it is not the block
    `references/week-plan-task-prompt.md` ships today — an older one has no clip-queue step — replace it with
@@ -121,9 +125,9 @@ moved, renamed, or deleted are their decisions.
    skip this step: the week runs exactly as it always has.
    - **The slots a clip may take:** this week's rows still at `Idea` whose Format is `talking head`. Never a kit
      post, never a green-screen row (the news slot), never a carousel, never a row at `Scripted` or later.
-   - **How many:** two clip Reels a week at most, and at least one of the week's Reels stays the plan's own. Count
-     the week's Reels (talking head and green screen; `dropped` aside): three or more → two clips · two → one ·
-     one → none. A clip that a row of this week already carries counts toward the number. Three posts a week stays
+      - **How many:** one clip Reel a week at most — one of the week's two Reels stays the plan's own (Mike,
+     2026-11-22: two Reels and one carousel, nothing added). Count the week's Reels (`dropped` aside): two or more
+     → one clip · one → none. A clip that a row of this week already carries counts toward the number. Three posts a week stays
      three posts a week.
    - **Which clips:** the newest video first (the latest `Added`; on a tie, the rows lower in the section), and
      within a video clip 1, then 2, then 3.
@@ -149,25 +153,31 @@ moved, renamed, or deleted are their decisions.
    - **A clip whose script cannot be read** (no clips text, the doc will not open) stays queued; the next queued
      clip is tried; none readable → the slot is drafted as the plan wrote it, and one line says so under what was
      left for the member.
-3. **For each row dated this week** (three at the default three a week; five at five): the brief (pillar · for whom · story or
+3. **For each row dated this week** (three: the carousel and the two Reels): the brief (pillar · for whom · story or
    proof carried · rung + the word) · **the hook three ways** (styles labeled, the strongest marked) · **the script**
    (30–60 s, ~80–150 words, written for speech in their cadence) or **talking points** for a green screen (facts
    with a source, the cardinal rules read back) or **slide copy** for a carousel · **the bullet version** · **the
-   CTA line** — one of the two words, the kit's line verbatim: the guide (*"[what the guide holds, one clause].
-   Comment GUIDE and I'll send it."*) on most posts; the call (*"If you want my help running this, free, [the
-   booking line]."* — the law's shape, the person · their help · free · to run this; open register *"I'll walk you
-   through it, free, no strings"*) on about one post in four — most naturally a Proof piece or a "what you get"
-   piece (a Proof piece may carry the guide instead); a Personality post asks for a follow only; never two asks on
-   one post; never the brokerage as the reason ·
+   CTA line — the 90/10 rule** (house rules #13): the month's one keyword post (the kit's guide carousel, or the
+   kit's call post when its week comes) carries the kit's line verbatim — the guide (*"[what the guide holds, one
+   clause]. Comment GUIDE and I'll send it."*) or the call (*"If you want my help running this, free, [the booking
+   line]."* — the law's shape; open register *"I'll walk you through it, free, no strings"*); **every other post ends
+   on a soft ask in the member's voice** — a follow, a save, a share or a comment on the topic (*"follow if you want
+   to learn how to [the outcome] without [the pain]"*); never two asks on one post; never the brokerage as the reason
+   · **the filming line, once per Reel** — *"Film on your phone in Instagram's free Edits app — it has a teleprompter
+   built in: paste the script, press record, read."* ·
    **the captions** per the optimizer's rules (Instagram + Facebook with the ask as the last line, TikTok one line,
    YouTube Shorts title/description/tags, cover text). **A kit post row first** (its Format or Carries cell says `kit post`, or its title is one of the six — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call) — it sits at `Ready to Post` from the day the calendar was written, and this step still handles it: it is **post, don't make**:
    no hook, no script — the designed file is in the member's Offer folder. Draft only its caption from chapter 7's
    outline (the post's `Caption:` line and its ask from the CALLS TO ACTION table), the platform lines, the stamp,
    and a one-line posting note (which file, which size); never re-design or rewrite the slides; its Status stays `Ready to Post` (designed; only the posting is left — never downgrade it; nothing was recorded; posting flips it to `Published`). Then every other row: one already at `Scripted` or later → leave it; say so; a slot step 2b gave a clip → drafted from the clip as 2b says, never from the topic it held.
-4. **The week's story set**: seven days of story prompts on the four-category rotation (one line each: what to
-   capture · overlay ≤ 15 words · sticker · reply CTA — the kit's story lines, *"Reply GUIDE and I'll send it."* ·
-   *"Reply and I'll send you the link."*), the weekly group call's story proposed on its day only when the member
-   runs one; no story promises the member's personal time.
+4. **One industry story, at most (optional):** read `memory/intel.md` (dated, sourced rows, unused first); on
+   demand only, one live search (≤ 2 queries) — a scheduled run reads the intel file alone. Keep ONE item only when
+   it is real, from the last 30 days, and about industry news, lead generation or new agents struggling — **never a
+   brokerage headline** (Mike, 2026-11-22: "it can be dangerous… not brokerage headlines"). Write it as *"If you'd
+   rather react to the news this week, swap it in for Reel 2:"* with the source (title · outlet · date · link), a
+   word-for-word hook and four talking points, the cardinal rules read back (never a negative word about a
+   brokerage or a person). Nothing good → nothing written, nothing said. **Stories are not drafted** — one optional
+   line in the Game Plan is all; the Daily Stories Prompt runs by phrase.
 4b. **The recognition scan (the Win & Milestone posts — inside this run, never a task of its own):** what is new
    since the last run (the newest `exports/week-plan-*.txt` date; none → the last seven days): a new partner in
    `memory/organization.md` (a `Joined` date since then), a win named in `memory/debriefs.md` or captured to
@@ -190,10 +200,11 @@ moved, renamed, or deleted are their decisions.
    System ID: its Topic becomes the clip's hook, Format `Talking Head`, the package in the locked sections, and
    **📎 SOURCES names the video** (*a clip from your video "[video title]" — clip [n] of 3*, with the pack's link);
    never a second card, never the clip's System ID in a title.
-   **Keep 30 days visible:** if fewer than 30 days of calendar rows sit ahead of today, append the next week's rows
-   to `memory/content-calendar.md` in the locked shape (from the Game Plan's angles, the hooks bank, the member's
-   ideas, the starter bank last — no web research in a scheduled run; `starter` marked) and seed them as `Idea`
-   cards, then count-check. No board → skip the board steps silently; the calendar and the brief are the record.
+      **Keep four weeks mapped (the monthly refill rides here):** if fewer than four weeks of calendar rows sit ahead of
+   today, append the next week's rows to `memory/content-calendar.md` in the locked shape — one carousel (the next
+   kit post while they last, else one outlined from the guide's pages) and two Reels (one that teaches or takes a
+   stand, one that shows who they are), the asks on the 90/10 rule, from the Game Plan's angles, the hooks bank, the
+   member's ideas, the starter bank last (`starter` marked) — and seed them as `Idea` cards, then count-check. No board → skip the board steps silently; the calendar and the brief are the record.
 6. **Write back, then push:** one `content-log.md` row per drafted post in the locked shape (Status `Scripted`;
    Topic / hook begins `[talking head]` / `[green screen]` / `[LinkedIn doc]`; a clip Reel's ends `— clip from
    "[video title]"`); the calendar rows' Status → `Scripted` (a clip slot's Working title, Hook and Carries cells
@@ -209,45 +220,40 @@ moved, renamed, or deleted are their decisions.
    win when there is one** (the owner, 2026-11-15 — the student has to feel the win was theirs; the task prompt
    prints the counting rule): *"Last week you got all [m] out — a full week."* / *"Last week you got [n] of [m] out
    — '[a title]' is live."* — counted from the calendar's `Published` rows of last week; no line when none went out
-   or it is the first week; never a guilt line, never a view count. Then: *"Your week is drafted — [N]
-   posts on the board, [the kit posts] ready to post, your stories for the week, filming day [day]. Two of this
-   week's Reels are clip scripts from '[video title]' — film them as written. Plus a welcome
-   post for [First] — needs her OK (the graphic is a name-and-photo swap in Claude Design: say 'my welcome post for
-   [First]'). When a Reel is filmed: open a new chat and say 'edit my reel' — your AI Editing Studio (Plugin 5) edits
-   it inside your own Riverside account with the Video Brand Kit you designed in Week 3 (not installed yet? install
-   Plugin 5 from the same marketplace, then say 'set up riverside' once). 'My keyword sheet' for the replies, 'plan my
-   attraction week' for the rhythm around them. Your Brain Board and your Brain Book are updated — here they are:
-   [the Board link] · [the Book link]."* (Drop the clauses that do not apply; a rebuild that failed is named plainly
-   with "refresh my brain board" — never claimed. The clips line is said once, only when a clip was placed this
-   run: one clip → *"One of this week's Reels is a clip from '[video title]' — film it straight from the
-   script."*; two videos → both titles. Never a count of what is still waiting, never "System ID".)
+   or it is the first week; never a guilt line, never a view count. Then, short (Mike, 2026-11-22: less is more): *"Your week is drafted
+   — two Reels and your carousel for the week of [date][, on your board]. Film on [day]: '[Reel 1]' and '[Reel 2]'
+   — the scripts are in your package; your carousel goes out [day]. [One of this week's Reels is a clip script from
+   '[video title]' — film it as written.] [There's one industry story in your package if you'd rather react to the
+   news.] [Plus a welcome post for [First] — needs her OK.] When a Reel is filmed, open a new chat and say 'edit my
+   reel' — your AI Editing Studio edits it. Your Brain Board and your Brain Book are updated — here they are: [the
+   Board link] · [the Book link]."* (Drop the clauses that do not apply; a rebuild that failed is named plainly with
+   "refresh my brain board" — never claimed. Never a count of what is still waiting, never "System ID", no phrases
+   to learn.)
 
 ## Job C — The registry (every short-form workflow)
 Read `config.md`'s Short-Form block, call `list_scheduled_tasks`, and show — in plain words, never task ids:
 
 | Workflow | When | Switched on | Owner | Task id |
 |---|---|---|---|---|
-| Monday Week Plan (with the recognition scan) | Mondays, 7:00 am | by the consent card's Yes | this skill | `attraction-sf-week-plan` |
-| Batch Prep | the evening before the batch day, 6:00 pm | by the consent card's Yes | `sf-batch-publish` | `attraction-sf-batch-prep` |
-| Wednesday Brokerage News Watch | Wednesdays, 8:00 am | by the consent card's Yes | `sf-greenscreen` | `attraction-sf-news-watch` |
-| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | by the consent card's Yes | `sf-gameplan` | `attraction-sf-calendar-refill` |
+| Monday Week Plan — the week in one package (the two Reel scripts and cards, the carousel's caption, at most one industry story, the four weeks kept mapped, the recognition scan) | Mondays, 7:00 am | by the consent card's Yes | this skill | `attraction-sf-week-plan` |
 | Keyword Follow-up Queue | Tuesdays and Thursdays | by phrase | `sf-comment-to-dm` | `attraction-sf-keyword-queue` |
 | Mid-week Nudge | Wednesdays | by phrase | this skill | `attraction-sf-midweek-nudge` |
 | Monthly Deep Dive | the 1st of the month | by phrase | `sf-analytics` | `attraction-sf-deep-dive` |
 | Daily Stories Prompt | each morning | by phrase | `sf-stories` | `attraction-sf-daily-stories` |
 | Quarterly Profile Audit | quarterly | by phrase | `sf-setup` | `attraction-sf-profile-audit` |
 
-Each workflow's line in the block is found by its label (the locked label — `Week Plan task:` · `News Watch task:` ·
-`Daily Stories task:` and the rest of the contract's list) or by its task id value; a line missing is `later`. The two
-workflows retired on 2026-11-14 are never listed; their lines in an older block are deleted on this skill's next write
-of its own lines (the engagement routine is the Game Plan's 15-minute text; the performance read is on demand —
+Each workflow's line in the block is found by its label (the locked label — `Week Plan task:` ·
+`Daily Stories task:` and the rest of the contract's list) or by its task id value; a line missing is `later`. The five
+workflows retired (two on 2026-11-14; Batch Prep, the Wednesday Brokerage News Watch and the Monthly Calendar Refill
+on 2026-11-22 — their work rides inside this one) are never listed; their lines in an older block are deleted, and
+their tasks removed, on this skill's next write of its own lines (the engagement routine is the Game Plan's 15-minute text; the performance read is on demand —
 "how's my content doing" — and in the Monthly Deep Dive). The Win & Milestone posts are not a task of their own: they
 ride inside the Monday Week Plan (Job B, 4b), and "write a win post for [Name]" is on demand in `sf-stories`. Show
 each with its status (on · stopped · later · missing — the Brain says on but the task is gone → say so and re-create it
 through its owner, stated) and the one-sentence stop, then the `Email me:` line (*"your notes reach your own inbox
 when something's ready"* / *"no mail is connected yet, so your notes stay in Cowork"*). "Email me my notes" → mail
 connected → `Email me: yes YYYY-MM-DD`; no mail → say so, `Email me: no (no mail connected)`; "stop emailing me" →
-`Email me: no`; push; one line. The rule for every workflow: the four are switched on by the consent card's Yes, the five by
+`Email me: no`; push; one line. The rule for every workflow: the Monday Week Plan is switched on by the consent card's Yes, the five by
 the member's phrase — a statement, never an offer; adopt an existing task rather than a twin, verify after creating,
 write the line and push, honor `paused`, never claim a schedule that did not save, every run ends with a push so the
 Brain Board shows it.
@@ -278,8 +284,8 @@ Provision and stop: Job A, item 4.
   in a scheduled run (the hook bank, the Brain, and the starter bank fill the gaps, marked).
 - One owner per file: this skill appends to the calendar (Status, week briefs, new rows to keep 30 days mapped) and
   the content log; it never rewrites a Game Plan section, a pillar, or a row the member moved to `Scripted` or later.
-- **Clips fill slots — they never add posts** (the owner, 2026-11-14): at most two clip Reels a week, at least one
-  Reel the plan's own, the six kit posts and the green-screen news slot never replaced, the row's ask kept, the
+- **Clips fill slots — they never add posts** (the owner, 2026-11-14): at most one clip Reel a week, one Reel the
+  plan's own, the carousel never replaced, the row's ask kept, the
   displaced topic returned to the idea bank; the one calendar write this allows is the slot's Working title, Hook
   and Carries (`clip: [System ID]`). The calendar's three `(YouTube)` sections are read, never written — nobody
   marks a clip used there. A week with nothing queued runs exactly as before.

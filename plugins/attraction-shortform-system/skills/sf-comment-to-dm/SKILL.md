@@ -130,7 +130,7 @@ never the member's personal time, never a standing one-on-one, never "I pick up 
 
 **The rule of one:** one Reel, one ask — never two. The word is said on camera at the end, written as the
 caption's last line, and pinned as the first comment. **Which ask, by pillar** (the call-ask rule, house rules #13:
-GUIDE is the ask on most posts; the invitation — the offer's own word, or the kit's call line — on about one post in
+; the invitation — the offer's own word, or the kit's call line — on about one post in
 four, most naturally a Proof piece or a "what you get" piece; a Proof piece may carry the guide instead): Authority →
 GUIDE · Perspective → follow, save or share (or GUIDE) · Story → GUIDE or the invitation · Proof → the invitation or
 GUIDE · Personality → follow only. The six designed kit posts keep exactly the asks the kit printed (Posts 1, 2 and
@@ -289,8 +289,7 @@ appears because no template mentions income. "If empty, proceed" is banned.
 
 ## Step 6 — The Keyword Follow-up Queue (Job D — by phrase, Tuesdays and Thursdays)
 Who commented or DMed a keyword since last time, with **the next DM in the ladder drafted — never sent.** On
-demand ("my keyword follow-ups") or on a schedule (`attraction-sf-keyword-queue` — one of the five extras setup
-states in one sentence, "they're there if you want them; say the word any time"; switched on by the member's phrase).
+demand ("my keyword follow-ups") or on a schedule (`attraction-sf-keyword-queue` — one of the five by-phrase workflows, never named in the sitting)
 1. **Since when:** the newest `exports/keyword-queue-*.txt` date (none → the last seven days).
 2. **Who — real when Instagram is connected through the data engine:** `INSTAGRAM_GET_IG_USER_MEDIA` (the posts of
    the last fourteen days) → `INSTAGRAM_GET_IG_MEDIA_COMMENTS` (text · username · timestamp) → keep the comments
@@ -338,7 +337,7 @@ I'll write the human replies as they come in. Your Brain Board is updated."*
 - [ ] Brain loaded; the offer's word, the guide, the register, the voice and the booking link taken from it,
       nothing re-asked; seeds and an empty magnet respected with one line each
 - [ ] Two words only — GUIDE and the offer's word; no retired default anywhere (the `Keyword:` line fixed and
-      pushed if it held one); one ask per Reel, matched to the pillar; the invitation on about one post in four
+ the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post
       (most naturally a Proof piece or a "what you get" piece), never two asks on one post
 - [ ] The GUIDE flow quoted from the Delivery Kit, never rewritten; the offer word's six messages under 60 words
       in the member's voice; the story reply; the NEVER list kept on every one

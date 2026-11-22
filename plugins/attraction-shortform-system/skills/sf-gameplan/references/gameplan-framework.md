@@ -22,13 +22,13 @@ so and this framework labels the rule an OS default.
 | — | Title + meta + READ THIS FIRST | — | `[NAME]'S SHORT-FORM GAME PLAN` · attracting · known for · prepared · the stamp. Then the opening sentence — the verdict (where their short-form is today — a feed that pulls clients, a blank slate, a consistent leader with no keyword); right after it the one plain line *"Your first two weeks: post the six you already have designed — nothing to film yet."* (no kit → the one warm line naming "rebuild my kit" instead); then the insight and the plan in one line; then the first post to film (the first Reel, after the six designed posts), the batch day, and the compliance line if `unset`. |
 | 1 | Positioning for short-form | 150+ | who they attract (the type, the pain in their words, the mirror moment) · the one line · the short-form job (Awareness → Recognition → Familiarity → Trust → Curiosity → Conversation) · the two keywords · the two CTAs (the guide · the call, verbatim from the kit's CALLS TO ACTION table) · why I'm building this |
 | 2 | The five pillars, three angles each | 400+ | Authority · Perspective · Story · Proof · Personality — exact names; per pillar a two-line summary and three angles (hook · for whom · pain · what it carries) |
-| 3 | The format mix and the weekly cadence | 200+ | the number · the mix (in plain words — the label "the OS default" is never printed in the document) · the formats and what each is for · the platforms, stated ("Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the same video any time you want more reach") · the batch day · the 15-minute routine (the engagement routine lives here as text — never a task) |
+| 3 | The week | 150+ | two Reels filmed and one carousel posted, every week, from week one (Mike, 2026-11-22) · the formats, one line each · the platforms, stated · the filming day (the member's answer) and the honest three-hour block · the Edits app and its teleprompter · the 15-minute routine · stories, one optional line |
 | 4 | The hook bank | 250+ · exactly 30 | six per pillar in the Brain's block (pillar · for whom · rung on every line; `starter` where seeded); in the document, two parts — THE HOOKS FOR YOUR DATED POSTS first (the date · the hook · who it is for), then the rest under the plain heading "More hooks when you need them" (the hook · who it is for · the ask in words) |
-| 5 | CTAs and the comment-to-DM flow | 150+ | the ladder · the rule of one · the ask by pillar · five ask lines · the call line in the CTA law's shape · the call-ask rule (GUIDE on most posts; the invitation on about one post in four, most naturally a Proof piece or a "what you get" piece; never two asks on one post; the kit posts keep exactly the asks the kit printed) · the two keywords and what each opens · the ManyChat line in the owner's shape (set it up this week; "set up my ManyChat" writes out the steps; you don't connect it to Claude; by hand from the DM bank until it's live) |
-| 6 | The 30-day calendar | 400+ · 12 dated rows at the default three a week (20 at five; the six kit posts among them) | GRAPHICS — THE SIX POSTS YOU ALREADY HAVE (post, don't make — the Graphics tab on your board) · REELS — [n] rows at your cadence (the Reels tab) · STORIES, DAILY · THE BATCH PLAN · THE THREE TO FILM FIRST — each band a five-column table in the document (Date, written "Tue, Nov 17" · What · The hook · The ask · Status); "This week you only post — nothing to film." under every week made only of designed posts |
+| 5 | CTAs and the comment-to-DM flow | 150+ | the ladder · the rule of one · the ask by pillar (soft asks) · five ask lines · the call line in the CTA law's shape · the 90/10 rule (one keyword ask in the month's twelve posts; the rest a follow, a save, a share or a comment) · the two keywords and what each opens · the ManyChat line, told |
+| 6 | The four-week calendar | 300+ · 12 dated rows (four weeks × one carousel + two Reels) | one band per week — WEEK 1 (the week of …), WEEK 2 … — the five member-facing columns · the filming plan (the day, the two Reels that film together, three hours, the app) · THE TWO TO FILM FIRST · stories, one optional line |
 | 7 | What we measure | 100+ | opens "Any time you ask 'how's my content doing', and each month in your deep dive, five numbers: …" · the five numbers · calls booked from content · the benchmark · the sources · the compliance line |
-| 8 | Your scheduled workflows | 100+ | the four switched on (Monday Week Plan · Batch Prep · Wednesday Brokerage News Watch · Monthly Calendar Refill) · the five extras in one sentence · "I'll email you a short note at your own address when something's ready" — when, what each produces, draft-only, status |
-| 9 | Next steps | 50+ | four lines, in this order: post the six designed posts on their dates · film on your batch day · when it's filmed, open a new chat and say "edit my reel" · set up ManyChat this week ("set up my ManyChat") — then, only where it applies, the compliance line and the research re-run |
+| 8 | Your Monday Week Plan | 60+ | the ONE workflow — the week in one package — in plain words, with when it runs, what it produces, that it only drafts; the email line as a statement; its status from `config.md`; nothing else listed |
+| 9 | Next steps | 40+ | three lines, in this order: film your two Reels on [day] (the Edits app, teleprompter built in) · post your carousel on [day] · when it's filmed, open a new chat and say "edit my reel"; then the compliance line only when `unset` |
 | — | SOURCES · closing · stamp | — | every search and page read, dated; budget used of 8; `starter` and `unresearched` rows counted; demo → "nothing searched"; one honest closing paragraph; the stamp |
 
 Member-facing lines say *your Authority pillar*, *the agents you want to attract* — never "avatar", never "leads",
@@ -83,36 +83,38 @@ are PROPOSED in one short message, each with where in the member's Brain it came
 drafted and labeled *a first draft — tell me what to change*, never asked for. Write
 `content-pillars.md` at once — the file shape is the contract's; the header lines are kept.
 
-## Section 3 — The mix and the cadence (doctrine §7, §9b, §9d)
-- **Three to five Reels a week, working up to five** (`07-instagram/88`); **three is the default for the first month** (the owner, 2026-11-14), five the step-up the Monthly Calendar Refill and the Monthly Deep Dive propose after a month at three has held. Propose the number
-  from `goals.md`'s hours and `strategy.md`'s constraints — never ask for hours the Brain holds.
-- **The default mix "one attraction · one authority · one story at three a week (2 · 2 · 1 at five), stories daily"** is the cohort's standard, not a
-  lesson of Mike's — never attributed to him, and printed in plain words: the document never carries the label "the OS
-  default" (doctrine §15). Attraction =
-  Proof + Personality · authority = Authority + Perspective · story = Story (§9d). At three a week: 1 · 1 · 1.
-  Mike's sample week (`07-instagram/90`) is the fallback shape.
-- **Formats**: the talking-head Reel (30–60 s, hook → value → one CTA, captions the only mandatory edit, raw is better than
-  polished — `07-instagram/90`) · the green screen (Perspective on brokerage and industry news from `memory/intel.md`,
-  facts with a source, never a dig) · the carousel (no filming; "Why I switched — no names", pain-point,
-  myth-busting; a LinkedIn document post for team leaders and broker-owners) · stories (one to five a day, never a
-  day without — `07-instagram/89`; the four categories).
+## Section 3 — The week (doctrine §7, §9b, §9d; Mike's ruling of 2026-11-22 wins over the doctrine's "three to five")
+- **Two Reels the member films and one carousel they post — three posts, every week, from week one** (Mike,
+  2026-11-22: *"get them posting three times a week with two reels and one carousel, just to get into momentum"*).
+  Never "three to five", never "five the step-up", never a run of designed posts before the first Reel (*"they should
+  be getting straight to camera, like, now"*). A member who names another number gets it — Reels fill it, the one
+  carousel a week stays — said in one line.
+- **The two Reels rotate the pillars:** one that teaches or takes a stand (Authority or Perspective) and one that shows
+  who they are (Story, Proof or Personality); across four weeks every pillar at least once; no pillar twice in a
+  week. **The carousel** is a kit post while the six last (one a week, in the kit's order), then a carousel the plan
+  outlines from the guide's pages and the method; no kit → outlined here, written each Monday, "rebuild my kit" named
+  once in the Read-this-first.
+- **Formats, one line each:** the talking-head Reel (30–60 s, hook → value → one ask, raw is better than polished —
+  `07-instagram/90`; filmed on the phone in Instagram's free Edits app, teleprompter built in) · the carousel (no
+  filming; a LinkedIn document post for team leaders and broker-owners) · the green screen is not a format of the week
+  — at most one industry story a week inside the Monday package, only when there is a good one (industry news, lead
+  generation, new agents struggling; never a brokerage headline — Mike, 2026-11-22) · stories: one optional line
+  (*"Stories are the bonus — one a day when you feel like it"*), never a routine.
 - **Platforms — stated, never asked (the owner, 2026-11-14):** Instagram and Facebook, both, every Reel and every
-  graphic (Facebook Reels is the same video reposted); TikTok and YouTube Shorts only as optional reposts of the same
-  video — nothing new to make; LinkedIn for the carousels and story posts only when `identity/avatars.md` includes team
-  leaders or broker-owners, otherwise off — one line. The doc's line: *"Platforms: Instagram and Facebook, both — every
-  Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the
-  same video any time you want more reach."* Mike's lesson that one video covers every short-form platform
-  (`07-instagram/90`) is the why. `publishing.md → Platforms (priority order):` carries the locked value
-  (`Instagram Reels · Facebook Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok /
-  YouTube Shorts (optional reposts)`) — written by setup's platform step; this plan writes it only when still empty.
-- **The batch day**: Monday plan · Tuesday record (one to two hours) · Wednesday edit · post or schedule from
-  Thursday (`07-instagram/90`), or Mike's alternate Saturdays; fitted to `operations.md → Filming window:`.
-- **The 15-minute routine** (an OS default — Mike's lessons give the moves, the OS gives the minutes): reply to
-  every comment with a question within the day · answer every DM the same day · tag the agents featured so they
-  reshare (`07-instagram/89`) · one interactive story element a day · five real comments on agents' posts in the
-  lane, never a negative one (`05-big-picture/36`).
-- Stated, never a stop ("tell me any time if you want one changed"; "change my cadence" changes it later). Write `Cadence:` · `Weekly mix:` · `Batch day(s):` · `Platforms` to `publishing.md`; mirror
-  `Cadence` and `Platforms` into `content-pillars.md`'s header lines; `## Weekly mix` restates it.
+  carousel (Facebook Reels is the same video reposted); TikTok and YouTube Shorts only as optional reposts of the same
+  video; LinkedIn for the carousels only when `identity/avatars.md` includes team leaders or broker-owners, otherwise
+  off — one line. `publishing.md → Platforms (priority order):` carries the locked value (`Instagram Reels · Facebook
+  Reels (always, both) · LinkedIn (carousels, when attracting team leaders) · TikTok / YouTube Shorts (optional
+  reposts)`) — written by setup's platform step; this plan writes it only when still empty.
+- **The filming day** is the member's answer in `## In your words` (day and place); skipped → fitted to `operations.md
+  → Filming window:`, else Saturdays. **The block is three hours** — the document never says one or two (Mike:
+  *"if we know that it should take three hours… we should say, for three hours"*).
+- **The 15-minute routine** (an OS default — Mike's lessons give the moves): reply to every comment with a question
+  within the day · answer every DM the same day · tag the agents featured so they reshare (`07-instagram/89`) · five
+  real comments on agents' posts in the lane, never a negative one (`05-big-picture/36`) — one line.
+- Stated, never a stop. Write `Cadence: 3/week (2 Reels + 1 carousel)` · `Weekly mix:` · `Batch day(s):` ·
+  `Platforms` to `publishing.md`; mirror `Cadence` and `Platforms` into `content-pillars.md`'s header lines;
+  `## Weekly mix` restates it.
 
 ## Section 4 — The hook bank (doctrine §7 — the hook; §9b)
 - **Thirty, six per pillar**, each under 12 words, one breath, the first word does the work; styles varied
@@ -141,10 +143,15 @@ drafted and labeled *a first draft — tell me what to change*, never asked for.
   talk; **the call line in the CTA law's shape** — join register *"If you want my help running this — the lessons,
   the templates, the community — partner with me and it's free. [the booking line]"*; open register *"I'll walk you
   through it, free, no strings."* — never the brokerage as the reason, never compensation.
-- **The call-ask rule — one rule everywhere** (house rules #13; the optimizer's platform rules; the kit's own six
-  posts): **GUIDE is the ask on most posts. The invitation (the offer's own word, or the kit's call line) is the ask on about one post in four — most naturally a Proof piece or a "what you get" piece. A Proof piece may carry the guide instead. Never two asks on one post. The six designed kit posts keep exactly the asks the kit printed.** The model itself is explained on a private call, never in a caption or a DM (doctrine
-  §8; `02-prospect-targeting/19`). The kit printed the call on my story · what you get · book the call, and the guide
-  on the guide · five problems · proof — those six stay exactly so.
+- **The 90/10 rule — one rule everywhere** (Mike, 2026-11-22; house rules #13): **about one post in ten carries a
+  keyword ask** — `Comment · GUIDE`, or the offer's word with the call line in the law's shape; in twelve posts, ONE —
+  the kit's guide carousel in week one (no kit → the Reel that teaches the guide's first page, in week two); the kit's
+  "book the call" post is the next one when its week comes. **Every other post asks only for a follow, a save, a share
+  or a comment on the topic** (Mike's example: *"follow if you want to learn how to scale your business without
+  having to pay for leads"*). Never two asks on one post. The model itself is explained on a private call, never in a
+  caption or a DM (doctrine §8; `02-prospect-targeting/19`). A kit post whose printed ask is a keyword keeps it only
+  when it is the month's one keyword post; otherwise its caption's last line is the soft ask (the slides are never
+  redesigned).
 - The two keywords and what each opens; then **the ManyChat line, told, never asked (the owner, 2026-11-14), in
   this shape:** *"ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the
   free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's
@@ -154,56 +161,47 @@ drafted and labeled *a first draft — tell me what to change*, never asked for.
   bank, the DM bank and the ManyChat steps are `sf-comment-to-dm`'s — the keyword sheet (one page, two words)
   and the steps ("set up my ManyChat") pointed at, never duplicated.
 
-## Section 6 — The 30-day calendar (doctrine §9b–§9d; the rules in `sf-talkinghead/references/calendar-guide.md`)
-- **The six kit posts come first — "post, don't make."** The section's two bands are **GRAPHICS — THE SIX POSTS YOU
-  ALREADY HAVE (post, don't make — the Graphics tab on your board)** and **REELS — [n] rows at your cadence (the Reels
-  tab)** (the owner, 2026-11-14). Rows 1–6 are chapter 7's SOCIAL GRAPHIC POSTS in the kit's
-  order (Post 1 — The guide · Post 2 — Five problems, five fixes · Post 3 — My story · Post 4 — What you get · Post 5
-  — Proof · Post 6 — Book the call), designed in Claude Design in Week 3 and never rewritten here: dated one every
-  two or three days from the first posting day across the first two weeks (the kit's rhythm); format `carousel`
-  (posts 1–3) or `graphic` (posts 4–6 — the kit posts' value, the board's `Graphic`); pillar Authority · Authority ·
-  Story · Proof · Proof · Proof; the hook = the post's slide 1 or headline, verbatim; the CTA = the post's ask as the
-  kit wrote it (`Comment · GUIDE` or `Call · [the offer's word]`); carries `kit post n`; Status `Ready to Post` (final copy, a file to post — nothing to draft or film; nothing was recorded; posting flips it to `Published`). No kit → no kit rows, said once.
-- **Then the Reels, built with `sf-ideas`' method and order:** the UVP's content branches, the framework's steps and
-  the guide's pages, and the Brain's own stories and systems first (the story bank, the proof with consent, the
-  weekly call, the training, the events, the member's captured ideas, this month's objections — they land in Weeks
-  1–2), fresh research second (ONE pass, ≤ 8 searches, graded HIGH / MEDIUM / EMERGING, cited by number in SOURCES;
-  web search only — the live data connection is never touched during setup), the starter bank last (`starter`,
-  never presented as a demand signal).
-- **Dates are real — and they make sense.** **A Reel's publishing date is never earlier than the day after the batch
-  day that films it:** the first Reel row lands on the first posting day AFTER the first batch day that follows today
-  and that a kit post does not take (UPDATE mode: from the day after the last mapped date, and still after the batch
-  day that films it); posting days follow the cadence (three a week → the sample week's Monday · Wednesday · Friday
-  unless the member said otherwise; five → Monday to Friday); every row carries `YYYY-MM-DD` and the weekday in the
-  Brain file. Twelve rows at the default three a week; twenty at five — the kit posts counted among them — said
-  plainly, the floor moves with it. **A week made only of designed posts carries the one line "This week you only
-  post — nothing to film."** (the first two weeks of a first window).
+## Section 6 — The four-week calendar (doctrine §9b–§9d; the rules in `sf-talkinghead/references/calendar-guide.md`)
+- **Every week: one carousel and two Reels — Mike, 2026-11-22: "Record these two videos this week, and post this
+  carousel. That's it."** Twelve rows over four weeks, one band per week in the document — **WEEK 1 (the week of
+  [Mon, Nov 17])**, **WEEK 2 …** — never a GRAPHICS band of designed posts first, never "This week you only post".
+- **The carousel row** — the week's first posting day (Monday unless the member's week says otherwise): a kit post
+  while the six last, one a week in the kit's order (Post 1 — The guide · Post 2 — Five problems, five fixes · Post 3 —
+  My story · Post 4 — What you get · Post 5 — Proof · Post 6 — Book the call), designed in Week 3 and never rewritten
+  here: format `carousel` (posts 1–3) or `graphic` (posts 4–6 — the board's `Graphic`); pillar Authority · Authority ·
+  Story · Proof · Proof · Proof; the hook = the post's slide 1 or headline, verbatim; carries `kit post n`; Status
+  `Ready to Post` (final copy, a file to post; posting flips it to `Published`). After the six, or with no kit: a
+  carousel the plan outlines from the guide's pages and the method, Status `Idea` (the Monday Week Plan writes its
+  slides).
+- **The two Reel rows** — the two posting days after the filming day that films them (a Reel's publishing date is
+  never earlier than the day after the filming day): format `talking head`; one that teaches or takes a stand
+  (Authority or Perspective), one that shows who they are (Story, Proof or Personality); every pillar at least once
+  across the four weeks; the member's own method and story first. Built with `sf-ideas`' method and order: the
+  UVP's content branches, the framework's steps and the guide's pages, and the Brain's own stories and systems first
+  (the story bank, the proof with consent, the member's captured ideas, this month's objections), fresh research
+  second (ONE pass, ≤ 8 searches, graded HIGH / MEDIUM / EMERGING, cited by number in SOURCES; web search only — the
+  live data connection is never touched during setup), the starter bank last (`starter`).
+- **The asks — the 90/10 rule (section 5):** the kit's guide carousel carries `Comment · GUIDE`; every other row a soft
+  ask — `Follow` · `Save` · `Share` · `Comment · [the topic]`; never two asks in one cell.
+- **Dates are real — and they make sense.** The first week is the week of the first filming day after today (UPDATE
+  mode: from the day after the last mapped date); every row carries `YYYY-MM-DD` and the weekday in the Brain file.
 - **Row shape (the Brain file — the locked eleven columns, untouched):** `#` · date · day · format (talking head ·
-  green screen · carousel · `graphic` for a kit post) · pillar · working title · hook · CTA (the row's one ask —
-  `Comment · GUIDE` · the invitation, `Comment · [the offer's word]` or `Call · [the offer's word]` · `Follow`) ·
-  carries (story hook / win / teach / finding # / kit post n) · Status · System ID `sf-YYYY-MM-DD-NN` (the publish
-  date and the row number — `sf-board` creates and finds the card by it; the Monday Week Plan updates it).
-- **The document's table is five member-facing columns**, under each band: `Date` (written "Tue, Nov 17", never
-  2026-11-17) · `What` (the format and the working title — "Carousel — The guide", "Reel — The year I almost quit") ·
-  `The hook` · `The ask` (in words: "Comment GUIDE" · "Comment [WORD]" · "Follow") · `Status`. The row number, the
-  weekday column, the pillar, what a row is built on and the System ID stay in the Brain file — only the document's
-  table changes.
-- **The calendar-guide rules bind:** Week 1 establishes who they are (one Story, one Authority on the known-for,
-  one Proof, one Personality, one Perspective — an agent who finds them in Week 1 can answer the five profile
-  questions from the feed alone; the kit's story and proof posts cover Story and Proof, so the first Reels are
-  Personality, Perspective and the Authority teach); the member's own ideas and this month's objections in Weeks
-  1–2; no story used twice; no pillar more than twice in a week; one ask on every row, by the call-ask rule (section
-  5) — GUIDE on most rows; the invitation on about one row in four, most naturally a Proof row or a "what you get"
-  row, in the CTA law's shape (a Proof row may carry GUIDE instead); "follow" only on a Personality row; never two
-  asks on one row; the six kit posts keep exactly the asks the kit printed; no Reel dated before the day after the
-  batch day that films it; no row promises the member's time per partner (doctrine §10e);
-  brokerage and opportunity content woven through, never a week of it; nothing invented — no stat without a source,
-  no story not in the bank, no win without consent.
-- **STORIES, DAILY** is a standing line, never twenty story rows: the four-category rotation every day; the rhythm
-  morning · midday · evening (`07-instagram/90`); the daily stories prompt (section 8) drafts them when it is on.
-- **THE BATCH PLAN** names the sessions (Mike's Tuesday, or alternate Saturdays — the member's own filming day, their
-  routine), what films together (same outfit, same spot), and the hours the month really takes. **THE THREE TO FILM
-  FIRST**: Reels only (the kit posts need no filming), one line each on why.
+  carousel · `graphic` for a kit post) · pillar · working title · hook · CTA (the row's one ask) · carries (story
+  hook / win / teach / finding # / kit post n) · Status · System ID `sf-YYYY-MM-DD-NN` (the publish date and the row
+  number — `sf-board` creates and finds the card by it; the Monday Week Plan updates it).
+- **The document's table is five member-facing columns**, under each week's band: `Date` (written "Tue, Nov 17",
+  never 2026-11-17) · `What` (the format and the working title — "Carousel — The guide", "Reel — The year I almost
+  quit") · `The hook` · `The ask` (in words: "Follow" · "Save this" · "Share this" · "Comment [the topic]" · "Comment
+  GUIDE" on the one post) · `Status`. The row number, the weekday column, the pillar, what a row is built on and the
+  System ID stay in the Brain file.
+- **The calendar-guide rules bind:** no story used twice; no pillar more than twice in a week; one ask on every row
+  by the 90/10 rule; no Reel dated before the day after the filming day; no row promises the member's time per
+  partner (doctrine §10e); brokerage and opportunity content woven through, never a week of it; nothing invented — no
+  stat without a source, no story not in the bank, no win without consent.
+- **THE FILMING PLAN** — one line per week: the day, the two Reels that film together (same outfit, same spot), *about
+  three hours*; and the app, once: *"Film on your phone in Instagram's free Edits app — it has a teleprompter built
+  in: paste the script, press record, read."* **THE TWO TO FILM FIRST**: week one's Reels, one line each on why.
+  **Stories**: one optional line, never rows.
 - Written to `memory/content-calendar.md` (the Brain's calendar; the contract's locked shape). Rows are not logged
   to `content-log.md` until a piece is scripted.
 
@@ -216,50 +214,46 @@ benchmark; growth = today minus the last baseline in `memory/content-performance
 once connected after setup · the posting tool · "add my numbers" screenshots; "not available" is a real value.
 The compliance line from Step 1b. Views are not the score — agents are (doctrine §0).
 
-## Section 8 — The scheduled workflows (all draft-only; provisioned only with the member's explicit yes)
-Named in the doc exactly as the brief of 2026-11-14 §5 names them; the member sees plain words and times, never a
-task id.
+## Section 8 — Your Monday Week Plan (draft-only; provisioned only with the member's explicit Yes)
+ONE workflow (Mike, 2026-11-22: *"one scheduled task a week… here's your weekly package"*), in plain words and
+times, never a task id:
 | Workflow | When | Owner | Produces | Switched on |
 |---|---|---|---|---|
-| Monday Week Plan | Mondays, 7:00 am (`Week Plan slot:`) | `sf-week-plan` | the week's scripts, captions and stories drafted onto the board + a week brief; any welcome or win post the week earned (no task of its own) | by the consent card's Yes |
-| Batch Prep | the evening before the batch day, 6:00 pm (`Batch Prep slot:`) | `sf-batch-publish` | the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | by the consent card's Yes |
-| Wednesday Brokerage News Watch | Wednesdays, 8:00 am (`News Watch slot:`) | `sf-greenscreen` | three to six real, cited headlines, each with a 30-second green-screen take, on the board | by the consent card's Yes |
-| Monthly Calendar Refill | the last Friday of the month, 5:00 pm | `sf-gameplan` (this skill's scheduled mode, `references/calendar-refill-task-prompt.md`) | the next thirty days from the pillars, the branches and what performed; the board refilled; the step to five Reels a week proposed once a month at three has held | by the consent card's Yes |
-| Keyword Follow-up Queue · Mid-week Nudge · Monthly Deep Dive · Daily Stories Prompt · Quarterly Profile Audit | Tue/Thu · Wednesdays · the 1st · each morning · quarterly | `sf-comment-to-dm` · `sf-week-plan` · `sf-analytics` · `sf-stories` · `sf-setup` | the five extras, stated in one sentence — "they're there if you want them; say the word any time" | by phrase |
-Plus the email line as a statement — *"I'll email you a short note at your own address when something's ready"*
-(`Email me: yes YYYY-MM-DD`), or *"no mail is connected yet, so your notes stay in Cowork"* (`no (no mail connected)`)
-— never a question. The status in the doc is read from `config.md`'s `## Short-Form (Week 4)` block (an older
-`(Week 3)` heading is the same block) — never assumed; the two workflows retired on 2026-11-14 are never named.
-Nothing posts, sends, schedules, or moves a pipeline stage on its own; a
-scheduled run has nobody to click a permission card, so every prompt falls back to the Brain's ledgers and says so
-when a source was not reachable; every run ends with a push so the Brain Board shows it.
+| Monday Week Plan | Mondays, 7:00 am (`Week Plan slot:`) | `sf-week-plan` | the week in one package: the scripts for the two Reels, the cards the member reads from while they film, the carousel's caption, and at most one industry story to react to when there is a good one — on the board when they have one, always in the Brain; the four weeks kept mapped; any welcome or win post the week earned | by the consent card's Yes |
+Plus the email line as a statement — *"I'll email you a short note when it's ready"* (`Email me: yes YYYY-MM-DD`),
+or *"your note waits in Cowork"* (`no (no mail connected)`) — never a question. The status in the doc is read from
+`config.md`'s `## Short-Form (Week 4)` block — never assumed. **Nothing else is named here**: not the five
+by-phrase workflows, not the tasks retired on 2026-11-14 and 2026-11-22 (Batch Prep, the Wednesday news watch, the
+monthly refill — their work rides inside the Monday package). Nothing posts, sends, schedules, or moves a pipeline
+stage on its own; a scheduled run has nobody to click a permission card, so the prompt falls back to the Brain's
+ledgers and says so; every run ends with a push so the Brain Board shows it.
 
 ## Section 9 — Next steps
-Four short numbered lines, in this order — the same inside setup and on demand: **1.** post your six designed posts
-on their dates · **2.** film on your batch day (the full run sheet any time: "film day for my attraction reels") ·
-**3.** when it's filmed, open a new chat and say "edit my reel" · **4.** set up ManyChat this week ("set up my
-ManyChat"). Then, one line each and only where it applies: the compliance gate when `unset` ("set up my
-attraction compliance") and the research re-run when rows were built without research ("what are agents asking
-right now"). No kit → line 1 is the phrase that builds it ("rebuild my kit"). The board, the keyword sheet and the
-performance read keep their own phrases and are said in chat, not listed in this section.
+Three short numbered lines, in this order — the same inside setup and on demand (Mike, 2026-11-22: *"we should just
+stop here"*): **1.** film your two Reels on [day] — about three hours — on your phone in Instagram's free Edits app,
+teleprompter built in: paste the script, press record, read · **2.** post your carousel on [the day, in words] (no
+kit → "its slides come in your Monday package; say 'rebuild my kit' for designed ones") · **3.** when it's filmed,
+open a new chat and say "edit my reel" — your AI Editing Studio edits it. Then, only when `unset`: the compliance
+line ("set up my attraction compliance"). Nothing else — no ManyChat line here (section 5 has its one), no phrases,
+no board or keyword-sheet lines.
 
 ---
 
 ## The gate (hard; run before assembling — count, never estimate)
 1. Every section present at its floor (the table above).
-2. Twelve dated rows at the default three a week (twenty at five; the count said plainly) — the six kit posts as rows 1–6 when the kit exists,
-   each with the kit's ask verbatim; every row a real date, a pillar, a hook, a CTA (one ask — GUIDE, the invitation,
-   or a follow), a System ID; no Reel dated earlier than the day after the batch day that films it; every week made
-   only of designed posts carrying "This week you only post — nothing to film."
+2. Twelve dated rows — four weeks, each one carousel (a kit post at `Ready to Post` while the six last) and two
+   Reels; never a run of designed posts before the first Reel; every row a real date, a pillar, a hook, one ask, a
+   System ID; no Reel dated earlier than the day after the filming day that films it.
 3. Five pillars, exact names, three angles each.
 4. Thirty hooks, six per pillar, under 12 words.
-5. Only the two keywords anywhere; present in sections 1 and 5; the call-ask rule kept on the rows (GUIDE on most;
-   the invitation on about one row in four, most naturally a Proof row or a "what you get" row; never two asks on one
-   row; a Personality row's ask is "follow" only; the kit rows carrying exactly the asks the kit printed).
-5c. The document reads in member-facing words: READ THIS FIRST carries "Your first two weeks: post the six you already
-   have designed — nothing to film yet." right after its opening sentence (when the kit exists); the calendar is the
+5. Only the two keywords anywhere; present in sections 1 and 5; the 90/10 rule kept on the rows (ONE keyword ask in
+   the twelve — the kit's guide carousel, or the kit's call post when its week comes; every other row a follow, a
+   save, a share or a comment on the topic; never two asks on one row).
+5c. The document reads in member-facing words: READ THIS FIRST carries "Every week: film two Reels on [day] — about three hours — and post one
+   carousel. That's it." right after its opening sentence; three hours wherever the time is named; the Edits app named
+   in the filming plan; the calendar is the
    five columns Date · What · The hook · The ask · Status, its dates written "Tue, Nov 17"; the hook bank shows the
-   dated posts' hooks first, the rest under "More hooks when you need them"; NEXT STEPS is the four lines in order;
+   dated posts' hooks first, the rest under "More hooks when you need them"; NEXT STEPS is the three lines in order;
    none of "rung", "carries", "branch", "the OS default", "the kit's CALLS TO ACTION table, verbatim", a System ID or
    a date written 2026-11-17 appears anywhere in it.
 5b. Every call ask in the CTA law's shape (the person · their help · free · to run the method; the brokerage never

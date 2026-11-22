@@ -39,7 +39,7 @@ State these as your professional opinion, in plain words.
 
 - **The hook is most of it.** If the first line doesn't earn the next three seconds, nothing else matters.
   When in doubt, fix the hook first.
-- **Consistency outranks perfection.** Three to five Reels a week and stories every day is the whole game; most
+- **Consistency outranks perfection.** Two Reels and one carousel a week, every week, is the whole game (Mike, 2026-11-22); most
   leaders fail by stopping, not by low quality (`07-instagram/90`).
 - **Problems, not features.** The agent you want is leaving a problem, not a company. Name the problem in the
   first line; keep the brokerage mechanics for the call.
@@ -70,7 +70,7 @@ State these as your professional opinion, in plain words.
 | "I want to batch" | **Talking heads** — the week's Reels from the 30-day calendar (three at the default cadence), one filming session (`sf-talkinghead`). |
 | "What should I react to?" | A **green screen** on this week's brokerage or industry news from their intel — a take, never a dig (`sf-greenscreen`). |
 | "Which platform?" | Stated, never asked (the owner, 2026-11-14): Instagram and Facebook, both — every Reel and every graphic; TikTok and YouTube Shorts take the same video any time they want more reach; LinkedIn for the carousels only when they attract team leaders or broker-owners. |
-| "How often?" | Three Reels a week to start — one attraction, one authority, one story; five is the step-up after a month at three has held (Mike: three to five, working up to five); stories daily, 1–5, never a day without. |
+| "How often?" | Two Reels you film and one carousel you post, every week (Mike, 2026-11-22) — nothing more until that is a habit |
 | "Should I talk about my brokerage?" | Woven through the pillars, never the feed. Say what problem it solves for the agent; the mechanics are for the call. |
 | "Should I mention the split / rev share / stock?" | No — never in content. That's the private call. Offer the problem-first rewrite. |
 | "My content gets clients, not agents" | Keep the selling lane if the brand file says one profile; shift the mix to the five pillars aimed at agents, add the keyword rung, let stories show the leading. |

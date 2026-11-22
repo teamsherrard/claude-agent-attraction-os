@@ -234,14 +234,17 @@ my CEO review". Neither has a task; that is by design, not a failure.
 
 1. **Was the yes ever given?** Ask one question: "When you set up [Short-Form / YouTube / the
    Admin…], did it show you a card listing what it was switching on — and did you say Yes to it?" The
-   short-form and YouTube setups show ONE card (four workflows; two workflows) and create nothing before that
+   short-form and YouTube setups show ONE card (one workflow — the Monday Week Plan — since Short-Form 0.10.0; two
+   workflows in YouTube) and create nothing before that
    Yes; a member who answered the card with "not now" has them set aside, by design. (The Daily Debrief is never
    offered inside Brain setup — it is switched on by "turn on my daily debrief" or the AI Admin's card in a
    later week.) No yes → hand them the phrase that switches it on, through its OWNER skill: "turn on my daily
-   debrief" (`attraction-debrief`) · "turn on my Monday week plan" (`sf-week-plan`) · "turn on my batch prep" ·
-   "turn on my news watch" · "turn on my calendar refill" · "turn on my attraction Monday kickoff"
+   debrief" (`attraction-debrief`) · "turn on my Monday week plan" (`sf-week-plan`) · "turn on my attraction Monday kickoff"
    (`yt-briefing`) · "turn on my monthly channel review" (`yt-triggers`). "My attraction workflows" / "my
-   attraction YouTube workflows" shows which are on. Support never creates a scheduled task itself, and a demo
+   attraction YouTube workflows" shows which are on. ("My batch prep / news watch / calendar refill never ran" → those
+   were retired as tasks on 2026-11-22; their work rides inside the Monday package — one task, not four. A member whose
+   Scheduled list still shows them is on a version before 0.10.0: update the plugin, new chat, "continue my attraction
+   short-form", and the setup deletes the three in one line.) Support never creates a scheduled task itself, and a demo
    Brain never gets one.
 2. **Does the task EXIST?** Cowork's scheduled-tasks panel (screenshot if unsure; the member's
    panel is the truth, support can't list it for them). Yes was given but no task → the creation
@@ -306,8 +309,17 @@ my CEO review". Neither has a task; that is by design, not a failure.
 
 Both content sittings do one step a reply and wait (since 0.6.0), and ask only blanket questions, the same
 for every member — ONE in each: short-form (since Short-Form 0.9.0; two from 0.8.0) and YouTube (since YouTube
-0.9.0; two from 0.8.0) — always in plain chat, never on a card with options. Most "it's broken" reports here are the design
-working. Cheapest check first.
+0.9.0; two from 0.8.0) — always in plain chat, never on a card with options. Since Short-Form 0.10.0 (2026-11-22,
+Mike's simplicity rework) the short-form sitting is also SHORT: two Reels and one carousel a week from week one, ONE
+Monday workflow on the card, Metricool stated, and it ends at the first Reel's script. Most "it's broken" reports here
+are the design working. Cheapest check first.
+
+**Version check, before anything else — a member who sees any of these is on a version before 0.10.0:** a card that
+switches on "four workflows" or names "Batch Prep", "news watch" or "calendar refill" · the question "about an hour… your
+office, your kitchen, your car" · a "Metricool or GoHighLevel — which one?" question · a ManyChat line in the sitting · a
+calendar that opens with carousels, then graphics, then Reels · a close that lists phrases, workflows or a stories
+routine. The fix is always the same: update the plugin (Customize → Plugins), open a new chat, say "continue my
+attraction short-form" — nothing they built is lost, and the setup removes the three retired tasks in one line.
 
 1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
    - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A question → they answer it in a
@@ -317,14 +329,17 @@ working. Cheapest check first.
    - It ends mid-sentence, or with an error → a cut-off reply: have them say "continue" once; twice → a fresh
      chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
 2. **"It's asking me questions — I thought it knew me."** One question is by design (FAQ Q71), word for
-   word the same for every member. Short-form: *"Which day could you film every week — and where?"* — a member
-   asked *"What do you do off the clock…"* is on a version before 0.9.0: update the plugin, new chat, "continue my
+   word the same for every member. Short-form: *"Which day could you block about three hours every week to film,
+   in the same spot — and where is that: your office or your home?"* — a member
+   asked *"What do you do off the clock…"* is on a version before 0.9.0, and one asked *"about an hour… your car"* is
+   on a version before 0.10.0: update the plugin, new chat, "continue my
    attraction short-form". YouTube: *"Which day could you film a full video every week?"* — and not even that when the Brain already
    holds their filming day from Week 4: it is read back for a Yes or a change, so "it asked me nothing but my
    channel" is by design. A member asked *"Which
    one could you talk about for twenty minutes with no notes?"*, or shown "Question 1 of 2", is on a version before
-   0.9.0: update the plugin, new chat, "continue my attraction YouTube setup". Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
-   opens). **Anything else is wrong:**
+   0.9.0: update the plugin, new chat, "continue my attraction YouTube setup". Plus, in YouTube, one fact (the channel link) and, in short-form, one pick (how the first Reel
+   opens) — the posting tool is never asked in short-form since 0.10.0 (Metricool is stated; "Metricool or GoHighLevel?" is the
+   older version). **Anything else is wrong:**
    - *"What's the first thing agents ask you on the phone?"*, *"Who would you sit down with?"*, "Question 1 of 4"
      → they are on an older version (0.7.x). Update the plugin (Customize → Plugins) and say "continue my attraction short-form" / "continue my attraction YouTube setup".
    - A question about email, platforms, which workflows or ManyChat, or anything they answered in Week 1 → a
@@ -343,11 +358,14 @@ working. Cheapest check first.
    the top of its card (FAQ Q75). A name or a number missing from the public piece is the privacy rule working
    (FAQ Q76). The meaning itself changed → a defect: log both versions.
 6. **"What it says I did at the end is wrong"** (the close's "what you did today"). Each line must match the
-   sitting: the answers under `## In your words` (a `skipped` one is not something they told it), the number
-   of posts a week they chose, their filming day. A mismatch → log it with the entries; never argue it with the
-   member.
-7. **"I chose two posts a week and the plan looks odd."** Any pace is allowed: the six designed posts go out
-   first (three weeks at two a week), then the Reels in turn. If the plan still says "your first two weeks" for a
-   pace that is not three a week, log it.
+   sitting: the answers under `## In your words` (a `skipped` one is not something they told it), their week (two
+   Reels and one carousel), their filming day. Four "You…" lines at most since 0.10.0. A mismatch → log it with the
+   entries; never argue it with the member.
+7. **"My calendar opens with carousels, then graphics, then Reels" / "where do I get to Reels?"** A version before
+   0.10.0 — since 2026-11-22 every week from week one is two Reels to film and one carousel to post (the kit's designed
+   posts are the week's carousel, one a week). Update the plugin, new chat, "update my short-form game plan". A
+   0.10.0 plan that still runs designed posts first → a defect: log it with the calendar's first two weeks.
+   **"It only asks for the guide on one post"** = the 90/10 rule working (FAQ Q52) — about one post in ten carries the
+   keyword ask; a 0.10.0 plan with the keyword on most posts → a defect: log it.
 8. Two fixes that do not work → **`maa-support-escalate`** with the stamp, the `## In your words` section and the
    last line on their screen.

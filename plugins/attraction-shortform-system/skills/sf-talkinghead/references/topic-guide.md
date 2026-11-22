@@ -36,7 +36,7 @@ left for the call. Compensation never appears in a Reel.
 - **Ends on one ask** (`mike-frameworks.md` §8; house rules #13): GUIDE (the guide) for Authority; follow, save or
   share for Perspective (or GUIDE when the take leads to the guide); a follow only for Personality; the invitation —
   the offer's word, or the kit's spoken line in the law's shape (*"If you want my help running this, free, [the
-  booking line]"*) — on about one post in four, most naturally a Proof Reel or a "what you get" Reel (a Proof Reel
+ the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post
   may carry the guide instead); a Story Reel ends on GUIDE, or on the invitation as the why-join-me moment. Never two
   asks on one Reel; never a third word; never the brokerage as the reason.
 - **Scalable** — the topic never promises the member's time per partner (no in-person days beside the member, no chat

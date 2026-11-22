@@ -1,6 +1,6 @@
 # Daily Stories — Scheduled Task Prompt (optional · OFF by default · draft-only)
 
-Create ONLY after the member's explicit yes (setup names it among the five extras — "say the word any time" — and
+Create ONLY after the member's explicit yes (never named in the sitting — the member's own phrase switches it on)
 never provisions it from that sentence alone; `sf-stories`' "turn on my daily stories" does): `create_scheduled_task`,
 `taskId: attraction-sf-daily-stories`,
 `cronExpression: [minute] [hour] * * *` (every morning at the member's chosen time, default 7:30 am, in the

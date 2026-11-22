@@ -239,42 +239,49 @@ Then, in a new Cowork chat, type:
 set up my attraction short-form
 ```
 
-It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. **You build it together, one step at a time: at each step it shows you what it built from what you have already told it, and you say Yes or tell it what to change.** Nothing is built while you are away. It asks you just one new question — the same one every member gets, whether you have attracted fifty agents or none yet: which day you can film. Answer in a sentence: type it, or tap the microphone and just talk; say "skip" if you would rather it chose. About the machinery it asks only one thing: which tool schedules your posts. In order:
+It already knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. **You build it together, one step at a time: at each step it shows you what it built from what you have already told it, and you say Yes or tell it what to change.** Nothing is built while you are away. It asks you just one new question — the same one every member gets, whether you have attracted fifty agents or none yet: which day you can block about three hours to film, and where. Answer in a sentence: type it, or tap the microphone and just talk; say "skip" if you would rather it chose. About the machinery it asks nothing — it tells you what it is switching on, and you say Yes. The whole plan is simple on purpose (Mike: "two Reels and one carousel a week, to get into momentum"). In order:
 
 1. **Your profiles and your two keywords, confirmed.** Your bios were written in Week 2 (chapter 6 of your kit). It
    confirms the identity line and the one link, states your platforms (Instagram and Facebook, both, always; LinkedIn only if team leaders are among the agents you want to attract), and confirms your two keywords:
    **GUIDE** (comment it and the DM sends your guide) and your own invitation word from your offer. Nothing else.
-2. **Your Short-Form Game Plan.** First the one question — your filming day. Then it shows you your five pillars — the
-   five kinds of post you will make — each one built from what you told it in Weeks 1 and 2, with your week (three
-   posts a week to start, filming on your day), and says "If that sounds like you, say Yes" Change anything: a pillar, how
-   many posts a week, your filming day. When you say Yes it builds the plan. Your 30-day calendar opens with the six
-   posts you designed in Week 3 ("post, don't make"), then your Reels. Every ask is one of your two keywords or the
-   call, in Mike's words: partner with me and get my help, free, to run this. ManyChat is how your two keywords answer themselves: you set it up in your own account this week (say `set up my ManyChat` and it writes out the steps), and it is never connected to Claude. The document lands in Content → Short-Form.
-3. **Your content board** in your own Notion: one dashboard, the thirty days as dated cards; its tabs are Graphics (your designed posts), Reels and Calendar — YouTube gets its own tab in Week 5, so the two never mix — and every card opens to the same page (the hook, the script, the caption, the ask, filming notes, sources). Your designed posts sit at Ready to Post until they go out. If Notion is not connected yet, a Connect button appears right in the chat; click it, sign in, say "connected", and the board is built.
-4. **Your workflows, switched on for you.** It tells you what it is setting up — the Monday week plan (your week's
-   posts drafted onto your board, plus any welcome or win post your Brain earned), batch prep (your film-day
-   sheet), the Wednesday brokerage news watch (three to six real, linked headlines with a 30-second take each) and the
-   monthly calendar refill — and that it will email you a short note at your own address when something is ready. You
-   say Yes. Every workflow only drafts; nothing posts on its own. Extras exist by phrase (keyword follow-up queue,
-   mid-week nudge, monthly deep dive, daily stories, quarterly profile check). `my attraction workflows` shows or
-   pauses any of them, any day. Then one straight question: **Metricool or GoHighLevel** — whichever schedules your posts. Name one and its Connect button appears in the chat.
+2. **Your Short-Form Game Plan.** First the one question, exactly this: **"Which day could you block about three hours
+   every week to film, in the same spot — and where is that: your office or your home?"** Then it shows you your five
+   pillars — the five kinds of post you will make, one line each, built from what you told it in Weeks 1 and 2 — and
+   your week, and says "If that sounds like you, say Yes". Change anything: a pillar, your filming day. When you say
+   Yes it builds the plan: **four weeks, and every week is the same shape — two Reels you film and one carousel you
+   post. Three posts a week, from week one.** The carousel is one of the posts you designed in Week 3 ("post, don't
+   make"), one a week; the Reels start in week one. The asks follow Mike's 90/10 rule: about one post in ten asks
+   for the guide (Comment GUIDE) or the call, in Mike's words — partner with me and get my help, free, to run this;
+   every other post builds trust and asks only for a follow, a save, a share or a comment. The document lands in
+   Content → Short-Form.
+3. **Your content board** in your own Notion: one dashboard, your four weeks as dated cards; its tabs are Graphics (your carousels), Reels and Calendar — YouTube gets its own tab in Week 5, so the two never mix — and every card opens to the same page (the hook, the script, the caption, the ask, filming notes, sources). This week sits at the top: your two Reels and your carousel. If Notion is not connected yet, a Connect button appears right in the chat; click it, sign in, say "connected", and the board is built.
+4. **Your Monday Week Plan, switched on for you — one workflow.** It tells you what it is setting up: every Monday,
+   7:00 am, your week in one package — the scripts for your two Reels and the cards you read from while you film, your
+   carousel's caption, and one industry story to react to when there is a good one — and that it will email you a
+   short note at your own address when it is ready. You say Yes. It only drafts; nothing posts on its own. That is the
+   only scheduled task; `my attraction workflows` shows or pauses it any day. Then your posting tool, stated, not
+   asked: **your posts go out through Metricool** — free to start; its Connect button appears in the chat, you sign
+   in and say "connected". (Already running GoHighLevel? Say so and it gives you those steps instead.)
 5. **Your first Reel — you choose how it opens.** It shows you three ways to open it; pick one, or say it your own
-   way, and it writes the script around your opening.
+   way, and it writes the script around your opening. The script tells you how to film it: on your phone, in
+   **Instagram's free Edits app** — it has a teleprompter built in: paste the script, press record, read.
 
-It closes with **what you did today** — your answers and your decisions, listed back to you — and your first win for the week: your first designed post, ready to go out. (Had to stop part-way? Say `continue my attraction short-form`. Skipped a question? `update my pillars` asks it again. Want the whole sitting again from the top? `redo my attraction short-form`.) Then your next step for editing (when your Reel is filmed, open a new chat and say `edit my reel`), and it hands you both files with their links: your Brain Board — the Short-Form dot turns green and its page shows your keywords, this week's posts and your workflows — and your Brain Book.
+It closes short: **what you did today** — four lines, each beginning "You" — then your Brain Board and your Brain Book with their links (the Short-Form dot turns green; its page shows your keywords, this week's three posts and your Monday Week Plan), then **this week**: film your two Reels on your day (this one's script is right there, the second is in your Game Plan), post your carousel, and when a Reel is filmed open a new chat and say `edit my reel`. Nothing after that — no list of phrases, no extra workflows. (Had to stop part-way? Say `continue my attraction short-form`. Skipped the question? `update my pillars` asks it again. Want the whole sitting again from the top? `redo my attraction short-form`. ManyChat, for your two keywords, is yours to set up in your own account when you are ready — say `set up my ManyChat` and it writes out the steps; it is never connected to Claude and never part of the sitting.)
 
 **Your editor.** In the same week: `set up riverside` (it reads the Video Brand Kit you designed in Week 3; say
 `register my video brand kit` if you have not yet), then `edit my video` or `make me a reel` whenever you have a
 recording. It asks once which editor is yours: your own Riverside account, or Instagram's free Edits app on your Mac
 (Claude Code on that Mac only). Either way every change is checkable and nothing is published without your yes.
 
-**Posting.** Copy-paste works from day one. To have posts scheduled for you: Metricool (in Cowork open Customize →
-Connectors, add the Metricool connector — a browser sign-in, no keys — then say `connect my posting tool`; your posts
-wait for your approval inside Metricool) or GoHighLevel (you create a Private Integration token in your own account and
-paste it, with your location, into the connector settings yourself, never into chat).
+**Posting.** Your posts go out through Metricool — the sitting connects it (in Cowork: Customize → Connectors, add the
+Metricool connector — a browser sign-in, no keys — then say `connect my posting tool` if you skipped it); your posts
+wait for your approval inside Metricool. Copy-paste is only what you do until it is connected. Already running
+GoHighLevel? Say so: you create a Private Integration token in your own account and paste it, with your location,
+into the connector settings yourself, never into chat.
 
 **Day to day:** `run my week plan` · `script my attraction reels` · `today's stories` · `attraction carousel` (the copy
-plus a build sheet for Claude Design) · `green screen on brokerage news` · `how's my content doing` · `plan my
+plus a build sheet for Claude Design) · `green screen on brokerage news` (your take on one industry story — lead
+generation, the market, new agents struggling; never a brokerage headline) · `how's my content doing` · `plan my
 attraction week` · `my attraction workflows`.
 
 ## 7. Week 5: your YouTube engine (one sitting in Cowork, about 35 minutes — the week's date is to be confirmed)
@@ -396,7 +403,7 @@ owns them and created only with your yes; every one is draft-only.
 | 3 | **Design Studio — the offer, guide, page and posts** — Claude Design skills, uploaded, not installed (section 5): your digital product mockup, the offer stack and one-pager, the guide PDF, the opt-in and thank-you pages, the six social posts, the video pop-ups, the call deck and welcome pack — all from your Week 3 Kit and your guide | `design my digital product` → `design my offer kit` → `design my guide pdf` → `design my funnel page` → `design my posts` → `design my pop-ups` | — |
 | **3** | **The brand chat** — a Cowork chat when Week 3 opens: what you already have, then the direction derived from how you talk, then your Design Package brief (section 5) | `my attraction brand direction` | — |
 | 3 | **The Design Package** — three Claude Design skills, uploaded, not installed (section 5) | `design my attraction logo` → `build my brand style sheet` → `make my brand kit` | — |
-| **4** | **Plugin 4 · Short-Form** — one phrase is the whole Week 4 session, in order (section 6): your profiles and two keywords confirmed, your Short-Form Game Plan (pillars from your offer, your calendar opening with the six posts you designed in Week 3), your Notion board, your workflows from one card, your first Reel | `set up my attraction short-form` | Monday week plan · batch prep · Wednesday news watch · monthly calendar refill (all four with your yes; all draft-only) |
+| **4** | **Plugin 4 · Short-Form** — one phrase is the whole Week 4 session, in order (section 6): your profiles and two keywords confirmed, one question (which day you can block three hours to film, office or home), your Short-Form Game Plan (two Reels and one carousel a week, four weeks dated, about one post in ten asking for the guide), your Notion board, your Monday Week Plan from one card, Metricool connected, your first Reel scripted — filmed in Instagram's free Edits app — then it stops | `set up my attraction short-form` | Monday Week Plan only (with your yes; draft-only; the week in one package) |
 | 4 | **Plugin 5 · AI Editing Studio (Riverside)** — your own Riverside account; install once, even if you have the realtor marketplace; it reads the Video Brand Kit you designed in Week 3 | `set up riverside`, then `edit my video` or `make me a reel` | — |
 | 3 | **Design Studio video kit** — one Claude Design skill (zip 08): the overlays your editor lays over every video (name card, the guide and call pop-ups, end cards, call-to-action banners in your words) and the spec your editor reads; registered with your editor in Week 4 (`register my video brand kit`) | `design my pop-ups` · `design my video kit` | — |
 | 4 | **ManyChat sequence templates** — required for your two keywords: install ManyChat yourself (the free plan starts you), import Mike's templates into your own account, then say the phrase and your short-form plugin writes out the steps. You never connect ManyChat to Claude | `set up my ManyChat` | — |
@@ -488,9 +495,10 @@ revenue-share marketing rules.
 
 
 **Week 4 — your short-form engine and your editor**
-- [ ] Plugins 4 and 5 installed; `set up my attraction short-form` — profiles and your two keywords confirmed (GUIDE and your invitation word), your Game Plan (your calendar opens with the six posts designed in Week 3), your Notion board, your four workflows switched on with your one yes (all draft-only; a short email to your own address when something is ready), your posting tool connected (Metricool or GoHighLevel — the Connect button appears in the chat), your first Reel.
-- [ ] The sitting closed by handing you your Brain Board and your Brain Book with their links; the Board shows the Short-Form dot green with your keywords, this week's posts and your workflows.
+- [ ] Plugins 4 and 5 installed; `set up my attraction short-form` — profiles and your two keywords confirmed (GUIDE and your invitation word), the one question answered (which day you can block about three hours to film, office or home), your Game Plan (two Reels to film and one carousel to post, every week from week one, four weeks dated; about one post in ten asks for the guide), your Notion board with the four weeks, your Monday Week Plan switched on with your one yes (the only scheduled task; draft-only; a short email to your own address when it is ready), Metricool connected (stated, not asked — the Connect button appears in the chat), your first Reel scripted with how to film it (Instagram's free Edits app, teleprompter built in).
+- [ ] The sitting closed short: four "You…" lines, your Brain Board and your Brain Book with their links (the Short-Form dot green with your keywords, this week's three posts and your Monday Week Plan), and this week's three moves — film your two Reels on your day, post your carousel, `edit my reel` when filmed. Nothing after that.
+- [ ] **This week:** two Reels filmed in one block on your filming day, one carousel posted.
 - [ ] `set up riverside` (it reads your Week 3 Video Brand Kit), then `edit my video` or `make me a reel` when you have a recording.
 - [ ] **Week 5 (date to be confirmed):** Plugin 6 installed; `set up my YouTube for agents` — your Channel Page (three pieces to paste today), your YouTube Game Plan (one video a week to start), the YouTube tab on your board (a real video to watch first and a six-step publish checklist on every card), the Monday Kickoff and the Monthly Channel Review switched on with your one yes, your first video handed over by title; your Brain Board shows the YouTube dot green.
-- [ ] Your posting tool connected — `connect my posting tool` any time it is not: Metricool (one click from the Connect button; posts wait for your approval inside Metricool) or GoHighLevel (your own token, pasted into the connector's settings yourself, never into the chat).
-- [ ] ManyChat set up in your own account (`set up my ManyChat` writes out the steps) — never connected to Claude.
+- [ ] Metricool connected — `connect my posting tool` any time it is not (one click from the Connect button; posts wait for your approval inside Metricool). Already running GoHighLevel? Say so for those steps (your own token, pasted into the connector's settings yourself, never into the chat).
+- [ ] ManyChat set up in your own account when you are ready (`set up my ManyChat` writes out the steps) — never connected to Claude, never part of the sitting.

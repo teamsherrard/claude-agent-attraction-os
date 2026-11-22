@@ -187,6 +187,12 @@ ends on exactly **one** rung, named out loud and repeated in the caption.
   set up this week in the member's own account, never connected to Claude, never "optional", never asked about; the
   steps are written only when the member asks ("set up my ManyChat") and never inside the setup sitting (the owner,
   2026-11-17); the keyword carries every Reel.**
+- **The 90/10 rule (Mike, 2026-11-22 — it governs how often the keyword is ASKED; the keyword still "carries" every
+  Reel in the sense that it is set up and ready).** *"90% of your content not having a sales-driven,
+  conversion-focused call-to-action."* About one post in ten carries a keyword or call ask; nine in ten build trust —
+  the story, why they joined, something useful for agents — and ask only for a follow, a save, a share or a comment
+  (*"follow if you want to learn how to scale your business without having to pay for leads"*). The call rung's "one
+  post in four" above is superseded. House rules #13 has the working rule.
 - **Never skip rungs.** A Reel never jumps from a first-time viewer to "book a call" — the call comes after a
   conversation (`02-prospect-targeting/19`: get them on a private call as quickly as possible, but say as little
   as you have to in text and never explain the model by DM).
@@ -237,8 +243,9 @@ highlights must spark curiosity and credibility.
   · personal (relatability) · leadership (authority and vision) — plus the "other Reels that attract agents":
   opinion/rants, myth-busting, future-focus, Q&A, collaborations. The five-pillar list above is that rotation
   in the cohort's vocabulary.
-- **Cadence: three to five Reels a week, working up to five** (`/88`). Static recognition and personal posts
-  spliced in are fine.
+- **Cadence: three to five Reels a week, working up to five** (`/88`) — **for the cohort, Mike set it at two Reels
+  and one carousel a week, every week, until momentum is real (2026-11-22: "the simplest, bare minimum thing that they
+  can do now")**; the plan never proposes more. Static recognition and personal posts spliced in are fine.
 - Share the story, vision, and leadership lessons; the mistakes and what you learned; core values, mindset,
   discipline, growth — "the reason most agents fail" — with your perspective and your solutions.
 - Culture and recognition on video, not just static: milestones, events, dinners, retreats, masterminds, team
@@ -342,7 +349,7 @@ banned. A skill asked to "call out" a brokerage or a person says so in one line 
   group (doctrine §10e) — (`04-value-proposition/33`, via `identity/proof.md`'s rule). Never manufacture a win.
 - **What should I post today?** Stories — one from each category you've missed (`sf-stories`). For a Reel, the
   pillar you're lightest on this week per `memory/content-log.md`.
-- **Editing?** Simple. Captions, a clean cut, done (`07/90`). The Riverside editor (`studio-reel`) handles it.
+- **Editing?** Simple. Captions, a clean cut, done (`07/90`). The AI Editing Studio (`studio-reel`) handles it.
 - **Best time to post?** Not covered in the short-form lessons. Use the connected posting tool's best-time data
   once it exists; otherwise post when the member is free to reply to comments for the first hour (the keyword
   rung needs the member present).

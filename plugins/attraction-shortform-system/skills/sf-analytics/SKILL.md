@@ -147,8 +147,7 @@ once. The report, in order:
 - **PART 4 — THE OPENINGS** (3–5 four-line cards: what we found · why it matters to you · do this — hook ·
   format · pillar · week · the proof)
 - **PART 5 — YOUR NEXT 30 DAYS:** KEEP DOING · FIX · THE PLAN (the week's mix from `publishing.md` — one of each at three a week, 2 · 2 · 1 at five — by
-  pillar, one post per row, each with its one ask — GUIDE on most, the invitation (the offer's word or the call line)
-  on about one post in four, most naturally a Proof piece or a "what you get" piece; every call line in the law's shape, the person · their help · free · to run this, never
+  pillar, one post per row, each with its one ask — the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; every call line in the law's shape, the person · their help · free · to run this, never
   the brokerage as the reason; stories daily) · POST AT (the three best slots) · THE POST TO REPURPOSE · **THE STEP
   UP** (only when `Cadence:` is three and the window's log shows three Reels posted in each week — *"a month at three
   a week has held — you're ready for five; say 'change my cadence' and I'll remap the month on five a week"*; the member's word
@@ -174,7 +173,7 @@ once. The report, in order:
    connected]."* If any of those did not happen, say which and why.
 
 ### The Monthly Deep Dive as a scheduled workflow (by phrase — the 1st of the month)
-One of the five extras setup states in one sentence ("they're there if you want them; say the word any time"); never
+One of the five by-phrase workflows (never named in the sitting — Mike, 2026-11-22); never
 provisioned from that sentence alone. It is created only with the member's yes — their phrase is the consent — and never
 silently. "Turn on my monthly deep dive" → read the `Deep Dive task:` line of
 `config.md`'s Short-Form block (a line is found by its label or by its task id value): a task id → on, say so;

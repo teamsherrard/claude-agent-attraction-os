@@ -190,7 +190,7 @@ any day. This skill writes the words; the graphic is the member's, in Claude Des
    when held (`HELD — needs First's OK`); push via `attraction-brain-sync` at once (write → push → verify) — the Brain
    Board shows it. A win that is also proof for the member's own story: "say 'attraction win' so it's remembered".
 
-## The scheduled workflow — Daily Stories (by phrase — one of the five extras; this skill owns it)
+## The scheduled workflow — Daily Stories (by phrase — never named in the sitting; this skill owns it)
 Three story ideas each morning as a draft — for the member who wants the day started for them. **Provisioned
 only with the member's explicit yes, never silently.** Setup states it among the five extras in one sentence
 ("they're there if you want them — say the word any time") and never provisions it from that sentence alone. "Turn on

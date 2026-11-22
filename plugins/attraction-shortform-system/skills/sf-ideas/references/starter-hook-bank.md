@@ -23,7 +23,7 @@ appears where the file requires it — the stamp, the bio). `[guest]`, `[N]`, `[
 weekly-call day from `proof.md` / `operations.md` **with consent on file**; no consent → first name or initials, or
 the member's own behind-the-scenes. `[model]` → the model's name as `brokerage-model.md` states it (never its figures). `[KEYWORD]` → **GUIDE** (the guide,
 `memory/magnets.md → ## Current magnet`) wherever the ask is a resource; the offer's `Comment keyword:` only where the
-angle is the invitation itself — about one post in four, most naturally a Proof row (a Proof row may carry GUIDE
+ the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post
 instead). Two words, never a third; a Personality row carries no keyword — its ask is "follow" and nothing more.
 
 **The compliance pass this bank already passed (re-run it on every swap):** no compensation, rev share, splits,
@@ -132,7 +132,7 @@ drop it.
 | 1 | **Pain named** (hard) | every pick names one agent's pain, in the agent's words, from Mike's five — never a brokerage feature | identify agents' pain points and address them · `02-prospect-targeting/18`; §6 |
 | 2 | **Resource offered** (hard) | at least one of the week's picks at three a week (two at five) ends on the keyword rung with a **real** resource — the live magnet (`memory/magnets.md → ## Current magnet`, then `offer.md`'s free thing); none yet → the free thing the member gives today or "book a call", never a demanded guide | offer valuable resources · `07-instagram/87`; `04-value-proposition/31` |
 | 3 | **Proof when consented** (hard) | the Proof pick names an agent only with consent in `proof.md`; otherwise first name or initials, or the member's own behind-the-scenes; no win invented, no figure projected | highlight success stories of agents you have helped · `06-content-framework/40` |
-| 4 | **CTA present** (hard) | every pick ends on exactly one ask, said on camera and in the caption — GUIDE on most picks; the invitation (the offer's own word, or the kit's call line) on about one post in four — most naturally the Proof pick, which may carry the guide instead; "follow" only on a Personality pick; never two asks on one post | always a clear call to action · §8 |
+| 4 | **CTA present** (hard) | every pick ends on exactly one ask, said on camera and in the caption — the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; "follow" only on a Personality pick; never two asks on one post | always a clear call to action · §8 |
 | 5 | One thing to do today | the Authority pick(s) give a step the agent can use this week — the tip of the iceberg, taught for real | educational content with actionable advice · `06-content-framework/37`; `07-instagram/88` |
 | 6 | Only this member could post it | the any-agent test — the member's lane, story, avatar, or organization is in the line | showcase what sets you apart · `04-value-proposition/34` (the differentiator) |
 | 7 | A reason to reply | at least one pick asks a question or invites a comment the member will answer in the first hour (the keyword rung needs them present) | engage the audience — questions, comments, replies · `07-instagram/89` (polls, AMAs) |

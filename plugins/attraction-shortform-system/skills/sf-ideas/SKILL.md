@@ -31,9 +31,7 @@ not preloaded — the two Brain cells this skill writes (an `ideas.md` status, t
   an idea never names a third word.
 - **The call ask follows the law:** the person · their help · free · to run the method — never the brokerage, never
   compensation (join register: *"partner with me and it's free. Grab [the call]"*; open register, `Join-gated package
-  allowed: no`: *"I'll walk you through it, free, no strings"*). GUIDE is the ask on most ideas; the invitation (the
-  offer's own word, or the kit's call line) on about one post in four — most naturally a Proof idea or a "what you
-  get" idea (a Proof idea may carry the guide instead); a Personality idea asks for a follow only; never two asks on
+  allowed: no`: *"I'll walk you through it, free, no strings"*). the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; a Personality idea asks for a follow only; never two asks on
   one post (house rules #13).
 - **Scalable by design.** No idea or hook promises the member's time per partner — no in-person days beside the
   member, no chat group, no one-to-one calls, no "call me any time". Partners get recorded lessons, templates, the
@@ -119,9 +117,7 @@ Build, in this order:
   the mix `Weekly mix:` holds (**one attraction · one authority · one story at the default three a week; 2 · 2 · 1
   only at five** — attraction = Proof + Personality; authority = Authority + Perspective; story = Story;
   `mike-frameworks.md` §9d). Each: # · the title the way a person would say it · the angle in one line · pillar ·
-  the avatar it is for · the format (talking head / green screen / carousel / story) · its one ask — GUIDE on most
-  picks (a teach or a take that hands out the guide); the invitation (the offer's word, or the kit's call line in
-  the law's shape) on about one post in four — most naturally the Proof pick, which may carry the guide instead;
+  the avatar it is for · the format (talking head / green screen / carousel / story) · its one ask — the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post;
   "follow" only on a Personality pick;
   never two asks on one pick. A calendar row that is one of the six kit posts is a designed graphic — it keeps its date
   and is never re-ideated; the week's picks are the Reels around it.

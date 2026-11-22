@@ -19,7 +19,7 @@ For each chosen topic, deliver a package the member can film immediately. Everyt
    I'll send it."* · the invitation — *"If you want my help running this, free, [the booking line]."* (the law's shape:
    the person · their help · free · to run this; open register — `offer.md → Join-gated package allowed: no` — *"I'll
    walk you through it, free, no strings."*) · *"Save this for the next time you feel stuck."* One ask per Reel; GUIDE
-   on most, the invitation on about one post in four — most naturally a Proof Reel or a "what you get" Reel (a Proof
+ the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post
    Reel may carry the guide instead); a Personality Reel asks for a follow only. The model, the money, the brokerage as the
    reason, and any promise of the member's time per partner never appear — that is the private call.
 
@@ -37,7 +37,9 @@ your brokerage." · "If two weeks off slows your income, you don't have freedom 
 
 ## Two delivery formats (always give both)
 - **Teleprompter version** — word-for-word, the way they actually talk (contractions, short sentences, their
-  signature phrases from `voice-print.md`). Mark it clearly as read-aloud.
+  signature phrases from `voice-print.md`). Mark it clearly as read-aloud, with the one filming line: *"Film on your
+  phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read."*
+  (Mike, 2026-11-22: one app, named, so nobody has to think about it.)
 - **Bullet version** — the same Reel as 5 riff lines (hook and CTA kept word-for-word). Most members film from
   this — it sounds more like them.
 

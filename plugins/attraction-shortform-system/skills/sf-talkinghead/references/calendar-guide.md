@@ -34,25 +34,19 @@ first window the six kit posts and six Reels — 1 attraction · 1 authority · 
 
 ## Output (use these exact section names)
 - **THE MONTH AT A GLANCE** — one paragraph: what this month establishes and why this order.
-- **THE SIX KIT POSTS, THEN THE REELS** — the kit rows first, then the Reel rows at the cadence (six at the default three a week, fourteen at five), in one table: # · **date** (real, `YYYY-MM-DD`) · day · format (talking
+- **YOUR FOUR WEEKS** — one band per week, each one carousel and two Reels, in one table: # · **date** (real, `YYYY-MM-DD`) · day · format (talking
   head · green screen · carousel) · pillar · working title · hook · for whom · what it carries (story hook / win /
   teach / finding #) · rung + keyword · System ID (`sf-YYYY-MM-DD-NN`) — that is the row as the Brain keeps it
   (`memory/content-calendar.md`, the locked eleven columns); in the document the member reads, the table is five
   columns: Date (written "Tue, Nov 17", never 2026-11-17) · What (the format and the working title) · The hook · The
   ask (in words: "Comment GUIDE" · "Comment [WORD]" · "Follow") · Status. Rules:
-  - **Dates make sense:** a Reel's publishing date is never earlier than the day after the batch day that films it;
-    a week made only of designed posts carries the one line "This week you only post — nothing to film."
-  - **The six kit posts come first** when a window opens and they are still unposted: the Game Plan's first rows, one
-    every two or three days, Format `Graphic` or `Carousel`, Status `Ready to Post` (never `Ready to Film` — nothing
-    was recorded; the owner, 2026-11-14) — they are designed already (Week 3, the member's Offer
-    folder): "post, don't make"; posting flips them to `Published`. Then the Reels.
-  - **The first Reels establish who they are:** the kit posts already carry Story and Proof, so the first Reels are Personality, Perspective and the Authority teach (a Story Reel — the hardest stretch or the turning point — when the cadence allows). An agent who finds them this month should be able to answer the five profile questions from the feed alone.
+    - **Dates make sense:** a Reel's publishing date is never earlier than the day after the filming day that films
+    it; every week holds one carousel and two Reels (Mike, 2026-11-22) — never a week of designed posts only.
+  - **Each week's carousel is a kit post while the six last** (one a week, in the kit's order, Status `Ready to Post` — designed in Week 3, "post, don't make"; posting flips it to `Published`); the two Reels film in week one — never a run of designed posts before the first Reel (Mike, 2026-11-22).
+  - **The two Reels rotate the pillars:** one that teaches or takes a stand (Authority or Perspective), one that shows who they are (Story, Proof or Personality); every pillar at least once across the four weeks.
   - The member's own ideas and this month's objections land in the first two weeks of Reels, not the last.
   - No story is used twice in the month; no pillar has more than two Reels in a week.
-  - Every post ends on one ask, by the call-ask rule (house rules #13): GUIDE is the ask on most posts; the invitation
-    — the offer's own word, or the kit's call line in the law's shape (the person · their help · free · to run this) —
-    on about one post in four, most naturally a Proof piece or a "what you get" piece (a Proof piece may carry the
-    guide instead); a Personality Reel asks for a follow only; never two asks on one post; the six designed kit posts
+  - Every post ends on one ask, by the call-ask rule (house rules #13): the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; a Personality Reel asks for a follow only; never two asks on one post; the six designed kit posts
     keep exactly the asks the kit printed; the CTA cell quotes the table's line, never a third word.
   - Teaching Reels walk the method: across a month the Authority rows cover the framework's steps in order (one step
     per Reel, the guide named as where the rest lives) — the whole method, not one tactic.

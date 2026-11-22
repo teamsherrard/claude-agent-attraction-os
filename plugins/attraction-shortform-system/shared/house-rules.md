@@ -94,12 +94,12 @@ assistant — never the machinery. **Vocabulary:** "the member" is the person we
   "rebuild my kit"). Housekeeping goes last, in one line.
 - **Short-form is Week 4 — never an earlier week number in front of the member**, never a nickname for the Claude
   Design workspace ("your Claude Design project"), never a skill id or a file path in a sentence to the member.
-  **The editing step is stated, never hedged (the owner, 2026-11-14):** Plugin 5, the AI Editing Studio (Riverside),
-  is installed in Week 4 with this plugin — part of the process, not a maybe. Wherever a Reel has just been scripted
-  or a film day planned, and in a sitting's close: *"When it's filmed: open a new chat and say 'edit my reel' — that
-  opens your AI Editing Studio (Plugin 5), which edits inside your own Riverside account and reads the Video Brand Kit
-  you designed in Week 3. Not installed yet? Install Plugin 5 from the same marketplace first, then say 'set up
-  riverside' once."* (one line where space is tight: *"filmed? New chat → 'edit my reel'."*). Never hedged.
+  **The editing step is stated, never hedged (the owner, 2026-11-14):** the AI Editing Studio is installed in Week 4
+  with this plugin — part of the process, not a maybe. Wherever a Reel has just been scripted or a film day planned,
+  and in a sitting's close: *"When it's filmed, open a new chat and say 'edit my reel' — your AI Editing Studio edits
+  it."* — never a plugin number, an engine's name or "not installed yet?"; the install sentence only when no AI
+  Editing Studio skill is in the session (*"Install the AI Editing Studio from the same place you installed this
+  plugin, then say 'set up my video editor' once."*). Never hedged.
   **The other plugins by condition, never by name:** the YouTube system "a later week",
   Conversion "when that plugin is installed" — side doors, never requirements; the Design Studio's content skill is
   "your Claude Design content skill".
@@ -136,7 +136,7 @@ and design *direction* in plain language. It never renders an image, slide, or g
 visual is needed, describe it in words and hand it to the Design Studio by name — `aa-content-design` for carousels
 and LinkedIn document posts (Claude Design; to the member, "your Claude Design content skill") — or tell the member
 to build it in Claude Design (claude.ai/design, or a Design canvas inside Cowork). The hand-off is a **lean build sheet** (rule #16), never a strategy doc. No PNGs,
-ever. Video edits go to the AI Editing Studio (Plugin 5, `studio-reel`) — stated as the next step, never hedged:
+ever. Video edits go to the AI Editing Studio (`studio-reel`) — stated as the next step, never hedged:
 *"when it's filmed: open a new chat and say 'edit my reel'"* (rule #1).
 
 ---
@@ -261,7 +261,7 @@ seeded at **`Ready to Post`**, the Monday plan writes their captions and leaves 
 
 If the member has the **Content Dashboard** in their own Notion (the ONE board shared with the YouTube plugin —
 spec: `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`, builder: `sf-board`), setup Step 4 mapped the Game
-Plan's 30-day calendar onto it as dated cards (one per post, found by System ID — the six kit posts first, then the
+Plan's 30-day calendar onto it as dated cards (one per post, found by System ID — each week's carousel on the Graphics tab, the Reels on the Reels tab; the
 Reels), the Monday Week Plan fills this
 week's cards and keeps 30 days visible, and every finished post gets its card filled: format, pillar (the OS
 name), the full package in the card body, publish date — flipped to Published only when it actually goes live.
@@ -331,8 +331,21 @@ Read `identity/offer.md`'s `Join-gated package allowed:` line first; it decides 
   "your open houses"), so the reader knows what the help is FOR. Compensation never. The member's own primary CTA
   from the Brain wins when it already carries this shape; otherwise it is adapted to it, not pasted.
 Captions and end cards take their call line from the kit's CALLS TO ACTION table (rule #15) — the same words every
-time. **The call-ask rule — the ONE rule every skill in this plugin writes:** GUIDE is the ask on most posts. The invitation (the offer's own word, or the kit's call line) is the ask on about one post in four — most naturally a Proof piece or a "what you get" piece. A Proof piece may carry the guide instead. Never two asks on one post. The six designed kit posts keep exactly the asks the kit printed. **The ask by
-pillar:** Authority → GUIDE · Perspective → follow, save or share (or GUIDE) · Story → GUIDE or the invitation · Proof → the invitation or GUIDE · Personality → follow, and nothing more (rule #12 for the two words).
+time. **The 90/10 rule — the ONE rule every skill in this plugin writes (Mike, 2026-11-22, a recorded review of the
+plan: "we specifically said in the short-form breakdown… 90% of your content not having a sales-driven,
+conversion-focused call-to-action… every single video except for one is a call-to-action… it needs to be flipped.
+There's nothing here focused on building trust and just sharing their story and explaining why they joined… a
+CTA of just, like, 'follow if you want to learn how to scale your business without having to pay for leads'"):**
+**about one post in ten carries a keyword ask** — Comment GUIDE for the guide, or the offer's word with the call line
+in the law's shape above; in a four-week plan of twelve posts, ONE (the kit's guide carousel in week one; the kit's
+"book the call" post when its week comes). **Every other post builds trust and asks only for a follow, a save, a
+share or a comment on the topic**, in the member's voice. Never two asks on one post. The ask map by pillar is
+soft everywhere — Authority "save this" · Perspective "follow for the next one" · Story "comment if you've been
+there" · Proof "share this with an agent who needs it" · Personality "follow for the next one" — and only the
+month's one keyword post carries a keyword. A kit post whose printed ask is a keyword keeps it only when it is that
+post; otherwise its caption's last line is the soft ask (the slides are never redesigned). The old rule ("GUIDE on
+most posts, the invitation on one in four") is retired: it was the reverse of Mike's training, and "we can't run
+into that situation where I'm saying one thing and the training is showing otherwise".
 
 ---
 
@@ -417,22 +430,23 @@ Board" — never a file, never a path.
 
 ---
 
-## 18. Scheduled workflows — nine, draft-only; four switched on by the consent card's Yes, five by phrase
+## 18. Scheduled workflows — ONE switched on by the consent card's Yes, five by phrase; all draft-only
 
-Cowork scheduled tasks run in the cloud on the member's clock. The nine, by name, task id, owner, how they come on
-and when (the contract's `## Scheduled workflows` section carries the same table). Two older workflows were retired
-on 2026-11-14 (the owner; the contract names them): the engagement routine lives as the Game Plan's
-15-minute daily routine (text, not a task); the performance read lives on demand ("how's my content doing" →
-`sf-analytics`, whose text goes to `exports/short-form-performance-YYYY-MM-DD.txt` for the Brain Board) and in the
-Monthly Deep Dive; the cadence step-up (three → five Reels a week after a month at three has held) is proposed by the
-Monthly Calendar Refill and the Monthly Deep Dive.
+Cowork scheduled tasks run in the cloud on the member's clock. **Mike, 2026-11-22: "Monday, there's a scheduled task.
+Tuesday… Wednesday… monthly… why does the prep need to be on a separate day? Why does the green screen need to be
+on a separate day? …one, where it's like, here's your weekly package that has the prep and has any sort of green
+screen articles."** So the sitting switches on ONE workflow — the Monday Week Plan, the week in one package: the two
+Reel scripts, the cards the member reads from while they film, the carousel's caption, at most one industry story
+to react to when there is a good one, the four weeks kept mapped. **Retired as tasks on 2026-11-22:** Batch Prep (the
+cards ride in the Monday package; the film-day plan stays on demand), the Wednesday Brokerage News Watch (at most one
+industry item a week, inside the package — industry news, lead generation, new agents struggling; never a brokerage
+headline), the Monthly Calendar Refill (the Monday run keeps the four weeks mapped; "refill my attraction calendar"
+on demand). Two older workflows were retired on 2026-11-14 (the engagement routine is the Game Plan's text; the
+performance read is on demand). The five by-phrase workflows still exist and are **never named in the sitting**.
 
 | Workflow | Task id | Owner | Switched on | When |
 |---|---|---|---|---|
-| Monday Week Plan — the week's scripts, captions and stories drafted onto the board + a week brief; the win and welcome posts inside it | `attraction-sf-week-plan` | `sf-week-plan` | **by the consent card's Yes** | Mondays, 7:00 am |
-| Batch Prep — the teleprompter doc for the batch day: this week's scripts grouped by outfit and location, hooks three ways, the keyword on each | `attraction-sf-batch-prep` | `sf-batch-publish` | **by the consent card's Yes** | the evening before the batch day, 6:00 pm |
-| Wednesday Brokerage News Watch (the owner, 2026-11-14: "important") — three to six REAL headlines from the last 30 days, found by a live web search and cited (title · outlet · date · the link), never invented, each with a 30-second green-screen take in the member's angle; one doc, ONE card on the Notion board (the week's green-screen slot filled with the best take, the alternates inside it with their links — never one card per headline), the text in `exports/` | `attraction-sf-news-watch` | `sf-greenscreen` | **by the consent card's Yes** | Wednesdays, 8:00 am |
-| Monthly Calendar Refill — the next thirty days from the pillars, the branches and what performed; the board refilled; the step to five proposed once a month at three has held | `attraction-sf-calendar-refill` | `sf-gameplan` | **by the consent card's Yes** | the last Friday of the month, 5:00 pm |
+| Monday Week Plan — the week in one package: the two Reel scripts, the cards the member films from, the carousel's caption, at most one industry story, the four weeks kept mapped; the win and welcome posts inside it | `attraction-sf-week-plan` | `sf-week-plan` | **by the consent card's Yes** | Mondays, 7:00 am |
 | Keyword Follow-up Queue — who commented or DMed a keyword since last time, the next DM in the ladder drafted | `attraction-sf-keyword-queue` | `sf-comment-to-dm` | by phrase | Tuesdays and Thursdays |
 | Mid-week Nudge — "two posts due this week; here is today's script" | `attraction-sf-midweek-nudge` | `sf-week-plan` | by phrase | Wednesdays |
 | Monthly Deep Dive — the analytics report; the step to five proposed once a month at three has held | `attraction-sf-deep-dive` | `sf-analytics` | by phrase | the 1st of the month |
@@ -446,32 +460,30 @@ the consent gate holds: an agent is named or pictured only with their written OK
 otherwise first name or initials; and "write a win post for [Name]" is on demand in `sf-stories`.
 
 **Clips from a video fill the week's Reel slots — they never add posts** (the owner, 2026-11-14): the Monday Week Plan
-reads the calendar's `## Clips from your videos (YouTube)` section first and drafts up to two of this week's `talking
-head` Reels still at `Idea` from queued clips (newest video first; the clip's hook and script, `Carries` → `clip:
-[System ID]`, the row's ask kept) — at least one Reel stays the plan's own, the six kit posts and the green-screen
-news slot are never replaced, the displaced topic returns to `memory/ideas.md` (`returned from [date]`), three posts a
-week stays three, and the note says it once: *"Two of this week's Reels are clips from '[video title]' — film them
+reads the calendar's `## Clips from your videos (YouTube)` section first and drafts up to one of this week's two
+`talking head` Reels still at `Idea` from a queued clip (newest video first; the clip's hook and script, `Carries` →
+`clip: [System ID]`, the row's ask kept) — one Reel stays the plan's own, the carousel is never replaced, the
+displaced topic returns to `memory/ideas.md` (`returned from [date]`), three posts a week stays three, and the note says it once: *"Two of this week's Reels are clips from '[video title]' — film them
 straight from the script."* (the contract's clip queue has the whole rule).
 
 The rules every task obeys:
 - **The consent card's Yes, told not asked.** (Every step of the sitting waits for the member — rule #1; this Yes is
-  the one that creates the scheduled tasks.) The consent card at setup is a statement in the owner's shape — *"Here's what I'm
-  switching on for you: [the four, each with its day and time]. Every one only drafts; nothing posts, sends or
-  schedules on its own. I'll also email you a short note at your own address when something's ready. Say Yes and I'll
-  set them up."* — and all four are provisioned on that Yes; the five extras are stated in one sentence ("they're
-  there if you want them — say the word any time") and switched on by the member's phrase ("turn on my …"), each as a
-  statement, never an offer ("want …? yes, and what time?" is gone). A task is provisioned with
-  `create_scheduled_task` with its prompt the verbatim file in the owning skill's `references/`, **a plain `title`
-  the member will recognise in their Scheduled list — the workflow's own name, "Your Monday Week Plan", "Your Batch
-  Prep", "Your Brokerage News Watch", "Your Monthly Calendar Refill" — and the one-line `description` the tool
-  requires (what it drafts, and "draft only")**, verified with
-  `list_scheduled_tasks` (adopt an existing twin, never create a second). Never claim a schedule that did not save.
-  A demo Brain never gets a task.
+  the one that creates the scheduled task.) The consent card at setup is a statement in the owner's shape — *"Here's
+  what I'm switching on for you: your Monday Week Plan — every Monday, 7:00 am, your week in one package: the scripts
+  for your two Reels, the cards you read from while you film, your carousel's caption, and one industry story to react
+  to when there's a good one. It only drafts; nothing posts on its own. I'll email you a short note when it's ready.
+  Say Yes and I'll set it up."* — and the one task is provisioned on that Yes; the five by-phrase workflows are not
+  mentioned (Mike, 2026-11-22: "I wouldn't show them any of this") and are switched on by the member's phrase ("turn
+  on my …"), each as a statement, never an offer. A task is provisioned with `create_scheduled_task` with its prompt
+  the verbatim file in the owning skill's `references/`, **a plain `title` the member will recognise in their
+  Scheduled list — "Your Monday Week Plan" — and the one-line `description` the tool requires** (what it drafts, and
+  "draft only"), verified with `list_scheduled_tasks` (adopt an existing twin, never create a second). Never claim a
+  schedule that did not save. A demo Brain never gets a task.
 - **Recorded in `config.md → ## Short-Form (Week 4)`** — one line per task, locked spelling and order (the
-  contract has the list; the three retired lines the contract names are gone — a writer deletes them from an older
-  block on its next write): exactly one of three values — a task id (on) · `paused` (the member stopped it; its phrase
-  brings it back) · `later` (not switched on yet — the four only when a save failed or the Yes was not given; the five
-  until their phrase). A reader treats any value that is not a task id as not on. Readers accept the older heading the contract names. No brackets in the block.
+  contract has the list; the six retired lines the contract names are gone — a writer deletes them from an older
+  block on its next write, and deletes a retired line's task): exactly one of three values — a task id (on) ·
+  `paused` (the member stopped it; its phrase brings it back) · `later` (not switched on yet — the Monday Week Plan
+  only when a save failed or the Yes was not given; the five until their phrase). A reader treats any value that is not a task id as not on. Readers accept the older heading the contract names. No brackets in the block.
 - **Draft-only, always.** A run drafts, saves, logs and pushes; it never posts, schedules a post, moves a pipeline
   stage, or sends anything to anyone but the member (rule #19). A scheduled run has nobody to click a permission
   card, so every prompt falls back to the Brain's ledgers and says so. Live Instagram numbers come only through the
@@ -481,7 +493,7 @@ The rules every task obeys:
   reads them when connected — and never posts a reply on the member's behalf; not connected → it works from the
   comments and DMs the member logs.
 - **Stoppable in one sentence** — "stop my Monday plan", "pause my news watch" — by the owning skill, which updates
-  the config line and says what stopped. "My attraction workflows" (`sf-week-plan`) lists all nine with their
+  the config line and says what stopped. "My attraction workflows" (`sf-week-plan`) lists every workflow with its
   status.
 - **Every run ends with a push**, so the Brain Board shows it (rule #17).
 
@@ -551,9 +563,10 @@ fallback; never a block). ManyChat is not in the directory — never connected (
 ## 22. The config block — locked spelling and order (the owner, 2026-11-14)
 
 `config.md → ## Short-Form (Week 4)`, exactly these lines and nothing else: `Installed:` · `Plugin version:` · `Layer:
-identity/publishing.md` · `Week Plan task:` · `Week Plan slot:` · `Batch Prep task:` · `Batch Prep slot:` · `News Watch
-task:` · `News Watch slot:` · `Calendar Refill task:` · `Keyword Queue task:` · `Midweek Nudge task:` · `Deep Dive
-task:` · `Daily Stories task:` · `Daily Stories time:` · `Profile Audit task:` · `Email me:`. The three retired lines (the
-contract names them) are gone — a writer deletes them from an older block on its next write. No brackets in the block.
+identity/publishing.md` · `Week Plan task:` · `Week Plan slot:` · `Keyword Queue task:` · `Midweek Nudge task:` · `Deep Dive task:` · `Daily
+Stories task:` · `Daily Stories time:` · `Profile Audit task:` · `Email me:`. The six retired lines (the contract names
+them — the two of 2026-11-14, and `Batch Prep task:` · `Batch Prep slot:` · `News Watch task:` · `News Watch slot:` ·
+`Calendar Refill task:` of 2026-11-22) are gone — a writer deletes them from an older block on its next write, and
+deletes the task a retired line still names. No brackets in the block.
 This plugin writes nothing to `identity/operations.md` but the single `Filming window:` line.
 

@@ -118,7 +118,7 @@ optional by design:
 
 - **Riverside** — the AI Editor runs on your own Riverside account (Week 4) — the main path; or, from the Code tab of the Claude app on a Mac, Instagram's free Edits app, no account to pay for (Q81)
 - **ManyChat** — the comment-to-DM sequences import into your own account; the free plan first
-- **Metricool** — only for auto-publishing (manual posting is free)
+- **Metricool** — your posts go out through it from Week 4; free to start (copy-paste only until it is connected)
 - **Your CRM** — GoHighLevel or Follow Up Boss if you have one; Google Sheets is the free option
 - **Notion** — only if you want a content board
 
@@ -392,7 +392,7 @@ Two halves — a bonus asset you import, and your system that writes around it.
 
 - **Two keywords, never more:** GUIDE sends your guide; your own invitation word (from your offer) opens the conversation about partnering with you. The older words — PARTNER, SCALE, GROWTH — are retired (Q52)
 - The **ManyChat Agent Attraction Sequences** (the Week 4 bonus asset) are importable flow templates for those two keywords, the story reply and the DM qualifier. They import into YOUR ManyChat account. ManyChat is required for the two keywords to answer themselves, the free plan starts you, and it is never connected to Claude
-- Your short-form setup puts one of the two words on every Reel. When you are ready to set ManyChat up, say "set up my ManyChat" and it writes out the steps for your own account
+- Your short-form plan puts one of the two words on about one post in ten (the 90/10 rule — the rest ask for a follow, a save, a share or a comment). The setup sitting says nothing about ManyChat; when you are ready to set it up, say "set up my ManyChat" and it writes out the steps for your own account
 - Where conversations go: anything real gets captured to your top 50 ("capture this")
 - Acting up? Test it like an agent: comment the keyword yourself and watch where it stops — that's the break; ManyChat-side problems go to ManyChat's support
 
@@ -630,44 +630,58 @@ and your thank-you page all point at it. You can say "later" and set it up any d
 **Q52. Short-form: which keyword do I put on my Reels?**
 Two words only, set in Week 2 and confirmed in Week 4: **GUIDE** (comment it and the DM sends your guide) and your own
 invitation word from your offer (it sends the one-pager and the invitation to talk). Everything else — PARTNER, SCALE,
-GROWTH — is retired. One ask per post; the call ask is always "partner with me and get my help, free, to run this". The two words answer
+GROWTH — is retired. One ask per post, on the 90/10 rule: about one post in ten carries a keyword ask (Comment GUIDE, or
+your invitation word with the call line — "partner with me and get my help, free, to run this"); every other post builds
+trust and asks only for a follow, a save, a share or a comment on the topic. In a month of twelve posts that is one — so
+"it only asks for the guide on one post" is the plan working, not a miss. The two words answer
 themselves through ManyChat — your own account, the free plan to start, Mike's templates imported, and the steps your
 plugin writes when you say "set up my ManyChat"; you never connect ManyChat to Claude, and no paid ManyChat plan is needed for that.
 
 **Q53. What are the short-form workflows, and do they post for me?**
-They never post, send or schedule anything; every one drafts and leaves it for you. Setup tells you what it is switching
-on and you say Yes to that card: the Monday week plan (your week's posts onto your board, plus any welcome or win post your
-Brain earned), batch prep (your film-day sheet), the Wednesday brokerage news watch (three to six real, linked
-headlines with a 30-second take each) and the monthly calendar refill. By phrase, any time: the keyword follow-up queue,
-the mid-week nudge, the monthly deep dive, daily stories, the quarterly profile check. Say "my attraction workflows" to
-see or pause any of them. Each run leaves a note in Cowork, rebuilds your Brain Board, and sends you one short email at
-your own address when something is ready (if your mail is connected).
+They never post, send or schedule anything; every one drafts and leaves it for you. Setup switches on ONE: your **Monday
+Week Plan** — every Monday, 7:00 am, your week in one package: the scripts for your two Reels and the cards you read
+from while you film, your carousel's caption, and one industry story to react to when there is a good one. You say Yes
+to that one card and that is all. (A friend's setup switched on four — batch prep, a Wednesday news watch, a monthly
+refill? That was the version before 0.10.0; their work now rides inside your Monday package. Update the plugin and the
+extra tasks are removed for you in one line.) A few more exist by phrase, never named in the sitting: the keyword
+follow-up queue, the mid-week nudge, the monthly deep dive, daily stories, the quarterly profile check. Say "my
+attraction workflows" to see or pause any of them. Each run leaves a note in Cowork, rebuilds your Brain Board, and
+sends you one short email at your own address when it is ready (if your mail is connected).
 
-**Q54. The news watch — are the articles real?**
-Yes, or the item is dropped. Each headline comes from a live search of the last 30 days and carries the outlet, the date
-and the link; the take never misquotes it. If you ever see one without a link, tell the desk — that is a bug, not a
-feature.
+**Q54. The industry story in my Monday package — is it real, and why is it never about a brokerage?**
+Real, or it is dropped. Each story comes from a live search of the last 30 days and carries the outlet, the date and the
+link; the take never misquotes it. It is always industry news — lead generation, the market, new agents struggling —
+never a brokerage headline (Mike's rule: that is the one kind of story a new attractor cannot add context to), and at
+most one a week, only when there is a good one. If you ever see one without a link, or one about a brokerage, tell the
+desk — that is a bug, not a feature. Want one on demand? Say "green screen on brokerage news" (the phrase is older
+than the rule; what it writes is an industry story).
 
 **Q55. I don't use Notion. Does short-form still work?**
 Your board is part of the program and it lives in your own Notion (a free Notion account is enough). If Notion is
 not connected when setup reaches the board, a Connect button appears right in the chat: click it, sign in, say
 "connected", and the board is built. Nothing is lost in the meantime — your 30-day calendar also lives in your Game
-Plan document and in your Brain, the Monday plan drafts from it, and the Brain Board shows this week's posts. Say
+Plan document and in your Brain (your four weeks: two Reels and one carousel each), the Monday plan drafts from it, and the Brain Board shows this week's posts. Say
 "map my next 30 days" any time to build or refresh the board.
 
-**Q56. How do I connect Metricool or GoHighLevel?**
-Setup asks one straight question — Metricool or GoHighLevel — and puts the Connect button for the one you name right
-in the chat. Metricool: click Connect and sign in in your browser (no keys); or open Customize → Connectors → Metricool
-→ Connect, then say "connect my posting tool". Posts go to Metricool for YOUR approval inside Metricool before
-anything is published. GoHighLevel: you create a Private Integration token in your own sub-account and paste it, with
-your location, into the connector's own settings — never into the chat. A posting tool is part of the program;
-copy-paste is only what you do until yours is connected.
+**Q56. How do I connect Metricool? (And what if I already run GoHighLevel?)**
+Your posts go out through Metricool — it is what the cohort uses, and setup says so rather than asking: "Your posts go
+out through Metricool — it's free to start. Click Connect, sign in, then say 'connected'." The Connect button appears
+right in the chat; or open Customize → Connectors → Metricool → Connect, then say "connect my posting tool". Posts go
+to Metricool for YOUR approval inside Metricool before anything is published. Already running GoHighLevel? Say so and
+it gives you those steps instead: you create a Private Integration token in your own sub-account and paste it, with
+your location, into the connector's own settings — never into the chat. Copy-paste is only what you do until your
+tool is connected. (A setup that asked you "Metricool or GoHighLevel — which one?" is a version before 0.10.0; update
+the plugin.)
 
-**Q57. Twelve posts a month, twenty — how many is it, and is that too much?**
-Three posts a week is the default for your first month, so twelve dated posts: the six you designed in Week 3 (post,
-don't make) and six to film, two batch sessions. Five a week (twenty posts) is the step-up your monthly refill proposes once
-a month at three has held; say "change my cadence" any time. Stories are never counted as posts, and the Wednesday news
-watch fills one of the week's slots rather than adding to them.
+**Q57. How many posts is it, and is that too much?**
+Three a week: **two Reels you film and one carousel you post** — every week, from week one, so twelve dated posts over
+your four weeks. The carousel is one of the posts you designed in Week 3 (post, don't make), one a week in the kit's
+order; the two Reels are filmed on your filming day in one block of about three hours. That is the whole plan on
+purpose — Mike: get posting three times a week, two Reels and one carousel, to get into momentum. Nothing stacks on
+top: stories are never counted as posts, and the one industry story in your Monday package takes one of the two Reel
+slots rather than adding to them. (A calendar that opened with three carousels, then three graphics, then Reels is a
+version before 0.10.0 — update the plugin and say "update my short-form game plan".) Want a different pace later? Say
+"change my cadence".
 
 **Q58. In a later week YouTube goes on the same board — won't that be chaos?**
 No. It is one board with tabs by what the thing is: Graphics (your designed posts), Reels, YouTube and Calendar (the week
@@ -698,7 +712,7 @@ video's folder, keeps your next 30 days on the board, leaves a short note in Cow
 from your three topics instead, so no week is ever empty. It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat, in three short steps (Q70).
 
 **Q62. Do I switch the workflows on one by one, or pick which ones I want?**
-Neither. Setup tells you what it is switching on — four for short-form, two for YouTube — and you say Yes to that
+Neither. Setup tells you what it is switching on — one for short-form (your Monday Week Plan), two for YouTube — and you say Yes to that
 card; that Yes is the consent every scheduled task needs, and nothing is created before it. There is no "all, some, or not
 yet" and no "do you want emails": the email note is part of the process when your mail is connected. The extras exist
 by phrase; nothing posts, sends or schedules on its own.
@@ -769,14 +783,16 @@ waits, then your script and waits, then finishes the rest.
 **Q71. Why are my short-form and YouTube setups asking me questions? I thought they already knew me.**
 They do know you — they never ask again for anything you told your Brain, and they build from it. Each setup asks
 only one question, the same for every member, whether you have attracted fifty agents or none yet:
-- **Short-form:** which day (and where) you can film.
+- **Short-form:** "Which day could you block about three hours every week to film, in the same spot — and where is
+  that: your office or your home?" (Three hours is honest for two Reels when you are new to it.)
 - **YouTube:** which day you can film a full video. If your Brain already holds your filming day from Week 4, it does
   not ask at all — it reads that day back to you for a Yes or a change. So "it asked me nothing but my channel" is
   how it is meant to work.
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
 it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
 your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", "what do you do off the clock?", "which
-topic could you talk about for twenty minutes?" — or says "Question 1 of 4" or "Question 1 of 2" — you are on an
+topic could you talk about for twenty minutes?", "Metricool or GoHighLevel?" — or says "Question 1 of 4" or "Question 1 of 2", or
+asks for "about an hour… your office, your kitchen, your car" — you are on an
 older version: update the plugin (Customize → Plugins), open a new chat and say "continue my attraction short-form"
 or "continue my attraction YouTube setup".
 
@@ -784,9 +800,9 @@ or "continue my attraction YouTube setup".
 Your setups are built to be done together, not done for you. Each reply opens with a short line that says what you
 just decided or did (that is the "✓" line), and each reply hands you one thing that is yours — a question to answer
 in your own words, a choice about your own content, or a two-minute action such as opening your plan. The sitting
-closes with "what you did today", your answers and decisions listed back to you, and names the first win you can
-have this week — in short-form, a post that is already designed and only needs posting; in YouTube, your three
-channel pieces, ready to paste.
+closes with "what you did today" — four short lines in short-form — and this week's work: in short-form, film your two
+Reels on your day (the first one's script is right there; film it in Instagram's free Edits app, teleprompter built
+in) and post your carousel; in YouTube, your three channel pieces, ready to paste.
 
 **Q73. It stopped and says "Your turn." Is it stuck?**
 No — it is waiting for you. Your short-form and YouTube setups do one step, then stop until you answer. Read the last
@@ -814,8 +830,8 @@ is kept as a first name and a candidate: nothing about them is published and nob
 yourself ("book my agent interview").
 
 **Q77. I would rather it built everything without the questions. Can it?**
-Yes — say "do it all". It builds from your Brain, stops only for your Yes on the workflows card (and, in short-form,
-for which tool schedules your posts), and tells you which parts it filled in for you. Your own words are what make it
+Yes — say "do it all". It builds from your Brain, stops only for your Yes on the workflow card, and tells you which
+parts it filled in for you. Your own words are what make it
 sound like you and not like everyone else, so add them later whenever you like (Q74).
 
 **Q78. Can I change an answer, a pillar, my posting pace or my filming day?**
@@ -826,10 +842,13 @@ and waits again. After setup: "update my pillars", "change my cadence" or "set m
 
 **Q79. My setup behaves differently from the one a friend in the cohort described.**
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
-YouTube setups wait after every step and ask only one question — your filming day — always in plain chat. (Earlier
-versions asked more: four questions for a few days, then "what do you do off the clock" in short-form and "which topic
-could you talk about for twenty minutes" in YouTube. If yours asks any of those, or says "Question 1 of 4" or
-"Question 1 of 2", it is an older version.) Update your plugins (Customize →
+YouTube setups wait after every step and ask only one question — your filming day — always in plain chat; since 22
+November the short-form sitting is simpler still — two Reels and one carousel a week from week one, one Monday
+workflow, Metricool stated, and it ends at your first Reel. (Earlier versions asked more: four questions for a few
+days, then "what do you do off the clock" in short-form and "which topic could you talk about for twenty minutes" in
+YouTube; a short-form setup that says "about an hour… your car", asks "Metricool or GoHighLevel", switches on four
+workflows or names Batch Prep, or opens your calendar with six designed posts before any Reel, is before 0.10.0. If
+yours does any of those, or says "Question 1 of 4" or "Question 1 of 2", it is an older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
 is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.
 

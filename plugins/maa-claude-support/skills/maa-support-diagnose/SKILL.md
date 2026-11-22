@@ -49,7 +49,7 @@ isn't in Design** · **#12 Riverside connector** · **#13 a short-form or YouTub
 questions, built everything unattended, or differs from a friend's** (usually the design working: both sittings
 do one step a reply, wait, and ask only ONE blanket question each, the same for every member — the filming day,
 which YouTube reads back instead of asking when Week 4 already set it — check the last line on their screen first;
-"Question 1 of 4", "Question 1 of 2", or a question about "off the clock" or "twenty minutes" means an older version). A pasted error or screenshot with an error banner
+"Question 1 of 4", "Question 1 of 2", a question about "off the clock" or "twenty minutes", "about an hour… your car", "Metricool or GoHighLevel", or a card switching on "four workflows" / "Batch Prep" means an older version — before Short-Form 0.10.0 for the last three). A pasted error or screenshot with an error banner
 → decode via `error-codes.md` first; the row usually names the tree. When two trees could apply,
 run the CHEAPER first check of each — the answers disambiguate. **"It worked yesterday" symptoms:**
 read the whatsnew digest (`memory/claude-updates.md`) as one suspect among others — a product

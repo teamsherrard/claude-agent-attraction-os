@@ -2,7 +2,7 @@
 name: sf-publish
 description: >
   Gets finished attraction content (Week 4) onto the member's own socials through the tool they chose
-  (Metricool or GoHighLevel — the one question; copy-paste only until it's connected): the Connect card
+  (Metricool, stated — GoHighLevel only if they already run it; copy-paste only until it's connected): the Connect card
   in the chat and the health check, final captions ending on the call line in Mike's shape with one of
   the two keywords, best-time slots, and a post drafted for the member's approval — on Metricool the
   review flow by default, so nothing posts without their yes even with a tool connected; the queue and
@@ -171,7 +171,7 @@ content board only if `publishing.md` carries a board URL (house rules #10); ski
   in the app; straight-to-queue only on "schedule it, no review".
 - Captions carry the kit's ask — the guide with GUIDE, or the call line in the law's shape with the offer's word;
   two keywords only, the brokerage never the reason, never a promise of the member's time.
-- The two tool names are said once, in the one question (Metricool or GoHighLevel); after that "your posting tool".
+- Metricool is stated, never asked (Mike, 2026-11-22); GoHighLevel only when the member says they run it; after that "your posting tool".
   Never a URL to paste for Metricool (the Connect card, or the click path); the GoHighLevel connector URL is given
   once, inside its steps; a token or a key is pasted by the member into the connector's own fields, never here.
 - The posting tool is not optional: never copy-paste as the plan, never an "optional" posting line; copy-paste is only
@@ -183,7 +183,7 @@ content board only if `publishing.md` carries a board URL (house rules #10); ski
 
 ## Quality checklist
 - [ ] Brain loaded; tool, platforms, and timezone read, not asked
-- [ ] The one question asked when the line reads `manual` (Metricool or GoHighLevel — never optional, never a third
+- [ ] Metricool stated when the line reads `manual` (never a question, never optional, never a third
       option); the connect flow real and plain (the Metricool Connect card in the chat through the directory tools, the
       click path only as the fallback, never a URL; the GoHighLevel steps with the token pasted by the member into the
       connector's fields, never into chat); the health check by brand settings and the queue; the five silent breakers

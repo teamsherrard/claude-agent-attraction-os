@@ -15,7 +15,7 @@
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.2.14",
+      "version": "0.2.15",
       "description": "PLUGIN 2 — install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about…\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
@@ -27,8 +27,8 @@
     {
       "name": "attraction-shortform-system",
       "source": "./plugins/attraction-shortform-system",
-      "version": "0.9.3",
-      "description": "PLUGIN 4 — install in Week 4. The Short-Form Attraction Engine: one sitting confirms your profiles and two keywords, builds your Short-Form Game Plan from your offer and your Week 3 Kit (the six designed posts open your calendar), maps 30 days onto your own Notion board, switches on four draft-only workflows with your one yes (Monday week plan, batch prep, Wednesday news watch, monthly refill) and scripts your first Reel. Requires Plugins 1 and 3."
+      "version": "0.10.0",
+      "description": "PLUGIN 4 — install in Week 4. The Short-Form Attraction Engine: one sitting confirms your profiles and two keywords, asks one question (your filming day), builds your Game Plan — two Reels you film and one carousel you post every week from week one, about one post in ten asking for the guide — maps your four weeks onto your own Notion board, switches on ONE draft-only Monday Week Plan with your yes, connects Metricool and scripts your first Reel, then stops. Requires Plugins 1 and 3."
     },
     {
       "name": "realtor-ai-editing-studio",

@@ -83,10 +83,9 @@ rung and confirm them in one line.
   never "DM me for the rest." Cut throat-clearing; front-load the value; two or three on-screen cues at the
   moments that reinforce the spoken line; 30–60 seconds.
 - **The ask (the last line only).** One ask from the ladder in `sf-comment-to-dm`, said once, written once; the
-  words from the kit's CALLS TO ACTION table. **The call-ask rule (house rules #13):** GUIDE is the ask on most posts
-  (*"Comment GUIDE and I'll send you [the guide, in three words]."*); the invitation — the offer's own word, or the
+  words from the kit's CALLS TO ACTION table. **The call-ask rule (house rules #13):** (*"Comment GUIDE and I'll send you [the guide, in three words]."*); the invitation — the offer's own word, or the
   kit's call line in the law's shape (*"Want my help running this, free? [the booking line]"* — the person, their
-  help, free, to run this; never the brokerage) — is the ask on about one post in four, most naturally a Proof piece
+ the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post
   or a "what you get" piece (a Proof piece may carry the guide instead); never two asks on one post; a kit post keeps
   exactly the ask the kit printed. By pillar: Authority → GUIDE · Perspective → follow, save or share (or GUIDE) ·
   Story → GUIDE or the invitation · Proof → the invitation or GUIDE · Personality → follow. **No compensation, rev

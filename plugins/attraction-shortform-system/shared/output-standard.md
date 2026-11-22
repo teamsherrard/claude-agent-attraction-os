@@ -177,7 +177,7 @@ available"), never left blank.
 
 **The Short-Form Game Plan** (`sf-gameplan` — the Week 4 flagship, built inside setup; stamped) — floor: nine
 sections at their floors (1 · 150 · 2 · 400 · 3 · 200 · 4 · 250 · 5 · 150 · 6 · 400 · 7 · 100 · 8 · 100 · 9 · 50
-words), the six kit posts first then twelve dated calendar rows at the default three a week (twenty at five), five pillars with three
+words), twelve dated calendar rows — four weeks, each one carousel and two Reels, five pillars with three
 angles each, thirty hooks; ~3,500–5,000 words. Demo mode tags every figure "(illustrative — demo)". **Its text is also
 kept at `~/attraction-brain/exports/short-form-game-plan-YYYY-MM-DD.txt`**, then pushed (the Brain Board reads it).
 ```
@@ -209,9 +209,9 @@ AUTHORITY — what I teach
 PERSPECTIVE — what I believe · STORY — where I've been · PROOF — what's happening in my world · PERSONALITY — who I am off the clock   (same shape)
 
 ———————————————————————————————
-3. THE FORMAT MIX AND THE WEEKLY CADENCE
-[N] posts a week — three to start, five the step-up · the mix: one attraction · one authority · one story (two · two · one at five), stories every day
-Formats: talking head [what for] · green screen [what for] · carousel [what for] · stories [what for]
+3. YOUR WEEK
+Two Reels you film and one carousel you post — three posts, every week, starting this week · filming on [day]s, about three hours · the two Reels: one that teaches or takes a stand, one that shows who you are
+Formats: the Reel [what for — filmed on your phone in Instagram's free Edits app, teleprompter built in] · the carousel [what for] · stories: the bonus — one a day when you feel like it
 Platforms: Instagram and Facebook, both — every Reel and every graphic; LinkedIn for the carousels when team leaders are among the agents you want to attract; TikTok and YouTube Shorts take the same video any time you want more reach
 Batch day: [day · the rhythm]   ·   The 15-minute routine: [the moves, the time of day]
 
@@ -227,23 +227,21 @@ MORE HOOKS WHEN YOU NEED THEM
 The ladder: Follow / save / share → Comment → DM → Resource → Conversation → Call   ·   one post, one ask
 | Where it goes | Ask for the guide | Ask for the call |
 [the rows — caption, last line · comment keywords · video pop-up · spoken line · end card · story · bio link · DM reply — copied word for word from the kit]
-What each kind of post asks for: Authority — "Comment GUIDE" · Perspective — a follow, a save or a share (or "Comment GUIDE") · Story — "Comment GUIDE" or the invitation · Proof — the invitation or "Comment GUIDE" · Personality — "Follow"
-The rule: "Comment GUIDE" is the ask on most posts. The invitation — "Comment [WORD]", or your call line — is the ask on about one post in four, most naturally a proof post or a "what you get" post. Never two asks on one post. Your six designed posts keep exactly the asks printed on them.
+What each kind of post asks for: Authority — "save this" · Perspective — "follow for the next one" · Story — "comment if you've been there" · Proof — "share this with an agent who needs it" · Personality — "follow for the next one"
+The rule: nine posts in ten build trust and ask only for a follow, a save, a share or a comment. About one post in ten asks for the guide ("Comment GUIDE") or the call — this month, [the post]. Never two asks on one post.
 The two keywords: GUIDE → the guide · [the offer's word] → the one-pager and the invitation   ·   the full keyword sheet: "my keyword sheet"
 ManyChat: ManyChat is how your two keywords answer themselves. Set it up this week: install ManyChat (the free plan starts you — upgrade only if ManyChat itself asks you to for Instagram automations), import Mike's templates from your Materials folder, put GUIDE and [WORD] in with your links. You don't connect ManyChat to Claude: nothing here needs its connector or a paid plan for it. Until it's live, reply by hand from your DM bank.   ·   the steps: "set up my ManyChat"
 
 ———————————————————————————————
-6. THE 30-DAY CALENDAR   ([date] → [date])
-GRAPHICS — THE SIX POSTS YOU ALREADY HAVE   (post, don't make — the Graphics tab on your board; designed in Week 3, waiting in your Offer folder)
+6. YOUR FOUR WEEKS   ([date] → [date])
+Every week: two Reels you film and one carousel you post. That's it.
+WEEK 1 — the week of [Mon, Nov 17]
 | Date | What | The hook | The ask | Status |
-[six rows — the guide carousel · five problems, five fixes · my story · what you get · proof · book the call; one every two or three days — Date written "Tue, Nov 17" · What = the format and the working title ("Carousel — The guide") · The hook = the post's first slide or headline · The ask in words, exactly as the kit printed it ("Comment GUIDE" / "Comment [WORD]") · Status Ready to Post]
-This week you only post — nothing to film.   [the one line under every week made only of designed posts]
-REELS — [n] ROWS AT YOUR CADENCE   (the Reels tab on your board)
-| Date | What | The hook | The ask | Status |
-[the Reel rows in the same five columns — six at the default three a week, fourteen at five; What = "Reel — [working title]" (or "Green screen — …", "Carousel — …") · The ask in words: "Comment GUIDE", "Comment [WORD]" or "Follow" · no Reel dated earlier than the day after the batch day that films it; the first Reels cover what the six designed posts don't]
-STORIES, DAILY: [the four-category rotation · morning / midday / evening]
-THE BATCH PLAN: [sessions · what films together · hours]
-THE THREE TO FILM FIRST: 1. [the Reel's title, why]  2. [...]  3. [...]
+[three rows — the carousel ("Carousel — The guide", already designed, Ready to Post) and the two Reels ("Reel — [working title]") · Date written "Tue, Nov 17" · The ask in words: "Follow" · "Save this" · "Share this" · "Comment [the topic]" · "Comment GUIDE" on the one post of the month · no Reel dated earlier than the day after the filming day]
+WEEK 2 — the week of [Mon, Nov 24]   [the same three rows]   ·   WEEK 3   ·   WEEK 4
+THE FILMING PLAN: [one line per week: the day · the two Reels that film together, same outfit, same spot · about three hours]   Film on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read.
+THE TWO TO FILM FIRST: 1. [the Reel's title, why]  2. [...]
+Stories are the bonus — one a day when you feel like it; ideas in section 5.
 
 ———————————————————————————————
 7. WHAT WE MEASURE
@@ -347,7 +345,7 @@ COMPLIANCE
 ```
 
 **The 30-Day Calendar** (section 6 of the Game Plan — `sf-gameplan`; saved on its own only on a calendar-only
-refresh) — floor: 12 numbered, dated rows at the default three a week (20 at five), every cell filled, a batch plan with hours;
+refresh) — floor: 12 numbered, dated rows — four weeks × one carousel + two Reels — every cell filled, a filming plan with the three-hour block;
 ~800–1,000 words.
 ```
 30-DAY CALENDAR · [MONTH YYYY]
@@ -358,21 +356,24 @@ THE MONTH AT A GLANCE
 [one paragraph: what this month establishes and why this order — the mix in force, the keyword, the batch rhythm]
 
 ———————————————————————————————
-THE SIX KIT POSTS, THEN THE REELS   (the kit posts carry Story and Proof; the first Reels cover Personality, Perspective and the Authority teach — an agent who finds you this month can answer the five profile questions from the feed)
+YOUR FOUR WEEKS   (every week: one carousel you post and two Reels you film — the week's carousel is a designed kit post while the six last)
+WEEK 1 — the week of [Mon, Nov 17]
 | Date | What | The hook | The ask | Status |
-[the same five member-facing columns as the Game Plan's section 6, dates written "Tue, Nov 17"; "This week you only post — nothing to film." under a week made only of designed posts — six kit rows, then the Reel rows at the cadence — six at the default three a week, fourteen at five; the member's own ideas and this month's objections land in the first two weeks of Reels]
+[the same five member-facing columns as the Game Plan's section 6, dates written "Tue, Nov 17"; three rows a week — the carousel (Ready to Post when it is a kit post) and the two Reels; the asks on the 90/10 rule: one keyword ask in the month, every other row a follow, a save, a share or a comment]
+WEEK 2 · WEEK 3 · WEEK 4   [the same]
 
 ———————————————————————————————
-STORIES, DAILY
-[the four-category rotation runs every day regardless — one line]
+STORIES (OPTIONAL)
+[one line: the bonus — one a day when you feel like it]
 
 ———————————————————————————————
-THE BATCH PLAN
-Session 1: [day · the Reels that film together · same outfit, same spot · hours]   Session 2: [...]
+THE FILMING PLAN
+Week 1: [day · the two Reels that film together · same outfit, same spot · about three hours]   Week 2: [...]
+Film on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read.
 
 ———————————————————————————————
-THE THREE TO FILM FIRST
-1. [#, one line why]   2. [...]   3. [...]
+THE TWO TO FILM FIRST
+1. [#, one line why]   2. [...]
 
 ———————————————————————————————
 COMPLIANCE
@@ -423,14 +424,14 @@ KEYWORD SHEET + DM BANK
 ———————————————————————————————
 THE TWO KEYWORDS   (one page — never a third word)
 GUIDE → the guide, instantly (the DM with the download link) · said on camera at the end · the caption's last line · pinned as the first comment
-[THE OFFER'S WORD] → the one-pager and the invitation to talk (the call link) · the invitation word, on about one post in four — most naturally a Proof piece or a "what you get" piece
+[THE OFFER'S WORD] → the one-pager and the invitation to talk (the call link) · the invitation word, on the one post in ten that carries a keyword ask
 ManyChat: [set up YYYY-MM-DD — Mike's template installed / not yet — set it up this week; replying by hand from the DM bank until it's live] — the member's own account; you don't connect ManyChat to Claude
 
 ———————————————————————————————
 THE CTA BANK   (fifteen lines, three per pillar, each on its rung)
 AUTHORITY — GUIDE:   Spoken: [...]   Caption: [...]   (×3)
 PERSPECTIVE — follow, save or share (or GUIDE) (×3) · STORY — GUIDE or the invitation (×3) · PROOF — the invitation or GUIDE (×3) · PERSONALITY — follow (×3)
-THE RULE: GUIDE is the ask on most posts. The invitation (the offer's own word, or the kit's call line) is the ask on about one post in four — most naturally a Proof piece or a "what you get" piece. A Proof piece may carry the guide instead. Never two asks on one post. The six designed kit posts keep exactly the asks the kit printed.
+THE RULE: nine posts in ten ask only for a follow, a save, a share or a comment on the topic; about one post in ten asks for the guide (Comment GUIDE) or the call. Never two asks on one post.
 THE CALL LINE (the call-to-action law's shape — the person · their help · free · to run this; copied from the kit's CALLS TO ACTION table): [...]
 
 ———————————————————————————————

@@ -150,8 +150,10 @@ you each piece, and waits for your Yes. It only asks you one question — the da
 - **It builds from the Brain.** Who they attract, their method, their story, their wins — all of that was asked in
   Weeks 1 and 2 and is never asked again. It is read back to them ("from the story you told in Week 1") so they
   can say "that's me" or change it.
-- **Only blanket questions, the same for every member.** Short-form, one: the day and place they can film (the
-  "off the clock" question was removed on 2026-11-17 — the owner: "makes no sense"). YouTube, one: the day they can film a full video — and when the Brain already holds their filming day from Week 4 it is not asked at all, it is read back for a Yes or a change (the question about which topic they could talk about for
+- **Only blanket questions, the same for every member.** Short-form, one: the day they can block about three hours to
+  film, and where — their office or their home (the "off the clock" question was removed on 2026-11-17 — the owner:
+  "makes no sense"; "about an hour… your car" became three hours, office or home, on 2026-11-22 — Mike). The posting
+  tool is stated (Metricool), never asked. YouTube, one: the day they can film a full video — and when the Brain already holds their filming day from Week 4 it is not asked at all, it is read back for a Yes or a change (the question about which topic they could talk about for
   twenty minutes was removed on 2026-11-21 — the owner: "Why is this needed?"; the plan now picks the first video's
   topic from their guide or their method and shows it for a Yes or a change). Nothing else.
 - **Plain chat, never a card.** The question and every "Say Yes" line are ordinary sentences in the chat; the

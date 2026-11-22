@@ -98,10 +98,7 @@ five) belongs in Part 5's FIX list.
 - **Keep doing** — three strengths with the proving number. **Fix** — three fixes: what's wrong · why it costs
   you · do this.
 - **The plan (the mix read from `Weekly mix:`, by pillar — 1 · 1 · 1 at three a week, 2 · 2 · 1 at five)** — one
-  post per row (hook · pillar · format · the ask — GUIDE on most, the invitation (the offer's word or the call line)
-  on about one post in four, most naturally a Proof piece or a "what you get" piece, "follow" only on a Personality
-  row · week), seeded from the winning hooks and the
-  openings, ready for `sf-talkinghead` / `sf-carousel` / `sf-greenscreen` / `sf-stories`; every call line in the
+  post per row (hook · pillar · format · the ask — the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; every call line in the
   call-to-action law's shape (the person · their help · free · to run this — never the brokerage as the reason,
   never compensation, never a promise of the member's time); **Post at:** the three slots from 1.5; **Output:**
   Reels a week and story days vs the routine. Offer to script the first four now.

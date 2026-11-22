@@ -2,7 +2,7 @@
 
 How the system gets a finished post onto the member's socials through the tool they chose. Every workflow calls this
 at its scheduling step; `sf-publish` and `sf-batch-publish` own the scheduling conversation; `sf-setup` asks the one
-question (Metricool or GoHighLevel) as its last item after the workflows and connects the tool — **the posting tool is
+statement (Metricool, stated — Mike, 2026-11-22; GoHighLevel only for a member who says they run it) as its last item after the Monday Week Plan and connects the tool — **the posting tool is
 not optional** (the owner, 2026-11-14 evening; house rules #21): never copy-paste as the plan, never an "optional"
 posting line. Apply house rules — talk plain, never "API" or "OAuth" in front of the member; "token" only as the thing they
 paste into the connector's own fields, never into chat.
@@ -46,10 +46,9 @@ so plainly. Whatever happens, write it back to that one line and push.
 
 ## The connect flow (the "real connect flow" — the one question, the Connect card, the same four checks for any tool)
 Run this at setup's posting step, on "connect my posting tool", and again on "check my posting tool":
-0. **The one question — a fact the Brain cannot hold (the owner, 2026-11-14):** *"Which one schedules your posts —
-   Metricool or GoHighLevel? Metricool is free to start and connects with one click; GoHighLevel only if you already
-   run it. Your turn."* One word back; no "optional", no third option. Write `Posting tool: chosen: [tool] — connect
-   pending`, push, then Route A or Route B's connect card. Already chosen (`chosen: …`) → skip the question.
+0. **Metricool, stated — never a question (Mike, 2026-11-22: "as long as they know that Metricool is what we're
+   using"):** *"Your posts go out through Metricool — it's free to start. Click Connect, sign in, then say
+   'connected'."* A member who says they already run GoHighLevel gets Route B instead. Write `Posting tool: chosen: metricool — connect pending` (or `gohighlevel`), push, then Route A's or Route B's connect card. Already chosen (`chosen: …`) → straight to the card.
 1. **Connected?** If not, the connect card for their tool (below): Metricool → the **Connect card in the chat** through
    the connector-directory tools when the session has them (`search_mcp_registry` → `suggest_connectors`), else the
    click path; GoHighLevel → the exact steps. Then *"come back and say 'connected'."* On "connected", confirm by

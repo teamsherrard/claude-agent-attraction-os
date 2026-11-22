@@ -61,9 +61,7 @@ noted in the closing message and never acted on.
    · your best hooks · who's watching — agents or consumers · when to post · what turns into conversations, by post
    and word · stories · what agents are asking · the one break · how often you post) · PART 2 (skipped unattended —
    say so) · PART 3 only from what the connection returned · PART 4 — THE OPENINGS (3–5 four-line cards) · PART 5 —
-   YOUR NEXT 30 DAYS (KEEP DOING · FIX · THE PLAN: one post per row with its one ask — GUIDE on most, the invitation
-   (the offer's word or the call line) on about one post in four, most naturally a Proof piece or a "what you get"
-   piece; a Personality row asks for a follow only; every call line in the call-to-action law's shape —
+   YOUR NEXT 30 DAYS (KEEP DOING · FIX · THE PLAN: one post per row with its one ask — the 90/10 rule (house rules #13): about one post in ten carries a keyword ask — Comment GUIDE, or the offer's word with the call line in the law's shape; every other post asks only for a follow, a save, a share or a comment on the topic; never two asks on one post; a Personality row asks for a follow only; every call line in the call-to-action law's shape —
    the person · their help · free · to run this, never the brokerage as the reason, never compensation, never a
    promise of the member's personal time · POST AT · THE POST TO REPURPOSE · THE STEP UP — only when `Cadence:` is
    three and the month's log shows three Reels posted in each week: "A month at three a week has held — you're ready
