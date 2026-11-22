@@ -143,16 +143,17 @@ mapped personalization articles live before describing exact behavior.
   `source-map.md` — with the page open, never from memory. What we can say durably: this system
   was built so the member's business data lives in files THEY own and control.
 
-## 7b. How the content setups work — a Yes at each step, and a question or two (Weeks 4 and 5)
+## 7b. How the content setups work — a Yes at each step, and one question (Weeks 4 and 5)
 
 Members meet this in Week 4. Teach it in one breath: **"It builds from what you already told your Brain, shows
-you each piece, and waits for your Yes. It only asks you a question or two — the same for everyone."**
+you each piece, and waits for your Yes. It only asks you one question — the day you can film."**
 - **It builds from the Brain.** Who they attract, their method, their story, their wins — all of that was asked in
   Weeks 1 and 2 and is never asked again. It is read back to them ("from the story you told in Week 1") so they
   can say "that's me" or change it.
 - **Only blanket questions, the same for every member.** Short-form, one: the day and place they can film (the
-  "off the clock" question was removed on 2026-11-17 — the owner: "makes no sense"). YouTube, two: which of their three topics they could talk about for twenty minutes · the day they can film
-  a full video. Nothing else.
+  "off the clock" question was removed on 2026-11-17 — the owner: "makes no sense"). YouTube, one: the day they can film a full video (the question about which topic they could talk about for
+  twenty minutes was removed on 2026-11-21 — the owner: "Why is this needed?"; the plan now picks the first video's
+  topic from their guide or their method and shows it for a Yes or a change). Nothing else.
 - **Plain chat, never a card.** The question and every "Say Yes" line are ordinary sentences in the chat; the
   setups never show a question card or choices to tap.
 - **Why so few (the owner, 2026-11-16):** a question has to be one that every member can answer —

@@ -22,19 +22,19 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 **Say:** `set up my YouTube for agents`
 - [ ] **The welcome** names Week 5 and the five things, in order (your channel → your Game Plan → your videos on your
   board → your workflows → your first video), names only what is really on file (your offer, your guide, your bios),
-  says "we build it together" and "just two new questions, the same two every member gets", and asks one fact: the channel. **ONE STEP PER REPLY, and very little is asked (the owner, 2026-11-15 and 2026-11-16):** every reply opens with a win line ("✓ …" — what the member just said or did), hands the member one thing that is theirs (a question, a choice, or a few minutes in their own account) and stops on "Your turn." Nothing more is built until the member answers — after the Channel Page, each of the two questions, the proposal (shown BEFORE the plan is built), the built plan, and the board; then the workflows card and its Yes. Walk away mid-sitting and come back: it is exactly where you left it.
+  says "we build it together" and "I need just two things from you along the way: your channel link, and the day you can film each week", and asks one fact: the channel. **ONE STEP PER REPLY, and very little is asked (the owner, 2026-11-15, 2026-11-16 and 2026-11-21):** every reply opens with a win line ("✓ …" — what the member just said or did), hands the member one thing that is theirs (a question, a choice, or a few minutes in their own account) and stops on "Your turn." Nothing more is built until the member answers — after the Channel Page, the one question, the proposal (shown BEFORE the plan is built), the built plan, and the board; then the workflows card and its Yes. Walk away mid-sitting and come back: it is exactly where you left it.
 - [ ] **Your Channel Page:** saved as one document under Content → Long-Form, and in the chat only **the three to paste
   today**, each as a copy block with its click path above it: the channel description with the about section, the
   links (the booking link first, the guide second), the upload defaults. One line says the other pieces (keywords,
   playlists, banner, spoken lines, trailer) are in the document, and that `walk me through my channel page` takes them
   one at a time. The banner is the one the brand kit made in Week 3. No "paste it now" question, no wait.
-- [ ] **The two blanket questions, ONE per reply, exactly these words:** (1) "Your channel covers three topics —
-  they're three of the playlists on your Channel Page: [A], [B] and [C]. Which one could you talk about for twenty minutes
-  with no notes?" · (2) "Which day could you film a full video every week — about an hour?" The next reply quotes the answer back. Try "skip" on one: it takes that from the Brain and never
-  asks twice. **Nothing else is asked** — not who the member would sit down with, not who they have helped, nothing
-  from Week 1 or Week 4.
-- [ ] **Your direction, then the Game Plan:** after Question 2 it shows your three topics and **your first videos** (one on
-  the topic you picked; a conversation with an agent only when the Brain holds one you have helped — otherwise a
+- [ ] **The ONE blanket question, exactly these words:** "One question: Which day could you film a full video every
+  week — about an hour?" The next reply quotes the answer back. Try "skip": it sets the day itself, says which, and
+  never asks twice. **Nothing else is asked** — not which topic the member could talk about, not what they like or are
+  known for, not who they would sit down with, not who they have helped, nothing from Week 1 or Week 4. **Flag as a
+  defect:** "Question 1 of 2", or any question about a topic "you could talk about for twenty minutes".
+- [ ] **Your direction, then the Game Plan:** after the question it shows your three topics and **your first videos** (one on
+  the topic your guide already answers — it says why, and "start with [topic] instead" changes it; a conversation with an agent only when the Brain holds one you have helped — otherwise a
   line that it goes on the plan the day you name someone; your story at full length) with your pace and your
   filming day, and a **stop**: "If that sounds like you, say
   Yes…" Nothing is researched or built yet. On the Yes: one line with the research ("about [N] searches"), then two lines pointing at

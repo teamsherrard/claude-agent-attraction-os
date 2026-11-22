@@ -1,7 +1,7 @@
 {
   "name": "attraction-shortform-system",
   "displayName": "Agent Attraction Short-Form System (Plugin 4)",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "PLUGIN 4 — the Short-Form Attraction Engine (Week 4). One sitting, told not asked: your profiles and your two keywords confirmed (GUIDE sends your guide, your offer's own word opens the invitation) → your Short-Form Game Plan → your Notion board with the next 30 days on it (Graphics, Reels, Calendar) → four draft-only workflows switched on with one Yes (Monday week plan, batch prep, Wednesday news watch, monthly calendar refill) → your first Reel. Nine workflows in all: the other five by phrase (keyword follow-up queue, mid-week nudge, monthly deep dive, daily stories, quarterly profile audit). The six posts designed in Week 3 go first — post, don't make — then the Reels; every call to action follows Mike's law. Your posting tool is Metricool or GoHighLevel; ManyChat is set up in your own account, never connected to Claude. Nothing posts on its own; every write updates your Brain Board. Requires Plugins 1 and 3.",
   "author": {
     "name": "Team Sherrard"

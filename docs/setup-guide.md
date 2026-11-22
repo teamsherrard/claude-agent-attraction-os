@@ -287,21 +287,20 @@ set up my YouTube for agents
 
 It knows you from your Brain, your offer, your guide and your Week 3 Kit, so it never asks you any of that again. It
 asks for one fact — your channel link, or "starting fresh" — and then **you build it together**: at each step it shows you
-what it built from what you have already told it, and you say Yes or tell it what to change. It asks just two new
-questions — the same two every member gets: which of your three topics you could talk about for twenty minutes,
-and which day you can film a full video. Five things, **one step at a time: it shows you each one and waits for
-you before the next**. Type your answers or tap the microphone and just talk; say "skip" if you would rather it
+what it built from what you have already told it, and you say Yes or tell it what to change. It asks just one new
+question — the same one every member gets: which day you can film a full video. Five things, **one step at a time: it shows you each one and waits for
+you before the next**. Type your answer or tap the microphone and just talk; say "skip" if you would rather it
 chose. (Had to stop part-way? Say `continue my attraction YouTube setup`.)
 
-1. **Your channel, optimized for the agents you want to attract.** Your whole Channel Page Kit is saved as a document: your
+1. **Your channel, optimized for the agents you want to attract.** Your whole Channel Page is saved as a document: your
    description, about section, links, keywords, playlists, upload defaults and the two lines you say in every video,
    each with the click path above it. In the chat you get only **the three to paste today** (your description and
    about section, your links, your upload defaults). Say `walk me through my channel page` for the rest, one at a
    time. Your banner is the one your brand kit made in Week 3 — it is already in your Brand folder.
    Your YouTube bio comes from chapter 6 of your kit; the links are your booking line first and your guide second; the
    spoken lines are your kit's calls to action, in Mike's shape (partner with me and get my help, free, to run this).
-2. **Your YouTube Game Plan.** First the two questions, one at a time. Then it shows you your first videos — one on
-   the topic you picked, a conversation with an agent you have helped (when your Brain holds one), and your own
+2. **Your YouTube Game Plan.** First the one question: your filming day. Then it shows you your first videos — one on
+   the topic your guide already answers (it tells you why; say so if you would rather start with another), a conversation with an agent you have helped (when your Brain holds one), and your own
    story at full length — with your pace and your filming day, and says "If that sounds like you, say Yes" When
    you say Yes it builds the plan: Mike's three categories — niche authority, interviews, your model — on the 8-video cycle
    (3 niche · 1 model · 4 interviews), your lanes from the content branches of your offer, about fifty titles, your

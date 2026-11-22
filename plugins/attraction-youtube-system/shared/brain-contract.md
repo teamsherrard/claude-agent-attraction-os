@@ -290,11 +290,17 @@ writes one **at script, at publish, and at repurpose**. A video with no row is a
 - **`identity/channel.md`** — the template is `skills/yt-setup/references/channel-template.md`. Blocks: Channel
   (URL · handle · status · `Live data:` · `Setup:` — the setup journey's resume stamp, `kit done` → `plan done`
   → `board done` → `workflows done` → `complete YYYY-MM-DD`, plus `not started` on a start-over; written only by
-  `yt-setup`; the word `kit` in the stamp is internal — the member's document is "your Channel Page" · `Board:` —
+  `yt-setup`; the word `kit` in the stamp is internal — the member's document is "your Channel Page" · `Filming
+  day:` — the member's answer to setup's one question, the day every date is counted from; written by `yt-setup`,
+  and by `yt-gameplan` when a refresh takes the answer · `First full video:` — the topic the first niche video is on,
+  chosen by the first-video rule and read back at setup's proposal, never asked: `[the topic] · [from your guide |
+  from your method | the first of your three | your choice] YYYY-MM-DD`; written by `yt-setup` on the proposal's Yes
+  and by `yt-gameplan` when it applies the rule on demand or the member names another topic · `Board:` —
   the content board's link, only when `identity/publishing.md` does not exist) · Positioning · Lanes
   and playlists · The CTA line (the kit's two lines, verbatim) · Upload defaults · Channel page · Baseline ·
-  **`## In your words`** (the owner, 2026-11-15 and 2026-11-16 — the member's answers to the Week 5 sitting's two blanket
-  questions, and any wording they give for a script, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
+  **`## In your words`** (the owner, 2026-11-15 to 2026-11-21 — the member's answer to the Week 5 sitting's one blanket
+  question (the filming day), an answer an earlier version saved (`Twenty minutes, no notes` — kept, read by the
+  first-video rule, never asked again), and any wording they give for a script, each one line: `- **[what was asked]** (YYYY-MM-DD): "[their words,
   verbatim]" → [the video it became]`; `skipped — built from your Brain` when they passed — nobody's words, never quoted, never marked "your words"; `(kept private: …)` for a
   name or a figure left out of public videos; appended by `yt-setup` and `yt-script`; `yt-gameplan` fills each entry's `→` part and, on a refresh, replaces a
   `skipped` entry with the answer it then asks for — nobody else writes the section; read by `yt-gameplan`,

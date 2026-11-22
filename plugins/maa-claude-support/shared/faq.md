@@ -755,22 +755,22 @@ booked with "book my agent interview".
 **Q70. It built everything while I stepped away. Can it wait for me?**
 It does now. Your short-form setup and your YouTube setup go one step at a time: each step shows you what it built
 (or what it is about to build on — your pillars and your week, your three topics and your pace) and then waits. Say
-"Yes" to move on, or tell it what to change and it changes that and waits again. Both setups also ask you two
-short questions along the way — the same two every member gets (Q71). If you walk away, nothing more
+"Yes" to move on, or tell it what to change and it changes that and waits again. Both setups also ask you one
+short question along the way — the day you can film (Q71). If you walk away, nothing more
 happens until you are back. If you would rather it ran straight through, say "do it all" — it then stops only for
 your Yes on the workflows.
 
 **Q71. Why are my short-form and YouTube setups asking me questions? I thought they already knew me.**
 They do know you — they never ask again for anything you told your Brain, and they build from it. Each setup asks
-only a question or two, and they are the same for every member, whether you have attracted fifty agents or none
-yet:
-- **Short-form:** one question — which day (and where) you can film.
-- **YouTube:** which of your three topics you could talk about for twenty minutes, and which day you can film a
-  full video.
+only one question, the same for every member, whether you have attracted fifty agents or none yet:
+- **Short-form:** which day (and where) you can film.
+- **YouTube:** which day you can film a full video.
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
 it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
-your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", or
-says "Question 1 of 4" — you are on an older version: update the plugin (Customize → Plugins) and say "continue my attraction short-form".
+your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", "what do you do off the clock?", "which
+topic could you talk about for twenty minutes?" — or says "Question 1 of 4" or "Question 1 of 2" — you are on an
+older version: update the plugin (Customize → Plugins), open a new chat and say "continue my attraction short-form"
+or "continue my attraction YouTube setup".
 
 **Q72. What does "✓ Step 2 of 5 — done" mean, and what is "your part"?**
 Your setups are built to be done together, not done for you. Each reply opens with a short line that says what you
@@ -816,10 +816,10 @@ and waits again. After setup: "update my pillars", "change my cadence" or "set m
 
 **Q79. My setup behaves differently from the one a friend in the cohort described.**
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
-YouTube setups wait after every step and ask only a question or two — the same for every member (short-form: your
-filming day; YouTube: your topic and your filming day), always in plain chat. (For a few days they asked four, and
-short-form then asked what you do off the clock; if yours says "Question 1 of 4" or asks about "off the clock", it is an older
-version.) Update your plugins (Customize →
+YouTube setups wait after every step and ask only one question — your filming day — always in plain chat. (Earlier
+versions asked more: four questions for a few days, then "what do you do off the clock" in short-form and "which topic
+could you talk about for twenty minutes" in YouTube. If yours asks any of those, or says "Question 1 of 4" or
+"Question 1 of 2", it is an older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
 is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.
 

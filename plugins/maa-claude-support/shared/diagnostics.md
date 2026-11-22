@@ -310,16 +310,16 @@ for every member — ONE in short-form (since Short-Form 0.9.0; two from 0.8.0) 
 working. Cheapest check first.
 
 1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
-   - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A numbered question → they answer it in a
-     sentence or two, or say "skip". "Say Yes and I'll…" → they say Yes, or say what to change. Done.
+   - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A question → they answer it in a
+     word or a sentence, or say "skip". "Say Yes and I'll…" → they say Yes, or say what to change. Done.
    - It ends mid-sentence, or with an error → a cut-off reply: have them say "continue" once; twice → a fresh
      chat and the setup phrase — the sitting resumes at the same step (tree #4 if everything is slow).
-2. **"It's asking me questions — I thought it knew me."** A question or two is by design (FAQ Q71), word for
-   word the same for every member. Short-form, one: *"Which day could you film every week — and where?"* — a member
+2. **"It's asking me questions — I thought it knew me."** One question is by design (FAQ Q71), word for
+   word the same for every member. Short-form: *"Which day could you film every week — and where?"* — a member
    asked *"What do you do off the clock…"* is on a version before 0.9.0: update the plugin, new chat, "continue my
-   attraction short-form". YouTube, two: *"Which of your three topics
-   could you talk about for twenty minutes with no notes?"* and *"Which day could you film a full video every
-   week?"* Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
+   attraction short-form". YouTube: *"Which day could you film a full video every week?"* — a member asked *"Which
+   one could you talk about for twenty minutes with no notes?"*, or shown "Question 1 of 2", is on a version before
+   0.9.0: update the plugin, new chat, "continue my attraction YouTube setup". Plus one fact each (the posting tool; the channel link) and, in short-form, one pick (how the first Reel
    opens). **Anything else is wrong:**
    - *"What's the first thing agents ask you on the phone?"*, *"Who would you sit down with?"*, "Question 1 of 4"
      → they are on an older version (0.7.x). Update the plugin (Customize → Plugins) and say "continue my attraction short-form" / "continue my attraction YouTube setup".

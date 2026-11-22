@@ -131,7 +131,7 @@ costs one search (a second, reworded, only when the first found nothing) and at 
 step covers the cards it creates — three to five.
 One chat = one video — with one exception: the first batch ("script my first three videos": three scripts and a
 film-day sheet in one sitting, scripts only, never more than three; each video's own chat still does the rest). Inside setup: one fact
-question (the channel) and two blanket questions, the same for every member (rule #23 — two, never more); every
+question (the channel) and one blanket question, the same for every member (rule #23 — one, never more); every
 reply ends on its stop and waits for the member;
 the research line said once. Any feature that adds turns or front-loaded reading is a cost regression — cut it.
 
@@ -200,11 +200,11 @@ the Brain Board (rule #20) is the read-only map** — never the other way round.
 
 ## 12. The setup journey (one order, announced out loud — Week 5)
 `yt-setup` runs five steps the member hears one at a time — *"Okay, cool, now I'm going to…"* — with one fact
-question (the channel) and **the two blanket questions of its Step 6a, one per reply** (rule #23's last
-paragraph), about thirty-five minutes. **One step per reply, and every reply ends on its stop** — one of the two
-questions, or the stop line (rule
+question (the channel) and **the one blanket question of its Step 6a — the filming day** (rule #23's last
+paragraph), about thirty-five minutes. **One step per reply, and every reply ends on its stop** — the
+question, or the stop line (rule
 #23: *"Say **Yes** and I'll [the next step] — or tell me what you'd change. **Your turn.**"*) — the Channel Page,
-the Game Plan's proposal (the three topics, the pace, the filming day — shown BEFORE the plan is built), the built
+the Game Plan's proposal (the three topics, the first videos, the pace, the filming day — shown BEFORE the plan is built), the built
 plan, the board, then the workflows card and its Yes. Never "ready?", never "confirm?", never a menu — and never
 two steps in one reply.
 **The welcome** names Week 5 and the five steps — and only the files that are really on file (the offer · the guide
@@ -221,10 +221,10 @@ setting on Medium — the picker beside the model name"). Then:
    new brief — rule #18). A member starting fresh is told, in one stated line, how to create the channel. No Starter
    Resource unless the member skipped Week 2 (then `yt-leads` builds it, as before). Compliance never stops it
    (rule #3). **Then the stop line — and the reply ends.**
-2. **The Game Plan — two questions, the proposal, then the build** (rule #10): first the two blanket questions,
-   ONE per reply (which of their three topics they could talk about for twenty minutes · the day they can film a
-   full video), each answer heard back and saved; then what the plan stands on — the three topics, the first
-   videos (the guest and the story from the Brain), the pace, the filming day — proposed,
+2. **The Game Plan — one question, the proposal, then the build** (rule #10): first the one blanket question
+   (the day they can film a full video), heard back and saved; then what the plan stands on — the three topics, the
+   first videos (the first full video's topic chosen by the first-video rule, never asked; the guest and the story
+   from the Brain), the pace, the filming day — proposed,
    **then the stop line** ("If that sounds like you, say Yes"); on the member's Yes, the research line said once, the build, the
    hand-over two lines pointing at the document, the first video dated at least three days out (rule #19) — **then
    the stop line.**
@@ -506,7 +506,7 @@ and never one of the old questions. "Do it all" / "don't stop" runs the rest wit
 says it — never offered. The workflows card's Yes is also the consent a schedule needs. **THE MEMBER'S PART
 AND THE WIN (the owner, 2026-11-15: "the student also needs to feel a WIN that they did something to achieve the
 result" · "a proper customer journey"):** the member is the one who builds this; the system does the heavy lifting
-and says so in that order. In a sitting every step has four beats — **the win line** (it opens each reply after
+and says so in that order. In a sitting every step has four parts — **the win line** (it opens each reply after
 the first: one true sentence, "you", naming what the member just decided or did and what they now have, with the
 count — *"✓ Step 2 of 5 — done. You set your three topics and your pace."*) · **what I prepared**, short · **your
 part** — ONE real thing that is theirs to decide or do (a choice about their own channel, or a few minutes in
@@ -520,20 +520,26 @@ video a comment came from. "Your turn" appears on those alone. On-demand hand-of
 my attraction video: [title]'") are breadcrumbs, not questions. YouTube never asks about a posting tool: publishing
 is the member pasting in their own Studio; the posting-tool question belongs to the short-form plugin alone.
 
-**TWO BLANKET QUESTIONS — about the member, the same for everyone (the owner, 2026-11-15: the member must be
+**ONE BLANKET QUESTION — the same for everyone (the owner, 2026-11-15: the member must be
 "involved… a part of making it happen"; 2026-11-16, after the first live run asked a member what agents say to them
 on the phone: "the questions could be different for each person… There are a lot of people in this group that are
 first-time agent attractors, and they've never attracted an agent in their life… We need to make sure that they're
 blanket questions and the questions are the same across the board. Also, we don't really need more questions
-because they've already gone through a lot of this when they were building their AI brain").** The member is
+because they've already gone through a lot of this when they were building their AI brain"; and 2026-11-21, of
+this sitting's question about which topic the member could talk about for twenty minutes with no notes: "this
+question doesn't really make sense. I'm a bit confused about how to answer it or why it is important. Why is this
+needed?").** The member is
 involved at every step — through what they ALREADY said, read back for a Yes or a change, not through a second
-interview. The Week 5 sitting asks exactly two questions, word for word the same for every member (`yt-setup` Step
-6a: which of their three topics they could talk about for twenty minutes · the day they can film a full video).
+interview. The Week 5 sitting asks exactly ONE question, word for word the same for every member (`yt-setup` Step
+6a: the day they can film a full video). Which topic the first full video is on is chosen from the Brain by the
+first-video rule (`yt-setup` Step 6a, `yt-gameplan`) and read back with where it came from — never asked.
+**Never a question about who the member is, what they like or what they are good at** — the Brain holds it, or it
+is drafted and read back.
 **A question is allowed only when** every member can answer it — including one who has never attracted an agent
 and has nobody to put on camera — the Brain does not hold it, and the build needs it. **Never a question that
 assumes experience** (who they have helped, who they would sit down with, calls they have had, results they have
 got) — **and never a sentence that does**: to every member "the agents you want to attract", never "you attract…"
-or "your team" as a fact; a guest or an agent they have helped is named only when the Brain holds one. Answers are heard back in the next reply and saved verbatim under `identity/channel.md → ## In your words`;
+or "your team" as a fact; a guest or an agent they have helped is named only when the Brain holds one. The answer is heard back in the next reply and saved verbatim under `identity/channel.md → ## In your words`;
 "skip" always works and is never asked twice. No skill asks a question before writing a script — the member's own
 wording is always welcome, never required. **A scheduled run never asks.** (To the member the sitting is never
 called an interview — in this plugin that word means a video with a guest, `yt-interview`'s.)

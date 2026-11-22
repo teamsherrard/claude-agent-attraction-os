@@ -24,7 +24,8 @@ delivered as a clean doc — never visual design.
 Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — the doctrine (#1), the Brain first (#2), 3-state
 compliance (#3), plain talk (#4), sourcing (#6), docs (#7), the stamp (#9), demo mode (#13). The Brain Contract
 (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`): this skill writes only the `## Game Plan anchors` block of
-`identity/channel.md`, seeds `memory/interview-pipeline.md` rows at Stage `Candidate`, writes the
+`identity/channel.md` (plus two lines of its `## Channel` block, each only in the case named under "Run from setup":
+`First full video:` and `Filming day:`), seeds `memory/interview-pipeline.md` rows at Stage `Candidate`, writes the
 `## Long-form (YouTube)` section of `memory/content-calendar.md`, and keeps the plan's text at
 `~/attraction-brain/exports/youtube-game-plan-YYYY-MM-DD.txt` (the Brain syncs `exports/*.txt`; the Brain Board's
 YouTube page reads it) — nothing else in the Brain. Every write is pushed through `attraction-brain-sync` at once
@@ -87,24 +88,41 @@ CTAs), §13–§14 (Phases 7–9). `references/starter-title-bank.md` at Phase 6
 titles of their own (the rule is stated there). Never the whole doctrine up front.
 
 **Run from setup (`yt-setup` Step 6b — after the member's Yes).** Setup's Step 6a has already asked the member its
-TWO blanket questions — the same two for every member (the owner, 2026-11-16: "blanket questions… the same across
-the board", and "we don't really need more questions because they've already gone through a lot of this when
-they were building their AI brain") — saved the answers under `identity/channel.md → ## In your words`, PROPOSED
-what the plan stands on — the three topics, the first videos, the pace, the filming day — and waited ("it should
-WAIT for me"); this skill starts only on the member's Yes and builds on what they approved or changed there.
-**What the two answers decide:** the first niche video (video 1; on a new channel, the one right after the
-trailer) is on the topic they picked — the `→` part of that entry is filled with its title; every date is counted
-from the day they gave (`channel.md → ## Channel → Filming day:`). **Everything else comes from the Brain by this
+ONE blanket question — the filming day, the same for every member (the owner, 2026-11-16: "blanket questions… the
+same across the board", and "we don't really need more questions because they've already gone through a lot of
+this when they were building their AI brain"; and 2026-11-21, of the second question setup used to ask — which
+topic they could talk about with no notes: "Why is this needed?") — saved the answer under `identity/channel.md →
+## In your words`, PROPOSED what the plan stands on — the three topics, the first videos, the pace, the filming day
+— and waited ("it should WAIT for me"); this skill starts only on the member's Yes and builds on what they approved
+or changed there.
+**What setup hands over:** the topic of the first niche video (video 1; on a new channel, the one right after the
+trailer) — `channel.md → ## Channel → First full video:`, written by setup on the Yes — and the day every date is
+counted from (`Filming day:`).
+**The first-video rule — which of the three topics video 1 is on (the same rule setup's proposal used; never a
+question).** In this order, the first that applies: **(1)** the topic the member named — at setup's proposal, later
+("start with [topic] instead"), or in an answer an earlier version saved (`## In your words → Twenty minutes, no
+notes` — kept, never asked again; this skill fills its `→` part with the title of the video it became) · **(2)** the
+topic their guide is about (`memory/magnets.md → ## Current magnet` — the one of the three its title and pages
+answer most directly: the video is half written already and its call to action is the guide) · **(3)** the topic
+the first step of their method teaches (`identity/offer.md → ## The framework`) · **(4)** the first of the three as
+the Channel Page lists them. Video 1 takes that topic's strongest title; the bank's order fills the rest (Phase 8).
+**A plan built with no `First full video:` line on file** (an older Brain, or the plan built on demand) applies the
+rule itself, writes the line (`[the topic] · [from your guide | from your method | the first of your three | your
+choice] YYYY-MM-DD`), and says the choice and why in one line of its summary — a statement, never a question. **"Start
+with [topic] instead"** → the line is rewritten as `your choice` and video 1 is rebuilt when it has not been
+started; nothing else moves.
+**Everything else comes from the Brain by this
 skill's own phases, never from a question:** the first guest slot (Phase 4 — an agent the Brain holds, or the
 honest line that the first conversation starts when the member names someone), the early story slot (Phase 8 —
 the story `journey.md` marks as the "why join me" story, else the first of the member's own in the story bank),
 the model video. `identity/content-pillars.md → ## In your words` (the Week 4 answers, read-only) is a source for
-the trailer and the story video. A skipped answer leaves its slot to the phases' own rules. **No question is ever
-asked that assumes the member has attracted an agent** — who they have helped, who they would sit down with.
-**On demand, a refresh ("refresh my attraction game plan") with a `skipped` entry on file** asks that one question
-first, exactly as `yt-setup` Step 6a prints it; the answer replaces the entry (this skill writes it), ONLY the
-video it shapes is rebuilt, and no date moves unless the member also asks for a new plan. From the member's Yes
-at setup's proposal the plan runs through with **no further stops**Yes the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
+the trailer and the story video. A skipped filming day leaves the dates to the first-date rule's fallback. **No
+question is ever asked that assumes the member has attracted an agent** — who they have helped, who they would sit
+down with — **or asks who they are, what they like or what they are good at.**
+**On demand, a refresh ("refresh my attraction game plan") with the filming day `skipped` on file** asks that one
+question first, exactly as `yt-setup` Step 6a prints it; the answer replaces the entry and is written to
+`Filming day:` (this skill writes both), and the videos not yet started are re-dated from it — said in one line.
+From the member's Yes at setup's proposal the plan runs through with **no further stops**: the cadence is the one approved at 6a (Phase 2 — one video a
 week unless the member chose two), never asked again; goals at `seeds` are used
 and labeled, never asked for (Phase 7); the board step is skipped (Phase 9 step 6 — setup's next step adds the
 YouTube tab and maps the next 30 days); **no chat summary of its own** (Phase 9 step 3 — setup hands the plan over
@@ -368,6 +386,8 @@ at one a week (once round the eight in eight weeks, then the start of the second
   week, niche first within the week. Why I Switched takes an early niche slot when their story is ready
   (`journey.md`); a bank seeded from the starter arc fills the slots in the bank's order (Month 1 niche titles
   open the first eight, M3-01 takes the model slot, M1-I1 the first interview) — the ratio never bends to the arc.
+  **Video 1's topic is the one the first-video rule gives** (`channel.md → First full video:` — "Run from setup",
+  above): the first niche slot takes that topic's strongest title, and the order above fills the rest.
 - **A new channel's trailer** (status `none` or `empty`): the channel trailer is **week one's first row** — a row
   and a card like any other, 60 to 90 seconds, not one of the eight. At one a week it is week one's row and the
   eight start the week after; at two a week it takes week one's first slot and the first niche video the second.
@@ -451,6 +471,7 @@ Then **days 91–180 as the direction** (double down · compounding assets · th
 - [ ] Starter bank opened only when the member had no titles of their own; their captured ideas led; every seeded title marked `starter`, placeholders swapped, lead-gen/CMA titles kept only inside the known-for
 - [ ] The goal in conversations and calls — four plain lines in the document, every assumed number labelled "(an assumption — change it any time)", no income
 - [ ] The cadence stated once — one a week for the first month, two the step-up — never asked inside setup; the locked order niche · interview · niche · model · interview · niche · interview · interview; ~13 rows at one a week (~26 at two); a new channel's trailer as week one's first row; the first 30 days marked; the step-up checkpoint; 91–180 direction; scoreboard
+- [ ] Video 1 (after the trailer on a new channel) is on the topic `channel.md → First full video:` names — the first-video rule, never a question; a plan built with no line on file applied the rule, wrote the line and said the choice and why in one line
 - [ ] The first-date rule kept: video 1 recorded on the next filming day at least three days out (the day the member gave at setup, `channel.md → Filming day:`, comes first; none on file → the Saturday after next), published two days later, every later row following from it — no row and no card dated the day the plan was built
 - [ ] The document is member-readable: YOUR NEXT 7 DAYS its own block of three numbered lines right after Read this first; one word for a lane; none of "bucket", "SIGNAL", "FOR · PAIN · SIGNAL", "cycle position", "anchors", "unresearched", "starter", "rung", "avatar"; dates in words; the calendar one plain table (Week of · Video · Kind · Guest); MORE TITLES WHEN YOU NEED THEM last, by lane, plain titles; the TITLE NOTES in the export only
 - [ ] The progress line said once before the first search; the combined budget (≤10 + ≤8 = ≤18) stated once and kept; the Sources footer lists what was searched and when

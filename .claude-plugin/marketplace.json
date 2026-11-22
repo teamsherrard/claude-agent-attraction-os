@@ -9,25 +9,25 @@
     {
       "name": "attraction-ai-brain",
       "source": "./plugins/attraction-ai-brain",
-      "version": "0.9.20",
+      "version": "0.9.21",
       "description": "PLUGIN 1 — install first. The Agent Attraction Brain: one shared brain (who you are as a leader, your story, what you can teach, who your story speaks to, your numbers, your voice) every other system reads. 'Set up my attraction brain' is four short conversations and three answers in your own voice, one plain question at a time; then every tool knows you and you get your Brain Book. Also the Daily Debrief, Prospect Radar, the Brokerage Model Expert, the Rev Share Calculator and Capture."
     },
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.2.9",
+      "version": "0.2.10",
       "description": "PLUGIN 2 — install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about…\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
       "name": "attraction-lead-magnet",
       "source": "./plugins/attraction-lead-magnet",
-      "version": "0.12.16",
+      "version": "0.12.17",
       "description": "PLUGIN 3 — install in Week 2. Lead Magnets & Opt-In Funnels pointed at agents, offer-first in one sitting: builds your Partner Offer if it isn't built yet, recommends ONE lead magnet from your unique value proposition and Mike's lessons (say yes, or ask for the next best), writes the magnet and its sales funnel outline, and puts them into your Week 3 Kit — the one file for Claude Design in Week 3. Then delivery, nurture, partners, Google profile, bios, analytics. Requires Plugin 1."
     },
     {
       "name": "attraction-shortform-system",
       "source": "./plugins/attraction-shortform-system",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "description": "PLUGIN 4 — install in Week 4. The Short-Form Attraction Engine: one sitting confirms your profiles and two keywords, builds your Short-Form Game Plan from your offer and your Week 3 Kit (the six designed posts open your calendar), maps 30 days onto your own Notion board, switches on four draft-only workflows with your one yes (Monday week plan, batch prep, Wednesday news watch, monthly refill) and scripts your first Reel. Requires Plugins 1 and 3."
     },
     {
@@ -39,7 +39,7 @@
     {
       "name": "attraction-youtube-system",
       "source": "./plugins/attraction-youtube-system",
-      "version": "0.8.4",
+      "version": "0.9.0",
       "description": "PLUGIN 6 — install in Week 5 (date to be confirmed). The Long-Form Authority Engine: one sitting optimizes your channel for the agents you attract, builds your YouTube Game Plan on the 8-video cycle (one video a week to start), puts your next 30 days on the YouTube tab of your Notion board — each card with a real video to watch first and a publish checklist — switches on two draft-only workflows with your one yes and hands you your first video. Requires Plugins 1, 3 and 4."
     }
   ]

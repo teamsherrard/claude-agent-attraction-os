@@ -2,7 +2,27 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.39.0] — 2026-11-21
+
+**The YouTube sitting asks one question — the filming day (YouTube 0.9.0 · Support 0.2.10 · Short-Form 0.9.2 · Brain 0.9.21 · Lead Magnet 0.12.17).** The owner ran the Week 5 sitting live and stopped at its first question, *"Your channel covers three topics… Which one could you talk about for twenty minutes with no notes?"*: "this question doesn't really make sense. I'm a bit confused about how to answer it or why it is important. Why is this needed?" It was not needed. It only decided which topic the first full video is on, and the plan can decide that itself and show it.
+
+**YouTube 0.9.0**
+- **One question, the same for every member:** *"Which day could you film a full video every week — about an hour?"* It has its own reply, labelled "One question:". The "twenty minutes, no notes" question is deleted from the setup, the Game Plan, the house rules and the contract; no skill asks which topic a member could talk about, what they like or what they are good at.
+- **The first-video rule replaces it — chosen from the Brain, never asked.** The first full video is on the topic the member named, if they have named one; else the topic their guide is about (it is half written already, and the guide is its call to action); else the topic the first step of their method teaches; else the first of their three. The proposal says which and why in one clause, the member can change it there or later ("start with [topic] instead"), and the choice is kept on a new line of the channel file, `First full video:`. The Game Plan builds video 1 on that line, and applies the same rule itself when it is run on demand.
+- **Nothing is lost on an update.** A member who stopped at the old first question comes back to "One question:" and the filming day. An answer already given to the old question is kept, still decides the first video, and is never asked for again. The filming day asked on a refresh now also re-dates the videos not yet started.
+- The welcome says what is needed in plain words: "your channel link, and the day you can film each week". The proposal's stop line and the win line after it say "Game Plan", not "plan" and "ninety-day plan".
+- Fixed in passing: a doubled half-sentence in the Game Plan skill's setup rule.
+
+**Shared `ask-once-default.md` (four plugins — Brain 0.9.21 · Lead Magnet 0.12.17 · Short-Form 0.9.2 · YouTube 0.9.0):** its last section is now "The content sittings ask one blanket question each — the filming day", with the owner's words of 2026-11-21. **Brain 0.9.21** also mirrors the channel template's new `First full video:` line. No behaviour change in the Brain, the Lead Magnet or Short-Form.
+
+**Support 0.2.10:** the stack map, the FAQ (Q70, Q71, Q79), the diagnostics tree, the doctrine's "how the content setups work" and the cohort notes describe one question in each sitting. "It asked which topic I could talk about for twenty minutes" or "Question 1 of 2" now means a version before 0.9.0: update, new chat, "continue my attraction YouTube setup". "Why did it pick that video first?" has an answer. The onboarding table no longer says short-form asks two questions (it has asked one since 0.36.0).
+
+**Docs:** the setup guide and the YouTube demo checklist match the one-question sitting; the root Brain Contract's Short-Form and YouTube rows no longer describe four questions or a `(Week 4)` YouTube block; the README's YouTube row says "the agents you want to attract".
+
+**Not yet run live from start to finish.** A full audit of the YouTube plugin against the owner's rulings is under way; its fixes follow in the next release.
+
 ## [0.38.1] — 2026-11-21
+
 
 **A correction to the README and to the Support desk's stack map — behaviour unchanged (Support 0.2.9).** Both still said the marketplace carried only Plugins 1 to 3, with the rest parked on the wip branch. Plugins 4 (Short-Form), 5 (The AI Editing Studio) and 6 (YouTube) have been on main since 2026-11-14 and the registry lists all six; a member reading either text would have thought the editor was not out yet.
 - The README callout now reads "Available in the marketplace today: Plugins 1 to 6", names the Design Studio as an uploaded skill set rather than a plugin, and gives each plugin's install week (1 and 2 in Week 1, 3 in Week 2, 4 and 5 in Week 4, 6 in Week 5).
