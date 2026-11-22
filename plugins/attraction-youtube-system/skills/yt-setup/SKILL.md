@@ -3,15 +3,14 @@ name: yt-setup
 description: >
   Onboarding for the Agent Attraction YouTube System, Week 5, on the member's Brain. One step at a time, and
   it waits after each: what the member told their Brain is read back for a Yes or a change, plus one
-  question (their filming day) when it is not on file. Then: the Channel Page (three to paste), the YouTube Game Plan
-  (one video a week to start), the YouTube tab and the next 30 days on the board, two
-  draft-only workflows (Monday Kickoff, Monthly Channel Review) switched on with a Yes, and the
-  first video by title.
-  Triggers on "set up my YouTube for agents", "set up my attraction channel", "set up my channel
-  for agents", "start my YouTube attraction system", "continue my attraction YouTube setup", "redo my attraction YouTube setup", "launch the attraction YouTube plugin", "open
-  my attraction YouTube system", "repair my channel for agents", "my channel page for agents",
-  "walk me through my channel page", "attraction playlists for agents", "my attraction channel
-  defaults". Not for a buyer-and-seller channel.
+  question (their filming day) when it is not on file. Then: the Channel Page (three to paste), the YouTube
+  Game Plan (one video a week), the YouTube tab and the next 30 days on the board, ONE draft-only workflow
+  (the Monday Kickoff, the month's review inside it) switched on with a Yes, and the first video by title.
+  Triggers on "set up my YouTube for agents", "set up my attraction channel", "set up my channel for
+  agents", "start my YouTube attraction system", "continue my attraction YouTube setup", "redo my attraction
+  YouTube setup", "launch the attraction YouTube plugin", "open my attraction YouTube system", "repair my
+  channel for agents", "my channel page for agents", "walk me through my channel page", "attraction playlists
+  for agents", "my attraction channel defaults". Not for a buyer-and-seller channel.
 ---
 
 # Agent Attraction YouTube System — Setup (one journey, five steps, Week 5)
@@ -33,8 +32,9 @@ is never a "want me to…?" and never a menu:
 2. **Your YouTube Game Plan** — the flagship doc, run inline (`yt-gameplan`); one video a week to start.
 3. **Your videos on your board** — the 🎬 YouTube tab added to their content board (the board built with it when
    Week 4 left none) and the next 30 days of videos mapped onto it (`yt-board`).
-4. **Your workflows** — one card, told not asked: the Monday Kickoff and the Monthly Channel Review switched on
-   with the card's Yes, the email note stated; created only on that Yes, all draft-only.
+4. **Your Monday Kickoff** — one card, told not asked: the ONE workflow (Mike, 2026-11-22: one scheduled task a
+   week) — every Monday this week's video drafted; on the first Monday of the month, last month reviewed inside
+   the same run — switched on with the card's Yes, the email note stated; created only on that Yes, draft-only.
 5. **Your first video** — the hand-off into production with the title already chosen (`yt-make-video`).
 
 Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` (the doctrine #1, the Brain first #2, 3-state compliance
@@ -202,7 +202,7 @@ ask about their niche, who they attract, their offer, their resource, or their v
 ## If the member asks (one plain line, then the same stop line — or the same question — again)
 - *"Why do you need my filming day?"* → *"Every date on your plan is counted from it."*
 - *"What's a channel trailer?"* → *"A 60-to-90-second video a new visitor sees first: who your channel is for and what it covers."*
-- *"What's a workflow?"* → *"Something I do for you on a schedule: every Monday I draft that week's video; on the 1st I review your month. I only draft — nothing is posted."*
+- *"What's a workflow?"* → *"Something I do for you on a schedule: every Monday I draft that week's video; on the first Monday of each month I review your month. I only draft — nothing is posted."*
 - *"I don't have Notion"* → *"It's a free app that holds your content board. Make a free account when you click Connect — or say Yes and we go on; your 30 days stay in your Game Plan."*
 - *"What's the Game Plan?"* → *"One document: what your channel covers, your first videos with their dates, and your titles."*
 - *"What is Higgsfield?"* → *"An image-making tool. You make your thumbnail there from the sheet I write."*
@@ -231,11 +231,10 @@ ask about their niche, who they attract, their offer, their resource, or their v
   scheduled."*
 - **The plan:** no research — the proposal's stop line drops its bracket and 6b's progress line reads *"Building
   it now — your plan in a moment."* (Each card's video to watch first is still a real one.)
-- **The card** is said and the Yes noted; no task is made, both task lines stay `later`, and after the card
-  nothing says that anything runs on Mondays or on the 1st.
+- **The card** is said and the Yes noted; no task is made, the task line stays `later`, and after the card
+  nothing says that anything runs on Mondays.
 - **The close keeps every true win line and claims no workflow:** it opens *"✓ Step 4 of 5 — done. You said Yes.
-  This is a demo Brain, so nothing is scheduled — on a real Brain that Yes switches on your Monday Kickoff and your
-  Monthly Channel Review."*; the Kickoff sentence and the "You switched on…" line are left out; and the
+  This is a demo Brain, so nothing is scheduled — on a real Brain that Yes switches on your Monday Kickoff."*; the Kickoff sentence and the "You switched on…" line are left out; and the
   Board-and-Book line names the Board's YouTube page only when the Board shows one (Step 9, item 2).
 
 ---
@@ -274,7 +273,7 @@ attraction YouTube system"):
     last reply), everything before *"Here's your direction"* replaced by *"Welcome back — your Channel Page is
     saved. Next, your Game Plan."* · none in any of them → *"Welcome back — your Channel Page is saved. Next is your Game Plan, and I need
     one thing for it — every date on your plan is counted from it. **One question:** Which day could you film a
-    full video every week — about an hour? **Your turn.**"* The question is never asked twice in a sitting, and
+    full video every week — about two hours? **Your turn.**"* The question is never asked twice in a sitting, and
     never when a filming day is on file.
   - **`complete`** → never re-onboard. The **READY BRIEF**, one line in plain words from `brain.md`,
     `channel.md`, and `memory/content-log.md` (this week's `Scripted` YouTube row, if the Monday Kickoff drafted
@@ -332,7 +331,7 @@ attraction YouTube system"):
 > 1. Your channel, set up for the agents you want to attract
 > 2. Your YouTube Game Plan
 > 3. Your videos on your content board
-> 4. Your two workflows — the weekly draft and the monthly review I can switch on for you
+> 4. Your Monday Kickoff — the one thing that runs for you
 > 5. Your first video
 > I already know you from your Brain[, and your offer, your guide and your bios are written], so I won't ask you
 > any of that again. About thirty-five minutes."
@@ -632,9 +631,11 @@ document and in `channel.md`, show the corrected copy block only, save, push, an
    `## YouTube (Week 4)` heading is the same block — rename it on this write and keep its task lines; any line
    beyond the six locked ones, the two retired on 2026-11-14 included, is dropped): `Installed:` today's date ·
    `Plugin version:` · `Layer: identity/channel.md` · `Monday Kickoff task:` · `Monthly review task:` · `Email me:`.
-   Write all six now: the first three; the two task lines as `later` (not switched on yet — unless the block
-   already holds a task id or `paused` there; Step 8 writes each task id on the Yes; a task line only ever holds a
-   task id, `paused` or `later`, and a reader treats anything that is not a task id as not on); and `Email me:`
+   Write all six now: the first three; `Monday Kickoff task:` as `later` (not switched on yet — unless the block
+   already holds a task id or `paused`; Step 8 writes the task id on the Yes; the line only ever holds a task id,
+   `paused` or `later`); `Monthly review task:` as `inside kickoff` (the review rides in the Kickoff's first-Monday
+   run since 2026-11-22 — never its own task; an older task id here → delete that task, write `inside kickoff`;
+   `paused` stays `paused`); and `Email me:`
    from the facts — check once, here, whether the member's mail is connected (Gmail or Outlook tools present); Step
    8 reads the line (`references/workflows-consent.md`: the Short-Form block's line mirrored; else `yes YYYY-MM-DD`
    when mail is connected, else `no (no mail connected)` — never asked); no brackets in the block (a bracket hides
@@ -681,7 +682,7 @@ question is owed, hands over the turn:
 > "Next, your Game Plan. It's built from what you've already told me, so I have just one question — every date on
 > your plan is counted from it. (If you have to stop, say "continue my attraction YouTube setup" any time and we
 > pick up right here.)
-> **One question:** Which day could you film a full video every week — about an hour? **Your turn.**"
+> **One question:** Which day could you film a full video every week — about two hours? **Your turn.**"
 The question is said exactly as printed, to every member (nothing about Reels in it). **Everything else the plan
 needs is already in the Brain** and is
 read back in the proposal below, never asked — **which topic the first full video is on included** (the
@@ -747,8 +748,7 @@ message:
 >   to say | it is the first step of the method in your offer | it is the first of your three topics | the one you chose]
 > • **A conversation with [first name]** — one of the agents you've helped
 > • **Your story, at full length** — *from the story you told in Week 1*
-> **Your pace:** one video a week to start (two a week comes later), filming on [day]s. Your plan also has one
-> video that explains how your brokerage model works."
+> **Your pace:** one video a week, filming on [day]s."
 (**The first line, by what happened:** the member answered the question → as printed · **the day was already on
 file** → the win line for Step 1 of 5 opens the reply instead, then *"Next, your Game Plan."*, and the pace line reads the day back: *"…filming on [day]s — the day you already film
 your Reels."* (a day from an earlier YouTube sitting: *"— the day you chose"*) · **the filming day skipped** → the
@@ -811,7 +811,7 @@ stamp `Setup: plan done` in `channel.md`, push, verify.
 **The reply ends here, on the stop line — nothing of Step 7 is started:**
 > "**Your part:** open your plan and read your next 7 days. Say **Yes** and [I'll put your next 30 days on your
 > content board | I'll build your content board and put your next 30 days on it | we go on to your content board
-> | I'll show you your two workflows] — or tell me what to change: your first [full] video, a title, a date. **Your turn.**"
+> | I'll switch on your Monday Kickoff] — or tell me what to change: your first [full] video, a title, a date. **Your turn.**"
 (The bracket, by what is true: a board link on file · no board yet and Notion connected · no board and Notion not
 connected · an older `declined` on the board line — then the board step is skipped, Step 7. Never a "decide
 whether…" line: the first video was named in the hand-over above, and a change is always theirs to ask for.)
@@ -862,7 +862,7 @@ their Brain Board is the read-only map of the same month, re-rendered on every p
   to click, what to say, and the phrase for a later chat, once. Never a block and never a question; the 30 days stay mapped in the Game Plan and the Brain, and the Monday Kickoff keeps drafting from the
   plan without a board. **"Connected" later in this sitting** (at the card, or after it) → run the first branch
   then, say the count line, and return to where the journey was (at the card: repeat only its last line — "Say Yes
-  and I'll set them up."). In a later chat the phrase is *"put my attraction plan in Notion"* — the stop line
+  and I'll set it up."). In a later chat the phrase is *"put my attraction plan in Notion"* — the stop line
   gives it to the member.
 - **An older `declined` on the `Content board:` line** (a real `declined YYYY-MM-DD` — never the template's
   bracket) → the board step is skipped: no board, no card, not a word about it; the plan is the window. Step 6b's
@@ -872,7 +872,7 @@ Then stamp `Setup: board done` (the step is done either way — the board is bui
 chat), push, verify.
 **The reply ends here, on the stop line — the workflows card is NOT said yet:**
 > "**Your part:** open your board and click your first video's card — [watch the video on it before you plan
-> yours | its notes are on it]. Say **Yes** and I'll show you your two workflows — or tell me what to change.
+> yours | its notes are on it]. Say **Yes** and I'll switch on your Monday Kickoff — or tell me what to change.
 > **Your turn.**"
 (The bracket: "watch the video on it" only when the FIRST card's reference-video cell is filled — a
 trailer card often has none — else "its notes are on it". **No board yet — the Connect card is in the chat — → the
@@ -895,19 +895,18 @@ it."* — nothing about Notion here: it was said once, at the board step) **— 
 no "now I'm going to…" line above it (the card announces itself), no recap, no housekeeping, nothing after "Say
 Yes" — and it is **at most 70 words before "Say Yes"**. Said once, in the reference's words:
 > "Here's what I'm switching on for you. **Your Monday Kickoff** — Mondays at 9:00 am: this week's video, drafted
-> [on its card | for you]. **Your Monthly Channel Review** — the 1st at 8:00 am: last month's videos reviewed, and your one next step. Both only
-> draft; nothing posts or publishes on its own. I'll email you a short note when each is ready. Say **Yes** and
-> I'll set them up."
+> [on its card | for you]; on the first Monday of each month, last month's videos reviewed and your one next step.
+> It only drafts; nothing posts or publishes on its own. I'll email you a short note when it's ready. Say **Yes**
+> and I'll set it up."
 The email sentence is one of the reference's four, by the facts. Nothing is asked: not the times, not the email,
-not "all or some".
-**The card's Yes is the consent the two scheduled tasks need.** On the **Yes** provision BOTH — the Monday Kickoff
-(`yt-briefing`'s task prompt, Mondays 9:00 am local, or the hour the member named inside their Yes) and the
-Monthly Channel Review (`yt-triggers`' task prompt, the 1st at 8:00 am local) — adopt before create, verify after
-create, write the two task lines and `Email me:` to the `## YouTube (Week 5)` block, push. **A Yes to one only**
-("just Mondays", "not the monthly one") → that one is created, the other task line is written `later`, and its
-turn-on phrase is said once — never a menu, never both without a Yes, never neither. **A question** → one plain
-answer ("If the member asks"), then the card's last line once more. **"Not now"** → nothing is created, both task
-lines stay `later`, never a second ask. In every case stamp `Setup: workflows done`, push, verify, and go straight
+not "all or some". **ONE workflow (Mike, 2026-11-22: "one scheduled task a week") — the Monthly Channel Review is
+no longer its own task; it rides inside the Kickoff's first-Monday run.**
+**The card's Yes is the consent the one scheduled task needs.** On the **Yes** provision the Monday Kickoff
+(`yt-briefing`'s task prompt, Mondays 9:00 am local, or the hour the member named inside their Yes) — adopt before
+create, verify after create, write `Monday Kickoff task:`, `Monthly review task: inside kickoff` (an older
+`attraction-monthly-youtube-review` task → delete it, say nothing) and `Email me:` to the `## YouTube (Week 5)`
+block, push. **A question** → one plain answer ("If the member asks"), then the card's last line once more. **"Not
+now"** → nothing is created, `Monday Kickoff task:` stays `later`, never a second ask. In every case stamp `Setup: workflows done`, push, verify, and go straight
 on to Step 9 in the same reply — its first line says what happened at the card. (A demo Brain: the demo block.)
 
 ## Step 9 — The first win: the first video, the Board and the Book, three next steps — and the close ends there
@@ -918,12 +917,11 @@ recording on the member's next filming day at least three days after the plan wa
 never today.
 
 **0 · The close opens with what happened at the card, in the reference's words — the win line for Step 4 of 5
-when the card got a Yes:** **the Yes** → *"✓ Step 4 of 5 — done. You switched on your Monday Kickoff and your Monthly
-Channel Review — Mondays your week's video is drafted [onto its card | for you]; the 1st, your Monthly Channel Review is waiting in your workspace[; a short note comes to your inbox each time]. Say 'stop my attraction kickoff' or 'stop my monthly channel review' any time."* ("onto its card" only when a board exists; no 30-days clause — the board
-step has just said it) · **a Yes to one only** → the same line naming that one alone, ending on the other's
-turn-on phrase, once (*"…Your Monthly Channel Review stays off — say 'turn on my monthly channel review' any
-time."*) · **"not now"** → no win line — the reference's one line, word for word (*"Nothing's switched on. Say 'turn
-on my attraction Monday kickoff' or 'turn on my monthly channel review' any time."*) · **a demo Brain** → the demo
+when the card got a Yes:** **the Yes** → *"✓ Step 4 of 5 — done. You switched on your Monday Kickoff — Mondays your week's video is
+drafted [onto its card | for you]; on the first Monday of the month, your month reviewed too[; a short note comes to
+your inbox each time]. Say 'stop my attraction kickoff' any time."* ("onto its card" only when a board exists; no
+30-days clause — the board step has just said it) · **"not now"** → no win line — the reference's one line, word for
+word (*"Nothing's switched on. Say 'turn on my attraction Monday kickoff' any time."*) · **a demo Brain** → the demo
 block's line. "You switched on" is said only of a workflow that was.
 
 **1 · The first video, as Step 5 of 5** (right after that line — said whether or not the card got its Yes) —
@@ -958,7 +956,7 @@ what you did:"):
 > • You [chose | kept] your filming day: [day]s[ — and chose the video you start with].
 > • You approved your Game Plan — your first video is ['[title]' | your channel trailer, then '[title]'], [one video a week to start | two videos a week — your call].
 > • You put your next 30 days on your content board[, each with a real video to watch first].
-> • You switched on [the two workflows that keep it moving | your Monday Kickoff | your Monthly Channel Review].
+> • You switched on your Monday Kickoff.
 (Line 1: "how to reach you" with no booking link on file; "— and you put them live" only when `Pasted:` no longer
 lists the three and compliance is not `unset`. Line 2: "chose" when they answered the question, "kept" when the day
 was on file, left out when skipped; its bracket only for a member who named their own first topic. Line 4 only

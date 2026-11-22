@@ -6,7 +6,22 @@ All notable changes to the Agent Attraction OS marketplace. Versions are per plu
 
 **The kit on Edits verified live; the hold rule corrected (Editor 0.7.4).** Released on top of 0.42.1 (the short-form rework from the other session). Re-vendored from the realtor marketplace's 0.7.3 with the usual patches. The Video Brand Kit placement ran live in Edits on real footage: the hook banner lands where it was designed with the words typed into its zone, and the CTA banner holds to the end, both off the face. One line in 0.42.0 was wrong: a still in Edits lasts three seconds but a negative trim does extend it, so `build_reel.py` now holds a banner as one element and falls back to back-to-back placement only if the trim does not take. The quirks also note that a freshly launched Edits can refuse to create a project until it is quit and opened again. Support unchanged.
 
+## [0.43.0] — 2026-11-22
+
+**The YouTube plugin follows Mike's simplicity rulings (YouTube 0.11.0 · Support 0.2.16).** The same mindset Mike applied to short-form on 2026-11-22 ("one scheduled task a week… say three hours… less is more… name the app"), applied to the four places in the YouTube sitting that went against it. The two-ask model on every YouTube video (the guide inside minute one, the call a third of the way in) is Mike's own long-form doctrine and is unchanged; whether the short-form 90/10 rule applies to YouTube is a question for Mike.
+
+**YouTube 0.11.0**
+- **ONE scheduled workflow.** The Monthly Channel Review is no longer its own task: it runs inside the Monday Kickoff on the first Monday of each month (the Kickoff's note that day carries the month in one line and the one next step, with the Kickoff's one push and one email) and on demand ("run my monthly channel review"). The workflows card names one thing: *"Your Monday Kickoff — Mondays at 9:00 am: this week's video, drafted; on the first Monday of each month, last month's videos reviewed and your one next step."* An older Brain's monthly task is deleted on the next write; "stop my monthly channel review" pauses the first-Monday review alone.
+- **The one question is honest:** *"Which day could you film a full video every week — about two hours?"* — not "about an hour".
+- **The teleprompter app is named** in every long-form script, the first-batch film-day sheet and the video chat's close: Instagram's free Edits app on the phone — paste the script, press record, read.
+- **Less talk:** the proposal's pace line is *"one video a week, filming on [day]s."* — no "(two a week comes later)", no sentence about the model video (both live in the Game Plan document); the close's "what you did" names one workflow.
+
+**Support 0.2.16 and the docs:** the desk, the setup guide, the YouTube demo checklist, the Brain Contract row, the README row and the marketplace card describe one workflow and the two-hour question; two workflows on the card or "about an hour" now mean a version before 0.11.0.
+
+**Not run live.**
+
 ## [0.42.1] — 2026-11-22
+
 
 **The Video Brand Kit on Instagram Edits, and an install warning fixed (Editor 0.7.3 · Support 0.2.14).** Re-vendored from the realtor marketplace's 0.7.2 with the usual Brain-home patch, the trimmed descriptions and the version one patch above.
 - **Install warning fixed:** `studio-energy` shipped with the first line of its description indented three spaces under a folded description, so its front matter did not parse; a Cowork sync of 0.40.0 showed "1 with warnings" on the editor plugin and skipped that one skill. Fixed upstream. The release gate's check 8 now fails on any skill whose front matter does not parse, the vendored editor included (it used to fall back to a regex for the vendored copy, which is how this shipped).

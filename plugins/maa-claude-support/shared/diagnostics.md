@@ -234,14 +234,18 @@ my CEO review". Neither has a task; that is by design, not a failure.
 
 1. **Was the yes ever given?** Ask one question: "When you set up [Short-Form / YouTube / the
    Admin…], did it show you a card listing what it was switching on — and did you say Yes to it?" The
-   short-form and YouTube setups show ONE card (one workflow — the Monday Week Plan — since Short-Form 0.10.0; two
-   workflows in YouTube) and create nothing before that
+   short-form and YouTube setups show ONE card (one workflow each — the Monday Week Plan since Short-Form 0.10.0; the
+   Monday Kickoff since YouTube 0.11.0, the monthly review inside it on the first Monday) and create nothing before that
    Yes; a member who answered the card with "not now" has them set aside, by design. (The Daily Debrief is never
    offered inside Brain setup — it is switched on by "turn on my daily debrief" or the AI Admin's card in a
    later week.) No yes → hand them the phrase that switches it on, through its OWNER skill: "turn on my daily
    debrief" (`attraction-debrief`) · "turn on my Monday week plan" (`sf-week-plan`) · "turn on my attraction Monday kickoff"
-   (`yt-briefing`) · "turn on my monthly channel review" (`yt-triggers`). "My attraction workflows" / "my
-   attraction YouTube workflows" shows which are on. ("My batch prep / news watch / calendar refill never ran" → those
+   (`yt-briefing`) · "turn on my monthly channel review" gets one line (`yt-triggers`): it runs inside the Monday Kickoff
+   on the first Monday of the month — turn on the Kickoff. "My attraction workflows" / "my
+   attraction YouTube workflows" shows which are on. ("My monthly channel review never ran" → since YouTube 0.11.0 it is not
+   its own task; it rides inside the first Monday's Kickoff note, and "run my monthly channel review" runs it any day. A
+   card that switched on two YouTube workflows is a version before 0.11.0: update the plugin, new chat, "continue my
+   attraction YouTube setup".) ("My batch prep / news watch / calendar refill never ran" → those
    were retired as tasks on 2026-11-22; their work rides inside the Monday package — one task, not four. A member whose
    Scheduled list still shows them is on a version before 0.10.0: update the plugin, new chat, "continue my attraction
    short-form", and the setup deletes the three in one line.) Support never creates a scheduled task itself, and a demo
@@ -320,6 +324,10 @@ office, your kitchen, your car" · a "Metricool or GoHighLevel — which one?" q
 calendar that opens with carousels, then graphics, then Reels · a close that lists phrases, workflows or a stories
 routine. The fix is always the same: update the plugin (Customize → Plugins), open a new chat, say "continue my
 attraction short-form" — nothing they built is lost, and the setup removes the three retired tasks in one line.
+**YouTube, the same check — a member who sees any of these is on a version before 0.11.0:** two workflows on the card
+(a Monthly Channel Review of its own) · "about an hour" for a full video · "(two a week comes later)" or a line about the
+brokerage-model video in the proposal. Update the plugin (Customize → Plugins), new chat, "continue my attraction
+YouTube setup".
 
 1. **What is the last line on their screen?** One question: *"What's the very last line it wrote?"*
    - It ends in **"Your turn."** → it is waiting, not stuck (FAQ Q73). A question → they answer it in a
@@ -333,7 +341,8 @@ attraction short-form" — nothing they built is lost, and the setup removes the
    in the same spot — and where is that: your office or your home?"* — a member
    asked *"What do you do off the clock…"* is on a version before 0.9.0, and one asked *"about an hour… your car"* is
    on a version before 0.10.0: update the plugin, new chat, "continue my
-   attraction short-form". YouTube: *"Which day could you film a full video every week?"* — and not even that when the Brain already
+   attraction short-form". YouTube: *"Which day could you film a full video every week — about two hours?"* (a member asked *"about an hour"* is on a
+   version before 0.11.0: update the plugin, new chat, "continue my attraction YouTube setup") — and not even that when the Brain already
    holds their filming day from Week 4: it is read back for a Yes or a change, so "it asked me nothing but my
    channel" is by design. A member asked *"Which
    one could you talk about for twenty minutes with no notes?"*, or shown "Question 1 of 2", is on a version before

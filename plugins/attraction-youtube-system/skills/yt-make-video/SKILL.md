@@ -285,7 +285,7 @@ one line each for what was just built (the thumbnails, then the Higgsfield line 
 description · its card — or, with no board, where the six publish steps are) · **what you did today**, each line
 beginning "You", counted from this chat and never padded (*"You chose your title and how it opens. You approved
 your script."*) · **your first win this week** (*"Film it on [the row's Recording date, in words — else the
-filming day in `identity/channel.md`]."*; no date on file: *"Film it this week."*) · **the editing line**, as a
+filming day in `identity/channel.md`]. Film on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read."*; no date on file: *"Film it this week. Film on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read."*) · **the editing line**, as a
 fact, word for word (the owner, 2026-11-14 evening — the editor is part of the process): *"When it's filmed, open
 a new chat and say 'edit my YouTube video' (or 'edit my interview') — your AI Editing Studio edits it."* · what is
 missing, when anything is (the section below) · the compliance line, when one is due (Compliance, below).

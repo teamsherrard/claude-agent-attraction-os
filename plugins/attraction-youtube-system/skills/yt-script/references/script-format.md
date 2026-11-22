@@ -71,6 +71,7 @@ CHAPTERS (planned — the real times come from your edit):
 ```
 
 ## Teleprompter conventions
+The one filming line, on every script (Mike, 2026-11-22: name the app): *"Film on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read."*
 - Spoken words the way the member talks — contractions, their rhythm, their signature phrases (`voice-print.md`).
 - `[brackets]` = delivery and extra-footage notes (not spoken). `>>` = on-screen text (not spoken). A source is
   never inside a spoken line — it goes in the footer. The legend under the title says this to the member in plain

@@ -1,15 +1,11 @@
 # Monthly Channel Review — Scheduled Task Prompt (Week 5 · Brain-native, workspace-backed, draft-only)
 
-Switched on at setup with the member's Yes on the workflows card — `yt-setup`'s card (the Monthly row of
-`${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md`) — or resumed on "turn on my monthly channel
-review" (`yt-triggers` Job 1), from `paused` or `later`. Create ONLY after that explicit yes: `list_scheduled_tasks` first (adopt `attraction-monthly-youtube-review` if it exists, never a twin), else
-`create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, `cronExpression: 0 8 1 * *` (the 1st at
-8:00 am, or the member's hour — the day never changes — in their local time from `~/attraction-brain/config.md → Timezone`), the block
-below as the task `prompt` **verbatim**. Verify with `list_scheduled_tasks` (present, enabled, a `nextRunAt`), write
-`Monthly review task: attraction-monthly-youtube-review · runs the 1st [time]` to `config.md`'s `## YouTube (Week 5)`
-block (an older `## YouTube (Week 4)` heading is the same block — rename it on this write, update the line in place),
-push via `attraction-brain-sync`. "Run my monthly channel review" runs steps 2–7 and 9 in chat with no task and no
-email. Every member detail resolves from the Brain at runtime.
+**Not a scheduled task of its own since 2026-11-22 (Mike: "one scheduled task a week").** This review runs INSIDE
+the Monday Kickoff on the first Monday of each month — the Kickoff's task prompt (`skills/yt-briefing/references/weekly-task-prompt.md`,
+step 5b) runs steps 2b to 7 below in the same run, with the Kickoff's one push and one email — and on demand ("run my
+monthly channel review": steps 2b–7 and 9 in chat, no task and no email). **Never create `attraction-monthly-youtube-review`**;
+an older Brain's task is deleted and its config line written `inside kickoff` (`paused` when the member stopped the
+review alone — then the Kickoff skips step 5b). Every member detail resolves from the Brain at runtime.
 
 ---
 

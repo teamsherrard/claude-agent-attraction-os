@@ -2,16 +2,15 @@
 name: yt-triggers
 description: >
   The scheduled workflow registry and the timely angle reader for the Agent Attraction YouTube System
-  (Week 5). Lists exactly two workflows — the Monday Kickoff and the Monthly Channel Review — both
-  switched on at setup with the member's Yes, draft only, stoppable in one sentence, with a short
-  email note each run; owns the Monthly Channel Review (the 1st: the month by topic, which videos
-  brought agent conversations, the one next step). Also turns dated industry news from the Brain's
-  intel file into cited, timely video angles for agents. Trigger on: "my YouTube scheduled tasks",
-  "my attraction YouTube workflows", "turn on my monthly YouTube review", "run my monthly YouTube
-  review", "stop my monthly YouTube review", "turn on my monthly channel review", "run my monthly
-  channel review", "stop my monthly channel review", "anything timely for agents this week",
-  "industry news angles for agents", "what's happening in the industry for a video", "list my
-  attraction automations".
+  (Week 5). ONE workflow — the Monday Kickoff — switched on at setup with the member's Yes, draft only,
+  stoppable in one sentence, with a short email note each run; the Monthly Channel Review (the month by
+  topic, which videos brought agent conversations, the one next step) runs inside it on the first Monday of
+  the month and on demand — this skill owns the review's steps. Also turns dated industry news from the
+  Brain's intel file into cited, timely video angles for agents. Trigger on: "my YouTube scheduled tasks",
+  "my attraction YouTube workflows", "turn on my monthly YouTube review", "run my monthly YouTube review",
+  "stop my monthly YouTube review", "turn on my monthly channel review", "run my monthly channel review",
+  "stop my monthly channel review", "anything timely for agents this week", "industry news angles for
+  agents", "what's happening in the industry for a video", "list my attraction automations".
 ---
 
 # Triggers — the registry, and the timely angles
@@ -21,7 +20,7 @@ turn industry movement into timely attraction videos. Apply `${CLAUDE_PLUGIN_ROO
 and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. To the member: "your Monday Kickoff", "your Monthly
 Channel Review", "your Brain Board" — never a task id, a skill name, or a file path.
 
-## Job 1 — The registry (exactly two workflows, and the email line)
+## Job 1 — The registry (ONE workflow, the review inside it, and the email line)
 **Reads at this step:** `brain.md` and `config.md` only (plus `list_scheduled_tasks`). Job 2 opens `memory/intel.md`
 only. The scheduled prompts open their own files in phases, inside their own runs.
 
@@ -52,7 +51,7 @@ three ways — the push · ONE email to the member's own address while `Email me
 demo Brain never gets a task.
 
 **"My YouTube scheduled tasks" / "my attraction YouTube workflows" / "list my attraction automations"** → read
-`config.md`, call `list_scheduled_tasks`, show the two workflows in plain words with each one's status (on · paused ·
+`config.md`, call `list_scheduled_tasks`, show the Monday Kickoff and, under it, the month's review that rides in it, in plain words with each one's status (on · paused ·
 not switched on yet — `later`, with its "turn on my …" phrase · missing — the Brain says on but the task is gone → say
 so and re-create it through its owner on the member's word)
 and the one-sentence stop for each, then the email line in one line (*"a short note comes to your inbox when
@@ -67,9 +66,11 @@ connected)` when it is not. Any YouTube run that finds no connected mail at send
 `no (no mail connected)` and says so once; a run that finds mail connected again writes `yes YYYY-MM-DD` (an older
 plain `no` mirrored from the Short-Form block is honoured). This skill never writes the Short-Form block.
 
-### Monthly Channel Review (this skill owns it — switched on at setup, draft-only)
-What it is, in the member's words — the card's own: *"on the 1st: last month's videos reviewed, and your one next
-step — written for you, nothing posted."* **The review needs numbers the live connection cannot read** (it reads public data only; click-through
+### Monthly Channel Review (this skill owns its steps — it runs INSIDE the Monday Kickoff on the first Monday of the month, never as its own task since 2026-11-22)
+What it is, in the member's words — the card's own: *"on the first Monday of each month, last month's videos
+reviewed and your one next step — written for you, nothing posted."* Mike, 2026-11-22: "one scheduled task a
+week" — so there is no `attraction-monthly-youtube-review` task any more; the Kickoff's prompt (step 5b) runs this
+file's steps 2b–7 on the first Monday, with the Kickoff's one push and one email. **The review needs numbers the live connection cannot read** (it reads public data only; click-through
 rate, watch time and traffic sources live inside YouTube Studio), so it asks for them the told-not-asked way:
 once the member has a video published, the document and the note END with the stated step — *"To make next month's review sharper, take three screenshots in YouTube Studio in the last days of the month and drop them into a chat with the words 'add my attraction Studio numbers': 1. In the left menu click Insights (it used to say Analytics), then the Content tab — screenshot that page. 2. In the left menu click Content, point at your most-watched video and click Insights, then the Reach tab — screenshot it. 3. Same video, the Engagement tab — screenshot it."* (YouTube Studio's left menu says Insights where it used to say Analytics; Reach and Engagement are tabs of one
 video's Insights — checked against YouTube Help, 2026-11-21). **A member with nothing published gets the short
@@ -84,17 +85,13 @@ performance ledger (`memory/content-performance.md`), and makes the proposal to 
 reads "your pace" and the phrase is "change my YouTube pace" — when a month at one has held and at
 least one video is published (once a month at most; the on-demand video read never makes it). **Turn on
 / resume** ("turn on my monthly channel review" — the older "…my monthly YouTube review" is the same phrase, here and
-for run and stop below — from `paused` or `later`; the phrase is the member's explicit yes):
-the Monthly row of the consent reference — `list_scheduled_tasks` (adopt `attraction-monthly-youtube-review`), else
-`create_scheduled_task` with `taskId: attraction-monthly-youtube-review`, the `title` and `description` the consent
-reference prints (`Your Monthly Channel Review`), `cronExpression: 0 8 1 * *` (the 1st, at their
-hour, local time — the day never changes), the prompt **verbatim** from `references/monthly-review-task-prompt.md`; verify; write `Monthly
-review task: attraction-monthly-youtube-review · runs the 1st [time]`; push; confirm once: *"On. Say 'stop my monthly
-channel review' any time."* **Run now** ("run my monthly channel review"): the same prompt's steps 2–7 and 9 in chat,
+for run and stop below): write `Monthly review task: inside kickoff`, delete an older `attraction-monthly-youtube-review`
+task if one exists (never create one), push, one line: *"Your month's review runs inside your Monday Kickoff on the
+first Monday — back on."* **Run now** ("run my monthly channel review"): the same prompt's steps 2–7 and 9 in chat,
 no task created and no email (they are here) — the doc saved, its text at
 `~/attraction-brain/exports/youtube-review-YYYY-MM-DD.txt` (the Brain Board shows the last review from it), the
-cards' 📊 AFTER IT'S OUT written, the push, the note said in chat. **Stop** ("stop my monthly channel review"):
-disable the task (`update_scheduled_task`, or delete it), write `paused`, push, one line; it still runs on demand
+cards' 📊 AFTER IT'S OUT written, the push, the note said in chat. **Stop** ("stop my monthly channel review"): write
+`Monthly review task: paused` (the Kickoff skips its first-Monday review), push, one line; it still runs on demand
 any time. The scheduled run ends the owner's three ways (the push · one email to the member's own address while
 `Email me:` says yes — "Your monthly channel review is ready — [month]" — sent as the last tool call before the
 note, never retried · the note). The full deep dive — on demand, with
@@ -126,7 +123,7 @@ Kickoff's 🔥 TIMELY line uses this same rule for its two items.
   movement only.
 - Never a negative characterization of a brokerage, sponsor, or person, even when the news is negative:
   report the fact with its source and move to what it means for the viewer.
-- Exactly two workflows and the email line — nothing else is ever registered, provisioned, or listed here; a
+- One workflow (the Monday Kickoff; the Monthly Channel Review rides inside it, never its own task) and the email line — nothing else is ever registered, provisioned, or listed here; a
   line an older block carries beyond the locked six is dropped on the next write, never kept.
 - Every scheduled run is draft-only: nothing is posted or published; the one email goes only to the member's
   own address and only while `Email me:` says yes — part of the process, never a question.

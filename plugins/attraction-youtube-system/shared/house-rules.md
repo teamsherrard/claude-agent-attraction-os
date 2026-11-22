@@ -106,7 +106,7 @@ name) · "your Channel Page" (never a kit) · "your three topics" and "a topic v
 model videos" · "your eight-video plan" · "your pace" · "your filming day" · "three ways to open", "how it opens",
 "your opening line" · "your title and description" · "your thumbnail sheet" (made into a thumbnail in Higgsfield) ·
 "your content board" and "its card" · "your month by topic" · "your Monday Kickoff", "your Monthly Channel Review"
-and, for the pair, "your two workflows" — nothing else for those two · "your AI Editing Studio" (rule #22).
+(it runs inside the Kickoff on the first Monday) — never "your two workflows" · "your AI Editing Studio" (rule #22).
 **Never in front of the member:** lane, niche, bucket, pillar, cadence, SEO, packaging, outlier, "the hook",
 retention (say "how long people keep watching"), CTR or click-through rate ("how many people click"), B-roll
 ("extra footage"). Those words stay in the Brain's fields, in file names and in these files.
@@ -483,12 +483,12 @@ Board" — never a file, never a path.
 
 Cowork scheduled tasks run in the cloud on the member's clock. The two, by name, task id, owner and time (the
 contract's `## Scheduled workflows` section carries the same table); there is no optional set. To the member they
-are "your Monday Kickoff", "your Monthly Channel Review" and, for the pair, "your two workflows" — nothing else:
+are "your Monday Kickoff", "your Monthly Channel Review" and never "your two workflows" (one workflow since 2026-11-22):
 
 | Workflow | Task id | Owner | Switched on | When |
 |---|---|---|---|---|
 | Monday Kickoff — this week's video drafted onto its card (three ways to open, the brief, the script start or the interview guide, the thumbnail sheet, the title and description), into the Brain and the video's folder; the board topped up to 30 days; a note of at most seven lines | `attraction-monday-kickoff` | `yt-briefing` | at setup, with the member's Yes on the workflows card | Mondays, the member's hour (default 9:00 am) |
-| Monthly Channel Review — what went out in the month, which videos brought agent conversations, the one next step, the move to two a week when due; a member with nothing published gets the short review; the month's Studio screenshots used when they are on record, and the three-screenshots step stated at the end once a video is published; each published card's 📊 AFTER IT'S OUT; a dated YouTube block in the Brain's performance ledger | `attraction-monthly-youtube-review` | `yt-triggers` | at setup, with the same Yes | the 1st, the member's hour (default 8:00 am) |
+| Monthly Channel Review (runs INSIDE the Monday Kickoff on the first Monday of the month since 2026-11-22 — never its own task) — what went out in the month, which videos brought agent conversations, the one next step, the move to two a week when due; a member with nothing published gets the short review; the month's Studio screenshots used when they are on record, and the three-screenshots step stated at the end once a video is published; each published card's 📊 AFTER IT'S OUT; a dated YouTube block in the Brain's performance ledger | `attraction-monthly-youtube-review` | `yt-triggers` | at setup, with the same Yes | the 1st, the member's hour (default 8:00 am) |
 
 The weekly numbers are the member's on demand ("how did my video do", "which videos brought me agents" —
 `yt-analytics`), never a scheduled report. The rules every task obeys:

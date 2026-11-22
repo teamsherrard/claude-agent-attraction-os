@@ -565,8 +565,8 @@ Next step: try "what did Mike say about 3-way calls."
 Scheduled agents only exist if you said yes when their owner skill offered them — and they only
 ever DRAFT.
 
-- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; the four short-form workflows on one card in Week 4; the Monday Kickoff and the
-  Monthly Channel Review on one card in Week 5; the follow-up queue and call prep in Week 6. Two things are on demand, never scheduled: the Prospect Radar's
+- The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; one short-form workflow (the Monday Week Plan) on one card in Week 4; one YouTube workflow (the
+  Monday Kickoff — your monthly channel review runs inside it on the first Monday of the month) on one card in Week 5; the follow-up queue and call prep in Week 6. Two things are on demand, never scheduled: the Prospect Radar's
   news scan ("scan agent movement") and the CEO review ("run my CEO review") — just say the phrase
 - Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase)
   and it offers again — I never create one for you
@@ -692,7 +692,7 @@ same page every time: the hook, the script, the caption, the ask, filming notes,
 **Q59. YouTube: do I really have to film two videos a week?**
 No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos, in this
 order: a topic video, an interview, a topic video, your model video. Two a week is Mike's recommendation and the
-step-up your Monthly Channel Review proposes once a month at one has held; to change your pace any time, say "change my YouTube pace". Interviews can be
+step-up your monthly review proposes (it runs inside your Monday Kickoff on the first Monday of each month) once a month at one has held; to change your pace any time, say "change my YouTube pace". Interviews can be
 recorded two in one sitting, so the mix holds even when your filming time is tight. If you have nobody to
 interview yet, that week takes the next video from your three topics, so no week is ever empty; your first
 interview goes on your plan the day you name someone ("set up an agent interview").
@@ -709,10 +709,10 @@ Every Monday it reads your Game Plan and your board, drafts this week's video on
 script or the interview guide, your thumbnail sheet, the start of your title and description — notes it in your Brain and your
 video's folder, keeps your next 30 days on the board, leaves a short note in Cowork, and sends you one short email at your own address
 (the same as your short-form notes; nothing if no mail is connected). On an interview week with no guest named yet, it drafts the next video
-from your three topics instead, so no week is ever empty. It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat, in three short steps (Q70).
+from your three topics instead, so no week is ever empty. On the first Monday of each month it also reviews last month — your month in one line and the one next step — so there is no separate monthly task; "run my monthly channel review" runs that review any day. It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat, in three short steps (Q70).
 
 **Q62. Do I switch the workflows on one by one, or pick which ones I want?**
-Neither. Setup tells you what it is switching on — one for short-form (your Monday Week Plan), two for YouTube — and you say Yes to that
+Neither. Setup tells you what it is switching on — one for short-form (your Monday Week Plan), one for YouTube (your Monday Kickoff, with your monthly review inside it on the first Monday) — and you say Yes to that
 card; that Yes is the consent every scheduled task needs, and nothing is created before it. There is no "all, some, or not
 yet" and no "do you want emails": the email note is part of the process when your mail is connected. The extras exist
 by phrase; nothing posts, sends or schedules on its own.
@@ -757,9 +757,9 @@ clip scripts. Your YouTube plugin never uploads or publishes a video for you.
 **Q68. Can it read my real YouTube numbers?**
 Yes, when you want it. It is a separate two-minute step, never part of setup: open a new chat and say "connect my
 YouTube numbers". It shows you exactly where to click, you sign in to YouTube once, and it only ever reads. After
-that your reviews and your reference videos carry real view counts. Without it everything still works; your Monthly
-Channel Review asks you for three screenshots from YouTube Studio instead. Your Monday and monthly workflows never use this
-connection on their own.
+that your reviews and your reference videos carry real view counts. Without it everything still works; your monthly
+review (inside your first-Monday Kickoff) asks you for three screenshots from YouTube Studio instead. Your Monday Kickoff never uses this
+connection on its own.
 
 **Q69. Can I film several videos in one day?**
 Yes, and it is the easiest way to start. Say "script my first three videos": it writes the three videos you film on
@@ -785,14 +785,16 @@ They do know you — they never ask again for anything you told your Brain, and 
 only one question, the same for every member, whether you have attracted fifty agents or none yet:
 - **Short-form:** "Which day could you block about three hours every week to film, in the same spot — and where is
   that: your office or your home?" (Three hours is honest for two Reels when you are new to it.)
-- **YouTube:** which day you can film a full video. If your Brain already holds your filming day from Week 4, it does
+- **YouTube:** "Which day could you film a full video every week — about two hours?" (Two hours is honest for a full video
+  when you are new to it.) If your Brain already holds your filming day from Week 4, it does
   not ask at all — it reads that day back to you for a Yes or a change. So "it asked me nothing but my channel" is
   how it is meant to work.
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
 it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
 your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", "what do you do off the clock?", "which
 topic could you talk about for twenty minutes?", "Metricool or GoHighLevel?" — or says "Question 1 of 4" or "Question 1 of 2", or
-asks for "about an hour… your office, your kitchen, your car" — you are on an
+asks for "about an hour… your office, your kitchen, your car" (short-form) or "about an hour" for a full video (YouTube now says
+"about two hours") — you are on an
 older version: update the plugin (Customize → Plugins), open a new chat and say "continue my attraction short-form"
 or "continue my attraction YouTube setup".
 
@@ -844,10 +846,13 @@ and waits again. After setup: "update my pillars", "change my cadence" or "set m
 One of you is on an older version. The plugins are updated during the cohort: since mid-November the short-form and
 YouTube setups wait after every step and ask only one question — your filming day — always in plain chat; since 22
 November the short-form sitting is simpler still — two Reels and one carousel a week from week one, one Monday
-workflow, Metricool stated, and it ends at your first Reel. (Earlier versions asked more: four questions for a few
+workflow, Metricool stated, and it ends at your first Reel — and so is YouTube: one Monday workflow (your monthly
+review runs inside it on the first Monday), a two-hour filming question, Instagram's free Edits app named for filming,
+a shorter proposal. (Earlier versions asked more: four questions for a few
 days, then "what do you do off the clock" in short-form and "which topic could you talk about for twenty minutes" in
 YouTube; a short-form setup that says "about an hour… your car", asks "Metricool or GoHighLevel", switches on four
-workflows or names Batch Prep, or opens your calendar with six designed posts before any Reel, is before 0.10.0. If
+workflows or names Batch Prep, or opens your calendar with six designed posts before any Reel, is before 0.10.0; a YouTube setup that switches on two
+workflows, says "about an hour" for a full video, or says "two a week comes later" is before 0.11.0. If
 yours does any of those, or says "Question 1 of 4" or "Question 1 of 2", it is an older version.) Update your plugins (Customize →
 Plugins), open a new chat and say the setup phrase again — it picks up where you were. A setup you already finished
 is never run again unless you ask: "redo my attraction short-form" or "redo my attraction YouTube setup". Stopped part-way? "Continue my attraction short-form" or "continue my attraction YouTube setup" picks up exactly where you were.

@@ -27,7 +27,8 @@ bind every line this skill drafts.
 > "turn on my attraction Monday kickoff", from `paused` or `later`), created only with that explicit yes, `taskId:
 > attraction-monday-kickoff`, Mondays 9:00 am local unless they chose a time, the prompt verbatim from
 > `references/weekly-task-prompt.md`. Or on demand, any day ("run my attraction kickoff") — the same workflow,
-> in chat. Nothing is ever posted or published; the one thing that leaves the member's own system is the one
+> in chat. **It is the ONE scheduled workflow of this plugin (Mike, 2026-11-22): on the first Monday of each month
+> the Monthly Channel Review runs inside it** (the prompt's step 5b; `yt-triggers` owns the review's steps). Nothing is ever posted or published; the one thing that leaves the member's own system is the one
 > short email to their own address — on a scheduled run only (on demand they are here, so no email), and only while
 > the Brain's `Email me:` line says yes. **"Stop my attraction kickoff" / "pause my
 > Monday kickoff" / "change my kickoff time"** → read `~/attraction-brain/config.md` only, then Step 5.
@@ -264,7 +265,9 @@ The block is `~/attraction-brain/config.md → ## YouTube (Week 5)` — readers 
 heading as the same block and rename it on their next write; never a second block. Its lines, locked spelling and
 order (`shared/brain-contract.md`): `Installed:` · `Plugin version:` · `Layer: identity/channel.md` · `Monday Kickoff
 task:` · `Monthly review task:` · `Email me:` — nothing else, ever (any line beyond the six is dropped on the next
-write). Read the `Monday Kickoff task:` line — it holds exactly one of three values, and anything that is not a
+write). `Monthly review task:` holds `inside kickoff` (the review rides in the first-Monday run — since
+2026-11-22, never its own task) or `paused`; an older task id there → delete that task, write `inside kickoff`.
+Read the `Monday Kickoff task:` line — it holds exactly one of three values, and anything that is not a
 task id reads as not on. **A task id** (`attraction-monday-kickoff · runs Mondays [time]`) → on; say nothing.
 **`paused`** → the member stopped it; say nothing (a pause holds until they resume it). **`later`** → not switched on yet (the card did not get
 its Yes, or the task did not save); say so once only, as a bracketed notice on the 🎬 line (Step 4's words), and record

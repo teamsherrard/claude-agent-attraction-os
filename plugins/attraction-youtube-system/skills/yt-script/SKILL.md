@@ -249,7 +249,7 @@ does the rest. Told, never asked: no "which three?", no "ready?".
    (the skeleton is in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`), and the same lines in the chat:
    the day · the three videos in filming order (the trailer last — the member is warmed up by then) with each
    one's length · **before you record** — the camera at eye level · face a window · a quiet room, or the
-   microphone you already have · the script in large type beside the lens · a ten-second test, watched back ·
+   microphone you already have · the script on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read (Mike, 2026-11-22: one app, named) · a ten-second test, watched back ·
    **between videos** — change your top, so three weeks of videos do not look like one afternoon · **after each
    video** — five photos of your face for the thumbnail: a big smile, surprised, serious, pointing left, pointing
    right — kept on the phone; one is uploaded to Higgsfield for each thumbnail. Nothing in it promises anyone the
