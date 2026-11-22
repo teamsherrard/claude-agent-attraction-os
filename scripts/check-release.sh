@@ -129,11 +129,8 @@ for f in sorted(glob.glob("plugins/*/skills/*/SKILL.md")):
     vendored = "/realtor-ai-editing-studio/" in f
     try: fm=yaml.safe_load(m.group(1))
     except Exception as e:
-        if vendored:
-            nm=re.search(r'^name:\s*(\S+)',m.group(1),re.M); ds=re.search(r'^description:\s*>?\s*\n?((?:.*\n?)*)',m.group(1),re.M)
-            fm={"name":nm.group(1) if nm else None,"description":(ds.group(1) if ds else "")}
-        else:
-            print(f"  ✗ {f}: frontmatter does not parse ({e})"); bad=True; continue
+        print(f"  ✗ {f}: frontmatter does not parse ({str(e).splitlines()[0][:140]}) — the marketplace sync warns and SKIPS the skill; the vendored editor is NOT exempt (0.40.0 shipped studio-energy this way and Cowork reported it)"); bad=True; continue
+    if not isinstance(fm,dict): print(f"  ✗ {f}: frontmatter is not a mapping"); bad=True; continue
     if fm.get("name")!=d: print(f"  ✗ {f}: name '{fm.get('name')}' != dir '{d}'"); bad=True
     desc=fm.get("description","") or ""
     if len(desc)>1024:

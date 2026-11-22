@@ -2,6 +2,13 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.42.0] — 2026-11-22
+
+**The Video Brand Kit on Instagram Edits, and an install warning fixed (Editor 0.7.3 · Support 0.2.14).** Re-vendored from the realtor marketplace's 0.7.2 with the usual Brain-home patch, the trimmed descriptions and the version one patch above.
+- **Install warning fixed:** `studio-energy` shipped with the first line of its description indented three spaces under a folded description, so its front matter did not parse; a Cowork sync of 0.40.0 showed "1 with warnings" on the editor plugin and skipped that one skill. Fixed upstream. The release gate's check 8 now fails on any skill whose front matter does not parse, the vendored editor included (it used to fall back to a regex for the vendored copy, which is how this shipped).
+- **The kit on Edits:** the Edits reel build (`build_reel.py`) reads the registered Video Brand Kit and places the hook banner with the member's words typed into its zone, the CTA banner held to the last frame (a still in Edits lasts three seconds and is never extended, so it is placed back to back), and the emphasis panel on pop-ups; with no kit it renders the cards natively as before. `studio-setup` says how the kit files get onto the Mac and records the 9:16 zones. Checked against the kit's 9:16 cards; the real kit has not yet been placed in a live Edits run.
+- **Support 0.2.14:** FAQ Q81 covers the kit on both engines and the sync warning; a "What changed lately" row.
+
 ## [0.41.1] — 2026-11-22
 
 **The last checks of the YouTube audit — polish, behaviour unchanged (YouTube 0.10.1 · Support 0.2.13).** Three final read-throughs were still running when 0.41.0 went out. They judged the shipped files safe and made these small corrections.

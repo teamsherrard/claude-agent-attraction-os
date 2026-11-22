@@ -856,3 +856,12 @@ and nothing is published without your yes. To switch engines, say "set up my vid
 in the request ("edit this in Edits"). Don't see this behaviour? Update your plugins (Customize → Plugins) and start a
 new chat. The editor plugin is called "The AI Editing Studio": if your list still shows the old Riverside editor,
 remove it and install the new one once — your saved editor settings stay as they are.
+
+Your Video Brand Kit (designed in Week 3) works on both engines. On Riverside the cards go into your Riverside media
+once, at setup. On Edits the kit files have to be on the Mac: setup asks you to download the kit (the "Download the
+kit" button in Claude Design, or the folder in your Drive) into the Edits cards folder under Movies, and from then on
+an Edits reel carries your hook banner with your words in it, your CTA banner to the last frame, and your pop-up panel
+— the same designed pieces as on Riverside. (Before Editor 0.7.3 an Edits reel used plain on-brand cards even with a
+kit registered.) Saw "1 with warnings" on the editor plugin under Customize → Plugins? One skill (Energy — the zooms,
+"make it punchier") shipped with a formatting slip and did not install; it is fixed, and the next plugin sync clears
+the warning.
