@@ -15,7 +15,7 @@
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.2.10",
+      "version": "0.2.11",
       "description": "PLUGIN 2 — install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about…\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
@@ -33,7 +33,7 @@
     {
       "name": "realtor-ai-editing-studio",
       "source": "./plugins/realtor-ai-editing-studio",
-      "version": "0.6.1",
+      "version": "0.7.2",
       "description": "PLUGIN 5 — install in Week 4 with Short-Form. The AI Editing Studio: Claude edits your Reels and long videos in your own Riverside account, or in Instagram's free Edits app on your Mac (your choice) — cuts the fluff, finds the hook, cleans the audio, adds captions, music, B-roll and your Week 3 brand graphics — every change checked, nothing posted without your yes. It never writes titles, captions or descriptions. Requires Plugin 1 and either a Riverside Grow plan or higher, or a Mac with Edits."
     },
     {

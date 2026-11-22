@@ -116,7 +116,7 @@ Two footnotes:
 Claude's paid plan is the only REQUIRED subscription. Everything else is bring-your-own and
 optional by design:
 
-- **Riverside** — the AI Editor runs on your own Riverside account (Week 4) — or on Instagram's free Edits app on your Mac, no account to pay for (Q81)
+- **Riverside** — the AI Editor runs on your own Riverside account (Week 4) — the main path; or, from the Code tab of the Claude app on a Mac, Instagram's free Edits app, no account to pay for (Q81)
 - **ManyChat** — the comment-to-DM sequences import into your own account; the free plan first
 - **Metricool** — only for auto-publishing (manual posting is free)
 - **Your CRM** — GoHighLevel or Follow Up Boss if you have one; Google Sheets is the free option
@@ -834,12 +834,15 @@ win post arrive as ready templates with an empty photo frame — nothing is inve
 day your first agent joins.
 
 **Q81. Do I have to use Riverside to edit? Can I use Instagram's Edits app? (Week 4)**
-Both work — the editor now has two engines and asks you once at setup which one is yours. Riverside is the editor
-that runs on your own Riverside account (Grow plan or higher), in Cowork or Claude Code. Instagram's Edits is a
-free app for your Mac: it needs the Edits app on your own Mac and Claude Code on that same Mac — it will not run
-in Cowork, on claude.ai or on an iPad — and there are no per-edit fees beyond your Claude plan. Edits exports the
-finished video and never posts it; you share it yourself. Either way the editing rules are the same and nothing is
-published without your yes. To switch, say "set up my video editor" again, or name the engine in the request ("edit
-this in Edits"). Don't see the question? Update your plugins (Customize → Plugins) and start a new chat. The editor plugin is now called
-"The AI Editing Studio": if your list still shows the old Riverside editor, remove it and install the new one once —
-your saved editor settings stay as they are.
+Riverside is the main path: the editor runs on your own Riverside account (Grow plan or higher) from Cowork, the web
+or the desktop app, and setup connects it in two clicks (Customize → Connectors → Riverside → Connect). Instagram's
+Edits is the optional second engine: a free app for your Mac, with no per-edit fees beyond your Claude plan. It runs
+only from the Code tab of the same Claude desktop app on that Mac — the Code tab is included in your plan, nothing
+extra to buy — so open the Code tab there and say "set up Instagram Edits"; Claude walks you through five small
+steps and does four of them (you install Edits and paste one code into a terminal window, never into the chat). Edits
+will not run in Cowork, on the web or on an iPad; if you ask for it there, Claude tells you how to open the Code tab.
+Edits exports the finished video and never posts it; you share it yourself. Either way the editing rules are the same
+and nothing is published without your yes. To switch engines, say "set up my video editor" again, or name the engine
+in the request ("edit this in Edits"). Don't see this behaviour? Update your plugins (Customize → Plugins) and start a
+new chat. The editor plugin is called "The AI Editing Studio": if your list still shows the old Riverside editor,
+remove it and install the new one once — your saved editor settings stay as they are.

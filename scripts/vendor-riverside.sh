@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
-# The AI Editing Studio (Riverside) is ONE plugin shared by both marketplaces. Its source of truth is the realtor repo.
+# The AI Editing Studio is ONE plugin shared by both marketplaces. Its source of truth is the realtor repo.
 # This script re-vendors it here and re-applies the Brain-home patch (house-rules.md rule + `<Brain home>` paths).
 # Run after any Riverside release in the realtor repo. Back-port the Brain-home patch there to make this a plain copy.
 #
 # Downstream patches re-applied after each vendor:
-#   1. Brain-home patch — shared/house-rules.md "The Brain-home rule" + every `<Brain home>` path (resolves ~/attraction-brain/ first).
+#   1. Brain-home patch — shared/house-rules.md "The Brain-home rule" + the sync-skill wording there and in studio-setup, + every
+#      `~/realtor-brain` → `<Brain home>` in the .md and .json files ONLY (resolves ~/attraction-brain/ first). NEVER touch the
+#      .py scripts: since upstream 0.7.1 they resolve the Brain folder at run time, so they are a plain copy.
+#   3. skills/studio-publish/SKILL.md — the description's tail "; usually reached through studio-navigator" is dropped (≤ 1,024).
 #   2. .claude-plugin/plugin.json — description trimmed to ≤ 1,000 characters (claude.ai refuses plugin updates above 1,024) and the
 #      version bumped one patch above the realtor source (0.5.0 → 0.5.1), equal to the marketplace registry entry.
 set -euo pipefail

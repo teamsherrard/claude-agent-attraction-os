@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.40.0] — 2026-11-21
+
+**Riverside is the main path; Instagram Edits is the optional second engine, set up from the Code tab (Editor 0.7.2 · Support 0.2.11).** Members work in Cowork, and Cowork cannot reach an app on a member's Mac, so the editor's onboarding now says what is true, in plain words. Setup connects Riverside first, from anywhere, in two clicks (Customize → Connectors → Riverside → Connect) and mentions Edits once. In the Code tab on a Mac it asks the one question (Riverside, Edits, or both), recommendation first. A member who asks for Edits in Cowork is told how to open the Code tab of the same Claude app (included in their plan, nothing extra to buy) and say "set up Instagram Edits" there, never given an error. The Edits install is five guided steps, four done by Claude; the token is pasted in a terminal in three numbered moves, never in chat.
+
+**Editor 0.7.2** (vendored from the realtor marketplace's 0.7.1 with the documented downstream patches re-applied: the Brain-home patch in the Markdown and JSON files, the plugin description trimmed to 997 characters, the `studio-publish` description's tail dropped). The reel script now finds the Brain folder at run time, so the Python files are a plain copy; the earlier vendored copy carried the Brain-home placeholder inside the script and would have written its checkpoint log to a folder literally named after it. The navigator, the engine reference, the plugin README, the example config, the plugin description, the marketplace card and the Engine line of the 26 craft skills all say the same thing in the same words.
+
+**Support 0.2.11.** Q81 rewritten for the new order (Riverside main, Edits from the Code tab, how the token is pasted); the Plugin 5 notes and the stack-map row say the same; a new row in "What changed lately" with the phrases a member would use ("it told me to open the Code tab", "can I use Edits in Cowork?", "where do I paste the token?").
+
+**Not yet run live in Cowork.**
+
 ## [0.39.0] — 2026-11-21
 
 **The YouTube sitting asks one question — the filming day (YouTube 0.9.0 · Support 0.2.10 · Short-Form 0.9.2 · Brain 0.9.21 · Lead Magnet 0.12.17).** The owner ran the Week 5 sitting live and stopped at its first question, *"Your channel covers three topics… Which one could you talk about for twenty minutes with no notes?"*: "this question doesn't really make sense. I'm a bit confused about how to answer it or why it is important. Why is this needed?" It was not needed. It only decided which topic the first full video is on, and the plan can decide that itself and show it.
