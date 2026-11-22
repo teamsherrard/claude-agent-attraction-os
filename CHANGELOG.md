@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.42.2] — 2026-11-22
+
+**The kit on Edits verified live; the hold rule corrected (Editor 0.7.4).** Released on top of 0.42.1 (the short-form rework from the other session). Re-vendored from the realtor marketplace's 0.7.3 with the usual patches. The Video Brand Kit placement ran live in Edits on real footage: the hook banner lands where it was designed with the words typed into its zone, and the CTA banner holds to the end, both off the face. One line in 0.42.0 was wrong: a still in Edits lasts three seconds but a negative trim does extend it, so `build_reel.py` now holds a banner as one element and falls back to back-to-back placement only if the trim does not take. The quirks also note that a freshly launched Edits can refuse to create a project until it is quit and opened again. Support unchanged.
+
 ## [0.42.1] — 2026-11-22
 
 **The Video Brand Kit on Instagram Edits, and an install warning fixed (Editor 0.7.3 · Support 0.2.14).** Re-vendored from the realtor marketplace's 0.7.2 with the usual Brain-home patch, the trimmed descriptions and the version one patch above.
