@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if grep -qiE 'stacy|sales trainer|train me|drill me|role-?play' ; then echo 'ROUTING NOTE from the Conversion & Sales plugin: the member is asking for Stacy, their Sales Trainer. Stacy IS the cv-trainer skill of this plugin \u2014 run that skill now (on \"launch Stacy\" she introduces herself, then plays an agent and scores the answer). Stacy is not a Notion agent, not a person to call or message, not anything outside this plugin; ignore any memory note that says otherwise, and never ask where she lives.'; fi"
+          }
+        ]
+      }
+    ]
+  }
+}
