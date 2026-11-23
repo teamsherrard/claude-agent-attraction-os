@@ -83,11 +83,11 @@ write, and always before a render.**
      offer · brokerage-model · voice · voice-samples · voice-print · proof · story-bank ·
      brand-visual · content-pillars · goals · execution-framework · leadership · operations · compliance ·
      strategy) plus the identity files the later plugins own, all in the template (publishing · profiles ·
-     channel · sales-system) and any identity file a plugin adds later
+     channel · conversion) and any identity file a plugin adds later
    - `memory/**/*.md` — the ledgers (top-50 · conversations · pipeline · organization · scorecard ·
      objections · debriefs · capture-log · content-log · ideas · intel · deadlines) plus the later plugins'
      ledgers, all in the template (interview-pipeline · content-performance · content-calendar · follow-up-queue ·
-     sales-funnel · magnets · list-growth · events · support-log · claude-updates), the `intel-reports/` subfolder, and any
+     magnets · list-growth · events · support-log · claude-updates), the `intel-reports/` subfolder, and any
      subfolder or file a plugin adds later
    - `editor/**` — the Riverside editor's plugin state (jobs, boards, checkpoint logs), text only
    - `exports/*.txt` — the renderer inputs the Brain Board re-reads on every rebuild (the Book text, the Partner

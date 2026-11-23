@@ -18,7 +18,7 @@
 - **Attracts in:** anywhere — a cloud brokerage attracts agents anywhere; this is never asked and never a limit (the owner's ruling, 2026-11-02). Licensing rules, if any, live in `compliance.md` once set.
 - **Organization today:** [N agents] *(the roster lives in memory/organization.md)*
 - **Upline:** [sponsor's first name and the value they provide, in the member's breakdown — "none that I know of" is a real answer; the detail lives in offer.md's upline layer]
-- **Booking link / primary CTA:** [set in Week 2 — the Conversion plugin's `sales-booking-page` builds the page with the member; `attraction-operations` records the link here and in operations.md]
+- **Booking link / primary CTA:** [set in Week 2 — the Week 2 funnel builds the page with the member; `attraction-operations` records the link here and in operations.md]
 - **Social handles:** [Instagram / YouTube / TikTok / LinkedIn / Facebook — only if given or imported]
 - **Credentials worth mentioning:** [awards, designations, production milestones — only if provided (Conversation 3), never invented]
 

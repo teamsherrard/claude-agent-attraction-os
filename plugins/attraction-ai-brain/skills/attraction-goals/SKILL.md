@@ -186,8 +186,7 @@ add: *"— and your morning brief carries your weekly activity."*
    the score."* When they are behind, the why is the re-anchor, never the stick.
 1. Read `goals.md`, `scorecard.md` (last week's daily rows), `memory/conversations.md`,
    `memory/pipeline.md` (the Stage moves log), `memory/top-50.md` (rows added this week),
-   `memory/content-log.md`, `memory/deadlines.md`; and, when they exist, `memory/sales-funnel.md`
-   (show rate, held→join — or a `WEEKLY ROW:` line `sales-scorecard` handed over this session) and
+   `memory/content-log.md`, `memory/deadlines.md`; and
    `memory/list-growth.md` → the newest row's **"Calls booked from the funnel"** (the Lead Magnet plugin's
    ledger, kept from Week 2; skip silently if absent). If `goals.md` is still `seeds`, run LOCK mode first
    (two minutes) — a check-in needs a target.

@@ -3,7 +3,7 @@ name: attraction-operations
 description: >
   The Week 2 tools conversation (never part of Brain setup): how the member runs their attraction
   business, so the AI Admin and the Daily Debrief can run it with them — working hours, the booking
-  link (the page itself is built with the Conversion plugin's sales-booking-page; this records the
+  link (the page itself is built in Week 2 with the funnel; this records the
   link), the CRM and how contacts are tagged, the partner-call cadence, the filming window, the
   follow-up rhythm, a new agent's first steps, the tech stack, and who else sees the workspace.
   Writes identity/operations.md and the CRM line in config.md; hands the Daily Debrief time to the
@@ -24,8 +24,7 @@ what a new agent walks through today, and who else is in the workspace. **Most m
 CRM choices, calendar and booking links, scheduled tasks and the rhythm are a Week 2 topic, when the member
 has context; in Week 1 they have none). The Week 2 lesson and the Lead Magnet session point here. The AI
 Admin (Week 5) reads `identity/operations.md`; the Daily Debrief reads it whenever it is on. **The booking
-page is built with the member by the Conversion & Sales plugin's `sales-booking-page` ("write my booking
-page") — this skill never builds a booking page; it records the link once it exists, and until then the
+page is built with the member in Week 2, with the offer and the funnel — this skill never builds a booking page; it records the link once it exists, and until then the
 best channel today.** Simple scales: Mike built the top organization at his brokerage with Google Workspace,
 Zoom, Loom, a booking link, and a sheet (`12-simple-tech-stack/83`) — this skill never adds a tool the
 member does not already use.
@@ -78,7 +77,7 @@ defaulting anything they are unsure of.
 - **Response commitment** — default same business day to a prospect agent; next day to an agent in
   the org unless urgent. Mike's rule: support is earned by plugging in; the open door stays open
   (`14-retention-culture/71`).
-- **Booking** — the link from question 2 (or the channel until `sales-booking-page` builds the page) + the
+- **Booking** — the link from question 2 (or the channel until the Week 2 funnel builds the page) + the
   partner-call length (default 30 minutes; Mike's calls ran 30–60, `12-simple-tech-stack/83`), virtual by
   default (Zoom if they have it; Google Meet / Teams as the fallback). Three-way calls, when the org has
   agents, follow the same slot.
@@ -121,7 +120,7 @@ defaulting anything they are unsure of.
 - **The simple tech stack** (`12-simple-tech-stack/83`) — what they actually use: Google Workspace or
   Microsoft 365 · Zoom (paid, if they run calls) · Loom or equivalent for personal video follow-ups ·
   the booking tool · the CRM or a sheet · Claude. Nothing is recommended beyond what they name except
-  a booking page if they have none (`sales-booking-page`).
+  a booking page if they have none (the Week 2 funnel).
 - **A new agent's first steps today** — day 1, week 1, day 30: the welcome message, the resources
   handed over, the call they join, the check-in. Collect **what exists**; "nothing yet" is a normal
   answer. Say plainly: *"The full 30-day onboarding experience is built in Week 6 with the Retention &

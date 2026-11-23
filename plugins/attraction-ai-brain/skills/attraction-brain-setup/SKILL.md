@@ -134,7 +134,7 @@ structure (plan §4):
 │   ├── brand-visual.md                                           (the brand chat, Week 3 — with Claude Design)
 │   ├── compliance.md  operations.md                              (on demand · Week 2 — status lines only at setup)
 │   ├── prospect-intel.md  brokerage-model.md  leadership.md  execution-framework.md  content-pillars.md   (later, on demand)
-│   └── publishing.md  profiles.md  channel.md  sales-system.md    (scaffolded empty — Weeks 2–5 fill them)
+│   └── publishing.md  profiles.md  channel.md  conversion.md     (scaffolded empty — Weeks 2–6 fill them)
 ├── memory/                           (every ledger starts empty and fills as they work)
 ├── config.md                         # provider, workspace ID/link, timezone, Schema: aa-1.0, Setup progress
 └── exports/                          # the renderer inputs — the Book text, the Partner Offer text, the Scorecard text — synced to _engine/exports/ so the Brain Board re-reads them (the rendered .docx go to their drive-map folders)
@@ -152,8 +152,8 @@ report them as missing.
 **What this setup no longer asks — ever (the owner's ruling, 2026-11-02):** CRM choices · calendar or
 booking links · scheduled tasks and their timing (the Daily Debrief is offered on demand and on the AI
 Admin's Week 5 card) · compliance (on demand — `attraction-compliance`, "paste my compliance link") ·
-the operations rhythm (Week 2 — `attraction-operations`; the booking page is built with the member by
-the Conversion plugin's `sales-booking-page`) · the brand (Week 3, alongside Claude Design —
+the operations rhythm (Week 2 — `attraction-operations`; the booking page is built with the member in
+Week 2 with the funnel) · the brand (Week 3, alongside Claude Design —
 `attraction-brand-direction`) · which type of agent they attract · where they can attract · money math
 (`attraction-rev-share-calculator`, on demand, never in the Book). If a member raises one of these,
 answer in one line with the phrase that opens it, and continue.
@@ -552,7 +552,7 @@ Checkpoint: *"5 of 5 — I've got your voice. Building your Book now."* Push. St
 3. **Final full sync + snapshot — do NOT skip.** Now create the rest of the Brain from the template —
    every `memory/` ledger and the later-week identity files (`brand-visual` · `compliance` ·
    `operations` · `prospect-intel` · `brokerage-model` · `leadership` · `execution-framework` ·
-   `content-pillars` · `publishing` · `profiles` · `channel` · `sales-system`), copied only where no
+   `content-pillars` · `publishing` · `profiles` · `channel` · `conversion`), copied only where no
    file exists — then run a final write → push → verify of the whole Brain to `01 · AI Brain/_engine/`
    and take a **snapshot** (`attraction-brain-sync` SNAPSHOTS — the setup-finalize restore point).
    Confirm it is saved before continuing.
