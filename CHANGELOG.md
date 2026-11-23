@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.4] — 2026-11-22
+
+**"Launch Stacy" fires (Conversion & Sales 0.2.4).** The owner's first live try typed "Launch Stacy, my sales trainer" — "launch Stacy" and "launch my sales trainer" are now triggers for the trainer and routes in the navigator. Nothing else changed. Note for installs: the Conversion & Sales plugin is NEW in the marketplace as of 0.44.0 tonight — a Cowork project that installed the marketplace before today has to install this plugin (it is not an update to anything already there).
+
 ## [0.44.3] — 2026-11-22
 
 **Week 6 outcomes made visible (Conversion & Sales 0.2.3 · Brain 0.9.24 · Support 0.2.19).** The owner's product review the same evening: what exactly does a member walk away with, in what order, and what is missing against Weeks 4–5. Decided and shipped — no Notion tab, no Game Plan document, no scorecard skill, no second task (each would break a ruling); instead:
