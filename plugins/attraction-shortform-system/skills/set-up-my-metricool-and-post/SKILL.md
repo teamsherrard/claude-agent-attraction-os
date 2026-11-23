@@ -1,17 +1,17 @@
 ---
-name: sf-publish
+name: set-up-my-metricool-and-post
 description: >
-  Gets finished attraction content (Week 4) onto the member's own socials through the tool they chose
-  (Metricool, stated — GoHighLevel only if they already run it; copy-paste only until it's connected): the Connect card
-  in the chat and the health check, final captions ending on the call line in Mike's shape with one of
-  the two keywords, best-time slots, and a post drafted for the member's approval — on Metricool the
-  review flow by default, so nothing posts without their yes even with a tool connected; the queue and
-  the delivery verified. Logs the row to the Brain and pushes so the Brain Board shows it. Trigger on:
-  "schedule my attraction reel", "post this for agents", "connect my posting tool", "is my
-  attraction posting connected", "what's in my attraction queue", "did my attraction posts go out",
-  "export my attraction posts", "set my best times for agents", or any request to schedule, connect,
-  check, or verify the posting of short-form attraction content. (A whole folder or month =
+  Sets up Metricool and gets finished attraction content (Week 4) onto the member's own socials: the Connect
+  card in the chat, the health check, final captions ending on the call line with one of the two keywords,
+  best-time slots, and a post drafted for the member's approval. Metricool is stated (GoHighLevel only if they
+  already run it; copy-paste until connected); on Metricool the review flow by default, so nothing posts
+  without their yes. Logs the row to the Brain and pushes so the Brain Board shows it. Trigger on: "set up my
+  Metricool", "help me set up my Metricool system", "connect Metricool", "connect my posting tool", "schedule
+  my attraction reel", "post this for agents", "is my attraction posting connected", "what's in my attraction
+  queue", "did my attraction posts go out", "set my best times for agents", or any request to connect,
+  schedule, check or verify the posting of short-form attraction content. (A whole folder or month =
   sf-batch-publish.)
+
 ---
 
 # Publish — connect, schedule, verify (bring your own tool)

@@ -1,7 +1,7 @@
 # Publishing Guide — schedule + post (bring your own tool)
 
 How the system gets a finished post onto the member's socials through the tool they chose. Every workflow calls this
-at its scheduling step; `sf-publish` and `sf-batch-publish` own the scheduling conversation; `sf-setup` asks the one
+at its scheduling step; `set-up-my-metricool-and-post` and `sf-batch-publish` own the scheduling conversation; `sf-setup` asks the one
 statement (Metricool, stated — Mike, 2026-11-22; GoHighLevel only for a member who says they run it) as its last item after the Monday Week Plan and connects the tool — **the posting tool is
 not optional** (the owner, 2026-11-14 evening; house rules #21): never copy-paste as the plan, never an "optional"
 posting line. Apply house rules — talk plain, never "API" or "OAuth" in front of the member; "token" only as the thing they
@@ -68,7 +68,7 @@ Run this at setup's posting step, on "connect my posting tool", and again on "ch
 Deliver a simple green/red checklist and the one or two things to fix. Save it on the **`Posting tool:`** line
 (`metricool · connected YYYY-MM-DD · brand [name]` / `gohighlevel · connected YYYY-MM-DD · location [name]` — a
 name, never a secret) and the **`Best times:`** line (per network, from the tool) in `publishing.md`, then push.
-**These two lines are the only lines in `publishing.md` that `sf-publish` ever touches.**
+**These two lines are the only lines in `publishing.md` that `set-up-my-metricool-and-post` ever touches.**
 
 ---
 

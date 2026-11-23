@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.46.2] — 2026-11-23
+
+**"Set up my Metricool" lands on a skill named for it (Short-Form 0.10.1).** Cowork picks a skill by its name; the posting skill was named sf-publish, so "help me set up my Metricool system" had nothing to land on. It is now `set-up-my-metricool-and-post` (folder and name), every reference updated, and the Metricool phrases lead its trigger list ("set up my Metricool", "help me set up my Metricool system", "connect Metricool", "connect my posting tool"). The Week 4 sitting's Metricool step is unchanged. README row 4 unchanged. Nothing else changed.
+
 ## [0.46.1] — 2026-11-23
 
 **The cohort editor gets its own name (AI Editing Studio 0.7.6).** Searching "ai editor" in Cowork showed two identical "The AI Editing Studio (Plugin 10)" entries — the realtor copy and this vendored copy carried the same display name. The cohort copy is now **"Agent Attraction AI Editing Studio (Plugin 5)"**, set by the strip step (downstream patch 4) so it survives re-vendoring. The third entry in that search, "Realtor AI Editor (Plugin 6)", is the retired Descript editor still registered in the realtor marketplace — uninstall it on the account; removing it from that registry is a realtor-repo change. Nothing else changed.

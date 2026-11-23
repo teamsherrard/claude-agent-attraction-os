@@ -536,7 +536,7 @@ deleted everywhere.
 
 ## 21. The posting tool is not optional (the owner, 2026-11-14 evening)
 
-Never copy-paste as the plan, never an "optional" posting line. Setup's last item (after the workflows) and `sf-publish`
+Never copy-paste as the plan, never an "optional" posting line. Setup's last item (after the workflows) and `set-up-my-metricool-and-post`
 Job A ask ONE straight question — a fact the Brain cannot hold: *"Which one schedules your posts — Metricool or
 GoHighLevel? Metricool is free to start and connects with one click; GoHighLevel only if you already run it. Your
 turn."* One word back; no third option. **Metricool** is in Claude's connector directory (id
