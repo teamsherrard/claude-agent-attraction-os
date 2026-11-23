@@ -80,7 +80,7 @@ Golden rule: nothing in this system auto-sends — Claude drafts, you approve.
 Yes — voice mode. Your phone is the sweet spot: driving back from a showing, say "I just talked
 to an agent, capture this…" and the capture skill files it in your top 50 and conversations. In
 Week 6 voice is also how you train with Stacy, your Sales Trainer: in Cowork open a new chat, tap the sound-wave
-icon and say "Launch Stacy, my sales trainer"; in the car it runs in the Claude app (Q82 has the five one-time
+picker (/ → stacy-sales-trainer); out loud it runs in the Claude app's Chat tab (Q82 has the five one-time
 setup steps). You
 can also just dictate into any chat like a voice memo. Exactly which devices have voice mode
 today: I'll check the official page — it's still rolling out. **[check live for surfaces]**
@@ -895,12 +895,14 @@ the warning.
 
 **Q82. How do I use Stacy, my Sales Trainer — and by voice? (Week 6)**
 Your first round is not in the Week 6 sitting: the sitting ends with your Brain Board and Brain Book links and tells
-you to open a **new chat in the same project** and say **"Launch Stacy, my sales trainer"** (tap the sound-wave icon
-to talk out loud, or just type). Stacy introduces herself there — "Hi [your name] — I'm Stacy, your agent attraction
+you to open a **new chat in the same project**, type **/** and choose **stacy-sales-trainer** (the sure way in —
+Cowork picks a skill by its name; "Launch Stacy, my sales trainer" or "train me" often works too, but the slash
+always does). In Cowork Stacy is text: Cowork's voice does not start a skill and does not read her reply aloud —
+hearing her is the Claude app's Chat tab, below. Stacy introduces herself there — "Hi [your name] — I'm Stacy, your agent attraction
 sales trainer. I'm trained on Mike's frameworks…" — then plays an agent and asks her first question, "why should I
 join you?", waits until you finish, scores you out of ten with the one move that cost you most, gives you the line to
 say instead, and makes you try it again. Any day after: "train me" (she skips the introduction in a chat she has
-already opened). For the car, the out-loud version runs in the Claude app. One-time setup, two minutes:
+already opened). To hear her out loud — on your computer or your phone — the Claude app's Chat tab. One-time setup, two minutes:
 
 1. In the Claude app (your computer or your phone) go to the Chat tab and make a Project called Stacy.
 2. Add the card "Stacy — [your name]'s Sales Trainer" from your home base (Drive → 05 · Offer).

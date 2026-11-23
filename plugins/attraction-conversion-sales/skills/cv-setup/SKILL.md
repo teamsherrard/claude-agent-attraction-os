@@ -54,7 +54,7 @@ the Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The meth
   last push is marked as the closing push; the sync returns the two links; the close says "here they are" with
   both, shows the Board file when it can, and never claims an update that did not happen.
 - **Stacy's first round is never in the sitting (the owner, 2026-11-22).** Step 5 renders her card and the Project
-  paste and the close sends the member to a **new chat in the same project** — "Launch Stacy, my sales trainer".
+  paste and the close sends the member to a **new chat in the same project** — type / and choose stacy-sales-trainer (Cowork matches a skill by its name; a spoken phrase is not reliable, and Cowork's voice neither invokes a skill nor reads its reply aloud — voice is the Chat-tab Project).
   Her introduction, her first question and her first score happen there (`stacy-sales-trainer`), never here.
 - **NO CRM anything; the booking page and the funnel are Week 2's** — never built, checked or asked about here.
   ONE scheduled task in this plugin, and this skill never creates it: the Yes hands to `cv-call-prep`.
@@ -209,13 +209,13 @@ calls it and relays what it returns. Then the close.
 > **Your home base:** Enrollment Call — [Name] · Partner Presentation — [Name] · Objection Playbook — [Name] ·
 > Stacy — [Name]'s Sales Trainer (the links).
 > *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book link]."*
-> **Now meet Stacy, your sales trainer.** Open a **new chat in this same project**, tap the sound-wave icon to talk
-> out loud (or just type), and say: **"Launch Stacy, my sales trainer."** She'll introduce herself, play an agent
-> you'd attract and ask you her first question — then score your answer and make you say it again.
-> **On your phone, in the car:** in the Claude app, make a Project called Stacy, add the card "Stacy — [Name]'s
-> Sales Trainer" from your home base, paste these instructions into the Project's instructions: [the paste, the
-> name filled in], pick Opus or Sonnet, tap the sound-wave and say "train me". Afterwards, back here, say "log my
-> training".
+> **Now meet Stacy, your sales trainer.** Open a **new chat in this same project**, type **/** and choose
+> **stacy-sales-trainer**. She'll introduce herself, play an agent you'd attract and ask you her first question —
+> then score your answer and make you say it again. (Here she's text; your voice is next.)
+> **To hear Stacy out loud — on your computer or your phone:** in the Claude app go to the **Chat** tab, make a
+> Project called Stacy, add the card "Stacy — [Name]'s Sales Trainer" from your home base, paste these instructions
+> into the Project's instructions: [the paste, the name filled in], pick Opus or Sonnet, tap the sound-wave icon and
+> say "train me". She talks back there. Afterwards, back here, say "log my training".
 > **This week:** 1. Ten minutes a day with Stacy. 2. Before every partner call, say "prep my call". 3. After every
 > call, say "debrief my call".
 (Line 4 by what is true: the Yes with no calendar connected → *"You switched on your Morning Call Prep — it starts
@@ -306,6 +306,6 @@ is made; the close claims no workflow and says the Board is illustrative. Same s
   when the session can; a failed rebuild named with "refresh my brain board"; never an update claimed that did
   not happen)
 - [ ] The close as printed — four "You" lines (line 4 by what is true), the home base with Stacy's card, the Board
-  and Book line, "Now meet Stacy" with the new chat and the exact phrase "Launch Stacy, my sales trainer", the
+  and Book line, "Now meet Stacy" with the new chat and the slash pick (/ → stacy-sales-trainer), the voice path in the Chat tab, the
   phone line with the paste, "This week" in three, and nothing after
 - [ ] Told not asked, Week 6, plain words throughout; no CRM, booking page or funnel mentioned; no banned word
