@@ -5,8 +5,8 @@ description: >
   at a time, and it waits after each: (1) the enrollment call script, full and 30-minute, in the member's voice;
   (2) the partner presentation, a bridge-the-gap one-pager; (3) the objection playbook, the fifteen plus the
   brokerage's own, in the member's words; (4) the Morning Call Prep switched on with a Yes, the one thing that
-  runs; (5) the first training round with the Sales Trainer. Nothing the Brain holds is asked again; at most one
-  question (the 3-way partner, only when the Brain has none). Later, one piece is rebuilt alone. Trigger on:
+  runs; (5) the first training round with Stacy, the Sales Trainer. Nothing the Brain holds is asked again; at
+  most one question (the 3-way partner, only when the Brain has none). Later, one piece is rebuilt alone. Trigger on:
   "launch my conversion system", "set up my conversion system", "open my conversion system", "update my call
   script", "update my presentation", "update my objection playbook".
 ---
@@ -36,7 +36,7 @@ the Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The meth
   turn.**"* Nothing of the next step is read, built, saved or said before the member answers. A change instead of a
   Yes → make it, show only what changed, save, the same stop line again. A question → one plain answer, the stop
   line again. Silence, "hmm" or a question is never a Yes. Where the next thing needed is the member's own words
-  (the Trainer's question), the question IS the stop.
+  (Stacy's question), the question IS the stop.
 - **A win line on every step.** The reply after each Yes opens *"✓ Step n of 5 — done. [what you now have]"* — one
   short clause, true, "you" never "I", never a number that was not counted, never a results or income claim.
 - **Less is more (Mike, 2026-11-22).** No play-back of what the Brain holds, no recap of what is done, no list of
@@ -69,7 +69,8 @@ the Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The meth
      presentation. **Your turn.**"* · **`presentation done`** → *"…your presentation is saved. Say **Yes** and I'll
      write your objection playbook."* · **`playbook done`** → *"…your playbook is saved. Say **Yes** and I'll switch
      on your Morning Call Prep."* → on the Yes, the card (the member's Step 4 of 5) · **`call prep done`** → *"Welcome back —
-     everything's switched on. Last step: your first training round."* then Step 5's question in the same reply.
+     everything's switched on. Last step: your first round with Stacy."* then Stacy's question (Step 6) in the same
+     reply.
    - **`complete`** → never the sitting again. "Open my conversion system" / "launch my conversion system" → hand to
      `cv-navigator` for the **READY BRIEF** (short: what is saved, whether the Morning Call Prep is on, the next
      phrase — never a gap list). A job named in the same breath → that job.
@@ -162,42 +163,56 @@ the card's last line again. **"Not now" or a no** → nothing is created, `Morni
 scheduled — on a real Brain that Yes switches on your Morning Call Prep."*; nothing after it says that anything
 runs. A task that failed to save is named in one line and its line reads `later`. Set `Setup: call prep done`.
 
-## Step 6 — Your first training round (the Trainer's one question; the question is the stop)
+## Step 6 — Your first round with Stacy (one question, one re-try; the question is the stop)
 Opens, by what is true: the Yes → *"✓ Step 4 of 5 — done. You switched on your Morning Call Prep — every morning
 at [time] your day's calls are prepped[; a short note comes to your inbox]. Say 'turn off my morning call prep' any
 time."* · the Yes with no calendar connected → *"✓ Step 4 of 5 — done. Your Morning Call Prep is ready — it starts the
 morning after your calendar is connected (the Connect line is above)."* · "not now" → *"✓ Step 4 of 5 — your Morning
-Call Prep is ready when you are."* · a demo Brain → nothing above the next line. Then hand to **`cv-trainer`** for ONE round: it plays the member's primary type of agent in
-character and asks **"Why should I join you?"** — its first message in this sitting is:
-> "Last step: your first training round. I'm [a first-name, the type of agent, in one clause]. Answer me the way you
-> would on the call. *"So — why should I join you?"* **Your turn.**"
-On the answer the Trainer scores it honestly, 0–10, with ONE fix in the member's voice (its own scoring shape — no
-praise padding), writes the round to its Practice log and saves the voice card **"Sales Trainer — [Name]"** to
-`05 · Offer` (its own first-round rule); this skill then closes. Set `Setup: complete YYYY-MM-DD` ·
-`Conversion set up: YYYY-MM-DD`; the sitting's closing push through `attraction-brain-sync`.
+Call Prep is ready when you are."* · a demo Brain → nothing above the next line. Then hand to **`cv-trainer`** for ONE
+round. The trainer is **Stacy** — the same name for every member, never renamed, never "Mike", never claims to be
+Mike. She plays the member's primary type of agent in character (a first name and a one-line life) and asks ONE
+question, **"Why should I join you?"** — her first message in this sitting is:
+> "Last step: your first training round. Stacy here — your sales trainer. I'll play [a first-name], [the type of
+> agent, in one clause]. Answer me the way you would on the call. *"So — why should I join you?"* **Your turn.**"
+The round, in `cv-trainer`'s own shape (spoken, no lists, no praise padding): Stacy is silent until the member
+finishes → **the verdict in one breath** — the score out of ten and the ONE move that cost the most (Listen ·
+Validate · Reframe · Invite) → **the line to say** instead, in the member's own words from their playbook, two
+sentences at most, never advice → **ONE re-try**: she asks the same question again and the member tries the line
+out loud; the question is the stop → **the second score** and what changed, in one breath. One re-try in this
+sitting, never a second; a first answer of eight or better is still tried once ("good — once more, same question").
+She writes both scores to her Practice log and saves the card **"Stacy — [Name]'s Sales Trainer"** to `05 · Offer`
+(her own first-round rule; the card is re-rendered after every logged round from then on); this skill then closes.
+Set `Setup: complete YYYY-MM-DD` · `Conversion set up: YYYY-MM-DD`; the sitting's closing push through
+`attraction-brain-sync`.
 
 ## The close — exactly this, nothing after
 > **✓ Step 5 of 5 — done. Here's what you did today:**
 > • You approved your enrollment call — full and 30-minute, in your voice.
 > • You approved your presentation — the three things that matter most to [the type of agent].
 > • You approved your objection playbook — the fifteen[, and your brokerage's own], in your words.
-> • You switched on your Morning Call Prep, and answered your first training question — [score]/10.
-> **Your home base:** Enrollment Call — [Name] · Partner Presentation — [Name] · Objection Playbook — [Name] · Sales
-> Trainer — [Name] (the links).
-> **This week:** 1. Train ten minutes a day — say 'train me' here, or in the car: add your Sales Trainer card to
-> your Project in the Claude app, tap the voice icon, say 'train me' — afterwards, back here, say 'log my training'.
-> 2. Before every partner call, say 'prep my call'. 3. After every call, say 'debrief my call'.
-(Line 4 after "not now" or on a demo Brain: *"You answered your first training question — [score]/10."* Compliance
-`unset` → ONE line between the home base and "This week", said once in the whole sitting: *"Before your one-pager
-goes to anyone, say 'set up my attraction compliance' — three minutes."* `set` → *"Check your one-pager's wording
-with your brokerage once."* The Sales Trainer card is always in the home base — the first round always renders it; on a demo Brain it reads
-"Sales Trainer — [Name] (illustrative — demo)".) Nothing after line 3: no phrases list, no
-recap, no Board line, no "later you can…".
+> • You switched on your Morning Call Prep, and did your first round with Stacy — [first score] then [second score].
+> **Your home base:** Enrollment Call — [Name] · Partner Presentation — [Name] · Objection Playbook — [Name] ·
+> Stacy — [Name]'s Sales Trainer (the links).
+> **Your trainer, Stacy, works by voice too. One-time setup, two minutes:** 1. In the Claude app (your computer or
+> your phone) go to the Chat tab and make a Project called Stacy. 2. Add the card "Stacy — [Name]'s Sales Trainer"
+> from your home base. 3. Paste these instructions into the Project's instructions: [the paste from
+> `${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/project-instructions.md`, the member's name filled in,
+> printed in full]. 4. Pick Opus or Sonnet as the model (voice doesn't run on Fable). 5. Tap the sound-wave icon at
+> the right end of the message box and say 'train me'. Afterwards, back here, say 'log my training'.
+> **This week:** 1. Train ten minutes a day — 'train me' here, or by voice with Stacy. 2. Before every partner call,
+> say 'prep my call'. 3. After every call, say 'debrief my call'.
+(Line 4 after "not now" or on a demo Brain: *"You did your first round with Stacy — [first score] then [second
+score]."* Compliance `unset` → ONE line straight after the home base line, said once in the whole sitting: *"Before
+your one-pager goes to anyone, say 'set up my attraction compliance' — three minutes."* `set` → *"Check your
+one-pager's wording with your brokerage once."* The Stacy card is always in the home base — the first round always
+renders it; on a demo Brain it reads "Stacy — [Name]'s Sales Trainer (illustrative — demo)". The paste is printed
+as plain text the member can copy — the bracket is replaced, never shown; no path, no skill name reaches the
+member.) Nothing after "This week" line 3: no phrases list, no recap, no Board line, no "later you can…".
 
 ## `identity/conversion.md` — the locked shape (owner: this skill; `cv-trainer` and `cv-call-prep` read it)
 ```
 # Conversion — [Name]
-*Written by the Conversion & Sales system (Week 6). Your Sales Trainer and your Morning Call Prep read it.*
+*Written by the Conversion & Sales system (Week 6). Stacy, your Sales Trainer, and your Morning Call Prep read it.*
 
 ## 3-way partner
 - **Partner:** [name | your partner]   (mirrors operations.md; the sitting's one question when none is there)
@@ -252,7 +267,7 @@ is made; the close claims no workflow. Same structure as real, nothing else chan
 - [ ] **AT MOST THE ONE QUESTION** — the 3-way partner, word for word, inside the welcome, only when `operations.md`
   had none; a name heard back once and written; "skip" taken the first time; plain chat, no card, no tool
 - [ ] **ONE STEP PER REPLY, EVERY REPLY ON ITS STOP LINE** — welcome · call · presentation · playbook · the card ·
-  the Trainer's question; nothing of the next step before the Yes; a change shown and the same stop again
+  Stacy's question; nothing of the next step before the Yes; a change shown and the same stop again
 - [ ] **A WIN LINE OPENED EVERY REPLY AFTER THE FIRST** — "✓ Step n of 5 — done. …", true, "you" never "I"
 - [ ] The three documents built by their references from the Brain, rendered (never raw text), saved to `05 · Offer`
   under dated names, their full text in `conversion.md` with dated `Status:` lines; `Used-where` stamped; the week
@@ -261,7 +276,11 @@ is made; the close claims no workflow. Same structure as real, nothing else chan
 - [ ] The card its own message, ≤70 words before "Say Yes", one win line above, nothing below; the email sentence
   from the facts, never asked; the task created ONLY by `cv-call-prep` on the Yes, verified, recorded; "not now" →
   `later` and one line; a demo Brain never a task; calendar not connected → no task, `later`, the Connect line in one sentence
-- [ ] The Trainer asked ONE question in character, scored 0–10 with one fix, logged its round, saved its card
+- [ ] Stacy (named, never renamed, never "Mike") asked ONE question in character — "Why should I join you?" — gave
+  the verdict (score out of ten + the one move), the line to say in the member's words, ONE re-try and the second
+  score; both logged; the card "Stacy — [Name]'s Sales Trainer" saved to `05 · Offer`
 - [ ] The config block in the locked spelling, five lines; `Setup:` stamped at every step; every write pushed
-- [ ] The close as printed — four "You" lines, the home base, "This week" in three, and nothing after
+- [ ] The close as printed — four "You" lines (line 4 with both scores), the home base with Stacy's card, the
+  five-step voice setup block with the Project paste printed in full (name filled in, no path shown), "This week"
+  in three, and nothing after
 - [ ] Told not asked, Week 6, plain words throughout; no CRM, booking page or funnel mentioned; no banned word

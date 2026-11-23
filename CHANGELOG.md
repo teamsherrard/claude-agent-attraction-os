@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.1] — 2026-11-22
+
+**The Sales Trainer becomes Stacy (Conversion & Sales 0.2.1 · Support 0.2.18).** The owner's review of the voice path, the same evening: the trainer needs a name, a personality in the member's Project, and a real feedback loop — not a grader. Nothing else in the Week 6 sitting changes.
+
+- **Stacy** is the trainer's name everywhere: the first line in Cowork ("Stacy here."), the Project in the Claude app, the card ("Stacy — [Name]'s Sales Trainer"), the Support desk. A person, never Mike.
+- **The feedback loop, per objection:** the verdict in one breath (the score and the one move that cost it) → the fix as a LINE TO SAY in the member's own words → "again" is mandatory below eight (the agent repeats the objection, the member tries the fix out loud) → compare → move on at eight or better. At "stop": one pattern across the session, the strongest, the weakest, and the carry-back sentence ("Back at your desk, tell Claude: log my training — happy where I am seven, pyramid nine…"), which "log my training" parses.
+- **Written for the ear:** the card is what Stacy KNOWS, never what she reads aloud — two sentences a turn, scores spoken, the agent persona with a name and a one-line life, "again / harder / easier / next / stop". **Three gears:** warm-up, real, brutal.
+- **The Project paste** (new project-instructions reference in cv-trainer): under 120 words the member puts in the Project's instructions so every voice chat opens as Stacy. **The card re-renders after every logged round** with "work on these first" from the Top five. **One-time setup, five steps**, said in the Week 6 close and once by Stacy: Chat tab → a Project called Stacy → add the card → paste the instructions → Opus or Sonnet (voice does not run on Fable; voice is not in Cowork) → the sound-wave icon → "train me".
+- The first training round in the sitting now includes one re-try (two scores). Navigator routes "Stacy", "talk to my trainer", "make it brutal", "warm-up". Support: FAQ Q82/Q84, stack-map row and notes, cohort-kb Week 6, Mike's-language row; README and setup-guide name Stacy once.
+
 ## [0.44.0] — 2026-11-22
 
 **Week 6 ships: Conversion & Sales rebuilt on Mike's rulings (Conversion & Sales 0.2.0 · Brain 0.9.23 · Support 0.2.17).** The Week 6 plugin comes back to `main` from `wip/all-plugins`, cut from nineteen skills to ten and rebuilt on the owner's 2026-11-22 direction: no CRM anything, nothing about Calendly or the booking page (Week 2 built those), ONE scheduled workflow, less is more, and a Sales Trainer that talks back.

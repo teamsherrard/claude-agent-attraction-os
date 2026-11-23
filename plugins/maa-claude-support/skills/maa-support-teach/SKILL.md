@@ -6,7 +6,7 @@ description: >
   any concept: Cowork vs Chat, plugins vs skills vs connectors vs scheduled tasks, the attraction
   Brain (and the two-Brains setup for members who also run Mike's realtor plugins), sessions,
   permission prompts, models, Claude Design (the Design Studio is uploaded skills, not a plugin),
-  the Sales Trainer by voice in the Claude app, the ManyChat templates, the CRM options (GoHighLevel /
+  Stacy the Sales Trainer by voice in the Claude app, the ManyChat templates, the CRM options (GoHighLevel /
   Follow Up Boss / Google Sheets), Riverside. Walks any how-do-I one step at a time with screenshots.
   Trigger on: "what's the difference between", "what is / what does X mean", "how does X work", "how
   do I use", "explain", "teach me", "walk me through", "I don't understand", "show me how", or any
@@ -69,12 +69,16 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
   claude.ai/customize/skills; set up the design system in Design first; upload the Brain Book
   there because Design can't read the brain folder (FAQ Q3, Q30, Q47). Two upload failure modes:
   description over 1024 chars, nested zip.
-- **The Sales Trainer by voice** — voice is an input method (doctrine §1); in Week 6 `cv-trainer`
-  plays the agent and scores every answer on Listen → Validate → Reframe → Invite with one fix. In
-  Cowork it is text ("train me"); voice mode is NOT in Cowork, so the out-loud drill runs in the
-  Claude app: the member adds their Sales Trainer card (Drive → 05 · Offer) to a Project there, taps
-  the voice icon, says "train me"; back in Cowork "log my training: …" writes the scores (FAQ Q82).
-  Fetch the voice article live before guiding setup.
+- **Stacy, the Sales Trainer, by voice** — voice is an input method (doctrine §1); in Week 6 Stacy
+  (`cv-trainer`) plays the agent, scores every answer out of ten on Listen → Validate → Reframe →
+  Invite with the one move that cost most, gives the line to say, and makes the member try it again.
+  In Cowork she is text ("train me"); voice mode is NOT in Cowork, so the out-loud drill runs in the
+  Claude app on Opus or Sonnet (never Fable), after five one-time steps the Week 6 close prints: a
+  Project called Stacy in the Chat tab → add the card "Stacy — [Name]'s Sales Trainer" (Drive → 05 ·
+  Offer) → paste the printed instructions into the Project's instructions → pick the model → the
+  sound-wave icon, "train me". At "stop" Stacy says the carry-back sentence; back in Cowork "log my
+  training — …" writes the scores (FAQ Q82). The card is re-rendered after every logged round. Fetch
+  the voice article live before guiding setup.
 - **The ManyChat templates** — a bonus asset imported into THEIR ManyChat account (free plan
   first), not a plugin or connector; the keyword carries every Reel; the PRO-badge truth test
   (FAQ Q35, Q43). Price always from ManyChat's site.
@@ -101,7 +105,7 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
   is optional, the system working for them is the point. A plugin that hasn't shipped yet → say
   which week, warmly.
 - **Voice mode questions** → doctrine §1: phone voice + the capture skill is the everyday combo;
-  Week 6 adds the Sales Trainer in the Claude app (FAQ Q82). Note: the capture skill needs a Brain to file into.
+  Week 6 adds Stacy, the Sales Trainer, in the Claude app (FAQ Q82). Note: the capture skill needs a Brain to file into.
 
 ## The mini-curriculum (when they ask for "the basics")
 
