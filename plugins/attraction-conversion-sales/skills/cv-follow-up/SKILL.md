@@ -1,16 +1,15 @@
 ---
 name: cv-follow-up
 description: >
-  Mike's Follow-Up Engine for agent attraction: an individualized 90-day nurture plan per prospect,
-  never one drip for everyone. Built from the relationship, their intent, the objection left standing,
-  their timeline, and what they said they care about: Sarah gets the case study, James gets nothing for
-  30 days, Rebecca gets a call now. Every touch has a reason from Mike's trigger list (a model update, a
-  notable join, new training, a resource, an event, a story, a milestone), never "just checking in". The
-  week-one recap, weeks two to four value touches, the monthly story, the quarterly invite. Drafts only,
-  in the member's voice, across text, email, DM, and video message. Feeds the AI Admin's Daily Follow-Up
-  Queue. Trigger on: "follow-up plan for [agent]", "how should I follow up with", "nurture plan for",
-  "what do I send [agent] next", "follow-up engine", "90-day plan for [agent]", "keep [agent] warm",
-  "who do I follow up with", "who should I message this week", "my follow-ups this week".
+  Mike's Follow-Up Engine: an individualized 90-day nurture plan per prospect, never one drip for
+  everyone. Built from the relationship, their intent, the objection left standing, their timeline and
+  what they care about: Sarah gets the case study, James gets nothing for 30 days, Rebecca gets a call
+  now. Every touch has a reason from Mike's trigger list (a model update, a notable join, new
+  training, an event, a story, a milestone), never "just checking in". Drafts only, in the member's
+  voice, across text, email, DM and video message. Trigger on: "follow up with [name]", "follow-up
+  plan for [name]", "who should I message this week", "who do I follow up with", "my follow-ups this
+  week", "how should I follow up with", "what do I send [agent] next", "keep [agent] warm", "90-day
+  plan for [agent]".
 ---
 
 # Follow-Up Engine — the fortune is in the follow-up, and every touch has a reason

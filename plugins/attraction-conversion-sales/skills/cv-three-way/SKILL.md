@@ -1,14 +1,14 @@
 ---
 name: cv-three-way
 description: >
-  Everything around a 3-way call: the edification scripts in both directions (how the member introduces the
-  prospect, how the member introduces their upline partner, and how the partner can be briefed to introduce
-  the member), the one-page upline brief with the prospect's situation and the open objections, the calendar
-  invite copy with the time zone written out, and the member's after-call ownership (the next-steps email
-  or the follow-up, both theirs to send). Built on Mike's rules: edify the guest first, edify the partner
-  next, then stay quiet and take notes; the member owns the outcome. Trigger on: "set up a 3-way", "three-way
-  call", "introduce my sponsor", "edify", "brief my upline", "how do I introduce [partner]", "my sponsor is
-  joining the call", "after the 3-way", "who should be on my 3-way".
+  Everything around a 3-way call: the edification scripts in both directions (how the member
+  introduces the prospect, introduces their upline partner, and how the partner is briefed to
+  introduce the member), the one-page upline brief with the prospect's situation and open objections,
+  the calendar invite copy with the time zone written out, and the member's after-call next-steps
+  email. Built on Mike's rules: edify the guest first, the partner next, then stay quiet and take
+  notes; the member owns the outcome. Trigger on: "set up a 3-way", "three-way call", "brief my
+  upline", "edify", "introduce my sponsor", "how do I introduce [partner]", "my sponsor is joining the
+  call", "after the 3-way".
 ---
 
 # 3-Way Call — edify, then step back, then own the outcome

@@ -1,16 +1,15 @@
 ---
 name: cv-call-prep
 description: >
-  The one-page brief before every partner call, and the owner of the Morning Call Prep, the Conversion &
-  Sales plugin's one scheduled task (Week 6). Built from the booking answers, the agent's intel report, the
-  conversation history, their type of agent, and the member's own call script and objection playbook: a
-  60-second read, how to run the call on the locked sequence (Discovery, Diagnosis, Fit, Positioning,
-  Questions, Next Step), the objections most likely for this person with the handle for each, the next step.
-  The Morning Call Prep runs daily at the member's hour, only with their Yes: every partner call on today's
-  calendar prepped; Mondays the week's follow-ups; on the 1st the agents who went quiet. Drafts only; nothing
-  is sent, booked, or moved. Trigger on: "prep my call", "prep my call with [name]", "prep today's calls",
-  "turn on my morning call prep", "turn off my morning call prep", "change my call prep time", "an agent
-  booked a call", "I have a call tomorrow", a pasted booking confirmation.
+  The one-page brief before every partner call, and the owner of the Morning Call Prep, the one
+  scheduled task. Built from the booking answers, the intel report, the history, the agent's type and
+  the member's own script and playbook: a 60-second read, how to run the call on the locked sequence,
+  the likely objections with the handle for each, the next step. The Morning Call Prep runs daily at
+  the member's hour, only with their Yes: today's calls prepped, Mondays the week's follow-ups, the
+  1st the agents who went quiet. Drafts only; nothing is sent, booked or moved. Trigger on: "prep my
+  call", "prep my call with [name]", "prep today's calls", "turn on my morning call prep", "turn off
+  my morning call prep", "change my call prep time", "an agent booked a call", "I have a call
+  tomorrow".
 ---
 
 # Call Prep — read it once, then let the questions run the call

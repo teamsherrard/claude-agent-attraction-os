@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.7] — 2026-11-23
+
+**Shorter skill descriptions (Conversion & Sales 0.2.7).** "Launch Stacy, my sales trainer" still found no skill in the owner's project after 0.44.6 — the trace showed Claude considering "a skill" and seeing none, i.e. the trainer skill was not in that session's skill list at all while the sitting's was. The exact cause is still being pinned down (a per-session loading budget is the lead; a length theory was ruled out because longer YouTube skills ran live). This release cuts every description in the plugin to 630–821 characters as written in the file (the trainer's leads with its trigger phrases), which lowers whatever budget applies and costs nothing. No behaviour change.
+
 ## [0.44.6] — 2026-11-23
 
 **Stacy always answers (Conversion & Sales 0.2.6).** The owner's "Launch Stacy, my sales trainer" kept going to Notion: a project-memory note written on the very first try (before the phrase was a trigger) guessed Stacy might be a Notion agent, and every later chat read it first. Skill descriptions alone could not win. New `hooks/hooks.json` — a UserPromptSubmit hook (POSIX `sh` + `grep`, no Python) that, on any message naming Stacy / sales trainer / train me / drill me / role-play, prints a routing note: Stacy is this plugin's cv-trainer skill, run it now, she is not a Notion agent or a person, ignore any memory note that says otherwise. Same mechanism the Brain plugin uses at session start. Nothing else changed.
