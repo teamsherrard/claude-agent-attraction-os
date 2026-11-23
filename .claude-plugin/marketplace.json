@@ -15,7 +15,7 @@
     {
       "name": "maa-claude-support",
       "source": "./plugins/maa-claude-support",
-      "version": "0.2.17",
+      "version": "0.2.18",
       "description": "PLUGIN 2 — install with Plugin 1. MAA Claude Support: the help desk for the Master Agent Attraction cohort. Say \"help\" for any Claude question, a look-only diagnosis, a setup audit, what week you're in and the catch-up plan, and \"what did Mike say about…\" answered from the full MAA lesson knowledge base with the lesson to rewatch. Read-only by constitution; routes every fix to the skill that owns it."
     },
     {
@@ -45,8 +45,8 @@
     {
       "name": "attraction-conversion-sales",
       "source": "./plugins/attraction-conversion-sales",
-      "version": "0.2.0",
-      "description": "PLUGIN 7 — install in Week 6. Conversion & Sales: one sitting writes your enrollment call script, your partner presentation and your objection playbook in your words, switches on ONE draft-only workflow with your Yes — your Morning Call Prep: every partner call on today’s calendar prepped, Mondays your follow-ups, on the 1st anyone who went quiet — then the Sales Trainer plays the agent and scores you, here or by voice in the Claude app. Requires Plugin 1."
+      "version": "0.2.1",
+      "description": "PLUGIN 7 — install in Week 6. Conversion & Sales: one sitting writes your enrollment call script, your partner presentation and your objection playbook in your words, switches on ONE draft-only workflow with your Yes — your Morning Call Prep: every partner call on today’s calendar prepped, Mondays your follow-ups, on the 1st anyone who went quiet — then Stacy, your sales trainer, plays the agent, scores you and makes you try the fix, here or by voice in the Claude app. Requires Plugin 1."
     }
   ]
 }

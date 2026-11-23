@@ -79,8 +79,8 @@ Golden rule: nothing in this system auto-sends — Claude drafts, you approve.
 **Q8. Can I talk to it instead of typing?**
 Yes — voice mode. Your phone is the sweet spot: driving back from a showing, say "I just talked
 to an agent, capture this…" and the capture skill files it in your top 50 and conversations. In
-Week 6 voice is also how you train with your Sales Trainer in the car: Claude plays the agent, you
-answer out loud (Q82 has the three steps — it runs in the Claude app, not in Cowork). You
+Week 6 voice is also how you train with Stacy, your Sales Trainer, in the car: she plays the agent, you
+answer out loud (Q82 has the five one-time setup steps — it runs in the Claude app, not in Cowork). You
 can also just dictate into any chat like a voice memo. Exactly which devices have voice mode
 today: I'll check the official page — it's still rolling out. **[check live for surfaces]**
 
@@ -892,22 +892,29 @@ kit registered.) Saw "1 with warnings" on the editor plugin under Customize → 
 "make it punchier") shipped with a formatting slip and did not install; it is fixed, and the next plugin sync clears
 the warning.
 
-**Q82. How do I use the Sales Trainer by voice? (Week 6)**
-In Cowork the Trainer is text: say "train me" and Claude plays an agent, throws a question or an objection, and scores
-your answer 0 to 10 with one fix in your own words. Voice mode is not in Cowork, so the out-loud version runs in the
-Claude app on your phone, in three steps:
+**Q82. How do I use Stacy, my Sales Trainer, by voice? (Week 6)**
+In Cowork Stacy is text: say "train me" and she plays an agent, says the objection, waits until you finish, scores you
+out of ten with the one move that cost you most, gives you the line to say instead, and makes you try it again. Voice
+mode is not in Cowork, so the out-loud version runs in the Claude app. One-time setup, two minutes:
 
-- Your Week 6 sitting saved a document called "Sales Trainer — [your name]" in your Drive → 05 · Offer. Add it to a
-  Project in the Claude app (New project → add the file)
-- In that Project, tap the voice icon and say "train me" — Claude plays the agent from the card; answer the way you
-  would on the call; say "stop" when you are done
-- Back in Cowork, say "log my training: happy where I am 7, pyramid 9 …" — the scores land in your Practice log and
-  your top five updates
+1. In the Claude app (your computer or your phone) go to the Chat tab and make a Project called Stacy.
+2. Add the card "Stacy — [your name]'s Sales Trainer" from your home base (Drive → 05 · Offer).
+3. Paste the instructions into the Project's instructions — your Week 6 close printed them with your name filled in;
+   lost them? Say "train me" here once and Stacy prints them again.
+4. Pick Opus or Sonnet as the model — voice doesn't run on Fable.
+5. Tap the sound-wave icon at the right end of the message box and say "train me".
 
-The app never runs the plugin or writes your Brain — the card is what it reads, which is why you log the round back
-here. Rebuilt your playbook? Say "train me" once in Cowork and it hands you a refreshed card to swap into the Project.
+When you say "stop", Stacy gives you one sentence to repeat at your desk, exactly in this shape: "Back at your desk,
+tell Claude: log my training — happy where I am seven, pyramid nine, closings six." Say it back here in Cowork and the
+scores land in your Practice log; your top five updates. (On your phone that sentence is in the chat transcript too, to
+copy.)
 
-Next step: say "train me" here first — one round shows you the scoring shape before you take it to the car.
+Voice runs on Opus or Sonnet, not Fable, and not in Cowork. The Claude app never runs the plugin or writes your Brain —
+the card is what it reads, which is why you log the round back here. After every round you log here your Stacy card is
+re-rendered — swap the new one into the Project when you get a minute. Stacy is the same trainer for every member and
+cannot be renamed.
+
+Next step: say "train me" here first — one round shows you the shape before you take it to the car.
 
 **Q83. Nothing was prepped this morning. Is my Morning Call Prep broken? (Week 6)**
 Usually not. Three things, cheapest first:
@@ -933,9 +940,9 @@ In your Drive → Agent Attraction OS → 05 · Offer, four documents with your 
   page (the six steps and one question each)
 - **Partner Presentation — [your name]** — the bridge-the-gap one-pager
 - **Objection Playbook — [your name]** — the fifteen in your words, plus your brokerage's own answers
-- **Sales Trainer — [your name]** — the voice card for the Claude app (Q82)
+- **Stacy — [your name]'s Sales Trainer** — Stacy's card for the Claude app (Q82); re-rendered after every round you log here
 
-The full text is also on your Brain Board's conversion page, and your Morning Call Prep and your Sales Trainer read it
+The full text is also on your Brain Board's conversion page, and your Morning Call Prep and Stacy read it
 from there. Changed your offer or your stories? "update my call script", "update my presentation" or "update my
 objection playbook" rebuilds that one piece under today's date — the newest is the current one. A presentation marked
 "on hold" is waiting for your compliance step: "set up my attraction compliance", three minutes.

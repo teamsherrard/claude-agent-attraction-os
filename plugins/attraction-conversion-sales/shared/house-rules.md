@@ -94,7 +94,9 @@ A save that fails is said out loud, content kept visible, retried once, then sto
 Deliverables render through `render_doc.py` per `doc-formatting.md` and land in the workspace bucket the Brain's
 drive map names (`04 · Agents/Prospects` for prep and intel; `05 · Offer` for scripts and presentations). Dated
 filenames; the newest is current. The renderer's fallback is the `.md` upload with one plain line — never a
-package install, never a retry loop.
+package install, never a retry loop. The Stacy card ("Stacy — [Name]'s Sales Trainer") is re-rendered by
+`cv-trainer` after every logged round, not only when the playbook changes; `skills/cv-trainer/references/project-instructions.md`
+is the Project paste.
 
 ## 14. Demo mode.
 A demo Brain (`Demo brain: yes`) gets fictional prospects, no live research, no scheduled task, every number
@@ -128,6 +130,6 @@ fact in front of you wins). Never another plugin's block; never a line beyond th
 This is the cohort's Week 6. The Partner Offer, the booking page, Calendly and the funnel were built in Week 2
 and are read, never rebuilt and never asked about; the brand is Week 3; content is Weeks 4–5. Later-week or
 unbuilt things are named by their week in one line, never "missing". In front of the member: "your enrollment
-call", "your presentation", "your objection playbook", "your Sales Trainer", "your Morning Call Prep", "your
+call", "your presentation", "your objection playbook", "Stacy, your sales trainer", "your Morning Call Prep", "your
 call prep", "she's at 'call booked'" — never a skill id, a file path, a task id, a step number, or a stage as
 machinery. No CRM of any kind is named, asked about, or written to.
