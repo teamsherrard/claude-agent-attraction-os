@@ -7,7 +7,7 @@ description: >-
   the best without overlap or repeated topics, and building each to completion as its own edit:
   9:16, tight cut, captions, footage, music, hook and call-to-action. Cuts the video only: the
   posts' captions, hashtags, and calendar belong to the Short-Form System, and written repurposing
-  belongs to the YouTube System. Trigger on: "cut reels from this", "cut reels from this in Edits", "make clips from my video",
+  belongs to the YouTube System. Trigger on: "cut reels from this", "make clips from my video",
   "pull 3 shorts out of this recording", "cut my video into reels", "turn my long video into
   shorts", "finish my clips". Part of the REPURPOSE stage; usually reached through
   studio-navigator or called inside a full edit.
@@ -16,10 +16,6 @@ description: >-
 # Short-Form Repurpose
 
 One job, done well. Run the craft contract (`${CLAUDE_PLUGIN_ROOT}/shared/craft-contract.md`), and do the work from this skill's one reference: **`${CLAUDE_PLUGIN_ROOT}/shared/repurpose.md`**. Respect the ownership rules in `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md` and the house rules in `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
-
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the Trailer, repurpose, batch paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`.
 
 ## The job
 

@@ -8,18 +8,14 @@ description: >-
   zooms on the beats at one every 12 to 20 seconds, the music bed, the hook banner and the CTA
   banners), verifies every pass, and saves one 1080p vertical file as a review draft. Never writes
   the post's caption or hashtags — the Short-Form System owns those. Trigger on "make a reel",
-  "make this vertical", "edit my reel", "edit this short", "make a reel in Edits", "turn this into
+  "make this vertical", "edit my reel", "edit this short", "turn this into
   a short", and on resuming one — "finish my reel". To cut SEVERAL reels out of a long video, hand
   to studio-repurpose. Usually reached through studio-navigator.
 ---
 
 # Reel Edit — the director
 
-You run the line; the crafts do the work. **Read up front (only these):** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, `${CLAUDE_PLUGIN_ROOT}/shared/dos-and-donts.md`, `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md`, and Playbook B in `${CLAUDE_PLUGIN_ROOT}/shared/riverside-playbooks.md` (the 4-pass plan and the cut-only-master rule). Riverside: Playbook A/B in riverside-playbooks.md; Edits: edits-engine.md instead. Open each craft's reference at its step. Compliance before any on-screen word (three states — `${CLAUDE_PLUGIN_ROOT}/shared/final-check.md`).
-
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the reel line (`## The reel line on Edits`, run by `scripts/edits/build_reel.py`) of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`.
+You run the line; the crafts do the work. **Read up front (only these):** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, `${CLAUDE_PLUGIN_ROOT}/shared/dos-and-donts.md`, `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md`, and Playbook B in `${CLAUDE_PLUGIN_ROOT}/shared/riverside-playbooks.md` (the 4-pass plan and the cut-only-master rule). Open each craft's reference at its step. Compliance before any on-screen word (three states — `${CLAUDE_PLUGIN_ROOT}/shared/final-check.md`).
 
 ## The line — 4 passes
 
@@ -34,12 +30,12 @@ Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's n
 
 ## Boundaries
 
-The hook banner's line comes from the agent's own opening words. The post's caption, hashtags, and posting slot belong to the Short-Form System: hand it the hook line, the length, and the edit link (Riverside) or the exported file path plus the open Edits project (Edits) (`boundaries.md`). One posting route per post.
+The hook banner's line comes from the agent's own opening words. The post's caption, hashtags, and posting slot belong to the Short-Form System: hand it the hook line, the length, and the edit link (`boundaries.md`). One posting route per post.
 
 ## Deliver
 
-A review draft: the edit link (Riverside) or the exported file path plus the open Edits project (Edits), the spec in one line ("9:16, karaoke captions, 3 zooms, 2 cutaways, colour lift, music, hook banner and CTA banner"), the 2–3 things only they can judge (music level against the voice, caption size on their phone, the hook landing), the 80/20 line, then the offer to post or schedule (`studio-publish`).
+A review draft: the edit link, the spec in one line ("9:16, karaoke captions, 3 zooms, 2 cutaways, colour lift, music, hook banner and CTA banner"), the 2–3 things only they can judge (music level against the voice, caption size on their phone, the hook landing), the 80/20 line, then the offer to post or schedule (`studio-publish`).
 
 ## Resume
 
-Checkpoint log `rs-<editId>.md`, one line per pass, pulled from the Brain first. Log missing → the revision history tells the truth. Conflict → the one rule in `house-rules.md`. Edits: the log is `ed-<projectId>.md`; log missing → read `elements`, `captions()` and the exports folder, then `build_reel.py resume`.
+Checkpoint log `rs-<editId>.md`, one line per pass, pulled from the Brain first. Log missing → the revision history tells the truth. Conflict → the one rule in `house-rules.md`.

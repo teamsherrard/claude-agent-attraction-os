@@ -1,7 +1,5 @@
 # Audio enhance — bad sound loses viewers faster than bad picture
 
-> **Engines.** This file is the craft rule for both engines; the Riverside calls in it are the Riverside engine's. On the Instagram Edits engine (`default_engine: "edits"`), the same rule is carried out with the moves in `edits-engine.md` § Audio.
-
 One job: make the voice clean, present, and natural.
 
 ## The recipe
@@ -20,7 +18,7 @@ One job: make the voice clean, present, and natural.
 4. **Multi-person** — also `apply_smart_mutes` (see `interview.md`).
 5. **Levels against music** — the bed sits at -18 dB under the voice on a reel, -22 dB on a long-form (`music.md`). If the agent says the music fights the voice, lower the bed, never raise the voice.
 
-## What the Riverside engine cannot do (Edits has ducking and voice enhance)
+## What Riverside cannot do
 
 No EQ, no de-esser, no manual noise gate, no ducking automation from the connector. Magic Audio is the tool. A recording that is still poor at 1.0 has a source problem — say so kindly and point to the mic advice in `recording.md`. An export-time option (`audio.isNormalizeGain`, `audio.isRemoveBackgroundNoise`) exists for a last-resort second pass; use it only when asked.
 

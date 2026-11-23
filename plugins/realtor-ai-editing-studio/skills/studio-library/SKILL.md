@@ -3,8 +3,7 @@ name: studio-library
 description: >-
   B-roll Library for the AI Editing Studio. An agent's own footage (their neighbourhoods, their
   listings, their drone shots, their signage) is what makes a video look real instead of stock.
-  This skill gathers it from a Google Drive folder, the editor's media panel (Riverside or
-  Instagram Edits), or files they drop in, tags each clip once by what it shows, loads it into the
+  This skill gathers it from a Google Drive folder, the editor's media panel in Riverside, or files they drop in, tags each clip once by what it shows, loads it into the
   editor one time, and keeps an index so every future edit reaches for their footage first and
   never uploads the same clip twice. Trigger on: "index my b-roll", "add this footage to my
   library", "use my own clips", "what footage do I have", "here's my drone footage", "set up my
@@ -15,10 +14,6 @@ description: >-
 # B-roll Library
 
 One job, done well. Run the craft contract (`${CLAUDE_PLUGIN_ROOT}/shared/craft-contract.md`), and do the work from this skill's one reference: **`${CLAUDE_PLUGIN_ROOT}/shared/footage-intake.md`**. Respect the ownership rules in `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md` and the house rules in `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
-
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the B-roll and library paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`.
 
 ## The job
 

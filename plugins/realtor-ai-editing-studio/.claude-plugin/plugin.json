@@ -1,8 +1,8 @@
 {
   "name": "realtor-ai-editing-studio",
   "displayName": "The AI Editing Studio (Plugin 10)",
-  "version": "0.7.4",
-  "description": "The AI Editing Studio: a full-time video editor inside the agent's Claude, on Riverside, the main path (their own account; Cowork, the web, the desktop app), or, for Mac users in the Code tab of the Claude app, Instagram's free Edits app as the optional second engine (no per-edit fees). 28 skills in five stages: DIRECT (creative direction, record coach, transcript read, section map), CUT (remove the fluff, hook finder, rescue cut, interview edit), POLISH (audio, color and look, captions, music, B-roll, B-roll library, brand graphics, energy), REPURPOSE (reels, weekly batch, podcast, trailer), SHIP (quality check, review and revise, publish), plus setup, a navigator that resumes stopped edits, and three recipes. Every change is verified (revision diffs on Riverside, rendered frames on Edits). Publishing only on an explicit yes (Riverside); Edits exports. It never writes titles, descriptions, chapter names, or captions. Requires Plugin 1 and a Riverside Grow plan, or a Mac with Edits.",
+  "version": "0.7.5",
+  "description": "The AI Editing Studio: a full-time video editor inside the agent's Claude, on Riverside (their own account; Cowork, the web, the desktop app; no per-edit AI credits). 28 skills in five stages: DIRECT (creative direction, record coach, transcript read, section map), CUT (remove the fluff, hook finder, rescue cut, interview edit), POLISH (audio, color and look, captions, music, B-roll, B-roll library, brand graphics, energy), REPURPOSE (reels, weekly batch, podcast, trailer), SHIP (quality check, review and revise, publish), plus setup, a navigator that resumes stopped edits, and three recipes (long-form, reel, listing). Every change is verified by revision diffs and timeline reads before one 1080p export. Publishing only on an explicit yes. It never writes titles, descriptions, chapter names, or captions. Requires Plugin 1 and a Riverside Grow plan.",
   "author": {
     "name": "Mike Sherrard"
   },
@@ -13,10 +13,7 @@
     "captions",
     "color",
     "editing studio",
-    "edits",
-    "instagram edits",
     "interview",
-    "mac",
     "music",
     "podcast",
     "publishing",

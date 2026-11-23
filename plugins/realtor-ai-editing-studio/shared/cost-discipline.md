@@ -1,7 +1,5 @@
 # The 80/20 rule — re-based for Riverside (READ FIRST)
 
-> **Engines.** This file is the craft rule for both engines; the Riverside calls in it are the Riverside engine's. On the Instagram Edits engine (`default_engine: "edits"`), the same rule is carried out with the moves in `edits-engine.md` § Session rules.
-
 **Riverside has no per-edit credit meter** — the plan is metered by recording/upload hours and export limits, not by what Claude does to the timeline. So what are we protecting?
 
 1. **The agent's time and attention.** Dozens of tool calls happen behind the scenes; every extra pass is another thing that can go wrong and another review round for them.
@@ -13,7 +11,7 @@ The #1 rule survives unchanged: **do the high-value basics brilliantly, then STO
 ## The 80/20 split (the core promise)
 
 - **The editor (Claude in Riverside) does the 80%** — the basics that turn raw footage into a clean, professional, ready-to-post video. These are ALWAYS done, every video.
-- **The agent does the last 20% by hand in their editor (Riverside or Edits)** — extra B-roll, extra graphics, fine tweaks, a transition they like. Free, and it's where they add personal flair.
+- **The agent does the last 20% by hand in Riverside** — extra B-roll, extra graphics, fine tweaks, a transition they like. Free, and it's where they add personal flair.
 - This is exactly what we tell them in training: *"The editor gets you 80% of the way there — here's the 20% you finish by hand."*
 
 ## The 80% — ALWAYS do these (this is the value; never skip one)
@@ -67,4 +65,4 @@ This is the recipe the delivery "what's inside" line should restate back to the 
 
 ## Tell the agent (the 20% hand-off)
 
-Default silently — just deliver the clean 80%. If they want more, say it plainly: *"I've done the clean core. You can add more B-roll, a transition, extra graphics, or tweak anything yourself in your editor (Riverside or Edits) — want me to show you the 20%?"*
+Default silently — just deliver the clean 80%. If they want more, say it plainly: *"I've done the clean core. You can add more B-roll, a transition, extra graphics, or tweak anything yourself in Riverside — want me to show you the 20%?"*

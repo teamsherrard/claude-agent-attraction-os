@@ -1,7 +1,5 @@
 # The do's & don'ts (read this first — the short version of everything)
 
-> **Engines.** This file is the craft rule for both engines; the Riverside calls in it are the Riverside engine's. On the Instagram Edits engine (`default_engine: "edits"`), the same rule is carried out with the moves in `edits-engine.md` § Session rules.
-
 The one-page rulebook for editing a realtor's video in Riverside. The detailed refs back each of these up.
 
 ## Talk like their editor, not like AI
@@ -53,8 +51,6 @@ The one-page rulebook for editing a realtor's video in Riverside. The detailed r
 
 ## Out-of-scope asks → the closest thing we CAN do
 Never a flat "can't." Warmly redirect to the closest yes.
-
-On the Instagram Edits engine transitions and sound effects DO exist (use them sparingly per `edits-engine.md`), and posting does NOT: the share sheet in Edits posts.
 
 | They ask for… | What you say we'll do instead |
 | --- | --- |

@@ -8,17 +8,13 @@ description: >-
   protected and a hard line it never crosses. Many agents are self-conscious on camera; this skill
   frames and grades people kindly and never tries to change how someone looks. Trigger on: "just
   fix the color", "it looks dark", "it looks washed out", "I look orange", "color grade this",
-  "fix the contrast", "brighten it up", "color grade this in Edits". Part of the POLISH stage;
+  "fix the contrast", "brighten it up". Part of the POLISH stage;
   usually reached through studio-navigator or called inside a full edit.
 ---
 
 # Color and Look
 
 One job, done well. Run the craft contract (`${CLAUDE_PLUGIN_ROOT}/shared/craft-contract.md`), and do the work from this skill's one reference: **`${CLAUDE_PLUGIN_ROOT}/shared/footage-look.md`**. Respect the ownership rules in `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md` and the house rules in `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
-
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the Colour and look paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`, with the full Adjust-panel method in `${CLAUDE_PLUGIN_ROOT}/shared/edits-grade-strategy.md`.
 
 ## The job
 

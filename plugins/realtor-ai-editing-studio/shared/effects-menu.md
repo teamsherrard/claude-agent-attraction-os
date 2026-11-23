@@ -1,7 +1,5 @@
 # Effects menu — what's available in Riverside, and when to use it (sparingly)
 
-> **Engines.** This file is the craft rule for both engines; the Riverside calls in it are the Riverside engine's. On the Instagram Edits engine (`default_engine: "edits"`), the same rule is carried out with the moves in `edits-engine.md` § Energy.
-
 Riverside gives you few effects. That is mostly good news: **premium = restraint**, and the connector can't tempt you into clutter. The skill is using what IS there with purpose.
 
 **But minimal ≠ bare.** A flat, static talking-head with nothing happening is *also* a bad edit. The enemy is RANDOM clutter, not creativity.
@@ -50,7 +48,7 @@ A flat video is one where the picture never reacts to what is being said. The fi
 
 ## What is NOT available (don't promise it)
 
-(Riverside) Transitions/dissolves, an SFX library, count-ups, annotations (arrows/circles), progress bars, film grain / light leaks, frames. If the agent wants one of these, it's their manual 20% in the Riverside editor (some exist there) — say so warmly. On Edits: a whoosh from the built-in library on every zoom, and a 0.2 s dissolve at most where two takes jar (edits-engine.md § Energy).
+(Riverside) Transitions/dissolves, an SFX library, count-ups, annotations (arrows/circles), progress bars, film grain / light leaks, frames. If the agent wants one of these, it's their manual 20% in the Riverside editor (some exist there) — say so warmly.
 
 ## Banned even though the operation exists
 

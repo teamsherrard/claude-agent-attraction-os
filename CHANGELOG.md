@@ -2,6 +2,15 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.45.0] — 2026-11-23
+
+**The editor is Riverside only; the Instagram Edits editing engine is parked (AI Editing Studio 0.7.5 · Support 0.2.22).** The owner's call: "remove the Instagram Edits component from our AI editor plugin and keep it dedicated to Riverside — it's complicated and probably won't work for most people. Don't delete anything; keep it on the side." Why it surfaced: Edits can only be driven from a real Code session on the Mac where Edits is installed — a Cowork chat and the project's own assistant both (correctly) say they cannot reach it, which is the experience most members would have had.
+
+- **Downstream patch 4 — the Riverside-only strip.** `scripts/strip-edits-engine.py` runs at the end of `scripts/vendor-riverside.sh` after every re-vendor: deletes the six edits shared files and the edits scripts, sets the config example to Riverside only, and applies ~175 asserted text changes (the engine footnotes, every `## Engine` section, the Edits steps of setup and the navigator). A missing anchor fails loudly, never a half-stripped plugin. The realtor source keeps Edits; the cohort copy never carries it.
+- **Parked, not deleted:** everything removed is copied byte-for-byte to `docs/parked/edits-engine-2026-11-23/` with a README (why, where it still lives — the realtor plugin and the standalone edits-reel skill — and how to bring it back: drop patch 4 and re-vendor).
+- **What a member sees:** setup connects Riverside and asks nothing about engines ("Your editing runs in Riverside — connect it and we're set"); "edit my reel" / "edit my YouTube video" run on Riverside as before; a member who asks for Edits hears that editing in Edits is not part of the program's editor. **Filming on the phone in Instagram's free Edits app (the teleprompter the Short-Form and YouTube scripts name) is unchanged.**
+- Support (0.2.22): the editor's row and notes, FAQ Q81 rewritten and Q85 added ("Can Claude edit my video in Instagram's Edits app?" — no; film in Edits, edit in Riverside), cohort-kb, diagnostics, a "What changed lately" row. README row 5, setup guide, the YouTube demo checklist, CLAUDE.md and the registry card follow.
+
 ## [0.44.10] — 2026-11-23
 
 **The trainer skill is named the phrase itself: `launch-stacy-my-sales-trainer` (Conversion & Sales 0.2.10).** The owner's bar: "Launch Stacy, my sales trainer" must just work. Cowork matches a request against skill names, so the skill is now named the sentence. Every reference updated (the slash pick in the close reads / → launch-stacy-my-sales-trainer). Note for testers: a project whose Memory holds an earlier guess about Stacy re-reads it first — test in a fresh project or delete that note; members' projects never carry it.
