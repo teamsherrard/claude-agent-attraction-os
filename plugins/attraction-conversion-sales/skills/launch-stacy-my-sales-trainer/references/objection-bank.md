@@ -1,6 +1,6 @@
 # The Objection Bank — Mike's fifteen, on his framework
 
-*Read by `stacy-sales-trainer` (all modes) and, by name, by `cv-call-prep`, `cv-debrief`, and `cv-setup`.
+*Read by `launch-stacy-my-sales-trainer` (all modes) and, by name, by `cv-call-prep`, `cv-debrief`, and `cv-setup`.
 Source of truth: the Week 6 vault, module 11 (`11-objection-handling/46`, `/48–62`) and the two bonus lessons
 (`bonus/objection-framework` · `bonus/think-about-it`). Lesson numbers `/47` and `/51` are not in the vault export;
 the bonus files carry that material. Every handler below is Mike's own framing, condensed — never a script to read

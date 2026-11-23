@@ -54,8 +54,8 @@ the Brain Contract is `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. The meth
   last push is marked as the closing push; the sync returns the two links; the close says "here they are" with
   both, shows the Board file when it can, and never claims an update that did not happen.
 - **Stacy's first round is never in the sitting (the owner, 2026-11-22).** Step 5 renders her card and the Project
-  paste and the close sends the member to a **new chat in the same project** — type / and choose stacy-sales-trainer (Cowork matches a skill by its name; a spoken phrase is not reliable, and Cowork's voice neither invokes a skill nor reads its reply aloud — voice is the Chat-tab Project).
-  Her introduction, her first question and her first score happen there (`stacy-sales-trainer`), never here.
+  paste and the close sends the member to a **new chat in the same project** — type / and choose launch-stacy-my-sales-trainer (Cowork matches a skill by its name; a spoken phrase is not reliable, and Cowork's voice neither invokes a skill nor reads its reply aloud — voice is the Chat-tab Project).
+  Her introduction, her first question and her first score happen there (`launch-stacy-my-sales-trainer`), never here.
 - **NO CRM anything; the booking page and the funnel are Week 2's** — never built, checked or asked about here.
   ONE scheduled task in this plugin, and this skill never creates it: the Yes hands to `cv-call-prep`.
 - **Compensation answered, never led with. No income claims. Nothing against any brokerage or person. Never a
@@ -180,17 +180,17 @@ Call Prep is ready when you are."* · a demo Brain → nothing above the next li
 card, the Project paste, the close. No question is asked, nothing is scored, no round is played** — Stacy's first
 question and first score happen in the new chat the close sends the member to.
 
-**The card.** Render **"Stacy — [Name]'s Sales Trainer"** from `${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/trainer-card.md`
+**The card.** Render **"Stacy — [Name]'s Sales Trainer"** from `${CLAUDE_PLUGIN_ROOT}/skills/launch-stacy-my-sales-trainer/references/trainer-card.md`
 (every bracket replaced from the Brain and from `conversion.md`'s three pieces; WORK ON THESE FIRST reads its empty
 line, *"Nothing yet — start anywhere."*; the template names the plain line for anything unbuilt), rendered per
 `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md` and `shared/render_doc.py`, read back, uploaded to `05 · Offer`;
 `RENDERER-UNAVAILABLE` → the `.md` upload, one plain line. Write `Stacy card: rendered YYYY-MM-DD` under `## Setup`
-in `conversion.md` (`stacy-sales-trainer` reads it as "a card exists" and re-renders only when her work-on list changes). On
+in `conversion.md` (`launch-stacy-my-sales-trainer` reads it as "a card exists" and re-renders only when her work-on list changes). On
 a demo Brain the card's subtitle carries "(illustrative — demo)" and nothing is uploaded outside the demo Brain. The
 trainer is **Stacy** — the same name for every member, never renamed, never "Mike", never claims to be Mike. No
 line about the card is said on its own; the home base names it.
 
-**The paste.** `${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/project-instructions.md` with the member's name
+**The paste.** `${CLAUDE_PLUGIN_ROOT}/skills/launch-stacy-my-sales-trainer/references/project-instructions.md` with the member's name
 filled in, printed in full as plain text inside the close's phone line — the bracket replaced, never shown; no path,
 no skill name reaches the member.
 
@@ -210,7 +210,7 @@ calls it and relays what it returns. Then the close.
 > Stacy — [Name]'s Sales Trainer (the links).
 > *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book link]."*
 > **Now meet Stacy, your sales trainer.** Open a **new chat in this same project**, type **/** and choose
-> **stacy-sales-trainer**. She'll introduce herself, play an agent you'd attract and ask you her first question —
+> **launch-stacy-my-sales-trainer**. She'll introduce herself, play an agent you'd attract and ask you her first question —
 > then score your answer and make you say it again. (Here she's text; your voice is next.)
 > **To hear Stacy out loud — on your computer or your phone:** in the Claude app go to the **Chat** tab, make a
 > Project called Stacy, add the card "Stacy — [Name]'s Sales Trainer" from your home base, paste these instructions
@@ -229,7 +229,7 @@ board"*) — never claim an update that did not happen; on a demo Brain the line
 demo)"*. The Stacy card is always in the home base; on a demo Brain it reads "Stacy — [Name]'s Sales Trainer
 (illustrative — demo)".) Nothing after "This week" line 3: no phrases list, no recap, no "later you can…".
 
-## `identity/conversion.md` — the locked shape (owner: this skill; `stacy-sales-trainer` and `cv-call-prep` read it)
+## `identity/conversion.md` — the locked shape (owner: this skill; `launch-stacy-my-sales-trainer` and `cv-call-prep` read it)
 ```
 # Conversion — [Name]
 *Written by the Conversion & Sales system (Week 6). Stacy, your Sales Trainer, and your Morning Call Prep read it.*
@@ -306,6 +306,6 @@ is made; the close claims no workflow and says the Board is illustrative. Same s
   when the session can; a failed rebuild named with "refresh my brain board"; never an update claimed that did
   not happen)
 - [ ] The close as printed — four "You" lines (line 4 by what is true), the home base with Stacy's card, the Board
-  and Book line, "Now meet Stacy" with the new chat and the slash pick (/ → stacy-sales-trainer), the voice path in the Chat tab, the
+  and Book line, "Now meet Stacy" with the new chat and the slash pick (/ → launch-stacy-my-sales-trainer), the voice path in the Chat tab, the
   phone line with the paste, "This week" in three, and nothing after
 - [ ] Told not asked, Week 6, plain words throughout; no CRM, booking page or funnel mentioned; no banned word

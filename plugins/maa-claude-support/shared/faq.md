@@ -80,7 +80,7 @@ Golden rule: nothing in this system auto-sends — Claude drafts, you approve.
 Yes — voice mode. Your phone is the sweet spot: driving back from a showing, say "I just talked
 to an agent, capture this…" and the capture skill files it in your top 50 and conversations. In
 Week 6 voice is also how you train with Stacy, your Sales Trainer: in Cowork open a new chat, tap the sound-wave
-picker (/ → stacy-sales-trainer); out loud it runs in the Claude app's Chat tab (Q82 has the five one-time
+picker (/ → launch-stacy-my-sales-trainer); out loud it runs in the Claude app's Chat tab (Q82 has the five one-time
 setup steps). You
 can also just dictate into any chat like a voice memo. Exactly which devices have voice mode
 today: I'll check the official page — it's still rolling out. **[check live for surfaces]**
@@ -895,7 +895,7 @@ the warning.
 
 **Q82. How do I use Stacy, my Sales Trainer — and by voice? (Week 6)**
 Your first round is not in the Week 6 sitting: the sitting ends with your Brain Board and Brain Book links and tells
-you to open a **new chat in the same project**, type **/** and choose **stacy-sales-trainer** (the sure way in —
+you to open a **new chat in the same project**, type **/** and choose **launch-stacy-my-sales-trainer** (the sure way in —
 Cowork picks a skill by its name; "Launch Stacy, my sales trainer" or "train me" often works too, but the slash
 always does). In Cowork Stacy is text: Cowork's voice does not start a skill and does not read her reply aloud —
 hearing her is the Claude app's Chat tab, below. Stacy introduces herself there — "Hi [your name] — I'm Stacy, your agent attraction

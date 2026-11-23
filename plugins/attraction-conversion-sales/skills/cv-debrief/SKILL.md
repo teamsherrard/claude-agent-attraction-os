@@ -44,7 +44,7 @@ Read `~/attraction-brain/brain.md`, then:
   sitting), so the audit measures the call against the script they actually have.
 - `config.md` — whether the AI Admin block exists (decides write vs request below).
 `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` for the call framework and
-`${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/objection-bank.md` for the objection names (the
+`${CLAUDE_PLUGIN_ROOT}/skills/launch-stacy-my-sales-trainer/references/objection-bank.md` for the objection names (the
 fifteen `###` headings, then only the matched entries) — read at the audit step, not before.
 
 **The call itself:** a pasted transcript, a Fathom or Zoom summary, a Riverside transcript, a DM thread, or
@@ -75,7 +75,7 @@ Six checks, each reported only when it happened — no filler "you did well on�
 4. **Fumbled an objection.** Match each objection to the bank; was it Listen → Validate → the question →
    Reframe → Invite, or an argument? Quote the member's answer, say which step was skipped, and write the
    better answer in their voice (two to four sentences). The Sales Trainer drills it next ("drill me on
-   [objection]" → `stacy-sales-trainer`).
+   [objection]" → `launch-stacy-my-sales-trainer`).
 5. **Answered compensation unasked, or harped on what the member cares about.** "If you care about revenue
    share and they care about production, don't talk about revenue share" (`/42`, `/44`). Flag splits, caps,
    stock, or rev share raised before the agent asked or before it mapped to a goal they named — and any
@@ -163,7 +163,7 @@ never generated as media.
   installed, update that agent's **Last touch · Next move · Due** cells (the same interim allowance
   `attraction-capture` has); otherwise request it alongside the stage move.
 - **`memory/objections.md`** — a fumbled objection goes in as a heard-row in the table's own shape with
-  `Did it land? no`, so the Sales Trainer (`stacy-sales-trainer`, the owner of the handlers, the Practice log and the
+  `Did it land? no`, so the Sales Trainer (`launch-stacy-my-sales-trainer`, the owner of the handlers, the Practice log and the
   Top five) can drill it. Nothing else in that file is written here.
 - **`identity/story-bank.md` → `Used-where`** — the stories the brief placed are stamped here, not by the
   brief: read today's brief for this name in `04 · Agents/Prospects` (`Call Prep · [Name] · [Date]`), match its

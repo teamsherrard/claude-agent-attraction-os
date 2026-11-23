@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.10] — 2026-11-23
+
+**The trainer skill is named the phrase itself: `launch-stacy-my-sales-trainer` (Conversion & Sales 0.2.10).** The owner's bar: "Launch Stacy, my sales trainer" must just work. Cowork matches a request against skill names, so the skill is now named the sentence. Every reference updated (the slash pick in the close reads / → launch-stacy-my-sales-trainer). Note for testers: a project whose Memory holds an earlier guess about Stacy re-reads it first — test in a fresh project or delete that note; members' projects never carry it.
+
 ## [0.44.9] — 2026-11-23
 
 **The doorway to Stacy, stated honestly (Conversion & Sales 0.2.9 · Support 0.2.21).** The owner's live test: `/stacy-sales-trainer` runs Stacy perfectly (introduction, Kayla, the first question); a spoken "Launch Stacy…" does not reliably reach the skill, and Cowork's voice neither starts a skill nor reads its reply aloud. So the close, the trainer and the Support desk now say it the way it works: **in Cowork, type / and choose stacy-sales-trainer** (text); **to hear Stacy out loud, on the computer or the phone, the Claude app's Chat tab** — a Project called Stacy with her card and the Project paste, then the sound-wave icon and "train me"; "log my training" back in Cowork. The phrases stay as best-effort triggers.
