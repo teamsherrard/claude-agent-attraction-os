@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.8] — 2026-11-23
+
+**The trainer skill is named after what members say: `stacy-sales-trainer` (Conversion & Sales 0.2.8).** The owner's probe settled it: all ten skills load in Cowork, and Cowork shows Claude the skill NAMES only — descriptions are not in front of it when it decides. "Launch Stacy, my sales trainer" had nothing to match; "launch my conversion system" matched `cv-setup` through the plugin's name. The trainer skill (formerly cv-trainer) is renamed `stacy-sales-trainer` (folder and `name:`), every reference updated; the plugin description ends with the phrase to say. Lesson for every plugin in this marketplace: a skill's folder name must carry the member's phrase — the description alone does not fire it in Cowork.
+
 ## [0.44.7] — 2026-11-23
 
 **Shorter skill descriptions (Conversion & Sales 0.2.7).** "Launch Stacy, my sales trainer" still found no skill in the owner's project after 0.44.6 — the trace showed Claude considering "a skill" and seeing none, i.e. the trainer skill was not in that session's skill list at all while the sitting's was. The exact cause is still being pinned down (a per-session loading budget is the lead; a length theory was ruled out because longer YouTube skills ran live). This release cuts every description in the plugin to 630–821 characters as written in the file (the trainer's leads with its trigger phrases), which lowers whatever budget applies and costs nothing. No behaviour change.

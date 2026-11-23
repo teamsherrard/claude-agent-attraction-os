@@ -1,6 +1,6 @@
 # [Name] — Conversion
 *identity · the partner call · owner: `cv-setup` (Conversion & Sales, Week 6) · Status: [not set | set YYYY-MM-DD]*
-*Read by: `cv-trainer` · `cv-call-prep` · `cv-debrief` · `cv-three-way` · the AI Admin. The 3-way partner line MIRRORS `identity/operations.md` (owner `attraction-operations`) — this file never writes operations.md.*
+*Read by: `stacy-sales-trainer` · `cv-call-prep` · `cv-debrief` · `cv-three-way` · the AI Admin. The 3-way partner line MIRRORS `identity/operations.md` (owner `attraction-operations`) — this file never writes operations.md.*
 *Empty until Week 6 BY DESIGN — not a gap. The shape is LOCKED by the owner (`attraction-conversion-sales/skills/cv-setup/SKILL.md`): every section present, filled with no brackets left when set.*
 
 ## Enrollment call

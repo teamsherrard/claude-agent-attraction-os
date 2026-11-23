@@ -150,7 +150,7 @@ workshop names are accepted as synonyms in any input and never corrected out lou
 > default and the transcript's shape); the six-step version is folded in as what to do inside each step (Clarify
 > and Isolate are "the question to ask" — the step every lesson places between Validate and Reframe, which
 > `references/objection-bank.md` names as its own line; Evidence lives in Reframe; Question is the Invite).
-> `cv-trainer` prints the four. Confirm, or choose the six.
+> `stacy-sales-trainer` prints the four. Confirm, or choose the six.
 
 > **Also open — stated once where it arises, listed here so there is one list:** the "5-Point Framework" the cohort
 > docs name is defined nowhere; `cv-follow-up` builds it on lesson 85's five principles (§7) · the fifteen
@@ -252,7 +252,7 @@ uncertainty → lack of belief in themselves or the unknown.
 "Once you know the archetype, you know their hidden fear. Address the real fear and the objection disappears."
 The locked shape: **Listen → Validate → Reframe → Invite** — "Hey, I get that. I used to feel that way too, but …"
 Never fight, never get defensive, never get confrontational; welcome it. Pre-handle what the booking form and the
-discovery questions already revealed (§4 sales loop). `cv-trainer` (the Sales Trainer) owns practice; the
+discovery questions already revealed (§4 sales loop). `stacy-sales-trainer` (the Sales Trainer) owns practice; the
 playbook in the member's words is built in the Week 6 sitting (`cv-setup`, `identity/conversion.md`);
 `memory/objections.md` logs what THIS member heard and what worked.
 

@@ -1,7 +1,7 @@
 # The Objection Playbook — how Step 3 of the sitting writes the fifteen in the member's words
 
 *Read by `cv-setup` at Step 3 (and on "update my objection playbook"). The handlers come from
-`${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/objection-bank.md` — Mike's fifteen on Listen → Validate →
+`${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/objection-bank.md` — Mike's fifteen on Listen → Validate →
 Reframe → Invite, each with the question to ask, the mistake to avoid, a proof/story slot and a brokerage slot. The
 sitting rewrites every one FRESH for this member: their voice, their stories, their proof, their model. The bank's
 notes are never pasted; Mike's figures and Mike's brokerage never appear. The playbook is the member's; the Trainer
