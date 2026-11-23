@@ -8,9 +8,9 @@ description: >
   three starters the YouTube plugin's yt-repurpose hands over from a video. Every draft is read back
   against the NEVER list before it is shown (no pitch, no walls of text, no recruiting language, no
   compensation, nothing AI-sounding, no fake personalization, no forced Zoom). The member sends it; the
-  touch is logged once they say it went out. Trigger on: "write a DM to [name]", "conversation starter",
-  "how do I open with [name]", "message for [name]", "text [name]", "email opener", "voice note script",
-  "openers for my top ten", "what do I send", "use the starters from my video".
+  touch is logged once they say it went out. Trigger on: "write a message to [name]", "write a DM to [name]",
+  "conversation starter", "how do I open with [name]", "text [name]", "email opener", "voice note script",
+  "openers for my top ten", "use the starters from my video".
 ---
 
 # Conversation Starter — start conversations, don't recruit
@@ -29,7 +29,7 @@ Read `brain.md`; pull the Brain if missing locally. Then: `identity/voice.md` + 
 words) · `identity/profile.md` and `journey.md` (what they have to give and in common) · wherever an opener offers a
 resource, `memory/magnets.md → ## Current magnet` FIRST (the live guide, offered by name — its funnel URL only
 after a reply, never a link in a first DM; "not live yet" or an empty file means the member skipped the Week 2 lead
-magnet session — say so, never "missing") and
+magnet session — say "Week 2's session builds it", never "missing") and
 `identity/offer.md` SECOND (the one useful thing they can offer — a sheet, a routine, a video; at seeds stage,
 their "teach first" line) ·
 `memory/top-50.md` for the name (Source tells you the relationship state; Notes tell you the context) ·
@@ -38,18 +38,19 @@ Read the first line of `identity/compliance.md` (`Status:`): **unset → stop he
 ("three minutes, say 'set up my attraction compliance'"), do not show a draft. set → apply every rule and
 remind once to confirm with the brokerage; confirmed → apply.**
 
-## Three modes
-- **Personalized** — an intel report exists (or the member says yes to running `cv-agent-intel` first, ~2
-  minutes): the context is a specific thing they posted, said, or did; the curiosity is a real question about
-  THEIR business; the useful thing is matched to their pain.
-- **Generic** — no report, no time: templates by channel × state with `[their specific thing]` slots marked
-  for the member to fill in 10 seconds, and one line saying a real detail is better than any template.
+## Three modes (no choice offered — the mode follows from what the Brain holds)
+- **Personalized** — the name is on the Top-50 (or has a link). An intel report exists → use it. No report →
+  run `cv-agent-intel` silently first, say one line — *"I read up on [Name] first — two minutes"* — then the three
+  options. The context is a specific thing they posted, said, or did; the curiosity is a real question about THEIR
+  business; the useful thing is matched to their pain.
+- **Generic** — only for a name with no Top-50 row and no link: templates by channel × state with `[their
+  specific thing]` slots marked for the member to fill in 10 seconds, and one line saying a real detail is
+  better than any template.
 - **Intake** — the YouTube plugin's `yt-repurpose` handed over three starters from a video (the section
   below): each is reviewed against the NEVER list, then made personal per prospect; never sent from here.
 
-**Fast lane:** name on the Top-50 + channel stated or obvious from Source → no questions. Otherwise ONE batched
-question: *"Which way do you two usually talk — Instagram, text, email, LinkedIn? And how do you know them —
-never met, met once, friend, worked together before, talked before, or they reached out first?"* **Your turn.**
+**Fast lane:** name on the Top-50 + channel stated or obvious from Source → no questions. Otherwise ONE question,
+one sentence, no list: *"How do you know [Name], and where do you two usually talk?"* **Your turn.**
 
 ## Channel × relationship state (the rules that change the draft)
 | Channel | Length and shape |
@@ -142,4 +143,4 @@ on [date]."* Never log a message the member didn't say they sent.
 
 ## Close
 *"✓ Three openers for [Name], in your voice. Pick one, make it yours, send it. Tell me when it's gone and I'll
-log it and remind you when to follow up."* Nothing asked, nothing after.
+log it, and your Morning Call Prep brings the follow-up on its Monday."* Nothing asked, nothing after.

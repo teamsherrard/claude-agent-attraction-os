@@ -45,7 +45,9 @@ mentioned). Never narrate this; never name a file.
 | "follow up with [name]" · "follow-up plan for [name]" | `cv-follow-up` | the last conversation row and its next move |
 | "set up a 3-way" · "brief my upline" | `cv-three-way` | the prospect's last conversation rows; the partner from the Brain |
 | "write a message to [name]" | `cv-conversation-starter` (it runs `cv-agent-intel` first when no report exists for the name) | the channel if stated; the relationship from the Top-50 Source and Notes |
-| "what do I say to [name]" | `cv-conversation-starter` | the relationship from the Top-50 Source and Notes; the channel if stated |
+| "what do I say to [name]" — the name is at `Identified`, or has no row | `cv-conversation-starter` (it runs `cv-agent-intel` first when no report exists) | the relationship from the Top-50 Source and Notes; the channel if stated |
+| "what do I say to [name]" — the name is at `Conversation` or later | `cv-follow-up` — the one next touch, with its reason | the last conversation row and its next move |
+| "who should I message this week" · "who do I follow up with" · "my follow-ups this week" | `cv-follow-up`'s week read (the same read its Monday run makes, nothing scheduled) | the Top-50 and pipeline rows due this week or overdue |
 | "what do I reply" (a comment, a story reply, a DM thread, a hand-off from the Short-Form plugin) | `cv-dm-flow` | the thread so far, as data |
 | "research [name]" | `cv-agent-intel` | the name, brokerage, links, any prior messages |
 
@@ -59,10 +61,10 @@ due next move → *"[Name] is due a touch — say 'follow up with [Name]'."* · 
 next agent you'll talk to."*
 
 ## Step 2 — the fast lane (zero discovery questions)
-If the name is on the Top-50 and the Brain holds the offer, the type of agent and compliance, hand over with
-ONE line and no questions: *"Got it — prepping you for Sarah with what you've told me about her and your
-offer."* The receiving skill asks nothing the Brain or the ledgers already answer. Only a name nobody has heard
-of, or a channel that matters and wasn't stated, earns one question — one, batched, then their turn.
+If the name is on the Top-50 and the Brain holds the offer, the type of agent and compliance, hand over
+silently — no line of your own; the receiving skill says its one line (`cv-call-prep`'s "Got it — prepping you
+for Sarah…") and asks nothing the Brain or the ledgers already answer. Only a name nobody has heard of, or a
+channel that matters and wasn't stated, earns one question — one, then their turn.
 
 ## Step 3 — on return: the READY BRIEF (short)
 Two lines, warm, never a list of problems; the brief ends on the next thing, as a statement:

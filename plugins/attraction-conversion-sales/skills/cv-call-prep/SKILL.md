@@ -89,9 +89,9 @@ now · the brokerage-type lens (the question to ask → the strength to lead wit
 the journey moment that mirrors them · the offer parts that map to their pain · the proof that matters most to
 them · what they genuinely share.
 
-**STORIES TO USE** — one or two from the story bank: hook + the pain it answers + where in the call. When the
-member confirms after the call that a story was told, stamp its `Used-where` line (`[date] · call with [Name]`)
-and push — the only line of `story-bank.md` this plugin touches.
+**STORIES TO USE** — one or two from the story bank (prefer an empty `Used-where`): hook + the pain it answers +
+where in the call. The brief lists them and stamps nothing; `cv-debrief` matches the hooks against the call and
+stamps `Used-where` (`[date] · call with [Name]`) — the only line of `story-bank.md` this plugin touches.
 
 **WHAT NOT TO SAY** — four to six lines: compensation first · anything about their brokerage or broker · income
 figures · pressure or fake deadlines · over-promising · the thing this person is sensitive about.

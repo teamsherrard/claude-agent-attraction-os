@@ -90,7 +90,7 @@ notice (step 9) and continue.
      the member's own playbook first, the plugin's bank at `<plugin root>/skills/cv-trainer/references/objection-bank.md`
      only for what the playbook does not cover, each on Listen · Validate · Reframe · Invite, rewritten for this
      agent) · TALKING POINTS TO LEAN INTO · STORIES TO USE (prefer an empty `Used-where`; never stamp it — the
-     member confirms a story was told in their debrief) · WHAT NOT TO SAY · THE RECOMMENDED NEXT STEP · Why this
+     member's debrief matches the hooks against the call and stamps them) · WHAT NOT TO SAY · THE RECOMMENDED NEXT STEP · Why this
      works. The booking says they are not here to discuss joining → the brief's first line says so plainly and
      the note's line for that call says "their booking says they aren't here to talk about joining — your call
      whether to keep it"; nothing is deleted or moved by you.
@@ -126,12 +126,13 @@ notice (step 9) and continue.
    against the NEVER list before it goes in the note (the plugin's `shared/house-rules.md` #9: no immediate pitch,
    no wall of text, no corporate recruiting language, no compensation, nothing AI-sounding, no fake
    personalization, no forced Zoom); one failure = rewrite. Three to five drafts in full in the note; the rest
-   one line each with the reason. Then ONE request line per drafted agent, spelled exactly
-   `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` — the move is the touch you drafted ("send the Marcus story
-   by DM"), the date is when it goes; never a stage. The AI Admin's pipeline applies each line to its board on
-   the member's next Admin run (the next move and due date only); when no `## AI Admin` block exists in
-   `config.md`, the member applies it with the Brain's `attraction-top-50` skill ("update [Name]'s next move").
-   You write no ledger cell yourself.
+   one line each with the reason. Then, per drafted agent, the next move — the touch you drafted ("send the
+   Marcus story by DM") and the day it goes; never a stage: **a `## AI Admin` block exists** (step 2) → ONE
+   request line, spelled exactly `NEXT MOVE REQUESTED: [Name]: [move] · due [date]`, which the AI Admin's
+   pipeline applies to its board on the member's next Admin run (the next move and due date only); **no Admin
+   block** → no request line; the note's plain line in step 9 (`[Name] — next move: [move], [day] — say "update
+   [Name]'s next move" and it's on your list.`), and the member applies it with the Brain's `attraction-top-50`
+   skill. You write no ledger cell yourself either way.
 5. **The 1st of the month — the quiet ones** (any other day: skip this step without a word). Find every agent
    at `Conversation`, `Call booked`, `Call held`, or `3-way` whose last touch is 30 or more days ago and who is
    not already in step 4's list. Skip `Parked`, `Joined` and later, and "asked for space" with a date not yet
@@ -142,8 +143,9 @@ notice (step 9) and continue.
    member they cared about (their `conversations.md` rows), curiosity not pressure ("not sure if you saw this —
    it reminded me of you"), one open door; a draft that could go to anyone is cut. Write the run to
    `memory/intel-reports/YYYY-MM-DD-reactivation.md` — the quiet list, each reason, each draft, the "leave it"
-   names — and ONE `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` line per drafted agent, exactly as in
-   step 4. A quiet agent never changes stage here: no `STAGE MOVE REQUESTED` line ever comes from this run.
+   names — and the next move per drafted agent exactly as in step 4 (the `NEXT MOVE REQUESTED: [Name]: [move] ·
+   due [date]` line only with an Admin block; the plain next-move line without it). A quiet agent never changes
+   stage here: no `STAGE MOVE REQUESTED` line ever comes from this run.
    Empty ledgers → nobody has gone quiet; nothing is listed and no names are invented.
 6. **Compliance — never a stop.** The briefs are private: write them whatever `Status:` says (only the
    next-steps email draft inside a brief is public — at `unset` it is held with one line in its place). The
@@ -195,11 +197,13 @@ notice (step 9) and continue.
    - `GONE QUIET` — the 1st only: `[n] agents quiet 30+ days · [n] drafts · [n] left alone`, each draft under the
      agent's name with its reason, then `Leave it: [names]`. Nobody quiet → the one line `Nobody's gone quiet —
      a healthy pipeline.`
-   - The `NEXT MOVE REQUESTED: [Name]: [move] · due [date]` lines, one per drafted agent, in a block of their own
-     (they are for the member's Admin and read as what they are; with no Admin the note adds one line below them:
-     `Say "update [Name]'s next move" to put a date on any of these.`).
-   - `Nothing was sent to anyone.` — always, in these words, right after the request lines (or after the last
-     section when there are none).
+   - **Only when a `## AI Admin` block exists** (step 2): the `NEXT MOVE REQUESTED: [Name]: [move] · due [date]`
+     lines, one per drafted agent, in a block of their own (they are for the member's Admin and read as what they
+     are). **No Admin block** → no `NEXT MOVE REQUESTED:` block and no "put a date" line; instead, one plain line
+     per drafted agent, in these words: `[Name] — next move: [move], [day] — say "update [Name]'s next move" and
+     it's on your list.`
+   - `Nothing was sent to anyone.` — always, in these words, right after the request lines or the next-move
+     lines (or after the last section when there are none).
    - **The compliance line — the note's LAST line, only when drafts were due and the status is not `confirmed`:**
      `unset` → `⚖️ ONE THING: your follow-up drafts wait on your compliance basics — say "set up my attraction
      compliance", three minutes, and tomorrow's run writes them.` · `set` → `⚖️ ONE THING: check your compliance
