@@ -21,7 +21,8 @@ import shutil
 import sys
 
 PLUGIN = "plugins/realtor-ai-editing-studio"
-NEW_VERSION = "0.7.5"
+NEW_VERSION = "0.7.6"
+DISPLAY_NAME = "Agent Attraction AI Editing Studio (Plugin 5)"  # the realtor copy keeps its own name; two identical names showed side by side in Cowork (owner, 2026-11-23)
 
 # Any line still carrying one of these is Edits-ENGINE text (filming on the phone in the Edits app never matches them).
 ENGINE_MARKER = re.compile(
@@ -645,6 +646,7 @@ def main():
     before = json.dumps(pj, ensure_ascii=False)
     pj["description"] = PLUGIN_DESCRIPTION
     pj["version"] = NEW_VERSION
+    pj["displayName"] = DISPLAY_NAME
     pj["keywords"] = [k for k in pj.get("keywords", []) if k not in ("edits", "instagram edits", "mac")]
     assert len(pj["description"]) <= 1000, len(pj["description"])
     if json.dumps(pj, ensure_ascii=False) != before:
