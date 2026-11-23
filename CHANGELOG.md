@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.5] — 2026-11-22
+
+**The sitting ends with the Board and hands to Stacy in a new chat; Stacy introduces herself (Conversion & Sales 0.2.5 · Support 0.2.20).** From the owner's live run of the Week 6 sitting tonight (clean end to end): (1) the close hands over the Brain Board and the Brain Book like every other sitting — "Your Brain Board and your Brain Book are updated — here they are" — with the Short-Form rule (never claim an update that did not happen; "refresh my brain board"); (2) Stacy's first round no longer runs inside the sitting: Step 5 is "Meet Stacy" — the close renders her card and the Project paste, then tells the member to open a new chat in the same project, tap the sound-wave icon to talk out loud (or type), and say "Launch Stacy, my sales trainer"; (3) on launch Stacy gives a proper spoken introduction — who she is, that she is trained on Mike's frameworks, what she will do — then the persona and her first question. The phone setup stays as the "in the car" extra. Support follows (FAQ Q82, stack-map, cohort-kb).
+
 ## [0.44.4] — 2026-11-22
 
 **"Launch Stacy" fires (Conversion & Sales 0.2.4).** The owner's first live try typed "Launch Stacy, my sales trainer" — "launch Stacy" and "launch my sales trainer" are now triggers for the trainer and routes in the navigator. Nothing else changed. Note for installs: the Conversion & Sales plugin is NEW in the marketplace as of 0.44.0 tonight — a Cowork project that installed the marketplace before today has to install this plugin (it is not an update to anything already there).
