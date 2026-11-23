@@ -17,7 +17,19 @@ per type from the member's materials; empty → one line, "and everything [broke
 call") · `identity/avatars.md` (the primary type; the secondary types for the table below) · `identity/journey.md →
 ## Why join me` · `identity/proof.md` (real, cleared) · `identity/story-bank.md` (one story; stamp `Used-where`) ·
 `identity/operations.md` (the booking link, the Week 2 page — never re-done, never asked about) ·
-`identity/brand-visual.md` (only for the optional design-brief line) · `identity/compliance.md` (the gate, below).
+`identity/offer.md → ## Week 3 Kit` (`Status: built YYYY-MM-DD` → the Kit exists: read its text, the newest
+`~/attraction-brain/exports/week3-kit-YYYY-MM-DD.txt`, at CHAPTER 7 — THE JOIN MY TEAM ONE-PAGER and THE CALL DECK,
+SLIDE BY SLIDE — the Kit rule below) · `identity/compliance.md` (the gate, below).
+
+## The Week 3 Kit rule — one set of words for the program
+When the Week 3 Kit exists, the one-pager uses the SAME program and stack words as the Kit's chapter 7: the program
+strip reads as slide 5 of the call deck states it (name · type · cadence), the three outcome blocks and "What
+partnering looks like" use the one-pager's "What you get" and "How it works" wording, the proof and "Why me" lines are
+the Kit's. Read it first, never contradict it — the designed call deck and this one-pager are the same offer in the
+same words. Where today's `offer.md` has moved on from the Kit (a renamed program, a changed cadence), the Kit is
+behind: the one-pager follows the Kit's words all the same, and the skill says one plain line — *"Your Week 3 Kit is
+behind your offer — say 'build my Week 3 kit' and then 'update my presentation'."* No Kit yet → the one-pager is built
+from `offer.md` alone, and nothing about the Kit is said.
 
 ## The outline — what the member says, in order, inside Positioning (6–10 minutes)
 1. **Mirror** — their current state in their words, from Discovery and Diagnosis: *"you said [pain], [pain], [goal]."*
@@ -56,15 +68,16 @@ days, four lines) · one proof line · the member's one-line story · **one next
 any other brokerage's name, "join my brokerage". The brokerage's name appears as `compliance.md`'s display rule
 requires and the required disclaimer is appended verbatim.
 
-**The design-brief line (one line, optional, in the document only):** *"To make it a designed page: in Claude
-Design, say 'design my offer kit' and paste the ONE-PAGER section — your brand kit supplies the look."* Nothing
-more about design here; the Design Studio owns it.
+**The one design line (in the document only, always the same words):** *"Your designed call deck lives in Week 3 —
+say 'design my call deck' in Claude Design and it uses this one-pager's words."* No Kit yet → *"Your designed call
+deck lives in Week 3 — once your Week 3 Kit is built, say 'design my call deck' in Claude Design and it uses this
+one-pager's words."* Nothing more about design here; the Design Studio owns it. No new document is made for the deck.
 
 ## The document — `Partner Presentation — [Name]`
 Structured text per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`: the title and meta lines; CAPS bands — HOW TO
 USE THIS (two lines: it's the bridge, not the brochure; pick the three live, from what they said) · THE OUTLINE (five
 `──── Step ────` sub-bands with "Say it like this:") · THE ONE-PAGER (the copy, block by block, paste-ready) · THE
-THREE THINGS BY TYPE OF AGENT (the table) · the design-brief line. Rendered through `render_doc.py` to `Partner
+THREE THINGS BY TYPE OF AGENT (the table) · the one design line. Rendered through `render_doc.py` to `Partner
 Presentation — [Name] · YYYY-MM-DD.docx` → `05 · Offer`; `RENDERER-UNAVAILABLE` → the `.md` upload, one plain line.
 The same text goes, in full, under `## Presentation` in `identity/conversion.md`.
 

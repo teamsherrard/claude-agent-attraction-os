@@ -105,7 +105,14 @@ notice (step 9) and continue.
    Twenty reads a call at most; more than five calls → the five earliest get full briefs, the rest get the
    60-second read and the likely objection on their line, and the note says "the rest are prepped short — say
    'prep my call with [name]' for the full page."
-4. **MONDAYS — the week's follow-ups** (any other day: skip this step without a word). Read `memory/top-50.md`
+4. **MONDAYS — the week's follow-ups** (any other day: skip this step without a word). **First, last week's numbers
+   — ONE line, counts only, read from `memory/pipeline.md` and nothing else:** the Stage-moves log rows dated in the
+   last 7 days (today and the six days before it) give calls held (rows whose move lands on `Call held`), 3-ways
+   (rows landing on `3-way`) and joins (rows landing on `Joined`); the Board gives who is in conversation now (rows
+   at `Conversation`). The line reads exactly `Last week: [n] calls held · [n] at 3-way · [n] joined · [n] in
+   conversation` — a Board and a log with no rows at all → `Last week: no calls logged yet`. It opens THIS WEEK'S
+   FOLLOW-UPS in the note (step 9) and is the Monday email's second line (step 8). Reads only: nothing is written,
+   no scorecard is kept, no target is quoted, no judgement is added. Then read `memory/top-50.md`
    and `memory/pipeline.md` for every agent whose next move is **due this week (Monday to Sunday) or overdue**,
    plus anyone at `Call held` or `3-way` with no touch in 14 days. Skip `Parked`, `Joined` and later, and anyone
    whose notes say "asked for space" with a date not yet passed. For each, find ONE real reason to reach out —
@@ -176,7 +183,8 @@ notice (step 9) and continue.
    `identity/profile.md`, else the signed-in account's own) — subject: "Your calls are prepped — [today's date]"
    (a Monday with no calls: "Your week's follow-ups are drafted — [date]"; the 1st with no calls: "Your quiet
    agents, with a reason each — [date]"), body at most seven lines: today's calls prepped (the names and times),
-   Monday's follow-ups (the count), the 1st's quiet list (the count), the line "The briefs are in your Prospects
+   on a Monday the same `Last week: …` line as the note (step 4), Monday's follow-ups (the count), the 1st's quiet
+   list (the count), the line "The briefs are in your Prospects
    folder; the drafts are in Cowork.", and the closing line "Nothing was sent to anyone." — never to anyone else,
    never a draft, never a second message, never a prospect's name in the subject; `no (no mail connected)`, a
    plain `no`, no line, or no connected mail → skip the email silently (the note carries it; only on the run that
@@ -191,7 +199,8 @@ notice (step 9) and continue.
    - `MORNING CALL PREP — [today's date]` — always the first line.
    - `TODAY'S CALLS` — one line per call, step 3's shape, in time order; none today on a Monday or the 1st → the
      one line `No calls today.` under this heading.
-   - `THIS WEEK'S FOLLOW-UPS` — Mondays only: `[Name] — [reason, one clause] — [channel]` then the draft under
+   - `THIS WEEK'S FOLLOW-UPS` — Mondays only: the one line `Last week: [n] calls held · [n] at 3-way · [n] joined ·
+     [n] in conversation` (or `Last week: no calls logged yet`) first, then `[Name] — [reason, one clause] — [channel]` then the draft under
      it (three to five in full; the rest one line each with the reason); then `Leave it this week: [names]` when
      there are any. Nobody due and nobody quiet at 14 days → the one line `Nobody's due this week.`
    - `GONE QUIET` — the 1st only: `[n] agents quiet 30+ days · [n] drafts · [n] left alone`, each draft under the

@@ -2,6 +2,17 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.3] — 2026-11-22
+
+**Week 6 outcomes made visible (Conversion & Sales 0.2.3 · Brain 0.9.24 · Support 0.2.19).** The owner's product review the same evening: what exactly does a member walk away with, in what order, and what is missing against Weeks 4–5. Decided and shipped — no Notion tab, no Game Plan document, no scorecard skill, no second task (each would break a ruling); instead:
+
+- **The Board's conversion page is a status page** (not the raw script): where each of the four documents stands with its date, the Morning Call Prep on/off and its time, "Work on these" from Stacy's Top five, and the four phrases. The tile reads "Week 6 · Conversion & Sales"; the AI Admin and Events tiles say "a later week".
+- **The designed deck is Week 3's call deck.** The presentation reads the Week 3 Kit's chapter 7 (the one-pager and the call deck) and uses its program and stack words, never contradicting it; the one design line is the exact trigger — "say 'design my call deck' in Claude Design and it uses this one-pager's words."
+- **One numbers line on Mondays**, read from the pipeline: "Last week: n calls held · n at 3-way · n joined · n in conversation" (counts only; "no calls logged yet" when empty), in the note and the email.
+- **Page one of the Enrollment Call:** YOUR WEEK (six lines — Stacy daily, prep before, debrief after, Monday follow-ups, the 1st, the numbers) and Mike's psychology of enrollment in four lines (influence vs pressure, the three pressure tells, enroll with certainty, the agent decides).
+- **The Stacy card re-renders only when the work-on list changes** — one phone chore when it matters, not after every drill.
+- Stale lines fixed: the setup guide no longer puts the AI Admin in Week 6 or the booking page in the Conversion plugin. Support: FAQ Q82/Q84, the Plugin 7 notes, a "What changed lately" row.
+
 ## [0.44.2] — 2026-11-22
 
 **Week 6 walkthrough fixes (Conversion & Sales 0.2.2).** A read-only reply-by-reply walkthrough of the eight by-phrase skills and the Morning Call Prep, on a fictional member, found sixteen defects; all fixed, nothing else changed. The sitting and Stacy are untouched.

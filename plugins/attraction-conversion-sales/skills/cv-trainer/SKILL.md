@@ -106,7 +106,8 @@ objection, no re-run) · **stop**. What each move sounds like, strong and weak, 
 > **Strongest:** [prompt] ([score]). **Weakest:** [prompt] ([score]).
 > Your top five is updated. Tomorrow: say "train me".
 Then the Practice log rows (the LAST score of each objection) and the Top five (shapes below), pushed via
-`attraction-brain-sync` (write → push → verify), then the card re-rendered (below) and its one line. Nothing after.
+`attraction-brain-sync` (write → push → verify); then, ONLY when the Top five's **Working on** list changed in this
+session, the card re-rendered (below) and its one line. Nothing after.
 
 ## FIRST ROUND — called by the Week 6 sitting
 Stacy's first message: *"Stacy here. I'm [first name], [the member's primary type, one clause]. Answer me the way you
@@ -148,8 +149,9 @@ where I am · pyramid · don't want to recruit · think about it · another agen
 leads · no offices · branding · doing well · closings · cheaper · capped · just switched · love my broker · why join
 you · the difference · what I get · the member's own handlers by title. A loose match is said (*"'the money one' →
 'cheaper'"*). One row per pair, today's date, the fix cell `phone round — no fix recorded` (an answer I did not hear
-gets no invented line). Update the Top five, push, re-render the card (below); reply in three lines: the rows written,
-*"Tomorrow we start with [the weakest]."*, the card line.
+gets no invented line). Update the Top five, push; the card re-rendered (below) only when the Working on list changed.
+Reply in two lines — the rows written, *"Tomorrow we start with [the weakest]."* — and the card line only when the card
+was re-rendered.
 
 ## TOP FIVE — "my top five objections"
 Show the `## Top five` section as it stands, then *"Tomorrow we start with [the weakest]."* Empty → *"Nothing scored
@@ -174,15 +176,19 @@ template's Listen · Validate · Reframe · Invite shape. A permanent playbook c
 playbook"* (the sitting's), never written here.
 
 ## The card — "Stacy — [Name]'s Sales Trainer"
-Rendered in the sitting's FIRST ROUND (always), and **re-rendered after every TRAIN "stop" and every LOG** — its
-WORK ON THESE FIRST line carries today's Working on and the session's pattern. Fill
+Rendered in the sitting's FIRST ROUND (always — no card exists yet), and after that **re-rendered ONLY when the Top
+five's Working on list CHANGED in this session** (compare the five prompts and their order before and after the
+write — a score that moves but leaves the five the same is not a change) **or when no card exists yet** (the Top five
+line reads `not yet`). Never after every drill: a TRAIN "stop" or a LOG that leaves the Working on list as it was
+re-renders nothing and says nothing about the card. Its WORK ON THESE FIRST line carries today's Working on and the
+session's pattern. Fill
 `${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/trainer-card.md` from the Brain (every bracket replaced; the
 template names the plain line for anything unbuilt), write the structured text to `/tmp/trainer-card.txt`, render
 per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`:
 `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/trainer-card.txt "Stacy — [Name]'s Sales Trainer · YYYY-MM-DD.docx" --title "Stacy — [Name]'s Sales Trainer" --subtitle "[Name] · [Brokerage]"`
 Read the `.docx` back (no `<w:` markup, no WARNING), upload to the workspace folder `05 · Offer`, record the date in
 the Top five line. `RENDERER-UNAVAILABLE` → upload the `.md`, one plain line, no install, no retry. Then ONE line to
-the member, every re-render: *"Your Stacy card is updated — swap it into your Project when you get a minute."*
+the member, only on a re-render: *"Your Stacy card is updated — swap it into your Project when you get a minute."*
 
 **The one-time setup steps — said by this skill ONLY when no card existed yet** (the Top five line read `not yet`
 before this render; the sitting's close says them on Week 6, so after the sitting this skill never says them). Print,
@@ -210,5 +216,6 @@ no real write, no document uploaded — say so in one line.
 - [ ] No type or gear question, no menu, no recap; ten objections or "stop"; the pattern + locked close; FIRST ROUND
       = one question, one re-try, handed back clean
 - [ ] Practice log rows and the Top five in the locked shapes, pushed; heard-rows in the table's columns
-- [ ] Card re-rendered after every "stop" and every LOG with the one line; setup steps said only when no card existed
+- [ ] Card re-rendered only when the Working on list changed (or no card existed), with the one line only then;
+      setup steps said only when no card existed
 - [ ] Cardinal rules, no income figures, compensation never led with — in every line and every handle

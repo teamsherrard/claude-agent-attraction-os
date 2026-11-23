@@ -77,7 +77,7 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
   Project called Stacy in the Chat tab → add the card "Stacy — [Name]'s Sales Trainer" (Drive → 05 ·
   Offer) → paste the printed instructions into the Project's instructions → pick the model → the
   sound-wave icon, "train me". At "stop" Stacy says the carry-back sentence; back in Cowork "log my
-  training — …" writes the scores (FAQ Q82). The card is re-rendered after every logged round. Fetch
+  training — …" writes the scores (FAQ Q82). The card is re-rendered only when the work-on list changes. Fetch
   the voice article live before guiding setup.
 - **The ManyChat templates** — a bonus asset imported into THEIR ManyChat account (free plan
   first), not a plugin or connector; the keyword carries every Reel; the PRO-badge truth test

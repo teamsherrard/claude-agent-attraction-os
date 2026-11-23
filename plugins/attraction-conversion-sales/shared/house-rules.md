@@ -95,8 +95,8 @@ Deliverables render through `render_doc.py` per `doc-formatting.md` and land in 
 drive map names (`04 · Agents/Prospects` for prep and intel; `05 · Offer` for scripts and presentations). Dated
 filenames; the newest is current. The renderer's fallback is the `.md` upload with one plain line — never a
 package install, never a retry loop. The Stacy card ("Stacy — [Name]'s Sales Trainer") is re-rendered by
-`cv-trainer` after every logged round, not only when the playbook changes; `skills/cv-trainer/references/project-instructions.md`
-is the Project paste.
+`cv-trainer` when the Top five's work-on list changes (or when no card exists yet) — never after every drill;
+`skills/cv-trainer/references/project-instructions.md` is the Project paste.
 
 ## 14. Demo mode.
 A demo Brain (`Demo brain: yes`) gets fictional prospects, no live research, no scheduled task, every number

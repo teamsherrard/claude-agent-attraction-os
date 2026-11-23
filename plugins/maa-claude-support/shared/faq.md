@@ -910,8 +910,9 @@ scores land in your Practice log; your top five updates. (On your phone that sen
 copy.)
 
 Voice runs on Opus or Sonnet, not Fable, and not in Cowork. The Claude app never runs the plugin or writes your Brain —
-the card is what it reads, which is why you log the round back here. After every round you log here your Stacy card is
-re-rendered — swap the new one into the Project when you get a minute. Stacy is the same trainer for every member and
+the card is what it reads, which is why you log the round back here. Your Stacy card is re-rendered only when your
+work-on list changes — the five objections she drills first — not after every round; when it is, she says so in one
+line, and you swap the new one into the Project when you get a minute. Stacy is the same trainer for every member and
 cannot be renamed.
 
 Next step: say "train me" here first — one round shows you the shape before you take it to the car.
@@ -940,10 +941,12 @@ In your Drive → Agent Attraction OS → 05 · Offer, four documents with your 
   page (the six steps and one question each)
 - **Partner Presentation — [your name]** — the bridge-the-gap one-pager
 - **Objection Playbook — [your name]** — the fifteen in your words, plus your brokerage's own answers
-- **Stacy — [your name]'s Sales Trainer** — Stacy's card for the Claude app (Q82); re-rendered after every round you log here
+- **Stacy — [your name]'s Sales Trainer** — Stacy's card for the Claude app (Q82); re-rendered when your work-on list changes, never after every round
 
-The full text is also on your Brain Board's conversion page, and your Morning Call Prep and Stacy read it
-from there. Changed your offer or your stories? "update my call script", "update my presentation" or "update my
+Your Brain Board's conversion page shows where each of the four stands (built when), whether your Morning Call Prep
+is on, and what Stacy is drilling with you first — not the full text; the documents hold that, and your Morning Call
+Prep and Stacy read them. Your presentation uses the same words as your Week 3 Kit's call deck; "design my call deck" in
+Claude Design is the designed version. Changed your offer or your stories? "update my call script", "update my presentation" or "update my
 objection playbook" rebuilds that one piece under today's date — the newest is the current one. A presentation marked
 "on hold" is waiting for your compliance step: "set up my attraction compliance", three minutes.
 
