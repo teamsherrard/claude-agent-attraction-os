@@ -1,6 +1,6 @@
 # The card — "Stacy — [Name]'s Sales Trainer"
 
-*For `cv-trainer` only. Everything above the line `RENDER FROM HERE` is a note to the skill and never reaches the
+*For `stacy-sales-trainer` only. Everything above the line `RENDER FROM HERE` is a note to the skill and never reaches the
 document. Below it is the renderer's structured text (`shared/doc-formatting.md` grammar: CAPS bands between
 divider rules, `──── Label ────` sub-bands, `Label:` lead-ins, prose — no tables anywhere, nothing Stacy would
 have to read aloud as a list). Replace EVERY bracket before rendering — a bracket names the Brain file the text

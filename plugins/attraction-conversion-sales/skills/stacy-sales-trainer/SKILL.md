@@ -1,5 +1,5 @@
 ---
-name: cv-trainer
+name: stacy-sales-trainer
 description: >
   Trigger on: "Launch Stacy, my sales trainer", "launch Stacy", "train me", "Stacy", "talk to Stacy",
   "sales trainer", "drill me", "role-play", "warm-up", "make it brutal", "they said [objection]", "how
@@ -22,7 +22,7 @@ the phone through the card (below). The Week 6 sitting never runs a round — it
 **Apply house rules** (`${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`), `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md`,
 `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md`, `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`. Method:
 `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` §1, §4, §6, §10 and the bank,
-`${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/objection-bank.md` (the fifteen `###` headings first; one entry
+`${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/objection-bank.md` (the fifteen `###` headings first; one entry
 per round — never the whole bank in one read).
 
 ## ⭐ THE RULES THAT SHAPE THIS SKILL
@@ -193,7 +193,7 @@ bank (Step 0's one line, said once: *"Your lines come from Mike's bank for now �
 builds your own playbook."*) and the card is rendered at the close. Never after every drill: a TRAIN "stop" or a
 LOG that leaves the Working on list as it was re-renders nothing and says nothing about the card. Its WORK ON
 THESE FIRST line carries today's Working on and the session's pattern. Fill
-`${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/trainer-card.md` from the Brain (every bracket replaced; the
+`${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/trainer-card.md` from the Brain (every bracket replaced; the
 template names the plain line for anything unbuilt), write the structured text to `/tmp/trainer-card.txt`, render
 per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`:
 `python3 "${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py" /tmp/trainer-card.txt "Stacy — [Name]'s Sales Trainer · YYYY-MM-DD.docx" --title "Stacy — [Name]'s Sales Trainer" --subtitle "[Name] · [Brokerage]"`
@@ -203,7 +203,7 @@ the member, only on a re-render: *"Your Stacy card is updated — swap it into y
 
 **The one-time setup steps — said by this skill ONLY when no card existed yet** (the sitting has not run; its close
 says them on Week 6, so after the sitting this skill never says them). Print, in place of the card line, with
-`${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/project-instructions.md` filled in as the paste:
+`${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/project-instructions.md` filled in as the paste:
 > Your trainer, Stacy, works by voice too. One-time setup, two minutes: 1. In the Claude app (your computer or your
 > phone) go to the Chat tab and make a Project called Stacy. 2. Add the card "Stacy — [Name]'s Sales Trainer" from
 > your home base. 3. Paste these instructions into the Project's instructions: [the paste]. 4. Pick Opus or Sonnet as

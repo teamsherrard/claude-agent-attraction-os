@@ -1,7 +1,7 @@
 # The Question Funnel — the questions the script and the call prep lean on
 
 *Read by `cv-setup` while it builds the enrollment call (Step 1) and the presentation (Step 2); `cv-call-prep`
-and `cv-trainer` read it by name for a named prospect or a type. Method: `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md`
+and `stacy-sales-trainer` read it by name for a named prospect or a type. Method: `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md`
 §4 — "Questions are where the game is won. Statements push. Questions pull." Questions shift the focus onto them,
 uncover pains, desires and objections, and open loops only the member can close. Three categories, in order — that
 is the funnel. Nothing here is a document of its own in the sitting: the questions live inside the script and the

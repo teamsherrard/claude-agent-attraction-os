@@ -79,7 +79,7 @@ the close, the transition-date question, Day 1 as the offer defines it; or the 3
 **LIKELY OBJECTIONS AND HOW TO HANDLE THEM** — three to five, chosen by type, brokerage type and their note.
 **Read the member's own playbook first** (`identity/conversion.md` → the Objection Playbook, and
 `memory/objections.md → ## The member's own handlers`); only an objection the playbook does not cover comes
-from the bank (`${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/objection-bank.md`), rewritten for this
+from the bank (`${CLAUDE_PLUGIN_ROOT}/skills/stacy-sales-trainer/references/objection-bank.md`), rewritten for this
 agent. Each: the objection in their likely words · the hidden fear · **Listen** · **Validate** (the line) ·
 **Reframe** (the line) · **Invite** (the question that moves it). Never the bank's wording pasted.
 
