@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.46.1] — 2026-11-23
+
+**The cohort editor gets its own name (AI Editing Studio 0.7.6).** Searching "ai editor" in Cowork showed two identical "The AI Editing Studio (Plugin 10)" entries — the realtor copy and this vendored copy carried the same display name. The cohort copy is now **"Agent Attraction AI Editing Studio (Plugin 5)"**, set by the strip step (downstream patch 4) so it survives re-vendoring. The third entry in that search, "Realtor AI Editor (Plugin 6)", is the retired Descript editor still registered in the realtor marketplace — uninstall it on the account; removing it from that registry is a realtor-repo change. Nothing else changed.
+
 ## [0.46.0] — 2026-11-23
 
 **One Cowork project for the whole program; Stacy talks by voice inside it (Conversion & Sales 0.2.11 · Brain 0.9.25 · Support 0.2.23).** Verified live by the owner: a Cowork voice session loads no plugin skills, but it reads the project's Instructions and Context — so Stacy's block in the project's Instructions and her card in Context made her talk back by voice, in the same project the member already uses. "That's the process going forward."

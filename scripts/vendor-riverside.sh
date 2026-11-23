@@ -10,6 +10,7 @@
 #   3. skills/studio-publish/SKILL.md — the description's tail "; usually reached through studio-navigator" is dropped (≤ 1,024).
 #   2. .claude-plugin/plugin.json — description trimmed to ≤ 1,000 characters (claude.ai refuses plugin updates above 1,024) and the
 #      version bumped one patch above the realtor source (0.5.0 → 0.5.1), equal to the marketplace registry entry.
+#   4. (also sets displayName to "Agent Attraction AI Editing Studio (Plugin 5)" so the cohort copy is told apart from the realtor copy)
 #   4. Riverside only — run `python3 scripts/strip-edits-engine.py` after vendoring (the call at the end of this script does it);
 #      the Edits engine (Instagram Edits for Mac, driven from the Code tab) is parked in docs/parked/edits-engine-2026-11-23/
 #      (owner, 2026-11-23: "complicated, probably won't work for most people"). The script deletes the shared/edits-*.md

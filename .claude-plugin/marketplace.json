@@ -33,7 +33,7 @@
     {
       "name": "realtor-ai-editing-studio",
       "source": "./plugins/realtor-ai-editing-studio",
-      "version": "0.7.5",
+      "version": "0.7.6",
       "description": "PLUGIN 5 — install in Week 4 with Short-Form. The AI Editing Studio: Claude edits your Reels and long videos in your own Riverside account — cuts the fluff, finds the hook, cleans the audio, adds captions, music, B-roll and your Week 3 brand graphics — every change checked, nothing posted without your yes. Never writes titles, captions or descriptions. Riverside is the only editor (film in Instagram's Edits app; Claude edits in Riverside). Requires Plugin 1 and a Riverside Grow plan or higher."
     },
     {
