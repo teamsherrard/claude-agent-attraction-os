@@ -157,9 +157,11 @@ Call briefs, intel reports, the 3-way pack, the Switching Transition Plan and a 
 `04 · Agents/Prospects` · the Enrollment Call, the Partner Presentation, the Objection Playbook and the Stacy
 card ("Stacy — [Name]'s Sales Trainer") → `05 · Offer`. Rendered through `shared/render_doc.py` per `shared/doc-formatting.md`; dated
 filenames; newest is current; `RENDERER-UNAVAILABLE` → the `.md` upload with one plain line, nothing installed.
-The Stacy card is re-rendered by `cv-trainer` when the Top five's work-on list changes (after a TRAIN "stop" or a LOG
-that moved it) or when no card exists yet — never after every drill; `skills/cv-trainer/references/project-instructions.md`
-is the Project paste for the Claude app.
+The Stacy card is rendered by `cv-setup` at the sitting's close (it dates `Stacy card:` under `## Setup` in
+`identity/conversion.md`) and re-rendered by `cv-trainer` when the Top five's work-on list changes (after a TRAIN
+"stop" or a LOG that moved it) or when no card exists because the sitting has not run — never after every drill;
+`skills/cv-trainer/references/project-instructions.md` is the Project paste for the Claude app. The sitting runs no
+round; it hands to Stacy in a new chat.
 
 ## Privacy
 Agent names, what they said, their socials, and every intel report are the member's private data. They live only on
