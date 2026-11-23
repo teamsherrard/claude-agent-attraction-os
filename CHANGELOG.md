@@ -2,6 +2,18 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.2] — 2026-11-22
+
+**Week 6 walkthrough fixes (Conversion & Sales 0.2.2).** A read-only reply-by-reply walkthrough of the eight by-phrase skills and the Morning Call Prep, on a fictional member, found sixteen defects; all fixed, nothing else changed. The sitting and Stacy are untouched.
+
+- The DM flow offers the live Week 2 guide first (`memory/magnets.md → ## Current magnet`), the offer second — "Week 2's session builds it", never "missing".
+- No machinery for members without the AI Admin: `NEXT MOVE REQUESTED:` / `STAGE MOVE REQUESTED:` lines print only when the Admin block exists; otherwise the follow-up skill writes the Top-50 cells directly and the Monday note says, per agent, "[Name] — next move: …, [day] — say 'update [Name]'s next move'".
+- The phrases the close prints now fire cold: "debrief my call", "here's my transcript", "how did my call go", "write a message to [name]", "who should I message this week" are in the descriptions.
+- No choice on intel: a Top-50 name with no report → intel runs silently first ("I read up on [Name] first — two minutes"), then the three openers; the one question is one sentence.
+- Shorter chats: the debrief's recap email goes to Drafts when mail is connected (one line in chat) and the recap video script only on "write my recap video"; the 3-way pack is always a document and the chat shows four things; agent intel shows the 60-second read and saves the page.
+- Stories marked used: the debrief matches the brief's stories against the call and stamps `Used-where`; the brief and the morning run list, never stamp.
+- Routing by stage: "what do I say to [name]" → the opener for a new name, the one next touch for anyone already in conversation; a second call at the same stage writes no move; the navigator hands over silently; "say 'explain my model'" replaces "the Brokerage Model Expert"; the author note left in the follow-up skill is gone; the model-change reason is named, never a figure.
+
 ## [0.44.1] — 2026-11-22
 
 **The Sales Trainer becomes Stacy (Conversion & Sales 0.2.1 · Support 0.2.18).** The owner's review of the voice path, the same evening: the trainer needs a name, a personality in the member's Project, and a real feedback loop — not a grader. Nothing else in the Week 6 sitting changes.

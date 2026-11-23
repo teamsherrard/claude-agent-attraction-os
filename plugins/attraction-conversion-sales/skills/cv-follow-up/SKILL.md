@@ -10,7 +10,7 @@ description: >
   in the member's voice, across text, email, DM, and video message. Feeds the AI Admin's Daily Follow-Up
   Queue. Trigger on: "follow-up plan for [agent]", "how should I follow up with", "nurture plan for",
   "what do I send [agent] next", "follow-up engine", "90-day plan for [agent]", "keep [agent] warm",
-  "who do I need to follow up with", "my follow-up touches this week".
+  "who do I follow up with", "who should I message this week", "my follow-ups this week".
 ---
 
 # Follow-Up Engine — the fortune is in the follow-up, and every touch has a reason
@@ -60,14 +60,14 @@ last conversation go, and what did they push back on? Two lines, or paste the th
 3. **Personalize the touch to what matters most to them** — "it's not about you… it's what they care about."
 4. **Use multiple channels** — text, email, DM, video message.
 5. **Consistency matters more than frequency** — stay in touch at the pace their interest sets.
-*(The cohort materials call this skill "the 5-Point Framework"; the five points are not defined anywhere
-in the vault beyond these five principles in lesson 85 — `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md`
-§7 reads them the same way — so these five are what the engine enforces; flagged DECISION NEEDED for Mike.)*
+These five are what the engine enforces (`${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` §7 reads them the
+same way).
 
 ## The reasons a touch is allowed to exist (Mike's trigger list — `/85`, `/42`)
 A touch with none of these is not sent; it is replaced or the date is moved:
 - **A positive change to the brokerage model** — compensation, stock, rev-share structure, co-sponsorship,
-  going public (from `intel.md`; facts with a date, never an earnings claim).
+  going public (from `intel.md`; a fact with a date — the change is named, never a figure or a split; the math
+  waits for the call).
 - **New tools or technology rolled out** — a CRM choice, an AI platform.
 - **New training or an update to the member's value proposition** — "we just rolled out X; it solves exactly
   what you mentioned" (`offer.md` changes, Value Vault additions).
@@ -130,16 +130,16 @@ voice note. Later touches are one line each with their reason and date. Read eve
 ## Step 5 — Write, push, hand to the queue
 - **The plan file:** `memory/intel-reports/YYYY-MM-DD-[agent]-follow-up.md` (this plugin owns the folder):
   placement, the dated touches with reasons, the drafts. Newest file is current.
-- **Next move and due date:** whenever a planned touch changes the agent's next move, the output ends with
-  the request line, spelled exactly **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`** — one line per
-  prospect, the stage untouched (a reply that changes the stage goes through `cv-debrief`'s
-  `STAGE MOVE REQUESTED` line, never from here). The AI Admin's `admin-pipeline` consumes it on the member's
-  next in-chat Admin run (the Board's Next move · Due only, no stage-log row) and the Daily Follow-Up Queue
-  picks the touch up on its date. When the Admin is not installed (no `## AI Admin` block in `config.md`),
-  this skill writes the Board's Next move · Due and the Top-50 row's Next move · Due directly, same words
-  (the interim allowance in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`), and the member can apply or
-  change it any time with the Brain's `attraction-top-50` ("update [Name]'s next move"). Its durable carrier
-  is the dated `Next step` on the conversation row below, or the dated touch in the plan file.
+- **Next move and due date:** whenever a planned touch changes the agent's next move — the stage untouched (a
+  reply that changes the stage goes through `cv-debrief`'s `STAGE MOVE REQUESTED` line, never from here):
+  **the AI Admin installed** (a `## AI Admin` block in `config.md`) → the output ends with the request line,
+  spelled exactly **`NEXT MOVE REQUESTED: [Name]: [move] · due [date]`**, one line per prospect; the Admin's
+  `admin-pipeline` consumes it on the member's next in-chat Admin run (the Board's Next move · Due only, no
+  stage-log row) and the Daily Follow-Up Queue picks the touch up on its date. **No Admin block** → no request
+  line is printed; this skill writes the Board's Next move · Due and the Top-50 row's Next move · Due directly,
+  same words (the interim allowance in `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`), and the member can
+  change it any time with the Brain's `attraction-top-50` ("update [Name]'s next move"). Either way its durable
+  carrier is the dated `Next step` on the conversation row below, or the dated touch in the plan file.
 - **A new trigger learned from the member** ("my brokerage just announced…") → hand it to `attraction-capture`
   (it owns that write — the Prospect Radar's `memory/intel.md`); never written from here.
 - **When the member says a touch went out:** append one `memory/conversations.md` row in the locked shape —
@@ -158,8 +158,9 @@ voice note. Later touches are one line each with their reason and date. Read eve
 The Monday pull is the Morning Call Prep's (`cv-call-prep` owns the task; this is the rule it runs): every
 Top-50 / pipeline row whose **Due** is this week or overdue, plus anyone at Call held or 3-way with no touch
 in 14 days → name · stage · the reason to reach out (a trigger from `intel.md` / `organization.md`, or the
-objection standing — never "just checking in") · the draft in the member's voice · a `NEXT MOVE REQUESTED:`
-line each for the AI Admin. Five at most, the rest collapsed. No reason for a name → "no reason yet — leave
+objection standing — never "just checking in") · the draft in the member's voice · with the AI Admin installed, a
+`NEXT MOVE REQUESTED:` line each (none without it — the note names the next move in plain words instead). Five
+at most, the rest collapsed. No reason for a name → "no reason yet — leave
 it". Quiet for 30+ days → the 1st-of-the-month quiet list, the same task's run (one real reason or "leave it",
 written to the Brain's intel reports). A member who asks for the week's touches in chat ("my follow-up
 touches this week") gets the same read here, nothing scheduled.

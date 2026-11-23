@@ -35,10 +35,11 @@ in common), `identity/offer.md` and `positioning.md` (which parts of the offer c
 `memory/objections.md` (what this member has heard before from this type), `identity/prospect-intel.md` (the
 market's landscape). Read `brain.md` first; pull the Brain if it's missing locally.
 
-**Fast lane:** a name on the Top-50 with at least one link → no questions, start researching. A bare name with
-no links and no row → ONE batched question: *"Where can I look — their Instagram, website, or LinkedIn? And
-how do you know them, if at all?"* **Your turn.** "Just go with what you have" → write the report from the
-Brain and say which sections are inferred from their type.
+**Fast lane:** a name on the Top-50 → no questions, start researching: with a link, from the link; with no link,
+from the brokerage and market in the row (their public business profiles under that name, brokerage and market —
+nothing beyond). A bare name with no links and no row → ONE batched question: *"Where can I look — their
+Instagram, website, or LinkedIn? And how do you know them, if at all?"* **Your turn.** "Just go with what you
+have" → write the report from the Brain and say which sections are inferred from their type.
 
 ## Research budget and the citation rule
 - **Budget: up to 8 searches or page reads per agent** (a batch of ten agents = up to 80, run in order of the
@@ -78,9 +79,16 @@ Title: `Agent Intel · [Name] · [YYYY-MM-DD]`. Meta line: brokerage type · mar
    this agent is visibly sensitive about, anything from the NEVER list.
 10. **Suggested opening message** — ONE, for the most natural channel, in the member's voice
     (`identity/voice.md`, `voice-print.md` if present), that passes the NEVER-list read-back; the member can ask
-    `cv-conversation-starter` for three more.
+    `cv-conversation-starter` for three more. **Stage `Conversation` or later** (the Top-50 row or a
+    `memory/conversations.md` row says so) → this section is **"Your next message"** instead: built from the last
+    conversation row — what they said, the pain, the promised next step — never an opener, never a re-introduction.
 
 Then one line: **Why this angle** — the type of agent and what that stage responds to.
+
+## What the chat shows
+The page is saved, never pasted whole. The chat shows the **60-second read** — four lines: who they are · the
+angle · what not to say · the message (section 10) — and the document's link in one line. The rest is the
+document.
 
 ## Save, then push (write → push → verify)
 - Write `memory/intel-reports/YYYY-MM-DD-[agent-slug].md` (newest wins for a name) and push via

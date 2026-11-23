@@ -26,15 +26,19 @@ House rules: `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
 ## Before replying (silent)
 Read `brain.md` (pull the Brain if missing locally) · `identity/voice.md`, `voice-samples.md`, and
 `voice-print.md` (the rhythm, the words they use, how they say thanks — a reply that doesn't sound like them is
-a failed reply) · `identity/offer.md` for the one resource the member can give (the sheet, the routine, the
-video; at seeds stage, the teach-first thing) · `identity/avatars.md` to place the person · `memory/top-50.md`
+a failed reply) · wherever a reply offers a resource, `memory/magnets.md → ## Current magnet` FIRST (the live
+guide, offered by name — its funnel URL only after a reply, never a link in a first DM; "not live yet" or an empty
+file means the member skipped the Week 2 lead magnet session — say "Week 2's session builds it", never "missing")
+and `identity/offer.md` SECOND (the one useful thing they can offer — a sheet, a routine, a video; at seeds stage,
+their "teach first" line) · `identity/avatars.md` to place the person · `memory/top-50.md`
 and `memory/conversations.md` for any earlier rows with this name · `identity/operations.md` for the booking
 link (Week 2's; none there → the invite offers "I'll send you a time" and the member picks — never asked for) ·
 `identity/compliance.md` (its first line, `Status:`): a DM is something a prospect sees — **unset → stop, one
 warm line ("say 'set up my attraction compliance'"), no draft; set → apply and remind once; confirmed → apply.**
 
-**Fast lane:** thread pasted + name known → no questions. A hand-off from `sf-comment-to-dm` arrives with the
-Reel, the keyword, the resource promised, and the exchange so far — use it, ask nothing.
+**Fast lane:** thread pasted + name known → no questions; a public comment needs no name — write the reply. A
+hand-off from `sf-comment-to-dm` arrives with the Reel, the keyword, the resource promised, and the exchange so
+far — use it, ask nothing.
 
 ## Where the conversation sits (say it in one line, then write)
 | Stage of the ladder | What it looks like | The reply's job |

@@ -90,8 +90,14 @@ after = 3-way**). Admin installed → the column is the request and the output e
 **STAGE MOVE REQUESTED: [Name]: Call held → 3-way**; absent → also the Board and Stage-moves-log rows in
 `memory/pipeline.md`, `Logged by: cv-three-way`, and that agent's Last touch · Next move · Due cells on the
 Top-50 (the interim allowance in `shared/brain-contract.md`). After the call, `cv-debrief` logs what happened. Push
-immediately. Render the pack per `shared/doc-formatting.md` → `3-Way Pack · [Prospect] · [Date].docx` →
-`04 · Agents/Prospects` on request.
+immediately.
+
+## The document and the chat
+Render the pack per `shared/doc-formatting.md` → `3-Way Pack · [Prospect] · [Date].docx` → `04 · Agents/Prospects`
+**always** (`RENDERER-UNAVAILABLE` → the `.md` upload, one plain line). **The chat shows four things only:** the
+ask line to the prospect, the calendar invite copy, and the two edification scripts (the guest, the partner). The
+upline brief, the partner's version, the check list and the AFTER section live in the document — the chat names
+it in one line, never pastes it.
 
 ## Rules
 - "Leverage" appears only inside Mike's quoted line, never in the pack's prose.
