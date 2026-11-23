@@ -87,7 +87,7 @@ notice (step 9) and continue.
      `Call Prep · [Name] · [Date]` with its meta line · THE 60-SECOND READ · HOW TO APPROACH THE CONVERSATION (the
      timed table on Discovery → Diagnosis → Fit → Positioning → Questions → Next Step, scaled to `Partner call
      length`, the lines from the member's own script) · LIKELY OBJECTIONS AND HOW TO HANDLE THEM (three to five,
-     the member's own playbook first, the plugin's bank at `<plugin root>/skills/stacy-sales-trainer/references/objection-bank.md`
+     the member's own playbook first, the plugin's bank at `<plugin root>/skills/launch-stacy-my-sales-trainer/references/objection-bank.md`
      only for what the playbook does not cover, each on Listen · Validate · Reframe · Invite, rewritten for this
      agent) · TALKING POINTS TO LEAN INTO · STORIES TO USE (prefer an empty `Used-where`; never stamp it — the
      member's debrief matches the hooks against the call and stamps them) · WHAT NOT TO SAY · THE RECOMMENDED NEXT STEP · Why this

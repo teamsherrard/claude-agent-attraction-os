@@ -70,7 +70,7 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
   there because Design can't read the brain folder (FAQ Q3, Q30, Q47). Two upload failure modes:
   description over 1024 chars, nested zip.
 - **Stacy, the Sales Trainer, by voice** — voice is an input method (doctrine §1); in Week 6 Stacy
-  (`stacy-sales-trainer`) plays the agent, scores every answer out of ten on Listen → Validate → Reframe →
+  (`launch-stacy-my-sales-trainer`) plays the agent, scores every answer out of ten on Listen → Validate → Reframe →
   Invite with the one move that cost most, gives the line to say, and makes the member try it again.
   In Cowork she is text ("train me"); voice mode is NOT in Cowork, so the out-loud drill runs in the
   Claude app on Opus or Sonnet (never Fable), after five one-time steps the Week 6 close prints: a
