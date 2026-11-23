@@ -92,7 +92,16 @@ Follow Up Boss connect when a system asks for them — not now.
 
 ## 4. Build your Brain (about 45 minutes to an hour, one chat)
 
-Open a new Cowork chat and type:
+**Your one project.** In Cowork, make one project for this program — call it **Agent Attraction** — and open every
+chat of the program inside it, starting with this one: your Brain, your offer, the brand chat, short-form, YouTube,
+conversion. The panel on the right has five parts. **Instructions** gets your project seatbelt (the block your Brain
+setup hands you at the end — Instructions → Edit, paste; in Week 6 the Stacy block goes under it). **Context** stays
+empty until Week 6, when only Stacy's card goes in — never a copy of your Brain or your Brain Book, which would go
+stale. **Memory**: nothing to add (if Claude keeps repeating something wrong, Memory → View → delete that note).
+**Scheduled**: nothing to add — the sittings create your workflows on your Yes, and this is where you see them.
+**Add folder**: not needed; each sitting asks for the connectors it wants.
+
+In that project, open a new chat and type:
 
 ```
 Set up my attraction brain
@@ -147,8 +156,8 @@ off?" and resumes at the right spot. It never re-interviews a finished Brain.
 - **Your home base link** — one folder in your Drive or OneDrive: 01 · AI Brain (the Book), 02 · Brand, 03 · Content,
   04 · Agents, 05 · Offer, 06 · Materials. Bookmark it. Rename it anytime. One folder inside 01 · AI Brain holds the
   working files your AI reads — leave that one alone.
-- **Your project seatbelt** — a short block to paste into the Project Instructions of any Claude project, so every
-  chat there loads your Brain first. Optional, ten seconds per project.
+- **Your project seatbelt** — a short block to paste into your Agent Attraction project's Instructions (panel on the
+  right → Instructions → Edit), so every chat there loads your Brain first. Ten seconds, once.
 - **Next** — your offer and your lead magnet in Week 2 (section 10). Your brand and Claude Design come in Week 3 (section 5).
 
 **Then, two minutes more.** Say `set up MAA support`. It records your cohort start date and whether you're a
@@ -410,7 +419,7 @@ owns them and created only with your yes; every one is draft-only.
 | 4 | **ManyChat sequence templates** — required for your two keywords: install ManyChat yourself (the free plan starts you), import Mike's templates into your own account, then say the phrase and your short-form plugin writes out the steps. You never connect ManyChat to Claude | `set up my ManyChat` | — |
 | **5** (date to be confirmed) | **Plugin 6 · YouTube** — one phrase is the whole Week 5 sitting (section 7): your channel optimized for the agents you want to attract, your YouTube Game Plan (one video a week to start), your next 30 days on the YouTube tab of your board, your Monday Kickoff and its short email note, your first video | `set up my YouTube for agents` | Monday Kickoff (Mondays; on the first Monday of the month it reviews last month too) — switched on with your one yes; a short email to your own address when something is ready and your mail is connected |
 | 5 | **No new upload.** Your YouTube plugin writes each thumbnail sheet; you make the thumbnail in Higgsfield with it (the prompt to paste, which photo to upload, the words). Your banner is the one your brand kit made in Week 3 | `thumbnail brief for my attraction video` | — |
-| **6** | **Plugin 7 · Conversion & Sales** | `launch my conversion system` — one sitting: your enrollment call script, your presentation, your objection playbook, your Morning Call Prep, then hands you to Stacy in a new chat (say `Launch Stacy, my sales trainer` — the Sales Trainer plays the agent, scores you and makes you say it again). Then `train me` any day; `prep my call` before every partner call; `debrief my call` after | Morning Call Prep (daily; Mondays adds your follow-ups, the 1st adds anyone who went quiet) — ONE workflow |
+| **6** | **Plugin 7 · Conversion & Sales** | `launch my conversion system` — one sitting: your enrollment call script, your presentation, your objection playbook, your Morning Call Prep, then two project steps (Context → Add Stacy's card; Instructions → Edit, paste the Stacy block under your seatbelt) and a new chat: tap the sound-wave icon and say `Stacy, train me` — the Sales Trainer plays the agent, scores you and makes you say it again, out loud, in your project; typed, `Launch Stacy, my sales trainer`. Then `train me` any day; `prep my call` before every partner call; `debrief my call` after | Morning Call Prep (daily; Mondays adds your follow-ups, the 1st adds anyone who went quiet) — ONE workflow |
 | 6 | **Plugin 8 · AI Admin** — one phrase, two messages: your first Morning Brief built from your Brain, calendar and inbox (today's calls with prep, inquiries with reply drafts, follow-ups drafted in your voice, content due, the week so far, three moves, one coaching note) and your pipeline at a glance — then one yes. Nothing is asked that your Brain already knows | `set up my attraction admin` | from one consent card: Morning Brief (extends your Debrief) · Daily Follow-Up Queue right after it · your Daily Debrief, if it isn't on yet |
 | **7** (bonus week, date to be confirmed) | **Plugin 9 · Events & Workshops** | `plan my workshop` | Post-Event Follow-Up |
 | 7 | **The Value Vault and your events** — two Design Studio skills: the Value Vault (your playbook, course, or ebook, plus your partner onboarding roadmap — the Day 1 → Day 30 poster, the new-partner checklist, the "where to show up" card) and the event graphics. Upload when released | `design my value vault` (or one piece: `design my playbook`, `design my course`, `design my ebook`, `design my onboarding roadmap`) · `my attraction event flyer` · and, from your content kit, `my win wall` | from the AI Admin: Monthly KPI Review · Team Wins Newsletter (Thursdays). Your Weekly Recruiting CEO Review runs whenever you say `run my CEO review` |
@@ -462,10 +471,11 @@ welcome email and the Circle calendar]`.
 **Before the lessons**
 
 - [ ] Claude on a paid plan · desktop app installed · Cowork open
+- [ ] One Cowork project called **Agent Attraction** — every chat of the program runs in it
 - [ ] Marketplace added · **Plugin 1** and **Plugin 2** installed · **Sync automatically** on
 - [ ] Storage connected (Google Drive or Microsoft 365) · email and calendar connected
 - [ ] `Set up my attraction brain` — Opus, Medium effort, one sitting (about 45 minutes to an hour; four conversations, three voice answers)
-- [ ] Brain Book open · home base link bookmarked
+- [ ] Brain Book open · home base link bookmarked · seatbelt pasted into the project's Instructions
 - [ ] `set up MAA support` (two minutes)
 
 **The same week**

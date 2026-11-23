@@ -99,7 +99,7 @@ The document opens, before the call itself, with two short bands. Plain words; n
 
 **YOUR WEEK** — six lines, exactly these (the time in line 4 is the member's Morning Call Prep hour; `later` or
 `declined` → "Monday morning, once your Morning Call Prep is on, …"):
-1. Ten minutes a day with Stacy — say "train me", here or by voice in the Claude app.
+1. Ten minutes a day with Stacy — say "train me", here or by voice in this project.
 2. Before every partner call, say "prep my call".
 3. After every call, say "debrief my call".
 4. Monday morning your follow-ups for the week arrive, each with a reason.

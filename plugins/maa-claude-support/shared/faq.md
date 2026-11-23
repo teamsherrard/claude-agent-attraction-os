@@ -79,9 +79,8 @@ Golden rule: nothing in this system auto-sends — Claude drafts, you approve.
 **Q8. Can I talk to it instead of typing?**
 Yes — voice mode. Your phone is the sweet spot: driving back from a showing, say "I just talked
 to an agent, capture this…" and the capture skill files it in your top 50 and conversations. In
-Week 6 voice is also how you train with Stacy, your Sales Trainer: in Cowork open a new chat, tap the sound-wave
-picker (/ → launch-stacy-my-sales-trainer); out loud it runs in the Claude app's Chat tab (Q82 has the five one-time
-setup steps). You
+Week 6 voice is also how you train with Stacy, your Sales Trainer: in your Agent Attraction project open a new chat,
+tap the sound-wave icon and say "Stacy, train me" (Q82 has the two project steps that make it work). You
 can also just dictate into any chat like a voice memo. Exactly which devices have voice mode
 today: I'll check the official page — it's still rolling out. **[check live for surfaces]**
 
@@ -888,35 +887,35 @@ Plugins? One skill (Energy — the zooms, "make it punchier") once shipped with 
 is fixed, and the next plugin sync clears the warning.
 
 **Q82. How do I use Stacy, my Sales Trainer — and by voice? (Week 6)**
-Your first round is not in the Week 6 sitting: the sitting ends with your Brain Board and Brain Book links and tells
-you to open a **new chat in the same project**, type **/** and choose **launch-stacy-my-sales-trainer** (the sure way in —
-Cowork picks a skill by its name; "Launch Stacy, my sales trainer" or "train me" often works too, but the slash
-always does). In Cowork Stacy is text: Cowork's voice does not start a skill and does not read her reply aloud —
-hearing her is the Claude app's Chat tab, below. Stacy introduces herself there — "Hi [your name] — I'm Stacy, your agent attraction
-sales trainer. I'm trained on Mike's frameworks…" — then plays an agent and asks her first question, "why should I
-join you?", waits until you finish, scores you out of ten with the one move that cost you most, gives you the line to
-say instead, and makes you try it again. Any day after: "train me" (she skips the introduction in a chat she has
-already opened). To hear her out loud — on your computer or your phone — the Claude app's Chat tab. One-time setup, two minutes:
+Stacy lives in the same Cowork project as everything else — your Agent Attraction project from Week 1 (Q86). Your
+first round is not in the Week 6 sitting: the sitting ends with your Brain Board and Brain Book links, prints the Stacy
+block, and gives you two things to do in the project panel on the right, once, about a minute:
 
-1. In the Claude app (your computer or your phone) go to the Chat tab and make a Project called Stacy.
-2. Add the card "Stacy — [your name]'s Sales Trainer" from your home base (Drive → 05 · Offer).
-3. Paste the instructions into the Project's instructions — your Week 6 close printed them with your name filled in;
-   lost them? Open the close of your Week 6 sitting, or say "help" and I'll point you to it.
-4. Pick Opus or Sonnet as the model — voice doesn't run on Fable.
-5. Tap the sound-wave icon at the right end of the message box and say "train me".
+1. **Context → Add** the card "Stacy — [your name]'s Sales Trainer" from your home base (Drive → 05 · Offer).
+2. **Instructions → Edit**, and paste the Stacy block under your seatbelt (the block your Week 1 close gave you —
+   keep it; Stacy's lines go below it). Lost the block? Open the close of your Week 6 sitting, or say "help".
 
-When you say "stop", Stacy gives you one sentence to repeat at your desk, exactly in this shape: "Back at your desk,
-tell Claude: log my training — happy where I am seven, pyramid nine, closings six." Say it back here in Cowork and the
-scores land in your Practice log; your top five updates. (On your phone that sentence is in the chat transcript too, to
-copy.)
+Then open a **new chat in the project**, tap the **sound-wave icon** at the right end of the message box and say
+**"Stacy, train me."** Stacy introduces herself — "Hi [your name] — I'm Stacy, your agent attraction sales trainer. I'm
+trained on Mike's frameworks…" — plays an agent, asks her first question, "why should I join you?", waits until you
+finish, scores you out of ten with the one move that cost you most, gives you the line to say instead, and makes you
+try it again. Your computer or your phone — same project, same card. Prefer typing? In a new chat type "Launch Stacy,
+my sales trainer" and she runs in text; any day after, "train me" (she skips the introduction in a chat she has
+already opened).
 
-Voice runs on Opus or Sonnet, not Fable, and not in Cowork. The Claude app never runs the plugin or writes your Brain —
-the card is what it reads, which is why you log the round back here. Your Stacy card is re-rendered only when your
-work-on list changes — the five objections she drills first — not after every round; when it is, she says so in one
-line, and you swap the new one into the Project when you get a minute. Stacy is the same trainer for every member and
-cannot be renamed.
+When you say "stop", Stacy gives you one sentence to repeat, exactly in this shape: "Back at your desk, tell Claude:
+log my training — happy where I am seven, pyramid nine, closings six." Type it in a chat in your project and the
+scores land in your Practice log; your top five updates. (On your phone that sentence is in the chat transcript too,
+to copy.) Typing matters for that one line: a voice chat reads your project but does not write your Brain.
 
-Next step: a new chat in the same project, "Launch Stacy, my sales trainer" — one round shows you the shape before
+Why the two steps: a voice chat reads what is in your project — its Instructions and its Context — not your plugins,
+so that is where Stacy has to be. If a voice chat says "there are no skills in this session", that is normal; Stacy
+still works there. Her card is re-rendered only when your work-on list changes — the five objections she drills first
+— not after every round; when it is, she says so in one line, and you swap the new one into Context when you get a
+minute. Stacy is the same trainer for every member and cannot be renamed. Only if nothing fires when you type: / →
+launch-stacy-my-sales-trainer.
+
+Next step: a new chat in your project, the sound-wave icon, "Stacy, train me" — one round shows you the shape before
 you take it to the car.
 
 **Q83. Nothing was prepped this morning. Is my Morning Call Prep broken? (Week 6)**
@@ -943,7 +942,7 @@ In your Drive → Agent Attraction OS → 05 · Offer, four documents with your 
   page (the six steps and one question each)
 - **Partner Presentation — [your name]** — the bridge-the-gap one-pager
 - **Objection Playbook — [your name]** — the fifteen in your words, plus your brokerage's own answers
-- **Stacy — [your name]'s Sales Trainer** — Stacy's card for the Claude app (Q82); re-rendered when your work-on list changes, never after every round
+- **Stacy — [your name]'s Sales Trainer** — Stacy's card; its home is your Agent Attraction project's Context (Q82); re-rendered when your work-on list changes, never after every round
 
 Your Brain Board's conversion page shows where each of the four stands (built when), whether your Morning Call Prep
 is on, and what Stacy is drilling with you first — not the full text; the documents hold that, and your Morning Call
@@ -963,3 +962,24 @@ second engine until 2026-11-23; Mike parked it because it was complicated and wo
 editor still offers it, update your plugins — Customize → Plugins — and start a new chat.)
 
 Next step: "edit my reel" in a new chat, naming the recording.
+
+**Q86. How should I set up my Claude project for the program? (Week 1 · Week 6)**
+One Cowork project, made in Week 1, used every week. Call it **Agent Attraction**. Every sitting — your Brain, your
+offer, the brand chat, short-form, YouTube, conversion — runs as a new chat inside it. The project panel on the right
+has five parts; here is what goes in each, and when:
+
+| Panel | What goes there | When |
+|---|---|---|
+| **Instructions** | Your project seatbelt (the block your Brain setup gave you; its last line reads aa-v1). In Week 6, the Stacy block pasted under it | Week 1 · Week 6 |
+| **Context** | Nothing until Week 6; then only the card "Stacy — [your name]'s Sales Trainer" (Drive → 05 · Offer). Never a copy of your Brain or your Brain Book — a copy goes stale; your Drive is the truth | Week 6 |
+| **Memory** | Nothing to add. If Claude keeps repeating something wrong: Memory → View → delete that note | — |
+| **Scheduled** | Nothing to add — the sittings create your workflows on your Yes; this is where you see them | — |
+| **Add folder** | Not needed — each sitting asks for the connectors it wants | — |
+
+Week 1: make the project, then Instructions → Edit, paste the seatbelt. Week 6: Context → Add the Stacy card;
+Instructions → Edit, paste the Stacy block under the seatbelt (Q82). Why one project: a voice chat reads the
+project's Instructions and Context, not your plugins — so Stacy talks by voice in the same place your typed phrases
+reach the skills. "It says there are no skills in this session" is a voice chat, and Stacy still works there; "the
+project folder is empty" means the card is not in Context yet.
+
+Next step: open your project, click Instructions, and check your seatbelt is there — the last line reads aa-v1.

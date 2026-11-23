@@ -30,16 +30,17 @@ this paragraph.)
 **Voice:** voice mode lets them TALK to Claude — the phone is the sweet spot (capture skill from
 the car: "I just talked to an agent at the open house…"), in Weeks 4 and 5 it's the easy way to answer a setup's questions (tap the microphone in the message box and
 say a sentence or two — nobody has to type), and in Week 6 it's how Stacy, the Sales Trainer, runs
-in the car: voice mode is NOT in Cowork, so the member sets her up once in the Claude app (two
-minutes, printed at the close of the Week 6 sitting): a Project called Stacy in the Chat tab → add
-the card "Stacy — [Name]'s Sales Trainer" (a document the sitting saves to Drive → 05 · Offer) →
-paste the printed instructions into the Project's instructions → pick Opus or Sonnet (voice doesn't
-run on Fable) → tap the sound-wave icon and say "train me" — Stacy plays the agent, they answer out
-loud, she scores and makes them say it again; at "stop" she gives one sentence to repeat back in
-Cowork ("log my training — …") that writes the scores to their Brain. Talking is an input method;
-the same brain and rules apply. The Claude app never runs a plugin or writes the Brain — the card is
-what it reads; it is re-rendered when the member's work-on list changes (never after every round), so the
-member swaps in the new one then.
+in the car: inside the member's ONE Cowork project (the Agent Attraction project from Week 1), after
+two project steps the Week 6 close gives, once: Context → Add the card "Stacy — [Name]'s Sales
+Trainer" (a document the sitting saves to Drive → 05 · Offer); Instructions → Edit, paste the printed
+Stacy block under the seatbelt. Then a new chat, the sound-wave icon, "Stacy, train me" — Stacy plays
+the agent, they answer out loud, she scores and makes them say it again; at "stop" she gives one
+sentence to type back in a chat ("log my training — …") that writes the scores to their Brain. Why
+it works: a voice session loads no plugin skills but reads the project's Instructions and Context —
+"no skills in this session" there is normal. Talking is an input method; the same brain and rules
+apply. A voice session never runs a plugin or writes the Brain — the card is what it reads; it is
+re-rendered when the member's work-on list changes (never after every round), so the member swaps the
+new one into Context then. (Verified live by the owner, 2026-11-23.)
 (Which surfaces have voice mode today: fetch the mapped voice article live, then guide.)
 
 ## 2. The house metaphor (how the pieces fit)

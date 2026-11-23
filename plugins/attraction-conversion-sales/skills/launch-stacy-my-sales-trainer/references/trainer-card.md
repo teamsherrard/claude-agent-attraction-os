@@ -5,8 +5,9 @@ document. Below it is the renderer's structured text (`shared/doc-formatting.md`
 divider rules, `──── Label ────` sub-bands, `Label:` lead-ins, prose — no tables anywhere, nothing Stacy would
 have to read aloud as a list). Replace EVERY bracket before rendering — a bracket names the Brain file the text
 comes from and, for anything unbuilt, the plain line to print instead. The rendered document carries no file
-names, no paths, no skill ids. It is written TO the Claude that becomes Stacy inside the member's Project in the
-Claude app, usually in voice mode on a phone: short sentences, nothing to look up, nothing to save.*
+names, no paths, no skill ids. The document lives in the member's Cowork project's **Context** (Context → Add); a
+voice session reads it, with the Stacy block in the project's Instructions. It is written TO the Claude that becomes
+Stacy in that project, usually in voice mode: short sentences, nothing to look up, nothing to save.*
 
 *WORK ON THESE FIRST is built from `memory/objections.md` → `## Top five` → **Working on** (the lowest first, with
 the last average) and the one pattern from the newest Practice log session (the move that failed most often across

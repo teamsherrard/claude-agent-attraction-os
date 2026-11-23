@@ -5,9 +5,13 @@ the Brain-first contract even in freestyle projects where no skill gets invoked.
 layer** — the plugin's hook + skills are the real system; when skills are available, they win.
 
 **How to deliver it (setup's close does this; brain-health may offer it too):** show the block in a copyable
-code fence, with this one-liner: *"This is your project seatbelt — the system works without it, but pasting
-this into any project's **Project Instructions** guarantees every chat there loads your Agent Attraction Brain
-first, even when you're just freestyling. Takes 10 seconds per project."*
+code fence, told not asked, with this in front of it: *"Make ONE Cowork project for this program — call it
+Agent Attraction — and run every week's sitting in it. Paste this seatbelt into its **Instructions** (panel on
+the right → Instructions → Edit). Then every chat in that project loads your Agent Attraction Brain first, even
+when you're just freestyling."* (The owner's one-project ruling, 2026-11-23, verified live: Instructions = this
+seatbelt; Context, Memory and folders stay empty in Week 1 — a copy of the Brain goes stale.)
+
+Week 6 appends the Stacy block under this seatbelt (the Conversion & Sales plugin prints it).
 
 **Versioning:** the trailing `aa-v1` stamp identifies which paste a member has (their pasted copy freezes; this
 file updates with the plugin). If the block changes, bump the stamp and mention it in release notes so support
