@@ -2,6 +2,10 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.44.9] — 2026-11-23
+
+**The doorway to Stacy, stated honestly (Conversion & Sales 0.2.9 · Support 0.2.21).** The owner's live test: `/stacy-sales-trainer` runs Stacy perfectly (introduction, Kayla, the first question); a spoken "Launch Stacy…" does not reliably reach the skill, and Cowork's voice neither starts a skill nor reads its reply aloud. So the close, the trainer and the Support desk now say it the way it works: **in Cowork, type / and choose stacy-sales-trainer** (text); **to hear Stacy out loud, on the computer or the phone, the Claude app's Chat tab** — a Project called Stacy with her card and the Project paste, then the sound-wave icon and "train me"; "log my training" back in Cowork. The phrases stay as best-effort triggers.
+
 ## [0.44.8] — 2026-11-23
 
 **The trainer skill is named after what members say: `stacy-sales-trainer` (Conversion & Sales 0.2.8).** The owner's probe settled it: all ten skills load in Cowork, and Cowork shows Claude the skill NAMES only — descriptions are not in front of it when it decides. "Launch Stacy, my sales trainer" had nothing to match; "launch my conversion system" matched `cv-setup` through the plugin's name. The trainer skill (formerly cv-trainer) is renamed `stacy-sales-trainer` (folder and `name:`), every reference updated; the plugin description ends with the phrase to say. Lesson for every plugin in this marketplace: a skill's folder name must carry the member's phrase — the description alone does not fire it in Cowork.
