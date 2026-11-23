@@ -1,48 +1,37 @@
 ---
 name: studio-setup
 description: >-
-  Setup for the AI Editing Studio. The first skill a real estate agent runs. Connects Riverside,
-  the main path (records, edits, publishes; Cowork, the web, the desktop app; Grow plan) in two
-  clicks with no key, then pulls the agent's brand from their Realtor AI Brain, writes it where
-  the engine needs it, picks the caption look, registers the Video Brand Kit cards, sets the
-  posting route, and gets them ready to edit with no technical setup. The optional second
-  engine, Instagram's free Edits app for Mac (no per-edit fees), is set up only from the Code
-  tab of the Claude desktop app on that Mac in a guided five-minute install. Stock B-roll works
-  out of the box; free stock keys are OPTIONAL. Trigger on: "set up my video editor", "set up my
-  video studio", "set up riverside", "connect riverside", "set up edits", "set up instagram
-  edits", "connect edits", "switch my editor to edits", "get me started editing", "onboard me to
-  the editor", "register my video brand kit", or any first-run request for the editor.
+  Setup for the AI Editing Studio. The first skill a real estate agent runs. Connects Riverside
+  (records, edits, publishes; Cowork, the web, the desktop app; Grow plan) in two clicks with no
+  key, then pulls the agent's brand from their Realtor AI Brain, writes it where the editor needs
+  it, picks the caption look, registers the Video Brand Kit cards, sets the posting route, and
+  gets them ready to edit with no technical setup. Stock B-roll works out of the box; free stock
+  keys are OPTIONAL. Trigger on: "set up my video editor", "set up my video studio", "set up
+  riverside", "connect riverside", "get me started editing", "onboard me to the editor",
+  "register my video brand kit", or any first-run request for the editor.
 ---
 
 # AI Editing Studio — Setup
 
-**Riverside is the main path** (Cowork, the web, the desktop app) and is set up first. **Instagram Edits is the optional second engine** for Mac users, set up and used only from the Code tab of the Claude desktop app on that Mac — it is included in their plan, nothing extra to buy.
+**Your editing runs in Riverside** (Cowork, the web, the desktop app) — connect it and we're set. One editor, never a choice to make.
 
 Goal: get the agent editing in about five minutes, with the **fewest possible steps**. Read the Realtor AI Brain first (`<Brain home>/`) so you never ask for anything it already knows. One step at a time, plain language, friendly. Follow `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
 
-**The config file `<Brain home>/editor/config.json` may already exist from an earlier editor setup.** If it does, you only ADD the engine block (`riverside` or `edits`) and fill anything blank — never overwrite their brand, CTA, or caption choice. Template: `config/editor-config.example.json`.
+**The config file `<Brain home>/editor/config.json` may already exist from an earlier editor setup.** If it does, you only ADD the `riverside` block and fill anything blank — never overwrite their brand, CTA, or caption choice. Template: `config/editor-config.example.json`.
 
 ## Step 0 — Pull the Brain, then check if they're already set up (do this FIRST)
 
 Cowork wipes the local sandbox between sessions, so the Brain (and the editor config inside it) lives in **Google Drive**. Before anything else:
 
 1. **Pull the Brain down first** — run the Brain sync skill (`attraction-brain-sync` or `realtor-brain-sync`, per the Brain-home rule in `house-rules.md`) (or pull the Brain folder from Drive). **If no Brain exists in Drive yet (a brand-new agent), skip the pull and continue.**
-2. **Idempotent re-run check.** After the pull, look for `<Brain home>/editor/config.json` and its `default_engine`. **Riverside: a filled `riverside.studio_id` AND `platform_list_studios` returns that studio = already set up. Edits: `edits.bridge_installed: true` AND, in the Code tab, `/usr/bin/python3 -m insta_edits doctor` all ✓ = already set up (in Cowork the block alone counts: Edits is used from the Code tab).** Say warmly, naming what is connected: *"Good news — you're already set up and connected to Riverside. Want me to change anything, or shall we edit?"* Do **not** re-run the questionnaire and **never** overwrite a good config. If they name ONE thing to change, touch **only that section** and save.
-3. Only if there's **no** engine block (or the engine's health check returns a real error) do you run the full setup below. "Switch my editor to Edits/Riverside" = run Step ½ and Step 1 for the new engine only; everything else stays.
+2. **Idempotent re-run check.** After the pull, look for `<Brain home>/editor/config.json`. **A filled `riverside.studio_id` AND `platform_list_studios` returns that studio = already set up.** Say warmly, naming what is connected: *"Good news — you're already set up and connected to Riverside. Want me to change anything, or shall we edit?"* Do **not** re-run the questionnaire and **never** overwrite a good config. If they name ONE thing to change, touch **only that section** and save.
+3. Only if there's **no** `riverside` block (or the health check returns a real error) do you run the full setup below.
 
-## Step ½ — The engine (Riverside is the main path)
+## Step ½ — The editor (one, stated, never asked)
 
-Two engines, same editor, same brand, same craft. **Riverside is the main path**: it works from Cowork, the web and the desktop app, it records, edits and publishes, and it connects in two clicks. **Instagram Edits is the optional second engine**: free, runs in Instagram's Edits app on the agent's Mac, and is driven only from the Code tab of the Claude desktop app on that Mac (the same app, the same plan, nothing extra to buy) after a guided five-minute install. Decide from where they are:
+There is one editor, Riverside, on every surface (Cowork, the web, the desktop app). Never ask which editor. Say it in one line — *"Your editing runs in Riverside — connect it and we're set."* — and write `default_engine: "riverside"`.
 
-- **In Cowork, on the web, on an iPad, on Windows — anywhere but the Code tab on a Mac:** set up **Riverside** (Step 1A) without asking. Once it is connected, mention Edits ONCE, in one line: *"There's also a free option, Instagram's Edits app, for Mac users who use the Code tab of this app. Whenever you want it, open the Code tab on your Mac and say 'set up Instagram Edits' — I'll walk you through it there."* `default_engine: "riverside"`.
-- **In the Code tab on a Mac:** ask the one question, recommendation first: *"Two ways to edit: your Riverside account (recommended — works everywhere, records and publishes too) or Instagram's free Edits app on this Mac. Riverside, Edits, or both?"* Riverside → Step 1A. Edits → Step 1B. Both → 1A then 1B; `default_engine` stays `"riverside"` unless they say Edits should own a plain "edit my video".
-- **Someone in Cowork asks for Edits** ("set up edits", "edit this in Edits"): never try — Edits can only be reached from the Code tab on the Mac it runs on. Say: *"Edits runs from the Code tab of this same Claude app on your Mac — it's included in your plan, nothing to buy. Open the Code tab (left sidebar → Code), pick any folder when it asks, and say 'set up Instagram Edits'. I'll walk you through it there in about five minutes. Here, I'll edit in Riverside."* If Riverside isn't set up either, set it up now.
-
-Write `default_engine: "riverside"` or `"edits"`. Saying an engine's name in any later request always wins over the config.
-
-## Step 1 — Connect the engine (the only required connection)
-
-### Step 1A — Riverside (the main path)
+## Step 1 — Connect Riverside (the only required connection)
 
 Riverside records, edits, and publishes, and the connection is two clicks. Walk them through it simply, one step a message:
 
@@ -62,22 +51,10 @@ Confirm the connection works: `platform_list_studios`. **Read the result the rig
 ### If they can't connect or find a video — plain-language fixes
 
 - **"Is Riverside switched on in the mode you're in — not just the other one?"** The #1 cause.
-- **"Is the video actually in your Riverside project?"** This engine doesn't import from links. They upload it once in the Riverside dashboard (drag onto the project page) or record straight into Riverside. Big 4K files are fine there.
+- **"Is the video actually in your Riverside project?"** Riverside doesn't import from links. They upload it once in the Riverside dashboard (drag onto the project page) or record straight into Riverside. Big 4K files are fine there.
 - **"Has it finished uploading?"** A recording still marked uploading has no transcript yet — give it a few minutes.
 
 **Tip worth giving them now:** *"The easiest workflow is to record straight into Riverside — then there's nothing to upload and I can start the moment you stop recording."*
-
-### Step 1B — Instagram Edits (the optional second engine; the Code tab on a Mac only)
-
-Run this ONLY in the Code tab (or the terminal) of the Claude desktop app on the agent's Mac. Anywhere else, give the Code-tab line from Step ½ and stop. Everything is free, it takes about five minutes, and only one step needs their hands. Needs an Apple silicon Mac on macOS 15.1 or newer. Open with one line: *"Five small steps; I do four of them. You install Edits and paste one code — that's it."*
-
-1. **Install Edits for Mac** (their hands): *"Download Edits from edits.com/desktop — a direct download, not the App Store — open it, sign in with your Instagram account, and leave it open."* Then: *"In Edits, open Settings, then Automation, and switch on 'Enable Automation Server'. A box called Access token appears, with a Copy button. Leave that window open."* Add: *"Keep Edits open whenever we edit; it's the editor."*
-2. **The bridge** (you do this; it lets Claude see all 274 editing tools, where connecting Edits directly leaves 32): run `pip3 install --user insta-edits`. If the Mac asks to install the "command line developer tools", tell them to click Install and wait, then run it again.
-3. **The access token** (their hands only). Open a terminal tab for them with `/usr/bin/python3 -m insta_edits set-token` typed and waiting. Then, step by step: *"1. In Edits' Automation settings, click Copy next to Access token. 2. Click once inside the black terminal window I opened. 3. Press Cmd-V once, then Return. Nothing appears as you paste — that's on purpose, it's a secret."* The token is like a password: never ask for it in chat and never let them paste it in chat; if it lands in chat anyway, have them click Regenerate in Edits and paste the new one in the terminal.
-4. **Connect and check** (you do this): `claude mcp add --scope user --transport stdio edits -- /usr/bin/python3 -m insta_edits serve`, then `/usr/bin/python3 -m insta_edits doctor`. All ✓ = connected: say *"You're connected to Edits!"* A ✗ on Sign-in = the token was pasted twice or regenerated: run set-token again. A ✗ on Automation server = Edits is closed or the switch is off. The `mcp__edits__*` tools appear in the NEXT Code session; the scripts under `${CLAUDE_PLUGIN_ROOT}/scripts/edits/` work right away.
-5. **Footage folder** (you do this): Edits only reads files under `~/Movies`. Create `~/Movies/edits-footage` and say: *"Drop any video you want edited in here (or give me a Drive link and I'll fetch it)."* Record `edits.footage_dir`, `exports_dir` (`~/Movies/edits-exports`), `cards_dir` (`~/Movies/edits-cards`), `bridge_installed: true`.
-
-Then go on to Step 2 (or back to Step 1A if they chose both). Edits never posts: they share from Edits' share sheet, or the Short-Form System's posting tool takes the export.
 
 ## Step 2 — Brand (pull it, don't ask)
 
@@ -88,9 +65,9 @@ Three Brain states:
 - **(b) Brain present, brand fields EMPTY** → ask only those two essentials.
 - **(c) Brain populated** → pull silently, confirm in one line ("Using your purple + gold brand").
 
-**Map the font to the engine.** Riverside serves a fixed set of families named with their weight (`Poppins ExtraBold`, `Inter Bold`, `Montserrat`, `Sora SemiBold`, `Oswald`, `DM Mono`, `Merriweather`…). Pick the nearest to the Brain's heading font and store THAT in `brand.caption.font` and as the card font — never a font Riverside can't render. On Edits, captions use the chosen caption style's own face (`edits.caption_style`, default `Word Highlight Box`), and cards use the system font or a brand font the agent has installed on the Mac (`importAccountFont`); store the PostScript name in `brand.fonts.heading` only when it is installed.
+**Map the font to the engine.** Riverside serves a fixed set of families named with their weight (`Poppins ExtraBold`, `Inter Bold`, `Montserrat`, `Sora SemiBold`, `Oswald`, `DM Mono`, `Merriweather`…). Pick the nearest to the Brain's heading font and store THAT in `brand.caption.font` and as the card font — never a font Riverside can't render.
 
-### Step 2a — Write the brand into their Riverside studio (once; Riverside engine only — on Edits skip to Step 2½)
+### Step 2a — Write the brand into their Riverside studio (once)
 
 `editing_get_brand(studioId)` — if the kit is empty, offer in one line: *"Want me to put your colours and logo into your Riverside brand kit so every video picks them up automatically?"* On yes:
 - Logo: if the Brain's logo PNG is reachable and a shell exists, upload it (`media_create_media_upload` → `curl -T` → `media_finalize_media_upload`); otherwise ask them to drop it into Riverside's media panel and find it with `media_list_media`. Store `brand.logo_media_id`.
@@ -98,8 +75,6 @@ Three Brain states:
 - On `FAILED_PRECONDITION` / feature-disabled: say *"Your plan doesn't let me write the brand kit from here — no problem, I'll style everything directly from your brand."* Set `riverside.brand_kit_written: false`. Never retry.
 
 ## Step 2½ — Video Brand Kit (register it if they have one)
-
-**On Edits:** the kit files have to be ON THE MAC, under `~/Movies`. Make `~/Movies/edits-cards/kit/` and get the kit into it: if Drive is connected and the files can be fetched from `02 · Brand/Video Brand Kit/`, do it; otherwise say, in one line, *"Download your Video Brand Kit (the 'Download the kit' button in Claude Design, or the folder in your Drive) and unzip it into `~/Movies/edits-cards/kit` — tell me when it's there."* Then record each file's path in `brand.assets.*` under the same keys as below (`hook_9x16`, `cta_9x16`, `emphasis_9x16`, `cta_pack.<ask>_9x16`, `icons_dir`…), write the 9:16 zones from the spec as `brand.assets.zones.hook_9x16 = {"y": <zone centre ÷ 1920>, "max_chars": <the budget>}` (same for `emphasis_9x16`; kit v3 = 0.13 / 20), and skip every media-id step below. Edits places transparent full-frame PNGs with `addOverlay` as they are, and the reel script (`scripts/edits/build_reel.py`) reads `brand.assets` itself: the hook banner with the words typed into its zone, the CTA banner held to the last frame, the emphasis panel on pop-ups. No kit = cards are rendered natively (`scripts/edits/render_card`).
 
 If Drive is on, look for the agent's **Video Brand Kit** in `02 · Brand/Video Brand Kit/` (canonical files, kit v3: `hook-16x9.png`, `hook-9x16.png`, `cta-16x9.png`, `cta-9x16.png`, `lower-third-16x9.png`, `emphasis-16x9.png`, `emphasis-9x16.png`, `end-screen.png`, the `icons/` folder, the eight-variant CTA pack `cta-{subscribe,comment,guide,call,book,dm,link,follow}-{16x9,9x16}.png` (registered into `brand.assets.cta_pack`), optional `lower-third-9x16.png`, `end-card-16x9.png`, `end-card-9x16.png`, `animated/end-card-*.mp4`, `logo-sting.mp4` at the kit root, and per-member strips `lower-third-16x9-<firstname>.png` (registered under `brand.assets.members.<firstname>`), plus the `video-brand-spec` doc. `preview-*.png` (including `preview-cta-pack-16x9.png`) are review sheets and `end-screen.png` is a YouTube Studio asset: neither is placed on a timeline, so record the end screen's path and skip the previews. The spec to transcribe is `video-brand-spec.md` in the same folder — the designed `video-brand-spec.png` is for people). **Sanity-check the kit before registering:** a `hook-*`, `emphasis-*`, `lower-third-*`, or `cta-*` file that is fully opaque (no transparent pixels) is not an overlay — either an old-style slate, or the kit's design-time stage was left on at export. Say so in one line, *"These files aren't see-through. In Claude Design, switch the 'Show stage' tweak OFF and export again — or rebuild them with the Video Brand Kit v3 skill if they're old full-screen cards"*, and never place a full-screen card over their face.
 
@@ -116,10 +91,10 @@ If Drive is on, look for the agent's **Video Brand Kit** in `02 · Brand/Video B
 One at a time, each with a recommended default:
 
 1. **Where do you post?** (YouTube / Instagram / TikTok / Facebook / LinkedIn) → default aspect ratios AND which channels to check for publishing.
-2. **Do you have your own footage?** A Drive folder of reusable B-roll, clips already in Riverside's media panel (Riverside) or a folder under `~/Movies` (Edits), and/or uploads per video. Get the Drive folder name if any. (`${CLAUDE_PLUGIN_ROOT}/shared/footage-intake.md`)
-3. **Caption look** for shorts → Riverside: show the named looks in `${CLAUDE_PLUGIN_ROOT}/shared/caption-style.md` in one line each; save the pick (`caption_style` + `brand.caption` + `style_pack`). Edits: offer three catalog styles in one line (Word Highlight Box, bold boxed word, the default · Word Highlight, lighter · Simple, calm) and save the pick to `edits.caption_style`; the accent colour comes from the brand.
-4. **Publishing** → confirm they want to approve before anything posts (recommended yes). Then set the ONE posting route (`publish_route` in the config): if the Short-Form System already posts through Metricool / GoHighLevel / Buffer, keep that for reels (`"shortform-tool"`) and use Riverside for YouTube long-form; otherwise `"riverside"` for everything. **On Edits the Studio never posts:** `publish_route` is `"shortform-tool"` when that tool is connected, else `"manual"` (they share from Edits' share sheet); say so in one line. One route per post, never both (`${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md`). Riverside only: then check `social_get_connected_platforms(studioId)`: list what's connected in plain words ("YouTube — Mike Sherrard Real Estate; Instagram — @mikesherrard"), store the account ids in `riverside.publish_accounts`. Nothing connected → *"When you want me to post for you, connect your channels in Riverside (Studio settings → Social) — takes a minute."* Don't block on it.
-5. **Which editor is your default?** Already answered in Step ½ (`riverside` or `edits`). If an older config still says `descript`, overwrite it with the Step ½ answer and mention it in one line.
+2. **Do you have your own footage?** A Drive folder of reusable B-roll, clips already in Riverside's media panel, and/or uploads per video. Get the Drive folder name if any. (`${CLAUDE_PLUGIN_ROOT}/shared/footage-intake.md`)
+3. **Caption look** for shorts → show the named looks in `${CLAUDE_PLUGIN_ROOT}/shared/caption-style.md` in one line each; save the pick (`caption_style` + `brand.caption` + `style_pack`).
+4. **Publishing** → confirm they want to approve before anything posts (recommended yes). Then set the ONE posting route (`publish_route` in the config): if the Short-Form System already posts through Metricool / GoHighLevel / Buffer, keep that for reels (`"shortform-tool"`) and use Riverside for YouTube long-form; otherwise `"riverside"` for everything. One route per post, never both (`${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md`). Then check `social_get_connected_platforms(studioId)`: list what's connected in plain words ("YouTube — Mike Sherrard Real Estate; Instagram — @mikesherrard"), store the account ids in `riverside.publish_accounts`. Nothing connected → *"When you want me to post for you, connect your channels in Riverside (Studio settings → Social) — takes a minute."* Don't block on it.
+5. **Which editor is your default?** Riverside, always (`default_engine: "riverside"`, Step ½). If an older config says anything else (a retired engine), overwrite it and mention it in one line.
 6. **Your call-to-action** → what should viewers do, and the details? Save it so **every video ends with their CTA on screen**.
 
 That's the whole questionnaire.
@@ -131,7 +106,7 @@ That's the whole questionnaire.
 "B-roll is the extra footage we lay over your talking — skylines, homes, neighbourhoods."
 - **Built in, nothing to do:** Riverside's own stock library + your own footage. Enough to start.
 - **Optional free upgrades:** Pexels, Pixabay, Unsplash, Coverr — each a free key; more sources = less repetition. (`${CLAUDE_PLUGIN_ROOT}/shared/broll-ladder.md`)
-- **Optional swoosh:** *"If you ever want a little 'whoosh' on the zoom-ins, drop any licensed swoosh sound into your Riverside media panel and tell me — I'll use it every time."* Store its media id in `sfx.swoosh_media_id` when they do. **On Edits** the whoosh and the music bed come from Edits' built-in libraries (nothing to add), and a free Pexels key (`edits.pexels_key`) is the one optional upgrade for stock cutaways.
+- **Optional swoosh:** *"If you ever want a little 'whoosh' on the zoom-ins, drop any licensed swoosh sound into your Riverside media panel and tell me — I'll use it every time."* Store its media id in `sfx.swoosh_media_id` when they do.
 
 None of these are required.
 
@@ -139,18 +114,16 @@ None of these are required.
 
 Check `expectations_shown`; if `true`, skip. Otherwise, warmly, in your own words, keeping all of these points:
 
-> "Quick heads-up on what I do: I take your raw video and make it clean, branded, and ready for you to review and post — good audio, captions, your colours, a hook and your call-to-action, a little energy, and (on Riverside) I can post it to your channels when you say go. I'll get you about **80% of the way to polished**; you add the last touches by hand in your editor, free. Think of me as your **in-house editor, not a Hollywood VFX studio**. And you always **review and approve** before anything goes out — and nothing I do ever touches your original recording."
+> "Quick heads-up on what I do: I take your raw video and make it clean, branded, and ready for you to review and post — good audio, captions, your colours, a hook and your call-to-action, a little energy, and I can post it to your channels when you say go. I'll get you about **80% of the way to polished**; you add the last touches by hand in your editor, free. Think of me as your **in-house editor, not a Hollywood VFX studio**. And you always **review and approve** before anything goes out — and nothing I do ever touches your original recording."
 
 Then set `expectations_shown: true`.
 
 ## Step 6 — Save and hand off
 
-Write the settings to `<Brain home>/editor/config.json` (template: `config/editor-config.example.json`) — `default_engine`, the engine block (`riverside` or `edits`), the `brand` block, `caption_style`, `publish_route`, `publish`, `expectations_shown`. **Then PUSH the Brain back up to Drive** via the Brain sync skill (per the Brain-home rule in `house-rules.md`) if Drive is connected; if not: on a machine with a persistent disk, say that settings are local to this machine until Drive is connected; in Cowork, say that they will be lost when the session ends and connect Drive now.
+Write the settings to `<Brain home>/editor/config.json` (template: `config/editor-config.example.json`) — `default_engine`, the `riverside` block, the `brand` block, `caption_style`, `publish_route`, `publish`, `expectations_shown`. **Then PUSH the Brain back up to Drive** via the Brain sync skill (per the Brain-home rule in `house-rules.md`) if Drive is connected; if not: on a machine with a persistent disk, say that settings are local to this machine until Drive is connected; in Cowork, say that they will be lost when the session ends and connect Drive now.
 
 Then confirm in one friendly line:
 
 > "You're all set. Whenever you want to edit something, just say **'edit my video'** — I'll take it from there."
-
-If Edits was set up too, add: *"For Edits, say it here in the Code tab: 'edit my video in Edits'."*
 
 Route future requests through `studio-navigator`.

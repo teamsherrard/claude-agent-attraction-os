@@ -16,16 +16,12 @@ description: >-
 
 One job, done well. Run the craft contract (`${CLAUDE_PLUGIN_ROOT}/shared/craft-contract.md`), and do the work from this skill's one reference: **`${CLAUDE_PLUGIN_ROOT}/shared/sections.md`**. Respect the ownership rules in `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md` and the house rules in `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
 
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the Direction, transcript read, section map paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`.
-
 ## The job
 
 1. Run after the cut is locked; if it is not, say the times are on the current cut and will be redone.
 2. Find the section starts from the transcript rows (playable time), with the hook and the CTA marked too.
 3. Write the map in 00:00 form with a plain ten-word note per section, into the log and the delivery.
-4. Move any existing markers onto the section starts and add the missing ones, named by the first spoken words, in source time; read the timeline back to confirm. On Edits there are no timeline markers: the section times go into the hand-back only.
+4. Move any existing markers onto the section starts and add the missing ones, named by the first spoken words, in source time; read the timeline back to confirm.
 5. Hand the map to the YouTube System with the one line that starts the SEO Package.
 
 ## Remember

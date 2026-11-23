@@ -1,10 +1,10 @@
-# The AI Editing Studio (Plugin 10) — Riverside or Instagram Edits engine
+# The AI Editing Studio (Plugin 10) — on Riverside
 
-A full-time video editor inside the agent's Claude. They record, say "edit my video," and a **28-skill editing team** takes it from raw footage to a published post — directed, cut, polished, repurposed, and shipped — on the agent's own Riverside account, with no per-edit AI credits. Riverside posts on a yes; on Instagram Edits the agent shares the exported file.
+A full-time video editor inside the agent's Claude. They record, say "edit my video," and a **28-skill editing team** takes it from raw footage to a published post — directed, cut, polished, repurposed, and shipped — on the agent's own Riverside account, with no per-edit AI credits. Riverside posts on a yes.
 
-**Claude edits · the engine renders (Riverside, or Instagram's free Edits app on the agent's Mac) · the agent approves.**
+**Claude edits · Riverside renders · the agent approves.**
 
-One editor, two engines. Riverside is the main path (Cowork, the web, the desktop app); Instagram Edits is the optional second engine for Mac users, set up and driven from the Code tab of the Claude desktop app on that Mac. The agent picks at setup (`default_engine`: `riverside` or `edits`); saying an engine's name in a request always wins. The craft doctrine is identical on both; `shared/edits-engine.md` says how each craft runs on Edits, and `scripts/edits/build_reel.py` runs the whole reel line there in one command.
+One editor, one engine: Riverside, from Cowork, the web and the desktop app. (This marketplace ships the Studio Riverside only; the realtor source carries a second, Mac-only engine that is parked here under `docs/parked/` by the owner's decision of 2026-11-23.)
 
 ## The five stages, 28 skills
 
@@ -32,7 +32,7 @@ One editor, two engines. Riverside is the main path (Cowork, the web, the deskto
 | | `studio-trailer` — Trailer | A 20-second teaser (hook, stake, tease, date card) for the day before, vertical and 16:9 |
 | **5. SHIP** | `studio-check` — Quality Check | Pass / fail with frame evidence before the agent sees it |
 | | `studio-review` — Review and Revise | Finds the one real cause, fixes only that, remembers the preference |
-| | `studio-publish` — Publish | Posts or schedules on the agent's yes (Riverside); on Edits the agent shares the exported file, using the owning plugins' copy |
+| | `studio-publish` — Publish | Posts or schedules on the agent's yes, using the owning plugins' copy |
 | **FRONT DOORS** | `studio-setup` · `studio-navigator` · `studio-longform` · `studio-reel` · `studio-listing` | Onboarding, the plain-English translator and resume, and the three full recipes |
 
 ## How it is built — two layers, one source of truth per craft
@@ -48,33 +48,24 @@ The Studio edits video. It does **not** write marketing. Titles, descriptions, c
 
 ## What it runs on
 
-**Riverside engine:** Riverside Grow or higher (the Riverside connection to Claude is not available on Free or Pro). Editing, AI cleanup, captions, and exports are not metered per edit. Runs in Cowork or the Code tab of the Claude desktop app. In Cowork, Google Drive is required: the sandbox is wiped between sessions and the Brain (settings, checkpoint logs, the library index) lives in Drive and syncs each session.
+Riverside Grow or higher (the Riverside connection to Claude is not available on Free or Pro). Editing, AI cleanup, captions, and exports are not metered per edit. Runs in Cowork or the Code tab of the Claude desktop app. In Cowork, Google Drive is required: the sandbox is wiped between sessions and the Brain (settings, checkpoint logs, the library index) lives in Drive and syncs each session.
 
-**Instagram Edits engine (the optional second engine):** Instagram's free Edits app for Mac (Apple silicon, macOS 15.1+) with its Automation Server on, the free open-source `insta-edits` bridge, and the Code tab of the Claude desktop app (or the terminal) on that same Mac — included in the agent's Claude plan, nothing extra to buy. Riverside is the main path; this engine is optional. No editing subscription and no per-edit fees; the only cost is the agent's Claude plan. Footage lives under `~/Movies`. Not reachable from Cowork's cloud, claude.ai, an iPad or Windows.
-
-Settings for both live in `<Brain home>/editor/config.json`.
+Settings live in `<Brain home>/editor/config.json`.
 
 ## What it cannot do (and says so)
 
-Riverside engine:
 - Transitions, a sound-effect library, and motion graphics are not reachable from the connector. Energy is hard-cut punch-ins (zoomed scenes) and animated card entrances; richer motion is the agent's manual 20% or a designed animated card from Claude Design.
 - A native text card cannot take a brand-coloured panel; the Video Brand Kit PNGs are the premium path.
 - The main recording must be recorded in or uploaded to Riverside (no import by link). Media uploads through the connector are for B-roll, music, and kit assets, 500 MB each.
 - It cannot unpublish. Publishing is gated behind a plain summary and an explicit yes.
 
-Instagram Edits engine:
-- It never posts or schedules: the agent shares from Edits' share sheet, or the Short-Form System's posting tool takes the exported file.
-- No interview layouts, no podcast export, no caption position or size control (captions sit in the lower third in the chosen style). Long-form 16:9 runs on the same tools but is not yet proven end to end.
-- No stock search inside Edits' server: own footage under `~/Movies`, or Pexels downloads with the agent's free key.
-- Only royalty-free library songs render through the automation export; licensed ones play in Edits but export silent, so the music craft checks the licence flag.
-
-Both: it cannot hear or watch playback. It verifies with timeline reads, revision diffs or rendered frames, and the exported file (`shared/frame-qa.md`); audio feel and flow are the agent's call.
+It cannot hear or watch playback. It verifies with timeline reads, revision diffs, and the exported file (`shared/frame-qa.md`); audio feel and flow are the agent's call.
 
 ## Status
 
-- **v0.6.0** — renamed `realtor-ai-editing-studio` (was `realtor-riverside-editor`): one AI editor, two engines. Existing installs: uninstall the old name and install the new one; settings in `<Brain home>/editor/config.json` carry over untouched. Readiness audit of the two-engine design applied.
+- **v0.7.5 (this marketplace)** — Riverside only. The second, Mac-only engine added upstream in v0.5.0 is not shipped to the cohort (owner decision 2026-11-23; parked under `docs/parked/`, re-applied by `scripts/strip-edits-engine.py` after every re-vendor).
 
-- **v0.5.0** — second engine: Instagram Edits for Mac. Setup asks which engine; every skill carries an `## Engine` section; `shared/edits-engine.md`, `edits-tool-map.md`, `edits-catalogs.md`, `edits-quirks.md`, `edits-grade-strategy.md`; `scripts/edits/` (reel builder, driver, card renderer, frame measurer); music audition and Adjust-panel grade from measurements; proven live on a 96-second talking head.
+- **v0.6.0** — renamed `realtor-ai-editing-studio` (was `realtor-riverside-editor`). Existing installs: uninstall the old name and install the new one; settings in `<Brain home>/editor/config.json` carry over untouched.
 
 **v0.4.2 —** setup explains a fully opaque kit file as the kit's "Show stage" left on at export, not only as an old slate.
 

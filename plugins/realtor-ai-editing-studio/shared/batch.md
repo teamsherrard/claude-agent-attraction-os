@@ -1,14 +1,12 @@
 # Weekly batch — one recording in, a week of content out
 
-> **Engines.** This file is the craft rule for both engines; the Riverside calls in it are the Riverside engine's. On the Instagram Edits engine (`default_engine: "edits"`), the same rule is carried out with the moves in `edits-engine.md` § Trailer, repurpose, batch.
-
 The cohort cadence is two long-forms and several reels a week. This runs the whole line from one sentence: *"Batch this week's video."*
 
 ## What one batch produces
 
 1. The **long-form** edit (the long-form recipe, `studio-longform`).
 2. **3 reels** cut from it (default 3, up to 5 — `repurpose.md`).
-3. Optional: the **podcast** audio (`podcast.md`). On Edits skip the podcast step and say so; long-form on Edits is not yet proven: say so and get the yes.
+3. Optional: the **podcast** audio (`podcast.md`).
 4. A **publish plan**: the long-form to YouTube, the reels spread across the week on the slots the Short-Form System gives.
 
 ## Order of work (so a stop never wastes anything)

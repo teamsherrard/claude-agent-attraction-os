@@ -18,10 +18,6 @@ description: >-
 
 One job, done well. Run the craft contract (`${CLAUDE_PLUGIN_ROOT}/shared/craft-contract.md`), and do the work from this skill's one reference: **`${CLAUDE_PLUGIN_ROOT}/shared/final-check.md`**. Respect the ownership rules in `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md` and the house rules in `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
 
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the Quality check paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`. On Edits the measured gates come from `elements`, `getTransformKeyframes` and `captions()`, and the visual gates from `frameSheet` on the exported file.
-
 ## The job
 
 1. Gate 1, compliance, in its three states.

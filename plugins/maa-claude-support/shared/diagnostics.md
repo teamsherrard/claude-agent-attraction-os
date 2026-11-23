@@ -306,7 +306,8 @@ my CEO review". Neither has a task; that is by design, not a failure.
 2. **Is the Riverside connector added and signed in?** Cheap read: list projects/recordings via
    the connector. Auth error → tree #2 step 3 (Connect card, member signs in on Riverside's own
    page). Never a Descript connector — a member mentioning Descript was reading the realtor cohort's
-   material; the MAA editor's main path is Riverside (Instagram's Edits app is an optional second engine, set up from the Code tab).
+   material; the MAA editor is Riverside, and only Riverside (editing in Instagram's Edits app was parked 2026-11-23 —
+   a member asking for it is told it is not part of the program's editor; filming in the Edits app is fine).
 3. **Connected but "can't see my recording"** → the recording is in a different Riverside studio
    or account than the one connected (studios are per-account; ask which login they record under)
    · still processing on Riverside's side (give it time; their dashboard shows status) · the

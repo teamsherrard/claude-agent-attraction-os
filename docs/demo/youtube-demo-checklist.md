@@ -96,7 +96,7 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   Never part of setup.
 - `which videos brought me agents` — the quick read from the Brain's ledgers, the source named in one line.
 - `my YouTube scheduled tasks` — the one workflow (the Monday Kickoff) and its state, the email note included.
-- `edit my YouTube video` — hands over to the AI Editing Studio (its own plugin: Riverside, or Instagram's Edits app on a Mac); the YouTube plugin never edits, uploads or posts.
+- `edit my YouTube video` — hands over to the AI Editing Studio (its own plugin: Riverside only — never Instagram's Edits app, which is for filming); the YouTube plugin never edits, uploads or posts.
 
 ## What the demo must NOT show
 - "Week 4" for anything YouTube · PARTNER/SCALE/GROWTH · "join [brokerage]" as a reason · a compensation figure or an

@@ -10,6 +10,14 @@
 #   3. skills/studio-publish/SKILL.md — the description's tail "; usually reached through studio-navigator" is dropped (≤ 1,024).
 #   2. .claude-plugin/plugin.json — description trimmed to ≤ 1,000 characters (claude.ai refuses plugin updates above 1,024) and the
 #      version bumped one patch above the realtor source (0.5.0 → 0.5.1), equal to the marketplace registry entry.
+#   4. Riverside only — run `python3 scripts/strip-edits-engine.py` after vendoring (the call at the end of this script does it);
+#      the Edits engine (Instagram Edits for Mac, driven from the Code tab) is parked in docs/parked/edits-engine-2026-11-23/
+#      (owner, 2026-11-23: "complicated, probably won't work for most people"). The script deletes the shared/edits-*.md
+#      files and scripts/edits/, sets the config example to Riverside only, removes every member-facing Edits-engine
+#      passage by asserted exact-string replacement, rewrites plugin.json (description, keywords, version 0.7.5), and exits 1
+#      the moment an anchor is missing, so a re-vendor that changed the upstream text is caught, never half-stripped.
+#      Members FILMING on their phone in the Edits app (the teleprompter) is a different thing and stays. To ship the
+#      engine again, drop this patch (see the parked folder's README).
 set -euo pipefail
 SRC="${1:-/Users/riyabidani/Downloads/realtor-ai-brain/plugins/realtor-ai-editing-studio}"
 cd "$(dirname "$0")/.."
@@ -27,3 +35,6 @@ for f in sorted(glob.glob("plugins/realtor-ai-editing-studio/skills/*/SKILL.md")
     n=len(" ".join((m.group(1) if m else "").split()))
     if n>1024: print(f"  TRIM NEEDED (>1024): {f} ({n} chars)")
 PYCHK
+
+# Patch 4 — Riverside only (owner, 2026-11-23). Asserted exact-string strip; exits 1 on a missing anchor.
+python3 scripts/strip-edits-engine.py

@@ -118,7 +118,7 @@ Two footnotes:
 Claude's paid plan is the only REQUIRED subscription. Everything else is bring-your-own and
 optional by design:
 
-- **Riverside** — the AI Editor runs on your own Riverside account (Week 4) — the main path; or, from the Code tab of the Claude app on a Mac, Instagram's free Edits app, no account to pay for (Q81)
+- **Riverside** — the AI Editor runs on your own Riverside account (Week 4, Grow plan or higher) — the only editing engine in this program (Q81; editing in Instagram's Edits app is not part of it — Q85)
 - **ManyChat** — the comment-to-DM sequences import into your own account; the free plan first
 - **Metricool** — your posts go out through it from Week 4; free to start (copy-paste only until it is connected)
 - **Your CRM** — GoHighLevel or Follow Up Boss if you have one; Google Sheets is the free option
@@ -239,8 +239,8 @@ by a stopped chat. Re-open with "edit my reel" and name the recording. Can't see
 Nine times in ten it's a different Riverside studio or login than the one you connected, or it's
 still processing on Riverside's side. Say "help, Riverside can't see my recording" and I'll check
 the connection. (No Descript anywhere in this system — if a video mentions it, that's the realtor
-cohort's editor.) If you chose Instagram's Edits app instead of Riverside, your project lives in
-that app on your Mac — see Q81.
+cohort's editor.) Editing inside Instagram's Edits app is not part of this program (Q85) — Edits is where
+you film, Riverside is where Claude edits.
 
 **Q21. The content doesn't sound like me.**
 That's a Brain depth issue, not a broken skill — the voice files are thin. Two fixes, both fast:
@@ -600,7 +600,7 @@ Straight answer.
 
 - Thumbnails: you make them in Higgsfield, from the sheet your YouTube plugin writes for each video (Week 5 — Q64).
   There is no "employee" to install and no clone step in this OS; nothing here connects to Higgsfield
-- Descript is the REALTOR cohort's editor; yours is the AI Editing Studio (Week 4) — it edits in your own Riverside account, or in Instagram's Edits app from the Code tab on a Mac (Q81)
+- Descript is the REALTOR cohort's editor; yours is the AI Editing Studio (Week 4) — it edits in your own Riverside account, and only there (Q81; not in Instagram's Edits app — Q85)
 - If a playbook page or an older video mentions either, the strategy holds — the tool changed
 
 Next step: nothing to buy. Say "help" if you want me to log the ask for Mike.
@@ -870,28 +870,22 @@ replace the ones you uploaded. One more thing you may notice: if nobody has join
 win post arrive as ready templates with an empty photo frame — nothing is invented, and they are waiting for the
 day your first agent joins.
 
-**Q81. Do I have to use Riverside to edit? Can I use Instagram's Edits app? (Week 4)**
-Riverside is the main path: the editor runs on your own Riverside account (Grow plan or higher) from Cowork, the web
-or the desktop app, and setup connects it in two clicks (Customize → Connectors → Riverside → Connect). Instagram's
-Edits is the optional second engine: a free app for your Mac, with no per-edit fees beyond your Claude plan. It runs
-only from the Code tab of the same Claude desktop app on that Mac — the Code tab is included in your plan, nothing
-extra to buy — so open the Code tab there and say "set up Instagram Edits"; Claude walks you through five small
-steps and does four of them (you install Edits and paste one code into a terminal window, never into the chat). Edits
-will not run in Cowork, on the web or on an iPad; if you ask for it there, Claude tells you how to open the Code tab.
-Edits exports the finished video and never posts it; you share it yourself. Either way the editing rules are the same
-and nothing is published without your yes. To switch engines, say "set up my video editor" again, or name the engine
-in the request ("edit this in Edits"). Don't see this behaviour? Update your plugins (Customize → Plugins) and start a
-new chat. The editor plugin is called "The AI Editing Studio": if your list still shows the old Riverside editor,
-remove it and install the new one once — your saved editor settings stay as they are.
+**Q81. Do I have to use Riverside to edit? (Week 4)**
+Yes — Riverside is the cohort's editor, and the only one. The AI Editing Studio runs on your own Riverside account
+(Grow plan or higher) from Cowork, the web or the desktop app, and setup connects it in two clicks (Customize →
+Connectors → Riverside → Connect). Every change is checkable in your Riverside project and nothing is published
+without your yes. Setup asks you nothing about engines: there is one. (Until 2026-11-23 the plugin also offered
+Instagram's Edits app as an optional second engine from the Code tab on a Mac; Mike parked it — "kind of complicated,
+and it probably won't work for most people." If your editor still asks "Riverside or Edits?", or tells you to open the
+Code tab or paste a code in a terminal, update your plugins (Customize → Plugins) and start a new chat. Q85 has the
+short version.) The editor plugin is called "The AI Editing Studio": if your list still shows the old Riverside
+editor, remove it and install the new one once — your saved editor settings stay as they are.
 
-Your Video Brand Kit (designed in Week 3) works on both engines. On Riverside the cards go into your Riverside media
-once, at setup. On Edits the kit files have to be on the Mac: setup asks you to download the kit (the "Download the
-kit" button in Claude Design, or the folder in your Drive) into the Edits cards folder under Movies, and from then on
-an Edits reel carries your hook banner with your words in it, your CTA banner to the last frame, and your pop-up panel
-— the same designed pieces as on Riverside. (Before Editor 0.7.3 an Edits reel used plain on-brand cards even with a
-kit registered.) Saw "1 with warnings" on the editor plugin under Customize → Plugins? One skill (Energy — the zooms,
-"make it punchier") shipped with a formatting slip and did not install; it is fixed, and the next plugin sync clears
-the warning.
+Your Video Brand Kit (designed in Week 3) goes into your Riverside media once, at setup ("register my video brand
+kit" if you designed it after setup), and from then on every reel carries your hook banner with your words in it, your
+CTA banner to the last frame, and your pop-up panel. Saw "1 with warnings" on the editor plugin under Customize →
+Plugins? One skill (Energy — the zooms, "make it punchier") once shipped with a formatting slip and did not install; it
+is fixed, and the next plugin sync clears the warning.
 
 **Q82. How do I use Stacy, my Sales Trainer — and by voice? (Week 6)**
 Your first round is not in the Week 6 sitting: the sitting ends with your Brain Board and Brain Book links and tells
@@ -959,3 +953,13 @@ objection playbook" rebuilds that one piece under today's date — the newest is
 "on hold" is waiting for your compliance step: "set up my attraction compliance", three minutes.
 
 Next step: open the Enrollment Call and read the card on the last page — that is the whole call in six lines.
+
+**Q85. Can Claude edit my video in Instagram's Edits app? (Week 4)**
+No — not in this program. Your editor is Riverside: Claude edits on your own Riverside account, and that is the only
+engine the AI Editing Studio runs. Instagram's free Edits app is still where you FILM — the teleprompter is built in
+(paste the script, press record, read), which is why your Short-Form and YouTube scripts name it. So: film in Edits,
+edit in Riverside. Nothing to install on a Mac, no Code tab, no code to paste. (Editing inside Edits was an optional
+second engine until 2026-11-23; Mike parked it because it was complicated and would not work for most people. If your
+editor still offers it, update your plugins — Customize → Plugins — and start a new chat.)
+
+Next step: "edit my reel" in a new chat, naming the recording.

@@ -7,7 +7,7 @@ description: >-
   enhance, colour, captions off, B-roll, energy, music, brand graphics, quality check), verifies
   every pass against the timeline, saves one 1080p file, and hands back a review draft plus the
   section map the YouTube System needs to name chapters. Never writes titles, descriptions,
-  chapter names, or tags — the YouTube System owns those. Trigger on "edit my YouTube video", "edit my YouTube video in Edits",
+  chapter names, or tags — the YouTube System owns those. Trigger on "edit my YouTube video",
   "edit my long video", "edit my long-form", "clean up my market update", "full edit on this".
   Resuming a stopped edit ("finish my video") is entered from studio-navigator, which finds the
   log and hands back here in resume mode. For a guest or two-person recording, hand to
@@ -16,11 +16,7 @@ description: >-
 
 # Long-Form Edit — the director
 
-You run the line; the crafts do the work. **Read up front (only these):** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, `${CLAUDE_PLUGIN_ROOT}/shared/dos-and-donts.md`, `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md`, and the pass plan in `${CLAUDE_PLUGIN_ROOT}/shared/riverside-playbooks.md` (Playbook A — tool shapes, time axes, the ≤6-pass plan). Riverside: Playbook A/B in riverside-playbooks.md; Edits: edits-engine.md instead. **Open each craft's reference at the step that uses it, not before.** Compliance is read before any on-screen word (the three-state rule in `${CLAUDE_PLUGIN_ROOT}/shared/final-check.md`: missing or an unfilled placeholder → no claim cards, never a stamped placeholder, deliver safely, nudge once).
-
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the Long-form line on Edits paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`. Long-form on Edits is not yet proven end to end: say so in one line and get the yes before the first cut.
+You run the line; the crafts do the work. **Read up front (only these):** `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, `${CLAUDE_PLUGIN_ROOT}/shared/dos-and-donts.md`, `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md`, and the pass plan in `${CLAUDE_PLUGIN_ROOT}/shared/riverside-playbooks.md` (Playbook A — tool shapes, time axes, the ≤6-pass plan). **Open each craft's reference at the step that uses it, not before.** Compliance is read before any on-screen word (the three-state rule in `${CLAUDE_PLUGIN_ROOT}/shared/final-check.md`: missing or an unfilled placeholder → no claim cards, never a stamped placeholder, deliver safely, nudge once).
 
 ## The line (each step = one craft reference; verify with a revision diff, log, then move on)
 
@@ -50,11 +46,11 @@ After the cut is locked, step 4b (`sections.md`) writes the **section map** (eac
 
 ## Deliver (the review-draft hand-back, `final-check.md` Gate 3)
 
-One message: it is a review draft + the edit link (Riverside) or the exported file path plus the open Edits project (Edits); the spec it hit in one or two lines; the 2–3 things only they can judge (audio feel, flow, anything near the face in motion); the 80/20 line. Then, one line each: the section map is ready for the YouTube System · want reels cut from it (`studio-repurpose`) or a 20-second trailer for the day before (`studio-trailer`)? · want it posted or scheduled (`studio-publish`)?
+One message: it is a review draft + the edit link; the spec it hit in one or two lines; the 2–3 things only they can judge (audio feel, flow, anything near the face in motion); the 80/20 line. Then, one line each: the section map is ready for the YouTube System · want reels cut from it (`studio-repurpose`) or a 20-second trailer for the day before (`studio-trailer`)? · want it posted or scheduled (`studio-publish`)?
 
 ## Resume
 
-`<Brain home>/editor/jobs/rs-<editId>.md`, one line per landed step: `<step> · done · rev <n>`. At the start: log exists → one plain line, run only what is missing. Log missing → `compare_revisions("1", head)` plus a timeline read tell the truth; state it, one-word confirm, rebuild the log. On a `CONFLICT`, follow the one rule in `house-rules.md`. "Still processing" → wait and say so. Edits: the log is `ed-<projectId>.md`; log missing → read `elements`, `captions()` and the exports folder, then `build_reel.py resume`.
+`<Brain home>/editor/jobs/rs-<editId>.md`, one line per landed step: `<step> · done · rev <n>`. At the start: log exists → one plain line, run only what is missing. Log missing → `compare_revisions("1", head)` plus a timeline read tell the truth; state it, one-word confirm, rebuild the log. On a `CONFLICT`, follow the one rule in `house-rules.md`. "Still processing" → wait and say so.
 
 ## Discipline
 

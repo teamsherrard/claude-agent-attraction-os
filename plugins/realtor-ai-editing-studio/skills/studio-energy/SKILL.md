@@ -7,7 +7,7 @@ description: >-
   zoom on each at the format's rate (about one every minute on long-form, one every 15 seconds on
   a reel), sizes each zoom to the strength of the beat, steps back out for reveals, and covers
   every jump cut with a size change. Animated entrances on cards, and a swoosh on each zoom
-  (Riverside: a licensed sound; Edits: built-in effects). Never a tight push on anyone's face.
+  (a licensed sound the agent uploads once). Never a tight push on anyone's face.
   Trigger on: "make it punchier", "add some zooms", "it feels flat", "it looks boring", "add some
   energy", "make it more dynamic", "edit to the emotion", "zoom in when I say something
   important". Part of the POLISH stage; usually reached through studio-navigator or called inside
@@ -17,10 +17,6 @@ description: >-
 # Energy
 
 One job, done well. Run the craft contract (`${CLAUDE_PLUGIN_ROOT}/shared/craft-contract.md`), and do the work from this skill's one reference: **`${CLAUDE_PLUGIN_ROOT}/shared/effects-menu.md`** (the section "Emotion-driven energy"). Respect the ownership rules in `${CLAUDE_PLUGIN_ROOT}/shared/boundaries.md` and the house rules in `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`.
-
-## Engine
-
-Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's name in the request always wins). **`riverside`** (the default): do the work exactly as this skill's reference says. **`edits`** (Instagram Edits for Mac, the optional second engine, driven from the Code tab of the Claude desktop app on the agent's own Mac): the craft rules in this skill's reference still apply, but the moves are the ones in the Energy paragraph of `${CLAUDE_PLUGIN_ROOT}/shared/edits-engine.md`. On Edits a whoosh comes from the built-in sound-effect library, and transitions exist: a 0.2 s dissolve at most, only where two takes jar.
 
 ## The job
 
@@ -32,6 +28,6 @@ Read `default_engine` in `<Brain home>/editor/config.json` (saying an engine's n
 
 ## Remember
 
-Transitions and a sound-effect library are not on the connector (Riverside only; Edits has both); the free "transition" music tracks are stingers, not swooshes. Motion lives in the zooms, the cut covers, and the card entrances.
+Transitions and a sound-effect library are not on the connector; the free "transition" music tracks are stingers, not swooshes. Motion lives in the zooms, the cut covers, and the card entrances.
 
 If they actually want several things, or "make it good," say so and hand to the full edit: `studio-longform`, `studio-reel`, `studio-listing`, or `studio-batch`.
