@@ -184,7 +184,7 @@ for Claude Design, and saves it in your 02 · Brand folder.
    source is the Design Studio release at https://github.com/teamsherrard/claude-agent-attraction-os/releases/latest — the ten numbered zips plus
    `00-START-HERE.md` and `00-agent-attraction-design-system.md`). In claude.ai click **Customize → Skills → Upload a
    skill** and upload the eight Week 3 zips as they are (never unzipped): `01-aa-logo-design.zip` through
-   `08-aa-video-kit-design.zip`; `09` and `10` wait for Week 6. Read `00-START-HERE.md` first — it is the map.
+   `08-aa-video-kit-design.zip`; `09` and `10` wait for a later week. Read `00-START-HERE.md` first — it is the map.
 2. **One project for your brand.** Open Claude Design (claude.ai/design, or a Design canvas in Cowork) and create one project for your brand (any name — your own name works). Run every design skill inside it, always — that is how each skill finds your logo, colours, fonts,
    and headshot.
 3. **Attach the Design System and your three files to every chat:** the **Agent Attraction Design System** file
@@ -353,7 +353,7 @@ screenshots from YouTube Studio instead.
 
 Setup never creates a scheduled task. When you want your Daily Agent Attraction Debrief, say `turn on my daily
 debrief` (the default is 6 pm) — your yes creates it as a scheduled task in Cowork. The AI Admin offers it again on
-its Week 6 card. Nothing is ever created without your yes.
+its card, in a later week. Nothing is ever created without your yes.
 
 **What it does every evening:** reads your calendar and inbox (read-only), your Top 50, your conversations, and your
 scorecard; logs the day's agent conversations; scores the day against your weekly activity target; lists the
@@ -364,7 +364,7 @@ to a new stage on its own.
 - `change my debrief time` · `turn off my debrief`.
 - Run it on demand: `run my debrief` or `what requires my attention today`.
 
-From Week 6 the AI Admin's Morning Brief extends this debrief — it never becomes a second one.
+In a later week the AI Admin's Morning Brief extends this debrief — it never becomes a second one.
 
 ---
 
@@ -398,7 +398,7 @@ owns them and created only with your yes; every one is draft-only.
 | **1** | **Plugin 1 · Agent Attraction Brain** — the Brain chat: four conversations and three voice answers, one question at a time (section 4) | `Set up my attraction brain` | — (your Daily Debrief switches on whenever you say `turn on my daily debrief`) |
 | 1 | **Plugin 2 · MAA Claude Support** | `MAA help` — and, once your Brain is built, `set up MAA support` (two minutes) | — |
 | 1 | **Compliance, when you need it** — paste your brokerage's compliance page link; it reads the rules out for you | `paste my compliance link` | — |
-| **2** | **Your Brain first:** the offer — one card you say yes to, then the Partner Offer document, your why-join-me story, what's free and what costs, and your **Week 3 Kit** (the offer to join you, your digital product, the copy for the Join My Team one-pager, the offer stack, the product mockup, the call deck, the welcome pack, six social posts and every call to action — the file you upload with your guide to Claude Design in Week 3; your guide and page join it in the lead magnet session) — your model, your prospect list, your numbers locked — and the tools conversation (your CRM, your working hours, who you three-way with; your booking link — a free Calendly this week; the Conversion plugin designs the full booking page in Week 6) | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` · `set my attraction goals` · `set up my attraction operations` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
+| **2** | **Your Brain first:** the offer — one card you say yes to, then the Partner Offer document, your why-join-me story, what's free and what costs, and your **Week 3 Kit** (the offer to join you, your digital product, the copy for the Join My Team one-pager, the offer stack, the product mockup, the call deck, the welcome pack, six social posts and every call to action — the file you upload with your guide to Claude Design in Week 3; your guide and page join it in the lead magnet session) — your model, your prospect list, your numbers locked — and the tools conversation (your CRM, your working hours, who you three-way with; your booking link — a free Calendly this week; the booking page itself is part of your Week 2 funnel, built in the lead magnet session, and never redone later) | `build my partner offer` · `learn my brokerage model` · `why join me` · `run my radar` · `build my top 50` · `set my attraction goals` · `set up my attraction operations` | — (the Prospect Radar's news scan runs whenever you say `scan agent movement`; nothing on a timer) |
 | 2 | **Plugin 3 · Lead Magnet** — install this week. One phrase is a complete Week 2 session: it builds your offer first if it isn't built yet (your unique value proposition — named for the outcome it produces, with your own pages on how to create it, where to host it and the words to use), recommends ONE lead magnet built from it (say yes, or ask for the next best), and writes the magnet and its sales funnel outline, then puts both into your Week 3 Kit (the one file for Claude Design in Week 3) — then your bios aligned to the funnel. (Already built your offer with `build my partner offer`? It goes straight to the magnet.) **By the end of this week you have ONE lead magnet, written and designed, with its funnel outline (tangible) — and your unique value proposition broken down: your offer explained in detail and how to create it, its name, the marketing language to use, and where to host it (intangible).** | `launch my lead magnet plugin` | — |
 | 3 | **Design Studio — the offer, guide, page and posts** — Claude Design skills, uploaded, not installed (section 5): your digital product mockup, the offer stack and one-pager, the guide PDF, the opt-in and thank-you pages, the six social posts, the video pop-ups, the call deck and welcome pack — all from your Week 3 Kit and your guide | `design my digital product` → `design my offer kit` → `design my guide pdf` → `design my funnel page` → `design my posts` → `design my pop-ups` | — |
 | **3** | **The brand chat** — a Cowork chat when Week 3 opens: what you already have, then the direction derived from how you talk, then your Design Package brief (section 5) | `my attraction brand direction` | — |

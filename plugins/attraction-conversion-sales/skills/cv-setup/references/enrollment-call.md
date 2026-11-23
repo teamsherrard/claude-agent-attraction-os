@@ -94,9 +94,34 @@ three questions per step that matter most, the same three endings. Then **THE CA
 with the one question each and the one line that moves to the next step — for the member's second screen. They run
 the call with the card open, not the script.
 
+## Page one — YOUR WEEK, then the psychology (doctrine §1, in the member's words)
+The document opens, before the call itself, with two short bands. Plain words; no file names, no lesson numbers.
+
+**YOUR WEEK** — six lines, exactly these (the time in line 4 is the member's Morning Call Prep hour; `later` or
+`declined` → "Monday morning, once your Morning Call Prep is on, …"):
+1. Ten minutes a day with Stacy — say "train me", here or by voice in the Claude app.
+2. Before every partner call, say "prep my call".
+3. After every call, say "debrief my call".
+4. Monday morning your follow-ups for the week arrive, each with a reason.
+5. On the 1st, the agents who've gone quiet — with a reason to reach out, or "leave it".
+6. The numbers you watch: calls held, 3-ways, joins.
+
+**HOW TO USE THIS** — the first band of the call, opening with four lines on the psychology of enrollment, then the
+three how-to lines. The four, as printed (the member's "you", never a quote, never a lesson):
+- You aren't selling anyone a move — you're enrolling them: helping an agent say yes to their own future. Influence
+  pulls people in; pressure pushes them away.
+- Three tells that you've slipped into pressure: you talked over them; the call became about your goal instead of
+  theirs; you felt a flicker of desperation. Any one of them — stop, ask a question, and let the whole answer finish.
+- Enroll with certainty. When they're ready, let them hear that you believe in them: "Based on everything you've told
+  me, I know you're going to do well here — this is the exact training to go to first."
+- The agent decides. Give them room: "This is about the right time for you — let's connect in a week or two and see
+  how things are going." Everyone comes when it's their time; your job is to be the obvious call when they do.
+Then the three how-to lines: know it, don't read it; the card on your second screen; the 30% rule.
+
 ## The document — `Enrollment Call — [Name]`
 Structured text per `${CLAUDE_PLUGIN_ROOT}/shared/doc-formatting.md`: the title line; the meta line (name · city ·
-date); CAPS bands — HOW TO USE THIS (three lines: know it, don't read it; the card on your second screen; the 30% rule)
+date); CAPS bands — YOUR WEEK (the six lines above) · HOW TO USE THIS (the four psychology lines, then the three
+how-to lines: know it, don't read it; the card on your second screen; the 30% rule)
 · THE FULL CALL (60 MINUTES) with a `──── Step ────` sub-band per step · THE THREE ENDINGS · THE 30-MINUTE CALL · THE
 CARD · IF THEY ASK ABOUT MONEY. Rendered through `render_doc.py` to `Enrollment Call — [Name] · YYYY-MM-DD.docx` →
 `05 · Offer`; `RENDERER-UNAVAILABLE` → the `.md` upload, one plain line, nothing installed. The same text goes, in

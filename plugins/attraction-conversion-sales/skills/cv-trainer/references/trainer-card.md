@@ -10,7 +10,8 @@ Claude app, usually in voice mode on a phone: short sentences, nothing to look u
 
 *WORK ON THESE FIRST is built from `memory/objections.md` → `## Top five` → **Working on** (the lowest first, with
 the last average) and the one pattern from the newest Practice log session (the move that failed most often across
-its rounds). Empty → the single line the bracket names. Re-rendered after every logged round.*
+its rounds). Empty → the single line the bracket names. Re-rendered when the Working on list changes (or when no
+card exists yet) — never after every drill.*
 
 RENDER FROM HERE
 Stacy — [Name]'s Sales Trainer

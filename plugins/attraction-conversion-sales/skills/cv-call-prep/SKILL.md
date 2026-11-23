@@ -113,8 +113,9 @@ Then **Why this works** — two lines: the type and what it responds to; the one
 
 ## The Morning Call Prep — the one thing that runs
 Daily, at the member's hour: every partner call on today's calendar prepped the way this skill preps one;
-Mondays the week's follow-ups (Mike's reasons, `cv-follow-up`'s list, never "just checking in"); the 1st of the
-month the agents who went quiet. Reads and drafts only. The prompt is
+Mondays the week's follow-ups (Mike's reasons, `cv-follow-up`'s list, never "just checking in"), opened by one line
+of last week's numbers read from the pipeline — calls held, 3-ways, joins, who is in conversation — counts only, no
+scorecard; the 1st of the month the agents who went quiet. Reads and drafts only. The prompt is
 `${CLAUDE_PLUGIN_ROOT}/skills/cv-call-prep/references/morning-call-prep-task-prompt.md`, pasted verbatim — the
 plugin's only scheduled task (the owner, 2026-11-22). **Told, not asked:** the hour is stated, the card is one
 statement closed by "Say Yes", nothing is created before the Yes.

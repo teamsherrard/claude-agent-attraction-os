@@ -122,7 +122,10 @@ card's Yes), `Partner call length:` from `operations.md` (none → 60); set `Set
 ## Step 3 — Your presentation
 Opens: *"✓ Step 1 of 5 — done. Your enrollment call is written — full and 30-minute, in your voice."* Then *"Okay,
 cool — now your presentation: the bridge from where an agent is to where they want to be, and the three things that
-matter most to [the primary type of agent]."* Read `references/presentation.md` and build it. Compliance `unset` →
+matter most to [the primary type of agent]."* Read `references/presentation.md` and build it. When the Week 3 Kit
+exists (`offer.md → ## Week 3 Kit` at `built`), the one-pager uses the Kit's chapter 7 words for the program and the
+stack — read it, never contradict it — and the document's one design line is the Week 3 pointer ("design my call
+deck"), never a new document. Compliance `unset` →
 the one-pager is built and saved stamped on hold (the reference's rule); nothing is said about it here — the close
 says it once. Render **"Partner Presentation — [Name]"** → `05 · Offer`; fill `## Presentation` (`Status: written
 YYYY-MM-DD` or `hold until compliance YYYY-MM-DD`); `Setup: presentation done`; push.
@@ -181,7 +184,7 @@ sentences at most, never advice → **ONE re-try**: she asks the same question a
 out loud; the question is the stop → **the second score** and what changed, in one breath. One re-try in this
 sitting, never a second; a first answer of eight or better is still tried once ("good — once more, same question").
 She writes both scores to her Practice log and saves the card **"Stacy — [Name]'s Sales Trainer"** to `05 · Offer`
-(her own first-round rule; the card is re-rendered after every logged round from then on); this skill then closes.
+(her own first-round rule; from then on it is re-rendered only when her work-on list changes); this skill then closes.
 Set `Setup: complete YYYY-MM-DD` · `Conversion set up: YYYY-MM-DD`; the sitting's closing push through
 `attraction-brain-sync`.
 

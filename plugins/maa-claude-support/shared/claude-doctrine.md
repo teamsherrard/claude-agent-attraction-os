@@ -38,7 +38,8 @@ run on Fable) → tap the sound-wave icon and say "train me" — Stacy plays the
 loud, she scores and makes them say it again; at "stop" she gives one sentence to repeat back in
 Cowork ("log my training — …") that writes the scores to their Brain. Talking is an input method;
 the same brain and rules apply. The Claude app never runs a plugin or writes the Brain — the card is
-what it reads; it is re-rendered after every logged round, so the member swaps in the new one.
+what it reads; it is re-rendered when the member's work-on list changes (never after every round), so the
+member swaps in the new one then.
 (Which surfaces have voice mode today: fetch the mapped voice article live, then guide.)
 
 ## 2. The house metaphor (how the pieces fit)

@@ -394,7 +394,7 @@ SYSTEMS = [
     ('lead-magnet', 'LEAD MAGNET', 2, 'Your lead magnet and its funnel', 'Plugin 3 · Lead Magnets & Opt-In Funnels'),
     ('short-form', 'SHORT-FORM', 4, 'Your short-form system', 'Plugin 4 · the Short-Form Attraction Engine'),
     ('youtube', 'YOUTUBE', 5, 'Your YouTube system', 'Plugin 6 · the Long-Form Authority Engine'),
-    ('conversion', 'CONVERSION', 6, 'Your conversion system', 'Plugin 7 · Conversion & Sales'),
+    ('conversion', 'CONVERSION', 6, 'Your conversion system', 'Week 6 · Conversion & Sales'),
     ('ai-admin', 'AI ADMIN', 5, 'Your AI Admin', 'Plugin 8 · the AI Admin for agent attraction'),
     ('events', 'EVENTS', 6, 'Your events and workshops', 'Plugin 9 · Events & Workshops'),
 ]
@@ -414,7 +414,7 @@ SYS_ACTIONS = {
     'lead-magnet': [('finish my agent lead magnet', 'Picks up exactly where this campaign stopped.'), ('add my guide to my kit', 'Refreshes the lead magnet chapters of your Week 3 Kit; in Week 3 you upload the kit with your guide.'), ('update my attraction bios', 'Rewrites your bios for every platform; chapter 6 of the kit follows.'), ('deliver my guide', 'The keyword flow for ManyChat, the delivery email, and the story that offers it.'), ('what do I upload to Claude Design', 'Hands back your Week 3 Kit and names the guide beside it.')],
     'short-form': [('set up my attraction short-form', 'The whole Week 4 journey in one sitting: your profiles and keywords confirmed, your Game Plan, your board, your workflows, your first Reel.'), ('run my week plan', 'This week\u2019s posts drafted onto your board, any day.'), ('script my attraction reels', 'The next Reels from your calendar, hook three ways.'), ('today\u2019s stories', 'Three stories you can post in five minutes.'), ('how\u2019s my content doing', 'What started agent conversations, and the one change.'), ('my attraction workflows', 'See, pause or switch on any of your scheduled workflows.')],
     'youtube': [('set up my YouTube for agents', 'The whole Week 5 journey in one sitting: your channel, your Game Plan, the YouTube tab on your board, your workflows, your first video.'), ('run my attraction kickoff', 'This week\u2019s video drafted onto its card, any day.'), ('make my attraction video: [title]', 'One chat, one video: the script in your voice, your thumbnail sheet for Higgsfield, your title and description, and its card filled.'), ('script my first three videos', 'Three scripts in one sitting, so you can film your first batch in one day.'), ('my video is published', 'After the six publish steps on its card: the card moves to Published.'), ('repurpose my attraction video', 'Three short clip scripts from the video, queued for your Reels.'), ('which videos brought me agents', 'The quick read from your own ledgers.'), ('connect my YouTube numbers', 'A separate two-minute step: your real view counts, read for you.'), ('my YouTube scheduled tasks', 'See, pause or switch on either of your two workflows.')],
-    'conversion': [('launch my conversion system', 'The whole Week 6 journey in one sitting: your enrollment call script, your presentation, your objection playbook, your Morning Call Prep, your first training round.'), ('train me', 'The Sales Trainer plays the agent, throws objections and scores you \u2014 here, or by voice in the Claude app.'), ('prep my call', 'The one-page read before a partner call.'), ('debrief my call', 'Paste your notes or transcript: an honest audit and your next move.')],
+    'conversion': [('launch my conversion system', 'The whole Week 6 journey in one sitting: your enrollment call script, your presentation, your objection playbook, your Morning Call Prep, your first training round.'), ('train me', 'The Sales Trainer plays the agent, throws objections and scores you \u2014 here, or by voice in the Claude app.'), ('prep my call', 'The one-page read before a partner call.'), ('debrief my call', 'Paste your notes or transcript: an honest audit and your next move.'), ('follow up with [name]', 'One real reason to reach out and the draft, in your voice.')],
     'ai-admin': [('set up my attraction admin', 'Reads your Brain, calendar and inbox and hands you the first brief before it asks anything.'), ('my morning brief', 'On demand, any day.')],
     'events': [('plan my agent event', 'One recommendation with the why; it resumes wherever an event already stands.')],
 }
@@ -514,6 +514,57 @@ def build_inner(ctx):
         meta = ['Section %d of 9 in your Brain Book' % n, source] + (['Demo'] if demo else [])
         pages.append({'id': pid, 'label': label, 'title': title, 'tagline': tag, 'meta': meta, 'feeds': feeds, 'actions': [{'p': p, 'n': q} for p, q in actions], 'body': body})
     return pages
+
+def parse_conversion(files, demo):
+    """The conversion page's facts, read from the Brain (never the whole script): the four documents and their built
+    dates, the Morning Call Prep's state, and the Top five's Working on list. Plain strings only — no file names, no ids."""
+    cv = files.get('identity/conversion.md', '')
+    c = {'docs': [], 'card': None, 'prep': ('soon', ''), 'work': []}
+    for sec, label in (('Enrollment Call', 'Your enrollment call — full and 30-minute, in your voice'),
+                       ('Presentation', 'Your presentation — the three things that matter most, never every feature'),
+                       ('Objection Playbook', 'Your objection playbook — the fifteen in your words')):
+        st = kv(md_section(cv, sec), 'Status').lower()
+        d = date_in(st)
+        if 'hold' in st:
+            c['docs'].append((label, 'done' if d else 'soon', (('built ' + long_date(d) + ' · ') if d else '') + 'on hold until your compliance basics are set'))
+        elif st.startswith('written') or d:
+            c['docs'].append((label, 'done', ('built ' + long_date(d)) if d else ''))
+        else:
+            c['docs'].append((label, 'soon', ''))
+    top = md_section(files.get('memory/objections.md', ''), 'Top five')
+    m = re.search(r'voice card rendered:\s*(20\d\d-\d\d-\d\d|not yet)', top, re.I)
+    d = date_in(m.group(1)) if m else None
+    c['card'] = ('Stacy, your Sales Trainer — her card for the Claude app', 'done' if d else 'soon', ('built ' + long_date(d)) if d else 'with your first round')
+    blk = list(re.finditer(r'^## Conversion & Sales \(Week \d\)[^\n]*\n((?:(?!^## ).*\n?)*)', files.get('config.md', ''), re.M))
+    if blk:
+        b = blk[-1].group(1)
+        task = clean(kv(b, 'Morning Call Prep task'), demo); when = clean(kv(b, 'Morning Call Prep time'), demo)
+        tl = task.lower()
+        if task and '[' not in task and tl not in ('declined', 'later', 'not yet'):
+            c['prep'] = ('done', 'on' + ((', ' + when) if (when and '[' not in when) else ''))
+        elif tl == 'declined':
+            c['prep'] = ('soon', 'switched off — say “turn on my morning call prep” to bring it back')
+        elif tl == 'later':
+            c['prep'] = ('soon', 'ready when you are — say “turn on my morning call prep”')
+    wm = re.search(r'\*\*Working on:\*\*\s*(.*?)(?=\n\s*\*\*|\n## |\Z)', top, re.S)
+    if wm and '[' not in wm.group(1):
+        items = [clean(x, demo).strip(' ·;,') for x in re.split(r'(?:^|\s)\d+\.\s+', wm.group(1)) if x.strip()]
+        c['work'] = [i for i in items if i][:5]
+    return c
+
+def conversion_built_body(ctx):
+    """The conversion page once Week 6 has run: where each piece stands, what to work on, what to say."""
+    cv = parse_conversion(ctx['files'], ctx['demo'])
+    rows = cv['docs'] + [cv['card'], ('Your Morning Call Prep — every call on today’s calendar prepped; Mondays your follow-ups; on the 1st, anyone who went quiet',) + cv['prep']]
+    body = '## Where it stands\n' + status_rows(rows)
+    if cv['work']:
+        body += '\n\n## Work on these\n' + '\n'.join('• ' + w for w in cv['work'])
+    body += ('\n\n## Say it\n'
+             '• “train me” — ten minutes with Stacy, here or by voice in the Claude app.\n'
+             '• “prep my call” — the one-page read before a partner call.\n'
+             '• “debrief my call” — paste your notes or transcript after the call.\n'
+             '• “follow up with [name]” — one real reason to reach out and the draft, in your voice.')
+    return body
 
 def build_outer(ctx):
     demo, offer, mag, brand, cfg = ctx['demo'], ctx['offer_md'], ctx['magnets'], ctx['brand'], ctx['config']
@@ -664,17 +715,17 @@ def build_outer(ctx):
                 conv = [r['agent'] for r in pipe['rows'] if r['stage'].lower().startswith('conversation')]
                 idn = [r['agent'] for r in pipe['rows'] if r['stage'].lower().startswith('identified')]
                 waiting = '\n\n## What it will find waiting\n%d agent%s already on your pipeline' % (len(pipe['rows']), '' if len(pipe['rows']) == 1 else 's') + (': %d in conversation (%s)' % (len(conv), ', '.join(conv)) if conv else '') + (', %d identified (%s)' % (len(idn), ', '.join(idn)) if idn else '') + '.'
-            body = ('## What you’ll have in Week 6\n' + status_rows([('Your enrollment call: the script, full and 30-minute, in your voice', 'soon', ''), ('Your presentation: the one-pager that bridges the gap, never a pitch', 'soon', ''), ('Your objection playbook: the fifteen in your words, with your brokerage’s real answers', 'soon', ''), ('The Sales Trainer: plays the agent, throws objections, scores you — here, or by voice in the Claude app', 'soon', ''), ('Call prep before every partner call, the debrief after, the three-way with your upline prepared', 'soon', ''), ('Your Morning Call Prep: every call on today’s calendar prepped; Mondays your follow-ups; on the 1st, anyone who went quiet', 'soon', ('booking link on file: ' + ctx['booking']) if ctx['booking'] else '')]) + '\n\n## How it uses your Brain\nThe partner call opens with your story, not the model. Proof is quoted exactly as your Brain states it. Compensation is answered when they ask, never led with. Every draft reads your voice page first.' + waiting + '\n\n## What lands on this board when it’s done\nThis dot turns green, and your calls and follow-ups start counting on your Goals page.') if st == 'soon' else (md_to_book(ctx['files'].get('identity/conversion.md', ''), demo) or '@note: Built.')
+            body = ('## What you’ll have in Week 6\n' + status_rows([('Your enrollment call: the script, full and 30-minute, in your voice', 'soon', ''), ('Your presentation: the one-pager that bridges the gap, never a pitch', 'soon', ''), ('Your objection playbook: the fifteen in your words, with your brokerage’s real answers', 'soon', ''), ('The Sales Trainer: plays the agent, throws objections, scores you — here, or by voice in the Claude app', 'soon', ''), ('Call prep before every partner call, the debrief after, the three-way with your upline prepared', 'soon', ''), ('Your Morning Call Prep: every call on today’s calendar prepped; Mondays your follow-ups; on the 1st, anyone who went quiet', 'soon', ('booking link on file: ' + ctx['booking']) if ctx['booking'] else '')]) + '\n\n## How it uses your Brain\nThe partner call opens with your story, not the model. Proof is quoted exactly as your Brain states it. Compensation is answered when they ask, never led with. Every draft reads your voice page first.' + waiting + '\n\n## What lands on this board when it’s done\nThis dot turns green, and your calls and follow-ups start counting on your Goals page.') if st == 'soon' else conversion_built_body(ctx)
         elif sysid == 'ai-admin':
-            tag = 'Lights up in Week 5. The Morning Brief, the pipeline and the follow-up queue, drafted every day, sent only by you.' if st == 'soon' else 'Your Morning Brief, your pipeline and your follow-up queue.'
-            line = 'Your Morning Brief and the pipeline. Lights up in Week 5.' if st == 'soon' else 'The Morning Brief runs every day.'
+            tag = 'Lights up in a later week. The Morning Brief, the pipeline and the follow-up queue, drafted every day, sent only by you.' if st == 'soon' else 'Your Morning Brief, your pipeline and your follow-up queue.'
+            line = 'Your Morning Brief and the pipeline. Lights up in a later week.' if st == 'soon' else 'The Morning Brief runs every day.'
             tgt = ctx['goals_data']['activity'] or 'your weekly activity'
-            body = ('## What you’ll have in Week 5\n' + status_rows([('Your first Morning Brief, handed to you before it asks anything: today’s calls with a prep line each, agent inquiries with reply drafts, the follow-ups due drafted in your voice, content due, the week so far, three moves, one coaching note', 'soon', ''), ('Your pipeline at a glance on the locked stages, with your CRM', 'soon', ''), ('One consent card: the Morning Brief and the Daily Follow-Up Queue every morning, plus your Daily Debrief if it isn’t on', 'soon', 'drafted, never sent without you'), ('The weekly scorecard and the Weekly Recruiting CEO Review; the Team Wins newsletter; VA task packs; the Monthly KPI Review', 'soon', '')]) + '\n\n## What it measures you against\nYour own numbers: ' + tgt + '. Under 400 words a morning, no questions.\n\n## What lands on this board when it’s done\nThis dot turns green. The Today tile starts coming from the Morning Brief instead of last night’s debrief, and the weekly rows on your Goals page are written for you every Friday.') if st == 'soon' else ('@note: ' + next((b['line'] for k, b in cfg['blocks'].items() if k.startswith('ai admin')), 'Built.'))
+            body = ('## What you’ll have in a later week\n' + status_rows([('Your first Morning Brief, handed to you before it asks anything: today’s calls with a prep line each, agent inquiries with reply drafts, the follow-ups due drafted in your voice, content due, the week so far, three moves, one coaching note', 'soon', ''), ('Your pipeline at a glance on the locked stages, with your CRM', 'soon', ''), ('One consent card: the Morning Brief and the Daily Follow-Up Queue every morning, plus your Daily Debrief if it isn’t on', 'soon', 'drafted, never sent without you'), ('The weekly scorecard and the Weekly Recruiting CEO Review; the Team Wins newsletter; VA task packs; the Monthly KPI Review', 'soon', '')]) + '\n\n## What it measures you against\nYour own numbers: ' + tgt + '. Under 400 words a morning, no questions.\n\n## What lands on this board when it’s done\nThis dot turns green. The Today tile starts coming from the Morning Brief instead of last night’s debrief, and the weekly rows on your Goals page are written for you every Friday.') if st == 'soon' else ('@note: ' + next((b['line'] for k, b in cfg['blocks'].items() if k.startswith('ai admin')), 'Built.'))
         elif sysid == 'events':
-            tag = 'Lights up in Week 6. Live, virtual and evergreen events that teach, with the invite to a conversation as the close.' if st == 'soon' else 'Your events, from the brief to the follow-up.'
-            line = 'Live, virtual and evergreen events. Lights up in Week 6.' if st == 'soon' else 'Your first event is planned.'
+            tag = 'Lights up in a later week. Live, virtual and evergreen events that teach, with the invite to a conversation as the close.' if st == 'soon' else 'Your events, from the brief to the follow-up.'
+            line = 'Live, virtual and evergreen events. Lights up in a later week.' if st == 'soon' else 'Your first event is planned.'
             first = ('A workshop on %s, live, the way you teach it. The guide is the hand-out; the call is the close. Proposed from your offer; the Event Brief decides it with you.' % (ctx['known_for'] or 'what you teach')) if ctx['known_for'] else ''
-            body = ('## What you’ll have in Week 6\n' + status_rows([('The Event Brief: the objective, the audience from who your story speaks to, the transformation, the topic aligned with your offer, brokerage-neutral positioning', 'soon', ''), ('The format, recommended with the why: a live local workshop, a virtual training on Zoom, or an evergreen webinar', 'soon', 'never a menu'), ('The run-of-show, the registration copy, the promo calendar, drafted and never sent', 'soon', ''), ('The follow-up sequence into your pipeline, and the analytics', 'soon', '')]) + (('\n\n## The obvious first event, from your Brain\n' + first) if first else '') + '\n\n## What lands on this board when it’s done\nThis dot turns green, and by then the whole outer ring is lit: the picture of the system you built in six weeks.') if st == 'soon' else (md_to_book(ctx['files'].get('memory/events.md', ''), demo) or '@note: Built.')
+            body = ('## What you’ll have in a later week\n' + status_rows([('The Event Brief: the objective, the audience from who your story speaks to, the transformation, the topic aligned with your offer, brokerage-neutral positioning', 'soon', ''), ('The format, recommended with the why: a live local workshop, a virtual training on Zoom, or an evergreen webinar', 'soon', 'never a menu'), ('The run-of-show, the registration copy, the promo calendar, drafted and never sent', 'soon', ''), ('The follow-up sequence into your pipeline, and the analytics', 'soon', '')]) + (('\n\n## The obvious first event, from your Brain\n' + first) if first else '') + '\n\n## What lands on this board when it’s done\nThis dot turns green, and by then the whole outer ring is lit: the picture of the system you built in six weeks.') if st == 'soon' else (md_to_book(ctx['files'].get('memory/events.md', ''), demo) or '@note: Built.')
         meta = ['Week %d · %s' % (week, {'built': 'built', 'now': 'this week', 'soon': 'coming'}[st]), plugin] + (['Demo'] if demo else [])
         pages.append({'id': sysid, 'label': label, 'week': 'W%d' % week, 'state': st, 'title': title, 'tagline': tag, 'line': line, 'meta': meta, 'reads': READS[sysid], 'actions': [{'p': p, 'n': q} for p, q in actions_for(sysid, st)], 'body': body})
     return pages
@@ -1037,7 +1088,7 @@ def main():
     brain_md = read(os.path.join(brain, 'brain.md'))
     if not brain_md.strip():
         print('NO-BRAIN: %s has no brain.md — nothing to render.' % brain); sys.exit(2)
-    names = ['config.md', 'identity/profile.md', 'identity/journey.md', 'identity/brokerage-model.md', 'identity/strategy.md', 'identity/offer.md', 'identity/proof.md', 'identity/avatars.md', 'identity/goals.md', 'identity/voice.md', 'identity/voice-print.md', 'identity/brand-visual.md', 'identity/execution-framework.md', 'identity/operations.md', 'identity/compliance.md', 'identity/content-pillars.md', 'identity/channel.md', 'identity/conversion.md', 'memory/scorecard.md', 'memory/pipeline.md', 'memory/debriefs.md', 'memory/organization.md', 'memory/magnets.md', 'memory/events.md']
+    names = ['config.md', 'identity/profile.md', 'identity/journey.md', 'identity/brokerage-model.md', 'identity/strategy.md', 'identity/offer.md', 'identity/proof.md', 'identity/avatars.md', 'identity/goals.md', 'identity/voice.md', 'identity/voice-print.md', 'identity/brand-visual.md', 'identity/execution-framework.md', 'identity/operations.md', 'identity/compliance.md', 'identity/content-pillars.md', 'identity/channel.md', 'identity/conversion.md', 'memory/scorecard.md', 'memory/pipeline.md', 'memory/debriefs.md', 'memory/organization.md', 'memory/magnets.md', 'memory/events.md', 'memory/objections.md']
     files = {n: read(os.path.join(brain, n)) for n in names}
     config = parse_config(files['config.md']); demo = config['demo']
     goals = parse_goals(files['identity/goals.md'], demo)
