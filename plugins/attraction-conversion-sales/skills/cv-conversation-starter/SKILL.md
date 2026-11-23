@@ -1,16 +1,14 @@
 ---
 name: cv-conversation-starter
 description: >
-  Mike's Conversation Starter: the first message to an agent, written to start a conversation rather than
-  recruit. Picks the channel (DM, text, email, LinkedIn, voice note, referral) and the relationship state
-  (cold to inbound) and writes three options, each with a "why this works" line, in the member's voice.
-  Personalized mode uses the intel report; generic mode gives templates; intake mode personalises the
-  three starters the YouTube plugin's yt-repurpose hands over from a video. Every draft is read back
-  against the NEVER list before it is shown (no pitch, no walls of text, no recruiting language, no
-  compensation, nothing AI-sounding, no fake personalization, no forced Zoom). The member sends it; the
-  touch is logged once they say it went out. Trigger on: "write a message to [name]", "write a DM to [name]",
-  "conversation starter", "how do I open with [name]", "text [name]", "email opener", "voice note script",
-  "openers for my top ten", "use the starters from my video".
+  Mike's Conversation Starter: the first message to an agent, written to start a conversation rather
+  than recruit. Picks the channel and the relationship state (cold to inbound) and writes three
+  options, each with a "why this works" line, in the member's voice; personalized from the intel
+  report, or the three starters yt-repurpose hands over from a video. Every draft is checked against
+  the NEVER list (no pitch, no recruiting language, no compensation, nothing AI-sounding). The member
+  sends it; the touch is logged once it went out. Trigger on: "write a message to [name]", "write a DM
+  to [name]", "how do I open with [name]", "openers for my top ten", "use the starters from my video",
+  "conversation starter", "text [name]", "email opener", "voice note script".
 ---
 
 # Conversation Starter — start conversations, don't recruit

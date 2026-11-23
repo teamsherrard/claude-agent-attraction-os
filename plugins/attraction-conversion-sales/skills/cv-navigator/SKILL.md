@@ -1,16 +1,14 @@
 ---
 name: cv-navigator
 description: >
-  The front door of the Agent Attraction Conversion & Sales plugin (Week 6) — where a member starts when they
-  are about to talk to an agent, just did, or want to. Reads their Brain quietly and routes them in one move:
-  a first visit → the Week 6 sitting that builds their enrollment call, presentation, objection playbook and
-  switches on their Morning Call Prep; a return → the short ready brief; "prep my call" → call prep; "train
-  me" or "they said [objection]" → the Sales Trainer; a transcript → the debrief; "follow up with [name]",
-  "write a message to [name]", "what do I reply", "set up a 3-way", "research [name]" → their own skills.
-  Told, not asked: no menus, no discovery questions when the Brain already knows. Trigger on: "launch my
-  conversion system", "open my conversion system", "help me with agent conversations", "I have a call with
-  [name]", "an agent booked a call", "what do I say to [name]", "I just talked to [agent]", or any vague
-  request about messaging, calling, or converting an agent.
+  The front door of the Conversion & Sales plugin (Week 6): where a member starts when they are about
+  to talk to an agent, just did, or want to. Reads the Brain quietly and routes in one move: first
+  visit → the Week 6 sitting; return → the ready brief; a call → call prep; an objection → Stacy; a
+  transcript → the debrief; a name → intel, a message, a follow-up or a 3-way. Told, not asked: no
+  menus, no questions the Brain can answer. Trigger on: "launch my conversion system", "open my
+  conversion system", "I have a call with [name]", "an agent booked a call", "what do I say to
+  [name]", "who should I reach out to this week", "help me with agent conversations", "launch Stacy",
+  "I just talked to [agent]", or any vague request about messaging, calling or converting an agent.
 ---
 
 # Conversion Navigator — the front door

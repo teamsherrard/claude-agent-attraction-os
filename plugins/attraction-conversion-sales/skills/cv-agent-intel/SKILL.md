@@ -1,16 +1,14 @@
 ---
 name: cv-agent-intel
 description: >
-  Mike's Agent Intel: the one-page report a member reads before reaching out to a specific agent, so the
-  first message is about the person, not a brokerage. Takes a name plus whatever is known (brokerage, website,
-  Instagram, LinkedIn, YouTube, bio, prior messages, their Top-50 row), researches only what the agent shares
-  publicly about their business, and writes: who they are · what they seem to care about · current business
-  model · potential brokerage frustrations · growth opportunities · things in common · likely objections · best
-  conversation angle · what not to say · a suggested opening message. Saved to the Brain's intel reports and
-  the Prospects folder; cited and dated; never invents production numbers; never targets by a protected
-  characteristic. Trigger on: "agent intel on [name]", "research [name]", "build an intel report", "what do I
-  know about [name]", "before I message [name]", "prep me on [name]", "run intel on my top ten", "prep research
-  for my call".
+  Mike's Agent Intel: the one-page report a member reads before reaching out to a specific agent, so
+  the first message is about the person, not a brokerage. Takes a name plus whatever is known
+  (brokerage, socials, bio, prior messages, their Top-50 row), researches only what the agent shares
+  publicly about their business, and writes who they are, what they care about, their business model,
+  likely frustrations and objections, things in common, the best conversation angle, what not to say
+  and a suggested opener. Saved to the Brain, cited and dated; never invents production numbers; never
+  targets by a protected characteristic. Trigger on: "research [name]", "agent intel on [name]", "prep
+  me on [name]", "run intel on my top ten", "what do I know about [name]", "before I message [name]".
 ---
 
 # Agent Intel — know the person before the first message

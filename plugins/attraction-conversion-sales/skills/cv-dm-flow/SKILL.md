@@ -1,15 +1,15 @@
 ---
 name: cv-dm-flow
 description: >
-  The reply engine for conversations that start in the comments or the DMs: Comment → DM → Qualify → Invite,
-  every reply written in the member's own voice-print. Takes the thread so far (a comment, a story reply, a
-  DM screenshot, or a hand-off from the Short-Form plugin's comment-to-DM ladder), works out where the
-  conversation sits, and writes the next reply plus the one qualifying question that moves it — about their
-  business, their goals, what they're working on — never a pitch. The invitation to a call is earned by the
-  conversation, never forced, and comes with the member's booking link only once they've named a problem.
-  Logs each exchange and requests stage moves in the locked vocabulary. Trigger on: "someone commented",
-  "what do I reply", "she replied to my story", "DM'd me", "keep this conversation going", "qualify this
-  person", "should I invite them to a call", "reply to this agent", "comment to DM", "handle this thread".
+  The reply engine for conversations that start in the comments or the DMs: Comment → DM → Qualify →
+  Invite, every reply in the member's own voice-print. Takes the thread so far (a comment, a story
+  reply, a DM screenshot or the Short-Form plugin's hand-off), works out where the conversation sits,
+  and writes the next reply plus the one qualifying question that moves it, never a pitch. The
+  invitation to a call is earned, never forced, and comes with the booking link only once they've
+  named a problem. Logs each exchange in the locked vocabulary. Trigger on: "someone commented", "what
+  do I reply", "she replied to my story", "DM'd me", "keep this conversation going", "qualify this
+  person", "should I invite them to a call", "reply to this agent", "comment to DM", "handle this
+  thread".
 ---
 
 # DM Flow — Comment → DM → Qualify → Invite

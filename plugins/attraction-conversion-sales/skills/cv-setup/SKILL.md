@@ -1,15 +1,14 @@
 ---
 name: cv-setup
 description: >
-  The Week 6 sitting of the Agent Attraction Conversion & Sales system, on the member's Brain. Five steps, one
-  at a time, and it waits after each: (1) the enrollment call script, full and 30-minute, in the member's voice;
-  (2) the partner presentation, a bridge-the-gap one-pager; (3) the objection playbook, the fifteen plus the
-  brokerage's own, in the member's words; (4) the Morning Call Prep switched on with a Yes, the one thing that
-  runs; (5) meet Stacy, the Sales Trainer. The close hands back the Brain Board and the Brain Book, then hands
-  you to Stacy in a new chat. Nothing the Brain holds is asked again; at most one question (the 3-way partner,
-  only when the Brain has none). Later, one piece is rebuilt alone. Trigger on:
-  "launch my conversion system", "set up my conversion system", "open my conversion system", "update my call
-  script", "update my presentation", "update my objection playbook".
+  The Week 6 sitting of the Conversion & Sales system, on the member's Brain. Five steps, one at a
+  time, waiting after each: the enrollment call script in the member's voice; the partner presentation
+  one-pager; the objection playbook (Mike's fifteen plus the brokerage's own); the Morning Call Prep
+  switched on with a Yes; meet Stacy. The close hands back the Brain Board and Book, then hands you to
+  Stacy in a new chat. Nothing the Brain holds is asked again; at most one question. Later, one piece
+  is rebuilt alone. Trigger on: "launch my conversion system", "set up my conversion system", "open my
+  conversion system", "update my call script", "update my presentation", "update my objection
+  playbook".
 ---
 
 # Conversion & Sales — Setup (the five-step sitting, Week 6)
