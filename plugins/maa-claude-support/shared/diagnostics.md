@@ -109,6 +109,12 @@ almost always a PHRASE or a FOLDER mix-up, never data loss.
 
 1. **What EXACTLY did they type, and where?** (Cowork vs Chat matters — the system lives in
    Cowork. In Chat → that's the whole answer; move them to Cowork.)
+   - **"It says there are no skills installed in this session" / "no skills in this session"** → a
+     VOICE session. Cowork's voice loads no plugin skills but reads the project's Instructions and
+     Context — by design, not breakage. Stacy (Week 6) works there from her card in Context and her
+     block under the seatbelt in Instructions: "Stacy, train me". Any other skill → a typed chat in
+     the same project. Not inside their Agent Attraction project at all → FAQ Q86 (the one-project
+     recipe). "The project folder is empty" → Context → Add the Stacy card (FAQ Q82).
 2. **Does that plugin exist YET?** `stack-map.md`: Plugins 1 and 2 are built; the rest switch on
    with their week. A Week 1 member asking for `yt-script` isn't broken — *"the YouTube engine
    switches on in Week 5; this week it's the Brain."* Say it warmly, log the ask. (A Design

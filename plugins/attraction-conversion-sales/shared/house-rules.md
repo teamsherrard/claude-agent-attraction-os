@@ -96,10 +96,11 @@ drive map names (`04 · Agents/Prospects` for prep and intel; `05 · Offer` for 
 filenames; the newest is current. The renderer's fallback is the `.md` upload with one plain line — never a
 package install, never a retry loop. The Stacy card ("Stacy — [Name]'s Sales Trainer") is rendered by `cv-setup` at
 the sitting's close and re-rendered by `launch-stacy-my-sales-trainer` when the Top five's work-on list changes (or when no card exists
-because the sitting has not run) — never after every drill; `skills/launch-stacy-my-sales-trainer/references/project-instructions.md`
-is the Project paste. The sitting runs no training round: its close hands over the Brain Board and the Brain Book
-and hands to Stacy in a new chat in the same project ("Launch Stacy, my sales trainer"); her introduction, first
-question and first score happen there.
+because the sitting has not run) — never after every drill. The card's home is the member's Cowork project's
+**Context**; the paste (`skills/launch-stacy-my-sales-trainer/references/project-instructions.md`) goes into that project's
+**Instructions** — a voice session reads both and no skill. The sitting runs no training round: its close hands over
+the Brain Board and the Brain Book and hands to Stacy in a new session in the same project ("Stacy, train me" by
+voice; "Launch Stacy, my sales trainer" by text); her introduction, first question and first score happen there.
 
 ## 14. Demo mode.
 A demo Brain (`Demo brain: yes`) gets fictional prospects, no live research, no scheduled task, every number

@@ -72,13 +72,15 @@ did Mike say about…") is the cohort lane's Ask-Mike routine, not this one — 
 - **Stacy, the Sales Trainer, by voice** — voice is an input method (doctrine §1); in Week 6 Stacy
   (`launch-stacy-my-sales-trainer`) plays the agent, scores every answer out of ten on Listen → Validate → Reframe →
   Invite with the one move that cost most, gives the line to say, and makes the member try it again.
-  In Cowork she is text ("train me"); voice mode is NOT in Cowork, so the out-loud drill runs in the
-  Claude app on Opus or Sonnet (never Fable), after five one-time steps the Week 6 close prints: a
-  Project called Stacy in the Chat tab → add the card "Stacy — [Name]'s Sales Trainer" (Drive → 05 ·
-  Offer) → paste the printed instructions into the Project's instructions → pick the model → the
-  sound-wave icon, "train me". At "stop" Stacy says the carry-back sentence; back in Cowork "log my
-  training — …" writes the scores (FAQ Q82). The card is re-rendered only when the work-on list changes. Fetch
-  the voice article live before guiding setup.
+  Typed ("Launch Stacy, my sales trainer", then "train me") she runs in text; out loud she runs in
+  the member's ONE Cowork project (the Agent Attraction project from Week 1) after two project steps
+  the Week 6 close gives: Context → Add the card "Stacy — [Name]'s Sales Trainer" (Drive → 05 ·
+  Offer); Instructions → Edit, paste the Stacy block under the seatbelt. Then a new chat, the
+  sound-wave icon, "Stacy, train me". A voice session loads no plugin skills but reads the project's
+  Instructions and Context — "no skills in this session" there is normal. At "stop" Stacy says the
+  carry-back sentence; typed in a chat, "log my training — …" writes the scores (FAQ Q82 · Q86). The
+  card is re-rendered only when the work-on list changes. Fetch the voice article live before guiding
+  setup.
 - **The ManyChat templates** — a bonus asset imported into THEIR ManyChat account (free plan
   first), not a plugin or connector; the keyword carries every Reel; the PRO-badge truth test
   (FAQ Q35, Q43). Price always from ManyChat's site.

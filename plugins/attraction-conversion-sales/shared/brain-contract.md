@@ -160,8 +160,9 @@ filenames; newest is current; `RENDERER-UNAVAILABLE` → the `.md` upload with o
 The Stacy card is rendered by `cv-setup` at the sitting's close (it dates `Stacy card:` under `## Setup` in
 `identity/conversion.md`) and re-rendered by `launch-stacy-my-sales-trainer` when the Top five's work-on list changes (after a TRAIN
 "stop" or a LOG that moved it) or when no card exists because the sitting has not run — never after every drill;
-`skills/launch-stacy-my-sales-trainer/references/project-instructions.md` is the Project paste for the Claude app. The sitting runs no
-round; it hands to Stacy in a new chat.
+the card's home is the member's Cowork project's Context, and `skills/launch-stacy-my-sales-trainer/references/project-instructions.md`
+is the paste for that project's Instructions (a voice session reads both). The sitting runs no round; it hands to
+Stacy in a new session.
 
 ## Privacy
 Agent names, what they said, their socials, and every intel report are the member's private data. They live only on

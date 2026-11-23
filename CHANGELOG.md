@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.46.0] — 2026-11-23
+
+**One Cowork project for the whole program; Stacy talks by voice inside it (Conversion & Sales 0.2.11 · Brain 0.9.25 · Support 0.2.23).** Verified live by the owner: a Cowork voice session loads no plugin skills, but it reads the project's Instructions and Context — so Stacy's block in the project's Instructions and her card in Context made her talk back by voice, in the same project the member already uses. "That's the process going forward."
+
+- **Week 1 (Brain 0.9.25):** the setup's close tells the member, told not asked, to make ONE Cowork project — "Agent Attraction" — run every week's sitting in it, and paste the Project Seatbelt into its Instructions. Nothing else in the project in Week 1 (no Brain copy in Context, nothing in Memory, no folder).
+- **Week 6 (Conversion & Sales 0.2.11):** the close's "Now meet Stacy" is two steps in that project, once: Context → Add the card "Stacy — [Name]'s Sales Trainer"; Instructions → Edit, paste the Stacy block (printed with the name filled in, scoped to wake only on her name) under the seatbelt. Then a new session, the sound-wave icon, "Stacy, train me." Typing "Launch Stacy, my sales trainer" / "train me" still runs the skill; "log my training" writes the scores. The Chat-tab Project, the model pick and the slash are gone from the member path (the slash remains a one-line fallback in the trainer's own text). The card re-render line points at the project's Context.
+- **Support (0.2.23):** FAQ Q82 rewritten, Q84, NEW Q86 "How should I set up my Claude project for the program?" (the one-project recipe: Instructions · Context · Memory · Scheduled · Add folder, with the Week 1 and Week 6 actions and the "delete a wrong memory note" tip); stack-map Plugin 1 and 7 notes and a "What changed lately" row; cohort-kb Week 1 and Week 6; diagnostics branch for "no skills installed in this session" (a voice session). Setup guide "Your one project" paragraph and checklist; README row 7.
+
 ## [0.45.0] — 2026-11-23
 
 **The editor is Riverside only; the Instagram Edits editing engine is parked (AI Editing Studio 0.7.5 · Support 0.2.22).** The owner's call: "remove the Instagram Edits component from our AI editor plugin and keep it dedicated to Riverside — it's complicated and probably won't work for most people. Don't delete anything; keep it on the side." Why it surfaced: Edits can only be driven from a real Code session on the Mac where Edits is installed — a Cowork chat and the project's own assistant both (correctly) say they cannot reach it, which is the experience most members would have had.

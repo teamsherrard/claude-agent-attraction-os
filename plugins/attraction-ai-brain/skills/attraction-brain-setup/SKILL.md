@@ -602,10 +602,14 @@ Checkpoint: *"5 of 5 — I've got your voice. Building your Book now."* Push. St
      only shows the quick view at the top). It rebuilds itself every time anything in your Brain changes."*
      The script runs in the session's code sandbox (Cowork provides it; nothing to install). If the sandbox
      is unavailable, leave the board out without comment; the sync skill renders it on the next push.
-5. **Hand them the Project Seatbelt.** Read `${CLAUDE_PLUGIN_ROOT}/shared/project-instructions.md`
-   (stamp `aa-v1`) and deliver its paste block exactly as that file instructs (copyable code fence +
-   the one-line explanation: *"your project seatbelt — paste it into any project's Project
-   Instructions so every chat there loads your Brain first, even when you're freestyling"*).
+5. **Hand them the Project Seatbelt — and their one project.** Read
+   `${CLAUDE_PLUGIN_ROOT}/shared/project-instructions.md` (stamp `aa-v1`) and deliver its paste block
+   exactly as that file instructs (copyable code fence), told not asked, with this in front of it:
+   *"Make ONE Cowork project for this program — call it Agent Attraction — and run every week's sitting
+   in it. Paste this seatbelt into its Instructions (panel on the right → Instructions → Edit). Then every
+   chat in that project loads your Brain first, even when you're freestyling."* Nothing else goes into
+   the project today: no Brain or Brain Book in Context (a copy goes stale — the Drive is the truth),
+   nothing in Memory, no folder. Week 6 adds its one block under the seatbelt.
 6. **The link and the close — short.** The workspace link once more (*"bookmark it — rename the
    folder anytime, I'll still find it; one folder inside 01 · AI Brain holds the working files your
    AI reads; leave that one alone"* — never the folder's name), then exactly this, in your own warm
