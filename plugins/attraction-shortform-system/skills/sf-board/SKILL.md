@@ -83,7 +83,7 @@ When a workflow finishes a piece (Reel script, green screen, carousel — never 
   a designed graphic whose file exists) · **Publishing Date** (its calendar slot).
 - **Into the card page, the spec's locked layout** (🎯 THE HOOK · 📝 THE SCRIPT · 💬 THE CAPTION · 📣 THE ASK · 🎬 FILMING NOTES · 📎 SOURCES · 📊 AFTER IT'S OUT): the full package — hook ×3, script or talking points, story used, caption, hashtags,
   the CTA line with the keyword — so filming day is open-one-card simple.
-- When it's **scheduled** (`sf-publish` / `sf-batch-publish`): set the Publishing Date to the slot — status stays
+- When it's **scheduled** (`set-up-my-metricool-and-post` / `sf-batch-publish`): set the Publishing Date to the slot — status stays
   put; **scheduled is not published.** Flip to `Published` only when it actually goes live / the member confirms.
 - The Brain's `memory/content-log.md` row is STILL written by the content skill every time — the board mirrors
   the log, never replaces it.

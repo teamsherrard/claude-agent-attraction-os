@@ -11,7 +11,7 @@ description: >
   routine", "set my batch day", "how did my attraction week go", "what's my engagement routine", "my
   content week for my organization", or any request to plan or review the weekly short-form rhythm
   for attracting agents. (Ideas = sf-ideas; the calendar = sf-gameplan; the Monday drafts =
-  sf-week-plan; scheduling = sf-publish.)
+  sf-week-plan; scheduling = the Metricool skill.)
 ---
 
 # The Weekly Routine Planner
@@ -146,7 +146,7 @@ Encourage. A thin week is data, not failure.
 
 ## What this skill never does
 - Writes nothing to `identity/` and nothing to `memory/content-log.md`. Rows are written by the skills
-  that make and ship the content (`sf-talkinghead`, `sf-stories`, `sf-carousel`, `sf-publish`). Calendar
+  that make and ship the content (`sf-talkinghead`, `sf-stories`, `sf-carousel`, `set-up-my-metricool-and-post`). Calendar
   events are the only thing it creates, with a yes.
 - Never posts, schedules, or sends. Never asks for the niche, the avatar, the hours, or the weekly number
   when the Brain has them.

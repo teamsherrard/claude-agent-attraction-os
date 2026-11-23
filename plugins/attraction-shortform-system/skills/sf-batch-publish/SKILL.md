@@ -9,8 +9,8 @@ description: >
   Plan; "run my batch prep" writes them on demand. Trigger on: "film day for my attraction reels", "batch my
   attraction content", "plan my recording day for agents", "teleprompter cards for my attraction scripts",
   "schedule my attraction batch", "schedule my folder of attraction reels", "queue my month of attraction
-  content", "publish this attraction batch", "turn on my batch prep", "stop my batch prep", "run my batch
-  prep", or any batch of short-form attraction content. (One post = sf-publish.)
+  content", "publish this attraction batch", "stop my batch prep", "run my batch
+  prep", or any batch of attraction content. (One post: the Metricool skill.)
 ---
 
 # Batch — the film day, then the whole run scheduled at once
@@ -138,7 +138,7 @@ link] · [the Book link]. Block the time now; a filming day that isn't on the ca
 
 **Before you batch — the prerequisites, said once, kindly, up front:**
 1. The chosen posting tool is connected (`publishing.md → Posting tool:` reads `connected`); `manual` or `chosen: …
-   — connect pending` → `sf-publish` Job A first (the one question, or the connect); until it is connected the
+   — connect pending` → `set-up-my-metricool-and-post` Job A first (the one question, or the connect); until it is connected the
    packages are handed over copy-paste, one dated doc, with the fallback line (*"until it's connected your posts are
    copy-paste; say 'connect my posting tool' when you're back"*) — never copy-paste as the plan.
 2. The tool can reach the videos (a public URL, or Drive linked inside the tool); otherwise the hybrid path

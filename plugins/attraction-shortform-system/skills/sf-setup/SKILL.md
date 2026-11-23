@@ -613,7 +613,7 @@ location id into the connector's own fields (never into this chat) → Connect. 
 **The connect fails or cannot be read back** → one line, the only place copy-paste is said: *"until it's connected
 your posts are copy-paste; say 'connect my posting tool' when you're back."* **The member walks away mid-connect**
 → nothing more happens; the sitting waits where it is. Both lines always exist — `Posting tool:` and `Best times:`;
-`sf-publish` updates only those two. No live-data connection is ever touched during setup.
+`set-up-my-metricool-and-post` updates only those two. No live-data connection is ever touched during setup.
 
 **The step ends on the stop line — the first Reel is NOT scripted yet, and the member chooses how it opens** (said
 once Metricool is connected, or its one fallback line has been said). Write the three openings for the calendar's

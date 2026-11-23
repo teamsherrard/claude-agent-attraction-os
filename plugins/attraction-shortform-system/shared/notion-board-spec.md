@@ -247,7 +247,7 @@ before a page layout `notion://docs/database-page-layouts`, before page content 
   workflow (talking head / green screen / carousel — never stories: stories are not cards) **adds its post's row** when the piece is made
   (`Ready to Film`, or `Scripted` for a carousel still waiting on its slides; Format + Pillar set, the package link
   attached, the full package in the body) and flips it to `Published` when the member confirms it went out
-  (`sf-publish` / `sf-batch-publish`: scheduling sets the Publishing Date only). The Brain's `memory/content-log.md`
+  (`set-up-my-metricool-and-post` / `sf-batch-publish`: scheduling sets the Publishing Date only). The Brain's `memory/content-log.md`
   row is still written every time — the board mirrors it, never replaces it.
 - **Any plugin can create the board** — whichever runs first. The other finds it and adds its view + rows.
 
