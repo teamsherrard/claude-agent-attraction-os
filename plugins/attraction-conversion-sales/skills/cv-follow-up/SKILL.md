@@ -21,9 +21,10 @@ a drip campaign: "I don't have a CRM where they're on some templated drip pushin
 (`10-presentation-delivery/41`). The plan is per person — relationship, intent, objection, timeline, interests
 (the launching doc's Follow-Up Engine spec) — and every touch leaves value.
 
-**Write-and-prepare only.** Drafts land in chat or as email drafts; the member sends. The AI Admin's
-Daily Follow-Up Queue (`admin-follow-up-queue`, Week 5) owns the daily "who is due" and its scheduled
-agent; this skill builds the plan it draws from.
+**Write-and-prepare only.** Drafts land in chat or as email drafts; the member sends. The week's follow-ups
+run every Monday inside the member's **Morning Call Prep** (the one thing this plugin runs for them, owned by
+`cv-call-prep`); once the AI Admin is installed its Daily Follow-Up Queue (`admin-follow-up-queue`) owns the
+daily "who is due". This skill builds the plan both draw from.
 
 ## Step 0 — How we speak
 Read `${CLAUDE_PLUGIN_ROOT}/shared/how-we-speak.md`, `${CLAUDE_PLUGIN_ROOT}/shared/ask-once-default.md`,
@@ -147,15 +148,21 @@ voice note. Later touches are one line each with their reason and date. Read eve
   unchanged — and update that agent's Last touch · Next move · Due per the rule above. A reply that changes the
   stage goes through `cv-debrief`. Never log a touch the member didn't say they sent.
 - Then `attraction-brain-sync` PUSH, verify. Unsaved → say so, keep the plan visible, retry once, stop.
-- **Hand-off:** *"Your Daily Follow-Up Queue picks these up each morning"* — only if the AI Admin is
-  installed; otherwise: *"Say 'who do I need to follow up with' any Monday and I'll pull what's due."*
+- **The close, one line:** *"✓ [Name]'s plan is set — the next two touches are drafted above."* Then, as a
+  statement: the AI Admin installed → *"Your Daily Follow-Up Queue picks these up each morning."*; the
+  Morning Call Prep on (its task line in the `## Conversion & Sales (Week 6)` block holds a task id) → *"Your
+  Morning Call Prep adds the week's follow-ups every Monday."*; neither → *"Say 'turn on my morning call
+  prep' and every Monday brings the week's follow-ups, drafted."* Nothing asked.
 
-## "Who do I need to follow up with" (the weekly pull, when the Admin isn't installed)
-Read `top-50.md` and `pipeline.md` for every agent whose **Due** is this week or overdue, plus anyone
-at Call held or 3-way with no touch in 14 days. List: name · stage · reason to reach out (a trigger from
-`intel.md` / `organization.md`, or the objection standing) · the draft in one line. Five at most, the
-rest collapsed. Never a touch without a reason; if none exists for a name, say "no reason yet — leave it"
-and move on. Quiet for 30+ days → hand to `cv-reactivation`.
+## The week's follow-ups (Mondays — inside the Morning Call Prep)
+The Monday pull is the Morning Call Prep's (`cv-call-prep` owns the task; this is the rule it runs): every
+Top-50 / pipeline row whose **Due** is this week or overdue, plus anyone at Call held or 3-way with no touch
+in 14 days → name · stage · the reason to reach out (a trigger from `intel.md` / `organization.md`, or the
+objection standing — never "just checking in") · the draft in the member's voice · a `NEXT MOVE REQUESTED:`
+line each for the AI Admin. Five at most, the rest collapsed. No reason for a name → "no reason yet — leave
+it". Quiet for 30+ days → the 1st-of-the-month quiet list, the same task's run (one real reason or "leave it",
+written to the Brain's intel reports). A member who asks for the week's touches in chat ("my follow-up
+touches this week") gets the same read here, nothing scheduled.
 
 ## The Switching Transition Plan (an asset, behind a gate)
 The one-pager that answers "I have closings to finish" — license transfer, listings and the ICA check,

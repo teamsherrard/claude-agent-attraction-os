@@ -42,7 +42,7 @@ report findings in-chat only; never write into `~/realtor-brain/`).
 3. **Filter hard — the cohort lens.** Keep ONLY changes touching: Cowork behavior · plugins /
    uploaded skills / marketplaces (the Design Studio's upload path and the 1024-char description
    limit included) · scheduled tasks (every MAA agent runs on them) · connectors and permissions
-   (Google, Microsoft, Riverside, CRMs) · Claude Design · voice mode (the role-play surface of a later week, and how many members answer their setup questions out loud)
+   (Google, Microsoft, Riverside, CRMs) · Claude Design · voice mode (where the Week 6 Sales Trainer runs aloud — in the Claude app through the Sales Trainer card — and how many members answer their setup questions out loud) · Projects in the Claude app (the Sales Trainer card lives in one)
    · plans, limits, or the model picker · desktop/mobile surfaces members use. Drop:
    API/SDK/enterprise/infra noise. When in doubt, one test: *would a member ever SEE this?*
 4. **Write the digest** — prepend to `claude-updates.md`:

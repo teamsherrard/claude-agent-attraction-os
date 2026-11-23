@@ -13,6 +13,7 @@ connector based on the **`Storage provider`** field in `config.md` (set once at 
 | **Storage — create a folder** | Google Drive create-file with the folder mime type | Microsoft 365 create folder (if a folder create fails, create the first file with the folder in its path — most storage APIs create the path; if that also fails, say so and save flat, never lose the file) |
 | **Email — search / read inbox** | Gmail connector | Microsoft 365 (Outlook Mail) |
 | **Email — draft a message** | Gmail (drafts) | Microsoft 365 (Outlook drafts) |
+| **Email — one short note to the member's OWN address** (a scheduled workflow's note, nothing else) | Gmail send | Microsoft 365 (Outlook send mail) |
 | **Email — tag / organize a thread** | Gmail labels | Microsoft 365 (Outlook **categories** — same names; archive = move to Archive folder; if writes are org-gated, the inbox sweep runs report-only and says so) |
 | **Calendar — read / create / update events** | Google Calendar connector | Microsoft 365 (Outlook Calendar) |
 
@@ -26,8 +27,12 @@ connector based on the **`Storage provider`** field in `config.md` (set once at 
    and moving files between folders is now possible (legacy-brain migration, misfiled deliverables).
    If either operation is unavailable in a session (older environments, Microsoft untested), fall back to
    the create-only rules — they always remain the safety net.
-2. **Email is DRAFT-ONLY as policy, on both providers.** Gmail literally cannot send. Outlook *can* send —
-   but we never do: every email lands as a **draft the agent reviews and sends themselves**. No exceptions.
+2. **Email to anyone else is DRAFT-ONLY, on both providers.** Every email to another person lands as a
+   **draft the member reviews and sends themselves**. **One exception: a scheduled workflow's own short note to
+   the member's OWN address** (a Monday Kickoff, a monthly review, a weekly plan — one per run, while that
+   plugin's `Email me:` line says yes) is sent, never drafted, and never goes to anyone else. It is the last
+   tool call before the run's note; if the send tool is not in the session, or the send does not complete, the
+   run does not retry — it writes `Email me: no (no mail connected)` and leaves its note in Cowork.
 3. **Markdown/text files must round-trip.** When creating `.md` engine files, keep them as plain files
    (disable auto-conversion to Google Docs) so the sync can read back exactly what it wrote. Rendered
    deliverables (`.docx`) upload as-is.

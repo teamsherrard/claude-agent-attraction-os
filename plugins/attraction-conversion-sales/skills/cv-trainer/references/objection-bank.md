@@ -1,10 +1,10 @@
 # The Objection Bank — Mike's fifteen, on his framework
 
-*Read by `cv-objection-coach` (all modes) and, by name, by `cv-call-prep`, `cv-debrief`, and `cv-enrollment-script`.
-Source of truth: the Week 5 vault, module 11 (`11-objection-handling/46`, `/48–62`) and the two bonus lessons
+*Read by `cv-trainer` (all modes) and, by name, by `cv-call-prep`, `cv-debrief`, and `cv-setup`.
+Source of truth: the Week 6 vault, module 11 (`11-objection-handling/46`, `/48–62`) and the two bonus lessons
 (`bonus/objection-framework` · `bonus/think-about-it`). Lesson numbers `/47` and `/51` are not in the vault export;
 the bonus files carry that material. Every handler below is Mike's own framing, condensed — never a script to read
-aloud. The coach rewrites each one fresh for the prospect in front of the member, from the member's Brain.*
+aloud. The Trainer rewrites each one fresh for the prospect in front of the member, from the member's Brain.*
 
 **Rules that bind every handler:** the two cardinal rules (`03-model-positioning/13`) — never a negative word about
 another brokerage, never about another person, including the sponsor they are "also talking to" and the broker
@@ -12,7 +12,7 @@ they "love". No income or rev-share earnings figures, ever; Mike's own numbers i
 quoted as his if asked, never as an expectation (`${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md`). "The model"
 means the member's brokerage model from `identity/brokerage-model.md`; nothing here assumes eXp or any brokerage.
 Where a lesson leans on a brokerage-specific program, the handler carries a **Brokerage slot** the Brokerage Model
-Expert (`attraction-brokerage-model`) fills from the member's own brokerage; until it is filled, the coach says
+Expert (`attraction-brokerage-model`) fills from the member's own brokerage; until it is filled, the Trainer says
 "check whether your brokerage has this" rather than asserting it.
 
 ---
@@ -35,11 +35,11 @@ that finds the real fear. That is what the handlers below call **the question to
 
 ### The two namings, mapped (DECISION NEEDED for Mike — see the bottom of this file)
 
-The Week 5 vault (the transcripts, newest) teaches four steps. The Launching & Scaling doc's Objection Coach spec
+The Week 6 vault (the transcripts, newest) teaches four steps. The Launching & Scaling doc's Objection Coach spec
 lists six: *Understand → Clarify → Isolate → Reframe → Evidence → Question*, with the outputs "what the objection
 probably means · question to ask · suggested response · mistake to avoid". They describe the same conversation:
 
-| Vault (truth for this coach) | Launching doc | Where it lives in each handler below |
+| Vault (truth for this Trainer) | Launching doc | Where it lives in each handler below |
 |---|---|---|
 | Listen | Understand | **Listen** |
 | Validate | — (no named equivalent) | **Validate** |
@@ -47,7 +47,7 @@ probably means · question to ask · suggested response · mistake to avoid". Th
 | Reframe (with data, stories, analogies) | Reframe → Evidence | **Mike's reframe** + the **Proof / story slot** |
 | Invite | Question | **Invite** |
 
-The coach names **four** steps out loud (the vault's), asks **the question** every time (the launching doc's Clarify
+The Trainer names **four** steps out loud (the vault's), asks **the question** every time (the launching doc's Clarify
 and Isolate, which the lessons already do), and attaches proof or a story (Evidence). Nothing in the six-step
 list contradicts the four; the six just names the question and the evidence as their own steps. The plugin's
 `shared/conversion-doctrine.md` §3 locks the same four and folds Clarify and Isolate into Listen; this bank keeps
@@ -78,7 +78,7 @@ the dot.
 ## The fifteen
 
 Shape of every entry: archetype · what it probably means · root fear · the question to ask · Mike's reframe ·
-invite · the mistake to avoid · proof / story slot · brokerage slot. The coach fills the two slots from
+invite · the mistake to avoid · proof / story slot · brokerage slot. The Trainer fills the two slots from
 `identity/proof.md`, `identity/story-bank.md`, and `identity/brokerage-model.md` — never from these notes.
 
 ### 1. "I'm happy where I am" — `/48`
@@ -383,8 +383,8 @@ invite · the mistake to avoid · proof / story slot · brokerage slot. The coac
 The launching doc's examples: *"[Brokerage] isn't for me"* · *"The split isn't worth it"* · *"I'm already at a cloud
 brokerage"* · *"I don't want to leave my brand."* These are handled on the same four steps, but the reframe depends
 entirely on the member's model. `attraction-brokerage-model` answers them in `identity/brokerage-model.md`'s
-**Q&A bank** (the template's section — there is no separate objections section); the coach reads that section and
-treats its objection-shaped answers as entries 16+. Until it exists, the coach runs the four steps with the question to ask and says plainly that the
+**Q&A bank** (the template's section — there is no separate objections section); the Trainer reads that section and
+treats its objection-shaped answers as entries 16+. Until it exists, the Trainer runs the four steps with the question to ask and says plainly that the
 model-specific reframe is built with the Brokerage Model Expert ("say 'explain my model' and it takes ten minutes").
 
 ## Also in the vault, not separate entries
@@ -397,7 +397,7 @@ model-specific reframe is built with the Brokerage Model Expert ("say 'explain m
 ## DECISION NEEDED (for Mike, before v1 is recorded)
 1. **Framework naming** — the same decision as `shared/conversion-doctrine.md` DECISION NEEDED 3, not a second
    one: four steps out loud (the vault, the default here and in the doctrine) or the Launching doc's six. If six, the
-   coach's scoring line gains "Clarify/Isolate" and "Evidence" as named steps; the handlers below already contain both.
+   Trainer's scoring line gains "Clarify/Isolate" and "Evidence" as named steps; the handlers below already contain both.
 2. **Archetype assignments** for the fifteen are the build's (primary · secondary above). Confirm or move any.
 3. **Brokerage-specific figures** quoted in the lessons (co-working access, cap deferral, health-benefit savings, the
    "88% don't recruit" statistic, cap and split numbers) are deliberately NOT in the handlers; they come from each

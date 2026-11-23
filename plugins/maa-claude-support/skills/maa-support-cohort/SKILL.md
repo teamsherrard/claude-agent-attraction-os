@@ -74,9 +74,10 @@ The method is fixed — `source-map.md`'s knowledge-base rule, in full:
    have it Thursday."* Never fill a curriculum gap with generic marketing advice dressed as Mike's.
 6. A lesson that references a parked tool or an older name → bridge, never debunk (the strategy
    holds; the tool changed).
-7. Then the forward step: the skill that DOES the thing Mike described (the objection → `cv-objection-coach`
-   in Week 6; the offer → `attraction-offer`; the avatar → `attraction-persona-map`), or "that
-   plugin arrives in Week N."
+7. Then the forward step: the skill that DOES the thing Mike described (the objection → `cv-trainer`
+   in Week 6 — "they said [objection]" for the handle, "train me" to drill it; the partner call → `cv-setup`'s
+   enrollment call, "prep my call" before one; the offer → `attraction-offer`; the avatar →
+   `attraction-persona-map`), or "that plugin arrives in Week N."
 
 Log with category `ask-mike` — these rows tell Mike which lessons members keep reaching for.
 

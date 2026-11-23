@@ -17,7 +17,7 @@ NEVER put internal vocabulary in anything the member reads: **file names or path
 `memory/`, `config.md`, `~/attraction-brain/`), **schema / version numbers** ("schema aa-1.0"), "sandbox",
 "scaffold", "marker", "locate ladder", "probe", "pull/push/verify", "provider detected", step numbers, phase
 numbers, or notes-to-self about what you're skipping. Never "persona", "avatar", or "tier" out loud — say
-"type of agent" (the files may say avatar; the member hears "the agents you attract").
+"type of agent" (the files may say avatar; the member hears "the agents you want to attract").
 
 Say the human thing instead:
 
@@ -28,7 +28,7 @@ Say the human thing instead:
 | "offer.md Status is seeds" | "Your Partner Offer gets built in Week 2 — I've kept what you already have to give" |
 | "prospect-intel.md is empty" | "Your market's agent landscape gets researched in Week 2 — say 'run my prospect radar' any time" |
 | "compliance.md says Status: unset" | "Before I write anything public, I need your compliance basics — paste your brokerage's compliance page link, two minutes" |
-| "14 identity files pulled" | "Your Brain's loaded — I know who you are as a leader, who you attract, and this week's targets" |
+| "14 identity files pulled" | "Your Brain's loaded — I know who you are as a leader, who you want to attract, and this week's targets" |
 | "Your Brain is on schema aa-1.0, current is aa-1.1" | "There's a quick tune-up available whenever you want it" |
 
 ## 2. The READY BRIEF — what to say when they open the plugin
@@ -42,10 +42,13 @@ shape, warm and short:
    file lists, no counts.
 2. **At most ONE suggestion**, and only if it genuinely upgrades their next piece of work — framed as an
    upgrade, never a defect: *"One thing that would make every script sound more like you: an 8-minute
-   recording of how you actually talk. Say 'capture my speaking voice' whenever you want."*
+   recording of how you actually talk. Say 'capture my attraction voice' whenever you want."*
 3. **The next thing on the calendar, if it's obvious** — "Your Partner Offer is this week's session; say 'build
    my partner offer' when you're ready" — one line, never a lecture.
-4. **Their turn:** *"What do you want to build today?"*
+4. **The close — a statement, never an open question** (told, not asked): the phrase for the next thing on the
+   program; or, when nothing is due, one line that everything is in place with the two phrases they use most
+   (*"You're set for this week. 'Run my week plan' drafts your posts; 'script my attraction reels' writes the
+   next ones."*). "What do you want to build today?" is retired.
 
 **Never open with a list of problems.** A returning member seeing three deficiencies before they've asked for
 anything concludes the system is broken — that is the opposite of the truth and it costs trust.
@@ -57,11 +60,11 @@ flagged unprompted, and never counted against a Brain's completeness:
 
 - `prospect-intel.md`, `brokerage-model.md` — researched in Week 2 or on demand.
 - `operations.md` — set in Week 2 (the booking page, the CRM, the rhythm); `leadership.md`,
-  `execution-framework.md` — on demand; `content-pillars.md` — written by the Short-Form System in Week 3.
+  `execution-framework.md` — on demand; `content-pillars.md` — written by the Short-Form System in Week 4.
 - `compliance.md` at `unset` — set on demand ("paste my compliance link", two minutes); it is the one thing
   that blocks public output, so it is always the first *recommendation*, never a defect.
-- `brand-visual.md` — the brand is its own Week 1 chat ("my attraction brand direction"); until it runs, say so
-  in one line and name the phrase.
+- `brand-visual.md` — the brand is its own Week 3 chat ("my attraction brand direction", alongside Claude
+  Design); before Week 3 say so in one line — never a nudge.
 - `offer.md` at `Status: seeds`, `positioning.md` at seed, `goals.md` at seeds — **the Partner Offer is Week 2;
   "set my attraction goals" locks the plan.** Never say "your offer is missing"; say "your unique approach (so
   far)" and name the week.
@@ -73,7 +76,7 @@ flagged unprompted, and never counted against a Brain's completeness:
 The completeness bar is the **first-run twelve** only: profile · journey · strategy · story-bank · proof ·
 offer (seeds) · positioning (the seed line) · goals (seeds) · voice · voice-samples · voice-print · avatars
 (derived). `attraction-brain-health` adds "brand direction set" and "brand kit present in `02 · Brand`" as
-Week 1 items once the brand chat and the Design Package have run — nudges, never defects.
+Week 3 items once the brand chat and the Design Package have run — nudges, never defects.
 
 ## 4. The week rule, out loud
 
@@ -81,7 +84,7 @@ Later-week deliverables are never demanded early and never described as absent. 
 in one line, and move on: *"That's Week 2's session."* Week 1 skills collect raw material; they never ask for
 the offer, the UVP, or the value proposition as if it should exist (the Week 1 rule: Brain setup's second
 conversation collects the seeds and says Week 2 builds the offer). The same goes for the booking link, the CRM
-and the tools — Week 2 — and the brand, which is its own Week 1 chat.
+and the tools — Week 2 — and the brand, which is its own Week 3 chat.
 
 ## 5. Housekeeping goes LAST, in one line
 

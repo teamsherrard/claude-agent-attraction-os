@@ -1,11 +1,11 @@
 # [Name] — Attraction Operations
 *identity · how the member runs their organization · owner: `attraction-operations` (on demand — set in Week 2, never at Brain setup; the owner's ruling, 2026-11-02: CRM, booking links and the rhythm are a Week 2 topic) · the AI Admin and the Daily Debrief read this · set [date]*
-*Shape LOCKED by the owner (`attraction-operations` → "Write identity/operations.md") — every label below is one the Admin, the Debrief, the Conversion plugin (`sales-system-setup` mirrors the booking link and call block), and the content plugins (the filming window, the Friday time) read by name. Empty rows are a promise, not a bug. Timezone lives in `config.md` only. `CRM:` mirrors `config.md → CRM`.*
-*Status at setup: every line below reads "set in Week 2". The booking page is built WITH the member in Week 2 by the Conversion & Sales plugin's `sales-booking-page` ("write my booking page"); `attraction-operations` records the link here.*
+*Shape LOCKED by the owner (`attraction-operations` → "Write identity/operations.md") — every label below is one the Admin, the Debrief, the Conversion plugin (`cv-setup` mirrors the 3-way partner and call length), and the content plugins (the filming window, the Friday time) read by name. Empty rows are a promise, not a bug. Timezone lives in `config.md` only. `CRM:` mirrors `config.md → CRM`.*
+*Status at setup: every line below reads "set in Week 2". The booking page is built WITH the member in Week 2, alongside the offer and the funnel; `attraction-operations` records the link here.*
 
 **Working hours:** [set in Week 2 — e.g., Mon–Fri 9–6, one evening block for calls] · **Working days:** [set in Week 2 — the Debrief's daily slice divides by this; default 5] · (timezone in config.md)
 **Response commitment:** prospects [set in Week 2] · agents in the org [set in Week 2]
-**Booking:** [set in Week 2 — the booking page built with `sales-booking-page`; until then the best channel: "DM me on Instagram" / "text me"] · partner call [30] min · [Zoom / Meet / Teams]
+**Booking:** [set in Week 2 — the booking page built with the funnel; until then the best channel: "DM me on Instagram" / "text me"] · partner call [30] min · [Zoom / Meet / Teams]
 **Partner-call block:** [set in Week 2 — n slots/week · days + times]
 **3-way call partner (upline):** [set in Week 2 — name · how to loop them in — or "nobody yet"; the person in the upline who explains the model best, not necessarily the sponsor (`02-prospect-targeting/19`)]
 **Weekly model call:** [set in Week 2 — day/time · link — or "none yet"; the "model explained + my value" call agents' prospects are invited to]

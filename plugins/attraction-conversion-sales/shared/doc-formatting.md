@@ -1,6 +1,6 @@
 # Brain Doc Formatting — render deliverables as clean, formatted .docx
 
-How the Brain's skills save documents (the Partner Offer, the Scorecard, the Why Join Me doc, the Model Positioning Sheet) so
+How the Brain's skills save documents (the Partner Offer, the Week 3 Kit, the Scorecard, the Model Positioning Sheet) so
 they're organized in Drive and genuinely look good. When a skill says "save as a clean doc (doc-formatting
 standard)," it means this. **Every deliverable is rendered to a formatted `.docx` in one neutral house style —
 the same clean look for every member (no colour, no per-member branding).**
@@ -82,8 +82,8 @@ for this system; the documents must feel like it.
   a step with a plain word. Never open it with a capital letter followed only by capitals, digits and spaces
   up to a hyphen, dash or period — the renderer reads that run as a bold lead and splits the step there:
   `1. A 45-minute call` renders as a bold "A 45-" followed by "minute call". Write
-  `1. The welcome call — 45 minutes …` instead. The one sanctioned bold lead is deliberate: ALL CAPS, ending
-  in a dash (`1. WELCOME CALL — 45 minutes …`).
+  `1. The welcome video — 12 minutes …` instead. The one sanctioned bold lead is deliberate: ALL CAPS, ending
+  in a dash (`1. WELCOME VIDEO — 12 minutes …`).
 - **Labels and cues on their own lines** (e.g. `HOOK (read word-for-word)` then the hook on the next line) —
   scripts and captions never run together as a blob. **Copy the agent will paste** (captions, hashtags,
   descriptions) under a clear label, ready to grab.

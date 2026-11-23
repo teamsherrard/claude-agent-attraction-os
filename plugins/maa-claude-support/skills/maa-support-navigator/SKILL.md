@@ -89,6 +89,7 @@ confusion), and **how they feel** (frustrated → slow down, extra reassurance).
 | Anything broken, erroring, stuck, "not working", "no Brain found", "my debrief never ran", "the zip won't upload", "Riverside can't see my recording" | `maa-support-diagnose` |
 | "Is Claude down?" / everything failing at once | `maa-support-diagnose` (status first) |
 | "What's the difference / what is / how does X work" (Claude, plugins, connectors, scheduled tasks, Claude Design, Claude Voice, ManyChat templates, the CRM options) | `maa-support-teach` |
+| "How do I use the trainer by voice?" · "where's my script?" · "nothing was prepped this morning" (Week 6) | Instant answer from `faq.md` Q82 · Q84 · Q83 (the Sales Trainer runs aloud in the Claude app through the Sales Trainer card, never in Cowork; the four documents are in Drive → 05 · Offer; the Morning Call Prep needs a partner call on today's calendar, the calendar connected, and the card's Yes — "turn on my morning call prep") |
 | "How do I set up / install / connect", brand-new member, "which plugin do I install this week" | `maa-support-onboard` |
 | Price, plan, limit, model, billing, "is my data private", "what does the whole stack cost" | `maa-support-account` |
 | "What week am I in / this week's homework / I'm behind / where's the playbook / when's graduation / am I in Week 7" | `maa-support-cohort` |

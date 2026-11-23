@@ -79,7 +79,8 @@ Golden rule: nothing in this system auto-sends — Claude drafts, you approve.
 **Q8. Can I talk to it instead of typing?**
 Yes — voice mode. Your phone is the sweet spot: driving back from a showing, say "I just talked
 to an agent, capture this…" and the capture skill files it in your top 50 and conversations. In
-Week 6 voice is also how you practice objections: Claude plays the agent, you answer out loud. You
+Week 6 voice is also how you train with your Sales Trainer in the car: Claude plays the agent, you
+answer out loud (Q82 has the three steps — it runs in the Claude app, not in Cowork). You
 can also just dictate into any chat like a voice memo. Exactly which devices have voice mode
 today: I'll check the official page — it's still rolling out. **[check live for surfaces]**
 
@@ -566,9 +567,10 @@ Scheduled agents only exist if you said yes when their owner skill offered them 
 ever DRAFT.
 
 - The Debrief is never offered inside Brain setup — say "turn on my daily debrief"; one short-form workflow (the Monday Week Plan) on one card in Week 4; one YouTube workflow (the
-  Monday Kickoff — your monthly channel review runs inside it on the first Monday of the month) on one card in Week 5; the follow-up queue and call prep in Week 6. Two things are on demand, never scheduled: the Prospect Radar's
+  Monday Kickoff — your monthly channel review runs inside it on the first Monday of the month) on one card in Week 5; one conversion workflow (your Morning Call Prep — your follow-ups ride inside it on Mondays) on one card in Week 6. Two things are on demand, never scheduled: the Prospect Radar's
   news scan ("scan agent movement") and the CEO review ("run my CEO review") — just say the phrase
-- Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase)
+- Said no, or setup ended early? Say "turn on my daily debrief" (or the owner skill's own phrase —
+  "turn on my Monday week plan", "turn on my attraction Monday kickoff", "turn on my morning call prep")
   and it offers again — I never create one for you
 - Said yes but nothing shows? Open Cowork's scheduled-tasks panel and screenshot it for me
 - Ran but "nothing happened"? It writes tomorrow's three moves to your Brain — check
@@ -889,3 +891,53 @@ an Edits reel carries your hook banner with your words in it, your CTA banner to
 kit registered.) Saw "1 with warnings" on the editor plugin under Customize → Plugins? One skill (Energy — the zooms,
 "make it punchier") shipped with a formatting slip and did not install; it is fixed, and the next plugin sync clears
 the warning.
+
+**Q82. How do I use the Sales Trainer by voice? (Week 6)**
+In Cowork the Trainer is text: say "train me" and Claude plays an agent, throws a question or an objection, and scores
+your answer 0 to 10 with one fix in your own words. Voice mode is not in Cowork, so the out-loud version runs in the
+Claude app on your phone, in three steps:
+
+- Your Week 6 sitting saved a document called "Sales Trainer — [your name]" in your Drive → 05 · Offer. Add it to a
+  Project in the Claude app (New project → add the file)
+- In that Project, tap the voice icon and say "train me" — Claude plays the agent from the card; answer the way you
+  would on the call; say "stop" when you are done
+- Back in Cowork, say "log my training: happy where I am 7, pyramid 9 …" — the scores land in your Practice log and
+  your top five updates
+
+The app never runs the plugin or writes your Brain — the card is what it reads, which is why you log the round back
+here. Rebuilt your playbook? Say "train me" once in Cowork and it hands you a refreshed card to swap into the Project.
+
+Next step: say "train me" here first — one round shows you the scoring shape before you take it to the car.
+
+**Q83. Nothing was prepped this morning. Is my Morning Call Prep broken? (Week 6)**
+Usually not. Three things, cheapest first:
+
+- **No partner call on today's calendar.** Then the note says "No calls today" — that is the task working. On a
+  Monday it still drafts your week's follow-ups, and on the 1st the agents who went quiet
+- **Your calendar isn't connected.** The sitting set the task aside and said so: in the left sidebar click
+  Customize → Connectors → Google Calendar (Microsoft 365 on an Outlook account) → Connect, then say "turn on my
+  morning call prep"
+- **The card never got your Yes** (you said "not now" or left before it), or you switched it off. Say "turn on my
+  morning call prep" — it shows the card again and creates the task only on your Yes
+
+Any day, "prep today's calls" runs it right now in the chat, and "prep my call with [name]" preps one call. It only
+drafts: nothing is sent, booked or moved, and the short note goes only to your own inbox, only when your mail is
+connected. Still nothing after those three? Open Cowork's scheduled-tasks panel and screenshot it for me (Q46).
+
+Next step: say "prep my call" before your next partner call — the same brief, on demand.
+
+**Q84. Where's my script? (Week 6)**
+In your Drive → Agent Attraction OS → 05 · Offer, four documents with your name on them:
+
+- **Enrollment Call — [your name]** — the full call and the 30-minute version, with the one-page card on the last
+  page (the six steps and one question each)
+- **Partner Presentation — [your name]** — the bridge-the-gap one-pager
+- **Objection Playbook — [your name]** — the fifteen in your words, plus your brokerage's own answers
+- **Sales Trainer — [your name]** — the voice card for the Claude app (Q82)
+
+The full text is also on your Brain Board's conversion page, and your Morning Call Prep and your Sales Trainer read it
+from there. Changed your offer or your stories? "update my call script", "update my presentation" or "update my
+objection playbook" rebuilds that one piece under today's date — the newest is the current one. A presentation marked
+"on hold" is waiting for your compliance step: "set up my attraction compliance", three minutes.
+
+Next step: open the Enrollment Call and read the card on the last page — that is the whole call in six lines.

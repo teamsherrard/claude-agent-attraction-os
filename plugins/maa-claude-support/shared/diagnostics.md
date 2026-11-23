@@ -91,7 +91,8 @@ almost always a PHRASE or a FOLDER mix-up, never data loss.
    done; verify with the cheap read again. Card won't surface → route the OWNER: Google/Microsoft
    → the walkthrough in `maa-support-teach` (card-first, article-guided Settings as fallback) ·
    Riverside → **`studio-setup`** (tree #12) · Metricool → **`sf-setup`** · the CRM → the
-   `admin-*` / `sales-system-setup` connect step · ManyChat is NOT a connector (bonus templates
+   `admin-*` connect step (the Conversion plugin has no CRM step) · the calendar for the Morning
+   Call Prep → **`cv-call-prep`** ("turn on my morning call prep" once it is connected) · ManyChat is NOT a connector (bonus templates
    on their own account — their ManyChat login, nothing to reconnect in Claude).
 4. **Read works but the SKILL can't see the thing** (folder/calendar/project) → scope or location:
    confirm the exact folder/calendar name they expect; commonly the file lives outside the
@@ -224,7 +225,7 @@ almost always a PHRASE or a FOLDER mix-up, never data loss.
    the PUSH didn't (an unsynced write is a lost write) → `attraction-brain-sync` push from the
    machine that has it; recurring → escalate as a sync bug.
 
-## Tree #10 — "My scheduled agent never ran" (Debrief, Monday Week Plan, Monday Kickoff, any owned agent)
+## Tree #10 — "My scheduled agent never ran" (Debrief, Monday Week Plan, Monday Kickoff, Morning Call Prep, any owned agent)
 
 Every scheduled agent in this OS is created by its OWNER skill (`stack-map.md` table) only after
 the member says yes, and it's draft-only. "Never ran" has four causes, cheapest first — but first
@@ -232,15 +233,16 @@ rule out the two that were never scheduled: "my agent movement watcher never ran
 Radar's news scan runs on demand, say "scan agent movement"; "my CEO review never ran" → say "run
 my CEO review". Neither has a task; that is by design, not a failure.
 
-1. **Was the yes ever given?** Ask one question: "When you set up [Short-Form / YouTube / the
-   Admin…], did it show you a card listing what it was switching on — and did you say Yes to it?" The
-   short-form and YouTube setups show ONE card (one workflow each — the Monday Week Plan since Short-Form 0.10.0; the
-   Monday Kickoff since YouTube 0.11.0, the monthly review inside it on the first Monday) and create nothing before that
+1. **Was the yes ever given?** Ask one question: "When you set up [Short-Form / YouTube / your conversion
+   system / the Admin…], did it show you a card listing what it was switching on — and did you say Yes to it?" The
+   short-form, YouTube and conversion setups show ONE card (one workflow each — the Monday Week Plan since Short-Form 0.10.0; the
+   Monday Kickoff since YouTube 0.11.0, the monthly review inside it on the first Monday; the Morning Call Prep since
+   Conversion & Sales 0.2.0) and create nothing before that
    Yes; a member who answered the card with "not now" has them set aside, by design. (The Daily Debrief is never
    offered inside Brain setup — it is switched on by "turn on my daily debrief" or the AI Admin's card in a
    later week.) No yes → hand them the phrase that switches it on, through its OWNER skill: "turn on my daily
    debrief" (`attraction-debrief`) · "turn on my Monday week plan" (`sf-week-plan`) · "turn on my attraction Monday kickoff"
-   (`yt-briefing`) · "turn on my monthly channel review" gets one line (`yt-triggers`): it runs inside the Monday Kickoff
+   (`yt-briefing`) · "turn on my morning call prep" (`cv-call-prep`) · "turn on my monthly channel review" gets one line (`yt-triggers`): it runs inside the Monday Kickoff
    on the first Monday of the month — turn on the Kickoff. "My attraction workflows" / "my
    attraction YouTube workflows" shows which are on. ("My monthly channel review never ran" → since YouTube 0.11.0 it is not
    its own task; it rides inside the first Monday's Kickoff note, and "run my monthly channel review" runs it any day. A
@@ -248,8 +250,15 @@ my CEO review". Neither has a task; that is by design, not a failure.
    attraction YouTube setup".) ("My batch prep / news watch / calendar refill never ran" → those
    were retired as tasks on 2026-11-22; their work rides inside the Monday package — one task, not four. A member whose
    Scheduled list still shows them is on a version before 0.10.0: update the plugin, new chat, "continue my attraction
-   short-form", and the setup deletes the three in one line.) Support never creates a scheduled task itself, and a demo
-   Brain never gets one.
+   short-form", and the setup deletes the three in one line.) **"Nothing was prepped this morning"** (the Morning Call
+   Prep) has its own three causes, cheapest first: ① no partner call on today's calendar — the note says "No calls today"
+   and that is the task working (Mondays it still drafts the week's follow-ups; the 1st the quiet list); ② the calendar is
+   not connected — the setup set the task aside (`Morning Call Prep task: later`) and stated the Connect line: Customize →
+   Connectors → Google Calendar (Microsoft 365 on an Outlook account) → Connect, then "turn on my morning call prep";
+   ③ the card never got its Yes (`later`) or was switched off (`declined`) — "turn on my morning call prep". "Prep today's
+   calls" runs it on demand any day, no task needed. ("My call block prep / my reactivation never ran" → those were
+   retired as tasks on 2026-11-22; both ride inside the Morning Call Prep — Mondays and the 1st.) Support never creates a
+   scheduled task itself, and a demo Brain never gets one.
 2. **Does the task EXIST?** Cowork's scheduled-tasks panel (screenshot if unsure; the member's
    panel is the truth, support can't list it for them). Yes was given but no task → the creation
    step failed silently → owner skill again, watch it confirm; fails twice → escalate.

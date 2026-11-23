@@ -29,9 +29,12 @@ this paragraph.)
 
 **Voice:** voice mode lets them TALK to Claude — the phone is the sweet spot (capture skill from
 the car: "I just talked to an agent at the open house…"), in Weeks 4 and 5 it's the easy way to answer a setup's questions (tap the microphone in the message box and
-say a sentence or two — nobody has to type), and in Week 6 it's the objection
-role-play surface (Claude plays the agent, they practice out loud). Talking is an input method;
-the same brain and rules apply.
+say a sentence or two — nobody has to type), and in Week 6 it's how the Sales Trainer runs in
+the car: voice mode is NOT in Cowork, so the member adds their Sales Trainer card (a document the
+Week 6 sitting saves to Drive → 05 · Offer) to a Project in the Claude app, taps the voice icon
+and says "train me" — Claude plays the agent, they answer out loud; back in Cowork, "log my
+training: …" writes the scores to their Brain. Talking is an input method; the same brain and
+rules apply. The Claude app never runs a plugin or writes the Brain — the card is what it reads.
 (Which surfaces have voice mode today: fetch the mapped voice article live, then guide.)
 
 ## 2. The house metaphor (how the pieces fit)

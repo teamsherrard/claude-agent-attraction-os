@@ -41,9 +41,11 @@ Read `~/attraction-brain/brain.md`, then:
 - `identity/operations.md` — onboarding steps, the 3-way partner, the follow-up cadence, the email signature.
 - `identity/compliance.md` — its first line, `Status:`, is the gate for the recap email.
 - `memory/objections.md` — the member's handlers, to check what they used.
+- `identity/conversion.md` — the member's own enrollment call and objection playbook (built in the Week 6
+  sitting), so the audit measures the call against the script they actually have.
 - `config.md` — whether the AI Admin block exists (decides write vs request below).
 `${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` for the call framework and
-`${CLAUDE_PLUGIN_ROOT}/skills/cv-objection-coach/references/objection-bank.md` for the objection names (the
+`${CLAUDE_PLUGIN_ROOT}/skills/cv-trainer/references/objection-bank.md` for the objection names (the
 fifteen `###` headings, then only the matched entries) — read at the audit step, not before.
 
 **The call itself:** a pasted transcript, a Fathom or Zoom summary, a Riverside transcript, a DM thread, or
@@ -73,7 +75,8 @@ Six checks, each reported only when it happened — no filler "you did well on�
    got asked and write the question that was missing.
 4. **Fumbled an objection.** Match each objection to the bank; was it Listen → Validate → the question →
    Reframe → Invite, or an argument? Quote the member's answer, say which step was skipped, and write the
-   better answer in their voice (two to four sentences). Send the objection to `cv-objection-coach` for a rep.
+   better answer in their voice (two to four sentences). The Sales Trainer drills it next ("drill me on
+   [objection]" → `cv-trainer`).
 5. **Answered compensation unasked, or harped on what the member cares about.** "If you care about revenue
    share and they care about production, don't talk about revenue share" (`/42`, `/44`). Flag splits, caps,
    stock, or rev share raised before the agent asked or before it mapped to a goal they named — and any
@@ -154,8 +157,9 @@ Written for the member to record on Loom; never generated as media.
 - **`memory/top-50.md`** — the Top-50 skill mirrors stage from the pipeline. Only when the AI Admin is not
   installed, update that agent's **Last touch · Next move · Due** cells (the same interim allowance
   `attraction-capture` has); otherwise request it alongside the stage move.
-- **`memory/objections.md`** — a fumbled objection goes in as a row with `Did it land? no`, so the coach can
-  drill it.
+- **`memory/objections.md`** — a fumbled objection goes in as a heard-row in the table's own shape with
+  `Did it land? no`, so the Sales Trainer (`cv-trainer`, the owner of the handlers, the Practice log and the
+  Top five) can drill it. Nothing else in that file is written here.
 - Fumbled model questions → one line for the Brokerage Model Expert; a story or win that surfaced → the
   member hears "say 'remember this moment' and it goes to your story bank" (capture owns that write).
 - Then `attraction-brain-sync` PUSH and verify. If the push fails after one retry: say the debrief is NOT
@@ -165,8 +169,8 @@ Written for the member to record on Loom; never generated as media.
 THE CALL IN ONE LINE · THE AUDIT (only the findings that happened, each with its moment, then the one fix) ·
 THE READ (motivations · fears · criteria · signals · competitive · promised · open loops) · PROBABILITY and
 why · NEXT MOVE with timing (and the 3-way or nurture hand-off) · THE RECAP EMAIL (draft) · STAGE MOVE
-(written or requested) · one closing line: *"Logged. Say 'drill me on [objection]' before the next one, or
-'follow-up plan for [name]' to map the next 90 days. Your turn."*
+(written or requested) · one closing line: *"✓ Debriefed and logged. Say 'drill me on [objection]' before the
+next one, or 'follow-up plan for [name]' for the next 90 days."* Nothing after; no "your turn" — nothing was asked.
 
 ## DM thread mode (the launching doc's "here's the conversation I'm having with Sarah")
 A pasted DM thread gets the same read, lighter: where it sits (comment · DM · qualify · invite — `cv-dm-flow`'s

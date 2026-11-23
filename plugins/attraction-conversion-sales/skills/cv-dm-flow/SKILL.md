@@ -28,8 +28,8 @@ Read `brain.md` (pull the Brain if missing locally) · `identity/voice.md`, `voi
 `voice-print.md` (the rhythm, the words they use, how they say thanks — a reply that doesn't sound like them is
 a failed reply) · `identity/offer.md` for the one resource the member can give (the sheet, the routine, the
 video; at seeds stage, the teach-first thing) · `identity/avatars.md` to place the person · `memory/top-50.md`
-and `memory/conversations.md` for any earlier rows with this name · `config.md` Conversion block for the
-booking link (`Booking page`; none yet → the invite offers "I'll send you a time" and the member picks) ·
+and `memory/conversations.md` for any earlier rows with this name · `identity/operations.md` for the booking
+link (Week 2's; none there → the invite offers "I'll send you a time" and the member picks — never asked for) ·
 `identity/compliance.md` (its first line, `Status:`): a DM is something a prospect sees — **unset → stop, one
 warm line ("say 'set up my attraction compliance'"), no draft; set → apply and remind once; confirmed → apply.**
 
@@ -45,8 +45,8 @@ Reel, the keyword, the resource promised, and the exchange so far — use it, as
 | **Invite** | they've named a problem or a goal; they asked how you do it, or what you'd do | one plain invitation to a call with a reason tied to what they said, plus the booking link; one line, no pressure, an easy out |
 
 ## The qualifier questions (one per reply, never a list in a DM)
-In the member's words, adapted to the type of agent — the discovery and vision set from
-`cv-question-funnel`: *How's your business been this year — what's working and what isn't?* · *What piqued
+In the member's words, adapted to the type of agent — the discovery and vision set in
+`${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` §4: *How's your business been this year — what's working and what isn't?* · *What piqued
 your interest in [the post]?* · *What's frustrating you most right now?* · *What do you feel is missing where
 you are?* · *If nothing changes, where are you 12 months from now?* · *What would [their goal] change for you?*
 Never: which brokerage, how much they make, whether they'd consider moving. Those come out on their own.
@@ -90,4 +90,5 @@ Next move · Due cells on the Top-50 (the interim allowance in `shared/brain-con
 - Banned words and the recruiter register per `how-we-speak.md` §7.
 
 ## Close
-*"Send that, and paste what they say back — I'll keep it going until it's a call or it's clearly not the time."*
+*"✓ Your reply's ready, in your voice. Send that, and paste what they say back — I'll keep it going until
+it's a call or it's clearly not the time."* Nothing asked, nothing after.

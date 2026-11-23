@@ -93,13 +93,14 @@ Why this works: [one line — the context it uses, the curiosity it opens, what 
 OPTION 2 · … (a different angle, not a reword)
 OPTION 3 · … (the shortest one)
 ```
-Then: **If they reply:** the one discovery question to ask next (from `cv-question-funnel`'s discovery set,
-adapted to their type) — and the rule: the invitation to a call comes after the second or third exchange,
-when they've named a problem, never before. **If they don't reply:** nothing for 7–10 days, then one more
-touch with a reason (`cv-follow-up`), never "just checking in."
+Then: **If they reply:** the one discovery question to ask next (the discovery set in
+`${CLAUDE_PLUGIN_ROOT}/shared/conversion-doctrine.md` §4, adapted to their type) — and the rule: the
+invitation to a call comes after the second or third exchange, when they've named a problem, never before.
+**If they don't reply:** nothing for 7–10 days, then one more touch with a reason (`cv-follow-up`), never
+"just checking in."
 
-For a batch ("openers for my top ten"): one option per agent with its why, ordered by Top-50 priority, and the
-offer to expand any one to three.
+For a batch ("openers for my top ten"): one option per agent with its why, ordered by Top-50 priority; one
+stated line at the end — *"'Three for [name]' expands any one of these."* — never a question.
 
 ## Intake mode — the three starters a video hands over (`yt-repurpose`)
 The YouTube plugin's `yt-repurpose` hands this skill three conversation starters per video — one for a cold
@@ -140,4 +141,5 @@ on [date]."* Never log a message the member didn't say they sent.
 - Banned words and the recruiter register per `how-we-speak.md` §7. The people they attract are "agents."
 
 ## Close
-*"Pick one, make it yours, send it. Tell me when it's gone and I'll log it and remind you when to follow up."*
+*"✓ Three openers for [Name], in your voice. Pick one, make it yours, send it. Tell me when it's gone and I'll
+log it and remind you when to follow up."* Nothing asked, nothing after.

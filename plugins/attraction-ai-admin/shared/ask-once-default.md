@@ -5,15 +5,17 @@ the output stays detailed and strategic even when they barely type. The goal: **
 member, the highest-quality file for the Brain.**
 
 ## The rule
-1. **Ask each question once**, conversationally — in small groups of **2–4 related questions per stop** (the
-   question card holds four), never a 20-field form. Every turn replays the whole context, so fewer stops = a
-   faster setup AND a fraction of the usage. Warm, grouped by topic, never a form. **The one exception, by the
-   owner's ruling (2026-11-02): the Brain setup (`attraction-brain-setup`) asks ONE plain question per turn** —
-   its 26 questions plus three spoken answers — because a question that bundles four asks is a question nobody
-   can answer. Inside the Brain setup, "I don't know" is a placeholder and the next question (a consult only
-   on the four questions the setup skill lists: the WHY, the sponsor, the strategy and the 12-month number);
-   no open follow-up after a chip selection; no "one block to confirm" — the setup skill's own rules override
-   this file wherever they differ. Every other skill groups.
+1. **Ask only what the Brain cannot hold — and ask each such question once, ONE plain question per turn**, in
+   chat, never through a form or a question card with several fields (the owner, 2026-11-02 and 2026-11-14: a
+   question that bundles four asks is a question nobody can answer, and process steps are told, never asked —
+   the section below). Every turn replays the whole context, so fewer questions = a faster sitting AND a
+   fraction of the usage. The Brain setup (`attraction-brain-setup`) is the one long interview — its 26
+   questions plus three spoken answers, one per turn; inside it, "I don't know" is a placeholder and the next
+   question (a consult only on the four questions the setup skill lists: the WHY, the sponsor, the strategy and
+   the 12-month number); no open follow-up after a chip selection; no "one block to confirm" — the setup
+   skill's own rules override this file wherever they differ. Every other skill asks at most the one or two
+   facts its own file names — the two content sittings ask one blanket question each, the day the member can
+   film (the last section of this file).
 2. **If the member answers → use it verbatim.** Never overwrite a real answer with a guess.
 3. **If they hesitate / "I don't know" / "you pick" / "not sure" → generate a sensible default** from their
    Brain (or the attraction doctrine's standard) and let them confirm in one word.
@@ -95,3 +97,47 @@ homework."* Make the member feel guided, not quizzed. They should be able to fin
 defaults, and still get a file that looks like a pro built it for them. The money conversation (the Rev Share
 Calculator, on demand — never part of Brain setup) in particular: *"Every number here is an example built from
 your own assumptions — nothing is a promise, and you adjust the target or the hours, never the math."*
+
+## Process steps are told, not asked (the owner, 2026-11-14 — binding for every plugin)
+Members follow the program. A step that is part of the process is announced as what will be built — never offered as
+a choice. No "all, some, or not yet"; no "want me to email you?"; no "which platforms do you post on"; no "do you use
+ManyChat"; no menu of defaults to pick from. The consent card for scheduled workflows is ONE statement — what switches
+on, when, that every one only drafts, that a short email comes to their own address when something is ready — closed
+by one line the member answers with "Yes" (that yes is the explicit consent every scheduled task needs; nothing is
+created before it). Extras are stated ("they're there if you want them — say the word any time"), never offered. About
+the process, the only questions left are facts the Brain cannot hold (a channel link, a booking link); everything else is defaulted
+from the Brain, said in one line, and closed with "change it any time".
+
+## The content sittings ask one blanket question each — the filming day (the owner, 2026-11-15 to 2026-11-21 — the short-form and YouTube plugins)
+"Told, not asked" is about the machine: the workflows, the email, the platforms, the tools. The member is still
+part of their own work at every step. The owner, in order: *"it should WAIT for me"*; *"the student also needs to
+feel a WIN that they did something to achieve the result"*; the sitting should *"feel almost like an interview"*,
+the member *"involved… a part of making it happen"*; and then, after the first live run asked a member what agents
+say to them on the phone: *"the questions could be different for each person… There are a lot of people in this
+group that are first-time agent attractors, and they've never attracted an agent in their life… We need to make
+sure that they're blanket questions and the questions are the same across the board. Also, we don't really need
+more questions because they've already gone through a lot of this when they were building their AI brain."* And
+on 2026-11-17, shown the short-form sitting's question about what the member does off the clock: *"makes no sense
+remove it."* And on 2026-11-21, shown the YouTube sitting's question about which topic the member could talk about
+for twenty minutes with no notes: *"this question doesn't really make sense… Why is this needed?"* So, in the
+Week 4 and Week 5 sittings:
+- **Only the question printed in the sitting's own skill — ONE in each sitting: the day the member can film —
+  word for word the same for every member.** Never reworded for a member, never a personal line built into the
+  question, never one more. Nothing about who the member is, what they like, what they are good at or what they
+  are known for: the Brain holds it, or it is drafted and read back.
+- **The test a question must pass:** every member can answer it, including one who has never attracted an agent ·
+  the Brain does not already hold it · the build cannot be made without it.
+- **Never a question that assumes experience** — what agents say to them, who they have helped, calls they have
+  had, results they have got.
+- **Everything else is read back from the Brain** in the member's own words, for a Yes or a change. That is the
+  involvement: they see what they said put to work, and they steer it.
+- **The question has its own reply** (labelled "One question:"), answerable in a sentence, typed
+  or spoken; heard back in the next reply; saved verbatim; no "anything to add?" after a pick.
+- **Plain chat only.** The question, every stop line and every pick are sentences in the reply. Never a question
+  card, a pop-up, buttons, chips or a multiple-choice box in these sittings, and never a question tool
+  (`AskUserQuestion` or anything like it): a card needs options, and an option or a description made up to fill it
+  is a line nobody wrote and no member can answer.
+- **"Skip", "I don't know" and "you pick" always work** — the Brain fills it, said in one line, never asked twice
+  (rule 3's options-and-confirm is for the Brain's own phases).
+- **No skill asks a question before writing a script, and a scheduled run never asks;** the member's own wording
+  is always welcome, never required.

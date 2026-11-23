@@ -1,9 +1,9 @@
 # Conversion Doctrine — Mike's method from first message to "what are the next steps?"
 
-*The source of truth for every `cv-*` and `sales-*` skill. Built from the Week 5 vault — Presentation & Delivery
+*The source of truth for every `cv-*` skill (Conversion & Sales, Week 6). Built from the Week 6 vault — Presentation & Delivery
 (`10-presentation-delivery/41–44`), the objection archetypes (`11-objection-handling/46`), the Simple Tech Stack
 (`12-simple-tech-stack/83–85`) — plus `02-prospect-targeting/18–19`, the three bonus lessons (Bridging the Gap ·
-The Perfect Presentation · Calendly), the Week 5 breakdown, and the Launching doc's skill specs (Agent Intel,
+The Perfect Presentation · Calendly), the Week 6 breakdown, and the Launching doc's skill specs (Agent Intel,
 Conversation Starter, Conversation Coach, Call Prep). Cited as `module/lesson`. Where a rule comes from a planning
 document and not a recording, it says so. Where the vault is thin, it says so — nothing here is invented.*
 
@@ -114,24 +114,24 @@ when."
 The documents carry two namings for the partner call. The transcript's own sequence (§2, with lessons 44 and the
 two bonus lessons) is the source of truth; both namings are labels on it.
 
-| # | The transcript (what Mike actually does) | Week 5 doc naming | Workshop doc naming | Same step? |
+| # | The transcript (what Mike actually does) | Week 6 doc naming | Workshop doc naming | Same step? |
 |---|---|---|---|---|
 | 0 | Rapport — a genuine open, "how's your business this year, what's working, what isn't" (`/42`, `bonus/perfect-presentation`) | *(not named)* | *(not named)* | Both namings skip it; the call skills carry it as the "Open" minute(s) inside step 1. |
 | 1 | Qualifying questions on their **current state** — what do you love about your brokerage, what's frustrating you, what's missing, what piqued your interest (`/42`, `/44` discovery questions) | **Discovery** | **Diagnose** | Yes — identical. |
 | 2 | Go deeper: why they agreed to the call, what the problem is costing them, what they've tried, **vision** questions — "if nothing changes, where are you in 12 months?" (`/44` vision questions, `bonus/bridging-the-gap`) | **Diagnosis** | **Deepen** | Yes — identical. |
 | 3 | Tailor the model and the value proposition to THEIR goals — "based on what you told me, these are the three things that matter most" (`/42` step 3, `bonus/bridging-the-gap` "bridge the gap") | **Fit** | **Align** | Yes — identical. |
 | 4 | Present the bridge through the lens of their goals: your value, your upline and community, the brokerage model (`/42` step 3, `bonus/perfect-presentation` step 3) | **Positioning** | **Show the Opportunity** | Yes — identical. Steps 3 and 4 are one movement in the transcript ("tailor the model and your value proposition"); both docs split it the same way. |
-| 5 | Handle every objection and question; **commitment** questions bridge the gap — "if I could show you a way to double your business without more time away from your family, would you be open to it?" (`/42` step 4, `/44`, `11-objection-handling/46`) | **Questions** | **Resolve Concerns** | Yes — the Week 5 doc's "Questions" means the prospect's questions and objections (the Launching doc writes it as "Questions/Objections"). |
+| 5 | Handle every objection and question; **commitment** questions bridge the gap — "if I could show you a way to double your business without more time away from your family, would you be open to it?" (`/42` step 4, `/44`, `11-objection-handling/46`) | **Questions** | **Resolve Concerns** | Yes — the Week 6 doc's "Questions" means the prospect's questions and objections (the Launching doc writes it as "Questions/Objections"). |
 | 6 | Get them excited, assume the close, set the transition date, walk them through exactly what happens next, send the email (`/42` step 5 + endings, `bonus/perfect-presentation` step 4) | **Next Step** | **Ask for the Decision / Next Step** | Yes — identical. "Don't finish with 'let me know what you think.'" |
 
-**Locked for this OS:** six steps, one spine. The member sees the **Week 5 doc names** on every document
+**Locked for this OS:** six steps, one spine. The member sees the **Week 6 doc names** on every document
 (Discovery → Diagnosis → Fit → Positioning → Questions → Next Step) — the master plan's default — each with the
 transcript's plain gloss beside it the first time it appears ("Questions — their questions and objections"). The
 workshop names are accepted as synonyms in any input and never corrected out loud.
 
 ### DECISION NEEDED (Mike) — three points the sources do not settle
 
-> **DECISION NEEDED 1 — the label for step 5.** The Week 5 doc calls it "Questions," but lesson 44 teaches that
+> **DECISION NEEDED 1 — the label for step 5.** The Week 6 doc calls it "Questions," but lesson 44 teaches that
 > questions run the WHOLE call, so a step named "Questions" reads as if questioning starts there. The transcript's
 > own words for this step are "handle all of their objections." Options: keep "Questions" with the gloss (current
 > default), rename to "Questions & Objections" (the Launching doc's wording), or adopt "Resolve Concerns." The
@@ -143,14 +143,14 @@ workshop names are accepted as synonyms in any input and never corrected out lou
 > one-hour-then-30; the 30-call threshold is this build's operational default, not a transcript figure), and the
 > enrollment script ships in both a full and a 30-minute version. Confirm, or set one length.
 
-> **DECISION NEEDED 3 — the objection framework label.** Week 5 doc: Listen → Validate → Reframe → Invite.
+> **DECISION NEEDED 3 — the objection framework label.** Week 6 doc: Listen → Validate → Reframe → Invite.
 > Launching doc: Understand → Clarify → Isolate → Reframe → Evidence → Question. Lesson 46's own words are "stay
 > calm, listen, and reframe … 'Hey, I get that. I used to feel that way too, but …'" — which is Listen, Validate,
 > Reframe, with the invite implied. **This file locks Listen → Validate → Reframe → Invite** (the master plan's
 > default and the transcript's shape); the six-step version is folded in as what to do inside each step (Clarify
 > and Isolate are "the question to ask" — the step every lesson places between Validate and Reframe, which
 > `references/objection-bank.md` names as its own line; Evidence lives in Reframe; Question is the Invite).
-> `cv-objection-coach` prints the four. Confirm, or choose the six.
+> `cv-trainer` prints the four. Confirm, or choose the six.
 
 > **Also open — stated once where it arises, listed here so there is one list:** the "5-Point Framework" the cohort
 > docs name is defined nowhere; `cv-follow-up` builds it on lesson 85's five principles (§7) · the fifteen
@@ -252,8 +252,9 @@ uncertainty → lack of belief in themselves or the unknown.
 "Once you know the archetype, you know their hidden fear. Address the real fear and the objection disappears."
 The locked shape: **Listen → Validate → Reframe → Invite** — "Hey, I get that. I used to feel that way too, but …"
 Never fight, never get defensive, never get confrontational; welcome it. Pre-handle what the booking form and the
-discovery questions already revealed (§4 sales loop). `cv-objection-coach` owns practice; `memory/objections.md`
-logs what THIS member heard and what worked.
+discovery questions already revealed (§4 sales loop). `cv-trainer` (the Sales Trainer) owns practice; the
+playbook in the member's words is built in the Week 6 sitting (`cv-setup`, `identity/conversion.md`);
+`memory/objections.md` logs what THIS member heard and what worked.
 
 ---
 
@@ -289,7 +290,8 @@ mindset), lifestyle (freedom and flexibility, never framed as income). Instagram
 YouTube for the conversion and the depth; a Facebook group if you have one; the email list. "They're always
 watching" — when the timing is right they already feel they know you, which is why a 30-minute call converts.
 
-**Owner skills:** `cv-follow-up` (the touches), `cv-reactivation` (quiet prospects, the 30-day agent), both draft-only.
+**Owner skills:** `cv-follow-up` (the touches) and the member's Morning Call Prep (`cv-call-prep`'s one task —
+Mondays the week's follow-ups, the 1st the quiet ones with a real reason or "leave it"), all draft-only.
 
 ---
 
@@ -320,15 +322,15 @@ duplicates — your agents can copy it.
   is the whole CRM. (This OS keeps the same idea in the Brain's pipeline and Top-50; the member's real CRM, if
   any, stays the system of record.)
 
-Owner skills for the OPS: `sales-system-setup`, `sales-booking-page`, `sales-show-up`, `sales-setter`,
-`sales-call-block`, `sales-scorecard`.
+In this OS the booking page, Zoom and the sheet are Week 2's (the Brain's `identity/operations.md`); this
+plugin reads them and never rebuilds or asks about them. No CRM is part of the method.
 
 ---
 
-## 9. Before the call — Agent Intel and starting conversations (Launching doc; Week 5 breakdown; `02-prospect-targeting/18–19`)
+## 9. Before the call — Agent Intel and starting conversations (Launching doc; Week 6 breakdown; `02-prospect-targeting/18–19`)
 
 **Don't recruit. Start conversations.** Outreach is **relevant · personalized · selfless · value-driven · low
-pressure** (Week 5 breakdown; Launching doc Week 5 Part 3). *These five words are the course documents' wording;
+pressure** (Week 6 breakdown; Launching doc Week 6 Part 3). *These five words are the course documents' wording;
 the transcripts say the same thing as "agents attract agents — this is a relationship business" (`02-prospect-targeting/19`).*
 
 **The Agent Intel report** (Launching doc `/agent-intel`): from a name, brokerage, website, Instagram, LinkedIn,
@@ -395,10 +397,11 @@ verb (Mike's own line in §5 is quoted, never paraphrased into prose) · the rec
 ## 12. What is thin or missing (say so, never invent)
 
 - **Lesson 45, "The Perfect Agent Opportunity Presentation"** (the vault's fifth Presentation & Delivery lesson)
-  is not in the transcript export. `cv-presentation` is grounded in the two bonus lessons (Bridging the Gap · The
-  Perfect Presentation) and the workshop's "three things that matter most"; it says so in its own text.
+  is not in the transcript export. The presentation (built in the Week 6 sitting, `cv-setup`) is grounded in the
+  two bonus lessons (Bridging the Gap · The Perfect Presentation) and the workshop's "three things that matter
+  most"; it says so in its own text.
 - The **30% talk-time** figure is a planning-document rule, not a transcript figure (§4).
-- The **five outreach adjectives** and the **NEVER list** are from the Launching doc and the Week 5 breakdown,
+- The **five outreach adjectives** and the **NEVER list** are from the Launching doc and the Week 6 breakdown,
   not a recording (§9).
 - **Mike's actual next-steps and welcome email text** is shown on screen in `10-presentation-delivery/42` and described, not read aloud;
   the skills reproduce the structure, never a verbatim template.

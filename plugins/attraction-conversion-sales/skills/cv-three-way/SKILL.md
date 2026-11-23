@@ -49,8 +49,8 @@ not be your sponsor," `02-prospect-targeting/19`); if the Brain names several, t
   [time] [time zone] work?"*
 - The calendar invite copy (title, two-line description, the Zoom link slot) with the **time zone written out
   twice** ("10:00 am MDT / 12:00 pm ET") — Mike's own mistake, "tons of times."
-- The check list: both accepted? If not, the one-line confirmation text to the prospect. Reminders are
-  `sales-show-up`'s job; this pack names them.
+- The check list: both accepted? If not, the one-line confirmation text to the prospect. Reminders come from
+  the booking page's own settings (built in Week 2, `identity/operations.md`); this pack names them, never rebuilds them.
 
 **DURING — the edification scripts (both directions)**
 1. **Edify the guest FIRST** — even a brand-new agent: something true and specific that makes them feel
@@ -77,7 +77,8 @@ prospect's broker; anything they're sensitive about) · the ask for the call (co
 the proposed next steps if they say yes.
 
 **AFTER — the member owns the outcome**
-- Said yes → the member sends the next-steps email (template from `cv-enrollment-script`), today.
+- Said yes → the member sends the next-steps email (its shape is in their enrollment call,
+  `identity/conversion.md`, built in the Week 6 sitting), today.
 - Not yet → the member follows up, not the partner — the dated touch with a reason (`cv-follow-up`); "this is
   your prospect. Own the outcome."
 - The thank-you line to the partner, and what the member learned (two lines for their own notes).
@@ -102,5 +103,6 @@ immediately. Render the pack per `shared/doc-formatting.md` → `3-Way Pack · [
 - Banned words and the recruiter register per `how-we-speak.md` §7; "upline partner," "sponsor," never "downline."
 
 ## Close
-*"Send the invite with the time zone, send [partner] the brief, and on the call: introduce them both, then
-listen. Tell me how it went and I'll write your next-steps email or your follow-up."*
+*"✓ Your 3-way pack is ready. Send the invite with the time zone, send [partner] the brief, and on the call:
+introduce them both, then listen. Afterwards say 'debrief my call' and I'll write your next-steps email or
+your follow-up."* Nothing asked, nothing after.
