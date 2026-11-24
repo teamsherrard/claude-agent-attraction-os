@@ -24,7 +24,7 @@ to do. Judged against the attraction doctrine, always through to **agent convers
 | Chapters | "chapters (the timestamps in the description)" | Help people skip to what they came for — and help search. |
 | Captions (uploaded) | "captions" | Uploaded subtitles (auto-captions don't count). Helps search and silent viewers. |
 | Description first 3 lines | "the top of your description" | What shows before "more": line 1 the booking link with the call in Mike's shape, line 2 the free guide's link. |
-| Playlists / sections | "your channel on YouTube" | Do the playlists match your three topics, your interviews and your model video? Is the homepage laid out? |
+| Playlists / sections | "your channel on YouTube" | Do the playlists match your four pillars — your niche, helping struggling and new agents, your model, your interviews? Is the homepage laid out? |
 | Search rank | "where you show up" | Your position when someone types the phrase into YouTube. |
 | AI answer presence | "whether an AI assistant mentions you" | When an agent asks an AI assistant about your brokerage or about switching, are you in the answer? |
 | Leads / calls booked | "agents who reached out" · "calls booked" | **The business outcome.** The question — "which video made you reach out?" — asked when an agent books, is the truest data. |

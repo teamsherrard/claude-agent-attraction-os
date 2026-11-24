@@ -2,6 +2,19 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.47.0] — 2026-11-23
+
+**The YouTube plugin follows Mike's rulings (YouTube 0.12.0 · Brain 0.9.26 · Support 0.2.25).** Mike's first full read of the YouTube output, passed on by the owner, five points — all applied:
+
+1. **No channel trailer**, anywhere (setup, the Game Plan, the board, the close).
+2. **The first three videos, exactly:** your blueprint (the most-searched topic tied to your value proposition) · why I joined my brokerage · an interview. The old close said "first 3 videos" and listed four.
+3. **Four pillars, the same for every channel:** your niche · helping struggling and new agents succeed · brokerage model breakdowns · agent interviews. Never a pillar like "going full time". The Brain's five content pillars stay the Short-Form system's.
+4. **Interviews with anyone successful in your upline, downline or brokerage** — not only agents who succeeded with the same value proposition; a question list, no script.
+5. **No reference videos, none, anywhere** — this reverses the 2026-11-15 "one real checked video on every card" rule: the field, the search and the oEmbed check are gone from the board, the Game Plan, the research output, the Kickoff note and the make-video reply. **Competitor analysis** is gone from everything the member sees (research still reads what works, under the hood, for titles).
+6. **One video a week, written in full** — never a batch of summaries: the breakdown with a word-for-word scripted hook AND the full 8–12-minute teleprompter script, for one video. The sitting scripts the first video in full; the Monday Kickoff drafts one in full each week; "script my first three videos" is retired as a path (it scripts the first one, in full, and says the Kickoff brings the next).
+
+Also: the Board's YouTube page says "your Monday Kickoff" (not "two workflows"); the triggers registry lists the monthly review inside the Kickoff; the Brain's channel template carries the four lane names and the blueprint as the first video. Support (0.2.25): FAQ Q59/Q60/Q61/Q66/Q69, the Plugin 6 notes, a "What changed lately" row; setup guide, README row 6, the YouTube demo checklist. Reading of two ambiguous lines, flagged to the owner: one upload a week on the 8-video cycle (the interview when there is a guest); "competition analysis" means the member-facing section.
+
 ## [0.46.3] — 2026-11-23
 
 **The Metricool system — one skill, six fixed steps, the same for every member (Short-Form 0.10.2 · Support 0.2.24).** The owner ran "help me set up my Metricool social media scheduling system" live and said "this is what I want; make sure there's a skill for this; keep the name simple — Metricool system." The posting skill is now named **`metricool-system`** (the same skill, under the same name, goes into the realtor marketplace next), and its setup mode is locked: (1) connect — the Connect card, "connected", the account read back in one line (brand, timezone, networks, what's scheduled); (2) the checklist, stated with ✓/⚠ and never asked — the program's two networks (Instagram + Facebook; TikTok/Shorts optional; LinkedIn for team leaders), Instagram as a Business or Creator account, Google Drive linked inside Metricool so the videos attach themselves, and the plan: two Reels and one carousel on two networks ≈ 26 scheduled posts a month, more than the free plan's 20, so "Starter is the plan for this program" — the two questions the live run ended on ("which plan are you on?", "is Drive linked?") are gone; (3) best posting times per network from the member's own data (program starting slots until the numbers come in); (4) the week in those slots; (5) saved to the Brain so the Monday Week Plan schedules into them for review; (6) the win line and one habit. The Week 4 sitting runs the same six steps after "connected". Support FAQ follows.

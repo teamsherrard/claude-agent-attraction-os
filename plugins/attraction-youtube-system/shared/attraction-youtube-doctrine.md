@@ -7,6 +7,41 @@ the long-form cohort doc, and the VIP-day YouTube framework (cited as `VIP day`)
 the lesson is named. Where the vault is thin, §17 says so instead of inventing. Lesson `/93` is marked **draft** in the vault export
 and is cited as such wherever it is used.
 
+## Mike's rulings of 2026-11-23 — the newest page of the doctrine (they win over every older line below)
+
+Mike (the partner) ruled on 2026-11-23, in his own words and intent; every skill applies these over any line of
+this file or any other that disagrees (`shared/house-rules.md` §0 carries the same seven as rules):
+1. **No channel trailer.** Anywhere — not in the first videos, not on the board, not in the Game Plan, not in
+   setup's close. ("Don't think they need one; you may not even be able to add one until you have 12 videos.")
+2. **The first three videos, exactly:** (1) **their blueprint** — the most-searched topic that can be associated
+   with their value proposition; (2) **why they joined their brokerage**; (3) **interviewing another agent**. Never
+   "first 3 videos" followed by four bullets. (§7's locked order follows from it: the blueprint · why I joined my
+   brokerage — the first cycle's model slot — · interview · topic · interview · topic · interview · interview.)
+3. **The four pillars, the same for every channel:** (1) **their niche** (e.g. lead generation through open
+   houses); (2) **helping struggling and new agents succeed** — "this casts the widest net"; (3) **brokerage model
+   breakdowns**; (4) **agent interviews**. Never a pillar like "going full time in real estate". (§4's three niche
+   buckets sit under pillars 1 and 2 as the Brain's row codes — Problem under the niche, Situation and Future under
+   struggling and new agents; the Short-Form plugin's five pillars are a different system.)
+4. **Interviews are with anyone successful in their upline, downline or brokerage** — not only agents who succeeded
+   with the same value proposition ("if they have someone who did, great — otherwise just interview anyone
+   successful"). **Interviews need no script — a question list only.** (§5's "who to interview" list is the ideal,
+   never the requirement.)
+5. **No reference videos — none, anywhere.** The owner's rule of 2026-11-15 (one real checked YouTube video on
+   every card) is reversed: no reference video on any board card, in the Game Plan, in research output, in the
+   Kickoff note, in the make-video reply. Research may still look at what works under the hood (§4's "study the
+   videos that show up"); it never prints a link to the member.
+6. **One video a week, fully broken down** — not a batch of summaries. The sitting scripts the first video in full;
+   the Monday Kickoff drafts one video in full each week. "In full" = both forms in one package: (a) the
+   bullet-point breakdown with a word-for-word scripted hook (§4: the hook is the one thing Mike writes out), and
+   (b) the full teleprompter script, 8 to 12 minutes. The batch ("script my first three videos") is retired. An
+   interview week = the question list, no script.
+7. **Competition analysis** is dropped from everything the member sees (no competitor videos, no summaries);
+   research keeps its under-the-hood read for the titles and the blueprint topic, printed as the topic and the
+   title only. (§15's cardinal rule stands: never a competitor's weakness, anywhere.)
+Cross-references: §4 (the niche buckets → pillars 1 and 2), §5 (interviews → ruling 4), §7 (the cycle → ruling 2;
+its trailer-first line is superseded by ruling 1), §9 (titles — the blueprint's title is the most-searched one), §11
+(playlists — four, one per pillar), §13 (the 180-day plan — one video a week, in full).
+
 **How the skills use it**
 - The doctrine gives the **method**; the member's **Agent Attraction Brain** gives the **reality** — their niche,
   the agents they attract (`identity/avatars.md`), their story (`journey.md`, `story-bank.md`), their offer
@@ -28,6 +63,7 @@ and is cited as such wherever it is used.
   them "pillars of niche content"; this OS does not), and a playlist per bucket is a "lane".
 
 ## Section map
+Mike's rulings of 2026-11-23 (above — they win) ·
 §1 Why YouTube · §2 Mike's journey and the mindset · §3 The three categories and how they work together ·
 §4 Category 1 — niche authority (Problem · Situation · Future) · §5 Category 2 — interviews that convert ·
 §6 Category 3 — model breakdowns done properly · §7 The 8-video cycle and cadence · §8 The video structure ·
@@ -199,7 +235,7 @@ YouTube interview." As the group grows, leaders send him the up-and-comers. (The
 
 **A member with no agents yet — the normal first-time member — is never told any of this as a fact about them**
 (never "your organization", "your agents", "agents you've helped"): their interview slot reads "A conversation with
-an agent — guest to be named", that week's video is the next one from their three topics, the first interview goes
+an agent — guest to be named", that week's video is the next one from their three topics [since 2026-11-23: their topic pillars — ruling 3 at the top], the first interview goes
 on the plan the day they name someone — a peer, an agent from their sponsor's team, anyone they want to talk with —
 and the quarterly note is drafted only when the Brain holds agents who joined them.
 
@@ -295,7 +331,9 @@ and every calendar in this plugin. It keeps authority, proof, and intent in prop
   interview · niche · model · interview · niche · interview · interview** — opening with niche (authority) so a new
   viewer meets the member before meeting the guests, the model breakdown mid-cycle, and the two interviews that
   close the eight free to be recorded in one sitting; at two a week the same order, two a week. For a new channel
-  the trailer is week one's first row, before the eight. Mike's first-year exception stands: the "why I joined" video (§12, Why I Switched) can go
+  the trailer is week one's first row, before the eight [superseded 2026-11-23 — no trailer, ever: see the rulings
+  at the top, 1; and the order is now the blueprint · why I joined my brokerage · interview · topic · interview ·
+  topic · interview · interview — ruling 2]. Mike's first-year exception stands: the "why I joined" video (§12, Why I Switched) can go
   early in cycle one because it is the one that brought his first 30 agents (`/92`).
 - **Every video has a next step** (the long-form cohort doc): YouTube → resource or community → conversation → Partner Call.
 

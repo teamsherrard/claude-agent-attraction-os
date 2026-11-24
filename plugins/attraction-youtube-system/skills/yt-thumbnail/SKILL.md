@@ -54,7 +54,7 @@ photo, paste the prompt, add the words. Apply `${CLAUDE_PLUGIN_ROOT}/shared/hous
   headshot", and one line says it once at the close — *"Your thumbnails use a plain dark background for now — say
   'my attraction brand direction' and your colours go on the next sheet."* (inside `yt-make-video` that chat says
   it and this skill stays silent) — never a detour to build the brand first.
-- **Filmed in a first batch?** The photos are the five the member took on film day (a big smile · surprised ·
+- **Photos from film day on file?** When the member took the five on their filming day (a big smile · surprised ·
   serious · pointing left · pointing right) — name them on the sheet by what they show ("your surprised photo
   from film day"), and choose from those five: concern → serious · confidence → pointing · delight → big smile.
   Never "take this one first" for a member who took all five.
@@ -104,7 +104,7 @@ Video: {the kind of video, in plain words — "a topic video" / "a conversation 
 All three: a 16:9 frame at 1280×720, with clear space where the words go.
 
 ──────────────── THUMBNAIL 1   (the recommended one) ────────────────
-Photo to upload:  {which of the member's own photos — named the way it is in their Brand folder, or, after a first batch, one of the five from film day named by what it shows ("your surprised photo from film day") — or, when the expression is missing, "take this one first: {the expression to shoot}"}
+Photo to upload:  {which of the member's own photos — named the way it is in their Brand folder, or, when the member took them on film day, one of the five named by what it shows ("your surprised photo from film day") — or, when the expression is missing, "take this one first: {the expression to shoot}"}
 Prompt to paste:
 {one ready-to-paste paragraph: the scene · your expression · where you sit in the frame (about a third of it, left or right, eyes toward the open side) · the background · your brand's colours in plain words (the hex in brackets) · "16:9 frame, 1280×720, clear space on the {left / right / top} for text, no text in the image"}
 Words to add (3–5):  {the words — never the title's}

@@ -20,7 +20,8 @@ Views alone do not build the organization; the question is which videos moved an
 or book (`08-youtube/98`, `99`). The deep dive on demand, about once a month at most; quick reads between. Never a dashboard — a coach reading
 the numbers with them. Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md`, §14 (measuring what matters) of
 `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`, and `${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`.
-Size the answer to the ask: a scoped question gets a quick read; "deep dive" gets the full consult; name the
+**Never a competition analysis** (Mike, 2026-11-23): no read, no dive and no card ever names another channel, its
+videos or what it does — the member's own numbers, against their own typical video. Size the answer to the ask: a scoped question gets a quick read; "deep dive" gets the full consult; name the
 dive once, as a statement, if it has been about a month ("say 'run my attraction YouTube deep dive'"). To the member: plain words — "your channel",
 "your content board", "your Brain Board", "your Game Plan", "your pace" — never a skill id, a file name, a path, or a
 connector's name (one exception: the connect step names Composio once, because the member has to type it), and never
@@ -64,7 +65,7 @@ once; this is what the phrase does. Told, never asked — look at the session an
 **"Done" said, but the connection is still not active** → one line — *"It didn't go through. Say 'connect my
 YouTube numbers' to try again."* — write nothing, stop; never the link a second time in the same message.
 Then one closing line, by what is true: *"From now on, when you ask 'how did my video do' or run your deep dive, I
-read your view counts live — on your own videos and on your reference videos. How many people click and how long
+read your view counts live on your own videos. How many people click and how long
 they keep watching still come from three Studio screenshots — say 'add my attraction Studio numbers' when you have
 them."* (**Only when the Monthly Channel Review is on** — `config.md → ## YouTube (Week 5) → Monthly review task:`
 holds a task id, read now — add after the first sentence: *"Your Monthly Channel Review reads what those leave on
@@ -97,8 +98,9 @@ quick read opens only the file the question needs; the video read (below) names 
 
 **Sources, best first, never blocked on any one — and every read says in one line which source it used:**
 1. **The live data connection** (`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`, read-only): channel
-   stats, the upload catalog, per-video views/likes/length/date, playlists, comments (once; a 403 is said),
-   competitor channels as outliers — **only when Step 0 found it already active**; otherwise this source is skipped
+   stats, the upload catalog, per-video views/likes/length/date, playlists, comments (once; a 403 is said) — never
+   other channels (Mike, 2026-11-23: no competition analysis reaches the member) — **only when Step 0 found it
+   already active**; otherwise this source is skipped
    without a word here (Step 0's one closing line names the connect phrase). The sign-in itself — the click path,
    the link, the `Live data:` line being written — happens only in THE CONNECT STEP. **Read-only, always**: never
    a post, reply, or comment tool.
@@ -133,13 +135,13 @@ why it matters to you · do this · the proof; every metric explained the first 
   views stop turning into calls (where the ask sits, description order — the call on line 1, the guide on line 2 — a
   missing resource, no next video) · the next-video path (playlists on the channel page, end screens, related links —
   `99`) · pace.
-- **Part 2 — Other attraction channels** (≤5, admired or outlier; what works, never what is wrong with
-  them — the cardinal rules apply to competitors too).
-- **Part 3 — Where you show up** when agents search your brokerage's name, "should I switch", "questions to
-  ask a sponsor" (6–10 phrases, budgeted).
-- **Part 4 — The openings** (3–5 cards) + your own winners from a new angle; an interview guest only when the
+- **No "other channels" part** (Mike, 2026-11-23: competition analysis is dropped from everything the member sees —
+  never a list of other channels, their videos or a summary of what they do; never a competitor named).
+- **Part 2 — Where you show up** when agents search your brokerage's name, "should I switch", "questions to
+  ask a sponsor" (6–10 phrases, budgeted) — the member's own position only; never who else ranks.
+- **Part 3 — The openings** (3–5 cards) + your own winners from a new angle; an interview guest only when the
   pipeline names one.
-- **Part 5 — Your next 30 days:** keep · fix · the exact titles at the member's pace (four or five at one a
+- **Part 4 — Your next 30 days:** keep · fix · the exact titles at the member's pace (four or five at one a
   week, eight or nine at two) on the 3+1+4 mix (an interview only when a guest is named — a slot with no guest takes
   the next topic video), every title's two calls to action in the call-to-action law's shape from the kit's CALLS TO
   ACTION table by the register · the weekly count (standing series count toward it) · **the move to two a week** — when

@@ -1,7 +1,8 @@
-# Format Playbooks — the four attraction formats + the interview intro and outro
+# Format Playbooks — the four attraction formats (an interview has no script)
 
-Each playbook fixes the steps, the length, the hook formulas that fit (doctrine §9, numbered 1–7), what to pull
-from the Brain, and the lines that never appear. The page layout is `script-format.md`; the structure every
+Each playbook fixes the steps, the length (8 to 12 minutes, every format — Mike, 2026-11-23), the hook formulas that
+fit (doctrine §9, numbered 1–7), what to pull from the Brain, and the lines that never appear. Every format ships in
+`yt-script`'s two forms — the bullet breakdown with the scripted hook, then the full script. The page layout is `script-format.md`; the structure every
 format sits inside is doctrine §8 (hook → the guide ask → value → the call ask → payoff → next video). The vault
 does not name these four formats — the cohort plan does; their content is grounded in `08-youtube/92, 93 (draft),
 94, 96` (doctrine §12, §17).
@@ -50,7 +51,7 @@ company they left.*
   community, partner with me and it's free. [the booking line]."* (open register: *"I'll walk you through it,
   free, no strings."*).
 
-## 2. Pain Point Series  (bucket: Problem or Situation · Authority · 10–15 min)
+## 2. Pain Point Series  (bucket: Problem or Situation · Authority · 8–12 min)
 *One pain, one avatar, one tactical answer they can use today. "Every challenge an agent names is a video" (`/94`).*
 - **Pull:** `avatars.md` (the pain in their words; what they've tried) · `objections.md` (the question this
   answers; the hidden fear) · `offer.md` (`## The framework` — the step that fixes this pain, taught in full;
@@ -71,7 +72,7 @@ company they left.*
 - **Never:** a brokerage or person blamed for the pain; income promises; a protected characteristic in who it's
   for.
 
-## 3. Model Breakdown  (bucket: Model · Perspective · 12–20 min)
+## 3. Model Breakdown  (bucket: Model · Perspective · 8–12 min, the top of the range)
 *Pull back the curtain, simplify what others overcomplicate, answer what they're already researching (`/96`,
 `/93` draft). Requires `brokerage-model.md`; empty → route to `attraction-brokerage-model` first.*
 - **Pull:** `brokerage-model.md` (mechanics as the member's materials state them, dated) · the Brain plugin's
@@ -100,7 +101,7 @@ company they left.*
   fastest-growing" without a dated source; any disparagement; the brokerage name as the CTA. The disclosure block
   goes in the description (`yt-seo`). Remake or re-title yearly (`/96`).
 
-## 4. Niche Breakdown  (bucket: Problem or Future · Authority · 10–20 min)
+## 4. Niche Breakdown  (bucket: Problem or Future · Authority · 8–12 min)
 *The deep teach on the thing the member is known for — "cast a wide net around your niche so whatever they
 search, they find you" (`/93`, draft). The Future bucket when it points at leverage and the next stage.*
 - **Pull:** `offer.md` (`## The framework` — the method, step by step; its one line is the hook; `## Content
@@ -123,29 +124,12 @@ search, they find you" (`/93`, draft). The Future bucket when it points at lever
 - **Never:** income figures as the promise; the member's own GCI, deal count, or dollar figure in the title (the
   compliance exception above is the only one); a competitor's method run down; a stat without a source.
 
-## 5. Interview — intro and outro  (bucket: Interview · Proof · intro 45–75 s, outro 30–45 s)
-*The guest is the star. The intro is recorded LAST — after the conversation — so it hooks the best things the
-member now knows are coming (`/95`). `yt-interview` owns the guest list, the question map, consent, and the
-distribution ask; this playbook writes only the two spoken pieces.*
-- **Pull:** `memory/interview-pipeline.md` (the guest's transformation in their words, type, consent) ·
-  `proof.md` · the recording notes (the two or three moments that landed) · `offer.md → ## The framework` (the
-  method the guest ran — named in the call ask).
-- **Intro steps (recorded last):** the transformation as the title promises it ("How [guest] [outcome]
-  [constraint]" — the guest's own stated result or none) → who this is for ("if you're [avatar situation], this
-  one's for you") → two or three specific things coming ("the exact [method], what the first 30 days actually
-  looked like, the mistake that almost stopped them") → edify the guest in one honest line
-  (`03-model-positioning/17`: recognition is retention) → the guide ask in one breath ("comment GUIDE and I'll
-  send it") → "let's get into it."
-- **Outro steps:** thank the guest and name the one thing to take from them → the **casual call ask** in the
-  law's shape, the guest's example as the lead-in only for a guest the Brain says joined the member (any other
-  guest: the call line with no lead-in about them — `yt-interview`'s guard): *"if you want my help running what [guest] just walked you
-  through — the lessons, the templates, the community — partner with me and it's free. [the booking line]."*
-  (open register: *"I'll walk you through it, free, no strings."*) — never a promise of the guest's time or the
-  member's → the next video (another interview on the same pain, or the model explained) → the end screen.
-- **Hooks that fit:** formula 5 only — the hook-and-transformation title; never "tell me your story."
-- **Never:** interrupting or making it about the member (the interview itself — `/95`); results the guest did
-  not state; an income figure; a guest's result without recorded consent; a negative word about the guest's
-  former brokerage or anyone there.
+## 5. Interview — no script (bucket: Interview · Proof — Mike, 2026-11-23)
+*An interview needs a question list, nothing scripted. `yt-interview` owns it all: the guest (anyone successful in
+the member's upline, downline or brokerage), the question list by guest type, the outcome sentence, the edification
+lines, the two CTA lines (the kit's), the invite and the consent line — in its Interview Prep document. The member
+records the intro LAST, unscripted, from the two or three moments they just heard, and closes with the thank-you and
+the casual call line. This file writes nothing for an interview; `yt-script` hands over and stops.*
 
 ## Lines every format carries
 - The guide ask inside minute one; the call ask a third to halfway in (the kit's words, the law's shape); the

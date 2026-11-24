@@ -1,20 +1,20 @@
 ---
 name: yt-make-video
 description: >
-  Make This Attraction Video — the end-to-end production flow of the Agent Attraction YouTube
-  System (Week 5). One chat = one video, in three replies that each wait for a Yes: it proposes the
-  title and how it opens; writes the script in the member's voice with the two CTAs (the Week 2
-  guide, the call in the law's shape); then writes the thumbnail sheet for Higgsfield and the title
-  and description, fills the board card, and states the editing next step (the AI Editing Studio).
-  After publish it writes the content-log row and, on a Yes, the clip scripts. Never posts or
-  publishes; compliance read before anything public, never a stop. Trigger
-  on: "make my attraction video", "produce my attraction video", "let's make the agent video",
-  "build this attraction video", "make this agent interview video", "make this model breakdown video
-  for agents", "start the attraction video for this idea", "my video is published", or a chosen
-  attraction idea pasted into a fresh chat.
+  Make This Attraction Video — the production flow of the Agent Attraction YouTube System (Week 5).
+  One chat = one video, in full, in three replies that each wait for a Yes: it proposes the title and
+  how it opens; writes the whole video in the member's voice — the bullet breakdown with the opening
+  scripted word for word and the full 8 to 12 minute teleprompter script — with the two CTAs; then
+  writes the thumbnail sheet for Higgsfield and the title and description, fills the board card and
+  states the editing next step. An interview gets its question list, no script. Never a reference
+  video, never a trailer. After publish it writes the content-log row and, on a Yes, the clip scripts.
+  Never posts; compliance read first, never a stop. Trigger on: "make my attraction video", "let's
+  make the agent video", "build this attraction video", "make this agent interview video", "make this
+  model breakdown video for agents", "my video is published", or a chosen attraction idea pasted into
+  a fresh chat.
 ---
 
-# Make This Video — one chat = one video
+# Make This Video — one chat = one video, in full
 
 This chat IS the video — **three replies, and it waits after each** (house rules #23, ONE STEP, THEN WAIT; it wins
 over every older "no stop" line — "The three replies", below). Everything saves to this video's folder. The member
@@ -53,7 +53,7 @@ only ever feels "we're making my video." Apply
   default for the first month, two the step-up. This chat makes one video regardless.
 - **Member-facing words:** Week 5; "your content board", "its card", "the YouTube tab at the top of your board";
   "your thumbnail sheet" (the member makes the thumbnail in Higgsfield), "your title and description" (never "the
-  SEO package"), "how it opens" / "three ways to open" (never "the hook"), "your Game Plan", "your three topics" /
+  SEO package"), "how it opens" / "three ways to open" (never "the hook"), "your Game Plan", "your four pillars" /
   "a topic video", "your pace", "your filming day", "extra footage" (never "b-roll"), "your Channel Page"; never
   lane, niche, bucket, pillar, cadence or packaging in a sentence the member reads (they stay in the Brain's
   rows); the editing next step stated, never hedged, in the words of Step 7 (never "Plugin 5", an engine's name,
@@ -68,10 +68,12 @@ A reply shows what it built in a few lines (the document holds the rest), opens 
 is one, and ends on its stop line; nothing of the next reply is read, built, saved or said before the member
 answers. "Do it all" runs straight through only when the member says so — never offered.
 1. **The direction** (Steps 0–1) — the title · how it opens, three ways, the recommended one first · the story it
-   will use · the videos to watch first. Nothing is written or saved before the Yes. It ends: *"Say **Yes** and
+   will use. Nothing is written or saved before the Yes. It ends: *"Say **Yes** and
    I'll write your script — or tell me what you'd change. **Your turn.**"*
-2. **The script** (Step 2) — opens *"✓ You chose your title and how it opens."* Shows the title, the opening line,
-   about how many minutes it runs and where it is saved — never the whole script in the chat. It ends: *"Say
+2. **The script — the whole video, in full** (Step 2; Mike, 2026-11-23: the bullet breakdown with the opening word
+   for word AND the full 8 to 12 minute teleprompter script, in one document) — opens *"✓ You chose your title and
+   how it opens."* Shows the title, the opening line, about how many minutes it runs and where it is saved — never
+   the whole script in the chat. It ends: *"Say
    **Yes** and I'll write your thumbnail sheet and your title and description, and put them on your card — or tell
    me what you'd change in your script. **Your turn.**"* (no board: *"Say **Yes** and I'll write your thumbnail
    sheet and your title and description, and add your six publish steps — or tell me what you'd change in your
@@ -81,6 +83,11 @@ answers. "Do it all" runs straight through only when the member says so — neve
    never a wait between them.
 A change at a stop → make it, show only what changed, the same stop line again; a question → one plain answer,
 then the stop line; silence is never a Yes.
+**Two replies, not three, when there is no script to write:** an interview (no script — the question list and the
+invite are `yt-interview`'s; Mike, 2026-11-23) or a video already scripted (Step 0, below). Reply 1 is the direction
+(an interview: the title, the guest, how the member opens) and ends *"Say **Yes** and I'll write your thumbnail
+sheet and your title and description — or tell me what you'd change. **Your turn.**"*; the Yes brings Steps 3 to 7
+as one reply.
 
 ## Step 0 — Set up the video (reply 1 begins — nothing is written yet)
 State the title in one line — no title in the member's words → this week's video: the calendar row dated this
@@ -95,34 +102,27 @@ video is for). Resolve the save spot — `03 · Content/Long-Form/{YYYY-MM-DD ·
 its first document are made on the Yes that ends reply 1, and reply 2 says where they are, in plain words.
 Missing local Brain → `attraction-brain-sync` first; a tool error is never "no Brain".
 
-**The channel trailer** ("make my attraction video: my channel trailer" — a new channel's first row on the plan,
-week one's first row, a card like any other): the same flow, sized down — a 60 to 90 second script (who this
-channel is for · what it covers · the invite, in the law's shape), one thumbnail sheet, the title and description;
-its content-log row carries Pillar `Authority` and `[Trailer]` at the start of the Topic cell (it is not one of the
-eight), and its card's Pillar cell stays empty (the spec's options are never extended).
+**No channel trailer — ever** (Mike, 2026-11-23: "don't think they need one"). "Make my attraction video: my
+channel trailer", or a trailer row an older plan still carries → never made: one line — *"Your channel doesn't need a
+trailer — your first video is '[title]'."* — and this chat makes that video (the plan's first row that is not a
+trailer and not an interview with no guest named); an older trailer row or card is never drafted, never counted.
 
-**Drafted by the Monday Kickoff already?** This video's content-log row is at `Scripted` with Link `—` and no
-`Script` doc in its folder, or its board card sits at `Scripted` with a script START (not a full script), or the
-folder holds a `Kickoff Brief — [title] — …` → **pick up the drafts, never redo them:** the brief's title, bucket,
-story, and CTAs are the direction (reply 1 reads them back for the Yes and runs the competitive read); the script
-start's opening and CTA lines open the script (Step 2 writes the rest); the thumbnail sheet stands unless the
-title changed (Step 3 is a check, not a rewrite); the title and description the Kickoff started is completed
-(Step 4). Say so in one line: *"Your Monday Kickoff already drafted the start — I'm picking up from there."*
-Setup's first video arrives the same way when the board was seeded: the card exists at `Idea`; the title is set,
-nothing else is drafted.
-
-**Scripted in the first batch already?** ("script my first three videos" — `yt-script`): the folder holds a full
-`Script` document, and the card's 🎬 SCRIPT reads *"full script — written in your first batch"* → **the script is
-never rewritten**, and replies 1 and 2 are already behind the member. Say one line — *"Your script is already
-written — I'm building the rest around it."* — then Step 1's competitive read, no Step 2 writing (a read-through
-only, for a fact that changed), and Steps 3 to 7 as ONE reply: the thumbnail sheet, the title and description,
-the card with its publish checklist, the close. Nothing is left to decide, so there is no stop before it; the win
-line and "what you did today" appear only when the member said they filmed it (*"✓ You filmed '[title]'."*).
+**Scripted already?** (Mike, 2026-11-23: the Monday Kickoff writes the week's video in full, and the setup sitting
+writes the first video in full.) This video's folder holds a `Script` document, or its card's 🎬 SCRIPT holds the
+whole video (the breakdown and the teleprompter script) → **the script is never rewritten**, and replies 1 and 2
+are already behind the member. Say one line — *"Your video is already written — I'm building the rest around it."*
+(the Kickoff's: *"Your Monday Kickoff already wrote your video — I'm building the rest around it."*) — then Steps 3
+to 7 as ONE reply: the thumbnail sheet (it stands unless the title changed — a check, not a rewrite), the title and
+description (the Kickoff's start is completed), the card with its publish checklist, the close. Nothing is left to
+decide, so there is no stop before it; a change the member asks for in the script → `yt-script` makes it in place,
+one line says what changed, and the reply goes on. The win line and "what you did today" appear only when the
+member said they filmed it (*"✓ You filmed '[title]'."*). **A Kickoff draft from an older Brain with a script START
+and no `Script` document**, or a card seeded at `Idea` with only its title → the usual three replies: reply 1 reads
+the brief's title, opening and story back for the Yes, and reply 2 writes the whole video (Step 2).
 **Filmed or not is read from the date, never asked:** today is on or after the row's Recording date → it is
 treated as filmed — say one line (*"I've marked it as filmed — tell me if it isn't yet."*); **the title and the
-opening are fixed** (they are on camera); the three references are given as *"three to watch before your next
-one"*; the thumbnail sheet names the five photos taken on film day; the card and the calendar row go to
-`Recorded`, never back to `Scripted`; and the close says only the editing line. Today is before the Recording
+opening are fixed** (they are on camera); the thumbnail sheet names the photos taken on film day; the card and the
+calendar row go to `Recorded`, never back to `Scripted`; and the close says only the editing line. Today is before the Recording
 date → not filmed yet: the usual "before you film" lines apply, the Status stays `Scripted`, and the title and
 the opening stay as the script has them unless the member asks for a change.
 
@@ -147,12 +147,16 @@ chat quotes it).
 **Interview?** Open `memory/interview-pipeline.md`. A guest is named → run `yt-interview` first if they are not
 yet there at Booked or later. **No guest named** (the row is titled "A conversation with an agent — guest to be
 named" — the normal state of a member attracting for the first time) → never a stop, never an invented name, no
-invite, guide or note drafted to nobody: this week's video is the next video from the member's three topics (the
+invite, guide or note drafted to nobody: this week's video is the next topic video from the member's four pillars (the
 next `Idea` row on the plan whose bucket is Problem, Situation or Future), and the interview moves to the first
 open week after a guest is named (the plan and the Monday Kickoff re-date it — this skill never re-dates a row).
-Say it once, in these words — *"No guest named yet, so this week's video is '[title]', from your topics. Your
+Say it once, in these words — *"No guest named yet, so this week's video is '[title]' — a topic video. Your
 first interview goes on your plan the day you name someone — say 'set up an agent interview'."* — and go on with
-that video. **Model breakdown?** Run `yt-model-breakdown` (it gates on `identity/brokerage-model.md`).
+that video. **An interview has no script** (Mike, 2026-11-23): `yt-interview`'s Interview Prep holds the question
+list and the invite; this chat runs two replies (above) and skips Step 2. **Model breakdown?** Run `yt-model-breakdown` (it gates on `identity/brokerage-model.md`). **A row titled "Why I
+joined my brokerage" / "Why I chose my brokerage"** takes the Why I Switched format, from `identity/journey.md` (the
+member's own move — the wall, what they looked for, what changed; the former brokerage never named), whatever its
+slot on the plan — a Situation row, never the model-breakdown gate.
 **No guide yet?** `## Current magnet` empty (nothing, or the template's placeholder — the member skipped the
 Week 2 session) → the script still has to name a real file, so reply 1 proposes the fallback in one line, with
 the rest of the direction — *"You don't have a guide yet, so this video will point to a one-page starter,
@@ -162,48 +166,37 @@ sentence ends *"…'launch my lead magnet plugin' (install the Lead Magnet plugi
 installed this one)."*) — and `yt-leads` builds the Starter Resource (its 1a) once, **on the Yes that ends reply
 1, never before it**. That line is the guide's one mention in this chat ("What is missing",
 below). Never a demand; never the call as the resource.
-**Start from the card's reference video** (the owner, 2026-11-15: every card already carries one real YouTube
-video close to its idea — the row's `Reference video` cell in `memory/content-calendar.md → ## Long-form (YouTube)`,
-or the card's `Reference Video` link). Re-run the "is it real" check on it once
-(`${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`, the reference-video steps): gone → it is
-replaced by the read below; still there → it is the first candidate. No reference on file (an ad-hoc title, an
-older row) → the read below finds all three.
-Run the competitive read (via `yt-research`'s method, budgeted ≤5 searches): the top 3 (2–4) real videos agents
-find for this exact question — `link · channel · ~views (only when seen) · what the title promises · the one
-thing we do better`; what works or is missing INSIDE a video is written only when it was really read (the member
-pasted a transcript or described it) — otherwise say once that these were matched on their titles. Real links only — each returned by a search in this chat and checked as a real, public
-video; a count that cannot be seen is left off; the cardinal rules apply to how other channels are described (what
-is missing, never what is wrong with them). **The closest of the three is the card's reference video:** the one
-already there is confirmed, or a closer one replaces it — the row's cell and the card's `Reference Video` link are
-updated on the Yes (Step 2), not before. **Live numbers only when they are already there:** `identity/channel.md → Live data: active …` on
-file and the tools in this session → the data engine's recipe 4 gives exact views and dates
-(`${CLAUDE_PLUGIN_ROOT}/shared/composio-data-engine.md`); otherwise the web search, silently — never a sign-in or
-an ask here, at most one closing line naming *"connect my YouTube numbers"*.
+**The title read — under the hood only** (`yt-research`'s method, budgeted ≤5 searches): what agents type for this
+question and what the ranking titles promise — it sharpens the title and the opening, and nothing of it is printed.
+**No reference video, no competition lines** (Mike, 2026-11-23 — this reverses the 2026-11-15 rule): never a link to
+anyone's video, never a channel named, never "watch this first", never a list of what others made, never "the one
+thing we do better" — in the reply, on the card, in a document. An older row's `Reference video` cell or card link
+is never read, re-checked or rewritten; the card's old reference section is deleted when the card is written (Step
+6). Never a sign-in, a connection check or an ask here.
 **Then propose — never lock — the direction, and stop.** Reply 1, short, in this order: **the title** (the
 viewer's question, pain or desire named — `97`; a title the member typed stands as typed — a stronger wording is
 put beside it in one line, never swapped in) · **how it opens, three ways**, each one breath, the recommended one
 first (the first 15–30 s, straight into the question, no "welcome back") · **the story it will use**, by its name
 (none that fits, or an empty bank → say what the opening is built on instead: the member's own years as an agent
-from `journey.md`, or a line straight to the viewer — never an invented story, agent, name or result) · **the
-videos to watch first** — *"Watch these three before you film — the first is the one on your card. I matched them
-on their titles; you'll see how each one opens and where it asks for something."* (no board, or no card for this
-video: "the first is the closest") · reply 1's stop line, last. **Nothing is written or saved in reply 1** — no
+from `journey.md`, or a line straight to the viewer — never an invented story, agent, name or result) · reply 1's
+stop line, last. Never a video to watch, never a link (Mike, 2026-11-23). **Nothing is written or saved in reply 1** — no
 folder, no document, no row, no card.
 
 ## Step 2 — Script (reply 2 — on the Yes; then wait)
 **On the Yes, first** — this is where an idea becomes a video: if the idea came from
 `~/attraction-brain/memory/ideas.md`, open it and mark that row Used now; if it drew on a `memory/intel.md` row,
-mark that row's `Used?` column too; write the confirmed (or closer) reference video to the row's `Reference
-video` cell and the card's `Reference Video` link; and when reply 1 proposed the Starter Resource, `yt-leads`
-builds it now (its 1a — its own closing paragraph is not repeated in this chat; reply 2 says the save in half a
+mark that row's `Used?` column too; and when reply 1 proposed the Starter Resource, `yt-leads` builds it now (its 1a — its own closing paragraph is not repeated in this chat; reply 2 says the save in half a
 line).
 **Read now:** `identity/publishing.md` → the `Keyword:` line (`GUIDE · [the offer's word]` — the keyword's single
 source) · `identity/content-pillars.md` (its CTA line mirrors the kit; its cadence line is the short-form cadence
 — the YouTube cadence is the Game Plan anchor in `identity/channel.md`).
-`yt-script` writes the full teleprompter script in the member's voice on the structure: the opening the member
-chose → the guide ask inside minute one ("comment GUIDE" or "link in the description") → body → the call ask in
-the law's shape a third to halfway in and again at the end → the next-video pointer (`98`, `99`). Format by bucket
-(Why I Switched · Pain Point · Model Breakdown · Niche Breakdown; interviews follow `yt-interview`'s steps).
+`yt-script` writes the whole video, in full, in two forms in one document (Mike, 2026-11-23): **(a) the bullet
+breakdown** — the opening the member chose written word for word, the sections as bullets, the two asks, the payoff,
+the next video — and **(b) the full teleprompter script, 8 to 12 minutes**, in the member's voice on the structure:
+the opening → the guide ask inside minute one ("comment GUIDE" or "link in the description") → body → the call ask
+in the law's shape a third to halfway in and again at the end → the next-video pointer (`98`, `99`). Format by bucket
+(Why I Switched · Pain Point · Model Breakdown · Niche Breakdown; an interview never reaches this step — no script).
+Never a summary in place of the script, never a batch.
 `yt-script` writes the content-log row at Scripted and stamps the story's Used-where. Save as **Script**. Name the
 strongest 30–45 s moment for the first Short — the editor cuts a clip only when asked, so the script's band says:
 *"After the edit, say 'cut reels from this' and your AI Editing Studio cuts this moment."* (the Reels themselves
@@ -243,13 +236,12 @@ card's 🧲 THE RESOURCE section (Step 6). **Nothing is saved for this step** �
 Open the board line now — `identity/publishing.md → Content board:`; that file absent (the member skipped Week
 4) → `identity/channel.md → Board:`. A URL → find this video's card (System ID → exact
 title → near match) and write the card page in the locked order of `${CLAUDE_PLUGIN_ROOT}/shared/notion-board-spec.md`
-— **🎯 THE HOOK** (three ways to open, the one the member chose first and in bold; the title) · **🎬 SCRIPT** (the full
-script) · **🖼 THUMBNAIL BRIEF** (the thumbnail sheet for Higgsfield) · **🔍 SEO PACKAGE** (the title and description) · **🧲 THE RESOURCE** (the guide, GUIDE,
-the funnel URL, the booking line — the two calls to action of Step 5) · **📚 REFERENCE VIDEO — WATCH THIS FIRST** (the closest video first, as the spec lays it out — the
-titled link, the video playable on the card, Why this one — now with **the one thing to do better**, written from
-what Step 1 actually read; then the line **Two more worth your time** and the other two, each `titled link ·
-channel · the one thing to do better`; the `References` field holds the three; never a negative word about a
-channel or its brokerage) · **🎙 GUEST** (interviews only) · **📋 ASSETS & NOTES** (extra footage to film, the
+— **🎯 THE HOOK** (the scripted hook word for word — the opening the member chose — then the bullet breakdown; the
+three ways to open stay in reply 1 and the document, never on the card) · **🎬 SCRIPT** (the full teleprompter script;
+**an interview card has NO 🎬 SCRIPT** — its 🎙 GUEST holds the question list, then the member's own opening and the
+two CTA lines) · **🖼 THUMBNAIL BRIEF** (the thumbnail sheet for Higgsfield) · **🔍 SEO PACKAGE** (the title and description) · **🧲 THE RESOURCE** (the guide, GUIDE,
+the funnel URL, the booking line — the two calls to action of Step 5) · **🎙 GUEST** (interviews only — the question
+list) · **📋 ASSETS & NOTES** (extra footage to film, the
 compliance lines to say, and — last, so it is there on film day — the editing line of Step 7) ·
 **✅ PUBLISH IT — SIX STEPS IN YOUTUBE STUDIO** (the owner, 2026-11-14: uploading is where older members get
 stuck — six real to-do items, `- [ ]`, in Studio's own order, each with its click path and THIS video's own values;
@@ -273,7 +265,8 @@ Save); then, on the video's own page: the pinned comment from the title and desc
 *"All six ticked? Say 'my video is published' and I'll move this card to Published."* Boxes the member already
 ticked stay ticked; the system never ticks one) ·
 **📊 AFTER IT'S OUT** (left empty — the Monthly Channel Review, or "how did my video do", writes it). A section already there (the Kickoff's
-start) is **replaced in place, never stacked**; the workspace links go in the columns; Status → `Scripted`; the
+start) is **replaced in place, never stacked**; an older card's reference-video section is deleted, never kept
+(Mike, 2026-11-23: no reference video on any card); the workspace links go in the columns; Status → `Scripted`; the
 card's Topic renamed to the final title if it changed. **No board or `declined`** → no card, never a nag — and
 the publish steps are never lost: the same six, with this video's own values and the editing line above them, are
 the last block of the title-and-description document (`yt-seo` writes it there, under PUBLISH IT — SIX STEPS IN
@@ -396,6 +389,9 @@ with consent · nothing that promises the member's time per partner.
   `config.md` holds a task id.
 - Never post, publish, send, or schedule. Never invent a view count, a stat, a quote, a story or a guest. Every CTA
   quotes the kit.
+- **No reference video, no trailer, no competition lines** (Mike, 2026-11-23): never a link to another channel's
+  video, never "watch this first", never a list of what others made, never a trailer — in a reply, on a card or in
+  a document. One chat makes one video, written in full — both forms — never a batch, never a summary.
 - Done = the folder holds Script · Thumbnail Brief (the thumbnail sheet) · SEO Package (the title and description)
   and no other document, the card page is in the locked order, the content-log row is Published, the Brain is
   pushed. The repurposing pack is its own Yes.

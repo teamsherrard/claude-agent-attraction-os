@@ -14,13 +14,30 @@ help is the recorded lessons, the templates, the community, the weekly group cal
 and **the cadence default** (one video a week for the first month; two a week Mike's recommendation, named as the
 step-up).
 
+**Mike's rulings of 2026-11-23 sit above all of it** (`shared/house-rules.md` §0; the doctrine's dated section):
+- **The four pillars, the same for every channel — stated, never chosen:** the member's niche (named from the
+  Brain) · helping struggling and new agents succeed ("this casts the widest net") · brokerage model breakdowns ·
+  agent interviews. The Brain's five buckets stay the row codes (Problem → the niche pillar; Situation · Future →
+  the struggling-and-new-agents pillar; Model; Interview). Never a pillar of the plan's own.
+- **The first three videos, exactly:** the blueprint (the most-searched topic that can be associated with the value
+  proposition, taught start to finish) · why I joined my brokerage · an interview with anyone successful in the
+  member's upline, downline or brokerage. Never three announced and four listed.
+- **Interviews** are with anyone successful in the upline, downline or brokerage, and need **no script — a question
+  list only**.
+- **No channel trailer** anywhere. **No reference videos** anywhere. **No competition analysis** in the document —
+  research reads other channels under the hood for the titles and the blueprint's topic and prints the topic and
+  the title only.
+- **One video a week, fully:** the sitting scripts the first video in full and the Monday Kickoff drafts one a week
+  in full — the bullet breakdown with the hook scripted word for word AND the full 8–12-minute teleprompter script.
+
 ---
 
 ## The document structure (assemble in this order — the skeleton is in `shared/doc-format.md`)
 **The document is for the member** (the owner, 2026-11-14 — the Short-Form Game Plan's treatment; only the document
-changed, the Brain's files keep their locked shapes). No word for the grouping at all — "your three topics", "your interviews",
-"your model videos"; never "lane", "niche", "bucket" or "pillar" in a line the member reads, and the pace is "your
-pace", never "cadence" (the phrase the member says is 'change my YouTube pace').
+changed, the Brain's files keep their locked shapes). The grouping is Mike's four pillars, by his word — "your four
+pillars", "your interviews", "your model videos"; never "lane", "bucket" or a content pillar's name (Authority…) in a
+line the member reads, and the pace is "your pace", never "cadence" (the phrase the member says is 'change my
+YouTube pace').
 None of the system's words in the document: no "SIGNAL", "FOR · PAIN · SIGNAL", "cycle position", "anchors",
 "unresearched", "starter", "rung", "avatar". No number the Brain does not hold. Dates in words
 ("Mon, Dec 7"). The codes stay in the Brain: each title's working note is kept in the TITLE NOTES block of
@@ -36,10 +53,11 @@ None of the system's words in the document: no "SIGNAL", "FOR · PAIN · SIGNAL"
    line instead: some titles are not yet checked against search · the titles are a starting set · the two calls to
    action are written from the offer for now.
 3. **YOUR NEXT 7 DAYS** — its own block, right after Read this first: exactly three numbered lines — the first
-   video by exact title (this week's step is to plan it; its filming day in words, which may be more than seven
-   days out) · the first agent to invite for an interview (nobody on file → the skeleton's first-conversation line;
-   never a prospect the member did not name) · the one channel fix, or "nothing to fix this week" when that is
-   true. Never a fourth line.
+   video, the blueprint, by exact title (where its full script is — written at setup's close, or by "make my
+   attraction video"; its filming day in words, which may be more than seven days out) · the interview — the third
+   video — and the guest to invite (nobody on file → the skeleton's line: anyone successful in your upline,
+   downline or brokerage; never a prospect the member did not name) · the one channel fix, or "nothing to fix this
+   week" when that is true. Never a fourth line.
 4. **Your channel today** — the audit, scaled (below). The first-impression read included.
 5. **Your positioning** — for whom · known for · the one line ("[Name] helps [the type of agent] [outcome] through
    [how]" — from `offer.md`'s UVP when Week 2 built it, with the framework's one-line version (`## The framework` →
@@ -52,12 +70,15 @@ None of the system's words in the document: no "SIGNAL", "FOR · PAIN · SIGNAL"
    new agent and for a seasoned one — read from `journey.md` (`## The WHY`, `## The leader moment`, `## Why join
    me`), `positioning.md`, `leadership.md`; drafted and labeled where the Brain has not written them; never a
    question box (`01-foundation-mindset/10`).
-6. **Your three topics** — the three niche lanes (Problem · Situation · Future), each named, each for a named type
-   of agent and pain, each with a playlist and a one-line "why it builds trust." (All three carry the Authority
-   pillar in the content log; interviews Proof; model Perspective — the Brain's five pillars, `content-pillars.md`,
-   kept in the Brain's rows and never printed: "pillar" is not a word the member reads in this plan.)
-7. **Your interviews** — the playlist, 6–10 guests in a plain table (guest · their story as the title · where
-   they come from), in the order to invite them — only guests named under the plan's rule (below); nobody → the
+6. **Your four pillars** — Mike's four, stated: the niche (named from the Brain, in search language, with its
+   playlist) · helping struggling and new agents succeed (verbatim, its playlist of the same name) · brokerage
+   model breakdowns ("[Model] explained") · agent interviews ("Agent interviews") — each with who it is for and a
+   one-line "why it builds trust." (The topic videos carry the Authority content pillar in the content log;
+   interviews Proof; model Perspective — the Brain's five content pillars, `content-pillars.md`, kept in the
+   Brain's rows and never printed.)
+7. **Your interviews** — the playlist, the guest rule (anyone successful in the upline, downline or brokerage), "a
+   question list, no script", and up to 6–10 guests in a plain table (guest · their story as the title · where they
+   come from), in the order to invite them — only guests named under the plan's rule (below); nobody → the
    skeleton's one paragraph, no table.
 8. **Your model videos** — the playlist, the answer-what-they-research list, the comparison warning.
 9. **Your goal** — a few plain lines holding only numbers the Brain holds (below).
@@ -66,22 +87,24 @@ None of the system's words in the document: no "SIGNAL", "FOR · PAIN · SIGNAL"
     to halfway in, in the law's shape · the payoff · the next video.
 11. **Your pace** — one a week to start; two the next step after a good month (the member's phrase is "change my
     YouTube pace"); no workflow is named and no growth figure is printed.
-12. **Your first 90 days** — one plain table (Week of · Video · Kind · Guest), the first 30 days marked (the
-    board's window), the order of the eight in one line, the step-up checkpoint at the end of month one; no guest
-    named → the skeleton's one line under the table (*"No guest named yet: until you name one, an interview week's
-    video is the next one from your three topics, so no week is empty. Your first interview goes on your plan the
-    day you name someone — say 'set up an agent interview'."*).
+12. **Your first 90 days** — one plain table (Week of · Video · Kind · Guest), the first three rows fixed (the
+    blueprint · Why I joined my brokerage · the interview), the first 30 days marked (the board's window), the
+    order of the eight in one line, the step-up checkpoint at the end of month one; no trailer row; no guest named →
+    the skeleton's one line under the table (*"No guest named yet: until you name one, an interview week's video is
+    the next one from your topic pillars, so no week is empty. Your guest is anyone successful in your upline,
+    downline or brokerage — the day you name someone, say 'set up an agent interview'."*).
 13. **Days 91–180** — the direction (more of what worked · videos that keep working · keep the rhythm).
 14. **The scoreboard** — what they do each week and what they watch, from `goals.md` — never a promise, never a
     benchmark (how many people click, how long people keep watching); the compliance status in plain words.
-15. **What I checked, and when** — every query and page read, dated in words; the channels read; the member's own
-    signal used; never the search budget or a count of searches (≤10 research + ≤8 outlier scan is the system's
-    number); a view count only when live numbers were read; the titles not yet checked against search,
-    counted; demo → "nothing searched". The plan never hides its research.
-16. **More titles when you need them** — LAST: the rest of the ~50 titles, under each topic's own name, then the
-    interviews and the model videos, plain titles, nothing beside them; nobody on file to interview → no interview
-    titles, one line in their place (seeded from `starter-title-bank.md` only when the member has no titles of their own; their captured
-    ideas lead regardless).
+15. **What I checked, and when** — the phrases searched, dated in words; the member's own signal used; never
+    another channel, video or link (Mike, 2026-11-23 — no competition analysis in front of the member; the outlier
+    scan stays under the hood); never the search budget or a count of searches (≤10 research + ≤8 outlier scan is
+    the system's number); never a view count; the titles not yet checked against search, counted; demo → "nothing
+    searched". The plan never hides what it searched.
+16. **More titles when you need them** — LAST: the rest of the ~50 titles, under each pillar's own name, plain
+    titles, nothing beside them; nobody on file to interview → no interview titles, one line in their place
+    (seeded from `starter-title-bank.md` only when the member has no titles of their own; their captured ideas lead
+    regardless).
 17. **Closing + footer** — one honest paragraph (consistency before optimization · three years · chapter one vs
     chapter twenty, `08-youtube/92`) and the stamp. Then, **in the export only**, the TITLE NOTES block.
 
@@ -102,44 +125,51 @@ watch time (`yt-analytics` ingests). Never a stat that was not seen.
 existing library stays (it is proof of consistency and skill); the attraction content goes in its own playlists
 and the channel page re-positions to agents; one channel unless the member insists on two — Mike runs one.
 
-## The three niche lanes — how to choose (doctrine §4)
-For each bucket pick ONE named lane where (a) the member's known-for and avatar fit (`strategy.md`,
-`avatars.md`), (b) agents demonstrably search it (research per `yt-research`'s method — web search and page fetch:
-the top videos, autocomplete as the member pastes it — plus the member's own comments and `objections.md`; when
-research returns nothing usable, the lane builds from the Brain alone and its titles carry the SIGNAL note
-`unresearched`), and (c) it is underserved by the outlier channels or served badly. The offer's `## Content
-branches` come first — each segment is a candidate lane or a run of titles inside one — and the lanes that teach
-draw from `## The framework`'s steps and the guide's pages: the whole method, not one tactic.
-- **Problem** — the tactical lane: the member's niche skill as a searchable how-to series ("[niche] for real
-  estate agents").
-- **Situation** — the identity lane: the avatar's current wall, named ("why good agents get stuck at…", "signs
-  you've outgrown…"); the five pains supply the angles.
-- **Future** — the aspiration lane: leverage, leadership, the next stage, modern models — concepts only, no numbers.
-Playlists: one per bucket plus the interview and model lanes; homepage order model → interviews → niche
-(`/99`). `content-pillars.md` (the Short-Form System, Week 4) holds the Brain's five pillars (Authority ·
-Perspective · Story · Proof · Personality) and the short-form angles — reuse its Authority angles so the member
-sees one strategy, not two (its cadence line is the short-form cadence; the YouTube cadence is set in Phase 2 and
-anchored in `channel.md`); never rename a pillar, never name a pillar in the plan.
+## The four pillars — fixed; only the niche is named (Mike, 2026-11-23; doctrine §4)
+The pillars are never chosen: every channel runs on the same four. The plan NAMES one of them — the niche — and
+fills all four with titles.
+- **Pillar 1 — the member's niche** (the Problem bucket): named from the Brain — the offer's `## Content branches`
+  first (the segment closest to the known-for), then `strategy.md`'s known-for and the avatars' pains — in the words
+  agents search ("[niche] for real estate agents"; e.g. "lead generation through open houses"); its titles are the
+  searchable how-tos of that niche, and **the blueprint is the first of them** — the most-searched topic that can be
+  associated with the value proposition, taught start to finish (research per `yt-research`'s method settles it
+  under the hood; the member reads the topic and the title). When research returns nothing usable the titles build
+  from the Brain alone and carry the SIGNAL note `unresearched`.
+- **Pillar 2 — helping struggling and new agents succeed** (the Situation · Future buckets): the name is verbatim,
+  the same for every member ("this casts the widest net"); its titles speak to the agent's situation — the wall
+  they hit ("why good agents get stuck at…", "signs you've outgrown…"), the first year, the five pains — and to the
+  future: leverage, leadership, the next stage, modern models — concepts only, no numbers.
+- **Pillar 3 — brokerage model breakdowns** (the Model bucket; below).
+- **Pillar 4 — agent interviews** (the Interview bucket; below).
+The titles that teach draw from `## The framework`'s steps and the guide's pages: the whole method, not one
+tactic. Playlists: one per pillar — four; homepage order model → interviews → the niche → helping struggling and new
+agents succeed (`/99`). `content-pillars.md` (the Short-Form System, Week 4) holds the Brain's five content pillars
+(Authority · Perspective · Story · Proof · Personality) and the short-form angles — reuse its Authority angles so
+the member sees one strategy, not two (its cadence line is the short-form cadence; the YouTube cadence is set in
+Phase 2 and anchored in `channel.md`); never rename a content pillar, never print one in the plan.
 
-## The interview lane (doctrine §5)
-Sources in order: the people the member named (`memory/ideas.md` tag `interview`, a pipeline row their own words
-created), `memory/organization.md` (agents in the org with a result — first deal, cap, turnaround), `proof.md`
-(agents already helped). **A name from the Top 50 is never put on the plan as a guest by the plan itself** — in the
-document, on the calendar or on a card; the member adds one by saying "set up an agent interview". Each candidate gets: the transformation (the title hook —
-"How [guest] [outcome] [constraint]"), the type, the pain their story answers, the avatar it will land with.
-Sequence by relatability across types and backgrounds. State the quarterly ask Mike uses (an email to the
-organization: "if you've hit any of these, book an interview") as the standing mechanism — only when
-`organization.md` holds agents. **Nobody under that rule — the normal first-time member** → no table, no invented
-name, nothing about "agents you have helped": the skeleton's one paragraph (each interview week stays on the
-plan under its title; a good first guest is an agent the member knows and admires, or anyone with a method worth
-sharing); every interview row
-and its card are titled exactly "A conversation with an agent — guest to be named"; and when such a week arrives
-with no guest named, the week's video is the next video from the member's three topics and the interview moves to
-the first open week after a guest is named (`yt-gameplan` Phase 8). The first interview is the machine's first
-deposit. The guest's outro CTA and the invitation follow the law and never
-promise the member's time per partner. Never a fabricated guest, result, or quote.
+## Pillar 4 — agent interviews (doctrine §5; Mike, 2026-11-23)
+**The guest is anyone successful in the member's upline, downline or brokerage** — their sponsor, a leader above
+them, an agent they brought in, an agent at their brokerage they admire; someone who won with the member's own
+value proposition is great, but never required. **An interview has no script — a question list only** (`yt-interview`
+writes it the day a guest is named). Sources for a NAMED guest, in order: the people the member named
+(`memory/ideas.md` tag `interview`, a pipeline row their own words created), `memory/organization.md` (people in
+the upline or downline with a result — first deal, cap, turnaround), `proof.md`. **A name from the Top 50 is never
+put on the plan as a guest by the plan itself** — in the document, on the calendar or on a card; the member adds one
+by saying "set up an agent interview". Each candidate gets: the transformation (the title hook — "How [guest]
+[outcome] [constraint]"), the type, the pain their story answers, the avatar it will land with. Sequence by
+relatability across types and backgrounds. State the quarterly ask Mike uses (an email to the organization: "if
+you've hit any of these, book an interview") as the standing mechanism — only when `organization.md` holds agents.
+**Nobody under that rule — the normal first-time member** → no table, no invented name, nothing about "agents you
+have helped": the skeleton's one paragraph (each interview week stays on the plan under its title; the guest is
+anyone successful in the upline, downline or brokerage); every interview row and its card are titled exactly "A
+conversation with an agent — guest to be named"; and when such a week arrives with no guest named, the week's video
+is the next video from the member's topic pillars and the interview moves to the first open week after a guest is
+named (`yt-gameplan` Phase 8). The first interview is the machine's first deposit — it is the member's THIRD video.
+The guest's outro CTA and the invitation follow the law and never promise the member's time per partner. Never a
+fabricated guest, result, or quote.
 
-## The model lane (doctrine §6)
+## Pillar 3 — brokerage model breakdowns (doctrine §6)
 Build from `brokerage-model.md` (the mechanics as the member's materials state them) and the brokerage-models reference
 in the Brain plugin; dated. Titles: "[Model] explained ([year])" · "Should you join [brokerage]? Who it's for"
 · "How [rev share / co-sponsorship / the cap] actually works — the concept" · "Before choosing a sponsor at
@@ -150,9 +180,10 @@ comparisons (`/96`): he took his own down; not recommended; facts only if the me
 ## The title bank — the method
 - **Formulas by number** (doctrine §9 / `shared/idea-templates.md`); one promise; ≤70 characters; the viewer
   named ("real estate agent", the avatar type) when the search needs it.
-- **Per bucket:** Problem 12–15 · Situation 12–15 · Future 6–8 · Interview 8–10 · Model 6–8 ≈ 50. Interview
-  titles are written only for named guests — nobody on file → none (never a bracket, never an invented name), and
-  the count the plan states is the number really written.
+- **Per pillar:** the niche (Problem) 12–15, the blueprint first · helping struggling and new agents succeed
+  (Situation · Future) 15–20 · Interview 8–10 · Model 6–8 ≈ 50. Interview titles are written only for named guests —
+  nobody on file → none (never a bracket, never an invented name), and the count the plan states is the number
+  really written.
 - **Each title's note — the Brain's copy only, never printed in the document** (one line per title in the TITLE
   NOTES block of the export): `[lane] · title · for [the type of agent] · [pain, one of five] · [demand / news
   (dated) / asked / proven / gap / unresearched / starter]` (the lane fixes the pillar the content-log row will carry; `unresearched` =
@@ -212,30 +243,29 @@ member reads, and nothing re-derived with a rate nobody stated.
   is two days after that; every later row follows from it (one a week: seven days after the row before; two a
   week: two rows a week on that filming day, out two and five days later). Week 1 is the week of video 1's
   Recording date. A `Booked` guest's own date wins for that row.
-- **The locked order at one a week — the same in every file:** **niche · interview · niche · model · interview ·
-  niche · interview · interview** (the two interviews closing the eight recorded in one sitting if the member
-  likes). At two a week the same sequence, two rows per week, niche first within the week. Why I Switched takes an
-  early niche slot when `journey.md` holds the story (Mike's exception). The member's own story is the second niche
-  slot of the first eight when a story is on file (setup's proposal names it — "Your story, at full length"); it is
-  titled as a Why I Switched only when `journey.md` holds a switch.
+- **The locked order at one a week — the same in every file (Mike, 2026-11-23: the first three, exactly):** **the
+  blueprint (topic) · why I joined my brokerage (the first cycle's model slot) · interview · topic · interview ·
+  topic · interview · interview** (the two interviews closing the eight recorded in one sitting if the member
+  likes); from the second cycle on, topic · model · interview · topic · interview · topic · interview · interview.
+  At two a week the same sequence, two rows per week, topic first within the week. "Why I joined my brokerage" is
+  the member's own move from `journey.md` (the Why I Switched format, the former brokerage never named; no switch
+  on file → "Why I chose my brokerage", the same honest story) — never skipped, never moved.
 - **An interview week with no guest** (the normal first-time member): the row and its card read exactly "A
   conversation with an agent — guest to be named". When that week arrives and no guest is named, the week's video
-  is the next video from the member's three topics, and the interview moves to the first open week after a guest
+  is the next video from the member's topic pillars, and the interview moves to the first open week after a guest
   is named — no week is ever empty, nothing is drafted to nobody, nobody is contacted without the member's yes
   (`SKILL.md` Phase 8 holds the row rule and the one line the member reads).
-- **A new channel's trailer** is week one's first row — a row and a card like any other, 60 to 90 seconds, not one
-  of the eight: at one a week it is week one's row and the eight start the week after; at two a week it takes week
-  one's first slot. Setup's first-video line names it.
+- **No trailer row, on any channel** (Mike, 2026-11-23): week one's first row is the blueprint for every member.
 - **In the document, one plain table:** `Week of` (the Monday of the week, in words — "Mon, Dec 7") · `Video` (the
-  exact title) · `Kind` (Topic / Interview / Model; Trailer for a new channel's first row — the printed word only) ·
-  `Guest`. The Brain's
-  rows carry the real dates, the lane and the System IDs (`brain-contract.md`'s locked shape) — never the table.
+  exact title) · `Kind` (Topic / Interview / Model — the printed word only) · `Guest`. The Brain's rows carry the
+  real dates, the lane and the System IDs (`brain-contract.md`'s locked shape) — never the table; no reference-video
+  cell anywhere (Mike, 2026-11-23).
 - **The first 30 days are marked** — the rows the board cards: four or five at one a week, eight or nine at two
   (right after setup often three or four, because the first video is at least three days out).
   **The step-up checkpoint** sits at the end of month one, in one line.
-- Seeded from the starter bank: the bank's order fills the slots (Month 1 niche titles first, M3-01 the first model
-  slot, M1-I1 the first interview — only with a named guest, never a bracket); the month tags are arc positions —
-  the ratio never bends to them.
+- Seeded from the starter bank: the bank's order fills the slots after the fixed first three (Month 1 niche titles
+  first, M3-01 the second cycle's model slot, M1-I1 the first interview — only with a named guest, never a bracket);
+  the month tags are arc positions — the ratio never bends to them.
 - Days 91–180 as the direction only: which topics to cluster if they win · the evergreen model and
   career-transition videos · the rhythm to keep (one or two videos a week + one or two interviews a month; the
   short-form rhythm only when Week 4 is on file; the Monthly Channel Review only when this run has read a task id on

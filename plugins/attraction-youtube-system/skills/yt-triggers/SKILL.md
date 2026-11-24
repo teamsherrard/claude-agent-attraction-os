@@ -34,10 +34,10 @@ dropped on the next write; no brackets in the block (the Brain Board reads a tas
 | Workflow | When | Switched on | Owner | `config.md` line and its values |
 |---|---|---|---|---|
 | Monday Kickoff — this week's video drafted onto its card, the Brain and the video's folder; the board topped up to 30 days; the short note | Mondays, the member's hour (9:00 am) | at setup, with the member's Yes on the workflows card | `yt-briefing` — task id `attraction-monday-kickoff` | `Monday Kickoff task:` → `attraction-monday-kickoff · runs Mondays [time]` · `paused` · `later` |
-| Monthly Channel Review — what went out in the month, which videos brought agent conversations, the one next step, the move to two a week when due; a member with nothing published gets the short review; uses the month's Studio screenshots when they are on record and ends with the three-screenshots step once a video is published; writes each published card's 📊 AFTER IT'S OUT and a dated YouTube block in the Brain's performance ledger | the 1st, the member's hour (8:00 am) | at setup, with the same Yes | this skill — task id `attraction-monthly-youtube-review` | `Monthly review task:` → `attraction-monthly-youtube-review · runs the 1st [time]` · `paused` · `later` |
+| Monthly Channel Review — what went out in the month, which videos brought agent conversations, the one next step, the move to two a week when due; a member with nothing published gets the short review | the first Monday of each month, inside the Monday Kickoff (never its own task) | with the same Yes as the Kickoff | `yt-briefing`'s Kickoff prompt, step 5b (this skill owns the steps) | `Monthly review task:` → `inside kickoff` · `paused` |
 | **The email line** — one short email to the member's own address when a run finishes | with every run | part of the process, never asked | the consent card writes it; any run may flip it | `Email me:` → `yes YYYY-MM-DD` · `no (no mail connected)` (an older plain `no` mirrored from the Short-Form block is honoured) |
 
-Both are switched on together, once, on `yt-setup`'s one card
+One Yes on `yt-setup`'s one card switches on the Kickoff; the review rides inside it
 (`${CLAUDE_PLUGIN_ROOT}/skills/yt-setup/references/workflows-consent.md` — the card text, the provisioning order,
 the line values, stop · pause · change) — **told, not asked** (the owner, 2026-11-14 evening): the card is one
 statement of what is switched on, closed by "Say Yes"; no choice between defaults, no menu, no "want me to email

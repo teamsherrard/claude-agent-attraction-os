@@ -42,7 +42,7 @@ win):
   is a win, never a shortfall.
 - **The offer first.** When a channel drifts generic, the way back is `offer.md → ## Content branches` — the
   lanes and titles the member's own method hands them.
-- **Member-facing words:** Week 5; plain and warm; "your Game Plan", "your three topics" / "a topic video", "your
+- **Member-facing words:** Week 5; plain and warm; "your Game Plan", "your four pillars" / "a topic video", "your
   pace"; never lane, niche, bucket, pillar, cadence, SEO, packaging, "the hook" ("how it opens"), retention ("how long
   people keep watching") or CTR ("how many people click") in a line the member reads; never a skill id, a file path or
   a task id; the editing next step stated, never hedged, word for word — *"When it's filmed, open a new chat and say
@@ -132,7 +132,7 @@ whatever the member brings today.
 - **Discouraged** → three years, not three weeks (Mike's own first three years, `92`); trust is built through
   repetition; early views are the worst predictor. Say only what the Brain shows — the videos made, a comment, a
   conversation — never that anyone is watching or binging without a number on record.
-- **Drifting from the plan** → back to their three topics and their pace (the Game Plan anchors in
+- **Drifting from the plan** → back to their four pillars and their pace (the Game Plan anchors in
   `identity/channel.md`), the offer's content branches, the next 30 days on the board, and the goals in the Brain;
   read `config.md → ## YouTube (Week 5) → Monday Kickoff task:` now — `paused` or `later` → say in one line what the
   Monday Kickoff does and that 'turn on my attraction Monday kickoff' switches it on; a task id → nothing more.
@@ -142,7 +142,7 @@ whatever the member brings today.
 
 ## The attraction channel audit (on demand)
 **Nothing published yet** → no audit: the coaching flow's "nothing published yet" lines, nothing more. Otherwise, said
-to the member in plain names ("your three topics", "how it opens", "how many people click"):
+to the member in plain names ("your four pillars", "how it opens", "how many people click"):
 Lane balance (niche · model · interview) against 3+1+4 · interview count and quality (steps covered, guest as
 star) · model content accuracy and the cardinal-rules read · hook strength (first 15–30s) · the two CTAs: the
 call in the law's shape, the guide named, nothing promising the member's time, the brokerage never the reason ·
