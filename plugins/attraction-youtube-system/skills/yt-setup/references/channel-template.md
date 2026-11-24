@@ -1,17 +1,22 @@
 # identity/channel.md — template (owner: `yt-setup`; `yt-gameplan` writes the anchors block and, in the two cases its own file names, the `First full video:` and `Filming day:` lines; `yt-analytics` writes the `Live data:` line and appends dated Performance blocks)
 
 Keep this file thin. It holds what the Brain does not: the channel. Who the member is, who they attract, their
-offer, voice, pillars, and rules are read live from the Brain — never copied here. Rename nothing; other skills
-find these headings by name. Vocabulary: **lanes** are the channel's playlists, one per **bucket** (Problem ·
-Situation · Future · Interview · Model); the OS **pillars** (Authority · Perspective · Story · Proof ·
-Personality) live in `identity/content-pillars.md` and are never restated here.
+offer, voice, content pillars, and rules are read live from the Brain — never copied here. Rename nothing; other
+skills find these headings by name. Vocabulary: **the four pillars** are Mike's, the same on every channel (Mike,
+2026-11-23) — the member's niche (named from the Brain) · helping struggling and new agents succeed · brokerage
+model breakdowns · agent interviews — and to the member they are "your four pillars"; **lanes** are the channel's
+playlists, one per pillar; the five **buckets** (Problem · Situation · Future · Interview · Model) are the Brain's
+row codes (Problem → the niche pillar; Situation · Future → the struggling-and-new-agents pillar; Model; Interview);
+the OS **content pillars** (Authority · Perspective · Story · Proof · Personality) live in
+`identity/content-pillars.md` and are never restated here. **No trailer line and no reference-video line anywhere
+in this file** (Mike, 2026-11-23: no trailer, no reference videos).
 
 **The `Setup:` line** is the setup journey's resume stamp (`yt-setup` Step 0): `kit done` → `plan done` →
 `board done` → `workflows done` → `complete YYYY-MM-DD` (`kit done` = the Channel Page is saved; the stamp's word is
 internal and never shown). A member who leaves mid-journey resumes at the next step; a `complete` stamp means the
 READY BRIEF, never the journey again — unless the member says "start over", which writes `not started` and runs
 the whole journey again: what the member already decided is kept and stated, never asked again (the channel — or
-`Status: none`, "starting fresh" — `Filming day:`, `First full video:`, the three topic names, `## In your words`);
+`Status: none`, "starting fresh" — `Filming day:`, `First full video:`, the niche pillar's name, `## In your words`);
 everything else is updated in place. Written only by `yt-setup`.
 
 **The `Board:` line** exists only for a member with no `identity/publishing.md` (they skipped Week 4): the content
@@ -37,21 +42,20 @@ member's time per partner.
 - Mode at setup: [new / existing]  ·  Live data: [not connected / active YYYY-MM-DD / declined YYYY-MM-DD]
 - Setup: [not started (a start-over only) / kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
 - Filming day: [the day the member films a full video — read from Week 4's `identity/operations.md → Filming window:` when it holds a day, otherwise their answer to setup's one question; every date on the plan is counted from it; empty → the first-date rule's fallback is used]
-- First full video: [the topic the first full video is on — one of the three topics below; chosen from the Brain at setup and read back to the member, never asked: `[topic] · [from your guide / from your method / the first of your three / your choice] YYYY-MM-DD`; empty → the plan applies the same rule and writes it]
+- First full video: [the first video is always the blueprint (Mike, 2026-11-23) — the most-searched topic that fits the member's value proposition; this line holds its TITLE, read back to the member at setup, never asked: `the blueprint — [the title] · [from what agents search most / your choice] YYYY-MM-DD`; empty → the plan applies the same rule and writes it]
 - Board: [the content board's link — this line only when identity/publishing.md does not exist; otherwise the link lives on publishing.md → Content board:]
 
 ## Positioning (from the Brain — restated as the channel's one line)
 - For: [primary avatar, in their words]  ·  Known for: [niche / known-for]
 - The one line: "[Name] helps [avatar] [outcome] through [mechanism]"
 
-## Lanes and playlists (one per bucket — homepage order per doctrine §11)
-| Bucket | Playlist (lane) name | Maps to pillar | One-line description |
-|---|---|---|---|
-| Model | [Model] explained | Perspective | … |
-| Interview | [Agent success stories — only when the Brain holds an agent the member has helped; otherwise Conversations with agents] | Proof | … |
-| Problem | [name] | Authority | … |
-| Situation | [name] | Authority (Story angle) | … |
-| Future | [name] | Authority | … |
+## Lanes and playlists (the four pillars — one playlist each; homepage order per doctrine §11; the heading is kept — other skills find it by name)
+| Pillar | Bucket(s) in the Brain's rows | Playlist (lane) name | Content pillar in the log | One-line description |
+|---|---|---|---|---|
+| Brokerage model breakdowns | Model | [Model] explained | Perspective | … |
+| Agent interviews | Interview | Agent interviews | Proof | … |
+| [the member's niche — named from the Brain, e.g. lead generation through open houses] | Problem | [name, in search language] | Authority | … |
+| Helping struggling and new agents succeed | Situation · Future | Helping struggling and new agents succeed | Authority (Story angle when it is the member's own story) | … |
 
 ## The CTA line (reused by every script — the kit's chapter 7 table verbatim; the call in the CTA law's shape, never the brokerage)
 - Resource (inside minute 1): "[the kit's spoken guide line — '…Comment GUIDE and I'll send it.']"  →  the guide: [its title — memory/magnets.md → ## Current magnet, built in Week 2; or, only if that session was skipped, the Starter Resource the first video's lead step builds]  ·  link: [the funnel URL — description line 2 and the pinned comment]
@@ -63,8 +67,7 @@ member's time per partner.
 - Category: [Education]  ·  Language: [ ]
 
 ## Channel page
-- Channel Page delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: the pieces not yet in]  ·  Banner: [made in Week 3 — banner-youtube.png in the Brand folder / comes with the brand kit — not made yet / live]  ·  Bio: [the kit's chapter 6 YouTube bio — stood YYYY-MM-DD / refreshed YYYY-MM-DD]
-- Trailer: [the named video / "make my attraction video: my channel trailer" pending]
+- Channel Page delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: the pieces not yet in — eight pieces, never a ninth]  ·  Banner: [made in Week 3 — banner-youtube.png in the Brand folder / comes with the brand kit — not made yet / live]  ·  Bio: [the kit's chapter 6 YouTube bio — stood YYYY-MM-DD / refreshed YYYY-MM-DD]
 
 ## Baseline (as of YYYY-MM-DD)
 - Subscribers: [n]  ·  Videos: [n]  ·  Most-viewed: "[title]" (~[n])  ·  Cadence observed: [n/wk]
@@ -75,7 +78,7 @@ member's time per partner.
 
 ## Game Plan anchors (written by yt-gameplan only)
 - Plan date: [YYYY-MM-DD]  ·  Doc: [workspace link]  ·  Cadence: [1 or 2]/week · since YYYY-MM-DD  ·  Step-up: [the monthly review proposes two a week after a month at one / proposed YYYY-MM-DD / taken YYYY-MM-DD]  ·  Cycle position: [cycle 1, video 1 of 8]
-- Lane names: Problem "[…]" · Situation "[…]" · Future "[…]"
+- Lane names: Niche "[the niche pillar's playlist]" · Agents "Helping struggling and new agents succeed" · Model "[Model] explained" · Interviews "Agent interviews"
 - 90-day target (from goals.md): [n] conversations · [n] calls held — YouTube's share [n]%
 
 ## Performance (appended by yt-analytics — one dated block per deep dive, newest last, never edited)

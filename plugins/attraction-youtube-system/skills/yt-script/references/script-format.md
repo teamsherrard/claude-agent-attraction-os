@@ -1,4 +1,4 @@
-# Script Format — long-form + the first Short (layout, conventions, the two CTAs)
+# Script Format — the breakdown + the full script + the first Short (layout, conventions, the two CTAs)
 
 **Applies the attraction doctrine** (`${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`): §8 the
 structure, §9 the title and thumbnail promise the hook must match, §10 the two warm CTAs — in the shape of the CTA
@@ -6,12 +6,29 @@ law (the rewire brief, 2026-11-14), §15 what never goes public. The steps per f
 `format-playbooks.md`; this file is how the script looks on the page.
 
 ## Keep it tight (not a 10-page essay)
-- **~140 spoken words per minute.** Default 10–15 min ≈ 1,400–2,100 words; Why I Switched 8–12 min; Model
-  Breakdown 12–20; Niche Breakdown 10–20; interview intro 45–75 s (~100–170 words), outro 30–45 s.
+- **~140 spoken words per minute. 8 to 12 minutes, every format (Mike, 2026-11-23) ≈ 1,100–1,700 words.** A
+  Model Breakdown sits at the top of the range, never past it. An interview gets no script.
 - As long as it needs to be for the viewer to get the outcome, as short as it can be without filler (`/94`).
 - Scannable for a teleprompter: short sentences, clear sections, generous spacing, bullets for lists; easy to
-  *speak*, never a stiff essay. Mike records from bullets; the hook is the only part written word for word —
-  the script gives both: the hook verbatim, the body as spoken lines with bullet-friendly delivery.
+  *speak*, never a stiff essay. Mike records from bullets; the hook is the only part he writes word for word — so
+  every video ships in BOTH forms, in one document: **THE BREAKDOWN** (the hook verbatim, the sections as bullets)
+  first, then **THE SCRIPT** (the full teleprompter script). Never one without the other; never a summary in place
+  of the script.
+
+## The breakdown (form a — the first page of the document)
+```
+TITLE: {final title}
+THE BREAKDOWN — film from this page if you like working from bullets. The full script follows.
+
+YOUR OPENING — say it word for word:
+"{the scripted hook, verbatim — the same words as the script's YOUR OPENING band}"
+THE GUIDE ASK (inside minute 1): "{the kit's spoken resource line}"
+•  {SECTION 1 label} — {what it covers} · {the point} · {the move}
+•  {SECTION 2 label} — …          (3–5 bullets, one a section, in the script's order)
+THE CALL ASK (~a third in): "{the kit's spoken call line in the law's shape}"
+PAYOFF: {one line — the promise delivered, the one thing to do this week}
+NEXT VIDEO: {the next video, named}
+```
 
 ## Verified facts only (never false on camera)
 - Only facts with a source — and the source `(title · outlet · date · link)` goes in the footer, never inside a
@@ -21,7 +38,7 @@ law (the rewire brief, 2026-11-14), §15 what never goes public. The steps per f
   and principles outrank invented precision.
 - **Never a compensation figure, rev-share tier, stock number, or income claim** — the call carries numbers.
 
-## Long-form structure (the content ORDER; `shared/doc-format.md` is the look)
+## The script (form b — the full teleprompter script, after the breakdown; the content ORDER — `shared/doc-format.md` is the look)
 ```
 TITLE: {final title}
 About {N} minutes  ·  For: {the type of agent, in plain words}  ·  {date in words}

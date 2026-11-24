@@ -701,10 +701,13 @@ only puts its next 30 days on the board (four to nine cards), never its whole ba
 same page every time: the hook, the script, the caption, the ask, filming notes, sources, and how it did.
 
 **Q59. YouTube: do I really have to film two videos a week?**
-No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos, in this
-order: a topic video, an interview, a topic video, your model video. Two a week is Mike's recommendation and the
+No. Your YouTube Game Plan starts you at one video a week for the first month — four or five videos, and the first
+three are always, in Mike's order: your blueprint (the topic agents search for most that fits your value proposition),
+why you joined your brokerage, and an interview; the rest follow your plan. Each week's video is scripted in full on
+its Monday (Q61). Two a week is Mike's recommendation and the
 step-up your monthly review proposes (it runs inside your Monday Kickoff on the first Monday of each month) once a month at one has held; to change your pace any time, say "change my YouTube pace". Interviews can be
-recorded two in one sitting, so the mix holds even when your filming time is tight. If you have nobody to
+recorded two in one sitting, so the mix holds even when your filming time is tight. A guest is anyone successful in
+your upline, downline or brokerage. If you have nobody to
 interview yet, that week takes the next video from your three topics, so no week is ever empty; your first
 interview goes on your plan the day you name someone ("set up an agent interview").
 
@@ -712,12 +715,14 @@ interview goes on your plan the day you name someone ("set up an agent interview
 On the same Notion content board as your Reels, under its own YouTube tab (the tabs sit at the top of the board: Graphics, Reels,
 YouTube, Calendar). The tab holds your next 30 days only — four or five cards at one a week (three or four on your
 first day, because your first video is at least three days out) — never all ninety days; the rest stays in your Game
-Plan. Every card opens to the same page: how it opens, the script, your thumbnail sheet, your title and description,
-the resource, your reference video, the guest, notes, your publish checklist, and how it did.
+Plan. Every card opens to the same page: the scripted hook with its breakdown, the full script (an interview: the
+question list), your thumbnail sheet, your title and description, the resource, the guest, notes, your publish
+checklist, and how it did. No video to watch first — your card is about your video (Q66).
 
 **Q61. What does the Monday Kickoff actually do, and will it email me?**
-Every Monday it reads your Game Plan and your board, drafts this week's video onto its card — three ways to open it, the start of the
-script or the interview guide, your thumbnail sheet, the start of your title and description — notes it in your Brain and your
+Every Monday it reads your Game Plan and your board, drafts this week's ONE video in full onto its card — the title,
+the scripted hook with its bullet-point breakdown, and the full script of eight to twelve minutes you read off the
+teleprompter (an interview week: the question list, no script) — notes it in your Brain and your
 video's folder, keeps your next 30 days on the board, leaves a short note in Cowork, and sends you one short email at your own address
 (the same as your short-form notes; nothing if no mail is connected). On an interview week with no guest named yet, it drafts the next video
 from your three topics instead, so no week is ever empty. On the first Monday of each month it also reviews last month — your month in one line and the one next step — so there is no separate monthly task; "run my monthly channel review" runs that review any day. It never posts, publishes or sends anything else. "Make my attraction video: [title]" finishes the video in a fresh chat, in three short steps (Q70).
@@ -747,16 +752,14 @@ published", or any time with "repurpose my attraction video". You film them like
 the next Monday plan turns up to two of them into that week's Reels, so the video fills
 slots you already had instead of adding new ones. At least one Reel a week stays an original from your plan.
 
-**Q66. What is the "reference video" on my YouTube cards? Is it a real video?**
-Yes, always real. Every video on your board comes with one real YouTube video that is close to your idea, so you can
-watch a realistic example, and see what other people who make videos for agents are doing, before you plan yours.
-It is found on YouTube and checked before it goes on your card; a link is never made up. You find it as the last
-column of your YouTube tab, and it plays right on the card. A few plain facts:
-
-- It was matched on its title and who made it. Watch it with your own eyes; it is an example, not a script to copy
-- View counts appear only when your live numbers are connected (Q68). Otherwise none is shown, because none is guessed
-- If nothing close was found, the card says so and gives you YouTube's own search for the topic instead
-- When you say "make my attraction video: [title]", two more are added, with the one thing to do better
+**Q66. Where did the "reference video" on my YouTube cards go? My card has no video to watch.**
+Right — none anymore, on purpose. Mike's ruling (2026-11-23): no reference videos, anywhere — not on your board, not in
+your Game Plan, not in your Monday note, not when you make a video. Your card is about your video: the title, the
+scripted hook with its breakdown, the full script, your publish checklist. Competitor videos and their summaries are
+gone the same way. Under the hood the research still checks what agents actually search for, and what reaches you is
+the topic and the title — never a link to someone else's video. If your board was built before this change it may
+still show a "Reference Video" column for a while; it is hidden the next time your videos are updated, and nothing of
+yours is deleted. Watch whoever you like on your own time; nothing in the system will tell you to.
 
 **Q67. I filmed and edited my video. How do I upload it properly?**
 Open the video's card on your board and scroll to "Publish it". Six tick boxes, in the order YouTube Studio shows
@@ -768,19 +771,19 @@ clip scripts. Your YouTube plugin never uploads or publishes a video for you.
 **Q68. Can it read my real YouTube numbers?**
 Yes, when you want it. It is a separate two-minute step, never part of setup: open a new chat and say "connect my
 YouTube numbers". It shows you exactly where to click, you sign in to YouTube once, and it only ever reads. After
-that your reviews and your reference videos carry real view counts. Without it everything still works; your monthly
+that your reviews carry real view counts. Without it everything still works; your monthly
 review (inside your first-Monday Kickoff) asks you for three screenshots from YouTube Studio instead. Your Monday Kickoff never uses this
 connection on its own.
 
-**Q69. Can I film several videos in one day?**
-Yes, and it is the easiest way to start. Say "script my first three videos": it writes the three videos you film on
-your own, all three in one sitting, with nothing asked first. Want one in your own words? Tell it how you would
-open it and it rewrites that script around your sentence. You also get a one-page film-day
-sheet — camera at eye level, face a window, your script
-beside the lens, change your top between videos. Film all three on one day; each still goes out on its own week.
-After filming, one video at a time, say "make my attraction video: [title]" and your thumbnail sheet, your title and
-description and your publish checklist are added around the script. Interviews are not part of a batch: a guest is
-booked with "book my agent interview".
+**Q69. Can I film several videos in one day? Where are my first three videos?**
+You can film ahead, but it writes ONE video a week, in full (Mike, 2026-11-23). Your first three videos are always, in
+this order: your blueprint (the topic agents search for most that fits your value proposition), why you joined your
+brokerage, and an interview. The sitting scripts the first one in full — the scripted hook with its bullet-point
+breakdown and the full eight-to-twelve-minute script you read off the teleprompter — and every Monday your Kickoff
+scripts the next one the same way onto its card. The interview needs no script: when a guest is named (anyone
+successful in your upline, downline or brokerage), you get the question list. "Script my first three videos" (the
+old batch) is retired; if you want the second video early, say "make my attraction video: [title]" — it is on your
+plan by title — and film both on your filming day. Each still goes out on its own week.
 
 **Q70. It built everything while I stepped away. Can it wait for me?**
 It does now. Your short-form setup and your YouTube setup go one step at a time: each step shows you what it built

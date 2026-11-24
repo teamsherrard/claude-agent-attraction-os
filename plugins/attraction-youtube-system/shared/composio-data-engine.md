@@ -17,7 +17,7 @@ step, where the member has to type the name; that sentence says what it is.**
 | `yt-analytics` (YouTube System) | the capability map + recipes 1, 2, 3, 4 (inside a dive), 5, 6, 7 and S — the long-form deep dive and quick reads | — |
 | `sf-analytics` (Short-Form System) | recipe 8 (Instagram + Shorts) + recipes 2, 3, 6, 7 and S — the short-form deep dive and the quick reads ("how's my content doing") | — |
 | `sf-ideas` (research, read-only) | section C only — the search / trends / news stack, which needs no sign-in — when the tools are already in the session, inside its own search budget | the connection tool, the signed-in toolkits |
-| `yt-outliers` · `yt-research` · `yt-make-video` (its reference step) · `yt-gameplan` on a refresh · `yt-board` (a card's reference video, in a chat the member is in) · `yt-leads` (recipe 1 step 7 — reading comments) — the YouTube research skills, read-only | recipes 2, 3, 4 and 6 — **only when the connection is already active** (`identity/channel.md → Live data: active …` and the tools are in the session): real view counts for the comparison set, the gap read, each card's reference video and the three reference videos. Not active → the classic paths: nothing is said mid-task; ONE closing line naming the connect phrase is allowed, at most once a run, and never when the line reads `declined` | the connection tool (never add, list or check); any call during the setup sitting; any call from a scheduled run |
+| `yt-outliers` · `yt-research` · `yt-gameplan` on a refresh · `yt-leads` (recipe 1 step 7 — reading comments) — the YouTube research skills, read-only, under the hood (nothing of it printed to the member — no link, no channel, no view count: Mike, 2026-11-23) | recipes 2, 3, 4 and 6 — **only when the connection is already active** (`identity/channel.md → Live data: active …` and the tools are in the session): real view counts for the comparison set and the gap read. Not active → the classic paths: nothing is said mid-task; ONE closing line naming the connect phrase is allowed, at most once a run, and never when the line reads `declined` | the connection tool (never add, list or check); any call during the setup sitting; any call from a scheduled run |
 | every other skill, setup above all | nothing: the classic paths (public reads, the Studio pack, screenshots, the posting tool); `sf-greenscreen` reads `memory/intel.md`. `yt-setup` may NAME the connect step once, in its close — nothing more | call, offer a sign-in, check or list the connection |
 
 ## When it activates (LATER — never during onboarding, never from a scheduled run)
@@ -233,10 +233,10 @@ or a script still comes from a sourced fact in the Brain, never from the search 
 audience · performed vs its channel's size · recent · watchable) → deliver `link · channel · views · the one
 thing to do better` — views exact from the API, not approximate. Same-audience first; a general-audience or
 different-model video only as the labeled fallback. Used inside the deep dive (the openings), and — **only when `Live data: active` is already on file and
-the member is in the chat** — by the research skills in place of a web search: the card's **Reference Video** (one
-real video on every card, `yt-research`'s reference-video steps) and `yt-make-video`'s three then carry exact views
-and the publish date. Not connected → those skills build references from a YouTube-only web search and a check that
-the video is real, with no numbers at all; they say nothing about connecting mid-task (one closing line naming the phrase is allowed, at most once a run, never
+the member is in the chat** — by the research skills in place of a web search, under the hood only: the read sharpens
+a title or a topic pick and nothing of it is printed (no reference video on any card or in any reply — Mike,
+2026-11-23). Not connected → those skills read from a YouTube-only web search with no numbers at all; they say
+nothing about connecting mid-task (one closing line naming the phrase is allowed, at most once a run, never
 when `Live data: declined`), and a scheduled run never calls the connection.
 
 ### 5. Analytics + coaching (Growth) — the attraction scoreboard

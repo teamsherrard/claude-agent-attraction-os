@@ -1,26 +1,26 @@
 ---
 name: yt-script
 description: >
-  Script Studio for the attraction channel (Week 5) — the teleprompter-ready script for a chosen idea
-  in the member's spoken voice, in the four attraction formats (Why I Switched · Pain Point · Model
-  Breakdown · Niche Breakdown) or the agent interview intro and outro, on Mike's structure: the
-  pain-point hook, the Week 2 guide asked for inside minute one (comment GUIDE), one step of the
-  member's method taught in full, the call ask in the law's shape a third of the way in, the payoff,
-  the next video. Every spoken CTA is the Week 3 Kit's line; nothing promises the member's time per
-  partner. Stories from the bank, marked used; the old brokerage never named; model scripts explain
-  mechanics, never figures. Saves the script; writes the content-log row at Scripted. Triggers on
-  "write my attraction script", "script my why I switched video for agents",
-  "write my model breakdown script for agents", "script my pain point video for agents", "script my
-  agent interview intro", "script my first three videos".
+  Script Studio for the attraction channel (Week 5) — ONE video, written in full, in two forms in one
+  document: the bullet-point breakdown with the opening scripted word for word, and the full 8 to 12
+  minute teleprompter script, in the member's spoken voice, in the four attraction formats, on Mike's
+  structure: the pain-point hook, the Week 2 guide asked for inside minute one (comment GUIDE), one
+  step of the member's method taught in full, the call ask in the law's shape a third of the way in,
+  the payoff, the next video. Interviews get no script — the question list is the interview skill's.
+  Every spoken CTA is the Week 3 Kit's line; nothing promises the member's time. Stories from the bank;
+  the old brokerage never named; mechanics, never figures. Saves the script; logs it at Scripted.
+  Triggers on "write my attraction script", "script my why I switched video for agents", "write my
+  model breakdown script for agents", "script my pain point video for agents", "script my next
+  attraction video".
 ---
 
-# Script Studio — the video, in the member's voice, ready to read
+# Script Studio — full mode (the default and only mode): ONE video, both forms, in the member's voice, ready to read
 
 Apply `${CLAUDE_PLUGIN_ROOT}/shared/house-rules.md` — the doctrine (#1), the Brain (#2), the 3-state gate (#3),
 voice (#5), sourcing (#6), docs (#7). The Brain Contract (`${CLAUDE_PLUGIN_ROOT}/shared/brain-contract.md`):
 this skill writes the **content-log row at Scripted**, stamps a story's **Used-where**, and nothing else.
 
-**Lazy-load:** `references/format-playbooks.md` (the four formats + interview steps) at Step 2;
+**Lazy-load:** `references/format-playbooks.md` (the four formats; an interview has no script) at Step 2;
 `references/script-format.md` (layout, conventions, the two CTAs on the page) at Step 3; doctrine §8 (structure)
 and §10 (the two CTAs) only if a line needs re-grounding. Never the whole doctrine.
 
@@ -60,11 +60,19 @@ and §10 (the two CTAs) only if a line needs re-grounding. Never the whole doctr
   line or a document the member reads; the editor is "your AI Editing Studio" — never "Plugin 5", an engine's
   name or "marketplace".
 
-> **One chat = one video.** Normally Step 2 of make-video. A member can also come straight here with their own
-> idea ("script my why I switched video") — this chat becomes the video's chat. Nothing is asked first (Step 1b):
-> what is missing is drafted from the Brain and said in one line.
-> **One exception, and only this one: the first batch** ("script my first three videos" — the section near the end):
-> three scripts in one sitting, so a new member can film a first batch in one day.
+> **One chat = one video — written in full.** Normally Step 2 of make-video (and Step 3 of the Monday Kickoff, which
+> writes the week's video the same way). A member can also come straight here with their own idea ("script my why I
+> switched video") — this chat becomes the video's chat. Nothing is asked first (Step 1b): what is missing is drafted
+> from the Brain and said in one line. **The output is always the whole video for ONE video — both forms in one
+> document** (Step 3) — **full mode**, the only mode this skill runs in. **Never a batch** (Mike, 2026-11-23: one video a week, fully broken down — never a batch of
+> summaries). The older phrase **"script my first three videos" is retired as a path and never gets a question**: it
+> scripts the FIRST video of the plan in full — the next `Idea` row of `memory/content-calendar.md → ## Long-form
+> (YouTube)` that is not an interview with no guest named — and the reply says one line in its place, by
+> `config.md → ## YouTube (Week 5) → Monday Kickoff task:`: a task id → *"I write one video at a time now, in full —
+> this is your first, '[title]'. Your Monday Kickoff brings the next one, written, each Monday."*; anything else →
+> *"I write one video at a time now, in full — this is your first, '[title]'. Say 'turn on my attraction Monday
+> kickoff' and the next one arrives, written, each Monday."* No plan yet → *"Your Game Plan comes first — say 'set up
+> my YouTube for agents'."* Never three scripts in one sitting, never a film-day sheet, never a trailer.
 
 ## Step 1 — Gather (read; never re-ask)
 - **The idea package** — from ideation / make-video (title · bucket · hook · avatar · pain · signal · thumbnail
@@ -98,7 +106,7 @@ and §10 (the two CTAs) only if a line needs re-grounding. Never the whole doctr
   your compliance basics are set"** (the line under the script's title; the brokerage's wording never invented),
   and say ONE line at the close of the chat: *"One thing before you film this: say 'paste my compliance link' — two
   minutes — so your brokerage's wording is on it."* (inside `yt-make-video`, that chat's close says its own one
-  line and this skill stays silent). set → write, apply, remind once at the close: *"One thing: check this wording
+  line and this skill stays silent; the same inside `yt-setup`'s close — the sitting's own close says it). set → write, apply, remind once at the close: *"One thing: check this wording
   with your brokerage, then say 'confirm my compliance'."* confirmed → write, apply.
 - Missing local Brain → `attraction-brain-sync` first; a tool error is never "no Brain."
 
@@ -118,12 +126,19 @@ nothing asked first. Two things are read for the member's own words:
 ## Step 2 — Choose the format (`references/format-playbooks.md`)
 Open the chosen format's **Pull** files now (the Step 1 list) — only that format's.
 Bucket → format: Situation with the member's own story → **Why I Switched** · Problem / Situation → **Pain Point
-Series** · Model → **Model Breakdown** · Problem / Future deep teach → **Niche Breakdown** · Interview → the
-**intro (recorded last) + outro + the casual call ask** (the question map and the guest's prep belong to
-`yt-interview`). Each playbook fixes the steps, the length, the hook formulas that fit, the proof and story
-pulls, and the lines that never appear.
+Series** · Model → **Model Breakdown** · Problem / Future deep teach → **Niche Breakdown** · Interview → **no
+script** (Mike, 2026-11-23: an interview needs a question list, nothing scripted) — hand to `yt-interview` for the
+question list and the invite, write nothing here, and stop. **A row titled "Why I joined my brokerage" / "Why I
+chose my brokerage" takes the Why I Switched format**, from `identity/journey.md` (the member's own move; the former
+brokerage never named), whatever its slot on the plan — a Situation row, never the model-breakdown gate. Each playbook fixes the steps, the length (8 to 12
+minutes, every format), the hook formulas that fit, the proof and story pulls, and the lines that never appear.
 
-## Step 3 — Write the long-form script (`references/script-format.md` + doctrine §8)
+## Step 3 — Write the whole video: two forms, one document (`references/script-format.md` + doctrine §8)
+**Form (a) THE BREAKDOWN** — one page the member can film from: the opening written word for word (the scripted
+hook), then each section as bullets (what it covers · the point · the move), the resource line, the call line, the
+payoff, the next video. **Form (b) THE SCRIPT** — the full teleprompter script, 8 to 12 minutes, every line sayable.
+Both are written every time, in this order, in the one `Script` document — never one without the other, never a
+summary in place of the script (Mike, 2026-11-23: "fully broken down"). The structure both forms follow:
 - **THE OPENING (0:00–0:15/0:30 — printed as the band YOUR OPENING; "hook" is never printed)** — the pain point
   in the first ten seconds, **written word for word** (`/94`): call
   out the viewer's situation → the tension or question → what they'll have by the end. Never "welcome back," a
@@ -164,9 +179,9 @@ pulls, and the lines that never appear.
   script's title so the member never reads a cue aloud (`references/script-format.md`); sources are never inside
   the spoken lines — they go in the footer.
 
-**Length:** ~140 spoken words per minute. Default 10–15 minutes (`/94`); Why I Switched 8–12; Model Breakdown
-12–20; Niche Breakdown 10–20; interview intro 45–75 seconds, outro 30–45. Write the word count to fit.
-Value-dense; cut filler; easy to *speak*.
+**Length (Mike, 2026-11-23): 8 to 12 minutes, every format** — ~140 spoken words a minute, so about 1,100 to 1,700
+words; a Model Breakdown sits at the top of the range, never past it. Write the word count to fit; the breakdown is
+one page. Value-dense; cut filler; easy to *speak*.
 
 ## Step 4 — Voice (critical)
 Write for the ear in their spoken cadence: their sentence length, their verbatim signature phrases, their
@@ -209,66 +224,17 @@ them for the week's Reels. Nothing more is written here.
    `resource: [the guide's name] · call` · Status `Scripted` · Link `—`. If `yt-interview` or
    `yt-model-breakdown` already wrote this video's row at `Idea`, or the Monday Kickoff wrote it at `Scripted`,
    **update that row** — never a second one. A captured idea the member brought straight here → mark its
-   `ideas.md` row used now (make-video does this otherwise). When they have the board, the script goes into the
-   card's 🎬 SCRIPT section (make-video Step 6 writes the card; replaced in place, never stacked).
+   `ideas.md` row used now (make-video does this otherwise). When they have the board, the document goes onto the card —
+   form (a), the scripted hook and the breakdown, into 🎯 THE HOOK; form (b), the full teleprompter script, into
+   🎬 SCRIPT (make-video Step 6, the Monday Kickoff or `yt-setup`'s close writes the card; replaced in place, never
+   stacked).
 3. Stamp the story's Used-where. Push via `attraction-brain-sync`; verify. Save fails → say it is not saved,
    keep the script visible, retry once, stop.
 
-## The first batch — "script my first three videos" (three scripts in one sitting; the owner, 2026-11-15)
-**Why it exists:** a member who has just finished setup films best in one go — camera out once, three videos
-recorded, three weeks covered. This writes the three scripts, and only the scripts; each video's own chat still
-does the rest. Told, never asked: no "which three?", no "ready?".
-1. **Which three — the next three the member films ALONE.** Read `memory/content-calendar.md → ## Long-form
-   (YouTube)`: the rows at `Idea`, or at `Scripted` with only a script start, in date order, **skipping interviews**
-   (a guest is booked, never batched). A new channel's trailer counts as one of the three. A model breakdown whose
-   facts are not on file (`identity/brokerage-model.md` not built) is skipped for the next solo video, with one
-   plain line. Fewer than three solo videos on the plan → script what there is and say the count. No plan yet →
-   one line: *"Your Game Plan comes first — say 'set up my YouTube for agents'."* Say the three in one line:
-   *"Your first three to film on your own: '[A]', '[B]' and '[C]'."* — and, only when the next rows hold an
-   interview with a guest at Candidate or later, one more sentence: *"Your interview is booked separately."* A
-   member with no guest named hears nothing about interviews here.
-2. **Read once, write three.** Step 1's gathering runs ONCE for all three (the Brain files are opened one time),
-   and the three scripts are written in this one sitting with no question first (Step 1b) — the member asked for
-   three, so three are written. The batch carries the one line: *"Your own opening line always wins — say it for
-   any of these and I'll rewrite that script around it."*
-   No web research here — the scripts are built from the member's own method, stories and proof; each card already
-   carries its reference video for the member to watch first. Then Steps 2 to 6 for each script, in date order:
-   its own format by bucket, **a different story from the bank for each** (each stamped Used-where), **three
-   different ways of opening** (never the same hook shape twice in the batch), the two CTAs in the kit's words in
-   every script, the compliance and fact check on each. The trailer is 60 to 90 seconds; the others the usual
-   length. In the chat, show each script's title, its opening line and its length in minutes — never three full
-   scripts in the chat; the documents hold them.
-3. **Save each one where its video lives** (Step 7, three times, ONE push at the end): the `Script` document in
-   each video's own folder; the content-log row at `Scripted` (update, never a second row); with a board, each
-   card's 🎬 SCRIPT section — the full script, labelled *"full script — written in your first batch"* — replacing a
-   script start, and the card's Status → `Scripted`; each row of the calendar → `Scripted`. **The filming day:**
-   set the three rows' and cards' Recording Date to ONE day — the first of the three's own recording day (the
-   plan's date, never today and never sooner than three days out) — and leave every Publishing Date as the plan
-   wrote it, one a week. A row or a card the member has already moved keeps the member's date.
-4. **The film-day sheet** — one short document, `First Batch — Film Day — YYYY-MM-DD`, in `03 · Content/Long-Form/`
-   (the skeleton is in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`), and the same lines in the chat:
-   the day · the three videos in filming order (the trailer last — the member is warmed up by then) with each
-   one's length · **before you record** — the camera at eye level · face a window · a quiet room, or the
-   microphone you already have · the script on your phone in Instagram's free Edits app — it has a teleprompter built in: paste the script, press record, read (Mike, 2026-11-22: one app, named) · a ten-second test, watched back ·
-   **between videos** — change your top, so three weeks of videos do not look like one afternoon · **after each
-   video** — five photos of your face for the thumbnail: a big smile, surprised, serious, pointing left, pointing
-   right — kept on the phone; one is uploaded to Higgsfield for each thumbnail. Nothing in it promises anyone the
-   member's time.
-5. **The close — three numbered lines, and nothing after them:**
-   1. *"Watch the video on each card first — one real example for each of your three."* (left out with no board)
-   2. *"Film all three on [the day, in words]. Say 'block my attraction filming day' and it goes on your calendar."*
-   3. *"After filming, one video at a time: open a new chat and say 'make my attraction video: [title]' — your
-      script is already written, so I add your thumbnail sheet, your title and description and your six publish
-      steps. When it's filmed, open a new chat and say 'edit my YouTube video' (or 'edit my interview') — your AI
-      Editing Studio edits it."*
-   A save that failed is said plainly, with what was not saved. Compliance `unset` → the scripts are written and
-   stamped "hold until your compliance basics are set", and the one line is said once, last.
-**After the first batch it is one chat per video again** — the phrase works once the plan has three solo videos
-unscripted (a later month's batch is the same three-script sitting, never more than three).
-
-## Hand-off (a script asked for on its own — inside `yt-make-video` that chat's reply 2 says its lines and this skill stays silent)
+## Hand-off (a script asked for on its own — inside `yt-make-video` that chat's reply 2, or inside `yt-setup`'s close that sitting's Step 5 of 5, says its lines and this skill stays silent)
 The reply is short; the document holds the script — never the whole script in the chat. In this order: *"✓ Your
-script for '[title]' is written — about [n] minutes."* · where it is saved, in plain words · the opening line ·
+video '[title]' is written in full — the breakdown and the script, about [n] minutes."* · where it is saved, in plain
+words · the opening line ·
 *"Your own opening line always wins — say it any time and I'll rewrite the script around it."* · the compliance
 line when one is due (once — never again in the next reply) · the stop line, last: *"Say **Yes** and I'll write
 your thumbnail sheet and your title and description — or tell me what you'd change in your script. **Your
@@ -277,6 +243,6 @@ turn.**"* Nothing of the next piece is built before that Yes. On the Yes →
 the editing line, word for word: *"When it's filmed, open a new chat and say 'edit my YouTube video' (or 'edit my
 interview') — your AI Editing Studio edits it."* — with the install sentence only when no AI Editing Studio skill
 is in this session's skill list (*"Install the AI Editing Studio from the same place you installed this plugin,
-then say 'set up my video editor' once."*). Interviews → `yt-interview` for the question map and the guest's
-prep. The editing step is stated as a fact wherever a video has just been scripted (the owner, 2026-11-14
+then say 'set up my video editor' once."*). Interviews → `yt-interview` for the question list and the invite — no
+script, ever. The editing step is stated as a fact wherever a video has just been scripted (the owner, 2026-11-14
 evening) — never "when you have the editor", never a "Not installed yet?" question.

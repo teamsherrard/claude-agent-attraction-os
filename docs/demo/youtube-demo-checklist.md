@@ -1,7 +1,7 @@
 # YouTube demo checklist — Week 5 on a demo Brain that finished Weeks 1 to 4
 
 *What to say, in order, and what to expect. Pairs with `brain-demo-checklist.md` (Week 1), `lead-magnet-demo-checklist.md`
-(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.11.0 · Brain 0.9.22. Every number in a demo Brain
+(Week 2) and `shortform-demo-checklist.md` (Week 4). YouTube plugin 0.12.0 · Brain 0.9.26. Every number in a demo Brain
 is fictional and tagged. The week's date is still to be confirmed; the plugin is live.*
 
 ## Before the screen
@@ -31,7 +31,7 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 - [ ] **Your Channel Page:** saved as one document under Content → Long-Form, and in the chat only **the three to paste
   today**, each as a copy block with its click path above it: the channel description with the about section, the
   links (the booking link first, the guide second), the upload defaults. One line says the other pieces (keywords,
-  playlists, banner, spoken lines, trailer) are in the document, and that `walk me through my channel page` takes them
+  playlists, banner, spoken lines) are in the document, and that `walk me through my channel page` takes them
   one at a time. The banner is the one the brand kit made in Week 3. No "paste it now" question, no wait.
 - [ ] **The filming day — read back when the Brain holds one, asked when it does not.** A demo Brain that finished
   Week 4 normally holds a filming day already, so nothing is asked: the day is read back for a Yes or a change. To
@@ -41,10 +41,10 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   topic the member could talk about, not what they like or are known for, not who they would sit down with, not who
   they have helped, nothing from Week 1 or Week 4. **Flag as a defect:** "Question 1 of 2", any question about a topic
   "you could talk about for twenty minutes", "about an hour" (a version before 0.11.0), or the filming-day question on a Brain that already holds one.
-- [ ] **Your direction, then the Game Plan:** after the filming day (asked or read back) it shows your three topics and **your first videos** (one on
-  the topic your guide already answers — it says why, and "start with [topic] instead" changes it; a conversation with an agent only when the Brain holds one you have helped — otherwise the slot reads "A conversation with an agent — guest to be named" and a
-  line says it goes on the plan the day you name someone; your story at full length) with your pace and your
-  filming day, and a **stop**: "If that sounds like you, say
+- [ ] **Your direction, then the Game Plan:** after the filming day (asked or read back) it shows your three topics and **your first three videos, in Mike's order** (your
+  blueprint — the most-searched topic tied to your value proposition — it says why, and "start with [topic] instead" changes the topic, never the order; why you joined your brokerage; an interview — a guest, anyone successful in your upline, downline or brokerage, named only when the Brain holds one — otherwise the slot reads "A conversation with an agent — guest to be named" and a
+  line says it goes on the plan the day you name someone) with your pace and your
+  filming day. **Flag as a defect:** a trailer anywhere, four bullets under "first 3 videos", a reference video or a competitor's video named. Then a **stop**: "If that sounds like you, say
   Yes…" **The proposal is short (Mike, 2026-11-22):** no "(two a week comes later)", no line about the video that explains
   your brokerage model — both live in the Game Plan document. Nothing is researched or built yet. On the Yes, on a demo Brain: *"This is a demo Brain, so I skip the live research and nothing gets scheduled."* and *"Building it now — your plan in a moment."* (a real Brain says it is checking what agents search for), then two lines pointing at
   the document — never the plan in the chat — and a second stop. Open it: your three topics from the offer's content branches, the interviews, the
@@ -52,12 +52,10 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
   mix of 3 topic videos · 1 model video · 4 interviews, the goal in conversations and calls — never income. **The first video is never dated today:** it is
   recorded on the next filming day at least three days out.
 - [ ] **The board:** the same Notion Content Dashboard gains the **YouTube tab** beside Graphics, Reels and Calendar,
-  with the next 30 days as dated cards (often three or four right after setup; never the whole plan). **The last
-  column is `Reference Video`: one real YouTube video, close to that card's idea, on every card.** Click the link: it is
-  a real video, on the topic. Click a card: the hook, **the reference video with its player, "Why this one" and "Watch
-  for"**, and the brief; the rest waits for the Kickoff. The chat says it in one line: *"Each video on your board has
-  one real video to watch first — found on YouTube and checked."* (A demo's reference videos are real
-  ones too; nothing else in a demo is.) Notion not connected → the **Connect button appears right in the chat** and the
+  with the next 30 days as dated cards (often three or four right after setup; never the whole plan). **No `Reference Video`
+  column, no video to watch first** — Mike's ruling (2026-11-23). Click a card: a working opening line and the brief; the
+  rest waits for the Kickoff. **Flag as a defect:** a column, a link or a line about another channel's video, or a
+  "Finding one real video…" progress line. Notion not connected → the **Connect button appears right in the chat** and the
   sitting keeps going; later, in any chat, `put my attraction plan in Notion` builds the board.
 - [ ] **The consent card:** ONE short statement, one thing — *"your Monday Kickoff — every Monday, this week's video drafted onto its card; on the first Monday of the month, last month reviewed too"* (Mondays 9:00 am), "only draft", the short email note — closed by "Say Yes". No defaults to pick, no "want me
   to email you", **no second workflow** (a Monthly Channel Review of its own on the card is a version before 0.11.0). Say
@@ -66,27 +64,28 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 - [ ] **The first video:** by its exact title, with its recording day in words — *"open a new chat and say 'make my
   attraction video: [title]'"* — the thumbnail named as made in Higgsfield, and the editing step stated in these words: *"When it's filmed, open a new
   chat and say 'edit my YouTube video' (or 'edit my interview') — your AI Editing Studio edits it."* (no "Plugin 5", no
-  "Riverside", no install question). A new channel's first video is its trailer.
+  "Riverside", no install question). The first video is the member's blueprint — never a trailer.
 - [ ] **The close:** *"Your Brain Board and your Brain Book are updated — here they are: [the Board link] · [the Book
   link]"*, then at most three numbered next steps (paste the three channel pieces · make your first video · invite
   your first interview guest — only when the Brain names one; otherwise the line about naming someone), then ONE plain line for later: *"…when you want your real view counts read for you: open
   a new chat and say 'connect my YouTube numbers'."* Nothing after that. Open the Brain Board: the YouTube page shows
-  the Channel Page, your three topics, this week's video with its "watch first" line, the Monday Kickoff and the board link.
+  the Channel Page, your three topics, this week's video, the Monday Kickoff and the board link — no "watch first" line.
 
 ## After the screen (each one phrase, two minutes)
-- `run my attraction kickoff` — this week's video drafted onto its card (three ways to open, the script start, the
-  thumbnail sheet, the start of the title and description, the six publish boxes), the board topped up, the short note with its **▶ WATCH FIRST**
-  line; the same thing Monday's workflow does. On the first Monday of the month the note also carries last month in one
+- `run my attraction kickoff` — this week's ONE video drafted **in full** onto its card (the title, the scripted hook with
+  its bullet-point breakdown, the full eight-to-twelve-minute teleprompter script — an interview week: the question list,
+  no script — and the six publish boxes), the board topped up, the short note; the same thing Monday's workflow does.
+  **Flag as a defect:** a summary instead of the full script, several videos' summaries, a "watch first" line. On the first Monday of the month the note also carries last month in one
   line and the one next step.
 - `run my monthly channel review` — on demand, any day: last month in one line and the one next step (short when nothing
   is published yet). It is not a task of its own; it rides inside the first Monday's Kickoff.
-- `script my first three videos` — the first batch: the three videos the member films alone, scripted in one
-  sitting (titles, opening lines and lengths in the chat; the scripts in each video's folder and on its card), one
-  filming day set on the three cards, and a one-page film-day sheet. No interview is ever in it.
+- `script my first three videos` — retired (Mike, 2026-11-23: one video a week, in full). One line back, pointing at
+  the Monday Kickoff and `make my attraction video: [title]` for the next video on the plan. **Flag as a defect:** three
+  scripts in one sitting, or a film-day sheet.
 - `make my attraction video: [title]` — in a fresh chat, three replies: (1) the direction, and it waits; (2) the script
   in the member's voice with the two calls to action — its filming line names **Instagram's free Edits app** ("it has a
   teleprompter built in: paste the script, press record, read") — and it waits; (3) the rest — the thumbnail sheet for Higgsfield,
-  the title and description with the booking line first, two more reference videos with "the one thing to do better",
+  the title and description with the booking line first,
   and **the publish checklist filled with this video's own title, description, playlist, end screen and pinned comment.**
 - Open the card and scroll to **✅ PUBLISH IT**: six tick boxes in YouTube Studio's order. Then `my video is published`
   — the card moves to Published, and it stops there: the clip scripts are written only on a Yes.
@@ -102,7 +101,7 @@ is fictional and tagged. The week's date is still to be confirmed; the plugin is
 - "Week 4" for anything YouTube · PARTNER/SCALE/GROWTH · "join [brokerage]" as a reason · a compensation figure or an
   income promise · a Saturday beside the member, a group chat or a 1:1 in any script or CTA · two videos a week as the
   default · the whole 90-day plan on the board · nine copy blocks in one chat message · a first video dated today · a
-  reference link that does not open, a view count nobody saw, or a card with a made-up video · a thumbnail brief "for
+  reference video, a "watch first" link or another channel's video anywhere · a channel trailer · competitor videos or summaries · three scripts in one sitting, or a Kickoff that drafts a summary instead of the full script · a first-three order other than blueprint, why I joined my brokerage, an interview · a thumbnail brief "for
   Claude Design" · a date for Week 5 · the filming-day question on a Brain that already holds a filming day · "Plugin 5", "Riverside" or an install question in the editing line · an interview week left empty, or an invite drafted to nobody · a question about connecting live numbers during setup · a task created without the Yes on the Kickoff card · two workflows on the card, or a Monthly Channel Review task of its own · "about an hour" · "(two a week comes later)" or the brokerage-model line in the proposal · two steps in one reply, or anything built before you answered · a
   question about email, a posting tool or which workflows · a close without the Board and Book links · anything that
   posts, sends or publishes on its own · a skill name or a file path spoken to the member.

@@ -33,7 +33,7 @@ niche · interview · niche · model**; Why I Switched goes early in cycle one w
 batch fills what the cycle is short on; niche picks spread across Problem / Situation / Future; the interview slot
 names a real guest from `memory/interview-pipeline.md` ("invite [guest]" with the transformation, for a guest not
 yet booked). **No guest named** — the normal state of a member attracting for the first time — → the interview's
-place in the batch goes to the next video from the member's three topics, no name is invented, and the batch
+place in the batch goes to the next topic video from the member's four pillars, no name is invented, and the batch
 carries the one no-guest line (`yt-ideation` Step 3); the interview keeps its turn for the first open week after
 a guest is named. Never two model videos in one cycle; never a batch that is all one bucket.
 

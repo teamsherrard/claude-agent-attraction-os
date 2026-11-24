@@ -22,8 +22,8 @@ verifies they match). **Beside every document, its text goes to `~/attraction-br
 │   │   ├── YouTube Deep Dive — [Month YYYY] — YYYY-MM-DD      (yt-analytics; dated; text → exports/youtube-read-YYYY-MM-DD.txt)
 │   │   ├── Monthly Channel Review — [Month YYYY] — YYYY-MM-DD (yt-triggers' scheduled run; dated; text → exports/youtube-review-YYYY-MM-DD.txt)
 │   │   └── YYYY-MM-DD · [Video Title]/                     (created when the video is drafted or made, never before)
-│   │         ├── Kickoff Brief — [title] — YYYY-MM-DD      (the Monday Kickoff — the brief, the script start or the interview guide, the thumbnail sheet, the title-and-description start; the Kickoff's NOTE → exports/youtube-kickoff-YYYY-MM-DD.txt)
-│   │         ├── Script                                    (yt-script)
+│   │         ├── Kickoff Brief — [title] — YYYY-MM-DD      (the Monday Kickoff — the week's video IN FULL: the breakdown with its scripted hook and the full teleprompter script, or an interview's question list; the thumbnail sheet; the title-and-description start; the Kickoff's NOTE → exports/youtube-kickoff-YYYY-MM-DD.txt)
+│   │         ├── Script                                    (yt-script — both forms: the breakdown and the full script; setup writes the first video's here at its close)
 │   │         ├── SEO Package — [title] — YYYY-MM-DD        (yt-seo)
 │   │         ├── Thumbnail Brief — [title] — YYYY-MM-DD    (yt-thumbnail — the thumbnail sheet for Higgsfield; or the Monday Kickoff, when it drafted the week's video)
 │   │         ├── Repurposing Pack — [title] — YYYY-MM-DD   (yt-repurpose)
@@ -63,7 +63,7 @@ Dates are always `YYYY-MM-DD` so folders sort. Same name, same spot, every time.
   status and dated performance blocks → `identity/channel.md` (`yt-analytics`); the setup journey's resume stamp
   → `identity/channel.md`'s `Setup:` line
 - Interview guests and status → `memory/interview-pipeline.md`
-- Filming dates → the plan's dated rows (the first video at least three days after the plan is built — `yt-gameplan`'s first-date rule), mirrored on the content board if they have one, or their real calendar — never a spreadsheet
+- Filming dates → the plan's dated rows (the first video — the blueprint — at least three days after the plan is built — `yt-gameplan`'s first-date rule), mirrored on the content board if they have one, or their real calendar — never a spreadsheet; no reference video on any row or card (Mike, 2026-11-23)
 - The board's link → `identity/publishing.md → Content board:`; that file absent (the member skipped Week 4) → `identity/channel.md → Board:` — every reader looks in that order
 - The scheduled workflows' task ids and the email answer → `config.md`'s `## YouTube (Week 5)` block only (an older
   `## YouTube (Week 4)` heading is the same block, renamed on the next write)

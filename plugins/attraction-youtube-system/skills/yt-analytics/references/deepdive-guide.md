@@ -1,6 +1,6 @@
 # YouTube Deep Dive — the full breakdown, on demand (structure + method)
 
-The deepest thing the YouTube System does: the leader's whole attraction channel, other attraction channels, where they show up when agents search, the openings between them, and a 30-day plan — on demand, about once a month at most.
+The deepest thing the YouTube System does: the leader's whole attraction channel, where they show up when agents search, the openings, and a 30-day plan — on demand, about once a month at most. **Never other channels** (Mike, 2026-11-23: no competition analysis reaches the member — no channel, no video, no summary of what others do, no competitor named).
 Judged against the attraction doctrine throughout (analytics · the channel audit · titles and thumbnails · the 3+1+4 mix · the `Cadence:` anchor in `identity/channel.md` — one video a week for the first month, two a week the step-up). Rendered on the **YouTube Deep Dive skeleton** in `shared/doc-format.md` — a
 flagship deliverable. No credibility stamp here: house rules #9 reserve it for the Game Plan.
 
@@ -16,7 +16,7 @@ Cohort feedback, verbatim: *"it's just so much information that I have no idea w
 5. **No marketing words without the plain phrase next to them:** "the ask at the end" not "CTA"; "a video
    that did far better than that channel's normal" not "an outlier"; "where views stop turning into calls"
    not "the funnel"; "how many people click" not "CTR"; "how long people keep watching" not "retention"; "the title
-   and thumbnail" not "packaging"; "how it opens" not "the hook"; "your three topics" / "a topic video" not "lane",
+   and thumbnail" not "packaging"; "how it opens" not "the hook"; "your four pillars" / "a topic video" not "lane",
    "niche" or "bucket"; "your pace" not "cadence".
 6. **Why = outcome words** (conversations, calls, agents who partner), never metric words.
 7. **Short on purpose:** the main body is the story — 3–5 openings, never more; 3 strengths; 3 fixes; the
@@ -40,7 +40,7 @@ number the source didn't return.
 - **The verdict** — three plain sentences: where they stand · the biggest strength · the biggest fix.
 - **THE ONE MOVE** — exactly one action (not two joined by "and"). Pick the cheapest, fastest, most
   measurable change — the one whose result is visible within two weeks. Repeat it word for word at the end
-  of Part 5.
+  of Part 4.
 - **DO THESE THREE THIS WEEK** — three specific actions pulled from the fixes and openings.
 - **YOUR NUMBERS AT A GLANCE** — the scorecard rows, each with its plain meaning in the note; then
   **WHAT'S IN THIS REPORT** (pulled live / Studio pack in or not / not available on this connection).
@@ -68,26 +68,21 @@ number the source didn't return.
   *"When an agent books, ask which video made them reach out."*
 - **1.8 How often you post & your channel on YouTube** — uploads/week vs the `Cadence:` anchor (one a week is the default for the first month, two the step-up; interviews counted; 3+1+4 over eight videos at either pace), said kindly — a week on plan is a week on plan, never "behind"; longest gap; interviews actually shipped?; playlists by lane and the Explained playlist first on the homepage (recipe 1 step 6) → the channel-page fix (hand to `yt-setup`).
 
-## Part 2 — Other attraction channels
-3–5 channels from `identity/strategy.md` + `identity/prospect-intel.md` (thin → never a question: use what is on record, discover the rest with "[brokerage] explained" / "should I switch brokerages", and say in one line what was missing). The cardinal rules apply: what they do well and what is missing — never what is wrong with them or their brokerage. Recipe 2. Per channel one dotted row: subs · typical video · their
-standout video with the multiple of *their own* normal (a small local channel over-performing counts
-double). Then three short sub-bands: *What they do that you don't* (the move → why it works → how you'd do
-it), *What you do better*, *Where you sit* (two sentences). Never an empty row; cap at 5.
-
-## Part 3 — Where you show up when people search
-Recipe 7. **3.1 On YouTube:** 6–10 core phrases (the Game Plan's, "[brokerage] explained", "questions to ask a sponsor", the member's own name) →
-their best position or "not in the top 20", who is #1, its views → one "own next" phrase. **3.2 When they
+## Part 2 — Where you show up when people search
+Recipe 7. **2.1 On YouTube:** 6–10 core phrases (the Game Plan's, "[brokerage] explained", "questions to ask a sponsor", the member's own name) →
+their best position or "not in the top 20" → one "own next" phrase. Never who else ranks, never another channel's
+views (Mike, 2026-11-23). **2.2 When they
 ask an AI assistant:** 5–8 questions agents ask before switching, through the answer engine → in the answer or citations?
-who is? → the one page/profile fix that would get them cited (say "an AI answer engine", never a brand).
-**3.3 What's rising:** the direction of the core phrases (relative interest, plain words: up / flat / down) and this month's dated industry items from `memory/intel.md` → video ideas.
+→ the one page/profile fix that would get them cited (say "an AI answer engine", never a brand; never who else is cited).
+**2.3 What's rising:** the direction of the core phrases (relative interest, plain words: up / flat / down) and this month's dated industry items from `memory/intel.md` → video ideas.
 
-## Part 4 — The openings
+## Part 3 — The openings
 Recipe 3. 3–5 openings, each a four-line card: *What we found* (the topic, plainly) · *Why it matters to
-you* (the outcome) · *Do this* (the exact title, type, week) · *The proof* (real demand + who ranks + how
-stale + the multiple, as short facts). Then *Your own winners, from a new angle*: 2–3 new titles per
-winner. A starving lane and packaging fixes belong in Part 5's FIX list, not here.
+you* (the outcome) · *Do this* (the exact title, type, week) · *The proof* (real demand + how stale, as short
+facts — never who ranks, never another channel's video). Then *Your own winners, from a new angle*: 2–3 new titles per
+winner. A starving lane and packaging fixes belong in Part 4's FIX list, not here.
 
-## Part 5 — Your next 30 days
+## Part 4 — Your next 30 days
 - **Keep doing** — 3 strengths, each with the proving number.
 - **Fix** — 3 fixes: what's wrong · why it costs you · do this (the specific change).
 - **The plan** — the next 30 days at the member's cadence: four or five exact titles at one a week, eight or nine at two, on the 3+1+4 mix (the 8-video cycle holds at either pace), title gates applied, one per row with its kind (a topic video · an interview, only when a guest is named — a slot with no guest takes the next topic video · your model video) and its week, ready for "make my attraction video"; every title's two CTAs in the call-to-action law's shape — the guide (comment GUIDE, the funnel URL) and the call (the booking link; join register: "partner with me and it's free"; open register: "I'll walk you through it, free, no strings") from the Week 3 Kit's CALLS TO ACTION table, the register from `identity/offer.md`'s header. **The weekly count is mandatory:** state total
@@ -107,5 +102,6 @@ video · the search results pulled. Long tables live here, never in the body.
 - Private metrics (CTR, watch time, retention, traffic, search terms, demographics) appear ONLY from the
   Studio pack — say when they're missing and what they would add.
 - Thin data is called thin. One video is never a trend. A one-day-old video is not a verdict.
-- Competitor Instagram/TikTok are out of scope here (that's the Short-Form dive) — YouTube only, done deep.
+- Never a competition analysis, on any platform (Mike, 2026-11-23): no other channel, video or summary of what
+  others do is written anywhere in the dive — YouTube only, the member's own channel, done deep.
 - Read-only always: nothing is ever posted, edited, or changed on any channel.

@@ -1,17 +1,17 @@
 ---
 name: yt-interview
 description: >
-  The Agent Interview Strategy for the Agent Attraction YouTube System (Week 5). Builds the guest
-  list from the Brain (agents the member has helped, their Top 50, a peer worth talking with — or an
-  honest next step when there is nobody yet), writes the title, the question set by guest type, the
-  edification lines, the invite in the member's voice, the consent line, the casual call ask in the
-  law's shape, and the guest's distribution ask; when the guest says yes it books it — two recording
-  times, a guest prep note, the recording step, the pipeline row to Booked. Writes the interview
-  pipeline and the content log row. Never invents a guest or a result; no figure the guest did not
-  volunteer; former brokerages never named. Trigger on: "interview an agent", "which agent should I
-  interview", "build my agent interview pipeline", "set up an agent interview", "book my agent
-  interview", "interview questions for an agent", "prep my agent interview", "agent success story
-  interview", "title for my interview with [agent]".
+  The Agent Interview Strategy for the Agent Attraction YouTube System (Week 5). The guest is ANYONE
+  successful in the member's upline, downline or brokerage — their sponsor, an agent they sponsor, a
+  peer — never only agents who used the member's method. Builds the guest list from the Brain (or an
+  honest next step when nobody is named yet) and writes the title, the question list by guest type,
+  the edification lines, the invite in the member's voice, the consent line, the casual call ask in
+  the law's shape and the guest's distribution ask — a question list and the invite, never a script;
+  when the guest says yes it books it: two recording times, a prep note, the recording step. Never
+  invents a guest or a result; no figure the guest did not volunteer; former brokerages never named.
+  Trigger on: "interview an agent", "who should I interview", "set up an agent interview", "book my
+  agent interview", "interview questions for an agent", "prep my agent interview", "title for my
+  interview with [agent]".
 ---
 
 # Agent Interview Strategy — the videos that convert
@@ -24,6 +24,14 @@ convert) of `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md`. Obey
 immediately via `attraction-brain-sync`, and read `identity/compliance.md` before anything public.
 
 **Week 5 rules that bind every interview** (the rewire brief, 2026-11-14 — where older text disagrees, these win):
+- **The guest is anyone successful in the member's upline, downline or brokerage** (Mike, 2026-11-23): their
+  sponsor, the people above them, an agent they sponsor, a peer, a team leader or a broker-owner at the same
+  brokerage — and, as before, a coach, a vendor or anyone the member simply wants to talk with. A guest who
+  succeeded with the member's own method is a bonus, never a requirement — *"if they have someone who did, great;
+  otherwise just interview anyone successful."* Never only same-method agents.
+- **An interview has no script** (Mike, 2026-11-23): the output is the question list and the invite (plus the
+  title, the edification lines and the two CTA lines, the kit's). Nothing is scripted — not an intro, not an outro;
+  `yt-script` writes nothing for an interview.
 - **The guest's consent** is recorded before anything public names them; **never a dollar, income or commission
   figure — not even one the guest volunteers**; a deal count or a milestone only as the guest stated it, with
   their okay, labeled as theirs — "closed her first deal" over any number.
@@ -59,17 +67,18 @@ joined in `memory/organization.md`, `identity/proof.md` or the Top-50, no `inter
 **nothing is drafted to nobody**: no guest list, no invite, no question map, no "did you hit one of these?" note, no
 pipeline row, no document. One short, true line with a real next step, by how they got here:
 - **The plan's interview week has arrived** (this skill was reached from the week's video; its slot reads "A
-  conversation with an agent — guest to be named"): the week's video is the next video from the member's three
-  topics — the next `Idea` row of `memory/content-calendar.md → ## Long-form (YouTube)` whose bucket is Problem,
+  conversation with an agent — guest to be named"): the week's video is the next topic video from the member's four
+  pillars — the next `Idea` row of `memory/content-calendar.md → ## Long-form (YouTube)` whose bucket is Problem,
   Situation or Future — and the interview moves to the first open week after a guest is named (the plan and the
   Monday Kickoff re-date it — this skill never re-dates a row). Say exactly: *"No guest named
   yet, so this week's video is '[title]', from your topics. Your first interview goes on your plan the day you
   name someone — say 'set up an agent interview'."* — and hand that title back to the video's chat, which makes
   it. No week is ever empty. (No plan on file → the second sentence alone.)
-- **The member asked** ("which agent should I interview", "set up an agent interview") and named nobody: *"Your
-  first interview goes on your plan the day you name someone — an agent you know, or anyone whose way of working
-  other agents should hear. Tell me their first name and one line about them, and I'll write the invite. Until
-  then your plan carries on with your topics."*
+- **The member asked** ("who should I interview", "set up an agent interview") and named nobody: *"Your first
+  interview goes on your plan the day you name someone — anyone successful in your upline, your downline or your
+  brokerage: your sponsor, someone above you, an agent you sponsor, a peer at your brokerage. Tell me their first
+  name and one line about them, and I'll write the questions and the invite. Until then your plan carries on with
+  your topics."*
 Never "the people you are helping", never "your agents", "your team" or "your organization" as a fact, never a
 week that will fill it, never a list of what is missing, never an apology for being new. ("Help agents for free
 and earn the stories" — `04-value-proposition/33` — is the doctrine behind the first guests; it is never said to a
@@ -87,7 +96,7 @@ Step 3 → `identity/offer.md` · `identity/voice.md` · `identity/compliance.md
 → the newest `exports/week3-kit-*.txt` (chapter 7) · `memory/magnets.md → ## Current magnet` · Step 6b (the
 booking) → `identity/channel.md` (`Filming day:`) · `identity/operations.md` (`Filming window:`).
 
-## Step 2 — The guest list (who to interview — `08-youtube/95`)
+## Step 2 — The guest list (who to interview — `08-youtube/95`; Mike, 2026-11-23: anyone successful in the upline, downline or brokerage)
 **Read now:** `memory/top-50.md` (agents at Joined / Onboarded / Active, and anyone whose row says, in the member's
 own words, that they would be a guest) · `identity/proof.md` (agents already helped, consent column) ·
 `identity/avatars.md` (which type each story is FOR) · `memory/content-log.md` (who has already been featured).
@@ -95,7 +104,10 @@ own words, that they would be a guest) · `identity/proof.md` (agents already he
 stop** — never a list with nothing in it. Otherwise the guest the member named comes first; then rank the
 candidates from these files and Step 1's, one line each — by type of agent, stage of career and market, never a
 protected characteristic (age, race, gender, language — whatever a "relatability" line elsewhere says), never a
-number the member did not state:
+number the member did not state. **Who qualifies — anyone successful in the member's upline, downline or
+brokerage** (their sponsor and the people above them · an agent they sponsor · a peer, a team leader or a
+broker-owner at the same brokerage), plus a coach, a vendor or anyone the member wants to talk with; types 1 to 6
+below are the bonus cases — a guest the Brain says joined the member — never the requirement:
 1. **New agent who closed fast** — a first deal inside the first 30–90 days.
 2. **Capped / hit an award tier** using the member's method.
 3. **The turnaround** — struggling before, joined, now producing ("this one works magic" — `95`). The former
@@ -104,10 +116,12 @@ number the member did not state:
 4. **Top producer who scaled further** with the member's program.
 5. **Team leader or broker-owner** who joined — speaks to that avatar directly.
 6. **Attracted their first agent** — proof the duplication works.
-7. **A guest who has not joined the member** — a peer, an agent from the member's sponsor's team, a vendor, a
-   coach, or anyone the member simply wants to talk with. Always allowed, and the usual first guest of a member who
-   has not attracted an agent yet. Label them "guest expert", never "success story"; an agent from the sponsor's
-   team is introduced as that team's, never as the member's.
+7. **Anyone successful who has not joined the member** — the member's sponsor or someone above them in the
+   upline, a successful peer, team leader or broker-owner at the brokerage, an agent from the sponsor's team, a
+   vendor, a coach, or anyone the member simply wants to talk with. Always allowed, and the usual first guest of a
+   member who has not attracted an agent yet (Mike, 2026-11-23: "otherwise just interview anyone successful").
+   Label them "guest expert", never "success story"; an agent from the sponsor's team is introduced as that team's,
+   never as the member's.
 
 For each: name · type (the pipeline file's own list — new agent · experienced · top producer · team leader ·
 broker-owner · switched · outside the org; a guest who has not joined the member is `outside the org` in the file,
@@ -147,9 +161,10 @@ mechanism names the method, never the brokerage's compensation; the title speaks
 (`08-youtube/97`); three options, one recommended. Thumbnail text differs from the title (`97`) — hand the
 packaging to `yt-thumbnail` after the recording.
 
-## Step 4 — The question set, by guest type (the structure — `08-youtube/95`)
+## Step 4 — The question list, by guest type (the structure — `08-youtube/95`)
 Mike does not script questions; he knows the outcome and guides in real time. Give the member the outcome
-sentence ("by the end, a [avatar] watching should believe [X]") plus a short set they can glance at.
+sentence ("by the end, a [avatar] watching should believe [X]") plus a short list they can glance at. **This list
+is the whole preparation — an interview has no script** (Mike, 2026-11-23).
 
 **A guest the Brain says joined the member** (a row in `organization.md`, `proof.md → Agents helped`, or the Top-50
 at Joined or later) — every set covers the five steps, in any order: **backstory** (what business was like before)
@@ -178,9 +193,10 @@ Add the type-specific steps (a guest who joined the member only):
 
 **Interviewer rules (non-negotiable, `95`):** the guest is the star; never interrupt; let emotion sit; open
 questions; nod and listen; add a layer only after they finish, to help the viewer contextualize. Ask for
-emotions, not just numbers. **Record the intro LAST** — after the conversation, the member records a 45–75 s
-intro that hooks the best moments they just heard (the outro 30–45 s — `yt-script`'s interview playbook writes
-both); the edit puts it first.
+emotions, not just numbers. **Record the intro LAST** — after the conversation, the member records a short intro,
+unscripted, from the two or three best moments they just heard: the transformation the title promises, who it is
+for, the edification line (Step 5), the guide ask; the outro is the thank-you and the casual call line (Step 5),
+said from the list — nothing scripted, by anyone (Mike, 2026-11-23); the edit puts the intro first.
 
 ## Step 5 — Edification lines + the two asks
 **Read now:** the newest `exports/week3-kit-*.txt` → chapter 7's CALLS TO ACTION table ·
@@ -282,8 +298,9 @@ below if it does not exist, never overwrite rows):
 ```
 Then one `memory/content-log.md` row in the locked shape (Platform `YouTube` · Format `interview` · **Pillar
 `Proof`** — the OS pillar interviews carry, never the bucket name · Topic / hook `[Interview] working title` ·
-Avatar = the type it lands with · CTA `resource: [the guide's name] · call` · Status `Idea` now; `yt-script`
-updates this same row at Scripted and `yt-make-video` moves it to Published — never a second row). Save the prep
+Avatar = the type it lands with · CTA `resource: [the guide's name] · call` · Status `Idea` now; an interview has no
+script, so there is no `Scripted` step — `yt-make-video` moves this same row to Recorded and Published — never a
+second row). Save the prep
 as **`Interview Prep — [guest] — YYYY-MM-DD`** in the video's folder under `03 · Content/Long-Form/` (the
 Interview Prep skeleton in `${CLAUDE_PLUGIN_ROOT}/shared/doc-format.md`, rendered through `shared/render_doc.py`).
 When they have the board, the guest, the transformation, the question map and the three distribution sentences go
@@ -294,8 +311,8 @@ retry once, stop.
 ## Step 8 — What the member reads, and the hand-offs (each said when it becomes true — never listed together)
 - **The prep's reply — short** (house rule #24): it opens with the win, *"✓ You chose your guest — [first
   name]."* (a first interview: *"✓ You chose your first guest — [first name]."*); shows the three titles and the
-  invite as a copy block — the questions and the opening lines are in the Interview Prep document, never repeated
-  in the chat; and ends on the one next step: *"Send the invite. When [first name] says yes, say 'book my agent
+  invite as a copy block — the question list and the opening lines are in the Interview Prep document, never
+  repeated in the chat (no script is written, for this or any interview); and ends on the one next step: *"Send the invite. When [first name] says yes, say 'book my agent
   interview' and I'll give you two times, a prep note to send them, and the recording step."* (Step 6b.) Nothing
   follows it except the compliance line when one is due.
 - **Recording and edit — said at the booking, never hedged** (the owner, 2026-11-14 evening and 2026-11-21): the
@@ -333,3 +350,5 @@ promises the member's or the guest's time per partner.
 - Nothing is drafted to nobody; nobody is contacted from here; every invite, reply and note is a draft the member
   sends.
 - One reply, short: the win line, what was built in a few lines, the one next step — the document holds the rest.
+- The output is the question list and the invite — never a script, never a reference video, never a link to
+  another channel's interview (Mike, 2026-11-23).

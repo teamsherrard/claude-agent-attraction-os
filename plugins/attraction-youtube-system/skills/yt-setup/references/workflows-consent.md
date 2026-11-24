@@ -9,8 +9,11 @@ or not yet", never "want me to email you?", never a choice between defaults, nev
 on the explicit Yes**, draft-only, adopted before created, verified after, recorded in the Brain, stoppable in one
 sentence. **Mike, 2026-11-22: "one scheduled task a week."** The Monthly Channel Review is no longer its own task: it runs inside
 the Kickoff on the first Monday of each month (the Kickoff prompt's step 5b), and on demand ("run my monthly channel
-review"). To the member: "your Monday Kickoff", "your month reviewed", "a short note to your inbox" — never a
-task id, a skill name or a file path.
+review"). **Mike, 2026-11-23: the Kickoff drafts ONE video a week IN FULL** — the bullet breakdown with the hook
+scripted word for word AND the full teleprompter script (8 to 12 minutes) in one package; an interview week is the
+question list, no script; no reference video and no competitor summary in anything it leaves. "Drafted" on the card
+below means that. To the member: "your Monday Kickoff", "your month reviewed", "a short note to your inbox" — never
+a task id, a skill name or a file path.
 
 ## Before the card (read, never ask)
 Open `~/attraction-brain/config.md` now: `Timezone`; the `## YouTube (Week 5)` block (an older `## YouTube (Week 4)`
@@ -49,35 +52,34 @@ does — "last month's videos reviewed, and your one next step"). This shape; th
 (A member at two videos a week — the pace they chose — hears "videos" and "their cards" wherever the card or the
 confirming line says "video" and "its card".)
 **The email sentence — one of four, by the facts above:**
-- mail connected, no Short-Form line → *"I'll email you a short note when each is ready."*
-- the Short-Form block's line is `yes …` → *"I'll email you a short note when each is ready, the same way your
+- mail connected, no Short-Form line → *"I'll email you a short note when it's ready."*
+- the Short-Form block's line is `yes …` → *"I'll email you a short note when it's ready, the same way your
   short-form notes come."*
-- no mail connected → *"Each leaves a short note in Cowork and on your Brain Board — connect Gmail or Outlook to
+- no mail connected → *"It leaves a short note in Cowork and on your Brain Board — connect Gmail or Outlook to
   get it by email."*
-- an older plain `no` mirrored from the Short-Form block → *"Each leaves a short note in Cowork and on your Brain
+- an older plain `no` mirrored from the Short-Form block → *"It leaves a short note in Cowork and on your Brain
   Board, the same way your short-form notes do."*
 The longest version (no mail connected) is 70 words before "Say Yes"; never add a clause that takes the card past 70.
 
 Wait for the Yes — the one reply this card needs, and the explicit yes every scheduled workflow needs. Nothing is
-created before it. **A Yes to one only** ("just the Monday one", "just Mondays", "not the monthly one") → that
-answer is the Yes for that one: create it, write the other task line `later`, and say its turn-on phrase once (the
-confirming line, below). Never a menu, never both without a Yes, never neither. **Anything but a Yes:** a question
+created before it. Never a menu, never created without a Yes. **Anything but a Yes:** a question
 about the card → one plain answer ("What's a workflow?" → the line `yt-setup` prints under "If the member asks"),
 then only the card's last line again ("Say Yes and I'll set it up."); "not now" or a no → nothing is created,
-both task lines are written `later`, one line — *"Nothing's switched on. Say 'turn on my attraction Monday
-kickoff' or 'turn on my monthly channel review' any time."* — and whatever was running carries on (inside setup:
+`Monday Kickoff task:` is written `later` (`Monthly review task:` stays `inside kickoff` — the review rides inside the
+Kickoff whenever that is on), one line — *"Nothing's switched on. Say 'turn on my attraction Monday kickoff' any
+time."* — and whatever was running carries on (inside setup:
 straight to the first video); the card is never said a second time. **A demo Brain never gets a task:** the card
-is said and the Yes noted, no task is made, both lines stay `later`, and in place of the confirming line below say
-one line — *"This is a demo Brain, so nothing is scheduled — on a real Brain that Yes switches on your Monday
-Kickoff and your Monthly Channel Review."* — and nothing after it, anywhere in the sitting, says that something
+is said and the Yes noted, no task is made, the Kickoff line stays `later`, and in place of the confirming line below
+say one line — *"This is a demo Brain, so nothing is scheduled — on a real Brain that Yes switches on your Monday
+Kickoff."* — and nothing after it, anywhere in the sitting, says that something
 runs on Mondays or on the 1st. (Inside setup each of these lines is said once, as the line that opens the close —
 `yt-setup` Step 9, item 0.)
 
 ## On the Yes — provision the ONE task, then push once
 1. **Monday Kickoff** — `list_scheduled_tasks`; adopt `attraction-monday-kickoff` if it exists (never a twin), else
    `create_scheduled_task` with `taskId: attraction-monday-kickoff`, `title: Your Monday Kickoff` (the name the
-   member sees in their Scheduled list), `description: Drafts this week's YouTube video every Monday, and reviews
-   the month on the first Monday — draft only, nothing is published.` (the tool requires one), `cronExpression: 0 9
+   member sees in their Scheduled list), `description: Drafts this week's YouTube video in full every Monday, and
+   reviews the month on the first Monday — draft only, nothing is published.` (the tool requires one), `cronExpression: 0 9
    * * 1` (or the member's hour), local time, the prompt **verbatim** from
    `${CLAUDE_PLUGIN_ROOT}/skills/yt-briefing/references/weekly-task-prompt.md`. Verify (present, enabled, a
    `nextRunAt`). Write `Monday Kickoff task: attraction-monday-kickoff · runs Mondays [time]`.

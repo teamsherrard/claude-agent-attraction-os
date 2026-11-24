@@ -36,10 +36,15 @@ slot nothing else filled; doctrine §4–§7 and §9 only if a bucket needs re-g
   default for the first month, two the step-up. A batch is sized to it, never to "two this week" by assumption.
   At one a week the first four videos run niche · interview · niche · model (Why I Switched allowed early).
 - **Member-facing words:** Week 5; plain and warm; never a skill id, a file path or a task id in a sentence to
-  the member; "your Game Plan", "your three topics" / "a topic video", "your pace", "the agents you want to
+  the member; "your Game Plan", "your four pillars" / "a topic video", "your pace", "the agents you want to
   attract" (never "your agents"); never bucket, lane, niche, pillar, cadence or "starter" in a line the member
   reads; the short-form system by phrase when a Reel idea comes up ("script my attraction reels") — only when
   `config.md` holds a `## Short-Form (Week 4)` block.
+- **Topics and titles only** (Mike, 2026-11-23): the research under the hood (what ranks, which titles work) never
+  surfaces as a link, a video, a channel, a reference video or a list of what other channels made; a "why" names
+  where a phrase was seen, never whose video. The plan's first video is **the member's blueprint** — the
+  most-searched topic tied to their value proposition — and when it is in a batch its bracket reads *(your
+  blueprint — the most-searched topic tied to what you offer agents)*. Never a trailer in any batch.
 
 ## Step 1 — Warm welcome, sized from the plan (no question)
 Read `brain.md`, then `identity/channel.md → ## Game Plan anchors` (`Cadence:`, cycle position). State the
@@ -103,7 +108,7 @@ Run `references/idea-method.md` (the rubric scored silently, packaging-first) wi
   shipped) — at one a week, in the order niche · interview · niche · model. A batch of 2 = 1 niche · 1 interview
   or model, whichever the cycle is short on. The member never manages the ratio; you do.
   **No guest named** (the plan's row reads "A conversation with an agent — guest to be named") → the interview's
-  place in the batch goes to the next video from the member's three topics, the interview keeps its turn for the
+  place in the batch goes to the next topic video from the member's four pillars, the interview keeps its turn for the
   first open week after a guest is named, and the batch carries ONE closing line — the second sentence of the
   no-guest line every file prints, word for word (its first sentence, "…this week's video is…", is said only when
   that week has arrived, never over a list): *"Your first interview goes on your plan the day you name someone —
@@ -121,8 +126,9 @@ state and nothing stops; **unset** → one line at the end, once: *"One thing be
 compliance link' — two minutes — so your brokerage's wording is on it."*
 For EACH idea, two lines only:
 - **The title** — and nothing after it except, where it helps, plain words in brackets: (a conversation with
-  [the guest's first name]) · (your brokerage, explained). A bucket word — Problem, Situation, Future, Model — is
-  never printed.
+  [the guest's first name]) · (your brokerage, explained) · (your blueprint — the most-searched topic tied to what
+  you offer agents). A bucket word — Problem, Situation, Future, Model — is never printed; never a link, a video or
+  a channel.
 - One line: the **why**, from something really seen or on file (a step of their own method · a question seen on a
   results page · a dated news item · a question their Brain holds), + **who it's for** (the agents they want to
   attract, in plain words). Truthful; no invented numbers, no view count or search volume without live numbers.

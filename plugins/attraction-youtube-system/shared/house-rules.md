@@ -10,7 +10,59 @@ the dates. Never "Week 4" for anything in this plugin. Rules #14 to #23 are the 
 (`docs/plans/youtube-rewire-2026-11-14.md` is the brief; the owner's evening rulings — #23 and the lines marked
 "2026-11-14 evening" — bind over it); rule #24 and the lines marked "the owner's review" are the rulings made after
 the simulated Week 5 sitting; where an older line anywhere in this plugin disagrees with them, they win. The lines
-marked "2026-11-21" are the owner's decisions after the full review of that date; they win over all of these.
+marked "2026-11-21" are the owner's decisions after the full review of that date; they win over all of these. **§0 —
+Mike's rulings of 2026-11-23 — wins over everything in this file, the doctrine's own text included** (Mike is the
+partner; his doctrine is the source of truth, and §0 is its newest page).
+
+## 0. Mike's rulings, 2026-11-23 (they win over every line below and over any older line anywhere in this plugin)
+1. **No channel trailer. Anywhere.** Not in the first videos, not on the board, not in the Game Plan, not on the
+   Channel Page (eight pieces, never a ninth), not in setup's close. ("You may not even be able to add one until you
+   have 12 videos.") Every older "trailer" line, row, card, piece or phrase is retired; `yt-make-video: my channel
+   trailer` is never said.
+2. **The first three videos, exactly — never three announced and four listed:** (1) **THE BLUEPRINT** — the
+   most-searched topic that can be associated with the member's value proposition, taught start to finish (the
+   first-video rule: `yt-setup` Step 6a, `yt-gameplan`); (2) **WHY I JOINED MY BROKERAGE** (the Why I Switched
+   format — the former brokerage never named; no switch on file → "Why I chose my brokerage"); (3) **AN INTERVIEW
+   WITH ANOTHER AGENT**. The 8-video cycle's locked order at one a week follows from it: the blueprint (topic) · why
+   I joined my brokerage (the first cycle's model slot) · interview · topic · interview · topic · interview ·
+   interview; from the second cycle the model slot is a model breakdown.
+3. **The four pillars, the same for EVERY channel — stated, never chosen:** (1) **the member's niche**, named from
+   the Brain (e.g. lead generation through open houses — the one line that is theirs); (2) **helping struggling and
+   new agents succeed** — "this casts the widest net"; (3) **brokerage model breakdowns**; (4) **agent interviews**.
+   Never a pillar of the plugin's own — never "going full time in real estate" or any other invented pillar. To the
+   member they are "your four pillars" (Mike's word); the Brain's five content pillars (Authority · Perspective ·
+   Story · Proof · Personality) stay codes in the rows and are never said; the five buckets map Problem → pillar 1 ·
+   Situation and Future → pillar 2 · Model → pillar 3 · Interview → pillar 4; the playlists are four, one per
+   pillar ("Agent interviews" and "Helping struggling and new agents succeed" verbatim). The Short-Form plugin's five
+   pillars are a different system — never touched from here.
+4. **Interviews are with ANYONE successful in the member's upline, downline or brokerage** — their sponsor, a
+   leader above them, an agent they brought in, an agent they admire; someone who won with the member's own value
+   proposition is great, never required. **An interview needs NO script — a question list only.** Never "agents
+   you've helped" as the guest rule.
+5. **No reference videos — none, anywhere.** The owner's rule of 2026-11-15 ("one real checked YouTube video on
+   every card") is REVERSED: no reference video on any board card, in the Game Plan, in research output, in the
+   Kickoff note or brief, in the make-video reply, in a calendar row, in the TITLE NOTES. No search is run for one,
+   no link-check machinery runs for one, no "watch first" line is said. Research may still look at what works under
+   the hood; it never prints a link to the member. (Rule #6's link rule is replaced by this one.)
+6. **ONE video a week, fully broken down — never a batch of summaries.** The sitting scripts the FIRST video in
+   full (`yt-setup` Step 9, by `yt-script`'s full mode); the Monday Kickoff drafts ONE video in full each week.
+   "In full" = BOTH forms in the one package: **(a) the bullet-point breakdown with a word-for-word SCRIPTED HOOK**,
+   and **(b) the full teleprompter script, 8 to 12 minutes**. "script my first three videos" (the batch) and its
+   First Batch — Film Day sheet are retired as a member path. An interview week = the question list, no script. The
+   member films the one video on their phone in Instagram's free Edits app — it has a teleprompter: paste the full
+   script, press record, read (the 0.43.0 ruling stands).
+7. **Competition analysis is dropped from everything the member sees** — no competitor videos, channels, links or
+   summaries in a document, a card, a note or a reply (the Game Plan's WHAT I CHECKED lists the phrases searched,
+   never a channel; the progress line says "what agents search for", never "which channels work"). `yt-research` and
+   `yt-outliers` keep their under-the-hood read for the titles and the blueprint's topic, printed as the topic and
+   the title only.
+Interpretations the coordinator flagged to the owner: one upload a week on the 8-video cycle — the tactical videos
+fully scripted, the interview when there is a guest; "competition analysis" = the member-facing section, not the
+research itself. The 0.43.0 rulings stand (one workflow — the Monday Kickoff with the month's review inside it on
+the first Monday; "about two hours" for the filming day; Instagram's free Edits app named for filming and the
+teleprompter). Member-facing phrases stay as they are ("set up my YouTube for agents", "run my attraction kickoff",
+"make my attraction video: [title]", "my video is published", "repurpose my attraction video", "edit my YouTube
+video").
 
 ## 1. Apply the doctrine (the source of truth)
 `${CLAUDE_PLUGIN_ROOT}/shared/attraction-youtube-doctrine.md` is Mike's long-form method for attracting agents,
@@ -19,16 +71,21 @@ section map is at the top), never the whole file up front. It OVERRIDES generic 
 skill carries:
 - **The three categories and the funnel:** niche authority creates authority → interviews create proof → model
   and opportunity content captures intent → CTA + resource creates conversations → the Partner Call converts (§3).
-- **The 8-video cycle: 3 niche · 1 model breakdown · 4 interviews** (§7). Every plan and calendar keeps the ratio —
-  at one video a week (the first month's default, rule #19) one cycle takes eight weeks; at two, four. The one
-  exception (2026-11-21): an interview week with no guest named gives its week to the next topic video (rule #19).
-- **The five buckets** every idea and card is tagged with: Problem · Situation · Future · Interview · Model. They
-  are buckets, not pillars: the **content pillars** are the Brain's five — Authority · Perspective · Story · Proof ·
-  Personality (`identity/content-pillars.md`) — and a content-log row's Pillar cell carries one of those five
+- **The 8-video cycle: 3 topic · 1 model breakdown · 4 interviews** (§7), one upload a week (§0.6). Every plan and
+  calendar keeps the ratio — at one video a week (the first month's default, rule #19) one cycle takes eight weeks;
+  at two, four. **The first three videos are fixed (§0.2): the blueprint · why I joined my brokerage · an interview.**
+  The one exception (2026-11-21): an interview week with no guest named gives its week to the next topic video
+  (rule #19). No trailer row (§0.1).
+- **Mike's four pillars (§0.3)** are the member's grouping — their niche · helping struggling and new agents succeed ·
+  brokerage model breakdowns · agent interviews — the same four on every channel, stated, never chosen. **The five
+  buckets** every idea and card is tagged with — Problem · Situation · Future · Interview · Model — are the Brain's
+  row codes under them (Problem → the niche; Situation · Future → struggling and new agents; Model; Interview). The
+  **content pillars** are the Brain's five — Authority · Perspective · Story · Proof · Personality
+  (`identity/content-pillars.md`) — and a content-log row's Pillar cell carries one of those five
   (Problem/Situation/Future → Authority · Interview → Proof · Model → Perspective) with the bucket in brackets at
-  the start of the Topic / hook cell (`brain-contract.md`). A playlist per bucket is a "lane." **These are the
-  system's words** — for the Brain's rows and these files only: a member never reads or hears "bucket", "lane",
-  "niche" or "pillar" (rule #4).
+  the start of the Topic / hook cell (`brain-contract.md`). A playlist per pillar is a "lane" — four. **Bucket, lane
+  and the content pillars' names are the system's words** — for the Brain's rows and these files only: a member
+  never reads or hears "bucket", "lane" or "Authority"; "pillar" they hear only as "your four pillars" (rule #4).
 - **The video structure:** hook in the first 10 seconds → the resource CTA inside minute one → value → the call
   CTA a third to halfway in → payoff → the next video (§8).
 - **The two CTAs — the guide and the call — in the call-to-action law's shape** (§10; rules #14 and #15), never the
@@ -102,14 +159,17 @@ views / MCP," or notes-to-self in front of the member — say "your content boar
 of your board", "your Brain Board".
 **The member's words for this plugin's things (rule #24; 2026-11-21 — one name per thing, the same in every chat,
 note and document):** "your Game Plan" ("your YouTube Game Plan" the first time; never "ninety-day plan" as its
-name) · "your Channel Page" (never a kit) · "your three topics" and "a topic video" · "your interviews" · "your
-model videos" · "your eight-video plan" · "your pace" · "your filming day" · "three ways to open", "how it opens",
-"your opening line" · "your title and description" · "your thumbnail sheet" (made into a thumbnail in Higgsfield) ·
-"your content board" and "its card" · "your month by topic" · "your Monday Kickoff", "your Monthly Channel Review"
-(it runs inside the Kickoff on the first Monday) — never "your two workflows" · "your AI Editing Studio" (rule #22).
-**Never in front of the member:** lane, niche, bucket, pillar, cadence, SEO, packaging, outlier, "the hook",
-retention (say "how long people keep watching"), CTR or click-through rate ("how many people click"), B-roll
-("extra footage"). Those words stay in the Brain's fields, in file names and in these files.
+name) · "your Channel Page" (never a kit) · "your four pillars" (Mike's word, §0.3 — never "your three topics") and
+"a topic video" (a video from the niche or the struggling-and-new-agents pillar) · "your blueprint" (the first
+video) · "your interviews" · "your model videos" · "your eight-video plan" · "your pace" · "your filming day" · "your
+hook, scripted word for word", "your breakdown", "your full script" (§0.6 — the two forms of one video) · "your title
+and description" · "your thumbnail sheet" (made into a thumbnail in Higgsfield) · "your content board" and "its
+card" · "your month by pillar" · "your Monday Kickoff", "your Monthly Channel Review" (it runs inside the Kickoff on
+the first Monday) — never "your two workflows" · "your AI Editing Studio" (rule #22).
+**Never in front of the member:** lane, bucket, a content pillar's name (Authority · Perspective · Story · Proof ·
+Personality), cadence, SEO, packaging, outlier, retention (say "how long people keep watching"), CTR or
+click-through rate ("how many people click"), B-roll ("extra footage"); "niche" only inside the member's own pillar
+name ("your niche: open houses"). Those words stay in the Brain's fields, in file names and in these files.
 YouTube is Week 5 — never an earlier week number in front of the member; other plugins by condition, never by name
 (rule #22). Say "the agents you want to attract," never "leads," "recruits," or "downline" — **and never, as a
 fact, "your agents", "your team", "your organization", "your guests", "your interview guests", "agents you've
@@ -134,9 +194,10 @@ counts, production numbers, or testimonials. Unverified = say so. Mike's own num
 never implied as the member's outcome. **No invented number, benchmark, average or statistic (2026-11-21):** no
 view count and no search volume without live data; a benchmark with no named source is removed; one with a source
 is said as that source's own ("Mike's guide"), never as an industry number and never as what will happen; a goal
-prints only the numbers the Brain holds (rule #10). **A YouTube link is never invented:** a video is written on a card, in a row
-or in a note only when a search in this run returned it AND the check that it is a real, public video passed; its
-title and channel are the ones that check returned (`${CLAUDE_PLUGIN_ROOT}/skills/yt-research/references/research-method.md`).
+prints only the numbers the Brain holds (rule #10). **No reference videos, anywhere (Mike, 2026-11-23 — §0.5):** no
+other channel's video is ever written on a card, in a row, in a note, in a document or in a reply — no link, no
+title, no "watch first"; the older link-check rule is retired with it. Research reads other channels only under the
+hood, for the titles and the blueprint's topic, and prints the topic and the title alone (§0.7).
 
 ## 7. Documents (clean, formatted — never a wall)
 Every saved deliverable renders through `${CLAUDE_PLUGIN_ROOT}/shared/render_doc.py` per
@@ -152,11 +213,11 @@ chat carries only the blocks the member pastes or sends — never the document's
 ## 8. Usage discipline
 Lazy-load: read a shared file at the step that needs it, never up front; never re-read a file already in
 context. The Brain the same way: **at most four Brain files at a skill's first step (`brain.md` counts as one)**; the
-rest open at the step that uses them. Research is budgeted (the per-skill budget is stated in that skill) and cited. The reference video on a card
-costs one search (a second, reworded, only when the first found nothing) and at most three checks; setup's board
-step covers the cards it creates — three to five at one a week, eight or nine at two.
-One chat = one video — with one exception: the first batch ("script my first three videos": three scripts and a
-film-day sheet in one sitting, scripts only, never more than three; each video's own chat still does the rest). Inside setup: one fact
+rest open at the step that uses them. Research is budgeted (the per-skill budget is stated in that skill) and cited. No
+search is ever run for a reference video (§0.5 — none exist).
+One chat = one video — one video a week, scripted in full (§0.6); the first-batch exception ("script my first three
+videos") was retired on 2026-11-23 and is never offered. The one video setup scripts at its close is the exception
+inside the sitting, not a second chat. Inside setup: one fact
 question (the channel) and at most one blanket question, the same for every member — the filming day, asked only
 when no filming day is on file (rule #23 — one, never more); every
 reply ends on its stop and waits for the member;
@@ -181,11 +242,12 @@ fills in."*). Ideation, research, scripts, SEO, outliers, the coach,
 and the calendar advance the plan's lanes and the cycle. Off-plan is allowed when a real signal warrants it — tie it
 to a lane and say in one line where it sits on the plan (a statement; a member who wants the plan itself changed
 says "refresh my attraction game plan"). No Game Plan yet → build it first (`yt-gameplan`). **The Game Plan
-document is written for the member** (the owner, 2026-11-14 and 2026-11-21): the member's own words — "your three
-topics", "your interviews", "your model videos", "your pace" — and none of the system's (the calendar's `Kind`
-column prints Topic · Interview · Model · Trailer; "lane" is never printed), dates in words, YOUR NEXT 7 DAYS up
-front, the calendar a plain table, the goal in the member's own numbers or the one line above, the titles last
-(`shared/doc-format.md`); the Brain's files keep their locked shapes and each title's codes stay in the Brain's copy.
+document is written for the member** (the owner, 2026-11-14 and 2026-11-21): the member's own words — "your four
+pillars", "your interviews", "your model videos", "your pace" — and none of the system's (the calendar's `Kind`
+column prints Topic · Interview · Model — no trailer row, §0.1; "lane" is never printed), dates in words, YOUR NEXT
+7 DAYS up front, the calendar a plain table (its first three rows fixed, §0.2), the goal in the member's own numbers
+or the one line above, the titles last (`shared/doc-format.md`); no competitor's channel or video anywhere in it
+(§0.7); the Brain's files keep their locked shapes and each title's codes stay in the Brain's copy.
 
 ## 11. The content board (Notion) — the ONE board, read it, keep it alive, never nag
 The board stays Notion (the owner, 2026-11-14: "Notion is important"): the member's one **Content Dashboard**, shared
@@ -210,16 +272,14 @@ its calendar row's own dates, mapped from the Game Plan calendar
 (`${CLAUDE_PLUGIN_ROOT}/skills/yt-board/references/thirty-day-mapping.md`) and kept full by the Monday Kickoff; the
 90-day backlog stays in the plan; nothing is carded without a date. **Every long-form card page follows the spec's
 locked layout, in this order, a section replaced in place and never stacked:** 🎯 THE HOOK · 🎬 SCRIPT · 🖼 THUMBNAIL
-BRIEF · 🔍 SEO PACKAGE · 🧲 THE RESOURCE · 📚 REFERENCE VIDEO — WATCH THIS FIRST · 🎙 GUEST · 📋 ASSETS & NOTES · ✅ PUBLISH IT · 📊 AFTER
-IT'S OUT (the headings are the shared spec's labels on the card; in chat, in a note and in a document the member's
-words are used — rule #24). A card seeded from the calendar holds 🎯 THE HOOK, 📚 REFERENCE VIDEO — WATCH THIS FIRST and 📋 ASSETS &
-NOTES (the brief) only; the Monday Kickoff fills the rest and lays down the six publish boxes; `yt-make-video` fills
-them with the video's own values, and "my video is published" moves the card to `Published`. **The reference video
-(the owner, 2026-11-15):** every card carries ONE real YouTube video close to its idea from the day it is created —
-its link in the `Reference Video` column, the last column of the YouTube tab — found and checked by the steps in
-`yt-research`'s method; `yt-board` finds it when it creates the card, the Monday Kickoff's top-up does the same and
-re-checks this week's, `yt-make-video` confirms or replaces it and adds two more; nothing found → the card says so
-and carries YouTube's own search, never a guess. **The publish checklist (the owner, 2026-11-14):** ✅ PUBLISH IT is
+BRIEF · 🔍 SEO PACKAGE · 🧲 THE RESOURCE · 🎙 GUEST · 📋 ASSETS & NOTES · ✅ PUBLISH IT · 📊 AFTER IT'S OUT (the headings
+are the shared spec's labels on the card; in chat, in a note and in a document the member's words are used — rule
+#24). A card seeded from the calendar holds 🎯 THE HOOK and 📋 ASSETS & NOTES (the brief) only; the Monday Kickoff
+fills the rest — 🎬 SCRIPT with the video IN FULL, both forms (§0.6) — and lays down the six publish boxes;
+`yt-make-video` fills them with the video's own values, and "my video is published" moves the card to `Published`.
+**No reference videos (Mike, 2026-11-23 — §0.5):** the owner's 2026-11-15 reference-video rule is reversed — no card
+carries another channel's video, no `Reference Video` section or column is written, no search is run for one; an
+older card's reference section is left alone and never refreshed, and never mentioned. **The publish checklist (the owner, 2026-11-14):** ✅ PUBLISH IT is
 six tick boxes in YouTube Studio's order — title · description · thumbnail · playlist · end screen · pinned comment
 — each with where to click and what to paste; the member ticks them, never the system; the Monthly Channel Review and the on-demand video reads ("how did my video do") write 📊 AFTER IT'S
 OUT. **Status** on the board: `Idea → Scripted → Ready to Film → Recorded → Ready to Post → Published` (`Ready to
@@ -240,19 +300,20 @@ filming day is on file** (2026-11-21: a day already on file from Week 4 is read 
 asked — rule #23's blanket-question paragraph), about thirty-five minutes. **One step per reply, and every reply ends on its stop** — the
 question, or the stop line (rule
 #23: *"Say **Yes** and I'll [the next step] — or tell me what you'd change. **Your turn.**"*) — the Channel Page,
-the Game Plan's proposal (the three topics, the first videos, the pace, the filming day — shown BEFORE the plan is built), the built
+the Game Plan's proposal (the four pillars and the first three videos stated, the pace, the filming day — shown BEFORE the plan is built), the built
 plan, the board, then the workflows card and its Yes. Never "ready?", never "confirm?", never a menu — and never
 two steps in one reply.
 **The welcome** names Week 5 and the five steps — and only the files that are really on file (the offer · the guide
 · the bios; a missing one is never claimed); the usage tip, in a fresh session, in plain words ("leave the effort
 setting on Medium — the picker beside the model name"). Then:
-1. **The channel page** — the document "Channel Page — [Name]" (to the member "your Channel Page", never a kit): nine
-   pieces in Studio's order, saved first; **the chat shows only THE THREE TO PASTE TODAY** (the description with the
-   about section · the links · the upload defaults) and one line about the rest ("walk me through my channel page"
-   takes them one at a time). **Where each piece goes is YouTube Studio's own path, checked 2026-11-21, the same in
-   every file:** the description, the links, the banner and the picture under Customization → Profile, saved with
-   Publish (top right); the trailer under Customization → Home tab; the default description under Settings → Upload
-   defaults, saved with Save (YouTube applies it only to videos uploaded from a computer's browser). **Compliance
+1. **The channel page** — the document "Channel Page — [Name]" (to the member "your Channel Page", never a kit): eight
+   pieces in Studio's order (no trailer piece — §0.1), saved first; **the chat shows only THE THREE TO PASTE TODAY**
+   (the description with the about section · the links · the upload defaults) and one line about the rest ("walk me
+   through my channel page" takes them one at a time). The playlists are the four pillars' (§0.3). **Where each
+   piece goes is YouTube Studio's own path, checked 2026-11-21, the same in every file:** the description, the links,
+   the banner and the picture under Customization → Profile, saved with Publish (top right); the default
+   description under Settings → Upload defaults, saved with Save (YouTube applies it only to videos uploaded from a
+   computer's browser). **Compliance
    `unset` → the three are shown to READ, not to paste** (rule #3). The about section opens with the kit's chapter 6 YouTube bio (confirm; refresh only
    when the offer, the proof or the funnel URL changed; write back inside `identity/profiles.md → ## YouTube` only);
    the links are the booking line first, the guide's funnel URL second, one social; the spoken lines are the kit's
@@ -266,47 +327,53 @@ setting on Medium — the picker beside the model name"). Then:
    `identity/content-pillars.md → ## In your words`, else `identity/channel.md → Filming day:`), written to
    `channel.md → Filming day:` and read back in the proposal's pace line ("…filming on [day]s — the day you already
    film your Reels"); **only when none is on file, the one blanket question** (the day they can film a full video),
-   in its own reply, heard back and saved. Then what the plan stands on — the three topics, the first videos (the
-   first full video's topic chosen by the first-video rule, never asked; a guest named only when the Brain holds
-   one — otherwise "your first one goes on your plan the day you name someone"; the story from the Brain), the pace,
-   the filming day — proposed, **then the stop line** ("If that sounds like you, say Yes"); on the member's Yes, the
-   research line said once, the build, the hand-over two lines pointing at the document, the first video dated at
-   least three days out (rule #19) — **then the stop line.**
-3. **The board** — the one Content Dashboard gains its 🎬 YouTube tab and the next 30 days (rule #11), each card
-   with one real video to watch first (found by search and checked; one statement about them, by what is true);
-   the line is said by what is true ("adding a YouTube tab to your content board" · "building your content board
-   with a YouTube tab"). **Then the stop line.**
+   in its own reply, heard back and saved. Then what the plan stands on — **the four pillars, stated** (the niche
+   named from the Brain, the other three verbatim — §0.3), **the first three videos, stated** (the blueprint — its
+   title by the first-video rule, never asked — · why I joined my brokerage · an interview with anyone successful in
+   their upline, downline or brokerage; a guest named only when the Brain holds one — §0.2, §0.4), the pace, the
+   filming day — proposed, **then the stop line** ("If that sounds like you, say Yes"); on the member's Yes, the
+   research line said once ("what agents search for", never "which channels work" — §0.7), the build, the hand-over
+   two lines pointing at the document, the first video dated at least three days out (rule #19) — **then the stop
+   line.**
+3. **The board** — the one Content Dashboard gains its 🎬 YouTube tab and the next 30 days (rule #11), no reference
+   video on any card (§0.5); the line is said by what is true ("adding a YouTube tab to your content board" ·
+   "building your content board with a YouTube tab"). **Then the stop line.**
 4. **The card** — said only after the member's Yes at the board's stop; told, not asked (rule #23): its own short message, nothing else in it, at most 70 words before
-   "Say Yes" (rule #21); provision both on the Yes; record every line in the config block; never
-   claim a schedule that did not save; a Yes to one only ("just Mondays", "not the monthly one") → that one is created, the other line reads `later`, and
-   its turn-on phrase is said once — never a menu, never both without a Yes; anything else but a Yes → both task lines
-   read `later` and the journey carries on.
-5. **The first video — said as "Step 5 of 5"**: the first video on the plan (a new channel's trailer when that is
-   the first row), handed over with its exact title ("make my attraction video: [title]"), its recording and
-   publishing days, the Monday the Kickoff starts drafting — **said only when the Kickoff was switched on** (its
-   task line holds a task id; never on a demo Brain, never when the card got no Yes — rule #21) — and the editing
-   next step in its fixed words, stated, never hedged (rule #22).
+   "Say Yes" (rule #21); provision the Kickoff on the Yes (the month's review rides inside it — `Monthly review
+   task: inside kickoff`); record every line in the config block; never claim a schedule that did not save; never a
+   menu, never created without a Yes; anything else but a Yes → `Monday Kickoff task: later` and the journey carries on.
+5. **The first video — SCRIPTED IN FULL, then said as "Step 5 of 5"** (§0.6): the blueprint — the first row of the
+   plan for every member (no trailer, §0.1) — written by `yt-script`'s full mode inside the close, both forms (the
+   breakdown with the hook word for word, the full 8–12-minute teleprompter script), saved in the video's folder
+   and on its card; handed over with its exact title, the script's link, its recording and publishing days, the
+   phrase for the thumbnail sheet and the title and description ("make my attraction video: [title]" — the script is
+   already written, so it adds only those), the Monday the Kickoff starts drafting — **said only when the Kickoff was
+   switched on** (its task line holds a task id; never on a demo Brain, never when the card got no Yes — rule #21)
+   — and the editing next step in its fixed words, stated, never hedged (rule #22).
 **Each reply is one step and short — about 120 words outside the copy blocks for the question, proposal, hand-over and board replies; the welcome, the Channel Page message and the close run as printed — with at most ONE caveat line in the whole sitting** (rule
 #24). **The close** is a fixed, visible step, in this order (2026-11-21): the win line for Step 4 of 5 (only when
 the workflows got their Yes) · the first video as Step 5 of 5 · **what you did today** (the member's own decisions,
 each line beginning "You") · the Board-and-Book line from the sitting's closing push, both links handed over —
-"here they are" (rule #20) · at most three short numbered next steps — **the first win of the week** (compliance
-`unset` → rule #3's line; otherwise, by what is true: create your channel · play the video on your first card ·
-paste the three channel pieces), then *"To film your first three videos in one day, say 'script my first three
-videos'…"*, then the guest line (*"Invite your first interview guest, [first name] — say 'set up an agent
-interview'."* only when the plan named a guest from the Brain; nobody on file → *"Your first interview goes on
-your plan the day you name someone — say 'set up an agent interview'."*) · one plain line for later —
+"here they are" (rule #20) · at most three short numbered next steps — **first, always, THIS WEEK: the ONE video to
+film** (§0.6 — *"**This week:** film '[title]' — on your phone, in Instagram's free Edits app: it has a teleprompter —
+paste the full script, press record, read."*; never a batch, never "script my first three videos"), then **the
+channel win** only when one is due (compliance `unset` → rule #3's line; the channel not created → create it and
+bring the link; the three pieces not pasted → paste them; nothing due → no second step), then **the interview** —
+the third video (*"your third video is an interview with [first name] — say 'set up an agent interview' and I write
+your question list."* only when the plan named a guest from the Brain; nobody on file → *"…an interview with anyone
+successful in your upline, downline or brokerage — name them and say 'set up an agent interview'; I write your
+question list, no script."* — §0.4) · one plain line for later —
 "connect my YouTube numbers", never a fourth step (rule #25) · the compliance line, once, only when the status is
 `set` (on `unset` it IS the first win above and is never said a second time) — and nothing after it. A member who leaves resumes at the next step from
 the `Setup:` stamp in `identity/channel.md`; "start over" runs the whole journey again — it keeps and STATES what the member already decided (the channel, or
-"you're starting fresh"; the filming day; the first full video's topic; the pace; the topic names), never asks for it
+"you're starting fresh"; the filming day; the blueprint's title; the pace; the niche's name), never asks for it
 again — and updates everything in
 place. Every skill that assumed the old order (ideas first, the board offered, the kickoff off) assumes this one.
 
 ## 13. Demo mode (training videos)
 When the person in the session explicitly asks for a fictional member (the Brain's `brain-book-spec.md` demo
-rules): no live research — **with one exception: each card's reference video is still a real one** (one search a
-card, the same check), because a made-up link is never written and a demo board with no reference shows nothing — every number "(illustrative — demo)" with no fabricated source, no real competitor,
+rules): no live research, no exception (the old reference-video exception is gone with reference videos — §0.5) —
+every number "(illustrative — demo)" with no fabricated source, no real competitor,
 brokerage-person, or vendor names, the filename watermarked `— DEMO —`, saved only in the demo workspace, never a
 real one. Same structure as real. A demo Brain never gets a scheduled task. At the first build step of a demo sitting say
 once: *"This is a demo Brain, so I skip the live research and nothing gets scheduled."* Any doubt about who the subject is → ask
@@ -423,13 +490,14 @@ Monthly Channel Review (or the deep dive, when no review has made the proposal t
 them, never by the on-demand video read) once a month at one has held, or sooner when `identity/goals.md`'s hours
 clearly carry it and at least one video is published (never on the hours alone), or when
 the member asks. The 8-video cycle holds at either pace (one cycle in eight weeks at one a week, in four at two);
-**the locked order at one a week is niche · interview · niche · model · interview · niche · interview ·
-interview** — the same in every file — a Why I Switched allowed in an early niche slot (as Mike's own was), and a
-new channel's trailer as week one's first row, a card like any other, before the eight. **An interview slot with
+**the locked order at one a week is the blueprint (topic) · why I joined my brokerage (the first cycle's model
+slot) · interview · topic · interview · topic · interview · interview** (§0.2 — the first three are Mike's, exactly;
+from the second cycle the model slot is a model breakdown) — the same in every file; **no trailer row on any
+channel** (§0.1). **An interview slot with
 no guest named (the owner's decision, 2026-11-21 — the normal first-time member)** is titled exactly *"A
 conversation with an agent — guest to be named"*, on the plan AND on its board card — never "Book your next agent
 interview". When that week arrives and no guest is named, the week's video is the next one from the member's
-three topics, and the interview moves to the first open week after a guest is named: no week is ever empty; no
+topic pillars, and the interview moves to the first open week after a guest is named: no week is ever empty; no
 invite, guide or note is drafted to nobody; nobody is contacted without the member's yes. The member reads one
 line, word for word, said once: *"No guest named yet, so this week's video is '[title]', from your topics. Your
 first interview goes on your plan the day you name someone — say 'set up an agent interview'."* **The first-date rule (the
@@ -471,7 +539,7 @@ whole Brain, every file; a partial pull is completed first). Therefore:
   of a repurposed video as `youtube-clips-[the video's System ID].txt` (`yt-repurpose`) — six in all. A doc saved
   without its export is half-saved.
 - The board's YouTube page (rendered by the Brain plugin, never by this one) shows where the member stands (channel
-  optimized and pasted · Game Plan · board · workflows · first video), the member's three topics and their
+  optimized and pasted · Game Plan · board · workflows · first video), the member's four pillars and their
   playlists (the page says "Your topics"), this week's
   video, the workflows switched on, the last Monday Kickoff and the last Monthly Channel Review — so what this plugin writes
   to `channel.md`, the calendar's three `(YouTube)` sections, its config block and `exports/` is what the member sees. The
@@ -479,16 +547,16 @@ whole Brain, every file; a partial pull is completed first). Therefore:
 The Brain Board is the read-only map; Notion (rule #11) is the working board. To the member it is "your Brain
 Board" — never a file, never a path.
 
-## 21. Scheduled workflows — two, draft-only, both on the card's Yes — and telling the member
+## 21. Scheduled workflows — one, draft-only, on the card's Yes — and telling the member
 
-Cowork scheduled tasks run in the cloud on the member's clock. The two, by name, task id, owner and time (the
-contract's `## Scheduled workflows` section carries the same table); there is no optional set. To the member they
-are "your Monday Kickoff", "your Monthly Channel Review" and never "your two workflows" (one workflow since 2026-11-22):
+Cowork scheduled tasks run in the cloud on the member's clock. The one, by name, task id, owner and time (the
+contract's `## Scheduled workflows` section carries the same table); the Monthly Channel Review rides inside it on
+the first Monday of the month and is never a task of its own; there is no optional set. To the member it is "your
+Monday Kickoff" (its first-Monday review "your month reviewed") and never "your two workflows" (one workflow since 2026-11-22):
 
 | Workflow | Task id | Owner | Switched on | When |
 |---|---|---|---|---|
-| Monday Kickoff — this week's video drafted onto its card (three ways to open, the brief, the script start or the interview guide, the thumbnail sheet, the title and description), into the Brain and the video's folder; the board topped up to 30 days; a note of at most seven lines | `attraction-monday-kickoff` | `yt-briefing` | at setup, with the member's Yes on the workflows card | Mondays, the member's hour (default 9:00 am) |
-| Monthly Channel Review (runs INSIDE the Monday Kickoff on the first Monday of the month since 2026-11-22 — never its own task) — what went out in the month, which videos brought agent conversations, the one next step, the move to two a week when due; a member with nothing published gets the short review; the month's Studio screenshots used when they are on record, and the three-screenshots step stated at the end once a video is published; each published card's 📊 AFTER IT'S OUT; a dated YouTube block in the Brain's performance ledger | `attraction-monthly-youtube-review` | `yt-triggers` | at setup, with the same Yes | the 1st, the member's hour (default 8:00 am) |
+| Monday Kickoff — this week's video drafted in full onto its card — the whole video, both forms: the breakdown with the scripted hook and the full teleprompter script (an interview: the question list) — with the brief, the thumbnail sheet and the title and description, into the Brain and the video's folder; the board topped up to 30 days; on the first Monday of the month the Monthly Channel Review inside the same run (`yt-triggers`'s prompt: what went out in the month, which videos brought agent conversations, the one next step, the move to two a week when due; a member with nothing published gets the short review; the month's Studio screenshots used when on record; each published card's 📊 AFTER IT'S OUT; a dated YouTube block in the Brain's performance ledger — `Monthly review task:` = `inside kickoff` or `paused`); a note of at most seven lines | `attraction-monday-kickoff` | `yt-briefing` | at setup, with the member's Yes on the workflows card | Mondays, the member's hour (default 9:00 am) |
 
 The weekly numbers are the member's on demand ("how did my video do", "which videos brought me agents" —
 `yt-analytics`), never a scheduled report. The rules every task obeys:
@@ -496,12 +564,12 @@ The weekly numbers are the member's on demand ("how did my video do", "which vid
   Monthly Channel Review" will do only when it has READ a task id on that workflow's line in `config.md → ##
   YouTube (Week 5)`; `later`, `paused`, no line, or a demo Brain → the sentence is left out. The Game Plan document
   names neither — it is written before any workflow is on.
-- **The card's Yes, told not asked (rule #23).** The one card at the journey's fourth step (`yt-setup` Step 8) states both workflows in plain words with their
-  times and the email note, and closes with "Say Yes" — never "all, some, or not yet", never a choice of defaults.
+- **The card's Yes, told not asked (rule #23).** The one card at the journey's fourth step (`yt-setup` Step 8) states the one workflow — the Kickoff, with its
+  first-Monday review — in plain words with its time and the email note, and closes with "Say Yes" — never "all, some, or not yet", never a choice of defaults.
   **The card is its own short message — nothing else in it, at most 70 words before "Say Yes"** (the owner's
   review; `skills/yt-setup/references/workflows-consent.md` holds its words). A
   task is provisioned with `create_scheduled_task` — always with a plain `title` the member will recognise in their
-  Scheduled list ("Your Monday Kickoff", "Your Monthly Channel Review") and the one-line `description` the tool
+  Scheduled list ("Your Monday Kickoff") and the one-line `description` the tool
   requires, both fixed in `yt-setup/references/workflows-consent.md` — only on that Yes (or the owning skill's own "turn on …" phrase
   after a pause), its prompt the verbatim file in the owning skill's `references/`, verified with
   `list_scheduled_tasks` (adopt an existing twin, never create a second). Never claim a schedule that did not save. A
@@ -510,11 +578,12 @@ The weekly numbers are the member's on demand ("how did my video do", "which vid
   list): `Installed:` · `Plugin version:` · `Layer: identity/channel.md` · `Monday Kickoff task:` · `Monthly review
   task:` · `Email me:` — nothing else, ever; no brackets in the block. Readers accept the older `## YouTube (Week 4)`
   heading and rename it on their next write; any line beyond the six (the two retired on 2026-11-14 included) is
-  dropped on that write. **A task line holds exactly one of three values** (the same vocabulary as the Short-Form
-  block): a task id — on (`attraction-monday-kickoff · runs Mondays [time]` · `attraction-monthly-youtube-review ·
-  runs the 1st [time]`) · `paused` — the member stopped it; its phrase brings it back · `later` — not switched on
-  yet (the card did not get its Yes). A reader treats any value that is not a task id as not on, so an older
-  file's placeholder still reads correctly; a writer normalizes it to `later`.
+  dropped on that write. **The Kickoff line holds exactly one of three values** (the same vocabulary as the Short-Form
+  block): a task id — on (`attraction-monday-kickoff · runs Mondays [time]`) · `paused` — the member stopped it; its
+  phrase brings it back · `later` — not switched on yet (the card did not get its Yes). A reader treats any value
+  that is not a task id as not on, so an older file's placeholder still reads correctly; a writer normalizes it to
+  `later`. **The review line holds `inside kickoff` or `paused`** — never a task id: an older
+  `attraction-monthly-youtube-review` task found in the member's list is deleted, and the line rewritten `inside kickoff`.
 - **Draft-only, always.** A run drafts, saves, logs and pushes; it never posts, publishes, moves a pipeline stage, or
   sends anything to anyone but the member. A scheduled run has nobody to click a permission card, so every prompt falls
   back to the Brain's ledgers and says so. **A scheduled run never calls the live data connection, whatever the `Live data:` line
@@ -697,7 +766,7 @@ sense and three different "kits". So, in every skill of this plugin:
   shared spec's, the saved documents keep their file names (`Thumbnail Brief — …`, `SEO Package — …`), and the
   Brain's fields keep theirs (`Cadence:`, `Bucket`, `Lane`); the sentences around them — in chat, in a note and in
   the printed text of a document — use the member's words. **"Lane" is never printed, the Game Plan document
-  included** (2026-11-21: its `Kind` column reads Topic · Interview · Model · Trailer).
+  included** (2026-11-21: its `Kind` column reads Topic · Interview · Model — no trailer row since 2026-11-23, §0.1).
 - **Dates a person can act on.** No card and no row is dated the day of the sitting (rule #19); a date in a
   document or a line the member reads is written in words ("Sat, Nov 28").
 
@@ -708,9 +777,9 @@ sense and three different "kits". So, in every skill of this plugin:
   once, as one plain line under its numbered steps — and makes no call to the connection itself.
 - **The research skills read live numbers only when they are ALREADY there:** `identity/channel.md → Live data:
   active …` on file, the tools in the session, and the member in the chat — `yt-outliers`, `yt-research`,
-  `yt-make-video`'s reference step, `yt-board` for a card's reference video, `yt-gameplan` on a refresh. Otherwise the
-  classic paths, silently: never a sign-in, a connection check or an ask in the middle of a task, and at most one
-  closing line a run naming the phrase.
+  `yt-gameplan` on a refresh — and only under the hood, for the ranking of titles (§0.5, §0.7: no reference video
+  and no competitor's number is ever printed). Otherwise the classic paths, silently: never a sign-in, a connection
+  check or an ask in the middle of a task, and at most one closing line a run naming the phrase.
 - **A scheduled run makes ZERO calls to the connection** — the Monday Kickoff and the Monthly Channel Review read
   what the Brain already holds; an unattended run cannot answer a permission box.
 - **To the member it is "your live numbers"** — never the connector's name in a sentence about what they get; the

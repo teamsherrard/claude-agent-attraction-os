@@ -8,7 +8,7 @@
 - Mode at setup: [new / existing]  ·  Live data: [not connected / active YYYY-MM-DD / declined YYYY-MM-DD]
 - Setup: [not started (a start-over only) / kit done / plan done / board done / workflows done / complete YYYY-MM-DD]
 - Filming day: [the day the member films a full video — read from Week 4's `identity/operations.md → Filming window:` when it holds a day, otherwise their answer to setup's one question; every date on the plan is counted from it; empty → the first-date rule's fallback is used]
-- First full video: [the topic the first full video is on — one of the three topics below; chosen from the Brain at setup and read back to the member, never asked: `[topic] · [from your guide / from your method / the first of your three / your choice] YYYY-MM-DD`; empty → the plan applies the same rule and writes it]
+- First full video: [the first video is always the blueprint (Mike, 2026-11-23) — the most-searched topic that fits the member's value proposition; this line holds its TITLE, read back to the member at setup, never asked: `the blueprint — [the title] · [from what agents search most / your choice] YYYY-MM-DD`; empty → the plan applies the same rule and writes it]
 - Board: [the content board's link — this line only when identity/publishing.md does not exist; otherwise the link lives on publishing.md → Content board:]
 
 ## Positioning (from the Brain — restated as the channel's one line)
@@ -35,7 +35,6 @@
 
 ## Channel page
 - Channel Page delivered: [YYYY-MM-DD]  ·  Pasted: [all / pending: the pieces not yet in]  ·  Banner: [made in Week 3 — banner-youtube.png in the Brand folder / comes with the brand kit — not made yet / live]  ·  Bio: [the kit's chapter 6 YouTube bio — stood YYYY-MM-DD / refreshed YYYY-MM-DD]
-- Trailer: [the named video / "make my attraction video: my channel trailer" pending]
 
 ## Baseline (as of YYYY-MM-DD)
 - Subscribers: [n]  ·  Videos: [n]  ·  Most-viewed: "[title]" (~[n])  ·  Cadence observed: [n/wk]
@@ -46,7 +45,7 @@
 
 ## Game Plan anchors (written by yt-gameplan only)
 - Plan date: [YYYY-MM-DD]  ·  Doc: [workspace link]  ·  Cadence: [1 or 2]/week · since YYYY-MM-DD  ·  Step-up: [the monthly review proposes two a week after a month at one / proposed YYYY-MM-DD / taken YYYY-MM-DD]  ·  Cycle position: [cycle 1, video 1 of 8]
-- Lane names: Problem "[…]" · Situation "[…]" · Future "[…]"
+- Lane names: Niche "[the niche pillar's playlist]" · Agents "Helping struggling and new agents succeed" · Model "[Model] explained" · Interviews "Agent interviews"
 - 90-day target (from goals.md): [n] conversations · [n] calls held — YouTube's share [n]%
 
 ## Performance (appended by yt-analytics — one dated block per deep dive, newest last, never edited)
