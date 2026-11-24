@@ -179,7 +179,7 @@ who's panicking about it"*), or GUIDE · Story → GUIDE, or the invitation with
 you are, DM me [WORD]"*) · Proof → the invitation (*"want to know what she changed? If you want my help running
 this, free, [the booking line]."*), or GUIDE · Personality → follow only. Every line is tied to a thing that exists (the guide in `## Current
 magnet`; the one-pager and the call from the offer); none names the model or the money. `sf-talkinghead`,
-`sf-carousel`, `sf-greenscreen`, `sf-week-plan`, `set-up-my-metricool-and-post` and `sf-optimizer` take their CTA line from this
+`sf-carousel`, `sf-greenscreen`, `sf-week-plan`, `metricool-system` and `sf-optimizer` take their CTA line from this
 bank once it exists; until then they take it from the kit's table on the same rules.
 
 **THE DM BANK — two flows plus the story reply:**

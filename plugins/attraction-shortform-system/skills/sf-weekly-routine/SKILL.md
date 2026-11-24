@@ -146,7 +146,7 @@ Encourage. A thin week is data, not failure.
 
 ## What this skill never does
 - Writes nothing to `identity/` and nothing to `memory/content-log.md`. Rows are written by the skills
-  that make and ship the content (`sf-talkinghead`, `sf-stories`, `sf-carousel`, `set-up-my-metricool-and-post`). Calendar
+  that make and ship the content (`sf-talkinghead`, `sf-stories`, `sf-carousel`, `metricool-system`). Calendar
   events are the only thing it creates, with a yes.
 - Never posts, schedules, or sends. Never asks for the niche, the avatar, the hours, or the weekly number
   when the Brain has them.
