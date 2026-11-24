@@ -128,7 +128,7 @@ claim to avoid. "If empty, proceed" is banned; a `[Brokerage Name]` placeholder 
 Copy-paste-ready blocks, labeled, no preamble inside them: the rewritten hook and ask with the one-line why
 · VIDEO ASSETS · INSTAGRAM + FACEBOOK · TIKTOK · YOUTUBE SHORTS · LINKEDIN (if used). With the posting tool connected
 (`identity/publishing.md → Posting tool: … connected`), one line in the Yes shape — *"Scheduling this at your best time
-— say Yes."* — and hand to `set-up-my-metricool-and-post`; never schedule without the Yes; the tool not yet connected → `set-up-my-metricool-and-post`
+— say Yes."* — and hand to `metricool-system`; never schedule without the Yes; the tool not yet connected → `metricool-system`
 Job A (the posting tool is not optional; copy-paste only as the fallback line). This skill writes no Brain row; the
 skill that ships the post does.
 

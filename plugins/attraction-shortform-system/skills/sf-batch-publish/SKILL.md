@@ -138,7 +138,7 @@ link] · [the Book link]. Block the time now; a filming day that isn't on the ca
 
 **Before you batch — the prerequisites, said once, kindly, up front:**
 1. The chosen posting tool is connected (`publishing.md → Posting tool:` reads `connected`); `manual` or `chosen: …
-   — connect pending` → `set-up-my-metricool-and-post` Job A first (the one question, or the connect); until it is connected the
+   — connect pending` → `metricool-system` Job A first (the one question, or the connect); until it is connected the
    packages are handed over copy-paste, one dated doc, with the fallback line (*"until it's connected your posts are
    copy-paste; say 'connect my posting tool' when you're back"*) — never copy-paste as the plan.
 2. The tool can reach the videos (a public URL, or Drive linked inside the tool); otherwise the hybrid path

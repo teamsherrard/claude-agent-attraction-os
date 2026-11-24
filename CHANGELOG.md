@@ -2,9 +2,13 @@
 
 All notable changes to the Agent Attraction OS marketplace. Versions are per plugin; the repo `VERSION` is the marketplace release.
 
+## [0.46.3] — 2026-11-23
+
+**The Metricool system — one skill, six fixed steps, the same for every member (Short-Form 0.10.2 · Support 0.2.24).** The owner ran "help me set up my Metricool social media scheduling system" live and said "this is what I want; make sure there's a skill for this; keep the name simple — Metricool system." The posting skill is now named **`metricool-system`** (the same skill, under the same name, goes into the realtor marketplace next), and its setup mode is locked: (1) connect — the Connect card, "connected", the account read back in one line (brand, timezone, networks, what's scheduled); (2) the checklist, stated with ✓/⚠ and never asked — the program's two networks (Instagram + Facebook; TikTok/Shorts optional; LinkedIn for team leaders), Instagram as a Business or Creator account, Google Drive linked inside Metricool so the videos attach themselves, and the plan: two Reels and one carousel on two networks ≈ 26 scheduled posts a month, more than the free plan's 20, so "Starter is the plan for this program" — the two questions the live run ended on ("which plan are you on?", "is Drive linked?") are gone; (3) best posting times per network from the member's own data (program starting slots until the numbers come in); (4) the week in those slots; (5) saved to the Brain so the Monday Week Plan schedules into them for review; (6) the win line and one habit. The Week 4 sitting runs the same six steps after "connected". Support FAQ follows.
+
 ## [0.46.2] — 2026-11-23
 
-**"Set up my Metricool" lands on a skill named for it (Short-Form 0.10.1).** Cowork picks a skill by its name; the posting skill was named sf-publish, so "help me set up my Metricool system" had nothing to land on. It is now `set-up-my-metricool-and-post` (folder and name), every reference updated, and the Metricool phrases lead its trigger list ("set up my Metricool", "help me set up my Metricool system", "connect Metricool", "connect my posting tool"). The Week 4 sitting's Metricool step is unchanged. README row 4 unchanged. Nothing else changed.
+**"Set up my Metricool" lands on a skill named for it (Short-Form 0.10.1).** Cowork picks a skill by its name; the posting skill was named sf-publish, so "help me set up my Metricool system" had nothing to land on. It was renamed set-up-my-metricool-and-post (folder and name; renamed again to metricool-system in 0.46.3), every reference updated, and the Metricool phrases lead its trigger list ("set up my Metricool", "help me set up my Metricool system", "connect Metricool", "connect my posting tool"). The Week 4 sitting's Metricool step is unchanged. README row 4 unchanged. Nothing else changed.
 
 ## [0.46.1] — 2026-11-23
 

@@ -602,8 +602,23 @@ session (`search_mcp_registry` → `suggest_connectors`), call them so the **Con
 id `70ba6d62-7e98-4ef4-9073-d161d900a95f` and keywords `["posts"]` ("For your posts", a Connect button). Those tools
 absent → the click path only: *"Customize → Connectors → find Metricool → Connect, then come back and say
 'connected'."* — never a URL to paste for Metricool. On "connected" (or any yes — never wait for the exact word):
-verify with `getBrandSettings` + `getScheduledPosts`, write `Posting tool: metricool · connected YYYY-MM-DD · brand
-[name]` (never a secret) and `Best times:` (per network, from the tool), push, one line. **A member who says they
+**run the Metricool system's six steps in short form, in this one reply, stated — never a question (the owner's live
+run, 2026-11-23; the full steps are `metricool-system`'s Setup mode):** (1) `getBrandSettings` + `getScheduledPosts`
+→ the account read back in ONE line (*"✓ Connected — I can see your Metricool: brand [name], [timezone], Instagram and
+Facebook linked, nothing scheduled yet."*); (2) the checklist as ✓ / ⚠ lines — Instagram + Facebook linked (a
+missing one: the one line to link it in Metricool) · Instagram a Business or Creator account (*"Settings → Account
+type and tools → Switch to professional account → Creator; if yours already is, nothing to do"*) · Google Drive linked
+inside Metricool (*"Settings → Google Drive → connect the account that holds your content folder"* — a step to do,
+never asked) · the plan, stated: *"Starter is the plan for this program — about $20 a month; the free plan runs out in
+week three"* (never "which plan are you on"); (3) `getBestTimeToPostByNetwork` per linked network → one plain line
+each, or the starting slots (Instagram late morning weekdays · Facebook 10am–noon Mon–Wed) *"until your own numbers
+come in"*; (4) the week in those slots — the carousel on the first posting day, the two Reels on the two best days
+after the filming day, Instagram + Facebook both; (5) write `Posting tool: metricool · connected YYYY-MM-DD · brand
+[name] · [timezone] · [networks]` and `Best times: [per network] · [your data | starting slots] · plan: Starter`
+(never a secret), push, verify; (6) one line: *"✓ Metricool is set: Instagram and Facebook, posting in your best slots
+— [the slots]. Every Monday your Week Plan puts the week's posts into Metricool for your review; approve them there
+and they go out."* Nothing of this is asked; a demo Brain gets the read-back marked "(illustrative — demo)" and no
+write. **A member who says they
 already run GoHighLevel** → write `Posting tool: chosen: gohighlevel — connect pending` and the exact steps in plain
 words (per `${CLAUDE_PLUGIN_ROOT}/shared/publishing-guide.md`): *"In GoHighLevel: Settings → Integrations → Private
 Integrations → create a token with the social-planner scopes and copy it. In Cowork: Customize → Connectors → Add
@@ -613,7 +628,7 @@ location id into the connector's own fields (never into this chat) → Connect. 
 **The connect fails or cannot be read back** → one line, the only place copy-paste is said: *"until it's connected
 your posts are copy-paste; say 'connect my posting tool' when you're back."* **The member walks away mid-connect**
 → nothing more happens; the sitting waits where it is. Both lines always exist — `Posting tool:` and `Best times:`;
-`set-up-my-metricool-and-post` updates only those two. No live-data connection is ever touched during setup.
+`metricool-system` updates only those two. No live-data connection is ever touched during setup.
 
 **The step ends on the stop line — the first Reel is NOT scripted yet, and the member chooses how it opens** (said
 once Metricool is connected, or its one fallback line has been said). Write the three openings for the calendar's

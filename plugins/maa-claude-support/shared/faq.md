@@ -119,7 +119,7 @@ optional by design:
 
 - **Riverside** — the AI Editor runs on your own Riverside account (Week 4, Grow plan or higher) — the only editing engine in this program (Q81; editing in Instagram's Edits app is not part of it — Q85)
 - **ManyChat** — the comment-to-DM sequences import into your own account; the free plan first
-- **Metricool** — your posts go out through it from Week 4; free to start (copy-paste only until it is connected)
+- **Metricool** — your posts go out through it from Week 4; free to connect, and the program runs on its Starter plan (about $20 a month — the free plan's 20 posts run out in week three); copy-paste only until it is connected
 - **Your CRM** — GoHighLevel or Follow Up Boss if you have one; Google Sheets is the free option
 - **Notion** — only if you want a content board
 
@@ -665,15 +665,24 @@ not connected when setup reaches the board, a Connect button appears right in th
 Plan document and in your Brain (your four weeks: two Reels and one carousel each), the Monday plan drafts from it, and the Brain Board shows this week's posts. Say
 "map my next 30 days" any time to build or refresh the board.
 
-**Q56. How do I connect Metricool? (And what if I already run GoHighLevel?)**
-Your posts go out through Metricool — it is what the cohort uses, and setup says so rather than asking: "Your posts go
-out through Metricool — it's free to start. Click Connect, sign in, then say 'connected'." The Connect button appears
-right in the chat; or open Customize → Connectors → Metricool → Connect, then say "connect my posting tool". Posts go
-to Metricool for YOUR approval inside Metricool before anything is published. Already running GoHighLevel? Say so and
-it gives you those steps instead: you create a Private Integration token in your own sub-account and paste it, with
-your location, into the connector's own settings — never into the chat. Copy-paste is only what you do until your
-tool is connected. (A setup that asked you "Metricool or GoHighLevel — which one?" is a version before 0.10.0; update
-the plugin.)
+**Q56. How do I set up my Metricool system? (And what if I already run GoHighLevel?)**
+Say "set up my Metricool system" (setup also runs it at its Metricool step). It is the same six steps for every member,
+and it tells you — it never asks: **1.** Connect — a Connect button appears right in the chat (or Customize →
+Connectors → Metricool → Connect); sign in, say "connected", and it reads your account back in one line: your brand,
+your timezone, which networks are linked, what is already scheduled. **2.** The checklist, each line a ✓ or a ⚠ with
+the fix: Instagram and Facebook linked (the program posts to those two; TikTok and Shorts are optional reposts,
+LinkedIn is for team leaders) · Instagram set to a Business or Creator account (the one line to switch it) · Google
+Drive connected inside Metricool (Settings → Google Drive) so your videos attach on their own · the plan: the program
+runs on Metricool's Starter plan, about $20 a month — the free plan's 20 posts run out in week three. **3.** Your best
+posting times, read from your own numbers (a new account gets the program's starting slots until yours come in).
+**4.** Your week in those slots — the carousel on your first posting day, the two Reels after your filming day, on
+Instagram and Facebook both. **5.** Saved to your Brain. **6.** One close line, and from then on your Monday Week Plan
+puts the week's posts into Metricool for YOUR approval — approve them there and they go out. Nothing posts without you.
+Already running GoHighLevel? Say so and it gives you those steps instead: you create a Private Integration token in
+your own sub-account and paste it, with your location, into the connector's own settings — never into the chat.
+Copy-paste is only what you do until your tool is connected. (A setup that asked you "which plan are you on?" or "is
+your Google Drive linked?" is a version before 0.10.2; one that asked "Metricool or GoHighLevel — which one?" is before
+0.10.0 — update the plugin and say "set up my Metricool system".)
 
 **Q57. How many posts is it, and is that too much?**
 Three a week: **two Reels you film and one carousel you post** — every week, from week one, so twelve dated posts over
@@ -794,7 +803,7 @@ only one question, the same for every member, whether you have attracted fifty a
 Answer in a sentence — type it, or tap the microphone and just talk. Say "skip" and it takes that from your Brain;
 it never asks twice. Everything else it shows you for a Yes: your pillars, your week, your plan, your board. If
 your setup asks you something else — "what do agents ask you on the phone?", "who would you sit down with?", "what do you do off the clock?", "which
-topic could you talk about for twenty minutes?", "Metricool or GoHighLevel?" — or says "Question 1 of 4" or "Question 1 of 2", or
+topic could you talk about for twenty minutes?", "Metricool or GoHighLevel?", "which Metricool plan are you on?", "is your Google Drive linked?" — or says "Question 1 of 4" or "Question 1 of 2", or
 asks for "about an hour… your office, your kitchen, your car" (short-form) or "about an hour" for a full video (YouTube now says
 "about two hours") — you are on an
 older version: update the plugin (Customize → Plugins), open a new chat and say "continue my attraction short-form"

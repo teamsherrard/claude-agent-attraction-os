@@ -1,7 +1,7 @@
 # Publishing Guide — schedule + post (bring your own tool)
 
 How the system gets a finished post onto the member's socials through the tool they chose. Every workflow calls this
-at its scheduling step; `set-up-my-metricool-and-post` and `sf-batch-publish` own the scheduling conversation; `sf-setup` asks the one
+at its scheduling step; `metricool-system` and `sf-batch-publish` own the scheduling conversation; `sf-setup` asks the one
 statement (Metricool, stated — Mike, 2026-11-22; GoHighLevel only for a member who says they run it) as its last item after the Monday Week Plan and connects the tool — **the posting tool is
 not optional** (the owner, 2026-11-14 evening; house rules #21): never copy-paste as the plan, never an "optional"
 posting line. Apply house rules — talk plain, never "API" or "OAuth" in front of the member; "token" only as the thing they
@@ -68,7 +68,7 @@ Run this at setup's posting step, on "connect my posting tool", and again on "ch
 Deliver a simple green/red checklist and the one or two things to fix. Save it on the **`Posting tool:`** line
 (`metricool · connected YYYY-MM-DD · brand [name]` / `gohighlevel · connected YYYY-MM-DD · location [name]` — a
 name, never a secret) and the **`Best times:`** line (per network, from the tool) in `publishing.md`, then push.
-**These two lines are the only lines in `publishing.md` that `set-up-my-metricool-and-post` ever touches.**
+**These two lines are the only lines in `publishing.md` that `metricool-system` ever touches.**
 
 ---
 
@@ -84,6 +84,29 @@ click path only, in plain words: *"In Cowork, open **Customize → Connectors**,
 sign in to Metricool in the window that opens, come back and say 'connected'."* On "connected": `getBrandSettings` +
 `getScheduledPosts`, write `Posting tool: metricool · connected YYYY-MM-DD · brand [name]`, push, one line. Then the
 four checks above.
+
+**The locked procedure — the Metricool system's six steps, the same for every member (the owner's live run,
+2026-11-23: "our customers should go through a similar process"; its two questions — which plan, is Drive linked —
+are removed; `metricool-system` Setup mode holds the full text):** (1) **Connect** — not connected → the Connect card
+(or the click path), "come back and say 'connected'", stop; connected → `getBrandSettings` + `getScheduledPosts` and
+the account read back in one line (brand · timezone · networks linked · what is already scheduled). (2) **The
+checklist, stated with ✓ / ⚠, never asked** — connected · networks (the program's two are Instagram + Facebook;
+TikTok and Shorts optional reposts; LinkedIn for team leaders and broker-owners; a missing one gets the one line to
+link it in Metricool) · Instagram a Business or Creator account (the one line to switch it in the Instagram app; "if
+yours already is, nothing to do") · Google Drive linked inside Metricool (Settings → Google Drive — a step to do,
+never asked whether it is done) · the plan: two Reels and one carousel on two networks ≈ 26 scheduled posts a month,
+more than Free's 20 → *"Starter is the plan for this program (about $20 a month); the free plan runs out in week
+three"* — never "which plan are you on". (3) **Best times from THEIR data** — `getBestTimeToPostByNetwork` per
+linked network, one plain line each; a new account → the starting slots (Instagram late morning weekdays · Facebook
+10am–noon Mon–Wed · TikTok 10am or 6pm Wed–Thu · YouTube 4pm Wed–Thu) "until your own numbers come in". (4) **The
+week in those slots** — the carousel on the first posting day, the two Reels on the best days after the filming day
+(`Batch day(s):` / `memory/content-calendar.md`), Reels and carousel cross-posted Instagram + Facebook, reposts only
+where linked. (5) **Write `publishing.md`** — `Posting tool: metricool · connected YYYY-MM-DD · brand [name] ·
+[timezone] · [networks]` and `Best times: [per network] · [your data | starting slots] · plan: Starter`, push, verify;
+the Monday Week Plan reads these slots when it schedules for review. (6) **The close** — *"✓ Metricool is set:
+[networks], posting in your best slots — [one line]. Every Monday your Week Plan puts the week's posts into Metricool
+for your review; approve them there and they go out."* One habit, nothing after. A re-run: the read-back + "already
+set — [slots]"; change only what the member names. A demo Brain: "(illustrative — demo)", nothing written.
 
 Use the connected Metricool tools — **these are the verified names** (the owner, 2026-11-14); never call one that
 isn't here, never guess a name:
